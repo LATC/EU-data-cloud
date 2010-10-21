@@ -1,0 +1,53 @@
+html {
+	background: none repeat scroll 0 0 #E5E5E5;
+	overflow-y: scroll;
+}
+
+body {
+	width: 600px;
+	margin: auto;
+	margin-top: 10px;
+	background: #FFFFFF;
+	-moz-box-shadow: 3px 3px 4px #BBBBBB;
+}
+
+#configurations-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 60%;
+}
+
+#configurations-list li {
+	margin: 0 5px 5px 5px;
+	padding: 5px;
+	font-size: 1.2em;
+	height: 1.5em;
+}
+
+html>body #configurations-list li {
+	height: 1.5em;
+	line-height: 1.2em;
+}
+
+.ui-state-highlight {
+	height: 1.5em;
+	line-height: 1.2em;
+}
+
+button {
+	float: right;
+}
+
+h1 {
+	font-size:200%;
+}
+
+p {
+	padding: 5px;
+}
+
+footer p {
+	margin: auto;
+	text-align: center;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jdo xmlns="http://java.sun.com/xml/ns/jdo/jdo"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/jdo/jdo http://java.sun.com/xml/ns/jdo/jdo_2_2.xsd">
+    <package name="eu.latc_project.console">
+        <class name="RunningQueue" identity-type="datastore" detachable="true">
+            <field name="name" persistence-modifier="persistent" />
+            <field name="linkingConfigurations" persistence-modifier="persistent">
+                <column length="255" jdbc-type="VARCHAR"/>
+            </field>
+        </class>
+        <class name="LinkingConfiguration" identity-type="datastore" detachable="true">
+            <field name="description" persistence-modifier="persistent">
+                <column length="500" jdbc-type="VARCHAR"/>
+            </field>
+            <field name="configuration" persistence-modifier="persistent">
+                <column length="20000" jdbc-type="VARCHAR"/>
+            </field>
+        </class>
+    </package>
+</jdo>
