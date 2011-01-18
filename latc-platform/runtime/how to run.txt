@@ -1,0 +1,28 @@
+LATC Runtime Engine Manual
+
+by Jamal Nasir
+
+Required Softwares/Libraries:
+
+-SILK lib, included
+-Hadoop
+-LATC lib, included, source code is also available
+
+
+
+Hardware:
+- Your own laptop
+- demo.sindice.net
+
+
+Steps:
+- Deploy Silk, Hadoop and LATC lib on demo.sindice.net to home folder 
+- Execute following command to start LATC Runtime Engine
+
+                java -jar LATC.jar
+
+
+- Currently all results are storing in 'results' folder of home folder of user jamnas. Ask Szymon to change it
+
+
+- com.deri.latc.utility.Constants file contains addresses of LATC console and results' server and other constants
