@@ -12,6 +12,7 @@ import net.sf.json.JSONArray;
 /**
  *
  * @author jamnas
+ * Request to LATC console in JSON format
  */
 public class ListTranslator {
 

@@ -37,7 +37,8 @@ public class LinkEngine {
          */
         //Step 1
         toDoList = lt.translateMember(client.getData(Constants.LATC_CONSOLE_HOST + "/queue"));
-
+        System.out.println("*******result  host "+Constants.RESULTS_HOST);
+        
         //Step 2
 
         for (int i = 0; i < toDoList.size(); i++) {
@@ -47,11 +48,11 @@ public class LinkEngine {
             String fileContent = lt.getConfigFile(client.getData(Constants.LATC_CONSOLE_HOST + "/configuration/" + id + "/specification"));
 
 //step 2-a
-            cw.writeIt("results/" + id + "/", "spec.xml", fileContent);
+            cw.writeIt("jamal/r1/" + id + "/", "spec.xml", fileContent);
 //step 2-b,c
             if (rh.runThis(id + "", vi)) {
                 // step 2-d
-
+            	
                 // 1-Namespaces
                 vi.setGlobalPrefixes("@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . \n"
                         + "@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . \n"
@@ -92,7 +93,7 @@ public class LinkEngine {
 // 6- data dump
                 vi.setDataDump(Constants.RESULTS_HOST + "/" + id + "/" + Constants.LINKS_FILE_NAME);
 
-                cw.writeIt("results/" + id + "/", "void.ttl", vi);
+                cw.writeIt("jamal/r1/" + id + "/", "void.ttl", vi);
 
                 // 2-e
                 vi.setRemarks("Job Executed");

@@ -15,7 +15,7 @@ public class Constants {
     // TTL File
     public static final String VOID_FILE_NAME = "void.ttl";
     // Results Host
-    public static final String RESULTS_HOST = "http://vmdi2demos.deri.ie/latc/linksets";
+    public static final String RESULTS_HOST = "http://demo.sindice.net/latctemp";
     // Links file name
     public static final String LINKS_FILE_NAME = "links.nt";
 }

@@ -15,7 +15,7 @@ import com.deri.latc.utility.Constants;
  */
 public class RunHadoopJob {
 
-    public boolean runThis(String fileName, VoidInfoDto vi) {
+    public boolean runThis( String fileName, VoidInfoDto vi) {
         ContentWriter cw = new ContentWriter();
         /*
          * Step 1: Copy file into DFS
@@ -34,12 +34,12 @@ public class RunHadoopJob {
             Process process;
             int returnCode = 0;
 
-            command = "hadoop-0.20.2/bin/hadoop dfs -rmr /user/jamnas/" + fileName + "/ /user/jamnas/r" + fileName + "/ ";
+            command = "hadoop-0.20.2/bin/hadoop dfs -rmr /user/nurgun/" + fileName + "/ /user/nurgun/r" + fileName + "/ ";
             process = Runtime.getRuntime().exec(command);
             returnCode = process.waitFor();
             System.out.println(command + " Return code = " + returnCode);
 
-            command = "hadoop-0.20.2/bin/hadoop fs -put results/" + fileName + "/" + fileName + ".xml " + fileName;
+            command = "hadoop-0.20.2/bin/hadoop fs -put jamal/r1/" + fileName + "/" + "spec.xml " + fileName;
             process = Runtime.getRuntime().exec(command);
             returnCode = process.waitFor();
             System.out.println(command + " Return code = " + returnCode + "::" + new Timestamp(date.getTime()));
@@ -63,23 +63,23 @@ public class RunHadoopJob {
                 System.out.println(command + " Return code = " + returnCode + "::" + new Timestamp(date.getTime()));
                 date = new java.util.Date();
 //hadoop fs -cat src/* | hadoop fs -put - dest_file
-                command = "hadoop-0.20.2/bin/hadoop dfs -mkdir /user/jamnas/r" + fileName + "/re";
+                command = "hadoop-0.20.2/bin/hadoop dfs -mkdir /user/nurgun/r" + fileName + "/re";
                 process = Runtime.getRuntime().exec(command);
                 returnCode = process.waitFor();
                 System.out.println(command + " Return code = " + returnCode + "::" + new Timestamp(date.getTime()));
 
-                command = "hadoop-0.20.2/bin/hadoop dfs -mv /user/jamnas/r" + fileName + "/*.nt /user/jamnas/r" + fileName + "/re";
+                command = "hadoop-0.20.2/bin/hadoop dfs -mv /user/nurgun/r" + fileName + "/*.nt /user/nurgun/r" + fileName + "/re";
                 process = Runtime.getRuntime().exec(command);
                 returnCode = process.waitFor();
                 System.out.println(command + " Return code = " + returnCode + "::" + new Timestamp(date.getTime()));
 
-                command = "hadoop-0.20.2/bin/hadoop dfs -getmerge /user/jamnas/r" + fileName + "/re/ results/" + fileName + "/" + Constants.LINKS_FILE_NAME;
+                command = "hadoop-0.20.2/bin/hadoop dfs -getmerge /user/nurgun/r" + fileName + "/re/ jamal/r1/" + fileName + "/" + Constants.LINKS_FILE_NAME;
                 process = Runtime.getRuntime().exec(command);
                 returnCode = process.waitFor();
                 System.out.println(command + " Return code = " + returnCode + "::" + new Timestamp(date.getTime()));
 
 
-                command = "wc -l results/" + fileName + "/links.nt";
+                command = "wc -l jamal/r1/" + fileName + "/links.nt";
                 process = Runtime.getRuntime().exec(command);
                 returnCode = process.waitFor();
                 BufferedReader buf = new BufferedReader(new InputStreamReader(process.getInputStream()));
