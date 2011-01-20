@@ -1,4 +1,4 @@
-package eu.latc_project.misc;
+package eu.latc.misc;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -8,9 +8,9 @@ import java.io.IOException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import eu.latc_project.console.LinkingConfiguration;
-import eu.latc_project.console.Manager;
-import eu.latc_project.console.RunReport;
+import eu.latc.console.LinkingConfiguration;
+import eu.latc.console.Manager;
+import eu.latc.console.RunReport;
 
 /**
  * @author cgueret

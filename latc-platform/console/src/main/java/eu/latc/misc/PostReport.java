@@ -1,4 +1,4 @@
-package eu.latc_project.misc;
+package eu.latc.misc;
 
 import org.apache.commons.httpclient.HttpClient;
 import org.apache.commons.httpclient.HttpStatus;

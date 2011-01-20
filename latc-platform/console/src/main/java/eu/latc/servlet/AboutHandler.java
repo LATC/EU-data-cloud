@@ -1,4 +1,4 @@
-package eu.latc_project.servlet;
+package eu.latc.servlet;
 
 import org.json.JSONObject;
 
@@ -9,7 +9,7 @@ import org.restlet.resource.Get;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import eu.latc_project.console.LinkingConfiguration;
+import eu.latc.console.LinkingConfiguration;
 
 /**
  * @author cgueret

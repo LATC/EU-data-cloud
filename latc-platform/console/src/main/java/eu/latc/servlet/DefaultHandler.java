@@ -1,4 +1,4 @@
-package eu.latc_project.servlet;
+package eu.latc.servlet;
 
 import org.restlet.data.MediaType;
 import org.restlet.data.Status;

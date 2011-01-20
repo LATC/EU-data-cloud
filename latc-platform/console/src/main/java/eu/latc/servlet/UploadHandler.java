@@ -1,4 +1,4 @@
-package eu.latc_project.servlet;
+package eu.latc.servlet;
 
 import java.io.File;
 import java.util.Iterator;
@@ -18,9 +18,9 @@ import org.restlet.resource.ServerResource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import eu.latc_project.console.LinkingConfiguration;
-import eu.latc_project.console.Manager;
-import eu.latc_project.console.RunReport;
+import eu.latc.console.LinkingConfiguration;
+import eu.latc.console.Manager;
+import eu.latc.console.RunReport;
 
 /**
  * @author cgueret

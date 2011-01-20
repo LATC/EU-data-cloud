@@ -1,4 +1,4 @@
-package eu.latc_project.servlet;
+package eu.latc.servlet;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -17,8 +17,8 @@ import org.restlet.resource.ServerResource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import eu.latc_project.console.LinkingConfiguration;
-import eu.latc_project.console.Manager;
+import eu.latc.console.LinkingConfiguration;
+import eu.latc.console.Manager;
 
 public class QueueHandler extends ServerResource {
 	// Logger instance

@@ -1,10 +1,10 @@
-package eu.latc_project.servlet;
+package eu.latc.servlet;
 
 import org.restlet.Application;
 import org.restlet.Restlet;
 import org.restlet.routing.Router;
 
-import eu.latc_project.console.Manager;
+import eu.latc.console.Manager;
 
 public class MainApplication extends Application {
 	// Instance of the manager for configuration files

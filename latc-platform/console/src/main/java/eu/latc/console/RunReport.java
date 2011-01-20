@@ -1,4 +1,4 @@
-package eu.latc_project.console;
+package eu.latc.console;
 
 import java.io.Serializable;
 import java.util.Date;

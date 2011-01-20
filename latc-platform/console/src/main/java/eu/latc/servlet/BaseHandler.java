@@ -1,4 +1,4 @@
-package eu.latc_project.servlet;
+package eu.latc.servlet;
 
 import org.restlet.data.Status;
 import org.restlet.resource.ResourceException;
@@ -6,7 +6,7 @@ import org.restlet.resource.ServerResource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import eu.latc_project.console.Manager;
+import eu.latc.console.Manager;
 
 public class BaseHandler extends ServerResource {
 	
