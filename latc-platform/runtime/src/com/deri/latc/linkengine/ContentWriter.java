@@ -37,20 +37,14 @@ public class ContentWriter {
 
             content += vi.getGlobalPrefixes();
 
-            /*
-            content += ":" + vi.getSourceDatasetName() + " a void:Dataset;\n";
-            content += "    void:sparqlEndpoint <" + vi.getSourceSparqlEndpoint() + "> .\n";
-
-            content += ":" + vi.getTargetDatasetName() + " a void:Dataset;\n";
-            content += "    void:sparqlEndpoint <" + vi.getTargetSparqlEndpoint() + "> .\n";
-             */
             content += vi.getThirdPartyInterlinking();
 
-            // content += vi.getStatItem();
             System.out.println(content);
 
 
             boolean success = (new File(filePath)).mkdirs();
+            if (success)
+            {
             FileWriter fstream = new FileWriter(filePath + fileName);
             BufferedWriter out = new BufferedWriter(fstream);
 
@@ -58,7 +52,7 @@ public class ContentWriter {
             out.flush();
             //Close the output stream
             out.close();
-
+            }
 
             return true;
         } catch (Exception e) {//Catch exception if any
