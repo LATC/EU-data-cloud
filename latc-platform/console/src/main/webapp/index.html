@@ -58,25 +58,24 @@
 <!--[if IE 8 ]>    <body class="ie8"> <![endif]-->
 <!--[if IE 9 ]>    <body class="ie9"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
-<body class="ui-corner-all">
+<body>
 <!--<![endif]-->
-
-<div id="container"><header> <img src="img/latc.png" />
-<h1 style="float: right;">console</h1>
+<header>
+	<img src="img/latc.png" />
+	<h1 style="float: right;">console</h1>
 </header>
-<hr>
-<div id="main">
-<p>These are the linking configuration files currently used. Drag
-and drop them to change the ordering of their execution. Press the edit
-button to modify their content</p>
-<ul id="configurations-list"></ul>
+<section id="linkingconfiguration-column">
+<h1>Linking configurations</h1>
+<div id="configurations-list">
 </div>
-
-<hr>
+<button style="margin-right:5px" id="add-button">add</button>
+<div class="clearfix">&nbsp;</div>
+</section>
+<iframe id="linkingconfiguration-inspection" seamless="seamless" src="default.html">
+</iframe>
 <footer>
 <p>EC FP7 Support Action LOD Around-The-Clock (LATC)</p>
-</footer></div>
-<!--! end of #container -->
+</footer>
 
 
 <!-- Javascript at the bottom for fast page loading -->
@@ -100,14 +99,10 @@ button to modify their content</p>
   <![endif]-->
 
 
-<!-- yui profiler and profileviewer - remove for production -->
-<script src="js/profiling/yahoo-profiling.min.js?v=1"></script>
-<script src="js/profiling/config.js?v=1"></script>
-<!-- end profiling code -->
-
 
 <!-- asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet 
        change the UA-XXXXX-X to be your site's ID -->
+<!-- 
 <script>
 	var _gaq = [ [ '_setAccount', 'UA-XXXXX-X' ], [ '_trackPageview' ] ];
 	(function(d, t) {
@@ -117,6 +112,23 @@ button to modify their content</p>
 		s.parentNode.insertBefore(g, s);
 	})(document, 'script');
 </script>
+ -->
+ 
+<!--  Confirm dialog -->
+<div id="dialog-confirm" title="Are you sure?" style="display: none;">
+	<p><span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0;"></span>
+	This item will be permanently deleted and cannot be recovered. Are you sure?</p>
+</div>
+
+<!-- Upload dialog -->
+<div id="dialog-upload" title="Add a new configuration file" style="display: none;">
+<form id="dialog-upload-form" action="api/configuration/new" method="POST" enctype="multipart/form-data">
+<label for="file-chooser">Select an XML file</label>
+<br/>
+<input name="fileToUpload" type="file" class="ui-widget-content ui-corner-all" />
+<input type="submit" value="Submit" style="display: none;"/>
+</form>
+</div>
 
 </body>
 </html>
