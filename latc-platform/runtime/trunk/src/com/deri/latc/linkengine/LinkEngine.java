@@ -16,18 +16,19 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.sql.Timestamp;
 import java.util.Map;
+import java.util.logging.FileHandler;
 
 /**
  *
  * @author jamnas,nurainir
  */
 public class LinkEngine {
-	
+
 
 	private final LoadParameter parameters;
 	final FileWriter logfile;
 	final String RESULTDIR;
-	
+
 	@SuppressWarnings("static-access")
 	public LinkEngine (String ConfigFile) throws IOException
 	{
@@ -41,21 +42,21 @@ public class LinkEngine {
 		 if (!exists)
 			 (new File(RESULTDIR)).mkdirs();
 		 logfile = new FileWriter(RESULTDIR+"/logs");
-		
-	}
-	
-	
 
-	
+	}
+
+
+
+
     @SuppressWarnings("deprecation")
 	public void execute() throws Exception {
-   
+
         ListTranslator lt = new ListTranslator();
         ContentWriter cw = new ContentWriter();
         Map <String,String> toDoList = null;
         HttpRequestHandler client = new HttpRequestHandler(parameters.LATC_CONSOLE_HOST,RESULTDIR);
-         
-       
+
+
 /*
          * Step1: get list from panel
          * Step2: get spec file
@@ -68,14 +69,14 @@ public class LinkEngine {
          *
          */
         //Step 1
-        
+
         /*
          * Getting list of link configuration from LATC_CONSOLE
          * JSON Format :  title, identifier
          */
         lt.translateMember(client.getData(parameters.LATC_CONSOLE_HOST + "/queue"));
         toDoList = lt.getLinkingConfigs();
-        
+
         //Step 2
         for (final String id : toDoList.keySet()) {
         	System.out.println("Processing id "+id+" title "+toDoList.get(id));
@@ -92,7 +93,7 @@ public class LinkEngine {
              */
             if (this.runHadoop(id, vi,RESULTDIR)) {
                 // step 2-d
-            	
+
                 // 1-Namespaces
                 vi.setGlobalPrefixes("@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . \n"
                         + "@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . \n"
@@ -148,7 +149,7 @@ public class LinkEngine {
         logfile.close();
 
     }
-    
+
     private boolean runHadoop(String id, VoidInfoDto vi,String resultdir) {
     	  /*
            * Step 1: Copy file into DFS
@@ -161,7 +162,7 @@ public class LinkEngine {
            */
           try {
               java.util.Date date = new java.util.Date();
-            
+
 
               final String hadoop = parameters.HADOOP_PATH+"/bin/hadoop";
               String command ="";
@@ -173,7 +174,7 @@ public class LinkEngine {
               returnCode = process.waitFor();
               System.out.println(new Timestamp(date.getTime()) + "\t" +command + " Return code = " + returnCode );
               logfile.append( new java.util.Date().toString()+"\t"+command + " Return code = " + returnCode);
-              
+
               command = hadoop+" fs -put "+resultdir+'/' +id + "/" + parameters.SPEC_FILE +' ' + id;
               process = Runtime.getRuntime().exec(command);
               returnCode = process.waitFor();
@@ -187,30 +188,30 @@ public class LinkEngine {
               date = new java.util.Date();
               System.out.println(new Timestamp(date.getTime()) + "\t" +command + " Return code = " + returnCode );
               logfile.append( new java.util.Date().toString()+"\t"+command + " Return code = " + returnCode);
-              
+
               if (returnCode == 0) {
                   date = new java.util.Date();
 
                   command = hadoop+ " jar silkmr.jar match ./cache ./r" + id + " ";
                   process = Runtime.getRuntime().exec(command);
                   returnCode = process.waitFor();
-               
+
                   System.out.println(new Timestamp(date.getTime()) + "\t" +command + " Return code = " + returnCode );
                   date = new java.util.Date();
                   logfile.append( new java.util.Date().toString()+"\t"+command + " Return code = " + returnCode);
-                  
+
                   command =hadoop+ " dfs -mkdir "+parameters.HADOOP_USER +"/r" + id + "/re";
                   process = Runtime.getRuntime().exec(command);
                   returnCode = process.waitFor();
                   System.out.println(new Timestamp(date.getTime()) + "\t" +command + " Return code = " + returnCode );
                   logfile.append( new java.util.Date().toString()+"\t"+command + " Return code = " + returnCode);
-                  
+
                   command = hadoop+ " dfs -mv "+parameters.HADOOP_USER +"/r" + id + "/*.nt "+parameters.HADOOP_USER +"/r" + id + "/re";
                   process = Runtime.getRuntime().exec(command);
                   returnCode = process.waitFor();
                   System.out.println(new Timestamp(date.getTime()) + "\t" +command + " Return code = " + returnCode );
                   logfile.append( new java.util.Date().toString()+"\t"+command + " Return code = " + returnCode);
-                  
+
                   command =hadoop+ " dfs -getmerge "+parameters.HADOOP_USER +"/r"+ id + "/re/ "+resultdir+'/'+ id + '/' + parameters.LINKS_FILE_STORE;
                   process = Runtime.getRuntime().exec(command);
                   returnCode = process.waitFor();
@@ -220,7 +221,7 @@ public class LinkEngine {
                   command = "wc -l "+resultdir+'/' + id + '/'+parameters.LINKS_FILE_STORE;
                   process = Runtime.getRuntime().exec(command);
                   returnCode = process.waitFor();
-                                  
+
                   BufferedReader buf = new BufferedReader(new InputStreamReader(process.getInputStream()));
                   String line = "";
                   String stat = "";
@@ -229,7 +230,7 @@ public class LinkEngine {
                       System.out.println((++k) + " " + line);
                       stat = line;
                   }
-                  
+
                   stat = stat.substring(0, stat.indexOf(" "));
                   System.out.println("::LINE::" + stat);
                   vi.setStatItem(stat);
@@ -244,12 +245,12 @@ public class LinkEngine {
               System.out.println(e);
               return false;
           }
-    	
+
     }
 
     public static void main(String[] args) throws Exception {
-    	
-        LinkEngine le; 
+
+        LinkEngine le;
        	le = new LinkEngine(args[0]);
         le.execute();
 
