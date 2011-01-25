@@ -8,15 +8,19 @@ package com.deri.latc.linkengine;
 import com.deri.latc.translator.ListTranslator;
 import com.deri.latc.dto.VoidInfoDto;
 import com.deri.latc.utility.LoadParameter;
+import com.deri.latc.utility.LogFormatter;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.OutputStream;
 import java.sql.Timestamp;
+import java.util.HashMap;
 import java.util.Map;
 import java.util.logging.FileHandler;
+import java.util.logging.Logger;
+
 
 /**
  *
@@ -26,7 +30,7 @@ public class LinkEngine {
 
 
 	private final LoadParameter parameters;
-	final FileWriter logfile;
+	static Logger logfile;
 	final String RESULTDIR;
 
 	@SuppressWarnings("static-access")
@@ -41,19 +45,23 @@ public class LinkEngine {
 		 exists = (new File(RESULTDIR)).exists();
 		 if (!exists)
 			 (new File(RESULTDIR)).mkdirs();
-		 logfile = new FileWriter(RESULTDIR+"/logs");
+		 boolean append = true;
+	      FileHandler fh = new FileHandler(RESULTDIR+"/log", append);
+	      fh.setFormatter(new LogFormatter());
+	      logfile = Logger.getLogger("RuntimeLog");
+	      logfile.addHandler(fh);
 
 	}
 
 
 
 
-    @SuppressWarnings("deprecation")
+    
 	public void execute() throws Exception {
 
         ListTranslator lt = new ListTranslator();
         ContentWriter cw = new ContentWriter();
-        Map <String,String> toDoList = null;
+        Map <String,String> toDoList = new HashMap<String, String>();
         HttpRequestHandler client = new HttpRequestHandler(parameters.LATC_CONSOLE_HOST,RESULTDIR);
 
 
@@ -76,11 +84,10 @@ public class LinkEngine {
          */
         lt.translateMember(client.getData(parameters.LATC_CONSOLE_HOST + "/queue"));
         toDoList = lt.getLinkingConfigs();
-
+        
         //Step 2
         for (final String id : toDoList.keySet()) {
-        	System.out.println("Processing id "+id+" title "+toDoList.get(id));
-        	logfile.append( new java.util.Date().toString()+"\tProcessing id "+id+" title "+toDoList.get(id));
+        	logfile.info( "Processing id "+id+" title "+toDoList.get(id));
             VoidInfoDto vi = new VoidInfoDto();
             /*
              * Writing specification linking from LATC_CONSOLE_HOST/configuration/ID/specification
@@ -135,19 +142,18 @@ public class LinkEngine {
 
                 // 2-e
                 vi.setRemarks("Job Executed");
-                logfile.append( new java.util.Date().toString()+"\tProcessing id "+id+" title "+toDoList.get(id)+ " success");
+                logfile.info( "Processing id "+id+" title "+toDoList.get(id)+ " success");
 
             } // if hadoop
             else {
-            	logfile.append( new java.util.Date().toString()+"\tProcessing id "+id+" title "+toDoList.get(id)+ " failed");
+            	logfile.warning( "Processing id "+id+" title "+toDoList.get(id)+ " failed");
             }
 // 2-e
 
             client.postLCReport(id + "", vi);
 
         } // for loop
-        logfile.close();
-
+            
     }
 
     private boolean runHadoop(String id, VoidInfoDto vi,String resultdir) {
@@ -160,9 +166,17 @@ public class LinkEngine {
            * Step 6: TTL file (in future)
            *
            */
+    	
+    	final Logger loghadoop;
+    	
+    	
           try {
               java.util.Date date = new java.util.Date();
-
+              FileHandler fh = new FileHandler(RESULTDIR+'/'+id+"/log", true);
+    	      fh.setFormatter(new LogFormatter());
+    	      loghadoop = Logger.getLogger("HadoopLog");
+    	      loghadoop.addHandler(fh);
+    	
 
               final String hadoop = parameters.HADOOP_PATH+"/bin/hadoop";
               String command ="";
@@ -172,51 +186,45 @@ public class LinkEngine {
               command = hadoop+" dfs -rmr "+parameters.HADOOP_USER+'/' + id + " "+parameters.HADOOP_USER+"/r" + id + "/ ";
               process = Runtime.getRuntime().exec(command);
               returnCode = process.waitFor();
-              System.out.println(new Timestamp(date.getTime()) + "\t" +command + " Return code = " + returnCode );
-              logfile.append( new java.util.Date().toString()+"\t"+command + " Return code = " + returnCode);
-
+              logfile.info( command + " Return code = " + returnCode);
+             
+              
               command = hadoop+" fs -put "+resultdir+'/' +id + "/" + parameters.SPEC_FILE +' ' + id;
               process = Runtime.getRuntime().exec(command);
               returnCode = process.waitFor();
-              System.out.println(new Timestamp(date.getTime()) + "\t" +command + " Return code = " + returnCode );
-              logfile.append( new java.util.Date().toString()+"\t"+command + " Return code = " + returnCode);
-
+              logfile.info( command + " Return code = " + returnCode);
+              
+              
               command = hadoop+ " jar silkmr.jar load " + id + " ./cache";
               System.out.println(command);
               process = Runtime.getRuntime().exec(command);
               returnCode = process.waitFor();
-              date = new java.util.Date();
-              System.out.println(new Timestamp(date.getTime()) + "\t" +command + " Return code = " + returnCode );
-              logfile.append( new java.util.Date().toString()+"\t"+command + " Return code = " + returnCode);
+              logfile.info( command + " Return code = " + returnCode);
+              loghadoop.info(this.readProcess(process,returnCode));
 
               if (returnCode == 0) {
-                  date = new java.util.Date();
-
                   command = hadoop+ " jar silkmr.jar match ./cache ./r" + id + " ";
                   process = Runtime.getRuntime().exec(command);
                   returnCode = process.waitFor();
 
-                  System.out.println(new Timestamp(date.getTime()) + "\t" +command + " Return code = " + returnCode );
-                  date = new java.util.Date();
-                  logfile.append( new java.util.Date().toString()+"\t"+command + " Return code = " + returnCode);
-
+                  logfile.info( command + " Return code = " + returnCode);
+                  loghadoop.info(this.readProcess(process,returnCode));
+                  
                   command =hadoop+ " dfs -mkdir "+parameters.HADOOP_USER +"/r" + id + "/re";
                   process = Runtime.getRuntime().exec(command);
                   returnCode = process.waitFor();
-                  System.out.println(new Timestamp(date.getTime()) + "\t" +command + " Return code = " + returnCode );
-                  logfile.append( new java.util.Date().toString()+"\t"+command + " Return code = " + returnCode);
-
+                  logfile.info( command + " Return code = " + returnCode);
+                  
+                  
                   command = hadoop+ " dfs -mv "+parameters.HADOOP_USER +"/r" + id + "/*.nt "+parameters.HADOOP_USER +"/r" + id + "/re";
                   process = Runtime.getRuntime().exec(command);
                   returnCode = process.waitFor();
-                  System.out.println(new Timestamp(date.getTime()) + "\t" +command + " Return code = " + returnCode );
-                  logfile.append( new java.util.Date().toString()+"\t"+command + " Return code = " + returnCode);
+                  logfile.info( command + " Return code = " + returnCode);
 
                   command =hadoop+ " dfs -getmerge "+parameters.HADOOP_USER +"/r"+ id + "/re/ "+resultdir+'/'+ id + '/' + parameters.LINKS_FILE_STORE;
                   process = Runtime.getRuntime().exec(command);
                   returnCode = process.waitFor();
-                  System.out.println(new Timestamp(date.getTime()) + "\t" +command + " Return code = " + returnCode );
-                  logfile.append( new java.util.Date().toString()+"\t"+command + " Return code = " + returnCode);
+                  logfile.info( command + " Return code = " + returnCode);
 
                   command = "wc -l "+resultdir+'/' + id + '/'+parameters.LINKS_FILE_STORE;
                   process = Runtime.getRuntime().exec(command);
@@ -234,18 +242,43 @@ public class LinkEngine {
                   stat = stat.substring(0, stat.indexOf(" "));
                   System.out.println("::LINE::" + stat);
                   vi.setStatItem(stat);
+                  if(Integer.parseInt(stat) >0)
+                	  logfile.info( "storing result at "+resultdir+'/' + id + '/'+parameters.LINKS_FILE_STORE);
 
-                  System.out.println(new Timestamp(date.getTime()) + "\t" +command + " Return code = " + returnCode );
                   return true;
               } else {
                   vi.setRemarks("Job Failed: Error in Loading Data");
+                  logfile.severe("Job Failed: Error in Loading Data");
                   return false;
               }
           } catch (Exception e) {
-              System.out.println(e);
+        	  logfile.severe(e.getMessage());
               return false;
           }
+          
 
+    }
+    
+    
+    private String readProcess (final Process p, int returncode) {
+    	
+    	
+    	final BufferedReader in;
+    	if(returncode ==0)
+    		in =new BufferedReader ( new InputStreamReader(p.getInputStream()));
+    	else
+    		in =new BufferedReader ( new InputStreamReader(p.getErrorStream()));
+    	final StringBuffer result = new StringBuffer();
+        String line;
+
+    	try {
+			while ((line = in.readLine()) != null) {
+			    result.append(line);
+			  }
+		} catch (IOException e) {
+			logfile.severe(e.getMessage());
+		}
+		return result.toString();
     }
 
     public static void main(String[] args) throws Exception {
