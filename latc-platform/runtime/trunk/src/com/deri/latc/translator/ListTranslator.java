@@ -4,7 +4,8 @@
  */
 package com.deri.latc.translator;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
 import net.sf.json.JSONObject;
 import net.sf.json.JSONSerializer;
@@ -24,7 +25,7 @@ public class ListTranslator {
 		this.LinkingConfigs = new HashMap<String, String>();		
 	}
 
-    public void translateMember(String request) {
+    public void translateMember(final String request) {
         
         try {
           
