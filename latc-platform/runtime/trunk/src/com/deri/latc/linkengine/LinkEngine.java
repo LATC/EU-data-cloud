@@ -29,13 +29,26 @@ public class LinkEngine {
 
 	private final LoadParameter parameters;
 	static Logger logfile;
-	final String RESULTDIR;
+	String RESULTDIR;
 
-	@SuppressWarnings("static-access")
+
 	public LinkEngine (String ConfigFile) throws IOException
 	{
 		parameters = new LoadParameter(ConfigFile);
-	 	 final java.util.Date now = new java.util.Date();
+	 	this.createresultDir();
+
+	}
+
+
+	public LinkEngine (LoadParameter p)throws IOException
+	{
+		this.parameters =p;
+		this.createresultDir();
+	}
+
+	private void createresultDir() throws  IOException
+	{
+		 final java.util.Date now = new java.util.Date();
 		 RESULTDIR = parameters.RESULT_LOCAL_DIR+'/'+now.toLocaleString().substring(0, 11);
 		 boolean exists = (new File(parameters.RESULT_LOCAL_DIR)).exists();
 		 if (!exists)
@@ -48,12 +61,7 @@ public class LinkEngine {
 	      fh.setFormatter(new LogFormatter());
 	      logfile = Logger.getLogger("RuntimeLog");
 	      logfile.addHandler(fh);
-
 	}
-
-
-
-
     
 	public void execute() throws Exception {
 
@@ -82,17 +90,24 @@ public class LinkEngine {
          */
         lt.translateMember(client.getData(parameters.LATC_CONSOLE_HOST + "/queue"));
         toDoList = lt.getLinkingConfigs();
+              
         
         //Step 2
         for (final String id : toDoList.keySet()) {
         	logfile.info( "Processing id "+id+" title "+toDoList.get(id));
             VoidInfoDto vi = new VoidInfoDto();
+            //create id directory
+            boolean exists = (new File(RESULTDIR +'/'+ id)).exists();
+            if (!exists)
+   			 (new File(RESULTDIR +'/'+ id )).mkdirs();
+            
+            
             /*
              * Writing specification linking from LATC_CONSOLE_HOST/configuration/ID/specification
              */
             String specContent = client.getData(parameters.LATC_CONSOLE_HOST + "/configuration/" + id + "/specification");
-            cw.writeIt(RESULTDIR +'/'+ id + '/', parameters.SPEC_FILE, specContent);
-
+            cw.writeIt(RESULTDIR +'/'+ id + '/'+ parameters.SPEC_FILE, specContent);
+            
             /*
              * Running hadoop for silk Map reduce
              */
@@ -136,7 +151,7 @@ public class LinkEngine {
                 // 	6- data dump
                 vi.setDataDump(parameters.RESULTS_HOST + "/" + id + "/" + parameters.LINKS_FILE_STORE);
 
-                cw.writeIt(RESULTDIR +'/'+ id + '/', parameters.VOID_FILE, vi);
+                cw.writeIt(RESULTDIR +'/'+ id + '/'+ parameters.VOID_FILE, vi);
 
                 // 2-e
                 vi.setRemarks("Job Executed");
@@ -169,7 +184,7 @@ public class LinkEngine {
     	
     	
           try {
-              java.util.Date date = new java.util.Date();
+             
               FileHandler fh = new FileHandler(RESULTDIR+'/'+id+"/log", true);
     	      fh.setFormatter(new LogFormatter());
     	      loghadoop = Logger.getLogger("HadoopLog");

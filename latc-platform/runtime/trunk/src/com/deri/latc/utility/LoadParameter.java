@@ -5,6 +5,11 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
+/*
+ * Loading parameter for running runtime
+ * @author : nurainir
+ */
+
 public class LoadParameter {
 	
 	public static String HADOOP_PATH = "hadoop-0.20.2";
@@ -16,6 +21,8 @@ public class LoadParameter {
 	public static String SPEC_FILE = "spec.xml";
 	public static String VOID_FILE = "void.ttl";
 	
+	public LoadParameter()
+	{}
 	
 	public LoadParameter(String pathconfigfile) throws IOException
 	{
@@ -52,11 +59,6 @@ public class LoadParameter {
 		}
 		
 		
-	}
-	
-    public static void main(String[] args) throws Exception {
-    //	LoadParameter LP = new LoadParameter(args[0]);
-       }
-    
+	}      
 
 }
