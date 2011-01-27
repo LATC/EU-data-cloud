@@ -6,14 +6,14 @@ public class LogFormatter extends Formatter {
 
 	@Override
 	public String format(LogRecord record) {
-		 StringBuffer buf = new StringBuffer(1000);
-         buf.append(new java.util.Date());
-         buf.append(' ');
-         buf.append(record.getLevel());
-         buf.append(' ');
-         buf.append(formatMessage(record));
-         buf.append('\n');
-         return buf.toString();
+		 StringBuffer buffer = new StringBuffer(200);
+         buffer.append(new java.util.Date());
+         buffer.append(' ');
+         buffer.append(record.getLevel());
+         buffer.append(' ');
+         buffer.append(formatMessage(record));
+         buffer.append('\n');
+         return buffer.toString();
 
 	}
 

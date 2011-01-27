@@ -68,31 +68,25 @@ public class LinkEngine {
         ListTranslator lt = new ListTranslator();
         ContentWriter cw = new ContentWriter();
         Map <String,String> toDoList = new HashMap<String, String>();
-        HttpRequestHandler client = new HttpRequestHandler(parameters.LATC_CONSOLE_HOST,RESULTDIR);
-
-
-/*
-         * Step1: get list from panel
-         * Step2: get spec file
-         *  a: put on demo server
-         *  b: run it on hadoop server
-         *  c: put results in public place
-         *  d: create VoiD file
-         *  e: Put result status back to LATC console
-         * Repeat step-2 till end
-         *
-         */
-        //Step 1
+        ConsoleConnection client = new ConsoleConnection(parameters.LATC_CONSOLE_HOST);
 
         /*
          * Getting list of link configuration from LATC_CONSOLE
          * JSON Format :  title, identifier
          */
-        lt.translateMember(client.getData(parameters.LATC_CONSOLE_HOST + "/queue"));
-        toDoList = lt.getLinkingConfigs();
-              
         
-        //Step 2
+        if(!client.getQueue())
+        {
+        	logfile.severe("Error during get Queue"+client.getMessage());
+        	System.exit(0);
+        }
+        lt.translateMember(client.getMessage());
+      //  toDoList = lt.getLinkingConfigs();
+        toDoList.put("ff8081812cac8e41012cac8f20700016", "openlibrary-dbpedia.xml");
+        toDoList.put("ff8081812cac8e41012cac8f43f4001a", "sider_drugbank_drugs.xml");
+        toDoList.put("ff8081812cac8e41012cf062c623002d", "geonames-geolinked-foaf.xml");
+        toDoList.put("ff8081812cac8e41012cac8f33fa0018", "sider_dailymed_drugs.xml");
+ 
         for (final String id : toDoList.keySet()) {
         	logfile.info( "Processing id "+id+" title "+toDoList.get(id));
             VoidInfoDto vi = new VoidInfoDto();
@@ -105,66 +99,73 @@ public class LinkEngine {
             /*
              * Writing specification linking from LATC_CONSOLE_HOST/configuration/ID/specification
              */
-            String specContent = client.getData(parameters.LATC_CONSOLE_HOST + "/configuration/" + id + "/specification");
-            cw.writeIt(RESULTDIR +'/'+ id + '/'+ parameters.SPEC_FILE, specContent);
-            
-            /*
-             * Running hadoop for silk Map reduce
-             */
-            if (this.runHadoop(id, vi,RESULTDIR)) {
-                // step 2-d
-
-                // 1-Namespaces
-                vi.setGlobalPrefixes("@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . \n"
-                        + "@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . \n"
-                        + "@prefix owl: <http://www.w3.org/2002/07/owl#> . \n"
-                        + "@prefix owl: <http://rdfs.org/ns/void#> . \n"
-                        + "@prefix : <#> . \n");
-
-                // 2- dataset descriptions
-                String ds1 = specContent.substring(specContent.indexOf("id=", specContent.indexOf("DataSource ")) + 4, specContent.indexOf("type") - 1);
-                vi.setSourceDatasetName(ds1.substring(0, ds1.indexOf("\"")));
-
-                String ds2 = specContent.substring(specContent.indexOf("id=", specContent.lastIndexOf("DataSource ")) + 4, specContent.lastIndexOf("type") - 1);
-                vi.setTargetDatasetName(ds2.substring(0, ds2.indexOf("\"")));
-
-                // 3- Sparql Endpoints
-                String e1 = specContent.substring(specContent.indexOf("value=\"", specContent.indexOf("endpointURI")) + 7, specContent.indexOf("ql\"/>") + 2);
-                vi.setSourceSparqlEndpoint(e1);
-
-                String e2 = specContent.substring(specContent.indexOf("value=\"", specContent.lastIndexOf("endpointURI")) + 7, specContent.lastIndexOf("ql\"/>") + 2);
-                vi.setTargetSparqlEndpoint(e2);
-
-                // 4- Vocab
-
-                // 5- 3rd party Interlinking
-                String linktype = specContent.substring(specContent.indexOf("<LinkType>") + 10, specContent.indexOf("</LinkType>"));
-
-                vi.setLinkPredicate("         void:linkPredicate " + linktype + ";\n");
-
-                vi.setThirdPartyInterlinking(":" + vi.getSourceDatasetName() + "2" + vi.getTargetDatasetName() + " a void:Linkset ; \n "
-                        + vi.getLinkPredicate()
-                        + "          void:target :" + vi.getSourceDatasetName() + ";\n  "
-                        + "        void:target :" + vi.getTargetDatasetName() + " ;\n"
-                        + "          void:triples  " + vi.getStatItem() + ";\n          .\n");
-
-                // 	6- data dump
-                vi.setDataDump(parameters.RESULTS_HOST + "/" + id + "/" + parameters.LINKS_FILE_STORE);
-
-                cw.writeIt(RESULTDIR +'/'+ id + '/'+ parameters.VOID_FILE, vi);
-
-                // 2-e
-                vi.setRemarks("Job Executed");
-                logfile.info( "Processing id "+id+" title "+toDoList.get(id)+ " success");
-
-            } // if hadoop
-            else {
-            	logfile.warning( "Processing id "+id+" title "+toDoList.get(id)+ " failed");
+            if(!client.getSpec(id))
+            {
+            	logfile.severe("Error during get Specification id "+id+" "+client.getMessage());
             }
-// 2-e
-
-            client.postLCReport(id + "", vi);
-
+            else
+            {
+	            String specContent = client.getMessage();
+	            cw.writeIt(RESULTDIR +'/'+ id + '/'+ parameters.SPEC_FILE, specContent);
+	            
+	            /*
+	             * Running hadoop for silk Map reduce
+	             */
+	            if (this.runHadoop(id, vi,RESULTDIR)) {
+	                // step 2-d
+	
+	                // 1-Namespaces
+	                vi.setGlobalPrefixes("@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . \n"
+	                        + "@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . \n"
+	                        + "@prefix owl: <http://www.w3.org/2002/07/owl#> . \n"
+	                        + "@prefix owl: <http://rdfs.org/ns/void#> . \n"
+	                        + "@prefix : <#> . \n");
+	
+	                // 2- dataset descriptions
+	                String ds1 = specContent.substring(specContent.indexOf("id=", specContent.indexOf("DataSource ")) + 4, specContent.indexOf("type") - 1);
+	                vi.setSourceDatasetName(ds1.substring(0, ds1.indexOf("\"")));
+	
+	                String ds2 = specContent.substring(specContent.indexOf("id=", specContent.lastIndexOf("DataSource ")) + 4, specContent.lastIndexOf("type") - 1);
+	                vi.setTargetDatasetName(ds2.substring(0, ds2.indexOf("\"")));
+	
+	                // 3- Sparql Endpoints
+	                String e1 = specContent.substring(specContent.indexOf("value=\"", specContent.indexOf("endpointURI")) + 7, specContent.indexOf("ql\"/>") + 2);
+	                vi.setSourceSparqlEndpoint(e1);
+	
+	                String e2 = specContent.substring(specContent.indexOf("value=\"", specContent.lastIndexOf("endpointURI")) + 7, specContent.lastIndexOf("ql\"/>") + 2);
+	                vi.setTargetSparqlEndpoint(e2);
+	
+	                // 4- Vocab
+	
+	                // 5- 3rd party Interlinking
+	                String linktype = specContent.substring(specContent.indexOf("<LinkType>") + 10, specContent.indexOf("</LinkType>"));
+	
+	                vi.setLinkPredicate("         void:linkPredicate " + linktype + ";\n");
+	
+	                vi.setThirdPartyInterlinking(":" + vi.getSourceDatasetName() + "2" + vi.getTargetDatasetName() + " a void:Linkset ; \n "
+	                        + vi.getLinkPredicate()
+	                        + "          void:target :" + vi.getSourceDatasetName() + ";\n  "
+	                        + "        void:target :" + vi.getTargetDatasetName() + " ;\n"
+	                        + "          void:triples  " + vi.getStatItem() + ";\n          .\n");
+	
+	                // 	6- data dump
+	                vi.setDataDump(parameters.RESULTS_HOST + "/" + id + "/" + parameters.LINKS_FILE_STORE);
+	
+	                cw.writeIt(RESULTDIR +'/'+ id + '/'+ parameters.VOID_FILE, vi);
+	
+	                // 2-e
+	                vi.setRemarks(vi.getStatItem()+" Links generated succesfully");
+	                logfile.info( "Processing id "+id+" title "+toDoList.get(id)+ " success");
+	
+	            } // if hadoop
+	            else {
+	            	logfile.warning( "Processing id "+id+" title "+toDoList.get(id)+ " failed");
+	            	 vi.setRemarks ("Linkset generation failed");  
+	            }
+	// 2-e
+	
+	            client.postReport(id, vi);
+	            }
         } // for loop
             
     }
@@ -199,45 +200,46 @@ public class LinkEngine {
               command = hadoop+" dfs -rmr "+parameters.HADOOP_USER+'/' + id + " "+parameters.HADOOP_USER+"/r" + id + "/ ";
               process = Runtime.getRuntime().exec(command);
               returnCode = process.waitFor();
-              logfile.info( command + " Return code = " + returnCode);
+           //   logfile.info( command + " Return code = " + returnCode);
              
               
               command = hadoop+" fs -put "+resultdir+'/' +id + "/" + parameters.SPEC_FILE +' ' + id;
               process = Runtime.getRuntime().exec(command);
               returnCode = process.waitFor();
-              logfile.info( command + " Return code = " + returnCode);
+             // logfile.info( command + " Return code = " + returnCode);
               
               
               command = hadoop+ " jar silkmr.jar load " + id + " ./cache";
-              System.out.println(command);
+              loghadoop.info(command);
               process = Runtime.getRuntime().exec(command);
               returnCode = process.waitFor();
-              logfile.info( command + " Return code = " + returnCode);
+             // logfile.info( command + " Return code = " + returnCode);
               loghadoop.info(this.readProcess(process,returnCode));
 
               if (returnCode == 0) {
                   command = hadoop+ " jar silkmr.jar match ./cache ./r" + id + " ";
+                  loghadoop.info(command);
                   process = Runtime.getRuntime().exec(command);
                   returnCode = process.waitFor();
 
-                  logfile.info( command + " Return code = " + returnCode);
+                 // logfile.info( command + " Return code = " + returnCode);
                   loghadoop.info(this.readProcess(process,returnCode));
                   
                   command =hadoop+ " dfs -mkdir "+parameters.HADOOP_USER +"/r" + id + "/re";
                   process = Runtime.getRuntime().exec(command);
                   returnCode = process.waitFor();
-                  logfile.info( command + " Return code = " + returnCode);
+                //  logfile.info( command + " Return code = " + returnCode);
                   
                   
                   command = hadoop+ " dfs -mv "+parameters.HADOOP_USER +"/r" + id + "/*.nt "+parameters.HADOOP_USER +"/r" + id + "/re";
                   process = Runtime.getRuntime().exec(command);
                   returnCode = process.waitFor();
-                  logfile.info( command + " Return code = " + returnCode);
+                 // logfile.info( command + " Return code = " + returnCode);
 
                   command =hadoop+ " dfs -getmerge "+parameters.HADOOP_USER +"/r"+ id + "/re/ "+resultdir+'/'+ id + '/' + parameters.LINKS_FILE_STORE;
                   process = Runtime.getRuntime().exec(command);
                   returnCode = process.waitFor();
-                  logfile.info( command + " Return code = " + returnCode);
+                 // logfile.info( command + " Return code = " + returnCode);
 
                   command = "wc -l "+resultdir+'/' + id + '/'+parameters.LINKS_FILE_STORE;
                   process = Runtime.getRuntime().exec(command);
@@ -253,7 +255,7 @@ public class LinkEngine {
                   }
 
                   stat = stat.substring(0, stat.indexOf(" "));
-                  System.out.println("::LINE::" + stat);
+                  loghadoop.info(stat+" links Generated");
                   vi.setStatItem(stat);
                   if(Integer.parseInt(stat) >0)
                 	  logfile.info( "storing result at "+resultdir+'/' + id + '/'+parameters.LINKS_FILE_STORE);
@@ -291,6 +293,7 @@ public class LinkEngine {
 		} catch (IOException e) {
 			logfile.severe(e.getMessage());
 		}
+	//	if(returncode ==0 && result.toString())
 		return result.toString();
     }
 
