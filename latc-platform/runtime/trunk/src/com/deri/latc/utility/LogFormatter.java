@@ -2,6 +2,12 @@ package com.deri.latc.utility;
 import java.util.logging.Formatter;
 import java.util.logging.LogRecord;
 
+/**
+* Logger Format
+* @author Nur Aini Rakhmawati 
+* @since February 2011
+*/
+
 public class LogFormatter extends Formatter {
 
 	@Override

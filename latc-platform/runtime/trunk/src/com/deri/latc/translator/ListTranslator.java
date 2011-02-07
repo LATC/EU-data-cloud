@@ -12,9 +12,9 @@ import net.sf.json.JSONSerializer;
 import net.sf.json.JSONArray;
  
 /**
- *
- * @author jamnas, nurainir
  * Request to LATC console in JSON format
+ * @author jamnas
+ * @author Nur Aini Rakhmawati
  */
 public class ListTranslator {
 	

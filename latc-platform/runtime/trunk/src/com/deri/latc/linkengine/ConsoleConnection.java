@@ -22,7 +22,7 @@ public class ConsoleConnection {
 	 private String message=null;
 	 
 	 public ConsoleConnection(final String console){
-		this.consolehost = console;
+		this.consolehost = console+"/api";
 		
 	}
 
@@ -109,7 +109,7 @@ public class ConsoleConnection {
        NameValuePair[] data = {
            new NameValuePair("status", vi.getRemarks()),
            new NameValuePair("location", vi.getDataDump()),
-           new NameValuePair("size", vi.getStatItem())
+           new NameValuePair("size", Integer.toString(vi.getStatItem()))
        };
        return this.postData(url, data);   
    }

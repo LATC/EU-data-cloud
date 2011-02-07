@@ -11,8 +11,11 @@ import joptsimple.OptionException;
 import com.deri.latc.linkengine.LinkEngine;
 
 /**
- * @author nurrak
- */
+* Command line options for running runtime
+* @author Nur Aini Rakhmawati 
+* @since February 2011
+*/
+
 public class CommandLine {
 
 	private final String       HELP             = "help";
@@ -33,7 +36,7 @@ public class CommandLine {
 		 parser.accepts(HELP, "print usage information");
 		 parser.accepts(CONFIG_FILE, "[OPTIONAL] The path of configuration file").withRequiredArg().ofType(String.class);
 		 parser.accepts(HADOOP_PATH, "[REQUIRED] The path of hadoop instalation directory").withRequiredArg().ofType(String.class);
-		 parser.accepts(HADOOP_USER, "[REQUIRED] hadoop user for running at hbase").withRequiredArg().ofType(String.class);
+		 parser.accepts(HADOOP_USER, "[OPTIONAL] hadoop user for running at hbase").withRequiredArg().ofType(String.class);
 		 parser.accepts(LATC_CONSOLE_HOST, "[REQUIRED] The URL of console host").withRequiredArg().ofType(String.class);
 		 parser.accepts(RESULTS_HOST, "[REQUIRED] The URL of links generation").withRequiredArg().ofType(String.class);
 		 parser.accepts(LINKS_FILE, "[OPTIONAL] The name of link file for storing the triples of links generation, default : links.nt").withRequiredArg().ofType(String.class);
@@ -57,8 +60,8 @@ public class CommandLine {
 				  le.execute();
 				  System.exit(0);
 			  }
-			  if ((!options.has(HADOOP_PATH) && !options.has(HADOOP_USER)) || !options.has(LATC_CONSOLE_HOST) || !options.has(RESULTS_HOST)) {
-			      System.out.println("Error parameter hadoop path, hadoop user, URL of console host and URL of links generation are required");
+			  if (!options.has(HADOOP_PATH) || !options.has(LATC_CONSOLE_HOST) || !options.has(RESULTS_HOST)) {
+			      System.out.println("Error parameter hadoop path, URL of console host and URL of links generation are required");
 			      parser.printHelpOn(System.out);
 			      System.exit(0);
 			    }
@@ -98,7 +101,7 @@ public class CommandLine {
                                           file
 --hadoop-path                           [REQUIRED] The path of hadoop
                                           instalation directory
---hadoop-user                           [REQUIRED] hadoop user for running at
+--hadoop-user                           [OPTIONAL] hadoop user for running at
                                           hbase
 --help                                  print usage information
 --latc-console-host                     [REQUIRED] The URL of console host

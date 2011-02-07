@@ -18,14 +18,14 @@ public class VoidInfoDto  {
     public VoidInfoDto() {
 
     }
-    protected String statItem="0";
+    private int statItem=0;
 
     /**
      * Get the value of statItem
      *
      * @return the value of statItem
      */
-    public String getStatItem() {
+    public int getStatItem() {
         return statItem;
     }
 
@@ -34,11 +34,11 @@ public class VoidInfoDto  {
      *
      * @param statItem new value of statItem
      */
-    public void setStatItem(String statItem) {
+    public void setStatItem(int statItem) {
         this.statItem = statItem;
     }
 
-    protected String string;
+    private String string;
 
     /**
      * Get the value of string
@@ -48,7 +48,7 @@ public class VoidInfoDto  {
     public String getString() {
         return string;
     }
-    protected String linkPredicate;
+    private String linkPredicate;
 
     /**
      * Get the value of linkPredicate
@@ -79,7 +79,7 @@ public class VoidInfoDto  {
 
 
 
-    public String globalPrefixes;
+    private String globalPrefixes;
 
     /**
      * Get the value of globalPrefixes
@@ -99,7 +99,7 @@ public class VoidInfoDto  {
         this.globalPrefixes = globalPrefixes;
     }
 
-    public String sourceSparqlEndpoint;
+    private String sourceSparqlEndpoint;
 
     /**
      * Get the value of sourceSparqlEndpoint
@@ -118,8 +118,30 @@ public class VoidInfoDto  {
     public void setSourceSparqlEndpoint(String sourceSparqlEndpoint) {
         this.sourceSparqlEndpoint = sourceSparqlEndpoint;
     }
+    
+    
+    private String sourceUriLookupEndpoint;
+    
+    /**
+     * Get the value of SourceUriLookupEndpoint
+     *
+     * @return the value of sourceSparqlEndpoint
+     */
+    public String getSourceUriLookupEndpoint() {
+        return sourceUriLookupEndpoint;
+    }
 
-    public String targetSparqlEndpoint;
+    /**
+     * Set the value of SourceUriLookupEndpoint
+     *
+     * @param sourceSparqlEndpoint new value of sourceSparqlEndpoint
+     */
+    public void setSourceUriLookupEndpoint(String sourceUriLookupEndpoint) {
+        this.sourceUriLookupEndpoint = sourceUriLookupEndpoint;
+    }
+    
+
+    private String targetSparqlEndpoint;
 
     /**
      * Get the value of targetSparqlEndpoint
@@ -138,7 +160,29 @@ public class VoidInfoDto  {
     public void setTargetSparqlEndpoint(String targetSparqlEndpoint) {
         this.targetSparqlEndpoint = targetSparqlEndpoint;
     }
-    protected String sourceDatasetName;
+    
+    private String targetUriLookupEndpoint;
+
+    /**
+     * Get the value of targetUriLookupEndpoint
+     *
+     * @return the value of targetUriLookupEndpoint
+     */
+    public String getTargetUriLookupEndpoint() {
+        return targetUriLookupEndpoint;
+    }
+
+    /**
+     * Set the value of targetUriLookupEndpoint
+     *
+     * @param targetUriLookupEndpoint new value of targetUriLookuEndpoint
+     */
+    public void setTargetUriLookupEndpoint(String targetUriLookupEndpoint) {
+        this.targetUriLookupEndpoint = targetUriLookupEndpoint;
+    }
+    
+    
+    private String sourceDatasetName;
 
     /**
      * Get the value of sourceDatasetName
@@ -157,7 +201,7 @@ public class VoidInfoDto  {
     public void setSourceDatasetName(String sourceDatasetName) {
         this.sourceDatasetName = sourceDatasetName;
     }
-    protected String targetDatasetName;
+    private String targetDatasetName;
 
     /**
      * Get the value of targetDatasetName
@@ -176,7 +220,7 @@ public class VoidInfoDto  {
     public void setTargetDatasetName(String targetDatasetName) {
         this.targetDatasetName = targetDatasetName;
     }
-    protected String thirdPartyInterlinking;
+    private String thirdPartyInterlinking;
 
     /**
      * Get the value of thirdPartyInterlinking
@@ -195,7 +239,7 @@ public class VoidInfoDto  {
     public void setThirdPartyInterlinking(String thirdPartyInterlinking) {
         this.thirdPartyInterlinking = thirdPartyInterlinking;
     }
-    protected String remarks;
+    private String remarks;
 
     /**
      * Get the value of remarks
@@ -214,7 +258,7 @@ public class VoidInfoDto  {
     public void setRemarks(String remarks) {
         this.remarks = remarks;
     }
-    protected String dataDump;
+    private String dataDump;
 
     /**
      * Get the value of dataDump
