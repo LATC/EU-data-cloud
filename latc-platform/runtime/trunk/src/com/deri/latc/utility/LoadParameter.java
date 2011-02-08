@@ -5,7 +5,6 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-import com.deri.latc.linkengine.LinkEngine;
 
 /**
 *  Loading parameter for running runtime
@@ -14,14 +13,14 @@ import com.deri.latc.linkengine.LinkEngine;
 */
 public class LoadParameter {
 	
-	public static String HADOOP_PATH = "hadoop-0.20.2";
-	public static String HADOOP_USER = System.getProperty("user.name");
-	public static String LATC_CONSOLE_HOST = "http://fspc409.few.vu.nl/LATC_Console";
-	public static String LINKS_FILE_STORE  = "links.nt";
-	public static String RESULTS_HOST = "http://demo.sindice.net/latctemp";
-	public static String RESULT_LOCAL_DIR = "results";
-	public static String SPEC_FILE = "spec.xml";
-	public static String VOID_FILE = "void.ttl";
+	public String HADOOP_PATH = "hadoop-0.20.2";
+	public String HADOOP_USER = System.getProperty("user.name");
+	public String LATC_CONSOLE_HOST = "http://fspc409.few.vu.nl/LATC_Console";
+	public String LINKS_FILE_STORE  = "links.nt";
+	public String RESULTS_HOST = "http://demo.sindice.net/latctemp";
+	public String RESULT_LOCAL_DIR = "results";
+	public String SPEC_FILE = "spec.xml";
+	public String VOID_FILE = "void.ttl";
 	
 	public LoadParameter()
 	{}

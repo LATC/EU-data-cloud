@@ -96,7 +96,7 @@ public class HadoopClient {
 		final Path pathfile = new Path("/user/"+this.User+'/'+path);
 		if (this.exists(pathfile))
 			try {
-				hdfs.delete(pathfile);
+				hdfs.delete(pathfile,false);
 				delete = true;
 			} catch (IOException e) {
 				this.ErrorMessage = e.getMessage();
@@ -132,7 +132,7 @@ public class HadoopClient {
 		 		 
 		 StringBuffer buffer = new StringBuffer();
 		 try {
-			 FSDataInputStream dis1 = this.hdfs.open(pathsrc1);
+			 FSDataInputStream dis1 = hdfs.open(pathsrc1);
 			 int data = dis1.read();
 			 while(data>0)
 			 {
@@ -142,7 +142,7 @@ public class HadoopClient {
 			 }
 			 dis1.close();
 			
-			 FSDataInputStream dis2 = this.hdfs.open(pathsrc2);
+			 FSDataInputStream dis2 = hdfs.open(pathsrc2);
 			 data = dis2.read();
 			 if(data!=-1)
 				 buffer.append("\n");
@@ -187,7 +187,7 @@ public class HadoopClient {
 	 public void close()
 	 {
 		 try {
-			this.hdfs.close();
+			hdfs.close();
 		} catch (IOException ex) {
 			this.ErrorMessage = ex.getMessage();
         }
@@ -205,7 +205,7 @@ public class HadoopClient {
 		 final Path pathdes = new Path("/user/"+this.User+'/'+destfs);
 		 boolean copy = false;
 		 try {
-			this.hdfs.copyFromLocalFile(pathsrc, pathdes);
+			hdfs.copyFromLocalFile(pathsrc, pathdes);
 			copy=true;
 		} catch (IOException e) {
 			this.ErrorMessage = e.getMessage();
@@ -219,7 +219,7 @@ public class HadoopClient {
 		 final Path pathdes = new Path("/user/"+this.User+'/'+destlocal);
 		 boolean copy = false;
 		 try {
-			this.hdfs.copyToLocalFile(pathsrc, pathdes);
+			hdfs.copyToLocalFile(pathsrc, pathdes);
 			copy=true;
 		} catch (IOException e) {
 			this.ErrorMessage = e.getMessage();

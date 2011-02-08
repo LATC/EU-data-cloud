@@ -22,6 +22,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.logging.FileHandler;
 import java.util.logging.Logger;
+import java.util.Date;
+import java.text.DateFormat;
+
 
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
@@ -57,8 +60,8 @@ public class LinkEngine {
 
 	private void createresultDir() throws  IOException
 	{
-		 final java.util.Date now = new java.util.Date();
-		 RESULTDIR = parameters.RESULT_LOCAL_DIR+'/'+now.toLocaleString().substring(0, 11);
+		 final Date now = new java.util.Date();
+		 RESULTDIR = parameters.RESULT_LOCAL_DIR+'/'+DateFormat.getDateInstance().format(now).substring(0, 11);
 		 boolean exists = (new File(parameters.RESULT_LOCAL_DIR)).exists();
 		 if (!exists)
 			 (new File(parameters.RESULT_LOCAL_DIR)).mkdirs();
@@ -74,8 +77,14 @@ public class LinkEngine {
 	public void execute() throws Exception {
 
 		//testing console
-       this.testConn(parameters.LATC_CONSOLE_HOST);
-      		
+		 if(TestHTTP.test(parameters.LATC_CONSOLE_HOST))
+	        	logfile.info(parameters.LATC_CONSOLE_HOST+" OK");
+	        else 
+	        {
+	        	logfile.severe(parameters.LATC_CONSOLE_HOST+" DOWN");
+	        	System.exit(0);
+	        	}
+            		
 		ListTranslator lt = new ListTranslator();
         ContentWriter cw = new ContentWriter();
         Map <String,String> toDoList = new HashMap<String, String>();
@@ -92,22 +101,10 @@ public class LinkEngine {
         	System.exit(0);
         }
         lt.translateMember(client.getMessage());
-      //  toDoList = lt.getLinkingConfigs();
-        toDoList.put("ff8081812cac8e41012cac8f20700016", "openlibrary-dbpedia.xml");
-        toDoList.put("ff8081812cac8e41012cac8f43f4001a", "sider_drugbank_drugs.xml");
-        toDoList.put("ff8081812cac8e41012cac8f33fa0018", "sider_dailymed_drugs.xml");
-        toDoList.put("ff8081812cac8e41012cf0357d490028", "sider_diseasome_diseases.xml");
-        toDoList.put("ff8081812cac8e41012cbbc81dad001e", "climb_silk_link_spec.xml");
-        toDoList.put("ff8081812cac8e41012cac8e76c20006", "dbpedia-lgd_lake.xml");
-        toDoList.put("ff8081812cac8e41012cac8ed5aa000e", "dbpedia-lgd_university.xml");
-        toDoList.put("ff8081812cac8e41012cac8ec3ea000c", "dbpedia-lgd_stadium.xml");
-        toDoList.put("ff8081812cac8e41012cac8ea77a000a", "dbpedia-lgd_school.xml");
-        //toDoList.put("ff8081812cac8e41012cac8e95820008", "dbpedia-lgd_mountain.xml");
-        
- 
-        
+        toDoList = lt.getLinkingConfigs();
+             
         for (final String id : toDoList.keySet()) {
-        	logfile.info( "Processing id "+id+" title "+toDoList.get(id));
+        	logfile.info( "start processing id "+id+" title "+toDoList.get(id));
             
             //create id directory
             boolean exists = (new File(RESULTDIR +'/'+ id)).exists();
@@ -128,15 +125,35 @@ public class LinkEngine {
 	            cw.writeIt(RESULTDIR +'/'+ id + '/'+ parameters.SPEC_FILE, specContent);
 	            VoidInfoDto Void=this.parseSpec(RESULTDIR +'/'+ id + '/'+ parameters.SPEC_FILE);
                 
+//	         	6- data dump
+                Date now = new java.util.Date();
+                Void.setDataDump(parameters.RESULTS_HOST + '/' +DateFormat.getDateInstance().format(now).substring(0, 11)+'/'+ id + "/" + parameters.LINKS_FILE_STORE);
+                
 	        	//testing endpoint
-	            if(Void.getSourceSparqlEndpoint()!=null)
-	            	this.testConn(Void.getSourceSparqlEndpoint());
-	            if(Void.getTargetSparqlEndpoint()!=null)
-	            	this.testConn(Void.getTargetSparqlEndpoint());
-	            if(Void.getSourceUriLookupEndpoint()!=null)
-	            	this.testConn(Void.getSourceUriLookupEndpoint());
-	            if(Void.getTargetUriLookupEndpoint()!=null)
-	            	this.testConn(Void.getTargetUriLookupEndpoint());
+	            if(Void.getSourceSparqlEndpoint()!=null && !this.testConn(Void.getSourceSparqlEndpoint()))
+	            	{
+	            		Void.setRemarks(Void.getSourceSparqlEndpoint()+" DOWN");
+	            		client.postReport(id, Void);
+	            		System.exit(0);
+	            	}
+	            if(Void.getTargetSparqlEndpoint()!=null && !this.testConn(Void.getTargetSparqlEndpoint()))
+	            	{
+	            		Void.setRemarks(Void.getTargetSparqlEndpoint()+" DOWN");
+	            		client.postReport(id, Void);
+	            		System.exit(0);
+	            	}
+	            if(Void.getSourceUriLookupEndpoint()!=null && !this.testConn(Void.getSourceUriLookupEndpoint()))
+	            	{
+	            		Void.setRemarks(Void.getSourceUriLookupEndpoint()+" DOWN");
+	            		client.postReport(id, Void);
+	            		System.exit(0);
+	            	}
+	            if(Void.getTargetUriLookupEndpoint()!=null && !this.testConn(Void.getTargetUriLookupEndpoint()))
+	            	{
+	            		Void.setRemarks(Void.getTargetUriLookupEndpoint()+" DOWN");
+	            		client.postReport(id, Void);
+	            		System.exit(0);
+	            	}
             
 	                       
 	            
@@ -161,9 +178,7 @@ public class LinkEngine {
 	                        + "        void:target :" + Void.getTargetDatasetName() + " ;\n"
 	                        + "          void:triples  " + Void.getStatItem() + ";\n          .\n");
 	
-	                // 	6- data dump
-	                java.util.Date now = new java.util.Date();
-	                Void.setDataDump(parameters.RESULTS_HOST + '/' +now.toLocaleString().substring(0, 11)+'/'+ id + "/" + parameters.LINKS_FILE_STORE);
+	                
 	
 	                cw.writeIt(RESULTDIR +'/'+ id + '/'+ parameters.VOID_FILE, Void);
 	
@@ -173,11 +188,10 @@ public class LinkEngine {
 	
 	            } // if hadoop
 	            else {
-	            	logfile.warning( "Processing id "+id+" title "+toDoList.get(id)+ " failed");
-	            	Void.setRemarks ("Linkset generation failed");  
+	            	logfile.severe( "Processing id "+id+" title "+toDoList.get(id)+ " failed");
+         	 
 	            }
-	// 2-e
-	
+
 	            client.postReport(id, Void);
 	            }
         } // for loop
@@ -187,7 +201,7 @@ public class LinkEngine {
     private boolean runHadoop(String id, VoidInfoDto vi,String resultdir) {
 
     	
-    	final Logger loghadoop;
+    	Logger loghadoop;
     	HadoopClient HC = new HadoopClient(parameters.HADOOP_PATH,parameters.HADOOP_USER);
     	
     	
@@ -205,7 +219,9 @@ public class LinkEngine {
     	        else 
     	        {
     	        	loghadoop.severe("HADOOP DOWN "+HC.getMessage());
-    	        	System.exit(0);
+    	        	vi.setRemarks("HADOOP DOWN "+HC.getMessage());
+    	        	fh.close();
+    	        	return false;
     	        }
     	      
               final String hadoop = parameters.HADOOP_PATH+"/bin/hadoop";
@@ -228,15 +244,20 @@ public class LinkEngine {
               process = Runtime.getRuntime().exec(command);
               returnCode = process.waitFor();
              
-              loghadoop.info(this.readProcess(process,returnCode));
               // SILK LOAD success
               if (returnCode == 0) {
                   command = hadoop+ " jar silkmr.jar match ./cache ./r" + id + " ";
                   loghadoop.info(command);
                   process = Runtime.getRuntime().exec(command);
                   returnCode = process.waitFor();
-
-                  loghadoop.info(this.readProcess(process,returnCode));
+                  if (returnCode != 0)
+                  {
+                	  loghadoop.severe(this.readProcess(process,returnCode));
+                	  vi.setRemarks("Job Failed: Error in Matching Data");
+                      logfile.severe("Job Failed: Error in Matching Data");
+                      fh.close();
+                      return false;
+                  }
                   
                   HC.copyMergeToLocal("/r"+id+"/*.nt", resultdir+'/'+ id + '/' + parameters.LINKS_FILE_STORE, false);
               
@@ -250,19 +271,23 @@ public class LinkEngine {
                   vi.setStatItem(numbLine);
                   if(numbLine >0)
                 	  logfile.info( "storing result at "+resultdir+'/' + id + '/'+parameters.LINKS_FILE_STORE);
-
+                  fh.close();
                   return true;
-              } else {
-                  vi.setRemarks("Job Failed: Error in Loading Data");
+              } 
+              // SILK load failed
+              else {
+            	  loghadoop.severe(this.readProcess(process,returnCode));
+            	  vi.setRemarks("Job Failed: Error in Loading Data");
                   logfile.severe("Job Failed: Error in Loading Data");
+                  fh.close();
                   return false;
               }
+              
           } catch (Exception e) {
-        	  logfile.severe(e.getMessage());
+        	  logfile.severe(e.getMessage());        	 
               return false;
           }
-          
-
+      
     }
     
     
@@ -311,17 +336,20 @@ public class LinkEngine {
     	return Vi;    	
     }
 
-    private void testConn(String URL)
+  
+    
+    private boolean testConn(String URL)
     {
 
         if(TestHTTP.test(URL))
-        	logfile.info(URL+" OK");
+        	return true;
         else 
         {
         	logfile.severe(URL+" DOWN");
-        	System.exit(0);
+        	return false;
         }
     }
+    
     public static void main(String[] args) throws Exception {
 
         LinkEngine le;

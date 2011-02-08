@@ -18,7 +18,7 @@ public class VoidInfoDto  {
     public VoidInfoDto() {
 
     }
-    private int statItem=0;
+    private int statItem=-1;
 
     /**
      * Get the value of statItem
