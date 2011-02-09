@@ -134,25 +134,25 @@ public class LinkEngine {
 	            	{
 	            		Void.setRemarks(Void.getSourceSparqlEndpoint()+" DOWN");
 	            		client.postReport(id, Void);
-	            		System.exit(0);
+	            		continue;
 	            	}
 	            if(Void.getTargetSparqlEndpoint()!=null && !this.testConn(Void.getTargetSparqlEndpoint()))
 	            	{
 	            		Void.setRemarks(Void.getTargetSparqlEndpoint()+" DOWN");
 	            		client.postReport(id, Void);
-	            		System.exit(0);
+	            		continue;
 	            	}
 	            if(Void.getSourceUriLookupEndpoint()!=null && !this.testConn(Void.getSourceUriLookupEndpoint()))
 	            	{
 	            		Void.setRemarks(Void.getSourceUriLookupEndpoint()+" DOWN");
 	            		client.postReport(id, Void);
-	            		System.exit(0);
+	            		continue;
 	            	}
 	            if(Void.getTargetUriLookupEndpoint()!=null && !this.testConn(Void.getTargetUriLookupEndpoint()))
 	            	{
 	            		Void.setRemarks(Void.getTargetUriLookupEndpoint()+" DOWN");
 	            		client.postReport(id, Void);
-	            		System.exit(0);
+	            		continue;
 	            	}
             
 	                       
@@ -163,24 +163,7 @@ public class LinkEngine {
 	            if (this.runHadoop(id, Void,RESULTDIR)) {
 	                
 	
-	                // 1-Namespaces
-	            	Void.setGlobalPrefixes("@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . \n"
-	                        + "@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . \n"
-	                        + "@prefix owl: <http://www.w3.org/2002/07/owl#> . \n"
-	                        + "@prefix owl: <http://rdfs.org/ns/void#> . \n"
-	                        + "@prefix : <#> . \n");
-	
-	            	Void.setLinkPredicate("         void:linkPredicate " + Void.getLinkPredicate() + ";\n");
-	
-	            	Void.setThirdPartyInterlinking(":" + Void.getSourceDatasetName() + "2" + Void.getTargetDatasetName() + " a void:Linkset ; \n "
-	                        + Void.getLinkPredicate()
-	                        + "          void:target :" + Void.getSourceDatasetName() + ";\n  "
-	                        + "        void:target :" + Void.getTargetDatasetName() + " ;\n"
-	                        + "          void:triples  " + Void.getStatItem() + ";\n          .\n");
-	
-	                
-	
-	                cw.writeIt(RESULTDIR +'/'+ id + '/'+ parameters.VOID_FILE, Void);
+	               cw.writeIt(RESULTDIR +'/'+ id + '/'+ parameters.VOID_FILE, Void);
 	
 	                // 2-e
 	                Void.setRemarks(Void.getStatItem()+" Links generated succesfully");

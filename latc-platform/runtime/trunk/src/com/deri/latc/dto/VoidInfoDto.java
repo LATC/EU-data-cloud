@@ -48,7 +48,7 @@ public class VoidInfoDto  {
     public String getString() {
         return string;
     }
-    private String linkPredicate;
+    private String linkPredicate=null;
 
     /**
      * Get the value of linkPredicate
@@ -79,7 +79,7 @@ public class VoidInfoDto  {
 
 
 
-    private String globalPrefixes;
+    private String globalPrefixes=null;
 
     /**
      * Get the value of globalPrefixes
@@ -99,7 +99,7 @@ public class VoidInfoDto  {
         this.globalPrefixes = globalPrefixes;
     }
 
-    private String sourceSparqlEndpoint;
+    private String sourceSparqlEndpoint=null;
 
     /**
      * Get the value of sourceSparqlEndpoint
@@ -120,7 +120,7 @@ public class VoidInfoDto  {
     }
     
     
-    private String sourceUriLookupEndpoint;
+    private String sourceUriLookupEndpoint=null;
     
     /**
      * Get the value of SourceUriLookupEndpoint
@@ -141,7 +141,7 @@ public class VoidInfoDto  {
     }
     
 
-    private String targetSparqlEndpoint;
+    private String targetSparqlEndpoint=null;
 
     /**
      * Get the value of targetSparqlEndpoint
@@ -161,7 +161,7 @@ public class VoidInfoDto  {
         this.targetSparqlEndpoint = targetSparqlEndpoint;
     }
     
-    private String targetUriLookupEndpoint;
+    private String targetUriLookupEndpoint=null;
 
     /**
      * Get the value of targetUriLookupEndpoint
@@ -182,7 +182,7 @@ public class VoidInfoDto  {
     }
     
     
-    private String sourceDatasetName;
+    private String sourceDatasetName=null;
 
     /**
      * Get the value of sourceDatasetName
@@ -201,7 +201,7 @@ public class VoidInfoDto  {
     public void setSourceDatasetName(String sourceDatasetName) {
         this.sourceDatasetName = sourceDatasetName;
     }
-    private String targetDatasetName;
+    private String targetDatasetName=null;
 
     /**
      * Get the value of targetDatasetName
@@ -220,7 +220,7 @@ public class VoidInfoDto  {
     public void setTargetDatasetName(String targetDatasetName) {
         this.targetDatasetName = targetDatasetName;
     }
-    private String thirdPartyInterlinking;
+    private String thirdPartyInterlinking=null;
 
     /**
      * Get the value of thirdPartyInterlinking
@@ -239,7 +239,7 @@ public class VoidInfoDto  {
     public void setThirdPartyInterlinking(String thirdPartyInterlinking) {
         this.thirdPartyInterlinking = thirdPartyInterlinking;
     }
-    private String remarks;
+    private String remarks=null;
 
     /**
      * Get the value of remarks
@@ -258,7 +258,7 @@ public class VoidInfoDto  {
     public void setRemarks(String remarks) {
         this.remarks = remarks;
     }
-    private String dataDump;
+    private String dataDump=null;
 
     /**
      * Get the value of dataDump
