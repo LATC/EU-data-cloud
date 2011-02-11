@@ -66,6 +66,8 @@ public class UploadHandler extends ServerResource {
 	 */
 	@Post("multipart")
 	public Representation add(Representation entity) throws Exception {
+		logger.info("received " + entity);
+		
 		if ((entity == null)
 				|| (!MediaType.MULTIPART_FORM_DATA.equals(
 						entity.getMediaType(), true))) {

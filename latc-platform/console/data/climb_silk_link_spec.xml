@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Silk>
+    <Prefixes>
+        <Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#"/>
+        <Prefix id="dbpedia" namespace="http://dbpedia.org/ontology/"/>
+        <Prefix id="gn" namespace="http://www.geonames.org/ontology#"/>
+        <Prefix id="geo" namespace="http://www.w3.org/2003/01/geo/wgs84_pos#"/>
+        <Prefix id="climb" namespace=" http://climb.dataincubator.org/vocabs/climb/"/>
+        <Prefix id="dct" namespace=" http://purl.org/dc/terms/"/>
+    </Prefixes>
+    <DataSources>
+        <DataSource id="climb" type="sparqlEndpoint">
+             <Param name="endpointURI" value="http://sparql.sindice.com/sparql"/>
+            <Param name="login" value="deri"/>
+            <Param name="password" value="first sindice sparql endpoint"/>
+        </DataSource>
+        <DataSource id="ordnancesurvey" type="sparqlEndpoint">
+            <Param name="endpointURI" value="http://sparql.sindice.com/sparql"/>
+            <Param name="login" value="deri"/>
+            <Param name="password" value="first sindice sparql endpoint"/>
+        </DataSource>
+    </DataSources>
+    <Interlinks>
+        <Interlink id="venues">
+            <LinkType>owl:sameAs</LinkType>
+            <SourceDataset dataSource="climb" var="a">
+                <RestrictTo>
+          ?a a climb:Venue ;
+          geo:lat ?latA ;
+          geo:long ?longA .
+        </RestrictTo>
+            </SourceDataset>
+            <TargetDataset dataSource="climb" var="b">
+                <RestrictTo>
+          ?b a climb:Venue ;
+          climb:route [
+          geo:lat ?latB ;
+          geo:long ?longB
+          ] .
+        </RestrictTo>
+            </TargetDataset>
+            <Blocking blocks="10" function="alphanumeric">
+                <Input path="?a/rdfs:label"/>
+            </Blocking>
+            <LinkCondition>
+                <Aggregate type="average">
+                    <Compare metric="jaro">
+                        <Input path="?a/rdfs:label"/>
+                        <Input path="?b/rdfs:label"/>
+                    </Compare>
+                    <Compare metric="numSimilarity">
+                        <Input path="?a/geo:long"/>
+                        <Input path="?b/climb:route/geo:long"/>
+                    </Compare>
+                    <Compare metric="numSimilarity">
+                        <Input path="?a/geo:lat"/>
+                        <Input path="?b/climb:route/geo:lat"/>
+                    </Compare>
+                </Aggregate>
+            </LinkCondition>
+            <Filter threshold="0.9"/>
+            <Outputs>
+                <Output minConfidence="0.95" type="file">
+                    <Param name="file" value="accepted_links.nt"/>
+                    <Param name="format" value="ntriples"/>
+                </Output>
+                <Output maxConfidence="0.95" type="file">
+                    <Param name="file" value="verify_links.nt"/>
+                    <Param name="format" value="alignment"/>
+                </Output>
+            </Outputs>
+        </Interlink>
+    </Interlinks>
+</Silk>

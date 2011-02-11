@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><Silk>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Silk>
 
   <Prefixes>
     <Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix id="dbpedia" namespace="http://dbpedia.org/ontology/"/>
     <Prefix id="dbpedia-owl" namespace="http://dbpedia.org/ontology/"/>
-    <Prefix id="umbel-sc" namespace="http://umbel.org/umbel/sc/"/>                    
+    <Prefix id="umbel-sc" namespace="http://umbel.org/umbel/sc/"/>              
     <Prefix id="linkedgeodata" namespace="http://linkedgeodata.org/triplify/"/>
     <Prefix id="lgdp" namespace="http://linkedgeodata.org/property/"/>
     <Prefix id="lgdo" namespace="http://linkedgeodata.org/ontology/"/>
@@ -30,18 +30,18 @@
   </DataSources>
 
   <Interlinks>
-    <Interlink id="stadium">
+    <Interlink id="city">
       <LinkType>owl:sameAs</LinkType>
 
       <SourceDataset dataSource="dbpedia" var="a">
         <RestrictTo>
-          {?a a dbpedia-owl:Stadium}. 
+          {?a a dbpedia-owl:Settlement}. 
         </RestrictTo>
       </SourceDataset>
 
       <TargetDataset dataSource="linkedgeodata" var="b">
         <RestrictTo>
-          {?b a lgdo:Stadium}. ?b wgs84:geometry ?point. 
+          {?b a lgdo:City} UNION {?b a lgdo:Suburb} UNION {?b a lgdo:Town} UNION {?b a lgdo:Village}. ?b wgs84:geometry ?point. 
         </RestrictTo>
       </TargetDataset>
 
@@ -65,8 +65,8 @@
          <Compare metric="wgs84">
           <Input path="?a/geo:geometry"/>
           <Input path="?b/geo:geometry"/>
-          <Param name="unit" value="km"/>
-          <Param name="threshold" value="1"/>
+        <Param name="unit" value="km"/>
+          <Param name="threshold" value="100"/>
           <Param name="curveStyle" value="linear"/>
          </Compare>
        </Aggregate>
@@ -76,11 +76,11 @@
 
       <Outputs>
         <Output minConfidence="0.95" type="file">
-          <Param name="file" value="1292604168449/stadium/links_accepted.nt"/>
+          <Param name="file" value="1292604168449/city/links_accepted.nt"/>
           <Param name="format" value="ntriples"/>
         </Output>
         <Output maxConfidence="0.95" type="file">
-          <Param name="file" value="1292604168449/stadium/links_verify.nt"/>
+          <Param name="file" value="1292604168449/city/links_verify.nt"/>
           <Param name="format" value="alignment"/>
         </Output>
       </Outputs>

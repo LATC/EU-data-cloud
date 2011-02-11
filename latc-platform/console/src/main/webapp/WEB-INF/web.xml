@@ -10,7 +10,7 @@
 
 	<context-param>
 		<param-name>org.restlet.application</param-name>
-		<param-value>eu.latc_project.servlet.MainApplication</param-value>
+		<param-value>eu.latc.servlet.MainApplication</param-value>
 	</context-param>
 
 	<!-- Restlet adapter -->

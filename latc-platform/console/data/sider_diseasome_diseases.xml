@@ -5,23 +5,22 @@
         <Prefix id="foaf" namespace="http://xmlns.com/foaf/0.1/"/>
         <Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#"/>
         <Prefix id="sider" namespace="http://www4.wiwiss.fu-berlin.de/sider/resource/sider/"/>
-    <Prefix id="sindice" namespace="http://vocab.sindice.net/"/>
-    <Prefix id="drugbank" namespace="http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/"/>
-    <Prefix id="opencyc" namespace="http://sw.opencyc.org/2008/06/10/concept/"/>
-    
+		<Prefix id="diseasome" namespace="http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/"/>
+		<Prefix id="sindice" namespace="http://vocab.sindice.net/"/>
+		
     </Prefixes>
 
     <DataSources>
         <DataSource id="sider" type="sparqlEndpoint">
-    <Param name="endpointURI" value="http://sparql.sindice.com/sparql"/>
-    <Param name="login" value="deri"/>
+		<Param name="endpointURI" value="http://sparql.sindice.com/sparql"/>
+		<Param name="login" value="deri"/>
       <Param name="password" value="first sindice sparql endpoint"/>
             
         </DataSource>
 
-        <DataSource id="drugbank" type="sparqlEndpoint">
-    <Param name="endpointURI" value="http://sparql.sindice.com/sparql"/>
-     <Param name="login" value="deri"/>
+        <DataSource id="diseasome" type="sparqlEndpoint">
+		<Param name="endpointURI" value="http://sparql.sindice.com/sparql"/>
+		 <Param name="login" value="deri"/>
       <Param name="password" value="first sindice sparql endpoint"/>
             
         </DataSource>
@@ -33,13 +32,13 @@
 
             <SourceDataset dataSource="sider" var="a">
                 <RestrictTo>
-                  {?a sindice:domain "www4.wiwiss.fu-berlin.de sider"} UNION  {?a rdf:type sider:drugs}
+                  {?a sindice:domain "www4.wiwiss.fu-berlin.de sider"} UNION  {?a rdf:type sider:side_effects}
                 </RestrictTo>
             </SourceDataset>
 
-            <TargetDataset dataSource="drugbank" var="b">
+            <TargetDataset dataSource="diseasome" var="b">
                 <RestrictTo>
-                  {?b sindice:domain "www4.wiwiss.fu-berlin.de drugbank"} UNION   {?b rdf:type drugbank:drugs}
+                  {?b sindice:domain "www4.wiwiss.fu-berlin.de diseasome"} UNION   {?b rdf:type diseasome:diseases}
                 </RestrictTo>
             </TargetDataset>
 
@@ -47,25 +46,17 @@
                 <Aggregate type="max">
                     <Compare metric="jaroWinkler">
                         <TransformInput function="lowerCase">
-                            <Input path="?a/rdfs:label"/>
-            </TransformInput>
-              <TransformInput function="lowerCase">
-                <Input path="?b/rdfs:label"/>
-              </TransformInput>
-            </Compare>
-            <Compare metric="jaroWinkler">
-              <TransformInput function="lowerCase">
-                <Input path="?a/rdfs:label"/>
-              </TransformInput>
-              <TransformInput function="lowerCase">
-                <Input path="?b/drugbank:synonym"/>
+                            <Input path="?a/sider:sideEffectName"/>
+                        </TransformInput>
+                        <TransformInput function="lowerCase">
+                            <Input path="?b/rdfs:label"/>
                         </TransformInput>
                     </Compare>
                      
                 </Aggregate>
             </LinkCondition>
 
-            <Filter threshold="0.99"/>
+            <Filter threshold="0.90"/>
 
             <Outputs>
                 <Output maxConfidence="0.99" type="file">

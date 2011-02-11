@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><Silk>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Silk>
     <Prefixes>
         <Prefix id="rdf" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
         <Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#"/>
@@ -6,39 +6,38 @@
         <Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#"/>
     <Prefix id="sindice" namespace="http://vocab.sindice.net/"/>
     <Prefix id="dbpedia-owl" namespace="http://dbpedia.org/ontology/"/>
-    <Prefix id="dcterms" namespace="http://purl.org/dc/terms/"/>
-    
+    <Prefix id="dc" namespace="http://purl.org/dc/elements/1.1/"/>
     </Prefixes>
 
     <DataSources>
-        <DataSource id="openlibrary" type="sparqlEndpoint">
+        <DataSource id="ordnancesurvey" type="sparqlEndpoint">
     <Param name="endpointURI" value="http://sparql.sindice.com/sparql"/>
     <Param name="login" value="deri"/>
         <Param name="password" value="first sindice sparql endpoint"/>
+          <Param name="pageSize" value="3000"/>  
         </DataSource>
 
-        <DataSource id="dbpedia" type="sparqlEndpoint">
+        <DataSource id="geonames" type="sparqlEndpoint">
     <Param name="endpointURI" value="http://sparql.sindice.com/sparql"/>
     <Param name="login" value="deri"/>
-        <Param name="password" value="first sindice sparql endpoint"/>    
+        <Param name="password" value="first sindice sparql endpoint"/>  
+        <Param name="pageSize" value="5000"/>  
         </DataSource>
     </DataSources>
 
     <Interlinks>
-        <Interlink id="diseases">
+        <Interlink id="features">
             <LinkType>owl:sameAs</LinkType>
 
-            <SourceDataset dataSource="openlibrary" var="a">
+            <SourceDataset dataSource="ordnancesurvey" var="a">
                 <RestrictTo>
-                  {?a sindice:domain "openlibrary.org"} 
+                  {?a sindice:domain "geo.linkeddata.es"}
                 </RestrictTo>
             </SourceDataset>
 
-            <TargetDataset dataSource="dbpedia" var="b">
+            <TargetDataset dataSource="geonames" var="b">
                 <RestrictTo>
-                  {?b sindice:domain "dbpedia.org"} 
-                  UNION
-                  {?b rdf:type dbpedia-owl:Book}
+                  {?b sindice:domain "sws.geonames.org"}
                 </RestrictTo>
             </TargetDataset>
 
@@ -46,10 +45,10 @@
                 <Aggregate type="max">
                     <Compare metric="jaroWinkler">
                         <TransformInput function="lowerCase">
-                            <Input path="?a/dcterms:title"/>
+                            <Input path="?a/foaf:name"/>
                         </TransformInput>
                      <TransformInput function="lowerCase">
-                      <Input path="?b/rdfs:label"/>
+                      <Input path="?b/dc:title"/>
                      </TransformInput>
                    </Compare>
                 </Aggregate>
@@ -59,11 +58,11 @@
 
             <Outputs>
                 <Output maxConfidence="0.98" type="file">
-                  <Param name="file" value="openlibrary_dbpedia_verify_links.xml"/>
+                  <Param name="file" value="geoname-ordnancesurvey_verify_links.xml"/>
                   <Param name="format" value="alignment"/>
                 </Output>
                 <Output minConfidence="0.99" type="file">
-                  <Param name="file" value="openlibrary_dbpedia_accepted_links.xml"/>
+                  <Param name="file" value="geoname-ordnancesurvey_accepted_links.xml"/>
                   <Param name="format" value="alignment"/>
                 </Output>
             </Outputs>

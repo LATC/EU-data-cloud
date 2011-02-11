@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Silk>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><Silk>
   <Prefixes>
     <Prefix id="rdf" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#"/>
     <Prefix id="dcterms" namespace="http://purl.org/dc/terms/"/>
     <Prefix id="foaf" namespace="http://xmlns.com/foaf/0.1/"/>
-    <Prefix id="vcard" namespace="http://www.w3.org/2006/vcard/ns#" />
+    <Prefix id="vcard" namespace="http://www.w3.org/2006/vcard/ns#"/>
   </Prefixes>
 
   <Interlinks>
@@ -27,7 +26,7 @@
 
       <LinkCondition>
         <Aggregate type="average">
-          <Aggregate type="max" weight="2" required="true">
+          <Aggregate required="true" type="max" weight="2">
             <Compare metric="jaroWinkler">
               <TransformInput function="lowerCase">
                 <Input path="?a/foaf:name"/>
@@ -37,7 +36,7 @@
               </TransformInput>
             </Compare>
           </Aggregate>
-          <Aggregate type="max" weight="1" required="true">
+          <Aggregate required="true" type="max" weight="1">
             <Compare metric="jaroWinkler">
               <TransformInput function="lowerCase">
                 <Input path="?a/foaf:homepage"/>
@@ -46,7 +45,7 @@
                 <Input path="?b/foaf:homepage"/>
               </TransformInput>
             </Compare>
-            <Compare weight="10" metric="jaroWinkler"><!--Using jaroWinkler to allow for typing errors like trailing spaces-->
+            <Compare metric="jaroWinkler" weight="10"><!--Using jaroWinkler to allow for typing errors like trailing spaces-->
               <Input path="?a/foaf:mbox_sha1sum"/>
               <Input path="?b/foaf:mbox_sha1sum"/>
             </Compare>

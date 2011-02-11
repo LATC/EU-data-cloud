@@ -1,26 +1,32 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Silk>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><Silk>
     <Prefixes>
-        <Prefix id="rdf" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" />
-        <Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#" />
-        <Prefix id="foaf" namespace="http://xmlns.com/foaf/0.1/" />
-        <Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#" />
-        <Prefix id="dbpedia-owl" namespace="http://dbpedia.org/ontology/" />
-        <Prefix id="dbpedia" namespace="http://dbpedia.org/resource/" />
-        <Prefix id="dbpedia-prop" namespace="http://dbpedia.org/property/" />
-        <Prefix id="dc" namespace="http://purl.org/dc/terms/" />
-        <Prefix id="dailymed" namespace="http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/" />
-        <Prefix id="opencyc" namespace="http://sw.opencyc.org/2008/06/10/concept/" />
-        <Prefix id="sider" namespace="http://www4.wiwiss.fu-berlin.de/sider/resource/sider/" />
+        <Prefix id="rdf" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+        <Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#"/>
+        <Prefix id="foaf" namespace="http://xmlns.com/foaf/0.1/"/>
+        <Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#"/>
+        <Prefix id="dbpedia-owl" namespace="http://dbpedia.org/ontology/"/>
+        <Prefix id="dbpedia" namespace="http://dbpedia.org/resource/"/>
+        <Prefix id="dbpedia-prop" namespace="http://dbpedia.org/property/"/>
+        <Prefix id="dc" namespace="http://purl.org/dc/terms/"/>
+        <Prefix id="dailymed" namespace="http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/"/>
+        <Prefix id="opencyc" namespace="http://sw.opencyc.org/2008/06/10/concept/"/>
+        <Prefix id="sider" namespace="http://www4.wiwiss.fu-berlin.de/sider/resource/sider/"/>
+    <Prefix id="sindice" namespace="http://vocab.sindice.net/"/>
     </Prefixes>
 
     <DataSources>
         <DataSource id="sider" type="sparqlEndpoint">
-            <Param name="endpointURI" value="http://www4.wiwiss.fu-berlin.de/sider/sparql" />
+    <Param name="endpointURI" value="http://sparql.sindice.com/sparql"/>
+    <Param name="login" value="deri"/>
+      <Param name="password" value="first sindice sparql endpoint"/>
+            
         </DataSource>
 
         <DataSource id="dailymed" type="sparqlEndpoint">
-            <Param name="endpointURI" value="http://www4.wiwiss.fu-berlin.de/dailymed/sparql" />
+    <Param name="endpointURI" value="http://sparql.sindice.com/sparql"/>
+     <Param name="login" value="deri"/>
+      <Param name="password" value="first sindice sparql endpoint"/>
+            
         </DataSource>
     </DataSources>
 
@@ -30,13 +36,13 @@
 
             <SourceDataset dataSource="sider" var="a">
                 <RestrictTo>
-                    ?a rdf:type sider:drugs
+                  {?a sindice:domain "www4.wiwiss.fu-berlin.de sider"} UNION  {?a rdf:type sider:drugs}
                 </RestrictTo>
             </SourceDataset>
 
             <TargetDataset dataSource="dailymed" var="b">
                 <RestrictTo>
-                    ?b rdf:type dailymed:drugs
+                  {?b sindice:domain "www4.wiwiss.fu-berlin.de dailymed"} UNION   {?b rdf:type dailymed:drugs}
                 </RestrictTo>
             </TargetDataset>
 
@@ -44,35 +50,35 @@
                 <Aggregate type="max">
                     <Compare metric="jaroWinkler">
                         <TransformInput function="lowerCase">
-                            <Input path="?a/rdfs:label" />
+                            <Input path="?a/rdfs:label"/>
                         </TransformInput>
                         <TransformInput function="lowerCase">
-                            <Input path="?b/rdfs:label" />
-                        </TransformInput>
-                    </Compare>
-                    <Compare metric="jaroWinkler">
-                        <TransformInput function="lowerCase">
-                            <Input path="?a/rdfs:label" />
-                        </TransformInput>
-                        <TransformInput function="lowerCase">
-                            <Input path="?b/dailymed:name" />
+                            <Input path="?b/rdfs:label"/>
                         </TransformInput>
                     </Compare>
                     <Compare metric="jaroWinkler">
                         <TransformInput function="lowerCase">
-                            <Input path="?a/rdfs:label" />
+                            <Input path="?a/rdfs:label"/>
                         </TransformInput>
                         <TransformInput function="lowerCase">
-                            <Input path="?b/dailymed:genericMedicine" />
+                            <Input path="?b/dailymed:name"/>
+                        </TransformInput>
+                    </Compare>
+                    <Compare metric="jaroWinkler">
+                        <TransformInput function="lowerCase">
+                            <Input path="?a/rdfs:label"/>
+                        </TransformInput>
+                        <TransformInput function="lowerCase">
+                            <Input path="?b/dailymed:genericMedicine"/>
                         </TransformInput>
                     </Compare>
                 </Aggregate>
             </LinkCondition>
 
-            <Filter threshold="0.97" />
+            <Filter threshold="0.97"/>
 
             <Outputs>
-                <Output maxConfidence="0.99" type="file" >
+                <Output maxConfidence="0.99" type="file">
                   <Param name="file" value="sider_dailymed_drugs_verify_links.xml"/>
                   <Param name="format" value="alignment"/>
                 </Output>

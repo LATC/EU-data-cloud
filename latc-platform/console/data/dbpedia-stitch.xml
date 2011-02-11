@@ -1,24 +1,22 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Silk>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><Silk>
 	<Prefixes>
-		<Prefix id="rdf" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" />
-		<Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#" />
-		<Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#" />
-		<Prefix id="dbpedia-owl" namespace="http://dbpedia.org/ontology/" />
-		<Prefix id="dbpedia-prop" namespace="http://dbpedia.org/property/" />
-		<Prefix id="dc" namespace="http://purl.org/dc/terms/" />
-		<Prefix id="stitch"
-			namespace="http://www4.wiwiss.fu-berlin.de/stitch/resource/stitch/" />
+		<Prefix id="rdf" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+		<Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#"/>
+		<Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#"/>
+		<Prefix id="dbpedia-owl" namespace="http://dbpedia.org/ontology/"/>
+		<Prefix id="dbpedia-prop" namespace="http://dbpedia.org/property/"/>
+		<Prefix id="dc" namespace="http://purl.org/dc/terms/"/>
+		<Prefix id="stitch" namespace="http://www4.wiwiss.fu-berlin.de/stitch/resource/stitch/"/>
 	</Prefixes>
 
 	<DataSources>
 		<DataSource id="dbpedia" type="sparqlEndpoint">
-			<Param name="endpointURI" value="http://dbpedia.org/sparql" />
-			<Param name="retryCount" value="100" />
+			<Param name="endpointURI" value="http://dbpedia.org/sparql"/>
+			<Param name="retryCount" value="100"/>
 		</DataSource>
 
 		<DataSource id="stitch" type="sparqlEndpoint">
-			<Param name="endpointURI" value="http://www4.wiwiss.fu-berlin.de/stitch/sparql" />
+			<Param name="endpointURI" value="http://www4.wiwiss.fu-berlin.de/stitch/sparql"/>
 		</DataSource>
 	</DataSources>
 
@@ -42,25 +40,25 @@
 				<Aggregate type="max">
 					<Compare metric="jaroWinkler">
 						<TransformInput function="lowerCase">
-							<Input path="?a/rdfs:label[@lang = 'en']" />
+							<Input path="?a/rdfs:label[@lang = 'en']"/>
 						</TransformInput>
 						<TransformInput function="lowerCase">
-							<Input path="?b/rdfs:label" />
+							<Input path="?b/rdfs:label"/>
 						</TransformInput>
 					</Compare>
 				</Aggregate>
 			</LinkCondition>
 
-			<Filter threshold="0.90" />
+			<Filter threshold="0.90"/>
 
 			<Outputs>
-				<Output type="file" maxConfidence="0.95">
-					<Param name="file" value="stitch_dbpedia_verify_links.xml" />
-					<Param name="format" value="alignment" />
+				<Output maxConfidence="0.95" type="file">
+					<Param name="file" value="stitch_dbpedia_verify_links.xml"/>
+					<Param name="format" value="alignment"/>
 				</Output>
-				<Output type="file" minConfidence="0.95">
-					<Param name="file" value="stitch_dbpedia_accepted_links.nt" />
-					<Param name="format" value="ntriples" />
+				<Output minConfidence="0.95" type="file">
+					<Param name="file" value="stitch_dbpedia_accepted_links.nt"/>
+					<Param name="format" value="ntriples"/>
 				</Output>
 			</Outputs>
 		</Interlink>
