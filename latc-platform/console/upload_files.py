@@ -3,8 +3,8 @@
 import os
 import pycurl
 
-ROOT = "http://fspc409.few.vu.nl/LATC_Console/api/"
-# "http://localhost:8080/console/api/"
+#ROOT = "http://fspc409.few.vu.nl/LATC_Console/api/"
+ROOT="http://localhost:8080/console/api/"
 
 def main():
     for file_name in os.listdir('data/'):
@@ -12,7 +12,7 @@ def main():
         # Upload the file
         c = pycurl.Curl()
         values = [("fileToUpload", (pycurl.FORM_FILE, 'data/' + file_name))]
-        c.setopt(c.URL, ROOT + "configuration/new")
+        c.setopt(c.URL, ROOT + "tasks")
         c.setopt(c.HTTPPOST, values)
         c.perform()
         c.close()

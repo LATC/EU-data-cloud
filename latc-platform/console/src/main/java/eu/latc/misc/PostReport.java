@@ -24,12 +24,9 @@ public class PostReport {
 		// Prepare the message
 		// NOTE: The date/time is automatically set to the POST date/time
 		NameValuePair[] data = { 
-				// Set the status message
-				new NameValuePair("status", "Test report"),
-				// Set the pointer to the location of the results (if any)
-				new NameValuePair("location", "http://latc-project.eu"),
-				// Set the size of the results (if any) or send 0
-				new NameValuePair("size", "0") 
+				new NameValuePair("status", "Test notification"),
+				new NameValuePair("severity", "info"),
+				new NameValuePair("data", "") 
 		};
 		System.out.println("Message to be sent -> " + data.toString());
 

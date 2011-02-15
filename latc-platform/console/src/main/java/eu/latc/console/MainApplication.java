@@ -1,0 +1,59 @@
+package eu.latc.console;
+
+import org.restlet.Application;
+import org.restlet.Restlet;
+import org.restlet.routing.Router;
+
+import eu.latc.console.resource.NotificationsResource;
+import eu.latc.console.resource.TaskResource;
+import eu.latc.console.resource.TasksResource;
+import eu.latc.console.resource.TaskNotificationsResource;
+import eu.latc.console.resource.TaskConfigurationResource;
+
+public class MainApplication extends Application {
+	// Instance of the manager for configuration files
+	private ObjectManager manager = new ObjectManager();
+	
+
+	/**
+	 * Creates a root Restlet that will receive all incoming calls.
+	 */
+	@Override
+	public Restlet createInboundRoot() {
+		// Create a router
+		Router router = new Router(getContext());
+
+		// Handler for the processing queue
+		// GET returns the list of tasks
+		// POST to create a new task
+		router.attach("/tasks", TasksResource.class);
+
+		// GET returns the list of all notifications
+		router.attach("/notifications", NotificationsResource.class);
+		
+		// Handler for the raw linking specification file
+		// GET to get the raw XML linking configuration
+		router.attach("/task/{ID}/configuration", TaskConfigurationResource.class);
+
+		
+		// Handler for the reports
+		// GET to get a sorted list of reports
+		// POST to this address to save a new report
+		router.attach("/task/{ID}/notifications", TaskNotificationsResource.class);
+
+		// Task resource
+		// GET to get the description of the task
+		// PUT to update the description of the task
+		// DELETE to delete the task
+		router.attach("/task/{ID}", TaskResource.class);
+
+		return router;
+	}
+
+	/**
+	 * @return
+	 */
+	public ObjectManager getObjectManager() {
+		return manager;
+	}
+}
