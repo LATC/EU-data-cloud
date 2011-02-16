@@ -36,7 +36,7 @@ public class PostReport {
 		};
 		
 		// Diplay the result
-		System.out.println("Message to sent -> " + request.toString());
+		System.out.println("Message to send -> " + request.toString());
 
 		// Prepare the query
 		String URI = HOST + "/api/task/" + ID + "/notifications";
