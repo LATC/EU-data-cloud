@@ -110,10 +110,7 @@ public class TaskNotificationsResource extends TaskResource {
 				return null;
 			}
 			notification.setData(form.getFirstValue("data", true));
-			if (notification.getData() == null) {
-				setStatus(Status.CLIENT_ERROR_BAD_REQUEST);
-				return null;
-			}
+			
 			notification.setSeverity(form.getFirstValue("severity", true));
 			if (notification.getSeverity() == null)
 				notification.setSeverity("info");
