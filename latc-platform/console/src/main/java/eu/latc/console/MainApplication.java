@@ -34,7 +34,6 @@ public class MainApplication extends Application {
 		// Handler for the raw linking specification file
 		// GET to get the raw XML linking configuration
 		router.attach("/task/{ID}/configuration", TaskConfigurationResource.class);
-
 		
 		// Handler for the reports
 		// GET to get a sorted list of reports
@@ -47,6 +46,9 @@ public class MainApplication extends Application {
 		// DELETE to delete the task
 		router.attach("/task/{ID}", TaskResource.class);
 
+		// Activate content filtering based on extensions
+		getTunnelService().setExtensionsTunnel(true);
+		
 		return router;
 	}
 

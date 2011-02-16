@@ -1,5 +1,7 @@
 package eu.latc.console.resource;
 
+import java.util.Date;
+
 import org.restlet.data.Form;
 import org.restlet.data.MediaType;
 import org.restlet.data.Status;
@@ -13,6 +15,7 @@ import org.slf4j.LoggerFactory;
 
 import eu.latc.console.MainApplication;
 import eu.latc.console.ObjectManager;
+import eu.latc.console.objects.Notification;
 
 /**
  * @author cgueret
@@ -44,10 +47,15 @@ public class TaskConfigurationResource extends TaskResource {
 
 			// Update the value and persist the task
 			task.setConfiguration(text);
+			task.setLastModificationDate(new Date());
 			ObjectManager manager = ((MainApplication) getApplication()).getObjectManager();
 			manager.saveTask(task);
 
-			// TODO Add a notification
+			// Add a notification
+			Notification notification = new Notification();
+			notification.setSeverity("warn");
+			notification.setMessage("Configuration modified");
+			manager.addNotification(taskID, notification);
 			
 			setStatus(Status.SUCCESS_OK);
 			return new StringRepresentation("updated", MediaType.TEXT_HTML);

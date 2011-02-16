@@ -302,6 +302,20 @@ label {
 	width: 420px;
 }
 
+#overview {
+	padding:0;
+}
+
+.column {
+	float:left;
+	width:300px;
+	margin-left: 18px;
+}
+
+.column:first-child {
+	margin-left: 0;
+}
+
 .panes>div {
 	display: none;
 	padding: 15px 10px;
@@ -348,6 +362,12 @@ h2:first-child {
 	border: 1px solid #CCCCCC;
 }
 
+#eventsList {
+	-moz-border-radius: 5px 5px 5px 5px;
+	background-color: #F9F9F9;
+	border: 1px solid #CCCCCC;
+}
+
 .taskBlock {
 	border-bottom: 1px solid #D9D9D9;
 	border-top: 1px solid #FFFFFF;
@@ -361,8 +381,20 @@ h2:first-child {
 	padding-top: 5px;
 }
 
-h3.silkTask {
+h3.link {
 	background: url("../images/link_add.png");
+	background-repeat: no-repeat;
+	padding-left: 20px;
+}
+
+h3.info {
+	background: url("../images/information.png");
+	background-repeat: no-repeat;
+	padding-left: 20px;
+}
+
+h3.warn {
+	background: url("../images/exclamation.png");
 	background-repeat: no-repeat;
 	padding-left: 20px;
 }

@@ -5,6 +5,7 @@ import java.io.Serializable;
 import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Date;
 
 import javax.jdo.annotations.Column;
 import javax.jdo.annotations.DatastoreIdentity;
@@ -65,6 +66,12 @@ public class Task implements Serializable {
 	@Persistent
 	private boolean isTesting = false;
 
+	@Persistent
+	private Date creationDate = null;
+	
+	@Persistent
+	private Date lastModificationDate = null;
+	
 	// Collection of notifications
 	@Persistent
 	@Element(types = Notification.class, column = "TASK_ID", dependent = "true", mappedBy = "task")
@@ -213,6 +220,24 @@ public class Task implements Serializable {
 	public boolean isTesting() {
 		return isTesting;
 	}
+
+	public void setCreationDate(Date creationDate) {
+		this.creationDate = creationDate;
+		this.lastModificationDate = this.creationDate;
+	}
+
+	public Date getCreationDate() {
+		return creationDate;
+	}
+
+	public void setLastModificationDate(Date lastModificationDate) {
+		this.lastModificationDate = lastModificationDate;
+	}
+
+	public Date getLastModificationDate() {
+		return lastModificationDate;
+	}
+
 }
 
 // Serialize the document object into a string

@@ -62,25 +62,24 @@
 	<div class="panes" id="overview">
 		<!-- Overview panel -->
 		<div>
-			<div class="left-column">
-				<h2>List of tasks</h2>
-				<p class="description">LATC executes a list of pre-configured tasks. The current tasks are the following:</p>
-				<div id="tasksList"></div>
-			</div>
-			<div class="right-column">
-				<h2>Latest notifications<a href="#" class="feed-link"></a></h2>
-				<p class="description">These are the latest execution reports. Click on the feed link to get notifications.</p>
-				<table class="display" id="executionReportsTable">
-					<thead>
-						<tr>
-							<th>Status</th>
-							<th>Message</th>
-							<th>Date</th>
-						</tr>
-					</thead>
-					<tbody>
-					</tbody>
-				</table>
+			<p>
+			LATC executes a list of pre-configured tasks to create links between datasets.
+			On this overview page you can see the latest tasks created, the latest notifications
+			and also the number of links daily generated. 
+			</p>
+			<div>
+				<div class="column">
+					<h2>Latest tasks <a href="api/tasks.atom" class="feed-link"></a></h2>
+					<div id="tasksList"></div>
+				</div>
+				<div class="column">
+					<h2>Latest results</h2>
+					<div id="linksGraph" style="width:300px;height:200px;"></div>
+				</div>
+				<div class="column">
+					<h2>Latest notifications<a href="api/notifications.atom" class="feed-link"></a></h2>
+					<div id="eventsList"></div>
+				</div>
 			</div>
 			<div class="clearfix"></div>
 		</div>
@@ -94,7 +93,6 @@
 						<tr>
 							<th>Identifier</th>
 							<th>Description</th>
-							<th>Last notification</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -137,11 +135,12 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
   <script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.4.2.js"%3E%3C/script%3E'))</script>
   
-  <!-- jQueryTools, dataTables, cookies, templates -->
+  <!-- jQueryTools, dataTables, cookies, templates, graph -->
   <script src="http://cdn.jquerytools.org/1.2.5/all/jquery.tools.min.js"></script>
   <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
   <script src="js/mylibs/jquery.dataTables.min.js"></script>
   <script src="js/mylibs/jquery.cookie.js"></script>
+  <script src="js/mylibs/jquery.flot.js"></script>
   
   <!-- scripts concatenated and minified via ant build script-->
   <script src="js/plugins.js"></script>

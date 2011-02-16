@@ -10,18 +10,19 @@ $(document).ready(function() {
 	$("ul.tabs").tabs("div.panes > div");
 
 	// move to the next tab (for debugging)
-	//var tabs = $("ul.tabs").data("tabs");
-	//tabs.next();
+	// var tabs = $("ul.tabs").data("tabs");
+	// tabs.next();
 
-	// activate the dataTable plugin
-	$('#executionReportsTable').dataTable({
-		"bPaginate" : false,
-		"bLengthChange" : false,
-		"bFilter" : false,
-		"bSort" : false,
-		"bInfo" : false
-	});
-
+	// Plot a graph
+    var points = [[0, 121613], [1, 32675]];
+    $.plot($("#linksGraph"), [ points ], {
+               series: {
+                   lines: { show: true },
+                   points: { show: true }
+               },
+               grid: { hoverable: true, clickable: false }}
+	);
+    
 	// Configure the selection of task for the detail panel
 	$('#taskSelector').dataTable({
 		"bPaginate" : false,
@@ -34,8 +35,7 @@ $(document).ready(function() {
 			"bSearchable" : true,
 			"bVisible" : false
 		},
-		/* Title */null,
-		/* last message */null]
+		/* Title */null]
 	});
 	$("#taskSelector tbody").click(function(event) {
 		// Change the selected row
@@ -95,26 +95,32 @@ function logout() {
  * Update tasks
  */
 function reloadTasks() {
-	$.getJSON('api/tasks', function(data) {
+	setLoading($("#tasksList"));
+	$.getJSON('api/tasks.json?limit=5', function(data) {
 		// Clean the previous content for the overview table
 		$("#tasksList").empty();
-
-		// Clean the previous content for the task selector
-		$('#taskSelector').dataTable().fnClearTable();
 
 		// Go through all the tasks
 		$.each(data.task, function(index, item) {
 			// Add a task block to the overview list
 			var task = $("<div>").addClass('taskBlock');
-			var title = $("<h3>").addClass('silkTask').text(item.title);
+			var title = $("<h3>").addClass('link').text(item.title);
 			title.appendTo(task);
 			var description = $("<p>").text(item.description);
 			description.appendTo(task);
 			task.appendTo($("#tasksList"));
+		});
+	});
 
+	$.getJSON('api/tasks.json', function(data) {
+		// Clean the previous content for the task selector
+		$('#taskSelector').dataTable().fnClearTable();
+
+		// Go through all the tasks
+		$.each(data.task, function(index, item) {
 			// Add an entry to the task selector table
 			$('#taskSelector').dataTable().fnAddData(
-					[ item.identifier, item.title, "last notification message"  ]);
+					[ item.identifier, item.title]);
 		});
 	});
 }
@@ -123,21 +129,23 @@ function reloadTasks() {
  * Update the global list of notifications
  */
 function updateNotifications() {
-	var table = $('#executionReportsTable').dataTable();
-	$.getJSON('api/notifications', function(data) {
-		// Clean the previous content
-		table.fnClearTable();
+	setLoading($("#eventsList"));
+	
+	$.getJSON('api/notifications.json?limit=5', function(data) {
+		// Clean the previous content for the overview table
+		$("#eventsList").empty();
 
-		// Add all the statuses to the table
+		// Go through all the tasks
 		$.each(data.notification, function(index, item) {
-			if (item.severity == 'info') {
-				icon = "<img src=images/information.png></img>";
-			} else if (item.severity == 'warn') {
-				icon = "<img src=images/exclamation.png></img>";
-			} else {
-				icon = item.severity;
-			}
-			table.fnAddData([ icon, item.message, item.date ]);
+			// Add a task block to the overview list
+			var task = $("<div>").addClass('taskBlock');
+			var title = $("<h3>").addClass(item.severity).text(item.title);
+			title.appendTo(task);
+			var description = $("<p>").text(item.message);
+			description.appendTo(task);
+			var description2 = $("<p>").text("(" + item.date + ")");
+			description2.appendTo(task);
+			task.appendTo($("#eventsList"));
 		});
 	});
 }

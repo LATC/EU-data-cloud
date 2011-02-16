@@ -181,10 +181,12 @@ public class ObjectManager {
 	/**
 	 * Return the processing queue as a list of LinkingConfiguration
 	 * 
+	 * @param limit
+	 * 
 	 * @return a sorted collection of LinkingConfiguration
 	 */
 	@SuppressWarnings("unchecked")
-	public Collection<Task> getTasks() {
+	public Collection<Task> getTasks(int limit) {
 		PersistenceManager pm = pmf.getPersistenceManager();
 		Transaction tx = pm.currentTransaction();
 
@@ -193,12 +195,15 @@ public class ObjectManager {
 
 			// Query for all the LinkingConfiguration files, sorted by position
 			Query query = pm.newQuery(Task.class);
-			query.setOrdering("title ascending");
+			query.setOrdering("creationDate descending");
 
 			// Create collection of detached instances of the
 			Collection<Task> res = new ArrayList<Task>();
-			for (Task conf : (Collection<Task>) query.execute())
-				res.add((Task) pm.detachCopy(conf));
+			for (Task conf : (Collection<Task>) query.execute()) {
+				if (limit == 0 || res.size() < limit) {
+					res.add((Task) pm.detachCopy(conf));
+				}
+			}
 
 			return res;
 		} finally {
@@ -206,6 +211,13 @@ public class ObjectManager {
 				tx.rollback();
 			pm.close();
 		}
+	}
+
+	/**
+	 * @return
+	 */
+	public Collection<Task> getTasks() {
+		return getTasks(0);
 	}
 
 	/**
@@ -239,10 +251,11 @@ public class ObjectManager {
 	}
 
 	/**
+	 * @param limit
 	 * @return
 	 */
 	@SuppressWarnings("unchecked")
-	public Collection<Notification> getReports() {
+	public Collection<Notification> getReports(int limit) {
 		PersistenceManager pm = pmf.getPersistenceManager();
 		Transaction tx = pm.currentTransaction();
 
@@ -252,10 +265,19 @@ public class ObjectManager {
 			// Query for all the reports
 			Query query = pm.newQuery(Notification.class);
 			query.setOrdering("date descending");
+
+			// Compose the result set
 			Collection<Notification> res = new ArrayList<Notification>();
-			for (Notification report : (Collection<Notification>) query.execute()) 
-				res.add((Notification) pm.detachCopy(report));
-			
+			for (Notification report : (Collection<Notification>) query.execute()) {
+				if (limit == 0 || res.size() < limit) {
+					// FIXME Hack to get the title of the concerned task
+					String title = report.getTask().getTitle();
+					Notification reportCopy = (Notification) pm.detachCopy(report);
+					reportCopy.setTaskTitle(title);
+					res.add(reportCopy);
+				}
+			}
+
 			return res;
 		} finally {
 			if (tx.isActive())
@@ -263,7 +285,14 @@ public class ObjectManager {
 			pm.close();
 		}
 	}
-	
+
+	/**
+	 * @return
+	 */
+	public Collection<Notification> getReports() {
+		return getReports(0);
+	}
+
 	/**
 	 * Erase a configuration file from the data base
 	 * 

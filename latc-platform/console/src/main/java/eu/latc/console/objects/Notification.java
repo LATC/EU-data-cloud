@@ -7,6 +7,7 @@ import javax.jdo.annotations.Column;
 import javax.jdo.annotations.DatastoreIdentity;
 import javax.jdo.annotations.IdGeneratorStrategy;
 import javax.jdo.annotations.IdentityType;
+import javax.jdo.annotations.NotPersistent;
 import javax.jdo.annotations.PersistenceCapable;
 import javax.jdo.annotations.Persistent;
 import javax.jdo.annotations.PrimaryKey;
@@ -55,6 +56,17 @@ public class Notification implements Serializable {
 	// Data (extra information related to this notification)
 	@Persistent
 	private String data = null;
+
+	@NotPersistent
+	private String taskTitle = null;
+
+	public void setTaskTitle(String taskTitle) {
+		this.taskTitle = taskTitle;
+	}
+
+	public String getTaskTitle() {
+		return taskTitle;
+	}
 
 	/**
 	 * @return
@@ -130,6 +142,8 @@ public class Notification implements Serializable {
 	 * @return
 	 */
 	public String getSeverity() {
+		if (severity == null)
+			severity="info";
 		return severity;
 	}
 
