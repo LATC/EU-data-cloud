@@ -21,7 +21,7 @@ public class CommandLine {
 	private final String       HELP             = "help";
 	private final String       CONFIG_FILE      = "c";
 	private final String       HADOOP_PATH      = "hadoop-path";
-	private final String       HADOOP_USER      = "hadoop-user";
+	private final String       HDFS_USER      = "hdfs-user";
 	private final String       LATC_CONSOLE_HOST= "latc-console-host";
 	private final String       LINKS_FILE       = "links-file";
 	private final String	   RESULTS_HOST	    = "results-host";
@@ -36,7 +36,7 @@ public class CommandLine {
 		 parser.accepts(HELP, "print usage information");
 		 parser.accepts(CONFIG_FILE, "[OPTIONAL] The path of configuration file").withRequiredArg().ofType(String.class);
 		 parser.accepts(HADOOP_PATH, "[REQUIRED] The path of hadoop instalation directory").withRequiredArg().ofType(String.class);
-		 parser.accepts(HADOOP_USER, "[OPTIONAL] hadoop user for running at hbase").withRequiredArg().ofType(String.class);
+		 parser.accepts(HDFS_USER, "[OPTIONAL] HDFS (hadoop distributed filesystem) user for running at hbase").withRequiredArg().ofType(String.class);
 		 parser.accepts(LATC_CONSOLE_HOST, "[REQUIRED] The URL of console host").withRequiredArg().ofType(String.class);
 		 parser.accepts(RESULTS_HOST, "[REQUIRED] The URL of links generation").withRequiredArg().ofType(String.class);
 		 parser.accepts(LINKS_FILE, "[OPTIONAL] The name of link file for storing the triples of links generation, default : links.nt").withRequiredArg().ofType(String.class);
@@ -69,8 +69,8 @@ public class CommandLine {
 			  LoadParameter parameters = new LoadParameter();
 			  if (options.has(HADOOP_PATH))
 				  parameters.HADOOP_PATH = (String)options.valueOf(HADOOP_PATH);
-			  if (options.has(HADOOP_USER))
-				  parameters.HADOOP_USER = (String)options.valueOf(HADOOP_USER);
+			  if (options.has(HDFS_USER))
+				  parameters.HDFS_USER = (String)options.valueOf(HDFS_USER);
 			  if (options.has(LATC_CONSOLE_HOST))
 				  parameters.LATC_CONSOLE_HOST = (String)options.valueOf(LATC_CONSOLE_HOST);
 			  if (options.has(RESULTS_HOST))
@@ -101,8 +101,7 @@ public class CommandLine {
                                           file
 --hadoop-path                           [REQUIRED] The path of hadoop
                                           instalation directory
---hadoop-user                           [OPTIONAL] hadoop user for running at
-                                          hbase
+--hdfs-user                           [OPTIONAL] [OPTIONAL] HDFS (hadoop distributed filesystem) user for running at hbase
 --help                                  print usage information
 --latc-console-host                     [REQUIRED] The URL of console host
 --links-file                            [OPTIONAL] The name of link file for
