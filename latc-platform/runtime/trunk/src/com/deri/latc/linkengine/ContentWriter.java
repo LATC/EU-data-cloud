@@ -10,10 +10,15 @@ import com.deri.latc.dto.VoidInfoDto;
 /**
  * Storing String or VOID to file
  * @author jamnas
- * @author nurainir
+ * @author Nur Aini Rakhmawati
  */
 public class ContentWriter {
 
+	/**
+	 * Storing string to file
+	 * @param fileName	path of file
+	 * @param content	string to be stored
+	 */
     public void writeIt(String fileName, String content) {
         try {
                 FileWriter fstream = new FileWriter(fileName);
@@ -30,7 +35,11 @@ public class ContentWriter {
      
     }
 
-
+/**
+ * Storing Void to file
+ * @param fileName	path of file
+ * @param vi	Void handler value
+ */
 
     public void writeIt(String fileName, VoidInfoDto vi) {
         try {

@@ -25,6 +25,11 @@ public class LoadParameter {
 	public LoadParameter()
 	{}
 	
+	/**
+	 * 
+	 * @param pathconfigfile	path of configuration file
+	 * @throws IOException
+	 */
 	public LoadParameter(String pathconfigfile) throws IOException
 	{
 		try {
@@ -66,6 +71,11 @@ public class LoadParameter {
 		
 	}  
 	
+	/**
+	 * Remove / 
+	 * @param word	the URL 
+	 * @return
+	 */
 	private String removeslash(String word)
 	{
 		if(word.endsWith("/"))

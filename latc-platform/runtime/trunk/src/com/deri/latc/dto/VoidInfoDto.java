@@ -113,7 +113,7 @@ public class VoidInfoDto  {
     /**
      * Set the value of SourceUriLookupEndpoint
      *
-     * @param sourceSparqlEndpoint new value of sourceSparqlEndpoint
+     * @param sourceUriLookupEndpoint new value of sourceUriLookupEndpoint
      */
     public void setSourceUriLookupEndpoint(String sourceUriLookupEndpoint) {
         this.sourceUriLookupEndpoint = sourceUriLookupEndpoint;

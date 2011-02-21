@@ -33,19 +33,25 @@ import org.xml.sax.helpers.XMLReaderFactory;
 
 
 /**
- *
+ * The main class of runtime which collaborate all of the class
  * @author jamnas
  * @author Nur Aini Rakhmawati 
+ * @version 2.0 
  */
 public class LinkEngine {
 
 
 	private final LoadParameter parameters;
 	private static final Logger logfile = Logger.getLogger("RuntimeLog");
-	String RESULTDIR;
-	private  Map <String,String> toDoList = new TreeMap<String, String>();
+	private String RESULTDIR;
+	private Map <String,String> toDoList = new TreeMap<String, String>();
 
 
+	/**
+	 * 
+	 * @param ConfigFile	String	the path of configuration file
+	 * @throws IOException
+	 */
 	public LinkEngine (String ConfigFile) throws IOException
 	{
 		parameters = new LoadParameter(ConfigFile);
@@ -53,12 +59,21 @@ public class LinkEngine {
 
 	}
 
+	/**
+	 * 
+	 * @param p	LoadParameter	The variable which is obtained from command line user 
+	 * @throws IOException
+	 */
 	public LinkEngine (LoadParameter p)throws IOException
 	{
 		this.parameters =p;
 		this.createresultDir();
 	}
 
+	/**
+	 * Create result Directory based on the executing date runtime  
+	 * @throws IOException
+	 */
 	private void createresultDir() throws  IOException
 	{
 		String datepattern = "yyyy-MM-dd";
@@ -76,6 +91,10 @@ public class LinkEngine {
 	      logfile.addHandler(fh);
 	}
     
+	/**
+	 * Connecting to <b>console</b> for getting all the SILK specification files, Running SILK for each specification in <b>HDFS</b> and posting report back to <b>console</b> 
+	 * @throws Exception
+	 */
 	public void execute() throws Exception {
 
 		//testing console
@@ -97,9 +116,9 @@ public class LinkEngine {
          * JSON Format :  title, identifier
          */
         
-        if(!client.getQueue())
+        if(!client.getTasks())
         {
-        	logfile.severe("Error during get Queue"+client.getMessage());
+        	logfile.severe("Error during get Queue "+client.getMessage());
         	System.exit(0);
         }
         lt.translateMember(client.getMessage());
@@ -132,7 +151,7 @@ public class LinkEngine {
 //	         	6- data dump
 	            String datepattern = "yyyy-MM-dd";
 	    		SimpleDateFormat sdf =new SimpleDateFormat(datepattern);
-                Void.setDataDump(parameters.RESULTS_HOST + '/' +sdf.format(new Date())+'/'+title + "/" + parameters.LINKS_FILE_STORE);
+                Void.setDataDump(parameters.RESULTS_HOST + '/' +sdf.format(new Date())+'/'+title + "/");
                 
 	        	//testing endpoint
 	            if(Void.getSourceSparqlEndpoint()!=null && !this.testConn(Void.getSourceSparqlEndpoint()))
@@ -186,13 +205,19 @@ public class LinkEngine {
             
     }
 
+	/**
+	 * Running SILK and merging the SILK result on Hadoop Distributed Filesystem 
+	 * @param title	String	Title of specification 
+	 * @param vi	{@link VoidInfoDto}	Void declaration
+	 * @param resultdir	String	the path of result directory
+	 * @return	<b>true</b> SILK load, match running successfully 
+	 */
     private boolean runHadoop(String title, VoidInfoDto vi,String resultdir) {
 
     	
     	Logger loghadoop;
     	HadoopClient HC = new HadoopClient(parameters.HADOOP_PATH,parameters.HDFS_USER);
-    	
-    	
+    	String err=null;
     	
           try {
              
@@ -240,8 +265,9 @@ public class LinkEngine {
                   returnCode = process.waitFor();
                   if (returnCode != 0)
                   {
-                	  loghadoop.severe(this.readProcess(process,returnCode));
-                	  vi.setRemarks("Job Failed: Error in Matching Data");
+                	  err=this.readProcess(process);
+                	  loghadoop.severe(err);
+                	  vi.setRemarks(err);
                       logfile.severe("Job Failed: Error in Matching Data");
                       fh.close();
                       return false;
@@ -264,8 +290,9 @@ public class LinkEngine {
               } 
               // SILK load failed
               else {
-            	  loghadoop.severe(this.readProcess(process,returnCode));
-            	  vi.setRemarks("Job Failed: Error in Loading Data");
+            	  err=this.readProcess(process);
+            	  loghadoop.severe(err);
+            	  vi.setRemarks(err);
                   logfile.severe("Job Failed: Error in Loading Data");
                   fh.close();
                   return false;
@@ -278,30 +305,37 @@ public class LinkEngine {
       
     }
     
-    
-    private String readProcess (final Process p, int returncode) {
-    	
-    	
-    	final BufferedReader in;
-    	if(returncode ==0)
-    		in =new BufferedReader ( new InputStreamReader(p.getInputStream()));
-    	else
-    		in =new BufferedReader ( new InputStreamReader(p.getErrorStream()));
-    	final StringBuffer result = new StringBuffer();
-        String line;
-
+    /**
+     * Read the stdout after executing command
+     * @param p Process ID
+     * @return	the first line error message of process
+     */
+    private String readProcess (final Process p) {
+    	String message=null;
+    	final BufferedReader in =new BufferedReader ( new InputStreamReader(p.getErrorStream()));
+    	String line;
     	try {
-			while ((line = in.readLine()) != null) {
-			    result.append(line);
-			  }
+			while((line = in.readLine()) != null)
+			{
+				message =line;
+				if((line = in.readLine()) != null && line.startsWith("\tat"))
+					break;
+			}
+				
+				message =message.substring(message.indexOf(':')+2);
+				
 		} catch (IOException e) {
 			logfile.severe(e.getMessage());
 		}
-		if(result.toString()=="")
-			result.append("Success");
-	
-		return result.toString();
+		return message;
     }
+    
+    
+    /**
+     * Parsing specification file
+     * @param specPath	String	path of specification file
+     * @return	{@link VoidInfoDto} if the specification have source,target ad prefix will return the void handler
+     */
     
     private VoidInfoDto parseSpec(String specPath)
     {
@@ -323,6 +357,11 @@ public class LinkEngine {
     	return Vi;    	
     }
 
+    /**
+     * test http connection, given URL
+     * @param URL
+     * @return	true if connect successfully
+     */
   
     
     private boolean testConn(String URL)

@@ -46,7 +46,11 @@ public class CommandLine {
 		 
 	}
 	 
-	 
+	 /**
+	  * Parsing all the input line
+	  * @param args	arguments typed by user 
+	  * @throws Exception
+	  */
 	 public void run(final String[] args) throws Exception {
 		  try {
 			  final OptionSet options = parser.parse(args);

@@ -24,7 +24,15 @@ import java.util.Map;
 public class SpecParser extends DefaultHandler {
 	
 	private VoidInfoDto Void;
-	private String [] datasource = new String[2]; //name-URI-0 OR name-URI-1
+	/**
+	 * name-0-URI OR name-1-URI
+	 * 0 = SPARQLEndPoint 
+	 * 1 = URIEndLookUp
+	 */
+	private String [] datasource = new String[2]; 
+	/**
+	 * Prefix ontology
+	 */
 	private final Map <String,String> prefix=new HashMap<String, String>();
 	private int i=0; 
 	private boolean linktype =false;

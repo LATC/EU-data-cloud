@@ -14,12 +14,21 @@ public class TestHTTP {
 
 	private static String message;;
 	
+	/**
+	 * Getting error message 
+	 * @return
+	 */
 	public static String getMessage()
 	{
 		return message;
 	}
 	
-	  public static boolean test(final String URLName){
+	/**
+	 * Testing the availability of URL  
+	 * @param URLName	the URL path
+	 * @return
+	 */
+	public static boolean test(final String URLName){
 	    boolean result =false;		  
 		  try {
 	      HttpURLConnection con =

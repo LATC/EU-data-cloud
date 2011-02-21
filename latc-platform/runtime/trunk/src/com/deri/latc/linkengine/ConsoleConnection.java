@@ -7,25 +7,36 @@ package com.deri.latc.linkengine;
 import org.apache.commons.httpclient.*;
 import org.apache.commons.httpclient.methods.*;
 import org.apache.commons.httpclient.params.HttpMethodParams;
+import net.sf.json.JSONObject;
 
 import com.deri.latc.dto.VoidInfoDto;
 import java.io.*;
 
 /**
- *
+ * Class Console client handles REST connection
  * @author jamnas
- * @author nurainir
+ * @author Nur Aini Rakhmawati
  */
 public class ConsoleConnection {
 
 	 private final String consolehost;
 	 private String message=null;
-	 
+
+	 /**
+	  * Constructor of ConsoleConnection
+	  * @param console	String URL of console server
+	  */
 	 public ConsoleConnection(final String console){
 		this.consolehost = console+"/api";
 		
 	}
 
+	 /**
+	  * POST Method
+	  * @param url	The URL of posting data
+	  * @param data	The data that puts on body
+	  * @return	true if post data successfully
+	  */
     private boolean postData(String url, NameValuePair [] data) 
     {
     	boolean status = false; 
@@ -58,6 +69,11 @@ public class ConsoleConnection {
     }
     
     
+    /**
+     * GET method
+     * @param url	The URL of get data
+     * @return	true if GET data successfully
+     */
     private boolean getData(String url) {
        
     	boolean status = false; 
@@ -98,39 +114,72 @@ public class ConsoleConnection {
         return status;
     }
 
+    /**
+     * Getting error message
+     * @return	Error message, if there is no error it return null
+     */
    public String getMessage()
    {
 	   return this.message;
 	   
    }
     
+   /**
+    * Post report after executing joB <br/> severity value is <i>info</i> if the job success and <i>warn</i> if job is failed 
+    * @param id	ID of job (random)
+    * @param vi	Void handler
+    * @return	true if posting report successfully
+    * @throws Exception
+    */
    public boolean postReport(String id, VoidInfoDto vi) throws Exception {
-       final String url = consolehost + "/configuration/" + id + "/reports";
-       NameValuePair[] data = {
-           new NameValuePair("status", vi.getRemarks()),
-           new NameValuePair("location", vi.getDataDump()),
-           new NameValuePair("size", Integer.toString(vi.getStatItem()))
+       final String url = consolehost + "/task/" + id + "/notifications";
+       JSONObject data = new JSONObject();
+       data.put("size", vi.getStatItem());
+       data.put("location", vi.getDataDump());
+       String severity = "info";
+       
+       if (vi.getStatItem() < 0)
+    	   severity ="warn";
+       
+       NameValuePair[] request = {
+           new NameValuePair("message", vi.getRemarks()),
+           new NameValuePair("severity", severity),
+           new NameValuePair("data", data.toString())
        };
-       return this.postData(url, data);   
+       return this.postData(url, request);   
    }
    
      
+   /**
+    * Get list of task from console
+    * @return true if get list successfully
+    */
    
-   public boolean getQueue()
+   public boolean getTasks()
    {
-	   final String url = consolehost + "/queue";
+	   final String url = consolehost + "/tasks";
 	   return this.getData(url);	   
    }
    
+   /**
+    * Get specification file, given specified ID
+    * @param id	ID of task
+    * @return	true if get specification successfully	
+    */
    public boolean getSpec(String id)
    {
-	   final String url = consolehost + "/configuration/" + id + "/specification";
+	   final String url = consolehost + "/task/" + id + "/configuration";
 	   return this.getData(url);	 
    }
    
+   /**
+    * Get information of Job ID, given specified ID
+    * @param id	ID of task
+    * @return	true if get information successfully
+    */
    public boolean getReport(String id)
    {
-	   final String url = consolehost + "/configuration/" + id + "/reports";
+	   final String url = consolehost + "/task/" + id + "/notifications";
 	   return this.getData(url);	 
    }
 }
