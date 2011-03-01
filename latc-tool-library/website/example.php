@@ -20,11 +20,12 @@ $tool = $_GET["name"];
 <!-- start header -->
 <div id="header">
 	<div id="logo">
-		<h1><a href="#">Data Publication & Consumption Tools Library</a></h1>
+		<h1><a href="#">LATC Data Publication & Consumption Tools Library</a></h1>
 	</div>
 	<div id="menu">
 		<ul>
-			<li><a href="index.php">Tool Categories</a></li>
+			<li><a href="index.php">Home</a></li>
+			<li><a href="categories.php">Tool Categories</a></li>
 			<li class="active"><a href="example.php">Example</a></li>
 			<li><a href="contact.html">Contact </a></li>
 			<li><a href="http://latc-project.eu" title="LATC" style="background: none; align:right; margin-left: 169px; margin-top: 10px;padding: 7px;"><img src="images/logo-latc.png"/></a></li>

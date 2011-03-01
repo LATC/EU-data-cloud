@@ -27,7 +27,10 @@ for(SearchResult searchResult : searchResults) {
 }",http://www.sindice.com,,maintained
 sparqlviews,,SPARQL Views,http://drupal.org/project/sparql_views,Lin Clark,lin.clark@deri.org,"Allows users to query SPARQL endpoints on the Web and RDF/RDFa files using Drupal's Views Query Builder. Once the data is in Views, users can use any Views display plugin.
 
-Some examples of what you can do:<ul><li>create visualizations with the Google Visualization API</li><li>feed an Exhibit</li><li>map RDF resources to nodes for automated import/update</li></ul>
+Some examples of what you can do:
+- create visualizations with the Google Visualization API
+- feed an Exhibit
+- map RDF resources to nodes for automated import/update
 
 Users can also use Views plugins for caching, and add and manage filters, sorts, etc to their queries through the Views UI. Also provides a GUI for novice users to create the query graph (under development).",1.1-alpha,2010,Application,Exploration,Graphic,PHP/Drupal,,,,,,,"PHP stable, JavaScript unstable"
 ,,Drupal RDF Publishing Tools,http://drupal.org/project/rdf,"Stéphane Corlosquet, Lin Clark",lin.clark@deri.org,"Drupal's RDF Publishing Tools allow you to expose your structured content on the Web with RDF. 
@@ -72,8 +75,19 @@ Other remarkable features are:
 neologism,,Neologism,http://neologism.deri.ie/,"Guido Cecilio, Stéphane Corlosquet, Richard Cyganiak",richard@cyganiak.de,"Neologism is a simple web-based RDF Schema vocabulary editor and publishing system. Use it to create RDF classes and properties, which are needed to publish data on the Semantic Web. Its main goal is to dramatically reduce the time required to create, publish and modify vocabularies for the Semantic Web.
 
 It is written in PHP and built on the Drupal platform. ",0.4.10,08.02.2011,Modeling,,Graphic / Drupal Module,PHP/Drupal,http://neologism.deri.ie/tutorials,http://groups.google.com/group/neologism-dev/subscribe?note=1,http://www.gnu.org/licenses/gpl-3.0-standalone.html,http://vocab.deri.ie/,"Cosmin Basca, Stéphane Corlosquet, Richard Cyganiak, Sergio Fernández, Thomas Schandl: Neologism – Easy Vocabulary Publishing. 4th Workshop on Scripting for the Semantic Web, Tenerife, Spain, June 2008. http://richard.cyganiak.de/2008/papers/neologism-sfsw2008.pdf",,beta
-any23,,any23,http://any23.org/,"Michele Catasta, Richard Cyganiak, Michele Mostarda, Davide Palmisano, Gabriele Renzi, Jürgen Umbrich",richard@cyganiak.de,"Anything To Triples (any23) is a library, a web service and a command line tool that extracts structured data in RDF format from a variety of Web documents. Currently it supports the following input formats:<ul><li>RDF/XML, Turtle, Notation 3</li><li>RDFa</li><li>Microformats: Adr, Geo, hCalendar, hCard, hListing, hResume, hReview, License, XFN and Species</li></ul>
-Any23 can be used in various ways:<ul><li>As a library in Java applications that consume structured data from the Web.</li><li>As a command-line tool for extracting and converting between the supported formats.</li><li>There is a web service and API where you can try it at any23.org.</li><li>You can download the latest release from the download site at Google Code.</li></ul>",0.4.1,24.06.2010,Data Conversion,,Plugin / Web Service / Command Line,Java,http://developers.any23.org/,http://groups.google.com/group/any23-dev,http://www.apache.org/licenses/LICENSE-2.0,http://any23.org/,,,stable
+any23,,any23,http://any23.org/,"Michele Catasta, Richard Cyganiak, Michele Mostarda, Davide Palmisano, Gabriele Renzi, Jürgen Umbrich",richard@cyganiak.de,"Anything To Triples (any23) is a library, a web service and a command line tool that extracts structured data in RDF format from a variety of Web documents. Currently it supports the following input formats:
+
+RDF/XML, Turtle, Notation 3
+RDFa
+Microformats: Adr, Geo, hCalendar, hCard, hListing, hResume, hReview, License, XFN and Species
+Any23 is used in major Web of Data applications such as sindice.com and sig.ma. It is written in Java and licensed under the Apache License.
+
+Any23 can be used in various ways:
+
+As a library in Java applications that consume structured data from the Web.
+As a command-line tool for extracting and converting between the supported formats.
+There is a web service and API where you can try it at any23.org.
+You can download the latest release from the download site at Google Code.",0.4.1,24.06.2010,Data Conversion,,Plugin / Web Service / Command Line,Java,http://developers.any23.org/,http://groups.google.com/group/any23-dev,http://www.apache.org/licenses/LICENSE-2.0,http://any23.org/,,,stable
 googlerefine,http://data.lod2.eu/2011/tools/Google_Refine_RDF_Extension,RDF Extension for Google Refine,http://lab.linkeddata.deri.ie/2010/grefine-rdf-extension/,"Fadi Maali, Richard Cyganiak",richard@cyganiak.de,This project adds a graphical user interface (GUI) for exporting data of Google Refine projects in RDF format. The export is based on mapping the data to a template graph using the GUI.,0.2.1,20.10.2010,Publishing,,Graphic,Java,,,http://www.opensource.org/licenses/bsd-license.php,,"Richard Cyganiak, Fadi Maali and Vassilios Peristeras, Self-Service Linked Government Data with dcat and Gridworks. Proceedings of the 6th International Conference on Semantic Systems (I-SEMANTICS '10). http://portal.acm.org/citation.cfm?id=1839754",,alpha
 d2rserver,http://data.lod2.eu/2011/tools/D2R_Server,D2R Server,http://www4.wiwiss.fu-berlin.de/bizer/d2r-server/,"Chris Bizer, Richard Cyganiak",richard@cyganiak.de,"D2R Server is a tool for publishing relational databases on the Semantic Web.
 It enables RDF and HTML browsers to navigate the content of the database, and allows applications to query the database using the SPARQL query language.",,,Publishing,,Command Line,Java,http://www4.wiwiss.fu-berlin.de/bizer/d2r-server/#quickstart,https://lists.sourceforge.net/lists/listinfo/d2rq-map-devel,http://www.apache.org/licenses/LICENSE-2.0,http://www4.wiwiss.fu-berlin.de/is-group/,,,stable

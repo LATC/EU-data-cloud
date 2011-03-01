@@ -178,6 +178,11 @@ input, textarea, select {
 	padding: 2px;
 }
 
+.tool .name a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
 .tool .col1 {
 	padding: 2px;
 	width: 170px;
