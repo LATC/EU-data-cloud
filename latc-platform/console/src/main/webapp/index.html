@@ -1,134 +1,175 @@
-<!doctype html>
-<html lang="en" class="no-js">
+<!doctype html>  
+
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
-<meta charset="utf-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-<!-- www.phpied.com/conditional-comments-block-downloads/ -->
-<!--[if IE]><![endif]-->
+  <title></title>
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
-       Remove this if you use the .htaccess -->
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-<title>LATC Console</title>
-<meta name="description"
-	content="Console for the LATC project linking engine">
-<meta name="author" content="LATCers">
-
-<!--  Mobile Viewport Fix
-        j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag 
-  device-width : Occupy full width of the screen in its current orientation
-  initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
-  maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width
-  -->
-<meta name="viewport"
-	content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
-
-
-<!-- Place favicon.ico and apple-touch-icon.png in the root of your domain and delete these references -->
-<link rel="shortcut icon" href="/favicon.ico">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-
-
-<!-- CSS : implied media="all" -->
-<link rel="stylesheet" href="css/style.css?v=1">
-
-<!-- JQuery UI -->
-<link rel="stylesheet"
-	href="css/ui-lightness/jquery-ui-1.8.5.custom.css">
-
-<!-- Our custom CSS -->
-<link rel="stylesheet" href="css/latc.css?v=1">
-
-<!-- For the less-enabled mobile browsers like Opera Mini -->
-<link rel="stylesheet" media="handheld" href="css/handheld.css?v=1">
-
-
-
-
-<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
-<script src="js/modernizr-1.5.min.js"></script>
-
+  <link rel="stylesheet" href="css/style.css?v=2">
+  <link rel="stylesheet" type="text/css" href="http://static.flowplayer.org/tools/css/tabs.css" />
+  
+  <script src="js/libs/modernizr-1.6.min.js"></script>
 </head>
 
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-
-<!--[if lt IE 7 ]> <body class="ie6"> <![endif]-->
-<!--[if IE 7 ]>    <body class="ie7"> <![endif]-->
-<!--[if IE 8 ]>    <body class="ie8"> <![endif]-->
-<!--[if IE 9 ]>    <body class="ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!-->
 <body>
-<!--<![endif]-->
-<header>
-	<img src="img/latc.png" />
-	<h1 style="float: right;">console</h1>
-</header>
-<section id="linkingconfiguration-column">
-<h1>Linking configurations</h1>
-<div id="configurations-list">
-</div>
-<button style="margin-right:5px" id="add-button">add</button>
-<div class="clearfix">&nbsp;</div>
-</section>
-<iframe id="linkingconfiguration-inspection" seamless="seamless" src="default.html">
-</iframe>
-<footer>
-<p>EC FP7 Support Action LOD Around-The-Clock (LATC)</p>
-</footer>
+
+  <div id="container">
+    <header>
+	<img src="images/latc.png"/>
+	<div style="float:right">
+	<span class="drop-down">
+		<!-- Code for Login Link -->  
+		<a id="login-link" href="#" title="Login">login</a>  
+	  
+		<!-- Code for login panel -->  
+		<div id="login-panel">
+			<div id="login-panel-content">
+				<form action="javascript:login()" method="post">  
+				<label>Username:  
+				<input name="username" value="" type="text"> </label>   
+				<label>Password:  
+				<input name="password" value="" type="password"> </label>  
+				<input name="submit" value="Sign In" type="submit">  
+				</form>
+			</div>
+		</div> 
+	</span>
+	</div>
+    </header>
+    
+    <div id="main">
+
+		
+	<!-- the tabs -->
+	<ul class="tabs">
+		<li><a href="#overview">Overview</a></li>
+		<li><a href="#details">Detailed view</a></li>
+	</ul>
+
+	<!-- tab "panes" -->
+	<div class="panes" id="overview">
+		<!-- Overview panel -->
+		<div>
+			<p>
+			LATC executes a list of pre-configured tasks to create links between datasets.
+			On this overview page you can see the latest tasks created, the latest notifications
+			and also the number of links daily generated. 
+			</p>
+			<div>
+				<div class="column">
+					<h2>Latest tasks <a href="api/tasks.atom" class="feed-link"></a></h2>
+					<div id="tasksList"></div>
+				</div>
+				<div class="column">
+					<h2>Latest results</h2>
+					<div id="linksGraph" style="width:300px;height:200px;"></div>
+				</div>
+				<div class="column">
+					<h2>Latest notifications<a href="api/notifications.atom" class="feed-link"></a></h2>
+					<div id="eventsList"></div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<!-- Details panel -->
+		<div>
+			<div class="left-column">
+				<h2>Task selector</h2>
+				<p class="description">Select one of the task from the list to get more information about it and modify its configuration file. If you know the identifier of a particular task, you can search for it</p>
+				<table class="display" id="taskSelector">
+					<thead>
+						<tr>
+							<th>Identifier</th>
+							<th>Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					</tbody>
+				</table>
+			</div>
+			<div class="right-column" id="taskDetails">
+				<p class="description">Use the task selector on the left to pick up a specific task and get more information about it.</p>
+				<span id="taskDetailsContent">
+				</span>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>	
+	
+	</div>
+    
+    <footer>
+
+    </footer>
+  </div> <!-- end of #container -->
+  
+	<!-- yes/no dialog -->
+	<div class="modal" id="yesno">
+		<h2>Are you sure ?</h2>
+	
+		<p>
+			You need to confirm the operation.
+			Press the ESC key if you don't know what to do.
+		</p>
+	
+		<!-- yes/no buttons -->
+		<p>
+			<button class="close">Yes</button>
+			<button class="close">No</button>
+		</p>
+	</div>
 
 
-<!-- Javascript at the bottom for fast page loading -->
-
-<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
-<script
-	src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-<script>
-	!window.jQuery
-			&& document
-					.write('<script src="js/jquery-1.4.2.min.js"><\/script>')
-</script>
-<script src="js/jquery-ui-1.8.5.custom.min.js"></script>
-
-
-<script src="js/plugins.js?v=1"></script>
-<script src="js/script.js?v=1"></script>
-
-<!--[if lt IE 7 ]>
-    <script src="js/dd_belatedpng.js?v=1"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.4.2.js"%3E%3C/script%3E'))</script>
+  
+  <!-- jQueryTools, dataTables, cookies, templates, graph -->
+  <script src="http://cdn.jquerytools.org/1.2.5/all/jquery.tools.min.js"></script>
+  <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+  <script src="js/mylibs/jquery.dataTables.min.js"></script>
+  <script src="js/mylibs/jquery.cookie.js"></script>
+  <script src="js/mylibs/jquery.flot.js"></script>
+  
+  <!-- scripts concatenated and minified via ant build script-->
+  <script src="js/plugins.js"></script>
+  <script src="js/script.js"></script>
+  <!-- end concatenated and minified scripts-->
+  
+  
+  <!--[if lt IE 7 ]>
+    <script src="js/libs/dd_belatedpng.js"></script>
+    <script> DD_belatedPNG.fix('img, .png_bg'); </script>
   <![endif]-->
 
+  <!-- yui profiler and profileviewer - remove for production -->
+  <script src="js/profiling/yahoo-profiling.min.js"></script>
+  <script src="js/profiling/config.js"></script>
+  <!-- end profiling code -->
 
 
-<!-- asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet 
-       change the UA-XXXXX-X to be your site's ID -->
-<!-- 
-<script>
-	var _gaq = [ [ '_setAccount', 'UA-XXXXX-X' ], [ '_trackPageview' ] ];
-	(function(d, t) {
-		var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
-		g.async = true;
-		g.src = '//www.google-analytics.com/ga.js';
-		s.parentNode.insertBefore(g, s);
-	})(document, 'script');
-</script>
- -->
- 
-<!--  Confirm dialog -->
-<div id="dialog-confirm" title="Are you sure?" style="display: none;">
-	<p><span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0;"></span>
-	This item will be permanently deleted and cannot be recovered. Are you sure?</p>
-</div>
-
-<!-- Upload dialog -->
-<div id="dialog-upload" title="Add a new configuration file" style="display: none;">
-<form id="dialog-upload-form" action="api/configuration/new" method="POST" enctype="multipart/form-data">
-<label for="file-chooser">Select an XML file</label>
-<br/>
-<input name="fileToUpload" type="file" class="ui-widget-content ui-corner-all" />
-<input type="submit" value="Submit" style="display: none;"/>
-</form>
-</div>
-
+  <!-- change the UA-XXXXX-X to be your site's ID -->
+  <script>
+   var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];
+   (function(d, t) {
+    var g = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+    g.async = true;
+    g.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g, s);
+   })(document, 'script');
+  </script>
+  
 </body>
 </html>

@@ -5,39 +5,47 @@ import org.apache.commons.httpclient.HttpStatus;
 import org.apache.commons.httpclient.NameValuePair;
 import org.apache.commons.httpclient.URI;
 import org.apache.commons.httpclient.methods.PostMethod;
+import org.json.JSONObject;
 
 public class PostReport {
 	// Where the application is deployed
-	//static String HOST = "http://127.0.0.1:8080/console";
+	static String HOST = "http://127.0.0.1:8080/console";
+	
 	// The identifier of the configuration to send a report about
-	//static String ID = "ff8080812e14f2fa012e14f2fa210000";
-	// The full URI to POST the report to
-	static String HOST = "http://fspc409.few.vu.nl/LATC_Console";
-	static String ID = "ff8081812e15060a012e15060af50000";
-	static String API_URI = HOST + "/api/configuration/" + ID + "/reports";
-
+	static String ID = "ff8080812e2e35a3012e2e35a3c80000";
+	
 	/**
 	 * @param args
 	 * @throws Exception
 	 */
 	public static void main(String[] args) throws Exception {
+		// The data is a JSONObject with a free content 
+		JSONObject data = new JSONObject();
+		data.put("size", 100);
+		data.put("location", "http://demo.sindice.net/latctemp/2011-02-14/climb_silk_link_spec/");
+		
 		// Prepare the message
-		// NOTE: The date/time is automatically set to the POST date/time
-		NameValuePair[] data = { 
-				// Set the status message
-				new NameValuePair("status", "Test report"),
-				// Set the pointer to the location of the results (if any)
-				new NameValuePair("location", "http://latc-project.eu"),
-				// Set the size of the results (if any) or send 0
-				new NameValuePair("size", "0") 
+		// "message" is mandatory
+		// "severity" defaults to 'info' if not precised
+		// "data" is optional
+		// (note: The date/time is automatically set to the POST date/time)
+		NameValuePair[] request = { 
+				new NameValuePair("message", "Generated 100 triples"),
+				new NameValuePair("severity", "info"),
+				new NameValuePair("data", data.toString()) 
 		};
-		System.out.println("Message to be sent -> " + data.toString());
+		
+		// Diplay the result
+		System.out.println("Message to send -> " + request.toString());
 
+		// Prepare the query
+		String URI = HOST + "/api/task/" + ID + "/notifications";
+		PostMethod post = new PostMethod();
+		post.setURI(new URI(URI, false));
+		post.setRequestBody(request);
+		
 		// Issue the POST 
 		HttpClient clientService = new HttpClient();
-		PostMethod post = new PostMethod();
-		post.setURI(new URI(API_URI, false));
-		post.setRequestBody(data);
 		int status = clientService.executeMethod(post);
 
 		// Check response code

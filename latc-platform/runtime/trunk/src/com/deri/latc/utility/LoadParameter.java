@@ -14,7 +14,7 @@ import java.io.IOException;
 public class LoadParameter {
 	
 	public String HADOOP_PATH = "hadoop-0.20.2";
-	public String HADOOP_USER = System.getProperty("user.name");
+	public String HDFS_USER = System.getProperty("user.name");
 	public String LATC_CONSOLE_HOST = "http://fspc409.few.vu.nl/LATC_Console";
 	public String LINKS_FILE_STORE  = "links.nt";
 	public String RESULTS_HOST = "http://demo.sindice.net/latctemp";
@@ -25,6 +25,11 @@ public class LoadParameter {
 	public LoadParameter()
 	{}
 	
+	/**
+	 * 
+	 * @param pathconfigfile	path of configuration file
+	 * @throws IOException
+	 */
 	public LoadParameter(String pathconfigfile) throws IOException
 	{
 		try {
@@ -42,8 +47,8 @@ public class LoadParameter {
 			        	continue;
 			        if(split[0].trim().contentEquals("HADOOP_PATH"))
 			        	HADOOP_PATH=this.removeslash(split[1].trim());
-			        else if (split[0].trim().contentEquals("HADOOP_USER"))
-			        	HADOOP_USER=split[1].trim();
+			        else if (split[0].trim().contentEquals("HDFS_USER"))
+			        	HDFS_USER=split[1].trim();
 			        else if (split[0].trim().contentEquals("LATC_CONSOLE_HOST"))
 			        	LATC_CONSOLE_HOST=this.removeslash(split[1].trim());
 			        else if (split[0].trim().contentEquals("LINKS_FILE_STORE"))
@@ -66,6 +71,11 @@ public class LoadParameter {
 		
 	}  
 	
+	/**
+	 * Remove / 
+	 * @param word	the URL 
+	 * @return
+	 */
 	private String removeslash(String word)
 	{
 		if(word.endsWith("/"))
