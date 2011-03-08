@@ -13,7 +13,9 @@ $(document).ready(function() {
 	// var tabs = $("ul.tabs").data("tabs");
 	// tabs.next();
 
+	
 	// Plot a graph
+	/*
     var points = [[0, 121613], [1, 32675]];
     $.plot($("#linksGraph"), [ points ], {
                series: {
@@ -22,7 +24,8 @@ $(document).ready(function() {
                },
                grid: { hoverable: true, clickable: false }}
 	);
-    
+    */
+	
 	// Configure the selection of task for the detail panel
 	$('#taskSelector').dataTable({
 		"bPaginate" : false,
@@ -96,6 +99,7 @@ function logout() {
  */
 function reloadTasks() {
 	setLoading($("#tasksList"));
+	// { api_key : 'ffdffdf' }
 	$.getJSON('api/tasks.json?limit=5', function(data) {
 		// Clean the previous content for the overview table
 		$("#tasksList").empty();

@@ -68,15 +68,15 @@ public class Task implements Serializable {
 
 	@Persistent
 	private Date creationDate = null;
-	
+
 	@Persistent
 	private Date lastModificationDate = null;
-	
+
 	// Collection of notifications
 	@Persistent
 	@Element(types = Notification.class, column = "TASK_ID", dependent = "true", mappedBy = "task")
 	private Collection<Notification> notifications = new ArrayList<Notification>();
-	
+
 	// The configuration file, as an XML document
 	@NotPersistent
 	private Document document = null;

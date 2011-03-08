@@ -143,7 +143,7 @@ public class Notification implements Serializable {
 	 */
 	public String getSeverity() {
 		if (severity == null)
-			severity="info";
+			severity = "info";
 		return severity;
 	}
 

@@ -13,7 +13,6 @@ import eu.latc.console.resource.TaskConfigurationResource;
 public class MainApplication extends Application {
 	// Instance of the manager for configuration files
 	private ObjectManager manager = new ObjectManager();
-	
 
 	/**
 	 * Creates a root Restlet that will receive all incoming calls.
@@ -30,11 +29,11 @@ public class MainApplication extends Application {
 
 		// GET returns the list of all notifications
 		router.attach("/notifications", NotificationsResource.class);
-		
+
 		// Handler for the raw linking specification file
 		// GET to get the raw XML linking configuration
 		router.attach("/task/{ID}/configuration", TaskConfigurationResource.class);
-		
+
 		// Handler for the reports
 		// GET to get a sorted list of reports
 		// POST to this address to save a new report
@@ -48,7 +47,7 @@ public class MainApplication extends Application {
 
 		// Activate content filtering based on extensions
 		getTunnelService().setExtensionsTunnel(true);
-		
+
 		return router;
 	}
 

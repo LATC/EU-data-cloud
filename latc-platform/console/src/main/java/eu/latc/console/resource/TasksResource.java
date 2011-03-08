@@ -49,14 +49,17 @@ public class TasksResource extends ServerResource {
 		Set<Method> methods = new HashSet<Method>();
 		methods.add(Method.ALL);
 		this.setAllowedMethods(methods);
-		//logger.info(this.getRequest().toString());
-		//logger.info(this.getQuery().toString());
-		//logger.info(this.getRequestEntity().toString());
-	//logger.info(this.getMethod().toString());
+		// logger.info(this.getRequest().toString());
+		// logger.info(this.getQuery().toString());
+		// logger.info(this.getRequestEntity().toString());
+		// logger.info(this.getMethod().toString());
 		// logger.info(this.getRequestAttributes().toString());
 		getVariants().add(new Variant(MediaType.MULTIPART_FORM_DATA));
 		getVariants().add(new Variant(MediaType.MULTIPART_ALL));
 		// logger.info(this.getVariants().toString());
+		logger.info("" + this.getRequest().getChallengeResponse());
+		logger.info("" + this.getRequest().getAttributes());
+		logger.info("" + getReference().getQueryAsForm());
 	}
 
 	/**
@@ -66,6 +69,17 @@ public class TasksResource extends ServerResource {
 	 */
 	@Post("multipart/form-data")
 	public Representation add(Representation entity) throws Exception {
+		// Check credentials
+		Form params = getReference().getQueryAsForm();
+		if (params.getFirstValue("api_key", true) == null) {
+			setStatus(Status.CLIENT_ERROR_FORBIDDEN);
+			return null;
+		}
+		if (!params.getFirstValue("api_key", true).equals("aa4967eb8b7a5ccab7dbb57aa2368c7f")) {
+			setStatus(Status.CLIENT_ERROR_FORBIDDEN);
+			return null;
+		}
+
 		logger.info("[POST] Received a new task " + entity);
 
 		if ((entity == null) || (!MediaType.MULTIPART_FORM_DATA.equals(entity.getMediaType(), true))) {
@@ -158,11 +172,11 @@ public class TasksResource extends ServerResource {
 		// Handle the limit parameter
 		int limit = 0;
 		Form params = getReference().getQueryAsForm();
-		if (params.getFirstValue("limit",true) != null)
-			limit = Integer.parseInt(params.getFirstValue("limit",true));
-		
-		logger.info("[GET-JSON] Return a list of tasks "+ limit);
-		
+		if (params.getFirstValue("limit", true) != null)
+			limit = Integer.parseInt(params.getFirstValue("limit", true));
+
+		logger.info("[GET-JSON] Return a list of tasks " + limit);
+
 		try {
 			// Get access to the entity manager stored in the app
 			ObjectManager manager = ((MainApplication) getApplication()).getObjectManager();

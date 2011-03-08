@@ -74,6 +74,17 @@ public class TaskResource extends ServerResource {
 	 */
 	@Delete
 	public Representation remove() {
+		// Check credentials
+		Form params = getReference().getQueryAsForm();
+		if (params.getFirstValue("api_key", true) == null) {
+			setStatus(Status.CLIENT_ERROR_FORBIDDEN);
+			return null;
+		}
+		if (!params.getFirstValue("api_key", true).equals("aa4967eb8b7a5ccab7dbb57aa2368c7f")) {
+			setStatus(Status.CLIENT_ERROR_FORBIDDEN);
+			return null;
+		}
+
 		try {
 			ObjectManager manager = ((MainApplication) getApplication()).getObjectManager();
 
@@ -129,6 +140,17 @@ public class TaskResource extends ServerResource {
 	 */
 	@Put
 	public Representation updateInformation(Form parameters) {
+		// Check credentials
+		Form params = getReference().getQueryAsForm();
+		if (params.getFirstValue("api_key", true) == null) {
+			setStatus(Status.CLIENT_ERROR_FORBIDDEN);
+			return null;
+		}
+		if (!params.getFirstValue("api_key", true).equals("aa4967eb8b7a5ccab7dbb57aa2368c7f")) {
+			setStatus(Status.CLIENT_ERROR_FORBIDDEN);
+			return null;
+		}
+
 		logger.info("[PUT] Details for " + taskID + " with " + parameters);
 		task.setTitle(parameters.getFirstValue("title"));
 		task.setDescription(parameters.getFirstValue("description"));

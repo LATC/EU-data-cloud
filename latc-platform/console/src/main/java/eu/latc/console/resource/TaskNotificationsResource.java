@@ -38,7 +38,7 @@ public class TaskNotificationsResource extends TaskResource {
 	public Representation toJSON() {
 		try {
 			logger.info("[GET-JSON] Asked notifications for " + taskID);
-			
+
 			JSONArray array = new JSONArray();
 			ObjectManager manager = ((MainApplication) getApplication()).getObjectManager();
 			for (Notification report : manager.getReportsFor(taskID))
@@ -92,13 +92,24 @@ public class TaskNotificationsResource extends TaskResource {
 			return null;
 		}
 	}
-	
+
 	/**
 	 * Adds a new report for this linking configuration
 	 * 
 	 */
 	@Post
 	public Representation add(Form form) {
+		// Check credentials
+		Form params = getReference().getQueryAsForm();
+		if (params.getFirstValue("api_key", true) == null) {
+			setStatus(Status.CLIENT_ERROR_FORBIDDEN);
+			return null;
+		}
+		if (!params.getFirstValue("api_key", true).equals("aa4967eb8b7a5ccab7dbb57aa2368c7f")) {
+			setStatus(Status.CLIENT_ERROR_FORBIDDEN);
+			return null;
+		}
+
 		try {
 			logger.info("[POST] Add notification " + form.toString() + " for " + taskID);
 
@@ -110,7 +121,7 @@ public class TaskNotificationsResource extends TaskResource {
 				return null;
 			}
 			notification.setData(form.getFirstValue("data", true));
-			
+
 			notification.setSeverity(form.getFirstValue("severity", true));
 			if (notification.getSeverity() == null)
 				notification.setSeverity("info");

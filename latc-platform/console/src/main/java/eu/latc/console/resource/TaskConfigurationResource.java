@@ -33,6 +33,16 @@ public class TaskConfigurationResource extends TaskResource {
 	 */
 	@Put
 	public Representation update(Form parameters) {
+		// Check credentials
+		Form params = getReference().getQueryAsForm();
+		if (params.getFirstValue("api_key", true) == null) {
+			setStatus(Status.CLIENT_ERROR_FORBIDDEN);
+			return null;
+		}
+		if (!params.getFirstValue("api_key", true).equals("aa4967eb8b7a5ccab7dbb57aa2368c7f")) {
+			setStatus(Status.CLIENT_ERROR_FORBIDDEN);
+			return null;
+		}
 
 		try {
 			// Parse the identifier
@@ -56,7 +66,7 @@ public class TaskConfigurationResource extends TaskResource {
 			notification.setSeverity("warn");
 			notification.setMessage("Configuration modified");
 			manager.addNotification(taskID, notification);
-			
+
 			setStatus(Status.SUCCESS_OK);
 			return new StringRepresentation("updated", MediaType.TEXT_HTML);
 		} catch (Exception e) {
