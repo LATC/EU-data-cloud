@@ -20,11 +20,15 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.w3c.dom.Document;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
+
+import eu.latc.misc.DateToXSDateTime;
 
 /**
  * @author cgueret
@@ -213,31 +217,63 @@ public class Task implements Serializable {
 		return notifications;
 	}
 
+	/**
+	 * @param isTesting
+	 */
 	public void setTesting(boolean isTesting) {
 		this.isTesting = isTesting;
 	}
 
+	/**
+	 * @return
+	 */
 	public boolean isTesting() {
 		return isTesting;
 	}
 
+	/**
+	 * @param creationDate
+	 */
 	public void setCreationDate(Date creationDate) {
 		this.creationDate = creationDate;
 		this.lastModificationDate = this.creationDate;
 	}
 
+	/**
+	 * @return
+	 */
 	public Date getCreationDate() {
 		return creationDate;
 	}
 
+	/**
+	 * @param lastModificationDate
+	 */
 	public void setLastModificationDate(Date lastModificationDate) {
 		this.lastModificationDate = lastModificationDate;
 	}
 
+	/**
+	 * @return
+	 */
 	public Date getLastModificationDate() {
 		return lastModificationDate;
 	}
 
+	/**
+	 * @return
+	 * @throws JSONException
+	 */
+	public JSONObject toJSON() throws JSONException {
+		JSONObject entry = new JSONObject();
+		entry.put("identifier", identifier);
+		entry.put("title", title);
+		entry.put("description", description);
+		entry.put("created", DateToXSDateTime.format(creationDate));
+		entry.put("modified", DateToXSDateTime.format(lastModificationDate));
+		entry.put("testing", isTesting);
+		return entry;
+	}
 }
 
 // Serialize the document object into a string

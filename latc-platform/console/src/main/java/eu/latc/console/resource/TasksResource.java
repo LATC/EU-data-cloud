@@ -184,13 +184,8 @@ public class TasksResource extends ServerResource {
 			// The object requested is the list of configuration files
 			JSONObject json = new JSONObject();
 			JSONArray array = new JSONArray();
-			for (Task task : manager.getTasks(limit)) {
-				JSONObject entry = new JSONObject();
-				entry.put("identifier", task.getIdentifier());
-				entry.put("title", task.getTitle());
-				entry.put("description", task.getDescription());
-				array.put(entry);
-			}
+			for (Task task : manager.getTasks(limit))
+				array.put(task.toJSON());
 			json.put("task", array);
 
 			JsonConverter conv = new JsonConverter();

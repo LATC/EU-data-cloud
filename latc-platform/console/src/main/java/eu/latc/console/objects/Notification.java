@@ -17,6 +17,8 @@ import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import eu.latc.misc.DateToXSDateTime;
+
 /**
  * @author cgueret
  * 
@@ -60,10 +62,16 @@ public class Notification implements Serializable {
 	@NotPersistent
 	private String taskTitle = null;
 
+	/**
+	 * @param taskTitle
+	 */
 	public void setTaskTitle(String taskTitle) {
 		this.taskTitle = taskTitle;
 	}
 
+	/**
+	 * @return
+	 */
 	public String getTaskTitle() {
 		return taskTitle;
 	}
@@ -155,12 +163,9 @@ public class Notification implements Serializable {
 		JSONObject entry = new JSONObject();
 		entry.put("identifier", identifier);
 		// FIXME hack
-		if (severity == null)
-			entry.put("severity", "info");
-		else
-			entry.put("severity", severity);
+		entry.put("severity", (severity == null ? "info" : severity));
 		entry.put("message", message);
-		entry.put("date", date);
+		entry.put("date", DateToXSDateTime.format(date));
 		entry.put("data", data);
 		return entry;
 	}
