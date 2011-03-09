@@ -1,6 +1,10 @@
-
 syntax: regexp
 ^latc-platform/console/target$
+^latc-platform/console/deprec$
+^latc-platform/console/log$
 ^latc-platform/console/.classpath$
 ^latc-platform/console/.project$
 ^latc-platform/console/.settings$
+^latc-platform/console/.pydevproject$
+^latc-platform/console/.externalToolBuilders$
+
