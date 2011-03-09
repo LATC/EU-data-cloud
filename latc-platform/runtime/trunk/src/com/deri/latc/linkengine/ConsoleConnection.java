@@ -131,7 +131,7 @@ public class ConsoleConnection {
     * @return	true if posting report successfully
     * @throws Exception
     */
-   public boolean postReport(String id, VoidInfoDto vi) throws Exception {
+   public boolean postReport(String id, VoidInfoDto vi, String apikey) throws Exception {
        final String url = consolehost + "/task/" + id + "/notifications";
        JSONObject data = new JSONObject();
        data.put("size", vi.getStatItem());
@@ -144,7 +144,8 @@ public class ConsoleConnection {
        NameValuePair[] request = {
            new NameValuePair("message", vi.getRemarks()),
            new NameValuePair("severity", severity),
-           new NameValuePair("data", data.toString())
+           new NameValuePair("data", data.toString()),
+           new NameValuePair("api_key", apikey)
        };
        return this.postData(url, request);   
    }

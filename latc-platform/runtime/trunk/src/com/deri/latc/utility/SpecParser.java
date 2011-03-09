@@ -8,6 +8,8 @@ import org.xml.sax.helpers.XMLReaderFactory;
 import org.xml.sax.helpers.DefaultHandler;
 
 import com.deri.latc.dto.VoidInfoDto;
+import com.deri.latc.dto.VoidPrefix;
+
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -124,17 +126,17 @@ public class SpecParser extends DefaultHandler {
     	{
     		String linktypeStr = new String(ch,start,length);
     		String [] split = linktypeStr.split(":");
+    	
     		Void.setLinkPredicate(linktypeStr);
-    		String prefixStr = "@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . \n"
-                + "@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . \n"
-                + "@prefix owl: <http://www.w3.org/2002/07/owl#> . \n"
-                + "@prefix void: <http://rdfs.org/ns/void#> . \n";
-
-    		if(!split[0].equalsIgnoreCase("rdf") && !split[0].equalsIgnoreCase("rdfs") && !split[0].equalsIgnoreCase("owl"))
-    			prefixStr+="@prefix "+split[0]+": <"+prefix.get(split[0])+">. \n";
-    		prefixStr+="@prefix : <#> . \n";
-    		Void.setGlobalPrefixes(prefixStr);
+    		VoidPrefix.loadPrefix();
+    		Map <String,String> prefixes = new HashMap<String, String>();
+    		prefixes = VoidPrefix.getPrefix();
     		
+    		// prefix in not contain in the template
+    		if(!prefixes.containsKey(split[0]))
+    			Void.setGlobalPrefixes("@prefix "+split[0]+": <"+prefix.get(split[0])+">. \n");
+    		else 
+    			Void.setGlobalPrefixes(" ");
     	}
     }
 	

@@ -43,6 +43,7 @@ public class ListTranslator {
 			
 		 String readLine;
 		 while ((readLine = in.readLine()) != null) {
+			 readLine = readLine.replace("->", "To");
 			 blacklist.add(readLine.toLowerCase());
 			  }
 		 
@@ -62,9 +63,10 @@ public class ListTranslator {
                 JSONObject item = (JSONObject) JSONSerializer.toJSON(suggestions.getString(i));
                 StringTokenizer st = new StringTokenizer(item.getString("title")," ",false);
                 String title ="";
-                while (st.hasMoreElements()) title += st.nextElement();                
+                while (st.hasMoreElements()) title += st.nextElement();
+                title = title.replace("->", "To");
                 if(!blacklist.contains(title.toLowerCase()))
-                	LinkingConfigs.put(title,item.getString("identifier"));  
+                	LinkingConfigs.put(title,item.getString("identifier")+'#'+item.getString("modified"));  
             }
 
         } catch (Exception e) {
