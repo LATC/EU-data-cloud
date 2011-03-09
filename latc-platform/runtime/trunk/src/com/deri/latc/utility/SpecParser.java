@@ -11,6 +11,8 @@ import com.deri.latc.dto.VoidInfoDto;
 
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
 * Parsing SILK Specification XML file
@@ -22,7 +24,16 @@ import java.io.IOException;
 public class SpecParser extends DefaultHandler {
 	
 	private VoidInfoDto Void;
-	private String [] datasource = new String[2]; //name-URI-0 OR name-URI-1 
+	/**
+	 * name-0-URI OR name-1-URI
+	 * 0 = SPARQLEndPoint 
+	 * 1 = URIEndLookUp
+	 */
+	private String [] datasource = new String[2]; 
+	/**
+	 * Prefix ontology
+	 */
+	private final Map <String,String> prefix=new HashMap<String, String>();
 	private int i=0; 
 	private boolean linktype =false;
 	
@@ -41,21 +52,23 @@ public class SpecParser extends DefaultHandler {
     public void endDocument ()
     {
 	
-    	for(final String ds : this.datasource)
+    	if(this.i >0)
     	{
-    		String [] dsSplit = ds.split("-",3);
-    		if(dsSplit[0].equalsIgnoreCase(Void.getSourceDatasetName()))
-    			if(dsSplit[1].startsWith("0"))
-    				Void.setSourceSparqlEndpoint(dsSplit[2]);
-    			else 
-    				Void.setSourceUriLookupEndpoint(dsSplit[2]);
-    		else
-    			if(dsSplit[1].startsWith("0"))
-    				Void.setTargetSparqlEndpoint(dsSplit[2]);
-    			else 
-    				Void.setTargetUriLookupEndpoint(dsSplit[2]);
+	    	for(final String ds : this.datasource)
+	    	{
+	    		String [] dsSplit = ds.split("-",3);
+	    		if(dsSplit[0].equalsIgnoreCase(Void.getSourceDatasetName()))
+	    			if(dsSplit[1].startsWith("0"))
+	    				Void.setSourceSparqlEndpoint(dsSplit[2]);
+	    			else 
+	    				Void.setSourceUriLookupEndpoint(dsSplit[2]);
+	    		else
+	    			if(dsSplit[1].startsWith("0"))
+	    				Void.setTargetSparqlEndpoint(dsSplit[2]);
+	    			else 
+	    				Void.setTargetUriLookupEndpoint(dsSplit[2]);
+	    	}
     	}
-    	
     }
 
 
@@ -87,6 +100,9 @@ public class SpecParser extends DefaultHandler {
     	if(qName.equalsIgnoreCase("TargetDataset"))
     		Void.setTargetDatasetName(atts.getValue("dataSource"));
 	
+    	//prefix
+    	if(qName.equalsIgnoreCase("Prefix"))
+    		prefix.put(atts.getValue("id"), atts.getValue("namespace"));
 		
     }
 
@@ -106,7 +122,19 @@ public class SpecParser extends DefaultHandler {
     	
     	if(linktype)
     	{
-    		Void.setLinkPredicate(new String(ch,start,length));
+    		String linktypeStr = new String(ch,start,length);
+    		String [] split = linktypeStr.split(":");
+    		Void.setLinkPredicate(linktypeStr);
+    		String prefixStr = "@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . \n"
+                + "@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . \n"
+                + "@prefix owl: <http://www.w3.org/2002/07/owl#> . \n"
+                + "@prefix void: <http://rdfs.org/ns/void#> . \n";
+
+    		if(!split[0].equalsIgnoreCase("rdf") && !split[0].equalsIgnoreCase("rdfs") && !split[0].equalsIgnoreCase("owl"))
+    			prefixStr+="@prefix "+split[0]+": <"+prefix.get(split[0])+">. \n";
+    		prefixStr+="@prefix : <#> . \n";
+    		Void.setGlobalPrefixes(prefixStr);
+    		
     	}
     }
 	

@@ -14,18 +14,29 @@ public class TestHTTP {
 
 	private static String message;;
 	
+	/**
+	 * Getting error message 
+	 * @return
+	 */
 	public static String getMessage()
 	{
 		return message;
 	}
 	
-	  public static boolean test(final String URLName){
+	/**
+	 * Testing the availability of URL  
+	 * @param URLName	the URL path
+	 * @return
+	 */
+	public static boolean test(final String URLName){
 	    boolean result =false;		  
 		  try {
 	      HttpURLConnection con =
 	         (HttpURLConnection) new URL(URLName).openConnection();
 	      con.setRequestMethod("HEAD");
-	      if(con.getResponseCode() == HttpURLConnection.HTTP_OK)
+	      //con.setRequestMethod(method)
+	      System.out.println(con.getResponseMessage());
+	      if(con.getResponseCode() == HttpURLConnection.HTTP_OK || con.getResponseMessage().equalsIgnoreCase("No_query_string"))
 	      result = true;
 	    }
 	    catch (Exception e) {
@@ -35,7 +46,7 @@ public class TestHTTP {
 	  }
 
 	  public static void main(String[] args) {
-		  System.out.print(TestHTTP.test("http://fspc409.few.vu.nl/LATC_Conole"));
+		  System.out.print(TestHTTP.test("http://data.linkedmdb.org/sparql"));
 		  System.out.print(TestHTTP.getMessage());
 	  }
 	  

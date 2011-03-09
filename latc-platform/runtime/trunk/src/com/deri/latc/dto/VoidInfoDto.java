@@ -38,17 +38,7 @@ public class VoidInfoDto  {
         this.statItem = statItem;
     }
 
-    private String string;
-
-    /**
-     * Get the value of string
-     *
-     * @return the value of string
-     */
-    public String getString() {
-        return string;
-    }
-    private String linkPredicate=null;
+   private String linkPredicate=null;
 
     /**
      * Get the value of linkPredicate
@@ -67,17 +57,6 @@ public class VoidInfoDto  {
     public void setLinkPredicate(String linkPredicate) {
         this.linkPredicate = linkPredicate;
     }
-
-    /**
-     * Set the value of string
-     *
-     * @param string new value of string
-     */
-    public void setString(String string) {
-        this.string = string;
-    }
-
-
 
     private String globalPrefixes=null;
 
@@ -134,7 +113,7 @@ public class VoidInfoDto  {
     /**
      * Set the value of SourceUriLookupEndpoint
      *
-     * @param sourceSparqlEndpoint new value of sourceSparqlEndpoint
+     * @param sourceUriLookupEndpoint new value of sourceUriLookupEndpoint
      */
     public void setSourceUriLookupEndpoint(String sourceUriLookupEndpoint) {
         this.sourceUriLookupEndpoint = sourceUriLookupEndpoint;

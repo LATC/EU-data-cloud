@@ -27,11 +27,23 @@ public class HadoopClient {
 	private String ErrorMessage = null;
 	private final  	Configuration conf=new Configuration();
 	
+	
+	/**
+	 * 
+	 * @param hadoopPath	path of hadoop installation
+	 */
+			
 	public HadoopClient(final String hadoopPath)
 	{
 		this(hadoopPath,System.getProperty("user.name"));
 	}
 	
+	
+	/**
+	 * 
+	 * @param hadoopPath	path of hadoop installation
+	 * @param hadoopUser	user of hadoop
+	 */
 	public HadoopClient(final String hadoopPath, final String hadoopUser)
 	{
 			this.User=hadoopUser;
@@ -48,7 +60,13 @@ public class HadoopClient {
 	        }
 	}
 	
-	
+	/**
+	 * Create file in HDFS
+	 * @param path	path of file in HDFS
+	 * @param content	content to be stored
+	 * @param replace	true if replacing existing file
+	 * @return	true if create file successfully
+	 */
 	public boolean createFile(String path, String content,boolean replace)
 	{
 		boolean create = false;
@@ -73,6 +91,11 @@ public class HadoopClient {
 		return create;
 	}
 	
+	/**
+	 * Creating directory in HDFS
+	 * @param path	path of directory in HDFS
+	 * @return true if creating directory successfully
+	 */
 	public boolean createDir(String path)
 	{
 		boolean create = false;
@@ -90,6 +113,11 @@ public class HadoopClient {
 		return create;
 	}
 	
+	/**
+	 * Deleting file in HDFS
+	 * @param path	path of file in HDFS
+	 * @return true if creating file successfully
+	 */
 	public boolean deleteFile(String path)
 	{
 		boolean delete = false;
@@ -105,6 +133,11 @@ public class HadoopClient {
 		return delete;
 	}
 	
+	/**
+	 * Deleting directory in HDFS
+	 * @param path	path of directory in HDFS
+	 * @return true if creating file successfully
+	 */
 	public boolean deleteDir(String path)
 	{
 		boolean delete = false;
@@ -121,9 +154,13 @@ public class HadoopClient {
 	}
 	
 	
-	
-	
-	
+	/**
+	 * Merging two file to be one file	
+	 * @param src1	path of first file
+	 * @param src2	path of second file
+	 * @param des	path of destination file, if not assigned, the second source become default destination 
+	 * @return	true if merging done
+	 */
 	public boolean mergeFile(String src1, String src2, String des )
 	{
 		boolean create = false;
@@ -166,6 +203,11 @@ public class HadoopClient {
 		return create;
 	}
 	
+	/**
+	 * Checking existing directory or file
+	 * @param path	path of directory or file
+	 * @return true if file or directory is exist 
+	 */
 	  public boolean exists(Path path) {
 	        try {
 	            return hdfs.exists(path);
@@ -174,7 +216,10 @@ public class HadoopClient {
 	        }
 	        return false;
 	    }
-	 
+	 /**
+	  * Testing the available of HDFS
+	  * @return true if HDFS is ready to use
+	  */
 	 public boolean test()
 	 {
 		 boolean check = false;
@@ -183,7 +228,9 @@ public class HadoopClient {
 		 this.deleteFile(pathfile.toString());
 		 return check;		 
 	 }
-	 
+	 /**
+	  * close the HDFS
+	  */
 	 public void close()
 	 {
 		 try {
@@ -193,12 +240,22 @@ public class HadoopClient {
         }
 	 }
 	 
+	 /**
+	  *	Getting error message 
+	  * @return null if no error 
+	  */
 	 public String getMessage()
 	 {
 		 return this.ErrorMessage;
 		 
 	 }
 	 
+	 /**
+	  * Copying from local filesystem to HDFS <br/>
+	  * @param srclocal local file path	
+	  * @param destfs	HDFS file path
+	  * @return
+	  */
 	 public boolean copyFromLocalFile(String srclocal, String destfs)
 	 {
 		 final Path pathsrc = new Path(srclocal);
@@ -213,9 +270,15 @@ public class HadoopClient {
 		return copy;
 	 }
 	 
-	 public boolean copyToLocalFile(String srcfslocal, String destlocal)
+	 /**
+	  * Copying from HDFS to local filesystem
+	  * @param srchdfs	path file in HDFS
+	  * @param destlocal	path file in local
+	  * @return
+	  */
+	 public boolean copyToLocalFile(String srchdfs, String destlocal)
 	 {
-		 final Path pathsrc = new Path(srcfslocal);
+		 final Path pathsrc = new Path(srchdfs);
 		 final Path pathdes = new Path("/user/"+this.User+'/'+destlocal);
 		 boolean copy = false;
 		 try {
@@ -227,6 +290,13 @@ public class HadoopClient {
 		return copy;
 	 }
 	 
+	 /**
+	  * Copying and merging several file in the HDFS to one local filesystem <br/>
+	  * You could assign regex files
+	  * @param srcf
+	  * @param dst
+	  * @param endline
+	  */
 	 public void copyMergeToLocal(String srcf, String dst, boolean endline)  {
 		
 		 final Path srcPath = new Path("/user/"+this.User+'/'+srcf);
