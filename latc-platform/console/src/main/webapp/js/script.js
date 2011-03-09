@@ -147,8 +147,8 @@ function updateNotifications() {
 			title.appendTo(task);
 			var description = $("<p>").text(item.message);
 			description.appendTo(task);
-			var description2 = $("<p>").text("(" + item.date + ")");
-			description2.appendTo(task);
+			var comment = $("<p>").addClass('comment').text(item.date);
+			comment.appendTo(task);
 			task.appendTo($("#eventsList"));
 		});
 	});
