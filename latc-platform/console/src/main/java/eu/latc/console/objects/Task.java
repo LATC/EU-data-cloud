@@ -269,6 +269,7 @@ public class Task implements Serializable {
 		entry.put("identifier", identifier);
 		entry.put("title", title);
 		entry.put("description", description);
+		entry.put("author", "Administrator");
 		entry.put("created", DateToXSDateTime.format(creationDate));
 		entry.put("modified", DateToXSDateTime.format(lastModificationDate));
 		entry.put("testing", isTesting);
