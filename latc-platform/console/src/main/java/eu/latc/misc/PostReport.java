@@ -9,10 +9,10 @@ import org.json.JSONObject;
 
 public class PostReport {
 	// Where the application is deployed
-	static String HOST = "http://127.0.0.1:8080/console";
+	static String HOST = "http://latc-console.few.vu.nl/";
 
 	// The identifier of the configuration to send a report about
-	static String ID = "ff8080812e2e35a3012e2e35a3c80000";
+	static String ID = "ff8081812e2e36ce012e2e36cf7c0002";
 
 	/**
 	 * @param args
@@ -30,7 +30,7 @@ public class PostReport {
 		// "data" is optional
 		// (note: The date/time is automatically set to the POST date/time)
 		NameValuePair[] request = { 
-				new NameValuePair("message", "Generated 100 triples"),
+				new NameValuePair("message", "Generated some triples"),
 				new NameValuePair("severity", "info"), 
 				new NameValuePair("api_key", "aa4967eb8b7a5ccab7dbb57aa2368c7f"), 
 				new NameValuePair("data", data.toString()) };
@@ -40,6 +40,7 @@ public class PostReport {
 
 		// Prepare the query
 		String URI = HOST + "/api/task/" + ID + "/notifications";
+		System.out.println(URI);
 		PostMethod post = new PostMethod();
 		post.setURI(new URI(URI, false));
 		post.setRequestBody(request);

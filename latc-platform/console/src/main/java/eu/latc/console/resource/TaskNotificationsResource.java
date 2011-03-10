@@ -94,18 +94,13 @@ public class TaskNotificationsResource extends TaskResource {
 	}
 
 	/**
-	 * Adds a new report for this linking configuration
+	 * Adds a new report for this task
 	 * 
 	 */
 	@Post
 	public Representation add(Form form) {
 		// Check credentials
-		Form params = getReference().getQueryAsForm();
-		if (params.getFirstValue("api_key", true) == null) {
-			setStatus(Status.CLIENT_ERROR_FORBIDDEN);
-			return null;
-		}
-		if (!params.getFirstValue("api_key", true).equals("aa4967eb8b7a5ccab7dbb57aa2368c7f")) {
+		if (form.getFirstValue("api_key", true) == null || !form.getFirstValue("api_key", true).equals("aa4967eb8b7a5ccab7dbb57aa2368c7f")) {
 			setStatus(Status.CLIENT_ERROR_FORBIDDEN);
 			return null;
 		}
