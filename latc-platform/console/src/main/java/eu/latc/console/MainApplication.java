@@ -4,6 +4,7 @@ import org.restlet.Application;
 import org.restlet.Restlet;
 import org.restlet.routing.Router;
 
+import eu.latc.console.resource.APIKeyResource;
 import eu.latc.console.resource.NotificationsResource;
 import eu.latc.console.resource.TaskResource;
 import eu.latc.console.resource.TasksResource;
@@ -22,6 +23,10 @@ public class MainApplication extends Application {
 		// Create a router
 		Router router = new Router(getContext());
 
+		// Handler for login
+		// GET returns an API key matching a given login/password combination
+		router.attach("/api_key", APIKeyResource.class);
+		
 		// Handler for the processing queue
 		// GET returns the list of tasks
 		// POST to create a new task

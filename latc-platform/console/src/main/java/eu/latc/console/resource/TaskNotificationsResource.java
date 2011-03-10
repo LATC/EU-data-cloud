@@ -100,7 +100,7 @@ public class TaskNotificationsResource extends TaskResource {
 	@Post
 	public Representation add(Form form) {
 		// Check credentials
-		if (form.getFirstValue("api_key", true) == null || !form.getFirstValue("api_key", true).equals("aa4967eb8b7a5ccab7dbb57aa2368c7f")) {
+		if (form.getFirstValue("api_key", true) == null || !form.getFirstValue("api_key", true).equals(APIKeyResource.KEY)) {
 			setStatus(Status.CLIENT_ERROR_FORBIDDEN);
 			return null;
 		}

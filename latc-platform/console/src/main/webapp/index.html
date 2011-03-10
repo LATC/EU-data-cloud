@@ -28,10 +28,11 @@
 	<img src="images/latc.png"/>
 	<div style="float:right">
 	<span class="drop-down">
-		<a id="login-link" href="#" title="Login">login</a>  
+		<a id="login-link" href="#" title="Login">administrator login</a>  
+		<a id="logout-link" href="#" title="Logout">logout</a>  
 		<div id="login-panel">
 			<div id="login-panel-content">
-				<form action="javascript:login()" method="post">  
+				<form action="javascript:login()" name="login" method="post">  
 				<label>Username:  
 				<input name="username" value="" type="text"> </label>   
 				<label>Password:  
@@ -135,6 +136,7 @@
   <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
   <script src="js/mylibs/jquery.dataTables.min.js"></script>
   <script src="js/mylibs/jquery.cookie.js"></script>
+  <script src="js/mylibs/md5.js"></script>
   <!-- <script src="js/mylibs/jquery.flot.js"></script> -->
   
   <!-- scripts concatenated and minified via ant build script-->

@@ -5,6 +5,7 @@ $(function() {
 	// Load the GET variables, code from
 	// http://techfeed.net/blog/index.cfm/2007/2/6/JavaScript-URL-variables
 	document.getVars = [];
+	document.getVars.api_key = "";
 	var urlHalves = String(document.location).split('?');
 	if (urlHalves[1]) {
 		var urlVars = urlHalves[1].split('&');
@@ -16,7 +17,10 @@ $(function() {
 		}
 	}
 	var id = document.getVars.id;
-
+	if (document.getVars.api_key == "") {
+		$("#save-button").hide(0);
+	};
+	
 	// Load the configuration file and display the editor (Ajax)
 	$.get('../api/task/' + id + '/configuration', function(data) {
 		initEditor(id, data);
@@ -62,6 +66,7 @@ function saveLinkingConfiguration(id, editor) {
 		type : 'PUT',
 		url : '../api/task/' + id + '/configuration',
 		data : {
+			api_key : document.getVars.api_key,
 			configuration : editor.getCode()
 		},
 		dataType : "text",

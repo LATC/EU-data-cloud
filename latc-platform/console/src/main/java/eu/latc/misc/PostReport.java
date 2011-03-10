@@ -7,6 +7,8 @@ import org.apache.commons.httpclient.URI;
 import org.apache.commons.httpclient.methods.PostMethod;
 import org.json.JSONObject;
 
+import eu.latc.console.resource.APIKeyResource;
+
 public class PostReport {
 	// Where the application is deployed
 	static String HOST = "http://latc-console.few.vu.nl/";
@@ -32,7 +34,7 @@ public class PostReport {
 		NameValuePair[] request = { 
 				new NameValuePair("message", "Generated some triples"),
 				new NameValuePair("severity", "info"), 
-				new NameValuePair("api_key", "aa4967eb8b7a5ccab7dbb57aa2368c7f"), 
+				new NameValuePair("api_key", APIKeyResource.KEY), 
 				new NameValuePair("data", data.toString()) };
 
 		// Diplay the result

@@ -1,6 +1,8 @@
 /* Author: 
-
+ Christophe Gueret <c.d.m.gueret@vu.nl>
  */
+
+var api_key = "";
 
 /*
  * Various initialisations performed once the document is scriptable
@@ -58,10 +60,17 @@ $(document).ready(function() {
 	$("#login-link").click(function() {
 		$("#login-panel").toggle(0);
 	});
-
+	$("#logout-link").click(function() {
+		logout();
+	});
+	$("#logout-link").hide(0);
+	
 	// Configure the template for the task details
 	$.get("details-template.html", function(data) {
 		$.template("taskDetails", data);
+	});
+	$.get("details-template-admin.html", function(data) {
+		$.template("taskDetailsAdmin", data);
 	});
 
 	// Load the tasks
@@ -86,12 +95,34 @@ $(document).keydown(function(e) {
  */
 function login() {
 	$("#login-panel").hide(0);
+	var user=document.forms["login"]["username"].value;
+	var pass=document.forms["login"]["password"].value;
+	$.ajax({
+		type : 'POST',
+		url : 'api/api_key',
+		data : {
+			username : user,
+			password : pass
+		},
+		dataType : "json",
+		success : function(data) {
+			api_key = data.api_key;
+			$("#logout-link").toggle(0);
+			$("#login-link").hide(0);
+			// Load the tasks
+			reloadTasks();
+		}
+	});
+	$("#login-panel").hide(0);
 }
 
 /*
  * Log out
  */
 function logout() {
+	api_key = "";
+	$("#login-link").toggle(0);
+	$("#logout-link").hide(0);
 }
 
 /*
@@ -99,7 +130,6 @@ function logout() {
  */
 function reloadTasks() {
 	setLoading($("#tasksList"));
-	// { api_key : 'ffdffdf' }
 	$.getJSON('api/tasks.json?limit=5', function(data) {
 		// Clean the previous content for the overview table
 		$("#tasksList").empty();
@@ -166,12 +196,20 @@ function loadTaskDetails(identifier) {
 		$("#taskDetailsContent").empty();
 
 		// Initialise the template for this task
-		$.tmpl("taskDetails", [ {
-			identifier : identifier,
-			title : data.title,
-			description : data.description
-		} ]).appendTo("#taskDetailsContent");
-
+		if (api_key == "") {
+			$.tmpl("taskDetails", [ {
+				identifier : identifier,
+				title : data.title,
+				description : data.description
+			} ]).appendTo("#taskDetailsContent");
+		} else {
+			$.tmpl("taskDetailsAdmin", [ {
+				identifier : identifier,
+				title : data.title,
+				description : data.description,
+				api_key : api_key
+			} ]).appendTo("#taskDetailsContent");
+		}
 		// Initialise the table
 		$('#taskReports').dataTable({
 			"bLengthChange" : false,
@@ -196,6 +234,9 @@ function loadTaskDetails(identifier) {
 					type : 'DELETE',
 					url : 'api/task/' + identifier,
 					dataType : "text",
+					data : {
+						api_key : api_key
+					},
 					success : function() {
 						reloadTasks();
 					}
@@ -234,11 +275,11 @@ function setLoading(element) {
  * Save the details about a task
  */
 function saveDetails() {
-
 	$.ajax({
 		type : 'PUT',
 		url : 'api/task/' + $("[name=task-identifier]").val(),
 		data : {
+			api_key : api_key,
 			title : $("[name=task-title]").val(),
 			description : $("[name=task-description]").val()
 		},

@@ -3,6 +3,7 @@
 <label>Identifier:<input name="task-identifier" disabled="true" value="${identifier}" type="text"></label>
 <label>Title:<input name="task-title" value="${title}" type="text"></label>
 <label>Description:<textarea name="task-description">${description}</textarea></label>
+<input class="submit" name="submit" value="Save changes" type="submit"/> 
 </form>
 <h2>Messages <a href="api/task/${identifier}/notifications.atom" class="feed-link"></a></h2>
 <table class="display" id="taskReports">
@@ -18,4 +19,5 @@
 </table>
 <h2>Other actions</h2>
 <br/>
-<a target="_blank" href="externaleditor/editor.html?id=${identifier}" name="editTask" class="edit">View task configuration</a>
+<a target="_blank" href="externaleditor/editor.html?id=${identifier}&api_key=${api_key}" name="editTask" class="edit">Edit task configuration</a>
+<button name="deleteTask" rel="#yesno" class="delete" disabled="disabled">Delete task</button>

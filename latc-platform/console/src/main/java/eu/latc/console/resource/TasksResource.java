@@ -75,7 +75,7 @@ public class TasksResource extends ServerResource {
 			setStatus(Status.CLIENT_ERROR_FORBIDDEN);
 			return null;
 		}
-		if (!params.getFirstValue("api_key", true).equals("aa4967eb8b7a5ccab7dbb57aa2368c7f")) {
+		if (!params.getFirstValue("api_key", true).equals(APIKeyResource.KEY)) {
 			setStatus(Status.CLIENT_ERROR_FORBIDDEN);
 			return null;
 		}

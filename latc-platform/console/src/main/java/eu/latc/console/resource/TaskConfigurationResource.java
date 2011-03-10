@@ -33,20 +33,17 @@ public class TaskConfigurationResource extends TaskResource {
 	 */
 	@Put
 	public Representation update(Form parameters) {
+		// Parse the identifier
+		logger.info("[PUT] Update configuration file for " + taskID + " with " + parameters.toString());
+
 		// Check credentials
-		Form params = getReference().getQueryAsForm();
-		if (params.getFirstValue("api_key", true) == null) {
-			setStatus(Status.CLIENT_ERROR_FORBIDDEN);
-			return null;
-		}
-		if (!params.getFirstValue("api_key", true).equals("aa4967eb8b7a5ccab7dbb57aa2368c7f")) {
+		if (parameters.getFirstValue("api_key", true) == null
+				|| !parameters.getFirstValue("api_key", true).equals(APIKeyResource.KEY)) {
 			setStatus(Status.CLIENT_ERROR_FORBIDDEN);
 			return null;
 		}
 
 		try {
-			// Parse the identifier
-			logger.info("[PUT] Update configuration file for " + taskID + " with " + parameters.toString());
 
 			// Get the configuration file to assign
 			String text = parameters.getFirstValue("configuration");
