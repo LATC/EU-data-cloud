@@ -293,14 +293,14 @@ public class HadoopClient {
 	 /**
 	  * Copying and merging several file in the HDFS to one local filesystem <br/>
 	  * You could assign regex files
-	  * @param srcf
-	  * @param dst
-	  * @param endline
+	  * @param srchdfs	several files in one directory <br/> example : exampledir/* or exampledir/*.txt
+	  * @param dstlocal the local path file result
+	  * @param endline	true if each file is separated by line
 	  */
-	 public void copyMergeToLocal(String srcf, String dst, boolean endline)  {
+	 public void copyMergeToLocal(String srchdfs, String dstlocal, boolean endline)  {
 		
-		 final Path srcPath = new Path("/user/"+this.User+'/'+srcf);
-		 final Path desPath = new Path(dst);
+		 final Path srcPath = new Path("/user/"+this.User+'/'+srchdfs);
+		 final Path desPath = new Path(dstlocal);
 		 try {
 		 Path [] srcs = FileUtil.stat2Paths(hdfs.globStatus(srcPath), srcPath);
 		 OutputStream out = FileSystem.getLocal(conf).create(desPath);

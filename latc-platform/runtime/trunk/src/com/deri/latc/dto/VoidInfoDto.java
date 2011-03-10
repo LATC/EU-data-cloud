@@ -5,7 +5,8 @@
 
 package com.deri.latc.dto;
 
-
+import org.apache.commons.httpclient.URIException;
+import org.apache.commons.httpclient.util.URIUtil;
 
 /**
  *
@@ -237,6 +238,27 @@ public class VoidInfoDto  {
     public void setRemarks(String remarks) {
         this.remarks = remarks;
     }
+    private String spec=null;
+
+    /**
+     * Get the value of dataDump
+     *
+     * @return the value of dataDump
+     */
+    public String getSpec() {
+        return spec;
+    }
+
+    /**
+     * Set the value of dataDump
+     *
+     * @param dataDump new value of dataDump
+     */
+    public void setSpec(String speclink) {
+        this.spec = this.encodeURI(speclink);
+    }
+
+    
     private String dataDump=null;
 
     /**
@@ -254,9 +276,67 @@ public class VoidInfoDto  {
      * @param dataDump new value of dataDump
      */
     public void setDataDump(String dataDump) {
-        this.dataDump = dataDump;
+        this.dataDump = this.encodeURI(dataDump);
     }
 
+    
+    private String linkSetCreatedTime=null;
+    
+    public void setLinkSetCreatedTime (String date)
+    {
+    	this.linkSetCreatedTime = date;
+    }
  
-
+    public String getLinkSetCreatedTime()
+    {
+    	return this.linkSetCreatedTime;
+    }
+    
+    private String specCreatedTime = null;
+   
+    public void setSpecCreatedTime (String date)
+    {
+    	this.specCreatedTime = date;
+    }
+ 
+    public String getSpecCreatedTime()
+    {
+    	return this.specCreatedTime;
+    }
+    
+    private String specRetrievedTime = null;
+    
+    public void setSpecRetrievedTime (String date)
+    {
+    	this.specRetrievedTime = date;
+    }
+ 
+    public String getSpecRetrievedTime()
+    {
+    	return this.specRetrievedTime;
+    }
+    
+ private String specAuthor = null;
+    
+    public void setSpecAuthor (String author)
+    {
+    	this.specAuthor = author;
+    }
+ 
+    public String getSpecAuthor()
+    {
+    	return this.specAuthor;
+    }
+    
+    private String encodeURI (String URI)
+    {
+    	
+    	try {
+			URI= URIUtil.decode(URI);
+		} catch (URIException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return URI;
+    }
 }

@@ -4,8 +4,15 @@
  */
 package com.deri.latc.linkengine;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
 import com.deri.latc.dto.VoidInfoDto;
+import com.deri.latc.utility.Parameters;
 
 /**
  * Storing String or VOID to file
@@ -43,40 +50,74 @@ public class ContentWriter {
 
     public void writeIt(String fileName, VoidInfoDto vi) {
         try {
-           
-           
-
-        	vi.setLinkPredicate("\tvoid:linkPredicate " +vi.getLinkPredicate() + ";\n");
-
-        	vi.setThirdPartyInterlinking(":" +vi.getSourceDatasetName() + "2" +vi.getTargetDatasetName() + " a void:Linkset ; \n "
-                    +vi.getLinkPredicate()
-                    + "\tvoid:target :" +vi.getSourceDatasetName() + ";\n  "
-                    + "\tvoid:target :" +vi.getTargetDatasetName() + " ;\n"
-                    + "\tvoid:triples  " +vi.getStatItem() + ";\n\t.\n");
-
-                      
-         
-            FileWriter fstream = new FileWriter(fileName);
-            BufferedWriter out = new BufferedWriter(fstream);
-
-            out.write(vi.getGlobalPrefixes());
-            out.write(':'+vi.getSourceDatasetName()+" a void:Dataset;\n");
-            if(vi.getSourceSparqlEndpoint()!=null)
-            	out.write("\tvoid:sparqlEndpoint <"+vi.getSourceSparqlEndpoint()+">;\n\t.\n");
-            else
-            	out.write("\tvoid:uriLookupEndpoint <"+vi.getSourceUriLookupEndpoint()+">;\n\t.\n");
-            out.write(':'+vi.getTargetDatasetName()+" a void:Dataset;\n");
-            if(vi.getTargetSparqlEndpoint()!=null)
-            	out.write("\tvoid:sparqlEndpoint <"+vi.getTargetSparqlEndpoint()+">;\n\t.\n");
-            else
-            	out.write("\tvoid:uriLookupEndpoint <"+vi.getTargetUriLookupEndpoint()+">;\n\t.\n");
-            out.write(vi.getThirdPartyInterlinking());
-            out.flush();
-            //Close the output stream
-            out.close();
-        } catch (Exception e) {//Catch exception if any
-            System.err.println("Error: " + e.getMessage());
-        }
-       
+                             
+           //read void template file and write void
+           BufferedReader in = new BufferedReader(new FileReader("voidtmpl"));
+           FileWriter fstream = new FileWriter(fileName);
+           BufferedWriter out = new BufferedWriter(fstream);
+   			
+   			String readLine;
+   			while ((readLine = in.readLine()) != null) {
+   					readLine = this.replaceTemplate(readLine, vi);
+   					if(!readLine.matches("(.*)\\*\\*(.*)\\*\\*(.*)"))
+   					{
+   					out.write(readLine);
+   					out.write('\n');
+   					}
+   				}
+   				in.close();
+   				out.flush();
+   	            out.close();
+			} catch (FileNotFoundException e) {
+				System.err.println("Error: " + e.getMessage());
+			} catch (IOException e) {
+				System.err.println("Error: " + e.getMessage());
+			}		         
+    }
+        
+    /**
+     * 
+     * @param input
+     * @param vi
+     * @return
+     */
+    private String replaceTemplate(String input, VoidInfoDto vi)
+    {
+    	if (input.contains("**newprefix**") )
+    		input = input.replace("**newprefix**", vi.getGlobalPrefixes());
+    	else if(input.contains("**source**"))
+    		input =input.replace("**source**", vi.getSourceDatasetName());
+    	else if(input.contains("**target**"))
+    		input =input.replace("**target**", vi.getTargetDatasetName());
+    	else if(input.contains("**sparqlsource**") && vi.getSourceSparqlEndpoint()!=null)
+    		input =input.replace("**sparqlsource**", vi.getSourceSparqlEndpoint());
+    	else if(input.contains("**sparqltarget**") && vi.getTargetSparqlEndpoint()!=null)
+    		input =input.replace("**sparqltarget**", vi.getTargetSparqlEndpoint());
+    	else if(input.contains("**uriLookupsource**") && vi.getSourceUriLookupEndpoint()!=null )
+    		input =input.replace("**uriLookupsource**", vi.getSourceUriLookupEndpoint());
+    	else if(input.contains("**uriLookuptarget**") && vi.getTargetUriLookupEndpoint()!=null )
+    		input =input.replace("**uriLookuptarget**", vi.getTargetUriLookupEndpoint());
+    	else if(input.contains("**linksetname**"))
+    		input =input.replace("**linksetname**", vi.getSourceDatasetName()+'2'+vi.getTargetDatasetName());
+    	else if(input.contains("**linktype**"))
+    		input =input.replace("**linktype**", vi.getLinkPredicate());
+    	else if(input.contains("**triples**"))
+    		input =input.replace("**triples**", Integer.toString(vi.getStatItem()));
+    	else if(input.contains("**datadump**"))
+    		input =input.replace("**datadump**", vi.getDataDump());
+    	else if(input.contains("**linksetcreatedtime**"))
+    		input =input.replace("**linksetcreatedtime**", vi.getLinkSetCreatedTime());
+       	else if(input.contains("**speccreatedtime**"))
+       		input =input.replace("**speccreatedtime**", vi.getSpecCreatedTime());
+       	else if(input.contains("**specauthor**"))
+       		input =input.replace("**specauthor**", vi.getSpecAuthor());
+       	else if(input.contains("**specretrievedtime**"))
+       		input =input.replace("**specretrievedtime**", vi.getSpecRetrievedTime());
+    	else if(input.contains("**specURL**"))
+    		input =input.replace("**specURL**", vi.getSpec());
+    	else if(input.contains("**consolehost**"))
+    		input =input.replace("**consolehost**", Parameters.LATC_CONSOLE_HOST);
+    	
+    	return input;
     }
 }

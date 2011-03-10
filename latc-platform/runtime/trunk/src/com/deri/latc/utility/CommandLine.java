@@ -28,6 +28,7 @@ public class CommandLine {
 	private final String	   RESULT_LOCAL_DIR	= "result-local-dir";
 	private final String	   SPEC_FILE		= "spec-file";
 	private final String	   VOID_FILE		= "void-file";
+	private final String	   API_KEY			= "api-key";
 	
 	 private final OptionParser parser;
 	 
@@ -43,6 +44,7 @@ public class CommandLine {
 		 parser.accepts(SPEC_FILE, "[OPTIONAL] The name of SILK specification file , default : spec.xml").withRequiredArg().ofType(String.class);
 		 parser.accepts(VOID_FILE, "[OPTIONAL] The name of void file , default : void.ttl").withRequiredArg().ofType(String.class);
 		 parser.accepts(RESULT_LOCAL_DIR, "[OPTIONAL] The local path result , default : results").withRequiredArg().ofType(String.class);
+		 parser.accepts(API_KEY, "[REQUIRED] The api key for posting report to onsole ").withRequiredArg().ofType(String.class);
 		 
 	}
 	 
@@ -64,30 +66,33 @@ public class CommandLine {
 				  le.execute();
 				  System.exit(0);
 			  }
-			  if (!options.has(HADOOP_PATH) || !options.has(LATC_CONSOLE_HOST) || !options.has(RESULTS_HOST)) {
-			      System.out.println("Error parameter hadoop path, URL of console host and URL of links generation are required");
+			  if (!options.has(HADOOP_PATH) || !options.has(LATC_CONSOLE_HOST) || !options.has(RESULTS_HOST) || !!options.has(API_KEY)) {
+			      System.out.println("Error parameter hadoop path, URL of console host, api key and URL of links generation are required");
 			      parser.printHelpOn(System.out);
 			      System.exit(0);
 			    }
 			 
-			  LoadParameter parameters = new LoadParameter();
+			  
 			  if (options.has(HADOOP_PATH))
-				  parameters.HADOOP_PATH = (String)options.valueOf(HADOOP_PATH);
+				  Parameters.HADOOP_PATH = (String)options.valueOf(HADOOP_PATH);
 			  if (options.has(HDFS_USER))
-				  parameters.HDFS_USER = (String)options.valueOf(HDFS_USER);
+				  Parameters.HDFS_USER = (String)options.valueOf(HDFS_USER);
 			  if (options.has(LATC_CONSOLE_HOST))
-				  parameters.LATC_CONSOLE_HOST = (String)options.valueOf(LATC_CONSOLE_HOST);
+				  Parameters.LATC_CONSOLE_HOST = (String)options.valueOf(LATC_CONSOLE_HOST);
 			  if (options.has(RESULTS_HOST))
-				  parameters.RESULTS_HOST = (String)options.valueOf(RESULTS_HOST);
+				  Parameters.RESULTS_HOST = (String)options.valueOf(RESULTS_HOST);
 			  if (options.has(LINKS_FILE))
-				  parameters.LINKS_FILE_STORE = (String)options.valueOf(LINKS_FILE);
+				  Parameters.LINKS_FILE_STORE = (String)options.valueOf(LINKS_FILE);
 			  if (options.has(SPEC_FILE))
-				  parameters.SPEC_FILE = (String)options.valueOf(SPEC_FILE);
+				  Parameters.SPEC_FILE = (String)options.valueOf(SPEC_FILE);
 			  if (options.has(VOID_FILE))
-				  parameters.VOID_FILE = (String)options.valueOf(VOID_FILE);
+				  Parameters.VOID_FILE = (String)options.valueOf(VOID_FILE);
 			  if (options.has(RESULT_LOCAL_DIR))
-				  parameters.RESULT_LOCAL_DIR = (String)options.valueOf(RESULT_LOCAL_DIR);
-			  LinkEngine le = new LinkEngine(parameters);
+				  Parameters.RESULT_LOCAL_DIR = (String)options.valueOf(API_KEY);
+			  if (options.has(API_KEY))
+				  Parameters.API_KEY = (String)options.valueOf(API_KEY);
+			  
+			  LinkEngine le = new LinkEngine();
 			  le.execute();
 			  
 		  }

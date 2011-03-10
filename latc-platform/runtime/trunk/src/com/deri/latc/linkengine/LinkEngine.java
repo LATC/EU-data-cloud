@@ -7,7 +7,7 @@ package com.deri.latc.linkengine;
 
 import com.deri.latc.translator.ListTranslator;
 import com.deri.latc.dto.VoidInfoDto;
-import com.deri.latc.utility.LoadParameter;
+import com.deri.latc.utility.Parameters;
 import com.deri.latc.utility.LogFormatter;
 import com.deri.latc.utility.SpecParser;
 import com.deri.latc.utility.TestHTTP;
@@ -41,7 +41,6 @@ import org.xml.sax.helpers.XMLReaderFactory;
 public class LinkEngine {
 
 
-	private final LoadParameter parameters;
 	private static final Logger logfile = Logger.getLogger("RuntimeLog");
 	private String RESULTDIR;
 	private Map <String,String> toDoList = new TreeMap<String, String>();
@@ -54,7 +53,7 @@ public class LinkEngine {
 	 */
 	public LinkEngine (String ConfigFile) throws IOException
 	{
-		parameters = new LoadParameter(ConfigFile);
+		Parameters.load(ConfigFile);
 	 	this.createresultDir();
 
 	}
@@ -64,9 +63,8 @@ public class LinkEngine {
 	 * @param p	LoadParameter	The variable which is obtained from command line user 
 	 * @throws IOException
 	 */
-	public LinkEngine (LoadParameter p)throws IOException
+	public LinkEngine ()throws IOException
 	{
-		this.parameters =p;
 		this.createresultDir();
 	}
 
@@ -78,10 +76,10 @@ public class LinkEngine {
 	{
 		String datepattern = "yyyy-MM-dd";
 		SimpleDateFormat sdf =new SimpleDateFormat(datepattern);
-		 RESULTDIR = parameters.RESULT_LOCAL_DIR+'/'+sdf.format(new Date());
-		 boolean exists = (new File(parameters.RESULT_LOCAL_DIR)).exists();
+		 RESULTDIR = Parameters.RESULT_LOCAL_DIR+'/'+sdf.format(new Date());
+		 boolean exists = (new File(Parameters.RESULT_LOCAL_DIR)).exists();
 		 if (!exists)
-			 (new File(parameters.RESULT_LOCAL_DIR)).mkdirs();
+			 (new File(Parameters.RESULT_LOCAL_DIR)).mkdirs();
 		 exists = (new File(RESULTDIR)).exists();
 		 if (!exists)
 			 (new File(RESULTDIR)).mkdirs();
@@ -98,18 +96,18 @@ public class LinkEngine {
 	public void execute() throws Exception {
 
 		//testing console
-		 if(TestHTTP.test(parameters.LATC_CONSOLE_HOST))
-	        	logfile.info(parameters.LATC_CONSOLE_HOST+" OK");
+		 if(TestHTTP.test(Parameters.LATC_CONSOLE_HOST))
+	        	logfile.info(Parameters.LATC_CONSOLE_HOST+" OK");
 	        else 
 	        {
-	        	logfile.severe(parameters.LATC_CONSOLE_HOST+" DOWN");
+	        	logfile.severe(Parameters.LATC_CONSOLE_HOST+" DOWN");
 	        	System.exit(0);
 	        	}
             		
 		ListTranslator lt = new ListTranslator();
         ContentWriter cw = new ContentWriter();
        
-        ConsoleConnection client = new ConsoleConnection(parameters.LATC_CONSOLE_HOST);
+        ConsoleConnection client = new ConsoleConnection(Parameters.LATC_CONSOLE_HOST);
         
         /*
          * Getting list of link configuration from LATC_CONSOLE
@@ -126,7 +124,9 @@ public class LinkEngine {
                
              
         for (final String title : toDoList.keySet()) {
-        	final String id=toDoList.get(title);
+        	final String [] split = toDoList.get(title).split("#");
+        	final String id = split[0];
+        	final String specmodtime = split[1];
         	logfile.info( "start processing id "+id+" title "+title);
             
             //create id directory
@@ -144,38 +144,47 @@ public class LinkEngine {
             }
             else
             {
-	            String specContent = client.getMessage();
-	            cw.writeIt(RESULTDIR +'/'+ title + '/'+ parameters.SPEC_FILE, specContent);
-	            VoidInfoDto Void=this.parseSpec(RESULTDIR +'/'+ title + '/'+ parameters.SPEC_FILE);
+            	String datepattern = "yyyy-MM-dd'T'HH:mm:ssZZ";
+        		SimpleDateFormat sdf =new SimpleDateFormat(datepattern);
+        		
+            	String specContent = client.getMessage();
+	            cw.writeIt(RESULTDIR +'/'+ title + '/'+ Parameters.SPEC_FILE, specContent);
+	            VoidInfoDto Void=this.parseSpec(RESULTDIR +'/'+ title + '/'+ Parameters.SPEC_FILE);
                 
+	            Void.setSpecRetrievedTime(sdf.format(new Date()));
+	            Void.setSpecCreatedTime(specmodtime);
+	            Void.setSpecAuthor("http://latc-project.com/users/example_specification_author");
+	            
+	            
 //	         	6- data dump
-	            String datepattern = "yyyy-MM-dd";
-	    		SimpleDateFormat sdf =new SimpleDateFormat(datepattern);
-                Void.setDataDump(parameters.RESULTS_HOST + '/' +sdf.format(new Date())+'/'+title + "/");
+	            datepattern = "yyyy-MM-dd";
+	    		sdf.applyPattern(datepattern);
+                Void.setDataDump(Parameters.RESULTS_HOST + '/' +sdf.format(new Date())+'/'+title + "/"+Parameters.LINKS_FILE_STORE);
+                Void.setSpec(Parameters.RESULTS_HOST + '/' +sdf.format(new Date())+'/'+title + "/"+Parameters.SPEC_FILE);
                 
 	        	//testing endpoint
 	            if(Void.getSourceSparqlEndpoint()!=null && !this.testConn(Void.getSourceSparqlEndpoint()))
 	            	{
 	            		Void.setRemarks(Void.getSourceSparqlEndpoint()+" DOWN");
-	            		client.postReport(id, Void);
+	            		client.postReport(id, Void,Parameters.API_KEY);
 	            		continue;
 	            	}
 	            if(Void.getTargetSparqlEndpoint()!=null && !this.testConn(Void.getTargetSparqlEndpoint()))
 	            	{
 	            		Void.setRemarks(Void.getTargetSparqlEndpoint()+" DOWN");
-	            		client.postReport(id, Void);
+	            		client.postReport(id, Void,Parameters.API_KEY);
 	            		continue;
 	            	}
 	            if(Void.getSourceUriLookupEndpoint()!=null && !this.testConn(Void.getSourceUriLookupEndpoint()))
 	            	{
 	            		Void.setRemarks(Void.getSourceUriLookupEndpoint()+" DOWN");
-	            		client.postReport(id, Void);
+	            		client.postReport(id, Void,Parameters.API_KEY);
 	            		continue;
 	            	}
 	            if(Void.getTargetUriLookupEndpoint()!=null && !this.testConn(Void.getTargetUriLookupEndpoint()))
 	            	{
 	            		Void.setRemarks(Void.getTargetUriLookupEndpoint()+" DOWN");
-	            		client.postReport(id, Void);
+	            		client.postReport(id, Void, Parameters.API_KEY);
 	            		continue;
 	            	}
             
@@ -187,7 +196,7 @@ public class LinkEngine {
 	            if (this.runHadoop(title, Void,RESULTDIR)) {
 	                
 	
-	               cw.writeIt(RESULTDIR +'/'+ title + '/'+ parameters.VOID_FILE, Void);
+	               cw.writeIt(RESULTDIR +'/'+ title + '/'+ Parameters.VOID_FILE, Void);
 	
 	                // 2-e
 	                Void.setRemarks(Void.getStatItem()+" Links generated succesfully");
@@ -199,10 +208,12 @@ public class LinkEngine {
          	 
 	            }
 
-	            client.postReport(id, Void);
+	            client.postReport(id, Void,Parameters.API_KEY);
 	            }
         } // for loop
             
+        logfile.info("Runtime done");
+        
     }
 
 	/**
@@ -216,7 +227,7 @@ public class LinkEngine {
 
     	
     	Logger loghadoop;
-    	HadoopClient HC = new HadoopClient(parameters.HADOOP_PATH,parameters.HDFS_USER);
+    	HadoopClient HC = new HadoopClient(Parameters.HADOOP_PATH,Parameters.HDFS_USER);
     	String err=null;
     	
           try {
@@ -237,7 +248,7 @@ public class LinkEngine {
     	        	return false;
     	        }
     	      
-              final String hadoop = parameters.HADOOP_PATH+"/bin/hadoop";
+              final String hadoop = Parameters.HADOOP_PATH+"/bin/hadoop";
               String command ="";
               Process process;
               int returnCode = 0;
@@ -248,7 +259,7 @@ public class LinkEngine {
       		   else
       			System.out.println(HC.getMessage());
               
-              HC.copyFromLocalFile(resultdir+'/' +title + "/" + parameters.SPEC_FILE, title);
+              HC.copyFromLocalFile(resultdir+'/' +title + "/" + Parameters.SPEC_FILE, title);
               
               // running SILK
               
@@ -273,9 +284,12 @@ public class LinkEngine {
                       return false;
                   }
                   
-                  HC.copyMergeToLocal("/r"+title+"/*.nt", resultdir+'/'+ title + '/' + parameters.LINKS_FILE_STORE, false);
-              
-                  BufferedReader buf = new BufferedReader(new FileReader(resultdir+'/' + title + '/'+parameters.LINKS_FILE_STORE));
+                  HC.copyMergeToLocal("/r"+title+"/*.nt", resultdir+'/'+ title + '/' + Parameters.LINKS_FILE_STORE, false);
+                  String datepattern = "yyyy-MM-dd'T'HH:mm:ssZZ";
+          		  SimpleDateFormat sdf =new SimpleDateFormat(datepattern);
+          		  vi.setLinkSetCreatedTime(sdf.format(new Date()));
+          		  
+                  BufferedReader buf = new BufferedReader(new FileReader(resultdir+'/' + title + '/'+Parameters.LINKS_FILE_STORE));
                   int numbLine=0;
                   while ( buf.readLine() != null)
                 	  numbLine++;
@@ -284,7 +298,7 @@ public class LinkEngine {
                   loghadoop.info(numbLine+" links Generated");
                   vi.setStatItem(numbLine);
                   if(numbLine >0)
-                	  logfile.info( "storing result at "+resultdir+'/' + title + '/'+parameters.LINKS_FILE_STORE);
+                	  logfile.info( "storing result at "+resultdir+'/' + title + '/'+Parameters.LINKS_FILE_STORE);
                   fh.close();
                   return true;
               } 
