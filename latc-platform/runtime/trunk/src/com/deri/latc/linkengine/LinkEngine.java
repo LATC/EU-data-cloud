@@ -12,6 +12,8 @@ import com.deri.latc.utility.LogFormatter;
 import com.deri.latc.utility.SpecParser;
 import com.deri.latc.utility.TestHTTP;
 import com.deri.latc.utility.HadoopClient;
+import com.deri.latc.utility.ReportCSV;
+import com.deri.latc.utility.ReportCSV.status;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -95,6 +97,8 @@ public class LinkEngine {
 	 */
 	public void execute() throws Exception {
 
+		String datepattern = "yyyy-MM-dd";
+		SimpleDateFormat sdf =new SimpleDateFormat(datepattern);
 		//testing console
 		 if(TestHTTP.test(Parameters.LATC_CONSOLE_HOST))
 	        	logfile.info(Parameters.LATC_CONSOLE_HOST+" OK");
@@ -121,19 +125,21 @@ public class LinkEngine {
         }
         lt.translateMember(client.getMessage());
         toDoList = lt.getLinkingConfigs();
-               
-             
+        
+        ReportCSV report = new ReportCSV( Parameters.RESULT_LOCAL_DIR+"/report"+sdf.format(new Date())+".csv");
+        
         for (final String title : toDoList.keySet()) {
         	final String [] split = toDoList.get(title).split("#");
         	final String id = split[0];
         	final String specmodtime = split[1];
+        	final String specAuthor = split[2];
         	logfile.info( "start processing id "+id+" title "+title);
-            
+        	ReportCSV.status st = status.failed; 
             //create id directory
             boolean exists = (new File(RESULTDIR +'/'+ title).exists());
             if (!exists)
    			 (new File(RESULTDIR +'/'+ title )).mkdirs();
-            
+           
             
             /*
              * Writing specification linking from LATC_CONSOLE_HOST/configuration/ID/specification
@@ -144,16 +150,17 @@ public class LinkEngine {
             }
             else
             {
-            	String datepattern = "yyyy-MM-dd'T'HH:mm:ssZZ";
-        		SimpleDateFormat sdf =new SimpleDateFormat(datepattern);
-        		
+            	
+        		Date startDate = new Date();
+        		datepattern = "yyyy-MM-dd'T'HH:mm:ssZZ";
+        		sdf.applyPattern(datepattern);
             	String specContent = client.getMessage();
 	            cw.writeIt(RESULTDIR +'/'+ title + '/'+ Parameters.SPEC_FILE, specContent);
 	            VoidInfoDto Void=this.parseSpec(RESULTDIR +'/'+ title + '/'+ Parameters.SPEC_FILE);
                 
-	            Void.setSpecRetrievedTime(sdf.format(new Date()));
+	            Void.setSpecRetrievedTime(sdf.format(startDate));
 	            Void.setSpecCreatedTime(specmodtime);
-	            Void.setSpecAuthor("http://latc-project.com/users/example_specification_author");
+	            Void.setSpecAuthor(specAuthor);
 	            
 	            
 //	         	6- data dump
@@ -165,26 +172,34 @@ public class LinkEngine {
 	        	//testing endpoint
 	            if(Void.getSourceSparqlEndpoint()!=null && !this.testConn(Void.getSourceSparqlEndpoint()))
 	            	{
+	            		Date errDate = new Date();
 	            		Void.setRemarks(Void.getSourceSparqlEndpoint()+" DOWN");
 	            		client.postReport(id, Void,Parameters.API_KEY);
+	            		 report.putData(id, title, Void.getSpec(), errDate.getTime()-startDate.getTime(), st, Void.getRemarks());
 	            		continue;
 	            	}
 	            if(Void.getTargetSparqlEndpoint()!=null && !this.testConn(Void.getTargetSparqlEndpoint()))
 	            	{
+	            		Date errDate = new Date();	
 	            		Void.setRemarks(Void.getTargetSparqlEndpoint()+" DOWN");
 	            		client.postReport(id, Void,Parameters.API_KEY);
+	            		 report.putData(id, title, Void.getSpec(), errDate.getTime()-startDate.getTime(), st, Void.getRemarks());
 	            		continue;
 	            	}
 	            if(Void.getSourceUriLookupEndpoint()!=null && !this.testConn(Void.getSourceUriLookupEndpoint()))
 	            	{
-	            		Void.setRemarks(Void.getSourceUriLookupEndpoint()+" DOWN");
+	            	Date errDate = new Date();	
+	            	Void.setRemarks(Void.getSourceUriLookupEndpoint()+" DOWN");
 	            		client.postReport(id, Void,Parameters.API_KEY);
+	            		 report.putData(id, title, Void.getSpec(), errDate.getTime()-startDate.getTime(), st, Void.getRemarks());
 	            		continue;
 	            	}
 	            if(Void.getTargetUriLookupEndpoint()!=null && !this.testConn(Void.getTargetUriLookupEndpoint()))
 	            	{
+	            	Date errDate = new Date();
 	            		Void.setRemarks(Void.getTargetUriLookupEndpoint()+" DOWN");
 	            		client.postReport(id, Void, Parameters.API_KEY);
+	            		 report.putData(id, title, Void.getSpec(), errDate.getTime()-startDate.getTime(), st, Void.getRemarks());
 	            		continue;
 	            	}
             
@@ -207,11 +222,16 @@ public class LinkEngine {
 	            	logfile.severe( "Processing id "+id+" title "+title+ " failed");
          	 
 	            }
-
+	            Date endDate = new Date();
+	            
+	            if(Void.getStatItem()>=0)
+	            	st = status.sucesss;
+	            
+	            report.putData(id, title, Void.getSpec(), endDate.getTime()-startDate.getTime(), st, Void.getRemarks());
 	            client.postReport(id, Void,Parameters.API_KEY);
 	            }
         } // for loop
-            
+        report.close();    
         logfile.info("Runtime done");
         
     }
