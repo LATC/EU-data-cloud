@@ -1,16 +1,16 @@
 <h2>Task information</h2>
 <form id="task-details-about-form" action="javascript:saveDetails();" class="clearfix">
-<label>Identifier:<input name="task-identifier" disabled="true" value="${identifier}" type="text"></label>
+<label>Identifier:<input name="task-identifier" readonly="true" value="${identifier}" type="text"></label>
 <label>Title:<input name="task-title" value="${title}" type="text"></label>
+<label>Author:<input name="task-author" value="${author}" type="text"></label>
 <label>Description:<textarea name="task-description">${description}</textarea></label>
 </form>
 <h2>Messages <a href="api/task/${identifier}/notifications.atom" class="feed-link"></a></h2>
 <table class="display" id="taskReports">
 	<thead>
 		<tr>
-			<th>Status</th>
-			<th>Message</th>
 			<th>Date</th>
+			<th>Status message</th>
 		</tr>
 	</thead>
 	<tbody>

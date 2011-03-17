@@ -15,23 +15,17 @@ $(document).ready(function() {
 	// var tabs = $("ul.tabs").data("tabs");
 	// tabs.next();
 
-	
 	// Plot a graph
 	/*
-    var points = [[0, 121613], [1, 32675]];
-    $.plot($("#linksGraph"), [ points ], {
-               series: {
-                   lines: { show: true },
-                   points: { show: true }
-               },
-               grid: { hoverable: true, clickable: false }}
-	);
-    */
-	
+	 * var points = [[0, 121613], [1, 32675]]; $.plot($("#linksGraph"), [ points ], {
+	 * series: { lines: { show: true }, points: { show: true } }, grid: {
+	 * hoverable: true, clickable: false }} );
+	 */
+
 	// Configure the selection of task for the detail panel
 	$('#taskSelector').dataTable({
 		"bPaginate" : false,
-		'bAutoWidth': false,
+		'bAutoWidth' : false,
 		"bLengthChange" : false,
 		"bSort" : true,
 		"bInfo" : false,
@@ -40,7 +34,8 @@ $(document).ready(function() {
 			"bSearchable" : true,
 			"bVisible" : false
 		},
-		/* Title */null]
+		/* Title */null ],
+		"aaSorting": [[ 1, "asc" ]]
 	});
 	$("#taskSelector tbody").click(function(event) {
 		// Change the selected row
@@ -64,7 +59,7 @@ $(document).ready(function() {
 		logout();
 	});
 	$("#logout-link").hide(0);
-	
+
 	// Configure the template for the task details
 	$.get("details-template.html", function(data) {
 		$.template("taskDetails", data);
@@ -95,8 +90,8 @@ $(document).keydown(function(e) {
  */
 function login() {
 	$("#login-panel").hide(0);
-	var user=document.forms["login"]["username"].value;
-	var pass=document.forms["login"]["password"].value;
+	var user = document.forms["login"]["username"].value;
+	var pass = document.forms["login"]["password"].value;
 	$.ajax({
 		type : 'POST',
 		url : 'api/api_key',
@@ -154,7 +149,7 @@ function reloadTasks() {
 		$.each(data.task, function(index, item) {
 			// Add an entry to the task selector table
 			$('#taskSelector').dataTable().fnAddData(
-					[ item.identifier, item.title]);
+					[ item.identifier, item.title ]);
 		});
 	});
 }
@@ -164,7 +159,7 @@ function reloadTasks() {
  */
 function updateNotifications() {
 	setLoading($("#eventsList"));
-	
+
 	$.getJSON('api/notifications.json?limit=5', function(data) {
 		// Clean the previous content for the overview table
 		$("#eventsList").empty();
@@ -200,11 +195,13 @@ function loadTaskDetails(identifier) {
 			$.tmpl("taskDetails", [ {
 				identifier : identifier,
 				title : data.title,
+				author : data.author,
 				description : data.description
 			} ]).appendTo("#taskDetailsContent");
 		} else {
 			$.tmpl("taskDetailsAdmin", [ {
 				identifier : identifier,
+				author : data.author,
 				title : data.title,
 				description : data.description,
 				api_key : api_key
@@ -214,7 +211,10 @@ function loadTaskDetails(identifier) {
 		$('#taskReports').dataTable({
 			"bLengthChange" : false,
 			"bSort" : true,
-			"bInfo" : false
+			"bPaginate" : true,
+			"iDisplayLength" : 4,
+			"bInfo" : false,
+			"aaSorting": [[ 0, "desc" ]]
 		});
 
 		// Connect the delete button
@@ -248,15 +248,22 @@ function loadTaskDetails(identifier) {
 		$.getJSON('api/task/' + identifier + '/notifications', function(data) {
 			// Add all the statuses to the table
 			$.each(data.notification, function(index, item) {
-				if (item.severity == 'info') {
-					icon = "<img src=images/information.png></img>";
-				} else if (item.severity == 'warn') {
-					icon = "<img src=images/exclamation.png></img>";
-				} else {
-					icon = item.severity;
+				// Format date
+				date = $("<p>").text(item.date);
+				a = $("<span>");
+				date.appendTo(a);
+				date = a.html();
+				
+				// Format message
+				text = $("<p>").text(item.message);
+				if ((item.severity == 'info') || (item.severity == 'warn')) {
+					text.addClass(item.severity);
 				}
-				$('#taskReports').dataTable().fnAddData(
-						[ icon, item.message, item.date ]);
+				a = $("<span>");
+				text.appendTo(a);
+				text = a.html();
+				
+				$('#taskReports').dataTable().fnAddData([ date, text ]);
 			});
 		});
 	});
@@ -281,6 +288,7 @@ function saveDetails() {
 		data : {
 			api_key : api_key,
 			title : $("[name=task-title]").val(),
+			author : $("[name=task-author]").val(),
 			description : $("[name=task-description]").val()
 		},
 		dataType : "text",

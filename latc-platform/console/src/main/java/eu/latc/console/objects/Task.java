@@ -38,11 +38,31 @@ import eu.latc.misc.DateToXSDateTime;
 @DatastoreIdentity(strategy = IdGeneratorStrategy.UUIDHEX)
 @PrimaryKey(name = "identifier")
 public class Task implements Serializable {
+	// Logger instance
+	protected static final Logger logger = LoggerFactory.getLogger(Task.class);
+
 	// Serialization ID
 	private static final long serialVersionUID = -8292316878407319874L;
 
-	// Logger instance
-	protected static final Logger logger = LoggerFactory.getLogger(Task.class);
+	@Persistent
+	private String author = "Administrator";
+
+	// The configuration in its text serialised form
+	@Persistent
+	@Column(jdbcType = "VARCHAR", length = 20000)
+	private String configuration = "";
+
+	@Persistent
+	private Date creationDate = null;
+
+	// A short description of what this task does
+	@Persistent
+	@Column(jdbcType = "VARCHAR", length = 1000)
+	private String description = "";
+
+	// The configuration file, as an XML document
+	@NotPersistent
+	private Document document = null;
 
 	// The identifier for this configuration file
 	@PrimaryKey
@@ -50,28 +70,10 @@ public class Task implements Serializable {
 	@Column(name = "TASK_ID", jdbcType = "VARCHAR", length = 32)
 	private String identifier;
 
-	// A title
-	@Persistent
-	@Column(jdbcType = "VARCHAR", length = 125)
-	private String title = "";
-
-	// A short description of what this task does
-	@Persistent
-	@Column(jdbcType = "VARCHAR", length = 1000)
-	private String description = "";
-
-	// The configuration in its text serialised form
-	@Persistent
-	@Column(jdbcType = "VARCHAR", length = 20000)
-	private String configuration = "";
-
 	// Flag for the maturity of the task. The idea is that results of "testing"
 	// configuration runs should not be published through the API.
 	@Persistent
 	private boolean isTesting = false;
-
-	@Persistent
-	private Date creationDate = null;
 
 	@Persistent
 	private Date lastModificationDate = null;
@@ -81,29 +83,23 @@ public class Task implements Serializable {
 	@Element(types = Notification.class, column = "TASK_ID", dependent = "true", mappedBy = "task")
 	private Collection<Notification> notifications = new ArrayList<Notification>();
 
-	// The configuration file, as an XML document
-	@NotPersistent
-	private Document document = null;
+	// A title
+	@Persistent
+	@Column(jdbcType = "VARCHAR", length = 125)
+	private String title = "";
 
 	/**
-	 * Get the description of the configuration file
-	 * 
-	 * @return
+	 * @param report
 	 */
-	public String getDescription() {
-		if (description == null)
-			return "No description";
-		return description;
+	public void addReport(Notification report) {
+		notifications.add(report);
 	}
 
 	/**
-	 * Set the description of the configuration file
-	 * 
-	 * @param description
 	 * @return
 	 */
-	public void setDescription(String description) {
-		this.description = description;
+	public String getAuthor() {
+		return author;
 	}
 
 	/**
@@ -114,28 +110,21 @@ public class Task implements Serializable {
 	}
 
 	/**
-	 * Assign a new configuration file to the LinkingConfiguration object
-	 * 
-	 * @param configuration
-	 *            The configuration file expressed in the XML format used by
-	 *            SiLK
-	 * @throws Exception
-	 *             If <code>configuration</code> is null of if it is not a
-	 *             proper XML file
-	 * 
+	 * @return
 	 */
-	public void setConfiguration(String configuration) throws Exception {
-		// Die if the parameter is equal to null
-		if (configuration == null)
-			throw new Exception();
+	public Date getCreationDate() {
+		return creationDate;
+	}
 
-		// Try to parse the new document to see if it's valid
-		Document d = parseLinkingConfiguration(configuration);
-		if (d == null)
-			throw new Exception();
-
-		// Set the new configuration file
-		this.configuration = configuration;
+	/**
+	 * Get the description of the configuration file
+	 * 
+	 * @return
+	 */
+	public String getDescription() {
+		if (description == null)
+			return "No description";
+		return description;
 	}
 
 	/**
@@ -156,6 +145,41 @@ public class Task implements Serializable {
 		}
 
 		return this.document;
+	}
+
+	/**
+	 * @return
+	 */
+	public String getIdentifier() {
+		return identifier;
+	}
+
+	/**
+	 * @return
+	 */
+	public Date getLastModificationDate() {
+		return lastModificationDate;
+	}
+
+	/**
+	 * @return
+	 */
+	public Collection<Notification> getReports() {
+		return notifications;
+	}
+
+	/**
+	 * @return
+	 */
+	public String getTitle() {
+		return title;
+	}
+
+	/**
+	 * @return
+	 */
+	public boolean isTesting() {
+		return isTesting;
 	}
 
 	/**
@@ -185,50 +209,33 @@ public class Task implements Serializable {
 	/**
 	 * @return
 	 */
-	public String getIdentifier() {
-		return identifier;
+	public void setAuthor(String author) {
+		this.author = author;
 	}
 
 	/**
-	 * @param title
+	 * Assign a new configuration file to the LinkingConfiguration object
+	 * 
+	 * @param configuration
+	 *            The configuration file expressed in the XML format used by
+	 *            SiLK
+	 * @throws Exception
+	 *             If <code>configuration</code> is null of if it is not a
+	 *             proper XML file
+	 * 
 	 */
-	public void setTitle(String title) {
-		this.title = title;
-	}
+	public void setConfiguration(String configuration) throws Exception {
+		// Die if the parameter is equal to null
+		if (configuration == null)
+			throw new Exception();
 
-	/**
-	 * @return
-	 */
-	public String getTitle() {
-		return title;
-	}
+		// Try to parse the new document to see if it's valid
+		Document d = parseLinkingConfiguration(configuration);
+		if (d == null)
+			throw new Exception();
 
-	/**
-	 * @param report
-	 */
-	public void addReport(Notification report) {
-		notifications.add(report);
-	}
-
-	/**
-	 * @return
-	 */
-	public Collection<Notification> getReports() {
-		return notifications;
-	}
-
-	/**
-	 * @param isTesting
-	 */
-	public void setTesting(boolean isTesting) {
-		this.isTesting = isTesting;
-	}
-
-	/**
-	 * @return
-	 */
-	public boolean isTesting() {
-		return isTesting;
+		// Set the new configuration file
+		this.configuration = configuration;
 	}
 
 	/**
@@ -240,10 +247,13 @@ public class Task implements Serializable {
 	}
 
 	/**
+	 * Set the description of the configuration file
+	 * 
+	 * @param description
 	 * @return
 	 */
-	public Date getCreationDate() {
-		return creationDate;
+	public void setDescription(String description) {
+		this.description = description;
 	}
 
 	/**
@@ -254,10 +264,17 @@ public class Task implements Serializable {
 	}
 
 	/**
-	 * @return
+	 * @param isTesting
 	 */
-	public Date getLastModificationDate() {
-		return lastModificationDate;
+	public void setTesting(boolean isTesting) {
+		this.isTesting = isTesting;
+	}
+
+	/**
+	 * @param title
+	 */
+	public void setTitle(String title) {
+		this.title = title;
 	}
 
 	/**
@@ -269,7 +286,7 @@ public class Task implements Serializable {
 		entry.put("identifier", identifier);
 		entry.put("title", title);
 		entry.put("description", description);
-		entry.put("author", "Administrator");
+		entry.put("author", author);
 		entry.put("created", DateToXSDateTime.format(creationDate));
 		entry.put("modified", DateToXSDateTime.format(lastModificationDate));
 		entry.put("testing", isTesting);

@@ -115,13 +115,14 @@ public class TaskResource extends ServerResource {
 			ObjectManager manager = ((MainApplication) getApplication()).getObjectManager();
 
 			// Get the task
-			Task conf = manager.getTask(taskID);
+			Task task = manager.getTask(taskID);
 
 			// Prepare the answer
 			JSONObject entry = new JSONObject();
-			entry.put("title", conf.getTitle());
-			entry.put("description", conf.getDescription());
-			entry.put("identifier", conf.getIdentifier());
+			entry.put("title", task.getTitle());
+			entry.put("description", task.getDescription());
+			entry.put("author", task.getAuthor());
+			entry.put("identifier", task.getIdentifier());
 			JsonConverter conv = new JsonConverter();
 			logger.info("Answer " + entry.toString());
 
@@ -151,6 +152,7 @@ public class TaskResource extends ServerResource {
 		// Update
 		task.setTitle(parameters.getFirstValue("title"));
 		task.setDescription(parameters.getFirstValue("description"));
+		task.setAuthor(parameters.getFirstValue("author"));
 		ObjectManager manager = ((MainApplication) getApplication()).getObjectManager();
 		manager.saveTask(task);
 		

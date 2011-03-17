@@ -249,13 +249,13 @@ label {
 
 .left-column {
 	float: left;
-	margin-right: 30px;
+	margin-right: 10px;
 	width: 460px;
 }
 
 .right-column {
 	float: right;
-	width: 420px;
+	width: 450px;
 }
 
 #overview {
@@ -358,15 +358,13 @@ h3.link {
 	padding-left: 20px;
 }
 
-h3.info {
-	background: url("../images/information.png");
-	background-repeat: no-repeat;
+.info {
+	background: url("../images/information.png") no-repeat scroll 0 0;
 	padding-left: 20px;
 }
 
-h3.warn {
-	background: url("../images/exclamation.png");
-	background-repeat: no-repeat;
+.warn {
+	background: url("../images/exclamation.png") no-repeat scroll 0 0;
 	padding-left: 20px;
 }
 
@@ -526,6 +524,37 @@ table.display td.center {
 
 #taskSelector tr.row_selected td {
 	background-color: #B0BED9;
+}
+
+.dataTables_paginate {
+	width: auto;
+	float: right;
+	text-align: right;
+}
+
+/* Pagination nested */
+.paginate_disabled_previous,.paginate_enabled_previous,.paginate_disabled_next,.paginate_enabled_next
+	{
+	height: 16px;
+	width: 16px;
+	margin-left: 3px;
+	float: left;
+}
+
+.paginate_disabled_previous {
+	background-image: url('../images/back_disabled.png');
+}
+
+.paginate_enabled_previous {
+	background-image: url('../images/back_enabled.png');
+}
+
+.paginate_disabled_next {
+	background-image: url('../images/next_disabled.png');
+}
+
+.paginate_enabled_next {
+	background-image: url('../images/next_enabled.png');
 }
 
 /* Login box **********************************************************/
