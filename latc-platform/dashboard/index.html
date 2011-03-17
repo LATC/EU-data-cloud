@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:xsd ="http://www.w3.org/2001/XMLSchema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"  
+  xmlns:doap="http://usefulinc.com/ns/doap#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+<head>
+	<title>24/7 Interlinking Platform - Dashboard</title>
+	<link type="text/css" href="js/jquery/css/smoothness/jquery-ui-1.8.5.custom.css" rel="stylesheet" />
+	<link type="text/css" href="js/jquery/css/jcarousel/ie7/skin.css" rel="stylesheet" />	
+	<link type="text/css" href="css/dashboard.css" rel="stylesheet" />
+	<script type="text/javascript" src="js/jquery/js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery/js/jquery-ui-1.8.custom.min.js"></script>
+	<script type="text/javascript" src="js/jquery/js/jquery.jcarousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery/js/jshashtable-2.1.js"></script>
+	<script type="text/javascript" src="js/jquery/js/jquery.numberformatter-1.2.1.min.js"></script>	
+	<script type="text/javascript" src="js/jquery/js/jquery.json-2.2.js"></script>
+	<script type="text/javascript" src="js/controller.js"></script>
+	<script type="text/javascript" src="js/interaction.js"></script>
+</head>
+<body about="http://dashboard.latc-project.eu/#this">
+
+	<div id="head">
+		<div id="menu"><a href="./">Home</a> | <a href="about">About</a></div>
+		<img id="latc-logo" src="img/latc-logo.png" alt="LATC logo" />
+		<div id="title">24/7 Interlinking Platform - Data Set Inventory</div>
+	</div>
+	
+	<div id="main">
+		<div id="leftcol">
+			<div id="themesbox">Dataset theme: <select id="themes" size="1"></select></div>
+			<div id="dslistbox"><ul id="dscarousel" class="jcarousel-skin-ie7"></ul></div>
+		</div>
+		<div id="rightcol">
+			<div id="dsdetailsbox"></div>
+		</div>
+		<div id="infobox"></div>
+	</div>
+	
+	<div id="footer">
+	 <a href="http://latc-project.eu/contact">Contact</a> |
+	 &copy; 2011, LOD Around The Clock (LATC) Consortium. 
+	</div>
+	<div class="validrdfa">
+		<span>Last update on: <span property="dcterms:date" datatype="xsd:date">2011-02-28</span>.</span>
+		<span>Valid <a href="http://validator.w3.org/check?uri=referer" rel="dcterms:conformsTo" resource="http://www.w3.org/TR/rdfa-syntax">XHTML + RDFa</a>.</span>
+	</div>
+</body>
+</html>
+
+
+

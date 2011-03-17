@@ -7,4 +7,4 @@ syntax: regexp
 ^latc-platform/console/.settings$
 ^latc-platform/console/.pydevproject$
 ^latc-platform/console/.externalToolBuilders$
-
+\.DS_Store

@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /latc-dashboard/
+#RewriteBase /
+RewriteCond %{REQUEST_URI} !/(robots\.txt|favicon\.ico|style\.css|.*\.js|images/.*)$
+RewriteRule ^about$ about.html
