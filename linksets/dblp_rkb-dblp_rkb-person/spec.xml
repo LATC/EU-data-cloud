@@ -45,7 +45,7 @@
 
 			<Outputs>
 				<Output minConfidence="0.99" type="file">
-					<Param name="file" value="knows_accepted_links.xml"/>
+					<Param name="file" value="accepted_links.nt"/>
 					<Param name="format" value="ntriples"/>
 				</Output>
 			</Outputs>
