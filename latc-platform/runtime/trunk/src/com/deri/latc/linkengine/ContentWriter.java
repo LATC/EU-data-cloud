@@ -117,7 +117,14 @@ public class ContentWriter {
     		input =input.replace("**specURL**", vi.getSpec());
     	else if(input.contains("**consolehost**"))
     		input =input.replace("**consolehost**", Parameters.LATC_CONSOLE_HOST);
-    	
+     	else if(input.contains("**SilkSpecAPIResource**"))
+    		input =input.replace("**SilkSpecAPIResource**", vi.getSilkSpecAPIResource());
+     	else if(input.contains("**specmodifiedtime**"))
+    		input =input.replace("**specmodifiedtime**", vi.getSpecModifiedTime());
+     	else if(input.contains("**SilkSpecID**"))
+    		input =input.replace("**SilkSpecID**", vi.getID());
+      	else if(input.contains("**SilkSpecTitle**"))
+    		input =input.replace("**SilkSpecTitle**", vi.getTitle());
     	return input;
     }
 }

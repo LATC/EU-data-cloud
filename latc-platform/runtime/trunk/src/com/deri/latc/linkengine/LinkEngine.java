@@ -124,15 +124,16 @@ public class LinkEngine {
         	System.exit(0);
         }
         lt.translateMember(client.getMessage());
-        toDoList = lt.getLinkingConfigs();
-        
+       toDoList = lt.getLinkingConfigs();
+  
         ReportCSV report = new ReportCSV( Parameters.RESULT_LOCAL_DIR+"/report"+sdf.format(new Date())+".csv");
         
         for (final String title : toDoList.keySet()) {
         	final String [] split = toDoList.get(title).split("#");
         	final String id = split[0];
-        	final String specmodtime = split[1];
-        	final String specAuthor = split[2];
+        	final String speccretime = split[1];
+        	final String specmodtime = split[2];
+        	final String specAuthor = split[3];
         	logfile.info( "start processing id "+id+" title "+title);
         	ReportCSV.status st = status.failed; 
             //create id directory
@@ -159,9 +160,12 @@ public class LinkEngine {
 	            VoidInfoDto Void=this.parseSpec(RESULTDIR +'/'+ title + '/'+ Parameters.SPEC_FILE);
                 
 	            Void.setSpecRetrievedTime(sdf.format(startDate));
-	            Void.setSpecCreatedTime(specmodtime);
+	            Void.setSpecCreatedTime(speccretime);
 	            Void.setSpecAuthor(specAuthor);
-	            
+	            Void.setID(id);
+	            Void.setTitle(title);
+	            Void.setSpecModifiedTime(specmodtime);
+	            Void.setSilkSpecAPIResource(Parameters.LATC_CONSOLE_HOST+"/api/task/"+id+"/configuration");
 	            
 //	         	6- data dump
 	            datepattern = "yyyy-MM-dd";
@@ -175,7 +179,7 @@ public class LinkEngine {
 	            		Date errDate = new Date();
 	            		Void.setRemarks(Void.getSourceSparqlEndpoint()+" DOWN");
 	            		client.postReport(id, Void,Parameters.API_KEY);
-	            		 report.putData(id, title, Void.getSpec(), errDate.getTime()-startDate.getTime(), st, Void.getRemarks());
+	            		 report.putData(id, title, Void.getSpec(), errDate.getTime()-startDate.getTime(), st, Void.getRemarks(),Void.getStatItem(),specAuthor);
 	            		continue;
 	            	}
 	            if(Void.getTargetSparqlEndpoint()!=null && !this.testConn(Void.getTargetSparqlEndpoint()))
@@ -183,7 +187,7 @@ public class LinkEngine {
 	            		Date errDate = new Date();	
 	            		Void.setRemarks(Void.getTargetSparqlEndpoint()+" DOWN");
 	            		client.postReport(id, Void,Parameters.API_KEY);
-	            		 report.putData(id, title, Void.getSpec(), errDate.getTime()-startDate.getTime(), st, Void.getRemarks());
+	            		 report.putData(id, title, Void.getSpec(), errDate.getTime()-startDate.getTime(), st, Void.getRemarks(),Void.getStatItem(),specAuthor);
 	            		continue;
 	            	}
 	            if(Void.getSourceUriLookupEndpoint()!=null && !this.testConn(Void.getSourceUriLookupEndpoint()))
@@ -191,7 +195,7 @@ public class LinkEngine {
 	            	Date errDate = new Date();	
 	            	Void.setRemarks(Void.getSourceUriLookupEndpoint()+" DOWN");
 	            		client.postReport(id, Void,Parameters.API_KEY);
-	            		 report.putData(id, title, Void.getSpec(), errDate.getTime()-startDate.getTime(), st, Void.getRemarks());
+	            		 report.putData(id, title, Void.getSpec(), errDate.getTime()-startDate.getTime(), st, Void.getRemarks(),Void.getStatItem(),specAuthor);
 	            		continue;
 	            	}
 	            if(Void.getTargetUriLookupEndpoint()!=null && !this.testConn(Void.getTargetUriLookupEndpoint()))
@@ -199,7 +203,7 @@ public class LinkEngine {
 	            	Date errDate = new Date();
 	            		Void.setRemarks(Void.getTargetUriLookupEndpoint()+" DOWN");
 	            		client.postReport(id, Void, Parameters.API_KEY);
-	            		 report.putData(id, title, Void.getSpec(), errDate.getTime()-startDate.getTime(), st, Void.getRemarks());
+	            		 report.putData(id, title, Void.getSpec(), errDate.getTime()-startDate.getTime(), st, Void.getRemarks(),Void.getStatItem(),specAuthor);
 	            		continue;
 	            	}
             
@@ -214,7 +218,7 @@ public class LinkEngine {
 	               cw.writeIt(RESULTDIR +'/'+ title + '/'+ Parameters.VOID_FILE, Void);
 	
 	                // 2-e
-	                Void.setRemarks(Void.getStatItem()+" Links generated succesfully");
+	                Void.setRemarks(Void.getStatItem()+" Links generated successfully");
 	                logfile.info( "Processing id "+id+" title "+title+ " success");
 	
 	            } // if hadoop
@@ -227,7 +231,7 @@ public class LinkEngine {
 	            if(Void.getStatItem()>=0)
 	            	st = status.sucesss;
 	            
-	            report.putData(id, title, Void.getSpec(), endDate.getTime()-startDate.getTime(), st, Void.getRemarks());
+	            report.putData(id, title, Void.getSpec(), endDate.getTime()-startDate.getTime(), st, Void.getRemarks(),Void.getStatItem(),specAuthor);
 	            client.postReport(id, Void,Parameters.API_KEY);
 	            }
         } // for loop
@@ -276,6 +280,10 @@ public class LinkEngine {
               HC.deleteFile(title);          
               if(HC.deleteDir("r"+title))
             	  System.out.println("delete r"+title);
+      		   else
+      			System.out.println(HC.getMessage());
+              if(HC.deleteDir("cache"))
+            	  System.out.println("delete cache");
       		   else
       			System.out.println(HC.getMessage());
               

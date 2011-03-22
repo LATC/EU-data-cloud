@@ -15,11 +15,11 @@ public class ReportCSV {
 	public ReportCSV(String path) throws IOException {
 	
 		out = new BufferedWriter(new FileWriter(path));
-		out.write("ID, Title, Executing Time, Status, Reason, URL Specification,Owner");
+		out.write("ID, Title, Executing Time, Status, LinksGenerated, Reason, URL Specification,Owner");
 		
 	}
 	
-	public void putData(String ID, String Title, String LinkSpec,long ExecuteDate, status st, String reason )
+	public void putData(String ID, String Title, String LinkSpec,long ExecuteDate, status st, String reason, int links, String author )
 	{
 		String STATUS;
 		if(st==status.failed)
@@ -31,7 +31,7 @@ public class ReportCSV {
 		String timeEx=this.LongToStringDate(ExecuteDate);
 		try {
 			out.newLine();
-			out.append(ID+','+Title.replace("To", "->")+','+timeEx+','+STATUS+','+reason+','+LinkSpec+", unknown");
+			out.append(ID+','+Title.replace("To", "->")+','+timeEx+','+STATUS+','+links+','+reason+','+LinkSpec+','+author);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -40,46 +40,29 @@ public class ReportCSV {
 	
 	private String LongToStringDate(long ExecuteDate)
 	{
-		String timeEx=null;
-		if((ExecuteDate/86400000) > 0)
+		final long [] divisor ={24*60*60 // days
+								,60*60 //hour
+								,60 // minutes
+								,1}; // second
+		String timeEx="";
+
+		int d=0;
+		while(d<4)
 		{
-			if((ExecuteDate/86400000)<10)
-				timeEx ='0'+ Integer.toString((int)(ExecuteDate/86400000))+':';
+			long divison = ExecuteDate / divisor [d]/1000;
+			
+			if(divison > 0)
+			{
+				if(divison<10)
+					timeEx =timeEx+'0'+ Integer.toString((int)divison)+':';
+				else
+				timeEx = timeEx+Integer.toString((int)divison)+':';
+				ExecuteDate =  ExecuteDate % (divisor [d]*1000);
+			}
 			else
-			timeEx = Integer.toString((int)(ExecuteDate/86400000))+':';
-			ExecuteDate = ExecuteDate % 86400000;
+				timeEx = timeEx+"00:";
+			d++;
 		}
-		else
-			timeEx = timeEx+"00:";
-		if((ExecuteDate/3600000) > 0)
-		{
-			if((ExecuteDate/3600000)<10)
-				timeEx =timeEx+'0'+ Integer.toString((int)(ExecuteDate/3600000))+':';
-			else
-			timeEx = timeEx+Integer.toString((int)(ExecuteDate/3600000))+':';
-			ExecuteDate = ExecuteDate % 3600000;
-		}
-		else
-			timeEx = timeEx+"00:";
-		if((ExecuteDate/60000) > 0)
-		{
-			if((ExecuteDate/60000) <10 )
-				timeEx = timeEx+'0'+Integer.toString((int)(ExecuteDate/60000))+':';
-			else
-			timeEx = timeEx+Integer.toString((int)(ExecuteDate/60000))+':';
-			ExecuteDate = ExecuteDate % 60000;
-		}
-		else
-			timeEx = timeEx+"00:";
-		if((ExecuteDate/1000) > 0)
-		{
-			if(ExecuteDate < 10)
-				timeEx = timeEx+'0'+Integer.toString((int)(ExecuteDate/1000));
-			else
-				timeEx = timeEx+Integer.toString((int)(ExecuteDate/1000));
-		}
-		else
-			timeEx = timeEx+"00";
 		return timeEx;
 	}
 	
@@ -99,9 +82,9 @@ public class ReportCSV {
 	 */
 	public static void main(String[] args) throws IOException {
 		ReportCSV rc = new ReportCSV("myreport.csv");
-		Date dt1 = new Date(2011, 3, 9, 02, 23,20);
+		Date dt1 = new Date(2011, 3, 11, 02, 23,20);
 		Date dt2 = new Date(2011, 3, 11, 14, 30);
-		rc.putData("ff8081812cac8e41012cac8e41f50000", "DBPediaToDrugBankdrugs","http://", dt2.getTime()-dt1.getTime(), status.ongoing	, "nothing");
+		rc.putData("ff8081812cac8e41012cac8e41f50000", "DBPediaToDrugBankdrugs","http://", dt2.getTime()-dt1.getTime(), status.ongoing	, "nothing",12, "myauthor");
 		rc.close();
 		
 

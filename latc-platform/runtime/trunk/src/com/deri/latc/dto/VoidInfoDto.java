@@ -258,6 +258,25 @@ public class VoidInfoDto  {
         this.spec = this.encodeURI(speclink);
     }
 
+    private String SilkSpecAPIResource=null;
+
+    /**
+     * Get the value of dataDump
+     *
+     * @return the value of dataDump
+     */
+    public String getSilkSpecAPIResource() {
+        return SilkSpecAPIResource;
+    }
+
+    /**
+     * Set the value of dataDump
+     *
+     * @param dataDump new value of dataDump
+     */
+    public void setSilkSpecAPIResource(String speclink) {
+        this.SilkSpecAPIResource = this.encodeURI(speclink);
+    }
     
     private String dataDump=null;
 
@@ -279,6 +298,45 @@ public class VoidInfoDto  {
         this.dataDump = this.encodeURI(dataDump);
     }
 
+    private String ID=null;
+
+    /**
+     * Get the value of dataDump
+     *
+     * @return the value of dataDump
+     */
+    public String getID() {
+        return ID;
+    }
+
+    /**
+     * Set the value of ID
+     *
+     * @param ID new value of ID
+     */
+    public void setID(String ID) {
+        this.ID = ID;
+    }
+    
+    private String Title=null;
+
+    /**
+     * Get the value of dataDump
+     *
+     * @return the value of dataDump
+     */
+    public String getTitle() {
+        return ID;
+    }
+
+    /**
+     * Set the value of ID
+     *
+     * @param ID new value of ID
+     */
+    public void setTitle(String title) {
+        this.Title = title;
+    }
     
     private String linkSetCreatedTime=null;
     
@@ -302,6 +360,18 @@ public class VoidInfoDto  {
     public String getSpecCreatedTime()
     {
     	return this.specCreatedTime;
+    }
+    
+    private String specModifiedTime = null;
+    
+    public void setSpecModifiedTime (String date)
+    {
+    	this.specModifiedTime = date;
+    }
+ 
+    public String getSpecModifiedTime()
+    {
+    	return this.specModifiedTime;
     }
     
     private String specRetrievedTime = null;
