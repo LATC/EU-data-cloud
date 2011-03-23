@@ -3,46 +3,50 @@
 	<Prefixes>
 		<Prefix id="rdf" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
 		<Prefix id="foaf" namespace="http://xmlns.com/foaf/0.1/"/>
-		<Prefix id="void" namespace="http://rdfs.org/ns/void#"/>
+		<Prefix id="am" namespace="http://purl.org/collections/nl/am/"/>
+		<Prefix id="stads" namespace="http://purl.org/collections/nl/stadsarchief/"/>
+		<Prefix id="rmon" namespace="http://purl.org/collections/nl/rijksmonumenten/"/>
+		<Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#"/>
+		<Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#"/>
 	</Prefixes>
 
 	<DataSources>
 		<DataSource id="source_a" type="sparqlEndpoint">
-			<Param name="endpointURI" value="http://data.semanticweb.org/sparql"/>
+			<Param name="endpointURI" value="http://semanticweb.cs.vu.nl/europeana/sparql/"/>
 		</DataSource>
 
 		<DataSource id="source_b" type="sparqlEndpoint">
-			<Param name="endpointURI" value="http://semantic.ckan.net/sparql"/>
+			<Param name="endpointURI" value="http://semanticweb.cs.vu.nl/europeana/sparql/"/>
 		</DataSource>
 	</DataSources>
 
 	<Interlinks>
 		<Interlink id="knows">
-			<LinkType>foaf:made</LinkType>
+			<LinkType>owl:sameAs</LinkType>
 
 			<SourceDataset dataSource="source_a" var="a">
 				<RestrictTo>
-					?a rdf:type foaf:Person.
+					?a rdf:type stads:Person.
 				</RestrictTo>
 			</SourceDataset>
 
 			<TargetDataset dataSource="source_b" var="b">
 				<RestrictTo>
-					?b rdf:type void:Dataset.
+					?b rdf:type rmon:Person.
 				</RestrictTo>
 			</TargetDataset>
 
 			<LinkCondition>
 				<Compare metric="jaroWinkler">
 					<Input path="?a/foaf:name"/>
-					<Input path="?b/dc:creator/foaf:name"/>
+					<Input path="?b/rdfs:label"/>
 				</Compare>
 			</LinkCondition>
 
-			<Filter threshold="0.98"/>
+			<Filter threshold="0.9"/>
 
 			<Outputs>
-				<Output minConfidence="0.99" type="file">
+				<Output minConfidence="0.97" type="file">
 					<Param name="file" value="accepted_links.nt"/>
 					<Param name="format" value="ntriples"/>
 				</Output>

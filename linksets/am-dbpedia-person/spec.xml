@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Silk>
+	<Prefixes>
+		<Prefix id="rdf" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+		<Prefix id="foaf" namespace="http://xmlns.com/foaf/0.1/"/>
+		<Prefix id="am" namespace="http://purl.org/collections/nl/am/"/>
+		<Prefix id="stads" namespace="http://purl.org/collections/nl/stadsarchief/"/>
+		<Prefix id="rmon" namespace="http://purl.org/collections/nl/rijksmonumenten/"/>
+		<Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#"/>
+		<Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#"/>
+		<Prefix id="dbpedia-owl" namespace="http://dbpedia.org/ontology/"/>
+		<Prefix id="yago" namespace="http://dbpedia.org/class/yago/"/>
+	</Prefixes>
+
+	<DataSources>
+		<DataSource id="source_a" type="sparqlEndpoint">
+			<Param name="endpointURI" value="http://semanticweb.cs.vu.nl/europeana/sparql/"/>
+		</DataSource>
+
+		<DataSource id="source_b" type="sparqlEndpoint">
+			<Param name="endpointURI" value="http://dbpedia.org/sparql/"/>
+		</DataSource>
+	</DataSources>
+
+	<Interlinks>
+		<Interlink id="something">
+			<LinkType>owl:sameAs</LinkType>
+
+			<SourceDataset dataSource="source_a" var="a">
+				<RestrictTo>
+					?a rdf:type am:Person.
+				</RestrictTo>
+			</SourceDataset>
+
+			<TargetDataset dataSource="source_b" var="b">
+				<RestrictTo>
+					{?b rdf:type dbpedia-owl:Person}
+					UNION
+					{?b rdf:type yago:Person100007846}
+					UNION
+					{?b rdf:type foaf:Person}
+				</RestrictTo>
+			</TargetDataset>
+
+			<LinkCondition>
+				<Compare metric="jaroWinkler">
+					<Input path="?a/am:name"/>
+					<Input path="?b/foaf:name"/>
+				</Compare>
+			</LinkCondition>
+
+			<Filter threshold="0.9"/>
+
+			<Outputs>
+				<Output minConfidence="0.97" type="file">
+					<Param name="file" value="accepted_links3.nt"/>
+					<Param name="format" value="ntriples"/>
+				</Output>
+			</Outputs>
+		</Interlink>
+	</Interlinks>
+</Silk>
