@@ -73,14 +73,9 @@ public class TaskResource extends ServerResource {
 	 * Delete a configuration file
 	 */
 	@Delete
-	public Representation remove() {
+	public Representation remove(Form parameters) {
 		// Check credentials
-		Form params = getReference().getQueryAsForm();
-		if (params.getFirstValue("api_key", true) == null) {
-			setStatus(Status.CLIENT_ERROR_FORBIDDEN);
-			return null;
-		}
-		if (!params.getFirstValue("api_key", true).equals(APIKeyResource.KEY)) {
+		if (parameters.getFirstValue("api_key", true) == null || !parameters.getFirstValue("api_key", true).equals(APIKeyResource.KEY)) {
 			setStatus(Status.CLIENT_ERROR_FORBIDDEN);
 			return null;
 		}
