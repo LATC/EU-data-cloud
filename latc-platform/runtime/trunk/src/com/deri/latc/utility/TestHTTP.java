@@ -1,5 +1,7 @@
 package com.deri.latc.utility;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
@@ -33,10 +35,10 @@ public class TestHTTP {
 		  try {
 	      HttpURLConnection con =
 	         (HttpURLConnection) new URL(URLName).openConnection();
-	      con.setRequestMethod("HEAD");
-	      //con.setRequestMethod(method)
-	      System.out.println(con.getResponseMessage());
-	      if(con.getResponseCode() == HttpURLConnection.HTTP_OK || con.getResponseMessage().equalsIgnoreCase("No_query_string"))
+	      con.setRequestMethod("GET");
+	      
+	 	     
+	     if(con.getResponseCode() == HttpURLConnection.HTTP_OK || con.getResponseCode() == HttpURLConnection.HTTP_BAD_REQUEST)
 	      result = true;
 	    }
 	    catch (Exception e) {
@@ -46,7 +48,7 @@ public class TestHTTP {
 	  }
 
 	  public static void main(String[] args) {
-		  System.out.print(TestHTTP.test("http://data.linkedmdb.org/sparql"));
+		  System.out.print(TestHTTP.test("http://www4.wiwiss.fu-berlin.de/drugbank/sparql"));
 		  System.out.print(TestHTTP.getMessage());
 	  }
 	  

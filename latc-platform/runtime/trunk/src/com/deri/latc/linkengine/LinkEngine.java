@@ -127,20 +127,33 @@ public class LinkEngine {
        toDoList = lt.getLinkingConfigs();
   
         ReportCSV report = new ReportCSV( Parameters.RESULT_LOCAL_DIR+"/report"+sdf.format(new Date())+".csv");
-        
-        for (final String title : toDoList.keySet()) {
+       
+        for (String title : toDoList.keySet()) {
+        	 boolean blacklist = false;
         	final String [] split = toDoList.get(title).split("#");
         	final String id = split[0];
         	final String speccretime = split[1];
         	final String specmodtime = split[2];
         	final String specAuthor = split[3];
-        	logfile.info( "start processing id "+id+" title "+title);
+    
+        	 logfile.info( "start processing id "+id+" title "+title);
+              
+             // checking blacklist
+        	 if(title.startsWith("**"))
+              {
+              	blacklist = true;
+              	title = title.substring(2);
+              }
+        	
         	ReportCSV.status st = status.failed; 
             //create id directory
             boolean exists = (new File(RESULTDIR +'/'+ title).exists());
             if (!exists)
    			 (new File(RESULTDIR +'/'+ title )).mkdirs();
            
+          
+            
+        	
             
             /*
              * Writing specification linking from LATC_CONSOLE_HOST/configuration/ID/specification
@@ -172,6 +185,16 @@ public class LinkEngine {
 	    		sdf.applyPattern(datepattern);
                 Void.setDataDump(Parameters.RESULTS_HOST + '/' +sdf.format(new Date())+'/'+title + "/"+Parameters.LINKS_FILE_STORE);
                 Void.setSpec(Parameters.RESULTS_HOST + '/' +sdf.format(new Date())+'/'+title + "/"+Parameters.SPEC_FILE);
+                
+                // blacklist
+                if(blacklist)
+                {
+                	st = status.ongoing;
+                	Void.setRemarks("Unpredicted");
+                	client.postReport(id, Void,Parameters.API_KEY);
+                	report.putData(id, title, Void.getSpec(), 0, st, Void.getRemarks(),Void.getStatItem(),specAuthor);
+                	continue;
+                }
                 
 	        	//testing endpoint
 	            if(Void.getSourceSparqlEndpoint()!=null && !this.testConn(Void.getSourceSparqlEndpoint()))

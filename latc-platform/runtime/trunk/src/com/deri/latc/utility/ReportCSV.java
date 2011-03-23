@@ -17,6 +17,7 @@ public class ReportCSV {
 		out = new BufferedWriter(new FileWriter(path));
 		out.write("ID, Title, Executing Time, Status, LinksGenerated, Reason, URL Specification,Owner");
 		
+		
 	}
 	
 	public void putData(String ID, String Title, String LinkSpec,long ExecuteDate, status st, String reason, int links, String author )
@@ -32,6 +33,7 @@ public class ReportCSV {
 		try {
 			out.newLine();
 			out.append(ID+','+Title.replace("To", "->")+','+timeEx+','+STATUS+','+links+','+reason+','+LinkSpec+','+author);
+			out.flush();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

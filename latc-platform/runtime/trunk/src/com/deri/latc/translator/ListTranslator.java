@@ -65,7 +65,8 @@ public class ListTranslator {
                 String title ="";
                 while (st.hasMoreElements()) title += st.nextElement();
                 title = title.replace("->", "To");
-                if(!blacklist.contains(title.toLowerCase()))
+                if(blacklist.contains(title.toLowerCase()))
+                	title = "**"+title;
                 	LinkingConfigs.put(title,item.getString("identifier")+'#'+item.getString("created")+'#'+item.getString("modified")+'#'+item.getString("author"));  
             }
 
