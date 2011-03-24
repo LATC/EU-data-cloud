@@ -10,7 +10,7 @@ README.txt -- short document with some documentation: who created this, when,
               were any major revisions made, anything else noteworthy
 spec.xml -- Silk link specification
 links.nt -- resulting link set (all links)
-positive.nt -- manually verified correct links (at least 100)
+positive.nt -- manually verified correct links (at least 10, please try 100)
 negative.nt -- manually verified incorrect links (at least 10)
 
 The positive.nt and negative.nt files should contain some difficult corner
