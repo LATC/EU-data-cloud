@@ -1,0 +1,63 @@
+<Silk>
+  <Prefixes>
+    <Prefix namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" id="rdf"></Prefix>
+    <Prefix namespace="http://purl.org/dc/terms/" id="dcterms"></Prefix>
+    <Prefix namespace="http://www.w3.org/2002/07/owl#" id="owl"></Prefix>
+    <Prefix namespace="http://www.w3.org/2000/01/rdf-schema#" id="rdfs"></Prefix>
+    <Prefix namespace="http://dbpedia.org/ontology/" id="dbpedia-owl"></Prefix>
+    <Prefix namespace="http://rdf.geospecies.org/ont/geospecies#" id="geospecies"></Prefix>
+  </Prefixes>
+  <DataSources>
+    <DataSource type="sparqlEndpoint" id="DBpedia">
+      <Param value="http://dbpedia.org/sparql" name="endpointURI"></Param>
+      <Param value="3" name="retryCount"></Param>
+      <Param value="1000" name="retryPause"></Param>
+      <Param value="http://dbpedia.org" name="graph"></Param>
+    </DataSource>
+    <DataSource type="sparqlEndpoint" id="GeoSpecies">
+      <Param value="http://lod.openlinksw.com/sparql" name="endpointURI"></Param>
+      <Param value="3" name="retryCount"></Param>
+      <Param value="1000" name="retryPause"></Param>
+    </DataSource>
+  </DataSources>
+  <Interlinks>
+    <Interlink id="DBpedia GeoSpecies binomial">
+      <LinkType>owl:sameAs</LinkType>
+      <SourceDataset var="a" dataSource="DBpedia">
+        <RestrictTo>?a rdf:type dbpedia-owl:Species</RestrictTo>
+      </SourceDataset>
+      <TargetDataset var="b" dataSource="GeoSpecies">
+        <RestrictTo>?b rdf:type geospecies:SpeciesConcept</RestrictTo>
+      </TargetDataset>
+      <LinkCondition>
+        <Aggregate type="average" required="false" weight="1">
+          <Aggregate type="max" required="false" weight="1">
+            <Compare required="false" metric="jaroWinkler" weight="1">
+              <TransformInput function="lowerCase">
+                <Input path="?a/&lt;http://dbpedia.org/property/binomial&gt;"></Input>
+              </TransformInput>
+              <TransformInput function="lowerCase">
+                <Input path="?b/geospecies:hasCanonicalName"></Input>
+              </TransformInput>
+            </Compare>
+          </Aggregate>
+          <Aggregate type="max" required="false" weight="1">
+            <Compare required="false" metric="jaroWinkler" weight="1">
+              <Input path="?b/geospecies:hasWikipediaArticle"></Input>
+              <Input path="?a/&lt;http://xmlns.com/foaf/0.1/page&gt;"></Input>
+            </Compare>
+          </Aggregate>
+        </Aggregate>
+      </LinkCondition>
+      <Filter limit ="1" threshold="0.96"></Filter>
+      <Outputs><Output maxConfidence="0.96" type="file" >
+          <Param name="file" value="dbpedia_geospecies_species_verify.xml"/>
+          <Param name="format" value="alignment"/>
+        </Output>
+        <Output minConfidence="0.96" type="file">
+          <Param name="file" value="dbpedia_geospecies_species.nt"/>
+          <Param name="format" value="ntriples"/>
+        </Output> </Outputs>
+    </Interlink>
+  </Interlinks>
+</Silk>
