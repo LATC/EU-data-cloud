@@ -1,17 +1,23 @@
 package eu.latc.linkqa;
 
-import java.io.IOException;
-import java.util.*;
-
 import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.*;
+import org.apache.hadoop.io.ByteWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.*;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.FileSplit;
 import org.apache.hadoop.mapreduce.lib.input.LineRecordReader;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.GenericOptionsParser;
+import org.apache.hadoop.util.Tool;
+import org.apache.hadoop.util.ToolRunner;
+
+import java.io.IOException;
+import java.util.HashSet;
+import java.util.Set;
 
 //http://developer.yahoo.com/hadoop/tutorial/module5.html
 //http://www.mail-archive.com/common-user@hadoop.apache.org/msg00541.html
@@ -19,7 +25,67 @@ import org.apache.hadoop.util.GenericOptionsParser;
 
 
 
-public class LinkCorrectnessAnalyser {
+public class LinkCorrectnessAnalyser extends Configured implements Tool {
+
+    @Override
+    public int run(String[] strings) throws Exception {
+        //PropertyConfigurator
+        //Configuration conf = new Configuration();
+
+        Configuration conf = this.getConf();
+        GenericOptionsParser parser = new GenericOptionsParser(this.getConf(), strings);
+        //Configuration conf = parser.getConfiguration();
+
+        //String[] otherArgs = new GenericOptionsParser(conf, args).getRemainingArgs();
+        String[] otherArgs = parser.getRemainingArgs();
+        if (otherArgs.length != 3) {
+            System.err.println("Usage: <progname> <in_a> <in_b> <out>");
+            System.exit(2);
+        }
+
+        Job job = new Job(conf, "eu.latc.linkqa.LinkCorrectnessAnalyser");
+
+
+        job.setJarByClass(LinkCorrectnessAnalyser.class);
+        //job.setMapperClass(IdentityMapper.class);
+        //job.setCombinerClass(SourceContainmentCombiner.class);
+        //job.setReducerClass(SumReducer.class);
+
+        job.setReducerClass(SourceContainmentCombiner.class);
+
+        job.setMapOutputKeyClass(Text.class);
+        job.setMapOutputValueClass(ByteWritable.class);
+
+        //job.set
+
+        job.setOutputKeyClass(Text.class);
+        job.setOutputValueClass(LongWritable.class);
+
+
+        Path fileA = new Path(otherArgs[0]);
+        Path fileB = new Path(otherArgs[1]);
+        fileA = fileA.makeQualified(fileA.getFileSystem(conf));
+        fileB = fileB.makeQualified(fileB.getFileSystem(conf));
+
+        job.getConfiguration().setLong(fileA.toString(), 0);
+        job.getConfiguration().setLong(fileB.toString(), 1);
+
+        //System.out.println("ORG CHECK = " + job.getConfiguration().getLong("file:/home/raven/Projects/Current/IntelliJ/latc/latc-platform/linkqa/hdfs/a.txt", 666));
+
+        job.setInputFormatClass(LineSourceInputFormat.class);
+
+
+        FileInputFormat.addInputPath(job, fileA);
+        FileInputFormat.addInputPath(job, fileB);
+
+        //System.out.println("ORG PATH: " + fileA.toString());
+
+        FileOutputFormat.setOutputPath(job, new Path(otherArgs[2]));
+
+
+
+        return job.waitForCompletion(true) ? 0 : 1;
+    }
 
     public static class LineSourceInputFormat extends
             FileInputFormat<Text, ByteWritable> {
@@ -39,7 +105,7 @@ public class LinkCorrectnessAnalyser {
 
         @Override
         public void initialize(InputSplit inputSplit, TaskAttemptContext taskAttemptContext) throws IOException, InterruptedException {
-            Configuration conf = taskAttemptContext.getConfiguration();
+            //Configuration conf = taskAttemptContext.getConfiguration();
 
             split = (FileSplit) inputSplit;
             String pathName = split.getPath().toString();
@@ -102,7 +168,7 @@ public class LinkCorrectnessAnalyser {
         ) throws IOException, InterruptedException {
             Set<Byte> fileIds = new HashSet<Byte>();
             for (ByteWritable val : values) {
-                byte fileId = (byte)val.get();
+                byte fileId = val.get();
 
                 fileIds.add(fileId);
             }
@@ -165,53 +231,8 @@ public class LinkCorrectnessAnalyser {
     }
 
     public static void main(String[] args) throws Exception {
-        //PropertyConfigurator
-        Configuration conf = new Configuration();
-
-        String[] otherArgs = new GenericOptionsParser(conf, args).getRemainingArgs();
-        if (otherArgs.length != 3) {
-            System.err.println("Usage: <progname> <in_a> <in_b> <out>");
-            System.exit(2);
-        }
-        Job job = new Job(conf, "eu.latc.linkqa.LinkCorrectnessAnalyser");
-
-
-        job.setJarByClass(LinkCorrectnessAnalyser.class);
-        //job.setMapperClass(IdentityMapper.class);
-        //job.setCombinerClass(SourceContainmentCombiner.class);
-        //job.setReducerClass(SumReducer.class);
-
-        job.setReducerClass(SourceContainmentCombiner.class);
-
-        job.setMapOutputKeyClass(Text.class);
-        job.setMapOutputValueClass(ByteWritable.class);
-
-        //job.set
-
-        job.setOutputKeyClass(Text.class);
-        job.setOutputValueClass(LongWritable.class);
-
-
-        Path fileA = new Path(otherArgs[0]);
-        Path fileB = new Path(otherArgs[1]);
-        fileA = fileA.makeQualified(fileA.getFileSystem(conf));
-        fileB = fileB.makeQualified(fileB.getFileSystem(conf));
-
-        job.getConfiguration().setLong(fileA.toString(), 0);
-        job.getConfiguration().setLong(fileB.toString(), 1);
-
-        //System.out.println("ORG CHECK = " + job.getConfiguration().getLong("file:/home/raven/Projects/Current/IntelliJ/latc/latc-platform/linkqa/hdfs/a.txt", 666));
-
-        job.setInputFormatClass(LineSourceInputFormat.class);
-
-
-        FileInputFormat.addInputPath(job, fileA);
-        FileInputFormat.addInputPath(job, fileB);
-
-        //System.out.println("ORG PATH: " + fileA.toString());
-
-        FileOutputFormat.setOutputPath(job, new Path(otherArgs[2]));
-        System.exit(job.waitForCompletion(true) ? 0 : 1);
+        int ret = ToolRunner.run(new LinkCorrectnessAnalyser(), args);
+        System.exit(ret);
     }
 
 
