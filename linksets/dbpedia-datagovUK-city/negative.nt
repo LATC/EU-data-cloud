@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+    xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+    xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+    xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>
+<Alignment>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://sw.opencyc.org/2008/06/10/concept/Mx8Ngx4rvWhwppwpEbGdrcN5Y29ycA-KQ2hlc3RlcnRvbh4rKz4vsMIHQdeFq9xMT7FI_g"></entity1>
+          <entity2 rdf:resource="http://statistics.data.gov.uk/id/local-authority-district/13UB"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://sw.opencyc.org/2008/06/10/concept/Mx8Ngx4rvWhwppwpEbGdrcN5Y29ycA-KQ2hlc3RlcnRvbh4rv70weZwpEbGdrcN5Y29ycA"></entity1>
+          <entity2 rdf:resource="http://statistics.data.gov.uk/id/local-authority-district/13UB"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://sw.opencyc.org/2008/06/10/concept/Mx8Ngx4rvWhwppwpEbGdrcN5Y29ycA-KSGFybGluZ3Rvbh4rv52kq5wpEbGdrcN5Y29ycA"></entity1>
+          <entity2 rdf:resource="http://statistics.data.gov.uk/id/local-authority-district/00EH"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://sw.opencyc.org/2008/06/10/concept/Mx8Ngx4rvWhwppwpEbGdrcN5Y29ycA-HUGVucml0aB4rv4RpW5wpEbGdrcN5Y29ycA"></entity1>
+          <entity2 rdf:resource="http://statistics.data.gov.uk/id/local-authority-district/15UF"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9047619047619048</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://sw.opencyc.org/2008/06/10/concept/Mx4rvu99pJwpEbGdrcN5Y29ycA"></entity1>
+          <entity2 rdf:resource="http://statistics.data.gov.uk/id/local-authority-district/00EH"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://sw.opencyc.org/2008/06/10/concept/Mx8Ngx4rvWhwppwpEbGdrcN5Y29ycA-KQ2hlc3RlcnRvbh4rQ4vytsIFQdeYZZA_2-qFAg"></entity1>
+          <entity2 rdf:resource="http://statistics.data.gov.uk/id/local-authority-district/13UB"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://sw.opencyc.org/2008/06/10/concept/Mx8Ngx4rvWhwppwpEbGdrcN5Y29ycA-KQ2hlc3RlcnRvbh4r99lH1MH5QdeRrKhJL_68uA"></entity1>
+          <entity2 rdf:resource="http://statistics.data.gov.uk/id/local-authority-district/13UB"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://sw.opencyc.org/2008/06/10/concept/Mx8Ngx4rvWhwppwpEbGdrcN5Y29ycA-HQ2hlc3Rlch4rwPgglZwpEbGdrcN5Y29ycA"></entity1>
+          <entity2 rdf:resource="http://statistics.data.gov.uk/id/local-authority-district/24UP"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://sw.opencyc.org/2008/06/10/concept/Mx8Ngx4rvWhwppwpEbGdrcN5Y29ycA-HQ2hlc3Rlch4rwPgglZwpEbGdrcN5Y29ycA"></entity1>
+          <entity2 rdf:resource="http://statistics.data.gov.uk/id/local-authority-district/00BN"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://sw.opencyc.org/2008/06/10/concept/Mx8Ngx4rvWhwppwpEbGdrcN5Y29ycA-HQ2hlc3Rlch4rwPgglZwpEbGdrcN5Y29ycA"></entity1>
+          <entity2 rdf:resource="http://statistics.data.gov.uk/id/local-authority-district/22UG"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://sw.opencyc.org/2008/06/10/concept/Mx8Ngx4rvWhwppwpEbGdrcN5Y29ycA-HQ2hlc3Rlch4rwPgglZwpEbGdrcN5Y29ycA"></entity1>
+          <entity2 rdf:resource="http://statistics.data.gov.uk/id/local-authority-district/45UD"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://sw.opencyc.org/2008/06/10/concept/Mx8Ngx4rvWhwppwpEbGdrcN5Y29ycA-RQ2hlc3RlciBMZSBTdHJlZXQeK79EUwqcKRGxna3DeWNvcnA"></entity1>
+          <entity2 rdf:resource="http://statistics.data.gov.uk/id/local-authority-district/20UB"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9215686274509803</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/The_Valley,_Anguilla"></entity1>
+          <entity2 rdf:resource="http://statistics.data.gov.uk/id/local-authority-district/24UN"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+      </Cell>
+    </map>
+</Alignment>
+</rdf:RDF>

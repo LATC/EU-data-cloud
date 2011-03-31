@@ -84,7 +84,9 @@ public class ReportCSV {
 	 */
 	public static void main(String[] args) throws IOException {
 		ReportCSV rc = new ReportCSV("myreport.csv");
+		@SuppressWarnings("deprecation")
 		Date dt1 = new Date(2011, 3, 11, 02, 23,20);
+		@SuppressWarnings("deprecation")
 		Date dt2 = new Date(2011, 3, 11, 14, 30);
 		rc.putData("ff8081812cac8e41012cac8e41f50000", "DBPediaToDrugBankdrugs","http://", dt2.getTime()-dt1.getTime(), status.ongoing	, "nothing",12, "myauthor");
 		rc.close();
