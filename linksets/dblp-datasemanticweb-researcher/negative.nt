@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+    xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+    xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+    xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>
+<Alignment>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://data.semanticweb.org/person/ramanathan-v-guha"></entity1>
+          <entity2 rdf:resource="http://dblp.l3s.de/d2r/resource/authors/A._Guha"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9047619047619048</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://data.semanticweb.org/person/ian-harrison"></entity1>
+          <entity2 rdf:resource="http://dblp.l3s.de/d2r/resource/authors/A._Harrison"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.914141414141414</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://data.semanticweb.org/person/jan-pedersen"></entity1>
+          <entity2 rdf:resource="http://dblp.l3s.de/d2r/resource/authors/A._Pedersen"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.914141414141414</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://data.semanticweb.org/person/ak-sinha"></entity1>
+          <entity2 rdf:resource="http://dblp.l3s.de/d2r/resource/authors/A._Sinha"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+      </Cell>
+    </map>
+</Alignment>
+</rdf:RDF>
