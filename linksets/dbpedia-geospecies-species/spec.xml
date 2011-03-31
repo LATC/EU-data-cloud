@@ -49,7 +49,7 @@
           </Aggregate>
         </Aggregate>
       </LinkCondition>
-      <Filter limit ="1" threshold="0.94"></Filter>
+      <Filter limit ="1" threshold="0.96"></Filter>
       <Outputs><Output maxConfidence="0.96" type="file" >
           <Param name="file" value="dbpedia_geospecies_species_verify.xml"/>
           <Param name="format" value="alignment"/>
