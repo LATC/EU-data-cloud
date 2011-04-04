@@ -1,0 +1,416 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+    xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+    xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+    xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>
+<Alignment>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/0052a9b1-318c-4a40-8541-fee5ff3584db"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Journey_%28band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/002bf1db-d76b-4e36-a9c5-0db2aea30db6"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/IiO"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/000a8b00-8d17-4c3f-a9ca-1ff0f6ffb1a9"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Can_%28band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/0066f7bc-ab95-4c06-adba-d4c05a3d486a"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Tad_%28band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/005b3683-af6d-4809-bdb8-0995839a6adc"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Astral_Projection_%28group%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9411764705882352</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/0056b13a-e79b-4e9b-b975-0d7d19e842d1"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Dukes_%28band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/000ff07d-d315-474e-a512-9d2e4a55ba12"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/4hero"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/0008cdb0-88b0-4e4d-b9f0-11296245c8b5"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Visage"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/007dc64c-53ca-4c52-adc3-3cb1a961ee09"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/The_Diodes"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/0009d7b1-25b4-47b5-af9f-1a42c0961fab"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Herbs_%28band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/0038232d-a322-42c3-9de9-edfd928d7826"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/The_Ark_%28band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9047619047619048</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/002df4fb-d1db-4d0c-a5f9-e36c7477434e"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Icon_%28band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/004ce308-fb47-4418-aab3-167f8cdb0b01"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/NEWS"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/00467da8-2a92-498f-8b10-a80889bcded7"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Oliver_Chesler"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9487179487179488</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/0043f16b-cc9f-4de4-8268-dbddf103d6d4"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Jaguares_%28rock_band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/0038232d-a322-42c3-9de9-edfd928d7826"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/The_Kry"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9047619047619048</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/006915c0-f0d7-445b-b97d-d03db8362119"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Amp_%28band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/00136dd9-1047-4999-af1f-d709c5fa09f9"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/WaT"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/00063fa5-924d-4f87-bf95-be8cd68ab344"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Indexi"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9444444444444445</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/0053dbd9-bfbc-4e38-9f08-66a27d914c38"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Bad_Copy"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9090909090909092</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/003b876d-5678-4b8c-8ecb-21a7a36a2f3c"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/New_Musik"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/0028729e-a080-4a6c-bc12-6a66a2bcd12e"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Anata"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9444444444444445</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/007c4a75-c712-4f19-9480-6c079e203275"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Vitamin_X"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/0068b96e-42d7-4d88-b3c1-a8299db93526"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Kultur_Shock"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9209401709401709</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/001ce2d7-c045-4343-b703-a4fc7dcee0a6"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Gravy_Train_%28band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9111111111111111</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/001adcad-45aa-4df0-b07a-1ff66d3366d4"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Fair_%28band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/0066f7bc-ab95-4c06-adba-d4c05a3d486a"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/DATA_%28band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/0038232d-a322-42c3-9de9-edfd928d7826"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/The_Orb"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9047619047619048</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/0013cfab-4eac-4deb-a975-3d160870a41c"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Mr._Pine"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/006915c0-f0d7-445b-b97d-d03db8362119"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Vamps"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/004ce308-fb47-4418-aab3-167f8cdb0b01"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Nest_%28band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/007e538a-8784-4982-810e-193547d51b2c"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Rome_%28band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/006dadc8-7f0d-4c3f-a4ed-38e51d5e8899"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Drip_%28band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/003167d9-2f64-45ec-a934-37237ab39394"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Nemo_%28band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/00641ed5-0d85-45ef-944b-ceda5afcacc9"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Halo_%28UK_band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/00453b6c-e0a5-419d-ad5d-5e42f01c7854"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Liquid_%28musician%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/002fd5ef-f905-4f47-b745-ac2a36798791"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Black_Slate"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/0026cf1b-34ca-4412-a9e2-de7793d5beea"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Spore_%28band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/006dadc8-7f0d-4c3f-a4ed-38e51d5e8899"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Dari_%28Italian_band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/002fd5ef-f905-4f47-b745-ac2a36798791"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Black_Breath_%28band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.914141414141414</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/007001b3-dd53-439c-bb4e-65ed711153be"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Studio_%28band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/007a084b-f435-4d78-be2a-3f9dd552ebc9"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/White_%28band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9444444444444445</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/007169b8-82a8-4576-ae21-78e2e7491099"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Pandora_%28musical_group%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9047619047619048</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/0019a73f-3ad3-4ff3-84d0-ce57fdb1dd4c"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Cootie_Brown_%28band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9209401709401709</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/006dadc8-7f0d-4c3f-a4ed-38e51d5e8899"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/DARI_%28Italian_band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/00330ad2-6d94-4957-b3b0-7ca1ea6f6fd6"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Blacklist_%28band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9393939393939394</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/00705dbc-c5b4-4ec9-8bc8-cd770d8b5b99"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Oceana_%28band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9444444444444445</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/00136dd9-1047-4999-af1f-d709c5fa09f9"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Wyatt_%28band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/000ff07d-d315-474e-a512-9d2e4a55ba12"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Herod_%28band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/00705dbc-c5b4-4ec9-8bc8-cd770d8b5b99"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Oceano_%28band%29"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9444444444444445</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbtune.org/musicbrainz/resource/artist/0043036a-fd7a-4500-97ad-d8864d4621ac"></entity1>
+          <entity2 rdf:resource="http://dbpedia.org/resource/Josefus"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9047619047619048</measure>
+      </Cell>
+    </map>
+</Alignment>
+</rdf:RDF>
