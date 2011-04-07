@@ -1,0 +1,1192 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+    xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+    xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+    xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>
+<Alignment>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Arabidopsis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Arabidopsis_thaliana"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.91</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Clostridium_botulinum"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Clostridium_acetobutylicum"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9343223443223444</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Bacillus_cereus"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Bacillus_clausii"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.91</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Bacillus_cereus"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Bacillus_cereus_E33L"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.95</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Bacillus_cereus"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Bacillus_cereus_14579"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9428571428571428</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Bacillus_cereus"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Bacillus_cereus_10987"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9428571428571428</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Bacillus"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Bacillus_clausii"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Campylobacter"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Campylobacter_jejuni_11168"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Cryptosporidiosis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Cryptosporidium_hominis"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9148657289002557</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Clostridium"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Clostridium_tetani"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9222222222222222</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Deinococcus-Thermus"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Deinococcus_geothermalis"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9088493292053663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chlamydia_trachomatis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chlamydia_trachomatis_D%2FUW-3%2FCX"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9354838709677419</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chlamydia_trachomatis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chlamydia_trachomatis_A%2FHAR-13"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9400000000000001</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Acinetobacter"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Acinetobacter_sp._ADP1"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9181818181818182</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Campylobacter_jejuni"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Campylobacter_jejuni_RM1221"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9481481481481481</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Anopheles"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Anopheles_gambiae"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9058823529411765</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Botaurus"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Bos_taurus"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9466666666666665</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Aspergillus_flavus"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Aspergillus_fumigatus"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9176587301587301</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Agrobacterium"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Agrobacterium_tumefaciens"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.904</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Caulobacteraceae"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Caulobacter_crescentus"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9022727272727272</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Bacillus_subtilis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Bacillus_clausii"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9254201680672269</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderiaceae"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_mallei"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9080827067669173</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Corynebacterium"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Corynebacterium_jeikeium"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.925</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Corynebacterium"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Corynebacterium_glutamicum"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9153846153846154</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Corynebacterium"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Corynebacterium_efficiens"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.92</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Corynebacterium"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Corynebacterium_diphtheriae"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9111111111111111</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Bartonella"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Bartonella_quintana"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9052631578947368</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Bartonella"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Bartonella_henselae"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9052631578947368</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Bartonellaceae"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Bartonella_henselae"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9071717755928284</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderiales"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_xenovorans"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9084057971014493</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderiales"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_sp._383"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9033333333333333</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderiales"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_mallei"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9340350877192982</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_xenovorans"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9043478260869565</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_sp._383"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.92</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_mallei"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9263157894736842</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Bordetella"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Bordetella_pertussis"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chlamydophila_pneumoniae"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chlamydophila_pneum._J138"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9103333333333333</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chlamydophila_pneumoniae"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chlamydophila_pneum._AR39"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9266666666666666</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chlamydophila_pneumoniae"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chlamydophila_felis"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9017543859649122</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Aspergillus"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Aspergillus_fumigatus"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9047619047619048</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Corynebacterineae"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Corynebacterium_jeikeium"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9014705882352941</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Archaeoglobus"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Archaeoglobus_fulgidus"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9181818181818182</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Clostridium_acetobutylicum"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Clostridium_tetani"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9078934137757667</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Cryptosporidium_parvum"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Cryptosporidium_hominis"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9023715415019763</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Bacillus_coagulans"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Bacillus_halodurans"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9211988304093567</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Bacillus_coagulans"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Bacillus_clausii"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9162698412698412</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Brucella"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Brucella_suis"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9230769230769231</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Brucella"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Brucella_abortus"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chlamydophila_psittaci"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chlamydophila_felis"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9013755980861244</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chlamydophila_psittaci"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chlamydophila_caviae"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9127807486631015</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chlamydophila_psittaci"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chlamydophila_abortus"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9046855105678635</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Apis_florea"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Apis_mellifera"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9046753246753247</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Bifidobacterium"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Bifidobacterium_longum"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9363636363636364</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Apis_mellifera_capensis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Apis_mellifera"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9217391304347826</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_mallei"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_pseudomallei_1710b"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9015280135823429</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_pseudomallei"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_mallei"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9309473684210526</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Bifidobacterium_animalis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Bifidobacterium_longum"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9205342902711323</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Bordetella_pertussis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Bordetella_parapertussis_12822"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9233333333333332</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Apis_mellifera_lamarckii"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Apis_mellifera"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666667</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Borrelia"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Borrelia_garinii"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chlamydophila"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chlamydophila_pneum._J138"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.904</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chlamydophila"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chlamydophila_pneum._AR39"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.904</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chlamydophila"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chlamydophila_felis"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9368421052631579</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chlamydophila"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chlamydophila_caviae"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9299999999999999</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chlamydophila"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chlamydophila_abortus"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9238095238095239</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chlamydophila_pecorum"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chlamydophila_pneum._TW-183"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9047619047619048</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chlamydophila_pecorum"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chlamydophila_pneum._J138"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9154285714285714</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chlamydophila_pecorum"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chlamydophila_pneum._CWL029"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.911166805903648</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chlamydophila_pecorum"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chlamydophila_pneum._AR39"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9224260651629073</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chlamydophila_pecorum"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chlamydophila_felis"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9007518796992481</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chlamydophila_pecorum"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chlamydophila_abortus"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9238095238095239</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chlamydophila_caviae"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chlamydophila_felis"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9159210526315789</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chlamydophila_felis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chlamydophila_caviae"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9159210526315789</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chlamydophila_felis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chlamydophila_abortus"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9007518796992481</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chlamydophila_abortus"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chlamydophila_felis"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9007518796992481</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chlamydiaceae"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chlamydophila_caviae"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9046153846153846</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Dehalococcoides"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Dehalococcoides_sp._CBDB1"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.92</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Dehalococcoides"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Dehalococcoides_ethenogenes"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9111111111111111</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Corynebacterium_bovis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Corynebacterium_jeikeium"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9035714285714286</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Corynebacterium_bovis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Corynebacterium_efficiens"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9154285714285714</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Caenorhabditis_briggsae"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Caenorhabditis_elegans"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9274183482421469</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Corynebacterium_renale"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Corynebacterium_jeikeium"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9136363636363637</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Corynebacterium_renale"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Corynebacterium_efficiens"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.914200956937799</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Corynebacterium_renale"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Corynebacterium_diphtheriae"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.91996632996633</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Debaryomyces"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Debaryomyces_hansenii"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9142857142857143</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Caenorhabditis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Caenorhabditis_elegans"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9272727272727272</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_caryophylli"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_mallei"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9206140350877193</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_gladioli"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_mallei"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9173227185611086</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chromohalobacter_beijerinckii"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chromohalobacter_salexigens"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9003831417624522</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_glumae"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_mallei"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9461300309597523</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_phenazinium"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_thailandensis"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9005128205128206</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_phenazinium"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_mallei"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9088493292053663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_glathei"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_thailandensis"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9045748987854251</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_glathei"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_mallei"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9371826625386998</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Anabaena_circinalis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Anabaena_variabilis"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9243421052631579</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_andropogonis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_xenovorans"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9139130434782609</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Borrelia_anserina"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Borrelia_garinii"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9000565610859729</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_vietnamiensis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_xenovorans"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9008449216687203</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_vietnamiensis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_thailandensis"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9111888111888111</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_unamae"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_mallei"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9243421052631579</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_ubonensis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_xenovorans"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9090469916556874</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_caribensis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_thailandensis"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9177591973244147</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_terricola"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_mallei"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9099634112018012</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_multivorans"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_xenovorans"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9024980930587337</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_multivorans"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_mallei"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9088493292053663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_caledonica"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_thailandensis"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9077591973244148</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_caledonica"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_mallei"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9267734553775744</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_anthina"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_thailandensis"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9238461538461539</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_anthina"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_mallei"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9078947368421053</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_ambifaria"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_mallei"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9013755980861244</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Caenorhabditis_brenneri"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Caenorhabditis_elegans"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9090469916556874</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_plantarii"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_thailandensis"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9156643356643357</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_plantarii"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_mallei"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9013755980861244</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chromohalobacter"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chromohalobacter_salexigens"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9185185185185185</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Aspergillus_aculeatus"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Aspergillus_fumigatus"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9120448179271708</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_stabilis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_thailandensis"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9243223443223443</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_stabilis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_mallei"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9083020050125313</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_sacchari"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_mallei"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9007518796992481</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_phymatum"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_mallei"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9007518796992481</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_hospita"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_sp._383"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_graminis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_mallei"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9083020050125313</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_dolosa"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_xenovorans"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9150087494952214</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_dolosa"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_mallei"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9024561403508772</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_brasilensis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_thailandensis"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.907967032967033</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Burkholderia_brasilensis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Burkholderia_mallei"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9088493292053663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Clostridium_tyrobutyricum"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Clostridium_acetobutylicum"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9270489510489511</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Bradyrhizobium"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Bradyrhizobium_japonicum"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666667</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Apis_mellifera_macedonica"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Apis_mellifera"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.912</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Brucella_canis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Brucella_suis"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9081918081918082</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Aeropyrum"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Aeropyrum_pernix"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9125</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Clostridium_tetani"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Clostridium_acetobutylicum"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9078934137757667</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Closteridium"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Clostridium_tetani"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9055555555555556</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Bacillus_rossius"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Bacillus_subtilis"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9000565610859729</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Clostridium_septicum"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Clostridium_tetani"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9033333333333333</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Bacillus_anthracis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Bacillus_anthracis_Sterne"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.944</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Bacillus_anthracis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Bacillus_anthracis_Porton"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.944</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Corynebacterium_jeikeium"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Corynebacterium_efficiens"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Borrelia_hermsii"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Borrelia_garinii"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Anopheles_barberi"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Anopheles_gambiae"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9008403361344538</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Anopheles_earlei"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Anopheles_gambiae"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9000565610859729</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chromobacterium"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chromobacterium_violaceum"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.92</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Clostridium_novyi"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Clostridium_tetani"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9202614379084967</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chlamydophora"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chlamydophila_abortus"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9084249084249084</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Borrelia_afzelii"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Borrelia_garinii"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Bradyrhizobium_elkanii"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Bradyrhizobium_japonicum"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9136363636363637</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Brucella_melitensis"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Brucella_melitensis_abortus"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9407407407407408</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chlorobium"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Chlorobium_tepidum"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9111111111111111</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Bacillus_clausii"></entity1>
+          <entity2 rdf:resource="http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Bacillus_subtilis"></entity2>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9254201680672269</measure>
+      </Cell>
+    </map>
+</Alignment>
+</rdf:RDF>
