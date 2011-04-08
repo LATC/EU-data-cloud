@@ -1,5 +1,7 @@
-Author : Nur Aini Rakhmawati (DERI)
-Since : March 31, 2011
-List researcher semantic web
-data.semanticweb.org - owl:sameAs - DBLP
+Creator:
+Nur Aini Rakhmawati (DERI)
+When:
+March 31, 2011
+Description:
+List researcher semantic web data.semanticweb.org - owl:sameAs - DBLP
 

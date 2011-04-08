@@ -1,45 +1,45 @@
-<Silk>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Silk>
   <Prefixes>
-    <Prefix namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" id="rdf"/>
-    <Prefix namespace="http://www.w3.org/2002/07/owl#" id="owl"></Prefix>
-    <Prefix namespace="http://xmlns.com/foaf/0.1/" id="foaf"></Prefix>
-    <Prefix namespace="http://www.w3.org/2000/01/rdf-schema#" id="rdfs"></Prefix>
+    <Prefix id="rdf" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#"/>
+    <Prefix id="foaf" namespace="http://xmlns.com/foaf/0.1/"/>
+    <Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#"/>
   </Prefixes>
   <DataSources>
-    <DataSource type="sparqlEndpoint" id="datasemanticweborg">
-      <Param value="http://data.semanticweb.org/sparql" name="endpointURI"></Param>
-      <Param value="3" name="retryCount"></Param>
-      <Param value="1000" name="retryPause"></Param>
+    <DataSource id="datasemanticweborg" type="sparqlEndpoint">
+      <Param name="endpointURI" value="http://data.semanticweb.org/sparql"/>
+      <Param name="retryCount" value="3"/>
+      <Param name="retryPause" value="1000"/>
     </DataSource>
-    <DataSource type="sparqlEndpoint" id="DBLP">
-      <Param value="http://dblp.l3s.de/d2r/sparql" name="endpointURI"></Param>
-      <Param value="3" name="retryCount"></Param>
-      <Param value="1000" name="retryPause"></Param>
+    <DataSource id="DBLP" type="sparqlEndpoint">
+      <Param name="endpointURI" value="http://dblp.l3s.de/d2r/sparql"/>
+      <Param name="retryCount" value="3"/>
+      <Param name="retryPause" value="1000"/>
     </DataSource>
   </DataSources>
   <Interlinks>
     <Interlink id="semanticresearcher">
       <LinkType>owl:sameAs</LinkType>
-      <SourceDataset var="a" dataSource="datasemanticweborg">
+      <SourceDataset dataSource="datasemanticweborg" var="a">
         <RestrictTo>?a rdf:type foaf:Person</RestrictTo>
       </SourceDataset>
-      <TargetDataset var="b" dataSource="DBLP">
+      <TargetDataset dataSource="DBLP" var="b">
         <RestrictTo>?b rdf:type foaf:Agent</RestrictTo>
       </TargetDataset>
       <LinkCondition>
- <Aggregate type="max" required="true" weight="1">
-          <Compare required="false" metric="jaro" weight="1">
+ <Aggregate required="true" type="max" weight="1">
+          <Compare metric="jaro" required="false" weight="1">
             <TransformInput function="lowerCase">
-              <Input path="?a/foaf:name"></Input>
+              <Input path="?a/foaf:name"/>
             </TransformInput>
             <TransformInput function="lowerCase">
-              <Input path="?b/foaf:name"></Input>
+              <Input path="?b/foaf:name"/>
             </TransformInput>
           </Compare>
    </Aggregate>
 
  </LinkCondition>
-      <Filter threshold="0.90"></Filter>
+      <Filter threshold="0.90"/>
       <Outputs> 
   <Output minConfidence="0.90" type="file">
                     <Param name="file" value="researcher_links_accepted.nt"/>

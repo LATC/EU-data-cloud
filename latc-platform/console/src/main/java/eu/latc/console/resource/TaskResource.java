@@ -113,11 +113,7 @@ public class TaskResource extends ServerResource {
 			Task task = manager.getTask(taskID);
 
 			// Prepare the answer
-			JSONObject entry = new JSONObject();
-			entry.put("title", task.getTitle());
-			entry.put("description", task.getDescription());
-			entry.put("author", task.getAuthor());
-			entry.put("identifier", task.getIdentifier());
+			JSONObject entry = task.toJSON();
 			JsonConverter conv = new JsonConverter();
 			logger.info("Answer " + entry.toString());
 

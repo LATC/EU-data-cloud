@@ -12,8 +12,8 @@
 	<DataSources>
 		  <DataSource id="dbpedia" type="sparqlEndpoint">
       <Param name="endpointURI" value="http://live.dbpedia.org/sparql/"/>
-      <Param value="3" name="retryCount"></Param>
-      <Param value="1000" name="retryPause"></Param>
+      <Param name="retryCount" value="3"/>
+      <Param name="retryPause" value="1000"/>
     </DataSource>
 
 		<DataSource id="stitch" type="sparqlEndpoint">

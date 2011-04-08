@@ -328,7 +328,10 @@ public class ObjectManager {
 	 * 
 	 * @param config
 	 */
-	public void saveTask(Task config) {
+	public void saveTask(Task task) {
+		// Update the last modification field
+		task.setLastModificationDate(new Date());
+
 		PersistenceManager pm = pmf.getPersistenceManager();
 		Transaction tx = pm.currentTransaction();
 
@@ -336,7 +339,7 @@ public class ObjectManager {
 			tx.begin();
 
 			// Apply the changes
-			pm.makePersistent(config);
+			pm.makePersistent(task);
 
 			tx.commit();
 		} catch (Exception e) {

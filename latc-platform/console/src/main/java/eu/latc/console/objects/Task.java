@@ -287,8 +287,10 @@ public class Task implements Serializable {
 		entry.put("title", title);
 		entry.put("description", description);
 		entry.put("author", author);
-		entry.put("created", DateToXSDateTime.format(creationDate));
-		entry.put("modified", DateToXSDateTime.format(lastModificationDate));
+		if (creationDate != null)
+			entry.put("created", DateToXSDateTime.format(creationDate));
+		if (lastModificationDate != null)
+			entry.put("modified", DateToXSDateTime.format(lastModificationDate));
 		entry.put("testing", isTesting);
 		return entry;
 	}

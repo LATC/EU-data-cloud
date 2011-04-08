@@ -42,13 +42,13 @@
             </TargetDataset>
 
             <LinkCondition>
-            <Aggregate type="max" required="false" weight="1">
-          <Compare required="false" metric="jaro" weight="1">
+            <Aggregate required="false" type="max" weight="1">
+          <Compare metric="jaro" required="false" weight="1">
             <TransformInput function="lowerCase">
-              <Input path="?a/rdfs:label[@lang = 'en']"></Input>
+              <Input path="?a/rdfs:label[@lang = 'en']"/>
             </TransformInput>
             <TransformInput function="lowerCase">
-              <Input path="?b/rdfs:label"></Input>
+              <Input path="?b/rdfs:label"/>
             </TransformInput>
           </Compare>
             </Aggregate>

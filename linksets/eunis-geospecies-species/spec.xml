@@ -1,48 +1,48 @@
-<Silk>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Silk>
   <Prefixes>
-    <Prefix namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" id="rdf"></Prefix>
-    <Prefix namespace="http://purl.org/dc/terms/" id="dcterms"></Prefix>
-    <Prefix namespace="http://www.w3.org/2002/07/owl#" id="owl"></Prefix>
-    <Prefix namespace="http://www.w3.org/2000/01/rdf-schema#" id="rdfs"></Prefix>
-    <Prefix namespace="http://dbpedia.org/ontology/" id="dbpedia-owl"></Prefix>
-    <Prefix namespace="http://rdf.geospecies.org/ont/geospecies#" id="geospecies"></Prefix>
-	<Prefix namespace="http://eunis.eea.europa.eu/rdf/species-schema.rdf#" id="eunis"></Prefix>
+    <Prefix id="rdf" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix id="dcterms" namespace="http://purl.org/dc/terms/"/>
+    <Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#"/>
+    <Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix id="dbpedia-owl" namespace="http://dbpedia.org/ontology/"/>
+    <Prefix id="geospecies" namespace="http://rdf.geospecies.org/ont/geospecies#"/>
+	<Prefix id="eunis" namespace="http://eunis.eea.europa.eu/rdf/species-schema.rdf#"/>
   </Prefixes>
   <DataSources>
-    <DataSource type="sparqlEndpoint" id="eunis">
-      <Param value="http://lsd.taxonconcept.org/sparql" name="endpointURI"></Param>
-      <Param value="3" name="retryCount"></Param>
-      <Param value="1000" name="retryPause"></Param>
+    <DataSource id="eunis" type="sparqlEndpoint">
+      <Param name="endpointURI" value="http://lsd.taxonconcept.org/sparql"/>
+      <Param name="retryCount" value="3"/>
+      <Param name="retryPause" value="1000"/>
     </DataSource>
-    <DataSource type="sparqlEndpoint" id="GeoSpecies">
-      <Param value="http://lod.openlinksw.com/sparql" name="endpointURI"></Param>
-      <Param value="3" name="retryCount"></Param>
-      <Param value="1000" name="retryPause"></Param>
+    <DataSource id="GeoSpecies" type="sparqlEndpoint">
+      <Param name="endpointURI" value="http://lod.openlinksw.com/sparql"/>
+      <Param name="retryCount" value="3"/>
+      <Param name="retryPause" value="1000"/>
     </DataSource>
   </DataSources>
   <Interlinks>
     <Interlink id="Eunis GeoSpecies species">
       <LinkType>owl:sameAs</LinkType>
-      <SourceDataset var="a" dataSource="eunis">
+      <SourceDataset dataSource="eunis" var="a">
         <RestrictTo>?a rdf:type eunis:SpeciesSynonym</RestrictTo>
       </SourceDataset>
-      <TargetDataset var="b" dataSource="GeoSpecies">
+      <TargetDataset dataSource="GeoSpecies" var="b">
         <RestrictTo>?b rdf:type geospecies:SpeciesConcept</RestrictTo>
       </TargetDataset>
       <LinkCondition>
-        <Aggregate type="average" required="false" weight="1">
-            <Compare required="false" metric="levenshtein" weight="1">
+        <Aggregate required="false" type="average" weight="1">
+            <Compare metric="levenshtein" required="false" weight="1">
               <TransformInput function="lowerCase">
-                <Input path="?a/eunis:binomialName"></Input>
+                <Input path="?a/eunis:binomialName"/>
               </TransformInput>
               <TransformInput function="lowerCase">
-                <Input path="?b/geospecies:hasCanonicalName"></Input>
+                <Input path="?b/geospecies:hasCanonicalName"/>
               </TransformInput>
             </Compare>
           </Aggregate>
       </LinkCondition>
-      <Filter limit ="1" threshold="0.97"></Filter>
-      <Outputs><Output maxConfidence="0.98" type="file" >
+      <Filter limit="1" threshold="0.97"/>
+      <Outputs><Output maxConfidence="0.98" type="file">
           <Param name="file" value="eunis_geospecies_species_verify.xml"/>
           <Param name="format" value="alignment"/>
         </Output>

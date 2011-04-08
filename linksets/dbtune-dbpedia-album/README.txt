@@ -1,5 +1,7 @@
-Author : Nur Aini Rakhmawati (DERI)
-Since : April 4, 2011
-List album
-Dbtune - owl:sameAs - Dbpedia
+Creator:
+Nur Aini Rakhmawati (DERI)
+When:
+April 4, 2011
+Description:
+List album Dbtune - owl:sameAs - Dbpedia
 

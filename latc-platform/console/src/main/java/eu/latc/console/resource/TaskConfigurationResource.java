@@ -54,7 +54,6 @@ public class TaskConfigurationResource extends TaskResource {
 
 			// Update the value and persist the task
 			task.setConfiguration(text);
-			task.setLastModificationDate(new Date());
 			ObjectManager manager = ((MainApplication) getApplication()).getObjectManager();
 			manager.saveTask(task);
 

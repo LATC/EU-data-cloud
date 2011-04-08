@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Silk>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Silk>
 	<Prefixes>
 		<Prefix id="rdf" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
 		<Prefix id="foaf" namespace="http://xmlns.com/foaf/0.1/"/>

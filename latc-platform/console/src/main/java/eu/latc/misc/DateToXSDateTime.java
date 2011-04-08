@@ -17,7 +17,7 @@ public class DateToXSDateTime {
 	 * @return
 	 */
 	public static String format(Date date) {
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'hh:mm:ss");
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
 		return sdf.format(date);
 	}
 
@@ -27,7 +27,7 @@ public class DateToXSDateTime {
 	 * @throws ParseException
 	 */
 	public static Date parse(String datetime) throws ParseException {
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-mm-dd hh:mm:ss");
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-mm-dd HH:mm:ss");
 		return sdf.parse(datetime);
 	}
 }

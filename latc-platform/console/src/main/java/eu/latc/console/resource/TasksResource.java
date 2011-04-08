@@ -68,28 +68,15 @@ public class TasksResource extends ServerResource {
 	 * @throws Exception
 	 */
 	@Post("multipart/form-data")
-	public Representation add(Representation entity) throws Exception {
-		// Check credentials
-		Form params = getReference().getQueryAsForm();
-		if (params.getFirstValue("api_key", true) == null) {
-			setStatus(Status.CLIENT_ERROR_FORBIDDEN);
-			return null;
-		}
-		if (!params.getFirstValue("api_key", true).equals(APIKeyResource.KEY)) {
-			setStatus(Status.CLIENT_ERROR_FORBIDDEN);
-			return null;
-		}
+	public Representation add(Representation multipartForm) throws Exception {
+		logger.info("[POST] Received a new task " + multipartForm);
 
-		logger.info("[POST] Received a new task " + entity);
-
-		if ((entity == null) || (!MediaType.MULTIPART_FORM_DATA.equals(entity.getMediaType(), true))) {
+		// Check if the form is valid
+		if ((multipartForm == null) || (!MediaType.MULTIPART_FORM_DATA.equals(multipartForm.getMediaType(), true))) {
 			setStatus(Status.CLIENT_ERROR_BAD_REQUEST);
-			logger.info("got " + entity.getMediaType());
+			logger.info("got " + multipartForm.getMediaType());
 			return null;
 		}
-
-		// Create a tmp file
-		String fileName = File.createTempFile("latc", "tmp").getAbsolutePath();
 
 		// Create a factory for disk-based file items
 		DiskFileItemFactory factory = new DiskFileItemFactory();
@@ -97,23 +84,26 @@ public class TasksResource extends ServerResource {
 
 		// Parse the entity elements
 		RestletFileUpload upload = new RestletFileUpload(factory);
-		List<FileItem> items;
-		items = upload.parseRepresentation(entity);
+		List<FileItem> items = upload.parseRepresentation(multipartForm);
 
-		// Process only the uploaded item called "fileToUpload" and
-		// save it on disk
-		FileItem fileItem = null;
-		for (final Iterator<FileItem> it = items.iterator(); it.hasNext() && fileItem == null;) {
-			FileItem fi = it.next();
-			if (fi.getFieldName().equals("fileToUpload")) {
-				fileItem = fi;
-				File file = new File(fileName);
-				fi.write(file);
-			}
+		// Process the content of the form
+		String specification = null;
+		String title = null;
+		String description = null;
+		String author = null;
+		for (FileItem item : items) {
+			if (!item.isFormField() && item.getFieldName().equals("specification"))
+				specification = item.getString();
+			if (item.isFormField() && item.getFieldName().equals("title"))
+				title = item.getString();
+			if (item.isFormField() && item.getFieldName().equals("description"))
+				description = item.getString();
+			if (item.isFormField() && item.getFieldName().equals("author"))
+				author = item.getString();
 		}
 
-		// Something went wrong
-		if (fileItem == null) {
+		// We need to have at least a specification to save
+		if (specification == null) {
 			setStatus(Status.CLIENT_ERROR_BAD_REQUEST);
 			return null;
 		}
@@ -122,12 +112,13 @@ public class TasksResource extends ServerResource {
 		ObjectManager manager = ((MainApplication) getApplication()).getObjectManager();
 
 		// Save the configuration file
-		String taskID = manager.addConfiguration(fileItem.getString());
+		String taskID = manager.addConfiguration(specification);
 
 		// Set the title
 		Task task = manager.getTask(taskID);
-		task.setTitle(fileItem.getName());
-		task.setDescription("No description");
+		task.setTitle(title == null ? "No title" : title);
+		task.setDescription(description == null ? "No description" : description);
+		task.setAuthor(author == null ? "Unknown" : author);
 		task.setCreationDate(new Date());
 		manager.saveTask(task);
 
@@ -138,17 +129,13 @@ public class TasksResource extends ServerResource {
 
 		// Set the return code and return the identifier
 		setStatus(Status.SUCCESS_CREATED);
-		/*
-		 * JSONObject json = new JSONObject(); json.put("id", configurationID);
-		 * json.put("href", getReference() + "/../" + configurationID +
-		 * "/specification"); JsonConverter conv = new JsonConverter();
-		 * logger.info(json.toString()); return conv.toRepresentation(json,
-		 * null, null);
-		 */
-		StringBuilder sb = new StringBuilder("<html><body>");
-		sb.append("<script>document.location=\"" + getReference() + "/../../../\"</script>");
-		sb.append("</body></html>");
-		return new StringRepresentation(sb.toString(), MediaType.TEXT_HTML);
+
+		JSONObject json = new JSONObject();
+		json.put("id", taskID);
+		json.put("href", getReference() + "/" + taskID);
+		JsonConverter conv = new JsonConverter();
+		logger.info(json.toString());
+		return conv.toRepresentation(json, null, null);
 	}
 
 	/**

@@ -9,7 +9,7 @@ var api_key = "";
  */
 $(document).ready(function() {
 	// setup ul.tabs to work as tabs for each div directly under div.panes
-	$("ul.tabs").tabs("div.panes > div");
+	$("ul.tabs").tabs("div.panes > div", {history: false});
 
 	// move to the next tab (for debugging)
 	// var tabs = $("ul.tabs").data("tabs");

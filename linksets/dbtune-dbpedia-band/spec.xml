@@ -1,58 +1,54 @@
-<Silk>
-  <Prefixes>
-    <Prefix namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" id="rdf"/>
-    <Prefix namespace="http://www.w3.org/2000/01/rdf-schema#" id="rdfs"></Prefix>
-   <Prefix namespace="http://purl.org/ontology/mo/" id="mo"></Prefix>
-    <Prefix namespace="http://dbpedia.org/ontology/" id="dbpedia-owl"></Prefix>
- <Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#"/>
- <Prefix id="dc" namespace="http://purl.org/dc/elements/1.1/"/>
- <Prefix id="foaf" namespace="http://xmlns.com/foaf/0.1/"/>
-  </Prefixes>
-  <DataSources>
-  <DataSource id="dbtune" type="sparqlEndpoint">
-      <Param name="endpointURI" value="http://dbtune.org/musicbrainz/sparql"/>
-      <Param value="3" name="retryCount"></Param>
-      <Param value="100" name="retryPause"></Param>
-    </DataSource>
-  <DataSource id="dbpedia" type="sparqlEndpoint">
-      <Param name="endpointURI" value="http://live.dbpedia.org/sparql/"/>
-      <Param value="3" name="retryCount"></Param>
-      <Param value="1000" name="retryPause"></Param>
-    </DataSource>
-  </DataSources>
-  <Interlinks>
-    <Interlink id="banddbtunedbpedia">
-        <LinkType>owl:sameAs</LinkType>
-      <SourceDataset var="a" dataSource="dbtune">
-        <RestrictTo>?a rdf:type mo:MusicArtist</RestrictTo>
-      </SourceDataset>
-      <TargetDataset var="b" dataSource="dbpedia">
-        <RestrictTo>?b rdf:type dbpedia-owl:Band</RestrictTo>
-      </TargetDataset>
-      <LinkCondition>
- <Aggregate type="max" required="true" weight="1">
-          <Compare required="false" metric="jaro" weight="1">
-            <TransformInput function="lowerCase">
-              <Input path="?a/foaf:name"></Input>
-            </TransformInput>
-            <TransformInput function="lowerCase">
-              <Input path="?b/foaf:name"></Input>
-            </TransformInput>
-          </Compare>
-     </Aggregate>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Silk>
+	<Prefixes>
+		<Prefix id="rdf" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+		<Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#"/>
+		<Prefix id="mo" namespace="http://purl.org/ontology/mo/"/>
+		<Prefix id="dbpedia-owl" namespace="http://dbpedia.org/ontology/"/>
+		<Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#"/>
+		<Prefix id="dc" namespace="http://purl.org/dc/elements/1.1/"/>
+		<Prefix id="foaf" namespace="http://xmlns.com/foaf/0.1/"/>
+	</Prefixes>
+	<DataSources>
+		<DataSource id="dbtune" type="sparqlEndpoint">
+			<Param name="endpointURI" value="http://dbtune.org/musicbrainz/sparql"/>
+			<Param name="retryCount" value="3"/>
+			<Param name="retryPause" value="100"/>
+		</DataSource>
+		<DataSource id="dbpedia" type="sparqlEndpoint">
+			<Param name="endpointURI" value="http://live.dbpedia.org/sparql/"/>
+			<Param name="retryCount" value="3"/>
+			<Param name="retryPause" value="1000"/>
+		</DataSource>
+	</DataSources>
+	<Interlinks>
+		<Interlink id="banddbtunedbpedia">
+			<LinkType>owl:sameAs</LinkType>
+			<SourceDataset dataSource="dbtune" var="a">
+				<RestrictTo>?a rdf:type mo:MusicArtist</RestrictTo>
+			</SourceDataset>
+			<TargetDataset dataSource="dbpedia" var="b">
+				<RestrictTo>?b rdf:type dbpedia-owl:Band</RestrictTo>
+			</TargetDataset>
+			<LinkCondition>
+				<Aggregate required="true" type="max" weight="1">
+					<Compare metric="jaro" required="false" weight="1">
+						<TransformInput function="lowerCase">
+							<Input path="?a/foaf:name"/>
+						</TransformInput>
+						<TransformInput function="lowerCase">
+							<Input path="?b/foaf:name"/>
+						</TransformInput>
+					</Compare>
+				</Aggregate>
 
- </LinkCondition>
-      <Filter threshold="0.90"></Filter>
-      <Outputs> 
-  <Output minConfidence="0.90" type="file">
-                    <Param name="file" value="banddbtunedbpedia_links_accepted.nt"/>
-                    <Param name="format" value="ntriples"/>
-                </Output>
-                <Output maxConfidence="0.95" type="file">
-                    <Param name="file" value="banddbtunedbpedia_links_verify.nt"/>
-                    <Param name="format" value="alignment"/>
-                </Output>
-</Outputs>
-    </Interlink>
-  </Interlinks>
+			</LinkCondition>
+			<Filter threshold="0.90"/>
+			<Outputs>
+				<Output minConfidence="0.95" type="file">
+					<Param name="file" value="links.nt"/>
+					<Param name="format" value="ntriples"/>
+				</Output>
+			</Outputs>
+		</Interlink>
+	</Interlinks>
 </Silk>

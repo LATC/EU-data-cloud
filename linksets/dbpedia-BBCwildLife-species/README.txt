@@ -1,5 +1,7 @@
-Author : Nur Aini Rakhmawati (DERI)
-Since : March 31, 2011
-List Animal Species
-BBCWildLife - owl:sameAs - Dbpedia
+Creator:
+Nur Aini Rakhmawati (DERI)
+When:
+March 31, 2011
+Description:
+List Animal Species BBCWildLife - owl:sameAs - Dbpedia
 
