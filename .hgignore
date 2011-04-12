@@ -3,10 +3,12 @@ syntax: regexp
 ^latc-platform/console/deprec$
 ^latc-platform/console/log$
 ^latc-platform/console/.classpath$
+^latc-platform/console/.externalToolBuilders$
 ^latc-platform/console/.project$
 ^latc-platform/console/.settings$
 ^latc-platform/console/.pydevproject$
-^latc-platform/console/.externalToolBuilders$
+^linksets/.project$
+^linksets/.pydevproject$
 \.DS_Store
 syntax: regexp
 ^latc-platform/console/target$
