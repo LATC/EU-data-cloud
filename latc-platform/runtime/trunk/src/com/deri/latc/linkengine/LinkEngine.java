@@ -7,6 +7,7 @@ package com.deri.latc.linkengine;
 
 import com.deri.latc.translator.ListTranslator;
 import com.deri.latc.dto.VoidInfoDto;
+import com.deri.latc.utility.OngoingHandling;
 import com.deri.latc.utility.Parameters;
 import com.deri.latc.utility.LogFormatter;
 import com.deri.latc.utility.SpecParser;
@@ -253,6 +254,8 @@ public class LinkEngine {
 	            
 	            if(Void.getStatItem()>=0)
 	            	st = status.sucesss;
+	            else if(Void.getStatItem()==-2)
+	            	st= status.ongoing;
 	            
 	            report.putData(id, title, Void.getSpec(), endDate.getTime()-startDate.getTime(), st, Void.getRemarks(),Void.getStatItem(),specAuthor);
 	            client.postReport(id, Void,Parameters.API_KEY);
@@ -316,11 +319,15 @@ public class LinkEngine {
               
               command = hadoop+ " jar silkmr.jar load " + title + " ./cache";
               loghadoop.info(command);
+        
               process = Runtime.getRuntime().exec(command);
+              OngoingHandling ongoing = new OngoingHandling(process,vi);
               returnCode = process.waitFor();
+              
              
               // SILK LOAD success
               if (returnCode == 0) {
+            	  ongoing.done();
                   command = hadoop+ " jar silkmr.jar match ./cache ./r" + title + " ";
                   loghadoop.info(command);
                   process = Runtime.getRuntime().exec(command);
@@ -355,10 +362,20 @@ public class LinkEngine {
               } 
               // SILK load failed
               else {
-            	  err=this.readProcess(process);
-            	  loghadoop.severe(err);
-            	  vi.setRemarks(err);
-                  logfile.severe("Job Failed: Error in Loading Data");
+            	  if(vi.getStatItem()==-2)
+            	  {
+            		  loghadoop.severe("killing loading process");
+                	  vi.setRemarks("Terminates Process due to long loading time");
+                	  logfile.severe("Terminates Process due to long loading time");
+            	  }
+            	  else
+            	  {
+            		  err=this.readProcess(process);
+            		  loghadoop.severe(err);
+                	  vi.setRemarks(err);
+                	  logfile.severe("Job Failed: Error in Loading Data");
+            	  }
+                  
                   fh.close();
                   return false;
               }
