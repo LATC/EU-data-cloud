@@ -6,7 +6,7 @@
     <Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix id="dbpedia-owl" namespace="http://dbpedia.org/ontology/"/>
     <Prefix id="geospecies" namespace="http://rdf.geospecies.org/ont/geospecies#"/>
-	<Prefix id="eunis" namespace="http://eunis.eea.europa.eu/rdf/species-schema.rdf#"/>
+  <Prefix id="eunis" namespace="http://eunis.eea.europa.eu/rdf/species-schema.rdf#"/>
   </Prefixes>
   <DataSources>
     <DataSource id="eunis" type="sparqlEndpoint">
@@ -21,7 +21,7 @@
     </DataSource>
   </DataSources>
   <Interlinks>
-    <Interlink id="Eunis GeoSpecies species">
+    <Interlink id="EunisGeoSpeciesspecies">
       <LinkType>owl:sameAs</LinkType>
       <SourceDataset dataSource="eunis" var="a">
         <RestrictTo>?a rdf:type eunis:SpeciesSynonym</RestrictTo>

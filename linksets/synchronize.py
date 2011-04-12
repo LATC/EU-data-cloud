@@ -13,6 +13,7 @@ import urllib2
 from datetime import datetime
 import time
 import re
+import md5
 
 TEST = "http://127.0.0.1:8080/console/api"
 PRODUCTION = "http://latc-console.few.vu.nl/api"
@@ -54,7 +55,7 @@ def synchronize_task(dir, task):
         meta = dict((tmp[i * 2], tmp[i * 2 + 1]) for i in range(len(tmp) / 2))
         tmp = task.split('-')
         meta['Title:'] = "%s -> %s (%s)" % (tmp[0], tmp[1], "".join(tmp[2:]))
-        
+
         # Upload the file
         curl = pycurl.Curl()
         response = cStringIO.StringIO()
@@ -72,7 +73,7 @@ def synchronize_task(dir, task):
         curl.setopt(curl.WRITEFUNCTION, response.write)
         curl.perform()
         curl.close()
-        
+
         # Save its ID
         res = json.loads(response.getvalue())
         open('%s/%s/id.txt' % (dir, task), 'w').write(res['id'])
@@ -86,8 +87,17 @@ def synchronize_task(dir, task):
         last_modif_file = datetime.fromtimestamp(os.stat(spec_file).st_mtime)
         delta = last_modif_file - last_modif_server
         
+        # Dowload the current specification on a temporary file
+        spec_server = urllib2.urlopen(SERVER + '/task/' + id + '/configuration').read()
+        
+        # Compare the two versions
+        disk = md5.new("".join(open(spec_file).readlines())).hexdigest()
+        server = md5.new(spec_server).hexdigest()
+        if disk == server:
+            return UP_TO_DATE            
+        
         # Upload if more recent on disk
-        if delta.days > 0 or (delta.days == 0 and delta.seconds > 3600):
+        if delta.days*delta.seconds > 0:
             curl = pycurl.Curl()
             data = [
                  ('api_key', 'aa4967eb8b7a5ccab7dbb57aa2368c7f'),
@@ -105,16 +115,12 @@ def synchronize_task(dir, task):
             curl.perform()
             curl.close()
             return UPDATED
-        
+
         # Download if more recent on server
-        if delta.days < 0 or (delta.days == 0 and delta.seconds > 3600):
-            data = urllib2.urlopen(SERVER + '/task/' + id + '/configuration').read()
-            open(spec_file, 'w').write(data)
+        if delta.days*delta.seconds < 0:
+            open(spec_file, 'w').write(spec_server)
             return DOWNLOADED
-        
-        # Otherwise, it's up to date
-        return UP_TO_DATE
-    
+
     # We should not reach that line
     return ERROR
 

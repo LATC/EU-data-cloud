@@ -16,10 +16,9 @@
   </Prefixes>
   <DataSources>
     <DataSource id="DBpedia" type="sparqlEndpoint">
-      <Param name="endpointURI" value="http://dbpedia.org/sparql"/>
+    <Param name="endpointURI" value="http://live.dbpedia.org/sparql/"/>
       <Param name="retryCount" value="3"/>
       <Param name="retryPause" value="1000"/>
-      <Param name="graph" value="http://dbpedia.org"/>
     </DataSource>
     <DataSource id="EUNIS" type="sparqlEndpoint">
       <Param name="endpointURI" value="http://lsd.taxonconcept.org/sparql"/>

@@ -21,7 +21,7 @@
     </DataSource>
   </DataSources>
   <Interlinks>
-    <Interlink id="DBpedia GeoSpecies binomial">
+    <Interlink id="DBpediaGeoSpeciesbinomial">
       <LinkType>owl:sameAs</LinkType>
       <SourceDataset dataSource="DBpedia" var="a">
         <RestrictTo>?a rdf:type dbpedia-owl:Species</RestrictTo>
