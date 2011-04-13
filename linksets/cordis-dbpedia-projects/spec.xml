@@ -224,7 +224,7 @@
         </Aggregate>
       </LinkCondition>
 
-      <Filter threshold="0.5" />
+      <Filter threshold="0.95" />
 
       <Outputs>
         <Output maxConfidence="0.97" type="file" >
