@@ -1,0 +1,2056 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+    xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+    xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+    xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>
+<Alignment>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Estero_Colina"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249418323"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9487179487179488</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Estero_Lampa"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249414292"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.914141414141414</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Estero_Los_Loros"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410945"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9089912280701755</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/River_Trent"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249414706"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/River_Greet"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node728846212"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/River_Corve"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node728846212"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/River_Trent"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249414706"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/River_Greet"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node728846212"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/River_Corve"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node728846212"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Main"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411375"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Meuse_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411950"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Ohio_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249416500"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Tanana_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249416382"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Rio_Grande"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410001"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Rio_Grande"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410008"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Rio_Grande"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409991"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Rio_Grande"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410002"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Rio_Grande"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249416805"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Congo_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409460"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Congo_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409486"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9393939393939394</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Garonne"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410300"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9111111111111111</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chicago_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409195"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9393939393939394</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chicago_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409152"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9393939393939394</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chicago_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409196"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9393939393939394</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chicago_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409193"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9393939393939394</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chicago_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409197"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9393939393939394</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chicago_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409153"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9393939393939394</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Seine"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249414699"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Seine"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249414864"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9090909090909092</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Una_%28Sava%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249417361"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Yangon_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249416382"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Cher_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409343"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9090909090909092</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Var_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249412030"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9047619047619048</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Var_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249416276"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Dordogne_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409784"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9363636363636364</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Orinoco"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249418736"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Don_River_%28Russia%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409786"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Neckar"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249412030"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/River_Tay"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249416830"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/River_Tay"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249417739"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chira_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409139"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chira_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409273"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chira_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409268"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chira_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409346"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chira_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409329"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/River_Calder"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249408217"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Kola_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409550"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Inn_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409912"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9047619047619048</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Pecos_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249412083"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9023569023569024</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Platte_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249412335"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Siagne"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249415113"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Pearl_River_%28China%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249412539"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Ulla_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249417189"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Paz_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249412358"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/San_Joaquin_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249414575"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9055555555555556</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Rio_Negro_%28Amazon%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411984"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Rio_Negro_%28Amazon%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249417887"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Rio_Negro_%28Amazon%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411988"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Rio_Negro_%28Amazon%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249417705"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Rio_Negro_%28Amazon%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249418547"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Rio_Negro_%28Amazon%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411987"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Rio_Negro_%28Amazon%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411981"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Rio_Negro_%28Amazon%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411983"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Sillaro"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249417454"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Lena_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249414699"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Susitna_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249418189"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.903030303030303</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/River_Dee%2C_Aberdeenshire"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409774"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9047619047619048</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Las_Vacas_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410799"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9267399267399267</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Narew"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249412030"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Scarpe"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249415042"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Salam%C3%A1_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249413182"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Caudal_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249408138"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Kama_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409834"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Kama_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249418834"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9090909090909092</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Cubia_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409630"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Gila_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410026"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Envira_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409871"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Mun_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411925"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Mun_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410162"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9047619047619048</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Mologa_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411228"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Narva_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249412030"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Sava"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249414333"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Sava"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249414317"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Lachlan_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410548"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9393939393939394</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Cazones_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409547"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Cazones_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249408310"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9393939393939394</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Ill_%28France%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410385"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9047619047619048</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Arenas"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249407825"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Ill_%28France%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410386"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9047619047619048</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Barbas"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249407934"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Barbas"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249407935"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Guaba"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410228"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9023569023569024</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Guaba"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410277"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Guayabo"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410250"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Guayabo"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410223"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.914141414141414</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Guayanilla"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410270"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9267399267399267</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Guaynabo"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410298"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Guaynabo"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410297"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Guayo"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410259"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9393939393939394</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Guayo"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410298"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Guayo"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410297"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Guayo"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410161"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Guayo"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410228"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9393939393939394</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Gurabo"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410228"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chi_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409195"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chi_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249408927"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chi_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409152"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chi_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409139"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chi_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409196"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chi_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409227"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chi_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409193"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chi_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409332"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chi_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409326"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chi_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409329"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chi_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409197"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chi_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409110"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chi_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409153"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_La_Venta"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410529"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9007936507936508</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Lachi"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410548"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_de_las_Vegas"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249417542"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9177287581699346</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Salgado_River_%28Cear%C3%A1%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249413177"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Salgado_River_%28Cear%C3%A1%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249417693"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Salgado_River_%28Cear%C3%A1%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249413171"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Salgado_River_%28Cear%C3%A1%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249413176"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Salgado_River_%28Cear%C3%A1%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249413168"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Salgado_River_%28Cear%C3%A1%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249413173"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Opeongo_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411575"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Opeongo_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411727"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Opeongo_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411564"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Arenales_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249407825"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9444444444444445</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/River_Nore"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411984"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9212962962962963</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/River_Nore"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249417887"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9212962962962963</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/River_Nore"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411988"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9212962962962963</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/River_Nore"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249417705"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9212962962962963</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/River_Nore"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249418547"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9212962962962963</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/River_Nore"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411987"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9212962962962963</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/River_Nore"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411981"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9212962962962963</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/River_Nore"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411983"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9212962962962963</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Ili_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410385"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9047619047619048</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Ili_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410386"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9047619047619048</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Rio_Tinto_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249417020"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Culebra"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409624"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9111111111111111</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Culebra"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409621"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9111111111111111</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Cupeyes"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409829"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9023569023569024</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Maricao"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411427"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Matilde"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411114"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9090909090909092</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Maton"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411375"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9212962962962963</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Maunabo"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411375"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9090909090909092</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Minillas"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411170"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Naranjito"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411993"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9209401709401709</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Naranjito"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411990"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9487179487179488</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Naranjito"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411995"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9487179487179488</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Naranjo"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249412032"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.914141414141414</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Naranjo"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249412035"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.914141414141414</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Man%C3%BA_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411375"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Aube_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409571"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chu_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409346"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chu_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409348"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chu_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409367"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chu_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249408983"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_de_las_Vacas"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249417542"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9399509803921569</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Greg%C3%B3rio_River_%28Amazonas%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249414625"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Ain_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249407626"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Unini_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249417231"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Lule_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410917"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Aa_%28France%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249407752"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Aa_%28France%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249407640"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Piaxtla_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249412194"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Agusan_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249407792"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9296296296296296</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Cayaguas"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249408953"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.914141414141414</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Cayures"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409829"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9023569023569024</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Panj_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249412352"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Cerrillos"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249408974"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9267399267399267</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/River_Tern"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249414699"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Clavijo"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409507"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9393939393939394</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Coamo"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409486"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9023569023569024</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Cocal"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409550"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9212962962962963</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Cocal"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249408631"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9023569023569024</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Biob%C3%ADo_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249408094"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Coco_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409527"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Coco_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409529"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chambal_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409099"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.914141414141414</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chambal_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409097"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Dulce_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409750"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Dulce_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409774"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Tanaro_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249414726"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Mavilla"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411112"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9393939393939394</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Mavilla"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411328"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9023569023569024</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Maya_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411115"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Sabana"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249414123"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.923076923076923</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Sabana"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249414119"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9444444444444445</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Saliente"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249415113"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9116161616161617</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Saltillo"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249413208"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Periyar_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249412098"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Toro"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249416933"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Naryn_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249412030"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_de_la_Mina"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411043"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9047619047619048</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Mula_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411921"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9090909090909092</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Mula_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411144"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9090909090909092</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Mula_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249416471"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Mula_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411743"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9090909090909092</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Mula_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249412514"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Sil_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249415134"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Sil_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249415136"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Sil_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249415148"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Pas_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249413039"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Pas_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249412180"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Pas_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249413024"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Serchio"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249416066"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9090909090909092</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Serchio"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249416062"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9090909090909092</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Serchio"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249416076"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9090909090909092</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Tundzha"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249417739"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Tundzha"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249417065"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chama_River_%28Venezuela%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409099"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chama_River_%28Venezuela%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409110"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Salat_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249413208"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Kaka_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249418083"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9212962962962963</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Yata_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249416384"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Psou_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249412397"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9212962962962963</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Bojana"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411204"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Parag%C3%BAa_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411642"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9023569023569024</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Maule_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409750"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Maule_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411743"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9023569023569024</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Barbate_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249407934"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9090909090909092</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Barbate_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249407935"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9090909090909092</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Golo_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249408068"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Golo_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249408069"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Odon_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411578"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Itata_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410683"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Oca_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411591"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Mantaro_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411375"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9090909090909092</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Mira_River_%28Portugal%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411138"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Mira_River_%28Portugal%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411137"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Viaur"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249416276"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Puelo_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249412539"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Loa_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410879"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Loa_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410938"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Pascua_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411713"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Genil"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410153"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9023569023569024</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Jamari_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249418908"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9111111111111111</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Pirita_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249413121"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9333333333333332</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/R%C3%ADo_Sana_Muerto"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249418898"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9042735042735043</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Cunas_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409570"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Lauca_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410548"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9259259259259259</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Roya_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249411950"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Saja_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249414333"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Saja_%28river%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249414317"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Quinto_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249414288"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.923076923076923</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Quinto_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249414289"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9444444444444445</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Chapare_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249418928"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Pisue%C3%B1a"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249412180"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9023569023569024</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Cutipay_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249409850"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9393939393939394</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Teno_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249414699"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Guadalupe_%28Spain%29"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410340"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9209401709401709</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Lisa_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249410920"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9166666666666666</measure>
+        </Cell>
+      </map>
+<map>
+        <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Cisnes_River"></entity1>
+          <entity2 rdf:resource="http://linkedgeodata.org/triplify/node249408830"></entity2>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9060606060606061</measure>
+        </Cell>
+      </map>
+</Alignment>
+</rdf:RDF>
