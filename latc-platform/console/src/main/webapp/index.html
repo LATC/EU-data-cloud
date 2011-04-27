@@ -131,12 +131,17 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.5.1.min.js">\x3C/script>')</script>
 
-  <!-- jQueryTools, dataTables, cookies, templates, graph -->
-  <script src="http://cdn.jquerytools.org/1.2.5/all/jquery.tools.min.js"></script>
-  <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+  <!-- jQueryTools, dataTables, cookies, md5, hash, templates, graph -->
+  <!-- there are some bugs in tools 1.2.5, we include custom versions instead
+  	<script src="http://cdn.jquerytools.org/1.2.5/all/jquery.tools.min.js"></script>
+  -->
+  <script src="js/mylibs/tabs.js"></script>
+  <script src="js/mylibs/toolbox.history.js"></script>
   <script src="js/mylibs/jquery.dataTables.min.js"></script>
   <script src="js/mylibs/jquery.cookie.js"></script>
   <script src="js/mylibs/md5.js"></script>
+  <script src="js/mylibs/jhash-1.0.0.min.js"></script>
+  <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
   <!-- <script src="js/mylibs/jquery.flot.js"></script> -->
   
   <!-- scripts concatenated and minified via ant build script-->
