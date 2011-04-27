@@ -526,6 +526,16 @@ table.display td.center {
 	background-color: #B0BED9;
 }
 
+#taskReports p.info {
+	width: 220px;
+    overflow: hidden;
+}
+
+#taskReports p.warn {
+	width: 220px;
+    overflow: hidden;
+}
+
 .dataTables_paginate {
 	width: auto;
 	float: right;

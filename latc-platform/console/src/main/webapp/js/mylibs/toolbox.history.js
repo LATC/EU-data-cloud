@@ -18,7 +18,7 @@
 	var hash, iframe, links, inited;
 
 	$.tools = $.tools || {
-		version : '1.2.6'
+		version : '@VERSION'
 	};
 
 	$.tools.history = {

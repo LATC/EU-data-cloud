@@ -82,10 +82,9 @@ $(document).ready(function() {
 	updateNotifications();
 	
 	// If a task is asked, load it
-	//console.log(jHash.val());
-	//if (jHash.val("id") != undefined) {
-	//	loadTaskDetails(jHash.val("id"));
-	//}
+	if (jHash.val("id") != undefined) {
+		loadTaskDetails(jHash.val("id"));
+	}
 });
 
 /*
@@ -254,6 +253,7 @@ function loadTaskDetails(identifier) {
 			},
 			closeOnClick : false
 		});
+		
 		var buttons = $("#yesno button").click(function(e) {
 			// get user input
 			var yes = buttons.index(this) === 0;
@@ -273,7 +273,7 @@ function loadTaskDetails(identifier) {
 		});
 
 		// Load the notifications
-		$.getJSON('api/task/' + identifier + '/notifications', function(data) {
+		$.getJSON('api/task/' + identifier + '/notifications.json', function(data) {
 			// Add all the statuses to the table
 			$.each(data.notification, function(index, item) {
 				// Format date
