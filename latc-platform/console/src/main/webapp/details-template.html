@@ -4,6 +4,7 @@
 <label>Title:<input name="task-title" value="${title}" type="text"></label>
 <label>Author:<input name="task-author" value="${author}" type="text"></label>
 <label>Description:<textarea name="task-description">${description}</textarea></label>
+<label><input name="task-execution" type="checkbox" disabled="disabled"/> Scheduled for execution</label>
 </form>
 <h2>Messages <a href="api/task/${identifier}/notifications.atom" class="feed-link"></a></h2>
 <table class="display" id="taskReports">

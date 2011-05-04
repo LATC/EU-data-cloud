@@ -12,6 +12,7 @@ import javax.jdo.Query;
 import javax.jdo.Transaction;
 import javax.jdo.identity.StringIdentity;
 
+import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -145,25 +146,42 @@ public class ObjectManager {
 	 * @throws Exception
 	 */
 	public String addNotification(String taskID, Notification report) throws Exception {
+		// Check if the report is valid
+		if (report == null)
+			return null;
+
 		PersistenceManager pm = pmf.getPersistenceManager();
 		Transaction tx = pm.currentTransaction();
 
 		try {
+			// Open a transaction
 			tx.begin();
-
-			// Check if the report is valid
-			if (report == null)
-				return null;
 
 			// Get the configuration
 			StringIdentity id = new StringIdentity(Task.class, taskID);
 			Task task = (Task) pm.getObjectById(id);
 
-			// Set the date to the report and save it
+			// Set the date to the report and bind it to the task
 			Date now = new Date();
 			report.setDate(now);
 			report.setTask(task);
 			task.addReport(report);
+
+			// Check if the task should stay executable
+			if (task.isExecutable()) {
+				// If the report is a successful creation of triples, switch
+				// off the execution flag
+				JSONObject data = new JSONObject(report.getData());
+				if (data.has("size") && data.getLong("size") > 0)
+					task.setExecutable(false);
+			} else {
+				// If the report is an update of the task, switch on the flag
+				// FIXME String comparison is not robust
+				if (report.getMessage().equals("Configuration modified"))
+					task.setExecutable(true);
+			}
+
+			// Save the report
 			pm.makePersistent(report);
 			logger.info("Persisted report " + report.getIdentifier());
 
@@ -182,11 +200,12 @@ public class ObjectManager {
 	 * Return the processing queue as a list of LinkingConfiguration
 	 * 
 	 * @param limit
+	 * @param filter
 	 * 
 	 * @return a sorted collection of LinkingConfiguration
 	 */
 	@SuppressWarnings("unchecked")
-	public Collection<Task> getTasks(int limit) {
+	public Collection<Task> getTasks(int limit, boolean filter) {
 		PersistenceManager pm = pmf.getPersistenceManager();
 		Transaction tx = pm.currentTransaction();
 
@@ -199,11 +218,10 @@ public class ObjectManager {
 
 			// Create collection of detached instances of the
 			Collection<Task> res = new ArrayList<Task>();
-			for (Task conf : (Collection<Task>) query.execute()) {
-				if (limit == 0 || res.size() < limit) {
-					res.add((Task) pm.detachCopy(conf));
-				}
-			}
+			for (Task task : (Collection<Task>) query.execute())
+				if (limit == 0 || res.size() < limit)
+					if (task.isExecutable() || !filter)
+						res.add((Task) pm.detachCopy(task));
 
 			return res;
 		} finally {
@@ -211,13 +229,6 @@ public class ObjectManager {
 				tx.rollback();
 			pm.close();
 		}
-	}
-
-	/**
-	 * @return
-	 */
-	public Collection<Task> getTasks() {
-		return getTasks(0);
 	}
 
 	/**
@@ -236,11 +247,9 @@ public class ObjectManager {
 			Query query = pm.newQuery(Notification.class);
 			query.setOrdering("date ascending");
 			Collection<Notification> res = new ArrayList<Notification>();
-			for (Notification report : (Collection<Notification>) query.execute()) {
-				if (report.getTask().getIdentifier().equals(configurationID)) {
+			for (Notification report : (Collection<Notification>) query.execute())
+				if (report.getTask().getIdentifier().equals(configurationID))
 					res.add((Notification) pm.detachCopy(report));
-				}
-			}
 
 			return res;
 		} finally {
@@ -252,6 +261,8 @@ public class ObjectManager {
 
 	/**
 	 * @param limit
+	 *            the maximum number of reports to return, set to 0 for all of
+	 *            them
 	 * @return
 	 */
 	@SuppressWarnings("unchecked")
@@ -284,13 +295,6 @@ public class ObjectManager {
 				tx.rollback();
 			pm.close();
 		}
-	}
-
-	/**
-	 * @return
-	 */
-	public Collection<Notification> getReports() {
-		return getReports(0);
 	}
 
 	/**

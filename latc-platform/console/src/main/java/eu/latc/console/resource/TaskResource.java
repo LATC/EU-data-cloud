@@ -1,5 +1,7 @@
 package eu.latc.console.resource;
 
+import java.util.Set;
+
 import org.json.JSONObject;
 import org.restlet.data.Form;
 import org.restlet.data.MediaType;
@@ -75,7 +77,8 @@ public class TaskResource extends ServerResource {
 	@Delete
 	public Representation remove(Form parameters) {
 		// Check credentials
-		if (parameters.getFirstValue("api_key", true) == null || !parameters.getFirstValue("api_key", true).equals(APIKeyResource.KEY)) {
+		if (parameters.getFirstValue("api_key", true) == null
+				|| !parameters.getFirstValue("api_key", true).equals(APIKeyResource.KEY)) {
 			setStatus(Status.CLIENT_ERROR_FORBIDDEN);
 			return null;
 		}
@@ -131,22 +134,31 @@ public class TaskResource extends ServerResource {
 	 * @return
 	 */
 	@Put
-	public Representation updateInformation(Form parameters) {
-		logger.info("[PUT] Details for " + taskID + " with " + parameters);
-		
+	public Representation updateInformation(Form form) {
+		logger.info("[PUT] Update details for " + taskID + " with " + form);
+
 		// Check credentials
-		if (parameters.getFirstValue("api_key", true) == null || !parameters.getFirstValue("api_key", true).equals(APIKeyResource.KEY)) {
+		if (form.getFirstValue("api_key", true) == null
+				|| !form.getFirstValue("api_key", true).equals(APIKeyResource.KEY)) {
 			setStatus(Status.CLIENT_ERROR_FORBIDDEN);
 			return null;
 		}
 
 		// Update
-		task.setTitle(parameters.getFirstValue("title"));
-		task.setDescription(parameters.getFirstValue("description"));
-		task.setAuthor(parameters.getFirstValue("author"));
+		Set<String> keys = form.getNames();
+		if (keys.contains("title"))
+			task.setTitle(form.getFirstValue("title"));
+		if (keys.contains("description"))
+			task.setDescription(form.getFirstValue("description"));
+		if (keys.contains("author"))
+			task.setAuthor(form.getFirstValue("author"));
+		if (keys.contains("executable"))
+			task.setExecutable(Boolean.parseBoolean(form.getFirstValue("executable")));
+		
+		// Save the task
 		ObjectManager manager = ((MainApplication) getApplication()).getObjectManager();
 		manager.saveTask(task);
-		
+
 		setStatus(Status.SUCCESS_OK);
 		return null;
 	}

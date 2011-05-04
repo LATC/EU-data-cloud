@@ -152,7 +152,7 @@ function logout() {
  */
 function reloadTasks() {
 	setLoading($("#tasksList"));
-	$.getJSON('api/tasks.json?limit=5', function(data) {
+	$.getJSON('api/tasks.json?limit=5&filter=false', function(data) {
 		// Clean the previous content for the overview table
 		$("#tasksList").empty();
 
@@ -168,7 +168,7 @@ function reloadTasks() {
 		});
 	});
 
-	$.getJSON('api/tasks.json', function(data) {
+	$.getJSON('api/tasks.json?filter=false', function(data) {
 		// Clean the previous content for the task selector
 		$('#taskSelector').dataTable().fnClearTable();
 
@@ -233,6 +233,9 @@ function loadTaskDetails(identifier) {
 				description : data.description,
 				api_key : api_key
 			} ]).appendTo("#taskDetailsContent");
+		}
+		if (data.executable == true) {
+			$("[name=task-execution]").attr('checked', true);
 		}
 		// Initialise the table
 		$('#taskReports').dataTable({
@@ -317,7 +320,8 @@ function saveDetails() {
 			api_key : api_key,
 			title : $("[name=task-title]").val(),
 			author : $("[name=task-author]").val(),
-			description : $("[name=task-description]").val()
+			description : $("[name=task-description]").val(),
+			executable : $("[name=task-execution]").attr('checked')
 		},
 		dataType : "text",
 		success : function(data) {

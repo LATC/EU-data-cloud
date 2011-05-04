@@ -120,6 +120,7 @@ public class TasksResource extends ServerResource {
 		task.setDescription(description == null ? "No description" : description);
 		task.setAuthor(author == null ? "Unknown" : author);
 		task.setCreationDate(new Date());
+		task.setExecutable(true);
 		manager.saveTask(task);
 
 		// Add an initial upload report
@@ -134,7 +135,6 @@ public class TasksResource extends ServerResource {
 		json.put("id", taskID);
 		json.put("href", getReference() + "/" + taskID);
 		JsonConverter conv = new JsonConverter();
-		logger.info(json.toString());
 		return conv.toRepresentation(json, null, null);
 	}
 
@@ -156,12 +156,18 @@ public class TasksResource extends ServerResource {
 	 */
 	@Get("json")
 	public Representation toJSON() {
-		// Handle the limit parameter
-		int limit = 0;
 		Form params = getReference().getQueryAsForm();
+		
+		// Handle the "limit" parameter
+		int limit = 0;
 		if (params.getFirstValue("limit", true) != null)
 			limit = Integer.parseInt(params.getFirstValue("limit", true));
 
+		// Handle the "all" parameter
+		boolean filter = true;
+		if (params.getFirstValue("filter", true) != null)
+			filter = Boolean.parseBoolean(params.getFirstValue("filter", true));
+		
 		logger.info("[GET-JSON] Return a list of tasks " + limit);
 
 		try {
@@ -171,12 +177,11 @@ public class TasksResource extends ServerResource {
 			// The object requested is the list of configuration files
 			JSONObject json = new JSONObject();
 			JSONArray array = new JSONArray();
-			for (Task task : manager.getTasks(limit))
+			for (Task task : manager.getTasks(limit, filter))
 				array.put(task.toJSON());
 			json.put("task", array);
 
 			JsonConverter conv = new JsonConverter();
-			logger.info(json.toString());
 			return conv.toRepresentation(json, null, null);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -203,7 +208,7 @@ public class TasksResource extends ServerResource {
 			result.setTitle(new Text("Tasks created for LATC"));
 			Entry entry;
 
-			for (Task task : manager.getTasks(5)) {
+			for (Task task : manager.getTasks(5, false)) {
 				entry = new Entry();
 				entry.setTitle(new Text(task.getTitle()));
 				StringBuffer summary = new StringBuffer();
