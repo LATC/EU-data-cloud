@@ -76,9 +76,9 @@ def synchronize_task(dir, task):
         curl.perform()
 
         # Save its ID
-        if curl.getinfo(pycurl.HTTP_CODE) == 200:
-            res = json.loads(response.getvalue())
-	    open('%s/%s/id.txt' % (dir, task), 'w').write(res['id'])
+        #if curl.getinfo(pycurl.HTTP_CODE) == 200:
+        res = json.loads(response.getvalue())
+	open('%s/%s/id.txt' % (dir, task), 'w').write(res['id'])
 
         curl.close()
 
