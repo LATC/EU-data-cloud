@@ -105,22 +105,24 @@ public class TaskNotificationsResource extends TaskResource {
 			return null;
 		}
 
+		// We need at least a message
+		if (form.getFirstValue("message", true) == null) {
+			setStatus(Status.CLIENT_ERROR_BAD_REQUEST);
+			return null;
+		}
+		
 		try {
 			logger.info("[POST] Add notification " + form.toString() + " for " + taskID);
 
-			// Add a report for the insertion
+			// Create a notification report
 			Notification notification = new Notification();
 			notification.setMessage(form.getFirstValue("message", true));
-			if (notification.getMessage() == null) {
-				setStatus(Status.CLIENT_ERROR_BAD_REQUEST);
-				return null;
-			}
 			notification.setData(form.getFirstValue("data", true));
-
 			notification.setSeverity(form.getFirstValue("severity", true));
 			if (notification.getSeverity() == null)
 				notification.setSeverity("info");
 
+			// Send it to the object manager
 			ObjectManager manager = ((MainApplication) getApplication()).getObjectManager();
 			manager.addNotification(taskID, notification);
 

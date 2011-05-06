@@ -1,15 +1,21 @@
-/* Author: 
- Christophe Gueret <c.d.m.gueret@vu.nl>
+/** 
+ * Author: Christophe Gueret <c.d.m.gueret@vu.nl>
  */
 
+// The API key used to issue write RPCs
 var api_key = "";
+
+// The identifier of the task currently dealt with
+var current_task = "";
 
 /*
  * Various initialisations performed once the document is scriptable
  */
 $(document).ready(function() {
 	// setup ul.tabs to work as tabs for each div directly under div.panes
-	$("ul.tabs").tabs("div.panes > div", {history: false});
+	$("ul.tabs").tabs("div.panes > div", {
+		history : true
+	});
 
 	// move to the next tab (for debugging)
 	// var tabs = $("ul.tabs").data("tabs");
@@ -35,7 +41,7 @@ $(document).ready(function() {
 			"bVisible" : false
 		},
 		/* Title */null ],
-		"aaSorting": [[ 1, "asc" ]]
+		"aaSorting" : [ [ 1, "asc" ] ]
 	});
 	$("#taskSelector tbody").click(function(event) {
 		// Change the selected row
@@ -48,6 +54,7 @@ $(document).ready(function() {
 		// Load the data panel
 		var position = table.fnGetPosition(event.target.parentNode);
 		var data = table.fnGetData(position);
+		jHash.val("id", data[0]);
 		loadTaskDetails(data[0]);
 	});
 
@@ -73,6 +80,11 @@ $(document).ready(function() {
 
 	// Load the last notifications
 	updateNotifications();
+	
+	// If a task is asked, load it
+	if (jHash.val("id") != undefined) {
+		loadTaskDetails(jHash.val("id"));
+	}
 });
 
 /*
@@ -84,6 +96,21 @@ $(document).keydown(function(e) {
 		$("#login-panel").hide(0);
 	}
 });
+
+
+/*
+ * Change the task currently displayed
+ */
+function set_current_task(identifier) {
+	console.log(identifier);
+	console.log(location.search);
+	console.log(location.href);
+	console.log(location.hash);
+	console.log(jHash.val("id"));
+	console.log(jHash.val("id", identifier));
+	//location.search = $.query.set("id", identifier);
+}
+
 
 /*
  * Log the user in
@@ -125,7 +152,7 @@ function logout() {
  */
 function reloadTasks() {
 	setLoading($("#tasksList"));
-	$.getJSON('api/tasks.json?limit=5', function(data) {
+	$.getJSON('api/tasks.json?limit=5&filter=false', function(data) {
 		// Clean the previous content for the overview table
 		$("#tasksList").empty();
 
@@ -141,7 +168,7 @@ function reloadTasks() {
 		});
 	});
 
-	$.getJSON('api/tasks.json', function(data) {
+	$.getJSON('api/tasks.json?filter=false', function(data) {
 		// Clean the previous content for the task selector
 		$('#taskSelector').dataTable().fnClearTable();
 
@@ -207,6 +234,9 @@ function loadTaskDetails(identifier) {
 				api_key : api_key
 			} ]).appendTo("#taskDetailsContent");
 		}
+		if (data.executable == true) {
+			$("[name=task-execution]").attr('checked', true);
+		}
 		// Initialise the table
 		$('#taskReports').dataTable({
 			"bLengthChange" : false,
@@ -214,7 +244,7 @@ function loadTaskDetails(identifier) {
 			"bPaginate" : true,
 			"iDisplayLength" : 4,
 			"bInfo" : false,
-			"aaSorting": [[ 0, "desc" ]]
+			"aaSorting" : [ [ 0, "desc" ] ]
 		});
 
 		// Connect the delete button
@@ -226,6 +256,7 @@ function loadTaskDetails(identifier) {
 			},
 			closeOnClick : false
 		});
+		
 		var buttons = $("#yesno button").click(function(e) {
 			// get user input
 			var yes = buttons.index(this) === 0;
@@ -245,7 +276,7 @@ function loadTaskDetails(identifier) {
 		});
 
 		// Load the notifications
-		$.getJSON('api/task/' + identifier + '/notifications', function(data) {
+		$.getJSON('api/task/' + identifier + '/notifications.json', function(data) {
 			// Add all the statuses to the table
 			$.each(data.notification, function(index, item) {
 				// Format date
@@ -253,7 +284,7 @@ function loadTaskDetails(identifier) {
 				a = $("<span>");
 				date.appendTo(a);
 				date = a.html();
-				
+
 				// Format message
 				text = $("<p>").text(item.message);
 				if ((item.severity == 'info') || (item.severity == 'warn')) {
@@ -262,7 +293,7 @@ function loadTaskDetails(identifier) {
 				a = $("<span>");
 				text.appendTo(a);
 				text = a.html();
-				
+
 				$('#taskReports').dataTable().fnAddData([ date, text ]);
 			});
 		});
@@ -289,7 +320,8 @@ function saveDetails() {
 			api_key : api_key,
 			title : $("[name=task-title]").val(),
 			author : $("[name=task-author]").val(),
-			description : $("[name=task-description]").val()
+			description : $("[name=task-description]").val(),
+			executable : $("[name=task-execution]").attr('checked')
 		},
 		dataType : "text",
 		success : function(data) {

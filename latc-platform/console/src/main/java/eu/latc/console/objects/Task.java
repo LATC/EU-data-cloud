@@ -70,11 +70,18 @@ public class Task implements Serializable {
 	@Column(name = "TASK_ID", jdbcType = "VARCHAR", length = 32)
 	private String identifier;
 
-	// Flag for the maturity of the task. The idea is that results of "testing"
-	// configuration runs should not be published through the API.
+	// Flag for the maturity of the task.
+	// The idea is that results of "testing" configuration runs should not be
+	// published through the API.
 	@Persistent
 	private boolean isTesting = false;
 
+	// Flag for the possible execution of the task.
+	// Under some conditions, a task may not be desired for execution
+	@Persistent
+	private boolean isExecutable = true;
+
+	// The last modification date
 	@Persistent
 	private Date lastModificationDate = null;
 
@@ -271,6 +278,20 @@ public class Task implements Serializable {
 	}
 
 	/**
+	 * @param isExecutable the isExecutable to set
+	 */
+	public void setExecutable(boolean isExecutable) {
+		this.isExecutable = isExecutable;
+	}
+
+	/**
+	 * @return the isExecutable
+	 */
+	public boolean isExecutable() {
+		return isExecutable;
+	}
+
+	/**
 	 * @param title
 	 */
 	public void setTitle(String title) {
@@ -287,6 +308,7 @@ public class Task implements Serializable {
 		entry.put("title", title);
 		entry.put("description", description);
 		entry.put("author", author);
+		entry.put("executable", isExecutable);
 		if (creationDate != null)
 			entry.put("created", DateToXSDateTime.format(creationDate));
 		if (lastModificationDate != null)
