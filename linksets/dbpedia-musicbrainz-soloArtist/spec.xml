@@ -32,7 +32,7 @@
   <!-- Blocking / -->
 
   <Interlinks>
-    <Interlink id="soloartists">
+    <Interlink id="dbpedia-musicbrainz-soloartist">
       <LinkType>owl:sameAs</LinkType>
       <SourceDataset dataSource="dbpedia" var="a">
         <RestrictTo>

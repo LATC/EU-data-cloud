@@ -31,7 +31,7 @@
   <Blocking />
 
   <Interlinks>
-    <Interlink id="actor">
+    <Interlink id="dbpedia-linkedmdb-actor">
       <LinkType>owl:sameAs</LinkType>
 
       <SourceDataset dataSource="dbpedia" var="a">

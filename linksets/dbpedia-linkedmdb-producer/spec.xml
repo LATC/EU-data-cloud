@@ -22,7 +22,7 @@
     </DataSource>
 
     <DataSource id="linkedmdb" type="sparqlEndpoint">
-      <Param name="endpointURI" value="http://160.45.137.90:8080/openrdf-sesame/repositories/memory" />
+      <Param name="endpointURI" value="http://data.linkedmdb.org/sparql" />
       <Param name="retryCount" value="500" />
       <Param name="retryPause" value="10000" />
     </DataSource>
@@ -31,7 +31,7 @@
   <Blocking />
 
   <Interlinks>
-    <Interlink id="producer">
+    <Interlink id="dbpedia-linkedmdb-producer">
       <LinkType>owl:sameAs</LinkType>
 
       <SourceDataset dataSource="dbpedia" var="a">
