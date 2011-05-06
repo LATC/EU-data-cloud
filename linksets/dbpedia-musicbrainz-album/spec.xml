@@ -14,7 +14,7 @@
 
   <DataSources>
     <DataSource id="dbpedia" type="sparqlEndpoint">
-      <Param name="endpointURI" value="http://dbpedia.org/sparql" />w
+      <Param name="endpointURI" value="http://dbpedia.org/sparql" />
       <Param name="graph" value="http://dbpedia.org" />
       <Param name="retryCount" value="100000" />
       <Param name="retryPause" value="10000" />
@@ -32,7 +32,7 @@
   <!-- Blocking / -->
 
   <Interlinks>
-    <Interlink id="albums">
+    <Interlink id="dbpedia-musicbrainz-album">
       <LinkType>owl:sameAs</LinkType>
       <SourceDataset dataSource="dbpedia" var="a">
         <RestrictTo>
