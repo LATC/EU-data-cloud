@@ -51,8 +51,10 @@ def synchronize_task(dir, task):
     # If there is no ID, upload the file
     if id == None:
         # Read meta information and generate title
-        tmp = map(lambda x:re.sub(r'[\r\n]+','',x), open('%s/%s/README.txt' % (dir, task), 'r').readlines())
-        meta = dict((tmp[i * 2], tmp[i * 2 + 1]) for i in range(len(tmp) / 2))
+        meta = {}
+        if os.path.exists('%s/%s/README.txt' % (dir, task)):
+            tmp = map(lambda x:re.sub(r'[\r\n]+','',x), open('%s/%s/README.txt' % (dir, task), 'r').readlines())
+	    meta = dict((tmp[i * 2], tmp[i * 2 + 1]) for i in range(len(tmp) / 2))
         tmp = task.split('-')
         meta['Title:'] = "%s -> %s (%s)" % (tmp[0], tmp[1], "".join(tmp[2:]))
 
@@ -72,11 +74,13 @@ def synchronize_task(dir, task):
         curl.setopt(curl.HTTPPOST, values)
         curl.setopt(curl.WRITEFUNCTION, response.write)
         curl.perform()
-        curl.close()
 
         # Save its ID
-        res = json.loads(response.getvalue())
-        open('%s/%s/id.txt' % (dir, task), 'w').write(res['id'])
+        if curl.getinfo(pycurl.HTTP_CODE) == 200:
+            res = json.loads(response.getvalue())
+	    open('%s/%s/id.txt' % (dir, task), 'w').write(res['id'])
+
+        curl.close()
 
         # Return the status message
         return UPLOADED
