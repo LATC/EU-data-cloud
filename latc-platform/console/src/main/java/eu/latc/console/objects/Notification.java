@@ -136,6 +136,8 @@ public class Notification implements Serializable {
 	 * @return
 	 */
 	public String getData() {
+		if (data == null)
+			data = (new JSONObject()).toString();
 		return data;
 	}
 

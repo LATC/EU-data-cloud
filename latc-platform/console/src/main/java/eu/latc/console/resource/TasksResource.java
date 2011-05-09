@@ -112,7 +112,7 @@ public class TasksResource extends ServerResource {
 		ObjectManager manager = ((MainApplication) getApplication()).getObjectManager();
 
 		// Save the configuration file
-		String taskID = manager.addConfiguration(specification);
+		String taskID = manager.addTask(specification);
 
 		// Set the title
 		Task task = manager.getTask(taskID);
@@ -126,6 +126,8 @@ public class TasksResource extends ServerResource {
 		// Add an initial upload report
 		Notification report = new Notification();
 		report.setMessage("Task created");
+		report.setSeverity("info");
+		report.setData("");
 		manager.addNotification(taskID, report);
 
 		// Set the return code and return the identifier
@@ -134,6 +136,7 @@ public class TasksResource extends ServerResource {
 		JSONObject json = new JSONObject();
 		json.put("id", taskID);
 		json.put("href", getReference() + "/" + taskID);
+		logger.info("[POST] Reply " + json);
 		JsonConverter conv = new JsonConverter();
 		return conv.toRepresentation(json, null, null);
 	}

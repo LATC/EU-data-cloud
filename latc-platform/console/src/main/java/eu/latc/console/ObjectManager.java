@@ -113,7 +113,7 @@ public class ObjectManager {
 	 *             If it was not possible to add the configuration to the base
 	 */
 	// TODO Check for duplicates when a new content if proposed
-	public String addConfiguration(String configuration) throws Exception {
+	public String addTask(String configuration) throws Exception {
 		PersistenceManager pm = pmf.getPersistenceManager();
 		Transaction tx = pm.currentTransaction();
 
@@ -126,7 +126,7 @@ public class ObjectManager {
 			linkingConfiguration.setDescription("no description");
 			linkingConfiguration.setTitle("no title");
 			pm.makePersistent(linkingConfiguration);
-			logger.info("Persisted configuration " + linkingConfiguration.getIdentifier());
+			logger.info("Persisted task " + linkingConfiguration.getIdentifier());
 
 			// Apply
 			tx.commit();
@@ -171,9 +171,11 @@ public class ObjectManager {
 			if (task.isExecutable()) {
 				// If the report is a successful creation of triples, switch
 				// off the execution flag
-				JSONObject data = new JSONObject(report.getData());
-				if (data.has("size") && data.getLong("size") > 0)
-					task.setExecutable(false);
+				if (!report.getData().equals("")) {
+					JSONObject data = new JSONObject(report.getData());
+					if (data.has("size") && data.getLong("size") > 0)
+						task.setExecutable(false);
+				}
 			} else {
 				// If the report is an update of the task, switch on the flag
 				// FIXME String comparison is not robust
