@@ -54,28 +54,28 @@
  <Aggregate type="average" required="true">
   <Aggregate type="max" required="true" weight="2">
    <Compare metric="jaro" >
- <TransformInput function="regexReplace">
+ <TransformInput function="replace">
     <Input path="?a/geonames:name" />
-    <Param name="regex" value="university" />
+    <Param name="search" value="university" />
     <Param name="replace" value="" />
   </TransformInput>
-  <TransformInput function="regexReplace">
+  <TransformInput function="replace">
     <Input path="?b/rdfs:label" />
-    <Param name="regex" value="university" />
+    <Param name="search" value="university" />
     <Param name="replace" value="" />
   </TransformInput>  
     <!--<Input path="?a/rdfs:label" />
     <Input path="?b/rdfs:label" />-->
    </Compare>
   <Compare metric="jaro" >
- <TransformInput function="regexReplace">
+ <TransformInput function="replace">
     <Input path="?a/geonames:alternateName" />
-    <Param name="regex" value="university" />
+    <Param name="search" value="university" />
     <Param name="replace" value="" />
   </TransformInput>
-  <TransformInput function="regexReplace">
+  <TransformInput function="replace">
     <Input path="?b/rdfs:label" />
-    <Param name="regex" value="university" />
+    <Param name="search" value="university" />
     <Param name="replace" value="" />
   </TransformInput>  
     <!--<Input path="?a/rdfs:label" />
