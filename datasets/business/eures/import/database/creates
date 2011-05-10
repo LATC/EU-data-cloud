@@ -1,0 +1,216 @@
+CREATE TABLE job (
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	employer_id INT REFERENCES employer(id),
+	contact_id INT REFERENCES contact(id),	
+	title_id INT REFERENCES title(id),
+	description BLOB,
+	source_id INT REFERENCES source(id),
+	starting_date DATE,
+	ending_date DATE,
+	country_id CHAR(2) REFERENCES country(id),
+	region_id INT REFERENCES region(id),
+	minimum_salary BLOB,
+	maximum_salary BLOB,
+	salary_currency BLOB,
+	salary_period BLOB,
+	salary_tax BLOB,
+	contract_type_id INT REFERENCES contract_type(id),
+	contract_hours_id INT REFERENCES contract_hours(id),
+	hours_per_week BLOB,
+	accommodation_provided BLOB,
+	relocation_covered BLOB,
+	meals_included BLOB,
+	travel_expenses BLOB,
+	education_skills_id INT REFERENCES education_skills(id),
+	professional_qualifications_required BLOB,
+	experience_id INT REFERENCES experience(id),
+	driving_license_id INT REFERENCES driving_license(id),
+	minimum_age INT,
+	maximum_age INT,
+	how_to_apply_id INT REFERENCES how_to_apply(id),
+	last_date_for_application DATE,
+	date_published DATE,
+	last_modification_date DATE,
+	national_reference BLOB,
+	eures_reference INT,
+	nace_code BLOB,
+	isco_code VARCHAR(10) REFERENCES isco(id),
+	isco_major_code VARCHAR(4) REFERENCES isco(id),
+	isco_submajor_code VARCHAR(4) REFERENCES isco(id),
+	isco_minor_code VARCHAR(4) REFERENCES isco(id),
+	isco_unit_code VARCHAR(4) REFERENCES isco(id),
+	number_of_posts INT,
+	url_search BLOB,
+	url BLOB,
+	url_id BLOB,
+	scraper_date DATE,
+	scraper_hour TIME,
+	UNIQUE (url(300)),	
+	PRIMARY KEY (id)
+) DEFAULT CHARACTER SET utf8;
+
+CREATE TABLE employer (
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	name TEXT,
+	homepage BLOB,
+	address TEXT,
+	formatted_address BLOB,
+	country_id CHAR(2) REFERENCES country(id),
+	administrative_area BLOB,
+	subadministrative_area BLOB,
+	locality BLOB,
+	route BLOB,
+	street_number BLOB,
+	postal_code BLOB,
+	latidude BLOB,
+	longitude BLOB,
+	viewport_lat_southwest BLOB,
+	viewport_lng_southwest BLOB,
+	viewport_lat_northeast BLOB,
+	viewport_lng_northeast BLOB,
+	bounds_lat_southwest BLOB,
+	bounds_lng_southwest BLOB,
+	bounds_lat_northeast BLOB,
+	bounds_lng_northeast BLOB,
+	url BLOB,
+	scraper_date DATE,
+	scraper_hour TIME,
+	UNIQUE (name(150), address(100), country_id(2)),
+	PRIMARY KEY (id)
+) DEFAULT CHARACTER SET utf8;
+
+CREATE TABLE contact (
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	employer_id INT REFERENCES employer(id),
+	contact BLOB,
+	information TEXT,
+	phone TEXT,
+	email TEXT,
+	fax TEXT,
+	country_id CHAR(2) REFERENCES country(id),
+	url BLOB,
+	scraper_date DATE,
+	scraper_hour TIME,
+	PRIMARY KEY (id),
+	UNIQUE (information(100), phone(50),email(100),fax(50), country_id(2))
+) DEFAULT CHARACTER SET utf8;
+
+CREATE TABLE language
+(
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	name TEXT,
+	PRIMARY KEY (id),
+	UNIQUE (name(100))
+) DEFAULT CHARACTER SET utf8;
+
+CREATE TABLE language_level
+(
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	name TEXT,
+	PRIMARY KEY (id),
+	UNIQUE (name(100))
+) DEFAULT CHARACTER SET utf8;
+
+CREATE TABLE job_language
+(
+	job_id INT REFERENCES job(id),
+	language_id INT REFERENCES language(id),
+	language_level_id INT REFERENCES language_level(id),	
+	PRIMARY KEY (job_id,language_id,language_level_id)
+) DEFAULT CHARACTER SET utf8;
+
+CREATE TABLE contract_type
+(
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	name TEXT,
+	PRIMARY KEY (id),
+	UNIQUE (name(100))
+) DEFAULT CHARACTER SET utf8;
+
+CREATE TABLE contract_hours
+(
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	name TEXT,
+	PRIMARY KEY (id),
+	UNIQUE (name(100))
+) DEFAULT CHARACTER SET utf8;
+
+CREATE TABLE education_skills
+(
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	name TEXT,
+	PRIMARY KEY (id),
+	UNIQUE (name(100))
+) DEFAULT CHARACTER SET utf8;
+
+CREATE TABLE experience
+(
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	name TEXT,
+	PRIMARY KEY (id),
+	UNIQUE (name(100))
+) DEFAULT CHARACTER SET utf8;
+
+CREATE TABLE driving_license
+(
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	name TEXT,
+	PRIMARY KEY (id),
+	UNIQUE (name(100))
+) DEFAULT CHARACTER SET utf8;
+
+CREATE TABLE how_to_apply
+(
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	name TEXT,
+	PRIMARY KEY (id),
+	UNIQUE (name(100))
+) DEFAULT CHARACTER SET utf8;
+
+CREATE TABLE source
+(
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	name TEXT,
+	PRIMARY KEY (id),
+	UNIQUE (name(100))
+) DEFAULT CHARACTER SET utf8;
+
+CREATE TABLE region
+(
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	name TEXT,
+	country_id CHAR(2) REFERENCES country(id),
+	PRIMARY KEY (id),
+	UNIQUE (name(100),country_id(2))
+) DEFAULT CHARACTER SET utf8;
+
+CREATE TABLE title
+(
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	name TEXT,
+	PRIMARY KEY (id),
+	UNIQUE (name(100))
+) DEFAULT CHARACTER SET utf8;
+
+CREATE TABLE country
+(
+	id CHAR(2) NOT NULL,
+	name TEXT,
+	PRIMARY KEY (id)
+) DEFAULT CHARACTER SET utf8;
+
+CREATE TABLE isco
+(
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	name TEXT,
+	PRIMARY KEY (id)
+) DEFAULT CHARACTER SET utf8;
+
+CREATE TABLE update_service
+(
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	date DATE,
+	hour TIME,
+	type CHAR(3),
+	PRIMARY KEY (id)
+) DEFAULT CHARACTER SET utf8;
