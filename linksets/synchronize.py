@@ -53,7 +53,7 @@ def synchronize_task(dir, task):
         # Read meta information and generate title
         meta = {}
         if os.path.exists('%s/%s/README.txt' % (dir, task)):
-            tmp = map(lambda x:re.sub(r'[\r\n]+','',x), open('%s/%s/README.txt' % (dir, task), 'r').readlines())
+            tmp = map(lambda x:re.sub(r'[\r\n]+', '', x), open('%s/%s/README.txt' % (dir, task), 'r').readlines())
 	    meta = dict((tmp[i * 2], tmp[i * 2 + 1]) for i in range(len(tmp) / 2))
         tmp = task.split('-')
         meta['Title:'] = "%s -> %s (%s)" % (tmp[0], tmp[1], "".join(tmp[2:]))
@@ -78,7 +78,7 @@ def synchronize_task(dir, task):
         # Save its ID
         #if curl.getinfo(pycurl.HTTP_CODE) == 200:
         res = json.loads(response.getvalue())
-	open('%s/%s/id.txt' % (dir, task), 'w').write(res['id'])
+        open('%s/%s/id.txt' % (dir, task), 'w').write(res['id'])
 
         curl.close()
 
@@ -101,7 +101,7 @@ def synchronize_task(dir, task):
             return UP_TO_DATE            
         
         # Upload if more recent on disk
-        if delta.days*delta.seconds > 0:
+        if delta.days * delta.seconds > 0:
             curl = pycurl.Curl()
             data = [
                  ('api_key', 'aa4967eb8b7a5ccab7dbb57aa2368c7f'),
@@ -121,7 +121,7 @@ def synchronize_task(dir, task):
             return UPDATED
 
         # Download if more recent on server
-        if delta.days*delta.seconds < 0:
+        if delta.days * delta.seconds < 0:
             open(spec_file, 'w').write(spec_server)
             return DOWNLOADED
 
