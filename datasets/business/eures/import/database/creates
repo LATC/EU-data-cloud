@@ -9,11 +9,11 @@ CREATE TABLE job (
 	ending_date DATE,
 	country_id CHAR(2) REFERENCES country(id),
 	region_id INT REFERENCES region(id),
-	minimum_salary BLOB,
-	maximum_salary BLOB,
-	salary_currency BLOB,
-	salary_period BLOB,
-	salary_tax BLOB,
+	minimum_salary VARCHAR(100),
+	maximum_salary VARCHAR(100),
+	salary_currency_id INT REFERENCES salary_currency(id),
+	salary_period_id INT REFERENCES salary_period(id),
+	salary_tax_id REFERENCES salary_tax(id),
 	contract_type_id INT REFERENCES contract_type(id),
 	contract_hours_id INT REFERENCES contract_hours(id),
 	hours_per_week BLOB,
@@ -62,16 +62,12 @@ CREATE TABLE employer (
 	route BLOB,
 	street_number BLOB,
 	postal_code BLOB,
-	latidude BLOB,
+	latitude BLOB,
 	longitude BLOB,
-	viewport_lat_southwest BLOB,
-	viewport_lng_southwest BLOB,
-	viewport_lat_northeast BLOB,
-	viewport_lng_northeast BLOB,
-	bounds_lat_southwest BLOB,
-	bounds_lng_southwest BLOB,
-	bounds_lat_northeast BLOB,
-	bounds_lng_northeast BLOB,
+	lat_southwest FLOAT,
+	lng_southwest FLOAT,
+	lat_northeast FLOAT,
+	lng_northeast FLOAT,
 	url BLOB,
 	scraper_date DATE,
 	scraper_hour TIME,
@@ -214,3 +210,35 @@ CREATE TABLE update_service
 	type CHAR(3),
 	PRIMARY KEY (id)
 ) DEFAULT CHARACTER SET utf8;
+
+CREATE TABLE salary_currency
+(
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	name TEXT,
+	PRIMARY KEY (id),
+	UNIQUE (name(100))
+) DEFAULT CHARACTER SET utf8;
+
+CREATE TABLE salary_period
+(
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	name TEXT,
+	PRIMARY KEY (id),
+	UNIQUE (name(100))
+) DEFAULT CHARACTER SET utf8;
+
+CREATE TABLE salary_tax
+(
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	name TEXT,
+	PRIMARY KEY (id),
+	UNIQUE (name(100))
+) DEFAULT CHARACTER SET utf8;
+
+
+
+	salary_currency_id INT REFERENCES salary_currency(id),
+	_id INT REFERENCES salary_period(id),
+	_id REFERENCES salary_tax(id),
+
+

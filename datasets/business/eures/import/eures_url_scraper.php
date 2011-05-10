@@ -90,10 +90,11 @@ function scraper($url_search, $country_id)
 //	}
 }
 
-$country = array('AT');
+
 
 //Comment this for tests, uncomment this to get all data
-//$country = array('AT', 'BE','BG','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IS','IR','IT','LV','LI','LT','LU','MT','NL','NO','PL','PT','RO','SK','SI','ES','SE','CH','UK');
+$country = array('AT', 'BE','BG','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IS','IR','IT','LV','LI','LT','LU','MT','NL','NO','PL','PT','RO','SK','SI','ES','SE','CH','UK');
+//$country = array('AT');
 
 $page_size = 99;
 

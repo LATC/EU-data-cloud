@@ -99,9 +99,18 @@ while($row_job = mysql_fetch_array($sql_job))
 			//Salary / Contract
 			case 'Minimum salary:':$minimum_salary = $value;break;
 			case 'Maximum salary:':$maximum_salary = $value;break;
-			case 'Salary currency:':$salary_currency = $value;break;
-			case 'Salary tax:':$salary_tax = $value;break;
-			case 'Salary period:':$salary_period = $value;break;
+			case 'Salary currency:':
+				$salary_currency = $value;
+				$salary_currency_id = insert_name('salary_currency',$salary_currency);
+				break;
+			case 'Salary tax:':
+				$salary_tax = $value;
+				$salary_tax_id = insert_name('salary_tax',$salary_tax);
+				break;
+			case 'Salary period:':
+				$salary_period = $value;
+				$salary_period_id = insert_name('salary_period',$salary_period);
+				break;
 			case 'Hours per week:':$hours_per_week = $value;break;
 			case 'Contract type:':
 				$contract = $value;
@@ -201,20 +210,34 @@ while($row_job = mysql_fetch_array($sql_job))
 	if (preg_match('/www./',$information))
 	{
 		$homepage = $information;
-		$information = '';
+		$information = NULL;
 	}
 	elseif (preg_match('/@/',$information))
 	{
 		if ($email == '')
 			$email = $information;
-		$information = '';
+		$information = NULL;
 	}
 
 	if ($name == "siehe Beschreibung")
 	{
-		$name = '';
+		$name = NULL;
 	}
 
+	if (preg_match('/@/',$name))
+	{
+		if ($email == '')
+			$email = $name;
+		$name = NULL;
+	}
+/*
+	if (preg_match('/@/',$how_to_apply))
+	{
+		if ($email == '')
+			$email = $how_to_apply;
+		$how_to_apply = NULL;
+	}	
+*/
 
 	## CLEANING ADDRESS ##
 
@@ -277,16 +300,12 @@ while($row_job = mysql_fetch_array($sql_job))
 				route ='$address_array[route]',
 				street_number ='$address_array[street_number]',
 				postal_code ='$address_array[postal_code]',
-				latidude ='$address_array[latidude]',
+				latitude ='$address_array[latitude]',
 				longitude ='$address_array[longitude]',
-				viewport_lat_southwest ='$address_array[viewport_lat_southwest]',
-				viewport_lng_southwest ='$address_array[viewport_lng_southwest]',
-				viewport_lat_northeast ='$address_array[viewport_lat_northeast]',
-				viewport_lng_northeast ='$address_array[viewport_lng_northeast]',
-				bounds_lat_southwest ='$address_array[bounds_lat_southwest]',
-				bounds_lng_southwest ='$address_array[bounds_lng_southwest]',
-				bounds_lat_northeast ='$address_array[bounds_lat_northeast]',
-				bounds_lng_northeast ='$address_array[bounds_lng_northeast]',
+				lat_southwest ='$address_array[viewport_lat_southwest]',
+				lng_southwest ='$address_array[viewport_lng_southwest]',
+				lat_northeast ='$address_array[viewport_lat_northeast]',
+				lng_northeast ='$address_array[viewport_lng_northeast]',
 				url = '$url',
 				scraper_date = SYSDATE(),	 
 				scraper_hour = SYSDATE()";
@@ -332,13 +351,7 @@ while($row_job = mysql_fetch_array($sql_job))
 		}
 	}
 
-	## UPDATING JOB ## 	
-
-"INSERT INTO teste 
-	SET 
-		name1 = 
-		name2 = ".db_prep($data2);
- 	 	 
+	## UPDATING JOB ##
 	mysql_query("UPDATE job SET 
 			employer_id = ".db_prep($employer_id).",
 			contact_id = ".db_prep($contact_id).",    
@@ -349,9 +362,9 @@ while($row_job = mysql_fetch_array($sql_job))
 			region_id = ".db_prep($region_id).",  
 			minimum_salary = ".db_prep($minimum_salary).",  
 			maximum_salary = ".db_prep($maximum_salary).",  
-			salary_currency = ".db_prep($salary_currency).",  
-			salary_tax = ".db_prep($salary_tax).",  
-			salary_period = ".db_prep($salary_period).",   
+			salary_currency_id = ".db_prep($salary_currency_id).",  
+			salary_tax_id = ".db_prep($salary_tax_id).",  
+			salary_period_id = ".db_prep($salary_period_id).",   
 			hours_per_week = ".db_prep($hours_per_week).",  
 			contract_type_id = ".db_prep($contract_type_id).",   
 			contract_hours_id = ".db_prep($contract_hours_id).",   
@@ -388,7 +401,7 @@ while($row_job = mysql_fetch_array($sql_job))
 		sleep(0.5);
 		unset($title,$required_languages,$starting_date,$ending_date,$country,$region,$minimum_salary,$maximum_salary,$salary_currency,$salary_tax,$salary_period,$hours_per_week,$contract,$contract_type,$contract_hours, 			$accommodation_provided,$relocation_covered,$meals_included,$travel_expenses,$education_skills_required,$professional_qualifications_required,$experience_required,$driving_license_required,$minimum_age,$maximum_age,
 		$name,$information,$address,$phone,$email,$fax,$how_to_apply,$contact,$last_date_for_application,$date_published,$national_reference,$last_modification_date,$nace_code,$isco_code,$isco_unit_code,$isco_minor_code, 			$isco_submajor_code,$isco_major_code,$number_of_posts,$other_value,$eures_reference,$contract_type_id,$contract_hours_id,$education_skills_id,$experience_id,$driving_license_id,$contact_id,$employer_id,		
-		$address_array,$how_to_apply_id,$title_id,$homepage,$dom,$text,$data,$sql,$query,$row);
+		$address_array,$how_to_apply_id,$title_id,$homepage,$dom,$text,$data,$sql,$query,$row,$salary_currency_id,$salary_period_id,$salary_tax_id);
 	}
 }
 

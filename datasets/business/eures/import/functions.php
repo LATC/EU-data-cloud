@@ -15,7 +15,7 @@ function db_prep($data)
 function insert_name($table,$name_table)
 {
 // Insert name on the small tables and returns the id
-	if($name_table <> '' && $name_table <> '0' && $name_table <> '.')
+	if($name_table <> '' && $name_table <> '0' && $name_table <> '.' && $name_table <> '**')
 		mysql_query("INSERT INTO ".$table." SET name ='$name_table'");
 	$sql = mysql_query("SELECT id FROM ".$table." WHERE name = '$name_table'");				
 	$row = mysql_fetch_array($sql);		
