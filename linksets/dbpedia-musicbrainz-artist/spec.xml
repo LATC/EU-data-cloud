@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Silk>
+  <Prefixes>
+    <Prefix id="rdf" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" />
+    <Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#" />
+    <Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#" />
+    <Prefix id="dbpedia-owl" namespace="http://dbpedia.org/ontology/" />
+    <Prefix id="dbpedia-prop" namespace="http://dbpedia.org/property/" />
+    <Prefix id="dc" namespace="http://purl.org/dc/terms/" />
+    <Prefix id="foaf" namespace="http://xmlns.com/foaf/0.1/" />
+	<Prefix id="mo" namespace="http://purl.org/ontology/mo/" />
+
+  </Prefixes>
+
+  <DataSources>
+    <DataSource id="dbpedia" type="sparqlEndpoint">
+      <Param name="endpointURI" value="http://dbpedia.org/sparql" />
+      <!-- <Param name="endpointURI" value="http://160.45.137.73:8890/sparql" /> -->
+      <Param name="graph" value="http://dbpedia.org" />
+      <Param name="retryCount" value="100000" />
+      <Param name="retryPause" value="10000" />
+      <Param name="pauseTime" value="100" />
+    </DataSource>
+
+    <DataSource id="musicbrainz" type="sparqlEndpoint">
+      <Param name="endpointURI" value="http://api.talis.com/stores/musicbrainz/services/sparql" />
+      <Param name="retryCount" value="100000" />
+      <Param name="retryPause" value="10000" />
+      <Param name="pauseTime" value="100" />
+    </DataSource>
+  </DataSources>
+
+  <!-- Blocking / -->
+
+  <Interlinks>
+    <Interlink id="artist">
+      <LinkType>owl:sameAs</LinkType>
+      <SourceDataset dataSource="dbpedia" var="a">
+        <RestrictTo>
+          {?a rdf:type dbpedia-owl:MusicalArtist}
+        </RestrictTo>
+      </SourceDataset>
+      <TargetDataset dataSource="musicbrainz" var="b">
+        <RestrictTo>
+          {?b rdf:type mo:MusicArtist}
+        </RestrictTo>
+      </TargetDataset>
+      <LinkCondition>
+        <Aggregate type="average">
+          <Aggregate type="max">
+            <Compare metric="levenshtein">
+              <TransformInput function="lowerCase">
+                <Input path="?a/rdfs:label" />
+              </TransformInput>
+              <TransformInput function="lowerCase">
+                <Input path="?b/rdfs:label" />
+              </TransformInput>
+            </Compare>
+            <Compare metric="levenshtein">
+              <TransformInput function="lowerCase">
+                <TransformInput function="replace">
+                  <TransformInput function="stripUriPrefix">
+                    <Input path="?a\dbpedia-prop:redirect" />
+                  </TransformInput>
+                  <Param name="search" value="_" />
+                  <Param name="replace" value=" " />
+                </TransformInput>
+              </TransformInput>
+              <TransformInput function="lowerCase">
+                <Input path="?b/rdfs:label" />
+              </TransformInput>
+            </Compare>
+			<Compare metric="levenshtein">
+              <TransformInput function="lowerCase">
+                <Input path="?a/dbpedia-prop:name" />
+              </TransformInput>
+              <TransformInput function="lowerCase">
+                <Input path="?b/rdfs:label" />
+              </TransformInput>
+            </Compare>
+            <Compare metric="levenshtein">
+              <TransformInput function="lowerCase">
+                <Input path="?a/rdfs:label" />
+              </TransformInput>
+              <TransformInput function="lowerCase">
+                <Input path="?b/foaf:name" />
+              </TransformInput>
+            </Compare>
+            <Compare metric="levenshtein">
+              <TransformInput function="lowerCase">
+                <TransformInput function="replace">
+                  <TransformInput function="stripUriPrefix">
+                    <Input path="?a\dbpedia-prop:redirect" />
+                  </TransformInput>
+                  <Param name="search" value="_" />
+                  <Param name="replace" value=" " />
+                </TransformInput>
+              </TransformInput>
+              <TransformInput function="lowerCase">
+                <Input path="?b/foaf:name" />
+              </TransformInput>
+            </Compare>
+			<Compare metric="levenshtein">
+              <TransformInput function="lowerCase">
+                <Input path="?a/dbpedia-prop:name" />
+              </TransformInput>
+              <TransformInput function="lowerCase">
+                <Input path="?b/foaf:name" />
+              </TransformInput>
+            </Compare>
+          </Aggregate>
+          <Aggregate type="max">
+            <Compare metric="equality">
+              <TransformInput function="stripPostfix">
+                <Input path="?a/foaf:homepage" />
+                <Param name="postfix" value="/" />
+              </TransformInput>
+              <TransformInput function="stripPostfix">
+                <Input path="?b/foaf:homepage" />
+                <Param name="postfix" value="/" />
+              </TransformInput>
+            </Compare>
+            <Compare metric="levenshtein">
+              <TransformInput function="lowerCase">
+                <Input path="?a/foaf:page" />
+              </TransformInput>
+              <TransformInput function="lowerCase">
+                <Input path="?b/mo:wikipedia" />
+              </TransformInput>
+			</Compare>  
+			<Compare metric="levenshtein">
+              <TransformInput function="lowerCase">
+                <Input path="?a\dbpedia-owl:artist/rdfs:label" />
+              </TransformInput>
+              <TransformInput function="lowerCase">
+                <Input path="?b\foaf:maker/rdfs:label" />
+              </TransformInput>
+            </Compare>
+          </Aggregate>
+        </Aggregate>
+      </LinkCondition>
+      <Filter threshold="0.95" />
+      <Outputs>
+        <Output maxConfidence="0.97" type="file" >
+          <Param name="file" value="dbpedia_musicbrainz_artist_verify.xml"/>
+          <Param name="format" value="alignment"/>
+        </Output>
+        <Output minConfidence="0.98" type="file">
+          <Param name="file" value="dbpedia_musicbrainz_artist.nt"/>
+          <Param name="format" value="ntriples"/>
+        </Output>
+      </Outputs>
+    </Interlink>
+  </Interlinks>
+</Silk>
