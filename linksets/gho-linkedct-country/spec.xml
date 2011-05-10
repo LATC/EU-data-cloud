@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Silk>
+	<Prefixes>
+        <Prefix id="rdf" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" />
+        <Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#"/>
+        <Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#"/>
+        <Prefix id="linkedct" namespace="http://data.linkedct.org/resource/linkedct/"/>
+        <Prefix id="gho" namespace="http://ghodata/" />
+        <Prefix id="redd" namespace="http://redd.aksw.org:" />
+  </Prefixes>
+
+    <DataSources>
+        <DataSource id="linkedct" type="sparqlEndpoint">
+            <Param name="endpointURI" value="http://db0.aksw.org:8895/sparql" />
+        </DataSource>
+
+         <DataSource id="who" type="sparqlEndpoint">
+            <Param name="endpointURI" value="http://db0.aksw.org:8895/sparql" />
+        </DataSource>
+    </DataSources>
+
+    <Interlinks>
+        <Interlink id="country">
+            <LinkType>redd:locatedIn</LinkType>
+
+            <SourceDataset dataSource="linkedct" var="a">
+                <RestrictTo>
+                    ?a rdf:type linkedct:location
+                </RestrictTo>
+            </SourceDataset>
+
+            <TargetDataset dataSource="who" var="countryname">
+                <RestrictTo>
+                    ?countryname rdf:type gho:Country.
+                </RestrictTo>
+            </TargetDataset>
+            
+            <!--Blocking blocks="10" function="alphanumeric">
+  				<Input path="?a/linkedct:facility_address_country" />
+     			<Input path="?countryname/rdfs:label" />
+		   </Blocking>
+			-->
+           <LinkCondition>
+  				<Aggregate type="max">
+    				<Compare metric="jaro">
+     					<Input path="?a/linkedct:facility_address_country" />
+     				    <Input path="?countryname/rdfs:label" />
+    				</Compare>
+  			   </Aggregate>
+          </LinkCondition>
+       
+       		<Filter threshold="0.8"/>
+            
+
+            <Outputs>
+                <Output maxConfidence="0.9" type="file" >
+                  <Param name="file" value="gho_data_linkedct_country_verify_links.nt"/>
+                  <Param name="format" value="ntriples"/>
+                </Output>
+                <Output minConfidence="0.9" type="file">
+                  <Param name="file" value="gho_data_linkedctcountry_accepted_links.nt"/>
+                  <Param name="format" value="ntriples"/>
+                </Output>
+            </Outputs>
+
+        </Interlink>
+    </Interlinks>
+</Silk>
