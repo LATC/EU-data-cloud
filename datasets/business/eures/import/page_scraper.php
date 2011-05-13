@@ -155,6 +155,8 @@ for ($i=0; $i < sizeof($country); $i++)
 //Scraps the search page for URLs and other data (source, description) 
 function scraper($url_search, $country_id)
 {
+	$fp = fopen('jobs/'.$country_id.'_'.$scraper_date.'.csv', 'a+');
+
 	$scraper_date = date("Y-m-d");
 	$has_next = false;
 	$base_url = "http://ec.europa.eu/eures/eures-searchengine/servlet";
@@ -209,12 +211,11 @@ function scraper($url_search, $country_id)
 		//Gets the HTML from the Job
 		$html_job = scraperwiki::scrape($url_job);
 
-		//Saves the HTML in a file
+		
 		$file = 'jobs/'.$country_id.'/'.$url_job_unique_slashless.'.html';
 		if (!file_exists($file))
 		{
 			//Saves the search data in a CSV file
-			$fp = fopen('jobs/'.$country_id.'_'.$scraper_date.'.csv', 'a+');
 			$list = array (
 			    array($url_job, $url_id, $url_job_unique, $description, $source,$url_search,$country_id,$scraper_date,$scraper_hour)
 			);
@@ -223,6 +224,7 @@ function scraper($url_search, $country_id)
 			    fputcsv($fp, $fields);
 			}
 
+			//Saves the HTML in a file
 			$fh = fopen($file, 'w');
 			fwrite($fh,'<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />');
 			fwrite($fh,$html_job);
