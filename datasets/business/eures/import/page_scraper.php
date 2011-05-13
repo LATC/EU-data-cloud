@@ -11,7 +11,7 @@ require 'scraperwiki/scraperwiki.php';
 require 'scraperwiki/simple_html_dom.php';
 
 //$country = array ('AT', 'BG','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IS','IR','IT','LV','LI','LT','LU','MT','NL','NO','PL','PT','RO','SK','SI','ES','SE','CH','UK','BE');
-$country = array('ES');
+$country = array('EE');
 
 $page_size = 99;
 
@@ -133,8 +133,8 @@ for ($i=0; $i < sizeof($country); $i++)
 		echo "Failed to create directory.";
 	} 
 
-	//Uses ISCO code in the search for country with many jobs to avoid breaking script
-	if ($country[$i] == 'DE' || $country[$i] == 'UK' || $country[$i] == 'BE' || $country[$i] == 'AT' || $country[$i] == 'FR' || $country[$i] == 'NL' || $country[$i] == 'SE' || $country[$i] == 'ES')
+	//Uses ISCO code in the search for countries with many jobs to avoid breaking script
+	if ($country[$i] == 'DE' || $country[$i] == 'UK' || $country[$i] == 'BE' || $country[$i] == 'AT' || $country[$i] == 'FR' || $country[$i] == 'NL' || $country[$i] == 'SE')
 	{ 
 		for ($j=0; $j < sizeof($isco); $j++)
 		{
@@ -206,16 +206,6 @@ function scraper($url_search, $country_id)
 			}
 		}
 
-		//Saves the data in a CSV file
-		$fp = fopen('jobs/'.$country_id.'_'.$scraper_date.'.csv', 'a+');
-		$list = array (
-		    array($url_job, $url_id, $url_job_unique, $description, $source,$url_search,$country_id,$scraper_date,$scraper_hour)
-		);
-
-		foreach ($list as $fields) {
-		    fputcsv($fp, $fields);
-		}
-
 		//Gets the HTML from the Job
 		$html_job = scraperwiki::scrape($url_job);
 
@@ -223,6 +213,16 @@ function scraper($url_search, $country_id)
 		$file = 'jobs/'.$country_id.'/'.$url_job_unique_slashless.'.html';
 		if (!file_exists($file))
 		{
+			//Saves the search data in a CSV file
+			$fp = fopen('jobs/'.$country_id.'_'.$scraper_date.'.csv', 'a+');
+			$list = array (
+			    array($url_job, $url_id, $url_job_unique, $description, $source,$url_search,$country_id,$scraper_date,$scraper_hour)
+			);
+
+			foreach ($list as $fields) {
+			    fputcsv($fp, $fields);
+			}
+
 			$fh = fopen($file, 'w');
 			fwrite($fh,'<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />');
 			fwrite($fh,$html_job);
