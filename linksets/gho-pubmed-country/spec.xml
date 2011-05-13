@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Silk>
+	<Prefixes>
+        <Prefix id="rdf" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" />
+        <Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#"/>
+		<Prefix id="meshr" namespace="http://bio2rdf.org/ns/mesh#" />
+		<Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#"/>
+		<Prefix id="gho" namespace="http://ghodata/" />
+   </Prefixes>
+
+    <DataSources>
+        <DataSource id="who" type="sparqlEndpoint">
+            <Param name="endpointURI" value="http://db0.aksw.org:8895/sparql" />
+        </DataSource>
+        <DataSource id="mesh" type="sparqlEndpoint">
+            <Param name="endpointURI" value="http://db0.aksw.org:8895/sparql" />
+        </DataSource>
+    </DataSources>
+
+    <Interlinks>
+        <Interlink id="country">
+            <LinkType>owl:sameAs</LinkType>
+
+            <SourceDataset dataSource="who" var="countryname">
+                <RestrictTo>
+                    ?countryname rdf:type gho:Country.
+                </RestrictTo>
+            </SourceDataset>
+
+            <TargetDataset dataSource="mesh" var="b">
+                <RestrictTo>
+                    ?b rdf:type meshr:Concept
+                </RestrictTo>
+            </TargetDataset>
+
+           <LinkCondition>
+  				<Aggregate type="min">
+    				<Compare metric="jaro">
+     					<Input path="?countryname/rdfs:label" />
+     				    <Input path="?b/dc:title" />
+    				</Compare>
+  			   </Aggregate>
+          </LinkCondition>
+
+            <Filter threshold="0.9" limit="1" />
+
+            <Outputs>
+                <Output maxConfidence="0.90" type="file" >
+                  <Param name="file" value="ghod_pubmed_country_verify_links.xml"/>
+                  <Param name="format" value="alignment"/>
+                </Output>
+                <Output minConfidence="0.95" type="file">
+                  <Param name="file" value="ghod_pubmed_country_accepted_links.xml"/>
+                  <Param name="format" value="alignment"/>
+                </Output>
+            </Outputs>
+
+        </Interlink>
+    </Interlinks>
+</Silk>
