@@ -45,7 +45,7 @@ public class NotificationsResource extends ServerResource {
 
 			JSONArray array = new JSONArray();
 			ObjectManager manager = ((MainApplication) getApplication()).getObjectManager();
-			for (Notification report : manager.getReports(limit)) {
+			for (Notification report : manager.getNotifications(limit)) {
 				JSONObject data = report.toJSON();
 				data.put("title", report.getTaskTitle());
 				array.put(data);
@@ -80,7 +80,7 @@ public class NotificationsResource extends ServerResource {
 			result.setTitle(new Text("LATC latest notifications"));
 			Entry entry;
 
-			for (Notification report : manager.getReports(5)) {
+			for (Notification report : manager.getNotifications(5)) {
 				entry = new Entry();
 				entry.setTitle(new Text("(" + report.getSeverity() + ")" + report.getMessage()));
 				StringBuffer summary = new StringBuffer();

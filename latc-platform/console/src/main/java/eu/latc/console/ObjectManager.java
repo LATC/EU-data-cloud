@@ -268,7 +268,7 @@ public class ObjectManager {
 	 * @return
 	 */
 	@SuppressWarnings("unchecked")
-	public Collection<Notification> getReports(int limit) {
+	public Collection<Notification> getNotifications(int limit) {
 		PersistenceManager pm = pmf.getPersistenceManager();
 		Transaction tx = pm.currentTransaction();
 

@@ -35,6 +35,9 @@ public class MainApplication extends Application {
 		// GET returns the list of all notifications
 		router.attach("/notifications", NotificationsResource.class);
 
+		// GET returns a bunch of statistics
+		router.attach("/statistics", StatisticsResource.class);
+		
 		// Handler for the raw linking specification file
 		// GET to get the raw XML linking configuration
 		router.attach("/task/{ID}/configuration", TaskConfigurationResource.class);
