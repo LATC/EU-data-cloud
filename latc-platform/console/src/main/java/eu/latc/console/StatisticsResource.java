@@ -5,11 +5,8 @@ package eu.latc.console;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 
-import org.json.JSONArray;
 import org.json.JSONObject;
-import org.restlet.data.Form;
 import org.restlet.data.Status;
 import org.restlet.ext.json.JsonConverter;
 import org.restlet.representation.Representation;
@@ -19,8 +16,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import eu.latc.console.objects.Notification;
-import eu.latc.console.objects.Task;
-import eu.latc.console.resource.TasksResource;
 
 /**
  * @author Christophe Guéret <christophe.gueret@gmail.com>
@@ -46,40 +41,49 @@ public class StatisticsResource extends ServerResource {
 			int lastDay = 1;
 			String runDate = "";
 			long links = 0;
+			long runtime = 0;
+			int executed = 0;
 			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 			for (Notification notification : manager.getNotifications(0)) {
 				Calendar cal = Calendar.getInstance();
 				cal.setTime(notification.getDate());
-				
+
 				// If we find a more recent report, reset the counters
 				if (cal.get(Calendar.DAY_OF_YEAR) > lastDay && cal.get(Calendar.YEAR) > lastYear) {
 					lastDay = cal.get(Calendar.DAY_OF_YEAR);
 					lastYear = cal.get(Calendar.YEAR);
 					runDate = sdf.format(notification.getDate());
 					links = 0;
+					executed = 0;
+					runtime = 0;
 				}
-				
-				// If that notification corresponds to our current aggregator, count it
+
+				// If that notification corresponds to our current aggregator,
+				// count it
 				if (cal.get(Calendar.DAY_OF_YEAR) == lastDay && cal.get(Calendar.YEAR) == lastYear) {
 					if (!notification.getData().equals("")) {
 						JSONObject data = new JSONObject(notification.getData());
-						if (data.has("size") && data.getLong("size") > 0)
+						if (data.has("size") && data.has("executetime")) {
 							links += data.getLong("size");
-						
-						if (data.has("executetime"))
-							links += data.getLong("size");
+							executed++;
+							String[] s = data.getString("executetime").split(":");
+							runtime += Integer.parseInt(s[0]) * 24 * 60 * 60;
+							runtime += Integer.parseInt(s[1]) * 60 * 60;
+							runtime += Integer.parseInt(s[2]) * 60;
+							runtime += Integer.parseInt(s[3]);
+						}
 					}
 				}
-				
 			}
 
 			// The object requested is the list of configuration files
 			JSONObject json = new JSONObject();
-			JSONArray array = new JSONArray();
-			for (Task task : manager.getTasks(limit, filter))
-				array.put(task.toJSON());
-			json.put("task", array);
-
+			json.put("queue_size", manager.getTasks(0, true).size());
+			json.put("tasks_size", manager.getTasks(0, false).size());
+			json.put("last_run_size", links);
+			json.put("last_run_time", runtime);
+			json.put("last_run_date", runDate);
+			json.put("last_executed", executed);
 			JsonConverter conv = new JsonConverter();
 			return conv.toRepresentation(json, null, null);
 		} catch (Exception e) {

@@ -1,4 +1,4 @@
-/** 
+/**
  * Author: Christophe Gueret <c.d.m.gueret@vu.nl>
  */
 
@@ -67,12 +67,28 @@ $(document).ready(function() {
 	});
 	$("#logout-link").hide(0);
 
-	// Configure the template for the task details
+	// Configure the templates
 	$.get("details-template.html", function(data) {
 		$.template("taskDetails", data);
 	});
 	$.get("details-template-admin.html", function(data) {
 		$.template("taskDetailsAdmin", data);
+	});
+	$.get("statistics-template.html", function(data) {
+		$.template("statistics", data);
+	});
+	
+	// Load the stats
+	$.getJSON('api/statistics', function(data) {
+		$("#statistics").empty();
+		$.tmpl("statistics", [ {
+			last_run_date : data.last_run_date,
+			last_run_time : data.last_run_time,
+			last_run_size : data.last_run_size,
+			last_executed : data.last_executed,
+			queue_size : data.queue_size,
+			tasks_size : data.tasks_size
+		} ]).appendTo("#statistics");
 	});
 
 	// Load the tasks
@@ -80,7 +96,7 @@ $(document).ready(function() {
 
 	// Load the last notifications
 	updateNotifications();
-	
+
 	// If a task is asked, load it
 	if (jHash.val("id") != undefined) {
 		loadTaskDetails(jHash.val("id"));
@@ -97,7 +113,6 @@ $(document).keydown(function(e) {
 	}
 });
 
-
 /*
  * Change the task currently displayed
  */
@@ -108,9 +123,8 @@ function set_current_task(identifier) {
 	console.log(location.hash);
 	console.log(jHash.val("id"));
 	console.log(jHash.val("id", identifier));
-	//location.search = $.query.set("id", identifier);
+	// location.search = $.query.set("id", identifier);
 }
-
 
 /*
  * Log the user in
@@ -256,7 +270,7 @@ function loadTaskDetails(identifier) {
 			},
 			closeOnClick : false
 		});
-		
+
 		var buttons = $("#yesno button").click(function(e) {
 			// get user input
 			var yes = buttons.index(this) === 0;
@@ -276,7 +290,8 @@ function loadTaskDetails(identifier) {
 		});
 
 		// Load the notifications
-		$.getJSON('api/task/' + identifier + '/notifications.json', function(data) {
+		$.getJSON('api/task/' + identifier + '/notifications.json', function(
+				data) {
 			// Add all the statuses to the table
 			$.each(data.notification, function(index, item) {
 				// Format date
