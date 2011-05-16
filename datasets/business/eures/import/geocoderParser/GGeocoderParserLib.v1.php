@@ -18,49 +18,71 @@ define("mooGEOCODING_SERVER_PATH", "/maps/api/geocode/json");
 // !!! no config below this line.................................................  
 
 //added by Lucas to return the data for database (this could be better implemented)
-function get_address($q)
+function get_geocoder_address($q)
 {
 	$ggeo = get_ggeocoder_json($q);
 
-	$address['formatted_address']=str_replace("'","\'",$ggeo->results['formatted_address']);
+	if (isset($_POST['formatted_address']))
+		$address['formatted_address']=$ggeo->results['formatted_address'];
 
-	$address['latitude']=$ggeo->results['latitude'];
-	
-	$address['longitude']=$ggeo->results['longitude'];
+	if (isset($_POST['latitude']))
+		$address['latitude']=$ggeo->results['latitude'];
 
-	$address['viewport_lat_southwest']=$ggeo->results['viewport_lat_southwest'];
+	if (isset($_POST['longitude']))		
+		$address['longitude']=$ggeo->results['longitude'];
 
-	$address['viewport_lng_southwest']=$ggeo->results['viewport_lng_southwest'];
+	if (isset($_POST['viewport_lat_southwest']))
+		$address['viewport_lat_southwest']=$ggeo->results['viewport_lat_southwest'];
 
-	$address['viewport_lat_northeast']=$ggeo->results['viewport_lat_northeast'];
+	if (isset($_POST['viewport_lng_southwest']))
+		$address['viewport_lng_southwest']=$ggeo->results['viewport_lng_southwest'];
 
-	$address['viewport_lng_northeast']=$ggeo->results['viewport_lng_northeast'];
+	if (isset($_POST['viewport_lat_northeast']))
+		$address['viewport_lat_northeast']=$ggeo->results['viewport_lat_northeast'];
 
-	$address['bounds_lat_southwest']=$ggeo->results['bounds_lat_southwest'];
+	if (isset($_POST['viewport_lng_northeast']))
+		$address['viewport_lng_northeast']=$ggeo->results['viewport_lng_northeast'];
 
-	$address['bounds_lng_southwest']=$ggeo->results['bounds_lng_southwest'];
+	if (isset($_POST['bounds_lat_southwest']))
+		$address['bounds_lat_southwest']=$ggeo->results['bounds_lat_southwest'];
 
-	$address['bounds_lat_northeast']=$ggeo->results['bounds_lat_northeast'];
+	if (isset($_POST['bounds_lng_southwest']))
+		$address['bounds_lng_southwest']=$ggeo->results['bounds_lng_southwest'];
 
-	$address['bounds_lng_northeast']=$ggeo->results['bounds_lng_northeast'];
+	if (isset($_POST['bounds_lat_northeast']))
+		$address['bounds_lat_northeast']=$ggeo->results['bounds_lat_northeast'];
 
-	$address['country']=str_replace("'","\'",$ggeo->find_address_components('country','long_name'));
+	if (isset($_POST['bounds_lng_northeast']))
+		$address['bounds_lng_northeast']=$ggeo->results['bounds_lng_northeast'];
 
-	$address['country_id']=$ggeo->find_address_components('country','short_name');
+	if (isset($_POST['country']))
+		$address['country']=$ggeo->find_address_components('country','long_name');
 
-	$address['administrative_area_level_1']=str_replace("'","\'",$ggeo->find_address_components('administrative_area_level_1','long_name'));
+	if (isset($_POST['country_id']))
+		$address['country_id']=$ggeo->find_address_components('country','short_name');
 
-	$address['administrative_area_level_2']=str_replace("'","\'",$ggeo->find_address_components('administrative_area_level_2','long_name'));
+	if (isset($_POST['administrative_area_level_1']))
+		$address['administrative_area_level_1']=$ggeo->find_address_components('administrative_area_level_1','long_name');
 
-	$address['locality']=str_replace("'","\'",$ggeo->find_address_components('locality','long_name'));
+	if (isset($_POST['administrative_area_level_2']))
+		$address['administrative_area_level_2']=$ggeo->find_address_components('administrative_area_level_2','long_name');
 
-	$address['postal_code']=$ggeo->find_address_components('postal_code','long_name');
+	if (isset($_POST['locality']))
+		$address['locality']=$ggeo->find_address_components('locality','long_name');
 
-	$address['route']=str_replace("'","\'",$ggeo->find_address_components('route','long_name'));
+	if (isset($_POST['postal_code']))		
+		$address['postal_code']=$ggeo->find_address_components('postal_code','long_name');
 
-	$address['street_number']=str_replace("'","\'",$ggeo->find_address_components('street_number','long_name'));
+	if (isset($_POST['route']))	
+		$address['route']=$ggeo->find_address_components('route','long_name');
 
-	return $address;
+	if (isset($_POST['street_number']))
+		$address['street_number']=$ggeo->find_address_components('street_number','long_name');
+
+	if (isset($address))
+		return $address;
+	else
+		return FALSE;
 }
 
 //sanitization and encoding functions (this could be better implemented)
