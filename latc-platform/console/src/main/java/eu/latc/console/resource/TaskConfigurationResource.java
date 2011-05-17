@@ -1,7 +1,5 @@
 package eu.latc.console.resource;
 
-import java.util.Date;
-
 import org.restlet.data.Form;
 import org.restlet.data.MediaType;
 import org.restlet.data.Status;
@@ -30,9 +28,10 @@ public class TaskConfigurationResource extends TaskResource {
 	 * 
 	 * @param form
 	 *            the configuration file content to put under the identifier
+	 * @throws Exception 
 	 */
 	@Put
-	public Representation update(Form form) {
+	public Representation update(Form form) throws Exception {
 		// Parse the identifier
 		logger.info("[PUT] Update configuration file for " + taskID + " with " + form.toString());
 
@@ -43,35 +42,26 @@ public class TaskConfigurationResource extends TaskResource {
 			return null;
 		}
 
-		try {
-
-			// Get the configuration file to assign
-			String text = form.getFirstValue("configuration");
-			if (text == null) {
-				setStatus(Status.CLIENT_ERROR_BAD_REQUEST);
-				return null;
-			}
-
-			// Update the value and persist the task
-			task.setConfiguration(text);
-			ObjectManager manager = ((MainApplication) getApplication()).getObjectManager();
-			manager.saveTask(task);
-
-			// Add a notification
-			Notification notification = new Notification();
-			notification.setSeverity("warn");
-			notification.setMessage("Configuration modified");
-			manager.addNotification(taskID, notification);
-
-			setStatus(Status.SUCCESS_OK);
-			return new StringRepresentation("updated", MediaType.TEXT_HTML);
-		} catch (Exception e) {
-			e.printStackTrace();
-
-			// If anything goes wrong, just report back on an internal error
-			setStatus(Status.SERVER_ERROR_INTERNAL);
+		// Get the configuration file to assign
+		String text = form.getFirstValue("configuration");
+		if (text == null) {
+			setStatus(Status.CLIENT_ERROR_BAD_REQUEST);
 			return null;
 		}
+
+		// Update the value and persist the task
+		task.setConfiguration(text);
+		ObjectManager manager = ((MainApplication) getApplication()).getObjectManager();
+		manager.saveTask(task);
+
+		// Add a notification
+		Notification notification = new Notification();
+		notification.setSeverity("warn");
+		notification.setMessage("Configuration modified");
+		manager.addNotification(taskID, notification);
+
+		setStatus(Status.SUCCESS_OK);
+		return new StringRepresentation("updated", MediaType.TEXT_HTML);
 	}
 
 	/**

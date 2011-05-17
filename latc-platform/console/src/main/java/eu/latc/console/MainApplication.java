@@ -6,6 +6,7 @@ import org.restlet.routing.Router;
 
 import eu.latc.console.resource.APIKeyResource;
 import eu.latc.console.resource.NotificationsResource;
+import eu.latc.console.resource.StatisticsResource;
 import eu.latc.console.resource.TaskResource;
 import eu.latc.console.resource.TasksResource;
 import eu.latc.console.resource.TaskNotificationsResource;

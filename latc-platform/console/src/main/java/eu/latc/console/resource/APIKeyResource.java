@@ -12,7 +12,6 @@ import org.restlet.data.Status;
 import org.restlet.ext.json.JsonConverter;
 import org.restlet.representation.Representation;
 import org.restlet.resource.Post;
-import org.restlet.resource.ServerResource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,7 +19,7 @@ import org.slf4j.LoggerFactory;
  * @author Christophe Guéret <christophe.gueret@gmail.com>
  * 
  */
-public class APIKeyResource extends ServerResource {
+public class APIKeyResource extends ConsoleResource {
 	// Logger instance
 	protected final Logger logger = LoggerFactory.getLogger(APIKeyResource.class);
 	

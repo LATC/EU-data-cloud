@@ -67,6 +67,8 @@ public class ObjectManager {
 			pm.deletePersistentAll(c2);
 
 			tx.commit();
+		} catch (Exception e) {
+			throw e;
 		} finally {
 			if (tx.isActive())
 				tx.rollback();
@@ -79,8 +81,9 @@ public class ObjectManager {
 	 *            the identifier of the linking configuration file
 	 * @return the linking configuration object associated to that identifier or
 	 *         null if there is no matching object
+	 * @throws Exception
 	 */
-	public Task getTask(String configurationID) {
+	public Task getTask(String configurationID) throws Exception {
 		PersistenceManager pm = pmf.getPersistenceManager();
 		Transaction tx = pm.currentTransaction();
 
@@ -93,8 +96,7 @@ public class ObjectManager {
 
 			return copy;
 		} catch (Exception e) {
-			e.printStackTrace();
-			return null;
+			throw e;
 		} finally {
 			if (tx.isActive())
 				tx.rollback();
@@ -132,6 +134,8 @@ public class ObjectManager {
 			tx.commit();
 
 			return linkingConfiguration.getIdentifier();
+		} catch (Exception e) {
+			throw e;
 		} finally {
 			if (tx.isActive())
 				tx.rollback();
@@ -191,6 +195,8 @@ public class ObjectManager {
 			tx.commit();
 
 			return report.getIdentifier();
+		} catch (Exception e) {
+			throw e;
 		} finally {
 			if (tx.isActive())
 				tx.rollback();
@@ -205,9 +211,10 @@ public class ObjectManager {
 	 * @param filter
 	 * 
 	 * @return a sorted collection of LinkingConfiguration
+	 * @throws Exception
 	 */
 	@SuppressWarnings("unchecked")
-	public Collection<Task> getTasks(int limit, boolean filter) {
+	public Collection<Task> getTasks(int limit, boolean filter) throws Exception {
 		PersistenceManager pm = pmf.getPersistenceManager();
 		Transaction tx = pm.currentTransaction();
 
@@ -226,6 +233,8 @@ public class ObjectManager {
 						res.add((Task) pm.detachCopy(task));
 
 			return res;
+		} catch (Exception e) {
+			throw e;
 		} finally {
 			if (tx.isActive())
 				tx.rollback();
@@ -235,10 +244,11 @@ public class ObjectManager {
 
 	/**
 	 * @return
+	 * @throws Exception
 	 */
 	// TODO Move this method to the Task object (if possible)
 	@SuppressWarnings("unchecked")
-	public Collection<Notification> getReportsFor(String configurationID) {
+	public Collection<Notification> getReportsFor(String configurationID) throws Exception {
 		PersistenceManager pm = pmf.getPersistenceManager();
 		Transaction tx = pm.currentTransaction();
 
@@ -254,6 +264,8 @@ public class ObjectManager {
 					res.add((Notification) pm.detachCopy(report));
 
 			return res;
+		} catch (Exception e) {
+			throw e;
 		} finally {
 			if (tx.isActive())
 				tx.rollback();
@@ -266,9 +278,10 @@ public class ObjectManager {
 	 *            the maximum number of reports to return, set to 0 for all of
 	 *            them
 	 * @return
+	 * @throws Exception
 	 */
 	@SuppressWarnings("unchecked")
-	public Collection<Notification> getNotifications(int limit) {
+	public Collection<Notification> getNotifications(int limit) throws Exception {
 		PersistenceManager pm = pmf.getPersistenceManager();
 		Transaction tx = pm.currentTransaction();
 
@@ -292,6 +305,8 @@ public class ObjectManager {
 			}
 
 			return res;
+		} catch (Exception e) {
+			throw e;
 		} finally {
 			if (tx.isActive())
 				tx.rollback();
@@ -304,8 +319,9 @@ public class ObjectManager {
 	 * 
 	 * @param taskID
 	 *            the identifier of the LinkingConfiguration to delete
+	 * @throws Exception
 	 */
-	public void eraseTask(String taskID) {
+	public void eraseTask(String taskID) throws Exception {
 		PersistenceManager pm = pmf.getPersistenceManager();
 		Transaction tx = pm.currentTransaction();
 
@@ -321,7 +337,7 @@ public class ObjectManager {
 			// Apply the changes
 			tx.commit();
 		} catch (Exception e) {
-			e.printStackTrace();
+			throw e;
 		} finally {
 			if (tx.isActive())
 				tx.rollback();
@@ -333,8 +349,9 @@ public class ObjectManager {
 	 * Update a persisted, detached, instance
 	 * 
 	 * @param config
+	 * @throws Exception
 	 */
-	public void saveTask(Task task) {
+	public void saveTask(Task task) throws Exception {
 		// Update the last modification field
 		task.setLastModificationDate(new Date());
 
@@ -349,7 +366,7 @@ public class ObjectManager {
 
 			tx.commit();
 		} catch (Exception e) {
-			e.printStackTrace();
+			throw e;
 		} finally {
 			if (tx.isActive())
 				tx.rollback();

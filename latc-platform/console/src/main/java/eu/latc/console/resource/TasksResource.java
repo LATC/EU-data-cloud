@@ -1,9 +1,7 @@
 package eu.latc.console.resource;
 
-import java.io.File;
 import java.util.Date;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
@@ -21,12 +19,10 @@ import org.restlet.ext.atom.Text;
 import org.restlet.ext.fileupload.RestletFileUpload;
 import org.restlet.ext.json.JsonConverter;
 import org.restlet.representation.Representation;
-import org.restlet.representation.StringRepresentation;
 import org.restlet.representation.Variant;
 import org.restlet.resource.Get;
 import org.restlet.resource.Post;
 import org.restlet.resource.ResourceException;
-import org.restlet.resource.ServerResource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -35,7 +31,7 @@ import eu.latc.console.ObjectManager;
 import eu.latc.console.objects.Notification;
 import eu.latc.console.objects.Task;
 
-public class TasksResource extends ServerResource {
+public class TasksResource extends ConsoleResource {
 	// Logger instance
 	protected final Logger logger = LoggerFactory.getLogger(TasksResource.class);
 
@@ -142,13 +138,14 @@ public class TasksResource extends ServerResource {
 	}
 
 	/**
-	 * Handler for suffix based content negociation
+	 * Handler for suffix based content negotiation
 	 * 
 	 * @param variant
 	 * @return
+	 * @throws Exception 
 	 */
 	@Get("json|atom")
-	public Representation toSomething(Variant variant) {
+	public Representation toSomething(Variant variant) throws Exception {
 		if (variant.getMediaType().equals(MediaType.APPLICATION_ATOM))
 			return toAtom();
 		return toJSON();
@@ -156,11 +153,12 @@ public class TasksResource extends ServerResource {
 
 	/**
 	 * Return the list of tasks
+	 * @throws Exception 
 	 */
 	@Get("json")
-	public Representation toJSON() {
+	public Representation toJSON() throws Exception {
 		Form params = getReference().getQueryAsForm();
-		
+
 		// Handle the "limit" parameter
 		int limit = 0;
 		if (params.getFirstValue("limit", true) != null)
@@ -170,63 +168,48 @@ public class TasksResource extends ServerResource {
 		boolean filter = true;
 		if (params.getFirstValue("filter", true) != null)
 			filter = Boolean.parseBoolean(params.getFirstValue("filter", true));
-		
+
 		logger.info("[GET-JSON] Return a list of tasks " + limit);
 
-		try {
-			// Get access to the entity manager stored in the app
-			ObjectManager manager = ((MainApplication) getApplication()).getObjectManager();
+		// Get access to the entity manager stored in the app
+		ObjectManager manager = ((MainApplication) getApplication()).getObjectManager();
 
-			// The object requested is the list of configuration files
-			JSONObject json = new JSONObject();
-			JSONArray array = new JSONArray();
-			for (Task task : manager.getTasks(limit, filter))
-				array.put(task.toJSON());
-			json.put("task", array);
+		// The object requested is the list of configuration files
+		JSONObject json = new JSONObject();
+		JSONArray array = new JSONArray();
+		for (Task task : manager.getTasks(limit, filter))
+			array.put(task.toJSON());
+		json.put("task", array);
 
-			JsonConverter conv = new JsonConverter();
-			return conv.toRepresentation(json, null, null);
-		} catch (Exception e) {
-			e.printStackTrace();
-
-			// If anything goes wrong, just report back on an internal error
-			setStatus(Status.SERVER_ERROR_INTERNAL);
-			return null;
-		}
+		JsonConverter conv = new JsonConverter();
+		return conv.toRepresentation(json, null, null);
 	}
 
 	/**
 	 * @param tasks
 	 * @return
-	 * @throws ResourceException
+	 * @throws Exception 
 	 */
 	@Get("atom")
-	public Feed toAtom() throws ResourceException {
+	public Feed toAtom() throws Exception {
 		logger.info("[GET-ATOM] Return a list of tasks");
 
-		try {
-			// Get access to the entity manager stored in the app
-			ObjectManager manager = ((MainApplication) getApplication()).getObjectManager();
-			Feed result = new Feed();
-			result.setTitle(new Text("Tasks created for LATC"));
-			Entry entry;
+		// Get access to the entity manager stored in the app
+		ObjectManager manager = ((MainApplication) getApplication()).getObjectManager();
+		Feed result = new Feed();
+		result.setTitle(new Text("Tasks created for LATC"));
+		Entry entry;
 
-			for (Task task : manager.getTasks(5, false)) {
-				entry = new Entry();
-				entry.setTitle(new Text(task.getTitle()));
-				StringBuffer summary = new StringBuffer();
-				summary.append("Description: " + task.getDescription()).append('\n');
-				summary.append("Creation date:" + task.getCreationDate()).append('\n');
-				entry.setSummary(summary.toString());
-				result.getEntries().add(entry);
-			}
-			return result;
-		} catch (Exception e) {
-			e.printStackTrace();
-
-			// If anything goes wrong, just report back on an internal error
-			setStatus(Status.SERVER_ERROR_INTERNAL);
-			return null;
+		for (Task task : manager.getTasks(5, false)) {
+			entry = new Entry();
+			entry.setTitle(new Text(task.getTitle()));
+			StringBuffer summary = new StringBuffer();
+			summary.append("Description: " + task.getDescription()).append('\n');
+			summary.append("Creation date:" + task.getCreationDate()).append('\n');
+			entry.setSummary(summary.toString());
+			result.getEntries().add(entry);
 		}
+		return result;
 	}
+
 }

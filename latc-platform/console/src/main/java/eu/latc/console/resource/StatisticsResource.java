@@ -1,7 +1,7 @@
 /**
  * 
  */
-package eu.latc.console;
+package eu.latc.console.resource;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -15,6 +15,8 @@ import org.restlet.resource.ServerResource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import eu.latc.console.MainApplication;
+import eu.latc.console.ObjectManager;
 import eu.latc.console.objects.Notification;
 
 /**
@@ -64,7 +66,8 @@ public class StatisticsResource extends ServerResource {
 					if (!notification.getData().equals("")) {
 						JSONObject data = new JSONObject(notification.getData());
 						if (data.has("size") && data.has("executetime")) {
-							links += data.getLong("size");
+							if (data.getLong("size") > 0)
+								links += data.getLong("size");
 							executed++;
 							String[] s = data.getString("executetime").split(":");
 							runtime += Integer.parseInt(s[0]) * 24 * 60 * 60;
