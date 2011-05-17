@@ -2,15 +2,19 @@ package eu.latc.linkqa;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
+import org.apache.hadoop.fs.FileStatus;
+import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.ByteWritable;
 import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.SequenceFile;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.*;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.FileSplit;
 import org.apache.hadoop.mapreduce.lib.input.LineRecordReader;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.mapreduce.lib.output.SequenceFileOutputFormat;
 import org.apache.hadoop.util.GenericOptionsParser;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
@@ -56,6 +60,7 @@ public class LinkCorrectnessAnalyser extends Configured implements Tool {
         job.setMapOutputKeyClass(Text.class);
         job.setMapOutputValueClass(ByteWritable.class);
 
+        job.setOutputFormatClass(SequenceFileOutputFormat.class);
         //job.set
 
         job.setOutputKeyClass(Text.class);
@@ -80,11 +85,34 @@ public class LinkCorrectnessAnalyser extends Configured implements Tool {
 
         //System.out.println("ORG PATH: " + fileA.toString());
 
-        FileOutputFormat.setOutputPath(job, new Path(otherArgs[2]));
+        Path outPath = new Path(otherArgs[2]);
+        FileOutputFormat.setOutputPath(job, outPath);
 
 
 
-        return job.waitForCompletion(true) ? 0 : 1;
+        int result = job.waitForCompletion(true) ? 0 : 1;
+
+        FileSystem fs = FileSystem.get(this.getConf());
+
+        FileStatus[] fss = fs.globStatus(outPath.suffix("/part*"));
+        for (FileStatus status : fss) {
+            Path path = status.getPath();
+            System.out.println("Reading file: " + path.toString());
+            SequenceFile.Reader reader = new SequenceFile.Reader(fs, path, conf);
+        
+            Text key = new Text();
+            LongWritable value = new LongWritable();
+            while (reader.next(key, value)) {
+                String k = new String(key.getBytes());
+
+                Long v = value.get();
+                key.set("");
+                System.out.println(k + " | " + v);
+            }
+            reader.close();
+        }
+        
+        return result;
     }
 
     public static class LineSourceInputFormat extends
@@ -199,9 +227,9 @@ public class LinkCorrectnessAnalyser extends Configured implements Tool {
         {
             //System.out.printf("CLEANUP %d %d %d\n", countA, countB, countC);
 
-            context.write(new Text("source_a_count_total"), new LongWritable(countA));
-            context.write(new Text("source_b_count_total"), new LongWritable(countB));
-            context.write(new Text("source_c_count_total"), new LongWritable(countC));
+            context.write(new Text("in_a_distinct_count_total"), new LongWritable(countA));
+            context.write(new Text("in_b_distinct_count_total"), new LongWritable(countB));
+            context.write(new Text("out_common_distinct_count_total"), new LongWritable(countC));
         }
     }
 
@@ -232,6 +260,7 @@ public class LinkCorrectnessAnalyser extends Configured implements Tool {
 
     public static void main(String[] args) throws Exception {
         int ret = ToolRunner.run(new LinkCorrectnessAnalyser(), args);
+
         System.exit(ret);
     }
 
