@@ -113,11 +113,11 @@
 
       <Outputs>
         <Output type="file" minConfidence="0.95">
-          <Param name="file" value="1303320108589/post office/links.nt" />
+          <Param name="file" value="1303320108589/post_office/links.nt" />
           <Param name="format" value="ntriples" />
         </Output>
         <Output type="file" maxConfidence="0.95">
-          <Param name="file" value="1303320108589/post office/verify.nt" />
+          <Param name="file" value="1303320108589/post_office/verify.nt" />
           <Param name="format" value="ntriples" />
         </Output>
       </Outputs>

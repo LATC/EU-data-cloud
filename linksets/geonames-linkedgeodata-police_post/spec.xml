@@ -113,11 +113,11 @@
 
       <Outputs>
         <Output type="file" minConfidence="0.95">
-          <Param name="file" value="1303320108589/police post/links.nt" />
+          <Param name="file" value="1303320108589/police_post/links.nt" />
           <Param name="format" value="ntriples" />
         </Output>
         <Output type="file" maxConfidence="0.95">
-          <Param name="file" value="1303320108589/police post/verify.nt" />
+          <Param name="file" value="1303320108589/police_post/verify.nt" />
           <Param name="format" value="ntriples" />
         </Output>
       </Outputs>

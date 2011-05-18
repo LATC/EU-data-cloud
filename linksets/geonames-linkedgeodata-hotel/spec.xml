@@ -93,8 +93,8 @@
    <Input path="?b/wgs84:long" />
    <Param name="glue" value=" " />
   </TransformInput>
-  <Param name="unit" value="km" />
-  <Param name="threshold" value="4" />
+  <Param name="unit" value="m" />
+  <Param name="threshold" value="800" />
   <Param name="curveStyle" value="logistic" />
  </Compare>
 <!-- <Compare metric="num" weight="1">
@@ -113,11 +113,11 @@
 
       <Outputs>
         <Output type="file" minConfidence="0.95">
-          <Param name="file" value="1303320108589/hotel/links.nt" />
+          <Param name="file" value="1303320108589/hotel2/links.nt" />
           <Param name="format" value="ntriples" />
         </Output>
         <Output type="file" maxConfidence="0.95">
-          <Param name="file" value="1303320108589/hotel/verify.nt" />
+          <Param name="file" value="1303320108589/hotel2/verify.nt" />
           <Param name="format" value="ntriples" />
         </Output>
       </Outputs>
