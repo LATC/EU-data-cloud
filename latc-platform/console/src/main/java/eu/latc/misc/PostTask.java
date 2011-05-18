@@ -10,10 +10,7 @@ import eu.latc.console.resource.APIKeyResource;
 
 public class PostTask {
 	// Where the application is deployed
-	static String HOST = "http://latc-console.few.vu.nl/";
-
-	// The identifier of the configuration to send a report about
-	static String ID = "ff8081812e2e36ce012e2e36cf7c0002";
+	final static String HOST = "http://latc-console.few.vu.nl/";
 
 	/**
 	 * @param args

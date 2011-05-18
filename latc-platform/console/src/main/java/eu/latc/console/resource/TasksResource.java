@@ -2,11 +2,8 @@ package eu.latc.console.resource;
 
 import java.util.Date;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
-import org.apache.commons.fileupload.FileItem;
-import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.restlet.data.Form;
@@ -16,10 +13,8 @@ import org.restlet.data.Status;
 import org.restlet.ext.atom.Entry;
 import org.restlet.ext.atom.Feed;
 import org.restlet.ext.atom.Text;
-import org.restlet.ext.fileupload.RestletFileUpload;
 import org.restlet.ext.json.JsonConverter;
 import org.restlet.representation.Representation;
-import org.restlet.representation.StringRepresentation;
 import org.restlet.representation.Variant;
 import org.restlet.resource.Get;
 import org.restlet.resource.Post;
