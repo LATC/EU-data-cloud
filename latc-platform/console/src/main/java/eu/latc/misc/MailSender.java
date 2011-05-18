@@ -3,9 +3,9 @@
  */
 package eu.latc.misc;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Properties;
-import java.util.Set;
-import java.util.TreeSet;
 
 import javax.mail.Message;
 import javax.mail.Session;
@@ -22,7 +22,7 @@ import com.sun.mail.smtp.SMTPTransport;
  */
 public class MailSender {
 	/** Recipients list */
-	private Set<InternetAddress> recipients = new TreeSet<InternetAddress>();
+	private List<InternetAddress> recipients = new ArrayList<InternetAddress>();
 	private String text;
 	private String topic;
 	private final static String EMAIL = "latc.platform@gmail.com";

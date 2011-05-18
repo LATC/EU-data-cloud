@@ -19,6 +19,7 @@ import org.restlet.ext.atom.Text;
 import org.restlet.ext.fileupload.RestletFileUpload;
 import org.restlet.ext.json.JsonConverter;
 import org.restlet.representation.Representation;
+import org.restlet.representation.StringRepresentation;
 import org.restlet.representation.Variant;
 import org.restlet.resource.Get;
 import org.restlet.resource.Post;
@@ -59,47 +60,30 @@ public class TasksResource extends ConsoleResource {
 	}
 
 	/**
-	 * @param data
-	 * @return
+	 * Add a new task
+	 * 
 	 * @throws Exception
+	 * 
 	 */
-	@Post("multipart/form-data")
-	public Representation add(Representation multipartForm) throws Exception {
-		logger.info("[POST] Received a new task " + multipartForm);
+	@Post
+	public Representation addForm(Form form) throws Exception {
+		logger.info("[POST] Received a new task " + form.toString());
 
-		// Check if the form is valid
-		if ((multipartForm == null) || (!MediaType.MULTIPART_FORM_DATA.equals(multipartForm.getMediaType(), true))) {
-			setStatus(Status.CLIENT_ERROR_BAD_REQUEST);
-			logger.info("got " + multipartForm.getMediaType());
+		// Load the query parameters
+		String api_key = form.getFirstValue("api_key", true);
+		String specification = form.getFirstValue("specification", true);
+		String title = form.getFirstValue("title", true);
+		String description = form.getFirstValue("description", true);
+		String author = form.getFirstValue("author", true);
+
+		// Check credentials
+		if (api_key == null || !api_key.equals(APIKeyResource.KEY)) {
+			setStatus(Status.CLIENT_ERROR_FORBIDDEN);
 			return null;
 		}
 
-		// Create a factory for disk-based file items
-		DiskFileItemFactory factory = new DiskFileItemFactory();
-		factory.setSizeThreshold(1000240);
-
-		// Parse the entity elements
-		RestletFileUpload upload = new RestletFileUpload(factory);
-		List<FileItem> items = upload.parseRepresentation(multipartForm);
-
-		// Process the content of the form
-		String specification = null;
-		String title = null;
-		String description = null;
-		String author = null;
-		for (FileItem item : items) {
-			if (!item.isFormField() && item.getFieldName().equals("specification"))
-				specification = item.getString();
-			if (item.isFormField() && item.getFieldName().equals("title"))
-				title = item.getString();
-			if (item.isFormField() && item.getFieldName().equals("description"))
-				description = item.getString();
-			if (item.isFormField() && item.getFieldName().equals("author"))
-				author = item.getString();
-		}
-
-		// We need to have at least a specification to save
-		if (specification == null) {
+		// We need at least a specification and a title
+		if (specification == null || title == null) {
 			setStatus(Status.CLIENT_ERROR_BAD_REQUEST);
 			return null;
 		}
@@ -107,7 +91,7 @@ public class TasksResource extends ConsoleResource {
 		// Get the entity manager
 		ObjectManager manager = ((MainApplication) getApplication()).getObjectManager();
 
-		// Save the configuration file
+		// Save the task
 		String taskID = manager.addTask(specification);
 
 		// Set the title
@@ -129,6 +113,7 @@ public class TasksResource extends ConsoleResource {
 		// Set the return code and return the identifier
 		setStatus(Status.SUCCESS_CREATED);
 
+		// Return the reference information
 		JSONObject json = new JSONObject();
 		json.put("id", taskID);
 		json.put("href", getReference() + "/" + taskID);
@@ -137,12 +122,13 @@ public class TasksResource extends ConsoleResource {
 		return conv.toRepresentation(json, null, null);
 	}
 
+
 	/**
 	 * Handler for suffix based content negotiation
 	 * 
 	 * @param variant
 	 * @return
-	 * @throws Exception 
+	 * @throws Exception
 	 */
 	@Get("json|atom")
 	public Representation toSomething(Variant variant) throws Exception {
@@ -153,7 +139,8 @@ public class TasksResource extends ConsoleResource {
 
 	/**
 	 * Return the list of tasks
-	 * @throws Exception 
+	 * 
+	 * @throws Exception
 	 */
 	@Get("json")
 	public Representation toJSON() throws Exception {
@@ -188,7 +175,7 @@ public class TasksResource extends ConsoleResource {
 	/**
 	 * @param tasks
 	 * @return
-	 * @throws Exception 
+	 * @throws Exception
 	 */
 	@Get("atom")
 	public Feed toAtom() throws Exception {
@@ -213,3 +200,58 @@ public class TasksResource extends ConsoleResource {
 	}
 
 }
+
+/*
+ * @Post("multipart/form-data") public Representation
+ * addMultiPartForm(Representation multipartForm) throws Exception {
+ * logger.info("[POST] Received a new task " + multipartForm);
+ * 
+ * // Check if the form is valid if ((multipartForm == null) ||
+ * (!MediaType.MULTIPART_FORM_DATA.equals(multipartForm.getMediaType(),
+ * true))) { setStatus(Status.CLIENT_ERROR_BAD_REQUEST); logger.info("got "
+ * + multipartForm.getMediaType()); return null; }
+ * 
+ * // Create a factory for disk-based file items DiskFileItemFactory factory
+ * = new DiskFileItemFactory(); factory.setSizeThreshold(1000240);
+ * 
+ * // Parse the entity elements RestletFileUpload upload = new
+ * RestletFileUpload(factory); List<FileItem> items =
+ * upload.parseRepresentation(multipartForm);
+ * 
+ * // Process the content of the form String specification = null; String
+ * title = null; String description = null; String author = null; for
+ * (FileItem item : items) { if (!item.isFormField() &&
+ * item.getFieldName().equals("specification")) specification =
+ * item.getString(); if (item.isFormField() &&
+ * item.getFieldName().equals("title")) title = item.getString(); if
+ * (item.isFormField() && item.getFieldName().equals("description"))
+ * description = item.getString(); if (item.isFormField() &&
+ * item.getFieldName().equals("author")) author = item.getString(); }
+ * 
+ * // We need to have at least a specification to save if (specification ==
+ * null) { setStatus(Status.CLIENT_ERROR_BAD_REQUEST); return null; }
+ * 
+ * // Get the entity manager ObjectManager manager = ((MainApplication)
+ * getApplication()).getObjectManager();
+ * 
+ * // Save the configuration file String taskID =
+ * manager.addTask(specification);
+ * 
+ * // Set the title Task task = manager.getTask(taskID); task.setTitle(title
+ * == null ? "No title" : title); task.setDescription(description == null ?
+ * "No description" : description); task.setAuthor(author == null ?
+ * "Unknown" : author); task.setCreationDate(new Date());
+ * task.setExecutable(true); manager.saveTask(task);
+ * 
+ * // Add an initial upload report Notification report = new Notification();
+ * report.setMessage("Task created"); report.setSeverity("info");
+ * report.setData(""); manager.addNotification(taskID, report);
+ * 
+ * // Set the return code and return the identifier
+ * setStatus(Status.SUCCESS_CREATED);
+ * 
+ * JSONObject json = new JSONObject(); json.put("id", taskID);
+ * json.put("href", getReference() + "/" + taskID);
+ * logger.info("[POST] Reply " + json); JsonConverter conv = new
+ * JsonConverter(); return conv.toRepresentation(json, null, null); }
+ */
