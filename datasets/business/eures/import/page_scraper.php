@@ -5,13 +5,21 @@
 ######################################
 
 ini_set('max_execution_time', 0);
+<<<<<<< local
+=======
+//ini_set('memory_limit', '-1');
+>>>>>>> other
 
 require 'scraperwiki/scraperwiki.php';
 
 require 'scraperwiki/simple_html_dom.php';
 
 //$country = array ('AT', 'BG','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IS','IR','IT','LV','LI','LT','LU','MT','NL','NO','PL','PT','RO','SK','SI','ES','SE','CH','UK','BE');
+<<<<<<< local
 $country = array('EE');
+=======
+$country = array('MT');
+>>>>>>> other
 
 $page_size = 99;
 
@@ -114,24 +122,69 @@ for ($i=0; $i < sizeof($country); $i++)
 	
 	$thisdir = getcwd();
 
+<<<<<<< local
+=======
+	$jobs_dir = $thisdir ."/jobs";	
+>>>>>>> other
 	//Creates the directory for jobs	
+<<<<<<< local
 	if(mkdir($thisdir ."/jobs", 0777))
+=======
+	if (!file_exists($jobs_dir))
+>>>>>>> other
 	{
+<<<<<<< local
 		echo "Directory for jobs has been created successfully.";
+=======
+		if(mkdir($jobs_dir, 0777))
+		{
+			echo "Directory for jobs has been created successfully.";
+		}
+		else
+		{
+			echo "Failed to create directory.";
+		} 
+>>>>>>> other
 	}
 	else
 	{
+<<<<<<< local
 		echo "Failed to create directory.";
 	} 
+=======
+		echo "Directory jobs already exists.";
+	}
+>>>>>>> other
 
+<<<<<<< local
 	//Creates the directory for country
 	if(mkdir($thisdir ."/jobs/".$country[$i], 0777)){
 		echo "Directory for country has been created successfully.";
+=======
+	$country_dir = $thisdir ."/jobs/".$country[$i];
+	if (!file_exists($country_dir))
+	{
+		//Creates the directory for country
+		if(mkdir($country_dir, 0777)){
+			echo "Directory for country has been created successfully.";
+		}
+		else
+		{
+			echo "Failed to create directory.";
+		} 
+>>>>>>> other
 	}
 	else
 	{
+<<<<<<< local
 		echo "Failed to create directory.";
 	} 
+=======
+		echo "Directory for this country already exists.";
+	}
+
+	$date = date ("Y-m-d");
+>>>>>>> other
 
 	//Uses ISCO code in the search for countries with many jobs to avoid breaking script
 	if ($country[$i] == 'DE' || $country[$i] == 'UK' || $country[$i] == 'BE' || $country[$i] == 'AT' || $country[$i] == 'FR' || $country[$i] == 'NL' || $country[$i] == 'SE')
@@ -150,15 +203,32 @@ for ($i=0; $i < sizeof($country); $i++)
 
 		scraper($url_first, $country[$i]);
 	}
+<<<<<<< local
+=======
+	
+>>>>>>> other
 }
 
 //Scraps the search page for URLs and other data (source, description) 
 function scraper($url_search, $country_id)
 {
+<<<<<<< local
 	$fp = fopen('jobs/'.$country_id.'_'.$scraper_date.'.csv', 'a+');
+=======
+	unset($url_next_size,$url_next,$has_next,$thisdir,$url_first,$date);
+>>>>>>> other
 
 	$scraper_date = date("Y-m-d");
+<<<<<<< local
+=======
+
+>>>>>>> other
 	$has_next = false;
+<<<<<<< local
+=======
+	$url_size = strlen($url_search);
+
+>>>>>>> other
 	$base_url = "http://ec.europa.eu/eures/eures-searchengine/servlet";
 	$scraper_hour = date("H:i:s");
 	
@@ -190,6 +260,7 @@ function scraper($url_search, $country_id)
 			echo "JOB: " .$url_job . "<br />";
 		};
 
+<<<<<<< local
 		//Gets the job description and source
 		foreach($result->find('th') as $data)
 		{   
@@ -212,17 +283,55 @@ function scraper($url_search, $country_id)
 		$html_job = scraperwiki::scrape($url_job);
 
 		
+=======
+>>>>>>> other
 		$file = 'jobs/'.$country_id.'/'.$url_job_unique_slashless.'.html';
 		if (!file_exists($file))
 		{
+<<<<<<< local
+=======
+			//Gets the job description and source
+			foreach($result->find('th') as $data)
+			{   
+				$text = trim($data->plaintext);
+
+				if ($text == 'Description:')
+				{
+					$description = trim($data->next_sibling()->plaintext);
+					echo "DESCRIPTION: " .$description. "<br />";    
+				}
+
+				if ($text == 'Source:')
+				{
+					$source = trim($data->next_sibling()->plaintext);
+					echo "SOURCE: " .$source. "<br /><br />";   
+				}
+			}
+
+			//Gets the HTML from the Job
+			$html_job = scraperwiki::scrape($url_job);
+
+>>>>>>> other
 			//Saves the search data in a CSV file
+<<<<<<< local
+=======
+			$fp = fopen('jobs/'.$country_id.'_'.$scraper_date.'.csv', 'a+');
+>>>>>>> other
 			$list = array (
+<<<<<<< local
 			    array($url_job, $url_id, $url_job_unique, $description, $source,$url_search,$country_id,$scraper_date,$scraper_hour)
+=======
+			    array($url_job, $url_id, $url_job_unique, $url_job_unique_slashless,$description, $source,$url_search,$country_id,$scraper_date,$scraper_hour)
+>>>>>>> other
 			);
 
 			foreach ($list as $fields) {
 			    fputcsv($fp, $fields);
 			}
+<<<<<<< local
+=======
+			fclose($fp);
+>>>>>>> other
 
 			//Saves the HTML in a file
 			$fh = fopen($file, 'w');
@@ -234,6 +343,10 @@ function scraper($url_search, $country_id)
 			fwrite($fh,'<div id=source>'.$source.'</div>');
 			fwrite($fh,'<div id=url_id>'.$url_id.'</div>');
 			fwrite($fh,'<div id=url_job_unique>'.$url_job_unique.'</div>');
+<<<<<<< local
+=======
+			fwrite($fh,'<div id=url_job_unique_slashless>'.$url_job_unique_slashless.'</div>');
+>>>>>>> other
 			fwrite($fh,'<div id=url_search>'.$url_search.'</div>');
 			fwrite($fh,'<div id=scraper_date>'.$scraper_date.'</div>');
 			fwrite($fh,'<div id=scraper_hour>'.$scraper_hour.'</div>');
@@ -263,15 +376,28 @@ function scraper($url_search, $country_id)
 		
 	};
 
+<<<<<<< local
 	unset($html,$dom,$result,$job_page,$data,$next_page,$text,$url_id,$url_job,$description,$source,$source_id,$url_search,$html_job);
 
 	$url_next_size = strlen($url_next);
+=======
+	unset($html,$dom,$result,$job_page,$data,$next_page,$text,$url_id,$url_job,$description,$source,$source_id,$url_search,$html_job,$scraper_date,$scraper_hour,$url_job_unique,$url_job_unique_slashless,$chars,$fh,$list,$file);
+>>>>>>> other
 
 	//Calls the next search page to scrap 	
+<<<<<<< local
 	if ($has_next == true && $url_next_size <= 4101){
 		if ($url_next_size <= 4101)
+=======
+	if ($has_next == true){
+		if ($url_size <= 4101)
+>>>>>>> other
 		{
+<<<<<<< local
 			sleep(1); //waits one second before the next extraction
+=======
+			sleep(1); //waits before the next extraction
+>>>>>>> other
 			scraper($url_next, $country_id);
 		}
 		else
@@ -284,7 +410,10 @@ function scraper($url_search, $country_id)
 		echo "No more pages to scrap.";
 	}
 	
+<<<<<<< local
 	fclose($fp);
+=======
+>>>>>>> other
 }
 
 ?>
