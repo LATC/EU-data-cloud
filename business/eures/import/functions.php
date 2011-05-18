@@ -3,17 +3,17 @@
 function db_prep($data)
 // Basic prep function - trims and escapes data
 {
-   if (isset($data) and $data != ''){
-      $prepped = "'" . mysql_real_escape_string(trim($data)) . "'";
-   }
-   else {
-      $prepped = "NULL";
-   }
-   return $prepped;
+	if (isset($data) and $data != '')
+	{
+		$prepped = "'" . mysql_real_escape_string(trim($data)) . "'";
+	}
+	else 
+	{
+		$prepped = "NULL";
+	}
+	return $prepped;
 }
 
-<<<<<<< local
-=======
 function addhttp($url) {	
 	if (!preg_match("~^(?:f|ht)tps?://~i", $url)) 
 	{
@@ -22,13 +22,12 @@ function addhttp($url) {
 	return $url;
 }
 
->>>>>>> other
 function insert_name($table,$name_table)
 {
 // Insert name on the small tables and returns the id
 	if($name_table <> '' && $name_table <> '0' && $name_table <> '.' && $name_table <> '**')
-		mysql_query("INSERT INTO ".$table." SET name ='$name_table'");
-	$sql = mysql_query("SELECT id FROM ".$table." WHERE name = '$name_table'");				
+		mysql_query("INSERT INTO ".$table." SET name =".db_prep($name_table));
+	$sql = mysql_query("SELECT id FROM ".$table." WHERE name =".db_prep($name_table));				
 	$row = mysql_fetch_array($sql);		
 	return $row[0];
 }
@@ -50,8 +49,6 @@ function select_id($query)
 	}
 }
 
-<<<<<<< local
-=======
 function format_currency($number) {
 	$number = strtoupper($number);
 	$period = array('STUNDE', 'MONATLICH', 'STD. LOHN', 'PER HOUR', 'PER D', 'PER DAY', 'PER ANNUM', ' PA ', 'PER WEEK');
@@ -74,8 +71,6 @@ function format_currency($number) {
 		$new_number = str_replace ($value2,"",$new_number);
 	} 
 	unset($value2); 
-	
-	
 
 	if (!preg_match('/[A-Z_%-]/',$new_number)){
 		$amount = preg_replace('/[^\d.]+/', '', $new_number);
@@ -101,5 +96,4 @@ function format_hour($number) {
 	return $number;
 }
 
->>>>>>> other
 ?>

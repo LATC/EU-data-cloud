@@ -4,11 +4,8 @@
 # Scraps the URLs for EURES jobs
 ######################################
 
-<<<<<<< local
-=======
 ini_set('max_execution_time', 0);
 
->>>>>>> other
 include("config.php");
 
 include("functions.php");
@@ -63,17 +60,11 @@ function scraper($url_search, $country_id)
 			}
 		}
 		$description = str_replace("'","\'",$description);
-<<<<<<< local
-=======
 		$description = str_replace("</BR>","",$description);
->>>>>>> other
 
 		$sql = mysql_query("SELECT * FROM job WHERE url = '$url_job'");
 		$cont = mysql_num_rows($sql);
 		if ($cont == 0)
-<<<<<<< local
-			mysql_query("INSERT INTO job SET url = '$url_job', url_id = '$url_id', description = '$description', source_id = '$source_id', url_search = '$url_search', country_id='$country_id'");
-=======
 			mysql_query("INSERT INTO job SET 
 					url = '$url_job', 
 					url_id = '$url_id', 
@@ -83,7 +74,6 @@ function scraper($url_search, $country_id)
 					country_id='$country_id',
 					url_scraper_date = SYSDATE(),	 
 					url_scraper_hour = SYSDATE()");
->>>>>>> other
 		else
 			echo "Job URL already extracted: ".$url_job."<br /><br />";
 	}
@@ -99,31 +89,16 @@ function scraper($url_search, $country_id)
 			$url_next = $base_url.$url_next;
 
 			$has_next = true;
-<<<<<<< local
-=======
 
 			print "<br /><br />NEXT: " . $url_next . "<br /><br />";
->>>>>>> other
 		}   
-<<<<<<< local
-		print "<br /><br />NEXT: " . $url_next . "<br /><br />";
-=======
->>>>>>> other
 	};
 
-<<<<<<< local
-=======
 	unset($html,$dom,$result,$job_page,$data,$next_page,$text,$url_id,$url_job,$description,$source,$source_id,$url_search);
 
->>>>>>> other
 //Comment this for tests, uncomment this to get all data
 //	if ($has_next == true){
-<<<<<<< local
-		sleep(1);
-		unset($html,$dom,$result,$job_page,$data,$next_page,$text,$url_id,$url_job,$description,$source,$source_id,$url_search);
-=======
 //		sleep(1);
->>>>>>> other
 //		scraper($url_next, $country_id);
 //	}
 }
@@ -131,11 +106,8 @@ function scraper($url_search, $country_id)
 
 
 //Comment this for tests, uncomment this to get all data
-<<<<<<< local
-$country = array('AT', 'BE','BG','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IS','IR','IT','LV','LI','LT','LU','MT','NL','NO','PL','PT','RO','SK','SI','ES','SE','CH','UK');
-=======
-$country = array('GR');
->>>>>>> other
+
+$country = array ('AT', 'BG','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IS','IR','IT','LV','LI','LT','LU','MT','NL','NO','PL','PT','RO','SK','SI','ES','SE','CH','UK','BE');
 //$country = array('AT');
 
 $page_size = 99;
@@ -144,34 +116,11 @@ $sql_update = mysql_query("SELECT * FROM update_service");
 
 $count_update = mysql_num_rows($sql_update);		
 
-<<<<<<< local
-if ($count_update > 0)
-{
-	$day = date("d") - 1;
-=======
 $day = "01";
->>>>>>> other
 
-<<<<<<< local
-	$month = date("m");
-=======
 $month = "01";
->>>>>>> other
 
-<<<<<<< local
-	$year = "1975";
-}
-else
-{
-	$day = "01";
-
-	$month = "01";
-
-	$year = "1975";
-}
-=======
 $year = "1975";
->>>>>>> other
 
 for ($i=0; $i < sizeof($country); $i++)
 {

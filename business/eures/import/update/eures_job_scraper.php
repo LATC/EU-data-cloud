@@ -4,11 +4,8 @@
 # Scraps data from EURES jobs
 ######################################
 
-<<<<<<< local
-=======
 ini_set('max_execution_time', 0);
 
->>>>>>> other
 include("config.php");
 
 include("functions.php");
@@ -19,78 +16,28 @@ require 'scraperwiki/simple_html_dom.php';
 
 include 'geocoderParser/GGeocoderParserLib.v1.php';
 
-<<<<<<< local
-$sql_job = mysql_query("SELECT id, url, country_id FROM job ") or die(mysql_error());
-$cont_job = mysql_num_rows($sql_job);
-echo $cont_job;
-=======
 $sql_job = mysql_query("SELECT id, url, country_id, source_id FROM job WHERE scraper_date IS NULL") or die(mysql_error());
->>>>>>> other
 
 while($row_job = mysql_fetch_array($sql_job))
 {
 	$job_id = $row_job[0];		
 	$url = $row_job[1];
 	$country_id = $row_job[2];
-<<<<<<< local
-=======
 	$source_id = $row_job[3];
->>>>>>> other
 
 	$html = scraperwiki::scrape($url);
 
-<<<<<<< local
-=======
-	$file = 'jobs/'.$job_id.'.html';
-	$fh = fopen($file, 'w');
-	fwrite($fh,$html);
-	fwrite($fh,'<div id=url>'.$url.'</div>');
-	fwrite($fh,'<div id=country_id>'.$country_id.'</div>');
-	fwrite($fh,'<div id=source_id>'.$source_id.'</div>');
-	fclose($fh);
-
->>>>>>> other
 	$dom = new simple_html_dom();
 	$dom->load($html);
 
 	foreach($dom->find('th') as $data)
 	{  
 
-<<<<<<< local
-	$text = trim($data->plaintext);     
-=======
 		$text = trim($data->plaintext);     
->>>>>>> other
 
-<<<<<<< local
-	$value = trim($data->next_sibling()->plaintext);
-	$value = str_replace("'","\'",$value);
-=======
 		$value = trim($data->next_sibling()->plaintext);
 		$value = str_replace("'","\'",$value);
->>>>>>> other
 
-<<<<<<< local
-	//FIXME. HACK by Lucas, to get the data from Maximum salary, since the TH for this data in EURES pages is not well-written, causing the extractor not to work. e.g. <th colspan="1">Maximum salary:</td> 
-	if (preg_match('/Maximum salary:/', $text)){
-		$maximum_salary = str_replace("Maximum salary:","",$text);
-		$maximum_salary = trim(str_replace("</td>","",$maximum_salary));
-		$maximum_salary = str_replace("'","\'",$maximum_salary);
-	}
-	else
-	{
-		switch($text) {
-			//Summary
-			case 'Title:': 
-				$title = $value;
-				$title_id = insert_name('title',$title);
-				break;
-			case 'Description:':break;
-			case 'Required languages:':
-				$required_languages = $value;
-				$required_languages = str_replace("(","",$required_languages);	
-				$required_languages = str_replace(")","",$required_languages);		
-=======
 		//FIXME. HACK by Lucas, to get the data from Maximum salary, since the TH for this data in EURES pages is not well-written, causing the extractor not to work. e.g. <th colspan="1">Maximum salary:</td> 
 		if (preg_match('/Maximum salary:/', $text)){
 			$maximum_salary = str_replace("Maximum salary:","",$text);
@@ -110,110 +57,33 @@ while($row_job = mysql_fetch_array($sql_job))
 					$required_languages = $value;
 					$required_languages = str_replace("(","",$required_languages);	
 					$required_languages = str_replace(")","",$required_languages);		
->>>>>>> other
 
-<<<<<<< local
-				$explode_language1 = explode(",",$required_languages);
-=======
 					$explode_language1 = explode(",",$required_languages);
->>>>>>> other
 
-<<<<<<< local
-				if (sizeof($explode_language1) == 1)
-					$explode_language1 = explode(";",$required_languages);	
-=======
 					if (sizeof($explode_language1) == 1)
 						$explode_language1 = explode(";",$required_languages);	
->>>>>>> other
 
-<<<<<<< local
-				$i = 0;
-=======
 					$i = 0;
->>>>>>> other
 
-<<<<<<< local
-				while ($i < sizeof($explode_language1))
-				{
-					$id_language = '';
-					$id_language_level = '';
-=======
 					while ($i < sizeof($explode_language1))
 					{
 						$id_language = '';
 						$id_language_level = '';
->>>>>>> other
 
-<<<<<<< local
-					$explode_language2 = explode("-",trim($explode_language1[$i]));
-					$language = trim($explode_language2[0]); 
-=======
 						$explode_language2 = explode("-",trim($explode_language1[$i]));
 						$language = trim($explode_language2[0]); 
->>>>>>> other
 
-<<<<<<< local
-					$language_id = insert_name('language',$language);
-=======
 						$language_id = insert_name('language',$language);
->>>>>>> other
 
-<<<<<<< local
-					if (sizeof($explode_language1) > 1)
-					{
-						$language_level = trim($explode_language2[1]);
-=======
 						if (sizeof($explode_language1) > 1)
 						{
 							$language_level = trim($explode_language2[1]);
->>>>>>> other
 
-<<<<<<< local
-						$language_level_id = insert_name('language_level',$language_level);
-=======
 							$language_level_id = insert_name('language_level',$language_level);
 						}
 						$i++;
 						mysql_query("INSERT INTO job_language SET job_id = '$job_id', language_id ='$language_id', language_level_id ='$language_level_id'");
->>>>>>> other
 					}
-<<<<<<< local
-					$i++;
-					mysql_query("INSERT INTO job_language SET job_id = '$job_id', language_id ='$language_id', language_level_id ='$language_level_id'");
-				}
-				break;
-			case 'Starting Date:':$starting_date = $value;break;
-			case 'Ending date:':$ending_date = $value;break;
-			//Geographical Information
-			case 'Country:':$country = $value;break;    
-			case 'Region:':
-				$region = $value;
-				if($region <> '' && $region <> '0' && $region <> '.')
-					mysql_query("INSERT INTO region SET name ='$value', country_id = '$country_id'");
-				$sql = mysql_query("SELECT id FROM region WHERE name = '$region' AND country_id = '$country_id'");				
-				$row = mysql_fetch_array($sql);		
-				$region_id = $row[0];
-				break;
-			//Salary / Contract
-			case 'Minimum salary:':$minimum_salary = $value;break;
-			case 'Maximum salary:':$maximum_salary = $value;break;
-			case 'Salary currency:':
-				$salary_currency = $value;
-				$salary_currency_id = insert_name('salary_currency',$salary_currency);
-				break;
-			case 'Salary tax:':
-				$salary_tax = $value;
-				$salary_tax_id = insert_name('salary_tax',$salary_tax);
-				break;
-			case 'Salary period:':
-				$salary_period = $value;
-				$salary_period_id = insert_name('salary_period',$salary_period);
-				break;
-			case 'Hours per week:':$hours_per_week = $value;break;
-			case 'Contract type:':
-				$contract = $value;
-				$contract = str_replace(")","",$contract);
-=======
 					break;
 				case 'Starting Date:':$starting_date = $value;break;
 				case 'Ending date:':$ending_date = $value;break;
@@ -257,102 +127,21 @@ while($row_job = mysql_fetch_array($sql_job))
 				case 'Contract type:':
 					$contract = $value;
 					$contract = str_replace(")","",$contract);
->>>>>>> other
 
-<<<<<<< local
-				if (strstr($contract, '('))
-					$explode_contract = explode("(",$contract);
-				elseif (strstr($contract, ' - '))
-					$explode_contract = explode(" - ",$contract);
-				else
-					$explode_contract = explode("+",$contract);
-=======
 					if (strstr($contract, '('))
 						$explode_contract = explode("(",$contract);
 					elseif (strstr($contract, ' - '))
 						$explode_contract = explode(" - ",$contract);
 					else
 						$explode_contract = explode("+",$contract);
->>>>>>> other
 
-<<<<<<< local
-				$contract_type = trim($explode_contract[0]);
-=======
 					$contract_type = trim($explode_contract[0]);
->>>>>>> other
 	
-<<<<<<< local
-				$contract_type_id = insert_name('contract_type',$contract_type);
-=======
 					$contract_type_id = insert_name('contract_type',$contract_type);
->>>>>>> other
 
-<<<<<<< local
-				if (sizeof($explode_contract) > 1){
-					$contract_hours = trim($explode_contract[1]);
-=======
 					if (sizeof($explode_contract) > 1){
 						$contract_hours = trim($explode_contract[1]);
->>>>>>> other
 
-<<<<<<< local
-					$contract_hours_id = insert_name('contract_hours',$contract_hours);	
-				}
-				break;
-			//Extras
-			case 'Accommodation provided:':$accommodation_provided = $value;break;
-			case 'Relocation covered:':$relocation_covered = $value;break;
-			case 'Meals included:':$meals_included = $value;break;
-			case 'Travel expenses:':$travel_expenses = $value;break;
-			//Requirements
-			case 'Education skills required:':
-				$education_skills_required = $value;
-				$education_skills_id = insert_name('education_skills',$education_skills_required);
-				break;
-			case 'Professional qualifications required:': $professional_qualifications_required = $value;break;
-			case 'Experience required:':
-				$experience_required = $value;
-				$experience_id = insert_name('experience',$experience_required);
-				break;
-			case 'Driving license required:':
-				$driving_license_required = $value;
-				$driving_license_id = insert_name('driving_license',$driving_license_required);
-				break;
-			case 'Minimum age:': $minimum_age = $value;break;
-			case 'Maximum age:': $maximum_age = $value;break;
-			//Employer
-			case 'Name:':$name = $value;break;
-			case 'Information:':$information = $value;break;
-			case 'Address:':$address = $value;break;                    
-			case 'Phone:':$phone = $value;break;
-			case 'Email:':$email = $value;break;
-			case 'Fax:':$fax = $value;break;
-			//Application
-			case 'How to apply:':
-				$how_to_apply = $value;
-				$how_to_apply_id = insert_name('how_to_apply',$how_to_apply);
-				break;
-			case 'Contact:':$contact = $value;break;         
-			case 'Last date for application:':$last_date_for_application = $value;break;
-			//Other Information
-			case 'Date published:':$date_published = $value;break;
-			case 'National reference:':$national_reference = $value;break;
-			case 'Eures reference:':$eures_reference = $value;break;
-			case 'Last Modification Date:':$last_modification_date = $value;break;
-			case 'Nace code:':$nace_code = $value;break;
-			case 'ISCO code:':
-				$isco_code = $value;
-				switch(strlen ($isco_code)) {
-					case 4: $isco_unit_code = $isco_code;$isco_minor_code = substr($isco_code, 0, 3);$isco_submajor_code= substr($isco_code, 0, 2);$isco_major_code = substr($isco_code, 0, 1);break;
-					case 3: $isco_minor_code = $isco_code;$isco_submajor_code= substr($isco_code, 0, 2);$isco_major_code = substr($isco_code, 0, 1);break;
-					case 2: $isco_submajor_code = $isco_code;$isco_major_code = substr($isco_code, 0, 1);break;
-					case 1: $isco_major_code = $isco_code;break;
-				}						
-				break;
-			case 'Number of posts:':$number_of_posts = $value;break;
-			//FIXME. HACK by Lucas, to get the data from Contact, since the TH for this data in EURES pages is not well-written, causing the extractor not to work. e.g.<th colspan="1>Contact:</th>
-			default:$contact = trim(str_replace("</td>","",$text));$contact = str_replace("'","\'",$contact);break; 
-=======
 						$contract_hours_id = insert_name('contract_hours',$contract_hours);	
 					}
 					break;
@@ -410,17 +199,10 @@ while($row_job = mysql_fetch_array($sql_job))
 				//FIXME. HACK by Lucas, to get the data from Contact, since the TH for this data in EURES pages is not well-written, causing the extractor not to work. e.g.<th colspan="1>Contact:</th>
 				default:$contact = trim(str_replace("</td>","",$text));$contact = str_replace("'","\'",$contact);break; 
 			}
->>>>>>> other
 		}
 	}
-<<<<<<< local
-	}
-=======
->>>>>>> other
 
 	## CLEANING SOME DATA ##
-<<<<<<< local
-=======
 
 	if (isset($salary['currency']) && !isset($salary_currency))
 	{
@@ -433,7 +215,6 @@ while($row_job = mysql_fetch_array($sql_job))
 		$salary_period_id = insert_name('salary_period',$salary_period);
 	}
 
->>>>>>> other
 	if (preg_match('/www./',$address))
 	{
 		$explode_address = explode(",",$address);
@@ -449,16 +230,9 @@ while($row_job = mysql_fetch_array($sql_job))
 			$i++;
 		}
 	}
-<<<<<<< local
-
-=======
 	
->>>>>>> other
 	if (preg_match('/www./',$information))
 	{
-<<<<<<< local
-		$homepage = $information;
-=======
 		$explode_information = explode(" ",$information);
 
 		$i = 0;
@@ -471,14 +245,10 @@ while($row_job = mysql_fetch_array($sql_job))
 			}
 			$i++;
 		}
->>>>>>> other
 		$information = NULL;
 	}
-<<<<<<< local
-=======
 
 
->>>>>>> other
 	elseif (preg_match('/@/',$information))
 	{
 		if ($email == '')
@@ -505,11 +275,8 @@ while($row_job = mysql_fetch_array($sql_job))
 		$how_to_apply = NULL;
 	}	
 */
-<<<<<<< local
-=======
 	if (isset($homepage))
 		$homepage = addhttp($homepage);
->>>>>>> other
 
 	## CLEANING ADDRESS ##
 
@@ -663,13 +430,8 @@ while($row_job = mysql_fetch_array($sql_job))
 			isco_submajor_code = ".db_prep($isco_submajor_code).",   
 			isco_major_code = ".db_prep($isco_major_code).",   
 			number_of_posts = ".db_prep($number_of_posts).",   
-<<<<<<< local
-			scraper_date = SYSDATE(),	 
-			scraper_hour = SYSDATE()
-=======
 			job_scraper_date = SYSDATE(),	 
 			job_scraper_hour = SYSDATE()
->>>>>>> other
 		
 		WHERE url = '$url'") or die(mysql_error());
 
@@ -678,11 +440,7 @@ while($row_job = mysql_fetch_array($sql_job))
 		sleep(0.5);
 		unset($title,$required_languages,$starting_date,$ending_date,$country,$region,$minimum_salary,$maximum_salary,$salary_currency,$salary_tax,$salary_period,$hours_per_week,$contract,$contract_type,$contract_hours, 			$accommodation_provided,$relocation_covered,$meals_included,$travel_expenses,$education_skills_required,$professional_qualifications_required,$experience_required,$driving_license_required,$minimum_age,$maximum_age,
 		$name,$information,$address,$phone,$email,$fax,$how_to_apply,$contact,$last_date_for_application,$date_published,$national_reference,$last_modification_date,$nace_code,$isco_code,$isco_unit_code,$isco_minor_code, 			$isco_submajor_code,$isco_major_code,$number_of_posts,$other_value,$eures_reference,$contract_type_id,$contract_hours_id,$education_skills_id,$experience_id,$driving_license_id,$contact_id,$employer_id,		
-<<<<<<< local
-		$address_array,$how_to_apply_id,$title_id,$homepage,$dom,$text,$data,$sql,$query,$row,$salary_currency_id,$salary_period_id,$salary_tax_id);
-=======
 		$address_array,$how_to_apply_id,$title_id,$homepage,$dom,$text,$data,$sql,$query,$row,$salary_currency_id,$salary_period_id,$salary_tax_id,$salary,$salary['amount']);
->>>>>>> other
 	}
 }
 
