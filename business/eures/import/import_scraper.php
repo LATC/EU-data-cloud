@@ -25,7 +25,8 @@ function insert_address($address)
 	$address = db_prep($address);  
 	$lowercase_address = strtolower($address);
 	
-	$sql = mysql_query("SELECT id FROM geo WHERE LOWER(address) = $lowercase_address AND country_id= '$country_id'") or die (mysql_error());
+	$sql = mysql_query("SELECT id FROM geo WHERE LOWER(address) = $lowercase_address") or die (mysql_error());
+	//$sql = mysql_query("SELECT id FROM geo WHERE LOWER(address) = $lowercase_address AND country_id= '$country_id'") or die (mysql_error());
 
 	if ((mysql_num_rows($sql) == 0) && ($address <> NULL))
 	{
@@ -37,7 +38,7 @@ function insert_address($address)
 	}            
 }
 
-function create_unique_uri()
+function create_unique_id()
 {
 	global $url_id;
 	global $source;
@@ -46,9 +47,9 @@ function create_unique_uri()
 	$row = mysql_fetch_array($sql);		
 	$country_code = $row[0];
 	
-	$unique_uri = $country_code."_".$url_id;
+	$unique_id = $country_code."_".$url_id;
 
-	return $unique_uri;
+	return $unique_id;
 }
 
 function update_address()
@@ -80,7 +81,7 @@ function update_address()
 	}
 }
 
-$country_dir = array('CH','DE','DE2','DE3','GR','HU','IR','IS','IT','LI','LT','LU','LV','MT','NL','NO','UK');
+$country_dir = array('GR','HU','IR','IS','IT','LI','LT','LU','LV','MT','NL','NO','UK');
 
 //$country_dir = array('CH');
 
@@ -375,10 +376,11 @@ for ($i=0; $i < sizeof($country_dir); $i++)
 					}
 				}
 			
-				$id_job = create_unique_id
-
-				mysql_query("INSERT INTO job SET
-					id = '$id_job', 
+				//$id_job = create_unique_id();
+				
+				//id = '$id_job',			
+	
+				mysql_query("INSERT INTO job SET 
 					url = ".db_prep($url).",
 					description = ".db_prep($description).",
 					employer_id = ".db_prep($employer_id).",
