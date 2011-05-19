@@ -26,7 +26,7 @@ map:database a d2rq:Database;
 map:Jobs a d2rq:ClassMap;
     d2rq:dataStorage map:database;
     d2rq:class eures:Job;
-	d2rq:uriPattern "Job/@@job.id@@";
+	d2rq:uriPattern "Job/@@job.id|urlify@@";
 	d2rq:classDefinitionLabel "Job"@en;
     .
 
@@ -64,7 +64,7 @@ map:description a d2rq:PropertyBridge;
 
 map:source a d2rq:PropertyBridge;
     d2rq:belongsToClassMap map:Jobs;
-	d2rq:uriPattern "Source/@@source.id@@";
+	d2rq:uriPattern "Source/@@source.id|urlify@@";
 	d2rq:property eures:source;
     d2rq:join "job.source_id = source.id";
 	d2rq:condition "job.source_id <> ''";
@@ -86,17 +86,17 @@ map:endDate a d2rq:PropertyBridge;
 	d2rq:condition "job.ending_date <> '0000-00-00'";
 	.
 
-map:country a d2rq:PropertyBridge;
+map:jobCountry a d2rq:PropertyBridge;
     d2rq:belongsToClassMap map:Jobs;
-    d2rq:column "country.name";
+    d2rq:uriPattern "Country/@@country.dbpedia_uri|urlify@@";
 	d2rq:property eures:country;
-    d2rq:join "job.country_id = country.id";
+    d2rq:join "job.country_id = country.code";
 	d2rq:condition "job.country_id <> ''";
 	.
 
 map:region a d2rq:PropertyBridge;
     d2rq:belongsToClassMap map:Jobs;
-    d2rq:uriPattern "Region/@@region.id@@";
+    d2rq:uriPattern "Region/@@region.id|urlify@@";
 	d2rq:property eures:region;
     d2rq:join "job.region_id = region.id";
 	d2rq:condition "job.region_id <> ''";
@@ -120,36 +120,46 @@ map:maximumSalary a d2rq:PropertyBridge;
 	
 map:salaryCurrency a d2rq:PropertyBridge;
     d2rq:belongsToClassMap map:Jobs;
-    d2rq:column "job.salary_currency";
+    d2rq:uriPattern "Currency/@@salary_currency.id|urlify@@";
 	d2rq:property eures:salaryCurrency;
 	d2rq:propertyDefinitionLabel "salary currency"@en;
-	d2rq:condition "job.salary_currency <> ''";
+	d2rq:join "job.salary_currency_id = salary_currency.id";
+	d2rq:condition "job.salary_currency_id <> ''";
 	.	
 
 map:salaryPeriod a d2rq:PropertyBridge;
     d2rq:belongsToClassMap map:Jobs;
-    d2rq:column "job.salary_period";
+    d2rq:uriPattern "Period/@@salary_period.id|urlify@@";
 	d2rq:property eures:salaryPeriod;
 	d2rq:propertyDefinitionLabel "salary period"@en;
-	d2rq:condition "job.salary_period <> ''";
+	d2rq:join "job.salary_period_id = salary_period.id";
+	d2rq:condition "job.salary_period_id <> ''";
 	.
 
 map:salaryTax a d2rq:PropertyBridge;
     d2rq:belongsToClassMap map:Jobs;
-    d2rq:column "job.salary_tax";
+    d2rq:uriPattern "Tax/@@salary_tax.id|urlify@@";
 	d2rq:property eures:salaryTax;
 	d2rq:propertyDefinitionLabel "salary tax"@en;
-	d2rq:condition "job.salary_tax <> ''";
+	d2rq:join "job.salary_tax_id = salary_tax.id";
+	d2rq:condition "job.salary_tax_id <> ''";
 	.		
 
 map:contractType a d2rq:PropertyBridge;
     d2rq:belongsToClassMap map:Jobs;
-    d2rq:uriPattern "Contract/@@contract_type.id@@";
+    d2rq:uriPattern "Contract/@@contract_type.id|urlify@@";
 	d2rq:property eures:contractType;
     d2rq:join "job.contract_type_id = contract_type.id";
 	d2rq:condition "job.contract_type_id <> ''";
 	.
 
+map:contractHour a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+    d2rq:uriPattern "ContractHours/@@contract_hours.id|urlify@@";
+	d2rq:property eures:contractHours;
+    d2rq:join "job.contract_hours_id = contract_hours.id";
+	d2rq:condition "job.contract_hours_id <> ''";
+	.
 map:hoursPerWeek a d2rq:PropertyBridge;
     d2rq:belongsToClassMap map:Jobs;
     d2rq:column "job.hours_per_week";
@@ -208,7 +218,7 @@ map:professionalQualifications a d2rq:PropertyBridge;
 	
 map:jobExperience a d2rq:PropertyBridge;
     d2rq:belongsToClassMap map:Jobs;
-	d2rq:uriPattern "Experience/@@experience.id@@";
+	d2rq:uriPattern "Experience/@@experience.id|urlify@@";
 	d2rq:property eures:experience;
     d2rq:join "job.experience_id = experience.id";
 	d2rq:condition "job.experience_id <> ''";
@@ -220,6 +230,7 @@ map:drivingLicense a d2rq:PropertyBridge;
 	d2rq:property eures:drivingLicense;
     d2rq:join "job.driving_license_id = driving_license.id";
 	d2rq:condition "job.driving_license_id <> ''";
+	d2rq:condition "job.driving_license_id <> '0'";
 	.	
 
 map:minimumAge a d2rq:PropertyBridge;
@@ -228,6 +239,7 @@ map:minimumAge a d2rq:PropertyBridge;
 	d2rq:property eures:minimumAge;
 	d2rq:propertyDefinitionLabel "minimum age"@en;
 	d2rq:condition "job.minimum_age <> ''";
+	d2rq:condition "job.minimum_age <> '0'";
 	.	
 
 map:maximumAge a d2rq:PropertyBridge;
@@ -249,7 +261,7 @@ map:howToApply a d2rq:PropertyBridge;
 map:application a d2rq:PropertyBridge;
     d2rq:belongsToClassMap map:Jobs;
     d2rq:column "job.last_date_for_application";
-	d2rq:property eures:last_date_for_application;
+	d2rq:property eures:lastDate;
 	d2rq:propertyDefinitionLabel "last date for application"@en;
 	d2rq:condition "job.last_date_for_application <> '0000-00-00'";
 	.
@@ -257,7 +269,7 @@ map:application a d2rq:PropertyBridge;
 map:publicationDate a d2rq:PropertyBridge;
     d2rq:belongsToClassMap map:Jobs;
     d2rq:column "job.date_published";
-	d2rq:property eures:date_published;
+	d2rq:property eures:datePublished;
 	d2rq:propertyDefinitionLabel "Date Published"@en;
 	d2rq:condition "job.date_published <> '0000-00-00'";
 	.	
@@ -265,7 +277,7 @@ map:publicationDate a d2rq:PropertyBridge;
 map:modificationDate a d2rq:PropertyBridge;
     d2rq:belongsToClassMap map:Jobs;
     d2rq:column "job.last_modification_date";
-	d2rq:property eures:last_modification_date ;
+	d2rq:property eures:lastModification ;
 	d2rq:propertyDefinitionLabel "Date Published"@en;
 	d2rq:condition "job.last_modification_date <> '0000-00-00'";
 	.
@@ -276,6 +288,14 @@ map:nationalReference a d2rq:PropertyBridge;
 	d2rq:property eures:nationalReference;
 	d2rq:propertyDefinitionLabel "national reference"@en;
 	d2rq:condition "job.national_reference <> ''";
+	.
+	
+map:euresReference a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+    d2rq:column "job.eures_reference";
+	d2rq:property eures:euresReference;
+	d2rq:propertyDefinitionLabel "Eures reference"@en;
+	d2rq:condition "job.eures_reference <> ''";
 	.
 
 map:naceCode a d2rq:PropertyBridge;
@@ -288,7 +308,7 @@ map:naceCode a d2rq:PropertyBridge;
 
 map:iscoCode a d2rq:PropertyBridge;
     d2rq:belongsToClassMap map:Jobs;
-    d2rq:uriPattern "Isco/@@isco.id@@";
+    d2rq:uriPattern "Isco/@@isco.id|urlify@@";
 	d2rq:property eures:iscoCode;
 	d2rq:join "job.isco_code = isco.id";
 	d2rq:propertyDefinitionLabel "ISCO code"@en;
@@ -297,7 +317,7 @@ map:iscoCode a d2rq:PropertyBridge;
 
 map:iscoMajorCode a d2rq:PropertyBridge;
     d2rq:belongsToClassMap map:Jobs;
-	d2rq:uriPattern "Isco/@@isco.id@@";
+	d2rq:uriPattern "Isco/@@isco.id|urlify@@";
 	d2rq:property eures:iscoMajorCode;
 	d2rq:join "job.isco_major_code = isco.id";
 	d2rq:propertyDefinitionLabel "ISCO major code"@en;
@@ -306,7 +326,7 @@ map:iscoMajorCode a d2rq:PropertyBridge;
 
 map:iscoSubmajorCode a d2rq:PropertyBridge;
     d2rq:belongsToClassMap map:Jobs;
-	d2rq:uriPattern "Isco/@@isco.id@@";
+	d2rq:uriPattern "Isco/@@isco.id|urlify@@";
 	d2rq:property eures:iscoSubmajorCode;
 	d2rq:join "job.isco_submajor_code = isco.id";
 	d2rq:propertyDefinitionLabel "ISCO submajor code"@en;
@@ -315,7 +335,7 @@ map:iscoSubmajorCode a d2rq:PropertyBridge;
 
 map:iscoMinorCode a d2rq:PropertyBridge;
     d2rq:belongsToClassMap map:Jobs;
-	d2rq:uriPattern "Isco/@@isco.id@@";
+	d2rq:uriPattern "Isco/@@isco.id|urlify@@";
 	d2rq:property eures:iscoMinorCode;
 	d2rq:join "job.isco_minor_code = isco.id";
 	d2rq:propertyDefinitionLabel "ISCO minor code"@en;
@@ -324,7 +344,7 @@ map:iscoMinorCode a d2rq:PropertyBridge;
 	
 map:iscoUnitCode a d2rq:PropertyBridge;
     d2rq:belongsToClassMap map:Jobs;
-	d2rq:uriPattern "Isco/@@isco.id@@";
+	d2rq:uriPattern "Isco/@@isco.id|urlify@@";
 	d2rq:property eures:iscoUnitCode;
 	d2rq:join "job.isco_unit_code = isco.id";
 	d2rq:propertyDefinitionLabel "ISCO unit code"@en;
@@ -341,32 +361,14 @@ map:numberOfPosts a d2rq:PropertyBridge;
 
 map:euresURL a d2rq:PropertyBridge;
     d2rq:belongsToClassMap map:Jobs;
-	d2rq:property foaf:page;
+	d2rq:property eures:url;
 	d2rq:uriColumn "job.url";
 	.
 
-map:language a d2rq:PropertyBridge;
-    d2rq:belongsToClassMap map:Jobs;
-    d2rq:column "language.name";
-	d2rq:property eures:language;
-    d2rq:join "job.id = job_language.job_id";
-	d2rq:join "job_language.language_id = language.id";
-	d2rq:condition "job.how_to_apply_id <> ''";
-	.
-
-map:languageLevel a d2rq:PropertyBridge;
-    d2rq:belongsToClassMap map:Jobs;
-    d2rq:column "language_level.name";
-	d2rq:property eures:languageLevel;
-    d2rq:join "job.id = job_language.job_id";
-	d2rq:join "job_language.language_level_id = language_level.id";
-	d2rq:condition "job.how_to_apply_id <> ''";
-	.
-	
 map:Employers a d2rq:ClassMap;
     d2rq:dataStorage map:database;
     d2rq:class eures:Employers;
-	d2rq:uriPattern "Employer/@@employer.id@@";
+	d2rq:uriPattern "Employer/@@employer.id|urlify@@";
 	d2rq:classDefinitionLabel "Employer"@en;
     .
 	
@@ -379,7 +381,7 @@ map:name a d2rq:PropertyBridge;
 
 map:employerURL a d2rq:PropertyBridge;
     d2rq:belongsToClassMap map:Employers;
-	d2rq:property foaf:page;
+	d2rq:property eures:page;
 	d2rq:uriPattern "@@employer.homepage@@";
 	d2rq:condition "employer.homepage <> ''";
 	.
@@ -392,25 +394,25 @@ map:address a d2rq:PropertyBridge;
 	d2rq:condition "employer.address <> ''";
 	.
 
-map:country a d2rq:PropertyBridge;
+map:employerCountry a d2rq:PropertyBridge;
     d2rq:belongsToClassMap map:Employers;
-    d2rq:column "country.name";
+    d2rq:uriPattern "Country/@@country.dbpedia_uri|urlify@@";
 	d2rq:property eures:country;
-    d2rq:join "employer.country_id = country.id";
+    d2rq:join "employer.country_id = country.code";
 	d2rq:condition "employer.country_id <> ''";
 	.
 
-map:administrative_area a d2rq:PropertyBridge;
+map:employerAdministrativeArea a d2rq:PropertyBridge;
     d2rq:belongsToClassMap map:Employers;
-    d2rq:column "employer.administrative_area";
+    d2rq:uriPattern "AdministrativeArea/@@employer.administrative_area|urlify@@";
 	d2rq:property eures:administrative_area;
 	d2rq:propertyDefinitionLabel "administrative area"@en;
 	d2rq:condition "employer.administrative_area <> ''";
 	.
 
-map:subadministrative_area a d2rq:PropertyBridge;
+map:employerSubadministrativeArea a d2rq:PropertyBridge;
     d2rq:belongsToClassMap map:Employers;
-    d2rq:column "employer.subadministrative_area";
+    d2rq:uriPattern "SubadministrativeArea/@@employer.subadministrative_area|urlify@@";
 	d2rq:property eures:subadministrative_area;
 	d2rq:propertyDefinitionLabel "subadministrative area"@en;
 	d2rq:condition "employer.subadministrative_area <> ''";
@@ -418,7 +420,7 @@ map:subadministrative_area a d2rq:PropertyBridge;
 
 map:city a d2rq:PropertyBridge;
     d2rq:belongsToClassMap map:Employers;
-    d2rq:column "employer.locality";
+	d2rq:uriPattern "City/@@employer.locality|urlify@@";
 	d2rq:property eures:city;
 	d2rq:propertyDefinitionLabel "city"@en;
 	d2rq:condition "employer.locality <> ''";
@@ -450,10 +452,10 @@ map:postalCode a d2rq:PropertyBridge;
 
 map:latitude a d2rq:PropertyBridge;
     d2rq:belongsToClassMap map:Employers;
-    d2rq:column "employer.latidude";
+    d2rq:column "employer.latitude";
 	d2rq:property eures:latitute;
 	d2rq:propertyDefinitionLabel "Latitute"@en;
-	d2rq:condition "employer.latidude <> ''";
+	d2rq:condition "employer.latitude <> ''";
 	.
 
 map:longitude a d2rq:PropertyBridge;
@@ -464,74 +466,40 @@ map:longitude a d2rq:PropertyBridge;
 	d2rq:condition "employer.longitude <> ''";
 	.
 
-map:viewportLatSouthwest a d2rq:PropertyBridge; 
-	d2rq:belongsToClassMap map:Employers;
-    d2rq:column "employer.viewport_lat_southwest";
-	d2rq:property eures:viewport_lat_southwest;
-	d2rq:propertyDefinitionLabel "Viewport langitude southwest"@en;
-	d2rq:condition "employer.viewport_lat_southwest <> ''";
+map:latSouthwest a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Employers;
+    d2rq:column "employer.lat_southwest";
+	d2rq:property eures:latSouthwest;
+	d2rq:propertyDefinitionLabel "Latitude southwest"@en;
+	d2rq:condition "employer.lat_southwest <> ''";
+	.
+
+map:lngSouthwest a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Employers;
+    d2rq:column "employer.lng_southwest";
+	d2rq:property eures:lngSouthwest;
+	d2rq:propertyDefinitionLabel "Longitude southwest"@en;
+	d2rq:condition "employer.lng_southwest <> ''";
+	.
+map:latNortheast a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Employers;
+    d2rq:column "employer.lat_northeast";
+	d2rq:property eures:latNortheast;
+	d2rq:propertyDefinitionLabel "Latitude northeast"@en;
+	d2rq:condition "employer.lat_northeast <> ''";
+	.
+map:lngNortheast a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Employers;
+    d2rq:column "employer.lng_northeast";
+	d2rq:property eures:lngNortheast;
+	d2rq:propertyDefinitionLabel "Longitude northeast"@en;
+	d2rq:condition "employer.lng_northeast <> ''";
 	.	
-
-map:viewportLngSouthwest a d2rq:PropertyBridge; 
-	d2rq:belongsToClassMap map:Employers;
-    d2rq:column "employer.viewport_lng_southwest";
-	d2rq:property eures:viewport_lng_southwest;
-	d2rq:propertyDefinitionLabel "Viewport longitude southwest"@en;
-	d2rq:condition "employer.viewport_lng_southwest <> ''";
-	.
-
-map:viewportLatNortheast a d2rq:PropertyBridge; 
-	d2rq:belongsToClassMap map:Employers;
-    d2rq:column "employer.viewport_lat_northeast";
-	d2rq:property eures:viewport_lat_northeast;
-	d2rq:propertyDefinitionLabel "Viewport langitude northeast"@en;
-	d2rq:condition "employer.viewport_lat_northeast <> ''";
-	.	
-	
-map:viewportLngNortheast a d2rq:PropertyBridge; 
-	d2rq:belongsToClassMap map:Employers;
-    d2rq:column "employer.viewport_lng_northeast";
-	d2rq:property eures:viewport_lng_northeast;
-	d2rq:propertyDefinitionLabel "Viewport longitude northeast"@en;
-	d2rq:condition "employer.viewport_lng_northeast <> ''";
-	.
-
-map:boundsLatSouthwest a d2rq:PropertyBridge; 
-	d2rq:belongsToClassMap map:Employers;
-    d2rq:column "employer.bounds_lat_southwest";
-	d2rq:property eures:bounds_lat_southwest;
-	d2rq:propertyDefinitionLabel "bounds latitude southwest"@en;
-	d2rq:condition "employer.bounds_lat_southwest <> ''";
-	.
-
-map:boundsLngSouthwest a d2rq:PropertyBridge; 
-	d2rq:belongsToClassMap map:Employers;
-    d2rq:column "employer.bounds_lng_southwest";
-	d2rq:property eures:bounds_lng_southwest;
-	d2rq:propertyDefinitionLabel "bounds longitude southwest"@en;
-	d2rq:condition "employer.bounds_lng_southwest <> ''";
-	.	
-
-map:boundsLatNortheast a d2rq:PropertyBridge; 
-	d2rq:belongsToClassMap map:Employers;
-    d2rq:column "employer.bounds_lat_northeast";
-	d2rq:property eures:bounds_lat_northeast;
-	d2rq:propertyDefinitionLabel "Bounds langitude northeast"@en;
-	d2rq:condition "employer.bounds_lat_northeast <> ''";
-	.
-
-map:boundsLngNortheast a d2rq:PropertyBridge; 
-	d2rq:belongsToClassMap map:Employers;
-    d2rq:column "employer.bounds_lng_northeast";
-	d2rq:property eures:bounds_lng_northeast;
-	d2rq:propertyDefinitionLabel "bounds longitude northeast"@en;
-	d2rq:condition "employer.bounds_lng_northeast <> ''";
-	.
 
 map:Contacts a d2rq:ClassMap;
     d2rq:dataStorage map:database;
     d2rq:class eures:Contacts;
-	d2rq:uriPattern "Contact/@@contact.id@@";
+	d2rq:uriPattern "Contact/@@contact.id|urlify@@";
 	d2rq:classDefinitionLabel "Contact"@en;
     .
 
@@ -552,8 +520,8 @@ map:contact a d2rq:PropertyBridge;
 
 map:contactEmployer a d2rq:PropertyBridge; 
 	d2rq:belongsToClassMap map:Contacts;
-    d2rq:uriPattern "Employer/@@employer.id@@";
-	d2rq:property eures:employer;
+    d2rq:uriPattern "Employer/@@employer.id|urlify@@";
+	d2rq:property eures:contactEmployer;
 	d2rq:propertyDefinitionLabel "employer"@en;
 	d2rq:join "contact.employer_id = employer.id";
 	d2rq:condition "contact.employer_id <> ''";
@@ -584,18 +552,10 @@ map:fax a d2rq:PropertyBridge;
 	d2rq:condition "contact.fax <> ''";
 	.
 
-map:country a d2rq:PropertyBridge;
-    d2rq:belongsToClassMap map:Contacts;
-    d2rq:column "country.name";
-	d2rq:property eures:country;
-    d2rq:join "contact.country_id = country.id";
-	d2rq:condition "contact.country_id <> ''";
-	.
-
 map:Isco a d2rq:ClassMap;
     d2rq:dataStorage map:database;
     d2rq:class eures:Isco;
-	d2rq:uriPattern "Isco/@@isco.id@@";
+	d2rq:uriPattern "Isco/@@isco.id|urlify@@";
 	d2rq:classDefinitionLabel "Isco"@en;
     .
 
@@ -609,14 +569,14 @@ map:iscoName a d2rq:PropertyBridge;
 
 map:iscoURL a d2rq:PropertyBridge;
     d2rq:belongsToClassMap map:Isco;
-	d2rq:property foaf:page;
+	d2rq:property eures:iscoUrl;
 	d2rq:uriPattern "http://www.ilo.org/public/english/bureau/stat/isco/isco88/@@isco.id@@.htm";
 	.
 	
 map:ContractType a d2rq:ClassMap;
     d2rq:dataStorage map:database;
     d2rq:class eures:ContractType;
-	d2rq:uriPattern "Contract/@@contract_type.id@@";
+	d2rq:uriPattern "Contract/@@contract_type.id|urlify@@";
 	d2rq:classDefinitionLabel "Contract Type"@en;
     .
 
@@ -631,7 +591,7 @@ map:contractTypeName a d2rq:PropertyBridge;
 map:Source a d2rq:ClassMap;
     d2rq:dataStorage map:database;
     d2rq:class eures:Source;
-	d2rq:uriPattern "Source/@@source.id@@";
+	d2rq:uriPattern "Source/@@source.id|urlify@@";
 	d2rq:classDefinitionLabel "Eures Source"@en;
     .
 
@@ -646,7 +606,7 @@ map:sourceName a d2rq:PropertyBridge;
 map:Region a d2rq:ClassMap;
     d2rq:dataStorage map:database;
     d2rq:class eures:Region;
-	d2rq:uriPattern "Region/@@region.id@@";
+	d2rq:uriPattern "Region/@@region.id|urlify@@";
 	d2rq:classDefinitionLabel "Region"@en;
     .
 
@@ -661,7 +621,7 @@ map:regionName a d2rq:PropertyBridge;
 map:Experience a d2rq:ClassMap;
     d2rq:dataStorage map:database;
     d2rq:class eures:Experience;
-	d2rq:uriPattern "Experience/@@experience.id@@";
+	d2rq:uriPattern "Experience/@@experience.id|urlify@@";
 	d2rq:classDefinitionLabel "Experience"@en;
     .
 
@@ -671,4 +631,125 @@ map:experienceName a d2rq:PropertyBridge;
 	d2rq:property rdfs:label;
 	d2rq:propertyDefinitionLabel "Name"@en;
 	d2rq:condition "experience.name <> ''";
+	.
+
+map:ContractHours a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class eures:ContractHours;
+	d2rq:uriPattern "ContractHours/@@contract_hours.id|urlify@@";
+	d2rq:classDefinitionLabel "Contract Hours"@en;
+    .
+
+map:contractHoursName a d2rq:PropertyBridge; 
+	d2rq:belongsToClassMap map:ContractHours;
+    d2rq:column "contract_hours.name";
+	d2rq:property rdfs:label;
+	d2rq:propertyDefinitionLabel "Name"@en;
+	d2rq:condition "contract_hours.name <> ''";
+	.
+
+map:City a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class eures:City;
+	d2rq:uriPattern "City/@@employer.locality|urlify@@";
+	d2rq:classDefinitionLabel "City"@en;
+    .
+
+map:cityName a d2rq:PropertyBridge; 
+	d2rq:belongsToClassMap map:City;
+    d2rq:column "employer.locality";
+	d2rq:property rdfs:label;
+	d2rq:propertyDefinitionLabel "Name"@en;
+	d2rq:condition "employer.locality <> ''";
+	.
+
+map:AdministrativeArea a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class eures:AdministrativeArea;
+	d2rq:uriPattern "AdministrativeArea/@@employer.administrative_area|urlify@@";
+	d2rq:classDefinitionLabel "Administrative Area"@en;
+    .
+
+map:administrativeAreaName a d2rq:PropertyBridge; 
+	d2rq:belongsToClassMap map:AdministrativeArea;
+    d2rq:column "employer.administrative_area";
+	d2rq:property rdfs:label;
+	d2rq:propertyDefinitionLabel "Name"@en;
+	d2rq:condition "employer.administrative_area <> ''";
+	.
+
+
+map:SubadministrativeArea a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class eures:SubadministrativeArea;
+	d2rq:uriPattern "SubadministrativeArea/@@employer.subadministrative_area|urlify@@";
+	d2rq:classDefinitionLabel "Subadministrative Area"@en;
+    .
+
+map:subadministrativeAreaName a d2rq:PropertyBridge; 
+	d2rq:belongsToClassMap map:SubadministrativeArea;
+    d2rq:column "employer.subadministrative_area";
+	d2rq:property rdfs:label;
+	d2rq:propertyDefinitionLabel "Name"@en;
+	d2rq:condition "employer.subadministrative_area <> ''";
+	.
+
+map:SalaryTax a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class eures:SalaryTax;
+	d2rq:uriPattern "Tax/@@salary_tax.id|urlify@@";
+	d2rq:classDefinitionLabel "Salary Tax"@en;
+    .
+
+map:salaryTaxName a d2rq:PropertyBridge; 
+	d2rq:belongsToClassMap map:SalaryTax;
+    d2rq:column "salary_tax.name";
+	d2rq:property rdfs:label;
+	d2rq:propertyDefinitionLabel "Name"@en;
+	d2rq:condition "salary_tax.name <> ''";
+	.
+
+map:SalaryPeriod a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class eures:SalaryPeriod;
+	d2rq:uriPattern "Period/@@salary_period.id|urlify@@";
+	d2rq:classDefinitionLabel "Salary Period"@en;
+    .
+
+map:salaryPeriodName a d2rq:PropertyBridge; 
+	d2rq:belongsToClassMap map:SalaryPeriod;
+    d2rq:column "salary_period.name";
+	d2rq:property rdfs:label;
+	d2rq:propertyDefinitionLabel "Name"@en;
+	d2rq:condition "salary_period.name <> ''";
+	.
+	
+map:SalaryCurrency a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class eures:SalaryCurrency;
+	d2rq:uriPattern "Currency/@@salary_currency.id|urlify@@";
+	d2rq:classDefinitionLabel "Salary Currency"@en;
+    .
+
+map:salaryCurrencyName a d2rq:PropertyBridge; 
+	d2rq:belongsToClassMap map:SalaryCurrency;
+    d2rq:column "salary_currency.name";
+	d2rq:property rdfs:label;
+	d2rq:propertyDefinitionLabel "Name"@en;
+	d2rq:condition "salary_currency.name <> ''";
+	.
+
+map:Country a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class eures:Country;
+	d2rq:uriPattern "Country/@@country.dbpedia_uri|urlify@@";
+	d2rq:classDefinitionLabel "Country"@en;
+    .
+
+map:countryName a d2rq:PropertyBridge; 
+	d2rq:belongsToClassMap map:Country;
+    d2rq:column "country.dbpedia_uri";
+	d2rq:property rdfs:label;
+	d2rq:propertyDefinitionLabel "Name"@en;
+	d2rq:condition "country.dbpedia_uri <> ''";
 	.
