@@ -1,17 +1,84 @@
 <?php
 
+function insert_address($address)
+{	
+	global $country_code;
+
+	$address = db_prep($address);  
+	$lowercase_address = strtolower($address);
+	
+	$sql = mysql_query("SELECT id FROM geo WHERE LOWER(address) = $lowercase_address") or die (mysql_error());
+	//$sql = mysql_query("SELECT id FROM geo WHERE LOWER(address) = $lowercase_address AND country_code= '$country_code'") or die (mysql_error());
+
+	if ((mysql_num_rows($sql) == 0) && ($address <> NULL))
+	{
+		mysql_query("INSERT INTO geo SET address = $address, country_code= '$country_code'") or die (mysql_error());	
+	}
+	else
+	{
+		echo "Address already extracted." . PHP_EOL;
+	}            
+}
+
+function create_job_id()
+{
+	global $url_id;
+	global $source;
+
+	$sql = mysql_query("SELECT country_code,local_id FROM source WHERE name = ".db_prep($source));
+	$row = mysql_fetch_array($sql);		
+	$country_code = $row[0];
+	$local_id = $row[1];
+	
+	$unique_id = $country_code."_".$local_id."_".$url_id;
+
+	return $unique_id;
+}
+
+function update_address()
+{
+	$sql = mysql_query("SELECT address FROM geo WHERE formatted_address IS NULL LIMIT 0, 1000") or die (mysql_error()); 
+	//improve WHERE
+
+	while($row = mysql_fetch_array($sql))
+	{
+		$address = $row[0];	
+		$address_array = get_geocoder_address($address);
+		$query = "UPDATE geo SET
+			formatted_address =".db_prep($address_array['formatted_address']).",
+			country_code =".db_prep($address_array['country_code']).",
+			administrative_area =".db_prep($address_array['administrative_area_level_1']).",
+			subadministrative_area =".db_prep($address_array['administrative_area_level_2']).",
+			locality =".db_prep($address_array['locality']).",
+			route =".db_prep($address_array['route']).",
+			street_number =".db_prep($address_array['street_number']).",
+			postal_code =".db_prep($address_array['postal_code']).",
+			latitude =".db_prep($address_array['latitude']).",
+			longitude =".db_prep($address_array['longitude']).",
+			lat_southwest =".db_prep($address_array['viewport_lat_southwest']).",
+			lng_southwest =".db_prep($address_array['viewport_lng_southwest']).",
+			lat_northeast =".db_prep($address_array['viewport_lat_northeast']).",
+			lng_northeast =".db_prep($address_array['viewport_lng_northeast'])."
+		WHERE address =".db_prep($address);
+		mysql_query($query) or die (mysql_error());		
+	}
+}
+
 function format_hour($value)
 {
 	global $job_id;
 	
 	global $source_id;
 
-	preg_match_all('/([0-9]+[:.,]?[0-9]*)/',$value,$matches);
+	$hours['max'] = NULL;
+	$hours['min'] = NULL;
+
+	preg_match_all('/([0-9]+[.]?[0-9]*)/',$value,$matches);
 	if (sizeof($matches[0]) > 1)
 	{
 		$hours['min'] = $matches[0][0];
 
-		if ($matches[0][1] != $hours['min'])
+		if ($matches[0][1] > $hours['min'])
 		{
 		   $hours['max'] = $matches[0][1];
 		   $hours['max'] = preg_replace("/[,:]/", ".", $hours['max']);
@@ -23,7 +90,7 @@ function format_hour($value)
 	}
 	else
 	{
-		write_log('logs/hours_per_week_errors.log',"$value\t$country_id\t$job_id\t$source_id\n");
+		write_log('logs/hours_per_week_errors.log',"$value\t$country_code\t$job_id\t$source_id\n");
 	}
 	$hours['min'] = preg_replace("/[,:]/", ".", $hours['min']);
 	return $hours;
@@ -41,6 +108,33 @@ function translate($text)
 	return $json['data']['translations'][0]['translatedText'];
 }
 
+function split_required_languages($required_languages)
+{
+	global $job_id;
+
+	$iso639p3 = NULL;
+	$ilr_level = NULL;
+
+	$required_languages = preg_replace("/[\(\)]/","",$required_languages);	
+	$split_language1 = preg_split("/[,;]/",$required_languages);
+
+	foreach ($split_language1 as $spl1)
+	{
+		$split_language2 = preg_split("/[-\/]/",$spl1);
+		if (isset($split_language2[0]))
+		{
+			$language = trim($split_language2[0]);
+			//$iso639p3 = import_language_level($iso639p3);
+		}
+		if (isset($split_language2[1]))
+		{
+			$language_level = trim($split_language2[1]);
+			//$ilr_level = import_language_level($language_level);
+		}
+		//mysql_query("INSERT INTO job_language SET job_id = '$job_id', iso639p3 ='$iso639p3', ilr_level =".db_prep($ilr_level)) or die (mysql_error());
+	}
+}
+
 function import_language_level($language_level)
 {
 	//1. thing you need in that function: lanuage level, country, language
@@ -50,7 +144,7 @@ function import_language_level($language_level)
 	global $job_id;
 	//for test: $job_id = 9;
 
-	global $country_id;
+	global $country_code;
 
 	global $source_id;
 
@@ -75,7 +169,7 @@ function import_language_level($language_level)
 		$row = mysql_fetch_object($sql);
 		$ilr_level = $row->ilr_level;
 		
-		mysql_query("INSERT INTO job_language SET job_id = '$job_id', iso639p3 = '$iso639p3', ilr_level = '$ilr_level'") or die (mysql_error());	
+		return $ilr_level;	
 	}
 	//7. if not found:
 	else
@@ -104,10 +198,11 @@ function import_language_level($language_level)
 			//1. (create if not exists) & open a log file called language_levels_added.log
 			//open_log('language_levels_added.log');
 			//3. write in language_levels_added.log, tab separated:- level original w/o lower case,- language,- translation found in google translate in english,- country,- job_id (uniquejvid!),- source_id
-			write_log('logs/language_levels_added.log',"$language_level\t$iso639p3\t$language_level_translate\t$country_id\t$job_id\t$source_id\n");	
+			write_log('logs/language_levels_added.log',"$language_level\t$iso639p3\t$language_level_translate\t$country_code\t$job_id\t$source_id\n");	
 
-			//1. write language_level_id in job table			
-			mysql_query("INSERT INTO job_language SET job_id = '$job_id', iso639p3 = '$iso639p3', ilr_level = '$ilr_level'") or die (mysql_error());		
+			//1. write language_level_id in job table
+	
+			return $ilr_level;		
 		}
 		//7. if not found:		
 		else
@@ -115,7 +210,8 @@ function import_language_level($language_level)
 			//2. (create if not exists) & open a log file called language_levels_errors.log
 			//open_log('language_levels_errors.log');
 			//3. write in language_levels_errors.log, tab separated:- level original w/o lower case,- language,- translation found in google translate in english,- country,- job_id (uniquejvid!),- source_id
-			write_log('logs/language_levels_errors.log',"$language_level\t$iso639p3\t$language_level_translate\t$country_id\t$job_id\t$source_id\n");
+			write_log('logs/language_levels_errors.log',"$language_level\t$iso639p3\t$language_level_translate\t$country_code\t$job_id\t$source_id\n");
+			return NULL;
 		}
 	}			
 }
@@ -127,13 +223,13 @@ function import_language($language)
 
 	global $source_id;
 
-	global $country_id;
+	global $country_code;
 
 	//2. Lower case the EURES language
 	$lowercase_language = strtolower($language);
 
 	//3. Select iso639p3 from language table where EURES language = LEXVO label
-	$sql = mysql_query("SELECT iso639p3 FROM language_code WHERE labels LIKE'%$lowercase_language%'") or die (mysql_error());
+	$sql = mysql_query("SELECT iso639p3 FROM language WHERE labels LIKE'%$lowercase_language%'") or die (mysql_error());
 
 	//4. If found return the iso639p3
 	if ((mysql_num_rows($sql) <> 0))
@@ -157,7 +253,7 @@ function import_language($language)
 			$iso639p3 = $row->iso639p3;
 
 			//a. write in language_added.log
-			write_log('logs/languages_added.log',"$language\t$iso639p3\t$language_translate\t$country_id\t$job_id\t$source_id\n");
+			write_log('logs/languages_added.log',"$language\t$iso639p3\t$language_translate\t$country_code\t$job_id\t$source_id\n");
 
 			//b. return the iso639p3			
 			return $iso639p3;		
@@ -165,7 +261,7 @@ function import_language($language)
 		else
 		{
 			//4. if not found write in language_errors.log
-			write_log('logs/languages_errors.log',"$language\t$iso639p3\t$language_translate\t$country_id\t$job_id\t$source_id\n");
+			write_log('logs/languages_errors.log',"$language\t$iso639p3\t$language_translate\t$country_code\t$job_id\t$source_id\n");
 			return NULL;
 		}
 	}
@@ -250,12 +346,16 @@ function select_id($query)
 	}
 }
 
-function format_currency($value) {
+function format_salary($value) {
 	global $job_id;
 
+	$salary['amount'] = NULL;
+	$salary['currency'] = NULL;
+	$salary['period'] = NULL;
+
 	$number = strtoupper($value);
-	$period = array('STUNDE', 'MONATLICH', 'STD. LOHN', 'PER HOUR', 'PER D', 'PER DAY', 'PER ANNUM', 'PA', 'PER WEEK', 'PW', 'PH');
-	$currency = array('€', 'EURO', 'GBP','SFR.');
+	$period = array('STUNDE', 'MONATLICH', 'STD. LOHN', 'PER HOUR', 'PER D', 'PER DAY', 'PER ANNUM', 'PA', 'PER WEEK', 'PW', 'PH', 'PRO STUNDE','P.A.');
+	$currency = array('€', 'EURO', 'GBP','SFR.','FR.');
 
 	$number = str_replace("-","0",$number);
 
@@ -269,35 +369,27 @@ function format_currency($value) {
 		if (preg_match('/'.$cur.'/',$number))
 		{
 			$salary ['currency'] = trim($cur);
-			$new_number = str_replace ($cur,"",$number);
+			$number = str_replace ($cur,"",$number);
 		}
 	}
-	unset($value);
-
 
 	foreach ($period as &$per) 
 	{
 		if (preg_match('/'.$per.'/',$number))
 		{
 			$salary ['period'] = trim($per);
-			$new_number = str_replace ($per,"",$new_number);
+			$number = str_replace ($per,"",$number);
 		}
 	} 
-	unset($value2); 
 
-	if (!preg_match('/[A-Z_%-]/',$new_number)){
-		$amount = preg_replace('/[^\d.]+/', '', $new_number);
-		if ($amount <> 0)
-			$salary['amount'] = sprintf('%01.2f', $amount);
-		else
-		{
-			write_log('logs/currency_errors.log',"$value\t$job_id\n");
-			return NULL;	
-		}
+	if (!preg_match('/[A-Z_%-]/',$number)){
+		$amount = preg_replace('/[^\d.]+/', '', $number);
+		$salary['amount'] = sprintf('%01.2f', $amount);
 	}
 	else
-		$salary['amount'] = $number;
-	
+	{
+		write_log('logs/currency_errors.log',"$value\t$job_id\n");		
+	}
 	return $salary;
 }
 
