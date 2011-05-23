@@ -253,9 +253,9 @@ function select_id($query)
 function format_currency($value) {
 	global $job_id;
 
-	$number = strtolower($value);
+	$number = strtoupper($value);
 	$period = array('STUNDE', 'MONATLICH', 'STD. LOHN', 'PER HOUR', 'PER D', 'PER DAY', 'PER ANNUM', 'PA', 'PER WEEK', 'PW', 'PH');
-	$currency = array('€', 'EURO', 'GBP');
+	$currency = array('€', 'EURO', 'GBP','SFR.');
 
 	$number = str_replace("-","0",$number);
 
@@ -264,23 +264,23 @@ function format_currency($value) {
 	if ($number == '0.00')
 		return NULL;
 
-	foreach ($currency as &$value) 
+	foreach ($currency as &$cur) 
 	{
-		if (preg_match('/'.$value.'/',$number))
+		if (preg_match('/'.$cur.'/',$number))
 		{
-			$salary ['currency'] = trim($value);
-			$new_number = str_replace ($value,"",$number);
+			$salary ['currency'] = trim($cur);
+			$new_number = str_replace ($cur,"",$number);
 		}
 	}
 	unset($value);
 
 
-	foreach ($period as &$value2) 
+	foreach ($period as &$per) 
 	{
-		if (preg_match('/'.$value2.'/',$number))
+		if (preg_match('/'.$per.'/',$number))
 		{
-			$salary ['period'] = trim($value2);
-			$new_number = str_replace ($value2,"",$new_number);
+			$salary ['period'] = trim($per);
+			$new_number = str_replace ($per,"",$new_number);
 		}
 	} 
 	unset($value2); 
