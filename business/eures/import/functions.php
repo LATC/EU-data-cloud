@@ -7,17 +7,23 @@ function insert_address($address)
 	$address = db_prep($address);  
 	$lowercase_address = strtolower($address);
 	
-	$sql = mysql_query("SELECT id FROM geo WHERE LOWER(address) = $lowercase_address") or die (mysql_error());
-	//$sql = mysql_query("SELECT id FROM geo WHERE LOWER(address) = $lowercase_address AND country_code= '$country_code'") or die (mysql_error());
+	$query = "SELECT id FROM geo WHERE LOWER(address) = $lowercase_address";	
+	//AND country_code= '$country_code'
+	
+	$sql = mysql_query($query) or die (mysql_error());
 
-	if ((mysql_num_rows($sql) == 0) && ($address <> NULL))
+	if ((mysql_num_rows($sql) == 0) && ($address <> NULL) && ($address <> ',  ,'))
 	{
-		mysql_query("INSERT INTO geo SET address = $address, country_code= '$country_code'") or die (mysql_error());	
+		mysql_query("INSERT INTO geo SET address = $address, country_code= '$country_code'") or die (mysql_error());
+		$sql = mysql_query($query) or die (mysql_error());
 	}
 	else
 	{
 		echo "Address already extracted." . PHP_EOL;
-	}            
+	}
+	$row = mysql_fetch_object($sql);
+	$address_id = $row->id; 
+	return $address_id;           
 }
 
 function create_job_id()
@@ -118,7 +124,7 @@ function split_required_languages($required_languages)
 	$required_languages = preg_replace("/[\(\)]/","",$required_languages);	
 	$split_language1 = preg_split("/[,;]/",$required_languages);
 
-	foreach ($split_language1 as $spl1)
+	foreach ($split_language1 as &$spl1)
 	{
 		$split_language2 = preg_split("/[-\/]/",$spl1);
 		if (isset($split_language2[0]))
@@ -198,7 +204,7 @@ function import_language_level($language_level)
 			//1. (create if not exists) & open a log file called language_levels_added.log
 			//open_log('language_levels_added.log');
 			//3. write in language_levels_added.log, tab separated:- level original w/o lower case,- language,- translation found in google translate in english,- country,- job_id (uniquejvid!),- source_id
-			write_log('logs/language_levels_added.log',"$language_level\t$iso639p3\t$language_level_translate\t$country_code\t$job_id\t$source_id\n");	
+			write_log('language_levels_added.log',"$language_level\t$iso639p3\t$language_level_translate\t$country_code\t$job_id\t$source_id\n");	
 
 			//1. write language_level_id in job table
 	
@@ -210,7 +216,7 @@ function import_language_level($language_level)
 			//2. (create if not exists) & open a log file called language_levels_errors.log
 			//open_log('language_levels_errors.log');
 			//3. write in language_levels_errors.log, tab separated:- level original w/o lower case,- language,- translation found in google translate in english,- country,- job_id (uniquejvid!),- source_id
-			write_log('logs/language_levels_errors.log',"$language_level\t$iso639p3\t$language_level_translate\t$country_code\t$job_id\t$source_id\n");
+			write_log('language_levels_errors.log',"$language_level\t$iso639p3\t$language_level_translate\t$country_code\t$job_id\t$source_id\n");
 			return NULL;
 		}
 	}			
@@ -253,7 +259,7 @@ function import_language($language)
 			$iso639p3 = $row->iso639p3;
 
 			//a. write in language_added.log
-			write_log('logs/languages_added.log',"$language\t$iso639p3\t$language_translate\t$country_code\t$job_id\t$source_id\n");
+			write_log('languages_added.log',"$language\t$iso639p3\t$language_translate\t$country_code\t$job_id\t$source_id\n");
 
 			//b. return the iso639p3			
 			return $iso639p3;		
@@ -261,7 +267,7 @@ function import_language($language)
 		else
 		{
 			//4. if not found write in language_errors.log
-			write_log('logs/languages_errors.log',"$language\t$iso639p3\t$language_translate\t$country_code\t$job_id\t$source_id\n");
+			write_log('languages_errors.log',"$language\t$iso639p3\t$language_translate\t$country_code\t$job_id\t$source_id\n");
 			return NULL;
 		}
 	}
@@ -269,6 +275,8 @@ function import_language($language)
 
 function write_log($file,$text)
 {
+	global $DIR;
+
 	if (!file_exists('logs'))
 	{
 		if(mkdir('logs', 0777))
@@ -285,7 +293,7 @@ function write_log($file,$text)
 		echo "Directory logs already exists.";
 	}
 
-	if( $fh = @fopen($file,'a+'))
+	if( $fh = @fopen($DIR.'logs/'.$file,'a+'))
 	{
 		fputs($fh, $text, strlen($text));
 		fclose($fh);
@@ -319,14 +327,34 @@ function addhttp($url) {
 	return $url;
 }
 
-function insert_name($table,$name_table)
+function insert_name($table,$value)
 {
-// Insert name on the small tables and returns the id
-	if($name_table <> '' && $name_table <> '0' && $name_table <> '.' && $name_table <> '**')
-		mysql_query("INSERT INTO ".$table." SET name =".db_prep($name_table));
-	$sql = mysql_query("SELECT id FROM ".$table." WHERE name =".db_prep($name_table));				
-	$row = mysql_fetch_array($sql);		
-	return $row[0];
+	// Insert name on the small tables and returns the id
+
+	$lowercase_value = db_prep(strtolower($value));
+
+	if($value <> '' && $value <> '0' && $value <> '.' && $value <> '**')
+	{
+		$query = "SELECT id FROM $table WHERE LOWER(name) = $lowercase_value";
+
+		$sql = mysql_query($query) or die (mysql_error());
+
+		$cont = mysql_num_rows($sql);
+
+		if ($cont == 0)
+		{
+			mysql_query("INSERT INTO ".$table." SET name =".db_prep($value));
+			$sql = mysql_query($query) or die (mysql_error());	
+		}
+		$row = mysql_fetch_object($sql);
+		$id = $row->id;				
+
+		return $id;
+	}
+	else
+	{
+		return NULL;
+	}	
 }
 
 function select_id($query)
@@ -346,8 +374,10 @@ function select_id($query)
 	}
 }
 
-function format_salary($value) {
-	global $job_id;
+function format_salary($value) 
+{
+	global $unique_id;
+	global $source_id;
 
 	$salary['amount'] = NULL;
 	$salary['currency'] = NULL;
@@ -383,14 +413,78 @@ function format_salary($value) {
 	} 
 
 	if (!preg_match('/[A-Z_%-]/',$number)){
-		$amount = preg_replace('/[^\d.]+/', '', $number);
-		$salary['amount'] = sprintf('%01.2f', $amount);
+		$salary['amount'] = preg_replace('/[^\d.]+/', '', $number);
 	}
 	else
 	{
-		write_log('logs/currency_errors.log',"$value\t$job_id\n");		
+		write_log('salary_errors.log',"$value\t$unique_id\t$source_id\n");		
 	}
 	return $salary;
+}
+
+function format_phone($value) 
+{
+	//needs improve to split with 99252572 -22490440 but not 051-857229
+	global $contact_id;
+
+	if (preg_match('/@/',$value))
+	{
+		$phone_array['email'] = $value;
+		return $phone_array ;
+	}
+
+	if (preg_match('/\d/',$value))
+	{
+		$phone = preg_replace('/\+/','00',$value);
+
+		$split_phone = preg_split('/[\/,]/',$phone);
+
+		foreach ($split_phone as $spl)
+		{
+			$number = preg_replace('/[^\d]/','',$spl);
+			$query = "INSERT INTO contact_phone SET contact_id = '$contact_id', number = '$number'";
+			mysql_query($query);
+		}
+	}
+	else
+	{
+		write_log("phone_errors.log","$value/t$contact_id/n");		
+		return NULL;
+	}
+}
+
+function format_fax($value) 
+{
+	$fax_array['fax'] = NULL;
+	$fax_array['email'] = NULL;
+
+	global $unique_id;
+
+	if (preg_match('/@/',$value))
+	{
+		$fax_array['email'] = $value;
+		return $fax_array;
+	}
+
+	if (preg_match('/\d/',$value))
+	{
+		$fax = preg_replace('/\+/','00',$value);
+		$fax_array['fax'] = preg_replace('/[^\d]/','',$fax);
+		return $fax_array;
+	}
+	else
+	{
+		write_log("fax_errors.log","$value/t$unique_id/n");		
+		return NULL;
+	}
+}
+
+function prepare_boolean($value)
+{
+	if (strtolower($value) == 'yes')
+		return 1;
+	if (strtolower($value) == 'no')
+		return 0;
 }
 
 ?>

@@ -1,9 +1,10 @@
 CREATE TABLE job (
-	job_id VARCHAR(100) NOT NULL,
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
 	employer_id INT REFERENCES employer(id),
 	contact_id INT REFERENCES contact(id),	
 	title_id INT REFERENCES title(id),
 	description TEXT,
+	unique_id VARCHAR(50),
 	source_id INT REFERENCES source(id),
 	starting_date DATE,
 	ending_date DATE,
@@ -18,12 +19,12 @@ CREATE TABLE job (
 	contract_hours_id INT REFERENCES contract_hours(id),
 	hours_per_week_min float,
 	hours_per_week_max float,
-	accommodation_provided VARCHAR(10),
-	relocation_covered VARCHAR(10),
-	meals_included VARCHAR(10),
-	travel_expenses VARCHAR(10),
+	accommodation_provided boolean,
+	relocation_covered boolean,
+	meals_included boolean,
+	travel_expenses boolean,
+	professional_qualifications_required boolean,
 	education_skills_id INT REFERENCES education_skills(id),
-	professional_qualifications_required VARCHAR(10),
 	experience_id INT REFERENCES experience(id),
 	driving_license_id INT REFERENCES driving_license(id),
 	minimum_age INT,
@@ -47,19 +48,18 @@ CREATE TABLE job (
 	url_scraper_hour TIME,
 	job_scraper_date DATE,
 	job_scraper_hour TIME,
-	PRIMARY KEY (job_id)
+	PRIMARY KEY (id),
+	UNIQUE (unique_id,source_id)
 ) DEFAULT CHARACTER SET utf8;
 
 CREATE TABLE employer (
 	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
 	name TEXT,
-	address TEXT,
-	country_code CHAR(2) REFERENCES country(id),
+	address_id INT(10) REFERENCES geo(id),
 	homepage VARCHAR(255),
 	url TEXT,
 	scraper_date DATE,
 	scraper_hour TIME,
-	UNIQUE (name(150), address(100), country_code(2)),
 	PRIMARY KEY (id)
 ) DEFAULT CHARACTER SET utf8;
 
@@ -88,25 +88,30 @@ CREATE TABLE contact (
 	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
 	employer_id INT REFERENCES employer(id),
 	country_code CHAR(2) REFERENCES country(id),
-	contact TEXT,
 	information VARCHAR(255),
-	phone VARCHAR(255),
 	email VARCHAR(255),
 	fax VARCHAR(255),
 	url TEXT,
 	scraper_date DATE,
 	scraper_hour TIME,
 	PRIMARY KEY (id),
-	UNIQUE (information(100), phone(50),email(100),fax(50), country_code(2))
+	UNIQUE (information(100), email(100),fax(50), country_code(2))
 ) DEFAULT CHARACTER SET utf8;
+
+CREATE TABLE contact_phone
+(
+	contact_id INT NOT NULL REFERENCES contact(id),
+	number VARCHAR(255) NOT NULL,
+	PRIMARY KEY (contact_id,number)
+);
 
 CREATE TABLE job_language
 (
-	job_id VARCHAR(50) REFERENCES job(url_job_unique),
+	job_id INT REFERENCES job(id),
 	iso639p3 VARCHAR(3) REFERENCES language(iso639p3),
 	ilr_level INT(1) REFERENCES language_level(ilr_level),	
 	PRIMARY KEY (job_id,iso639p3,ilr_level)
-) DEFAULT CHARACTER SET utf8;
+);
 
 CREATE TABLE contract_type
 (

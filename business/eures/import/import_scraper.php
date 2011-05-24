@@ -18,8 +18,8 @@ require 'scraperwiki/simple_html_dom.php';
 
 include 'geocoderParser/GGeocoderParserLib.v1.php';
 
-$country_dir = array ('BG','CY','CZ','CH','DK','DE','DE2','DE3','EE','FI','FR','GR','HU','IR','IS','IT','LI','LT','LU','LV','MT','NL','NO','PL','PT','RO','SK','SI','ES','SE','UK');
-//$country_dir = array('CH');
+$country_dir = array ('BG','CY','CZ','CH','DK','DE','EE','FI','FR','GR','HU','IR','IS','IT','LI','LT','LU','LV','MT','NL','NO','PL','PT','RO','SK','SI','ES','SE','UK');
+//$country_dir = array('DE');
 
 for ($k=0; $k < sizeof($country_dir); $k++)
 {
@@ -31,7 +31,7 @@ for ($k=0; $k < sizeof($country_dir); $k++)
 		{
 			if (!is_dir($file))
 			{	
-				$title=NULL;$required_languages=NULL;$starting_date=NULL;$ending_date=NULL;$country=NULL;$region=NULL;$minimum_salary=NULL;$maximum_salary=NULL;$salary_currency=NULL;$salary_tax=NULL;$salary_period=NULL;$hours_per_week=NULL;$contract=NULL;$contract_type=NULL;$contract_hours=NULL;$accommodation_provided=NULL;$relocation_covered=NULL;$meals_included=NULL;$travel_expenses=NULL;$education_skills_required=NULL;$professional_qualifications_required=NULL;$experience_required=NULL;$driving_license_required=NULL;$minimum_age=NULL;$maximum_age=NULL;$name=NULL;$information=NULL;$address=NULL;$phone=NULL;$email=NULL;$fax=NULL;$how_to_apply=NULL;$contact=NULL;$last_date_for_application=NULL;$date_published=NULL;$national_reference=NULL;$last_modification_date=NULL;$nace_code=NULL;$isco_code=NULL;$isco_unit_code=NULL;$isco_minor_code=NULL;$isco_submajor_code=NULL;$isco_major_code=NULL;$number_of_posts=NULL;$other_value=NULL;$eures_reference=NULL;$contract_type_id=NULL;$contract_hours_id=NULL;$education_skills_id=NULL;$experience_id=NULL;$driving_license_id=NULL;$contact_id=NULL;$employer_id=NULL;$job_id=NULL;	$address_array=NULL;$how_to_apply_id=NULL;$title_id=NULL;$homepage=NULL;$dom=NULL;$text=NULL;$data=NULL;$sql=NULL;$query=NULL;$row=NULL;$salary_currency_id=NULL;$salary_period_id=NULL;$salary_tax_id=NULL;$maximum_salary_array=NULL;$minimum_salary_array=NULL;$url=NULL;$country_code=NULL;$description=NULL;$source=NULL;$source_id=NULL;$url_id=NULL;$url_search=NULL;$url_scraper_date=NULL;$url_scraper_hour=NULL;$url_job_unique=NULL;$hours_per_week_array=NULL;$region_id=NULL;
+				$title=NULL;$required_languages=NULL;$starting_date=NULL;$ending_date=NULL;$country=NULL;$region=NULL;$minimum_salary=NULL;$maximum_salary=NULL;$salary_currency=NULL;$salary_tax=NULL;$salary_period=NULL;$hours_per_week=NULL;$contract=NULL;$contract_type=NULL;$contract_hours=NULL;$accommodation_provided=NULL;$relocation_covered=NULL;$meals_included=NULL;$travel_expenses=NULL;$education_skills_required=NULL;$professional_qualifications_required=NULL;$experience_required=NULL;$driving_license_required=NULL;$minimum_age=NULL;$maximum_age=NULL;$name=NULL;$information=NULL;$address=NULL;$phone=NULL;$email=NULL;$fax=NULL;$how_to_apply=NULL;$contact=NULL;$last_date_for_application=NULL;$date_published=NULL;$national_reference=NULL;$last_modification_date=NULL;$nace_code=NULL;$isco_code=NULL;$isco_unit_code=NULL;$isco_minor_code=NULL;$isco_submajor_code=NULL;$isco_major_code=NULL;$number_of_posts=NULL;$other_value=NULL;$eures_reference=NULL;$contract_type_id=NULL;$contract_hours_id=NULL;$education_skills_id=NULL;$experience_id=NULL;$driving_license_id=NULL;$contact_id=NULL;$employer_id=NULL;$job_id=NULL;	$address_array=NULL;$how_to_apply_id=NULL;$title_id=NULL;$homepage=NULL;$dom=NULL;$text=NULL;$data=NULL;$sql=NULL;$query=NULL;$row=NULL;$salary_currency_id=NULL;$salary_period_id=NULL;$salary_tax_id=NULL;$maximum_salary_array=NULL;$minimum_salary_array=NULL;$url=NULL;$country_code=NULL;$description=NULL;$source=NULL;$source_id=NULL;$url_id=NULL;$url_search=NULL;$url_scraper_date=NULL;$url_scraper_hour=NULL;$url_job_unique=NULL;$hours_per_week_array=NULL;$region_id=NULL;$fax_array=NULL;$phone_array = NULL;$address_id = NULL;$salary_period_id = NULL;
 
 				$html = scraperwiki::scrape($dir."/".$file);
 
@@ -51,7 +51,7 @@ for ($k=0; $k < sizeof($country_dir); $k++)
 					$description = $data->plaintext;
 				}
 				foreach($dom->find('div[@id=source]') as $data)
-				{  
+				{
 					$source = $data->plaintext;
 					$sql = mysql_query("SELECT id FROM source WHERE name = '$source'") or die (mysql_error());
 					$row = mysql_fetch_object($sql);
@@ -59,7 +59,7 @@ for ($k=0; $k < sizeof($country_dir); $k++)
 				}
 				foreach($dom->find('div[@id=url_id]') as $data)
 				{  
-					$url_id = $data->plaintext;
+					$unique_id = $data->plaintext;
 				}
 				foreach($dom->find('div[@id=url_search]') as $data)
 				{  
@@ -77,9 +77,7 @@ for ($k=0; $k < sizeof($country_dir); $k++)
 				{  
 					$url_job_unique = $data->plaintext;
 				}
-
-				$job_id = create_job_id();
-				
+			
 				foreach($dom->find('th') as $data)
 				{  
 					$text = trim($data->plaintext);     
@@ -87,10 +85,10 @@ for ($k=0; $k < sizeof($country_dir); $k++)
 					if ($text <> 'Description:')
 						$value = trim($data->next_sibling()->plaintext);			
 
-					//FIXME. HACK by Lucas, to get the data from Maximum salary, since the TH for this data in EURES pages is not well-written, causing the extractor not to work. <th colspan="1">Maximum salary:</td> 
+					//FIXME. HACK by Lucas, to get the data from Maximum salary, since the TH for this data in EURES pages is not well-written, causing the extractor not to work. 
+					//e.g. <th colspan="1">Maximum salary:</td> 
 					if (preg_match('/Maximum salary:/', $text)){
-						$maximum_salary = str_replace("Maximum salary:","",$text);
-						$maximum_salary = trim(str_replace("</td>","",$maximum_salary));
+						$maximum_salary = trim(preg_replace("/[Maximum salary:|<\/td>]/","",$text));
 						$maximum_salary_array = format_salary($maximum_salary);
 					}
 					else
@@ -165,16 +163,16 @@ for ($k=0; $k < sizeof($country_dir); $k++)
 								}
 								break;
 							//Extras
-							case 'Accommodation provided:':$accommodation_provided = $value;break;
-							case 'Relocation covered:':$relocation_covered = $value;break;
-							case 'Meals included:':$meals_included = $value;break;
-							case 'Travel expenses:':$travel_expenses = $value;break;
+							case 'Accommodation provided:':$accommodation_provided = prepare_boolean($value);break;
+							case 'Relocation covered:':$relocation_covered = prepare_boolean($value);break;
+							case 'Meals included:':$meals_included = prepare_boolean($value);break;
+							case 'Travel expenses:':$travel_expenses = prepare_boolean($value);break;
 							//Requirements
 							case 'Education skills required:':
 								$education_skills_required = $value;
 								$education_skills_id = insert_name('education_skills',$education_skills_required);
 								break;
-							case 'Professional qualifications required:': $professional_qualifications_required = $value;break;
+							case 'Professional qualifications required:': $professional_qualifications_required = prepare_boolean($value);break;
 							case 'Experience required:':
 								$experience_required = $value;
 								$experience_id = insert_name('experience',$experience_required);
@@ -190,11 +188,14 @@ for ($k=0; $k < sizeof($country_dir); $k++)
 							case 'Information:':$information = $value;break;
 							case 'Address:':
 								$address = $value;
-								insert_address($address);
+								$address_id = insert_address($address);
 								break;                    
 							case 'Phone:':$phone = $value;break;
 							case 'Email:':$email = $value;break;
-							case 'Fax:':$fax = $value;break;
+							case 'Fax:':
+								$fax = $value;
+								$fax_array = format_fax($fax);
+								break;
 							//Application
 							case 'How to apply:':
 								$how_to_apply = $value;
@@ -240,20 +241,19 @@ for ($k=0; $k < sizeof($country_dir); $k++)
 						$salary_currency = $maximum_salary_array['period'];
 				}
 
-				if ($name <> '' || ($address <> '' && $address <> ',  ,'))
+				if ($name <> '' || ($address_id <> NULL))
 				{	
 
-					$query = "SELECT id FROM employer WHERE name = '$name' AND address = '$address' AND country_code = '$country_code'";
+					$query = "SELECT id FROM employer WHERE name = '$name' AND address_id = '$address_id'";
 	
 					$employer_id = select_id($query);
 
 					if ($employer_id == '')
 					{
 						mysql_query("INSERT INTO employer SET 
-							name = '$name',
-							homepage = '$homepage',
-							address ='$address',
-							country_code ='$country_code',
+							name = ".db_prep($name).",
+							homepage = ".db_prep($homepage).",
+							address_id = ".db_prep($address_id).",
 							url = '$url',
 							scraper_date = SYSDATE(),	 
 							scraper_hour = SYSDATE()"
@@ -262,48 +262,41 @@ for ($k=0; $k < sizeof($country_dir); $k++)
 					}
 				}
 
-				if ($contact <> '' || $email <> '' || $information <> '' || $phone <> '' || $fax <> '')
+				if ($email <> '' || $information <> '' || $fax <> '')
 				{
-					if ($email <> '')
-						$query = "SELECT id FROM contact WHERE email = '$email'";
-					elseif ($information <> '' && $phone <> '' && $fax <> '') 
-						$query = "SELECT id FROM contact WHERE information LIKE '$information' AND fax LIKE '$fax' AND phone LIKE '$phone' AND country_code = '$country_code'";
-					elseif ($information <> '' && $phone <> '')  
-						$query = "SELECT id FROM contact WHERE information LIKE '$information' AND phone LIKE '$phone' AND country_code = '$country_code'";
-					elseif ($information <> '' && $fax <> '') 
-						$query = "SELECT id FROM contact WHERE information LIKE '$information' AND fax LIKE '$fax' AND country_code = '$country_code'";
-					elseif ($phone <> '' && $fax <> '') 
-						$query = "SELECT id FROM contact WHERE phone LIKE '$phone' AND fax LIKE '$fax' AND country_code = '$country_code'";
-					else
-						$query = "SELECT id FROM contact WHERE email = '$email' AND information LIKE '$information' AND phone LIKE '$phone' AND fax LIKE '$fax' AND country_code = '$country_code'";
+					$query = "SELECT id FROM contact WHERE email = '$email' AND information = '$information' AND fax = '$fax' AND country_code = '$country_code'";
 
 					$contact_id = select_id($query);
 
 					if ($contact_id == '')
 					{
 						mysql_query("INSERT INTO contact SET 
-								employer_id = '$employer_id',
-								contact = '$contact',
-								information = '$information',
-								country_code ='$country_code',
-								phone = '$phone',
-								email='$email',
-								fax = '$fax',					
+								employer_id = ".db_prep($employer_id).",
+								information = ".db_prep($information).",
+								country_code =".db_prep($country_code).",
+								email=".db_prep($email).",
+								fax = ".db_prep($fax_array['fax']).", 					
 								url = '$url',
 								scraper_date = SYSDATE(),	 
 								scraper_hour = SYSDATE()"
 						);
 						$contact_id = select_id("SELECT LAST_INSERT_ID() FROM contact");
 					}
+
+					if($phone <> '')
+					{
+						format_phone($phone);
+					}				
 				}
+
 	
 				mysql_query("INSERT INTO job SET 
-					job_id = '$job_id',
 					url = ".db_prep($url).",
 					description = ".db_prep($description).",
 					employer_id = ".db_prep($employer_id).",
 					contact_id = ".db_prep($contact_id).", 
-					source_id = ".db_prep($source_id).",    
+					unique_id = '$unique_id',
+					source_id = '$source_id',    
 					url_search = ".db_prep($url_search).",  
 					url_scraper_date = ".db_prep($url_scraper_date).",  
 					url_scraper_hour = ".db_prep($url_scraper_hour).",
@@ -343,12 +336,10 @@ for ($k=0; $k < sizeof($country_dir); $k++)
 					isco_minor_code = ".db_prep($isco_minor_code).",   
 					isco_submajor_code = ".db_prep($isco_submajor_code).",   
 					isco_major_code = ".db_prep($isco_major_code).",   
-					number_of_posts = ".db_prep($number_of_posts).",   
+					number_of_posts = ".db_prep($number_of_posts).",   	
 					job_scraper_date = SYSDATE(),	 
 					job_scraper_hour = SYSDATE()" 
-				) or die (mysql_error());
-				
-			
+				);			
 			}
 		}
 
