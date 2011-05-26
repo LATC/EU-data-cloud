@@ -10,7 +10,7 @@ function setup_database($new = false) {
   $conn = mysql_connect($MYSQL_SERVER, $MYSQL_USER, $MYSQL_PASSWORD);
 
   if ($new) {
-    mysql_query("DROP DATABASE $MYSQL_DATABASE") or die (mysql_error());
+    mysql_query("DROP DATABASE $MYSQL_DATABASE");
     echo "Database $database dropped.".PHP_EOL;
   }
 
