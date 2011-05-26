@@ -1,0 +1,20 @@
+CREATE TABLE geo (
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	address TEXT,
+	looked_up TIMESTAMP,
+	formatted_address VARCHAR(255),
+	country_code CHAR(2) REFERENCES country(id),
+	administrative_area VARCHAR(255),
+	subadministrative_area VARCHAR(255),
+	locality VARCHAR(255),
+	route VARCHAR(255),
+	street_number VARCHAR(255),
+	postal_code VARCHAR(255),
+	latitude FLOAT,
+	longitude FLOAT,
+	lat_southwest FLOAT,
+	lng_southwest FLOAT,
+	lat_northeast FLOAT,
+	lng_northeast FLOAT,
+	PRIMARY KEY (id)
+) DEFAULT CHARACTER SET utf8;

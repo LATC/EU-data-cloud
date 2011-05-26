@@ -1,1 +1,3 @@
 *.pyc
+business/eures/import/logs/*.log
+business/eures/import/config.inc.php

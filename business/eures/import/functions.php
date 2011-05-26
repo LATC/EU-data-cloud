@@ -1,5 +1,96 @@
 <?php
 
+function setup_database($new = false) {
+  global $MYSQL_SERVER;
+  global $MYSQL_USER;
+  global $MYSQL_PASSWORD;
+  global $MYSQL_DATABASE;
+
+  echo "= DATABASE SETUP =".PHP_EOL.PHP_EOL;
+  $conn = mysql_connect($MYSQL_SERVER, $MYSQL_USER, $MYSQL_PASSWORD);
+
+  if ($new) {
+    mysql_query("DROP DATABASE $MYSQL_DATABASE") or die (mysql_error());
+    echo "Database $database dropped.".PHP_EOL;
+  }
+
+  mysql_query("CREATE DATABASE IF NOT EXISTS $MYSQL_DATABASE") or die (mysql_error());
+  echo "Database $MYSQL_DATABASE created.".PHP_EOL;
+  mysql_select_db($MYSQL_DATABASE, $conn);
+  mysql_set_charset("utf8");
+  if ($new) {
+      $dir = "database/";
+    	if (is_dir($dir)) {
+        if ($handle = opendir($dir)) {
+          while (false !== ($file = readdir($handle)))
+          {
+            if (!is_dir($file) && (!endsWith($file, "_inserts.sql")))
+            {
+              create_table($file);
+            }
+          }
+        }
+      }
+      insert_languages();
+    echo "Tables for $MYSQL_DATABASE created.".PHP_EOL;
+  }
+
+}
+
+function insert_languages() {
+  $openFile = fopen("csv/lexvo.csv", "r");
+  if (!$openFile){
+    die("File not found: csv/lexvo.csv");
+  }
+  else{
+
+    while ($values = fgetcsv ($openFile, 2048, ";")) {
+      if (!isset($languages[$values[0]])) {
+        $languages[$values[0]] = array();
+        $languages[$values[0]]["iso1"] = $values[1];
+        $languages[$values[0]]["labels"] = array();
+      }
+      $language = strtolower(trim($values[2]));
+      if (!in_array($language, $languages[$values[0]]["labels"])) {
+        $languages[$values[0]]["labels"][] = $language;
+      }
+    }
+  }
+  fclose($openFile);
+  foreach($languages as $iso3 => $language_array) {
+    mysql_query("INSERT INTO language SET iso639p3 = '$iso3', iso639p1 = '".$language_array["iso1"]."', labels =".db_prep(implode(";", $language_array["labels"]))) or die(mysql_error());
+  }
+  echo "Inserted data for table: language".PHP_EOL;
+}
+
+function create_table($file) {
+  $table = str_replace(".sql", "", $file);
+  $file = "database/".$file;
+  if (file_exists($file)) {
+    $query = file_get_contents($file);
+    mysql_query($query) or die(mysql_error());
+    echo "Created table: $table".PHP_EOL;
+    $file_inserts = "database/".$table."_inserts.sql";
+    if (file_exists($file_inserts)) {
+      $query = file_get_contents($file_inserts);
+      mysql_query($query) or die(mysql_error());
+      echo "Inserted data for table: $table".PHP_EOL;
+    }
+  } else {
+    die ("File not found:".$file);
+  }
+}
+
+
+
+function endsWith($string, $test)
+{
+  $strlen = strlen($string);
+  $testlen = strlen($test);
+  if ($testlen > $strlen) return false;
+  return substr_compare($string, $test, -$testlen) === 0;
+}
+
 function insert_address($address)
 {	
 	global $country_code;
@@ -14,16 +105,12 @@ function insert_address($address)
 
 	if ((mysql_num_rows($sql) == 0) && ($address <> NULL) && ($address <> ',  ,'))
 	{
-		mysql_query("INSERT INTO geo SET address = $address, country_code= '$country_code'") or die (mysql_error());
-		$sql = mysql_query($query) or die (mysql_error());
+		mysql_query("INSERT INTO geo SET address = $address, country_code = '$country_code'") or die (mysql_error());
+		return mysql_insert_id();
 	}
-	else
-	{
-		echo "Address already extracted." . PHP_EOL;
-	}
+	// echo "Address already extracted." . PHP_EOL;
 	$row = mysql_fetch_object($sql);
-	$address_id = $row->id; 
-	return $address_id;           
+	return $row->id;          
 }
 
 function create_job_id()
@@ -43,30 +130,36 @@ function create_job_id()
 
 function update_address()
 {
-	$sql = mysql_query("SELECT address FROM geo WHERE formatted_address IS NULL LIMIT 0, 1000") or die (mysql_error()); 
-	//improve WHERE
+	$sql = mysql_query("SELECT address FROM geo WHERE looked_up IS NULL LIMIT 0, 2500") or die (mysql_error());
 
 	while($row = mysql_fetch_array($sql))
 	{
-		$address = $row[0];	
+		$address = $row[0];
+
 		$address_array = get_geocoder_address($address);
-		$query = "UPDATE geo SET
-			formatted_address =".db_prep($address_array['formatted_address']).",
-			country_code =".db_prep($address_array['country_code']).",
-			administrative_area =".db_prep($address_array['administrative_area_level_1']).",
-			subadministrative_area =".db_prep($address_array['administrative_area_level_2']).",
-			locality =".db_prep($address_array['locality']).",
-			route =".db_prep($address_array['route']).",
-			street_number =".db_prep($address_array['street_number']).",
-			postal_code =".db_prep($address_array['postal_code']).",
-			latitude =".db_prep($address_array['latitude']).",
-			longitude =".db_prep($address_array['longitude']).",
-			lat_southwest =".db_prep($address_array['viewport_lat_southwest']).",
-			lng_southwest =".db_prep($address_array['viewport_lng_southwest']).",
-			lat_northeast =".db_prep($address_array['viewport_lat_northeast']).",
-			lng_northeast =".db_prep($address_array['viewport_lng_northeast'])."
-		WHERE address =".db_prep($address);
-		mysql_query($query) or die (mysql_error());		
+
+		mysql_query("UPDATE geo SET looked_up = '1' WHERE address =".db_prep($address)) or die (mysql_error());
+
+		if ($address_array['formatted_address'] <> NULL)
+		{
+			$query = "UPDATE geo SET
+				formatted_address =".db_prep($address_array['formatted_address']).",
+				country_code =".db_prep($address_array['country_code']).",
+				administrative_area =".db_prep($address_array['administrative_area_level_1']).",
+				subadministrative_area =".db_prep($address_array['administrative_area_level_2']).",
+				locality =".db_prep($address_array['locality']).",
+				route =".db_prep($address_array['route']).",
+				street_number =".db_prep($address_array['street_number']).",
+				postal_code =".db_prep($address_array['postal_code']).",
+				latitude =".db_prep($address_array['latitude']).",
+				longitude =".db_prep($address_array['longitude']).",
+				lat_southwest =".db_prep($address_array['viewport_lat_southwest']).",
+				lng_southwest =".db_prep($address_array['viewport_lng_southwest']).",
+				lat_northeast =".db_prep($address_array['viewport_lat_northeast']).",
+				lng_northeast =".db_prep($address_array['viewport_lng_northeast'])."
+			WHERE address =".db_prep($address);
+			mysql_query($query) or die (mysql_error());
+		}
 	}
 }
 
@@ -96,7 +189,7 @@ function format_hour($value)
 	}
 	else
 	{
-		write_log('logs/hours_per_week_errors.log',"$value\t$country_code\t$job_id\t$source_id\n");
+		write_log('hours_per_week_errors.log',date("Y-m-d H:i:s")."\t$value\t$country_code\t$job_id\t$source_id\n");
 	}
 	$hours['min'] = preg_replace("/[,:]/", ".", $hours['min']);
 	return $hours;
@@ -130,185 +223,147 @@ function split_required_languages($required_languages)
 		if (isset($split_language2[0]))
 		{
 			$language = trim($split_language2[0]);
-			//$iso639p3 = import_language_level($iso639p3);
+      if (strlen($language) == 0) {
+        write_log("languages_errors.log", array($required_languages, $job_id));
+      } else {
+        $iso639p3 = import_language($language);
+        if ($iso639p3) {
+          if (isset($split_language2[1]))
+          {
+            $language_level = trim($split_language2[1]);
+            if (strlen($language_level) > 0) {
+              $ilr_level = import_language_level($language_level);
+            }
+          }
+          $query = "INSERT INTO job_language SET job_id = $job_id, iso639p3 = '$iso639p3'";
+          if ($ilr_level) {
+            $query = $query.", ilr_level = $ilr_level";
+          }
+          mysql_query($query) or die ($query. " ".mysql_error());
+        }
+      }
 		}
-		if (isset($split_language2[1]))
-		{
-			$language_level = trim($split_language2[1]);
-			//$ilr_level = import_language_level($language_level);
-		}
-		//mysql_query("INSERT INTO job_language SET job_id = '$job_id', iso639p3 ='$iso639p3', ilr_level =".db_prep($ilr_level)) or die (mysql_error());
 	}
 }
 
 function import_language_level($language_level)
 {
-	//1. thing you need in that function: lanuage level, country, language
 	global $iso639p3;
-	//for test: $iso639p3 = 'ita';
-
 	global $job_id;
-	//for test: $job_id = 9;
-
 	global $country_code;
-
 	global $source_id;
 
-	//2. lower case the language level
 	$lowercase_language_level = strtolower($language_level);
 
-	//3. check if column for language exists
-	$sql = mysql_query("SHOW COLUMNS FROM language_level like '$iso639p3'");
+  $sql = mysql_query("SHOW COLUMNS FROM language_level");
 
-	//4. otherwise create it	
-	if ((mysql_num_rows($sql) == 0))
-	{
-		mysql_query("ALTER TABLE language_level ADD $iso639p3 SET('$lowercase_language_level') NOT NULL") or die (mysql_error());
-	}
+  while ($row = mysql_fetch_row($sql)) {
+    $column = $row[0];
+    $query = "SELECT ilr_level, $column FROM language_level WHERE $column LIKE '%$lowercase_language_level%'";
+    $sql1 = mysql_query($query);
+    while ($row1 = mysql_fetch_row($sql1)) {
+      $column_values = explode(",", $row1[1]);
+      if (in_array($lowercase_language_level, $column_values)) {
+        $ilr_level = $row1[0];
+        return $ilr_level;
+      }
+    }
+  }
 
-	//5. look up the language level in the table language_level for the language or English
-	$sql = mysql_query("SELECT ilr_level FROM language_level WHERE $iso639p3 LIKE '%$lowercase_language_level%' OR eng LIKE '%$lowercase_language_level%'") or die (mysql_error());
-	
-	//6. if found: insert ilr_level and iso639p3 in the job_language table
-	if ((mysql_num_rows($sql) <> 0))
-	{
-		$row = mysql_fetch_object($sql);
-		$ilr_level = $row->ilr_level;
-		
-		return $ilr_level;	
-	}
-	//7. if not found:
-	else
-	{
-             	//3. look up that language level label in google translate API (to English)
-		//4. lower case the result
-		$language_level_translate = translate($lowercase_language_level);
-		//5. look up result in table language_level this english label (only in the english column)
-		$sql = mysql_query("SELECT ilr_level FROM language_level WHERE eng LIKE '%$language_level_translate%'") or die(mysql_error());
-		//6. if found:
-		if ((mysql_num_rows($sql) <> 0))
-		{
-			$row = mysql_fetch_object($sql);	
-			$ilr_level = $row->ilr_level;
+  $language_level_translate = strtolower(translate($lowercase_language_level));
 
-			//FIXME! Hack by Lucas to ALTER TABLE FOR SET DATA TYPE TO CONCATENATE VALUES
-			$sql_set = mysql_query("SHOW COLUMNS FROM language_level LIKE '$iso639p3'");
-			$row_set = mysql_fetch_object($sql_set);	
-			$set = $row_set->Type;
-			$set = str_replace(")","",$set);
-			mysql_query("ALTER TABLE language_level CHANGE $iso639p3 $iso639p3 $set,'$lowercase_language_level')") or die (mysql_error());
+  $sql = mysql_query("SHOW COLUMNS FROM language_level");
 
-			//2. insert language level label original (but lower case) in that column
-			mysql_query("UPDATE language_level SET $iso639p3 = CONCAT($iso639p3,',$lowercase_language_level') WHERE ilr_level = '$ilr_level'") or die (mysql_error());
-
-			//1. (create if not exists) & open a log file called language_levels_added.log
-			//open_log('language_levels_added.log');
-			//3. write in language_levels_added.log, tab separated:- level original w/o lower case,- language,- translation found in google translate in english,- country,- job_id (uniquejvid!),- source_id
-			write_log('language_levels_added.log',"$language_level\t$iso639p3\t$language_level_translate\t$country_code\t$job_id\t$source_id\n");	
-
-			//1. write language_level_id in job table
-	
-			return $ilr_level;		
-		}
-		//7. if not found:		
-		else
-		{
-			//2. (create if not exists) & open a log file called language_levels_errors.log
-			//open_log('language_levels_errors.log');
-			//3. write in language_levels_errors.log, tab separated:- level original w/o lower case,- language,- translation found in google translate in english,- country,- job_id (uniquejvid!),- source_id
-			write_log('language_levels_errors.log',"$language_level\t$iso639p3\t$language_level_translate\t$country_code\t$job_id\t$source_id\n");
-			return NULL;
-		}
-	}			
+  while ($row = mysql_fetch_row($sql)) {
+    $column = $row[0];
+    $sql1 = mysql_query("SELECT ilr_level, eng FROM language_level WHERE eng LIKE '%$language_level_translate%'");
+    while ($row1 = mysql_fetch_row($sql1)) {
+      $column_values = explode(",", $row1[1]);
+      if (in_array($language_level_translate, $column_values)) {
+        $ilr_level = $row1[0];
+        $query = "UPDATE language_level SET labels = CONCAT(labels,';$lowercase_language') WHERE ilr_level = $ilr_level";
+        if (mysql_query($query)) {
+          write_log('languages__levels_ added.log', array($job_id, $language, $iso639p3, $language_translate, $ilr_level, $country_code));
+        } else {
+          write_log('language_level_insert_errors.log', array($job_id, $language, $iso639p3, $language_translate, $ilr_level, $country_code, mysql_error()));
+        }
+        return $ilr_level;
+      }
+    }
+  }
+  write_log('language_levels_errors.log', array($job_id, $iso639p3, $language_level, $language_level_translate, $country_code,));
 }
 
 function import_language($language)
 {
-	//1. Thing you need in that function: language, country, job_id, source_id
 	global $job_id;
-
 	global $source_id;
-
 	global $country_code;
 
-	//2. Lower case the EURES language
 	$lowercase_language = strtolower($language);
 
-	//3. Select iso639p3 from language table where EURES language = LEXVO label
-	$sql = mysql_query("SELECT iso639p3 FROM language WHERE labels LIKE'%$lowercase_language%'") or die (mysql_error());
+	$sql = mysql_query("SELECT iso639p3, labels FROM language WHERE labels LIKE'%$lowercase_language%'");
+  while ($row = mysql_fetch_row($sql)) {
+    $column_values = explode(";", $row[1]);
+    if (in_array($lowercase_language, $column_values)) {
+      $iso639p3 = $row[0];
+      return $iso639p3;
+    }
+  }
 
-	//4. If found return the iso639p3
-	if ((mysql_num_rows($sql) <> 0))
-	{
-		$row = mysql_fetch_object($sql);
-		$iso639p3 = $row->iso639p3;
+  $language_translate = strtolower(translate($lowercase_language));
 
-		return $iso639p3;
-	}
-	//5. If not found	
-	else
-	{
-		//1. look up that language in google translate API
-		$language_translate = translate($lowercase_language);
-		//2. look up result in table language this english label for iso639p3
-		$sql = mysql_query("SELECT iso639p3 FROM language_code WHERE labels LIKE'%$language_translate%'") or die (mysql_error());
-		//3. if found:
-		if ((mysql_num_rows($sql) <> 0))
-		{
-			$row = mysql_fetch_object($sql);
-			$iso639p3 = $row->iso639p3;
-
-			//a. write in language_added.log
-			write_log('languages_added.log',"$language\t$iso639p3\t$language_translate\t$country_code\t$job_id\t$source_id\n");
-
-			//b. return the iso639p3			
-			return $iso639p3;		
-		}
-		else
-		{
-			//4. if not found write in language_errors.log
-			write_log('languages_errors.log',"$language\t$iso639p3\t$language_translate\t$country_code\t$job_id\t$source_id\n");
-			return NULL;
-		}
-	}
+  $sql = mysql_query("SELECT iso639p3, labels FROM language WHERE labels LIKE'%$language_translate%'");
+  while ($row = mysql_fetch_row($sql)) {
+    $column_values = explode(";", $row[1]);
+    if (in_array($language_translate, $column_values)) {
+      $iso639p3 = $row[0];
+      $query = "UPDATE language SET labels = CONCAT(labels,';$lowercase_language') WHERE iso639p3='$iso639p3'";
+      if (mysql_query($query)) {
+        write_log('languages_added.log', array($job_id, $language, $iso639p3, $language_translate, $country_code));
+      } else {
+        write_log('language_insert_errors.log', array($job_id, $language, $iso639p3, $language_translate, $country_code, mysql_error()));
+      }
+      return $iso639p3;
+    }
+  }
+  write_log('languages_errors.log', array($language, $language_translate, $country_code, $job_id, $source_id));
 }
 
-function write_log($file,$text)
+function write_log($file, $text_array)
 {
 	global $DIR;
 
-	if (!file_exists('logs'))
+  $text = date("Y-m-d H:i:s")."\t".join("\t", $text_array)."\n";
+  $dir = "logs/";
+  $file = $dir.$file;
+
+	if (!is_dir($dir))
 	{
-		if(mkdir('logs', 0777))
+		if(mkdir($dir, 0777))
 		{
 			echo "Directory for logs has been created successfully.";
 		}
 		else
 		{
-			echo "Failed to create directory.";
+			die("Failed to create directory: $dir");
 		} 
 	}
-	else
-	{
-		echo "Directory logs already exists.";
-	}
-
-	if( $fh = @fopen($DIR.'logs/'.$file,'a+'))
+	
+	if( $fh = fopen($file,'a+'))
 	{
 		fputs($fh, $text, strlen($text));
 		fclose($fh);
-		return(true);
+		return true;
 	}
-	else
-	{
-		return(false);
-	}
+  echo "Couldn't write to log file: $file";
+	return false;
 }
 
-function db_prep($data)
 // Basic prep function - trims and escapes data
+function db_prep($data)
 {
-	if (isset($data) and $data != '')
+	if (isset($data) && ($data != ''))
 	{
 		$prepped = "'" . mysql_real_escape_string(trim($data)) . "'";
 	}
@@ -327,50 +382,34 @@ function addhttp($url) {
 	return $url;
 }
 
-function insert_name($table,$value)
+// Insert name on the small tables and returns the id
+function insert_name($table, $value)
 {
-	// Insert name on the small tables and returns the id
-
 	$lowercase_value = db_prep(strtolower($value));
 
 	if($value <> '' && $value <> '0' && $value <> '.' && $value <> '**')
 	{
 		$query = "SELECT id FROM $table WHERE LOWER(name) = $lowercase_value";
-
-		$sql = mysql_query($query) or die (mysql_error());
-
-		$cont = mysql_num_rows($sql);
-
-		if ($cont == 0)
+    $sql = mysql_query($query) or die ($query.PHP_EOL."caused: ".mysql_error());
+    if (mysql_num_rows($sql) == 0)
 		{
 			mysql_query("INSERT INTO ".$table." SET name =".db_prep($value));
-			$sql = mysql_query($query) or die (mysql_error());	
+			$sql = mysql_query($query) or die ($query.PHP_EOL."caused: ".mysql_error());
 		}
 		$row = mysql_fetch_object($sql);
-		$id = $row->id;				
-
-		return $id;
+		return $row->id;
 	}
-	else
-	{
-		return NULL;
-	}	
+  // TODO throw exception & log
 }
 
+// Select id based on the query or returns empty
 function select_id($query)
 {
-// Select id based on the query or returns empty
-	$sql = mysql_query($query);		
-	$cont = mysql_num_rows($sql);
-	if ($cont > 0)
+	$sql = mysql_query($query) or die($query.PHP_EOL." caused: ".mysql_error());
+	if (mysql_num_rows($sql) > 0)
 	{
 		$row = mysql_fetch_array($sql);
-		$id = $row[0];
-		return $id;
-	}
-	elseif ($cont == 0)
-	{
-		return '';	
+    return $row[0];
 	}
 }
 
@@ -417,7 +456,7 @@ function format_salary($value)
 	}
 	else
 	{
-		write_log('salary_errors.log',"$value\t$unique_id\t$source_id\n");		
+		write_log('salary_errors.log', array($value, $unique_id, $source_id));
 	}
 	return $salary;
 }
@@ -426,8 +465,7 @@ function format_phone($value)
 {
 	//needs improve to split with 99252572 -22490440 but not 051-857229
 	global $contact_id;
-
-	if (preg_match('/@/',$value))
+  if (preg_match('/@/',$value))
 	{
 		$phone_array['email'] = $value;
 		return $phone_array ;
@@ -448,17 +486,16 @@ function format_phone($value)
 	}
 	else
 	{
-		write_log("phone_errors.log","$value/t$contact_id/n");		
+		write_log("phone_errors.log", array($value, $contact_id));
 		return NULL;
 	}
 }
 
 function format_fax($value) 
 {
-	$fax_array['fax'] = NULL;
-	$fax_array['email'] = NULL;
-
 	global $unique_id;
+
+  $fax_array = array();
 
 	if (preg_match('/@/',$value))
 	{
@@ -472,19 +509,16 @@ function format_fax($value)
 		$fax_array['fax'] = preg_replace('/[^\d]/','',$fax);
 		return $fax_array;
 	}
-	else
-	{
-		write_log("fax_errors.log","$value/t$unique_id/n");		
-		return NULL;
-	}
+  write_log("fax_errors.log", array($value, $unique_id));
 }
 
 function prepare_boolean($value)
 {
-	if (strtolower($value) == 'yes')
+	if (strtolower($value) == 'yes') {
 		return 1;
-	if (strtolower($value) == 'no')
-		return 0;
+  }
+	if (strtolower($value) == 'no') {
+    return 0;
+  }
+  // TODO treat occurences of this function when neither 0 or 1 are returned
 }
-
-?>

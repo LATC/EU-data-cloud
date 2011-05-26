@@ -1,0 +1,8 @@
+CREATE TABLE update_service
+(
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	date DATE,
+	hour TIME,
+	type CHAR(3),
+	PRIMARY KEY (id)
+) DEFAULT CHARACTER SET utf8;

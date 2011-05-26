@@ -1,0 +1,8 @@
+CREATE TABLE region
+(
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	name VARCHAR(255) UNIQUE,
+	country_code CHAR(2) REFERENCES country(id),
+	PRIMARY KEY (id),
+	UNIQUE (name(255),country_code(2))
+) DEFAULT CHARACTER SET utf8;

@@ -1,0 +1,9 @@
+<?php
+
+$JOBS_DIR = ''; // directory of scrapes Eures jobs
+$DIR = '';  // directory of your Eures setup
+
+$MYSQL_SERVER = '';   // mysql server, usually localhost
+$MYSQL_USER = '';     // mysql user
+$MYSQL_PASSWORD = ''; // mysql password
+$MYSQL_DATABASE = ''; // database name for Eures

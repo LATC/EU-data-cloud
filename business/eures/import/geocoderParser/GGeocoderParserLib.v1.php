@@ -2,82 +2,55 @@
 /*
  * GGeocoderParserLib v.1.0
  * GGeocoderParserLib is a PHP library (class) that lets you query Google Geocoder Service via Google Geocoding API and parses the response so it provides a very easy way to handle the JSON data in PHP.
- *  
+ *
  * Permission is hereby granted, free of charge, to any person to use this Software without restriction,
  * the rights to use, copy, modify, publish and distribute copies of the Software or do whatever.
  *
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. IN NO EVENT SHALL THE AUTHORS
  * BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE USE OF THIS SOFTWARE.
- * 
+ *
  * Copyright 2010 moohy.com
  * AUTHOR: Narcis Paun
  */
 // edit this if it changes over time
 define("mooGEOCODING_SERVER", "maps.google.com");
 define("mooGEOCODING_SERVER_PATH", "/maps/api/geocode/json");
-// !!! no config below this line.................................................  
+// !!! no config below this line.................................................
 
 //added by Lucas to return the data for database (this could be better implemented)
 function get_geocoder_address($q)
 {
 	$ggeo = get_ggeocoder_json($q);
 
-	if (isset($_POST['formatted_address']))
-		$address['formatted_address']=$ggeo->results['formatted_address'];
+	$address['formatted_address']=$ggeo->results['formatted_address'];
 
-	if (isset($_POST['latitude']))
-		$address['latitude']=$ggeo->results['latitude'];
+	$address['latitude']=$ggeo->results['latitude'];
 
-	if (isset($_POST['longitude']))		
-		$address['longitude']=$ggeo->results['longitude'];
+	$address['longitude']=$ggeo->results['longitude'];
 
-	if (isset($_POST['viewport_lat_southwest']))
-		$address['viewport_lat_southwest']=$ggeo->results['viewport_lat_southwest'];
+	$address['viewport_lat_southwest']=$ggeo->results['viewport_lat_southwest'];
 
-	if (isset($_POST['viewport_lng_southwest']))
-		$address['viewport_lng_southwest']=$ggeo->results['viewport_lng_southwest'];
+	$address['viewport_lng_southwest']=$ggeo->results['viewport_lng_southwest'];
 
-	if (isset($_POST['viewport_lat_northeast']))
-		$address['viewport_lat_northeast']=$ggeo->results['viewport_lat_northeast'];
+	$address['viewport_lat_northeast']=$ggeo->results['viewport_lat_northeast'];
 
-	if (isset($_POST['viewport_lng_northeast']))
-		$address['viewport_lng_northeast']=$ggeo->results['viewport_lng_northeast'];
+	$address['viewport_lng_northeast']=$ggeo->results['viewport_lng_northeast'];
 
-	if (isset($_POST['bounds_lat_southwest']))
-		$address['bounds_lat_southwest']=$ggeo->results['bounds_lat_southwest'];
+	$address['country']=$ggeo->find_address_components('country','long_name');
 
-	if (isset($_POST['bounds_lng_southwest']))
-		$address['bounds_lng_southwest']=$ggeo->results['bounds_lng_southwest'];
+	$address['country_code']=$ggeo->find_address_components('country','short_name');
 
-	if (isset($_POST['bounds_lat_northeast']))
-		$address['bounds_lat_northeast']=$ggeo->results['bounds_lat_northeast'];
+	$address['administrative_area_level_1']=$ggeo->find_address_components('administrative_area_level_1','long_name');
 
-	if (isset($_POST['bounds_lng_northeast']))
-		$address['bounds_lng_northeast']=$ggeo->results['bounds_lng_northeast'];
+	$address['administrative_area_level_2']=$ggeo->find_address_components('administrative_area_level_2','long_name');
 
-	if (isset($_POST['country']))
-		$address['country']=$ggeo->find_address_components('country','long_name');
+	$address['locality']=$ggeo->find_address_components('locality','long_name');
 
-	if (isset($_POST['country_id']))
-		$address['country_id']=$ggeo->find_address_components('country','short_name');
+	$address['postal_code']=$ggeo->find_address_components('postal_code','long_name');
 
-	if (isset($_POST['administrative_area_level_1']))
-		$address['administrative_area_level_1']=$ggeo->find_address_components('administrative_area_level_1','long_name');
+	$address['route']=$ggeo->find_address_components('route','long_name');
 
-	if (isset($_POST['administrative_area_level_2']))
-		$address['administrative_area_level_2']=$ggeo->find_address_components('administrative_area_level_2','long_name');
-
-	if (isset($_POST['locality']))
-		$address['locality']=$ggeo->find_address_components('locality','long_name');
-
-	if (isset($_POST['postal_code']))		
-		$address['postal_code']=$ggeo->find_address_components('postal_code','long_name');
-
-	if (isset($_POST['route']))	
-		$address['route']=$ggeo->find_address_components('route','long_name');
-
-	if (isset($_POST['street_number']))
-		$address['street_number']=$ggeo->find_address_components('street_number','long_name');
+	$address['street_number']=$ggeo->find_address_components('street_number','long_name');
 
 	if (isset($address))
 		return $address;
@@ -151,7 +124,7 @@ class simple_ggeocoder_json_parser {
 		$server=mooGEOCODING_SERVER;
 		$server_path=mooGEOCODING_SERVER_PATH;
 		$params='?address='.$address.'&language='.$language.'&sensor='.$sensor;
-		
+
 		$server_response = moo_socket_get($server,$server_path,$params);
 		$pos = strpos($server_response, 'OK');
 		if ($pos === false) {
@@ -175,7 +148,7 @@ class simple_ggeocoder_json_parser {
 		$this->results['count']=count($this->obj->results);
 		if($this->results['count']<1){
 			return FALSE;
-		} 
+		}
 		//get some values only from first result, add whatever you may need :)
 		$this->results['formatted_address']=$this->obj->results[0]->formatted_address;
 		$this->results['latitude']=$this->obj->results[0]->geometry->location->lat;
@@ -184,10 +157,6 @@ class simple_ggeocoder_json_parser {
 		$this->results['viewport_lng_southwest']=$this->obj->results[0]->geometry->viewport->southwest->lng;
 		$this->results['viewport_lat_northeast']=$this->obj->results[0]->geometry->viewport->northeast->lat;
 		$this->results['viewport_lng_northeast']=$this->obj->results[0]->geometry->viewport->northeast->lng;
-		$this->results['bounds_lat_southwest']=$this->obj->results[0]->geometry->bounds->southwest->lat;
-		$this->results['bounds_lng_southwest']=$this->obj->results[0]->geometry->bounds->southwest->lng;
-		$this->results['bounds_lat_northeast']=$this->obj->results[0]->geometry->bounds->northeast->lat;
-		$this->results['bounds_lng_northeast']=$this->obj->results[0]->geometry->bounds->northeast->lng;
 		return TRUE;
 	}
 	function find_address_components($type,$value) {
@@ -196,9 +165,9 @@ class simple_ggeocoder_json_parser {
 		}
 		foreach($this->obj->results[0]->address_components as $k=>$found){
 			//echo '<pre>';print_r($found);echo '</pre>';
-			if(in_array($type, $found->types)){			
+			if(in_array($type, $found->types)){
 				return $found->$value;
-			} 
+			}
 		}
 		return FALSE;
 	}
@@ -218,4 +187,3 @@ class simple_ggeocoder_json_parser {
     }
 
 }
-?>
