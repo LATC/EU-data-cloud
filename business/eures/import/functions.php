@@ -52,13 +52,17 @@ function insert_languages() {
       }
       $language = strtolower(trim($values[2]));
       if (!in_array($language, $languages[$values[0]]["labels"])) {
-        $languages[$values[0]]["labels"][] = $language;
+        if (mysql_query("INSERT INTO language SET iso639p3 = '$values[0]', iso639p1 = '".$values[1]."', labels =".db_prep($language))) {
+          $languages[$values[0]]["labels"][] = $language;
+          mysql_query("TRUNCATE TABLE language") or die(mysql_error());
+        }
       }
     }
   }
   fclose($openFile);
   foreach($languages as $iso3 => $language_array) {
-    mysql_query("INSERT INTO language SET iso639p3 = '$iso3', iso639p1 = '".$language_array["iso1"]."', labels =".db_prep(implode(";", $language_array["labels"]))) or die(mysql_error());
+    if (!mysql_query("INSERT INTO language SET iso639p3 = '$iso3', iso639p1 = '".$language_array["iso1"]."', labels =".db_prep(implode(";", $language_array["labels"]))))
+       echo mysql_error().PHP_EOL;
   }
   echo "Inserted data for table: language".PHP_EOL;
 }
