@@ -9,8 +9,8 @@ Design
 ======
 
 1) Base URI would be "http://eurostat.linked-statistics.org".
-2) VoID discovery mechanism would be delivered through "http://eurostat.linked-statistics.org/.well-known/void". Upon discovery, 
-   the system will serve the VoID description which would be like :
+
+2) VoID discovery mechanism would be delivered through "http://eurostat.linked-statistics.org/.well-known/void". Upon discovery, the system will serve the VoID description which would be like :
 
 		:EuroStat a void:Dataset;
     			dcterms:title "EuroStat";
