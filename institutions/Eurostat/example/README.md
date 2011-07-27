@@ -10,7 +10,9 @@ HOW TO RUN
 1) In order to run the example, get the EuroStat.jar file from EuroStat/example directory
 
 2) The jar file requires two parameters
+
 	a) dsd file path
+
 	b) output file path
 
 3) Do not specify the filename of the RDF as the program will create filename based on the name of the DSD file
