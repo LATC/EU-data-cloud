@@ -41,7 +41,7 @@ Remarks
 =======
 1) Use N-Quads format to generate dataset triples.
 
-2) Reuse code from [linked-eurostat](http://code.google.com/p/linked-eurostat/) Dataset RDFication.
+2) Reuse code from [linked-eurostat](http://code.google.com/p/linked-eurostat/) for Dataset RDFication.
 
 3) Use [our own code](https://github.com/LATC/EU-data-cloud/tree/master/institutions/Eurostat/src) for DSD RDFication.
 
