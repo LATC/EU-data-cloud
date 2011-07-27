@@ -30,7 +30,7 @@ Remarks
 =======
 1) Use N-Quads format to generate dataset triples.
 
-2) Reuse Andreas code for Dataset RDFication.
+2) Reuse Andreas Harth code for Dataset RDFication.
 
 3) Use our own code for DSD RDFication.
 
