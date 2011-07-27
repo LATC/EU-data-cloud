@@ -26,13 +26,13 @@ Design
 
 3) Upon de-referencing any dataset, we serve the DataSet Summary (DSS):
 
-  @prefix data: <http://eurostat.linked-statistics.org/data/> .
-  @prefix dss: <http://eurostat.linked-statistics.org/dss/> .
-  @prefix dsd: <http://eurostat.linked-statistics.org/dsd#> .
-  @prefix qb: <http://purl.org/linked-data/cube#> .
-  @prefix void: <http://rdfs.org/ns/void#> .
+                @prefix data: <http://eurostat.linked-statistics.org/data/> .
+                @prefix dss: <http://eurostat.linked-statistics.org/dss/> .
+                @prefix dsd: <http://eurostat.linked-statistics.org/dsd#> .
+                @prefix qb: <http://purl.org/linked-data/cube#> .
+                @prefix void: <http://rdfs.org/ns/void#> .
 		
-		dss:ds_1 a qb:DataSet, void:Dataset;
+	        dss:ds_1 a qb:DataSet, void:Dataset;
 			qb:DataStructureDefinition dsd:dsd_1;
 			void:dataDump data:ds_1.ttl
 			.
