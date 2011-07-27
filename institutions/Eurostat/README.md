@@ -12,17 +12,17 @@ Design
 
 2) VoID discovery mechanism would be delivered through http://eurostat.linked-statistics.org/.well-known/void. Upon discovery, the system will serve the VoID description which would be like :
 
-  @prefix meta: <http://eurostat.linked-statistics.org/meta#> . 
-  @prefix dss: <http://eurostat.linked-statistics.org/dss/> .
-  @prefix dcterms: <http://purl.org/dc/terms/> .
-  @prefix void: <http://rdfs.org/ns/void#> .
+                @prefix meta: <http://eurostat.linked-statistics.org/meta#> . 
+                @prefix dss: <http://eurostat.linked-statistics.org/dss/> .
+                @prefix dcterms: <http://purl.org/dc/terms/> .
+                @prefix void: <http://rdfs.org/ns/void#> .
                 
-		meta:Eurostat a void:Dataset;
-    		        dcterms:title "EuroStat";
-			void:subset
-			dss:ds_1,
-			dss:ds_2
-			.
+		     meta:Eurostat a void:Dataset;
+    		            dcterms:title "EuroStat";
+			    void:subset
+			    dss:ds_1,
+			    dss:ds_2
+			    .
 
 3) Upon de-referencing any dataset, we serve the DataSet Summary (DSS):
 
