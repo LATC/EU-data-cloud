@@ -1,0 +1,74 @@
+
+Summary:
+========
+This document gives a rough estimation on the total number of triples we possibly produce from the Eurostat data sets.
+
+
+Observation Stats:
+==================
+
+Total number of observations =  879,236,193
+
+How did we calculate ?
+Calculated by summing up the values of the datasets exists in the table of contents [1] published by EuroStat. 
+
+Threats to validity 
+The datasets are classified into different categories and hence there are cases where a dataset is listed twice in the table of contents but in different categories. The current observation stats computed without filtering the duplicity of datasets. Forexample, a dataset having title "ICT patent applications to the EPO by priority year at the regional level" and codename "pat_ep_rict" falls into 
+two categories in the table of contents:
+	European patent applications to EPO
+	Patent applications to the EPO by priority year at the regional level
+
+
+
+Triple Stats:
+=============
+
+Total estimation of triples varies between 5~8 billions
+
+Forxample, lets we have an observation :
+
+<data:Series FREQ="Q" indic="BS-OTEB" unit="BAL" s_adj="NSA" geo="AT" TIME_FORMAT="P3M">
+  <data:Obs TIME_PERIOD="1996-Q1" OBS_VALUE="4.1" /> 
+</data:Series>
+
+Potential RDFication yields into :
+
+<qb:Observation>
+	<qb:dataset rdf:resource="/id/bsbu_q_bc#ds"/>
+	<indic rdf:resource="/dic/indic#BS-OTEB"/>
+	<s_adj rdf:resource="/dic/s_adj#NSA"/>
+	<unit rdf:resource="/dic/unit#BAL"/>
+	<geo rdf:resource="/dic/geo#AT"/>
+	<dcterms:date>1996-03-31</dcterms:date>
+	<sdmx-measure:obsValue>4.1</sdmx-measure:obsValue>
+</qb:Observation>
+
+
+BUT if an observation has less number of dimensions like:
+
+<data:Series FREQ="A" unit="PC_EU27_PPS_HAB" geo="AT">
+  <data:Obs TIME_PERIOD="1995" OBS_VALUE="135" /> 
+</data:Series>
+
+Potential RDFication yields into:
+
+<qb:Observation>
+	<qb:dataset rdf:resource="/id/tsieb010#ds"/>
+	<unit rdf:resource="/dic/unit#PC_EU27_PPS_HAB"/>
+	<geo rdf:resource="/dic/geo#AT"/>
+	<dcterms:date>2006</dcterms:date>
+	<sdmx-measure:obsValue>135</sdmx-measure:obsValue>
+</qb:Observation>
+
+
+So, the triples for each observation may vary depending on the number of dimensions used in that particular observation:
+
+Taking 6 as a minimum number of triples per observation yields to : ~5.2 billion triples
+Taking 10 as a minimum number of triples per observation yields to : ~8.8 billions triples
+
+
+NOTE:
+
+There will be triples generated from the DSD (Data Structure Definition) of the Eurostat datasets which is not taken into consideration in the current estimation of triples.
+
+[1] http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=1&file=table_of_contents_de.txt

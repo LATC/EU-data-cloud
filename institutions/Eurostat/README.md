@@ -1,10 +1,18 @@
 # Eurostat dataset
 
-TODO: Aftab, move stuff from the [old Github repo](https://github.com/aftiqb/EuroStat) here.
-## Contact
+About 
+=====
+This project is about publishing EuroStat as Linked Data on the Web. The current version of the code transforms DSD into RDF using DataCube vocabulary.
 
-If you have any questions, please [contact](http://latc-project.eu/contact) us.
 
+HOW TO RUN
+==========
+1) In order to run the example, get the EuroStat.jar file from EuroStat/example directory
+2) The jar file requires two parameters
+	a) dsd file path
+	b) output file path
+3) Do not specify the filename of the RDF as the program will create filename based on the name of the DSD file
+4) example : java -jar EuroStat.jar /home/romulus/EuroStat/tsieb010.dsd.xml /home/romulus/RDF/
 ## License
 
 The software provided in this repository is Open Source.

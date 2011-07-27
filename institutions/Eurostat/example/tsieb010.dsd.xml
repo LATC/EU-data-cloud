@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact" xmlns:cross="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/cross" xmlns:generic="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/generic" xmlns:query="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/query" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:utility="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/utility" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd">
+<Header>
+<ID>tsieb010_DSD</ID>
+<Test>false</Test>
+<Truncated>false</Truncated>
+<Name xml:lang="en">tsieb010_DSD</Name>
+<Prepared>2010-12-18T02:21:31</Prepared>
+<Sender id="EUROSTAT">
+<Name xml:lang="en">EUROSTAT</Name>
+</Sender>
+<Receiver id="XML">
+<Name xml:lang="en">XML File</Name>
+</Receiver>
+</Header>
+
+<CodeLists>
+<structure:CodeList id="CL_geo" agencyID="EUROSTAT" isFinal="false">
+<structure:Name xml:lang="en">Geopolitical entity (declaring)</structure:Name>
+<structure:Name xml:lang="de">Geopolitische Meldeeinheit</structure:Name>
+<structure:Name xml:lang="fr">Entité géopolitique (déclarante)</structure:Name>
+<structure:Code value="EU27">
+<structure:Description xml:lang="en">European Union (27 countries)</structure:Description>
+<structure:Description xml:lang="de">Europäische Union (27 Länder)</structure:Description>
+<structure:Description xml:lang="fr">Union européenne (27 pays)</structure:Description>
+</structure:Code>
+<structure:Code value="EU25">
+<structure:Description xml:lang="en">European Union (25 countries)</structure:Description>
+<structure:Description xml:lang="de">Europäische Union (25 Länder)</structure:Description>
+<structure:Description xml:lang="fr">Union européenne (25 pays)</structure:Description>
+</structure:Code>
+<structure:Code value="EU15">
+<structure:Description xml:lang="en">European Union (15 countries)</structure:Description>
+<structure:Description xml:lang="de">Europäische Union (15 Länder)</structure:Description>
+<structure:Description xml:lang="fr">Union européenne (15 pays)</structure:Description>
+</structure:Code>
+<structure:Code value="EA16">
+<structure:Description xml:lang="en">Euro area (16 countries)</structure:Description>
+<structure:Description xml:lang="de">Euroraum (16 Länder)</structure:Description>
+<structure:Description xml:lang="fr">Zone euro (16 pays)</structure:Description>
+</structure:Code>
+<structure:Code value="EA15">
+<structure:Description xml:lang="en">Euro area (15 countries)</structure:Description>
+<structure:Description xml:lang="de">Euroraum (15 Länder)</structure:Description>
+<structure:Description xml:lang="fr">Zone euro (15 pays)</structure:Description>
+</structure:Code>
+<structure:Code value="BE">
+<structure:Description xml:lang="en">Belgium</structure:Description>
+<structure:Description xml:lang="de">Belgien</structure:Description>
+<structure:Description xml:lang="fr">Belgique</structure:Description>
+</structure:Code>
+<structure:Code value="BG">
+<structure:Description xml:lang="en">Bulgaria</structure:Description>
+<structure:Description xml:lang="de">Bulgarien</structure:Description>
+<structure:Description xml:lang="fr">Bulgarie</structure:Description>
+</structure:Code>
+<structure:Code value="CZ">
+<structure:Description xml:lang="en">Czech Republic</structure:Description>
+<structure:Description xml:lang="de">Tschechische Republik</structure:Description>
+<structure:Description xml:lang="fr">République tchèque</structure:Description>
+</structure:Code>
+<structure:Code value="DK">
+<structure:Description xml:lang="en">Denmark</structure:Description>
+<structure:Description xml:lang="de">Dänemark</structure:Description>
+<structure:Description xml:lang="fr">Danemark</structure:Description>
+</structure:Code>
+<structure:Code value="DE">
+<structure:Description xml:lang="en">Germany (including  former GDR from 1991)</structure:Description>
+<structure:Description xml:lang="de">Deutschland (einschließlich der ehemaligen DDR seit 1991)</structure:Description>
+<structure:Description xml:lang="fr">Allemagne (incluant l'ancienne RDA à partir de 1991)</structure:Description>
+</structure:Code>
+<structure:Code value="EE">
+<structure:Description xml:lang="en">Estonia</structure:Description>
+<structure:Description xml:lang="de">Estland</structure:Description>
+<structure:Description xml:lang="fr">Estonie</structure:Description>
+</structure:Code>
+<structure:Code value="IE">
+<structure:Description xml:lang="en">Ireland</structure:Description>
+<structure:Description xml:lang="de">Irland</structure:Description>
+<structure:Description xml:lang="fr">Irlande</structure:Description>
+</structure:Code>
+<structure:Code value="GR">
+<structure:Description xml:lang="en">Greece</structure:Description>
+<structure:Description xml:lang="de">Griechenland</structure:Description>
+<structure:Description xml:lang="fr">Grèce</structure:Description>
+</structure:Code>
+<structure:Code value="ES">
+<structure:Description xml:lang="en">Spain</structure:Description>
+<structure:Description xml:lang="de">Spanien</structure:Description>
+<structure:Description xml:lang="fr">Espagne</structure:Description>
+</structure:Code>
+<structure:Code value="FR">
+<structure:Description xml:lang="en">France</structure:Description>
+<structure:Description xml:lang="de">Frankreich</structure:Description>
+<structure:Description xml:lang="fr">France</structure:Description>
+</structure:Code>
+<structure:Code value="IT">
+<structure:Description xml:lang="en">Italy</structure:Description>
+<structure:Description xml:lang="de">Italien</structure:Description>
+<structure:Description xml:lang="fr">Italie</structure:Description>
+</structure:Code>
+<structure:Code value="CY">
+<structure:Description xml:lang="en">Cyprus</structure:Description>
+<structure:Description xml:lang="de">Zypern</structure:Description>
+<structure:Description xml:lang="fr">Chypre</structure:Description>
+</structure:Code>
+<structure:Code value="LV">
+<structure:Description xml:lang="en">Latvia</structure:Description>
+<structure:Description xml:lang="de">Lettland</structure:Description>
+<structure:Description xml:lang="fr">Lettonie</structure:Description>
+</structure:Code>
+<structure:Code value="LT">
+<structure:Description xml:lang="en">Lithuania</structure:Description>
+<structure:Description xml:lang="de">Litauen</structure:Description>
+<structure:Description xml:lang="fr">Lituanie</structure:Description>
+</structure:Code>
+<structure:Code value="LU">
+<structure:Description xml:lang="en">Luxembourg</structure:Description>
+<structure:Description xml:lang="de">Luxemburg</structure:Description>
+<structure:Description xml:lang="fr">Luxembourg</structure:Description>
+</structure:Code>
+<structure:Code value="HU">
+<structure:Description xml:lang="en">Hungary</structure:Description>
+<structure:Description xml:lang="de">Ungarn</structure:Description>
+<structure:Description xml:lang="fr">Hongrie</structure:Description>
+</structure:Code>
+<structure:Code value="MT">
+<structure:Description xml:lang="en">Malta</structure:Description>
+<structure:Description xml:lang="de">Malta</structure:Description>
+<structure:Description xml:lang="fr">Malte</structure:Description>
+</structure:Code>
+<structure:Code value="NL">
+<structure:Description xml:lang="en">Netherlands</structure:Description>
+<structure:Description xml:lang="de">Niederlande</structure:Description>
+<structure:Description xml:lang="fr">Pays-Bas</structure:Description>
+</structure:Code>
+<structure:Code value="AT">
+<structure:Description xml:lang="en">Austria</structure:Description>
+<structure:Description xml:lang="de">Österreich</structure:Description>
+<structure:Description xml:lang="fr">Autriche</structure:Description>
+</structure:Code>
+<structure:Code value="PL">
+<structure:Description xml:lang="en">Poland</structure:Description>
+<structure:Description xml:lang="de">Polen</structure:Description>
+<structure:Description xml:lang="fr">Pologne</structure:Description>
+</structure:Code>
+<structure:Code value="PT">
+<structure:Description xml:lang="en">Portugal</structure:Description>
+<structure:Description xml:lang="de">Portugal</structure:Description>
+<structure:Description xml:lang="fr">Portugal</structure:Description>
+</structure:Code>
+<structure:Code value="RO">
+<structure:Description xml:lang="en">Romania</structure:Description>
+<structure:Description xml:lang="de">Rumänien</structure:Description>
+<structure:Description xml:lang="fr">Roumanie</structure:Description>
+</structure:Code>
+<structure:Code value="SI">
+<structure:Description xml:lang="en">Slovenia</structure:Description>
+<structure:Description xml:lang="de">Slowenien</structure:Description>
+<structure:Description xml:lang="fr">Slovénie</structure:Description>
+</structure:Code>
+<structure:Code value="SK">
+<structure:Description xml:lang="en">Slovakia</structure:Description>
+<structure:Description xml:lang="de">Slowakei</structure:Description>
+<structure:Description xml:lang="fr">Slovaquie</structure:Description>
+</structure:Code>
+<structure:Code value="FI">
+<structure:Description xml:lang="en">Finland</structure:Description>
+<structure:Description xml:lang="de">Finnland</structure:Description>
+<structure:Description xml:lang="fr">Finlande</structure:Description>
+</structure:Code>
+<structure:Code value="SE">
+<structure:Description xml:lang="en">Sweden</structure:Description>
+<structure:Description xml:lang="de">Schweden</structure:Description>
+<structure:Description xml:lang="fr">Suède</structure:Description>
+</structure:Code>
+<structure:Code value="UK">
+<structure:Description xml:lang="en">United Kingdom</structure:Description>
+<structure:Description xml:lang="de">Vereinigtes Königreich</structure:Description>
+<structure:Description xml:lang="fr">Royaume-Uni</structure:Description>
+</structure:Code>
+<structure:Code value="IS">
+<structure:Description xml:lang="en">Iceland</structure:Description>
+<structure:Description xml:lang="de">Island</structure:Description>
+<structure:Description xml:lang="fr">Islande</structure:Description>
+</structure:Code>
+<structure:Code value="LI">
+<structure:Description xml:lang="en">Liechtenstein</structure:Description>
+<structure:Description xml:lang="de">Liechtenstein</structure:Description>
+<structure:Description xml:lang="fr">Liechtenstein</structure:Description>
+</structure:Code>
+<structure:Code value="NO">
+<structure:Description xml:lang="en">Norway</structure:Description>
+<structure:Description xml:lang="de">Norwegen</structure:Description>
+<structure:Description xml:lang="fr">Norvège</structure:Description>
+</structure:Code>
+<structure:Code value="CH">
+<structure:Description xml:lang="en">Switzerland</structure:Description>
+<structure:Description xml:lang="de">Schweiz</structure:Description>
+<structure:Description xml:lang="fr">Suisse</structure:Description>
+</structure:Code>
+<structure:Code value="HR">
+<structure:Description xml:lang="en">Croatia</structure:Description>
+<structure:Description xml:lang="de">Kroatien</structure:Description>
+<structure:Description xml:lang="fr">Croatie</structure:Description>
+</structure:Code>
+<structure:Code value="MK">
+<structure:Description xml:lang="en">Ancienne République yougoslave de Macédoine</structure:Description>
+<structure:Description xml:lang="de">Die ehemalige jugoslawische Republik Mazedonien</structure:Description>
+<structure:Description xml:lang="fr">Ancienne République yougoslave de Macédoine</structure:Description>
+</structure:Code>
+<structure:Code value="TR">
+<structure:Description xml:lang="en">Turkey</structure:Description>
+<structure:Description xml:lang="de">Türkei</structure:Description>
+<structure:Description xml:lang="fr">Turquie</structure:Description>
+</structure:Code>
+<structure:Code value="US">
+<structure:Description xml:lang="en">United States</structure:Description>
+<structure:Description xml:lang="de">Vereinigte Staaten</structure:Description>
+<structure:Description xml:lang="fr">États-Unis</structure:Description>
+</structure:Code>
+<structure:Code value="JP">
+<structure:Description xml:lang="en">Japan</structure:Description>
+<structure:Description xml:lang="de">Japan</structure:Description>
+<structure:Description xml:lang="fr">Japon</structure:Description>
+</structure:Code>
+</structure:CodeList>
+<structure:CodeList id="CL_TIME_FORMAT" agencyID="SDMX">
+<structure:Name xml:lang="en">Time Format</structure:Name>
+<structure:Code value="P1Y">
+<structure:Description xml:lang="en">Annual</structure:Description>
+</structure:Code>
+<structure:Code value="P6M">
+<structure:Description xml:lang="en">Semi-annual</structure:Description>
+</structure:Code>
+<structure:Code value="P3M">
+<structure:Description xml:lang="en">Quarterly</structure:Description>
+</structure:Code>
+<structure:Code value="P1M">
+<structure:Description xml:lang="en">Monthly</structure:Description>
+</structure:Code>
+<structure:Code value="P7D">
+<structure:Description xml:lang="en">Weekly</structure:Description>
+</structure:Code>
+<structure:Code value="P1D">
+<structure:Description xml:lang="en">Daily</structure:Description>
+</structure:Code>
+<structure:Code value="PT1M">
+<structure:Description xml:lang="en">Minutely</structure:Description>
+</structure:Code>
+</structure:CodeList>
+<structure:CodeList id="CL_FREQ" agencyID="SDMX">
+<structure:Name xml:lang="en">Frequency code list</structure:Name>
+<structure:Code value="A">
+<structure:Description xml:lang="en">Annual</structure:Description>
+</structure:Code>
+<structure:Code value="S">
+<structure:Description xml:lang="en">Half-yearly, semester</structure:Description>
+</structure:Code>
+<structure:Code value="Q">
+<structure:Description xml:lang="en">Quarterly</structure:Description>
+</structure:Code>
+<structure:Code value="M">
+<structure:Description xml:lang="en">Monthly</structure:Description>
+</structure:Code>
+<structure:Code value="W">
+<structure:Description xml:lang="en">Weekly</structure:Description>
+</structure:Code>
+<structure:Code value="B">
+<structure:Description xml:lang="en">Business week</structure:Description>
+</structure:Code>
+<structure:Code value="D">
+<structure:Description xml:lang="en">Daily</structure:Description>
+</structure:Code>
+<structure:Code value="H">
+<structure:Description xml:lang="en">Hourly</structure:Description>
+</structure:Code>
+<structure:Code value="N">
+<structure:Description xml:lang="en">Minutely</structure:Description>
+</structure:Code>
+</structure:CodeList>
+<structure:CodeList id="CL_obs_status" agencyID="EUROSTAT" isFinal="false">
+<structure:Name xml:lang="en">Observation status code list</structure:Name>
+<structure:Code value="b">
+<structure:Description xml:lang="en">Break in series</structure:Description>
+<structure:Description xml:lang="de">Reihenunterbrechung</structure:Description>
+<structure:Description xml:lang="fr">Rupture de série</structure:Description>
+</structure:Code>
+<structure:Code value="c">
+<structure:Description xml:lang="en">Confidential</structure:Description>
+<structure:Description xml:lang="de">Vertraulich</structure:Description>
+<structure:Description xml:lang="fr">Confidentiel</structure:Description>
+</structure:Code>
+<structure:Code value="e">
+<structure:Description xml:lang="en">Estimated value</structure:Description>
+<structure:Description xml:lang="de">Geschätzter Wert</structure:Description>
+<structure:Description xml:lang="fr">Valeur estimée</structure:Description>
+</structure:Code>
+<structure:Code value="f">
+<structure:Description xml:lang="en">Forecast</structure:Description>
+<structure:Description xml:lang="de">Prognose</structure:Description>
+<structure:Description xml:lang="fr">Prévision</structure:Description>
+</structure:Code>
+<structure:Code value="i">
+<structure:Description xml:lang="en">See explanatory text</structure:Description>
+<structure:Description xml:lang="de">Siehe Erklärungstext</structure:Description>
+<structure:Description xml:lang="fr">Voir texte explicatif</structure:Description>
+</structure:Code>
+<structure:Code value="n">
+<structure:Description xml:lang="en">Not significant</structure:Description>
+<structure:Description xml:lang="de">Unbedeutend</structure:Description>
+<structure:Description xml:lang="fr">Non significatif</structure:Description>
+</structure:Code>
+<structure:Code value="p">
+<structure:Description xml:lang="en">Provisional value</structure:Description>
+<structure:Description xml:lang="de">Vorläufiger Wert</structure:Description>
+<structure:Description xml:lang="fr">Valeur provisoire</structure:Description>
+</structure:Code>
+<structure:Code value="r">
+<structure:Description xml:lang="en">Revised value</structure:Description>
+<structure:Description xml:lang="de">Revidierter Wert</structure:Description>
+<structure:Description xml:lang="fr">Valeur révisée</structure:Description>
+</structure:Code>
+<structure:Code value="s">
+<structure:Description xml:lang="en">Eurostat estimate</structure:Description>
+<structure:Description xml:lang="de">Schätzung Eurostat</structure:Description>
+<structure:Description xml:lang="fr">Estimation Eurostat</structure:Description>
+</structure:Code>
+<structure:Code value="u">
+<structure:Description xml:lang="en">Unreliable or uncertain data</structure:Description>
+<structure:Description xml:lang="de">Unzuverlässige oder ungewiße Daten</structure:Description>
+<structure:Description xml:lang="fr">Donnée peu fiable ou incertaine</structure:Description>
+</structure:Code>
+<structure:Code value="z">
+<structure:Description xml:lang="en">Not applicable or Real zero or Zero by default</structure:Description>
+<structure:Description xml:lang="de">Nicht zutreffend oder Reale Null oder Automatisch Null</structure:Description>
+<structure:Description xml:lang="fr">Non applicable ou Zéro réel ou Zéro par défaut</structure:Description>
+</structure:Code>
+</structure:CodeList>
+</CodeLists>
+
+<Concepts>
+<structure:Concept id="FREQ"><structure:Name xml:lang="en">Frequency</structure:Name>
+</structure:Concept>
+<structure:ConceptScheme agencyID="EUROSTAT" id="CONCEPTS" isFinal="true">
+<structure:Name xml:lang="en">Concepts</structure:Name>
+<structure:Concept id="geo"><structure:Name xml:lang="en">Geopolitical entity (declaring)</structure:Name>
+<structure:Name xml:lang="de">Geopolitische Meldeeinheit</structure:Name>
+<structure:Name xml:lang="fr">Entité géopolitique (déclarante)</structure:Name>
+</structure:Concept>
+<structure:Concept id="TIME_PERIOD"><structure:Name xml:lang="en">Time period or range</structure:Name>
+</structure:Concept>
+<structure:Concept id="OBS_VALUE"><structure:Name xml:lang="en">Observation Value</structure:Name>
+</structure:Concept>
+<structure:Concept id="OBS_STATUS"><structure:Name xml:lang="en">Observation Status</structure:Name>
+</structure:Concept>
+</structure:ConceptScheme>
+</Concepts>
+
+<KeyFamilies>
+<structure:KeyFamily id="tsieb010_DSD" agencyID="EUROSTAT" isFinal="false" isExternalReference="false"><structure:Name xml:lang="en">tsieb010_DSD</structure:Name>
+
+<structure:Components>
+<structure:Dimension conceptSchemeRef="CONCEPTS" conceptRef="FREQ" codelist="CL_FREQ" isFrequencyDimension="true"/>
+<structure:Dimension conceptSchemeRef="CONCEPTS" conceptRef="geo" codelist="CL_geo" crossSectionalAttachDataSet="false" crossSectionalAttachGroup="false" crossSectionalAttachSection="true" crossSectionalAttachObservation="false"></structure:Dimension>
+<structure:TimeDimension conceptSchemeRef="CONCEPTS" conceptRef="TIME_PERIOD"><structure:TextFormat textType="String"></structure:TextFormat>
+</structure:TimeDimension>
+<structure:PrimaryMeasure conceptSchemeRef="CONCEPTS" conceptRef="OBS_VALUE">
+<structure:TextFormat textType="Double"></structure:TextFormat>
+</structure:PrimaryMeasure>
+
+<structure:Attribute conceptRef="TIME_FORMAT" conceptSchemeRef="CONCEPTS" codelist="CL_TIME_FORMAT" attachmentLevel="Series" assignmentStatus="Mandatory"></structure:Attribute>
+<structure:Attribute conceptSchemeRef="CONCEPTS" conceptRef="OBS_STATUS" codelist="CL_obs_status" attachmentLevel="Observation" assignmentStatus="Conditional" crossSectionalAttachDataSet="false" crossSectionalAttachGroup="false" crossSectionalAttachSection="false" crossSectionalAttachObservation="true"><structure:TextFormat textType="String"></structure:TextFormat>
+</structure:Attribute>
+</structure:Components>
+</structure:KeyFamily>
+</KeyFamilies>
+
+</Structure>

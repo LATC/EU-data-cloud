@@ -1,0 +1,365 @@
+
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix sdmx-concept: <http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix concepts: <http://example.org/EuroStat/concepts#> .
+@prefix property: <http://example.org/EuroStat/property#> .
+@prefix cl: <http://example.org/EuroStat/CodeList/> .
+<http://example.org/EuroStat/dsd/tsieb010>	a qb:DataStrucutreDefinition;
+		skos:notation "tsieb010_DSD";
+		qb:component [qb:dimension	property:FREQ	qb:order 1];
+		qb:component [qb:dimension	property:geo	qb:order 2];
+		qb:component [qb:dimension	property:TIME_PERIOD	qb:order 3];
+		qb:component [qb:measure	property:OBS_VALUE];
+		qb:component [qb:attribute	property:TIME_FORMAT];
+		qb:component [qb:attribute	property:OBS_STATUS];
+		.
+property:FREQ a qb:DimensionProperty, qb:CodedProperty;
+		rdfs:domain		qb:Observation;
+		qb:concept		concept:FREQ;
+		.
+property:geo a qb:DimensionProperty, qb:CodedProperty;
+		rdfs:domain		qb:Observation;
+		qb:concept		concept:geo;
+		qb:codeList		cl:geo;
+		rdfs:range		cl:geo
+		.
+property:TIME_PERIOD a qb:DimensionProperty;
+		rdfs:domain		qb:Observation;
+		qb:concept		concept:TIME_PERIOD;
+		.
+property:OBS_VALUE a qb:MeasureProperty, qb:CodedProperty;
+		rdfs:domain		qb:Observation;
+		qb:concept		concept:OBS_VALUE;
+		.
+property:TIME_FORMAT a qb:AttributeProperty, qb:CodedProperty;
+		rdfs:domain		qb:Observation;
+		qb:concept		concept:TIME_FORMAT;
+		.
+property:OBS_STATUS a qb:AttributeProperty, qb:CodedProperty;
+		rdfs:domain		qb:Observation;
+		qb:concept		concept:OBS_STATUS;
+		qb:codeList		cl:obs_status;
+		rdfs:range		cl:obs_status
+		.
+<http://example.org/EuroStat/CodeList/geo>	a skos:ConceptScheme;
+		rdfs:label "Geopolitical entity (declaring)"@en;
+		skos:notation "CL_geo";
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#EU27>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#EU25>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#EU15>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#EA16>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#EA15>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#BE>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#BG>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#CZ>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#DK>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#DE>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#EE>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#IE>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#GR>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#ES>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#FR>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#IT>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#CY>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#LV>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#LT>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#LU>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#HU>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#MT>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#NL>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#AT>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#PL>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#PT>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#RO>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#SI>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#SK>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#FI>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#SE>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#UK>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#IS>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#LI>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#NO>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#CH>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#HR>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#MK>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#TR>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#US>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/geo#JP>;
+		.
+<http://example.org/EuroStat/CodeList/geo#EU27>	a skos:Concept;
+		skos:prefLabel "European Union (27 countries)"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "EU27"
+		.
+<http://example.org/EuroStat/CodeList/geo#EU25>	a skos:Concept;
+		skos:prefLabel "European Union (25 countries)"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "EU25"
+		.
+<http://example.org/EuroStat/CodeList/geo#EU15>	a skos:Concept;
+		skos:prefLabel "European Union (15 countries)"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "EU15"
+		.
+<http://example.org/EuroStat/CodeList/geo#EA16>	a skos:Concept;
+		skos:prefLabel "Euro area (16 countries)"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "EA16"
+		.
+<http://example.org/EuroStat/CodeList/geo#EA15>	a skos:Concept;
+		skos:prefLabel "Euro area (15 countries)"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "EA15"
+		.
+<http://example.org/EuroStat/CodeList/geo#BE>	a skos:Concept;
+		skos:prefLabel "Belgium"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "BE"
+		.
+<http://example.org/EuroStat/CodeList/geo#BG>	a skos:Concept;
+		skos:prefLabel "Bulgaria"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "BG"
+		.
+<http://example.org/EuroStat/CodeList/geo#CZ>	a skos:Concept;
+		skos:prefLabel "Czech Republic"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "CZ"
+		.
+<http://example.org/EuroStat/CodeList/geo#DK>	a skos:Concept;
+		skos:prefLabel "Denmark"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "DK"
+		.
+<http://example.org/EuroStat/CodeList/geo#DE>	a skos:Concept;
+		skos:prefLabel "Germany (including  former GDR from 1991)"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "DE"
+		.
+<http://example.org/EuroStat/CodeList/geo#EE>	a skos:Concept;
+		skos:prefLabel "Estonia"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "EE"
+		.
+<http://example.org/EuroStat/CodeList/geo#IE>	a skos:Concept;
+		skos:prefLabel "Ireland"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "IE"
+		.
+<http://example.org/EuroStat/CodeList/geo#GR>	a skos:Concept;
+		skos:prefLabel "Greece"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "GR"
+		.
+<http://example.org/EuroStat/CodeList/geo#ES>	a skos:Concept;
+		skos:prefLabel "Spain"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "ES"
+		.
+<http://example.org/EuroStat/CodeList/geo#FR>	a skos:Concept;
+		skos:prefLabel "France"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "FR"
+		.
+<http://example.org/EuroStat/CodeList/geo#IT>	a skos:Concept;
+		skos:prefLabel "Italy"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "IT"
+		.
+<http://example.org/EuroStat/CodeList/geo#CY>	a skos:Concept;
+		skos:prefLabel "Cyprus"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "CY"
+		.
+<http://example.org/EuroStat/CodeList/geo#LV>	a skos:Concept;
+		skos:prefLabel "Latvia"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "LV"
+		.
+<http://example.org/EuroStat/CodeList/geo#LT>	a skos:Concept;
+		skos:prefLabel "Lithuania"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "LT"
+		.
+<http://example.org/EuroStat/CodeList/geo#LU>	a skos:Concept;
+		skos:prefLabel "Luxembourg"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "LU"
+		.
+<http://example.org/EuroStat/CodeList/geo#HU>	a skos:Concept;
+		skos:prefLabel "Hungary"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "HU"
+		.
+<http://example.org/EuroStat/CodeList/geo#MT>	a skos:Concept;
+		skos:prefLabel "Malta"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "MT"
+		.
+<http://example.org/EuroStat/CodeList/geo#NL>	a skos:Concept;
+		skos:prefLabel "Netherlands"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "NL"
+		.
+<http://example.org/EuroStat/CodeList/geo#AT>	a skos:Concept;
+		skos:prefLabel "Austria"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "AT"
+		.
+<http://example.org/EuroStat/CodeList/geo#PL>	a skos:Concept;
+		skos:prefLabel "Poland"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "PL"
+		.
+<http://example.org/EuroStat/CodeList/geo#PT>	a skos:Concept;
+		skos:prefLabel "Portugal"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "PT"
+		.
+<http://example.org/EuroStat/CodeList/geo#RO>	a skos:Concept;
+		skos:prefLabel "Romania"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "RO"
+		.
+<http://example.org/EuroStat/CodeList/geo#SI>	a skos:Concept;
+		skos:prefLabel "Slovenia"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "SI"
+		.
+<http://example.org/EuroStat/CodeList/geo#SK>	a skos:Concept;
+		skos:prefLabel "Slovakia"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "SK"
+		.
+<http://example.org/EuroStat/CodeList/geo#FI>	a skos:Concept;
+		skos:prefLabel "Finland"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "FI"
+		.
+<http://example.org/EuroStat/CodeList/geo#SE>	a skos:Concept;
+		skos:prefLabel "Sweden"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "SE"
+		.
+<http://example.org/EuroStat/CodeList/geo#UK>	a skos:Concept;
+		skos:prefLabel "United Kingdom"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "UK"
+		.
+<http://example.org/EuroStat/CodeList/geo#IS>	a skos:Concept;
+		skos:prefLabel "Iceland"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "IS"
+		.
+<http://example.org/EuroStat/CodeList/geo#LI>	a skos:Concept;
+		skos:prefLabel "Liechtenstein"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "LI"
+		.
+<http://example.org/EuroStat/CodeList/geo#NO>	a skos:Concept;
+		skos:prefLabel "Norway"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "NO"
+		.
+<http://example.org/EuroStat/CodeList/geo#CH>	a skos:Concept;
+		skos:prefLabel "Switzerland"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "CH"
+		.
+<http://example.org/EuroStat/CodeList/geo#HR>	a skos:Concept;
+		skos:prefLabel "Croatia"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "HR"
+		.
+<http://example.org/EuroStat/CodeList/geo#MK>	a skos:Concept;
+		skos:prefLabel "Ancienne République yougoslave de Macédoine"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "MK"
+		.
+<http://example.org/EuroStat/CodeList/geo#TR>	a skos:Concept;
+		skos:prefLabel "Turkey"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "TR"
+		.
+<http://example.org/EuroStat/CodeList/geo#US>	a skos:Concept;
+		skos:prefLabel "United States"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "US"
+		.
+<http://example.org/EuroStat/CodeList/geo#JP>	a skos:Concept;
+		skos:prefLabel "Japan"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/geo>;
+		skos:notation "JP"
+		.
+<http://example.org/EuroStat/CodeList/obs_status>	a skos:ConceptScheme;
+		rdfs:label "Observation status code list"@en;
+		skos:notation "CL_obs_status";
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/obs_status#b>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/obs_status#c>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/obs_status#e>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/obs_status#f>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/obs_status#i>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/obs_status#n>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/obs_status#p>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/obs_status#r>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/obs_status#s>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/obs_status#u>;
+		skos:hasTopConcept <http://example.org/EuroStat/CodeList/obs_status#z>;
+		.
+<http://example.org/EuroStat/CodeList/obs_status#b>	a skos:Concept;
+		skos:prefLabel "Break in series"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/obs_status>;
+		skos:notation "b"
+		.
+<http://example.org/EuroStat/CodeList/obs_status#c>	a skos:Concept;
+		skos:prefLabel "Confidential"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/obs_status>;
+		skos:notation "c"
+		.
+<http://example.org/EuroStat/CodeList/obs_status#e>	a skos:Concept;
+		skos:prefLabel "Estimated value"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/obs_status>;
+		skos:notation "e"
+		.
+<http://example.org/EuroStat/CodeList/obs_status#f>	a skos:Concept;
+		skos:prefLabel "Forecast"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/obs_status>;
+		skos:notation "f"
+		.
+<http://example.org/EuroStat/CodeList/obs_status#i>	a skos:Concept;
+		skos:prefLabel "See explanatory text"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/obs_status>;
+		skos:notation "i"
+		.
+<http://example.org/EuroStat/CodeList/obs_status#n>	a skos:Concept;
+		skos:prefLabel "Not significant"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/obs_status>;
+		skos:notation "n"
+		.
+<http://example.org/EuroStat/CodeList/obs_status#p>	a skos:Concept;
+		skos:prefLabel "Provisional value"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/obs_status>;
+		skos:notation "p"
+		.
+<http://example.org/EuroStat/CodeList/obs_status#r>	a skos:Concept;
+		skos:prefLabel "Revised value"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/obs_status>;
+		skos:notation "r"
+		.
+<http://example.org/EuroStat/CodeList/obs_status#s>	a skos:Concept;
+		skos:prefLabel "Eurostat estimate"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/obs_status>;
+		skos:notation "s"
+		.
+<http://example.org/EuroStat/CodeList/obs_status#u>	a skos:Concept;
+		skos:prefLabel "Unreliable or uncertain data"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/obs_status>;
+		skos:notation "u"
+		.
+<http://example.org/EuroStat/CodeList/obs_status#z>	a skos:Concept;
+		skos:prefLabel "Not applicable or Real zero or Zero by default"@en;
+		skos:inScheme <http://example.org/EuroStat/CodeList/obs_status>;
+		skos:notation "z"
+		.
