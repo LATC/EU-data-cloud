@@ -18,11 +18,11 @@ Design
                 @prefix void: <http://rdfs.org/ns/void#> .
                 
 		             meta:Eurostat a void:Dataset;
-    		             dcterms:title "EuroStat";
-		             void:subset
-		             dss:ds_1,
-		             dss:ds_2
-		             .
+    		                           dcterms:title "EuroStat";
+		                           void:subset
+		                           dss:ds_1,
+		                           dss:ds_2
+		                           .
 
 3) Upon de-referencing any dataset, we serve the DataSet Summary (DSS):
 
@@ -32,10 +32,10 @@ Design
                 @prefix qb: <http://purl.org/linked-data/cube#> .
                 @prefix void: <http://rdfs.org/ns/void#> .
 		
-	        dss:ds_1 a qb:DataSet, void:Dataset;
-			qb:DataStructureDefinition dsd:dsd_1;
-			void:dataDump data:ds_1.ttl
-			.
+	                     dss:ds_1 a qb:DataSet, void:Dataset;
+			                qb:DataStructureDefinition dsd:dsd_1;
+			                void:dataDump data:ds_1.ttl
+			                .
 
 Remarks
 =======
