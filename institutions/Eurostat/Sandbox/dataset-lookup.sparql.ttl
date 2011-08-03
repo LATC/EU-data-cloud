@@ -1,0 +1,16 @@
+prefix meta: <http://eurostat.linked-statistics.org/meta#> 
+prefix dss: <http://eurostat.linked-statistics.org/dss#>
+prefix dcterms: <http://purl.org/dc/terms/> 
+prefix void: <http://rdfs.org/ns/void#>
+prefix foaf: <http://xmlns.com/foaf/0.1/> 
+prefix qb: <http://purl.org/linked-data/cube#> 
+
+
+SELECT * WHERE {
+?mainds a void:Dataset;
+    void:subset ?ds .
+?ds a void:Dataset ;
+    void:dataDump ?datasetDumpURL ;
+    qb:DataStructureDefinition ?datasetDSDURI .
+
+}

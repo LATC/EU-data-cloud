@@ -1,0 +1,15 @@
+@prefix meta: <http://eurostat.linked-statistics.org/meta#> . 
+@prefix dss: <http://eurostat.linked-statistics.org/dss#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+meta:Eurostat a void:Dataset;
+	dcterms:title "EuroStat";
+	foaf:homepage <http://epp.eurostat.ec.europa.eu/>;
+	void:sparqlEndpoint <http:/vmlion14.deri.ie:3030/>;
+	void:subset
+	dss:tsieb010,
+	dss:teilm020,
+	dss:tsiem010
+.

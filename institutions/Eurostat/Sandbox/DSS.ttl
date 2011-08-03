@@ -1,0 +1,20 @@
+@prefix data: <http://eurostat.linked-statistics.org/data#> .
+@prefix dss: <http://eurostat.linked-statistics.org/dss#> .
+@prefix dsd: <http://eurostat.linked-statistics.org/dsd#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+dss:tsieb010 a qb:DataSet, void:Dataset;
+	qb:DataStructureDefinition dsd:tsieb010;
+	void:dataDump data:tsieb010.ttl
+.
+
+dss:teilm020 a qb:DataSet, void:Dataset;
+	qb:DataStructureDefinition dsd:teilm020;
+	void:dataDump data:teilm020
+.
+
+dss:tsiem010 a qb:DataSet, void:Dataset;
+	qb:DataStructureDefinition dsd:tsiem010;
+	void:dataDump data:tsiem010
+.
