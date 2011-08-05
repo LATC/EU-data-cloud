@@ -9,8 +9,8 @@ import sys
 
 def getDescriptions(dsName):
     
-    sparqlEndpoint = "http://vmlion14.deri.ie:3030/DataSet/query"
-    #sparqlEndpoint = "http://localhost:3030/Dataset/query"
+    # for Fuseki
+    sparqlEndpoint = "http://localhost:3030/Dataset/query"
     
     queryString = """prefix meta: <http://eurostat.linked-statistics.org/meta#>
     prefix dss: <http://eurostat.linked-statistics.org/dss#>
