@@ -1,6 +1,5 @@
 
 
-
 Work Flow for the EuroStat Data Extraction and Injestion
 ========================================================
 
@@ -51,3 +50,5 @@ Work Flow for the EuroStat Data Extraction and Injestion
 	       dsd:dsd_1 a qb:DataStructureDefinition, void:Dataset;
 	            void:dataDump dsd:dsd_1.ttl
 	       .
+
+7) Use the Sarven's magical script to populate the triple store using the void file described in step 6.
