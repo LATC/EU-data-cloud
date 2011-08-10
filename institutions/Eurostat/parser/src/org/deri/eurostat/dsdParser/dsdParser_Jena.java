@@ -4,6 +4,7 @@ import java.io.BufferedWriter;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -43,7 +44,7 @@ public class dsdParser_Jena {
 
     private Document xmlDocument;
     private XPath xPath;	
-    private static String xmlFilePath = "E:/EU Projects/EuroStat/tsieb010.sdmx/tsieb010.dsd.xml";
+    private static String xmlFilePath = "E:/EU Projects/EuroStat/tsiem010.sdmx/tsiem010.dsd.xml";
     private static String outputFilePath = "E:/EU Projects/EuroStat/datacube mapping/RDF/";
     private static String serialization = "RDF/XML";
     ArrayList<Code> lstCode = new ArrayList<Code>();
@@ -66,6 +67,22 @@ public class dsdParser_Jena {
 		dsModel.addRDFtoDataModel("sdmx-code/sdmx-code.ttl", baseURI, "TURTLE");
 		return dsModel.returnCodeListURI(codeList);
 	}
+
+	public void initObjects(InputStream in){        
+        try {
+            xmlDocument = DocumentBuilderFactory.
+			newInstance().newDocumentBuilder().
+			parse(in);            
+            xPath =  XPathFactory.newInstance().
+			newXPath();
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        } catch (SAXException ex) {
+            ex.printStackTrace();
+        } catch (ParserConfigurationException ex) {
+            ex.printStackTrace();
+        }       
+    }
 	
     private void initObjects(){        
         try {
@@ -603,7 +620,7 @@ public class dsdParser_Jena {
 					codelist_Model.add(codelist_res,ParserUtil.notation,code.getValue());
 				}
 				
-				codelist_Model.write(System.out,serialization);
+				//codelist_Model.write(System.out,serialization);
 			}
 		}
 
@@ -630,8 +647,6 @@ public class dsdParser_Jena {
 			
 		}
 		
-		
-	
 		writeRDFToFile(fileName,model);
 	}
 	
@@ -641,6 +656,7 @@ public class dsdParser_Jena {
 	   	{
 			OutputStream output = new FileOutputStream(outputFilePath + fileName + ".rdf",false);
 			model.write(output,serialization);
+			
 	   	}catch(Exception e)
 	   	{
 	   		System.out.println("Error while creating file ..." + e.getMessage());
