@@ -2,7 +2,7 @@
 
 About 
 =====
-This project is about publishing EuroStat as Linked Data on the Web. The current version of the code transforms DSD into RDF using DataCube vocabulary.
+This project is about publishing EuroStat as Linked Data on the Web. The current release transforms DSD into RDF using DataCube vocabulary.
 
 
 HOW TO RUN
