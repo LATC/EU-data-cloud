@@ -41,7 +41,12 @@ For example:
 
 ## 6. Generate VoID for DSDs only (INTERNAL)
 
-This will be solely used to populate the triple stores (see next step). For example:
+This will be solely used to populate the triple stores (see next step).
+
+* INPUT: URL of `table_of_contents.xml`
+* OUTPUT:  one file in the file system with all DSDs
+ 
+One DSD looks for example:
 
 	@prefix data: <http://eurostat.linked-statistics.org/data/> .
 	@prefix dss: <http://eurostat.linked-statistics.org/dss/> .
