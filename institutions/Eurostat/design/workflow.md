@@ -24,10 +24,10 @@ Using a dataset URL, download and parse the contents of the compressed file:
 * INPUT:  `tsieb010.sdmx.xml`
 * OUTPUT:  `~/data/tsieb010.rdf` (represented in DataCube vocabulary)
 
-## 5. Generate dataset summary (DSS)
+## 5. Generate data catalog
 
 * INPUT: URL of `table_of_contents.xml`
-* OUTPUT:  all DSS in the RDF store
+* OUTPUT:  `~/catalog.rdf`
 
 Using SPARQL Update the DSS are loaded into the store.
 
@@ -44,14 +44,16 @@ For example:
 	         void:dataDump data:ds_1.ttl;
 	.
 
-## 6. Generate VoID for DSDs only (INTERNAL)
+## 6. Generate store inventory
 
 This will be solely used to populate the triple stores (see next step).
 
 * INPUT: URL of `table_of_contents.xml`
-* OUTPUT:  one file in the file system with all DSDs
+* OUTPUT:  `~/inventory.rdf` one file in the file system with all DSDs
  
-One DSD looks for example:
+Note: the inventory also contains the dataset from STEP5.
+
+For example:
 
 	@prefix data: <http://eurostat.linked-statistics.org/data/> .
 	@prefix dss: <http://eurostat.linked-statistics.org/dss/> .
@@ -64,5 +66,8 @@ One DSD looks for example:
 	.
 
 ## 7. Use the SMCS to populate the triple store
+
+* CONTROL INPUT: `~/inventory.rdf` from STEP6
+* DATA INPUT: `~/dsd/tsieb010.rdf` from STEP3 and `~/catalog.rdf` from STEP5
 
 With the VoID file described in step 6 and the [SMCS](https://github.com/data-gov-ie/data-ingestion-pipeline), populate the triple store.
