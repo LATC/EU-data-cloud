@@ -29,7 +29,6 @@ Using a dataset URL, download and parse the contents of the compressed file:
 * INPUT: URL of `table_of_contents.xml`
 * OUTPUT:  `~/catalog.rdf`
 
-Using SPARQL Update the DSS are loaded into the store.
 
 For example:
 
