@@ -23,6 +23,11 @@ public class ParserUtil {
 	public static String xsd = "http://www.w3.org/2001/XMLSchema#";
 	public static String sdmxURI = "http://purl.org/linked-data/sdmx#";
 	
+	public static String voidURI = "http://rdfs.org/ns/void#";
+	public static String dssURI = "http://eurostat.linked-statistics.org/dss#";
+	public static String dsdURI = "http://eurostat.linked-statistics.org/dsd#";
+	public static String dataURI = "http://eurostat.linked-statistics.org/data#";
+	
 	public static Property dsd;
 	public static Property type;
 	public static Property notation;
@@ -47,6 +52,10 @@ public class ParserUtil {
 	public static Property rdfsRange;
 	public static Property sdmxConcept;
 	public static Property sdmx;
+
+	public static Property qbDataset;
+	public static Property voidDataset;
+	public static Property dataDump;
 	
 	public static Model getModelProperties()
 	{
@@ -77,6 +86,10 @@ public class ParserUtil {
 		sdmxConcept = m.createProperty(sdmx_concept + "Concept");
 		sdmx = m.createProperty(sdmxURI + "Concept");
 		
+		qbDataset = m.createProperty(qb + "DataSet");
+		voidDataset = m.createProperty(voidURI + "DataSet");
+		dataDump = m.createProperty(voidURI + "dataDump");
+		
 		m.setNsPrefix("skos", skos);
 		m.setNsPrefix("qb", qb);
 		m.setNsPrefix("rdfs",rdfs);
@@ -88,7 +101,10 @@ public class ParserUtil {
 		m.setNsPrefix("sdmx-code", sdmx_code);
 		m.setNsPrefix("rdf", rdf);
 		m.setNsPrefix("xsd", xsd);
-		
+		m.setNsPrefix("void", voidURI);
+		m.setNsPrefix("dss", dssURI);
+		m.setNsPrefix("dsd", dsdURI);
+		m.setNsPrefix("data", dataURI);
 		return m;
 	}
 }

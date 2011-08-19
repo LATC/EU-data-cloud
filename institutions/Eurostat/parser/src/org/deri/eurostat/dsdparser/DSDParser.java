@@ -55,7 +55,7 @@ public class DSDParser {
     //private static String outputFilePath = "E:/EU Projects/EuroStat/datacube mapping/RDF/";
     private static String outputFilePath = "";
     //private static String outputFilePath = "C:/tempZip/dsd/";
-    private static String serialization = "";
+    private static String serialization = "TURTLE";
     ArrayList<Code> lstCode = new ArrayList<Code>();
     ArrayList<Concept> lstConcepts = new ArrayList<Concept>();
     ArrayList<CodeList> lstCodeLists = new ArrayList<CodeList>();
@@ -693,7 +693,7 @@ public class DSDParser {
 		System.out.println();
 		System.out.println("	-i inputFilePath	Data Structure Definition (DSD) in XML format as input.");
 		System.out.println("	-o outputFilePath	Output directory path to generate DataCube representation of DSD.");
-		System.out.println("	-f format		RDF format for serialization.");
+		System.out.println("	(optional)-f format	RDF format for serialization (RDF/XML, TURTLE, N-TRIPLES).");
 	}
 	
 	public static void main(String[] args) throws Exception
@@ -705,7 +705,7 @@ public class DSDParser {
 		options.addOption("h", "help", false, "Print this usage information");
 		options.addOption("i", "inputFilepath", true, "Data Structure Definition (DSD) in XML format as input.");
 		options.addOption("o", "outputFilePath", true, "Output directory path to generate DataCube representation of DSD.");
-		options.addOption("f", "format", true, "RDF format for serialization.");
+		options.addOption("f", "format", false, "RDF format for serialization (RDF/XML, TURTLE, N-TRIPLES).");
 		CommandLine commandLine = parser.parse( options, args );
 		
 		if( commandLine.hasOption('h') ) {

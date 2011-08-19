@@ -31,28 +31,26 @@ public class ParseToC {
 
 	//private static String xmlFileURL = "E:/EU Projects/EuroStat/ToC/table_of_contents.xml";
 	private Document xmlDocument;
-	private ArrayList<String> lstDatasetURLs = new ArrayList<String>();
+	public ArrayList<String> lstDatasetURLs = new ArrayList<String>();
 	private static int printDatasets = 10;
 	
-	public void get_ToC_XMLStream()
+	public InputStream get_ToC_XMLStream()
 	{
+		InputStream is = null;
 		try {
-			
 			URL url = new URL("http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=1&file=table_of_contents.xml");
 			HttpURLConnection conn = (HttpURLConnection)url.openConnection();
-			InputStream is = conn.getInputStream();
+			is = conn.getInputStream();
 
 			if (conn.getResponseCode() != 200) {
 				System.err.println(conn.getResponseCode());
 			}
-
-			initObjects(is);
-			parseDataSets();
-			
 		} catch (IOException e) {
 			e.printStackTrace();
-			return;
+			return null;
 		}
+		
+		return is;
 	}
 	
 	public void initObjects(InputStream in){        
@@ -71,7 +69,6 @@ public class ParseToC {
 	
 	public void parseDataSets()
 	{
-		int count = 0;
 		Element element = xmlDocument.getDocumentElement();
 		
 		NodeList nl = element.getElementsByTagName("nt:leaf");
@@ -88,25 +85,32 @@ public class ParseToC {
 			}
 		}
 		
-		System.out.println("Total Datasets found in the ToC are : " + lstDatasetURLs.size());
+	}
+
+	public void printResults()
+	{
+		int count = 0;
 		
+		System.out.println("Total Datasets found in the ToC are : " + lstDatasetURLs.size());
 		for(String str:lstDatasetURLs)
 		{
 			System.out.println(str);
 			if(++count == printDatasets)
 				break;
 		}
-
-		// This piece of code will parse the compressed file URLs sequentially.
-//		UnCompressXML obj = new UnCompressXML();
-//		for(String str:lstDatasetURLs)
-//		{
-//			if(++count == 10)
-//				break;
-//			
-//			obj.parseZipFile(str);
-//		}
-		
+	}
+	// This piece of code will parse the compressed file URLs sequentially.
+	public void parseXMLFiles()
+	{
+		int count = 0;
+		UnCompressXML obj = new UnCompressXML();
+		for(String str:lstDatasetURLs)
+		{
+			if(++count == 10)
+				break;
+			
+			obj.parseZipFile(str);
+		}
 	}
 	
 	// get the URLs of datasets which have format SDMX
@@ -169,6 +173,14 @@ public class ParseToC {
 		System.out.println("	-n num		No. of Dataset URLs to print. Default sets to 10.");
 	}
 	
+	public void parseToC()
+	{
+		InputStream is = get_ToC_XMLStream();
+		initObjects(is);
+		parseDataSets();
+		printResults();
+	}
+	
 	public static void main(String[] args) throws Exception
 	{
 		ParseToC obj = new ParseToC();
@@ -188,7 +200,7 @@ public class ParseToC {
 		if(commandLine.hasOption('n'))
 			printDatasets = Integer.parseInt(commandLine.getOptionValue('n'));
 		
-		obj.get_ToC_XMLStream();
+		obj.parseToC();
 	}
 	
 }
