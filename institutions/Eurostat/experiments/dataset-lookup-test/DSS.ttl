@@ -6,7 +6,7 @@
 
 dss:tsieb010 a qb:DataSet, void:Dataset;
 	qb:DataStructureDefinition dsd:tsieb010;
-	void:dataDump data:tsieb010.ttl
+	void:dataDump data:tsieb010
 .
 
 dss:teilm020 a qb:DataSet, void:Dataset;
