@@ -29,7 +29,7 @@ How to Run : `SDMXParser.bat -f tsieb010 -o c:/test/`
 Type `-h` for help.
 
 ## Catalog
-Generates the Catalog and Inventory void files which will be used to populate the triple store.
+Generates the void files which will be used to populate the triple store described in [Step 5 and Step6](https://github.com/LATC/EU-data-cloud/blob/master/institutions/Eurostat/design/workflow.md).
 
 How to Run : `Catalog.bat -o c:/test/`
 
