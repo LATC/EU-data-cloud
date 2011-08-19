@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="D:/workspace/EuroStat/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/EuroStat/lib/icu4j_3_4.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/EuroStat/lib/iri.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/EuroStat/lib/jena.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/EuroStat/lib/log4j-1.2.12.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/EuroStat/lib/openrdf-sesame-2.0-onejar.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/EuroStat/lib/slf4j-api-1.4.3.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/EuroStat/lib/slf4j-log4j12-1.4.3.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/EuroStat/lib/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/EuroStat/lib/commons-cli-1.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

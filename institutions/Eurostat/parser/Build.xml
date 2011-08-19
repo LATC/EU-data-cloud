@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="EuroStat" default="main" basedir=".">
+	<!-- Sets variables which can later be used. -->
+	<!-- The value of a property is accessed via ${} -->
+	<property name="name" value="EuroStat"/>
+	<property name="src.dir" location="src" />
+	<property name="build.dir" location="build" />
+	<property name="dist.dir" location="dist" />
+	<property name="lib.dir" location="lib" />
+
+	<path id="classpath">
+		<fileset dir="${lib.dir}" includes="**/*.jar"/>
+		<!--
+		<fileset dir="WEB-INF/lib">
+			<include name="**/*.jar" />
+		</fileset>
+		<fileset dir="lib">
+		      <include name="*.jar"/>
+		</fileset>
+		-->
+	</path>
+	
+	<!-- Deletes the existing build, docs and dist directory-->
+	<target name="clean">
+		<delete dir="${build.dir}" />
+		<delete dir="${dist.dir}" />
+	</target>
+
+	<!-- Creates the  build, docs and dist directory-->
+	<target name="makedir">
+		<mkdir dir="${build.dir}" />
+		<mkdir dir="${dist.dir}" />
+	</target>
+
+	<!-- Compiles the java code (including the usage of library for JUnit -->
+	<target name="compile" depends="clean, makedir">
+		<javac srcdir="${src.dir}" destdir="${build.dir}" classpathref="classpath">
+		</javac>
+	</target>
+
+	
+	<!-- Creates Javadoc -->
+<!--
+	<target name="docs" depends="compile">
+		<javadoc packagenames="src" sourcepath="${src.dir}" destdir="${docs.dir}">
+			<fileset dir="${src.dir}">
+				<include name="**" />
+			</fileset>
+		</javadoc>
+	</target>
+-->
+	<!--Creates the deployable jar file  -->
+	<target name="jar" depends="compile">
+		<jar destfile="${dist.dir}/EuroStat.jar" basedir="${build.dir}">
+			<zipfileset src="${lib.dir}/commons-logging-1.1.1.jar"/>
+			<zipfileset src="${lib.dir}/icu4j_3_4.jar"/>
+			<zipfileset src="${lib.dir}/jena.jar"/>
+			<zipfileset src="${lib.dir}/iri.jar"/>
+			<zipfileset src="${lib.dir}/log4j-1.2.12.jar"/>
+			<zipfileset src="${lib.dir}/openrdf-sesame-2.0-onejar.jar"/>
+			<zipfileset src="${lib.dir}/slf4j-api-1.4.3.jar"/>
+			<zipfileset src="${lib.dir}/slf4j-log4j12-1.4.3.jar"/>
+			<zipfileset src="${lib.dir}/xercesImpl.jar"/>
+			<manifest>
+				<attribute name="Main-Class" value="org.deri.eurostat.dsdparser.DSDParser" />
+			</manifest>
+		</jar>
+	</target>
+
+	<target name="main" depends="compile, jar">
+		<description>Main target</description>
+	</target>
+
+</project>
