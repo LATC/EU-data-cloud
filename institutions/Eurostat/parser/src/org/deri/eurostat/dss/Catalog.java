@@ -14,6 +14,11 @@ import org.deri.eurostat.toc.*;
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.Resource;
 
+/**
+ * 
+ * @author Aftab Iqbal
+ *
+ */
 public class Catalog {
 
 	private static String outputFilePath = "";
