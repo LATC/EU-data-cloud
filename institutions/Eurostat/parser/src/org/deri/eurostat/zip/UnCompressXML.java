@@ -39,6 +39,7 @@ public class UnCompressXML {
 
 			// download zip file to a tmp directory
 			String fileName = fileURL.substring(fileURL.lastIndexOf("/")+1);
+			//downLoadZip(is,fileName);
 			readZipFile(fileName);
 			
 		} catch (IOException e) {

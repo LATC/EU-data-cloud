@@ -708,7 +708,7 @@ public class DSDParser {
 		options.addOption("h", "help", false, "Print this usage information");
 		options.addOption("i", "inputFilepath", true, "Data Structure Definition (DSD) in XML format as input.");
 		options.addOption("o", "outputFilePath", true, "Output directory path to generate DataCube representation of DSD.");
-		options.addOption("f", "format", false, "RDF format for serialization (RDF/XML, TURTLE, N-TRIPLES).");
+		options.addOption("f", "format", true, "RDF format for serialization (RDF/XML, TURTLE, N-TRIPLES).");
 		CommandLine commandLine = parser.parse( options, args );
 		
 		if( commandLine.hasOption('h') ) {
