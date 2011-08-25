@@ -219,7 +219,7 @@ public class ParseToC {
 	public static void main(String[] args) throws Exception
 	{
 		ParseToC obj = new ParseToC();
-		
+		/*
 		CommandLineParser parser = new BasicParser( );
 		Options options = new Options( );
 		options.addOption("h", "help", false, "Print this usage information");
@@ -234,7 +234,8 @@ public class ParseToC {
 		
 		if(commandLine.hasOption('n'))
 			printDatasets = Integer.parseInt(commandLine.getOptionValue('n'));
-		
+		*/
+		printDatasets = Integer.parseInt(args[0]);
 		obj.parseToC();
 	}
 	

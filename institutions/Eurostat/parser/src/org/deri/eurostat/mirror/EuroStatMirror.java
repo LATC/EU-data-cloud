@@ -19,7 +19,7 @@ public class EuroStatMirror {
 	
 	public static void main(String[] args) throws Exception
 	{
-		
+		/*
 		CommandLineParser parser = new BasicParser( );
 		Options options = new Options( );
 		options.addOption("h", "help", false, "Print this usage information");
@@ -44,5 +44,10 @@ public class EuroStatMirror {
 			ParseToC obj = new ParseToC();
 			obj.downloadZip(filePath);
 		}
+		*/
+		
+		filePath = args[0];
+		ParseToC obj = new ParseToC();
+		obj.downloadZip(filePath);
 	}
 }
