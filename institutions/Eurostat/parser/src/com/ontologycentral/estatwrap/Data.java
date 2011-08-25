@@ -59,6 +59,7 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
 		_in.close();
 	}
 
+/*	
 	public void printTriple(Header h, Line l, XMLStreamWriter out, int bnodeid, String id) throws XMLStreamException {
 		List hd1 = h.getDim1();
 		List ld1 = l.getDim1();
@@ -98,7 +99,7 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
     		out.writeStartElement("qb:Observation");
     		
     		out.writeStartElement("qb:dataset");
-    		out.writeAttribute("rdf:resource", "/id/" + id + "#ds");
+    		out.writeAttribute("rdf:resource", baseURI + "/id/" + id + "#ds");
     		// @@@ workaround to get query processor to function
     		//out.writeAttribute("rdf:resource", id + "#ds");
 
@@ -107,13 +108,13 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
 			for (int j = 0; j < hd1.size(); ++j) {
 	    		out.writeStartElement((String)hd1.get(j));
 	    		//--//out.writeAttribute("rdf:resource", Dictionary.PREFIX + (String)hd1.get(j) + "#" + (String)ld1.get(j));
-	    		out.writeAttribute("rdf:resource", "/dic/" + (String)hd1.get(j) + "#" + (String)ld1.get(j));
+	    		out.writeAttribute("rdf:resource", baseURI + "/dic/" + (String)hd1.get(j) + "#" + (String)ld1.get(j));
 	    		out.writeEndElement();
 			}
 
     		out.writeStartElement((String)h.getDim2());
     		//--//out.writeAttribute("rdf:resource", Dictionary.PREFIX + (String)h.getDim2() + "#" + (String)hcol.get(i));
-    		out.writeAttribute("rdf:resource", "/dic/" + (String)h.getDim2() + "#" + (String)hcol.get(i));
+    		out.writeAttribute("rdf:resource", baseURI + "/dic/" + (String)h.getDim2() + "#" + (String)hcol.get(i));
     		out.writeEndElement();
 
     		//http://purl.org/linked-data/sdmx/2009/measure#obsValue
@@ -124,7 +125,7 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
     			note = val.substring(val.indexOf(' ')+1);
     			val = val.substring(0, val.indexOf(' '));
     			//-//out.writeAttribute("rdf:datatype", Dictionary.PREFIX + "note#" + note);
-    			out.writeAttribute("rdf:datatype", "/dic/" + "note#" + note);
+    			out.writeAttribute("rdf:datatype", baseURI + "/dic/" + "note#" + note);
     		}
     		out.writeCharacters(val);
     		out.writeEndElement();
@@ -132,5 +133,77 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
     		out.writeEndElement();
 		}
 	}
-	
+*/	
+
+	 public void printTriple(Header h, Line l, XMLStreamWriter out, int bnodeid, String id) throws XMLStreamException {
+         List hd1 = h.getDim1();
+         List ld1 = l.getDim1();
+
+         if (hd1.size() != ld1.size()) {
+                 System.err.println("header dimensions and line dimensions don't match!");
+         }
+
+         List hcol = h.getCols();
+         List lcol = l.getCols();
+
+         if (hcol.size() != lcol.size()) {
+                 System.err.println("header columns and line columns don't match!");
+         }
+         
+         int start = 0;
+         int end = Math.min(hcol.size(), MAX_COLS);
+         
+         // hack - some stats are sorted from oldest to newest, some the other way round
+         // check if the last entry contains year 200x or 201x
+         String last = (String)hcol.get(hcol.size()-1);
+         //System.out.println(last);
+         if (last.contains("200") || last.contains("201")) {
+                 start = hcol.size()-MAX_COLS;
+                 if (start < 0) {
+                         start = 0;
+                 }
+                 end = hcol.size();
+         }
+
+         for (int i = start; i < end; ++i)
+         {
+                 if (((String)lcol.get(i)).equals(":")) {
+                         continue;
+                 }
+                 
+         out.writeStartElement("qb:Observation");
+         
+         out.writeStartElement("qb:dataset");
+         out.writeAttribute("rdf:resource", "/data/" + id);
+         // @@@ workaround to get query processor to function
+         //out.writeAttribute("rdf:resource", id + "#ds");
+
+         out.writeEndElement();
+
+                 for (int j = 0; j < hd1.size(); ++j) {
+                 out.writeStartElement((String)hd1.get(j));
+                 out.writeAttribute("rdf:resource", Dictionary.PREFIX + (String)hd1.get(j) + "#" + (String)ld1.get(j));
+                 out.writeEndElement();
+                 }
+
+         out.writeStartElement((String)h.getDim2());
+         out.writeAttribute("rdf:resource", Dictionary.PREFIX + (String)h.getDim2() + "#" + (String)hcol.get(i));
+         out.writeEndElement();
+
+         //http://purl.org/linked-data/sdmx/2009/measure#obsValue
+         out.writeStartElement("sdmx-measure:obsValue");
+         String val = (String)lcol.get(i);
+         String note = null;
+         if (val.indexOf(' ') > 0) {
+                 note = val.substring(val.indexOf(' ')+1);
+                 val = val.substring(0, val.indexOf(' '));
+                 out.writeAttribute("rdf:datatype", Dictionary.PREFIX + "note#" + note);
+         }
+         out.writeCharacters(val);
+         out.writeEndElement();
+
+         out.writeEndElement();
+         }
+ }
+
 }

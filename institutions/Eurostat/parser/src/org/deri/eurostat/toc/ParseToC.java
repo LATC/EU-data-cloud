@@ -13,6 +13,7 @@ import org.apache.commons.cli.BasicParser;
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.Options;
+import org.deri.eurostat.zip.DownloadZip;
 import org.deri.eurostat.zip.UnCompressXML;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -33,7 +34,8 @@ public class ParseToC {
 	private Document xmlDocument;
 	public ArrayList<String> lstDatasetURLs = new ArrayList<String>();
 	private static int printDatasets = 10;
-	
+	UnCompressXML obj = new UnCompressXML();
+	DownloadZip zip = new DownloadZip();
 	public InputStream get_ToC_XMLStream()
 	{
 		InputStream is = null;
@@ -99,20 +101,36 @@ public class ParseToC {
 				break;
 		}
 	}
+	
 	// This piece of code will parse the compressed file URLs sequentially.
-	public void parseXMLFiles()
+	public void parseXMLFiles(String downLoadPath)
 	{
 		int count = 0;
-		UnCompressXML obj = new UnCompressXML();
+		
 		for(String str:lstDatasetURLs)
 		{
 			if(++count == 10)
 				break;
 			
-			obj.parseZipFile(str);
+			//System.out.println("UnCompressing :" + str);
+			obj.parseZipFile(str, downLoadPath);
 		}
 	}
-	
+
+	public void downloadXMLFiles(String downLoadPath)
+	{
+		int count = 0;
+		
+		for(String str:lstDatasetURLs)
+		{
+//			if(++count == 10)
+//				break;
+			
+			//System.out.println("UnCompressing :" + str);
+			zip.zipURL(str, downLoadPath);
+		}
+	}
+
 	// get the URLs of datasets which have format SDMX
 	public void getDatasetURLs(Element element)
 	{
@@ -179,6 +197,23 @@ public class ParseToC {
 		initObjects(is);
 		parseDataSets();
 		printResults();
+	}
+	
+	public void RDFize(String downLoadPath)
+	{
+		InputStream is = get_ToC_XMLStream();
+		initObjects(is);
+		parseDataSets();
+		//parseXMLFiles(downLoadPath);
+	}
+	
+	public void downloadZip(String downLoadPath)
+	{
+		InputStream is = get_ToC_XMLStream();
+		initObjects(is);
+		parseDataSets();
+		downloadXMLFiles(downLoadPath);
+		
 	}
 	
 	public static void main(String[] args) throws Exception

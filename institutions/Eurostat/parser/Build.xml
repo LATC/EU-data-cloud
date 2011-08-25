@@ -53,6 +53,7 @@
 	<target name="jar" depends="compile">
 		<jar destfile="${dist.dir}/EuroStat.jar" basedir="${build.dir}">
 			<zipfileset src="${lib.dir}/commons-logging-1.1.1.jar"/>
+			<zipfileset src="${lib.dir}/commons-cli-1.2.jar"/>
 			<zipfileset src="${lib.dir}/icu4j_3_4.jar"/>
 			<zipfileset src="${lib.dir}/jena.jar"/>
 			<zipfileset src="${lib.dir}/iri.jar"/>
@@ -62,7 +63,7 @@
 			<zipfileset src="${lib.dir}/slf4j-log4j12-1.4.3.jar"/>
 			<zipfileset src="${lib.dir}/xercesImpl.jar"/>
 			<manifest>
-				<attribute name="Main-Class" value="org.deri.eurostat.dsdparser.DSDParser" />
+				<attribute name="Main-Class" value="org.deri.eurostat.Main" />
 			</manifest>
 		</jar>
 	</target>

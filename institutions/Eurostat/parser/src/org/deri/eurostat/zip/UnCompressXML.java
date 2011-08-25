@@ -4,6 +4,8 @@ import java.net.*;
 import java.util.*;
 import java.util.zip.*;
 import java.io.*;
+
+import org.deri.eurostat.Main;
 import org.deri.eurostat.dsdparser.DSDParser;
 import com.ontologycentral.estatwrap.SDMXParser;
 import org.apache.commons.cli.*;
@@ -18,10 +20,12 @@ import org.apache.commons.cli.*;
  */
 public class UnCompressXML {
 
-	public static String tmpZipPath = "C:/tempZip/";
+	//public static String tmpZipPath = "C:/tempZip/";
+	public static String tmpZipPath = "/home/romulus/EuroStat/zip/";
 	
-	public void parseZipFile(String fileURL)
+	public void parseZipFile(String fileURL, String downLoadPath)
 	{
+		tmpZipPath = downLoadPath;
 		
 		try {
 			
@@ -35,7 +39,6 @@ public class UnCompressXML {
 
 			// download zip file to a tmp directory
 			String fileName = fileURL.substring(fileURL.lastIndexOf("/")+1);
-			downloadZip(is, fileName);
 			readZipFile(fileName);
 			
 		} catch (IOException e) {
@@ -46,10 +49,11 @@ public class UnCompressXML {
 			e.printStackTrace();
 		}
 	}
-	
+/*	
 	// download compressed file to a temp directory
 	public void downloadZip(InputStream is, String file) throws IOException
 	{
+		//System.out.println("Download Path --> " + tmpZipPath + file);
 		int length = 0;
 		byte[] buffer = new byte[1024];
 		OutputStream os = new FileOutputStream(tmpZipPath + file);
@@ -60,10 +64,11 @@ public class UnCompressXML {
 		os.close();
 		is.close();
 	}
-	
+*/	
 	// Read the contents of the compressed file and call appropriate functions to parse the DSD and SDMX files
 	public void readZipFile(String file)
 	{
+		//System.out.println("Reading Path --> " + tmpZipPath + file);
 		try {
 			
 			ZipFile zipFile = new ZipFile(tmpZipPath + file);
@@ -128,9 +133,9 @@ public class UnCompressXML {
 	
 	public void parseSDMX(String sdmxFile) throws Exception
 	{
-		SDMXParser obj = new SDMXParser();
+		System.out.println("Parsing SDMX file : " + sdmxFile);
+		SDMXParser obj = new SDMXParser(Main.sdmxDirPath);
 		obj.downLoadTSV(sdmxFile);
-	
 	}
 	
 	private static void usage()
@@ -172,7 +177,7 @@ public class UnCompressXML {
 		{
 			tmpZipPath = path;
 			UnCompressXML obj = new UnCompressXML();
-			obj.parseZipFile(url);
+			obj.parseZipFile(url,tmpZipPath);
 		}
 		
 	

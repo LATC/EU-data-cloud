@@ -23,14 +23,23 @@ import org.apache.commons.cli.BasicParser;
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.Options;
+import org.deri.eurostat.Main;
 
 
 public class SDMXParser {
 
 	private static String outputFilePath = "";
 	
+	public SDMXParser(String outPath)
+	{
+		outputFilePath = outPath;
+	}
+	
+	public SDMXParser(){}
+	
 	public void downLoadTSV(String id) throws Exception
 	{
+		
 		OutputStream os = new FileOutputStream(outputFilePath + id + ".rdf");
 		URL url = new URL("http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?file=data/" + id + ".tsv.gz");
 

@@ -38,7 +38,7 @@ public class DataPage {
 
 		ch.writeStartElement("qb:DataSet");
 		//ch.writeAttribute("rdf:about", "/id/" + id  + "#ds");    		
-		ch.writeAttribute("rdf:about", "/id/" + id  + "#ds"); 
+		ch.writeAttribute("rdf:about", "/data/" + id); 
 		
 //--//		if (toc.containsKey(id)) {
 //--//			ch.writeStartElement("rdfs:label");
@@ -57,7 +57,8 @@ public class DataPage {
 		ch.writeEndElement();
 
 		ch.writeStartElement("qb:structure");
-		ch.writeAttribute("rdf:resource", "../dsd/" + id + "#dsd");
+		//ch.writeAttribute("rdf:resource", "../dsd/" + id + "#dsd");
+		ch.writeAttribute("rdf:resource", "../dsd#" + id);
 		ch.writeEndElement();
 		
 		ch.writeEndElement();

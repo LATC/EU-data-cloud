@@ -20,6 +20,7 @@ import org.apache.commons.cli.BasicParser;
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.Options;
+import org.deri.eurostat.Main;
 import org.deri.eurostat.datamodel.DataStoreModel;
 import org.deri.eurostat.elements.*;
 
@@ -55,7 +56,7 @@ public class DSDParser {
     //private static String outputFilePath = "E:/EU Projects/EuroStat/datacube mapping/RDF/";
     private static String outputFilePath = "";
     //private static String outputFilePath = "C:/tempZip/dsd/";
-    private static String serialization = "TURTLE";
+    private static String serialization = "RDF/XML";
     ArrayList<Code> lstCode = new ArrayList<Code>();
     ArrayList<Concept> lstConcepts = new ArrayList<Concept>();
     ArrayList<CodeList> lstCodeLists = new ArrayList<CodeList>();
@@ -66,16 +67,16 @@ public class DSDParser {
     //static BufferedWriter write = null;
 	//static FileWriter fstream = null;
 	String fileName = "";
-	String codeListURL = "http://example.org/EuroStat/";
+	String baseURI = "http://eurostat.linked-statistics.org/";
 	static DataStoreModel dsModel;
-	public final String baseURI = "http://purl.org/linked-data/sdmx#";
+	public final String base_uri = "http://purl.org/linked-data/sdmx#";
 	public final String sdmx_codeFilePath = "sdmx-code/sdmx-code.ttl";
 	
 	
 	public void addSDMXCodeList()
 	{
 		dsModel = new DataStoreModel();
-		dsModel.addRDFtoDataModel(sdmx_codeFilePath, baseURI, "TURTLE");
+		dsModel.addRDFtoDataModel(sdmx_codeFilePath, base_uri, "TURTLE");
 	}
 
 	public String getCodeList(String codeList)
@@ -87,12 +88,13 @@ public class DSDParser {
 //	public String getCodeList(String codeList)
 //	{
 //		dsModel = new DataStoreModel();
-//		dsModel.addRDFtoDataModel(sdmx_codeFilePath, baseURI, "TURTLE");
+//		dsModel.addRDFtoDataModel(sdmx_codeFilePath, base_uri, "TURTLE");
 //		return dsModel.returnCodeListURI(codeList);
 //	}
 
 	public void initObjects(InputStream in){        
         try {
+        	outputFilePath = Main.dsdDirPath;
             xmlDocument = DocumentBuilderFactory.
 			newInstance().newDocumentBuilder().
 			parse(in);            
@@ -109,6 +111,7 @@ public class DSDParser {
 	
     private void initObjects(){        
         try {
+        	//System.out.println(xmlFilePath);
             xmlDocument = DocumentBuilderFactory.
 			newInstance().newDocumentBuilder().
 			parse(xmlFilePath);            
@@ -407,7 +410,7 @@ public class DSDParser {
 		Model model = ParserUtil.getModelProperties();
 		Model codelist_Model = ModelFactory.createDefaultModel();
 		
-		Resource root = model.createResource( codeListURL + "dsd/" + fileName.substring(0,fileName.indexOf("_")) );
+		Resource root = model.createResource( baseURI + "dsd#" + fileName.substring(0,fileName.indexOf("_DSD")) );
 		
 		
 		model.add(root,ParserUtil.type,ParserUtil.dsd).add(root,ParserUtil.notation,fileName);
@@ -585,8 +588,8 @@ public class DSDParser {
 				codelist_Model = ParserUtil.getModelProperties();
 				
 				codeListID = obj.getId().substring(obj.getId().indexOf("_")+1);
-				Resource codeLists = model.createResource(codeListURL + "CodeList/" + codeListID);
-				Resource codelist_Lists = codelist_Model.createResource(codeListURL + "CodeList/" + codeListID);
+				Resource codeLists = model.createResource(baseURI + "CodeList/" + codeListID);
+				Resource codelist_Lists = codelist_Model.createResource(baseURI + "CodeList/" + codeListID);
 				
 				model.add(codeLists,ParserUtil.type,ParserUtil.conceptScheme);
 				codelist_Model.add(codelist_Lists,ParserUtil.type,ParserUtil.conceptScheme);
@@ -610,7 +613,7 @@ public class DSDParser {
 				for(Code code:arrCode)
 				{
 					//writeLinetoFile("		skos:hasTopConcept <" + codeListURL + "CodeList/" + codeListID + "#" + code.getValue() + ">;");
-					String str = codeListURL + "CodeList/" + codeListID + "#" + code.getValue();
+					String str = baseURI + "CodeList/" + codeListID + "#" + code.getValue();
 					Resource res = model.createResource(str);
 					Resource codelist_res = codelist_Model.createResource(str);
 					
@@ -678,7 +681,7 @@ public class DSDParser {
 	{
 		try
 	   	{
-			OutputStream output = new FileOutputStream(outputFilePath + fileName + ".rdf",false);
+			OutputStream output = new FileOutputStream(outputFilePath + fileName.substring(0,fileName.indexOf("_DSD")) + ".rdf",false);
 			model.write(output,serialization);
 			
 	   	}catch(Exception e)
