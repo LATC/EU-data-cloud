@@ -10,7 +10,14 @@ Type `-h` for help.
 ## UnCompressFile
 Parses the contents of the compressed dataset file:
 
-How to Run : `UnCompressFile.bat -p c:/test/ -u "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=1&downfile=data%2Fapro_cpb_sugar.sdmx.zip"`
+How to Run : `UnCompressFile.bat -p c:/test/ -u "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=1&downfile=data/apro_cpb_sugar.sdmx.zip"`
+
+Type `-h` for help.
+
+## DonwloadZipFile
+Downloads the compressed dataset file from the URL:
+
+How to Run : `DownloadZip.bat -p c:/test/ -u "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=1&downfile=data/apro_cpb_sugar.sdmx.zip"`
 
 Type `-h` for help.
 
