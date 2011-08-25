@@ -8,7 +8,7 @@ How to Run : `ParseToC.bat -n 5`
 Type `-h` for help.
 
 ## UnCompressFile
-Download and parse the contents of the compressed dataset file:
+Parses the contents of the compressed dataset file:
 
 How to Run : `UnCompressFile.bat -p c:/test/ -u "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=1&downfile=data%2Fapro_cpb_sugar.sdmx.zip"`
 
@@ -32,6 +32,13 @@ Type `-h` for help.
 Generates the void files which will be used to populate the triple store described in [Step 5 and Step6](https://github.com/LATC/EU-data-cloud/blob/master/institutions/Eurostat/design/workflow.md).
 
 How to Run : `Catalog.bat -o c:/test/`
+
+Type `-h` for help.
+
+## EuroStatMirror
+Downloads all the compressed Datasets files from the [Bulk Download page](http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing) by extracting URLs from [Table of Contents](http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=1&amp;file=table_of_contents.xml "Bulk Download").
+
+How to Run : `EuroStatMirror.bat -p c:/test/`
 
 Type `-h` for help.
 
