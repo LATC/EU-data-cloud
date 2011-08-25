@@ -7,6 +7,8 @@ Parse the [Table of Contents](http://epp.eurostat.ec.europa.eu/NavTree_prod/ever
 * INPUT: URL of `table_of_contents.xml`
 * OUTPUT:  A list of dataset URLs
 
+This is covered by [ParseToC.bat](https://github.com/LATC/EU-data-cloud/blob/master/institutions/Eurostat/parser/ParseToC.bat).
+
 ## 2. Dataset URL -> DSD+observations
 
 Using a dataset URL, download and parse the contents of the compressed file:
@@ -14,15 +16,21 @@ Using a dataset URL, download and parse the contents of the compressed file:
 * INPUT:  dataset URL, for example `http://someURL?file=data/tsieb010.sdmx.zip`
 * OUTPUT:  `tsieb010.dsd.xml` and `tsieb010.sdmx.xml`
 
+This is covered by [DownloadZip.bat](https://github.com/LATC/EU-data-cloud/blob/master/institutions/Eurostat/parser/DownloadZip.bat) and [UnCompressFile.bat](https://github.com/LATC/EU-data-cloud/blob/master/institutions/Eurostat/parser/UnCompressFile.bat).
+
 ## 3. Parse Data Structure Definition (DSD) file
 
 * INPUT:  `tsieb010.dsd.xml`
 * OUTPUT:  `~/dsd/tsieb010.rdf` (represented in DataCube vocabulary)
 
+This is covered by [DSDParser.bat](https://github.com/LATC/EU-data-cloud/blob/master/institutions/Eurostat/parser/DSDParser.bat).
+
 ## 4. Parse the observations/SDMX file
 
 * INPUT:  `tsieb010.sdmx.xml`
 * OUTPUT:  `~/data/tsieb010.rdf` (represented in DataCube vocabulary)
+
+This is covered by [SDMXParser.bat](https://github.com/LATC/EU-data-cloud/blob/master/institutions/Eurostat/parser/SDMXParser.bat).
 
 ## 5. Generate data catalog
 
@@ -42,6 +50,8 @@ For example:
 	         qb:DataStructureDefinition dsd:dsd_1;
 	         void:dataDump data:ds_1.ttl;
 	.
+
+This is covered by [Catalog.bat](https://github.com/LATC/EU-data-cloud/blob/master/institutions/Eurostat/parser/Catalog.bat).
 
 ## 6. Generate store inventory
 
@@ -63,6 +73,8 @@ For example:
 	dsd:dsd_1 a qb:DataStructureDefinition, void:Dataset;
 	          void:dataDump dsd:dsd_1.ttl
 	.
+
+This is covered by [Catalog.bat](https://github.com/LATC/EU-data-cloud/blob/master/institutions/Eurostat/parser/Catalog.bat).
 
 ## 7. Use the SMCS to populate the triple store
 
