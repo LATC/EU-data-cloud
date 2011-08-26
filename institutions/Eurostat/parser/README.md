@@ -53,10 +53,13 @@ Type `-h` for help.
 In order to RDFize all the data from the compressed files and the VoiD files we need to store into the SPARQL endpoint, follow the following steps:
 
 * Use `Main.sh` script to uncompress the downloaded compressed files and RDFize the DSDs and SDMXs files.
+	
 	How to Run : `sh Main.sh`
 * Use `Catalog.sh` to generate the Catalog.ttl and Inventory.ttl
+	
 	How to Run : `sh Catalog.sh -o ~/catalog/` , make sure the target directory (e.g. catalog)exists before executing the script
 * Use `DictionaryParser.sh` to RDFize the dictionaries which are used to represent SDMX datasets
+	
 	How to Run : `sh DictionaryParser.sh -i ~/dicPath/ -o ~/outputPath` , make sure the target directories (e.g. dicPath,outputPath)exists before executing the script
 
 ## License
