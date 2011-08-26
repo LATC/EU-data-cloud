@@ -23,30 +23,31 @@ public class UnCompressXML {
 	//public static String tmpZipPath = "C:/tempZip/";
 	public static String tmpZipPath = "/home/romulus/EuroStat/zip/";
 	
-	public void parseZipFile(String fileURL, String downLoadPath)
+	public void parseZipFile(String fileName, String downLoadPath)
 	{
 		tmpZipPath = downLoadPath;
-		
+		//System.out.println("tmpZipPath" + tmpZipPath);
 		try {
 			
-			URL url = new URL(fileURL);
-			HttpURLConnection conn = (HttpURLConnection)url.openConnection();
-			InputStream is = conn.getInputStream();
-
-			if (conn.getResponseCode() != 200) {
-				System.err.println(conn.getResponseCode());
-			}
+//			URL url = new URL(fileURL);
+//			HttpURLConnection conn = (HttpURLConnection)url.openConnection();
+//			InputStream is = conn.getInputStream();
+//
+//			if (conn.getResponseCode() != 200) {
+//				System.err.println(conn.getResponseCode());
+//			}
 
 			// download zip file to a tmp directory
-			String fileName = fileURL.substring(fileURL.lastIndexOf("/")+1);
+			//String fileName = fileURL.substring(fileURL.lastIndexOf("/")+1);
 			//downLoadZip(is,fileName);
+			//fileName = fileName.substring(fileName.lastIndexOf("/")+1);
 			readZipFile(fileName);
 			
-		} catch (IOException e) {
-			e.printStackTrace();
-			return;
-		}
-		catch(Exception e) {
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//			return;
+//		}
+		}catch(Exception e) {
 			e.printStackTrace();
 		}
 	}
@@ -71,8 +72,8 @@ public class UnCompressXML {
 	{
 		//System.out.println("Reading Path --> " + tmpZipPath + file);
 		try {
-			
-			ZipFile zipFile = new ZipFile(tmpZipPath + file);
+			//System.out.println("file : " + file);
+			ZipFile zipFile = new ZipFile(file);
 			Enumeration e = zipFile.entries();
 			
 			while(e.hasMoreElements())
@@ -106,7 +107,7 @@ public class UnCompressXML {
 		String outFileName = fileType;
 		
 		try {
-			 
+			 //System.out.println("id : " + id);
 		     OutputStream out = new FileOutputStream(tmpZipPath + id + outFileName);
 		    
 		     // Transfer bytes from the compressed file to the output file

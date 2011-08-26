@@ -123,7 +123,7 @@ public class ParseToC {
 		
 		for(String str:lstDatasetURLs)
 		{
-//			if(++count == 10)
+//			if(count++ == 10)
 //				break;
 			
 			//System.out.println("UnCompressing :" + str);

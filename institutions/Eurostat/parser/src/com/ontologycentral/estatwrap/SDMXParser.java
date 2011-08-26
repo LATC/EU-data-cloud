@@ -109,7 +109,7 @@ public class SDMXParser {
 		Options options = new Options( );
 		options.addOption("h", "help", false, "Print this usage information");
 		options.addOption("f", "filename", true, "Name of the file.");
-		options.addOption("o", "filename", true, "Output directory path to generate DataCube representation of observations");
+		options.addOption("o", "outputFilePath", true, "Output directory path to generate DataCube representation of observations");
 		
 		CommandLine commandLine = parser.parse( options, args );
 		
