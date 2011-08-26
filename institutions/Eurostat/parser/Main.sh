@@ -1,6 +1,6 @@
 #!/bin/bash
 startTime=$(date)
-# directory path where all the zip files are stored
+#directory path where all the zip files are stored
 FILES=~/downloadZip/zip/*
 
 #directory path where the uncompressed file should be stored
