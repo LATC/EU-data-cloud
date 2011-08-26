@@ -27,7 +27,7 @@ do
   echo $f | grep -qE ".dsd.xml"
   if [ $? -eq 0 ]
    then
-      sh DSDParser.sh -o $dsdPath -i $f
+     sh DSDParser.sh -o $dsdPath -i $f
   else
    echo $f | grep -qE ".sdmx.xml"
    if [ $? -eq 0 ]
@@ -37,7 +37,7 @@ do
       sh SDMXParser.sh -f $fname -o $dataPath
       i=`expr $i + 1`
    fi
-  fi
+ fi
 done
 echo "Shell script started the job at $startTime"
 echo "Shell script finished the job at $(date)"
