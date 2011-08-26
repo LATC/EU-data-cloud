@@ -19,12 +19,17 @@ import javax.xml.stream.XMLOutputFactory;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamWriter;
 
+import org.apache.commons.cli.BasicParser;
+import org.apache.commons.cli.CommandLine;
+import org.apache.commons.cli.CommandLineParser;
+import org.apache.commons.cli.Options;
+
 public class DictionaryParser {
 
 	//public static String[] LANG = { "en", "de", "fr" } ;
 	public static String[] LANG = { "en" } ;
-	private static String outputFilePath = "C:/dic/";
-	private static String dictionaryPath = "all_dic/";
+	private static String outputFilePath = "";
+	private static String dictionaryPath = "";
 	
 	public void loadDictionaries() throws Exception
 	{
@@ -38,6 +43,7 @@ public class DictionaryParser {
 	
 	public void downloadDictionary(String id) throws Exception
 	{
+	
 		OutputStream os = new FileOutputStream(outputFilePath + id + ".rdf");
 		XMLStreamWriter ch = null;
 		List<Reader> rli = new ArrayList<Reader>();
@@ -52,7 +58,7 @@ public class DictionaryParser {
 				URL url = new URL("http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?file=dic/" + lang + "/" + id);
 				//URL url = new URL("http://europa.eu/estatref/download/everybody/dic/en/" + id + ".dic");
 
-				System.out.println("looking up " + url);
+				System.out.println("RDFizing : " + url);
 
 //				if (cache.containsKey(url)) {
 //					sr = new StringReader((String)cache.get(url));
@@ -124,11 +130,45 @@ public class DictionaryParser {
 
 	}
 	
+	private static void usage()
+	{
+		System.out.println("usage: UnCompressFile [parameters]");
+		System.out.println();
+		System.out.println("	-i Dictionary Path	Directory path where the dictionary files are stored.");
+		System.out.println("	-o Output Path		Output directory path to generate the RDF.");
+	}
+	
 	public static void main(String[] args) throws Exception
 	{
-		DictionaryParser obj = new DictionaryParser();
-		//obj.downloadDictionary("sex");
-		obj.loadDictionaries();
+		CommandLineParser parser = new BasicParser( );
+		Options options = new Options( );
+		options.addOption("h", "help", false, "Print this usage information");
+		options.addOption("i", "dictionaryPath", true, "Directory path where the dictionary files are stored.");
+		options.addOption("o", "outputPath", true, "Output directory path to generate the RDF.");
+		CommandLine commandLine = parser.parse( options, args );
+
+		if( commandLine.hasOption('h') ) {
+		    usage();
+		    return;
+		 }
+		
+		if(commandLine.hasOption('i'))
+			dictionaryPath = commandLine.getOptionValue('i');
+		
+		if(commandLine.hasOption('o'))
+			outputFilePath = commandLine.getOptionValue('o');
+		
+		if(dictionaryPath.equals("") || outputFilePath.equals(""))
+		{
+			usage();
+			return;
+		}
+		else
+		{
+			DictionaryParser obj = new DictionaryParser();
+			obj.loadDictionaries();
+		}
+		
 	}
 	
 }
