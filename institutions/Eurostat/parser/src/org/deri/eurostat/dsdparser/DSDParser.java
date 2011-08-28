@@ -410,8 +410,8 @@ public class DSDParser {
 		Model model = ParserUtil.getModelProperties();
 		Model codelist_Model = ModelFactory.createDefaultModel();
 		
-		Resource root = model.createResource( baseURI + "dsd#" + fileName.substring(0,fileName.indexOf("_DSD")) );
-		
+		//--//Resource root = model.createResource( baseURI + "dsd#" + fileName.substring(0,fileName.indexOf("_DSD")) );
+		Resource root = model.createResource( baseURI + "dsd/" + fileName.substring(0,fileName.indexOf("_DSD")) );
 		
 		model.add(root,ParserUtil.type,ParserUtil.dsd).add(root,ParserUtil.notation,fileName);
 		
@@ -588,8 +588,8 @@ public class DSDParser {
 				codelist_Model = ParserUtil.getModelProperties();
 				
 				codeListID = obj.getId().substring(obj.getId().indexOf("_")+1);
-				Resource codeLists = model.createResource(baseURI + "CodeList/" + codeListID);
-				Resource codelist_Lists = codelist_Model.createResource(baseURI + "CodeList/" + codeListID);
+				Resource codeLists = model.createResource(baseURI + "dic/" + codeListID);
+				Resource codelist_Lists = codelist_Model.createResource(baseURI + "dic/" + codeListID);
 				
 				model.add(codeLists,ParserUtil.type,ParserUtil.conceptScheme);
 				codelist_Model.add(codelist_Lists,ParserUtil.type,ParserUtil.conceptScheme);
@@ -613,7 +613,7 @@ public class DSDParser {
 				for(Code code:arrCode)
 				{
 					//writeLinetoFile("		skos:hasTopConcept <" + codeListURL + "CodeList/" + codeListID + "#" + code.getValue() + ">;");
-					String str = baseURI + "CodeList/" + codeListID + "#" + code.getValue();
+					String str = baseURI + "dic/" + codeListID + "#" + code.getValue();
 					Resource res = model.createResource(str);
 					Resource codelist_res = codelist_Model.createResource(str);
 					

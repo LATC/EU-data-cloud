@@ -43,8 +43,8 @@ public class DictionaryParser {
 	
 	public void downloadDictionary(String id) throws Exception
 	{
-	
-		OutputStream os = new FileOutputStream(outputFilePath + id + ".rdf");
+		
+		OutputStream os = new FileOutputStream(outputFilePath + id.substring(0,id.indexOf(".dic")) + ".rdf");
 		XMLStreamWriter ch = null;
 		List<Reader> rli = new ArrayList<Reader>();
 		try {

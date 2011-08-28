@@ -58,7 +58,7 @@ public class DataPage {
 
 		ch.writeStartElement("qb:structure");
 		//ch.writeAttribute("rdf:resource", "../dsd/" + id + "#dsd");
-		ch.writeAttribute("rdf:resource", "../dsd#" + id);
+		ch.writeAttribute("rdf:resource", "../dsd/" + id);
 		ch.writeEndElement();
 		
 		ch.writeEndElement();

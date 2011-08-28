@@ -15,9 +15,10 @@ public class ParserUtil {
 	public static String skos = "http://www.w3.org/2004/02/skos#";
 	public static String qb = "http://purl.org/linked-data/cube#";
 	public static String sdmx_concept = "http://purl.org/linked-data/sdmx/2009/concept#";
-	public static String concepts = "http://eurostat.linked-statistics.org/concepts#";
+	public static String concepts = "http://eurostat.linked-statistics.org/concept#";
 	public static String property = "http://eurostat.linked-statistics.org/property#";
-	public static String cl = "http://eurostat.linked-statistics.org/CodeList/";
+	//-//public static String cl = "http://eurostat.linked-statistics.org/CodeList/";
+	public static String cl = "http://eurostat.linked-statistics.org/dic/";
 	public static String rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
 	public static String sdmx_code = "http://purl.org/linked-data/sdmx/2009/code#";
 	public static String xsd = "http://www.w3.org/2001/XMLSchema#";
