@@ -31,7 +31,7 @@ Type `-h` for help.
 ## SDMXParser
 Parse the SDMX file and represent the observations in RDF using DataCube vocabulary.
 
-How to Run : `SDMXParser.bat -f tsieb010 -o c:/test/`
+How to Run : `SDMXParser.bat -f tsieb010 -o c:/test/ -i c:/tempZip/act.sdmx.xml`
 
 Type `-h` for help.
 
