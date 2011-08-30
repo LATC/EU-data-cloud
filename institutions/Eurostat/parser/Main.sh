@@ -34,7 +34,7 @@ do
     then
       filename=${f##*/}
       fname=`echo $filename | awk '{ print substr($filename,0,length($filename)-8)}'`
-      sh SDMXParser.sh -f $fname -o $dataPath
+      sh SDMXParser.sh -f $fname -o $dataPath -i $f
       i=`expr $i + 1`
    fi
  fi

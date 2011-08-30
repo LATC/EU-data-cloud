@@ -23,7 +23,7 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
 		_in = new BufferedReader(sr);
 	}
 	
-	public void convert(XMLStreamWriter out, String id) throws IOException, XMLStreamException {
+	public void convert(XMLStreamWriter out, String id, String freq) throws IOException, XMLStreamException {
 		String line = null;
 
 		int rows = 0;
@@ -49,7 +49,7 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
 
 			l = new Line(line);
 
-			printTriple(h, l, out, rows, id);
+			printTriple(h, l, out, rows, id, freq);
 			
 			if (rows > MAX_ROWS) {
 				break;
@@ -135,10 +135,10 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
 	}
 */	
 
-	 public void printTriple(Header h, Line l, XMLStreamWriter out, int bnodeid, String id) throws XMLStreamException {
+	 public void printTriple(Header h, Line l, XMLStreamWriter out, int bnodeid, String id, String freq) throws XMLStreamException {
          List hd1 = h.getDim1();
          List ld1 = l.getDim1();
-
+         String obs_URI = "";
          if (hd1.size() != ld1.size()) {
                  System.err.println("header dimensions and line dimensions don't match!");
          }
@@ -173,6 +173,17 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
                  
          out.writeStartElement("qb:Observation");
          
+         // generate the unique URI for each observation.
+         if(!freq.equals(""))
+        	 obs_URI = freq + ",";
+         
+         for (int j = 0; j < hd1.size(); ++j) {
+        	 obs_URI += (String)ld1.get(j) + ",";
+         }
+         obs_URI += (String)hcol.get(i);
+         out.writeAttribute("rdf:resource", "/data/" + id + "#" + obs_URI);
+         obs_URI = "";
+         
          out.writeStartElement("qb:dataset");
          out.writeAttribute("rdf:resource", "/data/" + id);
          // @@@ workaround to get query processor to function
@@ -180,16 +191,25 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
 
          out.writeEndElement();
 
-                 for (int j = 0; j < hd1.size(); ++j) {
-                 out.writeStartElement((String)hd1.get(j));
-                 out.writeAttribute("rdf:resource", Dictionary.PREFIX + (String)hd1.get(j) + "#" + (String)ld1.get(j));
-                 out.writeEndElement();
-                 }
+         // new code for adding FREQ
+         if(!freq.equals(""))
+         {
+        	 out.writeStartElement("freq");
+             out.writeAttribute("rdf:resource", Dictionary.PREFIX + "freq#" + freq);
+             out.writeEndElement();
+         }
+         
+         for (int j = 0; j < hd1.size(); ++j) {
+         out.writeStartElement((String)hd1.get(j));
+         out.writeAttribute("rdf:resource", Dictionary.PREFIX + (String)hd1.get(j) + "#" + (String)ld1.get(j));
+         out.writeEndElement();
+         }
 
          out.writeStartElement((String)h.getDim2());
          out.writeAttribute("rdf:resource", Dictionary.PREFIX + (String)h.getDim2() + "#" + (String)hcol.get(i));
          out.writeEndElement();
 
+         
          //http://purl.org/linked-data/sdmx/2009/measure#obsValue
          out.writeStartElement("sdmx-measure:obsValue");
          String val = (String)lcol.get(i);

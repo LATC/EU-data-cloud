@@ -133,11 +133,11 @@ public class UnCompressXML {
 		obj.parseFile();
 	}
 	
-	public void parseSDMX(String sdmxFile) throws Exception
+	public void parseSDMX(String sdmxFile, String sdmxFilePath) throws Exception
 	{
 		System.out.println("Parsing SDMX file : " + sdmxFile);
 		SDMXParser obj = new SDMXParser(Main.sdmxDirPath);
-		obj.downLoadTSV(sdmxFile);
+		obj.downLoadTSV(sdmxFile, sdmxFilePath);
 	}
 	
 	private static void usage()

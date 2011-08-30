@@ -15,20 +15,28 @@ import java.util.Map;
 import java.util.logging.Logger;
 import java.util.zip.GZIPInputStream;
 
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.stream.XMLOutputFactory;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamWriter;
+import javax.xml.xpath.XPathFactory;
 
 import org.apache.commons.cli.BasicParser;
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.Options;
 import org.deri.eurostat.Main;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
 
 
 public class SDMXParser {
 
 	private static String outputFilePath = "";
+	private Document xmlDocument;
 	
 	public SDMXParser(String outPath)
 	{
@@ -37,7 +45,23 @@ public class SDMXParser {
 	
 	public SDMXParser(){}
 	
-	public void downLoadTSV(String id) throws Exception
+	private void initObjects(String filePath){        
+        try {
+        	//System.out.println(xmlFilePath);
+            xmlDocument = DocumentBuilderFactory.
+			newInstance().newDocumentBuilder().
+			parse(filePath);            
+            
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        } catch (SAXException ex) {
+            ex.printStackTrace();
+        } catch (ParserConfigurationException ex) {
+            ex.printStackTrace();
+        }       
+    }
+	
+	public void downLoadTSV(String id, String sdmxFilePath) throws Exception
 	{
 		
 		OutputStream os = new FileOutputStream(outputFilePath + id + ".rdf");
@@ -72,7 +96,9 @@ public class SDMXParser {
 			
 			XMLStreamWriter ch = factory.createXMLStreamWriter(os, "utf-8");
 
-			DataPage.convert(ch, id, in);
+			String freq = get_FREQ_fromSDMX(sdmxFilePath);
+			
+			DataPage.convert(ch, id, in, freq);
 
 			ch.close();
 		} catch (IOException e) {
@@ -93,22 +119,51 @@ public class SDMXParser {
 
 	}
 	
+	public String parseSDMX()
+	{
+		Element element = xmlDocument.getDocumentElement();
+		NodeList nl;
+		String freq="";
+		nl = element.getElementsByTagName("data:Series");
+		
+		if(nl != null && nl.getLength() > 0)
+		{
+			Element ele = (Element)nl.item(0);
+			freq = ele.getAttribute("FREQ");
+		}
+		
+		return freq;
+	}
+	
+	public String get_FREQ_fromSDMX(String sdmxFilePath)
+	{
+		String freq = "";
+		
+		initObjects(sdmxFilePath);
+		freq = parseSDMX();
+		
+		return freq;
+	}
+	
 	private static void usage()
 	{
 		System.out.println("usage: SDMXParser [parameters]");
 		System.out.println();
 		System.out.println("	-f filename		Name of the file.");
-		System.out.println("	-o outputFilePath		Output directory path to generate DataCube representation of observations.");
+		System.out.println("	-i file path		File path of the SDMX xml file.");
+		System.out.println("	-o outputFilePath	Output directory path to generate DataCube representation of observations.");
 		
 	}
 	
 	public static void main(String[] args) throws Exception
 	{
 		String fileName = "";
+		String sdmxFilePath = "";
 		CommandLineParser parser = new BasicParser( );
 		Options options = new Options( );
 		options.addOption("h", "help", false, "Print this usage information");
 		options.addOption("f", "filename", true, "Name of the file.");
+		options.addOption("i", "file path", true, "File path of the SDMX xml file.");
 		options.addOption("o", "outputFilePath", true, "Output directory path to generate DataCube representation of observations");
 		
 		CommandLine commandLine = parser.parse( options, args );
@@ -121,10 +176,13 @@ public class SDMXParser {
 		if(commandLine.hasOption('f'))
 			fileName = commandLine.getOptionValue('f');
 		
+		if(commandLine.hasOption('i'))
+			sdmxFilePath = commandLine.getOptionValue('i');
+		
 		if(commandLine.hasOption('o'))
 			outputFilePath = commandLine.getOptionValue('o');
 		
-		if(fileName.equals("") || outputFilePath.equals(""))
+		if(fileName.equals("") || sdmxFilePath.equals("") || outputFilePath.equals(""))
 		{
 			usage();
 			return;
@@ -132,7 +190,7 @@ public class SDMXParser {
 		else
 		{
 			SDMXParser obj = new SDMXParser();
-			obj.downLoadTSV(fileName);
+			obj.downLoadTSV(fileName, sdmxFilePath);
 		}
 	}
 }

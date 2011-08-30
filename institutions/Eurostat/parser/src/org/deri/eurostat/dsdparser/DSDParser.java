@@ -425,8 +425,8 @@ public class DSDParser {
 			model.add(prop,ParserUtil.type,ParserUtil.dimensionProperty);
 			model.add(prop,ParserUtil.type,ParserUtil.codedProperty);
 			model.add(prop,ParserUtil.rdfsDomain,ParserUtil.observation);
-			Property cncpt = model.createProperty(ParserUtil.concepts + dim.getConceptRef());
-			model.add(prop,ParserUtil.concept,cncpt);
+			//--//Property cncpt = model.createProperty(ParserUtil.concepts + dim.getConceptRef());
+			//--//model.add(prop,ParserUtil.concept,cncpt);
 			
 			if(!dim.getCodeList().equals(""))
 			{
@@ -441,12 +441,16 @@ public class DSDParser {
 							Property cList = model.createProperty(ParserUtil.sdmx_code + codeList);
 							model.add(prop,ParserUtil.codeList,cList);
 							model.add(prop,ParserUtil.rdfsRange,cList);
+							Property cncpt = model.createProperty(ParserUtil.sdmx_concept + codeList);
+							model.add(prop,ParserUtil.concept,cncpt);
 						}
 						else
 						{
 							Property cList = model.createProperty(ParserUtil.cl + obj.getId().substring(obj.getId().indexOf("_")+1));
 							model.add(prop,ParserUtil.codeList,cList);
 							model.add(prop,ParserUtil.rdfsRange,cList);
+							Property cncpt = model.createProperty(ParserUtil.concepts + dim.getConceptRef());
+							model.add(prop,ParserUtil.concept,cncpt);
 						}
 					}
 				}
@@ -467,8 +471,8 @@ public class DSDParser {
 			model.add(component_1,ParserUtil.dimension,prop);
 			model.add(prop,ParserUtil.type,ParserUtil.dimensionProperty);
 			model.add(prop,ParserUtil.rdfsDomain,ParserUtil.observation);
-			Property cncpt = model.createProperty(ParserUtil.concepts + dim.getConceptRef());
-			model.add(prop,ParserUtil.concept,cncpt);
+			//-//Property cncpt = model.createProperty(ParserUtil.concepts + dim.getConceptRef());
+			//--//model.add(prop,ParserUtil.concept,cncpt);
 			
 			if(!dim.getCodeList().equals(""))
 			{
@@ -482,12 +486,16 @@ public class DSDParser {
 							Property cList = model.createProperty(ParserUtil.sdmx_code + codeList);
 							model.add(prop,ParserUtil.codeList,cList);
 							model.add(prop,ParserUtil.rdfsRange,cList);
+							Property cncpt = model.createProperty(ParserUtil.sdmx_concept + codeList);
+							model.add(prop,ParserUtil.concept,cncpt);
 						}
 						else
 						{
 							Property cList = model.createProperty(ParserUtil.cl + obj.getId().substring(obj.getId().indexOf("_")+1));
 							model.add(prop,ParserUtil.codeList,cList);
 							model.add(prop,ParserUtil.rdfsRange,cList);
+							Property cncpt = model.createProperty(ParserUtil.concepts + dim.getConceptRef());
+							model.add(prop,ParserUtil.concept,cncpt);
 						}
 					}
 				}
@@ -509,8 +517,8 @@ public class DSDParser {
 			model.add(prop,ParserUtil.type,ParserUtil.measureProperty);
 			model.add(prop,ParserUtil.type,ParserUtil.codedProperty);
 			model.add(prop,ParserUtil.rdfsDomain,ParserUtil.observation);
-			Property cncpt = model.createProperty(ParserUtil.concepts + measure.getConceptRef());
-			model.add(prop,ParserUtil.concept,cncpt);
+			//--//Property cncpt = model.createProperty(ParserUtil.concepts + measure.getConceptRef());
+			//--//model.add(prop,ParserUtil.concept,cncpt);
 			
 			if(!measure.getCodeList().equals(""))
 			{
@@ -524,12 +532,16 @@ public class DSDParser {
 							Property cList = model.createProperty(ParserUtil.sdmx_code + codeList);
 							model.add(prop,ParserUtil.codeList,cList);
 							model.add(prop,ParserUtil.rdfsRange,cList);
+							Property cncpt = model.createProperty(ParserUtil.sdmx_concept + codeList);
+							model.add(prop,ParserUtil.concept,cncpt);
 						}
 						else
 						{
 							Property cList = model.createProperty(ParserUtil.cl + obj.getId().substring(obj.getId().indexOf("_")+1));
 							model.add(prop,ParserUtil.codeList,cList);
 							model.add(prop,ParserUtil.rdfsRange,cList);
+							Property cncpt = model.createProperty(ParserUtil.concepts + measure.getConceptRef());
+							model.add(prop,ParserUtil.concept,cncpt);
 						}
 					}
 				}
@@ -551,8 +563,8 @@ public class DSDParser {
 			model.add(prop,ParserUtil.type,ParserUtil.attributeProperty);
 			model.add(prop,ParserUtil.type,ParserUtil.codedProperty);
 			model.add(prop,ParserUtil.rdfsDomain,ParserUtil.observation);
-			Property cncpt = model.createProperty(ParserUtil.concepts + att.getConceptRef());
-			model.add(prop,ParserUtil.concept,cncpt);
+			//--//Property cncpt = model.createProperty(ParserUtil.concepts + att.getConceptRef());
+			//--//model.add(prop,ParserUtil.concept,cncpt);
 			
 			for(CodeList obj:lstCodeLists)
 			{
@@ -565,12 +577,16 @@ public class DSDParser {
 						Property cList = model.createProperty(ParserUtil.sdmx_code + codeList);
 						model.add(prop,ParserUtil.codeList,cList);
 						model.add(prop,ParserUtil.rdfsRange,cList);
+						Property cncpt = model.createProperty(ParserUtil.sdmx_concept + codeList);
+						model.add(prop,ParserUtil.concept,cncpt);
 					}
 					else
 					{
 						Property cList = model.createProperty(ParserUtil.cl + obj.getId().substring(obj.getId().indexOf("_")+1));
 						model.add(prop,ParserUtil.codeList,cList);
 						model.add(prop,ParserUtil.rdfsRange,cList);
+						Property cncpt = model.createProperty(ParserUtil.concepts + att.getConceptRef());
+						model.add(prop,ParserUtil.concept,cncpt);
 					}
 				}
 			}

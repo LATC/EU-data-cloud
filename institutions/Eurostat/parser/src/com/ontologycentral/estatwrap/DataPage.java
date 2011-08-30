@@ -13,7 +13,7 @@ public class DataPage {
 
 	public static SimpleDateFormat ISO8601 = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssZ");
 	
-	public static void convert(XMLStreamWriter ch, String id, Reader in) throws XMLStreamException, IOException {
+	public static void convert(XMLStreamWriter ch, String id, Reader in, String freq) throws XMLStreamException, IOException {
 		ch.writeStartDocument("utf-8", "1.0");
 
 		ch.writeStartElement("rdf:RDF");
@@ -65,7 +65,7 @@ public class DataPage {
 		
 		Data d = new Data(in);
 		
-        d.convert(ch, id);
+        d.convert(ch, id, freq);
         
         ch.writeEndElement();
         ch.writeEndDocument();
