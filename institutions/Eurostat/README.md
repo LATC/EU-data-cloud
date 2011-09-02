@@ -48,3 +48,15 @@ Remarks
 ## License
 
 The software provided in this repository is Open Source.
+
+To Do
+=====
+* Document the percentage of datasets that change per week, on average
+* Explore how to generate a per-country subset of the data
+* Load a .ie subset into data-gov.ie dataspace
+* Interlinking
+  * Regions: DBpedia, Geonames, LinkedGeoData
+  * National regions: Data-gov.ie, GeoLinkedData.es, Ordnance Survey
+  * Indicators: US Census
+  * Topics/Subjects: DBpedia
+
