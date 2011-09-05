@@ -50,10 +50,11 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
 			l = new Line(line);
 
 			printTriple(h, l, out, rows, id, freq);
-			
-			if (rows > MAX_ROWS) {
-				break;
-			}
+
+			// this code restricts from converting more data.
+//			if (rows > MAX_ROWS) {
+//				break;
+//			}
 		}
 
 		_in.close();
@@ -151,19 +152,25 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
          }
          
          int start = 0;
-         int end = Math.min(hcol.size(), MAX_COLS);
+         
+         // displays only 8 columns data per dataset. But we need to dump all the data.
+         //int end = Math.min(hcol.size(), MAX_COLS);
+         int end = hcol.size();
          
          // hack - some stats are sorted from oldest to newest, some the other way round
          // check if the last entry contains year 200x or 201x
          String last = (String)hcol.get(hcol.size()-1);
          //System.out.println(last);
-         if (last.contains("200") || last.contains("201")) {
-                 start = hcol.size()-MAX_COLS;
-                 if (start < 0) {
-                         start = 0;
-                 }
-                 end = hcol.size();
-         }
+         
+         // This piece of code restricts the number of records to display only the last 8 columns if
+         // last entry contains year 200x or 201x. We dont need it in our case as we are dumping all data.
+//         if (last.contains("200") || last.contains("201")) {
+//                 start = hcol.size()-MAX_COLS;
+//                 if (start < 0) {
+//                         start = 0;
+//                 }
+//                 end = hcol.size();
+//         }
 
          for (int i = start; i < end; ++i)
          {
@@ -181,7 +188,7 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
         	 obs_URI += (String)ld1.get(j) + ",";
          }
          obs_URI += (String)hcol.get(i);
-         out.writeAttribute("rdf:resource", "/data/" + id + "#" + obs_URI);
+         out.writeAttribute("rdf:about", "/data/" + id + "#" + obs_URI);
          obs_URI = "";
          
          out.writeStartElement("qb:dataset");

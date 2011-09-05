@@ -5,6 +5,8 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.HashMap;
+
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.xpath.XPathFactory;
@@ -33,6 +35,7 @@ public class ParseToC {
 	//private static String xmlFileURL = "E:/EU Projects/EuroStat/ToC/table_of_contents.xml";
 	private Document xmlDocument;
 	public ArrayList<String> lstDatasetURLs = new ArrayList<String>();
+	public HashMap<String, HashMap<String,String>> toc = new HashMap<String, HashMap<String,String>>(); 
 	private static int printDatasets = 10;
 	UnCompressXML obj = new UnCompressXML();
 	DownloadZip zip = new DownloadZip();
@@ -152,6 +155,48 @@ public class ParseToC {
 		
 	}
 	
+	public void extractDatasetTitles()
+	{
+		Element element = xmlDocument.getDocumentElement();
+		
+		NodeList nl = element.getElementsByTagName("nt:leaf");
+		if(nl != null && nl.getLength() > 0)
+		{
+			for(int i = 0 ; i < nl.getLength();i++)
+			{
+				Element ele = (Element)nl.item(i);
+				if(ele.getAttribute("type").equals("dataset") || ele.getAttribute("type").equals("table"))
+				{
+					storeDatasetTitles(ele);
+				}
+			}
+		}
+
+	}
+	
+	public void storeDatasetTitles(Element element)
+	{
+		HashMap<String, String> hsh = new HashMap<String, String>();
+		String code = "";
+		
+		NodeList nl = element.getElementsByTagName("nt:code");
+		
+		code = nl.item(0).getTextContent();
+		
+		nl = element.getElementsByTagName("nt:title");
+		if(nl != null && nl.getLength() > 0)
+		{
+			for(int i = 0 ; i < nl.getLength();i++)
+			{
+				Element ele = (Element)nl.item(i);
+				hsh.put(ele.getAttribute("language"), ele.getTextContent());
+				//System.out.println(code + " -- " + ele.getAttribute("language") + " -- " + ele.getTextContent());
+			}
+		}
+
+		toc.put(code, hsh);
+	}
+	
 //	// get the total number of observations which exists in the datasets
 //	public void getObservations(Element element)
 //	{
@@ -206,7 +251,15 @@ public class ParseToC {
 		parseDataSets();
 		//parseXMLFiles(downLoadPath);
 	}
-	
+
+	public void getDatasetTitles()
+	{
+		InputStream is = get_ToC_XMLStream();
+		initObjects(is);
+		extractDatasetTitles();
+		//parseXMLFiles(downLoadPath);
+	}
+
 	public void downloadZip(String downLoadPath)
 	{
 		InputStream is = get_ToC_XMLStream();
@@ -236,6 +289,7 @@ public class ParseToC {
 			printDatasets = Integer.parseInt(commandLine.getOptionValue('n'));
 		
 		obj.parseToC();
+		//obj.getDatasetTitles();
 	}
 	
 }

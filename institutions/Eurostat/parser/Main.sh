@@ -39,5 +39,5 @@ do
    fi
  fi
 done
-echo "Shell script started the job at $startTime"
-echo "Shell script finished the job at $(date)"
+echo "RDFication started at $startTime"
+echo "RDFication finished at $(date)"
