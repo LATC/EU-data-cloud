@@ -78,6 +78,12 @@ In order to RDFize all the data from the compressed files and the VoiD files we 
 	Download the dictionaries from the [Bulk Download Page](http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=1&file=dic%2Fall_dic.zip) and uncompress it into the `dicPath` directory. Currently, the script donot handle multi-lingual representation of dictionaries. So its preferable to execute the script on only one of the language (e.g. all dictionaries exists in dir `en/`).
 	Make sure the target directories (e.g. dicPath,outputPath)exists before executing the script.
 
+## Example
+* The best way to test the RDFication process is to use `Main.sh` script. You are required to download the *.zip file(s) in a directory before running the script. 
+* Change the directory path variable `FILES` in the `Main.sh` to your directory which contains the .zip files.
+* You can also change the `unCompressPath` , `dsdPath` and `dataPath` variables to your desired directory paths. Make sure that the directories *exists* before running the script.
+* How to run : `sh Main.sh`
+
 ## License
 
 The software provided in this repository is Open Source.
