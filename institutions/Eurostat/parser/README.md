@@ -3,21 +3,27 @@
 ## ParseToC
 Parses the [Table of Contents](http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=1&amp;file=table_of_contents.xml "Bulk Download") and retrieve all dataset URLS.
 
-How to Run : `ParseToC.bat -n 5`
+How to Run on Windows: `ParseToC.bat -n 5`
+
+How to Run on Linux: `sh ParseToC.sh -n 5`
 
 Type `-h` for help.
 
 ## UnCompressFile
 Parses the contents of the compressed dataset file:
 
-How to Run : `UnCompressFile.bat -p c:/test/ -u "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=1&downfile=data/apro_cpb_sugar.sdmx.zip"`
+How to Run on Windows: `UnCompressFile.bat -i c:/test/zip/bsbu_m.sdmx.zip -o C:/uncompress/`
+
+How to Run on Linux: `sh UnCompressFile.sh -i ~/test/zip/bsbu_m.sdmx.zip -o ~/uncompress/`
 
 Type `-h` for help.
 
 ## DonwloadZipFile
 Downloads the compressed dataset file from the URL:
 
-How to Run : `DownloadZip.bat -p c:/test/ -u "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=1&downfile=data/apro_cpb_sugar.sdmx.zip"`
+How to Run on Windows: `DownloadZip.bat -p c:/test/zip/ -u "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=1&downfile=data/apro_cpb_sugar.sdmx.zip"`
+
+How to Run on Linux: `sh DownloadZip.sh -p ~/test/zip/ -u "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=1&downfile=data/apro_cpb_sugar.sdmx.zip"`
 
 Type `-h` for help.
 
