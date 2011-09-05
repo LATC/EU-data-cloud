@@ -41,7 +41,7 @@ Parse the SDMX file and represent the observations in RDF using DataCube vocabul
 
 How to Run on Windows: `SDMXParser.bat -f tsieb010 -o c:/test/ -i c:/tempZip/act.sdmx.xml`
 
-How to Run on Linux: `sh SDMXParser.sh -f tsieb010 -o c:/test/ -i c:/tempZip/act.sdmx.xml`
+How to Run on Linux: `sh SDMXParser.sh -f tsieb010 -o ~/test/ -i ~/sdmx/act.sdmx.xml`
 
 Type `-h` for help.
 
