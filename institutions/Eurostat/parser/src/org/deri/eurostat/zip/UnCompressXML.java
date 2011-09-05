@@ -144,19 +144,19 @@ public class UnCompressXML {
 	{
 		System.out.println("usage: UnCompressFile [parameters]");
 		System.out.println();
-		System.out.println("	-p path		Directory path for downloading the compressed files.");
-		System.out.println("	-u url		Dataset URL to download and parse the contents of compressed file.");
+		System.out.println("	-i file path		Compressed file path.");
+		System.out.println("	-o output path		Directory path for uncompressing the contents of the file.");
 	}
 
 	public static void main(String[] args) throws Exception
 	{
-		String url = "";
-		String path = "";
+		String filepath = "";
+		String outputpath = "";
 		CommandLineParser parser = new BasicParser( );
 		Options options = new Options( );
 		options.addOption("h", "help", false, "Print this usage information");
-		options.addOption("p", "path", true, "Directory path for downloading the compressed files.");
-		options.addOption("u", "url", true, "Dataset URL to download and parse the contents of compressed file.");
+		options.addOption("i", "file path", true, "Compressed file path.");
+		options.addOption("o", "output path", true, "Directory path for uncompressing the contents of the file.");
 		CommandLine commandLine = parser.parse( options, args );
 		
 		if( commandLine.hasOption('h') ) {
@@ -164,22 +164,22 @@ public class UnCompressXML {
 		    return;
 		 }
 		
-		if(commandLine.hasOption('p'))
-			path = commandLine.getOptionValue('p');
+		if(commandLine.hasOption('i'))
+			filepath = commandLine.getOptionValue('i');
 		
-		if(commandLine.hasOption('u'))
-			url = commandLine.getOptionValue('u');
+		if(commandLine.hasOption('o'))
+			outputpath = commandLine.getOptionValue('o');
 		
-		if(path.equals("") || url.equals(""))
+		if(outputpath.equals("") || filepath.equals(""))
 		{
 			usage();
 			return;
 		}
 		else
 		{
-			tmpZipPath = path;
+			tmpZipPath = outputpath;
 			UnCompressXML obj = new UnCompressXML();
-			obj.parseZipFile(url,tmpZipPath);
+			obj.parseZipFile(filepath,tmpZipPath);
 		}
 		
 	

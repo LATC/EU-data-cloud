@@ -150,8 +150,8 @@ public class SDMXParser {
 		System.out.println("usage: SDMXParser [parameters]");
 		System.out.println();
 		System.out.println("	-f filename		Name of the file.");
-		System.out.println("	-i file path		File path of the SDMX xml file.");
-		System.out.println("	-o outputFilePath	Output directory path to generate DataCube representation of observations.");
+		System.out.println("	-i file path	File path of the SDMX xml file.");
+		System.out.println("	-o output filepath	Output directory path to generate DataCube representation of observations.");
 		
 	}
 	

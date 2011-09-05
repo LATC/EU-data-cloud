@@ -26,8 +26,8 @@ public class ParserUtil {
 	
 	public static String voidURI = "http://rdfs.org/ns/void#";
 	public static String dssURI = "http://eurostat.linked-statistics.org/dss#";
-	public static String dsdURI = "http://eurostat.linked-statistics.org/dsd#";
-	public static String dataURI = "http://eurostat.linked-statistics.org/data#";
+	public static String dsdURI = "http://eurostat.linked-statistics.org/dsd/";
+	public static String dataURI = "http://eurostat.linked-statistics.org/data/";
 	
 	public static Property dsd;
 	public static Property type;
