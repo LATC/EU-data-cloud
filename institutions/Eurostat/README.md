@@ -83,19 +83,19 @@ We only want data for 2007, and both sexes. We then join the data with the `env_
 URIs for Eurostat identities
 ===========================
 
-* The base URI of Eurostat is `http://eurostat.linked-statistics.org`.
+* The base URI for Eurostat is http://eurostat.linked-statistics.org.
 
 * The Data Structure Definition (DSD) can be found under `http://eurostat.linked-statistics.org/dsd/`
 
-	For example: `http://eurostat.linked-statistics.org/dsd/bsbu_q.rdf`
+	For example: http://eurostat.linked-statistics.org/dsd/bsbu_q.rdf
 
 * The SDMX data sets can be found under `http://eurostat.linked-statistics.org/data/`
 
-	For example: `http://eurostat.linked-statistics.org/data/bsbu_q.rdf`
+	For example: http://eurostat.linked-statistics.org/data/bsbu_q.rdf
 
 * The dictionaries can be found under `http://eurostat.linked-statistics.org/dic/`
 
-	For example: `http://eurostat.linked-statistics.org/dic/geo.rdf`
+	For example: http://eurostat.linked-statistics.org/dic/geo.rdf
 
 * Concepts and Properties of DSD can be found under `http://eurostat.linked-statistics.org/concept#` and `http://eurostat.linked-statistics.org/property#`
 
