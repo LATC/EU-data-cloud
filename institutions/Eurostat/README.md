@@ -45,6 +45,41 @@ Remarks
 
 3) Use [our own code](https://github.com/LATC/EU-data-cloud/tree/master/institutions/Eurostat/parser/src) for DSD RDFication.
 
+
+Example Query
+=============
+Here is an examplary quert that joins two SDMX datasets:
+
+	PREFIX rdfs: http://www.w3.org/2000/01/rdf-schema#
+	PREFIX qb: http://purl.org/linked-data/cube#
+	PREFIX e: http://ontologycentral.com/2009/01/eurostat/ns#
+	PREFIX sdmx-measure: http://purl.org/linked-data/sdmx/2009/measure#
+	PREFIX skos: http://www.w3.org/2004/02/skos/core#
+	PREFIX g: http://eurostat.linked-statistics.org/ontologies/geographic.rdf#
+	PREFIX dataset: http://eurostat.linked-statistics.org/data/
+	SELECT ?nuts2
+	SUM(xsd:decimal(?pop)) AS ?population
+	?wateruse
+	xsd:decimal(?wateruse)*1000000/SUM(xsd:decimal(?pop)) AS
+	?percapita WHERE { ?observation qb:dataset dataset:demo_r_pjanaggr3 ;
+	e:time http://eurostat.linked-statistics.org/dic/time#2007;
+	e:age http://eurostat.linked-statistics.org/dic/age#TOTAL;
+	e:sex http://eurostat.linked-statistics.org/dic/sex#F;
+	e:geo ?ugeo;
+	sdmx-measure:obsValue ?pop.
+	?ugeo g:hasParentRegion ?parent.
+	?parent rdfs:label ?nuts2.
+	?wuregion qb:dataset dataset:env_n2_wu ;
+	e:geo ?parent;
+	e:cons http://eurostat.linked-statistics.org/dic/cons#W18_2_7_2;
+	e:time http://eurostat.linked-statistics.org/dic/time#2007;
+	sdmx-measure:obsValue ?wateruse.
+	} GROUP BY ?nuts2 ?wateruse ORDER BY DESC(?percapita)
+
+The query above uses dataset ‘demo_r_pjanaggr3’, which contains ‘Population by sex and age groups on 1 January - NUTS level 3 regions.’ We need populations for NUTS level 2 and we therefore aggregate the dataset by using the NUTS vocabulary to find the parent regions.
+
+We only want data for 2007, and both sexes. We then join the data with the ‘env_n2_wu’ dataset, which contains ‘Water use (NUTS2) - mio m3.’ We can then find the regions with the most domestic water (code W18_2_7_2) use per million inhabitants.
+
 ## License
 
 The software provided in this repository is Open Source.
