@@ -80,6 +80,25 @@ The query above uses dataset `demo_r_pjanaggr3`, which contains `Population by s
 
 We only want data for 2007, and both sexes. We then join the data with the `env_n2_wu` dataset, which contains `Water use (NUTS2) - mio m3`. We can then find the regions with the most domestic water (code W18_2_7_2) use per million inhabitants.
 
+URIs for Eurostat identities
+===========================
+
+* The base URI of Eurostat is `http://eurostat.linked-statistics.org`.
+
+* The Data Structure Definition (DSD) can be found under `http://eurostat.linked-statistics.org/dsd/`
+
+For example: `http://eurostat.linked-statistics.org/dsd/bsbu_q.rdf`
+
+* The SDMX data sets can be found under `http://eurostat.linked-statistics.org/data/`
+
+For example: `http://eurostat.linked-statistics.org/data/bsbu_q.rdf`
+
+* The dictionaries can be found under `http://eurostat.linked-statistics.org/dic/`
+
+For example: `http://eurostat.linked-statistics.org/dic/geo.rdf`
+
+* Concepts and Properties of DSD can be found under `http://eurostat.linked-statistics.org/concept#` and `http://eurostat.linked-statistics.org/property#`
+
 ## License
 
 The software provided in this repository is Open Source.
