@@ -48,14 +48,18 @@ Type `-h` for help.
 ## Catalog
 Generates the void files which will be used to populate the triple store described in [Step 5 and Step6](https://github.com/LATC/EU-data-cloud/blob/master/institutions/Eurostat/design/workflow.md).
 
-How to Run : `Catalog.bat -o c:/test/`
+How to Run on Windows: `Catalog.bat -o c:/test/`
+
+How to Run on Linux: `sh Catalog.sh -o ~/test/`
 
 Type `-h` for help.
 
 ## EuroStatMirror
 Downloads all the compressed Datasets files from the [Bulk Download page](http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing) by extracting URLs from [Table of Contents](http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=1&amp;file=table_of_contents.xml "Bulk Download").
 
-How to Run : `EuroStatMirror.bat -p c:/test/`
+How to Run on Windows: `EuroStatMirror.bat -p c:/zip/`
+
+How to Run Linux: `sh EuroStatMirror.sh -p ~/zip/`
 
 Type `-h` for help.
 
