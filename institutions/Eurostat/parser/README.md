@@ -80,8 +80,8 @@ In order to RDFize all the data from the compressed files and the VoiD files we 
 
 ## How to convert a single dataset to RDF
 * The best way to test the RDFication process is to use `Main.sh` script. You are required to download the *.zip file(s) in a directory before running the script. 
-* Change the directory path variable `FILES` in the `Main.sh` to your directory which contains the .zip files.
-* You can also change the `unCompressPath` , `dsdPath` and `dataPath` variables to your desired directory paths. Make sure that the directories *exists* before running the script.
+* Change the directory path variable `$FILES` in the `Main.sh` to your directory which contains the .zip files.
+* You can also change the `$unCompressPath` , `$dsdPath` and `$dataPath` variables to your desired directory paths. Make sure that the directories *exists* before running the script.
 * How to run : `sh Main.sh`
 
 ## License
