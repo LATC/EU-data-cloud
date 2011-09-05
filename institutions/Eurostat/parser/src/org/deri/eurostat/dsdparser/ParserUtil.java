@@ -20,12 +20,14 @@ public class ParserUtil {
 	//-//public static String cl = "http://eurostat.linked-statistics.org/CodeList/";
 	public static String cl = "http://eurostat.linked-statistics.org/dic/";
 	public static String rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
+	public static String dcterms = "http://purl.org/dc/terms/";
 	public static String sdmx_code = "http://purl.org/linked-data/sdmx/2009/code#";
 	public static String xsd = "http://www.w3.org/2001/XMLSchema#";
 	public static String sdmxURI = "http://purl.org/linked-data/sdmx#";
 	
 	public static String voidURI = "http://rdfs.org/ns/void#";
 	public static String dssURI = "http://eurostat.linked-statistics.org/dss#";
+	public static String titleURI = "http://eurostat.linked-statistics.org/title#";
 	public static String dsdURI = "http://eurostat.linked-statistics.org/dsd/";
 	public static String dataURI = "http://eurostat.linked-statistics.org/data/";
 	
@@ -51,6 +53,7 @@ public class ParserUtil {
 	public static Property rdfsDomain;
 	public static Property rdfsLabel;
 	public static Property rdfsRange;
+	public static Property dcTitle;
 	public static Property sdmxConcept;
 	public static Property sdmx;
 
@@ -84,6 +87,7 @@ public class ParserUtil {
 		rdfsDomain = m.createProperty(rdfs + "domain");
 		rdfsLabel = m.createProperty(rdfs + "label");
 		rdfsRange = m.createProperty(rdfs + "range");
+		dcTitle = m.createProperty(dcterms + "title");
 		sdmxConcept = m.createProperty(sdmx_concept + "Concept");
 		sdmx = m.createProperty(sdmxURI + "Concept");
 		
@@ -101,11 +105,13 @@ public class ParserUtil {
 		m.setNsPrefix("cl", cl);
 		m.setNsPrefix("sdmx-code", sdmx_code);
 		m.setNsPrefix("rdf", rdf);
+		m.setNsPrefix("dc", dcterms);
 		m.setNsPrefix("xsd", xsd);
 		m.setNsPrefix("void", voidURI);
 		m.setNsPrefix("dss", dssURI);
 		m.setNsPrefix("dsd", dsdURI);
 		m.setNsPrefix("data", dataURI);
+		m.setNsPrefix("title", titleURI);
 		return m;
 	}
 }

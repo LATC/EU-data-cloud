@@ -77,6 +77,9 @@ In order to RDFize all the data from the compressed files and the VoiD files we 
 	How to Run : `sh DictionaryParser.sh -i ~/dicPath/ -o ~/outputPath` 
 	Download the dictionaries from the [Bulk Download Page](http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=1&file=dic%2Fall_dic.zip) and uncompress it into the `dicPath` directory. Currently, the script donot handle multi-lingual representation of dictionaries. So its preferable to execute the script on only one of the language (e.g. all dictionaries exists in dir `en/`).
 	Make sure the target directories (e.g. dicPath,outputPath)exists before executing the script.
+* Use `DatasetTitles.sh` to generate the titles of all datasets.
+
+	How to Run : `sh DatasetTitles.sh -o ~/title/` , make sure the target directory (e.g. title)exists before executing the script
 
 ## How to convert a single dataset to RDF
 * The best way to test the RDFication process is to use `Main.sh` script. You are required to download the *.zip file(s) in a directory before running the script. 
