@@ -12,7 +12,7 @@ Type `-h` for help.
 ## UnCompressFile
 Parses the contents of the compressed dataset file:
 
-How to Run on Windows: `UnCompressFile.bat -i c:/test/zip/bsbu_m.sdmx.zip -o C:/uncompress/`
+How to Run on Windows: `UnCompressFile.bat -i c:/test/zip/bsbu_m.sdmx.zip -o c:/uncompress/`
 
 How to Run on Linux: `sh UnCompressFile.sh -i ~/test/zip/bsbu_m.sdmx.zip -o ~/uncompress/`
 
@@ -30,14 +30,18 @@ Type `-h` for help.
 ## DSDParser
 Parse the Data Structure Definition (DSD) file and represent it in RDF using Data Cube vocabulary.
 
-How to Run : `DSDParser.bat -o c:/test/ -i C:/tempZip/bsbu_m.dsd.xml -f RDF/XML`
+How to Run on Windows: `DSDParser.bat -i c:/tempZip/bsbu_m.dsd.xml -o c:/test/ -f TURTLE`
+
+How to Run on Linux: `sh DSDParser.sh -i ~/tempZip/dsd/bsbu_m.dsd.xml -o ~/test/ -f TURTLE`
 
 Type `-h` for help.
 
 ## SDMXParser
 Parse the SDMX file and represent the observations in RDF using DataCube vocabulary.
 
-How to Run : `SDMXParser.bat -f tsieb010 -o c:/test/ -i c:/tempZip/act.sdmx.xml`
+How to Run on Windows: `SDMXParser.bat -f tsieb010 -o c:/test/ -i c:/tempZip/act.sdmx.xml`
+
+How to Run on Linux: `sh SDMXParser.sh -f tsieb010 -o c:/test/ -i c:/tempZip/act.sdmx.xml`
 
 Type `-h` for help.
 
