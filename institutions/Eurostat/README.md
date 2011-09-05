@@ -76,9 +76,9 @@ Here is an examplary quert that joins two SDMX datasets:
 	sdmx-measure:obsValue ?wateruse.
 	} GROUP BY ?nuts2 ?wateruse ORDER BY DESC(?percapita)
 
-The query above uses dataset ‘demo_r_pjanaggr3’, which contains ‘Population by sex and age groups on 1 January - NUTS level 3 regions.’ We need populations for NUTS level 2 and we therefore aggregate the dataset by using the NUTS vocabulary to find the parent regions.
+The query above uses dataset `demo_r_pjanaggr3`, which contains `Population by sex and age groups on 1 January - NUTS level 3 regions`. We need populations for NUTS level 2 and we therefore aggregate the dataset by using the NUTS vocabulary to find the parent regions.
 
-We only want data for 2007, and both sexes. We then join the data with the ‘env_n2_wu’ dataset, which contains ‘Water use (NUTS2) - mio m3.’ We can then find the regions with the most domestic water (code W18_2_7_2) use per million inhabitants.
+We only want data for 2007, and both sexes. We then join the data with the `env_n2_wu` dataset, which contains `Water use (NUTS2) - mio m3`. We can then find the regions with the most domestic water (code W18_2_7_2) use per million inhabitants.
 
 ## License
 
