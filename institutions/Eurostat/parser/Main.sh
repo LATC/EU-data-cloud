@@ -1,16 +1,17 @@
 #!/bin/bash
 startTime=$(date)
+
 #directory path where all the zip files are stored
-FILES=~/downloadZip/zip/*
+FILES=/data/eurostat/original-data/*
 
 #directory path where the uncompressed file should be stored
-unCompressPath=~/downloadZip/UnCompress/
+unCompressPath=/data/eurostat/raw-data/
 
 #directory path where dsd (RDFs) will be stored
-dsdPath=~/downloadZip/dsd/
+dsdPath=/data/eurostat/dsd/
 
 #directory path where sdmx (RDFs) will be stored
-dataPath=~/downloadZip/data/
+dataPath=/data/eurostat/data/
 
 i=1
 for f in $FILES
