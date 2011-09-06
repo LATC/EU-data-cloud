@@ -2,7 +2,7 @@
 set EuroStat=%~p0
 set CP="%EuroStat%build"
 call :findjars "%EuroStat%lib"
-java -cp %CP% -Xmx256M com.ontologycentral.estatwrap.SDMXParser %*
+java -cp %CP% -Xmx1024M com.ontologycentral.estatwrap.SDMXParser %*
 
 :findjars
 for %%j in (%1\*.jar) do call :addjar "%%j"
