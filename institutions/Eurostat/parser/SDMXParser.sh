@@ -1,2 +1,2 @@
 #!/bin/bash
-java -cp "./build:./lib/*" -Xmx1024M com.ontologycentral.estatwrap.SDMXParser "$@"
+java -cp "./build:./lib/*" -Xmx2G com.ontologycentral.estatwrap.SDMXParser "$@"
