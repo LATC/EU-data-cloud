@@ -17,7 +17,7 @@ i=1
 for f in $FILES
 do
   echo "UnCompressing file#$i ... filename is $f"
-  sh UnCompressFile.sh -p $unCompressPath -u $f
+  sh UnCompressFile.sh -i $f -o $unCompressPath
   i=`expr $i + 1`
 done
 
@@ -40,5 +40,5 @@ do
    fi
  fi
 done
-echo "RDFication started at $startTime"
-echo "RDFication finished at $(date)"
+echo "Shell script started the job at $startTime"
+echo "Shell script finished the job at $(date)"
