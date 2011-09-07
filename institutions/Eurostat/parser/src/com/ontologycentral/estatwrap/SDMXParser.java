@@ -1,6 +1,8 @@
 package com.ontologycentral.estatwrap;
 
 import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -11,15 +13,21 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.Calendar;
+import java.util.Iterator;
 import java.util.Map;
 import java.util.logging.Logger;
 import java.util.zip.GZIPInputStream;
 
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.stream.XMLEventReader;
+import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLOutputFactory;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamWriter;
+import javax.xml.stream.events.Attribute;
+import javax.xml.stream.events.StartElement;
+import javax.xml.stream.events.XMLEvent;
 import javax.xml.xpath.XPathFactory;
 
 import org.apache.commons.cli.BasicParser;
@@ -44,7 +52,7 @@ public class SDMXParser {
 	}
 	
 	public SDMXParser(){}
-	
+/*	
 	private void initObjects(String filePath){        
         try {
         	//System.out.println(xmlFilePath);
@@ -60,7 +68,7 @@ public class SDMXParser {
             ex.printStackTrace();
         }       
     }
-	
+*/	
 	public void downLoadTSV(String id, String sdmxFilePath) throws Exception
 	{
 		
@@ -97,7 +105,7 @@ public class SDMXParser {
 			XMLStreamWriter ch = factory.createXMLStreamWriter(os, "utf-8");
 
 			String freq = get_FREQ_fromSDMX(sdmxFilePath);
-			
+			//String freq = "";
 			DataPage.convert(ch, id, in, freq);
 
 			ch.close();
@@ -118,7 +126,7 @@ public class SDMXParser {
 		os.close();
 
 	}
-	
+/*	
 	public String parseSDMX()
 	{
 		Element element = xmlDocument.getDocumentElement();
@@ -134,13 +142,53 @@ public class SDMXParser {
 		
 		return freq;
 	}
-	
+*/	
 	public String get_FREQ_fromSDMX(String sdmxFilePath)
 	{
 		String freq = "";
-		
-		initObjects(sdmxFilePath);
-		freq = parseSDMX();
+		int counter = 0;
+		try {
+			XMLInputFactory inputFactory = XMLInputFactory.newInstance();
+			InputStream in = new FileInputStream(sdmxFilePath);
+			XMLEventReader eventReader = inputFactory.createXMLEventReader(in);
+			
+			while (eventReader.hasNext()) 
+			{
+				XMLEvent event = eventReader.nextEvent();
+				if (event.isStartElement()) 
+				{
+					StartElement startElement = event.asStartElement();
+					// if the element is starting with <data:Series
+					if (startElement.getName().getLocalPart() == "Series") 
+					{
+						counter += 1;
+						Iterator<Attribute> attributes = startElement.getAttributes();
+						while (attributes.hasNext()) 
+						{
+							Attribute attribute = attributes.next();
+							// if it has a FREQ attribute
+							if (attribute.getName().toString().equals("FREQ")) 
+							{
+								//System.out.println(attribute.getValue());
+								freq = attribute.getValue();
+								break;
+							}
+						}
+					}
+					// if freq is found or in 10 observations we didnt find the FREQ attribute than 
+					// break the loop in order to avoid reading whole XML file.
+					if(!freq.equals("") || counter >= 10)
+						break;
+				}
+			}
+			
+		}catch (FileNotFoundException e) {
+			e.printStackTrace();
+			System.out.println(e.getMessage());
+		} catch (XMLStreamException e) {
+			e.printStackTrace();
+			System.out.println(e.getMessage());
+		}
 		
 		return freq;
 	}

@@ -126,7 +126,7 @@ public class ParseToC {
 		
 		for(String str:lstDatasetURLs)
 		{
-//			if(count++ == 10)
+//			if(count++ == 50)
 //				break;
 			
 			//System.out.println("UnCompressing :" + str);

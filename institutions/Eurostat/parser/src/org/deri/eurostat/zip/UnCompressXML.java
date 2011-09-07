@@ -5,6 +5,8 @@ import java.util.*;
 import java.util.zip.*;
 import java.io.*;
 
+import javax.swing.filechooser.FileSystemView;
+
 import org.deri.eurostat.Main;
 import org.deri.eurostat.dsdparser.DSDParser;
 import com.ontologycentral.estatwrap.SDMXParser;
@@ -99,6 +101,7 @@ public class UnCompressXML {
 	        	}
 		}catch(Exception e) {
 				e.printStackTrace();
+				System.out.println("error while uncompressing : " + file);
 		}
 	}
 	
@@ -180,8 +183,13 @@ public class UnCompressXML {
 			tmpZipPath = outputpath;
 			UnCompressXML obj = new UnCompressXML();
 			obj.parseZipFile(filepath,tmpZipPath);
+//			File dir = new File(filepath);
+//			File[] file = dir.listFiles();
+//			
+//			for(File f:file)
+//				obj.parseZipFile(f.getAbsolutePath(),tmpZipPath);
 		}
-		
+		//old Run Configurations : -i c:/tempZip/bsbu_m.sdmx.zip -o c:/tempZip/
 	
 	}
 	
