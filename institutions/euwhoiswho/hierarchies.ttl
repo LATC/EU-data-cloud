@@ -1,0 +1,849 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix msg0: <http://www.w3.org/ns/org#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ov: <http://open.vocab.org/terms/> .
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Parliament> rdf:type msg0:FormalOrganization ;
+                                                                       rdfs:label "European Parliament"@en-gb ;
+                                                                       foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=11&> ;
+                                                                       owl:sameAs <http://institutions.publicdata.eu/#ep> ;
+                                                                       ov:postalAddress "" ;
+                                                                       msg0:hasSubOrganization <http://euwhoiswho.dataincubator.org/institutions/European_Parliament/Members_Of_The_European_Parliament_%28MEPs%29> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Parliament/Secretariat> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Parliament/Political_Group_Secretariats> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Parliament/Members_Of_The_European_Parliament_%28MEPs%29> rdf:type msg0:FormalOrganization ;
+                                                                                                                     rdfs:label "Members of the European Parliament (MEPs)"@en-gb ;
+                                                                                                                     foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=10505> ;
+                                                                                                                     msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Parliament> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Parliament/Secretariat> rdf:type msg0:FormalOrganization ;
+                                                                                   rdfs:label "Secretariat"@en-gb ;
+                                                                                   foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=283> ;
+                                                                                   msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Parliament> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Parliament/Political_Group_Secretariats> rdf:type msg0:FormalOrganization ;
+                                                                                                    rdfs:label "Political Group Secretariats"@en-gb ;
+                                                                                                    foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=1062> ;
+                                                                                                    msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Parliament> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Council> rdf:type msg0:FormalOrganization ;
+                                                                    rdfs:label "European Council"@en-gb ;
+                                                                    foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=252715&> ;
+                                                                    ov:phoneNumber "+32 2281-6111" ;
+                                                                    ov:faxNumber "+32 2281-6934" ;
+                                                                    foaf:homepage <http://www.european-council.europa.eu> ;
+                                                                    ov:postalAddress """Rue de la Loi 175
+1048 Belgique""" ;
+                                                                    msg0:hasSubOrganization <http://euwhoiswho.dataincubator.org/institutions/European_Council/President> ,
+                                                                                            <http://euwhoiswho.dataincubator.org/institutions/European_Council/Members> ,
+                                                                                            <http://euwhoiswho.dataincubator.org/institutions/European_Council/Cabinet_Of_The_President> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Council/President> rdf:type msg0:FormalOrganization ;
+                                                                              rdfs:label "President"@en-gb ;
+                                                                              foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=253680> ;
+                                                                              msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Council> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Council/Members> rdf:type msg0:FormalOrganization ;
+                                                                            rdfs:label "Members"@en-gb ;
+                                                                            foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=264075> ;
+                                                                            msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Council> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Council/Cabinet_Of_The_President> rdf:type msg0:FormalOrganization ;
+                                                                                             rdfs:label "Cabinet of the President"@en-gb ;
+                                                                                             foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=253682> ;
+                                                                                             msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Council> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/Council_Of_The_European_Union> rdf:type msg0:FormalOrganization ;
+                                                                                 rdfs:label "Council of the European Union"@en-gb ;
+                                                                                 foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=12&> ;
+                                                                                 owl:sameAs <http://institutions.publicdata.eu/#council> ;
+                                                                                 ov:postalAddress "" ;
+                                                                                 msg0:hasSubOrganization <http://euwhoiswho.dataincubator.org/institutions/Council_Of_The_European_Union/Representatives_Of_The_Governments_Of_The_Member_States_Who_Regularly_Take_Part_In_Council_Meetings> ,
+                                                                                                         <http://euwhoiswho.dataincubator.org/institutions/Council_Of_The_European_Union/Permanent_Representatives_Committee> ,
+                                                                                                         <http://euwhoiswho.dataincubator.org/institutions/Council_Of_The_European_Union/General_Secretariat_Of_The_Council_Of_The_European_Union> ,
+                                                                                                         <http://euwhoiswho.dataincubator.org/institutions/Council_Of_The_European_Union/Association_Councils> ,
+                                                                                                         <http://euwhoiswho.dataincubator.org/institutions/Council_Of_The_European_Union/Cooperation_Councils> ,
+                                                                                                         <http://euwhoiswho.dataincubator.org/institutions/Council_Of_The_European_Union/Council_Of_Ministers_Of_The_African%2C_Caribbean_And_Pacific_%28ACP%29_States_%C2%80%93_European_Union> ,
+                                                                                                         <http://euwhoiswho.dataincubator.org/institutions/Council_Of_The_European_Union/Committee_Of_Senior_Officials_On_Scientific_And_Technical_Research_%28COST%29> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/Council_Of_The_European_Union/Representatives_Of_The_Governments_Of_The_Member_States_Who_Regularly_Take_Part_In_Council_Meetings> rdf:type msg0:FormalOrganization ;
+                                                                                                                                                                                     rdfs:label "Representatives of the Governments of the Member States who regularly take part in Council meetings"@en-gb ;
+                                                                                                                                                                                     foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=3540> ;
+                                                                                                                                                                                     msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/Council_Of_The_European_Union> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/Council_Of_The_European_Union/Permanent_Representatives_Committee> rdf:type msg0:FormalOrganization ;
+                                                                                                                     rdfs:label "Permanent Representatives Committee"@en-gb ;
+                                                                                                                     foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=3760> ;
+                                                                                                                     msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/Council_Of_The_European_Union> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/Council_Of_The_European_Union/General_Secretariat_Of_The_Council_Of_The_European_Union> rdf:type msg0:FormalOrganization ;
+                                                                                                                                          rdfs:label "General Secretariat of the Council of the European Union"@en-gb ;
+                                                                                                                                          foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=4553> ;
+                                                                                                                                          msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/Council_Of_The_European_Union> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/Council_Of_The_European_Union/Association_Councils> rdf:type msg0:FormalOrganization ;
+                                                                                                      rdfs:label "Association Councils"@en-gb ;
+                                                                                                      foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=4604> ;
+                                                                                                      msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/Council_Of_The_European_Union> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/Council_Of_The_European_Union/Cooperation_Councils> rdf:type msg0:FormalOrganization ;
+                                                                                                      rdfs:label "Cooperation Councils"@en-gb ;
+                                                                                                      foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=4614> ;
+                                                                                                      msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/Council_Of_The_European_Union> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/Council_Of_The_European_Union/Council_Of_Ministers_Of_The_African%2C_Caribbean_And_Pacific_%28ACP%29_States_%C2%80%93_European_Union> rdf:type msg0:FormalOrganization ;
+                                                                                                                                                                                        rdfs:label "Council of Ministers of the African, Caribbean and Pacific (ACP) States – European Union"@en-gb ;
+                                                                                                                                                                                        foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=5112> ;
+                                                                                                                                                                                        msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/Council_Of_The_European_Union> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/Council_Of_The_European_Union/Committee_Of_Senior_Officials_On_Scientific_And_Technical_Research_%28COST%29> rdf:type msg0:FormalOrganization ;
+                                                                                                                                                               rdfs:label "Committee of Senior Officials on Scientific and Technical Research (COST)"@en-gb ;
+                                                                                                                                                               foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=4756> ;
+                                                                                                                                                               msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/Council_Of_The_European_Union> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission> rdf:type msg0:FormalOrganization ;
+                                                                       rdfs:label "European Commission"@en-gb ;
+                                                                       foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=10&> ;
+                                                                       owl:sameAs <http://institutions.publicdata.eu/#ec> ;
+                                                                       ov:phoneNumber "+32 229-91111 (standard)" ;
+                                                                       ov:faxNumber "+32 229 + extension" ;
+                                                                       foaf:homepage <http://europa.eu/> ;
+                                                                       ov:postalAddress """Rue de la Loi 200
+1049 Bruxelles/Brussel
+Belgique/België""" ;
+                                                                       msg0:hasSubOrganization <http://euwhoiswho.dataincubator.org/institutions/European_Commission/College> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Cabinets_Of_Members_Of_The_Commission> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Secretariat-General> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Legal_Service> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Communication_DG> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Bureau_Of_European_Policy_Advisers> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Economic_And_Financial_Affairs_DG> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Enterprise_And_Industry_DG> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Competition_DG> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Employment%2C_Social_Affairs_And_Inclusion_DG> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Agriculture_And_Rural_Development_DG> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Energy_DG> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Mobility_And_Transport_DG> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Climate_Action_DG> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Environment_DG> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Research_And_Innovation_DG> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Joint_Research_Centre_%28JRC%29> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Information_Society_And_Media_DG> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Maritime_Affairs_And_Fisheries_DG> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Internal_Market_And_Services_DG> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Regional_Policy_DG> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Taxation_And_Customs_Union_DG> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Education_And_Culture_DG> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Health_And_Consumers_DG> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Home_Affairs_DG> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Justice_DG> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Service_For_Foreign_Policy_Instruments> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Trade_DG> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Enlargement_DG> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Development_And_Cooperation_DG_-_EuropeAid> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Humanitarian_Aid_And_Civil_Protection_DG_%28ECHO%29> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Eurostat> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Human_Resources_And_Security_DG> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Informatics_DG> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Budget_DG> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Internal_Audit_Service> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/European_Anti-Fraud_Office> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Interpretation_DG> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Translation_DG> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Publications_Office_%28OP%29> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Office_For_Infrastructure_And_Logistics_In_Brussels_%28OIB%29> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Office_For_The_Administration_And_Payment_Of_Individual_Entitlements_%28PMO%29> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/Office_For_Infrastructure_And_Logistics_-_Luxembourg_%28OIL%29> ,
+                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Commission/European_Personnel_Selection_Office_%28EPSO%29> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/College> rdf:type msg0:FormalOrganization ;
+                                                                               rdfs:label "College"@en-gb ;
+                                                                               foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=275347> ;
+                                                                               msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Cabinets_Of_Members_Of_The_Commission> rdf:type msg0:FormalOrganization ;
+                                                                                                             rdfs:label "Cabinets of Members of the Commission"@en-gb ;
+                                                                                                             foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=275348> ;
+                                                                                                             msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Secretariat-General> rdf:type msg0:FormalOrganization ;
+                                                                                           rdfs:label "Secretariat-General"@en-gb ;
+                                                                                           foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=1166> ;
+                                                                                           msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Legal_Service> rdf:type msg0:FormalOrganization ;
+                                                                                     rdfs:label "Legal Service"@en-gb ;
+                                                                                     foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=1261> ;
+                                                                                     msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Communication_DG> rdf:type msg0:FormalOrganization ;
+                                                                                        rdfs:label "Communication DG"@en-gb ;
+                                                                                        foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=9250> ;
+                                                                                        msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Bureau_Of_European_Policy_Advisers> rdf:type msg0:FormalOrganization ;
+                                                                                                          rdfs:label "Bureau of European Policy Advisers"@en-gb ;
+                                                                                                          foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=85509> ;
+                                                                                                          msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Economic_And_Financial_Affairs_DG> rdf:type msg0:FormalOrganization ;
+                                                                                                         rdfs:label "Economic and Financial Affairs DG"@en-gb ;
+                                                                                                         foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=1783> ;
+                                                                                                         msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Enterprise_And_Industry_DG> rdf:type msg0:FormalOrganization ;
+                                                                                                  rdfs:label "Enterprise and Industry DG"@en-gb ;
+                                                                                                  foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=987> ;
+                                                                                                  msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Competition_DG> rdf:type msg0:FormalOrganization ;
+                                                                                      rdfs:label "Competition DG"@en-gb ;
+                                                                                      foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=1984> ;
+                                                                                      msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Employment%2C_Social_Affairs_And_Inclusion_DG> rdf:type msg0:FormalOrganization ;
+                                                                                                                     rdfs:label "Employment, Social Affairs and Inclusion DG"@en-gb ;
+                                                                                                                     foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=2047> ;
+                                                                                                                     msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Agriculture_And_Rural_Development_DG> rdf:type msg0:FormalOrganization ;
+                                                                                                            rdfs:label "Agriculture and Rural Development DG"@en-gb ;
+                                                                                                            foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=2065> ;
+                                                                                                            msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Energy_DG> rdf:type msg0:FormalOrganization ;
+                                                                                 rdfs:label "Energy DG"@en-gb ;
+                                                                                 foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=253334> ;
+                                                                                 msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Mobility_And_Transport_DG> rdf:type msg0:FormalOrganization ;
+                                                                                                 rdfs:label "Mobility and Transport DG"@en-gb ;
+                                                                                                 foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=2183> ;
+                                                                                                 msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Climate_Action_DG> rdf:type msg0:FormalOrganization ;
+                                                                                         rdfs:label "Climate Action DG"@en-gb ;
+                                                                                         foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=16200> ;
+                                                                                         msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Environment_DG> rdf:type msg0:FormalOrganization ;
+                                                                                      rdfs:label "Environment DG"@en-gb ;
+                                                                                      foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=8163> ;
+                                                                                      msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Research_And_Innovation_DG> rdf:type msg0:FormalOrganization ;
+                                                                                                  rdfs:label "Research and Innovation DG"@en-gb ;
+                                                                                                  foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=2435> ;
+                                                                                                  msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Joint_Research_Centre_%28JRC%29> rdf:type msg0:FormalOrganization ;
+                                                                                                       rdfs:label "Joint Research Centre (JRC)"@en-gb ;
+                                                                                                       foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=9118> ;
+                                                                                                       msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Information_Society_And_Media_DG> rdf:type msg0:FormalOrganization ;
+                                                                                                        rdfs:label "Information Society and Media DG"@en-gb ;
+                                                                                                        foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=2711> ;
+                                                                                                        msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Maritime_Affairs_And_Fisheries_DG> rdf:type msg0:FormalOrganization ;
+                                                                                                         rdfs:label "Maritime Affairs and Fisheries DG"@en-gb ;
+                                                                                                         foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=2825> ;
+                                                                                                         msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Internal_Market_And_Services_DG> rdf:type msg0:FormalOrganization ;
+                                                                                                       rdfs:label "Internal Market and Services DG"@en-gb ;
+                                                                                                       foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=2860> ;
+                                                                                                       msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Regional_Policy_DG> rdf:type msg0:FormalOrganization ;
+                                                                                          rdfs:label "Regional Policy DG"@en-gb ;
+                                                                                          foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=2896> ;
+                                                                                          msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Taxation_And_Customs_Union_DG> rdf:type msg0:FormalOrganization ;
+                                                                                                     rdfs:label "Taxation and Customs Union DG"@en-gb ;
+                                                                                                     foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=3146> ;
+                                                                                                     msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Education_And_Culture_DG> rdf:type msg0:FormalOrganization ;
+                                                                                                rdfs:label "Education and Culture DG"@en-gb ;
+                                                                                                foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=3226> ;
+                                                                                                msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Health_And_Consumers_DG> rdf:type msg0:FormalOrganization ;
+                                                                                               rdfs:label "Health and Consumers DG"@en-gb ;
+                                                                                               foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=3213> ;
+                                                                                               msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Home_Affairs_DG> rdf:type msg0:FormalOrganization ;
+                                                                                       rdfs:label "Home Affairs DG"@en-gb ;
+                                                                                       foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=988> ;
+                                                                                       msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Justice_DG> rdf:type msg0:FormalOrganization ;
+                                                                                  rdfs:label "Justice DG"@en-gb ;
+                                                                                  foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=254394> ;
+                                                                                  msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Service_For_Foreign_Policy_Instruments> rdf:type msg0:FormalOrganization ;
+                                                                                                              rdfs:label "Service for Foreign Policy Instruments"@en-gb ;
+                                                                                                              foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=187518> ;
+                                                                                                              msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Trade_DG> rdf:type msg0:FormalOrganization ;
+                                                                                rdfs:label "Trade DG"@en-gb ;
+                                                                                foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=1006> ;
+                                                                                msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Enlargement_DG> rdf:type msg0:FormalOrganization ;
+                                                                                      rdfs:label "Enlargement DG"@en-gb ;
+                                                                                      foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=10497> ;
+                                                                                      msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Development_And_Cooperation_DG_-_EuropeAid> rdf:type msg0:FormalOrganization ;
+                                                                                                                  rdfs:label "Development and Cooperation DG - EuropeAid"@en-gb ;
+                                                                                                                  foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=10495> ;
+                                                                                                                  msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Humanitarian_Aid_And_Civil_Protection_DG_%28ECHO%29> rdf:type msg0:FormalOrganization ;
+                                                                                                                           rdfs:label "Humanitarian Aid and Civil Protection DG (ECHO)"@en-gb ;
+                                                                                                                           foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=3233> ;
+                                                                                                                           msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Eurostat> rdf:type msg0:FormalOrganization ;
+                                                                                rdfs:label "Eurostat"@en-gb ;
+                                                                                foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=1327> ;
+                                                                                msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Human_Resources_And_Security_DG> rdf:type msg0:FormalOrganization ;
+                                                                                                       rdfs:label "Human Resources and Security DG"@en-gb ;
+                                                                                                       foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=2336> ;
+                                                                                                       msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Informatics_DG> rdf:type msg0:FormalOrganization ;
+                                                                                      rdfs:label "Informatics DG"@en-gb ;
+                                                                                      foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=1560> ;
+                                                                                      msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Budget_DG> rdf:type msg0:FormalOrganization ;
+                                                                                 rdfs:label "Budget DG"@en-gb ;
+                                                                                 foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=3046> ;
+                                                                                 msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Internal_Audit_Service> rdf:type msg0:FormalOrganization ;
+                                                                                              rdfs:label "Internal Audit Service"@en-gb ;
+                                                                                              foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=88601> ;
+                                                                                              msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/European_Anti-Fraud_Office> rdf:type msg0:FormalOrganization ;
+                                                                                                  rdfs:label "European Anti-Fraud Office"@en-gb ;
+                                                                                                  foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=1231> ;
+                                                                                                  msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Interpretation_DG> rdf:type msg0:FormalOrganization ;
+                                                                                         rdfs:label "Interpretation DG"@en-gb ;
+                                                                                         foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=1281> ;
+                                                                                         msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Translation_DG> rdf:type msg0:FormalOrganization ;
+                                                                                      rdfs:label "Translation DG"@en-gb ;
+                                                                                      foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=1405> ;
+                                                                                      msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Publications_Office_%28OP%29> rdf:type msg0:FormalOrganization ;
+                                                                                                    rdfs:label "Publications Office (OP)"@en-gb ;
+                                                                                                    foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=3251> ;
+                                                                                                    msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Office_For_Infrastructure_And_Logistics_In_Brussels_%28OIB%29> rdf:type msg0:FormalOrganization ;
+                                                                                                                                     rdfs:label "Office for Infrastructure and Logistics in Brussels (OIB)"@en-gb ;
+                                                                                                                                     foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=142885> ;
+                                                                                                                                     msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Office_For_The_Administration_And_Payment_Of_Individual_Entitlements_%28PMO%29> rdf:type msg0:FormalOrganization ;
+                                                                                                                                                      rdfs:label "Office for the administration and payment of individual entitlements (PMO)"@en-gb ;
+                                                                                                                                                      foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=142904> ;
+                                                                                                                                                      msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/Office_For_Infrastructure_And_Logistics_-_Luxembourg_%28OIL%29> rdf:type msg0:FormalOrganization ;
+                                                                                                                                      rdfs:label "Office for Infrastructure and Logistics - Luxembourg (OIL)"@en-gb ;
+                                                                                                                                      foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=142901> ;
+                                                                                                                                      msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Commission/European_Personnel_Selection_Office_%28EPSO%29> rdf:type msg0:FormalOrganization ;
+                                                                                                                      rdfs:label "European Personnel Selection Office (EPSO)"@en-gb ;
+                                                                                                                      foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=142914> ;
+                                                                                                                      msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Commission> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank> rdf:type msg0:FormalOrganization ;
+                                                                         rdfs:label "European Central Bank"@en-gb ;
+                                                                         foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=50859&> ;
+                                                                         owl:sameAs <http://institutions.publicdata.eu/#ecb> ;
+                                                                         ov:postalAddress "" ;
+                                                                         msg0:hasSubOrganization <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/European_Central_Bank> ,
+                                                                                                 <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Executive_Board> ,
+                                                                                                 <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Governing_Council> ,
+                                                                                                 <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/General_Council> ,
+                                                                                                 <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_General_Administration> ,
+                                                                                                 <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_Banknotes> ,
+                                                                                                 <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_Communications> ,
+                                                                                                 <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Counsel_To_The_Executive_Board> ,
+                                                                                                 <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/ECB_Representation_In_Washington%2C_D.C.> ,
+                                                                                                 <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_General_Economics> ,
+                                                                                                 <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/ESRB_Secretariat> ,
+                                                                                                 <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_General_Financial_Stability> ,
+                                                                                                 <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_General_HR%2C_Budget_And_Organisation> ,
+                                                                                                 <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_General_Information_Systems> ,
+                                                                                                 <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_Internal_Audit> ,
+                                                                                                 <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_General_International_And_European_Relations> ,
+                                                                                                 <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_General_Legal_Services> ,
+                                                                                                 <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_General_Market_Operations> ,
+                                                                                                 <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_General_Payments_And_Market_Infrastructure> ,
+                                                                                                 <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_General_Research> ,
+                                                                                                 <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_General_Secretariat_And_Language_Services> ,
+                                                                                                 <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_General_Statistics> ,
+                                                                                                 <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Risk_Management_Office> ,
+                                                                                                 <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/T2S_Programme> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/European_Central_Bank> rdf:type msg0:FormalOrganization ;
+                                                                                               rdfs:label "European Central Bank"@en-gb ;
+                                                                                               foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=21> ;
+                                                                                               owl:sameAs <http://institutions.publicdata.eu/#ecb> ;
+                                                                                               msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Executive_Board> rdf:type msg0:FormalOrganization ;
+                                                                                         rdfs:label "Executive Board"@en-gb ;
+                                                                                         foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=220446> ;
+                                                                                         msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Governing_Council> rdf:type msg0:FormalOrganization ;
+                                                                                           rdfs:label "Governing Council"@en-gb ;
+                                                                                           foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=210498> ;
+                                                                                           msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/General_Council> rdf:type msg0:FormalOrganization ;
+                                                                                         rdfs:label "General Council"@en-gb ;
+                                                                                         foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=210559> ;
+                                                                                         msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_General_Administration> rdf:type msg0:FormalOrganization ;
+                                                                                                            rdfs:label "Directorate General Administration"@en-gb ;
+                                                                                                            foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=1176> ;
+                                                                                                            msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_Banknotes> rdf:type msg0:FormalOrganization ;
+                                                                                               rdfs:label "Directorate Banknotes"@en-gb ;
+                                                                                               foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=10954> ;
+                                                                                               msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_Communications> rdf:type msg0:FormalOrganization ;
+                                                                                                    rdfs:label "Directorate Communications"@en-gb ;
+                                                                                                    foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=826> ;
+                                                                                                    msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Counsel_To_The_Executive_Board> rdf:type msg0:FormalOrganization ;
+                                                                                                        rdfs:label "Counsel to the Executive Board"@en-gb ;
+                                                                                                        foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=1135> ;
+                                                                                                        msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/ECB_Representation_In_Washington%2C_D.C.> rdf:type msg0:FormalOrganization ;
+                                                                                                                  rdfs:label "ECB Representation in Washington, D.C."@en-gb ;
+                                                                                                                  foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=51284> ;
+                                                                                                                  msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_General_Economics> rdf:type msg0:FormalOrganization ;
+                                                                                                       rdfs:label "Directorate General Economics"@en-gb ;
+                                                                                                       foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=11147> ;
+                                                                                                       msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/ESRB_Secretariat> rdf:type msg0:FormalOrganization ;
+                                                                                          rdfs:label "ESRB Secretariat"@en-gb ;
+                                                                                          foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=271178> ;
+                                                                                          msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_General_Financial_Stability> rdf:type msg0:FormalOrganization ;
+                                                                                                                 rdfs:label "Directorate General Financial Stability"@en-gb ;
+                                                                                                                 foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=187096> ;
+                                                                                                                 msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_General_HR%2C_Budget_And_Organisation> rdf:type msg0:FormalOrganization ;
+                                                                                                                           rdfs:label "Directorate General HR, Budget and Organisation"@en-gb ;
+                                                                                                                           foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=187093> ;
+                                                                                                                           msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_General_Information_Systems> rdf:type msg0:FormalOrganization ;
+                                                                                                                 rdfs:label "Directorate General Information Systems"@en-gb ;
+                                                                                                                 foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=187099> ;
+                                                                                                                 msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_Internal_Audit> rdf:type msg0:FormalOrganization ;
+                                                                                                    rdfs:label "Directorate Internal Audit"@en-gb ;
+                                                                                                    foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=1134> ;
+                                                                                                    msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_General_International_And_European_Relations> rdf:type msg0:FormalOrganization ;
+                                                                                                                                  rdfs:label "Directorate General International and European Relations"@en-gb ;
+                                                                                                                                  foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=11161> ;
+                                                                                                                                  msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_General_Legal_Services> rdf:type msg0:FormalOrganization ;
+                                                                                                            rdfs:label "Directorate General Legal Services"@en-gb ;
+                                                                                                            foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=1250> ;
+                                                                                                            msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_General_Market_Operations> rdf:type msg0:FormalOrganization ;
+                                                                                                               rdfs:label "Directorate General Market Operations"@en-gb ;
+                                                                                                               foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=187107> ;
+                                                                                                               msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_General_Payments_And_Market_Infrastructure> rdf:type msg0:FormalOrganization ;
+                                                                                                                                rdfs:label "Directorate General Payments and Market Infrastructure"@en-gb ;
+                                                                                                                                foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=187130> ;
+                                                                                                                                msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_General_Research> rdf:type msg0:FormalOrganization ;
+                                                                                                      rdfs:label "Directorate General Research"@en-gb ;
+                                                                                                      foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=187137> ;
+                                                                                                      msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_General_Secretariat_And_Language_Services> rdf:type msg0:FormalOrganization ;
+                                                                                                                               rdfs:label "Directorate General Secretariat and Language Services"@en-gb ;
+                                                                                                                               foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=187141> ;
+                                                                                                                               msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Directorate_General_Statistics> rdf:type msg0:FormalOrganization ;
+                                                                                                        rdfs:label "Directorate General Statistics"@en-gb ;
+                                                                                                        foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=187146> ;
+                                                                                                        msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/Risk_Management_Office> rdf:type msg0:FormalOrganization ;
+                                                                                                rdfs:label "Risk Management Office"@en-gb ;
+                                                                                                foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=220503> ;
+                                                                                                msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank/T2S_Programme> rdf:type msg0:FormalOrganization ;
+                                                                                       rdfs:label "T2S Programme"@en-gb ;
+                                                                                       foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=254312> ;
+                                                                                       msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Central_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/Court_Of_Justice_Of_The_European_Union> rdf:type msg0:FormalOrganization ;
+                                                                                          rdfs:label "Court of Justice of the European Union"@en-gb ;
+                                                                                          foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=13&> ;
+                                                                                          ov:postalAddress "" ;
+                                                                                          msg0:hasSubOrganization <http://euwhoiswho.dataincubator.org/institutions/Court_Of_Justice_Of_The_European_Union/Court_Of_Justice> ,
+                                                                                                                  <http://euwhoiswho.dataincubator.org/institutions/Court_Of_Justice_Of_The_European_Union/General_Court> ,
+                                                                                                                  <http://euwhoiswho.dataincubator.org/institutions/Court_Of_Justice_Of_The_European_Union/Civil_Service_Tribunal> ,
+                                                                                                                  <http://euwhoiswho.dataincubator.org/institutions/Court_Of_Justice_Of_The_European_Union/Departments_Of_The_Court> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/Court_Of_Justice_Of_The_European_Union/Court_Of_Justice> rdf:type msg0:FormalOrganization ;
+                                                                                                           rdfs:label "Court of Justice"@en-gb ;
+                                                                                                           foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=5288> ;
+                                                                                                           owl:sameAs <http://institutions.publicdata.eu/#jcourt> ;
+                                                                                                           msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/Court_Of_Justice_Of_The_European_Union> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/Court_Of_Justice_Of_The_European_Union/General_Court> rdf:type msg0:FormalOrganization ;
+                                                                                                        rdfs:label "General Court"@en-gb ;
+                                                                                                        foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=5289> ;
+                                                                                                        msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/Court_Of_Justice_Of_The_European_Union> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/Court_Of_Justice_Of_The_European_Union/Civil_Service_Tribunal> rdf:type msg0:FormalOrganization ;
+                                                                                                                 rdfs:label "Civil Service Tribunal"@en-gb ;
+                                                                                                                 foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=197206> ;
+                                                                                                                 msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/Court_Of_Justice_Of_The_European_Union> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/Court_Of_Justice_Of_The_European_Union/Departments_Of_The_Court> rdf:type msg0:FormalOrganization ;
+                                                                                                                   rdfs:label "Departments of the Court"@en-gb ;
+                                                                                                                   foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=16548> ;
+                                                                                                                   msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/Court_Of_Justice_Of_The_European_Union> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Court_Of_Auditors> rdf:type msg0:FormalOrganization ;
+                                                                              rdfs:label "European Court of Auditors"@en-gb ;
+                                                                              foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=15&> ;
+                                                                              ov:postalAddress "" ;
+                                                                              msg0:hasSubOrganization <http://euwhoiswho.dataincubator.org/institutions/European_Court_Of_Auditors/Court_Of_Auditors> ,
+                                                                                                      <http://euwhoiswho.dataincubator.org/institutions/European_Court_Of_Auditors/Presidency> ,
+                                                                                                      <http://euwhoiswho.dataincubator.org/institutions/European_Court_Of_Auditors/Chambers> ,
+                                                                                                      <http://euwhoiswho.dataincubator.org/institutions/European_Court_Of_Auditors/Administrative_Committee> ,
+                                                                                                      <http://euwhoiswho.dataincubator.org/institutions/European_Court_Of_Auditors/Secretariat-General> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Court_Of_Auditors/Court_Of_Auditors> rdf:type msg0:FormalOrganization ;
+                                                                                                rdfs:label "Court of Auditors"@en-gb ;
+                                                                                                foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=7662> ;
+                                                                                                owl:sameAs <http://institutions.publicdata.eu/#acourt> ;
+                                                                                                msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Court_Of_Auditors> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Court_Of_Auditors/Presidency> rdf:type msg0:FormalOrganization ;
+                                                                                         rdfs:label "Presidency"@en-gb ;
+                                                                                         foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=7667> ;
+                                                                                         msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Court_Of_Auditors> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Court_Of_Auditors/Chambers> rdf:type msg0:FormalOrganization ;
+                                                                                       rdfs:label "Chambers"@en-gb ;
+                                                                                       foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=62808> ;
+                                                                                       msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Court_Of_Auditors> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Court_Of_Auditors/Administrative_Committee> rdf:type msg0:FormalOrganization ;
+                                                                                                       rdfs:label "Administrative committee"@en-gb ;
+                                                                                                       foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=187725> ;
+                                                                                                       msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Court_Of_Auditors> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Court_Of_Auditors/Secretariat-General> rdf:type msg0:FormalOrganization ;
+                                                                                                  rdfs:label "Secretariat-General"@en-gb ;
+                                                                                                  foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=7668> ;
+                                                                                                  msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Court_Of_Auditors> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_External_Action_Service> rdf:type msg0:FormalOrganization ;
+                                                                                    rdfs:label "European External Action Service"@en-gb ;
+                                                                                    foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=269879&> ;
+                                                                                    ov:phoneNumber "+32  25841111" ;
+                                                                                    foaf:homepage <http://www.eeas.europa.eu> ;
+                                                                                    ov:postalAddress """170 Rue de la Loi
+1046 Bruxelles/Brussel""" ;
+                                                                                    msg0:hasSubOrganization <http://euwhoiswho.dataincubator.org/institutions/European_External_Action_Service/Corporate_Board> ,
+                                                                                                            <http://euwhoiswho.dataincubator.org/institutions/European_External_Action_Service/Geographical%2C_Multilateral_And_Global__Affairs_Departments> ,
+                                                                                                            <http://euwhoiswho.dataincubator.org/institutions/European_External_Action_Service/Administration_Department> ,
+                                                                                                            <http://euwhoiswho.dataincubator.org/institutions/European_External_Action_Service/EU_Delegations%2C_Representations_And_Offices> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_External_Action_Service/Corporate_Board> rdf:type msg0:FormalOrganization ;
+                                                                                                    rdfs:label "Corporate board"@en-gb ;
+                                                                                                    foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=269880> ;
+                                                                                                    msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_External_Action_Service> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_External_Action_Service/Geographical%2C_Multilateral_And_Global__Affairs_Departments> rdf:type msg0:FormalOrganization ;
+                                                                                                                                                 rdfs:label "Geographical, Multilateral and Global  Affairs Departments"@en-gb ;
+                                                                                                                                                 foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=280077> ;
+                                                                                                                                                 msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_External_Action_Service> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_External_Action_Service/Administration_Department> rdf:type msg0:FormalOrganization ;
+                                                                                                              rdfs:label "Administration Department"@en-gb ;
+                                                                                                              foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=280079> ;
+                                                                                                              msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_External_Action_Service> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_External_Action_Service/EU_Delegations%2C_Representations_And_Offices> rdf:type msg0:FormalOrganization ;
+                                                                                                                                  rdfs:label "EU Delegations, representations and offices"@en-gb ;
+                                                                                                                                  foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=3336> ;
+                                                                                                                                  msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_External_Action_Service> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Economic_And_Social_Committee> rdf:type msg0:FormalOrganization ;
+                                                                                          rdfs:label "European Economic and Social Committee"@en-gb ;
+                                                                                          foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=50836&> ;
+                                                                                          ov:postalAddress "" ;
+                                                                                          msg0:hasSubOrganization <http://euwhoiswho.dataincubator.org/institutions/European_Economic_And_Social_Committee/Members> ,
+                                                                                                                  <http://euwhoiswho.dataincubator.org/institutions/European_Economic_And_Social_Committee/Secretariat-_General> ,
+                                                                                                                  <http://euwhoiswho.dataincubator.org/institutions/European_Economic_And_Social_Committee/Joint_Services_Of_The_European_Economic_And_Social_Committee_And_Of_The_Committee_Of_The_Regions> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Economic_And_Social_Committee/Members> rdf:type msg0:FormalOrganization ;
+                                                                                                  rdfs:label "Members"@en-gb ;
+                                                                                                  foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=5343> ;
+                                                                                                  msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Economic_And_Social_Committee> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Economic_And_Social_Committee/Secretariat-_General> rdf:type msg0:FormalOrganization ;
+                                                                                                               rdfs:label "Secretariat- General"@en-gb ;
+                                                                                                               foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=26900> ;
+                                                                                                               msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Economic_And_Social_Committee> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Economic_And_Social_Committee/Joint_Services_Of_The_European_Economic_And_Social_Committee_And_Of_The_Committee_Of_The_Regions> rdf:type msg0:FormalOrganization ;
+                                                                                                                                                                                           rdfs:label "Joint Services of the European Economic and Social Committee and of the Committee of the Regions"@en-gb ;
+                                                                                                                                                                                           foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=271213> ;
+                                                                                                                                                                                           msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Economic_And_Social_Committee> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/Committee_Of_The_Regions> rdf:type msg0:FormalOrganization ;
+                                                                            rdfs:label "Committee of the Regions"@en-gb ;
+                                                                            foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=50918&> ;
+                                                                            owl:sameAs <http://institutions.publicdata.eu/#cor> ;
+                                                                            ov:postalAddress "" ;
+                                                                            msg0:hasSubOrganization <http://euwhoiswho.dataincubator.org/institutions/Committee_Of_The_Regions/Committee_Of_The_Regions> ,
+                                                                                                    <http://euwhoiswho.dataincubator.org/institutions/Committee_Of_The_Regions/Secretariat-General_Of_The_Committee_Of_The_Regions> ,
+                                                                                                    <http://euwhoiswho.dataincubator.org/institutions/Committee_Of_The_Regions/Joint_Services_Of_The_European_Economic_And_Social_Committee_And_Of_The_Committee_Of_The_Regions> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/Committee_Of_The_Regions/Committee_Of_The_Regions> rdf:type msg0:FormalOrganization ;
+                                                                                                     rdfs:label "Committee of the Regions"@en-gb ;
+                                                                                                     foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=17> ;
+                                                                                                     owl:sameAs <http://institutions.publicdata.eu/#cor> ;
+                                                                                                     msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/Committee_Of_The_Regions> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/Committee_Of_The_Regions/Secretariat-General_Of_The_Committee_Of_The_Regions> rdf:type msg0:FormalOrganization ;
+                                                                                                                                rdfs:label "Secretariat-General of the Committee of the Regions"@en-gb ;
+                                                                                                                                foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=3343> ;
+                                                                                                                                msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/Committee_Of_The_Regions> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/Committee_Of_The_Regions/Joint_Services_Of_The_European_Economic_And_Social_Committee_And_Of_The_Committee_Of_The_Regions> rdf:type msg0:FormalOrganization ;
+                                                                                                                                                                             rdfs:label "Joint Services of the European Economic and Social Committee and of the Committee of the Regions"@en-gb ;
+                                                                                                                                                                             foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=61136> ;
+                                                                                                                                                                             msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/Committee_Of_The_Regions> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank> rdf:type msg0:FormalOrganization ;
+                                                                            rdfs:label "European Investment Bank"@en-gb ;
+                                                                            foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=50865&> ;
+                                                                            owl:sameAs <http://institutions.publicdata.eu/#eib> ;
+                                                                            ov:phoneNumber "+352 4379-1" ;
+                                                                            ov:faxNumber "+352 437704" ;
+                                                                            foaf:mbox <mailto:info@eib.org> ;
+                                                                            foaf:homepage <http://www.eib.org> ,
+                                                                                          <http://www.eib.org/offices> ;
+                                                                            ov:postalAddress """98-100, boulevard Konrad Adenauer
+2950 Luxembourg""" ;
+                                                                            msg0:hasSubOrganization <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank/Management_Committee> ,
+                                                                                                    <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank/General_Secretariat_And_Legal_Affairs> ,
+                                                                                                    <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank/Strategy_And_Corporate_Centre> ,
+                                                                                                    <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank/Directorate_For_Operations_In_The_European_Union_And_Candidate_Countries> ,
+                                                                                                    <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank/Directorate_For_Operations_Outside_The_European_Union_And_Candidate_Countries> ,
+                                                                                                    <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank/Transaction_Management_And_Restructuring_Directorate> ,
+                                                                                                    <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank/Finance_Directorate> ,
+                                                                                                    <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank/Projects_Directorate> ,
+                                                                                                    <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank/Risk_Management_Directorate> ,
+                                                                                                    <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank/Inspectorate_General> ,
+                                                                                                    <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank/EIB_Group_Compliance_Office> ,
+                                                                                                    <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank/Human_Resources_Department> ,
+                                                                                                    <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank/Representation_On_Board_Of_Directors__Of_European_Bank_For_Reconstruction_And_Development> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank/Management_Committee> rdf:type msg0:FormalOrganization ;
+                                                                                                 rdfs:label "Management Committee"@en-gb ;
+                                                                                                 foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=279722> ;
+                                                                                                 msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank/General_Secretariat_And_Legal_Affairs> rdf:type msg0:FormalOrganization ;
+                                                                                                                  rdfs:label "General Secretariat and Legal Affairs"@en-gb ;
+                                                                                                                  foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=279732> ;
+                                                                                                                  msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank/Strategy_And_Corporate_Centre> rdf:type msg0:FormalOrganization ;
+                                                                                                          rdfs:label "Strategy and Corporate Centre"@en-gb ;
+                                                                                                          foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=279764> ;
+                                                                                                          msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank/Directorate_For_Operations_In_The_European_Union_And_Candidate_Countries> rdf:type msg0:FormalOrganization ;
+                                                                                                                                                     rdfs:label "Directorate for Operations in the European Union and Candidate Countries"@en-gb ;
+                                                                                                                                                     foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=279803> ;
+                                                                                                                                                     msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank/Directorate_For_Operations_Outside_The_European_Union_And_Candidate_Countries> rdf:type msg0:FormalOrganization ;
+                                                                                                                                                          rdfs:label "Directorate for Operations outside the European Union and Candidate Countries"@en-gb ;
+                                                                                                                                                          foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=279875> ;
+                                                                                                                                                          msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank/Transaction_Management_And_Restructuring_Directorate> rdf:type msg0:FormalOrganization ;
+                                                                                                                                 rdfs:label "Transaction Management and Restructuring Directorate"@en-gb ;
+                                                                                                                                 foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=279925> ;
+                                                                                                                                 msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank/Finance_Directorate> rdf:type msg0:FormalOrganization ;
+                                                                                                rdfs:label "Finance Directorate"@en-gb ;
+                                                                                                foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=279937> ;
+                                                                                                msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank/Projects_Directorate> rdf:type msg0:FormalOrganization ;
+                                                                                                 rdfs:label "Projects Directorate"@en-gb ;
+                                                                                                 foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=279971> ;
+                                                                                                 msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank/Risk_Management_Directorate> rdf:type msg0:FormalOrganization ;
+                                                                                                        rdfs:label "Risk Management Directorate"@en-gb ;
+                                                                                                        foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=280022> ;
+                                                                                                        msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank/Inspectorate_General> rdf:type msg0:FormalOrganization ;
+                                                                                                 rdfs:label "Inspectorate General"@en-gb ;
+                                                                                                 foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=280042> ;
+                                                                                                 msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank/EIB_Group_Compliance_Office> rdf:type msg0:FormalOrganization ;
+                                                                                                        rdfs:label "EIB Group Compliance Office"@en-gb ;
+                                                                                                        foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=280052> ;
+                                                                                                        msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank/Human_Resources_Department> rdf:type msg0:FormalOrganization ;
+                                                                                                       rdfs:label "Human Resources Department"@en-gb ;
+                                                                                                       foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=280057> ;
+                                                                                                       msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank/Representation_On_Board_Of_Directors__Of_European_Bank_For_Reconstruction_And_Development> rdf:type msg0:FormalOrganization ;
+                                                                                                                                                                      rdfs:label "Representation on Board of Directors  of European Bank for Reconstruction and Development"@en-gb ;
+                                                                                                                                                                      foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=280070> ;
+                                                                                                                                                                      msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Bank> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Investment_Fund> rdf:type msg0:FormalOrganization ;
+                                                                            rdfs:label "European Investment Fund"@en-gb ;
+                                                                            foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=50875&> ;
+                                                                            ov:phoneNumber "+352 426688-1" ;
+                                                                            ov:faxNumber "+352 426688-200" ;
+                                                                            foaf:mbox <mailto:info@eif.org> ;
+                                                                            foaf:homepage <http://www.eif.org> ;
+                                                                            ov:postalAddress """96, boulevard Konrad Adenauer
+2968 Luxembourg
+Luxembourg""" ;
+                                                                            msg0:hasSubOrganization <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Fund/Chief_Executive> ,
+                                                                                                    <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Fund/Deputy_Chief_Executive> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Investment_Fund/Chief_Executive> rdf:type msg0:FormalOrganization ;
+                                                                                            rdfs:label "Chief Executive"@en-gb ;
+                                                                                            foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=194500> ;
+                                                                                            msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Fund> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Investment_Fund/Deputy_Chief_Executive> rdf:type msg0:FormalOrganization ;
+                                                                                                   rdfs:label "Deputy Chief Executive"@en-gb ;
+                                                                                                   foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=234974> ;
+                                                                                                   msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Investment_Fund> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Ombudsman> rdf:type msg0:FormalOrganization ;
+                                                                      rdfs:label "European Ombudsman"@en-gb ;
+                                                                      foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=50876&> ;
+                                                                      ov:phoneNumber "+33 3881-72313" ;
+                                                                      ov:faxNumber "+33 3881-79062" ;
+                                                                      foaf:mbox <mailto:eo@ombudsman.europa.eu> ;
+                                                                      foaf:homepage <http://www.ombudsman.europa.eu> ;
+                                                                      ov:postalAddress """1 av. du Président-Robert-Schuman
+67001 Strasbourg
+FRANCE""" ;
+                                                                      msg0:hasSubOrganization <http://euwhoiswho.dataincubator.org/institutions/European_Ombudsman/Secretariat_Of_The_European_Ombudsman> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Ombudsman/Secretariat_Of_The_European_Ombudsman> rdf:type msg0:FormalOrganization ;
+                                                                                                            rdfs:label "Secretariat of the European Ombudsman"@en-gb ;
+                                                                                                            foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=341> ;
+                                                                                                            msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Ombudsman> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Data_Protection_Supervisor> rdf:type msg0:FormalOrganization ;
+                                                                                       rdfs:label "European Data Protection Supervisor"@en-gb ;
+                                                                                       foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=187826&> ;
+                                                                                       owl:sameAs <http://institutions.publicdata.eu/#edps> ;
+                                                                                       ov:phoneNumber "+32 22831900" ;
+                                                                                       ov:faxNumber "+32 22831950" ;
+                                                                                       foaf:mbox <mailto:edps@edps.europa.eu> ;
+                                                                                       foaf:homepage <http://www.edps.europa.eu/> ;
+                                                                                       ov:postalAddress """Bureaux: rue Montoyer 63 1047 Brussel/Bruxelles
+Belgique/België""" ;
+                                                                                       msg0:hasSubOrganization <http://euwhoiswho.dataincubator.org/institutions/European_Data_Protection_Supervisor/Supervision_And_Enforcement> ,
+                                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Data_Protection_Supervisor/Policy_And_Consultation> ,
+                                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Data_Protection_Supervisor/Registry_And_Operational_Support> ,
+                                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Data_Protection_Supervisor/Information_And_Communication> ,
+                                                                                                               <http://euwhoiswho.dataincubator.org/institutions/European_Data_Protection_Supervisor/HR%2C_Budget_And_Administration> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Data_Protection_Supervisor/Supervision_And_Enforcement> rdf:type msg0:FormalOrganization ;
+                                                                                                                   rdfs:label "Supervision and Enforcement"@en-gb ;
+                                                                                                                   foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=206610> ;
+                                                                                                                   msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Data_Protection_Supervisor> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Data_Protection_Supervisor/Policy_And_Consultation> rdf:type msg0:FormalOrganization ;
+                                                                                                               rdfs:label "Policy and Consultation"@en-gb ;
+                                                                                                               foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=206611> ;
+                                                                                                               msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Data_Protection_Supervisor> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Data_Protection_Supervisor/Registry_And_Operational_Support> rdf:type msg0:FormalOrganization ;
+                                                                                                                        rdfs:label "Registry and Operational Support"@en-gb ;
+                                                                                                                        foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=259466> ;
+                                                                                                                        msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Data_Protection_Supervisor> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Data_Protection_Supervisor/Information_And_Communication> rdf:type msg0:FormalOrganization ;
+                                                                                                                     rdfs:label "Information and Communication"@en-gb ;
+                                                                                                                     foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=206608> ;
+                                                                                                                     msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Data_Protection_Supervisor> . 
+
+<http://euwhoiswho.dataincubator.org/institutions/European_Data_Protection_Supervisor/HR%2C_Budget_And_Administration> rdf:type msg0:FormalOrganization ;
+                                                                                                                       rdfs:label "HR, Budget and Administration"@en-gb ;
+                                                                                                                       foaf:page <http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeID=206609> ;
+                                                                                                                       msg0:transitiveSubOrganisationOf <http://euwhoiswho.dataincubator.org/institutions/European_Data_Protection_Supervisor> . 
+

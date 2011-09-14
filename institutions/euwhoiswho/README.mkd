@@ -1,0 +1,12 @@
+# EU Who is Who
+
+
+## Status: Work in Progress
+
+
+### Description:
+
+scripts to retrieve data about people and organisations within the EU
+Institution and republish them as linked data 
+
+
