@@ -1,0 +1,28 @@
+TOTAL	Insgesamt
+0	Null
+1_4	Zwischen 1 und 4
+1_5	Zwischen 1 und 5
+1_9	Zwischen 1 und 9
+1_10	Zwischen 1 und 10
+LE_4	4 oder weniger
+5_9	Zwischen 5 und 9
+6_9	Zwischen 6 und 9
+LT_10	Weniger als 10
+LE_10	10 oder weniger
+10_19	Zwischen 10 und 19
+10_49	Zwischen 10 und 49
+10_249	Zwischen 10 und 249
+GE_10	10 oder mehr
+GT_10	Mehr als 10
+11_49	Zwischen 11 und 49
+20_49	Zwischen 20 und 49
+50_249	Zwischen 50 und 249
+GE_50	50 oder mehr
+250_499	Zwischen 250 und 499
+GE_250	250 oder mehr
+500_999	Zwischen 500 und 999
+GE_500	500 oder mehr
+GE_1000	1 000 oder mehr
+GT_1000	Mehr als 1 000
+UNK	Unbekannt
+NRESP	Ohne Antwort

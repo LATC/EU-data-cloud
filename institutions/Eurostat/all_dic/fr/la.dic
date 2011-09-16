@@ -1,0 +1,41 @@
+LA_1	Terres agricoles totales
+LA_1_1	Terres labourables
+LA_1_2	Terres consacrées à des cultures permanentes
+LA_1_3	Terres consacrées aux prairies et pâturages permanents
+LA_1_4	Autres terres agricoles
+LA_2	Total des forêts et autres terrains boisés
+LA_2_1	Forêts composés essentiellement de résineux
+LA_2_2	Forêts composés essentiellement de feuillus
+LA_2_3	Forêts composés essentiellement d'autres
+LA_2_4	Forêts mélangés
+LA_2_5	Autres terres boisées
+LA_3	Terrains bâtis et terrains connexes
+LA_3_1	Terrains résidentiels
+LA_3_2	Terrains industriels
+LA_3_3	Terrains utilisés pour les carrières, puits, mines, etc.
+LA_3_4	Terrains commerciaux
+LA_3_5	Terrains utilisés pour les services publics, sauf les infrastructures de transport, de communication et techniques
+LA_3_6	Terrains à usage mixtes
+LA_3_7	Terrains utilisés pour les transports et les communications
+LA_3_8	Terrains occupés par les infrastructures techniques
+LA_3_9	Terrains à usage de loisirs et autres espaces ouverts
+LA_4	Zones humides
+LA_4_1	Zones palustres
+LA_4_2	Toundra humide
+LA_4_3	Autres zones humides
+LA_5	Zones sèches - total
+LA_5_1	Espaces naturels ouverts avec végétation particulière
+LA_5_1_1	Bruyères
+LA_5_1_2	Toundra sèche
+LA_5_1_3	Prairies montagneuses
+LA_5_1_4	Autres espaces naturels ouverts avec végétation particulière
+LA_5_2	Espaces naturels ouverts sans ou avec peu de végétation
+LA_5_2_1	Rochers, glaciers et neiges permanentes
+LA_5_2_2	Plages, dunes et autres sols sableux
+LA_5_2_3	Autres espaces naturels ouverts sans ou avec peu de végétation
+LA_6	Eaux
+LA_6_1	Eaux intérieures
+LA_6_2	Eaux côtières
+LA_7	Superficie des sols
+LA_8	Superficie totale
+LA_9	Gains - total

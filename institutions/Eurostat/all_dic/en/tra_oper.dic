@@ -1,0 +1,11 @@
+TOTAL	Total - Total transport
+LOADED	Loaded - Total transport
+LNAT	Loaded - National transport
+LINTL	Loaded - International transport - Total
+LINTL_LD	Loaded - International - Goods loaded in reporting country
+LINTL_NLD	Loaded - International - Goods unloaded in reporting country
+LINTL_CTRD	Loaded - International - Cross-trade
+LINTL_CAB	Loaded - International - Cabotage
+EMPTY	Empty - Total transport
+ENAT	Empty - National transport
+EINTL	Empty - International transport - Total

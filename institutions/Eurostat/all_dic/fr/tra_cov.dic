@@ -1,0 +1,12 @@
+TOTAL	Transport total
+NAT	Transport national
+INTL	Transport international
+INTL_LD	Transport international - Chargé
+INTL_NLD	Transport international - Déchargé
+INTL_CTRD	Transport international - Traffic tiers
+INTL_CABO	Transport international - Cabotage
+INTL_IN	Transport international - Entrant
+INTL_OUT	Transport international - Sortant
+INTL_IEU	Transport international intra-UE
+INTL_XEU	Transport international extra-UE
+TRS	Transit

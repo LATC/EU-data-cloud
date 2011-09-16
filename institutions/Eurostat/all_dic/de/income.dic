@@ -1,0 +1,6 @@
+TOTAL	Haushaltseinkommensgruppen insgesamt
+LT60PC	Haushaltseinkommen weniger als 60% des effektiven laufenden Durchschnitteinkommens (Median)
+60_100PC	Haushaltseinkommen zwischen 60% und 100% des effektiven laufenden Durchschnitteinkommens (Median)
+100_140PC	Haushaltseinkommen zwischen 100% und 140% des effektiven laufenden Durchschnitteinkommens
+GE140PC	Haushaltseinkommen zwischen 140% und mehr des effektiven laufenden Durchschnitteinkommens (Median)
+NS	Unbedeutend

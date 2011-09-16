@@ -1,0 +1,16 @@
+TOTAL	Insgesamt - Alle Waren
+SITC0_1	Nahrungsmittel, Getränke und Tabakwaren
+SITC0	Nahrungsmittel und Lebendvieh
+SITC1	Getränke und Tabakwaren
+SITC2_4	Grundstoffe
+SITC2	Rohstoffe, ohne Brennstoffe
+SITC3	Mineralische Brennstoffe, Schmiermittel und verwandte Erzeugnisse
+SITC33	Mineralöl, Mineralölerzeugnisse und verwandte Erzeugnisse
+SITC4	Tierische und pflanzliche Öle, Fette und Wachse
+SITC5_TO_8	Bearbeitete Waren
+SITC5	Chemische Erzeugnisse, a.n.g.
+SITC6_8	Sonstige bearbeitete Waren
+SITC6	Bearbeitete Waren, vorwiegend nach Beschaffenheit gegliedert
+SITC7	Maschinen und Fahrzeuge
+SITC8	Verschiedene Fertigwaren
+SITC9	Waren, a.n.g.

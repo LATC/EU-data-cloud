@@ -1,0 +1,79 @@
+RND	Roundwood - total
+FUEL	Fuelwood, including wood for charcoal
+IR	Industrial roundwood  - total 
+IR_C	Industrial roundwood, coniferous
+IR_NC	Industrial roundwood, non-coniferous
+IR_NCTRO	Industrial roundwood, non-coniferous, tropical
+IR_LOG	Industrial roundwood - Sawlogs and veneer logs
+IR_PULP	Industrial roundwood - Pulpwood
+IR_PULPOTH	Pulpwood and other industrial roundwood
+IR_OTH	Other industrial roundwood
+WCHAR	Wood charcoal 
+WCHIP	Wood chips and particles
+WRESI	Wood residues including pellets
+PELLETS	Pellets
+SAWN	Sawnwood, total 
+PAN	Wood-based panels, total 
+PAN_VEN	Veneer sheets 
+PAN_PLY	Plywood
+PAN_PAR	Particle board, OSB and other
+PAN_POSB	Particle board, of which OSB
+PAN_FIBD	Fibreboard
+PAN_HABD	Hardboard
+PAN_MDF	MDF (medium density)
+PAN_FIBDOTH	Other fibreboard
+PULP	Woodpulp, total
+PULP_MECSEM	Mechanical woodpulp and semi-chemical woodpulp
+PULP_MEC	Mechanical woodpulp
+PULP_SEM	Semi-chemical woodpulp
+PULP_CHEDIS	Chemical woodpulp (including dissolving grades woodpulp)
+PULP_CHE	Chemical woodpulp 
+PULP_SLFAU	Sulphate unbleached woodpulp
+PULP_SLFAB	Sulphate bleached woodpulp
+PULP_SLFIU	Sulphite unbleached woodpulp
+PULP_SLFIB	Sulphite bleached woodpulp
+PULP_DIS	Dissolving grades woodpulp
+PULP_OTH	Other pulp
+PULP_FIOTH	Pulp from fibres other than wood
+PULP_FIREC	Recovered fibre pulp
+REC_PAP	Recovered paper
+PAP	Paper and paperboard, total 
+PAP_GRA	Graphic papers 
+PAP_NEWPRT	Newsprint
+PAP_PRTWR	Printing and writing papers
+PAP_UNCTMEC	Uncoated mechanical papers
+PAP_UNCTFRE	Uncoated woodfree papers
+PAP_CT	Coated papers
+PAP_SANHH	Sanitary and household papers
+PAP_PAK	Packaging materials
+PAP_CAS	Case materials
+PAP_CART	Cartonboard
+PAP_WRAP	Wrapping papers
+PAP_OTHPAK	Other papers mainly for packaging
+PAP_OTHBD	Other paper and paperboard n.e.s.
+SWO	Secondary wood products
+SWO_SW	Further processed sawnwood
+SWO_SW_C	Further processed sawnwood, coniferous
+SWO_SW_NC	Further processed sawnwood, non-coniferous
+SWO_SW_NCTRO	Further processed sawnwood, non-coniferous, tropical
+SWO_WRAPAK	Wooden wrapping and packing equipment
+SWO_WPDOM	Wood products for domestic/decorative use (excl. furniture)
+SWO_WPOTH	Other manufactured wood products
+SWO_JOIN	Builder's joinery and carpentry of wood
+SWO_FURN	Wooden furniture
+SWO_BLD	Prefabricated buildings
+SWO_BLDWD	Prefabricated buildings, made of wood
+SPA	Secondary paper products
+SPA_COMP	Composite paper and paperboard
+SPA_SPECT	Special coated paper
+SPA_CARCOP	Carbon paper and copying paper, ready for use
+SPA_SANHH	Household and sanitary paper, ready for use
+SPA_PAKBO	Packaging cartons, boxes, etc.
+SPA_OTHBD	Other articles of paper or paperboard
+SPA_OTHBDP	Other articles of paper or paperboard, printing & writing paper, ready for use
+SPA_OTHBDA	Other articles of paper or paperboard, articles moulded or pressed from pulp
+SPA_OTHBDF	Other articles of paper or paperboard, filter paper & paperboard, ready for use
+SPA_PRA	Printed articles
+SPA_BOOK	Printed books
+SPA_NWPAP	Newspapers
+SPA_OTHPA	Other printed articles

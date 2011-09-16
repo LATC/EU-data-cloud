@@ -1,0 +1,170 @@
+TOTAL	Abfälle insgesamt
+W01-05	Chemische und medizinische Abfälle
+W01-03	Chemische Abfälle (Chemische Verbindungen + Abfälle chemischer Zubereitungen + Andere chemische Abfälle)
+W01-03_X_013	Chemische Abfälle ausgenommen gebrauchte Öle  (Chemische Verbindungen + Abfälle chemischer Zubereitungen + Andere chemische Abfälle)
+CHEM_A	Chemische Abfälle, Flüssigkeiten und Schlämme (W011+W012+CHEM_B+W032+W033)
+W011	Verbrauchte Lösemittel
+W012	Säuren, Laugen oder Salze
+W013	Gebrauchte Öle
+CHEM_B	Chemische Abfälle (W014+W02+W031)
+W014	Verbrauchte chemische Katalysatoren
+W02	Abfälle chemischer Zubereitungen
+W031	Chemische Ablagerungen und Rückstände
+W032	Schlämme von Industrieabwässern
+W033	Schlämme und Flüssigabfälle aus der Abfallbehandlung
+W05	Medizinische und biologische Abfälle
+W06_07A	Wiederverwertbare Abfälle (W06+W07-W077)
+W06-W07_X_W077	Wiederverwertbare Abfälle
+W06	Metallische Abfälle
+W061	Metallische Abfälle, eisenhaltig
+W062	Metallische Abfälle, nicht eisenhaltig
+W063	Metallabfälle, eisenhaltig und nicht eisenhaltig gemischt
+W071	Glasabfälle
+W072	Papier und Pappeabfälle
+W073	Gummiabfälle
+W074	Kunststoffabfälle
+W075	Holzabfälle
+W076	Textilabfälle
+W077_08	Geräte
+W077_W08	Geräte
+W077	PCB-haltige Abfälle
+W08A	Ausrangierte Geräte (außer ausrangierte Kraftfahrzeuge sowie Batterien und Akkumulatoren) (W08-W081-W0841)
+W08_X_081_0841	Ausrangierte Geräte (ausgenommen ausrangierte Kraftfahrzeuge sowie Batterien und Akkumulatoren)
+W081	Ausrangierte Kraftfahrzeuge
+W0841	Batterien und Akkumulatoren
+W09	Tierische und pflanzliche Abfälle
+W09A	Tierische und pflanzliche Abfälle (außer tierische Abfälle von Nahrungsmittelzubereitungen und -erzeugnissen, tierische Ausscheidungen, Gülle/Jauche und Stallmist) (W09-W0911-W093)
+W09_X_0911_093	Tierische und pflanzliche Abfälle (ausgenommen tierische Abfälle von Nahrungsmittelzubereitungen und -erzeugnissen, tierische Ausscheidungen, Gülle/Jauche und Stallmist)
+W091_092	Tierische und gemischte Nahrungsmittelabfälle; Pflanzliche Abfälle
+W091	Tierische und gemischte Nahrungsmittelabfälle
+W0911	Tierische Abfälle von Nahrungsmittelzubereitungen und Erzeugnissen
+W092	Pflanzliche Abfälle
+W093	Tierische Ausscheidungen, Gülle/Jauche und Stallmist
+W10	Gemischte gewöhnliche Abfälle
+W101	Hausmüll und ähnliche Abfälle
+W102	Gemischte und undifferenzierte Stoffe
+W103	Sortierrückstände
+W11_127	Gewöhnliche Schlämme und Baggergut
+W11	Gewöhnliche Schlämme
+W11_X_113	Gewöhnliche Schlämme (außer Baggergut)
+W113	Baggergut
+W12-13	Mineralische und verfestigte Abfälle
+W12	Mineralische Abfälle
+W12A	Mineralische Abfälle (außer Verbrennungsrückständen, kontaminierten Böden und Baggergut) (W121+W122+W123+W125)
+W121-125_X_124	Mineralische Abfälle (außer Verbrennungsrückständen, kontaminierten Böden und Baggergut)
+W121	Mineralische Bau- und Abbruchabfälle
+W12B	Andere mineralische Abfälle (W122+W123+W125)
+W124	Verbrennungsrückstände
+W126_127	Böden und Baggergut
+W126	Böden
+W127	Baggergut
+W128_13	Mineralische Abfälle aus der Abfallbehandlung und stabilisierte Abfälle
+W13	Verfestigte, stabilisierte oder verglaste Abfälle
+W1501	Verpackungen
+W150101	Verpackungen aus Papier und Pappe
+W150102	Kunststoffverpackungen
+W150103	Verpackungen aus Holz
+W150104	Verpackungen aus Metall
+W15010401	Aluminiumverpackungen
+W15010402	Stahlverpackungen
+W150107	Glasverpackungen
+W150199	Sonstige Verpackungen
+DMDP	Demontage und Schadstoffbeseitigung, insgesamt
+LIQ	Flüssigkeiten (ausgenommen Kraftstoff) (Low: 1301 bis 1306+1406+160113 bis 160115+160121+160122+160199)
+EXP	Altfahrzeuge: Gesamtgewicht der ausgeführten Fahrzeuge
+W160103	Altfahrzeuge: Reifen
+W160107	Altfahrzeuge: Ölfilter
+W1601A	Altfahrzeuge: Andere bei der Schadstoffbeseitigung anfallende Werkstoffe (ausgenommen Kraftstoffe) (LoW: 160108 bis 160111+160121)
+W1601B	Altfahrzeuge: Metallbauteile (LoW: 160117+160118)
+W160119	Altfahrzeuge: Grosse Kunststoffteile
+W160120	Altfahrzeuge: Glas
+W1601C	Altfahrzeuge: Andere bei der Demontage anfallende Wertstoffe (LoW: 160122+160199)
+W1606	Batterien
+W1608	Katalysatoren
+W1910	Schredder, insgesamt
+W191001	Eisenhaltiger Schrott (Stahl) vom Schreddern
+W191002	Nichteisenhaltige Werkstoffe (Aluminium, Kupfer, Zink, Blei, usw.) vom Schreddern
+W1910A	Schredderleichtfraktion (SLF) (Low: 191003+191004)
+W1910B	Andere beim Schreddern anfallende Wertstoffe (Low: 191005+191006)
+NMIN	Nichtmineralische Abfälle (Indikator)
+RCV_OTH	Sonstige verwertete Abfälle
+DSP_OTH	Sonstige beseitigte Abfälle
+INC_OTH	Sonstige verbrannte Abfälle
+EE_LHA	Haushaltsgroßgeräte
+EE_SHA	Haushaltskleingeräte
+EE_ITT	IT- und Telekommunikationsgeräte
+EE_CON	Geräte der Unterhaltungselektronik
+EE_LIT	Beleuchtungskörper
+EE_GDL	Gasentladungslampen
+EE_EET	Elektrische und elektronische Werkzeuge
+EE_TLS	Spielzeug sowie Sport- und Freizeitgeräte
+EE_MED	Medizinische Geräte
+EE_MON	Überwachungs- und Kontrollinstrumente
+EE_ATD	Automatische Ausgabegeräte
+ORG	Organische Abfälle
+ORG_OTH	Andere nicht-organische Abfälle
+Y1	Clinical wastes from medical care in hospitals, medical centers and clinics
+Y2	Wastes from the production and preparation of pharmaceutical products
+Y3	Waste pharmaceuticals, drugs and medicines
+Y4	Wastes from the production, formulation and use of biocides and phytopharmaceuticals
+Y5	Wastes from the manufacture, formulation and use of wood preserving chemicals
+Y6	Wastes from the production, formulation and use of organic solvents
+Y7	Wastes from heat treatment and tempering operations containing cyanides
+Y8	Waste mineral oils unfit for their originally intended use
+Y9	Waste oils/water, hydrocarbons/water mixtures, emulsions
+Y10	Waste substances and articles containing or contaminated with polychlorinated biphenyls (PCBs) and/or polychlorinated terphenyls (PCTs) and/or polybrominated biphenyls (PBBs)
+Y11	Waste tarry residues arising from refining, distillation and any pyrolytic treatment
+Y12	Wastes from production, formulation and use of inks, dyes, pigments, paints, lacquers, varnish
+Y13	Wastes from production, formulation and use of resins, latex, plasticizers, glues/adhesives
+Y14	Waste chemical substances arising from research and development or teaching activities which are not identified and/or are new and whose effects on man and/or the environment are not known
+Y15	Wastes of an explosive nature not subject to other legislation
+Y16	Wastes from production, formulation and use of photographic chemicals and processing materials
+Y17	Wastes resulting from surface treatment of metals and plastics
+Y18	Residues arising from industrial waste disposal operations
+Y19	Metal carbonyls
+Y20	Beryllium; beryllium compounds
+Y21	Hexavalent chromium compounds
+Y22	Copper compounds
+Y23	Zinc compounds
+Y24	Arsenic; arsenic compounds
+Y25	Selenium; selenium compounds
+Y26	Cadmium; cadmium compounds
+Y27	Antimony; antimony compounds
+Y28	Tellurium; tellurium compounds
+Y29	Mercury; mercury compounds
+Y30	Thallium; thallium compounds
+Y31	Lead; lead compounds
+Y32	Inorganic fluorine compounds excluding calcium fluoride
+Y33	Inorganic cyanides
+Y34	Acidic solutions or acids in solid form
+Y35	Basic solutions or bases in solid form
+Y36	Asbestos (dust and fibres)
+Y37	Organic phosphorus compounds
+Y38	Organic cyanides
+Y39	Phenols; phenol compounds including chlorophenols
+Y40	Ethers
+Y41	Halogenated organic solvents
+Y42	Organic solvents excluding halogenated solvents
+Y43	Any congenor of polychlorinated dibenzo-furan
+Y44	Any congenor of polychlorinated dibenzo-p-dioxin
+Y45	Organohalogen compounds other than substances referred to in the Basel Convention, annex I  ( e.g. Y39, Y41, Y42, Y43, Y44)
+Y46	Wastes collected from households
+Y47	Residues arising from the incineration of household wastes
+Y1-45	Mix of waste streams and waste constituents
+Y1-18	Mix of waste streams
+Y19-45	Mix of waste constituents
+Y46-47	Mix of Categories of wastes requiring special consideration
+X10	Non-hazardous based on Y-code (Y46-Y47)
+X11	Non-hazardous based on EWC codes (European Waste Catalogue and hazardous waste list)
+X12	Non-hazardous based on Annex V part B (e.g. B1040)
+X13	EU or National non-hazardous based on Annex IV part 2 (e.g. AC270)
+X14	Maybe EU or National non-hazardous based on Annex IV part 2 (not currently relevant - no codes like that)
+X20	Hazardous based on Basel Y-code (Y1-Y45)
+X21	Hazardous based on EWC codes (European Waste Catalogue and hazardous waste list)
+X22	Hazardous based on Annex V part A (e.g. A3120)
+X23	EU or National hazardous based on Annex IV part 2 (e.g. AC070)
+X24	Maybe EU or National hazardous based on Annex IV part 2 (e.g. AD120)
+X25	EU or National hazardous baste on text stated in the Waste stream (e.g. other hazardous waste)
+X26	Hazardous based on the reported H-code (e.g. 6.1)
+X30	Not classified as hazardous or non-hazardous as insufficient informations were reported
+X31	Not classified as both hazardous and non-hazardous Basel Y-codes were reported

@@ -1,0 +1,585 @@
+BE	Belgique/België
+BE1_2	Vlaams gewest en Brussel
+BE3	Région Wallonne
+BG	Bulgaria
+CZ	Ceska Republika
+DK	Denmark
+DK_A	Øerne
+DK_B	Jylland
+DE	Germany (including ex-GDR from 1991)
+DE1	Baden-Württemberg
+DE11	Stuttgart
+DE12	Karlsruhe
+DE13	Freiburg
+DE14	Tübingen
+DE2	Bayern
+DE21	Oberbayern
+DE22	Niederbayern
+DE23	Oberpfalz
+DE24	Oberfranken
+DE25	Mittelfranken
+DE26	Unterfranken
+DE27	Schwaben
+DE301_90_5_6	"Hamburg, Bremen und Berlin (West)"
+DE3_90_5_6	"Hamburg,Bremen,Berlin"
+DE30	Berlin
+DE4	Brandenburg
+DE41	Brandenburg - Nordost
+DE42	Brandenburg - Südwest
+DE50	Bremen
+DE60	Hamburg
+DE7	Hessen
+DE71	Darmstadt
+DE72	Giessen
+DE73	Kassel
+DE8	Mecklenburg-Vorpommern
+DE80	Mecklenburg-Vorpommern
+DE9	Niedersachsen
+DE91	Braunschweig
+DE92	Hannover
+DE93	Lüneburg
+DE94	Weser-Ems
+DEA	Nordrhein-Westfalen
+DEA1	Düsseldorf
+DEA2	Köln
+DEA3	Münster
+DEA4	Detmold
+DEA5	Arnsberg
+DEB	Rheinland-Pfalz
+DEB1	Koblenz
+DEB2	Trier
+DEB3	Rheinhessen-Pfalz
+DEC	Saarland
+DEC0	Saarland
+DED	Sachsen
+DED1	Chemnitz
+DED2	Dresden
+DED3	Leipzig
+DEE	Sachsen-Anhalt
+DEE0	Sachsen-Anhalt
+DEE1	Dessau
+DEE2	Halle
+DEE3	Magdeburg
+DEF	Schleswig-Holstein
+DEF0	Schleswig-Holstein
+DEG	Thüringen
+DEG0	Thüringen
+EE	Eesti
+IE	Ireland
+IE_C_U	Connacht-Ulster
+IE_L_M	Leinster-Munster
+GR	Greece
+GR11	"Anatoliki Makedonia, Thraki"
+GR111	Evros
+GR112	Xanthi
+GR113	Rodopi
+GR114	Drama
+GR115	Kavala
+GR12	Kentriki Makedonia
+GR11_2_3	Makedonia
+GR121	Imathia
+GR122	Thessaloniki
+GR123	Kilkis
+GR124	Pella
+GR125	Pieria
+GR126	Serres
+GR127	Chalkidiki
+GR13	Dytiki Makedonia
+GR131	Grevena
+GR132	Kastoria
+GR133	Kozani
+GR134	Florina
+GR14	Thessalia
+GR141	Karditsa
+GR142	Larisa
+GR143	Magnisia
+GR144	Trikala
+GR21	Ipeiros
+GR211	Arta
+GR212	Thesprotia
+GR213	Ioannina
+GR214	Preveza
+GR22	Ionia Nisia
+GR21_A	"Ipeiros, Ionia Nisia, Peloponnisos, Achaia,Ileia"
+GR221	Zakynthos
+GR222	Kerkyra
+GR223	Kefallinia
+GR224	Lefkada
+GR23	Dytiki Ellada
+GR231	Aitoloakarnania
+GR232	Achaia
+GR233	Ileia
+GR24	Sterea Ellada
+GR241	Voiotia
+GR242	Evvoia
+GR243	Evrytania
+GR244	Fthiotida
+GR245	Fokida
+GR25	Peloponnisos
+GR251	Argolida
+GR252	Arkadia
+GR253	Korinthia
+GR254	Lakonia
+GR255	Messinia
+GR3	Attiki
+GR3_4_24_231	"Attiki, Nisia Aigaiou, Kriti, Aitoloakarnania"
+GR41	Voreio Aigaio
+GR411	Lesvos
+GR412	Samos
+GR413	Chios
+GR42	Notio Aigaio
+GR421	Dodekanisos
+GR422	Kyklades
+GR43	Kriti
+GR431	Irakleio
+GR432	Lasithi
+GR433	Rethymni
+GR434	Chania
+ES	Spain
+ES11	Galicia
+ES12	Principado de Asturias
+ES13	Cantabria
+ES21	Pais Vasco
+ES22	Comunidad Foral de Navarra
+ES23	La Rioja
+ES24	Aragón
+ES3	Comunidad de Madrid
+ES41	Castilla y León
+ES42	Castilla-La Mancha
+ES43	Extremadura
+ES51	Cataluña
+ES52	Comunidad Valenciana
+ES53	Baleares
+ES61	Andalucia
+ES62	Murcia
+ES61_3	"Andalucía, Ceuta y Melilla"
+ES7	Canarias
+FR	France
+FR1	Île-de-France
+FR21	Champagne-Ardenne
+FR22	Picardie
+FR23	Haute-Normandie
+FR24	Centre
+FR25	Basse-Normandie
+FR26	Bourgogne
+FR3	Nord-Pas-de-Calais
+FR41	Lorraine
+FR42	Alsace
+FR43	Franche-Comté
+FR51	Pays de la Loire
+FR52	Bretagne
+FR53	Poitou-Charentes
+FR61	Aquitaine
+FR62	Midi-Pyrénées
+FR63	Limousin
+FR71	Rhône-Alpes
+FR72	Auvergne
+FR81	Languedoc-Roussillon
+FR82	Provence-Alpes-Côte d'Azur
+FR83	Corse
+FR91	Guadeloupe
+FR92	Martinique
+FR93	Guyane
+FR94	Réunion
+IT	Italy
+IT11	Piemonte
+IT111_C	Torino Collina
+IT111_M	Torino Montagna
+IT111_P	Torino Pianura
+IT112_3_C	Vercelli Collina
+IT112_3_M	Vercelli Montagna
+IT112_3_P	Vercelli Pianura
+IT114_5_C	Novara Collina
+IT114_5_M	Novara Montagna
+IT114_5_P	Novara Pianura
+IT116_C	Cuneo Collina
+IT116_M	Cuneo Montagna
+IT116_P	Cuneo Pianura
+IT117_C	Asti Collina
+IT117_P	Asti Pianura
+IT118_C	Alessandria Collina
+IT118_M	Alessandria Montagna
+IT118_P	Alessandria Pianura
+IT11_C	Piemonte Collina
+IT11_M	Piemonte Montagna
+IT11_P	Piemonte Pianura
+IT12	Valle d'Aosta
+IT12_M	Valle d'Aosta Montagna
+IT13	Liguria
+IT131_C	Imperia Collina
+IT131_M	Imperia Montagna
+IT132_C	Savona Collina
+IT132_M	Savona Montagna
+IT133_C	Genova Collina
+IT133_M	Genova Montagna
+IT134_C	La Spezia Collina
+IT134_M	La Spezia Montagna
+IT13_C	Liguria Collina
+IT13_M	Liguria Montagna
+IT2	Lombardia
+IT201_C	Varese Collina
+IT201_M	Varese Montagna
+IT201_P	Varese Pianura
+IT202_3_C	Como Collina
+IT202_3_M	Como Montagna
+IT202_3_P	Como Pianura
+IT204_M	Sondrio Montagna
+IT205_9_C	Milano Collina
+IT205_9_P	Milano Pianura
+IT206_C	Bergamo Collina
+IT206_M	Bergamo Montagna
+IT206_P	Bergamo Pianura
+IT207_C	Brescia Collina
+IT207_M	Brescia Montagna
+IT207_P	Brescia Pianura
+IT208_C	Pavia Collina
+IT208_M	Pavia Montagna
+IT208_P	Pavia Pianura
+IT20A_P	Cremona Pianura
+IT20B_C	Mantova Collina
+IT20B_P	Mantova Pianura
+IT2_C	Lombardia Collina
+IT2_M	Lombardia Montagna
+IT2_P	Lombardia Pianura
+IT311	Alto Adige
+IT311_M	Bolzano-Bozen Montagna
+IT312	Trentino
+IT312_M	Trento Montagna
+IT32	Veneto
+IT321_C	Verona Collina
+IT321_M	Verona Montagna
+IT321_P	Verona Pianura
+IT322_C	Vicenza Collina
+IT322_M	Vicenza Montagna
+IT322_P	Vicenza Pianura
+IT323_M	Belluno Montagna
+IT324_C	Treviso Collina
+IT324_P	Treviso Pianura
+IT325_P	Venezia Pianura
+IT326_C	Padova Collina
+IT326_P	Padova Pianura
+IT327_P	Rovigo Pianura
+IT32_C	Veneto Collina
+IT32_M	Veneto Montagna
+IT32_P	Veneto Pianura
+IT33	Friuli-Venezia Giulia
+IT331_C	Pordenone Collina
+IT331_M	Pordenone Montagna
+IT331_P	Pordenone Pianura
+IT332_C	Udine Collina
+IT332_M	Udine Montagna
+IT332_P	Udine Pianura
+IT333_C	Gorizia Collina
+IT333_P	Gorizia Pianura
+IT334_C	Trieste Collina
+IT33_C	Friuli-Venezia Giulia Collina
+IT33_M	Friuli-Venezia Giulia Montagna
+IT33_P	Friuli-Venezia Giulia Pianura
+IT4	Emilia-Romagna
+IT401_C	Piacenza Collina
+IT401_M	Piacenza Montagna
+IT401_P	Piacenza Pianura
+IT402_C	Parma Collina
+IT402_M	Parma Montagna
+IT402_P	Parma Pianura
+IT403_C	Reggio nell'Emilia Collina
+IT403_M	Reggio nell'Emilia Montagna
+IT403_P	Reggio nell'Emilia Pianura
+IT404_C	Modena Collina
+IT404_M	Modena Montagna
+IT404_P	Modena Pianura
+IT405_C	Bologna Collina
+IT405_M	Bologna Montagna
+IT405_P	Bologna Pianura
+IT406_P	Ferrara Pianura
+IT407_C	Ravenna Collina
+IT407_P	Ravenna Pianura
+IT408_9_C	Forlì Collina
+IT408_9_M	Forlì Montagna
+IT408_9_P	Forlì Pianura
+IT4_C	Emilia Romagna Collina
+IT4_M	Emilia Romagna Montagna
+IT4_P	Emilia Romagna Pianura
+IT51	Toscana
+IT511_C	Massa-Carrara Collina
+IT511_M	Massa-Carrara Montagna
+IT512_M	Lucca Montagna
+IT512_P	Lucca Pianura
+IT513_C	Pistoia Collina
+IT513_M	Pistoia Montagna
+IT514_5_C	Firenze Collina
+IT514_5_M	Firenze Montagna
+IT514_5_P	Firenze Pianura
+IT516_C	Livorno Collina
+IT517_C	Pisa Collina
+IT517_P	Pisa Pianura
+IT518_C	Arezzo Collina
+IT518_M	Arezzo Montagna
+IT519_C	Siena Collina
+IT519_M	Siena Montagna
+IT51A_C	Grosseto Collina
+IT51A_M	Grosseto Montagna
+IT51A_P	Grosseto Pianura
+IT51_C	Toscana Collina
+IT51_M	Toscana Montagna
+IT51_P	Toscana Pianura
+IT52	Umbria
+IT521_C	Perugia Collina
+IT521_M	Perugia Montagna
+IT522_C	Terni Collina
+IT522_M	Terni Montagna
+IT52_C	Umbria Collina
+IT52_M	Umbria Montagna
+IT53	Marche
+IT531_C	Pesaro e Urbino Collina
+IT531_M	Pesaro e Urbino Montagna
+IT532_C	Ancona Collina
+IT532_M	Ancona Montagna
+IT533_C	Macerata Collina
+IT533_M	Macerata Montagna
+IT534_C	Ascoli Piceno Collina
+IT534_M	Ascoli Piceno Montagna
+IT53_C	Marche Collina
+IT53_M	Marche Montagna
+IT6	Lazio
+IT601_C	Viterbo Collina
+IT601_P	Viterbo Pianura
+IT602_C	Rieti Collina
+IT602_M	Rieti Montagna
+IT603_C	Roma Collina
+IT603_M	Roma Montagna
+IT603_P	Roma Pianura
+IT604_C	Latina Collina
+IT604_M	Latina Montagna
+IT604_P	Latina Pianura
+IT605_C	Frosinone Collina
+IT605_M	Frosinone Montagna
+IT6_C	Lazio Collina
+IT6_M	Lazio Montagna
+IT6_P	Lazio Pianura
+IT71	Abruzzo
+IT711_M	L'Aquila Montagna
+IT712_C	Teramo Collina
+IT712_M	Teramo Montagna
+IT713_C	Pescara Collina
+IT713_M	Pescara Montagna
+IT714_C	Chieti Collina
+IT714_M	Chieti Montagna
+IT71_C	Abruzzi Collina
+IT71_M	Abruzzi Montagna
+IT72	Molise
+IT721_C	Isernia Collina
+IT721_M	Isernia Montagna
+IT722_C	Campobasso Collina
+IT722_M	Campobasso Montagna
+IT72_C	Molise Collina
+IT72_M	Molise Montagna
+IT8	Campania
+IT801_C	Caserta Collina
+IT801_M	Caserta Montagna
+IT801_P	Caserta Pianura
+IT802_C	Benevento Collina
+IT802_M	Benevento Montagna
+IT803_C	Napoli Collina
+IT803_P	Napoli Pianura
+IT804_C	Avellino Collina
+IT804_M	Avellino Montagna
+IT805_C	Salerno Collina
+IT805_M	Salerno Montagna
+IT805_P	Salerno Pianura
+IT8_C	Campania Collina
+IT8_M	Campania Montagna
+IT8_P	Campania Pianura
+IT91	Puglia
+IT911_C	Foggia Collina
+IT911_M	Foggia Montagna
+IT911_P	Foggia Pianura
+IT912_C	Bari Collina
+IT912_P	Bari Pianura
+IT913_C	Taranto Collina
+IT913_P	Taranto Pianura
+IT914_C	Brindisi Collina
+IT914_P	Brindisi Pianura
+IT915_P	Lecce Pianura
+IT91_C	Puglia Collina
+IT91_M	Puglia Montagna
+IT91_P	Puglia Pianura
+IT92	Basilicata
+IT921_C	Potenza Collina
+IT921_M	Potenza Montagna
+IT922_C	Matera Collina
+IT922_M	Matera Montagna
+IT922_P	Matera Pianura
+IT92_C	Basilicata Collina
+IT92_M	Basilicata Montagna
+IT92_P	Basilicata Pianura
+IT93	Calabria
+IT931_C	Cosenza Collina
+IT931_M	Cosenza Montagna
+IT931_P	Cosenza Pianura
+IT932_3_4_C	Catanzaro Collina
+IT932_3_4_M	Catanzaro Montagna
+IT932_3_4_P	Catanzaro Pianura
+IT935_C	Reggio di Calabria Collina
+IT935_M	Reggio di Calabria Montagna
+IT935_P	Reggio di Calabria Pianura
+IT93_C	Calabria Collina
+IT93_M	Calabria Montagna
+IT93_P	Calabria Pianura
+ITA	Sicilia
+ITA01_C	Trapani Collina
+ITA01_P	Trapani Pianura
+ITA02_C	Palermo Collina
+ITA02_M	Palermo Montagna
+ITA02_P	Palermo Pianura
+ITA03_C	Messina Collina
+ITA03_M	Messina Montagna
+ITA04_C	Agrigento Collina
+ITA04_M	Agrigento Montagna
+ITA04_P	Agrigento Pianura
+ITA05_C	Caltanissetta Collina
+ITA05_P	Caltanissetta Pianura
+ITA06_C	Enna Collina
+ITA06_M	Enna Montagna
+ITA07_C	Catania Collina
+ITA07_M	Catania Montagna
+ITA07_P	Catania Pianura
+ITA08_C	Ragusa Collina
+ITA08_P	Ragusa Pianura
+ITA09_C	Siracusa Collina
+ITA09_P	Siracusa Pianura
+ITA_C	Sicilia Collina
+ITA_M	Sicilia Montagna
+ITA_P	Sicilia Pianura
+ITB	Sardegna
+ITB01_C	Sassari Collina
+ITB01_M	Sassari Montagna
+ITB01_P	Sassari Pianura
+ITB02_C	Nuoro Collina
+ITB02_M	Nuoro Montagna
+ITB03_C	Oristano Collina
+ITB03_P	Oristano Pianura
+ITB04_C	Cagliari Collina
+ITB04_P	Cagliari Pianura
+ITB_C	Sardegna Collina
+ITB_M	Sardegna Montagna
+ITB_P	Sardegna Pianura
+ITC1	Piemonte
+ITC2	Valle d'Aosta
+ITC3	Liguria
+ITC4	Lombardia
+ITD1	Alto Adige
+ITD2	Trentino
+ITD3	Veneto
+ITD4	Friuli-Venezia Giulia
+ITD5	Emilia-Romagna
+ITE1	Toscana
+ITE2	Umbria
+ITE3	Marche
+ITE4	Lazio
+ITF1	Abruzzo
+ITF2	Molise
+ITF3	Campania
+ITF4	Puglia
+ITF5	Basilicata
+ITF6	Calabria
+ITG1	Sicilia
+ITG2	Sardegna
+CY	Kypros/Kibris
+LV	Latvija
+LT	Lietuva
+LU	Luxembourg
+HU1	Közép-Magyarország
+HU10	Közép-Magyarország
+HU21	Közép-Dunántúl
+HU22	Nyugat-Dunántúl
+HU23	Dél-Dunántúl
+HU31	Észak-Magyarország
+HU32	Észak-Alföld
+HU33	Dél-Alföld
+MT	Malta
+NL	Nederland
+NL1	Noord-Nederland
+NL2	Oost-Nederland
+NL3	West-Nederland
+NL4	Zuid-Nederland
+AT	Austria
+AT1	Ostösterreich
+AT11	Burgenland
+AT12	Niederösterreich
+AT13	Wien
+AT2	Südösterreich
+AT21	Kärnten
+AT22	Steiermark
+AT3	Westösterreich
+AT31	Oberösterreich
+AT32	Salzburg
+AT33	Tirol
+AT34	Vorarlberg
+PL_A	Pomorze i Mazury
+PL_B	Wielkopolska i Slask
+PL_C	Mazowsze i Podlasie
+PL_D	Malopolska i Pogórze
+PT	Portugal
+PT11	Norte
+PT11_A	Minho
+PT11_B	Trás-os-Montes
+PT12_A	Beira Litoral
+PT12_B	Beira Interior
+PT12	Centro(PT) (NUTS95)
+PT13	Lisboa e Vale do Tejo
+PT14	Alentejo
+PT15	Algarve
+PT16	Centro
+PT17	Grande Lisboa
+PT18	Alentejo
+PT2	Açores
+PT3	Madeira
+RO	Romania
+SI	Slovenija
+SK01	Bratislavsky
+SK02	Zapadne Slovensko
+SK03	Stredne Slovensko
+SK04	Vychodne Slovensko
+FI	Finland
+FI13	Itä-Suomi
+FI14	Väli-Suomi (NUTS95)
+FI15	Pohjois-Suomi (NUTS95)
+FI11_12_2	Etelä-Suomi
+FI131_2_3_41	Sisä-Suomi
+FI142_3_4	Pohjanmaa
+FI15_134	Pohjois-Suomi
+SE	Sweden
+SE01	Stockholm
+SE02	Östra Mellansverige
+SE03	Småland med öarna (NUTS95)
+SE04	Sydsverige
+SE05	Västsverige (NUTS95)
+SE06	Norra Mellansverige
+SE07	Mellersta Norrland
+SE08	Övre Norrland
+SE01_2_4_A	Stockholm/Östra Mellansverige/Sydsverige/Västsverige
+SE01_A	"Stockholm, Östra Mellansverige,Sydsverige"
+SE03_B	"Småland, Göteborg, Älvsborg"
+SE06_9	Norra Mellansverige/Smaland med öarna
+SE07_8	Mellersta Norrland/Övre Norrland
+SE07_C	"Gävleborg, Norrland"
+UK	United Kingdom
+UK1	North (NUTS95)
+UK2	Yorkshire and Humberside (NUTS95)
+UK3	East Midlands (NUTS95)
+UK4	East Anglia (NUTS95)
+UK5	South East (UK) (NUTS95)
+UK6	South West (UK) (NUTS95)
+UK7	West Midlands (NUTS95)
+UK8	North West (UK) (NUTS95)
+UK1_2_8	North
+UK3_4_5	East
+UK6_7	West
+UK9	Wales
+UKA	Scotland
+UKB	Northern Ireland (UK)
+NO01_06	Sør-Norge
+NO07	Nord-Norge
+HR	Hrvatska
+MK	Poranesnata jugoslovenska Republika Mekedonija

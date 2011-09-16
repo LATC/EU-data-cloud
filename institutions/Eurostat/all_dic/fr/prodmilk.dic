@@ -1,0 +1,138 @@
+MF000	Total lait entier (disponibilités = utilisation)
+MF001	Lait de vache - Total
+MF002	Lait de brebis
+MF003	Lait de chèvre
+MF004	Lait de bufflonne
+MF008	Lait de vaches autres que laitières
+MF009	Lait de vaches laitières
+COWYI	Rendement par vache laitière (kg de lait par an)
+MF010	Total lait écrémé et babeurre (disponibilités = utilisations)
+MF011	Lait écrémé et babeurre rétrocédé par les laiteries
+MF012	Lait écrémé et babeurre : Solde de la livraison de crème
+MF013	Lait écrémé et babeurre provenant de la production de beurre et de crème
+MF030	Beurre et crème fermiers
+MF110	Lait de consommation - Total
+MF118	Lait de consommation - Vente directe
+MF119	Lait de consommation - Autoconsommation
+MF130	Crème fermière
+MF131	Crème fermière livrée aux laiteries
+MF230	Beurre fermier
+MF231	Beurre fermier livré aux laiteries
+MF240	Fromage fermier
+MF241	Fromage fermier livré aux laiteries
+MF290	Autres produits
+MF291	Autres produits livrés aux laiteries(produits obtenus)
+MF400	Livraisons aux laiteries
+MF410	Lait livré aux laiteries
+MF430	Crème livrée aux laiteries (en equivalent lait)
+MF490	Autres produits livrés aux laiteries (utilisation)
+MF520	Alimentation animale
+MF600	Différences et pertes
+MC000	Disponibilités (total)
+MC001	Collecte de lait de vache
+MC002	Collecte de lait de brebis
+MC003	Collecte de lait de chèvre
+MC004	Collecte de lait de bufflonne
+MC005	Collecte de crème (en équivalent lait)
+MC009	Autres produits collectés auprès des exploitations agricoles
+MC006	Lait ecremé et babeurre
+MC010	Importation de lait entier (y compris lait cru)
+MC020	Importation (intra-UE) de lait entier (y compris lait cru)
+MC014	Importation de lait écrémé
+MC024	Importation (intra-UE) de lait ecrémé
+MC015	Importation de crème (en équivalent lait)
+MC025	Importation (intra-UE) de crème (en équivalent lait)
+MC019	Importation d'autres produits
+MC029	Importation (intra-UE) d'autres produits
+MC100	Produits frais
+MC110	Lait de consommation
+MC111	Lait cru
+MC112	Lait entier
+MC922	Lait entier pasteurisé
+MC932	Lait entier stérilisé
+MC942	Lait entier upérisé
+MC113	Lait demi-écrémé
+MC923	Lait demi-écrémé pasteurisé
+MC933	Lait demi-écrémé stérilisé
+MC943	Lait demi-écrémé upérisé
+MC114	Lait écrémé
+MC924	Lait écrémé pasteurisé
+MC934	Lait écrémé sterilisé
+MC944	Lait écrémé upérisé
+MC120	Babeurre
+MC130	Crème de consommation
+MC135	Crème d'une teneur en poids de matières grasses inférieure ou égale à 29 %
+MC136	Crème d'une teneur en poids de matières grasses supérieure à 29 %
+MC140	Laits acidifiés (yaourts et autres)
+MC141	Laits acidifiés avec additif
+MC142	Laits acidifiés sans additif
+MC150	Boissons à base de lait
+MC160	Autres produits frais (lait gelifié et autres)
+MC200	Produits fabriqués
+MC210	Lait concentré
+MC211	Lait concentré non sucré
+MC212	Lait concentré sucré
+MC220	Lait en poudre
+MC221	Crème de lait en poudre
+MC222	Lait entier en poudre
+MC223	Lait partiellement écrémé en poudre
+MC226	Lait entier en poudre total (MC221+MC222+MC223)
+MC224	Lait écrémé en poudre
+MC225	Babeurre en poudre
+MC229	Autres produits en poudre
+MC203	Beurre et autres produits laitiers à matière grasse jaune (MC230+MC239)
+MC230	Beurre total (MC231+MC232)
+MC231	Beurre
+MC2311	Beurre traditionnel
+MC2312	Beurre recombiné
+MC2313	Beurre de lactoserum
+MC232	Beurre fondu et butter oil
+MC239	Autres produits laitiers à matière grasse jaune
+MC2391	Beurre allégé
+MC2392	Autres produits laitiers à matière grasse jaune (sans beurre allégé)
+MC240	Fromage=(MC241+MC242+MC243+MC249) ou (MC291+MC292+MC293+MC294+MC295+MC296)
+MC241	Fromage de lait de vache pur
+MC242	Fromage de lait de brebis pur
+MC243	Fromage de lait de chevre pur
+MC249	Autres (bufflonne pur et melanges)
+MC291	A pâte molle
+MC292	A pâte demi molle
+MC293	A pâte demi dure
+MC294	A pâte dure
+MC295	A pâte extra dure
+MC296	Fromage frais
+MC250	Fromage fondu
+MC260	Caséine et caséinates
+MC270	Lactoserum
+MC271	Lactoserum utilisé à l'état liquide
+MC272	Lactoserum utilisé à l'état concentré
+MC273	Lactoserum en poudre et en blocs
+MC274	Lactose (sucre de lait)
+MC275	Lactalbumine
+MC280	Autres produits fabriqués
+MC310	Lait écrémé - resté à la ferme
+MC320	Lait écrémé - rétrocédé à la ferme
+MC330	Lait écrémé - solde importation crème
+MC340	Lait écrémé, babeurre et lactoserum : importations
+MC341	Lait écrémé, babeurre et lactoserum : importations intra-UE
+MC390	Lait écrémé, babeurre et lactoserum : autres sources
+MC400	Lait écrémé, babeurre et lactoserum : exportations
+MC410	Lait écrémé, babeurre et lactoserum : exportations intra-UE
+MC500	Lait écrémé, babeurre et lactoserum : autres utilisations
+MC510	Lait écrémé, babeurre et lactoserum : consommation humaine
+MC520	Lait écrémé, babeurre et lactoserum : alimentation animale
+MC600	Différence = disponibilités - utilisations
+MM001	Collecte de lait de vache
+MM002	Crème provenant d'exploitations agricoles
+MM024	Stocks de lait écrémé en poudre (fin de période)
+MM030	Stocks de beurre (fin de période)
+MM110	Lait de consommation
+MM130	Crème de consommation
+MM140	Laits acidifiés
+MM210	Lait concentré
+MM224	Lait en poudre écrémé
+MM225	Babeurre en poudre
+MM226	Crème de lait en poudre, lait en poudre entier et lait en poudre partiellement écrémé
+MM230	Beurre
+MM241	Fromage
+MM260	Caséine et caséinates

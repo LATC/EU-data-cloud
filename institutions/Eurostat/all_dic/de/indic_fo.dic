@@ -1,0 +1,69 @@
+PROD	Erzeugung
+IMP_EXT_EU	Einfuhren aus Drittstaaten
+IMP	Einfuhren insgesamt
+EXP_EXT_EU	Ausfuhren in Drittstaaten
+EXP	Ausfuhren insgesamt
+CONS	Scheinbarer Verbrauch
+SSD	Selbstversorgungsgrad (ohne Lager) (%)
+DEF_AREA	Untersuchte Fläche - (1 000 ha)
+SAMPTREE	Anzahl der Probebäume insgesamt  (Anzahl)
+DEF_NO	Nadel- und Blattverluste: keine (0) - (%)
+DEF_SLI	Nadel- und Blattverluste: wenig (1)  - (%)
+DEF_MOD	Nadel- und Blattverluste: moderat (2) - (%)
+DEF_SEV	Nadel- und Blattverluste: schwer und tot (3+4)  - (%)
+DEF_TOT	Nadel- und Blattverluste: geschädigt (2+3+4)  - (%)
+FIR_NB	Waldbrände: insgesamt
+FIR_AREA	Verbrannte Fläche in Hektar
+KNW_NB	Bekannte Ursachen von Waldbränden: insgesamt (Anzahl)
+KNW_HA	Bekannte Ursachen von Waldbränden: insgesamt (ha)
+ARS_NB	Bekannte Ursachen von Waldbränden: Brandstiftung (Anzahl)
+ARS_HA	Bekannte Ursachen von Waldbränden: Brandstiftung (ha)
+NEG_NB	Bekannte Ursachen von Waldbränden: Nachlässigkeit (Anzahl)
+NEG_HA	Bekannte Ursachen von Waldbränden: Nachlässigkeit (ha)
+NATU_NB	Bekannte Ursachen von Waldbränden: natürliche Ursachen (Anzahl)
+NATU_HA	Bekannte Ursachen  von Waldbränden: natürliche Ursachen (ha)
+UNK_NB	Unbekannte Ursachen  von Waldbränden (Anzahl)
+UNK_HA	Unbekannte Ursachen von Waldbränden (ha)
+LAND_X_WT	Fläche ohne Binnengewässer
+FOREST_OWL	Waldfläche und sonstiger Baumbestand
+FOROWL	Waldfläche und sonstiger Baumbestand
+FOREST	Waldfläche
+OWL	Sonstiger Baumbestand
+FAWS	Wirtschaftswald
+GS_FOWL	Holzbestand im Wäldern und im sonstigen Baumbestand
+GS_FO	Holzbestand von Wäldern
+GS_OWL	Holzbestand im Wäldern von sonstigen Baumbestand
+GS_FAWS	Holzbestand im Wirtschaftswald
+INC_FAWS	Zuwachs im Wirtschaftswald
+NAI_FAWS	Zuwachs im Wirtschaftswald
+FEL_FAWS	Einschlag im Wirtschaftswald
+PRO_AREA	Schutzwald
+PRO_ECO	Schutzwald für Boden, Wasser und andere Ökosystemfunktionen
+PRO_INFRA	Schutzwald für Bauten und Landschaftswerte
+PROTECTED	Geschützer Wald
+CARB_STK	Kohlenstoff in der holzigen Waldbiomasse
+CARB_ABG	Kohlenstoff in der oberirdischen Waldbiomasse
+CARB_BLG	Kohlenstoff in der unterirdischen Waldbiomasse
+CARB_DWD	Kohlenstoff im Totholz des Waldes
+CARB_OTH	Kohlenstoff in der holzigen Biomasse des sonstigen Baumbestandes
+CARB_INC	Kohlenstoff im Zuwachs des Wirtschaftswaldes
+CARB_NAI	Kohlenstoff im Zuwachs des Wirtschaftswaldes
+CARB_FEL	Kohlenstoff im Einschlag des Wirtschaftswaldes
+CARB_FELL	Kohlenstoff im Einschlag des Wirtschaftswaldes
+FIR_NB 	Waldbrände insgesamt
+CAG_FO	Oberirdischer Kohlenstoff im Wald
+CBG_FO	Unterirdischer Kohlenstoff im Wald
+CDW_FO	Totholz-Kohlenstoff im Wald
+CLI_FO	Kohlenstoff in der Streumasse des Waldes 
+CSO_FO	Kohlenstoff im Waldboden
+CAG_OWL	Oberirdischer Kohlenstoff des sonstigen Baumbestands
+CBG_OWL	Unterirdischer Kohlenstoff des sonstigen Baumbestands
+CDW_OWL	Totholz-Kohlenstoff des sonstigen Baumbestands
+CLI_OWL	Kohlenstoff in der Streumasse des sonstigen Baumbestands
+CSO_OWL	Kohlenstoff im Boden des sonstigen Baumbestands
+BAG_FO	Oberirdische Waldbiomasse
+BBG_FO	Unterirdische Waldbiomasse
+BDW_FO	Totholz-Waldbiomasse
+BAG_OWL	Oberirdische Biomasse des sonstigen Baumbestands
+BBG_OWL	Unterirdische Biomasse des sonstigen Baumbestands
+BDW_OWL	Totholzbiomasse des sonstigen Baumbestands

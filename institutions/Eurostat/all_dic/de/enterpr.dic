@@ -1,0 +1,19 @@
+TOTAL	Insgesamt
+1	Lebensversicherungsunternehmen
+2	Nicht-Lebensversicherungsunternehmen
+3	Kompositversicherungsunternehmen
+4	Rückversicherungsunternehmen
+5	Lebensversicherungsgeschäft von Kompositversicherungsunternehmen
+6	Nicht-Lebensversicherungsgeschäft von Kompositversicherungsunternehmen (einschließlich das in Rückdeckung übernommene Geschäft)
+AVIA	Flughafenunternehmen
+AIRP	Luftfahrtunternehmen
+RL_UNDTK	Eisenbahnunternehmen
+IF_MNG	Fahrwegbetreiber
+INTG_CO	Integriertes Unternehmen
+DOM_SRC	Unternehmen mit Beschaffung im Inland
+INT_SRC	Unternehmen mit internationaler Beschaffung
+INT_PLAN	Unternehmen, die keine internationale Beschaffung durchführen, dies aber planen
+INT_NO	Unternehmen, die keine internationale Beschaffung durchführen und dies auch nicht planen
+YHE	Junge Unternehmen mit hohem Wachstumspotenzial (Gazellen)
+OTH_YHE	Andere Unternehmen mit hohem Wachstumspotenzial
+OTH	Sonstige Unternehmen

@@ -1,0 +1,12 @@
+TOTAL	Total
+NAT	Nationaux
+FOR	Etrangers - Total
+CTZ_SAM	Ménages privés dont tous les membres sont de la même citoyenneté
+LIVIN	Vivant dans le pays des parents
+EU15_FOR	Etrangers de l'UE (UE-15)
+EU15_FOR_OTH	Autres étrangers (UE15)
+CTZ_DIF	Ménages privés avec des membres de citoyenneté différente
+PCTZ	Au moins un membre ayant la nationalité du pays des parents
+NCTZ	Membres de différentes nationalités sans aucun membre ayant la nationalité du pays des parents
+OTHER	Autres
+UNK	Inconnus

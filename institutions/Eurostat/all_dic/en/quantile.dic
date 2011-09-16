@@ -1,0 +1,39 @@
+TOTAL	Total
+NONE	No income
+QUARTILE1	First quartile
+QUARTILE2	Second quartile
+QUARTILE3	Third quartile
+QUARTILE4	Fourth quartile
+QUINTILE1	First quintile
+QUINTILE2	Second quintile
+QUINTILE3	Third quintile
+QUINTILE4	Fourth quintile
+QUINTILE5	Fifth quintile
+DECILE1	First decile
+DECILE2	Second decile
+DECILE3	Third decile
+DECILE4	Fourth decile
+DECILE5	Fifth decile
+DECILE6	Sixth decile
+DECILE7	Seventh decile
+DECILE8	Eightth decile
+DECILE9	Nineth decile
+DECILE10	Tenth decile
+PERCENTILE1	First percentile
+PERCENTILE2	First percentile
+PERCENTILE3	First percentile
+PERCENTILE4	First percentile
+PERCENTILE5	Fifth percentile
+PERCENTILE10	Tenth percentile
+PERCENTILE25	Twenty fifth percentile
+PERCENTILE50	Median
+TWOTHIRDMEDIAN	Twothird of median (66,6% of median)
+PERCENTILE75	Seventy fifth percentile
+PERCENTILE90	Ninetieth percentile
+PERCENTILE95	Ninety fifth percentile
+PERCENTILE96	Ninety sixth percentile
+PERCENTILE97	Ninety seventh percentile
+PERCENTILE98	Ninety eighth percentile
+PERCENTILE99	Ninety nineth percentile
+PERCENTILE100	Hundredth percentile
+UNK	Unknown

@@ -1,0 +1,243 @@
+TOTMAT	Total matières
+27	Combustibles minéraux, huiles minérales et produits de leur distillation; substances bitumineuses; cires minérales
+26	Ore, scories et cendre
+25	Sel; soufre; terres et pierre; matériaux, chaux et ciment de plâtrage
+23	Résidus et déchets des industries alimentaires ; alimentation des animaux préparée
+72	Fer et acier
+44	Bois et articles de bois ; charbon en bois
+12	Graines oléagineuses et fruits oléagineux ; grains, semences et fruits variés ; plantes industrielles ou médicinales ; paille et fourrage
+08	Fruits comestibles et noix; peau des agrumes ou des melons
+15	Graisses et huiles animales ou végétales; produits de leur dissociation; graisses alimentaires élaborées; cires d'origine animal ou végétale
+10	Céréales
+73	Ouvrages en fonte, fer ou acier
+39	Matières plastiques et articles s'y rapportant
+31	Engrais
+47	Pulpe de bois ou d'autre matière cellulosique fibreuse ;(déchets et débris) de papier et papier cartonné récupérés
+17	Sucres et confiserie
+09	Café, thé, maté et épices
+40	Caoutchouc et articles s'y rapportant
+07	Légumes comestibles et certains racines et tubercules
+76	Aluminium et articles s'y rapportant
+03	Poissons et crustacés, mollusques et d'autres invertébrés aquatiques
+18	Cacao et préparations de cacao
+74	Cuivre et articles s'y rapportant
+70	Verre et verrerie
+16	Préparations comestibles de viande, des poissons, des crustacés, des mollusques ou d'autres invertébrés aquatiques
+52	Cotons, comprenant les fils et les tissus s'y rapportant
+22042111	Vins blancs (v.q.p.r.d.): Alsace de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042X12	Vins blancs (v.q.p.r.d.): Bordeaux de < 13°
+22042112	Vins blancs (v.q.p.r.d.): Bordeaux de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042912	Vins blancs (v.q.p.r.d.): Bordeaux de < 13° en récipients d'une contenance > 2 l
+22042X13	Vins blancs (v.q.p.r.d.): Bourgogne (Burgundy) de < 13°
+22042113	Vins blancs (v.q.p.r.d.): Bourgogne (Burgundy) de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042913	Vins blancs (v.q.p.r.d.): Bourgogne (Burgundy) de < 13° en récipients d'une contenance > 2 l
+22042X17	Vins blancs (v.q.p.r.d.): Val de Loire (Loire Valley) de < 13°
+22042117	Vins blancs (v.q.p.r.d.): Val de Loire (Loire Valley) de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042917	Vins blancs (v.q.p.r.d.): Val de Loire (Loire Valley) de < 13° en récipients d'une contenance > 2 l
+22042118	Vins blancs (v.q.p.r.d.): Mosel-Saar-Ruwer de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042119	Vins blancs (v.q.p.r.d.): Pfalz (Palatinat) de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042122	Vins blancs (v.q.p.r.d.): Rheinhessen (Hesse rhénane) de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042124	Vins blancs (v.q.p.r.d.): Lazio (Latium) de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042126	Vins blancs (v.q.p.r.d.): Toscana (Toscane) de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042127	Vins blancs (v.q.p.r.d.): Trentino (Trentin), Alto Adige (Haut-Adige) et Friuli (Frioul) de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042128	Vins blancs (v.q.p.r.d.): Veneto (Vénétie) de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042132	Vins blancs (v.q.p.r.d.): Vinho Verde de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042134	Vins blancs (v.q.p.r.d.): Penedés de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042136	Vins blancs (v.q.p.r.d.): Rioja de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042137	Vins blancs (v.q.p.r.d.): Valencia de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042X42	Vins autres que blancs (v.q.p.r.d.): Bordeaux de < 13°
+22042142	Vins autres que blancs (v.q.p.r.d.): Bordeaux  de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042942	Vins autres que blancs (v.q.p.r.d.): Bordeaux  de < 13° en récipients d'une contenance > 2 l
+22042X43	Vins autres que blancs (v.q.p.r.d.): Bourgogne (Burgundy)  de < 13°
+22042143	Vins autres que blancs (v.q.p.r.d.): Bourgogne (Burgundy) de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042943	Vins autres que blancs (v.q.p.r.d.): Bourgogne (Burgundy)  de < 13° en récipients d'une contenance > 2 l
+22042X44	Vins autres que blancs (v.q.p.r.d.): Beaujolais de < 13°
+22042144	Vins autres que blancs (v.q.p.r.d.): Beaujolais  de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042944	Vins autres que blancs (v.q.p.r.d.): Beaujolais  de < 13° en récipients d'une contenance > 2 l
+22042X46	Vins autres que blancs (v.q.p.r.d.): Côtes-du-Rhône de < 13°
+22042146	Vins autres que blancs (v.q.p.r.d.): Côtes-du-Rhône  de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042946	Vins autres que blancs (v.q.p.r.d.): Côtes-du-Rhône  de < 13° en récipients d'une contenance > 2 l
+22042X47	Vins autres que blancs (v.q.p.r.d.): Languedoc-Roussillon de < 13°
+22042147	Vins autres que blancs (v.q.p.r.d.): Languedoc-Roussillon  de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042947	Vins autres que blancs (v.q.p.r.d.): Languedoc-Roussillon  de < 13° en récipients d'une contenance > 2 l
+22042X48	Vins autres que blancs (v.q.p.r.d.): Val de Loire de < 13°
+22042148	Vins autres que blancs (v.q.p.r.d.): Val de Loire (Loire Valley) de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042948	Vins autres que blancs (v.q.p.r.d.): Val de Loire (Loire Valley) de < 13° en récipients d'une contenance > 2 l
+22042162	Vins autres que blancs (v.q.p.r.d.): Piemonte (Piémont)  de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042166	Vins autres que blancs (v.q.p.r.d.):Toscana (Toscane)  de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042167	Vins autres que blancs (v.q.p.r.d.): Trentino (Trentin) et Alto Adige (Haut-Adige)  de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042168	Vins autres que blancs (v.q.p.r.d.): Veneto (Vénétie)  de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042169	Vins autres que blancs (v.q.p.r.d.): Dão, Bairrada et Douro  de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042171	Vins autres que blancs (v.q.p.r.d.): Navarra  de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042174	Vins autres que blancs (v.q.p.r.d.): Penedés  de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042176	Vins autres que blancs (v.q.p.r.d.): Rioja  de < 13° en récipients d'une contenance n'excédant pas 2 l
+22042177	Vins autres que blancs (v.q.p.r.d.): Valdepeñas  de < 13° en récipients d'une contenance n'excédant pas 2 l
+24621013	Colles de caséine (Kg)
+24621015	Caséinates et autres dérivés des caséines (Kg)
+24621020	Albuminates et autres dérivés des albumines (ovalbumine excl.) (Kg)
+24621030	Gélatines et leurs dérivés (colles de caséine excl.) (Kg)
+28721133	Boîtes...(fonte, fer, acier) à fermer par soudage ou sertissage, d'une contenance < 50 litres, pour denrées alimentaires (p/st)
+28721135	Boîtes...(fonte, fer, acier) à fermer par soudage ou sertissage, d'une contenance < 50 litres, pour boissons (p/st)
+28721283	Boîtes en aluminium, pour denrées alimentaires (boîtes à conserves), d'une contenance < 50 litres (p/st)
+28721285	Boîtes en aluminium, pour boissons, d'une contenance < 50 litres (p/st)
+SITC_00	Animaux vivants autres que les animaux de la division 03
+0101	Chevaux, ânes, mulets et bardots, vivants
+01019011	Chevaux destinés à la boucherie
+01019019	Chevaux vivants (à l'excl. des animaux reproducteurs de race pure ainsi que des animaux destinés à la boucherie)
+0102	Animaux vivants de l'espèce bovine
+010290	Bovins vivants (à l'excl. des animaux reproducteurs de race pure)
+0104	Animaux vivants des espèces ovine ou caprine
+01041030	Agneaux jusqu'à l'âge d'un an, vivants (à l'excl. des animaux reproducteurs de race pure)
+0106	Animaux vivants (à l'excl. des animaux des espèces chevaline, asine, mulassière, bovine, porcine, ovine ou caprine, des coqs, poules, canards, oies, dindons, dindes et pintades (des espèces domestiques), des poissons, crustacés, mollusques et autres invertébrés aquatiques ainsi que des cultures de micro-organismes et produits simil.)
+SITC_01	Viande et préparations de viande
+0201	Viandes des animaux de l'espèce bovine, fraîches ou réfrigérées
+0202	Viandes des animaux de l'espèce bovine, congelées
+0203	Viandes des animaux de l'espèce porcine, fraîches, réfrigérées ou congelées
+0204	Viandes des animaux des espèces ovine ou caprine, fraîches, réfrigérées ou congelées
+0205	Viandes des animaux des espèces chevaline, asine ou mulassière, fraîches, réfrigérées ou congelées
+020500	Viandes des animaux des espèces chevaline, asine ou mulassière, fraîches, réfrigérées ou congelées
+0207	Viandes et abats comestibles, frais, réfrigérés ou congelés, des volailles du no 0105
+020714	Morceaux et abats, congelés  des volailles du no 0105
+0210	Viandes et abats comestibles, salés ou en saumure, séchés ou fumés; farines et poudres, comestibles, de viandes ou d'abats
+160231	Autres préparations et conserves de viande, d'abats ou de sang, de dinde
+160232	Autres préparations et conserves de viande, d'abats ou de sang, de coqs et de poules
+160250	Autres préparations et conserves de viande, d'abats ou de sang, de l'espece bovine
+SITC_02	Produits laitiers et oeufs des oiseaux
+0401	Lait et crème de lait, non-concentrés ni additionnés de sucre ou d'autres édulcorants
+04012099	Lait et crème de lait, non-concentrés ni additionnés de sucre ou d'autres édulcorants, d'une teneur en poids de matières grasses > 3% mais <= 6% (à l'excl. en emballages immédiats d'un contenu net <= 2 l)
+0402	Lait et crème de lait, concentrés ou additionnés de sucre ou d'autres édulcorants
+04021019	Lait et crème de lait, en poudre, en granulés ou sous d'autres formes solides, d'une teneur en poids de matières grasses <= 1,5%, sans addition de sucre ou d'autres édulcorants, en emballages immédiats d'un contenu net > 2,5 kg
+0405	Beurre, y.c. le beurre déshydraté et le ghee, et autres matières grasses provenant du lait ainsi que pâtes à tartiner laitières
+04051019	Beurre naturel, d'une teneur en poids de matières grasses >= 80% mais <= 85% (à l'excl. des produits en emballages immédiats d'un contenu net <= 1 kg ainsi que du beurre déshydraté et du ghee)
+0406	Fromages et caillebotte
+0407	Oeufs d'oiseaux, en coquilles, frais, conservés ou cuits
+04070030	Oeufs de volailles de basse-cour, en coquilles, frais, conservés ou cuits (à l'excl. des oeufs à couver)
+2105	Glaces de consommation, même contenant du cacao
+21050099	Glaces de consommation d'une teneur en poids de matières grasses provenant du lait >= 7%
+SITC_03	Poissons et crustacés, mollusques et autres invertébrés aquatiques
+0302	Poissons, comestibles, frais ou réfrigérés (à l'excl. des filets de poissons et autres chairs de poissons du n° 0304)
+030212	Saumons du Pacifique (Oncorhynchus nerka, Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus tschawytscha, Oncorhynchus kisutch, Oncorhynchus masou et Oncorhynchus rhodurus), saumons de l'Atlantique (Salmo salar) et saumons du Danube (Hucho hucho), f
+0303	Poissons, comestibles, congelés (à l'excl. des filets de poissons et autres chairs de poissons du n° 0304)
+0304	Filets de poissons et autre chair de poissons - même hachée -, frais, réfrigérés ou congelés
+030410	Filets de poissons et autre chair de poissons - même hachée - frais ou réfrigérés
+030420	Filets de poissons, congelés
+0305	Poissons comestibles, séchés, salés ou en saumure; poissons comestibles, fumés, même cuits avant ou pendant le fumage; farines, poudres et agglomérés sous forme de pellets de poisson, propres à l'alimentation humaine
+0306	Crustacés, comestibles, même décortiqués, vivants, frais, réfrigérés, congelés, séchés, salés ou en saumure; crustacés non-décortiqués, cuits à l'eau ou à la vapeur, même réfrigérés, congelés, séchés, salés ou en saumure; farines, poudres et agglomérés sous forme de pellets de poisson, propres à l'alimentation humaine
+030613	Crevettes, même décortiquées, congelées, y.c. les crevettes non-décortiquées préalablement cuites à l'eau ou à la vapeur
+030749	Seiches (Sepia officinalis, Rossia macrosoma), sépioles (Sepiola spp.), calmars et encornets (Ommastrephes spp., Loligo spp., Nototodarus spp., Sepioteuthis spp.), même séparés de leur coquille, congelés, séchés, salés ou en saumure
+1604	Préparations et conserves de poissons; caviar et ses succédanés préparés à partir d'oeufs de poisson
+160414	Préparations et conserves de thons, de listaos et de bonites 'Sarda spp.', entiers ou en morceaux (à l'excl. des préparations et conserves de thons, de listaos et de bonites hachés)
+1605	Crustacés, mollusques et autres invertébrés aquatiques, préparés ou conservés
+SITC_04	Céréales et préparations de céréales
+1001	Froment (blé) et méteil
+10011000	Froment (blé) dur
+10019099	Épeautre, froment (blé) tendre et méteil (à l'excl. des produits destinés à l'ensemencement)
+1002	Seigle
+1003	Orge
+10030090	Orge (à l'excl. de l'orge de semence)
+1005	Maïs
+10059000	Maïs (autre que de semence)
+1006	Riz
+10062098	Riz décortiqué (riz cargo ou riz brun), à grains longs, présentant un rapport longueur/largeur >= 3 (à l'excl. du riz étuvé)
+1007	Sorgho à grains
+10070090	Sorgho à grains (à l'excl. du sorgho à grains, hybride, destiné à l'ensemencement)
+SITC_054	Végétaux, frais, réfrigéré, congelé ou simplement préservé
+070190	Pommes de terre, à l'état frais ou réfrigéré (à l'excl. des pommes de terre de semence)
+0702	Tomates, à l'état frais ou réfrigéré
+0703	Oignons, échalotes, aulx, poireaux et autres légumes alliacés, à l'état frais ou réfrigéré
+070310	Oignons et échalotes, à l'état frais ou réfrigéré
+0708	Légumes à cosse, écossés ou non, à l'état frais ou réfrigéré
+0709	Légumes, à l'état frais ou réfrigéré (à l'excl. des pommes de terre, des tomates, des légumes alliacés, des choux et produits comestibles simil. du genre 'Brassica', des laitues 'Lactuca sativa', des chicorées 'Cichorium spp.', des carottes, des navets, des betteraves à salade, des salsifis, des céleris-raves, des radis et des racines comestibles simil., des concombres, des cornichons et des légumes à cosse)
+0710	Légumes, non-cuits ou cuits à l'eau ou à la vapeur, congelés
+0713	Légumes à cosse secs, écossés, même décortiqués ou cassés
+071333	Haricots communs 'Phaseolus vulgaris', secs, écossés, même décortiqués ou cassés
+07134000	Lentilles, séchées, écossées, même décortiquées ou cassées
+0714	Racines de manioc, d'arrow-root ou de salep, topinambours, patates douces et racines et tubercules simil. à haute teneur en fécule ou en inuline, frais, réfrigérés, congelés ou séchés, même débités en morceaux ou agglomérés sous forme de pellets; moelle de sagoutier
+071410	Racines de manioc, fraîches, réfrigérées, congelées ou séchées, même débitées en morceaux ou agglomérées sous forme de pellets
+SITC_056	Végétaux préparés ou conservés, n.e.s
+0712	Légumes secs, même coupés en morceaux ou en tranches ou bien broyés ou pulvérisés, mais non autrement préparés
+2001	Légumes, fruits et autres parties comestibles de plantes, préparés ou conservés au vinaigre ou à l'acide acétique
+200110	Concombres et cornichons, préparés ou conservés au vinaigre ou à l'acide acétique
+2002	Tomates, préparées ou conservées autrement qu'au vinaigre ou à l'acide acétique
+200210	Tomates, entières ou en morceaux, préparées ou conservées autrement qu'au vinaigre ou à l'acide acétique
+2003	Champignons et truffes, préparés ou conservés autrement qu'au vinaigre ou à l'acide acétique
+200310	Champignons du genre 'Agaricus', préparés ou conservés autrement qu'au vinaigre ou à l'acide acétique
+2005	Légumes, préparés ou conservés autrement qu'au vinaigre ou à l'acide acétique, non-congelés (à l'excl. confits au sucre ainsi que des tomates, des champignons et des truffes)
+200560	Asperges, préparées ou conservées autrement qu'au vinaigre ou à l'acide acétique, non-congelées
+200570	Olives, préparées ou conservées autrement qu'au vinaigre ou à l'acide acétique, non-congelées
+200580	Maïs doux (Zea mays var. saccharata), préparé ou conservé autrement qu'au vinaigre ou à l'acide acétique, non-congelé
+200590	Légumes et mélanges de légumes, préparés ou conservés autrement qu'au vinaigre ou à l'acide acétique, non-congelés (à l'excl. des légumes confits au sucre, des légumes homogénéisés du n° 2005.10, ainsi que des tomates, des champignons, des truffes, des pommes de terre, des pois (Pisum sativum), des haricots (Vigna spp., Phaseolus spp.), des asperges, des olives et du maïs doux (Zea mays var. saccharata), non-mélangés)
+SITC_057	Fruits et noix, frais ou secs
+0802	Fruits à coques, frais ou secs, même sans leurs coques ou décortiqués (à l'excl. des noix de coco, des noix du Brésil et des noix de cajou)
+0803	Bananes, y.c. les plantains, fraîches ou sèches
+080300	Bananes, y.c. les plantains, fraîches ou sèches
+0804	Dattes, figues, ananas, avocats, goyaves, mangues et mangoustans, frais ou secs
+0805	Agrumes, frais ou secs
+080510	Oranges, fraîches ou sèches
+080520	Mandarines, incl. les tangerines et les satsumas; clémentines, wilkings et hybrides simil. d'agrumes, frais ou secs
+080540	Pamplemousses et pomelos, frais ou secs
+080550	Citrons 'Citrus limon, Citrus limonum' et limes 'Citrus aurantifolia, Citrus latifolia', frais ou secs
+0806	Raisins, frais ou secs
+080610	Raisins, frais
+080620	Raisins, secs
+0807	Melons, incl. les pastèques, et papayes, frais
+0808	Pommes, poires et coings, frais
+080810	Pommes, fraîches
+080820	Poires et coings, frais
+0810	Fraises, framboises, mûres, groseilles et autres fruits comestibles (sauf fruits à coque, bananes, dattes, figues, ananas, avocats, goyaves, mangues, mangoustans, papayes, agrumes, raisins, melons, pommes, poires, coings, abricots, cerises, pêches, prunes et prunelles)
+081050	Kiwis, frais
+SITC_058	Fruits, conservés, et préparations de fruit (excl. jus de fruits)
+0811	Fruits, non-cuits ou cuits à l'eau ou à la vapeur, congelés, même additionnés de sucre ou d'autres édulcorants
+081110	Fraises, non-cuites ou cuites à l'eau ou à la vapeur, congelées, même additionnées de sucre ou d'autres édulcorants
+081120	Framboises, mûres de ronce ou de mûrier, mûres-framboises et groseilles à grappes ou à maquereau, non-cuites ou cuites à l'eau ou à la vapeur, congelées, même additionnées de sucre ou d'autres édulcorants
+2008	Fruits et autres parties comestibles de plantes, préparés ou conservés, avec ou sans addition de sucre ou d'autres édulcorants ou d'alcool (sauf préparés ou conservés au vinaigre ou à l'acide acétique, confits au sucre mais non-conservés dans du sirop et à l'excl. des confitures, gelées de fruits, marmelades, purées et pâtes de fruits obtenues par cuisson)
+200820	Ananas, préparés ou conservés, avec ou sans addition de sucre ou d'autres édulcorants ou d'alcool (sauf confits au sucre mais non-conservés dans du sirop et à l'excl. des confitures, gelées de fruits, marmelades, purées et pâtes de fruits obtenues par cuisson)
+20082079	Ananas, préparés ou conservés, sans addition d'alcool, mais avec addition de sucre, d'une teneur en sucre > 13% et <= 19% en poids, en emballages immédiats d'un contenu net <= 1 kg
+200899	Fruits et autres parties comestibles de plantes, préparés ou conservés, avec ou sans addition de sucre ou d'autres édulcorants ou d'alcool (sauf préparés ou conservés au vinaigre ou à l'acide acétique, confits au sucre mais non-conservés dans du sirop et à l'excl. des confitures, gelées de fruits, marmelades, purées et pâtes de fruits obtenues par cuisson, des fruits à coque, des arachides et autres graines, des ananas, des agrumes, des poires, des abricots, des cerises, des pêches et des fraises)
+SITC_059	Jus de fruits et de végétaux
+200910	Jus d'orange, non-fermentés, sans addition d'alcool, avec ou sans addition de sucre ou d'autres édulcorants, congelés
+200911	Jus d'orange, non-fermentés, sans addition d'alcool, avec ou sans addition de sucre ou d'autres édulcorants, congelés
+20091200	Jus d'orange, non-fermentés, sans addition d'alcool, avec ou sans addition de sucre ou d'autres édulcorants, d'une valeur Brix <= 20 à 20°C (à l'excl. des jus congelés)
+200919	Jus d'orange, non-fermentés, sans addition d'alcool, avec ou sans addition de sucre ou d'autres édulcorants (à l'excl. des jus congelés et des jus d'une valeur Brix <= 20 à 20°C)  
+200920	Jus de pamplemousse ou de pomelo, non-fermentés, sans addition d'alcool, avec ou sans addition de sucre ou d'autres édulcorants,
+20092100	Jus de pamplemousse ou de pomelo, non-fermentés, sans addition d'alcool, avec ou sans addition de sucre ou d'autres édulcorants, d'une valeur Brix <= 20 à 20°C  
+200929	Jus de pamplemousse ou de pomelo, non-fermentés, sans addition d'alcool, avec ou sans addition de sucre ou d'autres édulcorants, d'une valeur Brix > 20 à 20°C  
+200931	Jus d'agrumes, non-fermentés, sans addition d'alcool, avec ou sans addition de sucre ou d'autres édulcorants, d'une valeur Brix <= 20 à 20°C (à l'excl. des mélanges, des jus d'orange, de pamplemousse ou de pomelo)  
+200939	Jus d'agrumes, non-fermentés, sans addition d'alcool, avec ou sans addition de sucre ou d'autres édulcorants, d'une valeur Brix > 20 à 20°C (à l'excl. des mélanges ainsi que des jus d'orange, de pamplemousse ou de pomelo)  
+200940	Jus d'ananas, non-fermentés, sans addition d'alcool, avec ou sans addition de sucre ou d'autres édulcorants
+200941	Jus d'ananas, non-fermentés, sans addition d'alcool, avec ou sans addition de sucre ou d'autres édulcorants, d'une valeur Brix <= 20 à 20°C  
+200949	Jus d'ananas, non-fermentés, sans addition d'alcool, avec ou sans addition de sucre ou d'autres édulcorants, d'une valeur Brix > 20 à 20°C  
+200970	Jus de pomme, non-fermentés, sans addition d'alcool, avec ou sans addition de sucre ou d'autres édulcorants
+200971	Jus de pomme, non-fermentés, sans addition d'alcool, avec ou sans addition de sucre ou d'autres édulcorants, d'une valeur Brix <= 20 à 20°C  
+200979	Jus de pomme, non-fermentés, sans addition d'alcool, avec ou sans addition de sucre ou d'autres édulcorants, d'une valeur Brix > 20 à 20°C  
+SITC_06	Sucres, préparations de sucre et miel
+0409	Miel naturel
+1701	Sucres de canne ou de betterave et saccharose chimiquement pur, à l'état solide
+17011110	Sucres de canne, bruts, sans addition d'aromatisants ou de colorants, destinés à être raffinés
+17019910	Sucres blancs, sans addition d'aromatisants ou de colorants, contenant, à l'état sec, en poids déterminé selon la méthode polarimétrique, 99,5% ou plus de saccharose
+1703	Mélasses résultant de l'extraction ou du raffinage du sucre
+17031000	Mélasses de canne, résultant de l'extraction ou du raffinage du sucre de canne
+SITC_07	Café, thé, cacao
+0901	Café, même torréfié ou décaféiné; coques et pellicules de café; succédanés du café contenant du café, quelles que soient les proportions du mélange
+09011100	Café, non-torréfié, non-décaféiné
+0902	Thé, même aromatisé
+09024000	Thé noir fermenté et thé partiellement fermenté, même aromatisés, présentés en emballages immédiats d'un contenu > 3 kg
+1801	Cacao en fèves et brisures de fèves, bruts ou torréfiés
+1802	Coques, pellicules [pelures] et autres déchets de cacao
+1803	Pâte de cacao, même dégraissée
+1804	Beurre, graisse et huile de cacao
+2101	Extraits, essences et concentrés de café, de thé ou de maté et préparations à base de ces produits ou à base de café, thé ou maté; chicorée torréfiée et autres succédanés torréfiés du café et leurs extraits, essences et concentrés
+SITC_08	Alimentation animale
+2301	Farines, poudres et agglomérés sous forme de pellets, de viandes, d'abats, de poissons ou de crustacés, de mollusques ou d'autres invertébrés aquatiques, impropres à l'alimentation humaine; cretons
+23012000	Farines, poudres et agglomérés sous forme de pellets, de poissons ou de crustacés, de mollusques ou d'autres invertébrés aquatiques, impropres à l'alimentation humaine
+2303	Résidus d'amidonnerie et résidus simil., pulpes de betteraves, bagasses de cannes à sucre et autres déchets de sucrerie, drêches et déchets de brasserie ou de distillerie, même agglomérés sous forme de pellets
+2304	Tourteaux et autres résidus solides, même broyés ou agglomérés sous forme de pellets, de l'extraction de l'huile de soja
+2306	Tourteaux et autres résidus solides, même broyés ou agglomérés sous forme de pellets, de l'extraction de graisses ou huiles végétales (à l'excl. des tourteaux et autres résidus solides de l'extraction des huiles de soja et d'arachide)
+23063000	Tourteaux et autres résidus solides, même broyés ou agglomérés sous forme de pellets, de l'extraction des graisses ou huiles de tournesol
+23066000	Tourteaux et autres résidus solides, même broyés ou agglomérés sous forme de pellets, de l'extraction des graisses ou huiles de noix ou d'amandes de palmiste
+2308	Glands de chêne, marrons d'Inde, marcs de fruits et autres matières, déchets, résidus et sous-produits végétaux, même agglomérés sous forme de pellets, des types utilisés pour l'alimentation des animaux, n.d.a.
+23080040	Glands de chêne et marrons d'Inde ainsi que marcs de fruits, même agglomérés sous forme de pellets, des types utilisés pour l'alimentation des animaux (à l'excl. des marcs de raisins)
+2309	Préparations des types utilisés pour l'alimentation des animaux
+23099020	Résidus de l'amidonnerie de maïs visés à la note complémentaire 5 du présent chapitre, des types utilisés pour l'alimentation des animaux (à l'excl. des aliments pour chiens ou chats conditionnés pour la vente au détail)
+SITC_09	Produits et préparations comestibles variés
+OTHER	Autre

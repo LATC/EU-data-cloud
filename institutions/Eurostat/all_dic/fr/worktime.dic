@@ -1,0 +1,18 @@
+H0	Zéro heure
+TOTAL	Total
+PT	Temps partiel
+H1-19	De 1 à 19 heures
+H1-9	De 1 à 9 heures
+H10-19	De 10 à 19 heures
+H20-29	De 20 à 29 heures
+H20-31	De 20 à 31 heures
+FT	Temps complets
+H30-39	De 30 à 39 heures
+H_GE32	32 heures et plus
+H40-49	De 40 à 49 heures
+H_GE50	50 heures et plus
+TOT_FTU	Total en unités à temps complet
+AVG_FTU	Moyenne annuelle en unité à temps complet
+PT_FTU	Temps partiel en unités à temps complet
+NRP	Sans réponse
+UNK	Inconnu

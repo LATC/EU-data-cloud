@@ -1,0 +1,47 @@
+TOTAL	Total
+0	Aucune tête
+1	1 tête
+1_2	1 ou 2 têtes
+1-9	De 1 à 9 têtes
+1-99	De 1 à 99 têtes
+2	2 têtes
+3_4	3 ou 4 têtes
+3-9	De 3 à 9 têtes
+5-9	De 5 à 9 têtes
+10-14	De 10 à 14 têtes
+10-19	De 10 à 19 têtes
+10-49	De 10 à 49 têtes
+15-19	De 15 à 19 têtes
+20-29	De 20 à 29 têtes
+20-49	De 20 à 49 têtes
+30-39	De 30 à 39 têtes
+30-49	De 30 à 49 têtes
+40-49	De 40 à 49 têtes
+50-59	De 50 à 59 têtes
+50-99	De 50 à 99 têtes
+60-99	De 60 à 99 têtes
+100-199	De 100 à 199 têtes
+100-499	De 100 à 499 têtes
+100-999	De 100 à 999 têtes
+GE100	100 têtes ou plus 
+200-299	De 200 à 299 têtes
+200-399	De 200 à 399 têtes
+200-499	De 200 à 499 têtes
+GE200	200 têtes ou plus 
+300-499	De 300 à 499 têtes
+GE300	300 têtes ou plus 
+400-999	De 400 à 999 têtes
+500-999	De 500 à 999 têtes
+GE500	500 têtes ou plus 
+1000-1999	De 1 000 à 1 999 têtes
+1000-2999	De 1 000 à 2 999 têtes
+GE1000	1 000 têtes ou plus 
+2000-4999	De 2 000 à 4 999 têtes
+3000-4999	De 3 000 à 4 999 têtes
+5000-9999	De 5 000 à 9 999 têtes
+GE5000	5 000 têtes ou plus 
+10000-29999	De 10 000 à 29 999 têtes
+10000-49999	De 10 000 à 49 999 têtes
+GE30000	30 000 têtes ou plus 
+50000-99999	De 50 000 à 99 999 têtes
+GE100000	100 000 têtes ou plus

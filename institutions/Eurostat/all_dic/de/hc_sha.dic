@@ -1,0 +1,50 @@
+HC1HC9HCR1	Gesundheitsausgaben
+HC1HC9	Laufende Gesundheitsausgaben (CHE)
+HC1	Leistungen der kurativen Gesundheitsversorgung
+HC11	Stationäre kurative Gesundheitsversorgung
+HC12	Tagesfälle der kurativen Gesundheitsversorgung
+HC13	Ambulante kurative Gesundheitsversorgung
+HC14	Häusliche kurative Gesundheitsversorgung
+HC2	Leistungen der rehabilitativen Gesundheitsversorgung
+HC21	Stationäre rehabilitative Gesundheitsversorgung
+HC22	Tagesfälle der rehabilitativen Gesundheitsversorgung
+HC23	Ambulante rehabilitative Gesundheitsversorgung
+HC24	Häusliche rehabilitative Gesundheitsversorgung
+HC1HC2	Leistungen der kurativen und der rehabilitativen Gesundheitsversorgung
+HC11HC21	Stationäre kurative und rehabilitative Gesundheitsversorgung
+HC12HC22	Tagesfälle der kurativen und der rehabilitativen Gesundheitsversorgung
+HC13HC23	Ambulante kurative und rehabilitative Gesundheitsversorgung
+HC14HC24	Häusliche kurative und rehabilitative Gesundheitsversorgung
+HC3	Langzeitpflege
+HC31	Stationäre Langzeitpflege
+HC32	Tagesfälle der Langzeitpflege
+HC33	Häusliche Langzeitpflege
+HC4	Hilfsleistungen der Gesundheitsversorgung
+HC41	Klinische Labors
+HC42	Bildgebende Diagnoseverfahren
+HC43	Ambulanz- und Rettungsdienste
+HC49	Sonstige medizinische Hilfsleistungen
+HC5	Ambulante Abgabe medizinischer Güter
+HC51	Arzneimittel und sonstige medizinische Verbrauchsgüter
+HC52	Therapeutische Hilfsmittel und sonstige (langlebige) medizinische Güter
+HC6	Prävention und Gesundheitsschutz
+HC61	Gesundheitsleistungen für Mutter und Kind, Familienplanung
+HC62	Schulärztliche Gesundheitsleistungen
+HC63	Prävention übertragbarer Krankheiten
+HC64	Prävention nicht übertragbarer Krankheiten
+HC65	Betriebsärztliche Gesundheitsleistungen
+HC69	Sonstige Leistungen des Gesundheitsschutzes
+HC7	Verwaltung und Versicherung der Gesundheitsversorgung
+HC71	Verwaltung der Gesundheitsversorgung durch den Staat
+HC72	Verwaltung und Versicherung der Gesundheitsversorgung: private Einrichtungen
+HC9	Gesundheitsversorgung nicht spezifiziert nach ihrer Art
+HCR	Funktionen der Gesundheitsversorgung im weiteren Sinn
+HCR1	Investitionen der Einrichtungen der Leistungserbringer
+HCR2	Aus- und Weiterbildung des Gesundheitspersonals
+HCR3	Forschung und Entwicklung im Gesundheitsbereich
+HCR4	Lebensmittel-, Hygiene- und Trinkwasserkontrolle
+HCR5	Umweltgesundheit
+HCR6	Verwaltung und Bereitstellung sozialer Sachleistungen zur Unterstützung chronisch Kranker und Behinderter
+HCR7	Verwaltung und Bereitstellung gesundheitsbezogener Barleistungen
+HCR2HCR7	Güter und Dienstleistungen des Gesundheitswesens im weiteren Sinn
+LTC	Langzeitpflege (HC.3 and HC.R.6)

@@ -1,0 +1,41 @@
+HP1HP9	Tous prestataires de soins de santé
+HP1HP3	Hôpitaux et prestataires de soins ambulatoires
+HP1	Hôpitaux
+HP1_PUB	Hôpital public
+HP1_NPP	Hôpital privé sans but lucratif
+HP1_PP	Hôpital privé à but lucratif
+HP11	Hôpitaux généraux
+HP12	Hôpitaux psychiatriques et pour toxicomanes
+HP13	Hôpitaux spécialisés (autres qu'hôpitaux psychiatriques et pour toxicomanes)
+HP2	Maisons médicalisées et autres établissements de soins avec hébergement
+HP21	Maisons médicalisée
+HP22	Établissements pour retardés, malades mentaux et toxicomanes
+HP23	Établissements d'hébergement pour personnes âgées
+HP29	Autres établissements de soins avec hébergement
+HP3	Prestataires de soins ambulatoires
+HP31	Cabinets de médecins
+HP32	Cabinets de dentistes
+HP33	Cabinets d'autres professionnels de santé
+HP34	Centres de soins ambulatoires
+HP35	Laboratoires d'analyses médicales et de diagnostic
+HP36	Prestataires de services de soins à domicile
+HP39	Autres prestataires de soins ambulatoires
+HP4	Détaillants et autres distributeurs de soins médicaux
+HP41	Pharmacies
+HP42	Détaillants et autres distributeurs de verres et autres produits d'optique
+HP43	Détaillants et autres distributeurs d'appareils auditifs
+HP44HP49	Détaillants et autres distributeurs d'appareils médicaux; Autres formes de vente au détail et de distribution de produits pharmaceutiques et de biens médicaux
+HP5	Fourniture et gestion de programmes de santé publique
+HP6	Administration générale de la santé et de l'assurance maladie
+HP61	Administration publique de la santé
+HP62	Régimes de sécurité sociale
+HP63HP64	Prestataires d'assurances privées
+HP63	Autres programmes d'assurance sociale 
+HP64	Autres régimes d'assurance (privés)
+HP69	Autres institutions chargées de l'administration de la santé
+HP7	Autres prestataires de services de santé (reste de l'économie)
+HP71	Établissements prestataires de médecine du travail
+HP72	Ménages privés prestataires de soins à domicile
+HP79	Autres producteurs secondaires de soins de santé
+HP9	Reste du monde
+HP0	Non classifié ailleurs

@@ -1,0 +1,19 @@
+TOTALNOREROUTE	Einnahmen insgesamt
+SOC_CONTRIBNOREROUTE	Sozialbeiträge
+SEMPLOYER	Sozialbeiträge der Arbeitgeber
+SEACTUAL	Tatsächliche Sozialbeiträge der Arbeitgeber
+SEIMPUTED	Unterstellte Sozialbeiträge der Arbeitgeber
+SPROT_PERS	Sozialbeiträge der geschützten Personen
+SPEMPLOY	Sozialbeiträge der angestellten Personen
+SPSELF	Sozialbeiträge der selbständigen Personen
+SP_OTH	Sozialbeiträge der Rentner und anderen geschützten Personen
+SREROUTED	Umgeleitete Sozialbeiträge zwischen Systemen
+GG_CONTRIB	Staatliche Beiträge
+GEARLYMARK	Zweckgebundene Steuern
+GGENREV	Allgemeine Steuermittel
+TRANSFER	Übertragungen von anderen Systemen
+REC_OTH	Sonstige Einnahmen
+R_OTH_PROP	Besitzeinkommen
+R_OTH_OTH	Sonstige andere Einnahmen
+TOTAL	Einnahmen insgesamt einschließlich Übertragungen zwischen Systemen
+SOC_CONTRIB	Sozialbeiträge einschließlich Übertragungen zwischen Systemen

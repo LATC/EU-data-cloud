@@ -1,0 +1,28 @@
+NABS01	Erforschung und Nutzung der irdischen Umwelt
+NABS02	Umwelt
+NABS03	Weltraumforschung und -nutzung
+NABS04	Verkehr, Fernmeldewesen und andere Infrastrukturen
+NABS05	Energie
+NABS06	Industrielle Produktion und Technologie
+NABS07	Gesundheitsprojekte
+NABS08	Landwirtschaft
+NABS09	Bildungswesen
+NABS10	Kultur, Erholung, Religion und Massenmedien
+NABS11	Politische und soziale Systeme, Strukturen und Prozesse
+NABS12	Grundlagenforschung: Mit allgemeinen Hochschulforschungsmitteln (AHF) finanzierte FuE
+NABS121	FuE in den Naturwissenschaften - Finanzierung mit AHF
+NABS122	FuE in den Ingenieurwissenschaften - Finanzierung mit AHF
+NABS123	FuE in den Medizinischen Wissenschaften - Finanzierung mit AHF
+NABS124	FuE in den Agrarwissenschaften - Finanzierung mit AHF
+NABS125	FuE in den Sozialwissenschaften - Finanzierung mit AHF
+NABS126	FuE in den Geisteswissenschaften - Finanzierung mit AHF
+NABS13	Grundlagenforschung: Aus anderen Quellen als aus AHF finanzierte FuE
+NABS131	FuE in den Naturwissenschaften - Finanzierung aus anderen Quellen als aus AHF
+NABS132	FuE in den Ingenieurwissenschaften - Finanzierung aus anderen Quellen als aus AHF
+NABS133	FuE in den Medizinischen Wissenschaften - Finanzierung aus anderen Quellen als aus AHF
+NABS134	FuE in den Agrarwissenschaften - Finanzierung aus anderen Quellen als aus AHF
+NABS135	FuE in den Sozialwissenschaften - Finanzierung aus anderen Quellen als aus AHF
+NABS136	FuE in den Geisteswissenschaften - Finanzierung aus anderen Quellen als aus AHF
+NABS14	Verteidigung
+NABS99_X_14	Gesamte Mittelzuweisungen für zivile FuE
+NABS99	Gesamte Mittelzuweisungen für FuE

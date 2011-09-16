@@ -1,0 +1,47 @@
+PC_TOT_IMP	Share of imports by partner in total imports (%)
+PC_TOT_EXP	Share of exports by partner in total exports (%)
+RT_EXP_IMP	Export/Import ratio
+IMP_VAL	Imports in 1000 million of ECU/EURO
+EXP_VAL	Exports in 1000 million of ECU/EURO
+BAL_VAL	Trade balance in 1000 million ECU/EURO
+IVOL_IMP	Import volume index (2000=100)
+IVOL_EXP	Export volume index (2000=100)
+RT_IVOL	Volume Ratio (Export/Import)
+PC_IMP_EU	Share of imports from EU in total imports (%)
+PC_EXP_EU	Share of exports to EU in total exports (%)
+PC_IMP_WRL	Share of national imports in world imports (%)
+PC_EXP_WRL	Share of national exports in world exports (%)
+TRD_VAL	Trade value in million ECU/EURO
+TRD_VAL_RT12	Growth rate M/M-12 of the trade value
+TRD_VAL_SWDA	Seasonally and working day adjusted trade value in million ECU/EURO
+TRD_VAL_SWDA_RT1	Growth rate M/M-1 of the seasonally and working day adjusted trade value
+TRD_VAL_TREND	Trend-cycle of the trade values
+IVU	Unit value index (2000=100)
+IVU_EXP	Export unit value index (2000=100)
+IVU_IMP	Import unit value index (2000=100)
+RT_IVU	Terms of trade (Export/import)
+IVU_RT1	Growth rate M/M-1 of the unit-value indices
+IVU_RT12	Growth rate M/M-12 of the unit-value indices
+IVOLU	Unit volume index (2000=100)
+IVOL_NSA	Volume indices (2000=100)
+IVOL_NSA_RT12	Growth rate M/M-12 of the volume Indices
+IVOL_SWDA	Seasonally and working day adjusted volume indices (2000=100)
+IVOL_SWDA_RT1	Growth rate M/M-1 of the seasonally and working day adjusted volume Indices
+IVOL_TREND	Trend-cycle of the volume indices (2000=100)
+CONT_IMP_EU	Share of imports by Member State (%)
+CONT_EXP_EU	Share of exports by Member State (%)
+CONT_IMP	Share in the EU-25 imports (%)
+CONT_EXP	Share in the EU-25 exports (%)
+MIO_BAL_VAL	Trade balance in million ECU/EURO
+MIO_EXP_VAL	Exports in million of ECU/EURO
+MIO_IMP_VAL	Imports in million of ECU/EURO
+PC_EU_EX_IMP	Share in Total Extra-EU imports (%)
+PC_EU_EX_EXP	Share in Total Extra-EU exports (%)
+PC_MU_EX_IMP	Share in Total Extra-euroarea imports (%)
+PC_MU_EX_EXP	Share in Total Extra-euroarea exports (%)
+PC_IMP_PROD	Share of imports by product (%)
+PC_EXP_PROD	Share of exports by product (%)
+1000_TRD_VAL	Trade value in thousand ECU/EURO
+NUM_ENT	Number of enterprises
+PC_IMP_PART	Share of imports by partner (%)
+PC_EXP_PART	Share of exports by partner (%)

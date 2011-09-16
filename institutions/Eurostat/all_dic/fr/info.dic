@@ -1,0 +1,15 @@
+A	Information économique sur les entreprises
+B	Information structurelle et qualitative sur le marché
+C	Information sur le commerce international
+D	Information sur le volume de l'offre
+E	Information sur les prix
+F	Information sur la qualité des prestations
+G	Information sur la structure de la demande
+H	Information sur l'infrastructure technique
+X	Information générale
+VALUE	Valeur
+REF_YEAR	Année de référence
+FLAGS	Flags
+LEVEL	Niveau absolu
+PCH_SAME	Variation en pourcentage comparée à la période correspondante de l'année précédente
+METH	Méthode d'évaluation

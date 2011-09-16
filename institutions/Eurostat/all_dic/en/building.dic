@@ -1,0 +1,7 @@
+TOTAL	Total
+RES	Residential buildings
+RES1	One-dwelling residential buildings
+RES2	Two-dwelling residential buildings
+RES_GE3	Three or more dwelling residential buildings
+NRES	Non-residential buildings
+UNK	Unknown

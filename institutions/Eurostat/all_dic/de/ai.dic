@@ -1,0 +1,34 @@
+SOX	Schwefeloxide
+SO2	Schwefeldioxid
+NOX	Stickstoffoxide
+NH3	Ammoniak
+CO	Kohlenmonoxid
+NMVOC	Flüchtige organische Verbindungen ohne Methan
+CH4	Methan
+N2O	Distickstoffoxid
+SF6	Schwefelhexafluorid
+GHG	Treibhausgasemissionen (CO2 Äquivalente)
+CO2	Kohlendioxid
+CO2_BIO	Kohlendioxid von Biomasse als Treibstoff genutzt
+CH4_EQ	Methan (Treibhauspotenzial, CO2 Äquivalente)
+N2O_EQ	Distickstoffoxid (Treibhauspotenzial, CO2 Äquivalente)
+HFC	Fluorhydrokohlenwasserstoffe (CO2-Äquivalente)
+PFC	Vollhalogenierter Fluorkohlenwasserstoff (CO2-Äquivalente)
+SF6_EQ	Sulphur hexafluoride (Global warming potential, CO2 equivalent)
+SPM	Feinstaub-Emissionen bis 10µm (PM10 Äquivalenten)
+PM10	Partikel < 10µm
+SOX_PMP	Sulphur oxides (Particulate Formation, PM10 equivalent)
+NOX_PMP	Nitrogen oxides (Particulate Formation, PM10 equivalent)
+NH3_PMP	Ammonia (Particulate Formation, PM10 equivalent)
+PM2_5	Particulates < 2.5µm
+PM	Particulates
+AP	Gesamtes Versauerungspotential (Säure-Äquivalent)
+NOX_ACP	Nitrogen oxides (Acidifying Potential, Acid equivalents)
+NH3_ACP	Ammonia (Acidifying Potential, Acid equivalent)
+SOX_ACP	Sulphur oxides (Acidifying Potential, Acid equivalent)
+TOP	Bodennahes Ozonbildungspotential (in TOFP Äquivalenten)
+NMVOC_TOFP	Non-methane Volatile Organic Compounds (Tropospheric ozone forming potential)
+NOX_TOFP	Nitrogen oxides ( Tropospheric ozone forming potential, NMVOC equivalent)
+CO_TOFP	Carbon monoxide (Tropospheric ozone forming potential, NMVOC equivalent)
+CH4_TOFP	Methane (Tropospheric ozone forming potential, NMVOC equivalent)
+PB	Blei

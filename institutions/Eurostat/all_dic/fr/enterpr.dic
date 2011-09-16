@@ -1,0 +1,19 @@
+TOTAL	Total
+1	Entreprises d'assurance vie
+2	Entreprises d'assurance non-vie
+3	Entreprises d'assurance mixte
+4	Entreprises de réassurance spécialisées
+5	Activités d'assurance-vie des entreprises mixtes
+6	Activités d'assurance non-vie des entreprises mixtes (y compris les acceptations en réassurance)
+AVIA	Entreprises aéroportuaires
+AIRP	Entreprises d'aviation
+RL_UNDTK	Entreprise ferroviaire
+IF_MNG	Gestionnaire d'infrastructure
+INTG_CO	Société intégrée
+DOM_SRC	Entreprises avec sourçage local
+INT_SRC	Entreprises avec sourçage international
+INT_PLAN	Entreprises sans sourçage international, mais avec des projets de sourçage international
+INT_NO	Entreprises sans sourçage international, sans projet de sourçage international
+YHE	Jeunes entreprises à forte croissance (gazelles)
+OTH_YHE	Autres entreprises à forte croissance
+OTH	Autres entreprises

@@ -1,0 +1,23 @@
+TOTAL	Insgesamt
+DWEL	Wohnungen
+NCONV	Nicht konventionelle Wohnungen
+CONV	Konventionelle Wohnungen
+PRINCIPAL	Hauptwohnsitz
+HOUSE	Haus
+HOUSE_D	Einzelhaus
+HOUSE_SD	Doppelhaus
+FLAT	Wohnung
+FLAT_LT10	Wohnung in einem Gebäude mit weniger als zehn Wohnungen
+FLAT_GE10	Wohnung in einem Gebäude mit zehn oder mehr Wohnungen
+RESID	Wohnhaus
+RESID_1	Einfamilienhaus
+RESID_2	Zweifamilienhäuser
+RESID_GE3	Drei- oder Mehrfamilienhäuser
+RESID_OTH	Mehrfamilienhaus - andere
+RESID_UNK	Unbekanntes Wohnhaus
+NRESID	Nichtwohngebäude
+SECOND	Wohnungen als Saison- oder Zweitwohnungen
+OTHER	Sonstige
+OTH_LQUART	Sonstige Unterkunft (Hotel, Anstalt, Lager)
+VACANT	Leerstehend
+UNK	Unbekannt

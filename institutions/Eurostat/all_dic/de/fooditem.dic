@@ -1,0 +1,68 @@
+F_01	Nahrungsmittel und alkoholfreie Getränke
+F_011	Nahrungsmittel
+F_0111	Getreide
+F_01111	Getreide (ausgenommen Reis)
+F_011111	Weizen
+F_011111A	Weichweizen
+F_011111B	Hartweizen
+F_011112	Gerste
+F_011113	Mais
+F_01173	Hülsenfrüchte
+F_01112	Reis - Insgesamt  (äquivalent : geschliffener Reis)
+F_011121	Paddyreis
+F_011122	Geschälter Reis
+F_011123	Geschliffener Reis
+F_011124	Bruchreis
+F_0112	Fleisch - Insgesamt
+F_01121	Fleisch : Rinder
+F_01122	Fleisch : Schweine
+F_01123	Fleisch : Schafe und Ziegen
+F_01124	Fleisch : Geflügel
+F_01125	Fleisch : Einhufer
+F_0113	Fisch und Seelebensmittel
+F_0114	Milch, Käse und Eier
+F_01141_01151	Vollmilch (Rohstoff)
+F_011411	Konsummilch
+F_011412	Käse
+F_01142	Eier
+F_0115	Fette und Öle
+F_01151	Butter
+F_011521	Ölsaaten und -früchte - Insgesamt
+F_0116_7	Obst, Gemüse, einschließlich Kartoffeln
+F_0116	Obst
+F_01161	Frischobst
+F_011611	Äpfel
+F_011612	Birnen
+F_011613	Pfirsische
+F_011614	Trauben
+F_011615	Zitrusfrüchte
+F_0116151	Orangen
+F_011621	Schalenobst
+F_011622	Trockenfrüchte
+F_0117	Gemüse
+F_01171	Gemüse (ausgenommen Kartoffeln)
+F_011711	Blumenkohl
+F_011712	Frische Tomaten
+F_01172	Kartoffeln
+F_0118_9	Nahrungsmittel, einschließlich Zucker,  Marmelade, Honig, Sirup, Schokolade und Süßwaren
+F_0118	Zucker, Marmelade, Honig, Sirup, Schokolade und Süßwaren
+F_01181	Zucker (Äquivalent : weißer Zucker)
+F_0119	Nahrungsmittel a.n.g.
+F_012	Alkoholfreie Getränke
+F_0121	Kaffee, Tee und Kakao
+F_0122	Mineralwasser, Limonade und Saft
+F_021	Alkoholische Getränke
+F_0211	Branntwein
+F_0212	Wein - Insgesamt
+F_0212A	Wein - Insgesamt - Rot/Rosé
+F_0212B	Wein - Insgesamt - Weiß
+F_02121	Qualitätswein - Insgesamt
+F_02121A	Qualitätswein - Rot/Rosé
+F_02121B	Qualitätswein -  Weiß
+F_02122	Tafelwein - Insgesamt
+F_02122A	Tafelwein -  Rot/Rosé
+F_02122B	Tafelwein - Weiß
+F_02123	Andere Weine - Insgesamt
+F_02123A	Andere Weine - Rot/Rosé
+F_02123B	Andere Weine - Weiß
+F_0213	Bier

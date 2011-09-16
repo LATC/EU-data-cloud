@@ -1,0 +1,20 @@
+HBED	Verfügbare Betten in Krankenhäusern (HP.1)
+HBED_CUR	Betten für medizinische Behandlung in Krankenhäusern (HP.1)
+HBED_PSY	Betten für psychiatrische Pflege in Krankenhäusern (HP.1)
+HBED_LT	Betten für Langzeitpflege (ohne psychiatrische Pflege) in Krankenhäusern (HP.1)
+HBED_OTH	Sonstige Betten in Krankenhäusern (HP.1)
+NRCBED	Verfügbare Betten in Pflegeheimen und anderen stationären Pflegeeinrichtungen (HP.2)
+CT_SCAN	Computertomographen
+MRI	MRT-Geräte
+GAMMA	Gammakameras
+DSA	Angiographiegeräte
+LSI	Lithotripter
+PET_SCAN	PET-Scanner
+RAD	Strahlentherapiegeräte
+MAMMO	Mammographen
+OPER	Operationssäle im Krankenhaus 
+DAY	Gesamtheit der Tagespflegeplätze
+DAY_SUR	Chirurgische Tagespflegeplätze
+DAY_ONC	Onkologische Tagespflegeplätze
+DAY_PSY	Psychiatrische Tagespflegeplätze
+DAY_GER	Geriatrische Tagespflegeplätze

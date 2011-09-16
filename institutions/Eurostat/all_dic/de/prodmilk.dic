@@ -1,0 +1,138 @@
+MF000	Vollmilch insgesamt (Aufnahme = Verwendung)
+MF001	Kuhmilch - Insgesamt
+MF002	Schafsmilch
+MF003	Ziegenmilch
+MF004	Büffelmilch
+MF008	Milch nicht von Milchkühen
+MF009	Milch von Milchkühen
+COWYI	Milchleistung pro Milchkuh (kg/jahr)
+MF010	Mager- und Buttermilch insgesamt (Aufnahme = Verwendung)
+MF011	Mager- und Buttermilch : Rücklieferung von den Molkereien
+MF012	Mager- und Buttermilch : Saldo aus Rahmanlieferung
+MF013	Mager- und Buttermilch aus Herstellung von Butter und Rahm
+MF030	Bauernbutter und Rahm
+MF110	Konsummilch - Insgesamt
+MF118	Konsummilch - Verkauf ab Hof
+MF119	Konsummilch - Eigenverbrauch
+MF130	Bauernrahm
+MF131	Bauernrahm geliefert an Molkereien
+MF230	Bauernbutter
+MF231	Bauernbutter geliefert an Molkereien
+MF240	Bauernkäse
+MF241	Bauernkäse geliefert an Molkereien
+MF290	Sonstige Erzeugnisse
+MF291	Sonstige Erzeugnisse geliefert an Molkereien
+MF400	Lieferung an Molkereien
+MF410	Milch geliefert an Molkereien
+MF430	Sahne/Rahm geliefert an Molkereien (in Milchequivalent)
+MF490	Andere Produkte geliefert an Molkereien (Werwendung)
+MF520	Verfütterung
+MF600	Differenz und Verluste
+MC000	Milchaufnahme (insgesamt)
+MC001	Kuhmilchaufnahme
+MC002	Schafsmilchaufnahme
+MC003	Ziegenmilchaufnahme
+MC004	Büffelmilchaufnahme
+MC005	Rahmaufnahme (in Milchwert)
+MC009	Sonstige Produkte bei den landwirtschaftlichen Betrieben aufgenommen
+MC006	Magermilch und Buttermilch
+MC010	Einfuhr von Vollmilch (einschließlich Rohmilch)
+MC020	Einfuhr (intra-EU) von Vollmilch (einschließlich Rohmilch)
+MC014	Einfuhr von Magermilch
+MC024	Einfuhr (intra-EU) von Magermilch
+MC015	Einfuhr von Rahm (in Milchwert)
+MC025	Einfuhr (intra-EU) von Rahm (in Milchwert)
+MC019	Einfuhr von sonstigen Produkten
+MC029	Einfuhr (intra-EU) von sonstigen Produkten
+MC100	Frischerzeugnisse
+MC110	Konsummilch
+MC111	Rohmilch
+MC112	Vollmilch
+MC922	Vollmilch pasteurisiert
+MC932	Vollmilch sterilisiert
+MC942	Vollmilch ultra-hocherhitzt
+MC113	Teilentrahmte (fettarme) Milch
+MC923	Teilentrahmte Milch pasteurisiert
+MC933	Teilentrahmte Milch sterilisiert
+MC943	Teilentrahmte Milch ultra-hocherhitzt
+MC114	Entrahmte Milch
+MC924	Entrahmte Milch pasteurisiert
+MC934	Entrahmte Milch sterilisiert
+MC944	Entrahmte Milch ultra-hocherhitzt
+MC120	Buttermilch
+MC130	Sahne- (Rahm-) -Erzeugnisse
+MC135	Sahneerzeugnisse mit einem Fettgehalt von 29 % und weniger
+MC136	Sahneerzeugnisse mit einem Fettgehalt von mehr als 29 %
+MC140	Sauermilcherzeugnisse (Joghurt und andere)
+MC141	Sauermilcherzeugnisse mit Zusätzen
+MC142	Sauermilcherzeugnisse ohne Zusätze
+MC150	Milchmischgetränke
+MC160	Sonstige Frischerzeugnisse (Milchpudding und andere)
+MC200	Hergestellte Erzeugnisse
+MC210	Kondensmilch
+MC211	Kondensmilch ungezuckert
+MC212	Kondensmilch gezuckert
+MC220	Milchpulver
+MC221	Sahne-/Rahmpulver
+MC222	Vollmilchpulver
+MC223	Teilentrahmtes Milchpulver
+MC226	Vollmilchpulver (MC221+MC222+MC223)
+MC224	Magermilchpulver
+MC225	Buttermilchpulver
+MC229	Sonstige Erzeugnisse in Pulverform
+MC203	Butter und sonstige Streichfette
+MC230	Butter - Insgesamt (MC231+MC232)
+MC231	Butter
+MC2311	Traditionelle Butter
+MC2312	rekombinierte Butter
+MC2313	Molkenbutter
+MC232	Butterschmalz und Butteröl
+MC239	Sonstige Streichfette
+MC2391	fettreduzierte Butter
+MC2392	sonstige Streichfette (ohne fettreduzierte Butter)
+MC240	Käse =(MC241+MC242+MC243+MC249) oder (MC291+MC292+MC293+MC294+MC295+MC296)
+MC241	Käse aus reiner Kuhmilch
+MC242	Käse aus reiner Schafsmilch
+MC243	Käse aus reiner Ziegenmilch
+MC249	Andere (Mischungen und Käse aus reiner Büffelmilch)
+MC291	Weichkäse
+MC292	Halbfester Schnittkäse (mittelweich)
+MC293	Schnittkäse (mittelhart)
+MC294	Hartkäse
+MC295	Extraharter Käse
+MC296	Frischkäse
+MC250	Schmelzkäse
+MC260	Kasein und Kaseinate
+MC270	Molke
+MC271	Molke flüssig verwendet
+MC272	Molke eingedickt verwendet
+MC273	Molkepulver- und Brocken
+MC274	Laktose (Milchzucker)
+MC275	Laktoalbumine
+MC280	Chocolate crumb
+MC310	Magermilch - im landwirtschaftlichen Betrieb verblieben
+MC320	Magermilch - Rücklieferung an den landwirtschaftlichen Betrieb
+MC330	Magermilch - Saldo Sahneeinfuhr
+MC340	Mager- und Buttermilch und Molke: Einfuhr
+MC341	Mager- und Buttermilch und Molke: Einfuhr intra-EU
+MC390	Mager- und Buttermilch und Molke: sonstige Quellen
+MC400	Mager- und Buttermilch und Molke: Ausfuhr
+MC410	Mager- und Buttermilch und Molke: Ausfuhr intra-EU
+MC500	Mager- und Buttermilch und Molke: sonstige Verwendung
+MC510	Mager- und Buttermilch und Molke: menschliche Ernährung
+MC520	Mager- und Buttermilch und Molke: Tierfutter
+MC600	Differenz = Aufnahme - Verwendung
+MM001	Kuhmilchaufnahme
+MM002	Aufnahme von Sahne/Rahm bei den landwirtschaftlichen Betrieben
+MM024	Magermilchpulverbestand
+MM030	Butterbestand
+MM110	Konsummilch
+MM130	Sahne- (Rahm-) -Erzeugnisse
+MM140	Sauermilcherzeugnisse
+MM210	Kondensmilch
+MM224	Magermilchpulver
+MM225	Buttermilchpulver
+MM226	Sahne-, Voll- und teilentrahmtes Milchpulver
+MM230	Butter
+MM241	Käse
+MM260	Kasein und Kaseinate

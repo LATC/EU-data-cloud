@@ -1,0 +1,18 @@
+H0	Null Stunden
+TOTAL	Insgesamt
+PT	Teilzeit
+H1-19	Von 1 bis 19 Stunden
+H1-9	Von 1 bis 9 Stunden
+H10-19	Von 10 bis 19 Stunden
+H20-29	Von 20 bis 29 Stunden
+H20-31	Von 20 bis 31 Stunden
+FT	Vollzeit
+H30-39	Von 30 bis 39 Stunden
+H_GE32	32 Stunden und mehr
+H40-49	Von 40 bis 49 Stunden
+H_GE50	50 Stunden und mehr
+TOT_FTU	Insgesamt in Vollzeiteinheiten
+AVG_FTU	Jahresdurchschnitt in Vollzeiteinheiten
+PT_FTU	Teilzeit in Vollzeiteinheiten
+NRP	Keine Antwort
+UNK	Unbekannt

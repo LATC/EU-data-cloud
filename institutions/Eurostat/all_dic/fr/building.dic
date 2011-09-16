@@ -1,0 +1,7 @@
+TOTAL	Total
+RES	Bâtiments résidentiels
+RES1	Bâtiments résidentiels avec un logement
+RES2	Bâtiments résidentiels avec deux logements
+RES_GE3	Bâtiments résidentiels avec trois logements ou plus
+NRES	Bâtiments non résidentiels
+UNK	Inconnu

@@ -1,0 +1,16 @@
+T01	Problems with arms or hands (which includes arthritis or rheumatism)
+T02	Problems with legs or feet (which includes arthritis or rheumatism)
+T03	Problems with back or neck (which includes arthritis or rheumatism)
+T04	Difficulty in seeing (with glasses or contact lenses if worn)
+T05	Difficulties in hearing (with hearing aids or grommets, if used)
+T06	Speech impediment
+T07	Skin conditions, including severe disfigurement, allergies
+T08	Chest or breathing problems, includes asthma and bronchitis
+T09	Heart, blood pressure or circulation problems
+T10	Stomach, liver, kidney or digestive problems
+T11	Diabetes
+T12	Epilepsy (include fits)
+T13	Mental, nervous or emotional problems
+T14	Other progressive illnesses (which include cancers NOS, MS, HIV, Parkinson's disease)
+T15	Other longstanding health problems
+NRESP	No answer

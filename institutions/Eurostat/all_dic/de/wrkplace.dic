@@ -1,0 +1,34 @@
+TOTAL	Insgesamt
+NATFIX	Mit festem Arbeitsort im Zählungsland
+NUTS5	Arbeitet auf der gleichen Ebene NUTS 5 wie der Wohnort
+NUTS4	Arbeitet auf der gleichen Ebene NUTS 4
+NUTS3	Arbeitet auf der gleichen Ebene NUTS 3
+NUTS2	Arbeitet auf der gleichen Ebene NUTS 2
+NUTS1	Arbeitet auf der gleichen Ebene NUTS 1
+NAT	Arbeitet im Zählungsland
+FORFIX	Mit festem Arbeitsort außerhalb des Zählungslandes
+EU15	Europäische Union (15 Länder)
+AT	Österreich
+BE	Belgien
+DK	Dänemark
+DE	Deutschland (einschließlich ex-DDR seit 1991)
+FI	Finnland
+FR	Frankreich
+GR	Griechenland
+IE	Irland
+IT	Italien
+LU	Luxemburg (Grand-Duché)
+NL	Niederlande
+PT	Portugal
+ES	Spanien
+SE	Schweden
+UK	Vereinigtes Königreich
+EFTA	Europäische Freihandelsvereinigung (CH, IS, LI, NO)
+IS	Island
+LI	Liechtenstein
+NO	Norwegen
+CH	Schweiz
+EUR_REM	Übriges Europa (CY, MT, TR, AD, MC, SM, VA)
+EU15_FOR	Außerhalb der Europäischen Union (15 Länder)
+NOFIX	Hat keinen festen Arbeitsort
+UNK	Unbekannt

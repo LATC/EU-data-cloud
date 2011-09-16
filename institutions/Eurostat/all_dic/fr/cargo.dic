@@ -1,0 +1,59 @@
+TOTAL	Total
+LBK	Marchandises en vrac liquides
+LBK_LGAS	Vrac liquide - Gaz liquéfié
+LBK_COIL	Vrac liquide - Pétrole brut
+LBK_ROIL	Vrac liquide - Produits pétroliers raffinés
+LBK_OTH	Vrac liquide - Autres
+LBK_NSP	Vrac liquide - Non spécifié
+DBK	Marchandises en vrac sèches
+DBK_ORES	Vrac sec - Minerais
+DBK_COAL	Vrac sec - Charbon
+DBK_PAGR	Vrac sec - Produits agricoles
+DBK_OTH	Vrac sec - Autres
+DBK_NSP	Vrac sec - Non spécifié
+CNT_SWP	Conteneurs et caisses mobiles
+LCNT	Grands conteneurs
+LCNT_20	Grands Conteneurs - Unités de fret de 20 pieds
+LCNT_40	Grands Conteneurs - Unités de fret de 40 pieds
+LCNT_21-39	Grands Conteneurs - Unités de fret de plus de 20 pieds et de moins de 40 pieds
+LCNT_GT40	Grands Conteneurs - Unités de fret de plus de 40 pieds
+LCNT_LD	Grands conteneurs (à l'exception des caisses mobiles) - chargés
+LCNT_EMP	Grands conteneurs (à l'exception des caisses mobiles) - vide
+LCNT_NSP	Grands conteneurs - Taille non spécifiée
+CNT_OTH	Autres conteneurs
+PAL	Marchandises palettisées
+PSLG	Marchandises pré-élinguées
+WRVEH	Wagons de chemins de fer chargés de véhicules routiers
+MSP	Unités mobiles, autopropulsées
+RMSP	Unités mobiles routières, autopropulsées
+WMSP	Unités mobiles autopropulsées transportées sur des wagons de chemins de fer
+RVEH	Véhicules routiers (accompagnés)
+RO_MSP	Ro-Ro, unités autopropulsées mobiles
+RO_RVEH	Ro-Ro - Véhicules routiers pour le transport de marchandises et remorques accompagnantes
+RO_CM	Ro-Ro - Voitures particulières, motocycles et remorques/caravanes accompagnantes
+RO_PBUS	Ro-Ro - Autocars pour passagers
+RO_TVEH	Ro-Ro - Véhicules commercialisés (y compris véhicules automobiles import/export)
+RO_LANI	Ro-Ro - Animaux vivants 'sur pied'
+RO_MSP_OTH	Ro-Ro - Autres unités autopropulsées mobiles
+RO_MSP_NSP	Ro-Ro - Unités autopropulsées mobiles non spécifiées
+MNSP	Unités mobiles, non autopropulsées
+RMNSP	Unités mobiles routières, non autopropulsées
+WMNSP	Unités mobiles non autopropulsées transportées sur des wagons de chemins de fer
+STRL	Semi-remorques (non accompagnés)
+RO_MNSP	Ro-Ro, unités non autopropulsées mobiles
+RO_TRL_STRL	Ro-Ro - Remorques et semi-remorques routières de marchandises non accompagnées
+RO_CVAN_OTH	Ro-Ro - Caravanes non accompagnées et autres véhicules routiers agricoles et industriels
+RO_RWS	Ro-Ro - Wagons de chemin de fer, remorques et barges pour le transport de marchandises par navires
+RO_RW	Ro-Ro - Wagons de chemin de fer pour le transport de marchandises
+RO_SPP	Ro-Ro - Remorques pour le transport de marchandises par navires
+RO_SB	Ro-Ro - Barges pour le transport de marchandises  par navires
+RO_MNSP_OTH	Ro-Ro - Autres unités non autopropulsées mobiles
+RO_MNSP_NSP	Ro-Ro - Unités non autopropulsées mobiles non spécifiées
+RES	Réservés
+OTH	Autres types de fret, non spécifié ailleurs
+OTH_FOR	Autre fret - Produits forestiers
+OTH_IS	Autre fret - Produits ferreux et acier
+OTH_GN	Autre fret - Autre fret général
+OTH_UNK	Autre fret - Inconnu
+UNK	Inconnu
+NSP	Fret autre que conteneurs ou unités mobiles, non spécifié 

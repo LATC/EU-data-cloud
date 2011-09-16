@@ -1,0 +1,67 @@
+0000000	NS - Total
+1000000	Hommes
+2000000	Femmes
+0100000	0 - 14 ans (non compris dans le total)
+0200000	15 - 24 ans
+0300000	25 - 44 ans
+0400000	45 - 64 ans
+0500000	65 ans et plus
+0900000	Age non spécifié
+0010000	1 à 3 nuitées
+0020000	4 ou plus de nuitées consécutives
+0030000	De 4 à 7 nuitées
+0040000	De 8 à 14 nuitées
+0050000	De 15 à 28 nuitées
+0060000	De 29 à 91 nuitées
+0070000	De 92 à 365 nuitées
+0090000	Durée non spécifiée
+0001000	Aérien
+0002000	Maritime
+0003000	Terrestre
+0004000	Chemins de fer
+0005000	Autocars, autobus
+0006000	Véhicules privés et loués
+0007000	Autres moyens de transport
+0009000	Moyen de transport non spécifié
+0000100	Réservation directe avec l'opérateur d'hébergement/de transport
+0000200	Utilisation d'une agence de voyage, un voyagiste
+0000300	Voyages à forfait
+0000400	Pas de type d'organisation
+0000900	Organisation du séjour non specifiée
+0000010	Hôtels et établissements assimilés
+0000020	Autres établissements collectifs
+0000030	Campings touristiques
+0000040	Logements de vacances
+0000050	Autres établissements collectifs n.s.a.
+0000060	Hébergementstouristiques spécialisés
+0000070	Hébergements touristiques privés
+0000080	Hébergements loués
+0000090	Résidences secondaires
+0000011	Autres types d'hébergement privés
+0000009	Type d'hébergement non spécifié
+4000001	Janvier
+4000002	Février
+4000003	Mars
+4000004	Avril
+4000005	Mai
+4000006	Juin
+4000007	Juillet
+4000008	Août
+4000009	Septembre
+4000010	Octobre
+4000011	Novembre
+4000012	Décembre
+4000099	Mois non spécifié
+4100001	Janvier (de l'année précédente)
+4100002	Février (de l'année précédente)
+4100003	Mars (de l'année précédente)
+4100004	Avril (de l'année précédente)
+4100005	Mai (de l'année précédente)
+4100006	Juin (de l'année précédente)
+4100007	Juillet (de l'année précédente)
+4100008	Août (de l'année précédente)
+4100009	Septembre (de l'année précédente)
+4100010	Octobre (de l'année précédente)
+4100011	Novembre (de l'année précédente)
+4100012	Décembre (de l'année précédente)
+4100099	Mois non spécifié (de l'année précédente)

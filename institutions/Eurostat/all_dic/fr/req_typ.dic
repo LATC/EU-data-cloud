@@ -1,0 +1,20 @@
+REQ	Demandes
+REQ_ACC	Demandes acceptées
+REQ_REF	Demandes refusées
+REQ_TRAN	Transfert
+REQ_NBR	Nombre total de demandes
+TKC	Nombre total de demandes de prise en charge
+FAM_TKC	Demandes de prises en charge: Raisons familiales (Art.6, Art.7, Art.8, Art.14)
+DOC_TKC	Demandes de prises en charge: Documents et entrée sur le territoire (Art.9, Art.10, Art.11, Art.12)
+HUMAN_TKC	Demandes de prises en charge: Raisons humanitaires (Art.15)
+TKB	Nombre total de demandes de reprises en charge
+ART45_TKB	Demandes de reprises en charge: retrait d'une demande pendant le processus de détermination de l'Etat responsable (Art. 4.5)
+ART161C_TKB	Demandes de reprises en charge: examen en cours - présence sur le territoire d'un autre Etat Membre sans permission  (Art.16.1.c)
+ART161D_TKB	Demandes de reprises en charge: Retrait en cours d'examen - nouvelle demande (Art.16.1.d)
+ART161E_TKB	Demandes de reprises en charge: Rejet - présence sur le territoire d'un autre Etat Membre sans permission  (Art.16.1.e)
+EURDC	Total EURODAC
+EURDC_TKC	Demandes de prises en charge basées sur EURODAC
+EURDC_TKB	Demandes de reprises en charge basées sur EURODAC
+PEND_REQ	Nombre total de demandes en attente à la fin de la période de référence
+INFO_REQ	Nombre total de demandes pour information
+ANS_REQ	Nombre total de réponses aux demandes pour information

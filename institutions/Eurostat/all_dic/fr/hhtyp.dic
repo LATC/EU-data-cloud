@@ -1,0 +1,193 @@
+TOTAL	Total
+PRIV	Ménages privés
+PRIV_MBR	Vivant au sein d'un ménage privé avec des membres du noyau familliale
+PRIV_NMBR	Vivant au sein d'un ménage privé avec d'autres personnes non membres du noyau familliale
+PRIV_OTH	Autres personnes vivant dans le ménage privés
+FAM1	Ménage comportant une seule famille
+FAM_GE2	Ménage comportant deux familles ou plus
+FAM_OTH	Habitant dans une autre famille
+NFAM	Ménage non familial (célibataire + ménage comportant plusieurs personnes)
+NFAM_OTH	Autre non familial
+MULTI_NFAM	Ménage non familial comportant plusieurs personnes
+AM	Hommes (seules ou avec une partenaire)
+AF	Femmes (seules ou avec un partenaire)
+AF_NCH	Femmes (seules ou avec un partenaires) sans enfants
+AF_CH	Femmes (seules ou avec un partenaires) avec enfants
+A1	Personne seule
+A1_LT30	Un adulte de moins de 30 ans
+A1_30_64	Un adulte entre 30 et 64 ans
+A1_LT64	Un adulte de moins de 64 ans
+A1_LT65	Un adulte de moins de 65 ans
+A1_GE65	Un adulte de plus de 65 ans
+A1_NCH	Personne seule sans enfants
+A1_CH	Parent seul avec enfants
+A1_DCH	Parent seul avec enfants dépendants
+A1_1CH	Parent seul avec un enfant
+A1_2CH	Parent seul avec deux enfants
+A1_GE3CH	Parent seul avec trois enfants ou plus
+A1F	Femme seule
+AF_GE65	Femme de plus de 65 ans
+AF_LT65	Femme de moins de 65 ans
+A1M	Homme seul
+AM_GE65	Homme de plus de 65ans
+AM_LT65	Homme de moins de 65ans
+A1M_CH	Père seul avec enfants
+A1M_CH_NOTH	Père seul avec enfants sans autres personnes
+A1M_CH_OTH	Père seul avec enfants avec autres personnes
+A1M_CH_LT15	Père seul avec enfants (tous moins de 15 ans)
+A1M_CH_LT15_GE15	Père seul avec enfants (certains moins de 15 ans, certains plus)
+A1M_CH_GE15	Père seul avec enfants (tous plus de 15 ans)
+A1M_1CH_CHLT6	Père seul avec un enfant (de moins de 6 ans)
+A1M_ACT	Père seul économiquement active
+A1M_INACT	Père seul économiquement inactive
+A1M_UNK	Père seul avec l'activité économique inconnu
+A1F_CH	Mère seule avec enfants
+A1F_CH_NOTH	Mère seule avec enfants sans autres personnes
+A1F_CH_OTH	Mère seule avec enfants avec autres personnes
+A1F_CH_LT15	Mère seule avec enfants (tous moins de 15 ans)
+A1F_CH_LT15_GE15	Mère seule avec enfants (certains moins de 15 ans, certains plus)
+A1F_CH_GE15	Mère seule avec enfants (tous plus de 15 ans)
+A1F_1CH_CHLT6	Mère avec enfants (1+ moins de 6 ans)
+A1F_NCH	Femme seule sans enfants
+A1F_ACT	Mère seule économiquement active
+A1F_INACT	Mère seule économiquement inactive
+A1F_UNK	Mère seule avec l'activité économique inconnu
+A2	Deux adultes
+A2_15_64	2 adultes (tous 2 entre 15 et 64 ans)
+A2_2LT65	Deux adultes moins de 65 ans
+A2_GE1_GE65	Deux adultes dont l'un au moins a 65 ans et plus
+A2_1GE65	2 adultes (dont l'un au moins a plus de 65 ans)
+A2_DCH	Deux adultes avec enfants dépendants
+A2_1CH	2 adultes et 1 enfant
+A2_1DCH	Deux adultes avec un enfant dépendant
+A2_2CH	2 adultes et 2 enfants
+A2_2DCH	Deux adultes avec deux enfants dépendants
+A2_2CH_LT14	Deux adultes avec deux enfants de moins de 14 ans
+A2_3CH	2 adultes et 3 enfants
+A2_GE3DCH	Deux adultes avec trois enfants dépendants ou plus
+A2_GE4CH	2 adultes et 4 enfants ou plus
+A_GE2_NDCH	Deux adultes ou plus sans enfants dépendants
+A_GE2_DCH	Deux adultes ou plus avec enfants dépendants
+A3_CH	3 adultes avec enfants
+A3_NCH	3 adultes sans enfants
+A_GE3	Trois adultes ou plus
+A_GE3_DCH	Trois adultes ou plus avec enfants dépendants
+CPL	Couple
+CPL_NCH	Couple sans enfants
+CPL_NCH_NOTH	Couple sans enfant sans autres personnes
+CPL_NCH_OTH	Couple sans enfant avec d'autres personnes
+CPL_A1_GE65	Couple, une personne âgée de plus de 65 ans
+CPL_A2_LT65	Couple, les deux âgés de moins de 65 ans
+CPL_A2_GE65	Couple, les deux âgés de plus de 65 ans
+CPL_CH	Couple avec enfants
+CPL_CH_NOTH	Couple avec enfants sans autres personnes
+CPL_CH_OTH	Couple avec enfants avec d'autres personnes
+CPL_1CH	Couple avec un enfant
+CPL_1CH_CHLT6	Couple avec un enfant (de moins de 6 ans)
+CPL_2CH	Couple avec deux enfants
+CPL_GE3CH	Couple avec trois enfants ou plus
+CPL_CH_LT15	Couple avec enfants (tous moins de 15 ans)
+CPL_CH_LT15_GE15	Couple avec enfants (certains moins de 15 ans, certains plus)
+CPL_CH_GE15	Couple avec enfants (tous plus de 15 ans)
+MCPL	Couple marié
+MCPL_NCH	Couple marié sans enfants
+MCPL_CH	Couple marié avec enfants
+MCPL_1CH	Couple marié avec un enfant
+MCPL_2CH	Couple marié avec deux enfants
+MCPL_GE3CH	Couple marié avec 3 enfants ou plus
+MCPL_ACT	Couple marié, mari et femme économiquement actifs
+MCPL_MACT	Couple marié, mari économiquement actif et femme économiquement inactive
+MCPL_FACT	Couple marié, femme économiquement active et homme économiquement inactif
+MCPL_INACT	Couple marié, mari et femme économiquement inactifs
+MCPL_UNK	Couple marié, activité économique du mari et de la femme inconnu
+CCPL	Couple cohabitant
+CCPL_NCH	Couple cohabitant sans enfants
+CCPL_CH	Couple cohabitant avec enfants
+CCPL_1CH	Couple cohabitant avec un enfant
+CCPL_2CH	Couple cohabitant avec deux enfants
+CCPL_GE3CH	Couple cohabitant avec trois enfants ou plus
+CCPL_ACT	Couple cohabitant, homme et femme économiquement actifs
+CCPL_MACT	Couple cohabitant, homme économiquement actif et femme économiquement inactive
+CCPL_FACT	Couple cohabitant, femme économiquement active et homme économiquement inactif
+CCPL_INACT	Couple cohabitant, homme et femme économiquement inactifs
+CCPL_UNK	Couple cohabitant, activité économique de l'homme et la femme inconnu
+PART	Vivant avec un partenaire ou un conjoint
+PART_CH	Vivant avec un partenaire ou un conjoint et avec enfants
+PART_NCH	Vivant avec un partenaire ou un conjoint et sans enfants
+PARTN	Vivant sans partenaire ou conjoint
+MAR	Conjoint
+MAR_NCH	Conjoint vivant sans enfants
+MAR_CH	Conjoint vivant avec enfants
+MAR_1CH	Conjoint vivant avec un enfant
+MAR_2CH	Conjoint vivant avec deux enfants
+MAR_GE3CH	Conjoint vivant avec trois enfants ou plus
+COH	Cohabitant
+COH_NCH	Cohabitant vivant sans enfants
+COH_CH	Cohabitant vivant avec enfants
+COH_1CH	Cohabitant vivant avec un enfant
+COH_2CH	Cohabitant vivant avec deux enfants
+COH_GE3CH	Cohabitant vivant avec trois enfants ou plus
+NCOH	Ne cohabitant pas
+CHILD	Personne vivant comme enfant dans la maison parentale
+CH_CPL	Enfant vivant avec les deux parents
+CH_CPL1	Enfant vivant avec les deux parents, pas d'autres enfants
+CH_CPL2	Enfant vivant avec les deux parents et un autre enfant
+CH_CPL3	Enfant vivant avec les deux parents et deux autres enfants ou plus
+CH_MCPL	Enfant vivant avec les deux parents mariés
+CH_MCPL1	Enfant vivant avec les deux parents mariés, pas d'autres enfants
+CH_MCPL2	Enfant vivant avec les deux parents mariés et un autre enfant
+CH_MCPL3	Enfant vivant avec les deux parents mariés et deux autres enfants ou plus
+CH_CCPL	Enfant vivant avec les deux parents cohabitant
+CH_CCPL1	Enfant vivant avec les deux parents cohabitants, pas d'autres enfants
+CH_CCPL2	Enfant vivant avec les deux parents cohabitants et un autre enfant
+CH_CCPL3	Enfant vivant avec les deux parents cohabitants et deux autres enfants
+CH_A1	Enfant vivant avec un parent seul
+CH_A1_1	Enfant vivant avec un parent seul, pas d'autres enfants
+CH_A1_2	Enfant vivant avec un parent seul et un autre enfant
+CH_A1_3	Enfant vivant avec un parent seul et deux autres enfants
+LF	Vivant dans la famille
+NLF	Ne vivant pas dans la famille
+OTH_NLF	Autres personnes ne vivant pas dans la famille
+OTH	Autre
+OTH_NCH	Autres sans enfant
+OTH_CH	Autres avec des enfants
+ALL_NDCH	Tous types sans enfants dépendants
+ALL_DCH	Tous types avec enfants dépendants
+HH_NDCH	Ménages sans enfants dépendants
+HH_DCH	Ménages avec enfants dépendants
+HH_O1	Ménages dans les régions de l'Objectif 1 / Régions de "convergence"
+OTHER	Autres ménages
+OTHER_NCH	Autres ménages sans enfants
+OTHER_CH	Autres ménages avec enfants
+HH_NO1	Ménages d'une région hors objectif 1 / Régions relevant des objectifs de "compétitivité et d'emploi"
+HH_DEG1	Ménages dans une zone densément peuplée (au moins 500 habitants/Km²)
+HH_DEG2	Ménages dans une zone moyennement peuplée (entre 100 et 449 habitants/Km²)
+HH_DEG3	Ménages dans une zone faiblement peuplée (moins de 100 habitants/Km²)
+HH_HBB	Membres d'un ménage exerçant une activité à domicile
+HH_TLW	Membres d'un ménage effectuant du télétravail
+HH_NO_HBB_TLW	Ménages n'exerçant ni activité à domicile ni télétravail
+HHI_Q1	Nombre de ménages dans le premier quartile de revenu
+HHI_Q2	Nombre de ménages dans le deuxième quartile de revenu
+HHI_Q3	Nombre de ménages dans le troisième quartile de revenu
+HHI_Q4	Nombre de ménages dans le quatrième quartile de revenu
+INST	Ménage collectif
+EDUC	Institutions d'enseignement
+GEN_HOSP	Hôpitaux en général
+PSY_HOSP	Hôpital psychiatrique
+MEDI	Etablissements médicaux
+HANDI	Institutions pour handicapés
+ORPH	Orphelinat
+RESTHOME	Sanatorium, cures
+TEMP	Centre d'hébergement temporaire
+WELF	Institutions d'assistance
+WELF_OTH	Autres institutions d'assistance
+HOTEL	Hôtels et assimilés
+WHOTEL	Foyer de travailleurs
+MILI	Etablissements militaires
+PRISON	Institution pénitentiaire
+RELI	Institutions religieuses
+RETIR	Maison de retraite
+OLD_OTH	Autres établissements pour personnes âgées
+STUD	Résidences d'étudiants
+INST_OTH	Autres institutions
+UNK	Inconnu

@@ -1,0 +1,18 @@
+H0	Zero hours
+TOTAL	Total
+PT	Part-time
+H1-19	From 1 to 19 hours
+H1-9	From 1 to 9 hours
+H10-19	From 10 to 19 hours
+H20-29	From 20 to 29 hours
+H20-31	From 20 to 31 hours
+FT	Full-time
+H30-39	From 30 to 39 hours
+H_GE32	32 hours or over
+H40-49	From 40 to 49 hours
+H_GE50	50 hours or over
+TOT_FTU	Total in full-time unit
+AVG_FTU	Yearly average in full-time unit
+PT_FTU	Part-time in full-time unit
+NRP	No response
+UNK	Unknown

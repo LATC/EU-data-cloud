@@ -1,0 +1,297 @@
+LIVESTOCK	Tierbestände
+SLAUGHT	Schlachtungen
+MILKPROD	Erzeugung von Milch in den landwirtschaftlichen Betrieben
+MILKCOL	Milchaufnahme der Molkereien
+PROD_AREA	Produktionsfläche (1000 ha)
+PROD_HARV	Ernteerzeugung (1000 t)
+PC_SELFSUF	Grad der Selbstversorgung (%)
+HOLD_NBR	Anzahl der Betriebe
+LAYING_NBR	Legehennen (1000 Tiere)
+BROILER_NBR	Masthähnchen und -hühnchen (1000 Tiere)
+AGRAREA_HA	Landwirtschaftlich genutzte Fläche (ha)
+LFD_AWU	JAE:Arbeitskräfte - vom Betrieb beschäftigt
+LOCAL_UNIT	Zahl der örtlichen Einheiten
+OP_END_YEAR	Anzahl der registrierten Unternehmen am Ende des Jahres
+OP_NEW	Anzahl der im Jahr neu registrierten Unternehmen
+OP_OUT	Anzahl der im Jahr zurückgezogenen Unternehmen
+FLEET	Fischereiflotte
+EMPLOY	Zahl der Beschäftigten (Gesamtangaben der EU werden in Hundert ausgedrückt)
+ENTER_NBR	Anzahl der Betriebe
+ENT_MILKCOL	Verteilung der Unternehmen entsprechend der jährlichen Milchaufnahme
+ENT_MILKTRT	Verteilung der Unternehmen entsprechend dem Umfang der Milchverarbeitung
+APP_HCONS	Sichtbarer menschlicher Gesamtverbrauch
+APP_HCONS_CAP	Sichtbarer Gesamtverbrauch der Hauptnahrungsmittel pro Kopf
+CATCHES	Fischfänge
+PROD_AQUA	Aquakulturproduktion
+LANDINGS	Fischanlandungen
+PRIC_LEVEL	Relative Preisniveauindizes
+HICP	Harmonisierte Verbraucherpreisindizes
+PRODSOLD	Verkaufte Produktion
+GOVBUD_RD	Staatliche Aufwendungen für FuE
+TURNOVER	Umsatz (Mio Euro)
+IN_WW	Binnenschifffahrt 
+RAIL	Bahntranport 
+ROAD	Strassentransport 
+ROAD_NAT	Nationaler Strassentransport
+PAT_APP	Patentanmeldungen beim EPA
+AREA_FC	Vollständig umgestellte Fläche der pflanzlichen Erzeugung
+AREA_UC	Fläche der pflanzlichen Erzeugung in der Umstellungsphase
+AREA_TOT	Gesamtfläche der pflanzlichen Erzeugung
+PROD	Produktion (1000 t)
+PEST_SALE	Verkauf von Pestiziden
+CONS_AGR	Verbrauch in der Landwirtschaft
+PROD_US	Verwendbare Erzeugung
+SUPPLY	Verfügbarkeit insgesamt
+EXP_TOT	Ausfuhr insgesamt (für EU Aggregate : Ausfuhr nach Drittländer)
+IMP_TOT	Einfuhr insgesamt (für die EU : Einfuhr aus Drittländern)
+EXP_EXT_EU15	Extra-EU15 Exporte
+EXP_INT_EU15	Intra-EU15 Exporte
+IMP_INT_EU15	Intra-EU15 Importe
+IMP_EXT_EU15	Extra-EU15 Importe
+IMP_EXT_EU	Extra-EU Importe (Evolution)
+IMP_INT_EU	Intra-EU Importe (Evolution)
+EXP_EXT_EU	Extra-EU Exporte (Evolution)
+EXP_INT_EU	Intra-EU Exporte (Evolution)
+EXP_EXT_EU25	Extra-EU25 Exporte
+IMP_EXT_EU25	Extra-EU25 Importe
+EXP_INT_EU25	Intra-EU25 Exporte
+IMP_INT_EU25	Intra-EU25 Importe
+IMP_WORLD	Einfuhr Welt
+EXP_WORLD	Ausfuhr Welt
+SE_FARM	Saatgutverbrauch auf dem Hof
+SE_OWNPROD	Saatgutverbrauch auf dem Hof aus der eigenen Produktion
+INT_CONS	Wert des mittleren Verbrauchs in der Landwirtschaft (Herstellungspreise)
+VAL_OUTP	Wert des landwirtschaftlichen Ertrags (Herstellungspreise)
+PARTNER	EU Handelspartner
+HOLD_HOLD	Betr:Anz. Betriebe
+HOLD	Anz. Betriebe
+HOLDSL_HOLD	Betr:Betriebe mit einem Inhaber
+HOLDLEG_GRP_HOLD	Betr:Juristische Personen oder Gruppenbetriebe
+SGM_ESU	EGE:SDB des Betriebes
+TOTAREA_HA	ha:Gesamtfläche
+TOTAREA	Gesamtfläche
+AGRAREA	Landwirtschaftlich genutzte Fläche
+CC01_HA	ha:Eigentum:Landwirtschaftliche Fläche
+CC01	Eigentum:Landwirtschaftliche Fläche
+CC02_HA	ha:Pacht:Landwirtschaftliche Fläche
+CC02	Pacht:Landwirtschaftliche Fläche
+CC03_HA	ha:Teilpacht und andere Besitzformen:Landwirtschaftliche Fläche
+CC03	Andere Besitzformen:Landwirtschaftliche Fläche
+CC05	Betriebe mit ökologischem oder anderem Landbau mit niedrigem Input
+D	Ackerland
+D01_09_13D1	Getreide, Ölsaaten, Eiweißpflanzen
+D01_08	Getreide
+D01	Weichweizen und Spelz
+D02	Hartweizen
+D03	Roggen
+D04	Gerste
+D05	Hafer
+D06	Körnermais
+D07	Reis
+D08	Sonstiges Getreide
+D09	Hülsenfrüchte
+D09C	Erbsen für Futterzwecke
+D09D	Bohnen für Futterzwecke
+D10_12	Hackfrüchte
+D10	Kartoffeln
+D11	Zuckerrüben
+D12_18_F	Futterfläche
+D12	Futterhackfrüchte
+D13	Handelsgewächse
+D13A	Tabak
+D13B	Hopfen
+D13C	Baumwolle
+D13D	Andere Handelsgewächse
+D13D1	Insgesamt:Andere Ölsaaten oder Textilpflanzen
+D13D1A	Raps und Rübsen:Sonstige Ölsaaten oder Textilpflanzen
+D13D1B	Sonnenblumen:Sonstige Ölsaaten oder Textilpflanzen
+D13D1C	Soja:Sonstige Ölsaaten oder Textilpflanzen
+D13D1D	Sonstige:Sonstige Ölsaaten oder Textilpflanzen
+TEXT_CRP	Textilpflanzen (einschließlich Baumwolle, Flachs, Hanf)
+D13D2	Heil-, Duft- und Gewürzpflanzen
+D13D3	Handelsgewächse - Sonstige
+D14_15	Gemüse, Melonen, Erdbeeren
+D14	Im Freiland:Gemüse, Melonen, Erdbeeren
+D14A	Feldanbau:Im Freiland:Gemüse, Melonen, Erdbeeren
+D14B	Gartenbaukulturen:Im Freiland:Gemüse, Melonen, Erdbeeren
+D15_17_G07	Unter Glas:Gemüse, Blumen, Dauerkulturen
+D15	Unter Glas:Gemüse, Melonen, Erdbeeren
+D16_17	Blumen und Zierpflanzen
+D16	Im Freiland:Blumen und Zierpflanzen (ohne Baumschulen)
+D17	Unter Glas:Blumen und Zierpflanzen (ohne Baumschulen)
+D18	Futterpflanzen
+D18A	Futterpflanzen - Ackerwiesen und -weiden
+D18B	Insgesamt:Sonstige Grünfutterpflanzen:Futterpflanzen
+D18B1	Grünmais:Sonstige Grünfutterpflanzen:Futterpflanzen
+D18B2	Leguminosen:Sonstige Grünfutterpflanzen:Futterpflanzen
+D19_20	Sämereien, Pflanzgut und sonstige Kulturen auf Ackerland
+D19	Sämereien und Pflanzgut auf Ackerland
+D20	Sonstige Kulturen auf Ackerland
+D21_22	Schwarzbrache
+D21	Schwarz-, Grünbrache für die keine Beihilfe gewährt wird
+D22	Nicht produktives Ackerland für das Beihilfe gewährt wird
+E	Haus- und Nutzgärten
+F	Insgesamt:Dauergrünland
+F01	Dauerwiesen und-weiden:Dauergrünland
+F02	Ertragsarme Weiden:Dauergrünland
+F03	Nicht produktives Grünland für das Beihilfe gewährt wird
+G	Dauerkulturen
+G01	Obst- und Beerenobstanlagen
+G01A	Arten der gemäßigten Klimazonen:Obst- und Beerenobstanlagen
+G01B	Arten der subtropischen Klimazonen:Obst- und Beerenobstanlagen
+G01C	Schalenobst
+G02	Zitrusanlagen
+G03	Olivenanlagen
+G03A	Olivenanlagen - Tafeloliven
+G03B	Olivenanlagen - Olivenöl
+G04	Rebanlagen
+G04A	Rebanlagen - Qualitätsweine
+G04B	Rebanlagen - andere Weine
+G04C	Rebanlagen - Tafeltrauben
+G04D	Rebanlagen - Rosinen
+G05	Reb- und Baumschulen
+G06	Sonstige Dauerkulturen
+G07	Dauerkulturen unter Glas
+H	Sonstige Flächen
+H0103	Nichtgenutzte Flächen und sonstige Flächen
+H02	Forstfläche
+H02F	Forstfläche - zum Holzverkauf bewirtschaftet
+H02G	Forstfläche - mit kurzer Umtriebszeit
+I01	Insgesamt:Einander folgende Nebenkulturen
+I01A	Getreide (D01 bis D08), ausgenommen für Futterzwecke:Einander folgende Nebenkulturen
+I01B	Hülsenfrüchte (D09),ausgenommen für Futterzwecke:Einander folgende Nebenkulturen
+I01C	Ölsaaten (D13D1), ausgenommen für Futterzwecke:Einander folgende Nebenkulturen
+I01D	Sonstige:Einander folgende Nebenkulturen
+I02	Pilze
+I03A	Bewässerbare Fläche
+I03B	Mindestens einmal im Jahre bewässerte Fläche
+I03B1	Bewässerte Kulturen:Hartweizen
+I03B2	Bewässerte Kulturen:Mais
+I03B3	Bewässerte Kulturen:Kartoffeln
+I03B4	Bewässerte Kulturen:Zuckerrüben
+I03B5	Bewässerte Kulturen:Sonnenblumen
+I03B6	Bewässerte Kulturen:Soja
+I03B7	Bewässerte Kulturen:Futterplanzen
+I03B8	Bewässerte Kulturen:Obstanlagen
+I03B9	Bewässerte Kulturen:Zitrusfrüchte
+I03B10	Bewässerte Kulturen:Rebanlagen
+I04	Grundfläche Gewächshäuser
+I05	Vergesellschaftete Kulturen
+I05A	Vergesellschaftete:Landwirtschaftliche Kulturen - Forstpflanzen
+I05B	Vergesellschaftete:Kulturen auf Zeit - Dauerkulturen
+I05C	Vergesellschaftete:Dauerkulturen - Dauerkulturen
+I05D	Sonstige vergesellschaftete Kulturen
+I08	Stillgelegte Flächen mit Beihilfe - Insgesamt
+I08A	Nicht produktive Flächen für die Beihilfe gewährt wird
+I08AD22	Schwarz-, Grünbrache:Stillgelegte Flächen mit Beihilfe
+I08B	Landwirtschaftliche Rohstoffe:Stillgelegte Flächen mit Beihilfe
+I08C	DauergrünlandStillgelegte Flächen mit Beihilfe
+I08D	Forstflächen:Stillgelegte Flächen mit Beihilfe
+I08E	Sonstige:Stillgelegte Flächen mit Beihilfe
+I09A_HA	ha:Kulturen zur Verminderung der Winter-Nährstoffausschwemmung
+I09A_HOLD	Betr:Kulturen zur Verminderung der Winter-Nährstoffausschwemmung
+I09B_HA	ha:Stickstoffbindende Kulturen zu Düngezwecken
+I09B_HOLD	Betr:Stickstoffbindende Kulturen zu Düngezwecken
+J_LSU	GVE:Viehbestand
+J	Viehbestand
+J01	Einhufer
+J01_10_LSU	GVE:Pflanzenfresser
+J02_08	Rinder
+J02	Rinder <1 Jahr
+J02A	Rinder <1 Jahr - männlich
+J02B	Rinder <1 Jahr - weiblich
+J03	Rinder 1-<2 Jahren - männlich
+J04	Rinder 1-<2 Jahren - weiblich
+J05	Rinder, 2 Jahre und älter, männlich
+J06	Färsen, 2 Jahre und älter
+J07	Milchkühe
+J08	Sonstige Kühe
+J09	Schafe
+J09A	Mutterschafe
+J09B	Schafe, sonstige
+J10	Ziegen
+J10A	Ziegen, weiblich zur Zucht
+J10B	Ziegen, sonstige
+J11_13_HEADS	Tiere:Schweine
+J11_13	Schweine
+J11	Ferkel mit einem Lebendgewicht unter 20 kg
+J12	Mutterschweine von 50 kg und mehr
+J13	Schweine, andere
+J14_16_1000_HEADS	1000:Geflügel
+J14_16	Geflügel (1000 Tiere)
+J14	Masthähnchen und -hühnchen (1000 Tiere)
+J15	Legehennen (1000 Tiere)
+J16	Sonstiges Geflügel (1000 Tiere)
+J17	Mutterkaninchen
+J18	Bienenstöcke
+J19A	Schalenwild
+K01A	Vierradschlepper, Kettenschlepper, Geräteträger im Alleinbesitz des Betriebes
+K01A0	Vierradschlepper etc. <40 kw im Alleinbesitz des Betriebes
+K01A3	Vierradschlepper etc. 40 - <60 kw im Alleinbesitz des Betriebes
+K01A41	Vierradschlepper etc. 60 - <100 kw im Alleinbesitz des Betriebes
+K01A42	Vierradschlepper etc. >=100 kw im Alleinbesitz des Betriebes
+K02A	Einachsschlepper etc. im Alleinbesitz des Betriebes
+K03A_MACH	Mas:Mähdrescher im Alleinbesitz des Betriebes
+K03	Betriebe mit Mähdrescher
+K03A	Mähdrescher im Alleinbesitz des Betriebes
+K09A	Andere vollmechanisierte Erntemaschinen im Alleinbesitz des Betriebes
+B04_EQ_Y_HOLD	Betr:Betriebe mit landwirtschaftlicher Buchführung
+CC05B_EQ_Y_HOLD	Sonstige Bewirtschaftungssysteme mit geringem Input
+CC05C_EQ_Y_HOLD	Umweltrelevante Prämien erhaltend
+CC05C1_EQ_Y_HOLD	Umweltrelevante Prämien für Landschaftspflege
+J19_EQ_Y	Anz. der Betriebe mit sonstigen Tiere
+K01B_EQ_Y	Betr. die Vierradschlepper (nicht-eigen) in den letzten 12 Monaten benutzt haben
+K02B_EQ_Y	Betr. die Einachsschlepper (nicht-eigen) in den letzten 12 Monaten genutzt haben
+K03B_EQ_Y	Betr. die Mähdrescher (nicht-eigene) in den letzten 12 Monaten benutzt haben
+K09B_EQ_Y	Betr. die andere vollmechanisierte Erntegeräte (nicht-eigene) in den letzten 12 Monaten genutzt haben
+K10_EQ_M	Betr. mit beweglicher Bewässerungsanlage
+K10_EQ_F	Betr. mit feststehender Bewässerungsanlage
+K10_EQ_I	Betr. mit feststehender oder beweglicher Bewässerungsanlage
+K10_EQ_0	Betr. ohne Bewässerungsanlage
+L07_EQ_M_HOLD	Betr. mit hauptberuflicher außerbetrieblicher Erwrbsttgkt.des Inhaber-Leiters
+L07_EQ_M_AGRAREA_HA	ha LF:Betriebe mit hauptberuflicher außerbetrieblicher Erwerbstätigkeit des Inhaber-Leiters
+L07_EQ_S_HOLD	Betr. mit nebenberuflicher außerbetrieblichen Erwrbsttgkt.des Inhaber-Leiters
+L07_EQ_S_AGRAREA_HA	ha LF:Betriebe mit nebenberuflicher außerbetrieblicher Erwerbstätigkeit des Inhaber-Leiters
+L07_EQ_N_HOLD	Betr. mit Inhaber Leiter ohne außerbetrieblicher Erwerbstätigkeit (L07=x)
+L07_EQ_N_AGRAREA_HA	ha LF:Betriebe ohne außerbetrieblicher Erwerbstätigkeit des Inhaber-Leiters (L07=x)
+L08_EQ_M_HOLD	Betr:Hauptberufliche außerbetriebliche Erwerbstätigkeit:Mitarbeitende Gatte des Alleininhabers
+L08_EQ_S_HOLD	Betr:Nebenberufliche außerbetriebliche Erwerbstätigkeit:Mitarbeitende Gatte des Alleininhabers
+L08_EQ_N_HOLD	Betr:Keine außerbetriebliche Erwerbstätigkeit:Mitarbeitende Gatte des Alleininhabers
+L09A_PERS	Per:Andere hauptberufliche Erwerbstätigkeit:Mitarbeitender Familienangehöriger
+L09B_PERS	Per:Andere nebenberufliche Erwerbstätigkeit:Mitarbeitender Familienangehöriger
+LFH_M	Männlich:Alleiniger Betriebsinhaber
+LFH_F	Weiblich:Alleiniger Betriebsinhaber
+LFH	Alleiniger Betriebsinhaber
+LFS_M	Männlich:Ehegatte des alleinigen Betriebsinhabers
+LFS_F	Weiblich:Ehegatte des alleinigen Betriebsinhabers
+LFS	Ehegatte des alleinigen Betriebsinhabers
+LFROF_M	Männlich:Andere Familienarbeitskräfte
+LFROF_F	Weiblich:Andere Familienarbeitskräfte
+LFROF	Andere Familienarbeitskräfte:Arbeitskräfte
+LFRF_M	Männlich:Familienarbeitskräfte:Arbeitskräfte
+LFRF_F	Weiblich:Familienarbeitskräfte:Arbeitskräfte
+LFRF	Familienarbeitskräfte
+LFRNF_M	Männlich:Regelm. beschäftigte familienfremde Arbeitskräfte
+LFRNF_F	Weiblich:Regelm. beschäftigte familienfremde Arbeitskräfte
+LFRNF	Regelm. beschäftigte familienfremde Arbeitskräfte
+LFNR	Arbeitskräfte - unregelm. beschäftigte familienfremde
+LFGH_PERS	Per:Gruppenbetriebe:Betriebsinhaber
+LFGH	Gruppenbetriebe:Betriebsinhaber
+LFR_PERS	Per:Arbeitskräfte - regelmäßig vom Betrieb beschäftigt
+LFR	Arbeitskräfte - regelmäßig vom Betrieb beschäftigt
+LFR_M_PERS	Per:Männlich:Regelmäßig Arbeitskräfte vom Betrieb beschäftigt
+LFR_M	Männlich:Regelmäßig Arbeitskräfte vom Betrieb beschäftigt
+LFR_F_PERS	Per:Weiblich:regelmäßig Arbeitskräfte vom Betrieb beschäftigt
+LFR_F	Weiblich:regelmäßig Arbeitskräfte vom Betrieb beschäftigt
+LFD	Arbeitskräfte - vom Betrieb beschäftigt
+LFND	Arbeitskräfte - nicht unmittelbar vom Betrieb beschäftigt
+M01	Betriebe mit einer außerbetrieblichen Erwerbstätigkeit
+M01A	Betriebe mit Fremdenverkehr als andere Erwerbstätigkeit
+M01B	Betriebe mit Handwerk als andere Erwerbstätigkeit
+M01C	Betriebe mit Verarbeitung landwirtschaftlicher Erzeugnisse als andere Erwerbstätigkeit
+M01D	Betriebe mit Holzverarbeitung als andere Erwerbstätigkeit
+M01E	Betriebe mit Aquakultur als andere Erwerbstätigkeit
+M01F	Betriebe mit Erzeugung erneuerbarer Energie als andere Erwerbstätigkeit
+M01G	Betriebe mit vertraglichen Arbeiten als andere Erwerbstätigkeit
+M01H	Betriebe mit sonstiger anderer Erwerbstätigkeit
+PCT_ORG_UAA	Anteil der ökologischen Anbaufläche an der landwirtschaftlich genutzten Fläche insgesamt (%)

@@ -1,0 +1,6 @@
+TOTAL	Insgesamt
+CC_LE125	125 cm³ oder weniger
+CC_GT125	Mehr als 125 cm³
+CC_LT1400	Weniger als 1 400 cm³
+CC1400-1999	1 400 bis 1 999 cm³
+CC_GE2000	2 000 cm³ oder mehr

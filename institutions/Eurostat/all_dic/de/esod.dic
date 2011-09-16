@@ -1,0 +1,122 @@
+TOTAL	Insgesamt
+OD10403-20109	Durch bestimmte chemische Arbeitsstoffe ausgelöste Erkrankungen
+OD100	Durch chemische Arbeitsstoffe ausgelöste Erkrankungen
+OD10000	Erkrankungen durch Acrylnitril
+OD10100	Erkrankungen durch Arsen oder seine Verbindungen
+OD10200	Erkrankungen durch Beryllium (Glucinium) oder seine Verbindungen
+OD10301	Erkrankungen durch Kohlenoxid
+OD10302	Erkrankungen durch Kohlenoxidchlorid
+OD10401	Erkrankungen durch Blausäure
+OD10402	Erkrankungen durch Cyanide und ihre Verbindungen
+OD10403	Erkrankungen durch Isocyanate
+OD10500	Erkrankungen durch Cadmium oder seine Verbindungen
+OD10600	Erkrankungen durch Chrom oder seine Verbindungen
+OD10700	Erkrankungen durch Quecksilber oder seine Verbindungen
+OD10800	Erkrankungen durch Mangan oder seine Verbindungen
+OD10901	Erkrankungen durch Salpetersäure
+OD10902	Erkrankungen durch Stickstoffoxide
+OD10903	Erkrankungen durch Ammoniak
+OD11000	Erkrankungen durch Nickel oder seine Verbindungen
+OD11100	Erkrankungen durch Phosphor oder seine Verbindungen
+OD11200	Erkrankungen durch Blei oder seine Verbindungen
+OD11301	Erkrankungen durch Schwefeloxide
+OD11302	Erkrankungen durch Schwefelsäure
+OD11303	Erkrankungen durch Schwefelkohlenstoff
+OD11400	Erkrankungen durch Vanadium oder seine Verbindungen
+OD11501	Erkrankungen durch Chlor
+OD11502	Erkrankungen durch Brom
+OD11504	Erkrankungen durch Iod
+OD11505	Erkrankungen durch Fluor oder seine Verbindungen
+OD11600	Erkrankungen durch aliphatische oder alicyclische Kohlenwasserstoffe als Bestandteile von Petrolether und von Benzin
+OD11700	Erkrankungen durch halogenierte Derivate der aliphatischen oder alicyclischen Kohlenwasserstoffe
+OD11800	Erkrankungen durch Butyl-, Methyl- und Isopropylalkohol
+OD11900	Erkrankungen durch Ethylenglykol, Diethylenglykol, 1,4-Butandiol sowie nitrierte Glykol- und Glycerinderivate
+OD12000	Erkrankungen durch Methylether, Ethylether, Isopropylether, Vinylether, Dichlorisopropylether, Guajakol, Ethylenglykol-Methylether und -Ethylether
+OD12100	Erkrankungen durch Aceton, Chloraceton, Bromaceton, Hexafluoraceton, Methylethylketon, Methyl-n-Butylketon, Methylisobutylketon, Diacetonalkohol, Mesityloxid, 2-Methylcyclohexanon
+OD12200	Erkrankungen durch phosphororganische Ester
+OD12300	Erkrankungen durch organische Säuren
+OD12400	Erkrankungen durch Formaldehyd
+OD12500	Erkrankungen durch aliphatische Nitroderivate
+OD12601	Erkrankungen durch Benzol oder seine Homologe (die Benzolhomologe sind durch die Formel CnH2n-6 definiert)
+OD12602	Erkrankungen durch Naphthalin oder seine Homologe (das Naphthalinhomolog ist durch die Formel CnH2n-12 definiert)
+OD12603	Erkrankungen durch Vinylbenzol und Divinylbenzol
+OD12700	Erkrankungen durch halogenierte Derivate der aromatischen Kohlenwasserstoffe
+OD12801	Erkrankungen durch Phenole oder ihre Homologe oder ihre halogenierten Derivate
+OD12802	Erkrankungen durch Naphthole oder ihre Homologe oder ihre halogenierten Derivate
+OD12803	Erkrankungen durch halogenierte Derivate der Alkylaryloxide
+OD12804	Erkrankungen durch halogenierte Derivate der Alkylarylsulfide
+OD12805	Erkrankungen durch Benzochinone
+OD12901	Erkrankungen durch aromatische Amine oder aromatische Hydrazine oder ihre halogenierten, phenolischen, nitrosierten, nitrierten oder sulfonierten Derivate
+OD12902	Erkrankungen durch aliphatische Amine und ihre halogenierten Derivate
+OD13001	Erkrankungen durch Nitroderivate der aromatischen Kohlenwasserstoffe
+OD13002	Erkrankungen durch Nitroderivate der Phenole oder ihrer Homologe
+OD13100	Erkrankungen durch Antimon und seine Derivate
+OD13200	Erkrankungen durch Ester der Salpetersäure
+OD13300	Erkrankungen durch Schwefelwasserstoff
+OD13500	Erkrankungen durch anderweitig nicht erfasste durch organische Lösungsmittel ausgelöste Enzephalopathien
+OD13600	Erkrankungen durch anderweitig nicht erfasste durch organische Lösungsmittel ausgelöste Polyneuropathien
+OD200	Hautkrankheiten durch anderweitig nicht erfasste Substanzen und Arbeitsstoffe
+OD20100	Hautkrankheiten und Hautkarzinome
+OD20101	Hautkrankheiten und Hautkarzinome durch Ruß
+OD20102	Hautkrankheiten und Hautkarzinome durch Asphalt
+OD20103	Hautkrankheiten und Hautkarzinome durch Teer
+OD20104	Hautkrankheiten und Hautkarzinome durch Teerpech
+OD20105	Hautkrankheiten und Hautkarzinome durch Anthrazen oder seine Verbindungen
+OD20106	Hautkrankheiten und Hautkarzinome durch Mineralöle und -fette
+OD20107	Hautkrankheiten und Hautkarzinome durch Rohparaffin
+OD20108	Hautkrankheiten und Hautkarzinome durch Karbazol oder seine Verbindungen
+OD20109	Hautkrankheiten und Hautkarzinome durch Nebenprodukte der Steinkohlendestillation
+OD20200	Hauterkrankungen durch berufliche Exposition gegenüber nach wissenschaftlichen Erkenntnissen allergisierenden oder irritativ wirkenden Stoffen, die anderweitig nicht erfasst sind
+OD300	Durch Einatmen von anderweitig nicht erfassten Substanzen und Arbeitsstoffen verursachte Krankheiten
+OD30100	Krankheiten des Atemapparats und Karzinome
+OD30111-30404	Erkrankungen der Atmung
+OD30111	Silikose
+OD30112	Silikose in Verbindung mit Lungentuberkulose
+OD30121	Asbestose
+OD30122	Durch Einatmen von Asbeststäuben verursachtes Mesotheliom
+OD30131	Durch Silikatstäube verursachte Pneumokoniosen
+OD30200	Komplikation der Asbestose durch Bronchialkarzinom
+OD30300	Bronchopulmonale Erkrankungen durch Sintermetallstäube
+OD30401	Durch äußere Einwirkungen verursachte allergische Alveolitiden
+OD30402	Lungenerkrankungen durch Einatmen von Baumwoll-, Leinen-, Hanf-, Jute-, Sisal- und Bagassestäuben und -fasern
+OD30403	Erkrankungen der Atemwege, allergener Natur, durch Einatmen allergener Stoffe, sofern die Stoffe jeweils als allergen anerkannt sind und mit der Art der Arbeit zusammenhängen
+OD30404	Erkrankungen der Atemwege durch Einatmen von Kobalt-, Zinn-, Barium- und Graphitstäuben
+OD30405	Siderose
+OD30406	Durch Einatmen allergener Stoffe ausgelöstes allergisches Asthma, sofern die Stoffe jeweils als allergen anerkannt sind und mit der Art der Arbeit zusammenhängen
+OD30407	Durch Einatmen allergener Stoffe ausgelöste allergische Rhinitis, sofern die Stoffe jeweils als allergen anerkannt sind und mit der Art der Arbeit zusammenhängen
+OD30501	Durch Holzstäube verursachte Krebserkrankungen der oberen Atemwege
+OD30600	Durch Asbest ausgelöste fibrosierende Erkrankungen der Pleura mit Einschränkung der Atemfunktion
+OD30700	Chronisch-obstruktive Bronchitis oder Emphysem der Steinkohlenbergleute
+OD30800	Durch Einatmen von Asbeststäuben verursachtes Bronchialkarzinom
+OD30900	Bronchopulmonale Erkrankungen durch Stäube oder Rauche, die Aluminium oder seine Verbindungen enthalten
+OD31000	Bronchopulmonale Erkrankungen durch Thomasmehl
+OD400	Durch Infektionserreger oder Parasiten verursachte Krankheiten
+OD40100-40500	Erkrankungen durch Infektionen
+OD40100	Durch Infektionserreger oder Parasiten verursachte Krankheiten, die von Tieren oder tierischem Material auf den Menschen übertragen werden
+OD40200	Tetanus
+OD40300	Brucellose
+OD40400	Virushepatitis
+OD40500	Tuberkulose
+OD40600	Amöbiasis
+OD40700	Sonstige Infektionskrankheiten bei Beschäftigten der Bereiche Gesundheitsvorsorge, Krankenpflege, häusliche Betreuung, Labortätigkeit oder vergleichbarer Bereiche, in denen nachweislich Infektionsgefahr besteht
+OD500	Durch physikalische Einwirkungen verursachte Krankheiten:
+OD50201	Grauer Star durch Wärmestrahlung
+OD50202	Erkrankungen der Bindehaut aufgrund der Exposition gegenüber ultravioletten Strahlen
+OD50300	Durch schädigenden Lärm verursachte Schwerhörigkeit oder Taubheit
+OD50400	Erkrankungen durch Zu- oder Abnahme des Luftdrucks
+OD50501	Durch mechanische Schwingungen verursachte osteoartikuläre Erkrankungen der Hand einschließlich des Handgelenks
+OD50502	Durch mechanische Schwingungen verursachte Angioneurosen
+OD50610	Durch Druck verursachte Erkrankungen der Schleimbeutel
+OD50611	Bursitis im Kniebereich
+OD50612	Bursitis im Ellenbogenbereich
+OD50613	Bursitis im Schulterbereich
+OD50621	Erkrankungen durch Überlastung der Sehnenscheiden
+OD50622	Erkrankungen durch Überlastung des Sehnengleitgewebes
+OD50623	Erkrankungen durch Überlastung der Sehnen- und Muskelansätze
+OD50630	Meniskusschäden nach länger andauernder Tätigkeit in kniender oder hockender Stellung
+OD50640	Drucklähmungen der Nerven
+OD50645	Karpaltunnelsyndrom
+OD50700	Augenzittern der Bergleute
+OD50800	Erkrankungen durch ionisierende Strahlen
+OTH	Sonstige Krankheiten
+UNK	Unbekannte Krankheiten

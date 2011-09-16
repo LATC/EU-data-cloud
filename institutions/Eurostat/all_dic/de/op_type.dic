@@ -1,0 +1,12 @@
+RO_ALL	Alle registrierten Unternehmen
+RO_01	Alle registrierten Erzeuger
+RO_02	Alle registrierten Verarbeiter
+RO_03	Alle registrierten Importeure
+RO_04	Ausschließlich registrierte Erzeuger
+RO_05	Ausschließlich registrierte Verarbeiter
+RO_06	Ausschließlich registrierte Importeure
+RO_07	Registrierte gemischte Unternehmen : Erzeuger/Verarbeiter
+RO_08	Registrierte gemischte Unternehmen : Erzeuger/Importeure
+RO_09	Registrierte  gemischte Unternehmen : Verarbeiter/Importeure
+RO_10	Registrierte gemischte Unternehmen : Erzeuger/Verarbeiter/Importeure
+RO_11	Andere registrierte Unternehmen

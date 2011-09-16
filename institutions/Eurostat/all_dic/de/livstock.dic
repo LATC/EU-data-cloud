@@ -1,0 +1,86 @@
+PP0000	Schweinebestand insgesamt
+PP1000	Ferkel, Lebendgewicht < 20 kg
+PP2000	Schweine, Lebendgewicht von 20 bis < 50 kg
+PP3000	Mastschweine (einschließlich ausgemusterte Eber und Sauen) von 50 kg und mehr
+PP3100	Mastschweine von 50 bis < 80 kg
+PP3200	Mastschweine von 80 bis < 110 kg
+PP3300	Mastschweine von mindestens 110 kg
+PP4000	Zuchtschweine, Lebendgewicht von 50 kg und mehr
+PP4100	Eber
+PP4200	Sauen - insgesamt
+PP4210	Sauen, gedeckt, insgesamt
+PP4211	Davon: Sauen, erstmals gedeckt
+PP4220	Sauen nicht gedeckt - insgesamt
+PP4221	Davon: noch nicht gedeckte junge Sauen
+PS0000	Schafbestand insgesamt
+PS1000	Gedeckte Lämmer und Mutterschafe
+PS1100	Gedeckte Lämmer und Mutterschafe zur Milcherzeugung
+PS1200	Sonstige gedeckte Lämmer und Mutterschafe
+PS2000	Sonstige Schafe
+PG0000	Ziegenbestand insgesamt
+PG1000	Gedeckte Ziegen, und Ziegen, die bereits gezickelt haben
+PG1100	Ziegen, die bereits gezickelt haben
+PG1200	Ziegen, erstmals gedeckt
+PG2000	Sonstige Ziegen
+PE0000	Einhufer insgesamt
+PE1000	Pferde
+PE2000	Esel, Maultiere, Maulesel
+PC0000	Rinderbestand insgesamt
+PC1000	Rinder jünger als ein Jahr
+PC1100	Schlachtkälber
+PC1200	Sonstige Kälber
+PC1210	Sonstige Kälber, Männlich
+PC1220	Sonstige Kälber, Weiblich
+PC2000	Rinder zwischen 1 und 2 Jahren
+PC2100	Rinder zwischen 1 und 2 Jahren, Männlich
+PC2200	Rinder zwischen 1 und 2 Jahren, Weiblich
+PC2210	Schlachttiere
+PC2220	Sonstige
+PC3000	Rinder von mindestens 2 Jahren
+PC3100	Rinder von mindestens 2 Jahren, Männlich
+PC3200	Rinder von mindestens 2 Jahren, Weiblich
+PC3210	Färsen
+PC3211	Schlachtfärsen
+PC3212	Sonstige
+PC3220	Kühe
+PC3221	Milchkühe
+PC3222	Sonstige Kühe
+PC4000	Büffel
+PC4100	Zuchtbüffelkühe
+PC4200	Sonstige Büffelkühe
+PH1000	Legehennen
+L_1	Rinderbestand (insgesamt)
+L_1A	Rinder für Fleischproduktion
+L_1B	Sonstige Rinder
+L_11	Rinder jünger als ein Jahr
+L_111	Schlachtkälber
+L_112	Sonstige Kälber
+L_12	Rinder zwischen 1 und 2 Jahren
+L_121	Schlachtrinder zwischen 1 und 2 Jahren
+L_122	Sonstige Rinder zwischen 1 und 2 Jahren
+L_13	Rinder von 2 Jahren und mehr
+L_131	Milchkühe
+L_132	Ammenkühe
+L_133	Schlachtrinder von 2 Jahren und mehr
+L_134	Sonstige Rinder von 2 Jahren und mehr
+L_2	Schweine (insgesamt)
+L_21	Mastschweine
+L_22	Zuchtsauen
+L_23	Sonstige Schweine
+L_3	Schafe (insgesamt)
+L_31	Weibliche Zuchttiere
+L_32	Sonstige Schafe
+L_4	Ziegen (insgesamt)
+L_41	Weibliche Zuchttiere
+L_42	Sonstige Ziegen
+L_5	Geflügel (insgesamt)
+L_51	Masthähnchen und -hühnchen
+L_52	Legehennen
+L_53	Sonstiges Geflügel (Truthähne, Enten, Gänse, etc.)
+L_6	Einhufer
+L_7	Kaninchen
+L_71	Mutterkaninchen
+L_8	Bienen (in Bienenstöcken)
+L_9	Sonstiger Viehbestand
+L_GRAZ	Pflanzenfresser
+TOTAL	Insgesamt

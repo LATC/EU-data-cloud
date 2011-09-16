@@ -1,0 +1,55 @@
+6000	Input total (I+II)
+7000	Total, biens et services de consommation courante de l'agriculture
+7100	Semences et plants
+7490	Animaux d'élevage et de rente
+7500	Energie et lubrifiants
+7520	Combustibles
+7530	Carburants
+7540	Electricité
+7550	Lubrifiants
+7600	Engrais et amendements
+7620	Engrais simples
+7630	Engrais azotés
+7650	Engrais phosphatés
+7680	Engrais potassiques
+7700	Engrais composés
+7710	Engrais NP
+7720	Engrais PK
+7740	Engrais NPK
+7850	Autres engrais et amendements
+7900	Produits de protection des cultures
+7910	Fongicides
+7930	Insecticides
+7950	Herbicides
+7970	Autres produits de protection des cultures
+8000	Aliments des animaux
+8010	Aliments simples
+8030	Céréales et sous-produits de meunerie
+8070	Tourteaux
+8100	Produits d'origine animale
+8130	Autres aliments simples
+8210	Aliments composés
+8230	Aliments composés pour veaux
+8240	Aliments composés pour bovins (autres que veaux)
+8280	Aliments composés pour porcins
+8300	Aliments composés pour volailles
+8350	Autres aliments composés
+8410	Matériel et petit outillage
+8510	Entretien et réparation du matériel
+8610	Entretien et réparation des bâtiments d'exploitation et autres ouvrages
+8730	Services vétérinaires
+8790	Frais généraux
+9000	Total, biens et services concourant aux investissements de l'agriculture
+9300	Machines et autres biens d'équipement
+9310	Motoculteurs et autre matériel à 2 roues
+9320	Machines et matériel pour la culture
+9360	Machines et matériel pour la récolte
+9400	Machines et installations à la ferme
+9410	Machines et installations pour la  production végétale
+9450	Machines et installations pour la  production animale
+9480	Autres machines et installations à la ferme
+9510	Tracteurs
+9550	Autres véhicules
+9600	Ouvrages
+9610	Bâtiments d'exploitation
+9700	Ouvrages de génie civil et amélioration des terres

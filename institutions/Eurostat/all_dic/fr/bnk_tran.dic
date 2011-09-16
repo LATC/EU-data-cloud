@@ -1,0 +1,38 @@
+CLEBAN	Nombre de banques de compensation
+CLERTE	Taux appliqué à la compensation des transactions privées en écu
+TURN	Volume moyen des transactions quotidiennes
+WDAYS	Jours ouvrables
+PAYNET	Nombre total des paiements nets
+DTRA	Nombre moyen des paiements par jour
+TARVOAPTOT	Compensation par TARGET, par volume des transactions, tous les paiements, total
+TARVOAPDAV	Compensation par TARGET, par volume des transactions, tous les paiements, moyenne journalière
+TARVOCRTOT	Compensation par TARGET, par volume des transactions, paiements transfrontaliers, total
+TARVOCRDAV	Compensation par TARGET, par volume des transactions, paiements transfrontaliers, moyenne journalière
+TARVODOTOT	Compensation par TARGET, par volume des transactions, paiements nationaux, total
+TARVODODAV	Compensation par TARGET, par volume des transactions, paiements nationaux, moyenne journalière
+TARVAAPTOT	Compensation par TARGET, par valeur des transactions, tous les paiements, total
+TARVAAPDAV	Compensation par TARGET, par valeur des transactions, tous les paiements, moyenne journalière
+TARVACRTOT	Compensation par TARGET, par valeur des transactions, paiements transfrontaliers, total
+TARVACRDAV	Compensation par TARGET, par valeur des transactions, paiements transfrontaliers, moyenne journalière
+TARVADOTOT	Compensation par TARGET, par valeur des transactions, paiements nationaux, total
+TARVADODAV	Compensation par TARGET, par valeur des transactions, paiements nationaux, moyenne journalière
+OTHSYSVOEURTOT	Compensation par d'autres systèmes, par volume des transactions, Euro 1, total
+OTHSYSVOEURDAV	Compensation par d'autres systèmes, par volume des transactions, Euro 1, moyenne journalière
+OTHSYSVOEACTOT	Compensation par d'autres systèmes, par volume des transactions, Euro Access Frankfurt, total
+OTHSYSVOEACDAV	Compensation par d'autres systèmes, par volume des transactions, Euro Access Frankfurt, moyenne journalière
+OTHSYSVOSNPTOT	Compensation par d'autres systèmes, par volume des transactions, Système Net Protégé (SNP), total
+OTHSYSVOSNPDAV	Compensation par d'autres systèmes, par volume des transactions, Système Net Protégé (SNP), moyenne journalière
+OTHSYSVOSEPITOT	Compensation par d'autres systèmes, par volume des transactions, Servicio Español de Pagos Interbancarios (SEPI), total
+OTHSYSVOSEPIDAV	Compensation par d'autres systèmes, par volume des transactions, Servicio Español de Pagos Interbancarios (SEPI), moyenne journalière
+OTHSYSVAPOPTOT	Compensation par d'autres systèmes, par valeur des transactions, Pankkien On-line Pikasiirrot (POP), total
+OTHSYSVAPOPDAV	Compensation par d'autres systèmes, par valeur des transactions, Pankkien On-line Pikasiirrot (POP), moyenne journalière
+OTHSYSVAEURTOT	Compensation par d'autres systèmes, par valeur des transactions, Euro 1, total
+OTHSYSVAEURDAV	Compensation par d'autres systèmes, par valeur des transactions, Euro 1, moyenne journalière
+OTHSYSVAEACTOT	Compensation par d'autres systèmes, par valeur des transactions, Euro Access Frankfurt, total
+OTHSYSVAEACDAV	Compensation par d'autres systèmes, par valeur des transactions, Euro Access Frankfurt, moyenne journalière
+OTHSYSVASNPTOT	Compensation par d'autres systèmes, par valeur des transactions, Système Net Protégé (SNP), total
+OTHSYSVASNPDAV	Compensation par d'autres systèmes, par valeur des transactions, Système Net Protégé (SNP), moyenne journalière
+OTHSYSVASEPITOT	Compensation par d'autres systèmes, par valeur des transactions, Servicio Español de Pagos Interbancarios (SEPI), total
+OTHSYSVASEPIDAV	Compensation par d'autres systèmes, par valeur des transactions, Servicio Español de Pagos Interbancarios (SEPI), moyenne journalière
+OTHSYSVOPOPTOT	Compensation par d'autres systèmes, par volume des transactions, Pankkien On-line Pikasiirrot (POP), total
+OTHSYSVOPOPDAV	Compensation par d'autres systèmes, par volume des transactions, Pankkien On-line Pikasiirrot (POP), moyenne journalière

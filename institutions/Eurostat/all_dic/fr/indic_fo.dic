@@ -1,0 +1,69 @@
+PROD	Production 
+IMP_EXT_EU	Importations de pays tiers
+IMP	Importations totales 
+EXP_EXT_EU	Exportations vers pays tiers
+EXP	Exportations totales 
+CONS	Consommation apparente
+SSD	Degré d'autosuffisance (hors stocks) (%)
+DEF_AREA	Superficie enquêtée - (1 000 ha)
+SAMPTREE	Nombre total d'arbres échantillons (nombre)
+DEF_NO	Classe de défoliation nulle (0)  - (%)
+DEF_SLI	Classe de défoliation légère (1)  - (%)
+DEF_MOD	Classe de défoliation modérée (2)  - (%)
+DEF_SEV	Classe de défoliation forte et morte (3+4)  - (%)
+DEF_TOT	Classe de défoliation endommagée (2+3+4)  - (%)
+FIR_NB	Incendies: nombre total
+FIR_AREA	Incendies: superficie en hectares
+KNW_NB	Causes connues des incendies: total (nombre)
+KNW_HA	Causes connues des incendies: total (ha)
+ARS_NB	Causes connues des incendies: origine criminelle (nombre)
+ARS_HA	Causes connues des incendies: origine criminelle (ha)
+NEG_NB	Causes connues des incendies: négligence (nombre)
+NEG_HA	Causes connues des incendies: négligence (ha)
+NATU_NB	Causes connues des incendies: causes naturelles (nombre)
+NATU_HA	Causes connues des incendies: causes naturelles (ha)
+UNK_NB	Causes inconnues des incendies (nombre)
+UNK_HA	Causes inconnues des incendies (ha)
+LAND_X_WT	Superficie sans eaux intérieures
+FOREST_OWL	Total forêts et autres terres boisées
+FOROWL	Total forêts et autres terres boisées
+FOREST	Forêts 
+OWL	Autres terres boisées
+FAWS	Superficie exploitable
+GS_FOWL	Volume vivant sur pied en forêt et sur d'autres terres boisées
+GS_FO	Volume vivant sur pied des forêts
+GS_OWL	Volume vivant sur pied des forêts
+GS_FAWS	Volume vivant sur pied en forêt exploitable
+INC_FAWS	Accroissement en forêt exploitable
+NAI_FAWS	Accroissement en forêt exploitable
+FEL_FAWS	Coupe en forêt exploitable
+PRO_AREA	Forêt ayant une fonction de protection
+PRO_ECO	Protection des sols, des eaux et d'autres ecosystèmes
+PRO_INFRA	Protection d'infrastructure et du paysage
+PROTECTED	Forêt protégée
+CARB_STK	Carbone de la biomasse ligneuse des forêts
+CARB_ABG	Carbone de la biomasse aerienne des forêts
+CARB_BLG	Carbone de la biomasse souterraine des forêts
+CARB_DWD	Carbone de la biomasse de bois mort des forêts
+CARB_OTH	Carbone de la biomasse ligneuse des autres terres boisées
+CARB_INC	Carbone de l'accroisement annuel en forêt exploitable
+CARB_NAI	Carbone de l'accroisement annuel en forêt exploitable
+CARB_FEL	Carbone de la coupe en forêt exploitable
+CARB_FELL	Carbone de la coupe en forêt exploitable
+FIR_NB 	Incendies: nombre total
+CAG_FO	Carbone aerien en forêt
+CBG_FO	Carbone souterrain en forêt
+CDW_FO	Carbone du bois mort en forêt
+CLI_FO	Carbone de la litière en forêt
+CSO_FO	Carbone des sols en forêt
+CAG_OWL	Carbone aerien des autres aires boisées
+CBG_OWL	Carbone souterrain des autres aires boisées
+CDW_OWL	Carbone du bois mort des autres aires boisées
+CLI_OWL	Carbone de la litière des autres aires boisées
+CSO_OWL	Carbone des sols des autres aires boisées
+BAG_FO	Biomasse aerienne en forêt
+BBG_FO	Biomasse souterraine en forêt
+BDW_FO	Biomasse du bois mort en forêt
+BAG_OWL	Biomasse aerienne des autres aires boisées
+BBG_OWL	Biomasse souterraine des autres aires boisées
+BDW_OWL	Biomasse du bois mort des autres aires boisées

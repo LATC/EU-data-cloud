@@ -1,0 +1,50 @@
+TOTAL	Total
+WOUN_UNK	Plaies et blessures superficielles
+WOUN_SUP	Blessures superficielles
+WOUN_OPE	Plaies ouvertes
+WOUN_OTH	Autres types de plaies et de blessures superficielles
+CONT_BRU	Contusions, hématomes
+CUT_LACE	Coupures, lacérations, lésions des nerfs ou des tendons
+FRAC_UNK	Fractures osseuses
+FRAC_CLO	Fractures fermées
+FRAC_OPE	Fractures ouvertes
+FRAC_OTH	Autres types de fractures osseuses
+STRA_UNK	Luxations, entorse et foulures
+STRA_DIS	Luxations et sub-luxations
+STRA_SPR	Entorses et foulures
+STRA_OTH	Autres types de luxations, d'entorses et de foulures
+AMPUTAT	Amputations traumatiques (pertes de parties du corps)
+CONC_UNK	Commotions et traumatismes internes
+CONCUSIO	Commotions
+CONC_INT	Traumatismes internes
+CONC_OTH	Autres types de commotions et de traumatismes internes
+BURN_UNK	Brûlures, brûlures par exposition à un liquide bouillant et gelures
+BURN_SCA	Brûlures et brûlures par exposition à un liquide bouillant (thermiques)
+BURN_CHE	Brûlures chimiques (corrosions)
+BURN_FRO	Gelures
+BURN_OTH	Autres types de brûlures, de brûlures par exposition à un liquide bouillant et de gelures
+POIS_UNK	Empoisonnements et infections
+POIS_ACU	Empoisonnements aigus
+POIS_INF	Infections aiguës
+POIS_ASP	Empoisonnements, intoxications par gaz et asphyxies
+POIS_OTH	Autres types d'empoisonnements et d'infections
+DROW_UNK	Noyades et asphyxies
+DROW_ASP	Asphyxies
+DROW_SUB	Noyades et submersions non mortelles
+DROW_OTH	Autres types de noyades et d'asphyxies
+SOUN_UNK	Effets du bruit, des vibrations et de la pression
+SOUN_EAR	Pertes auditives aiguës
+SOUN_BAR	Effets de la pression
+SOUN_OTH	Autres effets du bruit, des vibrations et de la pression
+TEMP_UNK	Effets des extrêmes de température, de la lumière et des radiations
+TEMP_HEA	Chaleurs et coups de soleil
+TEMP_RAD	Effets des radiations (non thermiques)
+TEMP_RED	Effets du froid
+TEMP_OTH	Autres effets des extrêmes de température, de la lumière et des radiations
+SHOC_UNK	Chocs
+SHOC_AGG	Chocs consécutifs aux agressions et aux menaces
+SHOC_TRA	Chocs traumatiques
+SHOC_OTH	Autres chocs
+MULTIPLE	Blessures multiples
+OTHER	Autre non mentionné ailleurs
+UNK	Non connu

@@ -1,0 +1,20 @@
+HEIGHT	Height
+WEIGHT	Weight
+N_EODS_OBL	Number of cases, non-fatal, EODS obligatory list
+I_EODS_OBL	Incidence rate, non-fatal, EODS obligatory list
+EM0611	I.6.1.1: Accidents at work - serious accidents - total - Index of the number of serious accidents at work per 100 thousand persons in employment (1998=100)
+EM0612	I.6.1.2: Accidents at work - serious accidents - females - Index of the number of serious accidents at work for women per 100 thousand females in employment (1998=100)
+EM0613	I.6.1.3: Accidents at work - serious accidents - males - Index of the number of serious accidents at work for men per 100 thousand males in employment (1998=100)
+EM062	I.6.2: Accidents at work - fatal accidents - Index of the number of fatal accidents at work per 100 thousand persons in employment (1998=100)
+F_0_DFLE	Healthy life years in absolute value at birth - females
+F_0_DFLEPC	Healthy life years at birth in percentage of the total life expectancy - females
+F_0_LE	Life expectancy in absolute value at birth - females
+M_0_DFLE	Healthy life years in absolute value at birth - males
+M_0_DFLEPC	Healthy life years at birth in percentage of the total life expectancy - males
+M_0_LE	Life expectancy in absolute value at birth - males
+F_65_DFLE	Healthy life years in absolute value at 65 - females
+F_65_DFLEPC	Healthy life years at 65 in percentage of the total life expectancy - females
+F_65_LE	Life expectancy in absolute value at 65 - females
+M_65_DFLE	Healthy life years in absolute value at 65 - males
+M_65_DFLEPC	Healthy life years at 65 in percentage of the total life expectancy - males
+M_65_LE	Life expectancy in absolute value at 65 - males

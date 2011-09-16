@@ -1,0 +1,22 @@
+TOTAL	Total
+LIQ_BLK	Navire de vrac liquide (citernes)
+DRY_BLK	Transporteurs de vrac sec (vraquiers)
+CONT	Navires de conteneurs
+CRG_SPE	Transporteurs spécialisés
+CRG_NSPE	Transporteurs de marchandises générales, non-spécialisés
+BAR_SP	Automoteur
+BAR_NSP	Autre barge
+BAR_DUPU	Chalands et barges
+BAR_TK_SP	Automoteur-citerne
+BAR_TK_NSP	Autre barge-citerne
+BAR_DRY_CRG	Barge/chaland pour cargaisons sèches
+PASS_FER	Navire pour le transport de passagers - sauf navires de croisières
+PASS_CRU	Navire de croisières
+VESS_FISH	Navire de pêche
+VESS_SEA	Bateau destiné à la navigation maritime
+OFFSH	Navire pour les activités off shore
+OTH_GDVES	Autre bateau de transport de marchandises
+TUG	Remorqueurs
+TUG_PUSH	Remorqueurs et pousseurs
+MISC	Navires divers (dragueurs, navires de recherche/exploitation, autres)
+UNK	Inconnu

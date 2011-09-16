@@ -1,0 +1,7 @@
+CIRR	Euro-CIRR-Kurve für Exportkredite
+YIELD	Euro-Pari-Renditenstrukturkurve
+ZEROCOUP	Nullkupon-Renditenstrukturkurve
+AAA	Auf Rating bezogene Renditenstrukturkurven
+YCSR_RT	Nullkupon-Renditenstrukturkurve
+PYC_RT	Pari -Renditenstrukturkurve
+YCIF_RT	Implizierter Terminzins der Renditenstrukturkurve

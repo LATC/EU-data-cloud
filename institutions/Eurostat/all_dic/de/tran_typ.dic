@@ -1,0 +1,74 @@
+TOTAL	Insgesamt
+TT	Insgesamt
+TOT	Verkehr insgesamt
+TOT_VEH	Alle Fahrzeugarten (ausser Anhänger und Motorräder)
+PED	Fußgänger
+MOTO	Krafträder (> 50cm3)
+2WH	Zweiräder-Kraftfahrzeuge insgesamt
+CAR	Personenkraftwagen
+GOOD_VEH	Güterkraftfahrzeug
+CONT_SWAP	Container und Wechselbehälter
+LOR_ACC	Straßenfahrzeuge (begleitet)
+LOR2	LKW - 2 Achsen
+LOR3	LKW - 3 Achsen
+LOR4	LKW - 4 Achsen
+LOR_OTH	LKW - sonstige
+LOR_TRL21	LKW und Anhänger 2+1 Achse
+LOR_TRL22	LKW und Anhänger 2+2 Achse
+LOR_TRL23	LKW und Anhänger 2+3 Achse
+LOR_TRL32	LKW und Anhänger 3+2 Achse
+LOR_TRL33	LKW und Anhänger 3+3 Achse
+LOR_TRL_OTH	LKW und Anhänger sonstige
+TRAC_STRL21	Sattelzugmaschine/Auflieger 2+1 Achse
+TRAC_STRL22	Sattelzugmaschine/Auflieger 2+2 Achse
+TRAC_STRL23	Sattelzugmaschine/Auflieger 2+3 Achse
+TRAC_STRL32	Sattelzugmaschine/Auflieger 3+2 Achse
+TRAC_STRL33	Sattelzugmaschine/Auflieger 3+3 Achse
+TRAC_STRL_OTH	Sattelzugmaschine/Auflieger sonstige
+TRAC	Sattelzugmaschinen
+LORRY_TRAC	Lkw und Zugmaschinen
+STRAIL_UNACC	Sattelanhänger (unbegleitet)
+TRAIL_STRAIL	Anhänger und Sattelanhänger
+SPEC_VEH	Sonderfahrzeuge
+TOT_UTIL	Nutzfahrzeuge insgesamt
+BUS	Busse
+BUS_COA	Busse und Reisebusse
+TRAM_MET	Straßen- und U-Bahnen
+TRAIN	Alle Eisenbahnfahrzeuge
+GOOD_TRAIN	Güterzug
+PASS_TRAIN	Personenzug
+OTH_TRAINS	Sonstige Züge
+TRAIN_FUL	Vollzüge
+COACH	Reisezugwagen
+WAGON_GD_TOT	Güterwagen - insgesamt
+WAGON_FUL	Güterwagenladung
+SMAL	Stückgut
+RCAR_TRAIL	Beiwagen
+1CLAS_SEAT	Sitzplätze, 1. Klasse
+2CLAS_SEAT	Sitzplätze, 2. Klasse
+SEAT_1CLX	Sitzplätze, 1. Klasse
+SEAT_2CLX	Sitzplätze, 2. Klasse
+MIX_SEAT	Gemischte Sitzplätze
+COU	Liegewagen oder Schlafwagen
+DIN	Speisewagen
+1CLAS	1. Klasse
+2CLAS	2. Klasse
+BERT	Betten (Liege- und Schlafwagen)
+PLANE	Flugzeuge
+IWW_BOAT	Alle Schiffe in der Binnenschifffahrt und Küstenschifffahrt
+NAVINL	Binnenschifffahrt
+CRG_SPE	Ladung, spezialisiert
+WALK	Fortbewegung zu Fuß
+CYC	Radfahrer
+RAIL	Eisenbahnstrecken
+ROAD	Straßen
+IWW	Binnenschifffahrt
+SSEA	Kurzstreckenseeverkehr
+MARIT	Seeschifffahrt
+AIR	Flugverkehr
+PIPE_ALL	Öl- und Gasleitungen
+PIPE_O	Ölfernleitungen
+TOT_FEC	Energetischer Endverbrauch insgesamt
+TOT_NATEM	Nationale Emissionen insgesamt
+OTHER	Sonstige
+UNK	Unbekannt

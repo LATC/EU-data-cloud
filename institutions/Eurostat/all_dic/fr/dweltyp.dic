@@ -1,0 +1,23 @@
+TOTAL	Total
+DWEL	Logements
+NCONV	Logement non conventionnel
+CONV	Logement classique
+PRINCIPAL	Résidence principale
+HOUSE	Maison
+HOUSE_D	Maison individuelle
+HOUSE_SD	Maison mitoyenne
+FLAT	Appartement
+FLAT_LT10	Appartement dans une résidence de moins de dix logements
+FLAT_GE10	Appartement dans une résidence de dix logements ou plus
+RESID	Immeuble résidentiel
+RESID_1	Maison à un logement
+RESID_2	Deux maisons d'habitation
+RESID_GE3	Trois maisons d'habitation ou plus
+RESID_OTH	Immeuble résidentiel - autre
+RESID_UNK	Immeuble résidentiel inconnu
+NRESID	Immeuble non résidentiel
+SECOND	Résidence à usage saisonnier ou secondaire
+OTHER	Autre
+OTH_LQUART	Autre local d'habitation (hôtel, institution, camp)
+VACANT	Immeuble Vacant
+UNK	Inconnu

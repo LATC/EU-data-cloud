@@ -1,0 +1,50 @@
+TOTAL	Insgesamt
+WOUN_UNK	Wunden und oberflächliche Verletzungen
+WOUN_SUP	Oberflächliche Verletzungen
+WOUN_OPE	Offene Wunden
+WOUN_OTH	Andere Wunden und oberflächliche Verletzungen
+CONT_BRU	Kontusionen, Quetschungen
+CUT_LACE	Schnitt- und Rißwunden,Nerven- oder Sehnenrisse
+FRAC_UNK	Frakturen
+FRAC_CLO	Geschlossene Frakturen
+FRAC_OPE	Offene Frakturen
+FRAC_OTH	Andere Frakturen
+STRA_UNK	Dislokationen, Verstauchungen und Zerrungen
+STRA_DIS	Dislokationen und Subluxationen
+STRA_SPR	Verstauchungen und Zerrungen
+STRA_OTH	Andere Dislokationen, Verstauchungen und Zerrungen
+AMPUTAT	Traumatische Amputationen (Verlust von Körperteilen)
+CONC_UNK	Kommotio und innere Verletzungen
+CONCUSIO	Kommotio
+CONC_INT	Innere Verletzungen
+CONC_OTH	Andere Arten von Kommotio und inneren Verletzungen
+BURN_UNK	Verbrennungen, Verbrühungen und Erfrierungen
+BURN_SCA	Verbrennungen und Verbrühungen (thermisch)
+BURN_CHE	Verätzungen
+BURN_FRO	Erfrierungen
+BURN_OTH	de gelures
+POIS_UNK	Vergiftungen und Infektionen
+POIS_ACU	Akute Vergiftungen
+POIS_INF	Akute Infektionen
+POIS_ASP	Vergiftungen, Gasvergiftungen und Asphyxien
+POIS_OTH	Andere Vergiftungen und Infektionen
+DROW_UNK	Ertrinken und Asphyxie
+DROW_ASP	Asphyxie
+DROW_SUB	Ertrinken und nichttödliches Untertauchen
+DROW_OTH	Andere Arten von Ertrinken und Asphyxie
+SOUN_UNK	Schäden durch Schall, Vibration und Druck
+SOUN_EAR	Akuter Hörverlust
+SOUN_BAR	Schäden durch Druck (Barotrauma)
+SOUN_OTH	Andere Schäden durch Schall, Vibration und Druck
+TEMP_UNK	Schäden durch extreme Temperaturen, Licht und Strahlung
+TEMP_HEA	Hitzschlag und Sonnenstich
+TEMP_RAD	Strahlenschäden (nichtthermisch)
+TEMP_RED	Schäden durch niedrige Temperatur
+TEMP_OTH	Andere Schäden durch extreme Temperaturen, Licht und Strahlung
+SHOC_UNK	Schock
+SHOC_AGG	Schock infolge von Aggression und Bedrohung
+SHOC_TRA	Traumatischer Schock
+SHOC_OTH	Andere Schocks
+MULTIPLE	Mehrfachverletzungen
+OTHER	Sonstige anderweitig nicht genannt
+UNK	Nicht bekannt

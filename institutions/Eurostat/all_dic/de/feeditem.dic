@@ -1,0 +1,175 @@
+10000	Marktgängige Futtermittel
+11000	Futtermittel pflanzlichen Ursprungs
+11100	Getreide insgesamt, außer Reis
+11110	Weizen
+11120	Roggen
+11130	Gerste
+11140	Hafer
+11150	Mais
+11160	Sorghum
+11170	Triticale
+11180	Andere Getreide (ausgenommen Reis)
+11200	Reis (Bruch-)
+11300	Getrocknete Hülsenfrüchte
+11310	Futtererbsen
+11330	Ackerbohnen
+11350	Andere getrocknete Hülsenfrüchte
+11400	Kartoffeln
+11500	Zucker
+11600	Pflanzliche Fette und Öle
+11700	Grünfutter verarbeitet
+11710	Luzerne
+11740	Andere verarbeitete Grünfutter
+11800	Maniok
+11900	Andere Futtermittel pflanzlichen Ursprungs
+11940	Johannisbrot
+11960	Kakaoschale
+11980	Andere
+11990	Ölsaaten
+11991	Raps
+11992	Sonnenblumen
+11993	Soja
+11997	Andere Ölsaaten
+12000	Nebenerzeugnisse aus Verarbeitung
+12100	Nebenerzeugnisse der Müllerei
+12110	Nebenerzeugnisse Weizen
+12130	Nebenerzeugnisse Mais
+12140	Nebenerzeugnisse Reis
+12160	Andere Nebenerzeugnisse der Müllerei
+12200	Nebenerzeugnisse der Brauerei
+12210	Biertreber, frisch
+12220	Biertreber, trocken
+12250	Malzkeime
+12260	Futterhefe
+12290	Andere Nebenerzeugnisse der Brauerei
+12300	Nebenerzeugnisse der Brennerei
+12310	Getreideschlempe, frisch
+12320	Kartoffelschlempe, frisch
+12330	Treber (Äpfel/Birnen), frisch
+12340	Treber (Äpfel/Birnen), trocken
+12350	Distil. Dry Soluble
+12360	Distil. Dark Grains
+12390	Andere Nebenerzeugnisse der Brennerei
+12400	Nebenerzeugnisse der Stärkeherstellung
+12410	Gluten
+12420	Maisschlempe
+12430	Kartoffelpulpe
+12431	Kartoffelpulpe, frisch
+12432	Kartoffelpulpe, trocken
+12460	Kartoffelprotein
+12480	Aardappel snippers gedroogd
+12490	Aardappel diksap
+12492	Andere Nebenerzeugnisse der Stärkeherstellung
+12500	Nebenerzeugnisse der Zuckerherstellung
+12510	Zuckerrübenschnitzel
+12511	Zuckerrübenschnitzel, frisch
+12512	Zuckerrübenschnitzel, trocken
+12513	Zuckerrübenschnitzel, gezuckert
+12514	Zuckerrübenschnitzel, gepresst
+12520	Melasse total
+12521	Melasse von Zuckerrüben
+12522	Melasse von Zuckerrohr
+12550	Andere Nebenerzeugnisse der Zuckerherstellung
+12600	Ölkuchen (Nebenerzeugnisse der Ölherstellung)
+12610	Ölkuchen Raps-Rübsen
+12620	Ölkuchen Sonnenblumen
+12630	Ölkuchen Sojabohnen
+12640	Ölkuchen Flax
+12650	Ölkuchen Maiskeime
+12660	Ölkuchen Sesam
+12670	Ölkuchen Erdnüsse
+12680	Ölkuchen Kopra
+12690	Ölkuchen Palmkerne
+12691	Ölkuchen Baumwollsaat
+12692	Andere Ölkuchen
+12693	Rückstände aus Oliven
+12700	Andere Nebenerzeugnisse
+12710	Zitruspulpe
+12730	Maisabfälle
+12740	Abfälle der Kartoffelindustrie
+12760	Abfälle der Fruchtsaftindustrie
+12780	Soyabean milling
+12790	Tomatenpulpe
+12792	Tomatenpulpe, trocken
+13000	Futtermittel tierischen Ursprungs
+13100	Aus Verarbeitung von Seetieren
+13110	Fischmehl
+13150	Andere Produkte von Seetieren
+13200	Aus Verarbeitung von Landtieren
+13210	Fleischmehl
+13220	Knochenmehl
+13230	Blutmehl
+13240	Mehl aus Kadaververwertung
+13250	Federmehl
+13270	Fleisch- und Knochenmehl
+13290	Andere Landtieren
+13300	Fette und Öle von Tieren
+13310	Fette und Öle von Seetieren
+13320	Fette und Öle von Landtieren
+13400	Milch und Milchprodukte
+13410	Vollmilch, flüssig
+13411	Kuhmilch
+13412	Schafsmilch
+13413	Ziegenmilch
+13420	Mager- und Buttermilch, flüssig
+13430	Molke, flüssig
+13440	Vollmilchpulver
+13450	Mager- und Buttermilchpulver
+13460	Molkepulver
+13500	Andere Futtermittel tierischen Ursprungs
+20000	In der Regel nicht marktgängige Futtermittel
+21000	Einjähriger Futterbau
+21100	Hackfrüchte
+21110	Zuckerrüben (Wurzeln)
+21120	Futterrüben/Runkelrüben (Wurzeln)
+21130	Rutabagas (Kohlrüben)
+21140	Wasserrüben
+21150	Futtermöhren
+21160	Futterkohl
+21170	Andere Hackfrüchte
+21180	Süßkartoffeln
+21200	Grünmais
+21210	Grünmais, in Grünmasse
+21220	Grünmais, als Silomais
+21300	Andere Grünfutter
+21310	Andere Grünfutter, in Grünmasse
+21320	Andere Grünfutter, siliert
+22000	Mehrjähriger Futterbau (temporär und dauerhaft)
+22100	Futterpflanzen und Weiden, temporär
+22110	Luzerne
+22120	Klee
+22130	Andere Leguminosen
+22140	Wiesen
+22150	Weiden
+22200	Futterpflanzen und Weiden, Daueranbau
+22210	Wiesen (Heu)
+22220	Weiden
+22250	Silage
+22270	Andere
+23000	Kuppelprodukte
+23100	Stroh und Spreu
+23110	Stroh und Spreu von Weizen
+23130	Stroh und Spreu von Gerste
+23140	Stroh und Spreu von Hafer
+23170	Stroh und Spreu von Hülsenfrüchten
+23180	Andere Stroh und Spreu
+23200	Blätter und Köpfe
+23210	Blätter und Köpfe von Zuckerrüben
+23220	Blätter und Köpfe von Futterrüben
+23240	Andere Blätter und Köpfe
+23300	Andere Kuppelprodukte
+23310	Zichorienwurzeln
+23320	Andere (Forragio, Cimature di mais, ...)
+24000	An anderer Stelle nicht genannte Futtermittel
+24100	Gemüse
+24200	Obst
+24210	Äpfel
+24220	Birnen
+24230	Feigen
+24240	Zitrusfrüchte
+24250	Maronen
+24260	Andere Früchte
+24300	Abfälle
+24400	Andere an anderer Stelle nicht genannte Futtermittel
+24410	Eicheln
+24420	Andere

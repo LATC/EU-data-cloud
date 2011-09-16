@@ -1,0 +1,20 @@
+I96	Indice, 1996=100
+I2005	Indice, 2005=100
+INDEX	Indice mensuel
+MOR	Taux de variation mensuel
+ANR	Taux de variation annuel
+AVX	Indice moyen annuel
+AVR	Taux de variation moyen annuel
+MV12R	Taux de variation moyen mobile sur 12 mois
+COWEU	Pondérations des pays pour l'Union européenne (CE12-1994, UE15-2004, UE25-2006, UE27)
+COWE25	Pondérations des pays pour l'UE-25 (Union européenne)
+COWE15	Pondérations des pays pour l'UE-15 (Union européenne)
+COWE27	Pondérations des pays pour l'UE-27 (Union européenne)
+COWEMU	Pondérations des pays pour la zone euro (EA11-2000, EA12-2006, EA13-2007, EA15)
+COWEMU12	Pondérations des pays pour EA-12 (Zone euro)
+COWEMU13	Pondérations des pays pour EA-13 (Zone euro)
+COWEMU15	Pondérations des pays pour EA-15 (Zone euro)
+COWEMU15_SK	Pondérations des pays pour EA-15_SK (Zone euro + Slovaquie)
+COWEMU16	Pondérations des pays pour EA-16 (Zone euro)
+COWEMU17	Pondérations des pays pour EA-17 (Zone euro)
+COWEEA	Pondérations des pays pour l'EEE (Espace économique européen)

@@ -1,0 +1,100 @@
+T00	Tonnageklassen insgesamt
+T21	Tonnage 0 - 24.9 GT
+T22	Tonnage 25 - 49.9 GT
+T23	Tonnage 50 - 99.9 GT
+T24	Tonnage 100 - 149.9 GT
+T25	Tonnage 150 - 249.9 GT
+T26	Tonnage 250 - 499.9 GT
+T27	Tonnage 500 - 999.9 GT
+T28	Tonnage 1000 - 1999.9 GT
+T29	Tonnage 2000 + GT
+T39	Tonnage unbekannt
+L00	Längenklassen insgesamt
+L40	Länge 0 - 5.9 Meter
+L41	Länge 6 - 11.9 Meter
+L42	Länge 12 - 17.9 Meter
+L43	Länge 18 - 23.9 Meter
+L44	Länge 24 - 29.9 Meter
+L45	Länge 30 - 35.9 Meter
+L46	Länge 36 - 41.9 Meter
+L47	Länge 42 + Meter
+L48	Länge 0 - 8.9 Meter
+L49	Länge 9 - 11.9 Meter
+L50	Länge 30 - 32.9 Meter
+L51	Länge 33 - 41.9 Meter
+L59	Länge unbekannt
+A00	Altersklassen, insgesamt
+A60	Alter 0 - 4.9 Jahre
+A61	Alter 5 - 9.9 Jahre
+A62	Alter 10 - 14.9 Jahre
+A63	Alter 15 - 19.9 Jahre
+A64	Alter 20 - 24.9 Jahre
+A65	Alter 25 und mehr
+A66	Alter unbekannt
+P00	Leistungsklassen insgesamt
+P70	Leistung 1 - 24.9 KW
+P71	Leistung 25 - 74.9 KW
+P72	Leistung 75 - 149.9 KW
+P73	Leistung 150 - 349.9 KW
+P74	Leistung 350 - 499.9 KW
+P75	Leistung 500 - 749.9 KW
+P76	Leistung 750 - 999.9 KW
+P77	Leistung 1000 - 1999.9 KW
+P78	Leistung 2000 - 2999.9 KW
+P79	Leistung 3000 - 3999.9 KW
+P80	Leistung 4000 + KW
+P89	Leistung unbekannt
+TC25	Tonnage 0 - 24.9 GT
+TC100	Tonnage 25 - 99.9 GT
+TC500	Tonnage 100 - 499.9 GT
+TCMORE	Tonnage 500 + GT
+TC25_PC	% Tonnage 0 - 24.9 GT / Insgesamt
+TC100_PC	% Tonnage 25 - 99.9 GT / Insgesamt
+TC500_PC	% Tonnage 100 - 499.9 GT / Insgesamt
+TCMORE_PC	% Tonnage 500 + GT / Insgesamt
+T00_PC	% Summe aller Tonnageklassen / Insgesamt
+T21_PC	% Tonnage 0 - 24.9 GT / Insgesamt
+T22_PC	% Tonnage 25 - 49.9 GT / Insgesamt
+T23_PC	% Tonnage 50 - 99.9 GT / Insgesamt
+T24_PC	% Tonnage 100 - 149.9 GT / Insgesamt
+T25_PC	% Tonnage 150 - 249.9 GT / Insgesamt
+T26_PC	% Tonnage 250 - 499.9 GT / Insgesamt
+T27_PC	% Tonnage 500 - 999.9 GT / Insgesamt
+T28_PC	% Tonnage 1000 - 1999.9 GT / Insgesamt
+T29_PC	% Tonnage 2000 + GT / Insgesamt
+T39_PC	% Tonnage unbekannt / Insgesamt
+L00_PC	% Summe aller Längenklassen / Insgesamt
+L40_PC	% Länge 0 - 5.9 Meter / Insgesamt
+L41_PC	% Länge 6 - 11.9 Meter / Insgesamt
+L42_PC	% Länge 12 - 17.9 Meter / Insgesamt
+L43_PC	% Länge 18 - 23.9 Meter / Insgesamt
+L44_PC	% Länge 24 - 29.9 Meter / Insgesamt
+L45_PC	% Länge 30 - 35.9 Meter / Insgesamt
+L46_PC	% Länge 36 - 41.9 Meter / Insgesamt
+L47_PC	% Länge 42 + Meter / Insgesamt
+L48_PC	% Länge 0 - 8.9 Meter / Insgesamt
+L49_PC	% Länge 9 - 11.9 Meter / Insgesamt
+L50_PC	% Länge 30 - 32.9 Meter / Insgesamt
+L51_PC	% Länge 33 - 41.9 Meter / Insgesamt
+L59_PC	% Länge unbekannt / Insgesamt
+A00_PC	% Summe aller Altersklassen / Insgesamt
+A60_PC	% Alter 0 - 4.9 Jahre / Insgesamt
+A61_PC	% Alter 5 - 9.9 Jahre / Insgesamt
+A62_PC	% Alter 10 - 14.9 Jahre / Insgesamt
+A63_PC	% Alter 15 - 19.9 Jahre / Insgesamt
+A64_PC	% Alter 20 - 24.9 Jahre / Insgesamt
+A65_PC	% Alter 25 und mehr / Insgesamt
+A66_PC	% Alter unbekannt / Insgesamt
+P00_PC	% Summe aller Leistungsklassen / Insgesamt
+P70_PC	% Leistung 1 - 24.9 KW / Insgesamt
+P71_PC	% Leistung 25 - 74.9 KW / Insgesamt
+P72_PC	% Leistung 75 - 149.9 KW / Insgesamt
+P73_PC	% Leistung 150 - 349.9 KW / Insgesamt
+P74_PC	% Leistung 350 - 499.9 KW / Insgesamt
+P75_PC	% Leistung 500 - 749.9 KW / Insgesamt
+P76_PC	% Leistung 750 - 999.9 KW / Insgesamt
+P77_PC	% Leistung 1000 - 1999.9 KW / Insgesamt
+P78_PC	% Leistung 2000 - 2999.9 KW / Insgesamt
+P79_PC	% Leistung 3000 - 3999.9 KW / Insgesamt
+P80_PC	% Leistung 4000 + KW / Insgesamt
+P89_PC	% Leistung unbekannt / Insgesamt

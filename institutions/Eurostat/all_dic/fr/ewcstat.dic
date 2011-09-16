@@ -1,0 +1,46 @@
+EWC_TOTAL	Déchets totaux
+EWC_01_TO_05	Déchets chimiques et déchets provenant des soins médicaux
+EWC_06_TO_08	Équipements hors d'usage
+EWC_09	Déchets animaux et végétaux
+EWC_10	Déchets courants mélangés
+EWC_11	Boues ordinaires
+EWC_12_13	Déchets minéraux ou solidifiés
+EWC_01_TO_03	Déchets chimiques (déchets de composés chimiques + déchets de préparations chimiques + autres déchets chimiques)
+EWC_01_TO_03_NOT_013	Déchets chimiques à l'exclusion des huiles usées (déchets de composés chimiques + déchets de préparations chimiques + autres déchets chimiques)
+EWC_011	Solvants usés
+EWC_012	Déchets acides, alcalins ou salins
+EWC_013	Huiles usées
+EWC_014	Catalyseurs chimiques usés
+EWC_02	Déchets de préparations chimiques
+EWC_031	Dépôts et résidus chimiques
+EWC_032	Boues d'effluents industriels
+EWC_05	Déchets provenant des soins médicaux ou vétérinaires et déchets biologiques
+EWC_06	Déchets métalliques
+EWC_071	Déchets de verre
+EWC_072	Déchets de papiers et cartons
+EWC_073	Déchets de caoutchouc
+EWC_074	Déchets de matières plastiques
+EWC_075	Déchets de bois
+EWC_076	Déchets textiles
+EWC_077	Déchets contenant des PCB
+EWC_080_NOT_081_0841	Equipements hors d'usage (à l'exclusion des véhicules au rebut et des déchets de piles et accumulateurs)
+EWC_081	Véhicules au rebut
+EWC_0841	Déchets de piles et accumulateurs
+EWC_09_NOT_0911_093	Déchets animaux et végétaux (à l'exclusion des déchets animaux de la préparation des produits alimentaires et de produits alimentaires et des fèces, urines et fumier)
+EWC_0911	Déchets animaux de la préparation des produits alimentaires et de produits alimentaires
+EWC_093	Fèces, urines et fumier animaux
+EWC_101	Déchets ménagers et similaires
+EWC_102	Matériaux mélangés et matériaux indifférenciés
+EWC_103	Résidus de tri
+EWC_11_NOT_113	Boues ordinaires (à l'exclusion des boues de dragage)
+EWC_113	Boues de dragage
+EWC_12	Déchets minéraux
+EWC_121_TO_125_NOT_124	Déchets minéraux (à l'exclusion des résidus d'opérations thermiques, des terres et boues de dragage polluées)
+EWC_124	Résidus d'opérations thermiques
+EWC_126	Terres et boues de dragage polluées
+EWC_13	Déchets solidifiés, stabilisés ou vitrifiés
+EWC_T_01_02_03_05_08_10_11_13	Autres déchets (Déchets de composés chimiques + Déchets de préparations chimiques + Autres déchets chimiques + Déchets provenant des soins médicaux ou vétérinaires et déchets biologiques + Équipements hors d'usage + Déchets courants mélangés + Boues ordinaires + Déchets solidifiés, stabilisés ou vitrifiés)
+EWC_T_01_TO_05_075_077_08_10_11_13_NOT_013	Autres déchets (Déchets de composés chimiques sauf huiles usées + Déchets de préparations chimiques + Autres déchets chimiques + Déchets provenant des soins médicaux ou vétérinaires et déchets biologiques + Déchets de bois + Déchets contenant des PCB + Équipements hors d'usage + Déchets courants mélangés + Boues ordinaires + Déchets solidifiés, stabilisés ou vitrifiés)
+EWC_T_05_TO_08_13	Autres déchets (Déchets provenant des soins médicaux ou vétérinaires et déchets biologiques + Déchets métalliques + Déchets non métalliques + Équipements hors d'usage + Déchets solidifiés, stabilisés ou vitrifiés)
+EWC_T_06_TO_09_12_13	Autres déchets (Déchets métalliques + Déchets non métalliques + Équipements hors d'usage + Déchets animaux et végétaux + Déchets minéraux + Déchets solidifiés, stabilisés ou vitrifiés)
+EWC_T_06_TO_09_12_13_NOT_077	Autres déchets (Déchets métalliques + Déchets non métalliques à l’exclusion des déchets contenant des PCB + Équipements hors d'usage + Déchets animaux et végétaux + Déchets minéraux + Déchets solidifiés, stabilisés ou vitrifiés)

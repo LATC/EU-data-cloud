@@ -1,0 +1,49 @@
+TOTAL	Total
+0	Zero
+1	1
+1_10	Between 1 and 10
+2	2
+2_3	Between 2 and 3
+2_5	Between 2 and 5
+GE_2	2 or more
+3	3
+3_5	Between 3 and 5
+GE_3	3 or more
+GT_3	More than 3
+4	4
+4_5	Between 4 and 5
+GE_4	4 or more
+5	5
+GE_5	5 or more
+6	6
+6_7	Between 6 and 7
+6_9	Between 6 and 9
+6_10	Between 6 and 10
+GE_6	6 or more
+7	7
+GE_7	7 or more
+8	8
+8_19	Between 8 and 19
+GE_8	8 or more
+9	9
+GE_9	9 or more
+10	10
+10_19	Between 10 and 19
+GE_10	10 or more
+11_15	Between 11 and 15
+11_49	Between 11 and 49
+16_20	Between 16 and 20
+20_49	Between 20 and 49
+GE_20	20 or more
+21_30	Between 21 and 30
+GT_30	More than 30
+GE_50	50 or more
+OTHER	Other
+UNK	Unknown
+NRESP	No answer
+TOT_CH	Total number of chidren
+TOT_HH	Total number of households
+TOT_PERS	Total number of persons
+TOT_PERS_FAM	Total number of persons in family nuclei
+TOT_POPHH	Total population in private households
+TOT_PERS_DWEL	Number of persons in dwellings

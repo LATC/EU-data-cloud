@@ -1,0 +1,119 @@
+TOT_X_5	Emissions totales
+TOT_NET	Emissions nette totales (secteurs 1-7, y compris 5. LULUCF)
+1	Énergie
+1_A	Combustion de combustible - approche sectorielle
+1_A_1	Industries de l'énergie
+1_A_1A	Production d'électricité et de chauffage publique
+1_A_1B	Raffinage de pétrole
+1_A_1C	Fabrication de combustibles solides et autres industries de l'énergie
+1_A_2	Industries de transformation et construction
+1_A_2A	Sidérurgie
+1_A_2B	Métaux nons ferreux
+1_A_2C	Substances chimiques
+1_A_2D	Pulpe, papier et impression
+1_A_2E	Transformation alimentaire, boissons et tabac
+1_A_2F	Autre
+1_A_3	Transport
+1_A_3A	Aviation civile
+1_A_3B	Transport routier
+1_A_3C	Chemins de fer
+1_A_3D	Navigation
+1_A_3E	Autres transports
+1_A_4	Autres secteurs
+1_A_4A	Commercial/institutionnel
+1_A_4B	Résidentiel
+1_A_4C	Agriculture/Forestry/Fisheries
+1_A_5	Autre (pas ailleurs spécifié)
+1_B	Émissions fugitives de combustibles
+1_B_1	Combustibles solides
+1_B_2	Pétrole et gaz naturel
+1_C1	International Bunkers
+1_C1_A	Aviation internationale
+1_C1_B	Transport maritime international
+1_C2	Opérations multilatéralles
+1_C3	Emissions de CO2 de biomasse
+2	Processus industriels
+2_A	Produits minéraux
+2_B	Industrie chimique
+2_C	Production métallique
+2_D	Autre production
+2_E	Production de halocarbures et SF6
+2_F	Consommation de halocarbures et SF6
+2_G	Autre
+3	Solvant et autres utilisations de produits
+4	Agriculture
+4_A	Fermentation entérique
+4_A_1	Fermentation entérique: Bovins
+4_A_2	Fermentation entérique: Buffles
+4_A_3	Fermentation entérique: Ovins
+4_A_4	Fermentation entérique: Caprins
+4_A_5	Fermentation entérique: Chameaux et lamas
+4_A_6	Fermentation entérique: Chevaux
+4_A_7	Fermentation entérique: Mules et ânes
+4_A_8	Fermentation entérique: Porcins
+4_A_9	Fermentation entérique: Volailles
+4_A_10	Fermentation entérique: Autre cheptel
+4_B	Gestion des effluents d'élevage
+4_B_1	Gestion des effluents d'élevage: Bovins
+4_B_2	Gestion des effluents d'élevage: Buffles
+4_B_3	Gestion des effluents d'élevage: Ovins
+4_B_4	Gestion des effluents d'élevage: Caprins
+4_B_5	Gestion des effluents d'élevage: Chameaux et lamas
+4_B_6	Gestion des effluents d'élevage: Chevaux
+4_B_7	Gestion des effluents d'élevage: Mules et ânes
+4_B_8	Gestion des effluents d'élevage: Porcins
+4_B_9	Gestion des effluents d'élevage: Volailles
+4_B_10	Gestion des effluents d'élevage: Autre cheptel
+4_B_11	Gestion des effluents d'élevage: Lagune anaérobie
+4_B_12	Gestion des effluents d'élevage: Système liquide
+4_B_13	Gestion des effluents d'élevage: Stockage solide et zone de confinement 
+4_B_14	Gestion des effluents d'élevage: Autre système de gestion des effluents
+4_C	Culture de riz
+4_C_1	Culture de riz: Irrigué
+4_C_2	Culture de riz: Pluvial
+4_C_3	Culture de riz: Eau profonde
+4_C_4	Culture de riz: Autre
+4_D	Sols agricoles
+4_D_1	Sols agricoles: Emissions directes
+4_D_2	Sols agricoles: Fumier excrété sur prés, prairies et pâturages
+4_D_3	Sols agricoles: Emissions indirectes
+4_D_4	Sols agricoles: Autre
+4_E	Combustion contrôlée de Savannas
+4_F	Combustion des résidus agricoles
+4_F_1	Combustion des résidus agricoles: Céréales
+4_F_2	Combustion des résidus agricoles: Légumineux
+4_F_3	Combustion des résidus agricoles: Tubercules et racines
+4_F_4	Combustion des résidus agricoles: Sucre de canne
+4_F_5	Combustion des résidus agricoles: Autre
+4_G	Autre
+5	LULUCF (utilisation des sols, changement d'utilisation des sols et sylviculture)
+6	Déchets
+6_A	Élimination de déchets solides sur la terre
+6_B	Traitement d'eaux résiduaires
+6_C	Incinération des déchets
+6_D	Autre
+7	Autre
+AP0	Totals Nationaux (à l'exclusion des sources naturelles)
+AP1	Industries de l'énergie
+AP12	Industries de l'énergie (Production d'électricité 1A1a)
+AP2	Émissions fugitives
+AP3	Industrie (Énergie)
+AP9	Industrie (Processus)
+AP6	Autre (energie)
+AP10	Autre (non-energie)
+AP7	Transport routier
+AP8	Autre transport
+AP4	Agriculture
+AP5	Déchets
+AP14	Non alloué
+TOT_NAT	Total des secteurs d'émission pour le territoire national
+SE1_EPD	Production et distribution d'énergie (NFR 1A1a, b, c, 1A3e and 1B1a, b, 1B2a, b, c and 1B3)
+SE1_EUI	Utilisation d'énergie dans l'industrie (NFR 1A2a, b, c, d, e, f)
+SE1_RD	Transport routier (NFR 1A3b)
+SE1_NRD	Transport non-routier (NFR 1A3a, c, d and 1A4ciii)
+SE1_CIH	Commercial, institutionnel et ménages  (NFR 1A4a, b, ci, cii, 1A5a, b)
+SE2_IP	Processus industriels (NFR 2A1-7, 2B1-5, 2C1-5 (except 2C4), 2D1-3, 2E, 2F, 2G)
+SE3_SPU	Solvant et autres utilisations de produits (NFR 3A1-3, 3B1-2, 3C, 3D1-3)
+SE4_AGR	Agriculture (NFR 4B1-9 (except 4B5) and 4B13, 4D1a, 4D2a, b, c, 4F, 4G)
+SE6_WST	Déchets (NFR 6A, 6B, 6Ca-e, 6D)
+SE7_OTH	Autre (NFR 7A)

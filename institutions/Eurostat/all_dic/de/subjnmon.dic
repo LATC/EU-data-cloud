@@ -1,0 +1,19 @@
+TOTAL	Gesamt
+EM_GSD	Haushalte die große / einige Schwierigkeiten haben mit dem Geld auszukommen
+EM_FVE	Haushalte die gut / sehr gut mit ihrem Geld auskommen
+EM_GD	Haushalte die große Schwierigkeiten haben mit dem Geld auszukommen
+EM_D	Haushalte die schlecht mit ihrem Geld auskommen
+EM_SD	Haushalte die einige Schwierigkeiten haben mit dem Geld auszukommen
+EM_FE	Haushalte die relativ gut mit ihrem Geld auskommen
+EM_E	Haushalte die gut mit ihrem Geld auskommen
+EM_VE	Haushalte die sehr gut mit ihrem Geld auskommen
+N_SAVE	Haushalte die nicht regelmäßig sparen können (d.h. normalerweise kein Geld übrig haben)
+SAVE	Haushalte die regelmäßig sparen können (d.h. normalerweise Geld übrig haben)
+N_WARM	Haushalte die es sich nicht leisten können ausreichend zu heizen
+N_HOLI	Haushalte die sich keine Woche Urlaub woanders als zu Hause leisten können
+N_FURN	Haushalte die es sich nicht leisten können abgenutzte Möbel zu ersetzen
+N_CLOT	Haushalte die es sich nicht leisten können neue statt gebrauchter Kleidung zu kaufen
+N_MEAT	Haushalte die sich nicht jeden zweiten Tag Fleisch, Geflügel oder Fisch leisten können
+N_FRIE	Haushalte die es sich nicht leisten können einmal pro Woche Freunde bei sich zum Essen oder zum Trinken einzuladen
+MBN_GE1	Haushalte die sich nicht mindestens eins der sechs Grundbedürfnisse leisten können (siehe Liste)
+MBN_GE2	Haushalte die sich nicht mindestens zwei der sechs Grundbedürfnisse leisten können (siehe Liste)

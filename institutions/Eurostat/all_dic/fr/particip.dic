@@ -1,0 +1,11 @@
+TOTAL	Total
+0	Pourcentage d'entreprises dans lesquelles les salariés n'ont pas participé à des cours FPC
+1_10	Pourcentage d'entreprises dans lesquelles de 1 à 10% des salariés ont effectivement participé à des cours FPC
+11_20	Pourcentage d'entreprises dans lesquelles de 11 à 20% des salariés ont effectivement participé à des cours FPC
+21_40	Pourcentage d'entreprises dans lesquelles de 21 à 40% des salariés ont effectivement participé à des cours FPC
+GT_40	Pourcentage d'entreprises dans lesquelles plus de 40% des salariés ont effectivement participé à des cours FPC
+NRESP	Sans réponse
+PARNWNT	Les participants qui ne veulent pas participer plus
+PARWNT	Les participants qui veulent plus participer
+NPARNWNT	Les participants qui ne veulent pas participer
+NPARWNT	Les participants qui veulent plus participer

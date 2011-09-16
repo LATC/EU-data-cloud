@@ -1,0 +1,27 @@
+A000	NS (Total)
+A010	Urlaub ingesamt (1 Nacht oder mehr)
+A011	Urlaub ingesamt (1 Nacht oder mehr) - Inland (Binnenreiseverkehr)
+A012	Urlaub ingesamt (1 Nacht oder mehr) - Ausland (Ausreiseverkehr)
+A013	Urlaub ingesamt (1 Nacht oder mehr) - Inland & Ausland
+A020	Urlaub mit mindestens 4 Übernachtungen
+A021	Urlaub mit mindestens 4 Übernachtungen - Inland (Binnenreiseverkehr)
+A022	Urlaub mit mindestens 4 Übernachtungen - Ausland (Ausreiseverkehr)
+A023	Urlaub mit mindestens 4 Übernachtungen - Inland & Ausland
+A030	Besuch bei Freunden, Bekannten und Verwandten (mit mindestens 4 Übernachtungen)
+A031	Besuch bei Freunden, Bekannten und Verwandten  - Inland (4+ Übernachtungen)
+A032	Besuch bei Freunden, Bekannten und Verwandten - Ausland (4+ Übernachtungen)
+A033	Besuch bei Freunden, Bekannten und Verwandten - In- & Ausland(4+ Übernachtungen)
+A040	Geschäftsreisen (mit mindestens 1 Übernachtung)
+A041	Geschäftsreisen (mit mindestens 1 Übernachtung) - Inland
+A042	Geschäftsreisen (mit mindestens 1 Übernachtung) - Ausland
+A043	Geschäftsreisen (mit mindestens 1 Übernachtung) - Inland und Ausland
+A090	Andere Reisezwecke
+HOL_BUS	Urlaub und Dienst-/Geschäftsreisen
+HOL	Urlaub
+VFR	Urlaub - Besuch bei Freunden, Bekannten und Verwandten
+BUS	Dienst-/Geschäftsreisen
+SHO	Einkäufe
+COM	Hin-und Rückfahrt
+LEI	Freizeitaktivitäten
+OTH	Sonstiges
+RET	Rückfahrt nach Hause

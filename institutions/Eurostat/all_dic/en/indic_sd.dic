@@ -1,0 +1,63 @@
+TSDEC100	Growth rate of GDP per inhabitant - %
+TSDEC210	Gross investment, by institutional sector- % of GDP
+TSDEC240	Gross household saving - share of gross saving in total gross household disposable income
+TSDEC310	Labour productivity per hour worked - % change over previous year
+TSDEC340	Turnover from innovation, by economic sector - %
+TSDPC100	Resource productivity - EUR/kg
+TSDPC220	Components of domestic material consumption
+TSDPC230	Domestic material consumption by material
+TSDPC250	Generation of hazardous waste, by economic activity - tons
+TSDPC330	Consumption of certain foodstuffs per inhabitant
+TSDPC410	Enterprises with an environmental management system - number
+TSDPC420	Eco-label awards by products - number
+TSDPC430	Area under agri-environmental commitment - %
+TSDPC440	Area under organic farming - %
+TSDPC520	Household expenditure per inhabitant, by category - EUR per capita at 1995 constant prices
+TSDSC450	Low reading literacy performance of pupils - %
+TSDDE520	Changes in public pensions expenditure and Changes in projected theoretical income replacement ratio - percentage points
+TSDDE530	Public expenditure on care for the elderly - % of GDP
+TSDPH210	Death rate due to chronic diseases, by age group - per 100 000 persons
+TSDPH250	Suicide death rate by age group - per 100 000 persons
+TSDPH310	Salmonellosos incidence rate in human beings - per 100 000 persons
+TSDPH320	Index of production of toxic chemicals, by toxicity class - million tonnes
+TSDPH330	Overweight people, by gender - %
+TSDPH340	Overweight people, by age group - %
+TSDCC110	Consumption of renewables - % of gross inland energy consumption
+TSDCC220	Greenhouse gas emissions intensity of energy consumption - index 2000=100
+TSDCC230	Projections of Greenhouse gas emissions - % of base year emissions
+TSDCC240	Global surface average temperature - temperature deviation, compared to 1961-1990 average in °C
+TSDCC310	Energy dependency - %
+TSDCC340	Consumption of biofuels by transport - %
+TSDCC350	Combined heat and power generation - % of gross electricity generation
+TSDTR210	Modal split of passenger transport - % in total inland passenger-km
+TSDTR220	Modal split of freight transport - % in total inland freight tonne-km
+TSDTR240	Volume of passenger transport - Index 1995=100
+TSDTR310	Road fuel prices - euro per litre, at constant 1995 prices
+TSDTR420	People killed in road accidents, by age group - persons
+TSDTR450	Average CO2 emissions per km from new passenger cars - grams of CO2 per kilometre
+TSDNR220	Red list Index for European species -
+TSDNR310	Surface and groundwater abstraction - % of available resources
+TSDNR330	Biochemical oxygen demand in rivers - ng/L
+TSDNR410	Concentration of mercury in fish and shellfish
+TSDNR520	Forest increment and fellings - Forest annual fellings as a share of net annual increment
+TSDNR530	Forest trees demaged by defoliation - %
+TSDNR540	Critical load exceedance for nitrogen
+TSDGP100	Official development assistance - % of gross national income
+TSDGP210	EU imports from developing countries by income group - billion euro
+TSDGP220	EU imports from developing countries by group of products - billion euro
+TSDGP230	EU imports from least developed-countries by group of products - billion euro
+TSDGP240	Aggregated measurement of support
+TSDGP310	Total EU financing for developing countries, by type - million euro
+TSDGP320	Foreign direct investment in developing countries, by income group - million euro
+TSDGP330	ODA, by income group - million euro
+TSDGP340	Untied official development assistance - %
+TSDGP350	Bilateral official development assistance by category - million euro
+TSDGP410	CO2 emissions per inhabitant in the EU and in developing countries - tonnes
+TSDGP510	Population living on less than 1 USD a day - %
+TSDGP520	Official development assistance per inhabitant in recipient countries - euro
+TSDGP530	Population with sustainable access to an improved water source - %
+TSDGO210	New infringement cases, by policy area - number
+TSDGO220	Transposition of Community law, by policy area - %
+TSDGO310	Voter turnout in national and EU parliamentary elections - %
+TSDGO410	Shares of environmental and labour taxes in total tax revenues - %
+TSDGO510	Level of citizen's confidence in EU institutions - %

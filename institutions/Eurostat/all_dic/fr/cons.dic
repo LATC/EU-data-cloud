@@ -1,0 +1,82 @@
+WA_1	Total des prélèvements bruts
+WA_1_1	Prélèvement par l'approvisionnement public en eau
+WA_1_2	Prélèvement par l'agriculture, sylviculture, pêche
+WA_1_2_1	Prélèvement par l'agriculture, pour l'irrigation
+WA_1_3	Industrie extractive
+WA_1_4	Prélèvement par les industries manufacturières (total)
+WA_1_4_1	Prélèvement par les industries manufacturières dont utilisé par l'industrie agroalimentaire
+WA_1_4_2	Prélèvement par les industries manufacturières, pour le refroidissement
+WA_1_5	Prélèvement par la production d'électricité, pour le refroidissement
+WA_1_6	Prélèvement par services
+WA_1_7	Construction et autres activités économiques
+WA_1_8	Prélèvement par les ménages
+WA_1_8_1	Prélèvement par les ménages : Eaux restituées
+WA_1_9	Eaux restituées (avant ou sans utilisation) - (disponible uniquement pour eau douce totale)
+WA_1_10	Prélèvement net - (disponible uniquement pour Eau douce totale)
+WA_1_11	Prélèvement par toute autre activité économique (p.ex. construction)
+WA_2	Prélèvements d'eau pour la production de  l'hydroélectricité
+W18_1	Population connectée à un système public d'approvisionnement en eau (en % de la population nationale) - (disponible uniquement pour l'approvissionment public)
+W18_2	Distribution totale
+W18_2_1	Distribution à l'agriculture, sylviculture, pêche (total)
+W18_2_1_1	Distribution à l'agriculture, pour l'irrigation
+W18_2_2	Distribution aux industries extractives
+W18_2_3	Distribution aux industries manufacturières (Total)
+W18_2_3_1	Distribution à l'industrie agroalimentaire
+W18_2_3_2	Distribution à la métallurgie
+W18_2_3_3	Distribution à l'industrie de la fabrication de véhicules motorisés et matériel de transport
+W18_2_3_4	Distribution à l'industrie textile
+W18_2_3_5	Distribution à l'industrie du papier et des produits dérivés
+W18_2_3_6	Distribution à l'industrie des produits chimiques, pétrole raffinés, etc..
+W18_2_3_7	Distribution à d'autres industries manufacturière
+W18_2_3_8	Distribution aux industries manufacturières, pour le refroidissement
+W18_2_4	Distribution à la production et distribution de l'électricité (Total)
+W18_2_4_1	Distribution à la production et distribution de l'électricité, pour le refroidissement
+W18_2_5	Distribution à l'ensemble des activités industrielles
+W18_2_6	Distribution à la construction
+W18_2_7	Distribution au secteur domestique (Total)
+W18_2_7_1	Distribution au secteur domestique, services
+W18_2_7_2	Distribution au secteur domestique, ménages
+WW2_1	Traitement primaire
+WW2_2	Traitement secondaire
+WW2_3	Traitement tertiaire
+WW2_3_1	Traitement tertiaire avec élimination d'azote - (uniquement disponible pour les traitement des eaux usées urbaines)
+WW2_3_2	Traitement tertiaire avec élimination de phosphore - (uniquement disponible pour les traitement des eaux usées urbaines)
+WW2_4	Total traitement
+WW2_4_1	Total traitement dont au moins avec traitement secondaire - (uniquement disponible pour traitement autonome
+WW2_4_2	Total dont avec procédés de déphosphorisation (ancienne version)
+SL_1	Production totale de boues d'épuration
+SL_2	Elimination totale des boues d'épuration
+SL_2_1	Usage agricole
+SL_2_2	Compostage et autres applications
+SL_2_3	Mise en décharge
+SL_2_4	Rejet à la mer
+SL_2_5	Incinération
+SL_2_6	Autres
+SL_3	Usage agricole
+SL_4	Compostage et autres applications
+SL_4_1	Usage agricole (en volume: 1 000 m3/an)
+SL_4_2	Compostage et autres applications (en volume: 1 000 m3/an)
+SL_4_3	Mise en décharge (en volume: 1 000 m3/an)
+SL_4_4	Rejet à la mer (en volume: 1 000 m3/an)
+SL_4_5	Incinération (en volume: 1 000 m3/an)
+SL_4_6	Autres (en volume: 1 000 m3/an)
+SL_5	Mise en décharge
+SL_6	Rejet à la mer
+SL_6_1	Usage agricole (en matière sèche: kg/hab)
+SL_6_2	Compostage et autres applications (en matière sèche: kg/hab)
+SL_6_3	Mise en décharge (en matière sèche: kg/hab)
+SL_6_4	Rejet à la mer (en matière sèche: kg/hab)
+SL_6_5	Incinération (en matière sèche: kg/hab)
+SL_6_6	Autres (en matière séche: kg/hab)
+SL_7	Incinération
+SL_8	Autres
+SL_8_1	Production totale de boues d'épuration (en volume: 1 000 m3/an)
+SL_8_2	Compostage et autres applications (en volume: m3/hab)
+SL_8_3	Mise en décharge (en volume: m3/hab)
+SL_8_4	Rejet à la mer (en volume: m3/hab)
+SL_8_5	Incinération (en volume: m3/hab)
+SL_8_6	Autres (en volume: m3/hab)
+WA_3	Prélèvements d'eau de réservoirs artificiels
+WA_4	Prélèvements d'eaux illégales, total (estimations)
+WA_4_1	Prélèvements d'eaux illégales : eaux de surface
+WA_4_2	Prélèvements d'eaux illégales : eaux souterraines

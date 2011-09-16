@@ -1,0 +1,497 @@
+ACCIDENT	Accident
+ACC_AIR	Type d'accidents
+ACC_ITEM	Poste de compte
+ACL00	Classification of activities for time use survey (2000)
+ACTIV	Activité (Eurostat/classification OCDE)
+ACTIVITY	Type d'activité
+ACT_ENT	Activité d'entreprise
+AFFORD	Faisabilité budgétaire
+AGE	Classe d'âge
+AGECHILD	Age de l'enfant
+AGEDEF	Définition de l'âge
+AGGREG95	Agrégat SEC95
+AGRAREA	Superficie agricole
+AGRAREA_1	Classes de taille de la superficie agricole
+AGR_ACT	Activité agricole
+AI	Polluant atmosphérique
+AIRCRAFT	Aéronefs
+AIRC_CAT	Catégorie d'avions
+AIRLINE	Compagnies aériennes
+AIRPOL	Indicateur de la pollution atmosphérique
+AIRP_INF	Type d'infrastructure d'aéroport
+AIRP_PR	Paires d'aéroports (routes)
+AIRP_TYP	Type d'aéroport
+AIRSECT	Secteurs source des émissions atmosphériques
+AMENITY	Installations
+ANIMALS	Animaux
+ANIM_SLA	Animaux pour abattage
+ANNEX	Annexe
+AQUAENV	Milieu aquatique
+AQUAMETH	Méthode d'aquaculture
+ARABLE	Superficie en terres arables
+AREA	Superficie
+ARREARS	Arriérés de paiement
+ASSET	Assets
+ASS_NEED	Assistance nécessaire pour le travail
+ASS_PROV	Assistance fournie pour le travail
+ASYL_APP	Type de demandeur
+BAL_ITEM	Poste de bilan
+BARK	Sous écorce / sur écorce
+BARRIER	Obstacles
+BASEYEAR	Année de base
+BEC	Classification par grandes catégories économiques (BEC)
+BMI	Indice de masse corporelle
+BNK_TRAN	Type de transaction de banque
+BODYPART	Partie du corps blessée
+BONDS	Secteur émetteur
+BREAKDOW	Ventilation par classe de taille / par indicateur économique
+BREAK_IL	Ventilation
+BREAK_SD	Ventilation pour le développement durable
+BUILDING	Type de bâtiment
+BUS_FUNC	Fonction commerciale
+BUS_PART	Partenaires commerciaux
+CAPITEM	Poste de consommation produit/tête
+CARACT	Caractéristiques des ménages
+CARGO	Type de fret
+CARRIAGE	Genre de transport
+CATEGORY	Catégorie
+CAT_LF	Catégories de main-d'oeuvre
+CAT_POP	Catégorie particulière de la population
+CAT_REG	Catégorie d'enregistrement
+CAUHPBDI	Cause de problème de santé ou d'un handicap de longue durée
+CBTRADE	Echanges transfrontaliers
+CITIES	Entité géopolitique (déclarante)
+CITIZEN	Pays de citoyenneté
+CLSPEC	Spécialisation du client
+CLTYPE	Client
+COEF	Coefficient
+COFOG99	Classification des fonctions des administrations publiques (SEC95)
+COICOP	Classification des fonctions de consommation des ménages - 1998 (COICOP)
+COMSPEC	Espèces d'oiseaux
+CONS	Secteur d'abstraction et d'utilisation ou type de traitement
+CONSIGN	Type d'envoi
+CONSIST	Consistance des déchets
+CONSITEM	Poste de consommation
+CONSOM	Consommation
+COPAT	Brevets en coopération et citations de brevets
+CO_NCO	Consolidé/Non-consolidé
+CPA02	Classification statistique des produits associée aux activités dans la Communauté économique européenne, 2002
+CPA08	Classification statistique des produits associée aux activités dans la Communauté économique européenne, 2008
+CPAYAGR	Convention collective
+CP_FOOD	Classification COICOP pour la chaîne d'approvisionnement alimentaire 
+CRIM	Infraction
+CROPAREA	Superficie de la culture correspondante
+CROPITEM	Produits végétaux
+CROP_PRO	Production végétale
+CURRENCY	Monnaie
+CURV_TYP	Type de courbe
+CVT_CH	Modification de la FPC et objet de la modification
+C_BIRTH	Pays/région de naissance
+C_BTHFAT	Pays de naissance du père
+C_BTHMOT	Pays de naissance de la mère
+C_BTHPAR	Pays de naissance des parents
+C_CTRL	Pays où l'entreprise de contrôle est située
+C_LOAD	Pays/région de chargement/embarquement
+C_TRANS	Pays de transit
+C_UNLOAD	Pays/région de déchargement/débarquement
+C_WORK	Pays/région de travail
+DANG_GDS	Marchandises dangereuses
+DECISION	Décision concernant les demandes d'asile
+DEG_DIS	Degré d'invalidité
+DEG_URB	Degré d'urbanisation
+DENSITY	Densité de plantation
+DEST	Destination
+DEVIATN	Déviation
+DIAGNOSE	Groupe de diagnostic
+DIMLST	
+DIM_SC1	Indice des prix ou pondération de valeur
+DIM_SC3	Périodicité et taux de variation
+DIRECT	Direction du flux
+DISTANCE	Distance en kilomètres
+DURATION	Durée
+DWELIND	Espace habitable
+DWELTYP	Type de logement
+ECASE	Situation de gain
+ECSIZE	Dimension économique (UDE)
+EMPSOUGH	Type d'emploi recherché
+EN3	Domaine de l'environnement (ancienne collecte de données)
+ENGINE	Capacité du moteur du véhicule (en cm³)
+ENTERPR	Entreprise
+ENTGRP	Identification du groupe d'entreprises
+ENV_DOM	Domaine de l'environnement
+ENV_EXP	Dépenses
+ERM_TYP	Type de MTC (mécanisme de change du SME)
+ERT	Type de taux de change
+ESOD	Liste européenne des maladies professionnelles
+ESTRUCT	Structure des gains
+EXPCAT	Catégorie de dépense 
+EXPECT	Prévisions
+EXPEN	Type de dépenses
+EXPTYPE	Type de dépense
+FACILITY	Equipement de santé
+FACTORS	Facteurs qui peuvent affecter le bien-être
+FARMTYPE	Orientation technico-économique
+FEEDITEM	Poste d'aliment pour animaux
+FE_TYPE	Engrais
+FIELD	Domaine d'éducation ou de formation
+FIELDID	Produit agricole
+FINAGG	Agrégat financier
+FINPOS	Position financière
+FIN_SOURCE	Source de financement 
+FIN_TYP	Type de finance
+FISH	Espèce de poisson
+FISHREG	Zones de pêche
+FLAGS	Flags
+FLOW	Flux
+FLUX	Flux
+FOODITEM	Poste alimentaire
+FOPINION	Opinion des acteurs financiers
+FORMEV	Formulaire d'évaluation des cours de formation professionnelle continue
+FOR_ACC	Comptes économiques de la sylviculture
+FOS07	Classification des domaines scientifiques et technologiques (FOS 2007)
+FREQUENC	Fréquence
+FRUITVAR	Variété de fruits
+FUEL	
+GAUGETRK	Type d'écartement des voies
+GEO	Entité géopolitique (déclarante)
+GRADE	Niveau
+GUARANTORS	Garants de financement par prêt
+HAMPERED	Niveau du handicap
+HATCHACT	Espèces/volailles d'élevage
+HATCHITM	Activité de ponte
+HAZARD	Dangerosité des déchets
+HC_SHA	Fonctions de soins de santé SCS
+HF_SHA	Agents de financement de santé SCS
+HHCOMP	Composition du ménage
+HHSTATUS	Individuals by household status
+HHTYP	Type de ménage
+HHWKSTAT	Statut professionnel au sein des ménages
+HH_PRES	Présence d'autres personnes dans le ménage
+HOLD_MAN	Personnalité juridique et relation exploitant-chef d'exploitation
+HOUSING	Habitation
+HP_SHA	Prestataires de soins de santé SCS
+ICD10	Classification statistique internationale des maladies et des problèmes de santé connexes (CIM-10 2007)
+ICD9CM	Classification internationale des maladies (procédures médicales)
+IMPACPCV	Impact perçu
+IMPACT	Impact perçu
+IMPT	Importance
+INCGRP	Situation du revenu par rapport au seuil de risque de pauvreté
+INCOME	Groupe de revenu
+INCSRC	Principale source de revenu
+INCUBAT	Type d'incubation
+INDCTZ	Indicateur de nationalité
+INDIC	Indicateur
+INDIC_AG	Indicateur agricole
+INDIC_BP	Indicateur sur la balance des paiements
+INDIC_BT	Indicateur de conjoncture
+INDIC_CO	Indicateurs statistiques de coopération
+INDIC_DE	Indicateur démographique
+INDIC_ED	Indicateur sur l'éducation
+INDIC_ED_TEST	Indicateur sur l'éducation
+INDIC_EF	Eurofarm indicator
+INDIC_EM	Indicateur sur l'emploi
+INDIC_EN	Indicateur de l'énergie
+INDIC_ET	Indicateur du commerce extérieur
+INDIC_EU	Indicateurs pour le projet EU2020
+INDIC_FB	Indicateur sur les facteurs de résussite des entreprises
+INDIC_FO	Indicateurs de la sylviculture
+INDIC_GI	Globalisation indicators
+INDIC_HE	Indicateur de santé
+INDIC_IL	Indicateur sur le revenus et les conditions de vie
+INDIC_IN	Indicateur sur l'innovation
+INDIC_IS	Indicateur sur la société de l'information
+INDIC_LC	Indicateur de la structure des coûts de la main d'oeuvre
+INDIC_MD	Indicateur utilisé par Euro_Med
+INDIC_MG	Indicateur de migration
+INDIC_NA	Indicateur des comptes nationaux (SEC95)
+INDIC_NRG	
+INDIC_NV	Indicateur de l'environnement
+INDIC_PI	Indicateur principal
+INDIC_RD	Indicateur de R&D
+INDIC_SB	Indicateur économique des statistiques structurelles sur les entreprises
+INDIC_SE	Indicateur sur la Structure des Salaires
+INDIC_ST	Indicateur de l'acier
+INDIC_TH	Indicateurs des pays tiers
+INDIC_TO	Indicateur de tourisme
+INDIC_TR	Indicateur de transport
+INDIC_UR	Indicateur d'audit urbain
+INDIC_VI	Enquête sur les variables viticoles
+INDX	Classes d'index
+IND_CENS	Indicateur de recensement
+IND_FARM	Indicateurs principaux de l'agriculture
+IND_INPU	Poste de l'indice input
+IND_NRG	
+IND_OUTP	Poste de l'indice output
+IND_TYPE	Type de particulier
+INFO	Type d'information
+INFOTYPE	Type d'information
+INJURY	Type de blessure
+INSTR	Instrument
+INTRT	Taux d'intérêt
+IN_OUT	Input/Output
+IPC	Classification internationale des brevets (CIB)
+IRBY	Taux d'intérêt ou rendement des obligations
+IRRIG	Superficie irrigée
+ISCED97	Classification Internationale Type de l'Education 1997 (CITE)
+ISCO08	Classification internationale type des professions 2008 (CITP-08)
+ISCO88	Classification internationale type des professions, variante européenne (CITP-88 (COM))
+ITM_NEWA	Liste de produits - EAA
+ITM_NEWF	Liste de produits - EAF
+LA	Catégorie d'utilisation du sol (km2)
+LABEL	Signe distinctif
+LANDCOVER	Occupation des sols
+LANDUSE	Utilisation des terres
+LANGUAGE	Langage
+LCSTR00	Structure des coûts de la main d'oeuvre (2000)
+LCSTR96	Structure des coûts de la main d'oeuvre (1996)
+LCSTRUCT	Structure des coûts de la main d'oeuvre
+LEARNING	Source d'apprentissage
+LEGTYPE	Statut juridique de l'exploitation
+LEG_FORM	Forme juridique
+LEV_LANG	Niveau de connaissance de langue
+LIVSTOCK	Population animale par catégorie
+LLL	Formation continue
+LMP_TYPE	Interventions des politiques du marché du travail par type d'action
+LOADSTAT	Statut de chargement
+LSU	Cheptel en unités gros bovins (UGB)
+L_SERV	Durée du service
+MAINW	Principaux moyens d'acquérir/de développer des nouvelles qualifications
+MARSTA	Statut matrimonial
+MATAGENT	Agent matériel
+MATERIAL	missing
+MATUR	Echéance
+MEATITEM	Poste de viande
+MEDIA	Médias
+MED_SPEC	Spécialité médicale
+METROREG	Régions Metro
+MI	Types de déchets municipaux
+MILKITEM	Postes de lait
+MILKTYPE	Type de lait
+MNY_AGGR	Agrégat monétaire
+MODINJ	Contact - Modalité de la blessure
+MONTH	Mois
+NABS07	Nomenclature pour l'analyse et la comparaison des programmes et des budgets scientifiques (NABS 2007)
+NABS92	Nomenclature pour l'analyse et la comparaison des programmes et des budgets scientifiques (NABS 1992)
+NACE_R1	Classification des activités économiques - NACE Rév.1.1
+NACE_R2	Classification des activités économiques - NACE Rév.2
+NATEXPEN	Nature des dépenses
+NATVESSR	Nationalité d'enregistrement du navire
+NET_SEG	Segment du réseau ferré
+NST07	Nomenclature uniforme des marchandises pour les statistiques de transport (NST 2007, 20 groupe)
+NSTR24	NST/R24 groupes
+NUTRIENT	Nutriment
+N_ACTION	Nombre d'actions de formation 
+N_ACTIV	Nombre de personnes actives
+N_CHILD	Nombre d'enfants
+N_CONTACT	Nombre de contacts
+N_ELEM	Nombre d'élements
+N_EXPER	Nombre d'expériences en tant que directeur
+N_HEAD	Nombre de têtes
+N_HPROB	Nombre de problèmes de santé
+N_INJURY	Nombre de blessures accidentelles
+N_ITEM	Nombre d'articles correspondant à des privations matérielles
+N_JOB	Nombre d'emplois
+N_LANDCO	Nombre de types d'occupation des sols
+N_LANG	Nombre de langues étrangères modernes étudiées
+N_PERSON	Nombre de personnes
+N_ROOM	Nombre de pièces
+N_TRACKS	Nombre de voies
+N_UNEMP	Nombre de chômeurs
+N_VEHICL	Nombre de vehicules
+N_VESSEL	Nombre de bateaux
+OBS_STATUS	
+OBZONE	Zones d'objectif
+OCCUP	Profession
+OFFRES	Réserves officielles
+OGAHOLDR	Autre activité lucrative de l'exploitant
+OP_TYPE	Type d'opérateur
+ORD_BRTH	Rang de naissance
+ORGANIC	Agriculture biologique (O/N)
+ORIGIN	Lieu d'origine
+OTP	Type d'observation
+OWNER	Type de contrôle économique et financier
+PAROBS	Type d'obstacles de participation
+PARTICIP	Participation des salariés à des cours FPC
+PARTNER	Entité géopolitique (partenaire)
+PAR_MAR	Entité partenaire
+PERCENT	Classes de taille en pourcentage
+PERS_INV	Personnes impliquées dans l'accident
+PE_TYPE	Pesticide
+PHYSACT	Activité physique spécifique
+PLANTS	Type d'installation
+PL_CAPA	Capacité de l'installation
+PORT_INFR	Infrastructure des ports
+POST	Poste de la balance des paiements
+POWER	Type de courant
+PRES	Présentation
+PRIORITY	Priorité de la collecte des données
+PRODMEAT	Produit de viande
+PRODMILK	Produit laitier
+PRODSERV	Produit
+PRODSPEC	Spécialisation du produit
+PRODTYP	Production
+PRODUCT	Produits
+PRODUCT_BKP	Produits
+PROD_ANI	Produit animal
+PROD_APR	Produit agricole (anciens codes)
+PROD_BAL	Balance de la production agricole
+PROD_CN	Poste de la Nomenclature Combinée
+PROD_FIN	Produit financier
+PROD_HT	Groupes de produits de haute technologie
+PROD_INP	Produit input
+PROD_ITM	Poste Prodcom
+PROD_NRG	Produit d'énergie
+PROD_SER	Classification des produits associés aux services
+PROD_VEG	Produit végétal
+PROD_WD	Produits du bois
+PROV	Prestataire de formation professionnelle
+PROVLOC	Emplacement du principal fournisseur de services
+PUB_MEAS	Impact des mesures publiques sur les plans FPC
+PURPOSE	But
+P_ADJ	Type d'indice
+QUANTILE	Quantile
+RANKPART	Ordre des partenaires EU
+RE	Déchets liquides déterminés
+REASON	Raison
+REASRET	Raison principale du départ en retraite ou en retraite anticipée
+RECFUND	Bénéficiaire du financement
+REGBEN	Assistance sociale des chômeurs
+REGION	Zones de pêche
+REGISVEH	Catégorie de régistration du véhicule
+RELATION	Types de relation inter-entreprises
+REP_AIRP	Aéroport déclarant
+REP_MAR	Entité déclarante
+REQUEST	Demandes
+REQ_TYP	Demandes
+RESID	Lieu de résidence
+RETAIL	Taux d'intérêt des banques de dépôts
+SCENARIO	Scénarios
+SCHEDULE	Type d'horaire
+SECTFUND	Source des fonds
+SECTOR	Secteur
+SECTOR2	Secteur institutionnel (Classification SEC)
+SECTPERF	Secteur de performance
+SERVACT	Services aux entreprises par activité
+SERVINV	Investissements relatifs aux services
+SERVPROV	Principal fournisseur de service
+SERVPUR	Achats de services (en valeurs monétaires)
+SEVERITY	Gravité
+SEX	Sexe
+SGM_REG	Régions
+SITC06	Classification type pour le commerce international (CTCI Rév. 4, 2006)
+SITC88	Classification type pour le commerce international (CTCI Rév. 3, 1988) 
+SIZECLAS	Classes de taille en nombre de salariés 
+SIZENACE	Taille de l'entreprise et Nace
+SIZEN_R2	Taille de l'entreprise et Nace Rev. 2
+SIZE_EMP	Classes de taille en nombre des personnes occupées 
+SIZE_MBR	Classes de taille en nombre de membres
+SMOKING	Comportement du fumeur
+SNGLHLDR	Exploitation individuelle (O/N)
+SOURCE	Maillon de la chaîne
+SOURINFO	Sources où les participants ont trouvé des possibilités de formation
+SPDEP	SESPROS-dépenses
+SPDEPB	SESPROS-type de pension
+SPDEPM	SESPROS-sous condition de ressources
+SPDEPS	SESPROS-principaux types de dépenses
+SPECIES	Espèces de poisson
+SPFUNC	SESPROS-fonction
+SPSCHEME	SESPROS-catégorie de régimes
+SPSECTOR	SESPROS-recettes - secteur d'origine
+SPTYPE	SESPROS-recettes
+SPY_IDX	Indices des cours des actions (données rebasées)
+SRC	Paramètres hydrologiques - écoulements - sources - approvisionnement en eau - traitement de l'eau
+SRC_ACT	Activité de sourçage
+STAFF	Personnel par catégorie
+STARTIME	Heure de début de l'activité
+STAT	Statistiques
+STATINFO	Information statistique
+STATUENT	Statut de l'entreprise
+STATUNIT	Unité statistique
+STATUS	Implantation géographique
+STOCKS	Stocks
+STO_FLOW	Stock ou flux
+STRUCPRO	Structure de production
+STUDENTC	Catégorie d'étudiants
+ST_FL	Flux de stocks
+SUBJNMON	Indicateur subjectif et non monétaire
+SWMETHOD	Méthode employée pour rechercher un emploi
+S_ADJ	Désaisonnalisation
+TABLE_DIC	
+TAX	Taxes
+TECH	Changements technologiques ou structurels
+TENSTATU	Statut d'occupation du logement
+TENURE	Modalités de jouissance du logement par le ménage
+TIME	Période (a=année, s=semestriel, q=trimestre, m=mois, d=jour, c=cumulé à partir de janvier)
+TINFO	Information supplémentaire
+TONNAGE	Classes de taille en jauges brute
+TRAIN	Catégorie de train
+TRAINING	Formation du chef d'exploitation
+TRANS1Y	Transition par rapport à la situation de l'année précedente
+TRANSPRT	Transport
+TRA_COV	Couverture de transport
+TRA_INFR	Réseau de transport
+TRA_MEAS	Mesures du trafic et du transport
+TRA_MODE	Mode de transport
+TRA_OPER	Type d'opération et statut de chargement
+TRD_MAR	Maritime transport trade
+TREESPEC	Essences d'arbres
+TWRK_HR	Activités de formation suivies pendant les heures de travail rétribuées
+TY	Type de dépense
+TYPASSE	Évaluation des compétences/besoins de formation
+TYPASSWK	Type d'assistance fournie / nécessaire pour le travail
+TYPCH	Type de changement
+TYPCOST	Type de dépense
+TYPEAGR	Type d'accord sur la formation professionnelle continue
+TYPECOST	Type de dépenses
+TYPERD	Type de R&D
+TYPEXPEN	Dépense
+TYPE_CON	Contrat de travail
+TYPE_INN	Ventilation par type d'innovateur
+TYPHPBDI	Type de problème de santé ou d'un handicap de longue durée
+TYPPACK	Type d' emballages
+TYPPURCH	Type d'achats
+TYPTRAI	Type de formation
+TYPTRAIF	Futur type de formation
+TYP_INV	Type d'investissement
+TYP_REAR	Type d'élevage
+T_COLS	Colonnes
+T_FREQ	Fréquence
+T_ROWS	Lignes
+UNIT	Unité
+VALUE	Valeur monétaire par classe de taille
+VARIABLE	Variable
+VEHICLE	Véhicules
+VERSION	Année de projection
+VESSEL	Type de bâteau
+VESSIZE	Taille des bâteaux
+VICTIM	Type de victime
+VITYPE	Type de superficie viticole
+VIT_VTV	Part de la superficie viticole dans la superficie agricole utilisée (SAU)
+VOLUME	Volume en tonnes
+VTARCLS	Classe de superficie viticole
+WA	Extraction d'eau par secteur
+WANTWORK	Volonté de travailler
+WASTE	Catégories de déchets
+WATER_PA	Paramètre de l'eau
+WEEK	Days of the week
+WEIGHT	Poids
+WINE_VAR	Variété de vignes à raisins de cuve
+WORK	Statut dans le travail
+WORKINT	Intensité de travail
+WORKTIME	Temps de travail
+WRKENV	Type de lieu
+WRKPLACE	Lieu de travail
+WRKPROC	Type de travail
+WRKSTAT	Poste de travail
+WSTATUS	Statut dans l'activité et l'emploi
+WSTATUS2	Statut professionnel dans le deuxième emploi
+WSTA_ACC	Statut professionnel après un accident
+WST_OPER	Exploitation des déchets
+WTIME	Temps de travail (% UTA)
+WW	Sources et secteurs des eaux usées
+YES_NO	Oui/Non
+YIELDCLS	Classe de rendement
+YNLFS	Modalités de la variable du module ad-hoc
+Y_ARRIV	Année d'arrivée
+Y_BIRTH	Année de naissance
+Y_CONST	Année de construction

@@ -1,0 +1,19 @@
+TOTAL	Total
+1	Life insurance enterprises
+2	Non-life insurance enterprises
+3	Composite insurance enterprises
+4	Specialist reinsurance enterprises
+5	Life insurance business of composite insurance enterprises
+6	Non-life insurance business of composite insurance enterprises (including business accepted)
+AVIA	Aviation enterprises
+AIRP	Airport enterprises
+RL_UNDTK	Railway undertaking
+IF_MNG	Infrastructure manager
+INTG_CO	Integrated company
+DOM_SRC	Enterprises with domestic sourcing
+INT_SRC	Enterprises with international sourcing
+INT_PLAN	Enterprises with no international sourcing with plans
+INT_NO	Enterprises with no international sourcing with no international sourcing plans
+YHE	Young high-growth enterprises (gazelles)
+OTH_YHE	Other high-growth enterprises
+OTH	Other enterprises

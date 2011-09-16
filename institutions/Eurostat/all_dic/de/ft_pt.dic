@@ -1,0 +1,14 @@
+TOTAL	Insgesamt
+TOT_FTU	Insgesamt in Vollzeiteinheiten
+NB_TOT	Alle (keine Aufgliederung)
+FT	Vollzeit
+FT_GE32	Vollzeit (32 Stunden oder mehr pro Woche)
+LONG_PT	Lange Teilzeit (20-31 Stunden pro Woche)
+SHORT_PT	Kurze Teilzeit (1-19 Stunden pro Woche)
+PT	Teilzeit
+PT_FTU	Teilzeit in Vollzeiteinheiten
+AVG_FTU	Jahresdurchschnitt pro Person in Vollzeiteinheiten
+OCC	Gelegentlich
+UNK	Unbekannt
+NOT_SPEC	Nicht angegeben
+NRESP	Keine Antwort

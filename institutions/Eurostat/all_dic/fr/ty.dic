@@ -1,0 +1,23 @@
+TY0001	Dépenses courantes + Dépenses en capital
+TY0002	Investissements
+TY0003	Technologies dites de 'fin de cycle de production'
+TY0004	Technologies 'propres'
+TY0005	Dépenses courantes
+TY0006	Dépenses courantes internes
+TY0007	Salaires
+TY0008	Autre
+TY0009	Dépenses courantes externes
+TY0010	Taxes et autres paiements aux organismes publics
+TY0011	Paiements à des entreprises privées
+TY0012	Résultat d'exploitation lié à la protection de l'environnement
+TY0013	Produits liés aux biens et services
+TY0014	Economies d'énergie ou de matières premières
+TY0015	Main-d'oeuvre occupée - nombre de personnes
+TY0016	Dépenses en capital
+TOT_EGSS	Total secteur des biens et services environnementaux 
+ANC	Activités auxiliaires
+ES_CS	Services environnementaux spécifiques et connexes
+GDC	Biens connexes
+GDA	Biens adaptés 
+TCE	Technologies bout de chaîne
+TCI	Technologies intégrées 

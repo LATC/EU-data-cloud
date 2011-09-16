@@ -1,0 +1,19 @@
+TOTAL	Total des habitations
+H_CV	Habitation classique
+DW	Logements classiques
+DW_OC	Logements classiques occupés
+DW_OWN	Logements classiques occupés par leur propriétaire
+DW_COOP	Logements classiques occupés par un co-propriétaire
+DW_RENT	Logements classiques occupés par un locataire
+DW_OTH	Logements classiques occupés sous d'autres régimes de propriété
+DW_NOC	Logements classiques inoccupés
+DW_SEC	Logements saisonniers ou secondaires 
+DW_VAC	Logements vacants 
+CLQ	Locaux d’habitation collectifs
+H_NCV	Habitation non conventionnelle (y compris l'absence de domicile)
+H_OTH	Habitation non conventionnelle (absence de domicile exclue)
+HMLS	Absence de domicile
+HMLS1	Sans-abri
+HMLS2	Sans domicile fixe
+H_OC	Total des habitations occupées (absence de domicile exclue)
+UNK	Inconnu

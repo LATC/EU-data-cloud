@@ -1,0 +1,75 @@
+TOTAL	Traitement total des déchets
+GEN	Déchets produits
+MKT	Produits mis sur le marché
+COL	Déchets collectés
+COL_HH	Déchets collectés des ménages
+COL_OTH	Déchets collectés d'autres sources
+TRT	Traitement total des déchets
+TRT_NAT	Traité dans l'État membre
+TRT_OEU	Traité dans un autre État membre de l'UE
+TRT_NEU	Traité hors UE
+RCV_REU	Total récupération et réutilisation
+REU	Réutilisation
+RCV	Récupération
+RCV_E	Récupération énergétique
+RCV_NE	Récupération autre que la récupération énergétique
+RCV_B	Récupération autre que la récupération énergétique - remblayage
+RCV_O	Récupération autre que la récupération énergétique - sauf remblayage
+RCV_I	Incinération avec récupération énergétique aux usines d'incinération
+RCY_REU	Recyclage total et réutilisation
+RCY	Recyclage
+RCY_M	Recyclage matériel
+RCY_O	Autres formes de recyclage (inclus le compostage)
+RCY_OTH	Autres formes de recyclage
+RCY_MAT	Recyclage des matériaux
+RCV_NRG	Valorisation énergétique
+RCV_OTH	Autre formes de valorisation
+RCV_INC	Valorisation (incinération inclus)
+INC_RCV	Incinération totale (y compris récupération énergétique)
+INC	Incinération sans récupération
+DSP	Elimination
+DEP	Dépôt dans ou sur le sol
+LND	Traitement en milieu terrestre et rejet en milieu aquatique
+DSP_D	Dépôt dans ou sur le sol
+DSP_DH	Décharges pour déchets dangereux
+DSP_DNH	Décharges pour déchets non dangereux
+DSP_DI	Décharges pour déchets inertes
+DSP_O	Épandage sur le sol et rejet dans l'eau
+RCV_RT	Taux de récupération
+RCY_RT	Taux de recyclage
+TRT_IMP	Déchets importés pour traitement/élimination
+TRT_EXP	Déchets exportés pour traitement/élimination
+TRT_PL	Usine de traitement
+C_DSP_D	Sites de décharges contrôlées
+C_DSP_O	Dépôts contrôlés sur ou dans la terre
+CMP	Compostage
+D1	Dépôt sur ou dans le sol (par exemple mise en décharge, etc.)
+D2	Traitement en milieu terrestre (par exemple biodégradation de déchets liquides ou de boues dans les sols, etc.)
+D3	Injection en profondeur (par exemple des déchets pompables dans des puits, des dômes de sel, ou des failles géologiques naturelles, etc.)
+D4	Lagunage (par exemple déversement de déchets liquides ou de boues dans des puits, des étangs ou des bassins, etc.)
+D5	Mise en décharge spécialement aménagée (par exemple placement dans des alvéoles étanches séparées, recouvertes et isolées les unes des autres et de l'environnement, etc.)
+D6	Rejet dans le milieu aquatique sauf l'immersion en mer
+D7	Immersion en mer, y compris enfouissement dans le sous-sol marin
+D8	Traitement biologique non spécifié ailleurs dans la Convention de Bâle (annexe IV), aboutissant à des composés ou à des mélanges qui sont éliminés selon l'un des procédés énumérés à la section A
+D9	Traitement physico-chimique non spécifié ailleurs dans la Convention de Bâle (annexe IV), aboutissant à des composés ou à des mélanges qui sont éliminés selon l'un des procédés énumérés à la section A (par exemple évaporation, séchage, calcination, neutralisation, précipitation, etc.)
+D10	Incinération à terre
+D11	Incinération en mer
+D12	Stockage permanent (par exemple placement de conteneurs dans une mine, etc.)
+D13	Regroupement préalablement à l'une des opérations de la Convention de Bâle (annexe IV, section A)
+D14	Reconditionnement préalablement à l'une des opérations de la Convention de Bâle (annexe IV, section A)
+D15	Stockage préalablement à l'une des opérations de la Convention de Bâle (annexe IV, section A)
+R1	Utilisation comme combustible (autrement qu'en incinération directe) ou autre moyen de produire de l'énergie
+R2	Récupération ou régénération des solvants
+R3	Recyclage ou récupération de substances organiques qui ne sont pas utilisées comme solvants
+R4	Recyclage ou récupération des métaux ou des composés métalliques
+R5	Recyclage ou récupération d'autres matières inorganiques
+R6	Régénération des acides ou des bases
+R7	Récupération des produits servant à capter les polluants
+R8	Récupération des produits provenant des catalyseurs
+R9	Régénération ou autres réemplois des huiles usées
+R10	Epandage sur le sol au profit de l'agriculture ou de l'écologie
+R11	Utilisation de matériaux résiduels obtenus à partir de l'une des opérations numérotées R1 à R10
+R12	Echange de déchets en vue de les soumettre à l'une des opérations numérotées R1 à R11
+R13	Mise en réserve de matériaux en vue de les soumettre à l'une des opérations figurant à la Convention de Bâle (annexe IV, section B)
+RD_NAL	Exploitation des déchets, non-alloué a un poste R ou D
+NSP	Non spécifié

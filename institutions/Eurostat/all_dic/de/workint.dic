@@ -1,0 +1,19 @@
+TOTAL	Insgesamt
+A1NCW0	Haushalt mit einem Erwachsenen - Ohne Kinder - Arbeitsintensität = 0
+A1NCW0_1	Haushalt mit einem Erwachsenen - Ohne Kinder - Arbeitsintensität zwischen 0 und 1
+A1NCW1	Haushalt mit einem Erwachsenen - Ohne Kinder - Arbeitsintensität = 1
+A1CW0	Haushalt mit einem Erwachsenen mit abhängigem Kindern - Arbeitsintensität = 0
+A1CW0_1	Haushalt mit einem Erwachsenen mit abhängigem Kindern - Arbeitsintensität zwischen 0 und 1
+A1CW1	Haushalt mit einem Erwachsenen mit abhängigem Kindern - Arbeitsintensität = 1
+A2NCW0	Haushalt mit zwei oder mehr Erwachsenen - Ohne Kinder - Arbeitsintensität = 0
+A2NCW0_1	Haushalt mit zwei oder mehr Erwachsenen - Ohne Kinder - Arbeitsintensität zwischen 0 und 1
+A2NCW1	Haushalt mit zwei oder mehr Erwachsenen - Ohne Kinder - Arbeitsintensität = 1
+A2CW0	Haushalt mit mindestens zwei Erwachsenen mit abhängigem Kindern - Arbeitsintensität = 0
+A2CW0_05	Haushalt mit zwei oder mehr Erwachsenen mit abhängigem Kindern - Arbeitsintensität zwischen 0 und 0.5
+A2CW05_1	Haushalt mit zwei oder mehr Erwachsenen mit abhängigem Kindern - Arbeitsintensität zwischen 0.5 und 1
+A2CW1	Haushalt mit zwei oder mehr Erwachsenen mit abhängigem Kindern - Arbeitsintensität = 1
+NONEWORK	Haushalt mit Arbeitsintensitäten = 0
+SOMEWORK	Haushalt mit Arbeitsintensitäten  zwischen 0 und 1
+MAXWORK	Haushalt mit Arbeitsintensität = 1
+SOMELT05	Haushalt mit Arbeitsintensitäten zwischen 0 und 0.5
+SOMEGE05	Haushalt mit Arbeitsintensitäten zwischen 0.5 und 1

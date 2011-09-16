@@ -1,0 +1,80 @@
+TOTAL	Total
+GF01	Services généraux des administrations publiques
+GF0101	Fonctionnement des organes exécutifs et législatifs, affaires financières et fiscales, affaires étrangères
+GF0102	Aide économique extérieure
+GF0103	Services généraux
+GF0104	Recherche fondamentale
+GF0105	R & D concernant des services généraux des administrations publiques
+GF0106	Services généraux des administrations publiques n.c.a.
+GF0107	Opérations concernant la dette publique
+GF0108	Transferts de caractère général entre administrations publiques
+GF02	Défense
+GF0201	Défense militaire
+GF0202	Défense civile
+GF0203	Aide militaire à des pays étrangers
+GF0204	R & D concernant la défense
+GF0205	Défense n.c.a.
+GF03	Ordre et sécurité publics
+GF0301	Services de police
+GF0302	Services de protection civile
+GF0303	Tribunaux
+GF0304	Administration pénitentiaire
+GF0305	R & D concernant l'ordre et la sécurité publics
+GF0306	Ordre et sécurité publics n.c.a.
+GF04	Affaires économiques
+GF0401	Tutelle de l'économie générale, des échanges et de l'emploi
+GF0402	Agriculture, sylviculture, pêche et chasse
+GF0403	Combustibles et énergie
+GF0404	Industries extractives et manufacturières, construction
+GF0405	Transports
+GF0406	Communications
+GF0407	Autres branches d'activité
+GF0408	R & D concernant les affaires économiques
+GF0409	Affaires économiques n.c.a.
+GF05	Protection de l'environnement
+GF0501	Gestion des déchets
+GF0502	Gestion des eaux usées
+GF0503	Lutte contre la pollution
+GF0504	Préservation de la diversité biologique et protection de la nature
+GF0505	R & D dans le domaine de la protection de l'environnement
+GF0506	Protection de l'environnement n.c.a.
+GF06	Logements et équipements collectifs
+GF0601	Logements
+GF0602	Équipements collectifs
+GF0603	Alimentation en eau
+GF0604	Éclairage public
+GF0605	R & D dans le domaine du logement et des équipements collectifs
+GF0606	Logement et équipements collectifs n.c.a.
+GF07	Santé
+GF0701	Produits, appareils et matériels médicaux
+GF0702	Services ambulatoires
+GF0703	Services hospitaliers
+GF0704	Services de santé publique
+GF0705	R & D dans le domaine de la santé
+GF0706	Santé n.c.a.
+GF08	Loisirs, culture et culte
+GF0801	Services récréatifs et sportifs
+GF0802	Services culturels
+GF0803	Services de radiodiffusion, de télévision et d'édition
+GF0804	Culte et autres services communautaires
+GF0805	R & D dans le domaine des loisirs, de la culture et du culte
+GF0806	Loisirs, culture et culte n.c.a.
+GF09	Enseignement
+GF0901	Enseignement préélémentaire et primaire
+GF0902	Enseignement secondaire
+GF0903	Enseignement postsecondaire non supérieur
+GF0904	Enseignement supérieur
+GF0905	Enseignement non défini par niveau
+GF0906	Services annexes à l'enseignement
+GF0907	R & D dans le domaine de l'enseignement
+GF0908	Enseignement n.c.a.
+GF10	Protection sociale
+GF1001	Maladie et invalidité
+GF1002	Vieillesse
+GF1003	Survivants
+GF1004	Famille et enfants
+GF1005	Chômage
+GF1006	Logement
+GF1007	Exclusion sociale n.c.a.
+GF1008	R & D dans le domaine de la protection sociale
+GF1009	Protection sociale n.c.a.

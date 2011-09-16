@@ -1,0 +1,356 @@
+R00	All fishing areas
+R00_X_R37	All fishing areas except Mediterranean and Black Sea
+R01	Africa - Inland waters
+R09	Inland waters - Total
+R04	Asia - Inland waters
+R05	Europe - Inland waters
+R21	North-west Atlantic
+R21_0	NAFO  0
+R21_0A	NAFO  0A
+R21_0B	NAFO  0B
+R21_0_NK	NAFO  0 (unspecified)
+R21_1	NAFO  1
+R21_1A	NAFO  1A
+R21_1B	NAFO  1B
+R21_1C	NAFO  1C
+R21_1D	NAFO  1D
+R21_1E	NAFO  1E
+R21_1F	NAFO  1F
+R21_1_NK	NAFO  1 (unspecified)
+R21_2	NAFO  2
+R21_2G	NAFO  2G
+R21_2H	NAFO  2H
+R21_2J	NAFO  2J
+R21_2_NK	NAFO  2 (unspecified)
+R21_3	NAFO  3
+R21_3K	NAFO  3K
+R21_3L	NAFO  3L
+R21_3M	NAFO  3M
+R21_3N	NAFO  3N
+R21_3O	NAFO  3O
+R21_3P	NAFO  3P
+R21_3PN	NAFO  3Pn
+R21_3PS	NAFO  3Ps
+R21_3P_NK	NAFO  3P (unspecified)
+R21_3_NK	NAFO  3 (unspecified)
+R21_4	NAFO  4
+R21_4R	NAFO  4R
+R21_4S	NAFO  4S
+R21_4T	NAFO  4T
+R21_4V	NAFO  4V
+R21_4VN	NAFO  4Vn
+R21_4VS	NAFO  4Vs
+R21_4V_NK	NAFO  4V (unspecified)
+R21_4W	NAFO  4W
+R21_4X	NAFO  4X
+R21_4_NK	NAFO  4 (unspecified)
+R21_5	NAFO  5
+R21_5Y	NAFO  5Y
+R21_5Z	NAFO  5Z
+R21_5ZW	NAFO  5Zw
+R21_5ZE	NAFO  5Ze
+R21_5ZE_NK	NAFO  5Ze (unspecified)
+R21_5ZU	NAFO  5Zu
+R21_5Z_NK	NAFO  5Z (unspecified)
+R21_5_NK	NAFO  5 (unspecified)
+R21_6	NAFO  6
+R21_6A	NAFO  6A
+R21_6B	NAFO  6B
+R21_6C	NAFO  6C
+R21_6D	NAFO  6D
+R21_6E	NAFO  6E
+R21_6F	NAFO  6F
+R21_6G	NAFO  6G
+R21_6H	NAFO  6H
+R21_6_NK	NAFO  6 (unspecified)
+R21_NK	NAFO (unspecified)
+R27	North-east Atlantic
+R27_01	ICES  1
+R27_01_02A_NK	ICES  1+2A (unspecified)
+R27_01_NK	ICES  1 (unspecified)
+R27_01A	ICES  1A
+R27_01B	ICES  1B
+R27_02	ICES  2
+R27_02A	ICES  2A
+R27_02B	ICES  2B
+R27_02A_1	ICES  2A 1
+R27_02A_2	ICES  2A 2
+R27_02A_NK	ICES  2A (unspecified)
+R27_02B_1	ICES  2B 1
+R27_02B_2	ICES  2B 2
+R27_02B_NK	ICES  2B (unspecified)
+R27_02_NK	ICES  2 (unspecified)
+R27_03	ICES  3
+R27_03A	ICES  3A
+R27_03A_04AB_NK	ICES  3A+4AB (unspecified)
+R27_03A_04_NK	ICES  3A+4 (unspecified)
+R27_03B_D	ICES  3B-D
+R27_03B_D_NK	ICES  3B-D (unspecified)
+R27_03B_BAL23	Baltic 23
+R27_03C_BAL22	Baltic 22
+R27_03D_BAL24	Baltic 24
+R27_03D_BAL25	Baltic 25
+R27_03D_BAL26	Baltic 26
+R27_03D_BAL27	Baltic 27
+R27_03D_BAL28	Baltic 28
+R27_03D_BAL28_1	Baltic 28-1
+R27_03D_BAL28_2	Baltic 28-2
+R27_03D_BAL28_NK	Baltic 28 (unspecified)
+R27_03D_BAL29	Baltic 29
+R27_03D_BAL30	Baltic 30
+R27_03D_BAL31	Baltic 31
+R27_03D_BAL32	Baltic 32
+R27_03B_C	ICES  3B,C
+R27_03B_C_NK	ICES  3B,C (unspecified)
+R27_03B	ICES  3B
+R27_03C	ICES  3C
+R27_03D	ICES  3D
+R27_03D_NK	ICES  3D (unspecified)
+R27_03_NK	ICES  3 (unspecified)
+R27_04	ICES  4
+R27_04A_B	ICES  4A,B
+R27_04A_B_NK	ICES  4A,B (unspecified)
+R27_04B_C_NK	ICES  4B+C (unspecified)
+R27_04A	ICES  4A
+R27_04B	ICES  4B
+R27_04C	ICES  4C
+R27_04_NK	ICES  4 (unspecified)
+R27_05	ICES  5
+R27_05A_B1_NK	ICES  5A+B1 (unspecified)
+R27_05A	ICES  5A
+R27_05A_1	ICES  5A 1
+R27_05A_2	ICES 5A 2
+R27_05A_NE	ICES  5A  North-East
+R27_05A_SW	ICES  5A  South-West
+R27_05A_NK	ICES  5A (unspecified)
+R27_05B	ICES  5B
+R27_05B_1	ICES  5B 1
+R27_05B_1A	ICES  5B 1a
+R27_05B_1B	ICES  5B 1b
+R27_05B_1NK	ICES  5B 1 (unspecified)
+R27_05B_2	ICES  5B 2
+R27_05B_NK	ICES  5B (unspecified)
+R27_05_NK	ICES  5 NK
+R27_06	ICES  6
+R27_06A	ICES  6A
+R27_06B	ICES  6B
+R27_06B_1	ICES  6B 1
+R27_06B_2	ICES  6B 2
+R27_06B_NK	ICES  6B (unspecified)
+R27_06_NK	ICES  6 (unspecified)
+R27_07	ICES  7
+R27_07A_F_NK	ICES  7A-F (unspecified)
+R27_07A	ICES  7A
+R27_07F	ICES  7F
+R27_07B_C	ICES  7B,C
+R27_07B_C_NK	ICES  7B,C (unspecified)
+R27_07B	ICES  7B
+R27_07C	ICES  7C
+R27_07C_1	ICES  7C 1
+R27_07C_2	ICES  7C 2
+R27_07C_NK	ICES  7C (unspecified)
+R27_07D_K_NK	ICES  7D-K (unspecified)
+R27_07D_E	ICES  7D,E
+R27_07D_E_NK	ICES  7D,E (unspecified)
+R27_07D	ICES  7D
+R27_07E	ICES  7E
+R27_07F_K_NK	ICES  7F-K (unspecified)
+R27_07G_K	ICES  7G-K
+R27_07G_K_NK	ICES  7G-K (unspecified)
+R27_07G	ICES  7G
+R27_07H	ICES  7H
+R27_07J	ICES  7J
+R27_07J_1	ICES  7J 1
+R27_07J_2	ICES  7J 2
+R27_07J_NK	ICES  7J (unspecified)
+R27_07K	ICES  7K
+R27_07K_1	ICES  7K 1
+R27_07K_2	ICES  7K 2
+R27_07K_NK	ICES  7K (unspecified)
+R27_07_NK	ICES  7 (unspecified)
+R27_08	ICES  8
+R27_08A	ICES  8A
+R27_08B	ICES  8B
+R27_08C	ICES  8C
+R27_08D	ICES  8D
+R27_08D_1	ICES  8D 1
+R27_08D_2	ICES  8D 2
+R27_08D_NK	ICES  8D (unspecified)
+R27_08E	ICES  8E
+R27_08E_1	ICES  8E 1
+R27_08E_2	ICES  8E 2
+R27_08E_NK	ICES  8E (unspecified)
+R27_08_NK	ICES  8 (unspecified)
+R27_09	ICES  9
+R27_09A	ICES  9A
+R27_09B	ICES  9B
+R27_09B_1	ICES  9B 1
+R27_09B_2	ICES  9B 2
+R27_09B_NK	ICES  9B (unspecified)
+R27_09_NK	ICES  9 (unspecified)
+R27_10	ICES 10
+R27_10A_NK	ICES 10A (unspecified)
+R27_10_NK	ICES 10 (unspecified)
+R27_10A	ICES 10A
+R27_10B	ICES 10B
+R27_12	ICES 12
+R27_12_NK	ICES 12 (unspecified)
+R27_12A	ICES 12A
+R27_12A_1	ICES 12A 1
+R27_12A_3	ICES 12A 3
+R27_12A_NK	ICES 12A (unspecified)
+R27_12B	ICES 12B
+R27_14	ICES 14
+R27_14A	ICES 14A
+R27_14B	ICES 14B
+R27_14B_1	ICES 14B 1
+R27_14B_2	ICES 14B 2
+R27_14_NK	ICES 14 (unspecified)
+R27_14B_NK	ICES 14B (unspecified)
+R27_NK	ICES (unspecified)
+R31	Western Central Atlantic
+R34	Eastern Central Atlantic
+R34_1	CECAF  1
+R34_1_1	CECAF  1.1
+R34_1_11	CECAF  1.11
+R34_1_1_NK	CECAF  1.1 (unspecified)
+R34_1_2	CECAF  1.2
+R34_1_12	CECAF  1.12
+R34_1_3	CECAF  1.3
+R34_1_13	CECAF  1.13
+R34_1_3_NK	CECAF  1.3 (unspecified)
+R34_1_31	CECAF  1.31
+R34_1_32	CECAF  1.32
+R34_1_NK	CECAF  1 (unspecified)
+R34_2	CECAF  2
+R34_3	CECAF  3
+R34_3_1	CECAF  3.1
+R34_3_11	CECAF  3.11
+R34_3_1_NK	CECAF  3.1 (unspecified)
+R34_3_2	CECAF  3.2
+R34_3_12	CECAF  3.12
+R34_3_13	CECAF  3.13
+R34_3_3	CECAF  3.3
+R34_3_4	CECAF  3.4
+R34_3_5	CECAF  3.5
+R34_3_6	CECAF  3.6
+R34_3_NK	CECAF  3 (unspecified)
+R34_4	CECAF  4
+R34_4_1	CECAF  4.1
+R34_4_2	CECAF  4.2
+R34_4_NK	CECAF  4 (unspecified)
+R34_NK	CECAF (unspecified)
+R37	Mediterranean and Black Sea
+R37_1	GFCM  1
+R37_1_1	GFCM  1.1
+R37_1_2	GFCM  1.2
+R37_1_3	GFCM  1.3
+R37_1_NK	GFCM  1 (unspecified)
+R37_2	GFCM  2
+R37_2_1	GFCM  2.1
+R37_2_2	GFCM  2.2
+R37_2_NK	GFCM 2 (unspecified)
+R37_3	GFCM  3
+R37_3_1	GFCM  3.1
+R37_3_2	GFCM  3.2
+R37_4	GFCM  4
+R37_4_1	GFCM  4.1
+R37_4_2	GFCM  4.2
+R37_NK	GFCM (unspecified)
+R41	South-west Atlantic
+R41_1	South-west Atlantic  1
+R41_1_1	South-west Atlantic  1.1
+R41_1_2	South-west Atlantic  1.2
+R41_1_3	South-west Atlantic  1.3
+R41_1_4	South-west Atlantic  1.4
+R41_2	South-west Atlantic  2
+R41_2_1	South-west Atlantic  2.1
+R41_2_2	South-west Atlantic  2.2
+R41_2_3	South-west Atlantic  2.3
+R41_2_4	South-west Atlantic  2.4
+R41_3	South-west Atlantic  3
+R41_3_1	South-west Atlantic  3.1
+R41_3_2	South-west Atlantic  3.2
+R41_3_3	South-west Atlantic  3.3
+R41_3_NK	South-west Atlantic  3 (unspecified)
+R41_NK	South-west Atlantic (unspecified)
+R47	South-east Atlantic
+R47_1	ICSEAF  1
+R47_1_1	ICSEAF  1.1
+R47_1_2	ICSEAF  1.2
+R47_1_3	ICSEAF  1.3
+R47_1_4	ICSEAF  1.4
+R47_1_5	ICSEAF  1.5
+R47_1_6	ICSEAF  1.6
+R47_1_NK	ICSEAF  1 (unspecified)
+R47_2	ICSEAF  2
+R47_2_1	ICSEAF  2.1
+R47_2_2	ICSEAF  2.2
+R47_3	ICSEAF  3
+R47_4	ICSEAF  4
+R47_5	ICSEAF  5
+R47_NK	ICSEAF (unspecified)
+R51	Western Indian Ocean
+R51_1	Western Indian Ocean 1
+R51_2	Western Indian Ocean 2
+R51_3	Western Indian Ocean 3
+R51_4	Western Indian Ocean 4
+R51_5	Western Indian Ocean 5
+R51_6	Western Indian Ocean 6
+R51_7	Western Indian Ocean 7
+R51_8	Western Indian Ocean 8
+R51_NK	Western Indian Ocean(unspecified)
+R57	Eastern Indian Ocean
+R57_1	Eastern Indian Ocean 1
+R57_2	Eastern Indian Ocean 2
+R61	North-west Pacific
+R67	North-east Pacific
+R71	West central Pacific
+R77	East-central Pacific
+R81	South-west Pacific
+R87	South-east Pacific
+R87_1	South-east Pacific  1
+R87_1_1	South-east Pacific  1.1
+R87_1_2	South-east Pacific  1.2
+R87_1_3	South-east Pacific  1.3
+R87_1_4	South-east Pacific  1.4
+R87_1_25	South-east Pacific  1.25
+R87_1_NK	South-east Pacific  1 (unspecified)
+R87_2	South-east Pacific  2
+R87_2_1	South-east Pacific  2.1
+R87_2_2	South-east Pacific  2.2
+R87_2_3	South-east Pacific  2.3
+R87_2_4	South-east Pacific  2.4
+R87_2_5	South-east Pacific  2.5
+R87_2_6	South-east Pacific  2.6
+R87_2_NK	South-east Pacific  2 (unspecified)
+R87_3	South-east Pacific  3
+R87_3_3	South-east Pacific  3.3
+R87_NK	South-east Pacific (unspecified)
+R90	Antarctic - Total
+R48	Antarctic - Atlantic
+R48_1	Antarctic - Atlantic  48.1
+R48_2	Antarctic - Atlantic  48.2
+R48_3	Antarctic - Atlantic  48.3
+R48_4	Antarctic - Atlantic  48.4
+R48_NK	Antarctic - Atlantic  48 (unspecified)
+R58	Antarctic - Indian Ocean
+R58_4	Antarctic - Indian Ocean  58.4
+R58_4_3A	Antarctic - Indian Ocean  58.4.3A
+R58_4_3B	Antarctic - Indian Ocean  58.4.3B
+R58_4_1	Antarctic - Indian Ocean  58.4.1
+R58_4_2	Antarctic - Indian Ocean  58.4.2
+R58_4_3	Antarctic - Indian Ocean  58.4.3
+R58_4_3_NK	Antarctic - Indian Ocean  58.4.3_NK
+R58_4_NK	Antarctic - Indian Ocean  58.4 (unspecified)
+R58_5	Antarctic - Indian Ocean  58.5
+R58_5_1	Antarctic - Indian Ocean  58.5.1
+R58_5_NK	Antarctic - Indian Ocean  58.5 (unspecified)
+R58_6	Antarctic - Indian Ocean  58.6
+R88	Antarctic - Pacific
+R88_1	Antarctic - Pacific  88.1
+R88_2	Antarctic - Pacific  88.2
+R88_NK	Antarctic - Pacific  88 (unspecified)
+R91	Area unspecified
+R98	Antarctic Areas nei  -  IWC (Whales)
+R99	Marine areas outside the Antarctic  -  IWC ( Whales)

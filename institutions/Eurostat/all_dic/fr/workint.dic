@@ -1,0 +1,19 @@
+TOTAL	Total
+A1NCW0	Ménage composé d'un adulte - Sans enfants - Coefficient d'intensité de travail = 0
+A1NCW0_1	Ménage composé d'un adulte - Sans enfants - Coefficient d'intensité de travail entre 0 et 1
+A1NCW1	Ménage composé d'un adulte - Sans enfants - Coefficient d'intensité de travail = 1
+A1CW0	Ménage composé d'un adulte avec enfants dépendants - Coefficient d'intensité de travail = 0
+A1CW0_1	Ménage composé d'un adulte avec enfants dépendants - Coefficient d'intensité de travail entre 0 et 1
+A1CW1	Ménage composé d'un adulte avec enfants dépendants - Coefficient d'intensité de travail = 1
+A2NCW0	Ménage composé deux adultes ou plus - Sans enfants - Coefficient d'intensité de travail = 0
+A2NCW0_1	Ménage composé deux adultes ou plus - Sans enfants - Coefficient d'intensité de travail entre 0 et 1
+A2NCW1	Ménage composé deux adultes ou plus - Sans enfants - Coefficient d'intensité de travail = 1
+A2CW0	Ménage composé deux adultes ou plus avec enfants dépendants - Coefficient d'intensité de travail = 0
+A2CW0_05	Ménage composé deux adultes ou plus avec enfants dépendants - Coefficient d'intensité de travail entre 0 et 0.5
+A2CW05_1	Ménage composé deux adultes ou plus avec enfants dépendants - Coefficient d'intensité de travail entre 0.5 et 1
+A2CW1	Ménage composé deux adultes ou plus avec enfants dépendants - Coefficient d'intensité de travail = 1
+NONEWORK	Ménage avec coefficient d'intensité de travail = 0
+SOMEWORK	Ménage avec coefficient d'intensité de travail entre 0 et 1
+MAXWORK	Ménage avec coefficient d'intensité de travail = 1
+SOMELT05	Ménage avec coefficient d'intensité de travail entre 0 et 0.5
+SOMEGE05	Ménage avec coefficient d'intensité de travail entre 0.5 et 1

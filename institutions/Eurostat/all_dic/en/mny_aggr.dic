@@ -1,0 +1,58 @@
+GDPM1	GDP divided by M1 (velocity of circulation)
+M0	Central bank money
+M1	Monetary aggregate: M1
+M1M3	M1/M3 (liquidity ratio - %)
+M2	Monetary aggregate: M2
+M3	Monetary aggregate: M3
+M3MOV3M	Monetary aggregate: M3 (3-month moving average centered)
+M4	Monetary aggregate: M4
+M1N	Narrow money M1 national definition
+M2N	Intermediate money M2 national definition
+M3N	Broad money M3 national definition
+LTLIABN	Longer term liabilities national definition
+NCM1	Notes and coins/M1 (high powered ratio - %)
+NCOIN	Notes and coins
+MFISIDP	Overnight deposits
+MFISADP	Time (savings) deposits' held at monetary financial institutions
+MFILER	Loans to euro area residents granted by monetary financial institutions
+MFILGG	Loans to euro area General Governments granted by monetary financial institutions
+MFILOR	Loans to euro area other residents granted by monetary financial institutions
+OBA	Other broad aggregates (varies depending on country)
+SADP	Savings deposits
+SIDP	Sight deposits
+DAMU2Y	Deposits with agreed maturity up to 2 years
+DRNU3M	Deposits redeemable at notice up to 3 months
+MFISRCA	Repurchase agreements
+MMFS	Money market funds shares/units
+DSU2Y	Money market paper and debt securities up to 2 years
+LTLIAB	Longer term liabilities
+EXTL	External liabilities
+MFIDEPAG	Total deposits of residents held at monetary financial institutions (non-consolidated)
+MFIDEPMFI	Deposits of monetary financial institutions held at monetary financial institutions
+MFIDEPTOT	Total deposits of residents held at monetary financial institutions (consolidated)
+MFIDEPCENGOV	Central government deposits held at monetary financial institutions
+MFIDEPOR	Deposits of other residents held at monetary financial institutions
+MFIDEPTOTFC	Total deposits of MFIs sector denominated in foreign currency
+MFIDEPTOTEUR	Total deposits of MFIs sector denominated in EUR
+MFICRINTAS	Credit to total residents granted by monetary financial institutions (non-consolidated)
+MFICRINTMFI	Credit to monetary financial institutions granted by monetary financial institutions
+MFICRINTTOT	Credit to total residents granted by monetary financial institutions (consolidated)
+MFICRINTGG	Credit to general government granted by monetary financial institutions
+MFICRINTOR	Credit to other residents granted by monetary financial institutions
+MFIGOVDEP	Central government deposits held at monetary financial institutions
+MFICRINTPRIS	Credit to non financial private sector granted by monetary financial institutions
+MFICRINTNFPE	Credit to public non financial sector granted by monetary financial institutions
+MFICRINTOTHSECT	Credit to other secteur granted by monetary financial institutions
+MFICRINTOFI	Credit to other financial institutions granted by monetary financial institutions
+MFICRINTGGN	Net credit to general governments granted by monetary financial institutions
+MFILOANSAS	Loans to total residents granted by monetary financial institutions (non-consolidated)
+MFILOANSMFI	Loans to monetary financial institutions granted by monetary financial institutions
+MFILOANSTOT	Loans to total residents granted by monetary financial institutions (consolidated)
+MFILOANSGG	Loans to general government granted by monetary financial institutions
+MFILOANSOR	Loans to other residents granted by monetary financial institutions
+MFISECTAS	Holdings of securities issued by total residents (non-consolidated)
+MFISECMFI	Holdings of securities issued by monetary financial institutions
+MFISECTOT	Holdings of securities issued by total residents (consolidated)
+MFISECGG	Holdings of securities issued by general government
+MFISECOR	Holdings of securities issued by other residents
+EXTAS	External assets

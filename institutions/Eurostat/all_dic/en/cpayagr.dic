@@ -1,0 +1,9 @@
+TOTAL	Total
+NAT	National level or interconfederal agreement
+IND	Industry agreement
+IND1	Agreement for individual industries in individual regions
+ENT	Enterprise or single employer agreement
+UNIT	Agreement aplying only to workers in the local unit
+OTH	Any other type of agreement
+NONE	No collective agreement exists
+UNK	Unknown

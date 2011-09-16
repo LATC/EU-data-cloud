@@ -1,0 +1,13 @@
+STATE	Enterprises publiques
+COOP	Coopératives
+OTHER	Autres
+TOTAL	Total
+NOTLFA	Pas de zones defavorisées
+LFA	Zones défavorisées - hors zones de montagne
+MNT	Zones défavorisée de montagne
+0	Total des exploitations
+1	Exploitations dans les zones défavorisées
+2	Exploitations dans les zones de montagne
+X	Coefficients MBS pour toutes les exploitations
+L	Coefficients MBS pour les exploitations en zones défavorisées
+N	Coefficients MBS pour les exploitations en zones non défavorisées

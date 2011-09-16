@@ -1,0 +1,13 @@
+STATE	State enterprises
+COOP	Cooperatives
+OTHER	Others
+TOTAL	Total
+NOTLFA	Not less favoured area
+LFA	Less favoured - non-mountainous
+MNT	Less favoured - mountainous areas
+0	Total holdings
+1	Holdings in less-favoured areas
+2	Holdings in mountain areas
+X	SGM coefficients for all holdings
+L	SGM coefficients for holdings in less favoured areas
+N	SGM coefficients for holdings not in less favoured areas

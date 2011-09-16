@@ -1,0 +1,75 @@
+PROD	Indice de la production en volume
+PROD_VOL	Indice de production en volume dans la construction
+EOIX	Indice de la production anticipée
+TOVT	Indice du chiffre d'affaires - Total
+TOVD	Indice du chiffre d'affaires - Marché intérieur
+TOVE	Indice du chiffre d'affaires - Marché extérieur
+TOVV	Indice du chiffre d'affaires déflaté
+TOVZ	Indice du chiffre d'affaires - Marché extérieur zone euro
+TOVX	Indice du chiffre d'affaires - Marché extérieur hors zone euro
+TOVT_VAL	Chiffre d'affaires (en valeur)
+ORDT	Nouvelles commandes - Total
+DORD	Nouvelles commandes (déflatées)
+ORDD	Nouvelles commandes - Marché intérieur
+ORDE	Nouvelles commandes - Marché extérieur
+ORDZ	Nouvelles commandes - Marché extérieur zone euro
+ORDX	Nouvelles commandes - Marché extérieur hors zone euro
+ORDT_VAL	Entrées de commandes (en valeur) : en monnaie nationale (millions)
+ORDT_VOL	Entrées de commandes : en volume
+SORT_VAL	Carnets de commandes (en valeur)
+EMPL	Emploi (nombre de personnes employées)
+HOWK	Volume de travail presté (heures travaillées)
+WAGE	Salaires et traitements bruts
+AHWA	Gains horaires moyens
+AWAG	Heures de travail effectuées en moyenne par personne
+EXPQ	Exportations (en volume)
+EXPV	Exportations (en valeur)
+IMPQ	Importations (en volume)
+IMPV	Importations (en valeur)
+IMPR	Indices des prix à l'importation
+IMPX	Indices des prix à l'importation - hors zone euro
+IMPZ	Indices des prix à l'importation - zone euro
+CREG	Immatriculations de voitures
+TOTR	Termes de l'échange
+PREE	Indice de prix à la production - marché extérieur - en écu
+PREM	Productivité par personne employée
+PRHO	Productivité par heure prestée
+PRIE	Indice de prix à la production - marché intérieur - en écu
+PRIN	Indice de prix à la production - marché intérieur - en monnaie nationale
+PREN	Indice de prix à la production - marché extérieur - en monnaie nationale
+PREZ	Indice de prix à la production - Marché extérieur zone euro
+PREX	Indice de prix à la production - Marché extérieur hors zone euro
+PROE	Indice de prix à la production - total - en écu
+PRON	Indice de prix à la production - total - en monnaie nationale
+PRBB	Prix à la production des services prestés aux entreprises
+CSTI	Indice du coût de la construction - en monnaie nationale
+CSTL	Indice du coût de la main-d'oeuvre dans la construction - en monnaie nationale
+CSTM	Prix des matériaux - en monnaie nationale
+CSTO	Indice des prix à la production dans la construction - en monnaie nationale
+PNUM	Permis de bâtir - nombre de logements 
+PSQM	Permis de bâtir - superficie utile en m2 
+PRIN_OUT	Indice de prix de la construction - en monnaie nationale
+PRIN_MAT	Indice des coûts des matériaux de construction - en monnaie nationale
+PRIN_INP	Indice des coûts de la construction - en monnaie nationale
+PRIN_LAB	Indice des coûts du travail de construction - en monnaie nationale
+PERM_NUM	Permis de construire - nombre
+PERM_SQM	Permis de construire - en 1 000 m2 de surface habitable ou utile
+PERM_CUM	Permis de construire - en 1 000 m3
+STAR_NUM	Mises en chantier - nombre
+STAR_SQM	Mises en chantier - en 1 000 m2 de surface habitable ou utile
+STAR_CUM	Mises en chantier - en 1 000 m3
+COMP_NUM	Achèvements - nombre
+COMP_SQM	Achèvements - en 1 000 m2 de surface habitable ou utile
+COMP_CUM	Achèvements - en 1 000 m3
+PERM_VAL	Permis de construire - en monnaie nationale (millions)
+STAR_VAL	Mises en chantier - en monnaie nationale (millions)
+COMP_VAL	Achèvements - en monnaie nationale (millions)
+COI01	Indices de volume output de construction
+COI04	Indices des prix à la construction
+FIN_SIT	Situation financière de l'entreprise
+FIN_COS	Coût (intérêts et autres) d'obtention du financement
+FIN_DEB	Ratio dette/chiffre d'affaires de l'entreprise
+FIN_OTH	Autres termes ou conditions de financement
+FIN_BUR	Charge ou effort requis pour l'obtention d'un financement
+FIN_WIL	Volonté des banques de fournir un financement
+OTH	Autres raisons

@@ -1,0 +1,21 @@
+VITARTOT_HD	Total number of vineyard holdings
+VITARTOT_AA	Total agricultural area in use of vineyard holdings (ha)
+VITARTOT_VA	Total area under vines (ha)
+VITARC1_HD	Number of holdings with > 0 to < 10% of agricultural area in use under vines
+VITARC1_AA	Agricultural area in use of holdings with > 0 to < 10% of agricultural area in use under vines (ha)
+VITARC1_VA	Area under vines of holdings with > 0 to < 10% of agricultural area in use under vines (ha)
+VITARC2_HD	Number of holdings with 10 to 25% of agricultural area in use under vines
+VITARC2_AA	Agricultural area in use of holdings with 10 to < 25% of agricultural area in use under vines (ha)
+VITARC2_VA	Area under vines of holdings with 10 to < 25% of agricultural area in use under vines (ha)
+VITARC3_HD	Number of holdings with 25 to < 50% of agricultural area in use under vines
+VITARC3_AA	Agricultural area in use of holdings with 25 to < 50% of agricultural area in use under vines (ha)
+VITARC3_VA	Area under vines of holdings with 25 to < 50% of agricultural area in use under vines (ha)
+VITARC4_HD	Number of holdings with 50 to < 75% of agricultural area in use under vines
+VITARC4_AA	Agricultural area in use of holdings with 50 to < 75% of agricultural area in use under vines (ha)
+VITARC4_VA	Area under vines of holdings with 50 to < 75% of agricultural area in use under vines (ha)
+VITARC5_HD	Number of holdings with 75 to < 90% of agricultural area in use under vines
+VITARC5_AA	Agricultural area in use of holdings with 75 to < 90% of agricultural area in use under vines (ha)
+VITARC5_VA	Area under vines of holdings with 75 to < 90% of agricultural area in use under vines (ha)
+VITARC6_HD	Number of holdings with >=90% of agricultural area in use under vines
+VITARC6_AA	Agricultural area in use of holdings with >=90% of agricultural area in use under vines (ha)
+VITARC6_VA	Area under vines of holdings with >=90% of agricultural area in use under vines (ha)

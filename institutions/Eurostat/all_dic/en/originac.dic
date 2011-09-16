@@ -1,0 +1,8 @@
+TOTAL	Total
+COLLIS	Collisions (excluding level-crossing accidents)
+DERAILMT	Derailments
+ACC_LCRO	Accidents involving level-crossings
+ACC_PERS	Accidents to persons caused by rolling stock in motion
+ACC_FIRE	Fire in rolling Stock
+OTHER	Others
+UNK	Unknown

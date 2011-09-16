@@ -1,0 +1,18 @@
+HE	Stundenverdienst
+HE_FPCM	Stundenverdienst von Frauen in % von Männern
+HOVT	Stundenverdienst für Überstunden
+HEAOVT	Stundenverdienst für normale und Überstunden
+HEO_FPCM	Stundenverdienst für normale und Überstunden von Frauen in % von Männern
+HOVTPC	Stundenverdienst für Überstunden in % von normalen Stundenverdiensten
+ME	Monatsverdienst
+MOVT	Monatsverdienst für Überstunden
+MS	Monatsverdienst für Schichtarbeit
+MOVTPC	Monatsverdienst für Überstunden in % von normalen Monatsverdiensten
+MSPC	Monatsverdienst für Schichtarbeit in % von normalen Monatsverdiensten
+AE	Jahresverdienst
+AB	Jahresprämien
+ABPC	Jahresprämien in % vom Jahresverdienst
+MHP	Bezahlte Arbeitsstunden pro Monat
+MHPAOVT	Bezahlte monatliche Überstunden
+MHPOVTPC	Überstunden pro Monat in % von bezahlten Arbeitsstunden
+AH	Jährliche Urlaubstage

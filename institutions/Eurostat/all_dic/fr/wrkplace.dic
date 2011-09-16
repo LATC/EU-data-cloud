@@ -1,0 +1,34 @@
+TOTAL	Total
+NATFIX	Ayant un lieu de travail fixe dans le pays de la nationalité
+NUTS5	Travaillant sur le lieu de résidence au même niveau NUTS 5
+NUTS4	Travaillant au même niveau NUTS 4
+NUTS3	Travaillant au même niveau NUTS 3
+NUTS2	Travaillant au même niveau NUTS 2
+NUTS1	Travaillant au même niveau NUTS 1
+NAT	Travaillant dans le pays de la nationalité
+FORFIX	Ayant un lieu de travail fixe en dehors du pays de la nationalité
+EU15	Union européenne (15 pays)
+AT	Autriche
+BE	Belgique
+DK	Danemark
+DE	Allemagne (incluant l'ex-RDA à partir de 1991)
+FI	Finlande
+FR	France
+GR	Grèce
+IE	Irlande
+IT	Italie
+LU	Luxembourg (Grand-Duché)
+NL	Pays-Bas
+PT	Portugal
+ES	Espagne
+SE	Suède
+UK	Royaume-Uni
+EFTA	Association Européenne de Libre Echange (AELE) (CH, IS, LI, NO)
+IS	Islande
+LI	Liechtenstein
+NO	Norvège
+CH	Suisse
+EUR_REM	Reste de l'Europe (CY, MT, TR, AD, MC, SM, VA
+EU15_FOR	En dehors de l'Union européenne (Europe des 15)
+NOFIX	N'ayant aucun lieu de travail fixe
+UNK	Inconnu

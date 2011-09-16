@@ -1,0 +1,23 @@
+TOTAL	Insgesamt
+LT250	Weniger als 250 Bäume pro Hektar
+250-499	250 bis 499 Bäume pro Hektar
+LT300	Weniger als 300 Bäume pro Hektar
+300-599	300 bis 599 Bäume pro Hektar
+LT400	Weniger als 400 Bäume pro Hektar
+400-799	400 bis 799 Bäume pro Hektar
+500-749	500 bis 749 Bäume pro Hektar
+600-899	600 bis 899 Bäume pro Hektar
+750-999	750 bis 999 Bäume pro Hektar
+800-1599	800 bis 1 599 Bäume pro Hektar
+900-1199	900 bis 1 199 Bäume pro Hektar
+1000-1499	1 000 bis 1 499 Bäume pro Hektar
+1200-1499	1 200 bis 1 499 Bäume pro Hektar
+1500-1999	1 500 bis 1 999 Bäume pro Hektar
+GE1500	1 500 Bäume pro Hektar und mehr
+1600-2399	1 600 bis 2 399 Bäume pro Hektar
+2000-2499	2 000 bis 2 499 Bäume pro Hektar
+2400-3199	2 400 bis 3 199 Bäume pro Hektar
+2500-2999	2 500 bis 2 999 Bäume pro Hektar
+GE3000	3 000 Bäume pro Hektar und mehr
+3200-3999	3 200 bis 3 999 Bäume pro Hektar
+GE4000	4 000 Bäume pro Hektar und mehr

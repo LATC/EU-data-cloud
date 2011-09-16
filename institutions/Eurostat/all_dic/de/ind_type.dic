@@ -1,0 +1,91 @@
+IND_TOTAL	Alle Personen
+Y0_15	Personen, 15 Jahre oder jünger
+Y16_24	Personen, 16 bis 24 Jahre alt
+Y25_34	Personen, 25 bis 34 Jahre alt
+Y25_54	Personen, 25 bis 54 Jahre alt
+Y35_44	Personen, 35 bis 44 Jahre alt
+Y45_54	Personen, 45 bis 54 Jahre alt
+Y55_64	Personen, 55 bis 64 Jahre alt
+Y55_74	Personen, 55 bis 74 Jahre alt
+Y65_74	Personen, 65 bis 74 Jahre alt
+Y75_MAX	Personen, 75 Jahre oder älter
+Y16_24LO	Personen im Alter von 16 bis 24 Jahren mit niedriger formaler Bildung
+Y16_24ME	Personen im Alter von 16 bis 24 Jahren mit mittlerer formaler Bildung
+Y16_24HI	Personen im Alter von 16 bis 24 Jahren mit hoher formaler Bildung
+Y25_54LO	Personen im Alter von 25 bis 54 Jahren mit niedriger formaler Bildung
+Y25_54ME	Personen im Alter von 25 bis 54 mit mittlerer formaler Bildung
+Y25_54HI	Personen im Alter von 25 bis 54 Jahren mit hoher formaler Bildung
+Y55_74LO	Personen im Alter von 55 bis 74 Jahren mit niedriger formaler Bildung
+Y55_74ME	Personen im Alter von 55 bis 74 Jahren mit mittlerer formaler Bildung
+Y55_74HI	Personen im Alter von 55 bis 74 Jahren mit hoher formaler Bildung
+M_Y16_24	Männer, 16 bis 24 Jahre alt
+F_Y16_24	Frauen, 16 bis 24 Jahre alt
+M_Y16_74	Männer, 16 bis 74 Jahre alt
+F_Y16_74	Frauen, 16 bis 74 Jahre alt
+M_Y25_34	Männer, 25 bis 34 Jahre alt
+F_Y25_34	Frauen, 25 bis 34 Jahre alt
+M_Y25_54	Männer, 25 bis 54 Jahre alt
+F_Y25_54	Frauen, 25 bis 54 Jahre alt
+M_Y35_44	Männer, 35 bis 44 Jahre alt
+F_Y35_44	Frauen, 35 bis 44 Jahre alt
+M_Y45_54	Männer, 45 bis 54 Jahre alt
+F_Y45_54	Frauen, 45 bis 54 Jahre alt
+M_Y55_64	Männer, 55 bis 64 Jahre alt
+F_Y55_64	Frauen, 55 bis 64 Jahre alt
+M_Y55_74	Männer, 55 bis 74 Jahre alt
+F_Y55_74	Frauen, 55 bis 74 Jahre alt
+M_Y65_74	Männer, 65 bis 74 Jahre alt
+F_Y65_74	Frauen, 65 bis 74 Jahre alt
+M_I0_2	Männer mit niedriger formaler Bildung
+F_I0_2	Frauen mit niedriger formaler Bildung
+M_I3_4	Männer mit mittlerer formaler Bildung
+F_I3_4	Frauen mit mittlerer formaler Bildung
+M_I5_6	Männer mit hoher formaler Bildung
+F_I5_6	Frauen mit hoher formaler Bildung
+I0_2	Personen ohne oder mit niedriger formaler Bildung
+I3_4	Personen mit mittlerer formaler Bildung
+I5_6	Personen mit hoher formaler Bildung
+SAL_SELF_FAM	Beschäftigte, Selbstständige, Familienarbeiter
+SELF_FAM	Selbstständige, Familienarbeiter
+SAL	Beschäftigte
+STUD	Studierende
+RETIR	Rentenempfänger
+OTHER	Andere Personen ohne berufliche Tätigkeit
+RETIR_OTHER	Rentner und andere Nichterwerbspersonen
+UNE	Erwerbslose
+IND_DEG1	Personen, die in dicht besiedelten Gebieten leben
+IND_DEG2	Personen, die in mitteldicht besiedelten Gebieten leben
+IND_DEG3	Personen, die in dünn besiedelten Gebieten leben
+HHI_Q1	Personen in Haushalten mit einem Einkommen im ersten Quartil
+HHI_Q2	Personen in Haushalten mit einem Einkommen im zweiten Quartil
+HHI_Q3	Personen in Haushalten mit einem Einkommen im dritten Quartil
+HHI_Q4	Personen in Haushalten mit einem Einkommen im vierten Quartil
+IND_O1	Personen, die in Ziel-1-Gebieten / 'Konvergenz' Gebieten leben
+IND_NO1	Personen, die in Nicht-Ziel-1-Gebieten / in 'Regionalen Wettbewerbsfähigkeit und Beschäftigung' Gebieten leben
+IND_BROAD	Personen, die in einem Haushalt mit Breitband-Zugang leben
+IND_BROADX	Personen, die in einem Haushalt mit Internet-Zugang aber ohne Breitband-Zugang leben
+ISCO_ICT	IKT-Fachkräfte
+ISCO_ICTX	Nicht-IKT-Fachkräfte
+ISCO0_5	Angestellte einschließlich Angehörige der Streitkräfte
+ISCO6_9	Arbeiter
+IREG	Personen, die das Internet regelmäßig nutzen (mindestens einmal pro Woche)
+IREGX	Personen, die das Internet nicht regelmäßig nutzen (seltener als einmal pro Woche)
+RF_LE1	Personen mit keinem oder einem Risikofaktor
+RF_GE2	Personen mit zwei oder mehreren Risikofaktoren
+Y25_64	Personen, 25 bis 64 Jahre alt
+M_Y25_64	Männer, 25 bis 64 Jahre alt
+F_Y25_64	Frauen, 25 bis 64 Jahre alt
+Y25_64LO	Personen im Alter von 25 bis 64 Jahren mit niedriger formaler Bildung
+Y25_64ME	Personen im Alter von 25 bis 64 Jahren mit mittlerer formaler Bildung
+Y25_64HI	Personen im Alter von 25 bis 64 Jahren mit hoher formaler Bildung
+Y25_64_SALSELFFAM	Personen im Alter von 25 bis 64, die Beschäftigte, Selbstständige oder Familienarbeiter sind
+Y25_64_UNE	Personen im Alter von 25 bis 64, die erwerbslos sind
+Y25_64_RETIROTH	Personen im Alter von 25 bis 64, die Rentner oder andere Nichterwerbspersonen sind
+CB_EU_FOR	Personen die in einem anderen EU-Land geboren sind
+CB_EXT_EU	Personen die ausserhalb eines EU-Landes geboren sind
+CB_FOR	Personen die im Ausland geboren sind
+CB_NAT	Personen die im Inland geboren sind
+CC_EU_FOR	Staatsangehörige eines anderen EU-Landes
+CC_EXT_EU	Staatsangehörige eines Landes ausserhalb der EU
+CC_FOR	Ausländer
+CC_NAT	Staatsangehörige

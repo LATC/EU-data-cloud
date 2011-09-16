@@ -1,0 +1,23 @@
+TOTAL	Total
+DWEL	Dwellings
+NCONV	Non conventional dwelling
+CONV	Conventional dwelling
+PRINCIPAL	Principal residence
+HOUSE	House
+HOUSE_D	Detached house
+HOUSE_SD	Semi-detached house
+FLAT	Flat
+FLAT_LT10	Flat in a building with less than ten dwellings
+FLAT_GE10	Flat in a building with ten or more dwellings
+RESID	Residential buildings
+RESID_1	One dwelling house
+RESID_2	Two dwelling houses
+RESID_GE3	Three or more dwelling houses
+RESID_OTH	Residential buildings - other
+RESID_UNK	Unknown residential buildings
+NRESID	Non-residential buildings
+SECOND	For seasonal or secondary use
+OTHER	Other
+OTH_LQUART	Other living quarter (hotel, institution, camp)
+VACANT	Vacant
+UNK	Unknown

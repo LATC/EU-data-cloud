@@ -1,0 +1,11 @@
+TOTAL	Total taxes
+VAT	Value added tax (VAT)
+X_TAX	Excluding taxes
+X_VAT	Excluding VAT (value added tax)
+I_TAX	All taxes included
+ENV	Total environmental taxes
+NRG	Energy taxes
+POL	Pollution taxes
+RES	Resource taxes
+TRA	Transport taxes
+POL_RES	Taxes on Pollution/Resources

@@ -1,0 +1,13 @@
+TOTAL	Total
+OTH_NUTS3	Habitant dans une région différente de niveau NUTS3 dans le même pays de la nationalité une année avant le recensement
+LIVOUT	Habitant en dehors du pays de la nationalité une année avant le recensement
+EU15_EFTA	Pays de résidence en EU15 et EFTA (CH, IS, LI, NO)
+EUR_C	Pays de résidence en Europe central (AL, BG, CZ, EE, HU, LT, LV, MK, PL, RO, SI, SK)
+EUR_CE	Pays de résidence en europe centrale et orientale (BG, HR, CZ, EE, HU, LV, LT, PL, RO, SK, SI, AL, BA, MK, CS)
+EUR_NIS	Pays de résidence en NIS (BY, MD, RU, UA)
+EUR_REM	Pays de résidence dans un autre pays d'Europe (AD, CY, MT, TR, MC, SM, VA)
+ASI	Pays de résidence en Asie
+AME	Pays de résidence en Amérique
+AFR	Pays de résidence en Afrique
+OCE	Pays de résidence en Océanie
+UNK	Pays de résidence inconnu

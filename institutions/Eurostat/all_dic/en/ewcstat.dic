@@ -1,0 +1,46 @@
+EWC_TOTAL	Total Waste
+EWC_01_TO_05	Chemical and medical wastes
+EWC_06_TO_08	Waste materials and equipment
+EWC_09	Animal and vegetal wastes
+EWC_10	Mixed ordinary wastes
+EWC_11	Common sludges
+EWC_12_13	Mineral and solified wastes
+EWC_01_TO_03	Chemical wastes (Chemical compound waste + Chemical preparation wastes + Other chemical wastes)
+EWC_01_TO_03_NOT_013	Chemical wastes excluding Used oils (Chemical compound waste + Chemical preparation wastes + Other chemical wastes)
+EWC_011	Spent solvents
+EWC_012	Acid, alkaline or saline wastes
+EWC_013	Used oils
+EWC_014	Spent chemical catalysts
+EWC_02	Chemical preparation wastes
+EWC_031	Chemical deposits and residues
+EWC_032	Industrial effluent sludges
+EWC_05	Health care and biological wastes
+EWC_06	Metallic wastes
+EWC_071	Glass wastes
+EWC_072	Paper and cardboard wastes
+EWC_073	Rubber wastes
+EWC_074	Plastic wastes
+EWC_075	Wood wastes
+EWC_076	Textile wastes
+EWC_077	Waste containing PCB
+EWC_080_NOT_081_0841	Discarded equipment (excluding discarded vehicles and batteries and accumulators waste)
+EWC_081	Discarded vehicles
+EWC_0841	Batteries and accumulators wastes
+EWC_09_NOT_0911_093	Animal and vegetal wastes (excluding animal waste of food preparation and products; and animal faeces, urine and manure)
+EWC_0911	Animal waste of food preparation and products
+EWC_093	Animal faeces, urine and manure
+EWC_101	Household and similar wastes
+EWC_102	Mixed and undifferentiated materials
+EWC_103	Sorting residues
+EWC_11_NOT_113	Common sludges (excluding dredging spoils)
+EWC_113	Dredging spoils
+EWC_12	Mineral wastes
+EWC_121_TO_125_NOT_124	Mineral wastes (excluding combustion wastes, contaminated soils and polluted dredging spoils)
+EWC_124	Combustion wastes
+EWC_126	Contaminated soils and polluted dredging spoils
+EWC_13	Solidified, stabilised or vitrified wastes
+EWC_T_01_02_03_05_08_10_11_13	Other Wastes (Chemical compound wastes + Chemical preparation wastes + Other chemical wastes + Health care and biological wastes + Discarded equipment + Mixed ordinary wastes + Common sludges + Solidified, stabilised or vitrified wastes)
+EWC_T_01_TO_05_075_077_08_10_11_13_NOT_013	Other wastes (Chemical compound wastes excluding Used oils + Chemical preparation wastes + Other chemical wastes + Health care and biological wastes + Wood wastes + Waste containing PCB + Discarded equipment + Mixed ordinary wastes + Common sludges + Solidified, stabilised or vitrified wastes)
+EWC_T_05_TO_08_13	Other wastes (Health care and biological wastes + Metallic wastes + Non-metallic wastes + Discarded equipment + Solidified, stabilised or vitrified wastes)
+EWC_T_06_TO_09_12_13	Other wastes (Metallic wastes + Non-metallic wastes + Discarded equipment + Animal and vegetal wastes + Mineral wastes + Solidified, stabilised or vitrified wastes)
+EWC_T_06_TO_09_12_13_NOT_077	Other wastes (Metallic wastes + Non-metallic wastes excluding waste containing PCB + Discarded equipment + Animal and vegetal wastes + Mineral wastes + Solidified, stabilised or vitrified wastes)

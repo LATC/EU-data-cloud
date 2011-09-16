@@ -1,0 +1,564 @@
+A01_1	Prozentualer Anteil der Bevölkerung im Alter von 25 bis 64 Jahren, die mindestens einen höheren Sekundarabschluß erreicht haben
+A01_2	Prozentualer Anteil der weiblichen Bevölkerung im Alter von 25 bis 64 Jahren, die mindestens einen höheren Sekundarabschluß erreicht haben
+A01_3	Prozentualer Anteil der männlichen Bevölkerung im Alter von 25 bis 64 Jahren, die mindestens einen höheren Sekundarabschluß erreicht haben
+A02_1	Frühzeitige Schul- und Ausbildungsabgänger - Anteil der 18-24 Jährigen, die nur einen unteren Sekundarabschluß erreicht haben, und die keine weitere Bildung absolvieren
+A02_2	Frühzeitige Schul- und Ausbildungsabgänger - Mädchen - % der weiblichen Bevölkerung im Alter von 18 bis 24 Jahren, die maximal einen unteren Sekundarabschluß erreicht haben und die weder in der Weiter- noch in der Ausbildung sind
+A02_3	Frühzeitige Schul- und Ausbildungsabgänger - Männer - % der männlichen Bevölkerung im Alter von 18 bis 24 Jahren, die maximal einen unteren Sekundarabschluß erreicht haben und die weder in der Weiter- noch in der Ausbildung sind
+D01_0D	Schüler und Studenten (ISCED-Stufen 1-6) (1 000)
+D01_1	Schüler und Studenten (ISCED-Stufen 0-6) - in % aller Schüler und Studenten
+D01_1D	Schüler und Studenten (ISCED-Stufen 0-6) (1 000)
+D01_2	Schüler der ISCED-Stufe 0 - in % aller Schüler und Studenten
+D01_2D	Schüler der ISCED-Stufe 0 (1 000)
+D01_3	Schüler der ISCED-Stufe 1 - in % aller Schüler und Studenten
+D01_3D	Schüler der ISCED-Stufe 1 (1 000)
+D01_4	Schüler der ISCED-Stufe 2 - in % aller Schüler und Studenten
+D01_4D	Schüler der ISCED-Stufe 2 (1 000)
+D01_5	Schüler und Studenten der ISCED-Stufe 3 - in % aller Schüler und Studenten
+D01_5D	Schüler und Studenten der ISCED-Stufe 3 (1 000)
+D01_6	Studenten der ISCED-Stufe 4 - in % aller Schüler und Studenten
+D01_6D	Studenten der ISCED-Stufe 4 (1 000)
+D01_7	Studenten der ISCED-Stufen 5-6 - in % aller Schüler und Studenten
+D01_7D	Studenten der ISCED-Stufen 5-6 (1 000)
+D01_8	Studenten der ISCED-Stufe 5 in % aller Schüler und Studenten
+D01_8D	Studenten der ISCED-Stufe 5 (1 000)
+D01_9	Studenten der ISCED-Stufe 6 in % aller Schüler und Studenten
+D01_9D	Studenten der ISCED-Stufe 6 (1 000)
+D02_1	Studenten der ISCED-Stufe 5-6 - als Prozentsatz der Schüler und Studenten insgesamt
+D02_1D	Studenten der ISCED-Stufe 5-6 (1 000)
+E01_1	Arbeitslosenquote nach Bildungsniveau, Alter und Geschlecht
+E01_1D	Arbeitslosigkeit nach Bildungsniveau, Alter und Geschlecht (1 000)
+EM1_1	Anteil der jungen Schulabgänger, die im Dienstleistungssektor tätig sind und die die ISCED-Stufe1-2 absolviert haben, wenn sie zum ersten Mal aus dem Schulsystem aussteigen
+EM1_2	Anteil der jungen Schulabgänger, die im Dienstleistungssektor tätig sind und die die ISCED-Stufe3-4 absolviert haben, wenn sie zum ersten Mal aus dem Schulsystem aussteigen
+EM1_3	Anteil der jungen Schulabgänger, die im Dienstleistungssektor tätig sind und die die ISCED-Stufe5-6 absolviert haben, wenn sie zum ersten Mal aus dem Schulsystem aussteigen
+EM1_4	Stellung im Beruf von Jugendlichen, die gerade aus dem Schulsystem ausgetreten sind, und die die ISCED-Stufe1-2 absolviert haben
+EM1_5	Stellung im Beruf von Jugendlichen, die gerade aus dem Schulsystem ausgetreten sind, und die die ISCED-Stufe3-4 absolviert haben
+EM1_6	Stellung im Beruf von Jugendlichen, die gerade aus dem Schulsystem ausgetreten sind, und die die ISCED-Stufe5-6 absolviert haben
+ES1_1	Durchschnittsalter beim ersten Austreten aus dem Schulsystem
+ES1_2	Durchschnittsalter beim ersten Austreten aus dem Schulsystem und nach Erreichen der ISCED-Stufe1-2
+ES1_3	Durchschnittsalter beim ersten Austreten aus dem Schulsystem und nach Erreichen der ISCED-Stufe1-2
+ES1_4	Durchschnittsalter beim ersten Austreten aus dem Schulsystem und nach Erreichen der ISCED-Stufe5-6
+ES2_1	Prozentualer Anteil der Jugendlichen, die die ISCED-Stufe1-2 absolviert haben, wenn sie aus der Fortbildung austreten
+ES2_2	Prozentualer Anteil der Jugendlichen, die die ISCED-Stufe3-4 absolviert haben, wenn sie aus der Fortbildung austreten
+ES2_3	Prozentualer Anteil der Jugendlichen, die die ISCED-Stufe5-6 absolviert haben, wenn sie aus der Fortbildung austreten
+ES3_1	Prozentualer Anteil von Eltern, die die ISCED-Stufe1-2 absolviert haben
+ES3_2	Prozentualer Anteil von Eltern, die die ISCED-Stufe3-4 absolviert haben
+ES3_3	Prozentualer Anteil von Eltern, die die ISCED-Stufe5-6 absolviert haben
+ES4_1	Absolute Stabilitätsquoten zwischen dem Bildungsabschluss der jungen Männer und Frauen und demjenigen ihrer Eltern %
+ES4_2	Absolute Stabilitätsquoten zwischen dem Bildungsabschluss der jungen Männer und demjenigen ihrer Eltern %
+ES4_3	Absolute Stabilitätsquoten zwischen dem Bildungsabschluss der jungen Frauen und demjenigen ihrer Eltern %
+ES4_4	Vergleich des Bildungsgrads junger Menschen mit dem ihrer Eltern - absolute Quoten für Bildungsvererbung und Bildungsaufstieg (in %)
+ES4_5	Vergleich des Bildungsgrads junger Männer mit dem ihrer Eltern - absolute Quoten für Bildungsvererbung und Bildungsaufstieg (in %)
+ES4_6	Vergleich des Bildungsgrads junger Frauen mit dem ihrer Eltern - absolute Quoten für Bildungsvererbung und Bildungsaufstieg (in %)
+ES4_7	Vergleich des Bildungsgrads junger Menschen mit dem ihrer Eltern - absolute Quoten für Bildungsvererbung und Bildungsabstieg (in %)
+ES4_8	Vergleich des Bildungsgrads junger Männer mit dem ihrer Eltern - absolute Quoten für Bildungsvererbung und Bildungsabstieg (in %)
+ES4_9	Vergleich des Bildungsgrads junger Frauen mit dem ihrer Eltern - absolute Quoten für Bildungsvererbung und Bildungsabstieg (in %)
+ES5_1	Männliche und weibliche Frühschulabgänger der ISCED-Stufe1-2 nach höchstem Bildungsgrad der Eltern (in %)
+ES5_2	Männliche Frühschulabgänger der ISCED-Stufe1-2 nach höchstem Bildungsgrad der Eltern (in %)
+ES5_3	Weibliche Frühschulabgänger der ISCED-Stufe1-2 nach höchstem Bildungsgrad der Eltern (in %)
+ES5_4	Männliche und weibliche Frühschulabgänger der ISCED-Stufe3-4 nach höchstem Bildungsgrad der Eltern (in %)
+ES5_5	Männliche Frühschulabgänger der ISCED-Stufe3-4 nach höchstem Bildungsgrad der Eltern (in %)
+ES5_6	Weibliche Frühschulabgänger der ISCED-Stufe3-4 nach höchstem Bildungsgrad der Eltern (in %)
+ES5_7	Männliche und weibliche Frühschulabgänger der ISCED-Stufe5-6 nach höchstem Bildungsgrad der Eltern (in %)
+ES5_8	Männliche Frühschulabgänger der ISCED-Stufe5-6 nach höchstem Bildungsgrad der Eltern (in %)
+ES5_9	Weibliche Frühschulabgänger der ISCED-Stufe5-6 nach höchstem Bildungsgrad der Eltern (in %)
+ET1_1	Aktivitätsraten in Zeit (in Monaten) nach Beendigung der ununterbrochenen Erstausbildung
+ET2_1	Anteil von Selbstständigen in Zeit (in Monaten) nach Beendigung der ununterbrochenen Erstausbildung
+ET3_1	Anteil von prekären Arbeitsstellen in Zeit (in Monaten) nach Beendigung der ununterbrochenen Erstausbildung der ISCED-Stufe1-2
+ET3_2	Anteil von prekären Arbeitsstellen in Zeit (in Monaten) nach Beendigung der ununterbrochenen Erstausbildung der ISCED-Stufe3-4
+ET3_3	Anteil von prekären Arbeitsstellen in Zeit (in Monaten) nach Beendigung der ununterbrochenen Erstausbildung der ISCED-Stufe5-6
+ET6_1	Arbeitslosigkeitsraten in Zeit (in Monaten) nach Beendigung der ununterbrochenen Erstausbildung
+ET6_2	Arbeitslosigkeitsraten in Zeit (in Monaten) nach Beendigung der ununterbrochenen Erstausbildung der ISCED-Stufe1-2
+ET6_3	Arbeitslosigkeitsraten in Zeit (in Monaten) nach Beendigung der ununterbrochenen Erstausbildung der ISCED-Stufe3-4
+ET6_4	Arbeitslosigkeitsraten in Zeit (in Monaten) nach Beendigung der ununterbrochenen Erstausbildung der ISCED-Stufe5-6
+F01_1	Öffentliche Ausgabe für Bildung - insgesamt, in % des BIP
+F02_1	Öffentliche Ausgaben für Bildung in Primärbereich (ISCED 1) in % des BIP
+F02_2	Öffentliche Ausgaben für Bildung im Sekundärbereich (ISCED 2-4) in % des BIP
+F02_3	Öffentliche Ausgaben für Bildung im Tertiärbereich (ISCED 5-6) in % des BIP
+F02_4	Öffentliche Ausgaben für Bildung im Vorschulbereich (ISCED 0) in % des BIP
+F03_1	Ausgaben pro Schüler in öffentlichen Primärschuleinrichtungen (ISCED 1)
+F03_1D	Ausgaben pro Schüler in öffentlichen Primärschuleinrichtungen in KKS (ISCED 1)
+F03_2	Ausgaben pro Schüler/Student in öffentlichen Sekundärschuleinrichtungen (ISCED 2-4)
+F03_2D	Ausgaben pro Schüler/Student in öffentlichen Sekundärschuleinrichtungen in KKS (ISCED 2-4)
+F03_3	Ausgaben pro Schüler in öffentlichen Tertiärschuleinrichtungen (ISCED 5-6)
+F03_3D	Ausgaben pro Schüler in öffentlichen Tertiärschuleinrichtungen in KKS (ISCED 5-6)
+FA01_1	Öffentliche Gesamtsausgaben für Bildung in Millionen EUR KKS, alle Bildungsbereiche zusammen
+FA01_2	Öffentliche Gesamtsausgaben für Bildung in Millionen EUR KKS im Primarbereich (ISCED 1)
+FA01_3	Öffentliche Gesamtsausgaben für Bildung in Millionen EUR KKS im Sekundarbereich (ISCED 2-4)
+FA01_4	Öffentliche Gesamtsausgaben für Bildung in Millionen EUR KKS im Tertiärbereich (ISCED 5-6)
+FC01_1	Index der öffentliche Gesamtausgaben für Bildung in konstanten Preisen (2000 = 100), alle Bildungsbereiche zusammen
+FD01_1	Finanzhilfen für Schüler und Studierende in % der gesamten öffentlichen Bildungsausgaben, für alle Bildungsbereiche zusammen
+FD01_2	Finanzhilfen für Schüler in % der gesamten öffentlichen Bildungsausgaben, im Primar- und im Sekundarbereich (ISCED 1-4)
+FD01_3	Finanzhilfen für Studierende in % der gesamten öffentlichen Bildungsausgaben im Tertiärbereich (ISCED 56)
+FN01_1	Jährliche Ausgaben für öffentliche Bildungseinrichtungen pro Schüler/Studierenden in EUR KKS, alle Bildungsbereiche zusammen, basierend auf Vollzeitäquivalente
+FN01_2	Jährliche Ausgaben für öffentliche Bildungseinrichtungen pro Schüler in EUR KKS, im Primarbereich (ISCED 1), basierend auf Vollzeitäquivalente
+FN01_3	Jährliche Ausgaben für öffentliche Bildungseinrichtungen pro Schüler in EUR KKS, im Sekundarbereich (ISCED 2-4), basierend auf Vollzeitäquivalente
+FN01_4	Jährliche Ausgaben für öffentliche Bildungseinrichtungen pro Studierenden in EUR KKS, im Tertiärbereich (ISCED 56), basierend auf Vollzeitäquivalente
+FN02_1	Verhältnis der jährlichen Ausgaben für Bildungseinrichtungen pro Studierenden im Tertiärbereich im Vergleich mit den jährlichen Ausgaben für Bildungseinrichtungen pro Schüler im Primarbereich, basierend auf Vollzeitäquivalente
+FN03_1	Jährliche Ausgaben für öffentliche Bildungseinrichtungen pro Schüler/Studierenden im Vergleich zum BIP pro Kopf der Bevölkerung für alle Bildungsbereiche zusammen, basierend auf Vollzeitäquivalente
+FN03_2	Jährliche Ausgaben für öffentliche Bildungseinrichtungen pro Schüler im Vergleich zum BIP pro Kopf der Bevölkerung im Primarbereich (ISCED 1), basierend auf Vollzeitäquivalente
+FN03_3	Jährliche Ausgaben für öffentliche Bildungseinrichtungen pro Schüler im Vergleich zum BIP pro Kopf der Bevölkerung im Sekundarbereich (ISCED 2-4), basierend auf Vollzeitäquivalente
+FN03_4	Jährliche Ausgaben für öffentliche Bildungseinrichtungen pro Studierenden im Vergleich zum BIP pro Kopf der Bevölkerung im Tertiärbereich (ISCED 56), basierend auf Vollzeitäquivalente
+FN04_1	Laufende Ausgaben in % der Gesamtausgaben für öffentliche Bildungseinrichtungen für alle Bildungsbereiche zusammen
+FN04_2	Investitionsausgaben in % der Gesamtausgaben für öffentliche Bildungseinrichtungen für alle Bildungsbereiche zusammen
+FN04_3	Personalausgaben in % der Gesamtausgaben für öffentliche Bildungseinrichtungen für alle Bildungsbereiche zusammen
+FN04_4	Andere laufende Ausgaben in % der Gesamtausgaben für öffentliche Bildungseinrichtungen für alle Bildungsbereiche zusammen
+FP01_1	Öffentliche Gesamtausgaben für Bildung in % des BIP, alle Bildungsbereiche zusammen
+FP02_1	Öffentliche Gesamtausgaben für Bildung in % des BIP, im Primarbereich (ISCED 1)
+FP02_2	Öffentliche Gesamtausgaben für Bildung in % des BIP, im Sekundarbereich (ISCED 2-4)
+FP02_3	Öffentliche Gesamtausgaben für Bildung in % des BIP, im Tertiärbereich (ISCED 5-6)
+FP02_4	Öffentliche Gesamtausgaben für Bildung in % des BIP, im Elementarbereich (ISCED 0) und nicht nach Bildungsstufen zugeordnet
+FP03_1	Ausgaben aus öffentlichen Quellen für Bildungseinrichtungen in % des BIP, alle Bildungsbereiche zusammen
+FP03_2	Öffentliche Subventionen an den privaten Sektor in % des BIP, alle Bildungsbereiche zusammen
+FP04_1	Öffentliche Gesamtausgaben für Bildung in % der öffentlichen Gesamtausgaben, alle Bildungsbereiche zusammen
+FP04_2	Ausgaben aus öffentlichen Quellen für Bildungseinrichtungen in % der öffentlichen Gesamtausgaben, alle Bildungsbereiche zusammen
+FP04_3	Öffentliche Subventionen an den privaten Sektor in % der öffentlichen Gesamtausgaben, alle Bildungsbereiche zusammen
+FP05_1	Ausgaben für Bildungseinrichtungen aus privaten Quellen in % des BIP, alle Bildungsbereiche zusammen
+FP06_1	Öffentliche Gesamtausgaben für Bildung in % des Bruttonationaleinkommens, alle Bildungsbereiche zusammen
+FS01_1	Öffentliche Bildungsausgaben der zentralen Ebene des Staates in % der öffentlichen Bildungsausgaben aller Ebenen des Staates insgesamt, vor Transferzahlungen an andere Ebenen
+FS01_2	Öffentliche Bildungsausgaben der regionalen Ebene des Staates in % der öffentlichen Bildungsausgaben aller Ebenen des Staates insgesamt, vor Transferzahlungen an andere Ebenen
+FS01_3	Öffentliche Bildungsausgaben der lokalen Ebene des Staates in % der öffentlichen Bildungsausgaben aller Ebenen des Staates insgesamt, vor Transferzahlungen an andere Ebenen
+FS02_1	Öffentliche Bildungsausgaben der zentralen Ebene des Staates in % der öffentlichen Bildungsausgaben aller Ebenen des Staates insgesamt, nach Transferzahlungen an andere Ebenen
+FS02_2	Öffentliche Bildungsausgaben der regionalen Ebene des Staates in % der öffentliche Bildungsausgaben aller Ebenen des Staates insgesamt, nach Transferzahlungen an andere Ebenen
+FS02_3	Öffentliche Bildungsausgaben der lokalen Ebene des Staates in % der öffentlichen Bildungsausgaben aller Ebenen des Staates insgesamt, nach Transferzahlungen an andere Ebenen
+FS03_1	Ausgaben für Bildungseinrichtungen aus öffentlichen Quellen in % der Ausgaben für Bildungseinrichtungen aus öffentlichen und privaten Quellen, alle Bildungseinrichtungen zusammen
+FS03_2	Ausgaben für Bildungseinrichtungen aus privaten Quellen in % der Ausgaben für Bildungseinrichtungen aus öffentlichen und privaten Quellen, alle Bildungseinrichtungen zusammen
+FT01_1	Jährliche Ausgaben für öffentliche und private Bildungseinrichtungen pro Schüler/Studierenden in EUR KKS, alle Bildungsbereiche zusammen, basierend auf Vollzeitäquivalente
+FT01_2	Jährliche Ausgaben für öffentliche und private Bildungseinrichtungen pro Schüler in EUR KKS im Primarbereich (ISCED 1), basierend auf Vollzeitäquivalente
+FT01_3	Jährliche Ausgaben für öffentliche und private Bildungseinrichtungen pro Schüler in EUR KKS im Sekundarbereich (ISCED 2-4), basierend auf Vollzeitäquivalente
+FT01_4	Jährliche Ausgaben für öffentliche und private Bildungseinrichtungen pro Studierenden in EUR KKS im Tertiärbereich (ISCED 5-6), basierend auf Vollzeitäquivalente
+FT02_1	Jährliche Ausgaben für öffentliche und private Bildungseinrichtungen pro Schüler/Studierenden im Vergleich zum BIP pro Kopf der Bevölkerung für alle Bildungsbereiche zusammen, basierend auf Vollzeitäquivalente
+FT02_2	Jährliche Ausgaben für öffentliche und private Bildungseinrichtungen pro Schüler im Vergleich zum BIP pro Kopf der Bevölkerung im Primarbereich (ISCED 1), basierend auf Vollzeitäquivalente
+FT02_3	Jährliche Ausgaben für öffentliche und private Bildungseinrichtungen pro Schüler im Vergleich zum BIP pro Kopf der Bevölkerung im Sekundarbereich (ISCED 2-4), basierend auf Vollzeitäquivalente
+FT02_4	Jährliche Ausgaben für öffentliche und private Bildungseinrichtungen pro Studierenden im Vergleich zum BIP pro Kopf der Bevölkerung im Tertiärbereich (ISCED 5-6), basierend auf Vollzeitäquivalente
+FT03_1	Jährliche Ausgaben für öffentliche und private Bildungseinrichtungen in % des BIP, für alle Bildungsbereiche zusammen
+FT03_2	Jährliche Ausgaben für öffentliche und private Bildungseinrichtungen in % des BIP, im Primarbereich (ISCED 1)
+FT03_3	Jährliche Ausgaben für öffentliche und private Bildungseinrichtungen in % des BIP, im Sekundarbereich (ISCED 2-4)
+FT03_4	Jährliche Ausgaben für öffentliche und private Bildungseinrichtungen in % des BIP, im Tertiärbereich (ISCED 5-6)
+G01_1	Bevölkerung im Alter von 0-9 Jahren - in % der Gesamtbevölkerung
+G01_1D	Bevölkerung im Alter von 0-9 Jahren (1 000)
+G01_2	Bevölkerung im Alter von 10-19 Jahren - in % der Gesamtbevölkerung
+G01_2D	Bevölkerung im Alter von 10-19 Jahren (1 000)
+G01_3	Bevölkerung im Alter von 20-29 Jahren - in % der Gesamtbevölkerung
+G01_3D	Bevölkerung im Alter von 20-29 Jahren (1 000)
+G01_4D	Bevölkerung im Alter von 0-29 Jahren (1 000)
+G01_5D	Bevölkerung - insgesamt (1 000)
+G02_1	Erwartete Schulleben der Schüler und Studenten (ISCED 0-6)
+G02_2	Erwartete Schulleben (Jahren) der Studenten (ISCED 5-6)
+G03_1	Schüler und Studenten (ISCED 1-6) im Alter von 0-29 Jahren - in % der Bevölkerung im Alter von 0-29 Jahren
+G03_1D	Schüler und Studenten (ISCED 1-6) im Alter von 0-29 Jahren (1 000)
+G03_2	Schüler und Studenten (ISCED 1-6) im Alter von 5-29 Jahren - - in % der Bevölkerung im Alter von 0-29 Jahren
+G03_2D	Schüler und Studenten (ISCED 1-6) im Alter von 5-29 Jahren (1 000)
+G04_1	Studenten, Bildung nach schulpflichtigem Alter absolvieren - in % der Gesamtbevölkerung in schulpflichtigem Alter
+G04_1D	Studenten, Bildung nach schulpflichtigem Alter absolvieren (1 000)
+G04_2D	Bevölkerung über schulpflichtigem Alter (1 000)
+G05_1	Schüler und Studenten (ISCED 1-3) - in % der Gesamtbevölkerung nach Alter
+G05_1D	Schüler und Studenten (ISCED 1-3) (1 000)
+G06_1	Erwerbstätige Bevölkerung - in % der Gesamtbevölkerung
+G06_1D	Erwerbstätige Bevölkerung (1 000)
+G07_1	Teilnahmequoten an der Bildung für 18-Jährige, ISCED 1-6
+G08_1	Schulpflichtiges Alter (Minimum)
+G08_2	Schulpflichtiges Alter (Maximum)
+G09_1	Theoretisches Schulanfangsalter (ISCED 3A)
+G09_2	Theoretisches Schulanfangsalter (ISCED 5A)
+G09_3	Theoretisches Schulanfangsalter (ISCED 5B)
+LA01_01	Durchschnittszahl der erlernten Fremdsprachen je Schüler
+LA02_01	Prozentualer Anteil der Schüler die keine Fremdsprache lernen
+LA02_02	Prozentualer Anteil der Schüler die 1 Fremdsprache lernen
+LA02_03	Prozentualer Anteil der Schüler die 2 Fremdsprachen lernen oder mehr
+LA03_01	Schüler die Englisch lernen - in % aller Schüler dieser Stufe
+LA03_02	Schüler die Französisch lernen - in % aller Schüler dieser Stufe
+LA03_03	Schüler die Deutsch lernen - in % aller Schüler dieser Stufe
+LA03_04	Schüler die Spanisch lernen - in % aller Schüler dieser Stufe
+LA03_05	Schüler die Russisch lernen - in % aller Schüler dieser Stufe
+LA04_01D	Schüler die keine Fremdsprache lernen
+LA04_02D	Schüler die 1 Fremdsprache lernen
+LA04_03D	Schüler die 2 Fremdsprachen lernen oder mehr
+LA04_04D	Schüler die Englisch lernen (1000)
+LA04_05D	Schüler die Franzözisch lernen (1000)
+LA04_06D	Schüler die Deutsch lernen (1000)
+LA04_07D	Schüler die Spanisch lernen (1000)
+LA04_08D	Schüler die Russisch lernen (1000)
+L01_1	Schüler der ISCED-Stufe 1, die 2 Fremdsprachen lernen oder mehr
+L01_1D	Schüler der ISCED-Stufe 1, die 2 Fremdsprachen lernen oder mehr
+L01_2	Schüler der ISCED-Stufe 1, die keine Fremdsprache lernen
+L01_2D	Schüler der ISCED-Stufe 1, die keine Fremdsprachen lernen (1 000)
+L01_3	Schüler der ISCED-Stufe 1, die 1 Fremdsprache lernen
+L01_3D	Schüler der ISCED-Stufe 1, die 1 Fremsprache lernen (1 000)
+L01_4	Prozentualer Anteil der Schüler der ISCED-Stufe 2, die 2 Fremdsprachen lernen oder mehr
+L01_5	Prozentualer Anteil der Schüler der ISCED-Stufe 2 (GEN), die 2 Fremdsprachen lernen
+L01_6	Prozentualer Anteil der Schüler der ISCED-Stufe 2, die 1 Fremdsprache lernen
+L01_7	Prozentualer Anteil der Schüler der ISCED-Stufe 3 (GEN), die 2 Fremdsprachen lernen oder mehr
+L01_8	Prozentualer Anteil der Schüler der ISCED-Stufe 3 (GEN), die 2 Fremdsprachen lernen
+L01_9	Prozentualer Anteil der Schüler der ISCED-Stufe 3 (GEN), die 1 Fremdsprache lernen
+L01_10	Prozentualer Anteil der Schüler der ISCED-Stufen 2 und 3 (GEN), die 3 Fremdsprachen lernen oder mehr
+L01_11	Prozentualer Anteil der Schüler der ISCED-Stufen 2 und 3 (GEN), die 2 Fremdsprachen lernen
+L01_12	Prozentualer Anteil der Schüler der ISCED-Stufen 2 und 3 (GEN), die 1 Fremdsprache lernen
+L01_13	Prozentualer Anteil der Schüler der ISCED-Stufe 2, die keine Fremdsprache lernen
+L01_14	Prozentualer Anteil der Schüler der ISCED-Stufe 3 (GEN), die keine Fremdsprache lernen
+L01_15	Prozentualer Anteil der Schüler der ISCED-Stufen 2 und 3 (GEN), die keine Fremdsprache lernen
+L01_16	Prozentualer Anteil der Schüler der ISCED-Stufe 3 (PVVOC), die 2 Fremdsprachen lernen oder mehr
+L01_17	Prozentualer Anteil der Schüler der ISCED-Stufe 3 (PVVOC), die 2 Fremdsprachen lernen
+L01_18	Prozentualer Anteil der Schüler der ISCED-Stufe 3 (PVVOC), die 1 Fremdsprache lernen oder mehr
+L01_19	Prozentualer Anteil der Schüler der ISCED-Stufe 3 (PVVOC), die keine Fremdsprache lernen
+L02_1	Durchschnittszahl der erlernten Fremdsprachen je Schüler der ISCED-Stufe 2
+L02_2	Durchschnittszahl der erlernten Fremdsprachen je Schüler der ISCED-Stufe 3
+L02_3	Durchschnittszahl der erlernten Fremdsprachen je Schüler der ISCED-Stufen 2 und 3
+L02_4	Durchschnittszahl der erlernten Fremdsprachen je Schüler der ISCED-Stufe 1
+L02_5	Durchschnittszahl der erlernten Fremdsprachen je Schüler der ISCED-Stufe 2
+L02_6	Durchschnittszahl der erlernten Fremdsprachen je Schüler der ISCED-Stufe 3 Allgemeine
+L02_7	Durchschnittszahl der erlernten Fremdsprachen je Schüler der ISCED-Stufen 2 und 3 Allgemeine
+L02_8	Durchschnittszahl der erlernten Fremdsprachen je Schüler der ISCED-Stufe 3 (PVVOC)
+L03_1	Schüler der ISCED-Stufe 2, die Englisch lernen - in % aller Schüler dieser Stufe
+L03_1D	Schüler der ISCED-Stufe 2, die Englisch lernen (1 000)
+L03_2	Schüler der ISCED-Stufe 3 (GEN), die Englisch lernen - in % aller Schüler dieser Stufe
+L03_2D	Schüler der ISCED-Stufe 3 (GEN), die Englisch lernen (1 000)
+L03_3	Schüler der ISCED-Stufen 2 und 3 (GEN), die Englisch lernen - in % aller Schüler dieser Stufe
+L03_3D	Schüler der ISCED-Stufen 2 und 3, die Englisch lernen (GEN) (1 000)
+L03_4	Schüler der ISCED-Stufe 2, die Französisch lernen - in % aller Schüler dieser Stufe
+L03_4D	Schüler der ISCED-Stufe 2, die Französisch lernen (1 000)
+L03_5	Schüler der ISCED-Stufe 3 (GEN), die Französisch lernen - in % aller Schüler dieser Stufe
+L03_5D	Schüler der ISCED-Stufe 3 (GEN), die Französisch lernen (1 000)
+L03_6	Schüler der ISCED-Stufen 2 und 3 (GEN), die Französisch lernen - in % aller Schüler dieser Stufe
+L03_6D	Schüler der ISCED-Stufen 2 und 3, die Französisch lernen (GEN) (1 000)
+L03_7	Schüler der ISCED-Stufe 2, die Deutsch lernen - in % aller Schüler dieser Stufe
+L03_7D	Schüler der ISCED-Stufe 2, die Deutsch lernen (1 000)
+L03_8	Schüler der ISCED-Stufe 3 (GEN), die Deutsch lernen - in % aller Schüler dieser Stufe
+L03_8D	Schüler der ISCED-Stufe 3, die Deutsch lernen (GEN) (1 000)
+L03_9	Schüler der ISCED-Stufen 2 und 3 (GEN), die Deutsch lernen auf - in % aller Schüler dieser Stufe
+L03_9D	Schüler der ISCED-Stufen 2 und 3, die Deutsch lernen (GEN) (1 000)
+L03_10	Schüler der ISCED-Stufe 2, die Spanisch lernen - in % aller Schüler dieser Stufe
+L03_10D	Schüler der ISCED-Stufe 2, die Spanisch lernen (1 000)
+L03_11	Schüler der ISCED-Stufe 3 (GEN), die Spanisch lernen - in % aller Schüler dieser Stufe
+L03_11D	Schüler der ISCED-Stufe 3 (GEN), die Spanisch lernen (1 000)
+L03_12	Schüler der ISCED-Stufen 2 und 3(GEN), die Spanisch lernen - in % aller Schüler dieser Stufe
+L03_12D	Schüler der ISCED-Stufen 2 und 3 (GEN) (1 000), die Spanisch lernen (1 000)
+L03_13	Schüler der ISCED-Stufe 2, die Russisch lernen - in % aller Schüler dieser Stufe
+L03_14	Schüler der ISCED-Stufe 3 (GEN), die Russisch lernen - in % aller Schüler dieser Stufe
+L03_15	Schüler der ISCED-Stufen 2 und 3 (GEN), die Russisch lernen - in % aller Schüler dieser Stufe
+L03_16	Schüler der ISCED-Stufe 1 die Englisch lernen - in % aller Schüler dieser Stufe
+L03_17	Schüler der ISCED-Stufe 1 die Französisch lernen - in % aller Schüler dieser Stufe
+L03_18	Schüler der ISCED-Stufe 1 die Deutsch lernen - in % aller Schüler dieser Stufe
+MG01_1D	Ausländische Hochschulabsolventen in absoluten Zahlen
+MG01_1P	Anteil der ausländischen Hochschulabsolventen an der Zahl aller Hochschulabsolventen im Gastgeberland (in %)
+MG01_2D	Ins Land kommende Hochschulabsolventen in absoluten Zahlen
+MG01_2P	Anteil der ins Land kommenden Hochschulabsolventen an der Zahl aller Hochschulabsolventen im Gastgeberland (in %)
+MM1_1	Inzidenzrate der beruflichen Nichtanpassung nach Land (%)
+MM1_2	Inzidenzrate der beruflichen Nichtanpassung bei Frauen (%)
+MM1_3	Inzidenzrate der beruflichen Nichtanpassung bei Männern (%)
+MM1_4	Inzidenzrate der beruflichen Nichtanpassung auf ISCED-Stufe 3-4 (%)
+MM1_5	Inzidenzrate der beruflichen Nichtanpassung auf ISCED-Stufe 5-6 (%)
+MM2_1	Inzidenzrate der beruflichen Nichtanpassung nach Bildungsbereich (%)
+MM2_2	Inzidenzrate der beruflichen Nichtanpassung im Bildungsbereich Geisteswissenschaften und Kunst (%)
+MM2_3	Inzidenzrate der beruflichen Nichtanpassung in den Bildungsbereichen Sozialwissenschaften, Wirtschaft und Recht (%)
+MM2_4	Inzidenzrate der beruflichen Nichtanpassung im Bildungsbereich der Wissenschaften (%)
+MM2_5	Inzidenzrate der beruflichen Nichtanpassung in den Bildungsbereichen Maschinenbau, verarbeitende Industrie und Bau (%)
+MM2_6	Inzidenzrate der beruflichen Nichtanpassung im Bildungsbereich Ackerbau (%)
+MM2_7	Inzidenzrate der beruflichen Nichtanpassung im Bildungsbereich Gesundheit und Sozialleistungen (%)
+MM2_8	Inzidenzrate der beruflichen Nichtanpassung im Bildungsbereich Dienstleistungen (%)
+MM3_1	Erreichte Berufsstellung nach beruflicher Nichtanpassung JA
+MM3_2	Erreichte Berufsstellung nach beruflicher Nichtanpassung und nach Land NEIN
+MM4_1	Befristete Arbeitsverträge nach beruflicher Nichtanpassung (%)
+MM4_2	Befristete Arbeitsverträge nach beruflicher Anpassung (%)
+MM5_1	Teilzeitarbeit nach beruflicher Nichtanpassung (%)
+MM5_2	Teilzeitarbeit nach beruflicher Anpassung (%)
+MM6_1	Arbeitssuche nach beruflicher Nichtanpassung (%)
+MM6_2	Arbeitssuche nach beruflicher Anpassung (%)
+MM7_1	Teilnahme an der beruflichen Weiterbildung nach beruflicher Nichtanpassung (%)
+MM7_2	Teilnahme an der beruflichen Weiterbildung nach beruflicher Anpassung (%)
+MM_NO	Keine Fehlanpassung (genaue Übereinstimmung)
+MM_VERT	Vertikale Fehlanpassung
+MM_HOR	Horizontale Fehlanpassung
+MM_VERT_HOR	Vertikale und horizontale Fehlanpassung
+MS01_1D	Ausländische Studierende in absoluten Zahlen
+MS01_1P	Anteil der ausländischen Studierenden an der Studentenpopulation im Gastgeberland (in %)
+MS01_2D	Ins Land kommende Studierende in absoluten Zahlen
+MS01_2P	Anteil der ins Land kommenden Studierenden an der Studentenpopulation im Gastgeberland (in %)
+MS02_1D	Im Ausland studierende Staatsangehörige in absoluten Zahlen
+MS02_1P	Anteil der im Ausland studierenden Staatsangehörigen an der Zahl der Studierenden mit derselben Staatsangehörigkeit im Herkunfts- und Zielland (in %)
+MS02_1Q	Anteil der im Ausland studierenden Staatsangehörigen an der Studentenpopulation im Herkunftsland (in %)
+MS02_2D	Das Land verlassende Studierende in absoluten Zahlen
+MS02_2P	Anteil der das Land verlassenden Studierenden an der Zahl der Studierenden mit derselben Herkunft im Herkunfts- und Zielland (in %)
+MS02_2Q	Anteil der das Land verlassenden Studierenden an der Studentenpopulation im Herkunftsland (in %)
+P01_1	Schüler in öffentlichen Bildungseinrichtungen (ISCED 1 bis 4) - in % aller Studenten in öffentlichen und privaten Bildungseinrichtungen
+P01_1D	Schüler in öffentlichen Bildungseinrichtungen (ISCED 1 bis 4) (1 000)
+P01_2	Schüler in privaten Bildungseinrichtungen (ISCED 1 bis 4) - in % aller Studenten in öffentlichen und privaten Bildungseinrichtungen
+P01_2D	Schüler in privaten Bildungseinrichtungen (ISCED 1 bis 4) (1 000)
+P01_3	Studenten in öffentlichen subventionnierten Bildungseinrichtungen (ISCED 1 bis 4) - in % aller Studenten in öffentlichen und privaten Bildungseinrichtungen
+P01_3D	Studenten in öffentlichen subventionnierten Bildungseinrichtungen (ISCED 1 bis 4) (1 000)
+P01_4	Studenten in öffentlichen unsubventionnierten Bildungseinrichtungen (ISCED 1 bis 4) - in % aller Studenten in öffentlichen und privaten Bildungseinrichtungen
+P01_4D	Studenten in öffentlichen unsubventionnierten Bildungseinrichtungen (ISCED 1 bis 4) (1 000)
+P01_5	Studenten in öffentlichen und privaten Bildungseinrichtungen (ISCED 1 bis 4)
+P01_5D	Studenten in öffentlichen und privaten Bildungseinrichtungen (ISCED 1 bis 4) (1 000)
+P02_1	Teilnehmer der ISCED-Stufe 0 im Alter von 3 Jahren - in % der Bevölkerung im Alter von 3 Jahren
+P02_1D	Teilnehmer der ISCED-Stufe 0 im Alter von 3 Jahren (1 000)
+P02_2	Teilnehmer der ISCED-Stufe 0 im Alter von 4 Jahren - in % der Bevölkerung im Alter von 4 Jahren
+P02_2D	Teilnehmer der ISCED-Stufe 0 im Alter von 4 Jahren (1 000)
+P02_3	Teilnehmer der ISCED-Stufe 0 im Alter von 5 Jahren - in % der Bevölkerung im Alter von 5 Jahren
+P02_3D	Teilnehmer der ISCED-Stufe 0 im Alter von 5 Jahren (1 000)
+P02_4	Teilnehmer der ISCED-Stufe 0 im Alter von 6 Jahren - in % der Bevölkerung im Alter von 6 Jahren
+P02_4D	Teilnehmer der ISCED-Stufe 0 im Alter von 6 Jahren (1 000)
+P02_5	Teilnehmer der ISCED-Stufe 0 im Alter von 7 Jahren - in % der Bevölkerung im Alter von 7 Jahren
+P02_5D	Teilnehmer auf ISCED-Stufe 0 im Alter von 7 Jahren (1 000)
+P02_6	Teilnehmer der ISCED-Stufe 1 im Alter von 3 Jahren - in % der Bevölkerung im Alter von 3 Jahren
+P02_6D	Teilnehmer der ISCED-Stufe 1 im Alter von 3 Jahren (1 000)
+P02_7	Teilnehmer der ISCED-Stufe 1 im Alter von 4 Jahren - in % der Bevölkerung im Alter von 4 Jahren
+P02_7D	Teilnehmer der ISCED-Stufe 1 im Alter von 4 Jahren (1 000)
+P02_8	Teilnehemer der ISCED-Stufe 1 im Alter von 5 Jahren - in % der Bevölkerung im Alter von 5 Jahren
+P02_8D	Teilnehemer der ISCED-Stufe 1 im Alter von 5 Jahren (1 000)
+P02_9	Teilnehmer der ISCED-Stufe 1 im Alter von 6 Jahren - in % der Bevölkerung im Alter von 6 Jahren
+P02_9D	Teilnehmer der ISCED-Stufe 1 im Alter von 6 Jahren (1 000)
+P02_10	Teilnehmer der ISCED-Stufer 1 im Alter von 7 Jahren - in % der Bevölkerung im Alter von 7 Jahren
+P02_10D	Teilnehmer der ISCED-Stufe 1 im Alter von 7 Jahren (1 000)
+P03_1	Teilnehmer in Schuleinrichtungen der ISCED-Stufe 0 - in % der gesamten Schul- und Nichtschuleinrichtungen
+P03_1D	Teilnehmer in Schuleinrichtungen der ISCED-Stufe 0 (1 000)
+P03_2	Teilnehmer in Nichtschuleinrichtungen der ISCED-Stufe 0 - in % der gesamten Schul- und Nichtschuleinrichtungen
+P03_2D	Teilnehmer in Nichtschuleinrichtungen der ISCED-Stufe 0 (1 000)
+P04_1	Teilnahmequote von 4-jährigen der ISCED-Stufen 0-1
+P05_1	Studienanfänger im theoretischen Studienanfangsalter der ISCED-Stufe 3 in % aller Personen in der entsprechenden Altersgruppe
+PR1_1	Odds-ratio der Absolventen im Tertiärunterricht/Jugendliche deren Eltern die ISCED-Stufe 5-6 erreicht haben/ Jugendliche deren Eltern die ISCED-Stufe 1-2 erreicht haben
+PR1_2	Odds-ratio der Absolventen im Tertiärunterricht/Jugendliche deren Eltern die ISCED-Stufe 3-4 erreicht haben/ Jugendliche deren Eltern die ISCED-Stufe 1-2 erreicht haben
+PR2_1	Durchschnittlicher Zeitraum vor Annahme einer bedeutenden Arbeitsstelle nach Bildungsstufe ISCED 1-2 der Eltern
+PR2_2	Durchschnittlicher Zeitraum vor Annahme einer bedeutenden Arbeitsstelle nach Bildungsstufe ISCED 3-4 der Eltern
+PR2_3	Durchschnittlicher Zeitraum vor Annahme einer bedeutenden Arbeitsstelle nach Bildungsstufe ISCED 5-6 der Eltern
+PR3_1	Durchschnittliche Berufsstellung von Jugendlichen deren Eltern unterschiedliche Bildungsabschlüsse der ISCED-Stufe 1-2 erreicht haben
+PR3_2	Durchschnittliche Berufsstellung von Jugendlichen deren Eltern unterschiedliche Bildungsabschlüsse der ISCED-Stufe 3-4 erreicht haben
+PR3_3	Durschnittliche Berufsstellung von Jugendlichen deren Eltern unterschiedliche Bildungsabschlüsse der ISCED-Stufe 5-6 erreicht haben
+PR3_4	Durschnittliche Berufsstellung insgesamt von Jugendlichen deren Eltern unterschiedliche Bildungsabschlüsse erreicht haben
+PS01_1	Studenten der ISCED-Stufe 3-GEN - in % aller Studenten der ISCED-Stufe 3
+PS01_1D	Studenten der ISCED-Stufe 3-GEN (1 000)
+PS01_2	Studenten der ISCED-Stufe 3-VOC - in % aller Studenten der ISCED-Stufe 3
+PS01_2D	Studenten der ISCED-Stufe 3-VOC (1 000)
+PS01_3D	Studenten (ISCED 3) (1 000)
+PS01_4	Studenten der ISCED-Stufe 4-VOC - in % aller Studenten der ISCED-Stufe 4
+PS02_1	Beteiligung der Studenten am Ende des schulpflichtigen Alters (X-1) - in % der Bevölkerung im Alter von (X-1)
+PS02_2	Beteiligung der Studenten am Ende des schulpflichtigen Alters (X) - in % der Bevölkerung im Alter von (X)
+PS02_3	Beteiligung der Studenten am Ende des schulpflichtigen Alters (X+1) - in % der Bevölkerung im Alter von (X+1)
+PS02_4	Beteiligung der Studenten am Ende des schulpflichtigen Alters (X+2) - in % der Bevölkerung im Alter von (X+2)
+PS03_2	Studenten (ISCED 5-6) nach Geschlecht und im Alter von 18 in % der Bevölkerung im selben Alter
+PS03_2D	Studenten (ISCED 5-6) nach Geschlecht und im Alter von 18 (1 000)
+PS03_3	Studenten (ISCED 5-6) nach Geschlecht und im Alter von 20 in % der Bevölkerung im selben Alter
+PS03_3D	Studenten (ISCED 5-6) nach Geschlecht und im Alter von 20 (1 000)
+PS03_4	Studenten (ISCED 5-6) nach Geschlecht und im Alter von 22 in % der Bevölkerung im selben Alter
+PS03_4D	Studenten (ISCED 5-6) nach Geschlecht und im Alter von 22 (1 000)
+PS03_5	Studenten (ISCED 5-6) nach Geschlecht und im Alter von 24 in % der Bevölkerung im selben Alter
+PS03_5D	Studenten (ISCED 5-6) nach Geschlecht und im Alter von 24 (1 000)
+PS03_6	Studenten (ISCED 5-6) nach Geschlecht und im Alter von 26 in % der Bevölkerung im selben Alter
+PS03_6D	Studenten (ISCED 5-6) nach Geschlecht und im Alter von 26 (1 000)
+PS03_7	Studenten (ISCED 5-6) nach Geschlecht und im Alter von 28 in % der Bevölkerung im selben Alter
+PS03_7D	Studenten (ISCED 5-6) nach Geschlecht und im Alter von 28 (1 000)
+PS03_8	Studenten (ISCED 5-6) nach Geschlecht und im Alter von 30-34 in % der Bevölkerung im selben Alter
+PS03_8D	Studenten (ISCED 5-6) nach Geschlecht und im Alter von 30-34 (1 000)
+PS03_9	Studenten (ISCED 5-6) nach Geschlecht und im Alter von 35-39 in % der Bevölkerung im selben Alter
+PS03_9D	Studenten (ISCED 5-6) nach Geschlecht und im Alter von 35-39 (1 000)
+PS03_10	Studenten (ISCED 5-6) nach Geschlecht und im Alter von 20-24 in % der Bevölkerung im selben Alter
+PS03_12D	Studenten (ISCED 5-6) im Alter von 30 Jahren und mehr nach Geschlecht
+PS03_13	Studenten (ISCED 5-6), alle Altern, nach Geschlecht,  in % der Bevölkerung im Alter von 20-24 Jahren
+PS03_14	Studenten (ISCED 5-6), im Alter von -19, nach Geschlecht,  in % aller Studenten (ISCED5-6)
+PS03_15	Studenten (ISCED 5-6), im Alter von 20-24, nach Geschlecht,  in % aller Studenten (ISCED5-6)
+PS03_16	Studenten (ISCED 5-6), im Alter von 25- , nach Geschlecht,  in % aller Studenten (ISCED5-6)
+PS05_1	Studenten (ISCED 1-6) nach Geschlecht und im Alter von 15-24 Jahren - in % der Bevölkerung im selben Alter
+PS05_2	Studenten (ISCED 1-6) nach Geschlecht und im Alter von 30 Jahren und mehr pro 1 000 der Bevölkerung im selben Alter
+PS05_3	Studenten (ISCED 1-6) nach Geschlecht und im Alter von 30 Jahren und mehr - in % der Bevölkerung im selben Alter
+PS05_4	Studenten (ISCED 1-6) nach Geschlecht und im Alter von 18 Jahren - in % der Bevölkerung im selben Alter
+PS05_5	Studenten (ISCED 1-6) nach Geschlecht und im Alter von 16-18 Jahren - in % der Bevölkerung im selben Alter
+PS05_6	Studenten (ISCED 1-6) nach Geschlecht und im Alter von 20 Jahren - in % der Bevölkerung im selben Alter
+PS05_7	Studenten (ISCED 1-6) nach Geschlecht und im Alter von 22 Jahren - in % der Bevölkerung im selben Alter
+PS05_8	Studenten (ISCED 1-6) nach Geschlecht und im Alter von 24 Jahren - in % der Bevölkerung im selben Alter
+PS05_9	Studenten (ISCED 1-6) nach Geschlecht und im Alter von 26 Jahren - in % der Bevölkerung im selben Alter
+PS05_10	Studenten (ISCED 1-6) nach Geschlecht und im Alter von 28 Jahren - in % der Bevölkerung im selben Alter
+PS06_1	Studentenaufteilung (ISCED 5) nach Geschlecht
+PS06_1D	Studenten (ISCED 5) nach Geschlecht (1 000)
+PS07_1	Studentenaufteilung (ISCED 6) nach Geschlecht
+PS07_1D	Studenten (ISCED 6) nach Geschlecht (1 000)
+R01_1	Bevölkerung im Alter von 0-29 - in % der Gesamtbevölkerung auf der regionalen Ebene
+R01_1D	Bevölkerung im Alter von 0-29 auf der regionalen Ebene (1 000)
+R01_2	Bevölkerung auf der regionalen Ebene- in % der Gesamtbevölkerung auf der Landesebene
+R01_2D	Bevölkerung auf der regionalen Ebene (1 000)
+R02_1	Studenten der ISCED-Stufe 3 (GEN) - in % aller Studenten der ISCED-Stufe 3 auf regionaler Ebene
+R02_1D	Studenten (ISCED 3) (GEN) auf regionaler Ebene (1 000)
+R02_2D	Studenten (ISCED 3) auf regionaler Ebene (1 000)
+R03_1	Studenten der ISCED-Stufen 5-6 - in % aller Schüler und Studenten auf regionaler Ebene
+R03_1D	Studenten der ISCED-Stufen 5-6 auf regionaler Ebene (1 000)
+R03_2	Personen in Ausbildung im Tertiärbereich (ISCED 5-6), in % der Bevölkerung im Alter von 20-24 Jahren, auf regionaler Ebene
+R04_1	Verhältnis zwischen dem Studentenanteil (ISCED 5-6) und dem Bevölkerungsanteil nach NUTS 1 und NUTS 2 Regionen
+R04_2	Studenten (ISCED 5-6) auf regionaler Ebene - in % aller Studenten auf Landesebene (ISCED-Stufen 5-6)
+R04_3	Studenten (ISCED 0-6) im Alter von 17 auf regionaler Ebene - in % der Bevölkerung im selben Alter
+R04_4	Personen in Ausbildung in allen Bereichen (ISCED 0-6), in % der Gesamtbevölkerung, auf regionaler Ebene
+R05_1	Teilnahmequote von 4-jährigen an Ausbildung, auf regionaler Ebene
+R05_2	Personen in Ausbildung im Sekundarbereich II sowie im postsekundären, nichttertiären Bereich (ISCED 3-4), in % der Bevölkerung im Alter von 15-24 Jahren, auf regionaler Ebene
+R05_3	Schüler im Primär- und Sekundarbereich (ISCED 1-2), in % der Gesamtbevölkerung, auf regionaler Ebene
+S01_1	Weibliche Direktoren der ISCED-Stufen 1-3 - in % der Gesamtzahl der Direktoren (ISCED 1-3)
+S01_1D	Weibliche Direktoren der ISCED-Stufen 1-3 (1 000)
+S01_2	Weibliche Direktoren der ISCED-Stufe 1 - in % der Gesamtzahl der Direktoren der ISCED-Stufe 1
+S01_2D	Weibliche Direktoren der ISCED-Stufe 1 (1 000)
+S01_3	Weibliche Direktoren der ISCED-Stufen 2-3 - in % der Gesamtzahl der Direktoren der ISCED-Stufen 2-3
+S01_3D	Weibliche Direktoren der ISCED-Stufen 2-3 (1 000)
+S01_4	Weibliche Direktoren der ISCED-Stufe 2 - in % der Gesamtzahl der Direktoren der ISCED-Stufe 2
+S01_4D	Weibliche Direktoren der ISCED-Stufe 2 (1 000)
+S01_5	Weibliche Direktoren der ISCED-Stufe 3 - in % der Gesamtzahl der Direktoren der ISCED-Stufe 3
+S01_5D	Weibliche Direktoren der ISCED-Stufe 3 (1 000)
+S02_1	Lehrer der ISCED-Stufen 1-3, die Voll- und Teilzeit arbeiten - in % der Gesamterwerbsbevölkerung
+S02_1D	Lehrer der ISCED-Stufen 1-3, die Voll- und Teilzeit arbeiten (1 000)
+S03_1	Lehrer der Primarstufe (ISCED 1), die Teilzeit arbeiten - in % aller Lehrer der ISCED-Stufe 1, die Voll- und Teilzeit arbeiten
+S03_1D	Lehrer der Primarstufe (ISCED 1), die Teilzeit arbeiten (1 000)
+S03_2	Lehrer der Sekundarstufe I (ISCED 2), die Teilzeit arbeiten - in % aller Lehrer der ISCED-Stufe 2, die Voll- und Teilzeit arbeiten
+S03_2D	Lehrer der Sekundarstufe I (ISCED 2), die Teilzeit arbeiten (1 000)
+S03_3	Lehrer der Sekundarstufe II (ISCED 3), die Teilzeit arbeiten - in % aller Lehrer der ISCED-Stufe 3, die Voll- und Teilzeit arbeiten
+S03_3D	Lehrer der Sekundarstufe II (ISCED 3), die Teilzeit arbeiten (1 000)
+S04_1	Lehrer unter 30 Jahren im öffentlichen und privaten Schuldienst der ISCED-Stufe 1 - in % aller Lehrer der ISCED-Stufe 1
+S04_1D	Lehrer unter 30 Jahren im öffentlichen und privaten Schuldienst der ISCED-Stufe 1 (1 000)
+S04_2	Lehrer im Alter von 30-39 Jahren im öffentlichen und privaten Schuldienst der ISCED-Stufe 1 - in % aller Lehrer der ISCED-Stufe 1
+S04_2D	Lehrer im Alter von 30-39 Jahren im öffentlichen und privaten Schuldienst der ISCED-Stufe 1 (1 000)
+S04_3	Lehrer im Alter von 40-49 Jahren im öffentlichen und privaten Schuldienst der ISCED-Stufe 1 - in % aller Lehrer der ISCED-Stufe 1
+S04_3D	Lehrer im Alter von 40-49 Jahren im öffentlichen und privaten Schuldienst der ISCED-Stufe 1 (1 000)
+S04_4	Lehrer über 50 Jahren im öffentlichen und privaten Schuldienst der ISCED-Stufe 1 - in % aller Lehrer der ISCED-Stufe 1
+S04_4D	Lehrer über 50 Jahren im öffentlichen und privaten Schuldienst der ISCED-Stufe 1 (1 000)
+S05_1	Lehrer unter 30 Jahren im öffentlichen und privaten Schuldienst der ISCED-Stufen 2-3 - in % aller Lehrer der ISCED-Stufen 2-3
+S05_1D	Lehrer unter 30 Jahren im öffentlichen und privaten Schuldienst der ISCED-Stufen 2-3 (1 000)
+S05_2	Lehrer im Alter von 30-39 Jahren im öffentlichen und privaten Schuldienst der ISCED-Stufen 2-3 - in % aller Lehrer der ISCED-Stufen 2-3
+S05_2D	Lehrer im Alter von 30-39 Jahren im öffentlichen und privaten Schuldienst der ISCED-Stufen 2-3 (1 000)
+S05_3	Lehrer im Alter von 40-49 Jahren im öffentlichen und privaten Schuldienst der ISCED-Stufen 2-3 - in % aller Lehrer der ISCED-Stufen 2-3
+S05_3D	Lehrer im Alter von 40-49 Jahren im öffentlichen und privaten Schuldienst der ISCED-Stufen 2-3 (1 000)
+S05_4	Lehrer über 50 Jahren im öffentlichen und privaten Schuldienst der ISCED-Stufen 2-3 - in % aller Lehrer der ISCED-Stufen 2-3
+S05_4D	Lehrer über 50 Jahren im öffentlichen und privaten Schuldienst der ISCED-Stufen 2-3 (1 000)
+S06_1	Weibliche Lehrer der ISCED-Stufen 1-3 - in % aller Lehrer der ISCED-Stufen 1-3
+S06_1D	Weibliche Lehrer der ISCED-Stufen 1-3 (1 000)
+S06_2	Weibliche Lehrer der ISCED-Stufe 1 - in % aller Lehrer der ISCED-Stufe 1
+S06_2D	Weibliche Lehrer der ISCED-Stufe 1 (1 000)
+S06_3	Weibliche Lehrer der ISCED-Stufe 2 - in % aller Lehrer der ISCED-Stufe 2
+S06_3D	Weibliche Lehrer der ISCED-Stufe 2 (1 000)
+S06_4	Weibliche Lehrer der ISCED-Stufe 3 - in % aller Lehrer der ISCED-Stufe 3
+S06_4D	Weibliche Lehrer der ISCED-Stufe 3 (1 000)
+S07_1	Wissenschaftliches Personal unter 30 Jahren in öffentliche und private Hochschulen der ISCED-Stufen 5-6 - in % alles wissenschaftliches Personal der ISCED-Stufen 5-6
+S07_2	Wissenschaftliches Personal im Alter von 30-39 Jahren in öffentliche und private Hochschulen der ISCED-Stufen 5-6 - in % alles wissenschaftliches Personal der ISCED-Stufe 5-6
+S07_3	Wissenschaftliches Personal im Alter von 40-49 Jahren in öffentliche und private Hochschulen der ISCED-Stufen 5-6 - in % alles wissenschaftliches Personal der ISCED-Stufe 5-6
+S07_4	Wissenschaftliches Personal über 50 Jahren in öffentliche und private Hochschulen der ISCED-Stufen 5-6 - in % alles wissenschaftliches Personal der ISCED-Stufe 5-6
+S08_1	Weibliches wissenschaftliches Personal der ISCED-Stufen 5-6 - in % alles wissenschaftliches Personal der ISCED-Stufen 5-6
+ST1_1	Verhältnis zwischen Studenten und Lehrer (ISCED 1-3)
+ST1_2	Verhältnis zwischen Studenten und Lehrer (ISCED 1)
+ST1_3	Verhältnis zwischen Studenten und Lehrer (ISCED 2)
+ST1_4	Verhältnis zwischen Studenten und Lehrer (ISCED 3)
+ST2_1	Durchschnittliche Klassengröße der ISCED-Stufe 1
+ST2_2	Durchschnittliche Klassengröße der ISCED-Stufe 2
+TC01_1	Frauen mit Hochschulabschluß der ISCED-Stufen 5-6 pro 100 Männer
+TC01_1D	Frauen mit Hochschulabschluß der ISCED-Stufen 5-6 pro 100 Männer (1 000)
+TC02_1	Absolventen (ISCED 5-6) im Aus- und Weiterbildungsbereich - in % aller Bereichen
+TC02_1D	Absolventen (ISCED 5-6) in Unterricht und Ausbildung(1 000)
+TC02_2	Absolventen (ISCED 5-6) in Geisteswissenschaften und Kunst - in % aller Bereiche
+TC02_2D	Absolventen (ISCED 5-6) in Geisteswissenschaften und Kunst (1 000)
+TC02_3	Absolventen (ISCED 5-6) in Sozial-, Rechts- und Wirtschaftswissenschaften - in % aller Fächer
+TC02_3D	Absolventen (ISCED 5-6) in Sozial-, Rechts- und Wirtschaftswissenschaften (1 000)
+TC02_4	Absolventen (ISCED 5-6) in Wissenschaft, Mathematik und Informatik in % aller Bereiche
+TC02_4D	Absolventen (ISCED 5-6) in Wissenschaft, Mathematik und Informatik (1 000)
+TC02_5	Absolventen (ISCED 5-6) in Ingenieurwesen, Herstellung und Aufbau - in % aller Bereiche
+TC02_5D	Absolventen (ISCED 5-6) in Ingenieurwesen, Herstellung und Aufbau (1 000)
+TC02_6	Absolventen (ISCED 5-6) in Landwirtschaft und veterinärmedizinischem Bereich- in % aller Bereiche
+TC02_6D	Absolventen (ISCED 5-6) in Landwirtschaft und veterinärmedizinischem Bereich (1 000)
+TC02_7	Absolventen (ISCED 5-6) in Gesundheit und Sozialleistungen - in % aller Bereiche
+TC02_7D	Absolventen (ISCED 5-6) in Gesundheit und Sozialleistungen (1 000)
+TC02_8	Absolventen (ISCED 5-6) im Dienstleistungsbereich - in % aller Bereiche
+TC02_8D	Absolventen (ISCED 5-6) im Dienstleistungsbereich (1 000)
+TC02_9	Absolventen (ISCED 5-6) im unbekannten Bereich - in % der gesamten Absolventen die in alle Bereiche bekannt sind (100%)
+TC02_9D	Absolventen (ISCED 5-6) im unbekannten Bereich (1 000)
+TC02_10	Absolventen (ISCED 5-6) in Mathematik, Wissenschaft und Technologie pro 1 000 der Bevölkerung im Alter von 20-29 Jahren, seit 1993
+TC02_10D	Absolventen (ISCED 5-6) in Mathematik, Wissenschaft und Technologie (1 000)
+TC02_11D	Absolventen insgesamt in allen Bildungsbereichen (ISCED 5-6) (1 000)
+TC02_12	Absolventen (ISCED 5-6) in den Mathematik-, Wissenschaft- und Technikbereichen - - in % aller Bereichen
+TC03_1	Weibliche Absolventen (ISCED 5-6) im Aus- und Weiterbildungsbereich - in % aller weiblichen und männlichen Absolventen
+TC03_1D	Weibliche Absolventen (ISCED 5-6) im Aus- und Weiterbildungsbereich (1 000)
+TC03_2	Weibliche Absolventen (ISCED 5-6) in Geisteswissenschaften und Kunst - in % aller weiblichen und männlichen Absolventen
+TC03_2D	Weibliche Absolventen (ISCED 5-6) in Geisteswissenschaften und Kunst (1 000)
+TC03_3	Weibliche Absolventen (ISCED 5-6) in Sozial-, Rechts- und Wirtschaftswissenschaften - in % aller weiblichen und männlichen Absolventen
+TC03_3D	Weibliche Absolventen (ISCED 5-6) in Sozial-, Rechts- und Wirtschaftswissenschaften (1 000)
+TC03_4	Weibliche Absolventen (ISCED 5-6) in Wissenschaft, Mathematik und Informatik - in % aller weiblichen und männlichen Absolventen
+TC03_4D	Weibliche Absolventen (ISCED 5-6) in Wissenschaft, Mathematik und Informatik (1 000)
+TC03_5	Absolventen (ISCED 5-6) in Ingenieurwesen, Herstellung und Aufbau - in % aller weiblichen und männlichen Absolventen
+TC03_5D	Absolventen (ISCED 5-6) in Ingenieurwesen, Herstellung und Aufbau (1 000)
+TC03_6	Weibliche Absolventen (ISCED 5-6) in Landwirtschaft und veterinärmedizinischem Bereich - in % aller weiblichen und männlichen Absolventen
+TC03_6D	Weibliche Absolventen (ISCED 5-6) in Landwirtschaft und veterinärmedizinischem Bereich (1 000)
+TC03_7	Weibliche Absolventen (ISCED 5-6) in Gesundheit und Sozialleistungen - in % aller weiblichen und männlichen Absolventen
+TC03_7D	Weibliche Absolventen (ISCED 5-6) in Gesundheit und Sozialleistungen - (1 000)
+TC03_8	Weibliche Absolventen (ISCED 5-6) im Dienstleistungsbereich - in % aller weiblichen und männlichen Absolventen
+TC03_8D	Weibliche Absolventen (ISCED 5-6) im Dienstleistungsbereich (1 000)
+TC03_9	Weibliche Absolventen (ISCED 5-6) in Mathematik, Wissenschaft und Technologie pro 1 000 der weiblichen Bevölkerung im Alter von 20-29 Jahren, seit 1993
+TC03_9D	Weibliche Absolventen (ISCED 5-6) in Mathematik, Wissenschaft und Technologie (1 000)
+TC03_10	Männliche Absolventen (ISCED 5-6) in Mathematik, Wissenschaft und Technologie pro 1 000 der männlichen Bevölkerung im Alter von 20-29 Jahren, seit 1993
+TC03_10D	Männliche Absolventen (ISCED 5-6) in Mathematik, Wissenschaft und Technologie (1 000)
+TC03_11	Weibliche Absolventen (ISCED 5-6) in den Mathematik-, Wissenschaft- und Technikbereichen - - in % der gesamten weiblichen Absolventen aller Bildungsbereichen
+TC03_12	Männliche Absolventen (ISCED 5-6) in den Mathematik-, Wissenschaft- und Technikbereichen - - in % der gesamten männlichen Absolventen aller Bildungsbereiche
+TC03_13	Absolventinnen (ISCED 5-6) eines unbekannten Fachbereiches - in % der Absolventen und Absolventinnen dieses Fachbereiches
+TC03_13D	Gesamtzahl der weiblichen Absolventen aller Bildungsbereiche (ISCED 5-6) (1 000)
+TC03_14D	Gesamtzahl der männlichen Absolventen aller Bildungsbereiche (ISCED 5-6) (1 000)
+TC04_1	Gesamtzahl der Absolventen (ISCED 5-6) pro 1 000 der Bevölkerung im Alter von 20-29 Jahren
+TC05_1	Absolventen (ISCED 5-6) im Alter von 20-29 Jahren pro 1 000 der Bevölkerung im entsprechenden Alter
+TC06_1	Absolventen (ISCED 5-6) im Alter von 30 Jahren und mehr ) in % aller Absolventen
+TC07_1	Absolventen (ISCED 6) pro 1 000 der Bevölkerung im Alter von 25 bis 34 Jahren
+TC07_1D	Absolventen (ISCED 6) (1 000)
+TC07_2	Absolventinnen (ISCED 6) pro 1 000 der weiblichen Bevölkerung im Alter von 25 bis 34 Jahren
+TC07_2D	Absolventinnen (ISCED 6) (1 000)
+TC07_3	Männliche Absolventen (ISCED 6) pro 1 000 der männlichen Bevölkerung im Alter von 25 bis 34 Jahren
+TC07_3D	Absolventen (ISCED 6) (1 000)
+TC08_1	Absolventen (ISCED 6) im Alter von 25 bis 34 Jahren pro 1 000 der Bevölkerung im entsprenden Alter
+TC08_2	Absolventinnen (ISCED 6) im Alter von 25 bis 34 Jahren pro 1 000 der Bevölkerung im entsprenden Alter
+TC08_3	Männliche Absolventen (ISCED 6) im Alter von 25 bis 34 Jahren pro 1 000 der Bevölkerung im entsprenden Alter
+TC09_1	Absolventen (ISCED 6) der Fachbereiche Wissenschaft, Mathematik, Computing, Maschinenbau, Verarbeitungsindustrie und Bau - in % der Absolventen der ISCED-Stufe 6 insgesamt
+TC09_1D	Absolventen (ISCED 6) der Fachbereiche Wissenschaft, Mathematik, Computing, Maschinenbau, Verarbeitungsindustrie und Bau
+TC09_2	Absolventinnen (ISCED 6) der Fachbereiche Wissenschaft, Mathematik, Computing, Maschinenbau, Verarbeitungsindustrie und Bau - in % der Absolventinnen der ISCED-Stufe 6 insgesamt
+TC09_2D	Absolventinnen (ISCED 6) der Fachbereiche Wissenschaft, Mathematik, Computing, Maschinenbau, Verarbeitungsindustrie und Bau
+TC09_3	Männliche Absolventen (ISCED 6) der Fachbereiche Wissenschaft, Mathematik, Computing, Maschinenbau, Verarbeitungsindustrie und Bau - in % der männlichen Absolventen der ISCED-Stufe 6 insgesamt
+TC09_3D	Männliche Absolventen (ISCED 6) der Fachbereiche Wissenschaft, Mathematik, Computing, Maschinenbau, Verarbeitungsindustrie und Bau
+TC09_4	Absolventen (ISCED 6) der Fachbereiche Wissenschaft, Mathematik, Computing, Maschinenbau, Verarbeitungsindustrie und Bau pro 1 000 der Bevölkerung im Alter von 25 bis 34 Jahren
+TC09_5	Absolventinnen (ISCED 6) der Fachbereiche Wissenschaft, Mathematik, Computing, Maschinenbau, Verarbeitungsindustrie und Bau pro 1 000 der weiblichen Bevölkerung im Alter von 25 bis 34 Jahren
+TC09_6	Männliche Absolventen (ISCED 6) der Fachbereiche Wissenschaft, Mathematik, Computing, Maschinenbau, Verarbeitungsindustrie und Bau pro 1 000 der männlichen Bevölkerung im Alter von 25 bis 34 Jahren
+TP01_1D	Trends der Studentenzahl (ISCED 5-6) (1 000)
+TP01_2	Frauen unter den Studenten der ISCED-Stufe 5-6 - in % aller Studenten dieser Stufe
+TP01_3	Weibliche Studenten pro 100 männliche Studenten im Tertiärbildungsbereich (ISCED 5-6)
+TP02_1	Studenten der ISCED-Stufen 5-6, die in folgenden Fachrichtungen eingeschrieben sind: Wissenschaft, Mathematik, Informatik, Ingenieurwesen, Herstellung und Aufbau - in % aller Studenten
+TP02_1D	Studenten der ISCED-Stufen 5-6, die in folgenden Fachrichtungen eingeschrieben sind: Wissenschaft, Mathematik, Informatik, Ingenieurwesen, Herstellung und Aufbau (1 000)
+TP02_2	Weibliche Studenten der ISCED-Stufen 5-6, die in den folgenden Bereichen eingeschrieben sind: Wissenschaft, Mathematik und Informatik; Ingenieurwesen, verarbeitendes Gewerbe und Bauwesen - in % aller weiblichen Studenten
+TP02_3	Männliche Studenten der ISCED-Stufen 5-6, die in den folgenden Bereichen eingeschrieben sind: Wissenschaft, Mathematik und Informatik; Ingenieurwesen, verarbeitendes Gewerbe und Bauwesen - in % aller männlichen Studenten
+TP03_1	Weibliche Studenten (ISCED 5-6), die im Bildungsbereich eingeschrieben sind - in % der männlichen und weiblichen Studenten in diesem Bereich
+TP03_1D	Weibliche Studenten (ISCED 5-6) immatrikuliert im Ausbildungsbereich (1 000)
+TP03_2	Weibliche Studenten (ISCED 5-6), die in Geisteswissenschaften und Kunst eingeschrieben sind - in % der männlichen und weiblichen Studenten in diesen Bereichen
+TP03_2D	Weibliche Studenten (ISCED 5-6) immatrikuliert in Geisteswissenschaften und Kunst (1 000)
+TP03_3	Weibliche Studenten (ISCED 5-6), die in Sozial-, Rechts- und Wirtschaftswissenschaften eingeschrieben sind - in % der männlichen und weiblichen Studenten in diesen Bereichen
+TP03_3D	Weibliche Studenten (ISCED 5-6) immatrikuliert in Sozial-, Rechts- und Wirtschaftswissenschaften (1 000)
+TP03_4	Weibliche Studenten (ISCED 5-6), die in Wissenschaft, Mathematik und Informatik eingeschrieben sind - in % der männlichen und weiblichen Studenten in diesen Bereichen
+TP03_4D	Weibliche Studenten (ISCED 5-6) immatrikuliert in Wissenschaft, Mathematik und Informatik (1 000)
+TP03_5	Weibliche Studenten (ISCED 5-6), die in Ingenieurwesen, Herstellung und Aufbau eingeschrieben sind - in % der männlichen und weiblichen Studenten in diesen Bereichen
+TP03_5D	Weibliche Studenten (ISCED 5-6) immatrikuliert in Ingenieurwesen, Herstellung und Aufbau (1 000)
+TP03_6	Weibliche Studenten (ISCED 5-6), die in Landwirtschaft und im veterinärmedizinischem Bereich eingeschrieben sind - in % der männlichen und weiblichen Studenten in diesen Bereichen
+TP03_6D	Weibliche Studenten (ISCED 5-6) immatrikuliert in Landwirtschaft und veterinärmedizinischem Bereich (1 000)
+TP03_7	Weibliche Studenten (ISCED 5-6), die in Gesundheit und Sozialleistungen eingeschrieben sind - in % der männlichen und weiblichen Studenten in diesen Bereichen
+TP03_7D	Weibliche Studenten (ISCED 5-6) immatrikuliert in Gesundheit und Sozialleistungen (1 000)
+TP03_8	Weibliche Studenten (ISCED 5-6), die im Dienstleistungsbereich eingeschrieben sind - in % der männlichen und weiblichen Studenten in diesem Bereich
+TP03_8D	Weibliche Studenten (ISCED 5-6) immatrikuliert im Dienstleistungsbereich (1 000)
+TP03_9	Weibliche Studenten (ISCED 5-6), die in einem unbekannten Bereich eingeschrieben sind - in % der männlichen und weiblichen Studenten dieses Bereiches
+TP03_11	Studenten (ISCED-Stufen 5-6), die im Bildungsbereich eingeschrieben sind - in % der gesamten Studenten
+TP03_12	Studenten (ISCED-Stufen 5-6), die in Geisteswissenschaften und Kunst eingeschrieben sind - in % der gesamten Studenten
+TP03_13	Studenten (ISCED-Stufen 5-6), die in Sozial-, Rechts- und Wirtschaftswissenschaften eingeschrieben sind
+TP03_14	Studenten (ISCED-Stufen 5-6), die in Wissenschaft, Mathematik und Computing eingeschrieben sind - in % der gesamten Studenten
+TP03_15	Studenten (ISCED-Stufen 5-6), die in Maschinenbau, Verarbeitungsindustrie und Bau eingeschrieben sind - in % der gesamten Studenten
+TP03_16	Studenten (ISCED-Stufen 5-6), die in Ackerbau und Vetrinärmedizin eingeschrieben sind - in % der gesamten Studenten
+TP03_17	Studenten (ISCED-Stufen 5-6), die im Bereich der Gesundheit und der Sozialleistungen eingeschrieben sind - in % der gesamten Studenten
+TP03_18	Studenten (ISCED-Stufen 5-6), die im Bereich der Dienstleistungen eingeschrieben sind - in % der gesamten Studenten
+TP03_19	Studenten (ISCED-Stufen 5-6), die in einem unbekannten Bereich eingeschrieben sind - in % der gesamten Studenten
+TP04_1	Studenten (ISCED 5-6), die in andere EU-27 Staaten studieren - in % aller Studenten
+TP04_1D	Studenten (ISCED 5-6), die andere EU-27 Staaten studieren (1 000)
+TP04_2	Studenten (ISCED 5-6), die in andere EU-27-, bzw. EWR-Staaten studieren - in % aller Studenten
+TP04_2D	Studenten (ISCED 5-6), die in andere EU-27-, bzw. EWR-Staaten studieren (1 000)
+TP05_1	Studenten (ISCED 5-6), die in andere EU-27-, EWR-, Beitrittländern studieren - in % aller Studenten
+TP05_1D	Studenten (ISCED 5-6), die in andere EU-27-, EWR-, Beitrittländern studieren (1 000)
+TP05_2D	Studenten (ISCED 5-6), die in ihrem Land oder in andere EU-27/EWR/Beitrittländern studieren (1 000)
+TP05_3	Ausländische Studierende aus den EU-27/EWR/Beitrittländern, Tertiärbildungsbereich (ISCED 5-6) - in % aller Studenten
+TP05_3D	Ausländische Studierende aus den EU-27/EWR/Beitrittländern, Tertiärbildungsbereich (ISCED 5-6) (1 000)
+TP06_1	Medianalter im Tertiärbildungsbereich (ISCED 5-6)
+TP06_2	Zentil von 15-Jährigen im Tertiärbereich (ISCED 5-6)
+TP06_3	Zentil von 85-Jährigen im Tertiärbereich (ISCED 5-6)
+TP07_1	Studienanfänger im theoretischen Studienanfangsalter der ISCED-Stufe 5 in % aller Personen in der entsprechenden Altersgruppe
+TP07_2	Studienanfänger im theoretischen Studienanfangsalter der ISCED-Stufe 5 in % aller Studienanfänger der ISCED-Stufe 5
+ENTRY_RT	Nettozugangsrate
+GRAD_RT	Bruttoabsolventenrate
+COMPL_I5A5B	Erfolgreicher Abschluss eines 5A- oder 5B-Programms
+COMPL_GEI5A	Abschluss von mindestens einem ersten 5A-Programm
+COMPL_I5B	kein Abschluss eines 5A-Programms jedoch erfolgreiche Umorientierung zu einem 5B-Programm

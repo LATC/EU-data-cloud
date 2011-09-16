@@ -1,0 +1,13 @@
+TOTAL	Total
+TO_FT	Transition vers un emploi à temps complet
+TO_PT	Transition vers un emploi à temps partiel
+TO_UNE	Transition vers le chômage
+TO_INAC	Transition vers l'inactivité
+TO_PERM	Transition vers salarié avec un emploi permanent
+TO_TEMP	Transition vers salarié avec un emploi temporaire
+TO_1UP	Transition vers le décile de revenu supérieur
+TO_GT1UP	Transition au-delà du décile de revenu supérieur
+TO_1DW	Transition vers le décile de revenu inférieur
+TO_GT1DW	Transition en-deçà du décile de revenu inférieur
+TO_NONE	Transition vers aucun revenu
+NO_CHG	Pas de changement

@@ -1,0 +1,9 @@
+TOTAL	Insgesamt
+DSM	Täglicher Raucher
+NSM	Nichtraucher
+NVSM	Nie geraucht
+DSM_GE20	Täglicher Zigaretteraucher, 20 oder mehr pro Tag
+DSM_LT20	Täglicher Zigaretteraucher, Weniger als 20 pro Tag
+OCSM	Gelegentlicher Raucher
+EX_DSM	Ehemaliger täglicher Raucher
+EX_OCSM	Ehemaliger gelegentlicher Raucher

@@ -1,0 +1,37 @@
+GEN_PRAC	Allgemeinmedizin
+GEN_PAED	Kinderheilkunde 
+GYN	Gyn‰kologie und Geburtshilfe
+PSY	Psychiatrie
+MED	Medizinische Fachgruppen
+MED_INT	Innere Medizin
+MED_CAR	Kardiologie
+MED_END	Endokrinologie
+MED_GAS	Gastroenterologie
+MED_RES	Pneumologie
+MED_ONC	Onkologie
+MED_IMM	Immunologie
+MED_NEU	Neurologie
+MED_ORL	Hals-, Nasen- und Ohrenheilkunde
+MED_RAD	Radiologie
+MED_MIC	Mikrobiologie-Bakteriologie  
+MED_HAE	H‰matologie
+MED_DER	Dermatologie
+MED_PAT	Pathologie
+SURG	Chirurgische Fachgruppen
+SURG_GEN	Allgemeine Chirurgie
+SURG_NEU	Neurologische Chirurgie
+SURG_PLA	Plastische Chirurgie
+SURG_OPH	Augenheilkunde
+SURG_ORT	Orthop‰die
+SURG_THO	Thorax Chirurgie
+SURG_VAS	Gef‰ﬂchirurgie
+SURG_ANE	An‰sthesiologie und Intensivpflege
+SURG_URO	Urologie
+SURG_EME	Unfall- und Notfallmedizin
+OTH	Anderen Fachgruppen
+OTH_OCC	Arbeitsmedizin
+OTH_NSP	Anderen Fachgruppen nicht anderswo erw‰hnt 
+SURG_INF	Kinderchirurgie
+RHEUMA	Rheumatologie
+PAED	Kinderheilkunde
+CH_PSY	Kinderpsychiatrie

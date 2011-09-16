@@ -1,0 +1,158 @@
+POP	Population
+JAN	Population on 1 January - total 
+MJAN	Population on 1 January - males
+FJAN	Population on 1 January - females
+DEC	Population on 31 December
+AVG	Average population - total
+MAVG	Average population - males
+FAVG	Average population - females
+ADJM	Statistical adjustment - males
+ADJF	Statistical adjustment - females
+ADJT	Statistical adjustment - total
+URB_POP	Urban population
+BIRTH	Births
+LBIRTH	Live births - total
+MLBIRTH	Live births - males
+FLBIRTH	Live births - females
+LBIRTHOUT	Births outside marriage
+DEATH	Deaths - total
+MDEATH	Deaths - males
+FDEATH	Deaths - females
+DEATHUN5	Under 5 mortality rate (per 1000 live birth)
+DEATHUN1	Deaths under 1 year of age
+NATGROW	Natural change of population
+NMIGRAT	Net migration - total
+CNMIGRAT	Net migration plus statistical adjustment
+INTL_MIG	International migration
+INTRG_MIG	Interregional migration
+GROW	Total population change
+GBIRTHRT	Crude birth rate
+GDEATHRT	Crude death rate
+NATGROWRT	Crude rate of natural change of population
+NMIGRATRT	Crude rate of net migration
+CNMIGRATRT	Crude rate of net migration plus statistical adjustment
+MNMIGRAT	Net migration - males
+FNMIGRAT	Net migration - females
+MNMIGRIN	Immigrants - males
+FNMIGRIN	Immigrants - females
+NMIGRIN	Total immigrants
+MNMIGROUT	Emigrants - males
+FNMIGROUT	Emigrants - females
+NMIGROUT	Total emigrants
+GROWRT	Crude rate of total population change
+GROWRT_5	Crude rate of total population change over 5 years
+MAR	In marriage
+NMAR	Outside marriage
+UNKMAR	Unknown marital status
+GBIRTHRTNMAR	Crude birth rate outside marriage
+NMARPCT	Proportion of live births outside marriage
+TOTFERRT	Total fertility rate
+COMPLETFER	Completed fertility
+GREPRT	Gross reproduction rate
+NREPRT	Net reproduction rate
+AGEMOTH	Mean age of women at childbirth
+AGEMOTH1	Mean age of women at birth of first child
+AGEMOTH2	Mean age of women at birth of second child
+AGEMOTH3	Mean age of women at birth of third child
+AGEMOTH4	Mean age of women at birth of fourth child
+AGEMOTH4_MAX	Mean age of women at birth of child of parity 4 or over
+FCH0PCT	Proportion of childless women
+FCH1PCT	Proportion of women with one child
+FCH2PCT	Proportion of women with two children
+FCH3PCT	Proportion of women with three children
+FCH4PCT	Proportion of women with four children
+FCH4_MAXPCT	Proportion of women with four children or over
+LBIRTHR1PC	Percentage first order live births
+LBIRTHR2PC	Percentage second order live births
+LBIRTHR3PC	Percentage third order live births
+LBIRTHR4_MAXPC	Percentage fourth and higher order live births
+ABORT	Abortions
+INFMOR	Infant mortality
+NEOMOR	Neonatal mortality
+ENEOMOR	Early neonatal mortality
+STILLBIRTH	Still births
+INFMORRT	Infant mortality rate
+NEOMORRT	Neonatal mortality rate
+ENEOMORRT	Early neonatal mortality rate
+LFOEMORRT	Late foetal mortality rate
+PERIMORRT	Perinatal mortality rate
+LEXPEC	Life expectancy at birth
+MLEXPEC	Life expectancy at birth - males
+FLEXPEC	Life expectancy at birth - females
+LEXPEC_Y65	Life expectancy at the age of 65
+MARRIAGE	Marriages
+GNUPRT	Crude marriage rate
+MMARSIN	First marriages - males
+FMARSIN	First marriages - females
+MMAR1PC	Percentage of first marriages - males
+FMAR1PC	Percentage of first marriages - females
+MMAR1CUM	Total first marriage rate - males
+FMAR1CUM	Total first marriage rate - females
+MMARRT	Proportion of ever-married males by generation
+FMARRT	Proportion of ever-married females by generation
+AGEMAR1	Mean age at first marriage
+MAGEMAR1	Mean age at first marriage - males
+FAGEMAR1	Mean age at first marriage - females
+MAGEMAR	Mean age at marriage - males
+FAGEMAR	Mean age at marriage - females
+DIV	Divorces
+DIVMARPCT	Divorces per 100 marriages
+GDIVRT	Crude divorce rate
+MARDIVRT	Divorce rate of married persons
+TOTDIVRT	Total divorce rate
+COMPLETDIV	Proportion of marriages dissolved by divorce by cohort
+DURMAR	Mean duration of marriage at divorce
+MEDDURMAR	Median duration of marriage at divorce
+DEATHRATE	Age specific death rate (Mx) 
+PROBDEATH	Probability of dying between exact ages (qx)
+PROBSURV	Probability of surviving between exact ages (px)
+SURVIVORS	Number left alive at given exact age (lx)
+NUMBERDYING	Number dying between exact ages (dx)
+PYLIVED	Person-years lived between exact age (Lx)
+TOTPYLIVED	Total person-years lived above given exact age (Tx)
+LIFEXP	Life expectancy at given exact age (ex)
+AREA	Area
+DENSITY	Density of population
+POPSHARE	Population as a percentage of EU-27 population
+AGEPOP	Mean age of population
+MEDAGEPOP	Median age of population
+PC_Y0_4	Proportion of population aged 0-4 years
+PC_Y0_14	Proportion of population aged 0-14 years
+PC_Y0_19	Proportion of population aged 0-19 years
+PC_Y5_9	Proportion of population aged 5-9 years
+PC_Y10_14	Proportion of population aged 10-14 years
+PC_Y15_19	Proportion of population aged 15-19 years
+PC_Y15_24	Proportion of population aged 15-24 years
+PC_Y20_24	Proportion of population aged 20-24 years
+PC_Y20_39	Proportion of population aged 20-39 years
+PC_Y25_44	Proportion of population aged 25-44 years
+PC_Y25_29	Proportion of population aged 25-29 years
+PC_Y25_49	Proportion of population aged 25-49 years
+PC_Y30_34	Proportion of population aged 30-34 years
+PC_Y35_39	Proportion of population aged 35-39 years
+PC_Y40_44	Proportion of population aged 40-44 years
+PC_Y40_59	Proportion of population aged 40-59 years
+PC_Y45_49	Proportion of population aged 45-49 years
+PC_Y45_64	Proportion of population aged 45-64 years
+PC_Y50_54	Proportion of population aged 50-54 years
+PC_Y50_64	Proportion of population aged 50-64 years
+PC_Y55_59	Proportion of population aged 55-59 years
+PC_Y60_64	Proportion of population aged 60-64 years
+PC_Y60_79	Proportion of population aged 60-79 years
+PC_Y60_MAX	Proportion of population aged 60 years and more
+PC_Y65_69	Proportion of population aged 65-69 years
+PC_Y65_79	Proportion of population aged 65-79 years
+PC_Y65_MAX	Proportion of population aged 65 years and more
+PC_Y70_74	Proportion of population aged 70-74 years
+PC_Y75_79	Proportion of population aged 75-79 years
+PC_Y80_84	Proportion of population aged 80-84 years
+PC_Y80_MAX	Proportion of population aged 80 years and more
+PC_Y85_MAX	Proportion of population aged 85 years and more
+PC_FM	Women per 100 men
+DEPRATIO1	Age dependency ratio, 1st variant (Population aged 0-14 and 65 and more to pop. aged 15-64)
+DEPRATIO2	Age dependency ratio, 2nd variant (Population aged 0-19 and 60 and more to pop. aged 20-59)
+YOUNGDEP1	Young-age dependency ratio 1st variant (population aged 0-14 to population 15-64 years)
+YOUNGDEP2	Young-age dependency ratio 2nd variant (population aged 0-19 to population 20-59 years)
+OLDDEP1	Old dependency ratio 1st variant (population 65 and over to population 15 to64 years)
+OLDDEP2	Old dependency ratio 2nd variant (population 60 and over to population 20 to 59 years)
+UNK	Unknown

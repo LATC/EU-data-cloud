@@ -1,0 +1,10 @@
+PL_1	Nombre de stations d'épuration
+PL_2	Capacité BDO théorique (1 000 kg O2/jour)
+PL_3	Concentration BDO réelle (1 000 kg O2/jour)
+PL_4	Effluent BDO (1 000 kg O2/jour)
+PL_5	Capacité théorique vol. (34) (1 000 m3/d)
+PL_6	Occupation réelle vol. (1 000 m3/d)
+PL_7	Effluents vol. (1 000 m3/d)
+PL_8	Capacité théorique hab. (34) (1 000 I.E.)
+PL_9	Occupation réelle hab. (1 000 I.E.)
+PL_10	Effluents hab. (1 000 I.E.)

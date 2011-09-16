@@ -1,0 +1,651 @@
+TOTAL	Total
+TOTNCO	Dette non consolidée totale
+TOTIG	Dette intragouvernementale totale
+B1GM	Produit intérieur brut aux prix du marché
+B1GMNOT	Produit intérieur brut aux prix du marché - notifié dans le cadre de la procédure déficit et dette
+TGL	Gains ou pertes commerciaux
+GDI	Revenu intérieur brut
+GDI_RL	Revenu réel intérieur brut
+D1_D4	Revenus primaires
+D1_D4_S2	Solde des revenus primaires avec le reste du monde
+D1_D4PAY_S2	Revenus primaires, à payer au reste du monde
+D1_D4REC_S2	Revenus primaires, à recevoir du reste du monde
+D1_D4PAY_S2_RL	Revenus primaires réels, à payer au reste du monde
+D1_D4REC_S2_RL	Revenus primaires réels, à recevoir du reste du monde
+B5	Solde des revenus primaires / Revenu national
+B5G	Revenu national brut/Solde des revenus primaires
+B5GM	Revenu national brut aux prix du marché
+B5GM_RL	Revenu national brut réel aux prix du marché
+B5N	Solde net des revenus primaires/Revenu national net
+B5NM	Revenu national net aux prix du marché
+B5NM_RL	Revenu national net réel aux prix du marché
+K1	Consommation de capital fixe
+K10	Autres changements de volume d'actifs et de passifs financiers n.c.a.
+K11	Gains/pertes nominaux de détention
+K111	Gains/pertes neutres de détention
+K112	Gains/pertes réels de détention
+K117	Gains/pertes de détention non réalisés
+K1171	Modification du taux de change
+K1172	Modification sur l'évaluation du marché
+K119	Gains/pertes de détention réalisés
+K1191	Modification du taux de change
+K1192	Modification sur l'évaluation du marché
+K12	Changements de classement ou de structure
+K121	Changements de classement sectoriel ou de structure
+K122	Changements de classement d'actifs et de passifs
+K1221	Monétisation/démonétisation de l'or
+K1222	Changements de classement d'actifs et de passifs autres que la monétisation/démonétisation
+D5	Impôts courants sur le revenu et le patrimoine
+D5PAY	Impôts courants sur le revenu et le patrimoine, à payer
+D5REC	Impôts courants sur le revenu et le patrimoine, à recevoir
+D5_TO_D7_S2	Solde des transferts courants avec le reste du monde
+D5_TO_D7PAY_S2	Transferts courants, à payer au reste de monde
+D5_TO_D7PAY_S2_RL	Transferts courants réels, à payer au reste de monde
+D5_TO_D7REC_S2	Transferts courants, à recevoir du reste du monde
+D5_TO_D7REC_S2_RL	Transferts courants réels, à recevoir du reste du monde
+D51	Impôts sur le revenu
+D51A_D51C1	Impôts sur le revenu des personnes physiques ou des ménages y compris les gains de détention
+D51A	Impôts sur le revenu des personnes physiques ou des ménages
+D51B_D51C2	Impôts sur le revenu des sociétés y compris les gains de détention
+D51B	Impôts sur le revenu ou sur les bénéfices des sociétés
+D51C	Impôts sur les gains de détention
+D51C1	Impôts sur les gains de détention des personnes physiques ou des ménages
+D51C2	Impôts sur les gains de détention des sociétés
+D51C3	Autres impôts sur les gains de détention des sociétés
+D51D	Impôts sur les gains des loteries et paris
+D51E	Autres impôts sur le revenu n.c.a.
+D59	Autres impôts courants
+D59A	Impôts courants sur le capital
+D59B	Impôts de capitation
+D59C	Impôts sur la dépense
+D59D	Taxes acquittées par les ménages pour l'obtention de licences
+D59E	Impôts sur les transactions internationales
+D59F	Autres impôts courants n.c.a.
+B6	Revenu disponible
+B6N	Revenu net disponible
+B6N_NAT	Revenu national net disponible
+B6N_NAT_RL	Revenu national net réel disponible
+B6G	Revenu brut disponible
+B6G_NAT	Revenu national brut disponible
+B6G_NAT_RL	Revenu national brut réel disponible
+B6G_D8NET	Revenu disponible brut y compris l'ajustement net pour variation des droits des ménages sur les fonds de pension
+B6G_R	Revenu disponible brut des ménages en termes réels (variation en pourcentage par rapport à la période précédente)
+P1	Production
+P11	Production marchande
+P11_P12	Production marchande et production pour usage final propre
+P11_P12_P131	Production marchande, production pour usage final propre et paiements au titre de l'autre production non marchande
+P118	Marges commerciales et de transport
+P12	Production pour usage final propre
+P13	Autre production non marchande
+P131	Paiements d'autre production non marchande
+P132	Autre production non marchande, autre
+P2	Consommation intermédiaire
+P2_D29_D5_D8	Consommation intermédiaire; Autres impôts sur la production; Impôts courants sur le revenu et le patrimoine; Ajustement pour variation des droits des ménages sur les fonds de pension
+B7G	Revenu brut disponible ajusté
+B7N	Revenu disponible ajusté net
+P3	Dépense de consommation finale
+P3_P5	Demande intérieure
+P31	Dépense de consommation finale, individuelle
+P311	Dépense de consommation individuelle des biens durables
+P312	Dépense de consommation individuelle des biens non-durables
+P313	Dépense de consommation individuelle des services
+P31_S14_S15	Dépense de consommation finale des ménages et des ISBLSM
+P31_S14	Dépense de consommation finale des ménages
+P31_S15	Dépense de consommation finale des ISBLSM
+P3_S13	Dépense de consommation finale des administrations publiques
+P31_S13	Dépense de consommation finale des administrations publiques, individuelle
+P32_S13	Dépense de consommation finale des administrations publiques, collective
+P4	Consommation finale effective
+P41	Consommation individuelle effective
+P42	Consommation collective effective
+P31_S14_NAT	Dépense de consommation finale des ménages (concept national)
+P32	Dépense de consommation finale, collective
+P33	Dépense de consommation finale des ménages résidents dans le reste du monde - total
+P34	Dépense de consommation finale des ménages non-résidents sur le territoire économique - total
+P31_S14_DOM	Dépense de consommation finale des ménages (concept intérieur)
+D8	Ajustement pour variation des droits des ménages sur les fonds de pension
+D8PAY	Ajustement pour variation des droits des ménages sur les fonds de pension, à payer
+D8REC	Ajustement pour variation des droits des ménages sur les fonds de pension, à recevoir
+B8	Epargne
+B8G	Epargne brute
+B8N	Epargne nette
+B8N_B12	Epargne nette/Solde des opérations courantes avec l'extérieur
+D9	Transferts en capital
+D9CO	Transferts en capital, consolidé
+D9PAY	Transferts en capital, à payer
+D9PAY_S1311	Transferts en capital, à payer, dont à payer au sous-secteur S1311
+D9PAY_S1312	Transferts en capital, à payer, dont à payer au sous-secteur S1312
+D9PAY_S1313	Transferts en capital, à payer, dont à payer au sous-secteur S1313
+D9PAY_S1314	Transferts en capital, à payer, dont à payer au sous-secteur S1314
+D9REC	Transferts en capital, à recevoir
+D9_S2	Solde des transferts en capital avec le reste du monde
+D9PAY_S2	Transferts en capital, à payer au reste du monde
+D9REC_S2	Transferts en capital, à recevoir du reste du monde
+F_TOT	Total avoirs/engagements
+P5_K2	Formation brute de capital et acquisitions moins cessions d'actifs non financiers non produits
+P5	Formation brute de capital
+P51	Formation brute de capital fixe
+P511	Acquisitions moins cessions d'actifs fixes corporels
+P5111	Acquisitions d'actifs fixes corporels neufs
+P5112	Acquisitions d'actifs fixes corporels existants
+P5113	Cessions d'actifs fixes corporels existants
+P512	Acquisitions moins cessions d'actifs fixes incorporels
+P5121	Acquisitions d'actifs fixes incorporels neufs
+P5122	Acquisitions d'actifs fixes incorporels existants
+P5123	Cessions d'actifs fixes incorporels existants
+P513	Addition à la valeur des actifs non financiers non produits
+P5131	Améliorations majeures aux actifs non financiers non produits
+P5132	Coûts du transfert de propriété d'actifs non financiers non produits
+P52_P53	Variation des stocks et acquisitions moins cessions d'objets de valeur
+P52	Variation des stocks
+P53	Acquisitions moins cessions d'objets de valeur
+K2	Acquisitions moins cessions d'actifs non financiers non produits
+K21	Acquisitions moins cessions de terrains et autres actifs corporels non produits
+K211	Acquisitions de terrains et autres actifs corporels non produits
+K212	Cessions de terrains et autres actifs corporels non produits
+K22	Acquisitions moins cessions d'actifs incorporels non produits
+K221	Acquisitions d'actifs incorporels non produits
+K222	Cessions d'actifs incorporels non produits
+K3	Apparition économique d'actifs non produits
+K4	Apparition économique d'actifs produits
+K5	Croissance naturelle de ressources biologiques non cultivées
+K6	Disparition économique d'actifs non produits
+K61	Epuisement d'actifs naturels
+K62	Autres disparitions économiques d'actifs non produits
+K7	Destructions d'actifs dues à des catastrophes
+K8	Saisies sans compensation
+K9	Autres changements de volume d'actifs non financiers n.c.a.
+B9	Capacité de financement (+) / besoin de financement (-)
+B9_GL	Gains/pertes nominaux de détention financiers nets
+B9_OV	Autres changements de volume d'actifs financiers nets
+B9_F	Opérations financières nettes
+B9_X	Ecart entre capacité/besoin de financement des comptes financiers
+B90	Valeur nette
+SRN_S14_S15	Taux d'épargne net des ménages (B8N/(B6N+D8Net)*100)
+B4N_RAT_S11	Revenu d'entreprise net des sociétés non-financières en pourcentage de leur valeur ajoutée nette (B4N/B1N*100)
+B2N_B3N_RAT_S11	Part des profits nets, en pourcentage de la valeur ajoutée nette des entreprises non-financières (B2N_B3N/B1N*100)
+IRN_S11	Taux d'investissement (net) des sociétés non-financières ((P51-K1)/B1N*100)
+IRN_S14_S15	Taux d'investissement (net) des ménages ((P51-K1)/(B6N+D8Net)*100)
+SRG_S14_S15	Taux d'épargne brut des ménages (B8G/(B6G+D8Net)*100)
+B4G_RAT_S11	Revenu d'entreprise brut des sociétés non-financières en pourcentage de leur valeur ajoutée brute (B4G/B1G*100)
+B2G_B3G_RAT_S11	Part des profits bruts, en pourcentage de la valeur ajoutée brute des entreprises non-financières (B2G_B3G/B1G*100)
+IRG_S11	Taux d'investissement (brut) des sociétés non-financières (P51/B1G*100)
+IRG_S14_S15	Taux d'investissement (brut) des ménages (P51/(B6G+D8Net)*100)
+BF90	Valeur financière nette
+P6	Exportations de biens et de services
+P7	Importations de biens et services
+P61	Exportations de biens
+P61_RAT_GDP	Ratio Exportations de biens/PIB au prix du marché
+P62_RAT_GDP	Ratio Exportations de services/PIB au prix du marché
+P71	Importations de biens
+P71_RAT_GDP	Ratio Importations de biens/PIB au prix du marché
+P72_RAT_GDP	Ratio Importations de services/PIB au prix du marché
+P62	Exportations de services
+P62F	Exportations des SIFIM
+P72	Importations de services
+P72F	Importations des SIFIM
+TINT	Total des intérêts
+P6_S21	Exportations de biens et de services à destination de l'Union européenne
+P7_S21	Importations de biens et services en provenance de l'Union européenne
+P6_S211	Exportations de biens et de services à destination des Etats membres de l'UE
+P7_S211	Importations de biens et services en provenance des Etats membres de l'Union européenne
+P6_S2111	Exportations de biens et de services à destination des membres de l'Union monétaire
+P7_S2111	Importations de biens et services en provenance des membres de l'Union monétaire
+P6_S2112	Exportations de biens et de services vers les non-membres de l'Union monétaire
+P7_S2112	Importations de biens et services en provenance des non-membres de l'Union monétaire
+P6_S212	Exportations de biens et de services vers les institutions de l'UE
+P7_S212	Importations de biens et services des institutions de l'UE
+P6_S22	Exportations de biens et de services vers les pays tiers et les organisations internationales
+P7_S22	Importations de biens et services en provenance de pays tiers et organisations internationales
+B11	Solde des échanges extérieurs de biens et services
+B111	Solde des échanges extérieurs - Biens
+B112	Solde des échanges extérieurs - Services
+ULC	Coût salarial unitaire
+LPR	Productivité du travail
+POP	Population totale
+ACT	Population économiquement active
+UNE	Chômeurs
+EMP	Emploi total
+EMP_NC	Emploi total - concept national
+EMP_DC	Emploi total - concept intérieur
+SAL	Salariés
+SELF	Indépendants
+EUR_NAC	EUR = .. Unités de monnaie nationale (y compris les séries en 'euro fixe' pour les pays de la zone euro)
+PPS_NAC	SPA = .. Unités de monnaie nationale (y compris les séries en 'euro fixe' pour les pays de la zone euro)
+EUR_NAT	EUR = .. Unités de monnaie nationale
+PPS_NAT	SPA = .. Unités de monnaie nationale
+PPS_NAC_B1GM	Taux de change SPA centré sur le PIB (y compris les séries en 'euro fixe' pour les pays de la zone euro)
+COEF_EU15_PPS	Coefficient SPA européen pondéré
+PPP_EU27	Parités de pouvoir d'achat (UE27=1)
+PPP_EU15	Parités de pouvoir d'achat (UE15=1)
+PLI_EU27	Indices de niveau de prix comparatifs (UE27=100)
+PLI_EU15	Indices de niveau de prix comparatifs (UE15=100)
+EXP_NAC	Dépenses nominales en monnaie nationale
+EXP_NAC_PC_GDP	Dépenses nominales en pourcentage du PIB (PIB=100)
+EXP_PPS_EU27	Dépenses réelles (en PPS_UE27)
+EXP_PPS_EU15	Dépenses réelles (en PPS_UE15)
+EXP_PPS_EU27_HAB	Dépenses réelles par habitant  (en SPA_UE27)
+EXP_PPS_EU15_HAB	Dépenses réelles par habitant (en SPA_UE15)
+VI_PPS_EU27_HAB	Indices de volume des dépenses réelles par habitant en SPA (UE27=100)
+VI_PPS_EU15_HAB	Indices de volume des dépenses réelles par habitant en SPA (UE15=100)
+TE	Total des dépenses des administrations publiques
+TR	Total des recettes des administrations publiques
+B1GM_XE	Divergence statistique : optique des dépenses
+B1	Valeur ajoutée (aux prix de base) / Produit intérieur (aux prix du marché)
+B1G	Valeur ajoutée brute (aux prix de base)
+B1G_A_B	Valeur ajoutée brute : Agriculture, chasse et pêche
+B1G_C_D_E	Valeur ajoutée brute : Industrie, y compris énergie
+B1G_F	Valeur ajoutée brute : Construction
+B1G_G_H_I	Valeur ajoutée brute : Commerce, transports et communications
+B1G_J_K	Valeur ajoutée brute : Activités financières et services aux entreprises
+B1G_L_TO_P	Valeur ajoutée brute : Autres activités de services
+B1G_TOTAL	Valeur ajoutée brute : Valeur ajoutée totale (A6)
+B1N	Valeur ajoutée nette
+B1NM	Produit intérieur net au prix du marché
+B10	Variations totales de la valeur nette
+B101	Variations de la valeur nette dues à l'épargne et aux transferts en capital
+B102	Variations de la valeur nette dues aux autres changements de volume d'actifs
+B103	Variations de la valeur nette dues aux gains/pertes nominaux de détention
+B1031	Variations de la valeur nette dues aux gains/pertes neutres de détention
+B1032	Variations de la valeur nette dues aux gains/pertes réels de détention
+B12	Solde des opérations courantes avec l'extérieur
+B1G_M_P119	Valeur ajoutée brute (aux prix de base), à l'exclusion des SIFIM
+P119	Services d'intermédiation financière indirectement mesurés (SIFIM)
+P119_ADJ	Correction des services d'intermédiation financière indirectement mesurés (FISIM)
+D21_M_D31	Impôts moins subventions sur les produits
+B1GM_XO	Divergence statistique : optique de la production
+D1	Rémunération des salariés
+D1PAY	Rémunération des salariés, à payer
+D1REC	Rémunération des salariés, à recevoir
+D1_TO_D8	Revenus primaires et transferts courants
+D11	Salaires et traitements bruts
+D12	Cotisations sociales à la charge des employeurs
+D121	Cotisations sociales effectives à la charge des employeurs
+D122	Cotisations sociales imputées à la charge des employeurs
+B2	Excédent d'exploitation
+B2G	Excédent brut d'exploitation
+B2G_B3G	Excédent brut d'exploitation et revenu mixte brut
+B2N	Excédent net d'exploitation
+B2N_B3N	Excédent net d'exploitation et revenu mixte net
+B3	Revenu mixte
+B3G	Revenu mixte brut
+B3N	Revenu mixte net
+B4	Revenu d'entreprise
+B4G	Revenu d'entreprise brut
+B4N	Revenu d'entreprise net
+B7	Revenu disponible ajusté
+D2_D5_D91_D611	Total des recettes des impôts et des cotisations sociales
+D2_D5_D91_D611_M_D995	Recettes totales provenant des impôts et cotisations sociales après déduction des montants notifiés mais non susceptibles d'être perçus
+D2_D5_D91_D611_D612_M_D995	Recettes totales provenant des impôts et cotisations sociales (cotisations sociales imputées incluses) après déduction des montants notifiés mais non susceptibles d'être perçus
+D2_D5_D91	Total des impôts
+D2	Impôts sur la production et les importations
+D2PAY	Impôts sur la production et les importations, à payer
+D2REC	Impôts sur la production et les importations, à recevoir
+D2_M_D3	Impôts sur la production et les importations moins subventions
+D21	Impôts sur les produits
+D211	Taxes du type TVA
+D211REC	Taxes du type TVA, à recevoir
+D211_S212REC	TVA versée à l'Union Européenne
+D212	Impôts et droits sur les importations, à l'exclusion de la TVA
+D2121	Droits sur les importations
+D2122	Impôts sur les importations, à l'exclusion de la TVA et des droits sur les importations
+D2122A	Prélèvements sur les produits agricoles importés
+D2122B	Montants compensatoires monétaires à l'importation
+D2122C	Droits d'accise
+D2122D	Impôts généraux sur les ventes
+D2122E	Impôts sur des services déterminés
+D2122F	Bénéfices des entreprises publiques exerçant un monopole d'importation
+D214	Impôts sur les produits, à l'exclusion de la TVA et des impôts sur les importations
+D214A	Droits d'accise et impôts de consommation
+D214B	Droits de timbre
+D214C	Impôts sur les transactions mobilières
+D214D	Taxes à l'immatriculation des véhicules
+D214E	Taxes sur les spectacles et divertissements
+D214F	Impôts sur les loteries, jeux et paris
+D214G	Taxes sur les primes d'assurance
+D214H	Autres taxes sur des services déterminés
+D214I	Impôts généraux sur les ventes ou le chiffre d'affaires
+D214J	Bénéfices des monopoles fiscaux
+D214K	Droits sur les exportations et montants compensatoires monétaires à l'exportation
+D214L	Autres impôts sur les produits n.c.a.
+D29_D5_D8	Autres impôts sur la production; impôts courants sur le revenu et le patrimoine; ajustement pour variation des droits des ménages sur les fonds de pension
+D29	Autres impôts sur la production
+D29_M_D39	Autres impôts moins subventions sur la production
+D29PAY	Autres impôts sur la production, à payer
+D29PAY_M_D39REC	Autres impôts sur la production à payer moins autres subventions sur les produits à recevoir
+D29A	Impôts sur la propriété ou l'utilisation de terrains, bâtiments et autres constructions
+D29B	Impôts sur l'utilisation d'actifs fixes
+D29C	Impôts sur la masse salariale ou les effectifs employés
+D29D	Impôts sur les transactions internationales
+D29E	Impôts sur les autorisations d'exercer des activités commerciales ou professionnelles
+D29F	Impôts sur les émissions polluantes
+D29G	Sous-compensation de la TVA résultant de l'application du régime forfaitaire
+D29H	Autres impôts sur la production n.c.a.
+D3	Subventions
+D3PAY	Subventions, à payer
+D3REC	Subventions, à recevoir
+D31	Subventions sur les produits
+D311	Subventions sur les importations
+D319	Autres subventions sur les produits
+D39	Autres subventions sur la production
+D39REC	Autres subventions sur la production, à recevoir
+D4	Revenus de la propriété
+D4_D7	Revenus nets de la propriété et autres transferts courants nets
+D4CO	Revenus de la propriété, consolidé
+D4PAY	Revenus de la propriété, à payer
+D4PAY_S1311	Revenus de la propriété, à payer, dont à payer au sous-secteur S1311
+D4PAY_S1312	Revenus de la propriété, à payer, dont à payer au sous-secteur S1312
+D4PAY_S1313	Revenus de la propriété, à payer, dont à payer au sous-secteur S1313
+D4PAY_S1314	Revenus de la propriété, à payer, dont à payer au sous-secteur S1314
+D4REC	Revenus de la propriété, à recevoir
+D41	Intérêts
+D41PAY	Intérêts, à payer
+D41REC	Intérêts, à recevoir
+D41G	Intérêts totaux avant allocation des SIFIM
+D42_TO_D45	Revenus distribués des sociétés ; Bénéfices réinvestis d'investissements directs étrangers ; Revenus de la propriété attribués aux assurés ; Loyers
+D42	Revenus distribués des sociétés
+D42_S13	Revenus distribués des sociétés aux/des administrations publiques
+D42_SOTH	Revenus distribués des sociétés aux/des autres secteurs
+D421	Dividendes
+D422	Prélèvements sur les revenus des quasi-sociétés
+D42_TO_D45PAY	Autres revenus de la propriété, à payer
+D43	Bénéfices réinvestis d'investissements directs étrangers
+D44	Revenus de la propriété attribués aux assurés
+D45	Loyers
+D6	Cotisations et prestations sociales
+D61	Cotisations sociales
+D61NET	Cotisations sociales nettes
+D61REC	Cotisations sociales, à recevoir
+D61_D62	Cotisations et prestations sociales autres que transferts sociaux en nature
+D61_D62PAY	Cotisations et prestations sociales autres que transferts sociaux en nature, à payer
+D61_D62REC	Cotisations et prestations sociales autres que transferts sociaux en nature, à recevoir
+D611	Cotisations sociales effectives
+D6111	Cotisations sociales effectives à la charge des employeurs
+D611REC	Cotisations sociales effectives, à recevoir
+D61111	Cotisations sociales effectives obligatoires à la charge des employeurs
+D61112	Cotisations sociales effectives volontaires des employeurs
+D6112	Cotisations sociales à la charge des salariés
+D61121	Cotisations sociales obligatoires à la charge des salariés
+D61122	Cotisations sociales volontaires des salariés
+D6113	Cotisations sociales des travailleurs indépendants et des personnes n'occupant pas d'emploi
+D61131	Cotisations sociales obligatoires des travailleurs indépendants et des personnes n'occupant pas d'emploi
+D61132	Cotisations sociales volontaires des travailleurs indépendants et des personnes n'occupant pas d'emploi
+D612	Cotisations sociales imputées
+D612REC	Cotisations sociales imputées, à recevoir
+D62_D6311_D63121_D63131	Transferts sociaux en nature correspondant aux dépenses consacrées à l'achat de produits fournis aux ménages par l'intermédiaire de producteurs marchands
+D62_D6311_D63121_D63131PAY	Prest. soc. autres que transferts soc. en nature et transferts soc. en nature = dépenses pour l'achat de produits fournis aux ménages par des producteurs marchands
+D62_M_D61	Prestations sociales nettes
+D62	Prestations sociales autres que transferts sociaux en nature
+D62NET	Prestations sociales nettes autres que transferts sociaux en nature
+D8NET	Ajustement net pour variation des droits des ménages sur les fonds de pension
+D62NET_D8NET	Prestations sociales nettes autres que transferts sociaux en nature y compris ajustement net pour variation des droits de ménages sur fonds de pension
+D62PAY	Prestations sociales autres que transferts sociaux en nature, à payer
+D621	Prestations de sécurité sociale en espèces
+D622	Prestations d'assurance sociale de régimes privés
+D623	Prestations d'assurance sociale directes d'employeurs
+D624	Prestations d'assistance sociale en espèces
+D63	Transferts sociaux en nature
+D631	Prestations sociales en nature
+D6311_D63121_D63131	Transferts sociaux en nature = dépenses pour l'achat de produits fournis aux ménages par des producteurs marchands
+D6311_D63121_D63131PAY	Transferts sociaux en nature = dépenses pour l'achat de produits fournis aux ménages par des producteurs marchands
+D6311	Remboursements de prestations de sécurité sociale
+D6312	Autres prestations de sécurité sociale en nature
+D63121	Autres prestations de sécurité sociale en nature fournies par des producteurs marchands
+D63122	Autres prestations de sécurité sociale en nature fournies par des producteurs non-marchands
+D6313	Prestations d'assistance sociale en nature
+D63131	Prestations d'assistance sociale en nature fournies par des producteurs marchands
+D63132	Prestations d'assistance sociale en nature fournies par des producteurs non-marchands
+D632	Transferts de biens et services non-marchands individuels
+D7	Autres transferts courants
+D7CO	Autres transferts courants, consolidés
+D7PAY	Autres transferts courants, à payer
+D7PAY_S1311	Autres transferts courants, à payer, dont à payer au sous-secteur S1311
+D7PAY_S1312	Autres transferts courants, à payer, dont à payer au sous-secteur S1312
+D7PAY_S1313	Autres transferts courants, à payer, dont à payer au sous-secteur S1313
+D7PAY_S1314	Autres transferts courants, à payer, dont à payer au sous-secteur S1314
+D7REC	Autres transferts courants, à recevoir
+D71	Primes nettes d'assurance-dommages
+D72	Indemnités d'assurance-dommages
+D73	Transferts courants entre administrations publiques
+D73_TO_D75	Autres transferts courants, n.c.a.
+D74_TO_D75	Autres transferts courants non calculés ailleurs (à l'exclusion des transferts entre administrations publiques)
+D74	Coopération internationale courante
+D75	Transferts courants divers
+D751	PIB fondé sur la 4ème ressource
+D91	Impôts en capital
+D91REC	Impôts en capital, à recevoir
+D91A	Impôts sur les transferts en capital
+D91B	Prélèvements sur le capital
+D91C	Autres impôts sur le capital n.c.a.
+D92	Aides à l'investissement
+D92_D99	Aides à l'investissement et autres transferts en capital
+D92_D99REC	Aides à l'investissement et autres transferts en capital, à recevoir
+D92_S212	Aides à l'investissement versées par les institutions européennes aux administrations publiques
+D99	Autres transferts en capital
+B1GM_XI	Divergence statistique : optique des revenus
+D2TOS13	Impôts sur la production et les importations aux administrations publiques
+D2TOS212	Impôts sur la production et les importations aux institutions de l'UE
+D3FRS13	Subventions des administrations publiques
+D3FRS212	Subventions des institutions de l'UE
+D41FRS13	Intérêts des administrations publiques
+D41FRSOTH	Intérêts des autres secteurs
+D41TOS13	Intérêts aux administrations publiques
+D41TOSOTH	Intérêts aux autres secteurs
+D421FRS13	Dividendes des administrations publiques
+D421FRSOTH	Dividendes des autres secteurs
+D421TOS13	Dividendes aux administrations publiques
+D421TOSOTH	Dividendes aux autres secteurs
+D422FRS13	Prélèvements sur les revenus des quasi-sociétés des administrations publiques
+D422FRSOTH	Prélèvements sur les revenus des quasi-sociétés des autres secteurs
+D422TOS13	Prélèvements sur les revenus des quasi-sociétés aux administrations publiques
+D422TOSOTH	Prélèvements sur les revenus des quasi-sociétés aux autres secteurs
+D42FRS13	Revenus distribués des sociétés des administrations publiques
+D42FRSOTH	Revenus distribués des sociétés des autres secteurs
+D42TOS13	Revenus distribués des sociétés aux administrations publiques
+D42TOSOTH	Revenus distribués des sociétés aux autres secteurs
+D43FRS13	Bénéfices réinvestis d'investissements directs étrangers des administrations publiques
+D43FRSOTH	Bénéfices réinvestis d'investissements directs étrangers des autres secteurs
+D43TOS13	Bénéfices réinvestis d'investissements directs étrangers aux administrations publiques
+D43TOSOTH	Bénéfices réinvestis d'investissements directs étrangers aux autres secteurs
+D45TOSOTH	Loyers aux autres secteurs
+D45TOS13	Loyers aux administrations publiques
+D45FRSOTH	Loyers des autres secteurs
+D45FRS13	Loyers des administrations publiques
+D4TOS13	Revenus de la propriété aux administrations publiques
+D4TOSOTH	Revenus de la propriété aux autres secteurs
+D4FRS13	Revenus de la propriété des administrations publiques
+D4FRSOTH	Revenus de la propriété des autres secteurs
+D74TOS212	Coopération internationale courante aux institutions de l'UE
+D74FRS212	Coopération internationale courante des institutions de l'UE
+D75TOS13	Transferts courants divers aux administrations publiques
+D75TOSOTH	Transferts courants divers aux autres secteurs
+D75FRS13	Transferts courants divers des administrations publiques
+D75FRSOTH	Transferts courants divers des autres secteurs
+D7TOS13	Autres transferts courants aux administrations publiques
+D7TOSOTH	Autres transferts courants aux autres secteurs
+D7FRS13	Autres transferts courants des administrations publiques
+D7FRSOTH	Autres transferts courants des autres secteurs
+D91TOS13	Impôts en capital aux administrations publiques
+D91TOSOTH	Impôts en capital aux autres secteurs
+D91FRS13	Impôts en capital des administrations publiques
+D91FRSOTH	Impôts en capital des autres secteurs
+D92TOS13	Aides à l'investissement aux administrations publiques
+D92TOSOTH	Aides à l'investissement aux autres secteurs
+D92FRS13	Aides à l'investissement des administrations publiques
+D92FRSOTH	Aides à l'investissement des autres secteurs
+D99TOS13	Autres transferts en capital aux administrations publiques
+D99TOSOTH	Autres transferts en capital aux autres secteurs
+D99FRS13	Autres transferts en capital des administrations publiques
+D99FRSOTH	Autres transferts en capital des autres secteurs
+D9TOS13	Transferts en capital aux administrations publiques
+D9TOSOTH	Transferts en capital aux autres secteurs
+D9FRS13	Transferts en capital des administrations publiques
+D9FRSOTH	Transferts en capital des autres secteurs
+D995	Transferts en capital des administrations publiques vers les secteurs concernés correspondant à des impôts et contributions sociales notifiés mais non susceptible d'être perçus
+D99521	Impôts sur des produits évalués mais peu susceptibles d'être rassemblé
+D99529	Autres impôts sur des produits évalués mais peu susceptibles d'être rassemblé
+D99551	Impôts sur le revenu évalué mais peu susceptible d'être rassemblé
+D99559	Autres impôts courants évalués mais peu susceptibles d'être rassemblé
+D9956111	Cotisations sociales effectives à charge des employeurs évaluées mais peu susceptibles d'être rassemblé
+D9956112	Cotisations sociales à charge des salariés évaluées mais peu susceptibles d'être rassemblé
+D9956113	Cotisations sociales des non-salariés évaluées mais peu susceptibles d'être rassemblé
+D99591	Impôts en capital évalués mais peu susceptibles d'être rassemblé
+DB9	Ecart entre capacité/Besoin de financement et les comptes financiers
+R1	Total des ressources du compte de production/Compte extérieur des biens et services
+R211	Total des ressources du compte d'exploitation
+R212	Total des ressources du compte d'affectation des revenus primaires
+R22	Total des ressources du compte de distribution secondaire de revenu
+R241	Total des ressources du compte d'utilisation du revenu disponible
+R311	Variation totale des passifs et de la valeur nette: Variation de la valeur nette due à l'épargne et aux comptes de capital
+R312	Variation totale des passifs et de la valeur nette: Compte des acquisitions d'actifs non financiers
+U1	Total des emplois du compte de production/Compte extérieur des biens et services
+U211	Emplois totaux du compte d'exploitation
+U212	Emplois totaux du compte d'affectation des revenus primaires
+U22	Emplois totaux du compte de distribution secondaire du revenu
+U241	Emplois totaux du compte d'utilisation du revenu disponible
+U311	Variation totale des actifs: Variation de la valeur nette due à l'épargne et aux transferts des comptes en capital
+U312	Variation totale des actifs: Compte des acquisitions d'actifs non financiers
+GD	Dette brute consolidée du gouvernement
+GD_F2	Dette brute consolidée du gouvernement  - Numéraire et dépôts
+GD_F33	Dette brute consolidée du gouvernement  - Titres autres que les actions à l'exclusion des produits financiers dérivés
+GD_F331	Dette brute consolidée du gouvernement  - Titres à court terme autres qu'actions et produits financiers dérivés
+GD_F332	Dette brute consolidée du gouvernement  - Titres à long terme autres qu'actions et produits financiers dérivés
+GD_F4	Dette brute consolidée du gouvernement  - Crédits
+GD_F41	Dette brute consolidée du gouvernement  - Crédits à court terme
+GD_F42	Dette brute consolidée du gouvernement  - Crédits à long terme
+GD_CH	Variation de la dette
+GD_CTB	Contribution à la dette des administrations publiques
+GD_HOLD	Montant de la dette détenue sur les autres sous-secteurs des administrations publiques
+F_AS	Actifs financiers
+F_AS_TR	Acquisition nette d'actifs financiers
+F_AS_OTH	Acquisition nette (+) d'actifs financiers: Autres actifs financiers
+F_AS_OF	Autres flux des actifs financiers
+F_LI	Passifs financiers
+F_LI_OTH	Ajustements: accroissement net (-) des autres passifs
+F_LI_OF	Autres flux des passifs financiers
+F_TR	Transactions financières considérées dans le solde budgétaire (ou de comptabilité publique)
+F_TR_OTH	Autres transactions financières
+F_TRDL_OTH	Autres transactions financières, dont les opérations sur la dette (+/-)
+F_LI_TR	Accroissement net des passifs financiers
+NF_TR	Transaction non-financières non considérées dans la balance budgétaire (ou de comptabilité publique)
+F1	Or monétaire et droits de tirage spéciaux (DTS)
+F11	Or monétaire
+F12	Droits de tirage spéciaux (DTS)
+F2	Monnaies et dépôts
+F21	Monnaies
+F22_F29	Dépôts transférables; autres dépôts
+F22	Dépôts transférables
+F29	Autres dépôts
+F3	Titres autres qu'actions
+F33	Titres autres qu'actions, à l'exclusion des produits financiers dérivés
+F331	Titres à court terme autres qu'actions et produits financiers dérivés
+F332	Titres à long terme autres qu'actions et produits financiers dérivés
+F34	Produits financiers dérivés
+F34_LI_ADJ	Ajustements: accroissement net (-) des passifs en produits dérivés financiers
+F34_F7	Autres comptes à recevoir/à payer et produits financiers dérivés
+F4	Crédits
+F4_ACQ	Crédits; acquisition/augmentation (+)
+F4_DIS	Crédits; cession/réduction (-)
+IGL_F4_EU25	Prêts intergouvernementaux intra UE25 faits dans le contexte de la crise financière
+IGL_F4_EU27	Prêts intergouvernementaux intra UE27 faits dans le contexte de la crise financière
+IGL_F4_EA17	Prêts intergouvernementaux intra EA17 faits dans le contexte de la crise financière
+IGL_F4_EA16	Prêts intergouvernementaux intra EA16 faits dans le contexte de la crise financière
+F41	Crédits à court terme
+F42	Crédits à long terme
+F42_ACQ	Crédits à long terme; acquisition/augmentation (+)
+F42_DIS	Crédits à long terme; cession/réduction (-)
+F5	Actions et autres participations
+F5_ACQ	Actions et autres participations; acquisition/augmentation (+)
+F5_DIS	Actions et autres participations; cession (-)/réduction
+F5PN	Les investissements de portefeuille, net
+F5OP	Actions et autres participations, autres que les investissements de portefeuille
+F5OPACQ	Actions et autres participations, autres que les investissements de portefeuille; acquisition/augmentation (+)
+F5OPDIS	Actions et autres participations, autres que les investissements de portefeuille; cession (-)/réduction
+F51	Actions et autres participations, à l'exclusion des parts d'organismes de placement collectif
+F511	Actions cotées
+F512	Actions non cotées
+F513	Autres participations
+F512_F513	Actions non cotées et autres participations
+F52	Parts d'organismes de placement collectif
+F6	Provisions techniques d'assurance
+F61	Droits nets des ménages sur les provisions techniques d'assurance-vie et sur les fonds de pension
+F611	Droits nets des ménages sur les provisions techniques d'assurance-vie
+F612	Droits nets des ménages sur les fonds de pension
+F62	Provisions pour primes non acquises et provisions pour sinistres
+F7	Autres comptes à recevoir/à payer
+F7REC	Autres comptes à recevoir (+)
+F7PAY	Autres comptes à payer (-)
+F71	Crédits commerciaux et avances
+F71_LI_TR	Crédits commerciaux et avances - passifs
+F79	Autres comptes à recevoir/à payer, à l'exclusion des crédits commerciaux et avances
+TOT_AID	Aides d'Etat totales
+SECT_HOC	Aides sectorielles et aides d'Etat ad hoc
+P51_PRIV	Investissements des entreprises: Formation brute de capital fixe par le secteur privé
+P51_S14_S15	Formation brute de capital fixe pour le secteur privé
+EDP_D41	Intérêts y compris les flux résultant de swaps et de contrats de garantie de taux
+EDP_D41_ADJ	Ajustements: différence entre dépense d'intérêts (EDPD41) courus (-) et intérêts payés (+)
+EDP_D41_F_ADJ	Ajustements: différence entre dépense d'intérêts (EDPD41) courus (-) et intérêts payés (+), dont flux d'intérêts attribuable aux swaps et aux accords de taux futur
+EDP_D41_DIF	Différence entre intérêts payés (+) et courus (EDPD41) (-)
+EDP_B9	Capacité (+)/besoin (-) de financement sous la procédure concernant les déficits excessifs
+EDP_B9MIN	Capacité (-)/besoin (+) de financement sous la procédure concernant les déficits excessifs (signe inversé)
+SD1_ADJ	Ajustements liés à la délimitation des sous-secteurs
+EDP_K11_ADJ	Ajustements: appréciation (+)/dépréciation (-) de dette en monnaie étrangère
+K121_ADJ	Ajustements: changement de classification des secteurs (+/-)
+OTH_K_ADJ	Ajustements: autres changements de volumes des passifs financiers (-)
+SD2_ADJ	Capacité (+)/besoin (-) de financement d'entités d'Etat ne faisant pas partie de l'administration centrale
+SD3_ADJ	Capacité (+)/besoin (-) de financement d'autres corps de l'administration centrale
+ISS_ADJ	Ajustements: émission au dessus (-)/en dessous (+) de la valeur nominale
+RED_ADJ	Ajustements: rachat de dette au dessus (+)/en dessous (-) de la valeur nominale
+OTH_ADJ	Autres ajustements (+/-)
+TOT_ADJ	Total des ajustements
+PRIMBAL	Solde primaire
+WORKBAL	Solde budgétaire (ou de comptabilité publique)
+TOT_X	Ecart statistique total
+B9_XX	Ecart statistique: différence entre le compte de capital et le compte financier
+OTH_X	Ecart statistique: autres écarts (+/-)
+TX_CONS	Taxes sur la consommation
+TX_LAB_TOT	Imposition du travail - total
+TX_LAB_EMPR	Imposition du travail, dont sur les salariés payée par les employeurs
+TX_LAB_EMPE	Imposition du travail, dont sur les salariés payée par les employés
+TX_LAB_NEMP	Imposition du travail, dont non-actif
+TX_CAP_TOT	Imposition du capital - total
+TX_CAP_INC	Imposition du capital, dont revenu du capital et revenu commercial
+TX_CAP_INCO	Imposition du capital, dont revenu du capital et revenu commercial des entreprises
+TX_CAP_INHO	mposition du capital, dont revenu du capital et revenu commercial des ménages
+TX_CAP_INSE	Imposition du capital, dont revenu du capital et revenu commercial des travailleurs indépendants
+TX_CAP_STO	Imposition du capital, dont stock de capital (patrimoine)
+ITR_CONS	Taux d'imposition implicite sur la consommation
+ITR_LAB_EMPD	Taux d'imposition implicite du travail
+ITR_CAP_TOT	Taux d'imposition implicite du capital - total
+ITR_CAP_INC	Taux d'imposition implicite du capital, dont revenu du capital et revenu commercial
+ITR_CAP_INCO	Taux d'imposition implicite du capital, dont revenu du capital et revenu commercial des entreprises
+ITR_CAP_INHOSE	Taux d'imposition implicite du capital, dont revenu du capital et revenu commercial des ménages et travailleurs indépendants
+B2_3N_R	Excédent net d'exploitation et revenu d'exploitation net (ressources)
+D1_R	Rémunération des salariés (ressources)
+D4_R	Revenus de la propriété, à recevoir (ressources)
+D4_U	Revenus de la propriété, à payer (emplois)
+B5N_U	Solde des revenus primaires, net (emplois)
+D62_R	Prestations sociales autres que transferts sociaux en nature (ressources)
+D7_R	Autres transferts courants, à recevoir (ressources)
+D5_U	Impôts courants sur le revenu et le patrimoine, (emplois)
+D61_U	Cotisations sociales (emplois)
+D7_U	Autres transferts courants, à payer (emplois)
+B6N_U	Revenu disponible, net (emplois)
+TTB	Charge fiscale totale
+NLPP	Productivité nominale du travail par personnes employées
+RLPP	Productivité réelle du travail par personnes employées
+NLPH	Productivité nominale du travail par heures travaillées
+RLPH	Productivité réelle du travail par heures travaillées
+NULC	Coût salarial unitaire nominal
+RULC	Coût salarial unitaire réel
+NGDPH	Produit intérieur brut nominal par habitant
+RGDPH	Produit intérieur brut réel par habitant
+ROCE_S11	Taux de rendement brut du capital, avant impôt, des entreprises non-financières: B2G_B3G/(AF2+AF33+AF4+AF5, liab)
+DIR_S11	Taux d'endettement net, après impôt, des entreprises non-financières: (AF2+AF33+AF4, liab)/(B4N-D5PAY)
+ROE_S11	Taux de rendement net, après impôt, des fonds propres des entreprises non-financières: (B4N-D5PAY)/(AF5, liab)
+DIR_S14_S15	Taux d'endettement brut des ménages: (AF4, liab)/(B6G+D8net)
+NFW_S14_S15	Taux des actifs financiers nets des ménages (BF90/(B6G+D8net))
+P51_RAT_GDP_S1	Ratio Investissement total/PIB au prix du marché (S1_P51/B1GM*100)
+P51_RAT_GDP_BUS	Ratio Investissement des entreprises/PIB au prix du marché (S11_S12_P51/B1GM*100)
+P51_RAT_GDP_S13	Ratio Investissement du gouvernement/PIB au prix du marché (S13_P51/B1GM*100)
+P51_RAT_GDP_S1M	Ratio Investissement des ménages/PIB au prix du marché (S14_S15_P51/B1GM*100)

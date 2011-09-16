@@ -1,0 +1,56 @@
+TOT_NACE_HH	Toutes les branches NACE plus les ménages
+TOT_NRA	Total des activités des unités résidentes dans le reste du monde
+NRA_FISH	Navires de pêche par les unités résidentes opérant dans le reste du monde
+NRA_I60	Transport terrestre exploité par les unités résidentes dans le reste du monde
+NRA_I61	Transport par voies fluviaux et maritimes par les unités résidentes dans le reste du monde
+NRA_I62	Transport aérien exploité par les unités résidentes dans le reste du monde
+TOT_NRES	Total des activités des unités non résidentes sur le territoire économique 
+NRES_I60	Transport terrestre exploité par  les unités non résidentes sur le territoire économique
+NRES_I61	Transport par voies fluviaux et maritimes par  les unités non résidentes sur le territoire économique
+NRES_I62	Transport aérien exploité par les unités non résidentes sur le territoire économique
+ADJ_OTH	Autres ajustements et écarts statistiques
+TOT_CONV	Émissions totales tel que rapporté aux conventions internationales (UNFCCC et CLRTAP)
+BI1_1	Superficie Etat Membre (km2)
+BI1_2	Superficie terrestre protégée (km2)
+BI1_3	% superficie terrestre protégée
+BI1_4	Indice de suffisance
+BI1_5	Superficie marine protégée (km2)
+DEU	Extraction Domestique Utilisé
+IMP	Importations totale
+IMP_XEU27	Importations  Extra UE 27 
+IMP_IEU27	Importations Intra UE 27
+EXP	Exportations totale
+EXP_XEU27	Exportations  Extra UE 27
+EXP_IEU27	Exportations Intra UE 27
+DMC	Consommation domestique de matières
+DMI	Apports directs de matières
+RP_EUR	Productivité des resources PIB/DMC (un seul pays et un année)
+RP_CLV00	Productivité des resources PIB/DMC (un seul pays au fil du temps; PIB mesures de volume chaînées, année de référence 2000)
+RP_PPS	Productivité des resources PIB/DMC (Comparant les pays en un année, le PIB en SPA, Standard de Pouvoir d'Achat)
+RE_EUR	Efficacité des ressources PIB/DMC (un seul pays et un année)
+RE_CLV00	Efficacité des ressources PIB/DMC (un seul pays au fil du temps; PIB mesures de volume chaînées, année de référence 2000)
+RE_PPS	Efficacité des ressources PIB/DMC (Comparant les pays en un année, le PIB en SPA, Standard de Pouvoir d'Achat)
+NRRE_EUR	Efficacité des ressources non renouvelables, abiotiques DMC/PIB (un seul pays et un année)
+NRRE_CLV00	Efficacité des ressources non renouvelables, abiotiques DMC/PIB (un seul pays au fil du temps; PIB mesures de volume chaînées, année de référence 2000)
+NRRE_PPS	Efficacité des ressources non renouvelables, abiotiques DMC/PIB (Comparant les pays en un année, le PIB en SPA, Standard de Pouvoir d'Achat)
+FAC	Number of facilities
+FAC_CL	Closed facilities
+CAP	Capacity in tonnes per year
+CAP_RST	Rest capacity in m3 per year
+COVERAGE	Population served by collection
+PEP_TOT	Production d'énergie primaire par combustible, total
+PEP_COAL	dont: charbon et lignite
+PEP_COIL	dont: pétrole brut
+PEP_GAS	dont: gaz naturel
+PEP_NUC	dont: énergie nucléaire
+PEP_RNW	dont: énergies renouvelables
+FEC_TOT	Consommation d'énergie finale, total
+FEC_AGR	dont: agriculture, sylviculture, pêche
+FEC_IND	dont: ensemble des activités industrielles
+FEC_SER	dont: services
+FEC_HH	dont: ménages privés 
+RNW_FEC_PC	Part des  énergies renouvelables dans la consommation finale d'énergie
+AREA_NUS	Areal developpé inutilisé et/ou abandoné, inclus friches industrielles
+AREA_CNT	Sites classés comme contaminés / potentiellement contaminés
+MN_RES	Nombre de domiciles principales
+SC_RES	Nombre de domiciles secondaires

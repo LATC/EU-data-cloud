@@ -1,0 +1,8 @@
+TOT	Total
+PASS_TOT	Passengers - total
+PASS_COL	Passengers - as a result of collission or derailment
+PASS_OTH	Passengers - other accidents
+PASS_SUI	Passengers - Suicides and attempted suicides
+RAIL_EMPL	Railway employees
+OTH	Others
+UNK	Unknown

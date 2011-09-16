@@ -1,0 +1,55 @@
+TRIPS_INTRA	Nombre total de voyages intra-régionaux effectués (camions/jour)
+TRIPS_PROD	Nombre total de voyages 'produits' par et quittant la région (camions/jour)
+TRIPS_ATTR	Nombre total de voyages 'attirés' mais n'ayant pas leur origine dans la région (camions/jour)
+TRIPS_TRAN	Nombre total de voyages traversant la région sans avoir leur origine ou leur destination dans cette région (camions/jour)
+KM_INTRA	Nombre total de kilomètres 'produits' par les voyages intra-régionaux (km/jour)
+KM_TOT	Nombre total de kilomètres parcourus à l'intérieur d'une région par tous les camions; les voyages intra-régionaux ne sont pas inclus (km/jour)
+KM_PROD	Nombre total de kilomètres parcourus par les voyages 'produits' par la région, les voyages intra-régionalux ne sont pas inclus (km/jour)
+KM_ATTR	Nombre total de kilomètres parcourus par les voyages 'attirés' par la région, les voyages intra-régionaux ne sont pas inclus (km/jour)
+ACC_MEAN	Distance moyenne entre une région et toutes les autres régions de l'Union européenne (km)
+ACC_MIN	Distance minimale qu'un camion doit parcourir pour atteindre le 'centre' de la région la plus proche (centre=la ville la plus importante) (km)
+ACC_MAX	Distance maximale qu'un camion doit parcourir pour atteindre le 'centre' de la région la plus proche (centre=la ville la plus importante) (km)
+TR_RATIO	La part du trafic total qui est un trafic de transit, exprimée en pourcentage (%).
+5_3_1	5.3.1 Indice de volume de transport de marchandises par rapport au PIB (tkm) (1995=100)
+5_3_2	5.3.2 Indice de volume du transport de voyageurs par rapport au PIB (pkm) (1995=100)
+5_4_1	5.4.1 Division du transport de marchandises par mode (part en pourcentage de la route en tkm total)
+5_4_2	5.4.2 Division du transport de voyageurs par mode (part en pourcentage des voitures, en pkm total)
+5_4_3	5.4.3 Division du transport de  voyageurs par mode (part en pourcentage d'aviation en pkm total)
+TOTGOTRT	Total de marchandises transportées
+NATGOTRT	Marchandises nationales transportées
+INTGOTRT	Marchandises internationales transportées
+OUTGOTRT	Sorties (chargement dans le pays déclarant, déchargement dans d'autres pays)
+INGOTRT	Entrées (déchargement dans le pays déclarant, chargement dans d'autres pays)
+TOTPATRN	Total passagers transportés
+INTPATRN	Passagers internationaux transportés
+NATPATRN	Passagers nationaux transportés
+TRI01	Nombre d'habitants par automobile
+TRI02	Nombre d'automobiles pour 1000 habitants
+TRI03	Réseau ferroviaire
+TRI04	Longueur du réseau routier
+2A5AB	Longueur totale des autoroutes en km
+5S1_PKM	Croissance du volume du transport. UE-15 en voyageurs-kilomètres (I90=100)
+5S1_TKM	Croissance du volume du transport. UE-15 en tonnes par kilomètre (I90=100)
+5S1_GDP	Croissance du volume du transport. UE-15 (à prix constants) (I90=100)
+5A1FH	Transport intérieur total par mode: EEE et Suisse
+2A5AC	Longueur totale des lignes de chemin de fer en km
+5A1FK	Voitures particulières pour 1 000 habitants
+5A1GB	Transport de marchandises par route. Million tonne-km
+5A1FL	Transport de marchandises par chemin de fer. Millions tonne-km
+5A1FM	Transport de marchandises par les voies navigables intérieures. Million tonne-km
+5A1FN	Transport de marchandises par oléoducs. Million tonne-km
+5A1FQ	Million tonne-km transport maritime de marchandises. Millions t
+5A1FO	Transport de marchandises par voies navigables intérieures. 1 000 million tonne-km.
+5A1FP	Lancements spaciaux commerciaux dans le monde
+5A1FR	Transport aérien de marchandises. 1 000 t
+5A1FV	Transport aérien de voyageurs. Millions
+5A1FU	Transport de voyageurs. 1 000 million voyageur-km. EEE et Suisse
+5A1FX	Transport par voiture individuelle. Million de voyageurs-km
+5A1FW	Transport de voyageurs par autocar. Million de voyageurs-km
+5A1FY	Transport de voyageurs par rail. Million de voyageurs
+5H2ST	Longueur totale des autoroutes en km
+5H3ST	Longueur totale des lignes de chemin de fer en km
+5H4ST	Voitures particulières. 1 000s
+5H5ST	Voitures particulières par 1 000 habitants
+5H6ST	Transport de marchandises par route. Million tonne-km
+5H7ST	Personnes tuées dans des accidents de la route par million d'habitants

@@ -1,0 +1,49 @@
+CATTLE	Ensemble des bovins
+CALF	Ensemble des bovins de moins de 1 an
+CALF_SL	Veaux de boucherie (<1 an)
+CALF_BR_M	Autres veaux d'élévage mâles (< 1 an)
+CALF_BR_F	Autres veaux d'élevage femelles (< 1 an)
+BULL1_2Y	Bovins mâles (1 à 2 ans)
+HEIF1_2Y_SL	Bovins femelles de boucherie (1 à 2 ans)
+HEIF1_2Y_BR	Autres bovins femelles (1 à 2 ans)
+BULL2Y	Bovins mâles (2 ans et plus)
+HEIF2Y_SL	Génisses de boucherie (2 ans et plus)
+HEIF2Y_BR	Autres génisses (2 ans et plus)
+COW	Ensemble des vaches
+COW_DAIRY	Vaches laitières
+COW_OTH	Autres vaches
+BUFFALO	Total des buffles
+PIG	Ensemble des porcs
+PIGLET20KG	Porcelets de moins de 20 kg
+PIGLET20_50KG	Porcelets de 20 kg à moins de 50 kg
+PIG20_50KG	Porcs à l'engrais de 20 kg à moins de 50 kg
+PIG50KG	Porcs à l'engrais de 50 kg et plus
+PIG50_80KG	Porcs à l'engrais de 50 kg à moins de 80 kg
+PIG80_110KG	Porcs à l'engrais de 80 kg à moins de 110 kg
+PIG110KG	Porcs à l'engrais de 110 kg et plus
+BOARS	Verrats reproducteurs
+SOW_BR	Truies pour la reproduction
+SOW_FAR2	Truies saillies
+SOW_FAR1	Truies saillies pour la première fois
+SOW_NFAR2	Autres truies
+SOW_NFAR1	Jeunes truies non encore saillies
+SHEEP	Ensemble des ovins
+GOAT	Ensemble des caprins
+EQUID	Ensemble des équidés
+POULTRY	Ensemble des volailles
+OTHER	Autres
+TOTAL	Total UGB (Non applicable pour unité = 1 000 têtes)
+PC0000	Total du cheptel bovin
+PC1000	Bovins de moins d'un an
+PC1100	Veaux de boucherie
+PC1200	Autres veaux
+PC2000	Bovins de 1 an à moins de 2 ans
+PC3000	Bovins de 2 ans et plus
+PC3210	Génisses
+PC3220	Vaches
+PC3221	Vaches laitières
+PP0000	Total du cheptel porcin
+PS0000	Total du cheptel ovin
+PG0000	Total du cheptel caprin
+PH1000	Poules pondeuses
+PE0000	Total du cheptel équidés

@@ -1,0 +1,104 @@
+TOTAL	Insgesamt beförderte Güter
+GT01	Erzeugnisse der Landwirtschaft, Jagd und Forstwirtschaft; Fische und Fischereierzeugnisse
+GT011	Getreide
+GT012	Kartoffeln
+GT013	Zuckerrüben
+GT014	Anderes frisches Obst und Gemüse
+GT015	Forstwirtschaftliche Erzeugnisse
+GT016	Lebende Pflanzen und Blumen
+GT017	Andere Erzeugnisse pflanzlichen Ursprungs
+GT018	Lebende Tiere
+GT019	Kuh-, Schaf- und Ziegenmilch, roh
+GT01A	Andere Erzeugnisse tierischen Ursprungs
+GT01B	Fische und Fischereierzeugnisse
+GT02	Kohle; rohes Erdöl und Erdgas
+GT021	Kohle
+GT022	Erdöl
+GT023	Erdgas
+GT03	Erze, Steine und Erden, sonstige Bergbauerzeugnisse; Torf; Uran- und Thoriumerze
+GT031	Eisenerze
+GT032	NE-Metallerze (ohne Uran- und Thoriumerze)
+GT033	Chemische und (natürliche) Düngemittelminerale
+GT034	Salz und Natriumchlorid; Meerwasser
+GT035	Natursteine, Sand, Kies, Ton, Torf, Steine und Erden a.n.g.; sonstige Bergbauerzeugnisse
+GT036	Uran- und Thoriumerze
+GT04	Nahrungs- und Genussmittel
+GT041	Fleisch, rohe Häute und Felle, Fleischerzeugnisse
+GT042	Fisch und Fischerzeugnisse, verarbeitet und haltbar gemacht
+GT043	Obst und Gemüse, verarbeitet und haltbar gemacht
+GT044	Tierische und pflanzliche Öle und Fette
+GT045	Milch, Milcherzeugnisse und Speiseeis
+GT046	Mahl- und Schälmühlenerzeugnisse; Stärke und Stärkeerzeugnisse; Futtermittel
+GT047	Getränke
+GT048	Sonstige Nahrungsmittel a.n.g. und Tabakerzeugnisse (außer im Paketdienst oder als Sammelgut)
+GT049	Sonstige Nahrungsmittel und Tabakerzeugnisse im Paketdienst oder als Sammelgut
+GT05	Textilien und Bekleidung; Leder und Lederwaren
+GT051	Textilien
+GT052	Bekleidung und Pelzwaren
+GT053	Leder und Lederwaren
+GT06	Holz sowie Holz-, Kork- und Flechtwaren (ohne Möbel); Papier, Pappe und Waren daraus; Verlags- und Druckerzeugnisse, bespielte Ton-, Bild- und Datenträger
+GT061	Holz-, Kork- und Flechtwaren (ohne Möbel)
+GT062	Papier, Pappe und Waren daraus
+GT063	Verlags- und Druckerzeugnisse, bespielte Ton-, Bild- und Datenträger
+GT07	Kokereierzeugnisse und Mineralölerzeugnisse
+GT071	Kokereierzeugnisse; Briketts und ähnliche feste Brennstoffe
+GT072	Flüssige Mineralölerzeugnisse
+GT073	Gasförmige, verflüssigte oder verdichtete Mineralölerzeugnisse
+GT074	Feste oder wachsartige Mineralölerzeugnisse
+GT08	Chemische Erzeugnisse und Chemiefasern; Gummi- und Kunststoffwaren; Spalt- und Brutstoffe
+GT081	Chemische Grundstoffe, mineralisch
+GT082	Chemische Grundstoffe, organisch
+GT083	Stickstoffverbindungen und Düngemittel (ohne natürliche Düngemittel)
+GT084	Basiskunststoffe und synthetischer Kautschuk, in Primärformen
+GT085	Pharmazeutische und parachemische Erzeugnisse einschließlich Pestizide und andere agrochemische Erzeugnisse
+GT086	Gummi- oder Kunststoffwaren
+GT087	Spalt- und Brutstoffe
+GT09	Sonstige Mineralerzeugnisse
+GT091	Glas und Glaswaren, Porzellan und keramische Erzeugnisse
+GT092	Zement, Kalk, gebrannter Gips
+GT093	Sonstige Baumaterialien und -erzeugnisse
+GT10	Metalle und Halbzeug daraus; Metallerzeugnisse, ohne Maschinen und Geräte
+GT101	Roheisen und Stahl; Ferrolegierungen und Erzeugnisse der ersten Bearbeitung von Eisen und Stahl (ohne Rohre)
+GT102	NE-Metalle und Halbzeug daraus
+GT103	Rohre und Hohlprofile; Rohr-form-, Rohrverschluss- und Rohrverbindungsstücke
+GT104	Stahl- und Leichtmetallbauerzeugnisse
+GT105	Heizkessel, Waffen und sonstige Metallerzeugnisse
+GT11	Maschinen und Ausrüstungen a.n.g.; Büromaschinen, Datenverarbeitungsgeräte und -einrichtungen; Geräte der Elektrizitätserzeugung und -verteilung u. Ä.; Nachrichtentechnik, Rundfunk- und Fernsehgeräte sowie elektronische Bauelemente; Medizin-, Mess-, steue
+GT111	Land- und forstwirtschaftliche Maschinen
+GT112	Haushaltsgeräte a.n.g. (Weiße Ware)
+GT113	Büromaschinen, Datenverarbeitungsgeräte und -einrichtungen
+GT114	Geräte der Elektrizitätserzeugung und -verteilung u. Ä.
+GT115	Elektronische Bauelemente, Ausstrahlungs- und Übertragungsgeräte
+GT116	Rundfunk- und Fernsehgeräte; Geräte zur Bild- und Tonaufzeichnung oder -wiedergabe (Braune Ware)
+GT117	Medizin-, Mess-, steuerungs- und regelungstechnische Erzeugnisse; optische Erzeugnisse; Uhren
+GT118	Sonstige Maschinen, Werkzeugmaschinen und Teile dafür
+GT12	Fahrzeuge
+GT121	Erzeugnisse der Automobilindustrie
+GT122	Sonstige Fahrzeuge
+GT13	Möbel, Schmuck, Musikinstrumente, Sportgeräte, Spielwaren und sonstige Erzeugnisse
+GT131	Möbel
+GT132	Sonstige Erzeugnisse
+GT14	Sekundärrohstoffe; kommunale Abfälle und sonstige Abfälle
+GT141	Hausmüll und kommunale Abfälle
+GT142	Sonstige Abfälle und Sekundärrohstoffe
+GT15	Post, Pakete
+GT151	Post
+GT152	Pakete, Päckchen
+GT16	Geräte und Material für die Güterbeförderung
+GT161	Container und Wechselbehälter im Einsatz, leer
+GT162	Paletten und anderes Verpackungsmaterial im Einsatz, leer
+GT17	Im Rahmen von privaten und gewerblichen Umzügen beförderte Güter; Gepäckstücke und Gegenstände, die von Reisenden mitgenommen werden; zum Zwecke der Reparatur bewegte Fahrzeuge; sonstige nichtmarktbestimmte Güter a.n.g.
+GT171	Privates Umzugsgut
+GT172	Gepäckstücke und Gegenstände, die von Reisenden mitgenommen werden
+GT173	Fahrzeuge in Reparatur
+GT174	Ausrüstungen, Gerüste
+GT175	Sonstige nichtmarktbestimmte Güter a.n.g.
+GT18	Sammelgut: eine Mischung verschiedener Arten von Gütern, die zusammen befördert werden
+GT180	Sammelgut
+GT19	Nicht identifizierbare Güter: Güter, die sich aus irgendeinem Grund nicht genau bestimmen lassen und daher nicht den Gruppen 01-16 zugeordnet werden können
+GT191	Nicht identifizierbare Güter in Containern oder Wechselbehältern
+GT192	Sonstige nicht identifizierbare Güter
+GT20	Sonstige Güter a.n.g.
+GT200	Sonstige Güter, die anderweitig nicht klassifiziert sind
+NAP	Nicht anwendbar
+UNK	Unbekannt

@@ -1,0 +1,15 @@
+VTCTOT	Insgesamt
+VTC_L01	>0-< 0,10 ha Rebfläche
+VTC01_02	0,10-< 0,20 ha Rebfläche
+VTC02_03	0,20-< 0,30 ha Rebfläche
+VTC03_05	0,30-< 0,50 ha Rebfläche
+VTC05_1	0,50-< 1 ha Rebfläche
+VTC1_2	1-< 2 ha Rebfläche
+VTC2_3	2-< 3 ha Rebfläche
+VTC3_5	3-< 5 ha Rebfläche
+VTC5_10	5-< 10 ha Rebfläche
+VTC10_20	10-< 20 ha Rebfläche
+VTC20_30	20-< 30 ha Rebfläche
+VTC_G30	>=30 ha Rebfläche
+VTC_G10	>=10 ha Rebfläche
+VTC_G05	>=5 ha Rebfläche

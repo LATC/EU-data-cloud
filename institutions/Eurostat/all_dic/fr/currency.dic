@@ -1,0 +1,184 @@
+TOTAL	Total (Toutes monnaies)
+EUR	Euro (à partir du 1.1.1999)/écu (jusqu'au 31.12.1998)
+1000EUR	Milliers d'euros (à partir du 1.1.1999)/Milliers d'écus (jusqu'au 31.12.1998)
+MIO_EUR	Millions d'euros (à partir du 1.1.1999)/Millions d'écus (jusqu'au 31.12.1998)
+ATS	Schilling autrichien
+BEF	Franc belge
+BLF	Franc belge/Franc luxembourgeois
+BGN	Lev bulgare
+CYP	Livre chypriote
+CZK	Couronne tchèque
+DEM	Mark allemand
+DKK	Couronne danoise
+EEK	Couronne estonienne
+ESP	Peseta espagnole
+FIM	Mark finlandais
+FRF	Franc français
+GBP	Livre sterling
+GRD	Drachme grecque
+HUF	Forint
+IEP	Livre irlandaise
+ITL	Lire italienne
+LTL	Litas
+LUF	Franc luxembourgeois
+LVL	Lats
+MTL	Lire maltaise
+NLG	Florin néerlandais
+PLN	Zloty
+PTE	Escudo portugais
+RON	Leu roumain
+SEK	Couronne suédoise
+SIT	Tolar slovène
+SKK	Couronne slovaque
+CHF	Franc suisse
+ISK	Couronne islandaise
+NOK	Couronne norvégienne
+HRK	Kuna
+MKD	Denar
+TRY	Livre turque
+AED	Dirham des Émirats arabes unis
+AFN	Afghani
+ALL	Lek
+AMD	Dram
+ANG	Florin des Antilles néerlandaises
+AOA	Kwanza
+ARS	Peso argentin
+AUD	Dollar australien
+AWG	Florin arubain
+AZN	Manat azerbaïdjanais
+BAM	Mark bosniaque convertible
+BDT	Taka
+BHD	Dinar de Bahreïn
+BIF	Franc burundais
+BMD	Dollar des Bermudes
+BND	Dollar de Brunei
+BOB	Boliviano
+BRL	Real
+BSD	Dollar des Bahamas
+BTN	Ngultrum
+BWP	Pula
+BYR	Rouble bélarussien
+BZD	Dollar de Belize
+CAD	Dollar canadien
+CDF	Franc congolais
+CLP	Peso chilien
+CNY	Yuan renminbi
+COP	Peso colombien
+CRC	Colon du Costa Rica
+CUP	Peso cubain
+CVE	Escudo du Cap-Vert
+DJF	Franc de Djibouti
+DOP	Peso dominicain
+DZD	Dinar algérien
+EGP	Livre égyptienne
+ERN	Nakfa
+ETB	Birr
+FJD	Dollar des Fidji
+FKP	Livre des Falkland
+GEL	Lari
+GHS	Cedi ghanéen
+GIP	Livre de Gibraltar
+GMD	Dalasi
+GNF	Franc guinéen
+GTQ	Quetzal
+GYD	Dollar de Guyana
+HKD	Dollar de Hong Kong
+HNL	Lempira
+HTG	Gourde
+IDR	Roupie indonésienne
+ILS	Shekel
+INR	Roupie indienne
+IQD	Dinar iraquien
+IRR	Rial iranien
+JMD	Dollar jamaïcain
+JOD	Dinar jordanien
+JPY	Yen
+KES	Shilling kényan
+KGS	Som
+KHR	Riel
+KMF	Franc des Comores
+KPW	Won nord-coréen
+KRW	Won sud-coréen
+KWD	Dinar koweïtien
+KYD	Dollar des Îles Cayman
+KZT	Tenge
+LAK	Kip
+LBP	Livre libanaise
+LKR	Roupie sri-lankaise
+LRD	Dollar libérien
+LSL	Loti
+LYD	Dinar libyen
+MAD	Dirham marocain
+MDL	Leu moldave
+MGA	Ariary
+MMK	Kyat
+MNT	Tugrik
+MOP	Pataca
+MRO	Ouguiya
+MUR	Roupie mauricienne
+MVR	Rufiyaa
+MWK	Kwacha du Malawi
+MXN	Peso mexicain
+MYR	Ringgit
+MZN	Metical
+NAD	Dollar namibien
+NGN	Naira
+NIO	Córdoba oro
+NPR	Roupie népalaise
+NZD	Dollar néo-zélandais
+OMR	Rial d’Oman
+PAB	Balboa
+PEN	Nouveau sol
+PGK	Kina
+PHP	Peso philippin
+PKR	Roupie pakistanaise
+PYG	Guarani
+QAR	Rial du Qatar
+RSD	Dinar serbe
+RUB	Rouble russe
+RWF	Franc rwandais
+SAR	Riyal saoudien
+SBD	Dollar des Îles Salomon
+SCR	Roupie seychelloise
+SDG	Livre soudanaise
+SGD	Dollar de Singapour
+SHP	Livre de Sainte-Hélène
+SLL	Leone
+SOS	Shilling somalien
+SRD	Dollar surinamais
+STD	Dobra
+SVC	Colon d’El Salvador
+SYP	Livre syrienne
+SZL	Lilangeni
+THB	Baht
+TJS	Somoni
+TMT	Manat turkmène
+TND	Dinar tunisien
+TOP	Tonga pa'anga
+TTD	Dollar de Trinidad-et-Tobago
+TZS	Shilling tanzanien
+UAH	Hryvnia
+UGX	Shilling ougandais
+USD	Dollar des États-Unis
+UYU	Peso uruguayen
+UZS	Sum
+VEF	Bolivar fuerte
+VND	Dong
+VUV	Vatu
+WST	Tala
+XAF	Franc CFA (BEAC)
+XCD	Dollar des Caraïbes orientales
+XOF	Franc CFA (BCEAO)
+YER	Riyal yéménite
+ZAR	Rand
+ZMK	Kwacha de Zambie
+ZWL	Dollar zimbabwéen
+XDR	Droits de tirage spéciaux
+PPS	Standard de pouvoir d'achat (SPA)
+PC	Pourcentage
+NAC	Monnaie nationale (y compris les séries en 'euro fixe' pour les pays de la zone euro)
+MIO_NAC	Millions de monnaie nationale (y compris les séries en 'euro fixe' pour les pays de la zone euro)
+NAT	Monnaie nationale (y compris les anciennes monnaies de la zone euro)
+FOR	Devise étrangère
+OTH	Autres monnaies
+NAP	Non applicable

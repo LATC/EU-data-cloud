@@ -1,0 +1,206 @@
+TOTAL	Total
+1	Exploitations spécialisées à grandes cultures
+11	Exploitations céréalières spécialisées
+111	Exploitations spécialisées en céréaliculture (autre que riz)
+112	Exploitations spécialisées rizicoles
+113	Exploitations combinant céréales et riz
+12	Exploitations à cultures générales
+121	Exploitations spécialisées en culture de plantes sarclées
+122	Exploitations à cultures de céréales et de plantes sarclées combinés
+123	Exploitations spécialisées en cultures de légumes frais de plein champ
+124	Exploitations à cultures générales diverses
+1241	Exploitations spécialisées en culture de tabac
+1242	Exploitations spécialisées en culture de coton
+1243	Exploitations spécialisées en cultures de plantes oléagineuses et textiles
+1244	Exploitations avec combinaison de diverses cultures générales
+13	Exploitations spécialisées en céréaliculture et en culture de plantes oléagineuses et protéagineuses
+131	Exploitations spécialisées en céréaliculture (autre que riz) et en culture de plantes oléagineuses et protéagineuses
+132	Exploitations spécialisées rizicoles
+133	Exploitations combinant céréales, riz, plantes oléagineuses et protéagineux
+14	Exploitations à cultures générales
+141	Exploitations spécialisées en culture de plantes sarclées
+142	Exploitations à culture de céréales et de plantes sarclées combinées
+143	Exploitations spécialisées en cultures de légumes frais de plein champ
+144	Exploitations à cultures générales diverses
+1441	Exploitations spécialisées en culture de tabac
+1442	Exploitations spécialisées en culture de coton
+1443	Exploitations avec combinaisons de diverses cultures générales
+2	Exploitations horticoles spécialisées
+20	Exploitations horticoles spécialisées
+201	Exploitations spécialisées de maraîchage
+2011	Exploitations spécialisées de maraîchage de plein air
+2012	Exploitations spécialisées de maraîchage sous verre
+2013	Exploitations spécialisées combinant maraîchage de plein air et sous verre
+202	Exploitations spécialisées en floriculture et culture de plantes ornementales
+2021	Exploitations spécialisées en floriculture et culture de plantes ornementales de plein air
+2022	Exploitations spécialisées en floriculture et culture de plantes ornementales sous verre
+2023	Exploitations de polyculture à orientation horticole ou cultures permanentes
+203	Exploitations horticoles avec cultures diverses
+2031	Exploitations avec cultures horticoles diverses de plein air
+2032	Exploitations avec cultures horticoles diverses sous verre
+2033	Exploitations spécialisées dans la culture de champignons
+2034	Exploitations avec diverses combinaisons de cultures horticoles
+3	Exploitations spécialisées en cultures permanentes
+31	Exploitations specialisées en viticulture
+311	Exploitations spécialisées vinicoles produisant des vins de qualité
+312	Exploitations spécialisées vinicoles produisant des vins autres que de qualité
+313	Exploitations spécialisées vinicoles produisant des vins de qualité et autres combinés
+314	Exploitations produisant des raisins à destinations diverses
+3141	Exploitations spécialisées dans la production de raisins de table
+3142	Exploitations spécialisées dans la production de raisins secs
+3143	Exploitations de viticulture mixte
+32	Exploitations fruitières et agrumicoles spécialisées
+321	Exploitations spécialisées frutières (autres qu'agrumicoles)
+3211	Exploitations spécialisées dans la production de fruits frais (autres qu'agrumes)
+3212	Exploitations spécialisées dans la production de fruits à coque
+3213	Exploitations combinant fruits frais (autres qu'agrumes) et fruits à coque
+322	Exploitations agrumicoles spécialisées
+323	Exploitations combinant la production de fruits et d'agrumes
+33	Exploitations olivicoles spécialisées
+34	Exploitations avec diverses combinaisons de cultures permanentes
+4	Exploitations spécialisées herbivores
+41	Exploitations bovines spécialisées-orientation lait
+411	Exploitations laitières spécialisées
+412	Exploitations laitières spécialisées avec élevage bovin
+42	Exploitations bovines spécialisées-orientation élevage et viande
+421	Exploitations bovines spécialisées-orientation élevage
+422	Exploitations bovines spécialisées-orientation engraissement
+43	Exploitations bovines spécialisées-orientation lait, élevage et viande combinés
+431	Exploitations bovines-lait avec élevage et viande
+432	Exploitations bovines-élevage et viande avec lait
+44	Exploitations avec ovins, caprins et autres herbivores
+441	Exploitations ovines spécialisées
+442	Exploitations avec ovins et bovins combinés
+443	Exploitations caprines spécialisées
+444	Exploitations d'herbivores sans activité dominante
+5	Exploitations spécialisées de production animale hors sol (granivores)
+50	Exploitations spécialisées de production animale hors sol (granivores)
+501	Exploitations porcines spécialisées
+5011	Exploitations spécialisées porcins d'élevage
+5012	Exploitations spécialisées porcins d'engraissement
+5013	Exploitations combinant l'élevage et l'engraissement de porcins
+502	Exploitations avicoles spécialisées
+5021	Exploitations spécialisées poules pondeuses
+5022	Exploitations spécialisées volailles de chair
+5023	Exploitations combinant poules pondeuses et volailles de chair
+503	Exploitations avec diverses combinaisons de granivores
+5031	Exploitations combinant porcins et volailles
+5032	Exploitations combinant porcins, volailles et autres granivores
+1_TO_5	Agriculture spécialisée (types 1 à 5)
+6	Exploitations de polyculture
+60	Exploitations de polyculture
+601	Exploitations combinant horticulture et cultures permanentes
+602	Exploitations combinant grandes cultures et horticulture
+603	Exploitations combinant grandes cultures et vignes
+604	Exploitations combinant grandes cultures et cultures permanentes
+605	Exploitations de polyculture à orientation cultures générales
+606	Exploitations de polyculture à orientation horticole ou cultures permanentes
+6061	Exploitations de polyculture à orientation horticole
+6062	Exploitations de polyculture à orientations cultures permanentes
+7	Exploitations de polyélevage
+71	Exploitations de polyélevage à orientation herbivores
+711	Exploitations de polyélevage à orientation laitière
+712	Exploitations de polyélevage à orientation herbivores autres que laitiers
+72	Exploitations de polyélevage à orientation granivores
+721	Exploitations de polyélevage: granivores et bovins laitiers combinés
+722	Exploitations de polyélevage: granivores et herbivores, autres que bovins laitiers, combinés
+723	Exploitations de polyélevage: granivores et élevage mixte
+8	Exploitations mixtes cultures-élevage
+81	Exploitations mixtes grandes cultures-herbivores
+811	Exploitations mixtes grandes cultures avec bovins laitiers
+812	Exploitations mixtes bovins laitiers avec grandes cultures
+813	Exploitations mixtes grandes cultures avec herbivores autres que bovins laitiers
+814	Exploitations mixtes herbivores, autres que bovins laitiers, avec grandes cultures
+82	Exploitations mixtes avec diverses combinaisons cultures-élevage
+821	Exploitations mixtes avec grandes cultures et granivores
+822	Exploitations mixtes avec cultures permanentes et herbivores
+823	Exploitations avec diverses cultures et élevages mixtes
+8231	Exploitations apicoles
+8232	Exploitations mixtes diverses
+6_TO_8	Agriculture généraliste (types 6 à 8)
+SUB	Toutes exploitations classifiables
+9	Exploitations non classifiables
+TOT	Total des exploitations
+1A	Agriculture générale
+11A	Céréals
+111A	Céréales sauf riz
+112A	Riz
+113A	Céréales, riz compris
+12A	Autres cultures agricoles
+121A	Plantes sarclées
+122A	Céréales et plantes sarclées
+123A	Cultures agricoles diverses
+1231A	Légumes frais de plein champ
+1232A	Autres cultures agricoles diverses
+2A	Horticulture (maraîchage et fleurs)
+211A	Maraîchage plein air
+212A	Maraîchage sous verre
+213A	Maraîchage plein air/sous verre
+214A	Fleurs plein air
+215A	Fleurs sous verre
+216A	Fleurs plein air/sous verre
+217A	Horticulture diverse
+2171A	Maraîchage et fleurs plein air
+2172A	Maraîchage et fleurs sous verre
+2173A	Champignons
+2174A	Horticulture diverse mixte
+3A	Cultures permanentes
+31A	Viticulture
+311A	Vin de qualité
+312A	Vin de table
+313A	Raisins de table
+314A	Viticulture mixte
+32A	Fruits/autres cultures permanentes
+321A	Fruits
+322A	Agrumes
+323A	Olives
+324A	Cultures permanentes diverses
+4A	Herbivores
+41A	Bovins lait
+411A	Lait spécialisation
+412A	Lait avec élevage laitier
+42A	Bovins élevage/viande
+421A	Bovins élevage/viande (vaches nourrices)
+422A	Bovins élevage/viande(autres)
+43A	Bovins mixtes
+431A	Bovins lait avec élevage/viande
+432A	Bovins élevage/viande avec lait
+44A	Autres herbivores
+441A	Ovins
+442A	Bovins et ovins
+443A	Hebrivores divers
+5A	Granivores
+51A	Porcs
+511A	Porcs élevage
+512A	Porcs engrais
+513A	Porcs mixtes
+52A	Autres granivores
+521A	Poules pondeuses
+522A	Volailles chair
+523A	Porcs et volailles
+524A	Granivores divers
+6A	Polyculture
+61A	Horticulture et cultures permanentes
+62A	Autres polycultures
+621A	Agriculture générale et horticulture
+622A	Agriculture générale et viticulture
+623A	Agriculture générale et fruits/autre cultures permanentes
+624A	Agriculture générale partiellement dominante
+625A	Horticulture ou culture permanentes partiellement dominantes
+7A	Polyélevage
+71A	Herbivores partiellemnt dominants
+711A	Lait partiellement dominant
+712A	Herbivores non laitiers partiellement dominants
+72A	Autres polyélevages
+721A	Granivores et lait
+722A	Granivores et herbivores non laitiers
+723A	Granivores partiellement dominants
+8A	Culture-élevage
+81A	Agriculture générale et herbivores
+811A	Agriculture générale avec lait
+812A	Lait avec agriculture générale
+813A	Agriculture générale avec herbivores non laitiers
+814A	Herbivores non laitiers avec agriculture générale
+82A	Autres culture-élevages
+821A	Agriculture générale et granivores
+822A	Culture-élevage divers

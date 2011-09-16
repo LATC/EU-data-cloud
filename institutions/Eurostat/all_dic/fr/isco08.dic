@@ -1,0 +1,623 @@
+TOTAL	Total
+OC1	Directeurs, cadres de direction et gérants
+OC11	Directeurs généraux, cadres supérieurs et membres de l'Exécutif et des corps législatifs
+OC111	Membres des corps législatifs et cadres supérieurs de l'administration publique
+OC1111	Membres des corps législatifs
+OC1112	Cadres supérieurs de l'administration publique
+OC1113	Chefs traditionnels et chefs de village
+OC1114	Dirigeants et cadres supérieurs d'organisations spécialisées
+OC112	Directeurs généraux d'entreprise
+OC1120	Directeurs généraux d'entreprise
+OC12	Directeurs de services administratifs et commerciaux 
+OC121	Directeurs  de services administratifs
+OC1211	Directeurs et cadres de direction, services financiers
+OC1212	Directeurs et cadres de direction, ressources humaines 
+OC1213	Directeurs et cadres de direction, stratégie et planifications
+OC1219	Directeurs des services administratifs non classés ailleurs
+OC122	Directeurs et cadres de direction, ventes, commercialisation et développement
+OC1221	Directeurs et cadres de direction, ventes et commercialisation
+OC1222	Directeurs et cadres de direction, publicité et relations publiques
+OC1223	Directeurs et cadres de direction, recherche-développement
+OC13	Directeurs et cadres de direction, production et services spécialisés
+OC131	Directeurs et cadres de direction,  agriculture, sylviculture et pêche
+OC1311	Directeurs et cadres de direction,  agriculture et sylviculture
+OC1312	Directeurs et cadres de direction, aquaculture et pêche
+OC132	Directeurs et cadres de direction, industries manufacturières, mines, bâtiment et distribution 
+OC1321	Directeurs et cadres de direction, industrie manufacturière
+OC1322	Directeurs et cadres de direction, mines
+OC1323	Directeurs et cadres de direction, bâtiment
+OC1324	Directeurs et cadres de direction, approvisionnement, distribution et assimilés
+OC133	Directeurs et cadres de direction, technologies de l'information et des communications
+OC1330	Directeurs et cadres de direction, technologies de l'information et des communications
+OC134	Cadres de direction, services spécialisés
+OC1341	Cadres de direction, garde d'enfants
+OC1342	Cadres de direction, services de santé
+OC1343	Cadres de direction, services aux personnes âgées
+OC1344	Cadres de direction, services sociaux
+OC1345	Cadres de direction, éducation
+OC1346	Directeurs et cadres de direction, succursales de banque, services financiers et assurances
+OC1349	Autres cadres de direction, services spécialisés non classés ailleurs
+OC14	Directeurs et gérants de l'hôtellerie, la restauration, le commerce et autres services
+OC141	Directeurs et gérants, hôtellerie et restauration
+OC1411	Directeurs et gérants, hôtellerie
+OC1412	Directeurs et gérants, restauration
+OC142	Directeurs et gérants, commerce de détail et de gros
+OC1420	Directeurs et gérants, commerce de détail et de gros
+OC143	Autres directeurs et gérants
+OC1431	Directeurs et gérants, centres sportifs, centres de loisirs et centres culturels
+OC1439	Directeurs et gérants, services non classés ailleurs
+OC2	Professions intellectuelles et scientifiques
+OC21	Spécialistes des sciences techniques
+OC211	Physiciens, chimistes et assimilés
+OC2111	Physiciens et astronomes
+OC2112	Météorologues
+OC2113	Chimistes
+OC2114	Géologues et géophysiciens
+OC212	Mathématiciens, actuaires et statisticiens
+OC2120	Mathématiciens, actuaires et statisticiens
+OC213	Spécialistes des sciences de la vie
+OC2131	Biologistes, botanistes, zoologistes et assimilés
+OC2132	Agronomes et assimilés
+OC2133	Spécialistes de la protection de l'environnement
+OC214	Spécialistes, sciences techniques (sauf électrotechniques)
+OC2141	Spécialistes, sciences techniques de la production et de l'industrie
+OC2142	Ingénieurs civils
+OC2143	Ingénieurs écologistes
+OC2144	Ingénieurs mécaniciens
+OC2145	Ingénieurs chimistes
+OC2146	Ingénieurs des mines, ingénieurs métallurgistes et assimilés
+OC2149	Spécialistes, sciences techniques non classés ailleurs
+OC215	Ingénieurs de l'électrotechnique
+OC2151	Ingénieurs électriciens
+OC2152	Ingénieurs électroniciens
+OC2153	Spécialistes des télécommunications
+OC216	Architectes, urbanistes, géomètres et concepteurs 
+OC2161	Architectes, bâtiment
+OC2162	Architectes paysagistes
+OC2163	Concepteurs modélistes de produits et de vêtements
+OC2164	Urbanistes et ingénieurs de la circulation routière
+OC2165	Cartographes et géomètres
+OC2166	Concepteurs graphiques, multimédia - graphistes
+OC22	Spécialistes de la santé
+OC221	Médecins
+OC2211	Médecins généralistes 
+OC2212	Médecins spécialistes 
+OC222	Cadres infirmiers et sages-femmes
+OC2221	Cadres infirmiers
+OC2222	Sages-femmes
+OC223	Spécialistes des médecines traditionnelles et des médecines complémentaires
+OC2230	Spécialistes des médecines traditionnelles et des médecines complémentaires
+OC224	Praticiens paramédicaux
+OC2240	Praticiens paramédicaux
+OC225	Vétérinaires
+OC2250	Vétérinaires
+OC226	Autres spécialistes des professions de la santé
+OC2261	Dentistes
+OC2262	Pharmaciens
+OC2263	Spécialistes de la salubrité de l'environnement, de l'hygiène et de la santé au travail
+OC2264	Physiothérapeutes 
+OC2265	Diététiciens et spécialistes de la nutrition
+OC2266	Audiologistes et orthophonistes
+OC2267	Optométristes
+OC2269	Spécialistes de la santé non classés ailleurs
+OC23	Spécialistes de l'enseignement
+OC231	Professeurs d'université et d'établissements d'enseignement supérieur
+OC2310	Professeurs d'université et d'établissements d'enseignement supérieur
+OC232	Professeurs, enseignement technique et professionnel 
+OC2320	Professeurs, enseignement technique et professionnel 
+OC233	Professeurs, enseignement secondaire
+OC2330	Professeurs, enseignement secondaire 
+OC234	Instituteurs, enseignement primaire et éducateurs de la petite enfance
+OC2341	Instituteurs, enseignement primaire 
+OC2342	Educateurs de la petite enfance
+OC235	Autres spécialistes de l'enseignement
+OC2351	Spécialistes des méthodes d'enseignement
+OC2352	Enseignants, éducation spécialisée
+OC2353	Autres professeurs de langues
+OC2354	Autres professeurs de musique
+OC2355	Autres professeurs de disciplines artistiques
+OC2356	Formateurs en technologies de l'information
+OC2359	Spécialistes de l'enseignement, non classés ailleurs
+OC24	Spécialistes en administration d'entreprises
+OC241	Spécialistes en finances
+OC2411	Cadres comptables 
+OC2412	Conseillers en finances et investissements
+OC2413	Analystes financiers
+OC242	Spécialistes des fonctions administratives
+OC2421	Analystes, gestion et organisation 
+OC2422	Spécialistes, administration et politiques
+OC2423	Spécialistes, ressources humaines et évolution de carrière
+OC2424	Spécialistes de la formation du personnel
+OC243	Spécialistes des ventes, de la  commercialisation et des relations publiques
+OC2431	Spécialistes de la publicité et de la commercialisation
+OC2432	Spécialistes des relations publiques
+OC2433	Spécialistes des ventes, secteurs médical et technique (à l'exception des TIC)
+OC2434	Spécialistes des ventes, technologies de l'information et des communications
+OC25	Spécialistes des technologies de l'information et des communications
+OC251	Concepteurs et analystes de logiciels et de multimédia
+OC2511	Analystes de systèmes
+OC2512	Concepteurs de logiciels
+OC2513	Concepteurs de sites Internet et de multimédia
+OC2514	Programmeurs d'applications
+OC2519	Concepteurs et analystes de logiciels, et concepteurs de multimédia non classés ailleurs
+OC252	Spécialistes des bases de données et des réseaux d'ordinateurs
+OC2521	Spécialistes des bases de données
+OC2522	Administrateurs de systèmes
+OC2523	Spécialistes des réseaux d'ordinateurs
+OC2529	Spécialistes des bases de données et des réseaux d'ordinateurs non classés ailleurs
+OC26	Spécialistes de la justice, des sciences sociales et de la culture
+OC261	Juristes
+OC2611	Avocats
+OC2612	Magistrats
+OC2619	Juristes non classés ailleurs
+OC262	Archivistes, bibliothécaires, documentalistes et assimilés
+OC2621	Archivistes paléographes et conservateurs de musée
+OC2622	Bibliothécaires, documentalistes et professions assimilées
+OC263	Spécialistes des sciences sociales et du clergé
+OC2631	Economistes
+OC2632	Sociologues, anthropologues et assimilés
+OC2633	Philosophes, historiens et spécialistes des sciences politiques
+OC2634	Psychologues
+OC2635	Spécialistes du travail social
+OC2636	Ministres des cultes
+OC264	Auteurs, journalistes et linguistes
+OC2641	Auteurs et autres écrivains
+OC2642	Journalistes
+OC2643	Traducteurs, interprètes et linguistes
+OC265	Artistes créateurs et exécutants
+OC2651	Artistes plasticiens
+OC2652	Compositeurs, musiciens et chanteurs
+OC2653	Danseurs et chorégraphes
+OC2654	Metteurs en scène de cinéma, de théâtre et d'autres spectacles
+OC2655	Acteurs
+OC2656	Annonceurs-présentateurs de radio, de télévision et autres médias
+OC2659	Artistes créateurs et exécutants non classés ailleurs
+OC3	Professions intermédiaires
+OC31	Professions intermédiaires des sciences et techniques 
+OC311	Techniciens des sciences physiques et techniques
+OC3111	Techniciens des sciences chimiques et physiques
+OC3112	Techniciens du génie civil
+OC3113	Techniciens en électricité
+OC3114	Techniciens en électronique
+OC3115	Techniciens en construction mécanique
+OC3116	Techniciens en chimie industrielle
+OC3117	Techniciens des mines, techniciens métallurgistes
+OC3118	Dessinateurs industriels
+OC3119	Techniciens des sciences physiques et techniques non classés ailleurs
+OC312	Superviseurs, mines, industries manufacturières et bâtiment
+OC3121	Superviseurs, mines
+OC3122	Superviseurs, industries manufacturières
+OC3123	Superviseurs, bâtiment
+OC313	Techniciens, contrôle de processus industriels
+OC3131	Conducteurs d'installations de production d'énergie
+OC3132	Conducteurs d'incinérateurs et d'installations de traitement de l'eau
+OC3133	Conducteurs d'installations de traitement chimique
+OC3134	Conducteurs d'installations de raffinage de pétrole et de gaz naturel
+OC3135	Contrôleurs des processus industriels, métallurgie
+OC3139	Techniciens, contrôle de processus industriels non classés ailleurs
+OC314	Techniciens et travailleurs assimilés des sciences de la vie
+OC3141	Techniciens des sciences de la vie (à l'exception de la médecine)
+OC3142	Techniciens, agriculture et élevage
+OC3143	Techniciens, sylviculture
+OC315	Contrôleurs et techniciens des moyens de transport maritime et aérien
+OC3151	Officiers mécaniciens de navires
+OC3152	Officiers de pont et pilotes
+OC3153	Pilotes d'avions et assimilés
+OC3154	Contrôleurs de la circulation aérienne
+OC3155	Techniciens de la sécurité aérienne
+OC32	Professions intermédiaires de la santé 
+OC321	Techniciens de la médecine et de la pharmacie
+OC3211	Techniciens d'appareils électromédicaux
+OC3212	Techniciens de laboratoire médical
+OC3213	Techniciens et assistants pharmaciens et préparateurs en pharmacie
+OC3214	Techniciens de prothèses médicales et dentaires
+OC322	Personnel infirmier et sages femmes (niveau intermédiaire)
+OC3221	Personnel infirmier (niveau intermédiaire)
+OC3222	Sages-femmes (niveau intermédiaire)
+OC323	Praticiens des médecines traditionnelles et des médecines complémentaires
+OC3230	Praticiens des médecines traditionnelles et des médecines complémentaires
+OC324	Techniciens et assistants vétérinaires
+OC3240	Techniciens et assistants vétérinaires
+OC325	Autres professions intermédiaires de la santé
+OC3251	Assistants et thérapeutes en médecine dentaire
+OC3252	Techniciens de dossiers médicaux
+OC3253	Agents de santé communautaire
+OC3254	Opticiens
+OC3255	Techniciens et assistants en physiothérapie
+OC3256	Assistants médicaux
+OC3257	Inspecteurs, salubrité de l'environnement et de la santé au travail, et assimilés
+OC3258	Ambulanciers
+OC3259	Professions intermédiaires de la santé non classées ailleurs
+OC33	Professions intermédiaires, finance et administration
+OC331	Professions intermédiaires de la finance et des mathématiques
+OC3311	Courtiers en valeurs et cambistes
+OC3312	Responsables des prêts
+OC3313	Professions intermédiaires de la comptabilité
+OC3314	Professions intermédiaires de la statistique , des mathématiques et assimilées
+OC3315	Commissaires-priseurs et autres experts en évaluation
+OC332	Agents de vente et d'achat, courtiers
+OC3321	Agents d'assurances
+OC3322	Représentants et techniciens commerciaux
+OC3323	Acheteurs
+OC3324	Courtiers en marchandises
+OC333	Agents de services commerciaux
+OC3331	Agents concessionnaires
+OC3332	Organisateurs de conférences et d'événements
+OC3333	Agents d'emploi et de recrutement de main-d'oeuvre
+OC3334	Agents immobiliers
+OC3339	Agents de services commerciaux non classés ailleurs
+OC334	Secrétaires d'administration et secrétaires spécialisés
+OC3341	Superviseurs, travail de bureau
+OC3342	Secrétaires, services juridiques
+OC3343	Secrétaires d'administration et secrétaires exécutifs
+OC3344	Secrétaires médicaux/ales
+OC335	Professions intermédiaires de l'application de la loi et assimilées
+OC3351	Inspecteurs des douanes et des frontières
+OC3352	Contrôleurs des impôts
+OC3353	Agents des services publics accordant des prestations sociales
+OC3354	Agents des services publics accordant des permis et des licences
+OC3355	Inspecteurs et enquêteurs de police
+OC3359	Professions intermédiaires de l'application de la loi et  assimilées non classées ailleurs
+OC34	Professions intermédiaires des services juridiques, des services sociaux et assimilés
+OC341	Professions intermédiaires des services juridiques, des services sociaux et des religions
+OC3411	Professions juridiques intermédiaires et assimilées
+OC3412	Professions intermédiaires du travail social
+OC3413	Professions intermédiaires des religions
+OC342	Travailleurs du secteur des sports et des activités de remise en forme 
+OC3421	Athlètes et sportifs de compétition
+OC3422	Entraîneurs sportifs et arbitres de sport
+OC3423	Instructeurs et animateurs de programmes, loisirs et activités de remise en forme
+OC343	Professions intermédiaires de la culture, de la création artistique et des activités culinaires
+OC3431	Photographes
+OC3432	Décorateurs et designers d'intérieurs
+OC3433	Techniciens de galeries d'art, de musées et de bibliothèques
+OC3434	Chefs cuisiniers 
+OC3435	Autres professions intermédiaires de la culture et de la création artistique
+OC35	Techniciens de l'information et des communications
+OC351	Techniciens, opérations et soutien aux utilisateurs des technologies de l'information et des communications
+OC3511	Techniciens des technologies de l'information et des communications, opérations
+OC3512	Techniciens des technologies de l'information et des communications, soutien aux utilisateurs
+OC3513	Techniciens, réseaux et systèmes d'ordinateurs
+OC3514	Techniciens de l'Internet
+OC352	Techniciens des télécommunications et de la radio diffusion
+OC3521	Techniciens de radio-télévision et d'enregistrement audio-visuel
+OC3522	Techniciens de télécommunications
+OC4	Employés de type administratif 
+OC41	Employés de bureau
+OC411	Employés de bureau, fonctions générales
+OC4110	Employés de bureau, fonctions générales
+OC412	Secrétaires (fonctions générales)
+OC4120	Secrétaires (fonctions générales) 
+OC413	Opérateurs sur clavier
+OC4131	Dactylographes et opérateurs de traitement de texte
+OC4132	Opérateurs sur clavier numérique
+OC42	Employés de réception, guichetiers et assimilés
+OC421	Guichetiers, encaisseurs et assimilés
+OC4211	Guichetiers de banque et assimilés
+OC4212	Croupiers et assimilés dans le secteur des jeux de hasard
+OC4213	Prêteurs sur gages et bailleurs de fonds
+OC4214	Encaisseurs et assimilés
+OC422	Employés chargés d'informer la clientèle
+OC4221	Consultants et employés d'agence de voyages
+OC4222	Employés de centre d'appel 
+OC4223	Téléphonistes-standardistes
+OC4224	Réceptionnistes, hôtellerie
+OC4225	Employés, service d'information
+OC4226	Réceptionnistes (fonctions générales)
+OC4227	Intervieweurs, enquêtes et études de marché
+OC4229	Employés chargés d'informer la clientèle non classés ailleurs
+OC43	Employés des services comptables et d'approvisionnement
+OC431	Employés des services comptables et financiers
+OC4311	Aides comptables et teneurs de livres
+OC4312	Employés de services statistiques ou financiers
+OC4313	Commis, service de paie
+OC432	Employés d'approvisionnement, d'ordonnancement et des transports
+OC4321	Employés du service des stocks
+OC4322	Employés du service d'ordonnancement de la production
+OC4323	Employés du service des transports
+OC44	Autres employés de type administratif
+OC441	Autres employés de type administratif
+OC4411	Employés de bibliothèque
+OC4412	Employés de service du courrier
+OC4413	Codeurs, correcteurs d'épreuves et assimilés
+OC4414	Ecrivains publics et assimilés
+OC4415	Classeurs-archivistes
+OC4416	Employés, service du personnel
+OC4419	Employés administratifs non classés ailleurs
+OC5	Personnel des services directs aux particuliers, commerçants et vendeurs
+OC51	Personnel des services directs aux particuliers
+OC511	Agents d'accompagnement et assimilés (transports et tourisme)
+OC5111	Agents d'accueil et stewards 
+OC5112	Contrôleurs et receveurs de transports publics
+OC5113	Guides
+OC512	Cuisiniers
+OC5120	Cuisiniers
+OC513	Serveurs et barmen
+OC5131	Serveurs
+OC5132	Barmen
+OC514	Coiffeurs, esthéticiens et assimilés
+OC5141	Coiffeurs
+OC5142	Esthéticiens et assimilés
+OC515	Intendants, gouvernantes et concierges
+OC5151	Intendants et superviseurs des services de nettoyage de bureaux, des hôtels et d'autres établissements
+OC5152	Gouvernantes et intendants à domicile
+OC5153	Concierges
+OC516	Autre personnel des services directs aux particuliers
+OC5161	Astrologues, diseurs de bonne aventure et assimilés
+OC5162	Personnel de compagnie et valets de chambre
+OC5163	Agents de pompes funèbres et embaumeurs
+OC5164	Toiletteurs et gardiens d'animaux
+OC5165	Moniteurs d'auto-école
+OC5169	Personnel des services directs aux particuliers, non classé ailleurs
+OC52	Commerçants et vendeurs
+OC521	Vendeurs sur les marchés et vendeurs ambulants de comestibles
+OC5211	Vendeurs à l'étal et sur les marchés
+OC5212	Vendeurs ambulants de comestibles
+OC522	Commerçants et vendeurs, magasins
+OC5221	Commerçants, magasins
+OC5222	Superviseurs, magasins
+OC5223	Vendeurs, magasin
+OC523	Caissiers et billettistes
+OC5230	Caissiers et billettistes
+OC524	Autres vendeurs
+OC5241	Mannequins et autres modèles
+OC5242	Démonstrateurs en magasin
+OC5243	Vendeurs au porte à porte
+OC5244	Télévendeurs
+OC5245	Pompistes
+OC5246	Commis au comptoir, restauration rapide
+OC5249	Vendeurs non classés ailleurs
+OC53	Personnel soignant
+OC531	Gardes d'enfants et aides-enseignants
+OC5311	Gardes d'enfants
+OC5312	Aides-enseignants
+OC532	Aides-soignants
+OC5321	Aides-soignants en institution
+OC5322	Aides-soignants à domicile
+OC5329	Personnel soignant et assimilé, non classé ailleurs
+OC54	Personnel des services de protection et de sécurité
+OC541	Personnel des services de protection et de sécurité
+OC5411	Pompiers
+OC5412	Agents de police
+OC5413	Gardiens de prison
+OC5414	Agents de sécurité
+OC5419	Personnel des services de protection et de sécurité, non classé ailleurs
+OC6	Agriculteurs et ouvriers qualifiés de l'agriculture, de la sylviculture et de la pêche
+OC61	Agriculteurs et ouvriers qualifiés de l'agriculture commerciale
+OC611	Agriculteurs et ouvriers qualifiés, cultures commerciales 
+OC6111	Agriculteurs et ouvriers qualifiés, cultures de plein champ
+OC6112	Arboriculteurs et ouvriers qualifiés de l'arboriculture
+OC6113	Agriculteurs et ouvriers qualifiés de l'horticulture et des pépinières
+OC6114	Agriculteurs et ouvriers qualifiés, cultures diversifiées
+OC612	Eleveurs et ouvriers qualifiés de l'élevage commercial et assimilés
+OC6121	Eleveurs et ouvriers qualifiés de l'élevage de bétail
+OC6122	Aviculteurs et ouvriers qualifiés de l'aviculture
+OC6123	Apiculteurs, sériciculteurs et ouvriers qualifiés de l'apiculture et de la sériciculture
+OC6129	Eleveurs et ouvriers qualifiés de l'élevage commercial et assimilés, non classés ailleurs
+OC613	Agriculteurs et ouvriers qualifiés des cultures et de l'élevage à but commercial
+OC6130	Agriculteurs et ouvriers qualifiés des cultures et de l'élevage à but commercial
+OC62	Professions commerciales qualifiées de la sylviculture, de la pêche et de la chasse
+OC621	Professions de la sylviculture et assimilées
+OC6210	Exploitants et ouvriers forestiers
+OC622	Pêcheurs, chasseurs et trappeurs
+OC6221	Aquaculteurs et ouvriers de l'aquaculture
+OC6222	Pêcheurs de la pêche côtière et en eaux intérieures
+OC6223	Pêcheurs de la pêche en haute mer
+OC6224	Chasseurs et trappeurs
+OC63	Agriculteurs, pêcheurs, chasseurs et cueilleurs de subsistance
+OC631	Agriculteurs, subsistance
+OC6310	Agriculteurs, subsistance
+OC632	Eleveurs de bétail, subsistance
+OC6320	Eleveurs de bétail, subsistance
+OC633	Agriculteurs et éleveurs, subsistance
+OC6330	Agriculteurs et éleveurs, subsistance
+OC634	Pêcheurs, chasseurs, trappeurs et cueilleurs, subsistance
+OC6340	Pêcheurs, chasseurs, trappeurs et cueilleurs, subsistance
+OC7	Métiers qualifiés de l'industrie et de l'artisanat
+OC71	Métiers qualifiés du bâtiment et assimilés, sauf électriciens
+OC711	Métiers qualifiés du bâtiment (gros oeuvre) et assimilés
+OC7111	Constructeurs de maisons
+OC7112	Maçons
+OC7113	Fendeurs et tailleurs de pierre
+OC7114	Constructeurs en béton armé, maçons ragréeurs et assimilés
+OC7115	Charpentiers en bois et menuisiers du bâtiment
+OC7119	Métiers qualifiés du bâtiment (gros oeuvre) et assimilés non classés ailleurs
+OC712	Métiers qualifiés du bâtiment (finitions) et assimilés
+OC7121	Couvreurs et zingueurs
+OC7122	Poseurs de revêtements de sol et carreleurs
+OC7123	Plâtriers
+OC7124	Monteurs en isolation thermique et acoustique
+OC7125	Vitriers
+OC7126	Plombiers et tuyauteurs
+OC7127	Mécaniciens-installateurs réfrigération et climatisation
+OC713	Ouvriers peintres, ravaleurs de façades et assimilés
+OC7131	Peintres en bâtiment et poseurs de papiers peints
+OC7132	Laqueurs, vernisseurs et assimilés
+OC7133	Ravaleurs de façades et ramoneurs
+OC72	Métiers qualifiés de la métallurgie, de la construction mécanique et assimilés
+OC721	Mouleurs de fonderie, soudeurs, tôliers-chaudronniers, monteurs de charpentes métalliques et assimilés
+OC7211	Mouleurs et noyauteurs de fonderie
+OC7212	Soudeurs et oxycoupeurs
+OC7213	Tôliers-chaudronniers
+OC7214	Charpentiers métalliers et monteurs de charpentes métalliques
+OC7215	Gréeurs et épisseurs de câbles
+OC722	Forgerons, outilleurs et assimilés
+OC7221	Forgerons, estampeurs et conducteurs de presses à forger
+OC7222	Outilleurs et assimilés
+OC7223	Régleurs et conducteurs de machines-outils
+OC7224	Meuleurs, polisseurs et affûteurs
+OC723	Mécaniciens et réparateurs de machines
+OC7231	Mécaniciens et réparateurs de véhicules à moteur
+OC7232	Mécaniciens et réparateurs de moteurs d'avion
+OC7233	Mécaniciens et réparateurs de machines agricoles et industrielles
+OC7234	Réparateurs de bicyclettes et assimilés
+OC73	Métiers qualifiés de l'artisanat et de l'imprimerie
+OC731	Métiers de l'artisanat
+OC7311	Mécaniciens-réparateurs d'instruments de précision
+OC7312	Facteurs et accordeurs d'instruments de musique
+OC7313	Joailliers et orfèvres
+OC7314	Potiers et assimilés (produits céramiques et abrasifs)
+OC7315	Souffleurs, mouleurs, tailleurs, meuleurs et polisseurs de verre
+OC7316	Peintres d'enseignes, peintres-décorateurs et graveurs
+OC7317	Métiers de l'artisanat sur bois et sur des matériaux similaires
+OC7318	Métiers de l'artisanat sur textile, sur cuir et sur des matériaux similaires
+OC7319	Métiers de l'artisanat non classés ailleurs
+OC732	Métiers de l'imprimerie
+OC7321	Compositeurs et préparateurs en forme imprimante et assimilés
+OC7322	Imprimeurs
+OC7323	Relieurs et assimiles
+OC74	Métiers de l'électricité et de l'électrotechnique
+OC741	Installateurs et réparateurs, équipements électriques
+OC7411	Electriciens du bâtiment et assimilés
+OC7412	Mécaniciens et ajusteurs d'appareils électriques
+OC7413	Monteurs et réparateurs de lignes électriques 
+OC742	Monteurs et réparateurs, électronique et télécommunications
+OC7421	Mécaniciens et réparateurs d'appareils électroniques
+OC7422	Monteurs et réparateurs, technologies de l'information et des communications
+OC75	Métiers de l'alimentation, du travail sur bois, de l'habillement et autres métiers qualifiés de l'industrie et de l'artisanat
+OC751	Métiers qualifiés de l'alimentation et assimilés
+OC7511	Bouchers, poissonniers et assimilés
+OC7512	Boulangers, pâtissiers et confiseurs
+OC7513	Fabricants des produits laitiers
+OC7514	Conserveurs de fruits, de légumes et assimilés
+OC7515	Dégustateurs et classeurs de denrées alimentaires et de boissons
+OC7516	Métiers qualifiés de la préparation du tabac et de la fabrication des produits du tabac
+OC752	Métiers qualifiés du traitement du bois, ébénistes et assimilés
+OC7521	Métiers qualifiés du traitement du bois
+OC7522	Ebénistes, menuisiers et assimilés
+OC7523	Régleurs et conducteurs de machines à bois
+OC753	Métiers qualifiés de l'habillement et assimilés
+OC7531	Tailleurs, couturiers, fourreurs, modistes et chapeliers
+OC7532	Métiers qualifiés de la coupe de vêtements et assimilés
+OC7533	Couseurs, brodeurs et assimilés
+OC7534	Tapissiers et assimilés
+OC7535	Tanneurs, peaussiers et mégissiers
+OC7536	Cordonniers et assimilés
+OC754	Autres métiers qualifiés de l'industrie et de l'artisanat
+OC7541	Scaphandriers et plongeurs
+OC7542	Boutefeux
+OC7543	Classeurs et essayeurs de produits (à l'exception des aliments et des boissons)
+OC7544	Fumigateurs et préposés au contrôle de la vermine et des mauvaises herbes
+OC7549	Métiers qualifiés de l'industrie et de l'artisanat non classés ailleurs
+OC8	Conducteurs d'installations et de machines, et ouvriers de l'assemblage
+OC81	Conducteurs de machines et d'installations fixes
+OC811	Conducteurs d'installations d'exploitation minière et d'extraction des minéraux
+OC8111	Mineurs et conducteurs d'installations de mine
+OC8112	Conducteurs d'installations de préparation des minerais et de la roche
+OC8113	Foreurs, sondeurs de puits et assimilés
+OC8114	Conducteurs de machines à fabriquer du ciment, de la pierre et d'autres produits minéraux
+OC812	Conducteurs d'installations de transformation et de traitement superficiel des métaux
+OC8121	Conducteurs d'installations de transformation et de traitement des métaux
+OC8122	Conducteurs d'installations de traitement superficiel des métaux
+OC813	Conducteurs d'installations et de machines pour la fabrication des produits chimiques et photographiques
+OC8131	Conducteurs d'installations et de machines de traitement chimique 
+OC8132	Conducteurs de machines pour la fabrication des produits photographiques
+OC814	Conducteurs de machines pour la fabrication de produits en caoutchouc, en matières plastiques et en papeterie
+OC8141	Conducteurs de machines pour la fabrication des produits en caoutchouc
+OC8142	Conducteurs de machines pour la fabrication de produits en matières plastiques
+OC8143	Conducteurs de machines de papeterie
+OC815	Conducteurs de machines pour la fabrication de produits textiles et d'articles en fourrure et en cuir
+OC8151	Conducteurs de machines à préparer les fibres, à filer et à bobiner
+OC8152	Conducteurs de métiers mécaniques à tisser et à tricoter
+OC8153	Conducteurs de machines à coudre
+OC8154	Conducteurs de machines à blanchir, à teindre et à nettoyer les tissus
+OC8155	Conducteurs de machines à préparer les fourrures et le cuir
+OC8156	Conducteurs de machines pour la fabrication des chaussures et assimilés
+OC8157	Conducteurs de machines de blanchisserie
+OC8159	Conducteurs de machines pour la fabrication de produits textiles et d'articles en fourrure et en cuir, non classés ailleurs
+OC816	Conducteurs de machines pour la fabrication de denrées alimentaires et de produits connexes
+OC8160	Conducteurs de machines pour la fabrication de denrées alimentaires et de produits connexes
+OC817	Conducteurs d'installations pour la fabrication du papier et pour le travail du bois
+OC8171	Conducteurs d'installations pour la fabrication du papier et de la pâte à papier
+OC8172	Conducteurs d'installations pour le travail du bois
+OC818	Autres conducteurs de machines et d'installations fixes
+OC8181	Conducteurs d'installations de verrerie et de céramique
+OC8182	Chauffeurs de machines à vapeur et de chaudières
+OC8183	Conducteurs de machines d'emballage, d'embouteillage et d'étiquetage
+OC8189	Conducteurs de machines et d'installations fixes non classés ailleurs
+OC82	Ouvriers de l'assemblage
+OC821	Ouvriers de l'assemblage
+OC8211	Monteurs en construction mécanique
+OC8212	Monteurs d'appareils électriques et électroniques
+OC8219	Monteurs et assembleurs non classés ailleurs
+OC83	Conducteurs de véhicules et d'engins lourds de levage et de manoeuvre
+OC831	Conducteurs de locomotives et assimilés
+OC8311	Conducteurs de locomotives
+OC8312	Serre-freins, aiguilleurs et agents de manoeuvre
+OC832	Conducteurs d'automobiles, de camionnettes et de motocycles
+OC8321	Conducteurs de motocycles
+OC8322	Chauffeurs de taxi et conducteurs d'automobiles et de camionnettes
+OC833	Conducteurs de poids lourds et d'autobus
+OC8331	Conducteurs d'autobus et de tramways
+OC8332	Conducteurs de poids lourds et de camions
+OC834	Conducteurs de matériels et engins mobiles
+OC8341	Conducteurs d'engins mobiles agricoles et forestiers
+OC8342	Conducteurs d'engins de terrassement et de matériels similaires
+OC8343	Conducteurs de grues, d'engins de levage divers et de matériels similaires
+OC8344	Conducteurs de chariots élévateurs
+OC835	Matelots de pont et assimilés
+OC8350	Matelots de pont et assimilés
+OC9	Professions élémentaires
+OC91	Aides de ménage
+OC911	Aides de ménage et agents d'entretien à domicile et dans les hôtels et bureaux
+OC9111	Aides de ménage à domicile
+OC9112	Agents d'entretien dans les bureaux, les hôtels et autres établissements
+OC912	Laveurs de véhicules et de vitres, laveurs de linge et autres nettoyeurs manuels
+OC9121	Laveurs et repasseurs de linge à la main
+OC9122	Laveurs de véhicules
+OC9123	Laveurs de vitres
+OC9129	Autres nettoyeurs
+OC92	Manoeuvres de l'agriculture, de la pêche et de la sylviculture
+OC921	Manoeuvres de l'agriculture, de la pêche et de la sylviculture
+OC9211	Manoeuvres de l'agriculture
+OC9212	Manoeuvres de l'élevage
+OC9213	Manoeuvres de l'agriculture et de l'élevage
+OC9214	Manoeuvres, cultures maraîchères et horticulture
+OC9215	Manoeuvres forestiers
+OC9216	Manoeuvres pêcheurs et aquaculteurs
+OC93	Manoeuvres des mines, du bâtiment et des travaux publics, des industries manufacturières et des transports
+OC931	Manoeuvres des mines, du bâtiment et des travaux publics
+OC9311	Manoeuvres des mines et des carrières
+OC9312	Manoeuvres de chantier de travaux publics
+OC9313	Manoeuvres du bâtiment
+OC932	Manoeuvres des industries manufacturières
+OC9321	Emballeurs à la main et autres manoeuvres des industries manufacturières
+OC9329	Manoeuvres des industries manufacturières non classés ailleurs
+OC933	Manoeuvres des transports et de l'entreposage
+OC9331	Conducteurs de véhicules à bras et à pédales
+OC9332	Conducteurs de véhicules et de machines à traction animale
+OC9333	Manutentionnaires
+OC9334	Garnisseurs de rayons
+OC94	Assistants de fabrication de l'alimentation
+OC941	Assistants de fabrication de l'alimentation
+OC9411	Cuisiniers, restauration rapide
+OC9412	Aides de cuisine
+OC95	Vendeurs ambulants et autres travailleurs des petits métiers des rues et assimilés
+OC951	Travailleurs des petits métiers des rues et assimilés 
+OC9510	Travailleurs des petits métiers des rues et assimilés 
+OC952	Vendeurs ambulants (à l'exception de l'alimentation)
+OC9520	Vendeurs ambulants (à l'exception de l'alimentation)
+OC96	Eboueurs et autres travailleurs non qualifiés
+OC961	Eboueurs
+OC9611	Manoeuvres, enlèvement des ordures et matériel recyclable
+OC9612	Trieurs de déchets
+OC9613	Balayeurs et manoeuvres assimilés
+OC962	Autres professions élémentaires
+OC9621	Messagers, porteurs de bagages et livreurs de colis
+OC9622	Manoeuvres polyvalents
+OC9623	Encaisseurs de distributeurs automatiques à prépaiement et releveurs de compteurs
+OC9624	Porteurs d'eau et ramasseurs de bois de feu
+OC9629	Professions élémentaires non classés ailleurs
+OC0	Professions militaires
+OC01	Officiers des forces armées
+OC011	Officiers des forces armées
+OC0110	Officiers des forces armées
+OC02	Sous-officiers des forces armées
+OC021	Sous-officiers des forces armées
+OC0210	Sous-officiers des forces armées
+OC03	Autres membres des forces armées
+OC031	Autres membres des forces armées
+OC0310	Autres membres des forces armées
+OTH	Autres professions
+NRP	Sans réponse
+UNK	Inconnu

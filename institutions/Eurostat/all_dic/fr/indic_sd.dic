@@ -1,0 +1,63 @@
+TSDEC100	Growth rate of GDP per inhabitant - %
+TSDEC210	Gross investment, by institutional sector- % of GDP
+TSDEC240	Gross household saving - share of gross saving in total gross household disposable income
+TSDEC310	Labour productivity per hour worked - % change over previous year
+TSDEC340	Turnover from innovation, by economic sector - %
+TSDPC100	Resource productivity - EUR/kg
+TSDPC220	Components of domestic material consumption
+TSDPC230	Domestic material consumption by material
+TSDPC250	Production de déchets dangereux, par activité économique - tonnes
+TSDPC330	Consommation de certain alimentations par inhabitant
+TSDPC410	Entreprises avec un système de 'management environnemental' - Nombre
+TSDPC420	Attribution de labels écologiques par produits - Nombre
+TSDPC430	Zone bénéficiant d'un soutien agro-environnemental - %
+TSDPC440	Surface agricole sous agriculture biologique - %
+TSDPC520	Dépenses des ménages par personne, par catégorie - EUR par personne avec prix constant 1995
+TSDSC450	Faible performance en lecture des élèves - %
+TSDDE520	Changement dans les dépenses pour les pensions publiques et changements dans le taux de remplacement des revenus  théorique projeté - Points pourcent
+TSDDE530	Dépenses pour l'assistance aux personnes agées - % du PIB
+TSDPH210	Taux de décès dus à des maladies chroniques, par groupe d'âge - par 100 000 personnes
+TSDPH250	Selbstmordrate nach Altersgruppe - pro 100 000 Personen
+TSDPH310	Incidence de la salmonellose - nouveaux cas par 100 000 personnes
+TSDPH320	Indice de production de produits chimiques toxiques, par classe de toxicité - millions de tonnes
+TSDPH330	Personnes en excès de poids, par sexe - %
+TSDPH340	Personnes en excès de poids, par groupe d'age - %
+TSDCC110	Emissions de gaz à effet de serre par secteur - millions de tonnes d'équivalent CO2
+TSDCC220	Intensité d'émissions de gaz à effet de serre par consommation d'énergie - Indice 2000=100
+TSDCC230	Projections des émissions de gaz à effet de serre - % des emissions d´année base
+TSDCC240	Température moyenne à la surface de la Terre - deviation du temperature comparée avec la temperature moyenne 1961-1990 en °C
+TSDCC310	Dépendance énergétique - %
+TSDCC340	Part des biocarburants dans la consommation totale de carburant pour le transport - %
+TSDCC350	Production combinée de chaleur et d'électricité - % de la production d'électricité totale brute
+TSDTR210	Répartition modale du transport de voyageurs - % dans le total intérieur de passagers-km
+TSDTR220	Répartition modale du transport de fret - % dans le tonnes-km intérieur total
+TSDTR240	Volume du transport de voyageurs - Indice 1995=100
+TSDTR310	Prix des carburants routiers - euro par litre, avec prix constant 1995
+TSDTR420	Personnes tuées dans les accidents de la route, par groupe d´âge - Personnes
+TSDTR450	Moyenne des émissions de CO2 par km dues aux véhicules particuliers neufs - Gramme CO2 par kilomètre
+TSDNR220	Indice Liste Rouge des espèces européennes
+TSDNR310	Prélèvements en eau surface et souterraine - % des ressources en eau surface et souterraine disponibles
+TSDNR330	Demande biochimique en oxygène dans les rivières - ng/L
+TSDNR410	Concentration en mercure dans les poisons et coquillages
+TSDNR520	Forêt: acroissement et abattages - Part d´abattages annuels du acroissement net annuel
+TSDNR530	Arbres forestiers touchés par la défoliation - %
+TSDNR540	Dépassement des charges critiques d´azote
+TSDGP100	Aide publique au développement - % du revenu national brut
+TSDGP210	EU Importations en provenance des pays en voie de développement par groupe de revenu - milliards d´euro
+TSDGP220	EU Importations en provenance des pays en développement par groupe de produits - milliards d´euro
+TSDGP230	EU Importations en provenance des pays les moins développés, par groupe de produits - milliards d´euro
+TSDGP240	Mesure aggrégée de soutien - milliards d´euro
+TSDGP310	Financement total de l'UE pour le développement, par type - millions d´euro
+TSDGP320	Investissements directs étrangers pour les pays en développement, par groupe de revenu - millions d´euro
+TSDGP330	Aide publique au développement par groupe de revenu - millions d'euro
+TSDGP340	Aide publique au développement non liée  - %
+TSDGP350	Aide publique au développement bilatérale par catégorie - millions d´euro
+TSDGP410	Emissions en CO2 par habitant dans l'UE et dans les pays en développement - Tonnes
+TSDGP510	Population vivant à moins d´un dollar par jour - %
+TSDGP520	Aide publique au développement par habitant dans les pays bénéficiaires - Euro
+TSDGP530	Population avec un accès durable à une source d'eau de meilleure qualité - %
+TSDGO210	Cas d'infractions nouveaux, par domaine politique - Nombre
+TSDGO220	Transposition de la législation communautaire, par domaine politique - %
+TSDGO310	Participation aux élections parlementaires nationales et de l´UE - %
+TSDGO410	Part des taxes environnementales et des taxes sur le travail dans le revenu total des taxes - %
+TSDGO510	Niveau de confiance des citoyens dans les institutions de l'UE - %

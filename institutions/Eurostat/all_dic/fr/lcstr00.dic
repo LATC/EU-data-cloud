@@ -1,0 +1,29 @@
+D1	Rémunération des salariés
+D11	Salaires et traitements (total)
+D111	Salaires et traitements (à l'exclusion de ceux des apprentis)
+D1111	Rémunération directe et primes
+D11111	Rémunération directe
+D11112	Primes
+D111121	Primes à périodicité fixe (facultatif)
+D1112	Versements 'formation de patrimoine'
+D1113	Rémunérations pour journées non ouvrées et congés payés
+D1114	Salaires et traitements en nature
+D11141	Produits de l'entreprise (facultatif)
+D11142	Logement du personnel (facultatif)
+D11143	Voitures de société (facultatif)
+D11144	Autres (facultatif)
+D112	Salaires et traitements des apprentis
+D12	Cotisations sociales à la charge de l'employeur (total)
+D121	Cotisations sociales effectives à la charge de l'employeur (à l'exclusion de celles des apprentis)
+D1211	Cotisations obligatoires de sécurité sociale
+D1212	Cotisations conventionnelles, contractuelles et volontaires de sécurité sociale
+D122	Cotisations sociales imputées à la charge des employeurs (à l'exclusion de celles des apprentis)
+D1221	Salaire garanti en cas de maladie
+D1222	Salaire garanti en cas de chômage partiel
+D1223	Versements effectués aux salariés qui quittent l'entreprise
+D1224	Prestations sociales directes des employeurs
+D123	Cotisations sociales relatives aux apprentis à la charge de l'employeur
+D2	Frais de formation professionnelle (à l'exclusion des coûts relatifs aux apprentis)
+D3	Autres dépenses
+D4	Impôts
+D5	Subventions

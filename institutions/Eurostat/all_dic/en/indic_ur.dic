@@ -1,0 +1,958 @@
+DE1001V	Total Resident Population
+DE1002V	Male Resident Population
+DE1003V	Female Resident Population
+DE1067V	Total Resident Population 0-2
+DE1068V	Male Resident Population 0-2
+DE1069V	Female Resident Population 0-2
+DE1070V	Total Resident Population 3-4
+DE1071V	Male Resident Population 3-4
+DE1072V	Female Resident Population 3-4
+DE1040V	Total Resident Population 0-4
+DE1041V	Male Resident Population 0-4
+DE1042V	Female Resident Population 0-4
+DE1043V	Total Resident Population 5-14
+DE1044V	Male Resident Population 5-14
+DE1045V	Female Resident Population 5-14
+DE1046V	Total Resident Population 15-19
+DE1047V	Male Resident Population 15-19
+DE1048V	Female Resident Population 15-19
+DE1049V	Total Resident Population 20-24
+DE1050V	Male Resident Population 20-24
+DE1051V	Female Resident Population 20-24
+DE1052V	Total Resident Population 25-54
+DE1053V	Male Resident Population 25-54
+DE1054V	Female Resident Population 25-54
+DE1058V	Total Resident Population 25-34
+DE1059V	Male Resident Population 25-34
+DE1060V	Female Resident Population 25-34
+DE1061V	Total Resident Population 35-44
+DE1062V	Male Resident Population 35-44
+DE1063V	Female Resident Population 35-44
+DE1064V	Total Resident Population 45-54
+DE1065V	Male Resident Population 45-54
+DE1066V	Female Resident Population 45-54
+DE1073V	Median population age
+DE1025V	Total Resident Population 55-64
+DE1026V	Male Resident Population 55-64
+DE1027V	Female Resident Population 55-64
+DE1028V	Total Resident Population 65-74
+DE1029V	Male Resident Population 65-74
+DE1030V	Female Resident Population 65-74
+DE1055V	Total Resident Population 75 and over
+DE1056V	Male Resident Population 75 and over
+DE1057V	Female Resident Population 75 and over
+DE2001V	Residents who are Nationals
+DE2002V	Residents who are Nationals of other EU Member State
+DE2003V	Residents who are not EU Nationals
+DE2005V	Residents who are not EU Nationals and citizens of a country with high HDI
+DE2006V	Residents who are not EU Nationals and citizens of a country with a medium or low HDI
+DE2004V	Nationals born abroad
+DE2007V	Number of residents born abroad (not only nationals)
+DE3001V	Total Number of Households
+DE3017V	Total Resident Population living in households (excluding institutional households)
+DE3002V	One person households (Total)
+DE3005V	Lone parent households (Total)
+DE3008V	Lone pensioner (above retirement age) households Total
+DE3009V	Lone pensioner (above retirement age) households Male
+DE3010V	Lone pensioner (above retirement age) households Female
+DE3011V	Households with children aged 0 to under 18
+DE3012V	Nationals that have moved into the city during the last two years
+DE3013V	EU Nationals that have moved into the city during the last two years (stock)
+DE3014V	Non-EU Nationals that have moved into the city during the last two years (stock)
+DE3015V	Number of moves into the city during the last two years (flow)
+DE3016V	Number of moves out of the city during the last two years (flow)
+DE3018V	Households with 3 children or more under 18
+SA1001V	Number of dwellings
+SA1004V	Number of houses
+SA1005V	Number of apartments
+SA1007V	Number of households living in houses
+SA1008V	Number of households living in apartments
+SA1011V	Households owning their own dwelling
+SA1012V	Households in social housing
+SA1013V	Households in private rented housing
+SA1027V	Number of roofless persons
+SA1029V	Number of people in accommodation for the homeless
+SA1031V	Number of people in Women's Shelter
+SA1030V	Number of people in accommodation for immigrants
+SA1016V	Average price for an apartment per m2
+SA1023V	Average price for a house per m2
+SA1049V	Average annual rent for housing per m2
+SA1018V	Dwellings lacking basic amenities
+SA1019V	Average occupancy per occupied dwelling
+SA1025V	Empty conventional dwellings
+SA1026V	Non-conventional dwellings
+SA1046V	Number of overcrowded households (>1 persons in 1 room)
+SA1048V	Number of dwellings that is authorised
+SA1022V	Average area of living accommodation (m2 per person)
+SA2004V	Infant Mortality per year
+SA2005V	Male Infant Mortality per year
+SA2006V	Female Infant Mortality per year
+SA2007V	Number of live births per year
+SA2008V	Number of live births per year (Male)
+SA2009V	Number of live births per year (Female)
+SA2013V	Number of deaths per year under 65 due to heart diseases and respiratory illness
+SA2014V	Number of deaths per year under 65 due to heart diseases and respiratory illness (Male)
+SA2015V	Number of deaths per year under 65 due to heart diseases and respiratory illness (Female)
+SA2016V	Total deaths under 65 per year
+SA2017V	Total deaths under 65 per year (Male)
+SA2018V	Total deaths under 65 per year (Female)
+SA2019V	Total deaths per year
+SA2020V	Total deaths per year (Male)
+SA2021V	Total deaths per year (Female)
+SA2022V	Number of hospital beds
+SA2026V	Number of hospital discharges of in-patients
+SA2027V	Number of practising physicians
+SA2028V	Number of practising dentists
+SA2029V	Number of deaths per year due to suicide
+SA2030V	Number of general practitioners
+SA2031V	Number of specialist doctors
+SA3001V	Total number of recorded crimes within city [country for national data]
+SA3005V	Number of murders and violent deaths
+SA3006V	Number of car thefts
+SA3007V	Number of domestic burglary
+EC1001V	Total Economically Active Population
+EC1002V	Male Economically Active Population
+EC1003V	Female Economically Active Population
+EC1142V	Total Economically Active Population 15-24
+EC1143V	Male Economically Active Population 15-24
+EC1144V	Female Economically Active Population 15-24
+EC1145V	Total Economically Active Population 55-64
+EC1146V	Male Economically Active Population 55-64
+EC1147V	Female Economically Active Population 55-64
+EC1010V	Residents Unemployed
+EC1011V	Male Residents Unemployed
+EC1012V	Female Residents Unemployed
+EC1148V	Residents Unemployed 15-24
+EC1149V	Male Residents Unemployed 15-24
+EC1150V	Female Residents Unemployed 15-24
+EC1151V	Residents Unemployed 55-64
+EC1152V	Male Residents Unemployed 55-64
+EC1153V	Female Residents Unemployed 55-64
+EC1154V	Mehr als sechs Monate ununterbrochen Erwerbslose im Alter von 15 - unter 25 Jahren, insgesamt
+EC1155V	Male unemployed continuously for more than six months, 15-24
+EC1156V	Female unemployed continuously for more than six months, 15-24
+EC1157V	Unemployed continuously for more than one year, 55-64
+EC1158V	Male unemployed continuously for more than one year, 55-64
+EC1159V	Female unemployed continuously for more than one year, 55-64
+EC1025V	Residents in Self Employment
+EC1026V	Male residents in Self Employment
+EC1027V	Female residents in Self Employment
+EC1028V	Residents in Paid Employment
+EC1029V	Male residents in Paid Employment
+EC1030V	Female residents in Paid Employment
+EC1034V	Total Full-Time Employment
+EC1035V	Male Full-Time Employment
+EC1036V	Female Full-Time Employment
+EC1088V	Total Part-Time Employment
+EC1089V	Male Part-Time Employment
+EC1090V	Female Part-Time Employment
+EC1160V	Total Full-Time Employment 15-24
+EC1161V	Full-Time Employment 15-24 Male
+EC1162V	Full-Time Employment 15-24 Female
+EC1163V	Total Full-Time Employment 55-64
+EC1164V	Full-Time Employment 55-64 Male
+EC1165V	Full-Time Employment 55-64 Female
+EC1166V	Total Part-Time Employment 15-24
+EC1167V	Part-Time Employment 15-24 Male
+EC1168V	Part-Time Employment 15-24 Female
+EC1169V	Total Part-Time Employment 55-64
+EC1170V	Part-Time Employment 55-64 Male
+EC1171V	Part-Time Employment 55-64 Female
+EC1172V	Number of jobless households with children
+EC1173V	Number of jobless households without children
+EC2001V	Gross Domestic Product of city / region / country
+EC2021V	All companies
+EC2003V	Companies with headquarter within the city [country] quoted on national stock exchange
+EC2004V	New business registered in reference year
+EC2005V	Purchasing power parities for the ESA95 GDP aggregates (EU25=1)
+EC2014V	Companies gone bankrupt in reference year
+EC2020V	Total employment / jobs (work place based)
+EC2008V	Employment (jobs) in agriculture, fishery (NACE Rev. 1: A-B) & ESA95 A3
+EC2009V	Employment (jobs) in mining, manufacturing, energy (NACE Rev. 1: C-E)
+EC2022V	Employment (jobs) inconstruction (NACE Rev. 1: F)
+EC2010V	Employment (jobs) in trade, hotels, restaurants (NACE Rev. 1: G-H)
+EC2023V	Employment (jobs) in transport, communication (NACE Rev. 1: I)
+EC2011V	Employment (jobs) financial intermediation, business activities (NACE Rev. 1: J-K)
+EC2012V	Employment (jobs) in public admin., health, education, other (NACE Rev. 1: L-P)
+EC2016V	Employment (jobs) in Nace Rev. 1 C-F (ESA95 A3)
+EC2017V	Employment (jobs) in Nace Rev. 1 G-P (ESA95 A3)
+EC2018V	Employment (jobs) -  employees
+EC2019V	Employment (jobs) -  self employed
+EC2024V	Enterprises with 1 to 250 employees
+EC2025V	Enterprises with more than 250 employees
+EC2026V	Enterprises that had a turnover increase last year (size class 1-250 employees)
+EC2027V	Enterprises that had a turnover increase last year (size class >250 employees)
+EC2028V	Employment growth last year (size class 1-250 employees)
+EC2029V	Employment growth last year (size class >250 employees)
+EC2030V	Gross Domestic Product of NUTS 3 region in Euros
+EC2031V	Gross Domestic Product per inhabitant in PPS of NUTS 3 region
+EC3039V	Median disposable annual household income
+EC3040V	Average disposable annual household income
+EC3045V	Household Income: Quintile 4 (income with 20% households above, 80% below)
+EC3048V	Household Income: Quintile 3 (income with 40% households above, 60% below)
+EC3051V	Household Income: Quintile 2 (income with 60% households above, 40% below)
+EC3054V	Household Income: Quintile 1 (income with 80% households above, 20% below)
+EC3056V	Total Number of Households (relating to the reported household income)
+EC3055V	Total Number of Households with less than 60% of the national median disposable annual household income
+EC3057V	Total Number of Households with less than half of the national average income
+EC3060V	Total Number of Households reliant on social security benefits (>50%)
+EC3063V	Individuals reliant on social security benefits (>50%)
+CI1016V	Total number of elected city representatives
+CI1017V	Number of Male elected city representatives
+CI1018V	Number of Female elected city representatives
+TE1001V	Number of children 0-4 in day care
+TE1006V	Number of children 0-2 in day care
+TE1007V	Number of children 3-4 in day care
+TE1005V	Total students registered for final year of compulsory education
+TE1030V	Students leaving compulsory education without having a diploma
+TE1031V	Students in upper and further education (ISCED level 3-4)
+TE1032V	Male students in upper and further education (ISCED level 3-4)
+TE1033V	Female students in upper and further education (ISCED level 3-4)
+TE1026V	Students in higher education (ISCED level 5-6)
+TE1027V	Male students in higher education (ISCED level 5-6)
+TE1028V	Female students in higher education (ISCED level 5-6)
+TE1034V	Average number of pupils in a class (primary schools)
+TE1035V	Average number of pupils in a class (secondary schools)
+TE2025V	Number of residents (aged 15-64) with ISCED level 0, 1or 2 as the highest level of education
+TE2026V	Number of residents (aged 15-64) with ISCED level 0, 1or 2 as the highest level of education - male
+TE2027V	Number of residents (aged 15-64) with ISCED level 0, 1or 2 as the highest level of education - female
+TE2028V	Number of residents (aged 15-64) with ISCED level 3or 4 as the highest level of education
+TE2029V	Number of residents (aged 15-64) with ISCED level 3 or 4 as the highest level of education - male
+TE2030V	Number of residents (aged 15-64) with ISCED level 3 or 4 as the highest level of education - female
+TE2031V	Number of residents (aged 15-64) with ISCED level 5 or 6 as the highest level of education
+TE2032V	Number of residents (aged 15-64) with ISCED level 5 or 6 as the highest level of education - male
+TE2033V	Number of residents (aged 15-64) with ISCED level 5 or 6 as the highest level of education - female
+EN1001V	Number of days of rain per annum
+EN1002V	Total number of hours of sunshine per day
+EN1003V	Average temperature of warmest month
+EN1004V	Average temperature of coldest month
+EN1005V	Rainfall (litre/m2)
+EN1006V	Median city centre altitude above sea level
+EN2002V	Summer Smog: Number of days ozone (O3) concentrations exceed 120 microgram/m3
+EN2003V	Number of hours per year that  nitrogen dioxide NO2 concentrations exceed 200 microgram/m3
+EN2005V	Number of days particulate matter PM10concentrations exceed 50 microgram/m3
+EN2025V	Accumulated ozone concentration in excess 70 microgram/m3
+EN2026V	Annual average concentration of NO2
+EN2027V	Annual average concentration of PM10
+EN2030V	Number of days particulate matter PM2.5 concentrations exceed 50 µg/m3
+EN2033V	Number of residents exposed to road traffic noise >65 dB(A) at day time
+EN2035V	Number of residents exposed to road traffic noise >55 dB(A) at night time
+EN2032V	Number of residents exposed to rail traffic (incl. tram) noise >65dB(A) at daytime
+EN2036V	Number of residents exposed to rail traffic (incl. tram) noise >55dB(A) at night-time
+EN2028V	Number of residents exposed to air traffic noise >65 dB(A) at day time
+EN2029V	Number of residents exposed to air traffic noise >55 dB(A) at night time
+EN3003V	Total consumption of water
+EN3004V	Number of dwellings connected to potable drinking water system
+EN3006V	Number of dwellings connected to sewerage treatment system
+EN3008V	Number of water rationing cases, days per year
+EN3009V	Number of scheduled water cuts, days per year
+EN3010V	Price of a m3 of domestic water (Euro)
+EN3011V	Percentage of the urban waste water load (in population equivalents) treated according to the applicable standard
+EN4001V	Annual amount of solid waste (domestic and commercial)
+EN4002V	Annual amount of solid waste (domestic and commercial) processed by landfill.
+EN4003V	Annual amount of solid waste (domestic and commercial) is processed by incinerator
+EN4004V	Annual amount of solid waste (domestic and commercial) that is recycled
+EN4006V	Annual amount of solid waste (domestic and commercial) given to other disposal
+EN4007V	Annual amount of solid waste (domestic and commercial) that is composted
+EN5003V	Total land area (km2) according to cadastral register
+EN5015V	Water and wetland
+EN5012V	Green space area
+EN5016V	Land used for agricultural purposes
+EN5024V	Land used for commercial activities (industry, trade, offices)
+EN5004V	Land area in housing/residential use
+EN5025V	Land used for transport (road, rail, air, ports)
+EN5011V	Land area in recreational, sports and leisure use
+EN5026V	other land use
+EN5001V	Green space to which the public has access
+EN5109V	overbound - underbound based on population (qualitative indicator)
+EN5110V	overbound - underbound based on area (qualitative indicator)
+TT1003V	Percentage of journeys to work by car
+TT1010V	Percentage of journeys to work by public transport (rail, metro, bus, tram)
+TT1006V	Percentage of journeys to work by motor cycle
+TT1007V	Percentage of journeys to work by bicycle
+TT1008V	Percentage of journeys to work by foot
+TT1012V	Percentage of journeys to work by car or motor cycle
+TT1019V	Average time of journey to work (minutes)
+TT1020V	Average length of journey to work by private car (km)
+TT1064V	People commuting into the city
+TT1065V	People commuting out of the city
+TT1069V	Number of stops of public transport
+TT1083V	Number of buses (or bus equivalents) operating in the public transport
+TT1084V	Average age of the bus (only buses) fleet
+TT1085V	Proportion of buses running on alternative fuels
+TT1066V	Length of public transport network (km)
+TT1077V	Length of public transport network on fixed infrastructure
+TT1078V	Length of public transport network on flexible routes
+TT1082V	Length of restricted bus lanes
+TT1079V	Length of bicycle network (dedicated cycle paths and lanes)
+TT1080V	Cost of a combined monthly ticket (all modes of public transport) for 5-10 km in the central zone
+TT1081V	Cost of a taxi ride of 5 km to the centre at day time
+TT1057V	Number of private cars registered
+TT1013V	Number of motor cycles registered
+TT1070V	Number of park and ride parking spaces
+TT1075V	Maximum charge of on-street parking in the city centre per hour
+TT1060V	Number of deaths in road accidents
+TT1061V	Number of persons seriously injured in road accidents
+TT1071V	Accessiblity by air (EU27=100)
+TT1072V	Accessiblity by rail (EU27=100)
+TT1073V	Accessiblity by road (EU27=100)
+TT1074V	Multimodal accessibility (EU27=100)
+IT1005V	Percentage of households with Internet access at home
+IT3001V	Number of local units manufacturing ICT products
+IT3002V	Number of persons employed in manufacture of ICT products
+IT3003V	Number of local units providing ICT services
+IT3004V	Number of persons employed in provision of ICT services
+IT3005V	Number of local units producing content for the Information Society
+IT3006V	Number of persons employed in production of content for the Information Society
+CR1003V	Number of cinema seats ( total capacity)
+CR1005V	Cinema attendance (per year)
+CR1006V	Number of museums
+CR1007V	Number of museum visitors (per year)
+CR1008V	Number of theatres
+CR1013V	Number of theatre seats
+CR1009V	Theatre attendance (per year)
+CR1010V	Number of public libraries (all distribution points)
+CR1011V	Number of books and other media loaned from public libraries (per year)
+CR1014V	Number of persons employed in the culture and entertainment industry
+CR1015V	Number of public swimmingpools
+CR2001V	Total annual tourist overnight stays in registered accommodation
+CR2009V	Number of available beds
+CR2102V	Number of available beds at high season
+CR2103V	Number of available beds at low season
+CR2104V	Total tourist overnight stays in registered accommodation at high season
+CR2105V	Total tourist overnight stays in registered accommodation at low season
+CR2004V	Number of air passengers using nearest airport
+CR2005V	Number of air passengers using nearest airport: Total arrivals
+CR2006V	Number of air passengers using nearest airport: Domestic arrivals
+CR2007V	Number of air passengers using nearest airport: Total departures
+CR2008V	Number of air passengers using nearest airport: Domestic departures
+PS1010V	Satisfied with public transport (synthetic index 0-100)
+PS1012V	public transport: very satisfied
+PS1013V	public transport: rather satisfied
+PS1014V	public transport: rather unsatisfied
+PS1015V	public transport: not at all satisfied
+PS1016V	public transport: no reply
+PS1017V	public transport: satisfied (rather+strong)
+PS1018V	public transport: unsatisfied (rather+strong)
+PS1020V	Satisfied with schools (synthetic index 0-100)
+PS1022V	schools: very satisfied
+PS1023V	schools: rather satisfied
+PS1024V	schools: rather unsatisfied
+PS1025V	schools: not at all satisfied
+PS1026V	schools: no reply
+PS1027V	schools: satisfied (rather+strong)
+PS1028V	schools: unsatisfied (rather+strong)
+PS1030V	Satisfied with hospitals (synthetic index 0-100)
+PS1032V	hospitals: very satisfied
+PS1033V	hospitals: rather satisfied
+PS1034V	hospitals: rather unsatisfied
+PS1035V	hospitals: not at all satisfied
+PS1036V	hospitals: no reply
+PS1037V	hospitals: satisfied (rather+strong)
+PS1038V	hospitals: unsatisfied (rather+strong)
+PS1040V	Satisfied with doctors (synthetic index 0-100)
+PS1042V	doctors: very satisfied
+PS1043V	doctors: rather satisfied
+PS1044V	doctors: rather unsatisfied
+PS1045V	doctors: not at all satisfied
+PS1046V	doctors: no reply
+PS1047V	doctors: satisfied (rather+strong)
+PS1048V	doctors: unsatisfied (rather+strong)
+PS1050V	Satisfied with green space (synthetic index 0-100)
+PS1052V	greenspace: very satisfied
+PS1053V	greenspace: rather satisfied
+PS1054V	greenspace: rather unsatisfied
+PS1055V	greenspace: not at all satisfied
+PS1056V	greenspace: no reply
+PS1057V	greenspace: satisfied (rather+strong)
+PS1058V	greenspace: unsatisfied (rather+strong)
+PS1060V	Satisfied with sport facilities (synthetic index 0-100)
+PS1062V	sportfacilities: very satisfied
+PS1063V	sportfacilities: rather satisfied
+PS1064V	sportfacilities: rather unsatisfied
+PS1065V	sportfacilities: not at all satisfied
+PS1066V	sportfacilities: no reply
+PS1067V	sportfacilities: satisfied (rather+strong)
+PS1068V	sportfacilities: unsatisfied (rather+strong)
+PS1070V	Satisfied with cinemas (synthetic index 0-100)
+PS1072V	cinemas: very satisfied
+PS1073V	cinemas: rather satisfied
+PS1074V	cinemas: rather unsatisfied
+PS1075V	cinemas: not at all satisfied
+PS1076V	cinemas: no reply
+PS1077V	cinemas: satisfied (rather+strong)
+PS1078V	cinemas: unsatisfied (rather+strong)
+PS1080V	Satisfied with cultural facilities (synthetic index 0-100)
+PS1082V	culturalfacilities: very satisfied
+PS1083V	culturalfacilities: rather satisfied
+PS1084V	culturalfacilities: rather unsatisfied
+PS1085V	culturalfacilities: not at all satisfied
+PS1086V	culturalfacilities: no reply
+PS1087V	culturalfacilities: satisfied (rather+strong)
+PS1088V	culturalfacilities: unsatisfied (rather+strong)
+PS1090V	Satisfied with public internet access (synthetic index 0-100)
+PS1092V	public-internet: very satisfied
+PS1093V	public-internet: rather satisfied
+PS1094V	public-internet: rather unsatisfied
+PS1095V	public-internet: not at all satisfied
+PS1096V	public-internet: no reply
+PS1097V	public-internet: satisfied (rather+strong)
+PS1098V	public-internet: unsatisfied (rather+strong)
+PS1100V	Satisfied with internet access at home (synthetic index 0-100)
+PS1102V	internet access at home: very satisfied
+PS1103V	internet access at home: rather satisfied
+PS1104V	internet access at home: rather unsatisfied
+PS1105V	internet access at home: not at all satisfied
+PS1106V	internet access at home: no reply
+PS1107V	internet access at home: satisfied (rather+strong)
+PS1108V	internet access at home: unsatisfied (rather+strong)
+PS2010V	It is easy to find a good job here (synthetic index 0-100)
+PS2012V	easy-to-find-a-job: strongly agree
+PS2013V	easy-to-find-a-job: somewhat agree
+PS2014V	easy-to-find-a-job: somewhat disagree
+PS2015V	easy-to-find-a-job: strongly disagree
+PS2016V	easy-to-find-a-job: no reply
+PS2017V	easy-to-find-a-job: agree (strongly+somewhat)
+PS2018V	easy-to-find-a-job: disagree (strongly+somewhat)
+PS2020V	Foreigner here are well integrated (synthetic index 0-100)
+PS2022V	integration of foreigners: strongly agree
+PS2023V	integration of foreigners: somewhat agree
+PS2024V	integration of foreigners: somewhat disagree
+PS2025V	integration of foreigners: strongly disagree
+PS2026V	integration of foreigners: no reply
+PS2027V	integration of foreigners: agree (strongly+somewhat)
+PS2028V	integration of foreigners: disagree (strongly+somewhat)
+PS2030V	Easy to find good housing at reasonable price (synthetic index 0-100)
+PS2032V	easy-to-find-good-housing: strongly agree
+PS2033V	easy-to-find-good-housing: somewhat agree
+PS2034V	easy-to-find-good-housing: somewhat disagree
+PS2035V	easy-to-find-good-housing: strongly disagree
+PS2036V	easy-to-find-good-housing: no reply
+PS2037V	easy-to-find-good-housing: agree (strongly+somewhat)
+PS2038V	easy-to-find-good-housing: disagree (strongly+somewhat)
+PS2040V	Administrative services help efficiently (synthetic index 0-100)
+PS2042V	administration-helpful: strongly agree
+PS2043V	administration-helpful: somewhat agree
+PS2044V	administration-helpful: somewhat disagree
+PS2045V	administration-helpful: strongly disagree
+PS2046V	administration-helpful: no reply
+PS2047V	administration-helpful: agree (strongly+somewhat)
+PS2048V	administration-helpful: disagree (strongly+somewhat)
+PS2050V	Air pollution is a big problem here (synthetic index 0-100)
+PS2052V	pollution-is-a-problem: strongly agree
+PS2053V	pollution-is-a-problem: somewhat agree
+PS2054V	pollution-is-a-problem: somewhat disagree
+PS2055V	pollution-is-a-problem: strongly disagree
+PS2056V	pollution-is-a-problem: no reply
+PS2057V	pollution-is-a-problem: agree (strongly+somewhat)
+PS2058V	pollution-is-a-problem: disagree (strongly+somewhat)
+PS2060V	Noise is a big problem here (synthetic index 0-100)
+PS2062V	noise-is-a-problem: strongly agree
+PS2063V	noise-is-a-problem: somewhat agree
+PS2064V	noise-is-a-problem: somewhat disagree
+PS2065V	noise-is-a-problem: strongly disagree
+PS2066V	noise-is-a-problem: no reply
+PS2067V	noise-is-a-problem: agree (strongly+somewhat)
+PS2068V	noise-is-a-problem: disagree (strongly+somewhat)
+PS2070V	This is a clean city (synthetic index 0-100)
+PS2072V	clean-city: strongly agree
+PS2073V	clean-city: somewhat agree
+PS2074V	clean-city: somewhat disagree
+PS2075V	clean-city: strongly disagree
+PS2076V	clean-city: no reply
+PS2077V	clean-city: agree (strongly+somewhat)
+PS2078V	clean-city: disagree (strongly+somewhat)
+PS2080V	Resources are spent in a responsible way (synthetic index 0-100)
+PS2082V	resources: strongly agree
+PS2083V	resources: somewhat agree
+PS2084V	resources: somewhat disagree
+PS2085V	resources: strongly disagree
+PS2086V	resources: no reply
+PS2087V	resources: agree (strongly+somewhat)
+PS2088V	resources: disagree (strongly+somewhat)
+PS2090V	Satisfied to live in this city (synthetic index 0-100)
+PS2092V	overall-satisfied: strongly agree
+PS2093V	overall-satisfied: somewhat agree
+PS2094V	overall-satisfied: somewhat disagree
+PS2095V	overall-satisfied: strongly disagree
+PS2096V	overall-satisfied: no reply
+PS2097V	overall-satisfied: agree (strongly+somewhat)
+PS2098V	overall-satisfied: disagree (strongly+somewhat)
+PS2100V	In 5 years, it will be more pleasant to live here (synthetic index 0-100)
+PS2102V	in five years it will be better: strongly agree
+PS2103V	in five years it will be better: somewhat agree
+PS2104V	in five years it will be better: somewhat disagree
+PS2105V	in five years it will be better: strongly disagree
+PS2106V	in five years it will be better: no reply
+PS2107V	in five years it will be better: agree (strongly+somewhat)
+PS2108V	in five years it will be better: disagree (strongly+somewhat)
+PS3010V	Difficulty paying the bills at the end of the month (synthetic index 0-100)
+PS3012V	it is difficult to pay my bills: always
+PS3013V	it is difficult to pay my bills: sometimes
+PS3014V	it is difficult to pay my bills: rarely or never
+PS3015V	it is difficult to pay my bills: no reply
+PS3020V	Feel safe in this neighbourhood (synthetic index 0-100)
+PS3022V	the neighborhood is safe: always
+PS3023V	the neighborhood is safe: sometimes
+PS3024V	the neighborhood is safe: rarely or never
+PS3025V	the neighborhood is safe: no reply
+PS3030V	Feel safe in this city (synthetic index 0-100)
+PS3032V	the city is safe: always
+PS3033V	the city is safe: sometimes
+PS3034V	the city is safe: rarely or never
+PS3035V	the city is safe: no reply
+PS3040V	Satisfied with health care (synthetic index 0-100)
+PS3042V	health care: very satisfied
+PS3043V	health care: rather satisfied
+PS3044V	health care: rather unsatisfied
+PS3045V	health care: not at all satisfied
+PS3046V	health care: no reply
+PS3050V	Satisfied with beauty of streets (synthetic index 0-100)
+PS3052V	beauty of streets: very satisfied
+PS3053V	beauty of streets: rather satisfied
+PS3054V	beauty of streets: rather unsatisfied
+PS3055V	beauty of streets: not at all satisfied
+PS3056V	beauty of streets: no reply
+PS3060V	Satisfied with public spaces (synthetic index 0-100)
+PS3062V	public spaces: very satisfied
+PS3063V	public spaces: rather satisfied
+PS3064V	public spaces: rather unsatisfied
+PS3065V	public spaces: not at all satisfied
+PS3066V	public spaces: no reply
+PS3070V	Satisfied with outdoor recreation (synthetic index 0-100)
+PS3072V	outdoor recreation: very satisfied
+PS3073V	outdoor recreation: rather satisfied
+PS3074V	outdoor recreation: rather unsatisfied
+PS3075V	outdoor recreation: not at all satisfied
+PS3076V	outdoor recreation: no reply
+PS3080V	Presence of foreigners good for the city (synthetic index 0-100)
+PS3082V	foreigners good: strongly agree
+PS3083V	foreigners good: somewhat agree
+PS3084V	foreigners good: somewhat disagree
+PS3085V	foreigners good: strongly disagree
+PS3086V	foreigners good: no reply
+PS3090V	Most people can be trusted (synthetic index 0-100)
+PS3092V	people can be trusted: strongly agree
+PS3093V	people can be trusted: somewhat agree
+PS3094V	people can be trusted: somewhag disagree
+PS3095V	people can be trusted: strongly disagree
+PS3096V	people can be trusted: no reply
+PS3110V	Poverty is a problem (synthetic index 0-100)
+PS3112V	poverty is a problem: strongly agree
+PS3113V	poverty is a problem: somewhat agree
+PS3114V	poverty is a problem: somewhat disagree
+PS3115V	poverty is a problem: strongly disagree
+PS3116V	poverty is a problem: no answer
+PS3120V	City commited to fight against climate change (synthetic index 0-100)
+PS3122V	committed to fight against climate change: strongly agree
+PS3123V	committed to fight against climate change: somewhat agree
+PS3124V	committed to fight against climate change: somewhat disagree
+PS3125V	committed to fight against climate change: strongly disagree
+PS3126V	committed to fight against climate change: no answer
+PS3130V	City is healthy to live in (synthetic index 0-100)
+PS3132V	city  healthy to live in: strongly agree
+PS3133V	city  healthy to live in: somewhat agree
+PS3134V	city  healthy to live in: somewhat disagree
+PS3135V	city  healthy to live in: strongly disagree
+PS3136V	city  healthy to live in: no answer
+PS3140V	It's difficult paying bills at end of month (synthetic index 0-100)
+PS3142V	It's difficult paying bills at end of month: always
+PS3143V	It's difficult paying bills at end of month: sometimes
+PS3144V	It's difficult paying bills at end of month: rarely
+PS3145V	It's difficult paying bills at end of month: never
+PS3146V	It's difficult paying bills at end of month: no answer
+PS3036V	the city is safe: rarely
+PS3037V	the city is safe: never
+PS3026V	the neighbourhood is safe: rarely
+PS3027V	the neighborhood is safe: never
+PS3151V	Minutes per day spent travelling to work/training place: less than 10 minutes
+PS3152V	Minutes per day spent travelling to work/training place: 10-20 minutes
+PS3153V	Minutes per day spent travelling to work/training place: 20-30 minutes
+PS3154V	Minutes per day spent travelling to work/training place: 30-45 minuts
+PS3155V	Minutes per day spent travelling to work/training place: 45-60 minutes
+PS3156V	Minutes per day spent travelling to work/training place: more than 60 minutes
+PS3157V	Minutes per day spent travelling to work/training place: does not cummute, work from home
+PS3158V	Minutes per day spent travelling to work or training place: No work or training
+PS3159V	Minutes per day spent travelling to work/training place: no answer
+PS3161V	Means of transport primarily used to go to work/training place: public transport
+PS3162V	Means of transport primarily used to go to work/training place: car
+PS3163V	Means of transport primarily used to go to work/training place: bicycle
+PS3164V	Means of transport primarily used to go to work/training place: walking
+PS3165V	Means of transport primarily used to go to work/training place: motorcycle
+PS3166V	Means of transport primarily used to go to work/training place: other
+PS3167V	Means of transport primarily used to go to work/training place: no answer
+PS3171V	Frequency of use of public transport: never
+PS3172V	Frequency of use of public transport: less than once a month
+PS3173V	Frequency of use of public transport: more than once a month
+PS3174V	Frequency of use of public transport: at least once a week, but not every day
+PS3175V	Frequency of use of public transport: every day
+PS3176V	Frequency of use of public transport: no answer
+PS3181V	Why don't you use public transport?: not frequent enough
+PS3182V	Why don't you use public transport?: too congested
+PS3183V	Why don't you use public transport?: time schedule is not reliable
+PS3184V	Why don't you use public transport?: not adapted to my itinerary
+PS3185V	Why don't you use public transport? Not easy to access
+PS3186V	Why don't you use public transport? Not safe
+PS3187V	Why don't you use public transport?: I do not like public transport
+PS3188V	Why don't you use public transport?: too expensive
+PS3189V	Why don't you use public transport?: other
+PS3191V	Why don't you use public transport?: no answer
+PS3211V	Most important in my city: Urban safety
+PS3212V	Most important in my city: air pollution
+PS3213V	Most important in my city: noise
+PS3214V	Most important in my city: public transport
+PS3215V	Most important in my city: health services
+PS3216V	Most important in my city: social services
+PS3217V	Most important in my city: education and training
+PS3221V	Most important in my city: jobs creation / reduce unemployment
+PS3222V	Most important in my city: housing conditions
+PS3223V	Most important in my city: road infrastructure
+PS3224V	Most important in my city: no answer
+DE1001I	Total population in Urban Audit cities
+DE1011I	Total Population at working age
+DE1067I	Proportion of Total Resident Population aged 0-2
+DE1068I	Proportion of Male Resident Population aged 0-2
+DE1069I	Proportion of Female Resident Population aged  0-2
+DE1070I	Proportion of Total Resident Population aged 3-4
+DE1071I	Proportion of Male Resident Population aged 3-4
+DE1072I	Proportion of Female Resident Population aged 3-4
+DE1040I	Proportion of total population aged 0-4
+DE1043I	Proportion of total population aged 5-14
+DE1046I	Proportion of total population aged 15-19
+DE1049I	Proportion of total population aged 20-24
+DE1073I	Proportion of Total Resident Population aged 25-34
+DE1074I	Proportion of Male Resident Population aged 25-34
+DE1075I	Proportion of Female Resident Population aged 25-34
+DE1076I	Proportion of Total Resident Population aged 35-44
+DE1077I	Proportion of Male Resident Population aged 35-44
+DE1078I	Proportion of Female Resident Population aged 35-44
+DE1064I	Proportion of Total Resident Population aged 45-54
+DE1065I	Proportion of Male Resident Population aged  45-54
+DE1066I	Proportion of Female Resident Population aged 45-54
+DE1052I	Proportion of total population aged 25-54
+DE1025I	Proportion of total population aged 55-64
+DE1082I	Proportion of male population aged 55-64
+DE1083I	Proportion of female population aged 55-64
+DE1079I	Proportion of total population aged 15-64
+DE1080I	Proportion of male population aged 15-64
+DE1081I	Proportion of female population aged 15-64
+DE1028I	Proportion of total population aged 65-74
+DE1029I	Proportion of male population aged 65-74
+DE1030I	Proportion of female population aged 65-74
+DE1055I	Proportion of total population aged 75 and over
+DE1003I	Proportion of females to males in total population
+DE1057I	Proportion of females to males in age 75 and over
+DE1061I	Total population change over 1 year
+DE1062I	Total annual population change over approx. 5 years
+DE1058I	Demographic dependency: (<20 + >65) / 20-64 years
+DE1059I	Demographic young age Dependency Index: (lt 20 years) / 20-64 years
+DE1060I	Demogr. old age dependency: > 65 / 20-64 years
+DE2001I	Nationals as a proportion of total population
+DE2002I	EU nationals as a proportion of total population
+DE2003I	Non-EU nationals as a proportion of total population
+DE2004I	Nationals born abroad as a proportion of total population
+DE2005I	Proportion of Residents  who are not EU Nationals and citizens of a country with high HDI
+DE2006I	Proportion of Residents  who are not EU Nationals and citizens of a country with a medium or low HDI
+DE3003I	Total Number of Households
+DE3004I	Average household size in Urban Audit cities - number of persons per household
+DE3002I	Proportion of one-person households in Urban Audit cities - %
+DE3005I	Proportion of households that are lone-parent households
+DE3008I	Proportion of households that are lone-pensioner households
+DE3009I	Lone-pensioner households male / lone pensioner households female
+DE3011I	Proportion of households with children aged 0-17 in Urban Audit cities - %
+DE3016I	Lone parent households per 100 households with children aged 0-17
+DE3015I	Moves to city during the last 2 years/moves out of the city during the last 2 years
+DE3012I	Proportion of nationals that have moved to the city during the last two years
+DE3013I	Proportion of EU Nationals that have moved to the city during the last two years
+DE3014I	Proportion of non-EU Nationals that have moved to the city during the last two years
+SA1001I	Number of dwellings
+SA1005I	Number of apartments
+SA1004I	Number of houses
+SA1051I	Number of houses per 100 apartments
+SA1028I	Number of people in accommodation for the homeless per 1000 pop
+SA1027I	Number of roofless persons per 1000 pop
+SA1030I	Number of people in accommodation for immigrants per 1000 pop
+SA1031I	Number of people in Women's Shelter per 1000 pop
+SA1016I	Average  price per m2 for an appartment
+SA1023I	Average price for a house per m2
+SA1036I	Average  price per m2 for an appartment to median annual household income
+SA1049I	Average annual rent for housing  per m2
+SA1018I	Proportion of dwellings lacking basic amenities
+SA1026I	Proportion of non-conventional dwellings
+SA1019I	Average occupancy per occupied dwelling
+SA1022I	Average living area in Urban Audit cities - m² per person
+SA1050I	Percentage of overcrowded households (>1 persons in 1 room)
+SA1025I	Empty conventional dwellings per total No. of dwellings
+SA1011I	Proportion of households living in owned dwellings in Urban Audit cities - %
+SA1012I	Proportion of households living in social housing
+SA1013I	Proportion of households living in private rented housing
+SA1007I	Proportion of households living in houses
+SA1008I	Proportion of households living in apartments
+SA2029I	Crude death rate per 1000 residents
+SA2030I	Crude death rate of male residents per 1000 male residents
+SA2031I	Crude death rate of female residents per 1000 female residents
+SA2019I	Total deaths per year
+SA2020I	Total deaths per year (Male)
+SA2021I	Total deaths per year (Female)
+SA2016I	Mortality rate for <65 per year
+SA2017I	Mortality rate for <65 per year (Male)
+SA2018I	Mortality rate for <65 per year (Female)
+SA2013I	Mortality rate for persons aged 64 or less from heart diseases and respiratory illnesses living in Urban Audit cities - number of deaths per 1000 inhabitants
+SA2014I	Mortality rate for males under 65 from heart diseases and respiratory illness
+SA2015I	Mortality rate for females under 65 from heart diseases and respiratory illness.
+SA2007I	Live births per 1000 residents
+SA2004I	Infant Mortality rate  per year (per 1000 live births)
+SA2005I	Male Infant Mortality rate per year (per 1000 live births)
+SA2006I	Female Infant Mortality rate per year (per 1000 live births)
+SA2022I	Available hospital beds in Urban Audit cities - per 1000 inhabitants
+SA2032I	Number of hospital discharges of in-patients per hospital bed
+SA2026I	Number of hospital discharges of in-patients per 1000 residents
+SA2027I	Number of practising physicians per 1000 residents
+SA2028I	Number of practising dentists per 1000 residents
+SA3001I	Total number of recorded crimes per 1000 population
+SA3005I	Number of murders and violent deaths per 1000 population
+SA3006I	Car thefts in Urban Audit cities - number per 1000 inhabitants
+SA3007I	Number of domestic burglary per 1000 population
+EC1201I	Annual average change in employment over approx. 5 years
+EC1010I	Number of unemployed
+EC1020I	Unemployment rate in Urban Audit cities - %
+EC1011I	Unemployment rate Male
+EC1012I	Unemployment rate Female
+EC1148I	Proportion of residents unemployed 15-24
+EC1149I	Proportion of male residents Unemployed 15-24
+EC1150I	Proportion of female residents Unemployed 15-24
+EC1151I	Proportion of residents Unemployed 55-64
+EC1152I	Proportion of male residents Unemployed 55-64
+EC1153I	Proportion of female residents Unemployed 55-64
+EC1154I	Proportion of unemployed aged 15-24  unemployed for more than six months
+EC1155I	Proportion of long term young unemployed males
+EC1156I	Proportion of long term young unemployed females
+EC1157I	Proportion of unemployed aged 55-64  unemployed for more than one year
+EC1158I	Proportion of long term old unemployed males
+EC1159I	Proportion of long term old unemployed females
+EC1202I	Proportion of unemployed who are under 25
+EC1034I	Employment/Population (of working age) Ratio
+EC1035I	Male Employment/Population (of working age) Ratio
+EC1036I	Female Employment/Population (of working age) Ratio
+EC1028I	Ratio of employees to economically active population
+EC1029I	Ratio of male employees to male economically active population
+EC1030I	Ratio of female employees to female economically active population
+EC1031I	Self-employment rate
+EC1032I	Self-employment rate  - male
+EC1033I	Self-employment rate  - female
+EC1001I	Economic activity rate in Urban Audit cities - %
+EC1002I	Male Activity Rate
+EC1003I	Female Activity Rate
+EC1005I	Net activity rate residents aged 15-64
+EC1142I	Activity Rate 15-24
+EC1143I	Activity Rate 15-24  male
+EC1144I	Activity Rate 15-24  female
+EC1006I	Net activity rate residents aged 15-24
+EC1145I	Activity Rate 55-64
+EC1146I	Activity Rate 55-64  male
+EC1147I	Activity Rate 55-64  female
+EC1007I	Net activity rate residents aged 55-64
+EC1088I	Proportion in part-time employment
+EC1089I	Proportion in part-time employment  male
+EC1004I	Proportion of employed residents in part-time employment - female
+EC1166I	Proportion in part-time employment  15-24
+EC1167I	Proportion in part-time employment  15-24 male
+EC1168I	Proportion in part-time employment  15-24 female
+EC1169I	Proportion in part-time employment  55-64
+EC1170I	Proportion in part-time employment  55-64 male
+EC1171I	Proportion in part-time employment  55-64 female
+EC2003I	Number of companies with headquarters in the city quoted on the national stock market
+EC2008I	Proportion of employment in agriculture  fishery
+EC2016I	Proportion of employment in mining  manufacturing  energy
+EC2024I	Prop. of employment in commercial services (NACE Rev 1.1: G-K)
+EC2017I	Proportion of employment in industries G-P (NACE Rev. 1)
+EC2009I	Proportion of employment in industries C-E (NACE Rev. 1)
+EC2022I	Proportion of employment in construction
+EC2010I	Proportion of employment in trade  hotels  restaurants
+EC2023I	Proportion of employment in transport  communication
+EC2011I	Proportion of employment in financial intermediation  business activities
+EC2012I	Proportion of employment public administration  health  education
+EC2018I	Proportion of employment (jobs) only employees
+EC2019I	Proportion of employment (jobs) only self-employed
+EC2020I	Average employment per company
+EC2021I	Employment per 100 of residents aged 15-64
+EC2014I	Proportion of companies gone bankrupt
+EC2004I	New businesses registered in proportion of existing companies
+EC3039I	Median disposable annual household income
+EC3040I	Average disposable annual household income (for city or NUTS 3 region)
+EC3054I	Ratio of first to fourth quintile earnings
+EC3051I	Household Income: Quintile 2 (income with 60% households above, 40% below)
+EC3048I	Household Income: Quintile 3 (income with 40% households above, 60% below)
+EC3057I	Percentage of the households receiving less than half of the national average household income
+EC3055I	Percent. households with less than 60% of the national median annual disposable income
+EC3060I	Proportion of households reliant upon social security
+EC3063I	Proportion of individuals reliant on social security
+CI1016I	Number of elected city representatives
+CI1026I	Number of elected city representatives per 1000 residents
+CI1017I	Percentage of elected city representat. who are men
+CI1018I	Percentage of elected city representatives who are women
+CI2006I	Annual expenditure of the Municipal Authority per resident
+CI2016I	Balance of the municipal authority expenditure and income per resident
+CI2002I	Proportion of Municipal Authority income derived from local taxation
+CI2003I	Proportion of Municipal Authority income derived from transfers from national  regional  provincial and state government.
+CI2004I	Proportion of Municipal Authority income derived from charges for services.
+CI2005I	Proportion of Municipal Authority income derived from other sources.
+CI2014I	Debt of municipal authority per resident
+CI2015I	Levels of reserves of municipal authority per resident
+CI2007I	Residents directly employed by the local administration as a proportion of the jobs
+TE1006I	Children 0-2 in day care (publ.&priv) per 1000 children
+TE1007I	Children 3-4 in day care (publ.&priv) per 1000 children
+TE1001I	Number of children 0-4 in day care (public and private provision) per 1000 children 0-4
+TE1030I	Proportion of students not completing their compulsory education
+TE1031I	Students in  upper and further education (ISCED level 3-4)  per 1000 resident pop.
+TE1035I	Students in  upper and further education (ISCED level 3-4)  per 100 resident population aged 15-24
+TE1032I	Proportion of male students in upper and further education (ISCED level 3-4)
+TE1033I	Proportion of female students in upper and further education (ISCED level 3-4)
+TE1026I	Students in tertiary education (ISCED 5-6) living in Urban Audit cities  - number of students per 1000 inhabitants
+TE1034I	Students in  higher education (ISCED level 5-6)  per 100 resident population aged 20-34
+TE1027I	Proportion of male students in higher education (ISCED level 5-6)
+TE1028I	Proportion of female students in higher education (ISCED level 5-6)
+TE2025I	Prop. of working age population qualified at level 1 or 2 ISCED
+TE2026I	Prop. of working age population qualified at level 1 or 2 ISCED - male
+TE2027I	Prop. of working age population at level 1 or 2 ISCED - female
+TE2028I	Prop. of working age population qualified at level 3 or 4 ISCED
+TE2029I	Prop. of working age population qualified at level 3 or 4 ISCED - male
+TE2030I	Prop. of working age population qualif. at level 3 or 4 ISCED - female
+TE2031I	Proportion of population aged 15-64 qualified at tertiary level (ISCED 5-6) living in Urban Audit cities  - %
+TE2032I	Prop. of working age population qualified at level 5 or 6 ISCED - male
+TE2033I	Prop. of working age population qualif. at level 5 or 6 ISCED - female
+EN1001I	Number of days of rain per year
+EN1002I	Average number of hours of sunshine per day
+EN1003I	Average temperature of warmest month
+EN1004I	Average temperature of coldes month
+EN1005I	Rainfall (litre/m2) in the reference year
+EN2002I	Number of days ozone concentration exceeds 120 µg/m³ in Urban Audit cities  - days per year
+EN2003I	Number of hours per year that NO2 concentrations exceed 200mg/m3
+EN2005I	Number of days particulate matter concentrations (PM10) exceeds 50 µg/m³ in Urban Audit cities - days per year
+EN2025I	Accumulated ozone concentration in excess 70 microgram/m3
+EN2026I	Annual average concentration of NO2
+EN2027I	Annual average concentration of PM10
+EN2028I	Prop. of residents exposed to air traffic noise >65 dB(A) at day time
+EN2029I	Prop. of residents exposed to air traffic noise >55 dB(A) at night time
+EN2032I	Prop. of residents exposed to rail traffic noise >65 dB(A) at day time
+EN2036I	Prop. of residents exposed to rail traffic noise >55 dB(A) at night time
+EN2033I	Prop. of residents exposed to road traffic noise >65 dB(A) at day time
+EN2035I	Prop. of residents exposed to road traffic noise >55 dB(A) at night time
+EN3003I	Consumption of water (cubic metres per annum) per inhabitant
+EN3010I	Price of a m3 of domestic water
+EN3004I	Percentage of dwellings connected to potable drinking water supply infrastructure
+EN3006I	% dwellings connected to sewerage treatment system
+EN3011I	Percentage of the urban waste water load (in population equivalents) treated according to the applicable standard
+EN3008I	Number of water rationing cases  days  per year
+EN3009I	Number of scheduled water stoppages  days  per year
+EN4001I	Collected solid waste in Urban Audit cities - tonnes per inhabitant and year
+EN4002I	Proportion of solid waste arising within the boundary processed by landfill
+EN4003I	Proportion of solid waste arising within the boundary processed by incinerator
+EN4004I	Proportion of solid waste arising within the boundary processed by recycling
+EN4006I	Proportion of solid waste arising within the boundary processed by other method
+EN5003I	Total land area (km2) according to cadastral register
+EN5001I	Green space (in m2) to which the public has access, per capita
+EN5012I	Proportion of the area in green space
+EN5016I	Proportion of the area used for agricultural purposes
+EN5024I	Proportion of the area used for commercial activities (industry, trade, offices)
+EN5025I	Proportion of the area used for transport (road, rail, air, ports)
+EN5015I	Water and wetland
+EN5011I	Proportion of the area in recreational  sports and leisure use
+EN5027I	Land area (in m2) in recreational, sports and leisure use per capita
+EN5004I	Proportion of the area in housing/residential use
+EN5026I	Proportion of the area use for other purposes
+EN5101I	Population density in Urban Audit cities   
+EN5102I	Net residential density - pop. per land area in housing
+EN5103I	popul. in built-up are of core city / residents of core city
+EN5104I	popul. in built-up are of core city / popul. in morphological city
+EN5105I	Proportion of the morph. city population living outside the administrative boundaries
+EN5107I	Proportion of the morph. city area lying outside the administrative boundaries
+EN5106I	Land area of core city based on modelling
+TT1003I	Share of journeys to work by car in Urban Audit cities - %
+TT1012I	Proportion of journeys to work by car or motor cycle
+TT1006I	Proportion of journeys to work by motor cycle
+TT1007I	Proportion of journeys to work by bicycle
+TT1008I	Proportion of journeys to work by foot
+TT1010I	Proportion of journeys to work by public transport (rail, metro, bus, tram)
+TT1057I	Registered cars in Urban Audit cities - number of cars per 1000 inhabitants
+TT1013I	Number of registered motor cycles per 1000 population
+TT1060I	Number of deaths in road accidents per 10000 population
+TT1061I	Number of persons seriously injured in road accidents per 10000 population
+TT1064I	Proportion of incommuters of persons employed in the city
+TT1065I	Proportion of out-commuters of employed persons living in city
+TT1090I	Inbound commuters per 100 outbound commuters
+TT1019I	Average time of journey to work
+TT1020I	Average length of journey to work by private car (km)
+TT1066I	Length of public transport network / land area
+TT1076I	Length of public transport network per inhabitant
+TT1093I	Proportion of public transport network on fixed infrastructure
+TT1077I	Length of public transport network on fixed infrastructure per  1000 pop
+TT1092I	Proportion of public transport network on flexible routes
+TT1078I	Length of public transport network on flexible routes per  1000 pop
+TT1085I	Length of restricted bus lanes per 1000 pop
+TT1086I	Share of restrictred bus lanes from public transport network
+TT1087I	Number of buses (or bus equivalents) operating in the public transport per 1000 pop
+TT1088I	Average age of the bus (only buses) fleet
+TT1089I	Proportion of buses running on alternative fuels
+TT1082I	Number of stops of public transport per 1000 pop.
+TT1069I	Number of stops of public transport per km2
+TT1091I	Number of stops per 1 km of public transport network
+TT1080I	Cost of a monthly ticket for public transport (for 5-10 km)
+TT1070I	Number of park and ride parking spaces per 1000 pop.
+TT1083I	Number of park and ride parking spaces per 1000 cars
+TT1084I	Maximum charge of on-street parking in the city centre per hour
+TT1081I	Cost of a taxi ride of 5 km to the centre at day time
+TT1079I	Length of bycycle network (dedicated cycle paths and lanes) per  1000 pop
+TT1071I	Accessiblity by air (EU27=100)
+TT1072I	Accessiblity by rail (EU27=100)
+TT1073I	Accessiblity by road (EU27=100)
+TT1074I	Multimodal accessibility (EU27=100)
+IT1005I	Percentage of households with Internet access at home
+IT2001I	Official city Internet web site (Y/N)
+IT3001I	Proportion of local units that produce ITC products
+IT3007I	Local units manufacturing ICT products per 1000 companies
+IT3002I	Percentage of employed in manufacturing ICT products
+IT3008I	Local units providing ICT services per 1000 companies
+IT3003I	Number of local units providing ICT services per resident
+IT3004I	Percentage of employed in providing ICT services
+IT3009I	Local units producing content for the Information Society per 1000 companies
+IT3005I	Number of local units producing content for the Information Society
+IT3006I	Percentage of employed producing ICT content
+CR1005I	Annual cinema attendance per resident
+CR1003I	Cinema seats in Urban Audit cities - seats per 1000 inhabitants
+CR1008I	The number of theatres
+CR1016I	Number of theatres per 1000 residents
+CR1009I	Annual attendance of theatres per resident
+CR1006I	Number of museums
+CR1017I	Number of museums per 1000 residents
+CR1007I	Annual visitors to museums per resident
+CR1010I	The number of public libraries
+CR1015I	Number of libraries per 1000 residents
+CR1011I	Total book loans and other media per resident
+CR1013I	Number of theatre seats per 1000 residents
+CR1014I	Proportion of employment in culture and entertainment industry
+CR2001I	Tourist overnight stays in registered accommodation in Urban Audit cities - number of nights per year
+CR2011I	Number of tourist overnight stays in registered accommodation per year per resident population
+CR2017I	Tourist overnight stays per 1000 population at low season
+CR2016I	Tourist overnight stays per 1000 population at high season
+CR2101I	Average occupancy rate of accomodation
+CR2103I	Average occupancy rate of accommodation at low season
+CR2102I	Average occupancy rate of accommodation at high season
+CR2009I	Number of available beds
+CR2010I	Number of available beds per 1000 residents
+CR2019I	Number of available beds per 1000 residents at low season
+CR2018I	Number of available beds per 1000 residents at high season
+CR2004I	Number of air passengers using nearest airport
+CR2014I	Number of air passengers per resident
+CR2015I	Share of non-domestic arrivals using nearest airport
+CR2005I	Share of non-domestic departures from nearest airport
+CR2006I	Number of air passengers using nearest airport: Domestic arrivals
+CR2007I	Number of air passengers using nearest airport: Total arrivals
+DE3019V	Number of jobless households with children
+DE3020V	Number of jobless households without children
+CI1019V	Participation rate at European elections
+CI1020V	Participation rate at national elections
+CI1021V	Participation rate at city elections
+TE1036V	Students in education of ISCED level 1-2
+TE1037V	Male students in education of ISCED level 1-2
+TE1038V	Female students in education of ISCED level 1-2

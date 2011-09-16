@@ -1,0 +1,80 @@
+TOTAL	Insgesamt
+GF01	Allgemeine öffentliche Verwaltung
+GF0101	Exekutiv- und Legislativorgane, Finanz- und Steuerwesen, auswärtige Angelegenheiten
+GF0102	Wirtschaftshilfe für das Ausland
+GF0103	Allgemeine Dienste
+GF0104	Grundlagenforschung
+GF0105	Angewandte Forschung und experimentelle Entwicklung im Bereich allgemeine öffentliche Verwaltung
+GF0106	Allgemeine öffentliche Verwaltung, a.n.g.
+GF0107	Staatsschuldentransaktionen
+GF0108	Transfers allgemeiner Art zwischen verschiedenen staatlichen Ebenen
+GF02	Verteidigung
+GF0201	Militärische Verteidigung
+GF0202	Zivile Verteidigung
+GF0203	Militärhilfe für das Ausland
+GF0204	Angewandte Forschung und experimentelle Entwicklung im Bereich Verteidigung
+GF0205	Verteidigung, a.n.g.
+GF03	Öffentliche Ordnung und Sicherheit
+GF0301	Polizei
+GF0302	Feuerwehr
+GF0303	Gerichte
+GF0304	Justizvollzug
+GF0305	Angewandte Forschung und experimentelle Entwicklung im Bereich öffentliche Ordnung und Sicherheit
+GF0306	Öffentliche Ordnung und Sicherheit, a.n.g.
+GF04	Wirtschaftliche Angelegenheiten
+GF0401	Allgemeine Angelegenheiten der Wirtschaft und des Arbeitsmarkts
+GF0402	Land- und Forstwirtschaft, Fischerei und Jagd
+GF0403	Brennstoffe und Energie
+GF0404	Bergbau, Herstellung von Waren und Bauwesen
+GF0405	Verkehr
+GF0406	Nachrichtenübermittlung
+GF0407	Andere Wirtschaftsbereiche
+GF0408	Angewandte Forschung und experimentelle Entwicklung im Bereich wirtschaftliche Angelegenheiten
+GF0409	Wirtschaftliche Angelegenheiten, a.n.g.
+GF05	Umweltschutz
+GF0501	Abfallwirtschaft
+GF0502	Abwasserwirtschaft
+GF0503	Vermeidung und Beseitigung von Umweltverunreinigungen
+GF0504	Arten- und Landschaftsschutz
+GF0505	Angewandte Forschung und experimentelle Entwicklung im Bereich Umweltschutz
+GF0506	Umweltschutz, a.n.g.
+GF06	Wohnungswesen und kommunale Einrichtungen
+GF0601	Wohnungswesen
+GF0602	Raumplanung
+GF0603	Wasserversorgung
+GF0604	Straßenbeleuchtung
+GF0605	Angewandte Forschung und experimentelle Entwicklung im Bereich Wohnungswesen und kommunale Einrichtungen
+GF0606	Wohnungswesen und kommunale Einrichtungen, a.n.g.
+GF07	Gesundheitswesen
+GF0701	Medizinische Erzeugnisse, Geräte und Ausrüstungen
+GF0702	Ambulante Behandlung
+GF0703	Stationäre Behandlung
+GF0704	Öffentlicher Gesundheitsdienst
+GF0705	Angewandte Forschung und experimentelle Entwicklung im Bereich Gesundheitswesen
+GF0706	Gesundheitswesen, a.n.g.
+GF08	Freizeitgestaltung, Sport, Kultur und Religion
+GF0801	Freizeitgestaltung und Sport
+GF0802	Kultur
+GF0803	Rundfunk- und Verlagswesen
+GF0804	Religiöse und andere Gemeinschaftsangelegenheiten
+GF0805	Angewandte Forschung und experimentelle Entwicklung im Bereich Freizeitgestaltung, Sport, Kultur und Religion
+GF0806	Freizeitgestaltung, Sport, Kultur und Religion, a.n.g.
+GF09	Bildungswesen
+GF0901	Elementar- und Primärbereich
+GF0902	Sekundarbereich
+GF0903	Post-sekundarer, nicht-tertiärer Bereich
+GF0904	Tertiärbereich
+GF0905	Nicht zuordenbares Bildungswesen
+GF0906	Hilfsdienstleistungen für das Bildungswesen
+GF0907	Angewandte Forschung und experimentelle Entwicklung im Bereich Bildungswesen
+GF0908	Bildungswesen, a.n.g.
+GF10	Soziale Sicherung
+GF1001	Krankheit und Erwerbsunfähigkeit
+GF1002	Alter
+GF1003	Hinterbliebene
+GF1004	Familien und Kinder
+GF1005	Arbeitslosigkeit
+GF1006	Wohnraum
+GF1007	Soziale Hilfe, a.n.g.
+GF1008	Angewandte Forschung und experimentelle Entwicklung im Bereich soziale Sicherung
+GF1009	Soziale Sicherung, a.n.g.

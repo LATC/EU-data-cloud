@@ -1,0 +1,152 @@
+TOT_IPC	Nombre total de demandes de brevet
+A	Section A - Nécéssités courantes de la vie
+A01	Agriculture; sylviculture; élevage; chasse; piégeage; pêche
+A21	Cuisson au four; pâtes alimentaires
+A22	Boucherie; traitement de la viande; traitement de la volaille ou du poisson
+A23	Aliments ou produits alimentaires; leur traitement, non couverts par d'autres classes
+A24	Tabac; cigares; cigarettes; articles pour fumeurs
+A41	Vêtements
+A42	Chapellerie
+A43	Chaussures
+A44	Mercerie; bijouterie
+A45	Objets d'usage personnel ou articles de voyage
+A46	Brosserie
+A47	Ameublement; articles ou appareils ménagers; moulins à café; moulins à épices; aspirateurs en général
+A61	Sciences médicale ou vétérinaire; hygiène
+A62	Sauvetage; lutte contre l'incendie
+A63	Sports; jeux; distractions
+B	Section B - Techniques industrielles diverses; transports
+B01	Procédés ou appareils physiques ou chimiques en général
+B02	Broyage, réduction en poudre ou désagrégation; traitement préparatoire des graines pour la mouture
+B03	Séparation des solides par utilisation des liquides ou par utilisation de tables ou cribles à pistons pneumatiques; séparation magnétique ou électrostatique de matériaux solides à partir de matériaux solides ou de fluides; séparation par des champs électriques à haute tension
+B04	Appareils ou machines centrifuges utilisés avec les procédés physiques ou chimiques
+B05	Pulvérisation ou atomisation en général; application de liquides ou d'autres matériaux fluides aux surfaces, en général
+B06	Production ou transmission des vibrations mécaniques, en général
+B07	Séparation des solides; triage
+B08	Nettoyage
+B09	Élimination des déchets solides; régénération de sols pollués
+B21	Travail mécanique des métaux sans enlèvement substanciel de matière; découpage du métal à l'emporte-pièce
+B22	Fonderie; métallurgie des poudres métalliques
+B23	Machines-outils; travail des métaux non prévus ailleurs
+B24	Meulage; polissage
+B25	Outils à main; outils portatifs à moteur; manches pour ustensiles à main; outillage d'atelier; manipulateurs
+B26	Outils pour tailler à main; coupe; séparation
+B27	Travail ou conservation du bois ou de matériaux similaires; machines pour clouer, agrafer ou brocher en général
+B28	Travail du ciment, de l'argile ou de la pierre
+B29	Travail des matières plastiques; travail des substances à l'état plastique en général
+B30	Presses
+B31	Fabrication d'articles en papier; travail du papier
+B32	Produits stratifiés
+B41	Imprimerie; lignards; machines à écrire; timbres
+B42	Reliures; albums; classeurs; imprimés particuliers
+B43	Matériel pour écrire ou dessiner; accessoires de bureau
+B44	Arts décoratifs
+B60	Véhicules en général
+B61	Chemins de fer
+B62	Véhicules terrestres se déplaçant autrement que sur rails
+B63	Navires ou autres engins flottants; leur équipement
+B64	Aéronautique; aviation; astronautique
+B65	Manutention; emballage; emmagasinage; manipulation des matériaux de forme plate ou filiforme
+B66	Hissage; levage; halage
+B67	Ouverture ou fermeture des bouteilles, bocaux ou récipients analogues; manipulation des liquides
+B68	Bourrellerie; capitonnage
+B81	Technologie des microstructures
+B82	Nanotechnologie
+C	Section C - Chimie; metallurgie
+C01	Chimie inorganique
+C02	Traitement de l'eau, des eaux résiduaires, des eaux ou boues d'égout
+C03	Verre; laine minérale ou de scories
+C04	Ciments; bétons; pierres artificielles; céramiques; réfractaires
+C05	Engrais; leur fabrication
+C06	Explosifs; allumettes
+C07	Chimie organique
+C08	Composés macromoléculaires organiques; leur préparation ou leur mise en oeuvre chimique; compositions à base de composés macromoléculaires
+C09	Colorants; peintures; produits à polir; résines naturelles; adhésifs; compositions diverses; utilisations diverses de substances
+C10	Industries du pétrole, du gaz ou du coke; gaz de synthèse contenant de l'oxyde de carbone; combustibles; lubrifiants; tourbe
+C11	Huiles, graisses, matières grasses ou cires animales ou végétales; leurs acides gras; détergents; bougies
+C12	Biochimie; bière; spiritueux; vin; vinaigre; microbiologie; enzymologie; techniques de mutation ou de génétique
+C13	Industrie du sucre
+C14	Peaux; pelleteries; cuirs
+C21	Métallurgie du fer
+C22	Métallurgie (du fer C21); alliages ferreux ou non ferreux; traitement des alliages ou des métaux non ferreux
+C23	Revêtement de matériaux métalliques; revêtement de matériaux avec des matériaux métalliques; traitement chimique de surface; traitement de diffusion de matériaux métalliques; revêtement par évaporation sous vide, par pulvérisatiion cathodique, par implantation d'ions ou par dépôt chimique en phase vapeur, en général; moyens pour empêcher la corrosion des matériaux métalliques, l'entartrage ou les incrustations, en général
+C25	Procédés électrolytiques ou électrophorétiques; appareillages à cet effet
+C30	Croissance des cristaux
+C40	Technologie combinatoire
+D	Section D - Textiles; papier
+D01	Fibres ou fils naturels ou artificiels; filature
+D02	Fils; finition mécanique des fils ou cordes; ourdissage ou dressage
+D03	Tissage
+D04	Tressage; fabrication de la dentelle; tricotage; passementeries; non-tissés
+D05	Couture; broderie; implantation de poils ou touffes par piquage
+D06	Traitement des textiles ou similaires; blanchissage; matériaux flexibles non prévus ailleurs
+D07	Cordes; câbles autres que les câbles électriques
+D21	Fabrication du papier; production de la cellulose
+E	Section E - Constructions fixes
+E01	Construction de routes, de voies ferrées ou de ponts
+E02	Hydraulique; fondations; terrassement
+E03	Adduction d'eau; évacuation des eaux
+E04	Bâtiment
+E05	Serrures; clés; appareillage des portes ou fenêtres; coffres-forts
+E06	Portes, fenêtres, volets ou stores à rouleau, en général; échelles
+E21	Forage du sol ou de la roche; exploitation minière
+F	Section F - Mécanique; éclairage; chauffage; armement; sautage
+F01	'Machines' ou machines motrices en général; ensembles fonctionnels de machines motrices en général; machines à vapeur
+F02	Moteurs à combustion; ensembles fonctionnels de moteurs à gaz chauds ou à produits de combustion
+F03	'Machines' ou machines motrices à liquides; mécanismes moteurs à vent, à ressorts, à poids ou autres; production d'énergie mécanique ou de poussée propulsive par réaction, non prévue ailleurs
+F04	'Machines' à liquides à déplacement positif, pompes à liquides ou à fluides compressibles
+F15	Dispositifs de manoeuvre à pression de fluide; hydraulique ou technique pneumatique en général
+F16	Éléments ou ensembles de technologie; mesures générales pour assurer le bon fonctionnement des machines ou installations; isolation thermique en général
+F17	Stockage ou distribution des gaz ou des liquides
+F21	Éclairage
+F22	Production de vapeur
+F23	Appareils à combustion; procédés de combustion
+F24	Chauffage; fourneaux; ventilation
+F25	Réfrigératioon ou refroidissement; systèmes combinés de chauffage et de réfrigération; systèmes à pompes à chaleur; fabrication ou emmagasinage de la glace; liquéfaction ou solidification des gaz
+F26	Séchage
+F27	Fours; cornues de distillation
+F28	Échangeurs de chaleur en général
+F41	Armes
+F42	Munitions; sautage
+G	Section G - Physique
+G01	Métrologie (comptage G06M); essais
+G02	Optique
+G03	Photographie; cinématographie; techniques analogues utilisant d'autres ondes que des ondes optiques; électrographie; holographie
+G04	Horométrie
+G05	Commande; régulation
+G06	Calcul; comptage
+G07	Dispositifs de contrôle
+G08	Signalisation
+G09	Enseignement; cryptographie; présentation; publicité; sceaux
+G10	Instruments de musique; acoustique
+G11	Enregistrement de l'information
+G12	Détails ou parties constitutives des instruments
+G21	Physique nucléaire; technique nucléaire
+H	Section H - Électricité
+H01	Élements électriques fondamentaux
+H02	Production, conversion, ou distribution de l'énergie électrique
+H03	Circuits électroniques fondamentaux
+H04	Technique de la communication électrique
+H05	Techniques électriques non prévues ailleurs
+TOT_HT	Haute technologie - total
+TOT_NANO	Nanotechnologie
+Y01N_200	Nanobiotechnologie
+Y01N_400	Nanotechnologie für Datenverarbeitung, -speicherung und -übertragung
+Y01N_600	Nanotechnologie für Materialien und Oberflächenchemie
+Y01N_800	Nanotechnologie für Wechselwirkung, Abtastung oder Betätigung
+Y01N_1000	Nanooptik
+Y01N_1200	Nanomagnete
+CAB	Ordinateurs et équipement automatisé d'entreprise
+MGE	Ingénierie génétique et des micro-organismes
+AVI	Aviation
+CTE	Technologie relative à la communication
+SMC	Semi-conducteurs
+LSR	Laser
+TOT_BIO	Total secteur de la biotechnologie
+COE	TIC électronique grand public
+COM	TIC ordinateurs, machines bureautiques
+TEL	TIC télécommunications
+OTH_ICT	Autres TIC
+TOT_ICT	Total TIC
+NEC	Non classé ailleurs
+UNK	Inconnu

@@ -1,0 +1,91 @@
+TOTAL	Insgesamt
+GINI	Gini-Koeffizient
+S80_S20	Ungleichheit der Einkommensverteilung (Verteilungsquintil)
+A97_MD60	Armutsgefährdungsquote bei zeitlicher Verankerung (Grenze: 60% des medianen Äquivalenzeinkommens)
+A98_MD40	Armutsgefährdungsquote bei zeitlicher Verankerung(Grenze: 40% des medianen Äquivalenzeinkommens)
+A98_MD50	Armutsgefährdungsquote bei zeitlicher Verankerung(Grenze: 50% des medianen Äquivalenzeinkommens)
+A98_MD60	Armutsgefährdungsquote bei zeitlicher Verankerung(Grenze: 60% des medianen Äquivalenzeinkommens)
+A98_MD70	Armutsgefährdungsquote bei zeitlicher Verankerung (Grenze: 70% des medianen Äquivalenzeinkommens)
+A98_M40	Armutsgefährdungsquote bei zeitlicher Verankerung (Grenze: 40% des durchschnittlichen Äquivalenzeinkommens)
+A98_M50	Armutsgefährdungsquote bei zeitlicher Verankerung (Grenze: 50% des durchschnittlichen Äquivalenzeinkommens)
+A98_M60	Armutsgefährdungsquote bei zeitlicher Verankerung (Grenze: 60% des durchschnittlichen Äquivalenzeinkommens)
+A99_MD60	Armutsgefährdungsquote bei zeitlicher Verankerung (Grenze: 60% des medianen Äquivalenzeinkommens)
+A00_MD60	Armutsgefährdungsquote bei zeitlicher Verankerung (Grenze: 60% des medianen Äquivalenzeinkommens)
+MEI_CAP	Durchschnittliches Gesamtnettoeinkommen pro Person
+MEI_E	Durchschnittliches Äquivalenzgesamtnettoeinkommen
+MED_CAP	Medianes Gesamtnettoeinkommen pro Person
+MED_E	Medianes Äquivalenzgesamtnettoeinkommen
+TC	Obergrenze
+SHARE	Anteile am nationalen Äquivalenzgesamtnettoeinkommen
+LI_R_MD40	Armutsgefährdungsquote (Grenze: 40% des medianen Äquivalenzeinkommens)
+LI_R_MD50	Armutsgefährdungsquote (Grenze: 50% des medianen Äquivalenzeinkommens)
+LI_R_MD60	Armutsgefährdungsquote (Grenze: 60% des medianen Äquivalenzeinkommens nach Sozialleistungen)
+LI_R_MD70	Armutsgefährdungsquote (Grenze: 70% des medianen Äquivalenzeinkommens)
+LI_R_M40	Armutsgefährdungsquote (Grenze: 40% des durchschnittlichen Äquivalenzeinkommens)
+LI_R_M50	Armutsgefährdungsquote (Grenze: 50% des durchschnittlichen Äquivalenzeinkommens)
+LI_R_M60	Armutsgefährdungsquote (Grenze: 60% des durchschnittlichen Äquivalenzeinkommens)
+LI_R_MD40BTP	Armutsgefährdungsquote vor Sozialleistungen (Renten sind in den Sozialleistungen miteingeschlossen) (Grenze: 40% des medianen Äquivalenzeinkommens nach Sozialleistungen)
+LI_R_MD50BTP	Armutsgefährdungsquote vor Sozialleistungen (Renten sind in den Sozialleistungen miteingeschlossen) (Grenze: 50% des medianen Äquivalenzeinkommens nach Sozialleistungen)
+LI_R_MD60BTP	Armutsgefährdungsquote vor Sozialleistungen (Renten sind in den Sozialleistungen miteingeschlossen) (Grenze: 60% des medianen Äquivalenzeinkommens nach Sozialleistungen)
+LI_R_MD70BTP	Armutsgefährdungsquote vor Sozialleistungen (Renten sind in den Sozialleistungen miteingeschlossen) (Grenze: 70% des medianen Äquivalenzeinkommens nach Sozialleistungen)
+LI_R_M40BTP	Armutsgefährdungsquote vor Sozialleistungen (Renten sind in den Sozialleistungen miteingeschlossen) (Grenze: 40% des durchschnittlichen Äquivalenzeinkommens nach Sozialleistungen)
+LI_R_M50BTP	Armutsgefährdungsquote vor Sozialleistungen (Renten sind in den Sozialleistungen miteingeschlossen) (Grenze: 50% des durchschnittlichen Äquivalenzeinkommens nach Sozialleistungen)
+LI_R_M60BTP	Armutsgefährdungsquote vor Sozialleistungen (Renten sind in den Sozialleistungen miteingeschlossen) (Grenze: 60% des durchschnittlichen Äquivalenzeinkommens nach Sozialleistungen)
+LI_R_MD40BT	Armutsgefährdungsquote vor Sozialleistungen (Renten sind in den Sozialleistungen nicht miteingeschlossen) (Grenze: 40% des medianen Äquivalenzeinkommens nach Sozialleistungen)
+LI_R_MD50BT	Armutsgefährdungsquote vor Sozialleistungen (Renten sind in den Sozialleistungen nicht miteingeschlossen) (Grenze: 50% des medianen Äquivalenzeinkommens nach Sozialleistungen)
+LI_R_MD60BT	Armutsgefährdungsquote vor Sozialleistungen (Renten sind in den Sozialleistungen nicht miteingeschlossen) (Grenze: 60% des medianen Äquivalenzeinkommens nach Sozialleistungen)
+LI_R_MD70BT	Armutsgefährdungsquote vor Sozialleistungen (Renten sind in den Sozialleistungen nicht miteingeschlossen) (Grenze: 70% des medianen Äquivalenzeinkommens nach Sozialleistungen)
+LI_R_M40BT	Armutsgefährdungsquote vor Sozialleistungen (Renten sind in den Sozialleistungen nicht miteingeschlossen) (Grenze: 40% des durchschnittlichen Äquivalenzeinkommens nach Sozialleistungen)
+LI_R_M50BT	Armutsgefährdungsquote vor Sozialleistungen (Renten sind in den Sozialleistungen nicht miteingeschlossen) (Grenze: 50% des durchschnittlichen Äquivalenzeinkommens nach Sozialleistungen)
+LI_R_M60BT	Armutsgefährdungsquote vor Sozialleistungen (Renten sind in den Sozialleistungen nicht miteingeschlossen) (Grenze: 60% des durchschnittlichen Äquivalenzeinkommens nach Sozialleistungen)
+LI_GAP_MD40	Relative Armutslücke (Grenze: 40% des medianen Äquivalenzeinkommens)
+LI_GAP_MD50	Relative Armutslücke (Grenze: 50% des medianen Äquivalenzeinkommens)
+LI_GAP_MD60	Relative Armutslücke (Grenze: 60% des medianen Äquivalenzeinkommens)
+LI_GAP_MD70	Relative Armutslücke (Grenze: 70% des medianen Äquivalenzeinkommens)
+LI_GAP_M40	Relative Armutslücke (Grenze: 40% des durchschnittlichen Äquivalenzeinkommens)
+LI_GAP_M50	Relative Armutslücke (Grenze: 50% des durchschnittlichen Äquivalenzeinkommens)
+LI_GAP_M60	Relative Armutslücke (Grenze: 60% des durchschnittlichen Äquivalenzeinkommens)
+LI_C_MD40	Armutsrisikogrenze (40% des medianen Äquivalenzeinkommens)
+LI_C_MD50	Armutsrisikogrenze (50% des medianen Äquivalenzeinkommens)
+LI_C_MD60	Armutsrisikogrenze (60% des medianen Äquivalenzeinkommens)
+LI_C_MD70	Armutsrisikogrenze (70% des medianen Äquivalenzeinkommens)
+LI_C_M40	Armutsrisikogrenze (40% des durchschnittlichen Äquivalenzeinkommens)
+LI_C_M50	Armutsrisikogrenze (50% des durchschnittlichen Äquivalenzeinkommens)
+LI_C_M60	Armutsrisikogrenze (60% des durchschnittlichen Äquivalenzeinkommens)
+LIP_MD40	Quote der dauerhaften Armutsgefährdung auf Basis des Alters und des Geschlechts (Grenze: 40% des medianen Äquivalenzeinkommens)
+LIP_MD50	Quote der dauerhaften Armutsgefährdung auf Basis des Alters und des Geschlechts (Grenze: 50% des medianen Äquivalenzeinkommens)
+LIP_MD60	Quote der dauerhaften Armutsgefährdung auf Basis des Alters und des Geschlechts (Grenze: 60% des medianen Äquivalenzeinkommens)
+LIP_MD70	Quote der dauerhaften Armutsgefährdung auf Basis des Alters und des Geschlechts (Grenze: 70% des medianen Äquivalenzeinkommens)
+LIP_M40	Quote der dauerhaften Armutsgefährdung auf Basis des Alters und des Geschlechts (Grenze: 40% des durchschnittlichen Äquivalenzeinkommens)
+LIP_M50	Quote der dauerhaften Armutsgefährdung auf Basis des Alters und des Geschlechts (Grenze: 50% des durchschnittlichen Äquivalenzeinkommens)
+LIP_M60	Quote der dauerhaften Armutsgefährdung auf Basis des Alters und des Geschlechts (Grenze: 60% des durchschnittlichen Äquivalenzeinkommens)
+LIFEEXP	Lebenserwartung
+HLTH	Eigene Gesundheitswahrnehmung nach Einkommensniveau
+INWPOV	Arbeits-Armutsgefährdungsquote
+RATIO	Relatives Einkommensmedianverhältnis
+R_GE65_LT65	Personen 65 Jahre und älter im Vergleich zu Personen weniger als 65 Jahre
+R_GE65_45TO54	Personen 65 Jahre und älter im Vergleich zu Personen zwischen 45 und 54 Jahren
+R_GE75_LT75	Personen 75 Jahre und älter im Vergleich zu Personen weniger als 75 Jahre
+R_GE75_45TO54	Personen 75 Jahre und älter im Vergleich zu Personen zwischen 45 und 54 Jahren
+R_GE60_LT60	Personen 60 Jahre und älter im Vergleich zu Personen weniger als 60 Jahre
+R_GE60_45TO54	Personen 60 Jahre und älter im Vergleich zu Personen zwischen 45 und 54 Jahren
+R_PN_WK	Verhältnis der Renten von Personen zwischen 65 und 74 Jahren und des Arbeitseinkommen von Personen zwischen 50 und 59 Jahren
+R_PNST_WK	Verhältnis der Renten und Sozialleistungen von Personen zwischen 65 und 74 Jahren und des Arbeitseinkommen von Personen zwischen 50 und 59 Jahren
+INDEX	HICP Inflationsrate nach Basisjahr
+POOR	Verteilung der Bevölkerung in Armutsgefährdung
+SC101	Jünger als 3 Jahre - keine formale Kinderbetreuung
+SC102	Jünger als 3 Jahre - Kinderbetreuung zwischen 1 und 29 Std. wöchentlich
+SC103	Jünger als 3 Jahre - Kinderbetreuung 30 Std. und mehr wöchentlich
+SC111	3 Jahre bis schulpflichtiges Alter - keine formale Kinderbetreuung
+SC112	3 Jahre bis schulpflichtiges Alter - Kinderbetreuung zwischen 1 und 29 Std. wöchentlich
+SC113	3 Jahre bis schulpflichtiges Alter - Kinderbetreuung 30 Std. und mehr wöchentlich
+R_NDEP_NLOW	Bevölkerung, die von Armut bedroht ist, nicht unter erheblicher materiellen Entbehrung leidet und nicht in einem Haushalt mit sehr niedriger Erwerbsintensität wohnt.
+R_NDEP_LOW	Bevölkerung, die von Armut bedroht ist, nicht unter erheblicher materiellen Entbehrung leidet aber in einem Haushalt mit sehr niedriger Erwerbsintensität wohnt
+R_DEP_NLOW	Bevölkerung, die von Armut bedroht ist, unter erheblicher materiellen Entbehrung leidet aber nicht in einem Haushalt mit sehr niedriger Erwerbsintensität wohnt
+R_DEP_LOW	Bevölkerung, die von Armut bedroht ist, unter erheblicher materiellen Entbehrung leidet und inem Haushalt mit sehr niedriger Erwerbsintensität wohnt
+NR_NDEP_LOW	Bevölkerung, die nicht von Armut bedroht ist, nicht unter erheblicher materiellen Entbehrung leidet aber in einem Haushalt mit sehr niedriger Erwerbsintensitätwohnt
+NR_DEP_NLOW	Bevölkerung, die nicht von Armut bedroht ist, unter erheblicher materiellen Entbehrung leidet aber nicht in einem Haushalt mit sehr niedriger Erwerbsintensität wohnt
+NR_DEP_LOW	Bevölkerung, die nicht von Armut bedroht ist, unter erheblicher materiellen Entbehrung leidet und in einem Haushalt mit sehr niedriger Erwerbsintensität wohnt
+NR_NDEP_NLOW	Bevölkerung, die weder von Armut bedroht ist, noch unter erheblicher materiellen Entbehrung leidet noch in einem Haushalt mit sehr niedriger Erwerbsintensität wohnt 
+GAP_LT18TOT	Differenz zwischen Personen jünger als 18 Jahren und der Totalbevölkerung
+GAP_18-24TOT	Differenz zwischen Personen im Alter zwischen 18 und 24 und der Totalbevölkerung

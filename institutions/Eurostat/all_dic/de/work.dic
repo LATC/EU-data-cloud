@@ -1,0 +1,12 @@
+TOTAL	Insgesamt
+WORK	'Arbeiten' (siehe Erklärungstext)
+N_WORK	Nicht 'arbeiten' (siehe Erklärungstext)
+NRESP	Keine Antwort
+LOSS	Arbeitsplatzverluste
+LOSS_HS	Pertes d'emplois hautement qualifiés
+CREA	Arbeitsplatzschaffung
+CREA_HS	Schaffung hochqualifizierter Arbeitsplätze
+CREA_NA	Arbeitsplatzschaffung entfällt
+LOSS_NA	Arbeitsplatzverlust entfällt
+CREA_UNK	Arbeitsplatzschaffung  nicht bekannt
+LOSS_UNK	Arbeitsplatzverlust  nicht bekannt

@@ -1,0 +1,512 @@
+V11110	Nombre d'entreprises
+V11111	Nombre d'entreprises ventilé d'après le statut juridique
+V11112	Nombre d'entreprises ventilé d'après la classe de taille des primes brutes émises
+V11113	Nombre d'entreprises ventilé d'après la classe de taille des provisions techniques brutes
+V11114_C	Nombre d'entreprises ventilé d'après l'implantation du siège social de l'entreprise mère
+V11115	Nombre d'entreprises ventilé d'après le pays de résidence de l'entreprise-mère
+V11116	Nombre d'entreprises ventilé d'après les classes de taille du total du bilan
+V11117	Nombre d'entreprises ventilé d'après la catégorie des établissements de crédit
+V11150	Nombre d'entreprises dotés de fonds de pension non autonomes
+V11210	Nombre d'unités locales
+V11310	Nombre d'unités d'activité économique
+V11410	Nombre total et localisation des succursales implantées à l'étranger
+V11411	Nombre total et localisation des succursales implantées en dehors de l'EEE
+V11510	Filiales financières implantées à l'étranger
+V11610	Nombre de régimes de pension
+V11710	Nombre d'entreprises avec des membres dans des autres pays de l'EEE
+V11910	Population des entreprises actives en t
+V11920	Nombre de créations d'entreprises en t
+V11930	Nombre de cessations d'entreprises en t
+V11941	Nombre d'entreprises nouvellement créées en t-1 ayant survécu en t
+V11942	Nombre d'entreprises nouvellement créées en t-2 ayant survécu en t
+V11943	Nombre d'entreprises nouvellement créées en t-3 ayant survécu en t
+V11944	Nombre d'entreprises nouvellement créées en t-4 ayant survécu en t
+V11945	Nombre d'entreprises nouvellement créées en t-5 ayant survécu en t
+V11950	Nombre d'entreprises à forte croissance, en terme d'emploi
+V11951	Nombre d'entreprises à forte croissance, en terme de chiffre d'affaires
+V11952	Nombre de jeunes entreprises à forte croissance (gazelles), en terme d'emploi
+V11953	Nombre de jeunes enterprises à forte croissance (gazelles), en terme de chiffre d'affaires
+V12110	Chiffre d'affaires
+V12111	Primes brutes émises au titre de l'assurance directe
+V12112	Primes brutes émises au titre de la réassurance acceptée
+V12113	Primes brutes émises au titre de l'assurance directe, primes individuelles
+V12114	Primes brutes émises au titre de l'assurance directe, primes émises pour les contrats de groupe
+V12115	Primes brutes émises au titre de l'assurance directe, primes périodiques
+V12116	Primes brutes émises au titre de l'assurance directe, primes uniques
+V12117	Primes brutes émises au titre de l'assurance directe, primes de contrats sans participation aux bénéfices
+V12118	Primes brutes émises au titre de l'assurance directe, primes de contrats avec participation aux bénéfices
+V12119	Primes brutes émises au titre de l'assurance directe, primes de contrats lorsque le risque de placement est supporté par les souscripteurs
+V12120	Valeur de la production
+V12130	Marge brute sur biens destinés à la revente
+V12140	Valeur ajoutée aux prix de base
+V12150	Valeur ajoutée aux coûts des facteurs
+V12170	Excédent brut d'exploitation
+V13110	Montant total des achats de biens et de services
+V13111	Achats de biens
+V13112	Achats de services
+V13120	Achats de biens et de services destinés à la revente en l'état
+V13131	Paiements pour travailleurs d'agence
+V13210	Variation du stock de biens et de services
+V13211	Variation du stock de biens et de services destinés à la revente en l'état
+V13213	Variation de stock de produits finis et en cours de production fabriqués par l'unité elle-même
+V13310	Dépenses de personnel
+V13320	Salaires et traitements
+V13330	Charges sociales
+V13410	Coûts d'exploitation liés aux bâtiments et équipements
+V13411	Frais de location à long terme et de location-achat
+V13420	Coûts de vente
+V13430	Autres coûts d'exploitation
+V15110	Investissements bruts en biens corporels
+V15120	Investissements bruts en terrains
+V15130	Investissements bruts en bâtiments et autres structures existantes
+V15140	Investissements bruts en construction et transformation de bâtiments
+V15150	Investissements bruts en machines et équipements
+V15210	Ventes de biens d'investissements corporels
+V15250	Investissement net en biens corporels
+V15310	Valeur des biens corporels acquis en crédit-bail
+V15420	Investissements bruts en concessions, brevets, licences, marques de commerce et droits similaires
+V15441	Investissements en logiciel acquis
+V15442	Investissements en logiciel produit par l'unité elle-même
+V15450	investissement relatif aux services
+V15460	Revenus tirés des droits de la propriété intellectuelle
+V15470	Achats d'espaces publicitaires ou de temps d'antenne destinés à la revente
+V15471	Nombre d'heures fournies
+V16110	Nombre de personnes occupées
+V16111_C	Nombre de personnes occupées par catégorie des établissements de crédit
+V16112	Nombre de femmes employées
+V16113	Nombre de personnes percevant un salaire fixe
+V16120	Nombre de personnes occupées non-rémunérées
+V16130	Nombre de salariés
+V16131	Nombre de salariés à temps partiel
+V16132	Nombre d'apprentis
+V16133	Nombre de femmes salariées
+V16135	Nombre de travailleurs à domicile
+V16136	Nombre de femmes salariées
+V16140	Nombre de salariés en équivalent temps complet
+V16150	Nombre d'heures travaillées par les salariés
+V16160	Nombre d'emplois
+V16910	Nombre de personnes occupées dans la population des entreprises actives en t
+V16911	Nombre de salariés dans la population des entreprises actives en t
+V16920	Nombre de personnes occupées dans la population des entreprises créées en t
+V16921	Nombre de salariés dans la population des entreprises créées en t
+V16930	Nombre de personnes occupées dans la population des entreprises ayant cessé leur activité en t
+V16931	Nombre de salariés dans la population des entreprises ayant cessé leur activité en t
+V16941	Nombre de personnes occupées dans la population des entreprises nouvellement créées en t-1 ayant survécu en t
+V16942	Nombre de personnes occupées dans la population des entreprises nouvellement créées en t-2 ayant survécu en t
+V16943	Nombre de personnes occupées dans la population des entreprises nouvellement créées en t-3 ayant survécu en t
+V16944	Nombre de personnes occupées dans la population des entreprises nouvellement créées en t-4 ayant survécu en t
+V16945	Nombre de personnes occupées dans la population des entreprises nouvellement créées en t-5 ayant survécu en t
+V16951	Nombre de personnes occupées durant l'année de création dans la population des entreprises nouvellement créées en t-1 ayant survécu en t
+V16952	Nombre de personnes occupées durant l'année de création dans la population des entreprises nouvellement créées en t-2 ayant survécu en t
+V16953	Nombre de personnes occupées durant l'année de création dans la population des entreprises nouvellement créées en t-3 ayant survécu en t
+V16954	Nombre de personnes occupées durant l'année de création dans la population des entreprises nouvellement créées en t-4 ayant survécu en t
+V16955	Nombre de personnes occupées durant l'année de création dans la population des entreprises nouvellement créées en t-5 ayant survécu en t
+V17320	Nombre de magasins de vente au détail
+V17330	Catégories de surface de vente des magasins de vente au détail
+V17331	Surface de vente
+V17340	Nombre de stands et/ou étals fixes sur marchés
+V18100	Chiffre d'affaires afférent aux activités de l'agriculture, de la sylviculture, de la pêche et de l'industrie
+V18110	Chiffre d'affaires afférent à l'activité principale au niveau 4 chiffres de la NACE REV 1
+V18120	Chiffre d'affaires afférent aux activités industrielles
+V18121	Chiffre d'affaires afférent aux activités industrielles à l'exclusion de la construction
+V18122	Chiffre d'affaires afférent à la construction
+V18130	Chiffre d'affaires afférent aux activités d'achat et de revente
+V18140	Chiffre d'affaires afférent aux activités d'intermédiation
+V18150	Chiffre d'affaires afférent aux activités de service
+V18160	Chiffre d'affaires afférent aux activités d'achat et de revente ainsi qu'aux activités d'intermédiation
+V18210	Ventilation du chiffre d'affaires par produit (selon la section G du CAP)
+V18310	Chiffre d'affaires afférent au bâtiment
+V18320	Chiffre d'affaires afférent au génie civil
+V20110	Achat de produits énergétiques (valeur)
+V20111	Achats de combustibles solides (valeur)
+V20112	Achats de produits pétroliers (valeur)
+V20113	Achats de gaz naturel et dérivé (valeur)
+V20114	Achats de sources d'énergie renouvelable (valeur)
+V20115	Achats de chaleur (valeur)
+V20116	Achats d'électricité (valeur)
+V20210	Achats de houille (valeur)
+V20220	Achats de coke (valeur)
+V20230	Achats d'agglomérés (valeur)
+V20240	Achats de gasoil (valeur)
+V20250	Achats de fuel-oil lourd (valeur)
+V20260	Achats d'autres produits pétroliers (valeur)
+V20270	Achats de gaz naturel (valeur)
+V20280	Achats de gaz dérivé (valeur)
+V20290	Achats de sources d'énergie renouvelable (valeur)
+V20300	Achats de chaleur (valeur)
+V20310	Achats d'électricité (valeur)
+V21110	Investissements dans des équipements et installations conçus pour lutter contre la pollution, et accessoires spéciaux de lutte antipollution (principalement les équipements 'en fin de cycle')
+V21120	Investissements dans des équipements et installations propres ('technologie intégrée')
+V21140	Total des dépenses courantes consacrées à la protection de l'environnement
+V22110	Dépenses totales de recherche et de développement interne
+V22120	Nombre total du personnel de recherche et de développement
+V23110	Paiements pour sous-traitants
+V23120	Revenus issus de la sous-traitance
+V25111	Ventilation du chiffre d'affaires en pourcentage par type de clientèle: Revendeurs: détaillants
+V25112	Ventilation du chiffre d'affaires en pourcentage par type de clientèle: Utilisateurs professionnels (grossistes, autres)
+V25113	Ventilation du chiffre d'affaires en pourcentage par type de clientèle: Consommateurs finals (activité de commerce au détail)
+V25211	Ventilation des achats en pourcentage par type de fournisseur: Grossistes, groupements d'achat
+V25212	Ventilation des achats en pourcentage par type de fournisseur: Producteurs
+V32110	Primes brutes acquises
+V32112	Variation brute de la provision pour primes non acquises
+V32114	Primes brutes émises ventilées d'après le statut juridique
+V32115	Primes brutes émises au titre de l'assurance directe ventilées d'après le pays de résidence de l'entreprise-mère
+V32116	Primes brutes émises au titre de la réassurance acceptée ventilées d'après le pays de résidence de l'entreprise-mère
+V32120	Produits des placements alloués, transférés du compte non technique
+V32130	Charge brute des sinistres
+V32131	Montants bruts payés pour les sinistres
+V32132	Montants bruts payés pour les sinistres survenus pendant l'exercice en cours
+V32133	Montants bruts payés pour les sinistres survenus au cours des exercices antérieurs
+V32134	Variation brute de la provision pour sinistres à régler
+V32140	Frais d'exploitation bruts
+V32150	Variation de la provision pour égalisation
+V32160	Postes du compte technique non encore cités, montants bruts
+V32161	Autres produits techniques, montants nets
+V32162	Variation nette des autres provisions techniques non encore enregistrée sous d'autres postes
+V32163	Participations aux bénéfices et ristournes - montant net
+V32164	Autres charges techniques - montant net
+V32170	Résultat brut du compte technique (sous-total I)
+V32180	Solde de réassurance
+V32181	Part des réassureurs dans le montant des primes brutes émises
+V32182	Part des réassureurs dans le montant des primes brutes émises ventilée d'après le pays de résidence de l'entreprise-mère
+V32183	Part des réassureurs dans la variation brute de la provision pour primes non acquises
+V32184	Part des réassureurs dans la charge brute des sinistres
+V32185	Part des réassureurs dans les montants bruts payés pour les sinistres
+V32186	Part des réassureurs dans la variation brute de la provision pour sinistres
+V32187	Commissions reçues des réassureurs et participations aux bénéfices
+V32188	Part des réassureurs dans le montant brut des postes du compte technique non encore cités
+V32190	Résultat net du compte technique (sous-total II)
+V32220	Produits des placements
+V32230	Plus-values non réalisées sur placements
+V32250	Variation brute de la provision d'assurance-vie
+V32270	Charges des placements
+V32280	Moins-values non réalisées sur placements
+V32290	Produits des placements alloués, transférés au compte non technique
+V32334	Part des réassureurs dans la variation brute de la provision d'assurance-vie
+V32420	Produits des placements
+V32430	Produits des placements alloués, transférés du compte technique de l'assurance vie
+V32440	Charges des placements
+V32450	Produits des placements alloués, transférés au compte technique de l'assurance non vie
+V32460	Autres produits
+V32470	Autres charges, y compris les corrections de valeur
+V32480	Résultat provenant des activités ordinaires
+V32490	Résultat exceptionnel
+V32500	Impôts de toute nature
+V32510	Résultat de l'exercice
+V32610	Total des commissions, des frais externes consacrés à l'achat de biens et services et des frais de personnel
+V32611	Commissions
+V32612	Commissions afférentes à l'assurance directe
+V32613	Commissions afférentes à la réassurance acceptée
+V32614	Dépenses externes consacrés à l'achat de biens et de services
+V32615	Frais externes et internes de gestion des sinistres
+V32616	Frais d'acquisition
+V32617	Frais d'administration
+V32618	Autres charges techniques brutes
+V32619	Charges de gestion des placements
+V32710	Produits des placements
+V32711	Produits des participations
+V32712	Produits des autres placements
+V32713	Produits provenant des terrains et constructions
+V32714	Produits provenant d'autres placements
+V32715	Reprises de corrections de valeur sur placements
+V32716	Profits provenant de la réalisation de placements
+V32720	Charges des placements
+V32721	Charges de gestion des placements, y compris les charges d'intérêt
+V32722	Corrections de valeur sur placements
+V32723	Pertes provenant de la réalisation des placements
+V33111	Primes brutes émises au titre de l'assurance directe par (sous)-catégories de la CPA (niveau à 5 chiffres et sous-catégories 66.03.21, 66.03.22)
+V33121	Part des réassureurs dans le montant des primes brutes émises au titre de l'assurance directe par (sous)-catégories de la CPA (niveau à 5 chiffres et sous-catégories 66.03.21, 66.03.22)
+V33131	Charge brute des sinistres au titre de l'assurance directe par (sous)-catégories de la CPA (niveau à 5 chiffres et sous-catégories 66.03.21, 66.03.22)
+V33141	Frais d'exploitation bruts au titre de l'assurance directe par (sous)-catégories de la CPA (niveau à 5 chiffres et sous-catégories 66.03.21, 66.03.22)
+V33151	Solde de réassurance au titre de l'assurance directe par (sous)-catégories de la CPA (niveau à 5 chiffres et sous-catégories 66.03.21, 66.03.22)
+V34110	Ventilation géographique - en général - des primes brutes émises au titre de l'assurance directe
+V34120	Ventilation géographique - en général - des primes brutes émises au titre de la réassurance acceptée
+V34130	Ventilation géographique - en général - de la part des réassureurs dans le montant des primes brutes émises (assurance directe et réassurance acceptée)
+V34311	Primes brutes émises, au titre de l'assurance directe, en vertu du régime d'établissement, par catégorie de la CPA (niveau à 5 chiffres) et par Etat membre
+V34321	Primes brutes émises, au titre de l'assurance directe, en vertu du régime de libre prestation de services, par catégorie de la CPA (niveau à 5 chiffres) et par Etat membre
+V36100	Total des placements
+V36110	Terrains et constructions
+V36111	Terrains et constructions utilisés par l'entreprise d'assurance dans le cadre de son activité propre
+V36112	Terrains et constructions (valeur actuelle)
+V36120	Placements dans des entreprises liées et participations
+V36121	Parts dans les entreprises liées et participations
+V36122	Bons et obligations émis par les entreprises liées et par des entreprises avec lesquelles l'entreprise d'assurance a un lien de participation, et créances sur ces entreprises
+V36123	Placements dans des entreprises liées et participations (valeur actuelle)
+V36130	Autres placements financiers
+V36131	Actions, autres titres à revenu variable et parts dans des fonds communs de placement
+V36132	Obligations et autres titres à revenu fixe
+V36133	Part dans des pools d'investissement
+V36134	Prêts hypothécaires
+V36135	Autres prêts
+V36136	Autres (y compris les dépôts auprès des établissements de crédit)
+V36138	Autres placements financiers (valeur actuelle)
+V36140	Dépôts auprès des entreprises cédantes
+V36200	Placements pour le compte des preneurs d'une police d'assurance vie et dont le risque est supporté par eux
+V36210	Placements pour le compte des preneurs d'une police d'assurance vie et dont le risque est supporté par eux - terrains et constructions
+V36220	Placements pour le compte des preneurs d'une police d'assurance vie et dont le risque est supporté par eux - autres placements financiers
+V36300	Total du bilan
+V37100	Total des capitaux propres
+V37101	Total des capitaux propres, ventilé d'après le statut juridique
+V37110	Capital souscrit ou fonds équivalent
+V37120	Primes d'émission, réserve de réévaluation, réserves
+V37200	Passifs subordonnés
+V37300	Total des provisions techniques brutes
+V37301	Total des provisions techniques nettes
+V37310	Provision brute pour primes non acquises
+V37320	Provision brute d'assurance vie
+V37330	Provision brute pour sinistres
+V37331	Provision brute pour sinistres au titre de l'assurance directe
+V37332	Provision brute pour sinistres au titre de la réassurance acceptée
+V37333	Provision brute pour sinistres au titre de la réassurance acceptée, par produit
+V37340	Provision brute pour participations aux bénéfices et ristournes
+V37350	Provision pour égalisation
+V37360	Autres provisions techniques brutes
+V37370	Provisions techniques brutes relatives à l'assurance vie lorsque le risque de placement est supporté par le preneur d'assurance
+V37410	Emprunts obligataires
+V37420	Dettes envers des établissements de crédit
+V39100	Nombre de contrats existants à la fin de l'exercice comptable au titre de l'assurance directe, pour tous les contrats d'assurance-vie individuels et pour les sous-catégories suivantes de la CPA: 66.01.1, 66.03.1, 66.03.4, 66.03.5
+V39200	Nombre de personnes assurées à la fin de l'exercice comptable au titre de l'assurance directe pour tous les contrats d'assurance-vie de groupe et pour la sous-catégorie suivantes de la CPA: 66.03.1
+V39300	Nombre de véhicules assurés à la fin de l'exercice comptable, au titre de l'assurance directe, pour la sous-catégorie suivante de la CPA: 66.03.2
+V39400	Sommes brutes assurées à la fin de l'exercice comptable au titre de l'assurance directe, pour les sous-catégories suivantes de la CPA: 66.01.1 and 66.01.4
+V39500	Nombre de sinistres survenus au cours de l'exercice comptable au titre de l'assurance directe, pour la sous-catégorie suivante de la CPA: 66.03.2
+V42110	Intérêts et produits assimilés
+V42111	Intérêts et produits assimilés sur titres à revenu fixe
+V42120	Intérêts et charges assimilées
+V42121	Intérêts et charges assimilées liés à des bons et obligations en circulation
+V42130	Revenus de titres
+V42131	Revenus d'actions, de parts et autres titres à revenu variable
+V42140	Commissions perçues
+V42150	Commissions versées
+V42200	Résultat provenant d'opérations financières
+V42310	Autres produits d'exploitation
+V42320	Frais généraux administratifs
+V42322	Autres frais administratifs
+V42330	Autres charges d'exploitation
+V42350	Corrections de valeur et reprises de corrections de valeur sur créances et provisions pour passifs éventuels et pour engagements
+V42360	Autres corrections de valeur et reprises de corrections de valeur
+V42400	Résultat provenant des activités ordinaires
+V42500	Résultat exceptionnel
+V42510	Tous impôts (impôts sur le résultat provenant des activités ordinaires, impôts sur le résultat exceptionnel, autres impôts)
+V42600	Résultat de l'exercice
+V43110	Créances sur la clientèle
+V43210	Dettes envers la clientèle
+V43290	Total des capitaux propres
+V43300	Total du bilan (établissements de crédit)
+V43310	Total du bilan ventilé d'après l'implantation du siège social de l'entreprise mère
+V43320	Total du bilan ventilé d'après le statut juridique
+V44110	Intérêts et produits assimilés ventilés par (sous-)catégories de la CPA
+V44120	Intérêts et charges assimilées ventilés par (sous-)catégories de la CPA
+V44130	Commissions perçues ventilées par (sous-)catégories de la CPA
+V44140	Commissions versées ventilées par (sous-)catégories de la CPA
+V45110	Ventilation géographique du nombre total de succursale de l'EEE
+V45210	Ventilation géographique des intérêts et produits assimilés
+V45220	Ventilation géographique du total du bilan
+V45310	Ventilation géographique des intérêts et produits assimilés ayant été générés par les opérations réalisées au titre de la libre prestation de services (dans d' autres pays de l'EEE)
+V45321	Chiffre d'affaires par enterprise
+V45410	Ventilation géographique des intérêts et produits assimilés ayant été générés par les opérations des succursales (en dehors de l'EEE)
+V45420	Ventilation géographique des intérêts et produits assimilés ayant été générés par les opérations réalisées au titre de la libre prestation de services (en dehors de l'EEE)
+V45789	Chiffre d'affaires par personne employée
+V47110	Nombre des comptes ventilé par (sous-)carégories de la CPA
+V47120	Nombre de créances sur la clientèle ventilé par (sous-)carégories de la CPA
+V47130	Nombre de guichets automatiques de banque (GAB) détenus par les établissements de crédit
+V48001	Cotisations de pension à recevoir des membres
+V48002	Cotisations de pension à recevoir des employeurs
+V48003	Transferts entrants
+V48004	Autres cotisations de pension
+V48005	Cotisations de pension versées à des régimes à prestations définies
+V48006	Cotisations de pension vesées à des régimes à cotisations définies
+V48007	Cotisations de pension versées à des régimes hybrides
+V48010	Produits des placements (FP)
+V48011	Plus-values et moins-values en capital
+V48021	Indemnités d'assurance à recevoir
+V48022	Autres produits (FP)
+V48030	Dépenses totales au titre des pensions
+V48031	Paiements réguliers de pensions
+V48032	Paiements de pensions sous forme de montants forfaitaires
+V48033	Transferts sortants
+V48040	Variation nette des provisions (réserves) techniques
+V48050	Primes d'assurance à payer
+V48060	Total des frais opérationnels
+V48070	Total des impôts
+V48080	Chiffre d'affaires des fonds de pension non autonomes
+V48100	Terrains et constructions (FP)
+V48101	Terrains et constructions utilisés dans le cadre de l'activité propre
+V48102	Placements dans des entreprises liées et participations (FP)
+V48104	Total des placements évalués à la valeur du marché
+V48110	Actions et autres titres à revenu variable
+V48120	Actions négociées sur un marché réglementé axé sur les PME
+V48130	Actions non cotées
+V48131	Autres titres à revenu variable
+V48132	Parts d'organismes de placement collectif en valeurs mobilières
+V48133	Obligations et autres titres à revenu fixe
+V48134	Obligations et autres titres à revenu fixe émis par des administrations publiques
+V48140	Autres obligations et autres titres à revenu fixe
+V48150	Parts dans des pools d'investissement (FP)
+V48151	Prêts hypothéquaires et autres prêts non couverts ailleurs
+V48152	Autres placements
+V48160	Total des placements (FP)
+V48170	Total des placements effectués dans l'entreprise participante
+V48180	Total des placements évalués à la valeur du marché
+V48200	Autres actifs
+V48300	Capitaux propres
+V48400	Provisions techniques nettes (FP)
+V48500	Autres passifs
+V48610	Ventilation géographique du chiffre d'affaires
+V48620	Ventilation géographique des actions et autres titres à revenu variable
+V48630	Ventilation géographique du total des placements
+V48640	Total des placements ventilé en composantes euro et non-euro
+V48700	Nombre de membres
+V48701	Nombre de membres cotisant à des régimes à prestations définies
+V48702	Nombre de membres cotisant à des régimes à cotisations définies
+V48703	Nombre de membres cotisant à des régimes hybrides
+V48704	Nombre de membres actifs
+V48705	Nombre de membres ayant quitté un régime, mais possédant des droits acquis
+V48706	Nombre de retraités
+V48707	Nombre de membres féminins
+V48710	Nombre de membres
+V85456	Share of employees in the number of persons employed
+V85564	Gross operating surplus per person employed
+V91100	Chiffre d'affaires par personne occupée
+V91110	productivité apparente du travail (valeur ajoutée brute par personne occupée)
+V91111	Nombre d'entreprises (%)
+V91120	productivité du travail ajustée par les salaires (productivité apparent du travail par côut moyen de personnel)
+V91121	productivité simple du travail ajustée par les salaires (valeur ajoutée brute par coût de personnel)
+V91130	Valeur ajoutée par salarié
+V91140	Valeur ajoutée par salarié FTE
+V91150	Valeur ajoutée par heure travaillée par les salariés
+V91170	Part des dépenses de personnel dans la valeur de la production
+V91210	Coûts moyens de personnel (coûts de personnel par salarié (1 000 EUR)
+V91220	Coût de la main d'oeuvre par salarié FTE
+V91230	Coût de la main d'oeuvre par heure travaillée par les salariés
+V91275	Part des salariés dans le nombre de personnes occupées
+V91290	Taux de croissance de l'emploi
+V91310	Part des charges sociales des employeurs en pourcentage des dépenses de personnel
+V91616	Nombre d'emplois (%)
+V92100	Nombre de personnes occupées par entreprise
+V92101	Chiffre d'affaires par entreprise (millions d'écus)
+V92102	Value added at factor cost per enterprise
+V92110	Excédent brut d'exploitation/Chiffre d'affaires (taux brut d'exploitation)
+V92111	Part de la valeur ajoutée dans la valeur de la production
+V92112	Ratio des dépenses de personnel sur le total des achats de biens et services
+V92113	Part de l'excédent brut d'exploitation dans la valeur ajoutée
+V92114	Part des investissements corporels bruts dans les dépenses de personnel (%)
+V92300	Taux de croissance de la valeur ajoutée au coût des facteurs à prix constants
+V92310	Taux de croissance de la production à prix constants
+V94110	Part de l'activité principale dans le chiffre d'affaires (degré de spécialisation)
+V94130	Share of personnel costs in total operating costs
+V94210	Part de la valeur ajoutée dans l'ensemble de l'industrie manufacturière
+V94220	Part de la valeur ajoutée dans l'ensemble de l'industrie
+V94240	Part de la valeur de la production dans le total des industries manufacturières
+V94270	Part du chiffre d'affaires dans le total des industries manufacturières
+V94310	Part de l'emploi dans l'ensemble de l'industrie manufacturière
+V94320	Part de l'emploi dans l'ensemble de l'industrie
+V94410	Proportion des stocks de produits finis et en cours de production dans la valeur de la production
+V94414	Investissements par personne occupée
+V94415	Taux d'investissement (investissement/valeur ajoutée au coût des facteurs)
+V94900	Part du pays partenaire dans le total mondial, nombre d'entreprises (%)
+V94901	Part du pays partenaire dans le total mondial, chiffre d'affaires (%)
+V94902	Part du pays partenaire dans le total mondial, valeur de la production (%)
+V94903	Part du pays partenaire dans le total mondial, valeur ajoutée au coût des facteurs (%)
+V94904	Part du pays partenaire dans le total mondial, achats de biens et services (%)
+V94906	Part du pays partenaire dans le total mondial, dépenses de personnel (%)
+V94907	Part du pays partenaire dans le total mondial, investissements bruts en biens corporels (%)
+V94908	Part du pays partenaire dans le total mondial, nombre de personnes occupées (%)
+V94909	Part du pays partenaire dans le total mondial, nombre de salariés (%)
+V95110	Part des dépenses de R&D dans la valeur ajoutée
+V95120	Part de l'emploi de R&D dans le nombre de personnes occupées
+V97010	Croissance nette de la population des entreprises
+V97015	Renouvellement des entreprises: taux de création + taux de disparition
+V97020	Taux de création: nombre de créations d'entreprises durant la période de référence (t) divisé par le nombre d'entreprises actives en t
+V97021	Proportion de créations d'entreprises durant la période de référence (t) par classe de taille
+V97022	Densité du taux de création: nombre de créations d'entreprises durant la période de référence (t) divisé par la population (en 10 000) en t
+V97023	Densité du taux de création (version restreinte): nombre de créations d'entreprises durant la période de référence (t) divisé par la population âgée de 20 à 59 ans (en 10 000) en t
+V97030	Taux de disparition: nombre de disparitions d'entreprises durant la période de référence (t) divisé par le nombre d'entreprises actives en t
+V97031	Proportion de disparitions d'entreprises durant la période de référence (t) par classe de taille
+V97041	Taux de survie 1: nombre d'entreprises durant la période de référence (t) nouvellement créées en t-1 et ayant survécu en t divisé par le nombre de créations d'entreprises en t-1
+V97042	Taux de survie 2: nombre d'entreprises durant la période de référence (t) nouvellement créées en t-2 et ayant survécu en t divisé par le nombre de créations d'entreprises en t-2
+V97043	Taux de survie 3: nombre d'entreprises durant la période de référence (t) nouvellement créées en t-3 et ayant survécu en t divisé par le nombre de créations d'entreprises en t-3
+V97044	Taux de survie 4: nombre d'entreprises durant la période de référence (t) nouvellement créées en t-4 et ayant survécu en t divisé par le nombre de créations d'entreprises en t-4
+V97045	Taux de survie 5: nombre d'entreprises durant la période de référence (t) nouvellement créées en t-5 et ayant survécu en t divisé par le nombre de créations d'entreprises en t-5
+V97051	Part des entreprises âgées d'un an dans la population totale des entreprises
+V97052	Part des entreprises âgées de deux ans dans la population totale des entreprises
+V97053	Part des entreprises âgées de trois ans dans la population totale des entreprises
+V97054	Part des entreprises âgées de quatre ans dans la population totale des entreprises
+V97055	Part des entreprises âgées de cinq ans dans la population totale des entreprises
+V97120	Part d'emploi des créations d'entreprises: nombre de personnes occupées durant la période de référence (t) dans les entreprises nouvellement créées en t divisé par le nombre de personnes occupées en t dans le stock des entreprises actives en t
+V97121	Taille moyenne des entreprises nouvellement créées: nombre de personnes occupées durant la période de référence (t) dans les entreprises nouvellement créées en t divisé par le nombre d'entreprises nouvellement créées en t
+V97122	Taux d'emploi rémunéré des nouvelles entreprises: nombre de salariés durant la période de référence (t) dans les entreprises nouvellement créées en t divisé par le nombre de personnes occupées en t dans les entreprises nouvellement créées en t
+V97130	Part de l'emploi des cessations d'entreprises: nombre de personnes occupées durant la période de référence (t) dans les entreprises mortes en t divisé par le nombre de personnes occupées en t dans le stock des entreprises actives en t
+V97131	Taille moyenne des entreprises mortes: nombre de personnes occupées durant la période de référence (t) dans les entreprises mortes en t divisé par le nombre d'entreprises mortes en t
+V97141	Taux de croissance de l'emploi des entreprises d'un an: nombre de personnes occupées durant la période de référence (t) dans les entreprises nouvellement créées en t-1 et ayant survécu en t divisé par le nombre de personnes occupées en t-1 par les mêmes entreprises
+V97142	Taux de croissance de l'emploi des entreprises de deux ans: nombre de personnes occupées durant la période de référence (t) dans les entreprises nouvellement créées en t-2 et ayant survécu en t divisé par le nombre de personnes occupées en t-2 par les mêmes entreprises
+V97143	Taux de croissance de l'emploi des entreprises de trois ans: nombre de personnes occupées durant la période de référence (t) dans les entreprises nouvellement créées en t-3 et ayant survécu en t divisé par le nombre de personnes occupées en t-3 par les mêmes entreprises
+V97144	Taux de croissance de l'emploi des entreprises de quatre ans: nombre de personnes occupées durant la période de référence (t) dans les entreprises nouvellement créées en t-4 et ayant survécu en t divisé par le nombre de personnes occupées en t-4 par les mêmes entreprises
+V97145	Taux de croissance de l'emploi des entreprises de cinq ans: nombre de personnes occupées durant la période de référence (t) dans les entreprises nouvellement créées en t-5 et ayant survécu en t divisé par le nombre de personnes occupées en t-5 par les mêmes entreprises
+V97151	Part de l'emploi des entreprises âgées d'un an: Nombre de personnes employées au sein des enterprises nées à la période t-1 et ayant survécu à la période t, divisé par le nombre de personnes employées dans la population totale des enterprises actives à la période t
+V97152	Part de l'emploi des entreprises âgées de deux ans: Nombre de personnes employées au sein des enterprises nées à la période t-2 et ayant survécu à la période t, divisé par le nombre de personnes employées dans la population totale des enterprises actives à la période t
+V97153	Part de l'emploi des entreprises âgées de trois ans: Nombre de personnes employées au sein des enterprises nées à la période t-3 et ayant survécu à la période t, divisé par le nombre de personnes employées dans la population totale des enterprises actives à la période t
+V97154	Part de l'emploi des entreprises âgées de quatre ans: Nombre de personnes employées au sein des enterprises nées à la période t-4 et ayant survécu à la période t, divisé par le nombre de personnes employées dans la population totale des enterprises actives à la période t
+V97155	Part de l'emploi des entreprises âgées de cinq ans: Nombre de personnes employées au sein des entreprises nées à la période t-5 et ayant survécu à la période t, divisé par le nombre de personnes employées dans la population totale des enterprises actives à la période t
+V97161	Taille moyenne des entreprises d'un an: nombre de personnes occupées durant la période de référence (t) dans les entreprises nouvellement créées en t-1 et ayant survécu en t divisé par le nombre d'entreprises en t nouvellement créées en t-1 et ayant survécu en t
+V97162	Taille moyenne des entreprises de deux ans: nombre de personnes occupées durant la période de référence (t) dans les entreprises nouvellement créées en t-2 et ayant survécu en t divisé par le nombre d'entreprises en t nouvellement créées en t-2 et ayant survécu en t
+V97163	Taille moyenne des entreprises de trois ans: nombre de personnes occupées durant la période de référence (t) dans les entreprises nouvellement créées en t-3 et ayant survécu en t divisé par le nombre d'entreprises en t nouvellement créées en t-3 et ayant survécu en t
+V97164	Taille moyenne des entreprises de quatre ans: nombre de personnes occupées durant la période de référence (t) dans les entreprises nouvellement créées en t-4 et ayant survécu en t divisé par le nombre d'entreprises en t nouvellement créées en t-4 et ayant survécu en t
+V97165	Taille moyenne des entreprises de cinq ans: nombre de personnes occupées durant la période de référence (t) dans les entreprises nouvellement créées en t-5 et ayant survécu en t divisé par le nombre d'entreprises en t nouvellement créées en t-5 et ayant survécu en t
+V97241	Nombre d'entreprises nouvellement créées durant la période de référence (n) et ayant survécu en (n+1)
+V97242	Nombre d'entreprises nouvellement créées durant la période de référence (n) et ayant survécu en (n+2)
+V97243	Nombre d'entreprises nouvellement créées durant la période de référence (n) et ayant survécu en (n+3)
+V97244	Nombre d'entreprises nouvellement créées durant la période de référence (n) et ayant survécu en (n+4)
+V97245	Nombre d'entreprises nouvellement créées durant la période de référence (n) et ayant survécu en (n+5)
+V97251	Taux de survie 1 de la population: nombre d'entreprises nouvellement créées durant la période de référence (n) et ayant survécu en (n+1) divisé par le nombre de créations d'entreprises en (n)
+V97252	Taux de survie 2 de la population: nombre d'entreprises nouvellement créées durant la période de référence (n) et ayant survécu en (n+2) divisé par le nombre de créations d'entreprises en (n)
+V97253	Taux de survie 3 de la population: nombre d'entreprises nouvellement créées durant la période de référence (n) et ayant survécu en (n+3) divisé par le nombre de créations d'entreprises en (n)
+V97254	Taux de survie 4 de la population: nombre d'entreprises nouvellement créées durant la période de référence (n) et ayant survécu en (n+4) divisé par le nombre de créations d'entreprises en (n)
+V97255	Taux de survie 5 de la population: nombre d'entreprises nouvellement créées durant la période de référence (n) et ayant survécu en (n+5) divisé par le nombre de créations d'entreprises en (n)
+V97341	Nombre de personnes occupées durant l'année de survie dans les entreprises nouvellement créées en (n) et ayant survécu en (n+1)
+V97342	Nombre de personnes occupées durant l'année de survie dans les entreprises nouvellement créées en (n) et ayant survécu en (n+2)
+V97343	Nombre de personnes occupées durant l'année de survie dans les entreprises nouvellement créées en (n) et ayant survécu en (n+3)
+V97344	Nombre de personnes occupées durant l'année de survie dans les entreprises nouvellement créées en (n) et ayant survécu en (n+4)
+V97345	Nombre de personnes occupées durant l'année de survie dans les entreprises nouvellement créées en (n) et ayant survécu en (n+5)
+V97351	Nombre de personnes occupées durant l'année de création dans les entreprises nouvellement créées en (n) et ayant survécu en (n+1)
+V97352	Nombre de personnes occupées durant l'année de création dans les entreprises nouvellement créées en (n) et ayant survécu en (n+2)
+V97353	Nombre de personnes occupées durant l'année de création dans les entreprises nouvellement créées en (n) et ayant survécu en (n+3)
+V97354	Nombre de personnes occupées durant l'année de création dans les entreprises nouvellement créées en (n) et ayant survécu en (n+4)
+V97355	Nombre de personnes occupées durant l'année de création dans les entreprises nouvellement créées en (n) et ayant survécu en (n+5)
+V97361	Taux de croissance de l'emploi des entreprises d'un an: nombre de personnes occupées durant l'année (n+1) dans les entreprises nouvellement créées en (n) et ayant survécu en (n+1) divisé par le nombre de personnes occupées en (n) par les mêmes entreprises
+V97362	Taux de croissance de l'emploi des entreprises de deux ans: nombre de personnes occupées durant l'année (n+2) dans les entreprises nouvellement créées en (n) et ayant survécu en (n+2) divisé par le nombre de personnes occupées en (n) par les mêmes entreprises
+V97363	Taux de croissance de l'emploi des entreprises de trois ans: nombre de personnes occupées durant l'année (n+3) dans les entreprises nouvellement créées en (n) et ayant survécu en (n+3) divisé par le nombre de personnes occupées en (n) par les mêmes entreprises
+V97364	Taux de croissance de l'emploi des entreprises de quatre ans: nombre de personnes occupées durant l'année (n+4) dans les entreprises nouvellement créées en (n) et ayant survécu en (n+4) divisé par le nombre de personnes occupées en (n) par les mêmes entreprises
+V97365	Taux de croissance de l'emploi des entreprises de cinq ans: nombre de personnes occupées durant l'année (n+5) dans les entreprises nouvellement créées en (n) et ayant survécu en (n+5) divisé par le nombre de personnes occupées en (n) par les mêmes entreprises
+V97450	Part des entreprises à forte croissance dans la population totale des entreprises actives, en terme d'emploi
+V97451	Part des entreprises à forte croissance dans la population totale des entreprises actives, en terme de chiffre d'affaires
+V97452	Part des jeunes entreprises à forte croissance (gazelles) dans la population totale des entreprises actives,  en terme d'emploi
+V97453	Part des jeunes entreprises à forte croissance (gazelles) dans la population totale des entreprises actives,  en terme de chiffre d'affaires
+V99110	Chiffre d'affaires à prix constants
+V99120	Valeur de la production à prix constants
+V99150	Valeur ajoutée au coût des facteurs à prix constants
+V9EU10	Pourcentage de personnes occupées dans le total de l'UE-15
+V9EU11	Spécialisation de l'emploi par rapport à l'UE-15 par industrie
+V9EU20	Part du chiffre d'affaires dans le total de l'UE-15
+V9EU21	Spécialisation du chiffre d'affaires par rapport à l'UE-15 par industrie
+V9EU30	Part de la valeur de production dans le total de l'UE-15
+V9EU31	Spécialisation de production par rapport à l'UE-15 par industrie
+V9EU50	Part de la valeur ajoutée dans le total de l'UE-15
+V9EU51	Spécialisation de la valeur ajoutée par rapport à l'UE-15 par industrie
+V9IS10	Spécialisation du chiffre d'affaires par rapport à l'industrie manufacturière
+V9IS11	Spécialisation de l'emploi par rapport à l'industrie manufacturière
+V9IS20	Spécialisation de production par rapport à l'industrie manufacturière
+V9IS50	Spécialisation de la valeur ajoutée par rapport à l'industrie manufacturière
+VS2110	Part du chiffre d'affaires des entreprises dans l'activité dans le total du chiffre d'affaires de la classe de taille
+VS2111	Part de l'emploi des entreprises dans l'activité dans le total de l'emploi des entreprises
+VS2150	Part de la valeur ajoutée des entreprises dans l'activité dans le total des valeurs ajoutées des entreprises
+VSC110	Part du chiffre d'affaires des entreprises dans le total du chiffre d'affaires de l'activité
+VSC111	Part de l'emploi des entreprises dans l'emploi total de l'activité
+VSC150	Part de la valeur ajoutée des entreprises dans le total de la valeur ajoutée de l'activité
+V97455	Part des entreprises de croissance moyenne dans la population totale des entreprises actives, en terme d'emploi
+V97456	Part des entreprises de croissance moyenne dans la population totale des entreprises actives, en terme de chiffre d'affaires
+V97457	Part des jeunes entreprises de croissance moyenne dans la population totale des entreprises actives,  en terme d'emploi
+V97458	Part des jeunes enterprises de croissance moyenne dans la population totale des entreprises actives,  en terme de chiffre d'affaires
+V11955	Nombre d'entreprises de croissance moyenne, en terme d'emploi
+V11956	Nombre d'entreprises de croissance moyenne, en terme de chiffre d'affaires
+V11957	Nombre de jeunes entreprises de croissance moyenne, en terme d'emploi
+V11958	Nombre de jeunes entreprises de croissance moyenne, en terme de chiffre d'affaires

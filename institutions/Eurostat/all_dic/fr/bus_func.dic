@@ -1,0 +1,10 @@
+CORE_F	Fonction principale (production de biens et de services sur le marché)
+SUP_F	Fonction de soutien
+DIST_F	Distribution et logistique
+MK_F	Marketing, ventes et services après-vente
+ICT_F	Services de TIC
+ADM_F	Administration et direction
+ENG_F	Ingénierie et services techniques connexes
+RD_F	Recherche et développement
+OTHER	Autres fonctions
+CO_SUP_F	Fonction principale et/ou fonction de soutien

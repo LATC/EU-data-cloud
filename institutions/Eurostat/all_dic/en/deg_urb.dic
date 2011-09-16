@@ -1,0 +1,9 @@
+TOTAL	Total
+DEG1	Densely-populated area (at least 500 inhabitants/Km²)
+DEG2	Intermediate urbanized area (between 100 and 499 inhabitants/Km²)
+DEG3	Thinly-populated area (less than 100 inhabitants/Km²)
+URB	Predominantly urban regions
+INT	Intermediate regions
+RUR	Predominantly rural regions
+UNK	Unknown
+NRESP	No answer

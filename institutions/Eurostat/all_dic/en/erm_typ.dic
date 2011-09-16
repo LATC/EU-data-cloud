@@ -1,0 +1,5 @@
+DI	ERM divergence indicator
+CPIECU	Consumer price index based on prices in ECU
+BF	Bilateral ERM currency fluctuations
+WEIGHT	Weights of component currencies in ECU
+FLUCT	ERM2 fluctuations against the central rate

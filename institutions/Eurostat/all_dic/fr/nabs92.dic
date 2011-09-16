@@ -1,0 +1,131 @@
+NBS01	Exploration et exploitation du milieu terrestre
+NBS0100	Recherche sur l'exploration et l'exploitation du milieu terrestre
+NBS0101	Prospection minière, pétrolière et gazière
+NBS0102	Exploration et exploitation des fonds marins
+NBS0103	Croûte et enveloppe terrestres, à l'exclusion des fonds marins
+NBS0104	Hydrologie
+NBS0105	Mers et océans
+NBS0106	Atmosphère
+NBS0109	Autres recherches concernant l'exploration et l'exploitation du milieu terrestre
+NBS02	Infrastructures et aménagement du territoire
+NBS0200	Recherche sur l'infrastructure et l'aménagement du territoire
+NBS0201	Aménagement général du territoire
+NBS0202	Construction et aménagement de bâtiments
+NBS0203	Génie civil
+NBS0204	Systèmes de transport
+NBS0205	Systèmes de télécommunications
+NBS0206	Approvisionnement en eau
+NBS0209	Autres recherches concernant les infrastructures et l'aménagement du territoire
+NBS03	Pollution et protection de l'environnement
+NBS0300	Recherche sur l'environnement
+NBS0301	Protection de l'atmosphère et du climat
+NBS0302	Protection de l'air ambiant
+NBS0303	Déchets solides
+NBS0304	Protection des eaux ambiantes
+NBS0305	Sol et nappe phréatique
+NBS0306	Réduction du bruit et des vibrations
+NBS0307	Protection des espèces et des habitats
+NBS0308	Protection contre les catastrophes naturelles
+NBS0309	Protection contre les radiations
+NBS0310	Autres recherches en matière d'environnement
+NBS04	Protection et amélioration de la santé publique
+NBS0400	Recherche sur la protection et l'amélioration de la santé des personnes
+NBS0401	Recherches médicales, traitement hospitalier, chirurgie
+NBS0402	Médecine préventive
+NBS0403	Génie biomédical et pharmacologie
+NBS0404	Médecine du travail
+NBS0405	Nutrition et hygiène alimentaire
+NBS0406	Abus de drogues et toxicomanie
+NBS0407	Médecine sociale
+NBS0408	Structures hospitalières et organisation des soins médicaux
+NBS0409	Autres recherches médicales
+NBS05	Production, distribution et utilisation rationnelle de l'énergie
+NBS0500	Recherche sur la production, distribution et utilisation rationnelle de l'énergie
+NBS0501	Combustibles fossiles et leurs dérivés
+NBS0502	Fission nucléaire
+NBS0503	Gestion des déchets radioactifs, y compris les déchets résultant du déclassement des installations/des combustibles
+NBS0504	Fusion nucléaire
+NBS0505	Sources d'énergie renouvelables
+NBS05051	Energies solaire, thermale et photovoltaïque
+NBS05052	Energie géothermique
+NBS05053	Energies hydraulique, éolienne et marémotrice
+NBS05054	Recherche sur la conversion de la biomasse (en particulier dans le domaine de la pyrolyse, de la gazéification, de l'extraction et du traitement par enzymes); recherche sur traitement des déchets industriels, agricoles et domestiques dans le but de la production d' énergie
+NBS0506	Utilisation rationnelle de l'énergie
+NBS0509	Autres recherches concernant la production, la distribution et l'utilisation rationnelle de l'énergie
+NBS06	Production agricole et technologie
+NBS0600	Recherche sur la production agricole et la technologie
+NBS0601	Produits agricoles
+NBS0602	Pêche et pisciculture
+NBS0603	Médecine vétérinaire
+NBS0604	Produits végétaux
+NBS0605	Sylviculture et industrie du bois
+NBS0606	Technologie alimentaire
+NBS0609	Autres recherches concernant la production et la technologie agricole
+NBS07	Production industrielle et technologie
+NBS0700	Recherche en production industrielle et en technologie
+NBS0701	Augmenttaion de l'efficience économique et compétitivité
+NBS0702	Techniques de production
+NBS0703	Extraction et transformation de minéraux non énergétiques et produits dérivés
+NBS0704	Produits de l'industrie chimique
+NBS07041	Sous-produits de la pétrochimie et de la carbochimie
+NBS07042	Produits pharmaceutiques
+NBS0705	Construction de véhicules à moteur et d'autres moyens de transport
+NBS07051	Fabrication et réparation de matériel aérospatial
+NBS07052	Fabrication de véhicules à moteur et de pièces détachées
+NBS07053	Fabrication de tous les autres moyens de transport
+NBS0706	Industries électroniques et connexes
+NBS07061	Fabrication de matériel bureautique et informatique
+NBS07062	Fabrication d'équipements de radio, télévision et communication
+NBS07063	Développement de logiciels
+NBS0707	Fabrication de machines et appareils électriques
+NBS0708	Fabrication de machines non électroniques et non électriques
+NBS0709	Fabrication d'instruments d'optique et de précision
+NBS07091	Fabrication de matériel médical et chirurgical et d'appareils orthopédiques
+NBS07092	Fabrication de tout autre type d'instruments
+NBS0710	Produits alimentaires et boissons
+NBS0711	Industrie textile, de l'habillement et maroquinerie
+NBS0712	Autres produits manufacturés
+NBS0713	Recyclage des déchets
+NBS08	Structures et relations sociales
+NBS0800	Recherche sur les structures et relations sociales
+NBS0801	Enseignement, formation, perfectionnement et recyclage
+NBS0802	Culture
+NBS0803	Gestion des entreprises et des administrations
+NBS0804	Amélioration des conditions de travail
+NBS0805	Régimes de sécurité sociale
+NBS0806	Organisation politique de la société
+NBS0807	Mutations, relations et conflits sociaux
+NBS0809	Autres recherches concernant les structures et relations sociales
+NBS09	Exploration et exploitation de l'espace
+NBS0900	Recherche sur l'exploration et l'exploitation du milieu terrestre
+NBS0901	Exploration scientifique de l'espace
+NBS0902	Programmes de recherche appliquée
+NBS0903	Systèmes de lancement
+NBS0904	Stations orbitales et astronautiques
+NBS0909	Autre recherche sur l'exploration et l'exploitation de l'espace
+NBS10	Recherches financées par les fonds généraux des universités (FGU)
+NBS1000	Mathématique et informatique
+NBS1001	Physique
+NBS1002	Chimie
+NBS1003	Biologie
+NBS1004	Sciences de la terre et disciplines connexes (environnement)
+NBS1005	Sciences de l'ingénieur
+NBS1006	Médecine
+NBS1007	Agriculture
+NBS1008	Sciences sociales
+NBS1009	Sciences humaines
+NBS11	Recherches non orientées
+NBS1100	Mathématique et informatique
+NBS1101	Physique
+NBS1102	Chimie
+NBS1103	Biologie
+NBS1104	Sciences de la terre et disciplines connexes (environnement)
+NBS1105	Sciences de l'ingénieur
+NBS1106	Médecine
+NBS1107	Agriculture
+NBS1108	Sciences sociales
+NBS1109	Sciences humaines
+NBS12	Autres recherches civiles
+NBS13	Défense
+NBS99_X_13	Total des crédits de recherche et de développement civils
+NBS99	Total des crédits

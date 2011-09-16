@@ -1,0 +1,466 @@
+1120	Blé tendre (prix par 100 kg)
+1130	Blé dur (prix par 100 kg)
+1150	Seigle (prix par 100 kg)
+1160	Orge (prix par 100 kg)
+1161	Orge de brasserie (prix par 100 kg)
+1180	Avoine (prix par 100 kg)
+1200	Maïs (prix par 100 kg)
+1211	Sorgho (prix par 100 kg)
+1217	Triticale (prix par 100 kg)
+1251	Riz (prix par 100 kg)
+1314	Pois secs (prix par 100 kg)
+1316	Pois chiches (prix par 100 kg)
+1331	Haricots secs (prix par 100 kg)
+1338	Fèves (sèches) (prix par 100 kg)
+1341	Lentilles (prix par 100 kg)
+1361	Pommes de terre de consommation (prix par 100 kg)
+1362	Pommes de terre hatives (prix par 100 kg)
+1371	Betteraves sucrières : valeur unitaire (prix par 1 000 kg)
+1372	Betteraves sucrières : qualité standard (prix par 1 000 kg)
+1430	Colza (prix par 100 kg)
+1450	Tournesols (prix par 100 kg)
+1470	Soja (prix par 100 kg)
+1490	Coton non égrené (prix par 100 kg)
+1495	Arachides non décortiquées (prix par 100 kg)
+1551	Tabac brut : toutes variétés (prix par 100 kg)
+1552	Tabac brut : variété la plus importante (prix par 100 kg)
+1553	Tabac brut : 2ème variété en importance (prix par 100 kg)
+1561	Houblon : toutes variétés (prix par 100 kg)
+1562	Houblon : variété la plus importante (prix par 100 kg)
+1621	Choux-fleurs : toutes qualités (prix par 100 kg)
+1622	Choux-fleurs : qualité I (prix par 100 kg)
+1632	Choux de bruxelles : toutes qualités (prix par 100 kg)
+1633	Choux de bruxelles : qualité I (prix par 100 kg)
+1636	Choux blancs : toutes qualités (prix par 100 kg)
+1637	Choux blancs: qualité I (prix par 100 kg)
+1641	Choux rouges : toutes qualités (prix par 100 kg)
+1642	Choux rouges : qualité I (prix par 100 kg)
+1646	Choux de savoie : toutes qualités (prix par 100 kg)
+1647	Choux de savoie : qualité I (prix par 100 kg)
+1671	Céléris-raves : toutes qualités (prix par 100 kg)
+1681	Laitues de pleine terre : toutes qualités (prix par 100 kg)
+1682	Laitues de pleine terre : qualité I (prix par 100 kg)
+1683	Laitues de serre : toutes qualités (prix par 100 kg)
+1684	Laitues de serre : qualité I (prix par 100 kg)
+1701	Asperges : toutes qualités (prix par 100 kg)
+1702	Asperges : qualité I (prix par 100 kg)
+1751	Tomates de pleine terre : toutes qualités (prix par 100 kg)
+1752	Tomates de pleine terre : rondes; qualité I (prix par 100 kg)
+1753	Tomates de pleine terre : allongées; qualité I (prix par 100 kg)
+1754	Tomates de serre : toutes qualités (prix par 100 kg)
+1755	Tomates de serre : qualité I (prix par 100 kg)
+1762	Concombres de pleine terre : toutes qualités (prix par 100 kg)
+1763	Concombres de pleine terre : qualité I (prix par 100 kg)
+1764	Concombres de serre : toutes qualités (prix par 100 kg)
+1765	Concombres de serre : qualité I (prix par 100 kg)
+1771	Melons (prix par 100 kg)
+1777	Pastèques (prix par 100 kg)
+1831	Carottes : toutes qualités (prix par 100 kg)
+1832	Carottes : qualité I (prix par 100 kg)
+1851	Oignons : toutes qualités (prix par 100 kg)
+1891	Petits pois : toutes qualités (prix par 100 kg)
+1892	Petits pois : qualité I (prix par 100 kg)
+1902	Haricots verts : toutes qualités (prix par 100 kg)
+1903	Haricots verts : qualité I (prix par 100 kg)
+1910	Champignons de culture : toutes qualités (prix par 100 kg)
+1925	Brocoli (prix par 100 kg)
+1926	Choux de Chine (prix par 100 kg)
+1927	Haricots d'Espagne (prix par 100 kg)
+1928	Ail (prix par 100 kg)
+1929	Chou-raves (prix par 100 kg)
+1930	Radis (prix par 100 kg)
+1931	Eissalat/Bummerlsalat (prix par 100 kg)
+1932	Epinards (prix par 100 kg)
+2111	Pommes de table : ensemble des variétés (prix par 100 kg)
+2112	Pommes de table : Golden delicious (prix par 100 kg)
+2114	Pommes de table : Cox's orange pippin (prix par 100 kg)
+2131	Poires de table : ensemble des variétés (prix par 100 kg)
+2133	Poires de table : Williams (prix par 100 kg)
+2138	Poires de table : Doyenne du comice (prix par 100 kg)
+2181	Pêches : ensemble des variétés (prix par 100 kg)
+2191	Abricots : ensemble des variétés (prix par 100 kg)
+2201	Cerises : bigarreaux (prix par 100 kg)
+2202	Cerises : morelles aigres (prix par 100 kg)
+2213	Prunes : quetsches (prix par 100 kg)
+2214	Prunes : reines-claudes (prix par 100 kg)
+2215	Prunes : mirabelles (prix par 100 kg)
+2219	Prunes à pruneaux et autres (prix par 100 kg)
+2225	Dattes (prix par 100 kg)
+2231	Noix (prix par 100 kg)
+2232	Noisettes (prix par 100 kg)
+2233	Amandes (prix par 100 kg)
+2236	Chataîgnes (prix par 100 kg)
+2241	Pistaches (prix par 100 kg)
+2251	Figues fraîches (prix par 100 kg)
+2253	Avocats (prix par 100 kg)
+2256	Figues sèches (prix par 100 kg)
+2258	Bananes (prix par 100 kg)
+2261	Fraises de pleine terre (prix par 100 kg)
+2262	Fraises de serre (prix par 100 kg)
+2263	Fraises : tous types de production (prix par 100 kg)
+2320	Oranges : ensemble des variétés (prix par 100 kg)
+2331	Oranges : Moro (prix par 100 kg)
+2332	Oranges : Sanguinello (prix par 100 kg)
+2334	Oranges : Tarocco (prix par 100 kg)
+2335	Oranges : Washington navels (prix par 100 kg)
+2336	Oranges : Valencia (prix par 100 kg)
+2351	Mandarines : ensemble des variétés (prix par 100 kg)
+2352	Mandarines : Satsumas (prix par 100 kg)
+2353	Tangerines : ensemble des variétés (prix par 100 kg)
+2360	Mandarines : clémentines (prix par 100 kg)
+2371	Citrons : ensemble des variétés (prix par 100 kg)
+2372	Citrons : Verdelli (prix par 100 kg)
+2373	Citrons : Invernali (prix par 100 kg)
+2374	Citrons : Vernia (prix par 100 kg)
+2375	Citrons : Mesero (prix par 100 kg)
+2416	Raisins secs (prix par 100 kg)
+2418	Raisins de corinthe (prix par 100 kg)
+2419	Raisins de smyrne (prix par 100 kg)
+2421	Raisin de table : ensemble des variétés (prix par 100 kg)
+2445	Raisins destinés a la vinification (prix par 100 kg) (prix par 100 kg)
+2460	Olives de table (prix par 100 kg)
+2971	Caroubes (prix par 100 kg)
+3051	Azalées (en pot) (prix par 100 pièces)
+3054	Chrysanthèmes (en pot) (prix par 100 pièces)
+3057	Cyclamens (en pot) (prix par 100 pièces)
+3064	Poinsettias (en pot) (prix par 100 pièces)
+3100	Roses (prix par 100 pièces)
+3103	Roses baccara (prix par 100 pièces)
+3110	Oeillets (prix par 100 pièces)
+3120	Chrysanthèmes (prix par 100 pièces)
+3130	Glaieuls (prix par 100 pièces)
+3140	Tulipes (prix par 100 pièces)
+3150	Frésias (prix par 100 pièces)
+3810	Mout (prix par 100 litres)
+3821	Vin blanc (prix par 100 litres)
+3822	Vin rouge (prix par 100 litres)
+3823	Vin rosé (prix par 100 litres)
+3831	Béziers (prix par 100 litres)
+3832	Montpellier (prix par 100 litres)
+3833	Narbonne (prix par 100 litres)
+3834	Carcassonne (prix par 100 litres)
+3835	Nîmes (prix par 100 litres)
+3836	Perpignan (prix par 100 litres)
+3840	Asti (prix par 100 litres)
+3841	Verona (prix par 100 litres)
+3842	Reggio Emilia (prix par 100 litres)
+3843	Teramo (prix par 100 litres)
+3844	Matera (prix par 100 litres)
+3845	Brindisi (prix par 100 litres)
+3846	Bari (prix par 100 litres)
+3847	Catanzaro (prix par 100 litres)
+3848	Sassari (prix par 100 litres)
+3849	Forli (prix par 100 litres)
+3850	Viterbo (prix par 100 litres)
+3851	Foggia (prix par 100 litres)
+3852	Taranto (prix par 100 litres)
+3855	Elbling (prix par 100 litres)
+3856	Rivaner (prix par 100 litres)
+3861	Retsina (blanc) (prix par 100 litres)
+3862	Aretsinoto (blanc) (prix par 100 litres)
+3863	Kokkino (prix par 100 litres)
+3871	Portugieser (prix par 100 litres)
+3872	Riesling (prix par 100 litres)
+3873	Sylvaner ou mueller-thurgau (prix par 100 litres)
+3881	Vin blanc nouveau (prix par 100 litres)
+3882	Vin rouge nouveau (prix par 100 litres)
+3883	Vin rosé et clairet nouveau (prix par 100 litres)
+3901	Corbières (prix par 100 litres)
+3902	Côtes de provence (prix par 100 litres)
+3903	Côtes du Rhône (prix par 100 litres)
+3904	Bordeaux blancs (prix par 100 litres)
+3906	Muscadet (prix par 100 litres)
+3910	Barbera : Asti (prix par 100 litres)
+3911	Dolcetto delle langhe : Cuneo (prix par 100 litres)
+3912	Barbera : Cuneo (prix par 100 litres)
+3913	Cabernet e merlot di collina : Bolzano (prix par 100 litres)
+3914	Merlot : Treviso (prix par 100 litres)
+3915	Cabernet : Treviso (prix par 100 litres)
+3916	Lambrusco : Modena (prix par 100 litres)
+3917	Sangiovese : Forli (prix par 100 litres)
+3918	Albana : Forli (prix par 100 litres)
+3919	Chianti : Siena (prix par 100 litres)
+3920	Castelli (frascati-grottaferrata) : Roma (prix par 100 litres)
+3925	Auxerrois (prix par 100 litres)
+3926	Riesling (prix par 100 litres)
+3927	Pinot blanc (prix par 100 litres)
+3928	Pinot gris (prix par 100 litres)
+3931	Samos (prix par 100 litres)
+3941	Dao (prix par 100 litres)
+3950	Vin en fût, toutes qualités de blanc (prix par 100 litres)
+3951	Vin en fût, toutes qualités de rouge (prix par 100 litres)
+3963	Extra vergine (prix par 100 litres)
+3964	Sopraffino - fine (prix par 100 litres)
+3965	Fino (prix par 100 litres)
+3966	Semi-fine (prix par 100 litres)
+3967	Comune (prix par 100 litres)
+3968	Lampante (prix par 100 litres)
+3969	Extra: classe I (prix par 100 litres)
+1554	Tabac brut: flue cured (prix par 100 kg)
+1555	Tabac brut: light air cured (prix par 100 kg)
+1556	Tabac brut: dark air cured (prix par 100 kg)
+1557	Tabac brut: fire cured (prix par 100 kg)
+1558	Tabac brut: sun cured (prix par 100 kg)
+1583	Carthame (prix par 100 kg)
+1911	Courgettes (prix par 100 kg)
+1912	Chicorée witloof de pleine terre (prix par 100 kg)
+1913	Poireaux de pleine terre (prix par 100 kg)
+1914	Cornichons de pleine terre (prix par 100 kg)
+1915	Paprika (poivrons) de serre (prix par 100 kg)
+1916	Choux d'hiver (prix par 100 kg)
+1917	Choux d'été et d'automne (prix par 100 kg)
+1918	Choux précoce (prix par 100 kg)
+1919	Haricots verts (prix par 100 kg)
+1920	Betteraves potagères (prix par 100 kg)
+1921	Panais (prix par 100 kg)
+1922	Céleri: branche (prix par 100 kg)
+1923	Calabrese (prix par 100 kg)
+2115	Pommes de table: Jonagold (prix par 100 kg)
+2116	Pommes de table: Elstar (prix par 100 kg)
+2117	Pommes de table: Jonathon (prix par 100 kg)
+2118	Pommes de table: Egrement russet (prix par 100 kg)
+2119	Pommes de table: Spartan (prix par 100 kg)
+2120	Pommes à cidre (prix par 100 kg)
+2121	Pommes de cuisine: Bramley's seedling (prix par 100 kg)
+2139	Poires de table: Conférence (prix par 100 kg)
+2264	Framboises (prix par 100 kg)
+2265	Cassis (prix par 100 kg)
+3065	Pelargonium (en pot) (prix par 100 pièces)
+3066	Ficus (en pot) (prix par 100 pièces)
+3067	Kalanchoe (en pot) (prix par 100 pièces)
+3068	Saint Paulia (en pot) (prix par 100 pièces)
+3069	Begonia (en pot) (prix par 100 pièces)
+3151	Lilium (prix par 100 pièces)
+3152	Dianthus (prix par 100 pièces)
+3153	Gerbera (prix par 100 pièces)
+3154	Cymbidium (prix par 100 pièces)
+3155	Chrysanthèmes: branche (prix par 100 pièces)
+3156	Chrysanthèmes: floraison (prix par 100 pièces)
+3700	Vin rouge (10-12 % vol.) (prix par 100 litres)
+3701	Vin rouge (12.5-15 % vol.) (prix par 100 litres)
+3702	Vin blanc (10-13 % vol.) (prix par 100 litres)
+3705	Oltrepo pavese Barbera: Pavia (prix par 100 litres)
+3706	Alto Adige Schiava: Bolzano (prix par 100 litres)
+3707	Caldaro Classico superiore: Bolzano (prix par 100 litres)
+3708	Trentino Chardonnay: Trento (prix par 100 litres)
+3709	Bardolino: Verona (prix par 100 litres)
+3710	Soave classico: Verona (prix par 100 litres)
+3711	Valpolicella: Verona (prix par 100 litres)
+3712	Chianti: Firenze (prix par 100 litres)
+3713	Prosecco di Conegliano: Treviso (prix par 100 litres)
+3714	Piave Merlot: Treviso (prix par 100 litres)
+3715	Friuli Grave Merlot: Pordenone (prix par 100 litres)
+3716	Colli piacentini Gutturnio: Piacenza (prix par 100 litres)
+3717	Lambrusco reggiano: Reggio Emilia (prix par 100 litres)
+3718	Verdicchio dei Colli di Jesi classico: Ancona (prix par 100 litres)
+3719	Trebbiano d'Abruzzo: Chieti (prix par 100 litres)
+3720	Orvieto classico: Terni (prix par 100 litres)
+3721	Frascati superiore: Roma (prix par 100 litres)
+3722	Montepulciano d'Abruzzo: Chieti (prix par 100 litres)
+3837	Vin de table: France (prix par 100 litres)
+3838	Vin de pays: France (prix par 100 litres)
+3884	Clairet (prix par 100 litres)
+3730	Porto
+3731	Vinho Verde, vin blanc
+3732	Vinho Verde, vin rouge
+3733	Alentejo, vin blanc
+3734	Alentejo,vin rouge
+3735	Dão, vin blanc
+3736	Dão, vin rouge
+3737	Douro, vin blanc
+3738	Douro, vin rouge
+3739	Ribatejo, vin blanc
+3740	Ribatejo, vin rouge
+3741	Távora-Varosa, vin blanc
+3742	Távora-Varosa, vin rouge
+3743	Beira Interior, vin blanc
+3744	Beira Interior, vin rouge
+3745	Alenquer, Arruda and Torres Vedras, vin blanc
+3746	Alenquer, Arruda and Torres Vedras, vin rouge
+3747	Bairrada, vin blanc
+3748	Bairrada, vin rouge
+3749	Autres régions, vin blanc
+3750	Autres régions, vin rouge
+4150	Veaux (prix par 100 kg de poids vif)
+4161	Jeunes bovins (prix par 100 kg de poids vif)
+4162	Génisses (prix par 100 kg de poids vif)
+4171	Vaches A (1ère qualité) (prix par 100 kg de poids vif)
+4172	Vaches B (2ème qualité) (prix par 100 kg de poids vif)
+4173	Vaches C (3ème qualité) (prix par 100 kg de poids vif)
+4180	Boeufs (prix par 100 kg de poids vif)
+4210	Veaux (carcasses) (prix par 100 kg de poids carcasse)
+4232	Veaux (de quelques jours) (prix par tête)
+4233	Veaux (de quelques semaines) (prix par tête)
+4234	Jeunes bovins d'élevage (prix par tête)
+4235	Génisses d'élevage (prix par tête)
+4242	Jeunes taureaux (U3) (prix par 100 kg)
+4245	Jeunes taureaux (R3) (prix par 100 kg)
+4248	Jeunes taureaux (O3) (prix par 100 kg)
+4254	Taureaux (R3) (prix par 100 kg)
+4263	Boeufs (R3) (prix par 100 kg)
+4266	Boeufs (O3) (prix par 100 kg)
+4272	Vaches (R3) (prix par 100 kg)
+4275	Vaches (O3) (prix par 100 kg)
+4278	Vaches (P2) (prix par 100 kg)
+4283	Génisses (R3) (prix par 100 kg)
+4286	Génisses (O3) (prix par 100 kg)
+4291	Jeunes taureaux (valeurs unitaires) (prix par 100 kg)
+4293	Boeufs (valeurs unitaires) (prix par 100 kg)
+4294	Vaches (valeurs unitaires) (prix par 100 kg)
+4295	Génisses (valeurs unitaires) (prix par 100 kg)
+4296	Gros bovins (valeurs unitaires) (prix par 100 kg)
+4412	Porcs (légers) (prix par 100 kg de poids vif)
+4421	Porcs (carcasses) (classe II) (prix par 100 kg)
+4425	Porcs (carcasses) (classe I) (prix par 100 kg)
+4440	Porcelets (prix par 100 kg de poids vif)
+4610	Chevaux (prix par 100 kg poids vif) (prix par 100 kg de poids vif)
+4620	Chevaux (carcasses) (prix par 100 kg poids abattu) (prix par 100 kg de poids abattu)
+4727	Agneaux de lait (prix par 100 kg de poids vif)
+4732	Agneaux à l'engrais (prix par 100 kg de poids vif)
+4733	Moutons (prix par 100 kg de poids vif)
+4752	Chevreaux (prix par 100 kg de poids vif)
+4753	Chèvres (prix par 100 kg de poids vif)
+4821	Poulets (vivants; 1er choix) (prix par 100 kg de poids vif)
+4871	Poulets (classe A; abattus) (prix par 100 kg de poids abattu)
+4933	Poules de reforme (abattues) (prix par 100 kg de poids abattu)
+4952	Canards (abattus) (prix par 100 kg de poids abattu)
+4971	Dindes (abattues) (prix par 100 kg de poids abattu)
+4972	Dindons (abattus) (prix par 100 kg de poids abattu)
+5021	Lapins (prix par 100 kg poids vif) (prix par 100 kg de poids vif)
+5022	Lapins (abattus) (prix par 100 kg poids abattu) (prix par 100 kg de poids abattu)
+5180	Lait cru de vache; 3;7% matière grasse (prix par 100 kg)
+5185	Lait cru de vache; teneur réelle en matière grasse (prix par 100 kg)
+5191	Lait cru de brebis (prix par 100 kg)
+5192	Lait cru de chèvre (prix par 100 kg)
+5315	Oeufs frais (ensemble pays) (prix par 100 pièces)
+5411	Lait de vache entier de consommation (prix par 100 l) (prix par 100 litres)
+5415	Crème (prix par 100 kg)
+5421	Lait condensé; non sucré (prix par 100 kg)
+5422	Lait condensé; sucré (prix par 100 kg)
+5428	Lait écrémé en poudre; non dénaturé (prix par 100 kg)
+5431	Yogourt (10 % de matières grasses) (prix par 100 kg)
+5435	Beurre (prix par 100 kg)
+5545	Fromage (30 % de matières grasses) (prix par 100 kg)
+5546	Fromage (45 % de matières grasses) (prix par 100 kg)
+5511	Emmentaler - Emmenthal (prix par 100 kg)
+5512	Cantal (prix par 100 kg)
+5514	Grana (>ou= 1 anno) (prix par 100 kg)
+5515	Cheddar (prix par 100 kg)
+5516	Cheshire (prix par 100 kg)
+5517	Pecorino (prix par 100 kg)
+5520	Groviera (prix par 100 kg)
+5521	Kasseri (prix par 100 kg)
+5522	Kefalotiri (prix par 100 kg)
+5531	Gouda (prix par 100 kg)
+5532	Edamer - Edammer (prix par 100 kg)
+5533	Tilsiter (prix par 100 kg)
+5534	St. Paulin (prix par 100 kg)
+5535	Provolone (prix par 100 kg)
+5536	Fontina (prix par 100 kg)
+5538	Börenkaas (prix par 100 kg)
+5539	Havarti 45% (prix par 100 kg)
+5540	Havarti 30% (prix par 100 kg)
+5541	Esrom (prix par 100 kg)
+5542	Samso-danbo 30% (prix par 100 kg)
+5543	Samso-danbo 45% (prix par 100 kg)
+5544	Asiago (prix par 100 kg)
+5562	Gorgonzola (prix par 100 kg)
+5563	Blue stilton (prix par 100 kg)
+5564	Danablu (prix par 100 kg)
+5565	Roquefort (prix par 100 kg)
+5571	Camembert - Camembert normand (prix par 100 kg)
+5572	Limburger (prix par 100 kg)
+5573	Brie laitier (prix par 100 kg)
+5574	Carré de l'est (prix par 100 kg)
+5575	Munster (prix par 100 kg)
+5576	Taleggio (prix par 100 kg)
+5578	Feta (prix par 100 kg)
+5580	Chèvre laitier (prix par 100 kg)
+5581	Ricotta (prix par 100 kg)
+5582	Parmigiano reggiano (+ 1 anno) (prix par 100 kg)
+5583	Italico (prix par 100 kg)
+5584	Mozzarella (prix par 100 kg)
+5589	Hushalls (prix par 100 kg)
+5590	Herrgards (prix par 100 kg)
+5599	Fromage fondu (prix par 100 kg)
+5610	Laine brute (prix par 100 kg)
+5630	Miel (prix par 100 kg)
+7523	Fuel-oil fluide - prix par 100 litres
+7526	Fuel-oil résiduel - prix par 100 kg
+7531	Essence moteur - prix par 100 litres
+7535	Gas-oil - prix par 100 litres
+7631	Sulfate d'ammonium - prix par 100 kg d'éléments fertilisants
+7634	Nitrate d'ammonium (20.5 % N) - prix par 100 kg d'éléments fertilisants
+7635	Nitrate d'ammonium (26% N) (en sacs) - prix par 100 kg d'éléments fertilisants
+7636	Nitrate d'ammonium (26% N) (en vrac) - prix par 100 kg d'éléments fertilisants
+7645	Nitrate d'ammonium (33% N) (en sacs) - prix par 100 kg d'éléments fertilisants
+7646	Nitrate d'ammonium (33% N) (en vrac) - prix par 100 kg d'éléments fertilisants
+7647	Urée - prix par 100 kg d'éléments fertilisants
+7670	Superphosphate (18% P205) - prix par 100 kg d'éléments fertilisants
+7674	Superphosphate (46% P205) - prix par 100 kg d'éléments fertilisants
+7681	Chlorure de potassium - prix par 100 kg d'éléments fertilisants
+7685	Sulfate de potassium - prix par 100 kg d'éléments fertilisants
+7711	Engrais binaires : 1 - 1 - 0  - prix par 100 kg de marchandise
+7721	Engrais binaires : 0 - 1 - 1 - prix par 100 kg de marchandise
+7725	Engrais binaires : 0 - 20 - 20 - prix par 100 kg de marchandise
+7750	Engrais ternaires : 1 - 0;5 - 0;5 - prix par 100 kg de marchandise
+7755	Engrais ternaires : 20 - 10 - 10 - prix par 100 kg de marchandise
+7758	Engrais ternaires : 1 - 1 - 1 (en sacs) - prix par 100 kg de marchandise
+7759	Engrais ternaires : 17 - 17 - 17 (en sacs) - prix par 100 kg de marchandise
+7766	Engrais ternaires : 1 - 1 - 1 (en vrac) - prix par 100 kg de marchandise
+7767	Engrais Ternaires : 17 - 17 - 17 (en vrac) - prix par 100 kg de marchandise)
+7770	Engrais ternaires : 26 - 2 - 3 - prix par 100 kg de marchandise
+7771	Engrais ternaires : 20 - 4 - 8 - prix par 100 kg de marchandise
+7772	Engrais ternaires : 18 - 5 - 10 - prix par 100 kg de marchandise
+7773	Engrais ternaires : 23 - 5 - 10 - prix par 100 kg de marchandise
+7774	Engrais ternaires : 18 - 3 - 12 - prix par 100 kg de marchandise
+7775	Engrais ternaires : 12 - 6 - 17 - prix par 100 kg de marchandise
+7776	Engrais ternaires : 14 - 9 - 10 - prix par 100 kg de marchandise
+7780	Engrais ternaires : 1 - 1 - 2 - prix par 100 kg de marchandise
+7785	Engrais ternaires : 9 - 9 - 18 - prix par 100 kg de marchandise
+7790	Engrais ternaires : 1 - 2 - 2 - prix par 100 kg de marchandise
+7795	Engrais ternaires : 10 - 20 - 20 - prix par 100 kg de marchandise
+8041	Aliments : blé fourrager - prix par 100 kg
+8043	Aliments : orge - prix par 100 kg
+8044	Aliments : avoine - prix par 100 kg
+8045	Aliments : maïs - prix par 100 kg
+8052	Aliments : son de blé - prix par 100 kg
+8054	Aliments : orge moulue - prix par 100 kg
+8056	Aliments : mais moulu - prix par 100 kg
+8075	Tourteaux de pression de lin - prix par 100 kg
+8079	Tourteaux d'extraction de soja cuit - prix par 100 kg
+8120	Farine animale - prix par 100 kg
+8125	Farine de poisson - prix par 100 kg
+8140	Féveroles - prix par 100 kg
+8141	Pois protéagineux - prix par 100 kg
+8142	Pois fourragers - prix par 100 kg
+8153	Pulpes séchées de betteraves sucrières - prix par 100 kg
+8171	Foin de prairie - prix par 100 kg
+8175	Luzerne déshydratée - prix par 100 kg
+8180	Paille de céréales - prix par 100 kg
+8233	Complémentaire pour veaux d'élevage - prix par 100 kg
+8237	Complet d'allaitement pour veaux (en sacs) - prix par 100 kg
+8238	Complet d'allaitement pour veaux (en vrac) - prix par 100 kg
+8253	Complémentaire pour vaches laitières à l'herbage - prix par 100 kg
+8254	Complémentaire pour vaches laitières (en stabulation) (en sacs) - prix par 100 kg
+8255	Complémentaire pour vaches laitières (en stabulation) (en vrac) - prix par 100 kg
+8256	Complémentaire riche en protéines pour vaches laitières (en stabulation) (en sacs) - prix par 100 kg
+8257	Complémentaire riche en protéines pour vaches laitières (en stabulation) (en vrac) - prix par 100 kg
+8263	Complémentaire pour bovins à l'engrais (en sacs) - prix par 100 kg
+8264	Complémentaire pour bovins à l'engrais (en vrac) - prix par 100 kg
+8265	Complémentaire riche en protéines pour bovins à l'engrais (en sacs) - prix par 100 kg
+8266	Complémentaire riche en protéines pour bovins à l'engrais (en sacs) - prix par 100 kg
+8288	Complet pour porcelets d'élevage (en sacs) - prix par 100 kg
+8289	Complet pour porcelets d'élevage (en vrac) - prix par 100 kg
+8292	Complet pour truies (en sacs) - prix par 100 kg
+8293	Complet pour truies (en vrac) - prix par 100 kg
+8296	Complet pour porcs à l'engrais (en sacs) - prix par 100 kg
+8297	Complet pour porcs à l'engrais (en vrac) - prix par 100 kg
+8307	Complet pour poussins des premiers jours (en sacs) - prix par 100 kg
+8308	Complet pour poussins des premiers jours (en vrac) - prix par 100 kg
+8312	Complet pour poulettes jusqu'à la ponte (en sacs) - prix par 100 kg
+8313	Complet pour poulettes jusqu'à la ponte (en vrac) - prix par 100 kg
+8319	Complet pour poules pondeuses (en batteries) (en sacs) - prix par 100 kg
+8320	Complet pour poules pondeuses (en batteries) (en vrac) - prix par 100 kg
+8327	Complet pour poulets à l'engrais (en sacs) - prix par 100 kg
+8328	Complet pour poulets à l'engrais (en vrac) - prix par 100 kg

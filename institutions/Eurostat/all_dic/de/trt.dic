@@ -1,0 +1,13 @@
+TOTAL	Behandlung insgesamt
+TOT_GEN	Aufkommen
+RECYC_MAT	Recycling von Materialien
+RECYC_OTH	Andere Formen von Recycling
+RECYC	Recycling
+RECOV	Verwertung
+RECOV_NRG	Energetische Verwertung
+RECOV_OTH	Andere Formen der Verwertung
+INCIN	Verbrennung
+RECOV_INCIN	Verwertung inklusive Verbrennung
+DISPO	Beseitigung
+DEPOS	Ablagerung in oder auf dem Boden
+LANDTRT	Behandlung im Boden und Einleitung in Gewässer

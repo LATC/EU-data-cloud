@@ -1,0 +1,438 @@
+TOTAL	Insgesamt
+LFD	Später Fetaltod
+H0	Null Stunden
+H1-9	1 bis 9 Stunden
+H1-29	1 bis 29 Stunden
+H10-19	10 bis 19 Stunden
+H20-29	20 bis 29 Stunden
+H30-39	30 bis 39 Stunden
+H_GE30	30 Stunden und mehr
+H40-49	40 bis 49 Stunden
+H_GE50	50 Stunden und mehr
+N_GE1	1 Nacht und mehr
+N1-3	1 bis 3 Nächte
+N_GE4	4 Nächte und mehr
+D_LT7	Weniger als 7 Tage
+D_LT28	Weniger als 28 Tage
+NST	Nicht begonnen
+M0	Null Monate
+M_LT1	Weniger als 1 Monat
+M1	1 Monat
+M1-2	1 bis 2 Monate
+M1-3	1 bis 3 Monate
+M2	2 Monate
+M_LT3	Weniger als 3 Monate
+M3	3 Monate
+M3-4	3 bis 4 Monate
+M3-5	3 bis 5 Monate
+M_GE3	3 Monate und mehr
+M4	4 Monate
+M4-6	4 bis 6 Monate
+M5	5 Monate
+M5-6	5 bis 6 Monate
+M6	6 Monate
+M6-11	6 bis 11 Monate
+M7	7 Monate
+M7-9	7 bis 9 Monate
+M7-12	7 bis 12 Monate
+M8	8 Monate
+M9	9 Monate
+M10	10 Monate
+M_GE10	10 Monate und mehr
+M11	11 Monate
+M12	12 Monate
+M12-17	12 bis 17 Monate
+M_GE12	12 Monate und mehr
+M13	13 Monate
+M13-18	13 bis 18 Monate
+M14	14 Monate
+M15	15 Monate
+M16	16 Monate
+M17	17 Monate
+M18	18 Monate
+M18-23	18 bis 23 Monate
+M19	19 Monate
+M19-24	19 bis 24 Monate
+M20	20 Monate
+M21	21 Monate
+M22	22 Monate
+M23	23 Monate
+M24	24 Monate
+M24-47	24 bis 47 Monate
+M25	25 Monate
+M25-36	25 bis 36 Monate
+M26	26 Monate
+M27	27 Monate
+M28	28 Monate
+M29	29 Monate
+M30	30 Monate
+M31	31 Monate
+M32	32 Monate
+M33	33 Monate
+M34	34 Monate
+M35	35 Monate
+M_GT36	Mehr als 36 Monate
+M36	36 Monate
+M37	37 Monate
+M38	38 Monate
+M39	39 Monate
+M40	40 Monate
+M41	41 Monate
+M42	42 Monate
+M43	43 Monate
+M44	44 Monate
+M45	45 Monate
+M46	46 Monate
+M47	47 Monate
+M48	48 Monate
+M_GE48	48 Monate und mehr
+M49	49 Monate
+M50	50 Monate
+M51	51 Monate
+M52	52 Monate
+M53	53 Monate
+M54	54 Monate
+M55	55 Monate
+M56	56 Monate
+M57	57 Monate
+M58	58 Monate
+M59	59 Monate
+M60	60 Monate
+M61	61 Monate
+M62	62 Monate
+M63	63 Monate
+M64	64 Monate
+M65	65 Monate
+M66	66 Monate
+M67	67 Monate
+M68	68 Monate
+M69	69 Monate
+M70	70 Monate
+M71	71 Monate
+M72	72 Monate
+M73	73 Monate
+M74	74 Monate
+M75	75 Monate
+M76	76 Monate
+M77	77 Monate
+M78	78 Monate
+M79	79 Monate
+M80	80 Monate
+M81	81 Monate
+M82	82 Monate
+M83	83 Monate
+M84	84 Monate
+M85	85 Monate
+M86	86 Monate
+M87	87 Monate
+M88	88 Monate
+M89	89 Monate
+M90	90 Monate
+M91	91 Monate
+M92	92 Monate
+M93	93 Monate
+M94	94 Monate
+M95	95 Monate
+M96	96 Monate
+M97	97 Monate
+M98	98 Monate
+M99	99 Monate
+M100	100 Monate
+M101	101 Monate
+M102	102 Monate
+M103	103 Monate
+M104	104 Monate
+M105	105 Monate
+M106	106 Monate
+M107	107 Monate
+M108	108 Monate
+M109	109 Monate
+M110	110 Monate
+M111	111 Monate
+M112	112 Monate
+M113	113 Monate
+M114	114 Monate
+M115	115 Monate
+M116	116 Monate
+M117	117 Monate
+M118	118 Monate
+M119	119 Monate
+Y_LT1	Weniger als 1 Jahr
+Y1	1 Jahr
+Y1-2	1 bis 2 Jahre
+Y1-4	1 bis 4 Jahre
+Y1-5	1 bis 5 Jahre
+Y1-14	1 bis 14 Jahre
+Y_LT2	Weniger als 2 Jahre
+Y2	2 Jahre
+Y2-3	2 bis 3 Jahre
+Y2-4	2 bis 4 Jahre
+Y2-5	2 bis 5 Jahre
+Y_GE2	2 Jahre und mehr
+Y_LT3	Weniger als 3 Jahre
+Y3	3 Jahre
+Y3-CSA	3 Jahre bis schulpflichtigem Mindestalter
+Y3-4	3 bis 4 Jahre
+Y3-5	3 bis 5 Jahre
+Y3-9	3 bis 9 Jahre
+Y_GE3	3 Jahre und mehr
+Y_GT3	Mehr als 3 Jahre
+Y_LT4	Weniger als 4 Jahre
+Y4	4 Jahre
+Y4-5	4 bis 5 Jahre
+Y_LT5	Weniger als 5 Jahre
+Y5	5 Jahre
+Y5-9	5 bis 9 Jahre
+Y5-10	5 bis 10 Jahre
+Y_GE5	5 Jahre und mehr
+CSA-Y12	Schulpflichtigem Mindestalter bis 12 Jahre
+Y_LT6	Weniger als 6 Jahre
+Y6	6 Jahre
+Y6-7	6 bis 7 Jahre
+Y6-9	6 bis 9 Jahre
+Y6-10	6 bis 10 Jahre
+Y6-11	6 bis 11 Jahre
+Y7	7 Jahre
+Y7-12	7 bis 12 Jahre
+Y8	8 Jahre
+Y8-9	8 bis 9 Jahre
+Y9	9 Jahre
+Y10	10 Jahre
+Y10-11	10 bis 11 Jahre
+Y10-14	10 bis 14 Jahre
+Y10-19	10 bis 19 Jahre
+Y_GE10	10 Jahre und mehr
+Y_LT11	Weniger als 11 Jahre
+Y11	11 Jahre
+Y11-15	11 bis 15 Jahre
+Y12	12 Jahre
+Y_GE12	12 Jahre und mehr
+Y13	13 Jahre
+Y13-18	13 bis 18 Jahre
+Y_LT14	Weniger als 14 Jahre
+Y14	14 Jahre
+Y14-15	14 bis 15 Jahre
+Y14-17	14 bis 17 Jahre
+Y_LT15	Weniger als 15 Jahre
+Y15	15 Jahre
+Y15-17	14 bis 17 Jahre
+Y15-19	15 bis 19 Jahre
+Y15-24	15 bis 24 Jahre
+Y15-29	15 bis 29 Jahre
+Y15-34	15 bis 34 Jahre
+Y15-39	15 bis 39 Jahre
+Y15-59	15 bis 59 Jahre
+Y15-64	15 bis 64 Jahre
+Y15-69	15 bis 69 Jahre
+Y15-74	15 bis 74 Jahre
+Y_GE15	15 Jahre und mehr
+Y_LT16	Weniger als 16 Jahre
+Y16	16 Jahre
+Y16-17	16 bis 17 Jahre
+Y16-19	16 bis 19 Jahre
+Y16-24	16 bis 24 Jahre
+Y16-64	16 bis 64 Jahre
+Y_GE16	16 Jahre und mehr
+Y_LT17	Weniger als 17 Jahre
+Y17	17 Jahre
+Y_LT18	Weniger als 18 Jahre
+Y18	18 Jahre
+Y18-19	18 bis 19 Jahre
+Y18-24	18 bis 24 Jahre
+Y18-34	18 bis 34 Jahre
+Y18-44	18 bis 44 Jahre
+Y18-49	18 bis 49 Jahre
+Y18-54	18 bis 54 Jahre
+Y18-59	18 bis 59 Jahre
+Y18-64	18 bis 64 Jahre
+Y18-69	18 bis 69 Jahre
+Y18-74	18 bis 74 Jahre
+Y_GE18	18 Jahre und mehr
+Y19	19 Jahre
+Y19-24	19 bis 24 Jahre
+Y_LT20	Weniger als 20 Jahre
+Y20	20 Jahre
+Y20-24	20 bis 24 Jahre
+Y20-29	20 bis 29 Jahre
+Y20-34	20 bis 34 Jahre
+Y20-49	20 bis 49 Jahre
+Y20-64	20 bis 64 Jahre
+Y_GE20	20 Jahre und mehr
+Y21	21 Jahre
+Y22	22 Jahre
+Y23	23 Jahre
+Y24	24 Jahre
+Y_LT25	Weniger als 25 Jahre
+Y25	25 Jahre
+Y25-29	25 bis 29 Jahre
+Y25-34	25 bis 34 Jahre
+Y25-39	25 bis 39 Jahre
+Y25-44	25 bis 44 Jahre
+Y25-49	25 bis 49 Jahre
+Y25-54	25 bis 54 Jahre
+Y25-59	25 bis 59 Jahre
+Y25-64	25 bis 64 Jahre
+Y25-69	25 bis 69 Jahre
+Y25-74	25 bis 74 Jahre
+Y_GE25	25 Jahre und mehr
+Y26	26 Jahre
+Y27	27 Jahre
+Y28	28 Jahre
+Y29	29 Jahre
+Y_LT30	Weniger als 30 Jahre
+Y30	30 Jahre
+Y30-34	30 bis 34 Jahre
+Y30-39	30 bis 39 Jahre
+Y30-44	30 bis 44 Jahre
+Y30-49	30 bis 49 Jahre
+Y_GE30	30 Jahre und mehr
+Y31	31 Jahre
+Y32	32 Jahre
+Y33	33 Jahre
+Y34	34 Jahre
+Y_LT35	Weniger als 35 Jahre
+Y35	35 Jahre
+Y35-39	35 bis 39 Jahre
+Y35-44	35 bis 44 Jahre
+Y35-54	35 bis 54 Jahre
+Y35-64	35 bis 64 Jahre
+Y_GE35	35 Jahre und mehr
+Y_LT36	Weniger als 36 Jahre
+Y36	36 Jahre
+Y36-55	36 bis 55 Jahre
+Y37	37 Jahre
+Y38	38 Jahre
+Y39	39 Jahre
+Y_LT40	Weniger als 40 Jahre
+Y40	40 Jahre
+Y40-44	40 bis 44 Jahre
+Y40-49	40 bis 49 Jahre
+Y40-54	40 bis 54 Jahre
+Y40-59	40 bis 59 Jahre
+Y40-64	40 bis 64 Jahre
+Y_GE40	40 Jahre und mehr
+Y41	41 Jahre
+Y42	42 Jahre
+Y43	43 Jahre
+Y44	44 Jahre
+Y_LT45	Weniger als 45 Jahre
+Y45	45 Jahre
+Y45-49	45 bis 49 Jahre
+Y45-54	45 bis 54 Jahre
+Y45-59	45 bis 59 Jahre
+Y45-64	45 bis 64 Jahre
+Y46	46 Jahre
+Y47	47 Jahre
+Y48	48 Jahre
+Y49	49 Jahre
+Y_GE49	49 Jahre und mehr
+Y50	50 Jahre
+Y50-54	50 bis 54 Jahre
+Y50-59	50 bis 59 Jahre
+Y50-64	50 bis 64 Jahre
+Y50-74	50 bis 74 Jahre
+Y_GE50	50 Jahre und mehr
+Y51	51 Jahre
+Y_GE51	51 Jahre und mehr
+Y52	52 Jahre
+Y53	53 Jahre
+Y54	54 Jahre
+Y55	55 Jahre
+Y55-59	55 bis 59 Jahre
+Y55-64	55 bis 64 Jahre
+Y55-69	55 bis 69 Jahre
+Y55-74	55 bis 74 Jahre
+Y_GE55	55 Jahre und mehr
+Y56	56 Jahre
+Y_GE56	56 Jahre und mehr
+Y57	57 Jahre
+Y58	58 Jahre
+Y59	59 Jahre
+Y_LT60	Weniger als 60 Jahre
+Y60	60 Jahre
+Y60-64	60 bis 64 Jahre
+Y60-69	60 bis 69 Jahre
+Y60-74	60 bis 74 Jahre
+Y60-79	60 bis 79 Jahre
+Y_GE60	60 Jahre und mehr
+Y61	61 Jahre
+Y62	62 Jahre
+Y63	63 Jahre
+Y64	64 Jahre
+Y_LT65	Weniger als 65 Jahre
+Y65	65 Jahre
+Y65-69	65 bis 69 Jahre
+Y65-74	65 bis 74 Jahre
+Y65-79	65 bis 79 Jahre
+Y65-84	65 bis 84 Jahre
+Y_GE65	65 Jahre und mehr
+Y66	66 Jahre
+Y67	67 Jahre
+Y68	68 Jahre
+Y69	69 Jahre
+Y70	70 Jahre
+Y70-74	70 bis 74 Jahre
+Y_GE70	70 Jahre und mehr
+Y71	71 Jahre
+Y72	72 Jahre
+Y73	73 Jahre
+Y74	74 Jahre
+Y_LT75	Weniger als 75 Jahre
+Y75	75 Jahre
+Y75-79	75 bis 79 Jahre
+Y75-84	75 bis 84 Jahre
+Y_GE75	75 Jahre und mehr
+Y76	76 Jahre
+Y77	77 Jahre
+Y78	78 Jahre
+Y79	79 Jahre
+Y80	80 Jahre
+Y80-84	80 bis 84 Jahre
+Y_GE80	80 Jahre und mehr
+Y81	81 Jahre
+Y82	82 Jahre
+Y83	83 Jahre
+Y84	84 Jahre
+Y85	85 Jahre
+Y85-89	85 bis 89 Jahre
+Y_GE85	85 Jahre und mehr
+Y86	86 Jahre
+Y87	87 Jahre
+Y88	88 Jahre
+Y89	89 Jahre
+Y90	90 Jahre
+Y90-94	90 bis 94 Jahre
+Y_GE90	90 Jahre und mehr
+Y91	91 Jahre
+Y_GE91	91 Jahre und mehr
+Y92	92 Jahre
+Y93	93 Jahre
+Y94	94 Jahre
+Y95	95 Jahre
+Y95-99	95 bis 99 Jahre
+Y_GE95	95 Jahre und mehr
+Y96	96 Jahre
+Y97	97 Jahre
+Y98	98 Jahre
+Y99	99 Jahre
+Y_GE99	99 Jahre und mehr
+Y100	100 Jahre
+Y_GE100	100 Jahre und mehr
+Y101	101 Jahre
+Y102	102 Jahre
+Y103	103 Jahre
+Y104	104 Jahre
+Y105	105 Jahre
+Y106	106 Jahre
+Y107	107 Jahre
+Y108	108 Jahre
+Y109	109 Jahre
+Y110	110 Jahre
+Y_GE110	110 Jahre und mehr
+Y15-24_Y65-74	Sonstige (15 bis 24 Jahre ebenso wie 65 bis 74 Jahre)
+Y_OPEN	Offene Altersklasse
+NAP	Nicht anwendbar
+NEV	Niemals
+NRP	Ohne Antwort
+OTH	Sonstige
+UNK	Unbekannt

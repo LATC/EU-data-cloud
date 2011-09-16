@@ -1,0 +1,80 @@
+TOTAL	Total
+TOT_EU25	Total EU-25
+TOT_EU15	Total EU-15
+SOC_INFR	Soziale Infrastrukturdienstleistungen
+EDUC_SERV	Ausbildungsdienste
+GOV_CIV	Regierung und Zivilgesellschaft
+HLT_SERV	Gesundheitsdienste
+OTH_INFR	Andere Sozialinfrastrukturen und Dienste
+WATER_SS	Wasserversorgung und sanitäre Einrichtungen
+POP_PROG	Bevölkerungsprogramme
+ACT_DEB	Streitfälle bezüglich Schulden
+SUPP_NGO	Unterstützung für NRO
+ECON_INFR	Wirtschaftliche Infrastruktur und Dienste
+EMR_ASS	Notfallunterstützung
+MULTISEC	Fachübergreifend/Horizontal
+PROD_SEC	Produktionssektoren
+ADM_COST	Verwaltungskosten der Spender
+GEN_PROG	Warenhilfe/Allgemeine Programmunterstützung
+NOT_SPEC	Nicht zugewiesen/nicht spezifiziert
+ERYTH	Erythromycin
+PNSP	Penizillin
+HLW	Hoch-radioaktive Abfälle
+SFUDD	Verbrauchter Brennstoff, für direkte Beseitigung vorgesehen
+EMAS	Öko-Management- und Auditsystem
+ISO	ISO 14001 Zertifikation
+ODA	Offizielle Entwicklungshilfe
+FDI	Direkte Auslandsinvestitionen
+GR_NGO	Subventionen von NRO
+PRIVF	Private Ströme
+OTHOF	Andere offizielle Ströme
+AGRI	Landwirtschaft und Fischerei
+ENVIR	Umwelt, Gesundheit und Verbraucherschutz
+ENTR	Unternehmen
+INFO	Forschung, Information, Bildung und Statistik
+COMP	Wettbewerb
+MARK	Binnenmarkt
+JUST	Justiz und Inneres
+ENER	Energie und Verkehr
+EMPL	Beschäftigung und Soziales
+CUST	Steuern und Zollunion
+REGIO	Regionalpolitik
+ENLG	Erweiterung
+EXT	Außenbeziehungen
+ECFIN	Wirtschaft und Finanzen
+OTHER	Andere
+TOTCHEM	Gesamtproduktionsmengen von Chemikalien
+TOTTOX	Gesamt giftige Chemikalien
+CMR	CMR - Chemikalien
+CHRONIC	Chronische giftige Chemikalien
+VERY	Sehr giftige Chemikalien
+TOXIC	Giftige Chemikalien
+HARM	Schädliche Chemikalien
+ORG	Organisationen
+SITE	Sites
+EU_VOTE	EU-Wahlen
+NAT_VOTE	Nationale Parlamentswahlen
+PC_TENV	Umweltsteuern
+PC_TLAB	Einkommenssteuern
+SHARE	Annual fellings as a share of net annual increment (%)
+INCRE	Net annual increment (1 000 m3 over bark)
+FELLG	Annual fellings (1 000 m3 over bark)
+EDUC	Erziehung und Kultur
+HEALTH	Gesundheit und Konsumentenschutz
+ESTAT	Eurostat
+HLY_F	Gesunde Lebensjahre - Frauen
+HLY_M	Gesunde Lebensjahre - Männer
+LEXP_F	Lebenserwartung - Frauen
+LEXP_M	Lebenserwartung - Männer
+INDUS	Unternehmen und Industrie
+IND	Industrie
+SERV	Dienstleistungen
+RELKYOTO	Relation zum 'Kyoto Protokoll'
+GROWTH	Wachstumsrate
+VALUE	Absolute Werte
+TOTHARM	Umweltgefährdende Chemikalien, gesamt
+SEVERE	Chemikalien mit schweren chronischen Umweltauswirkungen
+SIGNIF	Chemikalien mit bedeutenden chronischen Umweltauswirkungen
+MDRT	Chemikalien mit moderaten chronischen Umweltauswirkungen
+CHRNC	Chemikalien mit chronischen Umweltauswirkungen
+ACUTE	Chemikalien mit bedeutenden akuten Umweltauswirkungen

@@ -1,0 +1,65 @@
+TOT_X_5	Emissions totales (secteurs 1-7, à l'exclusion de 5. LULUCF)
+TOT_NET	Emissions nette totales (secteurs 1-7, y compris 5. LULUCF)
+1	Énergie
+1_A	Combustion de combustible - approche sectorielle
+1_A_1	Industries de l'énergie
+1_A_1A	Production d'électricité et de chauffage publique
+1_A_1B	Raffinage de pétrole
+1_A_1C	Fabrication de combustibles solides et autres industries de l'énergie
+1_A_2	Industries de transformation et construction
+1_A_2A	Sidérurgie
+1_A_2B	Métaux nons ferreux
+1_A_2C	Substances chimiques
+1_A_2D	Pulpe, papier et impression
+1_A_2E	Transformation alimentaire, boissons et tabac
+1_A_2F	Autre
+1_A_3	Transport
+1_A_3A	Aviation civile
+1_A_3B	Transport routier
+1_A_3C	Chemins de fer
+1_A_3D	Navigation
+1_A_3E	Autres transports
+1_A_4	Autres secteurs
+1_A_4A	Commercial/institutionnel
+1_A_4B	Résidentiel
+1_A_4C	Agriculture/Forestry/Fisheries
+1_A_5	Autre (pas ailleurs spécifié)
+1_B	Émissions fugitives de combustibles
+1_B_1	Combustibles solides
+1_B_2	Pétrole et gaz naturel
+1_C1	International Bunkers
+1_C1_A	Aviation internationale
+1_C1_B	Transport maritime international
+1_C2	Opérations multilatéralles
+1_C3	Emissions de CO2 de biomasse
+2	Processus industriels
+2_A	Produits minéraux
+2_B	Industrie chimique
+2_C	Production métallique
+2_D	Autre production
+2_E	Production de halocarbures et SF6
+2_F	Consommation de halocarbures et SF6
+2_G	Autre
+3	Solvant et autres utilisations de produits
+4	Agriculture
+4_A	Fermentation entérique
+4_B	Utilisation d'engrais
+4_C	Culture de riz
+4_D	Sols agricoles
+4_E	Combustion contrôlée de Savannas
+4_F	Combustion des résidus agricoles
+4_G	Autre
+5	LULUCF (utilisation des sols, changement d'utilisation des sols et sylviculture)
+6	Déchets
+6_A	Élimination de déchets solides sur la terre
+6_B	Traitement d'eaux résiduaires
+6_C	Incinération des déchets
+6_D	Autre
+7	Autre
+8_A	Aviation
+8_B	Marine
+10	Non alloué
+11_A	Autre (energie)
+11_B	Autre (non-energie)
+12_A	Transport routier
+12_B	Autre transport

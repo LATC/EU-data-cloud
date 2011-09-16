@@ -1,0 +1,75 @@
+TOTAL	Total
+MF1	Biomasse
+MF11	Cultures (à l'exclusion des cultures fourragères)
+MF111	Céréales
+MF112	Racines, tubercules
+MF113	Cultures sucrières
+MF114	Légumineuses
+MF115	Noix
+MF116	Cultures oléagineuses
+MF117	Légumes
+MF118	Fruits
+MF119	Fibres
+MF1110	Autres cultures nca
+MF12	Résidus de cultures (utilisés), cultures fourragères et biomasse pâturée
+MF121	Résidus de cultures (utilisés)
+MF1211	Paille
+MF1212	Autres résidus de cultures (feuilles de betterave à sucre et de betterave fourragère, autres)
+MF122	Cultures fourragères et biomasse pâturée
+MF1221	Cultures fourragères (y compris récolte de biomasse à partir d'herbages)
+MF1222	Biomasse pâturée
+MF13	Bois
+MF131	Bois (ronds industriels)
+MF132	Bois de chauffage et autre extraction
+MF13M	Accroissement net du stock de bois sur pied
+MF14	Capture de poisson, animaux/plantes aquatiques, chasse et cueillette
+MF141	Capture de poisson
+MF142	Autres animaux/plantes aquatiques
+MF143	Chasse et cueillette
+MF15	Animaux vivants autres que 1.4 et produits animaux
+MF151	Animaux vivants autres que 1.4
+MF152	Viandes et préparations de viande
+MF153	Produits laitiers, oeufs d'oiseaux et miel
+MF154	Autres produits d'animaux (fibres, peaux, fourrures, cuir, etc.)
+MF16	Produits essentiellement à base de biomasse
+MF2	Minerais métalliques (minerais bruts)
+MF21	Fer
+MF22	Métaux non ferreux
+MF221	Cuivre
+MF222	Nickel
+MF223	Plomb
+MF224	Zinc
+MF225	Étain
+MF226	Or, argent, platine et autres métaux précieux
+MF227	Bauxite et autre aluminium
+MF228	Uranium et thorium
+MF229	Autres nca
+MF23	Produits principalement à base de métaux
+MF3	Minerais non métalliques
+MF31	Marbre, granit, grès, porphyre, basalte, autres pierres ornementales ou de construction (sauf ardoise)
+MF32	Craie et dolomie
+MF33	Ardoise
+MF34	Minéraux pour l'industrie chimique et engrais naturels
+MF35	Sel
+MF36	Pierre calcaire et gypse
+MF37	Argiles et kaolin
+MF38	Sable et gravier
+MF39	Autres nca
+MF310	Matières terreuses excavées (y compris terre), uniquement si utilisées
+MF311	Produits principalement à base de minerais non métalliques
+MF4	Matières énergétiques fossiles et produits dérivés
+MF41	Charbon et autres matières énergétiques solides et produits dérivés
+MF411	Lignite
+MF412	Houille
+MF413	Schistes et sables bitumineux
+MF414	Tourbe
+MF42	Matières/vecteurs énergétiques liquides et gazeux
+MF421	Pétrole brut, condensat et liquides de gaz naturel (LGN)
+MF422	Gaz naturel
+MF423	Carburant importé par des unientés résidentes en déplacement à l'étranger ou exporté à des unités non résidentes présentes sur le territoire économique
+MF4231	Carburant pour transport terrestre
+MF4232	Carburant pour transport par eau
+MF4233	Carburant pour transport aérien
+MF43	Produits principalement à base d'énergie fossile
+MF5	Autres produits
+MF6	Déchets pour traitement et élimination définitifs

@@ -1,0 +1,74 @@
+TOTAL	Total
+TT	Total
+TOT	Total transport
+TOT_VEH	All vehicles (except trailers and motorcycles)
+PED	Pedestrians
+MOTO	Motorcycles (> 50cm3)
+2WH	All powered 2-wheelers
+CAR	Passenger cars
+GOOD_VEH	Goods road motor vehicle
+CONT_SWAP	Containers and swap bodies
+LOR_ACC	Road vehicles (accompanied)
+LOR2	Lorry - 2 axles
+LOR3	Lorry - 3 axles
+LOR4	Lorry - 4 axles
+LOR_OTH	Lorry - other
+LOR_TRL21	Lorry and trailer 2+1 axles
+LOR_TRL22	Lorry and trailer 2+2 axles
+LOR_TRL23	Lorry and trailer 2+3 axles
+LOR_TRL32	Lorry and trailer 3+2 axles
+LOR_TRL33	Lorry and trailer 3+3 axles
+LOR_TRL_OTH	Lorry and trailer other
+TRAC_STRL21	Tractor/semi-trailer 2+1 axles
+TRAC_STRL22	Tractor/semi-trailer 2+2 axles
+TRAC_STRL23	Tractor/semi-trailer 2+3 axles
+TRAC_STRL32	Tractor/semi-trailer 3+2 axles
+TRAC_STRL33	Tractor/semi-trailer 3+3 axles
+TRAC_STRL_OTH	Tractor/semi-trailer other
+TRAC	Road tractors
+LORRY_TRAC	Lorries and road tractors
+STRAIL_UNACC	Semi-trailers (unaccompanied)
+TRAIL_STRAIL	Trailers and semi-trailers
+SPEC_VEH	Special vehicles
+TOT_UTIL	Total utility vehicles
+BUS	Buses
+BUS_COA	Buses and coaches
+TRAM_MET	Trams and metros
+TRAIN	All trains
+GOOD_TRAIN	Goods train
+PASS_TRAIN	Passenger trains
+OTH_TRAINS	Other trains
+TRAIN_FUL	Full trains
+COACH	Coaches
+WAGON_GD_TOT	Goods wagons - total
+WAGON_FUL	Full wagons
+SMAL	Smalls
+RCAR_TRAIL	Railcar trailer
+1CLAS_SEAT	Seats, first class
+2CLAS_SEAT	Seats, second class
+SEAT_1CLX	Seats, first class
+SEAT_2CLX	Seats, second class
+MIX_SEAT	Mixed seats
+COU	Couchette sleeping
+DIN	Dining cars
+1CLAS	I. class
+2CLAS	II. class
+BERT	Berths (couchettes and sleeping cars)
+PLANE	Aircrafts
+IWW_BOAT	All boats in inland waterways and coastal shipping
+NAVINL	Inland navigation
+CRG_SPE	Cargo, specialized
+WALK	Walking
+CYC	Cyclists
+RAIL	Railways
+ROAD	Roads
+IWW	Inland waterways
+SSEA	Short-sea shipping
+MARIT	Maritime
+AIR	Aviation
+PIPE_ALL	Oil and gas pipelines
+PIPE_O	Oil pipelines
+TOT_FEC	Total final energy consumption
+TOT_NATEM	Total national emissions
+OTHER	Other
+UNK	Unknown

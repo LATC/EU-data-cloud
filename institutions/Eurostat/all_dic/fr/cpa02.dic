@@ -1,0 +1,206 @@
+CPA_TOTAL	Total
+CPA_A_B	Produits agricoles, forestiers, de la pêche et de l'aquaculture
+CPA_A	Produits agricoles, de la chasse et de la sylviculture
+CPA_A01	Produits de la culture et de l'élevage
+CPA_A02	Produits sylvicoles
+CPA_B	Produits de la pêche et de l'aquaculture
+CPA_B05	Produits de la pêche et de l'aquaculture
+CPA_C	Produits d'extraction
+CPA_CA	Produits d'extraction énergétiques
+CPA_CA10	Houille, lignite et tourbe
+CPA_CA11	Hydrocarbures naturels
+CPA_CA12	Minerais d'uranium
+CPA_CB	Produits d'extraction non énergétiques
+CPA_CB13	Minerais métalliques
+CPA_CB14	Produits divers des industries extractives
+CPA_D	Produits manufacturés
+CPA_DA	Produits des industries agricoles et alimentaires
+CPA_DA15	Produits des industries alimentaires
+CPA_DA16	Tabac manufacturé
+CPA_DB	Produits de l'industrie textile et de l'habillement
+CPA_DB17	Produits de l'industrie textile
+CPA_DB18	Articles d'habillement et fourrures
+CPA_DC	Cuirs, articles de voyage, chaussures
+CPA_DC19	Cuirs, articles de voyage, chaussures
+CPA_DC193	Chaussures et articles chaussants
+CPA_DD	Produits du travail du bois
+CPA_DD20	Produits du travail du bois
+CPA_DE	Papiers et cartons; produits édités, imprimés ou reproduits
+CPA_DE21	Papiers et cartons
+CPA_DE22	Produits de l'édition; produits imprimés ou reproduits
+CPA_DF	Produits de la cokéfaction, du raffinage et des industries nucléaires
+CPA_DF23	Produits de la cokéfaction, du raffinage et des industries nucléaires
+CPA_DG	Produits chimiques
+CPA_DG24	Produits chimiques
+CPA_DH	Produits en caoutchouc ou en plastique
+CPA_DH25	Produits en caoutchouc ou en plastique
+CPA_DI	Autres produits minéraux non métalliques
+CPA_DI26	Autres produits minéraux non métalliques
+CPA_DI263	Carreaux en céramique
+CPA_DJ	Produits de la métallurgie et du travail des métaux
+CPA_DJ27	Produits métallurgiques
+CPA_DJ28-DN36	Produits métalliques et machines; matériel de transport
+CPA_DJ28-DL_DN36	Produits métalliques et machines
+CPA_DJ28	Produits du travail des métaux
+CPA_DK	Machines et équipements
+CPA_DK29	Machines et équipements
+CPA_DL	Equipements électriques et électroniques
+CPA_DL30	Machines de bureau et matériel informatique
+CPA_DL31	Machines et appareils électriques
+CPA_DL32	Equipements de radio, télévision et communication
+CPA_DL33	Instruments médicaux, de précision, d'optique et d'horlogerie
+CPA_DM	Matériels de transport
+CPA_DM34	Produits de l'industrie automobile
+CPA_DM35	Autres matériels de transport
+CPA_DN	Autres produits manufacturés
+CPA_DN36	Meubles et produits des industries diverses
+CPA_DN37	Matières premières secondaires
+CPA_E	Electricité, gaz et eau
+CPA_E40	Electricité, gaz et chaleur
+CPA_E41	Eau distribuée
+CPA_F	Travaux de construction
+CPA_F45	Travaux de construction
+CPA_FA	Travaux de construction: logement
+CPA_FB	Travaux de construction: autres constructions
+CPA_G	Ventes; réparations automobiles et d'articles domestiques
+CPA_G50	Ventes et réparations automobiles
+CPA_G503	Vente d'équipements automobiles
+CPA_G505	Vente au détail de carburant
+CPA_G50101	Vente en gros de véhicules automobiles - Vente en gros de véhicules automobiles neufs et d'occasion
+CPA_G50102	Vente au détail de véhicules automobiles
+CPA_G50103	Services d'intermédiaire de commerce en véhicules automobiles
+CPA_G50201	Entretien et réparation de voitures particulières
+CPA_G50202	Entretien et réparation d'autres véhicules automobiles
+CPA_G50203	Autres services relatifs aux véhicules automobiles
+CPA_G50301	Vente en gros d'équipements automobiles
+CPA_G50302	Vente au détail d'équipements automobiles
+CPA_G50303	Services d'intermédiaire du commerce d'équipements automobiles
+CPA_G50401	Vente en gros de motocycles
+CPA_G50402	Vente au détail de motocycles
+CPA_G50403	Services d'intermédiaire du commerce de motocycles
+CPA_G50404	Entretien et réparation de motocycles
+CPA_G50501	Vente au détail de carburant
+CPA_G51	Ventes en gros et services d'intermédiaire du commerce de gros
+CPA_G511	Services d'intermédiaire du commerce de gros
+CPA_G5111	Commerce sur base d'honoraire ou de contrat en animaux vivants, de matières premières agricoles, matières premières textiles et demi-produits
+CPA_G5112	Commerce sur base d'honoraire ou de contrat en combustibles, métaux minéraux et produits chimiques
+CPA_G5113	Commerce sur base d'honoraire ou de contrat en bois et matériaux de construction
+CPA_G5114	Commerce sur base d'honoraire ou de contrat en machines, équipements industriels, navires et avions
+CPA_G5115	Commerce sur base d'honoraire ou de contrat en meubles, articles de ménage et quincaillerie
+CPA_G5116	Commerce sur base d'honoraire ou de contrat en textiles, habillement, chaussures et articles en cuir
+CPA_G5117	Commerce sur base d'honoraire ou de contrat en denrées, boissons et tabac
+CPA_G5118	Commerce sur base d'honoraire ou de contrat par d'autres intermédiaires spécialisés
+CPA_G5119	Commerce sur base d'honoraire ou de contrat par intermédiaires spécialisés en produits divers
+CPA_G512	Vente en gros de produits agricoles bruts  
+CPA_G5121	Services du commerce de gros de céréales et aliments pour le bétail
+CPA_G5122	Services du commerce de gros de fleurs et plantes
+CPA_G5123	Services du commerce de gros d'animaux vivants
+CPA_G5124	Services du commerce de gros de cuirs et peaux
+CPA_G5125	Services du commerce de gros de tabac non manufacturé
+CPA_G513	Vente en gros de produits alimentaires
+CPA_G5131	Services du commerce de gros de fruits et légumes
+CPA_G5132	Services du commerce de gros de viandes
+CPA_G5133	Services du commerce de gros de produits laitiers, oeufs, huiles
+CPA_G5134	Services du commerce de gros de boissons
+CPA_G5135	Services du commerce de gros de tabac
+CPA_G5136	Services du commerce de gros de sucre, chocolat et confiserie
+CPA_G5137	Services du commerce de gros de café, thé, cacao et épices
+CPA_G5138	Autres services du commerce de gros alimentaires spécialisés
+CPA_G5139	Services du commerce de gros non spécialisés de denrées, boissons et tabac
+CPA_G514	Vente en gros de biens de consommation non alimentaire
+CPA_G5141	Services du commerce de gros de textiles
+CPA_G5142	Services du commerce de gros d'habillement et de chaussures
+CPA_G5143	Services du commerce de gros d'appareils électroménagers et de radio/télévision
+CPA_G5144	Services du commerce de gros de céramique, verrerie et produits d'entretien
+CPA_G5145	Services du commerce de gros de parfumerie et de produits de beauté
+CPA_G5146	Services du commerce de gros de produits pharmaceutiques
+CPA_G5147	Services du commerce de gros de biens de consommation non alimentaires divers
+CPA_G515	Vente en gros de produits intermédiaires non agricoles
+CPA_G5151	Services du commerce de gros de combustibles
+CPA_G5152	Services du commerce de gros de minerais et métaux
+CPA_G5153	Services du commerce de gros de bois et de matériaux de construction
+CPA_G5154	Services du commerce de gros de quincaillerie et fournitures pour plomberie et chauffage
+CPA_G5155	Services du commerce de gros de produits chimiques
+CPA_G5156	Services du commerce de gros d'autres produits intermédiaires
+CPA_G5157	Services du commerce de gros de déchets et débris
+CPA_G518	Vente en gros d'équipements industriels
+CPA_G5181	Vente en gros de machines-outils
+CPA_G5182	Vente en gros d'équipements pour la construction
+CPA_G5183	Vente en gros de machines pour l'industrie textile et l'habillement
+CPA_G5184	Vente en gros d'ordinateurs, de périphériques et de logiciels
+CPA_G5185	Vente en gros d'autres machines de bureau et de matériel informatique
+CPA_G5186	Vente en gros d'autres matériels électroniques
+CPA_G5187	Vente en gros d'autres équipements industriels
+CPA_G5188	Vente en gros de matériel agricole
+CPA_G519	Autres ventes en gros
+CPA_G52	Ventes au détail et réparation d'articles domestiques
+CPA_G521	Commerce de détail en magasin non spécialisé
+CPA_G52111	Vente au détail en magasin non spécialisé à prédominance alimentaire
+CPA_G52121	Vente au détail en magasin non spécialisé sans prédominance alimentaire
+CPA_G522	Ventes au détail
+CPA_G52211	Vente au détail de fruits et légumes frais
+CPA_G52221	Vente au détail de viandes et produits à base de viande
+CPA_G52231	Vente au détail de poissons, crustacés et mollusques
+CPA_G52241	Vente au détail de pain, pâtisserie et confiserie
+CPA_G52251	Vente au détail de boissons
+CPA_G52261	Vente au détail de tabac et cigarettes
+CPA_G52271	Vente au détail d'autres produits alimentaires
+CPA_G52311	Vente au détail de produits pharmaceutiques
+CPA_G52321	Vente au détail d'articles médicaux et orthopédiques
+CPA_G52331	Vente au détail de parfums et de produits de beauté
+CPA_G52411	Vente au détail de textiles
+CPA_G52421	Vente au détail d'articles d'habillement
+CPA_G52431	Vente au détail de chaussures et d'articles en cuir
+CPA_G52441	Vente au détail de meubles et d'équipements du foyer
+CPA_G52451	Vente au détail d'électroménager blanc
+CPA_G52452	Vente au détail de téléviseurs et d'instruments de musique
+CPA_G52461	Vente au détail de quincaillerie, peintures et verre
+CPA_G52471	Vente au détail de livres, journaux et papeterie
+CPA_G52481	Vente au détail de matériel de bureau, ordinateurs, articles optiques et photographiques
+CPA_G52482	Vente au détail d'articles d'horlogerie ou bijouterie, d'articles de sport et de jouets
+CPA_G52483	Vente au détail de produits divers
+CPA_G52501	Vente au détail de biens d'occasion
+CPA_G52611	Vente au détail par correspondance
+CPA_G52621	Vente au détail sur éventaires et marchés
+CPA_G52631	Autres ventes au détail hors magasin
+CPA_G52711	Réparation de chaussures et articles en cuir
+CPA_G52721	Réparation d'appareils électriques à usage domestique
+CPA_G52731	Réparation de montres, horloges et bijoux
+CPA_G52741	Réparation d'articles personnels et domestiques n.c.a.
+CPA_H	Services d'hôtellerie et de restauration
+CPA_H55	Services d'hôtellerie et de restauration
+CPA_I	Transports et communications
+CPA_I60	Transports terrestres
+CPA_I61	Transports par eau
+CPA_I62	Transports aériens
+CPA_I63	Services auxiliaires des transports
+CPA_I64	Services des postes et télécommunications
+CPA_J	Services financiers
+CPA_J65	Intermédiation financière
+CPA_J66	Assurance
+CPA_J67	Services d'auxiliaires financiers et d'assurance
+CPA_K	Services immobiliers, de location et aux entreprises
+CPA_K70	Services immobiliers
+CPA_K71	Location sans opérateur
+CPA_K72	Services informatiques
+CPA_K73	Recherche et développement
+CPA_K74	Services fournis principalement aux entreprises
+CPA_L	Services d'administration publique
+CPA_L75	Services d'administration publique
+CPA_M	Education
+CPA_M80	Education
+CPA_N	Services de santé et d'action sociale
+CPA_N85	Services de santé et d'action sociale
+CPA_O	Services collectifs, sociaux et personnels
+CPA_O90	Assainissement, voirie et gestion des déchets
+CPA_O91	Services fournis par les organisations associatives
+CPA_O92	Services récréatifs, culturels et sportifs
+CPA_O93	Services personnels
+CPA_P	Services domestiques
+CPA_P95	Services domestiques
+CPA_Q	Services extra-territoriaux
+CPA_Q99	Services extra-territoriaux
+CPA_OTH	Autres produits
+TOT_HH	Tous les produits CPA plus les émissions directes des ménages
+HH	Émissions directes des ménages
+V12110	Chiffre d'affaires

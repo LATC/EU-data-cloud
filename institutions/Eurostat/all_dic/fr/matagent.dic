@@ -1,0 +1,23 @@
+TOTAL	Total
+MAT_0000	Pas d’agent matériel ou pas d’information
+MAT_0100	Bâtiments, constructions, surfaces - à niveau (intérieur ou extérieur, fixes ou mobiles, temporaires ou non) - Non précisé
+MAT_0200	Bâtiments, constructions, surfaces - en hauteur (intérieur ou extérieur) - Non précisé
+MAT_0300	Bâtiments, constructions, surfaces - en profondeur (intérieur ou extérieur) - Non précisé
+MAT_0400	Dispositifs de distribution de matière, d'alimentation, canalisations - Non précisé
+MAT_0500	Moteurs, dispositifs de  transmission et de stockage d'énergie - Non précisé
+MAT_0600	Outils à main, non motorisés - Non précisé
+MAT_0700	Outils tenus ou guidés à la main, mécaniques - Non précisé
+MAT_0800	Outils à main - sans précision sur la motorisation - Non précisé
+MAT_0900	Machines et équipements - portables ou mobiles - Non précisé
+MAT_1000	Machines et équipements - fixes - Non précisé
+MAT_1100	Dispositifs de convoyage, de transport et de stockage - Non précisé
+MAT_1200	Véhicules terrestres - Non précisé
+MAT_1300	Autres véhicules de transport - Non précisé
+MAT_1400	Matériaux, objets, produits, éléments constitutifs de machine - bris, poussières - Non précisé
+MAT_1500	Substances chimiques, explosives, radioactives, biologiques - Non précisé
+MAT_1600	Dispositifs et équipements de sécurité - Non précisé
+MAT_1700	Équipements de bureau et personnels, matériel de sport, armes, appareillage domestique - Non précisé
+MAT_1800	Organismes vivants et êtres humains - Non précisé
+MAT_1900	Déchets en vrac - Non précisé
+MAT_2000	Phénomènes physiques et éléments naturels - Non précisé
+MAT_9900	Autres agents matériels non listés dans cette classification

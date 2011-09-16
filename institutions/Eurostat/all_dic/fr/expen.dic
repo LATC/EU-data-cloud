@@ -1,0 +1,15 @@
+TOTAL	Total
+INV	Investissements
+MNT	Frais de maintenance
+VESS	Dépenses d'investissement et d'entretien des bateaux des entreprises de transport de marchandises par voies navigables intérieures
+INV_VESS	Dépenses d'investissement des bateaux des entreprises de transport de marchandises par voies navigables intérieures
+MNT_VESS	Dépenses d'entretien des bateaux des entreprises de transport de marchandises par voies navigables intérieures
+IWTI	Dépenses d'investissement et d'entretien des infrastructures de transport par voies navigables intérieures
+INV_IWTI	Dépenses d'investissement des infrastructures de transport par voies navigables intérieures
+MNT_IWTI	Dépenses d'entretien des infrastructures de transport par voies navigables intérieures
+ROVE	Dépenses d'investissement et d'entretien des véhicules routiers des entreprises de transport routier de marchandises
+INV_ROVE	Dépenses d'investissement des véhicules routiers des entreprises de transport routier de marchandises
+MNT_ROVE	Dépenses d'entretien des véhicules routiers des entreprises de transport routier de marchandises
+ROIF	Dépenses d'investissement et d'entretien en infrastructure routière
+INV_ROIF	Dépenses d'investissement en infrastructure routière
+MNT_ROIF	Dépenses d'entretien en infrastructure routière

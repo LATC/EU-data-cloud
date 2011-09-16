@@ -1,0 +1,38 @@
+D1	Arbeitnehmerentgelt
+D11	Löhne und Gehälter (insgesamt)
+D111	Löhne und Gehälter (ohne Auszubildende)
+D1111	Direktvergütung, Prämien und Zulagen (ohne Auszubildende)
+D11111	Mit jedem Arbeitsentgelt gezahlte Direktvergütung, Prämien und Zulagen (ohne Auszubildende)
+D11112	Nicht mit jedem Arbeitsentgelt gezahlte Direktvergütung, Prämien und Zulagen (ohne Auszubildende)
+D111121	Prämien mit bestimmter Periodizität (ohne Auszubildende)
+D1112	Vermögenswirksame Leistungen
+D1113	Vergütung für nicht gearbeitete Tage (ohne Auszubildende)
+D1114	Löhne und Gehälter in Form von Sachleistungen (ohne Auszubildende)
+D11141	Produkte des Unternehmens
+D11142	Personalunterkunft (ohne Auszubildende)
+D11143	Firmenwagen
+D11144	Aktienoptionen und Aktienkaufpläne
+D11145	Sonstige
+D112	Bruttolöhne und -gehälter von Auszubildenden
+D12	Sozialbeiträge der Arbeitgeber (insgesamt)
+D121	Tatsächliche Sozialbeiträge der Arbeitgeber (ohne Auszubildende)
+D1211	Gesetzliche Arbeitgeberbeiträge zur Sozialversicherung
+D1212	Tarifliche, vertragliche oder freiwillige Arbeitgeberaufwendungen für die Sozialversicherung
+D122	Unterstellte Sozialbeiträge der Arbeitgeber (ohne Auszubildende)
+D1221	Garantierte Lohn- und Gehaltsfortzahlung im Krankheitsfall
+D1222	Unterstellte Sozialbeiträge der Arbeitgeber zur Alters- und Gesundheitsvorsorge
+D1222_00	Garantierte Lohn- und Gehaltsfortzahlung bei Kurzarbeit
+D1223	Zahlungen an aus dem Unternehmen ausscheidende Arbeitnehmer
+D1224	Sonstige unterstellte Sozialbeiträge der Arbeitgeber
+D1224_00	Unterstellte Sozialbeiträge der Arbeitgeber
+D123	Sozialbeiträge der Arbeitgeber für Auszubildende
+D2_TO_D5	Sonstige Arbeitskosten
+D2	Berufsbildungskosten
+D3	Sonstige Aufwendungen
+D4	Steuern
+D5	Zuschüsse
+TWAGSAL	Bruttolöhne und Gehälter (insgesamt)
+DIREB	Direktvergütung und Prämien
+SS	Arbeitgeberbeiträge zur Sozialversicherung
+OTHLC	Sonstige Arbeitskosten
+SS_OTHLC	Arbeitgeberbeiträge zur Sozialversicherung und sonstige Arbeitskosten

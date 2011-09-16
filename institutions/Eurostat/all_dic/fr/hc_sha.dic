@@ -1,0 +1,50 @@
+HC1HC9HCR1	Dépense de santé
+HC1HC9	Dépense de santé courante (CHE)
+HC1	Services de soins curatifs
+HC11	Soins curatifs en milieu hospitalier
+HC12	Soins curatifs en hospitalisation de jour
+HC13	Soins curatifs ambulatoires
+HC14	Services de soins curatifs à domicile
+HC2	Services de réadaptation
+HC21	Réadaptation en milieu hospitalier
+HC22	Réadaptation en hospitalisation de jour
+HC23	Réadaptation en mode ambulatoire
+HC24	Services de réadaptation à domicile
+HC1HC2	Services de soins curatifs et de réadaptation
+HC11HC21	Services de soins curatifs et de réadaptation en milieu hospitalier
+HC12HC22	Services de soins curatifs et de réadaptation en hospitalisation de jour
+HC13HC23	Services de soins curatifs et de réadaptation en mode ambulatoire
+HC14HC24	Services de soins curatifs et de réadaptation à domicile
+HC3	Services de soins de longue durée
+HC31	Soins de longue durée en milieu hospitalier
+HC32	Soins de longue durée en hospitalisation de jour
+HC33	Soins de longue durée à domicile
+HC4	Services auxiliaires
+HC41	Laboratoires d'analyses médicales
+HC42	Imagerie diagnostique
+HC43	Transports sanitaires et secours d'urgence
+HC49	Autres services auxiliaires
+HC5	Biens médicaux dispensés aux patients ambulatoires
+HC51	Produits pharmaceutiques et autres biens médicaux non durables
+HC52	Appareils thérapeutiques et autres biens médicaux durables
+HC6	Services de prévention et de santé publique
+HC61	Santé maternelle et infantile : services de planning familial et de consultations
+HC62	Services de médecine scolaire
+HC63	Prévention des maladies transmissibles
+HC64	Prévention des maladies non transmissibles
+HC65	Médecine du travail
+HC69	Autres services de santé publique
+HC7	Administration de la santé et assurance maladie
+HC71	Administration générale de la santé : administrations publiques
+HC72	Administration de la santé et assurance maladie: organismes privés
+HC9	Dépenses non spécifiées par type
+HCR	Fonctions sanitaires connexes
+HCR1	Formation de capital des établissements prestataires de soins de santé
+HCR2	Éducation et formation du personnel de santé
+HCR3	Recherche et développement dans le domaine de la santé
+HCR4	Contrôles sanitaires (denrées alimentaires, hygiène, eau potable)
+HCR5	Hygiène du milieu
+HCR6	Administration et fourniture de services sociaux en nature en faveur des personnes malades ou handicapées
+HCR7	Administration et fourniture de prestations en espèces liées à la santé
+HCR2HCR7	Produits et services sanitaires connexes
+LTC	Services de soins de longue durée (HC.3 and HC.R.6)

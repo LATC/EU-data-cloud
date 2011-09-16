@@ -1,0 +1,41 @@
+NGDP	Saldo der Bilanz zu jeweiligen Preisen (in % des BIP)
+AGDP	Durchschnittliche Ströme (in % des BIP)
+NMLD	Saldo der Bilanz (in Mrd ECU/EUR)
+COVR	Deckungsquote (in %)
+C200	Ausfuhr (in % der Einnahmen der Dienstleistungsbilanz)
+D200	Einfuhr (in % der Ausgaben der Dienstleistungsbilanz)
+CA1	Einnahmen nach Wirtschaftsräumen (Einnahmen in % der weltweiten Einnahmen)
+DA1	Ausgaben nach Wirtschaftsräumen (Ausgaben in % der weltweiten Ausgaben)
+TOTR	Gesamte Transaktionen (Ausfuhr + Einfuhr) in % der gesamten Ströme der Leistungsbilanz (Ausfuhr + Einfuhr)
+CTYW	Gesamte Transaktionen eines Landes (Ausfuhr + Einfuhr) in % der Welt gesamten Transaktionen (Ausfuhr + Einfuhr)
+CMLD	Ausfuhr (in Mrd ECU/EUR)
+DMLD	Einfuhr (in Mrd ECU/EUR)
+TOTMLD	Ausfuhr + Einfuhr (in Mrd ECU/EUR)
+SHTOT200	Anteil an den gesamten Dienstleistungstransaktionen
+SHTOT981	Anteil an den gesamten sonstigen Dienstleistungstransaktionen
+CC_COVRO	Internationaler Dienstleistungsverkehr ohne Transport und Reiseverkehr, Deckungsquoten in %
+CC_CAGDP	Leistungsbilanz zu jeweiligen Preisen, in % des BIP
+GSGDP	Bilanz des internationalen Waren- und Dienstleistungsverkehrs zu jeweiligen Preisen, in % des BIP
+COVRGS	Internationaler Waren- und Dienstleistungsverkehr, Deckungsquoten in %
+CTRS	Export von Transportleistungen in % der gesamten Dienstleistungsexporte
+DTRS	Import von Transportleistungen in % der gesamten Dienstleistungsimporte
+CTVS	Export von Reiseverkehrsleistungen in % der gesamten Dienstleistungsexporte
+DTVS	Import von Reiseverkehrsleistungen in % der gesamten Dienstleistungsimporte
+STOCKS	Direktinvestition-Bestände - Millionen ECU/EUR
+FLOWS	Ströme - Millionen ECU/EUR
+INCOME	Erträge aus Direktinvestitionen - Millionen ECU/EUR
+INFLOW	Zuflüsse - Millionen ECU/EUR
+OUTFLOW	Abflüsse - Millionen ECU/EUR
+INTRAFLOW	Intra-EU Ströme - Millionen ECU/EUR
+FGDP	BIP (Ströme in % des BIP)
+SGDP	BIP (Bestände in % des BIP)
+AVG4YEARS	Vier-Jahres-Durchschnitt
+TI100	Marktintegration - Handelsintegration beim Warenhandel
+TI200	Marktintegration - Handelsintegration bei Dienstleistungen
+TIFDI	Marktintegration - Intensität der Direktinvestitionen - Durchschnittlicher Wert der ausländischen Direktinvestitionsströme im Inland und der inländischen Direktinvestitionsströme im Ausland geteilt durch BIP, multipliziert mit 100
+TUR	Umsatz - Millionen ECU/EUR
+EMP	Anzahl der beschäftigten Arbeitnehmer
+ENT	Anzahl der Unternehmungen
+PEC	Personalaufwendungen  - Millionen ECU/EUR
+GIT	Bruttoinvestition in Sachanlagen - Millionen ECU/EUR
+VAC	Bruttowertschöpfung zu Faktorkosten - Millionen ECU/EUR

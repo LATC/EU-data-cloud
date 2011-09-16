@@ -1,0 +1,123 @@
+B9_S13	Finanzierungssaldo des Staates
+B9_S1311	Finanzierungssaldo des Bundes (Zentralstaates)
+B9_S1312	Finanzierungssaldo der Länder
+B9_S1313	Finanzierungssaldo der Gemeinden
+B9_S1314	Finanzierungssaldo der Sozialversicherungen
+GGGD	Konsolidierter Bruttoschuldenstand des Staates
+GGGD_AF2	Konsolidierter Bruttoschuldenstand des Staates - Bargeld und Einlagen
+GGGD_AF33	Konsolidierter Bruttoschuldenstand des Staates - Wertpapiere (ohne Anteilsrechte)
+GGGD_AF331	Konsolidierter Bruttoschuldenstand des Staates - Geldmarktpapiere
+GGGD_AF332	Konsolidierter Bruttoschuldenstand des Staates - Kapitalmarktpapiere
+GGGD_AF4	Konsolidierter Bruttoschuldenstand des Staates - Kredite
+GGGD_AF41	Konsolidierter Bruttoschuldenstand des Staates - Kurzfristige Kredite
+GGGD_AF42	Konsolidierter Bruttoschuldenstand des Staates - Langfristige Kredite
+N5	Nettofinanzierungsüberschuß (+) bzw. -defizit (-) des Staates
+F20F30	Konsolidierte Bruttoschuld des Staates - Bargeld und Einlagen
+F40	Konsolidierte Bruttoschuld des Staates - Geldmarktpapiere und kurzfristige Anleihen
+F50	Konsolidierte Bruttoschuld des Staates - Langfristige Anleihen
+F79	Konsolidierte Bruttoschuld des Staates - Sonstige kurzfrustige Kredite
+F89	Konsolidierte Bruttoschuld des Staates - Sonstige mittel- und langfristige Kredite
+P41	Bruttoanlageninvestitionen
+PANB	Nettofinanzierungssaldo des Staates (öffentliche Konten)
+R41	Tatsächlich gezahlte Zinsen
+S61	Nettofinanzierungsüberschuß (+) bzw. -defizit (-) des Zentralstaates
+S62	Nettofinanzierungsüberschuß (+) bzw. -defizit (-) der lokalen Gebietsköperschaften
+S63	Nettofinanzierungsüberschuß (+) bzw. -defizit (-) der Sozialversicherungen
+P51	Bruttoanlageinvestitionen
+D41	Zinsen (konsolidiert)
+NBFS	Nettofinanzierungssaldo des Staates (öffentliche Konten)
+PRIMBAL	Primärer Saldo
+INTINVT	Auslandsvermögensstatus: Insgesamt
+DIRINVT	Direktinvestitionen: Insgesamt
+DIRINVEQ	Direktinvestitionen: Beteiligungskapital
+DIRINVEQMFI	Direktinvestitionen, Beteiligungskapital und reinvestierte Gewinne, MFI (ohne Zentralbanken)
+DIRINVEQOTH	Direktinvestitionen, Beteiligungskapital und reinvestierte Gewinne, Nicht-MFI
+DIRINVOTH	Direktinvestitionen: Kredite und sonstige Anlagen
+DIRINVOTHMFI	Direktinvestitionen, sonstige Anlagen, MFI (ohne Zentralbanken)
+DIRINVOTHOTH	Direktinvestitionen, sonstige Anlagen, Nicht-MFI
+PORINVT	Wertpapieranlagen: Insgesamt
+PORINVEQST	Wertpapieranlagen: Dividendenwerte: Inssgesamt
+PORINVEQSMA	Wertpapieranlagen: Dividendenwerte: Währungsbehörden
+PORINVEQSGG	Wertpapieranlagen: Dividendenwerte: Staat
+PORINVEQSMFI	Wertpapieranlagen: Dividendenwerte: Monetäre finanzielle Kapitalgesellschaften (ohne Zentralbanken)
+PORINVEQSOS	Wertpapieranlagen: Dividendenwerte: sonstige Sektoren
+PORINVDBT	Wertpapieranlagen, Schuldverschreibungen: Insgesamt
+PORINVDBBNT	Wertpapieranlagen, Schuldverschreibungen: Anleihen: Insgesamt
+PORINVDBBNMA	Wertpapieranlagen, Schuldverschreibungen: Anleihen: Währungsbehörden
+PORINVDBBNGG	Wertpapieranlagen, Schuldverschreibungen: Anleihen: Staat
+PORINVDBBNMFI	Wertpapieranlagen, Schuldverschreibungen: Anleihen: Monetäre finanzielle Kapitalgesellschaften (ohne Zentralbanken)
+PORINVDBBNOS	Wertpapieranlagen, Schuldverschreibungen: Anleihen: sonstige Sektoren
+PORINVDBMMT	Wertpapieranlagen, Schuldverschreibungen: Geldmarktpapiere: insgesamt
+PORINVDBMMMA	Wertpapieranlagen, Schuldverschreibungen: Geldmarktpapiere: Währungsbehörden
+PORINVDBMMGG	Wertpapieranlagen, Schuldverschreibungen: Geldmarktpapiere: Staat
+PORINVDBMMMFI	Wertpapieranlagen, Schuldverschreibungen: Geldmarktpapiere: Monetäre finanzielle Kapitalgesellschaften (ohne Zentralbanken)
+PORINVDBMMOS	Wertpapieranlagen, Schuldverschreibungen: Geldmarktpapiere: sonstige Sektoren
+FINDERT	Finanzderivate: Insgesamt
+FINDERMA	Finanzderivate: Währungsbehörden
+FINDERGG	Finanzderivate: Staat
+FINDERMFI	Finanzderivate: Monetäre finanzielle Kapitalgesellschaften (ohne Zentralbanken)
+FINDEROS	Finanzderivate: Sonstige Sektoren
+OTHINVT	Übrige Anlagen: Insgesamt
+OTHINVMAT	Übrige Anlagen: Währungsbehörden: insgesamt
+OTHINVMALCD	Übrige Anlagen: Währungsbehörden: Finanzkredite und Bankguthaben
+OTHINVMAOTH	Übrige Anlagen: Währungsbehörden: sonstige
+OTHINVGGT	Übrige Anlagen: Staat: insgesamt
+OTHINVGGTRC	Übrige Anlagen: Staat: Handelskredite
+OTHINVGGLCD	Übrige Anlagen: Staat: Finanzkredite und Bankguthaben
+OTHINVGGOTH	Übrige Anlagen: Staat: Sonstige
+OTHINVMFIT	Übrige Anlagen: Monetäre finanzielle Kapitalgesellschaften (ohne Zentralbanken): Finanzkredite und Bankguthaben: Insgesamt
+OTHINVMFILCD	Übrige Anlagen: Monetäre finanzielle Kapitalgesellschaften (ohne Zentralbanken): Finanzkredite und Bankguthaben
+OTHINVMFIOTH	Übrige Anlagen: Monetäre finanzielle Kapitalgesellschaften (ohne Zentralbanken): Finanzkredite und Bankguthaben: sonstige
+OTHINVOTHERT	Übrige Anlagen: sonstige Sektoren: Insgesamt
+OTHINVOTHERTRC	Übrige Anlagen: sonstige Sektoren: Handelskredite
+OTHINVOTHERLCD	Übrige Anlagen: sonstige Sektoren: Finanzkredite und Bankguthaben
+OTHINVOTHEROTH	Übrige Anlagen: sonstige Sektoren: sonstige
+RESASSETST	Währungsreserven: insgesamt
+RESASSETSG	Währungsreserven: Monetar Gold
+RESASSETSR	Währungsreserven: Sonderziehungsrechte
+RESASSETSF	Währungsreserven: Reserveposition im Internationalen Währungsfonds
+RESASSETSX	Währungsreserven: Fremdwährung
+RESASSETSC	Währungsreserven: Fremdwährung, Bargeld und Einlagen
+RESASSETSA	Währungsreserven: Fremdwährung, Bargeld und Einlagen mit Währungsbehörden und BIS
+RESASSETSM	Währungsreserven: Fremdwährung, Bargeld und Einlagen mit anderen MFIs
+RESASSETSS	Währungsreserven: Wertpapiere
+RESASSETSE	Währungsreserven: Wertpapiere, Dividendenwerte
+RESASSETSB	Währungsreserven: Wertpapiere, Langfristige festverzinsliche Wertpapiere
+RESASSETSI	Währungsreserven: Wertpapiere, Geldmarktpapiere
+RESASSETSD	Währungsreserven: Finanzderivate
+RESASSETSO	Währungsreserven: Übrige Forderungen
+ISSUES	Anleihen
+REDEMPT	Tilgungen
+NET_ISS	Nettoanleihen
+AMOUNT	Umlauf
+FEGMAR	Devisenderivate - Bruttomarktwerte
+FENAM	Devisenderivate - Nennwert
+IRGMAR	Zinsderivate - Bruttomarktwerte
+IRNAM	Zinsderivate - Nennwert
+GROSFORDEBT	Brutto-Auslandsschuld
+EXPORTRATIO	Schuld/Ausfuhr
+CGGD	Bruttoschuld des Zentralstaates
+GOVREV	Staatseinnahmen
+GOVEXP	Staatsausgaben
+DEBT_CENGOV	Bruttoschuld des Zentralstaates (ohne ESVG)
+DEBT_GENGOV	Bruttoschuldenstand des Staates (konsolidiert) (ohne ESVG)
+NETFORDEBT	Netto Auslandsschuld
+DEF_CENGOV	Nettofinanzierungsüberschuß (+) bzw. -defizit (-) des Zentralstaates (ohne ESVG)
+DEF_GENGOV	Nettofinanzierungsüberschuß (+) bzw. -defizit (-) des Staates (ohne ESVG)
+DIRINVTAB	Direktinvestitionen, im Ausland, Ingesamt
+DIRINVEQAB	Direktinvestitionen, im Ausland: Beteiligungskapital
+DIRINVEQMFIAB	Direktinvestitionen, im Ausland, Beteiligungskapital und reinvestierte Gewinne, MFI (ohne Zentralbanken)
+DIRINVEQOTHAB	Direktinvestitionen, im Ausland, Beteiligungskapital und reinvestierte Gewinne, Nicht-MFI 
+DIRINVOTHAB	Direktinvestitionen, im Ausland: Kredite und sonstige Anlagen
+DIRINVOTHMFIAB	Direktinvestitionen, im Ausland, sonstige Anlagen, MFI (ohne Zentralbanken)
+DIRINVOTHOTHAB	Direktinvestitionen, im Ausland, sonstige Anlagen, Nicht-MFI
+DIRINVTIN	Direktinvestitionen, im Inland, Ingesamt
+DIRINVEQIN	Direktinvestitionen, im Inland: Beteiligungskapital
+DIRINVEQMFIIN	Direktinvestitionen, im Inland, Beteiligungskapital und reinvestierte Gewinne, MFI (ohne Zentralbanken)
+DIRINVEQOTHIN	Direktinvestitionen, im Inland, Beteiligungskapital und reinvestierte Gewinne, Nicht-MFI 
+DIRINVOTHIN	Direktinvestitionen, im Inland: Kredite und sonstige Anlagen
+DIRINVOTHMFIIN	Direktinvestitionen, im Inland, sonstige Anlagen, MFI (ohne Zentralbanken)
+DIRINVOTHOTHIN	Direktinvestitionen, im Inland, sonstige Anlagen, Nicht-MFI
+LOAN	Finanzierung durch Kredite
+EQUIT	Finanzierung durch Beteiligung
+OTH	Finanzierung aus anderen Quellen

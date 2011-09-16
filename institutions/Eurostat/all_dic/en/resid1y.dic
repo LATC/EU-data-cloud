@@ -1,0 +1,13 @@
+TOTAL	Total
+OTH_NUTS3	Living in a different NUTS3 region of the same parent country one year prior to the census
+LIVOUT	Living outside the parent country one year prior to the census
+EU15_EFTA	Country of residence in EU15 and EFTA (CH, IS, LI, NO)
+EUR_C	Country of residence in Central Europe (AL, BG, CZ, EE, HU, LT, LV, MK, PL, RO, SI, SK)
+EUR_CE	Country of residence in Central and Eastern Europe (BG, HR, CZ, EE, HU, LV, LT, PL, RO, SK, SI, AL, BA, MK, CS)
+EUR_NIS	Country of residence in NIS (BY, MD, RU, UA)
+EUR_REM	Country of residence in other European country (AD, CY, MT, TR, MC, SM, VA)
+ASI	Country of residence in Asia
+AME	Country of residence in America
+AFR	Country of residence in Africa
+OCE	Country of residence in Oceania
+UNK	Country of residence unknown

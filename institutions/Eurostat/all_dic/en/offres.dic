@@ -1,0 +1,18 @@
+TOTRESING	Total reserves including gold
+TOTRESEXG	Total reserves excluding gold
+GOLD	Monetary gold
+SDRIGHTS	Special drawing rights (SDRs)
+IMFPOS	Reserve position in the IMF
+FOREX	Foreign exchange reserves
+XEUR	Foreign exchange reserves, of which held in euro
+FOREXECU	Foreign exchange reserves, of which held in ECU
+DEPTOT	Foreign exchange reserves - Currency and deposits - Total
+DEPMA	Foreign exchange reserves - Currency and deposits - with monetary authorities and the Bank for International Settlements (BIS)
+DEPBA	Foreign exchange reserves - Currency and deposit - With Banks
+SECU	Foreign exchange reserves - Securities - Total
+EQUI	Foreign exchange reserves - Securities - Equities
+BNOT	Foreign exchange reserves - Securities - Bonds and notes
+MMI	Foreign exchange reserves - Securities - Money market instruments
+FINDERIV	Foreign exchange reserves - Financial derivatives
+OTHCL	Other claims
+RELAS	Foreign exchange reserves - memo : claims on euro area residents denominated in foreign currency

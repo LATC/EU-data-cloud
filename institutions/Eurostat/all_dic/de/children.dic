@@ -1,0 +1,16 @@
+TOTAL	Insgesamt
+Y0	Weniger als 1 Jahr
+Y1	1 Jahr
+Y2	2 Jahre
+Y3	3 Jahre
+Y4	4 Jahre
+Y5	5 Jahre
+Y6	6 Jahre
+Y7_12	Zwischen 7 und 12 Jahre alt
+Y13_18	Zwischen 13 und 18 Jahre alt
+Y19_24	Zwischen 19 und 24 Jahre alt
+Y25_MAX	25 Jahre und älter
+LT_6	Kinder unter 6 Jahren
+LT_18	Kinder unter 18 Jahren
+LT_25	Kinder unter 25 Jahren
+UNK	Unbekannt

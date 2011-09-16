@@ -1,0 +1,35 @@
+TOTAL	Total
+PASS	Passengers embarked and disembarked
+PASS_ONLY	Passenger only
+PASS_EMB	Passengers embarked
+PASS_DISEMB	Passengers disembarked
+PASS_TRANSIT	Passengers in transit
+PASS_BRD	Total passengers on board
+PASS_BRD_ARR	Passengers on board (arrivals)
+PASS_BRD_DEP	Passengers on board (departures)
+PASS_CRD	Total passengers carried
+PASS_CRD_ARR	Passengers carried (arrival)
+PASS_CRD_DEP	Passengers carried (departures)
+PASS_DRT_TRANS	Total direct transit passengers
+PASS_ST	Total passengers seats available
+PASS_ST_ARR	Passengers seats available (arrivals)
+PASS_ST_DEP	Passengers seats available (departures)
+FR_ONLY	Freight only
+FRM	Freight and mail in tonnes
+FRM_BRD	Total freight and mail on board in tonnes
+FRM_BRD_ARR	Freight and mail on board in tonnes (arrivals)
+FRM_BRD_DEP	Freight and mail on board in tonnes (departures)
+FRM_LD_UNLD	Total freight and mail loaded/unloaded in tonnes
+FRM_UNLD	Freight and mail unloaded in tonnes
+FRM_LD	Freight and mail loaded in tonnes
+PASS_FR	Passenger only
+TOT_CAF	Total commercial air flights (passengers + all-freight and mail)
+PASS_CAF	Total commercial passenger air flights
+PASS_CAF_ARR	Commercial passenger air flight (arrivals)
+PASS_CAF_DEP	Commercial passenger air flight (departures)
+FRM_CAF	All-freight and mail total commercial air flights
+FRM_CAF_ARR	All-freight and mail commercial air flights (arrivals)
+FRM_CAF_DEP	All-freight and mail total commercial air flights (departures)
+COM_MOV	Number of commercial movements
+COM_AIRCR_MOV	Total commercial aircraft movements
+AIRCR_MOV	Total aircraft movements

@@ -1,0 +1,52 @@
+TOTAL	Total
+FOS1-4	Sciences exactes et naturelles, Sciences de l'ingénieur et technologiques, Sciences médicales et sanitaires, Sciences agricoles
+FOS1	Sciences exactes et naturelles
+FOS101	Mathématiques
+FOS102	Informatique et science de l'information
+FOS103	Sciences physiques
+FOS104	Sciences chimiques
+FOS105	Sciences de la Terre et sciences connexes de l'environnement
+FOS106	Sciences biologiques
+FOS107	Autres sciences naturelles
+FOS2	Sciences de l'ingénieur et technologiques
+FOS201	Génie civil
+FOS202	Génie électrique, électronique, ingénierie informationnelle
+FOS203	Génie mécanique
+FOS204	Génie chimique
+FOS205	Génie des matériaux
+FOS206	Ingénierie médicale
+FOS207	Génie de l'environnement
+FOS208	Biotechnologie environnementale
+FOS209	Biotechnologie industrielle
+FOS210	Nanotechnologies
+FOS211	Autres domaines techniques et technologiques
+FOS3	Sciences médicales et sanitaires
+FOS301	Médecine fondamentale
+FOS302	Médecine clinique
+FOS303	Sciences sanitaires
+FOS304	Biotechnologie médicale
+FOS305	Autres sciences médicales
+FOS4	Sciences agricoles
+FOS401	Agriculture, sylviculture et pêche
+FOS402	Zootechnie et science laitière
+FOS403	Sciences vétérinaires
+FOS404	Biotechnologie agricole
+FOS405	Autres sciences agricoles
+FOS5_6	Sciences sociales et Sciences humaines
+FOS5	Sciences sociales
+FOS501	Psychologie
+FOS502	Économie et administration des entreprises
+FOS503	Sciences de l'éducation
+FOS504	Sociologie
+FOS505	Droit
+FOS506	Sciences politiques
+FOS507	Géographie sociale et économique
+FOS508	Médias et communication
+FOS509	Autres sciences sociales
+FOS6	Sciences humaines
+FOS601	Histoire et archéologie
+FOS602	Langues et littérature
+FOS603	Philosophie, morale et religion
+FOS604	Arts (arts, histoire de l'art, arts de la scène, musique)
+FOS605	Autres sciences humaines
+NSP	Non spécifié

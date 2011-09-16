@@ -1,0 +1,43 @@
+TOTAL	Insgesamt
+KITC	Getrennte Küche in der Wohneinheit
+WTR	Fließendes Wasser in der Wohneinheit
+NWTR	Kein fließendes Wasser in der Wohneinheit
+WTR_UNK	Fließendes Wasser - unbekannt
+TOIL	Toilette mit Wasserspülung in der Wohneinheit
+NTOIL	Keine Toilette mit Wasserspülung in der Wohneinheit
+TOIL_UNK	Toilette - unbekannt
+BATH	Eingebaute Badewanne oder Dusche in der Wohneinheit
+NBATH	Keine eingebaute Badewanne oder Dusche in der Wohneinheit
+BATH_UNK	Bad, Dusche im Gebäude - unbekannt
+HEAT	Zentralheizung
+NHEAT	Keine Zentralheizung
+HEAT_UNK	Zentralheizung - unbekannt
+KITCHEN	Getrennte Küche und Küchenausstattung
+WATER_DWEL	Fließendes Wasser in der Wohnung
+WATER_BUILD	Fließendes Wasser im Gebäude
+WATER_UNK	Fließendes Wasser - unbekannt
+NWATER	Ohne fließendes Wasser
+BATH_DWEL	Bad, Dusche in der Wohnung
+BATH_BUILD	Bad, Dusche im Gebäude
+NBATH_DWEL	Ohne Bad, Dusche in der Wohnung
+NBATH_BUILD	Ohne Bad, Dusche im Gebäude
+TOILET_DWEL	WC in der Wohnung
+TOILET_BUILD	WC im Gebäude
+NTOILET	Ohne WC
+TOILET_UNK	WC - unbekannt
+HEATING	Zentralheizung
+CHEATING	Zentralheizung
+CHEATING_DWEL	Zentralheizung in der Wohnung
+NCHEATING	Ohne Zentralheizung
+NCHEATING_DWEL	Ohne Zentralheizung in der Wohnung
+SOLID	Feste Brennstoffe
+COAL	Kohle, Koks
+WOOD	Holz
+SOLID_OTH	Sonstige feste Brennstoffe
+OIL	Heizöl
+GAS	Gas
+ELEC	Elektrizität
+FUEL_OTH	Sonstige Brennstoffe
+UNK	Unbekannt
+OTH	Sonstige
+OTHER	Sonstige

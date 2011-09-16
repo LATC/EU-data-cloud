@@ -1,0 +1,958 @@
+DE1001V	Bevölkerung am Ort der Hauptwohnung insgesamt
+DE1002V	Bevölkerung am Ort der Hauptwohnung männlich
+DE1003V	Bevölkerung am Ort der Hauptwohnung weiblich
+DE1067V	Bevölkerung von unter 3 Jahren, insgesamt
+DE1068V	Bevölkerung von unter 3 Jahren, männlich
+DE1069V	Bevölkerung von unter 3 Jahren, weiblich
+DE1070V	Bevölkerung von 3 - unter 5 Jahren, insgesamt
+DE1071V	Bevölkerung von 3 - unter 5 Jahren, männlich
+DE1072V	Bevölkerung von 3 - unter 5 Jahren, weiblich
+DE1040V	Bevölkerung von unter 5 Jahren, insgesamt
+DE1041V	Bevölkerung von unter 5 Jahren, männlich
+DE1042V	Bevölkerung von unter 5 Jahren, weiblich
+DE1043V	Bevölkerung von 5 - unter 15 Jahren, insgesamt
+DE1044V	Bevölkerung von 5 - unter 15 Jahren, männlich
+DE1045V	Bevölkerung von 5 - unter 15 Jahren, weiblich
+DE1046V	Bevölkerung von 15 - unter 20 Jahren, insgesamt
+DE1047V	Bevölkerung von 15 - unter 20 Jahren, männlich
+DE1048V	Bevölkerung von 15 - unter 20 Jahren, weiblich
+DE1049V	Bevölkerung von 20 - unter 25 Jahren, insgesamt
+DE1050V	Bevölkerung von 20 - unter 25 Jahren, männlich
+DE1051V	Bevölkerung von 20 - unter 25 Jahren, weiblich
+DE1052V	Bevölkerung von 25 - unter 55 Jahren, insgesamt
+DE1053V	Bevölkerung von 25 - unter 55 Jahren, männlich
+DE1054V	Bevölkerung von 25 - unter 55 Jahren, weiblich
+DE1058V	Bevölkerung von 25 - unter 35 Jahren, insgesamt
+DE1059V	Bevölkerung von 25 - unter 35 Jahren, männlich
+DE1060V	Bevölkerung von 25 - unter 35 Jahren, weiblich
+DE1061V	Bevölkerung von 35 - unter 45 Jahren, insgesamt
+DE1062V	Bevölkerung von 35 - unter 45 Jahren, männlich
+DE1063V	Bevölkerung von 35 - unter 45 Jahren, weiblich
+DE1064V	Bevölkerung von 45 - unter 55 Jahren, insgesamt
+DE1065V	Bevölkerung von 45 - unter 55 Jahren, männlich
+DE1066V	Bevölkerung von 45 - unter 55 Jahren, weiblich
+DE1073V	Mittleres Alter der Bevölkerung (Median)
+DE1025V	Bevölkerung von 55 - unter 65 Jahren, insgesamt
+DE1026V	Bevölkerung von 55 - unter 65 Jahren, männlich
+DE1027V	Bevölkerung von 55 - unter 65 Jahren, weiblich
+DE1028V	Bevölkerung von 65 - unter 75 Jahren, insgesamt
+DE1029V	Bevölkerung von 65 - unter 75 Jahren, männlich
+DE1030V	Bevölkerung von 65 - unter 75 Jahren, weiblich
+DE1055V	Bevölkerung von über 74 Jahren, insgesamt
+DE1056V	Bevölkerung von über 74 Jahren, männlich
+DE1057V	Bevölkerung von über 74 Jahren, weiblich
+DE2001V	Bevölkerung mit der nationalen Staatsangehörigkeit
+DE2002V	Bevölkerung mit Staatsangehörigkeit eines anderen EU-Mitgliedstaats (25)
+DE2003V	Bevölkerung mit Staatsangehörigkeit eines Drittlandes (außerhalb der EU)
+DE2005V	Bevölkerung mit Staatsangehörigkeit eines Drittlandes mit hohem HDI
+DE2006V	Bevölkerung mit Staatsangehörigkeit eines Drittlandes mit mittlerem oder niedrigem HDI
+DE2004V	Im Ausland Geborene mit der nationalen Staatsangehörigkeit
+DE2007V	Im Ausland geborene Einwohner
+DE3001V	Privathaushalte
+DE3017V	Personen in Privathaushalten
+DE3002V	Einpersonenhaushalte
+DE3005V	Haushalte von Alleinerziehenden (mit Kindern unter 18 Jahren)
+DE3008V	Einpersonenhaushalte von Rentnern (über dem Rentenalter), insgesamt
+DE3009V	Einpersonenhaushalte von Rentnern (über dem Rentenalter), männlich
+DE3010V	Einpersonenhaushalte von Rentnern (über dem Rentenalter), weiblich
+DE3011V	Haushalte mit Kindern unter 18 Jahren
+DE3012V	In den letzten zwei Jahren Zugezogene der nationalen Staatsangehörigkeit im Bevölkerungsbestand
+DE3013V	In den letzten zwei Jahren zugezogene Ausländer mit Staatsangehörigkeit eines anderen EU-Mitgliedstaats im Bevölkerungsbestand
+DE3014V	In den letzten zwei Jahren zugezogene Ausländer mit Staatsangehörigkeit eines Drittlandes im Bevölkerungsbestand
+DE3015V	Zuzüge in die Stadt in den letzten zwei Jahren (Bewegung)
+DE3016V	Fortzüge aus der Stadt in den letzten zwei Jahren (Bewegung)
+DE3018V	Haushalte mit 3 oder mehr Kindern unter 18 Jahren
+SA1001V	Wohnungsbestand
+SA1004V	Ein- und Zweifamilienhäuser
+SA1005V	Geschosswohnungsbestand
+SA1007V	Haushalte in Ein- und Zweifamilienhäusern
+SA1008V	Haushalte in Geschosswohnungen
+SA1011V	Eigentümerhaushalte
+SA1012V	Mieterhaushalte in Sozialwohnungen
+SA1013V	Mieterhaushalte in freifinanzierten Mietwohnungen
+SA1027V	Obdachlose
+SA1029V	Bewohner von Obdachlosenheimen
+SA1031V	Bewohner von Frauenhäusern
+SA1030V	Bewohner von Migrantenheimen
+SA1016V	Kaufpreis für Eigentumswohnungen pro m2 Wohnfläche
+SA1023V	Kaufpreis für Ein- und Zweifamilienhäuser pro m2 Wohnfläche
+SA1049V	Jahresmiete einer Wohnung pro m2
+SA1018V	Wohnungen mit Mängeln in der Grundausstattung
+SA1019V	Personen je belegte Wohnung
+SA1025V	Leerstehende Wohnungen
+SA1026V	Unterkünfte
+SA1046V	Überlegter Wohnungen (> 1 Personen in 1 Raum)
+SA1048V	Genehmigter Wohnungsbestand
+SA1022V	Qm Wohnfläche pro Person
+SA2004V	Sterbefälle von Kindern unter 1 Jahr
+SA2005V	Sterbefälle von Jungen unter 1 Jahr
+SA2006V	Sterbefälle von Mädchen unter 1 Jahr
+SA2007V	Lebendgeborene
+SA2008V	Lebendgeborene Jungen
+SA2009V	Lebendgeborene Mädchen
+SA2013V	Sterbefälle von unter 65jährigen aufgrund von Erkrankung des Herz-, Kreislauf- oder Atmungssystems
+SA2014V	Sterbefälle von männlichen unter 65jährigen aufgrund von Erkrankung des Herz-, Kreislauf- oder Atmungssystems
+SA2015V	Sterbefälle von weiblichen unter 65jährigen aufgrund von Erkrankung des Herz-, Kreislauf- oder Atmungssystems
+SA2016V	Sterbefälle von Personen unter 65 Jahren
+SA2017V	Sterbefälle von Personen unter 65 Jahren, männlich
+SA2018V	Sterbefälle von Personen unter 65 Jahren, weiblich
+SA2019V	Sterbefälle
+SA2020V	Sterbefälle, männlich
+SA2021V	Sterbefälle, weiblich
+SA2022V	Krankenhausbetten
+SA2026V	Krankenhausentlassungen
+SA2027V	Freipraktizierende Ärzte
+SA2028V	Freipraktizierende Zahnärzte
+SA2029V	Selbstmorde im Berichtsjahr
+SA2030V	Freipraktizierende Allgemeinärzte
+SA2031V	Freipraktizierende Fachärzte
+SA3001V	Gemeldete Straftaten in der Stadt [im Land bei nationalen Daten]
+SA3005V	Gemeldete Mord- und Totschlagsfälle
+SA3006V	Gemeldete Autodiebstähle
+SA3007V	gemeldete Wohnungseinbrüche
+EC1001V	Erwerbspersonen insgesamt
+EC1002V	Erwerbspersonen, männlich
+EC1003V	Erwerbspersonen, weiblich
+EC1142V	Erwerbspersonen im Alter von 15 - unter 25 Jahren, insgesamt
+EC1143V	Erwerbspersonen im Alter von 15 - unter 25 Jahren, männlich
+EC1144V	Erwerbspersonen im Alter von 15 - unter 25 Jahren, weiblich
+EC1145V	Erwerbspersonen im Alter von 55 - unter 65 Jahren, insgesamt
+EC1146V	Erwerbspersonen im Alter von 55 - unter 65 Jahren, männlich
+EC1147V	Erwerbspersonen im Alter von 55 - unter 65 Jahren, weiblich
+EC1010V	Erwerbslose insgesamt
+EC1011V	Erwerbslose, männlich
+EC1012V	Erwerbslose, weiblich
+EC1148V	Erwerbslose im Alter von 15 - unter 25 Jahren, insgesamt
+EC1149V	Erwerbslose im Alter von 15 - unter 25 Jahren, männlich
+EC1150V	Erwerbslose im Alter von 15 - unter 25 Jahren, weiblich
+EC1151V	Erwerbslose im Alter von 55 - unter 65 Jahren, insgesamt
+EC1152V	Erwerbslose im Alter von 55 - unter 65 Jahren, männlich
+EC1153V	Erwerbslose im Alter von 55 - unter 65 Jahren, weiblich
+EC1154V	Mehr als sechs Monate ununterbrochen Erwerbslose im Alter von 15 - unter 25 Jahren, insgesamt
+EC1155V	Mehr als sechs Monate ununterbrochen Erwerbslose im Alter von 15 - unter 25 Jahren, männlich
+EC1156V	Mehr als sechs Monate ununterbrochen Erwerbslose im Alter von 15 - unter 25 Jahren, weiblich
+EC1157V	Mehr als ein Jahr ununterbrochen Erwerbslose im Alter von 55 - unter 65 Jahren, insgesamt
+EC1158V	Mehr als ein Jahr ununterbrochen Erwerbslose im Alter von 55 - unter 65 Jahren, männlich
+EC1159V	Mehr als ein Jahr ununterbrochen Erwerbslose im Alter von 55 - unter 65 Jahren, weiblich
+EC1025V	Selbständige insgesamt
+EC1026V	Selbständige, männlich
+EC1027V	Selbständige, weiblich
+EC1028V	Abhängig beschäftigte Erwerbstätige insgesamt
+EC1029V	Abhängig beschäftigte Erwerbstätige, männlich
+EC1030V	Abhängig beschäftigte Erwerbstätige, weiblich
+EC1034V	Vollzeitbeschäftigte Erwerbstätige, insgesamt
+EC1035V	Vollzeitbeschäftigte Erwerbstätige, männlich
+EC1036V	Vollzeitbeschäftigte Erwerbstätige, weiblich
+EC1088V	Teilzeitbeschäftigte Erwerbstätige, insgesamt
+EC1089V	Teilzeitbeschäftigte Erwerbstätige, männlich
+EC1090V	Teilzeitbeschäftigte Erwerbstätige, weiblich
+EC1160V	Vollzeitbeschäftigte Erwerbstätige im Alter von 15 - unter 25 Jahren, insgesamt
+EC1161V	Vollzeitbeschäftigte Erwerbstätige im Alter von 15 - unter 25 Jahren, männlich
+EC1162V	Vollzeitbeschäftigte Erwerbstätige im Alter von 15 - unter 25 Jahren, weiblich
+EC1163V	Vollzeitbeschäftigte Erwerbstätige im Alter von 55 - unter 65 Jahren, insgesamt
+EC1164V	Vollzeitbeschäftigte Erwerbstätige im Alter von 55 - unter 65 Jahren, männlich
+EC1165V	Vollzeitbeschäftigte Erwerbstätige im Alter von 55 - unter 65 Jahren, weiblich
+EC1166V	Teilzeitbeschäftigte Erwerbstätige im Alter von 15 - unter 25 Jahren, insgesamt
+EC1167V	Teilzeitbeschäftigte Erwerbstätige im Alter von 15 - unter 25 Jahren, männlich
+EC1168V	Teilzeitbeschäftigte Erwerbstätige im Alter von 15 - unter 25 Jahren, weiblich
+EC1169V	Teilzeitbeschäftigte Erwerbstätige im Alter von 55 - unter 65 Jahren, insgesamt
+EC1170V	Teilzeitbeschäftigte Erwerbstätige im Alter von 55 - unter 65 Jahren, männlich
+EC1171V	Teilzeitbeschäftigte Erwerbstätige im Alter von 55 - unter 65 Jahren, weiblich
+EC1172V	Erwerbslosenhaushalte (ohne einen Erwerbstätigen) mit Kindern unter 18 Jahren
+EC1173V	Erwerbslosenhaushalte (ohne einen Erwerbstätigen) ohne Kinder unter 18 Jahren
+EC2001V	Bruttoinlandsprodukt der Stadt/der Region/des Landes
+EC2021V	Gesamtzahl der Unternehmen
+EC2003V	Anzahl börsennotierter Unternehmen mit Hauptsitz in der Stadt
+EC2004V	Unternehmens-Neuzugänge im Berichtsjahr
+EC2005V	Kaufkraftparität des ESA95 Bruttoinlandsprodukts
+EC2014V	Unternehmenskonkurse im Berichtsjahres
+EC2020V	Beschäftigte am Arbeitsort
+EC2008V	Beschäftigte in Land- und Fortswirtschaft, Fischerei (NACE Rev.1.1: A-B)
+EC2009V	Beschäftigte in Bergbau, Verarbeitendem Gewerbe, Energie- und Wasserversorgung (NACE Rev. 1.1: C-E)
+EC2022V	Beschäftigte im Bau (NACE Rev. 1.1: F)
+EC2010V	Beschäftigte im Handel, in Beherbergungs- und Gaststätten (NACE Rev. 1.1: G-H)
+EC2023V	Beschäftigte in Verkehr und Nachrichtenübermittlung (NACE Rev. 1.1: I)
+EC2011V	Beschäftigte im Finanz-, Wohnungswesen und unternehmensbezogenen Dienstleistungen (NACE Rev. 1.1: J-K)
+EC2012V	Beschäftigte in Öffentlicher Verwaltung, Erziehung, Gesundheit, persönlichen Dienstleistungen  (NACE Rev.1.1: L-P)
+EC2016V	Beschäftigte in den Bereichen NACE Rev. 1.1 C-F
+EC2017V	Beschäftigte in den Bereichen NACE Rev. 1.1 G-P
+EC2018V	Beschäftigte - abhängig Beschäftigte
+EC2019V	Beschäftigte - Selbständige
+EC2024V	Unternehmen mit bis zu 250 Beschäftigten
+EC2025V	Unternehmen mit mehr als 250 Beschäftigten
+EC2026V	Unternehmen mit bis zu 250 Beschäftigten und einem Umsatzwachstum im letzten Jahr
+EC2027V	Unternehmen mehr als  250 Beschäftigten und einem Umsatzwachstum im letzten Jahr
+EC2028V	Beschäftigtenwachstum im letzten Jahr bei Unternehmen mit bis zu 250 Beschäftigten
+EC2029V	Beschäftigtenwachstum im letzten Jahr bei Unternehmen mit mehr als 250 Beschäftigten
+EC2030V	Bruttoinlandsprodukt (BIP) auf NUTS 3 Ebene in Euro
+EC2031V	Bruttoinlandsprodukt (BIP) in Kaufkraftstandard je Einwohner auf NUTS 3 Ebene
+EC3039V	Mittleres jährliches Haushaltsnettoeinkommen (Median)
+EC3040V	Durchschnittliches jährliches Haushaltsnettoeinkommen
+EC3045V	Haushaltseinkommen: Quintil 4 (Einkommen, das von 20 % der Haushalte überschritten und von 80 % der Haushalte nicht erreicht wird)
+EC3048V	Haushaltseinkommen: Quintil 3 (Einkommen, das von 40 % der Haushalte überschritten und von 60 % der Haushalte nicht erreicht wird)
+EC3051V	Haushaltseinkommen: Quintil 2 (Einkommen, das von 60 % der Haushalte überschritten und von 40 % der Haushalte nicht erreicht wird)
+EC3054V	Haushaltseinkommen: Quintil 1 (Einkommen, das von 80 % der Haushalte überschritten und von 20 % der Haushalte nicht erreicht wird)
+EC3056V	Privathaushalte insgesamt (auf die sich das gemeldete Haushaltseinkommen bezieht)
+EC3055V	Privathaushalte mit weniger als 60 % des nationalen Medianeinkommens
+EC3057V	Privathaushalte mit weniger als der Hälfte des nationalen Durchschnittseinkommens
+EC3060V	Von öffentlichen Transferzahlungen abhängige Privathaushalte (> 50 %)
+EC3063V	Von öffentlichen Transferzahlungen abhängige Personen (> 50 %)
+CI1016V	Gewählte Gemeinderäte
+CI1017V	Gewählte Gemeinderäte, männlich
+CI1018V	Gewählte Gemeinderäte, weiblich
+TE1001V	Kinder unter 5 Jahren in allen Kindertagesstätten
+TE1006V	Kinder unter 3 Jahre in allen Kindertagesstätten
+TE1007V	Kinder von 3 bis unter 5 Jahren in allen Kindertagesstätten
+TE1005V	Schüler im letzten Jahr der Schulpflicht
+TE1030V	Schulabgänger ohne Mindestabschluss
+TE1031V	Schüler in weiterführenden Bildungsgängen (ISCED-Stufe 3 und 4)
+TE1032V	Schüler in weiterführenden Bildungsgängen (ISCED-Stufe 3 und 4), männlich
+TE1033V	Schüler in weiterführenden Bildungsgängen (ISCED-Stufe 3 und 4), weiblich
+TE1026V	Studierende an Hochschuleinrichtungen (ISCED-Stufe 5 und 6)
+TE1027V	Studierende an Hochschuleinrichtungen (ISCED-Stufe 5 und 6), männlich
+TE1028V	Studierende an Hochschuleinrichtungen (ISCED-Stufe 5 und 6), weiblich
+TE1034V	Schüler je Klasse in Grundschulen
+TE1035V	Schüler je Klasse in Realschulen und Gymnasien
+TE2025V	Bevölkerung von 15 - unter 65 Jahren mit nicht mehr als Haupt- od. Realschulabschluss (ISCED Stufen 1 oder 2)
+TE2026V	Männl. Bevölkerung von 15 - unter 65 Jahren mit nicht mehr als Haupt- od. Realschulabschluss (ISCED Stufen 1 oder 2)
+TE2027V	Weibl. Bevölkerung von 15 - unter 65 Jahren mit nicht mehr als Haupt- od. Realschulabschluss (ISCED Stufen 1 oder 2)
+TE2028V	Bevölkerung von 15 - unter 65 Jahren mit Hochschul-, Fachhochschulreife oder abgeschl. Lehre (ISCED Stufen 3 oder 4)
+TE2029V	weibl. Bevölkerung von 15 - unter 65 Jahren mit Hochschul-, Fachhochschulreife oder abgeschl. Lehre (ISCED Stufen 3 oder 4)
+TE2030V	männl. Bevölkerung von 15 - unter 65 Jahren mit Hochschul-, Fachhochschulreife oder abgeschl. Lehre (ISCED Stufen 3 oder 4)
+TE2031V	Bevölkerung von 15 - unter 65 Jahren mit Hochschul-, Fachhochschulabschluss oder Meisterprüfung (ISCED Stufen 5 oder 6)
+TE2032V	männl. Bevölkerung von 15 - unter 65 Jahren mit Hochschul-, Fachhochschulabschluss oder Meisterprüfung (ISCED Stufen 5 oder 6)
+TE2033V	weibl. Bevölkerung von 15 - unter 65 Jahren mit Hochschul-, Fachhochschulabschluss oder Meisterprüfung (ISCED Stufen 5 oder 6)
+EN1001V	Regentage pro Jahr
+EN1002V	Tägliche Sonnenscheindauer in Stunden
+EN1003V	Durchschnittstemperatur des wärmsten Monats
+EN1004V	Durchschnittstemperatur des kältesten Monats
+EN1005V	Niederschlagsmenge pro Jahr (Liter je m2)
+EN1006V	Median Höhe über dem Meer des Stadtzentrums
+EN2002V	Tage pro Jahr mit mehr als 120 microgram/m3 Ozon (O3)
+EN2003V	Stunden pro Jahr mit mehr als 200 mg/m3 Stickstoffdioxid (NO2)
+EN2005V	Tage pro Jahr mit mehr als 50 microgram/m3 Feststoffteilchen (PM10)
+EN2025V	Kumulierte Ozonkonzentration über 70 microgram/m3
+EN2026V	NO2-Konzentration im Jahresmittel
+EN2027V	PM10-Konzentration im Jahresmittel
+EN2030V	Tage pro Jahr mit Konzentrationen von Feststoffteilchen PM2.5 über 50 µg/m3
+EN2033V	Bevölkerung, die einem Straßenverkehrslärm von tagsüber >65 dB(A) ausgesetzt ist
+EN2035V	Bevölkerung, die einem Straßenverkehrslärm von nachts >55 dB(A) ausgesetzt ist
+EN2032V	Bevölkerung, die einem Schienenverkehrslärm von tagsüber >65 dB(A) ausgesetzt ist
+EN2036V	Bevölkerung, die einem Schienenverkehrslärm von nachts >55 dB(A) ausgesetzt ist
+EN2028V	Bevölkerung, die einem Luftverkehrslärm von tagsüber >65 dB(A) ausgesetzt ist
+EN2029V	Bevölkerung, die einem Luftverkehrslärm von nachts >55 dB(A) ausgesetzt ist
+EN3003V	Wasserverbrauch insgesamt (m³ pro Jahr)
+EN3004V	Wohnungen mit Trinkwasseranschluss
+EN3006V	Wohnungen mit Kanalanschluss
+EN3008V	Rationierung des Wasserverbrauchs: Tage im Berichtsjahr
+EN3009V	Unterbrechung der Wasserversorgung: Tage im Berichtsjahr
+EN3010V	Preis je m3 Wasser für private Haushalte (Euro)
+EN3011V	Anteil der nach geltenden Standards behandelten kommunalen Abwasserbelastung (in EW)
+EN4001V	Als Haus- und Gewerbemüll im Jahr gesammelte Abfallmenge (t)
+EN4002V	Auf Deponien im Jahr entsorgter gesammelter Haus- und Gewerbemüll
+EN4003V	Durch Verbrennung im Jahr entsorgter gesammelter Haushalts- und Gewerbemüll
+EN4004V	Durch Recycling im Jahr entsorgter gesammelter Haushalts- und Gewerbemüll
+EN4006V	Anderweitig im Jahr entsorgter gesammelter Haushalts- und Gewerbemüll
+EN4007V	Durch Kompostierung entsorgter Haushalts- und Gewerbemüll im Berichtsjahr
+EN5003V	Gesamtfläche (km2) gemäß Kataster
+EN5015V	Wasser und Feuchtgebiete
+EN5012V	Grünflächen (km2)
+EN5016V	Landwirtschaftlich genutzte Fläche
+EN5024V	Für Wirtschaft (Industrie, Handel und Dienstleistungen) genutzte Flächen
+EN5004V	Wohn- und Siedlungsflächen
+EN5025V	Verkehrsflächen (Straßen, Schienen, Flughäfen, Wasserstraßen und Hafen)
+EN5011V	Erholungs-, Sport- und Freizeitflächen
+EN5026V	Flächen sonstiger Nutzung
+EN5001V	Öffentlich zugängliche Grünflächen (in Hektar)
+EN5109V	Overbound-Underbound bezüglich der Bevölkerung (qualitativer Indikator)
+EN5110V	Overbound-Underbound bezüglich der Fläche (qualitativer Indikator)
+TT1003V	Verkehrsmittel für den Arbeitsweg: Anteil Pkw
+TT1010V	Verkehrsmittel für den Arbeitsweg: Anteil öffentliche Verkehrsmittel (Eisenbahn, U-Bahn, Bus, Straßenbahn)
+TT1006V	Verkehrsmittel für den Arbeitsweg: Anteil Motorrad
+TT1007V	Verkehrsmittel für den Arbeitsweg: Anteil Fahrrad
+TT1008V	Verkehrsmittel für den Arbeitsweg: Anteil Fußgänger
+TT1012V	Verkehrsmittel für den Arbeitsweg: Anteil Pkw oder Motorrad
+TT1019V	Dauer des Wegs zur Arbeit (Minuten)
+TT1020V	Länge des Wegs zur Arbeit mit PKW (km)
+TT1064V	Berufseinpendler ins Stadtgebiet
+TT1065V	Berufsauspendler aus dem Stadtgebiet
+TT1069V	Haltestellen öffentlicher Verkehrsmittel im Stadtgebiet
+TT1083V	Zahl der Bus-Equivalente (30 Sitzplätze je Bus-E.) aller öffentlichen Verkehrsmittel
+TT1084V	Durchschnittsalter der Busflotte (nur Busse)
+TT1085V	Anteil der mit alternativen Kraftstoffen betriebenen Busse
+TT1066V	Länge des öffentlichen Nahverkehrsnetzes (km)
+TT1077V	Länge des an Schienen bzw. Oberleitungen gebundenen öffentlichen Nahverkehrsnetzes
+TT1078V	Länge des nicht an Schienen und/oder Oberleitungen gebundenen öffentlichen Nahverkehrsnetzes
+TT1082V	Länge der gesonderten Busspuren
+TT1079V	Länge des Fahrradnetzes (ausgewiesene Fahrradwege und -spuren)
+TT1080V	Preis einer kombinierten Monatskarte (alle Verkehrsmittel) für Fahrten von 5 bis 10 km im Stadtzentrum
+TT1081V	Preis einer 5km-Taxifahrt am Tag ins Stadtzentrum
+TT1057V	Registrierte Privat-Pkw
+TT1013V	Registrierte Motorräder
+TT1070V	Park-and-Ride-Parkplätze
+TT1075V	Höchste Parkgebühr pro Stunde im Stadtzentrum
+TT1060V	Bei Straßenverkehrsunfällen getötete Personen
+TT1061V	Bei Straßenverkehrsunfällen schwer verletzte Personen
+TT1071V	Erreichbarkeit im Luftverkehr (EU-27=100)
+TT1072V	Erreichbarkeit im Schienenverkehr (EU-27=100)
+TT1073V	Erreichbarkeit im Straßenverkehr (EU-27=100)
+TT1074V	Erreichbarkeit im multimodalen Verkehr (EU-27=100)
+IT1005V	Anteil der Haushalte mit Internet-Zugang zu Hause
+IT3001V	Betriebe, die IKT-Produkte herstellen
+IT3002V	Beschäftigte in der Herstellung von IKT-Produkten
+IT3003V	Betriebe, die IKT-Dienstleistungen erbringen
+IT3004V	Beschäftigte im Bereich IKT-Dienstleistungen
+IT3005V	Betriebe, die Inhalte für die Informationsgesellschaft herstellen
+IT3006V	Beschäftigte in der Herstellung von Inhalten für die Informationsgesellschaft
+CR1003V	Kino-Sitzplätze (Kapazität)
+CR1005V	Kinobesucher (im Jahr)
+CR1006V	Museen
+CR1007V	Museumsbesucher (im Jahr)
+CR1008V	Theater
+CR1013V	Theater-Sitzplätze
+CR1009V	Theaterbesucher (im Jahr)
+CR1010V	Öffentliche Bibliotheken (alle Ausgabestellen)
+CR1011V	Aus öffentlichen Bibliotheken entliehene Bücher und andere Medien (im Jahr)
+CR1014V	Beschäftigte im Bereich Kultur und Unterhaltung
+CR1015V	Öffentliche Schwimmbäder
+CR2001V	Gästeübernachtungen in Beherbergungsbetrieben pro Jahr
+CR2009V	Angebotene Betten in Beherbergungsbetrieben
+CR2102V	Angebotene Betten in der Hauptsaison
+CR2103V	Angebotene Betten in der Nebensaison
+CR2104V	Gästeübernachtungen in Beherbergungsbetrieben, Hauptsaison
+CR2105V	Gästeübernachtungen in Beherbergungsbetrieben, Nebensaison
+CR2004V	Passagieraufkommen (Fluggäste) der nächstgelegenen Flughäfen
+CR2005V	Passagieraufkommen der nächstgelegenen Flughäfen: ankommende Fluggäste insgesamt
+CR2006V	Passagieraufkommen der nächstgelegenen Flughäfen: ankommende Fluggäste im Inlandsverkehr
+CR2007V	Passagieraufkommen der nächstgelegenen Flughäfen: abfliegende Fluggäste insgesamt
+CR2008V	Passagieraufkommen der nächstgelegenen Flughäfen: abfliegende Fluggäste im Inlandsverkehr
+PS1010V	Satisfied with public transport (synthetic index 0-100)
+PS1012V	public transport: very satisfied
+PS1013V	public transport: rather satisfied
+PS1014V	public transport: rather unsatisfied
+PS1015V	public transport: not at all satisfied
+PS1016V	public transport: no reply
+PS1017V	public transport: satisfied (rather+strong)
+PS1018V	public transport: unsatisfied (rather+strong)
+PS1020V	Satisfied with schools (synthetic index 0-100)
+PS1022V	schools: very satisfied
+PS1023V	schools: rather satisfied
+PS1024V	schools: rather unsatisfied
+PS1025V	schools: not at all satisfied
+PS1026V	schools: no reply
+PS1027V	schools: satisfied (rather+strong)
+PS1028V	schools: unsatisfied (rather+strong)
+PS1030V	Satisfied with hospitals (synthetic index 0-100)
+PS1032V	hospitals: very satisfied
+PS1033V	hospitals: rather satisfied
+PS1034V	hospitals: rather unsatisfied
+PS1035V	hospitals: not at all satisfied
+PS1036V	hospitals: no reply
+PS1037V	hospitals: satisfied (rather+strong)
+PS1038V	hospitals: unsatisfied (rather+strong)
+PS1040V	Satisfied with doctors (synthetic index 0-100)
+PS1042V	doctors: very satisfied
+PS1043V	doctors: rather satisfied
+PS1044V	doctors: rather unsatisfied
+PS1045V	doctors: not at all satisfied
+PS1046V	doctors: no reply
+PS1047V	doctors: satisfied (rather+strong)
+PS1048V	doctors: unsatisfied (rather+strong)
+PS1050V	Satisfied with green space (synthetic index 0-100)
+PS1052V	greenspace: very satisfied
+PS1053V	greenspace: rather satisfied
+PS1054V	greenspace: rather unsatisfied
+PS1055V	greenspace: not at all satisfied
+PS1056V	greenspace: no reply
+PS1057V	greenspace: satisfied (rather+strong)
+PS1058V	greenspace: unsatisfied (rather+strong)
+PS1060V	Satisfied with sport facilities (synthetic index 0-100)
+PS1062V	sportfacilities: very satisfied
+PS1063V	sportfacilities: rather satisfied
+PS1064V	sportfacilities: rather unsatisfied
+PS1065V	sportfacilities: not at all satisfied
+PS1066V	sportfacilities: no reply
+PS1067V	sportfacilities: satisfied (rather+strong)
+PS1068V	sportfacilities: unsatisfied (rather+strong)
+PS1070V	Satisfied with cinemas (synthetic index 0-100)
+PS1072V	cinemas: very satisfied
+PS1073V	cinemas: rather satisfied
+PS1074V	cinemas: rather unsatisfied
+PS1075V	cinemas: not at all satisfied
+PS1076V	cinemas: no reply
+PS1077V	cinemas: satisfied (rather+strong)
+PS1078V	cinemas: unsatisfied (rather+strong)
+PS1080V	Satisfied with cultural facilities (synthetic index 0-100)
+PS1082V	culturalfacilities: very satisfied
+PS1083V	culturalfacilities: rather satisfied
+PS1084V	culturalfacilities: rather unsatisfied
+PS1085V	culturalfacilities: not at all satisfied
+PS1086V	culturalfacilities: no reply
+PS1087V	culturalfacilities: satisfied (rather+strong)
+PS1088V	culturalfacilities: unsatisfied (rather+strong)
+PS1090V	Satisfied with public internet access (synthetic index 0-100)
+PS1092V	public-internet: very satisfied
+PS1093V	public-internet: rather satisfied
+PS1094V	public-internet: rather unsatisfied
+PS1095V	public-internet: not at all satisfied
+PS1096V	public-internet: no reply
+PS1097V	public-internet: satisfied (rather+strong)
+PS1098V	public-internet: unsatisfied (rather+strong)
+PS1100V	Satisfied with internet access at home (synthetic index 0-100)
+PS1102V	internet access at home: very satisfied
+PS1103V	internet access at home: rather satisfied
+PS1104V	internet access at home: rather unsatisfied
+PS1105V	internet access at home: not at all satisfied
+PS1106V	internet access at home: no reply
+PS1107V	internet access at home: satisfied (rather+strong)
+PS1108V	internet access at home: unsatisfied (rather+strong)
+PS2010V	It is easy to find a good job here (synthetic index 0-100)
+PS2012V	easy-to-find-a-job: strongly agree
+PS2013V	easy-to-find-a-job: somewhat agree
+PS2014V	easy-to-find-a-job: somewhat disagree
+PS2015V	easy-to-find-a-job: strongly disagree
+PS2016V	easy-to-find-a-job: no reply
+PS2017V	easy-to-find-a-job: agree (strongly+somewhat)
+PS2018V	easy-to-find-a-job: disagree (strongly+somewhat)
+PS2020V	Foreigner here are well integrated (synthetic index 0-100)
+PS2022V	integration of foreigners: strongly agree
+PS2023V	integration of foreigners: somewhat agree
+PS2024V	integration of foreigners: somewhat disagree
+PS2025V	integration of foreigners: strongly disagree
+PS2026V	integration of foreigners: no reply
+PS2027V	integration of foreigners: agree (strongly+somewhat)
+PS2028V	integration of foreigners: disagree (strongly+somewhat)
+PS2030V	Easy to find good housing at reasonable price (synthetic index 0-100)
+PS2032V	easy-to-find-good-housing: strongly agree
+PS2033V	easy-to-find-good-housing: somewhat agree
+PS2034V	easy-to-find-good-housing: somewhat disagree
+PS2035V	easy-to-find-good-housing: strongly disagree
+PS2036V	easy-to-find-good-housing: no reply
+PS2037V	easy-to-find-good-housing: agree (strongly+somewhat)
+PS2038V	easy-to-find-good-housing: disagree (strongly+somewhat)
+PS2040V	Administrative services help efficiently (synthetic index 0-100)
+PS2042V	administration-helpful: strongly agree
+PS2043V	administration-helpful: somewhat agree
+PS2044V	administration-helpful: somewhat disagree
+PS2045V	administration-helpful: strongly disagree
+PS2046V	administration-helpful: no reply
+PS2047V	administration-helpful: agree (strongly+somewhat)
+PS2048V	administration-helpful: disagree (strongly+somewhat)
+PS2050V	Air pollution is a big problem here (synthetic index 0-100)
+PS2052V	pollution-is-a-problem: strongly agree
+PS2053V	pollution-is-a-problem: somewhat agree
+PS2054V	pollution-is-a-problem: somewhat disagree
+PS2055V	pollution-is-a-problem: strongly disagree
+PS2056V	pollution-is-a-problem: no reply
+PS2057V	pollution-is-a-problem: agree (strongly+somewhat)
+PS2058V	pollution-is-a-problem: disagree (strongly+somewhat)
+PS2060V	Noise is a big problem here (synthetic index 0-100)
+PS2062V	noise-is-a-problem: strongly agree
+PS2063V	noise-is-a-problem: somewhat agree
+PS2064V	noise-is-a-problem: somewhat disagree
+PS2065V	noise-is-a-problem: strongly disagree
+PS2066V	noise-is-a-problem: no reply
+PS2067V	noise-is-a-problem: agree (strongly+somewhat)
+PS2068V	noise-is-a-problem: disagree (strongly+somewhat)
+PS2070V	This is a clean city (synthetic index 0-100)
+PS2072V	clean-city: strongly agree
+PS2073V	clean-city: somewhat agree
+PS2074V	clean-city: somewhat disagree
+PS2075V	clean-city: strongly disagree
+PS2076V	clean-city: no reply
+PS2077V	clean-city: agree (strongly+somewhat)
+PS2078V	clean-city: disagree (strongly+somewhat)
+PS2080V	Resources are spent in a responsible way (synthetic index 0-100)
+PS2082V	resources: strongly agree
+PS2083V	resources: somewhat agree
+PS2084V	resources: somewhat disagree
+PS2085V	resources: strongly disagree
+PS2086V	resources: no reply
+PS2087V	resources: agree (strongly+somewhat)
+PS2088V	resources: disagree (strongly+somewhat)
+PS2090V	Satisfied to live in this city (synthetic index 0-100)
+PS2092V	overall-satisfied: strongly agree
+PS2093V	overall-satisfied: somewhat agree
+PS2094V	overall-satisfied: somewhat disagree
+PS2095V	overall-satisfied: strongly disagree
+PS2096V	overall-satisfied: no reply
+PS2097V	overall-satisfied: agree (strongly+somewhat)
+PS2098V	overall-satisfied: disagree (strongly+somewhat)
+PS2100V	In 5 years, it will be more pleasant to live here (synthetic index 0-100)
+PS2102V	in five years it will be better: strongly agree
+PS2103V	in five years it will be better: somewhat agree
+PS2104V	in five years it will be better: somewhat disagree
+PS2105V	in five years it will be better: strongly disagree
+PS2106V	in five years it will be better: no reply
+PS2107V	in five years it will be better: agree (strongly+somewhat)
+PS2108V	in five years it will be better: disagree (strongly+somewhat)
+PS3010V	Difficulty paying the bills at the end of the month (synthetic index 0-100)
+PS3012V	it is difficult to pay my bills: always
+PS3013V	it is difficult to pay my bills: sometimes
+PS3014V	it is difficult to pay my bills: rarely or never
+PS3015V	it is difficult to pay my bills: no reply
+PS3020V	Feel safe in this neighbourhood (synthetic index 0-100)
+PS3022V	the neighborhood is safe: always
+PS3023V	the neighborhood is safe: sometimes
+PS3024V	the neighborhood is safe: rarely or never
+PS3025V	the neighborhood is safe: no reply
+PS3030V	Feel safe in this city (synthetic index 0-100)
+PS3032V	the city is safe: always
+PS3033V	the city is safe: sometimes
+PS3034V	the city is safe: rarely or never
+PS3035V	the city is safe: no reply
+PS3040V	Satisfied with health care (synthetic index 0-100)
+PS3042V	health care: very satisfied
+PS3043V	health care: rather satisfied
+PS3044V	health care: rather unsatisfied
+PS3045V	health care: not at all satisfied
+PS3046V	health care: no reply
+PS3050V	Satisfied with beauty of streets (synthetic index 0-100)
+PS3052V	beauty of streets: very satisfied
+PS3053V	beauty of streets: rather satisfied
+PS3054V	beauty of streets: rather unsatisfied
+PS3055V	beauty of streets: not at all satisfied
+PS3056V	beauty of streets: no reply
+PS3060V	Satisfied with public spaces (synthetic index 0-100)
+PS3062V	public spaces: very satisfied
+PS3063V	public spaces: rather satisfied
+PS3064V	public spaces: rather unsatisfied
+PS3065V	public spaces: not at all satisfied
+PS3066V	public spaces: no reply
+PS3070V	Satisfied with outdoor recreation (synthetic index 0-100)
+PS3072V	outdoor recreation: very satisfied
+PS3073V	outdoor recreation: rather satisfied
+PS3074V	outdoor recreation: rather unsatisfied
+PS3075V	outdoor recreation: not at all satisfied
+PS3076V	outdoor recreation: no reply
+PS3080V	Presence of foreigners good for the city (synthetic index 0-100)
+PS3082V	foreigners good: strongly agree
+PS3083V	foreigners good: somewhat agree
+PS3084V	foreigners good: somewhat disagree
+PS3085V	foreigners good: strongly disagree
+PS3086V	foreigners good: no reply
+PS3090V	Most people can be trusted (synthetic index 0-100)
+PS3092V	people can be trusted: strongly agree
+PS3093V	people can be trusted: somewhat agree
+PS3094V	people can be trusted: somewhag disagree
+PS3095V	people can be trusted: strongly disagree
+PS3096V	people can be trusted: no reply
+PS3110V	Poverty is a problem (synthetic index 0-100)
+PS3112V	poverty is a problem: strongly agree
+PS3113V	poverty is a problem: somewhat agree
+PS3114V	poverty is a problem: somewhat disagree
+PS3115V	poverty is a problem: strongly disagree
+PS3116V	poverty is a problem: no answer
+PS3120V	City commited to fight against climate change (synthetic index 0-100)
+PS3122V	committed to fight against climate change: strongly agree
+PS3123V	committed to fight against climate change: somewhat agree
+PS3124V	committed to fight against climate change: somewhat disagree
+PS3125V	committed to fight against climate change: strongly disagree
+PS3126V	committed to fight against climate change: no answer
+PS3130V	City is healthy to live in (synthetic index 0-100)
+PS3132V	city  healthy to live in: strongly agree
+PS3133V	city  healthy to live in: somewhat agree
+PS3134V	city  healthy to live in: somewhat disagree
+PS3135V	city  healthy to live in: strongly disagree
+PS3136V	city  healthy to live in: no answer
+PS3140V	It's difficult paying bills at end of month (synthetic index 0-100)
+PS3142V	It's difficult paying bills at end of month: always
+PS3143V	It's difficult paying bills at end of month: sometimes
+PS3144V	It's difficult paying bills at end of month: rarely
+PS3145V	It's difficult paying bills at end of month: never
+PS3146V	It's difficult paying bills at end of month: no answer
+PS3036V	the city is safe: rarely
+PS3037V	the city is safe: never
+PS3026V	the neighbourhood is safe: rarely
+PS3027V	the neighborhood is safe: never
+PS3151V	Minutes per day spent travelling to work/training place: less than 10 minutes
+PS3152V	Minutes per day spent travelling to work/training place: 10-20 minutes
+PS3153V	Minutes per day spent travelling to work/training place: 20-30 minutes
+PS3154V	Minutes per day spent travelling to work/training place: 30-45 minuts
+PS3155V	Minutes per day spent travelling to work/training place: 45-60 minutes
+PS3156V	Minutes per day spent travelling to work/training place: more than 60 minutes
+PS3157V	Minutes per day spent travelling to work/training place: does not cummute, work from home
+PS3158V	Minutes per day spent travelling to work or training place: No work or training
+PS3159V	Minutes per day spent travelling to work/training place: no answer
+PS3161V	Means of transport primarily used to go to work/training place: public transport
+PS3162V	Means of transport primarily used to go to work/training place: car
+PS3163V	Means of transport primarily used to go to work/training place: bicycle
+PS3164V	Means of transport primarily used to go to work/training place: walking
+PS3165V	Means of transport primarily used to go to work/training place: motorcycle
+PS3166V	Means of transport primarily used to go to work/training place: other
+PS3167V	Means of transport primarily used to go to work/training place: no answer
+PS3171V	Frequency of use of public transport: never
+PS3172V	Frequency of use of public transport: less than once a month
+PS3173V	Frequency of use of public transport: more than once a month
+PS3174V	Frequency of use of public transport: at least once a week, but not every day
+PS3175V	Frequency of use of public transport: every day
+PS3176V	Frequency of use of public transport: no answer
+PS3181V	Why don't you use public transport?: not frequent enough
+PS3182V	Why don't you use public transport?: too congested
+PS3183V	Why don't you use public transport?: time schedule is not reliable
+PS3184V	Why don't you use public transport?: not adapted to my itinerary
+PS3185V	Why don't you use public transport? Not easy to access
+PS3186V	Why don't you use public transport? Not safe
+PS3187V	Why don't you use public transport?: I do not like public transport
+PS3188V	Why don't you use public transport?: too expensive
+PS3189V	Why don't you use public transport?: other
+PS3191V	Why don't you use public transport?: no answer
+PS3211V	Most important in my city: Urban safety
+PS3212V	Most important in my city: air pollution
+PS3213V	Most important in my city: noise
+PS3214V	Most important in my city: public transport
+PS3215V	Most important in my city: health services
+PS3216V	Most important in my city: social services
+PS3217V	Most important in my city: education and training
+PS3221V	Most important in my city: jobs creation / reduce unemployment
+PS3222V	Most important in my city: housing conditions
+PS3223V	Most important in my city: road infrastructure
+PS3224V	Most important in my city: no answer
+DE1001I	Bevölkerung in Urban-Audit-Städten
+DE1011I	Bevölkerung a.O.d. Hw. im erwerbsfähigen Alter (15 - unter 65 J.)
+DE1067I	Bevölkerungsanteil der unter 3 jährigen insgesamt
+DE1068I	Bevölkerungsanteil der unter 3 jährigen männlioch
+DE1069I	Bevölkerungsanteil der unter 3 jährigen weiblich
+DE1070I	Bevölkerungsanteil der 3 - unter 5 jährigen insgesamt
+DE1071I	Bevölkerungsanteil der 3 - unter 5 jährigen männlich
+DE1072I	Bevölkerungsanteil der 3 - unter 5 jährigen weiblich
+DE1040I	Bevölkerungsanteil der unter 5 jährigen
+DE1043I	Bevölkerungsanteil der 5 - unter 15 jährigen
+DE1046I	Bevölkerungsanteil der 15 - unter 20 jährigen
+DE1049I	Bevölkerungsanteil der 20 - unter 25 jährigen
+DE1073I	Bevölkerungsanteil der 25 - unter 35 jährigen insgesamt
+DE1074I	Bevölkerungsanteil der 25 - unter 35 jährigen männlich
+DE1075I	Bevölkerungsanteil der 25 - unter 35 jährigen weiblich
+DE1076I	Bevölkerungsanteil der 35 - unter 45 jährigen insgesamt
+DE1077I	Bevölkerungsanteil der 35 - unter 45 jährigen männlich
+DE1078I	Bevölkerungsanteil der 35 - unter 45 jährigen weiblich
+DE1064I	Bevölkerungsanteil der 45 - unter 55 jährigen insgesamt
+DE1065I	Bevölkerungsanteil der 45 - unter 55 jährigen männlich
+DE1066I	Bevölkerungsanteil der 45 - unter 55 jährigen weiblich
+DE1052I	Bevölkerungsanteil der 25 - unter 55 jährigen
+DE1025I	Bevölkerungsanteil der 55 - unter 65 jährigen
+DE1082I	Bevölkerungsanteil der 55 - unter 65 jährigen männlich
+DE1083I	Bevölkerungsanteil der 55 - unter 65 jährigen weiblich
+DE1079I	Bevölkerungsanteil der 15 - unter 65 jährigen
+DE1080I	Bevölkerungsanteil der 15 - unter 65 jährigen männlich
+DE1081I	Bevölkerungsanteil der 15 - unter 65 jährigen weiblich
+DE1028I	Bevölkerungsanteil der 65 - unter 75 jährigen insgesamt
+DE1029I	Bevölkerungsanteil der 65 - unter 75 jährigen männlich
+DE1030I	Bevölkerungsanteil der 65 - unter 75 jährigen weiblich
+DE1055I	Bevölkerungsanteil der über  74 jährigen
+DE1003I	Verhältnis weibliche zu männliche Bevölkerung insgesamt
+DE1057I	Verhältnis weibliche zu männliche über 74jährige
+DE1061I	Veränderungsrate der Bevölkerung im letzten Jahr
+DE1062I	Jährliche Veränderungsrate der Bevölkerung: 5-Jahresmittel
+DE1058I	Jugend-u. Altenquotient: (<20 + >65) / 20 - unter 65jährige
+DE1059I	Jugendquotient: <20 / 20 - unter 65jährige
+DE1060I	Altenquotient: > 65 / 20 - unter 65jährige
+DE2001I	Bevölkerungsanteil der nationalen Staatsangehörigen
+DE2002I	Bevölkerungsanteil der EU-Ausländer (25)
+DE2003I	Bevölkerungsanteil der Ausländer aus Drittstaaten
+DE2004I	Bevölkerungsanteil der im Ausland geborenen nationalen Staatsangehörigen
+DE2005I	Bevölkerungsanteil der Nicht-EU Bürger aus einem Land mit hohem HDI Wert
+DE2006I	Bevölkerungsanteil der Nicht-EU Bürger aus einem Land mit niedrigem HDI Wert
+DE3003I	Privathaushalte insgesamt
+DE3004I	Durchschnittliche Anzahl von Personen pro Haushalt in Urban-Audit-Städten - Anzahl von Personen pro Haushalt
+DE3002I	Anteil der Einpersonenhaushalte in Urban-Audit-Städten - %
+DE3005I	Anteil der Alleinerziehenden-Haushalte
+DE3008I	Anteil der Rentner-Einpersonenhaushalte
+DE3009I	Verhältnis männliche zu weibliche Rentner-Einpersonenhaushalte
+DE3011I	Anteil der Haushalte mit Kindern unter 18 Jahre in Urban-Audit-Städten - %
+DE3016I	Haushalte von Alleinerziehenden (mit Kindern unter 18 Jahren)
+DE3015I	Verhältnis der Zuzüge der letzten zwei Jahre  in die Stadt zu den Fortzügen der letzten zwei Jahre
+DE3012I	Zuzüge der letzten zwei Jahre von nationalen Staatsangehörigen im Verhältnis zum Bevölkerungsbestand
+DE3013I	Zuzüge der letzten zwei Jahre von EU-Ausländern im Verhältnis zum Bevölkerungsbestand
+DE3014I	Zuzüge der letzten zwei Jahre von Ausländern aus Drittstaaten im Verhältnis zum Bevölkerungsbestand
+SA1001I	Wohnungsbestand
+SA1005I	Geschosswohnungsbestand
+SA1004I	Ein- und Zweifamilienhausbestand
+SA1051I	Anzahl der Ein- und Zweifamilienhäuser je 100 Geschosswohnungen
+SA1028I	Bewohner von obdachlosenheimen je 1000 Einwohner
+SA1027I	Obdachlose je 1000 Einwohner
+SA1030I	Bewohner von Migrantenheimen je 1000 Einwohner
+SA1031I	Bewohner von Frauenhäusern je 1000 Einwohner
+SA1016I	Kaufpreis für Eigentumswohnungen pro m2 Wohnfläche
+SA1023I	Kaufpreis für Ein- und Zweifamilienhäuser pro m2 Wohnfläche
+SA1036I	Verhältnis Kaufpreis Eigentumswohnung pro m2 zu mittl. Haushaltsnettoeinkommen (Median)
+SA1049I	Jahresmiete einer Wohnung pro m2
+SA1018I	Anteil der Wohnungen mit Mängeln in der Grundausstattung
+SA1026I	Unterfünfte je 1000 Wohnungen
+SA1019I	Personen je belegte Wohnung
+SA1022I	Durchschnittliche Wohnfläche in Urban-Audit-Städten - m² pro Person
+SA1050I	Anteil überbelegter Haushalte (>1 Person in 1 Raum)
+SA1025I	Anteil leerstehender Wohnungen
+SA1011I	Anteil der Eigentümerhaushalte in Urban-Audit-Städten - %
+SA1012I	Anteil der Mieterhaushalte in Sozialwohnungen
+SA1013I	Anteil der Mieterhaushalte in freifinanzierten Mietwohnungen
+SA1007I	Anteil der Haushalte in Ein- und Zweifamilienhäusern
+SA1008I	Anteil der Haushalte in Geschosswohnungen
+SA2029I	Rohe Sterbeziffer je 1000 Einwohner
+SA2030I	Rohe Sterbeziffer je 1000 Einwohner, männlich
+SA2031I	Rohe Sterbeziffer je 1000 Einwohner, weiblich
+SA2019I	Sterbefälle
+SA2020I	Sterbefälle, männlich
+SA2021I	Sterbefälle, weiblich
+SA2016I	Sterberate der unter 65-Jährigen
+SA2017I	Sterberate der männlichen unter 65-Jährigen
+SA2018I	Sterberate der weiblichen unter 65-Jährigen
+SA2013I	Sterberate der unter 65-Jährigen aufgrund von Herzkrankheiten und Krankheiten des Atmungssystems in Urban-Audit-Städten - Anzahl der Sterbefälle pro 1000 Einwohner
+SA2014I	Sterberate der männlichen unter 65jährigen aufgrund von Erkrankung des Herz-, Kreislauf- oder Atmungssystems
+SA2015I	Sterberate der weiblichen unter 65jährigen aufgrund von Erkrankung des Herz-, Kreislauf- oder Atmungssystems
+SA2007I	Lebendgeburten je 1000 Einwohner
+SA2004I	Gestorbene Säuglinge je 1000 Lebendgeborene insgesamt
+SA2005I	Gestorbene Säuglinge je 1000 Lebendgeborene männlich
+SA2006I	Gestorbene Säuglinge je 1000 Lebendgeborene weiblich
+SA2022I	Verfügbare Krankenhausbetten in Urban-Audit-Städten - pro 1000 Einwohner
+SA2032I	Krankenhausentlasssungen stationärer Patienten je Krankenhausbett
+SA2026I	Krankenhausentlassungen je 1000 einwohner
+SA2027I	Freipraktizierende Ärzte je 1000 Einwohner
+SA2028I	Freipraktizierende Zahnärzte je 1000 Einwohner
+SA3001I	Gemeldete Straftaten auf 1000 Einwohner
+SA3005I	Gemeldete Mord- und Totschlagsfälle auf 1000 Einw.
+SA3006I	Autodiebstähle in Urban-Audit-Städten - Anzahl je 1000 Einwohner
+SA3007I	Wohnungseinbrüche auf 1000 Einwohner
+EC1201I	Jährliche Veränderungsrate der Erwerbspersonen: 5-Jahresmittel
+EC1010I	Erwerbslose
+EC1020I	Erwerbslosenquote in Urban-Audit-Städten - %
+EC1011I	Erwerbslosenquote von Männern
+EC1012I	Erwerbslosenquote von Frauen
+EC1148I	Anteil Erwerbsloser unter den 15-unter 25jährigen Erwerbspersonen
+EC1149I	Anteil Erwerbsloser unter den 15-unter 25jährigen männlichen Erwerbspersonen
+EC1150I	Anteil Erwerbsloser unter den 15-unter 25jährigen weiblichen Erwerbspersonen
+EC1151I	Anteil Erwerbsloser unter den 55-unter 65jährigen Erwerbspersonen
+EC1152I	Anteil Erwerbsloser unter den 55-unter 65jährigen männlichen Erwerbspersonen
+EC1153I	Anteil Erwerbsloser unter den 55-unter 65jährigen weiblichen Erwerbspersonen
+EC1154I	Anteil langzeitarbeitsloser Jugendlicher: >6 Monate an den 15-unter 25jährigen Erwerbspersonen
+EC1155I	Anteil langzeitarbeitsloser Jugendlicher: >6 Monate an den 15-unter 25jährigen männlichen Erwerbspersonen
+EC1156I	Anteil langzeitarbeitsloser Jugendlicher: >6 Monate an den 15-unter 25jährigen weiblichen Erwerbspersonen
+EC1157I	Anteil Langzeitarbeitsloser ( > 1 Jahr) unter den 55-unter 65jährigen Erwerbspersonen
+EC1158I	Anteil Langzeitarbeitsloser ( > 1 Jahr) unter den 55-unter 65jährigen männlichen Erwerbspersonen
+EC1159I	Anteil Langzeitarbeitsloser ( > 1 Jahr) unter den 55-unter 65jährigen weiblichen Erwerbspersonen
+EC1202I	Anteil erwerbsloser unter 25jähriger an allen Erwerbslosen
+EC1034I	Erwerbstätigenanteil der arbeitsfähigen Bevölkerung insgesamt
+EC1035I	Erwerbstätigenanteil der arbeitsfähigen männlichen Bevölkerung
+EC1036I	Erwerbstätigenanteil der arbeitsfähigen weiblichen Bevölkerung
+EC1028I	Erwerbstätigenanterteil unter den Erwerbspersonen insgesamt
+EC1029I	Erwerbstätigenanterteil unter den männlichen Erwerbspersonen
+EC1030I	Erwerbstätigenanterteil unter den weiblichen Erwerbspersonen
+EC1031I	Selbständigenanterteil unter den Erwerbspersonen
+EC1032I	Selbständigenanteil unter den männlichen Erwerbspersonen
+EC1033I	Selbständigenanteil unter den weiblichenErwerbspersonen
+EC1001I	Erwerbsquote in Urban-Audit-Städten - %
+EC1002I	Erwerbspersonenanteil in der arbeitsfähigen männlichen Bevölkerung
+EC1003I	Erwerbspersonenanteil in der arbeitsfähigen weiblichen Bevölkerung
+EC1005I	Nettoerwerbsquote der 15 bis unter 65-Jährigen
+EC1142I	Erwerbspersonenanteil unter den 15- unter 25jährigen
+EC1143I	Erwerbspersonenanteil unter den 15- unter 25jährigen Männern
+EC1144I	Erwerbspersonenanteil unter den 15- unter 25jährigen Frauen
+EC1006I	Nettoerwerbsquote der 15 bis unter 25-Jährigen
+EC1145I	Erwerbspersonenanteil unter den 55- unter 65jährigen
+EC1146I	Erwerbspersonenanteil unter den 55- unter 65jährigen Männern
+EC1147I	Erwerbspersonenanteil unter den 55- unter 65jährigen Frauen
+EC1007I	Nettoerwerbsquote der 55 bis unter 65-Jährigen
+EC1088I	Anteil Teilzeiterwerbstätiger
+EC1089I	Anteil teilzeiterewerbstätiger Männer
+EC1004I	Anteil teilzeiterewerbstätigen Frauen
+EC1166I	Anteil Teilzeiterwerbstätiger unter den 15- unter 25jährigen insgesamt
+EC1167I	Anteil Teilzeiterwerbstätiger unter den 15- unter 25jährigen Männer
+EC1168I	Anteil Teilzeiterwerbstätiger unter den 15- unter 25jährigen Frauen
+EC1169I	Anteil Teilzeiterwerbstätiger unter den 55- unter 65jährigen insgesamt
+EC1170I	Anteil Teilzeiterwerbstätiger unter den 55- unter 65jährigen Männer
+EC1171I	Anteil Teilzeiterwerbstätiger unter den 55- unter 65jährigen Frauen
+EC2003I	Anzahl börsennotierter Unternehmen mit Hauptsitz in der Stadt
+EC2008I	Anteil der Beschäftigten in Land- und Fortswirtschaft, Fischerei (NACE Rev.1.1: A-B)
+EC2016I	Anteil der Beschäftigten in Bergbau, Verarbeitendem Gewerbe, Energie- und Wasserversorgung und Bau (NACE Rev. 1.1: C-F)
+EC2024I	Anteil der Erwerbstätigen im kommerziellen Dienstleistungssektor (NACE Rev 1.1: G-K)
+EC2017I	Anteil der Beschäftigten in den Wirtschaftszweigen G-P (NACE Rev.1.1)
+EC2009I	Anteil der Beschäftigten in den Wirtschaftszweigen C-E (NACE Rev.1.1)
+EC2022I	Anteil der Beschäftigten im Bau (NACE Rev. 1.1: F)
+EC2010I	Anteil der Beschäftigten im Handel, in Beherbergungs- und Gaststätten (NACE Rev. 1.1: G-H)
+EC2023I	Anteil der Beschäftigten in Verkehr und Nachrichtenübermittlung (NACE Rev. 1.1: I)
+EC2011I	Anteil der Beschäftigten im Finanz-, Wohnungswesen und unternehmensbezogenen Dienstleistungen (NACE Rev.1.1: J-K)
+EC2012I	Anteil der Beschäftigten in Öffentlicher Verwaltung, Erziehung, Gesundheit, persönlichen Dienstleistungen  (NACE Rev.1.1: L-P)
+EC2018I	Anteil der abhängig Beschäftigten an allen Beschäftigten
+EC2019I	Anteil der Selbständigen an allen Beschäftigten
+EC2020I	Beschäftigte je Unternehmen
+EC2021I	Erwerbstätigkeit im Alter von 15 bis 64 Jahren je 100 Einwohner
+EC2014I	Anteil der in Konkurs gegangenen Unternehmen
+EC2004I	Anteil der Unternehmens-Neuzugänge an den bestehenden Unternehmen
+EC3039I	Mittleres jährliches Haushaltsnettoeinkommen (Median)
+EC3040I	Mittleres jährliches Haushaltsnettoeinkommen (Durchschnitt)
+EC3054I	Verhältnis vom ersten zum vierten Quintil des verfügbaren jährlichen Haushaltseinkommens
+EC3051I	Einkommensverteilung: 2. Quintil (Einkommen, das von 60 % der Haushalte über-, von 40 % unterschritten wird)
+EC3048I	Einkommensverteilung: 3. Quintil (Einkommen, das von 40 % der Haushalte über-, von 60 % unterschritten wird)
+EC3057I	Anteil der Haushalte mit weniger als der Hälfte des nationalen Durchschnittseinkommens
+EC3055I	Anteil der Haushalte mit weniger als 60 % des nationalen
+EC3060I	Anteil der Haushalte, die von öffentlichen Transferzahlungen abhängen
+EC3063I	Anteil der Personen, die von öffentlichen Transferzahlungen abhängen
+CI1016I	Zahl der gewählten Gemeinderäte
+CI1026I	Gewählte Gemeinderäte auf 1000 Einwohner
+CI1017I	Anteil der männlichen Gemeinderäte
+CI1018I	Anteil der weiblichen Gemeinderäte
+CI2006I	Gesamtausgaben des kommunalen Haushalts je Einwohner
+CI2016I	Verhältnis Ausgaben und Einkommen der Kommune je Einwohner
+CI2002I	Anteil der Einnahmen des kommunalen Haushalts aus kommunalen Steuern
+CI2003I	Anteil der Einnahmen des  kommunalen Haushalts aus staatlichen Transferleistungen
+CI2004I	Anteil der Einnahmen des  kommunalen Haushalts aus Gebühren
+CI2005I	Anteil der Einnahmen des  kommunalen Haushalts aus anderen Quellen
+CI2014I	Schuldenstand im kommunalen Haushalt je Einwohner
+CI2015I	Rücklagen im kommunalen Haushalt je Einwohner
+CI2007I	Anteil der städtischen Bediensteten an allen in der Stadt Beschäftigten
+TE1006I	Kinder unter 3 Jahre in allen Kindertagesstätten auf 1000 Kinder dieses Alters
+TE1007I	Kinder von 3 - unter 5 Jahre in allen Kindertagesstätten auf 1000 Kinder dieses Alters
+TE1001I	Kinder unter 5 Jahre in allen Kindertagesstätten auf 1000 Kinder dieses Alters
+TE1030I	Anteil der Schulabgänger ohne Mindestabschluss
+TE1031I	Schüler in weiterführenden Bildungsgängen (ISCED-Stufe 3 und 4) je 1000 Einwohner
+TE1035I	Schüler in weiterführenden Bildungsgängen (ISCED-Stufe 3 und 4) im Alter von 15 bis 24 Jahren je 100 Einwohner der Wohnbevölkerung
+TE1032I	Anteil der männlichen Schüler in weiterführenden Bildungsgängen (ISCED-Stufe 3 und 4)
+TE1033I	Anteil der weiblichen Schüler in weiterführenden Bildungsgängen (ISCED-Stufe 3 und 4)
+TE1026I	Studierende an Hochschuleinrichtungen (ISCED 5-6) in Urban-Audit-Städten - Anzahl der Studierende pro 1000 Einwohner
+TE1034I	Studierende an Hochschuleinrichtungen (ISCED-Stufe 5 und 6)  im Alter von 20 bis 34 Jahren je 100 Einwohner der Wohnbevölkerung
+TE1027I	Männliche Hoch-, Fachhoch- und Meisterschüler (ISCED-Stufen 5 oder 6) auf 1000 männliche Einwohner
+TE1028I	Weibliche Hoch-, Fachhoch- und Meisterschüler (ISCED-Stufen 5 oder 6) auf 1000 weibliche Einwohner
+TE2025I	Anteil der Bevölkerung von 15 - unter 65 Jahren mit nicht mehr als Haupt- od. Realschulabschluss (ISCED Stufen 1 oder 2)
+TE2026I	Anteil der männl. Bevölkerung von 15 - unter 65 Jahren mit nicht mehr als Haupt- od. Realschulabschluss (ISCED Stufen 1 oder 2)
+TE2027I	Anteil der weibl. Bevölkerung von 15 - unter 65 Jahren mit nicht mehr als Haupt- od. Realschulabschluss (ISCED Stufen 1 oder 2)
+TE2028I	Anteil der Bevölkerung von 15 - unter 65 Jahren mit Hochschul-, Fachhochschulreife oder abgeschl. Lehre (ISCED Stufen 3 oder 4)
+TE2029I	Anteil der männl. Bevölkerung von 15 - unter 65 Jahren mit Hochschul-, Fachhochschulreife oder abgeschl. Lehre (ISCED Stufen 3 oder 4)
+TE2030I	Anteil der weibl. Bevölkerung von 15 - unter 65 Jahren mit Hochschul-, Fachhochschulreife oder abgeschl. Lehre (ISCED Stufen 3 oder 4)
+TE2031I	Anteil der Bevölkerung von 15 bis unter 65 Jahren mit Hochschulbildung (ISCED 5-6) in Urban-Audit-Städten - %
+TE2032I	Anteil der männl. Bevölkerung von 15 - unter 65 Jahren mit Hochschul-, Fachhochschulabschluss oder Meisterprüfung (ISCED Stufen 5 oder 6)
+TE2033I	Anteil der weibl. Bevölkerung von 15 - unter 65 Jahren mit Hochschul-, Fachhochschulabschluss oder Meisterprüfung (ISCED Stufen 5 oder 6)
+EN1001I	Regentage pro Jahr
+EN1002I	Tägliche Sonnenscheindauer in Stunden
+EN1003I	Durchschnittstemperatur des wärmsten Monats
+EN1004I	Durchschnittstemperatur des kältesten Monats
+EN1005I	Niederschlagsmenge pro Jahr (Liter je m2)
+EN2002I	Anzahl von Tagen mit mehr als 120 µg/m³ Ozon in Urban-Audit-Städten - Tage pro Jahr
+EN2003I	Stunen pro Jahr mit mehr als 200 mg/m3 Stickstoffdioxid (NO2)
+EN2005I	Tage pro Jahr mit Partikelkonzentrationen (PM10) über 50 µg/m³ in Urban-Audit-Städten - Tage pro Jahr
+EN2025I	Kumulierte Ozonkonzentration über 70 microgram/m3
+EN2026I	NO2-Konzentration im Jahresmittel
+EN2027I	PM10-Konzentration im Jahresmittel
+EN2028I	Bevölkerungsanteil, der einem Luftverkehrslärm von tagsüber >65 dB(A) ausgesetzt ist
+EN2029I	Bevölkerungsanteil, der einem Luftverkehrslärm von nachts >55 dB(A) ausgesetzt ist
+EN2032I	Bevölkerungsanteil, der einem Schienenverkehrslärm von tagsüber >65 dB(A) ausgesetzt ist
+EN2036I	Bevölkerungsanteil, der einem Schienenverkehrslärm von nachts >55 dB(A) ausgesetzt ist
+EN2033I	Bevölkerungsanteil, der einem Straßenverkehrslärm von tagsüber >65 dB(A) ausgesetzt ist
+EN2035I	Bevölkerungsanteil, der einem Straßenverkehrslärm von nachts >55 dB(A) ausgesetzt ist
+EN3003I	Pro-Kopf-Wasserverbrauch (m3 pro Jahr)
+EN3010I	Preis je m3 Wasser für private Haushalte
+EN3004I	Anteil Wohnungen mit Trinkwasseranschluss
+EN3006I	Anteil Wohnungen mit Kanalanschluss
+EN3011I	Anteil der nach geltenden Standards behandelten kommunalen Abwasserbelastung (in EW)
+EN3008I	Rationierung des Wasserverbrauchs: Tage im Berichtsjahr
+EN3009I	Unterbrechung der Wasserversorgung: Tage im Berichtsjahr
+EN4001I	Als Haushalts- und Gewerbemüll gesammelte Abfallmenge in Urban-Audit-Städten - Tonnen pro Einwohner und Jahr
+EN4002I	Anteil des auf Deponien entsorgten gesammelten Haus- und Gewerbemülls
+EN4003I	Anteil des durch Verbrennung entsorgten gesammelten Haus- und Gewerbemülls
+EN4004I	Anteil des durch Recycling entsorgten gesammelten Haushalts- und Gewerbemülls
+EN4006I	Anteil des anderweitig entsorgten gesammelten Haushalts- und Gewerbemülls
+EN5003I	Gesamtfläche (km2) gemäß Kataster
+EN5001I	Öffentlich zugängliche Grünflächen, m² je Einwohner
+EN5012I	Anteil der Grünflächen
+EN5016I	Anteil der landwirtschaftlich genutzten Fläche
+EN5024I	Anteil der für kommerzielle  Tätigkeiten (Industrie/Handel/Büroräume) genutzten Flächen
+EN5025I	Anteil der für den Verkehr (Straßen- und Schienennetze/Flughäfen) genutzten Flächen
+EN5015I	Wasser und Feuchtgebiete
+EN5011I	Anteil der Erholungs-, Sport- und Freizeitflächen
+EN5027I	Für Erholung, Sport und Freizeit genutzte Fläche in m2 pro Kopf
+EN5004I	Anteil der für Wohn- und Siedlungsflächen
+EN5026I	Anteil der Flächennutzung für andere Zwecke
+EN5101I	Bevölkerungsdichte in Urban-Audit-Städten
+EN5102I	Nettosiedlungsdichte: Einwohner je km² Wohnbauflächen
+EN5103I	Anteil der Einwohner geschlossen bebauter Flächen an der Gesamtbevölkerung
+EN5104I	Anteil der Einwohner geschlossen bebauter Flächen an der Bevölkerung des morphologischen Stadtgebiets
+EN5105I	Anteil der außerhalb der Stadtgrenze wohnenenden Bevölkerung des morphologischen Stadtgebiets
+EN5107I	Anteil der außerhalb der Stadtgrenze liegenden Fläche des morphologischen Stadtgebiets
+EN5106I	Stadtgebietsfläche aufgrund von Modellierungen
+TT1003I	Anteil des Autos als Verkehrsmittel für den Weg zur Arbeit in Urban-Audit-Städten - %
+TT1012I	Verkehrsmittel für den Arbeitsweg: Anteil PKW und Motorrad
+TT1006I	Verkehrsmittel für den Arbeitsweg: Anteil Motorrad
+TT1007I	Verkehrsmittel für den Arbeitsweg: Anteil Fahrrad
+TT1008I	Verkehrsmittel für den Arbeitsweg: Anteil Fußgänger
+TT1010I	Verkehrsmittel für den Arbeitsweg: Anteil öffentliche Verkehrsmittel
+TT1057I	Zugelassene Pkw in Urban-Audit-Städten - Anzahl Pkw pro 1000 Einwohner
+TT1013I	Registrierte Motorräder je 1000 Einwohner
+TT1060I	Bei Straßenverkehrsunfällen getötete Personen je 10000 Einwohner
+TT1061I	Bei Straßenverkehrsunfällen schwerverletzte Personen je 10000 Einwohner
+TT1064I	Einpendleranteil an der Beschäftigtenzahl
+TT1065I	Auspendleranteil an den Erwerbstätigen
+TT1090I	Berufseinpendler je 100 Berufsauspendler
+TT1019I	Dauer des Wegs zur Arbeit (Minuten)
+TT1020I	Länge des Wegs zur Arbeit mit PKW (km)
+TT1066I	Verhältnis Länge des öffentlichen Nahverkehrsnetzes zur Gebietsfläche
+TT1076I	Länge des öffentlichen Nahverkehrsnetzes je 1000 Einwohner
+TT1093I	Anteil des öffentlichen Verkehrsnetzes auf fester Infrastruktur
+TT1077I	Länge des an Schienen- bzw. Oberleitungen gebundenen öffentlichen Nahversehrsnetzes auf 1000 Einwohner
+TT1092I	Anteil des öffentlichen Verkehrsnetzes auf flexiblen Strecken
+TT1078I	Länge des nicht an Schienen- bzw. Oberleitungen gebundenen öffentlichen Nahversehrsnetzes je 1000 Einwohner
+TT1085I	Länge des gesonderten Busspuren je 1000 Einwohner
+TT1086I	Anteil der gesonderten Busspuren am öffentlichen Nahverkehrsnetz
+TT1087I	Zahl der Bus-Equivalente (30 Sitzplätze je Bus-E.) aller öffentlichen Verkehrsmittel
+TT1088I	Durchschnittsalter der Busflotte (nur Busse)
+TT1089I	Anteil der mit alternativen Kraftstoffen betriebenen Busse
+TT1082I	Haltestellen öffentlicher Verkehrsmittel im Stadtgebiet auf 1000 Einwohner
+TT1069I	Haltestellen öffentlicher Verkehrsmittel im Stadtgebiet je km2
+TT1091I	Anzahl der Haltestellen je 1 km im öffentlichen Verkehr
+TT1080I	Preis einer kombinierten Monatskarte (alle Verkehrsmittel) für Fahrten von 5 bis 10 km im Stadtzentrum
+TT1070I	Park-and-Ride-Parkplätze auf 1000 Einwohner
+TT1083I	Park-and-Ride Parkplätze auf 1000 Pkw
+TT1084I	Höchste Parkgebühr pro Stunde im Stadtzentrum
+TT1081I	Preis einer 5km-Taxifahrt am Tag ins Stadtzentrum
+TT1079I	Länge des Fahrradnetzes (ausgewiesene Fahrradwege und -spuren) auf 1000 Einwohner
+TT1071I	Erreichbarkeit im Luftverkehr (EU-27=100)
+TT1072I	Erreichbarkeit im Schienenverkehr (EU-27=100)
+TT1073I	Erreichbarkeit im Straßenverkehr (EU-27=100)
+TT1074I	Erreichbarkeit im multimodalen Verkehr (EU-27=100)
+IT1005I	Anteil der Haushalte mit Internet-Zugang zu Hause
+IT2001I	Offizielle Internet-Website der Stadtverwaltung
+IT3001I	Anteil der Betriebe, die IKT-Produkte herstellen
+IT3007I	Lokale Betriebe, die IKT-Produkte herstellen, je 1000 Betriebe
+IT3002I	Anteil der Beschäftigten in der Herstellung von IKT-Produkten
+IT3008I	Lokale Betriebe, die IKT-Dienstleistungen anbieten, je 1000 Betriebe
+IT3003I	Betriebe, die IKT-Dienstleistungen erbringen, je Einwohner
+IT3004I	Anteil der Beschäftigten im Bereich IKT-Dienstleistungen
+IT3009I	Lokale Betriebe, die Inhalte für die Informationsgesellschaft herstellen, je 1000 Betriebe
+IT3005I	Betriebe, die Inhalte für die Informationsgesellschaft herstellen
+IT3006I	Anteil der Beschäftigten in der Herstellung von Inhalten für die Informationsgesellschaft
+CR1005I	Kinobesucher pro Jahr und Einwohner
+CR1003I	Kino-Sitzplätze in Urban-Audit-Städten - Anzahl pro 1000 Einwohner
+CR1008I	Theater
+CR1016I	Anzahl der Theater je 1000 Einwohner
+CR1009I	Theaterbesucher pro Jahr und Einwohner
+CR1006I	Museen
+CR1017I	Anzahl der Museen je 1000 Einwohner
+CR1007I	Museumsbesucher pro Jahr und Einwohner
+CR1010I	Öffentlichen Bibliotheken (alle Ausgabestellen)
+CR1015I	Anzahl der Bibliotheken je 1000 Einwohner
+CR1011I	Aus öffentlichen Bibliotheken entliehene Bücher und andere Medien pro Jahr und Einwohner
+CR1013I	Theater-Sitzplätze je 1000 Einwohner
+CR1014I	Anteil der Beschäftigten im Bereich Kultur und Unterhaltung
+CR2001I	Gästeübernachtungen in Beherbergungsbetrieben in Urban-Audit-Städten - Anzahl der Übernachtungen pro Jahr
+CR2011I	Gästeübernachtungen in Beherbergungsbetrieben pro Jahr und Einwohner
+CR2017I	Gästeübernachtungen in der Nebensaison je 1000 der Bevölkerung
+CR2016I	Gästeübernachtungen in der Hauptsaison je 1000 der Bevölkerung
+CR2101I	Bettenbelegung in Beherbergungsbetrieben
+CR2103I	Bettenbelegung in der Nebensaison
+CR2102I	Bettenbelegung in der Hauptsaison
+CR2009I	Bettenzahl in Beherbergungsbetrieben
+CR2010I	Anzahl verfügbarer Betten je 1000 Einwohner
+CR2019I	Anzahl verfügbarer Betten in der Nebensaison je 1000 Einwohner
+CR2018I	Anzahl verfügbarer Betten in der Hochsaison je 1000 Einwohner
+CR2004I	Fluggäste der nächstgelegenen Flughäfen
+CR2014I	Passagieraufkommen: Fluggäste der nächstgelegenen Flughäfen je Einwohner
+CR2015I	Passagieraufkommen des nächstgelegenen Flughafens: Ankünfte im Auslandsverkehr
+CR2005I	Anteil der ins Ausland abfliegenden Fluggäste der nächstgelegenen Flughäfen
+CR2006I	Passagieraufkommen: ankommende Fluggäste im Inlandsverkehr der nächstgelegenen Flughäfen
+CR2007I	Passagieraufkommen: ankommende Fluggäste insgesamt der nächstgelegenen Flughäfen
+DE3019V	Erwerbslosenhaushalte mit Kindern
+DE3020V	Erwerbslosenhaushalte ohne Kinder
+CI1019V	Wahlbeteiligung bei Europawahlen
+CI1020V	Wahlbeteiligung bei nationalen Wahlen
+CI1021V	Wahlbeteiligung bei Kommunalwahlen
+TE1036V	Schüler der ISCED-Stufe 1-2
+TE1037V	Männliche Schüler der ISCED-Stufe 1-2
+TE1038V	Weibliche Schüler der ISCED-Stufe 1-2

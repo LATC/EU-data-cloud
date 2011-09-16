@@ -1,0 +1,323 @@
+010	Compte des transactions courantes + capital
+011	Transferts courants et en capital
+993	Compte des transactions courantes
+100	Compte des transactions courantes, Biens
+110	Compte des transactions courantes, Biens, Marchandises générales
+150	Compte des transactions courantes, Biens, Biens pour transformation
+151	Compte des transactions courantes, Biens, Biens pour transformation, Transformation à l'étranger
+152	Compte des transactions courantes, Biens, Biens pour transformation, Transformation dans le pays déclarant
+160	Compte des transactions courantes, Biens, Réparations des biens
+170	Compte des transactions courantes, Biens, Achats de biens dans les ports par les transporteurs
+180	Compte des transactions courantes, Biens, Or non monétaire
+181	Compte des transactions courantes, Biens, Or non monétaire, Détenu à titre de réserve de valeur
+182	Compte des transactions courantes, Biens, Or non monétaire, Détenu à d'autres fins
+200	Compte des transactions courantes, Services
+201	Compte des transactions courantes, Services, Branding, ajustement Quasi-transit
+205	Compte des transactions courantes, Services, Transports
+206	Compte des transactions courantes, Services, Transports, Transports maritimes
+207	Compte des transactions courantes, Services, Transports, Transports maritimes, Transports maritimes de passagers
+208	Compte des transactions courantes, Services, Transports, Transports maritimes, Transports maritimes de fret
+209	Compte des transactions courantes, Services, Transports, Transports maritimes, Services auxilliaires et annexes
+210	Compte des transactions courantes, Services, Transports, Transports aériens
+211	Compte des transactions courantes, Services, Transports, Transports aériens, Transports aériens de passagers
+212	Compte des transactions courantes, Services, Transports, Transports aériens, Transports aériens de fret
+213	Compte des transactions courantes, Services, Transports, Transports aériens, Services auxilliaires et annexes
+214	Compte des transactions courantes, Services, Transports, Autres transports
+215	Compte des transactions courantes, Services, Transports, Autres transports, Passagers
+216	Compte des transactions courantes, Services, Transports, Autres transports, Fret
+217	Compte des transactions courantes, Services, Transports, Autres transports, Autres
+218	Compte des transactions courantes, Services, Transports, Autres transports - classification extensive, Transports spatiaux
+219	Compte des transactions courantes, Services, Transports, Autres transports - classification extensive, Transport par rail
+220	Compte des transactions courantes, Services, Transports, Autres transports - classification extensive, Transport par rail, Passagers
+221	Compte des transactions courantes, Services, Transports, Autres transports - classification extensive, Transport par rail, Fret
+222	Compte des transactions courantes, Services, Transports, Autres transports - classification extensive, Transport par rail, Services de support, auxilliaires et autres
+223	Compte des transactions courantes, Services, Transports, Autres transports - classification extensive, Transport par route
+224	Compte des transactions courantes, Services, Transports, Autres transports - classification extensive, Transport par route, Passagers
+225	Compte des transactions courantes, Services, Transports, Autres transports - classification extensive, Transport par route, Fret
+226	Compte des transactions courantes, Services, Transports, Autres transports - classification extensive, Transport par route, Services de support, auxilliaires et autres
+227	Compte des transactions courantes, Services, Transports, Autres transports - classification extensive, Transport par voies navigables intérieures
+228	Compte des transactions courantes, Services, Transports, Autres transports - classification extensive, Transport par voies navigables intérieures, Passagers
+229	Compte des transactions courantes, Services, Transports, Autres transports - classification extensive, Transport par voies navigables intérieures, Fret
+230	Compte des transactions courantes, Services, Transports, Autres transports - classification extensive, Transport par voies navigables intérieures, Services de support, auxilliaires et autres
+231	Compte des transactions courantes, Services, Transports, Autres transports - classification extensive, Transport par oléoducs et gazoducs
+232	Compte des transactions courantes, Services, Transports, Autres transports - classification extensive, Autres services de support et auxilliaires de transport
+236	Compte des transactions courantes, Services, Voyages
+237	Compte des transactions courantes, Services, Voyages, Voyages à titre professionnel
+238	Compte des transactions courantes, Services, Voyages, Voyages à titre professionnel, Dépenses des travailleurs saisonniers et frontaliers
+239	Compte des transactions courantes, Services, Voyages, Voyages à titre professionnel, Autres
+240	Compte des transactions courantes, Services, Voyages, Voyages à titre personnel
+241	Compte des transactions courantes, Services, Voyages, Voyages à titre personnel, Pour raisons de santé
+242	Compte des transactions courantes, Services, Voyages, Voyages à titre personnel, A but éducatif
+243	Compte des transactions courantes, Services, Voyages, Voyages à titre personnel, Autres
+981	Compte des transactions courantes, Services, Autres services
+245	Compte des transactions courantes, Services, Services de communication
+246	Compte des transactions courantes, Services, Services de communication, Services posteaux et de courrier
+958	Compte des transactions courantes, Services, Services de communication, Services posteaux et de courrier, Services postaux
+959	Compte des transactions courantes, Services, Services de communication, Services posteaux et de courrier, Services de courrier
+247	Compte des transactions courantes, Services, Services de communication, Services de télécommunication
+249	Compte des transactions courantes, Services, Services de construction
+250	Compte des transactions courantes, Services, Services de construction, Construction à l'Etranger
+251	Compte des transactions courantes, Services, Services de construction, Construction dans le pays déclarant
+253	Compte des transactions courantes, Services, Services d'assurances
+254	Compte des transactions courantes, Services, Services d'assurances, Assurance-vie et pensions/caisses de retraite
+255	Compte des transactions courantes, Services, Services d'assurances, Assurance marchandise
+256	Compte des transactions courantes, Services, Services d'assurances, Autres assurances directes (feu, accidents, etc...)
+257	Compte des transactions courantes, Services, Services d'assurances, Réassurance
+258	Compte des transactions courantes, Services, Services d'assurances, Services auxiliaires
+260	Compte des transactions courantes, Services, Services financiers
+262	Compte des transactions courantes, Services, Services d'informatique et d'information
+263	Compte des transactions courantes, Services, Services d'informatique et d'information, Services d'informatique
+264	Compte des transactions courantes, Services, Services d'informatique et d'information, Services d'information
+889	Compte des transactions courantes, Services, Services d'informatique et d'information, Services d'information, Services d'agences de presse
+890	Compte des transactions courantes, Services, Services d'informatique et d'information, Services d'information, Autres services d'information
+266	Compte des transactions courantes, Services, Redevances et droits de licences
+891	Compte des transactions courantes, Services, Redevances et droits de licences, Concessions et droits analogues
+892	Compte des transactions courantes, Services, Redevances et droits de licences, Autres redevances et droits de licence
+268	Compte des transactions courantes, Services, Autres services aux entreprises
+269	Compte des transactions courantes, Services, Autres services aux entreprises, Négoce international et autres services liés au commerce
+270	Compte des transactions courantes, Services, Autres services aux entreprises, Négoce international et autres services liés au commerce, Négoce international
+271	Compte des transactions courantes, Services, Autres services aux entreprises, Négoce international et autres services liés au commerce, Autres services liés au commerce
+272	Compte des transactions courantes, Services, Autres services aux entreprises, Location-exploitation
+273	Compte des transactions courantes, Services, Autres services aux entreprises, Divers services aux entreprises, spécialisés et techniques
+274	Compte des transactions courantes, Services, Autres services aux entreprises, Divers services aux entreprises, spécialisés et techniques, Services juridiques, comptables, conseil en gestion, relation publiques
+275	Compte des transactions courantes, Services, Autres services aux entreprises, Divers services aux entreprises, spécialisés et techniques, Services juridiques, comptables, conseil en gestion, relation publiques, Services juridiques
+276	Compte des transactions courantes, Services, Autres services aux entreprises, Divers services aux entreprises, spécialisés et techniques, Services juridiques, comptables, conseil en gestion, relation publiques, Services comptables, audit et consultation fiscale
+277	Compte des transactions courantes, Services, Autres services aux entreprises, Divers services aux entreprises, spécialisés et techniques, Services juridiques, comptables, conseil en gestion, relation publiques, Conseil en gestion et relations publiques
+278	Compte des transactions courantes, Services, Autres services aux entreprises, Divers services aux entreprises, spécialisés et techniques, Publicité, études de marché, sondages
+279	Compte des transactions courantes, Services, Autres services aux entreprises, Divers services aux entreprises, spécialisés et techniques, Recherches et développement
+280	Compte des transactions courantes, Services, Autres services aux entreprises, Divers services aux entreprises, spécialisés et techniques, Architecture, ingénierie et autres services techniques
+281	Compte des transactions courantes, Services, Autres services aux entreprises, Divers services aux entreprises, spécialisés et techniques, Services agricoles, miniers et traitement sur place
+282	Compte des transactions courantes, Services, Autres services aux entreprises, Divers services aux entreprises, spécialisés et techniques, Services agricoles, miniers et traitement sur place, Traitement des ordures et dépollution
+283	Compte des transactions courantes, Services, Autres services aux entreprises, Divers services aux entreprises, spécialisés et techniques, Services agricoles, miniers et traitement sur place Autres services agricoles, miniers et traitement sur glace
+284	Compte des transactions courantes, Services, Autres services aux entreprises, Divers services aux entreprises, spécialisés et techniques, Autres services
+285	Compte des transactions courantes, Services, Autres services aux entreprises, Divers services aux entreprises, spécialisés et techniques, Services entre entreprises affilliées, n.c.a.
+287	Compte des transactions courantes, Services, Services personnels, culturels et relatifs aux loisirs
+288	Compte des transactions courantes, Services, Services personnels, culturels et relatifs aux loisirs, Services audio-visuels et connexes
+289	Compte des transactions courantes, Services, Services personnels, culturels et relatifs aux loisirs, Autres services personnels, culturels et relatifs aux loisirs
+895	Compte des transactions courantes, Services, Services personnels, culturels et relatifs aux loisirs, Autres services personnels, culturels et relatifs aux loisirs, Services d'éducation
+896	Compte des transactions courantes, Services, Services personnels, culturels et relatifs aux loisirs, Autres services personnels, culturels et relatifs aux loisirs, Services de santé
+897	Compte des transactions courantes, Services, Services personnels, culturels et relatifs aux loisirs, Autres services personnels, culturels et relatifs aux loisirs, Autres services
+291	Compte des transactions courantes, Services, Services fournis ou reçus par les administrations publiques, n.c.a.
+29110	Compte des transactions courantes, Services, Services fournis ou reçus par les administrations publiques, Remboursement aux Etats Membres des coûts de collecte des ressources propres
+29120	Compte des transactions courantes, Services, Services fournis ou reçus par les administrations publiques, Loyers, acquisition et construction d'immeuble
+29130	Compte des transactions courantes, Services, Services fournis ou reçus par les administrations publiques, Autres services divers
+292	Compte des transactions courantes, Services, Services fournis ou reçus par les administrations publiques, n.c.a., Ambassades et consulats
+293	Compte des transactions courantes, Services, Services fournis ou reçus par les administrations publiques, n.c.a., Unités et délégations militaires
+294	Compte des transactions courantes, Services, Services fournis ou reçus par les administrations publiques, n.c.a.Autres
+982	Compte des transactions courantes, Services, Services non-alloués
+950	Compte des transactions courantes, Services, Postes pour mémoire, Fransport de fret, valeur ajoutée sur la base des transactions
+951	Compte des transactions courantes, Services, Postes pour mémoire, Fransport de fret, valeur ajoutée sur la base des transactions, Fret maritime
+952	Compte des transactions courantes, Services, Postes pour mémoire, Fransport de fret, valeur ajoutée sur la base des transactions, Fret aérien
+858	Compte des transactions courantes, Services, Postes pour mémoire, Fransport de fret, valeur ajoutée sur la base des transactions, Autres frets
+862	Compte des transactions courantes, Services, Postes pour mémoire, Fransport de fret, valeur ajoutée sur la base des transactions, Fret spacial
+863	Compte des transactions courantes, Services, Postes pour mémoire, Fransport de fret, valeur ajoutée sur la base des transactions, Fret ferroviaire
+953	Compte des transactions courantes, Services, Postes pour mémoire, Fransport de fret, valeur ajoutée sur la base des transactions, Fret routier
+865	Compte des transactions courantes, Services, Postes pour mémoire, Fransport de fret, valeur ajoutée sur la base des transactions, Fret sur les eaux internes
+868	Compte des transactions courantes, Services, Postes pour mémoire, Fransport de fret, valeur ajoutée sur la base des transactions, Fret par pipeline
+955	Compte des transactions courantes, Services, Postes pour mémoire, Voyages
+956	Compte des transactions courantes, Services, Postes pour mémoire, Voyages, Dépanses sur les biens
+957	Compte des transactions courantes, Services, Postes pour mémoire, Voyages, Services d'hôtel et de restaurant
+871	Compte des transactions courantes, Services, Postes pour mémoire, Voyages, Toutes les autres dépenses liées aux voyages
+960	Compte des transactions courantes, Services, Postes pour mémoire, Primes brutes d'assurance
+972	Compte des transactions courantes, Services, Postes pour mémoire, Primes brutes d'assurance, Prime brutes - assurance-vie
+974	Compte des transactions courantes, Services, Postes pour mémoire, Primes brutes d'assurance, Prime brutes - assurance-fret
+976	Compte des transactions courantes, Services, Postes pour mémoire, Primes brutes d'assurance, Prime brutes - autres assurances indirectes
+961	Compte des transactions courantes, Services, Postes pour mémoire, Indemnités brutes d'assurance
+973	Compte des transactions courantes, Services, Postes pour mémoire, Indemnités brutes d'assurance, Indemnités brutes - assurance-vie
+975	Compte des transactions courantes, Services, Postes pour mémoire, Indemnités brutes d'assurance, Indemnités brutes - assurance-fret
+977	Compte des transactions courantes, Services, Postes pour mémoire, Indemnités brutes d'assurance, Indemnités brutes - autres assurances indirectes
+887	Compte des transactions courantes, Services, Postes pour mémoire, Services d'intermédiation financiere mesurés indirectement (SIFMI)
+888	Compte des transactions courantes, Services, Postes pour mémoire, Services financiers dont SIFMI
+962	Compte des transactions courantes, Services, Postes pour mémoire, Flux bruts de négoce international
+894	Compte des transactions courantes, Services, Postes pour mémoire, Transactions audiovisuelles
+300	Compte des transactions courantes, Revenus
+310	Compte des transactions courantes, Revenus, Rémunération des salariés
+31010	Compte des transactions courantes, Revenus, Rémunération des salariés, Salaires bruts
+31020	Compte des transactions courantes, Revenus, Rémunération des salariés, Cotisations sociales
+320	Compte des transactions courantes, Revenus, Revenu des investissements, Autres investissements, Postes pour mémoire, Autres,
+320INT	Compte des transactions courantes, Revenus, Revenu des investissements, Postes pour mémoire, Intérêts MBP5 (sans la correction SIFIM)
+320D41	Compte des transactions courantes, Revenus, Revenu des investissements, Postes pour mémoire, Intérêts SCN93 (avec la correction SIFIM)
+320FIS	Compte des transactions courantes, Revenus, Revenu des investissements, Postes pour mémoire, SIFIM
+320D4N	Compte des transactions courantes, Revenus, Revenu des investissements, Postes pour mémoire, Autres qu'intérêts
+330	Compte des transactions courantes, Revenus, Revenu des investissements, Investissements directs
+331	Compte des transactions courantes, Revenus, Revenu des investissements, Investissements directs, Revenus des titres de participation
+332	Compte des transactions courantes, Revenus, Revenu des investissements, Investissements directs, Revenus des titres de participation, Dividendes et bénéfices distribués des succursales
+333	Compte des transactions courantes, Revenus, Revenu des investissements, Investissements directs, Revenus des titres de participation, Bénéfices réinvestis et non distribués des succursales
+334	Compte des transactions courantes, Revenus, Revenu des investissements, Investissements directs, Revenus des titres de créances (intérêts)
+339	Compte des transactions courantes, Revenus, Revenu des investissements, Investissements de portefeuilles
+340	Compte des transactions courantes, Revenus, Revenu des investissements, Investissements de portefeuilles, Revenus des titres de participations (dividendes)
+341	Compte des transactions courantes, Revenus, Revenu des investissements, Investissements de portefeuilles, Revenus des titres de participations (dividendes), Autorités monétaires
+349	Compte des transactions courantes, Revenus, Revenu des investissements, Investissements de portefeuilles, Revenus des titres de créance (intérêts)
+370	Compte des transactions courantes, Revenus, Revenu des investissements, Autres investissements
+370INT	Compte des transactions courantes, Revenus, Revenu des investissements, Autres Investissements, Postes pour mémoire, Intérêts BPM5 (sans la correction SIFIM)
+370D44	Compte des transactions courantes, Revenus, Revenu des investissements, Autres Investissements, Postes pour mémoire, Revenus attribués aux assurés
+370D4N	Compte des transactions courantes, Revenus, Revenu des investissements, Autres Investissements, Postes pour mémoire, Autres
+37010	Compte des transactions courantes, Revenus, Revenu des investissements, Autres investissements, Postes pour mémoire, Autres, EIB Bénéfices réinvestis
+379	Compte des transactions courantes, Transferts courants
+380	Compte des transactions courantes, Transferts courants, Administrations publiques
+380D2	Compte des transactions courantes, Transferts courants, Administrations publiques, Impôts
+380D21	Compte des transactions courantes, Transferts courants, Administrations publiques, Impôts sur les produits
+380D212X21	Compte des transactions courantes, Transferts courants, Administrations publiques, Impôts sur les produits, Impôts et droits sur les importations, Droits de douanne
+380D212X22	Compte des transactions courantes, Transferts courants, Administrations publiques, Impôts sur les produits, Impôts et droits sur les importations, Prélèvements agricoles
+380D212X23	Compte des transactions courantes, Transferts courants, Administrations publiques, Impôts sur les produits, Impôts et droits sur les importations, Prélèvements sur le sucre et l'isoglucose
+380D211X24	Compte des transactions courantes, Transferts courants, Administrations publiques, Impôts sur les produits, Taxes du type TVA, Ressources propres provenant de la taxe sur la valeur ajoutée (TVA)
+380D29	Compte des transactions courantes, Transferts courants, Administrations publiques, Autres impôts sur la production
+380D29X25	Compte des transactions courantes, Transferts courants, Administrations publiques, Autres impôts sur la production, Prélèvement CECA
+380D3	Compte des transactions courantes, Transferts courants, Administrations publiques, Subventions
+380D31	Compte des transactions courantes, Transferts courants, Administrations publiques, Subventions sur les produits
+380D319X31	Compte des transactions courantes, Transferts courants, Administrations publiques, Subventions sur les produits, Agriculture
+380D39	Compte des transactions courantes, Transferts courants, Administrations publiques, Autres subventions sur la production
+380D39X31	Compte des transactions courantes, Transferts courants, Administrations publiques, Autres subventions sur la production, Agriculture
+380D39X32	Compte des transactions courantes, Transferts courants, Administrations publiques, Autres subventions sur la production, Bonifications d'intérets
+380D39X33	Compte des transactions courantes, Transferts courants, Administrations publiques, Autres subventions sur la production, Autres subventions
+380D5	Compte des transactions courantes, Transferts courants, Administrations publiques, Impôts sur le revenu, le patrimoine, etc.
+380D50	Compte des transactions courantes, Transferts courants, Administrations publiques, Impôts sur le revenu, le patrimoine, etc.
+380D51	Compte des transactions courantes, Transferts courants, Administrations publiques, Impôts sur le revenu, le patrimoine, etc., Impôts sur le revenu
+380D6	Compte des transactions courantes, Transferts courants, Administrations publiques, Cotisations sociales et Prestations sociales
+380D61	Compte des transactions courantes, Transferts courants, Administrations publiques, Cotisations sociales
+380D61121	Cotisations sociales obligatoires à la charge des salariés
+380D612	Cotisations sociales imputées
+380D62	Compte des transactions courantes, Transferts courants, Administrations publiques, Prestations sociales autres que transferts sociaux en nature
+380D63	Transferts sociaux en nature
+380D7	Compte des transactions courantes, Transferts courants, Administrations publiques, Autre
+380D74	Compte des transactions courantes, Transferts courants, Administrations publiques, Coopération internationale courante
+380D74X66	Compte des transactions courantes, Transferts courants, Administrations publiques, Transferts de coopération internationale, Contribution des Etats Membres au FED
+380D74X68	Compte des transactions courantes, Transferts courants, Administrations publiques, Transferts de coopération internationale, Transfers du FSE et à caractère social
+380D74X70	Compte des transactions courantes, Transferts courants, Administrations publiques, Transferts de coopération internationale, Agriculture et peche
+380D74X74	Compte des transactions courantes, Transferts courants, Administrations publiques, Transferts de coopération internationale, FEDER
+380D74X88	Compte des transactions courantes, Transferts courants, Administrations publiques, Transferts de coopération internationale, FED
+380D74X90	Compte des transactions courantes, Transferts courants, Administrations publiques, Coopération internationale courante, Transferts courants de la CECA
+380D74X94	Compte des transactions courantes, Transferts courants, Administrations publiques, Transferts de coopération internationale, Autres subventions
+380D75	Compte des transactions courantes, Transferts courants, Administrations publiques, Transferts courants divers
+380D7N	Compte des transactions courantes, Transferts courants, Administrations publiques, Autres, n.c.a.
+380D75X64	Compte des transactions courantes, Transferts courants, Administrations publiques, Transferts courants divers, Ressources propres fondées sur le revenu national brut (RNB)
+380D75X92	Compte des transactions courantes, Transferts courants, Administrations publiques, Transferts courants divers, Compensations financières versées aux Etats Membres
+380D75X94	Compte des transactions courantes, Transferts courants, Administrations publiques, Transferts courants divers,  Pénalités et amendes
+380D75X96	Compte des transactions courantes, Transferts courants, Administrations publiques, Transferts courants divers, Transfers à des institutions privéée sans but lucratif
+390	Compte des transactions courantes, Transferts courants, Autres secteurs (privés)
+391	Compte des transactions courantes, Transferts courants, Autres secteurs (privés), Envois de fonds des travailleurs
+392	Compte des transactions courantes, Transferts courants, Autres secteurs (privés), Autres transferts
+392D21	Compte des transactions courantes, Transferts courants, Autres secteurs (privés), Autres transferts, Impôts sur les produits
+392D29	Compte des transactions courantes, Transferts courants, Autres secteurs (privés), Autres transferts, Autres impôts sur la production
+392D31	Compte des transactions courantes, Transferts courants, Autres secteurs (privés), Autres transferts, Subventions sur les produits
+392D39	Compte des transactions courantes, Transferts courants, Autres secteurs (privés), Autres transferts, Autres subventions sur la production
+392D50	Compte des transactions courantes, Transferts courants, Autres secteurs (privés), Autres transferts, Impôts courants sur le revenu, le patrimoine, etc.
+392D61	Compte des transactions courantes, Transferts courants, Autres secteurs (privés), Autres transferts, Cotisations sociales
+392D62	Compte des transactions courantes, Transferts courants, Autres secteurs (privés), Autres transferts, Prestations sociales autres que transferts sociaux en nature
+392D71	Compte des transactions courantes, Transferts courants, Autres secteurs (privés), Autres transferts, Primes nettes d'assurance,dommages
+392D72	Compte des transactions courantes, Transferts courants, Autres secteurs (privés), Autres transferts, Indemnités d'assurance,dommages
+392D7N	Compte des transactions courantes, Transferts courants, Autres secteurs (privés), Autres transferts, Autres transferts courants d'autres secteurs, n.c.a.
+392D80	Compte des transactions courantes, Transferts courants, Autres secteurs (privés), Autres transferts, Ajustement pour variation des droits des ménages sur les fonds de pension
+994	Compte de capital
+400	Compte de capital, Transferts de capital
+400D91	Compte de capital, Transferts de capital, Impôts en capital
+400D9N	Compte de capital, Transferts de capital, Aides à l'investissement et Autres transferts en capital
+401	Compte de capital, Transferts de capital, Administrations publiques
+401D92	Compte de capital, Transferts de capital, Administrations publiques, Aides à l'investissement
+401D92X11	Compte de capital, Transferts de capital, Administrations publiques, Aides à l'investissement, Agriculture et peche
+401D92X12	Compte de capital, Transferts de capital, Administrations publiques, Aides à l'investissement, FEDER
+401D92X13	Compte de capital, Transferts de capital, Administrations publiques, Aides à l'investissement, FED
+401D92X14	Compte de capital, Transferts de capital, Administrations publiques, Aides à l'investissement, Fonds de cohésion
+401D92X15	Compte de capital, Transferts de capital, Administrations publiques, Aides à l'investissement, Autres subventions
+401D99	Compte de capital, Transferts de capital, Administrations publiques, Autres
+401D99X11	Compte de capital, Transferts de capital, Administrations publiques, Autres, Agriculture et peche
+401D99X15	Compte de capital, Transferts de capital, Administrations publiques, Autres, Autres
+401D99X20	Compte de capital, Transferts de capital, Administrations publiques, Autres, Remises de dettes
+480	Compte de capital, Acquisitions et cessions d'actifs non financiers non produits
+995	Compte financier
+500	Compte financier, Investissements directs
+505	Compte financier, Investissements directs, A l'étranger (par des résidents)
+506	Compte financier, Investissements directs, A l'étranger (par des résidents), Capital social + Bénéfices réinvestis
+510	Compte financier, Investissements directs, A l'étranger (par des résidents), Capital social
+525	Compte financier, Investissements directs, A l'étranger (par des résidents), Bénéfices réinvestis
+530	Compte financier, Investissements directs, A l'étranger (par des résidents), Autres transactions
+541	Compte financier, Investissements directs, A l'étranger (par des résidents), Capital social et Autres transactions
+555	Compte financier, Investissements directs, Dans l'économie nationale (par des non-résidents)
+556	Compte financier, Investissements directs, Dans l'économie nationale (par des non-résidents), Capital social et Bénéfices réinvestis
+560	Compte financier, Investissements directs, Dans l'économie nationale (par des non-résidents), Capital social
+575	Compte financier, Investissements directs, Dans l'économie nationale (par des non-résidents), Bénéfices réinvestis
+580	Compte financier, Investissements directs, Dans l'économie nationale (par des non-résidents), Autres transactions
+591	Compte financier, Investissements directs, Dans l'économie nationale (par des non-résidents), Capital social et Autres transactions
+600	Compte financier, Investissements de portefeuille
+602	Compte financier, Investissements de portefeuille, Avoirs
+610	Compte financier, Investissements de portefeuille, Avoirs, Titres de participation
+614	Compte financier, Investissements de portefeuille, Avoirs, Titres de participation, Autres secteurs
+619	Compte financier, Investissements de portefeuille, Avoirs, Titres de créances
+620	Compte financier, Investissements de portefeuille, Avoirs, Titres de créances, Obligations et autres titres d'emprunt
+624	Compte financier, Investissements de portefeuille, Avoirs, Titres de créances, Obligations et autres titres d'emprunt, Autres secteurs
+630	Compte financier, Investissements de portefeuille, Avoirs, Titres de créances, Instruments du marché monétaire
+634	Compte financier, Investissements de portefeuille, Avoirs, Titres de créances, Instruments du marché monétaire, Autres secteurs
+652	Compte financier, Investissements de portefeuille, Engagements
+660	Compte financier, Investissements de portefeuille, Engagements, Titres de participation
+669	Compte financier, Investissements de portefeuille, Engagements, Titres d'engagement
+670	Compte financier, Investissements de portefeuille, Engagements, Titres d'engagement, Obligations et autres titres d'emprunt
+674	Compte financier, Investissements de portefeuille, Engagements, Titres d'engagement, Obligations et autres titres d'emprunt, Autres secteurs
+680	Compte financier, Investissements de portefeuille, Engagements, Titres d'engagement, Instruments du marché monétaire
+684	Compte financier, Investissements de portefeuille, Engagements, Titres d'engagement, Instruments du marché monétaire, Autres secteurs
+910	Produits financiers dérivés, Solde
+914	Produits financiers dérivés, Solde, Autres sectors
+700	Compte financier, Autres investissements
+703	Compte financier, Autres investissements, Avoirs
+704	Compte financier, Autres investissements, Avoirs, Administrations publiques
+714	Compte financier, Autres investissements, Avoirs, Prêts
+725	Compte financier, Autres investissements, Avoirs, Prêts, Autres secteurs
+728	Compte financier, Autres investissements, Avoirs, Autres secteurs
+730	Compte financier, Autres investissements, Avoirs, Monnaie fiduciaire et dépôts
+732	Compte financier, Autres investissements, Avoirs, Monnaie fiduciaire et dépôts, Administrations publiques
+734	Compte financier, Autres investissements, Avoirs, Monnaie fiduciaire et dépôts, Autres secteurs
+736	Compte financier, Autres investissements, Avoirs, Autres avoirs
+740	Compte financier, Autres investissements, Avoirs, Autres avoirs, Administrations publiques
+741	Compte financier, Autres investissements, Avoirs, Autres avoirs, Administrations publiques, Long terme
+742	Compte financier, Autres investissements, Avoirs, Autres avoirs, Administrations publiques, Court terme
+746	Compte financier, Autres investissements, Avoirs, Autres avoirs, Autres secteurs
+753	Compte financier, Autres investissements, Engagements
+754	Compte financier, Autres investissements, Engagements, Adiminstrations publiques
+759	Compte financier, Autres investissements, Engagements, Crédits commerciaux, Administrations publiques, Court terme
+764	Compte financier, Autres investissements, Engagements, Prêts
+769	Compte financier, Autres investissements, Engagements, Prêts, Administrations publiques
+775	Compte financier, Autres investissements, Engagements, Autres secteurs
+779	Compte financier, Autres investissements, Engagements, Autres secteurs
+780	Compte financier, Autres investissements, Engagements, Monnaie fiduciaire et dépôts
+786	Compte financier, Autres investissements, Engagements, Autres engagements
+790	Compte financier, Autres investissements, Engagements, Autres engagements, Administrations publiques
+791	Compte financier, Autres investissements, Engagements, Autres engagements, Administrations publiques, Long terme
+792	Compte financier, Autres investissements, Engagements, Autres engagements, Administrations publiques, Court terme
+796	Compte financier, Autres investissements, Engagements, Autres engagements, Autres secteurs
+802	Compte financier, Avoirs de réserve
+983	Services commerciaux (services à l'exclusion des services fournis ou reçus par les administrations publiques, n.c.a.)
+998	Erreurs et omissions nettes
+991	Compte des transactions courantes, Biens et services
+992	Compte des transactions courantes, Biens, services et revenus
+996	Compte de capital et financier
+EMP	Nombre de personnes employées
+ENT	Nombre d'entreprises
+EXP	Exportations de biens et services
+EXPEU	Exportations de biens et services vers l'UE
+EXPG	Exportations de biens
+EXPGEU	Exportations de biens vers l'UE
+EXPGRW	Exportations de biens vers le reste du monde
+EXPI	Exportations intragroupe de biens et services
+EXPICC	Exportations intragroupe de biens et services vers l'unité de contrôle du pays déclarant
+EXPINC	Exportations intragroupe de biens et services à l'exclusion l'unité de contrôle
+EXPRW	Exportations de biens et services vers le reste du monde
+EXPS	Exportations de services
+EXPSEU	Exportations de services vers l'UE
+EXPSRW	Exportations de services vers le reste du monde
+GIT	Investissements brut dans les biens réels
+IMP	Importations de biens et services
+IMPEU	Importations de biens et services de l'UE
+IMPG	Importations de biens
+IMPGEU	Importations de biens de l'UE
+IMPGRW	Importations de biens du reste du monde
+IMPI	Importations intragroupe de biens et services
+IMPICC	Importations intragroupe de biens et services de l'unité de contrôle du pays déclarant
+IMPINC	Importations intragroupe de biens et services à l'exclusion l'unité de contrôle
+IMPRW	Importations de biens et services du reste du monde
+IMPS	Importations de services
+IMPSEU	Importations de services de l'UE
+IMPSRW	Importations de services du reste du monde
+PEC	Frais de personnel
+RDE	Dépenses totales de R&D intra-muros
+RDP	Ensemble du personnel de R&D
+TUR	Chiffre d'affaires
+VAC	Valeur ajoutée au coût des facteurs

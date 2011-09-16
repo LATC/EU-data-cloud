@@ -1,0 +1,8 @@
+TOT	Insgesamt
+PASS_TOT	Fahrgäste - Insgesamt
+PASS_COL	Fahrgäste - durch Zusammenstösse oder Entgleisungen
+PASS_OTH	Fahrgäste - sonstige Unfälle
+PASS_SUI	Fahrgäste - Selbstmorden und Selbstmordversuchen
+RAIL_EMPL	Eisenbahnbeschäftigte
+OTH	Sonstige
+UNK	Unbekannt

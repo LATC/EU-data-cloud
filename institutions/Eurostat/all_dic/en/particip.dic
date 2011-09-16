@@ -1,0 +1,11 @@
+TOTAL	Total
+0	Percentage of enterprises in which employees did not participate in CVT courses
+1_10	Percentage of enterprises in which 1-10% of the employees actually participated in CVT courses
+11_20	Percentage of enterprises in which 11-20% of the employees actually participated in CVT courses
+21_40	Percentage of enterprises in which 21-40% of the employees actually participated in CVT courses
+GT_40	Percentage of enterprises in which more than 40% of the employees actually participated in CVT courses
+NRESP	No answer
+PARNWNT	Respondents who already participate and did not want to participate more
+PARWNT	Respondents who already participated but wanted participated more
+NPARNWNT	Respondents who did not participate and did not want to participate
+NPARWNT	Respondents who did not participate but wanted to participate

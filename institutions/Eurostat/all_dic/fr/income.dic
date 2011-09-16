@@ -1,0 +1,6 @@
+TOTAL	Total des groupes de revenu des ménages
+LT60PC	Revenu des ménages inférieur à 60% par comparaison au revenu courant réel moyen
+60_100PC	Revenu des ménages situé entre 60% et 100% par comparaison au revenu courant réel moyen
+100_140PC	Revenu des ménages situé entre 100% et 140% par comparaison au revenu courant réel moyen
+GE140PC	Revenu des ménages situé entre 140% et plus par comparaison au revenu courant réel moyen
+NS	Non significatif

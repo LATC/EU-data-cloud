@@ -1,0 +1,18 @@
+TOTAL	Insgesamt Unfälle mit oder ohne Arbeitsunterbrechung
+D0	Keine Arbeitsunterbrechnung oder weniger als 1 Tag
+D1_D3	1 - 3 Ausfalltage
+GE_D4	Mehr als 3 Ausfalltage (mindestens 4 Tagen Arbeitsunterbrechung)
+D4_D6	4 - 6 Ausfalltage
+D7_D13	7 - 13 Ausfalltage
+GE_D14	Mehr als 14 Ausfalltage (mindestens 2 Wochen Arbeitsunterbrechung)
+D14_D20	14 - 20 Ausfalltage
+D14_D29	14 - 29 Ausfalltage
+D21_D29	21 Ausfalltage - 1 Monat Arbeitsunterbrechung
+M1_LT_M3	1 Monat Arbeitsunterbrechung - 3 Monate Arbeitsunterbrechung
+GE_M3	3 und mehr Monate Arbeitsunterbrechung
+M3_LT_M6	3 Monate Arbeitsunterbrechung - 6 Monate Arbeitsunterbrechung
+GE_M6_I	Dauerhaft (arbeits)unfähig oder 183 und mehr Ausfalltage (mindestens 6 Monate Arbeitsunterbrechung)
+PERM_INC	Dauerhaft (arbeits)unfähig
+FATALITY	Tödlicher Unfall
+UNK	Nicht bekannt
+OTH	Anderen

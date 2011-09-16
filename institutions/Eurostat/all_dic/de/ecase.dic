@@ -1,0 +1,17 @@
+TOTAL	Insgesamt
+A1_33	Alleinstehende ohne Kinder, 33% des AW-Lohns
+A1_50	Alleinstehende ohne Kinder, 50% des AW-Lohns
+A1_67	Alleinstehende ohne Kinder, 67% des AW-Lohns
+A1_80	Alleinstehende ohne Kinder, 80% des AW-Lohns
+A1_100	Alleinstehende ohne Kinder, 100% des AW-Lohns
+A1_125	Alleinstehende ohne Kinder, 125% des AW-Lohns
+A1_167	Alleinstehende ohne Kinder, 167% des AW-Lohns
+A1_2CH_67	Alleinerziehende mit zwei Kindern, 67% des AW-Lohns
+CPL_2CH_33_0	Ehepaar mit einem Einkommen, 33% des AW-Lohns, und zwei Kindern
+CPL_2CH_100_0	Ehepaar mit einem Einkommen, 100% des AW-Lohns, und zwei Kindern
+CPL_2CH_100_33	Ehepaar mit zwei Einkommen, 100% und 33% des AW-Lohns, und zwei Kindern
+CPL_2CH_100_67	Ehepaar mit zwei Einkommen, 100% und 67% des AW-Lohns, und zwei Kindern
+CPL_2CH_100_100	Ehepaar mit zwei Einkommen, 100% und 100% des AW-Lohns, und zwei Kindern
+CPL_100_33	Ehepaar mit zwei Einkommen, 100% und 33% des AW-Lohns, ohne Kinder
+CPL_100_100	Ehepaar mit zwei Einkommen, 100% und 100% des AW-Lohns, ohne Kinder
+EM042	Alleinstehende ohne Kinder

@@ -1,0 +1,97 @@
+01110000	Weichweizen
+01120000	Hartweizen
+01200000	Roggen
+01300000	Gerste
+01310000	Futtergerste
+01320000	Braugerste
+01400000	Hafer
+01500000	Mais
+01600000	Reis
+01910000	Sorgho
+01920000	Triticale
+02110000	Raps
+02120000	Sonnenblumen
+02130000	Soya
+02210000	Speiseerbsen
+02220000	Speisebohnen
+02230000	Puffbohnen (getrocknet)
+02300000	Rohtabak: alle Sorten
+02400000	Zuckerrüben: Durchschnittserlös
+02911000	Baumwolle (einschl. Saat)
+02920000	Hopfen: alle Sorten
+02991000	Linsen
+02992000	Kichererbsen
+04110000	Blumenkohl (Karfiol): alle Qualitäten
+04121000	Tomaten (Paradeiser), Freiland: alle Qualitäten
+04122000	Tomaten (Paradeiser), unter Glas: alle Qualitäten
+04191100	Weisskohl (Weisskraut): alle Qualitäten
+04191200	Rotkohl (Rotkraut): alle Qualitäten
+04191300	Spinat
+04192100	Kopfsalat (Freiland): alle Qualitäten
+04192200	Kopfsalat (unter Glas): alle Qualitäten
+04193000	Spinat
+04194100	Salatgurken (Freiland): alle Qualitäten
+04194200	Salatgurken (unter Glas): alle Qualitäten
+04195000	Karotten: alle Qualitäten
+04196000	Zwiebeln: alle Qualitäten
+04197000	Pflückbohnen
+04198100	Grüne Bohnen (Fisolen): alle Qualitäten
+04199000	Pflückbohnen
+04199901	Zuchtchampignons: alle Qualitäten
+04199902	Zichorie (Freiland)
+04199903	Porree (Lauch) (Freiland)
+04199904	Gemüsepaprika (unter Glas)
+04199905	Rote Rüben
+04199906	Knoblauch
+04199907	Kohlrabi
+04199908	Radieschen
+04199909	Rosenkohl (Kohlsprossen): alle Qualitäten
+04199910	Spargel: alle Qualitäten
+04199911	Zucchini
+04199912	Knollensellerie: alle Qualitäten
+04199913	Zuckermelonen
+04199914	Wassermelonen
+04210000	Rosen
+04220000	Nelken
+04230000	Chrysanthemen
+04240000	Gladiolen
+04250000	Tulpen
+04260000	Freesien
+05110000	Frühkartoffeln (Erdäpfel)
+05120000	Speisekartoffeln (Erdäpfel)
+05200000	Saatkartoffeln
+05900000	Andere Kartoffeln
+06110000	Tafeläpfel: alle Sorten
+06120000	Tafelbirnen: alle Sorten
+06130000	Pfirsiche: alle Sorten
+06191100	Kirschen: Süsskirschen
+06191200	Kirschen: Sauerkirschen (Weichseln)
+06192000	Pflaume : alle Arte
+06193000	Erdbeeren: alle Arten der Produktion
+06193100	Erdbeeren (Freiland)
+06193200	Erdbeeren  (unter Glas)
+06194110	Walnüsse
+06194120	Haselnüsse
+06194130	Mandeln
+06194140	Esskastanien
+06194200	Trockene Fruchte
+06310000	Feigen - frisch
+06199100	Aprikosen (Marillen): alle Sorten
+06199200	Himbeeren
+06199300	Schwarze Johannisbeeren
+06210000	Orangen: alle Sorten
+06220000	Mandarinen: alle Sorten
+06230000	Zitronen: alle Sorten
+06290000	Andere Zitrusfrüchte
+06410000	Tafeltrauben: alle Sorten
+06490000	Trauben zur Weinherstellung
+06510000	Tafeloliven
+06590000	Andere Oliven
+07110000	Taffelwein
+07190000	Andere Taffelwein
+07200000	Qualiteitswein
+07900000	Andere Weine
+08100000	Olivenöl: Extra virgin
+08200000	Olivenöl: Vergine - Fine
+08300000	Olivenöl: Vergine - Corrente
+08400000	Olivenöl: Vergine - Lampante

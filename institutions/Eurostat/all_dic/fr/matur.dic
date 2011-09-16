@@ -1,0 +1,54 @@
+MAT_ALL	Toutes échéances
+MAT_Y01	Rendement des obligations en euro: 1 an jusqu'à échéance
+MAT_Y02	Rendement des obligations en euro: 2 ans jusqu'à échéance
+MAT_Y03	Rendement des obligations en euro: 3 ans jusqu'à échéance
+MAT_Y04	Rendement des obligations en euro: 4 ans jusqu'à échéance
+MAT_Y05	Rendement des obligations en euro: 5 ans jusqu'à échéance
+MAT_Y06	Rendement des obligations en euro: 6 ans jusqu'à échéance
+MAT_Y07	Rendement des obligations en euro: 7 ans jusqu'à échéance
+MAT_Y08	Rendement des obligations en euro: 8 ans jusqu'à échéance
+MAT_Y09	Rendement des obligations en euro: 9 ans jusqu'à échéance
+MAT_Y10	Rendement des obligations en euro: 10 ans jusqu'à échéance
+MAT_Y11	Rendement des obligations en euro: 11 ans jusqu'à échéance
+MAT_Y12	Rendement des obligations en euro: 12 ans jusqu'à échéance
+MAT_Y13	Rendement des obligations en euro: 13 ans jusqu'à échéance
+MAT_Y14	Rendement des obligations en euro: 14 ans jusqu'à échéance
+MAT_Y15	Rendement des obligations en euro: 15 ans jusqu'à échéance
+MAT_Y16	Rendement des obligations en euro: 16 ans jusqu'à échéance
+MAT_Y17	Rendement des obligations en euro: 17 ans jusqu'à échéance
+MAT_Y18	Rendement des obligations en euro: 18 ans jusqu'à échéance
+MAT_Y19	Rendement des obligations en euro: 19 ans jusqu'à échéance
+MAT_Y20	Rendement des obligations en euro: 20 ans jusqu'à échéance
+MAT_Y21	Rendement des obligations en euro: 21 ans jusqu'à échéance
+MAT_Y22	Rendement des obligations en euro: 22 ans jusqu'à échéance
+MAT_Y23	Rendement des obligations en euro: 23 ans jusqu'à échéance
+MAT_Y24	Rendement des obligations en euro: 24 ans jusqu'à échéance
+MAT_Y25	Rendement des obligations en euro: 25 ans jusqu'à échéance
+MAT_Y26	Rendement des obligations en euro: 26 ans jusqu'à échéance
+MAT_Y27	Rendement des obligations en euro: 27 ans jusqu'à échéance
+MAT_Y28	Rendement des obligations en euro: 28 ans jusqu'à échéance
+MAT_Y29	Rendement des obligations en euro: 29 ans jusqu'à échéance
+MAT_Y30	Rendement des obligations en euro: 30 ans jusqu'à échéance
+MAT_LT3M	Echéance en-dessous de 3 mois
+MAT_GT3M	Echéance au-dessus de 3 mois
+MAT_LT1Y	Echéance en-dessous de 1 an
+MAT_GT1Y	Echéance au-dessus de 1 an
+MAT_1TO2Y	Echéance entre 1 et 2 ans
+MAT_1TO5Y	Echéance entre 1 et 5 ans
+MAT_LT2Y	Echéance en-dessous de 2 ans
+MAT_GT2Y	Echéance au-dessus de 2 ans
+MAT_LT5Y	Echéance en-dessous de 5 ans
+MAT_GT5Y	Echéance au-dessus de 5 ans
+MAT_5TO7Y	Echéance entre 5 et 7 ans
+MAT_5TO10Y	Echéance entre 5 et 10 ans
+MAT_7TO10Y	Echéance entre 7 et 10 ans
+MAT_10TO15Y	Echéance entre 10 et 15 ans
+MAT_15TO30Y	Echéance entre 15 et 30 ans
+MAT_10TO20Y	Echéance entre 10 et 20 ans
+MAT_GT10Y	Echéance au-dessus de 10 ans
+MAT_GT20Y	Echéance au-dessus de 20 ans
+MAT_GT30Y	Echéance au-dessus de 30 ans
+SHORT	Court terme
+LONG	Long terme
+LONG_FXR	Long terme / Emissions à taux fixe
+LONG_FLR	Long terme / Emissions à taux variable

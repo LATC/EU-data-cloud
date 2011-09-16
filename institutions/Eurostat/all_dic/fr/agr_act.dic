@@ -1,0 +1,68 @@
+HOLD	Toutes les exploitations
+D	Toutes les exploitations avec des terres arables
+D01_08	Toutes les exploitations cultivant des céréales
+D01	Toutes les exploitations cultivant du blé tendre et de l'épeautre
+D02	Toutes les exploitations cultivant du blé dur
+D03	Toutes les exploitations cultivant du seigle
+D04	Toutes les exploitations cultivant de l'orge
+D05	Toutes les exploitations cultivant de l'avoine
+D06	Toutes les exploitations cultivant du maïs-grain
+D07	Toutes les exploitations cultivant du riz
+D08	Toutes les exploitations cultivant d'autres céréales
+D09	Toutes les exploitations cultivant des légumes secs - total
+D10	Toutes les exploitations cultivant des pommes de terre
+D11	Toutes les exploitations cultivant des betteraves sucrières
+D12	Toutes les exploitations cultivant des plantes sarclées fourragières
+D13	Toutes les exploitations cultivant des plantes industrielles
+D14_15	Toutes les exploitations cultivant des légumes frais, melons, fraises
+D14	En plein air : Toutes les exploitations cultivant des légumes frais, melons, fraises
+D15	Sous serre : Toutes les exploitations cultivant des légumes frais, melons, fraises
+D16	En plein air : Toutes les exploitations cultivant des fleurs et plantes ornementales
+D17	Sous serre : Toutes les exploitations cultivant des fleurs et plantes ornementales
+D18	Toutes les exploitations cultivant des plantes fourragères - total
+D19	Toutes les exploitations cultivant des semences et plantes de terres arables
+D20	Toutes les exploitations cultivant d'autes cultures de terres arables
+D21	Toutes les exploitations cultivant des jachères sans subvention
+F	Total: Toutes les exploitations avec des prairies permanentes et pâturages
+F01	Non compris les pâturages pauvres:Prairies permanentes et pâturages
+F02	Pâturages pauvres:Prairies permanentes et pâturages
+G	Toutes les exploitations cultivant des cultures permanentes
+G01	Toutes les expoloitations avec des plantations d'arbres fruitiers et baies - total
+G02	Toutes les expoloitations avec des agrumeraies
+G03	Toutes les expoloitations avec des oliveraies
+G04	Toutes les expoloitations avec des vignes - total
+G04A	Toutes les expoloitations avec des vignes - vins de qualité
+G04B	Toutes les expoloitations avec des vignes - autres vins
+G04C	Toutes les expoloitations avec des vignes - raisins de table
+G04D	Toutes les expoloitations avec des vignes - raisins secs
+G05	Toutes les expoloitations avec des pépinières
+G06	Toutes les expoloitations avec d'autres cultures permanentes
+G07	Toutes les expoloitations avec des cultures permanentes sous serre
+J	Toutes les exploitations avec l'élevage du cheptel
+J01	Toutes les exploitations avec l'élevage des équidés
+J02_08	Toutes les exploitations avec l'élevage des bovins
+J02	Toutes les exploitations avec l'élevage des bovins < 1 an - total
+J03	Toutes les exploitations avec l'élevage des bovins  1 - <2 ans - mâles
+J04	Toutes les exploitations avec l'élevage des bovins  1 - <2 ans - femelles
+J05	Toutes les exploitations avec l'élevage des bovins  >=2 ans - mâles
+J06	Toutes les exploitations avec l'élevage des génisses, bovins  >=2 ans
+J07	Toutes les exploitations avec l'élevage des vaches laitières
+J08	Toutes les exploitations avec l'élevage d'autres vaches
+J09	Toutes les exploitations avec l'élevage des ovins
+J09A	Toutes les exploitations avec l'élevage des ovins - brebis reproductrices
+J09B	Toutes les exploitations avec l'élevage des ovins - autres
+J10	Toutes les exploitations avec l'élevage des caprins
+J10A	Toutes les exploitations avec l'élevage des caprins - chèvres reproductrices
+J10B	Toutes les exploitations avec l'élevage des caprins - autres
+J11_13	Toutes les exploitations avec l'élevage des porcins
+J11	Toutes les exploitations avec l'élevage des porcins - porcelets d'un poids vif de moins de 20 kg
+J12	Toutes les exploitations avec l'élevage des porcins - truies reproductrices de 50 kg et plus
+J13	Toutes les exploitations avec l'élevage des porcins - autres
+J14_16	Toutes les exploitations avec l'élevage des volailles
+J14	Toutes les exploitations avec l'élevage des volailles - poulets de chair
+J15	Toutes les exploitations avec l'élevage des volailles - poules pondeuses
+J16	Toutes les exploitations avec l'élevage des volailles - autres
+J17	Toutes les exploitations avec l'élevage des lapines mères
+J18	Toutes les exploitations avec l'élevage des abeilles (ruches)
+J19A	Toutes les exploitations avec l'élevage des cervidés
+OTHER	Toutes les exploitations avec l'élevage d'autres animaux

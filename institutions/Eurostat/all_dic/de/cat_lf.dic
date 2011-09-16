@@ -1,0 +1,14 @@
+LFD	Arbeitskr‰fte - vom Betrieb besch‰ftigt (LFRF+LFRNF+LFNR)
+LFR	Arbeitskr‰fte - regelm‰ﬂig vom Betrieb besch‰ftigt (LFRF+LFRNF)
+LFRF	Familienarbeitskr‰fte
+LFH	Alleiniger Betriebsinhaber
+LFRMF	Mitglieder der Familie des Inhabers
+LFS	Ehegatte des alleinigen Betriebsinhabers (bis 2007)
+LFROF	Andere Familienarbeitskr‰fte ( bis 2007)
+LFNF	Familienfremde Arbeitskr‰fte (LFRNF+LFNR)
+LFRNF	Regelm‰ﬂig besch‰ftigte familienfremde Arbeitskr‰fte, einschl. Gruppenbetriebsinhaber
+LFNRNF	Unregelm‰ﬂig besch‰ftigte Familienfremde
+LFGH	Gruppenbetriebsinhaber
+LFNR	Unregelm‰ﬂig besch‰ftigte familienfremde Arbeitskr‰fte
+LFM	Betriebsleiter (ohne Gruppenbetriebe)
+LFND	Arbeitskr‰fte - nicht unmittelbar vom Betrieb besch‰ftigt

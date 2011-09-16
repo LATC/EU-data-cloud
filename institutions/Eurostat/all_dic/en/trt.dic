@@ -1,0 +1,13 @@
+TOTAL	Total treated
+TOT_GEN	Generation
+RECYC_MAT	Material recycling
+RECYC_OTH	Other forms of recycling
+RECYC	Recycling
+RECOV	Recovery
+RECOV_NRG	Energy recovery
+RECOV_OTH	Other forms of recovery
+INCIN	Incineration
+RECOV_INCIN	Recovery including incineration
+DISPO	Disposal
+DEPOS	Deposit onto or into land
+LANDTRT	Land treatment and release into water bodies

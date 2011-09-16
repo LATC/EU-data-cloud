@@ -1,0 +1,9 @@
+TOTAL	Total
+0	No work on the holding
+0_49	< 50% of a full working time
+1_24	< 25% of a full working time
+25_49	25% -< 50% of a full working time
+50_74	50% -< 75% of a full working time
+75_99	75% -< 100% of a full working time
+1_99	Part time
+100	Working full time

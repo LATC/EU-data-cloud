@@ -1,0 +1,11 @@
+TOTAL	Steuern insgesamt
+VAT	Mehrwertsteuer (MwSt)
+X_TAX	Ohne Steuern
+X_VAT	Ohne MwSt (Mehrwertsteuer)
+I_TAX	Alle Steuern inbegriffen
+ENV	Umweltsteuern insgesamt
+NRG	Energiesteuern
+POL	Steuern auf Umweltverschmutzung
+RES	Steuern auf Ressourcen
+TRA	Verkehrssteuern
+POL_RES	Steuern auf Umweltverschmutzung / Resourcen

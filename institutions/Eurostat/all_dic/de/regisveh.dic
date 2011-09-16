@@ -1,0 +1,6 @@
+A000	Insgesamt
+D001	Kraftfahrzeugbewegungen auf nationalem Hoheitsgebiet (unabhängig vom Land der Zulassung)
+D002	Kraftfahrzeugbewegungen auf nationalem Hoheitsgebiet (zugelassen im Meldeland)
+D003	Kraftfahrzeugbewegungen auf nationalem Hoheitsgebiet (im Ausland registriert)
+D004	Kraftfahrzeugbewegungen im Ausland (im Meldeland registriert)
+D005	Kraftfahrzeugbewegungen auf nationalem Hoheitsgebiet und im Ausland (im Meldeland registriert)

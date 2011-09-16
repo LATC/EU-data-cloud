@@ -1,0 +1,18 @@
+TOTAL	Total de tous les accidents avec ou sans jours d'arrêt de travail
+D0	Pas d'arrêt de travail ou moins d'1 jour perdu
+D1_D3	1 - 3 jours perdus
+GE_D4	Plus de 3 jours perdus (4 jours d'absence minimum)
+D4_D6	4 - 6 jours perdus
+D7_D13	7 - 13 jours perdus
+GE_D14	Plus de 14 jours perdus (2 semaines d'absence minimum)
+D14_D20	14 - 20 jours perdus
+D14_D29	14 - 29 jours perdus
+D21_D29	21 jours perdus - 1 mois perdu
+M1_LT_M3	1 mois perdu - 3 mois perdus
+GE_M3	3 mois perdus ou plus
+M3_LT_M6	3 mois perdus - 6 mois perdus
+GE_M6_I	Incapacité permanente (de travail) ou minimum de 183 journées perdues (absence d'au moins 6 mois)
+PERM_INC	Incapacité permanente (de travail)
+FATALITY	Accident mortel
+UNK	Non connu
+OTH	Autres

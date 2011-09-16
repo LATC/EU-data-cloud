@@ -1,0 +1,20 @@
+HBED	Lits d'hôpital disponibles (HP.1)
+HBED_CUR	Lits d'hôpital en soins curatifs (HP.1)
+HBED_PSY	Lits d'hôpital en soins psychiatriques (HP.1)
+HBED_LT	Lits d'hôpital pour soins de longue durée (sauf soins psychiatriques) (HP.1)
+HBED_OTH	Autres lits d'hôpital (HP.1)
+NRCBED	Lits disponibles dans les maisons médicalisées et autres établissements de soins avec hébergement (HP.2)
+CT_SCAN	Scanners CT
+MRI	Appareils d'Imagerie par Résonance Magnétique (IRM)
+GAMMA	Gamma-caméras
+DSA	Appareils d'angiographie
+LSI	Lithotripteurs
+PET_SCAN	Scanners TEP
+RAD	Equipement en radiothérapie
+MAMMO	Mammographes
+OPER	Salles d'opérations à l'hôpital 
+DAY	Endroits de soins de jour tous confondus
+DAY_SUR	Endroits de soins de jour chirurgicaux
+DAY_ONC	Endroits de soins de jour oncologicaux
+DAY_PSY	Endroits de soins de jour psychiatriques
+DAY_GER	Endroits de soins de jour gériatriques

@@ -1,0 +1,10 @@
+PL_1	Anzahl der Anlagen
+PL_2	Theoretische Leistung BSB (1 000 kg O2/Tag)
+PL_3	Tatsächlicher Durchsatz BSB (1 000 kg O2/Tag)
+PL_4	Ausleitungen BSB (1 000 kg O2/Tag)
+PL_5	Theoretische Leistung nach Volumen (34) (1 000 m3/d)
+PL_6	Tatsächlicher Durchsatz nach Volumen (1 000 m3/d)
+PL_7	Nach Behandlung abgeleitetes Abwasser nach Volumen (1 000 m3/d)
+PL_8	Theoretische Leistung nach Einwohnern (34) (1 000 EGW)
+PL_9	Tatsächlicher Durchsatz nach Einwohnern (1 000 EGW)
+PL_10	Nach Behandlung abgeleitetes Abwasser nach Einwohnern (1 000 EGW)

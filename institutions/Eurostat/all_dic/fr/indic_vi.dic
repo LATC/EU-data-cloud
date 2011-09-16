@@ -1,0 +1,15 @@
+NA	Sans objet
+HOLD	Exploitations viticoles
+AAU	Superficie agricole utilisée des exploitations viticoles (ha)
+VITAR	Superficie viticole (ha)
+WGVHOLD	Exploitations ayant des raisins de cuve
+WGVAREA	Superficie cultivée avec raisins de cuve (ha)
+QWAREA	Superficie cultivée avec raisins de cuve à VQPRD (ha)
+WGV_AREA	Superficie à raisins de cuve
+WGV_NOPROD	Superficie à raisins de cuve non encore en production
+WGV_INPROD	Superficie à raisins de cuve en production
+GRUB	Arraché
+PLTED	Planté (nouvelles plantations)
+REPLTED	Replanté
+WINE_PROD	Production de moût ou vin (1 000 hl)
+ALCOOL	Titre alcoométrique naturel (% vol.)

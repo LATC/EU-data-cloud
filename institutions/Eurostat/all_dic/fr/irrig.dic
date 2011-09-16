@@ -1,0 +1,52 @@
+TOTAL	Total
+SQM_LT30	Moins de 30аm2
+SQM30-39	De 30 р 39аm2
+SQM40-49	De 40 р 49 m2
+SQM50-59	De 50 р 59аm2
+SQM60-79	De 60ар 79аm2
+SQM80-99	De 80 р 99аm2
+SQM100-119	De 100ар 119аm2
+SQM_LT120	Moins de 120аm2
+SQM120-149	De 120ар 149аm2
+SQM120-399	De 120ар 399аm2
+SQM_GE150	150аm2 ou plus
+SQM400-999	De 400ар 999аm2
+SQM1000-2499	De 1 000ар 2 499аm2
+SQM2500-4999	De 2 500ар 4 999аm2
+SQM5000-9999	De 5 000ар 9 999аm2
+SQM_GE10000	10 000аm2 ou plus
+HA0	Zщro ha
+HA_LT01	Moins de 0.10 ha
+HA01	De 0.10 р 0.19 ha
+HA02	De 0.20 р 0.29 ha
+HA_LT025	Moins de 0.25 ha
+HA025-04	De 0.25 р 0.49 ha
+HA03-04	De 0.30 р 0.49 ha
+HA_LT05	Moins de 0.50 ha
+HA05-06	De 0.50 р 0.69 ha
+HA05-09	De 0.50 р 0.99 ha
+HA07-09	De 0.70 р 0.99 ha
+HA_LT1	Moins de 1 ha
+HA1	De 1 р 1.9 ha
+HA_LT2	Moins de 2 ha
+HA_GE2	2 ha ou plus
+HA2-4	De 2 р 4.9 ha
+HA_LT5	Moins de 5 ha
+HA_GE5	5 ha ou plus
+HA5-9	De 5 р 9.9 ha
+HA10-19	De 10 р 19.9 ha
+HA_GE20	20 ha ou plus
+HA20-29	De 20 р 29.9 ha
+HA20-49	De 20 р 49.9 ha
+HA30-49	De 30 р 49.9 ha
+HA30-79	De 30 р 79.9 ha
+HA_GE30	30 ha ou plus
+HA50-69	De 50 р 69.9 ha
+HA50-99	De 50 р 99.9 ha
+HA_GE50	50 ha ou plus
+HA_GE70	70 ha ou plus
+HA_GE80	80 ha ou plus
+HA80-149	De 80 р 149.9 ha
+HA_GE100	100 ha ou plus
+HA_GE150	150 ha ou plus
+UNK	Inconnu

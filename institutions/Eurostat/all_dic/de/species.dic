@@ -1,0 +1,1240 @@
+F00	Fischereierzeugnisse insgesamt
+F01	Aquatic animals
+F02	Freshwater and diadromous fishes
+F03	Marine fishes
+F04	Crustaceans and molluscs
+F05	Marine animals
+F06	Aquatic invertebrates
+F07	Finfish
+F08	Finfish and invertebrates
+F10	Freshwater fishes
+F11	Carps, barbels and other cyprinids
+F12	Tilapias and other cichlids
+F13	Miscellaneous freshwater fishes
+F20	Diadromous fishes
+F21	Sturgeons, paddlefishes
+F22	River eels
+F23	Salmons, trouts, smelts
+F24	Shads
+F25	Miscellaneous diadromous fishes
+F30	Marine fishes
+F31	Flounders, halibuts, soles
+F32	Cods, hakes, haddocks
+F33	Miscellaneous coastal fishes
+F34	Miscellaneous demersal fishes
+F35	Herrings, sardines, anchovies
+F36	Tunas, bonitos, billfishes
+F37	Miscellaneous pelagic fishes
+F38	Sharks, rays, chimaeras
+F39	Marine fishes not identified
+F40	Crustaceans
+F41	Freshwater crustaceans
+F42	Crabs, sea-spiders
+F43	Lobsters, spiny-rock lobsters
+F44	King crabs, squat-lobsters
+F45	Shrimps, prawns
+F46	Krill, planktonic crustaceans
+F47	Miscellaneous marine crustaceans
+F50	Molluscs
+F51	Freshwater molluscs
+F52	Abalones, winkles, conchs
+F53	Oysters
+F54	Mussels
+F55	Scallops, pectens
+F56	Clams, cockles, arkshells
+F57	Squids, cuttlefishes, octopuses
+F58	Miscellaneous marine molluscs
+F60	Aquatic mammals
+F61	Blue-whales, fin-whales
+F62	Sperm-whales, pilot-whales
+F63	Eared seals, hair seals, walruses
+F64	Miscellaneous aquatic mammals
+F70	Miscellaneous aquatic animals
+F71	Frogs and other amphibians
+F72	Turtles
+F73	Crocodiles and alligators
+F74	Sea-squirts and other tunicates
+F75	Horseshoe crabs and other arachnoids
+F76	Sea-urchins and other echinoderms
+F77	Miscellaneous aquatic invertabrates
+F80	Miscellaneous aquatic animal products
+F81	Pearls, mother-of-pearl, shells
+F82	Corals
+F83	Sponges
+F90	Aquatic plants
+F91	Brown seaweeds
+F92	Red seaweeds
+F93	Green seaweeds
+F94	Miscellaneous aquatic plants
+AAA	Adriatic sturgeon - Acipenser naccarii
+AAS	Noble crayfish - Astacus astacus
+ABF	Red abalone - Haliotis rufescens
+ABK	White bream - Blicca bjoerkna
+ABX	Meerohren - Haliotis spp
+ACC	Ruffe - Gymnocephalus cernuu
+ACH	Wandersaibling - Salvelinus alpinus
+AES	Rosa Garnele - Pandalus montagui
+AGD	Sharktooth moray - Gymnothorax maderensis
+AGK	Brown moray - Gymnothorax unicolor
+AGN	Engelhai - Squatina squatina
+AHN	Swallowtail seaperch - Anthias anthias
+AHH	Mediterranean sand smelt - Atherina hepsetus
+AKL	Scale-rayed wrasse - Acantholabrus palloni
+ALB	Germon - Thunnus alalunga
+ALC	Glattkopf - Alepocephalus bairdii
+ALE	Nordamerikanischer Flubhering - Alosa pseudoharengus
+ALF	Nordischer Schleimkopf, Kaiserbarsch - Beryx spp
+ALH	Slickheads nei - Alepocephalus spp
+ALK	Pazifischer (=Walleye) Pollack - Theragra chalcogramma
+ALR	Bleak - Alburnus alburnus
+ALV	Thresher - Alopias vulpinus
+AMB	Bernsteinfisch - Seriola dumerili
+AMX	Seriola - Seriola spp
+ANA	Argentinische Sardelle - Engraulis anchoita
+ANB	Nordwestatlantische Sardelle - Anchoa mitchilli
+ANC	Südafrikanische Sardelle - Engraulis capensis
+ANE	Europäische Sardelle - Engraulis encrasicolus
+ANF	Seeteufel - Lophiidae
+ANG	Amerikanischer Seeteufel - Lophius americanus
+ANI	Bändereisfisch - Champsocephalus gunnari
+ANK	Budegassa Anglerfisch - Lophius budegassa
+ANN	Ringelbrasse - Diplodus annularis
+ANS	Antarktischer Silberfisch - Pleuragramma antarcticum
+ANT	Blauhecht - Antimora rostrata
+ANX	Anchovies etc, nei - Engraulidae
+APB	Siberian sturgeon - Acipenser baerii
+APE	Starry sturgeon - Acipenser stellatus
+APG	Waxdick - Acipenser gueldenstaedti
+APH	Intermediate scabbardfish - Aphanopus intermedius
+API	Deep-water catsharks - Apristurus spp
+APL	Algen - Plantae aquaticae
+APN	White sturgeon - Acipenser transmontanus
+APO	Kardinalfische - Apogonidae
+APR	Sterlet - Acipenser ruthenus
+APU	Sturgeon - Acipenser sturio
+ARA	Afrikanische Tiefseegarnele - Aristeus antennatus
+ARF	Amerikanischer Pfeilzahnheilbutt - Atheresthes stomias
+ARG	Argentines - Argentina spp
+ARI	Tiefseegarnelen - Aristeidae
+ARK	Archenmuscheln - Arca spp
+ARS	Giant red shrimp - Aristaeomorpha foliacea
+ARU	Greater argentine - Argentina silus
+ARV	Striped red shrimp - Aristeus varidens
+ARY	Argentine - Argentina sphyraena
+ASD	Gewöhnliche Alse - Alosa alosa
+ASK	Meerengel - Squatinidae
+ASN	North Atlantic rockweed - Ascophyllum nodosum
+ASR	Harpoon seaweeds - Asparagopsis spp
+ASU	Asp - Aspius aspius
+ATB	Big-scale sand smelt - Atherina boyeri
+ATG	Artic cod - Arctogadus glacialis
+ATP	Sand smelt - Atherina presbyter
+AUL	Australian Blackspot catshark - Aulohalaelurus labiosus
+AUP	White-clawed crayfish - Austropotamobius pallipes
+AUU	Canary damsel - Abudefduf luridus
+AVR	Green jobfish - Aprion virescens
+AWT	Tarek - Chalcalburnus tarichi
+AYS	Euro-American crayfishes nei - Astacidae, Cambaridae
+BAH	Olivgrüne Flunder - Paralichthys olivaceus
+BAI	Batoid fishes nei - Batoidimorpha (Hypotremata)
+BAR	Barrakudas nei - Sphyraena spp
+BAS	Sägebarsche - Serranus spp
+BAZ	Barrakudas - Sphyraenidae
+BBH	Kanadische Alse - Alosa aestivalis
+BBS	Meersau - Scorpaena porcus
+BBW	Blainville's beaked whale - Mesoplodon densirostris
+BBZ	Barbus cyclolepis
+BCW	Cuvier's beaked whale - Ziphius cavirostris
+BDY	Bodianus spp
+BEL	Weißwal - Delphinapterus leucas
+BEM	Gafftopsail sea catfish - Bagre marinus
+BEN	Hornhechte - Belonidae
+BEP	Chilenische Pelamide - Sarda chiliensis
+BER	Brachypterois serrulata
+BES	Belone spp
+BET	Großaugenthun - Thunnus obesus
+BFT	Roter Thunfisch - Thunnus thynnus
+BGR	Bastard-Süßlippe - Pomadasys incisus
+BGW	Gervais' beaked whale - Mesoplodon europaeus
+BGX	Pomadasys spp
+BHD	Lusitanian toadfish - Halobatrachus didactylus
+BHY	Bathyraja rays nei - Bathyraja spp
+BIB	Französischer Dorsch - Trisopterus luscus
+BIC	Edler Tolstolob - Hypophthalmichthys nobilis
+BIG	Großaugenbarsche - Priacanthus spp
+BIL	Fächerfische, Segelfische - Istiophoridae
+BIP	Westpazifische Pelamide - Sarda orientalis
+BIS	Großaugiger Selar - Selar crumenophthalmus
+BKC	Schwarzer Karpfen - Mylopharyngodon piceus
+BLB	Deckfisch - Stromateus fiatola
+BLE	Schleimfische - Blenniidae
+BLF	Schwarzflossenthun - Thunnus atlanticus
+BLI	Blauleng - Molva dypterygia
+BLL	Glattbutt - Scophthalmus rhombus
+BLM	Schwarzer Marlin - Makaira indica
+BLP	Patagonischer Zahnfisch - Eleginops maclovinus
+BLT	Melvera-Fregattmakrele - Auxis rochei
+BLU	Blaufisch - Pomatomus saltatrix
+BLW	Blauwal - Balaenoptera musculus
+BMY	Bowhead whale -Balaena mysticetus
+BNF	Großflossen-Grätenfisch - Pterothrissus belloci
+BOA	Bonga-Hering - Ethmalosa fimbriata
+BOB	Kroyers Geißelgarnele - Xiphopenaeus kroyeri
+BOC	Boarfish - Capros aper
+BOF	Damenfisch - Albula vulpes
+BOG	Gelbstriemen - Boops boops
+BON	Bonito - Sarda sarda
+BOP	Ungestreifte Pelamide - Orcynopsis unicolor
+BOR	Eberfische - Caproidae
+BOW	Nördlicher Entenwal - Hyperoodon ampullatus
+BOY	Purple dye murex - Bolinus brandaris
+BPI	Laxierfisch - Spicara maena
+BRA	Brama spp
+BRB	Streifenbrasse - Spondyliosoma cantharus
+BRD	Bärtige Brotula - Brotula barbata
+BRF	Blaumaul - Helicolenus dactylopteru
+BRO	Kupferhai - Carcharhinus brachyurus
+BRU	Southern rays bream - Brama australis
+BRW	Bryde-Wal - Balaenoptera edeni
+BRX	Schleimköpfe - Berycidae
+BRZ	Brachsenmakrelen - Bramidae
+BSC	Blaugefleckte Meerbrasse - Sparus caeruleostictus
+BSD	Spaniblennius riodourensis
+BSE	Seebarsche - Dicentrarchus spp
+BSF	Kurzflossen Haarschwanz - Aphanopus carbo
+BSH	Großer Blauhai - Prionace glauca
+BSK	Riesenhai - Cetorhinus maximus
+BSP	Schwarzfische - Seriolella spp
+BSS	Wolfsbarsch,Seebarsch - Dicentrarchus labrax
+BSX	Sägebarsche - Serranidae
+BTH	Großäugiger Fuchshai - Alopias superciliosus
+BTT	Batasio batasio (Tonnen)
+BUA	Schwanzfleck - Chloroscombrus chrysurus
+BUD	Mediterranean barbel - Barbus meridionalis
+BUF	Sauger - Ictiobus spp
+BUK	Schmetterlings-Thunfisch - Gasterochisma melampus
+BUM	Blauer Marlin - Makaira nigricans
+BUR	Sompat-Süßlippe - Pomadasys jubelini
+BUT	Amerikanischer Butterfish - Peprilus triacanthus
+BUX	Erntefische, Butterfische - Stromateidae
+BVM	Spanish ling - Molva macrophthalma
+BWD	White-beaked dolphin - Lagenorhynchus albirostris
+BXD	Alfonsino - Beryx decadactylus
+BYE	Bathyraja meridionalis
+BYR	Bathyraja irrasa
+BYS	Splendid alfonsino - Beryx splendens
+CAA	Gestreifter Katfisch - Anarhichas lupus
+CAB	Northern wolffish - Anarhichas denticulatus
+CAF	Katzenwelse - Ictalurus spp
+CAL	Blaukrabben - Callinectes spp
+CAO	Gefleckter Kreuzwels - Arius maculatus
+CAP	Kapelan - Mallotus villosus
+CAR	Cartilaginous fishes nei - Chondrichthyes
+CAS	Gefleckter Katfisch - Anarhichas minor
+CAT	Katfische - Anarhichas spp
+CAX	Kreuzwelse - Ariidae
+CBA	Königsbarsch - Rachycentron canadum
+CBC	Red bandfish - Cepola macrophthalma
+CBE	Blachea xenobranchialis
+CBM	Meerrabe - Sciaena umbra
+CBR	Ziegenbarsch - Serranus cabrilla
+CBT	Philippine catfish - Clarias batrachus
+CCL	Blacktip shark - Carcharhinus limbatus
+CCP	Sandbar shark - Carcharhinus plumbeus
+CCT	Sand tiger shark - Odontaspis taurus
+CDL	Cardinal fishes nei - Epigonus spp
+CDX	Umberfische - Sciaenidae
+CDY	Diploconger polystigmatus
+CDZ	Northern cods nei - Gadus spp
+CEM	Smallfin gulper shark - Centrophorus moluccensis
+CEN	Schwarzfische - Centrolophidae
+CEO	Rudderfish - Centrolophus niger
+CEP	Cephalopods nei - Cephalopoda
+CET	Cuneata-Seezunge - Dicologoglossa cuneata
+CEX	Kingklips - Genypterus spp
+CFB	Black dogfish - Centroscyllium fabricii
+CGE	West African geryon - Geryon maritae
+CGO	Goldfisch - Carassius auratus
+CGX	Bastardmakrelen - Carangidae
+CGZ	Meeraale, Congeraale - Conger spp
+CHM	Totenkopf-Chimäre - Callorhinchus capensis
+CHO	Kap Kalmar - Loligo reynaudi
+CHP	Südamerikanische Sardine - Sardinops sagax
+CHR	Saiblinge - Salvelinus spp
+CIJ	Peled - Coregonus peled
+CIL	Spotted flounder - Citharus linguatula
+CJM	Chilenische Bastardmakrele - Trachurus murphyi
+CKW	Umberfische - Pseudotolithus spp
+CLA	Kilka - Clupeonella cultriventri
+CLB	Riesentrogmuschel - Spisula solidissima
+CLE	Anchovy sprat - Clupeonella engrauliformis
+CLH	Nördliche Venusmuschel - Mercenaria mercenaria
+CLJ	Japanische Teppichmuschel - Ruditapes philippinarum
+CLP	Heringe, Clupeiden - Clupeidae
+CLQ	Islandmuschel - Arctica islandica
+CLS	Sandklaffmuschel - Mya arenaria
+CLT	Stimpson's surf clam - Spisula polynyma
+CLU	Clupeoids nei - Clupeoidei
+CLV	Venusmuscheln - Veneridae
+CLX	Muscheln - Bivalvia
+CLZ	North African catfish - Clarias gariepinus
+CMK	Damselfish - Chromis chromis
+CMM	Manila clam - Corbicula manilensis
+CMO	Seeratte - Chimaera monstrosa
+CMR	Mittelmeer-Strandkrabbe - Carcinus aestuarii
+CNZ	Crangon shrimps nei - Crangon spp
+COA	Amerikanischer Meeraal - Conger oceanicus
+COB	Umberfisch, Schattenfisch - Umbrina cirrosa
+COC	Herzmuschel - Cerastoderma edule
+COD	Dorsch (Kabeljau) - Gadus morhua
+COE	Meeraal - Conger conger
+COH	Silberlachs - Oncorhynchus kisutch
+COL	Sardinia-Koralle - Corallium rubrum
+COM	Narrow-barred Spanish mackerel - Scomberomorus commerson
+COR	Precious corals nei - Corallium spp
+COU	Mediterranean rainbow wrasse - Coris julis
+COW	Navaga,Wachna - Eleginus navaga
+COX	Meeraale - Congridae
+COZ	Herzmuscheln - Cardiidae
+CPL	Lowfin gulper shark - Centrophorus lusitanicus
+CPR	Sägegarnele - Palaemon serratus
+CRA	Panzerkrebse - Brachyura
+CRB	Blaue Schwimmkrabbe - Callinectes sapidus
+CRD	Sumpfkrebs, Galizier - Astacus leptodactylus
+CRE	Taschenkrebs - Cancer pagurus
+CRG	Green crab - Carcinus maenas
+CRK	Felsenkrabbe - Cancer irroratus
+CRN	Sandgarnelen - Crangonidae
+CRQ	Arktische Seespinne - Chionoecetes opilio
+CRR	Rote Tiefseekrabbe - Geryon quinquedens
+CRS	Schwimmkrabben - Portunus spp
+CRU	Marine crustaceans nei - Crustacea
+CRV	Silberne Pennahia - Pennahia argentatus
+CRW	Palinurid spiny lobster nei - Palinurus spp
+CSH	Granat,Sandgarnele - Crangon crangon
+CTB	Common two-banded seabream - Diplodus vulgaris
+CTC	Gemeiner Tintenfisch - Sepia officinalis
+CTG	Große Teppichmuschel - Tapes decussatus
+CTL	Cuttlefish, Bobtail squids, nei - Sepiidae, Sepiolidaee
+CTO	Raubwelse - Clarias spp
+CTS	(kleine) Teppichmuschel - Venerupis pullastra
+CTZ	Streaked gurnard - Chelidonichthys lastoviza
+CUI	Alosa caspia
+CUS	Rosa Kingklip - Genypterus blacodes
+CUT	Haarschwänze, Rinkfische - Trichiuridae
+CUX	Sea-cucumbers nei - Holothurioidea
+CVJ	Pferde-Stachelmakrele - Caranx hippos
+CWS	Careproctus spp
+CXF	Redfish - Centroberyx affinis
+CYH	Large-eyed rabbitfish - Hydrolagus mirabilis
+CYO	Portuguese dogfish - Centroscymnus coelolepis
+CYP	Longnose velvet dogfish - Centroscymnus crepidater
+CYY	Shortnose velvet dogfish - Centroscymnus cryptacanthus
+DAB	Kliesche, Scharbe - Limanda limanda
+DBO	(Großer) Tümmler - Tursiops truncatus
+DCA	Birdbeak dogfish - Deania calcea
+DCO	Gemeiner Delphin - Delphinus delphis
+DCP	Natantian decapods nei - Natantia
+DCX	Diadromous clupeoids nei - Clupeoidei
+DEA	Angola Zahnbrasse - Dentex angolensis
+DEC	Zahnbrasse - Dentex dentex
+DEL	Großaugenzahnbrasse - Dentex macrophthalmus
+DEM	Morokko zahnbrasse - Dentex maroccanus
+DEN	Kanarische zahnbrasse - Dentex canariensis
+DEP	Rosa zahnbrasse - Dentex gibbosus
+DES	Japanisches Glasauge - Glossanodon semifasciatus
+DEX	Dentex nei - Dentex spp
+DGH	Dogfishes,Hounds, nei - Squalidae, Scyliorhinidae
+DGS	Dornhai,Grundhai - Squalus acanthias
+DGX	Dornhai,Grundhai - Squalidae
+DGZ	Dogfishes nei - Squalus spp
+DIA	Diadromous fishes nei - Osteichthyes
+DKR	Giant atlantic cockle - Dinocardium robustum
+DLP	Delphine - Delphinidae
+DOL	Gemeine Goldmakrele - Coryphaena hippurus
+DON	Sägezähnchen - Donax spp
+DOR	Orbignyi Dosinia - Dosinia orbignyi
+DOT	Dogtooth tuna - Gymnosarda unicolor
+DPS	Rosa Geißelgarnele - Parapenaeus longirostris
+DPX	Demersal percomorphs nei - Perciformes
+DRR	Rissos-Delphin - Grampus griseus
+DRS	Boe Umberfisch - Pteroscion peli
+DRU	Umberfisch - Sciaena spp
+DSA	Atlantic spotted dolphin - Stenella frontalis
+DSP	Flecken-Delphine - Stenella spp
+DST	Blauweißer Delphin - Stenella coeruleoalba
+DSX	Mature dosinia - Dosinia exoleta
+DUS	Sandbankhai - Carcharhinus obscurus
+DWH	Atlantic white-sided dolphin - Lagenorhynchus acutus
+DWW	Dwarf sperm whale - Kogia simus
+DYL	Flying gurnard - Dactylopterus volitans
+EAG	Adlerrochen - Myliobatidae
+ECH	Echinoderms - Echinodermata
+EDT	Musky octopus - Eledone moschata
+EEL	Yellowedge grouper - Epinephelus flavolimbatus
+EEO	Queen snapper - Etelis oculatus
+EHI	Curled picarel - Centracanthus cirrus
+EIK	Warty crab - Eriphia verrucosa
+EJE	Elegant cuttlefish - Sepia elegans
+ELE	Europäischer aal - Anguilla anguilla
+ELL	Ellopostoma megalomycter
+ELP	Aalmutter - Zoarces viviparus
+ELX	Echter Aal - Anguilla spp
+ELZ	Wolfsfische - Lycodes spp
+EMP	Imperatorfische - Lethrinidae
+EMT	Bonnetmouths,Rubyfishes, nei - Emmelichthyidae
+ENC	Fourbeard rockling - Enchelyopus cimbrius
+ENX	Rock cook - Centrolabrus exoletus
+EOI	Horned octopus - Eledone cirrosa
+EPI	Teleskop Kardinalfisch - Epigonus telescopus
+EQE	Pod razor shell - Ensis ensis
+EQI	Sword razor shell - Ensis siliqua
+ERO	Pitted stonefish - Erosa erosa
+ERS	Chinese river crab - Eriocheir sinensis
+ETR	Sagre rude - Etmopterus princeps
+ETX	Velvet belly - Etmopterus spinax
+FAL	Silky shark - Carcharhinu falciform
+FAS	Falkland sprat - Sprattus Fuegensis
+FAW	False killer whale - Pseudorca crassidens
+FBM	Brachsen - Abramis brama
+FBR	Brachsen - Abramis spp
+FBU	Quappe,Rutte - Lota lota
+FCC	Karausche, Giebel - Carassius carassius
+FCG	Graskarpfen - Ctenopharyngodon idellus
+FCP	Karpfen - Cyprinus carpio
+FCX	Freshwater crustaceans nei - Crustacea
+FCY	Karpfenfische - Cyprinidae
+FGX	Grundeln - Gobiidae
+FID	Aland, Orfe - Leuciscus idus
+FIE	Common dace - Leuciscus leuciscus
+FIM	Transparent goby - Aphia minuta
+FIN	Finfishes nei - Osteichthyes
+FIW	Finnwal - Balaenoptera physalus
+FKG	Violet sea urchin - Sphaerechinus granularis
+FLE	Flunder - Platichthys flesus
+FLS	Sommerflunder - Paralichthys dentatus
+FLW	Amerikanische Winterflunder - Pseudopleuronectes americanus
+FLX	Plattfische - Pleuronectiformes
+FLY	Fliegende Fische - Exocoetidae
+FNT	Banded murex - Phyllonotus trunculus
+FOR	Mittelmeer-Gabeldorsch - Phycis phycis
+FOX	Ostatlantische Gabeldorsche - Phycis spp
+FPE	Flußbarsch - Perca fluviatilis
+FPI	Hecht - Esox lucius
+FPP	Zander - Stizostedion lucioperca
+FRF	Süßwasserfische - Osteichthyes
+FRG	Frösche - Rana spp
+FRI	Fregattmakrele - Auxis thazard
+FRL	Bean solen - Pharus legumen
+FRO	Plötze,Rotauge - Rutilus rutilus
+FRS	Asiatische Kleinsardine - Sardinella fimbriata
+FRX	Rotaugen - Rutilus spp
+FRZ	Frigate and bullet tuna - Auxis thazard, A.rochei
+FSC	Ziege,Sichling - Pelecus cultratus
+FSI	Freshwater siluroids nei- Siluroidei
+FTE	Schleie - Tinca tinca
+FUA	Wracks nei - Fucaceae
+FUU	Toothed wrack - Fucus serratus
+FUV	Bladder wrack - Fucus vesiculosus
+FVE	Kleine Maräne - Coregonus albula
+FYS	Nori nei - Porphyra spp
+GAB	Australian sawtail catshark - Galeus boardmani
+GAD	Gadiformes nei - Gadiformes
+GAG	Hundshai,Biethai - Galeorhinus galeus
+GAL	Lesser African threadfin - Galeoides decadactylus
+GAM	Mouse catshark - Galeus murinus
+GAR	Hornhecht,Hornfisch - Belone belone
+GAS	Gastropods nei - Gastropoda
+GAT	Katzenkreuzwels - Galeichthys feliceps
+GAU	Crest-tail catsharks nei - Galeus spp
+GBA	Atlantischer Barrakuda - Sphyraena barracuda
+GBN	Schwarzküling,Schwarzgrundel - Gobius niger
+GBR	Westmediterrane Süßlippe - Plectorhinchus mediterraneus
+GDE	Threadfin rockling - Gaidropsarus ensis
+GDG	Silvery pout - Gadiculus argenteus
+GDT	Arctic rockling - Gaidropsarus argentatus
+GDY	Japanese isinglass - Gelidium amansii
+GEL	Gelidium-Algen - Gelidium spp
+GEP	Schlangenmakrelen - Gempylidae
+GEQ	Giant gelidium - Gelidium corneum
+GER	Tiefseekrabben - Geryon spp
+GFB	Gabeldorsch - Phycis blennoides
+GFI	Panama armoured shrimp - Glyphocrangon sicaria
+GHL	Schwarzer Heilbutt - Reinhardtius hippoglossoides
+GIP	Barramundi(=Giant seaperch) - Lates calcarifer
+GIT	Bärengarnele - Penaeus monodon
+GKL	Common European bittersweet - Glycymeris glycymeris
+GLH	Westralian jewfish - Glaucosoma hebraicum
+GLO	Pilot whales nei - Globicephala spp
+GLS	Gracilaria seaweeds - Gracilaria spp
+GMG	Thorny tinselfish - Grammicolepis brachiusculus
+GOA	Westafrikanische Meerbarbe - Pseudupeneus prayensis
+GOB	Atlantic gobies nei - Gobius spp
+GOO	Entenmuscheln - Lepas spp
+GOX	Meerbarben - Upeneus spp
+GPA	Meergrundeln,Grundeln - Gobiidae
+GPB	Zackenbarsche - Mycteroperca spp
+GPD	Riesen-Zackenbarsch - Epinephelus marginatus
+GPW	Weißer Zackenbarsch - Epinephelus aeneus
+GPX	Zackenbarsche - Epinephelus spp
+GRA	Afrikanische Streifensüßlippe - Parapristipoma octolinea
+GRB	Großaugen-Angola, Meerbrasse - Brachydeuterus auritus
+GRC	Grönland-Dorsch - Gadus ogac
+GRM	Patagonischer Grenadier - Macruronus magellanicus
+GRN	Neuseeländischer Grenadier - Macruronus novaezealandiae
+GRO	Groundfishes nei - Osteichthyes
+GRV	Grenadierfische - Macrourus spp
+GRX	Grunzer, Süßlippen - Haemulidae (=Pomadasyidae)
+GSK	Eishai,Grönlandhai - Somniosus microcephalus
+GSM	Solenette - Buglossidium luteum
+GSQ	Lightfoot crab - Grapsus grapsus
+GTA	Three-spined stickleback - Gasterosteus aculeatus
+GTF	Geigenrochen - Rhinobatidae
+GUC	Kap-Knurrhahn - Chelidonichthys capensis
+GUG	Grauer Knurrhahn - Eutrigla gurnardus
+GUM	Longfin gurnard - Chelidonichthys obscurus
+GUN	Leierknurrhahn,Pfeifenfisch - Trigla lyra
+GUP	Rauher Dornhai - Centrophorus granulosus
+GUQ	Düsterer Dornhai - Centrophorus squamosus
+GUR	Kuckucks-Knurrhahn - Chelidonichthys cuculus
+GUS	Guinea-Geißelgarnele - Parapenaeopsis atlantica
+GUU	Roter Knurrhahn - Chelidonichthys lucerna
+GUX	Knurrhähne,Searobins nei - Triglidae
+GUY	Gurnards nei - Trigla spp
+GUZ	Geigenrochen - Rhinobatos spp
+GYN	Nichol's lanternfish - Gymnoscophelus nicholsi
+HAD	Schellfisch - Melanogrammus aeglefinus
+HAL	Atlantischer Heilbutt - Hippoglossus hippoglossus
+HAN	Dusky catshark - Halaelurus canescens
+HAP	Pazifischer Heilbutt - Hippoglossus stenolepis
+HCX	Venusmuscheln - Meretrix spp
+HDV	Imperial blackfish - Schedophilus ovalis
+HEP	Pazifischer Hering - Clupea pallasii
+HER	Atlantischer hering - Clupea harengus
+HKB	Benguela-Seehecht - Merluccius polli
+HKC	Kap-Hecht - Merluccius capensis,M.paradox.
+HKE	Europäischer Seehecht - Merluccius merluccius
+HKK	Shallow-water Cape hake - Merluccius capensis
+HKM	Senegalesischer Seehecht - Merluccius senegalensis
+HKN	Südlicher Seehecht - Merluccius australis
+HKO	Tiefenwasser-Kapseehecht - Merluccius paradoxus
+HKP	Argentinischer Seehecht - Merluccius hubbsi
+HKR	Roter Gabeldorsch - Urophycis chuss
+HKS	Nordamerikanischer Seehecht, Silberhecht - Merluccius bilinearis
+HKU	Brasilianischer Gabeldorsch - Urophycis brasiliensis
+HKW	Weißer Gabeldorsch - Urophycis tenuis
+HKX	Seehechte - Merluccius spp
+HKZ	Seehechte - Merlucciidae
+HLT	Tuberculate abalone - Haliotis tuberculata
+HLZ	Sea thong - Himanthalia elongata
+HMC	Kap-Bastardmakrele - Trachurus capensis
+HMG	Grünrücken-Bastardmakrele - Trachurus declivis
+HMM	Mittelmeerstöcker, Mittelmeer-Bastardmakrele - Trachurus mediterraneus
+HMY	False scad - Caranx rhonchus
+HMZ	Cunene-Bastardmakrele - Trachurus trecae
+HNQ	Pink geryon - Chaceon macphersoni
+HOL	Chimaeras etc, nei - Chimaeriformes
+HOM	Stöcker,Bastardmakrele - Trachurus trachurus
+HON	Common nase - Chondrostoma nasus
+HOU	Schnepel, Schnäpel - Coregonus oxyrinchus
+HPR	Mediterranean slimehead - Hoplostethus mediterraneus
+HQM	Two-row rock shell - Thais haemastoma
+HQW	Unicell. Chlorella green alga - Chlorella vulgaris
+HTU	Glasseye - Heteropriacanthus cruentatus
+HUC	Huchen - Hucho hucho
+HUH	Beluga - Huso huso
+HUM	Atka mackerel - Pleurogrammus monopterygius
+HUS	Gelber Schnapper - Lutjanus argentiventris
+HUW	Buckelwal - Megaptera novaeangliae
+HVP	Patagonian hake - Merluccius patagonicus
+HXP	Carps nei - Hypophthalmichthys spp
+HXT	Sharpnose sevengill shark - Heptranchias perlo
+HYD	Ratfishes nei - Hydrolagus spp
+IAR	Pink cuttlefish - Sepia orbignyana
+IAX	Cuttlefishes nei - Sepia spp
+ICX	Eisfische - Channichthyidae
+ILI	Westafrikanische Ilischa - Ilisha africana
+ILL	Shortfin squids nei - Illex spp
+IMS	Irischmoos - Chondrus crispus
+INV	Aquatic invertebrates nei - Invertebrata
+IOD	Blue-leg swimcrab - Liocarcinus depurator
+IOS	Großkopfsardine - Sardinella longiceps
+ISC	Isländische Kammuschel - Chlamys islandica
+ITE	Brown bullhead - Ameiurus nebulosus
+ITM	Schwarzer Zwergwels - Ameiurus melas
+ITP	Getüpfelter Gabelwels - Ictalurus punctatus
+IYL	Bichique - Sicyopterus lagocephalus
+JAA	Blaue Bastardmakrele - Trachurus picturatus
+JAD	Norwegian skate - Raja nidarosiensis
+JAI	Brown ray - Raja miraletus
+JAT	Rough skate - Raja nasuta
+JAX	Bastardmakrelen - Trachurus spp
+JCR	Royal cucumber - Stichopus regalis
+JDP	Common stingray - Dasyatis pastinaca
+JEL	Wurzelmund-Quallen - Rhopilema spp
+JOD	Petersfisch - Zeus faber
+JOS	Amerikanischer Petersfisch - Zenopsis conchifer
+JRS	Mediterranean starry ray - Raja asterias
+JRW	Bigelow's ray - Raja bigelowi
+KAF	(Asiatischer)Pfeilzahn-Heilbutt - Atheresthes evermanni
+KAW	Pazifische Thonine - Euthynnus affinis
+KCA	King crab - Lithodes ferox
+KCB	Toothed rock crab - Cancer bellianus
+KCD	Red king crab - Paralithodes camtschaticus
+KCF	Globose king crab - Paralomis formosa
+KCM	Murray Steinkrabbe - Lithodes murrayi
+KCP	Südafrikanischer Kingklip - Genypterus capensis
+KCS	Königskrabben - Paralithodes spp
+KCT	Nördliche Steinkrabbe - Lithodes maia
+KCU	Red stone crab - Paralomis aculeata
+KCV	Antarctic king crab - Paralomis spinosissima
+KCX	King crabs,Stone crabs, nei - Lithodidae
+KEF	Deep-sea red crab - Chaceon affinis
+KFA	Chamber venus - Circomphalus casinus
+KGM	Königsmakrele - Scomberomorus cavalla
+KGX	Spanische Makrelen - Scomberomorus spp
+KIF	Augenfleck-Eisfisch - Chionodraco rastrospinos
+KIM	Green sea urchin - Psammechinus microtuberculatus
+KIW	Schwertwal - Orcinus orca
+KLK	Smooth callista - Callista chione
+KMV	Scallop - Chlamys livida
+KNS	Knife shrimp - Haliporoides triarthrus
+KOB	Afrikanischer Adlerfisch - Argyrosomus hololepidotus
+KPG	Shamefaced crab - Calappa granulata
+KRI	Antarktischer Krill - Euphausia superba
+KRJ	Knobbed triton - Charonia rubicunda
+KTT	Tuberculate cockle - Acanthocardia tuberculata
+KUP	Radgarnele - Penaeus japonicus
+KYP	Sea chubs nei - Kyphosus spp
+KYS	Bermuda sea chub - Kyphosus sectatrix
+LAG	Opah - Lampris guttatus
+LAH	North European kelp - Laminaria hyperborea
+LAR	Flußneunauge,Flußpricke - Lampetra fluviatilis
+LAS	Lampretter - Petromyzonidae
+LAU	Sea lamprey - Petromyzon marinus
+LAX	Patchwork lampfishes - Notoscopelus spp
+LAZ	Kelp - Laminariaceae
+LBA	Amerikanischer Hummer - Homarus americanus
+LBE	Europäischer hummer - Homarus gammarus
+LBS	Homarus spp
+LDB	Vierfleckbutt - Lepidorhombus boscii
+LDV	Large-scaled gurnard - Lepidotrigla cavillone
+LEC	Escolar - Lepidocybium flavobrunneum
+LEE	Große Gabelmakrele - Lichia amia
+LEF	Butte - Bothidae
+LEJ	Pumpkinseed - Lepomis gibbosus
+LEM	Limande - Microstomus kitt
+LEP	Stachliger Knurrhahn - Lepidotrigla dieuzeidei
+LEW	Chubs nei - Leuciscus spp
+LEZ	Butte - Lepidorhombus spp
+LFO	Brain root coral - Lobophyllia corymbosa
+LHT	Degenfisch - Trichiurus lepturus
+LIC	Langschnauzen-Eisfisch - Channichthys rhinoceratus
+LIN	Leng - Molva molva
+LIO	Velvet swimcrab - Necora puber
+LIT	Kalkalgen  - Lithothamnion spp
+LIX	Eidechsenfische - Synodontidae
+LJA	African red snapper - Lutjanus agennes
+LJG	Humpback red snapper - Lutjanus gibbus
+LKT	Golden shrimp - Plesionika martia
+LKW	Striped soldier shrimp - Plesionika edwardsii
+LMA	Langflossen-Makohai - Isurus paucus
+LMG	Longfin codling - Laemonema longipes
+LMZ	Mackerel sharks - Lamniformes
+LNZ	Leng - Molva spp
+LOB	Tripletail - Lobotes surinamensis
+LOQ	Furchenkrebse - Galatheidae
+LOS	Bärenkrebse - Scyllaridae
+LOX	Lobsters nei - Reptantia
+LOY	Königslanguste - Panulirus regius
+LPZ	Limpets nei - Patella spp
+LQD	Tangle - Laminaria digitata
+LQX	Sea belt - Laminaria saccharina
+LQY	Rough limpet - Patella ulyssiponensis
+LRL	Striped trumpeter - Latris lineata
+LSC	Stylephorus chordatus
+LTA	Falscher Bonito,Thonine - Euthynnus alletteratus
+LUH	Chub - leuciscus cepalus
+LUK	African moonfish - Selene dorsalis
+LUM	Seehase,Lumpfisch - Cyclopterus lumpus
+LUS	Vairone - Leuciscus souffia
+LVC	Norwegian egg cockle - Laevicardium crassum
+LXX	Laternenfische - Myctophidae
+LYY	Dragonet - Callionymus lyra
+LZS	Leaping mullet - Liza saliens
+LZZ	Liza spp
+MAC	Europäische Makrele - Scomber scombrus
+MAK	Mako sharks - Isurus spp
+MAM	Aquatic mammals nei - Mammalia
+MAS	Chub mackerel - Scomber japonicus
+MAT	Mactra surf clams nei - Mactridae
+MAV	Silvery lightfish - Maurolicus muelleri
+MAW	Ostatlantische Königsmakrele - Scomberomorus tritor
+MAX	Makrelen - Scombridae
+MAZ	Makrelen - Scomber spp
+MBF	Knout goby - Mesogobius batrachocephalus
+MBL	Amblygobius albimaculatus
+MCA	Golden perch - Macquaria ambigua
+MCH	Bigeye grenadier - Macrourus holotrachys
+MDO	Monrovia-Doktorfisch - Acanthurus monroviae
+MEB	Melanocharacidium blennioides
+MEG	Scheefsnut - Lepidorhombus whiffiagonis
+MEP	Beaked whales nei - Mesoplodon spp
+MFZ	Marphysa sanguinea
+MGA	Meeräsche,Goldäsche - Liza aurata
+MGC	Dünnlippige Meeräsche - Liza ramada
+MGI	Parassi mullet - Mugil incilis
+MGR	Adlerfisch - Argyrosomus regius
+MGS	Mugil spp
+MHA	Nordwestatlantischer Menhaden - Brevoortia tyrannus
+MIW	Zwergwal - Balaenoptera acutorostra
+MIX	Mixed species of tuna
+MJA	Blackbar soldierfish - Myripristis jacobus
+MJW	Toad, lyre crabs nei - Hyas spp
+MKF	Island grouper - Mycteroperca fusca
+MKG	Thickback sole - Microchirus variegatus
+MKU	Mottled grouper - Mycteroperca rubra
+MLR	Thicklip grey mullet - Chelon labrosus
+MLS	Gestreifter Marlin - Tetrapturus audax
+MMH	Mediterranean moray - Muraena helena
+MMM	Antarctic armless flounder - Mancopsetta maculata
+MNZ	Monkfishes nei - Lophius spp
+MOD	Bartmuscheln - Modiolus spp
+MOF	Freshwater molluscs nei - Mollusca
+MOL	Meeresweichtiere - Mollusca
+MON	Angler, Atlantischer Seeteufel - Lophius piscatorius
+MOP	Sunfish - Mola spp
+MOR	Tiefseedorsche - Moridae
+MOX	Mondfisch - klumpfisch - Mola mola
+MOY	Smalleye moray cod - Muraenolepis microps
+MPN	Speckled shrimp - Metapenaeus monoceros
+MPS	Forellenbarsch - Micropterus salmoides
+MRL	Moray cods nei - Muraenolepis spp
+MSD	Stachelmakrele - Decapterus macarellus
+MSF	Lammzunge - Arnoglossus laterna
+MSH	Marine shells nei - Ex Mollusca
+MSK	Heringshaie - Lamnidae
+MSM	Mittelmeer-Miesmuschel - Mytilus galloprovincialis
+MSP	Langschwänziger Speerfisch - Tetrapturus belone
+MSX	Miesmuscheln - Mytilidae
+MTL	Spotted estuary smooth-hound - Mustelus lenticulatus
+MTS	Gemeiner Heuschreckenkrebs - Squilla mantis
+MUE	Stachelschnecken - Murex spp
+MUF	Großkopf-Meeräsche - Mugil cephalus
+MUI	Muränen - Muraenidae
+MUL	Meeräschen - Mugilidae
+MUM	Meerbarben - Mullidae
+MUR	Streifenbarbe, Rotbart - Mullus surmuletus
+MUS	Miesmuschel,Pfahlmuschel - Mytilus edulis
+MUT	Gewöhnliche Meerbarbe - Mullus barbatus
+MUX	Meerbarben - Mullus spp
+MVA	Shortspine African angler - Lophius vaillanti
+MVO	Devil anglerfish - Lophius vomerinus
+MYL	Common eagle ray - Myliobatis aquila
+MYS	Baleen whales nei - Mysticeti
+MYV	Mytilus spp
+MYZ	So-iuy mullet - Mugil soiuy
+MZZ	Marine fishes nei - Osteichthyes
+NAR	Narwal - Monodon monoceros
+NAU	Pilotfish - Naucrates ductor
+NBU	Round goby - Neogobius melanostomus
+NDW	Neolithodes diomedeae
+NEA	Andamanen-Schlankhummer - Metanephrops andamanicus
+NEC	Neuseeland-Eisfisch - Pseudophycis bachus
+NEP	Kaisergranat,Tiefseehummer - Nephrops norvegicus
+NHA	Nordpazifischer Seehecht - Merluccius productus
+NKR	Norwegischer Krill - Meganyctiphanes norvegica
+NNN	Spiny eel - Notacanthus chemnitzii
+NOC	Schwarze Notothenia - Notothenia coriiceps
+NOD	Gelbflossen-Notothenia - Nototheniops nudifrons
+NOG	Grüne Notothenia - Notothenia gibberifrons
+NOK	Augenstreifen-Notothenia - Notothenia kempi
+NOL	Painted notie - Nototheniops larseni
+NON	Gelbbauch-Notothenia - Notothenia neglecta
+NOP	Stintdorsch - Trisopterus esmarkii
+NOR	Marmorbarsch - Notothenia rossii
+NOS	Graue Notothenia - Notothenia squamifrons
+NOT	Kurzschwanz-Notothenia - Patagonothen brevicauda
+NOX	Antarktis-Eisfische - Nototheniidae
+NPA	Amerikanische Sardelle - Engraulis mordax
+NUC	Danube bleak - Chalcalburnus chalcoides
+NUQ	Anomuran decapods nei - Anomura
+NZA	Common Atlantic grenadier - Nezumia aequalis
+OAL	Senegalese sole - Solea senegalensis
+OBN	Peppery furrow - Scrobicularia plana
+OCC	Gewöhnliche Krabe, Gemeiner Tintenfisch - Octopus vulgaris
+OCM	Zirrenkraben - Eledone spp
+OCS	Langflossen-Hai - Carcharhinus longimanus
+OCT	Oktopusartige - Octopodidae
+OCZ	Kraken - Octopus spp
+ODL	Boxlip mullet - Oedalechilus labeo
+ODN	Toothed whales nei - Odontoceti
+OFJ	Neon flying squid - Ommastrephes bartrami
+OIL	Ölfisch - Ruvettus pretiosus
+OLV	Paromola - Paromola cuvieri
+OMZ	Squids nei - Ommastrephidae
+ONA	Golden trout - Oncorhynchus aguabonita
+OOA	Snake blenny - Ophidion barbatum
+OPP	Pacific ocean perch - Sebastes alutus
+OPT	Nordamerikanische Aalmutter - Macrozoarces americanus
+ORC	Pacific salmons nei - Oncorhynchus spp
+ORD	Oreos - Oreosomatidae
+ORY	Atlantischer Sägebauch - Hoplostethus atlanticus
+OSG	Spectrunculus grandis
+OST	Flat and cupped oysters nei - Ostreidae
+OTH	Tuna species, unspecified
+OUB	Wide-eyed flounder - Bothus podas
+OUL	European common squid - Alloteuthis subulata
+OUM	Midsize squid - Alloteuthis media
+OUW	Alloteuthis spp
+OXN	Sailfin roughshark - Oxynotus paradoxus
+OXY	Meersau - Oxynotus centrina
+OYC	Felsenaustern - Crassostrea spp
+OYF	Europäische auster - Ostrea edulis
+OYG	Pazifische Felsenauster - Crassostrea gigas
+OYX	Plattaustern - Ostrea spp
+PAC	Rotbrassen, Roter Meerbrassen - Pagellus erythrinus
+PAI	Paralomis spp
+PAL	Palaemonid shrimps nei - Palaemonidae
+PAM	Mississippi paddlefish - Polyodon spathula
+PAN	Tiefsee-Garnelen - Pandalus spp
+PAR	Rote Pandora - Pagellus bellottii
+PAT	Longtail Southern cod - Patagonotothen ramsayi
+PAU	Undulate venus - Paphia undulata
+PAX	Meerbrassen,Seebrassen - Pagellus spp
+PCB	Felsen-Entenmuschel - Mitella pollicipes
+PCL	Signal crayfish - Pacifastacus leniusculus
+PCO	Pazifischer Kabeljau - Gadus macrocephalus
+PDZ	Pandalid shrimps nei - Pandalidae
+PEE	Common periwinkle - Littorina littorea
+PEL	Pelagic fishes nei - Osteichthyes
+PEN	Geißelgarnelen - Penaeus spp
+PEQ	Yellowfin river pellona - Pellona flavipinnis
+PER	Strandschnecken - Littorina spp
+PEW	Amerikanischer Streifenbarsch - Morone americana
+PEZ	Penaeid shrimps nei - Penaeidae
+PFL	Guppy - Poecilia reticulata
+PGA	Panga-Meerbrasse - Pterogymnus laniarius
+PGE	Parachaenichthys georgianus
+PHA	Südpazifischer Seehecht - Merluccius gayi
+PHO	Risso's smooth-head - Alepocephalus rostratus
+PHR	Kleiner Tümmler - Phocoena phocoena
+PIA	Südafrikanische Sardine - Sardinops ocellatus
+PIC	Pickarels - Spicara spp
+PIL	Pilchard, Sardine - Sardina pilchardus
+PIN	Buckellachs, Rosa Lachs - Oncorhynchus gorbuscha
+PIQ	Delta prawn - Palaemon longirostris
+PIW	Grindwal - Globicephala melas
+PJM	Pazifische Bastardmakrele - Trachurus symmetricus
+PLA	Doggerscharbe - Hippoglossoides platessoides
+PLD	Peale's dolphin - Lagenorhynchus australis
+PLE	Scholle, Goldbutt - Pleuronectes platessa
+PLN	Große Maräne, Lavaret - Coregonus lavaretus
+PLZ	Schollen - Pleuronectidae
+PNB	Redspotted shrimp - Penaeus brasiliensis
+PNI	Indian white prawn - Penaeus indicus
+PNQ	Rockpool prawn - Palaemon elegans
+PNV	Zentralamerikanische Geißelgarnele - Penaeus vannamei
+POA	Brachsenmakrele - Brama brama
+POB	Schwarzer Pomfret - Parastromateus niger
+POC	Polardorsch - Boreogadus saida
+POD	Zwergdorsch - Trisopterus minutus
+POG	Pogonophryne spp
+POI	Kuhls Drachenkopf - Pontinus kuhlii
+POK	Seelachs, Köhler - Pollachius virens
+POL	Pollack - Pollachius pollachius
+POP	Gabelmakrele, Bläuel - Trachinotus ovatus
+POR	Heringshai - Lamna nasus
+POS	Südlicher Wittling - Micromesistius australis
+POT	Blaufische - Pomatomidae
+POX	Pompanos - Trachinotus spp
+PPE	Potamotrygon laticeps
+PPX	Pelagic percomorphs nei - Perciformes
+PPZ	Felsengarnelen, Süßwassergarnelen - Palaemonidae
+PRA	Grönland-Garnele - Pandalus borealis
+PRC	Percoids nei - Percoidei
+PRD	Antarctic octopuses - Pareledone spp
+PRF	Rosenbergs Süßwassergarnele - Macrobrachium rosenbergii
+PRI	Großaugenbarsche - Priacanthidae
+PRP	Roudi escolar - Promethichthys prometheus
+PRR	Seepapagei - Sparisoma cretense
+PSB	Westafrikanischer Ebarme - Psettodes bennettii
+PSE	Bobo-Umberfisch - Pseudotolithus elongatus
+PSK	Crocodile shark - Pseudocarcharias kamoharai
+PSL	Mauretanische Languste - Palinurus mauritanicus
+PSS	Senegal-Umberfisch - Pseudotolithus senegalensis
+PTB	Barbe, Barben - Barbus barbus
+PTM	False catshark - Pseudotriakis microdon
+PUF	Nördlicher Kugelfisch - Sphoeroides maculatus
+PVR	Atlantic ditch shrimp - Palaemonetes varians
+PWT	Parrotfishes nei - Scaridae
+PXV	Stout beardfish - Polymixia nobilis
+PYW	Pygmy sperm whale - Kogia breviceps
+QSC	Bunte Kammuschel - Chlamys opercularis
+QUB	Longnose spurdog - Squalus blainvillei
+RAE	Scheidenmuschel,Meerscheide - Solen marginatus
+RAG	Indische Zwergmakrele - Rastrelliger kanagurta
+RAJ	Echte Rochen - Rajidae
+RAQ	Spanner crab - Ranina ranina
+RAT	Amerikanische Spöke, Chimäre - Hydrolagus colliei
+RAZ	Meerscheiden,Scheidenmuscheln - Solen spp
+RBF	Rhinobatos punctifer
+RBO	Slender guitarfish - Rhinobatos holcorhynchus
+RBY	Schmetterlingsrochen - Gymnura spp
+RCT	Straightnose rabbitfish - Rhinochimaera atlantica
+RCW	Louisiana Flußkrebs - Procambarus clarkii
+RDC	Roughtail stingray - Dasyatis centroura
+REA	Rotgebänderte Meerbrasse - Pagrus auriga
+REB	Tiefenbarsch, Schnabelbarsch - Sebastes mentella
+REC	Kap-Drachenkopf - Sebastes capensis
+RED	Rotbarsche - Sebastes spp
+REG	Rotbarsch,Goldbarsch - Sebastes marinus
+RFT	Starry skate - Raja stellulata
+RGL	Spiny butterfly ray - Gymnura altavela
+RHC	Knife-nosed chimaeras - Rhinochimaera spp
+RHG	Nordatlantik Grenadier - Macrourus berglax
+RHP	Dulse - Palmaria palmata
+RIB	Common mora - Mora moro
+RJA	Spitzrochen - Raja alba
+RJB	Glattrochen,Spiegelrochen - Raja batis
+RJC	Nagelrochen, Keulenrochen - Raja clavata
+RJE	Kleinäugiger Rochen - Raja microocellata
+RJF	Nagelrochen,Keulenrochen - Raja fullonica
+RJG	Arctic skate - Raja hyperborea
+RJH	Blonde ray - Raja brachyura
+RJI	Sandy ray - Raja circularis
+RJK	Sailray - Raja lintea
+RJM	Fleckrochen - Raja montagui
+RJN	Kuckucksrochen - Raja naevus
+RJO	Spitzschnauzenrochen - Raja oxyrinchus
+RJR	Atlantischer Sternrochen - Raja radiata
+RJU	Undulate ray - Raja undulata
+RJY	Round ray - Raja fyllae
+RKQ	Noah's ark - Arca noae
+RMM	Devil fish - Mobula mobular
+RNG	Grenadierfisch - Coryphaenoides rupestris
+ROB	Snooks, Robalos - Centropomus spp
+ROL	Dreibärtelige Seequappen - Gaidropsarus spp
+RPG	Gewöhnliche Sackbrasse - Pagrus pagrus
+RPN	Sea snails - Rapana spp
+RPW	Thomas' rapa whelk - Rapana venosa
+RRH	Gemeiner Rundhering - Etrumeus teres
+RSC	Rauhe Bastardmakrele - Trachurus lathami
+RSE	Roter Drachenkopf - Scorpaena scrofa
+RSK	Blauhaie - Carcharhinidae
+RSQ	Speckled swimcrab - Arenaeus cribarius
+RTX	Grenadiers,Rattails, nei - Macrouridae
+RUB	Blaue Stachelmakrele - Caranx crysos
+RZV	Slender sunfish - Ranzania laevis
+SAA	Ohresardine,Sardinelle - Sardinella aurita
+SAB	Kohlenfisch - Anoplopoma fimbria
+SAE	Madeira-Sardinelle - Sardinella maderensis
+SAG	Goldstripe sardinella - Sardinella gibbosa
+SAI	Atlantischer Segelfisch - Istiophorus albicans
+SAK	Sabanejewia balcanica
+SAL	Atlantischer Lachs - Salmo salar
+SAN	Sandaale - Ammodytes spp
+SAO	Tadpole codling - Salilota australis
+SAR	Mango tilapia - Sarotherodon galilaeus
+SAU	Atlantischer Makrelenhecht - Scomberesox saurus
+SAX	Makrelenhechte - Scomberesocidae
+SBA	Achselbrasse - Pagellus acarne
+SBB	Boa dragonfish - Stomias boa
+SBF	Südlicher Blauflossenthun - Thunnus maccoyii
+SBG	Goldbrasse - Sparus aurata
+SBH	Felsenbarsch - Morone chrysops x M.saxatilis
+SBL	Grauhai,Sechskiemer - Hexanchus griseus
+SBP	Meerbrassen - Pagrus spp
+SBR	Nordischer Meerbrassen - Pagellus bogaraveo
+SBS	Brandbrasse - Oblada melanura
+SBX	Meerbrassen - Sparidae
+SBZ	Zebrabrasse - Diplodus cervinus
+SCA	Atlantischer Tiefseescallop - Placopecten magellanicus
+SCB	Karibik-Pilgermuschel - Argopecten irradians
+SCE	Atlantische Pilgermuschel - Pecten maximus
+SCF	Turbots nei - Scophtalmidae
+SCK	Schokoladenhai - Dalatias licha
+SCL	Katzenhaie - Scyliorhinus spp
+SCO	Drachenköpfe,Skorpionfische - Scorpaenidae
+SCP	Nordamerikanische Brasse - Stenotomus chrysops
+SCR	Große Seespinne - Maja squinado
+SCS	Drachenköpfe - Scorpaena spp
+SCU	Seeskorpione - Myoxocephalus spp
+SCX	Pilgermuscheln - Pectinidae
+SCY	Kleiner Bärenkrebs - Scyllarus arctus
+SDH	Rough longnose dogfish - Deania histricosa
+SDR	Atlantic lizardfish - Synodus saurus
+SDS	Nördlicher Glatthai - Mustelus asterias
+SDU	Arrowhead dogfish - Deania profundorum
+SDV	Glatthaie - Mustelus spp
+SDW	Brown sea catfish - Selenaspis dowii
+SDX	Stachelmakrelen - Decapterus spp
+SFA	Indopazifischer Segelfisch - Istiophorus platypterus
+SFS	Degenfisch - Lepidopus caudatus
+SFV	Norway redfish - Sebastes viviparus
+SGI	Süd-Georgia Eisfisch - Pseudochaenichthys georgianus
+SHA	Amerikanischer Maifisch - Alosa sapidissima
+SHB	Stachelhai - Echinorhinus brucus
+SHC	Donauhering - Alosa pontica
+SHD	Maifische - Alosa alosa, A.fallax
+SHE	Alosa maeotica
+SHG	Fadenflossige Alse - Dorosoma cepedianum
+SHL	Schwarze Dornhaie - Etmopterus spp
+SHO	Fleckhai - Galeus melastomus
+SHP	Rainbow gudgeon - Sarcocheilichthys nigripinnis
+SHR	Spitzbrasse - Diplodus puntazzo
+SHW	Indischer Grindwal - Globicephala macrorhynchus
+SHX	Dogfish sharks etc, nei - Squaliformes
+SHZ	Shads nei - Alosa spp
+SIK	Sio nordenskjoeldii
+SIL	Ährenfische - Atherinidae
+SIP	Silberne Pampel - Pampus argenteus
+SIW	Seiwal - Balaenoptera borealis
+SIX	Sardinellen - Sardinella spp
+SJA	Pilgermuschel,Jakobmuschel - Pecten jacobaeus
+SKA	Rochen im engeren Sinne - Raja spp
+SKB	Sticklebacks - Gasterosteus spp
+SKH	Various sharks nei - Selachimorpha (Pleurotremata)
+SKI	Semaprochilodus insignis
+SKJ	Echter Bonito - Katsuwonus pelamis
+SKX	Sharks,Rays,Skates, etc, nei - Elasmobranchii
+SLC	Amerikanische Languste - Panulirus argus
+SLF	Tischler Seebrasse - Argyrozona argyrozona
+SLI	Spanish Ling - Molva macrophthalma
+SLM	Goldstrieme - Sarpa salpa
+SLO	Europäische Languste - Palinurus elephas
+SLS	Gilchrist-Languste - Palinurus gilchristi
+SLV	Langusten - Panulirus spp
+SLX	Salmonoids nei - Salmonoidei
+SLZ	Salmonids nei - Salmonidae
+SMA	Makrelenhai, Mako - Isurus oxyrinchus
+SMC	Glattmaul-Kreuzwels - Arius heudeloti
+SMD	Südlicher Glatthai - Mustelus mustelus
+SME	Stint,Spierling - Osmerus eperlanus
+SMP	Symbolophorus barnardi
+SMR	Regenbogen-Stint - Osmerus mordax
+SMS	Saccoderma melanostigma
+SNA	Schnapper - Lutjanus spp
+SNC	Südlicher Schnapper - Lutjanus purpureus
+SNI	Schnepfenfische - Macroramphosidae
+SNK	Atun - Thyrsites atun
+SNQ	Small red scorpionfish - Scorpaena notata
+SNS	Schnepfenfisch - Macroramphosus scolopax
+SNX	Schnapper - Lutjanidae
+SOA	Südost-Atlantik-Seezungen - Austroglossus spp
+SOC	Rotlachs - Oncorhynchus nerka
+SOE	Ostküsten-Seezunge - Austroglossus pectoralis
+SOI	Scheidenmuscheln, Meerscheiden - Solenidae
+SOL	Gemeine Seezunge - Solea solea
+SOM	Wels,Waller - Silurus glanis
+SOO	Solea spp
+SOP	Südliche rosa Geißelgarnele - Penaeus notialis
+SOR	Little sleeper shark - Somniosus rostratus
+SOS	Sandzunge - Solea lascaris
+SOT	Gefleckter Ebarme - Psettodes belcheri
+SOV	Lowfin scorpionfish - Scorpaenodes parvipinnis
+SOW	Westküsten-Seezunge - Austroglossus microlepis
+SOX	Seezungen - Soleidae
+SPC	Picarel - Spicara smaris
+SPF	Langschnauziger Speerfisch - Tetrapturus pfluegeri
+SPI	Kaninchenfische - Siganus spp
+SPL	Indopazifischer Hammerhai - Sphyrna lewini
+SPN	Hammerhaie - Sphyrna spp
+SPO	Schwämme - Spongidae
+SPR	Sprotte - Sprattus sprattus
+SPU	Gefleckter Streifenbarsch - Dicentrarchus punctatus
+SPW	Pottwal - Physeter catodon
+SPX	Salps - Salpidae
+SPY	Hammerhaie - Sphyrnidae
+SPZ	(glatter)Hammerhai - Sphyrna zygaena
+SQA	Argentinischer KurzflossenKalmar - Illex argentinus
+SQC	Common squids nei - Loligo spp
+SQE	Pfeilkalmar - Todarodes sagittatus
+SQF	Veined squid - Loligo forbesi
+SQI	Nördlicher Kurzflossenkalmar - Illex illecebrosus
+SQL	Langflossen-Schelfkalmar - Loligo pealei
+SQM	Roter Kalmar - Illex coindetii
+SQP	Patagonian squid - Loligo gahi
+SQR	European squid - Loligo vulgaris
+SQS	Sevenstar flying squid - Martialia hyadesi
+SQU	Kalmare, Tintenfische - Loliginidae, Ommastrephidae
+SQY	Heuschreckenkrebse - Squillidae
+SQZ	Kalmare - Loliginidae
+SRA	Nordamerikanische Knurrhähne - Prionotus spp
+SRE	Rudd - Scardinius erythrophthalmus
+SRG	Seebrassen - Diplodus spp
+SRI	Marbled spinefoot - Siganus rivulatus
+SRK	Painted comber - Serranus scriba
+SRQ	Halfspined flathead - Sorsogona prionota
+SRR	Antarctic starry skate - Raja georgiana
+SRX	Rochen - Rajiformes
+SSA	Gezeiten-Ährenfisch - Menidia menidia
+SSB	Marmorbrasse - Lithognathus mormyrus
+SSD	Surf clams nei - Spisula spp
+SSG	Seefeige - Microcosmus sulcatus
+SSH	Atlantische rote Riesengarnele - Plesiopenaeus edwardsian
+SSI	Scotia-See-Eisfisch - Chaenocephalus aceratus
+SSM	Gefleckte Königsmakrele - Scomberomorus maculatus
+SSN	Scalloped bonnethead - Sphyrna corona
+SSP	Kurzschnauziger Speerfisch - Tetrapturus angustirostris
+SSX	Seescheiden,Aszidien - Ascidiacea
+STB	Felsenbarsch - Morone saxatilis
+STC	Große Steinkrabbe - Menippe mercenaria
+STF	Starfishes nei - Asteroidea
+STG	Königscorvina - Cynoscion regalis
+STH	Gemeiner Seestern - Asterias rubens
+STI	Stingrays nei - Dasyatis spp
+STT	Stechrochen, Stachelrochen - Dasyatidae
+STU	Störe - Acipenseridae
+STZ	Giant stargazer - Kathetostoma giganteum
+SUA	Squatina aculeata
+SUR	Doktorfische - Acanthuridae
+SVC	Gewöhnlicher Tolstolob - Hypophthalmichthys molitrix
+SVE	Gestreifte Venusmuschel - Chamelea gallina
+SVF	Bachsaibling - Salvelinus fontinalis
+SWA	Geißbrasse, Bindenbrasse - Diplodus sargus
+SWB	Brown seaweeds - Phaeophyceae
+SWG	Green seaweeds - Chlorophyceae
+SWM	Swimming crabs etc, nei - Portunidae
+SWO	Schwertfisch - Xiphias gladius
+SWP	Fleshy dilsea - Dilsea carnosa
+SWQ	Red delesseria - Delesseria sanguinea
+SWR	Red seaweeds - Rhodophyceae
+SWX	Algen - Algae
+SYC	Small-spotted catshark - Scyliorhinus canicula
+SYE	West African catshark - Scyliorhinus cervigoni
+SYN	Japanischer Kardinalfisch - Synagrops japonicus
+SYR	Knifetooth dogfish - Scymnodon ringens
+SYT	Großgefleckter Katzenhai - Scyliorhinus stellaris
+SYX	Katzenhaie - Scyliorhinidae
+TAR	(Atlantischer)Tarpun - Megalops atlanticus
+TBR	Goldsinny-wrasse - Ctenolabrus rupestris
+TDF	Toadfishes nei - Batrachoides spp
+TGS	Furchengarnele - Penaeus kerathurus
+THB	Scheinschnapper - Nemipterus spp
+THF	Fadenfische - Polynemidae
+THR	Tresher sharks nei - Alopias spp
+THS	Seezungen - Microchirus spp
+TIG	Tiger shark - Galeocerdo cuvier
+TIL	Blauer Ziegelbarsch - Lopholatilus chamaeleonticeps
+TIP	Grüne Tigergarnele - Penaeus semisulcatus
+TIS	Tilefishes nei - Branchiostegidae
+TJX	Atlantic thornyhead - Trachyscorpia cristulata
+TLD	St. Paul's fingerfin - Acantholatris monodactylus
+TLL	Sabaki tilapia - Oreochromis spilurus
+TLM	Mozambique Buntbarsch - Oreochromis mossambicus
+TLN	Nil-Buntbarsch - Oreochromis niloticus
+TLP	Tilapias nei - Oreochromis (=Tilapia) spp
+TLV	(Europäische) Äsche - Thymallus thymallus
+TMP	Ornate wrasse - Thalassoma pavo
+TOA	Antarktischer Zahnfisch - Dissostichus mawsoni
+TOD	Zitterrochen, echte Zitterrochen - Torpedinidae
+TOE	Echte Zitterrochen - Torpedo spp
+TOM	Atlantischer Tomcod - Microgadus tomcod
+TOP	Schwarzer Seehecht - Dissostichus eleginoides
+TOT	Zahnfische - Dissostichus spp
+TOX	Hundszungen - Cynoglossidae
+TPA	Dealfish - Trachipterus arcticus
+TPS	Teppichmuscheln - Ruditapes spp
+TRA	(eigentliche) Drachenfische - Trachinidae
+TRB	Whitetip reef shark - Triaenodon obesus
+TRC	Slimeheads nei - Trachichthyidae
+TRE	Jacks, Crevalles, nei - Caranx spp
+TRG	Drückerfisch, Schweinsdrückerfisch - Balistes capriscus
+TRH	Gestreifte Notothenia - Pagothenia hansoni
+TRI	Drückerfische - Balistidae
+TRK	Glatthaie, Hundshaie - Triakidae
+TRO	Forellen - Salmo spp
+TRP	Dealfishes - Trachipterus spp
+TRR	Regenbogenforelle, Amerikanische Forelle - Oncorhynchus mykiss
+TRS	Meerforelle,Lachsforelle - Salmo trutta
+TRX	Ribbonfishes - Trachipteridae
+TRZ	Neuseeland-Stachelmakrele - Pseudocaranx dentex
+TSD	Finte,Maifisch,Pergel - Alosa fallax
+TSU	Roughsnout grenadier - Trachyrincus scabrus
+TTO	Torpille noire - Torpedo nobilliana
+TTR	Marbled electric ray - Torpedo marmorata
+TTX	Meeresschildkröten - Testudinata
+TUN	Tunas nei - Thunnini
+TUR	Turbot, Steinbutt, Tarbutt - Psetta maxima
+TUS	Thunfische - Thunnus spp
+TUX	Thunfischartige - Scombroidei
+TWL	Tellins nei - Tellina spp
+UCA	Canary drum (=Baardman) - Umbrina canariensis
+UCU	Fucus spp
+UDP	Wakame - Undaria pinnatifida
+UDS	Wakame nei - Undaria spp
+ULO	Solid surf clam - Spisula solida
+ULT	Subtruncate surf clam - Spisula subtruncata
+ULV	Oval surf clam - Spisula ovalis
+UNS	Unspezifiziert
+URA	Himmelsgucker - Uranoscopus spp
+URC	Seeigel - Strongylocentrotus spp
+URM	Steinseeigel - Paracentrotus lividus
+URS	Europäischer eßbarer Seeigel - Echinus esculentus
+URX	Seeigel - Echinoidea
+USB	Ballan wrasse - Labrus bergylta
+USI	Cuckoo wrasse - Labrus bimaculatus
+USK	Brosme, Lumb - Brosme brosme
+UUC	Himmelsgucker - Uranoscopus scaber
+UVU	Sea lettuce - Ulva lactuca
+VAD	Vadigo - Campogramma glaycos
+VEV	Warty venus - Venus verrucosa
+VIV	Vimba bream - Vimba vimba
+VLO	Langusten - Palinuridae
+VNA	Golden carpet shell - Venerupis aurea
+VNR	Banded carpet shell - Venerupis rhomboides
+VSC	Variegated scallop - Chlamys varia
+VSP	Spiny vase - Vasum capitellum
+WAH	Wahoo - Acanthocybium solandri
+WEG	Petermännchen,Petersmann - Trachinus draco
+WEX	Petermännchen,Viperqueisen - Trachinus spp
+WGR	Whitson's grenadier - Macrourus whitsoni
+WHA	Hapuku Wrackbarsch - Polyprion oxygeneios
+WHB	Blauer Wittling - Micromesistius poutassou
+WHE	Wellhornschecke - Buccinum undatum
+WHF	Felchen - Coregonus spp
+WHG	Wittling, Merlan - Merlangius merlangus
+WHM	Weißer Marlin - Tetrapturus albidus
+WHX	Helmschnecken - Busycon spp
+WIC	Bänder-Eisfisch - Chaenodraco wilsoni
+WIT	Rotzunge - Glyptocephalus cynoglossus
+WKP	Königsgeißelgarnele - Penaeus latisulcatus
+WKS	Striped weakfish - Cynoscion striatus
+WKX	Umberfische - Cynoscion spp
+WOR	Marine worms - Polychaeta
+WRA	Lippfische - Labridae
+WRF	Wrackbarsch - Polyprion americanus
+WRM	Brown wrasse - Labrus merula
+WRO	Witwen-Drachenkopf - Sebastes entomelas
+WRR	Whitehead's round herring - Etrumeus whiteheadi
+WSH	Weißhai,Menschenhai - Carcharodon carcharias
+WUB	Chinesischer Brachsen - Megalobrama amblycephala
+XFS	Xiphopenaeus shrimps nei - Xiphopenaeus spp
+XYN	Pearly razorfish - Xyrichtys novacula
+YEL	Gelbschwanzflunder - Limanda ferruginea
+YES	Rauhe Kliesche - Limanda aspera
+YFM	Corkwing wrasse - Symphodus melops
+YFT	Albacore - Thunnus albacares
+YLL	Mediterranean slipper lobster - Scyllarides latus
+YNA	Acoupa weakfish - Cynoscion acoupa
+YNU	Portuguese sole - Synaptura lusitanica
+YNY	Guinean sole - Synaptura cadenati
+YOI	Canary tonguesole - Cynoglossus canariensis
+YOX	Tonguesole nei - Cynoglossus spp
+YPT	Pachypops trifilis
+YRO	Gelbschwanz-Drachenkopf - Sebastes flavidus
+YRS	European barracuda - Sphyraena sphyraena
+YTC	Australische Gelbschwanzmakrele - Seriola lalandi
+YTL	Longfin yellowtail - Seriola rivoliana
+ZEX	Petersfische - Zeidae
+CWZ	Carcharhinus sharks nei - Carcharhinus spp
+EFJ	Dogtooth grouper - Epinephelus caninus
+EOG	Arctic flounder - Pleuronectes glacialis
+JAM	Maltese ray - Raja melitensis
+JAR	Rough ray - Raja radula
+JAY	Speckled ray - Raja polystigma
+LGH	Oceanic puffer - Lagocephalus lagocephalus
+TOZ	Lesser weever - Trachinus vipera
+UGU	Unihorn octopus - Scaeurgus unicirrhus
+MOO	Moonfish - Mene maculata

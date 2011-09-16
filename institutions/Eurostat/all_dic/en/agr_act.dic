@@ -1,0 +1,68 @@
+HOLD	All holdings
+D	All holdings with arable land
+D01_08	All holdings growing cereals
+D01	All holdings growing common wheat and spelt
+D02	All holdings growing durum wheat
+D03	All holdings growing rye
+D04	All holdings growing barley
+D05	All holdings growing oats
+D06	All holdings growing grain maize
+D07	All holdings growing rice
+D08	All holdings growing other cereals
+D09	All holdings growing pulses - total
+D10	All holdings growing potatoes
+D11	All holdings growing sugar beet
+D12	All holdings growing fodder roots and brassicas
+D13	All holdings growing industrial plants
+D14_15	All holdings growing fresh vegetables, melons, strawberries
+D14	Outdoor: All holdings growing fresh vegetables, melons, strawberries
+D15	Under glass: All holdings growing fresh vegetables, melons, strawberries
+D16	Outdoor: All holdings growing flowers and ornemental plants
+D17	Under glass: All holdings growing flowers and ornemental plants
+D18	All holdings growing forage plants
+D19	All holdings growing seeds and seedlings
+D20	All holdings growing other crops
+D21	All holdings growing fallow land without subsidies
+F	Total: All holdings with permanent grassland and meadow
+F01	All holdings with pasture and meadow
+F02	All holdings with rough grazings
+G	All holdings growing permanent crops
+G01	All holdings with fruit and berry plantations
+G02	All holdings with citrus plantations
+G03	All holdings with olive plantations
+G04	All holdings with vineyards - total
+G04A	All holdings with vineyards - quality wine
+G04B	All holdings with vineyards - other wines
+G04C	All holdings with vineyards - table grapes
+G04D	All holdings with vineyards - raisins
+G05	All holdings with nurseries
+G06	All holdings with other permanent crops
+G07	All holdings with permanent crops under glass
+J	All holdings rearing livestock
+J01	All holdings rearing equidae
+J02_08	All holdings rearing cattle
+J02	All holdings rearing bovine <1 year old - total
+J03	All holdings rearing bovine 1-<2 years - males
+J04	All holdings rearing bovine 1-<2 years - females
+J05	All holdings rearing bovine 2 years and older - males
+J06	All holdings rearing heifers, 2 years and older
+J07	All holdings rearing dairy cows
+J08	All holdings rearing other cows
+J09	All holdings rearing sheep
+J09A	All holdings rearing sheep - breeding ewes
+J09B	All holdings rearing sheep - others
+J10	All holdings rearing goats
+J10A	All holdings rearing goats - breeding females
+J10B	All holdings rearing goats - others
+J11_13	All holdings rearing pigs
+J11	All holdings rearing pigs - piglets under 20 kg
+J12	All holdings rearing pigs - breeding sows over 50 kg
+J13	All holdings rearing pigs - others
+J14_16	All holdings rearing poultry
+J14	All holdings rearing poultry - broilers
+J15	All holdings rearing poultry - laying hens
+J16	All holdings rearing poultry - others
+J17	All holdings rearing rabbits (breeding females)
+J18	All holdings rearing beehives
+J19A	All holdings rearing deer
+OTHER	All holdings rearing other livestock

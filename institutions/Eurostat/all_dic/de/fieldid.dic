@@ -1,0 +1,162 @@
+D01_ECU_PER_HA	Weichweizen und Spelz
+D02_ECU_PER_HA	Hartweizen
+D03_ECU_PER_HA	Roggen
+D04_ECU_PER_HA	Gerste
+D05_ECU_PER_HA	Hafer
+D06_ECU_PER_HA	Körnermais
+D07_ECU_PER_HA	Reis
+D08_ECU_PER_HA	Sonstiges Getreide
+D09_ECU_PER_HA	Hülsenfrüchte
+D09A_ECU_PER_HA	Hülsenfrüchte für Futterzwecke
+D09B_ECU_PER_HA	Andere Hülsenfrüchte
+D09C_ECU_PER_HA	Erbsen für Futterzwecke
+D09D_ECU_PER_HA	Bohnen für Futterzwecke
+D09E_ECU_PER_HA	Hülsenfrüchte - andere als Erbsen und Bohnen für Futterzwecke
+D09E_1_ECU_PER_HA	Erbsen, Feldbohnen und Süßlupinen
+D09F_ECU_PER_HA	Linsen, Kichererbsen und Wicken
+D09G_ECU_PER_HA	Andere trocken geerntete Eiweißpflanzen
+D10_ECU_PER_HA	Kartoffeln
+D11_ECU_PER_HA	Zuckerrüben
+D12_ECU_PER_HA	Futterhackfrüchte
+D13_ECU_PER_HA	Handelsgewächse
+D13A_ECU_PER_HA	Tabak
+D13B_ECU_PER_HA	Hopfen
+D13C_ECU_PER_HA	Baumwolle
+D13D_ECU_PER_HA	Andere Handelsgewächse
+D13D1_ECU_PER_HA	Andere Ölsaaten oder Textilpflanzen
+D13D1A_ECU_PER_HA	Raps und Rübsen
+D13D1B_ECU_PER_HA	Sonnenblumen
+D13D1C_ECU_PER_HA	Soja
+D13D1D_ECU_PER_HA	Sonstige Ölsaaten oder Textilpflanzen
+D13D2_ECU_PER_HA	Heil-, Duft- und Gewürzpflanzen
+D13D3_ECU_PER_HA	Handelsgewächse - Sonstige
+D13D3A_ECU_PER_HA	Zuckerrohr
+D13D3B_ECU_PER_HA	Handelsgewächse - Sonstige - ohne Zuckerrohr
+D14_ECU_PER_HA	Gemüse, Melonen, Erdbeeren im Freiland
+D14A_ECU_PER_HA	Gemüse, Melonen, Erdbeeren im Freiland - Feldanbau
+D14B_ECU_PER_HA	Gemüse, Melonen, Erdbeeren im Freiland - Gartenbaukulturen
+D15_ECU_PER_HA	Gemüse, Melonen, Erdbeeren unter Glas
+D16_ECU_PER_HA	Blumen und Zierpflanzen (ohne Baumschulen) im Freiland
+D17_ECU_PER_HA	Blumen und Zierpflanzen (ohne Baumschulen) unter Glas
+D18_ECU_PER_HA	Futterpflanzen - insgesamt
+D18A_ECU_PER_HA	Futterpflanzen - Ackerwiesen und -weiden
+D18B_ECU_PER_HA	Futterpflanzen - Sonstige Grünfutterpflanzen - insgesamt
+D18B1_ECU_PER_HA	Futterpflanzen - Sonstige Grünfutterpflanzen - Grünmais
+D18B2_ECU_PER_HA	Futterpflanzen - Sonstige Grünfutterpflanzen - Leguminosen
+D18B2_3_ECU_PER_HA	Sonstige Futterpflanzen
+D18B3_ECU_PER_HA	Futterpflanzen - Sonstige Grünfutterpflanzen - Sonstige
+D19_ECU_PER_HA	Sämereien und Pflanzgut auf Ackerland
+D20_ECU_PER_HA	Sonstige Kulturen auf Ackerland
+D21_ECU_PER_HA	Schwarz-, Grünbrache für die keine Beihilfe gewährt wird
+D22_ECU_PER_HA	Nicht produktives Ackerland für das Beihilfe gewährt wird
+D23_ECU_PER_HA	Tabak
+D24_ECU_PER_HA	Hopfen
+D25_ECU_PER_HA	Baumwolle
+D26_ECU_PER_HA	Raps und Rübsen
+D27_ECU_PER_HA	Sonnenblumen
+D28_ECU_PER_HA	Soja
+D29_ECU_PER_HA	Lein
+D30_ECU_PER_HA	Andere Ölfrüchte
+D31_ECU_PER_HA	Flachs
+D32_ECU_PER_HA	Hanf
+D33_ECU_PER_HA	Andere Textilpflanzen
+D34_ECU_PER_HA	Heil-, Duft- und Gewürzpflanzen
+D35_ECU_PER_HA	Andere Handelsgewächse
+E_ECU_PER_HA	Haus- und Nutzgärten
+F_ECU_PER_HA	Dauergrünland - insgesamt
+F01_ECU_PER_HA	Dauergrünland - Dauerwiesen und -weiden
+F02_ECU_PER_HA	Dauergrünland - Ertragsarme Weiden
+F03_ECU_PER_HA	Dauergrünland, nicht genutzt, beihilfefähig
+G01_ECU_PER_HA	Obst- und Beerenobstanlagen - insgesamt
+G01A_ECU_PER_HA	Obst- und Beerenobstanlagen - Arten der gemäßigten Klimazonen
+G01B_ECU_PER_HA	Obst- und Beerenobstanlagen - Arten der subtropischen Klimazonen
+G01C_ECU_PER_HA	Obst- und Beerenobstanlagen - Schalenobst
+G02_ECU_PER_HA	Zitrusanlagen
+G03_ECU_PER_HA	Olivenanlagen - insgesamt
+G03A_ECU_PER_HA	Olivenanlagen - Erzeugung von Tafeloliven
+G03B_ECU_PER_HA	Olivenanlagen - Erzeugung von Olivenöl
+G04_ECU_PER_HA	Rebanlagen - insgesamt
+G04A_ECU_PER_HA	Rebanlagen - Qualitätswein
+G04B_ECU_PER_HA	Rebanlagen - anderer Wein
+G04C_ECU_PER_HA	Rebanlagen - Tafeltrauben
+G04D_ECU_PER_HA	Rebanlagen - Rosinen
+G05_ECU_PER_HA	Reb- und Baumschulen
+G06_ECU_PER_HA	Sonstige Dauerkulturen
+G07_ECU_PER_HA	Dauerkulturen unter Glas
+I01_ECU_PER_HA	Einander folgende Nebenkulturen - insgesamt
+I01A_ECU_PER_HA	Einander folgende Nebenkulturen - Getreide, ausgenommen für Futterzwecke
+I01B_ECU_PER_HA	Einander folgende Nebenkulturen - Hülsenfrüchte, ausgenommen
+I01C_ECU_PER_HA	Einander folgende Nebenkulturen - Ölsaaten, ausgenommen
+I01D_ECU_PER_HA	Einander folgende Nebenkulturen - Sonstige insgesamt
+I01D1_ECU_PER_HA	Einander folgende Nebenkulturen - Sonstige - ausgenommen für Futterpflanzen
+I01D2_ECU_PER_HA	Einander folgende Nebenkulturen - Sonstige - Futterpflanzen
+I02_ECU_PER_100_M2	Pilze
+I03B1_ECU_PER_HA	Bewässerte Kulturen: Hartweizen
+I03B10_ECU_PER_HA	Bewässerte Kulturen: Rebanlagen
+I03B2_ECU_PER_HA	Bewässerte Kulturen: Mais
+I03B3_ECU_PER_HA	Bewässerte Kulturen: Kartoffeln
+I03B4_ECU_PER_HA	Bewässerte Kulturen: Zuckerrüben
+I03B5_ECU_PER_HA	Bewässerte Kulturen: Sonnenblumen
+I03B6_ECU_PER_HA	Bewässerte Kulturen: Soja
+I03B7_ECU_PER_HA	Bewässerte Kulturen: Futterplanzen
+I03B8_ECU_PER_HA	Bewässerte Kulturen - Obstanlagen
+I03B9_ECU_PER_HA	Bewässerte Kulturen - Zitrusfrüchte
+I06_ECU_PER_HA	Flächen, die der Beihilferegelung zur Stillegung von Ackerland unterliegen - insgesamt
+I06A_ECU_PER_HA	Flächen, die der Beihilferegelung zur Stillegung unterliegen - Br
+I06B_ECU_PER_HA	Flächen, die der Beihilferegelung zur Stillegung unterliegen: Dauerwiesen und Weiden
+I06C_ECU_PER_HA	Flächen, die der Beihilferegelung zur Stillegung unterliegen: Linsen, Kichererbsen und Wicken
+I08AD22_ECU_PER_HA	Stillgelegte Flächen mit Beihilfe: Schwarz-, Grünbrache
+J01_ECU_PER_HEAD	Einhufer
+J01_ECU_PER_HEAD-D	Einhufer
+J02_ECU_PER_HEAD	Rinder, unter 1 Jahr - insgesamt
+J02_ECU_PER_HEAD-D	Rinder, unter 1 Jahr - insgesamt
+J02A_ECU_PER_HEAD	Rinder, unter 1 Jahr, männlich
+J02A_ECU_PER_HEAD-D	Rinder, unter 1 Jahr, männlich
+J02B_ECU_PER_HEAD	Rinder, unter 1 Jahr, weiblich
+J02B_ECU_PER_HEAD-D	Rinder, unter 1 Jahr, weiblich
+J03_ECU_PER_HEAD	Rinder, 1 bis unter 2 Jahren, männlich
+J03_ECU_PER_HEAD-D	Rinder, 1 bis unter 2 Jahren, männlich
+J04_ECU_PER_HEAD	Rinder, 1 bis unter 2 Jahren, weiblich
+J04_ECU_PER_HEAD-D	Rinder, 1 bis unter 2 Jahren, weiblich
+J05_ECU_PER_HEAD	Rinder, 2 Jahre und älter, männlich
+J05_ECU_PER_HEAD-D	Rinder, 2 Jahre und älter, männlich
+J06_ECU_PER_HEAD	Färsen, 2 Jahre und älter
+J06_ECU_PER_HEAD-D	Färsen, 2 Jahre und älter
+J07_ECU_PER_HEAD	Milchkühe
+J07_ECU_PER_HEAD-D	Milchkühe
+J08_ECU_PER_HEAD	Färsen, 2 Jahre und älter - sonstige Kühe
+J08_ECU_PER_HEAD-D	Färsen, 2 Jahre und älter - sonstige Kühe
+J09_ECU_PER_HEAD	Schafe - insgesamt
+J09_ECU_PER_HEAD-D	Schafe - insgesamt
+J09A_ECU_PER_HEAD	Mutterschafe
+J09A_ECU_PER_HEAD-D	Mutterschafe
+J09B_ECU_PER_HEAD	Schafe, sonstige
+J09B_ECU_PER_HEAD-D	Schafe, sonstige
+J10_ECU_PER_HEAD	Ziegen
+J10_ECU_PER_HEAD-D	Ziegen
+J10A_ECU_PER_HEAD	Ziegen, weiblich zur Zucht
+J10A_ECU_PER_HEAD-D	Ziegen, weiblich zur Zucht
+J10B_ECU_PER_HEAD	Ziegen, sonstige
+J10B_ECU_PER_HEAD-D	Ziegen, sonstige
+J11_ECU_PER_HEAD	Ferkel mit einem Lebendgewicht unter 20 kg
+J12_ECU_PER_HEAD	Mutterschweine von 50 kg und mehr
+J13_ECU_PER_HEAD	Schweine, andere
+J14_ECU_PER_100_HDS	Masthähnchen und -hühnchen
+J15_ECU_PER_100_HDS	Legehennen
+J16_ECU_PER_100_HDS	Sonstiges Geflügel
+J16A_ECU_PER_100_HDS	Truthühner
+J16B_ECU_PER_100_HDS	Enten
+J16C_ECU_PER_100_HDS	Gänse
+J16D_ECU_PER_100_HDS	Sonstiges Geflügel
+J17_ECU_PER_HEAD	Mutterkaninchen
+J18_ECU_PER_HEAD	Bienenstöcke
+J19_ECU_PER_HEAD	Sonstige Tiere
+R132_ECU_PER_HA	Krautartige Ölsaatenpflanzen
+R135_ECU_PER_HA	Sonstige Handelsgewächse
+R139_ECU_PER_HARVEST	Pilze
+R334_ECU_PER_HA	Andere Ölsaaten
+MSH_HRV_Y	Pilze: durchschnittliche Zahl der Ernten pro Jahr
+EXCHG_RT	Landeswährung für 1 Euro/Ecu
+RD	RD: Schwelle für SGMH/SGMF (Zufuhrbedarf an Futter)
+RS	RS: Schwelle für SGMH/SGMF (Futter Überschuß)
+RV	RV: Koefizient für die Einbeziehung der Bewertung der Futterflächen

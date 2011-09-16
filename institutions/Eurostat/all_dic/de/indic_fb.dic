@@ -1,0 +1,155 @@
+101_A	Zahl der Lohn-und Gehaltsempfänger im Jahr der Unternehmensgründung
+101_N	Zahl der Einheiten, die von 2002 bis 2005 überlebt haben
+201_A	Art der Unternehmensgründung - neues Unternehmen
+201_C	Art der Unternehmensgründung - Neubeginn eines Unternehmens, das über zwei Jahre geruht hat
+201_T	Art der Unternehmensgründung - Gesamt
+202_A	Motiv der Unternehmensgründung - der Wunsch nach einer neuen Herausforderung
+202_B	Motiv der Unternehmensgründung - der Wunsch mein(e) eigene(r) Chef(in) zu sein
+202_C	Motiv der Unternehmensgründung - der Wunsch das Hobby zum Beruf zu machen
+202_D	Motiv der Unternehmensgründung - in meiner Familie ist es Tradition selbstständig zu sein
+202_E	Motiv der Unternehmensgründung - die Möglichkeit die Arbeit und das Privatleben besser zu verbinden
+202_F	Motiv der Unternehmensgründung - die Kinder sind jetzt groß genug
+202_G	Motiv der Unternehmensgründung - die Aussicht mehr Geld zu verdienen
+202_H	Motiv der Unternehmensgründung - das Herstellen eines neuen Produktes oder das Anbieten einer neuen Dienstleistung
+202_I	Motiv der Unternehmensgründung - die Möglichkeit auf dem internationalen Markt agieren zu können
+202_J	Motiv der Unternehmensgründung - das Vermeiden von Arbeitslosigkeit
+202_K	Motiv der Unternehmensgründung - die Möglichkeit aus einer bisherigen unbefriedigenden Arbeitssituation herauszukommen
+202_L	Motiv der Unternehmensgründung - die Möglichkeit als Subunternehmer(in) exklusiv für meinen bisherigen Arbeitgeber tätig zu sein
+202_M	Motiv der Unternehmensgründung - die einzige Möglichkeit in meinem Beruf erwerbstätig zu sein
+202_T	Motiv der Unternehmensgründung - Gesamt
+203_A	Finanzierung der Unternehmensgründung - mit eigenen Finanzmitteln oder Ersparnissen
+203_B	Finanzierung der Unternehmensgründung - mit finanzieller Unterstützung von Familie oder Freunden
+203_C	Finanzierung der Unternehmensgründung - durch ein Bankdarlehen ohne Sicherheiten
+203_D	Finanzierung der Unternehmensgründung - durch ein Bankdarlehen mit Sicherheiten
+203_E	Finanzierung der Unternehmensgründung - mit finanzieller Unterstützung durch andere Unternehmen
+203_F	Finanzierung der Unternehmensgründung - mit Beteiligungs- oder Risikokapital
+203_G	Finanzierung der Unternehmensgründung - mit finanzieller Unterstützung durch die öffentliche Hand
+203_T	Finanzierung der Unternehmensgründung - Gesamt
+204_A	Schwierigkeiten bei der Unternehmensgründung - die Finanzierung
+204_B	Schwierigkeiten bei der Unternehmensgründung - der Aufbau von Kundenkontakten
+204_C	Schwierigkeiten bei der Unternehmensgründung - Bezahlung ausstehender Rechnungen zu erhalten
+204_D	Schwierigkeiten bei der Unternehmensgründung - die Preise für die eigenen Produkte oder Dienstleistungen festzulegen
+204_E	Schwierigkeiten bei der Unternehmensgründung - das Finden von geeigneten Räumlichkeiten
+204_F	Schwierigkeiten bei der Unternehmensgründung - das Finden von Lieferanten
+204_G	Schwierigkeiten bei der Unternehmensgründung - das Finden von geeignetem Personal
+204_H	Schwierigkeiten bei der Unternehmensgründung - die effektive Nutzung der EDV
+204_I	Schwierigkeiten bei der Unternehmensgründung - die Abwicklung rechtlicher oder administrativer Angelegenheiten
+204_J	Schwierigkeiten bei der Unternehmensgründung - als Unternehmer(in) allein für alles verantwortlich zu sein
+204_K	Schwierigkeiten bei der Unternehmensgründung - Rückhalt vom Ehepartner oder von der Familie zu bekommen
+204_T	Schwierigkeiten bei der Unternehmensgründung - Gesamt
+205_A	Vorherige Beschäftigung - Angestellte(r)
+205_B	Vorherige Beschäftigung - Inhaber(in) eines anderen Unternehmens
+205_C	Vorherige Beschäftigung - Student(in)
+205_D	Vorherige Beschäftigung - arbeitlos und auf dem Arbeitsmarkt verfügbar
+205_E	Vorherige Beschäftigung - nicht erwerbstätig und nicht auf dem Arbeitsmarkt verfügbar
+205_T	Vorherige Beschäftigung - Gesamt
+206_A	Bereits praktische Erfahrung in der Branche - ja
+206_B	Bereits praktische Erfahrung in der Branche - nein
+206_T	Bereits praktische Erfahrung in der Branche - Gesamt
+207_A	Bereits praktische Erfahrung mit Unternehmungsgründung - nein
+207_B	Bereits praktische Erfahrung mit Unternehmungsgründung - einmal
+207_C	Bereits praktische Erfahrung mit Unternehmungsgründung - mehr als einmal
+207_T	Bereits praktische Erfahrung mit Unternehmungsgründung - Gesamt
+208_A	erhaltene Weiterbildung für Unternehmer  - ja, auf eigene Eigeninitiative
+208_B	erhaltene Weiterbildung für Unternehmer  - ja, auf Anfrage von öffentlichen Behörden
+208_C	erhaltene Weiterbildung für Unternehmer - keine
+208_T	erhaltene Weiterbildung für Unternehmer  - Gesamt
+209_A	Quellen für Ratschläge - Freunde und Familie
+209_B	Quellen für Ratschläge - Spezielle Weiterbildungs- oder Kursangebote für Unternehmer
+209_C	Quellen für Ratschläge - Kontakte zu anderen Unternehmern
+209_D	Quellen für Ratschläge - Professionelle Berater
+209_E	Quellen für Ratschläge - Arbeitsamt
+209_F	Quellen für Ratschläge - Organisationen, die auf Unternehmensneugründungen spezialisiert sind
+209_G	Quellen für Ratschläge - ein Finanzinstitut
+209_H	Quellen für Ratschläge - keinen Zugang zu einer der genannten Hilfestellungen
+209_I	Quellen für Ratschläge - keine Hilfestellung benötigt
+209_T	Quellen für Ratschläge - Gesamt
+210_A	Derzeitige andere Erwerbstätigkeiten - ja
+210_B	Derzeitige andere Erwerbstätigkeiten - nein
+210_T	Derzeitige andere Erwerbstätigkeiten - Gesamt
+211_A	Altersgruppe - unter 30 Jahre
+211_B	Altersgruppe - 30 bis 39 Jahre
+211_C	Altersgruppe - 40 Jahre und älter
+211_T	Altersgruppe - Gesamt
+212_A	Geschlecht - weiblich
+212_B	Geschlecht - männlich
+212_T	Geschlecht - Gesamt
+213_A	Nationalität - inländisch
+213_B	Nationalität - ausländisch - innerhalb der EU
+213_C	Nationalität - ausländisch - außerhalb der EU
+213_T	Nationalität - Gesamt
+214_A	Schulbildung - ISCED 1 oder 2
+214_B	Schulbildung - ISCED 3
+214_C	Schulbildung - ISCED 4
+214_D	Schulbildung - ISCED 5 oder 6
+214_T	Schulbildung - Gesamt
+301_A	Derzeitige Unternehmungsleitung - alleine
+301_B	Derzeitige Unternehmungsleitung - mit jemand anderem
+301_C	Derzeitige Unternehmungsleitung - ausschließlich von bezahlten Managern
+301_T	Derzeitige Unternehmungsleitung - Gesamt
+302_A	Beschäftigte - unbezahlte oder selbstständige Mitarbeiter
+302_B	Beschäftigte - Lohn- und Gehaltsempfänger
+303_A	Umsatz in 2004
+304_A	Umsatz in 2005
+305_A	Herkunft des Umsatzes - 1 Abnehmer/Kunde
+305_B	Herkunft des Umsatzes - 2 bis 4 Abnehmer/Kunden
+305_C	Herkunft des Umsatzes - mehr als 5 Kunden
+305_T	Herkunft des Umsatzes - Gesamt
+306_A	Absatzmärkte - lokal/regional
+306_B	Absatzmärkte - national
+306_C	Absatzmärkte - innerhalb der EU
+306_D	Absatzmärkte - außerhalb der EU
+306_T	Absatzmärkte - Gesamt
+307_A	Berurteilung der Wirtschaftlichkeit - sehr gut
+307_B	Berurteilung der Wirtschaftlichkeit - gut
+307_C	Berurteilung der Wirtschaftlichkeit - gerade noch ausreichend
+307_D	Berurteilung der Wirtschaftlichkeit - nicht ausreichend
+307_T	Berurteilung der Wirtschaftlichkeit - Gesamt
+308_A	Zusammenarbeit mit anderen Unternehmen - in einem Netzwerk/Cluster
+308_B	Zusammenarbeit mit anderen Unternehmen - als Subunternehmer
+308_C	Zusammenarbeit mit anderen Unternehmen - als Franchise-Nehmer bzw. als Lizenznehmer
+308_D	Zusammenarbeit mit anderen Unternehmen - als Teilhaber in einem Gemeinschaftsunternehmen (joint venture)
+308_E	Zusammenarbeit mit anderen Unternehmen - gar nicht bzw. zu einem nicht relevanten Ausmaß
+308_T	Zusammenarbeit mit anderen Unternehmen - Gesamt
+309_A	Innovation im Unternehmen - Produktinnovation
+309_B	Innovation im Unternehmen - Prozessinnovation
+309_C	Innovation im Unternehmen - Organisationsinnovation
+309_D	Innovation im Unternehmen - Marketinginnovation
+309_T	Innovation im Unternehmen - Gesamt
+310_A	Hindernisse Produkte oder Dienstleistungen zu verkaufen - zu starker Wettbewerb
+310_B	Hindernisse Produkte oder Dienstleistungen zu verkaufen - zu geringe Nachfrage
+310_C	Hindernisse Produkte oder Dienstleistungen zu verkaufen - schwierige Preisgestaltung
+310_D	Hindernisse Produkte oder Dienstleistungen zu verkaufen - fehlende Marketingkenntnisse
+310_T	Hindernisse Produkte oder Dienstleistungen zu verkaufen - Gesamt
+311_A	Hindernisse für die Entwicklung der Geschäftstätigkeit - die Ertragslage bzw. die Rentabilität
+311_B	Hindernisse für die Entwicklung der Geschäftstätigkeit - die Verfügbarkeit von Bankkrediten
+311_C	Hindernisse für die Entwicklung der Geschäftstätigkeit - die Verfügbarkeit von Risikokapital
+311_D	Hindernisse für die Entwicklung der Geschäftstätigkeit - die Verfügbarkeit von kurzfristigen Krediten
+311_E	Hindernisse für die Entwicklung der Geschäftstätigkeit - das Finden von qualifiziertem Personal
+311_F	Hindernisse für die Entwicklung der Geschäftstätigkeit - die Personalkosten
+311_G	Hindernisse für die Entwicklung der Geschäftstätigkeit - die behördlichen und administrativen Verpflichtungen
+311_H	Hindernisse für die Entwicklung der Geschäftstätigkeit - die Anpassung an neue technische Standards
+311_I	Hindernisse für die Entwicklung der Geschäftstätigkeit - die Führungskompetenz
+311_J	Hindernisse für die Entwicklung der Geschäftstätigkeit - die Vereinbarkeit von Familie und Arbeit
+311_K	Hindernisse für die Entwicklung der Geschäftstätigkeit - das Finden von Geschäftspartnern
+311_L	Hindernisse für die Entwicklung der Geschäftstätigkeit - nicht oder spät zahlende Kunden
+311_T	Hindernisse für die Entwicklung der Geschäftstätigkeit - Gesamt
+401_A	Strategischen Pläne - das Unternehmen so weiterführen wie bisher
+401_B	Strategischen Pläne - das Unternehmen mit einem oder mehreren anderen Unternehmen verschmelzen
+401_C	Strategischen Pläne - das derzeitige Unternehmen verkaufen oder schließen und ein neues in derselben Branche gründen
+401_D	Strategischen Pläne - das derzeitige Unternehmen verkaufen oder schließen und ein neues in einer anderen Branche gründen
+401_E	Strategischen Pläne - das derzeitige Unternehmen verkaufen oder schließen ohne ein neues Unternehmen zu gründen
+401_T	Strategischen Pläne - Gesamt
+402_A	Erwartete Entwicklung der Unternehmensaktivität - Umsatzanstieg
+402_B	Erwartete Entwicklung der Unternehmensaktivität - Anstieg der Anzahl der Angestellten
+402_C	Erwartete Entwicklung der Unternehmensaktivität - Anstieg der Auswahl der angebotenen Güter und Dienstleistungen
+402_D	Erwartete Entwicklung der Unternehmensaktivität - Ertragsanstieg
+402_T	Erwartete Entwicklung der Unternehmensaktivität - Gesamt
+403_A	Höchste Priorität wenn Einkommen steigt - mehr Mitarbeiter einstellen
+403_B	Höchste Priorität wenn Einkommen steigt - den bisherigen Mitarbeitern mehr bezahlen
+403_C	Höchste Priorität wenn Einkommen steigt - mehr in das Unternehmen selber investieren
+403_D	Höchste Priorität wenn Einkommen steigt - Kredite und Schulden zurückzahlen
+403_E	Höchste Priorität wenn Einkommen steigt - das eigene Gehalt erhöhen
+403_F	Höchste Priorität wenn Einkommen steigt - die eigene Arbeitszeit reduzieren
+403_G	Höchste Priorität wenn Einkommen steigt - nichts von all dem
+403_T	Höchste Priorität wenn Einkommen steigt - Gesamt

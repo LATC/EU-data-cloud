@@ -1,0 +1,18 @@
+TOTRESING	Währungsreserven einschliesslich Gold
+TOTRESEXG	Währungsreserven ohne Gold
+GOLD	Währungsgold
+SDRIGHTS	Sonderziehungsrechte (SZR)
+IMFPOS	Reserveposition im IWF
+FOREX	Devisenreserven
+XEUR	Devisenreserven, darunter Reserven in Euro
+FOREXECU	Devisenreserven, darunter Reserven in Ecu
+DEPTOT	Devisenreserven - Bargeld und Einladen - Insgesamt
+DEPMA	Devisenreserven - Bargeld und Einlagen - mit Währungsbehörden und der Bank für Internationalen Zahlungsausgleich (BIZ)
+DEPBA	Devisenreserven - Bargeld und Einlagen - Mit Banken
+SECU	Devisenreserven - Wertpapiere - Insgesamt
+EQUI	Devisenreserven - Wertpapiere - Dividendenwerte
+BNOT	Devisenreserven - Wertpapiere - Anleihen
+MMI	Devisenreserven - Wertpapiere - Geldmarktpapiere
+FINDERIV	Devisenreserven - Finanzderivate
+OTHCL	Sonstige Forderungen
+RELAS	Devisenreserven - Vermerk: Forderungen in Fremdwährung an Ansässige im Euroraum

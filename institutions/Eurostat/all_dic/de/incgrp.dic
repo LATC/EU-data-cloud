@@ -1,0 +1,20 @@
+B_MD40	Unter 40% des medianen Äquivalenzeinkommens
+A_MD40	Über 40% des medianen Äquivalenzeinkommens
+B_MD50	Unter 50% des medianen Äquivalenzeinkommens
+A_MD50	Über 50% des medianen Äquivalenzeinkommens
+B_MD60	Unter 60% des medianen Äquivalenzeinkommens
+A_MD60	Über 60% des medianen Äquivalenzeinkommens
+B_MD70	Unter 70% des medianen Äquivalenzeinkommens
+A_MD70	Über 70% des medianen Äquivalenzeinkommens
+B_M40	Unter 40% des durchschnittlichen Äquivalenzeinkommens
+A_M40	Über 40% des durchschnittlichen Äquivalenzeinkommens
+B_M50	Unter 50% des durchschnittlichen Äquivalenzeinkommens
+A_M50	Über 50% des durchschnittlichen Äquivalenzeinkommens
+B_M60	Unter 60% des durchschnittlichen Äquivalenzeinkommens
+A_M60	Über 60% des durchschnittlichen Äquivalenzeinkommens
+Q0_20	Erstes Quintil des Äquivalenzeinkommens
+Q20_40	Zweitens Quintil des Äquivalenzeinkommens
+Q40_60	Drittes Quintil des Äquivalenzeinkommens
+Q60_80	Viertes Quintil des Äquivalenzeinkommens
+Q80_100	Fünftes Quintil des Äquivalenzeinkommens
+TOTAL	Insgesamt

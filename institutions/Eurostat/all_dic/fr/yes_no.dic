@@ -1,0 +1,15 @@
+YES	Oui
+YES_ALL	Oui
+YES_OWN	Oui, propre initiative
+YES_DOC	Oui, sur initiative des docteurs
+YES_SCREEN	Oui, programme d'examen de dépistage
+NO	Non
+UNK	Inconnu
+NRESP	Sans réponse
+TOT	Total
+YES_F	Recherche de financement
+NO_F	Sans recherche de financement
+YES_G	Besoin de garantie pour financement par emprunt
+NO_G	Sans demande de garantie pour financement par emprunt
+YES_FN	Besoin de financement
+NO_FN	Pas de besoin de financement

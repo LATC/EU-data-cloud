@@ -1,0 +1,39 @@
+TOTAL	Insgesamt
+NONE	Keine Einkommen
+QUARTILE1	Erstes Quartil
+QUARTILE2	Zweites Quartil
+QUARTILE3	Drittes Quartil
+QUARTILE4	Viertes Quartil
+QUINTILE1	Erstes Quintil
+QUINTILE2	Zweites Quintil
+QUINTILE3	Drittes Quintil
+QUINTILE4	Viertes Quintil
+QUINTILE5	Fünftes Quintil
+DECILE1	Erstes Dezil
+DECILE2	Zweites Dezil
+DECILE3	Drittes Dezil
+DECILE4	Viertes Dezil
+DECILE5	Fünftes Dezil
+DECILE6	Sechstes Dezil
+DECILE7	Siebtes Dezil
+DECILE8	Achtes Dezil
+DECILE9	Neuntes Dezil
+DECILE10	Zehntes Dezil
+PERCENTILE1	Erstes Perzentil
+PERCENTILE2	Zweites Perzentil
+PERCENTILE3	Drittes Perzentil
+PERCENTILE4	Viertes Perzentil
+PERCENTILE5	Fünftes Perzentil
+PERCENTILE10	Zehntes Perzentil
+PERCENTILE25	Fünf und Zwanzigstes Perzentil
+PERCENTILE50	Median
+TWOTHIRDMEDIAN	Zwei drittel des Medianwerts (66.6% des Medianwerts)
+PERCENTILE75	Fünf und Siebzigstes Perzentil
+PERCENTILE90	Neunzigstes Perzentil
+PERCENTILE95	Fünf und Neunzigstes Perzentil
+PERCENTILE96	Sechs und Neunzigstes Perzentil
+PERCENTILE97	Sieben und Neunzigstes Perzentil
+PERCENTILE98	Acht und Neunzigstes Perzentil
+PERCENTILE99	Neun und Neunzigstes Perzentil
+PERCENTILE100	Hundertstes Perzentil
+UNK	Unbekannt

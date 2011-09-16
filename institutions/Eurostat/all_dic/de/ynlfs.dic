@@ -1,0 +1,135 @@
+YES	Ja
+NO	Nein
+NRP	Keine Antwort
+NRESP	Keine Antwort
+NAPPL	Nicht zutreffend
+UNK	Unbekannt
+TOTAL	Insgesamt
+TCARE1	Kinderbetreuungsdienste (einschl. Tageseltern), Vorschule
+TCARE2	Im Haushalt lebender Partner
+TCARE3	Verwandte/Nachbarn/Freunde (unbezahlt)
+TCARE4	Keine Kinderbetreuung
+TCRED9	Entfällt (die antwortende Person hat kein Kind im Alter bis zu 14 Jahren im Haushalt und/oder arbeitet nicht)
+RCARE1	Die antwortende Person betreut regelmäßig andere Kinder bis 14 Jahre
+RCARE2	Die antwortende Person betreut regelmäßig pflegebedürftige Verwandte/Freunde ab 15 Jahren
+RCARE3	Die antwortende Person betreut regelmäßig Kinder bis 14 Jahre und pflegebedürftige Verwandte/Freunde ab 15 Jahren
+CHORG2	Möchte arbeiten oder mehr arbeiten (und Betreuungszeit verringern)
+CHORG3	Möchte weniger arbeiten, um mehr Zeit für Betreuung zu haben
+CHORG9	Entfällt (die antwortende Person betreut keine Kinder/Verwandte/Freunde im Bedarfsfall)
+NWCHI1	Kinderbetreuungsdienste werden tagsüber nicht angeboten
+NWCHI2	Kinderbetreuungsdienste werden zu bestimmten Zeiten nicht angeboten
+NWCHI3	Kinderbetreuungsdienste werden tagsüber oder zu bestimmten Zeiten nicht angeboten
+NWCHI4	Kinderbetreuungsdienste sind zu teuer
+NWCHI5	Angebotene Kinderbetreuungsdienste sind qualitativ nicht ausreichend
+NWCHI6	Anderer Grund, nicht durch das Fehlen geeigneter Kinderbetreuungsdienste bedingt
+NWCHI9	Entfällt (die antwortende Person möchte nicht oder nicht mehr arbeiten um weniger Zeit für dir Betreuung von Kindern im Alter bis zu 14 Jahren aufzuwenden und/oder hat keine Betreuungsverpflichtungen)
+REDUC2	Die antwortende Person nimmt spezielle Vereinbarungen in Anspruch , da tagsüber keine alternativen Kinderbetreuungsdienste angeboten wurden
+REDUC3	Die antwortende Person nimmt spezielle Vereinbarungen in Anspruch, da zu bestimmten Zeiten keine alternativen Kinderbetreuungsdienste angeboten wurden
+REDUC4	Die antwortende Person nimmt spezielle Vereinbarungen in Anspruch, da alternative Kinderbetreuungsdienste zu teuer waren
+REDUC5	Die antwortende Person nimmt spezielle Vereinbarungen in Anspruch, da alternative Kinderbetreuungsdienste qualitativ nicht ausreichend waren
+REDUC6	Die antwortende Person nimmt spezielle Vereinbarungen in Anspruch, stets aus anderen Gründen
+NWCAR1	Betreuungsdienste werden tagsüber nicht angeboten
+NWCAR2	Betreuungsdienste werden zu bestimmten Zeiten nicht angeboten
+NWCAR3	Betreuungsdienste werden tagsüber oder zu bestimmten Zeiten nicht angeboten
+NWCAR4	Betreuungsdienste sind zu teuer
+NWCAR5	Angebotene Betreuungsdienste sind qualitativ nicht ausreichend
+NWCAR6	Anderer Grund, nicht durch das Fehlen geeigneter Betreuungsdienste bedingt
+NWCAR9	Entfällt (die antwortende Person möchte nicht oder nicht mehr arbeiten um weniger Zeit für dir Betreuung von Verwandten/Kindern im Bedarfsfall aufzuwenden)
+POSTO1	Generell möglich
+POSTO2	Kaum möglich
+POSTO3	Nicht möglich
+TMOFF2	Ja, bezahlter 'Sonderurlaub'
+TMOFF3	Ja, unbezahlter 'Sonderurlaub'
+TMOFF4	Ja, stets andere Regelungen in Anspruch genommen
+POSTIM9	Entfällt (die antwortende Person arbeitet nicht)
+RDHR3	Nein, aber die Person plant es innerhalb der nächsten 5 Jahre
+RDHR45	Nein und die Person hat keine Pläne oder kann keine Angaben für die nächsten 5 Jahre machen
+PAGS94	Alter zwischen 50 und 59 Jahren
+PAGS95	Alter zwischen 60 und 64 Jahren
+PAGS96	Im Alter von 65 Jahren oder die Person plant so lange wie möglich im Arbeitsleben zu verbleiben
+PAGS97	Keine exakte Planung und die Person kann nicht sagen, wann sie aus dem Arbeitsleben ausscheiden will
+PAGS98	Die Person ist bereits aus dem Arbeitsleben ausgeschieden
+STAFT1	Arbeitslos
+STAFT2	In Verrentung oder Frühverrentung
+STAFT3	Langzeiterkrankung oder Behinderung
+STAFT4	Andere
+FXWRK1	Flexiblere Arbeitsbedingungen hätten/haben dazu beigetragen länger im Arbeitsleben zu verbleiben
+FXWRK2	Flexiblere Arbeitsbedingungen hätten/haben nicht dazu beigetragen länger im Arbeitsleben zu verbleiben
+OPSKL1	Möglichkeit zur Verbesserung der Qualifikation hätte/hat dazu beigetragen länger im Arbeitsleben zu verbleiben
+OPSKL2	Möglichkeit zur Verbesserung der Qualifikation hätte/hat nicht dazu beigetragen länger im Arbeitsleben zu verbleiben
+HLSAF1	Gesündere und/oder sichere Arbeitsbedingungen hätten/haben dazu beigetragen länger im Arbeitsleben zu verbleiben
+HLSAF2	Gesündere und/oder sichere Arbeitsbedingungen hätten/haben nicht dazu beigetragen länger im Arbeitsleben zu verbleiben
+OTBNF1	Eine Erwerbsunfähigkeitsrente oder krankheitsbedingte Rente
+OTBNF2	Einen Anspruch aus Frühverrentung
+OTBNF3	Andere nicht klassifizierte Form von individueller Transferleistung
+OTBNF4	Kombination der drei oben genannten Antwortkategorien
+FINCT1	Zur Steigerung der Anrechte aus Altersrente
+FINCT2	Um ausreichendes Haushaltseinkommen zur Verfügung zu stellen
+FINCT3	Keine finanziellen Anreize
+RRT158	Verlust des Arbeitsplatzes oder arbeitsplatzbedingte Probleme oder andere
+RRT27	Erreichen des Renteneintrittsalters oder Präferenz zum Ausscheiden aus dem Arbeitsleben
+RRT346	Gesundheit oder betreuungsbedingte Gründe oder finanzielle Gründe
+OWNMS0	Person kann nicht darüber bestimmen wie oder wann sie arbeitet
+OWNMS1	Person kann darüber bestimmen wie sie arbeitet
+OWNMS2	Person kann darüber bestimmen wann sie arbeitet
+OWNMS3	Person kann darüber bestimmen wie oder wann sie arbeitet
+OWNMS8	Person weiß es nicht
+SINCU0	Arbeitet regelmäßig für mehr als einen Kunden
+SINCU1	Arbeitet regelmäßig für nur einen Kunden
+SHPAT1	Kontinuierliche Schichtarbeit, in der Regel Vierschichtbetrieb
+SHPAT2	Diskontinuierliche Schichtarbeit, in der Regel Dreischichtbetrieb
+SHPAT3	Zweischichtbetrieb: zwei Tagschichten
+SHPAT4	Teils Nachtschicht, teils Tagschicht
+SHPAT5	Feste Schichtarbeit
+SHPAT6	Andere Schichtsysteme
+ANWKH0	Person hat keine vertraglich festgelegte Jahresarbeitszeit
+ANWKH1	Person hat eine vertraglich festgelegte Jahresarbeitszeit
+OCLWK0	Andere
+OCLWK1	Person erscheint nur auf Abruf zur Arbeit
+WKPFT1	Weniger Stunden pro Tag
+WKPFT2	Halber Tag weniger pro Woche
+WKPFT3	Weniger Tage pro Woche
+WKPFT4	Weniger Stunden pro Tag und weniger Tage pro Woche
+WKPFT5	Eine Woche innerhalb von zwei Wochen
+WKPFT6	Andere
+VARHR1	Person reduzierte ihre Überstundengutschrift
+VARHR2	Person hat einige Stunden frei genommen (ohne Anrechnung von Urlaubstagen)
+VARHR3	Person hat einen halben Tag, einen ganzen tag oder mehrere Tage frei genommen
+VARHR4	Person reduzierte ihre Überstundengutschrift oder hat einige Stunden frei genommen sowie darüber hinaus einen halben Tag, einen ganzen Tag oder mehrere Tage frei genommen (an unterschiedlichen Tagen innerhalb einer Woche)
+VARHR5	Person wollte Überstundengutschrift in Anspruch nehmen, konnte aber nicht (und hat keinen Urlaub in Anspruch genommen)
+VARHR6	Person wollte einige Stunden, einen halben Tag, einen ganzen Tag oder mehrere Tage frei nehmen, konnte aber nicht
+VARHR7	Andere (Arbeitszeit ist größer als vertraglich bestimmte Arbeitszeit, Entlassung etc.)
+WKT1P0	Schichtarbeit oder Bereitschaftsdienst ist nicht angenehm für die persönliche Lebenssituation
+WKT1P1	Schichtarbeit ist angenehm für die persönliche Lebenssituation
+WKT1P2	Bereitschaftsdienst ist angenehm für die persönliche Lebenssituation
+WKT2P1	Arbeiten am Abend, in der Nacht oder während des Wochenendes ist angenehm für die persönliche Lebenssituation
+WKT2P3	Arbeiten am Abend, in der Nacht oder während des Wochenendes ist nicht angenehm für die persönliche Lebenssituation
+VAWKH1	Fester Beginn und festes Ende der täglichen Arbeitszeit
+VAWKH2	Gestaffelte Arbeitszeiten mit flexiblem Arbeitsbeginn und -ende
+VAWKH3	Arbeitszeitkonten mit der Möglichkeit, einzelne Stunden auszugleichen
+VAWKH4	Arbeitszeitkonten mit der Möglichkeit, ganze Tage auszugleichen (nicht nureinzelne Stunden)
+VAWKH5	Beginn und Ende der täglichen Arbeitszeit variieren nach individueller Vereinbarung
+VAWKH6	Legt Arbeitszeiten selbst fest (keine formelle Arbeitszeitregelung)
+VAWKH7	Andere
+DETMS0	Arbeitet weisungsgebunden
+DETMS1	Legt Methoden und Zeitplan der Arbeit selbst fest
+SINGF0	Arbeitet regelmäßig für mehr als einen Kunden
+SINGF1	Arbeitet regelmäßig für nur einen Kunden
+TERCT1	Die produzierende Einheit hört nach Erbringung des Produktes oder der Dienstleistungen auf zu bestehen
+TERCT2	Teilzeitarbeit für einen festgelegte Zeitraum
+TERCT3	Die produzierende Einheit besteht nach Vertragsbeendigung weiter
+VAWKT1	Fester Beginn und festes Ende der täglichen Arbeitszeit
+VAWKT2	Vertragliche Jahresarbeitszeit
+VAWKT3	Arbeitszeitkonten
+VAWKT4	Vereinbarte Arbeitszeiten
+VAWKT5	Legt Arbeitszeiten selbst fest (keine formelle Arbeitszeitregelung)
+VAWKT6	Andere
+CMCRH0	Zeitguthaben kann nicht für volle Urlaubstage oder -wochen verwendet werden
+CMCRH1	Zeitguthaben kann für volle Urlaubstage oder -wochen verwendet werden (abgesehen von Freistunden)
+CONTH0	Andere
+CONTH1	Vertraglich ist eine Mindeststundenzahl festgelegt, tatsächlich können aber mehr Stunden gearbeitet werden, für die kein Überstundensatz bezahlt wird
+CONTH2	Erscheint nur auf Abruf zur Arbeit
+RESHW1	Die Person strebte (von sich aus) einen Arbeitsplatz mit Schichtarbeit an
+RESHW2	Die Person strebte einen Arbeitsplatz mit Schichtarbeit nicht an, aber ein ähnlicher Arbeitsplatz (d. h. im selben Beruf oder Wirtschaftszweig) war nicht verfügbar
+REWAR1	Die Person strebte (von sich aus) einen Arbeitsplatz mit dieser Arbeitszeitregelung an
+REWAR2	Die Person strebt einen Arbeitsplatz mit dieser Arbeitszeitregelung nicht an, aber ein änhlicher Arbeitsplatz (d. h. im selben Beruf oder Wirtschaftszweig) mit normaler Arbeitszeitregelung war nicht verfügbar

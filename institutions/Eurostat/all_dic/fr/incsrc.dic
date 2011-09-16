@@ -1,0 +1,23 @@
+TOTAL	Total
+ANY_MNY	Revenu monétaire quelconque
+WORK	Revenu provenant du travail
+WORK_WAGE	Rémunération des salariés
+WORK_SELF	Revenu d'une activité indépendante
+PRIV	Sources privées
+PRIV_CAP	Revenu du capital
+PRIV_RENT	Revenu de la propriété/loyers
+PRIV_TRF	Transfers privés
+SOC_TRF	Transfers sociaux
+SOC_RET	Pensions de vieillesse/survie
+SOC_NRET	Transfers sociaux - autres que pensions de vieillesse/survie
+SOC_UNE	Transfers sociaux liés au chômage
+SOC_FAM	Transfers sociaux liés à la famille
+SOC_SICK	Transfers sociaux liés à la maladie/invalidité
+SOC_EDUC	Transfers sociaux liés à l' éducation
+SOC_ASS	Assistance sociale
+SOC_HOUS	Transfers sociaux liés au logement
+SOC_OTH	Autres transferts sociaux, n.e.s.
+SOC_NRUS	Transfers sociaux autre que pensions de viellesse/survie, chômage, maladie/invalidité
+PRIMARY	Revenu primaire
+SECONDARY	Revenu secondaire
+UNK	Inconnu

@@ -1,0 +1,18 @@
+TOTAL	Total all accidents with or without days' absence from work
+D0	Other
+D1_D3	1 - 3 days lost
+GE_D4	More than 3 days lost (4 days absence or more)
+D4_D6	4 - 6 days lost
+D7_D13	7 - 13 days lost
+GE_D14	More than 14 days lost (2 weeks' absence or more)
+D14_D20	14 - 20 days lost
+D14_D29	14 - 29 days lost
+D21_D29	21 days lost - 1 month lost
+M1_LT_M3	1 month lost - 3 months lost
+GE_M3	3 or more months lost
+M3_LT_M6	3 months lost -  6 months lost
+GE_M6_I	Permanent incapacity (to work) or 183 or more days lost (6 months' absence or more)
+PERM_INC	Permanent incapacity (to work)
+FATALITY	Fatal accident
+UNK	Unspecified
+OTH	Others

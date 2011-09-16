@@ -1,0 +1,135 @@
+YES	Oui
+NO	Non
+NRP	Sans réponse
+NRESP	Sans réponse
+NAPPL	Sans objet
+UNK	Inconnu
+TOTAL	Total
+TCARE1	Services de garde d'enfants (y compris gardiennes rémunérées), préscolaire
+TCARE2	Conjoint vivant dans le ménage
+TCARE3	Membres de la famille/voisins/amis (non rémunérés)
+TCARE4	Aucune modalité de garde d'enfants
+TCRED9	Sans objet (la personne interviewée n'a pas d'enfant de 14 ans ou moins dans son foyer et/ou ne travaille pas)
+RCARE1	La personne s'occupe régulièrement d'autres enfants âgés de 14 ans ou moins
+RCARE2	La personne s'occupe régulièrement de parents/amis de 15 ans ou plus ayant besoin d'aide
+RCARE3	La personne s'occupe régulièrement d'autres enfants âgés de 14 ans ou moins et de parents/amis de 15 ans ou plus ayant besoin d'aide
+CHORG2	La personne souhaite travailler ou travailler davantage (et réduire le temps de garde/d'aide)
+CHORG3	La personne souhaite travailler moins afin de disposer de plus de temps pour garder/aider
+CHORG9	Sans objet (la personne interviewée ne s'occupe d'aucun enfant/parent/proche ayant besoin d'aide)
+NWCHI1	Manque de services de garde d'enfants pendant la journée
+NWCHI2	Manque de services de garde d'enfants dans des créneaux horaires particuliers
+NWCHI3	Manque de services de garde d'enfants pendant la journée ou dans des créneaux horaires particuliers
+NWCHI4	Services de garde d'enfants trop onéreux
+NWCHI5	Les services disponibles de garde d'enfants sont de qualité insuffisante
+NWCHI6	Autres raisons sans rapport avec le manque de services adéquats
+NWCHI9	Sans objet (la personne interviewée ne souhaite pas travailler ou travailler plus et réduire le temps consacré à des enfants de 14 ans ou moins et/ou n'a aucune responsabilité de garde/de soin)
+REDUC2	La personne a fait des aménagements en raison du manque de services de garde d'enfants de substitution pendant la journée
+REDUC3	La personne a fait des aménagements en raison du manque de services de garde d'enfants de substitution dans des créneaux horaires particuliers
+REDUC4	La personne a fait des aménagements en raison du coût excessif des services de garde d'enfants de substitution
+REDUC5	La personne a fait des aménagements en raison de la qualité insuffisante des services de garde d'enfants de substitution
+REDUC6	La personne a fait des aménagements, toujours pour des raisons différentes des précédentes
+NWCAR1	Manque de services d'accueil/d'aide pendant la journée
+NWCAR2	Manque de services d'accueil/d'aide dans des créneaux horaires particuliers
+NWCAR3	Manque de services d'accueil/d'aide pendant la journée ou dans des créneaux horaires particuliers
+NWCAR4	Services d'accueil/d'aide trop onéreux
+NWCAR5	Les services d'accueil/d'aide disponibles sont de qualité insuffisante
+NWCAR6	Autres raisons sans rapport avec le manque de services adéquats
+NWCAR9	Sans objet (la personne interviewée ne souhaite pas travailler ou travailler plus et réduire le temps consacré à des parents/proches ayant besoin d'aide)
+POSTO1	Cela est en général possible
+POSTO2	Cela est rarement possible
+POSTO3	Cela n'est pas possible
+TMOFF2	Oui, jours de 'congé spécial' rémunérés
+TMOFF3	Oui, jours de 'congé spécial' pas du tout rémunérés
+TMOFF4	Oui, en utilisant toujours d'autres arrangements
+POSTIM9	Sans objet (la personne interviewée  ne travaille pas)
+RDHR3	Non, mais la personne prévoit de le faire dans les 5 prochaines années
+RDHR45	Non et la personne n'a pas de plan ou ne sait pas pour les 5 prochaines années
+PAGS94	Entre 50 et 59 ans
+PAGS95	Entre 60 et 64 ans
+PAGS96	A 65 ans ou plus ou la personne prévoit de travailler aussi longtemps que possible
+PAGS97	Pas d'âge exact prévu et la personne ne sait pas du tout quand elle s'arrêtera de travailler
+PAGS98	La personne a déjà arrêté tout travail rémunéré
+STAFT1	Sans emploi
+STAFT2	En retraite ou en retraite anticipée
+STAFT3	Malade de longue durée ou handicapé
+STAFT4	Autre
+FXWRK1	Une organisation plus flexible du temps de travail contribuerait/aurait contribué à ce que la personne reste au travail plus longtemps
+FXWRK2	Une organisation plus flexible du temps de travail ne contribuerait pas/n'aurait pas contribué à ce que la personne reste au travail plus longtemps
+OPSKL1	Plus d'occasions de mettre à jour ses compétences contribueraient/auraient contribué à ce que la personne reste au travail plus longtemps
+OPSKL2	Plus d'occasions de mettre à jour ses compétences ne contribueraient pas/n'auraient pas contribué à ce que la personne reste au travail plus longtemps
+HLSAF1	Une meilleure santé et/ou sécurité au travail contribuerait/aurait contribué à ce que la personne reste au travail plus longtemps
+HLSAF2	Une meilleure santé et/ou sécurité au travail ne contribuerait pas/n'aurait pas contribué à ce que la personne reste au travail plus longtemps
+OTBNF1	Une pension d'invalidité ou de maladie
+OTBNF2	Une allocation de départ en retraite anticipée
+OTBNF3	Un autre avantage individuel non classé ailleurs
+OTBNF4	Combinaison des trois cas précédents
+FINCT1	Pour augmenter ses droits à pension de retraite
+FINCT2	Pour fournir un revenu domestique suffisant
+FINCT3	Aucune incitation financière
+RRT158	Emploi perdu ou problèmes liés à l'emploi ou autre
+RRT27	Age de la retraite atteint ou préférence d'arrêter de travailler
+RRT346	Raisons de santé, liées à des soins ou financières
+OWNMS0	La personne ne peut pas déterminer comment ou quand faire le travail
+OWNMS1	La personne peut déterminer comment faire le travail
+OWNMS2	La personne peut déterminer quand faire le travail
+OWNMS3	La personne peut déterminer quand et comment faire le travail
+OWNMS8	La personne ne sait pas
+SINCU0	Travaille régulièrement pour plus qu'un client
+SINCU1	Travaille régulièrement pour un seul client
+SHPAT1	Travail posté continu, habituellement en quatre équipes
+SHPAT2	Travail posté semi-continu, habituellement en trois équipes
+SHPAT3	Système de 2 équipes: double équipe de jour
+SHPAT4	Équipe de jour/nuit en alternance
+SHPAT5	Travail en tournées fixes
+SHPAT6	Autre type de  travail posté
+ANWKH0	La personne n'a pas un contrat d'annualisation du temps de travail
+ANWKH1	La personne a un contrat d'annualisation du temps de travail
+OCLWK0	Autre
+OCLWK1	La personne se présente à son travail uniquement sur appel
+WKPFT1	Moins d'heures par jour
+WKPFT2	Une demi-journée de moins par semaine
+WKPFT3	Moins de jours par semaine
+WKPFT4	Moins d'heures par jour et moins de jours par semaine
+WKPFT5	Une semaine sur deux
+WKPFT6	Autre
+VARHR1	La personne a réduit son crédit d'heures
+VARHR2	La personne a pris quelques heures de repos (sans besoin de prendre de vacances)
+VARHR3	La personne a pris une demi-journée, un ou plusieurs jours de congé
+VARHR4	La personne a réduit son crédit d'heures ou a pris quelques heures de repos et a aussi pris une demi-journée, un ou plusieurs jours de congé (à différents jours de la semaine)
+VARHR5	La personne voulait prendre des heures de son crédit horaire, mais ne pouvait pas le faire (et n'a pas pris de vacances)
+VARHR6	La personne a voulu prendre quelques heures, une demi-journée, un ou plusieurs jours de congé mais ne pouvait pas le faire
+VARHR7	Autres (heures réellement effectuées plus élevées que les heures contractuelles, licenciement etc.)
+WKT1P0	Le travail posté ou le travail sur appel ne convient pas à la situation de vie personnelle
+WKT1P1	Le travail posté convient à la situation de vie personnelle
+WKT1P2	Le travail sur appel convient à la situation de vie personnelle
+WKT2P1	Le travail en soirée, de nuit ou durant le week-end convient à la situation de vie personnelle
+WKT2P3	Le travail en soirée, de nuit ou durant le week-end ne convient pas à la situation de vie personnelle
+VAWKH1	Début et fin d'une journée de travail fixes
+VAWKH2	Etalement des heures de travail, plages de début et de fin
+VAWKH3	Crédit de temps de travail avec possibilité de prendre uniquement des heures de repos
+VAWKH4	Crédit de temps de travail avec possibilité de prendre des jours complets de congés (en plus de prendre des heures de repos)
+VAWKH5	Début et fin de la journée de travail varient par accord individuel
+VAWKH6	La personne détermine ses propres horaires de travail (pas de limites formelles)
+VAWKH7	Autre
+DETMS0	Relation de subordination
+DETMS1	La personne détermine ses propres méthodes de travail et son calendrier
+SINGF0	Travaille régulièrement pour plus d'une entreprise ou plus d'un client
+SINGF1	Travaille régulièrement pour une entreprise ou un client
+TERCT1	L'emploi ou le travail cesse d'exister lorsque le produit ou les services sont fournis
+TERCT2	Emploi temporaire sous contrat pour une durée déterminée
+TERCT3	L'emploi ou le travail continue d'exister après que le produit ou les services aient été fournis
+VAWKT1	Début et fin d'une journée de travail fixes
+VAWKT2	Contrat à heures annualisées
+VAWKT3	Crédit de temps de travail
+VAWKT4	Horaires de travail par accord mutuel
+VAWKT5	La personne détermine ses propres horaires de travail (pas de limites formelles)
+VAWKT6	Autre
+CMCRH0	La personne ne peut pas utiliser son crédit d'heures pour prendre des jours complets ou des semaines de congé
+CMCRH1	La personne peut utiliser son crédit d'heures pour prendre des jours complets ou des semaines de congé (en plus de prendre des heures de repos)
+CONTH0	Autre
+CONTH1	Un nombre minimal d'heures est convenu par contrat, mais le nombre d'heures effectivement travaillées peut dépasser ce minimum et elle ne sont pas payées au taux des heures supplémentaires
+CONTH2	La personne se présente au travail uniquement si elle est appelée
+RESHW1	Un travail posté était le type d'emploi que la personne recherchait (initiative personnelle)
+RESHW2	Un travail posté n'était pas le type d'emploi que la personne recherchait mais aucun emploi similaire n'était disponible sans travail posté (similaire au sein de cette profession ou industrie)
+REWAR1	Ces aménagements du temps de travail étaient le type d'emploi que la personne recherchait (initiative personnelle)
+REWAR2	Ces aménagements du temps de travail n'étaient pas le type d'emploi que la personne recherchait mais aucun emploi similaire n'était disponible avec des aménagements ordinaires du temps de travail (similaire au sein de cette profession ou industrie)

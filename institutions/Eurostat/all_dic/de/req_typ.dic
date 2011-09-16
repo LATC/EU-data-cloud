@@ -1,0 +1,20 @@
+REQ	Übernahmeersuchen
+REQ_ACC	Akzeptierte Übernahm
+REQ_REF	Akzeptiere übernahmeersuchen
+REQ_TRAN	Überstellt
+REQ_NBR	Gesamte Zahl der Übernahmeersuchen
+TKC	Gesamte Zahl der Aufnahmegesuchen
+FAM_TKC	Aufnahmegesuchen: Familiengründe (Art.6, Art.7, Art.8, Art.14)
+DOC_TKC	Aufnahmegesuchen: Dokumenten- und Einreisgründe (Art.9, Art.10, Art.11, Art.12)
+HUMAN_TKC	Aufnahmegesuchen: humanitäre Gründe (Art. 15)
+TKB	Gesamte Zahl der Wiederaufnahmegesuchen
+ART45_TKB	Wiederaufnahmegesuchen: Rücknahme des Antrages während der Dublinverfahren
+ART161C_TKB	Wiederaufnahmegesuche: Unter Prüfung - kein Aufenthaltserlaubnis  (Art.16.1.c)
+ART161D_TKB	Wiederaufnahmegesuchen: Rücknahme - neuer Antrag (Art.16.1.d)
+ART161E_TKB	Wiederaufnahmegesuchen: Ablehnung - kein Aufenthaltserlaubnis (Art.16.1.e)
+EURDC	Gesamt EURODAC
+EURDC_TKC	Aufnahmegesuchen aufgrund EURODAC
+EURDC_TKB	Wiederaufnahmegesuchen aufgrund EURODAC
+PEND_REQ	Gesamte Zahl der anhängigen Übernahmeersuchen am Ende der Referenzperiode
+INFO_REQ	Gesamte Zahl der Informationsersuchen
+ANS_REQ	Zahl der Antworten zur Informationsersuchen

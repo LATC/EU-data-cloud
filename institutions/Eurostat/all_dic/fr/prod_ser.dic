@@ -1,0 +1,218 @@
+P12d_06	"Études de marché, à l’exclusion des enquêtes"
+P32_06	Services des agences de placement de main-d’oeuvre
+P40_06	Services de conseil en informatique
+P40c	Services de conseils en systèmes et logiciels informatiques
+P40d	Services d’assistance technique informatique
+P41a	Services de gestion de réseaux
+P41b	Services de gestion de systèmes informatiques
+P42_06	Autres services informatiques
+P45a_06	"Logiciels système et d'application, sur support physique"
+P45b_06	Logiciels en ligne et logiciels en téléchargement
+P45c_06	Services de licence pour l’utilisation de logiciels informatiques
+P49a_06	Services comptables et de tenue de livres de comptes
+P56a	Services d’architecture pour projets de constructions résidentielles et non résidentielles
+P56b	Services d’architecture de rénovation de bâtiments historiques
+P56c	Services de conseil en architecture
+P57a	Services d’aménagement urbain
+P57b	Services d’aménagement rural
+P57c	Services des plans directeurs de chantiers
+P60a	Services de conseil en ingénierie
+P60b	Services d’ingénierie pour projets de constructions
+P60c	Services d’ingénierie pour projets énergétiques
+P60d	Services d’ingénierie pour projets d’infrastructures de transport
+P60e	Services d’ingénierie pour projets de gestion des déchets (dangereux ou non)
+P60f	"Services d’ingénierie pour projets d’alimentation en eau, d’assainissement et de drainage"
+P60g	Services d’ingénierie pour projets industriels et manufacturiers
+P60h	Services d’ingénierie pour projets de télécommunications et de radiodiffusion et télédiffusion
+P60i	Services d’ingénierie pour autres projets
+P61_06	Services de gestion de projet pour projets de constructions
+P62a_06	Services de conseil géologique et géophysique et autres services géophysiques
+P62b_06	Services d’exploration et d’évaluation minérales
+P62c_06	Services de prospection de surface et d’établissement de cartes
+P63c_06	Contrôle et analyses de systèmes mécaniques et électriques intégrés
+P63f_06	Autres contrôles et analyses techniques
+P65e	Vente de publicité liée à un événement
+P66_06	Services fournis par les agences publicitaires
+P67	Contenu de portails internet
+P68	Édition de jeux électroniques
+P69	Services juridiques en matière de ventes aux enchères publiques
+P70	Services d’insolvabilité et de mise sous séquestre
+P71	Marques déposées et franchises
+P72	Autres services de mise à disposition de ressources humaines
+TOTAL	Total
+P15	Conseil pour les affaires et la gestion
+P15A	Services de consultance dans l'organisation de l'entreprise
+P15B	Services de consultance y compris fusions et acquisitions
+P15C	Services de consultance dans la management financier
+P15D	Conseil en gestion des ressources humaines
+P15E	Autres services de consultance d'affaires et de management
+P15F	Conseil en gestion commerciale
+P15G	Conseil en gestion de la production
+P15H	Conseil en relations publiques
+P15I	Gestion déléguée de projets, hors construction
+P16	Services architecturaux
+P16A	Études et conseils architecturaux
+P16B	Services de conception architecturale pour bâtiments et autres structures
+P16C	Autres services architecturaux
+P17	Etudes techniques incluant les services d'ingénierie intégrée
+P17A	Études techniques pour la construction de bâtiments
+P17B	Études techniques spécialisées pour l'équipement de bâtiments
+P17C	Études techniques pour la construction d'ouvrages de génie civil
+P17D	Études techniques pour les projets industriels
+P17E	Études techniques n.c.a.
+P18	Aménagement urbain
+P19	Services de gestion de projet
+P20	Autres services d'architecture et d'ingénierie
+P20A	Études et conseils techniques préalables
+P20B	Architecture paysagère
+P20C	Services d'études de sols et sous-souls et services d'établissement de cartes
+P20D	Services géologique, géophysique et autres services de consultance technique
+P20E	Autres services techniques
+P21	Construction
+P35	autres produits supplémentaires n.c.a.
+P39	Services de programmation informatique
+P40	Services de conseils en technologie de l'information
+P40A	Services de conseils en configurations informatiques
+P40B	Autres services de conseil en technologie de l'information
+P41	Services de gestion d'installations informatiques
+P42	Autres services en technologie de l'information
+P43	Traitement de données, hébergement et activités connexes
+P44	Services de mise à disposition en ligne, de diffusion et portails Internet
+P44A	Services de bases de données et services de mise à disposition en ligne
+P44B	Portails Internet
+P45	Édition de logiciels
+P45A	Édition de logiciels sur support physique
+P45B	Édition de logiciels en téléchargement
+P46	Services d'entretien et de réparation d'appareils de bureau, des appareils comptables et informatiques
+P46A	Services de réparation d'appareils de bureau, des appareils comptables et informatiques
+P46B	Services de réparation d'ordinateurs et d'équipements périphériques
+P34A	Formation liée aux technologies de l'information
+P5	Services de réseaux et de télécommunication
+P6	Revente
+P6A	Revente de logiciels
+P6B	Revente de matériel informatique
+P6C	Autres reventes
+P7	Services juridiques
+P8	Conseils juridiques et services de représentation
+P8A	Conseils juridiques et services de représentation concernant le droit pénal
+P8B	Conseils juridiques et services de représentation concernant le droit des affaires/commercial
+P8C	Conseils juridiques et services de représentation concernant le droit du travail
+P8D	Conseils juridiques et services de représentation concernant le droit civil
+P8E	Autres Conseils juridiques et services de représentation
+P9	Services juridiques en droit administratif
+P36	Services juridiques sur marques et brevets
+P37	Services notariaux
+P38	Services d'ingénierie et architecturaux
+P47	Services d'arbitrage et de conciliation
+P10	Services d'auxiliaires de la justice
+P11	Autres services juridiques
+P14	Services comptables
+P14A	Services d'audit
+P14B	Comptabilité, hors déclarations fiscales
+P14C	Tenue de livres de comptes
+P14D	Services de consultance, y compris déclarations fiscales
+P14E	Comptabilité et services de consultances, hors déclarations fiscales
+P14F	Services de fonds de salaires
+P14G	Autre comptabilités, consultances ou services d'audit
+P12	Services d'études de marché
+P12A	Services d'études de marché : Enquêtes qualitatives
+P12B	Services d'études de marché : Enquêtes quantitatives ad-hoc
+P12C	Services d'études de marché : Enquêtes quantitatives continues, régulières
+P12D	Etudes de marché sans enquêtes
+P12E	Autres services d'études de marché
+P12F	Etudes de marché, à l¿exclusion des enquêtes; autres services d¿études de marché
+P13	Sondages d'opinion
+P28	Publicité
+P29	Vente ou location d'espace ou de temps publicitaire
+P29A	Vente ou location d'espace ou de temps publicitaires, pour le compte de tiers
+P29B	Vente ou location d'espace ou de temps publicitaires sans intermédiaire
+P30	Services des agences publicitaires
+P30A	Service publicitaire complet
+P30B	Prospection directe
+P30C	Dessin publicitaire
+P30D	Autres services d'agences publicitaires
+P31	Autres services liés à la publicité
+P48	Services d'audit financier
+P49	Services comptables
+P49A	Services comptables et services de tenue de livres de comptes
+P49B	Services de livres de paie
+P49C	Autres services comptables
+P50	Services de conseil fiscal
+P51	Services de relations publiques et de communication
+P52	Services de conseil en matière d'affaires et de gestion
+P52A	Services de conseil en gestion stratégique
+P52B	Services de conseil en gestion financière (à l'exclusion de la fiscalité)
+P52C	Services de conseil en gestion commerciale
+P52D	Services de conseil en gestion des ressources humaines
+P52E	Services de conseil en gestion de la production
+P52F	Services de conseil en gestion de la chaîne d'approvisionnement et autres
+P52G	Services de conseil en gestion des processus de travail
+P53	Autres services de gestion de projets, à l'exclusion des projets de construction
+P54	Autres services de conseil aux entreprises
+P1	Services informatiques
+P2	Services de conseils en configurations informatiques
+P3	Conseils pour les logiciels et l'informatique
+P3A	dévelopement et vente de progiciels
+P3B	dévelopement et vente de logiciels sur mesure
+P3C	autres conseils pour les logiciels et l'informatique
+P4	Autres services rattachés à l'informatique
+P4A	Gestions d'équipements informatiques et Services de traitement de données
+P4B	Services des banques de données
+P4C	Maintenance logicielle
+P4D	Services pour le matériel informatique, réparation et maintenance des appareils et équipements informatiques
+P4E	Autres services rattachés à l'informatique
+P34	Services de formation
+P55	Plans et dessins architecturaux
+P56	Services architecturaux pour bâtiments
+P57	Services d'aménagement urbain et rural
+P58	Landscape architectural services
+P59	Autres services d'architecture
+P60	Services d'ingénierie
+P61	Services de gestion de projets liés à la construction et aux travaux d'ingénierie civil
+P62	Services de prospection et de conseil géologiques, géophysiques et autres
+P22	Contrôle et analyses techniques
+P22A	Essais et analyses chimiques ou biologiques
+P22B	Essais et analyses physiques
+P22C	essais et analyses de systèmes
+P22D	Contrôle technique automobile
+P22E	autres services d'essais, d'inspection et analyses techniques
+P23	Essais et analyses chimiques ou biologiques
+P24	Essais et analyses physiques
+P25	essais et analyses de systèmes
+P26	Contrôle technique automobile
+P27	autres services d'essais, d'inspection et analyses techniques
+P63	Services d'essai et d'analyse technique
+P63A	Essais et analyses de composition et de pureté
+P63B	Essais et analyses de propriétés physiques
+P63C	Essais et analyses de systèmes mécaniques et électriques intégrés
+P63D	Services d'inspection technique des véhicules de transport routier
+P63E	Certification
+P63F	Autres essais et analyses techniques
+P64	Services d'architecture et d'ingénierie
+P64A	Services architecturaux
+P64B	Services d'ingénierie et services de conseil technique connexes
+P64C	Autres services d'architecture et d'ingénierie
+P65	Régie publicitaire de médias
+P65A	Vente d'espaces publicitaires pour compte de tiers dans les médias imprimés
+P65B	Vente d'espaces publicitaires pour compte de tiers sur Internet
+P65C	Vente d'espaces publicitaires pour compte de tiers à la télévision et à la radio
+P65D	Autres ventes d'espaces publicitaires pour compte de tiers
+P66	Services fournis par des agences publicitaires
+P66A	Conception et réalisation de services publicitaires
+P66B	Marketing et mailing directs
+P66C	Développement de marques et concepts publicitaires
+P66D	Autres services publicitaires
+P32	Services de placement
+P32A	Recrutement de cadres -
+P32B	Autres services de placement
+P33	Mise à disposition de personnel
+P33I	Mise à disposition de personnel - Informatique et télécommunication
+P33J	Mise à disposition de personnel - Autre personnel de support bureautique
+P33A	Mise à disposition de personnel - Personnel de support bureautique
+P33B	Mise à disposition de personnel - Commerce/Echange
+P33C	Mise à disposition de personnel - Industrie/Production
+P33D	Mise à disposition de personnel - Horeca
+P33E	Mise à disposition de personnel - Medecine
+P33F	Mise à disposition de personnel - Education
+P33G	Mise à disposition de personnel - Transports/Entreposage/Logistique
+P33H	Mise à disposition de personnel - Autres

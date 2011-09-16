@@ -1,0 +1,79 @@
+RND	Rundholz insgesamt
+FUEL	Brennholz einschließlich zur Erzeugung von Holzkohle
+IR	Industrierundholz insgesamt
+IR_C	Nadel-Industrierundholz
+IR_NC	Laub-Industrierundholz
+IR_NCTRO	Laub-Industrierundholz, Tropenhölzer
+IR_LOG	Industrierundholz - Stammholz und Furnierholz
+IR_PULP	Industrierundholz - Faserholz
+IR_PULPOTH	Faserholz und sonstiges Industrierundholz
+IR_OTH	Industrierundholz - Sonstiges 
+WCHAR	Holzkohle
+WCHIP	Hackschnitzel
+WRESI	Holzreste einschließlich Pellets
+PELLETS	Pellets
+SAWN	Schnittholz insgesamt
+PAN	Holzplatten und -furniere insgesamt
+PAN_VEN	Furniere
+PAN_PLY	Sperrholz
+PAN_PAR	Spanplatten, OSB und sonstige
+PAN_POSB	Spanplatten, darunter OSB
+PAN_FIBD	Faserplatten
+PAN_HABD	Hartfaserplatten
+PAN_MDF	MDF
+PAN_FIBDOTH	Sonstige Faserplatten
+PULP	Holzfaser- und Holzzellstoffe insgesamt
+PULP_MECSEM	Mechanische Faser- und halbchemische Zellstoffe
+PULP_MEC	Mechanische Faserstoffe
+PULP_SEM	Halbchemische Zellstoffe
+PULP_CHEDIS	Chemische Zellstoffe (einschließlich Edelzellstoffe)
+PULP_CHE	Chemische Zellstoffe
+PULP_SLFAU	Sulphatverfahren ohne Bleiche
+PULP_SLFAB	Sulphatverfahren mit Bleiche
+PULP_SLFIU	Sulphitverfahren ohne Bleiche
+PULP_SLFIB	Sulphitverfahren mit Bleiche
+PULP_DIS	Edelzellstoffe
+PULP_OTH	Sonstige Zellstoffe
+PULP_FIOTH	Sonstige Zellstoffe, nicht aus Holzfasern
+PULP_FIREC	Sekundärfaserstoffe aus Recyclingfasern
+REC_PAP	Altpapier
+PAP	Papier, Karton und Pappe insgesamt
+PAP_GRA	Grafische Papiere
+PAP_NEWPRT	Zeitungsdruckpapier
+PAP_PRTWR	Druck- und Schreibpapiere
+PAP_UNCTMEC	Ungestrichene holzhaltige Papiere, mechanisch
+PAP_UNCTFRE	Ungestrichene holzfreie Papiere
+PAP_CT	Gestrichenen Druckpapiere
+PAP_SANHH	Haushalts- und Hygienepapiere
+PAP_PAK	Papier, Karton und Pappe für Verpackungszwecke
+PAP_CAS	Pack- und Wellpappenpapiere
+PAP_CART	Maschinenkarton
+PAP_WRAP	Verpackungspapiere
+PAP_OTHPAK	Sonstige Verpackungspapiere einschl. Wickelpappe
+PAP_OTHBD	Sonstiges Papier, Karton und Pappe, a.n.g
+SWO	Weiterverarbeitete Holzwaren
+SWO_SW	Verarbeitetes Schnittholz
+SWO_SW_C	Verarbeitetes Nadelschnittholz
+SWO_SW_NC	Verarbeitetes Laubschnittholz
+SWO_SW_NCTRO	Verarbeitetes Laubschnittholz, Tropenholz
+SWO_WRAPAK	Verpackungsmaterial aus Holz
+SWO_WPDOM	Holzwaren für Innenausstattung / Dekor (ohne Möbel)
+SWO_WPOTH	Sonstige verarbeitete Holzwaren
+SWO_JOIN	Bautischler- und Zimmerarbeiten
+SWO_FURN	Holzmöbel
+SWO_BLD	Fertighäuser
+SWO_BLDWD	Darunter Fertighäuser aus Holz
+SPA	Weiterverarbeitete Papierwaren
+SPA_COMP	Verbundpapier und -pappe
+SPA_SPECT	Oberflächenbehandelte Papierwaren
+SPA_CARCOP	Kohle- und Vervielfältigungspapier, gebrauchsfertig 
+SPA_SANHH	Haushalts- und Hygienepapiere, gebrauchsfertig
+SPA_PAKBO	Verpackungsschachteln, -kartons, usw.
+SPA_OTHBD	Sonstige Papier- und Pappewaren (P&P)
+SPA_OTHBDP	P&P: Druck- und Schreibpapier, gebrauchsfertig
+SPA_OTHBDA	P&P: geschöpfte oder gepresste Zellstofferzeugnisse
+SPA_OTHBDF	P&P: Filterpapier und Pappe, gebrauchsfertig
+SPA_PRA	Druckereiware
+SPA_BOOK	Bücher
+SPA_NWPAP	Zeitungen
+SPA_OTHPA	Sonstige Druckereiware

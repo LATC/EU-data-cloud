@@ -1,0 +1,37 @@
+GEN_PRAC	General Practice
+GEN_PAED	General Paediatrics 
+GYN	Gynaecology and obstetrics
+PSY	Psychiatry
+MED	Medical group of specialties
+MED_INT	Internal medicine
+MED_CAR	Cardiology
+MED_END	Endocrinology
+MED_GAS	Gastroenterology
+MED_RES	Respiratory medicine
+MED_ONC	Oncology
+MED_IMM	Immunology
+MED_NEU	Neurology
+MED_ORL	Otorhinolaryngology
+MED_RAD	Radiology
+MED_MIC	Microbiology-bacteriology
+MED_HAE	Haematology
+MED_DER	Dermatology
+MED_PAT	Pathology
+SURG	Surgical group of specialties
+SURG_GEN	General surgery
+SURG_NEU	Neurological surgery
+SURG_PLA	Plastic surgery
+SURG_OPH	Ophthalmology
+SURG_ORT	Orthopaedics
+SURG_THO	Thoracic surgery
+SURG_VAS	Vascular surgery
+SURG_ANE	Anesthesiology and intensive care
+SURG_URO	Urology
+SURG_EME	Accident and emergency medicine
+OTH	Other categories
+OTH_OCC	Occupational medicine
+OTH_NSP	Other categories not elsewhere classified
+SURG_INF	Infant surgery
+RHEUMA	Rheumatology
+PAED	Paediatrics
+CH_PSY	Child psychiatry

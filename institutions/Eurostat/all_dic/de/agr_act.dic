@@ -1,0 +1,68 @@
+HOLD	Alle Betriebe
+D	Alle Betriebe mit Ackerland
+D01_08	Alle Betriebe mit Anbau von Getreide
+D01	Alle Betriebe mit Anbau von Weichweizen und Spelz
+D02	Alle Betriebe mit Anbau von Hartweizen
+D03	Alle Betriebe mit Anbau von Roggen
+D04	Alle Betriebe mit Anbau von Gerste
+D05	Alle Betriebe mit Anbau von Hafer
+D06	Alle Betriebe mit Anbau von Körnermais
+D07	Alle Betriebe mit Anbau von Reis
+D08	Alle Betriebe mit Anbau von sonstigem Getreide
+D09	Alle Betriebe mit Anbau von Hülsenfrüchten - insgesamt
+D10	Alle Betriebe mit Anbau von Kartoffeln
+D11	Alle Betriebe mit Anbau von Zuckerrüben
+D12	Alle Betriebe mit Anbau von Futterhackfrüchten
+D13	Alle Betriebe mit Anbau von Handelsgewächsen
+D14_15	Alle Betriebe mit Anbau von Gemüse, Melonen,  Erdbeeren
+D14	Im Freiland : Alle Betriebe mit Anbau von Gemüse, Melonen,  Erdbeeren
+D15	Unter Glas : Alle Betriebe mit Anbau von Gemüse, Melonen,  Erdbeeren
+D16	Im Freiland : Alle Betriebe mit Anbau von Blumen und Zierpflanzen
+D17	Unter Glas : Alle Betriebe mit Anbau von Blumen und Zierpflanzen
+D18	Alle Betriebe mit Anbau von Futterpflanzen
+D19	Alle Betriebe mit Anbau von Sämereien und Pflanzgut auf Ackerland
+D20	Alle Betriebe mit Anbau von sonstigen Kulturen auf Ackerland
+D21	Alle Betriebe mit Anbau von Schwarz-, Grünbrache, für die keine Beihilfe gewährt wird
+F	Insgesamt: Alle Betriebe mit Dauergrünland
+F01	Dauerwiesen und-weiden:Dauergrünland
+F02	Ertragsarme Weiden:Dauergrünland
+G	Alle Betriebe mit Anbau von Dauerkulturen
+G01	Alle Betriebe mit Obst- und Beerenobstanlagen
+G02	Alle Betriebe mit Zitrusanlagen
+G03	Alle Betriebe mit Olivenanlagen
+G04	Alle Betriebe mit Rebanlagen - insgesamt
+G04A	Alle Betriebe mit Rebanlagen - Qualitätsweine
+G04B	Alle Betriebe mit Rebanlagen - andere Weine
+G04C	Alle Betriebe mit Rebanlagen - Tafeltrauben
+G04D	Alle Betriebe mit Rebanlagen - Rosinen
+G05	Alle Betriebe mit Reb- und Baumschulen
+G06	Alle Betriebe mit sonstigen Dauerkulturen
+G07	Alle Betriebe mit Dauerkulturen unter Glas
+J	Alle Betriebe mit Viehbestand
+J01	Alle Betriebe mit der Aufzucht von Einhufern
+J02_08	Alle Betriebe mit der Aufzucht von Rindern
+J02	Alle Betriebe mit der Aufzucht von Rindern <1 Jahr - insgesamt
+J03	Alle Betriebe mit der Aufzucht von Rindern 1 - <2 Jahren - männlich
+J04	Alle Betriebe mit der Aufzucht von Rindern 1 - <2 Jahren - weiblich
+J05	Alle Betriebe mit der Aufzucht von Rindern 2 Jahre und älter - männlich
+J06	Alle Betriebe mit der Aufzucht von Färsen 2 Jahre und älter
+J07	Alle Betriebe mit der Aufzucht von Milchkühen
+J08	Alle Betriebe mit der Aufzucht von sonstigen Kühen
+J09	Alle Betriebe mit der Aufzucht von Schafen
+J09A	Alle Betriebe mit der Aufzucht von Schafen - Mutterschafe
+J09B	Alle Betriebe mit der Aufzucht von Schafen - sonstige
+J10	Alle Betriebe mit der Aufzucht von Ziegen
+J10A	Alle Betriebe mit der Aufzucht von Ziegen - weiblich zur Zucht
+J10B	Alle Betriebe mit der Aufzucht von Ziegen - sonstige
+J11_13	Alle Betriebe mit der Aufzucht von Schweinen
+J11	Alle Betriebe mit der Aufzucht von Schweinen - Ferkel mit einem Lebendgewicht unter 20 kg
+J12	Alle Betriebe mit der Aufzucht von Schweinen - Mutterschweine von 50 kg und mehr
+J13	Alle Betriebe mit der Aufzucht von Schweinen - sonstige
+J14_16	Alle Betriebe mit der Aufzucht von Geflügel
+J14	Alle Betriebe mit der Aufzucht von Geflügel - Masthähnchen und -hühnchen
+J15	Alle Betriebe mit der Aufzucht von Geflügel - Legehennen
+J16	Alle Betriebe mit der Aufzucht von Geflügel - sonstiges
+J17	Alle Betriebe mit der Aufzucht von Mutterkaninchen
+J18	Alle Betriebe mit der Aufzucht von Bienen (Bienenstöcke)
+J19A	Alle Betriebe mit der Aufzucht von Schalenwild
+OTHER	Alle Betriebe mit der Aufzucht von sonstigen Tieren

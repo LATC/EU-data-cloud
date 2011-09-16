@@ -1,0 +1,16 @@
+TOTAL	Total
+Y0	Moins de 1 an
+Y1	1 an
+Y2	2 ans
+Y3	3 ans
+Y4	4 ans
+Y5	5 ans
+Y6	6 ans
+Y7_12	Entre 7 et 12 ans
+Y13_18	Entre 13 et 18 ans
+Y19_24	Entre 19 et 24 ans
+Y25_MAX	25 ans et plus
+LT_6	Enfants de moins de 6 ans
+LT_18	Enfants de moins de 18 ans
+LT_25	Enfants de moins de 25 ans
+UNK	Inconnu

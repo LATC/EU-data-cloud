@@ -1,0 +1,37 @@
+TOT_HOSP	Gesamtheit der Beschäftigten im Krankenhaus
+PHYS	Ärzte
+PHYS_PRA	Praktizierende Ärzte
+PHYS_ACT	Fachlich aktive Ärzte
+PHYS_LIC	Approbierte Ärzte
+DENT	Zahnärzte
+DENT_PRA	Praktizierende Zahnärzte
+DENT_ACT	Fachlich aktive Ärzte
+DENT_LIC	Fachlich aktive Zahnärzte
+PHAR	Apotheker
+PHAR_PRA	Praktizierende Apotheker
+PHAR_ACT	Fachlich aktive Apotheker
+PHAR_LIC	Approbierte Apotheker
+KINE	Physiotherapeuten
+NUR_MID_CARE	Krankenschwestern/-pfleger, Hebammen/Entbindungspfleger und Pflegehilfspersonal (gesamt)
+NUR_MID	Krankenschwestern/-pfleger und Hebammen/Entbindungspfleger (gesamt)
+NURP_MID	Qualifizierte Krankenschwestern/-pfleger und Hebammen/Entbindungspfleger (gesamt)
+MID	Hebammen/Entbindungspfleger
+NUR	Alle Krankenschwestern/-pfleger (qualifiziert und mittleres Ausbildungsniveau)
+NURP	Qualifizierte Krankenschwestern/-pfleger
+NURA	Krankenpflegepersonal (mittleres Ausbildungsniveau)
+CARE	Pflegehilfspersonal
+SPEC	Medizinischer oder chirurgischer Spezialist
+OTH_SERV	Sonstiges im Krankenhaus beschäftigtes Pflegepersonal 
+OTH	Sonstiges im Krankenhaus beschäftigtes Personal
+INSTR_TEACH	Lehrer (ISCED 0-4) und akademisches Personal (ISCED 5-6)
+INSTR_AID	Assistenzprofessor (ISCED 0-4) und Lehrer-Forschungsassistenten (ISCED 5-6)
+SUPP	Professionelle Unterstützung für Studenten
+SUPP_PED	Pädagogische Unterstützung (ISCED 0-4); akademische Unterstützung (ISCED 5-6)
+SUPP_HS	Gesundheits- und Sozialunterstützung (ISCED 0-6)
+MANAG_SCH	Management der Schulstufe (ISCED 0-6)
+MANAG_HI	Management der höheren Stufe (ISCED 0-6)
+ADM_SCH	Administratives Personal mit Schulniveau (ISCED 0-6)
+ADM_HI	Administratives Personal auf höchstem Niveau (ISCED 0-6)
+OPER	Wartungs- und Betriebspersonal
+ERASMUS_IN	Akademisches Personal aus dem Ausland im Rahmen des Erasmus-Programms
+ERASMUS_OUT	Akademisches Personal im Ausland im Rahmen des Erasmus-Programms

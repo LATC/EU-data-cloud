@@ -1,0 +1,54 @@
+MAT_ALL	Alle Endfälligkeiten
+MAT_Y01	Rendite für Euro-Anleihen: 1 Jahr bis zur Fälligkeit
+MAT_Y02	Rendite für Euro-Anleihen: 2 Jahre bis zur Fälligkeit
+MAT_Y03	Rendite für Euro-Anleihen: 3 Jahre bis zur Fälligkeit
+MAT_Y04	Rendite für Euro-Anleihen: 4 Jahre bis zur Fälligkeit
+MAT_Y05	Rendite für Euro-Anleihen: 5 Jahre bis zur Fälligkeit
+MAT_Y06	Rendite für Euro-Anleihen: 6 Jahre bis zur Fälligkeit
+MAT_Y07	Rendite für Euro-Anleihen: 7 Jahre bis zur Fälligkeit
+MAT_Y08	Rendite für Euro-Anleihen: 8 Jahre bis zur Fälligkeit
+MAT_Y09	Rendite für Euro-Anleihen: 9 Jahre bis zur Fälligkeit
+MAT_Y10	Rendite für Euro-Anleihen: 10 Jahre bis zur Fälligkeit
+MAT_Y11	Rendite für Euro-Anleihen: 11 Jahre bis zur Fälligkeit
+MAT_Y12	Rendite für Euro-Anleihen: 12 Jahre bis zur Fälligkeit
+MAT_Y13	Rendite für Euro-Anleihen: 13 Jahre bis zur Fälligkeit
+MAT_Y14	Rendite für Euro-Anleihen: 14 Jahre bis zur Fälligkeit
+MAT_Y15	Rendite für Euro-Anleihen: 15 Jahre bis zur Fälligkeit
+MAT_Y16	Rendite für Euro-Anleihen: 16 Jahre bis zur Fälligkeit
+MAT_Y17	Rendite für Euro-Anleihen: 17 Jahre bis zur Fälligkeit
+MAT_Y18	Rendite für Euro-Anleihen: 18 Jahre bis zur Fälligkeit
+MAT_Y19	Rendite für Euro-Anleihen: 19 Jahre bis zur Fälligkeit
+MAT_Y20	Rendite für Euro-Anleihen: 20 Jahre bis zur Fälligkeit
+MAT_Y21	Rendite für Euro-Anleihen: 21 Jahre bis zur Fälligkeit
+MAT_Y22	Rendite für Euro-Anleihen: 22 Jahre bis zur Fälligkeit
+MAT_Y23	Rendite für Euro-Anleihen: 23 Jahre bis zur Fälligkeit
+MAT_Y24	Rendite für Euro-Anleihen: 24 Jahre bis zur Fälligkeit
+MAT_Y25	Rendite für Euro-Anleihen: 25 Jahre bis zur Fälligkeit
+MAT_Y26	Rendite für Euro-Anleihen: 26 Jahre bis zur Fälligkeit
+MAT_Y27	Rendite für Euro-Anleihen: 27 Jahre bis zur Fälligkeit
+MAT_Y28	Rendite für Euro-Anleihen: 28 Jahre bis zur Fälligkeit
+MAT_Y29	Rendite für Euro-Anleihen: 29 Jahre bis zur Fälligkeit
+MAT_Y30	Rendite für Euro-Anleihen: 30 Jahre bis zur Fälligkeit
+MAT_LT3M	Fälligkeit unter 3 Monate
+MAT_GT3M	Fälligkeit über 3 Monate
+MAT_LT1Y	Fälligkeit unter 1 Jahr
+MAT_GT1Y	Fälligkeit über 1 Jahr
+MAT_1TO2Y	Fälligkeit zwischen 1 und 2 Jahre
+MAT_1TO5Y	Fälligkeit zwischen 1 und 5 Jahre
+MAT_LT2Y	Fälligkeit unter 2 Jahre
+MAT_GT2Y	Fälligkeit über 2 Jahre
+MAT_LT5Y	Fälligkeit unter 5 Jahre
+MAT_GT5Y	Fälligkeit über 5 Jahre
+MAT_5TO7Y	Fälligkeit zwischen 5 und 7 Jahre
+MAT_5TO10Y	Fälligkeit zwischen 5 und 10 Jahre
+MAT_7TO10Y	Fälligkeit zwischen 7 und 10 Jahre
+MAT_10TO15Y	Fälligkeit zwischen 10 und 15 Jahre
+MAT_15TO30Y	Fälligkeit zwischen 15 und 30 Jahre
+MAT_10TO20Y	Fälligkeit zwischen 10 und 20 Jahre
+MAT_GT10Y	Fälligkeit über 10 Jahre
+MAT_GT20Y	Fälligkeit über 20 Jahre
+MAT_GT30Y	Fälligkeit über 30 Jahre
+SHORT	Kurzfristig
+LONG	Langfristig
+LONG_FXR	Langfristig / Festverzinsliche Begebung
+LONG_FLR	Langfristig / Variabel verzinsliche Begebung

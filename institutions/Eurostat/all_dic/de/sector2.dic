@@ -1,0 +1,72 @@
+S1_S2	Volkswirtschaft und Übrige Welt
+S1	Volkswirtschaft
+S1_X_S13	Gesamte Volkswirtschaft, ohne Staat
+PRIVATE	Privater Sektor (S11, S12, S14, S15)
+S11_S14_S15	Nichtfinanzielle Kapitalgesellschaften; private Haushalte; private Organisationen ohne Erwerbszweck
+S11_S12	Kapitalgesellschaften
+S11_S123_TO_S125	Nichtmonetäre finanzielle Kapitalgesellschaften
+S11	Nichtfinanzielle Kapitalgesellschaften
+S11001	Öffentliche nichtfinanzielle Kapitalgesellschaften
+S11002	Private nichtfinanzielle Kapitalgesellschaften
+S11003	Ausländische nichtfinanzielle Kapitalgesellschaften
+S12	Finanzielle Kapitalgesellschaften
+S121_S122	Zentralbank; Kreditinstitute
+S121	Zentralbank
+S122	Sonstige Kreditinstitute
+S12201	Öffentliche Kreditinstitute
+S12202	Private Kreditinstitute
+S12203	Ausländische Kreditinstitute
+S123_TO_S125	Sonstige Finanzinstitute, Kredit- und Versicherungshilfstätigkeiten und Versicherungsgesellschaften und Pensionskassen
+S123	Sonstige Finanzinstitute (ohne Versicherungsgesellschaften und Pensionskassen)
+S12301	Öffentliche Finanzinstitute
+S12302	Private Finanzinstitute
+S12303	Ausländische Finanzinstitute
+S124	Kredit- und Versicherungshilfstätigkeiten
+S12401	Öffentliche Kredit- und Versicherungshilfstätigkeiten
+S12402	Private Kredit- und Versicherungshilfstätigkeiten
+S12403	Ausländische Kredit- und Versicherungshilfstätigkeiten
+S125	Versicherungsgesellschaften und Pensionskassen
+S12501	Öffentliche Versicherungsgesellschaften und Pensionskassen
+S12502	Private Versicherungsgesellschaften und Pensionskassen
+S12503	Ausländische Versicherungsgesellschaften und Pensionskassen
+S13_TO_S15	Staat; private Haushalte; private Organisationen ohne Erwerbszweck
+S13_S212	Staat; Institutionen der Europäischen Union
+S13	Staat
+S1311_TO_S1313	Zentralstaat, Gemeinden und Länder
+S1311_S1312	Zentralstaat und Länder
+S1311	Zentralstaat
+S1312_TO_S1314	Gemeinden und Länder; Sozialversicherung
+S1312_S1313	Gemeinden und Länder
+S1312	Länder
+S1313	Gemeinden
+S1314	Sozialversicherung
+S14_S15	Private Haushalte; private Organisationen ohne Erwerbszweck
+S14	Private Haushalte
+S141_S142	Selbständigenhaushalte (mit und ohne Arbeitnehmer)
+S143	Arbeitnehmerhaushalte
+S1441	Haushalte von Vermögenseinkommensempfängern
+S1442	Haushalte von Renten und Pensionsempfängern
+S1443	Sonstige Nichterwerbstätigenhaushalte
+S145	Sonstige private Haushalte
+S15	Private Organisationen ohne Erwerbszweck
+S2	Übrige Welt
+S2I	Mitgliedstaaten und Institutionen des Euroraums: 'Intra-EZ'
+S21	Europäische Union
+S211	Mitgliedstaaten der Europäischen Union
+S2111	Mitgliedstaaten der Währungsunion
+S2112	Nicht-Mitgliedstaaten der Währungsunion
+S212	Institutionen der Europäischen Union
+S2111_S2121	Intra Euroraum (12)
+S22	Drittländer und internationale Organisationen
+S2X	Drittländer (und internationale Organisationen) vis-à-vis dem Euroraum: 'Extra-EZ'
+MFI	Monetäre finanzielle Kapitalgesellschaften (einschließlich Zentralbanken)
+NONMFC	Nicht-monetäre finanzielle Kapitalgesellschaften
+INTLORG	Internationale Organisationen
+PUBSEC	Öffentlicher Sektor
+SOTH	Sonstige Sektoren
+SN	Unsortiert
+TOT_SEC	Insgesamt
+PUBL	Öffentliche Institutionen
+PRIV	Private Institutionen
+PRIV_DEP	Vom Staat abhängige private Institutionen
+PRIV_IND	Vom Staat unabhängige private Institutionen

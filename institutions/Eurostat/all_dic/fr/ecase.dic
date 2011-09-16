@@ -1,0 +1,17 @@
+TOTAL	Total
+A1_33	Célibataire sans enfants,  33% du SM
+A1_50	Célibataire sans enfants,  50% du SM
+A1_67	Célibataire sans enfants,  67% du SM
+A1_80	Célibataire sans enfants,  80% du SM
+A1_100	Célibataire sans enfants,  100% du SM
+A1_125	Célibataire sans enfants,  125% du SM
+A1_167	Célibataire sans enfants,  167% du SM
+A1_2CH_67	Parent isolé ayant 2 enfants, 67% du SM
+CPL_2CH_33_0	Couple marié ayant deux enfants disposant d'un salaire unique, égal à 33% du SM
+CPL_2CH_100_0	Couple marié ayant deux enfants disposant d'un salaire unique, égal à 100% du SM
+CPL_2CH_100_33	Couple marié ayant deux enfants disposant de deux salaires, l'un égal à 100%, l'autre à 33% du SM
+CPL_2CH_100_67	Couple marié ayant deux enfants disposant de deux salaires, l'un égal à 100%, l'autre à 67% du SM
+CPL_2CH_100_100	Couple marié ayant deux enfants disposant de deux salaires, l'un égal à 100%, l'autre à 100% du SM
+CPL_100_33	Couple marié sans enfant disposant de deux salaires, l'un égal à 100%, l'autre à 33% du SM
+CPL_100_100	Couple marié sans enfant disposant de deux salaires, l'un égal à 100%, l'autre à 100% du SM
+EM042	Célibataire sans enfants

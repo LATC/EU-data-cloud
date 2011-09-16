@@ -1,0 +1,142 @@
+OUT1_1	Forestry goods output
+OUT1_11	Standing timber
+OUT1_12	Sawlogs 
+OUT1_121	Coniferous timber for industrial uses
+OUT1_122	Coniferous long timber
+OUT1_123	Coniferous stackwood
+OUT1_124	Coniferous timber for industrial uses: other
+OUT1_125	Non-coniferous timber for industrial uses
+OUT1_126	Long timber (non-coniferous)
+OUT1_127	Stackwood (non-coniferous)
+OUT1_128	Non-coniferous timber for industrial uses: other
+OUT1_13	Fuelwood
+OUT1_14	Pulpwood
+OUT1_15	Own-account afforestation and reafforestation
+OUT1_16	Other forestry products
+OUT1_161	Cork
+OUT1_162	Forestry and nursery plants
+OUT1_163	Other forestry products
+OUT1_2	Forestry services output
+OUT1_21	Afforestation and reafforestation
+OUT1_22	Other services related to forestry and logging
+OUT1	Forestry output at basic prices
+OUT2	Non-Forestry secondary activities (inseparable)
+OUT2_1	Products from the transformation of forestry products
+OUT2_2	Other non-separable secondary activities (goods and services)
+OUT	Output of the forestry industry at basic prices
+IC	Total intermediate consumption
+IC1	Standing timber
+IC2	Plants
+IC3	Energy, lubricants
+IC3_1	Energy, lubricants - electricity
+IC3_2	Energy, lubricants - gas
+IC3_3	Energy, lubricants - other fuels and propellants
+IC3_4	Energy, lubricants - other
+IC4	Fertilisers and soil improvers
+IC5	Plant protection products and pesticides
+IC6	Maintenance of materials
+IC7	Maintenance of buildings
+IC8	Forestry services output
+IC9	Financial intermediation services indirectly measured (FISIM)
+IC10	Other goods and services
+GVA	Gross value added at basic prices
+FCC	Fixed capital consumption
+FCC1	Afforestation and reafforestation
+FCC2	Equipment and buildings
+FCC2_1	Fixed capital consumption : equipment
+FCC2_2	Fixed capital consumption : buildings
+FCC3	Other
+NVA	Net value added at basic prices
+NVA1	Other taxes on production
+NVA2	Other subsidies on production
+FI	Factor income
+CE	Compensation of employees
+OS	Operation surplus / mixed income
+OS1	Rents and other real estate rental charges payable
+OS2	Interest payable
+OS3	Interest receivable
+EI	Entrepreneurial income
+GFCF	Gross fixed capital formation (excluding deductible VAT)
+GFCF1	Afforestation and reafforestation
+GFCF2	Equipment and buildings
+GFCF2_1	GFCF in non-forestry products
+GFCF2_11	GFCF in materials
+GFCF2_111	GFCF in machines and other equipment
+GFCF2_112	GFCF in transport equipment
+GFCF2_12	GFCF in forestry buildings (non-residential)
+GFCF3	Other
+GFCF3_1	GFCF in intangible fixed assets (e.g. computer software)
+GFCF3_2	Addition to the value of non-financial non-produced assets
+GFCF3_21	GFCF in major land improvements
+GFCF3_22	Costs linked to the purchase of land and production rights
+NFCF	Net fixed capital formation  (excluding deductible VAT)
+CI	Changes in inventories
+CI1	Changes in inventories of which work in progress
+CT	Capital transfers
+CT1	Investment grants
+CT2	Other capital transfers
+51000	coniferous timber for industrial uses
+51100	coniferous long timber
+51200	coniferous stackwood
+51900	coniferous timber for industrial uses: other
+52000	non-coniferous timber for industrial uses
+52100	long timber (non-coniferous)
+52200	stackwood (non-coniferous)
+52900	non-coniferous timber for industrial uses: other
+53000	firewood (coniferous and non-coniferous)
+54000	other products
+54100	cork
+54200	forestry and nursery plants
+54300	aforrestation and conversion
+54900	other forestry products
+14000	forestry goods output
+15000	forestry services output
+16000	forestry output
+17000	non-forestry secondary activities (inseparable)
+17100	products from the transformation of forestry products
+17900	other non-separable secondary activities (goods and services)
+18000	output of the forestry 'industry'
+19000	total intermediate consumption
+19010	plants (intermediate consumption)
+19020	energy; lubricants
+19021	energy; lubricants - electricity
+19022	energy; lubricants - gas
+19023	energy; lubricants - other fuels and propellants
+19029	energy; lubricants - energy; lubricants: other
+19030	fertilisers and soil improvers
+19040	plant protection products, herbicides, insecticides and pesticides
+19070	maintenance of materials
+19080	maintenance of buildings
+19090	forestry services (intermediate consumption)
+19900	other goods and services
+20000	gross value added at basic prices
+21000	fixed capital consumption
+21100	fixed capital consumption : equipment
+21200	fixed capital consumption : buildings
+22000	net value added at basic prices
+23000	compensation of employees
+24000	other taxes on production
+25000	other subsidies on production
+26000	factor income
+27000	operating surplus / mixed income
+28000	rents and other real estate rental charges to be paid
+29000	interest paid
+30000	interest received
+31000	entrepreneurial income
+32000	gfcf in afforestation and conversion
+33000	gfcf in non-forestry products
+33100	gfcf in materials
+33110	gfcf in machines and other equipment
+33120	gfcf in transport equipment
+33200	gfcf in forestry buildings (non-residential)
+33900	other gfcf
+33910	gfcf in intangible fixed assets (e.g. computer software)
+33920	addition to the value of non-financial non-produced assets
+33921	gfcf in major land improvements
+33922	costs linked to the purchase of land and production rights
+34000	gross fixed capital formation (excluding deductible vat)
+35000	net fixed capital formation (excluding deductible vat)
+36000	changes in stocks
+37000	capital transfers
+37100	investment grants
+37200	other capital transfers

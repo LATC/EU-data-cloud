@@ -1,0 +1,14 @@
+TOTAL	Total
+TOT_FTU	Total in full-time unit
+NB_TOT	All (no breakdown)
+FT	Full-time
+FT_GE32	Full-time (32 hours or more per week)
+LONG_PT	Long part-time (20-31 hours per week)
+SHORT_PT	Short part-time (1-19 hours per week)
+PT	Part-time
+PT_FTU	Part-time in full-time unit
+AVG_FTU	Yearly average per person in full-time unit
+OCC	Occasional
+UNK	Unknown
+NOT_SPEC	Not specified
+NRESP	No response

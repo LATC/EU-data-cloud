@@ -1,0 +1,45 @@
+D	Coût total de la main-d'oeuvre
+D1	Rémunération des salariés
+D11	Salaires et traitements
+D111	Rémunération directe et primes
+D1111	Rémunération directe (facultatif)
+D1112	Primes (facultatif)
+D11121	Primes à périodicité fixe (facultatif)
+D11122	Primes liées aux performances individuelles ou collectives (facultatif)
+D112	Versements formation patrimoine
+D113	Rémunérations pour journées non ouvrées
+D114	Salaires et traitements en nature
+D1141	Produits de l'entreprise
+D1142	Logement du personnel
+D1143	Voitures de société (facultatif)
+D12	Cotisations sociales à la charge de l'employeur
+D121	Cotisations sociales effectives à la charge de l'employeur
+D1211	Cotisations légales de sécurité sociale
+D12111	Vieillesse, maladie, maternité, invalidité
+D12112	Chômage
+D12113	Accidents de travail et maladies professionnelles
+D12114	Prestations familiales
+D12115	Autres
+D1212	Cotisations conventionnelles, contractuelles et bénévoles  de sécurité sociale
+D12121	Régimes complémentaires de retraite
+D121211	Contrats d'assurance collective (facultatif)
+D121212	Caisses et fonds autonomes (facultatif)
+D121213	Réserves ou provisions inscrites au bilan (facultatif)
+D121214	Autres (facultatif)
+D12122	Régimes complémentaires d'assurance maladie
+D12123	Régimes complémentaires d'assurance chômage
+D12124	Autres régimes complémentaires
+D122	Cotisations sociales imputées à la charge des employeurs
+D1221	Salaire garanti en cas de maladie
+D1222	Salaire garanti en cas de chômage partiel
+D1223	Versements effectués aux salariés qui quittent l'entreprise
+D1224	Prestations sociales imputées à la charge des employeurs
+D2	Frais de formation professionnelle
+D21	Rémunération des apprentis
+D22	Cotisations de sécurité sociale pour les apprentis
+D23	Autres frais de formation professionnelle
+D3	Autres dépenses à caractère social
+D31	Frais de recrutement (facultatif)
+D32	Autres (facultatif)
+D4	Taxes
+D5	Subventions

@@ -1,0 +1,438 @@
+TOTAL	Total
+LFD	Mort fœtale tardive
+H0	Zéro heure
+H1-9	De 1 à 9 heures
+H1-29	De 1 à 29 heures
+H10-19	De 10 à 19 heures
+H20-29	De 20 à 29 heures
+H30-39	De 30 à 39 heures
+H_GE30	30 heures ou plus
+H40-49	De 40 à 49 heures
+H_GE50	50 heures ou plus
+N_GE1	1 nuit ou plus
+N1-3	De 1 à 3 nuits
+N_GE4	4 nuits ou plus
+D_LT7	Moins de 7 jours
+D_LT28	Moins de 28 jours
+NST	Pas commencé
+M0	Zéro mois
+M_LT1	Moins de 1 mois
+M1	1 mois
+M1-2	De 1 à 2 mois
+M1-3	De 1 à 3 mois
+M2	2 mois
+M_LT3	Moins de 3 mois
+M3	3 mois
+M3-4	De 3 à 4 mois
+M3-5	De 3 à 5 mois
+M_GE3	3 mois ou plus
+M4	4 mois
+M4-6	De 4 à 6 mois
+M5	5 mois
+M5-6	De 5 à 6 mois
+M6	6 mois
+M6-11	De 6 à 11 mois
+M7	7 mois
+M7-9	De 7 à 9 mois
+M7-12	De 7 à 12 mois
+M8	8 mois
+M9	9 mois
+M10	10 mois
+M_GE10	10 mois ou plus
+M11	11 mois
+M12	12 mois
+M12-17	De 12 à 17 mois
+M_GE12	12 mois ou plus
+M13	13 mois
+M13-18	De 13 à 18 mois
+M14	14 mois
+M15	15 mois
+M16	16 mois
+M17	17 mois
+M18	18 mois
+M18-23	De 18 à 23 mois
+M19	19 mois
+M19-24	De 19 à 24 mois
+M20	20 mois
+M21	21 mois
+M22	22 mois
+M23	23 mois
+M24	24 mois
+M24-47	De 24 à 47 mois
+M25	25 mois
+M25-36	De 25 à 36 mois
+M26	26 mois
+M27	27 mois
+M28	28 mois
+M29	29 mois
+M30	30 mois
+M31	31 mois
+M32	32 mois
+M33	33 mois
+M34	34 mois
+M35	35 mois
+M_GT36	Plus de 36 mois
+M36	36 mois
+M37	37 mois
+M38	38 mois
+M39	39 mois
+M40	40 mois
+M41	41 mois
+M42	42 mois
+M43	43 mois
+M44	44 mois
+M45	45 mois
+M46	46 mois
+M47	47 mois
+M48	48 mois
+M_GE48	48 mois ou plus
+M49	49 mois
+M50	50 mois
+M51	51 mois
+M52	52 mois
+M53	53 mois
+M54	54 mois
+M55	55 mois
+M56	56 mois
+M57	57 mois
+M58	58 mois
+M59	59 mois
+M60	60 mois
+M61	61 mois
+M62	62 mois
+M63	63 mois
+M64	64 mois
+M65	65 mois
+M66	66 mois
+M67	67 mois
+M68	68 mois
+M69	69 mois
+M70	70 mois
+M71	71 mois
+M72	72 mois
+M73	73 mois
+M74	74 mois
+M75	75 mois
+M76	76 mois
+M77	77 mois
+M78	78 mois
+M79	79 mois
+M80	80 mois
+M81	81 mois
+M82	82 mois
+M83	83 mois
+M84	84 mois
+M85	85 mois
+M86	86 mois
+M87	87 mois
+M88	88 mois
+M89	89 mois
+M90	90 mois
+M91	91 mois
+M92	92 mois
+M93	93 mois
+M94	94 mois
+M95	95 mois
+M96	96 mois
+M97	97 mois
+M98	98 mois
+M99	99 mois
+M100	100 mois
+M101	101 mois
+M102	102 mois
+M103	103 mois
+M104	104 mois
+M105	105 mois
+M106	106 mois
+M107	107 mois
+M108	108 mois
+M109	109 mois
+M110	110 mois
+M111	111 mois
+M112	112 mois
+M113	113 mois
+M114	114 mois
+M115	115 mois
+M116	116 mois
+M117	117 mois
+M118	118 mois
+M119	119 mois
+Y_LT1	Moins de 1 an
+Y1	1 an
+Y1-2	De 1 à 2 ans
+Y1-4	De 1 à 4 ans
+Y1-5	De 1 à 5 ans
+Y1-14	De 1 à 14 ans
+Y_LT2	Moins de 2 ans
+Y2	2 ans
+Y2-3	De 2 à 3 ans
+Y2-4	De 2 à 4 ans
+Y2-5	De 2 à 5 ans
+Y_GE2	2 ans ou plus
+Y_LT3	Moins de 3 ans
+Y3	3 ans
+Y3-CSA	De 3 ans à l'âge minimal de scolarisation obligatoire
+Y3-4	De 3 à 4 ans
+Y3-5	De 3 à 5 ans
+Y3-9	De 3 à 9 ans
+Y_GE3	3 ans ou plus
+Y_GT3	Plus de 3 ans
+Y_LT4	Moins de 4 ans
+Y4	4 ans
+Y4-5	De 4 à 5 ans
+Y_LT5	Moins de 5 ans
+Y5	5 ans
+Y5-9	De 5 à 9 ans
+Y5-10	De 5 à 10 ans
+Y_GE5	5 ans ou plus
+CSA-Y12	De l'âge minimal de scolarisation obligatoire à 12 ans
+Y_LT6	Moins de 6 ans
+Y6	6 ans
+Y6-7	De 6 à 7 ans
+Y6-9	De 6 à 9 ans
+Y6-10	De 6 à 10 ans
+Y6-11	De 6 à 11 ans
+Y7	7 ans
+Y7-12	De 7 à 12 ans
+Y8	8 ans
+Y8-9	De 8 à 9 ans
+Y9	9 ans
+Y10	10 ans
+Y10-11	De 10 à 11 ans
+Y10-14	De 10 à 14 ans
+Y10-19	De 10 à 19 ans
+Y_GE10	10 ans ou plus
+Y_LT11	Moins de 11 ans
+Y11	11 ans
+Y11-15	De 11 à 15 ans
+Y12	12 ans
+Y_GE12	12 ans ou plus
+Y13	13 ans
+Y13-18	De 13 à 18 ans
+Y_LT14	Moins de 14 ans
+Y14	14 ans
+Y14-15	De 14 à 15 ans
+Y14-17	De 14 à 17 ans
+Y_LT15	Moins de 15 ans
+Y15	15 ans
+Y15-17	De 15 à 17 ans
+Y15-19	De 15 à 19 ans
+Y15-24	De 15 à 24 ans
+Y15-29	De 15 à 29 ans
+Y15-34	De 15 à 34 ans
+Y15-39	De 15 à 39 ans
+Y15-59	De 15 à 59 ans
+Y15-64	De 15 à 64 ans
+Y15-69	De 15 à 69 ans
+Y15-74	De 15 à 74 ans
+Y_GE15	15 ans ou plus
+Y_LT16	Moins de 16 ans
+Y16	16 ans
+Y16-17	De 16 à 17 ans
+Y16-19	De 16 à 19 ans
+Y16-24	De 16 à 24 ans
+Y16-64	De 16 à 64 ans
+Y_GE16	16 ans ou plus
+Y_LT17	Moins de 17 ans
+Y17	17 ans
+Y_LT18	Moins de 18 ans
+Y18	18 ans
+Y18-19	De 18 à 19 ans
+Y18-24	De 18 à 24 ans
+Y18-34	De 18 à 34 ans
+Y18-44	De 18 à 44 ans
+Y18-49	De 18 à 49 ans
+Y18-54	De 18 à 54 ans
+Y18-59	De 18 à 59 ans
+Y18-64	De 18 à 64 ans
+Y18-69	De 18 à 69 ans
+Y18-74	De 18 à 74 ans
+Y_GE18	18 ans ou plus
+Y19	19 ans
+Y19-24	De 19 à 24 ans
+Y_LT20	Moins de 20 ans
+Y20	20 ans
+Y20-24	De 20 à 24 ans
+Y20-29	De 20 à 29 ans
+Y20-34	De 20 à 34 ans
+Y20-49	De 20 à 49 ans
+Y20-64	De 20 à 64 ans
+Y_GE20	20 ans ou plus
+Y21	21 ans
+Y22	22 ans
+Y23	23 ans
+Y24	24 ans
+Y_LT25	Moins de 25 ans
+Y25	25 ans
+Y25-29	De 25 à 29 ans
+Y25-34	De 25 à 34 ans
+Y25-39	De 25 à 39 ans
+Y25-44	De 25 à 44 ans
+Y25-49	De 25 à 49 ans
+Y25-54	De 25 à 54 ans
+Y25-59	De 25 à 59 ans
+Y25-64	De 25 à 64 ans
+Y25-69	De 25 à 69 ans
+Y25-74	De 25 à 74 ans
+Y_GE25	25 ans ou plus
+Y26	26 ans
+Y27	27 ans
+Y28	28 ans
+Y29	29 ans
+Y_LT30	Moins de 30 ans
+Y30	30 ans
+Y30-34	De 30 à 34 ans
+Y30-39	De 30 à 39 ans
+Y30-44	De 30 à 44 ans
+Y30-49	De 30 à 49 ans
+Y_GE30	30 ans ou plus
+Y31	31 ans
+Y32	32 ans
+Y33	33 ans
+Y34	34 ans
+Y_LT35	Moins de 35 ans
+Y35	35 ans
+Y35-39	De 35 à 39 ans
+Y35-44	De 35 à 44 ans
+Y35-54	De 35 à 54 ans
+Y35-64	De 35 à 64 ans
+Y_GE35	35 ans ou plus
+Y_LT36	Moins de 36 ans
+Y36	36 ans
+Y36-55	De 36 à 55 ans
+Y37	37 ans
+Y38	38 ans
+Y39	39 ans
+Y_LT40	Moins de 40 ans
+Y40	40 ans
+Y40-44	De 40 à 44 ans
+Y40-49	De 40 à 49 ans
+Y40-54	De 40 à 54 ans
+Y40-59	De 40 à 59 ans
+Y40-64	De 40 à 64 ans
+Y_GE40	40 ans ou plus
+Y41	41 ans
+Y42	42 ans
+Y43	43 ans
+Y44	44 ans
+Y_LT45	Moins de 45 ans
+Y45	45 ans
+Y45-49	De 45 à 49 ans
+Y45-54	De 45 à 54 ans
+Y45-59	De 45 à 59 ans
+Y45-64	De 45 à 64 ans
+Y46	46 ans
+Y47	47 ans
+Y48	48 ans
+Y49	49 ans
+Y_GE49	49 ans ou plus
+Y50	50 ans
+Y50-54	De 50 à 54 ans
+Y50-59	De 50 à 59 ans
+Y50-64	De 50 à 64 ans
+Y50-74	De 50 à 74 ans
+Y_GE50	50 ans ou plus
+Y51	51 ans
+Y_GE51	51 ans ou plus
+Y52	52 ans
+Y53	53 ans
+Y54	54 ans
+Y55	55 ans
+Y55-59	De 55 à 59 ans
+Y55-64	De 55 à 64 ans
+Y55-69	De 55 à 69 ans
+Y55-74	De 55 à 74 ans
+Y_GE55	55 ans ou plus
+Y56	56 ans
+Y_GE56	56 ans ou plus
+Y57	57 ans
+Y58	58 ans
+Y59	59 ans
+Y_LT60	Moins de 60 ans
+Y60	60 ans
+Y60-64	De 60 à 64 ans
+Y60-69	De 60 à 69 ans
+Y60-74	De 60 à 74 ans
+Y60-79	De 60 à 79 ans
+Y_GE60	60 ans ou plus
+Y61	61 ans
+Y62	62 ans
+Y63	63 ans
+Y64	64 ans
+Y_LT65	Moins de 65 ans
+Y65	65 ans
+Y65-69	De 65 à 69 ans
+Y65-74	De 65 à 74 ans
+Y65-79	De 65 à 79 ans
+Y65-84	De 65 à 84 ans
+Y_GE65	65 ans ou plus
+Y66	66 ans
+Y67	67 ans
+Y68	68 ans
+Y69	69 ans
+Y70	70 ans
+Y70-74	De 70 à 74 ans
+Y_GE70	70 ans ou plus
+Y71	71 ans
+Y72	72 ans
+Y73	73 ans
+Y74	74 ans
+Y_LT75	Moins de 75 ans
+Y75	75 ans
+Y75-79	De 75 à 79 ans
+Y75-84	De 75 à 84 ans
+Y_GE75	75 ans ou plus
+Y76	76 ans
+Y77	77 ans
+Y78	78 ans
+Y79	79 ans
+Y80	80 ans
+Y80-84	De 80 à 84 ans
+Y_GE80	80 ans ou plus
+Y81	81 ans
+Y82	82 ans
+Y83	83 ans
+Y84	84 ans
+Y85	85 ans
+Y85-89	De 85 à 89 ans
+Y_GE85	85 ans ou plus
+Y86	86 ans
+Y87	87 ans
+Y88	88 ans
+Y89	89 ans
+Y90	90 ans
+Y90-94	De 90 à 94 ans
+Y_GE90	90 ans ou plus
+Y91	91 ans
+Y_GE91	91 ans ou plus
+Y92	92 ans
+Y93	93 ans
+Y94	94 ans
+Y95	95 ans
+Y95-99	De 95 à 99 ans
+Y_GE95	95 ans ou plus
+Y96	96 ans
+Y97	97 ans
+Y98	98 ans
+Y99	99 ans
+Y_GE99	99 ans ou plus
+Y100	100 ans
+Y_GE100	100 ans ou plus
+Y101	101 ans
+Y102	102 ans
+Y103	103 ans
+Y104	104 ans
+Y105	105 ans
+Y106	106 ans
+Y107	107 ans
+Y108	108 ans
+Y109	109 ans
+Y110	110 ans
+Y_GE110	110 ans ou plus
+Y15-24_Y65-74	Autre (Entre 15 et 24 ans ainsi que entre 65 et 74 ans)
+Y_OPEN	Classe d'âge ouverte
+NAP	Non applicable
+NEV	Jamais
+NRP	Sans réponse
+OTH	Autres
+UNK	Inconnu

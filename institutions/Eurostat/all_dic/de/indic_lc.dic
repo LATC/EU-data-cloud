@@ -1,0 +1,24 @@
+SAL	Anzahl der Beschäftigten
+HRS_WKD_SAL	Anzahl der von Beschäftigten tatsächlich geleisteten Arbeitsstunden pro Jahr
+HRS_PAY_SAL	Anzahl der bezahlten Stunden der Beschäftigten pro Jahr
+APPR	Zahl der Auszubildenden
+HRS_WKD_APPR	Anzahl der im Jahr von Auszubildenden tatsächlich geleisteten Arbeitsstunden
+HRS_WKD_PER_SAL	Durchschnittliche Anzahl der tatsächlich geleisteten Arbeitsstunden, pro Jahr, pro Beschäftigter
+HRS_PAY_PER_SAL	Durchschnittliche Anzahl der bezahlten Stunden pro Jahr, pro Beschäftigter
+HRS_WKD_PER_APPR	Durchschnittliche Anzahl der tatsächlich geleisteten Arbeitsstunden, pro Jahr, pro Auszubildende
+COST_TOT	Arbeitskosten einschließlich Auszubildende
+COST_SAL	Arbeitskosten (ohne Auszubildende)
+COST_APPR	Kosten für Auszubildende
+DIR_COST_SAL	Löhne und Gehälter (ohne Auszubildende)
+DIR_PAY_SAL	Direktvergütung, Prämien und Zulagen der Beschäftigten (ohne Auszubildende)
+DIR_PAY_APPR	Löhne- und Gehälter von Auszubildenden
+TMP	Anzahl der befristet Beschäftigten
+COST_TMP_NAC	Personalkosten für befristet Beschäftigte - nationale Währung
+COST_TMP_EUR	Personalkosten für befristet Beschäftigte - Euro
+HRS_WKD_TMP	Durchschnittliche Anzahl der von befristet Beschäftigten geleisteten Arbeitsstunden
+RT_PAY_WKD	Verhältnis zwischen bezahlten und tatsächlich geleisteten Arbeitsstunden
+HRS_PAY_NWKD	Anzahl der bezahlten aber nicht tatsächlich gearbeiteten Stunden
+LCI_TOT	Indizes von Arbeitskosten - Arbeitskosten insgesamt
+LCI_TXB	Indizes von Arbeitskosten -  Arbeitskosten insgesamt ohne Prämien
+LCI_WAG	Indizes von Arbeitskosten - Löhne und Gehälter
+LCI_OTH	Indizes von Arbeitskosten - Andere Arbeitskosten als Löhne und Gehälter

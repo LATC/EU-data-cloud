@@ -1,0 +1,43 @@
+TOTAL	Total
+KITC	Cuisine séparée dans l'unité d'habitation
+WTR	Eau courante dans l'unité d'habitation
+NWTR	Pas d'eau courante dans l'unité d'habitation
+WTR_UNK	Eau courante - inconnu
+TOIL	Toilettes avec chasse d'eau dans l'unité d'habitation
+NTOIL	Toilettes sans chasse d'eau dans l'unité d'habitation
+TOIL_UNK	Toilettes - inconnu
+BATH	Installation fixe de bain ou de douche dans l'unité d'habitation
+NBATH	Pas d'installation fixe de bain ou de douche dans l'unité d'habitation
+BATH_UNK	Bain, douche dans l'immeuble - inconnu
+HEAT	Chauffage central
+NHEAT	Pas de chauffage central
+HEAT_UNK	Chauffage central - inconnu
+KITCHEN	Cuisine séparée et équipements pour faire la cuisine
+WATER_DWEL	Eau courante dans le logement
+WATER_BUILD	Eau courante dans l'immeuble
+WATER_UNK	Eau courante - inconnu
+NWATER	Pas d'eau courante
+BATH_DWEL	Bain, douche dans le logement
+BATH_BUILD	Bain, douche dans l'immeuble
+NBATH_DWEL	Ni bain, ni douche dans le logement
+NBATH_BUILD	Ni bain, ni douche dans l'immeuble
+TOILET_DWEL	WC dans le logement
+TOILET_BUILD	WC dans l'immeuble
+NTOILET	Pas de WC
+TOILET_UNK	WC - inconnu
+HEATING	Chauffage central
+CHEATING	Chauffage central
+CHEATING_DWEL	Chauffage central dans le logement
+NCHEATING	Pas de chauffage central
+NCHEATING_DWEL	Pas de chauffage central dans le logement
+SOLID	Combustible solide
+COAL	Charbon, coke
+WOOD	Bois
+SOLID_OTH	Autre combustible solide
+OIL	Pétrole
+GAS	Gaz
+ELEC	Electricité
+FUEL_OTH	Autre combustible
+UNK	Inconnu
+OTH	Autre
+OTHER	Autre

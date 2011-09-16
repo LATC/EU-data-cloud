@@ -1,0 +1,16 @@
+TOT_PAT	Gesamtzahl der Patente im Anmelderland
+SGL	Einzelne Erfinder / Anmelder
+CO_NAT	Gemeinsame Patente mit Erfindern / Anmeldern aus dem Anmelderland
+CO_EU	Gemeinsame Patente mit Erfindern / Anmeldern aus dem Anmelderland und aus einem oder mehreren EU-Ländern
+CO_EU_NEU	Gemeinsame Patente mit Erfindern / Anmeldern aus dem Anmelderland, aus einem oder mehreren EU-Ländern und aus einem oder mehreren Nicht-EU-Ländern
+CO_NEU	Gemeinsame Patente mit Erfindern / Anmeldern aus dem Anmelderland und aus einem oder mehreren Nicht-EU-Ländern
+CO_EUI_NEUA	Anteil der Patente mit EU-Erfinder und Nicht-EU-Anmelder an allen inländischen EU-Erfindungen
+CO_NEUI_EUA	Anteil der Patente mit Nicht-EU-Erfinder und EU-Anmelder an allen inländischen EU-Anmeldungen
+EU_PUB	Anteil der EU an der Gesamtzahl der Patentzitate
+CIT_NEU	Anzahl der EU-Patentzitate in Bezug auf Nicht-EU-Patentveröffentlichungen
+CIT_EU	Anzahl der EU-Patentzitate in Bezug auf EU-Patentveröffentlichungen
+CO_NEU_MS	Anteil der gemeinsamen Patentierungen zwischen einem EU-Mitgliedstaat und Nicht-EU-Ländern an der Gesamtzahl der Patente eines jeden EU-Mitgliedstaats
+CO_EU_MS	Anteil der gemeinsamen Patentierungen zwischen einem EU-Mitgliedstaat und (einem) anderen EU-Mitgliedstaat(en) an der Gesamtzahl der Patente eines jeden EU-Mitgliedstaats
+CO_NEU_EU	Anteil der gemeinsamen Patentierungen zwischen einem EU-Mitgliedstaat und Nicht-EU-Ländern an der Gesamtzahl der aller EU-Patente
+CO_EU_EU	Anteil der gemeinsamen Patentierungen zwischen EU-Mitgliedstaaten an der Gesamtzahl der aller EU-Patente
+CO_INT	Anteil der gemeinsamen Patentierungen zwischen EU-Mitgliedstaaten und Nicht-EU-Ländern an der Gesamtzahl der aller internationalen Patente

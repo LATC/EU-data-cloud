@@ -1,0 +1,22 @@
+TOTAL	Tous régimes
+PUBLIC	Régimes publics
+PRIVATE	Régimes privés
+COMPULSORY	Régimes obligatoires
+N_CLAW	Régimes volontaires légaux
+N_C_OTH	Autres régimes volontaires
+CONTRIBUTORY	Régimes contributifs
+NON_CONTRIB	Régimes non contributifs
+UNIVERSAL	Régimes universels
+GENERAL	Régimes généraux
+SCIVCERV	Régimes pour les fonctionnaires
+SSELFEMP	Régimes pour les indépendants
+SOTH_OCCUP	Autres régimes professionnels
+SOTHER	Autres régimes spéciaux
+BASE	Régimes de base
+COMP	Régimes complémentaires
+PUCENTGOV	Régimes publics de l'administration centrale
+PULOCGOV	Régimes publics de l'administration locale
+PREMP	Régimes privés pour salariés
+PRECONTR	Régimes privés pour salariés conventionnels
+PREN_CONTR	Régimes privés pour salariés non conventionnels
+PR_OTH	Autres régimes privés

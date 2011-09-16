@@ -1,0 +1,131 @@
+NBS01	Erforschung und Nutzung der irdischen Umwelt
+NBS0100	Allgemeine Forschung zur Erforschung und Nutzung der irdischen Umwelt
+NBS0101	Bergbau-, Erdöl-, und Erdgasprospektion
+NBS0102	Erforschung und Nutzung der Meeresböden
+NBS0103	Erdkruste und Erdmantel außer Meeresböden
+NBS0104	Gewässerkunde
+NBS0105	Meere und Ozeane
+NBS0106	Atmosphäre
+NBS0109	Sonstige Aktivitäten zur Erforschung und Nutzung der irdischen Umwelt
+NBS02	Infrastrukturmaßnahmen und Raumgesamtplanung
+NBS0200	Allgemeine Forschung zur Infrastruktur und Raumgesamtplanung
+NBS0201	Allgemeine Raumgesamtplanung
+NBS0202	Bau und Ausstattung von Gebäuden
+NBS0203	Ingenieurbau
+NBS0204	Verkehrssysteme
+NBS0205	Fernmeldesysteme
+NBS0206	Wasserversorgung
+NBS0209	Sonstige Forschung zur Infrastruktur und Raumgestaltplanung
+NBS03	Umweltschutz
+NBS0300	Allgemeine Umweltforschung
+NBS0301	Schutz der Atmosphäre und des Klimas
+NBS0302	Schutz der Umgebungsluft
+NBS0303	Feste Abfälle
+NBS0304	Gewässerschutz
+NBS0305	Verschmutzung von Boden und Grundwasser
+NBS0306	Lärm- und Schwingungsminderung
+NBS0307	Schutz von Arten und Lebensräumen
+NBS0308	Schutz gegen Naturkatastrophen
+NBS0309	Strahlenschutz
+NBS0310	Schutz der Atmosphäre und des Klimas
+NBS04	Schutz und Förderung der menschlichen Gesundheit
+NBS0400	Allgemeine Forschung zum Schutz und Förderung der menschlichen Gesundheit
+NBS0401	Medizinische Forschung, Krankenhausversorgung, Chirurgie
+NBS0402	Präventivmedizin
+NBS0403	Biomedizinische Technik und Medikamente
+NBS0404	Arbeitsmedizin
+NBS0405	Ernährung und Lebensmittelhygiene
+NBS0406	Drogenmißbrauch und Suchtgefahren
+NBS0407	Sozialmedizin
+NBS0408	Krankenhausstruktur und Organisation des Gesundheitswesens
+NBS0409	Sonstige medizinische Forschungen
+NBS05	Erzeugung, Verteilung und rationelle Nutzung der Energie
+NBS0500	Allgemeine Forschung über die Gewinnung, Verteilung und rationelle Nutzung der Energie
+NBS0501	Fossile Brennstoffe und Derivate
+NBS0502	Kernspaltung
+NBS0503	Behandlung und Beseitigung radioaktiver Abfälle einschließlich Stillegung
+NBS0504	Kernspaltung
+NBS0505	Erneuerbare Energiequellen
+NBS05051	Sonnenenergie, Wärmeenergie und photoelektrische Energie
+NBS05052	Erdwärme
+NBS05053	Wasser-, Wind- und Wellenenergie
+NBS05054	Forschung über die Umwandlung der Biomasse (insbesondere in den Bereichen Pyrolyse, Vergasung, Extraktion und Enzymverarbeitung); Forschung über die Aufbereitung von Abfällen aus Industrie, Landwirtschaft und privatem Verbrauch zum Zwecke der Energiegewinnung
+NBS0506	Rationelle Nutzung der Energie
+NBS0509	Sonstige Forschung über Erzeugung, Verteilung und rationelle Nutzung der Energie
+NBS06	Landwirtschaftliche Produktivität und Technologie
+NBS0600	Allgemeine Forschung zur landwirtschaftlichen Produktivität und Technologie
+NBS0601	Tierische Produkte
+NBS0602	Fischerei und Fischzucht
+NBS0603	Veterinärmedizin
+NBS0604	Pflanzliche Produkte
+NBS0605	Forst- und Holzwirtschaft
+NBS0606	Nahrungsmitteltechnologie
+NBS0609	Sonstige Forschung zur landwirtschaftlichen Produktivität und Technologie
+NBS07	Industrielle Produktivität und Technologie
+NBS0700	Allgemeine Forschung zur industriellen Produktivität und Technologie
+NBS0701	Steigerung der wirtschaftlichen Leistungs- und Wettbewerbsfähigkeit
+NBS0702	Fertigungs- und Verfahrenstechnik
+NBS0703	Gewinnung und Bearbeitung von nichtenergetischen Mineralien und Derivaten
+NBS0704	Erzeugnisse der chemischen Industrie
+NBS07041	Petrochemikalien und Nebenprodukte der Kohlechemie
+NBS07042	Arzneimittel
+NBS0705	Fahrzeugbau
+NBS07051	Luftfahrzeugbau und -reparatur
+NBS07052	Bau von Kraftfahrzeugen und Kraftfahrzeugteilen (einschließlich landwirtschaftlicher Zugmaschinen)
+NBS07053	Schienenfahrzeugbau
+NBS0706	Elektronikindustrie und verwandte Industriezweige
+NBS07061	Herstellung von Büromaschinen und Datenverarbeitungsgeräten
+NBS07062	Herstellung von Rundfunk-, Fernseh- und Fernmeldegeräten und -einrichtungen
+NBS07063	Software-Entwicklung
+NBS0707	Herstellung elektrischer Apparate und Geräte
+NBS0708	Herstellung nichtelektronischer und nichtelektrischer Geräte
+NBS0709	Herstellung von Geräten
+NBS07091	Herstellung medizinischer und chirurgischer und orthopädischer Geräte
+NBS07092	Herstellung sonstiger Geräte
+NBS0710	Steigerung der wirtschaftlichen Leistungs- und Wettbewerbsfähigkeit
+NBS0711	Herstellung von Bekleidung, Textilien und Lederwaren
+NBS0712	Sonstige gewerbliche Erzeugnisse
+NBS0713	Recycling von Abfallstoffen
+NBS08	Gesellschaftliche Strukturen und Beziehungen
+NBS0800	Allgemeine Forschung über gesellschaftliche Strukturen und Beziehungen
+NBS0801	Bildung, Ausbildung, Fortbildung und Umschulung
+NBS0802	Kultur
+NBS0803	Betriebsführung und Leitung von Institutionen
+NBS0804	Verbesserung der Arbeitsbedingungen
+NBS0805	Sozialversicherungssysteme
+NBS0806	Politische Struktur der Gesellschaft
+NBS0807	Sozialer Wandel, soziale Prozesse und soziale Konflikte
+NBS0809	Sonstige Forschung über das Leben in der Gesellschaft
+NBS09	Weltraumforschung und -nutzung
+NBS0900	Allgemeine Forschung auf dem Gebiet der Weltraumforschung und -nutzung
+NBS0901	Weltraumforschung
+NBS0902	Programme im Bereich angewandter Forschung
+NBS0903	Trägersysteme
+NBS0904	Weltraumlaboratorien und Raumfahrt
+NBS0909	Sonstige Forschung auf dem Gebiet der Weltraumforschung und -nutzung
+NBS10	Allgemeine Hochschulforschungsmittel
+NBS1000	Mathematics and computer sciences
+NBS1001	Physik
+NBS1002	Chemie
+NBS1003	Biologie
+NBS1004	Geologie und zugehörige (umweltbezogene) Gebiete
+NBS1005	Ingenieurwissenschaften
+NBS1006	Medizinische Wissenschaften
+NBS1007	Agrarwissenschaften
+NBS1008	Sozialwissenschaften
+NBS1009	Geisteswissenschaften
+NBS11	Nicht zielorientierte Forschung
+NBS1100	Mathematik und Informatik
+NBS1101	Physik
+NBS1102	Chemie
+NBS1103	Biologie
+NBS1104	Geologie und zugehörige (umweltbezogene) Gebiete
+NBS1105	Ingenieurwissenschaften
+NBS1106	Medizinische Wissenschaften
+NBS1107	Agrarwissenschaften
+NBS1108	Sozialwissenschaften
+NBS1109	Geisteswissenschaften
+NBS12	Sonstige zivile Forschung
+NBS13	Verteidigung
+NBS99_X_13	Gesamtaufwendungen zivile Forschung und Entwicklung
+NBS99	Mittelzuweisungen insgesamt

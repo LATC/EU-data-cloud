@@ -1,0 +1,243 @@
+C_TOT	Pflanzliche Erzeugung - insgesamt
+C1040	Getreide (einschließlich Reis)
+C1040_NOT_C1200	Getreide (ohne Mais)
+C1050	Getreide (ohne Reis)
+C1100	Weizen
+C1120	Weichweizen und Spelz
+C1123	Winterweichweizen
+C1124	Sommerweichweizen
+C1130	Hartweizen
+C1133	Winterhartweizen
+C1134	Sommerhartweizen
+C1140	Roggen und Wintermenggetreide
+C1150	Roggen
+C1151	Winterroggen
+C1152	Sommerroggen
+C1155	Wintermenggetreide
+C1160	Gerste
+C1163	Wintergerste
+C1164	Sommergerste
+C1170	Hafer und Sommermenggetreide
+C1180	Hafer
+C1185	Sommermenggetreide
+C1200	Körnermais
+C1201	Körnermais und Corn-Cob-Mix
+C1211	Sorghum
+C1212	Triticale
+C1213	Wintertriticale
+C1219	Hirse, Buchweizen, Kanariensaat (sonstige Getreide)
+C1250	Reis
+C1300	Hülsenfrüchte
+C1310	Erbsen
+C1311	Andere Erbsen als Futtererbsen (einschließlich Kichererbsen)
+C1320	Futtererbsen
+C1330	Bohnen, Puff- und Ackerbohnen
+C1331	Speisebohnen
+C1335	Puff- und Ackerbohnen - Insgesamt
+C1338	Puff- und Ackerbohnen - Nahrungsverbrauch
+C1340	Übrige Hülsenfrüchte
+C1341	Linsen
+C1342	Wicken
+C1343	Lupinen
+C1349	Andere Hülsenfrüchte (Lathyrus, usw...)
+C1350	Hackfrüchte
+C1360	Kartoffeln
+C1362	Frühkartoffeln
+C1363	Übrige Kartoffeln
+C1370	Zuckerrüben
+C1381	Futterrüben
+C1370_C1381	Rüben (Zuckerrüben + Futterrüben)
+C1382	Übrige Hackfrüchte
+C1383	Futterkohl
+C1384	Kohlrüben
+C1385	Futtermöhren
+C1386	Wasserrüben
+C1390	Übrige Hackfrüchte (Topinambur, Süßkartoffel, Futterpastinak, Yamswurzel, Tapioka, usw.)
+C1400	Handelsgewächse
+C1410	Ölsaaten
+C1420	Raps - Rübsen
+C1430	Raps
+C1431	Winterraps
+C1432	Sommerraps
+C1440	Rübsen
+C1450	Sonnenblumen
+C1460	Flachs
+C1470	Soja
+C1480	Übrige Ölsaaten (Mohn, Senf, Saflor, Baumwolle, Erdmandel, Sesam, Erdnuß, usw.)
+C1490	Baumwollsaat
+C1500	Textilpflanzen
+C1510	Übrige Faserpflanzen
+C1520	Flachs (Stroh)
+C1530	Hanf (Stroh)
+C1540	Baumwolle (egreniert)
+C1550	Tabak, roh (einschließlich Baumschulen)
+C1560	Hopfen
+C1570	Übrige Handelsgewächse
+C1571	Zichorien
+C1572	Zichorien für Inulin
+C1580	Heil-, Gewürz- und Duftpflanzen (Thymian, usw. .... )
+C1582	Kümmel
+C1589	Übrige Handelsgewächse (Roggen für Handelszwecke, Kardendistel, Lavendel, usw...)
+C1600	Frischgemüse
+C1609	Frischgemüse - Insgesamt
+C1610	Speisekohl
+C1620	Blumenkohl
+C1631	Rosenkohl
+C1635	Weißkohl
+C1655	Sonstige Kohlarten a.n.g
+C1660	Blatt- und Stengelgemüse (ohne Kresse, Rhabarber, Fenchel usw.)
+C1670	Sellerieknollen und -Stengel
+C1672	Stangensellerie
+C1675	Porree (Lauch)
+C1680	Kopfsalat
+C1685	Endiviensalat
+C1690	Spinat
+C1700	Spargel
+C1710	Chicoree
+C1720	Artischocken
+C1725	Anderes Blatt- und Stengelgemüse a.n.g.
+C1740	Sonstiges Fruchtgemüse
+C1750	Tomaten
+C1761	Gurken
+C1766	Einlegegurken
+C1771	Melonen
+C1777	Wassermelonen
+C1780	Eierfrüchte und Kürbisse
+C1781	Eierfrüchte
+C1785	Kürbisse
+C1786	Kübisse
+C1787	Zucchini
+C1790	Gemüse- und Pfefferpaprika
+C1799	Sonstiges Fruchtgemüse a.n.g.
+C1800	Wurzel- und Knollengemüse
+C1810	Kohlrabi
+C1820	Speiserüben
+C1830	Karotten und Speisemöhren
+C1840	Knoblauch
+C1851	Zwiebeln
+C1855	Schalotten
+C1860	Rote Rüben (rote Beete)
+C1870	Hafer- und Schwarzwurzeln
+C1872	Knollensellerie
+C1877	Radieschen
+C1884	Sonstiges Wurzel- und Knollengemüse a.n.g
+C1885	Hülsenfrüchte
+C1890	Pflückerbsen
+C1901	Pflückbohnen
+C1905	Sonstiges Hülsengemüse a.n.g
+C1910	Zuchtpilze
+C1920	Sonstiges Frischgemüse a.n.g
+C2002	Frischobst (Versorgungsbilanzen)
+C2008	Tafelobst (nicht enthalten sind: Oliven, Rosinen, Tafeltrauben zum keltern, Keltertrauben, wildwachsende Erzeugnisse, Obst aus Hausgärten und andere Äpfel und Birnen als Tafeläpfel und -birnen)
+C2009	Obst insgesamt (enthalten sind alle Oliven, alle Trauben, wildwachsende Erzeugnisse und Obst aus Hausgärten)
+C2040	Obstbäume (ausgenommen Oliven und Zitrusfrüchte)
+C2090	Äpfel (einschließlich Mostäpfel)
+C2095	Birnen (einschließlich Mostbirnen)
+C2110	Tafeläpfel
+C2112	Golden Delicious
+C2113	Andere Äpfel
+C2130	Tafelbirnen
+C2132	Sommerbirnen
+C2170	Steinobst
+C2180	Pfirsische
+C2190	Aprikosen
+C2200	Kirschen, einschließlich Sauerkirschen
+C2210	Pflaumen
+C2221	Nektarinen
+C2229	Sonstiges Steinobst a.n.g
+C2230	Schalenobst
+C2231	Walnüsse
+C2232	Haselnüsse
+C2233	Mandeln
+C2236	Kastanien
+C2240	Sonstiges Schalenobst a.n.g
+C2250	Sonstiges Obst
+C2251	Feigen
+C2252	Quitten
+C2253	Avokados
+C2259	Sonstiges Obst a.n.g.
+C2260	Erdbeeren
+C2270	Strauchbeeren
+C2271	Johannisbeeren
+C2272	Schwarze Johannisbeeren
+C2275	Rote Johannisbeeren
+C2278	Himbeeren
+C2281	Stachelbeeren
+C2285	Kiwis
+C2290	Sonstige Beeren a.n.g
+C2300	Zitrusfrüchte
+C2320	Orangen
+C2321	Apfelsinen mit gelbem Fruchtfleisch aus der Navelgruppe
+C2322	Apfelsinen mit gelbem Fruchtfleisch aus anderen Gruppen
+C2323	Blut- und Semiblutapfelsinen und andere süsse Apfelsinen
+C2324	Andere süsse Apfelsinen
+C2350	Mandarinen
+C2352	Satsumas
+C2360	Clementinen
+C2370	Zitronen
+C2371	Echte Zitrone
+C2372	Saure Limette
+C2380	Pampelmusen
+C2390	Sonstige Zitrusfrüche a.n.g
+C2410	Rebflächen
+C2415	Frische Trauben
+C2416	Rosinen (Frischgewicht)
+C2417	Tafeltrauben (zum Keltern)
+C2420	Tafeltrauben (zum Verzehr)
+C2440	Keltertrauben (zur Fruchtsaftherstellung und/oder zum Keltern)
+C2447	Tafeltrauben
+C2450	Oliven insgesamt
+C2460	Tafeloliven
+C2470	Oliven zur Ölherstellung
+C2600	Futter - Insgesamt
+C2610	Feldfutterbau
+C2611	Einjähriger Futterbau
+C2612	Sonstiger einjähriger Futterbau
+C2625	Grünmais
+C1200_C2625	Mais (Körnermais + Grünmais)
+C2670	Mehrjähriger Grünfutterbau
+C2671	Klee- und Kleegemüse
+C2672	Luzerne
+C2673	Anderer mehrjähriger Grünfutteranbau (Süßklee, Hornklee)
+C2680	Ackerwiesen -und Weiden
+C2681	Ackerwiesen
+C2682	Ackerweiden
+C2695	Übrige Felderzeugnisse a.n.g.
+C2696	Gründüngung und Brache
+C2710	Dauerwiesen
+C2720	Dauerweiden
+C2721	Weiden mit Almen
+C2722	Hutungen, Streuwiesen
+C2810	Baumschulen, einschließlich Rebstockanpflanzungen
+C2960	Flechtgewächse : Korbweiden, Bambus, Binse, Stuhlrohr, Kanadapappel
+C2971	Johannisbrot
+C2980	Übrige Dauerkulturen a.n.g. (Johannisbrotbaum, Maulbeerbaum, Tee, Kaffee, usw...)
+C2992	Frischgemüse (Hausgärten)
+C2993	Frischobst aus Hausgärten
+C3001	Blumen und Zierpflanzen, einschließlich Pflanzgut
+C3310	Saatgut (Gemüse- und Futtersaatgut, Hackfrüchte und Handelsgewächse außer Ölsaaten)
+C3718	Wildwachsende Erzeugnisse (Trüffel, sonstige Pilze, Zwiebel der Traubenhyazinthe = volvos (GR) , usw...)
+C3719	Wildwachsende Erzeugnisse
+C0002	Dauergrünland insgesamt (Wiesen und Weiden)
+C5000	Gartenbau
+C5001	Gartenbau unter Glas
+C5002	Saat und Pflanzgut auf dem Ackerland
+C5003	Obst- (Frischobst) und Beerenarten
+C9000	Datteln
+T0000	Kulturfläche insgesamt/Ertrag
+T0010	Sonstige Getreide zur Kornerzeugnis (einschließlich Saaten)
+T0020	Futterhackfrüchte (außer Saaten)
+T0030	Frisches Gemüse, Melonen, Erdbeeren (insgesamt)
+T0040	Im Freiland oder unter unzugänglichen Schutzabdeckungen
+T0050	Unter Glas oder sonstigen zugänglichen Schutzabdeckungen
+T0060	Sonstige Futterpflanzen
+T0070	Sonstige Ackerkulturen
+T0080	Bracht in der Fruchtfolge
+T0090	Wiesen und Weiden (ohne ertragsarme Weiden)
+L0006	Forstfläche
+T0100	Ertragsarme Weiden
+T0110	Obst- und Beerenobstanlagen (insgesamt)
+T0120	Frischobst und Beerenarten der gemäßigten Klimazonen
+T0130	Frischobst und Beerenarten der subtropischen Klimazonen
+T0140	Sonstige Dauerkulturen
+T0150	Nicht genutzte landwirtschaftliche Flächen (Bracht, nicht in der Fruchtfolge)

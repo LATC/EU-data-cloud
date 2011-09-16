@@ -1,0 +1,9 @@
+TOTAL	Total
+1_99	Holdings between 1 and 99 broilers
+100_999	Holdings between 100 and 999 broilers
+1000_2999	Holdings between 1000 and 2999 broilers
+3000_4999	Holdings between 3000 and 4999 broilers
+5000_9999	Holdings between 5000 and 9999 broilers
+10000_49999	Holdings with between 10000 and 49999 broilers
+50000_99999	Holdings between 50000 and 99999 broilers
+GE_100000	Holdings with 100000 or more broilers

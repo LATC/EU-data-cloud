@@ -1,0 +1,166 @@
+TOTAL	Insgesamt
+ISCO1-5	Angestellte
+ISCO1-3	Leiter, Wissenschaftler, Techniker und gleichrangige nichttechnische Berufe
+ISCO1_2	Leiter und Wissenschaftler
+ISCO1	Angehörige gesetzgebender Körperschaften, leitende Verwaltungsbedienstete und Führungskräfte in der Privatwirtschaft
+ISCO11	Angehörige gesetzgebender Körperschaften und leitende Verwaltungsbedienstete
+ISCO111	Angehörige gesetzgebender Körperschaften
+ISCO112	Leitende Verwaltungbedienstete
+ISCO113	Traditionelle Ortsvorsteher
+ISCO114	Leitende Bedienstete von Interessenorganisationen
+ISCO12	Geschäftsleiter und Geschäftsbereichsleiter in großen Unternehmen
+ISCO121	Direktoren und Hauptgeschäftsführer
+ISCO122	Produktions- und Operationsleiter
+ISCO123	Sonstige Fachbereichsleiter
+ISCO13	Geschäftsführer
+ISCO131	Geschäftsführer
+ISCO2	Wissenschaftler
+ISCO21	Physiker, Mathematiker und Ingenieurwissenschaftler
+ISCO211	Physiker, Chemiker und verwandte Wissenschaftler
+ISCO212	Mathematiker, Statistiker und verwandte Wissenschaftler
+ISCO213	Informatiker
+ISCO214	Architekten, Ingenieure und verwandte Wissenschaftler
+ISCO22	Biowissenschaftler und Mediziner
+ISCO221	Biowissenschaftler
+ISCO222	Mediziner (ohne Krankenpflege)
+ISCO223	Wissenschaftliche Krankenpflege- und Geburtshilfefachkräfte
+ISCO23	Wissenschaftliche Lehrkräfte
+ISCO231	Universitäts- und Hochschullehrer
+ISCO232	Lehrer des Sekundarbereiches
+ISCO233	Wissenschaftliche Lehrer des Primar- und Vorschulbereiches
+ISCO234	Wissenschaftliche Sonderschullehrer
+ISCO235	Sonstige wissenschaftliche Lehrkräfte
+ISCO24	Sonstige Wissenschaftler und verwandte Berufe
+ISCO241	Unternehmungsberatungs- und Organisationsfachkräfte
+ISCO242	Juristen
+ISCO243	Archiv-, Bibliotheks- und verwandte Informationswissenschaftler
+ISCO244	Sozialwissenschaftler und verwandte Berufe
+ISCO245	Schriftsteller, bildende oder darstellende Künstler
+ISCO246	Geistliche, Seelsorger
+ISCO247	Wissenschaftliche Verwaltungsfachkräfte des öffentlichen Dienstes
+ISCO3	Techniker und gleichrangige nichttechnische Berufe
+ISCO31	Technische Fachkräfte
+ISCO311	Material- und ingenieurtechnische Fachkräfte
+ISCO312	Datenverarbeitungsfachkräfte
+ISCO313	Bediener optischer und elektronischer Anlagen
+ISCO314	Schiffs-, Flugzeugführer und verwandte Berufe
+ISCO315	Sicherheits- und Qualitätskontrolleure
+ISCO32	Biowissenschaftliche und Gesundheitsfachkräfte
+ISCO321	Biotechniker und verwandte Berufe
+ISCO322	Medizinische Fachberufe (ohne Krankenpflege)
+ISCO323	Nicht-wissenschaftliche Krankenpflege- und Geburtshilfefachkräfte
+ISCO324	Heilpraktiker, Geistheiler und Gesundbeter
+ISCO33	Nicht-wissenschaftliche Lehrkräfte
+ISCO331	Nicht-wissenschaftliche Lehrkräfte des Primarbereiches
+ISCO332	Nicht-wissenschaftliche Lehrkräfte des Vorschulbereiches
+ISCO333	Nicht-wissenschaftliche Sonderschullehrkräfte
+ISCO334	Sonstige nicht-wissenschaftliche Lehrkräfte
+ISCO34	Sonstige Fachkräfte (mittlere Qualifikationsebene)
+ISCO341	Finanz- und Verkaufsfachkräfte
+ISCO342	Vermittler gewerblicher Dienstleistungen und Handelsmakler
+ISCO343	Verwaltungsfachkräfte
+ISCO344	Zoll-, Steuer- und verwandte Fachkräfte der öffentlichen Verwaltung
+ISCO345	Polizeikommissare und Detektive
+ISCO346	Sozialpflegerische Berufe
+ISCO347	Künstlerische, Unterhaltungs- und Sportberufe
+ISCO348	Ordensbrüder/-schwestern und Seelsorgehelfer
+ISCO4_5	Bürokräfte und Verkäufer
+ISCO4	Bürokräfte, kaufmännische Angestellte
+ISCO41	Büroangestellte ohne Kundenkontakt
+ISCO411	Sekretärinnen, Maschinenschreibkräfte und verwandte Berufe
+ISCO412	Angestellte im Rechnungs-, Statistik- und Finanzwesen
+ISCO413	Materialverwaltungs- und Transportangestellte
+ISCO414	Bibliotheks-, Post- und verwandte Angestellte
+ISCO419	Sonstige Büroangestellte
+ISCO42	Büroangestellte mit Kundenkontakt
+ISCO421	Kassierer, Schalter- und andere Angestellte
+ISCO422	Kundeninformationsangestellte
+ISCO5	Dienstleistungsberufe, Verkäufer in Geschäften und auf Märkten
+ISCO51	Personenbezogene Dienstleistungsberufe und Sicherheitsbedienstete
+ISCO511	Reisebegleiter und verwandte Berufe
+ISCO512	Dienstleistungsberufe im hauswirtschaftlichen Bereich und im Gaststättengewerbe
+ISCO513	Pflege- und verwandte Berufe
+ISCO514	Sonstige personenbezogene Dienstleistungsberufe
+ISCO515	Astrologen, Wahrsager und verwandte Berufe
+ISCO516	Sicherheitsbedienstete
+ISCO52	Modelle, Verkäufer und Vorführer
+ISCO521	Mannequins/Dressmen und sonstige Modelle
+ISCO522	Ladenverkäufer, Verkaufs-, Marktstandverkäufer und Vorführer1
+ISCO523	Verkaufs-, Marktstandverkäufer
+ISCO6-8	Fachkräfte
+ISCO6_7	Fachkräfte in der Landwirtschaft und Fischerei, Handwerks- und verwandte Berufe
+ISCO6	Fachkräfte in der Landwirtschaft und Fischerei
+ISCO61	Marktorientierte Fachkräfte in der Landwirtschaft und FischereiI
+ISCO611	Gärtner und Ackerbauern
+ISCO612	Marktorientierte Nutztierzüchter und vervandte Berufe
+ISCO613	Marktorientierte Ackerbauern und Tierzüchter/-halter
+ISCO614	Forstarbeitskräfte und verwandte Berufe
+ISCO615	Fischer, Jäger und Fallensteller
+ISCO62	Tagelöhner in der Landwirtschaft und Fischerei
+ISCO621	Tagelöhner in der Landwirtschaft und Fischerei
+ISCO7-9	Arbeiter
+ISCO7	Handwerks- und verwandte Berufe
+ISCO71	Mineralgewinnungs- und Bauberufe
+ISCO711	Bergleute, Sprengmeister, Steinbearbeiter und Steinbildhauer
+ISCO712	Baukonstruktions- und verwandte Berufe
+ISCO713	Ausbau- und verwandte Berufe
+ISCO714	Maler, Gebäudereiniger und verwandte Berufe
+ISCO72	Metallarbeiter, Mechaniker und verwandte Berufe
+ISCO721	Former (für Metallguß), Schweißer, Blechkaltverformer, Baumetallverformer und verwandte Berufe
+ISCO722	Grobschmiede, Werkzeugmacher und verwandte Berufe
+ISCO723	Maschinenmechaniker und -schlosser
+ISCO724	Elektro- und Elektronikmechaniker und -monteure
+ISCO73	Präzisionsarbeiter, Kunsthandwerker, Drucker und verwandte Berufe
+ISCO731	Präzisionsarbeiter für Metall und verwandte Werkstoffe
+ISCO732	Töpfer, Glasmacher und verwandte Berufe
+ISCO733	Kunsthandwerker für Holz, Textilien, Leder und verwandte Materialien
+ISCO734	Druckhandwerker und verwandte Berufe
+ISCO74	Sonstige Handwerks- und verwandte Berufe
+ISCO741	Berufe in der Nahrungsmittelverarbeitung und verwandte
+ISCO742	Holzbearbeiter, Möbeltischler und verwandte Berufe
+ISCO743	Textil-, Bekleidungs- und verwandte Berufe
+ISCO744	Fell-, Lederverarbeiter und Schuhmacher
+ISCO8_9	Anlagen- und Maschinenbediener sowie Montierer und Hilfsarbeitskräfte
+ISCO8	Anlagen- und Maschinenbediener sowie Montierer
+ISCO81	Bediener stationärer und verwandter Anlagen
+ISCO811	Bediener von bergbaulichen und Mineralaufbereitungsanlagen
+ISCO812	Verfahrensanlagenbediener in der Metallerzeugung und Metallumformung
+ISCO813	Bediener von Anlagen zur Glas- und Keramikherstellung sowie verwandte Anlagen-bediener
+ISCO814	Bediener von Anlagen zur Holzaufbereitung und Papierherstellung
+ISCO815	Bediener chemischer Verfahrensanlagen
+ISCO816	Bediener von Energieerzeugungs- und verwandte Anlagen
+ISCO817	Bediener von Fließbändern und Industrierobotern
+ISCO82	Maschinenbediener und Montierer
+ISCO821	Maschinenbediener für Metall- und Mineralerzuegnisse
+ISCO822	Maschinenbediener für chemische Erzeugnisse
+ISCO823	Maschinenbediener für Gummi- und Kunststofferzeugnisse
+ISCO824	Maschinenbediener für Holzerzuegnisse
+ISCO825	Maschinenbediener für Druck-, Buchbinde- und Papiererzeugnisse
+ISCO826	Maschinenbediener für Textil-, Pelz-, und Ledererzeugnisse
+ISCO827	Maschinenbediener zur Herstellung von Nahrungs- und Genußmitteln
+ISCO828	Montierer
+ISCO829	Sonstige Maschinenbediener und Montierer
+ISCO83	Fahrzeugführer und Bediener mobiler Anlagen
+ISCO831	Lokomotivführer und verwandte Berufe
+ISCO832	Kraftfahrzeugführer
+ISCO833	Führer von Landmaschinen und anderen mobilen Anlagen
+ISCO834	Deckspersonal auf Schiffen und verwandte Berufe
+ISCO9	Hilfsarbeitskräfte
+ISCO91	Verkaufs- und Dienstleistungshilfskräfte
+ISCO911	Straßenhändler und verwandte Berufe
+ISCO912	Schuhputzer und sonstige auf der Straße ausgeübte einfache Dienstleistungstätigkeiten
+ISCO913	Haushaltshilfen und verwandte Hilfskräfte, Reinigungspersonal und Wäscher
+ISCO914	Hausmeister, Festerputzer und verwandtes Reinigungspersonal
+ISCO915	Boten, Träger, Pförtner und verwandte Berufe
+ISCO916	Müllsammler und verwandte Berufe
+ISCO92	Landwirtschaftliche, Fischerei- und verwandte Hilfsarbeiter
+ISCO921	Landwirtchaftliche, Fischerei- und verwandte Hilfsarbeiter
+ISCO93	Hilfsarbeiter im Bergbau, Baugewerbe, verarbeitenden Gewerbes und Transportwesen
+ISCO931	Hilfsarbeiter im Bergbau und Baugewerbe
+ISCO932	Hilfsarbeiter in der Fertigung
+ISCO933	Transport- und Frachtarbeiter
+ISCO0	Soldaten
+ISCO0_4-9	Weder Leiter noch Wissenschaftler noch Techniker oder gleichrangige nichttechnische Berufe (ISCO1-3)
+OTH	Sonstige Berufe
+NRP	Keine Antwort
+UNK	Unbekannt

@@ -1,0 +1,16 @@
+MA_0	Summe
+MA_1	Biomasse
+MA_1_1	Biomasse-Nahrungsmittel
+MA_1_2	Biomasse-Futter
+MA_1_3	Biomasse-Tiere
+MA_1_4	Biomasse-Forstwirtschaft
+MA_1_5	Biomasse-ungenießbar
+MA_2	Mineralien
+MA_2_1	Mineralien-Baustoffe
+MA_2_2	Mineralien-Industriestoffe
+MA_2_3	Mineralien-Erze
+MA_3	Fossile Brennstoffe
+MA_3_1	Fossile Brennstoffe-Kohle
+MA_3_2	Fossile Brennstoffe-Rohöl
+MA_3_3	Fossile Brennstoffe-Naturgas
+MA_3_4	Fossile Brennstoffe-Andere Energieträger

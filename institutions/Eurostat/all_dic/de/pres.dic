@@ -1,0 +1,43 @@
+P00	Alle Handelsformen
+P01	Frisch, insgesamt
+P02	Gefroren, insgesamt
+P03	Gesalzen, insgesamt
+P07	Getrocknet, insgesamt
+P10	Frisch, nicht spezifiziert
+P11	Frisch, ganz
+P12	Frisch, ausgenommen
+P13	Frisch, Schwänze
+P14	Frisch, Filets
+P16	Frisch, ausgenommen, ohne Kopf
+P17	Frisch, geschält, gesäubert
+P18	Frisch, lebend
+P19	Frisch, sonstige
+P20	Gefroren, nicht spezifiziert
+P21	Gefroren, ganz
+P22	Gefroren, ausgenommen
+P23	Gefroren, Schwänze
+P24	Gefroren, Filets
+P25	Gefroren, nicht filiert
+P26	Gefroren, ausgenommen, ohne Kopf
+P27	Gefroren, gesäubert
+P28	Gefroren, nicht gesäubert
+P29	Gefroren, sonstige
+P30	Gesalzen, nicht spezifiziert
+P31	Gesalzen, ganz
+P32	Gesalzen, ausgenommen
+P34	Gesalzen, Filets
+P36	Gesalzen, ausgenommen, ohne Kopf
+P39	Gesalzen, sonstige
+P40	Geräuchert
+P50	Gegart
+P60	Gegart, gefroren und verpackt
+P70	Getrocknet, nicht spezifiziert
+P71	Getrocknet, ganz
+P72	Getrocknet, ausgenommen
+P74	Getrocknet, Filets
+P76	Getrocknet, ausgenommen, ohne Kopf
+P79	Getrocknet, sonstige
+P91	Ganz, nicht spezifiziert
+P80	Scheren
+P85	Fischeier
+P99	Handelsform unbekannt

@@ -1,0 +1,7 @@
+TOTAL	Insgesamt
+HOLDMAN	Der Betriebsinhaber ist Betriebsleiter
+SPSMAN	Der Ehegatte des Betriebsinhabers ist Betriebsleiter
+FAMMAN	Der Betriebsleiter ist nicht Betriebsinhaber aber Mitglied der Familie des Betriebsinhabers
+NONFAMMAN	Der Betriebsleiter ist nicht Mitglied der Familie des Betriebsinhabers
+LEGENT	Betrieb mit juristischen Personen
+GRPHLD	Gruppenbetrieb

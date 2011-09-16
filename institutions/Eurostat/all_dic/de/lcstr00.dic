@@ -1,0 +1,29 @@
+D1	Arbeitnehmerentgelt
+D11	Bruttolöhne und Gehälter (insgesamt)
+D111	Bruttolöhne und Gehälter (ohne Auszubildende)
+D1111	Direktvergütung und Prämien
+D11111	Direktvergütung
+D11112	Prämien
+D111121	Prämien mit bestimmter Periodizität (unverbindlich)
+D1112	Vermögenswirksame Leistungen
+D1113	Vergütung für nichtgearbeitete Tage
+D1114	Bruttolöhne und -gehälter in Form von Sachleistungen
+D11141	Produkte des Unternehmens (unverbindlich)
+D11142	Personalunterkunft (unverbindlich)
+D11143	Firmenwagen (unverbindlich)
+D11144	Sonstiges (unverbindlich)
+D112	Bruttolöhne und -gehälter von Auszubildenden
+D12	Sozialbeiträge der Arbeitgeber (insgesamt)
+D121	Tatsächliche Sozialbeiträge der Arbeitgeber (ohne Auszubildende)
+D1211	Gesetzliche Arbeitgeberbeiträge zur Sozialversicherung
+D1212	Tarifliche, vertragliche oder freiwillige Arbeitgeberaufwendungen für die Sozialversicherung
+D122	Unterstellte Sozialbeiträge der Arbeitgeber (ohne Auszubildende)
+D1221	Garantierte Lohn- und Gehaltsfortzahlung im Krankheitsfall
+D1222	Garantierte Lohn- und Gehaltsfortzahlung bei Kurzarbeit
+D1223	Zahlungen an entlassene Arbeitnehmer
+D1224	Unterstellte Sozialaufwendungen der Arbeitgeber
+D123	Sozialbeiträge der Arbeitgeber für Auszubildende
+D2	Kostende Berufsausbildung (ohne Kosten für Auszubildende)
+D3	Sonstige Aufwendungen
+D4	Steuern
+D5	Zuschüsse

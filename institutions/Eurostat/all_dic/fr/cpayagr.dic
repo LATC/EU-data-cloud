@@ -1,0 +1,9 @@
+TOTAL	Total
+NAT	Accord au niveau national ou interprofessionnel
+IND	Accord au niveau d'une branche
+IND1	Accord sur des branches particulières dans une région donnée
+ENT	Accord au niveau d'une entreprise ou d'un seul employeur
+UNIT	Accord au niveau des travailleurs de cette unité locale
+OTH	Tout autre type d'accord
+NONE	Aucun accord collectif
+UNK	Inconnu

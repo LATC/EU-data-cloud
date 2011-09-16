@@ -1,0 +1,811 @@
+ENT_POP	Erhebungsgesamtheit
+ENT_SAMP	Bezogene Stichprobe
+INN_ACT	Innovative Unternehmen
+INNO_ENT	Innovative Unternehmen - insgesamt
+ENT_POPU	Zahl der Unternehmen in jeweiliger Schicht (bezogene Stichprobe)
+ENT_POPU2	Zahl der Unternehmen in jeweiliger Schicht (bezogene Stichprobe) nicht überrundet
+PROC_INN	Prozessinnovatoren
+PROD_INN	Produktinnovatoren
+INPDGD	Produktinnovatoren von Waren
+INUN	Unternehmen mit gescheiterten oder noch nicht abgeschlossenen Projekten
+NEWMAR	Innovatoren mit Produkten, die Marktneuheiten darstellen
+EX_HIGH1	Innovative Unternehmen mit großem Ausfuhranteil
+EX_HIGH2	Unternehmen mit großem Ausfuhranteil
+EX_LOW1	Innovative Unternehmen mit geringem Ausfuhranteil
+EX_LOW2	Unternehmen mit geringem Ausfuhranteil
+EX_MED1	Innovative Unternehmen mit mittelgroßem Ausfuhranteil
+EX_MED2	Unternehmen mit mittelgroßem Ausfuhranteil
+EX_NULL1	Innovative Unternehmen ohne Ausfuhren
+EX_NULL2	Unternehmen ohne Ausfuhren
+GP_YES	Unternehmen, die zu einer Unternehmensgruppe gehören
+GP_NO	Unternehmen die nicht zu einer Unternehmensgruppe gehören
+GP_MISS	Keine Angabe zu diesem Merkmal
+HOEU_YES	Unternehmen mit Hauptverwaltung in der EU
+HOUS_YES	Unternehmen mit Hauptverwaltung in den USA
+HOJP_YES	Unternehmen mit Hauptverwaltung in Japan
+HOCC_YES	Unternehmen mit Hauptverwaltung in den Kandidatenländern
+HOEFTA_YES	Unternehmen mit Hauptverwaltung in der EFTA
+HOOT_YES	Unternehmen, die zu einer Unternehmensgruppe gehören, und ihre Hauptverwaltung im Ausland haben
+EST_YES	Zahl der von 1998-2000 gegründeten Unternehmen
+EST_NO	Zahl der nicht von 1998-2000 gegründeten Unternehmen
+EST_MISS	Keine Angabe zu diesem Merkmal
+TURNINC_YES	Zahl der Unternehmen mit einem Umsatzwachstum von mindestens 10 %
+TURNINC_NO	Zahl der Unternehmen mit einem Umsatzwachstum unter 10 %
+TURNINC_MISS	Keine Angabe zu diesem Merkmal
+TURNDEC_YES	Zahl der Unternehmen mit einem Umsatzrückgang von mindestens 10 %
+TURNDEC_NO	Zahl der Unternehmen mit einem Umsatzrückgang unter 10 %
+TURNDEC_MISS	Keine Angabe zu diesem Merkmal
+SIGMAR_NAT	Zahl der Unternehmen für die der Inlandsmarkt der wichtigste ist
+SIGMAR_LN	Zahl der Unternehmen, für die der örtliche/benachbarte Markt der wichtigste ist
+SIGMAR_LOC	Zahl der Unternehmen, für die der örtliche Markt der wichtigste ist
+SIGMAR_INT	Zahl der Unternehmen für die der Weltmarkt der wichtigste ist
+SIGMAR_MISS	Keine Angabe zu diesem Merkmal
+TURN98	Gesamtumsatz 1998
+TURN	Gesamtumsatz 2000
+EXP98	Gesamtausfuhren 1998
+EXP	Gesamtausfuhren 2000
+TURN02	Gesamtumsatz 2002
+EMP02	Gesamtzahl der Beschäftigten 2002
+ENT_POPU04	Gesamtzahl der Unternehmen in der Grundgesamtheit im Jahre 2004
+TURN04	Gesamtumsatz 2004
+EMP04	Gesamtzahl der Beschäftigten 2004
+INVTA	Bruttoinvestition in Sachvermögen 2000 insgesamt
+EMP98	Zahl der Beschäftigten 1998
+EMP	Zahl der Beschäftigten 2000
+EMPHI	Zahl der Beschäftigten mit höherem Bildungsabschluss 2000
+INPDT_YES	Produktinnovator, der neue oder erheblich verbesserte Produkte auf den Markt gebracht hat
+INPDT_NO	Kein Produktinnovator, d. h. hat keine neuen oder erheblich verbesserten Produkte auf den Markt gebracht
+INPDT_MISS	Keine Angabe zu diesem Merkmal
+MAR_LREG	Verkaufsgebiet ist der örtliche/regionale Markt
+MAR_NAT	Verkaufsgebiet ist der Inlandsmarkt
+MAR_EU	Verkaufsgebiet sind andere EU-, EFTA- und/oder EU-Kandidatenländer
+MAR_OTH	Vertriebsgebiet ist jedes beliebige Land
+INPDTW_ENT	Produktentwicklung hauptsächlich durch das Unternehmen oder die Unternehmensgruppe
+INPDTW_COP	Produktentwicklung durch das Unternehmen zusammen mit anderen Unternehmen oder Einrichtungen
+INPDTW_OTH	Produktentwicklung hauptsächlich durch andere Unternehmen oder Einrichtungen
+INPDTW_MISS	Keine Angabe zu dem Merkmal “Wer hat diese Produkte hauptsächlich entwickelt“
+INTURN	Umsatz mit neuen, erheblich verbesserten Produkten, die jedoch keine Marktneuheiten darstellen
+INTURN_MISS	Keine Angabe zu diesem Merkmal
+UNGTURN	Umsatz mit nicht oder nur geringfügig geänderten Produkten, die keine Marktneuheiten darstellen
+UNGTURN_MISS	Keine Angabe zu diesem Merkmal
+MARTURN	Umsatz mit neuen oder erheblich verbesserten Produkten, die Marktneuheiten darstellen
+MARTURN_MISS	Keine Angabe zu diesem Merkmal
+INMAR_YES	Unternehmen hat neue oder verbesserte Produkte auf den Markt gebracht
+INMAR_NO	Unternehmen hat keine neuen oder verbesserten Produkte auf den Markt gebracht
+INMAR_MISS	Keine Angabe zu diesem Merkmal
+INPCS_YES	Prozessinnovator, der ein neues oder erheblich verbessertes Verfahren auf den Markt gebracht hat
+INPCS_NO	Kein Prozessinnovator, der kein neues oder erheblich verbessertes Verfahren auf den Markt gebracht hat
+INPCS_MISS	Keine Angabe zu diesem Merkmal
+INPCSW_ENT	Verfahren wurde hauptsächlich vom Unternehmen oder der Unternehmensgruppe entwickelt
+INPCSW_COP	Verfahren wurde vom Unternehmen zusammen mit anderen Unternehmen oder Einrichtungen entwickelt
+INPCSW_OTH	Verfahren wurde hauptsächlich von anderen Unternehmen oder Einrichtungen entwickelt
+UNGETURN	Umsatz mit unveränderten oder nur geringfügig veränderten Produkten
+NEWFRM_YES	Unternehmen mit neuen oder erheblich verbesserten Produkten, die nur für die Unternehmen neu sind
+NEWFRM_TURN	Umsatz mit neuen oder erheblich verbesserten Produkten, die nur für das Unternehmen neu sind
+NEWMAR_YES	Unternehmen mit neuen oder wesentlich verbesserten Produkten, die Marktneuheiten darstellen
+NEWMAR_TURN	Unternehmen mit neuen oder erheblich verbesserten Produkten, die Marktneuheiten darstellen
+INPCSW_MISS	Keine Angabe zu dem Merkmal, wer diese Produkte hauptsächlich entwickelt hat
+INON_YES	Unternehmen mit laufenden Innovationstätigkeiten
+INON_NO	Unternehmen ohne laufende Innovationstätigkeiten
+INON_MISS	Keine Angabe zu diesem Merkmal
+INAB_YES	Unternehmen hat Innovationstätigkeiten eingestellt
+INAB_NO	Unternehmen, das keine Innovationstätigkeit eingestellt hat
+INAB_MISS	Keine Angabe zu diesem Merkmal
+REXP04	Gesamtausgaben für Innovationen
+REXP06	Gesamtausgaben für Innovationen
+RRDIN_YES	Unternehmen, die im eigenen Haus FuE betreiben
+RRDIN04	Ausgaben für FuE im eigenen Haus im Jahre 2004
+RRDIN_NO	Unternehmen, die im eigenen Haus keine FuE betreiben
+RRDIN_MISS	Keine Angabe zu diesem Merkmal
+RRDINX	Gesamtausgaben für FuE im eigenen Haus für 2000
+RRDEX_YES	Unternehmen, die außerhalb FuE betreiben
+RRDEX04	Ausgaben für außer Haus betriebene FuE 2004
+RRDEX_NO	FuE wird außer Haus nicht betrieben
+RRDEX_MISS	Keine Angabe zu diesem Merkmal
+RRDEXX	Gesamtausgaben für außerhalb betriebene FuE im Jahr 2000
+RMACES_YES	Unternehmen, die Maschinen, Ausrüstungen und Software erwerben
+RMACES04	Ausgaben für den Erwerb von Maschinen, Ausrüstungen und Software im Jahr 2004
+RMAC_YES	Erwerb von Maschinen
+RMAC_NO	Kein Erwerb von Maschinen
+RMAC_MISS	Keine Angabe zu diesem Merkmal
+RMACX	Gesamtausgaben für den Erwerb von Maschinen im Jahr 2000
+ROEK_YES	Unternehmen, die Wissen von außen erwerben
+ROEK04	Ausgaben für den Erwerb von sonstigem Wissen von außen
+ROEK_NO	Unternehmen, die kein Wissen von außen erwerben
+ROEK_MISS	Keine Angabe zu diesem Merkmal
+ROEKX	Gesamtausgaben für Erwerb von Wissen von außen im Jahr 2000
+RTR_YES	Unternehmen, die Ausbildung betreiben
+RTR_NO	Unternehmen, die keine Ausbildung betreiben
+RTR_MISS	Keine Angabe zu diesem Merkmal
+RMAR_YES	Unternehmen, die Innovationen auf den Markt bringen
+RMAR_NO	Unternehmen, die keine Innovationen auf den Markt bringen
+RMAR_MISS	Keine Angabe zu diesem Merkmal
+ROTHE_YES	Unternehmen, die andere Vorbereitungen betreiben
+REXP04_YES	Unternehmen, die Innovationstätigkeiten betreiben
+REXP06_YES	Unternehmen, die Innovationstätigkeiten betreiben
+RPRE_YES	Unternehmen, die Formgebung oder andere Vorbereitungen betreiben
+RPRE_NO	Unternehmen, die keine Formgebung oder andere Vorbereitungen betreiben
+RPRE_MISS	Keine Angabe zu diesem Merkmal
+ROTHX	Gesamtausgaben für Ausbildung, Markteinführung und andere Vorbereitungen im Jahr 2000
+RTOT	Innovationsausgaben insgesamt für 2000
+RDPER	Gesamtzahl der Personen, die 2000 an der FuE im eigenen Hause beteiligt waren
+RDENG_CONT	Unternehmen, die ständig im eigenen Haus FuE betreiben
+RDENG_OCC	Unternehmen, die gelegentlich im eigenen Haus FuE betreiben
+RDENG_MISS	Keine Angabe zu diesem Merkmal
+ERANGE	Ausweitung des Angebots an Waren und Dienstleistungen
+EMAR	Erschließung neuer Märkte oder Erhöhung des Marktanteils
+EQUA	Verbesserte Qualität von Waren oder Dienstleistungen
+EFLEX	Verbesserte Flexibilität bei der Produktion oder der Erbringung von Dienstleistungen
+ECAP	Vergrößerte Kapazität für Produktion oder Erbringung von Dienstleistungen
+ELBR	Verringerung der Stücklohnkosten
+EMAT	Verringerung des Material- und Energieansatzes je produzierter Einheit
+EENV	Verringerung der Umweltfolgen oder Verbesserung von Gesundheit und Sicherheit
+EREG	Einhaltung von Vorschriften 
+ERANGE_HIGH	Große Ausweitung des Angebots an Waren oder Dienstleistungen
+ERANGE_MED	Mittelgroße Zunahme des Angebots an Waren und Dienstleistungen
+ERANGE_LOW	Geringe Zunahme der Produktionskapazität
+ERANGE_NO	Keine Ausweitung des Angebots an Waren oder Dienstleistungen
+ERANGE_MISS	Keine Angabe zu diesem Merkmal
+EMAR_HIGH	Große Zunahme des Marktes oder des Marktanteils
+EMAR_MED	Mittelgroße Zunahme des Marktes oder Marktanteils
+EMAR_LOW	Geringe Zunahme des Marktes oder Marktanteils
+EMAR_NO	Keine Zunahme des Marktes oder Marktanteils
+EMAR_MISS	Keine Angabe zu diesem Merkmal
+EQUA_HIGH	Hohe und verbesserte Qualität von Waren und Dienstleistungen, in Prozent
+EQUA_MED	Mittlere und verbesserte Qualität von Waren und Dienstleistungen, in Prozent
+EQUA_LOW	Geringe und verbesserte Qualität von Waren und Dienstleistungen, in Prozent
+EQUA_NO	Keine Verbesserung der Qualität von Waren und Dienstleistungen, in Prozent
+EQUA_MISS	Keine Angabe zu diesem Merkmal
+EFLEX_HIGH	Große Verbesserung der Produktionsflexibilität
+EFLEX_MED	Mittelgroße Verbesserung der Produktionsflexibilität
+EFLEX_LOW	Geringe Verbesserung der Produktionsflexibilität
+EFLEX_NO	Keine Verbesserung der Produktionsflexibilität
+EFLEX_MISS	Keine Angabe zu diesem Merkmal
+ECAP_HIGH	Hohe Zunahme der Produktionskapazität
+ECAP_MED	Mittelgroße Zunahme der Produktionskapazität
+ECAP_LOW	Geringe Zunahme der Produktionskapazität
+ECAP_NO	Keine Zunahme der Produktionskapazität
+ECAP_MISS	Keine Angabe zu diesem Merkmal
+ELBR_HIGH	Starke Verringerung der Lohnstückkosten
+ELBR_MED	Mittelgroße Verringerung der Lohnstückkosten
+ELBR_LOW	Geringe Verringerung der Lohnstückkosten
+ELBR_NO	Keine Verringerung der Lohnstückkosten
+ELBR_MISS	Keine Angabe zu diesem Merkmal
+EMAT_HIGH	Große Verringerung des Material- und Energieansatzes je produzierter Einheit
+EMAT_MED	Mittelgroße Verringerung des Material- und Energieansatzes je produzierter Einheit
+EMAT_LOW	Geringe Verringerung des Material- und Energieansatzes je produzierter Einheit
+EMAT_NO	Keine Verringerung des Material- und Energieansatzes je produzierter Einheit
+EMAT_MISS	Keine Angabe zu diesem Merkmal
+EENV_HIGH	Deutliche Verbesserung der Umweltfolgen oder der Gesundheits- und Sicherheitsbelange
+EENV_MED	Mittlere Verbesserung der Umweltfolgen oder der Gesundheits- und Sicherheitsbelange
+EENV_LOW	Geringfügige Verbesserung der Umweltfolgen oder der Gesundheits- und Sicherheitsbelange
+EENV_NO	Keine Verbesserung der Umweltfolgen oder der Gesundheits- und Umweltbelange
+EENV_MISS	Keine Angabe zu diesem Merkmal
+ESTD_HIGH	Sehr gute Einhaltung von Vorschriften oder Normen
+ESTD_MED	Mittelgute Einhaltung von Vorschriften oder Normen
+ESTD_LOW	Schlechter Einhaltung von Vorschriften oder Normen
+ESTD_NO	Vorschriften und Normen werden nicht eingehalten
+ESTD_MISS	Keine Angabe zu diesem Merkmal
+FUNPUB	Unternehmen hat öffentliche Mittel erhalten
+FUNLOC	Mittel von örtlichen oder regionalen Stellen erhalten
+FUNGMT	Unternehmen hat Mittel vom Zentralstaat erhalten (einschließlich zentralstaatliche Regierungsstellen oder Ministerien)
+FUNEU	Unternehmen hat Mittel von der Europäischen Union erhalten
+FUNRTD56	Unternehmen hat Mittel aus dem 5. oder 6. Rahmenprogramm erhalten
+FUNPUB_YES	Unternehmen hat öffentliche Mittel erhalten
+FUNPUB_NO	Keine öffentliche Förderung
+FUNPUB_MISS	Keine Angabe zu diesem Merkmal
+FUNLOC_YES	Ja, Unternehmen hat Mittel von örtlichen oder regionalen Stellen erhalten
+FUNLOC_NO	Keine öffentliche Förderung durch örtliche oder regionale Stellen
+FUNLOC_MISS	Keine Angabe zu diesem Merkmal
+FUNGMT_NO	Keine öffentliche Förderung durch den Zentralstaat
+FUNGMT_YES	Unternehmen hat öffentliche Mittel vom Zentralstaat erhalten
+FUNGMT_MISS	Keine Angabe zu diesem Merkmal
+FUNEU_NO	Keine öffentlichen Mittel von der EU
+FUNEU_YES	Unternehmen hat öffentliche Mittel von der EU erhalten
+FUNEU_MISS	Keine Angabe zu diesem Merkmal
+FUNRTD_NO	Keine Förderung aus dem 4. oder 5. Programm für FuE der EU
+FUNRTD_YES	Unternehmen hat Mittel aus dem 4. oder 5. Programm für FuE der EU erhalten
+FUNRTD_MISS	Keine Angabe zu diesem Merkmal
+CO_ALL	Alle Arten von Zusammenarbeit
+C01	Andere Unternehmen innerhalb der eigenen Unternehmensgruppe
+C01_VAL	Beste Methode der Zusammenarbeit mit anderen Unternehmen in der eigenen Unternehmensgruppe 
+C05	Lieferanten von Ausrüstung, Rohstoffen, Bauteilen oder Software
+C05_VAL	Beste Zusammenarbeit mit Lieferanten von Ausrüstung, Rohstoffen, Bauteilen oder Software
+C03	Kunden
+C03_VAL	Beste Zusammenarbeit mit Kunden
+C02	Wettbewerber oder andere Unternehmen desselben Sektors
+C02_VAL	Beste Zusammenarbeit mit Wettbewerbern oder anderen Unternehmen desselben Sektors
+C08	Berater, gewerbliche Laboratorien oder private FuE-Einrichtungen
+C08_VAL	Beste Zusammenarbeit mit Beratern, gewerblichen Laboratorien oder privaten FuE-Einrichtungen
+C06	Universitäten oder andere Hochschulen
+C06_VAL	Beste Zusammenarbeit mit Universitäten oder anderen Hochschulen
+C07	Staatliche oder öffentliche Forschungseinrichtungen
+C07_VAL	Beste Zusammenarbeit mit staatlichen oder öffentlichen Forschungseinrichtungen
+CONAT_YES	Unternehmen betreibt gleich welche Art von Innovationszusammenarbeit im Inland
+COEUR_YES	Unternehmen betreibt gleich welche Art von Innovationszusammenarbeit im übrigen Europa
+COUSOT_YES	Unternehmen betreibt gleich welche Art von Innovationszusammenarbeit in den USA und anderen Ländern
+CO_YES	Formen der Zusammenarbeit bei Innovationstätigkeiten
+CO_NO	Keine Formen der Zusammenarbeit bei Innovationstätigkeiten
+CO_MISS	Keine Angabe zu diesem Merkmal
+CO2_YES	Formen der Zusammenarbeit bei Innovationstätigkeiten
+CO2_NO	Keine Formen der Zusammenarbeit bei Innovationstätigkeiten
+CO2_MISS	Keine Angabe zu diesem Merkmal
+CO11_YES	Zusammenarbeit innerhalb einer nationalen Unternehmensgruppe
+CO11_NO	Keine Zusammenarbeit innerhalb einer nationalen Unternehmensgruppe
+CO11_MISS	Keine Angabe zu diesem Merkmal
+CO12_YES	Zusammenarbeit innerhalb einer Unternehmensgruppe in der EU/EFTA
+CO12_NO	Keine Zusammenarbeit innerhalb einer Unternehmensgruppe in der EU/EFTA
+CO12_MISS	Keine Angabe zu diesem Merkmal
+CO13_YES	Zusammenarbeit innerhalb einer Unternehmensgruppe in der EU/den Kandidatenländern
+CO13_NO	Keine Zusammenarbeit innerhalb einer Unternehmensgruppe in der EU/den Kandidatenländern
+CO13_MISS	Keine Angabe zu diesem Merkmal
+CO14_YES	Zusammenarbeit innerhalb einer Unternehmensgruppe in den USA
+CO14_NO	Keine Zusammenarbeit innerhalb einer Unternehmensgruppe in den USA
+CO14_MISS	Keine Angabe zu diesem Merkmal
+CO15_YES	Zusammenarbeit innerhalb einer japanischen Unternehmensgruppe
+CO15_NO	Keine Zusammenarbeit innerhalb einer japanischen Unternehmensgruppe
+CO15_MISS	Keine Angabe zu diesem Merkmal
+CO16_YES	Zusammenarbeit innerhalb einer anderen Unternehmensgruppe
+CO16_NO	Keine Zusammenarbeit innerhalb einer japanischen Unternehmensgruppe
+CO16_MISS	Keine Angabe zu diesem Merkmal
+CO21_YES	Zusammenarbeit mit inländischen Anbietern von Ausrüstungen usw.
+CO21_NO	Keine Zusammenarbeit mit inländischen Anbietern von Ausrüstungen usw.
+CO21_MISS	Keine Angabe zu diesem Merkmal
+CO22_YES	Zusammenarbeit mit Anbietern von Ausrüstungen usw. aus der EU/EFTA
+CO22_NO	Keine Zusammenarbeit mit Anbietern von Ausrüstungen usw. aus der EU/EFTA
+CO22_MISS	Keine Angabe zu diesem Merkmal
+CO23_YES	Zusammenarbeit mit Anbietern von Ausrüstungen usw. aus der EU/den Kandidatenländern
+CO23_NO	Keine Zusammenarbeit mit Anbietern von Ausrüstungen usw. aus der EU/den Kandidatenländern
+CO23_MISS	Keine Angabe zu diesem Merkmal
+CO24_YES	Zusammenarbeit mit Anbietern von Ausrüstungen usw. aus den USA
+CO24_NO	Keine Zusammenarbeit mit Anbietern von Ausrüstungen usw. aus den USA
+CO24_MISS	Keine Angabe zu diesem Merkmal
+CO25_YES	Zusammenarbeit mit japanischen Anbietern von Ausrüstungen usw.
+CO25_NO	Keine Zusammenarbeit mit japanischen Anbietern von Ausrüstungen usw.
+CO25_MISS	Keine Angabe zu diesem Merkmal
+CO26_YES	Zusammenarbeit mit anderen Anbietern von Ausrüstungen usw.
+CO26_NO	Keine Zusammenarbeit mit anderen Anbietern von Ausrüstungen usw.
+CO26_MISS	Keine Angabe zu diesem Merkmal
+CO31_YES	Zusammenarbeit mit inländischen Kunden
+CO31_NO	Keine Zusammenarbeit mit inländischen Kunden
+CO31_MISS	Keine Angabe zu diesem Merkmal
+CO32_YES	Zusammenarbeit mit Kunden in der EU/EFTA
+CO32_NO	Keine Zusammenarbeit mit Kunden in der EU/EFTA
+CO32_MISS	Keine Angabe zu diesem Merkmal
+CO33_YES	Zusammenarbeit mit Kunden in der EU/den Kandidatenländern
+CO33_NO	Keine Zusammenarbeit mit Kunden in der EU/den Kandidatenländern
+CO33_MISS	Keine Angabe zu diesem Merkmal
+CO34_YES	Zusammenarbeit mit Kunden in den USA
+CO34_NO	Keine Zusammenarbeit mit Kunden in den USA
+CO34_MISS	Keine Angabe zu diesem Merkmal
+CO35_YES	Zusammenarbeit mit Kunden in Japan
+CO35_NO	Keine Zusammenarbeit mit Kunden in Japan
+CO35_MISS	Keine Angabe zu diesem Merkmal
+CO36_YES	Zusammenarbeit mit anderen Kunden
+CO36_NO	Keine Zusammenarbeit mit anderen Kunden
+CO36_MISS	Keine Angabe zu diesem Merkmal
+CO41_YES	Zusammenarbeit mit inländischen Wettbewerbern oder anderen Unternehmen
+CO41_NO	Keine Zusammenarbeit mit inländischen Wettbewerbern oder anderen Unternehmen
+CO41_MISS	Keine Angabe zu diesem Merkmal
+CO42_YES	Zusammenarbeit mit Wettbewerbern oder anderen Firmen in der EU/EFTA
+CO42_NO	Keine Zusammenarbeit mit Wettbewerbern oder anderen Firmen in der EU/EFTA
+CO42_MISS	Keine Angabe zu diesem Merkmal
+CO43_YES	Zusammenarbeit mit Wettbewerbern oder anderen Unternehmen in den EU-Kandidatenländern
+CO43_NO	Keine Zusammenarbeit mit Wettbewerbern oder anderen Unternehmen in den EU-Kandidatenländern
+CO43_MISS	Keine Angabe zu diesem Merkmal
+CO44_YES	Zusammenarbeit mit Wettbewerbern oder anderen Unternehmen in den USA
+CO44_NO	Keine Zusammenarbeit mit Wettbewerbern oder anderen Unternehmen in den USA
+CO44_MISS	Keine Angabe zu diesem Merkmal
+CO45_YES	Zusammenarbeit mit Wettbewerbern oder anderen Unternehmen in Japan
+CO45_NO	Keine Zusammenarbeit mit Wettbewerber oder anderen Unternehmen in Japan
+CO45_MISS	Keine Angabe zu diesem Merkmal
+CO46_YES	Zusammenarbeit mit anderen Wettbewerbern oder Unternehmen
+CO46_NO	Keine Zusammenarbeit mit anderen Wettbewerbern oder Unternehmen
+CO46_MISS	Keine Angabe zu diesem Merkmal
+CO51_YES	Zusammenarbeit mit inländischen Beratern
+CO51_NO	Keine Zusammenarbeit mit inländischen Beratern
+CO51_MISS	Keine Angabe zu diesem Merkmal
+CO52_YES	Zusammenarbeit mit Beratern in der EU/EFTA
+CO52_NO	Keine Zusammenarbeit mit Beratern in der EU/EFTA
+CO52_MISS	Keine Angabe zu diesem Merkmal
+CO53_YES	Zusammenarbeit mit Beratern in den EU-Kandidatenländern
+CO53_NO	Keine Zusammenarbeit mit Beratern in den EU-Kandidatenländern
+CO53_MISS	Keine Angabe zu diesem Merkmal
+CO54_YES	Zusammenarbeit mit Beratern in den USA
+CO54_NO	Keine Zusammenarbeit mit Beratern in den USA
+CO54_MISS	Keine Angabe zu diesem Merkmal
+CO55_YES	Zusammenarbeit mit Beratern in Japan
+CO55_NO	Keine Zusammenarbeit mit Beratern in Japan
+CO55_MISS	Keine Angabe zu diesem Merkmal
+CO56_YES	Zusammenarbeit mit anderen Beratern
+CO56_NO	Keine Zusammenarbeit mit anderen Beratern
+CO56_MISS	Keine Angabe zu diesem Merkmal
+CO61_YES	Zusammenarbeit mit gewerblichen Laboratorien/FuE-Unternehmen im Inland
+CO61_NO	Keine Zusammenarbeit mit gewerblichen Laboratorien/FuE-Unternehmen im Inland
+CO61_MISS	Keine Angabe zu diesem Merkmal
+CO62_YES	Zusammenarbeit mit gewerblichen Laboratorien/FuE-Unternehmen in der EU/EFTA
+CO62_NO	Keine Zusammenarbeit mit gewerblichen Laboratorien/FuE-Unternehmen in der EU/EFTA
+CO62_MISS	Keine Angabe zu diesem Merkmal
+CO63_YES	Zusammenarbeit mit gewerblichen Laboratorien/FuE-Unternehmen in den EU-Kandidatenländern
+CO63_NO	Keine Zusammenarbeit mit gewerblichen Laboratorien/FuE-Unternehmen in den EU-Kandidatenländern
+CO63_MISS	Keine Angabe zu diesem Merkmal
+CO64_YES	Zusammenarbeit mit gewerblichen Laboratorien/FuE-Unternehmen in den USA
+CO64_NO	Keine Zusammenarbeit mit gewerblichen Laboratorien/FuE-Unternehmen in den USA
+CO64_MISS	Keine Angabe zu diesem Merkmal
+CO65_YES	Zusammenarbeit mit gewerblichen Laboratorien/Forschungsunternehmen in Japan
+CO65_NO	Zusammenarbeit mit gewerblichen Laboratorien/Forschungsunternehmen in Japan
+CO65_MISS	Keine Angabe zu diesem Merkmal
+CO66_YES	Zusammenarbeit mit gewerblichen Laboratorien/Forschungsunternehmen in anderen Ländern
+CO66_NO	Keine Zusammenarbeit mit gewerblichen Laboratorien/FuE-Unternehmen in Japan
+CO66_MISS	Keine Angabe zu diesem Merkmal
+CO71_YES	Zusammenarbeit mit Universitäten oder anderen Hochschulen im Inland
+CO71_NO	Keine Zusammenarbeit mit Universitäten oder anderen Hochschulen im Inland
+CO71_MISS	Keine Angabe zu diesem Merkmal
+CO72_YES	Zusammenarbeit mit Universitäten oder anderen Hochschulen in der EU/EFTA
+CO72_NO	Keine Zusammenarbeit mit Universitäten oder anderen Hochschulen in der EU/EFTA
+CO72_MISS	Keine Angabe zu diesem Merkmal
+CO73_YES	Zusammenarbeit mit Universitäten oder anderen Hochschulen in den EU-Kandidatenländern
+CO73_NO	Keine Zusammenarbeit mit Universitäten oder anderen Hochschulen in den EU-Kandidatenländern
+CO73_MISS	Keine Angabe zu diesem Merkmal
+CO74_YES	Zusammenarbeit mit Universitäten oder anderen Hochschulen in den USA
+CO74_NO	Keine Zusammenarbeit mit Universitäten oder anderen Hochschulen in den USA
+CO74_MISS	Keine Angabe zu diesem Merkmal
+CO75_YES	Zusammenarbeit mit Universitäten oder anderen Hochschulen in Japan
+CO75_NO	Keine Zusammenarbeit mit Universitäten oder anderen Hochschulen in Japan
+CO75_MISS	Keine Angabe zu diesem Merkmal
+CO76_YES	Zusammenarbeit mit Universitäten oder anderen Hochschulen in anderen Ländern
+CO76_NO	Keine Zusammenarbeit mit Universitäten oder anderen Hochschulen in anderen Ländern
+CO76_MISS	Keine Angabe zu diesem Merkmal
+CO81_YES	Zusammenarbeit mit staatlichen oder privaten, gemeinnützigen Forschungseinrichtungen im Inland
+CO81_NO	Keine Zusammenarbeit mit staatlichen oder privaten, gemeinnützigen Forschungseinrichtungen im Inland
+CO81_MISS	Keine Angabe zu diesem Merkmal
+CO82_YES	Zusammenarbeit mit staatlichen oder Privaten, gemeinnützigen Forschungseinrichtungen in der EU/EFTA
+CO82_NO	Keine Zusammenarbeit mit staatlichen oder privaten, gemeinnützigen Forschungseinrichtungen in der EU/EFTA
+CO82_MISS	Keine Angabe zu diesem Merkmal
+CO83_YES	Zusammenarbeit mit staatlichen oder privaten, gemeinnützigen Forschungseinrichtungen in den EU-Kandidatenländern
+CO83_NO	Keine Zusammenarbeit mit staatlichen oder privaten, gemeinnützigen Forschungseinrichtungen in den EU-Kandidatenländern
+CO83_MISS	Keine Angabe zu diesem Merkmal
+CO84_YES	Zusammenarbeit mit staatlichen oder privaten, gemeinnützigen Forschungseinrichtungen in den USA
+CO84_NO	Keine Zusammenarbeit mit staatlichen oder privaten, gemeinnützigen Forschungseinrichtungen in den USA
+CO84_MISS	Keine Angabe zu diesem Merkmal
+CO85_YES	Zusammenarbeit mit staatlichen oder privaten, gemeinnützigen Forschungseinrichtungen in Japan
+CO85_NO	Keine Zusammenarbeit mit staatlichen oder privaten, gemeinnützigen Forschungseinrichtungen in Japan
+CO85_MISS	Keine Angabe zu diesem Merkmal
+CO86_YES	Zusammenarbeit mit staatlichen oder privaten, gemeinnützigen Forschungseinrichtungen in anderen Ländern
+CO86_NO	Keine Zusammenarbeit mit staatlichen oder privaten, gemeinnützigen Forschungseinrichtungen in anderen Ländern
+CO86_MISS	Keine Angabe zu diesem Merkmal
+COEUE_YES	Unternehmen betreibt gleich welche Art von Innovationszusammenarbeit innerhalb der EU und EFTA
+COEUC_YES	Unternehmen betreibt gleich welche Art von Innovationszusammenarbeit innerhalb der EU und den Kandidatenländern
+COUS_YES	Unternehmen betreibt gleich welche Art von Innovationszusammenarbeit mit den USA
+COJP_YES	Unternehmen betreibt gleich welche Art von Innovationszusammenarbeit mit Japan
+COOT_YES	Unternehmen betreibt gleich welche Art von Innovationszusammenarbeit mit anderen Partnerländern
+CONAT_NO	Unternehmen betreibt keine Art von Innovationszusammenarbeit im Inland
+COEUE_NO	Unternehmen betreibt keine Art von Innovationszusammenarbeit innerhalb der EU und EFTA
+COEUC_NO	Unternehmen betreibt keine Art von Innovationszusammenarbeit innerhalb der EU und den Kandidatenländern
+COUS_NO	Unternehmen betreibt keine Art von Innovationszusammenarbeit mit den USA
+COJP_NO	Unternehmen betreibt keine Art von Innovationszusammenarbeit mit Japan
+COOT_NO	Unternehmen betreibt keine Art von Innovationszusammenarbeit mit anderen Partnerländern
+CONAT_MISS	Keine Angabe zu gleich welcher Art von Innovationszusammenarbeit im Inland
+COEUE_MISS	Keine Angabe zu gleich welcher Art von Innovationszusammenarbeit innerhalb der EU und EFTA
+COEUC_MISS	Keine Angabe zu gleich welcher Art von Innovationszusammenarbeit innerhalb der EU und den Kandidatenländern
+COUS_MISS	Keine Angabe zu gleich welcher Art von Innovationszusammenarbeit mit den USA
+COJP_MISS	Keine Angabe zu gleich welcher Art von Innovationszusammenarbeit mit Japan
+COOT_MISS	Keine Angabe zu gleich welcher Art von Innovationszusammenarbeit mit anderen Partnerländern
+SENTG	Innerhalb des Unternehmens oder der Unternehmensgruppe
+SSUP	Lieferanten von Ausrüstung, Rohstoffen, Bauteilen oder Software
+SCLI	Kunden
+SCOM	Wettbewerber oder andere Unternehmen desselben Sektors
+SINS	Berater, gewerbliche Laboratorien oder private FuE-Einrichtungen
+SUNI	Universitäten oder andere Hochschulen
+SGMT	Staatliche oder öffentliche Forschungseinrichtungen
+SCON	Kongresse, Messen, Ausstellungen
+SJOU	Wissenschaftliche und Fachzeitschriften sowie technische Veröffentlichungen
+SPROF	Fach- und Branchenverbände
+SCON_IMP	Beratungsunternehmen
+SCON_NO	Beratungsunternehmen
+SENT_IMP	Quellen innerhalb des Unternehmens
+SENT_LOW	Geringe Nutzung von Quellen innerhalb des Unternehmens
+SENT_MED	Mittelintensive Nutzung von Quellen innerhalb des Unternehmens
+SENT_HIGH	Intensive Nutzung von Quellen innerhalb des Unternehmens
+SENT_NO	Keine Nutzung von Informationsquellen innerhalb des Unternehmens
+SENT_MISS	Keine Angabe zu diesem Merkmal
+SGRP_IMP	Andere Unternehmen innerhalb der Unternehmensgruppe
+SGRP_LOW	Geringe Nutzung von Innovationsquellen anderer Unternehmen der Unternehmensgruppe
+SGRP_MED	Mittelintensive Nutzung von Innovationsquellen anderer Unternehmen der Unternehmensgruppe
+SGRP_HIGH	Intensive Nutzung von Innovationsquellen anderer Unternehmen der Unternehmensgruppe
+SGRP_NO	Keine Nutzung von Innovationsquellen anderer Unternehmen der Unternehmensgruppe
+SGRP_MISS	Keine Angabe zu diesem Merkmal
+SSUP_IMP	Lieferanten von Ausrüstung, Rohstoffen, Bauteilen oder Software
+SSUP_LOW	Geringe Nutzung von Innovationsquellen der Lieferanten von Ausrüstung, Rohstoffen, Bauteilen oder Software
+SSUP_MED	Mittelintensive Nutzung von Innovationsquellen der Lieferanten von Ausrüstung, Rohstoffen, Bauteilen usw.
+SSUP_HIGH	Intensive Nutzung von Innovationsquellen der Lieferanten von Ausrüstung, Rohstoffen, Bauteilen usw.
+SSUP_NO	Keine Nutzung von Innovationsquellen der Lieferanten von Ausrüstung, Rohstoffen, Bauteilen usw.
+SSUP_MISS	Keine Angabe zu diesem Merkmal
+SCLI_IMP	Kundschaft
+SCLI_LOW	Geringe Nutzung von Innovationsquellen der Kundschaft
+SCLI_MED	Mittelintensive Nutzung von Innovationsquellen der Kundschaft
+SCLI_HIGH	Intensive Nutzung von Innovationsquellen der Kundschaft
+SCLI_NO	Keine Nutzung von Innovationsquellen der Kundschaft
+SCLI_MISS	Keine Angabe zu diesem Merkmal
+SCOM_IMP	Wettbewerber
+SCOM_LOW	Geringe Nutzung von Innovationsquellen der Wettbewerber oder anderer Unternehmen desselben Wirtschaftszweigs
+SCOM_MED	Mittelintensive Nutzung von Innovationsquellen der Wettbewerber oder anderer Unternehmen desselben Wirtschaftszweigs
+SCOM_HIGH	Intensive Nutzung von Innovationsquellen der Wettbewerber oder anderer Unternehmen desselben Wirtschaftszweigs
+SCOM_NO	Keine Nutzung von Innovationsquellen der Wettbewerber oder anderer Unternehmen desselben Wirtschaftszweigs
+SCOM_MISS	Keine Angabe zu diesem Merkmal
+SUNI_IMP	Universitäten oder andere Hochschulen
+SUNI_LOW	Geringe Nutzung von Innovationsquellen der Universitäten oder anderer Hochschulen
+SUNI_MED	Mittelintensive Nutzung von Innovationsquellen der Universitäten oder anderer Hochschulen
+SUNI_HIGH	Intensive Nutzung von Innovationsquellen der Universitäten oder anderer Hochschulen
+SUNI_NO	Keine Nutzung von Innovationsquellen der Universitäten oder anderer Hochschulen
+SUNI_MISS	Keine Angabe zu diesem Merkmal
+SGMT_IMP	Staatliche oder private, gemeinnützige Forschungseinrichtungen
+SGMT_LOW	Geringe Nutzung von Innovationsquellen staatlicher oder privater, gemeinnütziger Forschungseinrichtungen
+SGMT_MED	Mittelintensive Nutzung von Innovationsquellen staatlicher oder privater, gemeinnütziger Forschungseinrichtungen
+SGMT_HIGH	Intensive Nutzung von Innovationsquellen staatlicher oder privater, gemeinnütziger Forschungseinrichtungen
+SGMT_NO	Keine Nutzung von Innovationsquellen staatlicher oder privater, gemeinnütziger Forschungseinrichtungen
+SGMT_MISS	Keine Angabe zu diesem Merkmal
+SPRO_IMP	Fachkonferenzen, -kongresse, -zeitschriften 
+SPRO_LOW	Geringe Nutzung von Innovationsquellen bei Fachkonferenzen und -kongressen sowie in Fachzeitschriften
+SPRO_MED	Mittelintensive Nutzung von Innovationsquellen bei Fachkonferenzen und -kongressen sowie in Fachzeitschriften
+SPRO_HIGH	Intensive Nutzung von Innovationsquellen bei Fachkonferenzen und -kongressen sowie in Fachzeitschriften
+SPRO_NO	Keine Nutzung von Innovationsquellen bei Fachkonferenzen und -kongressen sowie in Fachzeitschriften
+SPRO_MISS	Keine Angabe zu diesem Merkmal
+SNET_IMP	Rechnergestützte Informationsnetze
+SNET_NO	Rechnergestützte Informationsnetze
+SPAT_IMP	Offenlegung von Patenten
+SPAT_NO	Offenlegung von Patenten
+SEXB_IMP	Messen und Austeilungen
+SEXB_LOW	Geringe Nutzung von Innovationsquellen bei Messen und Ausstellungen
+SEXB_MED	Mittelintensive Nutzung von Innovationsquellen bei Messen und Ausstellungen
+SEXB_HIGH	Intensive Nutzung von Innovationsquellen bei Messen und Ausstellungen
+SEXB_NO	Keine Nutzung von Innovationsquellen bei Messen und Ausstellungen
+SEXB_MISS	Keine Angabe zu diesem Merkmal
+HDLAY_NO	Unternehmen, dessen Innovationstätigkeit sich nicht wesentlich verzögert hat
+HCON_YES	Unternehmen, dessen Innovationstätigkeit auf der Planungsstufe aufgegeben wurde
+HBEG_YES	Unternehmen, dessen Innovationstätigkeit nach Ende der Planungsstufe aufgegeben wurde
+HDLAY_YES	Unternehmen, dessen Innovationstätigkeit sich wesentlich verzögert hat
+HFFUND_HIGH	Geldmangel im Unternehmen oder der Unternehmensgruppe behindert die Innovationstätigkeit wesentlich 
+HFENT_HIGH	Mangel an Fremdfinanzierungsmitteln behindert die Innovationstätigkeit wesentlich
+HFOUT_HIGH	Zu hohe Innovationskosten behindern die Innovationstätigkeit wesentlich
+HFPER_HIGH	Mangel an qualifizierten Mitarbeitern behindert die Innovationstätigkeit wesentlich
+HFIT_HIGH	Mangel an Informationstechnik behindert die Innovationstätigkeit wesentlich
+HFINFO_HIGH	Mangel an Informationen über Märkte behindert die Innovationstätigkeit wesentlich
+HFPAR_HIGH	Schwierigkeiten, Partner für Innovationszusammenarbeit zu finden, behindern die Innovationstätigkeit wesentlich
+HFDOM_HIGH	Marktbeherrschung durch gefestigte Unternehmen behindert die Innovationstätigkeit wesentlich
+HFDEM_HIGH	Unsicherheit über Nachfrage nach innovativen Waren und Dienstleistungen behindert die Innovationstätigkeit wesentlich
+PRIOR_YES	Dass wegen früherer Innovationen solche nicht nötig sind, behindert die Innovationstätigkeit wesentlich 
+NODEM_YES	Dass wegen fehlender Nachfrage nach Innovationen solche nicht nötig sind, behindert die Innovationstätigkeit wesentlich
+HDLAY_MISS	Keine Angabe zu diesem Merkmal
+HSTAR_NO	Unternehmen, bei dem der Beginn der Innovationstätigkeit nicht verhindert wurde
+HSTAR_YES	Unternehmen, bei dem der Beginn der Innovationstätigkeit verhindert wurde
+HSTAR_MISS	Keine Angabe zu diesem Merkmal
+HBUR_NO	Unternehmen, dessen Innovationstätigkeit nicht erschwert/behindert wird
+HBUR_YES	Unternehmen, dessen Innovationstätigkeit erschwert/behindert wird
+HBUR_MISS	Keine Angabe zu diesem Merkmal
+HPRIOR_NO	Innovationstätigkeit unterbleibt ohne Grund
+HPRIOR_YES	Keine Innovationstätigkeit: Zusammenfassung
+HPRIOR_MISS	Keine Angabe zu diesem Merkmal
+HMAR_NO	Innovationstätigkeit ist nicht nötig – jedoch nicht wegen bereits erfolgter Innovationen
+HMAR_YES	Innovationstätigkeit ist nicht nötig wegen bereits erfolgter Innovationen
+HMAR_MISS	Keine Angabe zu diesem Merkmal
+HIMP_NO	Innovationstätigkeit unterbleibt nicht wegen der Situation auf dem Markt
+HIMP_YES	Innovationstätigkeit unterbleibt wegen der Situation auf dem Markt
+HIMP_MISS	Keine Angabe zu diesem Merkmal
+HECO_LOW	Innovationstätigkeit unterbleibt aus Hinderungsgründen; Hinderungsgrund wirtschaftliche Risiken ist geringfügig
+HECO_MED	Innovationstätigkeit unterbleibt aus Hinderungsgründen; Hinderungsgrund wirtschaftliche Risiken ist mittelwichtig
+HECO_HIGH	Innovationstätigkeit unterbleibt aus Hinderungsgründen; Hinderungsgrund wirtschaftliche Risiken ist wichtig
+HECO_NO	Innovationstätigkeit unterbleibt nicht aus dem Hinderungsgrund wirtschaftliche Risiken
+HECO_MISS	Keine Angabe zu diesem Merkmal
+HCOS_LOW	Innovationstätigkeit unterbleibt aus Hinderungsgründen; Hinderungsgrund wirtschaftliche Innovationskosten ist geringfügig
+HCOS_MED	Innovationstätigkeit unterbleibt aus Hinderungsgründen; Hinderungsgrund Innovationskosten ist mittelwichtig
+HCOS_HIGH	Innovationstätigkeit unterbleibt aus Hinderungsgründen; Hinderungsgrund Innovationskosten ist wichtig
+HCOS_NO	Innovationstätigkeit unterbleibt nicht aus Hinderungsgrund Innovationskosten
+HCOS_MISS	Keine Angabe zu diesem Merkmal
+HFIN_LOW	Innovationstätigkeit unterbleibt aus Hinderungsgründen; Hinderungsgrund Finanzierung ist geringfügig
+HFIN_MED	Innovationstätigkeit unterbleibt aus Hinderungsgründen; Hinderungsgrund Finanzierung ist mittelwichtig
+HFIN_HIGH	Innovationstätigkeit unterbleibt aus Hinderungsgründen; Hinderungsgrund Finanzierung ist wichtig
+HFIN_NO	Innovationstätigkeit unterbleibt nicht aus Hinderungsgrund Finanzierung
+HFIN_MISS	Keine Angabe zu diesem Merkmal
+HORG_LOW	Innovationstätigkeit unterbleibt aus Hinderungsgründen; Hinderungsgrund mangelnde organisatorische Flexibilität ist geringfügig
+HORG_MED	Innovationstätigkeit unterbleibt aus Hinderungsgründen; Hinderungsgrund mangelnde organisatorische Flexibilität ist mittelwichtig
+HORG_HIGH	Innovationstätigkeit unterbleibt aus Hinderungsgründen; Hinderungsgrund mangelnde organisatorische Flexibilität ist wichtig
+HORG_NO	Innovationstätigkeit unterbleibt nicht aus Hinderungsgrund mangelnde organisatorische Flexibilität
+HORG_MISS	Keine Angabe zu diesem Merkmal
+HPER_LOW	Innovationstätigkeit unterbleibt aus Hinderungsgründen; Hinderungsgrund qualifiziertes Personal ist geringfügig
+HPER_MED	Innovationstätigkeit unterbleibt aus Hinderungsgründen; Hinderungsgrund qualifiziertes Personal ist mittelwichtig
+HPER_HIGH	Innovationstätigkeit unterbleibt aus Hinderungsgründen; Hinderungsgrund qualifiziertes Personal ist wichtig
+HPER_NO	Innovationstätigkeit unterbleibt nicht aus dem Hinderungsgrund qualifiziertes Personal
+HPER_MISS	Keine Angabe zu diesem Merkmal
+HTEC_LOW	Innovationstätigkeit unterbleibt aus Hinderungsgründen; Hinderungsgrund technische Informationen ist geringfügig
+HTEC_MED	Innovationstätigkeit unterbleibt aus Hinderungsgründen; Hinderungsgrund technische Informationen ist mittelwichtig
+HTEC_HIGH	Innovationstätigkeit unterbleibt aus Hinderungsgründen; Hinderungsgrund technische Informationen ist wichtig
+HTEC_NO	Innovationstätigkeit unterbleibt nicht aus dem Hinderungsgrund technische Informationen
+HTEC_MISS	Keine Angabe zu diesem Merkmal
+HINF_LOW	Innovationstätigkeit unterbleibt aus Hinderungsgründen; Hinderungsgrund Informationen über Märkte ist geringfügig
+HINF_MED	Innovationstätigkeit unterbleibt aus Hinderungsgründen; Hinderungsgrund Informationen über Märkte ist mittelwichtig
+HINF_HIGH	Innovationstätigkeit unterbleibt aus Hinderungsgründen; Hinderungsgrund Informationen über Märkte ist wichtig
+HINF_NO	Innovationstätigkeit unterbleibt nicht aus dem Hinderungsgrund Informationen über Märkte
+HINF_MISS	Keine Angabe zu diesem Merkmal
+HFLEX_LOW	Innovationstätigkeit unterbleibt aus Hinderungsgründen; Hinderungsgrund Vorschriften und Normen ist geringfügig
+HFLEX_MED	Innovationstätigkeit unterbleibt aus Hinderungsgründen; Hinderungsgrund Vorschriften und Normen ist mittelwichtig
+HFLEX_HIGH	Innovationstätigkeit unterbleibt aus Hinderungsgründen; Hinderungsgrund Vorschriften und Normen ist wichtig
+HFLEX_NO	Innovationstätigkeit unterbleibt nicht aus dem Hinderungsgrund Vorschriften und Normen
+HFLEX_MISS	Keine Angabe zu diesem Merkmal
+HCUS_LOW	Innovationstätigkeit unterbleibt aus Hinderungsgründen; Hinderungsgrund Kundenorientierung ist geringfügig
+HCUS_MED	Innovationstätigkeit unterbleibt aus Hinderungsgründen; Hinderungsgrund Kundenorientierung ist mittelwichtig
+HCUS_HIGH	Innovationstätigkeit unterbleibt aus Hinderungsgründen; Hinderungsgrund Kundenorientierung ist wichtig
+HCUS_NO	Innovationstätigkeit unterbleibt nicht aus Hinderungsgrund Kundenorientierung
+HCUS_MISS	Keine Angabe zu diesem Merkmal
+PROPAT	Patent wurde angemeldet
+PRODSG	Warenzeichen wurde beantragt
+PROTM	Gewerbliches Muster wurde eingetragen
+PROCP	Urheberrechtsschutz wurde beansprucht
+PAAP_NO	Unternehmen hat zum Schutz von Erfindungen noch kein einziges Patent angemeldet
+PAAP_YES	Unternehmen hat zum Schutz von Erfindungen  wenigstens ein Patent angemeldet
+PAAP_MISS	Keine Angabe zu diesem Merkmal
+PAVAL_NO	Ende 2000 keine geltenden Patente
+PAVAL_YES	Zahl der Ende 2000 geltenden Patente
+PAVAL_MISS	Keine Angabe zu diesem Merkmal
+PROREG_NO	Kein Schutz durch Eintragung von Mustern
+PROREG_YES	Kein Schutz durch Eintragung von Mustern
+PROREG_MISS	Keine Angabe zu diesem Merkmal
+PROTM_NO	Kein Schutz durch Warenzeichen
+PROTM_YES	Schutz durch Warenzeichen
+PROTM_MISS	Keine Angabe zu diesem Merkmal
+PROCP_NO	Kein Urheberrechtsschutz
+PROCP_YES	Urheberrechtsschutz
+PROCP_MISS	Keine Angabe zu diesem Merkmal
+PROSEC_NO	Kein Schutz durch Geheimhaltung
+PROSEC_YES	Schutz durch Geheimhaltung
+PROSEC_MISS	Keine Angabe zu diesem Merkmal
+PRODES_NO	Kein Schutz durch Komplexität der Konstruktion
+PRODES_YES	Schutz durch Komplexität der Konstruktion
+PRODES_MISS	Keine Angabe zu diesem Merkmal
+PROTIM_NO	Kein Schutz durch Vorsprung vor Wettbewerbern
+PROTIM_YES	Schutz durch Vorsprung vor Wettbewerbern
+PROTIM_MISS	Keine Angabe zu diesem Merkmal
+ORGMKT_YES	Unternehmen hat Innovationen in der Organisation und/oder im Vertrieb eingeführt
+ORGINNO_YES	Unternehmen hat Innovationen in der Organisation eingeführt
+MKTINNO_YES	Unternehmen hat Innovationen im Vertrieb eingeführt
+EFORED_HIGH	Erfüllung der Anforderungen von Kunden oder Lieferanten in kürzerer Zeit
+EOQUA_HIGH	Verbesserte Qualität von Waren und Dienstleistungen
+EORED_HIGH	Verringerte Kosten je produzierte Einheit
+EOSAT_HIGH	Verbesserte Mitarbeiterzufriedenheit und/oder verringerte Personalfluktuation
+ACTSTR_NO	Kein Versuch, neue Unternehmensstrategien umzusetzen
+ACTSTR_YES	Versuch, neue Unternehmensstrategien umzusetzen
+ACTSTR_MISS	Keine Angabe zu diesem Merkmal
+ACTMAN_NO	Kein Versuch, neue, fortgeschrittene Führungsmethoden umzusetzen
+ACTMAN_YES	Versuch, neue, fortgeschrittene Führungsmethoden umzusetzen
+ACTMAN_MISS	Keine Angabe zu diesem Merkmal
+ACTORG_NO	Kein Versuch, geänderte Organisationsstrukturen zu schaffen
+ACTORG_YES	Versuch, geänderte Organisationsstrukturen zu schaffen
+ACTORG_MISS	Keine Angabe zu diesem Merkmal
+ACTMAR_NO	Kein Versuch, die Vertriebspolitik/-strategien des Unternehmens zu ändern
+ACTMAR_YES	Versuch, die Vertriebspolitik/-strategien des Unternehmens zu ändern
+ACTMAR_MISS	Keine Angabe zu diesem Merkmal
+ACTAES_NO	Keine bedeutenden Änderungen am äußeren Erscheinungsbild
+ACTAES_YES	Bedeutende Änderungen am äußeren Erscheinungsbild
+ACTAES_MISS	Keine Angabe zu diesem Merkmal
+INDTE	Umsatz je Beschäftigte(n), 2000
+INDTE98	Umsatz je Beschäftigte(n), 1998
+INDTEHI	Umsatz je Beschäftigte(n) mit höherem Bildungsabschluss
+INDEHIE	Beschäftigte(n) mit höherem Bildungsabschluss je Beschäftigte(n), 2000
+INDEXE	Ausfuhren je Beschäftigte(n), 2000
+INDEXE98	Ausfuhren je Beschäftigte(n), 1998
+INDINE	Bruttoinvestition in Sachvermögen je Beschäftigte(n), 2000
+INDINEHI	Bruttoinvestition in Sachvermögen je Beschäftigte(n) mit höherem Bildungsabschluss, 2000
+INDINNOACT	Innovative Unternehmen in % aller Unternehmen in der Gesamtheit
+INDPAOP	Marktinnovatoren (Produkt und/oder Prozess) in % aller Unternehmen in der Gesamtheit
+INDINPDT	Marktinnovatoren (nur Produkt) in % aller Unternehmen in der Gesamtheit
+INDINPCS	Marktinnovatoren (nur Prozess) in % aller Unternehmen in der Gesamtheit
+INDPANDP	Marktinnovatoren (sowohl Produkt als auch Prozess) in % aller Unternehmen in der Gesamtheit
+INDINONONAB	Marktinnovatoren in % aller Unternehmen in der Gesamtheit
+INDNONINNO	Nichtinnovative Unternehmen in % aller Unternehmen in der Gesamtheit
+INDEXP1	Gesamtausgaben für Innovation je Beschäftigte(n), 2000
+INDEXP2	Gesamtausgaben für Innovation als Anteil am Gesamtumsatz 2000
+INDEXP3	Ausgaben für im eigenen Haus durchgeführte FuE je Beschäftigte(n), 2000
+INDEXP4	Ausgaben für im eigenen Haus durchgeführte FuE als Anteil am Gesamtumsatz 2000
+INDEXP5	Ausgaben für außer Haus durchgeführte FuE je Beschäftigte(n), 2000
+INDEXP6	Ausgaben für außer Haus durchgeführte FuE als Anteil am Gesamtumsatz 2000
+INDEXP7	Ausgaben für die Anschaffung von Maschinen, je Beschäftigte(n), 2000
+INDEXP8	Ausgaben für die Anschaffung von Maschinen, als Anteil am Gesamtumsatz 2000
+INDEXP9	Ausgaben für von außen erworbenes Wissen, je Beschäftigte(n), 2000
+INDEXP10	Ausgaben für von außen erworbenes Wissen als Anteil am Gesamtumsatz 2000
+INDEXP11	Ausgaben für Ausbildung, Markteinführungen und Sonstiges, je Beschäftigte(n), 2000
+INDEXP12	Ausgaben für Ausbildung, Markteinführungen und Sonstiges als Anteil am Gesamtumsatz 2000
+INDEXP1_04	Gesamtausgaben für Innovation als Anteil am Gesamtumsatz
+INDEXP4_04	Ausgaben für im eigenen Haus durchgeführte FuE als Anteil am Gesamtumsatz
+INDEXP6_04	Ausgaben für außer Haus durchgeführte FuE als Anteil am Gesamtumsatz
+INDEXP8_04	Ausgaben für die Anschaffung von Maschinen, Ausrüstungen und Software als Anteil am Gesamtumsatz 2000
+INDEXP10_04	Ausgaben für den Erwerb sonstigen Wissens von außen als Anteil am Gesamtumsatz
+INDRDPE	Mit FuE im eigenen Haus Befasste als Anteil aller Beschäftigten
+INDRDPEHI	Mit FuE im eigenen Haus Befasste als Anteil aller Beschäftigten mit höherem Bildungsabschluss
+INHOUSE	Im eigenen Haus innovierende Unternehmen nach Innovatortyp
+SB311	Im eigenen Haus innovierende Unternehmen als Anteil der Gesamtheit
+SB321	Unternehmen, die Innovationszusammenarbeit (IZ) betreiben
+SB331	Innovationsausgaben als Anteil am Gesamtumsatz
+SB341	Umsatz mit neuen oder erheblich verbesserten Produkten, die nur für das Unternehmen neu sind, als Anteil am Gesamtumsatz
+SB421	Umsatz mit neuen oder erheblich verbesserten Produkten, die Marktneuheiten darstellen, als Anteil am Gesamtumsatz
+CO	Innovatives Unternehmen mit Zusammenarbeit
+CO1	Andere(s) Unternehmen in der Gruppe
+CO2	Wettbewerber
+CO3	Kunden
+CO4	Beratungsunternehmen
+CO5	Lieferanten von Ausrüstung, Rohstoffen, Bauteilen oder Software
+CO6	Universitäten oder andere Hochschulen
+CO7	Staatliche oder private, gemeinnützige Forschungseinrichtungen
+COEU	Partner in der EU
+COJAP	Partner in Japan
+CONA	Partner im Inland
+COOTH	Partner in anderen Ländern
+COUSA	Partner in den USA
+FAC1	Übermäßige wirtschaftliche Risiken
+FAC2	Zu hohe Innovationskosten
+FAC3	Fehlen ausreichender Finanzierungsmittel
+FAC4	Mangelnde organisatorische Flexibilität
+FAC5	Mangel an qualifiziertem Personal
+FAC6	Mangel an Information über Technik
+FAC7	Mangel an Information über Märkte
+FAC8	Probleme bei der Einhaltung von Vorschriften
+FAC9	Mangelndes Interesse der Kunden an neuen Produkten
+GMTSUP	Staatliche Unterstützung
+H1	Erhebliche Verzögerungen bei Innovationsprojekten
+H2	Einstellung eines Innovationsprojekts
+H3	Innovationsprojekt wurde überhaupt nicht begonnen
+INDEP1	Unabhängiges innovatives Unternehmen
+INDEP2	Unabhängige Unternehmen
+INPCS_1	Entwickelung neuer Verfahren durch andere Unternehmen
+INPCS_2	Entwickelung neuer Verfahren in Zusammenarbeit mit anderen Unternehmen
+INPCS_3	Eigenentwicklung neuer Verfahren
+INPDT_1	Entwickelung neuer Produkte durch andere Unternehmen
+INPDT_2	Entwickelung neuer Produkte in Zusammenarbeit mit anderen Unternehmen
+INPDT_3	Eigenentwicklung neuer Produkte
+INSER_1	Entwicklung neuer Dienstleistungen durch andere Unternehmen
+INSER_2	Entwicklung neuer Dienstleistungen in Zusammenarbeit mit anderen Unternehmen
+INSER_3	Eigenentwicklung neuer Dienstleistungen
+NON_INDEP1	Abhängige innovative Unternehmen
+NON_INDEP2	Abhängige Unternehmen
+OENV_IMP	Verminderung des Umweltschadens
+OENV_NO	Verminderung des Umweltschadens
+OEXT_IMP	Ausweitung der Waren- oder Dienstleistungspalette
+OEXT_NO	Ausweitung der Waren- oder Dienstleistungspalette
+OIMP_IMP	Verbesserung der Waren- oder Dienstleistungsqualität
+OIMP_NO	Verbesserung der Waren- oder Dienstleistungsqualität
+OLBR_IMP	Verringerung der Arbeitskosten
+OLBR_NO	Verringerung der Arbeitskosten
+OMAT_IMP	Verringerung des Materialverbrauchs
+OMAT_NO	Verringerung des Materialverbrauchs
+ONRG_IMP	Verringerung des Energieverbrauchs
+ONRG_NO	Verringerung des Energieverbrauchs
+OOPN_IMP	Erschließung neuer Märkte oder Erhöhung des Marktanteils
+OOPN_NO	Erschließung neuer Märkte oder Erhöhung des Marktanteils
+OPDT_IMP	Verbesserung der Produktion oder der Flexibilität interner Geschäftsabläufe
+OPDT_NO	Verbesserung der Produktion oder der Flexibilität interner Geschäftsabläufe
+OREP_IMP	Ersetzen auslaufender Waren oder Dienstleistungen
+OREP_NO	Ersetzen auslaufender Waren oder Dienstleistungen
+OSTD_IMP	Einhaltung von Vorschriften und Normen
+OSTD_NO	Einhaltung von Vorschriften und Normen
+PAT	Patent wurde angemeldet
+RD_HIGH	Innovative Unternehmen mit hoher FuE-Intensität
+RD_LOW	Innovative Unternehmen mit geringer FuE-Intensität
+RD_MED	Innovative Unternehmen mit mittlerer FuE-Intensität
+RD_NULL	Innovative Unternehmen ohne FuE-Ausgaben
+RDCON_1	Betreibt ständig FuE
+RDCON_2	Betreibt gelegentlich FuE
+RDCON_3	Betreibt überhaupt keine FuE
+RID	Gewerbliches Muster (Herstellung von Waren) oder Vorbereitungen zur Einführung neuer Dienstleistungen oder Methoden (Dienstleistungsbereich)
+RMAC	Anschaffung von Maschinen und Ausrüstung
+RMAR	Markteinführung einer Innovation
+ROET	Erwerb von Technik von außen
+RRDEX	FuE außer Haus
+RRDIN	FuE im eigenen Haus
+RTR	Ausbildung ist unmittelbar mit der technischen Innovation verknüpft
+TURN_ALL	Gesamtumsatz aller Unternehmen
+TURNIMP	Verbesserte Produkte
+TURNMAR	Umsatz mit Marktneuheiten
+TURNNEW	Neue Produkte
+TURNPROD	Gesamtumsatz der Produktinnovatoren
+TURNUNG	Unveränderte Produkte
+SME_INNO	KMU, die im eigenen Haus Innovation betreiben, in % aller KMU
+SME_COOP	KMU, die Innovationszusammenarbeit betreiben, in % aller KMU
+INNOEXP_TURN	Innovationsausgaben in % des Umsatzes aller Unternehmen
+TURNENT_TURN	Umsatz mit neuen oder erheblich verbesserten Produkten, die zwar für das Unternehmen, aber nicht für den Markt Neuheiten darstellen, in % des Umsatzes aller Unternehmen
+TURNMKT_TURN	Umsatz mit neuen oder erheblich verbesserten Produkten, die sowohl für das Unternehmen als auch für den Markt Neuheiten darstellen, in % des Umsatzes aller Unternehmen
+INNOCOOP_INNO	Innovative Unternehmen mit Innovationszusammenarbeit in % aller innovativen Unternehmen
+ENT_POPU06	Gesamtzahl der Unternehmen in der Bevölkerung im Jahr 2006
+TURN06	Gesamtumsatz für 2006
+EMP06	Zahl der Arbeitnehmer insgesamt im Jahr 2006
+INPDSV	Innovatoren von Dienstleistungsprodukten
+INPSPD	Innovatoren von Herstellungs/Produktionsprozessen
+INPSLG	Innovatoren von Logistik- und Lieferungsvorgängen, sowie Vertriebswegen
+INPSSU	Prozessinnovatoren von unterstützenden Tätigkeiten
+INPDTW_ENT_RD	Unternehmen mit Produktinnovation, die haupsächlich vom eigenen Unternehmen oder der Unternehmensgruppe entwickelt wurden (F&E- Akteure)
+INPDTW_COP_RD	Unternehmen mit Produktinnovation, die vom Unternehmen zusammen mit anderen Unternehmen oder Institutionen entwickelt wurden (F&E- Akteure)
+INPDTW_OTH_RD	Unternehmen mit Produktinnovation, die haupsächlich von anderen Unternehmen oder Institutionen entwickelt wurden (F&E- Akteure)
+INPCSW_ENT_RD	Unternehmen mit Prozessinnovationen, die haupsächlich vom eigenen Unternehmen oder der Unternehmensgruppe entwickelt wurden (F&E- Akteure)
+INPCSW_COP_RD	Unternehmen mit Prozessinnovationen, die vom Unternehmen zusammen mit anderen Unternehmen oder Institutionen entwickelt wurden (F&E- Akteure)
+INPCSW_OTH_RD	Unternehmen mit Prozessinnovationen, die haupsächlich von anderen Unternehmen oder Institutionen entwickelt wurden (F&E- Akteure)
+INPDTW_ENT_NRD	Unternehmen mit Produktinnovationen, die haupsächlich vom eigenen Unternehmen oder der Unternehmensgruppe entwickelt wurden (keine F&E- Akteure)
+INPDTW_COP_NRD	Unternehmen mit Produktinnovationen, die vom Unternehmen zusammen mit anderen Unternehmen oder Institutionen entwickelt wurden (keine F&E- Akteure)
+INPDTW_OTH_NRD	Unternehmen mit Produktinnovationen, die hauptsächlich von anderen Unternehmen oder Institutionen entwickelt wurden (keine F&E- Akteure)
+INPCSW_ENT_NRD	Unternehmen mit Prozessinnovationen, die hauptsächlich vom eigenen Unternehmen oder der Unternehmensgruppe entwickelt wurden (keine F&E- Akteure)
+INPCSW_COP_NRD	Unternehmen mit Prozessinnovationen, die vom Unternehmen zusammen mit anderen Unternehmen oder Institutionen entwickelt wurden (keine F&E- Akteure)
+INPCSW_OTH_NRD	Unternehmen mit Prozessinnovationen, die hauptsächlich von anderen Unternehmen oder Institutionen entwickelt wurden (keine F&E- Akteure)
+RRDIN06	Ausweitung der innerbetrieblichen FuE im Jahr 2006
+RRDEX06	Ausweitung der außerbetrieblichen FuE im Jahr 2006
+RMACES06	Ausgaben für die Anschaffung von Maschinen, Ausrüstung und Software im Jahr 2006
+ROEK06	Ausgaben für die Anschaffung von anderem externen Wissen im Jahr 2006
+FUNRTD6	Unternehmen, die Mittel aus dem 6. Rahmenprogramm erhalten haben
+PC_INNO_TOT	Anteil der Unternehmen mit Innovationstätigkeiten
+PC_PDT_INNO	Produktorientierte innovative Unternehmen als prozentualer Anteil der innovativen Unternehmen
+PC_PCS_INNO	Prozessorientierte innovative Unternehmen als prozentualer Anteil der innovativen Unternehmen
+PC_PDTO_TOT	Innovative, nur produktorientierte Unternehmen, als prozentualer Anteil der Gesamtzahl der Unternehmen
+PC_PCSO_TOT	Innovative, nur prozessorientierte Unternehmen, als prozentualer Anteil der Gesamtzahl der Unternehmen
+PC_PANDP_TOT	Innovative, prozess- und produktorientierte Unternehmen, als prozentualer Anteil der Gesamtzahl der Unternehmen
+PC_PDT_TOT	Innovative, produktorientierte Unternehmen, als prozentualer Anteil der Gesamtzahl der Unternehmen
+PC_PCS_TOT	Innovative, prozessorientierte Unternehmen, als prozentualer Anteil der Gesamtzahl der Unternehmen
+PC_RDIN_INNO	Innovative Unternehmen, die an innerbetrieblichen FuE Ausgaben beteiligt sind, als prozentualer Anteil der innovativen Unternehmen
+PC_RDEX_INNO	Innovative Unternehmen, die an außerbetrieblichen FuE Ausgaben beteiligt sind, als prozentualer Anteil der innovativen Unternehmen
+PC_COALL_INNO	Anteil der innovativen Unternehmen, die bei ihrer Innovationstätigkeit alle Formen der Zusammenarbeit betreiben
+PC_FPUB_INNO	Anteil der innovativen Unternehmen, die öffentliche Förderung erhalten, als prozentualer Anteil der innovativen Unternehmen
+LARMAR_LREG	Größter Markt bezüglich Umsatz, lokaler/regionaler Markt
+LARMAR_NAT	Größter Markt bezüglich Umsatz, nationaler Markt
+LARMAR_EU	Größter Markt bezüglich Umsatz, andere EU-, EFTA und/oder EU-Kandidaten-Länder
+LARMAR_OTH	Größter Markt bezüglich Umsatz, alle anderen Länder
+INPSNM1	Zwischen 2006 und 2008 eingeführte Prozessinnovationen, die neue auf dem Markt waren
+INPSNM0	Zwischen 2006 und 2008 eingeführte Prozessinnovationen, die nicht neu auf dem Markt waren
+INPSNM2	Nicht bekannt, ob die eingeführten Prozess- oder Produktinnovationen neu auf dem Markt waren
+RRDIN08	Ausweitung der innerbetrieblichen FuE im Jahr 2008
+RRDEX08	Ausweitung der außerbetrieblichen FuE im Jahr 2008
+RMACES08	Ausgaben für die Anschaffung von Maschinen, Ausrüstung und Software im Jahr 2008
+ROEK08	Ausgaben für den Erwerb von anderem externen Wissen im Jahr 2008
+REXP08_YES	Unternehmen, die Innovationstätigkeiten betreiben
+REXP08	Gesamtausgaben für Innovation
+FUNRTD6_7	Unternehmen, die Mittel aus dem 6.  oder 7. Rahmenprogramm erhalten haben
+COCNIN_YES	Unternehmen, die jegliche Art von Innovationskooperation mit China oder Indien betreiben
+ORANGE	Ausweitung des Angebots an Waren oder Dienstleistungen
+OREPL	Ersetzen überholter Produkte oder Prozesse 
+OENMK	Erschließung neuer Märkte 
+OIMKS	Vergrößerung des Marktanteils
+OQUA	Qualitätsverbesserung von Waren und Dienstleistungen 
+OFLEX	Verbesserung der Produktionsflexibilität für Waren oder Dienstleistungen
+OCAP	Ausweitung der Produktionskapazitäten für Waren oder Dienstleistungen 
+OHES	Verbesserung der Verbrauchergesundheit und -sicherheit
+OLBR	Verringerung der Lohnstückkosten
+ENT_POPU08	Gesamtzahl der Unternehmen in der Bevölkerung im Jahr 2008
+TURN08	Gesamtumsatz für 2008
+EMP08	Zahl der Arbeitnehmer insgesamt im Jahr 2008
+ORGBUP	Neue Geschäftspraktiken
+ORGWKP	Neue Methoden bei der Organisation von beruflichen Verantwortungsbereichen und Entscheidungsfindung 
+ORGEXR	Neue Methoden bei der Organisation der Außenbeziehungen
+ORORED	Kürzere Reaktionszeiten auf Kunden- oder Lieferantenbedürfnisse
+OROABL	Verbesserte Fähigkeit, neue Produkte oder Prozesse zu entwickeln
+OROQUA	Qualitätsverbesserung von Waren oder Dienstleistungen
+ORORCO	Verringerung der Stückkosten
+OROCIN	Verbesserte Kommunikations- oder Informationswege
+MKTDGP	Wesentliche Änderungen von Design oder Verpackung 
+MKTPDP	Neue Medien oder Techniken der Absatzförderung
+MKTPDL	Neue Methoden des Productplacements
+MKTPRI	Neue Methoden der Preisgestaltung von Waren oder Dienstleistungen
+OMKTS	Vergrößerter oder beibehaltener Marktanteil
+OMKTCG	Produkteinführungen in neue Kundengruppen 
+OMKTGM	Einführung von Produkten in neue geographische Märkte
+ECOMAT	Geringerer Materialverbrauch pro produzierte Einheit 
+ECOEN	Geringerer Materialverbrauch pro produzierte Einheit 
+ECOCO	Geringere CO2 Emissionen (gesamter CO2 Ausstoß) Ihres Unternehmens
+ECOSUB	Materialien, die durch weniger verschmutzende oder weniger gefährliche ersetzt wurden
+ECOPOL	Geringere  Boden-, Wasser-, Lärm- oder Luftverschmutzung 
+ECOREC	Recycling von Müll, Wasser oder Materialien
+ECOENU	Vorteile für Endverbraucher, geringerer Energieverbrauch
+ECOPOS	Vorteile für Endverbraucher, geringere  Boden-, Wasser-, Lärm- oder Luftverschmutzung
+ECOREA	Vorteile für Endverbraucher, verbessertes Recycling von Produkten nach Gebrauch
+ENREG	bestehende Umweltschutzbestimmungen oder Steuern auf Umweltverschmutzung
+ENREGF	Umweltschutzbestimmungen oder Steuern, mit deren Einführung in der Zukunft gerechnet wurde
+ENGRA	Verfügbarkeit von Regierungskrediten, Subventionen oder anderen finanziellen Anreizen für ökologische Innovationen
+ENDEM	Aktuelle oder erwartete Marktnachfrage der Kunden nach Öko-Innovationen
+ENAGR	Freiwillige Kodizes oder Abkommen für gute Umweltpraxis innerhalb ihrer Branche
+ENVID1	Nur vor Januar 2006 eingeführt
+ENVID2	Nur nach Januar 2006 eingeführt oder wesentlich verbessert
+ENVID3	Sowohl vor als auch nach Januar 2006 eingeführt
+NOENVID	Keine Maßnahmen

@@ -1,0 +1,4 @@
+TOTAL	Total
+AIRP_MAIN	Principaux aéroports (plus de 150 000 mouvements de passagers par an)
+AIRP_OTH	Autres aéroports (entre 15 000 et 150 000 mouvements de passagers par an)
+AIRP_MAINMED	Principaux aéroports MED (avec plus de 1 500 000 mouvements de passagers par an)

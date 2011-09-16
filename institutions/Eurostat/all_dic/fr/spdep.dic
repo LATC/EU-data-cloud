@@ -1,0 +1,175 @@
+TOTALNOREROUTE	Total des dépenses
+ADMIN	Dépenses de fonctionnement
+TRANSFER	Transferts entre régimes
+OTHER	Autres dépenses
+OPROP	Autres dépenses revenu de la propriété
+O_OTH	Autres dépenses diverses
+SPBENEFNOREROUTE	Prestations de protection sociale
+SNONTARGETNOREROUTE	Prestations sans condition de ressources
+STARGETNOREROUTE	Prestations sous condition de ressources
+STTCASH	Prestations en espèces
+SNTCASH	Prestations en espèces (sans condition de ressources)
+STACASH	Prestations en espèces (sous condition de ressources)
+STTCPERIOD	Prestations périodiques en espèces
+SNTCPERIOD	Prestations périodiques en espèces (sans condition de ressources)
+STACPERIOD	Prestations périodiques en espèces (sous condition de ressources)
+STTCPSICK	Congé de maladie payé
+SNTCPSICK	Congé de maladie payé (sans condition de ressources)
+STACPSICK	Congé de maladie payé (sous condition de ressources)
+STTCPDISPEN	Pension d'invalidité
+SNTCPDISPEN	Pension d'invalidité (sans condition de ressources)
+STACPDISPEN	Pension d'invalidité (sous condition de ressources)
+STTCPEARLYRED	Préretraite pour cause de réduction de la capacité de travail
+SNTCPEARLYRED	Préretraite pour cause de réduction de la capacité de travail (sans condition de ressources)
+STACPEARLYRED	Préretraite pour cause de réduction de la capacité de travail (sous condition de ressources)
+STTCPOLDPEN	Pension de vieillesse
+SNTCPOLDPEN	Pension de vieillesse (sans condition de ressources)
+STACPOLDPEN	Pension de vieillesse (sous condition de ressources)
+STTCPANTPEN	Pension de vieillesse anticipée
+SNTCPANTPEN	Pension de vieillesse anticipée (sans condition de ressources)
+STACPANTPEN	Pension de vieillesse anticipée (sous condition de ressources)
+STTCPPARPEN	Pension partielle
+SNTCPPARPEN	Pension partielle (sans condition de ressources)
+STACPPARPEN	Pension partielle (sous condition de ressources)
+STTCPCARE	Allocation de soins périodique
+SNTCPCARE	Allocation de soins périodique (sans condition de ressources)
+STACPCARE	Allocation de soins périodique (sous condition de ressources)
+STTCPECOHAND	Prestations périodique pour l'intégration economique des handicapés
+SNTCPECOHAND	Prestations périodique pour l'intégration economique des handicapés (sans condition de ressources)
+STACPECOHAND	Prestation périodique pour l'intégration économique des handicapés (sous condition de ressources)
+STTCPSURVPEN	Pension de survie
+SNTCPSURVPEN	Pension de survie (sans condition de ressources)
+STACPSURVPEN	Pension de survie (sous condition de ressources)
+STTCPCHILD	Revenu de remplacement pendant le congé de maternité
+SNTCPCHILD	Revenu de remplacement pendant le congé de maternité (sans condition de ressources)
+STACPCHILD	Revenu de remplacement pendant le congé de maternité (sous condition de ressources)
+STTCPPARENT	Congé parental périodique
+SNTCPPARENT	Congé parental périodique (sans condition de ressources)
+STACPPARENT	Congé parental périodique (sous condition de ressources)
+STTCPALLOW	Allocation familiale
+SNTCPALLOW	Allocation familiale (sans condition de ressources)
+STACPALLOW	Allocation familiale (sous condition de ressources)
+STTCPFULLUNEMP	Prestation de chômage complet
+SNTCPFULLUNEMP	Prestation de chômage complet (sans condition de ressources)
+STACPFULLUNEMP	Prestation de chômage complet (sous condition de ressources)
+STTCPPARTUNEMP	Chômage partiel
+SNTCPPARTUNEMP	Chômage partiel (sans condition de ressources)
+STACPPARTUNEMP	Chômage partiel (sous condition de ressources)
+STTKPLACEMENT	Services de placement et assistance à la recherche d'un emploi
+SNTKPLACEMENT	Services de placement et assistance à la recherche d'un emploi (sans condition de ressources)
+STAKPLACEMENT	Services de placement et assistance à la recherche d'un emploi (sous condition de ressources)
+STTCPEARLYMARK	Prestation de préretraite pour motif économique
+SNTCPEARLYMARK	Prestation de préretraite pour motif économique (sans condition de ressources)
+STACPEARLYMARK	Prestation de préretraite pour motif économique (sous condition de ressources)
+STTCPVOCAT	Prestation périodique de formation professionnelle
+SNTCPVOCAT	Prestation périodique de formation professionelle (sans condition de ressources)
+STACPVOCAT	Prestation périodique de formation professionelle (sous condition de ressources)
+STTCPINCSUP	Complément de ressources
+SNTCPINCSUP	Complément de ressources (sans condition de ressources)
+STACPINCSUP	Complément de ressources (sous condition de ressources)
+STTCP_OTH	Autres prestations périodiques en espèces
+SNTCP_OTH	Autres prestations périodiques en espèces (sans condition de ressources)
+STACP_OTH	Autres prestations périodiques en espèces (sous condition de ressources)
+STTCLUMP	Prestations uniques en espèces
+SNTCLUMP	Prestations uniques en espèces (sans condition de ressources)
+STACLUMP	Prestations uniques en espèces (sous condition de ressources)
+STTCLCARE	Allocation de soins unique
+SNTCLCARE	Allocation de soins unique (sans condition de ressources)
+STACLCARE	Allocation de soins unique (sous condition de ressources)
+STTCLECOHAND	Prestation unique pour l'intégration économique des handicapés
+SNTCLECOHAND	Prestation unique pour l'intégration économique des handicapés (sans condition de ressources)
+STACLECOHAND	Prestation unique pour l'intégration économique des handicapés (sous condition de ressources)
+STTCLDEATH	Allocation de décès
+SNTCLDEATH	Allocation de décès (sans condition de ressources)
+STACLDEATH	Allocations de décès (sous condition de ressources)
+STTCLBIRTH	Primes de naissance
+SNTCLBIRTH	Primes de naissance (sans condition de ressources)
+STACLBIRTH	Primes de naissance (sous condition de ressources)
+STTCLPARENT	Congé parental unique
+SNTCLPARENT	Congé parental unique (sans condition de ressources)
+STACLPARENT	Congé parental unique (sous condition de ressources)
+STTCLVOCAT	Prestations uniques de formation professionnelle
+SNTCLVOCAT	Prestations uniques de formation professionelle (sans condition de ressources)
+STACLVOCAT	Prestations uniques de formation professionelle (sous condition de ressources)
+STTCLRED	Prestations uniques d'indemnités de licenciement
+SNTCLRED	Prestations uniques d'indemnités de licenciement (sans condition de ressources)
+STACLRED	Prestations uniques d'indemnités de licenciement (sous condition de ressources)
+STTCL_OTH	Autres prestations uniques en espèces
+SNTCL_OTH	Autres prestations uniques en espèces (sans condition de ressources)
+STACL_OTH	Autres prestations uniques en espèces (sous condition de ressources)
+STTKIND	Prestations en nature
+SNTKIND	Prestations en nature (sans condition de ressources)
+STAKIND	Prestations en nature (sous condition de ressources)
+STTKINCARE	Soins avec hospitalisation
+SNTKINCARE	Soins avec hospitalisation (sans condition de ressources)
+STAKINCARE	Soins avec hospitalisation (sous condition de ressources)
+STTKIDIRECT	Soins avec hospitalisation - fourniture directe
+SNTKIDIRECT	Soins avec hospitalisation - fourniture directe (sans condition de ressources)
+STAKIDIRECT	Soins avec hospitalisation - fourniture directe (sous condition de ressources)
+STTKIREMB	Soins avec hospitalisation - remboursement
+SNTKIREMB	Soins avec hospitalisation - remboursement (sans condition de ressources)
+STAKIREMB	Soins avec hospitalisation - remboursement (sous condition de ressources)
+STTKOUTCARE	Soins sans hospitalisation
+SNTKOUTCARE	Soins sans hospitalisation (sans condition de ressources)
+STAKOUTCARE	Soins sans hospitalisation (sous condition de ressources)
+STTKODIR_PHAR	Soins sans hospitalisation - fourniture directe de produits pharmaceutiques
+SNTKODIR_PHAR	Soins sans hospitalisation - fourniture directe de produits pharmaceutiques (sans condition de ressources)
+STAKODIR_PHAR	Soins sans hospitalisation - fourniture directe de produits pharmaceutiques (sous condition de ressources)
+STTKODIR_OTH	Soins sans hospitalisation - autres fournitures directes
+SNTKODIR_OTH	Soins sans hospitalisation - autres fournitures directes (sans condition de ressources)
+STAKODIR_OTH	Soins sans hospitalisation - autres fournitures directes (sous condition de ressources)
+STTKOREMB_PHAR	Soins sans hospitalisation - remboursement de produits pharmaceutiques
+SNTKOREMB_PHAR	Soins sans hospitalisation - remboursement de produits pharmaceutiques (sans condition de ressources)
+STAKOREMB_PHAR	Soins sans hospitalisation - remboursement de produits pharmaceutiques (sous condition de ressources)
+STTKOREMB_OTH	Soins sans hospitalisation - autres remboursements
+SNTKOREMB_OTH	Soins sans hospitalisation - autres remboursements (sans condition de ressources)
+STAKOREMB_OTH	Soins sans hospitalisation - autres remboursements (sous condition de ressources)
+STTKCHILD	Foyer de jour
+SNTKCHILD	Foyer de jour (sans condition de ressources)
+STAKCHILD	Foyer de jour (sous condition de ressources)
+STTKACCOMOD	Hébergement
+SNTKACCOMOD	Hébergement (sans condition de ressources)
+STAKACCOMOD	Hébergement (sous condition de ressources)
+STTKASSIST	Assistance dans les tâches de la vie quotidienne
+SNTKASSIST	Assistance dans les tâches de la vie quotidienne (sans condition de ressources)
+STAKASSIST	Assistance dans les tâches de la vie quotidienne (sous condition de ressources)
+STTKREHAB	Réadaptation
+SNTKREHAB	Réadaptation (sans condition de ressources)
+STAKREHAB	Réadaptation (sous condition de ressources)
+STTKFUNERAL	Dépenses funéraires
+SNTKFUNERAL	Dépenses funéraires (sans condition de ressources)
+STAKFUNERAL	Dépenses funéraires (sous condition de ressources)
+STTKHOME	Aide à domicile
+SNTKHOME	Aide à domicile (sans condition de ressources)
+STAKHOME	Aide à domicile (sous condition de ressources)
+STTKMOBIL	Indemnités de mobilité et réinstallation
+SNTKMOBIL	Indemnités de mobilité et réinstallation (sans condition de ressources)
+STAKMOBIL	Indemnités de mobilité et réinstallation (sous condition de ressources)
+STTKVOCAT	Formation professionnelle
+SNTKVOCAT	Formation professionelle (sans condition de ressources)
+STAKVOCAT	Formation professionelle (sous condition de ressources)
+STTKRENT	Allocation de logement
+SNTKRENT	Allocation de logement (sans condition de ressources)
+STAKRENT	Allocation de logement (sous condition de ressources)
+STTKRHOUSE	Logement social
+SNTKRHOUSE	Logement social (sans condition de ressources)
+STAKRHOUSE	Logement social (sous condition de ressources)
+STTKR_OTH	Autres aides au logement
+SNTKR_OTH	Autres aides au logement (sans condition de ressources)
+STAKR_OTH	Autres aides au logement (sous condition de ressources)
+STTKOWNER	Prestation en faveur des propriétaires occupant le logement
+SNTKOWNER	Prestations en faveur des propriétaires occupant le logement (sans condition de ressources)
+STAKOWNER	Prestation en faveur des propriétaires occupant le logement (sous condition de ressources)
+STTKDRUGS	Réhabilitation des alcooliques et des toxicomanes
+SNTKDRUGS	Réhabilitation des alcooliques et des toxicomanes (sans condition de ressources)
+STAKDRUGS	Réhabilitation des alcooliques et des toxicomanes (sous condition de ressources)
+STTK_OTH	Autres prestations en nature
+SNTK_OTH	Autres prestations en nature (sans condition de ressources)
+STAK_OTH	Autres prestations en nature (sous condition de ressources)
+TOTAL	Total des dépenses y compris les transactions entre régimes
+SPBENEF	Prestations de protection sociale y compris les transactions entre régimes
+SNONTARGET	Prestations sans condition de ressources y compris les transactions entre régimes
+STARGET	Prestations sous condition de ressouces y compris les transactions entre régimes
+STTREROUTE	Cotisations sociales réacheminées
+SNTREROUTE	Cotisations sociales réacheminées (sans condition de ressources)
+STAREROUTE	Cotisations sociales réacheminées (sous condition de ressources)

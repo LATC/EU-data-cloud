@@ -1,0 +1,82 @@
+0099	Insgesamt (ohne Obst und Gemüse)
+0100	Insgesamt
+0999	Pflanzliche Erzeugnisse (ohne Obst und Gemüse)
+1000	Pflanzliche Erzeugnisse
+1040	Getreide und Reis
+1120	Weichweizen
+1130	Hartweizen
+1150	Roggen
+1161	Braugerste
+1162	Futtergerste
+1180	Hafer
+1200	Körnermais
+1210	Sonstiges Getreide
+1250	Rohreis
+1300	Hülsenfrüchte
+1350	Hackfrüchte
+1360	Speisekartoffeln
+1362	Frühkartoffeln
+1363	Übrige Kartoffeln (Lager)
+1372	Zuckerrüben
+1380	Sonstige Hackfrüchte
+1410	Ölsaaten
+1490	Baumwolle
+1550	Rohtabak
+1600	Frischgemüse
+1620	Blumenkohl
+1630	Kohl
+1680	Kopfsalat
+1690	Spinat
+1750	Tomaten
+1761	Gurken
+1799	Pfeffer
+1830	Karotten
+1851	Zwiebeln
+1890	Erbsen (grüne)
+1901	Bohnen (grüne)
+1980	Sonstiges Frischgemüse
+1985	Frischobst und -Gemüse
+2003	Obst
+2010	Frischobst
+2110	Tafeläpfel
+2130	Tafelbirnen
+2160	Sonstiges Frischobst
+2200	Kirschen
+2210	Pflaumen
+2230	Nüsse
+2260	Erdbeeren
+2300	Zitrusfrüchte
+2310	Orangen
+2340	Mandarinen
+2370	Zitronen
+2420	Tafeltrauben
+2480	Oliven und Olivenöl
+2510	Getrocknetes Obst
+2550	Trockenfrüchte
+2800	Blumen, Zierpflanzen und Baumschulerzeugnisse
+3300	Saatgut
+3751	Heu (einschließlich Klee)
+3800	Weinmost oder Wein
+3810	Weinmost
+3820	Wein
+3830	Tafelwein
+3900	Qualitätswein
+3992	Sonstige pflanzliche Erzeugnisse
+3996	Sonstige 'sonstige pflanzliche Erzeugnisse'
+4000	Tiere und tierische Erzeugnisse
+4050	Tiere (zum Schlachten und zur Ausfuhr)
+4100	Großvieh
+4150	Kälber
+4160	Rinder ohne Kälber
+4410	Schweine
+4720	Schafe und Lämmer
+4765	Sonstiges Großvieh
+4800	Geflügel
+4810	Masthähnchen
+4900	Sonstiges Geflügel
+5010	Sonstiges Schlachtvieh
+5150	Milch
+5160	Kuhmilch
+5190	Sonstige Milch
+5250	Eier
+5600	Sonstige tierische Erzeugnisse

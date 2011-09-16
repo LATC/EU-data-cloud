@@ -1,0 +1,27 @@
+A000	NS (Total)
+A010	Vacances (1 nuitée et plus)
+A011	Vacances - interne (1 nuitée et plus)
+A012	Vacances - émetteur (1 nuitée et plus)
+A013	Vacances - interne et émetteur (1 nuitée et plus)
+A020	Vacances de 4 nuitées et plus
+A021	Vacances de 4 nuitées et plus - interne
+A022	Vacances de 4 nuitées et plus - émetteur
+A023	Vacances de 4 nuitées et plus - interne et émetteur
+A030	Visites à des parents et amis (4 nuitées et plus)
+A031	Visites à des parents et amis (4 nuitées et plus) - interne
+A032	Visites à des parents et amis (4 nuitées et plus) - émetteur
+A033	Visites à des parents et amis (4 nuitées et plus) - interne et émetteur
+A040	Voyages d'affaires (1 nuitée et plus)
+A041	Voyages d'affaires (1 nuitée et plus) - interne
+A042	Voyages d'affaires (1 nuitée et plus) - émetteur
+A043	Voyages d'affaires (1 nuitée et plus) - interne et émetteur
+A090	Autres motifs
+HOL_BUS	Vacances et affaires
+HOL	Vacances
+VFR	Vacances - visites à des amis et parents
+BUS	Affaires
+SHO	Shopping
+COM	Déplacements pendulaires
+LEI	Loisirs
+OTH	Autres
+RET	Retour domicile

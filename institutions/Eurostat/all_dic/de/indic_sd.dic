@@ -1,0 +1,63 @@
+TSDEC100	Wachstumsrate des realen BIP pro Kopf - %
+TSDEC210	Bruttoinvestitionen, nach institutionellem Sektor - in % des BIP
+TSDEC240	Bruttoersparnisse von Haushalten - Anteil der Bruttoersparnisse zum Gesamthaushaltseinkommen
+TSDEC310	Arbeitsproduktivität je geleistete Arbeitsstunde - Veränderung zum Vorjahr in %
+TSDEC340	Umsatz durch Innovation, nach Wirtschaftssektor - %
+TSDPC100	Ressourcenproduktivität - EUR/kg
+TSDPC220	Komponenten des inländischen Materialverbrauchs - Millionen Tonnen
+TSDPC230	Inländischer Materialverbrauch, nach Materialien - Millionen Tonnen
+TSDPC250	Erzeugung von gefährlichem Abfall, nach wirtschaftlicher Tätigkeit - Tonnen
+TSDPC330	Pro Kopf Verbrauch bestimmter Lebensmittel
+TSDPC410	Unternehmen mit einem Umweltmanagementsystem - Anzahl
+TSDPC420	Umweltauszeichnungen nach Produkt - Anzahl
+TSDPC430	Landwirtschaftlich genutzte Fläche mit Agrarumweltbeihilfen - %
+TSDPC440	Für ökologische Landwirtschaft genutzte Fläche - %
+TSDPC520	Pro Kopf Haushaltsausgaben, nach Kategorie - EUR pro Person bei konstanten Preisen 1995
+TSDSC450	Schlechte Lesefähigkeit von Schülern - %
+TSDDE520	Veränderung in öffentlichen Rentenausgaben und Veränderungen in der theoretisch geplanten Einkommensersatzquote - Prozentpunkte
+TSDDE530	Ausgaben für Altenpflege - % des BIP
+TSDPH210	Sterberate nach chronischen Erkrankungen, nach Altersgruppe - pro 100 000 Personen
+TSDPH250	Selbstmordrate nach Altersgruppe - pro 100 000 Personen
+TSDPH310	Häufigkeit von Erkrankungen an Salmonellose - neue Erkrankungen pro 100 000 Personen
+TSDPH320	Index der Produktion von toxischen Chemikalien, nach Giftigkeitsklasse - Millionen Tonnen
+TSDPH330	Anteil übergewichtiger Personen, nach Geschlecht - %
+TSDPH340	Anteil übergewichtiger Personen, nach Altersgruppe - %
+TSDCC110	Verbrauch von erneuerbaren Energien - % Anteil am gesamten inländischen Energieverbrauch
+TSDCC220	Intensität der Treibhausgasemissionen durch Energieverbrauch - Index 2000=100
+TSDCC230	Hochrechnung der Treibhausgasemissionen - % der Basisjahremissionen
+TSDCC240	Globale, durchschnittliche Oberflächentemperatur - Temperaturabweichung im Vergleich zum Durchschnitt der Jahre 1961-1990 in °C
+TSDCC310	Energieabhängigkeit - %
+TSDCC340	Anteil der Biokraftstoffe am Gesamtkraftstoffverbrauch des Verkehrs - %
+TSDCC350	Kraft-Wärme-Kopplung - % der Brutto-Gesamtelektrizitätserzeugung
+TSDTR210	Personenbeförderung nach Verkehrszweig - % an den gesamt gefahrenen Personentransport-km
+TSDTR220	Güterverkehr nach Verkehrszweig - % an den gesamt gefahrenen Gütertransport-km
+TSDTR240	Umfang der Personenbeförderung - Index 1995=100
+TSDTR310	Treibstoffpreise Straßenverkehr - Euro pro Liter, bei konstanten Preisen 1995
+TSDTR420	Verkehrstote, nach Altersgruppe - Personen
+TSDTR450	Durchschnittlicher CO² Ausstoß pro km von neuen Personenkraftwagen - Gramm CO2 pro Kilometer
+TSDNR220	Rote Liste Index für europäische Arten
+TSDNR310	Oberflächen- und Grundwasserentnahme - % verfügbarer Oberflächen- und Grundwasserreserven
+TSDNR330	Biochemischer Sauerstoffbedarf in Flüssen - ng/L
+TSDNR410	Quecksilberkonzentration in Fisch und Schalentieren
+TSDNR520	Waldzuwachs und Kahlschlag - Anteil des jährlichen Kahlschlags vom Netto-Waldzuwachs
+TSDNR530	Durch Entblätterung geschädigte Waldbäume - %
+TSDNR540	Kritische Nitrogenüberlastungsgrenze
+TSDGP100	Öffentliche Entwicklungshilfe - % des Bruttoinlandseinkommen
+TSDGP210	EU Einfuhren aus Entwicklungsländern, nach Einkommensklasse - Milliarden Euro
+TSDGP220	EU Einfuhren aus Entwicklungsländern, nach Produktgruppe - Milliarden Euro
+TSDGP230	EU Einfuhren aus unterentwickelten Ländern, nach Produktgruppe - Milliarden Euro
+TSDGP240	Aggregierte Summe der Unterstützung - Milliarden Euro
+TSDGP310	Gesamte EU Finanzierung für Entwicklung, nach Art - Millionen Euro
+TSDGP320	Ausländische Direktinvestitionen in Entwicklungsländern, nach Einkommensklasse - Millionen Euro
+TSDGP330	Öffentliche Entwicklungshilfe, nach Einkommensklasse - Millionen Euro
+TSDGP340	Ungebundene öffentliche Entwicklungshilfe - %
+TSDGP350	Bilaterale öffentliche Entwicklungshilfe, nach Kategorie - Millionen Euro
+TSDGP410	CO2-Emissionen pro Kopf in der EU und in den Entwicklungsländern - Tonnen
+TSDGP510	Bevölkerung von weniger als 1 USD am Tag lebend - %
+TSDGP520	Öffentliche Entwicklungshilfe pro Kopf, nach Empfängerländer - Euro
+TSDGP530	Bevölkerung mit einem nachhaltigen Zugang zu verbesserten Wasserquellen - %
+TSDGO210	Neue Vertragsverletzungsfälle, nach Politikbereich - Anzahl
+TSDGO220	Umsetzung des Gemeinschaftsrechts, nach Politikbereich - %
+TSDGO310	Wählerbeteiligung an nationalen und EU Parlamentswahlen - %
+TSDGO410	Verhältnis der Umwelt- und Einkommenssteuern an den Gesamtsteuereinnahmen - %
+TSDGO510	Bürgervertrauen in EU-Institutionen - %

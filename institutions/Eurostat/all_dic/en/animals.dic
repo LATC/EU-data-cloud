@@ -1,0 +1,49 @@
+CATTLE	Cattle (total)
+CALF	Total cattle under one year
+CALF_SL	Slaughter calves (<1 year)
+CALF_BR_M	Other male breeding calves (<1 year)
+CALF_BR_F	Other female breeding calves (<1 year)
+BULL1_2Y	Male cattle (1-2 years)
+HEIF1_2Y_SL	Female slaughter heifers (1-2 years)
+HEIF1_2Y_BR	Other female cattle (1-2 years)
+BULL2Y	Male cattle (2 years and above)
+HEIF2Y_SL	Slaughter heifers (2 years and above)
+HEIF2Y_BR	Other breeding heifers (2 years and above)
+COW	Cows (total)
+COW_DAIRY	Dairy cows
+COW_OTH	Other cows
+BUFFALO	Buffaloes (total)
+PIG	Total pigs (total)
+PIGLET20KG	Piglets under 20 kg
+PIGLET20_50KG	Piglets from 20 kg to under 50 kg
+PIG20_50KG	Fattening pigs from 20 kg to under 50 kg
+PIG50KG	Fattening pigs from 50 kg and above
+PIG50_80KG	Fattening pigs from 50 kg to under 80 kg
+PIG80_110KG	Fattening pigs from 80 kg to under 110 kg
+PIG110KG	Fattening pigs from 110 kg and above
+BOARS	Breeding boars
+SOW_BR	Total breeding sows
+SOW_FAR2	Sows having farrowed
+SOW_FAR1	Sows having farrowed for the first time
+SOW_NFAR2	Other sows
+SOW_NFAR1	Maiden gilts not yet farrowed
+SHEEP	Sheep (total)
+GOAT	Goats (total)
+EQUID	Equidae (total)
+POULTRY	Poultry (total)
+OTHER	Others
+TOTAL	Total LSU (Non applicable for units = 1 000 heads)
+PC0000	Total of cattle population
+PC1000	Bovine animals less than 1 year old
+PC1100	Calves for slaughter
+PC1200	Other calves
+PC2000	Bovine animals aged between 1 and 2 years
+PC3000	Bovines animals of 2 years and over
+PC3210	Heifers
+PC3220	Cows
+PC3221	Dairy cows
+PP0000	Total of the pig population
+PS0000	Sheep total
+PG0000	Total of the goat population
+PH1000	Laying hens
+PE0000	Total of equidae

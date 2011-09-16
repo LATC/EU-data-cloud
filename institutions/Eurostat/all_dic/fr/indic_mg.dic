@@ -1,0 +1,6 @@
+TOT_REF	Personnes refusées aux frontières extérieures
+REF_LAND	Personnes refusées à la frontière terrestre
+REF_SEA	Personnes refusées à la frontière maritime
+REF_AIR	Personnes refusées à la frontière aérienne
+TOT_RET	Personnes ayant quitté le territoire
+RET_THRD	Personnes ayant quitté le territoire vers un pays tiers

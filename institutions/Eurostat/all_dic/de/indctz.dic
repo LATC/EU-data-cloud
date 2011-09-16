@@ -1,0 +1,12 @@
+TOTAL	Insgesamt
+NAT	Staatsangehörige
+FOR	Ausländer - Insgesamt
+CTZ_SAM	Private Haushalte mit allen Mitgliedern der gleichen Staatsbürgerschaft
+LIVIN	Lebt im Zählungsland
+EU15_FOR	EU-Ausländer (EU-15)
+EU15_FOR_OTH	Übrige Ausländer (EU15)
+CTZ_DIF	Private Haushalte mit den Mitgliedern der unterschiedlichen Staatsbürgerschaft
+PCTZ	Mindestens ein Mitglied mit Staatsbürgerschaft des Zählungslandes
+NCTZ	Mitglieder unterschiedlicher Nationalitäten, darunter kein Mitglied mit der Staatsangehörigkeit des Zählungslandes
+OTHER	Sonstige
+UNK	Unbekannt

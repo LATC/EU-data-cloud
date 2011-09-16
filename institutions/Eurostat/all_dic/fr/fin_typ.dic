@@ -1,0 +1,123 @@
+B9_S13	Capacité (+)/besoin (-) de financement des administrations publiques
+B9_S1311	Capacité (+)/besoin (-) de financement de l'administration centrale
+B9_S1312	Capacité (+)/besoin (-) de financement des administrations d'Etats fédérés
+B9_S1313	Capacité (+)/besoin (-) de financement des administrations locales
+B9_S1314	Capacité (+)/besoin (-) de financement des administrations de la sécurité sociale
+GGGD	Dette brute consolidée des administrations publiques
+GGGD_AF2	Dette brute consolidée des administrations publiques - Numéraire et dépôts
+GGGD_AF33	Dette brute consolidée des administrations publiques - Titres autres que les actions à l'exclusion des produits financiers dérivés
+GGGD_AF331	Dette brute consolidée des administrations publiques - Titres à court terme autres qu'actions et produits financiers dérivés
+GGGD_AF332	Dette brute consolidée des administrations publiques - Titres à long terme autres qu'actions et produits financiers dérivés
+GGGD_AF4	Dette brute consolidée des administrations publiques - Crédits
+GGGD_AF41	Dette brute consolidée des administrations publiques - Crédits à court terme
+GGGD_AF42	Dette brute consolidée des administrations publiques - Crédits à long terme
+N5	Solde net (-) ou excédent (+) du gouvernement général
+F20F30	Dette brute consolidée du gouvernement général - En monnaie et dépôts
+F40	Dette brute consolidée du gouvernement général - Bons à court terme
+F50	Dette brute consolidée du gouvernement général - Bons à long terme
+F79	Dette brute consolidée du gouvernement général - Autres prêts à court terme
+F89	Dette brute consolidée du gouvernement général - Autres prêts à moyen et long terme
+P41	Formation brute de capital fixe
+PANB	Solde net à financer par l'Etat (comptes publics)
+R41	Charges d'intérêts
+S61	Solde net (-) ou excédent (+) de l'administration centrale
+S62	Solde net (-) ou excédent (+) de l'administration locale
+S63	Solde net (-) ou excédent (+) de la sécurité sociale
+P51	Formation brute de capital fixe
+D41	Intérêts (consolidés)
+NBFS	Solde net à financer de l'Etat (comptes publics)
+PRIMBAL	Solde primaire
+INTINVT	Position extérieure de l'investissement: Total
+DIRINVT	Investissements directs : Total
+DIRINVEQ	Investissements directs: Opérations en capital
+DIRINVEQMFI	Investissements directs, titres de participation et bénéfices réinvestis, IFM (à l'exclusion des banques centrales)
+DIRINVEQOTH	Investissements directs, titres de participation et bénéfices réinvestis, non-IFM
+DIRINVOTH	Investissements directs: Autres opérations
+DIRINVOTHMFI	Investissements directs, autres transactions, IFM (à l'exclusion des banques centrale)
+DIRINVOTHOTH	Investissements directs, autres transactions, non-IFM
+PORINVT	Investissements de portefeuille : Total
+PORINVEQST	Investissements de portefeuille: Actions : Total
+PORINVEQSMA	Investissements de portefeuille: Actions : autorités monétaires
+PORINVEQSGG	Investissements de portefeuille: Actions: administrations publiques
+PORINVEQSMFI	Investissements de portefeuille: Actions : Institutions financières monétaires (à l'exclusion des banques centrales)
+PORINVEQSOS	Investissements de portefeuille: Actions: autres secteurs
+PORINVDBT	Investissements de portefeuille, titres de créance: Total
+PORINVDBBNT	Investissements de portefeuille, titres de créance : Obligations : Total
+PORINVDBBNMA	Investissements de portefeuille, titres de créance : Obligations : Autorités monétaires
+PORINVDBBNGG	Investissements de portefeuille, titres de créance : Obligations : administrations publiques
+PORINVDBBNMFI	Investissements de portefeuille, titres de créance : Obligations : nstitutions financières monétaires (à l'exclusion des banques centrales)
+PORINVDBBNOS	Investissements de portefeuille, titres de créance : Obligations : autres secteurs
+PORINVDBMMT	Investissements de portefeuille, titres de créance : Instruments de marché monétaire : total
+PORINVDBMMMA	Investissements de portefeuille, titres de créance : Instruments de marché monétaire : autorités monétaires
+PORINVDBMMGG	Investissements de portefeuille, titres de créance : Instruments de marché monétaire : Administrations publiques
+PORINVDBMMMFI	Investissements de portefeuille, titres de créance : Instruments de marché monétaire : Institutions financières monétaires (à l'exclusion des banques centrales)
+PORINVDBMMOS	Investissements de portefeuille, titres de créance : Instruments de marché monétaire : autres secteurs
+FINDERT	Produits financiers dérivés : Total
+FINDERMA	Produits financiers dérivés : Autorités monétaires
+FINDERGG	Produits financiers dérivés : Administrations publiques
+FINDERMFI	Produits financiers dérivés : Institutions financières monétaires (à l'exclusion des banques centrales)
+FINDEROS	Produits financiers dérivés : Autres secteurs
+OTHINVT	Autres investissements: Total
+OTHINVMAT	Autres investissements: Autorités monétaires: total
+OTHINVMALCD	Autres investissements: Autorités monétaires: Prêts/monnaie fiduciaire et dépôts
+OTHINVMAOTH	Autres investissements: Autorités monétaires: autres
+OTHINVGGT	Autres investissements: Administrations publiques: total
+OTHINVGGTRC	Autres investissements : Administrations publiques: Crédits commerciaux
+OTHINVGGLCD	Autres investissements: Administrations publiques: Prêts/monnaie fiduciaire et dépôts
+OTHINVGGOTH	Autres investissements: Administrations publiques: autres
+OTHINVMFIT	Autres investissements: Institutions financières monétaires (à l'exclusion des banques centrales): Total
+OTHINVMFILCD	Autres investissements: Institutions financières monétaires (à l'exclusion des banques centrales): Prêts/monnaie fiduciaire et dépôts
+OTHINVMFIOTH	Autres investissements: Institutions financières monétaires (à l'exclusion des banques centrales): autres
+OTHINVOTHERT	Autres investissements: autres secteurs: Total
+OTHINVOTHERTRC	Autres investissements: autres secteurs: Crédits commerciaux
+OTHINVOTHERLCD	Autres investissements: autres secteurs: prêts/monnaie fiduciaire et dépôts
+OTHINVOTHEROTH	Autres investissements: autres secteurs: autres
+RESASSETST	Avoirs de réserves : total
+RESASSETSG	Avoirs de réserves : Or Monetaire
+RESASSETSR	Avoirs de réserves : Droits de tirages spéciaux
+RESASSETSF	Avoirs de réserves : Position de réserve au FMI
+RESASSETSX	Avoirs de réserves : Devises étrangères
+RESASSETSC	Avoirs de réserves : Devises étrangères, Monnaie fiduciaire et dépôts 
+RESASSETSA	Avoirs de réserves : Devises étrangères, Monnaie fiduciaire et dépôts auprès des autorités monétaires et BIS
+RESASSETSM	Avoirs de réserves : Devises étrangères, Monnaie fiduciaire et dépôts auprès autres MFIs 
+RESASSETSS	Avoirs de réserves : Titres
+RESASSETSE	Avoirs de réserves : Titres, Titres de participations
+RESASSETSB	Avoirs de réserves : Titres, Obligations et autres titres d'emprunt
+RESASSETSI	Avoirs de réserves : Titres, Instruments du marché monétaire
+RESASSETSD	Avoirs de réserves : produits dérivés
+RESASSETSO	Avoirs de réserves : Autres créances
+ISSUES	Emissions
+REDEMPT	Remboursements
+NET_ISS	Emissions nettes
+AMOUNT	Encours
+FEGMAR	Dérivés de devises - Valeurs de marché brutes
+FENAM	Dérivés de devises - Montants notionnels
+IRGMAR	Dérivés de taux d'intérêts - Valeurs de marché brutes
+IRNAM	Dérivés de taux d'intérêts - Montants notionnels
+GROSFORDEBT	Dette extérieure brute
+EXPORTRATIO	Dette/export
+CGGD	Dette brute du gouvernement central
+GOVREV	Recettes des administrations publiques
+GOVEXP	Dépenses des administrations publiques
+DEBT_CENGOV	Dette brute de l'administration centrale (sans SEC)
+DEBT_GENGOV	Dette brute des administrations publiques consolidée (sans SEC)
+NETFORDEBT	Dette extérieure net
+DEF_CENGOV	Solde net (-) ou excédent (+) de l'administration centrale (sans SEC)
+DEF_GENGOV	Solde net (-) ou excédent (+)des administrations publiques (sans SEC)
+DIRINVTAB	Investissements directs, A l'étranger (par des résidents), Total
+DIRINVEQAB	Investissements directs, A l'étranger (par des résidents) : Opérations en capital  
+DIRINVEQMFIAB	Investissements directs, A l'étranger (par des résidents), titres de participation et bénéfices réinvestis, IFM (à l''exclusion des banques centrales)
+DIRINVEQOTHAB	Investissements directs, A l'étranger (par des résidents),  titres de participation et bénéfices réinvestis, non-IFM
+DIRINVOTHAB	Investissements directs, A l'étranger (par des résidents): Autres opérations 
+DIRINVOTHMFIAB	Investissements directs, A l'étranger (par des résidents), autres transactions, IFM (à l''exclusion des banques centrale) 
+DIRINVOTHOTHAB	Investissements directs, A l'étranger (par des résidents), autres transactions, non-IFM
+DIRINVTIN	Investissements directs, Dans l'économie nationale (par des non-résidents), Total  
+DIRINVEQIN	Investissements directs, Dans l'économie nationale (par des non-résidents) : Opérations en capital  
+DIRINVEQMFIIN	Investissements directs, Dans l'économie nationale (par des non-résidents), titres de participation et bénéfices réinvestis, IFM (à l''exclusion des banques centrales)
+DIRINVEQOTHIN	Investissements directs, Dans l'économie nationale (par des non-résidents),  titres de participation et bénéfices réinvestis, non-IFM
+DIRINVOTHIN	Investissements directs, Dans l'économie nationale (par des non-résidents): Autres opérations 
+DIRINVOTHMFIIN	Investissements directs, Dans l'économie nationale (par des non-résidents), autres opérations, IFM (à l''exclusion des banques centrale) 
+DIRINVOTHOTHIN	Investissements directs, Dans l'économie nationale (par des non-résidents), autres opérations, non-IFM
+LOAN	Financement par emprunt
+EQUIT	Financement par fonds propres
+OTH	Autres modes de financement

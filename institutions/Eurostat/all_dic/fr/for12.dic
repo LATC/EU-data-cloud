@@ -1,0 +1,44 @@
+D322O1	Superficie totale (1000 ha)
+D322O2	Cours d'eau et lacs (1000 ha)
+D322O3	Superficie des terres totales (1000 ha)
+D322O4	Superficie des terres totales (%)
+D322O5	Superficie boisée (FASB)(1000 ha)
+D322O6	Superficie boisée (FASB)(%)
+D322O7	Superficie agricole utilisée (1000 ha)
+D322O8	Superficie agricole utilisée (%)
+D322O9	Autre superficie des terres (1000 ha)
+D322O10	Autre superficie des terres (%)
+D322O11	FASB par habitant (ha)
+D322O12	Période de référence 1 (P1) de
+D322O13	Période de référence 1 (P1) à
+D322O14	Période de référence 2 (P2) de
+D322O15	Période de référence 2 (P2) à
+D322O30	Période de référence 3 (P3) de
+D322O31	Période de référence 3 (P3) à
+D322O36	Période de référence 4 (P4) de
+D322O37	Période de référence 4 (P4) à
+D322O16	Forêts et autres superficies boisées (FASB) (P2) (1000 ha)
+D322O17	Forêts (superficie forestière) (P2) (1000 ha)
+D322O18	Autres superficies boisées (P2) (1000 ha)
+D322O19	Changement annuel moyen de la superficie forestière (P1 à P2)(1000 ha)
+D322O20	Forêts disponibles pour la production de bois (FDPB) (P2) (1000 ha)
+D322O21	FDPB: Pourcentage par rapport au total de la superficie forestière (%) (P2-P1) (1000 ha)
+D322O22	Changement annuel moyen des FDPB (P1 à P2)(1000 ha)
+D322O23	Matériel sur pied des forêts (P1) (1000 m³ sur écorce)
+D322O24	Matériel sur pied des forêts (P2) (1000 m³ sur écorce)
+D322O25	Changement annuel moyen du matériel sur pied des forêts (P1 à P2)(1000 m³ sur écorce/année)
+D322O26	Matériel sur pied des FDPB (P1) (1000 m³ sur écorce)
+D322O27	Matériel sur pied des FDPB (P2) (1000 m³ sur écorce)
+D322O28	Changement annuel moyen du matériel sur pied des FDPB (P1 à P2)(1000 m³ sur écorce/année)
+D322O29	Matériel sur pied des FDPB par ha (m³ sur écorce/ha)
+D322O32	Accroissement annuel net (AAN) dans les FDPB (P3) (1000 m³ sur écorce)
+D322O33	AAN des résineux dans les FDPB (P3) (1000 m³ sur écorce)
+D322O34	AAN des feuillus dans les FDPB (P3) (1000 m³ sur écorce)
+D322O35	AAN des FDPB par ha (P3) (m³ sur écorce/ha)
+D322O38	Abattages: total FDPB (P4) (1000 m³ sur écorce)
+D322O39	Abattages: résineux FDPB (P4) (1000 m³ sur écorce)
+D322O40	Abattages: feuillus FDPB (P4) (1000 m³ sur écorce)
+D322O41	Quantités enlevées: total FDPB (P4) (1000 m³ sur écorce)
+D322O42	Quantités enlevées: résineux FDPB (P4) (1000 m³ sur écorce)
+D322O43	Quantités enlevées: feuillus FDPB (P4) (1000 m³ sur écorce)
+D322O50	Forêts non disponibles pour ressource en bois

@@ -1,0 +1,37 @@
+TOT_HOSP	Total de l'emploi à hôpital
+PHYS	Médecins
+PHYS_PRA	Médecins exerçant leur profession
+PHYS_ACT	Médecins professionnellement actifs
+PHYS_LIC	Médecins habilités à exercer
+DENT	Dentistes
+DENT_PRA	Dentistes exerçant leur profession
+DENT_ACT	Médecins professionnellement actifs
+DENT_LIC	Dentistes professionnellement actifs
+PHAR	Pharmaciens
+PHAR_PRA	Pharmaciens exerçant leur profession
+PHAR_ACT	Pharmaciens professionnellement actifs
+PHAR_LIC	Pharmaciens habilités à exercer
+KINE	Physiothérapeutes (kinésithérapeutes)
+NUR_MID_CARE	Infirmiers, sages-femmes et aides-soignants (total)
+NUR_MID	Infirmiers et sages-femmes (total)
+NURP_MID	Cadres infirmiers et de sages-femmes (total)
+MID	Sages-femmes
+NUR	Tous infirmiers (niveau cadre ou intermédiaire)
+NURP	Cadres infirmiers
+NURA	Personnel infirmiers (niveau intermédiaire)
+CARE	Aides-soignants
+SPEC	Spécialiste médical ou chirurgical
+OTH_SERV	Autre fournisseurs de service de santé employés par un hôpital
+OTH	Autre personnels employés par un hôpital
+INSTR_TEACH	Enseignants (CITE 0-4) et personnel académique (CITE 5-6)
+INSTR_AID	Assistants de professeur (CITE 0-4) et enseignement/assistants de recherche (CITE 5-6)
+SUPP	Soutien professionnel des étudiants
+SUPP_PED	Support pédagogique (CITE 0-4) ; support académique (CITE 5-6)
+SUPP_HS	Santé et support social (CITE 0-6)
+MANAG_SCH	Gestion du niveau d'école (CITE 0-6)
+MANAG_HI	Gestion de niveau plus élevé (CITE 0-6)
+ADM_SCH	Personnel administratif de niveau scolaire (cite 0-6)
+ADM_HI	Personnel administratif de niveau supérieur (cite 0-6)
+OPER	Personnel d'entretien et de fonctionnement
+ERASMUS_IN	Personnel académique provenant de l'étranger dans le cadre du programme Erasmus
+ERASMUS_OUT	Personnel académique à l'étranger dans le cadre du programme Erasmus

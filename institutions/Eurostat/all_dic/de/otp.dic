@@ -1,0 +1,14 @@
+AVG	Durchschnitt
+MOV3M	Beweglicher Dreimonatsdurchschnitt (zentriert)
+BEG	Wert am Periodenanfang
+CUM	Kumulierte Reihen
+END	Wert am Periodenende
+MAX	Höchstwert in der Periode
+MIN	Mindestwert in der Periode
+MOV	Beweglicher Durchschnitt über die letzten 12 Monate
+POV	Wert zu einem bestimmten Zeitpunkt
+TOT	Total, Summe
+STD	Standardabweichung
+CV	Variationskoeffizient
+OA	Bestände
+NB	Neugeschäft

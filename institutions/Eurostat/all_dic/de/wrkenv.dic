@@ -1,0 +1,15 @@
+TOTAL	Insgesamt
+WEN_00	Keine Angabe
+WEN_01	Industrieller, gewerblicher Bereich - ohne nähere Angabe
+WEN_02	Baustelle, Bau, Steinbruch, Tagebau - ohne nähere Angabe
+WEN_03	Landwirtschaftlicher Bereich, Bereich der Tierzucht, der Fischzucht, Forstbereich - ohne nähere Angabe
+WEN_04	Bereich für Dienstleistungstätigkeiten, Büro, Unterhaltungseinrichtung, Verschiedenes - ohne nähere Angabe
+WEN_05	Einrichtung des Gesundheitswesens, Pflegeeinrichtungen - ohne nähere Angabe
+WEN_06	Öffentlicher Bereich - ohne nähere Angabe
+WEN_07	Heimbereich - ohne nähere Angabe
+WEN_08	Bereich zur Sportausübung- ohne nähere Angabe
+WEN_09	In der Luft, in der Höhe - mit Ausnahme von Baustellen - ohne nähere Angabe
+WEN_10	Untertagebereich - mit Ausnahme von Baustellen - ohne nähere Angabe
+WEN_11	Auf dem Wasser - mit Ausnahme von Baustellen - ohne nähere Angabe
+WEN_12	In Überdruckumgebung - mit Ausnahme von Baustellen - ohne nähere Angabe
+WEN_99	Sonstige nicht in dieser Klassifikation aufgeführte Arbeitsumgebung

@@ -1,0 +1,100 @@
+A000	Insgesamt
+A001	Beherbergungsbetriebe insgesamt
+A100	Hotels und ähnliche Betriebe
+A010	Hotels
+A011	Hotels mit 1 Stern
+A012	Hotels mit 2 Sternen
+A013	Hotels mit 3 Sternen
+A014	Hotels mit 4 Sternen
+A015	Hotels mit 5 Sternen und Luxushotels
+A019	Hotels nicht klassifiziert
+A020	Ähnliche Betriebe
+B010	Touristische Campingplätze
+B020	Ferienwohnungen
+B021	Feriendörfer
+B040	Sonstige Beherbergungsbetriebe
+B041	Fremdenverkehrsbeherbergungsbetriebe sozialer Art
+B100	Sonstige Beherbergungsbetriebe, insgesamt
+B200	Ergänzungsbeherbergungsbetriebe
+C010	Betriebe mit medizinischen Einrichtungen
+C020	Öffentliche Verkehrsmittel
+C030	Arbeits- und Ferienlager / Gruppenunterkünfte
+C040	Kongreßzentren
+C100	Spezialisierte Betriebe
+D010	Gemietete Unterkünfte
+D011	Privat vermietete Räume in Familienwohnungen
+D012	Von Privatpersonen oder professionellen Agenturen gemietete Ferienwohnungen
+D020	Zweitwohnungen
+D030	Sonstige Arten privater Unterkünfte
+D031	Kostenlose Unterkünfte bei Verwandten, Bekannten oder Freunden
+D100	Private Unterkünfte
+F001	Hotels und sonstige Beherbergungsbetriebe (NACE 55.1 und 55.2)
+F002	Gastgewerbe (NACE 55)
+F003	Hotels, Gasthöfe, Pensionen und Hotels garnis (NACE 55.1)
+F004	Sonstiges Beherbergungsgewerbe (NACE 55.2)
+F005	Jugendherbergen und Hütten (NACE 55.21)
+F006	Campingplätze (NACE 55.22)
+F007	Beherbergungsgewerbe a.n.g. (NACE 55.23)
+F008	Restaurants, Cafés, Eisdielen und Imbisshallen (NACE 55.3)
+F009	Sonstiges Gaststättengewerbe (NACE 55.4)
+F010	Kantinen und Caterer (NACE 55.5)
+F011	Reisebüros und Reiseveranstalter (NACE 63.3)
+F012	Vermietung von Kraftwagen bis 3.5t Gesamtgewicht (NACE 71.1)
+F013	Sonstige Personenbeförderung im Landverkehr (NACE 60.23)
+F014	Bibliotheken, Archive, Museen, botanische und zoologische Gärten (NACE 92.5)
+F015	Sonstige touristische Gewerbezweige (Yachthäfen, Kasinos, Zirkusse usw.)
+F016	Yachthäfen (NACE 63.21)
+F017	Verkehrsvereine usw. (NACE 75.12)
+F018	Sonstige touristische Gewerbezweige (ohne Verkehrsvereine)
+F100	Tourismusaktivitäten insgesamt
+G000	Allgemeine Verwaltung
+G001	Wirtschaftliche Gewerbezweige insgesamt
+G002	Schienenbetrieb - insgesamt
+G003	Schienenbetrieb - Betrieb und Verkehr
+G004	Schienenbetrieb - Zugförderung- und Fahrzeugunterhaltung
+G005	Schienenbetrieb - ortsfeste Anlagen
+G006	Sonstige Dienstzweige
+G010	Landwirtschaft
+G020	Industrie
+G030	Marktbestimmte Dienstleistungen
+G031	Handel
+G032	Beherbergungsbetriebe und sonstige touristische Gewerbezweige
+G033	Verkehr und Kommunikation
+G034	Kredit und Versicherungswesen
+G035	Sonstige Dienstleistungen
+G040	Nichtmarktbestimmte Dienstleistungen
+G041	Öffentliche Verwaltungen
+G042	Sonstige Nichtmarktbestimmte Dienstleistungen
+G050	Gesamtindex (HVPI 00)
+G051	Tourismus
+G052	Verkehr (HVPI 07)
+G053	Verkehrsleistungen (HVPI 073)
+G054	Freizeit und Kultur (HVPI 09)
+G055	Pauschalreisen (HVPI 094)
+G056	Hotels, Cafés und Restaurants (HVPI 11)
+G057	Restaurants und Cafés (HVPI 1111)
+G058	Beherbergungsleistungen (HVPI 112)
+H001	Seehäfen
+H002	Flughäfen
+H003	Eisenbahn
+H004	Straßen
+H005	Landweg (Eisenbahn und Straßen)
+I001	Erzeugnisse der Landwirtschaft, der Forstwirtschaft und der Fischerei (Nace-Clio 01)
+I002	Energieerzeugnisse (Nace-Clio 06)
+I003	Gewerbliche Erzeugnisse (Nace-Clio 30)
+I004	Hoch und Tiefbauten (Nace-Clio 53)
+I005	Marktbestimmte Dienstleistungen (Nace-Clio 68)
+I006	Rückgewinnung und Reparaturen, Dienstleistungen des Handels (Nace-Clio 56)
+I007	Dienstleistungen des Gaststätten- und Beherbergungsgewerbes (Nace-Clio 59)
+I008	Dienstleistungen des Inlandverkehrs (Nace-Clio 61)
+I009	Dienstleistungen des See- und Luftverkehrs (Nace-Clio 63)
+I010	Nebenleistungen des Transportgewerbes  (Nace-Clio 65)
+I011	Dienstleistungen der Nachrichtenübermittlung (Nace-Clio 67)
+I012	Dienstleistungen des Kreditwesens und des Versicherungsgewerbes (Nace-Clio 69a)
+I013	Sonstige marktbestimmte Dienstleistungen (Nace-Clio 74)
+I014	Nichtmarktbestimmte Dienstleistungen (Nace-Clio 86)
+J000	Zahlungsbilanz - insgesamt
+J001	Zahlungsbilanz - Reiseverkehr
+J002	Zahlungsbilanz - Transport von Reisenden
+J003	Zahlungsbilanz - Tourismus (Reiseverkehr und Transport von Reisenden)
+J010	Zahlungsbilanz - Dienstleistungen

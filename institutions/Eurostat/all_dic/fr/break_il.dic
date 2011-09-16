@@ -1,0 +1,25 @@
+T	Population totale
+M	Hommes
+F	Femmes
+Y16_24	Entre 16 et 24 ans
+Y25_54	Entre 25 et 54 ans
+Y55_MAX	55 ans et plus
+ISCED0_2	Enseignement préprimaire, primaire et premier cycle de l'enseignement secondaire - niveaux 0-2 (CITE 1997)
+ISCED3	Enseignement secondaire (deuxième cycle) - niveau 3 (CITE 1997)
+ISCED5_6	Enseignement supérieur - niveaux 5-6 (CITE 1997)
+MORE30H	Plus de 30 heures travaillées par semaine
+LESS30H	Moins de 30 heures travaillées par semaine
+PERMANENT	Contrat de travail permanent
+TEMPORARY	Contrat de travail temporaire
+EMP_NOT_SELF	Emploi sauf indépendants
+SELF	Indépendants
+FULLYEAR	Travaillant l'année complète
+LESSFULL	Travaillant moins d'une année complète
+FULLTIME	Travaillant à temps complet
+PARTTIME	Travaillant à temps partiel
+A1W1NC	Un adulte travaillant et vivant seul, sans enfants
+A1W1CH	Un adulte travaillant et vivant seul, un ou plusieurs enfants
+AGE2W1NC	Un adulte travaillant et vivant avec d'autres adultes ne travaillant pas, sans enfants
+AGE2W1CH	Un adulte travaillant et vivant avec d'autres adultes ne travaillant pas, un ou plusieurs enfants
+AGE2WGE2NC	Un adulte travaillant et vivant avec d'autres adultes dont certains ou tous travaillent, sans enfants
+AGE2WGE2CH	Un adulte travaillant et vivant avec d'autres adultes dont certains ou tous travaillent, un ou plusieurs enfants

@@ -1,0 +1,9 @@
+TOTAL	Total
+0	Pas de travail sur l'exploitation
+0_49	< 50% d'un plein temps
+1_24	< 25% d'un plein temps
+25_49	25% -< 50% d'un plein temps
+50_74	50% -< 75% d'un plein temps
+75_99	75% -< 100% d'un plein temps
+1_99	Temps partiel
+100	Travaillant à plein temps

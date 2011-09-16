@@ -1,0 +1,16 @@
+TOT_PAT	Total patents in the declaring country
+SGL	Single inventors/applicants
+CO_NAT	Co-patents involving inventors/applicants from the declaring country
+CO_EU	Co-patents involving inventors/applicants from the declaring country and one or more EU Member States
+CO_EU_NEU	Co-patents involving inventors/applicants from the declaring country, one or more EU Member States and one or more non EU countries
+CO_NEU	Co-patents involving inventors/applicants from the declaring country and one or more non-EU countries
+CO_EUI_NEUA	Share of patents with EU inventor and non-EU applicant in the total of EU's domestic inventions
+CO_NEUI_EUA	Share of patents with non-EU inventor and EU applicant in the total of EU's domestic applications
+EU_PUB	Share of EU in the total number of patent citations
+CIT_NEU	Number of EU patent citations referring to non-EU patent publications
+CIT_EU	Number of EU patent citations referring to EU patent publications
+CO_NEU_MS	Share of co-patenting between a EU Member State and non-EU countries in the total of each EU Member State patents
+CO_EU_MS	Share of co-patenting between a EU Member State and another EU Member State(s) in the total of each EU Member State patents
+CO_NEU_EU	Share of co-patenting between EU Member States and non-EU countries in the total of all EU patents
+CO_EU_EU	Share of co-patenting between EU Member States in the total of all EU patents
+CO_INT	Share of co-patenting between EU Member States and non-EU countries in the total of all international patents

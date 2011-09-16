@@ -1,0 +1,49 @@
+TOTAL	Total
+0	Zéro
+1	1
+1_10	Entre 1 et 10
+2	2
+2_3	Entre 2 et 3
+2_5	Entre 2 et 5
+GE_2	2 ou plus
+3	3
+3_5	Entre 3 et 5
+GE_3	3 ou plus
+GT_3	Plus de 3
+4	4
+4_5	Entre 4 et 5
+GE_4	4 ou plus
+5	5
+GE_5	5 ou plus
+6	6
+6_7	Entre 6 et 7
+6_9	Entre 6 et 9
+6_10	Entre 6 et 10
+GE_6	6 ou plus
+7	7
+GE_7	7 ou plus
+8	8
+8_19	Entre 8 et 19
+GE_8	8 ou plus
+9	9
+GE_9	9 ou plus
+10	10
+10_19	Entre 10 et 19
+GE_10	10 ou plus
+11_15	Entre 11 et 15
+11_49	Entre 11 et 49
+16_20	Entre 16 et 20
+20_49	Entre 20 et 49
+GE_20	20 ou plus
+21_30	Entre 21 et 30
+GT_30	Plus de 30
+GE_50	50 ou plus
+OTHER	Autres
+UNK	Inconnu
+NRESP	Sans réponse
+TOT_CH	Nombre total d'enfants
+TOT_HH	Nombre total de ménages
+TOT_PERS	Nombre total de personnes
+TOT_PERS_FAM	Nombre total de personnes dans le noyau familial
+TOT_POPHH	Population totale dans les ménages privés
+TOT_PERS_DWEL	Nombre de personnes dans les logements

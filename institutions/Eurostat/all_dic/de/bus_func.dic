@@ -1,0 +1,10 @@
+CORE_F	Kernfunktion (Erzeugung/Erbringung marktbestimmter Güter und Dienstleistungen)
+SUP_F	Unterstützungsfunktion
+DIST_F	Vertrieb und Logistik
+MK_F	Marketing, Verkauf und Kundendienst
+ICT_F	IKT-Dienstleistungen
+ADM_F	Verwaltung und Management
+ENG_F	Ingenieurbüroleistungen
+RD_F	Forschung und Entwicklung
+OTHER	Sonstige Funktionen
+CO_SUP_F	Kern- und/oder Unterstützungsfunktion

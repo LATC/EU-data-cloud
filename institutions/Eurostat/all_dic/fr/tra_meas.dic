@@ -1,0 +1,35 @@
+TOTAL	Total
+PASS	Passagers embarqués et débarqués
+PASS_ONLY	Passager seulement
+PASS_EMB	Passagers embarqués
+PASS_DISEMB	Passagers débarqués
+PASS_TRANSIT	Passagers en transit
+PASS_BRD	Total de passagers à bord
+PASS_BRD_ARR	Passagers à bord (arrivées)
+PASS_BRD_DEP	Passagers à bord (départs)
+PASS_CRD	Passagers transportés
+PASS_CRD_ARR	Passagers transportés (arrivées)
+PASS_CRD_DEP	Passagers transportés (départs)
+PASS_DRT_TRANS	Total des passagers en transit direct
+PASS_ST	Sièges passagers offerts
+PASS_ST_ARR	Sièges passagers offerts (arrivées)
+PASS_ST_DEP	Sièges passagers offerts (départs)
+FR_ONLY	Marchandises seulement
+FRM	Fret et courrier en tonnes
+FRM_BRD	Total fret et courrier à bord en tonnes
+FRM_BRD_ARR	Fret et courrier à bord en tonnes (arrivées)
+FRM_BRD_DEP	Fret et courrier à bord en tonnes (départs)
+FRM_LD_UNLD	Total fret et courrier chargés/déchargés en tonnes
+FRM_UNLD	Fret et courrier déchargés en tonnes
+FRM_LD	Fret et courrier chargés en tonnes
+PASS_FR	Voyageurs seulement
+TOT_CAF	Total de vols commerciaux (passagers + exclusif fret et courrier)
+PASS_CAF	Total de vols commerciaux de passagers
+PASS_CAF_ARR	Vols commerciaux de passagers (arrivées)
+PASS_CAF_DEP	Sièges passagers offerts (départs)
+FRM_CAF	Total de vols commerciaux exclusifs fret et courrier
+FRM_CAF_ARR	Vols commerciaux exclusifs fret et courrier (arrivées)
+FRM_CAF_DEP	Vols commerciaux exclusifs fret et courrier (départs)
+COM_MOV	Nombre de mouvements commerciaux
+COM_AIRCR_MOV	Total des mouvements commerciaux d'aéronefs
+AIRCR_MOV	Nombre total de mouvements d'avion

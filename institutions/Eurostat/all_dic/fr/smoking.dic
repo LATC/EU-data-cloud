@@ -1,0 +1,9 @@
+TOTAL	Total
+DSM	Fumeur
+NSM	Non-fumeur
+NVSM	Jamais fumé
+DSM_GE20	Fumeur de cigarette quotidien, 20 ou plus par jour
+DSM_LT20	Fumeur de cigarette quotidien, moins de 20 par jour
+OCSM	Fumeur occasionnel
+EX_DSM	Ancien fumeur quotidien
+EX_OCSM	Ancien fumeur occasionnel

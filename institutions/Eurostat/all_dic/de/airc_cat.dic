@@ -1,0 +1,16 @@
+TOTAL	Insgesamt
+PASS	Passagierflugzeuge (insgesamt)
+PASS_LE_50	Passagierflugzeuge mit weniger als 50 Sitzen
+PASS_51_150	Passagierflugzeuge mit 51 bis 150 Sitzen
+PASS_151_250	Passagierflugzeuge mit 151 bis 250 Sitzen
+PASS_GT_250	Passagierflugzeuge mit mehr als 250 Sitzen
+CARGO	Frachtflugzeuge
+FRT	Zivile Frachtflugzeuge insgesamt im Dienst
+FRT_LE100000	Anzahl der zivilen Frachtflugzeuge mit eine Ladegewicht von weniger als 100.000 lbs
+FRT_GT100000	Anzahl der zivilen Frachtflugzeuge mit eine Ladegewicht über 100.000 lbs
+AMB_BSN	Anzahl der im Dienst befindlichen zivilen Spezial- Ambulanz- und Geschäftsflugzeuge
+AMB	Anzahl der Spezial-und Ambulanzflugzeuge
+BSN	Anzahl der Geschäfts-Firmen- und Privatflugzeuge Privat- und Geschäftsflugzeuge
+COMBI	Flugzeuge für Passagiere und Fracht
+QUICK	Schnell umrüstbare Flugzeuge
+OTHER	Sonstige Flugzeuge

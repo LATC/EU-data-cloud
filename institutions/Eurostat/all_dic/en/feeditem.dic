@@ -1,0 +1,175 @@
+10000	Marketable feedingstuffs
+11000	Feedingstuffs of vegetable origin
+11100	All cereals, excluding rice
+11110	Wheat
+11120	Rye
+11130	Barley
+11140	Oats
+11150	Maize
+11160	Sorghum
+11170	Triticale
+11180	Other cereals (excluding rice)
+11200	Rice (broken)
+11300	Dried pulses
+11310	Peas
+11330	Broad and field beans
+11350	Other dried pulses
+11400	Potatoes
+11500	Sugar
+11600	Vegetable fats and oils
+11700	Processed green fodder
+11710	Lucerne (Alfalfa)
+11740	Other processed green foddeer
+11800	Manioc
+11900	Other feedingstuffs of vegetable origin
+11940	Locust beans
+11960	Cocoa shells
+11980	Other
+11990	Oilseeds
+11991	Rapeseeds
+11992	Sunflower
+11993	Soya beans
+11997	Other oilseeds
+12000	Processed by-products
+12100	By-products of the milling industry
+12110	By-products of wheat
+12130	By-products of maize
+12140	By-products of rice
+12160	Other by-products of the milling industry
+12200	By-products of the brewing industry
+12210	Brewer grains, wet
+12220	Brewer grains, dry
+12250	Malt sprouts
+12260	Yeast dried
+12290	Other by-products of the brewing industry
+12300	By-products of the distilling industry
+12310	Getreideschlempe, frisch
+12320	Kartoffelschlempe, frisch
+12330	Marc, wet (apples/pears)
+12340	Marc, dry (apples/pears)
+12350	Distil. Dry Soluble
+12360	Distil. Dark Grains
+12390	Other by-products of the distilling industry
+12400	By-products of the starch industry
+12410	Gluten
+12420	Corn Gluten feed
+12430	Potato pulp
+12431	Potato pulp wet
+12432	Potato pulp dry
+12460	Potato protein
+12480	Aardappel snippers gedroogd
+12490	Aardappel diksap
+12492	Other by-products of the starch industry
+12500	By-products of the sugar industry
+12510	Sugarbeet pulp
+12511	Sugarbeet pulp, wet
+12512	Sugarbeet pulp, dry
+12513	Sugarbeet pulp, sweet
+12514	Sugarbeet pulp, pressed
+12520	Molasses total
+12521	Molasses from sugar beets
+12522	Molasses from sugar cane
+12550	Other by-products of the sugar industry
+12600	Oil cakes (By-products of oil industry)
+12610	Rapeseed cake
+12620	Sunflower cake
+12630	Soyabean cake
+12640	Linseed cake
+12650	Maize germ cake
+12660	Sesame cake
+12670	Groundnut cake
+12680	Copra/Coconut cake
+12690	Palmkernel cake
+12691	Cottonseed cake
+12692	Other oilcakes
+12693	Olive oilcakes
+12700	Other by-products
+12710	Citrus pulp
+12730	Maizegrits
+12740	Residues of the potato industry
+12760	Residues of the fruit juice industry
+12780	Soyabean milling
+12790	Tomato pulp
+12792	Tomato pulp dry
+13000	Feedingstuffs of animal origin
+13100	Processed marine animals
+13110	Fish meal
+13150	Other products of marine animals
+13200	Processed land animals
+13210	Meat meal
+13220	Bone meal
+13230	Blood meal
+13240	Carcasse meal
+13250	Feather meal
+13270	Meat and bone meal
+13290	Other products of land animals
+13300	Animal fats and oils
+13310	Fats and oils of marine animals
+13320	Fats and oils of land animals
+13400	Milk and dairy products
+13410	Whole milk,  liquid
+13411	Milk from cows
+13412	Milk from sheeps
+13413	Milk from goats
+13420	Skim milk and buttermilk, liquid
+13430	Liquid whey
+13440	Whole milk powder
+13450	Skim milk and buttermilk powder
+13460	Whey in powder
+13500	Other feedingstuffs of animal origin
+20000	Feedingstuffs normally not marketable
+21000	Annual fodder
+21100	Root crops
+21110	Sugar beets (roots)
+21120	Fodder beets (roots)
+21130	Swedes
+21140	Fodder turnips
+21150	Fodder carrots
+21160	Fodder cabbage/kale
+21170	Other root crops
+21180	Sweet potatoes
+21200	Fodder maize
+21210	Fodder maize as green maize
+21220	Fodder maize as silage maize
+21300	Other green fodder
+21310	Other green fodder, green
+21320	Other green fodder, ensilage
+22000	Perennial fodder crops (temporary and permanent)
+22100	Temporary fodder crops and pastures
+22110	Lucerne
+22120	Clover
+22130	Other leguminous crops
+22140	Meadows
+22150	Pastures
+22200	Permanent fodder crops and pastures
+22210	Meadows (hay)
+22220	Pastures
+22250	Silage
+22270	Other
+23000	Crop by-products
+23100	Straw and chaff
+23110	Straw and chaff of wheat
+23130	Straw and chaff of barley
+23140	Straw and chaff of oats
+23170	Straw and chaff of pulses
+23180	Other straw and chaff
+23200	Leaves and tops
+23210	Leaves and tops of sugar beets
+23220	Leaves and tops of fodder beets
+23240	Other leaves and tops
+23300	Other crop by-products
+23310	Witloof roots
+23320	Other (Forragio, Cimature di mais, ...)
+24000	Feedingstuffs not specified elsewhere
+24100	Vegetables
+24200	Fruits
+24210	Apples
+24220	Pears
+24230	Figs
+24240	Citrus fruits
+24250	Chestnuts
+24260	Other fruits
+24300	Offals
+24400	Other feedingstuffs not specified elsewhere
+24410	Oaks
+24420	Other

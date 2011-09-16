@@ -1,0 +1,562 @@
+KEY_01	Bevölkerung, insgesamt
+KEY_01B	Bevölkerung, Wachstum (in %)
+KEY_02A	BIP (jeweilige US$)
+KEY_02A_EU	BIP (jeweilige Euro)
+KEY_02A_NC	BIP (jeweilige LWE)
+KEY_02B	BIP (konstante US$ 2000)
+KEY_02B_EU	BIP (konstante Euro 2000)
+KEY_02B_NC	BIP (konstante LWE 2000)
+KEY_02C	BIP pro Kopf (jeweilige US$)
+KEY_02C_EU	BIP pro Kopf (jeweilige Euro)
+KEY_02D	BIP pro Kopf (konstante US$ 2000)
+KEY_02D_EU	BIP pro Kopf (konstante Euro 2000)
+KEY_02D_NC	BIP pro Kopf (konstante LWE)
+KEY_03A	BIP Wachstum (jährlich, % - jeweilige US$)
+KEY_03A_EU	BIP Wachstum (jährlich in % - Euro)
+KEY_03A_NC	BIP-Wachstum (jährlich % konstante LWE)
+KEY_03B	BIP pro Kopf, Wachstum (jährlich in %)
+KEY_03B_EU	BIP pro Kopf, Wachstum (jährlich in % - Euro)
+KEY_03B_NC	BIP-Wachstum pro Kopf (jährlich, % konstante LWE)
+KEY_04	Bruttoanlageinvestitionen (% des BIP)
+KEY_05	Ausfuhren von Waren und Dienstleistungen (% des BIP)
+KEY_06	Handelsbilanz der Waren insgesamt (% des BIP)
+KEY_07	Leistungsbilanz (% des BIP)
+KEY_08	Auslandsinvestitionen, netto (% des BIP)
+KEY_09	Auslandsschulden (% des BIP)
+KEY_10	Schuldendienst insgesamt (% der Ausfuhren von Waren und Dienstleistungen)
+KEY_11	Rücklagen insgesamt in Importmonaten
+KEY_12A	Einnahmen (% des BIP)
+KEY_12B	Kapitalsubventionen (% des BIP)
+KEY_13	Ausgaben (% des BIP)
+KEY_14	Kassenüberschuß/-defizit (% des BIP)
+KEY_15	Entwicklung der Verbraucherpreise (jährliche Durchschnittsveränderung in %)
+KEY_16	Zinssätze: Rendite langfristiger Staatsanleihen
+KEY_17	Wechselkurse - Landeswährung je US-Dollar  - Durchschnitt des Zeitraums
+KEY_18	Telefonanschlüsse und Mobiltelefonverträge pro 100 Einwohner
+KEY_18A	Mobiltelefonabonnements (pro 100 Personen)
+KEY_18B	Telefonanschlüsse (pro 100 Personen)
+KEY_19	Verfahrenskosten einer Betriebsgründung (% des BNE pro Kopf)
+KEY_20	Notwendige Zeit für eine Betriebsgründung (Tage)
+KEY_21	Zugang der ländlichen Bevölkerung zu einer ganzjährig befahrbare Strasse (Rural Access Index)
+KEY_22	Haushaltselektrifizierungsrate (% der Haushalte)
+3A101	BIP (konstante US$ 2000)
+3A102	BIP (konstante LWE)
+3A103	BIP (jeweilige LWE)
+3A106	BIP pro Kopf (konstante US$ 2000)
+3A107	BIP pro Kopf (konstante LWE)
+3A108	BIP pro Kopf, KKP (konstante internationale $ 2000)
+3A109	BIP, KKP (konstante internationale $ 2000)
+3A110	BIP, KKP (jeweilige internationale $)
+3A111	Bruttonationaleinkommen (BNE) (konstante LWE)
+3A112	BNE (jeweilige LWE)
+3A113	BNE (jeweilige US$)
+3A114	BNE pro Kopf, Atlas-Methode (jeweilige US$)
+3A201	Ausfuhren von Waren und Dienstleistungen (jeweilige LWE)
+3A202	Ausfuhren von Waren und Dienstleistungen (jeweilige US$)
+3A203	Einfuhren von Waren und Dienstleistungen (jeweilige LWE)
+3A204	Einfuhren von Waren und Dienstleistungen (jeweilige US$)
+3A301	Landwirtschaft, Wertschöpfung (% des BIP)
+3A302	Landwirtschaft, Wertschöpfung (jeweilige LWE)
+3A303	Landwirtschaft, Wertschöpfung (jeweilige US$)
+3A304	Industrie, Wertschöpfung (% des BIP)
+3A305	Industrie, Wertschöpfung (jeweilige LWE)
+3A306	Industrie, Wertschöpfung (jeweilige US$)
+3A307	Verarbeitendes Gewerbe, Wertschöpfung (jeweilige LWE)
+3A308	Verarbeitendes Gewerbe, Wertschöpfung (jeweilige US$)
+3A309	Dienstleistungen usw., Wertschöpfung (% des BIP)
+3A310	Dienstleistungen usw., Wertschöpfung (jeweilige LWE)
+3A311	Dienstleistungen usw., Wertschöpfung (jeweilige US$)
+3A401	Außenbeitrag (jeweilige LWE)
+3A402	Außenbeitrag (jeweilige US$)
+3A704	Bruttoanlageinvestitionen (jährliches prozentuales Wachstum)
+3A705	Bruttoanlageinvestitionen (konstante US$ 2000)
+3A706	Bruttoanlageinvestitionen (konstante LWE)
+3A707	Bruttoanlageinvestitionen (jeweilige LWE)
+3A708	Bruttoanlageinvestitionen  (jeweilige US$)
+3A709	Bruttowertschöpfung zu Faktorkosten (jeweilige LWE)
+3A710	Bruttowertschöpfung zu Faktorkosten (jeweilige US$)
+3A501	Auslandsverschuldung, insgesamt (DOD, jeweilige US$)
+3A502	Gegenwartswert der Schulden (% der Ausfuhren von Waren und Dienstleistungen)
+3A504	Schuldendienst insgesamt (TDS, jeweilige US$)
+3A601	Konsumausgaben usw. (jeweilige LWE)
+3A602	Konsumausgaben usw. (jeweilige US$)
+3A603	Konsumausgaben des Staates (jeweilige LWE)
+3A604	Konsumausgaben des Staates (jeweilige US$)
+3A605	Konsumausgaben der privaten Haushalte usw. (jeweilige LWE)
+3A606	Konsumausgaben der privaten Haushalte usw. (jeweilige US$)
+3A701	Bruttoanlageinvestitionen (jeweilige LWE)
+3A702	Bruttoanlageinvestitionen (jeweilige US$)
+3A801	Nettosteuern auf Produkte (jeweilige LWE)
+3A802	Nettosteuern auf Produkte (jeweilige US$)
+3B01	Verbraucherpreisindex (2000 = 100)
+1B100	Leistungsbilanz - Leistungsbilanz: Saldo - (in Mio. USD)
+1B110	Leistungsbilanz - Waren und Dienstleistungen: Saldo - (in Mio. USD)
+1B111	Leistungsbilanz - Waren: Kredit - (in Mio. USD)
+1B112	Leistungsbilanz - Waren: Debit - (in Mio. USD)
+1B113	Leistungsbilanz - Waren: Saldo - (in Mio. USD)
+1B114	Leistungsbilanz - Dienstleistungen: Kredit - (in Mio. USD)
+1B115	Leistungsbilanz - Dienstleistungen: Debit - (in Mio. USD)
+1B116	Leistungsbilanz - Dienstleistungen: Saldo - (in Mio. USD)
+1B117	Leistungsbilanz - Dienstleistungen - Transport: Kredit - (in Mio. USD)
+1B118	Leistungsbilanz - Dienstleistungen - Transport: Debit - (in Mio. USD)
+1B119	Leistungsbilanz - Dienstleistungen - Reiseverkehr: Kredit - (in Mio. USD)
+1B120	Leistungsbilanz - Dienstleistungen - Reiseverkehr: Debit - (in Mio. USD)
+1B131	Leistungsbilanz - Einkommen: Kredit - (in Mio. USD)
+1B132	Leistungsbilanz - Einkommen: Debit - (in Mio. USD)
+1B133	Leistungsbilanz - Einkommen: Saldo - (in Mio. USD)
+1B140	Leistungsbilanz - Laufende Transfers: Saldo - (in Mio. USD)
+1B141	Leistungsbilanz - Laufende Transfers: Kredit - (in Mio. USD)
+1B142	Leistungsbilanz - Laufende Transfers: Debit - (in Mio. USD)
+1B143	Leistungsbilanz - Laufende Transfers - Überweisungen von Gastarbeitern: Debit - (in Mio. USD)
+1B144	Leistungsbilanz - Laufende Transfers - Überweisungen von Gastarbeitern: Kredit - (in Mio. USD)
+1B145	Leistungsbilanz - Laufende Transfers - Sonstige Transfers: Kredit - (in Mio. USD)
+1B146	Leistungsbilanz - Laufende Transfers - Sonstige Transfers: Debit - (in Mio. USD)
+1B200	Vermögensübertragungs- und Kapitalbilanz - Insgesamt: Saldo - (in Mio. USD)
+1B201	Vermögensübertragungs- und Kapitalbilanz - Vermögensübertragungsbilanz: Saldo - (in Mio. USD)
+1B202	Vermögensübertragungs- und Kapitalbilanz - Vermögenstransfers: Kredit - (in Mio. USD)
+1B203	Vermögensübertragungs- und Kapitalbilanz - Vermögenstransfers: Debit - (in Mio. USD)
+1B211	Vermögensübertragungs- und Kapitalbilanz - Direktinvestitionen im Ausland: Saldo - (in Mio. USD)
+1B212	Vermögensübertragungs- und Kapitalbilanz - Direktinvestitionen im Meldeland: Saldo - (in Mio. USD)
+1B213	Vermögensübertragungs- und Kapitalbilanz - Direktinvestitionen: Saldo - (in Mio. USD)
+1B221	Vermögensübertragungs- und Kapitalbilanz - Forderungen aus Wertpapieranlagen:  Saldo - (in Mio. USD)
+1B222	Vermögensübertragungs- und Kapitalbilanz - Verbindlichkeiten aus Wertpapieranlagen: Saldo - (in Mio. USD)
+1B223	Vermögensübertragungs- und Kapitalbilanz - Wertpapieranlagen: Saldo - (in Mio. USD)
+1B231	Vermögensübertragungs- und Kapitalbilanz - Währungsreserven - (in Mio. USD)
+1B232	Vermögensübertragungs- und Kapitalbilanz - Währungsreserven - Devisen - (in Mio. USD)
+1B233	Vermögensübertragungs- und Kapitalbilanz - Währungsreserven - Währungsgold - (in Mio. USD)
+1B234	Vermögensübertragungs- und Kapitalbilanz - Währungsreserven - Reserveposition im IWF (in Mio. USD)
+1B235	Vermögensübertragungs- und Kapitalbilanz - Währungsreserven - Sonderziehungsrechte: Saldo - (in Mio. USD)
+1B241	Vermögensübertragungs- und Kapitalbilanz - Sonstige Investitionen - Forderungen Saldo - (in Mio. USD)
+1B242	Vermögensübertragungs- und Kapitalbilanz - Sonstige Investitionen - Verbindlichkeiten: Saldo - (in Mio. USD)
+1B243	Vermögensübertragungs- und Kapitalbilanz - Sonstige Investitionen: Saldo - (in Mio. USD)
+2A11	Wechselkurse - Landeswährung je SZR - Ende des Zeitraums
+2A12	Wechselkurse - SZR je Landeswährung - Ende des Zeitraums
+2A13	Wechselkurse - Landeswährung je US-Dollar - Ende des Zeitraums
+2A14	Wechselkurse - US-Dollar je Landeswährung - Ende des Zeitraums
+2A22	Wechselkurse - US-Dollar je Landeswährung - Durchschnitt des Zeitraums
+2B01	Währungsumfrage - Inlandskredite (in Mio. Landeswährung)
+2B02	Währungsumfrage - Forderungen gegenüber anderen nicht-staatlichen inländischen Sektoren - privater Sektor (in Mio. Landeswährung)
+2B03	Währungsumfrage - Geld (in Mio. Landeswährung)
+2B04	Währungsumfrage - Quasigeld (in Mio. Landeswährung)
+2B05	Währungsumfrage - Sonstige Positionen (netto) (in Mio. Landeswährung)
+5A100	Staatsfinanzen - Barzahlungseingänge von Betriebsaktivitäten (in Mio. Landeswährung)
+5A101	Staatsfinanzen -  Erhaltene Kapitalsubventionen (in Mio. Landeswährung)
+5A200	Staatsfinanzen -  Barzahlungen für Betriebsaktivitäten (in Mio. Landeswährung)
+5A300	Staatsfinanzen -  Kassenüberschuß/-defizit (in Mio. Landeswährung)
+2B06	Depositenbanken - Auslandsforderungen (in Mio. Landeswährung)
+2B07	Depositenbanken - Auslandsverbindlichkeiten (in Mio. Landeswährung)
+0A100	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, in 1000en
+0A101	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 0 bis 4 Jahren, in 1000en
+0A102	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 0 bis 14 Jahren, in 1000en
+0A103	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 0 bis 17 Jahren, in 1000en
+0A104	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 0 bis 19 Jahren, in 1000en
+0A105	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 0 bis 24 Jahren, in 1000en
+0A106	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 5 bis 14 Jahren, in 1000en
+0A107	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 6 bis 11 Jahren, in 1000en
+0A108	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 12 bis 14 Jahren, in 1000en
+0A109	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 15 und mehr Jahren), in 1000en
+0A110	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 15 bis 17 Jahren, in 1000en
+0A111	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 15 bis 24 Jahren, in 1000en
+0A112	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 15 bis 49 Jahren, in 1000en
+0A113	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 15 bis 59 Jahren, in 1000en
+0A114	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 15 bis 64 Jahren, in 1000en
+0A115	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 18 und mehr Jahren), in 1000en
+0A116	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 18 bis 23 Jahren, in 1000en
+0A117	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 20 und mehr Jahren), in 1000en
+0A118	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 20 bis 64 Jahren, in 1000en
+0A119	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 20 bis 69 Jahren, in 1000en
+0A120	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 25 und mehr Jahren), in 1000en
+0A121	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 25 bis 69 Jahren, in 1000en
+0A122	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 50 und mehr Jahren), in 1000en
+0A123	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 60 und mehr Jahren), in 1000en
+0A124	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 65 und mehr Jahren), in 1000en
+0A125	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 70 und mehr Jahren), in 1000en
+0A126	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 75 und mehr Jahren), in 1000en
+0A127	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 80 und mehr Jahren), in 1000en
+0A128	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 85 und mehr Jahren), in 1000en
+0A129	Gesamtbevölkerung, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 90 und mehr Jahren), in 1000en
+0A200	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, in 1000en
+0A201	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 0 bis 4 Jahren, in 1000en
+0A202	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 0 bis 14 Jahren, in 1000en
+0A203	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 0 bis 17 Jahren, in 1000en
+0A204	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 0 bis 19 Jahren, in 1000en
+0A205	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 0 bis 24 Jahren, in 1000en
+0A206	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 5 bis 14 Jahren, in 1000en
+0A207	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 6 bis 11 Jahren, in 1000en
+0A208	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 12 bis 14 Jahren, in 1000en
+0A209	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 15 und mehr Jahren), in 1000en
+0A210	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 15 bis 17 Jahren, in 1000en
+0A211	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 15 bis 24 Jahren, in 1000en
+0A212	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 15 bis 49 Jahren, in 1000en
+0A213	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 15 bis 59 Jahren, in 1000en
+0A214	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 15 bis 64 Jahren, in 1000en
+0A215	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 18 und mehr Jahren), in 1000en
+0A216	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 18 bis 23 Jahren, in 1000en
+0A217	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 20 und mehr Jahren), in 1000en
+0A218	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 20 bis 64 Jahren, in 1000en
+0A219	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 20 bis 69 Jahren, in 1000en
+0A220	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 25 und mehr Jahren), in 1000en
+0A221	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 25 bis 69 Jahren, in 1000en
+0A222	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 50 und mehr Jahren), in 1000en
+0A223	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 60 und mehr Jahren), in 1000en
+0A224	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 65 und mehr Jahren), in 1000en
+0A225	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 70 und mehr Jahren), in 1000en
+0A226	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 75 und mehr Jahren), in 1000en
+0A227	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 80 und mehr Jahren), in 1000en
+0A228	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 85 und mehr Jahren), in 1000en
+0A229	Gesamtbevölkerung, Männer, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 90 und mehr Jahren), in 1000en
+0A300	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte,in 100Oen
+0A301	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 0 bis 4 Jahren, in 1000en
+0A302	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 0 bis 14 Jahren, in 1000en
+0A303	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 0 bis 17 Jahren, in 1000en
+0A304	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 0 bis 19 Jahren, in 1000en
+0A305	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 0 bis 24 Jahren, in 1000en
+0A306	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 5 bis 14 Jahren, in 1000en
+0A307	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 6 bis 11 Jahren, in 1000en
+0A308	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 12 bis 14 Jahren, in 1000en
+0A309	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 15 und mehr Jahren), in 1000en
+0A310	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 15 bis 17 Jahren, in 1000en
+0A311	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 15 bis 24 Jahren, in 1000en
+0A312	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 15 bis 49 Jahren, in 1000en
+0A313	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 15 bis 59 Jahren, in 1000en
+0A314	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 15 bis 64 Jahren, in 1000en
+0A315	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 18 und mehr Jahren), in 1000en
+0A316	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 18 bis 23 Jahren, in 1000en
+0A317	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 20 und mehr Jahren), in 1000en
+0A318	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 20 bis 64 Jahren, in 1000en
+0A319	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 20 bis 69 Jahren, in 1000en
+0A320	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 25 und mehr Jahren), in 1000en
+0A321	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 25 bis 69 Jahren, in 1000en
+0A322	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 50 und mehr Jahren), in 1000en
+0A323	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 60 und mehr Jahren), in 1000en
+0A324	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 65 und mehr Jahren), in 1000en
+0A325	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 70 und mehr Jahren), in 1000en
+0A326	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 75 und mehr Jahren), in 1000en
+0A327	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 80 und mehr Jahren), in 1000en
+0A328	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 85 und mehr Jahren), in 1000en
+0A329	Gesamtbevölkerung, Frauen, Jahresdurchschnitt zum 1.Juli (Quelle: Vereinte Nationen), interpolierte Werte, von 90 und mehr Jahren), in 1000en
+0B101	Gesamtarbeitslosigkeit (in % des Gesamtpotentials an Arbeitskraft)
+0B102	Gesamtarbeitslosigkeit, Frauen (in % des weiblichen Gesamtpotentials an Arbeitskraft)
+0B103	Gesamtarbeitslosigkeit, Männer (in % des männlichen Gesamtpotentials an Arbeitskraft)
+0B104	Beschäftigung in der Landwirtschaft (in % der Beschäftigung insgesamt)
+0B105	Personal, Landwirtschaft, Frauen (in % der weiblichen Beschäftigung insgesamt)
+0B106	Personal, Landwirtschaft, Männer (in % der männlichen Beschäftigung insgesamt)
+0B107	Beschäftigung in der Industrie (in % der Beschäftigung insgesamt)
+0B108	Personal, Industrie, Frauen (in % der weiblichen Beschäftigung insgesamt)
+0B109	Personal, Industrie, Männer (in % der männlichen Beschäftigung insgesamt)
+0B110	Beschäftigung im DIenstleistungssektor (in % der Beschäftigung insgesamt)
+0B111	Personal, Dienstleistungssektor, Frauen (in % der weiblichen Beschäftigung insgesamt)
+0B112	Personal, Dienstleistungssektor, Männer (in % der männlichen Beschäftigung insgesamt)
+0B201	Stadtbevölkerung
+0B202	Stadtbevölkerung (in % von der Gesamtbevölkerung)
+0B203	Wachstum der Stadtbevölkerung (% jährlich)
+0B301	Schulbesuchsquote, Primarstufe (% brutto)
+0B302	Schulbesuchsquote, Primarstufe, Mädchen (% brutto)
+0B303	Schulbesuchsquote, Primarstufe, Knaben (% brutto)
+0B304	Schulbesuchsquote, Sekundarstufe (% brutto)
+0B305	Schulbesuchsquote, Sekundarstufe, Mädchen (% brutto)
+0B306	Schulbesuchsquote, Sekundarstufe, Knaben (% brutto)
+0B307	Schulbesuchsquote, Tertiärstufe (% brutto)
+0B308	Schulbesuchsquote, Tertiärstufe, Frauen (% brutto)
+0B309	Schulbesuchsquote, Tertiärstufe, Männer (% brutto)
+0B401	Krankenhausbetten (je 1 000 Einwohner)
+0B402	Ärzte (je 1 000 Einwohner)
+0B501	Lebenserwartung bei der Geburt, insgesamt (Jahre)
+0B502	Lebenserwartung bei der Geburt, Mädchen (Jahre)
+0B503	Lebenserwartung bei der Geburt, Knaben (Jahre)
+0B601	Geburtsrate, insgesamt (Geburten je Frau)
+0B602	Sterberate, Kinder (je 1 000 Lebendgeburten)
+0B603	Sterberate, unter 5 Jahren (je 1 000)
+0B701	Ausgaben für das Gesundheitswesen (jeweilige US$)
+4B0001_T	Futter- und Silageluzerne
+4B0002_T	Mandeln, in der Schale
+4B0003_T	Anis, Sternanis, Fenchel und Koriander
+4B0004_T	Äpfel
+4B0005_T	Aprikosen
+4B0006_T	Areca-Nüsse
+4B0007_T	Artischoken
+4B0008_T	Spargel
+4B0009_T	Avocados
+4B0010_T	Bambara Bohnen
+4B0011_T	Bananen
+4B0012_T	Gerste
+4B0013_T	Bohnen, getrocknet
+4B0014_T	Bohnen, grüne
+4B0015_T	Rübenzucker, roh, zentrifugiert
+4B0016_T	Paranüsse, in der Schale
+4B0017_T	Feldbohnen, Ackerbohnen, getrocknet
+4B0018_T	Buchweizen
+4B0019_T	Kohl und andere Kohlgemüse
+4B0020_T	Kanariensaat
+4B0021_T	Rohrzucker, roh, zentrifugiert
+4B0022_T	Johannisbrot
+4B0023_T	Karotten und Speisemöhren
+4B0024_T	Kaschunüsse, in der Schale
+4B0025_T	Kaschuapfel
+4B0026_T	Maniok
+4B0027_T	Rizinussaat
+4B0028_T	Blumenkohl und Brokkoli
+4B0029_T	Getreide, nnb
+4B0030_T	Kirschen
+4B0031_T	Eßkastanien
+4B0032_T	Kichererbsen
+4B0033_T	Chicoréewurzeln
+4B0034_T	Paprika and Pfeffer, getrocknet
+4B0035_T	Paprika and Pfeffer, grün
+4B0036_T	Zimt
+4B0037_T	Zitrusfrüchte, nnb
+4B0038_T	Futter- und Silageklee
+4B0039_T	Gewürznelken
+4B0040_T	Kakaobohnen
+4B0041_T	Kokosnußöl
+4B0042_T	Kokosnuß
+4B0043_T	Kaffee, grün
+4B0044_T	Copra (Kokos)
+4B0045_T	Lint-Baumwolle
+4B0046_T	Baumwollsaat
+4B0047_T	Baumwollsamenöl
+4B0048_T	Kuherbse, getrocknet
+4B0049_T	Moosbeere, Heidelbeere
+4B0050_T	Gurken und Essiggurken
+4B0051_T	Johannisbeeren
+4B0052_T	Datteln
+4B0053_T	Aubergine (Eierfrüchte)
+4B0054_T	Feigen
+4B0055_T	Flachsfaser
+4B0056_T	Fonio
+4B0057_T	Obst, nnb
+4B0058_T	Knoblauch
+4B0059_T	Ingwer
+4B0060_T	Stachelbeere
+4B0061_T	Grapefruit (Pampelmuse)
+4B0062_T	Trauben
+4B0063_T	Erdnußöl
+4B0064_T	Erdnüsse, in Schale
+4B0065_T	Guaven, Mangofrüchte, Mangostanfrüchte
+4B0066_T	Haselnüsse, in Schale
+4B0067_T	Hopfen
+4B0068_T	Jute und juteähnliche Fasern
+4B0069_T	Kiwifrucht
+4B0070_T	Kolanüsse
+4B0071_T	Lauch und andere Allium-Gemüse
+4B0072_T	Hülsengemüse
+4B0073_T	Zitronen und Limetten
+4B0074_T	Linsen
+4B0075_T	Kopfsalat und Endivien (Zichorie)
+4B0076_T	Leinsamen
+4B0077_T	Leinsamenöl
+4B0078_T	Lupinen
+4B0079_T	Mais
+4B0080_T	Futter- und Silagemais
+4B0081_T	Maisöl
+4B0082_T	Mais, grün
+4B0083_T	Mate
+4B0084_T	Melonensaatgut
+4B0085_T	Hirse
+4B0086_T	Menggetreide
+4B0087_T	Pilze und Trüffeln
+4B0088_T	Senföl
+4B0089_T	Senfsamen
+4B0090_T	Natur-Kautschuk
+4B0091_T	Muskatnuß
+4B0092_T	Nüsse, nnb
+4B0093_T	Hafer
+4B0094_T	Palmölfrucht
+4B0095_T	Ölsaaten
+4B0096_T	Okra, Gumboschote
+4B0097_T	Natives Olivenöl
+4B0098_T	Oliven
+4B0099_T	Zwiebeln (einschließlich Schalotten), grün
+4B0100_T	Zwiebeln, getrocknet
+4B0101_T	Orangen (Apfelsinen)
+4B0102_T	Andere Melonen (einschließlich Beutelmelonen)
+4B0103_T	Palmkernöl
+4B0104_T	Palmkerne
+4B0105_T	Palmöl
+4B0106_T	Papayas
+4B0107_T	Pfirsiche und Nektarinen
+4B0108_T	Birnen
+4B0109_T	Erbsen, getrocknet
+4B0110_T	Erbsen, grün
+4B0111_T	Pfeffer
+4B0112_T	Dattelpflaumen
+4B0113_T	Taubenerbse
+4B0114_T	Ananas
+4B0115_T	Pistazie
+4B0116_T	Mehlbanane
+4B0117_T	Pflaumen und Schlehe
+4B0118_T	Mohnsamen
+4B0119_T	Kartoffeln
+4B0120_T	Hülsenfrüchte
+4B0121_T	Kürbisse und Gurgetten
+4B0122_T	Quitte
+4B0123_T	Reismelde (peruanischer Reis)
+4B0124_T	Rosinen
+4B0125_T	Rapssamen
+4B0126_T	Rapsöl
+4B0127_T	Himbeere und andere Beeren
+4B0128_T	Reiskleieöl
+4B0129_T	Reis, roh
+4B0130_T	Hackfrüchte (Zwiebeln und Wurzeln), nnb
+4B0131_T	Roggen
+4B0132_T	Weidelgras
+4B0133_T	Safloröl
+4B0134_T	Saflorsaat
+4B0135_T	Nichtentkörnte Baumwollfaser
+4B0136_T	Sesamöl
+4B0137_T	Sesamsaat
+4B0138_T	Sisal und andere Agave-Fasern
+4B0139_T	Hirse
+4B0140_T	Futter- und Silagehirsegras
+4B0141_T	Sauerkirschen
+4B0142_T	Sojaöl
+4B0143_T	Sojabohnen
+4B0144_T	Gewürze
+4B0145_T	Spinat
+4B0146_T	Steinobst
+4B0147_T	Erdbeeren
+4B0148_T	Grüne Bohnen (Brechbohnen)
+4B0149_T	Zuckerrübe
+4B0150_T	Zuckerrohr
+4B0151_T	Zuckerkulturen, nnb
+4B0152_T	Zucker, nnb
+4B0153_T	Sonnenblumenöl
+4B0154_T	Sonnenblumensaat
+4B0155_T	Kartoffeln, süsse
+4B0156_T	Tangerinen, Mandarinen, Klementinen
+4B0157_T	Taro (Goldnarbe)
+4B0158_T	Tee
+4B0159_T	Tabak, verarbeitet
+4B0160_T	Tomaten
+4B0161_T	Triticale
+4B0162_T	Vanille
+4B0163_T	Pflanzliche Fette und Öle, nnb
+4B0164_T	Gemüse, nnb
+4B0165_T	Wicken
+4B0166_T	Walnüsse
+4B0167_T	Wassermelonen
+4B0168_T	Weizen
+4B0169_T	Wein
+4B0170_T	Yamswurzeln
+4B0171_T	Goldnarbe
+4B1001_NB	Esel,  Maultiere oder Maulesel
+4B1002_NB	Bienenstöcke
+4B1003_NB	Büffel
+4B1004_NB	Kamele
+4B1005_NB	Rinder
+4B1006_NB	Hühner
+4B1007_NB	Enten
+4B1008_NB	Gänse und Perlhühner
+4B1009_NB	Ziegen
+4B1010_NB	Pferde
+4B1011_NB	Schweine
+4B1012_NB	Kaninchen und Hasen
+4B1013_NB	Schafe
+4B1014_NB	Puten
+4B2001_T	Vogelfleisch, nnb
+4B2002_T	Büffelfleisch
+4B2003_T	Büffelmilch, Vollmilch, frisch
+4B2004_T	Kamelfleisch
+4B2005_T	Kamelmilch, Vollmilch, frisch
+4B2006_T	Rinderfleisch
+4B2007_T	Hühnerfleisch
+4B2008_T	Kuhmilch, Vollmilch, frisch
+4B2009_T	Entenfleisch
+4B2010_T	Pferdefleisch, nnb
+4B2011_T	Wildfleisch
+4B2012_T	Ziegenfleisch
+4B2013_T	Ziegenmilch, Vollmilch, frisch
+4B2014_T	Gänse- und Perlhühnerfleisch
+4B2015_T	Henneneier, in der Schale
+4B2016_NB	Henneneier, in der Schale (NB)
+4B2017_T	Pferdefleisch
+4B2018_T	Flesich, nnb
+4B2019_T	Naturhonig
+4B2020_T	Eier von anderen Vögeln, in der Schale
+4B2021_NB	Eier von anderen Vögeln, in der Schale (NB)
+4B2022_T	Schweinefleisch
+4B2023_T	Kaninchenfleisch
+4B2024_T	Schafsfleisch
+4B2025_T	Schafsmilch, Vollmilch, frisch
+4B2026_T	Seidenwurmkokons, aufrollbar
+4B2027_T	Putenfleisch
+4B2028_T	Wolle, fettig
+G1_01	Bevölkerung, die von weniger als 1 USD pro Tag (umgerechnet in Kaufkraftparität - KKP) lebt, in Prozent
+G1_02	Armutslückenverhältnis bei 1 USD pro Tag (umgerechnet in Kaufkraftparität - KKP), in Prozent
+G1_03	Anteil des ärmsten Quintils der Bevölkerung am gesamten nationalen Einkommen oder Verbrauch, in Prozent
+G1_04	Wachstumsrate des BIP pro Beschäftigter, in Prozent
+G1_05	Beschäftigungsquote, beide Geschlechter, in Prozent
+G1_06	Anteil der erwerbstätigen Bevölkerung, die von weniger als 1 USD pro Tag (umgerechnet in Kaufkraftparität - KKP) lebt, in Prozent
+G1_07	Anteil der Selbständigen und der mithelfenden Familienangehörigen an der gesamten Erwerbsbevölkerung, beide Geschlechter, in Prozent
+G1_08	Kinder unter fünf Jahren mit mittlerem oder starkem Untergewicht, in Prozent
+G1_09	Anteil der Bevölkerung, deren Kalorienaufnahme unter dem Minimum liegt, in Prozent
+G2_01	Nettoeinschulungsquote im Primarschulbereich, beide Geschlechter
+G2_02	Anteil der Erstklässler, die das letzte Primarschuljahr erreichen, beide Geschlechter, in Prozent
+G2_03	Anteil der 15- bis 24-Jährigen, die lesen und schreiben können, beide Geschlechter, in Prozent
+G3_01A	Verhältnis Mädchen/Jungen (Geschlechterparitätsindex) in der Primarstufe des Bildungssystems
+G3_01B	Verhältnis Mädchen/Jungen (Geschlechterparitätsindex) in der Sekundarstufe des Bildungssystems
+G3_01C	Verhältnis Mädchen/Jungen (Geschlechterparitätsindex) in der Tertiärstufe des Bildungssystems
+G3_02	Anteil der Frauen an den nichtselbstständigen Erwerbstätigen außerhalb des landwirtschaftlichen Sektors
+G3_03	Anteil der weiblichen Abgeordneten in nationalen Parlamenten
+G4_01	Sterblichkeitsrate von Kindern unter fünf Jahren, pro 1 000 Lebendgeburten
+G4_02	Säuglingssterblichkeitsrate (0-1 Jahr), pro 1 000 Lebendgeburten
+G4_03	Einjährige, die gegen Masern geimpft wurden, in Prozent
+G5_01	Müttersterblichkeitsrate, pro 100 000 Lebendgeburten
+G5_02	Von medizinischem Fachpersonal begleitete Geburten, in Prozent
+G5_03	Verheiratete Frauen im Alter von 15 bis 49 Jahren, die Produkte zur Verhütung benutzen, alle Methoden, in Prozent
+G5_04	Geburtenrate bei Minderjährigen, pro 1000 Frauen
+G5_05A	Pränatale Betreuung, mindestens vier Besuche, in Prozent
+G5_05B	Pränatale Betreuung, mindestens ein Besuch, in Prozent
+G5_06	Ungedeckter Bedarf an Familienplanung, insgesamt, in Prozent
+G6_01	Personen im Alter von 15 bis 49 Jahren, die HIV-positiv sind, in Prozent
+G6_02A	Kondombenutzung beim letzten risikoreichen Geschlechtsverkehr, Männer im Alter von 15 bis 24 Jahren, in Prozent
+G6_02B	Kondombenutzung beim letzten risikoreichen Geschlechtsverkehr, Frauen im Alter von 15 bis 24 Jahren, in Prozent
+G6_03A	Männer im Alter von 15 bis 24 Jahren mit umfassenden korrekten Kenntnissen über HIV/AIDS, in Prozent
+G6_03B	Frauen im Alter von 15 bis 24 Jahren mit umfassenden korrekten Kenntnissen über HIV/AIDS, in Prozent
+G6_04	Schulbesuchsquote von Waisen im Verhältnis zu Nichtwaisen
+G6_05	Menschen mit fortgeschrittener HIV-Infektion, die eine antiretrovirale Therapie erhalten, in Prozent
+G6_06A	Gemeldete Fälle von Malaria pro 100 000 Einwohner
+G6_06B	Malaria, Sterblichkeitsrate pro 100 000 Kinder unter 5 Jahren
+G6_06C	Malaria, Sterblichkeitsrate pro 100 000 Einwohner jeden Alters
+G6_07	Kinder unter 5 Jahren, die unter mit Insektenschutzmitteln imprägnierten Insektenschutznetzen schlafen
+G6_08	Malaria, Kinder unter 5 Jahren mit Fieber, die mit Medikamenten zur Behandlung der Malaria versorgt werden
+G6_09A	Menschen, die an Tuberkulose erkranken, pro 100 000 Einwohner (Inzidenzrate)
+G6_09B	Menschen, die an Tuberkulose leiden, pro 100 000 Einwohner (Prävalenzrate)
+G6_09C	Sterblichkeitsrate im Zusammenhang mit Tuberkulose, pro 100 000 Einwohner
+G6_10A	Anteil der mit Hilfe der direkt überwachten Kurzzeittherapie (DOTS) diagnostizierten Tuberkulosefälle, in Prozent
+G6_10B	Anteil der mit Hilfe der direkt überwachten Kurzzeittherapie (DOTS) geheilten Tuberkulosefälle, in Prozent
+G7_01	Anteil der waldbedeckten Flächen an der Landesfläche, in Prozent
+G7_02A	Kohlendioxid (CO2), Ausstoß in kg CO2 pro 1 USD des BIP (umgerechnet in Kaufkraftparität - KKP) (CCNUCC)
+G7_02B	Kohlendioxid (CO2), Ausstoß in 1000 Tonnen CO2 (CDIAC)
+G7_02C	Kohlendioxid (CO2), Ausstoß in 1000 Tonnen CO2 pro Kopf (CCNUCC)
+G7_02D	Kohlendioxid (CO2), Ausstoß in Tonnen von CO2 pro Kopf (CDIAC)
+G7_02E	Kohlendioxid (CO2), Ausstoß in Tonnen von CO2 pro Kopf (CCNUCC)
+G7_03	Verbrauch aller ozonverbrauchenden Substanzen (ODP) in metrischen Tonnen
+G7_04	Anteil der Fischbestände innerhalb sicherer biologischer Grenzen
+G7_05	Anteil der gesamten genutzten Wasserressourcen, in Prozent
+G7_06	Anteil der geschützten Land- und Seegebiete am gesamten Hoheitsgebiet, in Prozent
+G7_07	Anteil der vom Aussterben bedrohten Arten
+G7_08	Anteil der Gesamtbevölkerung mit nachhaltigem Zugang zu einer verbesserten Wasserquelle
+G7_09	Anteil der Gesamtbevölkerung mit nachhaltigem Zugang zu verbesserter Sanitärversorgung
+G7_10	Anteil der Bevölkerung in Elendsvierteln in Prozent der städtischen Bevölkerung
+G8_01A	Öffentliche Entwicklungshilfe als prozentualer Anteil des Bruttonationaleinkommens der Geber, die dem Entwicklungshilfeausschuss der OECD angehören
+G8_01B	Öffentliche Entwicklungshilfe für die am wenigsten entwickelten Länder - als prozentualer Anteil des Bruttonationaleinkommens der Geber, die dem Entwicklungshilfeausschuss der OECD angehören
+G8_02	Anteil der gesamten sektoral aufschlüsselbaren öffentlichen Entwicklungshilfe der dem Entwicklungshilfeausschuss der OECD angehörenden Geber an der sozialen Grundversorgung
+G8_03	Anteil der ungebundenen öffentlichen Entwicklungshilfe der dem Entwicklungshilfeausschuss der OECD angehörenden Geber, in Prozent
+G8_04	Von Binnenländern empfangene öffentliche Entwicklungshilfe als Anteil an ihrem Bruttonationaleinkommen (BNE)
+G8_05	Von kleinen Inselentwicklungsländern empfangene öffentliche Entwicklungshilfe als Anteil an ihrem Bruttonationaleinkommen (BNE)
+G8_06A	Anteil der zollfreien Gesamtimporte der entwickelten Länder aus den Entwicklungsländern, in Prozent
+G8_06B	Anteil der zollfreien Gesamtimporte der entwickelten Länder aus den am wenigsten entwickelten Ländern, in Prozent
+G8_07A	Von den entwickelten Ländern erhobene Durchschnittszölle für Textilien aus Entwicklungsländern
+G8_07B	Von den entwickelten Ländern erhobene Durchschnittszölle für Kleidung aus Entwicklungsländern
+G8_07C	Von den entwickelten Ländern erhobene Durchschnittszölle für Agrarprodukte aus Entwicklungsländern
+G8_08	Geschätzte Agrarsubventionen in den OECD-Ländern als prozentualer Anteil an ihrem BIP
+G8_09	Öffentliche Entwicklungshilfe, die für den Aufbau der Handelskapazität gewährt wird, in Prozent
+G8_10	Gesamtzahl der Länder, die den Entscheidungs- und den Vollendungszeitpunkt im Rahmen der Schuldeninititative für die hochverschuldeten armen Länder (HIPC-Initiative) erreicht haben (kumulativ)
+G8_11A	Mittelbindungen für Schuldenerleichterung im Rahmen der HIPC-Schuldeninitiative, in Mio. USD als Nettogegenwartswert Ende 2006 (kumulativ)
+G8_11B	Schuldenerleichterung, die vollständig im Rahmen der MDR-Initiative gewährt wurde, in Mio. USD als Nettogegenwartswert Ende 2006 (kumulativ)
+G8_12	Schuldendienst als Prozentwert der Güter- und Dienstleistungsausfuhren und des Nettoeinkommens aus dem Ausland
+G8_13	Bevölkerung mit dauerhaftem Zugang zu unentbehrlichen Arzneimitteln, in Prozent
+G8_14	Telefonanschlüsse je 100 Einwohner
+G8_15	Mobilfunkabonnenten je 100 Einwohner
+G8_16	Internetnutzer je 100 Einwohner

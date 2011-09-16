@@ -1,0 +1,5 @@
+STU_NRES	Etudiants qui sont non-résidents dans le pays correspondant
+STU_NCTZ	Etudiants qui sont non-citoyens du pays correspondant
+STU_NPRI	Students who have not received prior education (at the previous ISCED level) in the reporting country
+WORLD	Students from the whole world
+BOLOGNA	Students from the Bologna area

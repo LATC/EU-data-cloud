@@ -1,0 +1,15 @@
+HF1HF3	Tous agents de financement
+HF1	Administrations publiques
+HF11	Administrations publiques (hors administrations de sécurité sociale)
+HF12	Administrations de sécurité sociale
+HF2	Secteur privé
+HF21	Assurance sociale privée
+HF22	Sociétés d'assurance privées (hors assurance sociale)
+HF21HF22	Sociétés d'assurance privées (y compris l'assurance sociale privée)
+HF23	Versements directs des ménages privés
+HF232HF235	Participation aux dépenses: administration centrale; administrations d’États fédérés/de provinces; administrations locales/municipales; administrations de sécurité sociale
+HF236HF237	Participation aux dépenses: assurances privées
+HF24	Institutions sans but lucratif au service des ménages (hors assurance sociale)
+HF25	Sociétés (hors assurance maladie)
+HF3	Reste du monde
+HF0	N.C.A.

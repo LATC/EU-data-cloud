@@ -1,0 +1,45 @@
+D	Arbeitskosten insgesamt
+D1	Arbeitnehmerentgelt
+D11	Bruttolöhne und -gehälter
+D111	Direktvergütung und Prämien
+D1111	Direktvergütung (fakultativ)
+D1112	Prämien (fakultativ)
+D11121	Prämien mit bestimmter Periodizität (fakultativ)
+D11122	Prämien, die von Einzel- oder Gruppenleistungen abhängen (fakultativ)
+D112	Vermögenswirksame Leistungen
+D113	Vergütung für nicht gearbeitete Tage
+D114	Bruttolöhne und -gehälter in Form von Sachleistungen
+D1141	Unternehmenserzeugnisse
+D1142	Mitarbeiterwohnungen
+D1143	Firmenwagen (fakultativ)
+D12	Sozialbeiträge der Arbeitgeber
+D121	Tatsächliche Sozialbeiträge der Arbeitgeber
+D1211	Gesetzliche Arbeitgeberbeiträge zur Sozialversicherung
+D12111	Alterversicherung, Krankheit, Mutterschaft, Invalidität
+D12112	Arbeitslosigkeit
+D12113	Arbeitsunfälle und Berufskrankheiten
+D12114	Familienbeihilfen
+D12115	Sonstiges
+D1212	Tarifliche, vertragliche und freiwillige Aufwendungen für die Sozialversicherung
+D12121	Zusätzliche Altersversicherung
+D121211	Gemeinschaftsversicherungen (fakultativ)
+D121212	Selbständige Kassen und Fonds (fakultativ)
+D121213	In der Bilanz ausgewiesene Rücklagen und Rückstellungen (fakultativ)
+D121214	Sonstige (fakultativ)
+D12122	Zusätzliche Krankenversicherung
+D12123	Zusätzliche Arbeitslosenversicherung
+D12124	Sonstige Zusatzversicherungen
+D122	Unterstellte Sozialbeiträge der Arbeitgeber
+D1221	Garantierte Lohn- und Gehaltsfortzahlung im Krankheitsfall
+D1222	Garantierte Lohn- und Gehaltsfortzahlung bei Kurzarbeit
+D1223	Zahlungen an entlassene Arbeitnehmer
+D1224	Unterstellte Sozialaufwendungen der Arbeitgeber
+D2	Kosten der Berufsausbildung
+D21	Ausbildungsvergütungen
+D22	Sozialbersicherungsbeiträge für Auszubildende
+D23	Sonstige Kosten der Berufsausbildung
+D3	Sonstige Aufwendungen sozialer Art
+D31	Einstellungskosten (fakultativ)
+D32	Sonstige (fakultativ)
+D4	Steuern
+D5	Zuschüsse

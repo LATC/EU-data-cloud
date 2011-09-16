@@ -1,0 +1,29 @@
+N1	Produzierte Vermögensgüter
+N11	Anlagegüter insgesamt
+N111	Sachanlagen
+N11N	"Nutztiere, Nutzpflanzungen und immaterielle Anlagegüter"
+N1111	Wohnbauten
+N1112	Nichtwohnbauten
+N11121	Nichtwohngebäude
+N11122	Sonstige Bauten
+N111M	Bauten insgesamt
+N1113	Ausrüstungen
+N11131	Fahrzeuge
+N11132	Sonstige Ausrüstungen
+N111321	"Sonstige Ausrüstungen: Büromaschinen, Datenverarbeitungsgeräte und -einrichtungen"
+N111322	"Sonstige Ausrüstungen: Rundfunk, Fernseh- und Nachrichtentechnik"
+N111329	Sonstige Ausrüstungen sofern nicht anderweitig nachgewiesen
+N1114	Nutztiere und Nutzpflanzungen
+N112	Immaterielle Anlagegüter
+N1121	Suchbohrungen
+N1122	Computerprogramme
+N1123	Urheberrechte
+N1129	Sonstige immaterielle Anlagegüter
+N12	Vorräte
+N13	Wertsachen
+N2	Nichtproduzierte Vermögensgüter
+N21	Nichtproduziertes Sachvermögen
+N211	Grund und Boden
+N212	Bodenschätze
+N21A	Freie Tier- und Pflanzenbestände und Wasserreserven
+N22	Immaterielle nichtproduzierte Vermögensgüter

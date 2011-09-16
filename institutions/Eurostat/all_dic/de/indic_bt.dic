@@ -1,0 +1,75 @@
+PROD	Produktionsvolumenindex
+PROD_VOL	Produktionsvolumenindex des Baugewerbes
+EOIX	Index der erwarteten Produktion
+TOVT	Umsatzindex - Insgesamt
+TOVD	Umsatzindex - Inlandsmarkt
+TOVE	Umsatzindex - Auslandsmarkt
+TOVV	Deflationierter Umsatzindex
+TOVZ	Umsatzindex - Auslandsmarkt - Euroraum
+TOVX	Umsatzindex - Auslandsmarkt - Nicht-Euroraum
+TOVT_VAL	Umsatz (in Werten)
+ORDT	Auftragseingänge - Insgesamt
+DORD	Auftragseingänge (deflationiert)
+ORDD	Auftragseingänge - Inlandsmarkt
+ORDE	Auftragseingänge - Auslandsmarkt
+ORDZ	Auftragseingänge - Auslandsmarkt - Euroraum
+ORDX	Auftragseingänge - Auslandsmarkt - Nicht-Euroraum
+ORDT_VAL	Auftragseingänge (in Werten) : in Landeswährung (Mio)
+ORDT_VOL	Auftragseingänge : in Mengen
+SORT_VAL	Auftragsbestand (in Werten)
+EMPL	Beschäftigung (Anzahl der Beschäftigten)
+HOWK	Volumen der geleisteten Arbeit (geleistete Arbeitsstunden)
+WAGE	Bruttolöhne und - gehälter
+AHWA	Durchschnittlichen Stundenverdienste
+AWAG	Durchschnittliche geleistete Arbeitsstunden je Person
+EXPQ	Ausfuhr (in Mengen)
+EXPV	Ausfuhr (in Werten)
+IMPQ	Einfuhr (in Mengen)
+IMPV	Einfuhr (in Werten)
+IMPR	Einfuhrpreisindex
+IMPX	Einfuhrpreisindex -  Nicht-Euroraum
+IMPZ	Einfuhrpreisindex - Euroraum
+CREG	KfZ-Zulassungen
+TOTR	Austauschverhältnis
+PREE	Erzeugerpreisindex - Auslandsmarkt - in Ecu
+PREM	Produktivität je Beschäftigter
+PRHO	Produktivität je geleistete Arbeitsstunde
+PRIE	Erzeugerpreisindex - Inlandsmarkt - in Ecu
+PRIN	Erzeugerpreisindex - Inlandsmarkt - in Landeswährung
+PREN	Erzeugerpreisindex - Auslandsmarkt - in Landeswährung
+PREZ	Erzeugerpreisindex - Auslandsmarkt - Euroraum
+PREX	Erzeugerpreisindex - Auslandsmarkt - Nicht-Euroraum
+PROE	Erzeugerpreisindex - Gesamtindex - in Ecu
+PRON	Erzeugerpreisindex - Insgesamt - in Landeswährung
+PRBB	Erzeugerpreise für Dienstleistungen für Unternehmen
+CSTI	Kostenindex des Baugewerbes - in Landeswährung
+CSTL	Arbeitskostenindex des Baugewerbes - in Landeswährung
+CSTM	Input-Preise für Materialien - in Landeswährung
+CSTO	Erzeugerpreisindex des Baugewerbes - in Landeswährung
+PNUM	Baugenehmigungen - Anzahl der Wohnungen
+PSQM	Baugenehmigungen - Quadratmeter Nutzfläche
+PRIN_OUT	Baupreisindex - in Landeswährung
+PRIN_MAT	Baumaterialpreisindex - in Landeswährung
+PRIN_INP	Baukostenindex - in Landeswährung
+PRIN_LAB	Arbeitskostenindex für das Baugewerbe - in Landeswährung
+PERM_NUM	Baugenehmigungen - Anzahl
+PERM_SQM	Baugenehmigungen - Nutzfläche in 1 000 m2
+PERM_CUM	Baugenehmigungen - in 1 000 m3
+STAR_NUM	Begonnene Bauten - Anzahl
+STAR_SQM	Begonnene Bauten - Nutzfläche, in 1 000 m2
+STAR_CUM	Begonnene Bauten - in 1 000 m3
+COMP_NUM	Fertigstellungen - Anzahl der Gebäude
+COMP_SQM	Fertigstellungen - Nutzfläche, in 1 000 m2
+COMP_CUM	Fertigstellungen - in 1 000 m3
+PERM_VAL	Baugenehmigungen - in Landeswährung (Millionen)
+STAR_VAL	Begonnene Bauten - in Landeswährung (Millionen)
+COMP_VAL	Fertigstellungen - in Landeswährung (Millionen)
+COI01	Volumenindizes Output Baugewerbe
+COI04	Preisindizes Baugewerbe
+FIN_SIT	Die finanzielle Situation des Unternehmens
+FIN_COS	Die Kosten, eine Finanzierung für das Unternehmen zu erhalten  (z.B. Zinsen)
+FIN_DEB	Das Verhältnis von Verschuldung zu Umsatz im  Unternehmen
+FIN_OTH	Andere Bedingungen und Konditionen der Finanzierung
+FIN_BUR	Belastung und Aufwand, die das Unternehmen auf sich nehmen muss, um Finanzierung  zu erhalten
+FIN_WIL	Die Bereitschaft der Banken Finanzierungen bereitzustellen
+OTH	Andere Gründe

@@ -1,0 +1,19 @@
+TOTAL	Total
+EM_GSD	Ménages joignant les deux bouts avec (beaucoup, quelques) difficultés
+EM_FVE	Ménages joignant les deux bouts (assez, très) facilement
+EM_GD	Ménages joignant les deux bouts avec beaucoup de difficultés
+EM_D	Ménages joignant les deux bouts avec difficulté
+EM_SD	Ménages joignant les deux bouts avec quelques difficultés
+EM_FE	Ménages joignant les deux bouts assez facilement
+EM_E	Ménages joignant les deux bouts facilement
+EM_VE	Ménages joignant les deux bouts très facilement
+N_SAVE	Ménages ne pouvant pas épargner régulièrement (cad. à qui il ne reste pas d'argent pour épargner généralement)
+SAVE	Ménages pouvant épargner régulièrement (cad. à qui il reste de l'argent pour épargner généralement)
+N_WARM	Ménages qui n'ont pas les moyens de maintenir leur logement suffisament chaud
+N_HOLI	Ménages qui n'ont pas les moyens de s'offrir une semaine de vacances en dehors de la maison
+N_FURN	Ménages qui n'ont pas les moyens de remplacer leurs meubles usés
+N_CLOT	Ménages qui n'ont pas les moyens d'acheter de nouveaux vêtements plutôt que des vêtements de seconde main
+N_MEAT	Ménages qui n'ont pas les moyens de manger de la viande, du poulet ou du poisson tous les deux jours
+N_FRIE	Ménages qui n'ont pas les moyens de recevoir des amis pour prendre un verre ou un repas une fois par semaine
+MBN_GE1	Ménages qui n'ont pas les moyens de satisfaire au moins l'un de ces six biens de base (voir liste)
+MBN_GE2	Ménages qui n'ont pas les moyens de satisfaire au moins deux de ces six biens de base (voir liste)

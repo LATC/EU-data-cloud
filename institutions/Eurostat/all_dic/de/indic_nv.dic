@@ -1,0 +1,56 @@
+TOT_NACE_HH	Alle NACE Einheiten plus Haushalte
+TOT_NRA	Gesamte Aktivitäten der gebietsansässigen Einheiten in der übrigen Welt 
+NRA_FISH	Fischereiaktivitäten von gebietsansässigen Einheiten in der übrigen Welt
+NRA_I60	Landverkehrsleistungen von gebietsansässigen Einheiten in der übrigen Welt
+NRA_I61	Schifffahrtsleistungen von gebietsansässigen Einheiten in der übrigen Welt
+NRA_I62	Luftfahrtsleistungen von gebietsansässigen Einheiten in der übrigen Welt
+TOT_NRES	Gesamte Aktivitäten der gebietsfremden Einheiten im Wirtschaftsgebiet 
+NRES_I60	Landverkehrsleistungen von gebietsfremden Einheiten im Wirtschaftsgebiet
+NRES_I61	Schifffahrtsleistungen von gebietsfremden Einheiten im Wirtschaftsgebiet
+NRES_I62	Luftfahrtsleistungen von gebietsfremden Einheiten im Wirtschaftsgebiet
+ADJ_OTH	Andere Anpassungen und statistische Abweichungen
+TOT_CONV	Gesamtemissionen wie berichtet an internationale Konventionen (UNFCCC und CLRTAP)
+BI1_1	Fläche des Mitgliedstaats (km2)
+BI1_2	Geschützte Erdoberfläche (km2)
+BI1_3	Geschützte Erdoberfläche in %
+BI1_4	Suffizienzindex
+BI1_5	Geschützte Meeresfläche (km2)
+DEU	Inländische Entnahme verwertet
+IMP	Importe
+IMP_XEU27	Einfuhr Extra EU - 27
+IMP_IEU27	Einfuhr Intra EU - 27
+EXP	Exporte
+EXP_XEU27	Ausfuhr Extra EU - 27
+EXP_IEU27	Ausfuhr Intra EU - 27
+DMC	Inlandsmaterialverbrauch
+DMI	Direkter Materialinput
+RP_EUR	Ressourcenproduktivität BIP/DMC (einzelnes Land und ein Jahr)
+RP_CLV00	Ressourcenproduktivität BIP/DMC (einzelnes Land und mehrere Jahr: BIP verkettete Volumen, Referenzjahr 2000 )
+RP_PPS	Ressourcenproduktivität BIP/DMC (Ländervergleich und ein Jahr: BIP in Kaufkraftstandard)
+RE_EUR	Ressourceneffektivität DMC/BIP (einzelnes Land und ein Jahr)
+RE_CLV00	Ressourceneffektivität DMC/BIP (einzelnes Land und mehrere Jahr: BIP verkettete Volumen, Referenzjahr 2000 )
+RE_PPS	Ressourceneffektivität DMC/BIP (Ländervergleich und ein Jahr: BIP in Kaufkraftstandard)
+NRRE_EUR	Nicht-Erneuerbare Ressourceneffektivität DMC/BIP (einzelnes Land und ein Jahr)
+NRRE_CLV00	Nicht-Erneuerbare Ressourceneffektivität DMC/BIP (einzelnes Land und mehrere Jahr: BIP verkettete Volumen, Referenzjahr 2000 )
+NRRE_PPS	Nicht-Erneuerbare Ressourceneffektivität DMC/BIP (Ländervergleich und ein Jahr: BIP in Kaufkraftstandard)
+FAC	Number of facilities
+FAC_CL	Closed facilities
+CAP	Capacity in tonnes per year
+CAP_RST	Rest capacity in m3 per year
+COVERAGE	Population served by collection
+PEP_TOT	Energieprimärerzeugung nach Brennstoffen, ingesamt
+PEP_COAL	davon: Steinkohle und Braunkohle
+PEP_COIL	davon: Rohöl
+PEP_GAS	davon: Erdgas
+PEP_NUC	davon: Nuklearenergie
+PEP_RNW	davon: Erneuerbare Energie
+FEC_TOT	Energieendverbrauch, insgesamt
+FEC_AGR	davon: Land- und Forstwirtschaft, Fischerei und Fischzucht
+FEC_IND	davon: Alle gewerblichen Tätigkeiten
+FEC_SER	davon: Dienstleistungen
+FEC_HH	davon: Privathaushalte
+RNW_FEC_PC	Anteil der erneuerbaren Energie am Energieendverbrauch
+AREA_NUS	Ungenutzte und/oder aufgegebene erschlossene Flächen, einschliesslich der Industriebrachen
+AREA_CNT	Als kontaminiert oder potentiell kontaminierte Standorte klassifizierte Gebiete
+MN_RES	Anzahl der Hauptwohnsitze
+SC_RES	Anzahl der Zweitwohnsitze

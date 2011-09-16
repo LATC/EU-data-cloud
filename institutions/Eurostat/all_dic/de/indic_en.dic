@@ -1,0 +1,206 @@
+100100	Primärerzeugung
+100200	Andere Quellen
+100300	Einfuhren
+100400	Bestandsveränderungen
+100401	Bestandsveränderungen - Erzeuger
+100402	Bestandsveränderungen - Einfuhrunternehmen
+100403	Bestandsveränderung - Umwandlungsunternehmen
+100500	Gesamtausfuhren
+100600	Nettoeinfuhren
+100700	Bruttoverbrauch
+100800	Bunker
+100900	Bruttoinlandsverbrauch
+101000	Umwandlungseinsatz
+101001	Einsatz in herkömmlichen Wärmekraftwerken
+101002	Einsatz in Kernkraftwerken
+101003	Einsatz in Brikettfabriken
+101004	Einsatz in Kokereien
+101006	Einsatz in Hochöfen
+101007	Einsatz in Gaswerken
+101008	Einsatz in Raffinerien
+101009	Einsatz in Fernheizkraftwerken
+101021	Einsatz in öffentlichen Wärmekraftwerken
+101022	Einsatz in Wärmekraftwerken der Eigenerzeuger
+101100	Umwandlungsausstoss
+101101	Ausstoss von herkömmlichen Wärmekraftwerken
+101102	Ausstoss von Kernkraftwerken
+101103	Ausstoss von Brikettfabriken
+101104	Ausstoss von Kokereien
+101106	Ausstoss von Hochöfen
+101107	Ausstoss von Gaswerken
+101108	Ausstoss von Raffinerien
+101109	Ausstoss von Fernheizkraftwerken
+101121	Ausstoss von öffentlichen Wärmekraftwerken
+101122	Ausstoss von Wärmekraftwerken der Eigenerzeuger
+101200	Austausch, Übertragung, Rückläufe
+101210	Austausch zwischen Erzeugnissen
+101220	Übertragung von Erzeugnissen
+101230	Rückläufe der Petrochemie
+101300	Verbrauch des Produktionsbereichs Energie
+101301	Verbrauch des Elektrizitätserzeugungssektors
+101302	Bilanz der Pumpspeicherkraftwerke
+101303	Verbrauch der Zechen und Brikettfabriken
+101304	Verbrauch der Kokereien und Gaswerke
+101305	Verbrauch in der Erdöl- und Gasgewinnung
+101306	Verbrauch beim Transport und bei der Verteilung von Öl und Gas
+101307	Verbrauch in Raffinerien
+101308	Verbrauch in Kernkraftwerken
+101400	Netzverluste
+101500	Für den Endverbrauch zur Verfügung stehende Energie
+101600	Nichtenergetischer Endverbrauch
+101601	Nichtenergetischer Endverbrauch in der chemischen Industrie
+101602	Nichtenergetischer Endverbrauch in anderen Industrien
+101700	Energetischer Endverbrauch
+101800	Energetischer Endverbrauch der Industrie
+101805	Energetischer Endverbrauch der Stahlindustrie
+101810	Energetischer Endverbrauch der NE-Metallindustrie
+101815	Energetischer Endverbrauch der chemischen Industrie
+101820	Energetischer Endverbrauch der Nichtmetallische Mineralstoffe verarbeitenden Industrie
+101825	Energetischer Endverbrauch der Erzgewinnungsindustrie (mit Ausnahme der Brenn-und Kraftstoffgewinnung)
+101830	Energetischer Endverbrauch der Nahrungs- und Genussmittelindustrie
+101835	Energetischer Endverbrauch der Textil-, Lederwaren- und Bekleidungsindustrie
+101840	Energetischer Endverbrauch der Papier- und Druckindustrie
+101845	Energetischer Endverbrauch im Maschinenbau und anderen metallverarbeitenden Industrien
+101850	Energetischer Endverbrauch anderer Industriezweige
+101899	Energetischer Endverbrauch - Ausgleichsposten
+101900	Energetischer Endverbrauch im Verkehrssektor
+101910	Energetischer Endverbrauch des Bahnverkehrs
+101920	Energetischer Endverbrauch des Strassenverkehrs
+101930	Energetischer Endverbrauch des Luftverkehrs
+101940	Energetischer Endverbrauch der Binnenschiffahrt
+102000	Energetischer Endverbrauch der Privathaushalte/Dienstleistungen
+102010	Energetischer Endverbrauch der Privathaushalte
+102020	Energetischer Endverbrauch des Fischereisektors
+102030	Energetischer Endverbrauch der Landwirtschaft
+102035	Energetischer Endverbrauch des Dienstleistungssektors
+102040	Energetischer Endverbrauch anderer Sektoren
+102200	Statistische Differenz
+105001	Gesamtbestände in Zechen
+105003	Gesamtbestände in öffentlichen Kraftwerken
+105100	Lieferungen für den Inlandsmarkt
+105101	Lieferungen an öffentliche und Zechenkraftwerke
+105102	Lieferungen an öffentliche Kraftwerke
+105103	Lieferungen an Zechenkraftwerke
+105105	Lieferungen an Kokereien
+105106	Lieferungen an die Stahlindustrie
+105110	Sonstige Lifereungen
+105112	Lieferungen an Brikettfabriken
+105120	Lieferungen an die Industrie
+106002	Nettoausstoss der Raffinerien
+106003	Nettoausstoss ausserhalb von Raffinerien
+106018	Nettoeinsatz in Raffinerien
+106101	Bestände am Beginn der Periode
+106102	Bestände am Ende der Periode
+106118	Nettoausstoss von Raffinerien
+106201	Verfügbarkeit
+107000	Bruttoelektrizitätserzeugung insgesamt
+107001	Bruttoelektrizitätserzeugung der Wasserkraftwerke
+107002	Bruttoelektrizitätserzeugung der geothermischen Kraftwerke
+107003	Bruttoelektrizitätserzeugung der Kernkraftwerke
+107004	Bruttoelektrizitätserzeugung herkömmlicher Wärmekraftwerke
+107005	Bruttoelektrizitätserzeugung der Windkraftanlagen
+107006	Bruttoelektrizitätserzeugung der Kohlekraftwerke
+107007	Bruttoelektrizitätserzeugung der Braunkohlekraftwerke
+107008	Bruttoelektrizitätserzeugung der ölbefeuerten Kraftwerke
+107009	Bruttoelektrizitätserzeugung der erdgasbefeuerten Kraftwerke
+107010	Bruttoelektrizitätserzeugung der abgeleiteten Gaskraftwerke
+107011	Bruttoelektrizitätserzeugung der mit Biomasse befeuerten Kraftwerke
+107012	Bruttoelektrizitätserzeugung anderer Kraftwerke
+107015	Bruttoerzeugung der Wasserkraftwerke (Leistung < 1 MW)
+107016	Bruttoerzeugung der Wasserkraftwerke (Leistung >= 1 MW und <= 10 MW)
+107017	Bruttoerzeugung der Wasserkraftwerke (Leistung > 10 MW)
+107023	Bruttoerzeugung photovoltaischer Systeme
+107024	Bruttoerzeugung thermischer Sonnenenergie
+107025	Bruttoerzeugung auf Basis von Hausmüll
+107026	Bruttoerzeugung auf Basis von Holz und Holzabfällen
+107027	Bruttoerzeugung auf Basis von Biogas
+107028	Bruttoerzeugung auf Basis von Industriemüll
+107100	Nettoelektrizitätserzeugung insgesamt
+107101	Nettoelektrizitätserzeugung der Wasserkraftwerke
+107102	Nettoelektrizitätserzeugung geothermischer Kraftwerke
+107103	Nettoelektrizitätserzeugung der Kernkraftwerke
+107104	Nettoelektrizitätserzeugung herkömmlicher Wärmekraftwerke
+107105	Nettoelektrizitätserzeugung der Windkraftanlagen
+107106	Nettoelektrizitätserzeugung der Kohlekraftwerke
+107107	Nettoelektrizitätserzeugung der Braunkohlekraftwerke
+107108	Nettoelektrizitätserzeugung der ölbefeuerten Kraftwerke
+107109	Nettoelektrizitätserzeugung der erdgasbefeuerten Kraftwerke
+107110	Nettoelektrizitätserzeugung der abgeleiteten Gaskraftwerke
+107111	Nettoelektriziätserzeugung der mit Biomasse befeuerten Kraftwerke
+107112	Nettoelektrizitätserzeugung anderer Kraftwerke
+107200	Für den Inlandmarkt verfügbar
+107202	Verbrauch des Inlandsmarktes
+107301	Bruttoerzeugung der Pumpspeicherkraftwerke
+107302	Elektrizitätsverbrauch der Pumpspeicherkraftwerke
+107400	Brennstoffverbrauch des Energiesektors
+107500	Brennstoffverbrauch in öffentlichen Kraftwerken
+107510	Brennstoffverbrauch in Kraftwerken für die Wärmeerzeugung
+107520	Brennstoffverbrauch für die Elektrizitätserzeugung
+108300	Übertragene Erzeugnisse
+108310	Sonstiger Einsatz
+109300	Herkunft : Biomasse
+115207	Raffinerieleistungen
+115208	Crackingleistungen
+115209	'Reforming' -Leistungen
+117600	Nettoleistung - insgesamt
+117601	Nettoleistung der Wärmekraftwerke
+117603	Nettoleistung der Kernkraftwerke
+117605	Nettoleistung der Wasserkraftwerke
+117607	Nettoleistung der Pumpspeicherkraftwerke
+117608	Nettoleistung der geothermischen Kraftwerke
+117609	Nettoleistung der Windkraftwerke
+117610	Nettoleistung sonstiger Kraftwerke
+117611	Nettoleistung der Dampfturbinenkraftwerke
+117612	Nettoleistung der Gasturbinenkraftwerke
+117613	Nettoleistung der Kraftwerke mit kombiniertem Kreislauf
+117614	Nettoleistung der Kraftwerke mit Verbrennungsmotoren
+117615	Nettoleistung von Wasserkraftwerken (Leistung < 1 MW)
+117616	Nettoleistung von Wasserkraftwerken (Leistung  >= 1 MW und <= 10 MW)
+117617	Nettoleistung von Wasserkraftwerken (Leistung  > 10 MW)
+117621	Nettoleistung der öffentlichen Kraftwerke
+117622	Nettoleistung in Kraftwerken der Eigenerzeuger
+117623	Nettoleistung der photovoltaischen Systeme
+117624	Nettoleistung von thermischen Sonnenenergiesystemen
+117625	Nettoleistung von Hausmüllkraftwerken
+117626	Nettoleistung von Holz- und Holzabfallkraftwerken
+117627	Nettoleistung von Biogaskraftwerken
+117628	Nettoleistung von Industriemüllkraftwerken
+117800	Länge des Verteilernetzes
+117900	Lagerungskapazitäten
+119300	Fläche der Solaranlagen
+119400	Produktionsleistung für Biobrennstoffe
+119500	Marktanteil des größten Erzeugers im Strommarkt - als Prozentsatz des Gesamtmarktes
+119600	Energieintensität der Wirtschaft - Bruttoinlandsverbrauch an Energie geteilt durch BIP (zu konstanten Preisen, 1995=100) - kgRÖE (kg Rohöleinheit) pro 1000 Euro
+119700	Anteil an erneuerbaren Energiequellen - Beitrag der erneuerbaren Energiequellen zum gesamten Stromverbrauch (%)
+180001	Tankstellenpreis, alle Steuern inbegriffen
+180002	Lieferungspreis, ohne Steuern
+180100	Primärerzeugung
+180300	Einfuhren insgesamt
+180700	Bruttoverbrauch
+180900	Bruttoinlandsverbrauch
+185100	Lieferungen für den Inlandsmarkt insgesamt
+186002	Nettoausstoss der Raffinerien
+187000	Bruttoelektrizitätserzeugung insgesamt
+V01	Thermische Energieerzeugung (GWh)
+V02	Elektrische Brutto-Energieerzeugung (GWh)
+V03	Elektrische Netto-Energieerzeugung (GWh)
+V04	Elektrische Netto Höchstlast (MW)
+V05	Kritikalitätsdauer des Reaktors (Std.)
+V06	Betriebszeit des Generators (Std.)
+V07	Nichtverfügbare Arbeit (netto) (geplant) (GWh)
+V08	Nichtverfügbare Arbeit (netto) (nicht geplant, interne Einflüsse)(GWh)
+V09	Nichtverfügbare Arbeit (netto) (nicht geplant, Außeneinflüsse) (GWh)
+V10	Netto-Engpaßleistung (MW)
+V11	Referenzstunden
+V12	Arbeitsausnutzungsgrad(%)
+V13	Zeitausnutzung (%)
+V14	Thermischer Nettowirkungsgrad (%)
+V15	Arbeitsnichtverfügbarkeit (geplant) (%)
+V16	Arbeitsnichtverfügbarkeit (nicht geplant, interne Einflüsse) (%)
+V17	Arbeitsnichtverfügbarkeit (nicht geplant, Außeneinflüsse) (%)
+V18	Arbeitsverfügbarkeitsgrad (%)
+ADD	Aktuelle Heizgradtage
+MDD25	Durchschnitt der Heizgradtage 1980 - 2004
+RDD25	Relative Heizgradtage
+MSHH	Haushalte mittlerer Größe
+MSIND	Industrielle Unternehmen mittlerer Größe

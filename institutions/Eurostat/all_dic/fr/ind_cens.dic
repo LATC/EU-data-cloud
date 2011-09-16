@@ -1,0 +1,27 @@
+MULTI_FAM	Vivant dans les ménages privés multifamiliaux
+HH_MBRGE_5	Vivant dans un ménage privé de 5 membres ou plus
+CHILD	Enfant
+A1_CH	Parent seul avec enfants
+FOR	Etrangers - Total
+BORNOUT	Né hors du pays des parents
+BORNIN	Né dans le pays d'origine des parents
+LIVOUT	Vivant hors du pays des parents l'année précédente
+ISCED1	Enseignement primaire ou premier cycle de l'éducation de base - niveau 1 (CITE 1997)
+ISCED5_6	Enseignement supérieur - niveaux 5-6 (CITE 1997)
+INACT	Population inactive
+EDUC	Fréquentant des établissements d'enseignement
+UNE	Chômage
+EMPLER	Employeurs
+PT	Temps partiel
+ISCO1	Membres de l'Exécutif et des corps législatifs, cadres supérieurs de l'Adm. Publique, dirigeants et cadres supérieurs d'entreprise
+ISCO2	Professions intellectuelles et scientifiques
+TOT_HH	Tous les ménages
+HH_ACT	Ménages par nombre de membres économiquement actifs
+GE_65	Ménages avec des membres de 65 ans et plus
+GE_75	Ménages avec des membres de 75 ans et plus
+TOT_DWEL	Nombre total des logements
+OCC	Nombre total des logements occupés
+TOT_PERS_DWEL	Nombre total de personnes
+UNK	Inconnu
+TOT_ROOM_DWEL	Nombre total de pièces pour les logements classiques occupés
+UNK_PERS	Nombre total de personnes de domicile inconnu

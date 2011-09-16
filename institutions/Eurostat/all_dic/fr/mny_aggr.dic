@@ -1,0 +1,58 @@
+GDPM1	PIB divisé par M1 (vitesse de circulation de la monnaie)
+M0	Monnaie de la banque centrale
+M1	Agrégat monétaire: M1
+M1M3	M1/M3 (ratio de liquidité - %)
+M2	Agrégat monétaire: M2
+M3	Agrégat monétaire: M3
+M3MOV3M	M3 moyenne mobile sur 3 mois centrée
+M4	Agrégat monétaire: M4
+M1N	Agrégat monétaire M1 definition nationale
+M2N	Agrégat monétaire M2 definition nationale
+M3N	Agrégat monétaire M3 definition nationale
+LTLIABN	Engagements à long terme definition nationale
+NCM1	Monnaie fiduciaire/M1 (taux d'encaisse - %)
+NCOIN	Monnaie fiduciaire
+MFISIDP	Dépôts à vue
+MFISADP	Dépôts d'épargne auprès des institutions financières monétaires
+MFILER	Prêts aux résidents de la zone euro accordés par les institutions financières monétaires
+MFILGG	Prêts aux administrations publiques de la zone euro accordés par les institutions financières monétaires
+MFILOR	Prêts aux autres résidents de la zone euro accordés par les institutions financières monétaires
+OBA	Autres agrégats monétaires (variables selon les pays)
+SADP	Dépôts d'épargne
+SIDP	Dépôts à vue
+DAMU2Y	Dépôts à terme d'une durée inférieure ou égale à 2 ans
+DRNU3M	Dépôts remboursables avec préavis inférieur ou égal à 3 mois
+MFISRCA	Prises en pensions
+MMFS	Titres d'OPCVM monétaires
+DSU2Y	Titres de créance d'une durée initiale inférieure ou égale à 2 ans
+LTLIAB	Engagements à long terme
+EXTL	Engagements envers les non-résidents
+MFIDEPAG	Total des dépôts des résidents auprès des institutions financières monétaires (non-consolidés)
+MFIDEPMFI	Dépôts des institutions financières monétaires auprès des institutions financières monétaires
+MFIDEPTOT	Total des dépôts des résidents auprès des institutions financières (consolidés)
+MFIDEPCENGOV	Dépôts du gouvernement central auprès des institutions financières monétaires
+MFIDEPOR	Dépôts des autres résidents auprès des institutions financières monétaires
+MFIDEPTOTFC	Total des dépôts auprès des institutions financières monétaires en devises étrangères
+MFIDEPTOTEUR	Total des dépôts auprès des institutions financières monétaires en euro
+MFICRINTAS	Total des crédits aux résidents accordés par les institutions financières monétaires (non-consolidés)
+MFICRINTMFI	Crédits aux institutions financières monétaires accordés par les institutions financières monétaires
+MFICRINTTOT	Total des crédits aux résidents accordés par les institutions financières monétaires (consolidés)
+MFICRINTGG	Crédits aux administrations publiques accordés par les institutions financières monétaires
+MFICRINTOR	Crédits aux autres résidents accordés par les institutions financières monétaires
+MFIGOVDEP	Dépôts du gouvernement central auprès des institutions financières monétaires
+MFICRINTPRIS	Crédits au secteur privé non financier accordés par les institutions financières monétaires
+MFICRINTNFPE	Crédits au secteur public non financier accordés par les institutions financières monétaires
+MFICRINTOTHSECT	Crédits aux autres secteurs accordés par les institutions financières monétaires
+MFICRINTOFI	Crédits aux autres institutions financières accordés par les institutions financières monétaires
+MFICRINTGGN	Crédits nets aux administrations publiques accordés par les institutions financières monétaires
+MFILOANSAS	Total des prêts aux résidents accordés par les institutions financières monétaires (non-consolidés)
+MFILOANSMFI	Prêts aux institutions financières monétaires accordés par les institutions financières monétaires
+MFILOANSTOT	Total des prêts aux résidents accordés par les institutions financières monétaires (consolidés)
+MFILOANSGG	Prêts aux administrations publiques accordés par les institutions financières monétaires
+MFILOANSOR	Prêts aux autres résidents accordés par les institutions financières monétaires
+MFISECTAS	Portefeuilles de titres émis par le total des résidents (non-consolidés)
+MFISECMFI	Portefeuilles de titres émis par des institutions financières monétaires
+MFISECTOT	Portefeuilles de titres émis par le total des résidents (consolidés)
+MFISECGG	Portefeuilles de titres émis par les administrations publiques
+MFISECOR	Portefeuilles de titres émis par les autres résidents
+EXTAS	Créances sur les non-résidents

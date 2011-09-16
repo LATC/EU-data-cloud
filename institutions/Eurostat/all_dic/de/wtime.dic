@@ -1,0 +1,9 @@
+TOTAL	Insgesamt
+0	Keine Arbeiten im Betrieb
+0_49	<50% Vollarbeitzeit
+1_24	<25% Vollarbeitzeit
+25_49	25% -< 50% Vollarbeitzeit
+50_74	50% -< 75% Vollarbeitzeit
+75_99	75% -< 100% Vollarbeitzeit
+1_99	Teilzeit
+100	Vollarbeitzeit

@@ -1,0 +1,152 @@
+TOT_IPC	Gesamtzahl der Patentanmeldungen
+A	Sektion A - Täglicher Lebensbedarf
+A01	Landwirtschaft; Forstwirtschaft; Tierzucht; Jagen; Fallenstellen; Fischfang
+A21	Backen; Lebensmittelteige
+A22	Fleischhauerei; Fleischverarbeitung; Geflügel- und Fischverarbeitung
+A23	Lebensmittel; ihre Behandlung, soweit nicht in anderen Klassen vorgesehen
+A24	Tabak; Zigarren; Zigaretten; Utensilien für Raucher
+A41	Bekleidung
+A42	Kopfbekleidung
+A43	Schuhwerk
+A44	Kurzwaren; Schmucksachen
+A45	Hand- oder Reisegeräte
+A46	Borstenwaren
+A47	Möbel; Haushaltsgegenstände oder -geräte; Kaffeemühlen; Gewürzmühlen; Staubsauger allgemein
+A61	Medizin oder Tiermedizin; Hygiene
+A62	Lebensrettung; Feuerbekämpfung
+A63	Sport; Spiele; Volksbelustigungen
+B	Sektion B - Arbeitsverfahren; Transportieren
+B01	Physikalische oder chemische Verfahren oder Vorrichtungen allgemein
+B02	Brechen, Pulverisieren oder Zerkleinern; Vorbehandlung von Getreide für die Vermahlung
+B03	Naßaufbereitung von Feststoffen oder Aufbereitung mittels Luftsetzmaschinen oder Luftherden; magnetische oder elektrostatische Trennung fester Stoffe von festen Stoffen oder flüssigen oder gasförmigen Medien; Trennung mittels elektrischer Hochspannungsfelder
+B04	Mit Zentrifugalkräften arbeitende Apparate oder Maschinen zum Durchführen physikalischer oder chemischer Verfahren
+B05	Versprühen oder Zerstäuben allgemein; Aufbringen von Flüssigkeiten oder von anderen fließfähigen Stoffen auf Oberflächen allgemein
+B06	Erzeugen oder Übertragen mechanischer Schwingungen allgemein
+B07	Trennen fester Stoffe von festen Stoffen; Sortieren
+B08	Reinigen
+B09	Beseitigung von festem Abfall; Wiedergewinnung von verseuchtem Boden
+B21	Mechanische Metallbearbeitung ohne wesentliches Zerspanen des Werkstoffs; Stanzen von Metall
+B22	Gießerei; Pulvermetallurgie
+B23	Werkzeugmaschinen; Metallbearbeitung, soweit nicht anderweitig vorgesehen
+B24	Schleifen; Polieren
+B25	Handwerkzeuge; tragbare Werkzeuge mit Kraftantrieb; Griffe für Handgeräte; Werkstatteinrichtungen; Manipulatoren
+B26	Handschneidwerkzeuge; Schneiden; Trennen
+B27	Bearbeiten oder Konservieren von Holz oder ähnlichem Werkstoff; Nagelmaschinen oder Klammermaschinen allgemein
+B28	Ver- bzw. Bearbeiten von Zement, Ton oder Stein
+B29	Verarbeiten von Kunststoffen; Verarbeiten von Stoffen in plastischem Zustand allgemein
+B30	Pressen
+B31	Herstellen von Gegenständen aus Papier; Papierverarbeitung
+B32	Schichtkörper
+B41	Drucken; Liniermaschinen; Schreibmaschinen; Stempel
+B42	Buchbinderei; Alben; [Brief-]Ordner; besondere Drucksachen
+B43	Schreib- oder Zeichengeräte; Bürozubehör
+B44	Dekorationskunst oder -technik
+B60	Fahrzeuge allgemein
+B61	Eisenbahnen
+B62	Gleislose Landfahrzeuge
+B63	Schiffe oder sonstige Wasserfahrzeuge; dazugehörige Ausrüstung
+B64	Luftfahrzeuge; Flugwesen; Raumfahrt
+B65	Fördern; Packen; Lagern; Handhaben dünner oder fadenförmiger Werkstoffe
+B66	Heben; Anheben; Schleppen [Hebezeuge]
+B67	Öffnen oder Verschließen von Flaschen, Krügen oder ähnlichen Behältern; Handhaben von Flüssigkeiten
+B68	Sattlerei; Polsterei
+B81	Mikrostrukturtechnik
+B82	Nanotechnik
+C	Section C - Chemie; Hüttenwesen
+C01	Anorganische Chemie
+C02	Behandlung von Wasser, Schmutzwasser, Abwasser oder von Abwasserschlamm
+C03	Glas; Mineral- oder Schlackenwolle
+C04	Zemente; Beton; Kunststein; keramische Massen; feuerfeste Massen
+C05	Düngemittel; deren Herstellung
+C06	Sprengstoffe; Zündhölzer
+C07	Organische Chemie
+C08	Organische makromolekulare Verbindungen; deren Herstellung oder chemische Verarbeitung; Massen auf deren Grundlage
+C09	Farbstoffe; Anstrichstoffe; Polituren; Naturharze; Klebstoffe; Verschiedene Zusammensetzungen; Verschiedene Anwendungen von Stoffen
+C10	Mineralöl-, Gas- oder Koksindustrie; Kohlenmonoxid enthaltende technische Gase; Brennstoffe; Schmiermittel; Torf
+C11	Tierische oder pflanzliche Öle, Fette, fettartige Stoffe oder Wachse; daraus gewonnene Fettsäuren; Reinigungsmittel; Kerzen
+C12	Biochemie; Bier; Spirituosen; Wein; Essig; Mikrobiologie; Enzymologie; Mutation oder genetische Techniken
+C13	Zuckerindustrie
+C14	Häute; Felle; Pelze; Leder
+C21	Eisenhüttenwesen
+C22	Metallhüttenwesen (Eisenhüttenwesen C21); Eisen- oder Nichteisenlegierungen; Behandlung von Legierungen oder von nicht Nichteisenmetallen
+C23	Beschichten metallischer Werkstoffe; Beschichten von Werkstoffen mit metallischen Stoffen; Chemische Oberflächenbehandlung; Diffusionsbehandlung von metallischen Werkstoffen; Beschichten allgemein durch Vakuumbedampfen, Aufstäuben, Ionenimplantation oder chemisches Abscheiden aus der Dampfphase; Inhibieren von Korrosion metallischer Werkstoffe oder von Verkrustung allgemein
+C25	Elektrolytische oder elektrophoretische Verfahren; Vorrichtungen dafür
+C30	Züchten von Kristallen
+C40	Kombinatorische Technologie
+D	Sektion D - Textilien; Papier
+D01	Natürliche oder künstliche Fäden oder Fasern; Spinnen
+D02	Garne; Mechanische Veredelung von Garnen oder Seilen; Schären oder Bäumen
+D03	Weberei
+D04	Flechten; Herstellen von Spitzen; Stricken; Posamenten; Nichtgewebte Stoffe
+D05	Nähen; Sticken; Tuften
+D06	Behandlung von Textilien oder dgl.; Waschen; flexible Materialien, soweit nicht anderweitig vorgesehen
+D07	Seile; Kabel, außer elektrische Kabel
+D21	Papierherstellung; Herstellung, Gewinnung von Cellulose bzw. Zellstoff
+E	Sektion E - Bauwesen; Erdbohren; Bergbau
+E01	Straßen-, Eisenbahn- oder Brückenbau
+E02	Wasserbau; Gründungen; Bodenbewegung
+E03	Wasserversorgung; Kanalisation
+E04	Baukonstruktion
+E05	Schlösser; Schlüssel; Fenster- und Türbeschläge; Tresore
+E06	Türen, Fenster, Läden oder Rollblenden allgemein; Leitern
+E21	Erd- oder Gesteinsbohren; Bergbau
+F	Sektion F - Maschinenbau; Beleuchtung; Heizung; Waffen; Sprengen
+F01	Kraft- und Arbeitsmaschinen oder Kraftmaschinen allgemein; Kraftanlagen allgemein; Dampfkraftmaschinen
+F02	Brennkraftmaschinen; mit Heißgas oder Abgasen betriebene Kraftmaschinenanlagen
+F03	Kraft- und Arbeitsmaschinen oder Kraftmaschinen für Flüssigkeiten; Wind-, Feder-, Gewichts- oder sonstige Kraftmaschinen; Erzeugen von mechanischer Energie oder Rückstoßenergie, a.n.g.
+F04	Verdrängerkraft- und Arbeitsmaschinen für Flüssigkeiten; Arbeitsmaschinen insbesondere Pumpen für Flüssigkeiten oder Gase, Dämpfe
+F15	Druckmittelbetriebene Stellorgane; Hydraulik oder Pneumatik allgemein
+F16	Maschinenelemente oder -einheiten; Allgemeine Maßnahmen für die ordnungsgemäße Arbeitsweise von Maschinen oder Einrichtungen; Wärmeisolierung allgemein
+F17	Speichern oder Verteilen von Gasen oder Flüssigkeiten
+F21	Beleuchtung
+F22	Dampferzeugung
+F23	Feuerungen; Verbrennungsverfahren
+F24	Heizung; Herde; Lüftung
+F25	Kälteerzeugung oder Kühlung; Kombinierte Heizungs- und Kältesysteme; Wärmepumpensysteme; Herstellung oder Lagern von Eis; Verflüssigen oder Verfestigen von Gasen
+F26	Trocknen
+F27	Industrieöfen; Schachtöfen; Brennöfen; Retorten
+F28	Wärmetausch allgemein
+F41	Waffen
+F42	Munition; Sprengverfahren
+G	Sektion G - Physik
+G01	Messen (Zählen G06M); Prüfen
+G02	Optik
+G03	Photographie; Kinimatographie; vergleichbare Techniken unter Verwendung von nicht optischen Wellen; Elektrographie; Holographie
+G04	Zeitmessung
+G05	Steuern; Regeln
+G06	Datenverarbeitung; Rechnen; Zählen
+G07	Kontrollvorrichtungen
+G08	Signalwesen
+G09	Unterricht; Geheimschrift; Anzeige; Reklame; Siegel
+G10	Musikinstrumente; Akustik
+G11	Informationsspeicherung
+G12	Einzelheiten von Instrumenten
+G21	Kernphysik; Kerntechnik
+H	Section H - Elektrotechnik
+H01	Grundlegende elektrische Bauteile
+H02	Erzeugung, Umwandlung oder Verteilung von elektrischer Energie
+H03	Grundlegende elektronische Schaltkreise
+H04	Elektrische Nachrichtentechnik
+H05	Elektrotechnik, soweit nicht anderweitig vorgesehen
+TOT_HT	Hochtechnologiebereich - insgesamt
+TOT_NANO	Nanotechnologie
+Y01N_200	Nanobiotechnologie
+Y01N_400	Nanotechnologie pour traitement, sauvegarde et transmission de données
+Y01N_600	Nanotechnologie pour matériaux et sciences de surfaces
+Y01N_800	Nanotechnologie pour interaction, balayage et actionnement
+Y01N_1000	Nano-optique
+Y01N_1200	Nano-aimants
+CAB	Computer und automatisierte Betriebsausrüstung
+MGE	Mikroorganismus und Gentechnik
+AVI	Luftverkehr
+CTE	Kommunikationstechnik
+SMC	Halbleiter
+LSR	Laser
+TOT_BIO	Sektor der Biotechnologie insgesamt
+COE	IuK Unterhaltungselektronik
+COM	IuK Computer, Büromaschinen
+TEL	IuK Telekommunikation
+OTH_ICT	Andere IuK
+TOT_ICT	IuK insgesamt
+NEC	Nicht klassiert
+UNK	Unbekannt

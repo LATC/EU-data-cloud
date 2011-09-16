@@ -1,0 +1,8 @@
+TOT	Total
+PASS_TOT	Voyageurs - total
+PASS_COL	Voyageurs - suite collisions et déraillements
+PASS_OTH	Voyageurs - autres accidents
+PASS_SUI	Voyageurs - Suicides et tentatives de suicide
+RAIL_EMPL	Personnel des chemins de fer
+OTH	Autres
+UNK	Inconnu

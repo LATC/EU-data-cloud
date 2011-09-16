@@ -1,0 +1,28 @@
+NABS01	Exploration et exploitation du milieu terrestre
+NABS02	Environnement
+NABS03	Exploration et exploitation de l’espace
+NABS04	Transports, télécommunications et autres infrastructures
+NABS05	Énergie
+NABS06	Production et technologie industrielles
+NABS07	Santé
+NABS08	Agriculture
+NABS09	Éducation
+NABS10	Culture, activités de loisirs, cultes et médias
+NABS11	Systèmes, organisations et processus politiques et sociaux
+NABS12	Avancement général des connaissances: activités de R&D financées par les Fonds Généraux des Universités (FGU)
+NABS121	Activités de R&D consacrées aux sciences naturelles financées par les FGU
+NABS122	Activités de R&D consacrées aux sciences de l’ingénieur financées par les FGU
+NABS123	Activités de R&D consacrées aux sciences médicales financées par les FGU
+NABS124	Activités de R&D consacrées aux sciences agricoles financées par les FGU
+NABS125	Activités de R&D consacrées aux sciences sociales financées par les FGU
+NABS126	Activités de R&D consacrées aux sciences humaines financées par les FGU
+NABS13	Avancement général des connaissances: activités de R&D financées par d’autres sources que les FGU
+NABS131	Activités de R&D consacrées aux sciences naturelles financées par d'autres sources que les FGU
+NABS132	Activités de R&D consacrées aux sciences de l’ingénieur financées par d'autres sources que les FGU
+NABS133	Activités de R&D consacrées aux sciences médicales financées par d'autres sources que les FGU
+NABS134	Activités de R & D consacrées aux sciences agricoles financées par d'autres sources que les FGU
+NABS135	Activités de R&D consacrées aux sciences sociales financées par d'autres sources que les FGU
+NABS136	Activités de R&D consacrées aux sciences humaines financées par d'autres sources que les FGU
+NABS14	Défense
+NABS99_X_14	Total des credits de R&D civils
+NABS99	Total des credits de R&D

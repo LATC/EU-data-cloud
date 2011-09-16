@@ -1,0 +1,99 @@
+TOTAL	Superficie totale
+AGRIAREA	Superficie agricole utilisée
+ARABLAND	Terres arables
+FOREST	Superficie boisée
+GARDEN	Jardins familiaux
+GRASLAND	Superficie toujours en herbe
+GREENFOD	Fourrage vert des terres arables
+FALLOW	Jachères
+OLIVEPL	Oliveraies
+PERMCROP	Culture permanente
+VINEYARD	Vignes
+L0000	Territoire - Total
+L0001	Terres arables
+L0002	Superficies toujours couvertes d'herbe
+L0003	Cultures permanentes
+L0004	Jardins familiaux
+L0005	Superficie agricole utilisée (S.A.U.)
+L0006	Superficie boisée
+L0007	Autres superficies n.d.a.
+L0008	Terres - Total
+L0009	Eaux intérieures
+L0016	Superficie forestière
+L0010	Autres superficies boisées
+L0900	Cultures sous serre
+L1112	Légumes frais sous serre
+L1113	Fleurs et plantes ornementales sous serre
+L1114	Cultures permanentes sous serre
+L1050	Céréales sans riz
+L1250	Riz
+L1300	Légumes secs, en grains
+L1350	Plantes sarclées
+L1400	Plantes industrielles
+L1600	Légumes
+L2002	Ensemble des cultures fruitières (inclus vin et olives)
+L2410	Vignes
+L2450	Olives
+L2610	Fourrages des terres arables
+L2695	Autres produits des terres arables
+L2696	Engrais verts, jachères
+L2810	Pépinières (y compris pépinères de vigne)
+L2960	Plantes à tresser (oseraies, bambous, etc...)
+L2980	Autres cultures permanentes
+L3001	Fleurs et plantes ornementales (y compris les plants)
+L3310	Semences (plantes sarclées, industrielles non oléagineuses, potagères et fourragères)
+LUA	AGRICULTURE
+LUA1	AGRICULTURE
+LUA11	Agriculture (sauf jachère, potager familial et zones réservées à la consommation familiale/personnelle)
+LUA12	Jachères et terres abandonnées
+LUA13	Potager familial
+LUB	SYLVICULTURE
+LUB1	SYLVICULTURE
+LUB10	Sylviculture
+LUC	CHASSE ET PÊCHE
+LUC1	PÊCHE
+LUC10	Pêche
+LUC2	CHASSE
+LUC20	Chasse
+LUD	LOURD IMPACT SUR L'ENVIRONNEMENT
+LUD1	INDUSTRIES EXTRACTIVES
+LUD10	Industries extractives
+LUD2	PRODUCTION D'ÉNERGIE
+LUD20	Production d'énergie
+LUD3	INDUSTRIE  MANUFACTURIÈRE
+LUD31	Industries alimentaires, fabrication de boissons et de produits du tabac
+LUD32	Fabrication de textiles
+LUD33	Transformation du charbon, du pétrole et des métaux
+LUD34	Production de produits minéraux non métalliques
+LUD35	Industries chimiques et industries connexes
+LUD36	Machines et équipements
+LUD37	Produits à base de bois
+LUD4	TRAITEMENT DES EAUX ET DES DÉCHETS
+LUD41	Distribution et traitement de l'eau
+LUD42	Traitement des déchets
+LUD5	CONSTRUCTION
+LUD51	Construction
+LUD6	TRANSPORTS, COMMUNICATIONS, ENTREPOSAGE, OUVRAGES DE PROTECTION
+LUD61	Chemins de fer
+LUD62	Routes
+LUD63	Transport maritime et fluvial
+LUD64	Transport aérien
+LUD65	Transport par conduites
+LUD66	Télécommunications
+LUD67	Entreposage
+LUD68	Infrastructures de protection
+LUE	SERVICES ET LOGEMENT
+LUE1	COMMERCE, FINANCES, ENTREPRISES
+LUE10	Commerce, finances, entreprises
+LUE2	SERVICES COLLECTIFS
+LUE20	Services collectifs
+LUE3	ACTIVITÉS RÉCRÉATIVES, LOISIRS, SPORTS
+LUE31	Infrastructures, musées, loisirs
+LUE32	Sports
+LUE33	Colonies de vacances
+LUE34	Réserves naturelles
+LUE4	LOGEMENT
+LUE40	Logement
+LUF	SANS USAGE APPARENT
+LUF1	SANS USAGE APPARENT
+LUF10	Sans usage apparent

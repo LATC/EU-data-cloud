@@ -1,0 +1,12 @@
+RO_ALL	Tous les opérateurs agréés
+RO_01	Tous les producteurs agréés
+RO_02	Tous les transformateurs agréés
+RO_03	Tous les importateurs agréés
+RO_04	Producteurs agréés uniquement
+RO_05	Transformateurs agréés uniquement
+RO_06	Importateurs agréés uniquement
+RO_07	Opérateurs combinés agréés : producteurs/transformateurs
+RO_08	Opérateurs combinés agréés : producteurs/importateurs
+RO_09	Opérateurs combinés agréés : transformateurs/importateurs
+RO_10	Opérateurs combinés agréés : producteurs/transformateurs/importateurs
+RO_11	D'autres opérateurs agréés

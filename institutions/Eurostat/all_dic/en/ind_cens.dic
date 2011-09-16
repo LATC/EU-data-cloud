@@ -1,0 +1,27 @@
+MULTI_FAM	Living in multi-family private households
+HH_MBRGE_5	Living in a private household of 5 or more members
+CHILD	Child
+A1_CH	Single parent with children
+FOR	Foreigners - Total
+BORNOUT	Born outside the parent country
+BORNIN	Born inside the parent country
+LIVOUT	Living outside the parent country at previous year
+ISCED1	Primary education or first stage of basic education - level 1 (ISCED 1997)
+ISCED5_6	Tertiary education - levels 5-6 (ISCED 1997)
+INACT	Inactive population
+EDUC	Attendant at educational institutions
+UNE	Unemployment
+EMPLER	Employers
+PT	Part-time
+ISCO1	Legislators, senior officials and managers
+ISCO2	Professionals
+TOT_HH	All the households
+HH_ACT	Households by number of economically active members
+GE_65	Households with members aged 65 and more
+GE_75	Households with members aged 75 and more
+TOT_DWEL	Total number of dwellings
+OCC	Total number of occupied dwellings
+TOT_PERS_DWEL	Total number of persons
+UNK	Unknown
+TOT_ROOM_DWEL	Total number of rooms for conventional occupied dwellings
+UNK_PERS	Total number of persons from dwellings unknown

@@ -1,0 +1,15 @@
+NA	Not applicable
+HOLD	Vineyard holdings
+AAU	Agricultural area in use of vineyard holdings (ha)
+VITAR	Area under vines (ha)
+WGVHOLD	Holdings with wine-grape vine varieties
+WGVAREA	Cultivated area under wine-grape vine varieties (ha)
+QWAREA	Cultivated area under wine-grape vine varieties for the production of quality wines psr (ha)
+WGV_AREA	Area under wine-grape vines
+WGV_NOPROD	Area under wine-grape vines not yet used for production
+WGV_INPROD	Area under wine-grape vines used for production
+GRUB	Grubbed
+PLTED	Planted (new plantings)
+REPLTED	Replanted
+WINE_PROD	Production of grape must or wine (1 000 hl)
+ALCOOL	Natural alcoholic strength (% vol.)

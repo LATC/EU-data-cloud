@@ -1,0 +1,25 @@
+GT_LT100	Weniger als 100 Bruttoraumzahl
+GT100-499	100 bis 499 Bruttoraumzahl
+GT500-999	500 bis 999 Bruttoraumzahl
+GT1000-1999	1 000 bis 1 999 Bruttoraumzahl
+GT2000-2999	2 000 bis 2 999 Bruttoraumzahl
+GT3000-3999	3 000 bis 3 999 Bruttoraumzahl
+GT4000-4999	4 000 bis 4 999 Bruttoraumzahl
+GT5000-5999	5 000 bis 5 999 Bruttoraumzahl
+GT6000-6999	6 000 bis 6 999 Bruttoraumzahl
+GT7000-7999	7 000 bis 7 999 Bruttoraumzahl
+GT8000-8999	8 000 bis 8 999 Bruttoraumzahl
+GT9000-9999	9 000 bis 9 999 Bruttoraumzahl
+GT10000-19999	10 000 bis 19 999 Bruttoraumzahl
+GT20000-29999	20 000 bis 29 999 Bruttoraumzahl
+GT30000-39999	30 000 bis 39 999 Bruttoraumzahl
+GT40000-49999	40 000 bis 49 999 Bruttoraumzahl
+GT50000-79999	50 000 bis 79 999 Bruttoraumzahl
+GT80000-99999	80 000 bis 99 999 Bruttoraumzahl
+GT100000-149999	100 000 bis 149 999 Bruttoraumzahl
+GT150000-199999	150 000 bis 199 999 Bruttoraumzahl
+GT200000-249999	200 000 bis 249 999 Bruttoraumzahl
+GT250000-299999	250 000 bis 299 999 Bruttoraumzahl
+GT_GE300000	300 000 Bruttoraumzahl und mehr
+UNK	Unbekannt
+TOTAL	Insgesamt

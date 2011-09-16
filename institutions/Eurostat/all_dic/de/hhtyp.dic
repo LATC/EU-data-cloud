@@ -1,0 +1,193 @@
+TOTAL	Insgesamt
+PRIV	Private Haushalte
+PRIV_MBR	In privatem Haushalt lebend, mit Mitglied der Kernfamilie
+PRIV_NMBR	In privatem Haushalt lebend, mit Personen, die nicht Mitglieder der Kernfamilie sind
+PRIV_OTH	Sonstige Personen, die in privatem Haushalt leben
+FAM1	Einfamilienhaushalt
+FAM_GE2	Zwei- oder Mehrfamilienhaushalt
+FAM_OTH	In einer anderen Familie lebend
+NFAM	Nicht familiärer Haushalt (Alleinstehende Person + Mehrpersonenhaushalt)
+NFAM_OTH	Sonstige Wohngemeinschaft
+MULTI_NFAM	Nicht familiärer Mehrfamilienhaushalt
+AM	Männer (Alleinstehend oder mit einem Partner)
+AF	Frauen (Alleinstehend oder mit einem Partner)
+AF_NCH	Frauen (Alleinstehend oder mit einem Partner) ohne Kindern
+AF_CH	Frauen (Alleinstehend oder mit einem Partner) mit Kindern
+A1	Alleinstehende Person
+A1_LT30	Ein Erwachsener jünger als 30 Jahre
+A1_30_64	Ein Erwachsener zwischen 30 und 64 Jahren
+A1_LT64	Ein Erwachsener jünger als 64 Jahre
+A1_LT65	Ein Erwachsener jünger als 65 Jahre
+A1_GE65	Ein Erwachsener älter als 65 Jahre
+A1_NCH	Alleinstehende Person ohne Kinder
+A1_CH	Alleinstehender Elternteil mit Kindern
+A1_DCH	Alleinstehender Elternteil mit abhängigen Kindern
+A1_1CH	Alleinstehender Elternteil mit einem Kind
+A1_2CH	Alleinstehender Elternteil mit zwei Kindern
+A1_GE3CH	Alleinstehender Elternteil mit drei oder mehr Kindern
+A1F	Alleinstehende Frau
+AF_GE65	Frau über 65 Jahre
+AF_LT65	Frau unter 65 Jahre
+A1M	Alleinstehender Mann
+AM_GE65	Mann über 65 Jahre
+AM_LT65	Mann unter 65 Jahre
+A1M_CH	Alleinstehender Vater mit Kindern
+A1M_CH_NOTH	Alleinstehender Vater mit Kindern ohne sonstige Personen
+A1M_CH_OTH	Alleinstehender Vater mit Kindern mit sonstigen Personen
+A1M_CH_LT15	Alleinstehender Vater mit Kindern (alle unter 15 Jahre)
+A1M_CH_LT15_GE15	Alleinstehender Vater mit Kindern (einige jünger als 15 Jahre, einige älter)
+A1M_CH_GE15	Alleinstehender Vater mit Kindern (alle älter als 15 Jahre)
+A1M_1CH_CHLT6	Alleinstehender Vater mit einem Kind (unter 6 Jahre)
+A1M_ACT	Alleinstehender Vater, erwerbstätig
+A1M_INACT	Alleinstehender Vater, nicht erwerbstätig
+A1M_UNK	Alleinstehender Vater, Erwerbstätigkeit unbekannt
+A1F_CH	Alleinstehende Mutter mit Kindern
+A1F_CH_NOTH	Alleinstehende Mutter mit Kindern ohne sonstige Personen
+A1F_CH_OTH	Alleinstehende Mutter mit Kindern mit sonstigen Personen
+A1F_CH_LT15	Alleinstehende Mutter mit Kindern (alle unter 15 Jahre)
+A1F_CH_LT15_GE15	Alleinstehende Mutter mit Kindern (einige jünger als 15 Jahre, einige älter)
+A1F_CH_GE15	Alleinstehende Mutter mit Kindern (alle älter als 15 Jahre)
+A1F_1CH_CHLT6	Alleinstehende Mutter mit Kindern (1+ unter 6 Jahre)
+A1F_NCH	Alleinstehende Frau ohne Kinder
+A1F_ACT	Alleinstehende Mutter, erwerbstätig
+A1F_INACT	Alleinstehende Mutter, nicht erwerbstätig
+A1F_UNK	Alleinstehende Mutter, Erwerbstätigkeit unbekannt
+A2	Zwei Erwachsene
+A2_15_64	2 Erwachsene (beide zwischen 15 und 64 Jahre)
+A2_2LT65	Zwei Erwachsene jünger als 65 Jahre
+A2_GE1_GE65	Zwei Erwachsene, einer mindestens 65 Jahre und älter
+A2_1GE65	2 Erwachsene (1 älter als 65 Jahre)
+A2_DCH	Zwei Erwachsene mit abhängigen Kindern
+A2_1CH	2 Erwachsene mit 1 Kind
+A2_1DCH	Zwei Erwachsene mit einem abhängigen Kind
+A2_2CH	2 Erwachsene mit 2 Kindern
+A2_2DCH	Zwei Erwachsene mit zwei abhängigen Kindern
+A2_2CH_LT14	Zwei Erwachsene mit zwei Kindern jünger als 14 Jahre
+A2_3CH	2 Erwachsene mit 3 Kindern
+A2_GE3DCH	Zwei Erwachsene mit drei oder mehr abhängigen Kindern
+A2_GE4CH	2 Erwachsene mit 4 oder mehr Kindern
+A_GE2_NDCH	Drei oder mehr Erwachsene ohne abhängige Kindern
+A_GE2_DCH	Zwei oder mehr Erwachsene mit abhängigen Kindern
+A3_CH	3 Erwachsene mit Kindern
+A3_NCH	3 Erwachsene ohne Kinder
+A_GE3	Drei oder mehr Erwachsene
+A_GE3_DCH	Drei oder mehr Erwachsene mit abhängigen Kindern
+CPL	Ehepaar
+CPL_NCH	Ehepaar ohne Kinder
+CPL_NCH_NOTH	Ehepaar ohne Kind ohne andere Personen
+CPL_NCH_OTH	Ehepaar ohne Kind mit anderen Personen
+CPL_A1_GE65	Ehepaar, eine Person älter als 65 Jahre
+CPL_A2_LT65	Ehepaar, beide jünger als 65 Jahre
+CPL_A2_GE65	Ehepaar, beide älter als 65 Jahre
+CPL_CH	Ehepaar mit Kindern
+CPL_CH_NOTH	Ehepaar mit Kindern ohne sonstige Personen
+CPL_CH_OTH	Ehepaar mit Kindern mit sonstigen Personen
+CPL_1CH	Ehepaar mit einem Kind
+CPL_1CH_CHLT6	Ehepaar mit einem Kind (unter 6 Jahre)
+CPL_2CH	Ehepaar mit zwei Kindern
+CPL_GE3CH	Ehepaar mit drei oder mehr Kindern
+CPL_CH_LT15	Ehepaar mit Kindern (alle unter 15 Jahre)
+CPL_CH_LT15_GE15	Ehepaar mit Kindern (einige jünger als 15 Jahre, einige älter)
+CPL_CH_GE15	Ehepaar mit Kindern (alle mehr als 15 Jahre)
+MCPL	Verheiratetes Paar
+MCPL_NCH	Verheiratetes Paar ohne Kinder
+MCPL_CH	Verheiratetes Paar mit Kindern
+MCPL_1CH	Verheiratetes Paar mit einem Kind
+MCPL_2CH	Verheiratetes Paar mit zwei Kindern
+MCPL_GE3CH	Verheiratetes Paar mit drei oder mehr Kindern
+MCPL_ACT	Verheiratetes Paar, Mann und Frau erwerbstätig
+MCPL_MACT	Verheiratetes Paar, Mann erwerbstätig und Frau nicht erwerbstätig
+MCPL_FACT	Verheiratetes Paar, Frau erwerbstätig und Mann nicht erwerbstätig
+MCPL_INACT	Verheiratetes Paar, Mann und Frau nicht erwerbstätig
+MCPL_UNK	Verheiratetes Paar, Erwerbstätigkeit von Mann und Frau unbekannt
+CCPL	Zusammenlebendes Paar
+CCPL_NCH	Zusammenlebendes Paar ohne Kinder
+CCPL_CH	Zusammenlebendes Paar mit Kindern
+CCPL_1CH	Zusammenlebendes Paar mit einem Kind
+CCPL_2CH	Zusammenlebendes Paar mit zwei Kindern
+CCPL_GE3CH	Zusammenlebendes Paar mit drei oder mehr Kindern
+CCPL_ACT	Zusammenlebendes Paar, Mann und Frau erwerbstätig
+CCPL_MACT	Zusammenlebendes Paar, Mann erwerbstätig und Frau nicht erwerbstätig
+CCPL_FACT	Zusammenlebendes Paar, Frau erwerbstätig und Mann nicht erwerbstätig
+CCPL_INACT	Zusammenlebendes Paar, Mann und Frau nicht erwerbstätig
+CCPL_UNK	Zusammenlebendes Paar, Erwerbstätigkeit von Mann und Frau unbekannt
+PART	Mit Partner oder Gatten zusammenlebend
+PART_CH	Mit Partner oder Gatten sowie Kindern zusammenlebend
+PART_NCH	Mit Partner oder Gatten zusammenlebend, ohne Kinder
+PARTN	Ohne Partner oder Gatten lebend
+MAR	Gatte
+MAR_NCH	Gatte, ohne Kinder lebend
+MAR_CH	Gatte, mit Kindern lebend
+MAR_1CH	Gatte, mit einem Kind lebend
+MAR_2CH	Gatte, mit zwei Kindern lebend
+MAR_GE3CH	Gatte, mit drei oder mehr Kindern lebend
+COH	Zusammenlebend
+COH_NCH	Zusammenlebend, ohne Kinder
+COH_CH	Zusammenlebend, mit Kindern
+COH_1CH	Zusammenlebend, mit einem Kind
+COH_2CH	Zusammenlebend, mit zwei Kindern
+COH_GE3CH	Zusammenlebend, mit drei oder mehr Kindern
+NCOH	Nicht zusammenlebend
+CHILD	Person, die als Kind im Elternhaus lebt
+CH_CPL	Kind, das mit beiden Eltern zusammenlebt
+CH_CPL1	Kind, das mit beiden Eltern zusammenlebt, keine weiteren Kinder
+CH_CPL2	Kind, das mit beiden Eltern und einem weiteren Kind zusammenlebt
+CH_CPL3	Kind, das mit beiden Eltern und zwei oder mehr weiteren Kindern zusammenlebt
+CH_MCPL	Kind, das mit beiden verheirateten Eltern zusammenlebt
+CH_MCPL1	Kind, das mit beiden verheirateten Eltern zusammenlebt, keine weiteren Kinder
+CH_MCPL2	Kind, das mit beiden verheirateten Eltern und einem weiteren Kind zusammenlebt
+CH_MCPL3	Kind, das mit beiden verheirateten Eltern und zwei oder mehr weiteren Kindern zusammenlebt
+CH_CCPL	Kind, das mit zusammenlebenden Eltern lebt
+CH_CCPL1	Kind, das mit zusammenlebenden Eltern lebt, keine weiteren Kinder
+CH_CCPL2	Kind, das mit zusammenlebenden Eltern und einem weiteren Kind lebt
+CH_CCPL3	Kind, das mit zusammenlebenden Eltern und zwei oder mehr weiteren Kindern lebt
+CH_A1	Kind, das mit einem einzelnen Elternteil lebt
+CH_A1_1	Kind, das mit einem einzelnen Elternteil lebt, keine weiteren Kinder
+CH_A1_2	Kind, das mit einem einzelnen Elternteil und einem weiteren Kind lebt
+CH_A1_3	Kind, das mit einem einzelnen Elternteil und zwei oder mehr weiteren Kindern lebt
+LF	In der Familie lebend
+NLF	Nicht in der Familie lebend
+OTH_NLF	Sonstige nicht in der Familie lebende Personen
+OTH	Sonstige
+OTH_NCH	Sonstige, ohne Kinder
+OTH_CH	Sonstige mit Kinder
+ALL_NDCH	Alle Typen ohne abhängige Kinder
+ALL_DCH	Alle Typen mit abhängigen Kindern
+HH_NDCH	Haushalte ohne abhängige Kinder
+HH_DCH	Haushalte mit abhängigen Kindern
+HH_O1	Haushalte in Ziel-1-Gebieten / "Konvergenz" Gebieten
+OTHER	Sonstige Haushalte
+OTHER_NCH	Sonstige Haushalte ohne Kinder
+OTHER_CH	Sonstige Haushalte mit Kindern
+HH_NO1	Haushalte in Nicht-Ziel-1-Gebieten / "Regionale Wettbewerbsfähigkeit und Beschäftigung" Gebieten
+HH_DEG1	Haushalte in dicht besiedelten Gebieten (mindestens 500 Einwohner/Km²)
+HH_DEG2	Haushalte in mitteldicht besiedelten Gebieten (zwischen 100 und 499 Einwohner/Km²)
+HH_DEG3	Haushalte in dünn besiedelten Gebieten (weniger als 100 Einwohner/Km²)
+HH_HBB	Haushaltsangehörige, die eine heimgebundene berufliche Tätigkeit ausüben
+HH_TLW	Haushaltsangehörige, die Telearbeit verrichten
+HH_NO_HBB_TLW	Haushalte ohne heimgebundene berufliche Tätigkeit oder Telearbeit
+HHI_Q1	Zahl der Haushalte mit einem Einkommen im ersten Quartil
+HHI_Q2	Zahl der Haushalte mit einem Einkommen im zweiten Quartil
+HHI_Q3	Zahl der Haushalte mit einem Einkommen im dritten Quartil
+HHI_Q4	Zahl der Haushalte mit einem Einkommen im vierten Quartil
+INST	Anstaltshaushalt
+EDUC	Lehranstalten
+GEN_HOSP	Allgemeine Krankenhäuser
+PSY_HOSP	Psychiatrische Kliniken
+MEDI	Medizinische Einrichtungen
+HANDI	Behindertenheime
+ORPH	Waisenhäuser
+RESTHOME	Sanatorien und Kurbetriebe
+TEMP	Temporäre Beherbergungseinrichtungen
+WELF	Soziale Einrichtungen für Hilfeleistungen
+WELF_OTH	Sonstige soziale Einrichtungen für Hilfeleistungen
+HOTEL	Hotels un ähnliche
+WHOTEL	Arbeiterwohnheime
+MILI	Militärische Einrichtungen
+PRISON	Gefängnisse
+RELI	Religiöse Einrichtungen
+RETIR	Altenheime
+OLD_OTH	Sonstige Altenheime
+STUD	Studentenwohnheime
+INST_OTH	Sonstige Einrichtungen
+UNK	Unbekannt

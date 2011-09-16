@@ -1,0 +1,45 @@
+D	Total labour costs
+D1	Compensation of employees
+D11	Wages and salaries
+D111	Direct remuneration and bonuses
+D1111	Direct remuneration (optional)
+D1112	Bonuses (optional)
+D11121	Bonuses paid at fixed period (optional)
+D11122	Bonuses for collective, indiv. perform. (optional)
+D112	Payments to employees savings schemes
+D113	Payments for days not worked
+D114	Wages and salaries in kind
+D1141	Company products(optional)
+D1142	Staff housing (optional)
+D1143	Company cars (optional)
+D12	Employers' social contributions
+D121	Employers' actual social contributions
+D1211	Statutory social security contributions
+D12111	Retirement pension, sickness, maternity, disability
+D12112	Unemployment
+D12113	Occupational accidents and diseases
+D12114	Family allowances
+D12115	Other
+D1212	Collectively agreed, contractual and voluntary social security contributions
+D12121	Supplementary pension schemes
+D121211	Insured plans (optional)
+D121212	Self-administrated funds (optional)
+D121213	Book reserves or provisions (optional)
+D121214	Other (optional)
+D12122	Supplementary sickness insurance schemes
+D12123	Supplementary unemployment insurance schemes
+D12124	Other supplementary schemes
+D122	Employers' imputed social contributions
+D1221	Guaranteed remuneration in the event of sickness
+D1222	Guarant. remuneration in event of short-time working
+D1223	Payments to employees leaving the enterprise
+D1224	Employers' imputed social benefits
+D2	Vocational training costs
+D21	Remuneration of apprentices
+D22	Social security contributions for apprentices
+D23	Other vocational training costs
+D3	Other expenditure
+D31	Recruitment costs (optional)
+D32	Other (optional)
+D4	Taxes
+D5	Subsidies

@@ -1,0 +1,100 @@
+A000	Total
+A001	Collective tourist accommodation establishments
+A100	Hotels and similar establishments
+A010	Hotels
+A011	Hotels with 1 star
+A012	Hotels with 2 stars
+A013	Hotels with 3 stars
+A014	Hotels with 4 stars
+A015	Hotels with 5 stars and luxury
+A019	Hotels not classified
+A020	Similar establishments
+B010	Tourist campsites
+B020	Holiday dwellings
+B021	Tourist villages
+B040	Other collective accommodation n.e.s.
+B041	Social tourism accommodation establishments
+B100	Other collective accommodation establishments, Total
+B200	Supplementary accommodation establishments
+C010	Health establishments
+C020	Passenger transport
+C030	Work and holiday camps
+C040	Conference centres
+C100	Specialised tourist accommodation
+D010	Rented accommodation
+D011	Rented rooms in family homes
+D012	Dwellings rented from private individuals or professional agencies
+D020	Second homes
+D030	Other types of private accommodation
+D031	Accommodation provided without charge by relatives or friends
+D100	Private tourist accommodation
+F001	Hotels and other accommodation establishments (NACE 55.1 and  55.2)
+F002	Hotels and restaurants (NACE 55)
+F003	Hotels (NACE 55.1)
+F004	Camping sites etc (NACE 55.2)
+F005	Youth hostels and mountain refuges (NACE 55.21)
+F006	Camping sites, including caravan sites (NACE 55.22)
+F007	Other provision of lodgings n.e.c. (NACE 55.23)
+F008	Restaurants (NACE 55.3)
+F009	Bars (NACE 55.4)
+F010	Canteens and catering (NACE 55.5)
+F011	Travel agencies and tour operators (NACE 63.3)
+F012	Renting of automobiles (NACE 71.1)
+F013	Other land passenger transport (NACE 60.23)
+F014	Libraries, archives, museums and other cultural activities (NACE 92.5)
+F015	Other tourist activities (pleasure ports,casinos,circusses,tourist attractions)
+F016	Pleasure ports (NACE 63.21)
+F017	Public tourist boards and offices (NACE 75.12)
+F018	Other tourist activities (excl. public tourist boards)
+F100	Total tourism activities
+G000	General administration
+G001	Branch of economic activity total
+G002	Railway operations - total
+G003	Railway operations - operating and traffic
+G004	Railway operations - traction and rolling stock
+G005	Railway operations - ways and works
+G006	Employment in other operations
+G010	Agriculture
+G020	Industry
+G030	Market services
+G031	Commerce
+G032	Accommodation establishments and other tourist activities
+G033	Transport and communications
+G034	Credit and insurance
+G035	Other services
+G040	Non Market services
+G041	Public administration
+G042	Other non market services
+G050	All items index (HICP 00)
+G051	Tourism
+G052	Transport (HICP 07)
+G053	Transport services (HICP 073)
+G054	Recreation and culture (HICP 09)
+G055	Package holidays (HICP 094)
+G056	Hotels, cafés and restaurants (HICP 11)
+G057	Restaurants and cafés (HICP 1111)
+G058	Accommodation services (HICP 112)
+H001	Sea-ports
+H002	Airports
+H003	Railway
+H004	Motorways
+H005	Land (railway and motorways)
+I001	Agricultural, forestry and fishery products (Nace-Clio 01)
+I002	Fuel and power products (Nace-Clio 06)
+I003	Manufactured products (Nace-Clio 30)
+I004	Building and construction (Nace-Clio 53)
+I005	Market services (Nace-Clio 68)
+I006	Recovery and repair services, wholesale and retail trade services (Nace-Clio 56)
+I007	Lodging and catering services (Nace-Clio 59)
+I008	Inland transport services (Nace-Clio 61)
+I009	Maritime and air transport services (Nace-Clio 63)
+I010	Auxiliary transport services (Nace-Clio 65)
+I011	Communication services (Nace-Clio 67)
+I012	Services of credit and insurance institutions (Nace-Clio 69a)
+I013	Other market services (Nace-Clio 74)
+I014	Non-market services (Nace-Clio 86)
+J000	BOP - Total (Current account)
+J001	Balance of payments - Travel
+J002	Balance of payments - Passenger Transport
+J003	Balance of payments - Tourism (Travel + passenger transport)
+J010	Balance of payments - Services

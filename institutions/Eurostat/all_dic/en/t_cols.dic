@@ -1,0 +1,101 @@
+A_B	Agriculture; fishing
+A01	Agriculture, hunting and related service activities
+A02	Forestry, logging and related service activities
+B05	Fishing, operation of fish hatcheries and fish farms; service activities incidental to fishing
+C-E	Industry (except construction)
+CA10	Mining of coal and lignite; extraction of peat
+CA11	Extraction of crude petroleum and natural gas; service activities incidental to oil and gas extraction excluding surveying
+CA12	Mining of uranium and thorium ores
+CB13	Mining of metal ores
+CB14	Other mining and quarrying
+DA15	Manufacture of food products and beverages
+DA16	Manufacture of tobacco products
+DB17	Manufacture of textiles
+DB18	Manufacture of wearing apparel; dressing; dyeing of fur
+DC19	Tanning, dressing of leather; manufacture of luggage
+DD20	Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials
+DE21	Manufacture of pulp, paper and paper products
+DE22	Publishing, printing, reproduction of recorded media
+DF23	Manufacture of coke, refined petroleum products and nuclear fuel
+DG24	Manufacture of chemicals and chemical products
+DH25	Manufacture of rubber and plastic products
+DI26	Manufacture of other non-metallic mineral products
+DJ27	Manufacture of basic metals
+DJ28	Manufacture of fabricated metal products, except machinery and equipment
+DK29	Manufacture of machinery and equipment n.e.c.
+DL30	Manufacture of office machinery and computers
+DL31	Manufacture of electrical machinery and apparatus n.e.c.
+DL32	Manufacture of radio, television and communication equipment and apparatus
+DL33	Manufacture of medical, precision and optical instruments, watches and clocks
+DM34	Manufacture of motor vehicles, trailers and semi-trailers
+DM35	Manufacture of other transport equipment
+DN36	Manufacture of furniture; manufacturing n.e.c.
+DN37	Recycling
+E40	Electricity, gas, steam and hot water supply
+E41	Collection, purification and distribution of water
+F	Construction
+F45	Construction
+G-I	Wholesale and retail trade; hotels and restaurants; transport
+G50	Sale, maintenance and repair of motor vehicles
+G51	Wholesale trade and commission trade, except of motor and motorcycles
+G52	Retail trade, except of motor vehicles, motorcycles; repair of personal and household goods
+H55	Hotels and restaurants
+J_K	Financial intermediation; real estate
+I60	Land transport; transport via pipelines
+I61	Water transport
+I62	Air transport
+I63	Supporting and auxiliary transport activities; activities of travel agencies
+I64	Post and telecommunications
+J65	Financial intermediation, except insurance and pension funding
+J66	Insurance and pension funding, except compulsory social security
+J67	Activities auxiliary to financial intermediation
+L-P	Public administration and community services; activities of households
+K70	Real estate activities
+K71	Renting of machinery and equipment without operator and of personal and household goods
+K72	Computer and related activities
+K73	Research and development
+K74	Other business activities
+L75	Public administration and defence; compulsory social security
+M80	Education
+N85	Health and social work
+O90	Sewage and refuse disposal, sanitation and similar activities
+O91	Activities of membership organization n.e.c.
+O92	Recreational, cultural and sporting activities
+O93	Other service activities
+P95	Private households with employed persons
+P119	Financial intermediation services indirectly measured (FISIM)
+TOTAL	Total
+P2I	Use of imported products
+P3_S14	Final consumption expenditure by households
+P3_S15	Final consumption expenditure by non-profit organisations serving households (NPISH)
+P3_S13	Final consumption expenditure by government
+P3	Final consumption expenditure
+P51	Gross fixed capital formation
+P53	Changes in valuables
+P52_P53	Changes in inventories and valuables
+P52	Changes in inventories
+P5	Gross capital formation
+P3_P5	Domestic demand
+P6_S21	Exports intra EU fob
+P6_S22	Exports extra EU fob
+P6	Exports
+P6_X_P7	Net exports (exports minus imports)
+P7_S21	Intra EU imports cif
+P7_S22	Extra EU imports cif
+TFINU	Final uses at purchasers'prices
+FINUBP	Final uses at basic prices
+TUBP	Total use at basic prices
+P7	Imports cif
+SUPBP	Total supply at basic prices
+P118	Trade and transport margins
+D21_M_D31	Taxes less subsidies on products
+SUPPP	Total supply at purchasers'prices
+TU	Total use at purchasers' prices
+TOT_CA	Total adjusted 
+TOT_ADJ	Total adjustments
+P7_S2I	Imports of goods and services from EMU members (cif)
+P7_S2X	Imports of goods and services from EMU non-members(cif)
+D11	Gross Wages and salaries
+B3G	Gross mixed income
+P6_S2I	Exports of goods and services EMU members (fob)
+P6_S2X	Exports of goods and services to EMU non-members (fob)

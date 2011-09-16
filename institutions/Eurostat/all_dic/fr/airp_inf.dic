@@ -1,0 +1,11 @@
+RUNW	Nombre de pistes
+LGT_RUNW	Longueur totale des pistes revêtues de plus de 2438 m
+CHECK	Total des infrastructures d'enregistrement
+CHECK_CONV	Total des infrastructures d'enregistrement
+CHECK_SELF	Kiosques d'enregistrement en self-service
+GATE	Nombre total de portes d'embarquement
+GATE_FIBI	Portes équipées de passerelles d'embarquement
+GATE_OTH	Autres portes
+PARK	Nombre total de places de stationnement
+PARK_SH	Places de stationnement courte durée
+PARK_ML	Places de stationnement moyen et long séjour

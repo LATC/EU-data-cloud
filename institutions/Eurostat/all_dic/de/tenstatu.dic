@@ -1,0 +1,23 @@
+TOTAL	Insgesamt
+CONV	Konventionelle Wohnungen
+OCC_DWEL	Belegte Wohnungen
+OWNER	Eigentümer
+OWNER_OCC	Inhaber besetzt
+OWNER_LOAN	Eigentümer (mit Hypothek und/oder Darlehen)
+OWNER_NLOAN	Eigentümer (ohne Hypothek und Darlehen)
+RENT	Mieter
+RENT_MKT	Mieter - Marktpreis
+RENT_FRED	Mieter - ermässigter Preis oder unentgeltlich
+RENT_FREE	Mietfrei
+RENT_OTH	Sonstige Form der Wohnungsnutzung
+RES_UNK	Belegung unbekannt
+OTHER	Sonstige
+SECOND	Wohnungen als Saison- oder Zweitwohnungen
+NCONV	Nicht konventionelle Wohneinheiten
+CONV_UNK	Unbekannt Konventionelle Wohnung
+TOT_POPHH	Gesamtbevölkerung in den privaten Haushalten
+VACANT	Leerstehend
+COLL	Gemeinschaftsunterkünfte
+UNK	Unbekannt
+UNK_OCC	Art der Nutzung unbekannt
+TOT_ROOM	Anzahl der Zimmer insgesamt

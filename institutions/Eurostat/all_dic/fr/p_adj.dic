@@ -1,0 +1,10 @@
+CP	Prix courants
+CLV2000	Mesures de volume chaînées, année de référence 2000 (aux taux de change de 2000)
+CLV2005	Mesures de volume chaînées, année de référence 2005 (aux taux de change de 2005)
+NOMINAL	Valeur nominale
+PRC	Prix nominal
+REAL	Valeur réelle
+REAL_PRC	Prix réel
+DEFLATED	Déflaté
+VOL	Volume
+NOT_APP	Sans objet

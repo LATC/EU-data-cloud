@@ -1,0 +1,58 @@
+GDPM1	BIP/M1 (Einkommenskreislaufgeschwindigkeit)
+M0	Zentralbankgeld
+M1	Geldmenge: M1
+M1M3	M1/M3 (Liquiditätskoeffizient - %)
+M2	Geldmenge: M2
+M3	Geldmenge: M3
+M3MOV3M	M3 Gleitender dreimonatsdurchschnitt zentriert
+M4	Geldmenge: M4
+M1N	Geldmenge M1 nationale Definition
+M2N	Geldmenge M2 nationale Definition
+M3N	Geldmenge M3 nationale Definition
+LTLIABN	Länger-fristige finanzielle Verbindlichkeiten nationale definition
+NCM1	Bargeld/M1 (Bargeldabflußkoeffizient - %)
+NCOIN	Bargeld
+MFISIDP	Täglich fällige Einlagen
+MFISADP	Spareinlagen bei geldschöpfenden Kredit- und Finanzinstituten
+MFILER	Darlehen an Gebietsansässige des Euroraums, die von geldschöpfenden Kredit- und Finanzinstituten gewährt wurden
+MFILGG	Darlehen an Staaten des Euroraums, die von geldschöpfenden Kredit- und Finanzinstituten gewährt wurden
+MFILOR	Darlehen an sonstige Gebietsansässige des Euroraums, die von geldschöpfenden Kredit- und Finanzinstituten gewährt wurden
+OBA	Sonstige Geldmenge (unterschiedlich je nach Land)
+SADP	Spareinlagen
+SIDP	Sichteinlagen
+DAMU2Y	Einlagen mit einer vereinbarten Laufzeit von bis zu zwei Jahren
+DRNU3M	Einlagen mit einer vereinbarten Kündigungsfrist von bis zu drei Monaten
+MFISRCA	Repogeschäften
+MMFS	Geldmarktfondsanteilen
+DSU2Y	Schuldverschreibungen mit einer Laufzeit von bis zu zwei Jahren
+LTLIAB	Länger-fristige finanzielle Verbindlichkeiten
+EXTL	Passiva gegenüber Ansässigen außerhalb des Euro-Währungs-gebiets
+MFIDEPAG	Einlagen insgesamt Gebietsansässiger bei geldschöpfenden Kredit- und Finanzinstituten (nicht-konsolidiert)
+MFIDEPMFI	Einlagen von geldschöpfenden Kredit- und Finanzinstituten bei geldschöpfenden Kredit- und Finanzinstituten
+MFIDEPTOT	Einlagen insgesamt Gebietsansässiger bei geldschöpfenden Kredit- und Finanzinstituten (konsolidiert)
+MFIDEPCENGOV	Einlagen des Zentralstaates bei geldschöpfenden Kredit- und Finanzinstituten
+MFIDEPOR	Einlagen anderer Gebietsansässiger bei geldschöpfenden Kredit- und Finanzinstituten
+MFIDEPTOTFC	Einlagen insgesamt bei geldschöpfenden Kredit- und Finanzinstituten in fremden Währungen
+MFIDEPTOTEUR	Einlagen insgesamt bei geldschöpfenden Kredit- und Finanzinstituten in EURO
+MFICRINTAS	Kredite an Gebietsansässige insgesamt die von geldschöpfenden Kredit- und Finanzinstituten gewährt wurden (nicht-konsolidiert)
+MFICRINTMFI	Kredite an geldschöpfende Kredit- und Finanzinstitute die von geldschöpfenden Kredit- und Finanzinstituten gewährt wurden
+MFICRINTTOT	Kredite an Gebietsansässige insgesamt die von geldschöpfenden Kredit- und Finanzinstituten gewährt wurden (konsolidiert)
+MFICRINTGG	Kredite an die öffentlichen Haushalte, die von geldschöpfenden Kredit- und Finanzinstituten gewährt wurden
+MFICRINTOR	Kredite an sonstige Gebietsansässige, die von geldschöpfenden Kredit- und Finanzinstituten gewährt wurden
+MFIGOVDEP	Einlagen des Zentralstaates bei geldschöpfenden Kredit- und Finanzinstituten
+MFICRINTPRIS	Kredite an den privaten Nicht-Bankensektor, die von geldschöpfenden Kredit- und Finanzinstituten gewährt wurden
+MFICRINTNFPE	Kredite an den öffentlichen Nicht-Bankensektor, die von geldschöpfenden Kredit- und Finanzinstituten gewährt wurden
+MFICRINTOTHSECT	Kredite an sonstige Sektoren, die von geldschöpfenden Kredit- und Finanzinstituten gewährt wurden
+MFICRINTOFI	Kredite an sonstige Finanzinstitute, die von geldschöpfenden Kredit- und Finanzinstituten gewährt wurden
+MFICRINTGGN	Netto-Kredite an den Staat, die von geldschöpfenden Kredit- und Finanzinstituten gewährt wurden
+MFILOANSAS	Darlehen an Gebietsansässige insgesamt, die von geldschöpfenden Kredit- und Finanzinstituten gewährt wurden (nicht-konsolidiert)
+MFILOANSMFI	Dahrlehen an geldschöpfende Kredit- und Finanzinstitute, die von geldschöpfenden Kredit- und Finanzinstituten gewährt wurden
+MFILOANSTOT	Darlehen an Gebietsansässige insgesamt, die von geldschöpfenden Kredit- und Finanzinstituten gewährt wurden (konsolidiert)
+MFILOANSGG	Darlehen an die öffentlichen Haushalte, die von geldschöpfenden Kredit- und Finanzinstituten gewährt wurden
+MFILOANSOR	Darlehen an sonstige Gebietsansässige, die von geldschöpfenden Kredit- und Finanzinstituten gewährt wurden
+MFISECTAS	Wertpapiere von Gebietsansässigen insgesamt (nicht-konsolidiert)
+MFISECMFI	Wertpapiere von geldschöpfenden Kredit- und Finanzinstituten
+MFISECTOT	Wertpapiere von Gebietsansässigen insgesamt (konsolidiert)
+MFISECGG	Wertpapiere von öffentlichen Haushalten
+MFISECOR	Werpapiere von anderen Gebietsansässigen
+EXTAS	Aktiva gegenüber Ansässigen außerhalb des Euro-Währungs-gebiets

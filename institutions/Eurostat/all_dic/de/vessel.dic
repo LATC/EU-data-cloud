@@ -1,0 +1,22 @@
+TOTAL	Insgesamt
+LIQ_BLK	Tankschiffe (Tanker)
+DRY_BLK	Schüttgutfrachtschiffe
+CONT	Containerschiffe
+CRG_SPE	Spezialfrachtschiffe
+CRG_NSPE	Unspezialisierte Stückgutfrachtschiffe
+BAR_SP	Gütermotorschiff
+BAR_NSP	Güterbinnenschiff ohne eigenen Antrieb
+BAR_DUPU	Güterschleppkähne, Güterschubleichter und Schub-Güterschleppkähne
+BAR_TK_SP	Tankmotorschiff
+BAR_TK_NSP	Tankbinnenschiff ohne eigenen Antrieb
+BAR_DRY_CRG	Trockenfrachtleichter
+PASS_FER	Fahrgastschiffe - ohne Kreuzfahrtschiffe
+PASS_CRU	Kreuzfahrtschiffe
+VESS_FISH	Fischereifahrzeuge
+VESS_SEA	Seeschiff
+OFFSH	Offshore-Fahrzeuge
+OTH_GDVES	Sonstiges Güterbinnenschiff
+TUG	Schlepper
+TUG_PUSH	Schleppboote, Schubboote und Schub-Schleppboote
+MISC	Sonstige Schiffe (Schwimmbagger, Forschungs-/Vermessungsschiffe, sonstige)
+UNK	Unbekannt

@@ -1,0 +1,82 @@
+0099	Total (sans fruits et légumes)
+0100	Total
+0999	Produits végétaux (sans fruits et légumes)
+1000	Produits végétaux
+1040	Céréales et riz
+1120	Blé tendre
+1130	Blé dur
+1150	Seigle
+1161	Orge de brasserie
+1162	Orge fourragère
+1180	Avoine
+1200	Maïs-grain
+1210	Autres céréales
+1250	Riz non décortiqué
+1300	Légumes secs
+1350	Plantes sarclées
+1360	Pommes de terre de consommation
+1362	Pommes de terre hâtives
+1363	Autres pommes de terre
+1372	Betteraves sucrières
+1380	Autres plantes sarclées
+1410	Graines oléagineuses
+1490	Coton
+1550	Tabac brut
+1600	Légumes frais
+1620	Choux-fleurs
+1630	Choux
+1680	Laitues
+1690	Epinards
+1750	Tomates
+1761	Concombres
+1799	Poivrier
+1830	Carottes
+1851	Oignons
+1890	Pois (verts)
+1901	Haricots (verts)
+1980	Autres légumes frais
+1985	Fruits et légumes frais
+2003	Fruits
+2010	Fruits frais
+2110	Pommes de table
+2130	Poires de table
+2160	Autres fruits frais
+2200	Cerises
+2210	Prunes
+2230	Fruits à coque
+2260	Fraises
+2300	Agrumes
+2310	Oranges
+2340	Mandarines
+2370	Citrons
+2420	Raisins de table
+2480	Olives et huile d'olive
+2510	Fruits séchés
+2550	Fruits secs
+2800	Fleurs, plantes ornementales et produits de pépinière
+3300	Semences
+3751	Foin (trèfle inclus)
+3800	Moût ou vin
+3810	Moût
+3820	Vin
+3830	Vin de table
+3900	Vin de qualité
+3992	Autres produits végétaux
+3996	Autres 'autres produits végétaux'
+4000	Animaux et produits animaux
+4050	Animaux (de boucherie et pour exportation)
+4100	Gros animaux
+4150	Veaux
+4160	Bovins sans veaux
+4410	Porcs
+4720	Moutons et agneaux
+4765	Autres gros animaux
+4800	Volailles
+4810	Poulets
+4900	Autres volailles
+5010	Autres animaux
+5150	Lait
+5160	Lait de vache
+5190	Autres laits
+5250	Oeufs
+5600	Autres produits animaux

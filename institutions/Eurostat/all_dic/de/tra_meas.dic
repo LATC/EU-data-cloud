@@ -1,0 +1,35 @@
+TOTAL	Insgesamt
+PASS	An Bord gegangene und von Bord gegangene Passagiere
+PASS_ONLY	Personenverkehr
+PASS_EMB	An Bord gegangene Passagiere
+PASS_DISEMB	Von Bord gegangene Passagiere
+PASS_TRANSIT	Transitpassagiere
+PASS_BRD	Gesamtzahl der Fluggäste an Bord
+PASS_BRD_ARR	Fluggäste an Bord (Ankunft)
+PASS_BRD_DEP	Fluggäste an Bord (Abflug)
+PASS_CRD	Beförderte Fluggäste
+PASS_CRD_ARR	Beförderte Fluggäste (Ankunft)
+PASS_CRD_DEP	Beförderte Fluggäste (Abflug)
+PASS_DRT_TRANS	Gesamtzahl der Fluggäste im ungebrochenen Durchgang
+PASS_ST	Verfügbare Fluggast-Sitzplätze
+PASS_ST_ARR	Verfügbare Fluggast-Sitzplätze (Ankunft)
+PASS_ST_DEP	Verfügbare Fluggast-Sitzplätze (Abflug)
+FR_ONLY	Nur Güterverkehr
+FRM	Fracht und Post in Tonnen
+FRM_BRD	Gesamt Fracht und Post an Bord in Tonnen
+FRM_BRD_ARR	Fracht und Post an Bord in Tonnen (Ankunft)
+FRM_BRD_DEP	Fracht und Post an Bord in Tonnen (Abflug)
+FRM_LD_UNLD	Gesamt Fracht- und Posteinladungen/-ausladungen in Tonnen
+FRM_UNLD	Eingeladene Fracht und Post in Tonnen
+FRM_LD	Eingeladene Fracht und Post in Tonnen
+PASS_FR	Personenverkehr
+TOT_CAF	Gesamtzahl der gewerblichen Flüge (Fluggastverkehr + Nur-Fracht- und Postflüge)
+PASS_CAF	Gesamtzahl der gewerblichen Passagierflüge
+PASS_CAF_ARR	Gewerbliche Passagierflüge (Ankunft)
+PASS_CAF_DEP	Gewerbliche Passagierflüge (Abflug)
+FRM_CAF	Gesamtzahl Nur-Fracht und Post Gewerbliche Flüge
+FRM_CAF_ARR	Nur-Fracht- und Post Gewerbliche Flüge (Ankunft)
+FRM_CAF_DEP	Nur-Fracht- und Post Gewerbliche Flüge (Abflug)
+COM_MOV	Gesamtzahl der Handelsbewegungen
+COM_AIRCR_MOV	Luftfahrzeugbewegungen insgesamt im gewerblichen Luftverkehr
+AIRCR_MOV	Gesamtzahl der Flugzeugbewegungen

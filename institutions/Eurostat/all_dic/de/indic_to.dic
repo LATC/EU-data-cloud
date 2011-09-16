@@ -1,0 +1,39 @@
+A000	NS (Total)
+A001	Betriebe
+A002	Zimmer
+A003	Schlafgelegenheiten
+A005	Campingstandplätze
+A006	Wohnungen
+B001	Ankünfte von Inländern
+B002	Ankünfte von Nichtinländern
+B003	Ankünfte Insgesamt
+B004	Übernachtungen von Inländern
+B005	Übernachtungen von Nichtinländern
+B006	Übernachtungen Insgesamt
+B007	Übernachtungen
+B010	Durchschnittliche Aufenthaltsdauer (nach Nächte/Ankünfte berechnet) insgesamt
+B011	Durchschnittliche Aufenthaltsdauer (nach Nächte/Ankünfte berechnet) Inländer
+B012	Durchschnittliche Aufenthaltsdauer (nach Nächte/Ankünfte berechnet) Nichtinländer
+C001	Touristen
+D001	Aufenthalte
+E001	Belegung der Schlafgelegenheiten - netto
+E002	Belegung der Schlafgelegenheiten - brutto
+E003	Belegung der Zimmer
+F010	Touristische Ausgaben von Inländern insgesamt
+F011	Touristische Ausgaben von Inländern Pauschalreisen, -aufenthalte und -rundreisen
+F012	Andere Touristische Ausgaben von Inländern
+G010	Beschäftigung Ingesamt
+G011	Lohn- und Gehaltsempfänger
+G012	Selbständige Arbeitnehmer
+G020	Vollzeit
+G030	Teilzeit
+H001	Bruttoinlandsprodukt zu Marktpreisen
+H002	Bruttoinlandsprodukt zu Faktorkosten
+J001	Ankünfte von Besuchern an den Grenzen
+J002	Ankünfte von Touristen an den Grenzen
+J003	Ankünfte von Tagesausflüglern an den Grenzen
+K001	Touristische Ausgaben Nichtinländer innerhalb des Landes
+L001	Einnahmen
+L002	Ausgaben
+L003	Saldo
+M001	Index der Verbraucherpreise

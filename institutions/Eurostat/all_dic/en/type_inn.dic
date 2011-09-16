@@ -1,0 +1,15 @@
+TOTAL	Total enterprises
+INNO	Enterprises with innovation activity (product, process, ongoing or abandoned, organisational and marketing innovation)
+INNO_PP	Technological innovation only  (product, process, ongoing or abandoned)
+INNO_NPP	Non-technological innovation only (organisational and/or marketing innovation)
+INNO_PPANPP	Technological and non-technological innovation
+INNOACT	Enterprises with technological innovation (product, process, ongoing or abandoned), regardless organizational or marketing innovation 
+PAOP	Novel innovators, product and/or process
+INPDTONLY	Novel innovators, product only
+INPCSONLY	Novel innovators, process only
+PANDP	Novel innovators, product and process innovators
+INONONAB	Established innovators, ongoing and/or abandoned only
+NON_INNO	Non-Innovative enterprises
+INABA	Innovation activities abandoned or suspended before completion 
+INONG	Innovation activities still ongoing at the end of the 2008
+INABA_ONG	Enterprises with ongoing and abandoned innovation activities

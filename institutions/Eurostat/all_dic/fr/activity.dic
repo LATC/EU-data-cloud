@@ -1,0 +1,100 @@
+A000	Total
+A001	Etablissements d'hébergement collectifs
+A100	Hôtels et établissements assimilés
+A010	Hôtels
+A011	Hôtels avec 1 étoile
+A012	Hôtels avec 2 étoiles
+A013	Hôtels avec 3 étoiles
+A014	Hôtels avec 4 étoiles
+A015	Hôtels avec 5 étoiles et de luxe
+A019	Hôtels non classifiés
+A020	Etablissement assimilés
+B010	Campings touristiques
+B020	Logements pour vacances
+B021	Villages touristiques
+B040	Autres établissements d'hébergements collectifs n.c.a.
+B041	Etablissements d'hébergement touristiques à caractère social
+B100	Autres établissements d'hébergement collectifs, Total
+B200	Etablissements d'hébergement complémentaires
+C010	Etablissements de cure
+C020	Moyens de transport publics
+C030	Campements travail-vacances
+C040	Centres de conférences
+C100	Hébergements touristiques spécialisés
+D010	Hébergements loués
+D011	Chambres louées dans des logements familiaux
+D012	Logements loués à des particuliers ou à des agences professionnelles
+D020	Résidences secondaires
+D030	Autres types d'hébergements privés
+D031	Hébergements cédés gratuitement par des membres de la famille ou des amis
+D100	Hébergements touristiques privés
+F001	Hotels et autres établissements d'hébergement (NACE 55.1 et 55.2)
+F002	Hôtels et restaurants (NACE 55)
+F003	Hôtels (NACE 55.1)
+F004	Autres moyens d'hébergement de courte durée (NACE 55.2)
+F005	Auberges de jeunesse et refuges (NACE 55.21)
+F006	Exploitation de terrains de camping (NACE 55.22)
+F007	Moyens d'hébergement divers (NACE 55.23)
+F008	Restaurants (NACE 55.3)
+F009	Cafés (NACE 55.4)
+F010	Cantines et traiteurs (NACE 55.5)
+F011	Agences de voyage (NACE 63.3)
+F012	Location de véhicules automobiles (NACE 71.1)
+F013	Autres transports routiers de voyageurs (NACE 60.23)
+F014	Autres activités culturelles (NACE 92.5)
+F015	Autres activités touristiques (ports de plaisance,casinos,cirques etc.)
+F016	Ports de plaisance (NACE 63.21)
+F017	Offices de tourisme (NACE 75.12)
+F018	Autres activités touristiques (sans offices de tourisme)
+F100	Total des activités du tourisme
+G000	Administration générale
+G001	Activité économique par branche total
+G002	Exploitation ferroviaire - total
+G003	Exploitation  ferroviaire - mouvement et trafic
+G004	Exploitation ferroviaire - traction et matériel  roulant
+G005	Exploitation ferroviaire - installations
+G006	Autres emplois
+G010	Agriculture
+G020	Industrie
+G030	Services marchands
+G031	Commerce
+G032	Etablissements d'hébergement et autres activités touristiques
+G033	Transport et communications
+G034	Crédits et Assurances
+G035	Autres services
+G040	Services non marchands
+G041	Administrations publiques
+G042	Autres services non marchands
+G050	Indice d'ensemble (IHPC 00)
+G051	Tourisme
+G052	Transports (IHPC 07)
+G053	Services de transport (IHPC 073)
+G054	Loisirs et culture (IHPC 09)
+G055	Voyages touristiques tout compris (IHPC 094)
+G056	Hôtels, cafés et restaurants (IHPC 11)
+G057	Restaurants et cafés (IHPC 1111)
+G058	Services d'hébergement (IHPC 112)
+H001	Ports maritimes
+H002	Aéroports
+H003	Chemins de fer
+H004	Routes
+H005	Voie terrestre (chemins de fer et routes)
+I001	Produits de l'agriculture, de la sylviculture et de la pêche (Nace-Clio 01)
+I002	Produits énergétiques  (Nace-Clio 06)
+I003	Produits industriels (Nace-Clio 30)
+I004	Bâtiments et ouvrages de génie civil (Nace-Clio 53)
+I005	Services marchands (Nace-Clio 68)
+I006	Récupération et réparation, services de commerce (Nace-Clio 56)
+I007	Services de restauration et d'hébergement (Nace-Clio 59)
+I008	Services de transport intérieur (Nace-Clio 61)
+I009	Services de transport maritimes et aériens (Nace-Clio 63)
+I010	Services annexes des transports (Nace-Clio 65)
+I011	Services de communication (Nace-Clio 67)
+I012	Services des institutions de crédit et d'assurance (Nace-Clio 69a)
+I013	Autres services marchands (Nace-Clio 74)
+I014	Services non-marchands (Nace-Clio 86)
+J000	Balance des paiements - Total (compte courant)
+J001	Balance des paiements - Voyages
+J002	Balance des paiements - Transport de passagers
+J003	Balance des paiements - Tourisme (Voyages et Transport de passagers)
+J010	Balance des paiements - Services

@@ -1,0 +1,9 @@
+YES	Unternehmensgruppe
+NO	Keine Unternehmensgruppe
+TOT	Alle Unternehmungen (Unternehmensgruppe oder nicht)
+GR_HD	Gruppenkopf
+G_GR_HD	Globaler Gruppenkopf
+SUB	Tochterunternehmen
+SUB_OWNC	Tochterunternehmen mit globalem Gruppenkopf im eigenen Land
+SUB_IN_27	Tochterunternehmen mit globalem Gruppenkopf in der EU-27
+SUB_EX_27	Tochterunternehmen mit globalem Gruppenkopf auﬂerhalb der EU-27

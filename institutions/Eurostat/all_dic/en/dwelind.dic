@@ -1,0 +1,14 @@
+TOTAL	Total
+UNITS	Housing units
+HH	Private households
+QUART	Living quarter
+OCC	Occupants
+PERS	Persons
+DWEL	Dwellings
+ROOMS	Rooms
+ROOMS_DWEL	Rooms per dwelling
+ROOMS_PERS	Rooms per person
+TOT_ROOMS	Total number of rooms
+PERS_DWEL	Persons per dwelling
+PERS_ROOM	Persons per room
+UNK	Unknown

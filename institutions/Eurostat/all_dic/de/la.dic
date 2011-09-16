@@ -1,0 +1,41 @@
+LA_1	Landwirtschaftliche Fläche insgesamt
+LA_1_1	Ackerland
+LA_1_2	Dauerkulturland
+LA_1_3	Dauergrünland
+LA_1_4	Sonstige landwirtschaftliche Fläche
+LA_2	Gesamte Waldfläche und sonstige Gehölze
+LA_2_1	Nadelwaldfläche
+LA_2_2	Laubwaldfläche
+LA_2_3	Sonstige Waldfläche
+LA_2_4	Mischwaldfläche
+LA_2_5	Sonstige Holzfläche
+LA_3	Bebaute und ähnlich genutzte Fläche
+LA_3_1	Wohngebiete
+LA_3_2	Industriegelände
+LA_3_3	Land für Steinbrüche, Gruben und Bergwerke usw.
+LA_3_4	Handelsland
+LA_3_5	Land für öffentliche Dienste, ausgenommen Transport, Kommunikation und technische Infrastruktur
+LA_3_6	Land für gemischte Nutzung
+LA_3_7	Land für Transport und Kommunikation
+LA_3_8	Land für technische Infrastruktur
+LA_3_9	Erholungs- und sonstige offene Gebiete
+LA_4	Offene Feuchtgebiete
+LA_4_1	Sümpfe
+LA_4_2	Feuchte Tundra
+LA_4_3	Sonstige Feuchtgebiete
+LA_5	Trockenes offenes Land insgesamt
+LA_5_1	Trockenes offenes Land mit spezieller Vegetation
+LA_5_1_1	Heidegebiete
+LA_5_1_2	Trockene Tundra
+LA_5_1_3	Montane Rasen
+LA_5_1_4	Sonstiges trockenes offenes Land mit spezieller Vegetation
+LA_5_2	Trockenes offenes Land ohne oder mit unsignifikanter Vegetation
+LA_5_2_1	Felsen, Gletscher und Dauerschnee
+LA_5_2_2	Sandstrände, Dünen und sonstige Sandflächen
+LA_5_2_3	Sonstiges Trockenes offenes Land ohne oder mit unsignifikanter Vegetation
+LA_6	Gewässer
+LA_6_1	Binnengewässer
+LA_6_2	Küstengewässer
+LA_7	Landfläche
+LA_8	Fläche insgesamt
+LA_9	Zuwachs insgesamt

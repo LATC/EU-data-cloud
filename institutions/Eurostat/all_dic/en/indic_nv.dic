@@ -1,0 +1,56 @@
+TOT_NACE_HH	All NACE branches plus households
+TOT_NRA	Total activities by national residents abroad
+NRA_FISH	National fishing vessels operating abroad
+NRA_I60	Land transport operated by national residents abroad
+NRA_I61	Water transport operated by national residents abroad
+NRA_I62	Air transport operated by national residents abroad
+TOT_NRES	Total activities by non-residents on the territory
+NRES_I60	Land transport operated by non-residents on the territory
+NRES_I61	Water transport operated by non-residents on the territory
+NRES_I62	Air transport operated by non-residents on the territory
+ADJ_OTH	Other adjustments and statistical discrepancy
+TOT_CONV	Total emissions as reported to international conventions (UNFCCC and CLRTAP)
+BI1_1	Area (km2)
+BI1_2	Protected terrestrial area (km2)
+BI1_3	% protected terrestrial area
+BI1_4	Sufficiency index
+BI1_5	Protected marine area (km2)
+DEU	Domestic Extraction Used
+IMP	Total Imports
+IMP_XEU27	Extra EU27 Imports
+IMP_IEU27	Intra EU27 Imports
+EXP	Total Exports
+EXP_XEU27	Extra EU27 Exports
+EXP_IEU27	Intra EU27 Exports
+DMC	Domestic Material Consumption
+DMI	Direct Material Inputs
+RP_EUR	Resource Productivity, GDP/DMC (Single country and 1 year)
+RP_CLV00	Resource Productivity, GDP/DMC (Single country over time; GDP chain-linked volumes, reference year 2000)
+RP_PPS	Resouce Productivity, GDP/DMC (Comparing countries in one year, GDP in PPS, purchasing power standard)
+RE_EUR	Resource Efficiency, DMC/GDP (Single country and 1 year)
+RE_CLV00	Resource Efficiency, DMC/GDP (Single country over time; GDP chain-linked volumes, reference year 2000)
+RE_PPS	Resouce Efficiency, DMC/GDP (Comparing countries in one year, GDP in PPS, purchasing power standard)
+NRRE_EUR	Non-renewable Resource Efficiency, Non-biotic DMC/GDP (Single country and 1 year)
+NRRE_CLV00	Non-renewable Resource Efficiency, Non-biotic DMC/GDP (Single country over time; GDP chain-linked volumes, reference year 2000)
+NRRE_PPS	Non-renewable Resource Efficiency, Non-biotic DMC/GDP (Comparing countries in one year, GDP in PPS, purchasing power standard)
+FAC	Number of facilities
+FAC_CL	Closed facilities
+CAP	Capacity in tonnes per year
+CAP_RST	Rest capacity in m3 per year
+COVERAGE	Population served by collection
+PEP_TOT	Primary energy production by fuel  - total
+PEP_COAL	Primary energy production by fuel - coal and lignite
+PEP_COIL	Primary energy production by fuel - crude oil
+PEP_GAS	Primary energy production by fuel -natural gas
+PEP_NUC	Primary energy production by fuel - nuclear energy
+PEP_RNW	Primary energy production by fuel - renewable energy
+FEC_TOT	Final energy consumption - total
+FEC_AGR	Final energy consumption - by agriculture, forestry, fishing
+FEC_IND	Final energy consumption - by all industrial activities
+FEC_SER	Final energy consumption - by services
+FEC_HH	Final energy consumption - by households
+RNW_FEC_PC	Share of renewable energy in final energy consumption
+AREA_NUS	Developed area unused and/or abandoned, incl. brownfields
+AREA_CNT	Sites classified as contaminated / potentially contaminated sites
+MN_RES	Number of main residencies
+SC_RES	Number of secondary residencies

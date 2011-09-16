@@ -1,0 +1,75 @@
+TOTAL	Total waste treatment
+GEN	Waste generated
+MKT	Products put on the market
+COL	Waste collected
+COL_HH	Waste collected from households
+COL_OTH	Waste collected from other sources
+TRT	Total waste treatment
+TRT_NAT	Treated in the Member State
+TRT_OEU	Treated in another Member State of the EU
+TRT_NEU	Treated outside the EU
+RCV_REU	Total recovery and reuse
+REU	Reuse
+RCV	Recovery
+RCV_E	Energy recovery
+RCV_NE	Recovery other than energy recovery
+RCV_B	Recovery other than energy recovery - Backfilling
+RCV_O	Recovery other than energy recovery - Except backfilling
+RCV_I	Incineration with energy recovery at waste incinerators
+RCY_REU	Total recycling and reuse
+RCY	Recycling
+RCY_M	Material recycling
+RCY_O	Other forms of recycling (including composting)
+RCY_OTH	Other forms of recycling
+RCY_MAT	Material recycling
+RCV_NRG	Energy recovery
+RCV_OTH	Other forms of recovery
+RCV_INC	Recovery including incineration
+INC_RCV	Total incineration (including energy recovery)
+INC	Incineration without energy recovery
+DSP	Disposal
+DEP	Deposit onto or into land
+LND	Land treatment and release into water bodies
+DSP_D	Deposit onto or into land
+DSP_DH	Landfill for hazardous waste
+DSP_DNH	Landfill for non-hazardous waste
+DSP_DI	Landfill for inert waste
+DSP_O	Land treatment and release into water bodies
+RCV_RT	Recovery rate
+RCY_RT	Recycling rate
+TRT_IMP	Waste imported for treatment/disposal
+TRT_EXP	Waste exported for treatment/disposal
+TRT_PL	Treatment Plant
+C_DSP_D	Controlled landfill sites
+C_DSP_O	Controlled deposit onto or into land
+CMP	Composting
+D1	Deposit into or onto land, (e.g., landfill, etc.)
+D2	Land treatment, (e.g., biodegradation of liquid or sludgy discards in soils, etc.)
+D3	Deep injection, (e.g., injection of pumpable discards into wells, salt domes of naturally occurring repositories, etc.)
+D4	Surface impoundment, (e.g., placement of liquid or sludge discards into pits, ponds or lagoons, etc.)
+D5	Specially engineered landfill, (e.g., placement into lined discrete cells which are capped and isolated from one another and the environment, etc.)
+D6	Release into a water body except seas/oceans
+D7	Release into seas/oceans including sea-bed insertion
+D8	Biological treatment not specified elsewhere in the Basel Convention (annex IV) which results in final compounds or mixtures which are discarded by means of any of the operations in Section A
+D9	Physico chemical treatment not specified elsewhere in the Basel Convention (annex IV) which results in final compounds or mixtures which are discarded by means of any of the operations in Section A, (e.g., evaporation, drying, calcination, neutralization, precipitation, etc.)
+D10	Incineration on land
+D11	Incineration at sea
+D12	Permanent storage (e.g., emplacement of containers in a mine, etc.)
+D13	Blending or mixing prior to submission to any of the operations in the Basel Convention (annex IV, section A)
+D14	Repackaging prior to submission to any of the operations in the Basel Convention (annex IV, section A)
+D15	Storage pending any of the operations in the Basel Convention (annex IV, section A)
+R1	Use as a fuel (other than in direct incineration) or other means to generate energy
+R2	Solvent reclamation/regeneration
+R3	Recycling/reclamation of organic substances which are not used as solvents
+R4	Recycling/reclamation of metals and metal compounds
+R5	Recycling/reclamation of other inorganic materials
+R6	Regeneration of acids or bases
+R7	Recovery of components used for pollution abatement
+R8	Recovery of components from catalysts
+R9	Used oil re-refining or other reuses of previously used oil
+R10	Land treatment resulting in benefit to agriculture or ecological improvement
+R11	Uses of residual materials obtained from any of the operations numbered R1-R10
+R12	Exchange of wastes for submission to any of the operations numbered R1-R11
+R13	Accumulation of material intended for any operation in the Basel Convention (annex IV, section B)
+RD_NAL	Waste operations R and D not allocated
+NSP	Not specified

@@ -1,0 +1,259 @@
+GE0_1	Hazardous waste generated (total amount)
+GE0_1_1	Hazardous waste imported
+GE0_1_2	Hazardous waste exported
+GE0_1_3	Hazardous waste to be managed in country
+GE0_2	Hazardous waste recovered and disposed of in the country
+GE0_3	R1-13 - Hazardous waste recovered (total amount)
+GE0_3_1	R1 - Hazardous waste incinerated with energy recovery
+GE0_3_2	R2-6 - Hazardous waste recycled, composted etc
+GE0_3_3	R7-11 - Hazardous waste recovered by other methods
+GE0_3_4	R12-13 - Hazardous waste undergoing preparatory operations prior to recovery
+GE0_4	D1-15 - Hazardous waste disposed of (total amount)
+GE0_4_1	D9 - Hazardous waste treated by a physico/chemical treatment
+GE0_4_2	D8 - Hazardous waste treated by biological treatment
+GE0_4_3	D10-11 - Hazardous waste incinerated without energy recovery (thermal treatment)
+GE0_4_4	D1-5 - Hazardous waste landfilled and deposited into or onto land
+GE0_4_5	D6-7 - Hazardous waste released into water bodies
+GE0_4_6	D12 - Hazardous waste permanently stored
+GE0_4_7	D13-15 - Hazardous waste undergoing preparatory operations prior to disposal
+GE1_1	Non-hazardous industrial waste generated
+GE1_2	Non-hazardous industrial waste to be managed in the country
+GE1_3	Non-hazardous industrial waste recovered and disposed of in the country
+GE1_4	Non-hazardous industrial waste recovered (total amount)
+GE1_4_1	Non-hazardous industrial waste recycled
+GE1_4_2	Non-hazardous industrial waste composted
+GE1_4_3	Non-hazardous industrial waste incinerated with energy recovery
+GE1_4_4	Non-hazardous industrial waste recovered by methods other than recycling, composting or incineration with energy recovery
+GE1_5	Non-hazardous industrial waste going to final treatment and disposal (total amount)
+GE1_5_1	Non-hazardous industrial waste going to final treatment (total amount)
+GE1_5_1_1	Non-hazardous industrial waste incinerated without energy recovery
+GE1_5_1_2	Non-hazardous industrial waste going to final treatment by methods other than incineration without energy recovery
+GE1_5_2	Non-hazardous industrial waste going to final disposal (total amount)
+GE1_5_2_1	Non-hazardous industrial waste landfilled
+GE1_5_2_1_1	Non-hazardous industrial waste sent to controlled landfill
+GE1_5_2_2	Non-hazardous industrial waste going to final disposal by methods other than landfill
+GE1_6	Non-hazardous industrial waste undergoing preparatory operations before further treatment/disposal
+MU1_1	Municipal waste generated
+MU1_2	Municipal waste collected (total amount)
+MU1_2_0	Municipal waste collected per capita (kg per capita)
+MU1_2_1_1	Municipal waste collected by or on behalf of municipalities
+MU1_2_1_2	Municipal waste collected by the private sector (mainly separate collection)
+MU1_2_2	Municipal waste collected by origin (total amount)
+MU1_2_2_1	Municipal waste collected by origin, from households
+MU1_2_2_2	Municipal waste collected by origin, from commerce and trade, small businesses, office buildings, institutions
+MU1_2_2_3	Municipal waste collected by origin, from street and market cleaning, yards, litter containers, etc
+MU1_2_3	Municipal waste by type of waste (total amount)
+MU1_2_3_1	Municipal waste by type of waste: household and similar waste
+MU1_2_3_2	Municipal waste by type of waste: bulky waste
+MU1_2_3_3	Municipal waste by type of waste other than household and similar waste, and bulky waste
+MU1_2_4	Municipal waste by type of collection (total amount)
+MU1_2_4_1	Municipal waste traditionally collected
+MU1_2_4_2	Collection of bulky waste
+MU1_2_4_3	Municipal waste fractions separately collected
+MU1_3	Population served by municipal waste collection services (%)
+MU1_4	Municipal waste from areas not served by a municipal waste service
+MU2_1	Waste collected (total amount)
+MU2_1_1	Waste paper, paperboard, paper products fraction (1 000 t)
+MU2_1_2	Textile waste fraction (1 000t)
+MU2_1_3	Plastic waste fraction (1 000t)
+MU2_1_4	Glass waste fraction (1 000t)
+MU2_1_5	Metal waste fraction (1 000t)
+MU2_1_6	Organic material waste fraction (1 000t)
+MU2_1_6_1	Food and garden waste fraction (1 000t)
+MU2_1_7	Bulky waste fraction (1 000t)
+MU2_1_8	Other fractions (1 000t)
+MU2_1_9	Waste paper, paperboard, paper products fraction (%)
+MU2_1_10	Textile waste fraction (%)
+MU2_1_11	Plastic waste fraction (%)
+MU2_1_12	Glass waste fraction (%)
+MU2_1_13	Metal waste fraction (%)
+MU2_1_14	Organic material waste fraction (%)
+MU2_1_15_1	Food and garden waste fraction (%)
+MU2_1_16	Bulky waste fraction (%)
+MU2_1_17	Other fractions (%)
+MU2_2	Waste separately collected (total amount)
+MU2_2_1	Waste paper, paperboard, paper products separately collected fraction
+MU2_2_2	Textile waste separately collected fraction
+MU2_2_3	Plastic waste separately collected fraction
+MU2_2_4	Glass waste separately collected fraction
+MU2_2_5	Metal waste separately collected fraction
+MU2_2_6	Waste organic material separately collected fraction
+MU2_2_6_1	Food and garden waste separately collected fraction
+MU2_2_7	Bulky waste separately collected fraction
+MU2_2_8	Other separately collected fractions
+RE_1	Waste generated
+RE_2	Waste collected for recycling
+RE_3	Imports of waste for recycling
+RE_4	Exports of waste for recycling
+RE_5	Waste recycled in country
+RE_6	Apparent consumption of related material
+RE_7	Refillable glass bottles in circulation
+RE_8	Packaging waste incinerated with energy recovery
+RE_9	Packaging waste generated (total amount)
+SE1_1	Construction/demolition wastes
+SE1_1_1	Excavated soils (waste from construction/demolition)
+SE1_2	Dredged spoils
+SE1_3	Sewage sludge (dry weight)
+SE1_4	Excess manure (dry weight)
+SE1_5	End-of-life vehicles
+SE1_6	Used tires
+SE1_7	Electric and electronic scrap
+SE1_8	Mineral and synthetic oils
+SE1_9	Other selected waste streams
+TR4_1	Municipal waste collected (total amount)
+TR4_1_1	Municipal waste imported
+TR4_1_2	Municipal waste exported
+TR4_2	Municipal waste managed in the country
+TR4_3	Municipal waste treated and disposed of in the country
+TR4_4	Municipal waste recovered (total amount)
+TR4_4_1	Municipal waste recycled
+TR4_4_2	Municipal waste composted
+TR4_4_3	Municipal waste incinerated with energy recovery
+TR4_4_3_1	Municipal waste incinerated with energy recovery, of which residues from other recovery or disposal operations
+TR4_4_4	Municipal waste recovered by methods other than recycling, composting, or incineration with energy recovery
+TR4_5	Municipal waste disposed of (total amount)
+TR4_5_1	Municipal waste going to final treatment (total amount)
+TR4_5_1_1	Municipal waste incinerated without energy recovery
+TR4_5_1_1_1	Municipal waste incinerated without energy recovery, of which residues from other recovery or disposal operations
+TR4_5_1_2	Municipal waste going to final treatment by methods other than incineration without energy recovery
+TR4_5_2	Municipal waste going to final disposal (total amount)
+TR4_5_2_1	Municipal waste landfilled (total amount)
+TR4_5_2_1_0	5.6.2 Municipal waste landfilled (kg per capita)
+TR4_5_2_1_1	Municipal waste landfilled, of which residues from other recovery or disposal operations
+TR4_5_2_1_2	Municipal waste disposed of to controlled landfill
+TR4_5_2_2	Municipal waste going to final disposal by methods other than landfill
+TR4_6	Municipal waste mechanically sorted before further treatment/disposal
+TR4_7	Incineration: total
+TR4_7_0	5.6.3 Municipal waste incinerated (kg per capita)
+W12_1_1	Waste from agriculture and forestry
+W12_1_1_1	Hazardous waste from agriculture and forestry
+W12_1_2	Waste from mining and quarrying
+W12_1_2_1	Hazardous waste from mining and quarrying
+W12_1_3	Waste from the manufacturing industry (total amount)
+W12_1_3_1	Hazardous waste from the manufacturing industry (total amount)
+W12_1_3_2	Waste from the manufacture of food products, beverages and tobacco products
+W12_1_3_2_1	Hazardous waste from the manufacture of food products, beverages and tobacco products
+W12_1_3_3	Waste from the manufacture of textile and leather
+W12_1_3_3_1	Hazardous waste from the manufacture of textile and leather
+W12_1_3_4	Waste from the manufacture of wood and wood products
+W12_1_3_4_1	Hazardous waste from the manufacture of wood and wood products
+W12_1_3_5	Waste from the manufacture of paper and paper products
+W12_1_3_5_1	Hazardous waste from the manufacture of paper and paper products
+W12_1_3_6	Waste from the printing and publishing industry
+W12_1_3_6_1	Hazardous waste from the printing and publishing industry
+W12_1_3_7	Waste from the oil refineries
+W12_1_3_7_1	Hazardous waste from the oil refineries
+W12_1_3_8	Waste from the manufacture of chemicals and chemical products
+W12_1_3_8_1	Hazardous waste from the manufacture of chemicals and chemical products
+W12_1_3_9	Waste from the manufacture of rubber and plastics
+W12_1_3_9_1	Hazardous waste from  the manufacture of rubber and plastics
+W12_1_3_10	Waste from the manufacture of non-metallic mineral products
+W12_1_3_10_1	Hazardous waste from the manufacture of non-metallic mineral products
+W12_1_3_11	Waste from the manufacture of basic metals
+W12_1_3_11_1	Hazardous waste from the manufacture of basic metals
+W12_1_3_12	Waste from the manufacture of fabricated metal products, machinery
+W12_1_3_12_1	Hazardous waste from the manufacture of fabricated metal products, machinery
+W12_1_3_13	Waste from other manufacturing industries
+W12_1_3_13_1	Hazardous waste from other manufacturing industries
+W12_1_4	Waste from energy production
+W12_1_4_1	Hazardous waste from energy production
+W12_1_5	Waste from water purification and distribution
+W12_1_5_1	Hazardous waste from water purification and distribution
+W12_1_6	Waste from construction
+W12_1_6_1	Hazardous waste from construction
+W12_1_7	Waste from sewage and refuse disposal
+W12_1_7_1	Hazardous waste from sewage and refuse disposal
+W12_1_8	Waste from other economic sectors
+W12_1_8_1	Hazardous waste from other economic sectors
+W12_1_9	Municipal waste (total amount)
+W12_1_9_0_1	Hazardous municipal waste
+W12_1_9_1	Household waste
+W12_1_9_1_1	Hazardous household waste
+W12_1	Waste generated by sectors (total amount of primary waste)
+W12_1_0_1	Hazardous waste in waste generated by sectors (total amount of primary waste)
+W12_2	Waste from waste treatment (total amount of secondary waste)
+W12_2_0_1	Hazardous waste from waste treatment (total amount of secondary waste)
+W12_2_1	Waste from waste recycling (secondary waste)
+W12_2_1_1	Hazardous waste from waste recycling (secondary waste)
+W12_2_2	Waste from sewage and waste disposal (secondary waste)
+W12_2_2_1	Hazardous waste from sewage and waste disposal (secondary waste)
+W13_1	Hazardous waste generated (total amount)(1 000 T)
+W13_1_1	Y1 - Hazardous clinical wastes
+W13_1_2	Y2 - Hazardous wastes from the production of pharmaceutical products
+W13_1_3	Y3 - Hazardous waste pharmaceuticals, drugs, medicines
+W13_1_4	Y4 - Hazardous wastes from the production of biocides and phytopharmaceuticals
+W13_1_5	Y5 - Hazardous wastes from the manufacture and use of wood preserving chemicals
+W13_1_6	Y6 - Hazardous wastes from the production and use of organic solvents
+W13_1_7	Y7 - Hazardous wastes from heat treatment and operations containing cyanides
+W13_1_8	Y8 - Hazardous waste mineral oils
+W13_1_9	Y9 - Hazardous waste oil emulsions, mixtures
+W13_1_10	Y10 - Hazardous waste containing PCBs, and/or PCTs, and/or PBBs
+W13_1_11	Y11 - Hazardous waste tarry residues from refining, distillation, and any pyrolytic treatment
+W13_1_12	Y12 - Hazardous wastes from production and use of inks, dyes, pigments, paints, lacquers, varnish
+W13_1_13	Y13 - Hazardous wastes from the production and use of resins, latex, plasticizers, glues/adhesives
+W13_1_14	Y14 - Hazardous waste chemical substances (not identified and/or new) from R&D or teaching activities
+W13_1_15	Y15 - Hazardous wastes of an explosive nature, not subject to other legislation
+W13_1_16	Y16 - Hazardous wastes from the production and use of photographic chemicals and processing materials
+W13_1_17	Y17 - Hazardous waste from surface treatment of metals and plastics
+W13_1_18	Y18 - Hazardous residues from industrial waste disposal operations
+W13_1_19	Other hazardous waste corresponding to national classification only
+W14_1	Paper, paperboard and paper products
+W14_2	Glass (excl. refillable bottles in circulation)
+W14_3	Aluminium
+W14_4	Lead
+W14_5	Other non-ferrous metals
+W14_6	Ferrous metals
+W14_7	Plastics
+W14_8	Packaging material
+W14_8_1	Packaging material of which: paper and paperboard
+W14_8_2	Packaging material of which: glass (excl. refillable bottles in circulation)
+W14_8_3	Packaging material of which: plastics
+W14_8_4	Packaging material of which: metals
+W14_9	Other specific waste category
+W15_1_1	Landfill sites: number
+W15_1_1_1	Landfill controlled sites: number
+W15_1_2	Landfill sites: total area
+W15_1_2_1	Landfill controlled sites: total area
+W15_1_3	Landfill sites: remaining capacity
+W15_1_3_1	Landfill controlled sites: remaining capacity
+W15_1_4	Landfill sites: annual input
+W15_1_4_1	Landfill controlled sites: annual input
+W15_2_1	Incineration plants: number
+W15_2_1_1	Incineration plants with energy recovery: number
+W15_2_2	Incineration plants: capacity
+W15_2_2_1	Incineration plants with energy recovery: capacity
+W15_2_2_2	Incineration plants with energy recovery: enegy produced
+W15_3_1	Treatment plants: number
+W15_3_2	Treatment plants: capacity
+W15_4_1	Permanent storage: number
+W15_4_2	Permanent storage: capacity
+W15_5_1	Other treatment and disposal installations: number
+W15_5_2	Other treatment and disposal installations: capacity
+MUC_0	Total amount of municipal waste collected by or on behalf  of municipalities (1 000 t)
+MUC_1	Municipal waste collected from households (1 000 t)
+MUC_2	Municipal waste collected by origin other than from households (1 000 t)
+MUC_3	Population served by municipal waste collection services (as % of national population)
+MU_1	Municipal waste incinerated, with and without energy recovery (1 000 t)
+MU_2	Municipal waste landfilled (1 000 t)
+MU_3	Municipal waste treated or disposed other than incineration or landfilling (1 000 t)
+MUTP_0_1	Total treatment plants, number
+MUTP_0_2	Total treatment plants, annual capacity (1 000 t)
+MUTP_1_1	Landfill sites, number
+MUTP_1_2	Landfill sites, capacity (1 000 t)
+MUTP_1_3	Landfill sites, actual occupation (1 000 t)
+MUTP_1_4	Non controlled landfill sites, number
+MUTP_1_5	Non controlled landfill sites, capacity (1 000 t)
+MUTP_2_1	Incineration plants, number
+MUTP_2_2	Incineration plants, capacity (1 000 t)
+MUTP_3_1	Other treatment and disposal installations, number
+MUTP_3_2	Other treatment and disposal installations, capacity (1 000 t)
+IMU_0	Total investments, public + private, in municipal waste treatment and disposal facilities (Mio national currency)
+IMU_1	Total investments by public sector in municipal waste treatment and disposal facilities (Mio national currency)
+IMU_1_1	Total investments by public national authorities in municipal waste treatment and disposal facilities (Mio national currency)
+IMU_1_2	Total investments by public regional authorities in municipal waste treatment and disposal facilities (Mio national currency)
+IMU_1_3	Total investments by public local authorities in municipal waste treatment and disposal facilities (Mio national currency)
+IMU_2	Total investments by public national authorities in municipal waste treatment and disposal facilities (Mio national currency)
+HW_0	Total amount of hazardous waste generated (1 000 t)
+HW_1	Hazardous waste incinerated (1 000 t)
+HW_2	Hazardous waste landfilled, including incineration wastes (1 000 t)
+HW_3	Hazardous waste with other disposal and treatment (1 000 t)

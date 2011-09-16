@@ -1,0 +1,155 @@
+001	Anzahl der Betriebe insgesamt
+002	Landwirtschaftliche Fläche insgesamt (LF)
+003	Standarddeckungsbeitrag insgesamt (EGE)
+004	Anzahl der Betriebe in benachteiligten Gebieten
+005	LF in benachteiligten Gebieten (ha)
+006	Anzahl der Betriebe in Berggebieten
+007	LF in Berggebieten (ha)
+008	Anzahl der Betriebe mit < 5 ha LF
+009	Anzahl der Betriebe mit 5 bis 10 ha LF
+010	Anzahl der Betriebe mit 10 bis 20 ha LF
+011	Anzahl der Betriebe mit 20 bis 30 ha LF
+012	Anzahl der Betriebe mit 30 bis 50 ha LF
+013	Anzahl der Betriebe mit >=50 ha LF
+014	LF insgesamt (ha) der Betriebe mit < 5 ha LF
+015	LF insgesamt (ha) der Betiebe mit 5 bis 10 ha LF
+016	LF insgesamt (ha) der Betriebe mit 10 bis 20 ha LF
+017	LF insgesamt (ha) der Betriebe mit 20 bis 30 ha LF
+018	LF insgesamt (ha) der Betriebe mit 30 bis 50 ha LF
+019	LF insgesamt (ha) der Betriebe mit >=50 ha LF
+020	Anzahl der Betriebe mit < 2 EGE
+021	Anzahl der Betriebe mit 2 bis 4 EGE
+022	Anzahl der Betriebe mit 4 bis 8 EGE
+023	Anzahl der Betriebe mit 8 bis 16 EGE
+024	Anzahl der Betriebe mit 16 bis 40 EGE
+025	Anzahl der Betriebe mit 40 bis 100 EGE
+026	Anzahl der Betriebe mit 100 EGE und mehr
+027	LF insgesamt der Betriebe mit < 2 EGE
+028	LF insgesamt der Betriebe mit 2 bis 4 EGE
+029	LF insgesamt der Betriebe mit 4 bis 8 EGE
+030	LF insgesamt der Betriebe mit 8 bis 16 EGE
+031	LF insgesamt der Betriebe mit 16 bis 40 EGE
+032	LF insgesamt der Betriebe mit 40 bis 100 EGE
+033	LF insgesamt der Betriebe mit 100 EGE und mehr
+034	LF in Eigentum
+035	LF in Pacht
+036	LF in Teilpacht oder in anderen Besitzformen
+037	Gesamtfläche (D,E,F,G,H) in ha
+038	Anzahl der Betriebe mit Ackerland (D)
+039	Ackerland (ha)
+040	LF der Betriebe mit Ackerland (ha)
+041	Anzahl der Betriebe mit Getreide (D/01-D/08)
+042	Getreide (D/01-D/08) (in ha)
+043	Anzahl der Betriebe mit Weichweizen und Spelz (D/01)
+044	Weichweizen und Spelz (D/01) (in ha)
+045	Anzahl der Betriebe mit Hartweizen (D/02)
+046	Hartweizen (D/02) (in ha)
+047	Anzahl der Betriebe mit Roggen (D/03)
+048	Roggen (D/03) (in ha)
+049	Anzahl der Betriebe mit Gerste (D/04)
+050	Gerste (D/04) (in ha)
+051	Anzahl der Betriebe mit Hafer (D/05)
+052	Hafer (D/05) (in ha)
+053	Anzahl der Betriebe mit Körnermais (D/06)
+054	Körnermais (D/06)(in ha)
+055	Anzahl der Betriebe mit Reis (D/07)
+056	Reis (D/07)(in ha)
+057	Anzahl der Betriebe mit sonstigem Getreide (D/08)
+058	Sonstiges Getreide (D/08)(in ha)
+059	Anzahl der Betriebe mit Hülsenfrüchten (D/09)
+060	Hülsenfrüchte (D/09)(in ha)
+061	Anzahl der Betriebe mit Hackfrüchten (D/10bis D/12))
+062	Hackfrüchte (D/10 bis D/12)(in ha)
+063	Anzahl der Betriebe mit Kartoffeln (D/10)
+064	Kartoffeln(D/10)(in ha)
+065	Anzahl der Betriebe mit Zuckerrüben (D/11)
+066	Zuckerrüben (D/11)(in ha)
+067	Anzahl der Betriebe mit Futterhackfrüchten (D/12)
+068	Futterhackfrüchte (D/12)(in ha)
+069	Anzahl der Betriebe mit Handelsgewächsen (D/13)
+070	Handelsgewächse (D/13)(in ha)
+071	Anzahl der Betriebe mit Gemüse, Melonen, Erdbeeren (D/14,D/15)
+072	Gemüse, Melonen, Erdbeeren (D/14,D/15)(in ha)
+073	Anzahl der Betriebe mit Blumen und Zierpflanzen (D/16,D/17)
+074	Blumen und Zierpflanzen (D/16,D/17)(in ha)
+075	Anzahl der Betriebe mit Futterpflanzen (D/18)
+076	Futterpflanzen (D/18)(in ha)
+077	Anzahl der Betriebe mit Dauergrünland (F)
+078	Dauergrünland (F)(in ha)
+079	Anzahl der Betriebe mit Dauerkulturen (G)
+080	Dauerkulturen (G)(in ha)
+081	Anzahl der Betriebe mit Rebanlagen (G/04)
+082	Rebanlagen (G/04)(in ha)
+083	Anzahl der Betriebe mit Forstfläche (H/02)
+084	Forstfläche (H/02)(in ha)
+085	Anzahl der Betriebe mit Viehbestand insgesamt (J/01 bis J/19)
+086	Anzahl der Betriebe mit Rindern (J/02 bis J/08)
+087	Rinder (J/02-J/08), Tiere
+088	Anzahl der Betriebe mit Rindern unter einem Jahr (J/02)
+089	Rinder unter einem Jahr (J/02), Tiere
+090	Anzahl der Betriebe mit Rindern von 1 Jahr bis unter 2 Jahren, männlich (J/03)
+091	Rinder von 1 Jahr bis unter 2 Jahren, männlich (J/03), Tiere
+092	Anzahl der Betriebe mit Rindern von 1 Jahr bis unter 2 Jahren, weiblich (J/04)
+093	Rinder von 1 Jahr bis unter 2 Jahren, weiblich(J/04), Tiere
+094	Anzahl der Betriebe mit Rindern von 2 Jahren und älter, männlich, (J/05)
+095	Rinder von 2 Jahren und älter, männlich,(J/05), Tiere
+096	Anzahl der Betriebe mit Rindern von 2 Jahren und älter, Färsen,(J/06)
+097	Rinder von 2 Jahren und älter, Färsen, (J/06), Tiere
+098	Anzahl der Betriebe mit Milchkühen (J/07)
+099	Milchkühe, (J/07), Tiere
+100	Anzahl der Betriebe mit sonstigen Kühen (J/08)
+101	Sonstige Kühe, (J/08), Tiere
+102	Anzahl der Betriebe mit Schafen (J/09)
+103	Schafe, (J/09), Tiere
+104	Anzahl der Betriebe mit Ziegen (J/10)
+105	Ziegen, (J/10), Tiere
+106	Anzahl der Betriebe mit Schweinen (J/11 bis J/13)
+107	Schweine (J/11 bis J/13), Tiere
+108	Anzahl der Betriebe mit Geflügel, (J/14 bis J/16)
+109	Geflügel(J/14 bis J/16), Tiere
+110	Arbeitskräfte insgesamt (L/01 bis L/06) in JAE
+111	Arbeitskräfte, ohne unregelmässig beschäftigte familienfremde Arbeitskräfte (L/01 bis L/04) (Personen)
+112	Arbeitskräfte, ohne unregelmässig beschäftigte familienfremde Arbeitskräfte (L/01 bis L/04), in JAE
+113	Familienarbeitskräfte insgesamt (L/01 bis L/03) (Personen)
+114	Familienarbeitskräfte insgesamt (L/01 bis L/03), in JAE
+115	Vollbeschäftigte Familienarbeitskräfte insgesamt (L/01 bis L/03) (Personen)
+116	Betriebsinhaber,die eine natürliche Person sind (personen)
+117	Betriebsinhaber,die eine natuerliche Person sind (JAE)
+118	Betriebsinhaber,die eine natuerliche Person sind: Alter < 35 Jahre (personen)
+119	Betriebsinhaber,die eine natuerliche Person sind: Alter < 35 Jahre (JAE)
+120	Betriebsinhaber,die eine natuerliche Person sind: Alter 35 bis 44 Jahre (personen)
+121	Betriebsinhaber,die eine natuerliche Person sind: Alter 35 bis 44 Jahre (JAE)
+122	Betriebsinhaber,die eine natuerliche Person sind: Alter 45 bis 54 Jahre (personen)
+123	Betriebsinhaber,die eine natuerliche Person sind: Alter 45 bis 54 Jahre (JAE)
+124	Betriebsinhaber,die eine natuerliche Person sind: Alter 55 bis 64 Jahre (personen)
+125	Betriebsinhaber,die eine natuerliche Person sind: Alter 55 bis 64 Jahre (JAE)
+126	Betriebsinhaber,die eine natuerliche Person sind: Alter 65 Jahre und mehr (personen)
+127	Betriebsinhaber,die eine natuerliche Person sind: Alter 65 Jahre und mehr (JAE)
+128	Betriebsinhaber,die eine natuerliche Person sind: Geschlecht = maennlich (personen)
+129	Betriebsinhaber,die eine natuerliche Person sind: Geschlecht = weiblich   (personen)
+130	Betriebsinhaber,die eine natuerliche Person sind: Arbeitszeit > 0 bis < 25% (personen)
+131	Betriebsinhaber,die eine natuerliche Person sind: Arbeitszeit > 0 bis < 25% (JAE)
+132	Betriebsinhaber,die eine natuerliche Person sind: Arbeitszeit > 25 bis < 50% (personen)
+133	Betriebsinhaber,die eine natuerliche Person sind: Arbeitszeit > 25 bis < 50% (JAE)
+134	Betriebsinhaber,die eine natuerliche Person sind: Arbeitszeit > 50 bis < 75% (personen)
+135	Betriebsinhaber,die eine natuerliche Person sind: Arbeitszeit > 50 bis < 75% (JAE)
+136	Betriebsinhaber,die eine natuerliche Person sind: Arbeitszeit > 75 bis < 100% (personen)
+137	Betriebsinhaber,die eine natuerliche Person sind: Arbeitszeit > 75 bis < 100% (JAE)
+138	Betriebsinhaber,die eine natuerliche Person sind: Arbeitszeit 100% (personen)
+139	Betriebsinhaber,die eine natuerliche Person sind: Arbeitszeit 100% (JAE)
+140	Anzahl der Betriebe mit spezialisierte Ackerbaubetriebe
+141	Anzahl der Betriebe mit spezialisierte Gartenbaubetriebe
+142	Anzahl der Betriebe mit spezialisierte Dauerkulturbetriebe
+143	Anzahl der Betriebe mit spezialisierte Weideviehbetriebe
+144	Anzahl der Betriebe mit spezialisierte Veredlungsbetriebe
+145	Anzahl der Pflanzenbauverbundbetriebe
+146	Anzahl der Viehhaltungsverbundbetriebe
+147	Anzahl der Pflanzenbau - Viehhaltungsbetriebe
+148	LF insgesamt der Betriebe mit spezialisierte Ackerbaubetriebe
+149	LF insgesamt der Betriebe mit spezialisierte Gartenbaubetriebe
+150	LF insgesamt der Betriebe mit spezialisierte Dauerkulturbetriebe
+151	LF insgesamt der Betriebe mit spezialisierte Weideviehbetriebe
+152	LF insgesamt der Betriebe mit spezialisierte Veredlungsbetriebe
+153	LF insgesamt der Pflanzenbauverbundbetriebe
+154	LF insgesamt der Viehhaltungsverbundbetriebe
+155	LF insgesamt der Pflanzenbau - Viehhaltungsbetriebe

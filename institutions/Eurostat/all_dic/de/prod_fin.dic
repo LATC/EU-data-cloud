@@ -1,0 +1,91 @@
+TOTAL	Insgesamt
+65	Dienstleistungen des Kreditgewerbes
+651	Dienstleistungen von Zentralbanken und Kreditinstituten
+6511	Dienstleistungen von Zentralbanken
+6512	Dienstleistungen von Kreditinstituten (ohne Spezialkreditinstitute)
+65121	Einlagenverwaltende Dienstleistungen
+651211	Zwischengeschaltete Dienstleistungen für die Verwaltung von Einlagen
+651212	Standardisierte Dienstleistungen für die Verwaltung von Einlagen
+651213	Nicht-standardisierte Dienstleistungen für die Verwaltung von Einlagen
+65122	Kreditgewährende Dienstleistungen
+651221	Zwischengeschaltete Dienstleistungen für die Gewährung von Krediten
+651222	Dienstleistungen für die Gewährung von Krediten an Konsumenten
+651223	Dienstleistungen für die Gewährung von Hypothekenkredite
+651224	Dienstleistungen für die Gewährung von Wirtschaftskredite
+651225	Sonstige Kreditgewährende Dienstleistungen, a.n.g.
+65123	Sonstige Dienstleistungen von Kreditinstituten (ohne Spezialkreditinstitute), a.n.g.
+652	Dienstleistungen von sonstigen Finanzierungsinstitutionen
+6521	Dienstleistungen von Institutionen für Finanzierungsleasing
+6522	Dienstleistungen von Spezialkreditinstituten
+65221	Zwischengeschaltete Dienstleistungen für die Gewährung von Krediten (65.22.1)
+65222	Dienstleistungen für die Gewährung von Krediten an Konsumenten (65.22.2)
+65223	Dienstleistungen für die Gewährung von Hypothekenkredite (65.22.3)
+65224	Dienstleistungen für die Gewährung von Wirtschaftskredite (65.22.4)
+65225	Sonstige Kreditgewährende Dienstleistungen, a.n.g. (65.22.5)
+6523	Dienstleistungen von Finanzierunginstitution, a.n.g.
+65231	Investitionsbankdienstleistungen
+65232	Dienstleistungen von Finanzierunginstitution, a.n.g.
+67	Mit der Ausübung des Kredit- und Versicherungsgewerbes verbundene Dienstleistungen
+671	Mit der Ausübung des Kreditgewerbes verbundene Dienstleistungen
+6711	Dienstleistungen von Effekten- und Warenterminbörsen
+6712	Effektenvermittlungs- und -verwaltungsdienstleistungen (ohne Effektenverwahrung)
+67121	Effektenvermittlungsdienstleistungen
+67122	Effektenverwaltungsdienstleistungen
+6713	Sonstige mit der Ausübung des Kreditgewerbes verbundene Dienstleistungen
+672	Mit der Ausübung des Versicherungsgewerbes verbundene Dienstleistungen
+6721	Vermittlungsdienstleistungen
+6722	Sonstige mit der Ausübung des Versicherungs-gewerbes verbundene Dienstleistungen a.n.g.
+66011	Dienstleistungen der nicht fondsgebundenen Lebensversicherung
+660111	Kapitalbildende Versicherungen, die auf eine Versicherungssumme lauten
+660112	Kapitalbildende Rentenversicherungen
+660113	Risikoversicherungen, die auf eine Versicherungssumme lauten
+660114	Risikoversicherungen, die eine Rente bereitstellen
+AGAC	Kapitalbildende Versicherungen, die auf eine Versicherungssumme lauten und kapitalbildende Rentenversicherungen (Vereinfachung)
+AGTI	Risikoversicherungen, die auf eine Versicherungssumme lauten und Risikoversicherungen, die eine Rente bereitstellen (Vereinfachung)
+AG011	Dienstleistungen der fondsgebundenen Lebensversicherung (Vereinfachung)
+66012	Dienstleistungen der fondsgebundenen Lebensversicherung
+66013	Dienstleistungen der Tontinenversicherung
+66014	Dienstleistungen der Kapitalisierungsversicherung
+CARLI	Dienstleistungen der Kapitalisierungsversicherung, nicht fondsgebundenender Teil
+CARNL	Dienstleistungen der Kapitalisierungsversicherung, fondsgebundener Teil
+66015	Dienstleistungen der Lebensversicherung a.n.g.
+66021	Dienstleistungen der Gruppenpensionsversicherung
+GPLI	Dienstleistungen der Gruppenpensionsversicherung, nicht fondsgebundenender Teil
+GPNL	Dienstleistungen der Gruppenpensionsversicherung, fondsgebundener Teil
+66031	Dienstleistungen der Unfall- und Krankenversicherung
+660311	Dienstleistungen der Unfallversicherung
+660312	Dienstleistungen der Krankenversicherung
+HMC	Dienstleistungen der Krankenversicherung, die die Kosten der medizinischen Behandlung abdecken
+HLI	Dienstleistungen der Krankenversicherung, die den Einkommensverlust abdecken
+HOT	Sonstige Dienstleistungen der Krankenversicherung
+660313	Dienstleistungen der 'Permanent Health'-Versicherung
+AG03HP	Dienstleistungen der Krankenversicherung und 'Permanent Health' Versicherung (Vereinfachung)
+AG031	Dienstleistungen der Unfall- und Krankenversicherung (Vereinfachung)
+66032	Dienstleistungen der Kraftfahrzeugversicherung
+660321	Dienstleistungen der Kraftfahrzeug-Haftpflichtversicherung
+660322	Dienstleistungen der sonstigen Arten der Kraftfahrzeugversicherung
+66033	Dienstleistungen der See-, Luftfahrt- und Transportversicherung
+66034	Dienstleistungen der Feuer- und sonstigen Sachversicherung
+66035	Dienstleistungen der allgemeinen Haftpflichtversicherung
+66036	Dienstleistungen der Kredit- und Kautionsversicherung
+66037	Dienstleistungen der Beistandsversicherung, Rechtschutzversicherung, der Versicherung gegen verschiedene finanzielle Verluste
+660371	Dienstleistungen der Beistandsversicherung
+660372	Dienstleistungen der Rechtschutzversicherung
+660373	Dienstleistungen der Versicherung gegen verschiedene finanzielle Verluste
+AG037	Dienstleistungen der Beistandsversicherung, Rechtschutzversicherung, der Versicherung gegen verschiedene finanzielle Verluste (Vereinfachung)
+66038	Dienstleistungen der Nicht-Lebensversicherung a.n.g.
+66041	Dienstleistungen der Rückversicherung in bezug auf die Lebensversicherung
+66042	Dienstleistungen der Rückversicherung in bezug auf Pensionskassen
+AG04A	Dienstleistungen der Rückversicherung in bezug auf die Lebensversicherung und Pensionskassen (Vereinfachung)
+66043	Dienstleistungen der Rückversicherung in bezug auf das sonstige Versicherungsgewerbe
+660431	Dienstleistungen der Rückversicherung in bezug auf die Unfall- und Krankenversicherung
+660432	Dienstleistungen der Rückversicherung in bezug auf die Kraftfahrzeugversicherung
+660433	Dienstleistungen der Rückversicherung in bezug auf die See-, Luftfahrt- und Transportversicherung
+660434	Dienstleistungen der Rückversicherung in bezug auf die Feuer- und sonstige Sachversicherung
+660435	Dienstleistungen der Rückversicherung in bezug auf die allgemeine Haftpflichtversicherung
+660436	Dienstleistungen der Rückversicherung in bezug auf die Kredit- und Kautionsversicherung
+660437	Dienstleistungen der Rückversicherung in bezug auf die Beistands-, Rechtschutzversicherung und Versicherung gegen verschiedene finanzielle Verluste
+660438	Dienstleistungen der Rückversicherung in bezug auf die Nicht-Lebensversicherung a.n.g.
+AG04B	Dienstleistungen der Rückversicherung in bezug auf die Nicht-Lebensversicherung (Vereinfachung)
+INLCON	Alle Einzel-Lebensversicherungsverträge
+GRLCON	Alle Gruppen-Lebensversicherungsverträge

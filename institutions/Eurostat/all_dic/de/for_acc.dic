@@ -1,0 +1,142 @@
+OUT1_1	Erzeugung forstwirtschaftlicher Güter
+OUT1_11	Holz auf dem Stamm
+OUT1_12	Sägerundholz 
+OUT1_121	Industrienadelholz
+OUT1_122	Nadellangholz
+OUT1_123	Nadelfaserholz und Nadelschichtholz
+OUT1_124	Industrienadelholz: sonstige
+OUT1_125	Industrielaubholz
+OUT1_126	Laublangholz
+OUT1_127	Laubfaserholz und Laubschichtholz
+OUT1_128	Industrielaubholz: sonstige
+OUT1_13	Brennholz
+OUT1_14	Faserholz
+OUT1_15	Eigenleistungen an Auf- und Wiederaufforstung
+OUT1_16	Sonstige Erzeugniss
+OUT1_161	Kork
+OUT1_162	In Baumschulen erzeugte Forstpflanzen
+OUT1_163	Sonstige Forsterzeugnisse
+OUT1_2	Forstwirtschaftliche Dienstleistungen
+OUT1_21	Dienstleistungen für Waldbau/Waldpflege (Aufforstung, Wiederaufforstung)
+OUT1_22	Sonstige Dienstleistungen für Forstwirtschaft, Holzeinschlag und Bringung
+OUT1	Forstwirtschaftliche Erzeugung zu Herstellungspreisen
+OUT2	Nichtforstwirtschaftliche Nebentätigkeiten (nicht trennbar)
+OUT2_1	Forstwirtschaftliche Verarbeitungserzeugnisse
+OUT2_2	Sonstige nicht trennbare Nebentätigkeiten (Waren und Dienstleistungen)
+OUT	Erzeugung der Branche Forstwirtschaft zu Herstellungspreisen
+IC	Vorleistungen insgesamt
+IC1	Holz auf dem Stamm
+IC2	Pflanzgut
+IC3	Energie; Schmierstoffe
+IC3_1	Energie; Schmierstoffe - Strom
+IC3_2	Energie; Schmierstoffe - Gas
+IC3_3	Energie; Schmierstoffe - sonstige Brenn- und Treibstoffe
+IC3_4	Energie; Schmierstoffe - Energie; Schmierstoffe: sonstige
+IC4	Dünge- und Bodenverbesserungsmittel
+IC5	Pflanzenbehandlungs- und Schädlingsbekämpfungsmittel
+IC6	Instandhaltung von Maschinen und Geräten
+IC7	Instandhaltung von Bauten
+IC8	Forstwirtschaftliche Dienstleistungen
+IC9	Unterstellte Bankgebühr (FISIM)
+IC10	Sonstige Güter und Dienstleistungen
+GVA	Bruttowertschöpfung zu Herstellungspreisen
+FCC	Abschreibungen
+FCC1	Auf- und Wiederaufforstung
+FCC2	Maschinen und Gebäude
+FCC2_1	Abschreibungen: Ausrüstungsgüter
+FCC2_2	Abschreibungen: Bauten
+FCC3	Sonstiges
+NVA	Nettowertschöpfung zu Herstellungspreisen
+NVA1	Sonstige Produktionsabgaben
+NVA2	Sonstige Subventionen für die Erzeugung
+FI	Faktorinkommen
+CE	Arbeitnehmerentgelt
+OS	Nettobetriebsüberschuss / Selbständigeneinkommen
+OS1	Gezahlte Pachten
+OS2	Gezahlte Zinsen
+OS3	Empfangene Zinsen
+EI	Nettounternehmenensgewinn
+GFCF	Bruttoanlageinvestitionen (ohne abziehbare MWST.)
+GFCF1	Auf- und Wiederaufforstung
+GFCF2	Maschinen und Gebäude
+GFCF2_1	Bruttoanlageinvestitionen in nichtforstwirtschaftliche Güter
+GFCF2_11	BAI in Maschinen, Geräte und Fahrzeuge
+GFCF2_111	BAI in Maschinen und sonstige Ausrüstungsgüter
+GFCF2_112	BAI in Fahrzeuge
+GFCF2_12	BAI in Wirtschaftsgebäude
+GFCF3	Sonstige Bruttoanlageinvestitionen
+GFCF3_1	BAI in immaterielle Anlagegüter (Software usw.)
+GFCF3_2	Werterhöhung nichtproduzierter Anlagegüter
+GFCF3_21	BAI in größere Bodenverbesserungen
+GFCF3_22	Kosten der Eigentumsübertragung von Grund und Boden und von Produktionsrechten
+NFCF	Nettoanlageinvestitionen ((ohne abziehbare MWST.)
+CI	Bestandsveränderungen
+CI1	Bestandsveränderungen darunter unfertige Erzeugnisse
+CT	Vermögenstransfers
+CT1	Investitionszuschüsse
+CT2	Sonstige Vermögenstransfers
+51000	industrienadelholz
+51100	nadellangholz
+51200	nadelfaserholz und nadelschichtholz
+51900	industrienadelholz: sonstige
+52000	industrielaubholz
+52100	laublangholz
+52200	laubfaserholz und laubschichtholz
+52900	industrielaubholz: sonstige
+53000	brennholz (nadel- und laubholz)
+54000	sonstige erzeugnisse
+54100	kork
+54200	in baumschulen erzeugte forstpflanzen
+54300	aufforstungen und wiederaufforstungen
+54900	sonstige forstwirtschaftliche erzeugnisse
+14000	erzeugung forstwirtschaftlicher güter
+15000	erzeugung forstwirtschaftlicher dienstleistungen
+16000	forstwirtschaftliche erzeugung
+17000	nichtforstwirtschaftliche nebentätigkeiten (nicht trennbar)
+17100	forstwirtschaftliche verarbeitungserzeugnisse
+17900	sonstige nicht trennbare nebentätigkeiten (waren und dienstleistungen)
+18000	erzeugung des wirtschaftsbereichs forstwirtschaft
+19000	vorleistungen insgesamt
+19010	pflanzgut (vorleistungen)
+19020	energie; schmierstoffe
+19021	energie; schmierstoffe - strom
+19022	energie; schmierstoffe - gas
+19023	energie; schmierstoffe - sonstige brenn- und treibstoffe
+19029	energie; schmierstoffe - energie; schmierstoffe: sonstige
+19030	dünge- und bodenverbesserungsmittel
+19040	pflanzenbehandlungs- und schädlingsbekämpfungsmittel
+19070	instandhaltung von maschinen und geräten
+19080	instandhaltung von baulichen anlagen
+19090	forstwirtschaftliche dienstleistungen (vorleistungen)
+19900	andere güter und dienstleistungen
+20000	bruttowertschöpfung zu herstellungspreisen
+21000	abschreibungen
+21100	abschreibungen: ausrüstungsgüter
+21200	abschreibungen: bauten
+22000	nettowertschöpfung zu herstellungspreisen
+23000	arbeitnehmerentgelt
+24000	sonstige produktionsabgaben
+25000	sonstige subventionen
+26000	faktoreinkommen
+27000	nettobetriebsüberschuß / selbständigeneinkommen
+28000	gezahlte pachten
+29000	gezahlte zinsen
+30000	empfangene zinsen
+31000	nettounternehmensgewinn
+32000	bruttoanlageinvestitionen in aufforstungen und wiederaufforstungen
+33000	bruttoanlageinvestitionen in nichtforstwirtschaftliche güter
+33100	bai in maschinen, geräte und fahrzeuge
+33110	bai in maschinen und sonstige ausrüstungsgüter
+33120	bai in fahrzeuge
+33200	bai in wirtschaftsgebäude
+33900	sonstige bai
+33910	bai in immaterielle anlagegüter (software usw.)
+33920	werterhöhung nichtproduzierter anlagegüter
+33921	bai in größere bodenverbesserungen
+33922	kosten der eigentumsübertragung von grund und boden und von produktionsrechten
+34000	bruttoanlageinvestitionen (ohne abziehbare mwst.)
+35000	nettoanlageinvestitionen (ohne abziehbare mwst.)
+36000	bestandsveränderungen
+37000	vermögenstransfers
+37100	investitionszuschüsse
+37200	sonstige vermögenstransfers

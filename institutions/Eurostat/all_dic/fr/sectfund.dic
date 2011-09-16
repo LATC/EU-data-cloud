@@ -1,0 +1,29 @@
+TOTAL	Ensemble des secteurs
+BES	Secteur des entreprises
+REG	Fonds régionaux/sectoriels
+NAT	Fonds nationaux
+SPE	Mesure nationale spécifique
+EUS	Sources communautaires
+GOV	Secteur des administrations publiques
+GOV_REB	Déductions accordées par l'État sur les dépenses
+GOV_GUF	Administrations publiques - Fonds généraux des universités
+GOV_DIR	Administrations publiques - administrations directes
+HES	Secteur de l'enseignement supérieur
+PNP	Secteur privé sans but lucratif
+HES_AND_PNP	Secteur de l'enseignement supérieur et secteur privé sans but lucratif
+TAX	Avantages fiscaux sur les dépenses
+EXT	Soutien financier extérieur de source non gouvernementale
+PAYTR	Paiements de redevances de la part d'organismes extérieurs/de personnes pour l'utilisation de ressources de formation continue
+PAYC	Paiements d'organismes extérieurs/de personnes pour l'utilisation de ressources de formation continue
+ABR	Etranger
+ABR_PRIVATE	Etranger - Secteur privé
+ABR_BES	Etranger - Secteur des entreprises
+ABR_PNP	Etranger - Secteur privé sans but lucratif
+ABR_PUBLIC	Etranger - Secteur public
+ABR_GOV	Etranger - Secteur des administrations publiques
+ABR_HES	Etranger - Secteur de l'enseignement supérieur
+ABR_EC	Etranger - Commission européenne
+ABR_INT	Etranger - Organisations internationales
+ABR_OTHER	Etranger - Autre
+ABR_BES_GROUP	Etranger - Une entreprise du même groupe
+ABR_BES_OTH	Etranger - Une autre entreprise

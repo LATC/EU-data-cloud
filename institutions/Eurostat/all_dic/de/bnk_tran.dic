@@ -1,0 +1,38 @@
+CLEBAN	Anzahl der Clearingbanken
+CLERTE	Clearingrate für das Clearing von privaten Ecu-Transaktionen
+TURN	Durchschnittlicher Tagesumsatz
+WDAYS	Geschäftstage
+PAYNET	Gesamtzahl der aufgerechneten Transaktionen
+DTRA	Durchschnittliche Zahl der aufgerechneten Transaktionen
+TARVOAPTOT	Clearing durch TARGET, nach Geschäftsvolumen, alle Zahlungen, insgesamt
+TARVOAPDAV	Clearing durch TARGET, nach Geschäftsvolumen, alle Zahlungen, täglicher Durchschnitt
+TARVOCRTOT	Clearing durch TARGET, nach Geschäftsvolumen, grenzüberschreitende Zahlungen, insgesamt
+TARVOCRDAV	Clearing durch TARGET, nach Geschäftsvolumen, grenzüberschreitende Zahlungen, täglicher Durchschnitt
+TARVODOTOT	Clearing durch TARGET, nach Geschäftsvolumen, inländische Zahlungen, insgesamt
+TARVODODAV	Clearing durch TARGET, nach Geschäftsvolumen, inländische Zahlungen, täglicher Durchschnitt
+TARVAAPTOT	Clearing durch TARGET, nach Geschäftswert, alle Zahlungen, insgesamt
+TARVAAPDAV	Clearing durch TARGET, nach Geschäftswert, alle Zahlungen, täglicher Durchschnitt
+TARVACRTOT	Clearing durch TARGET, nach Geschäftswert, grenzüberschreitende Zahlungen, insgesamt
+TARVACRDAV	Clearing durch TARGET, nach Geschäftswert, grenzüberschreitende Zahlungen, täglicher Durchschnitt
+TARVADOTOT	Clearing durch TARGET, nach Geschäftswert, inländische Zahlungen, insgesamt
+TARVADODAV	Clearing durch TARGET, nach Geschäftswert, inländische Zahlungen, täglicher Durchschnitt
+OTHSYSVOEURTOT	Clearing durch andere Systeme, nach Geschäftsvolumen, Euro 1, insgesamt
+OTHSYSVOEURDAV	Clearing durch andere Systeme, nach Geschäftsvolumen, Euro 1, täglicher Durchschnitt
+OTHSYSVOEACTOT	Clearing durch andere Systeme, nach Geschäftsvolumen, Euro Access Frankfurt, insgesamt
+OTHSYSVOEACDAV	Clearing durch andere Systeme, nach Geschäftsvolumen, Euro Access Frankfurt, täglicher Durchschnitt
+OTHSYSVOSNPTOT	Clearing durch andere Systeme, nach Geschäftsvolumen, Système Net Protégé (SNP), insgesamt
+OTHSYSVOSNPDAV	Clearing durch andere Systeme, nach Geschäftsvolumen, Système Net Protégé (SNP), täglicher Durchschnitt
+OTHSYSVOSEPITOT	Clearing durch andere Systeme, nach Geschäftsvolumen, Servicio Español de Pagos Interbancarios (SEPI), insgesamt
+OTHSYSVOSEPIDAV	Clearing durch andere Systeme, nach Geschäftsvolumen, Servicio Español de Pagos Interbancarios (SEPI), täglicher Durchschnitt
+OTHSYSVAPOPTOT	Clearing durch andere Systeme, nach Geschäftswert, Pankkien On-line Pikasiirrot (POP), insgesamt
+OTHSYSVAPOPDAV	Clearing durch andere Systeme, nach Geschäftswert, Pankkien On-line Pikasiirrot (POP), täglicher Durchschnitt
+OTHSYSVAEURTOT	Clearing durch andere Systeme, nach Geschäftswert, Euro 1, insgesamt
+OTHSYSVAEURDAV	Clearing durch andere Systeme, nach Geschäftswert, Euro 1, täglicher Durchschnitt
+OTHSYSVAEACTOT	Clearing durch andere Systeme, nach Geschäftswert, Euro Access Frankfurt, insgesamt
+OTHSYSVAEACDAV	Clearing durch andere Systeme, nach Geschäftswert, Euro Access Frankfurt, täglicher Durchschnitt
+OTHSYSVASNPTOT	Clearing durch andere Systeme, nach Geschäftswert, Système Net Protégé (SNP), insgesamt
+OTHSYSVASNPDAV	Clearing durch andere Systeme, nach Geschäftswert, Système Net Protégé (SNP), täglicher Durchschnitt
+OTHSYSVASEPITOT	Clearing durch andere Systeme, nach Geschäftswert, Servicio Español de Pagos Interbancarios (SEPI), insgesamt
+OTHSYSVASEPIDAV	Clearing durch andere Systeme, nach Geschäftswert, Servicio Español de Pagos Interbancarios (SEPI), täglicher Durchschnitt
+OTHSYSVOPOPTOT	Clearing durch andere Systeme, nach Geschäftsvolumen, Pankkien On-line Pikasiirrot (POP), insgesamt
+OTHSYSVOPOPDAV	Clearing durch andere Systeme, nach Geschäftsvolumen, Pankkien On-line Pikasiirrot (POP), täglicher Durchschnitt

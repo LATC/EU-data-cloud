@@ -1,0 +1,32 @@
+MAT_ON	Tagesgelder
+MAT_M01	Einmonatsgelder
+MAT_M03	Dreimonatsgelder
+MAT_M06	Sechsmonatsgelder
+MAT_M12	Zwölfmonatsgelder
+DEPRT	Offizielle Einlagensätze
+LOANS	Offizielle Refinanzierungssätze
+REFI	Offizielle Sätze der Refinanzierungsgeschäfte
+OTHER	Weitere offizielle Sätze
+DR	Diskontsatz
+CBAR	Satz für Notenbankkredit
+DDMR	Täglicher Interbankensatz
+TBRT	Zinssatz für Schatzwechsel
+CGBY	Renditen langfristiger Staatsanleihen
+PSBY	Renditen von Anleihen des privaten Sektors
+HGBY	Harmonisierte Renditen öffentlicher Anleihen
+MTGBY	Renditen mittelfristiger Staatsanleihen
+RDDR	Zinsgefälle zwischen nationalen Zinssätzen und US Zinssätzen: Diskontsatz
+RDDDMR	Zinsgefälle zwischen nationalen Zinssätzen und US Zinssätzen: kurzfristige Zinssätze
+RDGBY	Zinsgefälle zwischen nationalen Zinssätzen und US Zinssätzen: Renditen öffentlicher Anleihen
+MCBY	Konvergenzkriterium der WWU für Anleihenrenditen
+MCBYMOV	Gleitender Durchschnitt über 12 Monate
+CBRR	Zentralbank Referenz Zinssatz
+3MR	Drei-Monatsgeld
+DEPR	Einlagenzinssätze der Handelsbanken
+LENR	Leihzinssätze der Handelsbanken
+MAT_Y02	2 Jahre Laufzeit
+MAT_Y03	3 Jahre Laufzeit
+MAT_Y05	5 Jahre Laufzeit
+MAT_Y07	7 Jahre Laufzeit
+MAT_Y10	10 Jahre Laufzeit
+MCSPE	Maastricht Kriterium - Spezialindikator

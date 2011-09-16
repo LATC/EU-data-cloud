@@ -1,0 +1,6 @@
+MAIN	Autre activité lucrative principale de l'exploitant-chef d'exploitation
+SUBSID	Autre activité lucrative secondaire de l'exploitant-chef d'exploitation
+NONE	Pas d'autre activité lucrative de l'exploitant-chef d'exploitation
+NOT_MAN	L'exploitant individuel n'est pas chef d'exploitation
+LEG_GRP	L'exploitation est une personne morale ou un groupement
+TOTAL	Total

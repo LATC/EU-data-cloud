@@ -1,0 +1,25 @@
+T	Bevölkerung insgesamt
+M	Männer
+F	Frauen
+Y16_24	Zwischen 16 und 24 Jahre
+Y25_54	Zwischen 25 und 54 Jahre
+Y55_MAX	55 Jahre und älter
+ISCED0_2	Vorschule, Primärbereich und Sekundarstufe I - Stufen 0-2 (ISCED 1997)
+ISCED3	Sekundarstufe I und II - Stufe 3 (ISCED 1997)
+ISCED5_6	Tertiärbereich - Stufen 5-6 (ISCED 1997)
+MORE30H	Mehr als 30 Stunden in der Woche gearbeitet
+LESS30H	Weniger als 30 Stunden in der Woche gearbeitet
+PERMANENT	Dauerarbeitvertrag
+TEMPORARY	Befristete Arbeitsvertrag
+EMP_NOT_SELF	Beschäftigung ohne Selbständige
+SELF	Selbständige
+FULLYEAR	Das ganze Jahr arbeiten
+LESSFULL	Weniger als ein ganzes Jahr gearbeitet
+FULLTIME	Vollzeitbeschäftigung
+PARTTIME	Teilzeitbeschäftigung
+A1W1NC	Ein Erwachsener, der arbeitet und allein lebt, ohne Kinder
+A1W1CH	Ein Erwachsener, der arbeitet und allein lebt, ein oder mehr Kinder
+AGE2W1NC	Ein Erwachsener, der arbeitet und mit anderen Erwachsenen die nicht arbeiten lebt, ohne Kinder
+AGE2W1CH	Ein Erwachsener, der arbeitet und mit anderen Erwachsenen die nicht arbeiten lebt, ein oder mehr Kinder
+AGE2WGE2NC	Ein Erwachsener, der arbeitet und mit anderen Erwachsenen die einigen oder allen arbeiten, ohne Kinder
+AGE2WGE2CH	Ein Erwachsener, der arbeitet und mit anderen Erwachsenen die einigen oder allen arbeiten, ein oder mehr Kinder

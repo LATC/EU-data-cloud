@@ -1,0 +1,17 @@
+TOTAL	Insgesamt
+LE_125	125 ccm oder weniger
+GT_125	Mehr als 125 ccm
+LT_1400	Weniger als 1400 ccm
+1400_2000	Von 1400 ccm bis weniger als 2000 ccm
+SOL_FUEL	
+GE_2000	2000 ccm oder more
+COKE	Coke 
+SOL_FUEL_OTH	Other solid fuels 
+LIQ_FUEL	Liquid fuels 
+GAS	Gas (v2031 + v2032 + v2033 + v2034)
+GAS_BFUR	Blast-furnace gas 
+GAS_COKE	Coke-oven gas 
+GAS_CONV	Converter gas 
+GAS_OTH	Other gas 
+DLV_GAS_BFUR	External deliveries of blast-furnace gas 
+DLV_GAS_CONV	External deliveries of converter gas 

@@ -1,0 +1,21 @@
+VITARTOT_HD	Nombre total d'exploitations viticoles
+VITARTOT_AA	Superficie agricole utilisée totale des exploitations viticoles (ha)
+VITARTOT_VA	Superficie viticole totale (ha)
+VITARC1_HD	Nombre d'exploitations avec > 0 à < 10% de superficie viticole dans la superficie agricole utilisée
+VITARC1_AA	Superficie agricole utilisée des exploitations avec > 0 à < 10% superficie viticole dans la superficie agricole utilisée (ha)
+VITARC1_VA	Superficie viticole des exploitations avec > 0 à < 10% de superficie viticole dans la superficie agricole utilisée (ha)
+VITARC2_HD	Nombre d'exploitations avec 10 à < 25% de superficie viticole dans la superficie agricole utilisée
+VITARC2_AA	Superficie agricole utilisée des exploitations avec 10 à < 25% de superficie viticole dans la superficie agricole utilisée (ha)
+VITARC2_VA	Superficie viticole des exploitations avec 10 à < 25% de superficie viticole dans la superficie agricole utilisée (ha)
+VITARC3_HD	Nombre d'exploitations avec 25 à < 50% de superficie viticole dans la superficie agricole utilisée
+VITARC3_AA	Superficie agricole utilisée des exploitations avec 25 à < 50% de superficie viticole dans la superficie agricole utilisée (ha)
+VITARC3_VA	Superficie viticole des exploitations avec 25 à < 50% de superficie viticole dans la superficie agricole utilisée (ha)
+VITARC4_HD	Nombre d'exploitations avec 50 à < 75% de superficie viticole dans la superficie agricole utilisée
+VITARC4_AA	Superficie agricole utilisée des exploitations avec 50 à < 75% de superficie viticole dans la superficie agricole utilisée (ha)
+VITARC4_VA	Superficie viticole des exploitations avec 50 à < 75% de superficie viticole dans la superficie agricole utilisée (ha)
+VITARC5_HD	Nombre d'exploitations avec 75 à < 90% de superficie viticole dans la superficie agricole utilisée
+VITARC5_AA	Superficie agricole utilisée des exploitations avec 75 à < 90% de superficie viticole dans la superficie agricole utilisée (ha)
+VITARC5_VA	Superficie viticole des exploitations avec 75 à < 90% de superficie viticole dans la superficie agricole utilisée (ha)
+VITARC6_HD	Nombre d'exploitations avec >= 90% de superficie viticole dans la superficie agricole utilisée
+VITARC6_AA	Superficie agricole utilisée des exploitations avec >= 90% de superficie viticole dans la superficie agricole utilisée (ha)
+VITARC6_VA	Superficie viticole des exploitations avec >= 90% de superficie viticole dans la superficie agricole utilisée (ha)

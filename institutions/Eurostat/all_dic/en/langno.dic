@@ -1,0 +1,7 @@
+TOTAL	Corresponding (total) number of students enrolled
+ZERO	No foreign language
+ONE_OR_MORE	At least one foreign language
+ONE	One foreign language
+TWO	Two foreign languages
+THREE	Three foreign languages
+FOUR_OR_MORE	Four or more foreign languages

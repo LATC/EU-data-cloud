@@ -1,0 +1,25 @@
+TOTAL	Insgesamt
+HHC_10	Kinder (mit anderen Erwachsenen lebend)
+HHC_20	Alleinstehende Erwachsene - insgesamt
+HHC_21	Alleinstehende Erwachsene mit Kindern
+HHC_22	Alleinstehende Erwachsene ohne Kinder
+HHC_30	Paar - insgesamt
+HHC_31	Paar mit Kindern
+HHC_32	Paar ohne Kinder
+HIC_30	Als Paar lebende Erwachsene - insgesamt
+HIC_31	Als Paar lebende Erwachsene mit Kindern
+HIC_32	Als Paar lebende Erwachsene ohne Kinder
+HHC_40	Anderer Haushaltstyp - insgesamt
+HHC_41	Anderer Haushaltstyp mit Kindern
+HHC_42	Anderer Haushaltstyp ohne Kinder
+HIC_40	In einem anderen Haushaltstyp lebende Erwachsene - insgesamt
+HIC_41	In einem anderen Haushaltstyp lebende Erwachsene mit Kindern
+HIC_42	In einem anderen Haushaltstyp lebende Erwachsene ohne Kinder
+HHC_50	Gesamtzahl der Erwachsenen
+HHC_51	Erwachsene (insgesamt) mit Kindern
+HHC_52	Erwachsene (insgesamt) ohne Kinder
+HWC_50	Gesamtzahl der Haushalte mit Erwachsenen
+HWC_51	Gesamtzahl der Haushalte mit Erwachsenen und Kindern
+HWC_52	Gesamtzahl der Haushalte mit Erwachsenen und ohne Kinder
+NRESP	Keine Antwort
+UNK	Unbekannt

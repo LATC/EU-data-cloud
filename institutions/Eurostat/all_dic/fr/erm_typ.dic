@@ -1,0 +1,5 @@
+DI	Indicateur de divergence du MTC
+CPIECU	Indice des prix à la consommation basé sur les prix en écu
+BF	Fluctuations bilatérales des devises du MTC
+WEIGHT	Poids des monnaies composantes de l'écu
+FLUCT	MCE2 fluctuations vis-à-vis du taux central

@@ -1,0 +1,11 @@
+TOTAL	Total
+KM_LT50	Less than 50 km
+KM50-149	From 50 to 149 km
+KM150-299	From 150 to 299 km
+KM150-499	From 150 to 499 km
+KM300-499	From 300 to 499 km
+KM_GE500	500 km or over
+KM500-999	From 500 to 999 km
+KM1000-1999	From 1 000 to 1 999 km
+KM2000-5999	From 2 000 to 5 999 km
+KM_GE6000	6 000 km or over

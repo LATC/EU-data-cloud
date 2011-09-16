@@ -1,0 +1,8 @@
+TOTAL	Total m²
+0_119	Entre 0 et 119 m²
+120_399	Entre 120 et 399 m²
+400_999	Entre 400 et 999 m²
+1000_2499	Entre 1 000 et 2 499 m²
+2500_4999	Entre 2 500 et 4 999 m²
+5000_9999	Entre 5 000 et 9 999 m²
+GE_10000	10 000 m² et plus

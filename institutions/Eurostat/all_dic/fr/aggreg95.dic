@@ -1,0 +1,60 @@
+00	Produit intérieur brut
+A01	Consommation individuelle effective
+A0101	Produits alimentaires et boissons non-alcoolisées
+A010101	Produits alimentaires
+A01010101	Pain et céréales
+A01010102	Viande
+A01010103	Poisson
+A01010104	Lait, fromage et oufs
+A01010105	Huiles et graisses
+A01010106	Fruits, légumes, pommes de terre
+A01010199	Autres produits alimentaires
+A010102	Boissons non-alcoolisées
+A0102	Boissons alcoolisées, tabac et stupéfiants
+A010201	Boissons alcoolisées
+A010202	Tabac
+A0103	Habillement et chaussures
+A010301	Articles d'habillement
+A010302	Chaussures
+A0104	Logement, eau, électricité, gaz et autres combustibles
+A010405	Électricité, gaz et autres combustibles
+A0105	Ameublement, équipment ménager et entretien
+A010501	Meubles, articles d'ameublement, tapis et autres revêtements de sol
+A010503	Appareils ménagers
+A0106	Santé
+A0107	Transport
+A010701	Moyens de transport personnels
+A010703	Services de transport
+A0108	Communication
+A0109	Loisirs et culture
+A010901	Équipements audiovisuels, photographiques et informatiques
+A0110	Enseignement
+A0111	Hôtels, cafés et restaurants
+A0112	Autres biens et services
+A04	Consommation collective effective
+A05	Formation brute de capital fixe
+A0501	Machines et appareils
+A050101	Produits du travail des métaux et équipement (sauf équipements électriques et électroniques )
+A050102	Équipements électriques et électroniques
+A050103	Matériel de transport
+A0502	Construction
+A050201	Bâtiments résidentiels
+A050202	Bâtiments non résidentiels
+A050203	Travaux de génie civil
+A0503	Logiciels
+E01	Dépense de consommation finale
+E011	Dépense de consommation finale des ménages
+E012	Dépense de consommation finale des adm. pub.
+E0121	Dépense de consommation collective des adm. pub.
+E0122	Dépense de consommation individuelle des adm. pub.
+P01	Total des biens
+P0101	Biens de consommation
+P010101	Biens non-durables
+P010102	Biens semi-durables
+P010103	Biens durables
+P0102	Biens de capital
+P02	Total des services
+P0201	Services de consommation
+P0202	Services des adm. pub.
+P020201	Services collectifs
+P020202	Services individuels

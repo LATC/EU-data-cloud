@@ -1,0 +1,737 @@
+ALLVAR01	All varieties of table apples
+CARDINAL	Cardinal
+DISCOVE	Discovery
+GRAV_GR	Gravenstein/Grasten
+TYDEARW	Tydeman's Early Worcester
+JAMESGR	James Grieve
+WORC_PE	Worcester Pearmain
+REI_GOL	Reine des Reinettes/Goldparmane
+INGR_MA	Ingrid Marie
+MC_INTO	Mc Intosh
+JONATHA	Jonathan
+RDEL_SD	Red Delicious, etc. (Group) and Starking Delicious
+GOLD_GO	Golden Delicious and Golden Spur
+SPARTAN	Spartan
+REI_CAN	Reinette du Canada
+COX_ORP	Cox's Orange Pippin
+BOSKOOP	Boskoop
+MORG_RB	Morgenduft (Imperatore) and Rome Beauty
+RAM_HIV	Rambour d'hiver
+GRAN_SM	Granny Smith
+REI_MA	Reinette du Mans
+ANNURCA	Annurca
+STAYMAN	Stayman
+GLOCKEN	Glockenapfel
+LAST_SU	Laston's Superb
+WINSTON	Winston
+ABBONDA	Abbondanza
+HOLST_C	Holsteiner Cox
+REI_CLO	Reinette Clochard
+HORN_PF	Horneburger Pfannkuchen
+LOMBART	Lombartscalville
+GLOSTER	Gloster
+CRI_MUT	Crispin/Mutzu
+MELROSE	Melrose
+EGRE_RU	Egremont Russet
+LOBO	Lobo
+CORTLAN	Cortland
+LUX_TRI	Luxembourg Triumpf
+LUX_REI	Luxembourg Reinette
+LORD_LA	Lord Lambourne
+GE_CAVE	George Cave
+FYRIKI	Fyriki
+DELI_PI	Delicious Pilafa
+JONAGOL	Jonagold
+KATY	Katy
+IDARED	Idared
+ELSTAR	Elstar
+SUNTAN	Suntan
+QUEEN_C	Queen Cox and Cox clones
+REI_PAR	Reinette Parda
+STAR_CL	Starkimson and clones (Coopers 3,4,7)
+VERD_DO	Verde doncella
+FIESTA	Fiesta
+GROUPE_GALA	Groupe Gala
+BRAEBURN	Braeburn
+PRIMA	Prima
+AKANE	Akane
+PIGEON	Pigeon
+TOPREDE	Top Red Delicious
+ALKMINE	Alkmine
+JUMBA	Jumba
+CAS_ALC	Casa Nova de Alcobaça
+AROMA	Aroma
+LIMONCE	Limoncella
+OTH_REI	Autres Reinettes
+JERSEMA	Jersey Mac
+BERLEPS	Berlepsch
+ONTARIO	Ontario
+FUJI_1	Fuji Nr.1
+KRONRUD	Kronprinz Rudolf
+PRIMA_X	Prima
+ALLIN_P	Allingtong Pippin
+BEAUTYB	Beauty of Bath
+BLENHEI	Blenheim orange
+ELLISON	Ellison orange
+CHARLER	Charles Ross
+VISTABE	Vista Bella
+ELLSWOR	Ellsworth
+LAXTONF	Laxton Fortune
+GASCSCA	Gascoyne's Scarlet
+HERRI_P	Herring's Pippin
+JERSEMA_X	Jersey Mac
+LAXT_RS	Laxton's Red Sport
+JUMBA_X	Jumba
+KARMIJN	Karmijn
+GRENNSL	Grennsleeves
+KEMP	Kemp
+LANES_P	Lanes Prince Albert
+MERT_WO	Merton Worcester
+MISC_CU	Misc. Cultivars
+MONARCH	Monarch
+MOTHER	Mother
+ODIN	Odin
+PEARL	Pearl
+RED_JON	Red Jonathan
+RIBST_P	Ribston Pippin
+SCAR_PI	Scarlet Pimpernel
+JUPITER	Jupiter
+JESTER	Jester
+ALKMINE_X	Alkmine
+SUMMERR	Summerred
+WINT_BA	Winter Banana
+AKANE_X	Akane
+BRAVO_E	Bravo de Esmolfe
+CASA_AL	Casa nova de Alcobaça
+CUNHA	Cunha
+MALAPIO	Malapio
+KLARAPF	Klarapfel
+GOLDPAR	Goldparmane
+DEMOCRA	Democrat
+GELATA	Gelata
+LIMONCE_X	Limoncella
+REI_CHA	Renetta di Champagne
+REI_GRI	Renetta Grigia
+RICHARE	Richared
+ROSA_CA	Rosa di Caldaro
+ROSA_MA	Rosa Mantovana
+SARGENT	Sargente
+OTH_REI_X	Autres Reinettes
+ESPERIE	Esperiega
+BERLEPS_X	Berlepsch
+BRETTAC	Brettacher
+FIN_PRI	Finkenwerder Prinz
+GEHE_OL	Geheimrat Oldenburg
+GEWURZL	Gewurzluiken
+LODI	Lodi
+ONTARIO_X	Ontario
+STARK_E	Stark Earliest
+WEIS_KL	Weisser Klarapfel
+JASPI	Jaspi
+RED-ATLA	Red Atlas
+RED-MELB	Red Melba
+RAIKE	Raike
+SAMO	Samo
+TRANBLAN	Transparente Blanche
+EARLGOLD	Early Gold
+ARLET	Arlet
+DELVESTI	Delvard Estivale
+ALICE	Alice
+KIM	Kim
+SIGNTILL	Signe Tillisch
+RUBINET	Rubinette
+DELCORF	Delcorf
+PIRJA	Pirja
+JNGORED	Jonagored
+PINOVA	Pinova
+TOPAZ	Topaz
+CRPPINK	Cripps Pink
+DELBLUSH	Delblush
+MELODIE	Melodie
+RUBIN	Rubin
+CHAMPION	Champion/Šampion (CZ) Szampion (PL)
+RUBINOLA	Rubinola
+LIGOL	Ligol (PL)
+CORTLAND	Cortland (PL)
+STARIS	Štaris (Staris) (LT)
+ALDAS	Aldas (LT)
+AUKSIS	Auksis (LT)
+ORLOV_POLO	Orlovskoje polosatoje (LT)
+ISBRANA	Isbranica (LT)
+SINAP_ORLO	Sinap Orlovskij (LT)
+NOT_SPE01	Varieties of table apples not specified
+OTHVAR01	Other varieties of table apples
+ALLVAR02	All varieties of cooking apples
+BR_SEED	Bramley's Seedling
+NEXT_WO	Nexton wonder
+LORDDER	Lord Derby
+HOWG_WO	Howgate Wonder
+GRENADI	Grenadier
+NOT_SPE02	Varieties of cooking apples not specified
+OTHVAR02	Other varieties of cooking apples
+ALLVAR03	All varieties of table pears
+GENT_BI	Gentile Bianca
+COSCIA	Coscia
+BUTI_PM	Butirra Precoce Morettini
+SPADONC	Spadoncina
+GUYOT_L	Jules Guyot/Limonera
+SMAR_MO	Santa Maria Morettini
+SPADO_E	Spadona d'Estate
+WILLIAM	William's
+CLARA_F	Clara Frijs
+CLAP_FA	Clapp's Favourite
+GREV_MO	Grev Moltke
+TRIO_VI	Triomphe de Vienne
+ALEX_DO	Alexandrine Douillard
+BEUR_HD	Beurre Hardy
+DURONDE	Durondeau
+LEGI_CH	Legipont/Charneu
+LOUI_AV	Louise Bonne d'Avranches
+ABATE_F	Abate Fetel
+CONFERE	Conference
+CLAIRGE	Clairgeau
+KAIS_AL	Kaiser Alexander
+DOYE_CO	Doyenne du Comice
+PASSE_C	Passe Crassane
+ALEX_LU	Alexandra Lucas
+DECA_IN	Decana d'Inverno
+PACK_TR	Packam's Triumph
+EPINE_M	Epine du Mas
+MADERNA	Madernassa
+BUTI_ES	Butirra d'Estate
+CURE	Cure
+WIL_ROU	William's rouge
+PRECO_T	Precoce de Trevoux
+PIER_CO	Pierre Corneille
+KRYSTAL	Krystalli
+BLANQUI	Blanquilla
+MP_MORE	M.P.Morettini
+ERCOLIN	Ercolini
+ROCHA	Rocha
+KONTOUL	Kontoula
+G_LECLE	General Leclerc
+ROMA	Roma
+CONCORD	Concorde
+CASTEL	Castell
+MAXREDB	Max Red Bartlett
+FLORINV	Flor de Invierno
+DEVOE	Devoe
+HILAND	Highland
+NASHIGR	Groupe Nashi
+CASTELL	Castell
+BEUR_CL	Beurre Clairgeau
+BEUR_BO	Beurre Bosc
+LAWSON	Lawson
+AKCA	Akca
+BEUR_CH	Beurre Chaudy
+HIGHLAND	Highland
+DELBIAS	Delbias
+BEUR_ANJ	Beurre d'Anjou
+ALEXAND	Alexandre III
+DJOAQUI	D.Joaquina
+CARAPIN	Carapinheira
+PEROLA	Perola
+TEND_VA	Tendral Valencia
+FLOR_IN	Flor de invierno
+BOSC_FL	Bosc's Flaschenbirne
+BUNTE_J	Bunte Julibirne
+GRAF_VP	Grafin Von Paris
+GUTEGRA	Gute Graue
+KONGRES	Kongressbirne
+PASTORE	Pastorenbirne
+VEREINS	Vereinsdechantsbirne
+JEAN_ARC	Jeanne d'Arc
+HERZELSA	Herzogin Elsa
+DBL_PHIL	Double Philippe
+ST_REMY	St Remy
+ETRUSCA	Etrusca
+TOSCA	Tosca
+HR_STREET	Harrow Sweet
+PC_DI_FIO	Precoce di Fiorano
+ROSADA	Rosada
+BOSC_FLA	Boscs Flaschenbirne
+BOHEMICA	Bohemica
+ERIKA	Erika
+GROSDEM	Grosdemange
+LUKASOW	Lukasowka (PL)
+ALKA	Alka (LT)
+ALSA	Alsa (LT)
+MRAMORN	Mramornaja (LT)
+BEUR_DIEL	Beurré Diel
+GLOU_MORC	Glou Morceau
+KIEFFER	Kieffer
+DICOLOR	Dicolor
+NOT_SPE03	Varieties of table pears not specified
+OTHVAR03	Other varieties of table pears
+ALLVAR04	All varieties of cooking pears
+SAN_REM	San Remy
+GIESE_W	Gieser Wildeman
+NOT_SPE04	Varieties of cooking pears not specified
+OTHVAR04	Other varieties of cooking pears
+ALLVAR05	All varieties of white flesh peaches
+SPRINGR_T	Springtime Group, total
+SPRINGR_SPRI	Springtime Group, Springtime variety
+SPRINGR_MFLO	Springtime Group, Mayflower variety
+SPRINGR_OTH	Springtime Group, other varieties
+M1_5_14	Morettini variety 1 and 5/14
+AMSD_GR	Amsden Group
+REDW_GR	Redwing Group
+BELC_SA	Bella di Cesena and Sant'Anna Balducci
+PIER_81	Pieri 81
+MICH_IM	Michelini and Impero
+PARAGUY	Paraguya
+HONEY_H	Honey de Hale
+MARIA_B	Maria Bianca
+NBRUGGR_T	Nectarines and Brugnons Group, total
+NBRUGGR_NVP	Nectarines and Brugnons Group, nectarines very precocious varieties
+NBRUGGR_NP	Nectarines and brugnons Group, nectarines precocious varieties
+NBRUGGR_NS	Nectarines and brugnons Group, nectarines in season varieties
+NBRUGGR_NL	Nectarines and brugnons Group, nectarines late varieties
+NBRUGGR_OTH	Nectarines and brugnons Group, varieties not specified
+SPRINGR_SPR	Springtime Group, variety Springtime
+SPRINGR_MAY	Springtime Group, variety Mayflower
+SPRINGR_MOR	Springtime Group, variety Morettini n° 1 and 5/4
+ROBINGR_T	Robin Group (early 2 and 3 or early)
+ROBINGR_ROB	Robin Group, variety Robin
+ROBINGR_ALE	Robin Group, variety Alexandra
+ROBINGR_AMS	Robin Group, variety Amsden
+ROBINGR_OTH	Robin Group, other varieties
+RBGR_GER2001	Robin Group, variety Grezzano (Zorzi)
+RBGR_IR2001	Robin Group, variety Iris rosso
+MARIBGR_T	Maria Bianca Group (early 4, 5 and 6 or of season)
+MARIBGR_BIA	Maria Bianca Group, variety Maria Bianca
+MARIBGR_RED	Maria Bianca Group, variety Redwing
+MARIBGR_BEL	Maria Bianca Group, variety Bella di Cesena
+MBGR_RDW2001	Maria Bianca Group, variety Rosa del West
+MARIBGR_OTH	Maria Bianca Group, other varieties
+MICHEGR_T	Michelini Group (early 7 and 8 or late)
+MICHEGR_MIC	Michelini Group, variety Michelini et impero
+MICHEGR_HON	Michelini Group, variety Honey de Hale
+MICHEGR_PIE	Michelini Group, variety Pieri 81
+MICHEGR_OTH	Michelini Group, autres varietys
+MCGR_DDE2001	Groupe Michelini, variety Duchessa D'Este
+MCGR_K2_2001	Groupe Michelini, variety K2
+MCGR_MD2001	Groupe Michelini, variety Maria Delizia
+PARAGGR_T	Paraguya Group (early 9 and 10 or very late)
+PARAGGR_PAR	Paraguya Group, variety Paraguya
+PARAGGR_OTH	Paraguya Group, other varieties
+NECBRU_T	Nectarines and brugnons
+NECSQGR_T	Nectarines and brugnons, Groupe Snow_Queen (early 2 and 3 or early)
+NECSQGR_SNO	Nectarines and brugnons, Groupe Snow_Queen, variety Snow Queen
+SQGR_CAL2001	Nectarines and brugnons, Group Snow_Queen, variety Caldesi 2000
+V05720	Nectarines and brugnons, Groupe Silver Gem (earliness 4 and 5 or season)
+V05721	Nectarines and brugnons, Groupe Silver Gem, variety Silver Gem
+V05722	Nectarines and brugnons, Groupe Silver Gem, variety Queen Giant
+V05723	Nectarines and brugnons, Groupe Silver Gem, variety Caldesi 2010
+V05729	Nectarines and brugnons, Groupe Silver Gem, variety Other
+V05730	Nectarines and brugnons, Groupe Flavor Giant, (earliness 6 and 7)
+V05731	Nectarines and brugnons, Groupe Flavor Giant, variety Flavor Giant
+V05732	Nectarines and brugnons, Groupe Flavor Giant, variety Queen Ruby
+V05739	Nectarines and brugnons, Groupe Flavor Giant, variety Other
+V05741	Nectarines and brugnons, Groupe September Queen (earliness > 7)
+V05742	Nectarines and brugnons, Groupe September Queen, variety Ruby Gem
+V05743	Nectarines and brugnons, Groupe September Queen, variety Mid Silver
+V05749	Nectarines and brugnons, Groupe September Queen, variety Other
+V05750	Nectarines and brugnons, Group Silver Star (earliness 7 and 8 or late)
+V05751	Nectarines and brugnons, Group Silver Star, variety Caldesi 2020
+V05752	Nectarines and brugnons, Group Silver Star, variety Silver star
+NECBRU_OTH	Nectarines and brugnons, other varieties
+NOT_SPE05B	Nectarines and brugnons, not elsewhere specified
+BELLARO	Bella di Roma
+CERVETT	Cervetto
+ROBIN	Robin
+GENARD4	Genardix 4
+CHAMP_HU	Champion (HU)
+NOT_SPE05A	Varieties of white flesh peaches not specified
+OTHVAR05	Other varieties of white flesh peaches
+SUB05510	Groupe Springtime (earliness 1 or very early)
+SUB05530	Group Robin (earliness 2 and 3 or early)
+SUB05540	Group Maria Bianca (earliness 4, 5 and 6 or season)
+SUB05550	Group Michelini (earliness 7 and 8 or late)
+SUB05560	Group Paraguya (earliness 9 and 10 or very late)
+SUB05700	Nectarines
+SUB05710	Group Snow-Queen (earliness 2 and 3 or early)
+SUB05720	Group Silver Gem (earliness 4 and 5 or season)
+SUB05730	Group Flavor Giant (earliness 6 and 7)
+SUB05740	Group September Queen (earliness > 7)
+SUB05750	Group Silver Star (earliness 7 and 8 or late)
+ALLVAR06	All varieties of yellow flesh peaches
+ARMGOLD	Armgold
+SPRI_CR	Spring Crest
+BLAZ_CO	Blazing gold and Collins
+DIXIRGR_T	Dixired Group, total
+DIXIRGR_DIX	Dixired Group, Dixired variety
+DIXIRGR_CAR	Dixired Group, Cardinal variety
+DIXIRGR_JUN	Dixired Group, June Gold variety
+DIXIRGR_OTH	Dixired Group, other varieties
+REDH_GR	Redhaven Group
+FAIRHGR_T	Fairhaven Group, total
+FAIRHGR_FAI	Fairhaven Group, Fairhaven variety
+FAIRHGR_SOU	Fairhaven Group, Southland variety
+FAIRHGR_OTH	Fairhaven Group, other varieties
+MFRANGR_T	Merril Franciscan Group, total
+MFRANGR_MFR	Merril Franciscan Group, Merril Franciscan variety
+MFRANGR_LOR	Merril Franciscan Group, Loring variety
+MFRANGR_SUN	Merril Franciscan Group, Suncrest variety
+MFRANGR_LOA	Merril Franciscan Group, Loadel variety
+MFRANGR_VIV	Merril Franciscan Group, Vivian variety
+MFRANGR_AND	Merril Franciscan Group, Andros variety
+MFRANGR_HAL	Merril Franciscan Group,  Halford variety
+MFRANGR_DIX	Merril Franciscan Group, Dixon variety
+MFRANGR_OTH	Merril Franciscan Group, other varieties
+JHHALGR_T	J.H. Hale Group, total
+JHHALGR_JHH_X	Groupe J. H. Hale, variety  J. H. Hale
+JHHALGR_ELB_X	Groupe J. H. Hale, variety  Elberta
+JHHALGR_OTH_X	Groupe J. H. Hale, other varieties
+JHHALGR_JHH	J.H. Hale Group, J.H. Hale variety
+JHHALGR_ELB	J.H. Hale Group, Elberta variety
+JHHALGR_OTH	J.H. Hale Group, other varieties
+JHHALGR_TAR	Groupe J.H. Hale, variety Tardio de Calanda
+JHHALGR_FAY	Groupe J.H. Hale, variety Fayette
+JHHALGR_ROU	Groupe J.H. Hale, variety Roubidoux
+JHHGR_PDN2001	Groupe J.H. Hale, variety Padana
+JHHGR_RBA2001	Groupe J.H. Hale, variety Roberta Barolo
+CRESTHA	Cresthaven
+GLOHAVE	Glohaven
+NBRUGGR_ARM	Nectarines and brugnons Group, sub-group Armking-Mayred
+NBRUGGR_GRM	Nectarines and brugnons Group, sub-group Grimson-Maygrand
+NBRUGGR_IND	Nectarines and brugnons Group, Independence variety
+NBRUGGR_SRG	Nectarines and brugnons Group, Stark Red Gold variety
+NBRUGGR_NEC	Nectarines and brugnons Group, Nectared variety
+BOWEN	Bowen
+FAYETTE	Fayette
+KATHERI	Katherina
+MERIAM	Meriam
+MAYCRGR_T	Groupe Maycrest (early 1 or very early)
+MAYCRGR_MAY	Groupe Maycrest, variety Maycrest
+MAYCRGR_ARM	Groupe Maycrest variety Armgold
+MAYCRGR_OTH	Groupe Maycrest, autres varieties
+CRESTGR_T	Groupe Springcrest (early 2 or precocious)
+CRESTGR_CRE	Groupe Springcrest, variety Springcrest
+CRESTGR_LAD	Groupe Springcrest, variety Spring Lady
+CRESTGR_OTH	Groupe Springcrest, other varieties
+SCGR_MGF2001	Springcrest group, variety Merrill Gem Free 1
+SCGR_RGM2001	Springcrest group, variety Royal Gem
+SCGR_RGL2001	Springcrest group, variety Royam Glory
+SCGR_SBLL2001	Springcrest group, variety Springbelle (Bella di San Tomé)
+CARDIGR_T	Groupe Cardinal (early 3 or precocious)
+CARDIGR_CARDINAL	Groupe Cardinal, variety Cardinal
+CARDIGR_DIX	Groupe Cardinal, variety Dixired
+CARDIGR_JUN	Groupe Cardinal, variety June Gold
+CARDIGR_OTH	Groupe Cardinal, other varieties
+REDHAGR_T	Groupe Redhaven (early 4 or precocious)
+REDHAGR_RED	Groupe Redhaven, variety Redhaven
+REDHAGR_SUD	Groupe Redhaven, variety Sudanell
+REDHAGR_MAR	Groupe Redhaven, variety Maruja
+RHVGR_RV2001	Groupe Redhaven, variety Royal Vee
+REDHAGR_OTH	Groupe Redhaven, other varieties
+GLOHAGR_T	Groupe Glohaven (early 5 or precocious)
+GLOHAGR_GLO	Groupe Glohaven, variety Glohaven
+GLOHAGR_RTO	Groupe Glohaven, variety Redtop
+GLOHAGR_FAI	Groupe Glohaven, variety Fairhaven
+GLOHAGR_OTH	Groupe Glohaven, other varieties
+GLHGR_ELD2001	Groupe Glohaven, variety Elegant Lady
+GLHGR_MM2001	Groupe Glohaven, variety María Marta
+GLHGR_RLD2001	Groupe Glohaven, variety Rich Lady
+GLHGR_SPH2001	Groupe Glohaven, variety Sinphonie
+GLHGR_TRI2001	Groupe Glohaven, variety Triogam
+CREHAGR_T	Groupe Cresthaven (early 6 and 7 or late)
+CREHAGR_CHA	Groupe Cresthaven, variety Cresthaven
+CREHAGR_AND	Groupe Cresthaven, variety Andros
+CREHAGR_LOA	Groupe Cresthaven, variety Loadel
+CREHAGR_SUN	Groupe Cresthaven, variety Suncrest
+CREHAGR_VIV	Groupe Cresthaven, variety Vivian
+CREHAGR_MER	Groupe Cresthaven, variety Merril Franciscan
+CREHAGR_LOR	Groupe Cresthaven, variety Lorin
+CREHAGR_DIX	Groupe Cresthaven, variety Dixon
+CREHAGR_OTH	Groupe Cresthaven, other varieties
+P_PERGR_T	Pavie/Percoche Group, total
+P_PERGR_FOR	Pavie/Percoche Group, Fortuna variety
+P_PERGR_KLA	Pavie/Percoche Group, Klamt variety
+P_PERGR_CAR	Pavie/Percoche Group, Caroline variety
+P_PERGR_DFR	Pavie/Percoche Group, Di Francia variety
+P_PERGR_VES	Pavie/Percoche Group, Vesuvio variety
+P_PERGR_OTH	Pavie/Percoche Group, other varieties
+PAVPEGR_T	Groupe Pavie / Percoche
+PAVPEGR_FOR	Groupe Pavie / Percoche, variety Fortuna
+PAVPEGR_KLA	Groupe Pavie / Percoche, variety Klamt
+PAVPEGR_CAR	Groupe Pavie / Percoche, variety Caroline
+PAVPEGR_VES	Groupe Pavie / Percoche, variety Vesuvio
+PAVPEGR_BAB	Groupe Pavie / Percoche, variety Babygold 5, 6 and 7
+PAVPEGR_BOW	Groupe Pavie / Percoche, variety Bowen
+PAVPEGR_KAT	Groupe Pavie / Percoche, variety Katherina
+PAVPEGR_MER	Groupe Pavie / Percoche, variety Merrian
+PAVPEGR_OTH	Groupe Pavie / Percoche, other varieties
+PPGR_ADR2001	Groupe Pavie/percoche, variety Adriatica
+PPGR_FED2001	Groupe Pavie/percoche, variety Federica
+PPGR_JUN2001	Groupe Pavie/percoche, variety Jungerman
+PPGR_LOA2001	Groupe Pavie/percoche, variety Loadel
+PPGR_ROM2001	Groupe Pavie/percoche, variety Romea
+PPGR_TEB2001	Groupe Pavie/percoche, variety Tebana
+NECTBRU_T	Nectarines and Brugnons
+NEARMGR_T	Nectarines and Brugnons, Groupe Armking_Mayred (early 1 and 2 or very precocious)
+NEARMGR_ARM	Nectarines and Brugnons, Groupe Armking_Mayred, variety Armking_Mayre
+NEARMGR_OTH	Nectarines and Brugnons, Groupe Armking_Mayred, other varieties
+NEGRIGR_T	Nectarines and Brugnons, Groupe Grimson_Maygrand (early 3 or precocious)
+NEGRIGR_GRI	Nectarines and Brugnons, Groupe Grimson_Maygrand, variety Grimson_Maygrand
+NEGRIGR_OTH	Nectarines and Brugnons, Groupe Grimson_Maygrand, other varieties
+NEGMGR_ADR2001	Nectarines and Brugnons, Groupe Grimson_Maygrand, variety Adriana
+NEGMGR_AMB2001	Nectarines and Brugnons, Groupe Grimson_Maygrand, variety Ambra
+NEGMGR_AGR2001	Nectarines and Brugnons, Groupe Grimson_Maygrand, variety Aurelio Grand
+NEGMGR_VEN2001	Nectarines and Brugnons, Groupe Grimson_Maygrand, variety Venus
+NESTAGR_T	Nectarines and Brugnons, Groupe Stark Red gold (early 4, 5 and 6 or of season)
+NESTAGR_STA	Nectarines and Brugnons, Groupe Stark Red gold, variety Stark Red gold
+NESTAGR_IND	Nectarines and Brugnons, Groupe Stark Red gold, variety Independance
+NESTAGR_NEC	Nectarines and Brugnons, Groupe Stark Red gold, variety Nectared
+NESRGR_BTP2001	Nectarines and Brugnons, Groupe Stark Red gold, variety Big Top
+NESRGR_ESU2001	Nectarines and Brugnons, Groupe Stark Red gold, variety Early Sungrand
+NESRGR_MCA2001	Nectarines and Brugnons, Groupe Stark Red gold, variety Maria Carla
+NESTAGR_OTH	Nectarines and Brugnons, Groupe Stark Red gold, other varieties
+NEFANGR_T	Nectarines and Brugnons, Groupe Fantasia (early 7 and 8 or late)
+NEFANGR_FAN	Nectarines and Brugnons, Groupe Fantasia, variety Fantasia
+NEFANGR_OTH	Nectarines and Brugnons, Groupe Fantasia, other varieties
+NEFNGR_CAL2001	Nectarines and Brugnons, Groupe Fantasia, variety Caldesi
+NEFNGR_MOR2001	Nectarines and Brugnons, Groupe Fantasia, variety Morsiani
+NEFNGR_SLA2001	Nectarines and Brugnons, Groupe Fantasia, variety Sweet Lady
+NEFNGR_SRE2001	Nectarines and Brugnons, Groupe Fantasia, variety Sweet Red
+NEFNGR_WBG2001	Nectarines and Brugnons, Groupe Fantasia, variety Weinberger
+NEFAIGR_T	Nectarines and Brugnons, Groupe Fairlane (early 9 and 10 or very late)
+NEFAIGR_FAI	Nectarines and Brugnons, Groupe Fairlane, variety Fairlane
+NEFAIGR_OTH	Nectarines and Brugnons, Groupe Fairlane, other varieties
+NOT_SPE06B	Other Nectarines and Brugnons, not specified
+SPRI_RE	Spring Rest
+MERRI_G	Merril Gemfree
+ROYAL_G	Royal Gold
+MAYERES	Mayerest
+ROUBIDO	Roubidoux
+EA68_50	E.A. 68-50
+TEMP_AL	Temporao d'Alcobaça
+CORONET	Coronet
+FAVORIT	Favorita
+GOLD_DU	Gold Dust
+REDSKIN	Redskin
+RED_TOP	Red Top
+AV_HOLL	Avelluto di Hollywood
+S_BREDH	Spanish variety ripe before Redhaven
+S_BETRJ	Spanish variety ripe between Redhaven and JH Hale
+S_AFTJH	Spanish variety ripe after JH Hale
+OTH_BSC	Other varieties ripe before Spring Crest
+OTH_BTSCC	Other varieties ripe between Spring Crest and Cardinal
+OTH_BTCR	Other varieties ripe between Cardinal and Redhaven
+OTH_BTRJH	Other varieties ripe between Redhaven and JH Hale
+OTH_AFJH	Other varieties ripe after JH Hale
+SPRING_L	Spring Lady
+BUR_JU_EL	Burbank July Elberta (SK)
+FLAMINGO	Flamingo (SK)
+SUNHAVEN	Sunhaven (SK)
+NOT_SPE06A	Varieties of yellow flesh peaches not specified
+OTHVAR06	Other varieties of yellow flesh peaches
+SUB06510	Group Maycrest (earliness 1 or very early)
+SUB06520	Group Springcrest (earliness 2 or early)
+SUB06530	Group Cardinal (earliness 3 or early)
+SUB06540	Group Redhaven (earliness 4 or season)
+SUB06560	Group Glohaven (earliness 5 or season)
+SUB06570	Group Cresthaven (earliness 6 and 7 or late)
+SUB06580	Group J.H. Hale (earliness 8, 9 and 10 or very late)
+SUB06600	Group Pavie/Percoche
+SUB06700	Nectarines
+SUB06710	Group Armking-Mayred (earliness 1 and 2 or very early)
+SUB06720	Group Grimson-Maygrand (earliness 3 or early)
+SUB06730	Group Stark Red gold (earliness 4, 5 and 6 or season)
+SUB06740	Group Fantasia (earliness 7 and 8 or late)
+SUB06750	Group Fairlane (earliness 9 and 10 or very late)
+ALLVAR07	All varieties of unspecified flesh peaches
+NOT_SPE07	Varieties of unspecified flesh peaches not specified
+OTHVAR07	Other varieties unspecified flesh peaches
+ALLVAR08	All varieties of apricots
+POLONAI	Polonais
+ROUGE_R	Rouge du Roussillon
+BERGERO	Bergeron
+CAFONA	Cafona
+BOCCUCI	Boccucia
+MONAC_B	Monaco Bello
+BEBECOU	Bebecou
+DIAMANT	Diamantopoulou
+PREC_TY	Precoce de Tyrinthe
+BULIDA	Bulida
+CANINO	Canino
+MONIQUI	Moniqui
+BORIDA	Borida
+CURROT	Currot
+PAVIOT	Paviot
+REAL_FI	Real Fino
+PELLECC	Pellecchiella
+PREC_IM	Precoce d'Imola
+CASTRES	S. Castrese
+PEPITOS	Pepitos
+GALTARO	Galta Rocha
+LOUISE	Louisette
+TADEO	Tadeo
+ROJOMED	Rojo del Medio
+PALABRA	Palabras
+LABERT	Labertin N°1
+JAUBERT	Jaubert
+REALFIN	Real Fino
+IPERPRI	Iperpriomo
+KOLIOPO	Koliopoulou
+LOUISET	Louisette
+NONNO	Nonno
+PALUMME	Palummella
+PELE_GI	Pelese di Giovanniello
+CARDINA	Cardinale
+EARLIRI	Earliril
+NENNELL	Nennella
+HARCOT	Harcot
+TEMP_VI	Temporao de Vila Franca
+TEMP_EL	Temporao de Alenquer
+CNEFF1	Neff 1
+HARGRAND	Hargrand
+KLOSNEBU	Klosterneuburger
+ORANGERE	Orangered
+ROUGEFOU	Rouge de Fournes
+UNGABEST	Ungarische Beste
+08_30	Goldrich
+08_33	Aurora
+08_34	Klosterneuburger/Ungarische Beste
+08_35	Alba
+08_36	Caldesi
+08_37	Ceccona
+08_38	Fracasso
+08_39	Ninfa
+08_40	Perla
+08_41	Pisana
+08_42	Sabbatani
+08_43	Vitillo
+CEGL_BIB	Ceglédi Bíbor
+CEGL_ORI	Ceglédi óriás
+GON_MA_KA	Gönci magyar kajszi
+MAG_KAJ	Magyar kajszi
+MA_KA_C235	Magyar kajszi C.235
+PANNONIA	Pannónia
+SZE_MAMM	Szegedi mammut
+KAROLA	Karola
+VELKOP	Velkopavlovická
+VEHARDA	Veharda
+MAIARSKA	Maïarská
+NOT_SPE08	Varieties of apricots not specified
+OTHVAR08	Other varieties of apricots
+ALLVAR09	All orange varieties
+ALLVAR09A	All blood orange varieties
+BLOODOR_T	Blood, all varieties
+BLOODOR_SAN	Blood, Sanguinello
+BLOODOR_MOR	Blood, Moro
+BLOODOR_TAR	Blood, Tarocco
+BLOODOR_SNCU	Blood, Sanguinello 'Cuscuna'
+BLOODOR_SNCO	Blood, Sanguina Comune
+OTHVAR09A	Blood, other varieties
+BLOODOR_NSP	Blood, varieties not specified
+ALLVAR09B	All sweet orange varieties
+SWEETOR_T	Sweet, all varieties
+SWEETOR_O_C	Sweet, Ovale/Calabrese
+SWEETOR_BEL	Sweet, Belladonna
+SWEETOR_SHA	Sweet, Shamotti or Jaffa
+SWEETOR_SAL	Sweet, Salustiana
+SWEETOR_SET	Sweet, De Setubal
+SWEETOR_VAL	Sweet, Valencia Late
+SWEETOR_BIC	Sweet, Bionda Comune
+SWEETOR_DJ	Sweet, D. Joao
+SWEETOR_TUA	Sweet, Do Tua
+SWEETOR_SPV	Sweet, Spera da Vidigueira
+SWEETOR_DMA	Sweet, D.Maria
+SWEETOR_VB	Sweet, De Vale de Besteiros
+SWEETOR_BIA	Sweet, Bionda Apirena
+SWEETOR_VA	Sweet, Vaniglia Apirena
+SWEETOR_CAD	Sweet, Cadenera
+SWEETOR_VER	Sweet, Verna
+SWEETOR_KOI	Sweet, Koina
+SWEETOR_KOI_X	Sweet, Koina
+SWEETOR_NVGR_T	Sweet, Navels Group, total
+SUB09050	Group navels
+SWEETOR_NVGR_MER	Sweet, Navels Group, Merlin or Washinton Navel
+SWEETOR_NVGR_DAL	Sweet, Navels Group, Navelina or Dalmau
+SWEETOR_NVGR_NEW	Sweet, Navels Group, Navel New Hall
+SWEETOR_NVGR_THO	Sweet, Navels Group, Thonson Navel
+SWEETOR_NVGR_NAV	Sweet, Navels Group, Navelate
+SWEETOR_NVGR_LAN	Sweet, Navels Group, Lane Late
+SWEETOR_NVGR_OTH	Sweet, Navels Group, Other varieties
+SWEETOR_MAL	Sweet, Malte
+SWEETOR_HAM	Sweet, Hamlin
+OTHVAR09B	Sweet, other varieties
+SWEETOR_NSP	Sweet, varieties not specified
+ALLVAR10	All lemon varieties
+FEM_OVA	Femminello Ovale
+FEM_TER	Femminello di S. Teresa
+MONACHE	Monachello
+INTER_D	Inter Donato
+LUNAR_T	Lunario Tondo (Arancino)
+LUNAR_S	Lunario Sfusato (Palermo)
+MAGLINI	Maglini
+KARYSTI	Karystini
+ADAMOPO	Adamopoulou
+LISBOA	Lisboa
+EUREKA	Eureka
+GR_BERN	Groupe Berna
+GR_MESE	Groupe Mesero
+LUNERO	Lunero (4 seasons)
+REAL	Real
+COMUNE	Comune
+S_BIANC	Siagara bianca
+S_TERES	Santa Teresa
+VILA_FR	Vila Franca
+LUNARIO	Lunario
+GALEGO	Galego
+INCAPPU	Incappucciato
+OTHVAR10	Other varieties of lemons
+NOT_SPE10	Varieties of lemons not specified
+ALLVAR11	All Small-fruited citrus varieties, total
+MANDARI_T	Mandarins, total
+MANDARI_AVA	Mandarins, Avana
+MANDARI_TDC	Mandarins, Tardivo o Di Ciaculli
+MANDARI_COM	Mandarins, Common
+MANDARI_WIL	Mandarins, Wilking
+MANDARI_KAR	Mandarins, Kara
+MANDARI_KIN	Mandarins, Kina
+MANDARI_ENC	Mandarins, Encore
+MANDARI_PAL	Mandarins, Palazzeli
+MANDARI_SET	Mandarins, Setubalense
+MANDARI_CAR	Mandarins, Carvalhais
+OTHVAR11A	Other varieties of mandarins
+MANDARI_NSP	Mandarins, varieties not specified
+CLEMENT_T	Clementines, total
+CLEMENT_CCO	Clementines, clémentines de Corse
+CLEMENT_MONT	Clementines, Montréal
+CLEMENT_COM	Clementines, Comune
+CLEMENT_FIN	Clementines, Fina
+CLEMENT_ORO	CLementines, Oroval
+CLEMENT_CNU	Clementines, Clémenules or Clémentine de Nules
+CLEMENT_TOM	Clementines, Tomatera
+CLEMENT_CPO	Clementines, Clémentina porou
+CLEMENT_HER	Clementines, Hernandina
+CLEMENT_MAR	Clementines, Marisol
+CLEMENT_ARR	Arrufatina
+CLEMENT_ORN	Oronules
+CLEMENT_CLE	Clementard
+CLEMENT_ORT	Ortanique
+CLEMENT_ELL	Ellendale
+MANDARI_CLE	Clementines, Clemenvilla o nova
+MANDARI_FOR	Clementines, Fortuna
+OTHVAR11B	Other varieties of clementines
+CLEMENT_NSP	Clementines, varieties not specified
+SATSUMA_T	Satsumas, total
+SATSUMA_SAT	Satsumas, Satsuma
+SATSUMA_CLA	Satsumas, Clausellina
+SATSUMA_SAL	Satsumas, Salzara
+SATSUMA_MIN	Satsumas, Mineola
+SATSUMA_TEM	Satsumas, Temple
+SATSUMA_OWA	Satsumas, Owari
+SATSUMA_WAS	Satsumas, Wase
+SATSUMA_OHI	Satsumas, Okitsu or Ohitsu
+SATSUMA_MIG2001	Satsumas, Miagawa
+OTHVAR11C	Other varieties of satsumas
+SATSUMA_NSP	Satsumas, varieties not specified
+OTHSCIT_T	Other small citrus fruit trees, all varieties
+OTHSCIT_TAN	Other small citrus fruit trees, Tangero (Tangelo Mapo)
+OTHSCIT_MAN	Other small citrus fruit trees, Mandarine clémentine o nova
+OTHVAR11D	Other varieties of small-fruited citrus trees
+OTHSCIT_NSP	Other small citrus fruit trees, varieties not specified
+WASE	Wase

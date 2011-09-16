@@ -1,0 +1,43 @@
+P00	All presentation forms
+P01	Total fresh
+P02	Total frozen
+P03	Total salted
+P07	Total dried
+P10	Fresh, unspecified
+P11	Fresh, whole
+P12	Fresh, gutted
+P13	Fresh, tails
+P14	Fresh, fillets
+P16	Fresh, gutted and headed
+P17	Fresh, peeled, cleaned
+P18	Fresh, alive
+P19	Fresh, other
+P20	Frozen, unspecified
+P21	Frozen, whole
+P22	Frozen, gutted
+P23	Frozen, tails
+P24	Frozen, fillets
+P25	Frozen, unfilleted
+P26	Frozen, gutted and headed
+P27	Frozen, clean
+P28	Frozen, not clean
+P29	Frozen, other
+P30	Salted, non specified
+P31	Salted, whole
+P32	Salted, gutted
+P34	Salted, fillets
+P36	Salted, gutted, head off
+P39	Salted, other
+P40	Smoked
+P50	Cooked
+P60	Cooked, frozen and packed
+P70	Dried, non specified
+P71	Dried, whole
+P72	Dried, gutted
+P74	Dried, fillets
+P76	Dried, gutted, head off
+P79	Dried, other
+P91	Whole, unspecified
+P80	Claws
+P85	Roes
+P99	Presentation, unknown

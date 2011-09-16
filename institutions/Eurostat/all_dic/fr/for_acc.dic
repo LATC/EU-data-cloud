@@ -1,0 +1,142 @@
+OUT1_1	Production de biens sylvicoles
+OUT1_11	Bois sur pied
+OUT1_12	Grumes de sciage 
+OUT1_121	Bois d'oeuvre et d'industrie conifere
+OUT1_122	Bois long de coniferes
+OUT1_123	Bois de trituration et Bois empile de conifères
+OUT1_124	Bois d'oeuvre et d'industrie conifère: autres
+OUT1_125	Bois d'oeuvre et d'industrie de feuillus
+OUT1_126	Bois long de feuillus
+OUT1_127	Bois de trituration et bois empilé de feuillus
+OUT1_128	Bois d'oeuvre et d'industrie de feuillus: autres
+OUT1_13	Bois de chauffage 
+OUT1_14	Bois de trituration
+OUT1_15	Boisements et reboisements pour compte propre 
+OUT1_16	Autres produits
+OUT1_161	Liège
+OUT1_162	Plants forestiers de pépinière
+OUT1_163	Autres produits forestiers
+OUT1_2	Production de services sylvicoles
+OUT1_21	Boisements et reboisements
+OUT1_22	Autres services sylvicoles et d'exploitation
+OUT1	Production sylvicole à prix de base
+OUT2	Activités secondaires non sylvicoles (non séparables)
+OUT2_1	Produits de la transformation de produits sylvicoles
+OUT2_2	Autres activités secondaires non séparables (biens et services)
+OUT	Production de la branche sylvicole à prix de base
+IC	Consommations intermédiaires
+IC1	Bois sur pied
+IC2	Plants
+IC3	Energie, lubrifiants
+IC3_1	Energie, lubrifiants - électricité
+IC3_2	Energie, lubrifiants - gaz
+IC3_3	Energie, lubrifiants - autres combustibles et carburants
+IC3_4	Energie, lubrifiants - énergie; lubrifiants: autres
+IC4	Engrais et amendements
+IC5	Produits de protection des cultures et pesticides
+IC6	Entretien du matériel
+IC7	Entretien de bâtiments
+IC8	Services sylvicoles
+IC9	Services d'intermédiation financière indirectement mesurés (SIFIM)
+IC10	Autres biens et services
+GVA	Valeur ajoutée brute aux prix de base
+FCC	Consommation de capital fixe
+FCC1	Boisements et reboisements
+FCC2	Matériel et bâtiments
+FCC2_1	Consommation de capital fixe: biens d'equipement
+FCC2_2	Consommation de capital fixe: constructions
+FCC3	Autres
+NVA	Valeur ajoutée nette aux prix de base
+NVA1	Autres impôts sur la production
+NVA2	Autres subventions sur la production
+FI	Revenu des facteurs
+CE	Rémunération des salariés
+OS	Excédent net d'exploitation / revenu mixte
+OS1	Fermages
+OS2	Intérêts à payer
+OS3	Intérêts à recevoir
+EI	Revenu net d'entreprise
+GFCF	Formation brute de capital fixe (hors TVA déductible)
+GFCF1	Boisements et reboisements
+GFCF2	Matériel et bâtiments
+GFCF2_1	FBCF en produits non sylvicoles
+GFCF2_11	FBCF en matériel
+GFCF2_111	FBCF en machines et autres biens d'équipement
+GFCF2_112	FBCF en matériel de transport
+GFCF2_12	FBCF en bâtiments d'exploitation (non residentiels)
+GFCF3	Autre formation brute de capital fixe
+GFCF3_1	FBCF en actifs fixes incorporels (i.e. logiciels)
+GFCF3_2	Addition à la valeur des actifs non financiers non produits
+GFCF3_21	FBCF en amélioration majeure des terres
+GFCF3_22	Couts liés au transfert de propriété de terrains et de droits de production
+NFCF	Formation nette de capital fixe (hors TVA déductible)
+CI	Variations de stocks
+CI1	Variations de stocks dont travaux en cours
+CT	Transferts en capital
+CT1	Aides a l'investissement
+CT2	Autres transferts en capital
+51000	bois d'oeuvre et d'industrie conifere
+51100	bois long de coniferes
+51200	bois de trituration et bois empile de coniferes
+51900	bois d'oeuvre et d'industrie conifere: autres
+52000	bois d'oeuvre et d'industrie de feuillus
+52100	bois long de feuillus
+52200	bois de trituration et bois empile de feuillus
+52900	bois d'oeuvre et d'industrie de feuillus: autres
+53000	bois de chauffage (coniferes et feuillus)
+54000	autres produits
+54100	liege
+54200	plants forestiers de pepinieres
+54300	boisements et reboisements
+54900	autres produits forestiers
+14000	production de biens sylvicoles
+15000	production de services sylvicoles
+16000	production sylvicole
+17000	activites secondaires non sylvicoles (non separables)
+17100	produits de la transformation de produits sylvicoles
+17900	autres activites secondaires non separables (biens et services)
+18000	production de la branche sylvicole
+19000	consommations intermediaires
+19010	plants (consommation intermediaires)
+19020	energie, lubrifiants
+19021	energie, lubrifiants - électricité
+19022	energie, lubrifiants - gaz
+19023	energie, lubrifiants - autres combustibles et carburants
+19029	energie, lubrifiants - énergie; lubrifiants: autres
+19030	engrais et amendements
+19040	produits de protection des cultures et antiparasitaires
+19070	entretien du materiel
+19080	entretien des bâtiments
+19090	services sylvicoles (consommation intermediaires)
+19900	autres biens et services
+20000	valeur ajoutee brute aux prix de base
+21000	consommation de capital fixe
+21100	consommation de capital fixe: biens d'equipement
+21200	consommation de capital fixe: constructions
+22000	valeur ajoutee nette aux prix de base
+23000	rémunération de salaries
+24000	autres impots sur la production
+25000	autres subventions sur la production
+26000	revenu des facteurs
+27000	excedent net d'exploitation / revenu mixte
+28000	fermages
+29000	interets a payer
+30000	interets a recevoir
+31000	revenu net d'entreprise
+32000	fbcf en boisements et reboisements
+33000	fbcf en produits non sylvicoles
+33100	fbcf en materiel
+33110	fbcf en machines et autres biens d'equipement
+33120	fbcf en materiel de transport
+33200	fbcf en bâtiments d'exploitation (non residentiels)
+33900	fbcf en autres produits
+33910	fbcf en actifs fixes incorporels (i.e. logiciels)
+33920	addition a la valeur des actifs non financiers non produits
+33921	fbcf en amelioration majeure des terres
+33922	couts lies au transfert de propriete de terrains et de droits de production
+34000	formation brute de capital fixe (hors tva deductible)
+35000	formation nette de capital fixe (hors tva deductible)
+36000	variations de stocks
+37000	transferts en capital
+37100	aides a l'investissement
+37200	autres transferts en capital

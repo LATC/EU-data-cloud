@@ -1,0 +1,871 @@
+PCNB001	Total number of PCs (in 1000)
+PCNB002	PCs per 100 inhabitants
+PCUSE001	Percentage of the population (>15) having a desktop computer at home
+PCUSE002	Percentage of households using a PC (CECC)
+PCUSE003	Percentage of businesses using a PC
+IHNB001	Number of Internet hosts (in 1000)
+IHNB002	Internet hosts per 100 inhabitants
+IUSE001	Number of Internet users (in 1000)
+IUSE002	Internet users per 100 inhabitants
+IUSE003	Percentage of persons using the Internet
+IUSE004	Number of households using the Internet (in 1000) (CECC)
+IUSE005	Percentage of households using the Internet (EU)
+IPNB001	Number of Internet Access Providers (CECC)
+ITEXPEN001	Information technology expenditure (Mio ECU)
+ITEXPEN002	Information technology expenditure in percentage of the GDP
+ITEXPEN003	Information technology expenditure per capita (ECU)
+ITEXPEN	Information Technology Expenditure
+COMMEXP	Communications Expenditure
+IACCHOUS	Level of Internet access of households
+IACCENTR	Level of Internet access of Enterprises
+SHINTSAL	Share of internet sales over the last calendar year
+E_ITSP	Enterprises who employed ICT/IT specialists
+P_ITSPVAL	Percentage of ICT/IT specialists employed by enterprises
+E_ITSPRCR	Enterprises who recruited/tried to recruit personnel for jobs requiring ICT specialist skills, during 2006
+E_ITSPVAC	Enterprises who had hard-to-fill vacancies for jobs requiring ICT specialist skills, during 2006
+E_ITSPVACN	Enterprises where main reason for hard-to-fill vacancies for ICT specialist jobs was lack or too low number of applicants with ICT skills
+E_ITSPVACQ	Enterprises where main reason for hard-to-fill vacancies for ICT specialist jobs was lack of ICT related qualifications from education and/or training
+E_ITSPVACW	Enterprises where main reason for hard-to-fill vacancies for ICT specialist jobs was lack of work experience in the field of ICT
+E_ITSPVACS	Enterprises where main reason for hard-to-fill vacancies for ICT specialist jobs was salary requests too high
+E_ITUSRCR	Enterprises who recruited/tried to recruit personnel for jobs requiring skills in the use of ICT, during 2006
+E_ITUSVAC	Enterprises who had hard-to-fill vacancies due to applicants' lack of skills in the use of ICT, during 2006
+E_ITT	Enterprises who provided training to develop/upgrade ICT skills of their personnel
+E_ITSPT	Enterprises who provided training to develop/upgrade ICT skills of their personnel: for ICT/IT specialists
+E_ITUST	Enterprises who provided training to develop/upgrade ICT skills of their personnel: for users of ICT
+E_XFSP	Enterprises where external suppliers performed (fully or partly) ICT functions requiring ICT/IT specialists
+E_XFSPFA	Enterprises where ICT functions were performed by suppliers in a foreign country: by foreign affiliates of the enterprise
+E_XFSPFO	Enterprises where ICT functions were performed by suppliers in a foreign country: by other foreign enterprises
+E_XFSPF	Enterprises where ICT functions were performed by suppliers in a foreign country
+E_XFSPEU	Enterprises where some ICT functions were performed by suppliers in other EU countries
+E_XFSPXEU	Enterprises where some ICT functions were performed by suppliers in non-EU countries
+SHOTHSAL	Share of other networks sales over the last calendar year
+H_IACC	Households with Internet access
+I_IUSE	Frequency of Internet access: once a week (including every day) 
+I_IDAY	Frequency of Internet access: daily
+H_I3G	Households for which the device for Internet access at home is a 3rd generation mobile phone (UMTS)
+H_IPC	Device for Internet access: desktop or portable computer
+H_ITV	Device for Internet access: TV set with Internet device
+I_ICAFE	Internet access in Internet café
+I_IHM	Internet access at home
+I_IWRK	Internet access at place of work
+I_IED	Internet access at place of education
+P_IUSE	Persons employed using computers with access to World Wide Web
+E_IACC	Enterprises with Internet access
+E_WEB	Enterprises having a web site or homepage
+E_EXTRA	Enterprises using Extranet
+E_INTRA	Enterprises using Intranet
+E_TELE	Enterprises with persons employed working part of their time away from enterprise premises and accessing enterprise's IT systems from there
+E_IASS	Enterprises who use the Internet for obtaining after sales services
+E_IBK	Enterprises who use the Internet for banking and financial services
+E_IDIG	Enterprises who use the Internet for receiving digital goods and services
+E_IEDU	Enterprises using e-learning applications for training and education of employees
+E_IMON	Enterprises who use the Internet for market monitoring (e.g. prices)
+I_ICOM	Internet use: communication
+I_IEDU	Internet use: formalised educational activities
+I_IEDUT	Individuals who used Internet, in the last 3 months, for training and education
+I_IUEDUIF	Individuals who have used Internet, in the last 3 months, for looking for information about education, training or course offers
+I_IUOLC	Individuals who have used Internet, in the last 3 months, for doing an online course (of any subject)
+I_IUCLRN	Individuals who have used Internet, in the last 3 months, for consultation with the purpose of learning
+I_IEDUOT	Internet use: other educational courses related to employment opportunities
+I_IEDUPT	Internet use: post educational courses
+I_IGOVIF	Internet use: obtaining information from public authorities
+I_IGOVFM	Internet use: downloading official forms
+I_IGOVRT	Internet use: sending filled forms
+I_IHIF	Internet use: seeking health information
+I_IUBUY	Internet use: purchasing/ordering goods or services (excl. shares, financial services)
+I_IUEDU	Internet use: training and education
+I_IUEM	Internet use: sending/receiving e-mails
+I_IACOM	Individuals who used Internet, in the last 3 months, for advanced communication services
+I_IUFIN	Internet use: other financial services
+I_IUGM	Internet use: playing/downloading games, images, films or music
+I_IUBK	Internet use: Internet banking
+I_IUGOV	Internet use: interacting with public authorities
+I_IUGOV12	Internet use: interaction with public authorities (last 12 months)
+I_IGOV12IF	Internet use: obtaining information from public authorities web sites (last 12 months)
+I_IGOV12FM	Internet use: downloading official forms (last 12 months)
+I_IGOV12RT	Internet use: sending filled forms (last 12 months)
+I_IUHOLS	Internet use: travel and accommodation services
+I_IUIF	Internet use: finding information about goods and services
+I_IUJOB	Internet use: job search or sending an application
+I_IUNW	Internet use: reading/downloading online newspapers/news
+I_IUNWSUB	Individuals who have used Internet, in the last 3 months, to subscribe to news services or products to receive them regularly
+I_IUOTH	Internet use: other communication uses (chat sites, etc.)
+I_IUPH	Internet use: telephoning, videoconferencing
+I_IUSELL	Internet use: selling goods or services
+I_IUSOFT	Internet use: downloading software
+E_IGOV	Enterprises using Internet for interaction with public authorities
+E_IGOVIF	Enterprises using Internet for obtaining information from public authorities
+E_IGOVFM	Enterprises using Internet for obtaining forms from public authorities
+E_IGOVRT	Enterprises using Internet for returning filled in forms to public authorities
+E_IGOVAL	Enterprises using Internet for interaction with public authorities - for full electronic case handling
+E_IGOVPR	Enterprises using Internet for interaction with public authorities - for e-procurement
+I_IHAD	Individuals who used Internet for seeking medical advice online with a practitioner
+I_IHAP	Individuals who used Internet for making an appointment online with a practitioner
+I_IHPR	Individuals who used Internet for requesting a prescription online from a practitioner
+E_OSOPEN	Enterprises using open source operating systems
+E_ETURN	Enterprises' total turnover from e-commerce
+I_BUY3	Last online purchase: in the last 3 months
+E_AESELL	Enterprises having received orders via computer mediated networks
+E_ESELL	Enterprises selling online (at least 1% of turnover)
+E_IRPAY	Enterprises having received on-line payments for Internet sales over the last calendar year
+E_AEBUY	Enterprises having purchased via computer mediated networks
+E_EBUY	Enterprises purchasing online (at least 1% of orders)
+E_ECOM	Enterprises having sent or received orders via any computer networks
+I_SECFRD	Individuals who have, in the last 12 months, experienced the following security problem: Fraudulent payment (credit or debit) card use
+I_SECPIF	Individuals who have, in the last 12 months, experienced the following security problem: Abuse of personal information sent on the Internet
+I_SECVIR	Individuals who have, in the last 12 months, experienced the following security problem: Computer virus resulting in loss of information or time
+E_SEPBAC	Enterprises having encountered the following security problem in the last 12 months: unauthorized access
+E_SEPBBM	Enterprises having encountered security problems in the last 12 months: blackmail or threats
+E_SEPBVI	Enterprises having encountered the following security problem in the last 12 months: computer virus attack
+E_SECPRB	Enterprises having encountered any security problem listed in the last 12 months
+I_SECIAV	Individuals who have, in the last 3 months, installed a virus checking program
+I_SECOLA	Individuals who have, in the last 3 months, used on-line authentication (password, PIN, digital signature) on the Internet
+E_SECPRE	Enterprises having taken ICT precautions
+E_SECUP	Enterprises that have installed security devices on their PCs and updated them within the last three months
+I_SECUAV	Individuals who have, in the last 3 months, updated a virus checking program
+E_BROAD	Enterprises Internet connection: fixed broadband access
+E_BROAD2	Enterprises with broadband access (fixed or mobile)
+H_BROAD	Household Internet connection type: broadband
+H_LAN	Households using a LAN (wireless or cable)
+I131	Number of broadband access lines
+I132	Broadband penetration rate (%)
+H_IPALM	Device for Internet access: handheld computer
+H_IMB	Households for which the device for Internet access at home is a mobile device
+H_IMPH	Device for Internet access: mobile phone (GPRS, UMTS)
+E_CUSE	Enterprises using computers
+E_LAN	Enterprises using internal network (e.g. LAN)
+E_WLAN	Enterprises using wireless LAN
+E_LANEX	Enterprises using LAN and Intranet or extranet in reference year
+E_TECH1	Enterprises using at least either intranet, or extranet, or lan, or wireless lan
+E_TECH0	Enterprises using neither intranet, nor extranet, nor lan, nor wireless lan
+E_MOD	Enterprises connecting to the Internet via modem (dial-up access over normal telephone line)
+E_ISDN	Enterprises connecting to the Internet via ISDN
+E_DSLS	Enterprises connecting to the Internet via DSL (< 2 Mb/sec)
+E_BBOTH	Enterprises Internet connection type: another fixed connection (e.g. cable)
+E_WIRE	Enterprises connecting to the Internet via wireless connection (satellite, mobile phone)
+E_DSL	Enterprises Internet connection type: DSL
+P_CUSE	Persons employed using computers
+P_IACC	Persons employed working in an enterprise with access to Internet
+P_MOD	Persons employed connecting to the Internet via modem (dial-up access over normal telephone line)
+P_ISDN	Persons employed connecting to the Internet via ISDN
+P_DSLS	Persons employed connecting to the Internet via DSL (< 2 Mb/sec)
+P_BBOTH	Persons employed connecting to the Internet via another fixed connection (e.g. cable etc.)
+P_WIRE	Persons employed connecting to the Internet via wireless connection (satellite, mobile phone)
+P_DSL	Persons employed connecting to the Internet via DSL
+P_BROAD	Persons employed connecting to Internet via fixed broadband
+T101	Persons employed, total,(FTE)
+T1011	Persons employed (average of the year, NBR)
+T201	Total gross investment in tangible goods
+T202	Total gross investment in intangible goods
+T301	Total turnover from telecommunication services
+T302	Turnover/revenues from leased lines
+T303	Turnover/revenues from fixed network services
+T304	Turnover/revenues from cellular mobile telecommunication services
+T305	Turnover/revenues from interconnection services
+T306	Turnover/revenues from provision of Internet services
+T307	Turnover/revenues for external services
+T308	Turnover/revenues from Roaming
+T401	Receipts of telecommunication services - International incoming traffic
+T402	Payments of telecommunication services - International outgoing traffic
+T403	International incoming calls
+T404	International outgoing calls
+T405	International roaming calls
+T500	Total outgoing traffic of all networks
+T501	National calls (local + long distance)
+T502	Local calls
+T503	National long distance calls
+T504	Cellular mobile calls
+T5041	UMTS volume (Mio.kBytes)
+T505	Internet calls, minutes of connection
+T506	Calls from fixed to mobile networks
+T507	Calls from mobile to fixed networks
+T508	Calls within mobile networks
+T509	Calls from mobile to mobile networks.
+T510	Number of SMS
+T511	Number Added-value SMS
+T512	Nummber of MMS
+T513	VoIP calls
+T514	Downloads from the Internet
+T515	Data transfers in mobile broadband networks
+T516	Mobile broadband downloads
+T601	Number of main telephone lines
+T6011	Number of PSTN lines
+T602	Households' share of the main telephone lines(in %)
+T603	Number of leased lines
+T604	ISDN - Integrated services digital network subscriptions
+T605	xDSL subscriptions
+T606	Subscriptions to cellular mobile services
+T607	Internet subscriptions
+T608	Subscriptions to cable networks enabling Internet use (cable modem)
+T609	DSL subcriptions, capacity less than 2Mbit/s
+T610	DSL subcriptions, capacity 2 Mbit/s or more
+T611	PLC - Number of Power Line Communication Connections
+T612	Mobile broadband subcriptions (earlier: UMTS)
+T613	VoIP - Users of Voice over Internet Protocol Telephony
+T614	Fixed wireless: Number of active broadband subscriptions using fixed wireless access services.
+T615	Fibre optic internet subscriptions
+T700	Total number of fixed network operators
+T701	Fixed network operators offering local telecommunications
+T7011	Facilities based operators
+T702	Fixed network operators offering national long distance telecommunications
+T703	Operators offering international telecommunications
+T704	Cellular mobile operators
+T7041	Mobile resale operators, except satellite
+T7042	UMTS operators
+T705	Cable operators
+T706	Internet service providers
+T707	Satellite Operators
+I101	Local calls (10 minutes)
+I102	National long distance calls (10 minutes)
+I103	International calls to USA (10 minutes)
+I110	Incumbent operator in fixed telecommunications  - national calls (from 2006)
+I111	Incumbent operator in fixed telecommunications - local calls (incl. to the internet) (2001 - 2005)
+I112	Incumbent operator in fixed telecommunications - national long distance calls (2001 - 2005)
+I113	Incumbent operator in fixed telecommunications - international calls
+I114	Leading operator in mobile telecommunications
+I115	Incumbent operator in fixed telecommunications - national calls (local + national long distance calls) (from 2006)
+H_MPH	Households having access to, via one of its members, an Internet enabled mobile phone / 'Communicator' type device
+H_ALLMPH	Households having access to, via one of its members, a mobile phone
+H_TV	Households having access to, via one of its members, a TV
+H_SAT	Households having access to, via one of its members, a Satellite dish
+H_CABTV	Households having access, via one of its members, to a Cable TV
+H_GAME	Households having access, via one of its members, a games console
+H_PC	Households having access to, via one of its members, a Personal computer
+H_PALM	Households having access to, via one of its members, a handheld computer (palmtop)
+H_IGAME	Device for Internet access: games console
+H_IPCQ	Device for Internet access: only desktop or portable computer
+H_ITVQ	Device for Internet access: only TV set with Internet device
+H_IMBQ	Households for which the only device for Internet access at home is a mobile device
+H_IPALMQ	Device for Internet access: only handheld computer
+H_IMPHQ	Device for Internet access: only mobile phone (GPRS, UMTS)
+I_B3_12	Last online purchase: between 3 and 12 months ago
+I_BLT12	Last online purchase: in the 12 months
+I_BUMT12	Last online purchase: more than a year ago
+I_BUMT12X	Individuals who ordered goods or services, over the Internet, for private use, more than a year ago or have never ordered
+I_BUX	Individuals who never ordered goods or services, over the Internet, for private use
+I_BFOOD	Online purchases: Food/groceries
+I_BFURN	Online purchases: household goods
+I_BFILM	Online purchases: films/music
+I_BBOOK	Online purchases: books/magazines/e-learning material
+I_BCLOT	Online purchases: clothes, sports goods
+I_BSOFT	Online purchases: computer software
+I_BGOOD	Online purchases: films/music or books/magazines/e-learning material or computer software
+I_BHARD	Online purchases: computer hardware
+I_BEEQU	Online purchases: electronic equipment
+I_BFIN	Online purchases: shares/financial services/insurance
+I_BTICK	Online purchases: tickets for events
+I_BBET	Individuals who played lotteries or bet  over the Internet in the last 12 months
+I_BOTHTH	Online purchases: others
+I_BFILMO	Online purchases: films/music, delivered or upgraded online
+I_BBOOKO	Online purchases: books/magazines/e-learning material, delivered or upgraded online
+I_BSOFTO	Online purchases: computer software, delivered or upgraded online
+I_BGOODO	Online purchases: films/music or books/magazines/e-learning material or computer software, delivered or upgraded online
+I_BPHY	Individuals who ordered goods over the Internet from retailers known outside the Internet (physical store, catalogue)
+I_BVIR	Individuals who ordered goods over the Internet from retailers known from the Internet or found on the Internet
+I_BFDOM	Individuals who ordered goods or services over the Internet from national sellers in the last 12 months
+I_BFEU	Individuals who ordered goods or services over the Internet from sellers from other EU countries in the last 12 months
+I_BFWRLD	Individuals who ordered goods or services over the Internet from sellers from the rest of the world (non-EU) in the last 12 months
+I_BFUNK	Individuals who ordered goods or services over the Internet from sellers with unknown country of origin the last 12 months
+I_BHOLS	Individuals who booked travel and holiday accommodation over the Internet in the last 12 months
+I_BMED	Individuals who ordered medecine over the Internet in the last 12 months
+I_BTS	Individuals who ordered telecom services (e.g.TV, broadband or subscription, uploading money on prepaid phone cards...) over the Internet in the last 12 months
+I_BGUA	Individuals who encountered the following problem when making purchases over the Internet: Difficulties concerning guarantees
+I_BSPD	Individuals who encountered the following problem when making purchases over the Internet: Speed of delivery longer than indicated
+I_BDC	Individuals who encountered the following problem when making purchases over the Internet: Delivery costs higher than indicated
+I_BPRC	Individuals who encountered the following problem when making purchases over the Internet: Final price higher than indicated
+I_BCPR	Individuals who encountered the following problem when making purchases over the Internet: Delivery costs or final price higher than indicated
+I_BWRG	Individuals who encountered the following problem when making purchases over the Internet: Wrong goods delivered
+I_BDAM	Individuals who encountered the following problem when making purchases over the Internet: Damaged goods delivered
+I_BWD	Individuals who encountered the following problem when making purchases over the Internet: Wrong or damaged goods delivered
+I_BWDN	Individuals who encountered the following problem when buying/ordering over the Internet: wrong or damaged good/services delivered
+I_BSEC	Individuals who encountered the following problem when making purchases over the Internet: Lack of security of payments
+I_BFRA	Individuals who encountered the following problem when buying/ordering over the Internet: problems with fraud
+I_BCOM	Individuals who encountered the following problem when making purchases over the Internet: Complaints and redress were difficult
+I_BRES	Individuals who encountered the following problem when making purchases over the Internet: No satisfactory response received after complaint
+I_BCR	Individuals who encountered the following problem when making purchases over the Internet: Complaints and redress were difficult or no satisfactory response received after complaint
+I_BOTH	Individuals who encountered the following problem when making purchases over the Internet: Other
+I_B0	Individuals who encountered no problems when making purchases over the Internet
+I_BTFW	Individuals who encountered the following problem when buying/ordering over the Internet: technical failure
+I_BDGL	Individuals who encountered the following problem when buying/ordering over the Internet: difficulties finding information concerning guarantees, other legal rights
+I_BARRY	Individuals who encountered problems when buying/ordering goods or services over the Internet for private use
+I_BARRX	Individuals who did not encounter problems when buying/ordering goods or services over the Internet for private use
+I_NBNEC	Individuals who, in the last 12 months, haven't ordered goods or services over the Internet, because they have no need
+I_NBSHAB	Individuals who, in the last 12 months, haven't ordered goods or services over the Internet, because they prefer to shop in person, they like to see product, loyalty to shops or force of habit
+I_NBIDF	Individuals who, in the last 12 months, haven't bought / ordered goods or services over the Internet for their own private use, because: Relevant information about goods and services difficult to find on website
+I_NBSKL	Individuals who, in the last 12 months, haven't ordered goods or services over the Internet, because they lack the necessary skills
+I_NBEXP	Individuals who, in the last 12 months, haven't ordered goods or services over the Internet, because it's too expensive
+I_NBSPD	Individuals who, in the last 12 months, haven't ordered goods or services over the Internet, because of too long delivery times
+I_NBREC	Individuals who, in the last 12 months, haven't ordered goods or services over the Internet, because of problems receiving the ordered goods at home
+I_NBSR	Individuals who, in the last 12 months, haven't ordered goods or services over the Internet, because of too long delivery times or because of the problematic to receive the ordered goods at home
+I_NBPSC	Individuals who, in the last 12 months, haven't bought / ordered goods or services over the Internet for their own private use, because: Payment security concerns
+I_NBPRC	Individuals who, in the last 12 months, haven't bought / ordered goods or services over the Internet for their own private use, because: Privacy concerns
+I_NBSEC	Individuals who, in the last 12 months, haven't ordered goods or services over the Internet, because of security concerns, they are  worried about giving credit card details over the Internet
+I_NBPRV	Individuals who, in the last 12 months, haven't ordered goods or services over the Internet, because of privacy concerns, they are worried about giving personal details over the Internet
+I_NBSEPR	Individuals who, in the last 12 months, haven't ordered goods or services over the Internet, because I'm worried about giving credit card or personal details over the Internet
+I_NBTRCM	Individuals who, in the last 12 months, haven't ordered goods or services over the Internet, because of trust concerns about receiving or returning goods, complaint / redress concerns
+I_NBCARD	Individuals who, in the last 12 months, haven't ordered goods or services over the Internet, because they don't have a payment card
+I_NBSLOW	Individuals who, in the last 12 months, haven't ordered goods or services over the Internet, because the speed of the Internet connection is too low
+I_NBOTH	Individuals who, in the last 12 months, haven't ordered goods or services over the Internet, because of other reasons
+H_IGAMEQ	Device for Internet access: only games console
+H_MOD	Households using a modem (dial-up access over normal telephone line)
+H_ISDN	Households using an ISDN connection
+H_DSL	Household Internet connection type: DSL
+H_DSLF	Households using a DSL (xDSL, ADSL, SDSL, etc) connection (>= 2 Mb/s)
+H_DSLS	Households using a DSL (xDSL, ADSL, SDSL, etc) connection (< 2 Mb/s)
+H_BBOTH	Household Internet connection type: other broadband
+H_WIRE	Households using a wireless connection (e.g. satellite, mobile phone)
+H_DIALUP	Household Internet connection type: modem or ISDN
+H_MPHNAR	Household Internet connection type: mobile phone over narrowband
+I_CLT12	Last computer use: within last 12 months
+I_C3	Last computer use: within last 3 months
+I_C3_12	Last computer use: between 3 and 12 months ago
+I_CMT12	Individuals who used a computer more than a year ago, or have never used one
+I_CUX	Computer use: never
+I_CDAY	Frequency of computer use: daily
+I_CWK	Frequency of computer use: at least one a week
+I_CMTH	Frequency of computer use: at least once a month
+I_CLTMTH	Frequency of computer use: less than once a month
+I_CH	Computer use: at home
+I_CW	Computer use: at work
+I_CED	Computer use: at place of education
+I_COH	Computer use: at other people's houses
+I_COTH	Computer use: at other places
+I_CCAFE	Individuals who used a computer in an Internet café in the last 3 months
+I_CWQ	Computer use: at work, but not at any other place
+I_CEDQ	Computer use: at place of educaton, but not at any other place
+I_ILT12	Last Internet use: in the last 12 months
+I_IU3	Last Internet use: in last 3 months
+I_I3_12	Last Internet use: between 3 and 12 months ago
+I_IMT12	Individuals who used the Internet more than a year ago or never used it
+I_IUX	Internet use: never
+I_IWK	Frequency of Internet access: at least once a week (but not every day)
+I_IMTH	Frequency of Internet access: at least once a month
+I_ILTMTH	Frequency of Internet access: less than once a month
+I_ILIB	Internet access at public library
+I_IPO	Internet access at postal office
+I_IGOV	Internet access at public office, town hall, government agency
+I_IVOL	Internet access at community or voluntary organisation
+I_IOH	Internet access at other people's houses
+I_IOTH	Internet access at other places
+I_IUMOB1	Individuals accessing Internet through mobile devices away from home or work
+I_IHMQ	Internet access only at home
+I_IWRKQ	Internet access only at place of work
+I_IEDQ	Internet access only at place of ecucation
+I_IOTHQ	Internet access only at other places
+I_ILIBQ	Internet access only at public library
+I_IPOQ	Internet access only at postal office
+I_IGOVQ	Internet access only at public office, town hall, government agency
+I_IVOLQ	Internet access only at community or voluntary organisation
+I_ICAFEQ	Internet access only in Internet café
+I_IOHQ	Internet access only at other people's houses
+I_IHOT	Individuals who accessed Internet in a hotspot (at hotels, airports, public places etc) in the last 3 months
+E_IBUY	Enterprises which have ordered via Internet over the last calendar year (excluding manually typed e-mails)
+E_IBUYX	Enterprises which have not ordered via Internet over the last calendar year
+E_IBUY-1	Enterprises for whom Internet purchases are less than 1% of orders over the last calendar year
+E_IBUY1	Enterprises for whom Internet purchases are at least 1% of orders over the last calendar year
+E_IBUY10	Enterprises for whom Internet purchases are at least 10% of orders over the last calendar year
+E_IBUY25	Enterprises for whom Internet purchases are at least 25% of orders over the last calendar year
+E_OBUY	Enterprises which used EDI or networks other than Internet for at least 1% of their purchases over the last calendar year
+E_OBUYX	Enterprises which did not use EDI nor networks other than Internet for at least 1% of their purchases over the last calendar year
+E_OBUY10	Enterprises for whom EDI or networks other than Internet for purchases were at least 10% of orders over the last calendar year
+E_OBUY25	Enterprises for whom EDI or networks other than Internet for purchases were at least 25% of orders over the last calendar year
+E_OBUY50	Enterprises for whom EDI or networks other than Internet for purchases were at least 50% of orders over the last calendar year
+E_ISELL	Enterprises which have received orders via Internet over the last calendar year (excluding manually typed e-mails)
+E_ISELLX	Enterprises which have not received orders via Internet over the last calendar year
+E_ISEL10	Enterprises for whom Internet sales were at least 10% of orders over the last calendar year
+E_ISEL25	Enterprises for whom Internet sales were at least 25% of orders over the last calendar year
+E_ISEL50	Enterprises for whom Internet sales were at least 50% of orders over the last calendar year
+E_ISB2B	Enterprises which have sold products via specialised B2B market places over the last calendar year
+E_ISB2BX	Enterprises which have not sold products via specialised B2B market places over the last calendar year
+E_OSELL	Enterprises which use EDI or networks other than Internet for at least 1% of their sales over the last calendar year
+E_OSELLX	Enterprises which do not use EDI nor networks other than Internet for at least 1% of their sales over the last calendar year
+E_OSEL10	Enterprises for whom EDI or networks other than Internet for sales were at least 10% of orders over the last calendar year
+E_OSEL25	Enterprises for whom EDI or networks other than Internet for sales were at least 25% of orders over the last calendar year
+E_OSEL50	Enterprises for whom EDI or networks other than Internet for sales were at least 50% of orders over the last calendar year
+E_IBVAL	Internet purchases over the last calendar year, excluding VAT, as a percentage of total purchases
+E_OBVAL	Total purchases via networks other than the Internet over the last calendar year, excluding VAT, as a percentage of total purchases
+E_ISVAL	Total Internet sales over the last calendar year, excluding VAT, as a percentage of total turnover
+E_OSVAL	Total sales via networks other than the Internet over the last calendar year, excluding VAT, as a percentage of total turnover
+E_ISB2BV	Internet sales over the last calendar year- Business to Business/Government, as a percentage of total turnover
+E_ISB2CV	Internet sales over the last calendar year- Business to Customer, as a percentage of total turnover
+E_SELLHM	Internet sales over the last calendar year- to own country, as a percentage of total turnover
+E_SELLEU	Internet sales over the last calendar year- to other EU countries, as a percentage of total turnover
+E_SELLWW	Internet sales over the last calendar year- to rest of the world, as a percentage of total turnover
+E_SECPRO	Enterprises offering secure transactions when receiving orders over Internet
+E_HRS	Enterprises using dedicated applications for employees to access human resources services
+E_DIGSIGN	Enterprises using advanced e-signatures in relations with suppliers / clients
+I_CT3	Last computer course: in the last 3 months
+I_CT3_12	Last computer course: between 3 and 12 months
+I_CTLT12	Last computer course: in the last 12 months
+I_CT1_3Y	Last computer course: between 1 and 3 years ago
+I_CTMT3Y	Last computer course: more than 3 years ago
+I_CTX	Individuals who have never taken a computer course
+I_CMS	Individuals who have used a mouse to launch programs such as an Internet browser or word processor
+I_CCPY	Individuals who have copied or moved a file or folder
+I_CCPPS	Individuals who have used copy or cut and paste tools to duplicate or move information on screen
+I_CSUM	Individuals who have used basic arithmetic formulae to add, subtract, multiply or divide figures in a spreadsheet
+I_CZIP	Individuals who have compressed files
+I_CPRG	Individuals who have written a computer program using a specialised programming language
+I_CINS	Individuals who have connected and installed new devices, eg a printer or a modem
+I_CLAN	Individuals who have connected computers to a local area network
+I_CSOLV	Individuals who have detected and solved computer problems (e.g. computer runs slowly)
+I_C0	Individuals who have not done any of i_cms, i_ccpy, i_ccpps, i_csum, i_czip, i_cprg
+I_CSK_LO	Individuals who have carried out 1 or 2 of the computer related activities
+I_CSK_ME	Individuals who have carried out 3 or 4 of the computer related activities
+I_CSK_HI	Individuals who have carried out 5 or 6 of the computer related activities
+I_CLAN_HI	Individuals who have connected computers to a local area network and carried out 5 or 6 of the computer related activities
+I_CSOLV_HI	Individuals who have detected and solved computer problems and carried out 5 or 6 of the computer related activities
+I_CSKSF	Individuals who judge their computer skills to be sufficient if they were to look for a job or change jobs within a year
+I_CSKSFX	Individuals who judge their computer skills to be insufficient if they were to look for a job or change jobs within a year
+I_ISRCH	Individuals who have used a search engine to find information
+I_CEM	Individuals who have sent an email with attached files
+I_ICHAT	Individuals who have posted messages to chat rooms, newsgroups or an online discussion forum
+I_IPHONE	Individuals who have used the Internet to make phone calls
+I_IEXCH	Individuals who have used peer-to-peer file sharing for exchanging movies, music, etc.
+I_CWEB	Individuals who have created a Web page
+I_FDISOFT	Individuals who have found, downloaded and installed software
+I_VIRSPYX	Individuals who have kept viruses, spyware and adware off their computer
+I_I0	Individuals who have not used any of i_isrch, i_cem, i_ichat, i_iphone, i_iexch or i_cweb
+I_ISK_LO	Individuals who have carried out 1 or 2 of the Internet related activities
+I_ISK_ME	Individuals who have carried out 3 or 4 of the Internet related activities
+I_ISK_HI	Individuals who have carried out 5 or 6 of the Internet related activities
+I_FDISOFT_HI	Individuals who have found, downloaded and installed software and carried out 5 or 6 of the Internet related activities
+I_VIRSPYX_HI	Individuals who have kept viruses, spyware and adware off their computer and carried out 5 or 6 of the Internet related activities
+I_SKEDU	Individuals who have obtained IT skills through formalised educational institution (school, college, university, etc.)
+I_SKOWN	Individuals who have obtained IT skills through training courses and adult education centres, on own initiative
+I_SKMP	Individuals who have obtained IT skills through training courses and adult education centres, on demand of employer
+I_SKSLFB	Individuals who have obtained IT skills through self-study using books, cd-roms, etc.
+I_SKLFD	Individuals who have obtained IT skills through self-study (learning by doing)
+I_SKCOLL	Individuals who have obtained IT skills through informal assistance from colleagues, relatives in friends and some other ways
+I_SKOTH	Individuals who have obtained IT skills through some other way than i_skedu, i_sktown, i_sktemp, i_skslfb, i_skslfd, i_skcoll
+I_SKE_LO	Individuals who have obtained IT skills through formalised educational institution (school, college, university, etc.) and have carried out 1 or 2 of the computer related activities
+I_SKO_LO	Individuals who have obtained IT skills through training courses and adult education centres, on own initiative and have carried out 1 or 2 of the computer related activities
+I_SKM_LO	Individuals who have obtained IT skills through training courses and adult education centres, on demand of employer and have carried out 1 or 2 of the computer related activities
+I_SKS_LO	Individuals who have obtained IT skills through self-study using books, cd-roms, etc. and have carried out 1 or 2 of the computer related activities
+I_SKL_LO	Individuals who have obtained IT skills through self-study (learning by doing) and have carried out 1 or 2 of the computer related activities
+I_SKC_LO	Individuals who have obtained IT skills through informal assistance from colleagues, relatives in friends and some other ways and have carried out 1 or 2 of the computer related activities
+I_SKT_LO	Individuals who have obtained IT skills through some other way than i_skedu, i_sktown, i_sktemp, i_skslfb, i_skslfd, i_skcoll and have carried out 1 or 2 of the computer related activities
+I_SKE_ME	Individuals who have obtained IT skills through formalised educational institution (school, college, university, etc.) and have carried out 3 or 4 of the computer related activities
+I_SKO_ME	Individuals who have obtained IT skills through training courses and adult education centres, on own initiative and have carried out 3 or 4 of the computer related activities
+I_SKM_ME	Individuals who have obtained IT skills through training courses and adult education centres, on demand of employer and have carried out 3 or 4 of the computer related activities
+I_SKS_ME	Individuals who have obtained IT skills through self-study using books, cd-roms, etc. and have carried out 3 or 4 of the computer related activities
+I_SKL_ME	Individuals who have obtained IT skills through self-study (learning by doing) and have carried out 3 or 4 of the computer related activities
+I_SKC_ME	Individuals who have obtained IT skills through informal assistance from colleagues, relatives in friends and some other ways and have carried out 3 or 4 of the computer related activities
+I_SKT_ME	Individuals who have obtained IT skills through some other way than i_skedu, i_sktown, i_sktemp, i_skslfb, i_skslfd, i_skcoll and have carried out 3 or 4 of the computer related activities
+I_SKE_HI	Individuals who have obtained IT skills through formalised educational institution (school, college, university, etc.) and have carried out 5 or 6 of the computer related activities
+I_SKO_HI	Individuals who have obtained IT skills through training courses and adult education centres, on own initiative and have carried out 5 or 6 of the computer related activities
+I_SKM_HI	Individuals who have obtained IT skills through training courses and adult education centres, on demand of employer and have carried out 5 or 6 of the computer related activities
+I_SKS_HI	Individuals who have obtained IT skills through self-study using books, cd-roms, etc. and have carried out 5 or 6 of the computer related activities
+I_SKL_HI	Individuals who have obtained IT skills through self-study (learning by doing) and have carried out 5 or 6 of the computer related activities
+I_SKC_HI	Individuals who have obtained IT skills through informal assistance from colleagues, relatives in friends and some other ways and have carried out 5 or 6 of the computer related activities
+I_SKT_HI	Individuals who have obtained IT skills through some other way than i_skedu, i_sktown, i_sktemp, i_skslfb, i_skslfd, i_skcoll and have carried out 5 or 6 of the computer related activities
+I_CTNNSKL	Individuals who do not need to take a computer course because their computer skills are sufficient
+I_CTNNCUX	Individuals who do not need to take a computer course because they rarely use computers
+I_CTBTIME	Individuals who have not taken a computer course because of lack of time
+I_CTBCOST	Individuals who have not taken a computer course because of the course costs
+I_CTBOFFER	Individuals who have not taken a computer course because there is no suitable offer available
+I_CTBDIFF	Individuals who have not taken a computer course because the courses are too difficult
+I_CTBOTH	Individuals who have not taken a computer course because of other reasons
+P_TELE	Percentage of persons employed working part of their time away from enterprise premises and accessing enterprise's IT systems from there
+E_TELEX	Enterprises with no persons employed working part of their time away from enterprise premises and accessing enterprise's IT systems from there
+E_TELEHM	Enterprises with persons employed working part of their time away from enterprise premises and accessing enterprise's IT systems - from home
+E_TELECUS	Enterprises with persons employed working part of their time away from enterprise premises and accessing enterprise's IT systems -  from customers or other business partners' premises
+E_TELERM	Enterprises with persons employed working part of their time away from enterprise premises and accessing enterprise's IT systems - from other locations of same enterprise or group
+E_TELEBUS	Enterprises with persons employed working part of their time away from enterprise premises and accessing enterprise's IT systems - during business travel, from hotel, airport, etc
+E_ITDIF	Enterprises which had difficulties in recruiting personnel with ICT skills
+E_ITDIFN	Enterprises which had no need to recruit personnel with ICT skills
+E_ITDIFX	Enterprises which did not have difficulties in recruiting personnel with ICT skills
+E_ITCST	Enterprises where the problems trying to recruit personnel were high remuneration costs of ICT specialists
+E_ITCSTX	Enterprises where the problems trying to recruit personnel were not high remuneration costs of ICT specialists
+E_ITPNA	Enterprises where the problems trying to recruit personnel were that personnel with required skills in the use of ICT applications were not available or not entirely suitable
+E_ITPNAX	Enterprises where the problems trying to recruit personnel were not that personnel with required skills in the use of ICT applications were not available or not entirely suitable
+E_ITSNA	Enterprises where the problems trying to recruit personnel were that ICT specialists were not available or not entirely suitable
+E_ITSNAX	Enterprises where the problems trying to recruit personnel were not that ICT specialists were not available or not entirely suitable
+E_ITLNK	Enterprises having IT systems for orders and purchases which link to internal IT systems (re-ordering, invoicing, payment, managing production, logistics or service operations)
+E_ITLNKX	Enterprises not having IT systems for orders and purchases which link to internal IT systems (re-ordering, invoicing, payment, managing production, logistics or service operations)
+E_LNKORD	Enterprises having IT systems for orders and purchases which link to internal IT systems for re-ordering replacement supplies
+E_LNKPAY	Enterprises having IT systems for orders and purchases which link to invoicing and payment systems
+E_LNKPLS	Enterprises having IT systems for orders and purchases which link to system for managing production, logistics or service operations
+E_ITLNKE	Enterprises having IT systems for orders and purchases which link to IT systems of suppliers or customers outside the enterprise group
+E_ITLNKEX	Enterprises not having IT systems for orders and purchases which link to IT systems of suppliers or customers outside the enterprise group
+E_LNKSUP	Enterprises having IT systems for orders and purchases which link to Suppliers' business systems outside the own enterprise group
+E_LNKCUS	Enterprises having IT systems for orders and purchases which link to Customers' business systems outside the own enterprise group
+H_XACC	Households without access to Internet at home, because the access costs are too high (telephone, etc.)
+H_XDIS	Households without access to Internet at home, because of a physical disability
+H_XELSE	Households without access to Internet at home, because of access elsewhere
+H_XEQU	Households without access to Internet at home, because the equipment costs are too high
+H_XNEED	Households without access to Internet at home, because access not needed (content is not useful, not interesting, etc.)
+H_XSEC	Households without access to Internet at home, because of privacy or security concerns
+H_XSKL	Households without access to Internet at home, because of lack of skills
+H_XWANT	Households without access to Internet at home, because access not wanted (content is harmful, etc.)
+H_XOTH	Households without access to Internet at home, because of other reasons
+H_XBBEXP	Households without broadband connection because it is too expensive
+H_XBBNEED	Households without broadband connection because they do not need it
+H_XBBNA	Households without broadband connection because it is not available in the area
+H_XBBEW	Households without broadband connection because some members can access broadband somewhere else (e.g. at work)
+H_XBBOTH	Households without broadband connection because of other reasons
+I_UMPH	Individuals who use a mobile phone
+I_UMPHX	Individuals who do not use a mobile phone
+I_IUMPH	Individuals who access the Internet with a mobile phone via WAP or GPRS
+I_IUPALM	Individuals who access the Internet with a handheld computer (palmtop, PDA)
+I_IUMBX	Individuals who don't use mobile phone with WAP, GPRS or UMTS nor handheld computer (palmtop, PDA) to access the Internet
+H_COMP	Households having access to, via one of its members, a computer
+E_ERP	Enterprises who have ERP software package to share information on sales/purchases with other internal functional areas
+E_ERP1	Enterprises who have ERP software package to share information between different functional areas
+E_CRM	Enterprises using software solutions like Customer Relationship Management (CRM)
+E_CRMAN	Enterprises using Customer Relationship Management to analyse information about clients for marketing purposes
+E_CRMSTR	Enterprises using Customer Relationship Management to capture, store and make available clients information to other business functions
+E_ADE	Enterprises using automated data exchange with other ICT systems outside the own enterprise
+E_ADECU	Enterprises using automated data exchange for receiving orders from customers
+E_ADEGOV	Enterprises using automated data exchange for sending or receiving data to / from public authorities
+E_ADEINFO	Enterprises using automated data exchange for sending or receiving product information
+E_ADEPAY	Enterprises using automated data exchange for sending payment instructions to financial institutions
+E_ADETDOC	Enterprises using automated data exchange for sending or receiving transport documents
+E_ADESU	Enterprises using automated data exchange for sending orders to suppliers
+E_ADESUCU	Enterprises using automated data exchange for sending orders to suppliers or receiving orders from customers
+E_SIEXT	Enterprises who share electronically information suitable for automatic processing with external business partners or on the SCM with suppliers or customers
+E_SIEXTINT	Enterprises who share electronically information suitable for automatic processing within the enterprise and with external business partners
+E_SICUIPF	Enterprises who regularly share electronically information with customers on inventories, production plans or demand forecasts
+E_SICUPDE	Enterprises who regularly share electronically information with customers on progress of deliveries
+E_SISC	Enterprises whose business processes are automatically linked to those of their suppliers and/or customers
+E_SISUIPF	Enterprises who regularly share electronically information with suppliers on inventories, production plans or demand forecasts
+E_SISUPDE	Enterprises who regularly share electronically information with suppliers on progress of deliveries
+E_SISUCU	Enterprises whose business processes are automatically linked to those of their suppliers and customers
+E_SISUCU2	Enterprises who share electronically information with suppliers and customers on inventory levels, production plans, demand forecasts or progress of deliveries
+E_INV	Enterprises sending and/or receiving e-invoices
+E_INVREC	Enterprises receiving e-invoices
+E_INVSND	Enterprises sending e-invoices
+E_SISA	Enterprises who share electronically information on sales with the software used for any internal function
+E_SIPU	Enterprises who share electronically information on purchases with the software used for any internal function
+E_SISORP	Enterprises who share electronically information on sales or on purchases with the software used for any internal function
+E_SISNP	Enterprises who share electronically information on sales and on purchases with the software used for any internal function
+E_SIINT	Enterprises who share electronically information within the enterprise
+E_MOB	Enterprises connecting to the Internet via a mobile connection (e.g. mobile phone, GPRS, UMTS, etc.) 
+E_MOB2	Enterprises connecting to the Internet via mobile connection (broadband or other mobile connection)
+E_WEBACC	Enterprises with website providing product catalogues or price lists
+E_WEBPRV	Enterprises where the website provided a private policy statement, a privacy seal or certification related to website safety
+E_WEBVAC	Enterprises where the website provided advertisement of open job positions or online job application
+E_WEBORD	Enterprises where the website provided online ordering or reservation or booking, e.g. shopping cart
+E_WEBOT	Enterprises where the website provided order tracking available online
+E_AEBHM	Enterprises having regularly sent e-commerce orders via computer networks to suppliers located in the own country in the last calender year
+E_AEBEU	Enterprises having regularly sent e-commerce orders via computer networks to suppliers located in other EU countries in the last calender year
+E_AEBWW	Enterprises having regularly sent e-commerce orders via computer networks to suppliers located in the rest of the world in the last calender year
+E_AESHM	Enterprises having done electronic sales to the own country in the last calender year
+E_AESEU	Enterprises having done electronic sales to other EU countries in the last calender year
+E_AESWW	Enterprises having done electronic sales to the rest of the world in the last calender year
+E_AESVHM	Enterprises' electronic sales to own country in the last calender year
+E_AESVEU	Enterprises' electronic sales to other EU country in the last calender year
+E_AESVWW	Enterprises' electronic sales to the rest of the world in the last calender year
+E_RFID	Enterprises using Radio Frequency Identification (RFID) technologies
+E_RFPRI	Enterprises using RFID technologies for product identification
+E_RFMC	Enterprises using RFID technologies for monitoring and control of industrial production
+E_RFSC	Enterprises using RFID technologies for supply chain and inventory tracking and tracing
+E_RFSM	Enterprises using RFID technologies for service and maintenance information management, asset management
+E_RFPA	Enterprises using RFID technologies for payment applications (e.g. highway tolls, passenger transport)
+E_RFAC	Enterprises using RFID technologies for person identification or access control
+H_IOTHDV	Households for which the device for Internet access at home is some other mobile device
+I_IU3G	Individuals accessing Internet through a mobile phone via UMTS (3G)
+I_IUPORT	Individuals using portable computer (laptop) via mobile WiFi or cellular networks to access Internet away from home or work
+IC_VAL	Percentage of the ICT sector value added at factor cost in value added at factor cost of All NACE branches - Total (National Accounts)
+IC_EM	Percentage of the ICT personnel on total employment (National Accounts)
+IC_GR	Percentage change of value added of the ICT sector at factor cost current prices from previous year
+IC_SK	Percentage of persons employed with ICT user skills in total employment
+IC_SP	Percentage of persons employed with ICT specialist skills in total employment
+IC_RDE	R&D expenditure (BERD) of businesses in ICT sector as % of total R&D expenditure
+IC_RDP	R&D personnel in ICT sector as % of total R&D personnel
+I_IUPHO	Individuals who used Internet, in the last 3 months, for telephoning over the Internet
+I_IUVC	Individuals who used Internet, in the last 3 months, for video calls (via webcam) over the Internet
+I_IUPH1	Internet use: telephoning or video calls
+I_IUFOR	Individuals who used Internet, in the last 3 months, for posting messages to chat sites, newsgroups or on-line discussion forum
+I_IUCHAT	Individuals who used Internet, in the last 3 months, for instant messaging (real-time communication with others by typed text)
+I_IURBLG	Individuals who used Internet, in the last 3 months, for reading weblogs or blogs
+I_IUCBLG	Individuals who used Internet, in the last 3 months, for creating or maintaining own weblog or blog
+I_IRMPHV	Mobile phone calls - very much
+I_IRMPHS	Mobile phone calls - to some extent
+I_IRMPHX	Mobile phone calls - not at all
+I_IRFPHV	Use of fixed telephone line (not linked to Internet) - very much
+I_IRFPHS	Use of fixed telephone line (not linked to Internet) - to some extent
+I_IRFPHX	Use of fixed telephone line (not linked to Internet) - not at all
+I_IREMAV	Use of e-mail - very much
+I_IREMAS	Use of e-mail - to some extent
+I_IREMAX	Use of e-mail - not at all
+I_IRNO	No effect on other communication means
+I_IUWEB	Internet use: listening to web radios and/or watching web TV
+I_IUMUS	Individuals used Internet for downloading and/or listening to music (other than via web radio, in the last 3 months)
+I_IUMOV	Individuals used Internet for downloading and/or watching movies, short films or video files (other than via web TV, in the last 3 months)
+I_IUMF	Individuals used Internet for downloading/listening to/watching music and/or films (in the last 3 months)
+I_IUP2P	Individuals used Internet for peer-to-peer file sharing for exchanging movies, music, video files (in the last 3 months)
+I_IUPOD	Individuals used Internet for podcast service to automatically receive audio or video files of interest (in the last 3 months)
+I_IUMFXP	Individuals used Internet for downloading/listening to/watching/exchanging/podcasting music and/or films (in the last 3 months)
+I_IUDGM	Individuals used Internet for downloading computer or video games or their updates (in the last 3 months)
+I_IUPGM	Individuals used Internet for playing networked games with others (in the last 3 months)
+I_IUMFG	Internet use: downloading/listening to/watching/playing music, films and/or games
+I_IUUPL	Internet use: uploading self-created content to any website to be shared
+I_IURSS	Individuals used Internet for using browser based news feeds (e.g. RSS) for reading new content on websites (in the last 3 months)
+I_IUAVC	Individuals used Internet for leisure activities related to obtaining and sharing audiovisual content (in the last 3 months)
+I_IUFORIM	Internet use: posting messages to social media sites or instant messaging
+I_IUIFB	Internet use: finding information used for buying goods and services
+I_IUIFBX	Internet use: finding information not used for buying goods and services
+I_IUIFIB	Internet use: finding information for buying online
+I_IUIFIBX	Internet use: finding information not used for buying online
+I_DDAY	Every day or almost every day
+I_DWK	At least once a week (but not every day)
+I_DMTH	At least once a month (but not every week)
+I_DLTMTH	Less than once a month
+I_DNA	Not downloaded, but only listened to music and/or have watched films
+I_AVPAY	Payed for online audiovisual content in the last 3 months
+I_AVPAYX	Did not pay for online audiovisual content in the last 3 months
+I_AVPLFC	Incentive to pay for online audiovisual content: Lack of free available content
+I_AVPLEG	Incentive to pay for online audiovisual content: Right to share legally protected content
+I_AVPMCP	Incentive to pay for online audiovisual content: More convenient payment methods
+I_AVPMAP	Incentive to pay for online audiovisual content: More advantageous prices compared to offline content
+I_AVPBQ	Incentive to pay for online audiovisual content: Better quality of paid content than free services
+I_AVPWCH	Incentive to pay for online audiovisual content: Wider range of choices, content more easily available
+I_AVPOTH	Incentive to pay for online audiovisual content: Other motivations (e.g. support artists work, etc.)
+I_AVPX	No willingness to pay
+I_IRNWV	Reading online news instead of printed news, newspaper or magazines  - very much
+I_IRNWS	Reading online news instead of printed news, newspaper or magazines  - to some extent
+I_IRNWX	Reading online news instead of printed news, newspaper or magazines  - not at all
+I_IRMUSV	Downloading music files instead of buying a CD  - very much
+I_IRMUSS	Downloading music files instead of buying a CD - to some extent
+I_IRMUSX	Downloading music files instead of buying a CD - not at all
+I_IRMOVV	Downloading films and videos instead of buying/renting a DVD  - very much
+I_IRMOVS	Downloading films and videos instead of buying/renting a DVD - to some extent
+I_IRMOVX	Downloading films and videos instead of buying/renting a DVD - not at all
+I_IRWEBV	Listening to web radios instead of listening to normal radio  - very much
+I_IRWEBS	Listening to web radios instead of listening to normal radio - to some extent
+I_IRWEBX	Listening to web radios instead of listening to normal radio - not at all
+I_IRGOVV	Using online contacts instead of personal contacts with public services and administrations  - very much
+I_IRGOVS	Using online contacts instead of personal contacts with public services and administrations - to some extent
+I_IRGOVX	Using online contacts instead of personal contacts with public services and administrations - not at all
+I_MUSPH	Sending photographs or video clips
+I_MUUPH	Uploading photographs or video clips from phones to websites
+I_MUNEWS	Receiving subscription-paid information services (e.g. news, weather forecast, sports results, etc)
+I_MUWEB	Browsing the Internet
+I_MUEMA	Reading e-mails
+I_MUFILM	Downloading and/or watching TV or video
+I_MUPAY	Paying for goods or services (instead of cash or credit card)
+I_MUGPS	Personal navigation, use of location-aware services (e.g. for receiving nearby travel, shopping, event information)
+I_MPHPRE	Use pre-payment for my mobile phone
+I_MPHPOST	Use post-payment for my mobile phone
+I_MPHFLAT	Use post-payment with flat rate for Internet access via mobile phone
+EMP106	Persons employed for the provision of postal and related services domestically (average of the year, NBR)
+FIN303	Total turnover from the provision of postal and related services domestically
+ACC201	Total number of access points
+ACC202	Offices open to public and postal agencies
+ACC2021	Fixed: Full services post offices/outlets
+ACC2022	Fixed: Other post agencies/outlets
+ACC2023	Mobile: Mobile post offices
+ACC203	Letter-boxes
+ACC204	Post office boxes
+ACC205	Places at which only stamps can be bought
+ITM401B	Postal and related services, total
+ITM402	Letter-post services, total
+ITM403	Letter-post services, reserved area
+ITM404	Small packets
+ITM405	Courier, Express and Parcel services (CEP), total
+ITM406	Courier, Express and Parcel services (CEP), ordinary parcels (up to 10/20kg)
+ITM407	Other postal and related services
+ITM408	Unadressed mail items
+LET409	Ordinary letters and postcards
+LET410	Direct mail
+LET411	Registered mail
+LET412	Insured mail
+LET413	Other letter post items
+PRI601	Domestic service: List price payable for the handling of a standard (1st class) letter weighing less than 20 g (universal service)
+PRI602	Intra-EU service: List price payable for the handling of a standard (1st class) letter weighing less than 20 g (universal service)
+PRI603	International service: List price payable for the handling of a standard (1st class) letter weighing less than 20 g (universal service)
+DOM501	Domestic service: % of letters (fastest service) delivered on-time according to national performance indicator
+DOM502	Domestic service: % of parcels delivered on-time according to national performance indicator
+INT503	International service, mail from Intra-EU: % of items delivered by D+3 (workings days)
+INT504	International service, mail from Intra-EU: % of items delivered by D+5 (workings days)
+I_SCVIRS	Strongly concerned about catching a virus or other computer infection (e.g. worm or Trojan horse) resulting in loss of information or time
+I_SCVIRM	Mildly concerned about catching a virus or other computer infection (e.g. worm or Trojan horse) resulting in loss of information or time
+I_SCVIRX	Not at all concerned about catching a virus or other computer infection (e.g. worm or Trojan horse) resulting in loss of information or time
+I_SCSPMS	Strongly concerned about unsolicited emails received ('Spam')
+I_SCSPMM	Mildly concerned about unsolicited emails received ('Spam')
+I_SCSPMX	Not at all concerned about unsolicited emails received ('Spam')
+I_SCPIFS	Strongly concerned about abuse of personal information sent on the Internet and/or other privacy violations (e.g. abuse of pictures, videos, personal data uploaded on community websites)
+I_SCPIFM	Mildly concerned about abuse of personal information sent on the Internet and/or other privacy violations (e.g. abuse of pictures, videos, personal data uploaded on community websites)
+I_SCPIFX	Not at all concerned about abuse of personal information sent on the Internet and/or other privacy violations (e.g. abuse of pictures, videos, personal data uploaded on community websites)
+I_SCFLPPS	Strongly concerned about financial loss as a result of receiving fraudulent messages ('phishing') or getting redirected to fake websites asking for personal information ('pharming')
+I_SCFLPPM	Mildly concerned about financial loss as a result of receiving fraudulent messages ('phishing') or getting redirected to fake websites asking for personal information ('pharming')
+I_SCFLPPX	Not at all concerned about financial loss as a result of receiving fraudulent messages ('phishing') or getting redirected to fake websites asking for personal information ('pharming')
+I_SCFRDS	Strongly concerned about financial loss due to fraudulent payment (credit or debit) card use
+I_SCFRDM	Mildly concerned about financial loss due to fraudulent payment (credit or debit) card use
+I_SCFRDX	Not at all concerned about financial loss due to fraudulent payment (credit or debit) card use
+I_SCCHLDS	Strongly concerned about children accessing inappropriate web-sites or connecting with potentially dangerous persons from a computer within the household
+I_SCCHLDM	Mildly concerned about children accessing inappropriate web-sites or connecting with potentially dangerous persons from a computer within the household
+I_SCCHLDX	Not at all concerned about children accessing inappropriate web-sites or connecting with potentially dangerous persons from a computer within the household
+I_SCX	Not at all concerned about any security issue
+I_SECVIR1	Caught a virus or other computer infection (e.g. worm or Trojan horse) resulting in loss of information or time
+I_SECSPM	Unsolicited emails sent to individual ('Spam')
+I_SECPIF1	Abuse of personal information sent on the Internet and/or other privacy violations (e.g. abuse of pictures, videos, personal data uploaded on community websites)
+I_SECFLPP	Financial loss as a result of receiving fraudulent messages ('phishing') or getting redirected to fake websites asking for personal information ('pharming')
+I_SECFRD1	Financial loss due to fraudulent payment (credit or debit) card use
+I_SECCHLD	Children accessing inappropriate web-sites or connecting with potentially dangerous persons from a computer within the household
+I_SECFL	Experienced financial loss
+I_SECANY6	Experienced any of the following security related problems: i_secvir1, i_secspm, i_secpif1, i_secflpp, i_secfrd1, i_secchld
+I_SECANY5	Experienced any of the following security related problems: i_secvir1, i_secpif1, i_secflpp, i_secfrd1, i_secchld
+I_SECANY4	Experienced any of the following security related problems: i_ secpif1, i_secflpp, i_secfrd1, i_secchld
+I_SEC0	Experienced no security related problem
+I_SEC1	Experienced any of the following security related problems: i_secpif1, i_secflpp, i_secfrd1
+I_SEC2	Experienced any of the following security related problems: i_secvir1, i_secpif1, i_secflpp, i_secfrd1
+I_SCPVIR	Strongly concerned about and have caught a virus or other computer infection (e.g. worm or Trojan horse) resulting in loss of information or time
+I_SCPSPM	Strongly concerned about and received unsolicited emails ('Spam')
+I_SCPPIF	Strongly concerned about and experienced abuse of personal information sent on the Internet and/or other privacy violations (e.g. abuse of pictures, videos, personal data uploaded on community websites)
+I_SCPFLPP	Strongly concerned about and experienced financial loss as a result of receiving fraudulent messages ('phishing') or getting redirected to fake websites asking for personal information ('pharming')
+I_SCPFRD	Strongly concerned about and experienced financial loss due to fraudulent payment (credit or debit) card use
+I_SCPCHLD	Strongly concerned about and experienced children accessing inappropriate web-sites or connecting with potentially dangerous persons from a computer within the household
+I_SECANY6BUY	Bought over the Internet and experienced any of the following security related problems: i_secvir1, i_secspm, i_ secpif1, i_secflpp, i_secfrd1, i_secchld
+I_SECANY4BUY	Bought over the Internet and experienced any of the following security related problem: i_ secpif1, i_secflpp, i_secfrd1, i_secchld
+I_SECPIFSN	Done social networking in the last 3 months and experienced in the last 12 months abuse of personal information sent on the Internet and/or other privacy violations
+I_SBGOOD	Security concerns kept individual from ordering or buying goods or services for private use
+I_SBBANK	Security concerns kept individual from carrying out banking activities such as account management
+I_SBPERS	Security concerns kept individual from providing personal information to online communities for social and professional networking
+I_SBGOV	Security concerns kept individual from communicating with public services and administrations
+I_SBSOFT	Security concerns kept individual from downloading software, music, video files, games or other data files
+I_SBMOB	Security concerns kept individual from using the Internet with  mobile device (e.g. laptop) via wireless connection from places other than home
+I_SBANY	Security concerns kept individual from doing any of the following activities: i_sbgood, i_sbbank, i_sbpers, i_sbgov, i_sbsoft, i_sbmob
+I_SECFLGB	Experienced financial loss over the Internet and security concerns kept individual from doing ordering/bying goods/services or carrying out banking activities
+I_SCSOFT	Use any kind of IT security software or tool (anti-virus, anti-spam, firewall, etc.) in order to protect private computer and data
+I_SCSOFTX	Don't use any kind of IT security software or tool (anti-virus, anti-spam, firewall, etc.) in order to protect private computer and data
+I_SCSOFTZ	Don't know if use any kind of IT security software or tool (anti-virus, anti-spam, firewall, etc.) in order to protect private computer and data
+I_SCSOFTNA	Don't need IT security software or tool (anti-virus, anti-spam, firewall, etc.) in order to protect private computer and data (don't use private computer)
+I_SECANY6SS	Use security software and experienced any of the following security related problem: i_secvir1, i_secspm, i_ secpif1, i_secflpp, i_secfrd1, i_secchld
+I_SECANY4SS	Use security software and experienced any of the following security related problem: i_ secpif1, i_secflpp, i_secfrd1, i_secchld
+I_SCAVS	Use a virus checking program and/or an anti-spyware program
+I_SCFIR	Use a hardware or software firewall
+I_SCSPAM	Use an email filtering to prevent 'Spam'
+I_SCPC	Use a parental control or a web filtering software
+I_SCOTH	Use other IT security software or tool (than i_scavx, i_scfir, i_scspam, i_scpc)
+I_SCANY	Use an IT security software package but don't know the components
+I_SCUAVA	Update one or more security products every time an update is available
+I_SCUAVO	Update one or more security products occasionally or when remember
+I_SCUAVX	Don't update security products
+I_SCUAV	Update one or more security products at least occasionally
+I_SCUXNN	Don't update security products: it's unnecessary, the risk too low
+I_SCUXNS	Don't update security products: don't know how to update
+I_SCUXNE	Don't update security products: don't think the update is effective
+I_SCUXTE	Don't update security products: it's too expensive
+I_SCUXOTH	Don't update security products for other reasons
+I_SAVALW	Frequency of safety copies/back up files: always or almost always
+I_SAVSMT	Frequency of safety copies/back up files: Sometimes
+I_SAVNEV	Frequency of safety copies/back up files: Never or hardly ever
+I_SAVNA	Not applicable (don't keep files on a computer)
+E_SECPOL	Enterprises had a formally defined ICT security policy with a plan of regular review
+E_SECPDD	The ICT security policy addressed the risks of destruction or corruption of data due to an attack or by unexpected incident
+E_SECPCNF	The ICT security policy addressed the risks of disclosure of confidential data due to intrusion, pharming, phishing attacks or by accident
+E_SECPDS	The ICT security policy addressed the risks of unavailability of ICT services due to an attack from outside (e.g. Denial of Service attack)
+E_SECPALL	The ICT security policy addressed the risks of destruction or corruption of data, disclosure of confidential data and unavailability of ICT services due to an attack  or an accident
+E_SECCTP	Enterprises have made staff aware of their obligations in ICT security related issues through compulsory training or presentations
+E_SECCONT	Enterprises have made staff aware of their obligations in ICT security related issues through contract, e.g. contract of employment
+E_SECVTGI	Enterprises have made staff aware of their obligations in ICT security related issues through voluntary training or generally available information (on the Intranet, news letters or paper documents)
+E_SECNONE	Enterprises have not made staff aware of their obligations in ICT security related issues
+E_SECANY	Enterprises have made staff aware of their obligations in ICT security related issues
+E_SECIUSF	Enterprises experienced ICT related security incidents that resulted in unavailability of ICT services, destruction or corruption of data due to hardware or software failures
+E_SECIUSA	Enterprises experienced ICT related security incidents that resulted in unavailability of ICT services due to attacks from outside, e.g. Denial of Service attack
+E_SECIDD	Enterprises experienced ICT related security incidents that resulted in destruction or corruption of data due to infection or malicious software or unauthorised access
+E_SECICNFA	Enterprises experienced ICT related security incidents that resulted in disclosure of confidential data due to intrusion, pharming, phishing attacks
+E_SECIANY	Enterprises experienced any ICT related security incidents excluding disclosure of confidential data in electronic form by employees
+E_SECINONE	Enterprises did not experience any ICT related security incidents excluding disclosure of confidential data in electronic form by employees
+E_SECSPSW	Enterprises used strong password authentication (min 8 characters, max 6 months, encrypted transmission and storage)
+E_SECUIHT	Enterprises used user identification and authentication via hardware tokens, e.g. smart cards
+E_SECOSBU	Enterprises stored data backups offsite
+E_SECLOG	Enterprises logged activities for analyses of security incidents
+E_SECM	Enterprise used any of the following security measure: e_secspsw, e_secuiht
+E_SECMDS	Enterprises use a digital signature in any message sent and used any of the following security measures: e_secspsw, e_secuiht
+P_BROAD2	Persons employed connecting to the Internet via (fixed or mobile) broadband
+E_MOBBB	Enterprises connecting to the Internet via a mobile broadband connection (3G modem or 3G handset)
+P_MOBBB	Persons employed connecting to the Internet via a mobile broadband connection (3G modem or 3G handset)
+I_IUEVR	Individuals who have ever used the Internet
+I_IUMOB	Individuals using selected mobile devices to access the Internet
+E_SECICNFE	Enterprises experienced ICT related security incidents resulting in disclosure of confidential data in electronic form by employees whether on intention or unintentionally
+E_SECUIBM	Enterprises used user identification and authentication via biometric methods
+E_IGOVDSC	Enterprises using Internet for declaration of social contributions for the persons employed
+E_IGOVDCT	Enterprises using Internet for declaration of corporate tax
+E_IGOVDVAT	Enterprises using Internet for declaration of VAT
+E_IGOVDCE	Enterprises using Internet for declaration of customs/excise
+E_IGOVDOTH	Enterprises using Internet for returning filled forms but not for declaration of social contributions, corporate tax, VAT or customs/excise
+E_IGOV2AL_DSC	Enterprises using Internet to treat an administrative procedure completely electronically and for declaration of social contributions for the persons employed
+E_IGOV2AL_DVAT	Enterprises using Internet to treat an administrative procedure completely electronically and for declaration of VAT
+E_IGOV_BSEC	Concerns related to data confidentiality and security limit electronic interaction with public authorities
+E_IGOV_BCMP	Electronic procedures which are too complicated and/or too time consuming limit electronic interaction with public authorities
+E_IGOV_BPAP	Electronic procedures still requiring exchange of paper mail or personal visits limit electronic interaction with public authorities
+E_IGOV_BNAW	Not being aware of availability of electronic procedures limits electronic interaction with public authorities
+E_IGOV_BANY	Any of the reasons (e_igovbsec, e_igovbcmp, e_igovbpap or e_igovbnaw) limit electronic interaction with public authorities
+E_IGOV_BSECQ	Only reason to limit electronic interaction with public authorities: concerns related to data confidentiality and security
+E_IGOV_BCMPQ	Only reason to limit electronic interaction with public authorities: electronic procedures are too complicated and/or too time consuming
+E_IGOV_BPAPQ	Only reason to limit electronic interaction with public authorities: electronic procedures still require exchange of paper mail or personal visits
+E_IGOV_BNAWQ	Only reason to limit electronic interaction with public authorities: not aware of availability of such procedures
+E_IGOV2RT_BSEC	Enterprises using Internet to return filled in forms electronically, but having concerns related to data confidentiality and security which limit electronic interaction 
+E_IGOV2RT_BCMP	Enterprises using Internet to return filled in forms electronically, but too complicated and/or too time consuming electronic procedures limit electronic interaction
+E_IGOV2RT_BPAP	Enterprises using Internet to return filled in forms electronically, but electronic procedures still requiring exchange of paper mail or personal visits limit electronic interaction
+E_IGOV2RT_BNAW	Enterprises using Internet to return filled in forms electronically, but lack of awareness of available electronic procedures limits electronic interaction
+E_IGOV2RTX_BSEC	Enterprises don't use Internet to return filled in forms electronically and have concerns related to data confidentiality and security
+E_IGOV2RTX_BCMP	Enterprises don't use Internet to return filled in forms electronically and find electronic procedures are too complicated and/or too time consuming
+E_IGOV2RTX_BPAP	Enterprises don't use Internet to return filled in forms electronically and find electronic procedures still require exchange of paper mail or personal visits
+E_IGOV2RTX_BNAW	Enterprises don't use Internet to return filled in forms electronically and are not aware of available electronic procedures
+E_IGOVATD 	Enterprises using Internet for accessing tender documents and specifications in electronic procurement systems of public authorities
+E_IGOV2PRHM	Enterprises using Internet for offering goods or services in public authorities' electronic procurement systems (eTendering), in own country
+E_IGOV2PREU	Enterprises using Internet for offering goods or services in public authorities' electronic procurement systems (eTendering), in other EU countries
+E_IGOV2PR	Enterprises using Internet for offering goods or services in public authorities' electronic procurement systems (eTendering)
+E_IGOVATD_2PR	Enterprises using Internet for accessing tender documents and specifications in electronic procurement systems of public authorities and for offering goods or services in the systems
+E_IGOVATD_2PRX	Enterprises using Internet for accessing tender documents and specifications in electronic procurement systems of public authorities but not for offering goods or services in the systems
+E_IGOVATDX_2PR	Don't use Internet for accessing tender documents/specifications in electronic procurement systems of public authorities but use Internet for offering goods or services in the systems
+E_IGOVATDX_2PRX	Don't use Internet for accessing tender documents/specifications in electronic procurement systems of public authorities nor for offering goods or services in the systems
+E_IGOV2PRX_XPS	Enterprises not selling to public sector
+E_IGOV2PRX_CCS	Enterprises having concerns related to confidentiality and security
+E_IGOV2PRX_NAW	Enterprises not aware of electronic tendering relevant to them
+E_IGOV2PRX_OTH	Other reasons than: don't sell to public sector, have concerns of confidentiality and security or are not aware
+E_IGOV2PRX_ANY	Enterprises not selling to public sector or having concerns related to confidentiality and security or are not aware
+E_IGOV2PRX_XPSQ	Enterprises not selling to public sector, excluding any other reason
+I_IUSNET	"Internet use: participating in social networks (creating user profile, posting messages or other contributions to facebook, twitter, etc.)"
+I_IUPOL	Internet use: reading and posting opinions on civic or political issues via websites
+I_IUVOTE	"Internet use: taking part in on-line consultations or voting to define civic or political issues (e.g. urban planning, signing a petition)"
+I_IUWIKI	Internet use: consulting wikis (to obtain knowledge on any subject)
+I_IUPNET	"Internet use: participating in professional networks (creating user profile, posting messages or other contributions to LinkedIn, Xing, etc.)"
+P_IACC3G	Persons employed provided with a portable device with at least 3G technology for accessing the Internet
+E_IACC3G	Enterprises with persons employed provided with a portable device with at least 3G technology for accessing the Internet
+E_IGOV2	Enterprises using the Internet for interaction with public authorities (derived indicator)
+E_IGOV2IF	Enterprises using Internet for obtaining information from public authorities' web sites or home pages
+E_IGOV2FM	Enterprises using Internet for obtaining forms from public authorities' web sites or home pages
+E_IGOV2RT	Enterprises using Internet for returning filled in forms electronically
+E_IGOV2AL	Enterprises using Internet to treat an administrative procedure completely electronically
+E_SISORP2	Enterprises sharing electronically information on sales or on purchases with the software used for any internal function (at least 2 items in E1 or both in E2)
+E_INV2	Enterprises sending / receiving e-invoices in a standard structure suitable for automatic processing
+E_INVSNDAP	Enterprises sending e-invoices in a standard structure suitable for automatic processing
+E_INVSNDNAP	Enterprises sending e-invoices not suitable for automatic processing
+E_INVSND2	Enterprises sending e-invoices (derived indicator)
+E_INVRECAP	Enterprises receiving e-invoices in a standard structure suitable for automatic processing
+E_INV2_IGOV2RT	Enterprises sending / receiving e-invoices in a standard structure suitable for automatic processing and using Internet for returning forms to public authorities
+E_INV2_IGOV2PR	Enterprises sending / receiving e-invoices in a standard structure suitable for automatic processing and using Internet for eTendering
+E_INV2_ADEGOV	Enterprises sending / receiving both e-invoices in a standard structure suitable for automatic processing and electronic data to/from public authorities
+E_OPENOS	"Enterprises using third party open source operating systems, such as Linux"
+E_OPENBRWS	"Enterprises using third party open source Internet browser software, e.g. Mozilla, Firefox, Chromium"
+E_OPENOFF	"Enterprises using third party open source office software, e.g. OpenOffice"
+E_OPENWEBS	"Enterprises using third party open source web server, e.g. Apache, Tomcat"
+E_OPENERP	Enterprises using third party open source ERP or CRM applications for business process automation
+E_OPENOTH	"Enterprises using other open source, e.g. security software (e.g. Open SSL, SSH), e-learning platforms (e.g. Moodle), e-mail servers (e.g. Send Mail, Postfix)"
+E_OPENANY	"Enterprises using third party open source software, any of e_openos, e_openbrws, e_openoff, e_openwebs, e_openerp, e_openoth"
+E_OPENOSQ	"Enterprises using only third party open source operating systems, such as Linux and no other open source software"
+E_OPENBRWSQ	"Enterprises using only third party open source Internet browser software, e.g. Mozilla, Firefox, Chromium and no other open source software"
+E_OPENOFFQ	"Enterprises using only third party open source office software, e.g. OpenOffice and no other open source software"
+E_OPENWEBSQ	"Enterprises using only third party open source web server, e.g. Apache, Tomcat and no other open source software"
+E_OPENERPQ	Enterprises using only third party open source ERP or CRM applications for business process automation and no other open source software
+E_OPENOTHQ	"Enterprises using only other third party open source software, e.g. security software, e-learning platforms or e-mail servers"
+E_PHRS	Enterprises where persons employed have access to personal human resources services electronically
+E_RFPSDP	Enterprises using RFID technologies as part of production and service delivery process
+E_RFASPRI	Enterprises using RFID technologies for after sales product identification
+E_IGOV2RT_ADE	Enterprises using automated data exchange for sending / receiving data to / from public authorities and using Internet for returning filled in forms
+E_IGOV2AL_ADE	Enterprises using automated data exchange for sending / receiving data to / from public authorities and using Internet for treating an administrative procedure completely electronically
+E_SISORP2_ERP	Enterprises sharing electronically information on sales or on purchases (at least 2 items in E1 or both in E2) and using third party open source ERP or CRM applications
+E_INV2_SISORP	Enterprises sending / receiving e-invoices in a standard structure suitable for automatic processing and sharing electronically information on sales or purchases
+E_INV2_ECOM	Enterprises sending / receiving e-invoices in a standard structure suitable for automatic processing and sending / receiving orders via any computer networks
+E_AWSELL	Enterprises having received orders via a website
+E_AXSELL	Enterprises having received orders placed via EDI-type messages
+E_AESEUWW	Enterprises having done electronic sales to other EU countries or the rest of the world
+E_AESBHM	Enterprises having done electronic sales or purchases to the own country
+E_AESBEU	Enterprises having done electronic sales or purchases to other EU countries
+E_AESBWW	Enterprises having done electronic sales or purchases in the rest of the world
+E_AEBEUWW	Enterprises having purchased online from suppliers located in other EU countries and the rest of the world

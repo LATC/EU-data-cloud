@@ -1,0 +1,94 @@
+TOTAL	Insgesamt
+TOT_X_TM	Alle Fahrzeugarten (außer Anhänger und Motorräder)
+TRN	Züge
+TRN_HSPD	Hochgeschwindigkeitszüge
+TRN_THSPD	Hochgeschwindigkeitszüge mit Neigetechnik
+TRN_CV	Konventionelle Züge
+TST	Zugeinheiten
+TST_HSPD	Hochgeschwindigkeitszugeinheiten
+TST_THSPD	Hochgeschwindigkeitszugeinheiten mit Neigetechnik
+TST_CV	Konventionelle Zugeinheiten
+LOC	Lokomotiven
+LOC_ELC	Elektrische Lokomotiven
+LOC_DIE	Diesellokomotiven
+LOC_STM	Dampflokomotiven
+RCA	Triebwagen
+RCA_ELC	Elektrische Triebwagen
+RCA_DIE	Dieseltriebwagen
+RCA_TRL	Triebwagenanhänger
+RL_PAS	Personenwagen
+COA	Reisezugwagen
+VAN	Gepäckwagen
+WAG	Güterwagen
+WAG_GD	Güterwagen - insgesamt
+WAG_GD_LD	Güterwagen - beladen
+WAG_GD_EMP	Güterwagen - leer
+WAG_COV	Gedeckte Güterwagen
+WAG_HIS	Offene hochbordige Güterwagen
+WAG_FLT	Flachwagen
+WAG_IMOD	Güterwagen für den intermodalen Verkehr 
+WAG_OTH	Sonstige Güterwagen
+UTL	Nutzfahrzeuge insgesamt
+LOR_RTRN	Lastkraftwagen (LKW) und Lastzug
+LOR	Lastkraftwagen
+LOR2	LKW - 2 Achsen
+LOR3	LKW - 3 Achsen
+LOR4	LKW - 4 Achsen
+LOR_OTH	LKW - sonstige
+LOR_TRL	LKW und Anhänger
+LOR_TRL21	LKW und Anhänger - 2+1 Achsen
+LOR_TRL22	LKW und Anhänger - 2+2 Achsen
+LOR_TRL23	LKW und Anhänger - 2+3 Achsen
+LOR_TRL32	LKW und Anhänger - 3+2 Achsen
+LOR_TRL33	LKW und Anhänger - 3+3 Achsen
+LOR_TRL_OTH	LKW und Anhänger - sonstige
+TRC	Strassenzugmaschinen
+TRC_AV	Strassenzugmaschinen und Gelenkfahrzeuge
+TRC_STRL	Strassenzugmaschinen und Sattelanhänger
+TRC_STRL21	Strassenzugmaschinen und Sattelanhänger - 2+1 Achsen
+TRC_STRL22	Strassenzugmaschinen und Sattelanhänger - 2+2 Achsen
+TRC_STRL23	Strassenzugmaschinen und Sattelanhänger - 2+3 Achsen
+TRC_STRL32	Strassenzugmaschinen und Sattelanhänger - 3+2 Achsen
+TRC_STRL33	Strassenzugmaschinen und Sattelanhänger - 3+3 Achsen
+TRC_STRL_OTH	Strassenzugmaschinen und Sattelanhänger - sonstige
+TRL_STRL	Anhänger und Sattelanhänger
+TRL	Anhänger
+STRL	Sattelanhänger
+VEH_GD	Straßengüterfahrzeuge
+VG_LE3P5	Straßengüterfahrzeuge <= 3.5 Tonnen
+VG_LE3P5_PET	Straßengüterfahrzeuge <= 3.5 Tonnen - Benzin
+VG_LE3P5_DIE	Straßengüterfahrzeuge <= 3.5 Tonnen - Diesel
+VG_LE3P5_OTH	Straßengüterfahrzeuge <= 3.5 Tonnen - andere Kraftstoffe
+VG_GT3P5	Straßengüterfahrzeuge > 3.5 Tonnen
+VG_GT3P5_PET	Straßengüterfahrzeuge > 3.5 Tonnen - Benzin
+VG_GT3P5_DIE	Straßengüterfahrzeuge > 3.5 Tonnen - Diesel
+VG_GT3P5_OTH	Straßengüterfahrzeuge > 3.5 Tonnen - andere Kraftstoffe
+VG_3P5-6	Straßengüterfahrzeuge > 3.5 und <= 6 Tonnen
+VG_3P5-6_PET	Straßengüterfahrzeuge > 3.5 und <= 6 Tonnen - Benzin
+VG_3P5-6_DIE	Straßengüterfahrzeuge > 3.5 und <= 6 Tonnen - Diesel
+VG_3P5-6_OTH	Straßengüterfahrzeuge > 3.5 und <= 6 Tonnen - andere Kraftstoffe
+VG_3P5-15	Straßengüterfahrzeuge > 3.5 und <= 15 Tonnen 
+VG_LE6	Straßengüterfahrzeuge <= 6 Tonnen
+VG_GT6	Straßengüterfahrzeuge > 6 Tonnen
+VG_6-12	Straßengüterfahrzeuge > 6 und <= 12 Tonnen
+VG_GT12	Straßengüterfahrzeuge > 12 Tonnen
+VG_GT15	Straßengüterfahrzeuge > 15 Tonnen 
+MOTO_MOP	Krafträder und Kleinkrafträder
+MOP	Kleinkrafträder
+MOTO	Krafträder (> 50cm3)
+CAR	Personenkraftwagen
+CAR_PET	Personenkraftwagen - Benzin
+CAR_DIE	Personenkraftwagen - Diesel
+CAR_ELC	Personenkraftwagen - elektrisch 
+CAR_OTH	Personenkraftwagen - andere Kraftstoffe
+BUS_TOT	Busse, Reisebusse und Oberleitungsbusse
+BUS_MCO	Busse und Reisebusse
+BUS_MCO_OTH	Andere Busse und Reisebusse
+BUS	Busse
+BUS_TRO	Oberleitungsbusse
+MCO	Reisebusse
+BIKE	Fahrräder
+SPE	Sonderfahrzeuge
+MTZ_OTH	Sonstige motorisierte Fahrzeuge
+OTH	Sonstige
+UNK	Unbekannt

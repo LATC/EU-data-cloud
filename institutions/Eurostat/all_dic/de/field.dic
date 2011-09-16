@@ -1,0 +1,142 @@
+TOTAL	Insgesamt
+EF0	Allgemeine Bildungsgänge
+EF01	Breite / allgemeine Grundbildungsgänge
+EF010	Breite / allgemeine Grundbildungsgänge
+EF08	Alphabetisierung und Vermittlung von Rechenfertigkeiten
+EF080	Alphabetisierung und Vermittlung von Rechenfertigkeiten
+EF09	Persönliche Fähigkeiten und Fertigkeiten; Persönlichkeitsentwicklung
+EF090_347	Persönliche Fähigkeiten und Fertigkeiten und Arbeitswelt
+EF090	Persönliche Fähigkeiten und Fertigkeiten; Persönlichkeitsentwicklung
+EF1	Pädagogik
+EF14	Lehrerausbildung und Erziehungswissenschaft
+EF140	Lehrerausbildung und Erziehungswissenschaft (breite Bildungsgänge)
+EF141	Unterrichten und Ausbilden
+EF142	Erziehungswissenschaft
+EF143	Ausbildung von Lehrkräften für die Vorschule
+EF144	Ausbildung von Lehrkräften für die Grundbildung
+EF145	Ausbildung von Lehrern mit Fachstudium
+EF146	Ausbildung von Lehrern in berufsbildenden Fächern
+EF2	Geisteswissenschaften und Künste
+EF21	Künste
+EF210	Kunst (breite Bildungsgänge)
+EF211	Bildende Kunst
+EF212	Musik und darstellende Kunst
+EF213	Audiovisuelle Techniken und Medienproduktion
+EF214	Design
+EF215	Kunstgewerbe
+EF22	Geisteswissenschaften
+EF220	Geisteswissenschaften (breite Bildungsgänge)
+EF221	Religion
+EF222	Fremdsprachen
+EF222_223	Fremdsprachen, Muttersprache
+EF223	Muttersprache
+EF224	Geschichte, Philosophie und verwandte Fächer
+EF225	Geschichte und Archäologie
+EF226	Philosophie und Ethik
+EF3	Sozial-, Wirtschafts- und Rechtswissenschaften
+EF31	Sozial- und Verhaltenswissenschaften
+EF310	Sozial- und Verhaltenswissenschaften (breite Bildungsgänge)
+EF311	Psychologie
+EF312	Soziologie und Kulturwissenschaften
+EF313	Politikwissenschaft und Staatsbürgerkunde
+EF314	Wirtschaftswissenschaft
+EF32	Journalismus und Informationswesen
+EF321	Journalismus und Berichterstattung
+EF322	Bibliothek, Informationswesen, Archiv
+EF34	Wirtschaft und Verwaltung
+EF340	Wirtschaft und Verwaltung (breite Bildungsgänge)
+EF341_342	Handel und marketing
+EF341	Handel
+EF342	Marketing und Werbung
+EF343-346	Rechnungs- und Finanzwesen, Verwaltung und Betriebsführung, Sekretariat und Büroarbeit
+EF343_344	Rechnungs- und Finanzwesen
+EF343	Kredit- und Versicherungswesen
+EF344	Steuer- und Rechnungswesen
+EF345	Management und Verwaltung
+EF346	Sekretariats- und Büroarbeit
+EF347	Arbeitswelt
+EF38	Recht
+EF380	Recht
+EF4_5	Naturwissenschaften, Mathematik und Informatik, Ingenieurwesen, verarbeitendes Gewerbe und Baugewerbe
+EF4	Naturwissenschaften, Mathematik und Informatik
+EF42_46_5_7	Biowissenschaften, Mathematik und Statistik, Ingenieurwesen, verarbeitendes Gewerbe und Baugewerbe, Gesundheit und soziale Dienste
+EF42_46_54_58	Biowissenschaften, Mathematik und Statistik, Herstellung und Verarbeitung, Architektur und Baugewerbe
+EF42	Biowissenschaften
+EF421	Biologie und Biochemie
+EF422	Umweltforschung
+EF44	Exakte Naturwissenschaften
+EF440	Exakte Naturwissenschaften (breite Bildungsgänge)
+EF441	Physik
+EF442	Chemie
+EF443	Geowissenschaften
+EF46	Mathematik und Statistik
+EF461	Mathematik
+EF462	Statistik
+EF48	Informatik
+EF481	Informatik
+EF482	Computerbedienung
+EF5	Ingenieurwesen, verarbeitendes Gewerbe und Baugewerbe
+EF52_54	Ingenieurwesen und technische Berufe, Herstellung und Verarbeitung
+EF52	Ingenieurwesen und technische Berufe
+EF520	Ingenieurwesen und technische Berufe (breite Bildungsgänge)
+EF521	Maschinenbau und Metallverarbeitung
+EF522	Elektrizität und Energie
+EF523	Elektronik und Automation
+EF524	Chemie und Verfahrenstechnik
+EF525	Kraftfahrzeuge, Schiffe und Flugzeuge
+EF54	Herstellung und Verarbeitung
+EF540	Herstellung und Verarbeitung (breite Bildungsgänge)
+EF541	Ernährungsgewerbe
+EF542	Textilien, Kleidung, Schuhwerk, Leder
+EF543	Werkstoffe (Holz, Papier, Kunststoff, Glas)
+EF544	Bergbau und Gewinnung von Steinen und Erden
+EF58	Architektur und Baugewerbe
+EF581	Architektur und Städteplanung
+EF582	Baugewerbe, Hoch- und Tiefbau
+EF6	Agrarwissenschaft und Veterinärwissenschaft
+EF62	Landwirtschaft, Forstwirtschaft und Fischereiwirtschaft
+EF620	Agrarwissenschaft, Forstwirtschaft und Fischereiwirtschaft (breite Bildungsgänge)
+EF621	Pflanzenbau und Tierzucht
+EF622	Gartenbau
+EF623	Forstwirtschaft
+EF624	Fischerei
+EF64	Tiermedizin
+EF641	Tiermedizin
+EF7	Gesundheit und soziale Dienste
+EF72	Gesundheit
+EF720	Gesundheit (breite Bildungsgänge)
+EF721	Medizin
+EF722	Medizinische Dienste
+EF723	Krankenpflege und Pflege von Personen
+EF724	Zahnmedizin
+EF725	Medizinische Diagnostik und Behandlungstechnik
+EF726	Therapie und Rehabilitation
+EF727	Pharmazie
+EF76	Sozialwesen
+EF761	Kinder- und Jugendarbeit
+EF762	Sozialarbeit und Beratung
+EF8	Dienstleistungen
+EF81_84_86	Persönliche Dienstleistungen, Verkehrsdienstleistungen, Sicherheitsdienstleistungen
+EF81	Persönliche Dienstleistungen
+EF810	Persönliche Dienstleistungen (breite Bildungsgänge)
+EF811	Gastgewerbe und Catering
+EF812	Reisebüros, Fremdenverkehrsgewerbe und Freizeitindustrie
+EF813	Sport
+EF814	Hauswirtschaftliche Dienste
+EF815	Friseurgewerbe und Schönheitspflege
+EF84	Verkehrsdienstleistungen
+EF840	Verkehrsdienstleistungen
+EF85_862	Umweltschutz, Gesundheit und Sicherheit am Arbeitsplatz
+EF85	Umweltschutz
+EF850	Umweltschutz (breite Bildungsgänge)
+EF851	Umweltschutztechnologien
+EF852	Natürliche Lebensräume und Wildtierschutz
+EF853	Kommunale Entsorgungsdienstleistungen
+EF86	Sicherheitsdienstleistungen
+EF860	Sicherheitsdienstleistungen (breite Bildungsgänge)
+EF861	Schutz von Eigentum und Personen
+EF862	Gesundheit und Sicherheit am Arbeitsplatz
+EF863	Militär und Verteidigung
+NRP	Keine Antwort
+OTH	Sonstige
+UNK	Unbekannt

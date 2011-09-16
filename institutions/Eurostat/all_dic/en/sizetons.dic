@@ -1,0 +1,635 @@
+TOT_HH	Total number of households
+TOT_PERS	Total number of persons
+TOT_CH	Total number of children
+TOTAL	Total
+TOT_ALL	Total, including roundings/unknown values
+NB_TOT	All (no breakdown)
+0	Zero
+LT_20MIN	Less than 20 minutes
+20_59MIN	Between 20 and 59 minutes
+GE_60MIN	1 hour or more
+STILLBIRTH	Still birth
+BIRTH	At birth
+LT_1HR	Less than 1 hour
+1_2HR	1 to 2 hours
+1_29HR	Between 1 and 29 hours
+2_3HR	2 to 3 hours
+3_4HR	3 to 4 hours
+4_5HR	4 to 5 hours
+GE_5HR	5 hours and more
+LT_6HR	Less than 6 hours
+6_12HR	6 to 12 hours
+GE_12HR	12 hours and more
+GE_30HR	30 hours or more
+LT_109HR	Less than 109 hours
+110_129HR	Between 110 and 129 hours
+130_149HR	Between 130 and 149 hours
+150_169HR	Between 150 and 169 hours
+170_189HR	Between 170 and 189 hours
+GE_190HR	190 hours and more
+1_3N	1 to 3 overnight stays
+GE_4N	4 and more overnight stays
+0_6D	Less than 7 days
+0_27D	Less than 28 days
+0M	Not yet started
+LT_1M	Less than 1 month
+1_2M	Between 1 and 2 months
+1_3M	Between 1 and 3 months
+3_5M	Between 3 and 5 months
+4_6M	Between 4 and 6 months
+LT_6M	Less than 6 months
+GE_6M	6 months or more
+6_11M	Between 6 and 11 months
+7_12M	Between 7 and 12 months
+LT_12M	Less than 12 months
+GE_12M	12 months or more
+12_17M	Between 12 and 17 months
+12_23M	Between 12 and 23 months
+13_18M	Between 13 and 18 months
+18_23M	Between 18 and 23 months
+19_24M	Between 19 and 24 months
+24_47M	Between 24 and 47 months
+25_36M	Between 25 and 36 months
+GT_36M	More than 3 years
+GE_24M	24 months or more
+GE_48M	48 months or more
+0_LT_01	From 0 to less than 0.1
+0_LT_025	From 0 to less than 0.25
+0_LT_05	From 0 to less than 0.5
+01_LT_02	From 0.1 to less than 0.2
+02_LT_03	From 0.2 to less than 0.3
+025_LT_050	From 0.25 to less than 0.5
+03_LT_05	From 0.3 to less than 0.5
+05_LT_07	From 0.5 to less than 0.7
+05_LT_1	From 0.5 to less than 1
+07_LT_1	From 0.7 to less than 1
+0_LT_1	From 0 to less than 1
+0_LT_2	From 0 to less than 2
+0_LT_5	From 0 to less than 5
+GT_0_LT_10	From more than 0 to less than 10
+0_14	Between 0 and 14
+0_LT_50	From 0 to less than 50
+LT_1	Less than 1
+1	1
+1_2	Between 1 and 2
+1_LT_2	From 1 to less than 2
+1_4	Between 1 and 4
+1_5	Between 1 and 5
+1_9	Between 1 and 9
+1_10	Between 1 and 10
+1_19	Between 1 and 19
+1_49	Between 1 and 49
+1_99	Between 1 and 99
+LT_2	Less than 2
+2	2
+GE_2	2 or more
+2_3	Between 2 and 3
+2_4	Between 2 and 4
+2_LT_4	From 2 to less than 4
+2_5	Between 2 and 5
+2_LT_5	From 2 to less than 5
+2_9	Between 2 and 9
+LT_3	Less than 3
+3	3
+3_4	Between 3 and 4
+3_5	Between 3 and 5
+3_9	Between 3 and 9
+GE_3	3 or more
+LT_4	Less than 4
+LE_4	4 or less
+4	4
+4_5	Between 4 and 5
+4_LT_5	From 4 to less than 5
+4_LT_6	From 4 to less than 6
+4_LT_8	From 4 to less than 8
+GE_4	4 or more
+LT_5	Less than 5
+5	5
+5_9	Between 5 and 9
+5_10	Between 5 and 10
+5_LT_10	From 5 to less than 10
+5_19	Between 5 and 19
+5_24	Between 5 and 24
+5_50	Between 5 and 50
+GE_5	5 or more
+LT_6	Less than 6
+6	6
+6_7	Between 6 and 7
+6_LT_8	From 6 to less than 8
+6_9	Between 6 and 9
+6_10	Between 6 and 10
+6_14	Between 6 and 14
+GE_6	6 or more
+7	7
+GE_7	7 or more
+8	8
+8_LT_12	From 8 to less than 12
+8_LT_16	From 8 to less than 16
+8_19	Between 8 and 19
+GE_8	8 or more
+LT_9	Less than 9
+9	9
+GE_9	9 or more
+LT_10	Less than 10
+LE_10	10 or less
+10	10
+10_13	Between 10 and 13
+10_14	Between 10 and 14
+10_19	Between 10 and 19
+10_20	Between 10 and 20
+10_LT_15	From 10 to less than 15
+10_LT_20	From 10 to less than 20
+10_LT_25	From 10 to less than 25
+10_49	Between 10 and 49
+10_99	Between 10 and 99
+10_249	Between 10 and 249
+GE_10	10 or more
+GT_10	More than 10
+11	11
+11_14	Between 11 and 14
+11_15	Between 11 and 15
+11_20	Between 11 and 20
+11_25	Between 11 and 25
+11_49	Between 11 and 49
+12	12
+12_LT_16	From 12 to less than 16
+13	13
+LT_14	Less than 14
+14	14
+14_24	Between 14 and 24
+14_64	Between 14 and 64
+GE_14	14 or more
+LT_15	Less than 15
+15_LT_20	From 15 to less than 20
+15	15
+15_17	Between 15 and 17
+15_18	Between 15 and 18
+15_19	Between 15 and 19
+15_24	Between 15 and 24
+15_39	Between 15 and 39
+15_59	Between 15 and 59
+15_64	Between 15 and 64
+GE_15	15 or more
+LT_16	Less than 16
+16	16
+16_18	Between 16 and 18
+16_19	Between 16 and 19
+16_20	Between 16 and 20
+16_24	Between 16 and 24
+16_LT_40	From 16 to less than 40
+GE_16	16 or more
+LT_17	Less than 17
+17	17
+17_19	Between 17 and 19
+LT_18	Less than 18
+18	18
+18_20	Between 18 and 20
+18_22	Between 18 and 22
+18_24	Between 18 and 24
+18_64	Between 18 and 64
+GE_18	18 or more
+LT_19	Less than 19
+19	19
+19_21	Between 19 and 21
+19_24	Between 19 and 24
+LT_20	Less than 20
+20	20
+20_24	Between 20 and 24
+20_29	Between 20 and 29
+20_LT_30	From 20 to less than 30
+20_39	Between 20 and 39
+20_49	Between 20 and 49
+20_LT_50	From 20 to less than 50
+20_59	Between 20 and 59
+20_99	Between 20 and 99
+20_249	Between 20 and 249
+GE_20	20 or more
+LT_21	Less than 21
+21	21
+21_24	Between 21 and 24
+21_25	Between 21 and 25
+21_29	Between 21 and 29
+21_30	Between 21 and 30
+21_50	Between 21 and 50
+22	22
+GE_22	22 or more
+23	23
+23_25	Between 23 and 25
+24	24
+GE_24	24 or more
+LT_25	Less than 25
+25	25
+25_29	Between 25 and 29
+25_34	Between 25 and 34
+25_39	Between 25 and 39
+25_44	Between 25 and 44
+25_49	Between 25 and 49
+25_LT_50	From 25 to less than 50
+25_54	Between 25 and 54
+25_59	Between 25 and 59
+25_64	Between 25 and 64
+GE_25	25 or more
+26	26
+26_29	Between 26 and 29
+26_30	Between 26 and 30
+26_50	Between 26 and 50
+27	27
+28	28
+LT_29	Less than 29
+29	29
+LT_30	Less than 30
+30	30
+30_34	Between 30 and 34
+30_35	Between 30 and 35
+30_39	Between 30 and 39
+30_44	Between 30 and 44
+30_49	Between 30 and 49
+30_LT_50	From 30 to less than 50
+30_LT_80	From 30 to less than 80
+30_54	Between 30 and 54
+GE_30	30 or more
+GT_30	More than 30
+31	31
+31_34	Between 31 and 34
+31_35	Between 31 and 35
+32	32
+33	33
+34	34
+35	35
+35_39	Between 35 and 39
+35_44	Between 35 and 44
+GE_35	35 or more
+36	36
+36_39	Between 36 and 39
+36_40	Between 36 and 40
+36_45	Between 36 and 45
+37	37
+38	38
+39	39
+LT_40	Less than 40
+40	40
+40_44	Between 40 and 44
+40_49	Between 40 and 49
+40_54	Between 40 and 54
+40_59	Between 40 and 59
+40_64	Between 40 and 64
+40_LT_100	From 40 to less than 100
+GE_40	40 or more
+41	41
+41_44	Between 41 and 44
+41_45	Between 41 and 45
+42	42
+43	43
+44	44
+45	45
+45_49	Between 45 and 49
+45_54	Between 45 and 54
+45_59	Between 45 and 59
+45_64	Between 45 and 64
+GE_45	45 or more
+46	46
+46_50	Between 46 and 50
+46_60	Between 46 and 60
+47	47
+48	48
+LT_49	Less than 49
+49	49
+GE_49	49 or more
+50	50
+LE_50	50 or less
+LT_50	Less than 50
+50_54	Between 50 and 54
+50_59	Between 50 and 59
+50_64	Between 50 and 64
+50_69	Between 50 and 69
+50_74	Between 50 and 74
+50_LT_70	From 50 to less than 70
+50_LT_75	From 50 to less than 75
+50_99	Between 50 and 99
+50_100	Between 50 and 100
+50_LT_100	From 50 to less than 100
+50_149	Between 50 and 149
+50_LT_150	From 50 to less than 150
+50_199	Between 50 and 199
+50_LT_200	From 50 to less than 200
+50_249	Between 50 and 249
+50_500	Between 50 and 500
+GE_50	50 or more
+GT_50_500	From more than 50 to 500
+51	51
+51_55	Between 51 and 55
+51_100	Between 51 and 100
+51_250	Between 51 and 250
+GE_51	51 or more
+52	52
+53	53
+54	54
+55	55
+55_59	Between 55 and 59
+55_64	Between 55 and 64
+GE_55	55 or more
+56	56
+56_60	Between 56 and 60
+57	57
+58	58
+59	59
+60	60
+60_64	Between 60 and 64
+60_79	Between 60 and 79
+60_99	Between 60 and 99
+GE_60	60 or more
+61	61
+61_65	Between 61 and 65
+GE_61	61 or more
+62	62
+63	63
+LT_64	Less than 64
+64	64
+65	65
+65_69	Between 65 and 69
+65_79	Between 65 and 79
+GE_65	65 or more
+66	66
+66_70	Between 66 and 70
+67	67
+68	68
+69	69
+70	70
+70_74	Between 70 and 74
+70_79	Between 70 and 79
+70_100	Between 70 and 100
+GE_70	70 or more
+71	71
+71_75	Between 71 and 75
+72	72
+73	73
+74	74
+75	75
+75_79	Between 75 and 79
+75_89	Between 75 and 89
+75_LT_90	From 75 to less than 90
+75_90	Between 75 and 90
+GE_75	75 or more
+76	76
+76_80	Between 76 and 80
+77	77
+78	78
+79	79
+80	80
+80_84	Between 80 and 84
+80_LT_150	From 80 to less than 150
+GE_80	80 or more
+81	81
+81_85	Between 81 and 85
+82	82
+83	83
+84	84
+85	85
+85_89	Between 85 and 89
+GE_85	85 or more
+86	86
+86_90	Between 86 and 90
+87	87
+88	88
+89	89
+90	90
+90_94	Between 90 and 94
+90_99	Between 90 and 99
+90_LT_100	From 90 to less than 100
+GE_90	90 or more
+91	91
+GE_91	91 or more
+92	92
+93	93
+94	94
+95	95
+95_99	Between 95 and 99
+GE_95	95 or more
+96	96
+97	97
+98	98
+99	99
+GE_99	99 or more
+LT_100	Less than 100
+LE_100	100 or less
+100	100
+100_105	Between 100 and 105
+100_199	Between 100 and 199
+100_LT_200	From 100 to less than 200
+100_249	Between 100 and 249
+100_LT_250	From 100 to less than 250
+100_499	Between 100 and 499
+100_LT_500	From 100 to less than 500
+100_999	Between 100 and 999
+GE_100	100 or more
+101	101
+101_200	Between 101 and 200
+101_500	Between 101 and 500
+101_1000	Between 101 and 1 000
+102	102
+103	103
+104	104
+105	105
+105_109	Between 105 and 109
+GE_105	105 or more
+106	106
+107	107
+108	108
+109	109
+110	110
+111	111
+112	112
+113	113
+114	114
+115	115
+116	116
+117	117
+118	118
+119	119
+150_499	Between 150 and 499
+150_LT_500	From 150 to less than 500
+GE_150	150 or more
+180_300	Between 180 and 300
+200	200
+200_249	Between 200 and 249
+200_299	Between 200 and 299
+200_399	Between 200 and 399
+200_LT_400	From 200 to less than 400
+200_499	Between 200 and 499
+200_LT_1000	From 200 to less than 1 000
+GE_200	200 or more
+201_500	Between 201 and 500
+1_249	Between 1 and 249
+LT_250	Less than 250
+250	250
+250_LT_400	From 250 to less than 400
+250_499	Between 250 and 499
+250_374	Between 250 and 374
+GE_250	250 or more
+251_500	Between 251 and 500
+LT_300	Less than 300
+300	300
+300_399	Between 300 and 399
+300_499	Between 300 and 499
+300_599	Between 300 and 599
+GE_300	300 or more
+301_500	Between 301 and 500
+375_499	Between 375 and 499
+LT_399	Less than 399
+LT_400	Less than 400
+400	400
+400_599	Between 400 and 599
+400_LT_650	From 400 to less than 650
+400_799	Between 400 and 799
+400_LT_800	From 400 to less than 800
+400_999	Between 400 and 999
+LT_500	Less than 500
+500	500
+500_600	Between 500 and 600
+500_624	Between 500 and 624
+500_749	Between 500 and 749
+500_800	Between 500 and 800
+500_999	Between 500 and 999
+500_LT_1000	From 500 to less than 1 000
+GE_500	500 or more
+GT_500_2500	From more than 500 to 2 500
+501_1000	Between 501 and 1 000
+501_2500	Between 501 and 2 500
+501_10000	Between 501 and 10 000
+600_700	Between 600 and 700
+600_799	Between 600 and 799
+600_899	Between 600 and 899
+625_749	Between 625 and 749
+650_LT_1000	From 650 to less than 1 000
+700_800	Between 700 and 800
+750_999	Between 750 and 999
+GE_750	750 or more
+800_900	Between 800 and 900
+800_1100	Between 800 and 1100
+800_1599	Between 800 and 1 599
+GE_800	800 or more
+900_1000	Between 900 and 1 000
+900_1199	Between 900 and 1 199
+LT_1000	Less than 1 000
+LE_1000	1 000 or less
+1000	1 000
+GE_1000	1 000 or more
+GT_1000	More than 1 000
+1000_LT_1250	From 1000 to less than 1250
+1000_LT_1500	From 1 000 to less than 1 500
+1000_1499	Between 1 000 and 1 499
+1000_1999	Between 1 000 and 1 999
+1000_LT_2000	From 1 000 to less than 2 000
+1000_2999	Between 1 000 and 2 999
+1000_4999	Between 1 000 and 4 999
+1001_2000	Between 1 001 and 2 000
+1001_4000	Between 1 001 and 4 000
+1001_5000	Between 1 001 and 5 000
+1001_10000	Between 1 001 and 10 000
+1200_1499	Between 1 200 and 1 499
+1250_LT_1500	From 1250 to less than 1500
+LT_1500	Less than 1 500
+1500_1999	Between 1 500 and 1 999
+GE_1500	1 500 or more
+1500_LT_3000	From 1 500 to less than 3 000
+GE_1600	1 600 or more
+1600_2399	Between 1 600 and 2 399
+2000_2499	Between 2 000 and 2 499
+2000_LT_3000	From 2 000 to less than 3 000
+2000_4999	Between 2 000 and 4 999
+2000_LT_6000	From 2 000 to less than 6 000
+2400_3199	Between 2 400 and 3 199
+2500_2999	Between 2 500 and 2 999
+2501_5000	Between 2 501 and 5 000
+GT_2500_5000	From more than 2 500 to 5 000
+GE_3000	3 000 or more
+3000_4999	Between 3 000 and 4 999
+3000_LT_4000	From 3 000 to less than 4 000
+3000_LT_5000	From 3 000 to less than 5 000
+3200_3999	Between 3 200 and 3 999
+LT_3500	Less than 3 500
+3600_LT_9500	From 3 600 to less than 9 500
+4000_LT_5000	From 4 000 to less than 5 000
+4001_10000	Between 4 001 and 10 000
+GE_4000	4 000 or more
+LT_5000	Less than 5 000
+LE_5000	5 000 or less
+GT_5000	More than 5 000
+5000_LT_6000	From 5 000 to less than 6 000
+5000_LT_7000	From 5 000 to less than 7 000
+5000_9999	Between 5 000 and 9 999
+5000_LT_10000	From 5 000 to less than 10 000
+5001_10000	Between 5 001 and 10 000
+5001_20000	Between 5 001 and 20 000
+GE_5000	5 000 or more
+GE_6000	6 000 or more
+6000_LT_7000	From 6 000 to less than 7 000
+7000_LT_8000	From 7 000 to less than 8 000
+7000_LT_10000	From 7 000 to less than 10 000
+8000_LT_9000	From 8 000 to less than 9 000
+9000_LT_10000	From 9 000 to less than 10 000
+9600_LT_15500	From 9 600 to less than 15 500
+LT_10000	Less than 10 000
+GT_10000	More than 10 000
+GE_10000	10 000 or more
+10001_15000	Between 10 001 and 15 000
+10000_29999	Between 10 000 and 29 999
+10000_49999	Between 10 000 and 49 999
+10000_LT_15000	From 10 000 to less than 15 000
+10000_LT_20000	From 10 000 to less than 20 000
+10001_20000	Between 10 001 and 20 000
+10001_30000	Between 10 001 and 30 000
+10001_100000	Between 10 001 and 100 000
+15000_LT_20000	From 15 000 to less than 20 000
+15001_20000	Between 15 001 and 20 000
+GE_15000	15 000 or more
+GT_15000	More than 15 000
+15600_LT_20500	From 15 600 to less than 20 500
+GE_20000	20 000 or more
+GT_20000	More than 20 000
+20001_25000	Between 20 001 and 25 000
+20000_LT_30000	From 20 000 to less than 30 000
+20001_30000	Between 20 001 and 30 000
+20001_50000	Between 20 001 and 50 000
+20600_LT_25500	From 20 600 to less than 25 500
+GE_25000	25 000 or more
+25600_LT_30500	From 25 600 to less than 30 500
+30000_LT_40000	From 30 000 to less than 40 000
+GE_30000	30 000 or more
+GE_30500	30 500 or more
+30001_50000	Between 30 001 and 50 000
+30001_100000	Between 30 001 and 100 000
+GE_40000	40 000 or more
+40000_LT_50000	From 40 000 to less than 50 000
+50000_LT_80000	From 50 000 to less than 80 000
+50000_99999	Between 50 000 and 99 999
+50001_100000	Between 50 001 and 100 000
+150001_200000	Between 150 001 and 200 000
+80000_LT_100000	From 80 000 to less than 100 000
+GE_100000	100 000 or more
+GT_100000	More than 100 000
+100001_150000	Between 100 001 and 150 000
+100000_LT_150000	From 100 000 to less than 150 000
+GE_100001	100 001 or more
+100001_200000	Between 100 001 and 200 000
+100001_300000	Between 100 001 and 300 000
+150000_LT_200000	From 150 000 to less than 200 000
+200000_LT_250000	From 200 000 to less than 250 000
+200001_250000	Between 200 001 and 250 000
+250000_LT_300000	From 250 000 to less than 300 000
+300001_400000	Between 300 001 and 400 000
+400001_500000	Between 400 001 and 500 000
+500001_750000	Between 500 001 and 750 000
+750001_1000000	Between 750 001 and 1 000 000
+GE_1000000	1 000 000 or more
+GE_250000	250 000 or more
+GE_300000	300 000 or more
+GT_300000	More than 300 000
+ROOMS_PERS	Rooms per person
+INDEF	Indefinite duration
+DEF	Definite duration
+OTHER	Other
+UNK	Unknown
+NOT_APP	Duration not applicable
+NRESP	No answer
+NOTSTA	Not started

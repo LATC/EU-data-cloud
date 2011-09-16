@@ -1,0 +1,6 @@
+TOTAL	Total ayant une activité de sourçage international
+IN	A l'interieur du groupe d'entreprises
+IN_EX	Entreprise étrangère existante du même groupe
+IN_AQ	Nouvelle entreprise étrangère existante du même groupe (par acquisition)
+IN_NEW	Entreprise étrangère nouvellement créée du même groupe (nouvelle opération)
+OTHER	Autres entreprises étrangères

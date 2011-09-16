@@ -1,0 +1,24 @@
+TOTAL	Ingesamt
+SOL_FUEL	Feste Brennstoffe (v2011 + v2012)
+HCOA_DER	Steinkohle und Nebenprodukte
+COKE	Koks
+SOL_FUEL_OTH	Sonstige feste Brennstoffe
+LIQ_FUEL	Flüssige Brennstoffe
+COIL	Rohöl
+ROIL	Raffinierte flüssige Erdölprodukte
+PETROL	Benzin
+LPG	Flüssiggas LPG
+DIESEL	Diesel
+GAS	Gas (v2031 + v2032 + v2033 + v2034)
+GAS_NAT	Erdgas
+GAS_BFUR	Hochofengas
+GAS_COKE	Koksofengas
+GAS_CONV	Konvertergas
+GAS_OTH	Sonstiges Gas
+ELEC	Elektrische Strom
+ELEC_OTH	Elektrische Energie oder sonstige Energien
+OTHER	Sonstige
+STEAM	Dampf
+DLV_GAS_BFUR	Auslandslieferungen von Hochofengas
+DLV_GAS_CONV	Auslandslieferungen von Konvertergas
+ALTER	Alternative Energie

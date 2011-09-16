@@ -1,0 +1,101 @@
+A_B	Landwirtschaft; Fischerei
+A01	Landwirtschaft, gewerbliche Jagd
+A02	Forstwirtschaft
+B05	Fischerei und Fischzucht
+C-E	Industrie (ohne Bau)
+CA10	Kohlenbergbau, Torfgewinnung
+CA11	Gewinnung von Erdöl und Erdgas, Erbringung damit verbundener Dienstleistungen
+CA12	Bergbau auf Uran- und Thoriumerze
+CB13	Erzbergbau
+CB14	Gewinnung von Steinen und Erden, sonstiger Bergbau
+DA15	Ernährungsgewerbe
+DA16	Tabakverarbeitung
+DB17	Textilgewerbe
+DB18	Bekleidungsgewerbe
+DC19	Ledergewerbe
+DD20	Holzgewerbe (ohne Herstellung von Möbeln)
+DE21	Papiergewerbe
+DE22	Verlagsgewerbe, Druckgewerbe, Vervielfältigung von bespielten Ton-, Bild- und Datenträgern
+DF23	Kokerei, Mineralölverarbeitung, Herstellung und Verarbeitung von Spalt- und Brutstoffen
+DG24	Chemische Industrie
+DH25	Herstellung von Gummi- und Kunststoffwaren
+DI26	Glasgewerbe, Keramik, Verarbeitung von Steinen und Erden
+DJ27	Metallerzeugung und -bearbeitung
+DJ28	Herstellung von Metallerzeugnissen
+DK29	Maschinenbau
+DL30	Herstellung von Büromaschinen, Datenverarbeitungsgeräten und -einrichtungen
+DL31	Herstellung von Geräten der Elektrizitätserzeugung, -verteilungen
+DL32	Rundfunk-, Fernseh- und Nachrichtentechnik
+DL33	Medizin-, Meß-, Steuer- und Regelungstechnik, Optik
+DM34	Herstellung von Kraftwagen und Kraftwagenteilen
+DM35	Sonstiger Fahrzeugbau
+DN36	Herstellung von Möbeln, Schmuck, Musikinstrumenten, Sportgeräten, Spielwaren und sonstigen Erzeugnissen
+DN37	Recycling
+E40	Energieversorgung
+E41	Wasserversorgung
+F	Bau
+F45	Baugewerbe
+G-I	Handel; Beherbergungs- und Gaststätten; Verkehr
+G50	Kraftfahrzeughandel; Instandhaltung und Reparatur von Kraftfahrzeugen; Tankstellen
+G51	Handelsvermittlung und Großhandel (ohne Handel mit Kraftfahrzeugen)
+G52	Einzelhandel (ohne Handel mit Kraftfahrzeugen und ohne Tankstellen); reparatur von Gebrauchsgütern
+H55	Gastgewerbe
+J_K	Kreditinstitute und Versicherungen (ohne Sozialversicherung); Grundstücks- und Wohnungswesen
+I60	Landverkehr; Transport in Rohrfernleitungen
+I61	Schiffahrt
+I62	Luftfahrt
+I63	Hilfs- und Nebentätigkeiten für den Verkehr; Verkehrsvermittlung
+I64	Nachrichtenübermittlung
+J65	Kreditgewerbe
+J66	Versicherungsgewerbe
+J67	Mit dem Kredit- und Versicherungsgewerbe verbundene Tätigkeiten
+L-P	Öffentliche Verwaltung und Dienstleistungen; Private Haushalte
+K70	Grundstücks- und Wohnungswesen
+K71	Vermietung beweglicher Sachen ohne Bedienungspersonal
+K72	Datenverarbeitung und Datenbanken
+K73	Forschung und Entwicklung
+K74	Erbringung von Dienstleistungen überwiegend für Unternehmen
+L75	Öffentliche Verwaltung, Verteidigung, Sozialversicherung
+M80	Erziehung und Unterricht
+N85	Gesundheits-, Veterinär- und Sozialwesen
+O90	Abwasser- und Abfallbeseitigung und sonstige Entsorgung
+O91	Interessenvertretungen sowie kirchliche und sonstige religiöse Vereinigungen (ohne Sozialwesen und Sport)
+O92	Kultur, Sport und Unterhaltung
+O93	Erbringung von sonstigen Dienstleistungen
+P95	Dienstleistungen privater Haushalte
+P119	Unterstellte Bankgebühr (FISIM)
+TOTAL	Ingesamt
+P2I	Verwendung von Importprodukten
+P3_S14	Konsumausgaben der privaten Haushalte
+P3_S15	Konsumausgaben für den Verbrauch von privaten Organisationen ohne Erwerbszweck
+P3_S13	Konsumausgaben des Staates
+P3	Konsumausgaben
+P51	Bruttoanlageinvestitionen
+P53	Veränderungen bei Wertsachen
+P52_P53	Veränderungen bei Vorräten und Wertsachen
+P52	Vorratsveränderungen
+P5	Bruttoinvestitionen
+P3_P5	Binnennachfrage
+P6_S21	Exporte Intra-EU fob
+P6_S22	Exporte Extra-EU fob
+P6	Exporte
+P6_X_P7	Netto Exporte (Exporte minus Importe)
+P7_S21	Importe Intra-EU cif
+P7_S22	Importe Extra-EU cif
+TFINU	Letzte Verwendung zum Anschaffungspreis
+FINUBP	Letzte Verwendung zum Basispreis
+TUBP	Verwendung insgesamt zum Basispreis
+P7	Importe cif
+SUPBP	Angebote insgesamt zum Basispreis
+P118	Handels- und Transportspannen
+D21_M_D31	Steuern abzüglich Gütersubventionen
+SUPPP	Angebote insgesamt zum Anschaffungspreis
+TU	Verwendung insgesamt zum Anschaffungspreis
+TOT_CA	Insgesamt, angepasst
+TOT_ADJ	Korrekturen insgesamt
+P7_S2I	Importe von Waren und Dienstleistungen aus Mitgliedern der EWU (cif)
+P7_S2X	Importe von Waren und Dienstleistungen aus Nichtmitgliedern der EWU(cif)
+D11	Bruttolöhne und -gehälter
+B3G	Bruttoselbständigeneinkommen
+P6_S2I	Exporte von Waren und Dienstleistungen in Mitglieder der EWU (fob)
+P6_S2X	Exporte von Waren und Dienstleistungen in Nichtmitglieder der EWU (fob)

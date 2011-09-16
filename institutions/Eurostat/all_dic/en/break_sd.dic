@@ -1,0 +1,80 @@
+TOTAL	Total
+TOT_EU25	Total EU-25
+TOT_EU15	Total EU-15
+SOC_INFR	Social infrastructure services
+EDUC_SERV	Education services
+GOV_CIV	Government and civil society
+HLT_SERV	Health services
+OTH_INFR	Other social infrastructure and services
+WATER_SS	Water supply and sanitation
+POP_PROG	Population programmes
+ACT_DEB	Action relating to debt
+SUPP_NGO	Support to NGO's
+ECON_INFR	Economic infrastructure and services
+EMR_ASS	Emergency assistance
+MULTISEC	Multisector/crosscutting
+PROD_SEC	Production sectors
+ADM_COST	Administrative costs of donors
+GEN_PROG	Commodity aid/general program assistance
+NOT_SPEC	Unallocated/unspecified
+ERYTH	Erythromycin
+PNSP	Penicillin
+HLW	High level (radioactive) waste
+SFUDD	Spent fuel destined for direct disposal
+EMAS	Eco-management and audit scheme
+ISO	ISO 14001 certification
+ODA	Official development aid
+FDI	Foreign direct investment
+GR_NGO	Grants by NGOs
+PRIVF	Private flows
+OTHOF	Other official flows
+AGRI	Agriculture and fisheries
+ENVIR	Environment, health and consumer protection
+ENTR	Enterprises
+INFO	Research, information, education and statistics
+COMP	Competition
+MARK	Internal Market
+JUST	Justice and home affairs
+ENER	Energy and Transport
+EMPL	Employment and social affairs
+CUST	Taxation and Customs union
+REGIO	Regional policy
+ENLG	Enlargement
+EXT	External relations
+ECFIN	Economy and finance
+OTHER	Other
+TOTCHEM	Total production of chemicals
+TOTTOX	Total toxic chemicals
+CMR	CMR - chemicals
+CHRONIC	Chronic toxic chemicals
+VERY	Very toxic chemicals
+TOXIC	Toxic chemicals
+HARM	Harmful chemicals
+ORG	Organisations
+SITE	Sites
+EU_VOTE	EU elections
+NAT_VOTE	National elections
+PC_TENV	Environmental taxes
+PC_TLAB	Taxes on labour
+SHARE	Annual fellings as a share of net annual increment (%)
+INCRE	Net annual increment (1 000 m3 over bark)
+FELLG	Annual fellings (1 000 m3 over bark)
+EDUC	Education and culture
+HEALTH	Health and consumer protection
+ESTAT	Eurostat
+HLY_F	Healthy life years - females
+HLY_M	Healthy life years - males
+LEXP_F	Life expectancy - females
+LEXP_M	Life expectancy - males
+INDUS	Enterprise and Industry
+IND	Industry
+SERV	Services
+RELKYOTO	Relation to 'Kyoto Protokoll'
+GROWTH	Growth Rate
+VALUE	Absolute Values
+TOTHARM	Environmentally harmful chemicals, total
+SEVERE	Chemicals with severe chronic environmental impacts
+SIGNIF	Chemicals with significant chronic environmental impacts
+MDRT	Chemicals with moderate chronic environmental impacts
+CHRNC	Chemicals with chronic environmental impacts
+ACUTE	Chemicals with significant acute environmental impacts

@@ -1,0 +1,14 @@
+TOTAL	Total number of decisions
+TOTAL_POS	Total positive decisions
+GENCONV	Geneva Convention status
+HUMSTAT	Humanitarian status
+OTH_POS	Other positive decisions
+REJECT	Rejections
+OTH_NONST	Other non-status decisions
+APP_PENDING	Applications pending at the end of the period
+C_GRANTED	Granted (Geneva Convention status)
+T_GRANTED	Granted (total)
+REJECTED	Rejected
+WITHDRAWN	Total number of withdrawals
+SUB_PROT	Subsidiary protection status
+TEMP_PROT	Temporary protection status

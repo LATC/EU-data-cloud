@@ -1,0 +1,94 @@
+TOTAL	Total
+TOT_X_TM	Tous véhicules (sauf remorques et motocyclettes)
+TRN	Trains
+TRN_HSPD	Trains à grande vitesse
+TRN_THSPD	Trains pendulaire à grande vitesse
+TRN_CV	Trains classiques
+TST	Rames indéformables
+TST_HSPD	Rames indéformables à grande vitesse
+TST_THSPD	Rames indéformables pendulaires à grande vitesse
+TST_CV	Rames indéformables classiques
+LOC	Locomotives
+LOC_ELC	Locomotives électriques
+LOC_DIE	Locomotives diesel
+LOC_STM	Locomotives à vapeur
+RCA	Automotrices
+RCA_ELC	Automotrices électriques
+RCA_DIE	Automotrices diesel
+RCA_TRL	Remorques d'automotrices
+RL_PAS	Véhicules de transport de voyageurs
+COA	Voitures ferrovières
+VAN	Fourgons
+WAG	Wagons
+WAG_GD	Wagons de marchandises - total
+WAG_GD_LD	Wagons de marchandises - chargés
+WAG_GD_EMP	Wagons de marchandises - à vide
+WAG_COV	Wagons couverts
+WAG_HIS	Wagons tombereaux
+WAG_FLT	Wagons plats
+WAG_IMOD	Wagons pour le transport intermodal
+WAG_OTH	Autres wagons
+UTL	Total véhicules utilitaires
+LOR_RTRN	Camions et trains routiers
+LOR	Camions
+LOR2	Camions - 2 essieux
+LOR3	Camions - 3 essieux
+LOR4	Camions - 4 essieux
+LOR_OTH	Camions - autres
+LOR_TRL	Camions et remorques
+LOR_TRL21	Camions et remorques - 2+1 essieux
+LOR_TRL22	Camions et remorques - 2+2 essieux
+LOR_TRL23	Camions et remorques - 2+3 essieux
+LOR_TRL32	Camions et remorques - 3+2 essieux
+LOR_TRL33	Camions et remorques - 3+3 essieux
+LOR_TRL_OTH	Camions et remorques - autres
+TRC	Tracteurs routiers
+TRC_AV	Tracteurs routiers et véhicules articulés
+TRC_STRL	Tracteur routiers et semi-remorques
+TRC_STRL21	Tracteur routiers et semi-remorques - 2+1 essieux
+TRC_STRL22	Tracteur routiers et semi-remorques - 2+2 essieux
+TRC_STRL23	Tracteur routiers et semi-remorques - 2+3 essieux
+TRC_STRL32	Tracteur routiers et semi-remorques - 3+2 essieux
+TRC_STRL33	Tracteur routiers et semi-remorques - 3+3 essieux
+TRC_STRL_OTH	Tracteur routiers et semi-remorques - autres
+TRL_STRL	Remorques et semi-remorques
+TRL	Remorques
+STRL	Semi-remorques
+VEH_GD	Véhicules routiers pour le transport de marchandises
+VG_LE3P5	Véhicules de marchandises <= 3.5 tonnes
+VG_LE3P5_PET	Véhicules de marchandises <= 3.5 tonnes - essence
+VG_LE3P5_DIE	Véhicules de marchandises <= 3.5 tonnes - gazole
+VG_LE3P5_OTH	Véhicules de marchandises <= 3.5 tonnes - autres carburants
+VG_GT3P5	Véhicules de marchandises > 3.5 tonnes
+VG_GT3P5_PET	Véhicules de marchandises > 3.5 tonnes - essence
+VG_GT3P5_DIE	Véhicules de marchandises > 3.5 tonnes - gazole
+VG_GT3P5_OTH	Véhicules de marchandises > 3.5 tonnes - autres carburants
+VG_3P5-6	Véhicules de marchandises > 3.5 et <= 6 tonnes
+VG_3P5-6_PET	Véhicules de marchandises > 3.5 et <= 6 tonnes - essence
+VG_3P5-6_DIE	Véhicules de marchandises > 3.5 et <= 6 tonnes - gazole
+VG_3P5-6_OTH	Véhicules de marchandises > 3.5 et <= 6 tonnes - autres carburants
+VG_3P5-15	Véhicules de marchandises > 3.5 et <= 15 tonnes
+VG_LE6	Véhicules de marchandises <= 6 tonnes
+VG_GT6	Véhicules de marchandises > 6 tonnes
+VG_6-12	Véhicules de marchandises > 6 et <= 12 tonnes
+VG_GT12	Véhicules de marchandises > 12 tonnes
+VG_GT15	Véhicules de marchandises > 15 tonnes
+MOTO_MOP	Motocycles et cyclomoteurs
+MOP	Cyclomoteurs
+MOTO	Motocycles (> 50cm3)
+CAR	Voitures particulières
+CAR_PET	Voitures particulières - essence
+CAR_DIE	Voitures particulières - gazole
+CAR_ELC	Voitures particulières - électrique
+CAR_OTH	Voitures particulières - autres carburants
+BUS_TOT	Autocars, autobus et trolley bus
+BUS_MCO	Autocars et autobus
+BUS_MCO_OTH	Autres autocars et autobus
+BUS	Autobus
+BUS_TRO	Trolley bus
+MCO	Autocars
+BIKE	Bicyclettes
+SPE	Vehicules spéciaux
+MTZ_OTH	Autres véhicules motorisés
+OTH	Autre
+UNK	Inconnu

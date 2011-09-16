@@ -1,0 +1,52 @@
+USD	US-Dollar
+XDR	SZR-Wechselkurs (1 SZR = ...)
+NEER	Nominaler effektiver Wechselkurs
+NEER12	Nominaler effektiver Wechselkurs - 12 Handelspartner
+NEER15	Nominaler effektiver Wechselkurs - 15 Handelspartner
+NEEREA15	Nominaler effektiver Wechselkurs - 15 Handelspartner (Euroraum)
+NEEREA16	Nominaler effektiver Wechselkurs - 16 Handelspartner (Euroraum)
+NEER23	Nominaler effektiver Wechselkurs - 23 Handelspartner
+NEER24	Nominaler effektiver Wechselkurs - 24 Handelspartner
+NEER25	Nominaler effektiver Wechselkurs - 25 Handelspartner
+NEER27	Nominaler effektiver Wechselkurs - 27 Handelspartner
+NEER34	Nominaler effektiver Wechselkurs - 34 Handelspartner
+NEER36	Nominaler effektiver Wechselkurs - 36 Handelspartner
+NEER41	Nominaler effektiver Wechselkurs - 41 Handelspartner
+NEER42	Nominaler effektiver Wechselkurs - 42 Handelspartner
+NEER44	Nominaler effektiver Wechselkurs - 44 Handelspartner
+REERULC	Realer effektiver Wechselkurs (Deflator: Lohnstückkosten)
+REERCPI	Realer effektiver Wechselkurs (Deflator: Verbraucherpreisindizes)
+REER	Realer effektiver Wechselkurs
+REER12CPI	Realer effektiver Wechselkurs (Deflator: Verbraucherpreisindizes - 12 Handelspartner)
+REER12PPI	Realer effektiver Wechselkurs (Deflator: Erzeugerpreisindex - 12 Handelspartner)
+REER12ULCM	Realer effektiver Wechselkurs (Deflator: Lohnstückkosten in der Verarbeitenden Industrie - 12 Handelspartner)
+REER12ULCT	Realer effektiver Wechselkurs (Deflator: Lohnstückkosten in der Volkswirtschaft insgesamt - 12 Handelspartner)
+REER12GDPD	Realer effektiver Wechselkurs (Deflator : Bruttoinlandsprodukt - 12 Handelspartner)
+REER15CPI	Realer effektiver Wechselkurs (Deflator: Verbraucherpreisindizes - 15 Handelspartner)
+REEREA15CPI	Realer effektiver Wechselkurs (Deflator: Verbraucherpreisindizes - 15 Handelspartner - Euroraum)
+REEREA16CPI	Realer effektiver Wechselkurs (Deflator: Verbraucherpreisindizes - 16 Handelspartner - Euroraum)
+REER15ULCT	Realer effektiver Wechselkurs (Deflator: Lohnstückkosten in der Volkswirtschaft insgesamt - 15 Handelspartner)
+REEREA15ULCT	Realer effektiver Wechselkurs (Deflator: Lohnstückkosten in der Volkswirtschaft insgesamt - 15 Handelspartner - Euroraum)
+REEREA16ULCT	Realer effektiver Wechselkurs (Deflator: Lohnstückkosten in der Volkswirtschaft insgesamt - 16 Handelspartner - Euroraum)
+REER23CPI	Realer effektiver Wechselkurs (Deflator: Verbraucherpreisindizes - 23 Handelspartner)
+REER23PPI	Realer effektiver Wechselkurs (Deflator: Erzeugerpreisindex  - 23 Handelspartner)
+REER23ULCM	Realer effektiver Wechselkurs (Deflator: Lohnstückkosten in der Verarbeitenden Industrie - 23 Handelspartner)
+REER23ULCT	Realer effektiver Wechselkurs (Deflator: Lohnstückkosten in der Volkswirtschaft insgesamt - 23 Handelspartner)
+REER23GDPD	Realer effektiver Wechselkurs (Deflator : Bruttoinlandsprodukt - 23 Handelspartner)
+REER24CPI	Realer effektiver Wechselkurs (Deflator: Verbraucherpreisindizes - 24 Handelspartner)
+REER24ULCM	Realer effektiver Wechselkurs (Deflator: Lohnstückkosten in der Verarbeitenden Industrie - 24 Handelspartner)
+REER24ULCT	Realer effektiver Wechselkurs (Deflator: Lohnstückkosten in der Volkswirtschaft insgesamt - 24 Handelspartner)
+REER24PPI	Realer effektiver Wechselkurs (Deflator: Erzeugerpreisindex  - 24 Handelspartner)
+REER24GDPD	Realer effektiver Wechselkurs (Deflator : Bruttoinlandsprodukt - 24 Handelspartner)
+REER25CPI	Realer effektiver Wechselkurs (Deflator: Verbraucherpreisindizes - 25 Handelspartner)
+REER25ULCT	Realer effektiver Wechselkurs (Deflator: Lohnstückkosten in der Volkswirtschaft insgesamt - 25 Handelspartner)
+REER27CPI	Realer effektiver Wechselkurs (Deflator: Verbraucherpreisindizes - 27 Handelspartner)
+REER27ULCT	Realer effektiver Wechselkurs (Deflator: Lohnstückkosten in der Volkswirtschaft insgesamt - 27 Handelspartner)
+REER34CPI	Realer effektiver Wechselkurs (Deflator: Verbraucherpreisindizes - 34 Handelspartner)
+REER34ULCT	Realer effektiver Wechselkurs (Deflator: Lohnstückkosten in der Volkswirtschaft insgesamt - 34 Handelspartner)
+REER36CPI	Realer effektiver Wechselkurs (Deflator: Verbraucherpreisindizes - 36 Handelspartner)
+REER36ULCT	Realer effektiver Wechselkurs (Deflator: Lohnstückkosten in der Volkswirtschaft insgesamt - 36 Handelspartner)
+REER41CPI	Realer effektiver Wechselkurs (Deflator: Verbraucherpreisindizes - 41 Handelspartner)
+REER41ULCT	Realer effektiver Wechselkurs (Deflator: Lohnstückkosten in der Volkswirtschaft insgesamt - 41 Handelspartner)
+REER42CPI	Realer effektiver Wechselkurs (Deflator: Verbraucherpreisindizes - 42 Handelspartner)
+REER44CPI	Realer effektiver Wechselkurs (Deflator: Verbraucherpreisindizes - 44 Handelspartner)

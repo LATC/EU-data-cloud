@@ -1,0 +1,112 @@
+C_00	Cultures totales
+C_01_07	Cultures de terres arables totales
+C_01	Céréales, y compris riz
+C01_NOT_C0113	Céréales, non compris maïs
+C_011	Céréales, non compris riz
+C_0111	Blé total
+C_01111	Blé tender et épeautre
+C_01112	Blé dur
+C_0112	Orge
+C_0113	Maïs-grain
+C_0114	Seigle
+C_0115	Avoine
+C_0116	Triticale
+C_0117	Autres céréales
+C_012	Riz
+C0113_C0611	Maïs (maïs-grain + maïs fourrage)
+C_02	Légumes secs
+C_03	Plantes sarclées
+C_031	Pommes de terre (y compris pommes de terre hâtives et de semence)
+C_032	Betteraves
+C_0321	Betteraves sucrières
+C_0322	Betteraves fourragères
+C_033	Plantes sarclées fourragères et crucifères (non compris les semences)
+C_034	Autres plantes sarclées
+C_04	Plantes industrielles (total)
+C_041	Plantes oléagineuses
+C_0411	Tournesol
+C_0412	Soja
+C_0413	Colza et navette
+C_0414	Lin
+C_0415	Autres plantes oléagineuses (coton, etc.)
+C_042	Tabac
+C_043	Houblon
+C_044	Plantes textiles
+C_0441	Coton
+C_0442	Autres plantes textiles
+C_045	Autres plantes industrielles
+C_0451	Plantes médicinales, aromatiques et condimentaires
+C_0452	Autres
+C_05	Légumes frais, melons, fraises (total)
+C05_NOT_C0534	Légumes frais, melons (non compris fraises)
+C_051	Total choux potagers
+C_0511	Choux-fleurs
+C_0512	Choux blancs
+C_0513	Autres choux potagers
+C_052	Légumes feuillus et à tige (sauf choux)
+C_0521	Céleris branche
+C_0522	Poireaux
+C_0523	Laitues
+C_0524	Chicorées frisées et scaroles
+C_0525	Epinards
+C_0526	Asperges
+C_0527	Autres légumes feuillus et à tige (sauf choux)
+C_053	Légumes cultivés pour le fruit
+C_0531	Tomates
+C_0532	Concombres
+C_0533	Melons
+C_0534	Fraises
+C_0535	Autres légumes cultivés pour le fruit
+C_054	Légumes à racines, bulbes, tubercules
+C_0541	Carottes
+C_0542	Ail
+C_0543	Oignons et échalotes
+C_05431	Oignons
+C_05432	Echalotes
+C_0544	Autres légumes à racines, bulbes, tubercules
+C_055	Légumes à cosse
+C_0551	Petits pois
+C_0552	Haricots et haricots verts
+C_0553	Autres légumes à cosse
+C_056	Autres
+C_06	Fourrages verts des terres arables (total)
+C_061	Fourrages verts annuels
+C_0611	Maïs fourrage
+C_0612	Autres fourrages verts annuels
+C_062	Fourrages verts pluriannuels
+C_063	Prairies et pâturages temporaires
+C_07	Autres cultures de terres arables (y compris 'Fleurs et plantes ornementales (non compris des pépinières)' et 'Semences et plants de terres arables')
+C_071	Fleurs et plantes ornementales (non compris des pépinières)
+C_072	Semences et plants de terres arables
+C_08	Superficies toujours couvertes d'herbe (prairies et pâturages)
+C_081	Prairies permanentes et pâturages, non compris les pâturages pauvres
+C_082	Pâturages pauvres
+C_09_13	Cultures permanentes totales
+C_09	Fruits (non compris agrumes, raisins, olives) et baies
+C_091	Fruits (non compris agrumes, raisins, olives)
+C_0911	Fruits à pépins et à noyaux
+C_09111	Fruits à pépins
+C_091111	Pommes
+C_091112	Poires
+C_09112	Fruits à noyau
+C_091121	Pêches
+C_091122	Abricots
+C_091123	Cerises
+C_091124	Prunes
+C_091125	Autres fruits à noyau
+C_0912	Fruits à coque
+C_0913	Autres fruits (non compris agrumes, raisins, olives)
+C_092	Total baies
+C_10	Agrumes
+C_101	Oranges
+C_102	Citrons
+C_103	Pamplemousses et pomelos
+C_104	Autres agrumes (mandarines, autres)
+C_11	Raisins
+C_12	Olives
+C_121	Olives de bouche
+C_122	Olives à huile
+C_13	Autres cultures permanentes
+C_14	Superficie agricole non utilisée
+C_15	Jachères (y compris engrais verts)
+C_151	Engrais verts

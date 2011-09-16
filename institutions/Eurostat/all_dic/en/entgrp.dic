@@ -1,0 +1,9 @@
+YES	Enterprise group
+NO	Not enterprise group
+TOT	All enterprises (enterprise group + not enterprise group)
+GR_HD	Group head
+G_GR_HD	Global group head
+SUB	Subsidiary
+SUB_OWNC	Subsidiary with Global group head in own country
+SUB_IN_27	Subsidiary with Global group head in EU27
+SUB_EX_27	Subsidiary with Global group head in extra-EU27

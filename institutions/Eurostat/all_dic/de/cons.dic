@@ -1,0 +1,82 @@
+WA_1	Bruttoentnahme, insgesamt
+WA_1_1	Entnahme für öffentliche Wasserversorgung
+WA_1_2	Entnahme für Land- und Forstwirtschaft, Fischerei und Fischzucht, insgesamt
+WA_1_2_1	Entnahme für Landwirtschaft, für Bewässerung
+WA_1_3	Bergbau und Gewinnung von Steinen und Erden
+WA_1_4	Entnahme für verarbeitendes Gewerbe, insgesamt
+WA_1_4_1	Entnahme für verarbeitendes Gewerbe, insgesamt, davon abgegeben an Ernährungsgewerbe
+WA_1_4_2	Entnahme für verarbeitendes Gewerbe, für Kühlung
+WA_1_5	Entnahme für Elektrizitätserzeugung, für Kühlung
+WA_1_6	Entnahme für Dienstleistungen
+WA_1_7	Baugewerbe und übrige industrielle Aktivitäten
+WA_1_8	Entnahme für Privathaushalte
+WA_1_8_1	Entnahme für Privathaushalte : Zurückgeleitetes Wasser
+WA_1_9	Zurückgeleitetes Wasser (vor oder ohne Nutzung) - (nur verfügbar für Oberflächen- und Grundwasser, insgesamt)
+WA_1_10	Nettoentnahme - (nur verfügbar für Oberflächen- und Grundwasser, insgesamt)
+WA_1_11	Entnahme für alle anderen wirtschaftlichen Aktivitäten (z. B. Baugewerbe)
+WA_2	Wasserentnahme zur Elektizitätserzeugung durch Wasserkraft 
+W18_1	An die öffentliche Versorgung angeschlossene Bevölkerung (%) - (nur verfügbar für öffentliche Wasserversorgung)
+W18_2	Versorgung, insgesamt
+W18_2_1	Versorgung von Land-und Forstwirtschaft, Fischerei und Fischzucht, insgesamt
+W18_2_1_1	Versorgung von Land-und Forstwirtschaft darunter für Bewässerung
+W18_2_2	Versorgung von Bergbau und Gewinnung von Steinen und Erden
+W18_2_3	Versorgung von verarbeitendem Gewerbe, insgesamt
+W18_2_3_1	Versorgung von Ernährungsgewerbe
+W18_2_3_2	Versorgung von Metallerzeugung und -bearbeitung
+W18_2_3_3	Versorgung von Industrie zur Herstellung von Kraftwagen und Kraftwagenteilen und sonstiger Fahrzeugbau
+W18_2_3_4	Versorgung von Textilindustrie
+W18_2_3_5	Versorgung von Erzeugung von Papier und Papierprodukten
+W18_2_3_6	Versorgung von chemischer Industrie, Erdölraffinerien usw.
+W18_2_3_7	Versorgung von sonstigem Verabeitendem Gewerbe
+W18_2_3_8	Versorgung von verarbeitendem Gewerbe, für Kühlung
+W18_2_4	Versorgung von Elektrizitätsversorgung, insgesamt
+W18_2_4_1	Versorgung von Elektrizitätsversorgung, für Kühlung
+W18_2_5	Versorgung von allen industriellen Tätigkeiten
+W18_2_6	Versorgung des Baugewerbes
+W18_2_7	Versorgung des Haushaltssektors, insgesamt
+W18_2_7_1	Versorgung des Haushaltssektors, Dienstleistungen
+W18_2_7_2	Versorgung des Haushaltssektors, Privathaushalte
+WW2_1	Primäre Behandlung
+WW2_2	Sekundäre Behandlung
+WW2_3	Tertiäre Behandlung
+WW2_3_1	Tertiäre Behandlung mit Stickstoff-Elimination - (verfügbar nur für kommunale Abwasserbehandlung)
+WW2_3_2	Tertiäre Behandlung mit Phosphor-Elimination - (verfügbar nur für kommunale Abwasserbehandlung)
+WW2_4	Behandlung, insgesamt
+WW2_4_1	Behandlung, insgesamt mit zumindest sekundärer Behandlung - (verfügbar nur für unabhängige Behandlung)
+WW2_4_2	Davon Phosphatfällungsausstattungen, insgesamt (alte Version)
+SL_1	Gesamtes Klärschlammaufkommen
+SL_2	Gesamte Klärschlammentsorgung
+SL_2_1	Landwirtschaftliche Verwertung
+SL_2_2	Kompostierung und sonstige Verwertung
+SL_2_3	Deponierung
+SL_2_4	Entsorgung ins Meer
+SL_2_5	Verbrennung
+SL_2_6	Andere
+SL_3	Landwirtschaftliche Verwertung
+SL_4	Kompostierung und sonstige Verwertung
+SL_4_1	Landwirtschaftliche Verwertung (Volumen in 1 000 m3/Jahr)
+SL_4_2	Kompostierung und sonstige Verwertung (Volumen in 1 000 m3/Jahr)
+SL_4_3	Deponierung (Volumen in 1 000 m3/Jahr)
+SL_4_4	Entsorgung ins Meer (Volumen in 1 000 m3/Jahr)
+SL_4_5	Verbrennung (Volumen in 1 000 m3/Jahr)
+SL_4_6	Andere (Volumen in 1 000 m3/Jahr)
+SL_5	Deponierung
+SL_6	Entsorgung ins Meer
+SL_6_1	Landwirtschaftliche Verwertung (Trockenmasse in kg/Kopf)
+SL_6_2	Kompostierung und sonstige Verwertung (Trockenmasse in kg/Kopf)
+SL_6_3	Deponierung (Trockenmasse in kg/Kopf)
+SL_6_4	Entsorgung ins Meer (Trockenmasse in kg/Kopf)
+SL_6_5	Verbrennung (Trockenmasse in kg/Kopf)
+SL_6_6	Andere (Trockenmasse in kg/Kopf)
+SL_7	Verbrennung
+SL_8	Andere
+SL_8_1	Landwirtschaftliche Verwertung (Volumen in m3/Kopf)
+SL_8_2	Kompostierung und sonstige Verwertung (Volumen in m3/Kopf)
+SL_8_3	Deponierung (Volumen in m3/Kopf)
+SL_8_4	Entsorgung ins Meer (Volumen in m3/Kopf)
+SL_8_5	Verbrennung (Volumen in m3/Kopf)
+SL_8_6	Andere (Volumen in m3/Kopf)
+WA_3	Wasserentnahme aus Stauseen
+WA_4	Illegale Wasserentnahmen, insgesamt (geschätzt)
+WA_4_1	Illegale Wasserentnahmen : Oberflächenwasser
+WA_4_2	Illegale Wasserentnahmen : Grundwasser

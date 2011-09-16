@@ -1,0 +1,11 @@
+TOTAL	Insgesamt
+DEV_0	Keine Angabe
+DEV_1	Abweichung ausgelöst durch elektrische Störung, Explosion, Feuer - ohne nähere Angabe
+DEV_2	Abweichung ausgelöst durch Überlaufen, Umkippen, Auslaufen, Überfließen, Verdampfen, Emission - ohne nähere Angabe
+DEV_3	Reißen, Brechen, Bersten, Rutschen, Fallen, Zusammenstürzen von Gegenständen - ohne nähere Angabe
+DEV_4	Vollständiger oder partieller Verlust der Kontrolle über Maschine, Transportmittel, Fördermittel, Handwerkzeug, Gegenstand, Tier - ohne nähere Angabe
+DEV_5	Ausgleiten oder Stolpern mit Sturz - Sturz oder Absturz von Personen - ohne nähere Angabe
+DEV_6	Bewegungen des Körpers ohne körperliche Belastung (führt im Allgemeinen zu einer äußeren Verletzung) - ohne nähere Angabe
+DEV_7	Bewegungen des Körpers unter oder mit körperlicher Belastung (führt im Allgemeinen zu einer inneren Verletzung) - ohne nähere Angabe
+DEV_8	Überraschung, Schreck, Gewalt, Angriff, Bedrohung, Anwesenheit - ohne nähere Angabe
+DEV_9	Sonstige nicht in dieser Klassifikation aufgeführte Abweichung

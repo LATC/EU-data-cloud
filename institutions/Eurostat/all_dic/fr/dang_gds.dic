@@ -1,0 +1,15 @@
+EXPLOSIF	1. Matières et objets explosives
+GASES	2. Gaz comprimés, liquéfiés ou dissous sous pression
+FLAM_LIQ	3. Matières liquides inflammables
+FLAM_SOL	4.1. Matières solides inflammables
+SUB_SP_COMB	4.2. Matières sujettes à l'inflammation spontanée
+SUB_FLAM_GAS	4.3. Matières qui, au contact de l'eau, dégagent des gaz inflammables
+OXID_SUB	5.1. Matières comburantes
+ORG_PEROX	5.2. Peroxydes organiques
+TOXIC_SUB	6.1. Matières toxiques
+SUB_INFECT	6.2. Matières infectieuses
+RADIOACT	7. Matières radioactives
+CORROS	8. Matières corrosives
+DANG_MISC	9. Matières et objets dangereux divers
+DANG_GD_UNK	99. Marchandises dangereuses inconnues
+TOT_DANG_GDS	10. Total toutes marchandises dangereuses

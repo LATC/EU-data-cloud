@@ -1,0 +1,11 @@
+1	Indice mensuel ou pondération mensuelle
+2	Indice annuel ou pondération annuelle
+3	Variation de l'indice mensuel sur un an, en pourcentage (uniquement pour les indices 1985=100)
+4	Variation de la moyenne trimestrielle de l'indice mensuel sur un an, en pourcentage
+5	Taux de variation de l'indice annuel, en pourcentage
+6	Output, indices nominaux
+7	Input, indices nominaux
+8	Output, indices déflatés
+9	Input, indices déflatés
+10	Données annuelles
+11	Taux de variation de l'indice ou de l'index

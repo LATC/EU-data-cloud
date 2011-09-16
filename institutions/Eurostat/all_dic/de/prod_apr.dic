@@ -1,0 +1,466 @@
+1120	Weichweizen - Preise je 100 kg
+1130	Hartweizen - Preise je 100 kg
+1150	Roggen - Preise je 100 kg
+1160	Gerste - Preise je 100 kg
+1161	Braugerste - Preise je 100 kg
+1180	Hafer - Preise je 100 kg
+1200	Mais - Preise je 100 kg
+1211	Sorgho - Preise je 100 kg
+1217	Triticale - Preise je 100 kg
+1251	Reis - Preise je 100 kg
+1314	Speiseerbsen - Preise je 100 kg
+1316	Kichererbsen - Preise je 100 kg
+1331	Speisebohnen - Preise je 100 kg
+1338	Puffbohnen (getrocknet) - Preise je 100 kg
+1341	Linsen - Preise je 100 kg
+1361	Speisekartoffeln (Erdäpfel) - Preise je 100 kg
+1362	Frühkartoffeln (Erdäpfel) - Preise je 100 kg
+1371	Zuckerrüben: Durchschnittserlös - Preise je 1 000 kg
+1372	Zuckerrüben: Standardqualität - Preise je 1 000 kg
+1430	Raps - Preise je 100 kg
+1450	Sonnenblumen - Preise je 100 kg
+1470	Soja - Preise je 100 kg
+1490	Baumwolle (einschließlich Saat) - Preise je 100 kg
+1495	Erdnüsse in der Schale - Preise je 100 kg
+1551	Rohtabak: alle Sorten - Preise je 100 kg
+1552	Rohtabak: wichtigste Sorte - Preise je 100 kg
+1553	Rohtabak: zweitwichtigste Sorte - Preise je 100 kg
+1561	Hopfen: alle Sorten - Preise je 100 kg
+1562	Hopfen: wichtigste Sorte - Preise je 100 kg
+1621	Blumenkohl (Karfiol): alle Qualitäten - Preise je 100 kg
+1622	Blumenkohl (Karfiol): Qualität I - Preise je 100 kg
+1632	Rosenkohl (Kohlsprossen): alle Qualitäten - Preise je 100 kg
+1633	Rosenkohl (Kohlsprossen): Qualität I - Preise je 100 kg
+1636	Weisskohl (Weisskraut): alle Qualitäten - Preise je 100 kg
+1637	Weisskohl (Weisskraut): Qualität i - Preise je 100 kg
+1641	Rotkohl (Rotkraut): alle Qualitäten - Preise je 100 kg
+1642	Rotkohl (Rotkraut): Qualität I - Preise je 100 kg
+1646	Wirsingkohl: alle Qualitäten - Preise je 100 kg
+1647	Wirsingkohl: Qualität I - Preise je 100 kg
+1671	Knollensellerie: alle Qualitäten - Preise je 100 kg
+1681	Kopfsalat (Freiland): alle Qualitäten - Preise je 100 kg
+1682	Kopfsalat (Freiland): Qualität I - Preise je 100 kg
+1683	Kopfsalat (Unterglas): alle Qualitäten - Preise je 100 kg
+1684	Kopfsalat (Unterglas): Qualität I - Preise je 100 kg
+1701	Spargel: alle Qualitäten - Preise je 100 kg
+1702	Spargel: Qualität I - Preise je 100 kg
+1751	Tomaten (Paradeiser), Freiland: alle Qualitäten - Preise je 100 kg
+1752	Tomaten (Paradeiser), Freiland: rund; Qualität I - Preise je 100 kg
+1753	Tomaten (Paradeiser), Freiland: oval; Qualität I - Preise je 100 kg
+1754	Tomaten (Paradeiser), unter Glas: alle Qualitäten - Preise je 100 kg
+1755	Tomaten (Paradeiser) , unter Glas: Qualität I - Preise je 100 kg
+1762	Salatgurken (Freiland): alle Qualitäten - Preise je 100 kg
+1763	Salatgurken (Freiland): Qualität I - Preise je 100 kg
+1764	Salatgurken (Unterglas): alle Qualitäten - Preise je 100 kg
+1765	Salatgurken (Unterglas): Qualität I - Preise je 100 kg
+1771	Zuckermelonen - Preise je 100 kg
+1777	Wassermelonen - Preise je 100 kg
+1831	Karotten: alle Qualitäten - Preise je 100 kg
+1832	Karotten: Qualität I - Preise je 100 kg
+1851	Zwiebeln: alle Qualitäten - Preise je 100 kg
+1891	Pflückerbsen: alle Qualitäten - Preise je 100 kg
+1892	Pflückerbsen: Qualität I - Preise je 100 kg
+1902	Grüne Bohnen (Fisolen): alle Qualitäten - Preise je 100 kg
+1903	Grüne Bohnen (Fisolen): Qualität I - Preise je 100 kg
+1910	Zuchtchampignons: alle Qualitäten - Preise je 100 kg
+1925	Brokkoli - Preise je 100 kg
+1926	Chinakohl - Preise je 100 kg
+1927	Käferbohnen (Feuerbohnen) - Preise je 100 kg
+1928	Knoblauch - Preise je 100 kg
+1929	Kohlrabi - Preise je 100 kg
+1930	Radieschen - Preise je 100 kg
+1931	Eissalat/Bummerlsalat - Preise je 100 kg
+1932	Spinat - Preise je 100 kg
+2111	Tafeläpfel: alle Sorten - Preise je 100 kg
+2112	Tafeläpfel: Golden delicious - Preise je 100 kg
+2114	Tafeläpfel: Cox's orange pippin - Preise je 100 kg
+2131	Tafelbirnen: alle Sorten - Preise je 100 kg
+2133	Tafelbirnen: Williams - Preise je 100 kg
+2138	Tafelbirnen: Doyenne du comice - Preise je 100 kg
+2181	Pfirsiche: alle Sorten - Preise je 100 kg
+2191	Aprikosen (Marillen): alle Sorten - Preise je 100 kg
+2201	Kirschen: Süßkirschen - Preise je 100 kg
+2202	Kirschen: Sauerkirschen (Weichseln) - Preise je 100 kg
+2213	Pflaumen: Zwetschgen - Preise je 100 kg
+2214	Pflaumen: Renekloden - Preise je 100 kg
+2215	Pflaumen: Mirabellen - Preise je 100 kg
+2219	Pflaumen zum Trocknen und übrige - Preise je 100 kg
+2225	Datteln - Preise je 100 kg
+2231	Walnüsse - Preise je 100 kg
+2232	Haselnüsse - Preise je 100 kg
+2233	Mandeln - Preise je 100 kg
+2236	Eßkastanien - Preise je 100 kg
+2241	Pistazien - Preise je 100 kg
+2251	Feigen frische - Preise je 100 kg
+2253	Avocados - Preise je 100 kg
+2256	Feigen getrocknete - Preise je 100 kg
+2258	Bananen - Preise je 100 kg
+2261	Erdbeeren (Freiland) - Preise je 100 kg
+2262	Erdbeeren (Unterglas) - Preise je 100 kg
+2263	Erdbeeren: alle Arten der Produktion - Preise je 100 kg
+2320	Orangen: alle Sorten - Preise je 100 kg
+2331	Orangen: Moro - Preise je 100 kg
+2332	Orangen: Sanguinello - Preise je 100 kg
+2334	Orangen: Tarocco - Preise je 100 kg
+2335	Orangen: Washington Navels - Preise je 100 kg
+2336	Orangen: Valencia - Preise je 100 kg
+2351	Mandarinen: alle Sorten - Preise je 100 kg
+2352	Mandarinen: Satsumas - Preise je 100 kg
+2353	Tangarinen: alle Sorten - Preise je 100 kg
+2360	Mandarinen: Clementinen - Preise je 100 kg
+2371	Zitronen: alle Sorten - Preise je 100 kg
+2372	Zitronen: Verdelli - Preise je 100 kg
+2373	Zitronen: Invernali - Preise je 100 kg
+2374	Zitronen: Vernia - Preise je 100 kg
+2375	Zitronen: Mesero - Preise je 100 kg
+2416	Rosinen - Preise je 100 kg
+2418	Korinthen - Preise je 100 kg
+2419	Sultaninen - Preise je 100 kg
+2421	Tafeltrauben: alle Sorten - Preise je 100 kg
+2445	Trauben zur Weinherstellung (Preise je 100 kg) - Preise je 100 kg
+2460	Tafeloliven - Preise je 100 kg
+2971	Johannisbrot - Preise je 100 kg
+3051	Azaleen (im Topf) - Preise je 100 Stück
+3054	Chrysanthemen (im Topf) - Preise je 100 Stück
+3057	Cyclamen (im Topf) - Preise je 100 Stück
+3064	Poinsettien (im Topf) - Preise je 100 Stück
+3100	Rosen - Preise je 100 Stück
+3103	Baccara-Rosen - Preise je 100 Stück
+3110	Nelken - Preise je 100 Stück
+3120	Chrysanthemen - Preise je 100 Stück
+3130	Gladiolen - Preise je 100 Stück
+3140	Tulpen - Preise je 100 Stück
+3150	Freesien - Preise je 100 Stück
+3810	Weinmost - Preise je 100 Liter
+3821	Weisswein - Preise je 100 Liter
+3822	Rotwein - Preise je 100 Liter
+3823	Rosewein - Preise je 100 Liter
+3831	Beziers - Preise je 100 Liter
+3832	Montpellier - Preise je 100 Liter
+3833	Narbonne - Preise je 100 Liter
+3834	Carcassonne - Preise je 100 Liter
+3835	Nîmes - Preise je 100 Liter
+3836	Perpignan - Preise je 100 Liter
+3840	Asti - Preise je 100 Liter
+3841	Verona - Preise je 100 Liter
+3842	Reggio Emilia - Preise je 100 Liter
+3843	Teramo - Preise je 100 Liter
+3844	Matera - Preise je 100 Liter
+3845	Brindisi - Preise je 100 Liter
+3846	Bari - Preise je 100 Liter
+3847	Catanzaro - Preise je 100 Liter
+3848	Sassari - Preise je 100 Liter
+3849	Forli - Preise je 100 Liter
+3850	Viterbo - Preise je 100 Liter
+3851	Foggia - Preise je 100 Liter
+3852	Taranto - Preise je 100 Liter
+3855	Elbling - Preise je 100 Liter
+3856	Rivaner - Preise je 100 Liter
+3861	Retsina (weiss) - Preise je 100 Liter
+3862	Aretsinoto (weiss) - Preise je 100 Liter
+3863	Kokkino - Preise je 100 Liter
+3871	Portugieser - Preise je 100 Liter
+3872	Riesling - Preise je 100 Liter
+3873	Sylvaner oder Mueller-thurgau - Preise je 100 Liter
+3881	Junger Weisswein - Preise je 100 Liter
+3882	Junger Rotwein - Preise je 100 Liter
+3883	Junger Rosewein und Clairet - Preise je 100 Liter
+3901	Corbières - Preise je 100 Liter
+3902	Côtes de provence - Preise je 100 Liter
+3903	Côtes du Rhône - Preise je 100 Liter
+3904	Bordeaux blancs - Preise je 100 Liter
+3906	Muscadet - Preise je 100 Liter
+3910	Barbara: Asti - Preise je 100 Liter
+3911	Dolcetto delle langhe: Cuneo - Preise je 100 Liter
+3912	Barbera: Cuneo - Preise je 100 Liter
+3913	Cabernet e merlot di collina: Bolzano - Preise je 100 Liter
+3914	Merlot: Treviso - Preise je 100 Liter
+3915	Cabernet: Treviso - Preise je 100 Liter
+3916	Lambrusco: Modena - Preise je 100 Liter
+3917	Sangiovese: Forli - Preise je 100 Liter
+3918	Albana: Forli - Preise je 100 Liter
+3919	Chianti: Siena - Preise je 100 Liter
+3920	Castelli (frascati-grottaferrata): Roma - Preise je 100 Liter
+3925	Auxerrois - Preise je 100 Liter
+3926	Riesling - Preise je 100 Liter
+3927	Pinot blanc - Preise je 100 Liter
+3928	Pinot gris - Preise je 100 Liter
+3931	Samos - Preise je 100 Liter
+3941	Dao - Preise je 100 Liter
+3950	Faßwein, gemischter Satz, weiß - Preise je 100 Liter
+3951	Faßwein, gemischter Satz, rot - Preise je 100 Liter
+3963	Extra vergine - Preise je 100 Liter
+3964	Sopraffino - fine - Preise je 100 Liter
+3965	Fino - Preise je 100 Liter
+3966	Semi-fine - Preise je 100 Liter
+3967	Comune - Preise je 100 Liter
+3968	Lampante - Preise je 100 Liter
+3969	Extra: Klasse I - Preise je 100 Liter
+1554	Rohtabak: flue cured - Preise je 100 kg
+1555	Rohtabak: light air cured - Preise je 100 kg
+1556	Rohtabak: dark air cured - Preise je 100 kg
+1557	Rohtabak: fire cured - Preise je 100 kg
+1558	Rohtabak: sun cured - Preise je 100 kg
+1583	Cartamo - Preise je 100 kg
+1911	Zucchini - Preise je 100 kg
+1912	Zichorie (Freiland) - Preise je 100 kg
+1913	Porree (Lauch) (Freiland) - Preise je 100 kg
+1914	Einlegegurken (Freiland) - Preise je 100 kg
+1915	Gemüsepaprika (unter Glas) - Preise je 100 kg
+1916	Winterkohl - Preise je 100 kg
+1917	Sommer- und Herbstkohl - Preise je 100 kg
+1918	Frühjahrblattgemüse - Preise je 100 kg
+1919	Pflückbohnen - Preise je 100 kg
+1920	Rote Rüben - Preise je 100 kg
+1921	Pastinake - Preise je 100 kg
+1922	Selleriestengel - Preise je 100 kg
+1923	Calabrese - Preise je 100 kg
+2115	Tafeläpfel: Jonagold - Preise je 100 kg
+2116	Tafeläpfel: Elstar - Preise je 100 kg
+2117	Tafeläpfel: Jonathon - Preise je 100 kg
+2118	Tafeläpfel: Egrement russet - Preise je 100 kg
+2119	Tafeläpfel: Spartan - Preise je 100 kg
+2120	Cidre - Äpfel - Preise je 100 kg
+2121	Kochäpfel: Bramley's seedling - Preise je 100 kg
+2139	Tafelbirnen: Conference - Preise je 100 kg
+2264	Himbeeren - Preise je 100 kg
+2265	Schwarze Johannisbeeren - Preise je 100 kg
+3065	Pelargonien (im Topf) - Preise je 100 Stück
+3066	Ficus (im Topf) - Preise je 100 Stück
+3067	Kalanchoe (im Topf) - Preise je 100 Stück
+3068	Saint Paulia (im Topf) - Preise je 100 Stück
+3069	Begonien (im Topf) - Preise je 100 Stück
+3151	Lilium - Preise je 100 Stück
+3152	Dianthus - Preise je 100 Stück
+3153	Gerbera - Preise je 100 Stück
+3154	Cymbidium - Preise je 100 Stück
+3155	Chrysanthemen: Zweig - Preise je 100 Stück
+3156	Chrysanthemen: Blüte - Preise je 100 Stück
+3700	Rotwein (10-12 % Vol.) - Preise je 100 Liter
+3701	Rotwein (12.5-15 % Vol.) - Preise je 100 Liter
+3702	Weißwein (10-13 % Vol.) - Preise je 100 Liter
+3705	Oltrepo pavese Barbera: Pavia - Preise je 100 Liter
+3706	Alto Adige Schiava: Bolzano - Preise je 100 Liter
+3707	Caldaro Classico superiore: Bolzano - Preise je 100 Liter
+3708	Trentino Chardonnay: Trento - Preise je 100 Liter
+3709	Bardolino: Verona - Preise je 100 Liter
+3710	Soave classico: Verona - Preise je 100 Liter
+3711	Valpolicella: Verona - Preise je 100 Liter
+3712	Chianti: Firenze - Preise je 100 Liter
+3713	Prosecco di Conegliano: Treviso - Preise je 100 Liter
+3714	Piave Merlot: Treviso - Preise je 100 Liter
+3715	Friuli Grave Merlot: Pordenone - Preise je 100 Liter
+3716	Colli piacentini Gutturnio: Piacenza - Preise je 100 Liter
+3717	Lambrusco reggiano: Reggio Emilia - Preise je 100 Liter
+3718	Verdicchio dei Colli di Jesi classico: Ancona - Preise je 100 Liter
+3719	Trebbiano d'Abruzzo: Chieti - Preise je 100 Liter
+3720	Orvieto classico: Terni - Preise je 100 Liter
+3721	Frascati superiore: Roma - Preise je 100 Liter
+3722	Montepulciano d'Abruzzo: Chieti - Preise je 100 Liter
+3837	Tafelwein: Frankreich - Preise je 100 Liter
+3838	Landwein: Frankreich - Preise je 100 Liter
+3884	Clairet - Preise je 100 Liter
+3730	Porto
+3731	Vinho Verde, Weißwein
+3732	Vinho Verde, Rotwein
+3733	Alentejo, Weißwein
+3734	Alentejo, Rotwein
+3735	Dão, Weißwein
+3736	Dão, Rotwein
+3737	Douro, Weißwein
+3738	Douro, Rotwein
+3739	Ribatejo, Weißwein
+3740	Ribatejo, Rotwein
+3741	Távora-Varosa, Weißwein
+3742	Távora-Varosa, Rotwein
+3743	Beira Interior, Weißwein
+3744	Beira Interior, Rotwein
+3745	Alenquer, Arruda and Torres Vedras, Weißwein
+3746	Alenquer, Arruda and Torres Vedras, Rotwein
+3747	Bairrada, Weißwein
+3748	Bairrada, Rotwein
+3749	Sonstige Regionen, Weißwein
+3750	Sonstige Regionen, Rotwein
+4150	Kälber - Preise je 100 kg Lebendgewicht
+4161	Jungrinder - Preise je 100 kg Lebendgewicht
+4162	Färsen - Preise je 100 kg Lebendgewicht
+4171	Kühe A (1. Qualität) - Preise je 100 kg Lebendgewicht
+4172	Kühe B (2. Qualität) - Preise je 100 kg Lebendgewicht
+4173	Kühe C (3. Qualität) - Preise je 100 kg Lebendgewicht
+4180	Ochsen - Preise je 100 kg Lebendgewicht
+4210	Kälber (Schlachtkörper) - Preise je 100 kg Schlachtkörpergewicht
+4232	Kälber (einige Tage alt) - Preise je Stück
+4233	Kälber (einige Wochen alt) - Preise je Stück
+4234	Jungrinder zur Aufzucht - Preise je Stück
+4235	Färsen zur Aufzucht - Preise je Stück
+4242	Jungbullen (U3) - Preise je 100 kg
+4245	Jungbullen (R3) - Preise je 100 kg
+4248	Jungbullen (O3) - Preise je 100 kg
+4254	Bullen (R3) - Preise je 100 kg
+4263	Ochsen (R3) - Preise je 100 kg
+4266	Ochsen (O3) - Preise je 100 kg
+4272	Kühe (R3) - Preise je 100 kg
+4275	Kühe (O3) - Preise je 100 kg
+4278	Kühe (P2) - Preise je 100 kg
+4283	Färsen (R3) - Preise je 100 kg
+4286	Färsen (O3) - Preise je 100 kg
+4291	Jungbullen (Erlöspreise) - Preise je 100 kg
+4293	Ochsen (Erlöspreise) - Preise je 100 kg
+4294	Kühe (Erlöspreise) - Preise je 100 kg
+4295	Färsen (Erlöspreise) - Preise je 100 kg
+4296	Ausgewachsene Rinder (Erlöspreise) - Preise je 100 kg
+4412	Schweine (leicht) - Preise je 100 kg Lebendgewicht
+4421	Schweine (Schlachtkörper) (Klasse II) - Preise je 100 kg
+4425	Schweine (Schlachtkörper) (Klasse I) - Preise je 100 kg
+4440	Ferkel - Preise je 100 kg Lebendgewicht
+4610	Pferde (Preise je 100 kg Lebendgewicht) - Preise je 100 kg Lebendgewicht
+4620	Pferde (Schlachtkörper) (Preise je 100 kg Schlachtgewicht) - Preise je 100 kg Schlachtgewicht
+4727	Milchlämmer - Preise je 100 kg Lebendgewicht
+4732	Mastlämmer - Preise je 100 kg Lebendgewicht
+4733	Schafe - Preise je 100 kg Lebendgewicht
+4752	Ziegenlämmer - Preise je 100 kg Lebendgewicht
+4753	Ziegen - Preise je 100 kg Lebendgewicht
+4821	Jungmasthähnchen (lebend; 1. Wahl) - Preise je 100 kg Lebendgewicht
+4871	Jungmasthähnchen (Klasse A; geschlachtet) - Preise je 100 kg Schlachtgewicht
+4933	Suppenhühner (geschlachtet) - Preise je 100 kg Schlachtgewicht
+4952	Enten (geschlachtet) - Preise je 100 kg Schlachtgewicht
+4971	Puten (geschlachtet) - Preise je 100 kg Schlachtgewicht
+4972	Puter (geschlachtet) - Preise je 100 kg Schlachtgewicht
+5021	Kaninchen (Preise je 100 kg Lebendgewicht) - Preise je 100 kg Lebendgewicht
+5022	Kaninchen (geschlachtet) (Preise je 100 kg Schlachtgewicht) - Preise je 100 kg Schlachtgewicht
+5180	Kuh-Rohmilch; 3;7% Fettgehalt - Preise je 100 kg
+5185	Kuh-Rohmilch; realer Fettgehalt - Preise je 100 kg
+5191	Schafs-Rohmilch - Preise je 100 kg
+5192	Ziegen-Rohmilch - Preise je 100 kg
+5315	Frische Eier (gesamtes Land) - Preise je 100 Stück
+5411	Kuh-Vollmilch für den menschlichen Verbrauch (Preise je 100 l) - Preise je 100 Liter
+5415	Sahne - Preise je 100 kg
+5421	Kondensmilch; ungezuckert - Preise je 100 kg
+5422	Kondensmilch; gezuckert - Preise je 100 kg
+5428	Magermilchpulver; nicht denaturiert - Preise je 100 kg
+5431	Yoghurt (10 % Fettgehalt) - Preise je 100 kg
+5435	Butter - Preise je 100 kg
+5545	Käse (30 % Fettgehalt) - Preise je 100 kg
+5546	Käse (45 % Fettgehalt) - Preise je 100 kg
+5511	Emmentaler - Emmenthal - Preise je 100 kg
+5512	Cantal - Preise je 100 kg
+5514	Grana (>ou= 1 anno) - Preise je 100 kg
+5515	Cheddar - Preise je 100 kg
+5516	Cheshire - Preise je 100 kg
+5517	Pecorino - Preise je 100 kg
+5520	Groviera - Preise je 100 kg
+5521	Kasseri - Preise je 100 kg
+5522	Kefalotiri - Preise je 100 kg
+5531	Gouda - Preise je 100 kg
+5532	Edamer - Edammer - Preise je 100 kg
+5533	Tilsiter - Preise je 100 kg
+5534	St. Paulin - Preise je 100 kg
+5535	Provolone - Preise je 100 kg
+5536	Fontina - Preise je 100 kg
+5538	Börenkaas - Preise je 100 kg
+5539	Havarti 45% - Preise je 100 kg
+5540	Havarti 30% - Preise je 100 kg
+5541	Esrom - Preise je 100 kg
+5542	Samso-danbo 30% - Preise je 100 kg
+5543	Samso-danbo 45% - Preise je 100 kg
+5544	Asiago - Preise je 100 kg
+5562	Gorgonzola - Preise je 100 kg
+5563	Blue stilton - Preise je 100 kg
+5564	Danablu - Preise je 100 kg
+5565	Roquefort - Preise je 100 kg
+5571	Camembert - Camembert normand - Preise je 100 kg
+5572	Limburger - Preise je 100 kg
+5573	Brie laitier - Preise je 100 kg
+5574	Carré de l'est - Preise je 100 kg
+5575	Munster - Preise je 100 kg
+5576	Taleggio - Preise je 100 kg
+5578	Feta - Preise je 100 kg
+5580	Chèvre laitier - Preise je 100 kg
+5581	Ricotta - Preise je 100 kg
+5582	Parmigiano reggiano (+ 1 anno) - Preise je 100 kg
+5583	Italico - Preise je 100 kg
+5584	Mozzarella - Preise je 100 kg
+5589	Hushalls - Preise je 100 kg
+5590	Herrgards - Preise je 100 kg
+5599	Schmelzkäse - Preise je 100 kg
+5610	Rohwolle - Preise je 100 kg
+5630	Honig - Preise je 100 kg
+7523	Destillat-Heizöl - Preise je 100 Liter
+7526	Rückstands-Heizöl - Preise je 100 kg
+7531	Motorenbenzin - Preise je 100 Liter
+7535	Dieselkraftstoff - Preise je 100 Liter
+7631	Ammonsulfat - Preise je 100 kg Nährstoff
+7634	Kalkammonsalpeter (20.5 % N) - Preise je 100 kg Nährstoff
+7635	Kalkammonsalpeter (26% N) (Sackware) - Preise je 100 kg Nährstoff
+7636	Kalkammonsalpeter (26% N) (Schüttgut) - Preise je 100 kg Nährstoff
+7645	Ammonsalpeter (33% N) (Sackware) - Preise je 100 kg Nährstoff
+7646	Ammonsalpeter (33% N) (Schüttgut) - Preise je 100 kg Nährstoff
+7647	Harnstoff - Preise je 100 kg Nährstoff
+7670	Superphosphat (18% P205) - Preise je 100 kg Nährstoff
+7674	Superphosphat (46% P205) - Preise je 100 kg Nährstoff
+7681	Kaliumchlorid - Preise je 100 kg Nährstoff
+7685	Kaliumsulfat - Preise je 100 kg Nährstoff
+7711	Zweinährstoffdünger: 1 - 1 - 0 - Preise je 100 kg Ware
+7721	Zweinährstoffdünger: 0 - 1 - 1 - Preise je 100 kg Ware
+7725	Zweinährstoffdünger: 0 - 20 - 20 - Preise je 100 kg Ware
+7750	Dreinährstoffdünger: 1 - 0;5 - 0;5 - Preise je 100 kg Ware
+7755	Dreinährstoffdünger: 20 - 10 - 10 - Preise je 100 kg Ware
+7758	Dreinährstoffdünger: 1 - 1 - 1 (Sackware) - Preise je 100 kg Ware
+7759	Dreinährstoffdünger: 17 - 17 - 17 (Sackware) - Preise je 100 kg Ware
+7766	Dreinährstoffdünger: 1 - 1 - 1 (Schüttgut) - Preise je 100 kg Ware
+7767	Dreinährstoffdünger : 17 - 17 - 17 (Schüttgut) - Preise je 100 kg Ware
+7770	Dreinährstoffdünger : 26 - 2 - 3 - Preise je 100 kg Ware
+7771	Dreinährstoffdünger : 20 - 4 - 8 - Preise je 100 kg Ware
+7772	Dreinährstoffdünger : 18 - 5 - 10 - Preise je 100 kg Ware
+7773	Dreinährstoffdünger : 23 - 5 - 10 - Preise je 100 kg Ware
+7774	Dreinährstoffdünger : 18 - 3 - 12 - Preise je 100 kg Ware
+7775	Dreinährstoffdünger : 12 - 6 - 17 - Preise je 100 kg Ware
+7776	Dreinährstoffdünger : 14 - 9 - 10 - Preise je 100 kg Ware
+7780	Dreinährstoffdünger: 1 - 1 - 2 - Preise je 100 kg Ware
+7785	Dreinährstoffdünger: 9 - 9 - 18 - Preise je 100 kg Ware
+7790	Dreinährstoffdünger: 1 - 2 - 2 - Preise je 100 kg Ware
+7795	Dreinährstoffdünger: 10 - 20 - 20 - Preise je 100 kg Ware
+8041	Futtermittel: Futterweizen - Preise je 100 kg
+8043	Futtermittel: Gerste - Preise je 100 kg
+8044	Futtermittel: Hafer - Preise je 100 kg
+8045	Futtermittel: Mais - Preise je 100 kg
+8052	Futtermittel: Weizenkleie - Preise je 100 kg
+8054	Futtermittel: Gerste gemahlen - Preise je 100 kg
+8056	Futtermittel: Mais gemahlen - Preise je 100 kg
+8075	Leinkuchen (gepreßt) - Preise je 100 kg
+8079	Sojaextraktionsschrot (getoastet) - Preise je 100 kg
+8120	Tiermehl - Preise je 100 kg
+8125	Fischmehl - Preise je 100 kg
+8140	Ackerbohnen - Preise je 100 kg
+8141	Felderbsen - Preise je 100 kg
+8142	Futtererbsen - Preise je 100 kg
+8153	Diffusionsschnitzel, getrocknet - Preise je 100 kg
+8171	Wiesenheu - Preise je 100 kg
+8175	Luzerneheu - Preise je 100 kg
+8180	Getreidestroh - Preise je 100 kg
+8233	Ergänzungsfutter für die Kälberaufzucht - Preise je 100 kg
+8237	Milchaustauschfutter für Kälber (Sackware) - Preise je 100 kg
+8238	Milchaustauschfutter für Kälber (Schüttgut) - Preise je 100 kg
+8253	Ergänzungsfutter für Milchvieh bei Weidegang - Preise je 100 kg
+8254	Ergänzungsfutter für Milchvieh (Aufstallung) (Sackware) - Preise je 100 kg
+8255	Ergänzungsfutter für Milchvieh (Aufstallung) (Schüttgut) - Preise je 100 kg
+8256	Eiweißreiches Ergänzungsfutter für Milchvieh (Aufstallung) (Sackware) - Preise je 100 kg
+8257	Eiweißreiches Ergänzungsfutter für Milchvieh (Aufstallung) (Schüttgut) - Preise je 100 kg
+8263	Ergänzungsfutter für die Rindermast (Sackware) - Preise je 100 kg
+8264	Ergänzungsfutter für die Rindermast (Schüttgut) - Preise je 100 kg
+8265	Eiweißreiches Ergänzungsfutter für die Rindermast (Sackware) - Preise je 100 kg
+8266	Eiweißreiches Ergänzungsfutter für die Rindermast (Schüttgut) - Preise je 100 kg
+8288	Alleinfutter für die Ferkelaufzucht (Sackware) - Preise je 100 kg
+8289	Alleinfutter für die Ferkelaufzucht (Schüttgut) - Preise je 100 kg
+8292	Alleinfutter für Zuchtsauen (Sackware) - Preise je 100 kg
+8293	Alleinfutter für Zuchtsauen (Schüttgut) - Preise je 100 kg
+8296	Alleinfutter für die Schweinemast (Sackware) - Preise je 100 kg
+8297	Alleinfutter für die Schweinemast (Schüttgut) - Preise je 100 kg
+8307	Alleinfutter für die Kücken der ersten Tage (Sackware) - Preise je 100 kg
+8308	Alleinfutter für die Kücken der ersten Tage (Schüttgut) - Preise je 100 kg
+8312	Alleinfutter für Junghennen bis zur Legereife (Sackware) - Preise je 100 kg
+8313	Alleinfutter für Junghennen bis zur Legereife (Schüttgut) - Preise je 100 kg
+8319	Alleinfutter für Legehennen in Batteriehaltung (Sackware) - Preise je 100 kg
+8320	Alleinfutter für Legehennen in Batteriehaltung (Schüttgut) - Preise je 100 kg
+8327	Alleinfutter für die Endmast von Geflügel (Sackware) - Preise je 100 kg
+8328	Alleinfutter für die Endmast von Geflügel (Schüttgut) - Preise je 100 kg

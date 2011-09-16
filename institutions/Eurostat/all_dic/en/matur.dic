@@ -1,0 +1,54 @@
+MAT_ALL	All maturities
+MAT_Y01	Yield on euro bonds: 1 year until maturity
+MAT_Y02	Yield on euro bonds: 2 years until maturity
+MAT_Y03	Yield on euro bonds: 3 years until maturity
+MAT_Y04	Yield on euro bonds: 4 years until maturity
+MAT_Y05	Yield on euro bonds: 5 years until maturity
+MAT_Y06	Yield on euro bonds: 6 years until maturity
+MAT_Y07	Yield on euro bonds: 7 years until maturity
+MAT_Y08	Yield on euro bonds: 8 years until maturity
+MAT_Y09	Yield on euro bonds: 9 years until maturity
+MAT_Y10	Yield on euro bonds: 10 years until maturity
+MAT_Y11	Yield on euro bonds: 11 years until maturity
+MAT_Y12	Yield on euro bonds: 12 years until maturity
+MAT_Y13	Yield on euro bonds: 13 years until maturity
+MAT_Y14	Yield on euro bonds: 14 years until maturity
+MAT_Y15	Yield on euro bonds: 15 years until maturity
+MAT_Y16	Yield on euro bonds: 16 years until maturity
+MAT_Y17	Yield on euro bonds: 17 years until maturity
+MAT_Y18	Yield on euro bonds: 18 years until maturity
+MAT_Y19	Yield on euro bonds: 19 years until maturity
+MAT_Y20	Yield on euro bonds: 20 years until maturity
+MAT_Y21	Yield on euro bonds: 21 years until maturity
+MAT_Y22	Yield on euro bonds: 22 years until maturity
+MAT_Y23	Yield on euro bonds: 23 years until maturity
+MAT_Y24	Yield on euro bonds: 24 years until maturity
+MAT_Y25	Yield on euro bonds: 25 years until maturity
+MAT_Y26	Yield on euro bonds: 26 years until maturity
+MAT_Y27	Yield on euro bonds: 27 years until maturity
+MAT_Y28	Yield on euro bonds: 28 years until maturity
+MAT_Y29	Yield on euro bonds: 29 years until maturity
+MAT_Y30	Yield on euro bonds: 30 years until maturity
+MAT_LT3M	Maturity less than 3 months
+MAT_GT3M	Maturity greater than 3 months
+MAT_LT1Y	Maturity less than 1 year
+MAT_GT1Y	Maturity greater than 1 year
+MAT_1TO2Y	Maturity between 1 and 2 years
+MAT_1TO5Y	Maturity between 1 and 5 years
+MAT_LT2Y	Maturity less than 2 years
+MAT_GT2Y	Maturity greater than 2 years
+MAT_LT5Y	Maturity less than 5 years
+MAT_GT5Y	Maturity greater than 5 years
+MAT_5TO7Y	Maturity between 5 and 7 years
+MAT_5TO10Y	Maturity between 5 and 10 years
+MAT_7TO10Y	Maturity between 7 and 10 years
+MAT_10TO15Y	Maturity between 10 and 15 years
+MAT_15TO30Y	Maturity between 15 and 30 years
+MAT_10TO20Y	Maturity between 10 and 20 years
+MAT_GT10Y	Maturity greater than 10 years
+MAT_GT20Y	Maturity greater than 20 years
+MAT_GT30Y	Maturity greater than 30 years
+SHORT	Short-term
+LONG	Long-term
+LONG_FXR	Long-term / Fixed rate issues
+LONG_FLR	Long-term / Floating rate issues

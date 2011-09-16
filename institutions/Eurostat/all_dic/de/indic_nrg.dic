@@ -1,0 +1,652 @@
+12_1176011	Nettoleistung der Wärmekraftwerke von hauptsächlich als Energieerzeuger tätigen Unternehmen
+12_1176012	Nettoleistung der Wärmekraftwerke von Eigenerzeuger
+12_1176031	Nettoleistung der Kernkraftwerke von hauptsächlich als Energieerzeuger tätigen Unternehmen
+12_1176032	Nettoleistung der Kernkraftwerke von Eigenerzeuger
+12_1176051	Nettoleistung der Wasserkraftwerke von hauptsächlich als Energieerzeuger tätigen Unternehmen
+12_1176052	Nettoleistung der Wasserkraftwerke von Eigenerzeuger
+12_1176053	Nettoleistung der Wasserkraftwerke
+12_1176071	Nettoleistung der Pumpspeicherkraftwerke von hauptsächlich als Energieerzeuger tätigen Unternehmen
+12_1176072	Nettoleistung der Pumpspeicherkraftwerke von Eigenerzeuger
+12_1176073	Nettoleistung der Pumpspeicherkraftwerke
+12_1176081	Nettoleistung der geothermischen Kraftwerke von hauptsächlich als Energieerzeuger tätigen Unternehmen
+12_1176082	Nettoleistung der geothermischen Kraftwerke von Eigenerzeuger
+12_1176083	Nettoleistung der geothermischen Kraftwerke
+12_1176091	Nettoleistung der Windkraftwerke von hauptsächlich als Energieerzeuger tätigen Unternehmen
+12_1176092	Nettoleistung der Windkraftwerke von Eigenerzeuger
+12_1176093	Nettoleistung der Windkraftwerke
+12_1176101	Nettoleistung von hauptsächlich als Energieerzeuger tätigen Unternehmen - sonstiges
+12_1176102	Nettoleistung von Eigenerzeugern- sonstiges
+12_1176111	Nettoleistung der Dampfturbinenkraftwerke von hauptsächlich als Energieerzeuger tätigen Unternehmen
+12_1176112	Nettoleistung der Dampfturbinenkraftwerke von Eigenerzeuger
+12_1176121	Nettoleistung der Gasturbinenkraftwerke von hauptsächlich als Energieerzeuger tätigen Unternehmen
+12_1176122	Nettoleistung der Gasturbinenkraftwerke von Eigenerzeuger
+12_1176131	Nettoleistung der Kraftwerke mit kombiniertem Kreislauf von hauptsächlich als Energieerzeuger tätigen Unternehmen
+12_1176132	Nettoleistung der Kraftwerke mit kombiniertem Kreislauf von Eigenerzeuger
+12_1176141	Nettoleistung der Kraftwerke mit Verbrennungsmotoren von hauptsächlich als Energieerzeuger tätigen Unternehmen
+12_1176142	Nettoleistung der Kraftwerke mit Verbrennungsmotoren von Eigenerzeuger
+12_117615	Nettoleistung von Wasserkraftwerken (Leistung < 1 MW)
+12_117616	Nettoleistung von Wasserkraftwerken (Leistung >= 1 MW und <= 10 MW)
+12_117617	Nettoleistung von Wasserkraftwerken (Leistung > 10 MW)
+12_1176231	Nettoleistung von Sonnenenergiesystemen von hauptsächlich als Energieerzeuger tätigen Unternehmen
+12_1176232	Nettoleistung von Sonnenenergiesystemen von Eigenerzeuger
+12_1176233	Nettoleistung der photovoltaischen Systeme
+12_1176243	Nettoleistung von thermischen Sonnenenergiesystemen
+12_1176253	Nettoleistung von Hausmüllkraftwerken
+12_1176263	Nettoleistung von Holz- und Holzabfallkraftwerken
+12_1176283	Nettoleistung von Industriemüllkraftwerken (nicht erneuerbare)
+12_1176301	Nettoleistung von hauptsächlich als Energieerzeuger tätigen Unternehmen - Gezeiten-/Wellen-/Meeresenergie
+12_1176302	Nettoleistung von Eigenerzeugern- Gezeiten-/Wellen-/Meeresenergie
+12_1176303	Nettoleistung - Gezeiten-/Wellen-/Meeresenergie
+12_1176313	Nettoleistung - Deponiegas
+12_1176323	Nettoleistung - Klärschlammgas
+12_1176333	Nettoleistung - Sonstige biogase
+12_1176343	Nettoleistung - Flüssige Biobrennstoffe
+12_1176401	Nettoleistung von Sonstigen Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen 
+12_1176402	Nettoleistung von Sonstigen Anlagen von Eigenerzeuger
+12_119300	Gesamtfläche installierter Sonnenkollektoren
+12_119401	Produktionskapazität - Biobenzin
+12_119402	Produktionskapazität - Biodiesel
+12_119403	Produktionskapazität - sonstige flüssige Biobrennstoffe
+14_1070421	Bruttoelektrizitätserzeugung von hauptsächlich als Energieerzeuger tätigen Unternehmen - photovoltaischer Systeme
+14_1070422	Bruttoelektrizitätserzeugung von hauptsächlich als Energieerzeuger tätigen Unternehmen - thermischer Sonnenenergie
+14_1070431	Bruttoelektrizitätserzeugung von Eigenerzeugern - photovoltaischer Systeme
+14_1070432	Bruttoelektrizitätserzeugung von Eigenerzeugern - thermischer Sonnenenergie
+15_107030	Bruttoelektrizitätserzeugung in Stromerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Kernkraftwerke
+15_107031	Bruttoelektrizitätserzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Kernkraftwerke
+15_107032	Bruttoelektrizitätserzeugung in Stromerzeugungsanlagen von Eigenerzeugern - Kernkraftwerke
+15_107033	Bruttoelektrizitätserzeugung in KWK-Anlagen von Eigenerzeugern - Kernkraftwerke
+15_107034	Bruttoelektrizitätserzeugung der Wasserkraftwerke von hauptsächlich als Energieerzeuger tätigen Unternehmen
+15_107035	Bruttoelektrizitätserzeugung der Wasserkraftwerke von Eigenerzeuger
+15_107036	Bruttoerzeugung der Pumpspeicherkraftwerke von hauptsächlich als Energieerzeuger tätigen Unternehmen
+15_107037	Bruttoerzeugung der Pumpspeicherkraftwerke von Eigenerzeugern
+15_107038	Bruttoelektrizitätserzeugung in Stromerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - geothermische Energie
+15_107039	Bruttoelektrizitätserzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - geothermische Energie
+15_107040	Bruttoelektrizitätserzeugung in Stromerzeugungsanlagen von Eigenerzeugern - geothermische Energie
+15_107041	Bruttoelektrizitätserzeugung in KWK-Anlagen von Eigenerzeugern - geothermische Energie
+15_107042	Bruttoelektrizitätserzeugung in Stromerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Sonnenenergie
+15_107043	Bruttoelektrizitätserzeugung in Stromerzeugungsanlagen von Eigenerzeugern - Sonnenenergie
+15_107044	Bruttoelektrizitätserzeugung in Stromerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Gezeiten-/Wellen-/Meeresenergie
+15_107045	Bruttoelektrizitätserzeugung in Stromerzeugungsanlagen von Eigenerzeugern - Gezeiten-/Wellen-/Meeresenergie
+15_107046	Bruttoelektrizitätserzeugung in Stromerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Windkraftwerke
+15_107047	Bruttoelektrizitätserzeugung in Stromerzeugungsanlagen von Eigenerzeugern - Windkraftwerke
+15_107048	Bruttoelektrizitätserzeugung in Stromerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - flüssige Brennstoffe
+15_107049	Bruttoelektrizitätserzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - flüssige Brennstoffe
+15_107050	Bruttoelektrizitätserzeugung in Stromerzeugungsanlagen von Eigenerzeugern - flüssige Brennstoffe
+15_107051	Bruttoelektrizitätserzeugung in KWK-Anlagen von Eigenerzeugern - flüssige Brennstoffe
+15_107052	Bruttoelektrizitätserzeugung in Stromerzeugungsanlagen von Eigenerzeugern - Wärme aus chemischen Prozessen
+15_107053	Bruttoelektrizitätserzeugung in KWK-Anlagen von Eigenerzeugern - Wärme aus chemischen Prozessen
+15_107054	Bruttoelektrizitätserzeugung in Stromerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - andere Quellen
+15_107055	Bruttoelektrizitätserzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - andere Quellen
+15_107056	Bruttoelektrizitätserzeugung in Stromerzeugungsanlagen von Eigenerzeugern - andere Quellen
+15_107057	Bruttoelektrizitätserzeugung in KWK-Anlagen von Eigenerzeugern - andere Quellen
+15_107060	Bruttowärmeerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Kernkraftwerke
+15_107061	Bruttowärmeerzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Kernkraftwerke
+15_107062	Bruttowärmeerzeugung in KWK-Anlagen von Eigenerzeugern - Kernkraftwerke
+15_107063	Bruttowärmeerzeugung in Wärmeerzeugungsanlagen von Eigenerzeugern - Kernkraftwerke
+15_107064	Bruttowärmeerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - geothermische Energie
+15_107065	Bruttowärmeerzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - geothermische Energie
+15_107066	Bruttowärmeerzeugung in KWK-Anlagen von Eigenerzeugern - geothermische Energie
+15_107067	Bruttowärmeerzeugung in Wärmeerzeugungsanlagen von Eigenerzeugern - geothermische Energie
+15_107068	Bruttowärmeerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Sonnenenergie
+15_107069	Bruttowärmeerzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Sonnenenergie
+15_107070	Bruttowärmeerzeugung in KWK-Anlagen von Eigenerzeugern - Sonnenenergie
+15_107071	Bruttowärmeerzeugung in Wärmeerzeugungsanlagen von Eigenerzeugern - Sonnenenergie
+15_107072	Bruttowärmeerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - flüssige Brennstoffe
+15_107073	Bruttowärmeerzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - flüssige Brennstoffe
+15_107074	Bruttowärmeerzeugung in KWK-Anlagen von Eigenerzeugern - flüssige Brennstoffe
+15_107075	Bruttowärmeerzeugung in Wärmeerzeugungsanlagen von Eigenerzeugern - flüssige Brennstoffe
+15_107076	Bruttowärmeerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Wärmepumpen
+15_107077	Bruttowärmeerzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Wärmepumpen
+15_107078	Bruttowärmeerzeugung in KWK-Anlagen von Eigenerzeugern - Wärmepumpen
+15_107079	Bruttowärmeerzeugung in Wärmeerzeugungsanlagen von Eigenerzeugern - Wärmepumpen
+15_107080	Bruttowärmeerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Elektrokessel
+15_107081	Bruttowärmeerzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Elektrokessel
+15_107082	Bruttowärmeerzeugung in KWK-Anlagen von Eigenerzeugern - Elektrokessel
+15_107083	Bruttowärmeerzeugung in Wärmeerzeugungsanlagen von Eigenerzeugern - Elektrokessel
+15_107084	Bruttowärmeerzeugung in KWK-Anlagen von Eigenerzeugern - Wärme aus chemischen Prozessen
+15_107085	Bruttowärmeerzeugung in Wärmeerzeugungsanlagen von Eigenerzeugern - Wärme aus chemischen Prozessen
+15_107086	Bruttowärmeerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Andere Quellen
+15_107087	Bruttowärmeerzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Andere Quellen
+15_107088	Bruttowärmeerzeugung in KWK-Anlagen von Eigenerzeugern - Andere Quellen
+15_107089	Bruttowärmeerzeugung in Wärmeerzeugungsanlagen von Eigenerzeugern - Andere Quellen
+16_107130	Nettoelektrizitätserzeugung in Stromerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Kernkraftwerke
+16_107131	Nettoelektrizitätserzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Kernkraftwerke
+16_107132	Nettoelektrizitätserzeugung in Stromerzeugungsanlagen von Eigenerzeugern - Kernkraftwerke
+16_107133	Nettoelektrizitätserzeugung in KWK-Anlagen von Eigenerzeugern - Kernkraftwerke
+16_107134	Nettoelektrizitätserzeugung der Wasserkraftwerke von hauptsächlich als Energieerzeuger tätigen Unternehmen
+16_107135	Nettoelektrizitätserzeugung der Wasserkraftwerke von Eigenerzeuger
+16_107136	Nettoerzeugung der Pumpspeicherkraftwerke von hauptsächlich als Energieerzeuger tätigen Unternehmen
+16_107137	Nettoerzeugung der Pumpspeicherkraftwerke von Eigenerzeugern
+16_107138	Nettoelektrizitätserzeugung in Stromerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - geothermische Energie
+16_107139	Nettoelektrizitätserzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - geothermische Energie
+16_107140	Nettoelektrizitätserzeugung in Stromerzeugungsanlagen von Eigenerzeugern - geothermische Energie
+16_107141	Nettoelektrizitätserzeugung in KWK-Anlagen von Eigenerzeugern - geothermische Energie
+16_107142	Nettoelektrizitätserzeugung in Stromerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Sonnenenergie
+16_107143	Nettoelektrizitätserzeugung in Stromerzeugungsanlagen von Eigenerzeugern - Sonnenenergie
+16_107144	Nettoelektrizitätserzeugung in Stromerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Gezeiten-/Wellen-/Meeresenergie
+16_107145	Nettoelektrizitätserzeugung in Stromerzeugungsanlagen von Eigenerzeugern - Gezeiten-/Wellen-/Meeresenergie
+16_107146	Nettoelektrizitätserzeugung in Stromerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Windkraftwerke
+16_107147	Nettoelektrizitätserzeugung in Stromerzeugungsanlagen von Eigenerzeugern - Windkraftwerke
+16_107148	Nettoelektrizitätserzeugung in Stromerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - flüssige Brennstoffe
+16_107149	Nettoelektrizitätserzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - flüssige Brennstoffe
+16_107150	Nettoelektrizitätserzeugung in Stromerzeugungsanlagen von Eigenerzeugern - flüssige Brennstoffe
+16_107151	Nettoelektrizitätserzeugung in KWK-Anlagen von Eigenerzeugern - flüssige Brennstoffe
+16_107152	Nettoelektrizitätserzeugung in Stromerzeugungsanlagen von Eigenerzeugern - Wärme aus chemischen Prozessen
+16_107153	Nettoelektrizitätserzeugung in KWK-Anlagen von Eigenerzeugern - Wärme aus chemischen Prozessen
+16_107154	Nettoelektrizitätserzeugung in Stromerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - andere Quellen
+16_107155	Nettoelektrizitätserzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - andere Quellen
+16_107156	Nettoelektrizitätserzeugung in Stromerzeugungsanlagen von Eigenerzeugern - andere Quellen
+16_107157	Nettoelektrizitätserzeugung in KWK-Anlagen von Eigenerzeugern - andere Quellen
+16_107160	Nettowärmeserzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Kernkraftwerke
+16_107161	Nettowärmeserzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Kernkraftwerke
+16_107162	Nettowärmeserzeugung in KWK-Anlagen von Eigenerzeugern - Kernkraftwerke
+16_107163	Nettowärmeserzeugung in Wärmeerzeugungsanlagen von Eigenerzeugern - Kernkraftwerke
+16_107164	Nettowärmeserzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - geothermische Energie
+16_107165	Nettowärmeserzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - geothermische Energie
+16_107166	Nettowärmeserzeugung in KWK-Anlagen von Eigenerzeugern - geothermische Energie
+16_107167	Nettowärmeserzeugung in Wärmeerzeugungsanlagen von Eigenerzeugern - geothermische Energie
+16_107168	Nettowärmeserzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Sonnenenergie
+16_107169	Nettowärmeserzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Sonnenenergie
+16_107170	Nettowärmeserzeugung in KWK-Anlagen von Eigenerzeugern - Sonnenenergie
+16_107171	Nettowärmeserzeugung in Wärmeerzeugungsanlagen von Eigenerzeugern - Sonnenenergie
+16_107172	Nettowärmeserzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - flüssige Brennstoffe
+16_107173	Nettowärmeserzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - flüssige Brennstoffe
+16_107174	Nettowärmeserzeugung in KWK-Anlagen von Eigenerzeugern - flüssige Brennstoffe
+16_107175	Nettowärmeserzeugung in Wärmeerzeugungsanlagen von Eigenerzeugern - flüssige Brennstoffe
+16_107176	Nettowärmeserzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Wärmepumpe
+16_107177	Nettowärmeserzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Wärmepumpe
+16_107178	Nettowärmeserzeugung in KWK-Anlagen von Eigenerzeugern - Wärmepumpe
+16_107179	Nettowärmeserzeugung in Wärmeerzeugungsanlagen von Eigenerzeugern - Wärmepumpe
+16_107180	Nettowärmeerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Elektrokessel
+16_107181	Nettowärmeerzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Elektrokessel
+16_107182	Nettowärmeerzeugung in KWK-Anlagen von Eigenerzeugern - Elektrokessel
+16_107183	Nettowärmeerzeugung in Wärmeerzeugungsanlagen von Eigenerzeugern - Elektrokessel
+16_107184	Nettowärmeerzeugung in KWK-Anlagen von Eigenerzeugern - Wärme aus chemischen Prozessen
+16_107185	Nettowärmeerzeugung in Wärmeerzeugungsanlagen von Eigenerzeugern - Wärme aus chemischen Prozessen
+16_107186	Nettowärmeerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Andere Quellen
+16_107187	Nettowärmeerzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Andere Quellen
+16_107188	Nettowärmeerzeugung in KWK-Anlagen von Eigenerzeugern - Andere Quellen
+16_107189	Nettowärmeerzeugung in Wärmeerzeugungsanlagen von Eigenerzeugern - Andere Quellen
+17_107000	Bruttoelektrizitätserzeugung insgesamt
+17_107100	Nettoelektrizitätserzeugung insgesamt
+22_108501	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Anthrazit
+22_108502	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Anthrazit
+22_108503	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Anthrazit
+22_108504	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Anthrazit
+22_108506	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Anthrazit
+22_108507	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Anthrazit
+22_108508	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Anthrazit
+22_108509	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Anthrazit
+22_108511	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Kokskohle
+22_108512	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Kokskohle
+22_108513	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Kokskohle
+22_108514	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Kokskohle
+22_108516	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Kokskohle
+22_108517	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Kokskohle
+22_108518	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Kokskohle
+22_108519	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Kokskohle
+22_108521	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Bituminöse Kohle
+22_108522	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Bituminöse Kohle
+22_108523	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Bituminöse Kohle
+22_108524	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Bituminöse Kohle
+22_108526	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Bituminöse Kohle
+22_108527	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Bituminöse Kohle
+22_108528	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Bituminöse Kohle
+22_108529	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Bituminöse Kohle
+22_108531	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Subbituminöse Kohle
+22_108532	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Subbituminöse Kohle
+22_108533	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Subbituminöse Kohle
+22_108534	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Subbituminöse Kohle
+22_108536	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Subbituminöse Kohle
+22_108537	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Subbituminöse Kohle
+22_108538	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Subbituminöse Kohle
+22_108539	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Subbituminöse Kohle
+22_108541	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Braunkohle
+22_108542	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Braunkohle
+22_108543	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Braunkohle
+22_108544	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Braunkohle
+22_108546	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Braunkohle
+22_108547	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Braunkohle
+22_108548	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Braunkohle
+22_108549	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Braunkohle
+22_108551	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Torf
+22_108552	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Torf
+22_108553	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Torf
+22_108554	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Torf
+22_108556	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Torf
+22_108557	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Torf
+22_108558	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Torf
+22_108559	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Torf
+22_108561	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Steinkohlenbriketts
+22_108562	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen  - Steinkohlenbriketts
+22_108563	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Steinkohlenbriketts
+22_108564	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Steinkohlenbriketts
+22_108566	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Steinkohlenbriketts
+22_108567	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Steinkohlenbriketts
+22_108568	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Steinkohlenbriketts
+22_108569	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Steinkohlenbriketts
+22_108571	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Kokereikoks
+22_108572	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Kokereikoks
+22_108573	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Kokereikoks
+22_108574	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Kokereikoks
+22_108576	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Kokereikoks
+22_108577	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Kokereikoks
+22_108578	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Kokereikoks
+22_108579	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Kokereikoks
+22_108581	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Gaskoks
+22_108582	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen  - Gaskoks
+22_108583	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Gaskoks
+22_108584	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Gaskoks
+22_108586	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Gaskoks
+22_108587	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Gaskoks
+22_108588	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Gaskoks
+22_108589	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Gaskoks
+22_108591	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Benzol
+22_108592	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Benzol
+22_108593	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Benzol
+22_108594	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Benzol
+22_108596	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Benzol
+22_108597	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Benzol
+22_108598	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Benzol
+22_108599	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Benzol
+22_108601	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Braunkohlen- und Torfbriketts
+22_108602	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Braunkohlen- und Torfbriketts
+22_108603	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Braunkohlen- und Torfbriketts
+22_108604	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Braunkohlen- und Torfbriketts
+22_108606	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Braunkohlen- und Torfbriketts
+22_108607	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Braunkohlen- und Torfbriketts
+22_108608	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Braunkohlen- und Torfbriketts
+22_108609	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Braunkohlen- und Torfbriketts
+22_108611	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Ortsgas
+22_108612	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Ortsgas
+22_108613	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Ortsgas
+22_108614	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Ortsgas
+22_108616	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Ortsgas
+22_108617	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Ortsgas
+22_108618	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Ortsgas
+22_108619	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Ortsgas
+22_108621	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Kokereigas
+22_108622	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Kokereigas
+22_108623	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Kokereigas
+22_108624	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Kokereigas
+22_108626	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Kokereigas
+22_108627	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Kokereigas
+22_108628	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Kokereigas
+22_108629	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Kokereigas
+22_108631	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Hochofengas
+22_108632	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Hochofengas
+22_108633	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Hochofengas
+22_108634	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Hochofengas
+22_108636	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Hochofengas
+22_108637	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Hochofengas
+22_108638	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Hochofengas
+22_108639	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Hochofengas
+22_108641	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Konvertergas
+22_108642	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Konvertergas
+22_108643	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Konvertergas
+22_108644	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Konvertergas
+22_108646	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Konvertergas
+22_108647	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Konvertergas
+22_108648	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Konvertergas
+22_108649	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Konvertergas
+22_108701	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Rohöl
+22_108702	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Rohöl
+22_108703	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Rohöl
+22_108704	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Rohöl
+22_108706	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Rohöl
+22_108707	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Rohöl
+22_108708	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Rohöl
+22_108709	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Rohöl
+22_108711	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Erdgaskondensate
+22_108712	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Erdgaskondensate
+22_108713	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Erdgaskondensate
+22_108714	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Erdgaskondensate
+22_108716	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Erdgaskondensate
+22_108717	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Erdgaskondensate
+22_108718	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Erdgaskondensate
+22_108719	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Erdgaskondensate
+22_108721	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Raffineriegas (nicht verflüssigt)
+22_108722	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Raffineriegas (nicht verflüssigt)
+22_108723	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Raffineriegas (nicht verflüssigt)
+22_108724	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Raffineriegas (nicht verflüssigt)
+22_108726	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Raffineriegas (nicht verflüssigt)
+22_108727	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Raffineriegas (nicht verflüssigt)
+22_108728	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Raffineriegas (nicht verflüssigt)
+22_108729	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Raffineriegas (nicht verflüssigt)
+22_108731	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - LPG
+22_108732	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - LPG
+22_108733	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - LPG
+22_108734	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - LPG
+22_108736	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - LPG
+22_108737	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - LPG
+22_108738	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - LPG
+22_108739	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - LPG
+22_108741	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Naphtha
+22_108742	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Naphtha
+22_108743	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Naphtha
+22_108744	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Naphtha
+22_108746	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Naphtha
+22_108747	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Naphtha
+22_108748	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Naphtha
+22_108749	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Naphtha
+22_108751	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Flugturbinenkraftstoff auf Petroleumbasis
+22_108752	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Flugturbinenkraftstoff auf Petroleumbasis
+22_108753	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Flugturbinenkraftstoff auf Petroleumbasis
+22_108754	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Flugturbinenkraftstoff auf Petroleumbasis
+22_108756	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Flugturbinenkraftstoff auf Petroleumbasis
+22_108757	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Flugturbinenkraftstoff auf Petroleumbasis
+22_108758	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Flugturbinenkraftstoff auf Petroleumbasis
+22_108759	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Flugturbinenkraftstoff auf Petroleumbasis
+22_108761	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Sonstiges Kerosin
+22_108762	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Sonstiges Kerosin
+22_108763	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Sonstiges Kerosin
+22_108764	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Sonstiges Kerosin
+22_108766	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Sonstiges Kerosin
+22_108767	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Sonstiges Kerosin
+22_108768	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Sonstiges Kerosin
+22_108769	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Sonstiges Kerosin
+22_108771	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Dieselöl/Gasöl
+22_108772	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Dieselöl/Gasöl
+22_108773	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Dieselöl/Gasöl
+22_108774	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Dieselöl/Gasöl
+22_108776	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Dieselöl/Gasöl
+22_108777	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Dieselöl/Gasöl
+22_108778	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Dieselöl/Gasöl
+22_108779	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Dieselöl/Gasöl
+22_108781	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Heizöle
+22_108782	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Heizöle
+22_108783	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Heizöle
+22_108784	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Heizöle
+22_108786	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Heizöle
+22_108787	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Heizöle
+22_108788	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Heizöle
+22_108789	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Heizöle
+22_108791	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Bitumen
+22_108792	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Bitumen
+22_108793	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Bitumen
+22_108794	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Bitumen
+22_108796	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Bitumen
+22_108797	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Bitumen
+22_108798	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Bitumen
+22_108799	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Bitumen
+22_108801	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Petrolkoks
+22_108802	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Petrolkoks
+22_108803	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Petrolkoks
+22_108804	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Petrolkoks
+22_108806	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Petrolkoks
+22_108807	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Petrolkoks
+22_108808	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Petrolkoks
+22_108809	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Petrolkoks
+22_108811	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Andere Mineralölerzeugnisse
+22_108812	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Andere Mineralölerzeugnisse
+22_108813	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Andere Mineralölerzeugnisse
+22_108814	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Andere Mineralölerzeugnisse
+22_108816	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Andere Mineralölerzeugnisse
+22_108817	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Andere Mineralölerzeugnisse
+22_108818	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Andere Mineralölerzeugnisse
+22_108819	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Andere Mineralölerzeugnisse
+22_108891	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Naturgas
+22_108892	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Naturgas
+22_108893	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Naturgas
+22_108894	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Naturgas
+22_108896	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Naturgas
+22_108897	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Naturgas
+22_108898	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Naturgas
+22_108899	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Naturgas
+22_108901	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Industrieabfälle
+22_108902	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Industrieabfälle
+22_108903	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Industrieabfälle
+22_108904	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Industrieabfälle
+22_108906	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Industrieabfälle
+22_108907	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Industrieabfälle
+22_108908	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Industrieabfälle
+22_108909	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Industrieabfälle
+22_108911	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Hausmüll (erneuerbare)
+22_108912	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Hausmüll (erneuerbare)
+22_108913	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Hausmüll (erneuerbare)
+22_108914	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Hausmüll (erneuerbare)
+22_108916	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Hausmüll (erneuerbare)
+22_108917	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Hausmüll (erneuerbare)
+22_108918	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Hausmüll (erneuerbare)
+22_108919	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Hausmüll (erneuerbare)
+22_108921	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Hausmüll (nicht erneuerbare)
+22_108922	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Hausmüll (nicht erneuerbare)
+22_108923	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Hausmüll (nicht erneuerbare)
+22_108924	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Hausmüll (nicht erneuerbare)
+22_108926	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Hausmüll (nicht erneuerbare)
+22_108927	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Hausmüll (nicht erneuerbare)
+22_108928	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Hausmüll (nicht erneuerbare)
+22_108929	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Hausmüll (nicht erneuerbare)
+22_108931	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Holz und Holzabfälle
+22_108932	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Holz und Holzabfälle
+22_108933	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Holz und Holzabfälle
+22_108934	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Holz und Holzabfälle
+22_108936	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Holz und Holzabfälle
+22_108937	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Holz und Holzabfälle
+22_108938	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Holz und Holzabfälle
+22_108939	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Holz und Holzabfälle
+22_108941	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Deponiegas
+22_108942	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Deponiegas
+22_108943	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Deponiegas
+22_108944	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Deponiegas
+22_108946	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Deponiegas
+22_108947	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Deponiegas
+22_108948	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Deponiegas
+22_108949	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Deponiegas
+22_108951	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Klärschlammgas
+22_108952	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Klärschlammgas
+22_108953	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Klärschlammgas
+22_108954	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Klärschlammgas
+22_108956	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Klärschlammgas
+22_108957	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Klärschlammgas
+22_108958	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Klärschlammgas
+22_108959	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Klärschlammgas
+22_108961	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Sonstige Biogase
+22_108962	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Sonstige Biogase
+22_108963	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Sonstige Biogase
+22_108964	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Sonstige Biogase
+22_108966	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Sonstige Biogase
+22_108967	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Sonstige Biogase
+22_108968	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Sonstige Biogase
+22_108969	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Sonstige Biogase
+22_108971	Bruttostromerzeugung in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen - Sonstige flüssige Biobrennstoffe
+22_108972	Bruttostromerzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Sonstige flüssige Biobrennstoffe
+22_108973	Bruttostromerzeugung in Elektrizitätswerken der Eigenerzeuger - Sonstige flüssige Biobrennstoffe
+22_108974	Bruttostromerzeugung in  KWK-Anlagen der Eigenerzeuger - Sonstige flüssige Biobrennstoffe
+22_108976	Bruttowärme-erzeugung in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Sonstige flüssige Biobrennstoffe
+22_108977	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen - Sonstige flüssige Biobrennstoffe
+22_108978	Bruttowärme-erzeugung in KWK-Anlagen der Eigenerzeuger - Sonstige flüssige Biobrennstoffe
+22_108979	Bruttowärme-erzeugung in Wärmeerzeugungsanlagen der Eigenerzeuger - Sonstige flüssige Biobrennstoffe
+B_100100	Primärerzeugung
+B_100110	Rohstoffeingänge
+B_100111	Direktverbrauch (Rohöl und Erdgaskondensate)
+B_100112	Direktverbrauch
+B_100200	Andere Quellen
+B_100210	Recyclingprodukte
+B_100300	Einfuhren
+B_100500	Gesamtausfuhren
+B_100400	Bestandsveränderungen
+B_100800	Bunker
+B_100900	Bruttoinlandsverbrauch
+B_101000	Umwandlungseinsatz
+B_101002	Einsatz in Kernkraftwerken
+B_101004	Einsatz in Kokereien
+B_101006	Einsatz in Hochöfen
+B_101007	Einsatz in Gaswerken
+B_101008	Einsatz in Raffinerien
+B_101010	Einsatz in Steinkohlenbrikettfabriken
+B_101011	Einsatz in Braunkohle-/Torfbrikettfabriken
+B_101012	Einsatz in Kohleverflüssigungsanlagen
+B_101013	Verbrauch zur Herstellung von Mischgas
+B_101014	Verbrauch als Zusatz zu Motorenbenzin/Diesel
+B_101015	Einsatz in Holzkohlefabriken
+B_101016	Einsatz in Umwandlung von Gas in Flüssigerzeugnisse
+B_101017	Verbrauch für Stromerzeugung
+B_101020	Einsatz - Nicht anderweitig genannt - Umwandlung
+B_101001	Einsatz in herkömmlichen Wärmekraftwerken
+B_101021	Einsatz in Wärmekraftwerken von hauptsächlich als Energieerzeuger tätigen Unternehmen
+B_101031	Einsatz in Elektrizitätswerken von hauptsächlich als Energieerzeuger tätigen Unternehmen
+B_101032	Einsatz in KWK-Anlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen
+B_101022	Einsatz in Wärmekraftwerken der Eigenerzeuger
+B_101034	Einsatz in Elektrizitätswerken der Eigenerzeuger
+B_101035	Einsatz in KWK-Anlagen der Eigenerzeuger
+B_101009	Einsatz in Fernheizkraftwerken
+B_101038	Einsatz in Wärmeerzeugungsanlagen von hauptsächlich als Energieerzeuger tätigen Unternehmen
+B_101039	Einsatz in Wärmeerzeugungsanlagen der Eigenerzeuger
+B_101100	Umwandlungsausstoss
+B_101101	Ausstoss von herkömmlichen Wärmekraftwerken
+B_101109	Ausstoss von Fernheizkraftwerken
+B_101121	Ausstoss von Wärmekraftwerken von hauptsächlich als Energieerzeuger tätigen Unternehmen
+B_101122	Ausstoss von Wärmekraftwerken der Eigenerzeuger
+B_101102	Ausstoss von Kernkraftwerken
+B_101104	Ausstoss von Kokereien
+B_101106	Ausstoss von Hochofen
+B_101107	Ausstoss von Gaswerken
+B_101108	Ausstoss von Reffinerien
+B_101110	Ausstoss von Steinkohlenbrikettfabriken
+B_101111	Ausstoss von Braunkohle-/Torfbrikettfabriken
+B_101115	Ausstoss von Holzkohlefabriken
+B_101200	Austausch, Übertragung, Rückläufe
+B_101210	Austausch zwischen Erzeugnissen
+B_101220	Übertragung von Erzeugnissen
+B_101230	Rückläufe der Petrochemie
+17_107301	Bruttoerzeugung von Pumpspeicherwerken
+17_107302	Verbrauch von Pumpspeicherwerken
+B_101300	Verbrauch im Energiesektor insgesamt
+B_101301	Verbrauch des Elektrizitätserzeugungssektors
+B_101302	Bilanz der Pumpspeicherkraftwerke
+B_101305	Verbrauch in der Erdöl- und Gasgewinnung
+B_101307	Verbrauch in Raffinerien
+B_101308	Verbrauch in Atomindustrie
+B_101310	Verbrauch in Kohlebergwerke
+B_101311	Verbrauch in Steinkohlenbrikettfabriken
+B_101312	Verbrauch in Kokereien
+B_101313	Verbrauch in Braunkohle-/Torfbrikettfabriken
+B_101314	Verbrauch in Gaswerke/Vergasungsanlagen
+B_101315	Verbrauch in Hochöfen
+B_101316	Verbrauch in Kohleverflüssigungsanlagen
+B_101317	Verbrauch in Verflüssigung (LNG) oder Vergasung
+B_101318	Verbrauch in Vergasungsanlagen (Biogas)
+B_101319	Verbrauch in Umwandlung von Gas in Flüssigerzeugnisse
+B_101320	Verbrauch in nicht anderweitig genannt - Energie
+B_101321	Verbrauch in Holzkohlefabriken
+B_101322	Verbrauch von Wärmepumpen
+B_101323	Verbrauch von Elektrokesseln
+B_101400	Netzverluste
+B_101500	Für den Endverbrauch zur Verfügung stehende Energie
+B_101600	Nichtenergetischer Endverbrauch
+B_101603	Nichtenergetischer Endverbrauch : Umwandlungssektor
+B_101604	Nichtenergetischer Endverbrauch : Energiesektor
+B_101605	Nichtenergetischer Endverbrauch : Industrie
+B_101606	Nichtenergetischer Endverbrauch : Verkehrssektor
+B_101607	Nichtenergetischer Endverbrauch : Sonstige Sektoren
+B_101608	Nichtenergetischer Endverbrauch : Industrie, Umwndlungssektor und energie
+B_101700	Energetischer Endverbrauch
+B_101800	Energetischer Endverbrauch der Industrie
+B_101805	Energetischer Endverbrauch der Stahlindustrie
+B_101810	Energetischer Endverbrauch der NE-Metallindustrie
+B_101815	Energetischer Endverbrauch der chemischen Industrie
+B_101820	Energetischer Endverbrauch der Nichtmetallische Mineralstoffe verarbeitenden Industrie
+B_101825	Energetischer Endverbrauch der Erzgewinnungsindustrie (mit Ausnahme der Brenn-und Kraftstoffgewinnung)
+B_101830	Energetischer Endverbrauch der Nahrungs- und Genussmittelindustrie
+B_101835	Energetischer Endverbrauch der Textil-, Lederwaren- und Bekleidungsindustrie
+B_101840	Energetischer Endverbrauch der Papier- und Druckindustrie
+B_101846	Energetischer Endverbrauch im Fahrtzeugbau
+B_101847	Energetischer Endverbrauch im Maschinenbau und anderen metallverarbeitenden Industrien
+B_101851	Energetischer Endverbrauch in Herstellung von Holz sowie Holz-, Kork- und Flechtwaren
+B_101852	Energetischer Endverbrauch im Baugewerbe
+B_101853	Energetischer Endverbrauch anderer Industriezweige
+B_101900	Energetischer Endverbrauch im Verkehrssektor
+B_101910	Energetischer Endverbrauch des Bahnverkehrs
+B_101920	Energetischer Endverbrauch des Strassenverkehrs
+B_101931	Energetischer Endverbrauch des Grenzüberschreitender Luftverkehrs
+B_101932	Energetischer Endverbrauch des Innerstaatlicher Luftverkehrs
+B_101940	Energetischer Endverbrauch der Binnenschiffahrt
+B_101945	Energetischer Endverbrauch : Transport in Pipelines
+B_101950	Energetischer Endverbrauch : Verkehrssektor - nicht anderweitig genannt
+B_102000	Energetischer Endverbrauch : Sonstige Sektoren
+B_102010	Energetischer Endverbrauch : Haushalte
+B_102020	Energetischer Endverbrauch : Fischerei und Fischzucht
+B_102030	Energetischer Endverbrauch : Land- und Forstwirtschaft
+B_102035	Energetischer Endverbrauch : Gewerbliche und öffentliche Dienstleistungen
+B_102040	Energetischer Endverbrauch : Sonstige Sektoren - nicht anderweitig genannt
+B_102200	Statistische Differenz
+B_107500UC	Verbrauch von Wärmekraftwerken zur öffentlichen Versorgung (in TJ (Nettoheizwert))
+10_105003	Brennstoffbestände der Wärmekraftwerke der öffentlichen Versorgung
+10_106101	Gesamtanfangsbestände auf dem Hoheitsgebiet des Staates
+10_106102	Gesamtendbestände auf dem Hoheitsgebiet des Staates
+B_107200	Verfügbar für den inländischen Markt
+B_109013	Rückläufe aus der petrochemischen Industrie an die Raffinerien
+10_196102	Endbestände
+B_107500US	Verbrauch von Wärmekraftwerken zur öffentlichen Versorgung (in spezifischen Einheiten)
+B_105122	Lieferungen von Kraftfahrzeug-LPG
+B_105105	Lieferungen an Kokereien
+B_105106	Lieferungen an die Eisen- und Stahlindustrie
+B_105102	Lieferungen an Stromerzeugungsanlagen hauptsächlich als Energieerzeuger tätiger Unternehmen
+B_105110	Lieferungen an Sonstige (Dienstleistungssektor, Haushalte usw.)
+B_105112	Lieferungen an Brikettfabriken
+B_105120	Lieferungen an die Industrie insgesamt
+B_105123	Lieferungen für die Energieerzeugung
+B_195500	Nachfrage
+B_109010	Bruttolieferungen an die petrochemische Industrie
+15_107000	Bruttoelektrizitätserzeugung insgesamt
+15_107001	Bruttoelektrizitätserzeugung Wasserkraftwerke
+15_107002	Bruttoelektrizitätserzeugung geothermische Kraftwerke
+15_107003	Bruttoelektrizitätserzeugung Kernkraftwerke
+15_107004	Bruttoelektrizitätserzeugung herkömmliche Wärmekraftwerke
+15_107005	Bruttoelektrizitätserzeugung Windkraftanlagen
+15_107301	Bruttoelektrizitätserzeugung Wasserkraftwerke (davon: Anteil Pumpspeicherwerke)
+16_107100A	Nettoelektrizitätserzeugung insgesamt
+16_107100B	Nettoelektrizitätserzeugung insgesamt
+16_107101	Nettoelektrizitätserzeugung Wasserkraftwerke
+16_107102	Nettoelektrizitätserzeugung geothermische Kraftwerke
+16_107103	Nettoelektrizitätserzeugung Kernkraftwerke
+16_107104	Nettoelektrizitätserzeugung herkömmliche Wärmekraftwerke
+16_107105	Nettoelektrizitätserzeugung Windkraftanlagen
+16_107301	Nettoelektrizitätserzeugung Wasserkraftwerke (davon: Anteil Pumpspeicherwerke)
+20_311010	Einfuhren aus: EU-Mitgliedstaaten
+21_321011	Ausfuhren in: Drittländer
+B_190100	Primärproduktion
+B_190300	Einfuhren
+B_190500	Ausfuhren
+B_190600	Nettoeinfuhren
+B_190900	Angebot
+B_197000	Gesamtbruttoerzeugung
+B_105200	Bruttoinlandslieferungen (ermittelt)
+B_105100	Lieferungen an den inländischen Markt (ermittelt)
+B_101401	Buchungsvermerk:       Raffinerieverluste
+B_105121	Buchungsvermerk:7:                    Lieferungen an die internationale Luftfahrt
+B_191008	Raffinerieeingang
+B_191108	Raffinerieausstoß
+B_190400	Bestandsveränderungen
+B_101103	Umwandlungsausstoß – Briketts / BKB-Anlagen
+10_128102	Bestände / Anfang / Im Rahmen bilateraler Regierungsvereinbarungen für andere Staaten gelagerte Bestände
+10_128104	Bestände / Anfang / Bestände mit bekannter ausländischer Bestimmung
+10_128105	Bestände / Anfang / Im Ausland im Rahmen bilateraler Regierungsvereinbarungen lagernde Bestände
+10_128107	Bestände / Anfang / Im Ausland lagernde Bestände, die endgültig für die Einfuhr in Ihr Land vorgesehen sind
+10_128108	Bestände / Anfang / Unter Zollverschluss lagernde Bestände, die nicht unter 10_128102 oder 10_128104 erfasst sind
+10_128109	Bestände / Anfang / Bestände von Großverbrauchern, die unter IEA-Bestimmungen fallen
+10_128110	Bestände / Anfang / Bestände an Bord einlaufender Hochseeschiffe im Hafen oder auf Reede
+10_128111	Bestände / Anfang / Bestände von Regierungen auf dem Hoheitsgebiet des Staates
+10_128112	Bestände / Anfang / Bestände von Lagerhaltungsorganisationen auf dem Hoheitsgebiet des Staates
+10_128113	Bestände / Anfang / Alle anderen Bestände, die auf dem Hoheitsgebiet des Staates gelagert werden
+10_128115	Bestände / Anfang / Sonstige Bestände in Zollagern
+10_128116	Bestände / Anfang / Pipelinefüllung
+10_128117	Bestände / Anfang / Im Ausland im Rahmen bilateraler Regierungsvereinbarungen lagernde Regierungsbestände
+10_128118	Bestände / Anfang / Im Ausland im Rahmen bilateraler Regierungsvereinbarungen lagernde Regierungsbestände
+10_128119	Bestände / Anfang / Andere im Ausland im Rahmen bilateraler Regierungsvereinbarungen lagernde Bestände
+10_128202	Bestände / Ende / Im Rahmen bilateraler Regierungsvereinbarungen für andere Staaten gelagerte Bestände
+10_128204	Bestände / Ende / Bestände mit bekannter ausländischer Bestimmung
+10_128205	Bestände / Ende / Im Ausland im Rahmen bilateraler Regierungsvereinbarungen lagernde Bestände
+10_128207	Bestände / Ende / Im Ausland lagernde Bestände, die endgültig für die Einfuhr in Ihr Land vorgesehen sind
+10_128208	Bestände / Ende / Unter Zollverschluss lagernde Bestände, die nicht unter 10_128102 oder 10_128104 erfasst sind
+10_128209	Bestände / Ende / Bestände von Großverbrauchern, die unter IEA-Bestimmungen fallen
+10_128210	Bestände / Ende / Bestände an Bord einlaufender Hochseeschiffe im Hafen oder auf Reede
+10_128211	Bestände / Ende / Bestände von Regierungen auf dem Hoheitsgebiet des Staates
+10_128212	Bestände / Ende / Bestände von Lagerhaltungsorganisationen auf dem Hoheitsgebiet des Staates
+10_128213	Bestände / Ende / Alle anderen Bestände, die auf dem Hoheitsgebiet des Staates gelagert werden
+10_128215	Bestände / Ende / Sonstige Bestände in Zollagern
+10_128216	Bestände / Ende / Pipelinefüllung
+10_128217	Bestände / Ende / Im Ausland im Rahmen bilateraler Regierungsvereinbarungen lagernde Regierungsbestände
+10_128218	Bestände / Ende / Im Ausland im Rahmen bilateraler Regierungsvereinbarungen lagernde Regierungsbestände
+10_128219	Bestände / Ende / Andere im Ausland im Rahmen bilateraler Regierungsvereinbarungen lagernde Bestände

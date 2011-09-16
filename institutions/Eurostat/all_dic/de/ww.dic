@@ -1,0 +1,55 @@
+WW_1	PUNKTQUELLEN
+WW_1_1	Landwirtschaft usw.
+WW_1_2	Bergbau und Gewinnung von Steinen und Erden
+WW_1_3	Verarbeitendes Gewerbe, insgesamt
+WW_1_3_1	Nahrungsmittelindustrie
+WW_1_3_2	Grundmetalle
+WW_1_3_3	Transportmittel
+WW_1_3_4	Textilien usw.
+WW_1_3_5	Papier und Papierprodukte
+WW_1_3_6	Chemische Produkte und raffiniertes Petroleum
+WW_1_4	Herstellung und Verteilung von Strom
+WW_1_5	Baugewerbe
+WW_1_6	Alle industriellen Aktivitäten
+WW_1_7	Sonstige Aktivitäten
+WW_1_8	Haushaltssektor
+WW_2	DIFFUSE QUELLEN
+WW_3	ALLE QUELLEN
+WW_4	Gesamtes Abwasseraufkommen im Haushaltssektor (40)
+WW_4_1	Mit Anschluß an die öffentliche Kanalisation (26)
+WW_4_2	Kein Anschluß an die öffentliche Kanalisation und eingeleitet
+WW_5	Gesamtes Abwasseraufkommen der Industrie
+WW_5_1	Mit Anschluß an die IWWP (28)
+WW_5_1_1	Eingeleitet nach Behandlung in IWWP
+WW_6	Industrielles Abwasseraufkommen
+WW_6_1	Mit Anschluß an die öffentliche Kanalisation (26)
+WW_6_2	Mit direktem Anschluß an MSTP (27)
+WW_6_3	Eingeleitet ohne jegliche Behandlung
+WW_7	Gesamtes Abwasseraufkommen mit Anschluß an die öffentliche Kanalisation (26)
+WW_7_1	Mit Anschluß an die IWWP (27)
+WW_7_2	Eingeleitet ohne jegliche Behandlung
+WW_7_3	Mit direktem Anschluß an MSTP (28)
+WW_8	Ablagerungen (Abwässer) der MSTP
+WWPOP_1	An die öffentliche Abwasserbehandlung angeschlossene Bevölkerung (% der Bevölkerung)
+WWPOP_2	An die öffentliche Kanalisation angeschlossene Bevölkerung (% der Bevölkerung)
+WWG_1	Gesamtabwasseraufkommen aus Punktquellen (1 000 EGW)
+WWG_2	Gesamtabwasseraufkommen aus Haushalte (1 000 EGW)
+WWG_3	Gesamtwasseraufkommen mit Kanalisationsanschluß (1 000 EGW)
+WWTP_0_1	Öffentliche Abwasserbehandlung insgesamt, Anzahl
+WWTP_0_2	Öffentliche Abwasserbehandlung insgesamt, Durchsatz (1 000 EGW)
+WWTP_0_3	Öffentliche Abwasserbehandlung insgesamt, tatsächlicher Durchsatz (1 000 EGW)
+WWTP_1_1	Mechanische Abwasserbehandlung, Anzahl
+WWTP_1_2	Mechanische Abwasserbehandlung, Durchsatz (1 000 EGW)
+WWTP_1_3	Mechanische Abwasserbehandlung, tatsächlicher Durchsatz (1 000 EGW)
+WWTP_2_1	Biologische Abwasserbehandlung, Anzahl
+WWTP_2_2	Biologische Abwasserbehandlung, Durchsatz (1 000 EGW)
+WWTP_2_3	Biologische Abwasserbehandlung, tatsächlicher Durchsatz (1 000 EGW)
+WWTP_3_1	Fortgeschrittene Behandlungstechnologie, Anzahl
+WWTP_3_2	Fortgeschrittene Behandlungstechnologie, Durchsatz (1 000 EGW)
+WWTP_3_3	Fortgeschrittene Behandlungstechnologie, tatsächlicher Durchsatz (1 000 EGW)
+IWW_0	Gesamtinvestitionen in Anlagen zur Sammlung und Behandlung von Abwasser, Öffentlicher Sektor + Privater Sektor (Mio Landeswährung)
+IWW_1	Gesamtinvestitionen in Anlagen zur Sammlung und Behandlung von Abwasser, Öffentlicher Sektor (Mio Landeswährung)
+IWW_1_1	Gesamtinvestitionen in Anlagen zur Sammlung und Behandlung von Abwasser, nationale Behörden (Öffentlicher Sektor) (Mio Landeswährung)
+IWW_1_2	Gesamtinvestitionen in Anlagen zur Sammlung und Behandlung von Abwasser, regionale Behörden (Öffentlicher Sektor) (Mio Landeswährung)
+IWW_1_3	Gesamtinvestitionen in Anlagen zur Sammlung und Behandlung von Abwasser, örtliche Behörden (Öffentlicher Sektor) (Mio Landeswährung)
+IWW_2	Gesamtinvestitionen in Anlagen zur Sammlung und Behandlung von Abwasser, nationale Behörden (Öffentlicher Sektor) (Mio Landeswährung)
