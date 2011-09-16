@@ -1,0 +1,162 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xhv: <http://www.w3.org/1999/xhtml/vocab#> .
+
+<file:///base/data/home/apps/eu-institutions/1.350258568214881859/index.html> dct:publisher <http://latc-project.eu/>;
+    xhv:stylesheet <file:///css/style.css> .
+
+<http://institutions.publicdata.eu/#Common_Security_And_Defence_Policy_Agency> dct:title "Common Security and Defence Policy Agency";
+    rdfs:subClassOf <http://institutions.publicdata.eu/#Regulatory_Agency> .
+
+<http://institutions.publicdata.eu/#EURATOM_Agency> dct:title "EURATOM Agency";
+    rdfs:subClassOf <http://institutions.publicdata.eu/#Decentralised_Body> .
+
+<http://institutions.publicdata.eu/#EU_Institutions_Bodies> dct:title """
+				<a href="/" xmlns="http://www.w3.org/1999/xhtml"><img alt="public data EU" src="img/logo_pdeu.png"/></a>
+				Institutions and Bodies of the European Union
+			"""^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+
+<http://institutions.publicdata.eu/#Executive_Agency> dct:title "Executive Agency";
+    rdfs:subClassOf <http://institutions.publicdata.eu/#Decentralised_Body> .
+
+<http://institutions.publicdata.eu/#Police_And_Judicial_Cooperation_In_criminal_Matters_Agency> dct:title "Police and judicial cooperation in criminal matters Agency";
+    rdfs:subClassOf <http://institutions.publicdata.eu/#Regulatory_Agency> .
+
+<http://institutions.publicdata.eu/#Policy_Agency> dct:title "Policy Agency";
+    rdfs:subClassOf <http://institutions.publicdata.eu/#Regulatory_Agency> .
+
+<http://institutions.publicdata.eu/#acourt> a <http://institutions.publicdata.eu/#EU_Institution>;
+    dct:description "The Court of Auditor's job is to check that EU funds, which come from the taxpayers, are properly collected and that they are spent legally, economically and for the intended purpose. Its aim is to ensure that the taxpayers get maximum value for their money, and it has the right to audit any person or organisation handling EU funds.";
+    dct:title "Court of Auditors";
+    owl:sameAs <http://dbpedia.org/resource/Court_of_Auditors>;
+    skos:altLabel "ECA";
+    foaf:homepage <http://eca.europa.eu/> .
+
+<http://institutions.publicdata.eu/#cor> a <http://institutions.publicdata.eu/#Consultative_Body>;
+    dct:description "The Committee of the Regions (CoR) is an advisory body composed of representatives of Europe's regional and local authorities. The CoR has to be consulted before EU decisions are taken on matters such as regional policy, the environment, education and transport - all of which concern local and regional government.";
+    dct:title "Committee of the Regions";
+    owl:sameAs <http://dbpedia.org/resource/Committee_of_the_Regions>;
+    skos:altLabel "CoR";
+    foaf:homepage <http://cor.europa.eu/> .
+
+<http://institutions.publicdata.eu/#council> a <http://institutions.publicdata.eu/#EU_Institution>;
+    dct:description "The Council of the European Union is the EU's main decision-making body. It represents the member states, and its meetings are attended by one minister from each of the EU's national governments.";
+    dct:title "Council of the European Union";
+    owl:sameAs <http://dbpedia.org/resource/Council_of_the_European_Union>;
+    skos:altLabel "Council";
+    foaf:homepage <http://www.consilium.europa.eu/> .
+
+<http://institutions.publicdata.eu/#eas> a <http://institutions.publicdata.eu/#Interinstitutional_Body>;
+    dct:description "The European Administrative School (EAS) was set up on 10 February 2005. Its task is to provide training in specific areas for members of EU staff. Its courses are open to staff of all the EU institutions, thereby helping spread common values, promoting better understanding among EU staff and achieving economies of scale. It works in close cooperation with the training departments of all the institutions to avoid any duplication of effort.";
+    dct:title "European Administrative School";
+    owl:sameAs <http://dbpedia.org/resource/European_Administrative_School>;
+    skos:altLabel "EAS";
+    foaf:homepage <http://europa.eu/eas/> .
+
+<http://institutions.publicdata.eu/#ec> a <http://institutions.publicdata.eu/#EU_Institution>;
+    dct:description "The European Commission is independent of national governments. Its job is to represent and uphold the interests of the EU as a whole. It drafts proposals for new European laws, which it presents to the European Parliament and the Council.";
+    dct:title "European Commission";
+    owl:sameAs <http://dbpedia.org/resource/European_Commission>;
+    skos:altLabel "Commission";
+    foaf:homepage <http://ec.europa.eu/> .
+
+<http://institutions.publicdata.eu/#ecb> a <http://institutions.publicdata.eu/#Financial_Body>;
+    dct:description "The European Central Bank's job is to manage the euro - the EU's single currency. The ECB is also responsible for framing and implementing the EU's economic and monetary policy.";
+    dct:title "European Central Bank";
+    owl:sameAs <http://dbpedia.org/resource/European_Central_Bank>;
+    skos:altLabel "ECB";
+    foaf:homepage <http://www.ecb.int/> .
+
+<http://institutions.publicdata.eu/#edps> a <http://institutions.publicdata.eu/#Interinstitutional_Body>;
+    dct:description "The responsibility of the European Data Protection Supervisor (EDPS) is to make sure that all EU institutions and bodies respect people's right to privacy when processing their personal data.";
+    dct:title "European Data Protection Supervisor";
+    owl:sameAs <http://dbpedia.org/resource/European_Data_Protection_Supervisor>;
+    skos:altLabel "EDPS";
+    foaf:homepage <http://edps.europa.eu/> .
+
+<http://institutions.publicdata.eu/#eesc> a <http://institutions.publicdata.eu/#Consultative_Body>;
+    dct:description "The European Economic and Social Committee (EESC) is an advisory body representing employers, trade unions, farmers, consumers and the other interest groups that collectively make up 'organised civil society'. It presents their views and defends their interests in policy discussions with the Commission, the Council and the European Parliament.";
+    dct:title "European Economic and Social Committee";
+    owl:sameAs <http://dbpedia.org/resource/European_Economic_and_Social_Committee>;
+    skos:altLabel "EESC";
+    foaf:homepage <http://eesc.europa.eu/> .
+
+<http://institutions.publicdata.eu/#eib> a <http://institutions.publicdata.eu/#Financial_Body>;
+    dct:description "The European Investment Bank's job is to lend money for projects of European interest (such as rail and road links, airports, or environmental schemes), particularly in the less well-off regions, candidate countries and the developing world. It also provides credit for investment by small businesses.";
+    dct:title "European Investment Bank";
+    owl:sameAs <http://dbpedia.org/resource/European_Investment_Bank>;
+    skos:altLabel "EIB";
+    foaf:homepage <http://eib.europa.eu/> .
+
+<http://institutions.publicdata.eu/#eif> a <http://institutions.publicdata.eu/#Financial_Body>;
+    dct:description "The European Investment Fund (EIF) was set up to help small businesses.";
+    dct:title "European Investment Fund";
+    owl:sameAs <http://dbpedia.org/resource/European_Investment_Fund>;
+    skos:altLabel "EIF";
+    foaf:homepage <http://eif.europa.eu/> .
+
+<http://institutions.publicdata.eu/#eom> a <http://institutions.publicdata.eu/#Specialised_Body>;
+    dct:description "The European Ombudsman acts as an intermediary between the citizen and the EU authorities. He is entitled to receive and investigate complaints from EU citizens, businesses and organisations, and from anyone residing or having their registered office in an EU country.";
+    dct:title "European Ombudsman";
+    owl:sameAs <http://dbpedia.org/resource/European_Ombudsman>;
+    skos:altLabel "Ombudsman";
+    foaf:homepage <http://ombudsman.europa.eu/> .
+
+<http://institutions.publicdata.eu/#ep> a <http://institutions.publicdata.eu/#EU_Institution>;
+    dct:description "The European Parliament (EP) is elected by the citizens of the European Union to represent their interests.";
+    dct:title "European Parliament";
+    owl:sameAs <http://dbpedia.org/resource/European_Parliament>;
+    skos:altLabel "EP";
+    foaf:homepage <http://www.europarl.europa.eu/> .
+
+<http://institutions.publicdata.eu/#epso> a <http://institutions.publicdata.eu/#Interinstitutional_Body>;
+    dct:description "The European Personnel Selection Office (EPSO) became operational in January 2003. Its task is to set competitive examinations for recruiting staff to work in all the EU institutions. This is more efficient than having each institution organise its own recruitment competitions. EPSO's annual budget of roughly 21 million is 11% less than what the EU institutions used to spend on recruitment.";
+    dct:title "European Personnel Selection Office";
+    owl:sameAs <http://dbpedia.org/resource/European_Personnel_Selection_Office>;
+    skos:altLabel "EPSO";
+    foaf:homepage <http://europa.eu/epso/> .
+
+<http://institutions.publicdata.eu/#jcourt> a <http://institutions.publicdata.eu/#EU_Institution>;
+    dct:description "The Court of Justice's job is to make sure that EU legislation is interpreted and applied in the same way in all EU countries, so that the law is equal for everyone. It ensures, for example, that national courts do not give different rulings on the same issue.";
+    dct:title "Court of Justice";
+    owl:sameAs <http://dbpedia.org/resource/European_Court_of_Justice>;
+    skos:altLabel "Court",
+        "Court of Justice of the European Communities";
+    foaf:homepage <http://curia.europa.eu/> .
+
+<http://institutions.publicdata.eu/#pubo> a <http://institutions.publicdata.eu/#Interinstitutional_Body>;
+    dct:description "The Publications Office of the European Union acts as the publishing house for the EU institutions, producing and distributing all official European Union publications, on paper and in digital form.";
+    dct:title "Publications Office of the European Union";
+    owl:sameAs <http://dbpedia.org/resource/Publications_Office_of_the_European_Union>;
+    skos:altLabel "Publications Office";
+    foaf:homepage <http://publications.europa.eu/> .
+
+<http://institutions.publicdata.eu/#Specialised_Body> dct:title "Specialised body of the European Union";
+    rdfs:subClassOf <http://www.w3.org/ns/org#Organization> .
+
+<http://institutions.publicdata.eu/#Consultative_Body> dct:title "Consultative body of the European Union";
+    rdfs:subClassOf <http://www.w3.org/ns/org#Organization> .
+
+<http://institutions.publicdata.eu/#Decentralised_Body> dct:title "Decentralised body of the European Union";
+    rdfs:subClassOf <http://www.w3.org/ns/org#Organization> .
+
+<http://institutions.publicdata.eu/#Financial_Body> dct:title "Financial body of the European Union";
+    rdfs:subClassOf <http://www.w3.org/ns/org#Organization> .
+
+<http://institutions.publicdata.eu/#Regulatory_Agency> dct:title "Regulatory Agency";
+    rdfs:subClassOf <http://institutions.publicdata.eu/#Decentralised_Body> .
+
+<http://institutions.publicdata.eu/#Interinstitutional_Body> dct:title "Interinstitutional body of the European Union";
+    rdfs:subClassOf <http://www.w3.org/ns/org#Organization> .
+
+<http://institutions.publicdata.eu/#EU_Institution> dct:title "Institution of the European Union";
+    rdfs:subClassOf <http://www.w3.org/ns/org#Organization> .
+
+###KA
+
+<http://institutions.publicdata.eu/#EU_Agency> a rdfs:Class ;
+  dct:title "Agency of the European Union"@en-gb ;
+.

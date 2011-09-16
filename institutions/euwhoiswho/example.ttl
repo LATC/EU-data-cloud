@@ -1,0 +1,44 @@
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:        <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:       <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix dct:        <http://purl.org/dc/terms/> .
+@prefix gr:         <http://purl.org/goodrelations/v1#> .
+@prefix owlTime:    <http://www.w3.org/2006/time#> .
+@prefix org:        <http://www.w3.org/ns/org#> .
+@prefix vcard:      <http://www.w3.org/2006/vcard/ns#> .
+@prefix opmv:       <http://purl.org/net/opmv/ns#> .
+@prefix org:        <http://www.w3.org/ns/org#> .
+
+@base <http://euwhoiswho.dataincubator.org/> .
+@prefix: inst <http://euwhoiswho.dataincubator.org/institutions/> .
+
+inst:European_Parliament 
+  a org:FormalOrganization ;
+  rdfs:label "European Parliament"@en-gb ;
+  dct:hasPart inst:MEPS ;
+.
+
+inst:MEPS 
+  a org:FormalOrganization ;
+  rdfs:label "Members of the European Parliament (MEPs)"@en-gb ;
+  dct:hasPart inst:MEPS_Governing_bodies ;
+.
+
+inst:MEPS_Governing_bodies 
+  a org:Organization ;
+  dct:hasPart inst:ParliamentsBureau ;
+.
+
+inst:ParliamentsBureau
+  a org:Organization ;
+  dct:hasPart 
+
+
+
+
+
+
+

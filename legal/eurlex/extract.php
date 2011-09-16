@@ -1,14 +1,14 @@
 <?php
 define('API_KEY', '');
-define('VOCAB_BASE', 'http://latc.aksw.org/eur-lex/vocab/');
-define('URI_BASE', 'http://latc.aksw.org/eur-lex/resource/');
+define('VOCAB_BASE', 'http://eur-lex.publicdata.eu/ontology/');
+define('URI_BASE', 'http://eur-lex.publicdata.eu/resource/');
 
 $alreadySeen = array();
 $bNodeCounter = 0;
 
 $prefixes = array(
-    'http://latc.aksw.org/eur-lex/resource/' => 'ns0',
-    'http://latc.aksw.org/eur-lex/vocab/'    => 'ns1'
+    'http://eur-lex.publicdata.eu/resource/' => 'ns0',
+    'http://eur-lex.publicdata.eu/ontology/' => 'ns1'
 );
 
 $propertyMapping = array(
