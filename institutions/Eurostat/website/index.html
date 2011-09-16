@@ -20,7 +20,7 @@
 	<div id="header">
 		<div id="menu">
 			<a href="/">Home</a> <strong>·</strong>
-			<a href="#org">Organisation</a><strong>·</strong>
+			<a href="#org">Organisation</a> <strong>·</strong>
 			<a href="#schema">Schema</a>
 		</div>
 		<div>
@@ -40,7 +40,14 @@
 			<li><a href="http://eurostat.linked-statistics.org/dsd/">dsd/</a> &hellip; contains the Data Structure Definition (DSD) in DataCube</li>
 			<li><a href="http://eurostat.linked-statistics.org/dic/">dic/</a> &hellip; contains the dictionaries DataCube</li>
 		</ul>
-		<h2 id="examples">Examples</h2>
+		
+		<h2 id="examples">Walkthrough Example</h2>
+		<p>In the following, we use the <a href="http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=apro_mt_lsequi&amp;lang=en" title="Eurostat - Data Explorer">Equidae (annual data) (apro_mt_lsequi)</a> dataset throughout to demonstrate all features available. In a simple, tabular rendering it looks as follows - click on the figure to get to a Google Docs spreadsheet:</p>
+			<a href="https://docs.google.com/spreadsheet/ccc?key=0Alwfpys1YRkcdENkTFhiMDd1WndudlBRWWFfWFZTNUE&hl=en_US#gid=0"><img src="example/apro_mt_lsequi.png" /></a>
+		<p>We have a dataset with four dimensions here: livstock, unit, geo and time. Now, how to make sense of this? First, we could inspect the <a href="http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/apro_mt_ls_esms.htm">metadata</a> for a dimension to learn more about it. This is what the DSD captures: FIG.</p>
+		<p>Observations/DataCube</p>
+		<p>Asking questions ... SPARQL</p>		
+		
 	</div>
 	
 	<div id="schema">
