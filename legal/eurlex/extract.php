@@ -37,13 +37,13 @@ $objectProperties = array(
     // 'form'                => '',
     //'title'               => 'http://purl.org/dc/terms/title',
     // 'api_url'             => '',
-    //     'eurlex_perma_url'    => '',
+    'eurlex_perma_url',
     //     'doc_id'              => '',
     //     'date_document'       => '',
     //     'of_effect'           => '',
     //     'end_validity'        => '',
     //     'oj_date'             => '',
-    //     'directory_codes'     => '',
+    'directory_code',
     //     'legal_basis'         => '',
     //     'addressee'           => '',
     //     'internal_ref'        => '',
@@ -51,9 +51,15 @@ $objectProperties = array(
     //     'text_url'            => '',
     //     'prelex_relation'     => '',
     //     'relationships'       => '',
-    //     'eurovoc_descriptors' => '',
+    'eurovoc_descriptor',
     //     'subject_matter'      => ''
 );
+
+$skippedProperties = array(
+    'api_url'
+);
+
+$formProperties = array();
 
 // 1. Fetch the first part of the data as JSON
 $apiUrl = 'http://api.epdb.eu/eurlex/document/?key=' . API_KEY;
@@ -101,7 +107,9 @@ function _handleData($data)
     global $bNodeCounter;
     global $propertyMapping;
     global $objectProperties;
-    
+    global $skippedProperties;
+    global $formProperties;
+#var_dump($data);exit;
     $result = array();
     $ntriples = array();
     
@@ -113,24 +121,81 @@ function _handleData($data)
         
         foreach ($itemSpec as $key=>$value) {
             $s = URI_BASE . $i;
-        
+
+            #if ($key !== 'title') {
+            #    continue;
+            #}
+
+            // Skip iff defined in skip array
+            if (in_array($key, $skippedProperties)) {
+                continue;
+            }
+
+            // Handle special Properties
+            _handleProperty($key, $value);
+            // Special case: form
+            if ($key === 'form') {
+                $p = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type';
+                $o = $formProperties[$value];
+                $ntriples[] = '<' . $s . '> <' . $p . '> <' . $o . '> . ' . PHP_EOL; 
+                continue;
+            }
+
             $p = null;
             if (isset($propertyMapping[$key])) {
                 $p = $propertyMapping[$key];
             } else {
                 $p = VOCAB_BASE . $key;
             }
+
+            // Skip emtpy values
+            if ($value === '') {
+                continue;
+            }
         
             $o = null;
             if (is_string($value)) {
                 $o = $value;
-            
-                $ntriples[] = '<' . $s . '> <' . $p . '> "' . $o . '" . ' . PHP_EOL; 
+
+                if (in_array($key, $objectProperties)) {
+                    $ntriples[] = '<' . $s . '> <' . $p . '> <' . $o . '> . ' . PHP_EOL; 
+                } else {
+                    $ntriples[] = '<' . $s . '> <' . $p . '> "' . $o . '" . ' . PHP_EOL; 
+                }
             } else {
+                // Special case: relationships
+                if ($key === 'relationships') {
+                    foreach ($value as $oItemSpec) {
+                        $rel = strtolower(trim($oItemSpec['relationship']));
+                        $rel = str_replace(':', '', $rel);
+
+                        $p = VOCAB_BASE . $rel;
+
+                        $o = null;
+                        if ($oItemSpec['link'] !== '') {
+                            $o = '<' . $oItemSpec['link'] . '>';
+                        } else {
+                            $o = '"' . $oItemSpec['relation'] . '"';
+                        }
+
+                        $ntriples[] = '<' . $s . '> <' . $p . '> ' . $o . ' . ' . PHP_EOL; 
+                    }
+
+                    continue;
+                }
+
+
                 foreach ($value as $oItemSpec) {
                     if (count($oItemSpec) === 1) {
                         foreach ($oItemSpec as $itemKey=>$itemValue) {
-                            $ntriples[] = '<' . $s . '> <' . $itemKey . '> "' . $itemValue . '" . ' . PHP_EOL; 
+                            $p = VOCAB_BASE . $itemKey;
+
+                            if (in_array($itemKey, $objectProperties)) {
+                                $o = URI_BASE . urlencode($itemValue);
+                                $ntriples[] = '<' . $s . '> <' . $p . '> <' . $o . '> . ' . PHP_EOL; 
+                            } else {
+                                $ntriples[] = '<' . $s . '> <' . $p . '> "' . $itemValue . '" . ' . PHP_EOL; 
+                            }
                         }
                     } else {
                         $bNodeID = '_:bnode' . $bNodeCounter++;
@@ -150,9 +215,28 @@ function _handleData($data)
     return $result;
 }
 
-function _writeTriple($s, $p, $o)
+function _handleProperty(&$property, &$value)
 {
-    
+    global $formProperties;
+
+    if ($property === 'form') {
+        if (!isset($formProperties[$value])) {
+            $formProperties[$value] = VOCAB_BASE . $value;
+        }
+    } else if ($property === 'title') {
+        if (substr($value, 0, 3) === '/* ') {
+            $value = substr($value, 3);
+        }
+        if (substr($value, 0, 2) === '/*') {
+            $value = substr($value, 2);
+        }  
+        if (substr($value, -3) === ' */') {
+            $value = substr($value, 0, -3);
+        } 
+        if (substr($value, -2) === '*/') {
+            $value = substr($value, 0, -2);
+        } 
+    }
 }
 
 function _fetchJSON($url)
@@ -177,3 +261,4 @@ function _fetchJSON($url)
     
     return json_decode($result, true);
 }
+
