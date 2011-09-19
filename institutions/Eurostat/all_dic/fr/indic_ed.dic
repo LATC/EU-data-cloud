@@ -1,0 +1,564 @@
+A01_1	Pourcentage de la population âgée de 25 à 64 ans ayant terminé au moins le niveau d'enseignement secondaire supérieur
+A01_2	Pourcentage de la population féminine âgée de 25 à 64 ans, ayant terminé au moins le niveau d'enseignement secondaire supérieur
+A01_3	Pourcentage de la population masculine âgée de 25 à 64 ans, ayant terminé au moins le niveau d'enseignement secondaire supérieur
+A02_1	Jeunes ayant quitté prématurément l'éducation et la formation - pourcentage de personnes âgées de 18 à 24 ans dont le niveau d'études ne dépasse pas l'enseignement secondaire inférieur et qui ne suivent aucune formation
+A02_2	Jeunes ayant quitté prématurément l'éducation et la formation - jeunes filles - % de la population féminine âgée de 18 à 24 ans dont le niveau d'études ne dépasse pas l'enseignement secondaire inférieur et n'étant ni dans l'enseignement post-secondaire ni en formation
+A02_3	Jeunes ayant quitté prématurément l'éducation et la formation - jeunes hommes - % de la population masculine âgée de 18 à 24 ans dont le niveau d'études ne dépasse pas l'enseignement secondaire inférieur et n'étant ni dans l'enseignement post-secondaire ni en formation
+D01_0D	Elèves et étudiants (niveaux CITE 1-6) (1 000)
+D01_1	Elèves et étudiants (niveaux CITE 0-6) - en % de l'ensemble des élèves et étudiants
+D01_1D	Elèves et étudiants (niveaux CITE 0-6) (1 000)
+D01_2	Elèves au niveau CITE 0 - en % de l'ensemble des élèves et étudiants
+D01_2D	Elèves au niveau CITE 0 (1 000)
+D01_3	Elèves au niveau CITE 1 - en % de l'ensemble des élèves et étudiants
+D01_3D	Elèves au niveau CITE 1 (1 000)
+D01_4	Elèves au niveau CITE 2 - en % de l'ensemble des élèves et étudiants
+D01_4D	Elèves au niveau CITE 2 (1 000)
+D01_5	Elèves et étudiants au niveau CITE 3 - en % de l'ensemble des élèves et étudiants
+D01_5D	Elèves et étudiants au niveau CITE 3 (1 000)
+D01_6	Etudiants au niveau CITE 4 - en % de l'ensemble des élèves et étudiants
+D01_6D	Etudiants au niveau CITE 4 (1 000)
+D01_7	Etudiants au niveau CITE 5-6 - en % de l'ensemble des élèves et étudiants
+D01_7D	Etudiants au niveau CITE 5-6 (1 000)
+D01_8	Etudiants au niveau CITE 5 en % de l'ensemble des élèves et étudiants
+D01_8D	Etudiants au niveau CITE 5 (1 000)
+D01_9	Etudiants au niveau CITE 6 en % de l'ensemble des élèves et étudiants
+D01_9D	Etudiants au niveau CITE 6 (1 000)
+D02_1	Etudiants du niveau CITE 5-6 - en pourcentage de tous les élèves et étudiants
+D02_1D	Etudiants du niveau CITE 5-6 (1 000)
+E01_1	Taux de chômage selon le niveau d'éducation atteint, par âge et par sexe
+E01_1D	Chômage selon le niveau d'éducation atteint, par âge et par sexe (1 000)
+EM1_1	Proportion de jeunes ayant quitté l'école employés dans le secteur des services et ayant terminé le niveau CITE1-2 lorqu'ils sortent du système éducatif pour la première fois
+EM1_2	Proportion de jeunes ayant quitté l'école employés dans le secteur des services et ayant terminé le niveau CITE3-4 lorqu'ils sortent du système éducatif pour la première fois
+EM1_3	Proportion de jeunes ayant quitté l'école employés dans le secteur des services et ayant terminé le niveau CITE5-6 lorqu'ils sortent du système éducatif pour la première fois
+EM1_4	Statut professionnel de jeunes ayant quitté l'école récemment et ayant terminé le niveau d'éducation CITE1-2
+EM1_5	Statut professionnel de jeunes ayant quitté l'école récemment et ayant terminé le niveau d'éducation CITE3-4
+EM1_6	Statut professionnel de jeunes ayant quitté l'école récemment et ayant terminé le niveau d'éducation CITE5-6
+ES1_1	Age moyen lors de la sortie du système éducatif pour la première fois
+ES1_2	Age moyen lors de la sortie du système éducatif pour la première fois après avoir atteint le niveau d'éducation CITE1-2
+ES1_3	Age moyen lors de la sortie du système éducatif pour la première fois après avoir atteint le niveau d'éducation CITE1-2
+ES1_4	Age moyen lors de la sortie du système éducatif pour la première fois après avoir atteint le niveau d'éducation CITE5-6
+ES2_1	Pourcentage de jeunes ayant terminé le niveau d'éducation CITE1-2 au moment de sortir de la formation continue
+ES2_2	Pourcentage de jeunes ayant terminé le niveau d'éducation CITE3-4 au moment de sortir de la formation continue
+ES2_3	Pourcentage de jeunes ayant terminé le niveau d'éducation CITE5-6 au moment de sortir de la formation continue
+ES3_1	Pourcentage de parents ayant terminé le niveau d'éducation CITE1-2
+ES3_2	Pourcentage de parents ayant terminé le niveau d'éducation CITE3-4
+ES3_3	Pourcentage de parents ayant terminé le niveau d'éducation CITE5-6
+ES4_1	Taux absolus de stabilité entre les acquis en fin d'étude chez les jeunes hommes et chez les jeunes femmes et les acquis de leurs parents %
+ES4_2	Taux absolus de stabilité entre les acquis en fin d'étude chez les jeunes hommes et les acquis de leurs parents %
+ES4_3	Taux absolus de stabilité entre les acquis en fin d'étude chez les jeunes femmes et les acquis de leurs parents %
+ES4_4	Taux abslolus de mobilité asendante entre les niveaux d'études atteints par les jeunes hommes et jeunes femmes et leurs parents en %
+ES4_5	Taux abslolus de mobilité asendante entre les niveaux d'études atteints par les jeunes hommes et leurs parents en %
+ES4_6	Taux abslolus de mobilité asendante entre les niveaux d'études atteints par les jeunes femmes et leurs parents en %
+ES4_7	Taux abslolus de mobilité descendante entre les niveaux d'études atteints par les jeunes hommes et les jeunes femmes et leurs parents en %
+ES4_8	Taux abslolus de mobilité descendante entre les niveaux d'études atteints par les jeunes hommes et leurs parents en %
+ES4_9	Taux abslolus de mobilité descendante entre les niveaux d'études atteints par les jeunes femmes et leurs parents en %
+ES5_1	Hommes et femmes du niveau CITE1-2 ayant quitté l'école précocément selon le niveau d'études le plus élévé de leurs parents en %
+ES5_2	Hommes du niveau CITE1-2 ayant quitté l'école précocément selon le niveau d'études le plus élévé de leurs parents en %
+ES5_3	Femmes du niveau CITE1-2 ayant quitté l'école précocément selon le niveau d'études le plus élévé de leurs parents en %
+ES5_4	Hommes et femmes du niveau CITE3-4 ayant quitté l'école précocément selon le niveau d'études le plus élévé de leurs parents en %
+ES5_5	Hommes du niveau CITE3-4 ayant quitté l'école précocément selon le niveau d'études le plus élévé de leurs parents en %
+ES5_6	Femmes du niveau CITE3-4 ayant quitté l'école précocément selon le niveau d'études le plus élévé de leurs parents en %
+ES5_7	Hommes et femmes du niveau CITE5-6 ayant quitté l'école précocément selon le niveau d'études le plus élévé de leurs parents en %
+ES5_8	Hommes du niveau CITE5-6 ayant quitté l'école précocément selon le niveau d'études le plus élévé de leurs parents en %
+ES5_9	Femmes du niveau CITE5-6 ayant quitté l'école précocément selon le niveau d'études le plus élévé de leurs parents en %
+ET1_1	Taux d'activité en temps (mois) après avoir quitté l'éducation continue pour la première fois
+ET2_1	Proportion de travailleurs indépendants en temps (mois) après avoir quitté l'éducation continue pour la première fois
+ET3_1	Proportion d'emplois précaires en temps (mois) après avoir quitté l'éducation continue du niveau CITE1-2
+ET3_2	Proportion d'emplois précaires en temps (mois) après avoir quitté l'éducation continue du niveau CITE3-4
+ET3_3	Proportion d'emplois précaires en temps (mois) après avoir quitté l'éducation continue du niveau CITE5-6
+ET6_1	Taux de chômage en temps (mois) après avoir quitté l'éducation continue pour la première fois
+ET6_2	Taux de chômage en temps (mois) après avoir quitté l'éducation continue du niveau CITE1-2 pour la première fois
+ET6_3	Taux de chômage en temps (mois) après avoir quitté l'éducation continue du niveau CITE3-4 pour la première fois
+ET6_4	Taux de chômage en temps (mois) après avoir quitté l'éducation continue du niveau CITE5-6 pour la première fois
+F01_1	Dépenses publiques totales pour l'éducation en pourcentage du PIB
+F02_1	Dépenses publiques pour l'éducation du niveau primaire (CITE 1) en % du PIB
+F02_2	Dépenses publiques pour l'éducation du niveau secondaire (CITE 2-4) en % du PIB
+F02_3	Dépenses publiques pour l'éducation du niveau supérieur (CITE 5-6) en % du PIB
+F02_4	Dépenses publiques pour l'éducation du niveau pré-primaire (CITE 0) ou non allouées par niveau, en % du PIB
+F03_1	Dépenses par élève dans les institutions publiques d'enseignement primaire (CITE 1)
+F03_1D	Dépenses par élève dans les institutions publiques d'enseignement primaire en SPA (CITE 1)
+F03_2	Dépenses par élève/étudiant dans les institutions publiques d'enseignement secondaire (CITE 2-4)
+F03_2D	Dépenses par élève/étudiant dans les institutions publiques d'enseignement secondaire en SPA (CITE 2-4)
+F03_3	Dépenses par élève/étudiant dans les institutions publiques d'enseignement supérieur (CITE 5-6)
+F03_3D	Dépenses par élève/étudiant dans les institutions publiques d'enseignement supérieur en SPA (CITE 5-6)
+FA01_1	Dépenses publiques totales au titre de l'éducation en millions EUR SPA, tous niveaux d'enseignement confondus
+FA01_2	Dépenses publiques totales au titre de l'éducation en millions EUR SPA au niveau de l'enseignement primaire (CITE 1)
+FA01_3	Dépenses publiques totales au titre de l'éducation en millions EUR SPA au niveau de l'enseignement secondaire (CITE 2-4)
+FA01_4	Dépenses publiques totales au titre de l'éducation en millions EUR SPA au niveau de l'enseignement tertiaire (CITE 5-6)
+FC01_1	Indice des dépenses publiques totales au titre de l'éducation en prix constants (2000 = 100), tous niveaux d'enseignement confondus
+FD01_1	Aides financières aux élèves et étudiants en % des dépenses publiques totales d'éducation, tous niveaux confondus
+FD01_2	Aides financières aux élèves en % des dépenses publiques totales d'éducation aux niveaux d'enseignement primaire et secondaire (CITE 1-4)
+FD01_3	Aides financières aux étudiants en % des dépenses publiques totales d'éducation, au niveau de l'enseignement tertiaire (CITE 56)
+FN01_1	Dépenses annuelles d'éducation par élève/étudiant en EUR SPA au titre des établissements d'enseignement publics, tous niveaux confondus, calculs fondés sur des équivalents temps plein
+FN01_2	Dépenses annuelles d'éducation par élève en EUR SPA au titre des établissements d'enseignement publics au niveau de l'enseignement primaire (CITE 1), calculs fondés sur des équivalents temps plein
+FN01_3	Dépenses annuelles d'éducation par élève en EUR SPA au titre des établissements d'enseignement publics au niveau de l'enseignement secondaire (CITE 2-4), calculs fondés sur des équivalents temps plein
+FN01_4	Dépenses annuelles d'éducation par élève en EUR SPA au titre des établissements d'enseignement publics au niveau de l'enseignement tertiaire (CITE 56), calculs fondés sur des équivalents temps plein
+FN02_1	Rapport entre les dépenses annuelles d'éducation par étudiant au niveau de l'enseignement tertiaire et les dépenses annuelles d'éducation par élève au niveau de l'enseignement primaire, au titre des établissements d'enseignement publics, calculs fondés sur des équivalents temps plein
+FN03_1	Dépenses annuelles d'éducation par élève/étudiant dans les établissements d'enseignement publics en comparaison du PIB par habitant, tous niveaux confondus, calculs fondés sur des équivalents temps plein
+FN03_2	Dépenses annuelles d'éducation par élève dans les établissements d'enseignement publics en comparaison du PIB par habitant au niveau de l'enseignement primaire (CITE 1), calculs fondés sur des équivalents temps plein
+FN03_3	Dépenses annuelles d'éducation par élève dans les établissements d'enseignement publics en comparaison du PIB par habitant au niveau de l'enseignement secondaire (CITE 2-4), calculs fondés sur des équivalents temps plein
+FN03_4	Dépenses annuelles d'éducation par étudiant dans les établissements d'enseignement publics en comparaison du PIB par habitant au niveau de l'enseignement tertiaire (CITE 56), calculs fondés sur des équivalents temps plein
+FN04_1	Dépenses courantes en % des dépenses totales dans les établissements d'enseignement publics, tous niveaux confondus
+FN04_2	Dépenses en capital en % des dépenses totales dans les établissements d'enseignement publics, tous niveaux confondus
+FN04_3	Dépenses de personnel en % des dépenses totales dans les établissements d'enseignement publics, tous niveaux confondus
+FN04_4	Autres dépenses courantes en % des dépenses totales dans les établissements d'enseignement publics, tous niveaux confondus
+FP01_1	Dépenses publiques totales au titre de l'éducation en % du PIB, tous niveaux d'enseignement confondus
+FP02_1	Dépenses publiques totales au titre de l'éducation en % du PIB au niveau de l'enseignement primaire (CITE 1)
+FP02_2	Dépenses publiques totales au titre de l'éducation en % du PIB au niveau de l'enseignement secondaire (CITE 2-4)
+FP02_3	Dépenses publiques totales au titre de l'éducation en % du PIB au niveau de l'enseignement tertiaire (CITE 5-6)
+FP02_4	Dépenses publiques totales au titre de l'éducation en % du PIB au niveau de l'enseignement pré-primaire et non allouées par niveau d'enseignement
+FP03_1	Dépenses de sources publiques au titre des établissements d'enseignement en % du PIB, tous niveaux confondus
+FP03_2	Subventions publiques au secteur privé en % du PIB, tous niveaux confondus
+FP04_1	Dépenses publiques totales au titre de l'éducation en % des dépenses publiques totales, tous niveaux d'enseignement confondus
+FP04_2	Dépenses de sources publiques au titre des établissements d'enseignement en % des dépenses publiques totales, tous niveaux confondus
+FP04_3	Subventions publiques au secteur privé en % des dépenses publiques totales, tous niveaux confondus
+FP05_1	Dépenses de sources privées au titre des établissements d'enseignement en % du PIB, tous niveaux d'enseignement confondus
+FP06_1	Dépenses publiques totales d'éducation en % du revenu national net, tous niveaux d'enseignement confondus
+FS01_1	Enveloppe initiale provenant de l'administration centrale en % de l'enveloppe initiale provenant de tous les niveaux d'administration confondus
+FS01_2	Enveloppe initiale provenant de l'administration régionale en % de l'enveloppe initiale provenant de tous les niveaux d'administration confondus
+FS01_3	Enveloppe initiale provenant de l'administration locale en % de l'enveloppe initiale provenant de tous les niveaux d'administration confondus
+FS02_1	Enveloppe finale provenant de l'administration centrale en % de l'enveloppe finale provenant de tous les niveaux d'administration confondus
+FS02_2	Enveloppe finale provenant de l'administration régionale en % de l'enveloppe finale provenant de tous les niveaux d'administration confondus
+FS02_3	Enveloppe finale provenant de l'administration locale en % de l'enveloppe finale provenant de tous les niveaux d'administration confondus
+FS03_1	Dépenses de sources publiques au titre des établissements d'enseignement en % des dépenses de sources publiques et privées au titre des établissements d'enseignement, tous niveaux d'enseignement confondus
+FS03_2	Dépenses de sources privées au titre des établissements d'enseignement en % des dépenses de sources publiques et privées au titre des établissements d'enseignement, tous niveaux d'enseignement confondus
+FT01_1	Dépenses annuelles d'éducation par élève/étudiant en EUR SPA au titre des établissements d'enseignement publics et privés, tous niveaux d'enseignement confondus, calculs fondés sur des équivalents temps plein
+FT01_2	Dépenses annuelles d'éducation par élève en EUR SPA au titre des établissements d'enseignement publics et privés au niveau de l'enseignement primaire (CITE 1), calculs fondés sur des équivalents temps plein
+FT01_3	Dépenses annuelles par élève en EUR SPA au titre des établissements d'enseignement publics et privés au niveau de l'enseignement secondaire (CITE 2-4), calculs fondés sur des équivalents temps plein
+FT01_4	Dépenses annuelles par étudiant en EUR SPA au titre des établissements d'enseignement publics et privés au niveau de l'enseignement tertiaire (CITE 5-6), calculs fondés sur des équivalents temps plein
+FT02_1	Dépenses annuelles d'éducation par élève/étudiant par rapport au PIB par habitant au titre des établissements d'enseignement publics et privés, tous niveaux d'enseignement confondus, calculs fondés sur des équivalents temps plein
+FT02_2	Dépenses annuelles d'éducation par élève au titre des établissements d'enseignement publics et privés au niveau de l'enseignement primaire (CITE 1), calculs fondés sur des équivalents temps plein
+FT02_3	Dépenses annuelles d'éducation par élève au titre des établissements d'enseignement publics et privés au niveau de l'enseignement secondaire (CITE 2-4), calculs fondés sur des équivalents temps plein
+FT02_4	Dépenses annuelles d'éducation par étudiant au titre des établissements d'enseignement publics et privés au niveau de l'enseignement tertiaire (CITE 5-6), calculs fondés sur des équivalents temps plein
+FT03_1	Dépenses annuelles d'éducation dans les établissements d'enseignement publics et privés en % du PIB, tous niveaux d'enseignement confondus
+FT03_2	Dépenses annuelles d'éducation dans les établissements d'enseignement publics et privés en % du PIB au niveau de l'enseignement primaire (CITE 1)
+FT03_3	Dépenses annuelles d'éducation dans les établissements d'enseignement publics et privés en % du PIB au niveau de l'enseignement secondaire (CITE 2-4)
+FT03_4	Dépenses annuelles d'éducation dans les établissements d'enseignement publics et privés en % du PIB au niveau de l'enseignement tertiaire (CITE 5-6)
+G01_1	Population âgée de 0 à 9 ans - en % de la population totale
+G01_1D	Population âgée de 0 à 9 ans (1 000)
+G01_2	Population âgée de 10 à 19 ans - en % de la population totale
+G01_2D	Population âgée de 10 à 19 ans (1 000)
+G01_3	Population âgée de 20 à 29 ans - en % de la population totale
+G01_3D	Population âgée de 20 à 29 ans (1 000)
+G01_4D	Population âgée de 0 à 29 ans (1 000)
+G01_5D	Population totale (1 000)
+G02_1	Prévisions de scolarité des élèves et étudiants (CITE 0-6)
+G02_2	Prévisions du nombre d'années de l'enseignement tertiare (CITE 5-6)
+G03_1	Elèves et étudiants (CITE 1-6) âgés de 0 à 29 ans - en % de la population âgée de 20 à 29 ans
+G03_1D	Elèves et étudiants (CITE 1-6) âgés de 0 à 29 ans (1 000)
+G03_2	Elèves et étudiants (CITE 1-6) âgés de 5-29 ans - en % de la population âgée de 5-29 ans
+G03_2D	Elèves et étudiants (CITE 1-6) âgés de 5-29 ans (1 000)
+G04_1	Etudiants dans l'enseignement non-obligatoire - en % de la population totale en âge d'obligation scolaire
+G04_1D	Etudiants dans l'enseignement non-obligatoire (1 000)
+G04_2D	Population dans l'enseignement non-obligatoire (1 000)
+G05_1	Elèves et étudiants (CITE 1-3) - en % de la population totale selon l'âge
+G05_1D	Elèves et étudiants (CITE 1-3) (1 000)
+G06_1	Population active - en % de la population totale
+G06_1D	Population active (1 000)
+G07_1	Taux de participation à l'enseignement des plus de 18 ans, CITE 1-6
+G08_1	Age de scolarité obligatoire (minimum)
+G08_2	Age de scolarité obligatoire (maximum)
+G09_1	Age théorique de début de scolarité (CITE 3A)
+G09_2	Age théorique de début de scolarité (CITE 5A)
+G09_3	Age théorique de début de scolarité (CITE 5B)
+LA01_01	Nombre moyen de langues étrangères étudiées par élève
+LA02_01	Pourcentage des élèves n'étudiant aucune langue étrangère
+LA02_02	Pourcentage des élèves étudiant 1 langue étrangère
+LA02_03	Pourcentage des élèves étudiant 2 langues étrangères ou plus
+LA03_01	Elèves étudiant l'anglais en % de l'ensemble des élèves de ce niveau
+LA03_02	Elèves étudiant le français en % de l'ensemble des élèves de ce niveau
+LA03_03	Elèves étudiant l'allemand en % de l'ensemble des élèves de ce niveau
+LA03_04	Elèves étudiant l'espagnol en % de l'ensemble des élèves de ce niveau
+LA03_05	Elèves étudiant le russe en % de l'ensemble des élèves de ce niveau
+LA04_01D	Elèves n'étudiant aucune langue étrangère
+LA04_02D	Elèves étudiant 1 langue étrangère
+LA04_03D	Elèves étudiant 2 langues étrangères ou plus (1 000)
+LA04_04D	Elèves étudiant l'anglais (1000)
+LA04_05D	Elèves étudiant le français (1000)
+LA04_06D	Elèves étudiant l'allemand (1000)
+LA04_07D	Elèves étudiant l'espagnol (1000)
+LA04_08D	Elèves étudiant le russe (1000)
+L01_1	Elèves au niveau CITE 1 étudiant 2 langues étrangères ou plus
+L01_1D	Elèves au niveau CITE 1 étudiant 2 langues étrangères ou plus (1 000)
+L01_2	Elèves au niveau CITE 1 n'étudiant aucune langue étrangère
+L01_2D	Elèves au niveau CITE 1 n'étudiant aucune langue étrangère (1 000)
+L01_3	Elèves au niveau CITE 1 étudiant 1 langue étrangère
+L01_3D	Elèves au niveau CITE 1 étudiant 1 langue étrangère (1 000)
+L01_4	Pourcentage des élèves au niveau CITE 2 étudiant 2 langues étrangères ou plus
+L01_5	Pourcentage des élèves au niveau CITE 2 (GEN) étudiant 2 langues étrangères
+L01_6	Pourcentage des élèves au niveau CITE 2 étudiant 1 langue étrangère
+L01_7	Pourcentage des élèves au niveau CITE 3 (GEN) étudiant 2 langues étrangères ou plus
+L01_8	Pourcentage des élèves au niveau CITE 3 (GEN) étudiant 2 langues étrangères
+L01_9	Pourcentage des élèves au niveau CITE 3 (GEN) étudiant 1 langue étrangère 
+L01_10	Pourcentage des élèves aux niveaux CITE 2 et 3 (GEN) étudiant 3 langues étrangères ou plus
+L01_11	Pourcentage des élèves aux niveaux CITE 2 et 3 (GEN) étudiant 2 langues étrangères
+L01_12	Pourcentage des élèves aux niveaux CITE 2 et 3 (GEN) étudiant 1 langue étrangère
+L01_13	Pourcentage des élèves au niveau CITE 2 étudiant aucune langue étrangère
+L01_14	Pourcentage des élèves au niveau CITE 3 (GEN) étudiant aucune langue étrangère
+L01_15	Pourcentage des élèves au niveau CITE 2 et 3 (GEN) étudiant aucune langue étrangère
+L01_16	Pourcentage des élèves au niveau CITE 3, professionnel, étudiant 2 langues étrangères ou plus
+L01_17	Pourcentage des élèves au niveau CITE 3, professionnel, étudiant 2 langues étrangères
+L01_18	Pourcentage des élèves au niveau CITE 3, professionnel, étudiant 1 langue étrangère
+L01_19	Pourcentage des élèves au niveau CITE 3, professionnel, étudiant aucune langue étrangère
+L02_1	Nombre moyen de langues étrangères étudiées par élève au niveau CITE 2
+L02_2	Nombre moyen de langues étrangères étudiées par élève au niveau CITE 3
+L02_3	Nombre moyen de langues étrangères étudiées par élève aux niveaux CITE 2 et 3
+L02_4	Nombre moyen de langues étrangères étudiées par élève au niveau CITE 1
+L02_5	Nombre moyen de langues étrangères étudiées par élève au niveau CITE 2
+L02_6	Nombre moyen de langues étrangères étudiées par élève au niveau CITE 3 général
+L02_7	Nombre moyen de langues étrangères étudiées par élève aux niveaux CITE 2 et 3 général
+L02_8	Nombre moyen de langues étrangères étudiées par élève au niveau CITE 3
+L03_1	Elèves étudiant l'anglais au niveau CITE 2 - en % de l'ensemble des élèves de ce niveau
+L03_1D	Elèves étudiant l'anglais au niveau CITE 2 (1 000)
+L03_2	Elèves étudiant l'anglais au niveau CITE 3 (GEN) - en % de l'ensemble des élèves de ce niveau
+L03_2D	Elèves étudiant l'anglais au niveau CITE 3 (GEN) (1 000)
+L03_3	Elèves étudiant l'anglais aux niveaux CITE 2 et 3 (GEN) - en % de l'ensemble des élèves de ce niveau
+L03_3D	Elèves étudiant l'anglais aux niveaux CITE 2 et 3 (GEN) (1 000)
+L03_4	Elèves étudiant le français au niveau CITE 2 - en % de l'ensemble des élèves de ce niveau
+L03_4D	Elèves étudiant le français au niveau CITE 2 (1 000)
+L03_5	Elèves étudiant le français au niveau CITE 3 (GEN) - en % de l'ensemble des élèves de ce niveau
+L03_5D	Elèves étudiant le français au niveau CITE 3 (GEN) (1 000)
+L03_6	Elèves étudiant le français aux niveaux CITE 2 et 3 (GEN) - en % de l'ensemble des élèves de ce niveau
+L03_6D	Elèves étudiant le français aux niveaux CITE 2 et 3 (GEN) (1 000)
+L03_7	Elèves étudiant l'allemand au niveau CITE 2 - en % de l'ensemble des élèves de ce niveau
+L03_7D	Elèves étudiant l'allemand au niveau CITE 2 (1 000)
+L03_8	Elèves étudiant l'allemand au niveau CITE 3 (GEN) - en % de l'ensemble des élèves de ce niveau
+L03_8D	Elèves étudiant l'allemand au niveau CITE 3 (GEN) (1 000)
+L03_9	Elèves étudiant l'allemand aux niveaux CITE 2 et 3 (GEN)- en % de l'ensemble des élèves de ce niveau
+L03_9D	Elèves étudiant l'allemand aux niveaux CITE 2 et 3 (GEN) (1 000)
+L03_10	Elèves étudiant l'espagnol au niveau CITE 2 - en % de l'ensemble des élèves de ce niveau
+L03_10D	Elèves étudiant l'espagnol au niveau CITE 2 (1 000)
+L03_11	Elèves étudiant l'espagnol au niveau CITE 3 (GEN) - en % de l'ensemble des élèves de ce niveau
+L03_11D	Elèves étudiant l'espagnol au niveau CITE 3 (GEN) (1 000)
+L03_12	Elèves étudiant l'espagnol aux niveaux CITE 2 et 3 (GEN) - en % de l'ensemble des élèves de ce niveau
+L03_12D	Elèves étudiant l'espagnol aux niveaux CITE 2 et 3 (GEN) (1 000)
+L03_13	Elèves étudiant le russe au niveau CITE 2 - en % de l'ensemble des élèves de ce niveau
+L03_14	Elèves étudiant le russe au niveau CITE 3 (GEN) - en % de l'ensemble des élèves de ce niveau
+L03_15	Elèves étudiant le russe au niveau CITE 2 et 3 (GEN) - en % de l'ensemble des élèves de ce niveau
+L03_16	Elèves étudiant l'anglais au niveau CITE 1 - en % de l'ensemble des élèves de ce niveau
+L03_17	Elèves étudiant le français au niveau CITE 1 - en % de l'ensemble des élèves de ce niveau
+L03_18	Elèves étudiant l'allemand au niveau CITE 1 - en % de l'ensemble des élèves de ce niveau
+MG01_1D	Diplômés étrangers en chiffres absolus
+MG01_1P	Diplômés étrangers en pourcentage de l’ensemble des diplômés dans le pays d’accueil (%)
+MG01_2D	Diplômés mobiles entrants en chiffres absolus
+MG01_2P	Diplômés mobiles entrants en pourcentage de l’ensemble des diplômés dans le pays d’accueil (%)
+MM1_1	Incidence de la désadaptation professionnelle par pays (%)
+MM1_2	Incidence de la désadaptation professionnelle chez les femmes (%)
+MM1_3	Incidence de la désadaptation professionnelle chez les hommes (%)
+MM1_4	Incidence de la désadaptation professionnelle au niveau CITE3-4 (%)
+MM1_5	Incidence de la désadaptation professionnelle au niveau CITE5-6 (%)
+MM2_1	Incidence de la désadaptation professionnelle par domaine d'éducation (%)
+MM2_2	Incidence de la désadaptation professionnelle dans le domaine des Humanités et des arts (%)
+MM2_3	Incidence de la désadaptation professionnelle dans les domaines des Sciences sociales, des Affaires et du Droit (%)
+MM2_4	Incidence de la désadaptation professionnelle dans le domaine des sciences (%)
+MM2_5	Incidence de la désadaptation professionnelle dans le domaine de l'ingénierie, l'industrie manfacturière et la construction (%)
+MM2_6	Incidence de la désadaptation professionnelle dans le domaine de l'agriculture (%)
+MM2_7	Incidence de la désadaptation professionnelle dans le domaine de la santé et des services sociaux (%)
+MM2_8	Incidence de la désadaptation professionnelle dans le domaine des services (%)
+MM3_1	Statut professionnel atteint par désadaptation professionnelle OUI
+MM3_2	Statut professionnel atteint par désadaptation professionnelle et par pays NON
+MM4_1	Travail à durée déterminée par désadaptation professionnelle (%)
+MM4_2	Travail à durée déterminée par adaptation professionnelle (%)
+MM5_1	Travail à temps partiel par désadaptation professionnelle (%)
+MM5_2	Travail à temps partiel par adaptation professionnelle (%)
+MM6_1	Recherche d'emploi par désadaptation professionnelle (%)
+MM6_2	Recherche d'emploi par adaptation professionnelle (%)
+MM7_1	Participation à la formation professionnelle continue par désadaptation professionnelle (%)
+MM7_2	Participation à la formation professionnelle continue par adaptation professionnelle (%)
+MM_NO	Pas de discordance (concordance parfaite)
+MM_VERT	Discordance verticale
+MM_HOR	Discordance horizontale
+MM_VERT_HOR	Discordance verticale et horizontale
+MS01_1D	Étudiants étrangers en chiffres absolus
+MS01_1P	Étudiants étrangers en pourcentage de la population d’étudiants dans le pays d’accueil (%)
+MS01_2D	Étudiants mobiles entrants en chiffres absolus
+MS01_2P	Étudiants mobiles entrants en pourcentage de la population d’étudiants dans le pays d’accueil (%)
+MS02_1D	Nationaux faisant leurs études à l’étranger en chiffres absolus
+MS02_1P	Nationaux faisant leurs études à l’étranger en pourcentage des étudiants ayant la même nationalité dans les pays d’origine et de destination (%)
+MS02_1Q	Nationaux faisant leurs études à l’étranger en pourcentage de la population des étudiants dans le pays d’origine (%)
+MS02_2D	Étudiants mobiles sortants en chiffres absolus
+MS02_2P	Étudiants mobiles sortants en pourcentage des étudiants ayant la même nationalité dans les pays d’origine et de destination (%)
+MS02_2Q	Étudiants mobiles sortants en pourcentage de la population d’étudiants dans le pays d’origine (%)
+P01_1	Etudiants dans les institutions publiques (CITE 1 à 4) - en % de l'ensemble des étudiants dans des institutions publiques ou privées
+P01_1D	Etudiants dans les institutions publiques (CITE 1 à 4) (1 000)
+P01_2	Etudiants dans les institutions privées (CITE 1 à 4) - en % de l'ensemble des étudiants dans des institutions publiques et privées
+P01_2D	Etudiants dans les institutions privées (CITE 1 à 4) (1 000)
+P01_3	Etudiants dans les institutions dépendant des pouvoirs publics (CITE 1 à 4) - en % de l'ensemble des étudiants dans des institutions publiques et privées
+P01_3D	Etudiants dans les institutions dépendant des pouvoirs publics (CITE 1 à 4) (1 000)
+P01_4	Etudiants dans les institutions indépendantes des pouvoirs publics (CITE 1 à 4) - en % de l'ensemble des étudiants dans des institutions publiques et privées
+P01_4D	Etudiants dans les institutions indépendantes des pouvoirs publics (CITE 1 à 4) (1 000)
+P01_5	Etudiants des les instutions publiques et privées (CITE 1 à 4)
+P01_5D	Etudiants des les instutions publiques et privées (CITE 1 à 4) (1 000)
+P02_1	Participants au niveau CITE 0 âgés de 3 ans - en % de la population âgée de 3 ans
+P02_1D	Participants au niveau CITE 0 âgés de 3 ans (1 000)
+P02_2	Participants au niveau CITE 0 âgés de 4 ans - en % de la population âgée de 4 ans
+P02_2D	Participants au niveau CITE 0 âgés de 4 ans (1 000)
+P02_3	Participants au niveau CITE 0 âgés de 5 ans - en % de la population âgée de 5 ans
+P02_3D	Participants au niveau CITE 0 âgés de 5 ans (1 000)
+P02_4	Participants au niveau CITE 0 âgés de 6 ans - en % de la population âgée de 6 ans
+P02_4D	Participants au niveau CITE 0 âgés de 6 ans (1 000)
+P02_5	Participants au niveau CITE 0 âgés de 7 ans - en % de la population âgée de 7 ans
+P02_5D	Participants au niveau CITE 0 âgés de 7 ans (1 000)
+P02_6	Participants au niveau CITE 1 âgés de 3 ans - en % de la population âgée de 3 ans
+P02_6D	Participants au niveau CITE 1 âgés de 3 ans (1 000)
+P02_7	Participants au niveau CITE 1 âgés de 4 ans - en % de la population âgée de 4 ans
+P02_7D	Participants au niveau CITE 1 âgés de 4 ans (1 000)
+P02_8	Participants au niveau CITE 1 âgés de 5 ans - en % de la population âgée de 5 ans
+P02_8D	Participants au niveau CITE 1 âgés de 5 ans (1 000)
+P02_9	Participants au niveau CITE 1 âgés de 6 ans - en % de la population âgée de 6 ans
+P02_9D	Participants au niveau CITE 1 âgés de 6 ans (1 000)
+P02_10	Participants au niveau CITE 1 âgés de 7 ans - en % de la population âgée de 7 ans
+P02_10D	Participants au niveau CITE 1 âgés de 7 ans (1 000)
+P03_1	Participants aux établissements scolaires du niveau CITE 0 - en % de l'ensemble des établissements scolaires et non-scolaires
+P03_1D	Participants aux établissements scolaires du niveau CITE 0 (1 000)
+P03_2	Participants au établissements non-scolaires du niveau CITE 0 - en % de l'ensemble des établissements scolaires et non scolaires
+P03_2D	Participants au établissements non-scolaires du niveau CITE 0 (1 000)
+P04_1	Taux de participation des élèves de 4 ans à l'éducation de niveau CITE 0-1
+P05_1	Etudiants entrants à l'âge théorique de début des études au niveau CITE 3 en % des personnes appartenant au groupe d'âge correspondant
+PR1_1	Rapport des cotes des diplômés de l'enseignement post-secondaire/Jeunes gens dont les parents ont atteint le niveau CITE 5-6/Jeunes gens dont les parents ont atteint le niveau CITE 1-2
+PR1_2	Rapport des cotes des diplômés de l'enseignement post-secondaire/Jeunes gens dont les parents ont atteint le niveau CITE 3-4/Jeunes gens dont les parents ont atteint le niveau CITE 1-2
+PR2_1	Délai moyen d'obtention d'un premier emploi significatif par niveau d'éducation parentale de CITE 1-2
+PR2_2	Délai moyen d'obtention d'un premier emploi significatif par niveau d'éducation parentale de CITE 3-4
+PR2_3	Délai moyen d'obtention d'un premier emploi significatif par niveau d'éducation parentale de CITE 5-6
+PR3_1	Statut professionnel moyen des jeunes gens dont les parents ont atteint différents niveaux d'éducation de CITE 1-2
+PR3_2	Statut professionnel moyen des jeunes gens dont les parents ont atteint différents niveaux d'éducation de CITE 3-4
+PR3_3	Statut professionnel moyen des jeunes gens dont les parents ont atteint différents niveaux d'éducation de CITE 5-6
+PR3_4	Statut professionnel moyen total des jeunes gens dont les parents ont atteint différents niveaux d'éducation
+PS01_1	Etudiants au niveau CITE 3-GEN - en % de l'ensemble des étudiants du niveau CITE 3
+PS01_1D	Etudiants au niveau CITE 3-GEN (1 000)
+PS01_2	Etudiants au niveau CITE 3-PROF - en % de l'ensemble des étudiants du niveau CITE 3
+PS01_2D	Etudiants au niveau CITE 3-PROF (1 000)
+PS01_3D	Etudiants (CITE 3) (1 000)
+PS01_4	Etudiants au niveau CITE 4-PROF - en % de l'ensemble des étudiants du niveau CITE 4
+PS02_1	Participation des étudiants à la fin de l'âge d'obligation scolaire (X-1) - en % de la population âgée de (X-1)
+PS02_2	Participation des étudiants à la fin de l'âge d'obligation scolaire (X) - en % de la population âgée de (X)
+PS02_3	Participation des étudiants à la fin de l'âge d'obligation scolaire (X+1) - en % de la population âgée de (X+1)
+PS02_4	Participation des étudiants à la fin de l'âge d'obligation scolaire (X+2) - en % de la population âgée de (X+2)
+PS03_2	Etudiants (CITE 5-6) par sexe et âgés de 18 ans - en % de la population d'âge correspondant
+PS03_2D	Etudiants (CITE 5-6) par sexe et âgés de 18 ans (1 000)
+PS03_3	Etudiants (CITE 5-6) par sexe et âgés de 20 ans - en % de la population d'âge correspondant
+PS03_3D	Etudiants (CITE 5-6) par sexe et âgés de 20 ans (1 000)
+PS03_4	Etudiants (CITE 5-6) par sexe et âgés de 22 ans - en % de la population d'âge correspondant
+PS03_4D	Etudiants (CITE 5-6) par sexe et âgés de 22 ans (1 000)
+PS03_5	Etudiants (CITE 5-6) par sexe et âgés de 24 ans - en % de la population d'âge correspondant
+PS03_5D	Etudiants (CITE 5-6) par sexe et âgés de 24 ans (1 000)
+PS03_6	Etudiants (CITE 5-6) par sexe et âgés de 26 ans - en % de la population d'âge correspondant
+PS03_6D	Etudiants (CITE 5-6) par sexe et âgés de 26 ans (1 000)
+PS03_7	Etudiants (CITE 5-6) par sexe et âgés de 28 ans - en % de la population d'âge correspondant
+PS03_7D	Etudiants (CITE 5-6) par sexe et âgés de 28 ans (1 000)
+PS03_8	Etudiants (CITE 5-6) par sexe et âgés de 30-34 ans - en % de la population d'âge correspondant
+PS03_8D	Etudiants (CITE 5-6) par sexe et âgés de 30-34 ans (1 000)
+PS03_9	Etudiants (CITE 5-6) par sexe et âgés de 35-39 ans - en % de la population d'âge correspondant
+PS03_9D	Etudiants (CITE 5-6) par sexe et âgés de 35-39 ans (1 000)
+PS03_10	Etudiants (CITE 5-6) par sexe et âgés de 20-24 ans - en % de la population d'âge correspondant
+PS03_12D	Etudiants (CITE 5-6) âgés de 30 ans et plus par sexe
+PS03_13	Etudiants (CITE 5-6) tous les ages par sexe - en % de la population d'âge 20-24
+PS03_14	Etudiants (CITE 5-6) par sexe et âgés de -19 ans - en % de l'ensemble des étudiants du niveau CITE 5-6
+PS03_15	Etudiants (CITE 5-6) par sexe et âgés de 20-24 ans - en % de l'ensemble des étudiants du niveau CITE 5-6
+PS03_16	Etudiants (CITE 5-6) par sexe et âgés de 25 ans et plus - en % de l'ensemble des étudiants du niveau CITE 5-6
+PS05_1	Etudiants (CITE 1-6) par sexe et âgés de 15-24 ans - en % de la population d'âge correspondant
+PS05_2	Etudiants (CITE 1-6) par sexe et âgés de plus de 30 ans pour 1 000 de la population d'âge correspondant
+PS05_3	Etudiants (CITE 1-6) par sexe et âgés de plus de 30 ans - en % de la population d'âge correspondant
+PS05_4	Etudiants (CITE 1-6) par sexe et âgés de 18 ans - en % de la population d'âge correspondant
+PS05_5	Etudiants (CITE 1-6) par sexe et âgés de 16-18 ans - en % de la population d'âge correspondant
+PS05_6	Etudiants (CITE 1-6) par sexe et âgés de 20 ans - en % de la population d'âge correspondant
+PS05_7	Etudiants (CITE 1-6) par sexe et âgés de 22 ans - en % de la population d'âge correspondant
+PS05_8	Etudiants (CITE 1-6) par sexe et âgés de 24 ans - en % de la population d'âge correspondant
+PS05_9	Etudiants (CITE 1-6) par sexe et âgés de 26 ans - en % de la population d'âge correspondant
+PS05_10	Etudiants (CITE 1-6) par sexe et âgés de 28 ans - en % de la population d'âge correspondant
+PS06_1	Répartition des étudiants (CITE 5) par sexe
+PS06_1D	Etudiants (CITE 5) par sexe (1 000)
+PS07_1	Répartition des étudiants (CITE 6) par sexe
+PS07_1D	Etudiants (CITE 6) par sexe (1 000)
+R01_1	Population âgée de 0 à 29 ans - en % de la population totale au niveau régional
+R01_1D	Population âgée de 0 à 29 ans au niveau régional (1 000)
+R01_2	Population au niveau régional - en % de la population totale du pays
+R01_2D	Population au niveau régional (1 000)
+R02_1	Etudiants au niveau CITE 3 (GEN) - en % de l'ensemble des étudiants de niveau CITE 3 au niveau régional
+R02_1D	Etudiants (CITE 3) (GEN) au niveau régional (1 000)
+R02_2D	Etudiants (CITE 3) au niveau régional (1 000)
+R03_1	Etudiants aux niveaux CITE 5-6 - en % de l'ensemble des élèves et étudiants au niveau régional
+R03_1D	Etudiants aux niveaux CITE 5-6 au niveau régional (1 000)
+R03_2	Étudiants dans l’enseignement supérieur (CITE 5-6) - en % de la population âgée de 20 à 24 ans, au niveau régional
+R04_1	Ratio de la proportion d'étudiants (CITE 5-6) par rapport à la proportion de la population par régions NUTS 1 et NUTS 2
+R04_2	Etudiants (CITE 5-6) au niveau régional - en % de la population étudiante totale au niveau du pays (CITE 5-6)
+R04_3	Etudiants (CITE 0-6) âgés de 17 ans au niveau régional  - en % de la population d'âge correspondant
+R04_4	Elèves et étudiants de tous les niveaux d'éducation (CITE 0-6), en % de la population totale, au niveau régional
+R05_1	Taux de participation à l'enseignement des élèves de 4 ans, au niveau régional
+R05_2	Elèves et étudiants de l'enseignement secondaire (deuxième cycle) et post-secondaire (non-supérieur) (CITE 3-4), en % de la population de la tranche d’âge 15-24 ans, au niveau régional
+R05_3	Elèves de l'enseignement primaire et secondaire (CITE 1-2), en % de la population totale, au niveau régional
+S01_1	Femmes recteurs aux niveaux CITE 1-3 - en % du total des recteurs (CITE 1-3)
+S01_1D	Femmes recteurs aux niveaux CITE 1-3 (1 000)
+S01_2	Femmes recteurs au niveau CITE 1 - en % du total des recteurs du niveau CITE 1
+S01_2D	Femmes recteurs au niveau CITE 1 (1 000)
+S01_3	Femmes recteurs aux niveaux CITE 2-3 - en % du total des recteurs (CITE 2-3)
+S01_3D	Femmes recteurs aux niveaux CITE 2-3 (1 000)
+S01_4	Femmes recteurs au niveau CITE 2 - en % du total des recteurs du niveau CITE 2
+S01_4D	Femmes recteurs au niveau CITE 2 (1 000)
+S01_5	Femmes recteurs au niveau CITE 3 - en % du total des recteurs du niveau CITE 3
+S01_5D	Femmes recteurs au niveau CITE 3 (1 000)
+S02_1	Enseignants travaillant à temps plein et à temps partiel aux niveaux CITE 1-3 - en % de la population active totale
+S02_1D	Enseignants travaillant à temps plein et à temps partiel aux niveaux CITE 1-3 (1 000)
+S03_1	Enseignants travaillant à temps partiel au niveau primaire (CITE 1) - en % de l'ensemble des enseignants à temps plein et à temps partiel du niveau CITE 1
+S03_1D	Enseignants travaillant à temps partiel au niveau primaire (CITE 1) (1 000)
+S03_2	Enseignants travaillant à temps partiel au niveau secondaire inférieur (CITE 2) - en % de l'ensemble des enseignants à temps plein et à temps partiel du niveau CITE 2
+S03_2D	Enseignants travaillant à temps partiel au niveau secondaire inférieur (CITE 2) (1 000)
+S03_3	Enseignants travaillant à temps partiel au niveau secondaire supérieur (CITE 3) - en % de l'ensemble des enseignants à temps plein et à temps partiel du niveau CITE 3
+S03_3D	Enseignants travaillant à temps partiel au niveau secondaire supérieur (CITE 3) (1 000)
+S04_1	Enseignants âgés de moins de 30 ans dans l'enseignement public et privé du niveau CITE 1 - en % de l'ensemble des enseignants du niveau CITE 1
+S04_1D	Enseignants âgés de moins de 30 ans dans l'enseignement public et privé du niveau CITE 1 (1 000)
+S04_2	Enseignants âgés de 30-39 ans dans l'enseignement public et privé du niveau CITE 1 - en % de l'ensemble des enseignants du niveau CITE 1
+S04_2D	Enseignants âgés de 30-39 ans dans l'enseignement public et privé du niveau CITE 1 (1 000)
+S04_3	Enseignants âgés de 40-49 ans dans l'enseignement public et privé du niveau CITE 1 - en % de l'ensemble des enseignants du niveau CITE 1
+S04_3D	Enseignants âgés de 40-49 ans dans l'enseignement public et privé du niveau CITE 1 (1 000)
+S04_4	Enseignants âgés de plus de 50 ans dans l'enseignement public et privé du niveau CITE 1 - en % de l'ensemble des enseignants du niveau CITE 1
+S04_4D	Enseignants âgés de plus de 50 ans dans l'enseignement public et privé du niveau CITE 1 (1 000)
+S05_1	Enseignants âgés de moins de 30 ans dans l'enseignement public et privé des niveaux CITE 2-3 - en % de l'ensemble des enseignants des niveaux CITE 2-3
+S05_1D	Enseignants âgés de moins de 30 ans dans l'enseignement public et privé des niveaux CITE 2-3 (1 000)
+S05_2	Enseignants âgés de 30-39 ans dans l'enseignement public et privé des niveaux CITE 2-3 - en % de l'ensemble des enseignants des niveaux CITE 2-3
+S05_2D	Enseignants âgés de 30-39 ans dans l'enseignement public et privé des niveaux CITE 2-3 (1 000)
+S05_3	Enseignants âgés de 40-49 ans dans l'enseignement public et privé des niveaux CITE 2-3 - en % de l'ensemble des enseignants des niveaux CITE 2-3
+S05_3D	Enseignants âgés de 40-49 ans dans l'enseignement public et privé des niveaux CITE 2-3 (1 000)
+S05_4	Enseignants âgés de plus de 50 ans dans l'enseignement public et privé des niveaux CITE 2-3 - en % de l'ensemble des enseignants des niveaux CITE 2-3
+S05_4D	Enseignants âgés de plus de 50 ans dans l'enseignement public et privé des niveaux CITE 2-3 (1 000)
+S06_1	Femmes enseignantes aux niveaux CITE 1-3 - en % de l'ensemble des enseignants des niveaux CITE 1-3
+S06_1D	Femmes enseignantes aux niveaux CITE 1-3 (1 000)
+S06_2	Femmes enseignantes au niveau CITE 1 - en % de l'ensemble des enseignants du niveau CITE 1
+S06_2D	Femmes enseignantes au niveau CITE 1 (1 000)
+S06_3	Femmes enseignantes au niveau CITE 2 - en % de l'ensemble des enseignants du niveau CITE 2
+S06_3D	Femmes enseignantes au niveau CITE 2 (1 000)
+S06_4	Femmes enseignantes au niveau CITE 3 - en % de l'ensemble des enseignants du niveau CITE 3
+S06_4D	Femmes enseignantes au niveau CITE 3 (1 000)
+S07_1	Professeurs/personnel academique âgés de moins de 30 ans dans l'éducation public et privé du niveau CITE 5-6 - en % de l'ensemble des professeurs du niveau CITE 5-6
+S07_2	Professeurs/personnel academique âgés de 30-39 ans dans l'éducation public et privé du niveau CITE 5-6 - en % de l'ensemble des professeurs du niveau CITE 5-6
+S07_3	Professeurs/personnel academique âgés de 40-49 ans dans l'éducation public et privé du niveau CITE 5-6 - en % de l'ensemble des professeurs du niveau CITE 5-6
+S07_4	Professeurs/personnel academique âgés de plus de 50 ans dans l'éducation public et privé du niveau CITE 5-6 - en % de l'ensemble des professeurs du niveau CITE 5-6
+S08_1	Femmes professeurs/personnel academique au niveau CITE 5-6 - en % de l'ensemble des professeurs/personnel academique du niveau CITE 5-6
+ST1_1	Ratio des étudiants par rapport aux enseignants (CITE 1 -3)
+ST1_2	Ratio des étudiants par rapport aux enseignants (CITE 1)
+ST1_3	Ratio des étudiants par rapport aux enseignants (CITE 2)
+ST1_4	Ratio des étudiants par rapport aux enseignants (CITE 3)
+ST2_1	Taille moyenne des classes au niveau CITE 1
+ST2_2	Taille moyenne des classes au niveau CITE 2
+TC01_1	Femmes diplômées des niveaux CITE 5-6 pour 100 hommes
+TC01_1D	Femmes diplômées des niveaux CITE 5-6 pour 100 hommes (1 000)
+TC02_1	Diplômés (CITE 5-6) dans le domaine de l'enseignement et de la formation - en % de l'ensemble des domaines
+TC02_1D	Diplômés (CITE 5-6) dans le domaine de l'enseignement et de la formation(1 000)
+TC02_2	Diplômés (CITE 5-6) dans le domaine des lettres et des arts - en % de l'ensemble des domaines
+TC02_2D	Diplômés (CITE 5-6) dans le domaine des lettres et des arts (1 000)
+TC02_3	Diplômés (CITE 5-6) dans le domaine des sciences sociales, de la gestion d'entreprise et en droit - en % de l'ensemble des domaines
+TC02_3D	Diplômés (CITE 5-6) dans le domaine des sciences sociales, de la gestion d'entreprise et en droit (1 000)
+TC02_4	Diplômés (CITE 5-6) dans le domaine des sciences, des mathématiques et de l'informatique - en % de l'ensemble des domaines
+TC02_4D	Diplômés (CITE 5-6) dans le domaine des sciences, des mathématiques et de l'informatique (1 000)
+TC02_5	Diplômés (CITE 5-6) dans le domaine de l'ingénierie, de l'industrie manufacturière et de la construction - en % de l'ensemble des domaines
+TC02_5D	Diplômés (CITE 5-6) dans le domaine de l'ingénierie, de l'industrie manufacturière et de la construction (1 000)
+TC02_6	Diplômés (CITE 5-6) dans le domaine agricole et vétérinaire - en % de l'ensemble des domaines
+TC02_6D	Diplômés (CITE 5-6) dans le domaine agricole et vétérinaire (1 000)
+TC02_7	Diplômés (CITE 5-6) dans le domaine de la santé et du bien-être - en % de l'ensemble des domaines
+TC02_7D	Diplômés (CITE 5-6) dans le domaine de la santé et du bien-être (1 000)
+TC02_8	Diplômés (CITE 5-6) dans le domaine des services - en % de l'ensemble des domaines
+TC02_8D	Diplômés (CITE 5-6) dans le domaine des services - (1 000)
+TC02_9	Diplômés (CITE 5-6) dans un domaine inconnu - en % de l'ensemble des diplômés des domaines connus de l'enseignement et de la formation (100%)
+TC02_9D	Diplômés (CITE 5-6) dans un domaine inconnu (1 000)
+TC02_10	Diplômés (CITE 5-6) en mathématiques, science et technologie par milliers de la population âgée de 20-29 ans, depuis 1993
+TC02_10D	Diplômés (CITE 5-6) en mathématiques, science et technologie (1 000)
+TC02_11D	Total des dimplômés dans tous les domaines de l'enseignement (CITE 5-6) (1 000)
+TC02_12	Diplômés (ISCED 5-6) dans les domaines des mathématiques, des sciences et de la technologie - en % de l'ensemble des domaines
+TC03_1	Femmes diplômées (CITE 5-6) dans le domaine de l'enseignement et de la formation - en % des diplômés hommes et femmes
+TC03_1D	Femmes diplômées (CITE 5-6) dans le domaine de l'enseignement et de la formation (1 000)
+TC03_2	Femmes diplômées (CITE 5-6) dans le domaine des lettres et des arts - en % des diplômés hommes et femmes
+TC03_2D	Femmes diplômées (CITE 5-6) dans le domaine des lettres et des arts (1 000)
+TC03_3	Femmes diplômées (CITE 5-6) dans le domaine des sciences sociales, de la gestion d'entreprise et en droit - en % des diplômés hommes et femmes
+TC03_3D	Femmes diplômées (CITE 5-6) dans le domaine des sciences sociales, de la gestion d'entreprise et en droit (1 000)
+TC03_4	Femmes diplômées (CITE 5-6) dans le domaine des sciences, des mathématiques et de l'informatique - en % des diplômés hommes et femmes
+TC03_4D	Femmes diplômées (CITE 5-6) dans le domaine des sciences, des mathématiques et de l'informatique (1 000)
+TC03_5	Femmes diplômées (CITE 5-6) dans le domaine de l'ingénierie, de l'industrie manufacturière et de la construction - en % des diplômés hommes et femmes
+TC03_5D	Femmes diplômées (CITE 5-6) dans le domaine de l'ingénierie, de l'industrie manufacturière et de la construction (1 000)
+TC03_6	Femmes diplômées (CITE 5-6) dans le domaine agricole et vétérinaire - en % des diplômés hommes et femmes
+TC03_6D	Femmes diplômées (CITE 5-6) dans le domaine agricole et vétérinaire (1 000)
+TC03_7	Femmes diplômées (CITE 5-6) dans le domaine de la santé et du bien-être - en % des diplômés hommes et femmes
+TC03_7D	Femmes diplômées (CITE 5-6) dans le domaine de la santé et du bien-être (1 000)
+TC03_8	Femmes diplômées (CITE 5-6) dans le domaine des services - en % des diplômés hommes et femmes
+TC03_8D	Femmes diplômées (CITE 5-6) dans le domaine des services (1 000)
+TC03_9	Femmes diplômées (CITE 5-6) en mathématiques, science et technologie par 1 000 de la population féminine âgée de 20-29 ans, depuis 1993
+TC03_9D	Femmes diplômées (CITE 5-6) en mathématiques, science et technologie (1 000)
+TC03_10	Hommes diplômés (CITE 5-6) en mathématiques, science et technologie par 1 000 de la population masculine âgée de 20-29 ans, depuis 1993
+TC03_10D	Hommes diplômés (CITE 5-6) en mathématiques, science et technologie (1 000)
+TC03_11	Femmes diplômées (ISCED 5-6) dans les domaines des mathématiques, des sciences et de la technologie - en % de l'ensemble des femmes diplômées dans tous les domaines
+TC03_12	Hommes diplômés (ISCED 5-6) dans les domaines des mathématiques, des sciences et de la technologie - en % de l'ensemble des hommes diplômés dans tous les domaines
+TC03_13	Femmes diplômées (CITE 5-6) de domaine inconnu - en % d'hommes et de femmes diplômés dans ce domaine
+TC03_13D	Total des femmes diplômées dans tous les domaines de l'éducation (CITE 5-6) (1 000)
+TC03_14D	Total des hommes diplômés dans tous les domaines de l'éducation (CITE 5-6) (1 000)
+TC04_1	Total des diplômés (CITE 5-6) pour 1 000 de la population agée de 20-29 ans
+TC05_1	Diplômés (CITE 5-6) âgés de 20-29 ans pour 1 000 de la population d'âge correspondant
+TC06_1	Diplômés (CITE 5-6) âgés de 30 ans et plus - en % de tous les diplômés
+TC07_1	Diplômés (CITE 6) pour 1 000 de la population âgée de 25 à 34 ans
+TC07_1D	Diplômés (CITE 6) (1 000)
+TC07_2	Femmes diplômées (CITE 6) pour 1 000 de la population féminine âgée de 25 à 34 ans
+TC07_2D	Femmes diplômées (CITE 6) (1 000)
+TC07_3	Hommes diplômés (CITE 6) pour 1 000 de la population masculine âgée de 25 à 34 ans
+TC07_3D	Hommes diplômés (CITE 6) (1 000)
+TC08_1	Diplômés (CITE 6) âgés de 25 à 34 ans pour 1 000 de la population d'âge correspondant
+TC08_2	Femmes diplômées (CITE 6) âgées de 25 à 34 ans pour 1 000 de la population d'âge correspondant
+TC08_3	Hommes diplômés hommes (CITE 6) âgés de 25 à 34 ans pour 1 000 de la population d'âge correspondant
+TC09_1	Diplômés (CITE 6) en sciences, mathématiques, sciences informatiques, ingénierie, industrie manufacturière et construction - en % de l'ensemble des diplômés du niveau CITE 6
+TC09_1D	Diplômés (CITE 6) en sciences, mathématiques, sciences informatiques, ingénierie, industrie manufacturière et construction
+TC09_2	Femmes diplômées (CITE 6) en sciences, mathématiques, sciences informatiques, ingénierie, industrie manufacturière et construction - en % de l'ensemble des femmes diplômées du niveau CITE 6
+TC09_2D	Femmes diplômées (CITE 6) en sciences, mathématiques, sciences informatiques, ingénierie, industrie manufacturière et construction
+TC09_3	Hommes diplômés hommes (CITE 6) en sciences, mathématiques, sciences informatiques, ingénierie, industrie manufacturière et construction - en % de l'ensemble des hommes diplômés du niveau CITE 6
+TC09_3D	Hommes diplômés hommes (CITE 6) en sciences, mathématiques, sciences informatiques, ingénierie, industrie manufacturière et construction
+TC09_4	Diplômés (CITE 6) en sciences, mathématiques, sciences informatiques, ingénierie, industrie manufacturière et construction pour 1 000 de la population âgée de 25 à 34 ans
+TC09_5	Femmes diplômées (CITE 6) en sciences, mathématiques, sciences informatiques, ingénierie, industrie manufacturière et construction pour 1 000 de la population féminine âgée de 25 à 34 ans
+TC09_6	Hommes diplômés (CITE 6) en sciences, mathématiques, sciences informatiques, ingénierie, industrie manufacturière et construction pour 1 000 de la population masculine âgée de 25 à 34 ans
+TP01_1D	Tendance du nombre d'étudiants (CITE 5-6) (1 000)
+TP01_2	Femmes parmi les étudiants au niveau CITE 5-6 - en % de l'ensemble des étudiants de ce niveau
+TP01_3	Femmes étudiantes pour 100 étudiants masculins dans l'enseignement supérieur (ISCED 5-6)
+TP02_1	Etudiants inscrits aux niveaux CITE 5-6, dans les domaines suivants: sciences, mathématiques, informatique, ingénierie, industrie manufacturière, construction - en % de l'ensemble des étudiants
+TP02_1D	Etudiants inscrits aux niveaux CITE 5-6, dans les domaines suivants: sciences, mathématiques, informatique, ingénierie, industrie manufacturière, construction (1 000)
+TP02_2	Femmes étudiantes aux niveaux 5-6 de la CITE inscrites dans les domaines suivants: science, mathématiques et sciences informatiques; ingénierie,industries de transformation et production - en % de toutes les femmes étudiantes
+TP02_3	Etudiants masculins aux niveaux 5-6 de la CITE inscrits dans les domaines suivants: science, mathématiques et sciences informatiques; ingénierie,industries de transformation et production - en % de tous les étudiants masculins
+TP03_1	Femmes étudiantes (CITE 5-6) inscrites dans le domaine de l'éducation - en % des étudiants masculins et féminins dans ce domaine
+TP03_1D	Femmes étudiantes (CITE 5-6) inscrites dans le domaine de l'éducation (1 000)
+TP03_2	Femmes étudiantes inscrites (CITE 5-6) dans le domaine des lettres et de l'art - en % des étudiants masculins et féminins dans ce domaine
+TP03_2D	Femmes étudiantes inscrites (CITE 5-6) dans le domaine des lettres et de l'art (1 000)
+TP03_3	Femmes étudiantes inscrites (CITE 5-6) dans le domaine des sciences sociales, de la gestion d'entreprise, et du droit - en % des étudiants masculins et féminins dans ce domaine
+TP03_3D	Femmes étudiantes inscrites (CITE 5-6) dans le domaine des sciences sociales, de la gestion d'entreprise, et du droit (1 000)
+TP03_4	Femmes étudiantes inscrites (CITE 5-6) dans le domaine des sciences, des mathématiques et de l'informatique - en % des étudiants masculins et féminins dans ce domaine
+TP03_4D	Femmes étudiantes inscrites (CITE 5-6) dans le domaine des sciences, des mathématiques et de l'informatique (1 000)
+TP03_5	Femmes étudiantes inscrites (CITE 5-6) dans le domaine de l'ingénierie, de l'industrie manufacturière et de la construction - en % des étudiants masculins et féminins dans ce domaine
+TP03_5D	Femmes étudiantes inscrites (CITE 5-6) dans le domaine de l'ingénierie, de l'industrie manufacturière et de la construction (1 000)
+TP03_6	Femmes étudiantes inscrites (CITE 5-6) dans le domaine agricole et vétérinaire - en % des étudiants masculins et féminins dans ce domaine
+TP03_6D	Femmes étudiantes inscrites (CITE 5-6) dans le domaine agricole et vétérinaire (1 000)
+TP03_7	Femmes étudiantes inscrites (CITE 5-6) dans le domaine de la santé et du bien-être - en % des étudiants masculins et féminins dans ce domaine
+TP03_7D	Femmes étudiantes inscrites (CITE 5-6) dans le domaine de la santé et du bien-être (1 000)
+TP03_8	Femmes étudiantes inscrites (CITE 5-6) dans le domaine des services - en % des étudiants masculins et féminins dans ce domaine
+TP03_8D	Femmes étudiantes inscrites (CITE 5-6) dans le domaine des services (1 000)
+TP03_9	Femmes étudiantes (CITE 5-6) inscrites dans un domaine inconnu - en % des étudiants hommes et femmes de ce domaine
+TP03_11	Etudiants (CITE 5-6) inscrits dans un domaine de l'éducation - en % de l'ensemble des étudiants
+TP03_12	Etudiants (CITE 5-6) inscrits en lettres et art - en % de l'ensemble des étudiants
+TP03_13	Etudiants (CITE 5-6) inscrits en sciences sociales, commerce et droit - en % de l'ensemble des étudiants
+TP03_14	Etudiants (CITE 5-6) inscrits en sciences, mathématiques et sciences informatiques - en % de l'ensemble des étudiants
+TP03_15	Etudiants (CITE 5-6) inscrits en ingénierie, industrie manufacturière et construction - en % de l'ensemble des étudiants
+TP03_16	Etudiants (CITE 5-6) inscrits en agriculture et en médecine vétérinaire - en % de l'ensemble des étudiants
+TP03_17	Etudiants (CITE 5-6) inscrits dans le domaine de la santé et des services sociaux - en % de l'ensemble des étudiants
+TP03_18	Etudiants (CITE 5-6) inscrits dans le domaine des services - en % de l'ensemble des étudiants
+TP03_19	Etudiants (CITE 5-6) inscrits dans un domaine inconnu - en % de l'ensemble des étudiants
+TP04_1	Etudiants (CITE 5-6) étudiant dans d'autres pays UE-27 - en % de l'ensemble des étudiants
+TP04_1D	Etudiants (CITE 5-6) étudiant dans d'autres pays UE-27 (1 000)
+TP04_2	Etudiants (CITE 5-6) étudiant dans d'autres pays UE-27 ou EEE - en % de l'ensemble des étudiants
+TP04_2D	Etudiants (CITE 5-6) étudiant dans d'autres pays UE-27 ou EEE (1 000)
+TP05_1	Etudiants (CITE 5-6) étudiant dans d'autres pays UE-27, pays EEE ou pays candidats en % de l'ensemble des étudiants
+TP05_1D	Etudiants (CITE 5-6) étudiant dans d'autres pays UE-27, pays EEE ou pays candidats (1 000)
+TP05_2D	Etudiants (CITE 5-6) étudiant dans leur propre pays ou dans d'autres pays UE-27/EEE/candidats (1 000)
+TP05_3	Etudiants non-nationaux des pays de l'UE-27/EEE/candidats, dans l'enseignements supérieur (CITE 5 à 6) - en % de tous les étudiants
+TP05_3D	Etudiants non-nationaux des pays de l'UE-27/EEE/candidats, enseignement supérieur (CITE 5-6) (1 000)
+TP06_1	Age médian dans l'enseignement supérieur (ISCED 5-6)
+TP06_2	Centile des personnes âgées de 15 ans dans l'enseignement post-secondaire (CITE 5-6)
+TP06_3	Centile des personnes âgées de 85 ans dans l'enseignement post-secondaire (CITE 5-6)
+TP07_1	Etudiants entrants à l'âge théorique de début des études au niveau CITE 5 en % des personnes appartenant au groupe d'âge correspondant
+TP07_2	Etudiants entrants à l'âge théorique de début des études au niveau CITE 5 en % de tous les étudiants entrants au niveau CITE 5
+ENTRY_RT	Taux net d'entrée
+GRAD_RT	Taux brut de diplômés
+COMPL_I5A5B	Achèvement d'un programme de niveau 5A ou 5B
+COMPL_GEI5A	Achèvement d'un programme de niveau 5A au minimum
+COMPL_I5B	Achèvement d'un programme de niveau 5B après réorientation depuis le niveau 5A

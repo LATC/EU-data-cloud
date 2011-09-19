@@ -1,0 +1,1605 @@
+EU27	European Union (27 countries)
+EU25	European Union (25 countries)
+EU15	European Union (15 countries)
+EA15	Euro area (BE, DE, IE, GR, ES, FR, IT, CY, LU, MT, NL, AT, PT, SI, FI)
+EA13	Euro area (BE, DE, IE, GR, ES, FR, IT, LU, NL, AT, PT, SI, FI)
+EA12	Euro area (BE, DE, IE, GR, ES, FR, IT, LU, NL, AT, PT, FI)
+BE	Belgium
+BG	Bulgaria
+DK	Denmark
+DE	Germany
+EE	Estonia
+IE	Ireland
+GR	Greece
+ES	Spain
+FR	France
+IT	Italy
+CY	Cyprus
+LV	Latvia
+LT	Lithuania
+MT	Malta
+NL	Netherlands
+PL	Poland
+PT	Portugal
+RO	Romania
+SI	Slovenia
+FI	Finland
+SE	Sweden
+UK	United Kingdom
+HR	Croatia
+IS	Iceland
+NO	Norway
+TR	Turkey
+EU27_NO	EU27 plus NO
+EEA30	European Economic Area (EEA) (EU-27 plus IS, LI, NO)
+EEA30_HR	EEA plus HR
+DE01	Germany: North Sea
+DE02	Germany: Baltic
+DE03	Germany: Rhine
+DE09	Germany: unspecified maritime coastal area
+ES01	Spain: Atlantic  (North)
+ES02	Spain: Mediterranean & Atlantic (South)
+ES03	Spain: Ceuta
+ES04	Spain: Melilla
+ES09	Spain: unspecified maritime coastal area
+FR01	France: Atlantic / North Sea
+FR02	France: Mediterranean - including Monaco
+FR03	France: French Guiana
+FR04	France: Guadeloupe and Martinique
+FR05	France: Reunion
+FR09	France: unspecified maritime coastal area
+SE01	Sweden: Baltic
+SE02	Sweden: North Sea
+SE09	Sweden: unspecified maritime coastal area
+UK01	United Kingdom (Great Britain & Northern Ireland)
+UK02	United Kingdom: Isle of Man
+UK03	United Kingdom: Channel Islands
+UK09	United Kingdom: unspecified maritime coastal area
+TR01	Turkey: Black Sea
+TR02	Turkey: Mediterranean
+TR09	Turkey: unspecified maritime coastal area
+BE00BEANR	Antwerpen
+BE00BEBRU	Brussels
+BE00BEGNE	Ghent
+BE00BELGG	Liege
+BE00BENIE	Nieuwpoort
+BE00BEOST	Ostende
+BE00BEZEE	Zeebrugge
+BE00BE001	Zeekanaal Brussel-Schelde ports
+BE00BE002	Other Inland ports (other than Zeekanaal Brussel-Schelde ports)
+BE00BE888	Belgium: other ports
+BG00BGBOJ	Burgas
+BG00BGVAR	Varna
+BG00BG888	Bulgaria: other ports
+DK00DKAAB	Aabenraa
+DK00DKAAL	Aalborg
+DK00DKROR	Aalborg Portland
+DK00DKAAR	Aarhus
+DK00DKARO	Aaro
+DK00DKARD	Aarosund
+DK00DKARK	Aeroskobing
+DK00DKAGO	Agerso
+DK00DKAGH	Agger Havn
+DK00DKASH	Aggersund
+DK00DKANH	Anholt
+DK00DKASK	Asko
+DK00DKASV	Asnaesvaerkets Havn
+DK00DKASN	Assens
+DK00DKAUB	Augustenborg
+DK00DKAVE	Avedorevaerkets Havn
+DK00DKAVK	Avernako/Lyo
+DK00DKBGO	Baago
+DK00DKBAG	Bagenkop
+DK00DKBLB	Ballebro
+DK00DKBDX	Bandholm (Maribo)
+DK00DKBOG	Bogo
+DK00DKBOS	Bojden
+DK00DKBRH	Branden Havn
+DK00DKDAN	Cementfabrikken Danias Havn
+DK00DKKON	Cementfabrikken Kongsdal Havn
+DK00DKDAS	Dansk Salts Havn
+DK00DKDRA	Dragor
+DK00DKEBT	Ebeltoft
+DK00DKEGN	Egense
+DK00DKEDL	Endelave
+DK00DKENS	Enstedvaerkets Havn
+DK00DKEBJ	Esbjerg
+DK00DKFAA	Faaborg Havn
+DK00DKFAK	Fakse Ladeplads Havn
+DK00DKFGS	Feggesund
+DK00DKFEJ	Fejo
+DK00DKFMO	Femo
+DK00DKFRC	Fredericia (Og Shell-Havnen)
+DK00DKFDH	Frederikshavn
+DK00DKFDS	Frederikssund Havn
+DK00DKSVV	Frederiskværk Havn (Frederiksværk Stålvalseværk)
+DK00DKFUH	Fur
+DK00DKFYH	Fynshav
+DK00DKGED	Gedser
+DK00DKGRA	Graasten
+DK00DKGRE	Grenaa
+DK00DKGFH	Gulfhavnen
+DK00DKHAD	Haderslev
+DK00DKHSU	Hadsund
+DK00DKHAS	Hals
+DK00DKHAN	Hanstholm
+DK00DKHDH	Hardeshoj
+DK00DKHSL	Hasle
+DK00DKHNB	Havneby
+DK00DKHVN	Havnso
+DK00DKHLS	Helsingor
+DK00DKHIR	Hirtshals
+DK00DKHBO	Hobro
+DK00DKHBK	Holbaek
+DK00DKHOR	Horsens
+DK00DKHOH	Hou Havn
+DK00DKHUN	Hundested
+DK00DKHVA	Hvalpsund
+DK00DKJUE	Juelsminde Havn
+DK00DKKAL	Kalundborg
+DK00DKKTP	Kastrup
+DK00DKKTD	Kerteminde
+DK00DKKLP	Kleppen
+DK00DKCPH	Kobenhavns Havn
+DK00DKKOG	Koge
+DK00DKKOK	Kolby Kas Havn
+DK00DKKOL	Kolding
+DK00DKKRR	Korsor
+DK00DKKRA	Kragenaes
+DK00DKKBY	Kyndbyvaerkets Havn
+DK00DKLVG	Lemvig
+DK00DKLGR	Logstor
+DK00DKLOH	Lohals
+DK00DKLYO	Lyngs Odde Havn
+DK00DKMRB	Marbæk Havn
+DK00DKMRS	Marstal
+DK00DKMAS	Masnedovaerkets Havn
+DK00DKMOM	Mommark
+DK00DKNUD	Naessund
+DK00DKNVD	Naestved
+DK00DKNAK	Nakskov
+DK00DKNEX	Nekso
+DK00DKNDB	Nordby Havn, Fano
+DK00DKVSV	Nordjyllandsvaerkets Havn
+DK00DKNBG	Nyborg
+DK00DKNYF	Nykobing Falster
+DK00DKNYM	Nykobing Mors
+DK00DKODE	Odense
+DK00DKOMO	Omo
+DK00DKORO	Oro
+DK00DKRAN	Randers
+DK00DKROD	Rodby
+DK00DKROF	Rodby (Faergehavn)
+DK00DKRNN	Ronne
+DK00DKRRV	Rorvig
+DK00DKRKB	Rudkobing
+DK00DKSLV	Saelvig Havn
+DK00DKSAX	Sakskøbing
+DK00DKSEO	Sejero
+DK00DKSJO	Sjaellands Odde
+DK00DKSSK	Skaelskor
+DK00DKSKB	Skaerbaekvaerkets Havn
+DK00DKSKA	Skagen
+DK00DKSDO	Skaro/Drejo
+DK00DKSKV	Skive
+DK00DKSOB	Soby Havn
+DK00DKSGD	Sonderborg
+DK00DKSPB	Spodsbjerg Havn
+DK00DKSTT	Statoil-Havnen
+DK00DKSTN	Stigsnaes
+DK00DKSTG	Stigsnaesvaerkets Havn
+DK00DKSTR	Struer
+DK00DKSNO	Stryno
+DK00DKSBK	Stubbekobing Havn
+DK00DKSSV	Studstrupvaerkets Havn
+DK00DKSUE	Sundsore
+DK00DKSVE	Svendborg
+DK00DKTRS	Taars
+DK00DKTED	Thisted
+DK00DKTYB	Thyboron
+DK00DKTNO	Tuno
+DK00DKUNX	Uno-X Havn
+DK00DKVNG	Vang Havn
+DK00DKVEJ	Vejle
+DK00DKVEN	Veno Havn
+DK00DKVES	Vestero Havn, Laeso
+DK00DKVOR	Vordingborg Havn
+DK00DK888	Denmark: other ports
+DE01DEAMR	Amrun I.
+DE03DEAND	Andernach
+DE02DEANK	Anklam
+DE01DEBMR	Baltrum I.
+DE01DEBEI	Beidenfleth
+DE01DEBEN	Bensersiel
+DE03DEBER	Berlin
+DE02DEBOF	Berndshof
+DE01DEBMK	Borkum I.
+DE01DEBKE	Brake
+DE03DEBWE	Braunschweig
+DE01DEBRE	Bremen
+DE01DEBRV	Bremerhaven
+DE01DEBRB	Brunsbuettel
+DE01DEBUM	Buesum
+DE01DEBUZ	Buetzfleth
+DE02DEBSK	Burgstaaken/Fehmarn
+DE01DECAR	Carolinensiel
+DE03DECRL	Castrop-Rauxel
+DE01DECUX	Cuxhaven
+DE01DEDAG	Dagebuell
+DE02DEDMN	Demmin
+DE03DEDTM	Dortmund
+DE03DEDUS	Duesseldorf
+DE03DEDUI	Duisburg
+DE02DEECK	Eckernfoerde
+DE01DEEME	Emden
+DE03DEESU	Emmelsum
+DE02DEFLF	Flensburg
+DE02DE117	Flensburger Foerde (Uebrige Haefen)
+DE01DE017	Föhr I.
+DE01DEFRI	Friedrichstadt
+DE03DEGEK	Gelsenkirchen
+DE01DE118	Gieselau canal and Eider (Other ports)
+DE01DEGLU	Glueckstadt
+DE02DEGRD	Greifswald, Landkreis
+DE01DEHAM	Hamburg
+DE01DEHRN	Haren/Ems
+DE02DEHHF	Heiligenhafen
+DE01DEHGL	Helgoland I.
+DE01DEHOD	Hochdonn
+DE01DEHRM	Hoernum/Sylt
+DE01DEHHS	Hohenhorn
+DE01DEHUS	Husum
+DE01DEITZ	Itzehohe
+DE01DEJUI	Juist
+DE02DEKAP	Kappeln
+DE02DEKEL	Kiel
+DE03DECGN	Koeln
+DE03DEKRE	Krefeld
+DE01DELGO	Langeroog, Insel
+DE02DELAU	Lauterbach
+DE01DELEE	Leer
+DE01DELIS	List/Sylt
+DE01DELOH	Lohesch
+DE02DELBC	Luebeck
+DE03DELLF	Luelsdorf
+DE03DELLS	Luelsdorf
+DE03DEMUH	Muehlheim An Der Ruhr
+DE01DENES	Nessmersiel
+DE01DENHS	Neuharlingersiel
+DE03DENSS	Neuss
+DE02DENHO	Neustadt/Holstein
+DE01DENOE	Norddeich
+DE01DENHA	Nordenham
+DE01DENRD	Norderney I.
+DE01DENOR	Norstrand I.
+DE01DEOLO	Oldenburg/Oldenburg
+DE03DEORS	Orsoy
+DE02DEORT	Orth, Fehmarn
+DE01DEPAP	Papenburg
+DE03DEPEI	Peine
+DE01DEPEL	Pellworm I.
+DE02DEPUT	Puttgarden
+DE02DEREN	Rendsburg
+DE03DERHB	Rheinberg-Ossenberg
+DE02DERSK	Rostock
+DE02DE055	Rügen (Eastern Stralsund line)
+DE03DESAR	Salzgitter
+DE02DESAS	Sassnitz
+DE01DEHMO	Schwarzenhütten, Hemmoor
+DE03DESDT	Schwedt
+DE03DESNE	Sehnde
+DE01DESPI	Spieckeroog I.
+DE03DE061	Spyck
+DE03DEPYK	Spyck
+DE01DESTA	Stade
+DE01DESTS	Stadersand
+DE02DESTL	Stralsund
+DE02DEUCK	Ückermünde
+DE03DEUEL	Uelzen
+DE01DEAGE	Wangerooge I.
+DE01DEWED	Wedel-Schulau
+DE03DEWES	Wesel
+DE01DEWVN	Wilhelmshaven
+DE01DEWIF	Wischhafen
+DE02DEWIS	Wismar
+DE02DEWOL	Wolgast
+DE01DEWYK	Wyk/Foehr
+DE01DE116	Other Ports on the Elbe
+DE02DE115	Other ports on the Baltic coast
+DE03DE888	Other - Germany Inland
+DE09DE888	Germany: other ports (unspecified maritime coastal area)
+EE00EEHLT	Heltermaa
+EE00EEKUI	Kuivastu
+EE00EEKND	Kunda
+EE00EEMDR	Miiduranna
+EE00EEPLN	Paldiski Põhjasadam
+EE00EEPRN	Pärnu
+EE00EEPAR	Patareisadam
+EE00EERHK	Rohuküla
+EE00EESLM	Sillamäe
+EE00EETLL	Tallinn
+EE00EEVEB	Vene Balti
+EE00EEVIR	Virstu
+EE00EE888	Estonia: other ports
+IE00IEARK	Arklow
+IE00IEBYT	Bantry Bay
+IE00IECTB	Castletown Bere
+IE00IEORK	Cork
+IE00IEDRO	Drogheda
+IE00IEDUB	Dublin
+IE00IEDLG	Dun Laoghaire
+IE00IEDDK	Dundalk
+IE00IEFOV	Foynes
+IE00IEGWY	Galway
+IE00IEGRN	Greenore
+IE00IEKBS	Killybegs
+IE00IEKLR	Kilrush
+IE00IEKLN	Kinsale
+IE00IELMK	Limerick
+IE00IENRS	New Ross
+IE00IEROS	Rosslare Harbour
+IE00IESLI	Sligo
+IE00IETRA	Tralee
+IE00IEWAT	Waterford
+IE00IEWIC	Wicklow
+IE00IEYOU	Youghal
+GR00GRAEG	Aegina (001)
+GR00GRAEN	Aegio (002)
+GR00GR876	Ag. Nikolaos Fokidas
+GR00GR702	Agathonisi Dodekanissou
+GR00GRAEF	Agia Efimia (003)
+GR00GR701	Agia Galini Rethimnou
+GR00GR868	Agia Marina
+GR00GR883	Agia Marina Attikis
+GR00GRGMA	Agia Marina Attikis
+GR00GRAGM	Agia Marina Fthiot.
+GR00GRAPE	Agia Pelagia (004)
+GR00GRROU	Agia Roumeli Chanion
+GR00GRAGT	Agii Theodori
+GR00GRAGK	Agiokampos Larissas
+GR00GRAGO	Agios Eystratios Lesvou
+GR00GRAKI	Agios Kirikos (005)
+GR00GRAKO	Agios Konstantinos (006)
+GR00GRANI	Agios Nikolaos Creta
+GR00GRAGG	Agistri Aiginas
+GR00GRAGA	Agria Volou (709)
+GR00GRAIG	Aigiali Amorgou
+GR00GR880	Aktio Vonitsas
+GR00GRAXD	Alexandroupolis
+GR00GRLVR	Aliverio
+GR00GR886	Almyropotamos Evoias
+GR00GRALM	Almyros Volou (897)
+GR00GRALO	Alonissos
+GR00GRATS	Altsi (864)
+GR00GRAMF	Amfilochia
+GR00GRAMI	Amoliani (011)
+GR00GRAMO	Amorgos
+GR00GRANA	Anafi Kyklades
+GR00GRAND	Andros
+GR00GRATK	Antikyra
+GR00GRANP	Antiparos (014)
+GR00GRANT	Antirio (015)
+GR00GR870	Araxos
+GR00GREFL	Argostolion
+GR00GR717	Arkii Dodekanisou
+GR00GRARK	Arkitsa Fthiotidas
+GR00GRAPY	Aspropyrgos
+GR00GRAST	Astakos
+GR00GR719	Astros Arkadias
+GR00GRJTY	Astypalea
+GR00GR720	Atalanti Fthiotidas
+GR00GRVSS	Bassiliki Leykados
+GR00GR723	Bolissos Chios
+GR00GRCHQ	Canea
+GR00GRHAL	Chalki Dodekanissou
+GR00GRCLK	Chalkida
+GR00GRJKH	Chios
+GR00GRCSF	Chora Sfakion (017)
+GR00GRCFU	Corfu
+GR00GRCRG	Corinth
+GR00GRDAF	Dafni Agiou Orous
+GR00GR730	Derveni Korinthias
+GR00GRDIA	Diafani Karpathou
+GR00GRDIK	Diakofti Kythiron
+GR00GR900	Dombraina (Boiotias)
+GR00GRDON	Donousa Kyklades
+GR00GRDPA	Drapetsona
+GR00GRDRE	Drepano Riou
+GR00GREDI	Edipsos (018)
+GR00GRELN	Elafonissos Lakonias
+GR00GRELT	Eleftheres (020)
+GR00GREEU	Eleusis
+GR00GR867	Ereikouses
+GR00GRERE	Eretria Evoias
+GR00GRERM	Ermioni (021)
+GR00GREYD	Eydilos (022)
+GR00GRFNR	Faneromeni Salaminas
+GR00GRFIS	Fiskardo Kefallinias
+GR00GRFOL	Folegandros Kyklades
+GR00GRFOU	Fourni Samou
+GR00GRFRI	Frikes Ithakis
+GR00GRGAL	Galatas Trizinias
+GR00GRGAV	Gavrion
+GR00GR849	Gaydow Chania
+GR00GR857	Gerakas
+GR00GRGLO	Glossa (026)
+GR00GRGLY	Glyfa Fthiotidas
+GR00GRGYT	Gythion
+GR00GRHER	Heraklion
+GR00GRHYD	Hydra (Idhra)
+GR00GR741	Ierissos Chalikidikis
+GR00GRIGO	Igoumenitsa
+GR00GRINO	Inousses (028)
+GR00GRIOS	Ios (029)
+GR00GRHRK	Iraklia Kyklades
+GR00GRITM	Isthmia
+GR00GRITA	Itea
+GR00GRITH	Ithaki
+GR00GRKLX	Kalamata
+GR00GRKLD	Kalathos Rodou
+GR00GRKLI	Kali Limenes
+GR00GR743	Kalloni Lesvou
+GR00GRKMI	Kalymnos Island
+GR00GR745	Kamiro Rodou
+GR00GRKAP	Kapsalio (032)
+GR00GRKAR	Karlovassi
+GR00GRAOK	Karpathos
+GR00GRKST	Karystos
+GR00GRKSJ	Kassos
+GR00GRKIS	Kastelli Kissamou (035)
+GR00GRKAK	Katakolo (036)
+GR00GRKVA	Kavala
+GR00GRKEA	Kea Island
+GR00GRKEF	Kefalos Kos
+GR00GRKER	Keramoti
+GR00GRKTS	Keratsini (865)
+GR00GRKIO	Kiato (042)
+GR00GRKMS	Kimolos
+GR00GR754	Koilas Ermionidos Argolidos
+GR00GRKIN	Koilas Ermionidos Argolidos
+GR00GR755	Korthion Androu
+GR00GRKGS	Kos
+GR00GR881	Kosta Ermionidos
+GR00GRKOF	Koufonissi Kyklades
+GR00GRKYL	Kylini
+GR00GRKYM	Kymassio
+GR00GRKIM	Kymi
+GR00GRKYT	Kythnos
+GR00GR862	Lagos
+GR00GRLRY	Larymna
+GR00GRLAV	Lavrion
+GR00GRLEF	Lefkandi
+GR00GRLFK	Lefkimi (049)
+GR00GRLND	Leonidion (050)
+GR00GRLRS	Leros Island
+GR00GRLEV	Levkas
+GR00GRLIN	Linoperamata Herakliou
+GR00GRLIP	Lipsi Dodekanissou
+GR00GRLIX	Lixouri
+GR00GRLTR	Loutro Chania
+GR00GRZEA	Marina Zeas
+GR00GRMRM	Marmari (051)
+GR00GRMGN	Meganissi (052)
+GR00GRMGR	Megara
+GR00GRKAS	Megisti Kastelorizou
+GR00GRMEN	Menidion Etoloacarnan
+GR00GRMEL	Mesolongion
+GR00GRMES	Messogea (055)
+GR00GRMHI	Mesta Hiou (056)
+GR00GRMET	Methoni
+GR00GRMLO	Milos Island
+GR00GRMOL	Molyvos Lesvou
+GR00GRMON	Monemvassia
+GR00GRMDR	Moudros (060)
+GR00GRJMK	Mykonos
+GR00GRMYR	Myrina (061)
+GR00GRMJT	Mytilene
+GR00GRNAF	Nafplion
+GR00GRJNX	Naxos
+GR00GRNKV	Nea Karvali
+GR00GRNMA	Nea Moudania
+GR00GR795	nea Psara Chiou
+GR00GRNST	Nea Styra (064)
+GR00GRNEA	Neapolis
+GR00GRNID	Nidrion (065)
+GR00GRNIS	Nissyros
+GR00GRORE	Orei (067)
+GR00GRORO	Oropos
+GR00GROTH	Othonoí
+GR00GROUR	Ouranoupoli Chalkidikis
+GR00GRPAA	Palaia Psara Chiou
+GR00GRPEP	Palea Epidavros (069)
+GR00GRPSF	Paleohora Sfakion (070)
+GR00GRPAO	Paloukia Salaminas
+GR00GRPAR	Parga Prevezas (809)
+GR00GRPAS	Paros
+GR00GRPMS	Patmos
+GR00GRGPA	Patras
+GR00GRPAX	Paxi (097)
+GR00GRPER	Perama
+GR00GR887	Pessada Kefallinias
+GR00GRPET	Petra Lesvou
+GR00GR813	Petriti Kerkyras
+GR00GRPIR	Piraeus
+GR00GRPIS	Pissaetos  Ithakis
+GR00GRPLG	Platygiali Etoloakarnanias
+GR00GRPLM	Plomari Lesvou
+GR00GRPLC	Polihnitos Lesvou 
+GR00GRPTK	Politika (074)
+GR00GRPKE	Poros Kefallinias (075)
+GR00GRPTR	Poros Trizinias (076)
+GR00GRPHE	Porto Heli (077)
+GR00GR854	Porto Karra Chalkidikis
+GR00GRPTL	Porto Lagos
+GR00GRPOA	Potamos Antikithera
+GR00GRPVK	Preveza/Lefkas
+GR00GR822	Prinos Kavalas
+GR00GRPSA	Psachna (863)
+GR00GRPYL	Pylos
+GR00GRPYT	Pythagorio
+GR00GRRAF	Rafina
+GR00GRRET	Rethymnon
+GR00GRRHO	Rhodes
+GR00GRRIO	Rio (080)
+GR00GRSMI	Sami
+GR00GRSAM	Samothraki
+GR00GRSHC	Schinoussa Kyklades
+GR00GRSER	Seriphos Island
+GR00GR892	Shoinari Zakynthou
+GR00GRSIF	Sifnos
+GR00GRSGR	Sigri Lesvou
+GR00GR835	Sikia Porto Rafti
+GR00GRSII	Sikinow Kyklades
+GR00GRJSH	Sitia
+GR00GRSKA	Skaramangas
+GR00GRJSI	Skiathos
+GR00GRSKO	Skopelos
+GR00GRSKU	Skyros Island
+GR00GR832	Soubala Aiginas
+GR00GRSUD	Souda Bay
+GR00GRSOG	Sougia
+GR00GRSPE	Spetses (085)
+GR00GRSHA	Stavros Halkidikis (086)
+GR00GRSTI	Stratonio
+GR00GRSYS	Stylida
+GR00GRSYM	Symi (087)
+GR00GRJSY	Syros (Syra)
+GR00GRTSO	Thasos
+GR00GRSKG	Thessaloniki
+GR00GRJTR	Thira
+GR00GRTRS	Thirassia (099)
+GR00GRTIL	Tilos Dodekanissou
+GR00GRTIN	Tinos
+GR00GR839	Tolo Argolidas
+GR00GR838	Trikeri Magnisias
+GR00GRTRY	Trypiti Chalkidikis
+GR00GRVTH	Vathy Samou
+GR00GRVOL	Volos
+GR00GRYER	Yerakini
+GR00GRZTH	Zakynthos
+GR00GR88P	Greek offshore installations
+GR00GR888	Greece: other ports
+ES02ESACA	Alcanar
+ES02ESALG	Algeciras
+ES02ESALC	Alicante
+ES02ESLEI	Almeria
+ES01ESAVS	Aviles
+ES02ESBBE	Barbate
+ES02ESBCN	Barcelona
+ES01ESBIO	Bilbao
+ES02ESCAD	Cadiz
+ES02ESCAR	Cartagena
+ES02ESCAS	Castellon De La Plana
+ES03XCCEU	Ceuta
+ES01ESFRO	Ferrol
+ES02ESGAR	Garrucha
+ES01ESGIJ	Gijon
+ES02ESHUV	Huelva
+ES01ESLCG	La Coruña
+ES02ESLPA	Las Palmas, Gran Canaria
+ES02ESAGP	Málaga
+ES01ESMPG	Marín-Pontevedra
+ES04XLMLN	Melilla
+ES02ESMOL	Molina de Segura
+ES02ESMOT	Motril
+ES02ESPAL	Palamós
+ES02ESPMI	Palma Mallorca
+ES01ESPAS	Pasajes
+ES02ESSCT	Santa Cruz De Tenerife
+ES01ESSDR	Santander
+ES02ESSVQ	Sevilla
+ES02ESTAR	Tarragona
+ES02ESVLC	Valencia
+ES01ESVGO	Vigo
+ES01ESVIL	Villagarcia (De Arosa)
+ES09ES888	Spain: other ports (unspecified maritime coastal area)
+FR02FRAJA	Ajaccio
+FR02FRBIA	Bastia
+FR01FRBAY	Bayonne
+FR02FRBON	Bonifacio
+FR01FRBOD	Bordeaux
+FR01FRBOL	Boulogne-Sur-Mer
+FR01FRBES	Brest
+FR01FRCFR	Caen
+FR01FRCQF	Calais
+FR02FRCLY	Calvi
+FR01FRCAM	Camaret
+FR02FRCEQ	Cannes
+FR01FRCRT	Carteret
+FR01FRCER	Cherbourg
+FR01FRCOC	Concarneau
+FR03GFDDC	Degrad-des Cannes (French Guiana)
+FR01FRDPE	Dieppe
+FR01FRDRZ	Douarnenez
+FR01FRDKK	Dunkerque
+FR01FRFEC	Fecamp
+FR04MQFDF	Fort-de France (Martinique)
+FR01FRGFR	Granville
+FR01FRGRV	Gravelines
+FR04GP001	Guadeloupe (Guadeloupe)
+FR01FRHET	Hennebont
+FR01FRHON	Honfleur
+FR03GFQKR	Kourou (French Guiana)
+FR02FRLCT	La Ciotat
+FR01FRLRH	La Rochelle
+FR01FRLDN	Landerneau
+FR01FRLAI	Lannion
+FR03GFLVT	Larivot (French Guiana)
+FR01FRLFR	Le Fret (Crozon)
+FR01FRLGU	Le Guildo (Crehen)
+FR01FRLEH	Le Havre
+FR01FRSBK	Le Legue (St Brieuc)
+FR01FRLTR	Le Treport
+FR01FRLSO	Les Sables D'Olonne
+FR01FRLEZ	Lezardieux
+FR02FRILR	L'Ile Rousse
+FR01FRLRT	Lorient
+FR02FRMRS	Marseille
+FR01FRMXN	Morlaix
+FR01FRMSG	Mortagne-Sur-Gironde
+FR01FRNTE	Nantes Saint-Nazaire
+FR02FRNCE	Nice-Villefranche
+FR01FRPAI	Paimpol
+FR01FRPOX	Pontrieux
+FR05REPDG	Port Reunion (ex Pointe-des Galets) (Reunion)
+FR02FRPOV	Port Vendres
+FR01FRPRJ	Port-Joinville (Ile D'Yeu)
+FR02FRNOU	Port-La-Nouvelle
+FR02FRPVO	Porto Vecchio
+FR02FRPRP	Propriano
+FR01FRUIP	Quimper
+FR01FRRDN	Redon
+FR01FRRCO	Rochefort
+FR01FRROS	Roscoff
+FR01FRURO	Rouen
+FR01FRRYN	Royan
+FR02FRSET	Sete
+FR03GFSLM	St Laurent du Maroni (French Guiana)
+FR01FRSML	St Malo
+FR02FRSRL	St Raphael
+FR01FRSVS	St Valery-Sur-Somme
+FR01FRTON	Tonnay Charente (Rochefort)
+FR02FRTLN	Toulon
+FR01FRTRE	Treguier
+FR01FRVNE	Vannes
+FR09FR888	France: other ports (unspecified maritime coastal area)
+IT00ITAHO	Alghero
+IT00ITALI	Alicudi
+IT00ITAMA	Amalfi
+IT00ITAOI	Ancona
+IT00ITANZ	Anzio
+IT00ITATX	Arbatax
+IT00ITAUG	Augusta
+IT00ITBLN	Bagnoli
+IT00ITBAI	Baia
+IT00ITBRI	Bari
+IT00ITBLT	Barletta
+IT00ITBDS	Brindisi
+IT00ITCAG	Cagliari
+IT00ITCLS	Calasetta
+IT00ITCPA	Capraia
+IT00ITPRJ	Capri
+IT00ITCLF	Carloforte
+IT00ITCML	Casamicciola
+IT00ITCTR	Castellammare Del Golfo
+IT00ITCAS	Castellammare Di Stabbia
+IT00ITCTA	Catania
+IT00ITCVX	Cavo
+IT00ITCHI	Chioggia
+IT00ITCVV	Civitavecchia
+IT00ITCRV	Crotone
+IT00ITFAL	Falconara Marittima
+IT00ITFAV	Favignana
+IT00ITFPO	Filicudi Porto
+IT00ITFCO	Fiumicino
+IT00ITFOM	Formia
+IT00ITGAE	Gaeta
+IT00ITGAL	Gallipoli
+IT00ITGEA	Gela
+IT00ITGOA	Genova
+IT00ITGII	Giannutri
+IT00ITGIA	Giardini
+IT00ITGIT	Gioia Tauro
+IT00ITGAI	Golfo Aranci
+IT00ITGOR	Gorgona
+IT00ITGRD	Grado
+IT00ITIMP	Imperia
+IT00ITIDG	Isola Del Giglio
+IT00ITISS	Isola Santo Stefano
+IT00ITMDA	La Maddalena
+IT00ITSPE	La Spezia
+IT00ITLMP	Lampedusa
+IT00ITLEV	Levanzo
+IT00ITLIC	Licata
+IT00ITLIU	Linosa
+IT00ITLIP	Lipari
+IT00ITLIV	Livorno
+IT00ITMFR	Manfredonia
+IT00ITMMO	Marettimo .
+IT00ITMDC	Marina Di Carrara
+IT00ITMRA	Marsala
+IT00ITMAZ	Mazara Del Vallo
+IT00ITMSN	Messina
+IT00ITMLZ	Milazzo
+IT00ITMOL	Molfetta
+IT00ITMNF	Monfalcone
+IT00ITMNP	Monopoli
+IT00ITNAP	Napoli
+IT00ITOLB	Olbia
+IT00ITONE	Oneglia
+IT00ITQOS	Oristano
+IT00ITOTN	Ortona
+IT00ITOTO	Otranto
+IT00ITPAU	Palau
+IT00ITPMO	Palermo
+IT00ITPAN	Panarea
+IT00ITPNL	Pantelleria
+IT00ITPES	Pesaro
+IT00ITPSR	Pescara
+IT00ITPCH	Peschici
+IT00ITPIA	Pianosa
+IT00ITPIO	Piombino
+IT00ITPFO	Ponte Fornaci
+IT00ITPNZ	Ponza
+IT00ITPGL	Portiglioni
+IT00ITPAZ	Porto Azzurro
+IT00ITPCE	Porto Cervo
+IT00ITPDI	Porto D'Ischia
+IT00ITPEM	Porto Empedocle
+IT00ITPFX	Porto Foxi
+IT00ITPGA	Porto Garibaldi
+IT00ITPLI	Porto Lignano
+IT00ITPMZ	Porto Maurizio
+IT00ITPNG	Porto Nogaro
+IT00ITPSS	Porto Santo Stefano
+IT00ITPTO	Porto Torres
+IT00ITPFE	Portoferraio
+IT00ITPTF	Portofino
+IT00ITPVE	Portovesme
+IT00ITPOS	Positano
+IT00ITPZL	Pozzallo
+IT00ITPOZ	Pozzuoli
+IT00ITPRO	Procida
+IT00ITRAN	Ravenna
+IT00ITREG	Reggio Di Calabria
+IT00ITRMI	Rimini
+IT00ITRMA	Rio Marina
+IT00ITRPT	Riposto
+IT00ITRGG	Rodi Garganico
+IT00ITSDB	S. Benedetto Del Tronto
+IT00ITSAL	Salerno
+IT00ITSLA	Salina
+IT00ITSRE	Sanremo
+IT00ITSML	Santa Margherita Ligure
+IT00ITSPA	Santa Panagia
+IT00ITSTE	Santa Teresa Di Gallura
+IT00ITSAT	Sant'Antioco
+IT00ITSVC	Santo Vito Lo Capo
+IT00ITSVN	Savona - Vado
+IT00ITSIR	Siracusa
+IT00ITRRO	Sorrento
+IT00ITSTR	Stromboli
+IT00ITTAL	Talamone
+IT00ITTAR	Taranto
+IT00ITTRI	Termini Imerese
+IT00ITTMI	Termoli
+IT00ITTRC	Terracina
+IT00ITTOA	Torre Annunziata
+IT00ITTGR	Torregrande
+IT00ITTVC	Torviscosa
+IT00ITTNI	Trani
+IT00ITTPS	Trapani
+IT00ITTMT	Tremiti
+IT00ITTRS	Trieste
+IT00ITUST	Ustica
+IT00ITVDA	Vada
+IT00ITVSO	Vasto
+IT00ITVCE	Venezia
+IT00ITVTT	Ventotene
+IT00ITVIA	Viareggio
+IT00ITVVA	Vibo Valentia
+IT00ITVIE	Vieste
+IT00ITVUL	Vulcano Porto
+IT00IT88P	IT offshore installations
+IT00IT888	Italy: other ports
+CY00CYAKT	Akrotiri
+CY00CYDHK	Dhekelia (Dekeleia)
+CY00CYLCA	Larnaca
+CY00CY01M	Larnaca Oil Terminal
+CY00CYLAT	Latsi
+CY00CYLMS	Limassol
+CY00CYMOI	Moni
+CY00CYVAS	Vassilico (Vassiliko)
+CY00CY888	Cyprus: other ports
+LV00LVLPX	Liepaya
+LV00LVMRX	Mersrags
+LV00LVRIX	Riga
+LV00LVROJ	Roja
+LV00LVSAL	Salacgriva
+LV00LVSKU	Skulte
+LV00LVVNT	Ventspils
+LV00LV888	Latvia: other ports
+LT00LTBOT	Butinge
+LT00LTKLJ	Klaipeda
+MT00MTCKW	Cirkewwa
+MT00MTMLA	Malta (Valetta)
+MT00MTMAR	Marsaxlokk
+MT00MTMGZ	Mgarr, Gozo
+MT00MT888	Malta: other ports
+NL00NLABL	Alblasserdam
+NL00NLAML	Ameland
+NL00NLAMS	Amsterdam
+NL00NLBGB	Bergambacht
+NL00NLBZM	Bergen Op Zoom
+NL00NLBEV	Beverwijk
+NL00NLBOR	Borsele
+NL00NLBRK	Brakel
+NL00NLBRS	Breskens
+NL00NLCPI	Capelle Aan Den Ijssel
+NL00NLCUY	Cuijk
+NL00NLDZL	Delfzijl/Eemshaven
+NL00NLDHR	Den Helder
+NL00NLDEV	Deventer
+NL00NLDIN	Dinteloord En Prinsenland
+NL00NLDOI	Doetinchem
+NL00NLDOK	Dokkum
+NL00NLDOR	Dordrecht
+NL00NLDRU	Druten
+NL00NLFRK	Franekeradeel
+NL00NLGTB	Geertruindenberg
+NL00NLGNM	Genemuiden
+NL00NLGEN	Gennep
+NL00NLGDR	Goerdereede
+NL00NLGOR	Gorinchem
+NL00NLGRQ	Groningen
+NL00NLHAN	Hansweert
+NL00NLHRX	Hardinxveld-Giessenda
+NL00NLHAR	Harlingen
+NL00NLHAS	Hasselt
+NL00NLHIA	Hendrik-Ido-Ambacht
+NL00NLHGL	Hengelo
+NL00NLHTN	Hontenisse
+NL00NLKAM	Kampen
+NL00NLKRP	Krimpen Aan Den Ijsse
+NL00NLLAN	Lanwersoog
+NL00NLLWR	Leeuwarden
+NL00NLLCH	Lochem
+NL00NLMSS	Maarssen
+NL00NLMSB	Maasbracht
+NL00NLMSL	Maassluis
+NL00NLMST	Maastricht
+NL00NLMEW	Meerlo-Wansum
+NL00NLMEP	Meppel
+NL00NLMID	Middelburg
+NL00NLMIH	Middelharnis
+NL00NLMOE	Moerdijk
+NL00NLNLK	Nieuw-Lekkerland
+NL00NLNIJ	Nijmegen
+NL00NLOOS	Oosterhout
+NL00NLOSS	Oss
+NL00NLOUG	Oud En Nieuw Gastel
+NL00NLOAI	Ouderkerk
+NL00NLPAP	Papendrecht
+NL00NLRAA	Raamsdonk
+NL00NLRAS	Ravenstein
+NL00NLREW	Reimerswaal
+NL00NLRNK	Renkum
+NL00NLRHE	Rhenen
+NL00NLRID	Ridderkerk
+NL00NLOMD	Roermond
+NL00NLROO	Roosendaal
+NL00NLRTM	Rotterdam
+NL00NLROZ	Rozenburg
+NL00NLSVG	Sas Van Gent
+NL00NLSCE	Scheveningen
+NL00NLSCI	Schiedam
+NL00NLGRA	S-Gravendeel
+NL00NLHTB	S-Hertogenbosch
+NL00NLSLD	Sliedrecht
+NL00NLSML	Smallingerland
+NL00NLSNK	Sneek
+NL00NLSTE	Steenbergen
+NL00NLTNZ	Terneuzen
+NL00NLTEX	Texel
+NL00NLTIE	Tiel
+NL00NLUTC	Utrecht
+NL00NLVEL	Velsen/Ijmuiden
+NL00NLVEN	Venlo
+NL00NLVIE	Vierlingsbeek
+NL00NLVLA	Vlaardingen
+NL00NLVLI	Vlissingen
+NL00NLWGW	Wageningen
+NL00NLWKD	Werkendam
+NL00NLWTE	West-Terschelling
+NL00NLWCM	Woudrichem
+NL00NLZAA	Zaanstad
+NL00NLZWI	Zwijndrecht
+NL00NLZWO	Zwolle
+NL00NL888	Netherlands: other ports
+PL00PLDAR	Darlowo
+PL00PLELB	Elblag
+PL00PL011	Frombork
+PL00PLGDN	Gdansk
+PL00PLGDY	Gdynia
+PL00PLHEL	Hel
+PL00PLKOL	Kolobrzeg
+PL00PL012	Krynica Morska
+PL00PLMID	Miedzyzdroje (Miedzyzdroje)
+PL00PLNWA	Nowe Warpno
+PL00PLPLC	Police
+PL00PLSOP	Sopot
+PL00PLSPA	Stepnica
+PL00PLSWI	Swinoujscie
+PL00PLSZZ	Szczecin
+PL00PLTBZ	Trzebiez
+PL00PLUST	Ustka
+PL00PLWLA	Wladyslawowo
+PT00PTADH	Angra do Heroísmo (Ilha da Terceira, Açores)
+PT00PTAVE	Aveiro
+PT00PTCDP	Cais Do Pico - Açores
+PT00PTCNL	Caniçal
+PT00PTOPO	Douro (Oporto)
+PT00PTFAO	Faro
+PT00PTFDF	Figueira da Foz
+PT00PTFNC	Funchal (Ilha da Madeira, Madeira)
+PT00PTHOR	Horta (Ilha das Flores, Açores)
+PT00PTLAJ	Lajes das Flores (Ilha das Flores, Açores)
+PT00PTLEI	Leixões
+PT00PTLIS	Lisboa
+PT00PTMAD	Madalena (Ilha do Pico, Açores)
+PT00PTPDL	Ponta Delgada (Ilha de S. Miguel, Açores)
+PT00PTPRM	Portimão
+PT00PTPXO	Porto Santo (Ilha de Porto Santo, Madeira)
+PT00PTPRG	Praia da Graciosa (Ilha da Graciosa, Açores)
+PT00PTPRV	Praia da Vitória (Ilha Terceira, Açores)
+PT00PTSET	Setúbal
+PT00PTSIE	Sines
+PT00PTVEL	Velas (Ilha de São Jorge, Açores)
+PT00PTVDC	Viana do Castelo
+PT00PTVDP	Vila do Porto (Ilha de Sta Maria, Açores)
+PT00PTVNC	Vila Nova do Corvo (Ilha do Corvo, Açores)
+RO00ROBAB	Basarabi
+RO00ROBRA	Braila
+RO00ROCEV	Cernavoda
+RO00ROCND	Constanta
+RO00ROGAL	Galati
+RO00ROLUM	Luminita
+RO00ROMAG	Mangalia
+RO00ROMED	Medgidia
+RO00ROMID	Midia
+RO00ROSUL	Sulina
+RO00ROTCE	Tulcea
+RO00RO888	Romania: other ports
+SI00SIIZO	Izola
+SI00SIKOP	Koper
+SI00SIPIR	Piran
+SI00SI888	Slovenia: other ports
+FI00FIBRA	Brando
+FI00FIDRA	Dragsfjard
+FI00FIECK	Eckero
+FI00FIESP	Espoo
+FI00FIEJO	Eurajoki
+FI00FIFAR	Farjsund
+FI00FIFOG	Foglo
+FI00FIFOR	Forby
+FI00FIGDB	Godby
+FI00FIHMN	Hamina
+FI00FIHKO	Hanko
+FI00FIHEL	Helsinki
+FI00FIHOU	Houtskar
+FI00FIINI	Inio
+FI00FIINK	Inkoo
+FI00FIISN	Isnas
+FI00FIKJO	Kalajoki
+FI00FIKNT	Kantvik
+FI00FIKAS	Kaskinen
+FI00FIKEM	Kemi
+FI00FIKIM	Kemio
+FI00FIKKR	Kokar
+FI00FIKOK	Kokkola
+FI00FIKOR	Korpoo
+FI00FIKTK	Kotka
+FI00FIKVH	Koverhar
+FI00FIKRS	Kristinankaupunki
+FI00FIKUM	Kumlinge
+FI00FILAN	Langnas
+FI00FILAP	Lapoohja
+FI00FILOV	Loviisa
+FI00FILUV	Luvia
+FI00FIMHQ	Mariehamn
+FI00FIMER	Merikarvia
+FI00FINLI	Naantali
+FI00FINAU	Nauvo
+FI00FIOUL	Oulu
+FI00FIPAR	Parainen
+FI00FIPER	Pernaja
+FI00FIPRS	Pietarsaari
+FI00FIPOH	Pohjankuru
+FI00FIPOR	Pori
+FI00FIRAA	Raahe
+FI00FIRAU	Rauma
+FI00FIRTR	Rautaruukki/Raahe
+FI00FIRUO	Ruotsinpyhtää
+FI00FIRYM	Rymattyla
+FI00FISAL	Salo
+FI00FISIP	Sipoonlahti
+FI00FISKV	Skoeldvik
+FI00FISKB	Skogby
+FI00FIDLS	Taalintehdas (Dalsbruk)
+FI00FITVS	Taivassalo
+FI00FITAI	Tammisaari
+FI00FITEI	Teijo
+FI00FITOK	Tolkkinen
+FI00FITOR	Tornio
+FI00FITKU	Turku
+FI00FIUKI	Uusikaupunki
+FI00FIVAA	Vaasa
+FI00FIVEL	Velkua
+FI00FI001	Finland Inland Ports
+FI00FI888	Finland: other ports
+SE01SEAHU	Ahus
+SE01SEALA	Ala
+SE02SEAMA	Amal
+SE01SEBLV	Balastviken (102)
+SE01SEBAA	Balsta (009)
+SE01SEBEA	Bergkvara
+SE01SEBER	Bergs Oljehamn (104)
+SE02SEBOH	Bohus (106)
+SE01SEBOL	Bollstabruk
+SE01SEBVK	Braviken
+SE02SEBRO	Brofjorden Scanraff
+SE01SEDEG	Degerhamn
+SE01SEDOM	Domsjo
+SE01SEENK	Enkoping
+SE02SEFAG	Falkenberg
+SE01SEFLI	Flivik
+SE01SEFOR	Forsmark (114)
+SE01SEGVX	Gavle
+SE02SEGOT	Goteborg
+SE01SEGKV	Grankullavik
+SE02SEGRE	Grebbestad (117)
+SE01SEGRH	Grisslehamn (118)
+SE02SEGRU	Gruvon (973)
+SE01SEGUN	Gunnebo (120)
+SE01SEGUB	Gustavberg (121)
+SE01SEHAK	Hallstavik
+SE02SEHAD	Halmstad
+SE01SEHAN	Hargshamn
+SE01SEHND	Harnosand
+SE01SEHEL	Helsingborg
+SE02SEHOG	Hoganas
+SE02SEHON	Honsatar (122)
+SE01SEHUS	Husum
+SE01SEIGG	Iggesund
+SE01SEJAT	Jatterson (001)
+SE01SEKGG	Kagghamra
+SE01SEKAX	Kalix (974)
+SE01SEKLR	Kalmar
+SE01SEKAL	Kalmarsand
+SE01SEKPH	Kappelshamn (125)
+SE01SEKPS	Kappelskar (002)
+SE01SEKXV	Karlsborg Axelvik
+SE01SEKAN	Karlshamn
+SE01SEKAA	Karlskrona
+SE02SEKSD	Karlstad
+SE01SEKLI	Klintehamn
+SE01SEKOG	Koping
+SE02SEKHN	Kristinehamn
+SE01SEKUB	Kubikenborg
+SE02SEKUN	Kungshamn (Ports)(969, 976)
+SE01SEKVA	Kvarnholmen (128)
+SE01SELAA	Landskrona
+SE02SELDK	Lidkoping
+SE01SELOT	Löten
+SE01SELLA	Lulea
+SE01SELUG	Lungvik
+SE02SELYS	Lysekil
+SE01SEMMA	Malmo
+SE02SEMAD	Mariestad
+SE01SEMOR	Morbylanga
+SE02SENOL	Nol (130)
+SE01SENRK	Norrkoping
+SE01SENOT	Norrsundet
+SE01SENOE	Norrtalje
+SE01SENYO	Nykoping
+SE01SENYN	Nynashamn/Nynashamn oljehamn (131)
+SE01SEOER	Ornskoldsvik
+SE01SEOSK	Oskarshamn
+SE01SEOST	Ostrand
+SE02SEOTT	Otterbacken
+SE01SEOXE	Oxelosund/Oxelosund SSAB(134)
+SE01SEPIT	Pitea
+SE01SERNH	Romehamn (135)
+SE01SERNB	Ronneby
+SE01SERUV	Rundvik
+SE02SESAF	Saffle Billeruds Bruck (136)
+SE01SESIM	Simrishamn
+SE02SESKT	Skattkarr (138)
+SE01SESFT	Skelleftea
+SE02SESKO	Skoghall
+SE01SESSR	Skutskar
+SE01SESLI	Slite/Slite industrihamn (139)
+SE01SESOO	Soderhamn
+SE01SESOE	Sodertalje
+SE01SESOL	Solvesborg
+SE01SESOR	Soraker
+SE02SESTE	Stenungsund (Ports)
+SE01SESTA	Stocka
+SE01SESTO	Stockholm
+SE01SESTK	Stockvik
+SE01SESTV	Stora Vika
+SE01SESUS	Storugns (007)
+SE01SESTQ	Strangnas
+SE02SESMD	Stromstad
+SE01SESDL	Sundsvall
+SE02SESUR	Surte (140)
+SE01SETOE	Tore
+SE01SETRG	Trelleborg
+SE02SETHN	Trollhattan (Ports) (962,963,964,965)
+SE01SETUN	Tunadal
+SE02SEUDD	Uddevalla
+SE01SEUME	Umea
+SE01SEUND	Underås
+SE01SEUPP	Uppsala (142)
+SE01SEUTA	Utansjo
+SE01SEVAJ	Vaja
+SE01SEVAL	Vallvik
+SE02SEVAN	Vanersborg (Ports) (966)
+SE02SEVAG	Varberg
+SE02SEVGN	Vargon (143)
+SE01SEVST	Vasteras
+SE01SEVVK	Vastervik
+SE01SEVBY	Visby
+SE01SEVIV	Vivstavarv
+SE02SEWAL	Wallhamn
+SE01SEYST	Ystad
+SE09SE88C	Sweden: Eurostat estimate for missing data 
+SE01SE888	Other - Sweden Baltic
+SE02SE888	Other - Sweden North Sea
+SE09SE88D	Sweden: Other ports
+SE09SE888	Sweden: Other ports (unspecified maritime coastal area)
+UK01GBABD	Aberdeen
+UK01GBAPP	Appledore
+UK01GBASG	Ardrishaig
+UK01GBAYR	Ayr
+UK01GBBLR	Ballylumford
+UK01GBBND	Barnstaple
+UK01GBCBA	Barra Castlebay
+UK01GBBIF	Barrow-In-Furness
+UK01GBBAD	Barry
+UK01GBBEL	Belfast
+UK01GBBWK	Berwick-On-Tweed
+UK01GBBID	Bideford
+UK01GBBLY	Blyth
+UK01GBBOS	Boston
+UK01GBBRW	Bridgwater
+UK01GBBLS	Brightlingsea
+UK01GBBRS	Bristol
+UK01GBBRX	Brixham
+UK01GBBUC	Buckie
+UK01GBBUH	Burghead
+UK01GBBPT	Burry Port
+UK01GBCYN	Cairnryan
+UK01GBCBT	Campbeltown
+UK01GBCDF	Cardiff
+UK01GBCHF	Charlestown
+UK01GBCST	Chichester
+UK01GBCYP	Clydeport
+UK01GBCOL	Colchester
+UK01GBCLR	Coleraine
+UK01GBCOR	Corpach
+UK01GBCOW	Cowes, Iow
+UK01GBCNU	Craignure
+UK01GBCRN	Cromarty Firt
+UK01GBDTM	Dartmouth
+UK01GBDNQ	Dean Quarry
+UK02IMDGS	Douglas, Isle of Man
+UK01GBDVR	Dover
+UK01GBDUN	Dundee
+UK01GB230	Dutch River Warf
+UK01GBEXM	Exmouth
+UK01GBFAL	Falmouth
+UK01GBFHM	Fareham
+UK01GBFXT	Felixstowe
+UK01GBFIS	Fishguard
+UK01GBFLE	Fleetwood
+UK01GBFOL	Folkestone
+UK01GBFOR	Forth
+UK01GBFDK	Fosdyke
+UK01GBFOY	Fowey
+UK01GBFRB	Fraserburgh
+UK01GBGTN	Garston
+UK01GBILL	Gill's Bay
+UK01GBGIR	Girvan
+UK01GBGSA	Glensanda
+UK01GBGOO	Goole
+UK01GBGTY	Great Yarmouth
+UK01GBIMM	Grimsby & Immingham
+UK01GBHRW	Harwich
+UK01GBHYM	Heysham
+UK01GBHLY	Holyhead
+UK01GBHWZ	Hugh Town
+UK01GBHUL	Hull
+UK01GBINK	Inverkeithing
+UK01GBINV	Inverness
+UK01GBIPS	Ipswich
+UK01GBKLR	Kilroot
+UK01GBKLN	King'S Lynn
+UK01GBKWL	Kirkwall
+UK01GBLAN	Lancaster
+UK01GBLAR	Larne
+UK01GBLER	Lerwick
+UK01GBLIT	Littlehampton
+UK01GBLIV	Liverpool
+UK01GBLDO	Llandudno
+UK01GBLLD	Llandulas
+UK01GB231	Loch Carnan
+UK01GBLOL	Lochaline
+UK01GBLON	London
+UK01GBLDY	Londonderry
+UK01GBLOW	Lowestoft
+UK01GBMCD	Macduff
+UK01GBMGO	Magheramorne
+UK01GBMAL	Maldon
+UK01GBMNC	Manchester
+UK01GBMED	Medway
+UK01GBMLF	Milford Haven
+UK01GBMIS	Mistley
+UK01GBMON	Montrose
+UK01GBCHE	Mostyn
+UK01GBNEA	Neath
+UK01GBNCL	Newcastle-Upon-Tyne
+UK01GBNHV	Newhaven
+UK01GBNPO	Newport (Isle of Wight)
+UK01GBNPT	Newport, Gwent
+UK01GBOBA	Oban
+UK01GBPAD	Padstow
+UK01GBPAR	Par
+UK01GBPEM	Pembroke
+UK01GBPEN	Penzance
+UK01GBPER	Perth
+UK01GBPHD	Peterhead
+UK01GBPLY	Plymouth
+UK01GBPOO	Poole
+UK01GBPPE	Port Penrhyn
+UK01GBPSB	Port Sutton Bridge
+UK01GBPTB	Port Talbot
+UK01GBPOH	Porthoustock England
+UK01GBPTR	Portrush
+UK01GBPME	Portsmouth
+UK01GBRMG	Ramsgate
+UK01GB222	River Ouse
+UK01GB221	Rivers Hull & Humber
+UK01GBRFD	Rochford
+UK01GBRYE	Rye
+UK01GBSCR	Scrabster
+UK01GBSEA	Seaham
+UK01GBSSS	Sharpness
+UK01GBSHO	Shoreham
+UK01GBSHT	Shotton
+UK01GBSIL	Silloth
+UK01GBSOU	Southampton
+UK01GBSWD	Southwold
+UK03JESTH	St Helier, Jersey
+UK03GGSPT	St Peter Port, Guernsey
+UK01GBSTO	Stornoway
+UK01GBSTR	Stranraer
+UK01GBSOY	Stronsay
+UK01GBSUL	Sullom Voe
+UK01GBSUN	Sunderland
+UK01GBSWA	Swansea
+UK01GBMME	Tees & Hartlepool
+UK01GBTNM	Teignmouth
+UK01GBTOR	Torquay
+UK01GB203	Trent River
+UK01GBTRN	Troon
+UK01GBTRU	Truro
+UK01GBTYN	Tyne
+UK01GBWPT	Warrenpoint
+UK01GBWEY	Weymouth
+UK01GBWTB	Whitby
+UK01GBWHV	Whitehaven
+UK01GBWTS	Whitstable
+UK01GBWIC	Wick
+UK01GBWIS	Wisbech
+UK01GBWOR	Workington
+UK01GB888	United Kingdom: other ports
+UK02IM888	Other - United Kingdom - Isle of Man
+UK03GG888	Other - United Kingdom - Guernsey
+UK03JE888	Other - United Kingdom - Jersey
+HR00HRBAK	Bakar
+HR00HRBAS	Baška
+HR00HRBNM	Biograd na Moru
+HR00HRBOL	Bol
+HR00HRBZA	Božava
+HR00HRCVT	Cavtat
+HR00HRCRS	Cres
+HR00HRCRA	Crikvenica
+HR00HRDBV	Dubrovnik - Gruž passenger port
+HR00HRHVA	Hvar - passenger port
+HR00HRIST	Ist
+HR00HRJAB	Jablanac
+HR00HRJSA	Jelsa
+HR00HRKAB	Karlobag
+HR00HRKMZ	Komiža
+HR00HRKOR	Korcula
+HR00HRKRA	Kraljevica
+HR00HRKRK	Krk
+HR00HRLST	Lastovo
+HR00HRMAK	Makarska
+HR00HRLSZ	Mali Lošinj - passenger port
+HR00HRMAL	Malinska
+HR00HRMET	Metkovic - cargo port
+HR00HRMIL	Milna
+HR00HRMOD	Moscenicka Draga
+HR00HRMUR	Murter
+HR00HRNVL	Novalja
+HR00HRNVD	Novi Vinodolski
+HR00HRNVG	Novigrad - passenger port
+HR00HROMS	Omiš
+HR00HROMI	Omišalj
+HR00HROPA	Opatija
+HR00HRPAG	Pag - passenger port
+HR00HRPLE	Ploce
+HR00HRPMN	Pomena
+HR00HRPOR	Porec - passenger port
+HR00HRPRE	Preko - passenger port
+HR00HRPRI	Primošten
+HR00HRPUY	Pula
+HR00HRPNT	Punat
+HR00HRRAB	Rab
+HR00HRRBC	Rabac
+HR00HRRAS	Raša - Bršica
+HR00HRRJK	Rijeka
+HR00HRRGC	Rogac
+HR00HRRGN	Rogoznica
+HR00HRROV	Rovinj - passenger port
+HR00HRSAL	Sali
+HR00HRSEN	Senj
+HR00HRSIB	Šibenik
+HR00HRSIL	Silba
+HR00HRSLO	Šilo
+HR00HRSLA	Slano
+HR00HRSBR	Sobra
+HR00HRSPU	Split
+HR00HRSGD	Stari Grad
+HR00HRSGR	Starigrad
+HR00HRSTO	Ston
+HR00HRSUC	Sucuraj - passenger port
+HR00HRSMN	Sumartin
+HR00HRSUP	Supetar
+HR00HRSSK	Susak
+HR00HRTNO	Tisno
+HR00HRTRO	Trogir
+HR00HRTRJ	Trpanj
+HR00HRTRK	Trstenik
+HR00HRUBL	Ubli
+HR00HRUMG	Umag - passenger port
+HR00HRVLK	Vela Luka - passenger port
+HR00HRVIS	Vis - passenger port
+HR00HRVDC	Vodice
+HR00HRZAD	Zadar - passenger port
+IS00ISAKR	Akranes
+IS00ISAKU	Akureyri
+IS00ISASS	Árskógssandur
+IS00ISBAK	Bakkafjörður
+IS00ISBIL	Bíldudalur
+IS00ISBLO	Blonduos
+IS00ISBOL	Bolungavirk
+IS00ISBGJ	Borgafjörður eystri
+IS00ISBRJ	Brjánslækur
+IS00ISBRE	Breiðdalsvík
+IS00ISDAL	Dalvik
+IS00ISDJU	Djupivogur
+IS00ISESK	Eskifjordur Hofn
+IS00ISFAS	Faskrudsfjordur
+IS00ISFLA	Flateyri
+IS00ISGRD	Garður
+IS00ISGRY	Grímsey
+IS00ISGRI	Grindavik
+IS00ISGRF	Grundarfjordur
+IS00ISGRT	Grundartangi
+IS00ISHAF	Hafnarfjordur
+IS00ISHNR	Hafnir
+IS00ISHFN	Hofn, Hornafjordur
+IS00ISHOF	Hofsós
+IS00ISHVK	Holmavik
+IS00ISHRI	Hrísey
+IS00ISHUS	Husavik
+IS00ISHVR	Hvalfjørdur-Litlisandur
+IS00ISHVM	Hvammstangi
+IS00ISISA	Isafjordur Hofn
+IS00ISKEF	Keflavik
+IS00ISKOP	Kópasker
+IS00ISKOV	Kópavogur
+IS00ISNES	Neskaupstadur
+IS00ISNOU	Norðurfjörður
+IS00ISOLF	Olafsfjordur
+IS00ISOLV	Olafsvik
+IS00ISPAT	Patreksfjordur Hofn
+IS00ISRAU	Raufarhofn
+IS00ISRFJ	Reydarfjordur
+IS00ISRHA	Reykhólar
+IS00ISREY	Reykjavik
+IS00ISRIF	Rif
+IS00ISSAN	Sandgerði
+IS00ISSAU	Saudarkrokur
+IS00ISSEY	Seydisfjordur
+IS00ISSIG	Siglufjordur
+IS00ISSKA	Skagaströnd
+IS00ISSTD	Stodhvarfjordur
+IS00ISSTR	Straumsvik
+IS00ISSTY	Stykkisholmur Hofn
+IS00ISSUV	Súðavík
+IS00ISSUD	Sudureyri / Sugandafjord
+IS00ISTAL	Tálknafjörður
+IS00ISTEY	Thingeyri
+IS00ISTHH	Thorlakshofn
+IS00ISTHO	Thorshofn
+IS00ISVES	Vestmannaeyjar
+IS00ISVOG	Vogar
+IS00ISVPN	Vopnafjordur
+IS00IS888	Iceland: other ports
+NO00NOAES	Aalesund/Langevaag/Spjelkavik
+NO00NOALF	Alta
+NO00NOADY	Andøy
+NO00NOAAN	Ardal
+NO00NOARE	Arendal
+NO00NOASL	Askvoll
+NO00NOAUL	Aurland
+NO00NOBJF	Batsfjord
+NO00NOBGO	Bergen
+NO00NOBVG	Berlevåg
+NO00NOBOO	Bodo
+NO00NOBRG	Borg
+NO00NOBRR	Borre
+NO00NOBRE	Bremanger/Svelgen
+NO00NOBRO	Broennoey
+NO00NODRM	Drammen
+NO00NOEGD	Eigersund
+NO00NOFAN	Farsund
+NO00NOFKS	Flakstad
+NO00NOFFD	Flekkefjord
+NO00NOFRO	Floroe
+NO00NOFUS	Fusa
+NO00NOGVL	Grenland/Skien/Porsgrunn/Bamble
+NO00NOGTD	Grimstad
+NO00NOGUL	Gulen/Slorvaag
+NO00NOHAD	Hadsel/Melbu/Stokmarknes
+NO00NOHAL	Halden
+NO00NOHFT	Hammerfest
+NO00NOHRD	Harstad
+NO00NOHOL	Holmestrand
+NO00NOHVG	Honningsvåg/Nordkapp
+NO00NOKAS	Karmsund/Haugesund/Karmøy
+NO00NOKKN	Kirkenes
+NO00NOKRA	Kragero
+NO00NOKRS	Kristiansand
+NO00NOKSU	Kristiansund
+NO00NOKVD	Kvinesdal/Oeyestrand
+NO00NOLAR	Larvik
+NO00NOLEB	Lebesby
+NO00NOLIL	Lillesand
+NO00NOLOD	Lødingen
+NO00NOLOP	Loppa/Øksfjord
+NO00NOLUS	Luster
+NO00NOMAY	Maloy
+NO00NOMAN	Mandal
+NO00NOMSY	Måsøy/Havøysund
+NO00NOMOD	Modalen
+NO00NOMOL	Molde
+NO00NOMJF	Mosjoen
+NO00NOMSS	Moss
+NO00NOOSY	Namsos
+NO00NONVK	Narvik
+NO00NOODD	Odda
+NO00NOMYO	Øksnes/Myre
+NO00NOOLN	Ølen
+NO00NOORK	Orkanger
+NO00NOOSL	Oslo
+NO00NOOST	Osterøy
+NO00NORNA	Rana
+NO00NOSAD	Sandefjord
+NO00NOSAS	Sandnes
+NO00NOSSJ	Sandnessjoen
+NO00NOSAU	Sauda
+NO00NOSAL	Sjøvegan/Salangen
+NO00NOSKY	Skjervoey
+NO00NOSOK	Sokndal/Joessingfjord, Rekefjord
+NO00NOSLX	Sortland
+NO00NOSVG	Stavanger
+NO00NOSTE	Steinkjar
+NO00NOSRP	Stord/Leirvik
+NO00NOSTD	Strand/Tau
+NO00NOSRN	Stranda
+NO00NOSUL	Suldal/Sand
+NO00NOSUN	Sunndalsora
+NO00NO720	Svalbard
+NO00SJ888	Svalbard and Jan Mayen
+NO00NOTON	Tonsberg
+NO00NOTOS	Tromso
+NO00NOTRD	Trondheim
+NO00NOVGN	Vaagan/Svolvaer
+NO00NOVDS	Vadso
+NO00NOVEY	Værøy
+NO00NOVAY	Vanylven/Aaheim
+NO00NOVAO	Vardo
+NO00NOVER	Verdal
+NO00NOVVY	Vestvågøy
+NO00NOVKN	Vikna/Rørvik
+NO00NO888	Norway: other ports
+TR01TRAMA	Amasra
+TR01TRAMB	Ambarli
+TR01TRBTN	Bartin
+TR01TRERE	Eregli
+TR01TRFAS	Fatsa
+TR01TRGIR	Giresun
+TR01TRGZE	Gerze
+TR01TRHOP	Hopa
+TR01TRIGN	Igneada
+TR01TRINE	Inebolu
+TR01TRORD	Ordu
+TR01TRPZR	Pazar
+TR01TRRIZ	Rize
+TR01TRSSX	Samsun
+TR01TRSUR	Surmene
+TR01TRTIR	Tirebolu
+TR01TRTZX	Trabzon
+TR01TRUNY	Unye
+TR01TRVAK	Vakfikebir
+TR01TRZON	Zonguldak
+TR02TRALA	Alanya
+TR02TRALI	Aliaga
+TR02TRAYT	Antalya
+TR02TRAYV	Ayvalik
+TR02TRBDM	Bandirmar
+TR02TRBOT	Botas
+TR02TRBXN	Bodrum
+TR02TRBZC	Bozcaada
+TR02TRCES	Cesme
+TR02TRCKZ	Canakkale
+TR02TRDIK	Dikili, Izmir
+TR02TRERK	Erdek
+TR02TRFET	Fethiye
+TR02TRGCK	Gocek
+TR02TRGEL	Gelibolu
+TR02TRGEM	Gemlik
+TR02TRGUL	Gulluk
+TR02TRISK	Iskenderun, Hatay
+TR02TRIST	Istanbul
+TR02TRIZM	Izmir
+TR02TRIZT	Izmit
+TR02TRKRB	Karabiga
+TR02TRKUS	Kusadasi
+TR02TRMER	Mersin
+TR02TRMRA	Marmara Adasi, Balikesir
+TR02TRMRM	Marmaris
+TR02TRMUD	Mudanya, Bursa
+TR02TRSIL	Silivri
+TR02TRTAS	Tasucu
+TR02TRTEK	Tekirdag
+TR02TRYAL	Yalova
+TR09TR888	Turkey: Other ports
+TOP_5	Total Top 5 ports
+TOP_20	Total Top 20 ports
+TOT_PORT	Total EU ports

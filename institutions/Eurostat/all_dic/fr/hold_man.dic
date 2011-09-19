@@ -1,0 +1,7 @@
+TOTAL	Total
+HOLDMAN	L'exploitant est chef d'exploitation
+SPSMAN	Conjoint de l'exploitant est chef d'exploitation
+FAMMAN	Chef d'exploitation non exploitant mais membre de la famille de l'exploitant
+NONFAMMAN	Chef d'exploitation non membre de la famille de l'exploitant
+LEGENT	Exploitation de personne morale
+GRPHLD	Exploitation en groupement

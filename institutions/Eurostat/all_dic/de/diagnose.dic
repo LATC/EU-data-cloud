@@ -1,0 +1,20 @@
+ALLERGIC	Allergische Erkrankungen
+CANCER	Krebs
+CARDIO_V	Herz-Kreislauf-Erkrankungen
+DENTAL	Zahnerkrankungen
+EYE	Augenerkrankungen
+GASTROIN	Erkrankungen des Verdauungsapparates
+HEMATOLO	Erkrankungen der blutbildenden Organe
+HEARING	Gehörschäden
+HEPATIC	Lebererkrankungen
+IRRI_SKI	Haut- und Schleimhautreizungen
+NEUROLOG	Nervenerkrankungen
+PULMONAR	Lungenerkrankungen
+MUSC_SKE	Knochen-, Gelenk- oder Muskelerkrankungen
+INFECTIO	Infektionskrankheiten
+STRESS	Streß, Depressionen oder Beklemmungen
+SKIN_DIS	Hautprobleme
+HEAD_EYE	Kopfschmerzen, Überanstrengung der Augen
+OTHER	Sonstige anderweitig nicht genannt
+UNK	Nicht bekannt
+TOTAL	Insgesamt

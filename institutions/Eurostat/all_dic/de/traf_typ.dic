@@ -1,0 +1,4 @@
+GOOD_TRAIN	Güterzugbewegungen
+PASS_TRAIN	Personenzugbewegungen
+OTH_TRAIN	Sonstige Zugbewegungen
+TOT	Insgesamt

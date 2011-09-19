@@ -1,0 +1,17 @@
+TOTAL	Total
+LE_125	125 cm ou moins
+GT_125	Plus de 125 cm
+LT_1400	Moins de 1400 cm
+1400_2000	De 1400 cm à moins de 2000 cm
+SOL_FUEL	
+GE_2000	2000 cm ou plus
+COKE	Coke 
+SOL_FUEL_OTH	Other solid fuels 
+LIQ_FUEL	Liquid fuels 
+GAS	Gas (v2031 + v2032 + v2033 + v2034)
+GAS_BFUR	Blast-furnace gas 
+GAS_COKE	Coke-oven gas 
+GAS_CONV	Converter gas 
+GAS_OTH	Other gas 
+DLV_GAS_BFUR	External deliveries of blast-furnace gas 
+DLV_GAS_CONV	External deliveries of converter gas 

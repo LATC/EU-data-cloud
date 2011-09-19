@@ -1,0 +1,13 @@
+TOTAL	Traitement total
+TOT_GEN	Production
+RECYC_MAT	Recyclage des matériaux
+RECYC_OTH	Autres formes de recyclage
+RECYC	Recyclage
+RECOV	Valorisation
+RECOV_NRG	Valorisation énergétique
+RECOV_OTH	Autre formes de valorisation
+INCIN	Incinération
+RECOV_INCIN	Valorisation (incinération inclus)
+DISPO	Elimination
+DEPOS	Dépôt dans ou sur le sol
+LANDTRT	Épandage sur le sol et rejet en milieu aquatique

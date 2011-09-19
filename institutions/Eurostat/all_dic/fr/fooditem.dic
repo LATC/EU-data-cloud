@@ -1,0 +1,68 @@
+F_01	Produits alimentaires et boissons non alcoolisées
+F_011	Produits alimentaires
+F_0111	Céréales
+F_01111	Céréales (non compris riz)
+F_011111	Blé
+F_011111A	Blé tendre
+F_011111B	Blé dur
+F_011112	Orge
+F_011113	Maïs
+F_01173	Légumes secs
+F_01112	Riz - total (équivalent riz usiné)
+F_011121	Riz paddy
+F_011122	Riz décortiqué
+F_011123	Riz usiné
+F_011124	Brisures de riz
+F_0112	Viande - Total
+F_01121	Viande : Bovins
+F_01122	Viande : Porcs
+F_01123	Viande : Moutons et chèvres
+F_01124	Viande : Volaille
+F_01125	Viande : Equidés
+F_0113	Poisson et aliment marin
+F_0114	Lait, fromages et oeufs
+F_01141_01151	Lait entier (matière première)
+F_011411	Lait de consommation
+F_011412	Fromage
+F_01142	Oeufs
+F_0115	Graisses et huiles
+F_01151	Beurre
+F_011521	Graines et fruits oléagineux - Total
+F_0116_7	Fruits, légumes, y compris pommes de terre
+F_0116	Fruits
+F_01161	Fruit frais
+F_011611	Pommes
+F_011612	Poires
+F_011613	Pèches
+F_011614	Raisins
+F_011615	Agrumes
+F_0116151	Oranges
+F_011621	Fruits à coque
+F_011622	Fruits séchés
+F_0117	Légumes
+F_01171	Légumes (non compris pommes de terre)
+F_011711	Choux-fleurs
+F_011712	Tomates fraîches
+F_01172	Pommes de terre
+F_0118_9	Produits alimentaires y compris sucre, confitures, miel, sirops, chocolat et confiserie
+F_0118	Sucre, confitures, miel, sirops, chocolat et confiserie
+F_01181	Sucre (en equivalent sucre blanc)
+F_0119	Produits alimentaires n.d.a.
+F_012	Boissons non alcoolisées
+F_0121	Café, thé, cacao
+F_0122	Eaux minérales, boissons gazeuses (non minérales) et jus
+F_021	Boissons alcoolisées
+F_0211	Spiritueux
+F_0212	Vin - Total
+F_0212A	Vin - Total - Rouge/Rosé
+F_0212B	Vin - Total - Blanc
+F_02121	Vin de qualité - Total
+F_02121A	Vin de qualité - Rouge/Rosé
+F_02121B	Vin de qualité - Blanc
+F_02122	Vin de table - Total
+F_02122A	Vin de table - Rouge/Rosé
+F_02122B	Vin de table - Blanc
+F_02123	Autres vins - Total
+F_02123A	Autres vins - Rouge/Rosé
+F_02123B	Autres vins - Blanc
+F_0213	Bière

@@ -1,0 +1,21 @@
+VITARTOT_HD	Weinbaubetriebe insgesamt
+VITARTOT_AA	Gesamte landwirtschaftlich genutzte Fläche der Weinbaubetriebe (ha)
+VITARTOT_VA	Gesamte Rebfläche (ha)
+VITARC1_HD	Anzahl der Betriebe mit >0-<10% Rebfläche an der landwirtschaftlich genutzten Fläche
+VITARC1_AA	Landwirtschaftlich genutzte Fläche der Betriebe mit >0-< 10% Rebfläche an der landwirtschaftlich genutzten Fläche (ha)
+VITARC1_VA	Rebfläche der Betriebe mit >0-< 10% Rebfläche an der landwirtschaftlich genutzten Fläche (ha)
+VITARC2_HD	Anzahl der Betriebe mit 10-< 25% Rebfläche an der landwirtschaftlich genutzten Fläche
+VITARC2_AA	Landwirtscheftlich genutzte Fläche der Betriebe mit 10-<25% Rebfläche an der landwirtschaftlich genutzten Fläche (ha)
+VITARC2_VA	Rebfläche der Betriebe mit 10-< 25% Rebfläche an der landwirtschaftlich genutzten Fläche (ha)
+VITARC3_HD	Anzahl der Betriebe mit 25-< 50% Rebfläche an der landwirtschaftlich genutzten Fläche
+VITARC3_AA	Landwirtschaftlich genutzte Fläche der Betriebe mit 25-< 50% Rebfläche an der landwirtschaftlich genutzten Fläche (ha)
+VITARC3_VA	Rebfläche der Betriebe mit 25-< 50% Rebfläche an der landwirtschaftlich genutzten Fläche (ha)
+VITARC4_HD	Anzahl der Betriebe mit 50-< 75% Rebfläche an der landwirtschaftlich genutzten Fläche
+VITARC4_AA	Landwirtschaftlich genutzte Fläche der Betriebe mit 50-< 75% Rebfläche an der landwirtschaftlich genutzten Fläche (ha)
+VITARC4_VA	Rebfläche der Betriebe mit 50-< 75% Rebfläche an der landwirtschaftlich genutzten Fläche (ha)
+VITARC5_HD	Anzahl der Betriebe mit 75-< 90% Rebfläche an der landwirtschaftlich genutzten Fläche
+VITARC5_AA	Landwirtscheftlich genutzte Fläche der Betriebe mit 75-< 90% Rebfläche an der landwirtschaftlich genutzten Fläche (ha)
+VITARC5_VA	Rebfläche der Betriebe mit 75-< 90% Rebfläche an der landwirtschaftlich genutzten Fläche (ha)
+VITARC6_HD	Anzahl der Betriebe mit >=90% Rebfläche an der landwirtschaftlich genutzten Fläche
+VITARC6_AA	Landwirtschaftlich genutzte Fläche der Betriebe mit >=90% Rebfläche an der landwirtschaftlich genutzten Fläche (ha)
+VITARC6_VA	Rebfläche der Betriebe mit >=90% Rebfläche an der landwirtschaftlich genutzten Fläche (ha)

@@ -1,0 +1,10 @@
+A000	Total
+SC00	Size classes of balance sheet total
+SC01	> ECU 99 999 Mio
+SC02	ECU 10 000-99 999 Mio
+SC03	ECU 1 000-9 999 Mio
+SC04	ECU 100-999 Mio
+SC05	< ECU 100 Mio
+CA01	Licensed banks
+CA02	Specialised credit granting institutions
+CA03	Other credit institutions

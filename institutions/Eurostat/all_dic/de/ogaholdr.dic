@@ -1,0 +1,6 @@
+MAIN	Hauptberufliche andere Erwerbstätigkeit des Inhaberleiters
+SUBSID	Nebenberufliche andere Erwerbstätigkeit des Inhaberleiters
+NONE	Keine andere Erwerbstätigkeit des Inhaberleiters
+NOT_MAN	Inhaber des Betriebes ist nicht Leiter
+LEG_GRP	Betrieb ist juristische Person oder Gruppenbetrieb
+TOTAL	Total

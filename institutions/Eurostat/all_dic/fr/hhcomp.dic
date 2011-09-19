@@ -1,0 +1,25 @@
+TOTAL	Total
+HHC_10	Enfants (vivant avec d'autres adultes)
+HHC_20	Adulte seul - total
+HHC_21	Adulte seul avec enfants
+HHC_22	Adulte seul sans enfants
+HHC_30	Couple - total
+HHC_31	Couple avec enfants
+HHC_32	Couple sans enfants
+HIC_30	Adulte vivant en couple - total
+HIC_31	Adulte vivant en couple avec enfants
+HIC_32	Adulte vivant en couple sans enfants
+HHC_40	Autre type de ménage - total
+HHC_41	Autre type de ménage avec enfants
+HHC_42	Autre type de ménage sans enfants
+HIC_40	Adulte vivant dans un autre type de ménage - total
+HIC_41	Adulte vivant dans un autre type de ménage avec enfants
+HIC_42	Adulte vivant dans un autre type de ménage sans enfants
+HHC_50	Total des adultes
+HHC_51	Adulte (total) avec enfants
+HHC_52	Adulte (total) sans enfants
+HWC_50	Total des ménages avec des adultes
+HWC_51	Total des ménages avec des adultes et des enfants
+HWC_52	Total des ménages avec des adultes et sans enfants
+NRESP	Sans réponse
+UNK	Inconnu

@@ -1,0 +1,284 @@
+TOTAL	Total
+EU	Union européenne (EC6-1972, EC9-1980, EC10-1985, EC12-1994, EU15-2004, EU25-2006, EU27)
+EU27	Union européenne (27 pays)
+EU25	Union européenne (25 pays)
+EU15	Union européenne (15 pays)
+EXT_EU25	Extra-UE-25
+EA	Zone euro (EA11-2000, EA12-2006, EA13)
+BE	Belgique
+BG	Bulgarie
+CZ	République tchèque
+DK	Danemark
+DK01	Danemark
+DK02	Danemark (DIS)
+DK09	Denmark - unspecified register
+DE	Allemagne (incluant l'ancienne RDA depuis 1991)
+EX_DD	République Démocratique Allemande (avant 1990) / nouveaux Länder
+EE	Estonie
+GR	Grèce
+ES	Espagne
+ES01	Espagne
+ES02	Espagne (Rebeca)
+ES03	Ceuta
+ES04	Melilla
+ES09	Spain - unspecified register
+FR	France
+FR01	France
+FR02	French Antarctic territory (incl. Kerguelen island)
+FR09	France - unspecified register
+IE	Irlande
+IT	Italie
+IT01	Italy - first register
+IT02	Italy - international register
+IT09	Italy - unspecified register
+CY	Chypre
+LV	Latvia
+LT	Lithuanie
+LU	Luxembourg
+HU	Hongrie
+MT	Malte
+NL	Pays-Bas
+AT	Autriche
+PL	Pologne
+PT	Portugal
+PT01	Portugal
+PT02	Portugal (MAR)
+PT09	Portugal - unspecified register
+RO	Roumanie
+SI	Slovénie
+SK	République Slovaque
+FI	Finlande
+SE	Suède
+UK	Royaume-Uni
+UK01	Royaume-Uni
+UK02	Isle Of Man
+UK03	Channel Islands
+UK04	Gibraltar
+UK09	United Kingdom - unspecified register
+EXT_EU15	Extra-UE-15
+ME	Monténégro
+HR	Croatie
+MK	Ex-République yougoslave de Macédoine
+TR	Turquie
+EEA	Espace économique européen (EEE) (EEA18-2004, EEA28-2006, EEA30)
+EFTA	Association Européenne de Libre Echange (AELE) (CH, IS, LI, NO)
+IS	Islande
+LI	Liechtenstein
+NO	Norvège
+NO01	Norvège
+NO02	Norvège (NIS)
+NO09	Norway - unspecified register
+CH	Suisse
+EUR_OTH	Autres pays européens (AD, CY, FO, GI, MT, MC, SM, VA, TR)
+THIRD	Pays tiers
+AF	Afghanistan
+AL	Albanie
+DZ	Algérie
+OCE_AM	Océanie (US) (AS, GU, UM)
+AS	American Samoa
+AD	Andorre
+AO	Angola
+AI	Anguilla
+AQ	Antarctique
+AG	Antigua et Barbuda
+AR	Argentine
+AM	Arménie
+AW	Aruba
+AU	Australie
+AZ	Azerbaïdjan
+BS	Bahamas
+BH	Bahrain
+BD	Bangladesh
+BB	Barbados
+BY	Belarus
+BZ	Belize
+BJ	Benin
+BM	Bermuda
+BT	Bhutan
+BO	Bolivie
+BA	Bosnie et Herzégovie
+BW	Botswana
+BV	Ile Bouvet (NO)
+BR	Brézil
+IO	Territoire britannique de l'Océan Indien
+VG	Iles Vierges britanniques (UK)
+BN	Brunei Darussalam
+BF	Burkina Faso
+BI	Burundi
+KH	Cambodge (Royaume du)
+CM	Cameroun
+CA	Canada
+CV	Cap Vert
+KY	Iles Caïman
+CF	République de Centre Afrique
+TD	Tchad
+CL	Chili
+CX	Iles Christmas (AU)
+CC	Cocos (Keeling) Islands (AU)
+CO	Colombie
+KM	Comores
+CG	Congo
+CD	Congo, République Démocratique du
+CK	Iles Cook Islands
+CR	Costa Rica
+CU	Cuba
+DJ	Djibouti
+DM	La Dominique
+DO	République Dominicaine
+TP	Timor oriental
+EC	Equateur
+EG	Egypte
+SV	Le Salvador
+GQ	Guinea équatoriale
+ER	Erythrée
+ET	Ethiopie
+FK	Iles Falkland (Malvinas)  (UK)
+FO	Iles Feroe
+GI	Gibraltar (UK)
+FM	Etats fédérés de Micronésie
+FJ	Fidji
+EX_CS	Ex-Tchécoslovaquie (avant 1992)/L'ensemble des pays composant l'ex-Tchécoslovaquie
+EX_SU	Ex-Union Soviétique (avant 1991)/ L'ensemble des pays composant l' ex- Union Soviétique
+EX_YU	Ex-Yougoslavie (avant 1992)/L'ensemble des pays composant l' ex-Yougoslavie
+PF	Polynésie Française
+TF	Terres australes françaises
+GA	Gabon
+GM	Gambie
+GE	Géorgie
+GH	Ghana
+GL	Groenland
+GD	Grenade
+GU	Guam
+GT	Guatemala
+GN	Guinée
+GW	Guinée Bissau
+GY	Guyane
+HT	Haiti
+HM	Iles Heard et McDonald (AU)
+VA	Saint-Siège (Etat de la Cité du Vatican)
+HN	Honduras
+HK	Hong Kong (special administrative region of China)
+IN	Inde
+ID	Indonésie
+IR	Iran (République islamique de)
+IQ	Irak
+IL	Israel
+CI	Côte d'Ivoire
+JM	Jamaique
+JP	Japon
+JO	Jordanie (Hashemite Kingdom of)
+KZ	Kazakhstan
+KE	Kenya
+KI	Kiribati
+KP	Corée (République populaire démocratique de) (Nord)
+KR	Corée (République de) (Sud)
+KW	Koweit
+KG	Kirghizistan
+LA	République populaire démocratique du Laos
+LB	Liban
+LS	Lesotho
+LR	Liberia
+LY	Libye (Jamahiriya Arabe)
+MO	Macao  (PT)
+MG	Madagascar
+MW	Malawi
+MY	Malaisie
+MV	Maldives
+ML	Mali
+MH	Iles Marshall
+MR	Mauritanie
+MU	Maurice
+YT	Mayotte
+MX	Mexique
+MD	Moldovie, République de
+MN	Mongolie
+MS	Montserrat
+MA	Maroc
+MZ	Mozambique
+MM	Myanmar
+NA	Namibie
+NR	Nauru
+NP	Népal
+AN	Antilles néerlandaises (NL)
+NC	Nouvelle Calédonie
+NZ	Nouvelle Zélande
+OCE_NZ	Nouvelle Zélande Océanie (CK, NU, TK)
+NI	Nicaragua
+NE	Niger
+NG	Nigeria
+NU	Niue  (NZ)
+NF	Ile Norfolk
+MP	Iles Mariannes du Nord
+PS	Territoires occupés de Palestine - Cisjordanie (Jerusalem Est inclus) et Bande de Gaza
+OM	Oman
+OTH_POLAR	Autre région polaire
+PK	Pakistan
+PW	Palau
+PA	Panama
+PG	Papouasie Nouvelle-Guinée
+PY	Paraguay
+CN_NOT_HK	China (excluding Hong Kong)
+PE	Peru
+PH	Philippines
+PN	Pitcairn
+PR	Puerto Rico
+QA	Qatar
+RU	Fédération Russe
+RW	Rwanda
+LC	Sainte Lucie
+VC	Saint Vincent et les Grenadines
+SM	Saint-Marin
+ST	Sao Tome et Principe
+SA	Arabie Séoudite
+SN	Sénégal
+CS	Serbia and Montenegro
+RS	Serbia
+SC	Seychelles
+SL	Sierra Leone
+SG	Singapour
+SB	Iles Salomon
+SO	Somalie
+ZA	Afrique du Sud
+GS	Géorgie du sud et sud des Iles Sandwichs (UK)
+LK	Sri Lanka
+KN	Saint-Christophe (Saint Kitts) et Nevis
+SH	Sainte Hélène  (UK)
+PM	St. Pierre et Miquelon  (FR)
+SD	Soudan
+SR	Surinam
+SZ	Swaziland
+SY	République arabe de Syrie
+TW	Taïwan
+TJ	Tadjikistan
+TZ	Tanzanie (République-Unie)
+TH	Thailande
+TG	Togo
+TK	Tokélaou  (NZ)
+TO	Tonga
+TT	Trinidad et Tobago
+TN	Tunisie
+TM	Turkménistan
+TC	Iles Turks et Caicos (UK)
+TV	Tuvalu
+UG	Ouganda
+UA	Ukraine
+AE	Emirats Arabes Unis
+US01	Etats-Unis
+US02	Puerto Rico (USA)
+US09	United States - unspecified register
+UM	United States Minor Outlying Islands (US)
+UY	Uruguay
+US	USA
+UZ	Ouzbékistan
+VU	Vanuatu
+VE	Vénézuela
+VN	Vietnam
+VI	Iles Vierges américaines (US)
+WF	Wallis et Futuna (FR)
+WS	Samoa-Occidental (Etat indépendant de)
+YE	Yemen (République du)
+ZM	Zambie
+ZW	Zimbabwe
+OTHER	Autres pays
+UNK	Inconnu
+WORLD	Tous les pays du monde

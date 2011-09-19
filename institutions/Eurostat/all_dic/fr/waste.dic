@@ -1,0 +1,170 @@
+TOTAL	Déchets totaux
+W01-05	Déchets chimiques et déchets provenant des soins médicaux
+W01-03	Déchets chimiques (déchets de composés chimiques + déchets de préparations chimiques + autres déchets chimiques)
+W01-03_X_013	Déchets chimiques à l'exclusion des huiles usées (déchets de composés chimiques + déchets de préparations chimiques + autres déchets chimiques)
+CHEM_A	Déchets, liquides et boues chimiques (W011+W012+CHEM_B+W032+W033)
+W011	Solvants usés
+W012	Déchets acides, alcalins ou salins
+W013	Huiles usées
+CHEM_B	Déchets chimiques (W014+W02+W031)
+W014	Catalyseurs chimiques usés
+W02	Déchets de préparations chimiques
+W031	Dépôts et résidus chimiques
+W032	Boues d'effluents industriels
+W033	Boues et déchets liquides provenant du traitement des déchets
+W05	Déchets provenant des soins médicaux ou vétérinaires et déchets biologiques
+W06_07A	Déchets recyclables (W06+W07-W077)
+W06-W07_X_W077	Déchets recyclables
+W06	Déchets métalliques
+W061	Déchets de métaux, ferreux
+W062	Déchets de métaux, non ferreux
+W063	Déchets de métaux, ferreux et non ferreux en mélange
+W071	Déchets de verre
+W072	Déchets de papiers et cartons
+W073	Déchets de caoutchouc
+W074	Déchets de matières plastiques
+W075	Déchets de bois
+W076	Déchets textiles
+W077_08	Equipements
+W077_W08	Equipements
+W077	Déchets contenant des PCB
+W08A	Equipements hors d'usage (excepté des véhicules au rebut et des déchets de piles et accumulateurs) (W08-W081-W0841)
+W08_X_081_0841	Equipements hors d'usage (à l'exclusion des véhicules au rebut et des déchets de piles et accumulateurs)
+W081	Véhicules au rebut
+W0841	Déchets de piles et accumulateurs
+W09	Déchets animaux et végétaux
+W09A	Déchets animaux et végétaux (excepté des déchets animaux de la préparation des produits alimentaires et de produits alimentaires et des fèces, urines et fumier) (W09-W0911-W093)
+W09_X_0911_093	Déchets animaux et végétaux (à l'exclusion des déchets animaux de la préparation des produits alimentaires et de produits alimentaires et des fèces, urines et fumier)
+W091_092	Déchets animaux et déchets alimentaires en mélange; déchets végétaux
+W091	Déchets animaux et déchets alimentaires en mélange
+W0911	Déchets animaux de la préparation des produits alimentaires et de produits alimentaires
+W092	Déchets végétaux
+W093	Fèces, urines et fumier animaux
+W10	Déchets courants mélangés
+W101	Déchets ménagers et similaires
+W102	Matériaux mélangés et matériaux indifférenciés
+W103	Résidus de tri
+W11_127	Boues ordinaires et boues de dragage
+W11	Boues ordinaires
+W11_X_113	Boues ordinaires (à l'exclusion des boues de dragage)
+W113	Boues de dragage
+W12-13	Déchets minéraux ou solidifiés
+W12	Déchets minéraux
+W12A	Déchets minéraux (excepté des résidus d'opérations thermiques, des terres et boues de dragage polluées) (W121+W122+W123+W125)
+W121-125_X_124	Déchets minéraux (à l'exclusion des résidus d'opérations thermiques, des terres et boues de dragage polluées)
+W121	Déchets minéraux de construction et de démolition
+W12B	Autres déchets minéraux (W122+W123+W125)
+W124	Résidus d'opérations thermiques
+W126_127	Terres et boues de dragage
+W126	Terres
+W127	Boues de dragage
+W128_13	Déchets minéraux provenant du traitement des déchets et déchets stabilisés
+W13	Déchets solidifiés, stabilisés ou vitrifiés
+W1501	Emballages
+W150101	Emballages en papier / carton
+W150102	Emballages en matières plastiques
+W150103	Emballages en bois
+W150104	Emballages métalliques
+W15010401	Emballages en aluminium
+W15010402	Emballages en acier
+W150107	Emballages en verre 
+W150199	Autres emballages
+DMDP	Démontage et dépollution, total
+LIQ	Liquides (sauf carburant) (Low: 1301 jusqu'à 1306+1406+160113 jusqu'à 160115+160121+160122+160199)
+EXP	Véhicules hors usage: Poids total des véhicules exportés
+W160103	Véhicules hors usage: Pneumatiques
+W160107	Véhicules hors usage: Filtres à huile
+W1601A	Véhicules hors usage: Autres matériaux issus de la dépollution (sauf carburant) (LoW: 160108 jusqu'à 160111+160121)
+W1601B	Véhicules hors usage: Composants métalliques (Low: 160117+160118)
+W160119	Véhicules hors usage: Grandes pièces en matière plastique
+W160120	Véhicules hors usage: Verre
+W1601C	Véhicules hors usage: Autres matériaux issus du démontage (Low: 160122+160199)
+W1606	Batteries
+W1608	Catalyseurs
+W1910	Broyage, total
+W191001	Ferraille (acier) du broyage
+W191002	Matériaux non ferreux (aluminium, cuivre, zinc, plomb, etc.) du broyage
+W1910A	Fraction légère des résidus de broyage (Low: 191003+191004)
+W1910B	Autres matériaux issus du broyage (Low: 191005+191006)
+NMIN	Déchets non-mineraux (indicateur)
+RCV_OTH	Autres déchets valorisés
+DSP_OTH	Autres déchets éliminés
+INC_OTH	Autres déchets incinérés
+EE_LHA	Gros appareils ménagers
+EE_SHA	Petits appareils ménagers
+EE_ITT	Équipements informatiques et de télécommunications
+EE_CON	Matériel grand public
+EE_LIT	Matériel d'éclairage
+EE_GDL	Lampes à décharge gazeuse
+EE_EET	Outils électriques et électroniques
+EE_TLS	Jouets, équipements de loisir et de sport
+EE_MED	Dispositifs médicaux
+EE_MON	Instruments de surveillance et de contrôle
+EE_ATD	Distributeurs automatiques
+ORG	Déchets organiques
+ORG_OTH	Autres déchets non-organiques
+Y1	Déchets cliniques provenant de soins médicaux dispensés dans des hôpitaux, centres médicaux et cliniques
+Y2	Déchets issus de la production et de la préparation de produits pharmaceutiques
+Y3	Déchets de médicaments et produits pharmaceutiques
+Y4	Déchets issus de la production, de la préparation et de l'utilisation de biocides et de produits phytopharmaceutiques
+Y5	Déchets issus de la fabrication, de la préparation et de l'utilisation des produits de préservation du bois
+Y6	Déchets issus de la production, de la préparation et de l'utilisation de solvants organiques
+Y7	Déchets cyanurés de traitements thermiques et d'opérations de trempe
+Y8	Déchets d'huiles minérales impropres à l'usage initialement prévu
+Y9	Mélanges et émulsions huile/eau ou hydrocarbure/eau
+Y10	Substances et articles contenant, ou contaminés par, des diphényles polychlorés (PCB), des terphényles polychlorés (PCT) ou des diphényles polybromés (PBB)
+Y11	Résidus goudronneux de raffinage, de distillation ou de toute opération de pyrolyse
+Y12	Déchets issus de la production, de la préparation et de l'utilisation d'encres, de colorants, de pigments, de peintures, de laques ou de vernis
+Y13	Déchets issus de la production, de la préparation et de l'utilisation de résines, de latex, de plastifiants ou de colles et adhésifs
+Y14	Déchets de substances chimiques non identifiées et/ou nouvelles qui proviennent d'activités de recherche, de développement ou d'enseignement, et dont les effets sur 1'homme et/ou sur 1'environnement ne sont pas connus
+Y15	Déchets de caractère explosible non soumis à une législation différente
+Y16	Déchets issus de la production, de la préparation et de l'utilisation de produits et matériels photographiques
+Y17	Déchets de traitements de surface des métaux et matières plastiques
+Y18	Résidus d'opérations d'élimination des déchets industriels
+Y19	Métaux carbonyles
+Y20	Béryllium composés du béryllium
+Y21	Composés du chrome hexavalent
+Y22	Composés du cuivre
+Y23	Composés du zinc
+Y24	Arsenic, composés de l'arsenic
+Y25	Sélénium, composés du sélénium
+Y26	Cadmium, composés du cadmium
+Y27	Antimoine, composés de 1'antimoine
+Y28	Tellure, composés du tellure
+Y29	Mercure, composés du mercure
+Y30	Thallium, composés du thallium
+Y31	Plomb, composés du plomb
+Y32	Composés inorganiques du fluor, à l'exclusion du fluorure de calcium
+Y33	Cyanures inorganiques
+Y34	Solutions acides ou acides sous forme solide
+Y35	Solutions basiques ou bases sous forme solide
+Y36	Amiante (poussières et fibres)
+Y37	Composés organiques du phosphore
+Y38	Cyanures organiques
+Y39	Phénols, composés phénolés, y compris les chlorophénols
+Y40	Ethers
+Y41	Solvants organiques halogénés
+Y42	Solvants organiques, sauf solvants halogénés
+Y43	Tout produit de la famille des dibenzofurannes polychlorées
+Y44	Tout produit de la famille des dibenzoparadioxines polychlorées
+Y45	Composés organohalogénés autres que les matières figurant dans la Convention de Bâle, annexe I (par exemple Y39, Y41, Y42, Y43, Y44).
+Y46	Déchets ménagers collectés
+Y47	Résidus provenant de l'incinération des déchets ménagers
+Y1-45	Mélange de flux de déchets et de constituants
+Y1-18	Mélange de flux de déchets
+Y19-45	Mélange de constituants
+Y46-47	Mélange de catégories de déchets demandant un examen spécial
+X10	Non dangereux d'après les codes Y (Y46-Y47)
+X11	Non dangereux d'après les codes CED (Catalogue européen des déchets et la liste des déchets dangereux)
+X12	Non dangereux d'après l'annexe V, partie B, (par exemple, B1040)
+X13	UE ou National non dangereux d'après l'annexe IV partie 2 (AC270, par exemple)
+X14	Peut-être UE ou National non dangereux d'après l'annexe IV partie 2 (pas de codes actuellement)
+X20	Dangereux d'après les codes Y (Y1-Y45)
+X21	Dangereux d'après les codes CED (Catalogue européen des déchets et la liste des déchets dangereux)
+X22	Dangereux d'après l'annexe V, partie A (par exemple, A3120)
+X23	UE ou Nntional dangereux d'après l'annexe IV partie 2 (AC070, par exemple)
+X24	Peut-être UE ou National dangereux d'après l'annexe IV partie 2 (AD120 par exemple)
+X25	UE ou National dangereux d'après le texte indiqué dans le flux de déchets (par exemple: autres déchets dangereux)
+X26	Dangereux d'après le code H signalé (par exemple 6,1)
+X30	Non classifié comme dangereux ou non dangereux à cause des informations insuffisantes signalées
+X31	Non classé, des codes Y dangereux et non dangereux ont été signalés

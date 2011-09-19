@@ -1,0 +1,29 @@
+PUB	Ecoles et autres établissements publics non universitaires
+COLL	Etablissements d'enseignement post-scolaire
+UNIV	Universités et autres établissements d'enseignement supérieur
+SCUN	Ecoles publiques, collèges universités
+PUTR	Institutions publiques de formation (financé ou dirigé par le gouvernement ; par exemple les centres de formation pour adultes)
+SPEC	Instituts de formation spécialisés publics ou privés à but non lucratif
+PRALL	Organismes de formation privés à but lucratif
+PRIV	Sociétés privées d'entraînement dont l'activité principale n'est pas l' entraînement
+COMP	Organisations à but lucratif, p.ex. organismes privés de formation
+EQUIP	Fournisseurs d'équipement
+PROS	Producteurs ou fournisseurs de matériels et d'équipement
+PAR	Sociétés mères ou partenaires
+PARE	Maison mère
+UNION	Syndicats
+CHOC	Chambres de commerce, organismes sectoriels et organisations patronales
+NPORG	Organismes sans but lucratif, p.ex. associations d'employeurs, syndicats...
+TOTAL	Total
+OTH	Autres organismes de formation
+NRESP	No answer
+FEDINST	Institution pour l'éducation formelle
+NFEINST	Des institutions pour la formation non formelle
+COMINST	Institution de marché où l'éducation et la formation ne sont pas l'activité principale (par example fournisseurs d'equipement)
+EMPL	Employeur
+CHACOM	Chambres de commerce
+TRDINST	Union syndicales
+NONPROF	Associations sans but lucratif (par exemple des organisations culturelle où des parties politiques)
+INDIV	Personnes (par exemple qui donnent des cours privées)
+NONCOM	Institution de non-maché où l'éducation et formation ne sont pas l'activité principale (par exemple les bibliothéques, les musées, les ministères)
+OTHER	Autre

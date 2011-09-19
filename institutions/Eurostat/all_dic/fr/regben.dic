@@ -1,0 +1,9 @@
+TOTAL	Total
+REGBEN	Enregistré comme chômeur et recevant de bénéfices/assistance
+REGNOBEN	Enregistré comme chômeur mais ne pas recevant de bénéfices/assistance
+NOREGBEN	Ne pas enregistré comme chômeur mais recevant de bénéfices/assistance
+NOREGNOBEN	Ne pas enregistré comme chômeur et ne pas recevant de bénéfices/assistance
+REGIST	Enregistré comme chômeur
+BENEFIT	Réception de bénéfices/assistance
+NRESP	Aucune réponse
+UNK	Inconnu

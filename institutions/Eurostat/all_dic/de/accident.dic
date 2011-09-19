@@ -1,0 +1,14 @@
+TOTAL	Ingesamt
+COLLIS	Zusammenstösse (ausgenommen Unfälle an Bahnübergängen)
+DERAIL	Entgleisungen
+DGD	Unfälle, in denen der Transport von gefährlichen Gütern verwickelt ist
+NDGD	Unfälle, in denen der Transport von gefährlichen Gütern nicht verwickelt ist
+DGD_RL	Unfälle, bei denen gefährliche Güter freigesetzt werden
+DGD_NRL	Unfälle, bei denen gefährliche Güter nicht freigesetzt werden
+LVLCROS	Unfälle an Bahnübergängen
+RSTK_MOT	Personenunfälle durch sich bewegendes rollendes Material
+RD_TRF	Strassenverkehr
+HOM_SCH	Unfall zu hause / in der Schule / in der Freizeit
+RSTK_FIRE	Brände in Eisenbahnfahrzeugen
+OTH	Sonstige
+UNK	Unbekannt

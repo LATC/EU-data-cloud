@@ -1,0 +1,17 @@
+TOTAL	Total
+0	Aucun enfant
+1	1 enfant
+2	2 enfants
+3	3 enfants
+GE3	3 enfants ou plus
+4	4 enfants
+5	5 enfants
+GE5	5 enfants ou plus
+6	6 enfants
+GE6	6 enfants ou plus
+GE7	7 enfants ou plus
+UNK	Inconnu
+NRP	Sans réponse
+TOT_CH	Nombre total d'enfants
+TOT_PERS	Nombre total de personnes
+TOT_PERS_FAM	Nombre total de personnes dans le noyau familial

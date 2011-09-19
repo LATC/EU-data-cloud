@@ -1,0 +1,41 @@
+HP1HP9	Alle Anbieter im Gesundheitswesen
+HP1HP3	Krankenhäuser und Ambulante Einrichtungen
+HP1	Krankenhäuser
+HP1_PUB	Krankenhaus der öffentlichen Hand
+HP1_NPP	Gemeinnütziges privates Krankenhaus
+HP1_PP	Privates nicht gemeinnütziges Krankenhaus
+HP11	Allgemeinkrankenhäuser
+HP12	Psychiatrische Kliniken und Suchtkliniken
+HP13	Spezialkliniken (außer psychiatrischen Kliniken und Suchtkliniken)
+HP2	Wohn- und Pflegeheime
+HP21	Pflegeheime
+HP22	Wohnheime für geistig Behinderte, psychisch Kranke und Suchtkranke
+HP23	Seniorenwohnheime
+HP29	Sonstige Wohn- und Pflegeheime
+HP3	Ambulante Einrichtungen
+HP31	Arztpraxen
+HP32	Zahnarztpraxen
+HP33	Praxen von Angehörigen anderer Gesundheitsberufe
+HP34	Ambulante Zentren der Gesundheitsversorgung
+HP35	Medizinische und diagnostische Labors
+HP36	Erbringer häuslicher Gesundheitsleistungen
+HP39	Andere Erbringer ambulanter Gesundheitsleistungen
+HP4	Einzelhandel und sonstige Anbieter medizinischer Güter
+HP41	Apotheken
+HP42	Einzelhandel und sonstige Anbieter von Brillen und sonstigen Sehhilfen
+HP43	Einzelhandel und sonstige Anbieter von Hörhilfen
+HP44HP49	Einzelhandel und sonstige Anbieter medizinischer Geräte; Sonstige Händler und Anbieter von pharmazeutischen und medizinischen Gütern
+HP5	Einrichtungen des Gesundheitsschutzes
+HP6	Verwaltung und Versicherung der Gesundheitsversorgung
+HP61	Verwaltung der Gesundheitsversorgung durch den Staat
+HP62	Sozialversicherung
+HP63HP64	Anbieter von privaten Versicherungen
+HP63	Andere Formen des Sozialschutzes
+HP64	Sonstige (private) Versicherungen
+HP69	Sonstige Verwaltung der Gesundheitsversorgung
+HP7	Sonstige Wirtschaftszweige (übrige Wirtschaft)
+HP71	Erbringer betriebsärztlicher Gesundheitsleistungen
+HP72	Private Haushalte als Erbringer häuslicher Pflegeleistungen
+HP79	Sonstige Wirtschaftszweige als  sekundäre Produzenten von Gesundheitsleistungen
+HP9	Übrige Welt
+HP0	Nicht anderswo erwähnt 

@@ -1,0 +1,323 @@
+010	Leistungsbilanz + Vermögensbildungskonto
+011	Laufende und Vermögenstransfers
+993	Leistungsbilanz
+100	Leistungsbilanz, Waren
+110	Leistungsbilanz, Waren, Allgemeine Waren
+150	Leistungsbilanz, Waren, Waren zur Veredelung
+151	Leistungsbilanz, Waren, Waren zur Veredelung, Veredelung im Ausland
+152	Leistungsbilanz, Waren, Waren zur Veredelung, Veredelung im Inland
+160	Leistungsbilanz, Waren, Ausbesserungen an Waren
+170	Leistungsbilanz, Waren, Hafendienste
+180	Leistungsbilanz, Waren, Nichtwährungsgold
+181	Leistungsbilanz, Waren, Nichtwährungsgold, Gold für Wertaufbewahrungszwecke
+182	Leistungsbilanz, Waren, Nichtwährungsgold, Sonstiges Nichtwährungsgold
+200	Leistungsbilanz, Dienstleistungen
+201	Leistungsbilanz, Dienstleistung, Branding, Anpassung für Quasi-transit
+205	Leistungsbilanz, Dienstleistungen, Transportleistungen
+206	Leistungsbilanz, Dienstleistungen, Transportleistungen, Seetransport
+207	Leistungsbilanz, Dienstleistungen, Transportleistungen, Seetransport, Personenbeförderung
+208	Leistungsbilanz, Dienstleistungen, Transportleistungen, Seetransport, Frachten
+209	Leistungsbilanz, Dienstleistungen, Transportleistungen, Seetransport, Sonstige Leistungen
+210	Leistungsbilanz, Dienstleistungen, Transportleistungen, Lufttransport
+211	Leistungsbilanz, Dienstleistungen, Transportleistungen, Lufttransport, Personenbeförderung
+212	Leistungsbilanz, Dienstleistungen, Transportleistungen, Lufttransport, Frachten
+213	Leistungsbilanz, Dienstleistungen, Transportleistungen, Lufttransport, Sonstige Leistungen
+214	Leistungsbilanz, Dienstleistungen, Transportleistungen, Sonstige Transport
+215	Leistungsbilanz, Dienstleistungen, Transportleistungen, Sonstige Transport, Personenbeförderung
+216	Leistungsbilanz, Dienstleistungen, Transportleistungen, Sonstige Transport, Frachten
+217	Leistungsbilanz, Dienstleistungen, Transportleistungen, Sonstige Transport, Sonstige Leistungen
+218	Leistungsbilanz, Dienstleistungen, Transportleistungen, Sonstige Transport - erweiterte Klassifikation, Raumfahrt
+219	Leistungsbilanz, Dienstleistungen, Transportleistungen, Sonstige Transport - erweiterte Klassifikation, Eisenbahntransportleistungen
+220	Leistungsbilanz, Dienstleistungen, Transportleistungen, Sonstige Transport - erweiterte Klassifikation, Eisenbahntransportleistungen, Personenbeförderung
+221	Leistungsbilanz, Dienstleistungen, Transportleistungen, Sonstige Transport - erweiterte Klassifikation, Eisenbahntransportleistungen, Frachten
+222	Leistungsbilanz, Dienstleistungen, Transportleistungen, Sonstige Transport - erweiterte Klassifikation, Eisenbahntransportleistungen, Sonstige Leistungen
+223	Leistungsbilanz, Dienstleistungen, Transportleistungen, Sonstige Transport - erweiterte Klassifikation, Straßentransportleistungen
+224	Leistungsbilanz, Dienstleistungen, Transportleistungen, Sonstige Transport - erweiterte Klassifikation, Straßentransportleistungen, Personenbeförderung
+225	Leistungsbilanz, Dienstleistungen, Transportleistungen, Sonstige Transport - erweiterte Klassifikation, Straßentransportleistungen, Frachten
+226	Leistungsbilanz, Dienstleistungen, Transportleistungen, Sonstige Transport - erweiterte Klassifikation, Straßentransportleistungen, Sonstige Leistungen
+227	Leistungsbilanz, Dienstleistungen, Transportleistungen, Sonstige Transport - erweiterte Klassifikation, Binnenschiffstransportleistungen
+228	Leistungsbilanz, Dienstleistungen, Transportleistungen, Sonstige Transport - erweiterte Klassifikation, Binnenschiffstransportleistungen, Personenbeförderung
+229	Leistungsbilanz, Dienstleistungen, Transportleistungen, Sonstige Transport - erweiterte Klassifikation, Binnenschiffstransportleistungen, Frachten
+230	Leistungsbilanz, Dienstleistungen, Transportleistungen, Sonstige Transport - erweiterte Klassifikation, Binnenschiffstransportleistungen, Sonstige Leistungen
+231	Leistungsbilanz, Dienstleistungen, Transportleistungen, Sonstige Transport - erweiterte Klassifikation, Rohrleitungstransportleistungen
+232	Leistungsbilanz, Dienstleistungen, Transportleistungen, Sonstige Transport - erweiterte Klassifikation, Sonstige Transportleistungen
+236	Leistungsbilanz, Dienstleistungen, Reiseverkehr
+237	Leistungsbilanz, Dienstleistungen, Reiseverkehr, Geschäftsreisen
+238	Leistungsbilanz, Dienstleistungen, Reiseverkehr, Geschäftsreisen, Ausgaben der Saisonarbeiter und Grenzgänger
+239	Leistungsbilanz, Dienstleistungen, Reiseverkehr, Geschäftsreisen, Sonstige Geschäftsreisen
+240	Leistungsbilanz, Dienstleistungen, Reiseverkehr, Urlaubsreisen
+241	Leistungsbilanz, Dienstleistungen, Reiseverkehr, Urlaubsreisen, Aus gesundheitlichen Gründen
+242	Leistungsbilanz, Dienstleistungen, Reiseverkehr, Urlaubsreisen, Studien
+243	Leistungsbilanz, Dienstleistungen, Reiseverkehr, Urlaubsreisen, Sonstige Urlaubsreisen
+981	Leistungsbilanz, Dienstleistungen, Sonstige Dienstleistungen
+245	Leistungsbilanz, Dienstleistungen, Kommunikationsleistungen
+246	Leistungsbilanz, Dienstleistungen, Kommunikationsleistungen, Post- und Kurierdienste
+958	Leistungsbilanz, Dienstleistungen, Kommunikationsleistungen, Post- und Kurierdienste, Postdienste
+959	Leistungsbilanz, Dienstleistungen, Kommunikationsleistungen, Post- und Kurierdienste, Kurierdienste
+247	Leistungsbilanz, Dienstleistungen, Kommunikationsleistungen, Telekommunikationsleistungen
+249	Leistungsbilanz, Dienstleistungen, Bauleistungen
+250	Leistungsbilanz, Dienstleistungen, Bauleistungen, Bauleistungen im Ausland
+251	Leistungsbilanz, Dienstleistungen, Bauleistungen, Bauleistungen im Inland
+253	Leistungsbilanz, Dienstleistungen, Versicherungsdienstleistungen
+254	Leistungsbilanz, Dienstleistungen, Versicherungsdienstleistungen, Lebensversicherungen und Pensionskassen
+255	Leistungsbilanz, Dienstleistungen, Versicherungsdienstleistungen, Frachtenversicherung
+256	Leistungsbilanz, Dienstleistungen, Versicherungsdienstleistungen, Sonstige direkte Versicherungen
+257	Leistungsbilanz, Dienstleistungen, Versicherungsdienstleistungen, Rückversicherung
+258	Leistungsbilanz, Dienstleistungen, Versicherungsdienstleistungen, Hilfsdienstleistungen
+260	Leistungsbilanz, Dienstleistungen, Finanzdienstleistungen
+262	Leistungsbilanz, Dienstleistungen, EDV- und Informationsleistungen
+263	Leistungsbilanz, Dienstleistungen, EDV- und Informationsleistungen, EDV-Leistungen
+264	Leistungsbilanz, Dienstleistungen, EDV- und Informationsleistungen, Informationsleistungen
+889	Leistungsbilanz, Dienstleistungen, EDV- und Informationsleistungen, Informationsleistungen, Nachrichtenagenturen
+890	Leistungsbilanz, Dienstleistungen, EDV- und Informationsleistungen, Informationsleistungen, Sonstige Nachrichtdienstleistungen
+266	Leistungsbilanz, Dienstleistungen, Patente und Lizenzen
+891	Leistungsbilanz, Dienstleistungen, Patente und Lizenzen, Gewerbliche und sonstige Schutzrechte
+892	Leistungsbilanz, Dienstleistungen, Patente und Lizenzen, Andere Lizenzgebühren
+268	Leistungsbilanz, Dienstleistungen, Sonstige unternehmensbezogene Dienstleistungen
+269	Leistungsbilanz, Dienstleistungen, Sonstige unternehmensbezogene Dienstleistungen, Transithandelserträge und sonstige Handelsleistungen
+270	Leistungsbilanz, Dienstleistungen, Sonstige unternehmensbezogene Dienstleistungen, Transithandelserträge und sonstige Handelsleistungen, Transithandelserträge
+271	Leistungsbilanz, Dienstleistungen, Sonstige unternehmensbezogene Dienstleistungen, Transithandelserträge und sonstige Handelsleistungen, Sonstige Handelsleistungen
+272	Leistungsbilanz, Dienstleistungen, Sonstige unternehmensbezogene Dienstleistungen, Operationelles Leasing
+273	Leistungsbilanz, Dienstleistungen, Sonstige unternehmensbezogene Dienstleistungen, Übrige unternehmensbezogene, freiberufliche und technische Diensleistungen
+274	Leistungsbilanz, Dienstleistungen, Sonstige unternehmensbezogene Dienstleistungen, Übrige unternehmensbezogene, freiberufliche und technische Diensleistungen, Rechtsberatung, Wirtschaftsprüfung, kaufmännische Beratung und Public Relations Leistungen
+275	Leistungsbilanz, Dienstleistungen, Sonstige unternehmensbezogene Dienstleistungen, Übrige unternehmensbezogene, freiberufliche und technische Diensleistungen, Rechtsberatung, Wirtschaftsprüfung, kaufmännische Beratung und Public Relations Leistungen, Rechtsberatung
+276	Leistungsbilanz, Dienstleistungen, Sonstige unternehmensbezogene Dienstleistungen, Übrige unternehmensbezogene, freiberufliche und technische Diensleistungen, Rechtsberatung, Wirtschaftsprüfung, kaufmännische Beratung und Public Relations Leistungen, Buchung
+277	Leistungsbilanz, Dienstleistungen, Sonstige unternehmensbezogene Dienstleistungen, Übrige unternehmensbezogene, freiberufliche und technische Diensleistungen, Rechtsberatung, Wirtschaftsprüfung, kaufmännische Beratung und Public Relations Leistungen, Kaufmännische Beratungsleistungen und Öffentlichkeitsarbeit
+278	Leistungsbilanz, Dienstleistungen, Sonstige unternehmensbezogene Dienstleistungen, Übrige unternehmensbezogene, freiberufliche und technische Diensleistungen, Werbung, Marktforschung und Meinungsumfrage
+279	Leistungsbilanz, Dienstleistungen, Sonstige unternehmensbezogene Dienstleistungen, Übrige unternehmensbezogene, freiberufliche und technische Diensleistungen, Dienstleistungen der Forschung und Entwicklung
+280	Leistungsbilanz, Dienstleistungen, Sonstige unternehmensbezogene Dienstleistungen, Übrige unternehmensbezogene, freiberufliche und technische Diensleistungen, Architektur-, Ingenieur- und sonstige technische Dienstleistungen
+281	Leistungsbilanz, Dienstleistungen, Sonstige unternehmensbezogene Dienstleistungen, Übrige unternehmensbezogene, freiberufliche und technische Diensleistungen, Dienstleistungen in Landwirtschaft und Bergbau, Vor-Ort-Bearbeitung
+282	Leistungsbilanz, Dienstleistungen, Sonstige unternehmensbezogene Dienstleistungen, Übrige unternehmensbezogene, freiberufliche und technische Diensleistungen, Dienstleistungen in Landwirtschaft und Bergbau, Vor-Ort-Bearbeitung, Abfallbehandlung und Umweltreinigung
+283	Leistungsbilanz, Dienstleistungen, Sonstige unternehmensbezogene Dienstleistungen, Übrige unternehmensbezogene, freiberufliche und technische Diensleistungen, Dienstleistungen in Landwirtschaft und Bergbau, Vor-Ort-Bearbeitung, Sonstige Diensteistungen in Landwirtschaft und Bergbau, Vor-Ort-Bearbeitung
+284	Leistungsbilanz, Dienstleistungen, Sonstige unternehmensbezogene Dienstleistungen, Übrige unternehmensbezogene, freiberufliche und technische Diensleistungen, Sonstige Übrige unternehmensbezogene, freiberufliche und technische Diensleistungen
+285	Leistungsbilanz, Dienstleistungen, Sonstige unternehmensbezogene Dienstleistungen, Übrige unternehmensbezogene, freiberufliche und technische Diensleistungen, Leistungen zwischen verbundenen Unternehmen, a.n.g.
+287	Leistungsbilanz, Dienstleistungen, Dienstleistungen für persönliche Zwecke, für Kultur und Freizeit
+288	Leistungsbilanz, Dienstleistungen, Dienstleistungen für persönliche Zwecke, für Kultur und Freizeit, Audiovisuelle und verwandte Leistungen
+289	Leistungsbilanz, Dienstleistungen, Dienstleistungen für persönliche Zwecke, für Kultur und Freizeit, Sonstige Dienstleistungen für persönliche Zwecke, für Kultur und Freizeit
+895	Leistungsbilanz, Dienstleistungen, Dienstleistungen für persönliche Zwecke, für Kultur und Freizeit, Sonstige Dienstleistungen für persönliche Zwecke, für Kultur und Freizeit, Ausbildungsdienstleistungen
+896	Leistungsbilanz, Dienstleistungen, Dienstleistungen für persönliche Zwecke, für Kultur und Freizeit, Sonstige Dienstleistungen für persönliche Zwecke, für Kultur und Freizeit, Gesundheitsdienstleistungen
+897	Leistungsbilanz, Dienstleistungen, Dienstleistungen für persönliche Zwecke, für Kultur und Freizeit, Sonstige Dienstleistungen für persönliche Zwecke, für Kultur und Freizeit, Sonstige Dienstleistungen
+291	Leistungsbilanz, Dienstleistungen, Regierungsleistungen, a.n.g.
+29110	Leistungsbilanz, Dienstleistungen, Regierungsleistungen, Erstattung der Kosten der Eigenmittelerhebung an die Mitgliedstaaten
+29120	Leistungsbilanz, Dienstleistungen, Regierungsleistungen, Miete, einkauk und errichtung von gebaüden
+29130	Leistungsbilanz, Dienstleistungen, Regierungsleistungen, Sonstige Regierungsleistungen
+292	Leistungsbilanz, Dienstleistungen, Regierungsleistungen, a.n.g., Botschafen und Konsulate
+293	Leistungsbilanz, Dienstleistungen, Regierungsleistungen, a.n.g., Militärische Einheiten und Einrichtungen
+294	Leistungsbilanz, Dienstleistungen, Regierungsleistungen, a.n.g., Sonstige Regierungsleistungen, a.n.g.
+982	Leistungsbilanz, Dienstleistungen, Nicht aufgegliederte Dienstleistungen
+950	Leistungsbilanz, Dienstleistungen, Memorandum Posten, Transport des Frachguts, bewertet auf der Transaktionsbasis
+951	Leistungsbilanz, Dienstleistungen, Memorandum Posten, Transport des Frachguts, bewertet auf der Transaktionsbasis, Seetransport Frachten
+952	Leistungsbilanz, Dienstleistungen, Memorandum Posten, Transport des Frachguts, bewertet auf der Transaktionsbasis, Lufttransport Frachten
+858	Leistungsbilanz, Dienstleistungen, Memorandum Posten, Transport des Frachguts, bewertet auf der Transaktionsbasis, Sonstige Frachten
+862	Leistungsbilanz, Dienstleistungen, Memorandum Posten, Transport des Frachguts, bewertet auf der Transaktionsbasis, Raumtransport Frachten
+863	Leistungsbilanz, Dienstleistungen, Memorandum Posten, Transport des Frachguts, bewertet auf der Transaktionsbasis, Eisenbahntransport Frachten
+953	Leistungsbilanz, Dienstleistungen, Memorandum Posten, Transport des Frachguts, bewertet auf der Transaktionsbasis, Straßentransport Frachten
+865	Leistungsbilanz, Dienstleistungen, Memorandum Posten, Transport des Frachguts, bewertet auf der Transaktionsbasis, Binnenschiffstransport Frachten
+868	Leistungsbilanz, Dienstleistungen, Memorandum Posten, Transport des Frachguts, bewertet auf der Transaktionsbasis, Rohrleitungstransport Frachten
+955	Leistungsbilanz, Dienstleistungen, Memorandum Posten, Reiseverkehr
+956	Leistungsbilanz, Dienstleistungen, Memorandum Posten, Reiseverkehr, Ausgaben für Güter
+957	Leistungsbilanz, Dienstleistungen, Memorandum Posten, Reiseverkehr, Ausgaben für Unterkunft und Verpflegung
+871	Leistungsbilanz, Dienstleistungen, Memorandum Posten, Reiseverkehr, Alle andere Reiseausgaben
+960	Leistungsbilanz, Dienstleistungen, Memorandum Posten, Brutto-Versicherungsprämien
+972	Leistungsbilanz, Dienstleistungen, Memorandum Posten, Brutto-Versicherungsprämien, Brutto Prämien - Lebensversicherung
+974	Leistungsbilanz, Dienstleistungen, Memorandum Posten, Brutto-Versicherungsprämien, Brutto Prämien - Frachtgut
+976	Leistungsbilanz, Dienstleistungen, Memorandum Posten, Brutto-Versicherungsprämien, Brutto Prämien - andere Direktversicherung
+961	Leistungsbilanz, Dienstleistungen, Memorandum Posten, Brutto-Versicherungsleistungen
+973	Leistungsbilanz, Dienstleistungen, Memorandum Posten, Brutto-Versicherungsleistungen, Brutto Leistungen - Lebensversicherung
+975	Leistungsbilanz, Dienstleistungen, Memorandum Posten, Brutto-Versicherungsleistungen, Brutto Leistungen - andere Direktversicherung
+977	Leistungsbilanz, Dienstleistungen, Memorandum Posten, Brutto-Versicherungsleistungen, Brutto Leistungen - andere Direktversicherung
+887	Leistungsbilanz, Dienstleistungen, Memorandum Posten, Indirekt gemessene Zwischenfinanzdienstleistungen (FISIM)
+888	Leistungsbilanz, Dienstleistungen, Memorandum Posten, Finanzdienstleistunegen einschl. FISIM
+962	Leistungsbilanz, Dienstleistungen, Memorandum Posten, Bruttoströme der Transithandelserträge
+894	Leistungsbilanz, Dienstleistungen, Memorandum Posten, Audiovisuelle Transaktionen
+300	Leistungsbilanz, Einkommen
+310	Leistungsbilanz, Einkommen, Erwerbseinkommen
+31010	Leistungsbilanz, Einkommen, Erwerbseinkommen, Bruttolöhne und -gehälter
+31020	Leistungsbilanz, Einkommen, Erwerbseinkommen, Sozialbeiträge der Arbeitgeber
+320	Leistungsbilanz, Einkommen, Vermögenseinkommen, Sonstige Investitionen
+320INT	Leistungsbilanz, Einkommen, Vermögenseinkommen, Zinsen BPM5 (nicht angepasst fur FISIM)
+320D41	Leistungsbilanz, Einkommen, Vermögenseinkommen, Zinsen SNA93 (angepasst fur FISIM)
+320FIS	Leistungsbilanz, Einkommen, Vermögenseinkommen, FISIM
+320D4N	Leistungsbilanz, Einkommen, Vermögenseinkommen, Sonstiges, nicht Zinsen
+330	Leistungsbilanz, Einkommen, Vermögenseinkommen, Direktinvestitionen
+331	Leistungsbilanz, Einkommen, Vermögenseinkommen, Direktinvestitionen, Erträge aus Beteiligungskapital
+332	Leistungsbilanz, Einkommen, Vermögenseinkommen, Direktinvestitionen, Erträge aus Beteiligungskapital, Dividenden und ausgeschüttete Gewinne von Zweigunternehmen
+333	Leistungsbilanz, Einkommen, Vermögenseinkommen, Direktinvestitionen, Erträge aus Beteiligungskapital, Reinvestierte Gewinne und nichtausgeschüttete Gewinne von Zweigunternehmen
+334	Leistungsbilanz, Einkommen, Vermögenseinkommen, Direktinvestitionen, Erträge aus Forderungen (Zinsen)
+339	Leistungsbilanz, Einkommen, Vermögenseinkommen, Wertpapieranlagen
+340	Leistungsbilanz, Einkommen, Vermögenseinkommen, Wertpapieranlagen, Erträge aus Beteiligungskapital (Dividenden)
+341	Leistungsbilanz, Einkommen, Vermögenseinkommen, Wertpapieranlagen, Erträge aus Beteiligungskapital (Dividenden), Währungsbehörden
+349	Leistungsbilanz, Einkommen, Vermögenseinkommen, Wertpapieranlagen, Erträge aus Forderungen
+370	Leistungsbilanz, Einkommen, Vermögenseinkommen, Sonstige Investitionen
+370INT	Leistungsbilanz, Einkommen, Vermögenseinkommen, Sonstige Investitionen, Zinsen BPM5 (nicht angepasst fur FISIM)
+370D44	Leistungsbilanz, Einkommen, Vermögenseinkommen, Sonstige Investitionen, Einkommen aus Versicherungsverträgen.
+370D4N	Leistungsbilanz, Einkommen, Vermögenseinkommen, Sonstige Investitionen, Sonstige
+37010	Leistungsbilanz, Einkommen, Vermögenseinkommen, Sonstige Investitionen, EIB Reinvestierte Gewinne
+379	Leistungsbilanz, Laufende Übertragungen
+380	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen
+380D2	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Steuern
+380D21	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Gütersteuern
+380D212X21	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Gütersteuern, Importabgaben, Zolle basierte Einnahmequelle
+380D212X22	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Gütersteuern, Importabgaben, Agrarabshopfungen basierte Einnahmequelle
+380D212X23	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Gütersteuern, Importabgaben, Zucker und Isoglukoseabgaben Einnahmequelle
+380D211X24	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Gütersteuern, Mehrwertsteuern (MwSt), MwSt basierte Einnahmequelle
+380D29	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Sonstige Produktionsabgaben
+380D29X25	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Sonstige Produktionsabgaben, EGKS Einnahmequelle
+380D3	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Subventionen
+380D31	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Gütersubventionen
+380D319X31	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Gütersubventionen, Landwirtschaft
+380D39	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Sonstige Produktionssubventionen
+380D39X31	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Sonstige Produktionssubventionen, Landwirtschaft
+380D39X32	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Sonstige Produktionssubventionen, Zinsvergutungen
+380D39X33	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Sonstige Produktionssubventionen, Sonstige
+380D5	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Einkommen und Vermögensteuern
+380D50	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Einkommen und Vermögensteuern
+380D51	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Einkommen und Vermögensteuern, Einkommensteuern
+380D6	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Sozialbeiträge und Sozialleistungen
+380D61	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Sozialbeiträge
+380D61121	Pflichtsozialbeiträge der Arbeitnehmer
+380D612	Unterstellte Sozialbeiträge
+380D62	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Monetäre Sozialleistungen
+380D63	Soziale Sachtransfers
+380D7	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Sonstige laufende Übertragungen
+380D74	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Sonstige laufende Übertragungen, Laufende Übertragungen im Rahmen internationaler Zusammenarbeit
+380D74X66	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Sonstige laufende Übertragungen, Laufende Übertragungen im Rahmen internationaler Zusammenarbeit, Beitrage der Mitgliedstaaten an den EEF
+380D74X68	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Sonstige laufende Übertragungen, Laufende Übertragungen im Rahmen internationaler Zusammenarbeit, ESF
+380D74X70	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Sonstige laufende Übertragungen, Laufende Übertragungen im Rahmen internationaler Zusammenarbeit, Landwirtschaft und Fischerei
+380D74X74	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Sonstige laufende Übertragungen, Laufende Übertragungen im Rahmen internationaler Zusammenarbeit, EFRE
+380D74X88	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Sonstige laufende Übertragungen, Laufende Übertragungen im Rahmen internationaler Zusammenarbeit, EEF
+380D74X90	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Sonstige laufende Übertragungen, Laufende Übertragungen im Rahmen internationaler Zusammenarbeit, Laufende Übertragungen der EGKS
+380D74X94	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Sonstige laufende Übertragungen, Laufende Übertragungen im Rahmen internationaler Zusammenarbeit, Sonstige
+380D75	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Sonstige laufende Übertragungen, Übrige laufende Übertragungen
+380D7N	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Sonstige, a.n.g.
+380D75X64	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Sonstige laufende Übertragungen, Übrige laufende Übertragungen, Bruttonationaleinkommen (BNE) basierte Einnahmequelle
+380D75X92	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Sonstige laufende Übertragungen, Übrige laufende  Übertragungen, An die Mitgliedstaaten gezahlte Finanzausgleichsbetrage
+380D75X94	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Sonstige laufende Übertragungen, Übrige laufende  Übertragungen, Bussgeld, Strafgebuehren
+380D75X96	Leistungsbilanz, Laufende Übertragungen, Öffentliche laufende Übertragungen, Sonstige laufende Übertragungen, Übrige laufende  Übertragungen, Transfers zu privater Organisationen ohne Erwerbszweck
+390	Leistungsbilanz, Laufende Übertragungen, Sonstige (private) laufende Übertragungen
+391	Leistungsbilanz, Laufende Übertragungen, Sonstige (private) laufende Übertragungen, Überweisungen von Arbeitnehmern
+392	Leistungsbilanz, Laufende Übertragungen, Sonstige (private) laufende Übertragungen, Sonstige private Übertragungen
+392D21	Leistungsbilanz, Laufende Übertragungen, Sonstige (private) laufende Übertragungen, Gütersteuern
+392D29	Leistungsbilanz, Laufende Übertragungen, Sonstige (private) laufende Übertragungen, Sonstige Produktionsabgaben
+392D31	Leistungsbilanz, Laufende Übertragungen, Sonstige (private) laufende Übertragungen, Gütersubventionen
+392D39	Leistungsbilanz, Laufende Übertragungen, Sonstige (private) laufende Übertragungen, Sonstige Produktionssubventionen
+392D50	Leistungsbilanz, Laufende Übertragungen, Sonstige (private) laufende Übertragungen, Einkommen, und Vermögensteuern
+392D61	Leistungsbilanz, Laufende Übertragungen, Sonstige (private) laufende Übertragungen, Sozialbeiträge
+392D62	Leistungsbilanz, Laufende Übertragungen, Sonstige (private) laufende Übertragungen, Monetäre Sozialleistungen
+392D71	Leistungsbilanz, Laufende Übertragungen, Sonstige (private) laufende Übertragungen, Nettoprämien für Schadenversicherungen
+392D72	Leistungsbilanz, Laufende Übertragungen, Sonstige (private) laufende Übertragungen, Schadenversicherungsleistungen
+392D7N	Leistungsbilanz, Laufende Übertragungen, Sonstige (private) laufende Übertragungen, Sonstige laufende Übertragungen anderer Sektoren, a.n.g.
+392D80	Leistungsbilanz, Laufende Übertragungen, Sonstige (private) laufende Übertragungen, Zunahme betrieblicher Versorgungsansprüche
+994	Vermögensübertragungen
+400	Vermögensübertragungen
+400D91	Vermögensübertragungen, Vermögenswirksame Steuern
+400D9N	Vermögensübertragungen, Investitionszuschüsse und sonstige Vermögenstransfers
+401	Vermögensübertragungen, Öffentliche Vermögensübertragungen
+401D92	Vermögensübertragungen, Öffentliche Vermögensübertragungen, Investitionszuschüsse
+401D92X11	Vermögensübertragungen, Öffentliche Vermögensübertragungen, Investitionszuschüsse, Landwirtschaft und Fischerei
+401D92X12	Vermögensübertragungen, Öffentliche Vermögensübertragungen, Investitionszuschüsse, EFRE
+401D92X13	Vermögensübertragungen, Öffentliche Vermögensübertragungen, Investitionszuschüsse, EEF
+401D92X14	Vermögensübertragungen, Öffentliche Vermögensübertragungen, Investitionszuschüsse, Kohesionfonds
+401D92X15	Vermögensübertragungen, Öffentliche Vermögensübertragungen, Investitionszuschüsse, Sonstige
+401D99	Vermögensübertragungen, Öffentliche Vermögensübertragungen, Sonstige
+401D99X11	Vermögensübertragungen, Öffentliche Vermögensübertragungen, Sonstige, Landwirtschaft und Fischerei
+401D99X15	Vermögensübertragungen, Öffentliche Vermögensübertragungen, Sonstige, Sonstige
+401D99X20	Vermögensübertragungen, Öffentliche Vermögensübertragungen, Sonstige, Schuldenerlaß
+480	Erwerb/Veräußerung von nicht produzierten, nicht finanziellen Vermögensgegenständen
+995	Kapitalbilanz
+500	Kapitalbilanz, Direktinvestitionen
+505	Kapitalbilanz, Direktinvestitionen, im Ausland
+506	Kapitalbilanz, Direktinvestitionen, im Ausland, Beteiligungskapital und Reinvestierte Gewinne
+510	Kapitalbilanz, Direktinvestitionen, im Ausland, Beteiligungskapital
+525	Kapitalbilanz, Direktinvestitionen, im Ausland, Reinvestierte Gewinne
+530	Kapitalbilanz, Direktinvestitionen, im Ausland, Übrige Anlagen
+541	Kapitalbilanz, Direktinvestitionen, im Ausland, Beteiligungskapital und Übrige Anlagen
+555	Kapitalbilanz, Direktinvestitionen, im Inland
+556	Kapitalbilanz, Direktinvestitionen, im Inland, Beteiligungskapital und Reinvestierte Gewinne
+560	Kapitalbilanz, Direktinvestitionen, im Inland, Beteiligungskapital
+575	Kapitalbilanz, Direktinvestitionen, im Inland, Reinvestierte Gewinne
+580	Kapitalbilanz, Direktinvestitionen, im Inland, Übrige Anlagen
+591	Kapitalbilanz, Direktinvestitionen, im Inland, Beteiligungskapital
+600	Kapitalbilanz, Wertpapieranlagen
+602	Kapitalbilanz, Wertpapieranlagen, Forderungen
+610	Kapitalbilanz, Wertpapieranlagen, Forderungen, Aktien und sonstige Anteilspapiere
+614	Kapitalbilanz, Wertpapieranlagen, Forderungen, Aktien und sonstige Anteilspapiere, Sonstige Sektoren
+619	Kapitalbilanz, Wertpapieranlagen, Forderungen, Festverzinsliche Wertpapiere
+620	Kapitalbilanz, Wertpapieranlagen, Forderungen, Festverzinsliche Wertpapiere, Langfristige festverzinsliche Wertpapiere
+624	Kapitalbilanz, Wertpapieranlagen, Forderungen, Festverzinsliche Wertpapiere, Langfristige festverzinsliche Wertpapiere, Sonstige Sektoren
+630	Kapitalbilanz, Wertpapieranlagen, Forderungen, Festverzinsliche Wertpapiere, Geldmarktpapiere
+634	Kapitalbilanz, Wertpapieranlagen, Forderungen, Festverzinsliche Wertpapiere, Geldmarktpapiere, Sonstige Sektoren
+652	Kapitalbilanz, Wertpapieranlagen, Verbindlichkeiten
+660	Kapitalbilanz, Wertpapieranlagen, Verbindlichkeiten, Aktien und sonstige Anteilspapiere
+669	Kapitalbilanz, Wertpapieranlagen, Verbindlichkeiten, Festverzinsliche Wertpapiere
+670	Kapitalbilanz, Wertpapieranlagen, Verbindlichkeiten, Festverzinsliche Wertpapiere, Langfristige festverzinsliche Wertpapiere
+674	Kapitalbilanz, Wertpapieranlagen, Verbindlichkeiten, Festverzinsliche Wertpapiere, Langfristige festverzinsliche Wertpapiere, Sonstige Sektoren
+680	Kapitalbilanz, Wertpapieranlagen, Verbindlichkeiten, Festverzinsliche Wertpapiere, Geldmarktpapiere
+684	Kapitalbilanz, Wertpapieranlagen, Verbindlichkeiten, Festverzinsliche Wertpapiere, Geldmarktpapiere, Sonstige Sektoren
+910	Kapitalbilanz, Derivate Finanzinstrumente, saldo
+914	Kapitalbilanz, Derivate Finanzinstrumente, Sonstige Sectoren
+700	Kapitalbilanz, Sonstige Investitionen
+703	Kapitalbilanz, Sonstige Investitionen, Forderungen
+704	Kapitalbilanz, Sonstige Investitionen, Forderungen, Staat
+714	Kapitalbilanz, Sonstige Investitionen, Forderungen, Kredite
+725	Kapitalbilanz, Sonstige Investitionen, Forderungen, Kredite, Sonstige Sektoren
+728	Kapitalbilanz, Sonstige Investitionen, Forderungen, Sonstige Sektoren
+730	Kapitalbilanz, Sonstige Investitionen, Forderungen, Bargeld und Einlagen
+732	Kapitalbilanz, Sonstige Investitionen, Forderungen, Bargeld und Einlagen, Staat
+734	Kapitalbilanz, Sonstige Investitionen, Forderungen, Bargeld und Einlagen, Sonstige Sektoren
+736	Kapitalbilanz, Sonstige Investitionen, Forderungen, Sonstige Forderungen
+740	Kapitalbilanz, Sonstige Investitionen, Forderungen, Sonstige Forderungen, Staat
+741	Kapitalbilanz, Sonstige Investitionen, Forderungen, Sonstige Forderungen, Staat, Langfristig
+742	Kapitalbilanz, Sonstige Investitionen, Forderungen, Sonstige Forderungen, Staat, Kurzfristig
+746	Kapitalbilanz, Sonstige Investitionen, Forderungen, Sonstige Forderungen, Sonstige Sektoren
+753	Kapitalbilanz, Sonstige Investitionen, Verbindlichkeiten
+754	Kapitalbilanz, Sonstige Investitionen, Verbindlichkeiten, Staat
+759	Kapitalbilanz, Sonstige Investitionen, Verbindlichkeiten, Handelskredite, Staat, Kurzfristig
+764	Kapitalbilanz, Sonstige Investitionen, Verbindlichkeiten, Kredite
+769	Kapitalbilanz, Sonstige Investitionen, Verbindlichkeiten, Staat, Kredite & Bargeld und Einlagen
+775	Kapitalbilanz, Sonstige Investitionen, Verbindlichkeiten, Sonstige Sektoren, Kredite & Bargeld und Einlagen
+779	Kapitalbilanz, Sonstige Investitionen, Verbindlichkeiten, Sonstige Sektoren
+780	Kapitalbilanz, Sonstige Investitionen, Verbindlichkeiten, Bargeld und Einlagen
+786	Kapitalbilanz, Sonstige Investitionen, Verbindlichkeiten, Sonstige Verbindlichkeiten
+790	Kapitalbilanz, Sonstige Investitionen, Verbindlichkeiten, Sonstige Verbindlichkeiten, Staat
+791	Kapitalbilanz, Sonstige Investitionen, Verbindlichkeiten, Sonstige Verbindlichkeiten, Staat, Langfristig
+792	Kapitalbilanz, Sonstige Investitionen, Verbindlichkeiten, Sonstige Verbindlichkeiten, Staat, Kurzfristig
+796	Kapitalbilanz, Sonstige Investitionen, Verbindlichkeiten, Sonstige Verbindlichkeiten, Sonstige Sektoren
+802	Kapitalbilanz, Währungsreserven
+983	Kommerzielle Dienstleistungen(ohne Regierungsleistungen, a.n.g.)
+998	Saldo der statistisch nicht aufgliederbaren Transaktionen (Restposten)
+991	Leistungsbilanz, Waren und Dienstleistungen
+992	Leistungsbilanz, Waren, Dienstleistungen und Einkommen
+996	Vermögensübertragungen und Kapitalbilanz
+EMP	Anzahl der beschäftigten Arbeitnehmer
+ENT	Anzahl der Unternehmungen
+EXP	Ausfuhren von Waren und Dienstleistungen
+EXPEU	Ausfuhren von Waren und Dienstleistungen in die EU
+EXPG	Ausfuhren von Waren
+EXPGEU	Ausfuhren von Waren in die EU
+EXPGRW	Ausfuhren von Waren in den Rest der Welt
+EXPI	Konzerninterne Ausfuhren von Waren und Dienstleistungen
+EXPICC	Konzerninterne Ausfuhren von Waren und Dienstleistungen in die kontrollierende Einheit ins Meldeland
+EXPINC	Konzerninterne Ausfuhren von Waren und Dienstleistungen mit Ausnahme der kontrollierenden Einheit
+EXPRW	Ausfuhren von Waren und Dienstleistungen in den Rest der Welt
+EXPS	Ausfuhren von Dienstleistungen
+EXPSEU	Ausfuhren von Dienstleistungen in die EU
+EXPSRW	Ausfuhren von Dienstleistungen in den Rest der Welt
+GIT	Bruttoinvestitionen in Sachvermögen
+IMP	Einfuhren von Waren und Dienstleistungen
+IMPEU	Einfuhren von Waren und Dienstleistungen aus der EU
+IMPG	Einfuhren von Waren
+IMPGEU	Einfuhren von Waren aus der EU
+IMPGRW	Einfuhren von Waren aus dem Rest der Welt
+IMPI	Konzerninterne Einfuhren von Waren und Dienstleistungen
+IMPICC	Konzerninterne Einfuhren von Waren und Dienstleistungen von der kontrollierenden Einheit im Meldeland
+IMPINC	Konzerninterne Einfuhren von Waren und Dienstleistungen mit Ausnahme der kontrollierenden Einheit
+IMPRW	Einfuhren von Waren und Dienstleistungen aus dem Rest der Welt
+IMPS	Einfuhren von Dienstleistungen
+IMPSEU	Einfuhren von Dienstleistungen von der EU
+IMPSRW	Einfuhren von Dienstleistungen aus dem Rest der Welt
+PEC	Personalkosten
+RDE	Gesamte innerbetriebliche FuE-Ausgaben
+RDP	FuE-Personal insgesamt
+TUR	Umsatz
+VAC	Wertschöpfung zu Faktorkosten

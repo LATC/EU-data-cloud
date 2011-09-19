@@ -1,0 +1,328 @@
+TOT_EODS	Alle Berufskrankheiten - Europäische Statistik über Berufskrankheiten (EODS)
+TOT_DISCH	Alle Krankenhausentlassungen
+A-R_V-Y	Alle Todesursachen (A00-Y89) ausschließlich S00-T98
+A-T_Z	Alle Krankheiten (A00-Z99) ausschließlich V00-Y98
+A-T_Z_XNB	Alle Krankheiten (A00-Z99) ausschließlich V00-Y98 und Z38
+A_B	Bestimmte infektiöse und parasitäre Krankheiten (A00-B99)
+A00-A08	Infektiöse Darmkrankheiten außer Diarrhoe
+A00	Cholera
+A01	Typhus abdominalis und Paratyphus
+A02	Sonstige Salmonelleninfektionen
+A03	Shigellose [Bakterielle Ruhr]
+A048	Sonstige näher bezeichnete bakterielle Darminfektionen
+A06	Amöbiasis
+A09	Diarrhoe und Gastroenteritis, vermutlich infektiösen Ursprungs
+A15-A19_B90	Tuberkulose
+A15	Tuberkulose der Atmungsorgane, bakteriologisch oder histologisch gesichert 
+A20-A49	Zoonosen und sonstige bakterielle Krankheiten
+A21	Tularämie
+A22	Anthrax (Milzbrand)
+A23	Brucellose
+A26	Erysipeloid
+A27	Leptospirose
+A35	Andere Arten von Tetanus
+A36	Diphterie
+A39	Meningokokkeninfektion
+A40_A41	Septikämie
+A46	Erysipel (Wundrose)
+A692	Lyme-Krankheit
+A70	Infektion durch Chlamydia psittaci
+A78	Q-Fieber
+A79	Sonstige Rickettsiosen
+VIRUS_INF	Virusinfektionen [einschl. HIV] (A80-A99, B00-B09, B15-B34)
+A80	Akute Poliomyelitis [Spinale Kinderlähmung]
+A82	Tollwut [Rabies]
+A988	Sonstige näher bezeichnete hämorrhagische Viruskrankheiten
+B01	Varizellen (Windpocken)
+B05	Masern
+B06	Röteln [Rubeola]
+B15-B19	Virushepatitis
+B15	Akute Hepatitis A
+B16	Akute Hepatitis B
+B171	Akute Hepatitis C
+B172	Akute Hepatitis E
+B178	Sonstige näher bezeichnete akute Virushepatitis
+B20-B24	HIV-Krankheit [Humane Immundefizienz-Viruskrankheit]
+B24	Nicht näher bezeichnete HIV-Krankheit [Humane Immundefizienz-Viruskrankheit]
+B26	Mumps
+B358	Sonstige Dermatophytosen
+B54	Malaria, nicht näher bezeichnet 
+B760	Ankylostomiasis
+A_B_OTH	Sonstige infektiöse und parasitäre Krankheiten (Rest von A00-B99)
+C00-D48	Neubildungen
+C	Bösartige Neubildungen (C00-C97)
+C00-C14	Bösartige Neubildungen der Lippe, der Mundhöhle und der Pharynx 
+C15	Bösartige Neubildung des Ösophagus
+C16	Bösartige Neubildung des Magens
+C18-C21	Bösartige Neubildung des Kolons, am Rectosigmoidübergang, des Rektums, des Anus und des Anuskanals 
+C18	Bösartige Neubildung des Kolons
+C19-C21	Bösartige Neubildung am Rectosigmoidübergang, des Rektums, des Anus und des Anuskanals 
+C22	Bösartige Neubildungen der Leber und der intrahepatischen Gallengänge
+C25	Bösartige Neubildung des Pankreas
+C300	Bösartige Neubildung der Nasenhöhle
+C31	Bösartige Neubildung der Nasennebenhöhlen
+C32-C34	Bösartige Neubildung des Larynx, der Trachea, der Bronchien und der Lunge
+C32	Bösartige Neubildung des Larynx
+C33_C34	Bösartige Neubildung der Trachea, der Bronchien und der Lunge 
+C33	Bösartige Neubildung der Trachea
+C34	Bösartige Neubildung der Bronchien und der Lunge
+C43_C44	Bösartige Neubildungen der Haut
+C43	Bösartiges Melanom der Haut
+C44	Sonstige bösartige Neubildungen der Haut
+C45	Mesotheliom
+C50	Bösartige Neubildung der Brustdrüse
+C53-C55	Bösartige Neubildung des Uterus
+C53	Bösartige Neubildung der Cervix uteri
+C54_C55	Bösartige Neubildung sonstiger Teile des Uterus
+C54	Bösartige Neubildung des Corpus uteri
+C56	Bösartige Neubildung des Ovars
+C61	Bösartige Neubildung der Prostata
+C62	Bösartige Neubildung des Hodens
+C64	Bösartige Neubildung der Niere, ausgenommen des Nierenbeckens
+C67	Bösartige Neubildung der Harnblase
+C71	Bösartige Neubildung des Gehirns
+C73	Bösartige Neubildung der Schilddrüse
+C81-C96	Bösartige Neubildungen des lymphatischen, blutbildenden und verwandten Gewebes
+C81	Hodgkin-Krankheit [Lymphogranulomatose]
+C95	Leukämie nicht näher bezeichneten Zelltyps
+C_OTH	Sonstige bösartige Neubildungen (Rest von C00-C97)
+D00-D09	In-situ-Neubildungen
+D04	Carcinoma in situ der Haut
+D12	Gutartige Neubildung des Kolons, des Rektums, des Analkanals und des Anus
+D25	Leiomyom des Uterus
+D00-D48_OTH	Sonstige in-situ-Neubildungen, gutartige Neubildungen und Neubildungen unsicheren oder unbekannten Verhaltens (Rest von D00-D48)
+D50-D89	Krankheiten des Blutes und der blutbildenden Organe sowie bestimmte Störungen mit Beteiligung des Immunsystems
+D50-D64	Anämien
+D59	Erworbene hämolytische Anämie
+D64	Sonstige Anämien
+D65-D89	Sonstige Krankheiten des Blutes und der blutbildenden Organe sowie bestimmte Störungen mit Beteiligung des Immunsystems
+D695	Sekundäre Thrombozytopenie
+D70	Agranylozytose
+E	Endokrine, Ernährungs- und Stoffwechselkrankheiten (E00-E90)
+E10-E14	Diabetes mellitus
+E_OTH	Sonstige endokrine, Ernährungs- und Stoffwechselkrankheiten (Rest von E00-E90)
+F	Psychische und Verhaltensstörungen (F00-F99)
+F00-F09	Organische, einschließlich symptomatischer psychischer Störungen 
+F00-F03	Demenz
+DISORDER_OTH	Neurosen, Persönlichkeitsstörungen (Psychopathien) und andere nichtpsychotische psychische Störungen (F10-F19, F40-F69)
+F10	Psychische und Verhaltensstörungen durch Alkohol
+F11-F19	Psychische und Verhaltensstörungen durch Konsum anderer psychotroper Substanzen
+TOXICO	Psychische und Verhaltensstörungen durch psychotrope Substanzen (F11-F16, F18-F19)
+F20-F39	Andere Psychosen
+F20-F29	Schizophrenie, schizotype und wahnhafte Störungen 
+F20	Schizophrenie
+F30-F39	Affektive Störungen
+F31	Bipolare affektive Störung
+F32_F33	Depressive Episoden
+F_OTH	Sonstige psychische und Verhaltensstörungen (Rest von F00-F99)
+G_H	Krankheiten des Nervensystems und der Sinnesorgane (G00-H95)
+G	Krankheiten des Nervensystems (G00-G99)
+G00-G03	Meningitis
+G122	Motoneuron-Krankheit
+G20_G21	Primäres Parkinson-Syndrom, sekundäres Parkinson-Syndrom 
+G212	Parkinson-Syndrom durch sonstige exogene Agenzien
+G252	Sonstige näher bezeichnete Tremorformen
+G30	Alzheimer-Krankheit
+G35	Multiple Sklerose [Encephalomyelitis disseminata]
+G40_G41	Epilepsie, status epilepticus  
+G40	Epilepsie
+G45	Zerebrale transitorische Ischämie und verwandte Syndrome
+G50	Krankheit des N. trigeminus
+G560	Karpaltunnel-Syndrom
+G561	Sonstige Läsionen des N. medianus
+G562	Läsion des N. ulnaris
+G563	Läsion des N. radialis
+G573	Läsion des N. fibularis (peronaeus) communis
+G575	Tarsaltunnel-Syndrom
+G622	Polyneuropathie durch sonstige toxische Agenzien
+G92	Toxische Enzephalopathie
+G_OTH	Sonstige Krankheiten des Nervensystems (Sonstige G00-G99)
+H	Krankheiten der Sinnesorgane (H00-H95)
+H00-H59	Krankheiten des Auges und der Augenanhangsgebilde
+H10	Konjunktivitis
+H25_H26_H28	Katarakt
+H268	Sonstige näher bezeichnete Kataraktformen
+H00-H59_OTH	Sonstige Krankheiten des Auges und der Augenanhangsgebilde (Rest von H00-H59)
+H60-H95	Krankheiten des Ohres und des Warzenfortsatzes
+H833	Lärmschädigungen des Innenohres
+I	Krankheiten des Kreislaufsystems (I00-I99)
+I10-I15	Hypertonie (Hochdruckkrankheit)
+I20-I25	Ischämische Herzkrankheiten
+I20	Angina pectoris
+I21_I22	Akuter Myokardinfarkt und rezidivierender Myokardinfarkt
+I21	Akuter Myokardinfarkt
+I23-I25	Sonstige ischämische Herzkrankheit
+I26-I28	Pulmonale Herzkrankheit und Krankheiten des Lungenkreislaufes
+HEART_OTH	Sonstige Formen der Herzkrankheiten (I30-I33, I39-I52)
+I44-I49	Kardiale Erregungsleitungsstörungen und Arrhythmien
+I50	Herzinsuffizienz
+I60-I69	Zerebrovaskuläre Krankheiten
+I70	Atherosklerose
+I730	Raynaud-Syndrom
+I83	Varizen der unteren Extremitäten
+I_OTH	Sonstige Krankheiten des Kreislaufsystems (Rest von I00-I99)
+J	Krankheiten des Atmungssystems (J00-J99)
+RESPIR	Akute Infektionen der Atmungsorgane und sonstige Krankheiten der oberen Atemwege (J00-J06, J30-J39)
+J00-J11	Akute Infektionen der oberen Atemwege und Grippe
+J10-J18	Grippe und Pneumonie
+J10_J11	Grippe
+J12-J18	Pneumonie
+J20-J22	Sonstige akute Infektionen der unteren Atemwege
+UPRESPIR_OTH	Sonstige Krankheiten der oberen Atemwege (J30-J34, J36-J39)
+J303	Sonstige allergische Rhinopathie
+J340	Abszess, Furunkel und Karbunkel der Nase
+J348	Sonstige näher bezeichnete Krankheiten der Nase und der Nasennebenhöhlen
+J35	Chronische Krankheiten der Gaumen- und Rachenmandeln
+J41-J44	Chronische Bronchitis, Emphysem, sonstige chronische obstruktive Lungenkrankheit
+J40-J47	Chronische Krankheiten der unteren Atemwege
+J40-J44_J47	Chronische obstruktive Lungenkrankheit und Bronchiektasen
+J44	Sonstige chronische obstruktive Lungenkrankheit
+J45_J46	Asthma bronchiale und Status asthmaticus
+J45	Asthma bronchiale
+J60-J99	Sonstige Krankheiten des Atmungssystems
+J60	Kohlenbergarbeiter-Pneumokoniose
+J61	Pneumokoniose durch Asbest und sonstige anorganische Fasern
+J62	Pneumokoniose durch Quarzstaub
+J630	Aluminose (Lunge)
+J631	Bauxitfibrose (Lunge)
+J632	Berylliose
+J633	Graphitfibrose (Lunge)
+J634	Siderose
+J635	Stannose
+J638	Pneumokoniose durch sonstige näher bezeichnete anorganische Stäube
+J65	Pneumokoniose in Verbindung mit Tuberkulose
+J660	Byssinose
+J67	Allergische Alveolitis durch organischen Staub
+J680	Bronchitis und Pneumonie durch chemische Substanzen, Gase, Rauch und Dämpfe 
+J681	Akutes Lungenödem durch chemische Substanzen, Gase, Rauch und Dämpfe 
+J682	Entzündung der oberen Atemwege durch chemische Substanzen, Gase, Rauch und Dämpfe, anderenorts nicht klassifiziert 
+J683	Sonstige akute und subakute Krankheiten der Atmungsorgane durch chemische Substanzen, Gase, Rauch und Dämpfe 
+J841	Sonstige interstitielle Lungenkrankheiten mit Fibrose
+J90	Pleuraerguß, anderenorts nicht klassifiziert 
+J92	Pleuraplaques
+J948	Sonstige näher bezeichnete Krankheitszustände der Pleura
+K	Krankheiten des Verdauungssystems (K00-K93)
+K00-K08	Störungen der Zahnentwicklung und des Zahndurchbruchs
+K09-K14	Sonstige Krankheiten der Mundregion, der Speicheldrüsen und der Kiefer 
+K20-K23	Krankheiten des Ösophagus
+K25-K28	Gastroduodenaler Ulkus
+K29-K31	Dyspepsie und sonstige Krankheiten des Magens und des Duodenums
+K35-K38	Krankheiten der Appendix
+K40-K46	Hernien
+K40	Hernia inguinalis
+K41-K46	Sonstige abdominale Hernien
+K50_K51	Crohn-Krankheit [Morbus Crohn] und Colitis ulcerosa
+K52	Sonstige nichtinfektiöse Gastroenteritis und Kolitis
+INTESTINE_OTH	Sonstige Krankheiten des Darmes (K55, K58-K59, K63)
+K56	Paralytischer Ileus und mechanischer Ileus ohne Hernie
+K57	Divertikulose des Darmes
+K60-K62	Krankheiten des Anus und des Rektums
+K70_K73_K74	Chronische Leberkrankheit
+K70	Alkoholische Leberkrankheit
+K71-K77	Sonstige Krankheiten der Leber
+K71	Toxische Leberkrankheit
+K80	Cholelithiasis
+K81-K83	Sonstige Krankheiten der Gallenblase und der Gallenwege
+K85-K87	Krankheit des Pankreas
+K_OTH	Sonstige Krankheiten des Verdauungssystems (Rest von K00-K93)
+L	Krankheiten der Haut und der Unterhaut (L00-L99)
+L00-L08	Infektionen der Haut und der Unterhaut
+L20-L45	Dermatitis, Ekzem und papulosquamöse Hautkrankheiten 
+L23-L25	Kontaktdermatitis
+L506	Kontakturtikaria
+L708	Sonstige Akne
+L_OTH	Sonstige Krankheiten der Haut und der Unterhaut (Sonstige L00-L99)
+M	Krankheiten des Muskel-Skelett-Systems und des Bindegewebes (M00-M99)
+M00-M36	Arthropathien und Systemkrankheiten des Bindegewebes
+ARTHROPAT_OTH	Sonstige Arthropathien (M00-M15, M18-M22, M24-M25)
+RHEUM_ARTHRO	Polyarthritis und Arthrose (M05-M06,M15-M19)
+M16	Koxarthrose [Arthrose des Hüftgelenkes]
+M17	Gonarthrose [Arthrose des Kniegelenkes]
+M192	Sonstige sekundäre Arthrose
+M23	Binnenschädigung des Kniegelenkes
+M232	Meniskusschäden durch alten Riss oder alte Verletzung
+M30-M36	Systemkrankheiten des Bindegewebes
+M40-M54	Krankheiten der Wirbelsäule und des Rückens
+M40-M49	Deformitäten der Wirbelsäule und des Rückens und Spondylopathien
+M50_M51	Funktionsstörungen der Wirbelscheiben
+M53_M80-M99	Sonstige Krankheiten des Muskel-Skelett-Systems und des Bindegewebes
+M54	Rückenschmerzen
+M60-M79	Krankheiten der Weiteilgewebe
+M700	Chronische Tenosynovitis crepitans der Hand und des Handgelenkes
+M703	Sonstige Bursitis im Bereich des Ellenbogens
+M704	Bursitis praepatellaris
+M770	Epicondylitis ulnaris humeri
+M771	Epicondylitis radialis humeri
+M931	Kienböck-Krankheit bei Erwachsenen
+N	Krankheiten des Urogenitalsystems (N00-N99)
+N00-N39	Nephritis, nephrotisches Syndrom und Nephrose sowie sonstige Krankheiten der Harnorgane 
+N00-N29	Krankheiten der Niere und des Ureters
+N00-N16	Glomeruläre Krankheiten und tubulointerstitielle Nierenkrankheiten
+N14	Arzneimittel- und schwermetallinduzierte tubulointerstitielle und tubuläre Krankheitszustände
+N17-N19	Niereninsuffizienz
+N18	Chronische Niereninsuffizienz
+N20-N23	Urolithiasis
+N25-N39	Sonstige Krankheiten der Niere, des Ureters und des Harnsystems 
+N40-N51	Krankheiten der männlichen Genitalorgane
+N40	Prostatahyperplasie
+N41-N51	Sonstige Krankheiten der männlichen Genitalorgane
+N60-N98	Krankheiten der Brust und der weiblichen Beckenorgane
+N60-N64	Krankheiten der Brustdrüse
+N70-N77	Entzündliche Krankheiten des weiblichen Genitaltraktes
+N91-N95	Zustände im Zusammenhang mit den weiblichen Genitalorganen und dem Menstruationszyklus und klimakterischen Störungen
+N_OTH	Sonstige Krankheiten des Urogenitalsystems (Rest von N00-N99)
+O	Schwangerschaft, Geburt und Wochenbett (O00-O99)
+ABORT_OTH	Sonstige Schwangerschaft mit abortivem Ausgang (O00-O03, O05-O08)
+O04	Ärztlich eingeleiteter Abort
+O10-O48	Schwangerschaftskomplikationen, vorwiegend in der pränatalen Phase 
+O60-O75	Komplikationen bei Wehentätigkeit und Entbindung
+O80	Spontangeburt eines Einlings
+O81-O84	Sonstige Entbindung
+O85-O92	Komplikationen, die vorwiegend im Wochenbett auftreten 
+O95-O99	Sonstige Krankheitszustände während der Gestationsperiode, die anderenorts nicht klassifiziert sind
+P	Bestimmte Zustände, die ihren Ursprung in der Perinatalperiode haben (P00-P96)
+P07	Störungen im Zusammenhang mit kurzer Schwangerschaftsdauer und niedrigem Geburtsgewicht, anderenorts nicht klassifiziert
+P_OTH	Sonstige Zustände, die ihren Ursprung in der Perinatalperiode haben (Rest von P00-P96)
+Q	Angeborene Fehlbildungen, Deformitäten und Chromosomenanomalien (Q00-Q99)
+Q00-Q07	Angeborene Fehlbildungen des Nervensystems
+Q20-Q28	Angeborene Fehlbildungen des Kreislaufsystems
+R	Symptome und abnorme klinische Laborbefunde, die anderenorts nicht klassifiziert sind (R00-R99)
+R07	Hals- und Brustschmerzen
+R10	Bauch- und Beckenschmerzen
+R69	Unbekannte und nicht näher bezeichnete Krankheitsursachen
+R95	Plötzlicher Kindstod
+R96-R99	Ungenau bezeichnete und unbekannte Todesursachen
+R_OTH	Sonstige Symptome und abnorme klinische Laborbefunde, die anderenorts nicht klassifiziert sind (R00-R99)
+S_T	Verletzungen, Vergiftungen und bestimmte andere Folgen äußerer Ursachen (S00-T98)
+INJ_HEAD_OTH	Sonstige Verletzungen des Kopfes (S00-S05, S07-S09)
+OPEN_WOUND	Offene Wunden und Verletzungen der Blutgefäße (S01, S11, S21, S31, S41, S51, S61, S71, S81, S91, T01, T09.1, T11.1) 
+FRACTURE	Frakturen (S02, S12, S22, S32, S42, S52, S62, S72, S82, S92, T02, T08, T10)
+S06	Intrakranielle Verletzung
+INJ_OTH	Sonstige Verletzungen (S10-S51, S53-S71, S73-S81, S83-T14, T79)
+S52	Fraktur des Unterarmes
+S72	Fraktur des Femurs
+S720	Schenkelhalsfraktur
+S82	Fraktur des Unterschenkels, einschließlich des oberen Sprunggelenkes
+S93	Luxation, Verstauchung und Zerrung der Gelenke und Bänder in Höhe des oberen Sprunggelenkes und des Fußes 
+T20-T32	Verbrennungen oder Verätzungen
+T36-T65	Vergiftungen durch Arzneimittel, Drogen und biologisch aktive Substanzen sowie toxische Wirkungen von vorwiegend nicht medizinisch verwendeten Substanzen 
+T80-T88	Komplikationen bei chirurgischen Eingriffen und medizinischer Behandlung, anderenorts nicht klassifiziert 
+T90-T98	Folgen von Verletzungen, Vergiftungen und sonstigen Auswirkungen äußerer Ursachen 
+S_T_OTH	Sonstige Verletzungen, Vergiftungen und andere Folgen von äußeren Ursachen (Rest von S00-T98)
+V01-Y89	Äußere Ursachen von Morbidität und Mortalität (V01-Y89)
+V01-X59	Unfälle
+V	Transportmittelunfälle (V01-V99)
+W00-W19	Stürze
+X40-X49	Akzidentelle Vergiftung durch und Exposition gegenüber schädlichen Substanzen
+X60-X84	Selbstmord und vorsätzliche Selbstbeschädigung
+X85-Y09	Tätlicher Angriff
+Y10-Y34	Ereignis, dessen nähere Umstände unbestimmt sind 
+Z	Faktoren, die den Gesundheitszustand beeinflussen und zur Inanspruchnahme des Gesundheitswesens führen (Z00-Z99)
+Z03	Ärztliche Beobachtung und Beurteilung von Verdachtsfällen
+Z30	Kontrazeptive Maßnahmen
+Z38	Lebendgeborene nach dem Geburtsort
+Z51	Sonstige medizinische Behandlung
+Z_OTH	Sonstige Faktoren, die den Gesundheitszustand beeinflussen und zur Inanspruchnahme des Gesundheitswesens führen (Rest von Z00-Z99)
+U	Schlüsselnummern für besondere Zwecke (U00-U99)
+OTH	Alle Kategorien nicht anderweitig klassifizierbar
+UNK	Unbekannt

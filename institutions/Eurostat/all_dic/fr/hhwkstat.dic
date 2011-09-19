@@ -1,0 +1,10 @@
+TOTAL	Total
+HHW_10	Tous les adultes travaillent
+HHW_11	Tous les adultes travaillent à plein temps
+HHW_12	Au moins un adulte travaille à temps partiel, tous les autres adultes (s'il y en a) travaillent à plein temps
+HHW_20	Au moins un adulte ne travaille pas, tous les autres adultes (s'il y en a) travaillent ou ne travaillent pas
+HHW_30	Aucun des adultes ne travaille (tous les ménages)
+HHW_31	Aucun des adultes ne travaille (à l'exclusion des ménages composés uniquement d'étudiants)
+HHW_32	Aucun des adultes ne travaille (à l'exclusion des ménages composés uniquement d'étudiants ou uniquement d'inactifs âgés de 65 ans et plus)
+NRESP	Sans réponse
+UNK	Inconnu

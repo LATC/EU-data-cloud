@@ -1,0 +1,15 @@
+TOTAL	Entreprises, total
+INNO	Entreprises ayant une activité d'innovation (innovation de produit, de procédé, en cours ou abandonnée, d'organisation et de commercialisation)
+INNO_PP	Innovation technologique seulement (de produit, de procédé, en cours ou abandonnée)
+INNO_NPP	Innovation non technologique seulement (innovation d'organisation et/ou de commercialisation)
+INNO_PPANPP	Innovation technologique et non technologique
+INNOACT	Entreprises ayant une activité d'innovation technologique (innovation de produit, de procédé, en cours ou abandonnée) qu'il y ait ou non innovation d'organisation et de commercialisation 
+PAOP	Entreprises innovantes, produit et/ou procédé
+INPDTONLY	Entreprises innovantes, uniquement produit
+INPCSONLY	Entreprises innovantes, uniquement procédé
+PANDP	Entreprises innovantes, produit et procédé
+INONONAB	Innovateurs établis, avec des activités d'innovation en cours et/ou abandonnées seulement
+NON_INNO	Entreprises non innovantes
+INABA	Activités d'innovation abandonnées ou suspendues avant terme 
+INONG	Activités d'innovation toujours en cours fin 2008
+INABA_ONG	Entreprises ayant des activités d'innovation en cours ou abandonnées

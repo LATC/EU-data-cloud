@@ -1,0 +1,158 @@
+POP	Population
+JAN	Population au 1er janvier - totale
+MJAN	Population au 1er janvier - hommes
+FJAN	Population au 1er janvier - femmes
+DEC	Population au 31 décembre
+AVG	Population moyenne - totale
+MAVG	Population moyenne - hommes
+FAVG	Population moyenne - femmes
+ADJM	Ajustement statistique - mâles
+ADJF	Ajustement statistique - femelles
+ADJT	Ajustement statistique - total
+URB_POP	Population urbaine
+BIRTH	Naisssances
+LBIRTH	Naissances vivantes - totales
+MLBIRTH	Naissances vivantes - hommes
+FLBIRTH	Naissances vivantes - femmes
+LBIRTHOUT	Naissances hors mariage
+DEATH	Décès - totaux
+MDEATH	Décès - hommes
+FDEATH	Décès - femmes
+DEATHUN5	Taux de mortality endesous de 5 ans (par 1000 naissances vivantes)
+DEATHUN1	Décès d'enfants de moins d'un an
+NATGROW	Variation naturelle de la population
+NMIGRAT	Solde migratoire - total
+CNMIGRAT	Solde migratoire plus l'ajustement statistique
+INTL_MIG	Migration internationale
+INTRG_MIG	Migration interrégionale
+GROW	Variation totale de la population
+GBIRTHRT	Taux brut de natalité
+GDEATHRT	Taux brut de mortalité
+NATGROWRT	Taux de variation naturelle de la population
+NMIGRATRT	Taux de solde migratoire
+CNMIGRATRT	Taux de solde migratoire plus l'ajustement statistique
+MNMIGRAT	Solde migratoire - hommes
+FNMIGRAT	Solde migratoire - femmes
+MNMIGRIN	Immigration - hommes
+FNMIGRIN	Immigration - femmes
+NMIGRIN	Immigration totale
+MNMIGROUT	Emigration - hommes
+FNMIGROUT	Émigration - femmes
+NMIGROUT	Émigration totale
+GROWRT	Taux de variation de la population
+GROWRT_5	Taux de variation de la population pour plus de 5 ans
+MAR	Dans le mariage
+NMAR	Hors mariage
+UNKMAR	Situation matrimoniale inconnue
+GBIRTHRTNMAR	Taux brut de natalité hors mariage
+NMARPCT	Proportion des naissances vivantes hors mariage
+TOTFERRT	Indicateur conjoncturel de fécondité
+COMPLETFER	Descendance finale
+GREPRT	Taux brut de reproduction
+NREPRT	Taux net de reproduction
+AGEMOTH	Age moyen à la maternité
+AGEMOTH1	Age moyen des femmes à la naissance du premier enfant
+AGEMOTH2	Age moyen des femmes à la naissance du deuxième enfant
+AGEMOTH3	Age moyen des femmes à la naissance du troisième enfant
+AGEMOTH4	Age moyen des femmes à la naissance du quatrième enfant
+AGEMOTH4_MAX	Age moyen des femmes à la naissance de l'enfant d'ordre 4 ou plus
+FCH0PCT	Proportion de femmes sans enfants
+FCH1PCT	Proportion de femmes avec un seul enfant
+FCH2PCT	Proportion de femmes avec deux enfants
+FCH3PCT	Proportion de femmes avec trois enfants
+FCH4PCT	Proportion de femmes avec quatre enfants
+FCH4_MAXPCT	Proportion de femmes avec quatre enfants ou plus
+LBIRTHR1PC	Pourcentage des naissances vivantes de 1er rang
+LBIRTHR2PC	Pourcentage des naissances vivantes de 2ème rang
+LBIRTHR3PC	Pourcentage des naissances vivantes de 3ème rang
+LBIRTHR4_MAXPC	Pourcentage des naissances vivantes de 4ème rang et plus
+ABORT	Avortements
+INFMOR	Mortalité infantile
+NEOMOR	Mortalité néonatale
+ENEOMOR	Mortalité néonatale précoce
+STILLBIRTH	Morts-nés
+INFMORRT	Taux de mortalité infantile
+NEOMORRT	Taux de mortalité néonatale
+ENEOMORRT	Taux de mortalité néonatale précoce
+LFOEMORRT	Taux de mortinatalité
+PERIMORRT	Taux de mortalité périnatale
+LEXPEC	Espérance de vie à la naissance
+MLEXPEC	Espérance de vie à la naissance - hommes
+FLEXPEC	Espérance de vie à la naissance - femmes
+LEXPEC_Y65	Espérance de vie à l'âge de 65 ans
+MARRIAGE	Mariages
+GNUPRT	Taux brut de nuptialité
+MMARSIN	Mariages d'hommes célibataires
+FMARSIN	Mariages de femmes célibataires
+MMAR1PC	Pourcentage de premiers mariages - hommes
+FMAR1PC	Pourcentage de premiers mariages - femmes
+MMAR1CUM	Indicateur conjoncturel de primo-nuptialité - hommes
+FMAR1CUM	Indicateur conjoncturel de primo-nuptialité - femmes
+MMARRT	Proportion d'hommes mariés par génération
+FMARRT	Proportion de femmes mariées par génération
+AGEMAR1	Age moyen au 1er mariage
+MAGEMAR1	Age moyen au 1er mariage - hommes
+FAGEMAR1	Age moyen au 1er mariage - femmes
+MAGEMAR	Age moyen au mariage- hommes
+FAGEMAR	Age moyen au mariage - femmes
+DIV	Divorces
+DIVMARPCT	Divorces pour 100 mariages
+GDIVRT	Taux brut de divortialité
+MARDIVRT	Taux de divortialité des personnes mariées
+TOTDIVRT	Indicateur conjoncturel de divortialité
+COMPLETDIV	Proportion de mariages rompus par divorce par promotion
+DURMAR	Durée moyenne du mariage au divorce
+MEDDURMAR	Durée médiane du mariage au divorce
+DEATHRATE	Taux de mortalité à l'âge x (Mx)
+PROBDEATH	Probabilité de décès entre deux âges exacts (qx)
+PROBSURV	Probabilité de survie entre deux âges exacts (px)
+SURVIVORS	Nombre des survivants à l'âge exact (lx)
+NUMBERDYING	Nombre de décès entre deux âges exacts (dx)
+PYLIVED	Nombre d'années personnes vécues entre deux âges exacts (Lx)
+TOTPYLIVED	Nombre totale d'années personne vécues après l'âge exact (Tx)
+LIFEXP	Esperance de vie à l'âge exact (ex)
+AREA	Superficie
+DENSITY	Densité de la population
+POPSHARE	Population en pourcentage de la population UE-27
+AGEPOP	Age moyen de la population
+MEDAGEPOP	Age médian de la population
+PC_Y0_4	Proportion de la population âgée de 0-4 ans
+PC_Y0_14	Proportion de la population âgée de 0-14 ans
+PC_Y0_19	Proportion de la population âgée de 0-19 ans
+PC_Y5_9	Proportion de la population âgée de 5-9 ans
+PC_Y10_14	Proportion de la population âgée de 10-14 ans
+PC_Y15_19	Proportion de la population âgée de 15-19 ans
+PC_Y15_24	Proportion de la population âgée de 15-24 ans
+PC_Y20_24	Proportion de la population âgée de 20-24 ans
+PC_Y20_39	Proportion de la population âgée de 20-39 ans
+PC_Y25_44	Proportion de la population âgée de 25-44 ans
+PC_Y25_29	Proportion de la population âgée de 25-29 ans
+PC_Y25_49	Proportion de la population âgée de 25-49 ans
+PC_Y30_34	Proportion de la population âgée de 30-34 ans
+PC_Y35_39	Proportion de la population âgée de 35-39 ans 
+PC_Y40_44	Proportion de la population âgée de 40-44 ans
+PC_Y40_59	Proportion de la population âgée de 40-59 ans
+PC_Y45_49	Proportion de la population âgée de 45-49 ans
+PC_Y45_64	Proportion de la population âgée de 45-64 ans
+PC_Y50_54	Proportion de la population âgée de 50-54 ans
+PC_Y50_64	Proportion de la population âgée de 50-64 ans
+PC_Y55_59	Proportion de la population âgée de 55-59 ans
+PC_Y60_64	Proportion de la population âgée de 60-64 ans
+PC_Y60_79	Proportion de la population âgée de 60-79 ans
+PC_Y60_MAX	Proportion de la population âgée de 60 ans et plus
+PC_Y65_69	Proportion de la population âgée de 65-69 ans
+PC_Y65_79	Proportion de la population âgée de 65-79 ans
+PC_Y65_MAX	Proportion de la population âgée de 65 ans et plus
+PC_Y70_74	Proportion de la population âgée de 70-74 ans
+PC_Y75_79	Proportion de la population âgée de 75-79 ans
+PC_Y80_84	Proportion de la population âgée de 80-84 ans
+PC_Y80_MAX	Proportion de la population âgée de 80 ans et plus
+PC_Y85_MAX	Proportion de la population âgée de 85 ans et plus
+PC_FM	Nombre de femmes pour 100 hommes
+DEPRATIO1	Rapport de dépendance, 1ère variante (Population âgée de 0-14 et 65 ans et plus relativement à la pop. âgée de 15-64 ans)
+DEPRATIO2	Rapport de dépendance, 2ère variante (Population âgée de 0-19 et 60 ans et plus relativement à la pop. âgée de 20-59 ans)
+YOUNGDEP1	Rapport de dépendance des jeunes, 1ère variante (population âgée de 0-14 relativement à la population âgée de 15-64 ans)
+YOUNGDEP2	Rapport de dépendance des jeunes, 2ème variante (Population âgée de 0-19 relativement à la population âgée de 20-59 ans)
+OLDDEP1	Rapport de dépendance des personnes âgées, 1ère variante (population âgée de 65 ans et plus relativement à la population âgée de 15 à 64 ans)
+OLDDEP2	Rapport de dépendance des personnes âgées, 2ème variante (population âgée de 60 ans et plus relativement à la population âgée de 20 à 59 ans)
+UNK	Inconnu

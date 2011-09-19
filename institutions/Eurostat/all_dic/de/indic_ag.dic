@@ -1,0 +1,93 @@
+I03A	Bewässerbare Fläche
+I03B	Mindestens einmal im Jahre bewässerte Fläche
+I03B1	Bewässerte Kulturen:Hartweizen
+I03B2	Bewässerte Kulturen:Mais
+I03B3	Bewässerte Kulturen:Kartoffeln
+I03B4	Bewässerte Kulturen:Zuckerrüben
+I03B5	Bewässerte Kulturen:Sonnenblumen
+I03B6	Bewässerte Kulturen:Soja
+I03B7	Bewässerte Kulturen:Futterplanzen
+I03B8	Bewässerte Kulturen:Obstanlagen
+I03B9	Bewässerte Kulturen:Zitrusfrüchte
+I03B10	Bewässerte Kulturen:Rebanlagen
+I07A_EQ_Y	Betriebe mit Lagereinrichtungen für Wirtschaftsdünger tierischer Herkunft
+I07A1_EQ_Y	Einrichtungen zur Lagerung von Festmist
+I07A2_EQ_Y	Betriebemit Einrichtungen zur Lagerung von Jauche
+I07A3_EQ_Y	Betriebe mit Einrichtungen zur Lagerung von Gülle
+3B1BA	Anzahl der Betriebe. 1 000
+3B1BB	Anzahl der Betriebe, landwirtschaftlich genutzte Fläche < 5 ha. 1 000
+3B1BC	Anzahl der Betriebe, landwirtschaftlich genuzte Fläche 5-<20 ha. 1 000
+3B1BD	Anzahl der Betriebe, landwirtschaftlich genuzte Fläche 20-50 ha. 1 000
+3B1BE	Anzahl der Betriebe, landwirtschaftlich genuzte Fläche >= 50 ha. 1 000
+3B1DC	Anzahl der Betriebe mit Getreide. 1 000
+3B1GA	Gesamtarbeitskraft. 1 000 LAE
+3B1GB	Regelmäßig beschäftigte Arbeitskraft. 1 000 Pers
+3B1GC	Regelmäßig vollzeitbeschäftigte Arbeitskraft. 1 000 Pers
+3B1GG	Regelmäßig teilzeitbeschäftigte Arbeitskraft. 1 000 Pers
+3B1HB	Familienarbeitskraft. 1 000 Pers
+3B1HF	Weiblich regelmäßig beschäftigte Arbeitskraft. 1 000 Pers
+3B1HQ	Betriebsleiter. 1 000 Pers
+3B1IG	Weibliche Betriebsleiter. 1 000 Pers
+3B1IH	Betriebsinhaber, die eine natürliche Person sind. 1 000 Pers
+3B1II	Betriebsinhaber, < 35 Jahren. 1 000 Pers
+3B1IJ	Betriebsinhaber, >= 65 Jahren. 1 000 Pers
+3B2AA	Betriebe mit einer außerbetrieblichen, nicht landwirtschaftlichen, Erwerbstätigkeit (% aller Betriebe)
+LSD	Viehbestandsdichte: Einheiten Viehbestand/Landwirtschaftlich genutzte Fläche (LSU/UAA)
+LSU_FOD	Viehbestandsdichte: Einheiten Viehbestand/Futterfläche (GVE/ha)
+PAGR	Preise landwirtschaftlicher Flächen
+PARA	Preise, Ackerland
+PMEAD	Preise, Grünland
+PIRR	Preise bewässerte Flächen
+PNIRR	Preise nicht bewässerter Flächen
+RNAGR	Entgelte für Neupachten
+RAGR	Pachtpreise landwirtschaftlicher Flächen
+RARA	Pachtpreise, Ackerland
+RMEAD	Pachtpreise, Grünland
+SURF_IR	Oberflächenbewässerung
+SPRINK_IR	Sprinklerbewässerung
+DROP_IR	Tröpfchenbewässerung
+ALL_IR	Alle Bewässerungsmethoden
+HIGH_INP	Betriebe mit hochem Input
+LOW_INP	Betriebe mit niedrigem Input
+MED_INP	Betriebe mit mittelem Input
+ENT	Zahl der Unternehmen
+PROD	Jährliche Milchaufnahme (1000 t)
+BAL_HA	Bruttonährstoffbilanz pro Hektar (Ackerfläche, Dauerkulturen, Dauergrünland) (kg Nährstoff pro Hektar)
+INP_HA	Nährstoff-Einträgen pro Hektar (Ackerfläche, Dauerkulturen, Dauergrünland) (kg Nährstoff pro Hektar)
+OUT_HA	Nährstoff-Austrägen pro Hektar (Ackerfläche, Dauerkulturen, Dauergrünland) (kg Nährstoff pro Hektar)
+BAL	Bruttonährstoffbilanz pro Hektar (Inputs minus Outputs) (Tonnen Nährstoff)
+INP_NT	Nährstoff-Einträgen (Tonnen Nährstoff)
+I_FRT	Gesamtverbrauch Düngemitteln (außer Dünge tierischer Herkunft) (Tonnen Nährstoff)
+I_FRT_MIN	Verbrauch Mineraldünger (Tonnen Nährstoff)
+I_FRT_ORG	Verbrauch Organische Düngestoffe (Tonnen Nährstoff)
+I_MNR	Dünge tierischer Herkunft (Tonnen Nährstoff)
+I_MNR_PRD	Dünge Produktion Vieh ingesamt (Tonnen Nährstoff)
+I_MNR_PCT	Dünge Produktion Rinder (Tonnen Nährstoff)
+I_MNR_PPG	Dünge Produktion Schweine (Tonnen Nährstoff)
+I_MNR_PSP	Dünge Produktion Schafe und Ziegen (Tonnen Nährstoff)
+I_MNR_PPL	Dünge Produktion Geflügel (Tonnen Nährstoff)
+I_MNR_POTH	Dünge Produktion sonstige Tiere (Tonnen Nährstoff)
+I_MNR_WDR	Entnahme Dünge tierischer Herkunft (Tonnen Nährstoff)
+I_MNR_STK	Veränderung der Vorräte (Tonnen Nährstoff)
+I_MNR_IMP	Import Dünge tierischer Herkunft (Tonnen Nährstoff)
+I_OTH	Sonstige Nährstoff-Einträgen (Tonnen Nährstoff)
+I_OTH_BIO	Sonstige Nährstoff-Einträgen: Biologische Stikstofffixierung (Tonnen Nährstoff)
+I_OTH_DEP	Sonstige Nährstoff-Einträgen: Atmosphärische Deposition (Tonnen Nährstoff)
+I_OTH_SEED	Sonstige Nährstoff-Einträgen: Saat- und Pflanzgut (Tonnen Nährstoff)
+OUT_NT	Nährstoff-Austrägen (Tonnen Nährstoff)
+O_CRP	Entzug Nährstoff durch die Ernte von Kulturpflanzen (Tonnen Nährstoff)
+O_CRP_CER	Entzug Nährstoff durch die Ernte von Getreide (Tonnen Nährstoff)
+O_CRP_PUL	Entzug Nährstoff durch die Ernte von Hülsenfrüchte (Tonnen Nährstoff)
+O_CRP_ROO	Entzug Nährstoff durch die Ernte von Hackfrüchte (Tonnen Nährstoff)
+O_CRP_IND	Entzug Nährstoff durch die Ernte von Handelsgewächse (Tonnen Nährstoff)
+O_CRP_VEG	Entzug Nährstoff durch die Ernte von Frischgemüse (Tonnen Nährstoff)
+O_CRP_FRU	Entzug Nährstoff durch die Ernte von Obst (Tonnen Nährstoff)
+O_CRP_ORN	Entzug Nährstoff durch die Ernte von Zierpflanzen (Tonnen Nährstoff)
+O_CRP_OTH	Entzug Nährstoff durch die Ernte von sonstige Pflanzen (Tonnen Nährstoff)
+O_FOD	Entzug Nährstoff durch die Ernte von Futterpflanzen und Beweidung (Tonnen Nährstoff)
+O_FOD_GN	Entzug Nährstoff durch die Ernte von Feldfutterbau (Tonnen Nährstoff)
+O_FOD_GR	Entzug Nährstoff durch die Ernte und Beweidung Grünland  (Tonnen Nährstoff)
+O_FOD_TGR	Entzug Nährstoff durch die Ernte und Beweidung Ackerwiesen -und Weiden (Tonnen Nährstoff)
+O_FOD_PGR	Entzug Nährstoff durch die Ernte und Beweidung Dauerngrünland (Tonnen Nährstoff)
+O_RES	Entzug Nährstoff durch Entfernung Ernterückstände vom Feld (Tonnen Nährstoff)
+AREA	Gesamt Fläche (Ackerfläche, Dauerkulturen, Dauergrünland) (1000 ha)

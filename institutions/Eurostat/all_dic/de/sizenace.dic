@@ -1,0 +1,40 @@
+10_DFGHIKO	Alle, ohne Bankensektor (10 beschäftigte Personen oder mehr)
+10_DGHIK	Alle, zwecks Vergleichbarkeit mit 2002 (10 beschäftigte Personen oder mehr)
+S_DFGHIKO	Kleinunternehmen (10-49 beschäftigte Personen), ohne Bankensektor
+M_DFGHIKO	Mittlere Unternehmen (50-249 beschäftigte Personen), ohne Bankensektor
+SM_DFGHIKO	KMU (10-249 beschäftigte Personen)
+L_DFGHIKO	Große Unternehmen (250 beschäftigte Personen oder mehr), ohne Bankensektor
+VS_DFGHIKO	Sehr kleine Unternehmen, ohne Finanzsektor (1-9 Beschäftigte)
+MI_DFGHIKO	Mini enterprises (5-9 employed persons)
+MC_DFGHIKO	Micro enterprises (1-4 employed persons)
+SME_O1	Ziel-1-KMU
+SME_NO1	Nicht-Ziel-1-KMU
+10_BB	Alle Unternehmen (10 beschäftige Personen oder mehr) ohne Bankensektor, die Breitbandanschlüsse nutzen
+10_NBB	Alle Unternehmen (10 beschäftige Personen oder mehr) ohne Bankensektor, die einen Internet-Zugang haben aber keinen Breitbandanschluss nutzen
+10_D	Verarbeitendes Gewerbe (10 beschäftigte Personen oder mehr)
+10_DA15_TO_DE22	Ernährungsgewerbe, Tabakverarbeitung, Textilgewerbe, Bekleidungsgewerbe, Ledergewerbe, Holzgewerbe, Papiergewerbe,  Verlagsgewerbe, Druckgewerbe, Vervielfältigung von bespielten Ton-, Bild- und Datenträgern (10 beschäftigte Personen oder mehr)
+DE22	Verlagsgewerbe, Druckgewerbe, Vervielfältigung von bespielten Ton-, Bild- und Datenträgern
+10_DE22	Verlagsgewerbe, Druckgewerbe, Vervielfältigung von bespielten Ton-, Bild- und Datenträgern (10 beschäftigte Personen oder mehr)
+10_DF23_DG24_DH25	Kokerei, Mineralölverarbeitung, Herstellung und Verarbeitung von Spalt- und Brutstoffen, Chemische Industrie, Herstellung von Gummi- und Kunststoffwaren (10 beschäftigte Personen oder mehr)
+10_DI26_DJ27_DJ28	Glasgewerbe, Keramik, Verarbeitung von Steinen und Erden, Metallerzeugung und -bearbeitung, Herstellung von Metallerzeugnissen (10 beschäftigte Personen oder mehr)
+10_DK29_TO_DN37	Maschinenbau, Herstellung von Büromaschinen, Datenverarbeitungsgeräten und -einrichtungen, Elektrotechnik, Feinmechanik und Optik, Fahrzeugbau, Herstellung von Möbeln, Schmuck, Musikinstrumenten, Sportgeräten, Spielwaren und sonstigen Erzeugnissen, Recycling (10 beschäftigte Personen oder mehr)
+10_E	Energie- und Wasserversorgung (10 beschäftigte Personen oder mehr)
+10_F	Baugewerbe (10 beschäftigte Personen oder mehr)
+10_G	Handel (10 beschäftigte Personen oder mehr)
+10_G50	Kraftfahrzeughandel, Instandhaltung und Reparaturen von Kraftfahrzeugen, Tankstellen (10 beschäftigte Personen oder mehr)
+10_G51	Handelsvermittlung und Großhandel (ohne Handel mit Kraftfahrzeugen) (10 beschäftigte Personen oder mehr)
+10_G52	Einzelhandel (ohne Handel mit Kraftfahrzeugen und ohne Tankstellen), Reparatur von Gebrauchsgütern (10 beschäftigte Personen oder mehr)
+10_H	Gastgewerbe 10 beschäftigte Personen oder mehr)
+10_H551_H552	Hotels, Gasthöfe und Pensionen; sonstiges Beherbergungsgewerbe (10 beschäftigte Personen oder mehr)
+10_H553_TO_H555	Restaurants, Cafés, Eisdielen und Imbisshallen (10 beschäftigte Personen oder mehr)
+10_I	Verkehr, Lagerei und Kommunikation (10 beschäftigte Personen oder mehr)
+10_I60_TO_I63	Landverkehr; Transport in Rohrfernleitungen; Schiffahrt; Luftfahrt; Hilfs- und Nebentätigkeiten für den Verkehr; Verkehrsvermittlung  (10 beschäftigte Personen oder mehr)
+10_I64	Nachrichtenübermittlung (10 beschäftigte Personen oder mehr)
+10_K	Grundstücks- und Wohnungswesen, Vermietung beweglicher Sachen, Erbringung von Dienstleistungen überwiegend für Unternehmen (10 beschäftigte Personen oder mehr)
+10_K_NOT_K72	Grundstücks- und Wohnungswesen, Vermietung beweglicher Sachen, Erbringung von Dienstleistungen überwiegend für Unternehmen (ohne Datenverarbeitung und Datenbanken) (10 beschäftigte Personen oder mehr)
+10_K72	Datenverarbeitung und Datenbanken (10 beschäftigte Personen oder mehr)
+10_O921_O922	Erbringung von sonstigen kulturellen und unterhaltenden Leistungen, Korrespondenz- und Nachrichtenbüros sowie selbstständige Journalisten, Bibliotheken, Archive, Museen, botanische und zoologische Gärten, Sport, Erbringung von sonstigen Dienstleistungen für Unterhaltung, Erholung und Freizeit (10 beschäftigte Personen oder mehr)
+10_O923_TO_O927	Film- und Videofilmherstellung, -verleih und -vertrieb, Filmtheater, Hörfunk- und Fernsehanstalten, Herstellung von Hörfunk- und Fernsehprogrammen (10 beschäftigte Personen oder mehr)
+10_O93	Erbringung von sonstigen Dienstleistungen (10 beschäftigte Personen oder mehr)
+10_O_RECRE	Motion picture, video, radio and television activities (10 employed persons or more)
+10_O_OTHER	Other service activities (10 employed persons or more)

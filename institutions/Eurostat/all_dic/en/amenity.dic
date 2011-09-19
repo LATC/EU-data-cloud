@@ -1,0 +1,43 @@
+TOTAL	Total
+KITC	Separate kitchen in the housing unit
+WTR	Piped water in the housing unit
+NWTR	No piped water in the housing unit
+WTR_UNK	Piped water - unknown
+TOIL	Flush toilet in the housing unit
+NTOIL	No flush toilet in the housing unit
+TOIL_UNK	Flush toilet - unknown
+BATH	Fixed bath or shower in the housing unit
+NBATH	No fixed bath or shower in the housing unit
+BATH_UNK	Bath, shower in building - unknown
+HEAT	Central heating
+NHEAT	No central heating
+HEAT_UNK	Central heating - unknown
+KITCHEN	Own separate kitchen and cooking facilities
+WATER_DWEL	Piped water in dwelling
+WATER_BUILD	Piped water in building
+WATER_UNK	Piped water - unknown
+NWATER	No piped water
+BATH_DWEL	Bath, shower in dwelling
+BATH_BUILD	Bath, shower in building
+NBATH_DWEL	No bath or shower in dwelling
+NBATH_BUILD	No bath or shower in building
+TOILET_DWEL	Flush toilet in dwelling
+TOILET_BUILD	Flush toilet in building
+NTOILET	No flush toilet
+TOILET_UNK	Flush toilet - unknown
+HEATING	Central heating
+CHEATING	Central heating
+CHEATING_DWEL	Central heating in dwelling
+NCHEATING	No central heating
+NCHEATING_DWEL	No central heating in dwelling
+SOLID	Solid fuel
+COAL	Coal, coke
+WOOD	Wood
+SOLID_OTH	Other solid fuel
+OIL	Oil
+GAS	Gas
+ELEC	Electricity
+FUEL_OTH	Other fuel
+UNK	Unknown
+OTH	Other
+OTHER	Other

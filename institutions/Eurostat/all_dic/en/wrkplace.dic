@@ -1,0 +1,34 @@
+TOTAL	Total
+NATFIX	With a fixed place of work within the parent country
+NUTS5	Working in the same NUTS 5 level as place of residence
+NUTS4	Working in the same NUTS 4 level
+NUTS3	Working in the same NUTS 3 level
+NUTS2	Working in the same NUTS 2 level
+NUTS1	Working in the same NUTS 1 level
+NAT	Working in the parent country
+FORFIX	With a fixed place of work outside the parent country
+EU15	European Union (15 countries)
+AT	Austria
+BE	Belgium
+DK	Denmark
+DE	Germany (including ex-GDR from 1991)
+FI	Finland
+FR	France
+GR	Greece
+IE	Ireland
+IT	Italy
+LU	Luxembourg (Grand-Duché)
+NL	Netherlands
+PT	Portugal
+ES	Spain
+SE	Sweden
+UK	United Kingdom
+EFTA	European Free Trade Association (CH, IS, LI, NO)
+IS	Iceland
+LI	Liechtenstein
+NO	Norway
+CH	Switzerland
+EUR_REM	Remainder of Europe (CY, MT, TR, AD, MC, SM, VA)
+EU15_FOR	Outside European Union (15 countries)
+NOFIX	With no fixed place of work
+UNK	Unknown

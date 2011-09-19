@@ -1,0 +1,40 @@
+10_DFGHIKO	Tout, sauf le secteur financier (10 personnes employées ou plus)
+10_DGHIK	Tout, à des fins de comparabilité avec 2002 (10 personnes employées ou plus)
+S_DFGHIKO	Petites entreprises (10-49 personnes employées), sauf secteur financier
+M_DFGHIKO	Moyennes entreprises (50-249 personnes employées), sauf secteur financier
+SM_DFGHIKO	PMEs (10-249 personnes employées)
+L_DFGHIKO	Grandes entreprises (250 personnes employées ou plus), sauf secteur financier
+VS_DFGHIKO	Très petites entreprises (1-9 personnes employées), sauf secteur financier
+MI_DFGHIKO	Mini enterprises (5-9 personnes employées)
+MC_DFGHIKO	Micro enterprises (1-4 personnes employées)
+SME_O1	PME de l'objectif 1
+SME_NO1	PME hors objectif 1
+10_BB	Entreprises, sauf secteur financier (10 personnes employées ou plus), qui utilisent une connexion à large bande
+10_NBB	ENtreprises, sauf secteur financier (10 personnes employées ou plus), qui ont un accès Internet mais n'utilisent pas de connexion à large bande
+10_D	Industrie manufacturière (personnes employées ou plus)
+10_DA15_TO_DE22	Industries agricoles et alimentaires; industrie textile et habillement; industrie du cuir et de la chaussure; travail du bois et fabrication d'articles en bois, industrie du papier et du carton; édition et imprimerie; édition, imprimerie, reproduction (10 personnes employées ou plus)
+DE22	Edition, imprimerie, reproduction
+10_DE22	Edition, imprimerie, reproduction (10 personnes employées ou plus)
+10_DF23_DG24_DH25	Cokéfaction, raffinage, industries nucléaires; industrie chimique; industrie du caoutchouc et des plastiques (10 personnes employées ou plus)
+10_DI26_DJ27_DJ28	Fabrication d'autres produits minéraux non métalliques; métallurgie et travail des métaux; travail des métaux (10 personnes employées ou plus)
+10_DK29_TO_DN37	Fabrication de machines et équipements; fabrication d'équipements électriques et électroniques; fabrication de matériel de transport; autres industries manufacturières (10 personnes employées ou plus)
+10_E	Production et distribution d'électricité, de gaz et d'eau (10 personnes employées ou plus)
+10_F	Construction (10 personnes employées ou plus)
+10_G	Commerce; réparations automobile et d'articles domestiques (10 personnes employées ou plus)
+10_G50	Commerce et réparation automobile (10 personnes employées ou plus)
+10_G51	Commerce de gros et intermédiaires du commerce (10 personnes employées ou plus)
+10_G52	Commerce de détail et réparation d'articles domestiques (10 personnes employées ou plus)
+10_H	Hôtels et restaurants (10 personnes employées ou plus)
+10_H551_H552	Hôtels; autres moyens d'hébergement de courte durée  (10 personnes employées ou plus)
+10_H553_TO_H555	Restaurants; cafés; cantines et traiteurs (10 personnes employées ou plus)
+10_I	Transports et communications (10 personnes employées ou plus)
+10_I60_TO_I63	Transports terrestres; transports par eau; transports aériens; services auxiliaires des transports (10 personnes employées ou plus)
+10_I64	Postes et télécommunications (10 personnes employées ou plus)
+10_K	Immobilier, location et services aux entreprises (10 personnes employées ou plus)
+10_K_NOT_K72	Immobilier, location et services aux entreprises sauf activités informatiques (10 personnes employées ou plus)
+10_K72	Activités informatiques (10 personnes employées ou plus)
+10_O921_O922	Autres activités de spectacle; agences de presse; autres activités culturelles; activités liées au sport; activités récréatives (10 personnes employées ou plus)
+10_O923_TO_O927	Activités cinématographiques et vidéo; activités de radio et de télévision (10 personnes employées ou plus)
+10_O93	Services personnels (10 personnes employées ou plus)
+10_O_RECRE	Motion picture, video, radio and television activities (10 employed persons or more)
+10_O_OTHER	Other service activities (10 employed persons or more)

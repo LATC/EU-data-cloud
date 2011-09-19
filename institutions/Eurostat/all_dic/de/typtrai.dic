@@ -1,0 +1,26 @@
+ATT	Jede Art von Berufsausbildung
+CVT	Berufliche Weiterbildungkurse (BW) in Unternehmen
+ATOF	Jede Art von anderer beruflicher Weiterbildung (BW) 
+NOT	Ohne Berufsausbildung
+TOTAL	Insgesamt (Irgendeine Art Berufsausbildung und ohne Berufsausbildung)
+GEN	Allgemeine Berufsausbildung
+SPE	Spezialausbildung
+INT_COU	Interner Kursus
+EXT_COU	Externer Kursus
+WS	Berufliche Weiterbildung in der Arbeitssituation
+JROT	Job Rotation, Arbeitsplatztausch oder Abordnung
+LQUC	Lernen/Qualitätszirkel
+SLEAR	Selbststudium
+CONF	Weiterbildung im Rahmen von Konferenzen, Workshops, Vorträgen und Seminaren
+FED_NFE	Formale und nicht-formale Aus- /Weiterbildung
+NO_FED_NFE	Nichtteilnahme in formaler und nicht-formaler Aus- /Weiterbildung
+FED	Formale Aus- /Weiterbildung
+NO_FED	Nichtteilnahme in formaler Aus- /Weiterbildung
+JOB_FED	Berufliche formale Aus- /Weiterbildung
+NFE	Nicht-formale Aus- /Weiterbildung
+JOB_NFE	Berufliche nicht-formale Aus- /Weiterbildung
+NJOB_NFE_ONLY	Nur nicht-berufliche nicht-formale Aus-/Weiterbildung
+INF	Informelle Lernaktivitäten
+INFONLY	Nur Informelle Lernaktivitäten
+NOLEAR	Keine Schülern
+NRESP	Keine Antwort

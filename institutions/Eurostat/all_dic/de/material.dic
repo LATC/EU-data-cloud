@@ -1,0 +1,75 @@
+TOTAL	Summe
+MF1	Biomasse
+MF11	Erzeugnisse pflanzlichen Ursprungs (außer Futterpflanzen)
+MF111	Getreide 
+MF112	Wurzeln, Knollen
+MF113	Zuckerpflanzen
+MF114	Hülsenfrüchte
+MF115	Nüsse
+MF116	Ölhaltige Früchte
+MF117	Gemüse
+MF118	Obst
+MF119	Fasern 
+MF1110	Sonstige Erzeugnisse pflanzlichen Ursprungs a.n.g.
+MF12	Pflanzenrückstände (verwendet), Futterpflanzen und geweidete Biomasse
+MF121	Pflanzenrückstände (verwendet)
+MF1211	Stroh
+MF1212	Sonstige Pflanzenrückstände (Zucker- und Futterrübenblätter, Sonstige)
+MF122	Futterpflanzen und geweidete Biomasse
+MF1221	Futterpflanzen (darunter aus Weiden anfallende Biomasse)
+MF1222	Geweidete Biomasse
+MF13	Holz
+MF131	Bauholz (Industrierundholz)
+MF132	Brennholz und sonstige Gewinnung 
+MF13M	Nettowachstum Holzbestand
+MF14	Wildfischfang, Wasserpflanzen und -tiere, Jagen und Sammeln 
+MF141	Wildfischfang
+MF142	Alle sonstigen Wassertiere und -pflanzen
+MF143	Jagen und Sammeln
+MF15	Lebende Tiere außer 1.4 und Tierprodukte
+MF151	Lebende Tiere außer 1.4 
+MF152	Fleisch und Fleischzubereitungen
+MF153	Milch und Milcherzeugnisse, Vogeleier und Honig
+MF154	Sonstige Tierprodukte (Fasern tierischen Ursprungs, Tierhäute und –felle, Leder usw.) 
+MF16	Produkte vorwiegend aus Biomasse 
+MF2	Erze (Roherze)
+MF21	Eisen
+MF22	NE-Metalle
+MF221	Kupfer
+MF222	Nickel
+MF223	Blei
+MF224	Zink
+MF225	Zinn
+MF226	Gold, Silber, Platin und sonstige Edelmetalle 
+MF227	Bauxit und sonstiges Aluminium 
+MF228	Uran und Thorium 
+MF229	Sonstige a.n.g.
+MF23	Produkte überwiegend von Metal
+MF3	Nichtmetallische Mineralstoffe
+MF31	Marmor, Granit, Sandstein, Porphyr, Basalt, sonstige Naturwerksteine und Natursteine (außer Tonschiefer)
+MF32	Kreide und Dolomit
+MF33	Tonschiefer
+MF34	Chemische und Düngemittelminerale
+MF35	Salz
+MF36	Kalk- und Gipsstein
+MF37	Ton und Kaolin
+MF38	Sand und Kies
+MF39	Sonstige a.n.g.
+MF310	Ausgehobenes Erdmaterial (darunter Ackerboden), nur wenn verwendet
+MF311	Produkte überwiegend aus nichtmetallischen Mineralstoffen 
+MF4	Fossile Energiematerialien/-träger
+MF41	Kohle und sonstige feste Energiematerialien/-träger
+MF411	Braunkohle
+MF412	Steinkohle
+MF413	Ölhaltige Schiefer und Sande 
+MF414	Torf
+MF42	Flüssige und gasförmige Energiematerialien/-träger
+MF421	Erdöl, Erdgaskondensate und Flüssigerdgas
+MF422	Erdgas
+MF423	Hochseebunkerungen (Importe: der im Inland ansässigen Produktionseinheiten in der übrigen Welt) (Exporte: der nicht ansässigen Produktionseinheiten im Inland)
+MF4231	Treibstoff für Landverkehr
+MF4232	Treibstoff für Schiffsverkehr
+MF4233	Treibstoff für Luftverkehr
+MF43	Produkte überwiegend von fossilen energie
+MF5	Sonstige Produkte
+MF6	Abfallstoffe für Endbehandlung und Endlagerung

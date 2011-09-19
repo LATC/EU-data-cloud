@@ -1,0 +1,29 @@
+TOTAL	Total
+ME_LT1	Moins de 1 million d'euros
+ME_LE1	1 million d'euros ou moins
+ME1	1 million d'euros
+ME_GT1	Plus de 1 million d'euros
+ME2-4	De 2 à 4 millions d'euros
+ME_LT5	Moins de 5 millions d'euros
+ME5-9	De 5 à 9 millions d'euros
+ME5-50	De 5 à 50 millions d'euros
+ME10-19	De 10 à 19 millions d'euros
+ME20-49	De 20 à 49 millions d'euros
+ME_LT50	Moins de 50 millions d'euros
+ME50-199	De 50 à 199 millions d'euros
+ME50-500	De 50 à 500 millions d'euros
+ME51-250	De 51 à 250 millions d'euros
+ME_LT100	Moins de 100 millions d'euros
+ME100-999	De 100 à 999 millions d'euros
+ME_GE200	200 millions d'euros ou plus
+ME251-500	De 251 à 500 millions d'euros
+ME501-1000	De 501 à 1 000 millions d'euros
+ME1000-9999	De 1 000 à 9 999 millions d'euros
+ME_GT1000	Plus de 1 000 millions d'euros
+ME501-2500	De 501 à 2 500 millions d'euros
+ME2501-5000	De 2 501 à 5 000 millions d'euros
+ME_GT5000	Plus de 5 000 millions d'euros
+ME5001-10000	De 5 001 à 10 000 millions d'euros
+ME10000-99999	De 10 000 à 99 999 millions d'euros
+ME_GT10000	Plus de 10 000 millions d'euros
+ME_GT99999	Plus de 99 999 millions d'euros

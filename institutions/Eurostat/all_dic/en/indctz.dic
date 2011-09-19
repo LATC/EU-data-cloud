@@ -1,0 +1,12 @@
+TOTAL	Total
+NAT	Nationals
+FOR	Foreigners - Total
+CTZ_SAM	Private households with all the members of the same citizenship
+LIVIN	Living in the parent country
+EU15_FOR	EU Foreigners (EU-15)
+EU15_FOR_OTH	Other foreigners (EU15)
+CTZ_DIF	Private households with the members of different citizenship
+PCTZ	At least one member with parent country citizenship
+NCTZ	Members of different nationalities with no member with citizenship of parent country
+OTHER	Other
+UNK	Unknown

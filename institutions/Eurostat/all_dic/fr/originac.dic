@@ -1,0 +1,8 @@
+TOTAL	Total
+COLLIS	Collisions (à l'exception des accidents survenant à un  passage à niveau)
+DERAILMT	Déraillements
+ACC_LCRO	Accidents survenant à un passage à niveau
+ACC_PERS	Accidents impliquant des personnes et provoqués par du matériel roulant en mouvement
+ACC_FIRE	Incendies dans le matériel roulant
+OTHER	Autres
+UNK	Inconnu

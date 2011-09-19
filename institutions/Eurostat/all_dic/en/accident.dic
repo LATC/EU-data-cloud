@@ -1,0 +1,14 @@
+TOTAL	Total
+COLLIS	Collisions (excluding level-crossing accidents)
+DERAIL	Derailments
+DGD	Accidents involving transport of dangerous goods
+NDGD	Accidents not involving transport of dangerous goods
+DGD_RL	Accidents in which dangerous goods are released
+DGD_NRL	Accidents in which dangerous goods are not released
+LVLCROS	Accidents involving level-crossings
+RSTK_MOT	Accidents to persons caused by rolling stock in motion
+RD_TRF	Road traffic
+HOM_SCH	Accident at home / school / leisure
+RSTK_FIRE	Fire in rolling stock
+OTH	Others
+UNK	Unknown

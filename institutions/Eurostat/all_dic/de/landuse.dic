@@ -1,0 +1,99 @@
+TOTAL	Gesamtfläche
+AGRIAREA	Landwirtschaftlich genutzte Fläche
+ARABLAND	Ackerland
+FOREST	Forstfläche
+GARDEN	Hausgärten
+GRASLAND	Dauergrünland
+GREENFOD	Feldrauhfutteranbau
+FALLOW	Brache
+OLIVEPL	Olivenanlagen
+PERMCROP	Dauerkulturen
+VINEYARD	Rebflächen
+L0000	Gebiet - Insgesamt
+L0001	Ackerfläche
+L0002	Dauergrünland
+L0003	Dauerkulturen
+L0004	Hausgärten
+L0005	Landwirtschaftlich genutzte Fläche (LF)
+L0006	Forstfläche
+L0007	Übrige Flächen
+L0008	Landfläche - Insgesamt
+L0009	Binnengewässer
+L0016	Waldfläche
+L0010	Sonstige Forstfläche
+L0900	Kulturen im Treibhaus
+L1112	Frischgemüse unter Glas
+L1113	Blumen und Zierpflanzen unter Glas
+L1114	Dauerkulturen unter Glas
+L1050	Getreide ohne Reis
+L1250	Reis
+L1300	Hülsenfrüchte
+L1350	Hackfrüchte
+L1400	Handelsgewächse
+L1600	Gemüse
+L2002	Frischobst (einschließlich Wein und Oliven)
+L2410	Rebflächen
+L2450	Oliven
+L2610	Feldfutteranbau
+L2695	Übrige Felderzeugnisse a.n.g.
+L2696	Gründüngung und Brache
+L2810	Baumschulen (einschließlich Rebstockanpflanzungen)
+L2960	Flechtgewächse (Korbweiden, Bambus, Binse, Stuhlrohr, Kanadapappel)
+L2980	Sonstige Dauerkulturen
+L3001	Blumen und Zierpflanzen (einschließlich Pflanzgut)
+L3310	Saatgut (Gemüse- und Futtersaatgut, Hackfrüchte und Handelsgewächse außer Ölsaaten)
+LUA	LANDWIRTSCHAFT
+LUA1	LANDWIRTSCHAFT
+LUA11	Landwirtschaft (ohne Brachland, Hausgärten und Flächen für den Eigenverbrauch)
+LUA12	Brachland und stillgelegte landwirtschaftliche Flächen
+LUA13	Hausgärten
+LUB	FORSTWIRTSCHAFT
+LUB1	FORSTWIRTSCHAFT
+LUB10	Forstwirtschaft
+LUC	JAGD UND FISCHEREI
+LUC1	FISCHEREI
+LUC10	Fischerei
+LUC2	JAGD
+LUC20	Jagd
+LUD	STARKE UMWELTAUSWIRKUNGEN
+LUD1	BERGBAU, GEWINNUNG VON STEINEN UND ERDEN
+LUD10	Bergbau, Gewinnung von Steinen und Erden
+LUD2	ENERGIEERZEUGUNG
+LUD20	Energieerzeugung
+LUD3	VERARBEITENDES GEWERBE
+LUD31	Herstellung von Nahrungs- und Genussmitteln, Tabakverarbeitung
+LUD32	Herstellung von Textilwaren
+LUD33	Kohle-, Öl- und Metallverarbeitung
+LUD34	Herstellung von nichtmetallischen Mineralerzeugnissen
+LUD35	Chemische Industrie und verwandtes Gewerbe
+LUD36	Maschinenbau
+LUD37	Herstellung von Holzwaren
+LUD4	WASSER- UND ABFALLWIRTSCHAFT
+LUD41	Wasserversorgung und -aufbereitung
+LUD42	Abfallwirtschaft
+LUD5	BAUGEWERBE
+LUD51	Baugewerbe
+LUD6	VERKEHR, NACHRICHTENÜBERMITTLUNG, LAGERUNG, SCHUTZBAUTEN
+LUD61	Eisenbahnverkehr
+LUD62	Straßenverkehr
+LUD63	Schifffahrt
+LUD64	Luftverkehr
+LUD65	Rohrfernleitungen
+LUD66	Nachrichtenübermittlung
+LUD67	Lagerung
+LUD68	Schutzbauten
+LUE	DIENSTLEISTUNGEN UND WOHNGEBIETE
+LUE1	HANDEL, FINANZEN, WIRTSCHAFT
+LUE10	Handel, Finanzen, Wirtschaft
+LUE2	KOMMUNALE DIENSTLEISTUNGEN
+LUE20	Kommunale Dienstleistungen
+LUE3	 ERHOLUNG, FREIZEIT, SPORT
+LUE31	Museen, Freizeiteinrichtungen
+LUE32	Sport
+LUE33	Ferienanlagen
+LUE34	Naturschutzgebiete
+LUE4	WOHNGEBIETE
+LUE40	Wohngebiete
+LUF	OFFENSICHTLICH UNGENUTZT
+LUF1	OFFENSICHTLICH UNGENUTZT
+LUF10	Offensichtlich Ungenutzt

@@ -1,0 +1,75 @@
+TOTAL	Abfallbehandlung insgesamt
+GEN	Erzeugter Abfall
+MKT	Auf den Markt gebrachte Produkte
+COL	Gesammelter Abfall
+COL_HH	Von Haushalten gesammelter Abfall
+COL_OTH	Von anderen Erzeugern gesammelter Abfall
+TRT	Gesamte Abfallbehandlung
+TRT_NAT	Im Mitgliedstaat behandelt
+TRT_OEU	In einem anderen Mitgliedsstaat der EU behandelt
+TRT_NEU	Ausserhalb der EU behandelt
+RCV_REU	Gesamte Verwertung und Wiederverwendung
+REU	Wiederverwendung
+RCV	Verwertung
+RCV_E	Energetische Verwertung
+RCV_NE	Verwertung außer energetische Verwertung
+RCV_B	Verwertung außer energetische Verwertung - Verfüllung
+RCV_O	Verwertung außer energetische Verwertung - ohne Verfüllung
+RCV_I	Verbrennung mit energetischer Verwertung in Abfallverbrennungsanlagen
+RCY_REU	Gesamtes Recycling und Wiederverwendung
+RCY	Recycling
+RCY_M	Werkstoffliches Recycling
+RCY_O	Andere Formen des Recyclings, einschließlich Kompostierung
+RCY_OTH	Andere Formen von Recycling
+RCY_MAT	Recycling von Materialien
+RCV_NRG	Energetische Verwertung
+RCV_OTH	Andere Formen der Verwertung
+RCV_INC	Verwertung inklusive Verbrennung
+INC_RCV	Gesamte Verbrennung (einschließlich energetische Verwertung)
+INC	Verbrennung ohne energetische Verwertung
+DSP	Beseitigung
+DEP	Lagerung im oder auf dem Boden
+LND	Behandlung im Boden und Einleitung in Gewässer
+DSP_D	Ablagerung in oder auf dem Boden
+DSP_DH	Deponien für gefährliche Abfälle
+DSP_DNH	Deponien für nicht gefährliche Abfälle
+DSP_DI	Deponien für Inertabfälle
+DSP_O	Behandlung im Boden und Einleitung in Gewässer
+RCV_RT	Verwertungsquote
+RCY_RT	Recyclingquote
+TRT_IMP	Zur Behandlung/Entsorgung importierte Abfälle
+TRT_EXP	Zur Behandlung/Entsorgung exportierte Abfälle
+TRT_PL	Aufbereitungsanlage
+C_DSP_D	Kontrollierte Deponien
+C_DSP_O	Kontrollierte Ablagerung auf oder unterhalb der Erdoberfläche
+CMP	Kompostierung
+D1	Deposit into or onto land, (e.g., landfill, etc.)
+D2	Land treatment, (e.g., biodegradation of liquid or sludgy discards in soils, etc.)
+D3	Deep injection, (e.g., injection of pumpable discards into wells, salt domes of naturally occurring repositories, etc.)
+D4	Surface impoundment, (e.g., placement of liquid or sludge discards into pits, ponds or lagoons, etc.)
+D5	Specially engineered landfill, (e.g., placement into lined discrete cells which are capped and isolated from one another and the environment, etc.)
+D6	Release into a water body except seas/oceans
+D7	Release into seas/oceans including sea-bed insertion
+D8	Biological treatment not specified elsewhere in the Basel Convention (annex IV) which results in final compounds or mixtures which are discarded by means of any of the operations in Section A
+D9	Physico chemical treatment not specified elsewhere in the Basel Convention (annex IV) which results in final compounds or mixtures which are discarded by means of any of the operations in Section A, (e.g., evaporation, drying, calcination, neutralization, precipitation, etc.)
+D10	Incineration on land
+D11	Incineration at sea
+D12	Permanent storage (e.g., emplacement of containers in a mine, etc.)
+D13	Blending or mixing prior to submission to any of the operations in the Basel Convention (annex IV, section A)
+D14	Repackaging prior to submission to any of the operations in the Basel Convention (annex IV, section A)
+D15	Storage pending any of the operations in the Basel Convention (annex IV, section A)
+R1	Use as a fuel (other than in direct incineration) or other means to generate energy
+R2	Solvent reclamation/regeneration
+R3	Recycling/reclamation of organic substances which are not used as solvents
+R4	Recycling/reclamation of metals and metal compounds
+R5	Recycling/reclamation of other inorganic materials
+R6	Regeneration of acids or bases
+R7	Recovery of components used for pollution abatement
+R8	Recovery of components from catalysts
+R9	Used oil re-refining or other reuses of previously used oil
+R10	Land treatment resulting in benefit to agriculture or ecological improvement
+R11	Uses of residual materials obtained from any of the operations numbered R1-R10
+R12	Exchange of wastes for submission to any of the operations numbered R1-R11
+R13	Accumulation of material intended for any operation in the Basel Convention (annex IV, section B)
+RD_NAL	Abfallbehandlung, keinem R- oder D-Posten zugeordnet
+NSP	Nicht angegeben

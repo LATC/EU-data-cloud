@@ -1,0 +1,60 @@
+00	Bruttoinlandsprodukt
+A01	Tatsächlicher Individualverbrauch
+A0101	Nahrungsmittel und alkoholfreie Getränke
+A010101	Nahrungsmittel
+A01010101	Brot und Mehlwaren
+A01010102	Fleisch
+A01010103	Fisch
+A01010104	Milch, Käse, Eier
+A01010105	Speisefette und Öle
+A01010106	Obst, Gemüse, Kartoffeln
+A01010199	Sonstige Nahrungsmittel
+A010102	Alkoholfreie Getränke
+A0102	Alkoholische Getränke, Tabakwaren und Narkotika
+A010201	Alkoholische Getränke
+A010202	Tabakwaren
+A0103	Bekleidung und Schuhe
+A010301	Bekleidung
+A010302	Schuhe
+A0104	Wohnungswesen, Wasser, Elektrizität, Gas und andere Brennstoffe
+A010405	Strom, Gas und andere Brennstoffe
+A0105	Innenaustattung, Ausrüstungsgegenstände und Haushaltsführung
+A010501	Einrichtungsgegenstände, Teppiche und andere Bodenbeläge
+A010503	Haushaltsgeräte
+A0106	Gesundheitspflege
+A0107	Verkehr
+A010701	Private Verkehrsmittel
+A010703	Verkehrsdienstleistungen
+A0108	Nachrichtenübermittlung
+A0109	Freizeit und Kultur
+A010901	Audiovisuelle, fotografische und Informationsverarbeitungsgeräte und Zubehör
+A0110	Erziehung und Unterricht
+A0111	Gaststätten und Hotels
+A0112	Sonstige Waren und Dienstleistungen
+A04	Tatsächlicher Kollektivverbrauch
+A05	Bruttoanlageinvestitionen
+A0501	Maschinen und Geräte
+A050101	Stahl- und Leichtmetallbau (ohne Elektrotechnik, Feinmechanik und Optik)
+A050102	Elektrotechnik, Feinmechanik und Optik
+A050103	Fahrzeugbau
+A0502	Baugewerbe
+A050201	Wohngebäude
+A050202	Nichtwohngebäude
+A050203	Hoch- und Tiefbau
+A0503	Software
+E01	Konsumausgaben
+E011	Konsumausgaben der privaten Haushalte
+E012	Konsumausgaben des Staates
+E0121	Konsumausgaben des Staates für den Kollektivverbrauch
+E0122	Konsumausgaben des Staates für den Individualverbrauch
+P01	Güter insgesamt
+P0101	Konsumgüter
+P010101	Kurzlebige Konsumgüter
+P010102	Konsumgüter mittlerer Lebensdauer
+P010103	Langlebige Konsumgüter
+P0102	Investitionsgüter
+P02	Dienstleistungen insgesamt
+P0201	Verbraucherdienstleistungen
+P0202	Staatsdienstleistungen
+P020201	Dienstleistungen für den Kollektivverbrauch
+P020202	Dienstleistungen für den Individualverbrauch

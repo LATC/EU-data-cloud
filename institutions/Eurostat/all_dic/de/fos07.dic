@@ -1,0 +1,52 @@
+TOTAL	Insgesamt
+FOS1-4	Naturwissenschaften, Ingenieurwissenschaften und Technologie, Medizinische und Gesundheitswissenschaften, Agrarwissenschaften
+FOS1	Naturwissenschaften
+FOS101	Mathematik
+FOS102	Informatik und Informationswissenschaften
+FOS103	Physik
+FOS104	Chemie
+FOS105	Geologie und zugehörige (Umwelt-)Wissenschaften
+FOS106	Biologie
+FOS107	Andere Naturwissenschaften
+FOS2	Ingenieurwissenschaften und Technologie
+FOS201	Bauingenieurwesen
+FOS202	Elektrotechnik, Elektronik, Informationstechnik
+FOS203	Maschinenbau
+FOS204	Chemische Verfahrenstechnik
+FOS205	Werkstofftechnik
+FOS206	Medizintechnik
+FOS207	Umwelttechnik
+FOS208	Umweltbiotechnologie
+FOS209	Industrielle Biotechnologie
+FOS210	Nanotechnologie
+FOS211	Andere Ingenieurfächer und Technologien
+FOS3	Medizinische und Gesundheitswissenschaften
+FOS301	Grundlagenmedizin
+FOS302	Klinische Medizin
+FOS303	Gesundheitswissenschaften
+FOS304	Biotechnologie im Bereich Gesundheit
+FOS305	Andere medizinische Wissenschaften
+FOS4	Agrarwissenschaften
+FOS401	Land- und Forstwirtschaft, Fischerei
+FOS402	Tierzuchtlehre sowie Milch- und Molkereiwissenschaft
+FOS403	Veterinärmedizin
+FOS404	Agrarbiotechnologie
+FOS405	Andere Agrarwissenschaften
+FOS5_6	Sozialwissenschaften und Geisteswissenschaften
+FOS5	Sozialwissenschaften
+FOS501	Psychologie
+FOS502	Volkswirtschafts- und Betriebswirtschaftslehre
+FOS503	Erziehungswissenschaften
+FOS504	Soziologie
+FOS505	Rechtswissenschaften
+FOS506	Politikwissenschaften
+FOS507	Sozial- und Wirtschaftsgeographie
+FOS508	Medien und Kommunikation
+FOS509	Andere Sozialwissenschaften
+FOS6	Geisteswissenschaften
+FOS601	Geschichte und Archäologie
+FOS602	Sprachen und Literatur
+FOS603	Philosophie, Ethik und Religion
+FOS604	Kunst (bildende Kunst, Kunstgeschichte, darstellende Kunst, Musik)
+FOS605	Andere Geisteswissenschaften
+NSP	Nicht angegeben

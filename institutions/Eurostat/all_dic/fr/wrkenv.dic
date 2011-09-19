@@ -1,0 +1,15 @@
+TOTAL	Total
+WEN_00	Pas d’information
+WEN_01	Site industriel - Non précisé
+WEN_02	Chantier, construction, carrière, mine à ciel ouvert - Non précisé
+WEN_03	Lieu pour l'agriculture, l'élevage, la pisciculture, zone forestière - Non précisé
+WEN_04	Lieu d'activité tertiaire, bureau, divertissement, divers - Non précisé
+WEN_05	Établissement de soins - Non précisé
+WEN_06	Lieu public - Non précisé
+WEN_07	Domicile - Non précisé
+WEN_08	Lieu d'activité sportive - Non précisé
+WEN_09	En l'air, en hauteur - à l'exclusion des chantiers - Non précisé
+WEN_10	Sous terre - à l'exclusion des chantiers - Non précisé
+WEN_11	Sur l'eau - à l'exclusion des chantiers - Non précisé
+WEN_12	En milieu hyperbare - à l'exclusion des chantiers - Non précisé
+WEN_99	Autre Type de lieu non listé dans cette classification

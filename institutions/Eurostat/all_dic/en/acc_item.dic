@@ -1,0 +1,38 @@
+19010	Seeds and planting stock
+19011	Seeds and planting stock supplied by other agricultural holdings
+19012	Seeds and planting stock purchased from outside the agricultural 'industry'
+19030	Fertilisers and soil improvers
+19040	Plant protection products, herbicides, insecticides and pesticides
+19060	Feedingstuffs
+19061	Feedingstuffs - feedingstuffs supplied by other agricultural holdings
+19062	Feedingstuffs - feedingstuffs purchased from outside the agricultural 'industry'
+19063	Feedingstuffs - feedingstuffs produced and consumed by the same holding
+19050	Veterinairy expenses
+01000	Cereals (including seeds)
+01110	Soft wheat and spelt
+01120	Durum wheat
+01200	Rye and meslin
+01300	Barley
+01400	Oats and summer cereal mixtures
+01500	Grain maize
+01600	Rice
+01900	Other cereals
+02000	Indistrial crops
+02120	Sunflower
+02130	Soya
+02300	Raw tobacco
+02400	Sugar beet
+02920	Hops
+04100	Fresh vegetables
+06100	Fresh fruit
+06200	Citrus fruits
+06500	Olives
+06510	Table olives
+06590	Other olives
+11000	Animals
+11100	Cattle
+11200	Pigs
+11300	Equines
+11400	Sheep and goats
+11500	Poultry
+11900	Other animals

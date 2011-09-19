@@ -1,0 +1,15 @@
+EXPLOSIF	1. Explosive Stoffe und Gegenstände mit Explosivstoff
+GASES	2. Gase
+FLAM_LIQ	3. Entzündbare flüssige Stoffe
+FLAM_SOL	4.1. Entzündbare feste Stoffe
+SUB_SP_COMB	4.2. Selbstentzündliche Stoffe
+SUB_FLAM_GAS	4.3. Stoffe, die in Berührung mit Wasser entzündliche Gase entwickeln
+OXID_SUB	5.1. Entzündend (oxidierend)wirkende Stoffe
+ORG_PEROX	5.2. Organische Peroxide
+TOXIC_SUB	6.1. Giftige Stoffe
+SUB_INFECT	6.2. Ansteckungsgefährliche Stoffe
+RADIOACT	7. Radioaktive Stoffe
+CORROS	8. Ätzende Stoffe
+DANG_MISC	9. Verschiedene gefährliche Stoffe und Gegenstände
+DANG_GD_UNK	99. Unbekannte Gefahrengüter
+TOT_DANG_GDS	10. Alle Gefahrengüter gesamt

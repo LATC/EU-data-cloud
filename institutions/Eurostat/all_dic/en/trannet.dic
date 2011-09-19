@@ -1,0 +1,7 @@
+CANAL	Navigable canals
+MOTORWAY	Motorways
+RAIL2TR	Length of double or more track railway lines
+RAILELEC	Electrified railway lines
+RIVER	Navigable rivers
+ROAD_OTH	Other roads
+TOT_RAIL	Total length of railway lines

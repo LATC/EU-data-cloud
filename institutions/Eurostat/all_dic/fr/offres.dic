@@ -1,0 +1,18 @@
+TOTRESING	Total des réserves, or y compris
+TOTRESEXG	Total des réserves, or exclus
+GOLD	Or monétaire
+SDRIGHTS	Droits de tirage spéciaux (DTS)
+IMFPOS	Position de réserve au FMI
+FOREX	Réserves en devises
+XEUR	Réserves en devises, dont réserves en euro
+FOREXECU	Réserves en devises, dont réserves en écu
+DEPTOT	Réserves en devises - Monnaie et dépôts - Total
+DEPMA	Réserves en devises - Monnaie et dépôts - avec les autorités monétaires et la Banque des règlements internationaux (BRI)
+DEPBA	Réserves en devises - Monnaie et dépôts - Avec banques
+SECU	Réserves en devises - Titres - Total
+EQUI	Réserves en devises - Titres - Actions
+BNOT	Réserves en devises - Titres - Obligations
+MMI	Réserves en devises - Titres - Instruments du marché monétaire
+FINDERIV	Réserves en devises - Produits financiers dérivés
+OTHCL	Autres créances
+RELAS	Réserves en devises - Note: créances libellées en devises sur les résidents de la zone euro

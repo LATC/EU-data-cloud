@@ -1,0 +1,15 @@
+TOTAL	Unternehmen insgesamt
+INNO	Unternehmen mit Innovationstätigkeiten (Produkt, Prozess, laufend oder aufgegeben, Organisations- und Marketinginnovation)
+INNO_PP	Nur technologische Innovation (Produkt, Prozess, laufend oder aufgegeben)
+INNO_NPP	Nur nicht-technologische Innovation (Organisations- und/oder Marketinginnovation)
+INNO_PPANPP	Technologische und nicht-technologische Innovation
+INNOACT	Unternehmen mit technologischen Innovationstätigkeiten (Produkt, Prozess, laufend oder aufgegeben), unabhängig von Organisations- oder Marketinginnovation 
+PAOP	Marktinnovatoren, Produkt und/oder Prozess
+INPDTONLY	Marktinnovatoren, nur Produkt
+INPCSONLY	Marktinnovatoren, nur Prozess
+PANDP	Marktinnovatoren, Produkt und Prozess
+INONONAB	Etablierte Innovatoren, mit laufenden und/oder aufgegebenen Innovationstätigkeiten
+NON_INNO	Nichtinnovative Unternehmen
+INABA	Vor der Vollendung aufgegebene oder ausgesetzte Innovationstätigkeiten 
+INONG	Innovationstätigkeiten, die Ende 2008 noch liefen
+INABA_ONG	Unternehmen mit laufenden oder aufgegebenen Innovationstätigkeiten

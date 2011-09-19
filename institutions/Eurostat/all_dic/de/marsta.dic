@@ -1,0 +1,19 @@
+TOTAL	Insgesamt
+SIN	Alleinstehende Personen (die nie eine gesetzlich geregelte Partnerschaft eingegangen sind)
+LUN	Personen in gesetzlich geregelten Partnerschaften (Verheiratete oder in geregelten Partnerschaften)
+MAR	Verheiratete Personen
+REP	Personen in geregelten Partnerschaften
+DTHLUN	Personen deren gesetzlich geregelte Partnerschaft durch den Tod des Partners beendet wurde
+WID	Verwitwete Personen
+DTHREP	Personen deren geregelte Partnerschaft durch den Tod des Partners beendet wurde
+DISLUN	Personen deren gesetzlich geregelte Partnerschaft rechtswirksam aufgelöst wurde
+DIV	Geschiedene Personen
+DISREP	Personen deren geregelte Partnerschaft rechtswirksam aufgelöst wurde
+SEP	Rechtswirksam getrennt lebende Personen
+NLUN	Personen weder verheiratet noch in geregelten Partnerschaften
+ENDLUN	Personen deren gesetzlich geregelte Partnerschaft beendet wurde
+NMAR	Nicht verheiratete Personen
+DIV_SEP_WID	Geschiedene oder Getrenntlebende oder Verwitwete
+UNK	Personen deren Familienstand unbekannt ist
+NRP	Keine Antwort
+NRESP	Keine Antwort

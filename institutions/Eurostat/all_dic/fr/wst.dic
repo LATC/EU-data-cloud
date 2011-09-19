@@ -1,0 +1,259 @@
+GE0_1	Déchets dangereux produits (quantité totale)
+GE0_1_1	Déchets dangereux importés
+GE0_1_2	Déchets dangereux exportés
+GE0_1_3	Déchets dangereux à gérer dans le pays
+GE0_2	Déchets dangereux traités et éliminés à l'intérieur du pays
+GE0_3	R1-13 - Déchets dangereux récupérés (quantité totale)
+GE0_3_1	R1 - Déchets dangereux incinérés avec récupération d'énergie
+GE0_3_2	R2-6 - Déchets dangereux recyclés, compostés, etc
+GE0_3_3	R7-11 - Déchets dangereux récupérés par d'autres méthodes
+GE0_3_4	R12-13 - Déchets dangereux soumis à des opérations de préparation avant récupération
+GE0_4	D1-15 - Déchets dangereux éliminés (quantité totale)
+GE0_4_1	D9 - Déchets dangereux soumis à un traitement physico-chimique
+GE0_4_2	D8 - Déchets dangereux soumis à un traitement biologique
+GE0_4_3	D10-11 - Déchets dangereux incinérés sans récupération d'énergie (traitement thermique)
+GE0_4_4	D1-5 - Déchets dangereux mis en décharge et soumis à d'autres modes d'élimination dans ou sur le sol
+GE0_4_5	D6-7 - Déchets dangereux rejetés dans les milieux aquatiques
+GE0_4_6	D12 - Stockage permanent de déchets dangereux
+GE0_4_7	D13-15 - Déchets dangereux soumis à des opérations de préparation préalablement à leur élimination
+GE1_1	Déchets industriels non dangereux produits
+GE1_2	Déchets industriels non dangereux à gérer dans le pays
+GE1_3	Déchets industriels non dangereux destinés aux opérations de traitement et d'élimination dans le pays
+GE1_4	Déchets industriels non dangereux destinés aux opérations de récupération (quantité totale)
+GE1_4_1	Déchets industriels non dangereux recyclés
+GE1_4_2	Déchets industriels non dangereux compostés
+GE1_4_3	Déchets industriels non dangereux incinérés avec récupération d'énergie
+GE1_4_4	Déchets industriels non dangereux récupérés par des méthodes autres que le recyclage, le compostage ou l'incinération avec récupération d'énergie
+GE1_5	Déchets industriels non dangereux destinés à des opérations de traitement final et d'élimination (quantité totale)
+GE1_5_1	Déchets industriels non dangereux destinés au traitement final (quantité totale)
+GE1_5_1_1	Déchets industriels non dangereux incinérés sans récupération d'énergie
+GE1_5_1_2	Déchets industriels non dangereux destinés au traitement final par des méthodes autres que l'incinération, sans récupération d'énergie
+GE1_5_2	Déchets industriels non dangereux destinés à l'élimination finale (quantités totales)
+GE1_5_2_1	Déchets industriels non dangereux mis en décharge
+GE1_5_2_1_1	Déchets industriels non dangereux mis en décharge spécialement aménagée
+GE1_5_2_2	Déchets industriels non dangereux destinés à l'élimination finale par d'autres méthodes que la mise en décharge
+GE1_6	Déchets industriels non dangereux soumis à des opérations de préparation avant toute autre opération de traitement/élimination
+MU1_1	Déchets municipaux produits
+MU1_2	Déchets municipaux collectés (quantité totale)
+MU1_2_0	Déchets municipaux collectés par habitant (kg par habitant)
+MU1_2_1_1	Déchets municipaux collectés par ou pour le compte des municipalités
+MU1_2_1_2	Déchets municipaux collectés par le secteur privé (collecte sélective, essentiellement)
+MU1_2_2	Déchets municipaux collectés par lieu d'origine (quantité totale)
+MU1_2_2_1	Déchets municipaux collectés auprès des ménages, par lieu d'origine
+MU1_2_2_2	Déchets municipaux collectés auprès des commerces, petites entreprises, bureaux et institutions, par lieu d'origine
+MU1_2_2_3	Déchets municipaux collectés auprès des secteurs de l'entretien des voiries et marchés, des espaces verts, poubelles publiques, etc., par lieu d'origine
+MU1_2_3	Déchets municipaux par type de déchets (quantité totale)
+MU1_2_3_1	Déchets municipaux par type de déchets: déchets ménagers et déchets similaires
+MU1_2_3_2	Déchets municipaux par type de déchets: déchets encombrants
+MU1_2_3_3	Déchets municipaux par type de déchets autres que les déchets ménagers et déchets similaires, et que les déchets encombrants
+MU1_2_4	Déchets municipaux par type de collecte (quantité totale)
+MU1_2_4_1	Déchets municipaux collectés de façon traditionnelle
+MU1_2_4_2	Collecte des déchets encombrants
+MU1_2_4_3	Collecte sélective de fractions de déchets municipaux
+MU1_3	Population desservie par un service municipal de collecte des déchets (%)
+MU1_4	Déchets municipaux des zones non desservies par un service municipal de collecte des déchets
+MU2_1	Déchets collectés (quantité totale)
+MU2_1_1	Part des déchets de papiers, cartons et produits en papier (1 000 t)
+MU2_1_2	Part de déchets de textile (1 000t)
+MU2_1_3	Part de déchets de matière plastique (1 000t)
+MU2_1_4	Part de déchets de verre (1 000t)
+MU2_1_5	Part de déchets métalliques (1 000t)
+MU2_1_6	Part de déchets de matières organiques (1 000t)
+MU2_1_6_1	Part de déchets alimentaires et de jardin (1 000t)
+MU2_1_7	Part de déchets encombrants (1 000t)
+MU2_1_8	Proportion de déchets d'autres origines (1 000t)
+MU2_1_9	Part de déchets de papiers, cartons et produits en papier (%)
+MU2_1_10	Part de déchets de textile (%)
+MU2_1_11	Part de déchets de matière plastique (%)
+MU2_1_12	Part de déchets de verre (%)
+MU2_1_13	Part de déchets métalliques (%)
+MU2_1_14	Part de déchets de matières organiques (%)
+MU2_1_15_1	Part de déchets alimentaires et de jardin (%)
+MU2_1_16	Part de déchets encombrants (%)
+MU2_1_17	Autres proportions de déchets (%)
+MU2_2	Déchets issus de la collecte sélective (quantité totale)
+MU2_2_1	Part de déchets de papiers, cartons et produits en papier issue de la collecte sélective
+MU2_2_2	Part de déchets de textiles issue de la collecte sélective
+MU2_2_3	Part de déchets de matières plastiques issue de la collecte sélective
+MU2_2_4	Part de déchets de verre issue de la collecte sélective
+MU2_2_5	Part de déchets métalliques issue de la collecte sélective
+MU2_2_6	Part de déchets de matières organiques issue de la collecte sélective
+MU2_2_6_1	Part de déchets alimentaires et de jardin issue de la collecte sélective
+MU2_2_7	Part de déchets encombrants issue de la collecte sélective
+MU2_2_8	Proportion de déchets d'autres origines issue de la collecte sélective
+RE_1	Déchets produits
+RE_2	Déchets collectés pour recyclage
+RE_3	Importations de déchets pour recyclage
+RE_4	Exportations de déchets pour recyclage
+RE_5	Déchets recyclés dans le pays
+RE_6	Consommation apparente du matériaux correspondant
+RE_7	Bouteilles consignées en circulation
+RE_8	Déchets d'emballage incinérés avec récupération d'énergie
+RE_9	Déchets d'emballage produits (quantité totale)
+SE1_1	Déchets de démolition et de construction
+SE1_1_1	Terre d'excavation (déchets de démolition et de construction)
+SE1_2	Boues de dragage
+SE1_3	Boues de station d'épuration (poids sec)
+SE1_4	Surplus de fumier (poids sec)
+SE1_5	Véhicules hors d'usage
+SE1_6	Pneus usés
+SE1_7	Déchets d'équipements électriques et électroniques
+SE1_8	Huiles minérales et synthétiques
+SE1_9	Autres flux de déchets sélectionnés
+TR4_1	Déchets municipaux collectés (quantité totale)
+TR4_1_1	Déchets municipaux importés
+TR4_1_2	Déchets municipaux exportés
+TR4_2	Déchets municipaux gérés à l'intérieur du pays
+TR4_3	Déchets municipaux destinés à des opérations de traitement et d'élimination dans le pays
+TR4_4	Déchets municipaux recupérés (quantité totale)
+TR4_4_1	Déchets municipaux recyclés
+TR4_4_2	Déchets municipaux compostés
+TR4_4_3	Déchets municipaux incinérés avec récupération de l'énergie
+TR4_4_3_1	Déchets municipaux incinérés avec récupération de l'énergie, dont résidus d'autres opérations de récupération ou d'élimination
+TR4_4_4	Déchets municipaux récupérés par des méthodes autres que le recyclage, le compostage ou l'incinération avec récupération d'énergie
+TR4_5	Déchets municipaux destinés à des opérations d'élimination (quantité totale)
+TR4_5_1	Déchets municipaux destinés au traitement final (quantité totale)
+TR4_5_1_1	Déchets municipaux incinérés sans récupération d'énergie
+TR4_5_1_1_1	Déchets municipaux incinerés sans récupération d'énergie, dont résidus d'autres opérations que la récupération ou l'élimination
+TR4_5_1_2	Déchets municipaux destinés au traitement final par des méthodes autres que l'incinération sans récupération d'énergie
+TR4_5_2	Déchets municipaux destinés à l'élimination finale (quantité totale)
+TR4_5_2_1	Déchets municipaux mis en décharge (quantité totale)
+TR4_5_2_1_0	5.6.2 Déchets municipaux mis en décharge (kg par habitant)
+TR4_5_2_1_1	Déchets municipaux mis en décharge, dont résidus d'autres opérations de récupération ou d'élimination
+TR4_5_2_1_2	Déchets municipaux mis en décharge contrôlée
+TR4_5_2_2	Déchets municipaux destinés à l'élimination finale par des méthodes autres que la mise en décharge
+TR4_6	Déchets municipaux soumis au tri mécanique avant toute autre opération de traitement/élimination
+TR4_7	Incinération : Total
+TR4_7_0	5.6.3 Déchets Municipaux incinérés (kg par habitant)
+W12_1_1	Déchets provenant de l'agriculture et de la sylviculture
+W12_1_1_1	Déchets dangereux provenant de l'agriculture et de la sylviculture
+W12_1_2	Déchets provenant des mines et carrières
+W12_1_2_1	Déchets dangereux provenant des mines et carrières
+W12_1_3	Déchets provenant de l'industrie manufacturière (quantité totale)
+W12_1_3_1	Déchets dangereux provenant de l'industrie manufacturière (quantité totale)
+W12_1_3_2	Déchets provenant de l'industrie des produits alimentaires, boissons et tabac
+W12_1_3_2_1	Déchets dangereux provenant de l'industrie des produits alimentaires, boissons et tabac
+W12_1_3_3	Déchets des industries du textile et du cuir
+W12_1_3_3_1	Déchets dangereux des industries du textile et du cuir
+W12_1_3_4	Déchets des industries du bois et des produits du bois
+W12_1_3_4_1	Déchets dangereux des industries du bois et des produits du bois
+W12_1_3_5	Déchets des industries du papier et articles en papier
+W12_1_3_5_1	Déchets dangereux des industries du papier et articles en papier
+W12_1_3_6	Déchets de l'imprimerie et de l'édition
+W12_1_3_6_1	Déchets dangereux de l'imprimerie et de l'édition
+W12_1_3_7	Déchets des raffineries de pétrole
+W12_1_3_7_1	Déchets dangereux des raffineries de pétrole
+W12_1_3_8	Déchets de l'industrie chimique
+W12_1_3_8_1	Déchets dangereux de l'industrie chimique
+W12_1_3_9	Déchets de l'industrie du caoutchouc et des matières plastiques
+W12_1_3_9_1	Déchets dangereux de l'industrie du caoutchouc et des matières plastiques
+W12_1_3_10	Déchets de l'industrie des produits minéraux non métalliques
+W12_1_3_10_1	Déchets dangereux de l'industrie des produits minéraux non métalliques
+W12_1_3_11	Déchets de la fabrication de produits métallurgiques de base
+W12_1_3_11_1	Déchets dangereux de la fabrication de produits métallurgiques de base
+W12_1_3_12	Déchets de la fabrication de produits, machines et matériels métalliques
+W12_1_3_12_1	Déchets dangereux de la fabrication de produits, machines et matériels métalliques
+W12_1_3_13	Déchets d'autres industries manufacturières
+W12_1_3_13_1	Déchets dangereux provenant d'autres industries manufacturières
+W12_1_4	Déchets de la production d'énergie
+W12_1_4_1	Déchets dangereux de la production d'énergie
+W12_1_5	Déchets provenant de l'épuration et de la distribution de l'eau
+W12_1_5_1	Déchets dangereux provenant de l'épuration et de la distribution de l'eau
+W12_1_6	Déchets de la construction
+W12_1_6_1	Déchets dangereux de la construction
+W12_1_7	Déchets d'assainissement et d'enlèvement des ordures
+W12_1_7_1	Déchets dangereux d'assainissement et d'enlèvement des ordures
+W12_1_8	Déchets provenant d'autres secteurs économiques
+W12_1_8_1	Déchets dangereux provenant d'autres secteurs économiques
+W12_1_9	Déchets municipaux (quantité totale)
+W12_1_9_0_1	Déchets municipaux dangereux
+W12_1_9_1	Déchets des ménages
+W12_1_9_1_1	Déchets dangereux des ménages
+W12_1	Quantité totale de déchets produits par secteurs (quantité totale de déchets primaires)
+W12_1_0_1	Quantité de déchets dangereux parmi les déchets produits par secteurs (quantité totale de déchets primaires)
+W12_2	Déchets provenant du traitement des déchets (quantité totale de déchets secondaires)
+W12_2_0_1	Déchets dangereux provenant du traitement des déchets (quantité totale de déchets secondaires)
+W12_2_1	Déchets provenant du recyclage des déchets (déchets secondaires)
+W12_2_1_1	Déchets dangereux provenant du recyclage des déchets (déchets secondaires)
+W12_2_2	Déchets provenant de l'assainissement et de l'enlèvement des ordures (déchets secondaires)
+W12_2_2_1	Déchets dangereux provenant de l'assainissement et de l'enlèvement des ordures (déchets secondaires)
+W13_1	Déchets dangereux produits (quantité totale)(1 000 T)
+W13_1_1	Y1 - Déchets cliniques dangereux
+W13_1_2	Y2 - Déchets dangereux issus de la production de produits pharmaceutiques
+W13_1_3	Y3 - Déchets dangereux provenant de médicaments et de produits pharmaceutiques
+W13_1_4	Y4 - Déchets dangereux issus de la production de biocides et de produits phytopharmaceutiques
+W13_1_5	Y5 - Déchets dangereux issus de la fabrication et de l'utilisation de produits de préservation du bois
+W13_1_6	Y6 - Déchets dangereux issus de la production et de l'utilisation de solvants organiques
+W13_1_7	Y7 - Déchets dangereux cyanurés provenant de traitements thermiques et d'opérations de trempe
+W13_1_8	Y8 - Déchets dangereux d'huiles minérales
+W13_1_9	Y9 - Déchets dangereux de mélanges et émulsions d'huiles
+W13_1_10	Y10 - Déchets dangereux contenant des PCBs, et/ou des PCTs, et/ou des PBBs
+W13_1_11	Y11 - Résidus goudronneux dangereux provenant d'opérations de raffinage, de distillation ou de toute opération de pyrolyse
+W13_1_12	Y12 - Déchets dangereux issus de la production et de l'utilisation d'encres, colorants, pigments, peintures, laques ou vernis
+W13_1_13	Y13 - Déchets dangereux issus de la production et de l'utilisation de résines, latex, plastifiants ou de colles et adhésifs
+W13_1_14	Y14 - Déchets chimiques dangereux (non identifiés et/ou nouveaux) issus d'activités de R&D ou d'enseignement
+W13_1_15	Y15 - Déchets dangereux à caractère explosif, non soumis à une autre législation
+W13_1_16	Y16 - Déchets dangereux issus de la production et de l'utilisation de produits chimiques et matériels de traitement photographiques
+W13_1_17	Y17 - Déchets dangereux issus du traitement de surface des métaux et matières plastiques
+W13_1_18	Y18 - Résidus dangereux provenant des opérations d'élimination des déchets industriels
+W13_1_19	Autres déchets dangereux correspondant uniquement à une classification nationale
+W14_1	Papiers et cartons
+W14_2	Verre (non compris les bouteilles consignées en circulation)
+W14_3	Aluminium
+W14_4	Plomb
+W14_5	Autres métaux non-ferreux
+W14_6	Métaux ferreux
+W14_7	Plastiques
+W14_8	Emballages
+W14_8_1	Emballages dont : papiers et cartons
+W14_8_2	Emballages dont : verre (non compris les bouteilles consignées en circulation)
+W14_8_3	Emballages dont : plastiques
+W14_8_4	Emballages dont : métaux
+W14_9	Autres catégories spécifiques de déchets
+W15_1_1	Décharges: nombre
+W15_1_1_1	Décharges contrôlées: nombre
+W15_1_2	Décharges: superficie totale
+W15_1_2_1	Décharges contrôlées: superficie totale
+W15_1_3	Décharges: capacité restante
+W15_1_3_1	Décharges contrôlées: capacité restante
+W15_1_4	Décharges: apport annuel
+W15_1_4_1	Décharges contrôlées: apport annuel
+W15_2_1	Usines d'incinération: nombre
+W15_2_1_1	Usines d'incinération avec récupération d'énergie: nombre
+W15_2_2	Usines d'incinération: capacité
+W15_2_2_1	Usines d'incinération avec récupération d'énergie: capacité
+W15_2_2_2	Usines d'incinération avec récupération d'énergie: énergie produite
+W15_3_1	Centres de traitement: nombre
+W15_3_2	Centres de traitement: capacité
+W15_4_1	Stockage permanent: nombre
+W15_4_2	Stockage permanent: capacité
+W15_5_1	Autres installations de traitement et d'élimination de déchets: nombre
+W15_5_2	Autres installations de traitement et d'élimination de déchets : capacité
+MUC_0	Quantité totale de déchets municipaux collectés par ou pour les municipalités (1 000 t)
+MUC_1	Déchets municipaux collectés provenant des ménages (1 000 t)
+MUC_2	Déchets municipaux collectés provenant d'autres origines que les ménages (1 000 t)
+MUC_3	Population desservie par un service municipal de collecte des déchets (% de la population)
+MU_1	Déchets municipaux incinérés, avec ou sans récupération d'énergie (1 000 t)
+MU_2	Déchets municipaux mis en décharge, y compris les déchets d'incinération (1 000 t)
+MU_3	Déchets municipaux traités ou éliminés autrement que par l'incinération ou la mise en décharge (1 000 t)
+MUTP_0_1	Total des installations de traitement et d'élimination des déchets, nombre
+MUTP_0_2	Total des installations de traitement et d'élimination des déchets, capacité annuelle (1 000 t)
+MUTP_1_1	Décharges, nombre
+MUTP_1_2	Décharges, capacité (1 000 t)
+MUTP_1_3	Décharges, occupation actuelle (1 000 t)
+MUTP_1_4	Décharges non controllées, nombre
+MUTP_1_5	Décharges non controllées, capacité (1 000 t)
+MUTP_2_1	Usines d'incinération, nombre
+MUTP_2_2	Usines d'incinération, capacité (1 000 t)
+MUTP_3_1	Autres installations de traitement et d'élimination de déchets, nombre
+MUTP_3_2	Autres installations de traitement et d'élimination de déchets, capacité (1 000 t)
+IMU_0	Total des investissements pour l'élimination et le traitement des déchets municipaux (secteurs public + privé) (Mio monnaie nationale)
+IMU_1	Total des investissements pour l'élimination et le traitement des déchets municipaux par le secteur public (Mio monnaie nationale)
+IMU_1_1	Total des investissements pour l'élimination et le traitement des déchets municipaux par les autorités nationales publiques (Mio monnaie nationale)
+IMU_1_2	Total des investissements pour l'élimination et le traitement des déchets municipaux par les autorités régionales publiques (Mio monnaie nationale)
+IMU_1_3	Total des investissements pour l'élimination et le traitement des déchets municipaux par les autorités locales publiques (Mio monnaie nationale)
+IMU_2	Total des investissements pour l'élimination et le traitement des déchets municipaux par les autorités nationales publiques (Mio monnaie nationale)
+HW_0	Quantité totale de déchets dangereux générés (1 000 t)
+HW_1	Déchets dangereux incinérés (1 000 t)
+HW_2	Déchets dangereux mis en décharge, y compris les déchets d'incinération (1 000 t)
+HW_3	Déchets dangereux traités ou éliminés autrement que par l'incinération ou la mise en décharge (1 000 t)

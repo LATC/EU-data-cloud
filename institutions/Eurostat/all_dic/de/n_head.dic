@@ -1,0 +1,47 @@
+TOTAL	Insgesamt
+0	Keine Tiere
+1	1 Tier
+1_2	1 oder 2 Tiere
+1-9	1 bis 9 Tiere
+1-99	1 bis 99 Tiere
+2	2 Tiere
+3_4	3 oder 4 Tiere
+3-9	3 bis 9 Tiere
+5-9	5 bis 9 Tiere
+10-14	10 bis 14 Tiere
+10-19	10 bis 19 Tiere
+10-49	10 bis 49 Tiere
+15-19	15 bis 19 Tiere
+20-29	20 bis 29 Tiere
+20-49	20 bis 49 Tiere
+30-39	30 bis 39 Tiere
+30-49	30 bis 49 Tiere
+40-49	40 bis 49 Tiere
+50-59	50 bis 59 Tiere
+50-99	50 bis 99 Tiere
+60-99	60 bis 99 Tiere
+100-199	100 bis 199 Tiere
+100-499	100 bis 499 Tiere
+100-999	100 bis 999 Tiere
+GE100	100 Tiere und mehr
+200-299	200 bis 299 Tiere
+200-399	200 bis 399 Tiere
+200-499	200 bis 499 Tiere
+GE200	200 Tiere und mehr
+300-499	300 und 499 Tiere
+GE300	300 Tiere und mehr
+400-999	400 bis 999 Tiere
+500-999	500 bis 999 Tiere
+GE500	500 Tiere und mehr
+1000-1999	1 000 bis 1 999 Tiere
+1000-2999	1 000 bis 2 999 Tiere
+GE1000	1 000 Tiere und mehr
+2000-4999	2 000 bis 4 999 Tiere
+3000-4999	3 000 bis 4 999 Tiere
+5000-9999	5 000 bis 9 999 Tiere
+GE5000	5 000 Tiere und mehr
+10000-29999	10 000 bis 29 999 Tiere
+10000-49999	10 000 bis 49 999 Tiere
+GE30000	30 000 Tiere und mehr
+50000-99999	50 000 bis 99 999 Tiere
+GE100000	100 000 Tiere und mehr

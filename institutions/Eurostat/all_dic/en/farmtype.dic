@@ -1,0 +1,206 @@
+TOTAL	Total
+1	Specialist field crops
+11	Specialist cereals
+111	Specialist cereals (other than rice)
+112	Specialist rice
+113	Cereals and rice combined
+12	General field cropping
+121	Specialist root crops
+122	Cereals and root crops combined
+123	Specialist field vegetables
+124	Various field crops
+1241	Specialist tobacco
+1242	Specialist cotton
+1243	Specialist oilseed and textile crops
+1244	Various field crops combined
+13	Specialist cereals, oilseed and protein crops
+131	Specialist cereals (other than rice), oilseeds and protein crops
+132	Specialist rice
+133	Cereals, oilseeds, protein crops and rice combined
+14	General field cropping
+141	Specialist root crops
+142	Cereals and root crops combined
+143	Specialist field vegetables
+144	Various field crops
+1441	Specialist tobacco
+1442	Specialist cotton
+1443	Various field crops combined
+2	Specialist horticulture
+20	Specialist horticulture
+201	Specialist market garden vegetables
+2011	Specialist market garden vegetables-outdoor
+2012	Specialist market garden vegetables-under glass
+2013	Specialist market garden vegetables, outdoor and under glass combined
+202	Specialist flowers and ornamentals
+2021	Specialist flowers and ornamentals-outdoor
+2022	Specialist flowers and ornamentals-under glass
+2023	Specialist flowers and ornamentals, outdoor and under glass combined
+203	General market garden cropping
+2031	General market garden cropping-outdoor
+2032	General market garden cropping-under glass
+2033	Specialist mushrooms
+2034	Various market garden crops combined
+3	Specialist permanent crops
+31	Specialist vineyards
+311	Specialist quality wine
+312	Specialist wine other than quality wine
+313	Quality and other wine combined
+314	Vineyards for various types of production
+3141	Specialist table grapes
+3142	Specialist raisins
+3143	Mixed vineyards
+32	Specialist fruit and citrus fruit
+321	Specialist fruit (other than citrus)
+3211	Specialist fresh fruit (other than citrus)
+3212	Specialist nuts
+3213	Fresh fruit (other than citrus) and nuts combined
+322	Specialist citrus fruit
+323	Fruit and citrus fruit combined
+33	Specialist olives
+34	Various permanent crops combined
+4	Specialist grazing livestock
+41	Specialist dairying
+411	Specialist milk production
+412	Specialist milk production with cattle rearing
+42	Specialist cattle-rearing and fattening
+421	Specialist cattle-mainly rearing
+422	Specialist cattle-mainly fattening
+43	Cattle-dairying, rearing and fattening combined
+431	Cattle-dairying with rearing and fattening
+432	Cattle rearing and fattening with dairying
+44	Sheep, goats and other grazing livestock
+441	Specialist sheep
+442	Sheep and cattle combined
+443	Specialist goats
+444	Various grazing livestock-no dominant enterprise
+5	Specialist granivores
+50	Specialist granivores
+501	Specialist pigs
+5011	Specialist pig rearing
+5012	Specialist pig fattening
+5013	Pig rearing and fattening combined
+502	Specialist poultry
+5021	Specialist layers
+5022	Specialist poultry-meat
+5023	Layers and poultry-meat combined
+503	Various granivores combined
+5031	Pigs and poultry combined
+5032	Pigs, poultry and other granivores combined
+1_TO_5	Specialised farming (types 1 to 5)
+6	Mixed cropping
+60	Mixed cropping
+601	Market gardening and permanent crops combined
+602	Field crops and market gardening combined
+603	Field crops and vineyards combined
+604	Field crops and permanent crops combined
+605	Mixed cropping, mainly field crops
+606	Mixed cropping, mainly market gardening or permanent crops
+6061	Mixed cropping, mainly market gardening
+6062	Mixed cropping, mainly permanent crops
+7	Mixed livestock holdings
+71	Mixed livestock, mainly grazing livestock
+711	Mixed livestock, mainly dairying
+712	Mixed livestock, mainly grazing livestock other than dairying
+72	Mixed livestock, mainly granivores
+721	Mixed livestock:granivores and dairying combined
+722	Mixed livestock:granivores and grazing livestock other than dairying combined
+723	Mixed livestock:granivores with various livestock
+8	Mixed crops-livestock
+81	Field crops-grazing livestock combined
+811	Field crops combined with dairying
+812	Dairying combined with field crops
+813	Field crops combined with grazing livestock other than dairying
+814	Grazing livestock other than dairying combined with field crops
+82	Various crops and livestock combined
+821	Field crops and granivores combined
+822	Permanent crops and grazing livestock combined
+823	Various mixed crops and livestock
+8231	Apiculture
+8232	Various mixed holdings
+6_TO_8	Mixed farming (types 6 to 8)
+SUB	All classified holdings
+9	Non-classifiable holdings
+TOT	All holdings
+1A	Field crops
+11A	Cereals
+111A	Cereals, excluding rice
+112A	Rice
+113A	Cereals, including rice
+12A	Field crops,  other
+121A	Roots
+122A	Cereals and roots
+123A	Field crops, various
+1231A	Open field vegetables
+1232A	Field crops, various, other
+2A	Horticulture
+211A	Market garden vegetables, open air
+212A	Market garden vegetables, under glass
+213A	Market garden vegetables, open air/under glass
+214A	Flowers, open air
+215A	Flowers, under glass
+216A	Flowers open air/under glass
+217A	Horticulture, various
+2171A	Market garden vegetables, flowers, open air
+2172A	Market garden vegetables, flowers, under glass
+2173A	Mushrooms
+2174A	Horticulture, mixed
+3A	Permanent crops
+31A	Vineyards
+311A	Quality wine
+312A	Table wine
+313A	Table grapes
+314A	Vineyards, mixed
+32A	Fruit/permanent crops, other
+321A	Fruit, excluding citrus
+322A	Citrus
+323A	Olives
+324A	Permanent crops, various
+4A	Grazing livestock
+41A	Cattle, dairying
+411A	Specialized dairying
+412A	Dairying, other
+42A	Cattle, rearing/fattening
+421A	Cattle, rearing/fattening, suckling
+422A	Cattle, rearing/fattening, other
+43A	Cattle, mixed
+431A	Dairying with cattle rearing/fattening
+432A	Cattle rearing/fattening with dairying
+44A	Grazing livestock, other
+441A	Sheep
+442A	Cattle and sheep
+443A	Grazing livestock, various
+5A	Pigs and poultry
+51A	Pigs
+511A	Pigs, rearing
+512A	Pigs, fattening
+513A	Pigs, mixed
+52A	Pigs and poultry, other
+521A	Laying hens
+522A	Table fowl
+523A	Pigs and poultry, combined
+524A	Pigs and poultry, various
+6A	Mixed cropping
+61A	Horticulture and permanent crops
+62A	Mixed cropping, other
+621A	Field crops and horticulture
+622A	Field crops and vineyards
+623A	Field crops and fruit/permanent crops, other
+624A	Partially dominant field crops
+625A	Partially dominant horticulture or permanent crops
+7A	Mixed livestock
+71A	Partially dominant grazing livestock
+711A	Partially dominant dairying
+712A	Partially dominant grazing livestock other than dairying
+72A	Mixed livestock, other
+721A	Pigs and poultry and dairying
+722A	Pigs and poultry and gazing livestock other than dairying
+723A	Partially dominant pigs and poultry
+8A	Crops - livestock
+81A	Field crops with grazing livestock
+811A	Field crops with dairying
+812A	Dairying with field crops
+813A	Field crops with grazing livestock other than dairying
+814A	Grazing livestock other than dairying with field crops
+82A	Crops - livestock, other
+821A	Field crops and pigs and poultry
+822A	Crops - livestock, various

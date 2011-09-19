@@ -1,0 +1,9 @@
+TOTAL	Insgesamt
+1_99	Betriebe mit zwischen 1 und 99 Masthähnchen und -hühnchen
+100_999	Betriebe mit zwischen 100 und 999 Masthähnchen und -hühnchen
+1000_2999	Betriebe mit zwischen 1000 und 2999 Masthähnchen und -hühnchen
+3000_4999	Betriebe mit zwischen 3000 und 4999 Masthähnchen und -hühnchen
+5000_9999	Betriebe mit zwischen 5000 und 9999 Masthähnchen und -hühnchen
+10000_49999	Betriebe mit zwischen 10000 und 49999 Masthähnchen und -hühnchen
+50000_99999	Betriebe mit zwischen 50000 und 99999 Masthähnchen und -hühnchen
+GE_100000	Betriebe mit 100000 oder mehr Masthähnchen und -hühnchen

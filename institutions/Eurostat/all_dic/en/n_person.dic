@@ -1,0 +1,18 @@
+TOTAL	Total
+0	No persons
+1	1 person
+2	2 persons
+3	3 persons
+4	4 persons
+GE4	4 persons or more
+5	5 persons
+6	6 persons
+GE6	6 persons or more
+7	7 persons
+GE7	7 persons or more
+8	8 persons
+9	9 persons
+UNK	Unknown
+TOT_PERS	Total number of persons
+TOT_POPHH	Total population in private households
+TOT_PERS_DWEL	Number of persons in dwellings

@@ -1,0 +1,112 @@
+C_00	Anbaukulturen insgesamt
+C_01_07	Kulturen auf dem Ackerland insgesamt
+C_01	Getreide, einschließlich Reis
+C01_NOT_C0113	Getreide, ausgenommen Mais
+C_011	Getreide, ausgenommen Reis
+C_0111	Weizen insgesamt
+C_01111	Weichweizen und Spelz
+C_01112	Hartweizen
+C_0112	Gerste
+C_0113	Körnermais
+C_0114	Roggen
+C_0115	Hafer
+C_0116	Triticale
+C_0117	Sonstiges Getreide
+C_012	Reis
+C0113_C0611	Mais (Körnermais + Grünmais)
+C_02	Hülsenfrüchte
+C_03	Hackfrüchte
+C_031	Kartoffeln (einschl. Früh- und Saatkartoffeln)
+C_032	Rüben
+C_0321	Zuckerrrüben
+C_0322	Futterrüben
+C_033	Futterhackfrüchte (ausgenommen Saatgut)
+C_034	Sonstige Hackfrüchte
+C_04	Handelsgewächse (insgesamt)
+C_041	Ölsaaten
+C_0411	Sonnenblumenkerne
+C_0412	Sojabohnen
+C_0413	Raps und Rübsen
+C_0414	Flachs
+C_0415	Sonstige Ölsaaten (Baumwolle, usw.)
+C_042	Tabak
+C_043	Hopfen
+C_044	Textilpflanzen
+C_0441	Baumwolle
+C_0442	Sonstige Textilpflanzen
+C_045	Sonstige Handelsgewächse
+C_0451	Heil-, Gewürz- und Duftpflanzen
+C_0452	Sonstige
+C_05	Frischgemüse, Melonen, Erdbeeren (insgesamt)
+C05_NOT_C0534	Frischgemüse, Melonen (ausgenommen Erdbeeren)
+C_051	Speisekohl
+C_0511	Blumenkohl
+C_0512	Weißkohl
+C_0513	Sonstige Kohlarten
+C_052	Blatt- und Stängelgemüse (außer Kohl)
+C_0521	Sellerieknollen und -stängel
+C_0522	Porree (Lauch)
+C_0523	Kopfsalat
+C_0524	Endiviensalat
+C_0525	Spinat
+C_0526	Spargel
+C_0527	Sonstige Blatt- und Stängelgemüse (außer Kohl)
+C_053	Fruchtgemüse
+C_0531	Tomaten
+C_0532	Schälgurken
+C_0533	Melonen
+C_0534	Erdbeeren
+C_0535	Sonstige Fruchtgemüse
+C_054	Wurzel- und Knollengemüse
+C_0541	Karotten und Speisemöhren
+C_0542	Knoblauch
+C_0543	Zwiebeln und Schalotten
+C_05431	Zwiebeln
+C_05432	Schalotten
+C_0544	Sonstige Wurzel- und Knollengemüse
+C_055	Hülsenfrüchte
+C_0551	Pflückerbsen
+C_0552	Pflückbohnen und grüne Bohnen
+C_0553	Sonstiges Hülsengemüse
+C_056	Sonstige
+C_06	Feldrauhfutterbau (insgesamt)
+C_061	Einjähriger Feldrauhfutterbau
+C_0611	Grünmais
+C_0612	Sonstiger einjähriger Feldrauhfutterbau
+C_062	Mehrjähriger Feldrauhfutterbau
+C_063	Ackerwiesen und -weiden
+C_07	Sonstige Kulturen auf dem Ackerland (einschl. 'Blumen und Zierpflanzen (ausgenommen Baumschulen)' und 'Sämereien und Pflanzgut auf dem Ackerland')
+C_071	Blumen und Zierpflanzen (ausgenommen Baumschulen)
+C_072	Sämereien und Pflanzgut auf dem Ackerland
+C_08	Dauergrünland (Wiesen und Weiden)
+C_081	Dauerwiesen und -weiden, ausgenommen ertragsarme Weiden
+C_082	Ertragsarme Weiden
+C_09_13	Dauerkulturen insgesamt
+C_09	Obst (ausgenommen Zitrusfrüchte, Trauben, Oliven) und Strauchbeeren
+C_091	Obst (ausgenommen Zitrusfrüchte, Trauben, Oliven)
+C_0911	Kern- und Steinobst
+C_09111	Kernobst
+C_091111	Äpfel
+C_091112	Birnen
+C_09112	Steinobst
+C_091121	Pfirsiche
+C_091122	Aprikosen
+C_091123	Kirschen
+C_091124	Pflaumen
+C_091125	Sonstiges Steinobst
+C_0912	Schalenobst
+C_0913	Sonstiges Obst (ausgenommen Zitrusfrüchte, Trauben, Oliven)
+C_092	Strauchbeeren
+C_10	Zitrusfrüchte
+C_101	Orangen
+C_102	Zitronen
+C_103	Pampelmusen und Grapefruits
+C_104	Sonstige Zitrusfrüchte (Mandarinen, sonstige)
+C_11	Trauben
+C_12	Oliven
+C_121	Tafeloliven
+C_122	Öloliven
+C_13	Sonstige Dauerkulturen
+C_14	Nicht genutzte landwirtschaftliche Flächen
+C_15	Brache (einschliefllich Gründüngung)
+C_151	Gründüngung

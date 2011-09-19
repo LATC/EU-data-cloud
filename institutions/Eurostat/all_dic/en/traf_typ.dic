@@ -1,0 +1,4 @@
+GOOD_TRAIN	Goods train movements
+PASS_TRAIN	Passenger train movements
+OTH_TRAIN	Other train movements
+TOT	Total

@@ -1,0 +1,86 @@
+PP0000	Total du cheptel porcin
+PP1000	Porcelets d'un poids vif de moins de 20 kg
+PP2000	Porcs d'un poids vif de 20 kg à moins de 50 kg
+PP3000	Porcs à l'engrais (y compris les verrats de réforme et les truies de réforme) de 50 kg et plus
+PP3100	Porcs à l'engrais de 50 à de moins de 80 kg
+PP3200	Porcs à l'engrais de 80 à de moins de 110 kg
+PP3300	Porcs à l'engrais de 110 kg et plus
+PP4000	Porcs reproducteurs d'un poids vif de 50 kg et plus
+PP4100	Verrats
+PP4200	Truies - total
+PP4210	Truies saillies, total
+PP4211	Dont : truies saillies pour la première fois
+PP4220	Truies non saillies - total
+PP4221	Dont : jeunes truies non encore saillies
+PS0000	Total du cheptel ovin
+PS1000	Agnelles saillies et brebis
+PS1100	Brebis et agnelles laitières saillies
+PS1200	Autres brebis et agnelles saillies
+PS2000	Autres ovins
+PG0000	Total du cheptel caprin
+PG1000	Chèvres saillies et chèvres ayant déjà mis bas
+PG1100	Chèvres ayant déjà mis bas
+PG1200	Chèvres saillies pour la première fois
+PG2000	Autres chèvres
+PE0000	Total du cheptel équidés
+PE1000	Chevaux
+PE2000	Anes, mulets, bardots
+PC0000	Total du cheptel bovin
+PC1000	Bovins de moins d'un an
+PC1100	Veaux de boucherie
+PC1200	Autres veaux
+PC1210	Autres veaux, Mâles
+PC1220	Autres veaux, Femelles
+PC2000	Bovins de 1 an à moins de 2 ans
+PC2100	Bovins de 1 an à moins de 2 ans, Mâles
+PC2200	Bovins de 1 an à moins de 2 ans, Femelles
+PC2210	Animaux de boucherie
+PC2220	Autres
+PC3000	Bovins de 2 ans et plus
+PC3100	Bovins de 2 ans et plus, Mâles
+PC3200	Bovins de 2 ans et plus, Femelles
+PC3210	Génisses
+PC3211	Génisses de boucherie
+PC3212	Autres
+PC3220	Vaches
+PC3221	Vaches laitières
+PC3222	Autres vaches
+PC4000	Buffles
+PC4100	Bufflonnes reproductrices
+PC4200	Autres buffles
+PH1000	Poules pondeuses
+L_1	Cheptel bovin (total)
+L_1A	Bovins destinés à la production de viande
+L_1B	Autres bovins
+L_11	Bovins de moins d'un an
+L_111	Veaux de boucherie
+L_112	Autres veaux
+L_12	Bovins de 1 an à moins de 2 ans
+L_121	Bovins de boucherie de 1 an à moins de 2 ans
+L_122	Autres bovins de 1 an à moins de 2 ans
+L_13	Bovins de 2 ans et plus
+L_131	Vaches laitières
+L_132	Vaches allaitantes
+L_133	Bovins de boucherie de 2 ans et plus
+L_134	Autres bovins de 2 ans et plus
+L_2	Cheptel porcin (total)
+L_21	Porcs à l'engrais
+L_22	Truies reproductrices
+L_23	Autres cheptel porcin
+L_3	Cheptel ovin (total)
+L_31	Brebis reproductrices
+L_32	Autres cheptel ovin
+L_4	Cheptel caprin (total)
+L_41	Chèvres reproductrices
+L_42	Autres cheptel caprin
+L_5	Volailles (total)
+L_51	Poulets de chair
+L_52	Poules pondeuses
+L_53	Autre volaille (dindes, canards, oies, etc.)
+L_6	Équidés
+L_7	Lapins
+L_71	Lapines mères
+L_8	Abeilles (en nombre de ruches)
+L_9	Autre cheptel
+L_GRAZ	Herbivores
+TOTAL	Total

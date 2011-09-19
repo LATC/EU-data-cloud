@@ -1,0 +1,15 @@
+TOTALNOREROUTE	Ausgaben insgesamt
+SPBENEFNOREROUTE	Sozialschutzleistungen
+ADMIN	Verwaltungskosten
+OTHER	Sonstige Ausgaben
+SICK	Krankheit/Gesundheitsversorgung
+DISA	Invalidität/Gebrechen
+OLD	Alter
+SURVIV	Hinterbliebene
+FAM	Familie/Kinder
+UNEMPLOY	Arbeitslosigkeit
+HOUSE	Wohnung
+EXCLU	Soziale Ausgrenzung n.a.z.
+SICKDISA	Krankheit und Invalidität/Gebrechen
+OLDSURVIV	Alter und Hinterbliebene
+HOUSEEXCLU	Wohnen und Soziale Ausgrenzung n.a.z.

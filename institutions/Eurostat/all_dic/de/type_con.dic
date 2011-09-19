@@ -1,0 +1,19 @@
+TOT	Insgesamt
+NB_TOT	Alle (keine Aufgliederung)
+NAPPL	Trifft nicht zu
+NRESP	Keine  Angabe zur Befristung/Nichtbefristung des Beschäftigungsverhältnisses
+PERM	Dauerstellung
+TEMP	Befristetes Beschäftigungsverhältnis
+TEMP_PERM_NO_RE	Kein Grund angegeben
+TEMP_PERM_NOT_F	Unbefristetes Beschäftigungsverhältnis war nicht verfügbar
+TEMP_PERM_NOT_W	Unbefristetes Beschäftigungsverhältnis wurde nicht gewünscht
+TEMP_PERM_PROB	Probezeit
+TEMP_TRAINING	Ausbildungsphase
+TRA_PROB	Ausbildung oder Probezeit
+SELF_FAM	Arbeitgeber, Selbständige und mithelfende Familienangehörige
+INDEF	Unbefristet
+FIX	Befristet (ohne Ausbildung-Praktikum)
+APPR	Ausbildung-Praktikum
+OTH	Sonstige
+UNK	Unbekannt
+TOTAL	Befristete und unbefristete Beschäftigungsverhältnisse - Insgesamt

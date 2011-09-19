@@ -1,0 +1,41 @@
+NGDP	Solde net aux prix courants (en % du PIB)
+AGDP	Flux moyens (en % du PIB)
+NMLD	Soldes nets (en Mrd ECU/EUR)
+COVR	Taux de couverture (en %)
+C200	Exportations (en % des crédits de la balance des services)
+D200	Importations (en % des dédits de la balance des services)
+CA1	Crédits par zone géographique (crédits en % du total des crédits du partenaire Monde)
+DA1	Débits par zone géographique (débits en % du total des débits du partenaire Monde)
+TOTR	Echanges totaux (exportations + importations) en % des flux totaux du compte courant (exportations + importations)
+CTYW	Echanges totaux d'un pays (exportations + importations) en % des échanges totaux du Monde (exportations + importations)
+CMLD	Exportations (en Mrd ECU/EUR)
+DMLD	Importations (en Mrd ECU/EUR)
+TOTMLD	Exportations + importations (en Mrd ECU/EUR)
+SHTOT200	Part dans les transactions totales des services
+SHTOT981	Part dans les transactions totales d'autres services
+CC_COVRO	Échanges internationaux en services autres que les services de transport et de voyage, taux de couverture (en %)
+CC_CAGDP	Balance des opérations courantes à prix courants (en % du PIB)
+GSGDP	Solde des échanges internationaux de biens et de services aux prix courants (en % du PIB)
+COVRGS	Échanges internationaux de biens et de services, taux de couverture (en %)
+CTRS	Exportations de services de transport (en % des exportations totales de services)
+DTRS	Importations de services de transport (en % des importations totales de services)
+CTVS	Exportations de services de voyage (en % des exportations totales de services)
+DTVS	Importations de services de voyage (en % des importations totales de services)
+STOCKS	Positions de l'investissement direct - Million ECU/EUR
+FLOWS	Flux d'investissements directs - Million ECU/EUR
+INCOME	Revenus d'investissements directs - Million ECU/EUR
+INFLOW	Entrées d'investissements directs - Million ECU/EUR
+OUTFLOW	Sorties d'investissements directs - Million ECU/EUR
+INTRAFLOW	Flux intracommunautaires - Million ECU/EUR
+FGDP	PIB (flux en % du PIB)
+SGDP	PIB (stocks en % du PIB)
+AVG4YEARS	Moyenne sur 4 ans
+TI100	Intégration du marché - Intégration du commerce des biens
+TI200	Intégration du marché - Intégration du commerce des services
+TIFDI	Intégration du marché - Intensité des investissements directs à l'étranger - Moyenne des flux d'investissements directs à l'étranger sortants et entrants divisée par le PIB, multipliée par 100
+TUR	Chiffre d'affaires - Million ECU/EUR
+EMP	Nombre de personnes employées
+ENT	Nombre d'entreprises
+PEC	Dépenses de personnel - Million ECU/EUR
+GIT	Investissements bruts en biens corporels - Million ECU/EUR
+VAC	Valeur ajoutée aux coûts des facteurs - Million ECU/EUR

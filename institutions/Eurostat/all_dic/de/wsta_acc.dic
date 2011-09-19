@@ -1,0 +1,8 @@
+USUAL	Wiederaufnahme der normalen Arbeitstätigkeit
+CHANGE_W	Wechsel der Arbeit oder des Arbeitsplatzes aufgrund der unfallbedingten Verletzung
+PT	Teilzeitarbeit oder Verkürzung der Arbeitszeit aufgrund der unfallbedingten Verletzung
+NOT_RECO	Die Person ist von der unfallbedingten Verletzung noch nicht genesen zum Zeitpunkt des Interviews
+PERM_INC	Dauerhaft arbeitsunfähig
+OTHER	Sonstige anderweitig nicht genannt
+UNK	Nicht bekannt
+TOTAL	Insgesamt

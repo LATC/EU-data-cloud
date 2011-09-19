@@ -1,0 +1,37 @@
+TOT_HOSP	Total hospital employment 
+PHYS	Physicians or doctors
+PHYS_PRA	Practising physicians or doctors
+PHYS_ACT	Professionally active physicians or doctors
+PHYS_LIC	Physicians or doctors licensed to practise
+DENT	Dentists
+DENT_PRA	Practising dentists
+DENT_ACT	Professionally active dentists
+DENT_LIC	Dentists licensed to practise
+PHAR	Pharmacists
+PHAR_PRA	Practising pharmacists
+PHAR_ACT	Professionally active pharmacists
+PHAR_LIC	Pharmacists licensed to practise
+KINE	Physiotherapists
+NUR_MID_CARE	Nursing and caring professionals (total)
+NUR_MID	Nursing professionals (total)
+NURP_MID	Professional nurses and midwives (total)
+MID	Midwives
+NUR	All nurses (professional and associate professional nurses)
+NURP	Professional nurses
+NURA	Associate professional nurses
+CARE	Caring personnel
+SPEC	Medical or surgical specialist
+OTH_SERV	Other health service providers employed by hospital
+OTH	Other staff employed by hospital
+INSTR_TEACH	Classeroom teachers (ISCED 0-4) and academic staff (ISCED 5-6)
+INSTR_AID	Teacher aides (ISCED 0-4) and teaching/research assistants (ISCED 5-6)
+SUPP	Professional support for students
+SUPP_PED	Pedagogical support (ISCED 0-4); academic support (ISCED 5-6)
+SUPP_HS	Health and social support (ISCED 0-6)
+MANAG_SCH	School level management (ISCED 0-6)
+MANAG_HI	Higher level management (ISCED 0-6)
+ADM_SCH	School level administrative personnel (ISCED 0-6)
+ADM_HI	Higher level administrative personnel (ISCED 0-6)
+OPER	Maintenance and operations personal
+ERASMUS_IN	Incoming Erasmus staff
+ERASMUS_OUT	Outgoing Erasmus staff

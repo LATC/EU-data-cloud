@@ -1,0 +1,277 @@
+0000	Tous produits
+2000	Combustibles solides
+2100	Houille et dérivés solides
+2110	Houille et agglomérés
+2111	Houille
+2112	Agglomérés de houille
+2115	Anthracite
+2116	Charbon à coke
+2117	Charbons bitumineux
+2118	Charbons sous-bitumineux
+2120	Coke
+2121	Coke de four
+2122	Coke de gaz
+2130	Goudron
+2200	Lignite et dérivés
+2210	Lignite
+2211	Lignite ancien
+2212	Lignite récent
+2220	Coke de lignite
+2230	Briquettes de lignite
+2310	Tourbe
+3000	Pétrole brut et produits pétroliers
+3100	Pétrole brut, feedstocks et autres hydrocarbures
+3105	Pétrole brut
+3106	LGN
+3110	Pétrole brut et LGN
+3150	Produits pétroliers raffinés
+3190	Feedstocks et autres hydrocarbures
+3191	Feedstocks
+3192	Additifs/Composés oxygénés
+3193	Autres hydrocarbures
+3200	Tous produits pétroliers
+3205	GPL et gaz de raffinerie
+3210	Gaz de raffinerie et éthane
+3214	Gaz de raffinerie (non liquéfiés)
+3215	Éthane
+3220	GPL
+3225	GPL carburant
+3230	Essence moteur et aviation
+3234	Essence moteur
+3235	Essence aviation
+3236	Essence auto
+3237	Essence Super
+3238	Essence Super sans plomb, 95 Ron
+3240	Pétrole lampant et carburéacteur
+3244	Pétrole lampant
+3246	Carburéacteur type essence
+3247	Carburéacteur type kérosène
+3250	Naphta
+3260	Gazole/Carburant diesel
+3265	Diesel de transport
+3266	Fioul domestique et autres gazoles
+3270	Fuel-oil résiduel
+3270A	Fuel-oil résiduels
+3271	Fuel-oil (soufre < 1 %)
+3272	Fuel-oil (soufre >= 1 %)
+3280	Produits pétroliers divers
+3281	White spirit et SBP
+3282	Lubrifiants
+3283	Bitume
+3285	Coke de pétrole
+3286	Paraffines
+3290	Autres produits pétroliers
+3295	Autres produits
+4000	Gaz
+4100	Gaz naturel
+4200	Gaz dérivés
+4210	Gaz de cokerie
+4220	Gaz de haut-fourneau
+4230	Gaz d'usine à gaz
+4240	Gaz de four à oxygène
+5100	Chaleur nucléaire
+5200	Chaleur dérivée
+5500	Energies renouvelables
+5510	Energie hydraulique
+5520	Energie éolienne
+5530	Energie solaire
+5532	Solaire thermique
+5534	Solaire photovoltaique
+5535	Énergie hydrocinétique/houlomotrice/marémotrice
+5540	Biomasse et déchets renouvelables
+5541	Bois / déchets de bois
+55411	Bois
+55412	Autres déchets végétaux
+55413	Déchets de bois
+55414	Liqueur noire
+55415	Autres déchets solides
+5542	Biogaz
+55421	Gaz de décharge
+55422	Gaz de digestion des boues
+55423	Autres biogaz
+5543	Déchets urbains
+55431	Déchets urbains (renouvelables)
+55432	Déchets urbains (non renouvelables)
+5544	Charbon de bois
+5545	Biocarburants
+5546	Biogasoline
+5546R	Biogasoline (capacité)
+5547	Biodiesel
+5547R	Biodiesel (capacité)
+5548	Autres biocarburants
+5550	Energie géothermique
+6000	Energie électrique
+7100	Déchets industriels
+9000	Infrastructure
+9004	Surface des panneaux solaires
+9007	Puissance installée
+9999	Autres produits
+010000	CÉRÉALES (y compris semences)
+011000	Blé et épeautre
+011100	Blé tendre et épeautre
+011200	Blé dur
+012000	Seigle et méteil
+013000	Orge
+013100	Orge fourragère
+013200	Orge de brasserie
+014000	Avoine et mélange de céréales d'été
+015000	Maïs (grains)
+016000	Riz
+019000	Autres céréales
+020000	PLANTES INDUSTRIELLES
+021000	Oléagineux (y compris semences)
+021100	Graines de colza et de navette
+021200	Graines de tournesol
+021300	Fèves de soja
+021900	Autres graines et fruits oléagineux
+022000	Protéagineux (y compris semences)
+023000	Tabac brut
+024000	Betteraves sucrières
+029000	Autres plantes industrielles
+029100	Plantes textiles
+029200	Houblon
+029900	Autres plantes industrielles : autres
+030000	Plantes foragères
+031000	Maïs fourrage
+032000	Plantes sarclées fourragères (inclus betterave fourragère)
+039000	Autres plantes fourragères
+039100	Foin
+039200	Paille
+039300	Silage
+039900	Autres plantes fourragères : autres
+040000	PRODUITS MARAÎCHERS ET HORTICOLES
+041000	Légumes frais
+041100	Choux-fleurs
+041200	Tomates
+041900	Autres légumes frais
+041910	Choux
+041920	Laitues
+041930	Épinards
+041940	Concombres
+041950	Carottes
+041960	Oignons
+041970	Haricots verts
+041980	Légumes à cosse
+041990	Petits pois
+041999	Autres légumes frais: autres
+042000	Plantes et fleurs
+050000	POMMES DE TERRE (y compris semences)
+051000	Pommes de terre de consommation
+051100	Pommes de terre hâtives
+051200	Pommes de terre tardives
+052000	Pommes de terre (semences)
+059000	Autres pommes de terre
+060000	FRUITS
+061000	Fruits frais (à l'exception des agrumes et raisins)
+061100	Pommes de table
+061200	Poires de table
+061300	Pêches
+061900	Autres fruits frais, noix et fruits secs
+061910	Cerises
+061920	Prunes
+061930	Fraises
+061940	Noix et fruits secs
+061941	Noix
+061942	Fruits secs
+061990	Autres fruits frais : autres
+062000	Agrumes
+062100	Oranges
+062200	Mandarines
+062300	Citrons
+062900	Autres agrumes
+063000	Fruits tropicaux
+064000	Raisins
+064100	Raisins de table
+064900	Autres raisins , frais
+065000	Olives
+065100	Olives de table
+065900	Autres olives
+070000	VINS (y compris moût)
+071000	Vin de table (Fr : Vcc)
+071100	Vin de pays ou Vinho regional ou Vino de la tierra
+071900	Autre vin de table (F : VdeT + autres)
+072000	Vin de qualité
+079000	Autre vin
+080000	Huile d'olive
+090000	AUTRES PRODUITS VÉGÉTAUX
+091000	Autres produits végétaux pour tressage
+092000	Semences
+099000	Autres produits végétaux :autres
+100000	PRODUCTION VÉGÉTALE (010000 TO 090000), y compris fruits (060000) et légumes (040000)
+101000	PRODUCTION VÉGÉTALE (010000 TO 090000), à l'exception des fruits (060000) et légumes (040000)
+110000	ANIMAUX
+111000	Bovins
+111100	Bovins sans veaux
+111200	Veaux
+112000	Porcins
+113000	Équidés
+114000	Ovins et caprins
+115000	Volailles
+115100	Poulets
+115900	Autres volailles
+119000	Autres animaux
+120000	PRODUITS ANIMAUX
+121000	Lait
+121100	Lait de vache
+121900	Autres laits
+122000	Oeufs
+129000	Autres produits animaux
+130000	PRODUCTION ANIMALE (110000+120000)
+140000	PRODUCTION DE BIENS AGRICOLES (100000+130000), y compris fruits (060000) et légumes (040000)
+141000	PRODUCTION DE BIENS AGRICOLES (101000+130000), à l'exception des fruits (060000) et légumes (040000)
+200000	BIENS ET SERVICES HABITUELLEMENT CONSOMMÉS DANS L'AGRICULTURE (INPUT 1)
+201000	SEMENCES ET PLANTS
+202000	"ÉNERGIE; LUBRIFIANTS"
+202100	Électricité
+202200	Combustibles de chauffage
+202300	Carburants
+202400	Lubrifiants
+203000	ENGRAIS ET AMENDEMENTS
+203100	Engrais simples
+203110	Engrais azotés
+203120	Engrais phosphatés
+203130	Engrais potassiques
+203200	Engrais composés
+203210	Engrais NP
+203220	Engrais PK
+203230	Engrais NPK
+203900	Autres engrais, amendements
+204000	PRODUITS DE PROTECTION DES CULTURES ET ANTIPARASITAIRES
+204100	Fongicides
+204200	Insecticides
+204300	Herbicides
+204900	Autres produits de protection des cultures
+205000	DÉPENSES VÉTÉRINAIRES
+206000	ALIMENTS POUR ANIMAUX
+206100	Aliments simples
+206110	Céréales et sous-produits de meunerie
+206120	Tourteaux d'oléagineux
+206130	Aliments d'origine animale
+206190	Autres aliments simples
+206200	Aliments composés
+206210	Aliments composés pour veaux
+206220	Aliments composés pour bovins, autres que veaux
+206230	Aliments composés pour porcins
+206240	Aliments composés pour volailles
+206290	Autres aliments composés
+207000	ENTRETIEN DU MATÉRIEL
+208000	ENTRETIEN DES BÂTIMENTS
+209000	AUTRES BIENS ET SERVICES
+210000	Biens et services contribuant aux investissements agricoles (Input 2)
+211000	Matériel
+211100	MACHINES ET AUTRES BIENS D'ÉQUIPEMENT
+211110	Motoculteurs et autres matériaux à 2 roues
+211120	Machines et matériel pour la culture
+211130	Machines et matériel pour la récolte
+211140	Machines et installations à la ferme
+211141	Machines et installations à la ferme pour la production végétale
+211142	Machines et installations à la ferme pour la production animale
+211149	Autres machines et installations
+211200	ÉQUIPEMENTS DE TRANSPORT
+211210	Tracteurs
+211290	Autres véhicules
+212000	CONSTRUCTIONS
+212100	CONSTRUCTIONS AGRICOLES (NON RÉSIDENTIELLES)
+212900	Autres constructions (sans amélioration de sols)
+219000	Autres
+220000	Input total (Input 1 + Input 2)

@@ -1,0 +1,119 @@
+TOT_X_5	Gesamt-Emissionen
+TOT_NET	Gesamt-Emissionen / -Einbindungen inkl. LULUCF
+1	Energie
+1_A	Brennstoffverbrennung - sektorales Konzept
+1_A_1	Energieindustrien
+1_A_1A	Öffentliche Strom- und Wärmeerzeugung
+1_A_1B	Erdölraffination
+1_A_1C	Herstellung von festen Brennstoffen und Andere Energyindustrien
+1_A_2	Verarbeitende Industrie, Gewerbe und Bauwesen
+1_A_2A	Eisen und Stahl
+1_A_2B	Nichteisenmetalle
+1_A_2C	Chemikalien
+1_A_2D	Zellstoff, Papier und Druck
+1_A_2E	Lebensmittelverarbeitung, Getränke und Tabak
+1_A_2F	Sonstiges
+1_A_3	Transport
+1_A_3A	Zivilluftfahrt
+1_A_3B	Straßentransport
+1_A_3C	Eisenbahnen
+1_A_3D	Schifffahrt
+1_A_3E	Andere Beförderung
+1_A_4	Andere Sektoren
+1_A_4A	Kommerziell/institutionell
+1_A_4B	Residential
+1_A_4C	Agriculture/Forestry/Fisheries
+1_A_5	Nicht anderswo spezifiziert
+1_B	Diffuse Emissionen
+1_B_1	Feste Brennstoffe
+1_B_2	Öl und Erdgas
+1_C1	International Bunkers
+1_C1_A	Internationaler Luftverkehr
+1_C1_B	Internationaler Seeverkehr
+1_C2	Multilateral Operations
+1_C3	CO2 Emissions from Biomass
+2	Industrielle Prozesse
+2_A	Mineralprodukte
+2_B	Chemische Industrie
+2_C	Metallerzeugung
+2_D	Andere Produktion
+2_E	Produktion von Halogenkohlenwasserstoffen und SF6
+2_F	Verbrauch von Halogenkohlenwasserstoffen und SF6
+2_G	Sonstiges
+3	Solvent and Other Product Use
+4	Landwirtschaft
+4_A	Enterische Gärung
+4_A_1	Enterische Gärung: Rinder
+4_A_2	Enterische Gärung: Büffel
+4_A_3	Enterische Gärung: Schafe
+4_A_4	Enterische Gärung: Ziegen
+4_A_5	Enterische Gärung: Kamele und Lamas
+4_A_6	Enterische Gärung: Pferde
+4_A_7	Enterische Gärung: Maultiere und Esel
+4_A_8	Enterische Gärung: Schweine
+4_A_9	Enterische Gärung: Geflügel
+4_A_10	Enterische Gärung: Sonstiger Viehbestand
+4_B	Leitung der Tierdünger
+4_B_1	Leitung der Tierdünger: Rinder
+4_B_2	Leitung der Tierdünger: Büffel
+4_B_3	Leitung der Tierdünger: Schafe
+4_B_4	Leitung der Tierdünger: Ziegen
+4_B_5	Leitung der Tierdünger: Kamele und Lamas
+4_B_6	Leitung der Tierdünger: Pferde
+4_B_7	Leitung der Tierdünger: Maultiere und Esel
+4_B_8	Leitung der Tierdünger: Schweine
+4_B_9	Leitung der Tierdünger: Geflügel
+4_B_10	Leitung der Tierdünger: Sonstiger Viehbestand
+4_B_11	Leitung der Tierdünger: Anaerobe Lagune
+4_B_12	Leitung der Tierdünger: Flüssiges System
+4_B_13	Leitung der Tierdünger: Feste Lagerung und trocken
+4_B_14	Leitung der Tierdünger: Sonstige Leitungssystem der Tierdünger
+4_C	Reisanbau
+4_C_1	Reisanbau: Bewässert
+4_C_2	Reisanbau: Regenwasser
+4_C_3	Reisanbau: Tiefwasser
+4_C_4	Reisanbau: Sonstiges
+4_D	Landwirtschaftliche Böden
+4_D_1	Landwirtschaftliche Böden: Direkte Emissionen
+4_D_2	Landwirtschaftliche Böden: Viehdünger auf Weiden und Wiesen ausgeschieden
+4_D_3	Landwirtschaftliche Böden: Indirekte Emissionen
+4_D_4	Landwirtschaftliche Böden: Sonstiges
+4_E	Vorgeschriebenes Abbrennen von Savannen
+4_F	Verbrennen landwirtschaftlicher Rückstände auf dem Feld
+4_F_1	Verbrennen landwirtschaftlicher Rückstände auf dem Feld: Getreide
+4_F_2	Verbrennen landwirtschaftlicher Rückstände auf dem Feld: Hülsenfrüchte
+4_F_3	Verbrennen landwirtschaftlicher Rückstände auf dem Feld: Wurzel- und Knollpflanzen
+4_F_4	Verbrennen landwirtschaftlicher Rückstände auf dem Feld: Zuckerrohr
+4_F_5	Verbrennen landwirtschaftlicher Rückstände auf dem Feld: Sonstiges
+4_G	Sonstiges
+5	LULUCF (Flächennutzung, Flächennutzungsänderung und Forstwirtschaft)
+6	Abfall
+6_A	Entsorgung fester Abfälle auf Land (Deponierung)
+6_B	Abwasserbehandlung
+6_C	Abfallverbrennung
+6_D	Sonstiges
+7	Sonstiges
+AP0	Nationale Gesamtwerte (Ohne natuerliche Quellen)
+AP1	Energieindustrien
+AP12	Energieindustrien (Stromerzeugung 1A1a)
+AP2	Diffuse Emissionen
+AP3	Industrie (Energie)
+AP9	Industrie (Prozesse)
+AP6	Sonstige (Energie)
+AP10	Sonstige (Nicht-Energie)
+AP7	Strassentransport
+AP8	Sonstige Transporte
+AP4	Landwirtschaft
+AP5	Abfall
+AP14	Nicht zugeordnet
+TOT_NAT	Gesamtheit der Emissionsbereiche des nationalen Hoheitsgebietes
+SE1_EPD	Energieerzeugung und -verteilung (NFR 1A1a, b, c, 1A3e und 1B1a, b, c, 1B2a, b, c and 1B3)
+SE1_EUI	Energieverbrauch in der Industrie (NFR 1A2a, b, c, d, e, f)
+SE1_RD	Straßentransport (NFR 1A3b)
+SE1_NRD	Road transport (NFR 1A3b)
+SE1_CIH	Kommerziell, institutionell und Private Haushalte (NFR 1A4a, b, ci, cii, 1A5a, b)
+SE2_IP	Industrielle Prozesse (NFR 2A1-7, 2B1-5, 2C1-5 (except 2C4), 2D1-3, 2E, 2F, 2G)
+SE3_SPU	Verwendung von Lösungsmitteln und anderen Erzeugnissen (NFR 3A1-3, 3B1-2, 3C, 3D1-3)
+SE4_AGR	Landwirtschaft (NFR 4B1-9 (except 4B5) and 4B13, 4D1a, 4D2a, b, c, 4F, 4G)
+SE6_WST	Abfall (NFR 6A, 6B, 6Ca-e, 6D)
+SE7_OTH	Sonstiges (NFR 7A)

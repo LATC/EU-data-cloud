@@ -1,0 +1,19 @@
+TOTAL	Insgesamt
+CANAL	Schiffbare Kanäle
+RIVER_LAKE	Befahrbare Flüsse und Seen
+MWAY	Autobahn
+ROAD_OTH	Sonstige Straßen
+ROAD_OTH_IN	Sonstige Straßen innerhalb von bebauten Gebieten
+ROAD_OTH_OUT	Sonstige Straßen außerhalb von bebauten Gebieten
+ROAD_STA	Bundesstraßen
+ROAD_PRO	Landesstraßen
+ROAD_COM	Gemeindestraßen
+LINE_NELEC	Nicht elektrifizierte Linien
+LINE_ELEC	Elektrifizierte Linien
+LINE_HSPEED	Hochgeschwindigkeitszüge
+LINE_OTH	Andere Zugverbindungen
+TRK_NELEC	Nicht-elektrifizierte Strecken
+TRK_ELEC	Elektrifizierte Strecken
+METRO	U-Bahn-Linien
+IURB_CBUS	Überlandbusse und Stadtbusse
+IMODAL	Fläche für den intermodalen Güterverkehr (in Quadratmetern)

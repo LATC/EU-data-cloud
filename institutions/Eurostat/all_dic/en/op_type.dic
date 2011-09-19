@@ -1,0 +1,12 @@
+RO_ALL	All registered operators
+RO_01	All registered producers
+RO_02	All registered processors
+RO_03	All registered importers
+RO_04	Registered producers only
+RO_05	Registered processors only
+RO_06	Registered importers only
+RO_07	Registered mixed operators : producers/processors
+RO_08	Registered mixed operators : producers/importers
+RO_09	Registered mixed operators : processors/importers
+RO_10	Registered mixed operators : producers/processors/importers
+RO_11	Other registered operators

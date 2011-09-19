@@ -1,0 +1,27 @@
+MULTI_FAM	Personen in privaten Mehrfamilienhaushalten
+HH_MBRGE_5	Personen in privaten Haushalten von 5 oder mehr Mitgliedern
+CHILD	Kind
+A1_CH	Alleinstehender Elternteil mit Kindern
+FOR	Ausländer - Insgesamt
+BORNOUT	Ist außerhalb des Zählungslandes geboren
+BORNIN	Im Heimatland geboren
+LIVOUT	Hat im Vorahr außerhalb des Zählungslandes gelebt
+ISCED1	Primärbereich oder Stufe 1 der Grundausbildung - Stufe 1 (ISCED 1997)
+ISCED5_6	Tertiärbereich - Stufen 5-6 (ISCED 1997)
+INACT	Nichterwerbsbevölkerung
+EDUC	Besucht eine Bildungseinrichtung
+UNE	Arbeitslosigkeit
+EMPLER	Arbeitgeber
+PT	Teilzeit
+ISCO1	Angehörige gesetzgebender Körperschaften, leitende Verwaltungsbedienstete und Führungskräfte in der Privatwirtschaft
+ISCO2	Wissenschaftler
+TOT_HH	Alle Haushalte
+HH_ACT	Haushalte durch Zahl der ökonomisch aktiven Mitglieder
+GE_65	Haushalte mit Mitgliedern alterten 65 und mehr
+GE_75	Haushalte mit Mitgliedern alterten 75 und mehr
+TOT_DWEL	Gesamtzahl der Wohnungen
+OCC	Gesamtzahl der besetzten Wohnungen
+TOT_PERS_DWEL	Gesamtzahl der Personen
+UNK	Unbekannt
+TOT_ROOM_DWEL	Gesamtzahl der Räume in herkömmlichen bewohnten Wohnungen
+UNK_PERS	Gesamtzahl der Personen mit unbekannter Wohnung

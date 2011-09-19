@@ -1,0 +1,9 @@
+TOTAL	Total
+1_99	Exploitations avec entre 1 et 99 de poulets de chair
+100_999	Exploitations avec entre 100 et 999 de poulets de chair
+1000_2999	Exploitations avec entre 1000 et 2999 de poulets de chair
+3000_4999	Exploitations avec entre 3000 et 4999 de poulets de chair
+5000_9999	Exploitations avec entre 5000 et 9999 de poulets de chair
+10000_49999	Exploitations avec entre 10000 et 49999 de poulets de chair
+50000_99999	Exploitations avec entre 50000 et 99999 de poulets de chair
+GE_100000	Exploitations avec 100000 ou plus de poulets de chair

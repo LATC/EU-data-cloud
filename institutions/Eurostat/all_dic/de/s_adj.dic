@@ -1,0 +1,15 @@
+GROSS	Bruttodaten
+NSA	Nichtsaisonbereinigte Daten
+SA	Saisonbereinigte Daten
+MIX	Gemischte Methoden
+BV4	Berlin-Methode
+X11	Methode Census-II X11
+X11A	Arima-Methode Census-II X11
+SEAT	Extraktionsmethode Signal
+SABL	Saisonbereinigte Daten nach SABL
+TREND	Trend (glatte Komponente)
+LT_SABL	Langfristiger Trend nach SABL
+LT_SEATS	Langfristiger Trend nach SEATS
+WDA	Arbeitstäglich bereinigte Daten
+SWDA	Saisonbereinigte und arbeitstäglich bereinigte Daten
+NOT_APP	Nicht zutreffend

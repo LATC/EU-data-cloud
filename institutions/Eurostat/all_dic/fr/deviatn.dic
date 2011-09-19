@@ -1,0 +1,11 @@
+TOTAL	Total
+DEV_0	Pas d'information
+DEV_1	Déviation par problème électrique, explosion, feu - Non précisé
+DEV_2	Déviation par débordement, renversement, fuite, écoulement, vaporisation, dégagement - Non précisé
+DEV_3	Rupture, bris, éclatement, glissade, chute, effondrement d'Agent matériel - Non précisé
+DEV_4	Perte, totale ou partielle, de contrôle de machine, moyen de transport - équipement de manutention, outil à main, objet, animal - Non précisé
+DEV_5	Glissade ou trébuchement avec chute, chute de personne - Non précisé
+DEV_6	Mouvement du corps sans contrainte physique (conduisant généralement à une blessure externe) - Non précisé
+DEV_7	Mouvement du corps sous ou avec contrainte physique (conduisant généralement à une blessure interne) - Non précisé
+DEV_8	Surprise, frayeur, violence, agression, menace, présence - Non précisé
+DEV_9	Autre Déviation non listée dans cette classification.

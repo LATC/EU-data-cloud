@@ -1,0 +1,14 @@
+TOTAL	Total
+TOT_FTU	Total en unités à temps complet
+NB_TOT	Tous (pas de ventilation)
+FT	Temps complet
+FT_GE32	Temps complet (32 heures ou plus par semaine)
+LONG_PT	Temps partiel long (20-31 heures par semaine)
+SHORT_PT	Temps partiel court (1-19 heures par semaine)
+PT	Temps partiel
+PT_FTU	Temps partiel en unités à temps complet
+AVG_FTU	Moyenne annuelle par personne en unité à temps complet
+OCC	Occasionnel
+UNK	Inconnu
+NOT_SPEC	Non spécifié
+NRESP	Sans réponse

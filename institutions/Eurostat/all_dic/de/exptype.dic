@@ -1,0 +1,15 @@
+XTOT	Insgesamt
+XIND	Transfers an Einzelpersonen
+XINDPER	Transfers an Einzelpersonen - regelm‰ﬂige Geldleistungen
+XINDLUMP	Transfers an Einzelpersonen - einmalige Pauschalleistungen
+XINDREIM	Transfers an Einzelpersonen - Erstattungen
+XINDRSOC	Transfers an Einzelpersonen - Senkung von Sozialbeitr‰gen
+XINDRTAX	Transfers an Einzelpersonen - Senkung von Steuern
+XEMP	Transfers an Arbeitgeber
+XEMPPER	Transfers an Arbeitgeber - regelm‰ﬂige Geldleistungen
+XEMPLUMP	Transfers an Arbeitgeber - einmalige Pauschalleistungen
+XEMPREIM	Transfers an Arbeitgeber - Erstattungen
+XEMPRSOC	Transfers an Arbeitgeber - Senkung von Sozialbeitr‰gen
+XEMPRTAX	Transfers an Arbeitgeber - Senkung von Steuern
+XSERV	Transfers an Dienstleistungsanbieter
+XNOTSPEC	Nicht spezifiziert

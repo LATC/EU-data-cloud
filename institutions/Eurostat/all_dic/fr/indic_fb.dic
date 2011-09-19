@@ -1,0 +1,155 @@
+101_A	Nombre de salariés, l'année de création de l'entreprise
+101_N	Nombre d'unités ayant survécu entre 2002 et 2005
+201_A	Origine de l'entreprise - Nouvelle création
+201_C	Origine de l'entreprise - Reprise d'activité après un arrêt temporaire de plus de deux ans
+201_T	Origine de l'entreprise - Total
+202_A	Motifs de création de l'entreprise - Désir d'affronter de nouveaux défis ou goût d'entreprendre
+202_B	Motifs de création de l'entreprise - Volonté d'être indépendant
+202_C	Motifs de création de l'entreprise - Volonté de transformer un hobby en un métier
+202_D	Motifs de création de l'entreprise - Tradition d'entrepreneurs dans l'entourage familial
+202_E	Motifs de création de l'entreprise - Mieux allier vie familiale et vie professionnelle
+202_F	Motifs de création de l'entreprise - Situation familiale plus favorable
+202_G	Motifs de création de l'entreprise - Perspectives de meilleurs gains
+202_H	Motifs de création de l'entreprise - Réaliser une nouvelle idée de produit ou de service
+202_I	Motifs de création de l'entreprise - Présence sur les marchés internationaux
+202_J	Motifs de création de l'entreprise - Eviter le chômage
+202_K	Motifs de création de l'entreprise - Manque de satisfaction dans le travail
+202_L	Motifs de création de l'entreprise - Devenir sous-traitant pour l'employeur précédent
+202_M	Motifs de création de l'entreprise - Seule possibilité pour pouvoir exercer une profession
+202_T	Motifs de création de l'entreprise - Aucune des options précitées
+203_A	Sources de financement de l'entreprise - Ressources personnelles
+203_B	Sources de financement de l'entreprise - Soutien  financier par la famille ou des amis
+203_C	Sources de financement de l'entreprise - Crédit bancaire sans garantie
+203_D	Sources de financement de votre entreprise - Crédit bancaire avec garantie
+203_E	Sources de financement de votre entreprise - Apport en capital d'autres sociétés
+203_F	Sources de financement de votre entreprise - Apport du capital à risque
+203_G	Sources de financement de votre entreprise - Aides étatiques
+203_T	Sources de financement de l'entreprise - Total
+204_A	Difficultés lors de la création de l'entreprise - Obtenir un financement
+204_B	Difficultés lors de la création de l'entreprise - Etablir des contacts avec la clientèle
+204_C	Difficultés lors de la création de l'entreprise - Obtenir le paiement de factures impayées
+204_D	Difficultés lors de la création de l'entreprise - Fixer le prix des produits ou services
+204_E	Difficultés lors de la création de l'entreprise - Trouver un local commercial approprié
+204_F	Difficultés lors de la création de l'entreprise - Trouver des fournisseurs
+204_G	Difficultés lors de la création de l'entreprise - Embaucher du personnel qualifié
+204_H	Difficultés lors de la création de l'entreprise - Utiliser de manière efficace les technologies de l'information
+204_I	Difficultés lors de la création de l'entreprise - Régler les formalités administratives
+204_J	Difficultés lors de la création de l'entreprise - Etre seul comme entrepreneur
+204_K	Difficultés lors de la création de l'entreprise - Manque de soutien familial
+204_T	Difficultés lors de la création de l'entreprise - Aucune des options précitées
+205_A	Situation avant la création de l'entreprise - Salarié
+205_B	Situation avant la création de l'entreprise - Dirigeant d'une autre entreprise
+205_C	Situation avant la création de l'entreprise - Etudiant
+205_D	Situation avant la création de l'entreprise - Sans activité professionnelle et demandeur d'emploi
+205_E	Situation avant la création de l'entreprise - Sans activité professionnelle et non-demandeur d'emploi
+205_T	Situation avant la création de l'entreprise - Total
+206_A	Expérience professionnelle dans la branche d'activité de l'entreprise - Oui
+206_B	Expérience professionnelle dans la branche d'activité de l'entreprise - Non
+206_T	Expérience professionnelle dans la branche d'activité de l'entreprise - Total
+207_A	Création d'une autre entreprise par le passé - Non
+207_B	Création d'une autre entreprise par le passé - Une fois
+207_C	Création d'une autre entreprise par le passé - Plus d'une fois
+207_T	Création d'une autre entreprise par le passé - Total
+208_A	Formation particulière pour la réalisation du projet - Initiative de l'entrepreneur
+208_B	Formation particulière pour la réalisation du projet - Oui, parce que cette formation est requise par les autorités publiques
+208_C	Formation particulière pour la réalisation du projet - Non, aucune
+208_T	Formation particulière pour la réalisation du projet - Total
+209_A	Sources de conseils - Famille / amis
+209_B	Sources de conseils - Cours de formation pour entrepreneurs
+209_C	Sources de conseils - Entourage professionnel
+209_D	Sources de conseils - Conseillers professionnels
+209_E	Sources de conseils - Administration de l'emploi (ADEM)
+209_F	Sources de conseils - Organisme(s) spécialisé(s) dans la création d'entreprises
+209_G	Sources de conseils - Institution financière
+209_H	Sources de conseils - Pas d'accès à des conseils externes
+209_I	Sources de conseils - Pas de recours à des conseils externes
+209_T	Sources de conseils - Total
+210_A	Autre activité rémunérée - Oui
+210_B	Autre activité rémunérée - Non
+210_T	Autre activité rémunérée - Total
+211_A	Catégorie d'age - Moins de 30 ans
+211_B	Catégorie d'age - De 30 à 39 ans
+211_C	Catégorie d'age - 40 ans ou plus
+211_T	Catégorie d'age - Total
+212_A	Sexe - Féminin
+212_B	Sexe - Masculin
+212_T	Sexe - Total
+213_A	Nationalité - Domestique
+213_B	Nationalité - Etrangère - Union européenne (UE)
+213_C	Nationalité - Etrangère - Hors UE
+213_T	Nationalité - Total
+214_A	Diplôme scolaire - Diplôme d'études primaires / d'études secondaires inférieures
+214_B	Diplôme scolaire - Diplôme d'études secondaires
+214_C	Diplôme scolaire - Diplôme d'études postsecondaires non universitaires
+214_D	Diplôme scolaire - Diplôme d'études universitaires
+214_T	Diplôme scolaire - Total
+301_A	Gestion courante - Seul
+301_B	Gestion courante - Avec une ou plusieurs autres personnes
+301_C	Gestion courante - Uniquement par recours à des dirigeants rémunérés
+301_T	Gestion courante - Total
+302_A	Personnes employées - Non-rémunéré(e)s / indépendants
+302_B	Personnes employées - Salarié(e)s
+303_A	Chiffre d'affaire en 2004
+304_A	Chiffre d'affaire en 2005
+305_A	Origine du chiffre d'affaire - 1 client
+305_B	Origine du chiffre d'affaire - De 2 à 4 clients
+305_C	Origine du chiffre d'affaire - Plus de 5 clients
+305_T	Origine du chiffre d'affaire - Total
+306_A	Type de marché - Local / régional
+306_B	Type de marché - National
+306_C	Type de marché - Union européenne (UE)
+306_D	Type de marché - Hors UE
+306_T	Type de marché - Total
+307_A	Jugement de rentabilité - Très bonne
+307_B	Jugement de rentabilité - Bonne
+307_C	Jugement de rentabilité - Juste suffisante
+307_D	Jugement de rentabilité - Insuffisante
+307_T	Jugement de rentabilité - Total
+308_A	Type de coopération avec d'autres entreprises - Dans un réseau
+308_B	Type de coopération avec d'autres entreprises - Comme sous-traitant
+308_C	Type de coopération avec d'autres entreprises - Comme franchisé ou ou avec une licence
+308_D	Type de coopération avec d'autres entreprises - En co-entreprise
+308_E	Type de coopération avec d'autres entreprises - Aucune des options précitées
+308_T	Type de coopération avec d'autres entreprises - Total
+309_A	Innovation dans l'entreprise - Nouveau produit/service
+309_B	Innovation dans l'entreprise - Nouveau procédé de production
+309_C	Innovation dans l'entreprise - Nouvelle forme organisationnelle de gestion
+309_D	Innovation dans l'entreprise - Nouveau concept de vente pour les produits/services
+309_T	Innovation dans l'entreprise - Total
+310_A	Obstacles pour vendre des produits ou services - Concurrence trop forte
+310_B	Obstacles pour vendre des produits ou services - Demande trop faible pour les produits ou services offerts
+310_C	Obstacles pour vendre des produits ou services - Difficultés de fixation des prix pour les produits ou services vendus
+310_D	Obstacles pour vendre des produits ou services - Manque des compétences requises en marketing
+310_T	Obstacles pour vendre des produits ou services - Total
+311_A	Obstacles pour le développement de l'entreprise - Rentabilité
+311_B	Obstacles pour le développement de l'entreprise - Possibilité d'obtenir des crédits bancaires
+311_C	Obstacles pour le développement de l'entreprise - Possibilité d'obtenir un apport en capital
+311_D	Obstacles pour le développement de l'entreprise - Possibilité d'obtenir des crédits à courts terme
+311_E	Obstacles pour le développement de l'entreprise - Disponibilté du personnel qualifié
+311_F	Obstacles pour le développement de l'entreprise - Coût du personnel
+311_G	Obstacles pour le développement de l'entreprise - Charges administratives
+311_H	Obstacles pour le développement de l'entreprise - Adaptation aux nouveaux standards technologiques
+311_I	Obstacles pour le développement de l'entreprise - Disponibilité de compétences en gestion
+311_J	Obstacles pour le développement de l'entreprise - Allier travail et vie familiale
+311_K	Obstacles pour le développement de l'entreprise - Trouver des partenaires
+311_L	Obstacles pour le développement de l'entreprise - Pas assez de clients ou clients en retard de paiement
+311_T	Obstacles pour le développement de l'entreprise - Total
+401_A	Plans pour la poursuite des activités de l'entreprise - Continuation sans changement
+401_B	Plans pour la poursuite des activités de l'entreprise - Affiliation avec une ou plusieurs entreprises
+401_C	Plans pour la poursuite des activités de l'entreprise - Vente ou fermeture de l'entreprise en vue de lancer une nouvelle entreprise dans la même branche d'activité
+401_D	Plans pour la poursuite des activités de l'entreprise - Vente ou fermeture de l'entreprise en vue de lancer une nouvelle entreprise dans une autre branche d'activité
+401_E	Plans pour la poursuite des activités de l'entreprise - Vente ou fermeture de l'entreprise sans lancer une nouvelle entreprise
+401_T	Plans pour la poursuite des activités de l'entreprise - Total
+402_A	Evolution prévue de l'activité de l'entreprise - Augmentation du chiffre d'affaires
+402_B	Evolution prévue de l'activité de l'entreprise - Augmentation du nombre de personnes occupées
+402_C	Evolution prévue de l'activité de l'entreprise - Augmentation de la diversité des biens et services offerts
+402_D	Evolution prévue de l'activité de l'entreprise - Augmentation de la rentabilité
+402_T	Evolution prévue de l'activité de l'entreprise - Total
+403_A	Priorité principale si les revenus de l'entreprise augmentent - Embaucher plus de personnel
+403_B	Priorité principale si les revenus de l'entreprise augmentent - Augmenter la rémunération des employé(e)s
+403_C	Priorité principale si les revenus de l'entreprise augmentent - Investir dans l'activité de l'entreprise
+403_D	Priorité principale si les revenus de l'entreprise augmentent - Rembourser les prêts ou dettes
+403_E	Priorité principale si les revenus de l'entreprise augmentent - Augmenter le salaire de l'entrepreneur
+403_F	Priorité principale si les revenus de l'entreprise augmentent - Réduire le temps de travail de l'entrepreneur
+403_G	Priorité principale si les revenus de l'entreprise augmentent - Aucune des options précitées
+403_T	Priorité principale si les revenus de l'entreprise augmentent - Total

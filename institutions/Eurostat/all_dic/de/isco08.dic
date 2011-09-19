@@ -1,0 +1,623 @@
+TOTAL	Insgesamt
+OC1	Führungskräfte
+OC11	Geschäftsführer, Vorstände, leitende Verwaltungsbedienstete und Angehörige gesetzgebender Körperschaften
+OC111	Angehörige gesetzgebender Körperschaften und leitende Verwaltungsbedienstete
+OC1111	Angehörige gesetzgebender Körperschaften
+OC1112	Leitende Verwaltungsbedienstete
+OC1113	Traditionelle Dorf- und Stammeshäuptlinge
+OC1114	Leitende Bedienstete von Interessenorganisationen
+OC112	Geschäftsführer und Vorstände
+OC1120	Geschäftsführer und Vorstände
+OC12	Führungskräfte im kaufmännischen Bereich
+OC121	Führungskräfte in der betrieblichen Verwaltung und in unternehmensbezogenen Dienstleistungen
+OC1211	Führungskräfte im Bereich Finanzen
+OC1212	Führungskräfte im Personalwesen
+OC1213	Führungskräfte in Unternehmenspolitik und -planung
+OC1219	Führungskräfte in der betrieblichen Verwaltung und in unternehmensbezogenen Dienstleistungen, anderweitig nicht genannt
+OC122	Führungskräfte in Vertrieb, Marketing und Entwicklung
+OC1221	Führungskräfte in Vertrieb und Marketing
+OC1222	Führungskräfte in Werbung und Öffentlichkeitsarbeit
+OC1223	Führungskräfte in Forschung und Entwicklung
+OC13	Führungskräfte in der Produktion und bei speziellen Dienstleistungen
+OC131	Führungskräfte in der Produktion in Land- und Forstwirtschaft und Fischerei
+OC1311	Führungskräfte in der Produktion in Land- und Forstwirtschaft
+OC1312	Führungskräfte in der Produktion in Aquakultur und Fischerei
+OC132	Führungskräfte in der Produktion bei der Herstellung von Waren, im Bergbau und im Bau sowie in der Logistik
+OC1321	Führungskräfte in der Produktion bei der Herstellung von Waren
+OC1322	Führungskräfte in der Produktion im Bergbau
+OC1323	Führungskräfte in der Produktion im Bau
+OC1324	Führungskräfte in der Beschaffung, Logistik und in verwandten Bereichen
+OC133	Führungskräfte in der Erbringung von Dienstleistungen im Bereich Informations- und Kommunikationstechnologie
+OC1330	Führungskräfte in der Erbringung von Dienstleistungen im Bereich Informations- und Kommunikationstechnologie
+OC134	Führungskräfte in der Erbringung von speziellen Dienstleistungen
+OC1341	Führungskräfte in der Erbringung von Dienstleistungen der Kinderbetreuung
+OC1342	Führungskräfte in der Erbringung von Dienstleistungen im Gesundheitswesen
+OC1343	Führungskräfte in der Erbringung von Dienstleistungen der Altenbetreuung
+OC1344	Führungskräfte in der Erbringung von Dienstleistungen der Sozialfürsorge
+OC1345	Führungskräfte in der Erbringung von Dienstleistungen des Bildungswesens
+OC1346	Führungskräfte auf Filialebene in der Erbringung von Finanz- und Versicherungsdienstleistungen
+OC1349	Führungskräfte in der Erbringung von speziellen Dienstleistungen, anderweitig nicht genannt
+OC14	Führungskräfte in Hotels und Restaurants, im Handel und in der Erbringung sonstiger Dienstleistungen
+OC141	Führungskräfte in Hotels und Restaurants
+OC1411	Führungskräfte in Hotels
+OC1412	Führungskräfte in Restaurants
+OC142	Führungskräfte in Groß- und Einzelhandel
+OC1420	Führungskräfte in Groß- und Einzelhandel
+OC143	Führungskräfte in der Erbringung sonstiger Dienstleistungen
+OC1431	Führungskräfte in der Erbringung von Dienstleistungen im Bereich Sport, Erholung und Kultur
+OC1439	Führungskräfte in der Erbringung von Dienstleistungen, anderweitig nicht genannt
+OC2	Akademische Berufe
+OC21	Naturwissenschaftler, Mathematiker und Ingenieure
+OC211	Physiker, Chemiker, Geologen und verwandte Berufe
+OC2111	Physiker und Astronomen
+OC2112	Meteorologen
+OC2113	Chemiker
+OC2114	Geologen und Geophysiker
+OC212	Mathematiker, Versicherungsmathematiker und Statistiker
+OC2120	Mathematiker, Versicherungsmathematiker und Statistiker
+OC213	Biowissenschaftler
+OC2131	Biologen, Botaniker, Zoologen und verwandte Berufe
+OC2132	Agrar-, Forst- und Fischereiwissenschaftler und -berater
+OC2133	Umweltwissenschaftler
+OC214	Ingenieurwissenschaftler (ohne Elektrotechnik, Elektronik und Telekommunikation)
+OC2141	Wirtschafts- und Produktionsingenieure
+OC2142	Bauingenieure
+OC2143	Umweltschutzingenieure
+OC2144	Maschinenbauingenieure
+OC2145	Chemieingenieure
+OC2146	Bergbauingenieure, Metallurgen und verwandte Berufe
+OC2149	Ingenieure, anderweitig nicht genannt
+OC215	Ingenieure in den Bereichen Elektrotechnik, Elektronik und Telekommunikationstechnik
+OC2151	Ingenieure im Bereich Elektrotechnik
+OC2152	Ingenieure im Bereich Elektronik
+OC2153	Ingenieure im Bereich Telekommunikationstechnik
+OC216	Architekten, Raum-, Stadt- und Verkehrsplaner, Vermessungsingenieure und Designer
+OC2161	Architekten
+OC2162	Landschaftsarchitekten
+OC2163	Produkt- und Textildesigner
+OC2164	Raum-, Stadt- und Verkehrsplaner
+OC2165	Kartografen und Vermessungsingenieure
+OC2166	Grafik- und Multimediadesigner
+OC22	Akademische und verwandte Gesundheitsberufe
+OC221	Ärzte
+OC2211	Allgemeinärzte
+OC2212	Fachärzte
+OC222	Akademische und vergleichbare Krankenpflege- und Geburtshilfefachkräfte
+OC2221	Akademische und vergleichbare Krankenpflegefachkräfte
+OC2222	Akademische und vergleichbare Geburtshilfefachkräfte
+OC223	Akademische und vergleichbare Fachkräfte in der traditionellen und komplementären Medizin
+OC2230	Akademische und vergleichbare Fachkräfte in der traditionellen und komplementären Medizin
+OC224	Feldscher und vergleichbare paramedizinische Praktiker
+OC2240	Feldscher und vergleichbare paramedizinische Praktiker
+OC225	Tierärzte
+OC2250	Tierärzte
+OC226	Sonstige akademische und verwandte Gesundheitsberufe
+OC2261	Zahnärzte
+OC2262	Apotheker
+OC2263	Akademische und vergleichbare Fachkräfte in den Bereichen Umwelt- und Arbeitsmedizin sowie Hygiene
+OC2264	Physiotherapeuten
+OC2265	Diätologen und Ernährungsberater
+OC2266	Audiologen und Sprachtherapeuten
+OC2267	Optometristen und Orthoptisten
+OC2269	Akademische und verwandte Gesundheitsberufe, anderweitig nicht genannt
+OC23	Lehrkräfte
+OC231	Universitäts- und Hochschullehrer
+OC2310	Universitäts- und Hochschullehrer
+OC232	Lehrkräfte im Bereich Berufsbildung
+OC2320	Lehrkräfte im Bereich Berufsbildung
+OC233	Lehrkräfte im Sekundarbereich
+OC2330	Lehrkräfte im Sekundarbereich
+OC234	Lehrkräfte im Primar- und Vorschulbereich
+OC2341	Lehrkräfte im Primarbereich
+OC2342	Lehrkräfte und Erzieher im Vorschulbereich
+OC235	Sonstige Lehrkräfte
+OC2351	Pädagogik- und Didaktikspezialisten
+OC2352	Lehrkräfte im Bereich Sonderpädagogik
+OC2353	Sonstige Sprachlehrer
+OC2354	Sonstige Musiklehrer
+OC2355	Sonstige Kunstlehrer
+OC2356	Ausbilder im Bereich Informationstechnologie
+OC2359	Lehrkräfte, anderweitig nicht genannt
+OC24	Betriebswirte und vergleichbare akademische Berufe
+OC241	Akademische und vergleichbare Fachkräfte im Bereich Finanzen
+OC2411	Wirtschaftsprüfer, Steuerberater und verwandte Berufe
+OC2412	Finanz- und Anlageberater
+OC2413	Finanzanalysten
+OC242	Akademische und vergleichbare Fachkräfte in der betrieblichen Verwaltung
+OC2421	Akademische und vergleichbare Fachkräfte im Bereich Management- und Organisationsanalyse
+OC2422	Akademische und vergleichbare Fachkräfte in der strategischen Planung in Politik und Wirtschaft
+OC2423	Berufsberater und -analytiker und akademische und vergleichbare Personalfachleute
+OC2424	Fachkräfte in Personalschulung und -entwicklung
+OC243	Akademische und vergleichbare Fachkräfte in Vertrieb, Marketing und Öffentlichkeitsarbeit
+OC2431	Akademische und vergleichbare Fachkräfte in Werbung und Marketing
+OC2432	Akademische und vergleichbare Fachkräfte in der Öffentlichkeitsarbeit
+OC2433	Akademische und vergleichbare Fachkräfte im Bereich Vertrieb (Technik und Medizin, ohne Informations-und Kommunikationstechnologie)
+OC2434	Akademische und vergleichbare Fachkräfte im Vertrieb von Informations- und Kommunikationstechnologie
+OC25	Akademische und vergleichbare Fachkräfte in der Informations- und Kommunikationstechnologie
+OC251	Entwickler und Analytiker von Software und Anwendungen
+OC2511	Systemanalytiker
+OC2512	Softwareentwickler
+OC2513	Web- und Multimediaentwickler
+OC2514	Anwendungsprogrammierer
+OC2519	Entwickler und Analytiker von Software und Anwendungen, anderweitig nicht genannt
+OC252	Akademische und vergleichbare Fachkräfte für Datenbanken und Netzwerke
+OC2521	Datenbankentwickler und -administratoren
+OC2522	Systemadministratoren
+OC2523	Akademische und vergleichbare Fachkräfte für Computernetzwerke
+OC2529	Akademische und vergleichbare Fachkräfte für Datenbanken und Netzwerke, anderweitig nicht genannt
+OC26	Juristen, Sozialwissenschaftler und Kulturberufe
+OC261	Juristen
+OC2611	Anwälte
+OC2612	Richter
+OC2619	Juristen, anderweitig nicht genannt
+OC262	Archiv-, Bibliotheks- und Museumswissenschaftler
+OC2621	Archiv- und Museumswissenschaftler
+OC2622	Bibliothekswissenschaftler und verwandte Informationswissenschaftler
+OC263	Sozialwissenschaftler, Geistliche und Seelsorger
+OC2631	Volkswirtschaftler
+OC2632	Soziologen, Anthropologen und verwandte Wissenschaftler
+OC2633	Philosophen, Historiker und Politologen
+OC2634	Psychologen
+OC2635	Sozialarbeiter
+OC2636	Geistliche Seelsorger
+OC264	Autoren, Journalisten und Linguisten
+OC2641	Autoren und verwandte schriftstellerische Berufe
+OC2642	Journalisten
+OC2643	Übersetzer, Dolmetscher und andere Linguisten
+OC265	Bildende und darstellende Künstler
+OC2651	Bildende Künstler
+OC2652	Musiker, Sänger und Komponisten
+OC2653	Tänzer und Choreografen
+OC2654	Regisseure und Produzenten im Film- und Bühnenbereich sowie in verwandten Bereichen
+OC2655	Schauspieler
+OC2656	Sprecher im Rundfunk, Fernsehen und sonstigen Medien
+OC2659	Bildende und darstellende Künstler, anderweitig nicht genannt
+OC3	Techniker und gleichrangige nichttechnische Berufe
+OC31	Ingenieurtechnische und vergleichbare Fachkräfte
+OC311	Material- und ingenieurtechnische Fachkräfte
+OC3111	Chemo- und Physikotechniker
+OC3112	Bautechniker
+OC3113	Elektrotechniker
+OC3114	Techniker im Bereich Elektronik
+OC3115	Maschinenbautechniker
+OC3116	Chemiebetriebs- und Verfahrenstechniker
+OC3117	Bergbau- und Hüttentechniker
+OC3118	Technische Zeichner
+OC3119	Material- und ingenieurtechnische Fachkräfte, anderweitig nicht genannt
+OC312	Produktionsleiter im Bergbau, bei der Herstellung von Waren und im Bau
+OC3121	Produktionsleiter im Bergbau
+OC3122	Produktionsleiter bei der Herstellung von Waren
+OC3123	Bauleiter
+OC313	Techniker in der Prozesssteuerung
+OC3131	Steuerer von Energieerzeugungsanlagen
+OC3132	Steuerer von Verbrennungs- und Wasserbehandlungsanlagen
+OC3133	Steuerer von chemischen Verfahrensanlagen
+OC3134	Steuerer von Erdöl- und Erdgasraffinationsanlagen
+OC3135	Steuerer von Verfahren in der Metallerzeugung
+OC3139	Techniker in der Prozesssteuerung, anderweitig nicht genannt
+OC314	Biotechniker und verwandte technische Berufe
+OC3141	Biotechniker (ohne medizinische Fachberufe)
+OC3142	Agrartechniker
+OC3143	Forsttechniker
+OC315	Schiffsführer, Flugzeugführer und verwandte Berufe
+OC3151	Technische Schiffsoffiziere
+OC3152	Schiffsführer, nautische Schiffsoffiziere und Schiffslotsen
+OC3153	Flugzeugführer und verwandte Berufe
+OC3154	Flugverkehrslotsen
+OC3155	Flugsicherungstechniker
+OC32	Assistenzberufe im Gesundheitswesen
+OC321	Medizinische und pharmazeutische Fachberufe
+OC3211	Medizintechniker im Bereich bildgebende Verfahren und Therapiegeräte
+OC3212	Medizintechniker im Bereich Labor und Pathologie
+OC3213	Pharmazeutisch-technische Assistenten
+OC3214	Medizinische und zahnmedizinische Prothetiktechniker
+OC322	Nicht akademische Krankenpflege- und Geburtshilfefachkräfte
+OC3221	Nicht akademische Krankenpflegefachkräfte
+OC3222	Nicht akademische Geburtshilfefachkräfte
+OC323	Nicht akademische Fachkräfte in traditioneller und komplementärer Medizin
+OC3230	Nicht akademische Fachkräfte in traditioneller und komplementärer Medizin
+OC324	Veterinärmedizinische Fachkräfte und Assistenten
+OC3240	Veterinärmedizinische Fachkräfte und Assistenten
+OC325	Sonstige Assistenzberufe im Gesundheitswesen
+OC3251	Zahnmedizinische Assistenten und Dentalhygieniker
+OC3252	Fachkräfte im Bereich medizinische Dokumentation und Information
+OC3253	Fachkräfte in der öffentlichen Gesundheitsfürsorge
+OC3254	Augenoptiker
+OC3255	Physiotherapeutische Techniker und Assistenten
+OC3256	Medizinische Assistenten
+OC3257	Nicht akademische Kontrolleure und Beauftragte in den Bereichen Umwelt- und Arbeitsmedizin sowie verwandte Berufe
+OC3258	Rettungsdienstpersonal
+OC3259	Assistenzberufe im Gesundheitswesen, anderweitig nicht genannt
+OC33	Nicht akademische betriebswirtschaftliche und kaufmännische Fachkräfte und Verwaltungsfachkräfte
+OC331	Nicht akademische Fachkräfte im Bereich Finanzen und mathematische Verfahren
+OC3311	Wertpapierhändler, -makler und Finanzmakler
+OC3312	Kreditsachbearbeiter
+OC3313	Nicht akademische Fachkräfte im Rechnungswesen
+OC3314	Nicht akademische statistische, mathematische und verwandte Fachkräfte
+OC3315	Schätzer und Schadensgutachter
+OC332	Vertriebsagenten, Einkäufer und Handelsmakler
+OC3321	Versicherungsvertreter
+OC3322	Vertriebsagenten
+OC3323	Einkäufer
+OC3324	Handelsmakler
+OC333	Fachkräfte für unternehmensbezogene Dienstleistungen
+OC3331	Fachkräfte für Abrechnungs- und Speditionsdienstleistungen
+OC3332	Konferenz- und Veranstaltungsplaner
+OC3333	Arbeits- und Personalvermittler
+OC3334	Immobilienmakler und -verwalter
+OC3339	Fachkräfte für unternehmensbezogene Dienstleistungen, anderweitig nicht genannt
+OC334	Sekretariatsfachkräfte
+OC3341	Sekretariatsleiter
+OC3342	Sekretariatsfachkräfte im juristischen Bereich
+OC3343	Sekretariatsfachkräfte in Verwaltung und Geschäftsleitung
+OC3344	Sekretariatsfachkräfte im Gesundheitswesen
+OC335	Fachkräfte in der öffentlichen Verwaltung
+OC3351	Fachkräfte im Zolldienst und Grenzschutz
+OC3352	Fachkräfte in der Steuerverwaltung
+OC3353	Fachkräfte in Sozialverwaltung und -versicherung
+OC3354	Fachkräfte bei staatlichen Pass-, Lizenz- und Genehmigungsstellen
+OC3355	Polizeikommissare und Kriminalbeamte
+OC3359	Fachkräfte in der öffentlichen Verwaltung, anderweitig nicht genannt
+OC34	Nicht akademische juristische, sozialpflegerische, kulturelle und verwandte Fachkräfte
+OC341	Nicht akademische juristische, sozialpflegerische und religiöse Berufe
+OC3411	Nicht akademische Fachkräfte für Rechts- und verwandte Angelegenheiten
+OC3412	Nicht akademische sozialpflegerische Fachkräfte
+OC3413	Ordensbrüder/-schwestern und Seelsorgehelfer
+OC342	Fachkräfte im Bereich Sport und Fitness
+OC3421	Athleten und Berufssportler
+OC3422	Sportlehrer, Sporttrainer und Sportfunktionäre
+OC3423	Trainer und Betreuer im Bereich Fitness und Erholung
+OC343	Fachkräfte in Gestaltung und Kultur sowie Küchenchefs
+OC3431	Fotografen
+OC3432	Raumgestalter und Dekorateure
+OC3433	Fachkräfte in Kunstgalerien, Museen und Bibliotheken
+OC3434	Küchenchefs
+OC3435	Sonstige Fachkräfte in Gestaltung und Kultur
+OC35	Informations- und Kommunikationstechniker
+OC351	Techniker für den Betrieb von Informations- und Kommunikationstechnologie und für die Anwenderbetreuung
+OC3511	Techniker für den Betrieb von Informations- und Kommunikationstechnologie
+OC3512	Techniker für die Anwenderbetreuung in der Informations- und Kommunikationstechnologie
+OC3513	Techniker für Computernetzwerke und -systeme
+OC3514	Webmaster
+OC352	Telekommunikations- und Rundfunktechniker
+OC3521	Techniker für Rundfunk und audiovisuelle Medien
+OC3522	Telekommunikationstechniker
+OC4	Bürokräfte und verwandte Berufe
+OC41	Allgemeine Büro- und Sekretariatskräfte
+OC411	Allgemeine Bürokräfte
+OC4110	Allgemeine Bürokräfte
+OC412	Sekretariatskräfte (allgemein)
+OC4120	Sekretariatskräfte (allgemein)
+OC413	Schreibkräfte und Datenerfasser
+OC4131	Schreibkräfte und Bediener von Textverarbeitungsanlagen
+OC4132	Datenerfasser
+OC42	Bürokräfte mit Kundenkontakt
+OC421	Schalterbedienstete, Inkassobeauftragte und verwandte Berufe
+OC4211	Bank- und andere Schalterbedienstete
+OC4212	Buchmacher, Croupiers und verwandte Berufe im Bereich Glücks- und Wettspiele
+OC4213	Pfandleiher und Geldverleiher
+OC4214	Inkassobeauftragte und verwandte Berufe
+OC422	Berufe im Bereich Kundeninformation
+OC4221	Reiseverkehrsfachkräfte
+OC4222	Kundeninformationsfachkräfte in Call Centers
+OC4223	Telefonisten
+OC4224	Hotelrezeptionisten
+OC4225	Auskunftspersonal
+OC4226	Empfangskräfte (allgemein)
+OC4227	Interviewer im Bereich Umfragen und Marktforschung
+OC4229	Berufe im Bereich Kundeninformation, anderweitig nicht genannt
+OC43	Bürokräfte im Finanz- und Rechnungswesen, in der Statistik und in der Materialwirtschaft
+OC431	Bürokräfte im Finanz- und Rechnungswesen und in der Statistik
+OC4311	Bürokräfte im Rechnungswesen und in der Buchhaltung
+OC4312	Bürokräfte in der Statistik, im Finanz- und Versicherungswesen
+OC4313	Bürokräfte in der Lohnbuchhaltung
+OC432	Bürokräfte im Bereich Materialwirtschaft und Transport und verwandte Berufe
+OC4321	Fachkräfte in der Lagerwirtschaft
+OC4322	Bürokräfte in der Material- und Fertigungsplanung und verwandte Berufe
+OC4323	Bürokräfte in der Transportwirtschaft und verwandte Berufe
+OC44	Sonstige Bürokräfte und verwandte Berufe
+OC441	Sonstige Bürokräfte und verwandte Berufe
+OC4411	Bibliotheksassistenten
+OC4412	Postverteiler und -sortierer
+OC4413	Kodierer, Korrekturleser und verwandte Bürokräfte
+OC4414	Schreiber und verwandte Arbeitskräfte
+OC4415	Bürokräfte für Registratur und Dokumentation
+OC4416	Bürokräfte im Personalwesen
+OC4419	Bürokräfte und verwandte Berufe, anderweitig nicht genannt
+OC5	Dienstleistungsberufe und Verkäufer
+OC51	Berufe im Bereich personenbezogener Dienstleistungen
+OC511	Reisebegleiter, Schaffner und Reiseleiter
+OC5111	Reisebegleiter und Stewards
+OC5112	Schaffner
+OC5113	Reiseleiter/Fremdenführer
+OC512	Köche
+OC5120	Köche
+OC513	Kellner und Barkeeper
+OC5131	Kellner
+OC5132	Barkeeper
+OC514	Friseure, Kosmetiker und verwandte Berufe
+OC5141	Friseure
+OC5142	Kosmetiker und verwandte Berufe
+OC515	Hauswarte und Hauswirtschaftsleiter
+OC5151	Reinigungs- und Hauswirtschaftsleiter in Büros, Hotels und anderen Einrichtungen
+OC5152	Hauswirtschafter in Privathaushalten
+OC5153	Hauswarte
+OC516	Sonstige Berufe im Bereich personenbezogener Dienstleistungen
+OC5161	Astrologen, Wahrsager und verwandte Berufe
+OC5162	Gesellschafter und Zofen/Kammerdiener
+OC5163	Bestatter und Einbalsamierer
+OC5164	Tierpfleger und -betreuer
+OC5165	Fahrschullehrer
+OC5169	Berufe im Bereich personenbezogener Dienstleistungen, anderweitig nicht genannt
+OC52	Verkaufskräfte
+OC521	Straßen- und Marktverkäufer
+OC5211	Verkaufsstand- und Marktverkäufer
+OC5212	Straßenverkäufer von Lebensmitteln
+OC522	Verkaufskräfte in Handelsgeschäften
+OC5221	Leiter eines Einzelhandelsgeschäftes
+OC5222	Verkaufsaufsichtskräfte in Handelsgeschäften
+OC5223	Verkäufer und Verkaufshilfskräfte in Handelsgeschäften
+OC523	Kassierer und Kartenverkäufer
+OC5230	Kassierer und Kartenverkäufer
+OC524	Sonstige Verkaufskräfte
+OC5241	Mannequins/Dressmen und sonstige Modelle
+OC5242	Produktvorführer
+OC5243	Haustürverkäufer
+OC5244	Telefonverkäufer
+OC5245	Tankwarte
+OC5246	Imbissverkäufer
+OC5249	Verkaufskräfte, anderweitig nicht genannt
+OC53	Betreuungsberufe
+OC531	Kinder- und Lernbetreuer
+OC5311	Kinderbetreuer
+OC5312	Lernbetreuer
+OC532	Betreuungsberufe im Gesundheitswesen
+OC5321	Pflegehelfer
+OC5322	Haus- und Familienpfleger
+OC5329	Betreuungsberufe im Gesundheitswesen, anderweitig nicht genannt
+OC54	Schutzkräfte und Sicherheitsbedienstete
+OC541	Schutzkräfte und Sicherheitsbedienstete
+OC5411	Feuerwehrleute
+OC5412	Polizisten (ohne Polizeikommissare)
+OC5413	Gefängnisaufseher
+OC5414	Sicherheitswachpersonal
+OC5419	Schutzkräfte und Sicherheitsbedienstete, anderweitig nicht genannt
+OC6	Fachkräfte in Land- und Forstwirtschaft und Fischerei
+OC61	Fachkräfte in der Landwirtschaft
+OC611	Gärtner und Ackerbauern
+OC6111	Ackerbauern und Gemüseanbauer
+OC6112	Baum- und Strauchfrüchteanbauer
+OC6113	Gärtner, Saat- und Pflanzenzüchter
+OC6114	Fachkräfte in der Mischkulturlandwirtschaft
+OC612	Tierhalter
+OC6121	Nutztierhalter (ohne Geflügel) und Milchproduzenten
+OC6122	Geflügelhalter
+OC6123	Imker und Seidenraupenzüchter
+OC6129	Tierhalter, anderweitig nicht genannt
+OC613	Landwirte mit Ackerbau und Tierhaltung (ohne ausgeprägten Schwerpunkt)
+OC6130	Landwirte mit Ackerbau und Tierhaltung (ohne ausgeprägten Schwerpunkt)
+OC62	Fachkräfte in Forstwirtschaft, Fischerei und Jagd - Marktproduktion
+OC621	Forstarbeitskräfte und verwandte Berufe
+OC6210	Forstarbeitskräfte und verwandte Berufe
+OC622	Fischer, Jäger und Fallensteller
+OC6221	Fachkräfte im Bereich Aquakultur
+OC6222	Binnen- und Küstenfischer
+OC6223	Hochseefischer
+OC6224	Jäger und Fallensteller
+OC63	Landwirte, Fischer, Jäger und Sammler für den Eigenbedarf
+OC631	Ackerbauern für den Eigenbedarf
+OC6310	Ackerbauern für den Eigenbedarf
+OC632	Nutztierhalter für den Eigenbedarf
+OC6320	Nutztierhalter für den Eigenbedarf
+OC633	Ackerbauern und Nutztierhalter (ohne ausgeprägten Schwerpunkt) für den Eigenbedarf
+OC6330	Ackerbauern und Nutztierhalter (ohne ausgeprägten Schwerpunkt) für den Eigenbedarf
+OC634	Fischer, Jäger, Fallensteller und Sammler für den Eigenbedarf
+OC6340	Fischer, Jäger, Fallensteller und Sammler für den Eigenbedarf
+OC7	ndwerks- und verwandte Berufe
+OC71	au- und Ausbaufachkräfte sowie verwandte Berufe, ausgenommen Elektriker
+OC711	Baukonstruktions- und verwandte Berufe
+OC7111	Rohbaufacharbeiter im Hochbau
+OC7112	Maurer und verwandte Berufe
+OC7113	Steinmetze, Steinspalter, -bearbeiter und Steinbildhauer
+OC7114	Betonierer, Betonoberflächenfertiger und verwandte Berufe
+OC7115	Zimmerleute und Bautischler
+OC7119	Baukonstruktions- und verwandte Berufe, anderweitig nicht genannt
+OC712	Ausbaufachkräfte und verwandte Berufe
+OC7121	Dachdecker
+OC7122	Boden- und Fliesenleger
+OC7123	Stuckateure
+OC7124	Isolierer
+OC7125	Glaser
+OC7126	Bauspengler und Sanitär- und Heizungsinstallateure
+OC7127	Klima- und Kälteanlagenbauer
+OC713	Maler, Gebäudereiniger und verwandte Berufe
+OC7131	Maler und verwandte Berufe
+OC7132	Lackierer und verwandte Berufe
+OC7133	Fassadenreiniger und Schornsteinfeger/Rauchfangkehrer
+OC72	Metallarbeiter, Mechaniker und verwandte Berufe
+OC721	Blechkaltverformer, Baumetallverformer, Former (für Metallguss), Schweißer und verwandte Berufe
+OC7211	Former und Kernmacher (für Metallguss)
+OC7212	Schweißer und Brennschneider
+OC7213	Blechkaltverformer
+OC7214	Baumetallverformer und Metallbauer
+OC7215	Verspannungsmonteure und Seilspleißer
+OC722	Grobschmiede, Werkzeugmechaniker und verwandte Berufe
+OC7221	Grobschmiede, Hammerschmiede und Schmiedepresser
+OC7222	Werkzeugmechaniker und verwandte Berufe
+OC7223	Werkzeugmaschineneinrichter und -bediener
+OC7224	Metallpolierer, Rundschleifer und Werkzeugschärfer
+OC723	Maschinenmechaniker und -schlosser
+OC7231	Kraftfahrzeugmechaniker und -schlosser
+OC7232	Flugmotorenmechaniker und -schlosser
+OC7233	Landmaschinen- und Industriemaschinenmechaniker und -schlosser
+OC7234	Fahrradmechaniker und verwandte Berufe
+OC73	Präzisionshandwerker, Drucker und kunsthandwerkliche Berufe
+OC731	Präzisionshandwerker und kunsthandwerkliche Berufe
+OC7311	Präzisionsinstrumentenmacher und -instandsetzer
+OC7312	Musikinstrumentenbauer und -stimmer
+OC7313	Schmuckwarenhersteller und Edelmetallbearbeiter
+OC7314	Keramiker und verwandte Berufe
+OC7315	Glasmacher, -schneider, -schleifer und -veredler
+OC7316	Schildermaler, Dekormaler, Graveure und Ätzer
+OC7317	Kunsthandwerkliche Berufe für Holz, Korbwaren und verwandte Materialien
+OC7318	Kunsthandwerkliche Berufe für Textilien, Leder und verwandte Materialien
+OC7319	Kunsthandwerkliche Berufe, anderweitig nicht genannt
+OC732	Druckhandwerker
+OC7321	Techniker in der Druckvorstufe
+OC7322	Drucker
+OC7323	Berufe in der Druckweiterverarbeitung und Buchbinder
+OC74	Elektriker- und Elektroniker
+OC741	Elektroinstallateure und -mechaniker
+OC7411	Bauelektriker und verwandte Berufe
+OC7412	Elektromechaniker und verwandte Berufe
+OC7413	Elektroleitungsinstallateure und Wartungspersonal
+OC742	Installateure und Mechaniker für Elektronik und Telekommunikationstechnik
+OC7421	Elektroniker und Elektronik-Servicetechniker
+OC7422	Installateure und Servicetechniker im Bereich Informations- und Kommunikationstechnik
+OC75	Berufe in der Nahrungsmittelverarbeitung, Holzverarbeitung und Bekleidungsherstellung und verwandte handwerkliche Fachkräfte
+OC751	Berufe in der Nahrungsmittelverarbeitung und verwandte handwerkliche Fachkräfte
+OC7511	Fleischer, Fischhändler und -verarbeiter und verwandte Berufe
+OC7512	Bäcker, Konditoren und Konfektmacher
+OC7513	Molkerei- und Käsereifachkräfte
+OC7514	Obst- und Gemüsekonservierer und verwandte Berufe
+OC7515	Nahrungsmittel- und Getränkekoster und -klassierer
+OC7516	Tabakaufbereiter und Tabakwarenmacher
+OC752	Holzbearbeiter, Möbeltischler und verwandte Berufe
+OC7521	Holztrockner und -konservierer
+OC7522	Möbeltischler und verwandte Berufe
+OC7523	Einrichter und Bediener von Holzbearbeitungsmaschinen
+OC753	Berufe der Bekleidungsherstellung und verwandte Berufe
+OC7531	Herren- und Damenschneider, Kürschner und Hutmacher
+OC7532	Schnittmustermacher und Zuschneider
+OC7533	Näher, Sticker und verwandte Berufe
+OC7534	Polsterer und verwandte Berufe
+OC7535	Pelzveredler, Gerber und Fellzurichter
+OC7536	Schuhmacher und verwandte Berufe
+OC754	Sonstige Handwerks- und verwandte Berufe
+OC7541	Taucher
+OC7542	Sprengmeister und Sprengbeauftragte
+OC7543	Produkttester und -klassierer (ohne Nahrungsmittel und Getränke)
+OC7544	Kammerjäger und andere Schädlingsbekämpfungsberufe
+OC7549	Handwerks- und verwandte Berufe, anderweitig nicht genannt
+OC8	Bediener von Anlagen und Maschinen und Montageberufe
+OC81	Bediener stationärer Anlagen und Maschinen
+OC811	Bediener von Anlagen für den Bergbau und die Mineralaufbereitung
+OC8111	Bergleute und Grubenarbeiter
+OC8112	Bediener von Mineral- und Gesteinsaufbereitungsanlagen
+OC8113	Tiefbohrer und verwandte Berufe
+OC8114	Bediener von Maschinen zur Herstellung und Verarbeitung von Zement, Steinen und sonstigen Mineralien
+OC812	Bediener von Anlagen in der Metallerzeugung, -umformung und -veredlung
+OC8121	Bediener von Anlagen in der Metallerzeugung und -umformung
+OC8122	Bediener von Anlagen zur Metallveredlung, Plattierung und Beschichtung von Metallen
+OC813	Bediener von Anlagen und Maschinen für chemische und fotografische Erzeugnisse
+OC8131	Bediener von Anlagen und Maschinen für chemische Erzeugnisse
+OC8132	Bediener von Anlagen für fotografische Erzeugnisse
+OC814	Bediener von Maschinen zur Herstellung von Gummi-, Kunststoff- und Papierwaren
+OC8141	Bediener von Maschinen zur Herstellung von Gummiwaren
+OC8142	Bediener von Maschinen zur Herstellung von Kunststoffwaren
+OC8143	Bediener von Maschinen zur Herstellung von Papierwaren
+OC815	Bediener von Maschinen zur Herstellung von Textil-, Pelz- und Lederwaren
+OC8151	Bediener von Spinnstoffaufbereitungs-, Spinn- und Spulmaschinen
+OC8152	Bediener von Web-, Strick- und Wirkmaschinen
+OC8153	Bediener von Nähmaschinen
+OC8154	Bediener von Bleich- und Färbemaschinen
+OC8155	Bediener von Pelz- und Lederzurichtungs- und -vorbereitungsmaschinen
+OC8156	Bediener von Maschinen zur Schuhherstellung und verwandte Berufe
+OC8157	Bediener von Wäschereimaschinen
+OC8159	Bediener von Maschinen zur Herstellung von Textil-, Pelz- und Lederwaren, anderweitig nicht genannt
+OC816	Bediener von Maschinen zur Herstellung von Nahrungs- und Genussmitteln
+OC8160	Bediener von Maschinen zur Herstellung von Nahrungs- und Genussmitteln
+OC817	Bediener von Anlagen zur Holzaufbereitung und Papierherstellung
+OC8171	Bediener von Anlagen zur Zellstoff- und Papierherstellung
+OC8172	Bediener von Anlagen zur Holzaufbereitung
+OC818	Bediener sonstiger stationärer Anlagen und Maschinen
+OC8181	Bediener von Anlagen zur Glas- und Keramikherstellung
+OC8182	Bediener von Dampfmaschinen und -kesseln
+OC8183	Bediener von Verpackungs-, Abfüll- und Etikettiermaschinen
+OC8189	Bediener stationärer Anlagen und Maschinen, anderweitig nicht genannt
+OC82	Montageberufe
+OC821	Montageberufe
+OC8211	Berufe der Montage von mechanischen Bauteilen
+OC8212	Berufe der Montage von elektrischen und elektronischen Geräten
+OC8219	Montageberufe, anderweitig nicht genannt
+OC83	Fahrzeugführer und Bediener mobiler Anlagen
+OC831	Lokomotivführer und verwandte Berufe
+OC8311	Lokomotivführer
+OC8312	Bediener von Sicherungs-, Signal- und Leittechnik im Schienennetzbetrieb
+OC832	Kraftfahrzeugführer
+OC8321	Kraftradfahrer
+OC8322	Personenkraftwagen-, Taxi-, Kleintransporter- und Kleinbusfahrer
+OC833	Fahrer schwerer Lastkraftwagen und Busse
+OC8331	Busfahrer und Straßenbahnführer
+OC8332	Fahrer schwerer Lastkraftwagen
+OC834	Bediener mobiler Anlagen
+OC8341	Führer von mobilen land- und forstwirtschaftlichen Maschinen
+OC8342	Führer von Erdbewegungs- und verwandten Maschinen
+OC8343	Kranführer, Aufzugmaschinisten und Bediener verwandter Hebeeinrichtungen
+OC8344	Gabelstaplerfahrer und verwandte Berufe
+OC835	Deckspersonal auf Schiffen und verwandte Berufe
+OC8350	Deckspersonal auf Schiffen und verwandte Berufe
+OC9	Hilfsarbeitskräfte
+OC91	Reinigungspersonal und Hilfskräfte
+OC911	Reinigungspersonal und Hilfskräfte in Privathaushalten, Hotels und Büros
+OC9111	Reinigungspersonal und Hilfskräfte in Privathaushalten
+OC9112	Reinigungspersonal und Hilfskräfte in Büros, Hotels und anderen Einrichtungen
+OC912	Reinigungspersonal für Fahrzeuge, Fenster, Wäsche und sonstige manuelle Reinigungsberufe
+OC9121	Handwäscher und Handbügler
+OC9122	Fahrzeugreiniger
+OC9123	Fensterputzer
+OC9129	Sonstiges Reinigungspersonal
+OC92	Hilfsarbeiter in der Land- und Forstwirtschaft und Fischerei
+OC921	Hilfsarbeiter in der Land- und Forstwirtschaft und Fischerei
+OC9211	Hilfsarbeiter im Ackerbau
+OC9212	Hilfsarbeiter in der Tierhaltung
+OC9213	Hilfsarbeiter in Ackerbau und Tierhaltung (ohne ausgeprägten Schwerpunkt)
+OC9214	Hilfsarbeiter im Gartenbau
+OC9215	Hilfsarbeiter in der Forstwirtschaft
+OC9216	Hilfsarbeiter in der Fischerei und Aquakultur
+OC93	Hilfsarbeiter im Bergbau, im Bau, bei der Herstellung von Waren und im Transportwesen
+OC931	Hilfsarbeiter im Bergbau und im Bau
+OC9311	Hilfsarbeiter im Bergbau und in der Gewinnung von Steinen und Erden
+OC9312	Hilfsarbeiter im Tiefbau
+OC9313	Hilfsarbeiter im Hochbau
+OC932	Hilfsarbeiter bei der Herstellung von Waren
+OC9321	Verpacker
+OC9329	Hilfsarbeiter bei der Herstellung von Waren, anderweitig nicht genannt
+OC933	Hilfsarbeiter in Transport und Lagerei
+OC9331	Führer von Handwagen und pedalbetriebenen Fahrzeugen
+OC9332	Führer von Fahrzeugen und Maschinen mit Zugtierantrieb
+OC9333	Frachtarbeiter und verwandte Berufe
+OC9334	Regalbetreuer und -auffüller
+OC94	Hilfskräfte in der Nahrungsmittelzubereitung
+OC941	Hilfskräfte in der Nahrungsmittelzubereitung
+OC9411	Zubereiter von Fast Food und anderen Imbissen
+OC9412	Küchenhilfen
+OC95	Straßenhändler und auf der Straße arbeitende Dienstleistungskräfte
+OC951	Auf der Straße arbeitende Dienstleistungskräfte und verwandte Berufe
+OC9510	Auf der Straße arbeitende Dienstleistungskräfte und verwandte Berufe
+OC952	Straßenverkäufer (ohne Lebensmittel)
+OC9520	Straßenverkäufer (ohne Lebensmittel)
+OC96	Abfallentsorgungsarbeiter und sonstige Hilfsarbeitskräfte
+OC961	Abfallentsorgungsarbeiter
+OC9611	Arbeiter in der Abfall- und Wertstoffsammlung
+OC9612	Arbeiter in der Abfallsortierung
+OC9613	Straßenkehrer und verwandte Berufe
+OC962	Sonstige Hilfsarbeitskräfte
+OC9621	Boten, Paketauslieferer und Gepäckträger
+OC9622	Gelegenheitsarbeiter
+OC9623	Zählerableser, Automatenbefüller und -kassierer
+OC9624	Wasserträger und Brennholzsammler
+OC9629	Hilfsarbeitskräfte, anderweitig nicht genannt
+OC0	Angehörige der regulären Streitkräfte
+OC01	Offiziere in regulären Streitkräften
+OC011	Offiziere in regulären Streitkräften
+OC0110	Offiziere in regulären Streitkräften
+OC02	Unteroffiziere in regulären Streitkräften
+OC021	Unteroffiziere in regulären Streitkräften
+OC0210	Unteroffiziere in regulären Streitkräften
+OC03	Angehörige der regulären Streitkräfte in sonstigen Rängen
+OC031	Angehörige der regulären Streitkräfte in sonstigen Rängen
+OC0310	Angehörige der regulären Streitkräfte in sonstigen Rängen.
+OTH	Sonstige Berufe
+NRP	Keine Antwort
+UNK	Unbekannt

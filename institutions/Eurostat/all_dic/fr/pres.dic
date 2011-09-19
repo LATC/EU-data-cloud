@@ -1,0 +1,43 @@
+P00	Toutes formes de présentation
+P01	Total frais
+P02	Total congelé
+P03	Total salé
+P07	Total séché
+P10	Frais, non spécifié
+P11	Frais, entier
+P12	Frais, éviscéré
+P13	Frais, queues
+P14	Frais, filets
+P16	Frais, éviscéré et étêté
+P17	Frais, décortiqué, nettoyé
+P18	Frais, vivant
+P19	Frais, autre
+P20	Congelé, non spécifié
+P21	Congelé, entier
+P22	Congelé, éviscéré
+P23	Congelé, queues
+P24	Congelé, fileté
+P25	Congelé, non fileté
+P26	Congelé, éviscéré et étêté
+P27	Congelé, nettoyé
+P28	Congelé, non nettoyé
+P29	Congelé, autre
+P30	Salé, non spécifié
+P31	Salé, entier
+P32	Salé, éviscéré
+P34	Salé, filets
+P36	Salé, éviscéré, étêté
+P39	Salé, autre
+P40	Fumé
+P50	Cuit
+P60	Cuit, congelé et emballé
+P70	Séché, non spécifié
+P71	Séché, entier
+P72	Séché, éviscéré
+P74	Séché, filets
+P76	Séché, éviscéré, étêté
+P79	Séché, autre
+P91	Entier, non spécifié
+P80	Pinces
+P85	Oeufs
+P99	Présentation inconnue

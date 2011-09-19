@@ -1,0 +1,218 @@
+P12d_06	Market research services other than surveys
+P32_06	Services provided by employment placement agencies
+P40_06	Computer consultancy services
+P40c	Systems and software consultancy services
+P40d	IT technical support services
+P41a	Network management services
+P41b	Computer systems management services
+P42_06	Other information technology and computer services
+P45a_06	"Systems and application software, packaged "
+P45b_06	Online software and software downloads
+P45c_06	Licensing services for the right to use computer software
+P49a_06	Accounting and book-keeping services
+P56a	Architectural services for residential and non-residential building projects
+P56b	Historical restoration architectural services
+P56c	Architectural advisory services
+P57a	Urban planning services
+P57b	Rural land planning services
+P57c	Projects site master planning services
+P60a	Engineering advisory services
+P60b	Engineering services for building projects
+P60c	Engineering services for power projects
+P60d	Engineering services for transportation projects
+P60e	Waste management projects (hazardous and non-hazardous)
+P60f	"Engineering services for water, sewerage and drainage projects"
+P60g	Engineering services for industrial and manufacturing projects
+P60h	Engineering services for telecommunication and broadcasting projects
+P60i	Engineering services for other projects
+P61_06	Project management services for construction projects
+P62a_06	Geological and geophysical consulting services and other geophysical services
+P62b_06	Mineral exploration and evaluation services
+P62c_06	Surface surveying and map-making services
+P63c_06	Testing and analysis services of integrated mechanical and electrical systems
+P63f_06	Other technical testing and analysis services
+P65e	Sale of events related advertising
+P66_06	Services provided by advertising agencies
+P67	Web portals content
+P68	Publishing of computer games
+P69	Auction legal services
+P70	Insolvency and receivership services
+P71	Trademark and franchises
+P72	Other human resources provision services
+TOTAL	Total
+P15	Business and management consultancy services
+P15A	Business organisation consultancy services
+P15B	Strategic consultancy services, including mergers and acquisitions
+P15C	Financial management consulting services
+P15D	Human resources management consulting services
+P15E	Other business and management consultancy services
+P15F	Marketing management consulting services
+P15G	Production management consulting services
+P15H	Public relations services
+P15I	Project management services other than for construction
+P16	Architectural services
+P16A	Advisory and pre-design architectural services
+P16B	Architectural design services for buildings and other structures
+P16C	Other architectural services
+P17	Engineering design services including integrated engineering services for turnkey projects
+P17A	Engineering design services for the construction of foundations and building structures
+P17B	Engineering design services for mechanical and electrical installations for buildings
+P17C	Engineering design services for the construction of civil engineering works
+P17D	Engineering design services for industrial process and production
+P17E	Engineering design services n.e.c.
+P18	Urban planning services
+P19	Project management services
+P20	Other architectural and engineering services
+P20A	Technical advisory and consultative services
+P20B	Landscape architectural services
+P20C	Surface and subsurface surveying services and map making services
+P20D	Geological, geophysical and other technical consulting services
+P20E	Other technical-related services
+P21	Construction
+P35	Other additional products n.e.c.
+P39	Computer programming services
+P40	Information technology consultancy services
+P40A	Hardware consultancy services
+P40B	Other information technology consultancy services
+P41	Computer facilities management services
+P42	Other information technology services
+P43	Data processing, hosting and related services
+P44	On-line publishing, broadcasting and web portals
+P44A	Database services and on-line publishing
+P44B	Web portals
+P45	Software publishing
+P45A	Publishing of packaged software
+P45B	Online software publishing
+P46	Maintenance and repair of offic, accounting and computing machinery
+P46A	Repair of office and accounting machinery
+P46B	Repair of computers and peripheral equipment
+P34A	IT-related training services
+P5	Network and telecommunication services
+P6	Resale
+P6A	Resale of Software (not own developed)
+P6B	Resale of Hardware and equipment
+P6C	Other resale
+P7	Legal services
+P8	Legal advisory and representation services
+P8A	Legal advisory and representation services in criminal law
+P8B	Legal advisory and representation services in business/commercial law
+P8C	Legal advisory and representation services in labour law
+P8D	Legal advisory and representation services in civil law
+P8E	Legal advisory and representation services - Others
+P9	Legal advisory and representation services in statutory procedures of quasi-juridical tribunals, boards, etc.
+P36	Patent and copyright consultancy services
+P37	Notarial services
+P38	Architectural and engineering services
+P47	Arbitration and conciliation services
+P10	Auction services
+P11	Other legal advisory and information services
+P14	Accounting, book-keeping and auditing services; tax consultancy services
+P14A	Auditing services
+P14B	Accounting, except tax returns
+P14C	Book-keeping services, except tax returns
+P14D	Tax consultancy services, including tax returns
+P14E	Accounting and book-keeping services, except tax returns
+P14F	Payroll services
+P14G	Other accounting, book-keeping and auditing services
+P12	Market research services
+P12A	Market research services - Qualitative surveys
+P12B	Market research services - Quantitative ad-hoc surveys
+P12C	Market research services - Quantitative continuous/regular surveys
+P12D	Market research other than surveys
+P12E	Other market research services
+P12F	Market research services other than surveys; other market research services
+P13	Public opinion polling services
+P28	Advertising services
+P29	Sale or leasing of advertising space or time
+P29A	Sale or leasing of advertising space or time-with commission
+P29B	Sale or leasing of advertising space or time-without commission
+P30	Planning, creating and placement services of advertising
+P30A	Full service advertising
+P30B	Direct marketing
+P30C	Advertising design
+P30D	Other planning, creating and placement services of advertising
+P31	Other advertising related services
+P48	Financial auditing services
+P49	Accounting services
+P49A	Accounting and book-keeping services
+P49B	Payroll services
+P49C	Other accounting services
+P50	Tax consultancy services
+P51	Public relation and communication services
+P52	Business (and other) management consulting services
+P52A	Strategic management consulting services
+P52B	Financial management consulting services (except corporate tax)
+P52C	Marketing management consulting services
+P52D	Human resources management consulting services
+P52E	Production management consulting services
+P52F	Supply chain and other management consulting services
+P52G	Business process management services
+P53	Other project management services, excluding construction
+P54	Other business consulting services
+P1	Computer services
+P2	Hardware consultancy services
+P3	Software and other computer consultancy services
+P3A	Development and sale of packaged software
+P3B	Development and sale of customised software
+P3C	Other software and computer consultancy services
+P4	Other computer related services
+P4A	Computer facilities management and data processing services
+P4B	Database services
+P4C	Systems maintenance services
+P4D	Computer hardware servicing, repair and maintenance of computing machinery and equipment
+P4E	Other computer related services
+P34	Training services
+P55	Plans and drawings for architectural purposes
+P56	Architectural services for buildings
+P57	Urban and land planning services
+P58	Landscape architectural services
+P59	Other architectural services
+P60	Engineering services
+P61	Project management services related to constructions and civil engineering works
+P62	Geological, geophysical and related prospecting and consulting services
+P22	Technical testing and analysis services
+P22A	Composition and purity testing and analysis services
+P22B	Testing and analysis services of physical properties
+P22C	Testing and analysis services of integrated mechanical and electrical systems services
+P22D	Technical automobile inspection services
+P22E	Other technical testing inspection and analysis services
+P23	Composition and purity testing and analysis services
+P24	Testing and analysis services of physical properties
+P25	Testing and analysis services of integrated mechanical and electrical systems services
+P26	Technical automobile inspection services
+P27	Other technical testing inspection and analysis services
+P63	Technical testing and analysis services
+P63A	Composition and purity testing and analysis services
+P63B	Testing and analysis services of physical properties
+P63C	Testing and analysis services of integrated mechanical and electrical systems services
+P63D	Technical inspection services for road transport vehicles
+P63E	Certification
+P63F	Other technical testing inspection and analysis services
+P64	Architectural and engineering services
+P64A	Architectural services
+P64B	Engineering services and related technical consultancy
+P64C	Other architectural and engineering services
+P65	Media representations services
+P65A	Sale of advertising space or time on a fee or contract in print media
+P65B	Sale of Internet advertising space or time on a fee or contract
+P65C	Sale of TV/radio advertising space or time on a fee or contract
+P65D	Sale of other advertising space or time on a fee or contract
+P66	Services provided by advertising agencies
+P66A	Full service advertising
+P66B	Direct marketing direct mailing
+P66C	Advertising, design and concept development
+P66D	Other advertising services
+P32	Placement services of personnel
+P32A	Placement services of personnel - Executive search services
+P32B	Placement services of office support personnel and other workers
+P33	Supply services of personnel
+P33I	Supply services of personnel - Computer and telecommunication
+P33J	Supply services of personnel - Other office support personnel
+P33A	Supply services of personnel - Office support personnel
+P33B	Supply services of personnel - Commercial/trade
+P33C	Supply services of personnel - Industrial/manufacturing
+P33D	Supply services of personnel - Horeca
+P33E	Supply services of personnel - Medical
+P33F	Supply services of personnel - Education
+P33G	Supply services of personnel - Transport/warehousing/logistics
+P33H	Supply services of personnel - Others

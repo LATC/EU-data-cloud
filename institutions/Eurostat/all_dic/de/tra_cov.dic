@@ -1,0 +1,12 @@
+TOTAL	Verkehr insgesamt
+NAT	Innerstaatlicher Verkehr
+INTL	Grenzüberschreitender Verkehr
+INTL_LD	Grenzüberschreitender Verkehr - Beladen
+INTL_NLD	Grenzüberschreitender Verkehr - Entladen
+INTL_CTRD	Grenzüberschreitender Verkehr - Dreiländerverkehr
+INTL_CABO	Grenzüberschreitender Verkehr - Kabotage
+INTL_IN	Grenzüberschreitender Verkehr - Empfang
+INTL_OUT	Grenzüberschreitender Verkehr - Versand
+INTL_IEU	Grenzüberschreitender Verkehr innerhalb der EU
+INTL_XEU	Grenzüberschreitender Verkehr außerhalb EU
+TRS	Transitverkehr

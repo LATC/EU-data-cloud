@@ -1,0 +1,651 @@
+TOTAL	Total
+TOTNCO	Total unconsolidated debt
+TOTIG	Total intragovermental debt
+B1GM	Gross domestic product at market prices
+B1GMNOT	Gross domestic product at market prices - notified within the deficit and debt procedure
+TGL	Trading gain or loss
+GDI	Gross domestic income
+GDI_RL	Real gross domestic income
+D1_D4	Primary incomes
+D1_D4_S2	Net primary income transfers with the rest of the world
+D1_D4PAY_S2	Primary incomes, payable to the rest of the world
+D1_D4REC_S2	Primary incomes, receivable from the rest of the world
+D1_D4PAY_S2_RL	Real primary incomes, payable to the rest of the world
+D1_D4REC_S2_RL	Real primary incomes, receivable from the rest of the world
+B5	Balance of primary income / National income
+B5G	Gross national income/Balance of primary incomes, gross
+B5GM	Gross national income at market prices
+B5GM_RL	Real gross national income at market prices
+B5N	Net balance of primary incomes/Net national income
+B5NM	Net national income at market prices
+B5NM_RL	Real net national income at market prices
+K1	Consumption of fixed capital
+K10	Other volume changes in financial assets and liabilities n.e.c.
+K11	Nominal holding gains/losses
+K111	Neutral holding gains/losses
+K112	Real holding gains/losses
+K117	Unrealised holding gains/losses
+K1171	Change in exchange rate
+K1172	Change in market valuation
+K119	Realised holding gains/losses
+K1191	Change in exchange rate
+K1192	Change in market valuation
+K12	Changes in classifications and structure
+K121	Changes in sector classification and structure
+K122	Changes in classification of assets and liabilities
+K1221	Monetisation/demonetisation of gold
+K1222	Changes in classification of assets or liabilities other than monetisation/demonetisation of gold
+D5	Current taxes on income, wealth, etc.
+D5PAY	Current taxes on income, wealth, etc., payable
+D5REC	Current taxes on income, wealth, etc., receivable
+D5_TO_D7_S2	Net current transfers with the rest of the world
+D5_TO_D7PAY_S2	Current transfers, payable to the rest of the world
+D5_TO_D7PAY_S2_RL	Real current transfers, payable to the rest of the world
+D5_TO_D7REC_S2	Current transfers, receivable from the rest of the world
+D5_TO_D7REC_S2_RL	Real current transfers, receivable from the rest of the world
+D51	Taxes on income
+D51A_D51C1	Taxes on individual or household income including holding gains
+D51A	Taxes on individual or household income
+D51B_D51C2	Taxes on the income or profits of corporations including holding gains
+D51B	Taxes on the income or profits of corporations
+D51C	Taxes on holding gains
+D51C1	Taxes on individual or household holding gains
+D51C2	Taxes on holding gains of corporations
+D51C3	Other taxes on holding gains
+D51D	Taxes on winnings from lottery or gambling
+D51E	Other taxes on income n.e.c.
+D59	Other current taxes
+D59A	Current taxes on capital
+D59B	Poll taxes
+D59C	Expenditure taxes
+D59D	Payments by households for licences
+D59E	Taxes on international transactions
+D59F	Other current taxes n.e.c.
+B6	Disposable income
+B6N	Net disposable income
+B6N_NAT	Net national disposable income
+B6N_NAT_RL	Real net national disposable income
+B6G	Gross disposable income
+B6G_NAT	Gross national disposable income
+B6G_NAT_RL	Real gross national disposable income
+B6G_D8NET	Gross disposable income including net adjustment for the change in net equity of households in pension funds reserves
+B6G_R	Gross disposable income of households in real terms (percentage change on previous period)
+P1	Output
+P11	Market output
+P11_P12	Market output and output for own final use
+P11_P12_P131	Market output, output for own final use and payments for other non-market output
+P118	Trade and transport margins
+P12	Output for own final use
+P13	Other non-market output
+P131	Payments for other non-market output
+P132	Other non-market output, other
+P2	Intermediate consumption
+P2_D29_D5_D8	Intermediate consumption; other taxes on production; current taxes on income, wealth, etc.; adjustment for the change in net equity of households in pension funds reserves
+B7G	Gross adjusted disposable income
+B7N	Net adjusted disposable income
+P3	Final consumption expenditure
+P3_P5	Domestic demand
+P31	Individual consumption expenditure
+P311	Individual consumption expenditure of durable goods
+P312	Individual consumption expenditure of non-durable goods
+P313	Individual consumption expenditure of services
+P31_S14_S15	Household and NPISH final consumption expenditure
+P31_S14	Final consumption expenditure of households
+P31_S15	Final consumption expenditure of NPISH
+P3_S13	Final consumption expenditure of general government
+P31_S13	Individual consumption expenditure of general government
+P32_S13	Collective consumption expenditure of general government
+P4	Actual final consumption
+P41	Actual individual consumption
+P42	Actual collective consumption
+P31_S14_NAT	Final consumption expenditure of households (national concept)
+P32	Collective consumption expenditure
+P33	Final consumption expenditure of resident households in the rest of the world - total
+P34	Final consumption expenditure of non-resident households on the economic territory - total
+P31_S14_DOM	Final consumption expenditure of households (domestic concept)
+D8	Adjustment for the change in net equity of households in pension funds reserves
+D8PAY	Adjustment for the change in net equity of households in pension funds reserves, payable
+D8REC	Adjustment for the change in net equity of households in pension funds reserves, receivable
+B8	Saving
+B8G	Gross saving
+B8N	Net saving
+B8N_B12	Net saving/current external balance
+D9	Capital transfers
+D9CO	Capital transfers, consolidated
+D9PAY	Capital transfers, payable
+D9PAY_S1311	Capital transfers, payable, of which payable to sub-sector S1311
+D9PAY_S1312	Capital transfers, payable, of which payable to sub-sector S1312
+D9PAY_S1313	Capital transfers, payable, of which payable to sub-sector S1313
+D9PAY_S1314	Capital transfers, payable, of which payable to sub-sector S1314
+D9REC	Capital transfers, receivable
+D9_S2	Net capital transfers with the rest of the world
+D9PAY_S2	Capital transfers, payable to the rest of the world
+D9REC_S2	Capital transfers, receivable from the rest of the world
+F_TOT	Total assets/liabilities
+P5_K2	Gross capital formation and acquisitions less disposals of non-financial non-produced assets
+P5	Gross capital formation
+P51	Gross fixed capital formation
+P511	Acquisitions less disposals of tangible fixed assets
+P5111	Acquisitions of new tangible fixed assets
+P5112	Acquisitions of existing tangible fixed assets
+P5113	Disposals of existing tangible fixed assets
+P512	Acquisitions less disposals of intangible fixed assets
+P5121	Acquisitions of new intangible fixed assets
+P5122	Acquisitions of existing intangible fixed assets
+P5123	Disposals of existing intangible fixed assets
+P513	Addition to the value of non-produced non-financial assets
+P5131	Major improvements to non-produced non-financial assets
+P5132	Costs of ownership transfer on non-produced non-financial assets
+P52_P53	Changes in inventories and acquisitions less disposals of valuables
+P52	Changes in inventories
+P53	Acquisitions less disposals of valuables
+K2	Acquisitions less disposals of non-financial non-produced assets
+K21	Acquisitions less disposals of land and other tangible non-produced assets
+K211	Acquisitions of land and other tangible non-produced assets
+K212	Disposals of land and other tangible non-produced assets
+K22	Acquisitions less disposals of intangible non-produced assets
+K221	Acquisitions of intangible non-produced assets
+K222	Disposals of intangible non-produced assets
+K3	Economic appearance of non-produced assets
+K4	Economic appearance of produced assets
+K5	Natural growth of non-cultivated biological resources
+K6	Economic disappearance of non-produced assets
+K61	Depletion of natural economic assets
+K62	Other economic disappearance of non-produced assets
+K7	Catastrophic losses
+K8	Uncompensated seizures
+K9	Other volume changes in non-financial assets n.e.c.
+B9	Net lending (+) /net borrowing (-)
+B9_GL	Net financial holdings gains and losses
+B9_OV	Net financial other changes in volume
+B9_F	Net financial transactions
+B9_X	Discrepancy with net lending/net borrowing of financial accounts
+B90	Net worth
+SRN_S14_S15	Net household saving rate (B8N/(B6N+D8Net)*100)
+B4N_RAT_S11	Net entrepreneurial income ratio of non-financial corporations (B4N/B1N*100)
+B2N_B3N_RAT_S11	Net profit share of non-financial corporations (B2N_B3N/B1N*100)
+IRN_S11	Net investment rate of non-financial corporations ((P51-K1)/B1N*100)
+IRN_S14_S15	Net investment rate of households ((P51-K1)/(B6N+D8Net)*100)
+SRG_S14_S15	Gross household saving rate (B8G/(B6G+D8Net)*100)
+B4G_RAT_S11	Gross entrepreneurial income ratio of non-financial corporations (B4G/B1G*100)
+B2G_B3G_RAT_S11	Gross profit share of non-financial corporations (B2G_B3G/B1G*100)
+IRG_S11	Gross investment rate of non-financial corporations (P51/B1G*100)
+IRG_S14_S15	Gross investment rate of households (P51/(B6G+D8Net)*100)
+BF90	Net financial assets
+P6	Exports of goods and services
+P7	Imports of goods and services
+P61	Exports of goods
+P61_RAT_GDP	Exports of goods to GDP ratio (P61/B1GM*100)
+P62_RAT_GDP	Exports of services to GDP ratio (P62/B1GM*100)
+P71	Imports of goods
+P71_RAT_GDP	Imports of goods to GDP ratio (P71/B1GM*100)
+P72_RAT_GDP	Imports of services to GDP ratio (P72/B1GM*100)
+P62	Exports of services
+P62F	Exports of FISIM
+P72	Imports of services
+P72F	Imports of FISIM
+TINT	Total interest
+P6_S21	Exports of goods and services to the European Union
+P7_S21	Imports of goods and services from the European Union
+P6_S211	Exports of goods and services to the EU Member States
+P7_S211	Imports of goods and services from the EU Member States
+P6_S2111	Exports of goods and services to members of the Monetary Union
+P7_S2111	Imports of goods and services from members of the Monetary Union
+P6_S2112	Exports of goods and services to non-members of the Monetary Union
+P7_S2112	Imports of goods and services from non-members of the Monetary Union
+P6_S212	Exports of goods and services to the institutions of the EU
+P7_S212	Imports of goods and services from the institutions of the EU
+P6_S22	Exports of goods and services to third countries and international organisations
+P7_S22	Imports of goods and services from third countries and international organisations
+B11	External balance of goods and services
+B111	External balance - Goods
+B112	External balance - Services
+ULC	Unit labor cost
+LPR	Labour productivity
+POP	Total population
+ACT	Economically active population
+UNE	Unemployed persons
+EMP	Total employment
+EMP_NC	Total employment - national concept
+EMP_DC	Total employment - domestic concept
+SAL	Employees
+SELF	Self-employed
+EUR_NAC	EUR = .. National currency units (including 'euro fixed' series for euro area countries)
+PPS_NAC	PPS = .. National currency units (including 'euro fixed' series for euro area countries)
+EUR_NAT	EUR = .. National currency units
+PPS_NAT	PPS = .. National currency units
+PPS_NAC_B1GM	PPS exchange rate centered on GDP (including 'euro fixed' series for euro area countries)
+COEF_EU15_PPS	Weighted european coefficient for PPS
+PPP_EU27	Purchasing power parities (EU27=1)
+PPP_EU15	Purchasing power parities (EU15=1)
+PLI_EU27	Comparative price level indices (EU27=100)
+PLI_EU15	Comparative price level indices (EU15=100)
+EXP_NAC	Nominal expenditure in national currency
+EXP_NAC_PC_GDP	Nominal expenditure as a percentage of GDP (GDP=100)
+EXP_PPS_EU27	Real expenditure (in PPS_EU27)
+EXP_PPS_EU15	Real expenditure (in PPS_EU15)
+EXP_PPS_EU27_HAB	Real expenditure per inhabitant (in PPS_EU27)
+EXP_PPS_EU15_HAB	Real expenditure per inhabitant (in PPS_EU15)
+VI_PPS_EU27_HAB	Volume indices of real expenditure per inhabitant in PPS (EU27=100)
+VI_PPS_EU15_HAB	Volume indices of real expenditure per inhabitant in PPS (EU15=100)
+TE	Total general government expenditure
+TR	Total general government revenue
+B1GM_XE	Statistical discrepancy: expenditure side
+B1	Value added (at basic prices) / Domestic product (at market prices)
+B1G	Gross value added (at basic prices)
+B1G_A_B	Gross value added : Agriculture, hunting and fishing
+B1G_C_D_E	Gross value added : Industry, including Energy
+B1G_F	Gross value added : Construction
+B1G_G_H_I	Gross value added : Trade, transport and communication services
+B1G_J_K	Gross value added : Financial services and business activities
+B1G_L_TO_P	Gross value added : Other services
+B1G_TOTAL	Gross value added : Total Gross Value Added (A6)
+B1N	Net value added
+B1NM	Net domestic product at market price
+B10	Changes in net worth
+B101	Changes in net worth due to saving and capital transfers
+B102	Changes in net worth due to other changes in volume of assets
+B103	Changes in net worth due to nominal holding gains/losses
+B1031	Changes in net worth due to neutral holding gains/losses
+B1032	Changes in net worth due to real holding gains/losses
+B12	Current external balance
+B1G_M_P119	Gross value added (at basic prices), excluding FISIM
+P119	Financial intermediation services indirectly measured (FISIM)
+P119_ADJ	Adjustment to financial intermediation services indirectly measured (FISIM)
+D21_M_D31	Taxes less subsidies on products
+B1GM_XO	Statistical discrepancy: output side
+D1	Compensation of employees
+D1PAY	Compensation of employees, payable
+D1REC	Compensation of employees, receivable
+D1_TO_D8	Primary incomes and current transfers
+D11	Gross wages and salaries
+D12	Employers' social contributions
+D121	Employers' actual social contributions
+D122	Employers' imputed social contributions
+B2	Operating surplus
+B2G	Gross operating surplus
+B2G_B3G	Gross operating surplus and gross mixed income
+B2N	Net operating surplus
+B2N_B3N	Net operating surplus and net mixed income
+B3	Mixed income
+B3G	Gross mixed income
+B3N	Net mixed income
+B4	Entrepreneurial income
+B4G	Gross entrepreneurial income
+B4N	Net entrepreneurial income
+B7	Adjusted disposable income
+D2_D5_D91_D611	Total receipts from taxes and social contributions
+D2_D5_D91_D611_M_D995	Total receipts from taxes and social contributions after deduction of amounts assessed but unlikely to be collected
+D2_D5_D91_D611_D612_M_D995	Total receipts from taxes and social contributions (including imputed social contributions) after deduction of amounts assessed but unlikely to be collected
+D2_D5_D91	Total tax receipts
+D2	Taxes on production and imports
+D2PAY	Taxes on production and imports, payable
+D2REC	Taxes on production and imports, receivable
+D2_M_D3	Taxes on production and imports less subsidies
+D21	Taxes on products
+D211	Value added type taxes (VAT)
+D211REC	Value added type taxes (VAT), receivable
+D211_S212REC	VAT paid to the European Union
+D212	Taxes and duties on imports excluding VAT
+D2121	Import duties
+D2122	Taxes on imports excluding VAT and import duties
+D2122A	Levies on imported agricultural products
+D2122B	Monetary compensatory amounts on imports
+D2122C	Excise duties
+D2122D	General sales taxes
+D2122E	Taxes on specific services
+D2122F	Profits of import monopolies
+D214	Taxes on products, except VAT and import taxes
+D214A	Excise duties and consumption taxes
+D214B	Stamp taxes
+D214C	Taxes on financial and capital transactions
+D214D	Car registration taxes
+D214E	Taxes on entertainment
+D214F	Taxes on lotteries, gambling and betting
+D214G	Taxes on insurance premiums
+D214H	Other taxes on specific services
+D214I	General sales or turnover taxes
+D214J	Profits of fiscal monopolies
+D214K	Export duties and monetary compensatory amounts on exports
+D214L	Other taxes on products n.e.c.
+D29_D5_D8	Other taxes on production; current taxes on income, wealth, etc; adjustment for the change in net equity of households in pension funds reserves
+D29	Other taxes on production
+D29_M_D39	Other taxes less other subsidies on production
+D29PAY	Other taxes on production, payable
+D29PAY_M_D39REC	Other taxes on production payable less other subsidies on production receivable
+D29A	Taxes on land, buildings and other structures
+D29B	Taxes on the use of fixed assets
+D29C	Total wage bill and payroll taxes
+D29D	Taxes on international transactions
+D29E	Business and professional licences
+D29F	Taxes on pollution
+D29G	Under-compensation of VAT (flat rate system)
+D29H	Other taxes on production n.e.c.
+D3	Subsidies
+D3PAY	Subsidies, payable
+D3REC	Subsidies, receivable
+D31	Subsidies on products
+D311	Import subsidies
+D319	Other subsidies on products
+D39	Other subsidies on production
+D39REC	Other subsidies on production, receivable
+D4	Property income
+D4_D7	Net property income and other current transfers
+D4CO	Property income, consolidated
+D4PAY	Property income, payable
+D4PAY_S1311	Property income payable, of which payable to sub-sector S1311
+D4PAY_S1312	Property income payable, of which payable to sub-sector S1312
+D4PAY_S1313	Property income, payable, of which payable to sub-sector S1313
+D4PAY_S1314	Property income, payable, of which payable to sub-sector S1314
+D4REC	Property income, receivable
+D41	Interest
+D41PAY	Interest, payable
+D41REC	Interest, receivable
+D41G	Total interest before FISIM allocation
+D42_TO_D45	Distributed income of corporations; reinvested earnings on direct foreign investment; property income attributed to insurance policy holders; rents
+D42	Distributed income of corporations
+D42_S13	Distributed income of corporations from/to general government
+D42_SOTH	Distributed income of corporations from/to other sectors
+D421	Dividends
+D422	Withdrawals from income of quasi-corporations
+D42_TO_D45PAY	Other property income, payable
+D43	Reinvested earnings on direct foreign investment
+D44	Property income attributed to insurance policy holders
+D45	Rents
+D6	Social contributions and benefits
+D61	Social contributions
+D61NET	Net social contributions
+D61REC	Social contributions, receivable
+D61_D62	Social contributions and social benefits other than social transfers in kind
+D61_D62PAY	Social contributions and social benefits other than social transfers in kind, payable
+D61_D62REC	Social contributions and social benefits other than social transfers in kind, receivable
+D611	Actual social contributions
+D6111	Employers' actual social contributions
+D611REC	Actual social contributions, receivable
+D61111	Compulsory employers' actual social contributions
+D61112	Voluntary employers' actual social contributions
+D6112	Employees' social contributions
+D61121	Compulsory employees' social contributions
+D61122	Voluntary employees' social contributions
+D6113	Social contributions by self- and non-employed persons
+D61131	Compulsory social contributions by self- and non-employed persons
+D61132	Voluntary social contributions by self- and non-employed persons
+D612	Imputed social contributions
+D612REC	Imputed social contributions, receivable
+D62_D6311_D63121_D63131	Social benefits other than social transfers in kind and social transfers in kind = expenditure on products supplied to households via market producers
+D62_D6311_D63121_D63131PAY	Social benefits other than social transfers in kind and social transfers in kind = expenditure on products supplied to households via market producers
+D62_M_D61	Net social benefits
+D62	Social benefits other than social transfers in kind
+D62NET	Net social benefits other than social transfers in kind
+D8NET	Net adjustment for the change in net equity of households in pension funds reserves
+D62NET_D8NET	Net social benefits other than social transfers in kind including net adjustment for the change in net equity of households in pension funds reserves
+D62PAY	Social benefits other than social transfers in kind, payable
+D621	Social security benefits in cash
+D622	Private funded social benefits
+D623	Unfunded employee social benefits
+D624	Social assistance benefits in cash
+D63	Social transfers in kind
+D631	Social benefits in kind
+D6311_D63121_D63131	Social transfers in kind = expenditure on products supplied to households via market producers
+D6311_D63121_D63131PAY	Social transfers in kind = expenditure on products supplied to households via market producers
+D6311	Social security benefits, reimbursements
+D6312	Other social security benefits in kind
+D63121	Other social security benefits in kind provided by market producers
+D63122	Other social security benefits in kind provided by non-market producers
+D6313	Social assistance benefits in kind
+D63131	Social assistance benefits in kind provided by market producers
+D63132	Social assistance benefits in kind provided by non-market producers
+D632	Transfers of individual non-market goods and services
+D7	Other current transfers
+D7CO	Other current transfers, consolidated
+D7PAY	Other current transfers, payable
+D7PAY_S1311	Other current transfers, payable, of which payable to sub-sector S1311
+D7PAY_S1312	Other current transfers, payable, of which payable to sub-sector S1312
+D7PAY_S1313	Other current transfers, payable, of which payable to sub-sector S1313
+D7PAY_S1314	Other current transfers, payable, of which payable to sub-sector S1314
+D7REC	Other current transfers, receivable
+D71	Net non-life insurance premiums
+D72	Non-life insurance claims
+D73	Current transfers within general government
+D73_TO_D75	Other current transfers, n.e.c.
+D74_TO_D75	Other current transfers, n.e.c. (excl. transfers within general government)
+D74	Current international cooperation
+D75	Miscellaneous current transfers
+D751	GNP based fourth own resource
+D91	Capital taxes
+D91REC	Capital taxes, receivable
+D91A	Taxes on capital transfers
+D91B	Capital levies
+D91C	Other capital taxes n.e.c.
+D92	Investment grants
+D92_D99	Other capital transfers and investment grants
+D92_D99REC	Other capital transfers and investment grants, receivable
+D92_S212	Investment grants from EU Institutions to General Government
+D99	Other capital transfers
+B1GM_XI	Statistical discrepancy: income side
+D2TOS13	Taxes on production and imports, to general government
+D2TOS212	Taxes on production and imports, to institutions of the EU
+D3FRS13	Subsidies, from general government
+D3FRS212	Subsidies, from institutions of the EU
+D41FRS13	Interest, from general government
+D41FRSOTH	Interest, from other sectors
+D41TOS13	Interest, to general government
+D41TOSOTH	Interest, to other sectors
+D421FRS13	Dividends, from general government
+D421FRSOTH	Dividends, from other sectors
+D421TOS13	Dividends, to general government
+D421TOSOTH	Dividends, to other sectors
+D422FRS13	Withdrawals from income of quasi-corporations, from general government
+D422FRSOTH	Withdrawals from income of quasi-corporations, from other sectors
+D422TOS13	Withdrawals from income of quasi-corporations, to general government
+D422TOSOTH	Withdrawals from income of quasi-corporations, to other sectors
+D42FRS13	Distributed income of corporations, from general government
+D42FRSOTH	Distributed income of corporations, from other sectors
+D42TOS13	Distributed income of corporations, to general government
+D42TOSOTH	Distributed income of corporations, to other sectors
+D43FRS13	Reinvested earnings on direct foreign investment, from general government
+D43FRSOTH	Reinvested earnings on direct foreign investment, from other sectors
+D43TOS13	Reinvested earnings on direct foreign investment, to general government
+D43TOSOTH	Reinvested earnings on direct foreign investment, to other sectors
+D45TOSOTH	Rents, to other sectors
+D45TOS13	Rents, to general government
+D45FRSOTH	Rents, from other sectors
+D45FRS13	Rents, from general government
+D4TOS13	Property income, to general government
+D4TOSOTH	Property income, to other sectors
+D4FRS13	Property income, from general government
+D4FRSOTH	Property income, from other sectors
+D74TOS212	Current international cooperation, to institutions of the EU
+D74FRS212	Current international cooperation, from institutions of the EU
+D75TOS13	Miscellaneous current transfers, to general government
+D75TOSOTH	Miscellaneous current transfers, to other sectors
+D75FRS13	Miscellaneous current transfers, from general government
+D75FRSOTH	Miscellaneous current transfers, from other sectors
+D7TOS13	Other current transfers to general government
+D7TOSOTH	Other current transfers to other sectors
+D7FRS13	Other current transfers from general government
+D7FRSOTH	Other current transfers from other sectors
+D91TOS13	Capital taxes, to general government
+D91TOSOTH	Capital taxes, to other sectors
+D91FRS13	Capital taxes, from general government
+D91FRSOTH	Capital taxes, from other sectors
+D92TOS13	Investment grants, to general government
+D92TOSOTH	Investment grants, to other sectors
+D92FRS13	Investment grants, from general government
+D92FRSOTH	Investment grants, from other sectors
+D99TOS13	Other capital transfers, to general government
+D99TOSOTH	Other capital transfers, to other sectors
+D99FRS13	Other capital transfers, from general government
+D99FRSOTH	Other capital transfers, from other sectors
+D9TOS13	Capital transfers, to general government
+D9TOSOTH	Capital transfers, to other sectors
+D9FRS13	Capital transfers, from general government
+D9FRSOTH	Capital transfers, from other sectors
+D995	Capital transfers from general government to relevant sectors representing taxes and social contributions assessed but unlikely to be collected
+D99521	Taxes on products assessed but unlikely to be collected
+D99529	Other taxes on production assessed but unlikely to be collected
+D99551	Taxes on income assessed but unlikely to be collected
+D99559	Other current taxes assessed but unlikely to be collected
+D9956111	Employers'actual social contributions assessed but unlikely to be collected
+D9956112	Employees' social contributions assessed but unlikely to be collected
+D9956113	Social contributions by self- and unemployed persons assessed but unlikely to be collected
+D99591	Capital taxes assessed but unlikely to be collected
+DB9	Discrepancy with net lending/net borrowing of financial accounts
+R1	Total resources of production account/External account of goods and services
+R211	Total resources of generation of income account
+R212	Total resources of allocation of primary income
+R22	Total resources of secondary distribution of income account
+R241	Total resources of use of disposable income account
+R311	Total change in liabilities and net worth: Change in net worth due to saving and capital account
+R312	Total change in liabilities and net worth: Acquisitions of non-financial assets account
+U1	Total uses of production account/External account of goods and services
+U211	Total uses of generation of income account
+U212	Total uses of allocation of primary income account
+U22	Total uses of secondary distribution of income account
+U241	Total uses of use of disposable income account
+U311	Total change in assets: Change in net worth due to saving and capital transfers account
+U312	Total change in assets: Acquisitions of non-financial assets account
+GD	Government consolidated gross debt
+GD_F2	Government consolidated gross debt - Currency and deposits
+GD_F33	Government consolidated gross debt - Securities other than shares, excluding financial derivatives
+GD_F331	Government consolidated gross debt - Short term securities other than shares, excluding financial derivatives
+GD_F332	Government consolidated gross debt - Long-term securities other than shares, excluding financial derivatives
+GD_F4	Government consolidated gross debt - Loans
+GD_F41	Government consolidated gross debt - Short-term loans
+GD_F42	Government consolidated gross debt - Long-term loans
+GD_CH	Change in Debt
+GD_CTB	Contribution to general government debt (level)
+GD_HOLD	Holdings of other subsectors' debt (level)
+F_AS	Financial assets
+F_AS_TR	Net acquisition of financial assets
+F_AS_OTH	Net acquisition (+) of financial assets: Other financial assets
+F_AS_OF	Other flows in financial assets
+F_LI	Financial liabilities
+F_LI_OTH	Adjustments: net incurrence (-) of other liabilities
+F_LI_OF	Other flows in financial liabilities
+F_TR	Financial transactions considered in the working balance
+F_TR_OTH	Other financial transactions
+F_TRDL_OTH	Other financial transactions of which: transactions in debt liabilities (+/-)
+F_LI_TR	Net incurrence of financial liabilities
+NF_TR	Non-financial transactions not considered in the working balance
+F1	Monetary gold and special drawing rights (SDRs)
+F11	Monetary gold
+F12	Special drawing rights (SDRs)
+F2	Currency and deposits
+F21	Currency
+F22_F29	Transferable deposits; other deposits
+F22	Transferable deposits
+F29	Other deposits
+F3	Securities other than shares
+F33	Securities other than shares, excluding financial derivatives
+F331	Short-term - Securities other than shares, excluding financial derivatives
+F332	Long-term - Securities other than shares, excluding financial derivatives
+F34	Financial derivatives
+F34_LI_ADJ	Adjustments: net incurrence (-) of liabilities in financial derivatives
+F34_F7	Other accounts (receivable/payable) and financial derivatives
+F4	Loans
+F4_ACQ	Loans; acquisition/increase (+)
+F4_DIS	Loans; disposal/reduction (-)
+IGL_F4_EU25	Intergovernmental lending within EU25 in the context of the financial crisis
+IGL_F4_EU27	Intergovernmental lending within EU27 in the context of the financial crisis
+IGL_F4_EA17	Intergovernmental lending within EA17 in the context of the financial crisis
+IGL_F4_EA16	Intergovernmental lending within EA16 in the context of the financial crisis
+F41	Short-term - Loans
+F42	Long-term - Loans
+F42_ACQ	Long-term loans; acquisition/increase (+) 
+F42_DIS	Long-term loans; disposal/reduction (-)
+F5	Shares and other equity
+F5_ACQ	Shares and other equity; acquisition/increase (+)
+F5_DIS	Shares and other equity; disposal/reduction (-)
+F5PN	Portfolio investments, net
+F5OP	Shares and other equity other than portfolio investments
+F5OPACQ	Shares and other equity other than portfolio investments; acquisition/increase (+)
+F5OPDIS	Shares and other equity other than portfolio investments; disposal/reduction (-)
+F51	Shares and other equity, excluding mutual funds shares
+F511	Quoted shares
+F512	Unquoted shares
+F513	Other equity
+F512_F513	Unquoted shares and other equity
+F52	Mutual funds shares
+F6	Insurance technical reserves
+F61	Net equity of households in life insurance reserves and in pension funds reserves
+F611	Net equity of households in life insurance reserves
+F612	Net equity of households in pension funds reserves
+F62	Prepayments of insurance premiums and reserves for outstanding claims
+F7	Other accounts receivable/payable
+F7REC	Other accounts receivable (+)
+F7PAY	Other accounts payable (-)
+F71	Trade credits and advances
+F71_LI_TR	Trade credits and advances - Liabilities
+F79	Other accounts receivable/payable, except trade credits and advances
+TOT_AID	Total State aid
+SECT_HOC	Sectoral and ad hoc State aid
+P51_PRIV	Business investment: Gross fixed capital formation by the private sector
+P51_S14_S15	Gross fixed capital formation by private sector
+EDP_D41	Interest including flows on swaps and FRAs (Forward Rate Agreements)
+EDP_D41_ADJ	Adjustments: difference between interest expenditure (EDPD.41) accrued (-) and paid (+)
+EDP_D41_F_ADJ	Adjustments: difference between interest expenditure (EDPD.41) accrued (-) and paid (+) of which: interest flows attributable to swaps and FRAs
+EDP_D41_DIF	Difference between interest paid (+) and accrued (EDP D.41) (-)
+EDP_B9	Net lending (+)/Net borrowing (-) under the EDP (Excessive Deficit Procedure)
+EDP_B9MIN	Net lending (+)/Net borrowing (-) under the EDP (Excessive Deficit Procedure) (reversed sign)
+SD1_ADJ	Adjustment for subsectors delimitation
+EDP_K11_ADJ	Adjustments: appreciation (+)/depreciation (-) of foreign currency debt
+K121_ADJ	Adjustments: changes in sector classification (+/-)
+OTH_K_ADJ	Adjustments: other volume changes in financial liabilities (-)
+SD2_ADJ	Net borrowing (-)/net lending (+) of state entities not part of central government
+SD3_ADJ	Net borrowing (-)/net lending (+) of other central government bodies
+ISS_ADJ	Adjustments: issuances above (-)/below (+) nominal value
+RED_ADJ	Adjustments: redemptions of debt above (+)/below (-) nominal value
+OTH_ADJ	Other adjustments (+/-)
+TOT_ADJ	Total adjustments
+PRIMBAL	Primary balance
+WORKBAL	Working balance
+TOT_X	Total statistical discrepancies
+B9_XX	Statistical discrepancies: difference between capital and financial accounts (B9-B9_F)
+OTH_X	Statistical discrepancies: other statistical discrepancies (+/-)
+TX_CONS	Taxes on consumption
+TX_LAB_TOT	Taxes on labour - total
+TX_LAB_EMPR	Taxes on labour, of which on employed paid by employers
+TX_LAB_EMPE	Taxes on labour, of which on employed paid by employees
+TX_LAB_NEMP	Taxes on labour, of which on non-employed
+TX_CAP_TOT	Taxes on capital - total
+TX_CAP_INC	Taxes on capital, of which on capital and business income
+TX_CAP_INCO	Taxes on capital, of which on capital and business income of corporations
+TX_CAP_INHO	Taxes on capital, of which on capital and business income of households
+TX_CAP_INSE	Taxes on capital, of which on capital and business income of self-employed
+TX_CAP_STO	Taxes on capital, of which on stock of capital (wealth)
+ITR_CONS	Implicit tax rate on consumption
+ITR_LAB_EMPD	Implicit tax rate on labour
+ITR_CAP_TOT	Implicit tax rate on capital - total
+ITR_CAP_INC	Implicit tax rate on capital, of which on capital and business income
+ITR_CAP_INCO	Implicit tax rate on capital, of which on capital and business income of corporations
+ITR_CAP_INHOSE	Implicit tax rate on capital, of which on capital and business income of households and self-employed
+B2_3N_R	Net operating surplus and net operating income (resources)
+D1_R	Compensation of employees (resources)
+D4_R	Property income, received (resources)
+D4_U	Property income, paied (uses)
+B5N_U	Balance of primary income, net (uses)
+D62_R	Social benefits other than social transfers in kind (ressources)
+D7_R	Other current transfers, received (ressources)
+D5_U	Current taxes on income, wealth, etc. (uses)
+D61_U	Social contributions (uses)
+D7_U	Other crrent transfers, paied (uses)
+B6N_U	Disposable income, net (uses)
+TTB	Total tax burden
+NLPP	Nominal labour productivity per person employed
+RLPP	Real labour productivity per person employed
+NLPH	Nominal labour productivity per hour worked
+RLPH	Real labour productivity per hour worked
+NULC	Nominal unit labour cost
+RULC	Real unit labour cost
+NGDPH	Nominal Gross Domestic Product per capita
+RGDPH	Real Gross Domestic Product per capita
+ROCE_S11	Gross return on capital employed, before taxes, of non-financial corporations: B2G_B3G/(AF2+AF33+AF4+AF5, liab)
+DIR_S11	Net debt-to-income ratio, after taxes, of non-financial corporations: (AF2+AF33+AF4, liab)/(B4N-D5PAY)
+ROE_S11	Net return on equity, after taxes, of non-financial corporations: (B4N-D5PAY)/(AF5, liab)
+DIR_S14_S15	Gross debt-to-income ratio of households: (AF4, liab)/(B6G+D8net)
+NFW_S14_S15	Household net financial assets ratio (BF90/(B6G+D8net))
+P51_RAT_GDP_S1	Total investment to GDP ratio (S1_P51/B1GM*100)
+P51_RAT_GDP_BUS	Business investment to GDP ratio (S11_S12_P51/B1GM*100)
+P51_RAT_GDP_S13	Government investment to GDP ratio (S13_P51/B1GM*100)
+P51_RAT_GDP_S1M	Households investment to GDP ratio (S14_S15_P51/B1GM*100)

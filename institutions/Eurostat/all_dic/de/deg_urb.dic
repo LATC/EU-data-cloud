@@ -1,0 +1,9 @@
+TOTAL	Insgesamt
+DEG1	Dichtbesiedeltes Gebiet (mindestens 500 Einwohner/Km²)
+DEG2	Mitteldicht besiedeltes Gebiet (100 bis 499 Einwohner/Km²)
+DEG3	Geringbesiedeltes Gebiet (weniger als 100 Einwohner/Km²)
+URB	Überwiegend städtische Regionen
+INT	Intermediäre Regionen
+RUR	Überwiegend ländliche Regionen
+UNK	Unbekannt
+NRESP	Keine Antwort

@@ -1,0 +1,462 @@
+TOTAL	Total
+CPA_A	Produits de l'agriculture, de la sylviculture et de la pêche
+CPA_A01	Produits de l'agriculture et de la chasse et services annexes
+CPA_A011	Cultures non permanentes
+CPA_A012	Cultures permanentes
+CPA_A013	Plants: plants de pépinière, bulbes, tubercules et rhizomes, boutures et greffons; blanc de champignon
+CPA_A014	Produits de l'élevage
+CPA_A016	Services annexes à l'agriculture et à l'élevage (à l'exclusion des services vétérinaires)
+CPA_A017	Chasse, piégeage et services annexes
+CPA_A02	Produits sylvicoles et services annexes
+CPA_A021	Arbres forestiers et services des pépinières
+CPA_A022	Bois brut
+CPA_A023	Autres produits forestiers
+CPA_A024	Services de soutien à l'exploitation forestière
+CPA_A03	Produits de la pêche et de l'aquaculture; services de soutien à la pêche
+CPA_B-F	Produits industriels et travaux de construction
+CPA_B-E	Produits industriels (sauf travaux de construction)
+CPA_B	Produits des industries extractives
+CPA_B05	Houille et lignite
+CPA_B051	Houille
+CPA_B052	Lignite
+CPA_B06	Hydrocarbures
+CPA_B061	Pétrole brut
+CPA_B062	Gaz naturel, liquéfié ou gazeux
+CPA_B07	Minerais métalliques
+CPA_B071	Minerais de fer
+CPA_B072	Minerais de métaux non ferreux
+CPA_B08	Autres produits des industries extractives
+CPA_B081	Pierres, sables et argiles
+CPA_B089	Produits des industries extractives n.c.a.
+CPA_B09	Services de soutien aux industries extractives
+CPA_B091	Services de soutien à l'extraction d'hydrocarbures
+CPA_B099	Services de soutien aux autres industries extractives
+CPA_C	Produits manufacturés
+CPA_C10-C12	Produits des industries alimentaires, boissons et produits à base de tabac
+CPA_C10	Produits des industries alimentaires
+CPA_C101	Viande et produits à base de viande
+CPA_C102	Préparations et conserves à base de poisson et de produits de la pêche
+CPA_C103	Produits à base de fruits et légumes
+CPA_C104	Huiles et graisses végétales animales
+CPA_C105	Produits laitiers
+CPA_C106	Produits du travail des grains et produits amylacés
+CPA_C107	Produits de boulangerie-pâtisserie et pâtes alimentaires
+CPA_C108	Autres produits alimentaires
+CPA_C109	Aliments pour animaux
+CPA_C11	Boissons
+CPA_C12	Produits à base de tabac
+CPA_C13-C15	Produits de l'industrie textile, articles d'habillement, cuir et articles en cuir
+CPA_C13	Produits de l'industrie textile
+CPA_C131	Fils et filés
+CPA_C132	Tissus
+CPA_C133	Ennoblissement textile
+CPA_C139	Autres textiles
+CPA_C14	Articles d'habillement
+CPA_C141	Articles d'habillement, à l'exclusion des fourrures
+CPA_C142	Articles en fourrure
+CPA_C143	Articles à mailles
+CPA_C15	Cuir et articles en cuir
+CPA_C151	Cuirs et peaux tannés et apprêtés; articles de voyage et de maroquinerie, articles de sellerie et de bourrellerie; peaux apprêtées et teintées
+CPA_C152	Chaussures
+CPA_C16-C18	Bois, articles en bois et en liège, à l'exclusion des meubles; articles de vannerie et de sparterie; papier et carton; travaux d'impression et de reproduction
+CPA_C16	Bois, articles en bois et en liège, à l'exclusion des meubles; articles de vannerie et de sparterie
+CPA_C161	Bois, sciés et rabotés
+CPA_C162	Articles en bois, liège, vannerie et sparterie
+CPA_C17	Papier et carton
+CPA_C171	Pâte à papier, papier et carton
+CPA_C172	Articles en papier ou en carton
+CPA_C18	Travaux d'impression et de reproduction
+CPA_C181	Travaux d'impression et services connexes
+CPA_C182	Reproduction d'enregistrements
+CPA_C19	Produits de la cokéfaction et du raffinage
+CPA_C191	Produits de la cokéfaction
+CPA_C192	Produits du raffinage du pétrole
+CPA_C20	Produits chimiques
+CPA_C201	Produits chimiques de base, engrais et produits azotés, matières plastiques de base et caoutchouc synthétique
+CPA_C202	Pesticides et autres produits agrochimiques
+CPA_C203	Peintures, vernis et revêtements similaires, encres d'imprimerie et mastics
+CPA_C204	Savons, produits d'entretien et parfums
+CPA_C205	Autres produits chimiques
+CPA_C206	Fibres artificielles ou synthétiques
+CPA_C21	Produits pharmaceutiques de base et préparations pharmaceutiques
+CPA_C211	Produits pharmaceutiques de base
+CPA_C212	Préparations pharmaceutiques
+CPA_C22_C23	Produits en caoutchouc, en plastique et autres produits minéraux non métalliques
+CPA_C22	Produits en caoutchouc et en plastique
+CPA_C221	Produits en caoutchouc
+CPA_C222	Produits en plastique
+CPA_C23	Autres produits minéraux non métalliques
+CPA_C231	Verre et articles en verre
+CPA_C232	Produits réfractaires
+CPA_C233	Matériaux de construction en terre cuite
+CPA_C234	Autres produits en porcelaine et céramique
+CPA_C235	Ciment, chaux et plâtre
+CPA_C236	Ouvrages en béton, en ciment ou en plâtre
+CPA_C237	Pierre taillée, façonnée et finie
+CPA_C239	Autres produits minéraux non métalliques
+CPA_C24_C25	Produits métallurgiques et métalliques, à l'exclusion des machines et équipements
+CPA_C24	Produits métallurgiques
+CPA_C241	Produits sidérurgiques de base et ferroalliages
+CPA_C242	Tubes, tuyaux, profilés creux et accessoires correspondants en acier
+CPA_C243	Autres produits de première transformation de l'acier
+CPA_C244	Métaux précieux et autres métaux non ferreux communs
+CPA_C245	Travaux de fonderie
+CPA_C25	Produits métalliques, à l'exclusion des machines et équipements
+CPA_C251	Éléments en métal pour la construction
+CPA_C252	Réservoirs, citernes et conteneurs métalliques
+CPA_C253	Générateurs de vapeur, à l'exclusion des chaudières pour chauffage central
+CPA_C254	Armes et munitions
+CPA_C255	Produits de la forge, de l'emboutissage, de l'estampage et du profilage; produits de la métallurgie des poudres
+CPA_C256	Traitement et revêtement des métaux; usinage
+CPA_C257	Coutellerie, outillage et quincaillerie
+CPA_C259	Autres ouvrages en métaux
+CPA_C26	Produits informatiques, électroniques et optiques
+CPA_C261	Composants et cartes électroniques
+CPA_C262	Ordinateurs et équipements périphériques
+CPA_C263	Équipements de communication
+CPA_C264	Produits électroniques grand public
+CPA_C265	Instruments et appareils de mesure, d'essai et de navigation; articles d'horlogerie
+CPA_C266	Équipements d'irradiation médicale, électromédicaux et électrothérapeutiques
+CPA_C267	Matériel optique et photographique
+CPA_C268	Supports magnétiques et optiques
+CPA_C27	Équipements électriques
+CPA_C271	Moteurs, génératrices et transformateurs électriques et matériel de distribution et de commande électrique
+CPA_C272	Piles et accumulateurs électriques
+CPA_C273	Fils, câbles et matériel d'installation électrique
+CPA_C274	Appareils d'éclairage électrique
+CPA_C275	Appareils ménagers
+CPA_C279	Autres matériels électriques
+CPA_C28	Machines et équipements n.c.a.
+CPA_C281	Machines d'usage général
+CPA_C282	Autres machines d'usage général
+CPA_C283	Machines agricoles et forestières
+CPA_C284	Machines de formage des métaux et machines-outils
+CPA_C289	Autres machines d'usage spécifique
+CPA_C29_C30	Véhicules automobiles, remorques et semi-remorques et autres matériels de transport
+CPA_C29	Véhicules automobiles, remorques et semi-remorques
+CPA_C291	Véhicules automobiles
+CPA_C292	Carrosseries automobiles; remorques et semi-remorques
+CPA_C293	Équipements automobiles
+CPA_C30	Autres matériels de transport
+CPA_C301	Navires et bateaux
+CPA_C302	Locomotives et autre matériel ferroviaire roulant
+CPA_C303	Aéronefs et engins spatiaux
+CPA_C304	Véhicules militaires de combat
+CPA_C309	Matériels de transport n.c.a.
+CPA_C31-C33	Meubles, autres produits manufacturés, réparation et installation de machines et d'équipements
+CPA_C31_C32	Meubles et autres produits manufacturés
+CPA_C31	Meubles
+CPA_C32	Autres produits manufacturés
+CPA_C321	Articles de joaillerie et bijouterie et articles similaires
+CPA_C322	Instruments de musique
+CPA_C323	Articles de sport
+CPA_C324	Jeux et jouets
+CPA_C325	Instruments et fournitures à usage médical et dentaire
+CPA_C329	Produits manufacturés n.c.a.
+CPA_C33	Réparation et installation de machines et d'équipements
+CPA_C331	Réparation d'ouvrages en métaux, de machines et d'équipements
+CPA_C332	Installation de machines et d'équipements industriels
+CPA_D	Electricité, gaz, vapeur et air conditionné
+CPA_D35	Électricité, gaz, vapeur et air conditionné
+CPA_D351	Électricité, transport et distribution d'électricité
+CPA_D352	Gaz manufacturé; distribution de combustibles gazeux par conduites
+CPA_D353	Production et distribution de vapeur et d'air conditionné
+CPA_E	Production et distribution d'eau; assainissement, gestion des déchets et dépollution
+CPA_E36	Eau naturelle; traitement et distribution d'eau
+CPA_E37-E39	Collecte et traitement des eaux usées; boues d'épuration; collecte, traitement et élimination des déchets; récupération de matériaux; Dépollution et autres services de gestion des déchets
+CPA_E37	Collecte et traitement des eaux usées; boues d'épuration
+CPA_E38	Collecte, traitement et élimination des déchets; récupération de matériaux
+CPA_E381	Déchets; collecte des déchets
+CPA_E382	Traitement et élimination des déchets
+CPA_E383	Récupération de matériaux; matières premières secondaires
+CPA_E39	Dépollution et autres services de gestion des déchets
+CPA_F	Constructions et travaux de construction
+CPA_F41	Bâtiments et travaux de construction de bâtiments
+CPA_F42	Ouvrages et travaux de construction relatifs au génie civil
+CPA_F421	Routes et voies ferrées; travaux de construction relatifs aux routes et voies ferrées
+CPA_F422	Ouvrages et travaux de construction relatifs aux réseaux
+CPA_F429	Ouvrages et travaux de construction relatifs à d'autres projets de génie civil
+CPA_F43	Travaux de construction spécialisés
+CPA_F431	Travaux de démolition et de préparation de sites
+CPA_F432	Travaux d'installation électrique, plomberie et autres travaux d'installation
+CPA_F433	Travaux de finition
+CPA_F439	Autres travaux de construction spécialisés
+CPA_G-U	Services
+CPA_G-I	Commerce; services de transport et d'entreposage; d'hébergement et de restauration
+CPA_G	Commerce; réparation d'automobiles et de motocycles
+TOT_TRD	Total du commerce et des services d'intermédiaire
+CPA_G45	Commerce et réparation d'automobiles et de motocycles
+CPA_G451_G453	Commerce de véhicules et d'équipements automobiles
+CPA_G451	Commerce de véhicules automobiles
+CPA_G452	Entretien et réparation de véhicules automobiles
+CPA_G453	Commerce d'équipements automobiles
+CPA_G454	Commerce et réparation de motocycles
+CPA_G46	Commerce de gros, à l'exclusion des automobiles et des motocycles
+CPA_G461	Services d'intermédiaire du commerce de gros
+CPA_G4611	Services d'intermédiaire du commerce de gros de matières premières agricoles, animaux vivants, matières premières textiles et produits semi-finis
+CPA_G4612	Services d'intermédiaire du commerce de gros de combustibles, minerais, métaux et produits chimiques
+CPA_G4613	Services d'intermédiaire du commerce de gros de bois et de matériaux de construction
+CPA_G4614	Services d'intermédiaire du commerce de gros de machines, équipements industriels, navires et aéronefs
+CPA_G4615	Services d'intermédiaire du commerce de gros de meubles, articles ménagers et quincaillerie
+CPA_G4616	Services d'intermédiaire du commerce de gros de textiles, habillement, fourrures, chaussures et articles en cuir
+CPA_G4617	Services d'intermédiaire du commerce de gros de denrées alimentaires, boissons et tabac
+CPA_G4618	Services d'intermédiaire du commerce de gros d'autres produits spécifiques
+CPA_G4619	Services d'intermédiaire du commerce de gros de produits divers
+CPA_G462	Commerce de gros de produits agricoles bruts et d'animaux vivants
+CPA_G4621	Commerce de gros de céréales, tabac non manufacturé, semences et aliments pour le bétail
+CPA_G4622	Commerce de gros de fleurs et plantes
+CPA_G4623	Commerce de gros d'animaux vivants
+CPA_G4624	Commerce de gros de cuirs et peaux
+CPA_G463	Commerce de gros de produits alimentaires, boissons et de tabac
+CPA_G4631	Commerce de gros de fruits et légumes
+CPA_G4632	Commerce de gros de viandes et de produits à base de viande
+CPA_G4633	Commerce de gros de produits laitiers, oeufs, huiles et matières grasses comestibles
+CPA_G4634	Commerce de gros de boissons
+CPA_G4635	Commerce de gros de produits à base de tabac
+CPA_G4636	Commerce de gros de sucre, chocolat et confiserie
+CPA_G4637	Commerce de gros de café, thé, cacao et épices
+CPA_G4638	Commerce de gros d'autres denrées alimentaires, y compris de poissons, crustacés et mollusques
+CPA_G4639	Commerce de gros non spécialisé de denrées alimentaires, boissons et tabac
+CPA_G464	Commerce de gros d'articles ménagers
+CPA_G4641	Commerce de gros de textiles
+CPA_G4642	Commerce de gros de vêtements et de chaussures
+CPA_G4643	Commerce de gros d'appareils électroménagers
+CPA_G4644	Commerce de gros de vaisselle, verrerie et produits d'entretien
+CPA_G4645	Commerce de gros de parfums et de produits de beauté
+CPA_G4646	Commerce de gros de produits pharmaceutiques
+CPA_G4647	Commerce de gros de meubles, de tapis et d'appareils d'éclairage
+CPA_G4648	Commerce de gros d'articles d'horlogerie et de bijouterie
+CPA_G4649	Commerce de gros d'autres articles ménagers
+CPA_G465	Commerce de gros d'équipements d'information et de communication
+CPA_G4651	Commerce de gros d'ordinateurs, de périphériques et de logiciels
+CPA_G4652	Commerce de gros d'équipements et composants électroniques et de télécommunications
+CPA_G466	Commerce de gros d'autres machines, équipements et matériels
+CPA_G4661	Commerce de gros de matériel agricole
+CPA_G4662	Commerce de gros de machines-outils
+CPA_G4663	Commerce de gros de machines pour l'extraction, la construction et le génie civil
+CPA_G4664	Commerce de gros de machines pour l'industrie textile et l'habillement
+CPA_G4665	Commerce de gros de mobilier de bureau
+CPA_G4666	Commerce de gros d'autres machines et équipements de bureau
+CPA_G4669	Commerce de gros d'autres machines et équipements
+CPA_G467	Autres commerces de gros spécialisés
+CPA_G4671	Commerce de gros de combustibles solides, liquides et gazeux et de produits annexes
+CPA_G4672	Commerce de gros de minerais et métaux
+CPA_G4673	Commerce de gros de bois, de matériaux de construction et d'appareils sanitaires
+CPA_G4674	Commerce de gros de quincaillerie et fournitures pour plomberie et chauffage
+CPA_G4675	Commerce de gros de produits chimiques
+CPA_G4676	Commerce de gros d'autres produits intermédiaires
+CPA_G4677	Commerce de gros de déchets et débris
+CPA_G469	Commerce de gros non spécialisé
+CPA_G47	Commerce de détail, à l'exclusion des automobiles et des motocycles
+CPA_G470	Commerce de détail, à l'exclusion des automobiles et des motocycles
+CPA_G4700	Commerce de détail, à l'exclusion des automobiles et des motocycles
+CPA_G47001	Commerce de détail de fruits, légumes, viandes, poissons, produits de boulangerie-pâtisserie, produits laitiers et oeufs
+CPA_G47002	Commerce de détail d'autres produits alimentaires, de boissons et de tabac
+CPA_G47003	Commerce de détail d'équipements d'information et de communication
+CPA_G47004	Commerce de détail de matériaux de construction et de quincaillerie
+CPA_G47005	Commerce de détail d'articles ménagers
+CPA_G47006	Commerce de détail d'articles culturels et récréatifs
+CPA_G47007	Commerce de détail d'habillement, de produits pharmaceutiques et médicaux, d'articles de toilette, de fleurs et plantes, d'animaux de compagnie et d'aliments pour animaux de compagnie
+CPA_G47008	Commerce de détail de carburants automobiles et d'autres articles neufs n.c.a.
+CPA_G47009	Commerce de détail de biens d'occasion
+CPA_H	Services de transport et d'entreposage
+CPA_H49	Transports terrestres et transports par conduites
+CPA_H491	Transport ferroviaire interurbain de voyageurs
+CPA_H492	Transport ferroviaire de fret
+CPA_H493	Autres transports terrestres de voyageurs
+CPA_H494	Transport routier de fret et services de déménagement
+CPA_H495	Transport par conduites
+CPA_H50	Transport par eau
+CPA_H501	Transport maritime et côtier de passagers
+CPA_H502	Transport maritime et côtier de fret
+CPA_H503	Transport fluvial de passagers
+CPA_H504	Transport fluvial de fret
+CPA_H51	Transports aériens
+CPA_H511	Transport aérien de passagers
+CPA_H512	Transport aérien de fret et transport spatial
+CPA_H52	Entreposage et services auxiliaires des transports
+CPA_H521	Entreposage et stockage
+CPA_H522	Services auxiliaires des transports
+CPA_H53	Services de poste et de courrier
+CPA_H531	Services de poste dans le cadre d'une obligation de service universel
+CPA_H532	Autres services de poste et de courrier
+CPA_I	Services d'hébergement et de restauration
+CPA_I55	Services d'hébergement
+CPA_I551	Hôtellerie et hébergement similaire
+CPA_I552	Hébergement touristique et autres services d'hébergement de courte durée
+CPA_I553	Services des terrains de camping et parcs pour caravanes et véhicules de loisirs
+CPA_I559	Autres services d'hébergement
+CPA_I56	Services de restauration et de débits de boissons
+CPA_I561	Restauration et restauration mobile
+CPA_I562	Services de traiteurs et autres services de restauration
+CPA_I563	Services de débits de boissons
+CPA_J	Services d'information et de communication
+CPA_J58-J60	Édition; production de films cinématographiques, de vidéos et de programmes de télévision; enregistrement sonore et édition musicale; programmation et diffusion
+CPA_J58	Édition
+CPA_J581	Édition de livres et périodiques et autres activités d'édition
+CPA_J582	Édition de logiciels
+CPA_J5821	Édition de jeux électroniques
+CPA_J5829	Édition d'autres logiciels
+CPA_J59_J60	Production de films cinématographiques, de vidéos et de programmes de télévision; enregistrement sonore et édition musicale; programmation et diffusion
+CPA_J59	Production de films cinématographiques, de vidéos et de programmes de télévision; enregistrement sonore et édition musicale
+CPA_J591	Services cinématographiques, vidéo et de télévision
+CPA_J592	Enregistrement sonore et édition musicale
+CPA_J60	Programmation et diffusion
+CPA_J601	Radiodiffusion
+CPA_J602	Programmation de télévision et télédiffusion; originaux d'émissions de télévision
+CPA_J61	Services de télécommunications
+CPA_J611	Services de télécommunications filaires
+CPA_J612	Services de télécommunications sans fil
+CPA_J613	Services de télécommunications par satellite
+CPA_J62	Programmation, conseil et autres activités informatiques
+CPA_J63	Services d'information
+CPA_J631	Traitement de données, hébergement et activités connexes; portails internet
+CPA_J639	Autres services d'information
+CPA_K	Services financiers et assurances
+CPA_K64	Services financiers, hors assurances et caisses de retraite
+CPA_K641	Services d'intermédiation monétaire
+CPA_K642	Services des sociétés holding
+CPA_K643	Services des fonds de placement et entités financières similaires
+CPA_K649	Autres services financiers, hors assurances et caisses de retraite
+CPA_K65	Services d'assurance, de réassurance et de caisses de retraite, à l'exclusion de la sécurité sociale obligatoire
+CPA_K651	Services d'assurance
+CPA_K6511_K65121	Assurance vie, accidents et assurance maladie
+CPA_K6511	Assurance vie
+CPA_K6511A	Contrats d'assurance vie individuels
+CPA_K6511B	Contrats d'assurance vie collectifs
+CPA_K6511C	Services des assurances vie non liées à des fonds d'investissements
+CPA_K6511D	Services des assurances vie liées à des fonds d'investissement
+CPA_K6511E	Tontines
+CPA_K6511F	Opérations de capitalisation
+CPA_K6511G	Autres services d'assurance vie
+CPA_K6511H	Plans de retraite collectifs
+CPA_K6512	Assurances non-vie
+CPA_K65121	Assurance accidents et assurance maladie
+CPA_K65122	Assurance de véhicules automobiles
+CPA_K651221	Assurance de véhicules automobiles, responsabilité civile
+CPA_K651229	Autres services d'assurance de véhicules automobiles
+CPA_K65123	Assurance maritime, assurance aérienne et autre assurance-transports
+CPA_K65124	Assurance incendie et autres services d'assurance dommages
+CPA_K65125	Assurance responsabilité civile générale
+CPA_K65126	Assurances crédit et caution
+CPA_K65127	Assurance voyages et assistance, assurance protection juridique et assurance contre les pertes financières diverses
+CPA_K65129	Autres services d'assurances non-vie
+CPA_K652	Réassurance
+CPA_K653	Caisses de retraite
+CPA_K66	Services auxiliaires aux services financiers et aux assurances
+CPA_K661	Services auxiliaires aux services financiers, hors assurances et caisses de retraite
+CPA_K662	Services auxiliaires des assurances et caisses de retraite
+CPA_K663	Services de gestion de fonds
+CPA_L	Services immobiliers
+CPA_L68A	Loyers imputés des logements occupés par leur propriétaire
+CPA_L68	Services immobiliers
+CPA_L681	Transactions sur biens immobiliers propres
+CPA_L682	Services de location et exploitation de biens immobiliers propres ou loués
+CPA_L683	Services immobiliers pour compte de tiers
+CPA_M_N	Services professionnels, scientifiques et techniques; services administratifs et d'assistance
+CPA_M	Services professionnels, scientifiques et techniques
+CPA_M69-M71	Services juridiques et comptables; services des sièges sociaux; conseil de gestion; services d'architecture et d'ingénierie; services de contrôle et analyses techniques
+CPA_M69_M70	Services juridiques et comptables; services des sièges sociaux; conseil de gestion
+CPA_M69	Services juridiques et comptables
+CPA_M691	Services juridiques
+CPA_M692	Services comptables, de tenue de livres de comptes et d'audits; services de conseil fiscal
+CPA_M70	Services des sièges sociaux; services de conseil en gestion
+CPA_M701	Services des sièges sociaux
+CPA_M702	Services de conseil en gestion
+CPA_M71	Services d'architecture et d'ingénierie; services de contrôle et analyses techniques
+CPA_M711	Services d'architecture et d'ingénierie et services de conseil technique connexes
+CPA_M712	Services de contrôle et analyses techniques
+CPA_M72	Services de recherche et développement scientifique
+CPA_M721	Recherche et développement en sciences physiques et naturelles
+CPA_M722	Recherche et développement en sciences humaines et sociales
+CPA_M73-M75	Services de publicité et d'études de marché; autres services spécialisés, scientifiques et techniques et services vétérinaires
+CPA_M73	Services de publicité et d'études de marché
+CPA_M731	Publicité
+CPA_M732	Services d'études de marché et de sondages
+CPA_M74_M75	Autres services spécialisés, scientifiques et techniques et services vétérinaires
+CPA_M74	Autres services spécialisés, scientifiques et techniques
+CPA_M741	Services de design spécialisés
+CPA_M742	Services photographiques
+CPA_M743	Services de traduction et interprétation
+CPA_M749	Autres services spécialisés, scientifiques et techniques n.c.a.
+CPA_M75	Services vétérinaires
+CPA_N	Services administratifs et d'assistance
+CPA_N77	Location et location-bail
+CPA_N771	Location et location-bail de véhicules automobiles
+CPA_N772	Location et location-bail de biens personnels et domestiques
+CPA_N773	Location et location-bail d'autres machines, équipements et biens
+CPA_N774	Services de licence pour l'utilisation de produits de la propriété intellectuelle et similaires, à l'exclusion des oeuvres protégées par des droits d'auteur
+CPA_N78	Services liés à l'emploi
+CPA_N781	Services des agences de placement de main-d'oeuvre
+CPA_N782	Services des agences de travail temporaire
+CPA_N783	Autres services de mise à disposition de ressources humaines
+CPA_N79	Services des agences de voyage, des voyagistes et autres services de réservation et services connexes
+CPA_N791	Services des agences de voyages et des voyagistes
+CPA_N799	Autres services de réservation et services connexes
+CPA_N80-N82	Services de sécurité et d'enquête; services relatifs aux bâtiments et aménagement paysager; services administratifs et autres services de soutien aux entreprises
+CPA_N80	Services de sécurité et d'enquête
+CPA_N801	Services de sécurité privée
+CPA_N802	Services de systèmes de sécurité
+CPA_N803	Services d'enquête
+CPA_N81	Services relatifs aux bâtiments et aménagement paysager
+CPA_N811	Services d'appui combinés liés aux bâtiments
+CPA_N812	Services de nettoyage
+CPA_N813	Services d'aménagement paysager
+CPA_N82	Services administratifs et autres services de soutien aux entreprises
+CPA_N821	Services administratifs et services de soutien
+CPA_N822	Services des centres d'appels
+CPA_N823	Services d'organisation de salons professionnels et congrès
+CPA_N829	Services de soutien aux entreprises n.c.a.
+CPA_O-Q	Services d'administration publique, défense, éducation, santé humaine et action sociale
+CPA_O	Services d'administration publique et de défense; services de sécurité sociale obligatoire
+CPA_O84	Services d'administration publique et de défense; services de sécurité sociale obligatoire
+CPA_O841	Services d'administration générale, économique et sociale
+CPA_O842	Services de prérogative publique
+CPA_O843	Services de sécurité sociale obligatoire
+CPA_P	Services de l'enseignement
+CPA_P85	Services de l'enseignement
+CPA_P851	Enseignement préprimaire
+CPA_P852	Enseignement primaire
+CPA_P853	Enseignement secondaire
+CPA_P854	Enseignement supérieur et postsecondaire non supérieur
+CPA_P855	Autres services d'enseignement
+CPA_P856	Services de soutien à l'enseignement
+CPA_Q	Services de santé humaine et d'action sociale
+CPA_Q86	Services de santé humaine
+CPA_Q861	Services hospitaliers
+CPA_Q862	Services des médecins et des dentistes
+CPA_Q869	Autres services de santé humaine
+CPA_Q87_Q88	Services d'hébergement médico-social et social; services d'action sociale sans hébergement
+CPA_Q87	Services d'hébergement médico-social et social
+CPA_Q871	Services d'hébergement médicalisé
+CPA_Q872	Services d'hébergement social pour personnes handicapées mentales, malades mentales et toxicomanes
+CPA_Q873	Services d'hébergement social pour personnes âgées ou handicapées physiques
+CPA_Q879	Autres services d'hébergement social
+CPA_Q88	Services d'action sociale sans hébergement
+CPA_Q881	Services d'action sociale sans hébergement pour personnes âgées ou handicapées
+CPA_Q889	Autres services d'action sociale sans hébergement
+CPA_R-U	Services artistiques et du spectacle et services récréatifs; autres services; services des ménages et extra-territoriaux
+CPA_R	Services artistiques et du spectacle et services récréatifs
+CPA_R90-R92	Services créatifs, artistiques, du spectacle, des bibliothèques, archives, musées et autres services culturels; jeux de hasard et d'argent
+CPA_R90	Services créatifs, artistiques et du spectacle
+CPA_R91	Services des bibliothèques, archives, musées et autres services culturels
+CPA_R92	Jeux de hasard et d'argent
+CPA_R93	Services sportifs, récréatifs et de loisirs
+CPA_R931	Services liés au sport
+CPA_R932	Services récréatifs et de loisirs
+CPA_S	Autres services
+CPA_S94	Services fournis par des organisations associatives
+CPA_S941	Services fournis par des organisations consulaires, patronales et professionnelles
+CPA_S942	Services fournis par des syndicats de salariés
+CPA_S949	Services fournis par d'autres organisations associatives
+CPA_S95	Services de réparation d'ordinateurs et de biens personnels et domestiques
+CPA_S951	Services de réparation d'ordinateurs et d'équipements de communication
+CPA_S952	Services de réparation de biens personnels et domestiques
+CPA_S96	Autres services personnels
+CPA_T	Services des ménages en tant qu'employeurs; biens et services divers produits par les ménages pour leur usage propre
+CPA_T97	Services des ménages en tant qu'employeurs de personnel domestique
+CPA_T98	Biens et services divers produits par les ménages privés pour leur usage propre
+CPA_T981	Biens divers produits par les ménages privés pour leur usage propre
+CPA_T982	Services divers produits par les ménages privés pour leur usage propre
+CPA_U	Services extra-territoriaux
+CPA_U99	Services extra-territoriaux

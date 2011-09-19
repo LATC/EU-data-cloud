@@ -1,0 +1,32 @@
+TOTAL	Insgesamt
+0	Null
+0_1	Zwischen 0 und 1
+0_49	Zwischen 0 und 49
+1	1
+1_4	Zwischen 1 und 4
+0_9	Zwischen 0 und 9
+1_9	Zwischen 1 und 9
+1_19	Zwischen 1 und 19
+1_49	Zwischen 1 und 49
+2_4	Zwischen 2 und 4
+2_9	Zwischen 2 und 9
+5_9	Zwischen 5 und 9
+GE_5	5 oder mehr
+LT_10	Weniger als 10
+10_19	Zwischen 10 und 19
+10_49	Zwischen 10 und 49
+GE_10	10 oder mehr
+20	20
+20_49	Zwischen 20 und 49
+GE_20	20 oder mehr
+LT_49	Weniger als 49
+50_99	Zwischen 50 und 99
+50_249	Zwischen 50 und 249
+GE_50	50 oder mehr
+100_249	Zwischen 100 und 249
+1_249	Zwischen 1 und 249
+250_499	Zwischen 250 und 499
+GE_250	250 oder mehr
+500_999	Zwischen 500 und 999
+GE_500	500 oder mehr
+GE_1000	1 000 oder mehr

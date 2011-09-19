@@ -1,0 +1,12 @@
+TOTALNOREROUTE	Total des recettes
+CORPORATION	Sociétés
+GG_CENT	Administrations publiques centrales
+GG_LOC	Administrations d'Etats fédérés et locales
+GG_SS	Administrations de sécurité sociale
+GG_TOT	Total administrations publiques
+HOUSENOREROUTE	Ménages
+NONPROF	Institutions sans but lucratif au service des ménages
+RESTNOREROUTE	Reste du monde
+TOTAL	Total des recettes y compris les transactions entre régimes
+HOUSE	Ménages y compris les transactions entre régimes
+REST	Reste du monde y compris les transactions entre régimes

@@ -1,0 +1,19 @@
+ASS	Forderungen
+LIAB	Verbindlichkeiten
+NET	Nettoposition
+CIA	Forderungen des Sektors Kreditinstitute
+CIL	Verbindlichkeiten des Sektors Kreditinstitute
+CIN	Nettoposition des Sektors Kreditinstitute
+GGN	Nettoposition des Sektors Staat
+GGA	Forderungen des Sektors Staat
+GGL	Verbindlichkeiten des Sektors Staat
+NEN	Nettoposition der Volkswirtschaft
+NEA	Forderungen der Volkswirtschaft
+NEL	Verbindlichkeiten der Volkswirtschaft
+NFPA	Forderungen des Sektors private Nichtbanken
+NFPL	Verbindlichkeiten des Sektors private Nichtbanken
+NFPN	Nettoposition des Sektors private Nichtbanken
+FINTRA	Finanzielle Transaktionen (Nettozugang an Forderungen / Nettoabgang  von Verbindlichkeiten)
+OTA	Andere, Forderungen
+OTL	Andere, Verbindlichkeiten
+OTN	Andere, Nettoposition

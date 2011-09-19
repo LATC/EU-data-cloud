@@ -1,0 +1,12 @@
+TOTAL	Total transport
+NAT	National transport
+INTL	International transport
+INTL_LD	International transport - Loaded
+INTL_NLD	International transport - Unloaded
+INTL_CTRD	International transport - Cross-trade
+INTL_CABO	International transport - Cabotage
+INTL_IN	International transport - Incoming
+INTL_OUT	International transport - Outgoing
+INTL_IEU	International transport Intra-EU
+INTL_XEU	International transport Extra-EU
+TRS	Transit

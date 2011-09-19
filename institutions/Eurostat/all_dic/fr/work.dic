@@ -1,0 +1,12 @@
+TOTAL	Total
+WORK	'Travaille' (voir texte explicatif)
+N_WORK	Ne 'travaille' pas (voir texte explicatif)
+NRESP	Sans reponse
+LOSS	Pertes d'emplois
+LOSS_HS	Pertes d'emplois hautement qualifiés
+CREA	Création d'emplois
+CREA_HS	Création d'emplois hautement qualifiés
+CREA_NA	Création d'emplois Sans objet
+LOSS_NA	Perte d'emplois Sans objet
+CREA_UNK	Création d'emplois Ne sait pas
+LOSS_UNK	Perte d'emplois Ne sait pas

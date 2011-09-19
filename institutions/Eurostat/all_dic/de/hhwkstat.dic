@@ -1,0 +1,10 @@
+TOTAL	Insgesamt
+HHW_10	Alle Erwachsenen arbeitend
+HHW_11	Alle Erwachsenen in Vollzeit arbeitend
+HHW_12	Mindestens ein Teilzeit arbeitender Erwachsener, alle anderen Erwachsene (soweit vorhanden) arbeiten Vollzeit
+HHW_20	Mindestens ein nicht arbeitender Erwachsener, alle andere Erwachsene (soweit vorhanden) arbeiten oder arbeiten nicht
+HHW_30	Alle Erwachsenen arbeiten nicht (alle Haushalte)
+HHW_31	Alle Erwachsenen arbeiten nicht (ohne Haushalte, die nur aus Studenten bestehen)
+HHW_32	Alle Erwachsenen arbeiten nicht (ohne Haushalte, die nur aus Studenten bestehen oder aus Nichterwerbstätigen 65 Jahre oder älter)
+NRESP	Keine Antwort
+UNK	Unbekannt

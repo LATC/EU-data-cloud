@@ -1,0 +1,12 @@
+TOTAL	Insgesamt
+TRN_GD	Güterzüge
+TRN_PAS	Personenzüge
+TRN_OTH	Sonstige Züge
+STCL1	Sitzplätze, 1. Klasse
+STCL2	Sitzplätze, 2. Klasse
+STMIX	Gemischte Sitzplätze
+DIN	Speisewagen
+CL1	1. Klasse
+CL2	2. Klasse
+COU	Liegewagen oder Schlafwagen
+BRT	Liegeplätze in Liege- und Schlafwagen

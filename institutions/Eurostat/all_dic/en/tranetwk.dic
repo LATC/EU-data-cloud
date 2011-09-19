@@ -1,0 +1,19 @@
+TOTAL	Total
+CANAL	Canals
+RIVER_LAKE	Navigable rivers and lakes
+MWAY	Motorway
+ROAD_OTH	Other roads
+ROAD_OTH_IN	Other roads within buil-up areas
+ROAD_OTH_OUT	Other roads ouside buil-up areas
+ROAD_STA	State roads
+ROAD_PRO	Provincial roads
+ROAD_COM	Communal roads
+LINE_NELEC	Non-electrified lines
+LINE_ELEC	Electrified lines
+LINE_HSPEED	High speed rail lines
+LINE_OTH	Other rail lines
+TRK_NELEC	Non-electrified tracks
+TRK_ELEC	Electrified tracks
+METRO	Metro/Underground lines
+IURB_CBUS	Interurban and city buses
+IMODAL	Intermodal freight area (in square meters)

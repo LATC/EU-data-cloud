@@ -1,0 +1,175 @@
+TOTALNOREROUTE	Insgesamt Ausgaben
+ADMIN	Verwaltungskosten
+TRANSFER	Übertragungen an andere Systeme
+OTHER	Sonstige Ausgaben
+OPROP	Sonstige Ausgaben Besitzeinkommen
+O_OTH	Andere sonstige Ausgaben
+SPBENEFNOREROUTE	Sozialschutzleistungen
+SNONTARGETNOREROUTE	Sozialleistungen ohne Bedürftigkeitsprüfung
+STARGETNOREROUTE	Sozialleistungen mit Bedürftigkeitsprüfung
+STTCASH	Barleistungen
+SNTCASH	Barleistungen (ohne Bedürftigkeitsprüfung)
+STACASH	Barleistungen (mit Bedürftigkeitsprüfung)
+STTCPERIOD	Regelmäßige Barleistungen
+SNTCPERIOD	Regelmäßige Barleistungen (ohne Bedürftigkeitsprüfung)
+STACPERIOD	Regelmäßige Barleistungen (mit Bedürftigkeitsprüfung)
+STTCPSICK	Lohnfortzahlung im Krankheitsfall
+SNTCPSICK	Lohnfortzahlung im Krankheitsfall (ohne Bedürftigkeitsprüfung)
+STACPSICK	Lohnfortzahlung im Krankheitsfall (mit Bedürftigkeitsprüfung)
+STTCPDISPEN	Invaliditätsrente
+SNTCPDISPEN	Invaliditätsrente (ohne Bedürftigkeitsprüfung)
+STACPDISPEN	Invaliditätsrente (mit Bedürftigkeitsprüfung)
+STTCPEARLYRED	Vorruhestandsgeld bei geminderter Erwerbsfähigkeit
+SNTCPEARLYRED	Vorruhestandsgeld bei geminderter Erwerbsfähigkeit (ohne Bedürftigkeitsprüfung)
+STACPEARLYRED	Vorruhestandsgeld bei geminderter Erwerbsfähigkeit (mit Bedürftigkeitsprüfung)
+STTCPOLDPEN	Altersruhegeld
+SNTCPOLDPEN	Altersruhegeld (ohne Bedürftigkeitsprüfung)
+STACPOLDPEN	Altersruhegeld (mit Bedürftigkeitsprüfung)
+STTCPANTPEN	Frührente
+SNTCPANTPEN	Frührente (ohne Bedürftigkeitsprüfung)
+STACPANTPEN	Frührente (mit Bedürftigkeitsprüfung)
+STTCPPARPEN	Teilrente
+SNTCPPARPEN	Teilrente (ohne Bedürftigkeitsprüfung)
+STACPPARPEN	Teilrente (mit Bedürftigkeitsprüfung)
+STTCPCARE	Regelmäßiges Pflegegeld
+SNTCPCARE	Regelmäßiges Pflegegeld (ohne Bedürftigkeitsprüfung)
+STACPCARE	Regelmäßiges Pflegegeld (mit Bedürftigkeitsprüfung)
+STTCPECOHAND	Regelmäßige Barleistung für wirtschaftliche Eingliederung Behinderter
+SNTCPECOHAND	Regelmäßige Barleistung für wirtschaftliche Eingliederung Behinderter (ohne Bedürftigkeitsprüfung)
+STACPECOHAND	Regelmäßige Barleistung für wirtschaftliche Eingliederung Behinderter (mit Bedürftigkeitsprüfung)
+STTCPSURVPEN	Hinterbliebenenrente
+SNTCPSURVPEN	Hinterbliebenenrente (ohne Bedürftigkeitsprüfung)
+STACPSURVPEN	Hinterbliebenenrente (mit Bedürftigkeitsprüfung)
+STTCPCHILD	Einkommenssicherung bei der Geburt
+SNTCPCHILD	Einkommenssicherung bei der Geburt (ohne Bedürftigkeitsprüfung)
+STACPCHILD	Einkommenssicherung bei der Geburt (mit Bedürftigkeitsprüfung)
+STTCPPARENT	Elternurlaub
+SNTCPPARENT	Elternurlaub (ohne Bedürftigkeitsprüfung)
+STACPPARENT	Elternurlaub (mit Bedürftigkeitsprüfung)
+STTCPALLOW	Familienbeihilfe bzw. Kindergeld
+SNTCPALLOW	Familienbeihilfe bzw. Kindergeld (ohne Bedürftigkeitsprüfung)
+STACPALLOW	Familienbeihilfe bzw. Kindergeld (mit Bedürftigkeitsprüfung)
+STTCPFULLUNEMP	Vollständige Zahlung des Arbeitslosengeldes
+SNTCPFULLUNEMP	Vollständige Zahlung des Arbeitslosengeldes (ohne Bedürftigkeitsprüfung)
+STACPFULLUNEMP	Vollständige Zahlung des Arbeitslosengeldes (mit Bedürftigkeitsprüfung)
+STTCPPARTUNEMP	Teilweise Zahlung des Arbeitslosengeldes
+SNTCPPARTUNEMP	Teilweise Zahlung des Arbeitslosengeldes (ohne Bedürftigkeitsprüfung)
+STACPPARTUNEMP	Teilweise Zahlung des Arbeitslosengeldes (mit Bedürftigkeitsprüfung)
+STTKPLACEMENT	Arbeitsvermittlung und Hilfe bei der Arbeitsuche
+SNTKPLACEMENT	Arbeitsvermittlung und Hilfe bei der Arbeitsuche (ohne Bedürftigkeitsprüfung)
+STAKPLACEMENT	Arbeitsvermittlung und Hilfe bei der Arbeitsuche (mit Bedürftigkeitsprüfung)
+STTCPEARLYMARK	Vorruhestandsgeld aus Arbeitsmarktgründen
+SNTCPEARLYMARK	Vorruhestandsgeld aus Arbeitsmarktgründen (ohne Bedürftigkeitsprüfung)
+STACPEARLYMARK	Vorruhestandsgeld aus Arbeitsmarktgründen (mit Bedürftigkeitsprüfung)
+STTCPVOCAT	Regelmäßige Berufsausbildungsbeihilfe
+SNTCPVOCAT	Regelmäßige Berufsausbildungsbeihilfe (ohne Bedürftigkeitsprüfung)
+STACPVOCAT	Regelmäßige Berufsausbildungsbeihilfe (mit Bedürftigkeitsprüfung)
+STTCPINCSUP	Einkommensbeihilfe
+SNTCPINCSUP	Einkommensbeihilfe (ohne Bedürftigkeitsprüfung)
+STACPINCSUP	Einkommensbeihilfe (mit Bedürftigkeitsprüfung)
+STTCP_OTH	Sonstige regelmäßige Barleistungen
+SNTCP_OTH	Sonstige regelmäßige Barleistungen (ohne Bedürftigkeitsprüfung)
+STACP_OTH	Sonstige regelmäßige Barleistungen (mit Bedürftigkeitsprüfung)
+STTCLUMP	Einmalige Sachleistungen
+SNTCLUMP	Einmalige Sachleistungen (ohne Bedürftigkeitsprüfung)
+STACLUMP	Einmalige Sachleistungen (mit Bedürftigkeitsprüfung)
+STTCLCARE	Einmalige Gesundheitssozialschutzleistungen
+SNTCLCARE	Einmalige Gesundheitssozialschutzleistungen (ohne Bedürftigkeitsprüfung)
+STACLCARE	Einmalige Gesundheitssozialschutzleistungen (mit Bedürftigkeitsprüfung)
+STTCLECOHAND	Wirtschaftliche Eingliederung Behinderter
+SNTCLECOHAND	Wirtschaftliche Eingliederung Behinderter (ohne Bedürftigkeitsprüfung)
+STACLECOHAND	Wirtschaftliche Eingliederung Behinderter (mit Bedürftigkeitsprüfung)
+STTCLDEATH	Sterbegeld
+SNTCLDEATH	Sterbegeld (ohne Bedürftigkeitsprüfung)
+STACLDEATH	Sterbegeld (mit Bedürftigkeitsprüfung)
+STTCLBIRTH	Geburtsbeihilfe
+SNTCLBIRTH	Geburtsbeihilfe (ohne Bedürftigkeitsprüfung)
+STACLBIRTH	Geburtsbeihilfe (mit Bedürftigkeitsprüfung)
+STTCLPARENT	Einmaliger Elternurlaub
+SNTCLPARENT	Einmaliger Elternurlaub (ohne Bedürftigkeitsprüfung)
+STACLPARENT	Einmaliger Elternurlaub (mit Bedürftigkeitsprüfung)
+STTCLVOCAT	Einmalige Berufsausbildung
+SNTCLVOCAT	Einmalige Berufsausbildung (ohne Bedürftigkeitsprüfung)
+STACLVOCAT	Einmalige Berufsausbildung (mit Bedürftigkeitsprüfung)
+STTCLRED	Einmalige Entlassungsabfindung
+SNTCLRED	Einmalige Entlassungsabfindung (ohne Bedürftigkeitsprüfung)
+STACLRED	Einmalige Entlassungsabfindung (mit Bedürftigkeitsprüfung)
+STTCL_OTH	Sonstige einmalige Kapitalbeträge Barleistungen
+SNTCL_OTH	Sonstige einmalige Kapitalbeträge Barleistungen (ohne Bedürftigkeitsprüfung)
+STACL_OTH	Sonstige einmalige Kapitalbeträge Barleistungen (mit Bedürftigkeitsprüfung)
+STTKIND	Sachleistungen
+SNTKIND	Sachleistungen (ohne Bedürftigkeitsprüfung)
+STAKIND	Sachleistungen (mit Bedürftigkeitsprüfung)
+STTKINCARE	Stationäre Behandlung
+SNTKINCARE	Stationäre Behandlung (ohne Bedürftigkeitsprüfung)
+STAKINCARE	Stationäre Behandlung (mit Bedürftigkeitsprüfung)
+STTKIDIRECT	Stationäre Behandlung mit direkter Versorgung
+SNTKIDIRECT	Stationäre Behandlung mit direkter Versorgung (ohne Bedürftigkeitsprüfung)
+STAKIDIRECT	Stationäre Behandlung mit direkter Versorgung (mit Bedürftigkeitsprüfung)
+STTKIREMB	Erstattung bei stationärer Behandlung
+SNTKIREMB	Erstattung bei stationärer Behandlung (ohne Bedürftigkeitsprüfung)
+STAKIREMB	Erstattung bei stationärer Behandlung (mit Bedürftigkeitsprüfung)
+STTKOUTCARE	Ambulante Behandlung
+SNTKOUTCARE	Ambulante Behandlung (ohne Bedürftigkeitsprüfung)
+STAKOUTCARE	Ambulante Behandlung (mit Bedürftigkeitsprüfung)
+STTKODIR_PHAR	Direkte Versorgung mit Arzneimitteln bei ambulanter Behandlung
+SNTKODIR_PHAR	Direkte Versorgung mit Arzneimitteln bei ambulanter Behandlung (ohne Bedürftigkeitsprüfung)
+STAKODIR_PHAR	Direkte Versorgung mit Arzneimitteln bei ambulanter Behandlung (mit Bedürftigkeitsprüfung)
+STTKODIR_OTH	Sonstige direkte Versorgung bei ambulanter Behandlung
+SNTKODIR_OTH	Sonstige direkte Versorgung bei ambulanter Behandlung (ohne Bedürftigkeitsprüfung)
+STAKODIR_OTH	Sonstige direkte Versorgung bei ambulanter Behandlung (mit Bedürftigkeitsprüfung)
+STTKOREMB_PHAR	Erstattung der Auslagen für Arzneimittel für ambulante Behandlung
+SNTKOREMB_PHAR	Erstattung der Auslagen für Arzneimittel für ambulante Behandlung (ohne Bedürftigkeitsprüfung)
+STAKOREMB_PHAR	Erstattung der Auslagen für Arzneimittel für ambulante Behandlung (mit Bedürftigkeitsprüfung)
+STTKOREMB_OTH	Sonstige Erstattungen bei ambulanter Behandlung
+SNTKOREMB_OTH	Sonstige Erstattungen bei ambulanter Behandlung (ohne Bedürftigkeitsprüfung)
+STAKOREMB_OTH	Sonstige Erstattungen bei ambulanter Behandlung (mit Bedürftigkeitsprüfung)
+STTKCHILD	Betreuung der Kinder tagsüber
+SNTKCHILD	Betreuung der Kinder tagsüber (ohne Bedürftigkeitsprüfung)
+STAKCHILD	Betreuung der Kinder tagsüber (mit Bedürftigkeitsprüfung)
+STTKACCOMOD	Unterbringung
+SNTKACCOMOD	Unterbringung (ohne Bedürftigkeitsprüfung)
+STAKACCOMOD	Unterbringung (mit Bedürftigkeitsprüfung)
+STTKASSIST	Unterstützung bei der Erledigung der Aktivitäten des täglichen Lebens
+SNTKASSIST	Unterstützung bei der Erledigung der Aktivitäten des täglichen Lebens (ohne Bedürftigkeitsprüfung)
+STAKASSIST	Unterstützung bei der Erledigung der Aktivitäten des täglichen Lebens (mit Bedürftigkeitsprüfung)
+STTKREHAB	Rehabilitation
+SNTKREHAB	Rehabilitation (ohne Bedürftigkeitsprüfung)
+STAKREHAB	Rehabilitation (mit Bedürftigkeitsprüfung)
+STTKFUNERAL	Bestattungskosten
+SNTKFUNERAL	Bestattungskosten (ohne Bedürftigkeitsprüfung)
+STAKFUNERAL	Bestattungskosten (mit Bedürftigkeitsprüfung)
+STTKHOME	Haushaltshilfe
+SNTKHOME	Haushaltshilfe (ohne Bedürftigkeitsprüfung)
+STAKHOME	Haushaltshilfe (mit Bedürftigkeitsprüfung)
+STTKMOBIL	Mobilität und Wiedereingliederung
+SNTKMOBIL	Mobilität und Wiedereingliederung (ohne Bedürftigkeitsprüfung)
+STAKMOBIL	Mobilität und Wiedereingliederung (mit Bedürftigkeitsprüfung)
+STTKVOCAT	Berufsausbildung
+SNTKVOCAT	Berufsausbildung (ohne Bedürftigkeitsprüfung)
+STAKVOCAT	Berufsausbildung (mit Bedürftigkeitsprüfung)
+STTKRENT	Mietzahlungen
+SNTKRENT	Mietzahlungen (ohne Bedürftigkeitsprüfung)
+STAKRENT	Mietzahlungen (mit Bedürftigkeitsprüfung)
+STTKRHOUSE	Sozialwohnungen
+SNTKRHOUSE	Sozialwohnungen (ohne Bedürftigkeitsprüfung)
+STAKRHOUSE	Sozialwohnungen (mit Bedürftigkeitsprüfung)
+STTKR_OTH	Sonstige Mietzahlungen
+SNTKR_OTH	Sonstige Mietzahlungen (ohne Bedürftigkeitsprüfung)
+STAKR_OTH	Sonstige Mietzahlungen (mit Bedürftigkeitsprüfung)
+STTKOWNER	Leistungen für eigengenutzte Wohnungen
+SNTKOWNER	Leistungen für eigengenutzte Wohnungen (ohne Bedürftigkeitsprüfung)
+STAKOWNER	Leistungen für eigengenutzte Wohnungen (mit Bedürftigkeitsprüfung)
+STTKDRUGS	Wiedereingliederung von Alkohol und Drogenabhängigen
+SNTKDRUGS	Wiedereingliederung von Alkohol und Drogenabhängigen (ohne Bedürftigkeitsprüfung)
+STAKDRUGS	Wiedereingliederung von Alkohol und Drogenabhängigen (mit Bedürftigkeitsprüfung)
+STTK_OTH	Sonstige Sachleistungen
+SNTK_OTH	Sonstige Sachleistungen (ohne Bedürftigkeitsprüfung)
+STAK_OTH	Sonstige Sachleistungen (mit Bedürftigkeitsprüfung)
+TOTAL	Insgesamt Ausgaben einschliesslich Übertragungen zwischen Systemen
+SPBENEF	Sozialschutzleistungen einschliesslich Übertragungen zwischen Systemen
+SNONTARGET	Sozialleistungen ohne Bedürftigkeitsprüfung einschliesslich Übertragungen zwischen Systemen
+STARGET	Sozialleistungen mit Bedürftigkeitsprüfung einschliesslich Übertragungen zwischen Systemen
+STTREROUTE	Umgeleitete Sozialbeiträge
+SNTREROUTE	Umgeleitete Sozialbeiträge (ohne Bedürftigkeitsprüfung)
+STAREROUTE	Umgeleitete Sozialbeiträge (mit Bedürftigkeitsprüfung)

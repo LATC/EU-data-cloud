@@ -1,0 +1,79 @@
+RND	Bois rond - total
+FUEL	Bois de chauffage y compris pour carbonisation
+IR	Bois rond industriel - total
+IR_C	Bois rond industriel, conifères
+IR_NC	Bois rond industriel, feuillus
+IR_NCTRO	Bois rond industriel, feuillus, tropicaux
+IR_LOG	Bois rond industriel - Grumes et bois de placage
+IR_PULP	Bois rond industriel - Bois de trituration
+IR_PULPOTH	Bois de trituration et autres bois ronds industriels
+IR_OTH	Autres bois ronds industriels
+WCHAR	Charbon de bois
+WCHIP	Plaquettes et particules
+WRESI	Déchets de bois y compris pellets
+PELLETS	Boulettes
+SAWN	Sciages, total
+PAN	Panneaux de bois, total
+PAN_VEN	Feuilles de placage
+PAN_PLY	Contreplaqués
+PAN_PAR	Panneaux de particules, OSB et autres
+PAN_POSB	Panneaux de particules, dont OSB
+PAN_FIBD	Panneaux de fibres
+PAN_HABD	Panneaux durs
+PAN_MDF	Panneaux de densité moyenne (MDF)
+PAN_FIBDOTH	Autres panneaux de fibres
+PULP	Pâtes de bois, total
+PULP_MECSEM	Pâtes mécaniques et mi-chimiques
+PULP_MEC	Pâtes mécaniques
+PULP_SEM	Pâtes mi-chimiques
+PULP_CHEDIS	Pâtes de bois chimiques (y compris pâtes à dissoudre)
+PULP_CHE	Pâtes de bois chimiques
+PULP_SLFAU	Pâte chimique au sulfate, écrue
+PULP_SLFAB	Pâte chimique au sulfate, blanchie
+PULP_SLFIU	Pâte chimique au bisulfite, écrue
+PULP_SLFIB	Pâte chimique au bisulfite, blanchie
+PULP_DIS	Pâtes à dissoudre
+PULP_OTH	Autres pâtes
+PULP_FIOTH	Pâtes obtenues à partir de fibres autres que le bois
+PULP_FIREC	Pâte de fibres récupérées
+REC_PAP	Vieux papiers
+PAP	Papiers et cartons, total
+PAP_GRA	Papiers graphiques
+PAP_NEWPRT	Papier journal
+PAP_PRTWR	Papiers d'impression et d'écriture
+PAP_UNCTMEC	Papiers non couchés obtenues mécaniquement
+PAP_UNCTFRE	Papiers non couchés sans bois
+PAP_CT	Papiers couchés
+PAP_SANHH	Papiers hygièniques et domestiques
+PAP_PAK	Matériaux d'emballage
+PAP_CAS	Caisses
+PAP_CART	Planches de carton
+PAP_WRAP	Papiers d'emballage
+PAP_OTHPAK	Autres papiers, surtout d'empaquetage
+PAP_OTHBD	Autres papiers et cartons n.d.a.
+SWO	Produits en bois secondaires 
+SWO_SW	Sciages transformés
+SWO_SW_C	Sciages transformés, conifères
+SWO_SW_NC	Sciages transformés, feuillus
+SWO_SW_NCTRO	Sciages transformés, feuillus, tropicaux
+SWO_WRAPAK	Matériel d'emballage en bois
+SWO_WPDOM	Produits de bois pour utilisation domestique/décorative (meubles exclus)
+SWO_WPOTH	Autres produits de bois fabriqués
+SWO_JOIN	Menuiserie et charpenterie de construction en bois
+SWO_FURN	Meubles en bois
+SWO_BLD	Bâtiments préfabriqués
+SWO_BLDWD	Bâtiments préfabriqués, essentiellement en bois
+SPA	Produits en papier secondaires 
+SPA_COMP	Papiers et cartons composites
+SPA_SPECT	Papiers couchés et articles en pâte à papier spéciaux
+SPA_CARCOP	Papier carbone et papier de duplication prêts à l'emploi
+SPA_SANHH	Papiers domestiques et hygiéniques prêts à l'emploi
+SPA_PAKBO	Cartons, boîtes, etc. d'emballage
+SPA_OTHBD	Autres articles en papier ou carton
+SPA_OTHBDP	Autres articles en papier ou carton, papiers d'impression et d'écriture prêts à l'emploi
+SPA_OTHBDA	Autres articles en papier ou carton, articles moulés ou pressés en pâte à papier
+SPA_OTHBDF	Autres articles en papier ou carton, papiers et cartons filtrés prêts à l'emploi
+SPA_PRA	Articles imprimés
+SPA_BOOK	Livres imprimés
+SPA_NWPAP	Journaux
+SPA_OTHPA	Autres articles imprimés

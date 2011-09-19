@@ -1,0 +1,76 @@
+TOTAL	Alle von der ICD-9-CM erfassten Prozeduren
+CM01-05	Operationen am Nervensystem
+CM0131_0139	Entleerung eines subduralen Hämatoms und intrakranieller Blutungen
+CM014_015	Extirpation, Exzision und Destruktion von erkranktem intrakraniellem Gewebe
+CM06_07	Operationen am endokrinen System
+CM062_066	Thyreoidektomie
+CM08-16	Operationen an den Augen
+CM131-137	Katarakt Chirurgie
+CM131-138	Katarakt Chirurgie
+CM18-20	Operationen an den Ohren
+CM2096-2098	Cochlea Implantation
+CM21-29	Operationen an Nase, Mund und Pharynx
+CM282-284	Tonsillektomie
+CM30-34	Operationen am respiratorischen System
+CM323-325	Pneumektomie
+CM33_DIA	Diagnostische Bronchoskopie mit oder ohne Biopsie (33.21 to 33.24 and 33.27)
+CM35-39	Operationen am kardiovaskulären System
+CM36	Entfernung einer Obstruktion eines Herzkranzgefäßes
+CM36_TRS	Transluminale Koronarangioplastie (36.01, 36.02 and 36.05)
+CM361	Bypass-Anastomose zur Myokard-Revaskularisation
+CM3721-3723	Katheterisierung
+CM3812	Carotis Endarteriektomie
+CM3929	Femoropoplitealer Bypass
+CM3971_3974	Verschluss eines infrarenalen aortalen Aneurysmas
+CM3995	Hämodialyse
+CM40_41	Operationen am hämatopoetischen und Lymphgefäßsystem
+CM410	Stammzelltransplantiation
+CM42-54	Operationen am Verdauungstrakt
+CM45_COL	Koloskopie mit und ohne Biopsie (45.22 to 45.25, 45.42 and 45.43)
+CM457_458	Kolektomie
+CM_LPC	Laparoskopische Kolektomie
+CM47	Operationen am Appendix
+CM470_471	Appendektomie
+CM4701_4711	Laparoskopische Appendektomie
+CM512	Cholezystektomie
+CM5122_5123	Cholecystektomie
+CM5123	Laparoskopische Cholecystektomie
+CM530-533	Operation von Inguinal- und Femoralhernien
+CM530_531	Verschluss einer Inguinalhernie
+CM_LPR	Laparoskopischer Verschluss einer Inguinalhernie
+CM55-59	Operationen an den Harnorganen
+CM556	Nierentransplantation
+CM5731-5733	Zystoskopie mit oder ohne Biopsie
+CM60-64	Operationen an den männlichen Geschlechtsorganen
+CM602-606	Radikale Prostataektomie
+CM602	Transurethrale Prostatektomie
+CM603-606	Offene Prostatektomie
+CM65-71	Operationen an den weiblichen Geschlechtsorganen
+CM683-687_689	Hysterektomie
+CM68_LPH	Laparoskopische Hysterektomie (68.31, 68.41, 68.51, 68.61 and 68.71)
+CM72-75	Geburtshilfliche Operationen
+CM740-744_7499	Kaiserschnitt
+CM74_CAE	Kaiserschnitt (74.0 to 74.2, 74.4 and 74.99)
+CM76-84	Operationen an den Bewegungsorganen
+CM767_790-793	Reposition nach Fraktur
+CM8026_806	Kniearthroskopie
+CM80_MK	Arthroskopische Exzision eines Meniskus am Kniegelenk
+CM80_DIS	Diskektomie (80.50, 80.51 and 80.59)
+CM8151-8153	Ersatz des Hüftgelenks
+CM8151	Hüfttotalprothese
+CM8153	Sekundärer Ersatz des Hüftgelenks
+CM8154	Totaler Ersatz des Kniegelenks
+CM85_86	Operationen am Integument
+CM8520-8523	Partielle Exzision der Mamma
+CM85_MAS	Totale Mastektomie (85.33 to 85.36 and 85.4)
+CM854	Brustamputation
+CM87-99	Verschiedene diagnostische und therapeutische Prozeduren
+CM_CAT	Computeraxialtomographie (87.03, 87.41, 87.71, 88.01, 88.38)
+CM884_885	Kontrast-Arteriographie und -Angiokardiographie
+CM887	Diagnostischer Ultraschall
+CM939	Therapie der Atmungsorgane
+CM00	Prozeduren und Eingriffe nicht anderweitig genannt
+SURG_IN	Chirurgische Massnahmen bei stationär aufgenommenen Patienten im Krankenhaus
+SURG_DAY	Chirurgische Massnahmen bei Tagespatienten im Krankenhaus
+SURG_OUT	Ambulante Patientenberatung (Behandlung von ambulanten Patienten im Kranhenhaus) 
+CONS_OUT	Ambulante Patientenberatung (ambulante Patientenbehandlung im Krankenhaus)

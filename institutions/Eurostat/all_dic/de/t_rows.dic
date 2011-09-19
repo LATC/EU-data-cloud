@@ -1,0 +1,176 @@
+A01	Landwirtschaft, gewerbliche Jagd
+A02	Forstwirtschaft
+B05	Fischerei und Fischzucht
+CA10	Kohlenbergbau, Torfgewinnung
+CA11	Gewinnung von Erdöl und Erdgas, Erbringung damit verbundener Dienstleistungen
+CA12	Bergbau auf Uran- und Thoriumerze
+CB13	Erzbergbau
+CB14	Gewinnung von Steinen und Erden, sonstiger Bergbau
+DA15	Ernährungsgewerbe
+DA16	Tabakverarbeitung
+DB17	Textilgewerbe
+DB18	Bekleidungsgewerbe
+DC19	Ledergewerbe
+DD20	Holzgewerbe (ohne Herstellung von Möbeln)
+DE21	Papiergewerbe
+DE22	Verlagsgewerbe, Druckgewerbe, Vervielfältigung von bespielten Ton-, Bild- und Datenträgern
+DF23	Kokerei, Mineralölverarbeitung, Herstellung und Verarbeitung von Spalt- und Brutstoffen
+DG24	Chemische Industrie
+DH25	Herstellung von Gummi- und Kunststoffwaren
+DI26	Glasgewerbe, Keramik, Verarbeitung von Steinen und Erden
+DJ27	Metallerzeugung und -bearbeitung
+DJ28	Herstellung von Metallerzeugnissen
+DK29	Maschinenbau
+DL30	Herstellung von Büromaschinen, Datenverarbeitungsgeräten und -einrichtungen
+DL31	Herstellung von Geräten der Elektrizitätserzeugung, -verteilungen
+DL32	Rundfunk-, Fernseh- und Nachrichtentechnik
+DL33	Medizin-, Meß-, Steuer- und Regelungstechnik, Optik
+DM34	Herstellung von Kraftwagen und Kraftwagenteilen
+DM35	Sonstiger Fahrzeugbau
+DN36	Herstellung von Möbeln, Schmuck, Musikinstrumenten, Sportgeräten, Spielwaren und sonstigen Erzeugnissen
+DN37	Recycling
+E40	Energieversorgung
+E41	Wasserversorgung
+F45	Baugewerbe
+G-I	Handel; Beherbergungs- und Gaststätten; Verkehr
+G50	Kraftfahrzeughandel; Instandhaltung und Reparatur von Kraftfahrzeugen; Tankstellen
+G51	Handelsvermittlung und Großhandel (ohne Handel mit Kraftfahrzeugen)
+G52	Einzelhandel (ohne Handel mit Kraftfahrzeugen und ohne Tankstellen); reparatur von Gebrauchsgütern
+H55	Gastgewerbe
+I60	Landverkehr; Transport in Rohrfernleitungen
+I61	Schiffahrt
+I62	Luftfahrt
+I63	Hilfs- und Nebentätigkeiten für den Verkehr; Verkehrsvermittlung
+I64	Nachrichtenübermittlung
+J65	Kreditgewerbe
+J66	Versicherungsgewerbe
+J67	Mit dem Kredit- und Versicherungsgewerbe verbundene Tätigkeiten
+K70	Grundstücks- und Wohnungswesen
+K71	Vermietung beweglicher Sachen ohne Bedienungspersonal
+K72	Datenverarbeitung und Datenbanken
+K73	Forschung und Entwicklung
+K74	Erbringung von Dienstleistungen überwiegend für Unternehmen
+L75	Öffentliche Verwaltung, Verteidigung, Sozialversicherung
+M80	Erziehung und Unterricht
+N85	Gesundheits-, Veterinär- und Sozialwesen
+O90	Abwasser- und Abfallbeseitigung und sonstige Entsorgung
+O91	Interessenvertretungen sowie Kirchliche und sonstige religiöse Vereinigungen (ohne Sozialwesen und Sport)
+O92	Kultur, Sport und Unterhaltung
+O93	Erbringung von sonstigen Dienstleistungen
+P95	Dienstleistungen privater Haushalte
+P119	Unterstellte Bankgebühr (FISIM)
+TOTAL	Insgesamt
+P3_S14	Konsumausgaben von privaten Haushalten
+P3_S15	Konsumausgaben für den Verbrauch von privaten Organisationen ohne Erwerbszweck
+P3_S13	Konsumausgaben des Staates
+P3	Konsumausgaben
+P53	Veränderungen bei Wertsachen
+P52	Vorratsveränderungen
+P5	Bruttoinvestitionen
+P6_S21	Exporte Intra-EU fob
+P6_S2I	Exporte von Waren und Dienstleistungen in Mitglieder der EWU (fob)
+P6_S2X	Exporte von Waren und Dienstleistungen in Nichtmitglieder der EWU (fob)
+P6_S22	Exporte Extra-EU fob
+P6	Ausfuhr
+P118	Handels- und Transportspannen
+SUPPP	Angebote insgesamt zum Anschaffungspreis
+TFINU	Letzte Verwendung zum Anschaffungspreis
+FINUBP	Letzte Verwendung zum Basispreis
+TU	Verwendung insgesamt zum Anschaffungspreis
+CPA_A_B	Erzeugnisse der Land- und Forstwirtschaft und Fischerei
+CPA_C-E	Technischen Produkte
+CPA_F	Bauarbeiten
+CPA_G-I	Handelsleistungen; Beherbergungs- und Gaststättendienstleistungen; Verkehrsleistungen
+CPA_J_K	Dienstleistungen der Kreditinstitute und Versicherungen (ohne Sozialversicherung); Dienstleistungen des Grundstücks- und Wohnungswesens
+CPA_L-P	Öffentliche Verwaltung und Dienstleistungen; Private Haushalte
+CPA_A01	Erzeugnisse der Landwirtschaft und Jagd
+CPA_A02	Forstwirtschaftliche Erzeugnisse
+CPA_B05	Fische und Fischereierzeugnisse
+CPA_CA10	Kohle und Torf
+CPA_CA11	Erdöl und Erdgas; Dienstleistungen für die Erdöl- und Erdgasgewinnung
+CPA_CA12	Uran- und Thoriumerze
+CPA_CB13	Erze
+CPA_CB14	Steine und Erden, sonstige Bergbauerzeugnisse
+CPA_DA15	Nahrungs- und Futtermittel sowie Getränke
+CPA_DA16	Tabakerzeugnisse
+CPA_DB17	Textilien
+CPA_DB18	Bekleidung
+CPA_DC19	Leder und Lederwaren
+CPA_DD20	Holz sowie Holz-, Kork- und Flechtwaren (ohne Möbel)
+CPA_DE21	Papier, Pappe und Waren daraus
+CPA_DE22	Verlags- und Druckerzeugnisse; bespielte Ton-, Bild- und Datenträger
+CPA_DF23	Kokereierzeugnisse, Mineralölerzeugnisse, Spalt- und Brutstoffe
+CPA_DG24	Chemische Erzeugnisse
+CPA_DH25	Gummi- und Kunststoffwaren
+CPA_DI26	Glas, Keramik, bearbeitete Steine und Erden
+CPA_DJ27	Metalle und Halbzeug daraus
+CPA_DJ28	Metallerzeugnisse
+CPA_DK29	Maschinen
+CPA_DL30	Büromaschinen, Datenverarbeitungsgeräte und -einrichtungen
+CPA_DL31	Geräte der Elektrizitätserzeugung und -verteilung u.ä.
+CPA_DL32	Nachrichtentechnik, Rundfunk- und Fernsehgeräte sowie elektronische Bauelemente
+CPA_DL33	Medizin-, Mess-, Steuerungs- und Regelungstechnische Erzeugnisse; Optische Erzeugnisse; Uhren
+CPA_DM34	Kraftwagen und Kraftwagenteile
+CPA_DM35	Sonstige Fahrzeuge
+CPA_DN36	Möbel, Schmuck, Misikinstrumente, Sportgeräte, Spielwaren und sonstige Erzeugnisse
+CPA_DN37	Sekundärrohstoffe
+CPA_E40	Energie und Dienstleistungen der Energieversorgung
+CPA_E41	Wasser und Dienstleistungen der Wasserversorgung
+CPA_F45	Bauarbeiten
+CPA_G50	Handelsleistungen mit Kraftfahrzeugen; Instandhaltungs- und Reparaturarbeiten an Kraftfahrzeugen; Tankstellenleistungen
+CPA_G51	Handelsvermittlungs- und Grosshandelsleistungen (ohne Handelsleistungen mit Kraftfahrzeugen)
+CPA_G52	Einzelhandelsleistungen (ohne Handelsleistungen mit Kraftfahrzeugen und ohne Tankstellenleistungen); Reparaturarbeiten an Gebrauchsgütern
+CPA_H55	Beherbergungs- und Gaststättendienstleistungen
+CPA_I60	Landverkehrs- und Transportleistungen in Rohrfernleistungen
+CPA_I61	Schiffahrtsleistungen
+CPA_I62	Luftfahrtleistungen
+CPA_I63	Dienstleistungen bezüglich Hilfs- und Nebentätigkeiten für den Verkehr; Verkehrsvermittlungsleistungen
+CPA_J62_J63	Programmierungstätigkeiten, Erbringung von Dienstleistungen der Informationstechnologie
+CPA_I64	Nachrichtenübermittlungsdienstleistungen
+CPA_J65	Dienstleistungen der Kreditinstitute
+CPA_J66	Dienstleistungen der Versicherungen (ohne Sozialversicherung)
+CPA_J67	Mit den Tätigkeiten der Kreditinstitute und Versicherungen verbundene Dienstleistungen
+CPA_K70	Dienstleistungen des Grundstücks- und Wohnungswesens
+CPA_K71	Dienstleistungen der Vermietung beweglicher Sachen ohne Bedienungspersonal
+CPA_K72	Dienstleistungen der Datenverarbeitung und von Datenbanken
+CPA_K73	Forschungs- und Entwicklungsleistungen
+CPA_K74	Unternehmensbezogene Dienstleistungen
+CPA_L75	Dienstleistungen der öffentlichen Verwaltung, der Verteidigung und der Sozialversicherung
+CPA_M80	Erziehungs- und Unterrichtsdienstleistungen
+CPA_N85	Dienstleistungen des Gesundheits- und Veterinär- und Sozialwesens
+CPA_O90	Abwasser-, Abfallbeseitigungs- und sonstige Entsorgungsleistungen
+CPA_O91	Dienstleistungen von Interessenvertretungen sowie kirchlichen und sonstigen Vereinigungen (ohne Sozialwesen, Kultur und Sport)
+CPA_O92	Kultur-, Sport- und Unterhaltungsdienstleistungen
+CPA_O93	Sonstige Dienstleistungen
+CPA_P95	Dienstleistungen privater Haushalte
+CPA_TOTAL	Insgesamt
+DP6A	Cif/fob Anpassungen auf Ausfuhren
+DP7A	Cif/fob Anpassungen auf Einfuhren
+P33	Direkte Einkäufe im Ausland von Inländern
+P34	Einkäufe im Inlandsgebiet von Nicht-Inländern
+P2I	Verwendung von Einfuhrprodukten
+D21_M_D31	Steuern abzüglich Gütersubventionen
+TOT_ADJ	Korrekturen insgesamt
+P2PP	Vorleistungen insgesamt zum Anschaffungspreis
+TOT_CA	Insgesamt, angepasst
+P11	Produktionswert zu Basispreisen - Marktproduktion
+P12	Produktionswert zu Basispreisen - Nichtmarktproduktion für die Eigenverwendung
+P13	Produktionswert zu Basispreisen - Sonstige Nichtmarktproduktion
+D1	Arbeitnehmerentgelt
+D11	Bruttolöhne und -gehälter
+D29_M_D39	Sonstige Netto-Produktionsabgaben
+K1	Abschreibungen
+B2N_B3N	Nettobetriebsüberschuß
+B2G_B3G	Bruttobetriebsüberschuß
+B3G	Bruttoselbständigeneinkommen
+B1G	Bruttowertschöpfung zu Basispreisen
+P1	Produktionswert zu Basispreisen
+P51	Bruttoanlageinvestitionen
+STAN11	Anlagevermögen
+EMP	Arbeitseinsatz (1000 Personen)
+P7_S21	Importe Intra-EU cif
+P7_S2I	Importe von Waren und Dienstleistungen aus Mitgliedern der EWU (cif)
+P7_S22	Importe Extra-EU cif
+P7_S2X	Importe von Waren und Dienstleistungen aus Nichtmitgliedern der EWU(cif)
+P7	Importe cif
+SUPBP	Angebote zu Basispreisen

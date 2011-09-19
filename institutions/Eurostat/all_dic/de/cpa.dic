@@ -1,0 +1,206 @@
+CPA_TOTAL	Insgesamt
+CPA_A_B	Erzeugnisse der Land- und Forstwirtschaft und Fischerei
+CPA_A	Erzeugnisse der Land- und Forstwirtschaft und Fischerei
+CPA_A01	Erzeugnisse der Landwirtschaft und Jagd
+CPA_A02	Forstwirtschaftliche Erzeugnisse
+CPA_B	Fische und Fischereierzeugnisse
+CPA_B05	Fische und Fischereierzeugnisse
+CPA_C	Mineralische Rohstoffe
+CPA_CA	Kohle und Torf; rohes Erdöl und Erdgas; Uran- und Thoriumerze
+CPA_CA10	Kohle und Torf
+CPA_CA11	Erdöl und Erdgas; Dienstleistungen für die Erdöl- und Erdgasgewinnung
+CPA_CA12	Uran- und Thoriumerze
+CPA_CB	Erze, Steine und Erden, sonstige Bergbauerzeugnisse
+CPA_CB13	Erze
+CPA_CB14	Steine und Erden, sonstige Bergbauerzeugnisse
+CPA_D	Hergestellte Waren
+CPA_DA	Nahrungs- und Genussmittel
+CPA_DA15	Nahrungs- und Futtermittel sowie Getränke
+CPA_DA16	Tabakerzeugnisse
+CPA_DB	Textilien und Bekleidung
+CPA_DB17	Textilien
+CPA_DB18	Bekleidung
+CPA_DC	Leder und Lederwaren
+CPA_DC19	Leder und Lederwaren
+CPA_DC193	Schuhe
+CPA_DD	Holz sowie Holz-, Kork- und Flechtwaren (ohne Möbel)
+CPA_DD20	Holz sowie Holz-, Kork- und Flechtwaren (ohne Möbel)
+CPA_DE	Papier, Pappe und Waren daraus; Verlags- und Druckerzeugnisse; bespielte Ton-, Bild- und Datenträger
+CPA_DE21	Papier, Pappe und Waren daraus
+CPA_DE22	Verlags- und Druckerzeugnisse; bespielte Ton-, Bild- und Datenträger
+CPA_DF	Kokereierzeugnisse, Mineralölerzeugnisse, Spalt- und Brutstoffe
+CPA_DF23	Kokereierzeugnisse, Mineralölerzeugnisse, Spalt- und Brutstoffe
+CPA_DG	Chemische Erzeugnisse
+CPA_DG24	Chemische Erzeugnisse
+CPA_DH	Gummi- und Kunststoffwaren
+CPA_DH25	Gummi- und Kunststoffwaren
+CPA_DI	Glas, Keramik, bearbeitete Steine und Erden
+CPA_DI26	Glas, Keramik, bearbeitete Steine und Erden
+CPA_DI263	Keramische Wand-, Bodenfliesen und -platten
+CPA_DJ	Metalle; Metallerzeugnisse
+CPA_DJ27	Metalle und Halbzeug daraus
+CPA_DJ28_TO_DN36	Maschinen, Geräte und Fahrzeuge
+CPA_DJ28_TO_DL_DN36	Maschinen und Geräte
+CPA_DJ28	Metallerzeugnisse
+CPA_DK	Maschinen
+CPA_DK29	Maschinen
+CPA_DL	Büromaschinen, Datenverarbeitungsgeräte und -einrichtungen; Elektrotechnik; Feinmechanik und Optik
+CPA_DL30	Büromaschinen, Datenverarbeitungsgeräte und -einrichtungen
+CPA_DL31	Geräte der Elektrizitätserzeugung und -verteilung u.ä.
+CPA_DL32	Nachrichtentechnik, Rundfunk- und Fernsehgeräte sowie elektronische Bauelemente
+CPA_DL33	Medizin-, Mess-, Steuerungs- und Regelungstechnische Erzeugnisse; Optische Erzeugnisse; Uhren
+CPA_DM	Fahrzeuge
+CPA_DM34	Kraftwagen und Kraftwagenteile
+CPA_DM35	Sonstige Fahrzeuge
+CPA_DN	Möbel, Schmuck, Misikinstrumente, Sportgeräte, Spielwaren und sonstige Erzeugnisse; Sekundärroshstoffe
+CPA_DN36	Möbel, Schmuck, Misikinstrumente, Sportgeräte, Spielwaren und sonstige Erzeugnisse
+CPA_DN37	Sekundärrohstoffe
+CPA_E	Energie und Wasser, Dienstleistungen der Energie- und Wasserversorgung
+CPA_E40	Energie und Dienstleistungen der Energieversorgung
+CPA_E41	Wasser und Dienstleistungen der Wasserversorgung
+CPA_F	Bauarbeiten
+CPA_F45	Bauarbeiten
+CPA_FA	Bauarbeiten: Wohnung
+CPA_FB	Bauarbeiten: sonstige Bauarbeiten
+CPA_G	Handelsleistungen; Instandhaltungs- und Reparaturarbeiten an Kraftfahrzeugen und Gebrauchsgütern
+CPA_G50	Handelsleistungen mit Kraftfahrzeugen; Instandhaltungs- und Reparaturarbeiten an Kraftfahrzeugen; Tankstellenleistungen
+CPA_G503	Handelsleistungen mit Kraftwagenteilen und -zubehör
+CPA_G505	Tankstellenleistungen
+CPA_G50101	Großhandelsleistungen mit Kraftwagen - Großhandelsleistungen mit neuen und gebrauchten Kraftwagen
+CPA_G50102	Einzelhandelsleistungen mit Kraftwagen
+CPA_G50103	Handelsvermittlungsleistungen mit Kraftwagen
+CPA_G50201	Instandhaltungs- und Reparaturarbeiten an Personenkraftwagen
+CPA_G50202	Instandhaltungs- und Reparaturarbeiten an anderen Kraftwagen
+CPA_G50203	Sonstige Dienstleistungen im Zusammenhang mit Kraftwagen
+CPA_G50301	Großhandelsleistungen mit Kraftwagenteilen und -zubehör
+CPA_G50302	Einzelhandelsleistungen mit Kraftwagenteilen und -zubehör
+CPA_G50303	Handelsvermittlungsleistungen mit Kraftwagenteilen und -zubehör
+CPA_G50401	Großhandelsleistungen mit Krafträdern, Teilen und Zubehör
+CPA_G50402	Einzelhandelsleistungen mit Krafträdern, Teilen und Zubehör
+CPA_G50403	Handelsvermittlungsleistungen mit Krafträdern, Teilen und Zubehör
+CPA_G50404	Instandhaltungs- und Reparaturarbeiten an Krafträdern
+CPA_G50501	Tankstellenleistungen
+CPA_G51	Handelsvermittlungs- und Grosshandelsleistungen (ohne Handelsleistungen mit Kraftfahrzeugen)
+CPA_G511	Handelsvermittlungsleistungen
+CPA_G5111	Händel lebenden Tieren, landwirtschaftlichen Grundstoffen, textilen Rohstoffen und Halbwaren auf Honorar- oder Vertragsbasis
+CPA_G5112	Händel Brennstoffen, Erzen, Metallen und technischen Chemikalien auf Honorar- oder Vertragsbasis
+CPA_G5113	Händel Holz, Baustoffen und Anstrichmitteln auf Honorar- oder Vertragsbasis
+CPA_G5114	Händel Maschinen, technischem Bedarf, Wasser- und Luftfahrzeugen auf Honorar- oder Vertragsbasis
+CPA_G5115	Händel Möbeln, Einrichtungs- und Haushaltsgegenständen, Eisen- und Metallwaren auf Honorar- oder Vertragsbasis
+CPA_G5116	Händel Textilien, Bekleidung, Schuhen und Lederwaren auf Honorar- oder Vertragsbasis
+CPA_G5117	Händel Nahrungsmitteln, Getränken und Tabakwaren auf Honorar- oder Vertragsbasis
+CPA_G5118	Handelsvermittlung von Waren a.n.g. auf Honorar- oder Vertragsbasis
+CPA_G5119	Handelsvermittlung von Waren ohne ausgeprägten Schwerpunkt auf Honorar- oder Vertragsbasis
+CPA_G512	Großhandelsleistungen mit landwirtschaftlichen Grundstoffen und lebenden Tieren
+CPA_G5121	Großhandelsdienstleistungen mit Getreide, Saaten und Futtermitteln
+CPA_G5122	Großhandelsdienstleistungen mit Blumen und Pflanzen
+CPA_G5123	Großhandelsdienstleistungen mit lebenden Tieren
+CPA_G5124	Großhandelsdienstleistungen mit Häuten, Fellen und Leder
+CPA_G5125	Großhandelsdienstleistungen mit Rohtabak
+CPA_G513	Großhandelsleistungen mit Nahrungsmitteln, Getränken und Tabakwaren
+CPA_G5131	Großhandelsdienstleistungen mit Obst, Gemüse und Kartoffeln
+CPA_G5132	Großhandelsdienstleistungen mit Fleisch, Fleischwaren, Geflügel und Wild
+CPA_G5133	Großhandelsdienstleistungen mit Milch, Milcherzeugnissen, Eiern, Speiseölen und Nahrungsfetten
+CPA_G5134	Großhandelsdienstleistungen mit Getränken
+CPA_G5135	Großhandelsdienstleistungen mit Tabakwaren
+CPA_G5136	Großhandelsdienstleistungen mit Zucker, Süßwaren und Backwaren
+CPA_G5137	Großhandelsdienstleistungen mit Kaffee, Tee, Kakao und Gewürzen
+CPA_G5138	Großhandelsdienstleistungen mit sonstigen Nahrungsmitteln
+CPA_G5139	Großhandelsdienstleistungen mit Nahrungsmitteln, Getränken und Tabakwaren ohne ausgeprägten Schwerpunkt
+CPA_G514	Großhandelsleistungen mit Gebrauchs- und Verbrauchsgütern
+CPA_G5141	Großhandelsdienstleistungen mit Textilien
+CPA_G5142	Großhandelsdienstleistungen mit Bekleidung und Schuhen
+CPA_G5143	Großhandelsdienstleistungen mit elektrischen Haushaltsgeräten, Rundfunk- und Fernsehgeräten
+CPA_G5144	Großhandelsdienstleistungen mit Haushaltswaren aus Metall, keramischen Erzeugnissen, Glaswaren, Tapeten und Reinigungsmitteln
+CPA_G5145	Großhandelsdienstleistungen mit kosmetischen Erzeugnissen und Körperpflegemitteln
+CPA_G5146	Großhandelsdienstleistungen mit pharmazeutischen Erzeugnissen und medizinischen Hilfsmitteln
+CPA_G5147	Großhandelsdienstleistungen mit sonstigen Gebrauchs- und Verbrauchsgütern
+CPA_G515	Großhandelsleistungen mit Rohstoffen, Halbwaren, Altmaterial und Reststoffen
+CPA_G5151	Großhandelsdienstleistungen mit festen Brennstoffen und Mineralölerzeugnissen
+CPA_G5152	Großhandelsdienstleistungen mit Erzen, Eisen, Stahl, NE-Metallen und Halbzeug
+CPA_G5153	Großhandelsdienstleistungen mit Holz, Baustoffen, Anstrichmitteln und Sanitärkeramik
+CPA_G5154	Großhandelsdienstleistungen mit Bauelementen aus Metall sowie Installationsbedarf für Gas, Wasser und Heizung
+CPA_G5155	Großhandelsdienstleistungen mit chemischen Erzeugnissen
+CPA_G5156	Großhandelsdienstleistungen mit sonstigen Halbwaren
+CPA_G5157	Großhandelsdienstleistungen mit Altmaterial und Reststoffen
+CPA_G518	Großhandelsleistungen mit Maschinen, Ausrüstungen und Zubehör
+CPA_G5181	Großhandelsleistungen mit Werkzeugmaschinen
+CPA_G5182	Großhandelsleistungen mit Baumaschinen
+CPA_G5183	Großhandelsleistungen mit Textil-, Näh- und Strickmaschinen
+CPA_G5184	Großhandelsleistungen mit Datenverarbeitungsgeräten, peripheren Einheiten und Software
+CPA_G5185	Großhandelsleistungen mit sonstigen Büromaschinen und Büromöbeln
+CPA_G5186	Großhandelsleistungen mit elektronischen Bauelementen
+CPA_G5187	Großhandelsleistungen mit sonstigen Maschinen, Ausrüstungen und Zubehör (ohne landwirtschaftliche Maschinen)
+CPA_G5188	Großhandelsleistungen mit landwirtschaftlichen Maschinen und Geräten
+CPA_G519	Sonstige Großhandelsleistungen
+CPA_G52	Einzelhandelsleistungen (ohne Handelsleistungen mit Kraftfahrzeugen und ohne Tankstellenleistungen); Reparaturarbeiten an Gebrauchsgütern
+CPA_G52111	Einzelhandelsleistungen mit Waren verschiedener Art, Hauptrichtung Nahrungsmittel, Getränke und Tabakwaren
+CPA_G52121	Sonstige Einzelhandelsleistungen mit Waren verschiedener Art
+CPA_G522	Einzelhandelsleistungen
+CPA_G52211	Einzelhandelsleistungen mit Obst, Gemüse und Kartoffeln
+CPA_G52221	Einzelhandelsleistungen mit Fleisch, Fleischwaren, Geflügel und Wild
+CPA_G52231	Einzelhandelsleistungen mit Fisch und Fischerzeugnissen
+CPA_G52241	Einzelhandelsleistungen mit Backwaren und Süßwaren
+CPA_G52251	Einzelhandelsleistungen mit Getränken
+CPA_G52261	Einzelhandelsleistungen mit Tabakwaren
+CPA_G52271	Sonstige Einzelhandelsleistungen mit Nahrungsmitteln
+CPA_G52311	Apothekenleistungen
+CPA_G52321	Einzelhandelsleistungen mit medizinischen und orthopädischen Artikeln
+CPA_G52331	Einzelhandelsleistungen mit kosmetischen Artikeln und Köperpflegemitteln
+CPA_G52411	Einzelhandelsleistungen mit Textilien und Kurzwaren
+CPA_G52421	Einzelhandelsleistungen mit Bekleidung
+CPA_G52431	Einzelhandelsleistungen mit Schuhen und Lederwaren
+CPA_G52441	Einzelhandelsleistungen mit Wohnmöbeln, Einrichtungsgegenständen und Hausrat, a.n.g.
+CPA_G52451	Einzelhandelsleistungen mit elektrischen Haushaltsgeräten
+CPA_G52452	Einzelhandelsleistungen mit Rundfunk- und Fernsehgeräten, Musikinstrumenten und Ton- und Bildträgern
+CPA_G52461	Einzelhandelsleistungen mit Metallwaren, Anstrichmitteln, Bau- und Heimwerkerbedarf
+CPA_G52471	Einzelhandelsleistungen mit Büchern, Zeitschriften, Zeitungen, Schreibwaren und Bürobedarf
+CPA_G52481	Einzelhandelsleistungen mit Büromöbeln, Büroeinrichtungen, Datenverarbeitungsgeräten und -einrichtungen, Fotoartikeln und optischen Erzeugnissen
+CPA_G52482	Einzelhandelsleistungen mit Uhren und Schmuk, Sportartikeln und Spielwaren
+CPA_G52483	Einzelhandelsleistungen mit Nicht-Nahrungsmitteln, a.n.g.
+CPA_G52501	Einzelhandelsleistungen mit Antiquitäten und Gebrauchtwaren
+CPA_G52611	Versandhandelsleistungen
+CPA_G52621	Einzelhandelsleistungen an Verkaufsständen und auf Märkten
+CPA_G52631	Sonstige Einzelhandelsleistungen (nicht in Verkaufsräumen)
+CPA_G52711	Reparaturarbeiten an Schuhen und Lederwaren
+CPA_G52721	Reparaturarbeiten an elektrischen Haushaltsgeräten
+CPA_G52731	Reparaturarbeiten an Uhren und Schmuck
+CPA_G52741	Reparaturarbeiten an sonstigen Gebrauchsgütern
+CPA_H	Beherbergungs- und Gaststättendienstleistungen
+CPA_H55	Beherbergungs- und Gaststättendienstleistungen
+CPA_I	Verkehrs- und Nachrichtenübermittlungsdienstleistungen
+CPA_I60	Landverkehrs- und Transportleistungen in Rohrfernleistungen
+CPA_I61	Schiffahrtsleistungen
+CPA_I62	Luftfahrtleistungen
+CPA_I63	Dienstleistungen bezüglich Hilfs- und Nebentätigkeiten für den Verkehr; Verkehrsvermittlungsleistungen
+CPA_I64	Nachrichtenübermittlungsdienstleistungen
+CPA_J	Dienstleistungen der Kreditinstitute und Versicherungen (ohne Sozialversicherung)
+CPA_J65	Dienstleistungen der Kreditinstitute
+CPA_J66	Dienstleistungen der Versicherungen (ohne Sozialversicherung)
+CPA_J67	Mit den Tätigkeiten der Kreditinstitute und Versicherungen verbundene Dienstleistungen
+CPA_K	Dienstleistungen des Grundstücks- und Wohnungswesens und der Vermietung beweglicher Sachen, unternhemensbezogene Dienstleistungen
+CPA_K70	Dienstleistungen des Grundstücks- und Wohnungswesens
+CPA_K71	Dienstleistungen der Vermietung beweglicher Sachen ohne Bedienungspersonal
+CPA_K72	Dienstleistungen der Datenverarbeitung und von Datenbanken
+CPA_K73	Forschungs- und Entwicklungsleistungen
+CPA_K74	Unternehmensbezogene Dienstleistungen
+CPA_L	Dienstleistungen der öffentlichen Verwaltung, der Verteidigung und der Sozialversicherung
+CPA_L75	Dienstleistungen der öffentlichen Verwaltung, der Verteidigung und der Sozialversicherung
+CPA_M	Erziehungs- und Unterrichtsdienstleistungen
+CPA_M80	Erziehungs- und Unterrichtsdienstleistungen
+CPA_N	Dienstleistungen des Gesundheits- und Veterinär- und Sozialwesens
+CPA_N85	Dienstleistungen des Gesundheits- und Veterinär- und Sozialwesens
+CPA_O	Sonstige öffentliche und persönliche Dienstleistungen
+CPA_O90	Abwasser-, Abfallbeseitigungs- und sonstige Entsorgungsleistungen
+CPA_O91	Dienstleistungen von Interessenvertretungen sowie kirchlichen und sonstigen Vereinigungen (ohne Sozialwesen, Kultur und Sport)
+CPA_O92	Kultur-, Sport- und Unterhaltungsdienstleistungen
+CPA_O93	Sonstige Dienstleistungen
+CPA_P	Dienstleistungen privater Haushalte
+CPA_P95	Dienstleistungen privater Haushalte
+CPA_Q	Dienstleistungen exterritorialer Organisationen und Körperschaften
+CPA_Q99	Dienstleistungen exterritorialer Organisationen und Körperschaften
+CPA_OTH	Sonstige Produkte
+BIOMASS	Biomasse
+FOSSIL	Fossile Brenstoffe
+MINERAL	Mineralien
+V12110	Umsatz

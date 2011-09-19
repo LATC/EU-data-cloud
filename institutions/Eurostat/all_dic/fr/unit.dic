@@ -1,0 +1,428 @@
+NBR	Nombre
+1000	Milliers
+MIO	Millions
+MRD	Milliards
+HAB	Habitants/personnes/têtes
+100HAB	Par 100 habitants
+1000HAB	Par 1 000 habitants
+100000HAB	Par 100 000 habitants
+I2000_HAB	Indice par habitant, 2000=100
+I2005_HAB	Indice par habitant, 2005=100
+MIO_HAB	Par million d'habitants
+HAB_PER_	Habitants par ...
+HAB_KM2	Habitants au km2
+KM_1000KM2	Kilomètres par 1 000 km2
+EUR_KG	missing
+EUR_CLV00_KG	missing
+EUR_HA	Euro par hectare
+EUR_HAB	Euro par habitant
+EUR_HAB_EU	Euro par habitant en pourcentage de la moyenne de l'UE
+EUR_HAB_CLV00	Euro par habitant, volume de référence et taux de change de 2000
+EUR_HAB_CLV05	Euro par habitant, volume de référence et taux de change de 2005
+EUR_HAB_KP00	Euro par habitant (aux prix constants de 2000)
+EUR_HRS	Euro par heure travaillée
+NAC_HA	Monnaie nationale (inclues séries 'euro fixed' pour les pays euro) / ha
+NAC_HAB	Monnaie nationale par habitant (y compris les séries en 'euro fixe' pour les pays de la zone euro)
+NAC_HAB_CLV00	Monnaie nationale par habitant, volume de référence et taux de change de 2000 (y compris les séries en 'euro fixe' pour les pays de la zone euro)
+NAC_HAB_CLV05	Monnaie nationale par habitant, volume de référence et taux de change de 2005 (y compris les séries en 'euro fixe' pour les pays de la zone euro)
+NAC_HRS	Monnaie nationale par heure travaillée
+PPS_KG	Standard de pouvoir d'achat par kilogramme
+PPS_HAB	Standard de pouvoir d'achat par habitant
+PPS_HAB_EU	Standard de pouvoir d'achat par habitant en pourcentage de la moyenne EU
+EUR	Euro (à partir du 1.1.1999)/ECU (jusqu'au 31.12.1998)
+1000EUR	Milliers d'euros (à partir du 1.1.1999)/ECU (jusqu'au 31.12.1998)
+MIO_EUR	Millions d'euros (à partir du 1.1.1999)/Millions d'écus (jusqu'au 31.12.1998)
+MIO_EUR_KP00	Millions d'euro (aux prix constants de 2000)
+MIO_EUR_KP_PRE	Millions d'euros (aux prix de l'année précédente)
+MIO_EUR_CLV2000	Millions d'euro, mesures de volume chaînées, année de référence 2000 (aux taux de change de 2000)
+MIO_EUR_CLV2005	Millions d'euro, mesures de volume chaînées, année de référence 2005 (aux taux de change de 2005)
+MRD_EUR	Milliards d'euros (à partir du 1.1.1999)/ECU (jusqu'au 31.12.1998)
+ECU	ECU (unité monétaire européenne)
+NAC	Monnaie nationale (y compris les séries en 'euro fixe' pour les pays de la zone euro)
+1000NAC	Milliers de monnaie nationale (y compris les séries en 'euro fixe' pour les pays de la zone euro)
+MIO_NAC	Millions de monnaie nationale (y compris les séries en 'euro fixe' pour les pays de la zone euro)
+MIO_NAC_KP00	Millions de monnaie nationale aux prix constants de 2000 (y compris les séries en 'euro fixe' pour les pays de la zone euro)
+MIO_NAC_KP_PRE	Millions de monnaie nationale aux prix de l'année précédente (y compris les séries en 'euro fixe' pour les pays de la zone euro)
+MIO_NAC_CLV2000	Millions de monnaie nationale, mesures de volume chaînées, année de référence 2000 (y compris les séries en 'euro fixe' pour les pays de la zone euro)
+MIO_NAC_CLV2005	Millions de monnaie nationale, mesures de volume chaînées, année de référence 2005 (y compris les séries en 'euro fixe' pour les pays de la zone euro)
+MRD_NAC	Milliards de monnaie nationale (y compris les séries en 'euro fixe' pour les pays de la zone euro)
+NAT	Monnaie nationale (y compris les anciennes monnaies de la zone euro)
+MIO_NAT	Millions de monnaie nationale (y compris les anciennes monnaies de la zone euro)
+PPS	Standard de pouvoir d'achat (SPA)
+PPS_KP00_HAB	Standard de pouvoir d'achat par habitant aux prix constants de 2000
+MIO_PPS	Millions de SPA (Standard de pouvoir d'achat)
+MIO_PPS_KP00	Millions de SPA aux prix de 2000
+MIO_PPCS	Millions de standards de pouvoir d'achat basés sur la consommation finale
+PPCS_HAB	Standards de Pouvoir d'Achat basés sur la consommation finale par habitant
+GDP_EUR	PIB nominal; niveau absolu en milliards d'euros (à partir du 1.1.1999)/milliards d'ECU (jusqu'au 31.12.1998)
+T	Tonnes
+T_HAB	Tonnes par tête
+1000T	Milliers de tonnes
+1000T_DAY	1000 tonnes/jour
+T_O2_DAY	Tonnes O2/jour
+T_CO2_EQVT	tonnes équivalents CO2
+T_NO2_EQVT	tonnes équivalents NO2
+T_SO2_EQVT	tonnes équivalents SO2
+KG_HAB	Kilogrammes par personne
+GR_HAB	Grammes par tête
+TPW	Tonnes du poids produit
+TLW	Tonnes poids vif
+1000TLW	1000 tonnes poids vif
+T_AI	Tonnes d'ingrédient actif
+MIO_TLW	Millions de tonnes poids vif
+MIO_T	Millions de tonnes
+EUR_T	Euro/Tonne
+NAC_T	Monnaie nationale (y compris les séries en 'euro fixe' pour les pays de la zone euro)/tonne
+T_HA	Tonnes par hectare
+KGOE_1000EUR	Kilogramme d'equivalent pétrole par 1000 euros
+1000TOE	Milliers de tonnes d'équivalent pétrole (TEP)
+GRT	Jauge brute (JB) en milliers
+GT	Jauge brute (GT)
+MIO_GTKM	Tonnes-kilomètres brutes (million)
+1000TKM	Milliers de tonnes-kilomètres
+MIO_TKM	Millions de tonnes-kilomètre
+MIO_TKM_OFF	Millions de tonnes-kilomètre offerts
+PASS	Passagers
+1000PASS	1000 passagers
+1000PASF	1000 passagers (sauf passagers de navires de croisière)
+1000PASC	1000 passagers de navires de croisière commençant ou terminant une traversée
+1000PAST	1000 passagers de navires de croisière en excursion
+1000PKM	Milliers de passagers-kilomètres
+MIO_PKM	Millions de passagers-kilomètres
+PC	Pourcentage
+PC_AREA	Pourcentage de la surface
+PC_POP	Pourcentage de la population totale
+PC_POP_Y20_29	Population - en pourcentage de la population âgée de 20 à 29 ans
+PC_POP_Y25_29	Population - en pourcentage de la population âgée de 25 à 29 ans
+PC_POP_GRAD	Population - en pourcentage du total des diplômés
+PC_POP_PART	Population - en pourcentage du total des participants
+PC_POP_STUD	Population - en % de l'ensemble des étudiants
+PC_POP_FSTUD	Population - en % de l'ensemble des étudiants étrangers
+PC_POP_UP95	Pourcentage de la population totale - limite supérieure de l'intervalle de confiance à 95%
+PC_POP_LW95	Pourcentage de la population totale - limite inférieure de l'intervalle de confiance à 95%
+PC_ACT	Pourcentage de la population active
+PC_ACT_HC	Pourcentage de la population active - numérateur exprimé en nombre de personnes
+PC_ACT_FTE	Pourcentage de la population active - numérateur exprimé en équivalents temps plein
+PC_MOB	Pourcentage de RHST professionnellement mobiles
+PC_TSC	Pourcentage du produit total des impôts et des cotisations sociales
+PC_EMP	Pourcentage du total de l'emploi
+PC_EMP_HC	Pourcentage de l'emploi total - numérateur exprimé en nombre de personnes
+PC_EMP_FTE	Pourcentage de l'emploi total - numérateur exprimé en équivalents temps plein
+PC_UNE	Pourcentage de chômage
+PC_GDP	Pourcentage du PIB
+PC_BEN	Pourcentage du total des prestations
+PC_EXP	Pourcentage du total des dépenses
+PC_REC	Pourcentage du total des recettes
+PC_CHE	Pourcentage de la dépense de santé courante
+PC_WORLD	Pourcentage du total mondial
+PC_TOT	Pourcentage du total
+PC_TAX	Pourcentage du total de la taxation
+PC_TOT_HRS	Pourcentage du total (basé sur les heures travaillées)
+PC_HH	Pourcentage des ménages
+PC_CANT	N'ayant pas les moyens - pourcentage
+PC_EMP_CUSE	Pourcentage de personnes employées utilisant un ordinateur
+PC_EMP_IACC	Pourcentage des salariés travaillant dans un entreprise avec accès à internet
+PC_ENT	Pourcentage des entreprises
+PC_ENT_CUSE	Pourcentage des entreprises utilisant l'ordinateur
+PC_ENT_IACC	Pourcentage des entreprises ayant accès à l'Internet
+PC_ENT_ISELL	Pourcentage des entreprises qui vendent sur Internet au cours de la dernière année civile
+PC_TURN	Pourcentage du chiffre d'affaires
+PC_HH_IACC	Pourcentage des ménages ayant accès à Internet à domicile
+PC_IND	Pourcentage des particuliers
+PC_IND_C3	Pourcentage des particuliers ayant utilisé un ordinateur au cours des 3 derniers mois
+PC_IND_CEVR	Pourcentage des particuliers ayant déjà utilisé un ordinateur
+PC_IND_ILT12	Pourcentage des particuliers ayant utilisés Internet au cours de l'année dernière
+PC_IND_IU3	Pourcentage des particuliers ayant utilisés Internet au cours des trois derniers mois
+PC_IND_CTMT3YX	Pourcentage des particuliers ayant suivi un cours informatique il y a plus de 3 ans ou jamais
+PC_FOR	Pourcentage de non-nationaux avec les caractéristiques de confort
+PC_NOT_EU	Pourcentage de non-ressortissants UE avec les caractéristiques de confort
+PC_CHLT_18	Pourcentage d'enfants de moins de 18 ans avec les caractéristiques de confort
+PC_CHGE_65	Pourcentage de personnes âgées de 65 ans et plus avec les caractéristiques de confort
+PC_PNT	Points de pourcentage
+PC_IND_BLT12	Pourcentage de particuliers ayant commandé des biens ou des services sur internet pour leur usage privé au cours de l'année précédente
+PC_IND_BMT12X	Pourcentage de particuliers ayant commandé des biens ou des services sur internet pour leur usage privé il y a plus d'un an ou n'ayant jamais commandé
+PC_IND_UMPH	Pourcentage de particuliers utilisant un téléphone portable
+PC_IND_IUPH1	Pourcentage de particuliers ayant utilisé Internet pour des appels téléphoniques ou vidéo au cours des 3 derniers mois
+PC_IND_IUMFXP	Pourcentage de particuliers ayant téléchargé/écouté/regardé/échangé/partagé par podcast de la musique et/ou des films au cours des 3 derniers mois
+PC_IND_AVPAYX	Pourcentage de particuliers n'ayant pas payé pour un contenu audiovisuel en ligne au cours des 3 derniers mois
+PC_ENT_IBUY	Pourcentage des entreprises qui achetent sur Internet au cours de la dernière année civile
+PC_ENT_PURCH	Pourcentage des achats total
+PC_ENT_OBUY	Pourcentage d'entreprises ayant utilisé l'EDI ou des réseaux autres qu'internet au cours de la dernière année civile
+PC_ENT_OSELL	Pourcentage d'entreprises ayant utilisé l'EDI ou des réseaux autres qu'internet au cours de la dernière année civile
+PC_ENT_ITSPRCR	Pourcentage d'entreprises ayant essayé de recruter/ayant recruté du personnel pour des emplois nécessitant des compétences de spécialistes en TIC
+PC_ENT_ITSPVAC	Pourcentage d'entreprises ayant eu des postes vacants difficiles à pourvoir nécessitant les spécialistes en TIC
+PC_ENT_ITUSRCR	Pourcentage d'entreprises ayant essayé de recruter/ayant recruté du personnel pour des emplois nécessitant des compétences dans l'utilisation des TIC
+PC_VAL_ISELL	Pourcentage des ventes par internet
+PC_SC	Part de la classe de taille en pourcentage dans le total
+PC_FAT	Teneur en matières grasses (% du poids du produit)
+PC_PRO	Teneur en protéines (% du poids du produit)
+PC_TOT_HAB	Pourcentage du total (basé sur les habitants)
+PC_TOT_FTE	Pourcentage du total (basé sur les équivalents temps plein)
+PC_TOT_JOB	Pourcentage du total (basé sur les emplois)
+I2010	Indice, 2010=100
+I2008	Indice, 2008=100
+I2006	Indice, 2006=100
+I2005	Indice, 2005=100
+I2001	Indice, 2001=100
+I2000	Indice, 2000=100
+I99Q01	Indice, 1er trimestre 1999=100
+I99	Indice, 1999=100
+I96	Indice, 1996=100
+I95	Indice, 1995=100
+I_EU27	Indice, EU27=100
+I_EU15	Indice, EU15=100
+PCH_PRE	Variation en pourcentage par rapport à la période précédente
+PCH_SAME	Variation en pourcentage comparée à la période correspondante de l'année précédente
+PCH_ANN	Variation annuelle en pourcentage par rapport à la période précédente
+PCH_PRE_CPI00_NAC	Indice des prix - variation en pourcentage par rapport à la période précédente, basée sur 2000=100 et la monnaie nationale (y compris les séries en 'euro fixe' pour les pays de la zone euro)
+PCH_PRE_CPI05_NAC	Indice des prix - variation en pourcentage par rapport à la période précédente, basée sur 2005=100 et la monnaie nationale (y compris les séries en 'euro fixe' pour les pays de la zone euro)
+PCH_PRE_CPI00_EUR	Indice des prix - variation en pourcentage par rapport à la période précédente, basée sur 2000=100 et l'euro
+PCH_PRE_CPI05_EUR	Indice des prix - variation en pourcentage par rapport à la période précédente, basée sur 2005=100 et l'euro
+PCH_SAME_CPI00_NAC	Indice des prix - variation en pourcentage par rapport à la période correspondante de l'année précédente, basée sur 2000=100 et la monnaie nationale (y compris les séries en 'euro fixe' pour les pays de la zone euro)
+PCH_SAME_CPI05_NAC	Indice des prix - variation en pourcentage par rapport à la période correspondante de l'année précédente, basée sur 2005=100 et la monnaie nationale (y compris les séries en 'euro fixe' pour les pays de la zone euro)
+PCH_SAME_CPI00_EUR	Indice des prix - variation en pourcentage par rapport à la période correspondante de l'année précédente , basée sur 2000=100 et l'euro
+PCH_SAME_CPI05_EUR	Indice des prix - variation en pourcentage par rapport à la période correspondante de l'année précédente , basée sur 2005=100 et l'euro
+PCH_PRE_EUR	Variation en pourcentage par rapport à la période précédente (basée sur les prix courants en euro)
+PCH_PRE_HAB	Variation en pourcentage par rapport à la période précédente (basée sur les habitants)
+PCH_PRE_FTE	Variation en pourcentage par rapport à la période précédente (basée sur des équivalents temps plein)
+PCH_PRE_HRS	Variation en pourcentage par rapport à la période précédente (basée sur les heures travaillées)
+PCH_PRE_JOB	Variation en pourcentage par rapport à la période précédente (basée sur les emplois)
+PCH_SAME_HAB	Variation en pourcentage comparée à la période correspondante de l'année précédente (basée sur les habitants)
+PCH_SAME_FTE	Variation en pourcentage comparée à la période correspondante de l'année précédente (basée sur des équivalents temps plein)
+PCH_SAME_HRS	Variation en pourcentage comparée à la période correspondante de l'année précédente (basée sur les heures travaillées)
+PCH_SAME_JOB	Variation en pourcentage comparée à la période correspondante de l'année précédente (basée sur l'emploi)
+PCH_CUM	Variation cumulée en pourcentage comparée à la période correspondante de l'année précédente
+TOT_INPAT	Patients hospitalisés pour au moins une nuit (nombre total)
+100000_INPAT	Patients hospitalisés pour au moins une nuit pour 100 000 habitants
+ALOS	Durée moyenne de séjour des patients hospitalisés (en jours)
+DAYS_HOSP	Jours d'hospitalisation des patients (au moins une nuit)
+ONE_DAY	Hospitalisations de jours (nombre total)
+AVG	Moyenne
+RT	Taux
+SDTH_RT	Taux de mortalité standardisé
+CDTH_RT	Taux brut de mortalité
+INC_RT	Taux d'incidence
+SINC_RT	Taux d'incidence standardisé
+LTU_UNE_RT	Taux de chômage de longue durée
+LTU_UNE_RS	Part du chômage de longue durée
+INT_RT	Taux d'intérêt
+REL1	Valeur relative par rapport à l'ensemble des entreprises
+REL2	Valeur relative par rapport aux entreprises innovantes
+REL3	Valeur relative par rapport aux entreprises innovantes en termes de produits
+REL4	Valeur relative par rapport aux entreprises innovantes en termes de procédés
+REL5	Valeur relative par rapport aux entreprises innovantes en termes de services
+REL6	Valeur relative par rapport au total des dépenses d'innovation
+REL7	Valeur relative par rapport aux entreprises innovantes ayant des accords de coopération en matière d'innovation
+REL8	Valeur relative par rapport aux entreprises innovantes ayant des projets fortement retardés
+REL9	Valeur relative par rapport aux entreprises innovantes ayant abandonné des projets
+REL10	Valeur relative par rapport aux entreprises innovantes ayant des projets qui n'ont jamais démarré
+REL11	Valeur relative par rapport aux entreprises du niveau d'intensité des exportations correspondant
+REL12	Valeur relative par rapport aux entreprises du type de firme correspondant
+CVA	Coefficient de variation de la valeur absolue
+CV1	Coefficient de variation de la valeur relative, par rapport à l'ensemble des entreprises
+CV2	Coefficient de variation de la valeur relative par rapport aux entreprises innovantes
+CV3	Coefficient de variation de la valeur relative par rapport aux entreprises innovantes en termes de produits
+CV4	Coefficient de variation de la valeur relative par rapport aux entreprises innovantes en termes de procédés
+CV5	Coefficient de variation de la valeur relative par rapport aux entreprises innovantes en termes de services
+CV6	Coefficient de variation de la valeur relative par rapport au total des dépenses en innovation
+CV7	Coefficient de variation de la valeur relative par rapport aux entreprises innovantes ayant des accords de coopération en matière d'innovation
+CV8	Coefficient de variation de la valeur relative par rapport aux entreprises innovantes ayant des projets fortement retardés
+CV9	Coefficient de variation de la valeur relative par rapport aux entreprises innovantes ayant abandonné des projets
+CV10	Coefficient de variation de la valeur relative, par rapport aux entreprises innovantes ayant des projets qui n'ont jamais démarré
+CV11	Coefficient de variation de la valeur relative par rapport aux entreprises du niveau d'intensité des exportations correspondant
+CV12	Coefficient de variation de la valeur relative par rapport aux entreprises ayant le type de firme correspondant
+CPI00_NAC	Indice des prix, 2000=100, basé sur la monnaie nationale (y compris les séries en 'euro fixe' pour les pays de la zone euro)
+CPI05_NAC	Indice des prix, 2005=100, basé sur la monnaie nationale (y compris les séries en 'euro fixe' pour les pays de la zone euro)
+CPI00_EUR	Indice des prix, 2000=100 (basé sur l'euro)
+CPI05_EUR	Indice des prix, 2005=100 (basé sur l'euro)
+IPP85	Indice du pouvoir d'achat de l'ECU, non-harmonisé (1985=100)
+IPP96	Indice du pouvoir d'achat de l'ECU, non-harmonisé (1996=100)
+IPPE96	Indice du pouvoir d'achat de l'euro, harmonisé (1996=100) (ECU jusqu'au 31.12.1998)
+I_MED	Index de revenu (comparé à la médiane nationale)
+I_MEAN	Index de revenu (comparé à la moyenne nationale)
+HICP2005	Indice harmonisé des prix à la consommation, 2005=100
+M	Mètres
+M2	Mètres carrés
+1000M2	Milliers de mètres carrés
+M3	Mètres cubes
+1000M3	Milliers de mètres cube
+MIO_M3	Millions de mètres cubes
+M3_HAB	Mètres cubes par habitant
+KM	Kilomètre
+KM2	Kilomètre carré
+HA	Hectares
+HA_AA	ha (Superficie agricole utilisée)
+ESU	Unité de dimension européenne
+ESU_SGM	UDE (Dimension économique)
+1000HA	Milliers d'hectares
+TEU	Unité équivalant à 20 pieds
+1000TEU	Milliers d'EVP  (Équivalent vingt pieds)
+1000TEU_KM	Milliers d'EVP  (Équivalent vingt pieds)/Km
+GR	Grammes
+KG	Kilogrammes
+MIO_KG	Millions de kilogrammes
+KG_HA	Kilogrammes par hectare
+LT	Litres
+LT_PUREALC	Litre d'alcool pur à 100%
+1000HLT	1000 hectolitres
+1000LT	1000 litres
+EUR_LT	Euro/Litre
+OZ	Once
+MIO_OZ	Millions de onces
+KW	Kilowatt
+1000KW	1000 Kilowatt
+MW	Mégawatt
+GW	Gigawatt
+KWH	Kilowatt/heure
+EUR_KWH	Euro par kWh
+GWH	Gigawattheure
+TJ	Térajoules
+TJ_NCV	Térajoules (Pouvoir calorifique inférieur = PCI)
+TJ_GCV	Térajoules (Pouvoir calorifique supérieur = PCS)
+GJ_GCV	Gigajoules (Pouvoir calorifique supérieur = PCS)
+MN	Minute
+1000MN	1000 minutes
+HOUR	Heure
+DAY	Jour
+MONTH	Mois
+YEAR	Année
+HD	Têtes (animaux)
+1000HD	1000 têtes (animaux)
+1000TC	1000 tonnes carcasse
+AWU	Unité de travail annuel (UTA)
+1000AWU	1000 unités de travail annuel (UTA)
+HOLD	Nombre d'exploitations
+MACH	Machines
+LSU	Unité de gros bétail
+HC	Dénombrement des effectifs
+NB_TOT	Tous (pas de ventilation)
+NB_TOT_BERD	Nombre total des brevets déposés par dépenses de R&D du secteur des entreprises (BERD) en milliards d'EUR
+NB_TOT_GERD	Nombre total des brevets déposés par dépenses totales de R&D (GERD) en milliards d'EUR
+MIO_ACT	Par million d'actifs
+1000HRS	Milliers d'heures travaillées
+1000JOB	Milliers d'emplois
+NBR_PAYMT	Nombre de paiements
+FTE	Equivalent temps plein
+1000FTE	Milliers d'équivalents temps plein
+HC_HAB	Dénombrement des effectifs par 100 000 habitants
+FTE_HAB	Equivalent temps plein par 100 000 habitants
+HAB_HC	Habitants par ... (dénombrement des effectifs)
+HAB_FTE	Habitants par ... (équivalent temps plein)
+WDCOMF	Nombre d'habitations avec les caractéristiques de confort
+WNDCOMF	Nombre d'habitations sans les caractéristiques de confort
+UNKDCOMF	Nombre d'habitations avec la situation inconnue
+PCE	Nombre de pièces
+PERS	Personnes
+1000PERS	1000 personnes
+SAL_Y	Par salarié en équivalents temps plein, par an
+SAL_M	Par salarié en équivalents temps plein, par mois
+SAL_H	Par salarié en équivalents temps plein, par heure
+TOT_Y	Total par an
+Y_WORKER	Par salarié (à l'exclusion des apprentis) en équivalents temps plein, par an
+M_WORKER	Par salarié (à l'exclusion des apprentis) en équivalents temps plein, par mois
+H_WORKER	Par salarié  (à l'exclusion des apprentis) en équivalents temps plein, par heure
+MEAN	Valeur moyenne
+AAPR	Taux convenu annualisé de pourcentage
+APRC	Taux d'intérêt actuariel annuel
+TOTAL	Total
+1000-PERS-SA	Milliers de personnes - désaisonnalisés
+1000-PERS-NSA	Milliers de personnes - non désaisonnalisés
+BAL	Bilan (solde)
+MIO-EUR	Millions d'euros (à partir du 1.1.1999)/ECU (jusqu'au 31.12.1998)
+MIO-EUR-SA	Echanges commerciaux en valeur - millions euro - désaisonnalisés et corrigés des jours ouvrables
+MIO-EUR-NSA	Echanges commerciaux en valeur - millions euro - non désaisonnalisés
+IVU-NSA	Indice de valeur unitaire (2000=100) - non désaisonnalisé
+IVOL-SA	Indice de volume (2000=100) - désaisonnalisée et corrigée des jours ouvrables
+IVOL-NSA	Indice de volume (2000=100) - non désaisonnalisé
+RT1	Taux de croissance par rapport à la période précédente (t/t-1)
+RT1_NBR	Taux de croissance par rapport à la période précédente (t/t-1) pour le nombre des navires
+RT1_GRT	Taux de croissance par rapport à la période précédente (t/t-1) pour le tonnage brut des navires
+RT12	Taux de croissance t/t-12
+RT1-ABS-SA	Echanges commerciaux en valeur - Taux de croissance M/M-1 - désaisonnalisées et corrigées des jours ouvrables
+RT12-ABS-NSA	Echanges commerciaux en valeur - Taux de croissance M/M-12 - non désaisonnalisées
+RT1-IVU-NSA	Indice de valeur unitaire (2000=100) - Taux de croissance M/M-1 - non désaisonnalisées
+RT12-IVU-NSA	Indice de valeur unitaire (2000=100) - Taux de croissance M/M-12 - non désaisonnalisé
+RT1-IVOL-SA	Indice de volume (2000=100) - Taux de croissance M/M-1 - désaisonnalisées et corrigées des jours ouvrables
+RT12-IVOL-NSA	Indice de volume (2000=100) - Taux de croissance M/M-12 - non désaisonnalisées
+RT1-SA	Variation en pourcentage t/t-1 - désaisonnalisée
+RT1-SWDA	Variation en pourcentage t/t-1 - désaisonnalisées et corrigées des jours ouvrables
+RT4-NSA	Variation en pourcentage t/t-4 - non désaisonnalisée
+RT12-NSA	Variation en pourcentage t/t-12 - non désaisonnalisée
+RT4	Taux de croissance par rapport au même trimestre de l'année précédente
+RT1_SUM_4Q	Taux de croissance calculé sur la somme des quatre derniers trimestres comparé aux quatre trimestres correspondants des années précédentes
+SUM_4Q	Sum of the last four quarters
+PC_EU27	Pourcentage du total de l'UE27
+PC_EU25	Pourcentage du total de l'UE25
+PC_EU25_EUR_HAB	Pourcentage du total de l'UE25 (basé sur les euros par habitant)
+PC_EU27_EUR_HAB	Pourcentage du total de l'UE27 (basé sur les euros par habitant)
+PC_EU27_PPS_HAB	Pourcentage du total de l'UE27 (basé sur le SPA par habitant)
+PC_EU15_PPS_EMP	Pourcentage du total de l'UE15 (basé sur le SPA par salarié)
+PC_EU27_PPS_EMP	Pourcentage du total de l'UE27 (basé sur le SPA par salarié)
+PC_EU15_PPS_HRS	Pourcentage du total de l'UE15 (basé sur le SPA par heures travaillées)
+PC_EU27_PPS_HRS	Pourcentage du total de l'UE27 (basé sur le SPA par heures travaillées)
+PC_EU25_MIO_EUR	Pourcentage du total de l'UE25 (basé sur des millions d'euros)
+PC_EU27_MIO_EUR	Pourcentage du total de l'UE27 (basé sur des millions d'euros)
+PC_EU27_MIO_PPS	Pourcentage du total de l'UE27 (basé sur des millions de SPA)
+PC_EA_MIO_EUR	Pourcentage du total de la zone euro (basé sur des millions d'euros)
+PC_EA_MIO_PPS	Pourcentage du total de la zone euro (basé sur des millions de SPA)
+PC_EA12_MIO_EUR	Pourcentage du total de EA12 (basé sur des millions d'euros)
+PC_EA16_MIO_EUR	Pourcentage du total de EA16 (basé sur des millions d'euros)
+PC_EA16_MIO_PPS	Pourcentage du total de EA16 (basé sur des millions de SPA)
+MOVE	Mouvement
+FLIGHT	Vol
+NBR_CAR	Nombre de voitures particulières
+MIO_VEH_KM	Millions de Véhicule moteur-kilomètre
+1000VEH_KM	1000 Véhicule moteur-kilomètre
+1000_BTO	1000 Opérations de transport de base
+1000_JRNY	1000 Trajets
+1000TRN_KM	1000 Train-kilomètre
+SEAT	Places assises et couchées
+1000SEAT	1000 Places assises
+MIO_SEAT_KM_OFF	Millions de places/Km offertes
+VES_MOV	Mouvements de bateaux
+1000VES_KM	Milliers de bateaux/Km
+NBR_REG	Nombre de régions
+PC_REG	Pourcentage de régions
+NBR_INVEST	Nombre d'investissements
+NBR_COMP	Nombre de compagnies
+GROSS	Données brutes
+PC_HH_IACCX	Pourcentage des ménages qui n'ont pas d'accès à l'Internet à la maison
+PC_HH_BROADX	Pourcentage des ménages qui n'ont pas d'accès à large bande
+MIO_EUR_SWDA	Millions d'euros (SWDA)
+TVAL_SA	Echanges commerciaux en valeur - en Mio EUR (SA)
+I2000_NSA	Indice, 2000=100 (NSA)
+I2005_SA	Indice, 2005=100 (SA)
+I2005_NSA	Indice, 2005=100 (NSA)
+I2008_SWDA	Indice, 2008=100 (SWDA)
+PCH_M1	Variation en pourcentage m/m-1
+PCH_M1_NSA	Variation en pourcentage m/m-1 (NSA)
+PCH_M1_SA	Variation en pourcentage m/m-1 (SA)
+PCH_Q1_NSA	Variation en pourcentage q/q-1 (NSA)
+PCH_Q1_SA	Variation en pourcentage q/q-1 (SA)
+PCH_Q1_SWDA	Variation en pourcentage q/q-1 (SWDA)
+PCH_Q4_NSA	Variation en pourcentage q/q-4 (NSA)
+PCH_Q4_WDA	Variation en pourcentage q/q-4 (WDA)
+PCH_M12	Variation en pourcentage m/m-12
+PCH_M12_NSA	Variation en pourcentage m/m-12 (NSA)
+PCH_MV12	Variation en pourcentage - Moyenne sur 12 mois
+PPS_PWW	SPA par personne souhaitant travailler
+PC_ENT_WEB	Pourcentage d'entreprises disposant d'un site web
+PC_ENT_RFID	Pourcentage d'entreprises utilisant RFID
+PC_ETURN	Pourcentage du chiffre d'affaires électroniques
+PC_ENT_AEBUY	Pourcentage d'entreprises ayant effectué des achats par voie électronique 
+PC_ENT_AESELL	Pourcentage des entreprises ayant reçu des commandes en ligne
+PC_ENT_ADE	Pourcentage des entreprises utilisant l'échange automatique de données
+PC_ENT_SISC	Pourcentage des entreprises dont les processus commerciaux sont automatiquement liés à ceux de leurs fournisseurs et/ou de leurs clients
+PC_IND_IUEVR	Pourcentage des particuliers ayant déjà utilisé Internet
+PC_ENT_SECPOL	Pourcentage des entreprises ayant une politique de sécurité TIC
+PC_IND_SCSOFT	Pourcentage des particuliers utilisant un logiciel de sécurité ou un outil de protection
+PC_IND_SCUAVX	Pourcentage des particuliers ne mettant pas à jour leurs logiciels de sécurité
+T_HA_Y	Tonnes par hectare par an
+TIME_SP	Temps passé (hh:mm)
+PTP_TIME	Temps de participation (hh:mm)
+PTP_RT	Taux de participation (%)
+MIO_M3_Y	Million de mètres cube par année
+CAP_1000T_Y	Capacité et entrée annuelle en 1000T
+PC_ENT_ECOM	Pourcentage des entreprises ayant envoyé ou reçu des commandes en ligne
+PC_ENT_IGOV2PRHMX	Pourcentage des entreprises qui n'utilisent pas Internet pour offrir des biens / services dans les systèmes en ligne de passation de marchés publics dans le pays de l'entreprise
+PC_ENT_IGOV2RT	Pourcentage des entreprises utilisant Internet pour renvoyer électroniquement des formulaires remplis aux pouvoirs publics

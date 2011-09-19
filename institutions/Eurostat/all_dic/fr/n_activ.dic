@@ -1,0 +1,10 @@
+TOTAL	Total
+0	Aucune personne active
+1	1 personne active
+2	2 personnes actives
+3	3 personnes actives
+GE3	3 personnes actives ou plus
+4	4 personnes actives
+5	5 personnes actives
+GT5	Plus de 5 personnes actives
+UNK	Inconnu

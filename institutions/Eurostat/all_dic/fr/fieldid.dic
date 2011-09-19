@@ -1,0 +1,162 @@
+D01_ECU_PER_HA	Blé tendre et épeautre
+D02_ECU_PER_HA	Blé dur
+D03_ECU_PER_HA	Seigle
+D04_ECU_PER_HA	Orge
+D05_ECU_PER_HA	Avoine
+D06_ECU_PER_HA	Maïs-grain
+D07_ECU_PER_HA	Riz
+D08_ECU_PER_HA	Autres céréales
+D09_ECU_PER_HA	Légumes secs - total
+D09A_ECU_PER_HA	Légumes secs - à destination fourragère
+D09B_ECU_PER_HA	Légumes secs - autres
+D09C_ECU_PER_HA	Légumes secs - pois à destination fourragère
+D09D_ECU_PER_HA	Légumes secs - féveroles à destination fourragère
+D09E_ECU_PER_HA	Légumes secs - autres que pois et féveroles à destination fourragère
+D09E_1_ECU_PER_HA	Pois secs, fèves et féveroles, lupins doux
+D09F_ECU_PER_HA	Lentilles, pois chiches, vesces
+D09G_ECU_PER_HA	Autres légumes secs et protéagineux récoltés en secs
+D10_ECU_PER_HA	Pommes de terre
+D11_ECU_PER_HA	Betteraves sucrières
+D12_ECU_PER_HA	Plantes sarclées fourragères
+D13_ECU_PER_HA	Plantes industrielles
+D13A_ECU_PER_HA	Tabac
+D13B_ECU_PER_HA	Houblon
+D13C_ECU_PER_HA	Coton
+D13D_ECU_PER_HA	Autres plantes industrielles
+D13D1_ECU_PER_HA	Autres plantes oléagineuses ou textiles
+D13D1A_ECU_PER_HA	Colza et navette
+D13D1B_ECU_PER_HA	Tournesol
+D13D1C_ECU_PER_HA	Soja
+D13D1D_ECU_PER_HA	Autres plantes oléagineuses ou textiles
+D13D2_ECU_PER_HA	Aromatiques, médicinales et condimentaires
+D13D3_ECU_PER_HA	Plantes industrielles - autres
+D13D3A_ECU_PER_HA	Canne à sucre
+D13D3B_ECU_PER_HA	Plantes industrielles - autres - sauf canne à sucre
+D14_ECU_PER_HA	Légumes frais, melons, fraises - de plein air
+D14A_ECU_PER_HA	Légumes frais, melons, fraises - de plein air - en culture de pl
+D14B_ECU_PER_HA	Légumes frais, melons, fraises - de plein air - en culture maraîchère
+D15_ECU_PER_HA	Légumes frais, melons, fraises - sous serre
+D16_ECU_PER_HA	Fleurs et plantes ornementales - de plein air
+D17_ECU_PER_HA	Fleurs et plantes ornementales - sous serre
+D18_ECU_PER_HA	Plantes fourragères - total
+D18A_ECU_PER_HA	Plantes fourragères - prairies et pâturages temporaires
+D18B_ECU_PER_HA	Plantes fourragères - autres fourrages verts - total
+D18B1_ECU_PER_HA	Plantes fourragères - autres fourrages verts - maïs fourrage
+D18B2_ECU_PER_HA	Plantes fourragères - autres fourrages verts - légumineuses
+D18B2_3_ECU_PER_HA	Autres plantes fourragères
+D18B3_ECU_PER_HA	Plantes fourragères - autres fourrages verts - autres
+D19_ECU_PER_HA	Semences et plants de terres arables
+D20_ECU_PER_HA	Autres cultures de terres arables
+D21_ECU_PER_HA	Jachères non subvention
+D22_ECU_PER_HA	Terres arables non productives éligibles aux aides
+D23_ECU_PER_HA	Tabac
+D24_ECU_PER_HA	Houblon
+D25_ECU_PER_HA	Coton
+D26_ECU_PER_HA	Colza et navette
+D27_ECU_PER_HA	Tournesol
+D28_ECU_PER_HA	Soja
+D29_ECU_PER_HA	Lin oléagineux
+D30_ECU_PER_HA	Autres cultures oléagineuses
+D31_ECU_PER_HA	Lin textile
+D32_ECU_PER_HA	Chanvre
+D33_ECU_PER_HA	Autres plantes textiles
+D34_ECU_PER_HA	Plantes aromatiques, médicinales et condimentaires
+D35_ECU_PER_HA	Plantes industrielles, non mentionnées ailleurs
+E_ECU_PER_HA	Jardins familiaux
+F_ECU_PER_HA	Prairies permanentes et pâturages - total
+F01_ECU_PER_HA	Prairies permanentes et pâturages - non compris les pâturages pauvres
+F02_ECU_PER_HA	Prairies permanentes et pâturages - pâturages pauvres
+F03_ECU_PER_HA	Prairies permanentes et pâturages, non-exploités, subventionnés
+G01_ECU_PER_HA	Plantations d'arbres fruitiers et baies - total
+G01A_ECU_PER_HA	Plantations d'arbres fruitiers et baies - d'origine tempérée
+G01B_ECU_PER_HA	Plantations d'arbres fruitiers et baies - d'origine tropicale
+G01C_ECU_PER_HA	Plantations d'arbres fruitiers et baies - fruits à coque
+G02_ECU_PER_HA	Agrumeraies
+G03_ECU_PER_HA	Oliveraies- total
+G03A_ECU_PER_HA	Oliveraies - olives de table
+G03B_ECU_PER_HA	Oliveraies - olives pour l'huile
+G04_ECU_PER_HA	Vignes - total
+G04A_ECU_PER_HA	Vignes - vins de qualité
+G04B_ECU_PER_HA	Vignes - autres vins
+G04C_ECU_PER_HA	Vignes - raisins de table
+G04D_ECU_PER_HA	Vignes - raisins secs
+G05_ECU_PER_HA	Pépinières
+G06_ECU_PER_HA	Autres cultures permanentes
+G07_ECU_PER_HA	Cultures permanentes sous serre
+I01_ECU_PER_HA	Cultures successives secondaires - total
+I01A_ECU_PER_HA	Cultures successives secondaires - céréales non fourragères
+I01B_ECU_PER_HA	Cultures successives secondaires - légumes secs non fourragers
+I01C_ECU_PER_HA	Cultures successives secondaires - graines oléagineuses non fourragères
+I01D_ECU_PER_HA	Cultures successives secondaires - autres totaux
+I01D1_ECU_PER_HA	Cultures successives secondaires - autres - non fourragères
+I01D2_ECU_PER_HA	Cultures successives secondaires - autres - fourragères
+I02_ECU_PER_100_M2	Champignons
+I03B1_ECU_PER_HA	Superficie irriguée - blé dur
+I03B10_ECU_PER_HA	Superficie irriguée - vignes
+I03B2_ECU_PER_HA	Superficie irriguée - maïs
+I03B3_ECU_PER_HA	Superficie irriguée - pommes de terre
+I03B4_ECU_PER_HA	Superficie irriguée - betteraves sucrières
+I03B5_ECU_PER_HA	Superficie irriguée - tournesol
+I03B6_ECU_PER_HA	Superficie irriguée - soja
+I03B7_ECU_PER_HA	Superficie irriguée - plantes fourragères
+I03B8_ECU_PER_HA	Superficie irriguée - arbres fruitiers et baies
+I03B9_ECU_PER_HA	Superficie irriguée - agrumes
+I06_ECU_PER_HA	Superficies sous régimes d'aide - total
+I06A_ECU_PER_HA	Superficies sous régimes d'aide - jachères avec possibilité de r
+I06B_ECU_PER_HA	Superficies sous régimes d'aide - prairies permanentes et pâturages
+I06C_ECU_PER_HA	Superficies sous régimes d'aide - lentilles, pois chiches et vesces
+I08AD22_ECU_PER_HA	Superficies sous régimes d'aide - jachères sans exploitation économique
+J01_ECU_PER_HEAD	Equidés
+J01_ECU_PER_HEAD-D	Equidés
+J02_ECU_PER_HEAD	Bovins de moins de 1 an - total
+J02_ECU_PER_HEAD-D	Bovins de moins de 1 an - total
+J02A_ECU_PER_HEAD	Bovins de moins de 1 an - mâles
+J02A_ECU_PER_HEAD-D	Bovins de moins de 1 an - mâles
+J02B_ECU_PER_HEAD	Bovins de moins de 1 an - femelles
+J02B_ECU_PER_HEAD-D	Bovins de moins de 1 an - femelles
+J03_ECU_PER_HEAD	Bovins de 1 an à moins de 2 ans - mâles
+J03_ECU_PER_HEAD-D	Bovins de 1 an à moins de 2 ans - mâles
+J04_ECU_PER_HEAD	Bovins de 1 an à moins de 2 ans - femelles
+J04_ECU_PER_HEAD-D	Bovins de 1 an à moins de 2 ans - femelles
+J05_ECU_PER_HEAD	Bovins de 2 ans et plus - mâles
+J05_ECU_PER_HEAD-D	Bovins de 2 ans et plus - mâles
+J06_ECU_PER_HEAD	Bovins de 2 ans et plus - génisses
+J06_ECU_PER_HEAD-D	Bovins de 2 ans et plus - génisses
+J07_ECU_PER_HEAD	Vaches laitières
+J07_ECU_PER_HEAD-D	Vaches laitières
+J08_ECU_PER_HEAD	Bovins de 2 ans et plus - autres vaches
+J08_ECU_PER_HEAD-D	Bovins de 2 ans et plus - autres vaches
+J09_ECU_PER_HEAD	Ovins- total
+J09_ECU_PER_HEAD-D	Ovins - total
+J09A_ECU_PER_HEAD	Ovins, femelles reproductrices
+J09A_ECU_PER_HEAD-D	Ovins, femelles reproductrices
+J09B_ECU_PER_HEAD	Ovins, autres
+J09B_ECU_PER_HEAD-D	Ovins, autres
+J10_ECU_PER_HEAD	Caprins
+J10_ECU_PER_HEAD-D	Caprins
+J10A_ECU_PER_HEAD	Caprins, femelles reproductrices
+J10A_ECU_PER_HEAD-D	Caprins, femelles reproductrices
+J10B_ECU_PER_HEAD	Caprins, autres
+J10B_ECU_PER_HEAD-D	Caprins, autres
+J11_ECU_PER_HEAD	Porcins, porcelets d'un poids vif de moins de 20 kg
+J12_ECU_PER_HEAD	Porcins, truies reproductrices de 50 kg et plus
+J13_ECU_PER_HEAD	Porcins, autres porcs
+J14_ECU_PER_100_HDS	Volaille, poulets de chair
+J15_ECU_PER_100_HDS	Poules pondeuses
+J16_ECU_PER_100_HDS	Volaille - autres
+J16A_ECU_PER_100_HDS	Dindes
+J16B_ECU_PER_100_HDS	Canards
+J16C_ECU_PER_100_HDS	Oies
+J16D_ECU_PER_100_HDS	Autres volailles
+J17_ECU_PER_HEAD	Lapines mères
+J18_ECU_PER_HEAD	Abeilles (ruches)
+J19_ECU_PER_HEAD	Autres animaux
+R132_ECU_PER_HA	Plantes oléagineuses herbacées
+R135_ECU_PER_HA	Autres plantes industrielles
+R139_ECU_PER_HARVEST	Champignons
+R334_ECU_PER_HA	Autres plantes oléagineuses
+MSH_HRV_Y	Champignons: nombre moyen de récoltes par an
+EXCHG_RT	Devise nationale pour 1 euro/ECU
+RD	RD: Seuil pour SGMH/SGMF (déficit fourrager)
+RS	RS: Threshold for SGMH/SGMF (excédent fourrager)
+RV	RV: Coefficient de valorisation des fourrages

@@ -1,0 +1,74 @@
+TOTAL	Total
+TT	Total
+TOT	Transports totaux
+TOT_VEH	Tous véhicules (sauf remorques et motocyclettes)
+PED	Piétons
+MOTO	Motocycles (> 50cm3)
+2WH	Tous les véhicules automobiles à deux roues
+CAR	Voitures particulières
+GOOD_VEH	Véhicule routier automobile pour le transport de marchandises
+CONT_SWAP	Conteneurs et caisses mobiles
+LOR_ACC	Véhicules routiers (accompagnés)
+LOR2	Camion - 2 essieux
+LOR3	Camion - 3 essieux
+LOR4	Camion - 4 essieux
+LOR_OTH	Camion - autres
+LOR_TRL21	Camion avec remorque 2+1 essieu
+LOR_TRL22	Camion avec remorque 2+2 essieux
+LOR_TRL23	Camion avec remorque 2+3 essieux
+LOR_TRL32	Camion avec remorque 3+2 essieux
+LOR_TRL33	Camion avec remorque 3+2 essieux
+LOR_TRL_OTH	Camion avec remorque autres
+TRAC_STRL21	Tracteur routier/semi-remorque 2+1 essieu
+TRAC_STRL22	Tracteur routier/semi-remorque 2+2 essieux
+TRAC_STRL23	Tracteur routier/semi-remorque 2+3 essieux
+TRAC_STRL32	Tracteur routier/semi-remorque 3+2 essieux
+TRAC_STRL33	Tracteur routier/semi-remorque 3+3 essieux
+TRAC_STRL_OTH	Tracteur routier/semi-remorque autres
+TRAC	Tracteurs routiers
+LORRY_TRAC	Camions et tracteurs routiers
+STRAIL_UNACC	Semi-remorques (non accompagnés)
+TRAIL_STRAIL	Remorques et semi-remorques
+SPEC_VEH	Véhicules spéciaux
+TOT_UTIL	Total véhicules utilitaires
+BUS	Autobus
+BUS_COA	Autobus et autocars
+TRAM_MET	Tramways et métro
+TRAIN	Toutes sortes de trains
+GOOD_TRAIN	Train de marchandises
+PASS_TRAIN	Trains de voyageurs
+OTH_TRAINS	Autres trains
+TRAIN_FUL	Trains complets
+COACH	Voitures
+WAGON_GD_TOT	Wagons - total
+WAGON_FUL	Wagons complets
+SMAL	Détail
+RCAR_TRAIL	Remorque d'automotrice
+1CLAS_SEAT	Places assises, 1ère classe
+2CLAS_SEAT	Places assises, 2ième classe
+SEAT_1CLX	Places assises, 1ère classe
+SEAT_2CLX	Places assises, 2ième classe
+MIX_SEAT	Mixte, places assises
+COU	Voitures-couchettes, voitures-lits
+DIN	Voitures-restaurants
+1CLAS	1ère classe
+2CLAS	2ième classe
+BERT	Places couchées (couchettes et voitures-lits)
+PLANE	Avions
+IWW_BOAT	Tous les navires dans la navigation intérieure et la navigation côtière
+NAVINL	Navigation intérieure
+CRG_SPE	Transporteur spécialisé
+WALK	A pied
+CYC	Cyclistes
+RAIL	Chemins de fer
+ROAD	Routes
+IWW	Navigation intérieure
+SSEA	Transport maritime à courte distance
+MARIT	Navigation maritime
+AIR	Transports aériens
+PIPE_ALL	Oléoducs et gazoducs
+PIPE_O	Oléoducs
+TOT_FEC	Total de la consommation finale énergétique
+TOT_NATEM	Total des émissions nationales
+OTHER	Autres
+UNK	Inconnu

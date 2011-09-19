@@ -1,0 +1,68 @@
+F_01	Food and non-alcoholic beverages
+F_011	Food
+F_0111	Cereals
+F_01111	Cereals (excluding rice)
+F_011111	Wheat - Total
+F_011111A	Common wheat
+F_011111B	Durum wheat
+F_011112	Barley
+F_011113	Maize
+F_01173	Dried pulses
+F_01112	Rice - Total  (equivalent milled rice)
+F_011121	Paddy rice
+F_011122	Husked rice
+F_011123	Milled rice
+F_011124	Broken rice
+F_0112	Meat - Total
+F_01121	Meat : Cattle
+F_01122	Meat : Pigs
+F_01123	Meat : Sheep and goats
+F_01124	Meat : Poultry
+F_01125	Meat : Equidae
+F_0113	Fish and seafood
+F_0114	Milk, cheese and eggs
+F_01141_01151	Whole milk (raw mat)
+F_011411	Drinking milk
+F_011412	Cheese
+F_01142	Eggs
+F_0115	Fats and oils
+F_01151	Butter
+F_011521	Oil seeds and oleaginous fruit - Total
+F_0116_7	Fruit, vegetables, including potatoes
+F_0116	Fruit
+F_01161	Fresh fruit
+F_011611	Apples
+F_011612	Pears
+F_011613	Peaches
+F_011614	Grapes
+F_011615	Citrus fruit
+F_0116151	Oranges
+F_011621	Nuts
+F_011622	Dried fruit
+F_0117	Vegetables
+F_01171	Vegetables (excluding potatoes)
+F_011711	Cauliflowers
+F_011712	Fresh tomatoes
+F_01172	Potatoes
+F_0118_9	Other food products, including sugar, jam, honey, chocolate and confectionery
+F_0118	Sugar, jam, honey, chocolate and confectionery
+F_01181	Sugar (equiv white sugar)
+F_0119	Food products n.e.c.
+F_012	Non-alcoholic beverages
+F_0121	Coffee, tea and cocoa
+F_0122	Mineral waters, soft drinks, fruit and vegetable juices
+F_021	Alcoholic beverages
+F_0211	Spirits
+F_0212	Wine - Total
+F_0212A	Wine - Total - Red/Rose
+F_0212B	Wine - Total - White wine
+F_02121	Quality wines - Total
+F_02121A	Quality wines - Red/Rose
+F_02121B	Quality wines - White
+F_02122	Table wines - Total
+F_02122A	Table wines - Red/Rose
+F_02122B	Table wines - White
+F_02123	Other wines - Total
+F_02123A	Other wines - Red/Rose
+F_02123B	Other wines -  White
+F_0213	Beer

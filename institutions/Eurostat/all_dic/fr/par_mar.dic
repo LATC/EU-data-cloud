@@ -1,0 +1,287 @@
+TOTAL	Total
+NAT	National
+INT_EU27	International Intra-EU-27
+INT_EU25	International Intra-EU-25
+INT_EU15	International Intra-EU-15
+EXT_EU27	International Extra-EU-27
+EXT_EU25	International Extra-EU-25
+EXT_EU15	International Extra-EU-15
+SHORTSEA	Short Sea Shipping
+SSS_ATL	Short Sea Shipping - Atlantic
+SSS_BALT	Short Sea Shipping - Baltic
+SSS_BLAC	Short Sea Shipping - Black Sea
+SSS_MED	Short Sea Shipping - Mediterranean
+SSS_NORT	Short Sea Shipping - North Sea
+SSS_OTH	Short Sea Shipping - Others
+NON_SSS	Transport hauturier
+BE	Belgium
+BG	Bulgaria
+CZ	Czech Republic
+DK	Denmark
+DE	Germany
+DE01	Germany: North Sea
+DE02	Germany: Baltic
+DE03	Germany: Rhine
+DE09	Germany: unspecified maritime coastal area
+EE	Estonia
+IE	Ireland
+GR	Greece
+ES	Spain
+ES01	Spain: Atlantic  (North)
+ES02	Spain: Mediterranean & Atlantic (South)
+ES03	Spain: Ceuta
+ES04	Spain: Melilla
+ES05	Spain: Ceuta and Melilla
+ES09	Spain: unspecified maritime coastal area
+FR	France
+FR01	France: Atlantic / North Sea
+FR02	France: Mediterranean - including Monaco
+FR03	France: French Guiana
+FR04	France: Guadeloupe and Martinique
+FR05	France: Reunion
+FR09	France: unspecified maritime coastal area
+IT	Italy
+CY	Cyprus
+LV	Latvia
+LT	Lithuania
+LU	Luxembourg
+HU	Hungary
+MT	Malta
+NL	Netherlands
+AT	Austria
+PL	Poland
+PT	Portugal
+RO	Romania
+SI	Slovenia
+SK	Slovak Republic
+FI	Finland
+SE	Sweden
+SE01	Sweden: Baltic
+SE02	Sweden: North Sea
+SE09	Sweden: unspecified maritime coastal area
+UK	United Kingdom
+UK01	United Kingdom (Great Britain & Northern Ireland)
+UK02	United Kingdom: Isle of Man
+UK03	United Kingdom: Channel Islands
+UK09	United Kingdom: unspecified maritime coastal area
+IS	Iceland
+NO	Norway
+CH	Switzerland
+HR	Croatia
+XK	Kosovo (sous administration internationale, résolution 1244 des Nations Unies)
+TR	Turkey
+TR01	Turkey: Black Sea
+TR02	Turkey: Mediterranean
+TR09	Turkey: unspecified maritime coastal area
+AL	Albania
+DZ	Algeria
+OCE_AM	American Oceania
+AS	American Samoa
+AO	Angola
+AI	Anguilla
+AQ	Antarctica
+AG	Antigua and Barbuda
+AR	Argentina
+AW	Aruba
+AU	Australia
+OCE_AU	Australian Oceania
+AZ	Azerbaijan
+BS	Bahamas
+BH	Bahrain
+BD	Bangladesh
+BB	Barbados
+BY	Belarus
+BZ	Belize
+BJ	Benin
+BM	Bermuda
+BA	Bosnia and Herzegovina
+BR	Brazil
+IO	British Indian Ocean Territory  (Chagos Archipelago ) (UK)
+VG	British Virgin Islands
+BN	Brunei Darussalam
+KH	Cambodia (Kingdom of)
+CM	Cameroon
+CA	Canada
+CA01	Canada: Atlantic
+CA02	Canada: Great Lakes, Upper St Lawrence
+CA03	Canada: West Coast
+CA09	Canada: unspecified maritime coastal area
+CV	Cape Verde
+KY	Cayman Islands
+CL	Chile
+CN_NOT_HK	China (excluding Hong Kong)
+CX	Christmas Islands
+CC	Cocos (Keeling) Islands  (AU)
+CO	Colombia
+CO01	Colombia: North Coast
+CO02	Colombia: West Coast
+CO09	Colombia: unspecified maritime coastal area
+KM	Comoros
+CG	Congo
+CD	Congo, the Democratic Republic of the
+CK	Cook Islands
+CR	Costa Rica
+CI	Côte d'Ivoire
+CU	Cuba
+DJ	Djibouti
+DM	Dominica
+DO	Dominican Republic
+TL	East Timor
+EC	Ecuador
+EG	Egypt
+EG01	Egypt: Mediterranean
+EG02	Egypt: Red Sea
+EG09	Egypt: unspecified maritime coastal area
+SV	El Salvador
+GQ	Equatorial Guinea
+ER	Eritrea
+ET	Ethiopia
+FK	Falkland Islands (Malvinas)
+FO	Faroe Islands
+FM	Federated States of Micronesia (US)
+FJ	Fiji
+EX_YU	Former Yugoslavia (before 1992)
+PF	French Polynesia
+TF	French Southern Territories
+GA	Gabon
+GM	Gambia
+GE	Georgia
+GH	Ghana
+GI	Gibraltar
+GL	Greenland
+GD	Grenada
+GU	Guam
+GT	Guatemala
+GN	Guinea
+GW	Guinea Bissau
+GY	Guyana
+HT	Haiti
+HN	Honduras
+HK	Hong Kong (special administrative region of China)
+IN	India
+ID	Indonesia
+IR	Iran (Islamic Republic of)
+IQ	Iraq
+IL	Israel
+IL01	Israel: Mediterranean
+IL02	Israel: Red Sea
+IL09	Israel: unspecified maritime coastal area
+JM	Jamaica
+JP	Japan
+JO	Jordan (Hashemite Kingdom of)
+KZ	Kazakhstan
+KE	Kenya
+KI	Kiribati
+KP	Korea (Democratic People's Republic of)  (North)
+KR	Korea (Republic of)  (South)
+KW	Kuwait
+LB	Lebanon
+LR	Liberia
+LY	Libyan (Arab Jamahiriya)
+MO	Macau
+MG	Madagascar
+MY	Malaysia
+MV	Maldives
+ML	Mali
+MH	Marshall Islands
+MR	Mauritania
+MU	Mauritius
+YT	Mayotte
+MX	Mexico
+MD	Moldova, Republic of
+ME	Montenegro
+MS	Montserrat
+MA	Morocco
+MA01	Morocco: Mediterranean
+MA02	Morocco: West Africa
+MA09	Morocco: unspecified maritime coastal area
+MZ	Mozambique
+MM	Myanmar
+NA	Namibia
+NR	Nauru
+AN	Netherland Antilles  (NL)
+NC	New Caledonia
+NZ	New Zealand
+NI	Nicaragua
+NE	Niger
+NG	Nigeria
+NF	Norfolk Island
+MP	Northern Mariana Islands  (US)
+OM	Oman
+PK	Pakistan
+PW	Palau
+PS	Occupied Palestinian Territory (West Bank (including East Jerusalem) and Gaza Strip)
+PA	Panama
+PG	Papua New Guinea
+PE	Peru
+PH	Philippines
+PN	Pitcairn
+QA	Qatar
+RU	Russian Federation
+RU01	Russian Federation: Black Sea
+RU05	Russian Federation: Baltic Sea (Gulf of Finland only)
+RU06	Russian Federation: Baltic Sea (excluding Gulf of Finland)
+RU02	Russian Federation: Baltic Sea (unspecified)
+RU04	Russian Federation: Barents and White Seas
+RU03	Russian Federation: Asia
+RU07	Russian Federation: European inland waterways, including Caspian Sea
+RU09	Russian Federation: unspecified maritime coastal area
+LC	Saint Lucia
+VC	Saint Vincent and the Grenadines
+ST	Sao Tome and Principe
+SA	Saudi Arabia
+SA01	Saudi Arabia: Red Sea
+SA02	Saudi Arabia: Gulf
+SA09	Saudi Arabia: unspecified maritime coastal area
+SN	Senegal
+CS	Serbia and Montenegro
+RS	Serbia
+SC	Seychelles
+SL	Sierra Leone
+SG	Singapore
+SB	Solomon Islands
+SO	Somalia
+ZA	South Africa
+GS	South Georgia and the South Sandwichs Islands
+LK	Sri Lanka
+KN	St. Christopher (St. Kitts) and Nevis
+SH	St. Helena
+PM	St. Pierre and Miquelon
+SD	Sudan
+SR	Suriname
+SY	Syrian Arab Republic
+TM	Turkmenistan
+TW	Taiwan
+TZ	Tanzania (United Republic of)
+TH	Thailand
+TG	Togo
+TK	Tokelau
+TO	Tonga
+TT	Trinidad and Tobago
+TN	Tunisia
+TC	Turks and Caicos Islands
+TV	Tuvalu
+UA	Ukraine
+AE	United Arab Emirates
+UM	United States Minor Outlying Islands  (US)
+US	United States
+US01	United States: North Atlantic
+US02	United States: South Atlantic
+US03	United States: Gulf
+US04	United States: South Pacific
+US05	United States: North Pacific
+US06	United States: Great Lakes
+US07	United States: Puerto Rico
+US09	United States: unspecified maritime coastal area
+UY	Uruguay
+VU	Vanuatu
+VE	Venezuela
+VN	Vietnam
+VI	Virgin Islands of the United States  (US)
+WF	Wallis and Futuna Islands  (FR)
+WS	Western Samoa (Indipendent State of)
+YE	Yemen (Republic of)
+UNKTOT	Total unspecified and unknown locations
+UNK01	Unspecified offshore installations
+UNK02	Unspecified aggregates
+UNK	Unknown

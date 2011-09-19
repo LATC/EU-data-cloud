@@ -1,0 +1,7 @@
+TOTAL	Insgesamt
+RES	Wohngebäude
+RES1	Wohngebäude mit einer Wohnung
+RES2	Wohngebäude mit zwei Wohnungen
+RES_GE3	Wohngebäude mit drei oder mehr Wohnungen
+NRES	Nichtwohngebäude
+UNK	Unbekannt

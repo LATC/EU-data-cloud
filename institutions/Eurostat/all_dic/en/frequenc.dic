@@ -1,0 +1,31 @@
+TOTAL	Total
+ALPS	All positives
+DAY	Daily
+MON	Monthly
+WEEK	Weekly
+OCCS	Occasionaly
+OFTN	Often
+ALWS	Always
+USUALLY	Usually
+SOMETIME	Sometimes
+NEVER	Never
+GE_1W	At least once a week
+W_GE1	At least once a week
+GE_1M	At least once a month
+M_GE1	At least once a month
+LT_1M	Fewer than once a month
+M_LT1	less than once a month
+N_12M	Not in the last 12 months
+M_GT12	Not in the last 12 months
+D_GE2	Twice or more a day
+D1	Once a day
+W1	Once a week
+M1	Once a month
+W1-3	Less than 4 times a week but at least once a week
+W4-6	Less then once a day but at least 4 times a week
+W_LT1	Less than once a week
+NAP	Not applicable
+NRP	No response
+UNK	Unknown
+NEV_OCCS	Never or occasionaly 
+NBINGE	No binge drinking

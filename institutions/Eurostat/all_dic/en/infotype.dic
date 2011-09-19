@@ -1,0 +1,20 @@
+I96	Index, 1996=100
+I2005	Index, 2005=100
+INDEX	Monthly index
+MOR	Monthly rate of change
+ANR	Annual rate of change
+AVX	Annual average index
+AVR	Annual average rate of change
+MV12R	Moving 12 months average rate of change
+COWEU	Country weights for European Union (EC12-1994, EU15-2004, EU25-2006, EU27)
+COWE25	Country weights for EU-25 (European Union)
+COWE15	Country weights for EU-15 (European Union)
+COWE27	Country weights for EU-27 (European Union)
+COWEMU	Country weights for the euro area (EA11-2000, EA12-2006, EA13-2007, EA15)
+COWEMU12	Country weights for EA-12 (Euro area)
+COWEMU13	Country weights for EA-13 (Euro area)
+COWEMU15	Country weights for EA-15 (Euro area)
+COWEMU15_SK	Country weights for EA-15_SK (Euro area + Slovakia)
+COWEMU16	Country weights for EA-16 (Euro area)
+COWEMU17	Country weights for EA-17 (Euro area)
+COWEEA	Country weights for EEA (European Economic Area)

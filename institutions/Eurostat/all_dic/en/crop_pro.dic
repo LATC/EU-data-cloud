@@ -1,0 +1,243 @@
+C_TOT	Crop production - total
+C1040	Cereals (including rice)
+C1040_NOT_C1200	Cereals (excl. maize)
+C1050	Cereals (excluding rice)
+C1100	Wheat
+C1120	Common wheat and spelt
+C1123	Common winter wheat
+C1124	Common spring wheat
+C1130	Durum wheat
+C1133	Winter durum wheat
+C1134	Spring durum wheat
+C1140	Rye and maslin
+C1150	Rye
+C1151	Winter rye
+C1152	Spring rye
+C1155	Maslin
+C1160	Barley
+C1163	Winter barley
+C1164	Spring barley
+C1170	Oats and mixed grain other than maslin
+C1180	Oats
+C1185	Mixed grain other than maslin
+C1200	Grain maize
+C1201	Grain maize and corn cob mix
+C1211	Sorghum
+C1212	Triticale
+C1213	Winter triticale
+C1219	Buckwheat, millet, canary seed (other cereals)
+C1250	Rice
+C1300	Dried pulses, in grain equivalent
+C1310	Peas
+C1311	Peas other than field peas (including chick peas)
+C1320	Field peas
+C1330	Beans, broad, fields beans
+C1331	Kidney beans
+C1335	Broad and field beans - Total
+C1338	Broad and field beans - Human consumption
+C1340	Other dried pulses
+C1341	Lentils
+C1342	Vetches
+C1343	Lupins
+C1349	Other dried pulses (lathyrus, etc...)
+C1350	Root crops
+C1360	Potatoes
+C1362	Early potatoes
+C1363	Other potatoes
+C1370	Sugar beet
+C1381	Fodder beet
+C1370_C1381	Beets (sugar and forage beets)
+C1382	Other root crops
+C1383	Fodder kale
+C1384	Swedes
+C1385	Carrots for stockfeeding
+C1386	Turnips for stockfeeding
+C1390	Other root crops (topinambour, sweet potatoes, fodder parsnips, yams, cassava, etc...)
+C1400	Industrial crops
+C1410	Oilseeds
+C1420	Rape - turnip rape
+C1430	Rape
+C1431	Winter rape
+C1432	Spring rape
+C1440	Turnip rape
+C1450	Sunflower seed
+C1460	Oil flax
+C1470	Soya bean
+C1480	Other oil seeds (poppy, mustard, sunfflower, cotton, earth almond, sesame, groundnut, etc...)
+C1490	Cotton seed
+C1500	Textile crops
+C1510	Other fibre crops
+C1520	Flax (straw)
+C1530	Hemp (straw)
+C1540	Cotton (deseeded)
+C1550	Tobacco raw (including seedlings enclosures)
+C1560	Hops
+C1570	Other industrial crops
+C1571	Chicorey
+C1572	Chicory for inulin
+C1580	Officinal herbs, aromatic plants, plants for seasoning (thyme, etc. .... )
+C1582	Caraway
+C1589	Industrial crops (rye-straw, fullers teasel, lavender, (hybrid lavender, etc...)
+C1600	Vegetables
+C1609	Vegetables - Total
+C1610	All brassicas
+C1620	Cauliflower and broccoli
+C1631	Brussels sprouts
+C1635	Cabbage (white)
+C1655	Other brassicas n.e.s
+C1660	Leafy or stalked vegetables (excluding brassicas)
+C1670	Celeriac and celery
+C1672	Celery
+C1675	Leeks
+C1680	Lettuce
+C1685	Endive
+C1690	Spinach
+C1700	Asparagus
+C1710	Chicory
+C1720	Globe artichokes
+C1725	Other leafy or stalked vegetables n.e.s.
+C1740	Vegetables cultivated for fruit
+C1750	Tomatoes
+C1761	Cucumbers
+C1766	Gherkins
+C1771	Melons
+C1777	Water melons
+C1780	Egg plant, gourds, marrows, pumkins
+C1781	Egg-plant
+C1785	Gourds
+C1786	Gourds and pumpkins
+C1787	Marrows, courgettes
+C1790	Red pepper, capsicum
+C1799	Other vegetables cultivated for fruit n.e.s.
+C1800	Root and tuber vegetables
+C1810	Kohl-Rabi
+C1820	Turnips
+C1830	Carrots
+C1840	Garlic
+C1851	Onions
+C1855	Shallots
+C1860	Beetroot
+C1870	Salsify and scorzonera
+C1872	Celeriac
+C1877	Radishes
+C1884	Other root and tuber vegetables n.e.s
+C1885	Pulses
+C1890	Peas
+C1901	Beans, runner and French
+C1905	Other pulses n.e.s
+C1910	Cultivated mushrooms
+C1920	Fresh vegetables n.e.s
+C2002	Fresh fruit (supply balance sheets)
+C2008	Dessert fruit (do not include olives, raisins, grapes for juice and wine , wild products, fruits from kitchen gardens and apples and pears for other uses than dessert)
+C2009	Total fruit (including all olives, all grapes, wild products and fruits from kitchen gardens)
+C2040	Fruit trees (excluding olives and citrus fruit)
+C2090	Apples (including cider apples)
+C2095	Pears (including perry pears
+C2110	Dessert apples
+C2112	Golden Delicious
+C2113	Other apples
+C2130	Dessert pears
+C2132	Summer pears
+C2170	Stone fruit
+C2180	Peaches
+C2190	Apricots
+C2200	Cherries, including sour cherries
+C2210	Plums
+C2221	Nectarines
+C2229	Other stone fruit n.e.s
+C2230	Nuts
+C2231	Walnuts
+C2232	Hazelnuts
+C2233	Almonds
+C2236	Chestnuts
+C2240	Other nuts n.e.s
+C2250	Other fruit
+C2251	Figs
+C2252	Quinces
+C2253	Avocados
+C2259	Other fruit n.e.s.
+C2260	Strawberries
+C2270	Soft fruit
+C2271	Currants
+C2272	Black currants
+C2275	Red currants
+C2278	Raspberries
+C2281	Gooseberries
+C2285	Kiwi
+C2290	Other soft fruit n.e.s
+C2300	Citrus fruit
+C2320	Oranges
+C2321	Oranges with non-sanguin pulp, belonging to the Navel Group
+C2322	Oranges with non-sanguin pulp, other than Navel Group
+C2323	Blood and semi-blood and other sweet oranges
+C2324	Other sweet oranges
+C2350	Mandarins
+C2352	Sasumas
+C2360	Clementines
+C2370	Lemons
+C2371	Yellow lemons
+C2372	Limes
+C2380	Grapefruit
+C2390	Other citrus fruit n.e.s
+C2410	Vineyards
+C2415	Fresh grapes
+C2416	Raisins (in fresh weight)
+C2417	Table grapes (for fermentation)
+C2420	Table grapes (for table use)
+C2440	Wine grapes (juice and/or wine making)
+C2447	Wine grapes (for table use)
+C2450	Total olives
+C2460	Table olives
+C2470	Olives for oil
+C2600	Fodder - Total
+C2610	Fodder from arable land
+C2611	Annual green fodder
+C2612	Other annual green fodder
+C2625	Green maize
+C1200_C2625	Maize (grain maize + green maize)
+C2670	Perennial green fodder
+C2671	Clover and mixtures
+C2672	Lucerne
+C2673	Other legumes (sainfoin, sweet clover)
+C2680	Temporary grasses and grazings
+C2681	Temporary grasses
+C2682	Temporary grazings
+C2695	Other field products n.e.s.
+C2696	Fallow and green manures
+C2710	Permanent meadows
+C2720	Permanent pasture
+C2721	Grassland
+C2722	Common pasture, heathland, rough grazings
+C2810	Hardy nursery stocks, including vine stocks
+C2960	Weaving plants : osier willows, bamboo, rush, rattan, Canada poplar
+C2971	Carobs
+C2980	Other permanent crops n.e.s. (carob-tree, mulberry-tree, tea, coffee, etc...)
+C2992	Fresh vegetables (kitchen gardens)
+C2993	Fresh fruit from kitchen gardens
+C3001	Flowers and ornamental plants, including seedlings
+C3310	Seeds (vegetable, fodder, root and industrial crops other than oil seeds)
+C3718	Wild products (truffles, other mushrooms, grape hyacinth-bulbs = volvos (GR) , etc...)
+C3719	Wild products
+C0002	Total of permanent grassland (pastures and meadows)
+C5000	Horticulture
+C5001	Horticulture under glass
+C5002	Arable land seeds and seedlings
+C5003	Fresh fruits and berry species
+C9000	Dates
+T0000	Total crop area/yield
+T0010	Other cereals for the production of grain (incl. seeds)
+T0020	Fodder roots and brassicas (excl. seeds)
+T0030	Fresh vegetables, melons, strawberries (total)
+T0040	Outdoor or under not accessible protective cover
+T0050	Under glass or other accessible protective cover
+T0060	Other forage plants
+T0070	Other arable land crops
+T0080	Fallow land as part of crop rotation
+T0090	Pastures and meadows (excl. rough grazing)
+L0006	Wooded area
+T0100	Rough grazing
+T0110	Fruit and berry plantations (total)
+T0120	Fresh fruits and berry species of temperate climate zones
+T0130	Fresh fruits and berry species of subtropical climate zones
+T0140	Other permanent crop
+T0150	Unutilized land (fallow land, not part of crop rotation)

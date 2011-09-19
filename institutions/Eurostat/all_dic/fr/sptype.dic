@@ -1,0 +1,19 @@
+TOTALNOREROUTE	Total des recettes
+SOC_CONTRIBNOREROUTE	Cotisations sociales
+SEMPLOYER	Cotisations sociales à charge des employeurs
+SEACTUAL	Cotisations sociales effectives à charge des employeurs
+SEIMPUTED	Cotisations sociales imputées à charge des employeurs
+SPROT_PERS	Cotisations sociales à charge des personnes protégées
+SPEMPLOY	Cotisations sociales à charge des employés
+SPSELF	Cotisations sociales à charge desindépendants
+SP_OTH	Cotisations sociales à charge des pensionnés et autres personnes protégées
+SREROUTED	Cotisations sociales réacheminées entre régimes
+GG_CONTRIB	Contributions publiques
+GEARLYMARK	Recettes fiscales affectées
+GGENREV	Recettes fiscales générales
+TRANSFER	Transferts entre régimes
+REC_OTH	Autres recettes
+R_OTH_PROP	Revenu de la propriété
+R_OTH_OTH	Autres recettes diverses
+TOTAL	Total des recettes y compris transactions entre régimes
+SOC_CONTRIB	Cotisations sociales y compris transactions entre régimes

@@ -1,0 +1,49 @@
+CATTLE	Rinder (insgesamt)
+CALF	Unter 1 Jahr alte Rinder (insgesamt)
+CALF_SL	Schlachtkälber (unter 1 Jahr)
+CALF_BR_M	Sonstige männliche Zuchtkälber (unter 1 Jahr)
+CALF_BR_F	Sonstige weibliche Zuchtkälber (unter 1 Jahr)
+BULL1_2Y	Männliche Rinder (1-2 Jahre)
+HEIF1_2Y_SL	Schlachtfärsen (1-2 Jahre)
+HEIF1_2Y_BR	Sonstige weibliche Rinder (1-2 Jahre)
+BULL2Y	Männliche Rinder (2 Jahre und älter)
+HEIF2Y_SL	Schlachtfärsen (2 Jahre und älter)
+HEIF2Y_BR	Sonstige Zuchtfärsen (2 Jahre und älter)
+COW	Kühe (insgesamt)
+COW_DAIRY	Milchkühe
+COW_OTH	Sonstige Kühe
+BUFFALO	Büffel (insgesamt)
+PIG	Schweine (insgesamt)
+PIGLET20KG	Ferkel bis 20 kg
+PIGLET20_50KG	Ferkel von 20 bis unter 50 kg
+PIG20_50KG	Mastschweine von 20 bis unter 50 kg
+PIG50KG	Mastschweine von 50 kg und mehr
+PIG50_80KG	Mastschweine von 50 bis unter 80 kg
+PIG80_110KG	Mastschweine von 80 bis unter 110 kg
+PIG110KG	Mastschweine von 110 kg und mehr
+BOARS	Zuchteber
+SOW_BR	Zuchtsauen
+SOW_FAR2	Gedeckte Sauen
+SOW_FAR1	Erstmalig gedeckte Sauen
+SOW_NFAR2	Sonstige Sauen
+SOW_NFAR1	Nicht gedeckte Jungsauen
+SHEEP	Schafe insgesamt
+GOAT	Ziegen insgesamt
+EQUID	Einhufer insgesamt
+POULTRY	Geflügel insgesamt
+OTHER	Sonstige
+TOTAL	Insgesamt Grossvieheinheiten (Nicht anwendbar bei Einheit = 1 000 Tiere)
+PC0000	Rinderbestand insgesamt
+PC1000	Rinder jünger als ein Jahr
+PC1100	Schlachtkälber
+PC1200	Sonstige Kälber
+PC2000	Rinder zwischen 1 und 2 Jahren
+PC3000	Rinder von mindestens 2 Jahren
+PC3210	Färsen
+PC3220	Kühe
+PC3221	Milchkühe
+PP0000	Schweinebestand insgesamt
+PS0000	Schafbestand insgesamt
+PG0000	Ziegenbestand insgesamt
+PH1000	Legehennen
+PE0000	Einhufer insgesamt

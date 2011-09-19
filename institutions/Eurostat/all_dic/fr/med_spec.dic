@@ -1,0 +1,37 @@
+GEN_PRAC	Médecine générale
+GEN_PAED	Pédiatrie générale
+GYN	Gynécologie et obstétrique
+PSY	Psychiatrie
+MED	Groupe de spécialités médicales
+MED_INT	Médecine interne
+MED_CAR	Cardiologie
+MED_END	Endocrinologie
+MED_GAS	Gastro-entérologie
+MED_RES	Médecine respiratoire (pneumologie)
+MED_ONC	Oncologie
+MED_IMM	Immunologie
+MED_NEU	Neurologie
+MED_ORL	Oto-rhino-laryngologie
+MED_RAD	Radiologie
+MED_MIC	Microbiologie-bactériologie
+MED_HAE	Hématologie
+MED_DER	Dermatologie
+MED_PAT	Pathologie
+SURG	Groupe de spécialités chirurgicales
+SURG_GEN	Chirurgie générale
+SURG_NEU	Chirurgie neurologique
+SURG_PLA	Chirurgie plastique
+SURG_OPH	Ophtalmologie
+SURG_ORT	Orthopédie
+SURG_THO	Chirurgie thoracique
+SURG_VAS	Chirurgie vasculaire
+SURG_ANE	Anesthésie et soins intensifs
+SURG_URO	Urologie
+SURG_EME	Médecine d'urgence
+OTH	Autres catégories
+OTH_OCC	Médecine du travail
+OTH_NSP	Autres catégories non classifiées ailleurs
+SURG_INF	Chirurgie infantile
+RHEUMA	Rhumatologie
+PAED	Pédiatrie
+CH_PSY	Pédopsychiatrie

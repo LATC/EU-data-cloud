@@ -1,0 +1,99 @@
+TOTAL	Total area
+AGRIAREA	Utilized agricultural area
+ARABLAND	Arable land
+FOREST	Wooded area
+GARDEN	Private gardens
+GRASLAND	Permanent grassland
+GREENFOD	Green fodder on arable land
+FALLOW	Fallow
+OLIVEPL	Olive plantations
+PERMCROP	Permanent crops
+VINEYARD	Vineyards
+L0000	Area - Total
+L0001	Arable land
+L0002	Permanent grassland
+L0003	Land under permanent crops
+L0004	Kitchen gardens
+L0005	Utilized agricultural area (UAA)
+L0006	Wooded area
+L0007	Other area
+L0008	Land area - Total
+L0009	Inland waters
+L0016	Forest area
+L0010	Other wooded area
+L0900	Crops under glass
+L1112	Fresh vegetables under glass
+L1113	Flowers and ornamental plants under glass
+L1114	Permanent crops under glass
+L1050	Cereals excluding rice
+L1250	Rice
+L1300	Dried pulses, in grain equivalent
+L1350	Root crops
+L1400	Industrial crops
+L1600	Vegetables
+L2002	Total of fruit crops (including wine and olives)
+L2410	Vineyards
+L2450	Olives
+L2610	Fodder from arable land
+L2695	Other field products n.e.s.
+L2696	Fallow and green manures
+L2810	Hardy nursery stocks (including vine stocks)
+L2960	Weaving plants (osier willows, bamboo, rush, ratta, Canada poplar)
+L2980	Other land under permanent crops
+L3001	Flowers and ornemental plants (including seets)
+L3310	Seeds (vegetable, fodder, root and industrial crops other than oil seeds)
+LUA	AGRICULTURE
+LUA1	AGRICULTURE
+LUA11	Agriculture (excluding fallow land, kitchen garden and personal consumption areas)
+LUA12	Fallow land and abonded land in agriculture
+LUA13	Kitchen garden
+LUB	FORESTRY
+LUB1	FORESTRY
+LUB10	Forestry
+LUC	HUNTING AND FISHING
+LUC1	FISHING
+LUC10	Fishing
+LUC2	HUNTING
+LUC20	Hunting
+LUD	HEAVY ENVIRONMENTAL IMPACT
+LUD1	MINING AND QUARRYING
+LUD10	Mining and quarryng
+LUD2	ENERGY PRODUCTION
+LUD20	Energy production
+LUD3	INDUSTRY AND MANUFACTURING
+LUD31	Manufacturing of food, beverages and tobacco products
+LUD32	Manufacturing of textile products
+LUD33	Coal, oil and metal processing
+LUD34	Production of non-metal mineral goods
+LUD35	Chemical and allied industries and manufacturing
+LUD36	Machinery and equipment
+LUD37	Wood based products
+LUD4	WATER AND WASTE TREATMENT
+LUD41	Water supply and treatment
+LUD42	waste treatment
+LUD5	CONSTRUCTION
+LUD51	Construction
+LUD6	TRANSPORT, COMMUNICATION NETWORKS, STORAGE, PROTECTIVE WORKS
+LUD61	Railways
+LUD62	Roads
+LUD63	Water transport
+LUD64	Air transport
+LUD65	Transport via pipelines
+LUD66	Telecommunication
+LUD67	Storage
+LUD68	Protection infrastructure
+LUE	SERVICES AND RESIDENTIAL
+LUE1	COMMERCE, FINANCE, BUSINESS
+LUE10	Commerce, finance, business
+LUE2	COMMUNITY SERVICES
+LUE20	Community sevices
+LUE3	RECREATION, LEISURE, SPORT
+LUE31	Amenities, museums, leisure
+LUE32	Sport
+LUE33	Holiday camps
+LUE34	Nature reserves
+LUE4	RESIDENTIAL
+LUE40	Residential
+LUF	NO VISIBLE USE
+LUF1	NO VISIBLE USE
+LUF10	No visible use

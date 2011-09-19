@@ -1,0 +1,14 @@
+TOTAL	Nombre total de décisions
+TOTAL_POS	Nombre total de décisions positives
+GENCONV	Statut de la convention de Genève
+HUMSTAT	Statut humanitaire
+OTH_POS	Autre décisions positives
+REJECT	Refus
+OTH_NONST	Autres décisions ne portant pas sur le statut
+APP_PENDING	Demandes en cours à la fin de la période
+C_GRANTED	Accordé (Statut de la Convention de Genève)
+T_GRANTED	Accordé (total)
+REJECTED	Rejeté
+WITHDRAWN	Nombre total de retraits
+SUB_PROT	Statut de protection subsidiaire
+TEMP_PROT	Statut de protection temporaire

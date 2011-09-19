@@ -1,0 +1,5 @@
+TOTAL	Total
+MRTG	Arriérés de paiements d'emprunts en pourcentage de tous les propriétaires
+MRTG_LOAN	Arriérés de paiements d'emprunts en pourcentage de tous les propriétaires ayant contracté un emprunt
+RENT	Arriérés de paiements des locataires
+UTBL	Arriérés de paiements de factures régulières de charges

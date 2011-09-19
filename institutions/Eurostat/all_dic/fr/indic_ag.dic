@@ -1,0 +1,93 @@
+I03A	Superficies irrigables
+I03B	Superficies irriguées
+I03B1	Superficie irriguée:Blé dur
+I03B2	Superficie irriguée:Maïs
+I03B3	Superficie irriguée:Pommes de terre
+I03B4	Superficie irriguée:Betteraves sucrières
+I03B5	Superficie irriguée:Tournesol
+I03B6	Superficie irriguée:Soja
+I03B7	Superficie irriguée:Plantes fourragères
+I03B8	Superficie irriguée:Arbres fruitiers et baies
+I03B9	Superficie irriguée:Agrumes
+I03B10	Superficie irriguée:Vignes
+I07A_EQ_Y	Exploitations avec installations de stockage d'effluents d'élevage
+I07A1_EQ_Y	Fumier solide:Installations de stockage
+I07A2_EQ_Y	Purin:Installations de stockage
+I07A3_EQ_Y	Lisier:Installations de stockage
+3B1BA	Nombre d'exploitations. 1 000
+3B1BB	Nombre d'exploitations, superficie agricole utilisée < 5 ha. 1 000
+3B1BC	Nombre d'exploitations, superficie agricole utilisée 5-<20 ha. 1 000
+3B1BD	Nombre d'exploitations, superficie agricole utilisée 20-<50 ha. 1 000
+3B1BE	Nombre d'exploitations, superficie agricole utilisée >= 50 ha. 1 000
+3B1DC	Exploitations comprenant des cultures céréalières. 1 000
+3B1GA	Total main-d'oeuvre. 1 000 UTA
+3B1GB	Main-d'oeuvre occupée régulièrement. 1 000 pers
+3B1GC	Main-d'oeuvre occupée régulièrement à plein temps. 1 000 pers
+3B1GG	Main-d'oeuvre occupée régulièrement à temps partiel. 1 000 pers
+3B1HB	Main-d'oeuvre familiale. 1000 pers
+3B1HF	Main-d'oeuvre féminine occupée régulièrement. 1 000 pers
+3B1HQ	Chefs d'exploitation. 1 000 pers
+3B1IG	Chefs d'exploitation féminins. 1 000 pers
+3B1IH	Exploitants personnes physiques. 1 000 pers
+3B1II	Exploitants, < 35 ans. 1 000 pers
+3B1IJ	Exploitants, >= 65 ans. 1 000 pers
+3B2AA	Exploitations avec une autres activité lucrative non agricole (% toutes exploitations)
+LSD	Chargement animal: unités de cheptel/superficie agricole utilisée (LSU/UAA)
+LSU_FOD	Chargement animal: unités de cheptel/superficies fourragères (UGB/ha)
+PAGR	Prix, terres agricoles
+PARA	Prix, terres labourables
+PMEAD	Prix, prairies
+PIRR	Prix, terres agricoles irriguées
+PNIRR	Prix, terres agricoles non-irriguées
+RNAGR	Montant des nouveaux fermages
+RAGR	Fermages, terres agricoles
+RARA	Fermages, terres labourables
+RMEAD	Fermages, prairies
+SURF_IR	Ecoulement gravitaire de surface
+SPRINK_IR	Aspersion
+DROP_IR	Micro irrigation
+ALL_IR	Toutes méthodes d'irrigation
+HIGH_INP	Exploitations à forte consommation d'intrants
+LOW_INP	Exploitations à faible consommation d'intrants
+MED_INP	Exploitations à moyenne consommation d'intrants 
+ENT	Nombre d'entreprises
+PROD	Production annuelle (1000 t)
+BAL_HA	Bilan nutritif brut par hectare (terres arables, cultures permanentes, prairies permanentes) (kg de nutriment par ha)
+INP_HA	Apports de nutriment par hectare (terres arables, cultures permanentes, prairies permanentes) (kg de nutriment par ha)
+OUT_HA	Prélèvements de nutriment par hectare (terres arables, cultures permanentes, prairies permanentes) (kg de nutriment par ha)
+BAL	Bilan nutritif brut (Apports moins Prélèvements) (tonnes de nutriment)
+INP_NT	Apports nutritifs (tonnes de nutriment)
+I_FRT	Consommation totale d'engrais (sauf fumiers) (tonnes de nutriment)
+I_FRT_MIN	Consommation d'engrais minéraux (tonnes de nutriment)
+I_FRT_ORG	Consommation d'engrais organiques (sauf fumiers) (tonnes de nutriment)
+I_MNR	Apports de fumiers (tonnes de nutriment)
+I_MNR_PRD	Fumiers produits par l'ensemble du cheptel (tonnes de nutriment)
+I_MNR_PCT	Fumiers produits par le cheptel bovin (tonnes de nutriment)
+I_MNR_PPG	Fumiers produits par le cheptel porcin (tonnes de nutriment)
+I_MNR_PSP	Fumiers produits par les cheptels ovin et caprin (tonnes de nutriment)
+I_MNR_PPL	Fumiers produits par les volailles (tonnes de nutriment)
+I_MNR_POTH	Fumiers produits par les autres animaux (tonnes de nutriment)
+I_MNR_WDR	Retraits de fumiers (tonnes de nutriment)
+I_MNR_STK	Variation des stocks de fumiers (tonnes de nutriment)
+I_MNR_IMP	Importations de fumiers (tonnes de nutriment)
+I_OTH	Autres apports nutritifs (tonnes de nutriment)
+I_OTH_BIO	Autres apports nutritifs: Fixation biologique de l'azote (tonnes de nutriment)
+I_OTH_DEP	Autres apports nutritifs: Déposition atmosphérique (tonnes de nutriment)
+I_OTH_SEED	Autres apports nutritifs: Graines et semences (tonnes de nutriment)
+OUT_NT	Prélèvements de nutriment (tonnes de nutriment)
+O_CRP	Prélèvements de nutriment avec la récolte des cultures (tonnes de nutriment)
+O_CRP_CER	Prélèvements de nutriment avec la récolte des céréales (tonnes de nutriment)
+O_CRP_PUL	Prélèvements de nutriment avec la récolte des légumes secs (tonnes de nutriment)
+O_CRP_ROO	Prélèvements de nutriment avec la récolte des plantes sarclées (tonnes de nutriment)
+O_CRP_IND	Prélèvements de nutriment avec la récolte des plantes industrielles (tonnes de nutriment)
+O_CRP_VEG	Prélèvements de nutriment avec la récolte des légumes frais (tonnes de nutriment)
+O_CRP_FRU	Prélèvements de nutriment avec la récolte des fruits (tonnes de nutriment)
+O_CRP_ORN	Prélèvements de nutriment avec la récolte des plantes ornementales (tonnes de nutriment)
+O_CRP_OTH	Prélèvements de nutriment avec la récolte des autres cultures (tonnes de nutriment)
+O_FOD	Prélèvements de nutriment avec la récolte et le broutage des surfaces fourragères (tonnes de nutriment)
+O_FOD_GN	Prélèvements de nutriment avec la récolte des fourrages verts (tonnes de nutriment)
+O_FOD_GR	Prélèvements de nutriment avec la récolte et le broutage des prairies (tonnes de nutriment)
+O_FOD_TGR	Prélèvements de nutriment avec la récolte et le broutage des prairies temporaires (tonnes de nutriment)
+O_FOD_PGR	Prélèvements de nutriment avec la récolte et le broutage des prairies permanentes (tonnes de nutriment)
+O_RES	Prélèvements de nutriment avec les résidus de culture retirés des champs (tonnes de nutriment)
+AREA	Superficie totale (terres arables, cultures permanentes, prairies permanentes) (1000 ha)

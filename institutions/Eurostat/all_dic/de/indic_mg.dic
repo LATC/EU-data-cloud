@@ -1,0 +1,6 @@
+TOT_REF	Personen, die an der Außengrenze abgewiesen wurden
+REF_LAND	Personen, die an einer Landgrenze abgewiesen wurden
+REF_SEA	Personen, die an einer Seegrenze abgewiesen wurden
+REF_AIR	Personen, die an einer Luftgrenze abgewiesen wurden
+TOT_RET	Gesamtzahl der Zurückgekehrten
+RET_THRD	In einen Drittstaat Zurückgekehrte

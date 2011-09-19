@@ -1,0 +1,512 @@
+V11110	Zahl der Unternehmen
+V11111	Zahl der Unternehmen nach der Rechtsform
+V11112	Zahl der Unternehmen, aufgeschlüsselt nach Größenklassen der gebuchten Bruttobeiträge
+V11113	Zahl der Unternehmen, aufgeschlüsselt nach Größenklassen der versicherungstechnischen Bruttorückstellungen
+V11114_C	Zahl der Unternehmen nach dem Sitz der Muttergesellschaft
+V11115	Zahl der Unternehmen, aufgeschlüsselt nach dem Sitzland der Muttergesellschaft
+V11116	Zahl der Unternehmen nach Größenklassen der Bilanzsumme
+V11117	Zahl der Unternehmen nach Kategorien von Kreditinstituten
+V11150	Zahl der Unternehmen mit nicht autonomen Pensionsfonds
+V11210	Zahl der örtlichen Einheiten
+V11310	Zahl der fachlichen Einheiten
+V11410	Gesamtzahl und Standort der Zweigniederlassungen in anderen Ländern
+V11411	Gesamtzahl der Zweigniederlassungen nach Standort in Nicht-EWR-Ländern
+V11510	Gesamtzahl der dem Finanzsektor angehörenden Tochterunternehmen nach Standort in anderen Ländern
+V11610	Zahl der Versorgungssysteme 
+V11710	Zahl der Unternehmen mit Mitgliedern in anderen EWR-Ländern
+V11910	Grundgesamtheit der aktiven Unternehmen im Jahr t
+V11920	Zahl der Unternehmensgründungen im Jahr t
+V11930	Zahl der Unternehmensschließungen im Jahr t
+V11941	Zahl der im Jahr t-1 gegründeten Unternehmen, die bis t fortbestanden haben
+V11942	Zahl der im Jahr t-2 gegründeten Unternehmen, die bis t fortbestanden haben
+V11943	Zahl der im Jahr t-3 gegründeten Unternehmen, die bis t fortbestanden haben
+V11944	Zahl der im Jahr t-4 gegründeten Unternehmen, die bis t fortbestanden haben
+V11945	Zahl der im Jahr t-5 gegründeten Unternehmen, die bis t fortbestanden haben
+V11950	Zahl der schnell wachsenden Unternehmen, gemessen in Beschäftigung
+V11951	Zahl der schnell wachsenden Unternehmen, gemessen in Umsatz
+V11952	Zahl der jungen schnell wachsenden Unternehmen (Gazellen), gemessen in Beschäftigung
+V11953	Zahl der jungen schnell wachsenden Unternehmen (Gazellen), gemessen in Umsatz
+V12110	Umsatz
+V12111	Gebuchte Bruttobeiträge des selbst abgeschlossenen Geschäfts
+V12112	Gebuchte Bruttobeiträge des in Rückdeckung übernommenen Geschäfts, gebuchte Beiträge
+V12113	Gebuchte Bruttobeiträge des selbst abgeschlossenen Geschäfts, Einzelbeiträge
+V12114	Gebuchte Bruttobeiträge des selbst abgeschlossenen Geschäfts, Beiträge im Rahmen von Gruppenverträgen
+V12115	Gebuchte Bruttobeiträge des selbst abgeschlossenen Geschäfts, periodische Beiträge
+V12116	Gebuchte Bruttobeiträge des selbst abgeschlossenen Geschäfts, einmalige Beiträge
+V12117	Gebuchte Bruttobeiträge des selbst abgeschlossenen Geschäfts, Beiträge im Rahmen von Verträgen ohne Gewinnbeteiligung
+V12118	Gebuchte Bruttobeiträge des selbst abgeschlossenen Geschäfts, Beiträge im Rahmen von Verträgen mit Gewinnbeteiligung
+V12119	Gebuchte Bruttobeiträge des selbst abgeschlossenen Geschäfts, Beiträge im Rahmen von Verträgen, bei denen das Kapitalanlagerisiko von den Versicherungsnehmern getragen wird
+V12120	Produktionswert
+V12130	Bruttogewinnspanne bei Handelswaren
+V12140	Bruttowertschöpfung zu Basispreisen
+V12150	Bruttowertschöpfung zu Faktorkosten
+V12170	Bruttobetriebsüberschuß
+V13110	Waren- und Dienstleistungskäufe insgesamt
+V13111	Warenkäufe
+V13112	Käufe von Dienstleistungen
+V13120	Käufe von Waren und Dienstleistungen zum Wiederverkauf in unverändertem Zustand
+V13131	Aufwendungen für Leiharbeitnehmer
+V13210	Vorratsveränderungen bei Waren und Dienstleistungen
+V13211	Vorratsveränderungen von zum Wiederverkauf in unverändertem Zustand gekauften Waren und Dienstleistungen
+V13213	Vorratsveränderungen bei fertigen und unfertigen Erzeugnissen aus der Produktion der Einheit
+V13310	Personalaufwendungen
+V13320	Löhne und Gehälter
+V13330	Sozialversicherungskosten
+V13410	Betriebsaufwendungen für Gebäude und Ausrüstungen
+V13411	Zahlungen für langfristig gemietete und mit Operating-Leasing beschaffte Produktionsanlagen
+V13420	Vertriebskosten
+V13430	Sonstige Betriebsaufwendungen
+V15110	Bruttoinvestition in Sachanlagen
+V15120	Bruttoinvestitionen in Grundstücke
+V15130	Bruttoinvestitionen in bestehende Gebäude und Bauten
+V15140	Bruttoinvestitionen in Errichtung und Umbau von Gebäuden
+V15150	Bruttoinvestitionen in Maschinen und Ausrüstungen
+V15210	Verkäufe von Sachanlagen
+V15250	Nettoinvestition in materielle Güter
+V15310	Wert der mit Finanzierungsleasing beschafften Sachanlagen
+V15420	Bruttoinvestitionen in Konzessionen
+V15441	Investitionen in beschaffte Software
+V15442	Investitionen in von der Einheit selbst produzierte Software
+V15450	Dienstleistungen - damit zusammenhängende Investition
+V15460	Einnahmen aus geistigen Eigentumsrechten
+V15470	Ankauf von Werbeflächen oder Sendezeit für den Weiterverkauf
+V15471	Anzahl der geleisteten Arbeitsstunden
+V16110	Zahl der Beschäftigten
+V16111_C	Zahl der Beschäftigte nach Kategorien von Kreditinstituten
+V16112	Zahl der weiblichen Beschäftigten
+V16113	Zahl der Beschäftigten mit festem Gehalt
+V16120	Zahl der unbezahlten Beschäftigten
+V16130	Zahl der Lohn- und Gehaltsempfänger
+V16131	Zahl der Teilzeitbeschäftigten
+V16132	Zahl der Auszubildenden
+V16133	Zahl der weiblichen Lohn- und Gehaltsempfänger
+V16135	Zahl der Heimarbeiter
+V16136	Zahl der weiblichen Lohn - und Gehaltsempfänger
+V16140	Zahl der Lohn- und Gehaltsempfänger in Vollzeiteinheiten
+V16150	Zahl der von den Lohn- und Gehaltsempfängern geleisteten Arbeitsstunden
+V16160	Zahl der Arbeitsplätze
+V16910	Beschäftigtenzahl in der Grundgesamtheit aktiver Unternehmen im Jahr t
+V16911	Zahl der Lohn- und Gehaltsempfänger in der Grundgesamtheit aktiver Unternehmen im Jahr t
+V16920	Beschäftigtenzahl in der Grundgesamtheit der im Jahr t gegründeten Unternehmen
+V16921	Zahl der Lohn- und Gehaltsempfänger in der Grundgesamtheit der im Jahr t gegründeten Unternehmen
+V16930	Beschäftigtenzahl in der Grundgesamtheit der im Jahr t geschlossenen Unternehmen
+V16931	Zahl der Lohn- und Gehaltsempfänger in der Grundgesamtheit der im Jahr t geschlossenen Unternehmen
+V16941	Zahl der Beschäftigten in der Grundgesamtheit der im Jahr t-1 neu gegründeten Unternehmen, die bis t fortbestanden haben
+V16942	Zahl der Beschäftigten in der Grundgesamtheit der im Jahr t-2 neu gegründeten Unternehmen, die bis t fortbestanden haben
+V16943	Zahl der Beschäftigten in der Grundgesamtheit der im Jahr t-3 neu gegründeten Unternehmen, die bis t fortbestanden haben
+V16944	Zahl der Beschäftigten in der Grundgesamtheit der im Jahr t-4 neu gegründeten Unternehmen, die bis t fortbestanden haben
+V16945	Zahl der Beschäftigten in der Grundgesamtheit der im Jahr t-5 neu gegründeten Unternehmen, die bis t fortbestanden haben
+V16951	Zahl der Beschäftigten in der Grundgesamtheit der im Jahr t-1 neu gegründeten Unternehmen, die bis t fortbestanden haben, im Gründungsjahr
+V16952	Zahl der Beschäftigten in der Grundgesamtheit der im Jahr t-2 neu gegründeten Unternehmen, die bis t fortbestanden haben, im Gründungsjahr
+V16953	Zahl der Beschäftigten in der Grundgesamtheit der im Jahr t-3 neu gegründeten Unternehmen, die bis t fortbestanden haben, im Gründungsjahr
+V16954	Zahl der Beschäftigten in der Grundgesamtheit der im Jahr t-4 neu gegründeten Unternehmen, die bis t fortbestanden haben, im Gründungsjahr
+V16955	Zahl der Beschäftigten in der Grundgesamtheit der im Jahr t-5 neu gegründeten Unternehmen, die bis t fortbestanden haben, im Gründungsjahr
+V17320	Zahl der Ladengeschäfte
+V17330	Verkaufsflächen von Ladengeschäften in Einzelhandel, nach Größenkategorien
+V17331	Verkaufsfläche
+V17340	Zahl der festen Marktstände
+V18100	Umsatz aus land-, forst- und fischereiwirtschaftlichen sowie aus industriellen Tätigkeiten
+V18110	Umsatz aus der Haupttätigkeit auf der Vierstellen-Ebene der NACE Rev. 1
+V18120	Umsatz aus industriellen Tätigkeiten
+V18121	Umsatz aus industriellen Tätigkeiten mit Ausnahme der Bautätigkeit
+V18122	Umsatz aus der Bautätigkeit
+V18130	Umsatz aus Handel (Ankauf und Wiederverkauf)
+V18140	Umsatz aus Vermittlungstätigkeiten
+V18150	Umsatz aus Dienstleistungstätigkeiten
+V18160	Umsatz aus Handel (Ankauf und Wiederverkauf) sowie aus Vermittlungstätigkeiten
+V18210	Aufschlüsselung des Umsatzes nach Produkten (gemäß Abschnitt G der CPA)
+V18310	Umsatz aus der Bautätigkeit
+V18320	Umsatz aus dem Tiefbau
+V20110	Käufe von Energieprodukten (Wert)
+V20111	Einkauf von Festbrennstoffen (Wert)
+V20112	Einkauf von Erdölerzeugnissen (Wert)
+V20113	Einkauf von Erdgas und abgeleitetem Gas (Wert)
+V20114	Einkauf von regenerativen Energiequellen (Wert)
+V20115	Einkauf von Wärme (Wert)
+V20116	Einkauf von Strom (Wert)
+V20210	Einkauf von Steinkohle (Wert)
+V20220	Einkauf von Koks (Wert)
+V20230	Einkauf von Briketts (Wert)
+V20240	Einkauf von Gasöl (Wert)
+V20250	Einkauf von schwerem Heizöl (Wert)
+V20260	Einkauf von anderen Erdölerzeugnissen (Wert)
+V20270	Einkauf von Erdgas (Wert)
+V20280	Einkauf von abgeleitetem Gas (Wert)
+V20290	Einkauf von regenerativen Energiequellen (Wert)
+V20300	Einkauf von Wärme (Wert)
+V20310	Einkauf von Strom (Wert)
+V21110	Investitionen in Einrichtungen und Anlagen, die dem Emissionsschutz dienen, sowie in spezielles Emissionsschutzzubehör (vorwiegend 'End-of-pipe'-Einrichtungen)
+V21120	Investitionen in Einrichtungen und Anlagen in Verbindung mit sauberen Technologien ('integrierte Technologie')
+V21140	Gesamte laufende Ausgaben für Umweltschutz
+V22110	Gesamtaufwendungen für innerbetriebliche FuE
+V22120	Gesamtzahl der Lohn- und Gehaltsempfänger für FuE
+V23110	Zahlungen an Unterauftragnehmer
+V23120	Einkünfte aus Unteraufträgen
+V25111	Prozentualer Anteil am Umsatz des Großhandels nach Art des Kunden, im einzelnen: Wiederverkäufer: Einzelhändler
+V25112	Prozentualer Anteil am Umsatz des Großhandels nach Art des Kunden, im einzelnen: Gewerbliche Kunden (Großhändler, sonstige)
+V25113	Prozentualer Anteil am Umsatz des Großhandels nach Art des Kunden, im einzelnen: Endverbraucher (Einzelhandel)
+V25211	Prozentualer Anteil an den Käufen nach Art des Lieferanten, im einzelnen: Großhändler, Einkaufsvereinigungen
+V25212	Prozentualer Anteil an den Käufen nach Art des Lieferanten, im einzelnen: Erzeuger
+V32110	Verdiente Bruttobeiträge
+V32112	Veränderung der Bruttobeitragsüberträge
+V32114	Gebuchte Bruttobeiträge, aufgeschüsselt nach der Rechtsform
+V32115	Gebuchte Bruttobeiträge des selbst abgeschlossenen Geschäfts, aufgeschlüsselt nach dem Sitzland der Muttergesellschaft
+V32116	Gebuchte Bruttobeiträge des in Rückdeckung übernommenen Geschäfts, gebuchte Beiträge, aufgeschlüsselt nach dem Sitzland der Muttergesellschaft
+V32120	Technischer Zinsertrag
+V32130	Bruttoaufwendungen für Versicherungsfälle
+V32131	Bruttozahlungen für Versicherungsfälle
+V32132	Bruttozahlungen für Versicherungsfälle des laufenden Geschäftsjahres
+V32133	Bruttozahlungen für Vorjahres-Versicherungsfälle
+V32134	Veränderung der Bruttorückstellung für noch nicht abgewickelte Versicherungsfälle
+V32140	Bruttoaufwendungen für den Versicherungsbetrieb
+V32150	Veränderung der Schwankungsrückstellung
+V32160	Bruttobetrag der noch nicht aufgeführten Posten der versicherungstechnischen Rechnung
+V32161	Sonstige versicherungstechnische Nettoerträge
+V32162	Anderweitig nicht ausgewiesene Veränderungen sonstiger versicherungstechnischer Nettorückstellungen
+V32163	Nettoaufwendungen für erfolgsabhängige und erfolgsunabhängige Beitragsrückerstattungen
+V32164	Sonstige versicherungstechnische Nettoaufwendungen
+V32170	Versicherungstechnisches Bruttoergebnis (Zwischensumme I)
+V32180	Rückversicherungssaldo
+V32181	Rückversicherungsanteil an den gebuchten Bruttobeiträgen
+V32182	Rückversicherungsanteil an den gebuchten Bruttobeiträgen, aufgeschlüsselt nach dem Sitzland der Muttergesellschaft
+V32183	Rückversicherungs-Anteil an den Veränderungen der Bruttobeitragsüberträge
+V32184	Rückversicherungsanteil an den Bruttoaufwendungen für Versicherungsfälle
+V32185	Rückversicherungsanteil an den Bruttozahlungen für Versicherungsfälle
+V32186	Rückversicherungsanteil an der Veränderung der Bruttorückstellung für noch nicht abgewickelte Versicherungsfälle
+V32187	Erhaltene Provisionen aus dem in Rückdeckung gegebenen Versicherungsgeschäft und Gewinnbeteiligungen
+V32188	Rückversicherungsanteil am Bruttobetrag der noch nicht aufgeführten Posten der versicherungstechnischen Rechnung
+V32190	Zwischensumme II (Nettoergebnis der versicherungstechnischen Rechnung)
+V32220	Erträge aus Kapitalanlagen
+V32230	Nicht realisierte Gewinne aus Kapitalanlagen
+V32250	Veränderung der Bruttodeckungsrückstellung
+V32270	Aufwendungen für Kapitalanlagen
+V32280	Nicht realisierte Verluste aus Kapitalanlagen
+V32290	Der nichtversicherungstechnischen Rechnung zugeordneter Zins
+V32334	Rückversicherungsanteil an der Veränderung der Bruttodeckungsrückstellung
+V32420	Erträge aus Kapitalanlagen
+V32430	Zugeordneter Zins aus der versicherungstechnischen Rechnung 'Lebensversicherungsgeschäft'
+V32440	Aufwendungen für Kapitalanlagen
+V32450	Technischer Zinsertrag
+V32460	Sonstige Erträge
+V32470	Sonstige Aufwendungen einschließlich Abschreibungen
+V32480	Ergebnis der normalen Geschäftstätigkeit
+V32490	Außerordentliches Ergebnis
+V32500	Sämtliche Steuern
+V32510	Ergebnis des Geschäftsjahres
+V32610	Summe der Provisionen, der externen Aufwendungen für Güter und Dienstleistungen sowie der Personalkosten
+V32611	Provisionen für das Versicherungsgeschäft insgesamt
+V32612	Provisionen für das selbst abgeschlossene Versicherungsgeschäft
+V32613	Provisionen für das in Rückdeckung übernommene Versicherungsgeschäft
+V32614	Externe Aufwendungen für Güter und Dienstleistungen
+V32615	Externe und interne Schadensregulierungsaufwendungen
+V32616	Abschlußaufwendungen
+V32617	Verwaltungsaufwendungen
+V32618	Sonstige versicherungstechnische Bruttoaufwendungen
+V32619	Aufwendungen für die Verwaltung von Kapitalanlagen
+V32710	Erträge aus Kapitalanlagen
+V32711	Erträge aus Beteiligungen
+V32712	Erträge aus anderen Kapitalanlagen
+V32713	Erträge aus Grundstücken und Bauten
+V32714	Erträge aus anderen Kapitalanlagen
+V32715	Erträge aus Zuschreibungen
+V32716	Gewinne aus dem Abgang von Kapitalanlagen
+V32720	Aufwendungen für Kapitalanlagen
+V32721	Aufwendungen für die Verwaltung von Kapitalanlagen, einschließlich Zinsen
+V32722	Abschreibungen auf Kapitalanlagen
+V32723	Verluste aus dem Abgang von Kapitalanlagen
+V33111	Gebuchte Bruttobeiträge des selbst abgeschlossenen Geschäfts nach (Unter-)Kategorien der CPA ( 5-stellige Ebene und Unterkategorien 66.03.21, 66.03.22)
+V33121	Rückversicherungsanteil an den gebuchten Bruttobeiträgen des selbst abgeschlossenen Geschäfts nach (Unter-)Kategorien der CPA (5-stellige Ebene und Unterkategorien 66.03.21, 66.03.22)
+V33131	Bruttoaufwendungen für Versicherungsfälle des selbst abgeschlossenen Geschäfts, nach (Unter-)Kategorien der CPA (5-stellige Ebene und Unterkategorien 66.03.21, 66.03.22)
+V33141	Bruttoaufwendungen für den Versicherungsbetrieb des selbst abgeschlossenen Geschäfts, nach (Unter-) Kategorien der CPA (5-stellige Ebene und Unterkategorien 66.03.21, 66.03.22)
+V33151	Rückversicherungssaldo des selbst abgeschlossenen Versicherungsgeschäfts, nach (Unter-)Kategorien der CPA (5-stellige Ebene und Unterkategorien 66.03.21, 66.03.22)
+V34110	Geographische Aufteilung - allgemein - der gebuchten Bruttobeiträge des selbst abgeschlossenen Geschäfts
+V34120	Geographische Aufteilung - allgemein - der gebuchten Bruttobeiträge des in Rückdeckung übernommenen Geschäfts
+V34130	Geographische Aufteilung -allgemein - des Rückversicherungsanteils an den gebuchten Bruttobeiträgen
+V34311	Gebuchte Bruttobeiträge des selbst abgeschlossenen Geschäfts nach CPA-Kategorien (5-stellige Ebene) und nach Mitgliedstaaten, geographische Aufteilung des im Rahmen der Niederlassungsfreiheit gezeichneten Geschäfts
+V34321	Gebuchte Bruttobeiträge des selbst abgeschlossenen Geschäfts nach CPA-Kategorien (5-stellige Ebene) und nach Mitgliedstaaten, geographische Aufteilung des im Rahmen des freien Dienstleistungsverkehrs gezeichnetes Geschäfts
+V36100	Gesamtsumme der Kapitalanlagen
+V36110	Grundstücke und Bauten
+V36111	Grundstücke und Bauten, die das Versicherungsunternehmen selbst nutzt
+V36112	Grundstücke und Bauten (Tageswert)
+V36120	Kapitalanlagen in verbundenen Unternehmen und Beteiligungen
+V36121	Anteile an verbundenen Unternehmen und Beteiligungen
+V36122	Schuldverschreibungen von verbundenen Unternehmen und Darlehen an verbundene Unternehmen sowie an Unternehmen, mit denen ein Beteiligungsverhältnis besteht
+V36123	Kapitalanlagen in verbundenen Unternehmen und Beteiligungen (Tageswert)
+V36130	Sonstige Kapitalanlagen
+V36131	Aktien, andere nicht festverzinsliche Wertpapiere und Anteile an Anlagefonds
+V36132	Schuldverschreibungen und andere festverzinsliche Wertpapiere
+V36133	Anteile an gemeinschaftlichen Kapitalanlagen
+V36134	Hypothekenforderungen
+V36135	Sonstige Ausleihungen
+V36136	Sonstige (einschließlich Einlagen bei Kreditinstituten)
+V36138	Sonstige Kapitalanlagen (Tageswert)
+V36140	Depotforderungen aus dem in Rückdeckung übernommenen Versicherungsgeschäft
+V36200	Kapitalanlagen für Rechnung und Risiko von Inhabern von Lebensversicherungspolicen
+V36210	Kapitalanlagen für Rechnung und Risiko von Inhabern von Lebensversicherungspolicen - Grundstücke und Bauten
+V36220	Kapitalanlagen für Rechnung und Risiko von Inhabern von Lebensversicherungspolicen - Sonstige Kapitalanlagen
+V36300	Bilanzsumme
+V37100	Summe des Eigenkapitals
+V37101	Summe des Eigenkapitals, aufgeschlüsselt nach der Rechtsform
+V37110	Gezeichnetes Kapital oder gleichwertige Fonds
+V37120	Emissionsagios, Neubewertungsrücklage, Rücklagen
+V37200	Nachrangige Verbindlichkeiten
+V37300	Gesamtsumme der versicherungstechnischen Bruttorückstellungen
+V37301	Gesamtsumme der versicherungstechnischen Nettorückstellungen
+V37310	Bruttobeitragsüberträge
+V37320	Bruttodeckungsrückstellung
+V37330	Bruttorückstellungen für noch nicht abgewickelte Versicherungsfälle
+V37331	Bruttorückstellung für noch nicht abgewickelte Versicherungsfälle des selbst abgeschlossenen Geschäfts
+V37332	Bruttorückstellung für noch nicht abgewickelte Versicherungsfälle des in Rückdeckung übernommenen Geschäfts
+V37333	Bruttorückstellung für noch nicht abgewickelte Versicherungsfälle des in Rückdeckung übernommenen Geschäfts, nach Produkt
+V37340	Bruttorückstellungen für erfolgsabhängige und erfolgsunabhängige Beitragsrückerstattung
+V37350	Schwankungsrückstellung
+V37360	Sonstige versicherungstechnische Bruttorückstellungen
+V37370	Versicherungstechnische Bruttorückstellungen im Bereich der Lebensversicherung, wenn das Anlagerisiko von denVersicherungsnehmern getragen wird
+V37410	Anleihen
+V37420	Verbindlichkeiten gegenüber Kreditinstituten
+V39100	Zahl der am Ende des Geschäftsjahres bestehenden Versicherungsverträge: selbst abgeschlossene Einzel-Lebensversicherungsverträge für die CPA-Unterkategorien 66.01.1, 66.03.1, 66.03.4 und 66.03.5
+V39200	Zahl der versicherten Personen am Ende des Geschäftsjahres: selbst abgeschlossene Gruppen-Lebensversicherungsverträge für die CPA-Unterkategorie 66.03.1
+V39300	Zahl der versicherten Fahrzeuge am Ende des Geschäftsjahres: selbst abgeschlossenes Geschäft für die CPA-Unterkategorie 66.03.2
+V39400	Bruttoversicherungssumme (selbst abgeschlossenes Geschäft) am Ende des Geschäftsjahres für die CPA-Unterkategorien 66.01.1 und 66.01.4
+V39500	Zahl der während des Geschäftsjahres eingetretenen Versicherungsfälle (selbst abgeschlossenes Geschäft) für die CPA-Unterkategorie 66.03.2
+V42110	Zinserträge und ähnliche Erträge
+V42111	Zinserträge und ähnliche Erträge aus festverzinslichen Wertpapieren
+V42120	Zinsaufwendungen und ähnliche Aufwendungen
+V42121	Zinsaufwendungen und ähnliche Aufwendungen für begebene Schuldverschreibungen
+V42130	Erträge aus Wertpapieren
+V42131	Erträge aus Aktien, anderen Anteilsrechten und nicht festverzinslichen Wertpapieren
+V42140	Provisionserträge
+V42150	Provisionsaufwendungen
+V42200	Ertrag/Aufwand aus Finanzgeschäften
+V42310	Sonstige betriebliche Erträge
+V42320	Allgemeine Verwaltungsaufwendungen
+V42322	Sonstige allgemeine Verwaltungskosten
+V42330	Sonstige betriebliche Aufwendungen
+V42350	Wertberichtigungen und Erträge aus der Auflösung von Wertberichtigungen auf Forderungen und aus Rückstellungen für Enventualverbindlichkeiten und für Kreditrisiken
+V42360	Andere Wertberichtigungen und Erträge aus der Auflösung von Wertberichtigungen
+V42400	Ergebnis der normalen Geschäftstätigkeit
+V42500	Außerordentliches Ergebnis
+V42510	Sämtliche Steuern (Steuern auf das Ergebnis der normalen Geschäftstätigkeit, Steuern auf das außerordentliche Ergebnis, sonstige Steuern)
+V42600	Ergebnis des Geschäftsjahres
+V43110	Forderungen an Kunden
+V43210	Verbindlichkeiten gegenüber Kunden
+V43290	Summe des Eigenkapitals
+V43300	Bilanzsumme (KI)
+V43310	Bilanzsumme nach Sitz der Muttergesellschaft
+V43320	Bilanzsumme nach der Rechtsform
+V44110	Zinserträge und ähnliche Erträge nach CPA-(Unter-)Kategorien
+V44120	Zinsaufwendungen und ähnliche Aufwendungen nach CPA-(Unter-)Kategorien
+V44130	Provisionserträge nach CPA-(Unter-)Kategorien
+V44140	Provisionsaufwendungen nach CPA-(Unter-)Kategorien
+V45110	Geographische Aufgliederung der Gesamtzahl der EWR-Zweigniederlassungen
+V45210	Geographische Aufgliederung der Zinserträge und ähnliche Erträge
+V45220	Geographische Aufgliederung der Bilanzsumme
+V45310	Geographische Aufgliederung der Zinserträge und ähnlichen Erträge aufgrund des freien Dienstleistungsverkehrs (in anderen EWR-Ländern)
+V45321	Umsatz pro Unternehmen
+V45410	Geographische Aufgliederung der Zinserträge und ähnlichen Erträge aufgrund von Zweigniederlassungen (in Ländern ausserhalb des EWR)
+V45420	Geographische Aufgliederung der Zinserträge und ähnlichen Erträge aufgrund des freien Dienstleistungsverkehrs (in Ländern ausserhalb des EWR)
+V45789	Umsatz pro beschäftigter Person
+V47110	Zahl der Konten nach CPA-(Unter-)Kategorien
+V47120	Zahl der Forderungen an Kunden nach CPA-(Unter-)Kategorien
+V47130	Zahl der Bankautomaten von Kreditinstituten
+V48001	Pensionsbeiträge von Mitgliedern
+V48002	Pensionsbeiträge von Arbeitgebern
+V48003	Erträge aus Übertragungen
+V48004	Sonstige Pensionsbeiträge
+V48005	Pensionsbeiträge an Systeme mit vorbestimmten Leistungen
+V48006	Pensionsbeiträge an Systeme mit vorbestimmten Beiträgen
+V48007	Pensionsbeiträge an hybride Systeme
+V48010	Erträge aus Kapitalanlagen (PF)
+V48011	Kapitalgewinne und -verluste
+V48021	Erträge der Versicherungsleistungen
+V48022	Sonstige Erträge (PF)
+V48030	Gesamte Aufwendungen für Pensionen
+V48031	Regelmäßige Pensionszahlungen
+V48032	Einmalige Pensionszahlungen
+V48033	Aufwendungen aus Übertragungen
+V48040	Nettoveränderung der technischen Rückstellungen
+V48050	Aufwendungen für Versicherungsbeiträge
+V48060	Betriebsaufwendungen insgesamt
+V48070	Sämtliche Steuern
+V48080	Umsatz der nicht autonomen Pensionsfonds
+V48100	Gesamtsumme der Kapitalanlagen (PF)
+V48101	Rückveranlagung in das Trägerunternehmen
+V48102	Kapitalanlagen insgesamt zu Markwerten 
+V48104	Kapitalanlagen insgesamt zu Marktwerten
+V48110	Grundstücke und Bauten (PF)
+V48120	Kapitalanlagen in verbundenen Unternehmen und Beteiligungen (PF)
+V48130	Aktien und andere nicht festverzinsliche Wertpapiere
+V48131	Aktien (gehandelt auf einem geregelten Markt)
+V48132	Aktien (gehandelt auf einem geregelten Markt, der auf KMU spezialisiert ist)
+V48133	Aktien (nicht öffentlich gehandelt)
+V48134	Andere nicht festverzinsliche Wertpapiere
+V48140	Einheiten des Organismus für gemeinsame Anlagen in Wertpapieren
+V48150	Schuldverschreibungen und andere festverzinsliche Wertpapiere
+V48151	Schuldverschreibungen und andere festverzinsliche Wertpapiere der öffentlichen Hand
+V48152	Sonstige Schuldverschreibungen und andere festverzinsliche Wertpapiere
+V48160	Anteile an gemeinschaftlichen Kapitalanlagen (PF)
+V48170	Anleihen garantiert aus Hypotheken und andere Anleihen, die sonst nirgendwo anders erfasst sind
+V48180	Andere Kapitalanlagen
+V48200	Sonstige Vermögensgegenstände
+V48300	Eigenkapital
+V48400	Versicherungstechnische Nettorückstellungen (PF)
+V48500	Sonstige Posten der Passiva
+V48610	Geographische Aufgliederung des Umsatzes
+V48620	Aktien und andere nicht festverzinsliche Wertpapiere nach der Lage
+V48630	Kapitalanlagen insgesamt aufgegliedert nach der Lage
+V48640	Kapitalanlagen insgesamt aufgegliedert nach Euro- und Nicht-Euro-Komponenten
+V48700	Zahl der Mitglieder
+V48701	Zahl der Mitglieder von Systemen mit vorgegebenen Leistungen
+V48702	Zahl der Mitglieder von Systemen mit vorgegebenen Beiträgen
+V48703	Zahl der Mitglieder von hybriden Systemen
+V48704	Zahl der aktiven Mitglieder
+V48705	Zahl der suspendierten Mitglieder
+V48706	Zahl der pensionierten Mitglieder
+V48707	Zahl der weiblichen Mitglieder
+V48710	Zahl der Mitglieder
+V85456	Share of employees in the number of persons employed
+V85564	Gross operating surplus per person employed
+V91100	Umsatz pro beschäftigter Person
+V91110	Sichtbare Arbeitsproduktivität (Bruttowertschöpfung pro Beschäftigten)
+V91111	Zahl der Unternehmen (in %)
+V91120	Lohnbereinigte Arbeitsproduktivität (sichtbare Arbeitsproduktivität geteilt durch durchschnittliche Personalkosten) (%)
+V91121	Einfach lohnbereinigte Arbeitsproduktivität (Bruttowertschöpfung geteilt durch Personalkosten) (%)
+V91130	Bruttowertschöpfung pro Beschäftigtem
+V91140	Bruttowertschöpfung pro Beschäftigtem FTE
+V91150	Bruttowertschöpfung pro gearbeiteter Stunde der Beschäftigten
+V91170	Anteil der Personalkosten an der Produktion
+V91210	Durchschnittliche Personalkosten (Personalkosten je Beschäftigten) (1 000 EUR)
+V91220	Arbeitskosten pro Beschäftigtem FTE
+V91230	Arbeitskosten pro gearbeiteter Stunde der Beschäftigten
+V91275	Anteil der Lohn- und Gehaltsempfänger an den Beschäftigten
+V91290	Wachstumsrate der Beschäftigung
+V91310	Anteil des Arbeitgebers an den Sozialabgaben als Prozentanteil an Personalaufwendungen
+V91616	Zahl der Arbeitsplätze (in %)
+V92100	Anzahl der Beschäftigten pro Unternehmen
+V92101	Umsatz pro Unternehmen (Millionen ECU)
+V92102	Value added at factor cost per enterprise
+V92110	Brutto-betrieblicher Überschuß/Umsatz (Brutto-Betriebsrate)
+V92111	Anteil der Wertschöpfung zu Faktorkosten an der Produktion
+V92112	Anteil der Personalkosten an den Gesamtkäufen von Gütern und Dienstleistungen
+V92113	Anteil des brutto-betrieblichen Überschusses an der Wertschöpfung
+V92114	Anteil der Bruttoinvestitionen in Sachanlagen an den Personalaufwendungen (%)
+V92300	Wachstumsrate der Wertschöpfung zu Faktorkosten in konstanten Preisen
+V92310	Wachstumsrate der Produktion in konstanten Preisen
+V94110	Anteil der Haupttätigkeit am Umsatz (Grad der Spezialisierung)
+V94130	Share of personnel costs in total operating costs
+V94210	Anteil der Bruttowertschöpfung an der Gesamtproduktion
+V94220	Anteil der Bruttowertschöpfung an der Gesamtindustrie
+V94240	Anteil des Produktionswertes im gesamten verarbeitenden Gewerbe
+V94270	Anteil des Umsatzes im gesamten verarbeitenden Gewerbe
+V94310	Anteil der Beschäftigung an der Gesamtproduktion
+V94320	Anteil der Beschäftigung an der Gesamtindustrie
+V94410	Quote des Bestands an Fertigprodukten und noch zu beendenden Produkten zum Produktionswert
+V94414	Investitionen pro beschäftigter Person
+V94415	Investitionsquote (Bruttoinvestition/Bruttowertschöpfung zu Faktorkosten)
+V94900	Weltanteil des Partnerlandes, gemessen an der Zahl der Unternehmen (%)
+V94901	Weltanteil des Partnerlandes, gemessen am Umsatz (%)
+V94902	Weltanteil des Partnerlandes, gemessen am Produktionswert (%)
+V94903	Weltanteil des Partnerlandes, gemessen an der Wertschöpfung zu Faktorkosten (%)
+V94904	Weltanteil des Partnerlandes, gemessen an den Gesamtkäufen von Gütern und Dienstleistungen (%)
+V94906	Weltanteil des Partnerlandes, gemessen an den Personalaufwendungen (%)
+V94907	Weltanteil des Partnerlandes, gemessen an den Bruttoinvestitionen in Sachanlagen (%)
+V94908	Weltanteil des Partnerlandes, gemessen an der Zahl der Beschäftigten (%)
+V94909	Weltanteil des Partnerlandes, gemessen an der Zahl der Lohn- und Gehaltsempfänger (%)
+V95110	Anteil der Ausgaben für Forschung und Entwicklung an Bruttowertschöpfung
+V95120	Anteil der Beschäftigung in Forschung und Entwicklung an der Gesamtbeschäftigtenzahl
+V97010	Nettoveränderung der Unternehmenspopulation
+V97015	Unternehmensfluktuation: Gründungsrate + Schließungsrate
+V97020	Gründungsrate: Quotient aus der Zahl der Unternehmensgründungen im Berichtszeitraum (t) und der Zahl der in t aktiven Unternehmen
+V97021	Anteil der Unternehmensgründungen im Berichtszeitraum (t) nach Größenklasse
+V97022	Dichte der Gründungsrate: Quotient aus der Zahl der Unternehmensgründungen im Berichtszeitraum (t) und der Bevölkerungszahl (in 10 000) in t
+V97023	Dichte der Gründungsrate (enge Version): Quotient aus der Zahl der Unternehmensgründungen im Berichtszeitraum (t) und der Bevölkerung im Alter von 20-59 Jahren (in 10 000) in t
+V97030	Schließungsrate: Quotient aus der Zahl der Unternehmensschließungen im Berichtszeitraum (t) und der Zahl der in t aktiven Unternehmen
+V97031	Anteil der Unternehmensschließungen im Berichtszeitraum (t) nach Größenklasse
+V97041	Überlebensrate 1: Quotient aus der Zahl der Unternehmen im Berichtszeitraum (t), die in t-1 neu gegründet wurden und bis t fortbestanden, und der Zahl der in t-1 gegründeten Unternehmen
+V97042	Überlebensrate 2: Quotient aus der Zahl der Unternehmen im Berichtszeitraum (t), die in t-2 neu gegründet wurden und bis t fortbestanden, und der Zahl der in t-2 gegründeten Unternehmen
+V97043	Überlebensrate 3: Quotient aus der Zahl der Unternehmen im Berichtszeitraum (t), die in t-3 neu gegründet wurden und bis t fortbestanden, und der Zahl der in t-3 gegründeten Unternehmen
+V97044	Überlebensrate 4: Quotient aus der Zahl der Unternehmen im Berichtszeitraum (t), die in t-4 neu gegründet wurden und bis t fortbestanden, und der Zahl der in t-4 gegründeten Unternehmen
+V97045	Überlebensrate 5: Quotient aus der Zahl der Unternehmen im Berichtszeitraum (t), die in t-5 neu gegründet wurden und bis t fortbestanden, und der Zahl der in t-5 gegründeten Unternehmen
+V97051	Anteil der 1 Jahr alten Unternehmen an der Unternehmenspopulation
+V97052	Anteil der 2 Jahre alten Unternehmen an der Unternehmenspopulation
+V97053	Anteil der 3 Jahre alten Unternehmen an der Unternehmenspopulation
+V97054	Anteil der 4 Jahre alten Unternehmen an der Unternehmenspopulation
+V97055	Anteil der 5 Jahre alten Unternehmen an der Unternehmenspopulation
+V97120	Beschäftigungsanteil der neugegründeten Unternehmen: Quotient aus der Zahl der Beschäftigten im Berichtszeitraum (t) in Unternehmen, die in t gegründet wurden, und der Zahl der Beschäftigten im Berichtszeitraum (t) in der Gesamtheit der in t aktiven Unternehmen
+V97121	Durchschnittliche Größe der neugegründeten Unternehmen: Quotient aus der Zahl der Beschäftigten im Berichtszeitraum (t) in Unternehmen, die in t neu gegründet wurden, und der Zahl der in t gegründeten Unternehmen
+V97122	Rate der bezahlten Beschäftigung in neugegründeten Unternehmen: Quotient aus der Zahl der Lohn- und Gehaltsempfänger im Berichtszeitraum (t) in Unternehmen, die in t neu gegründet wurden, und der Zahl der Beschäftigten in Unternehmen, die in t neu gegründet wurden
+V97130	Beschäftigungsanteil der geschlossenen Unternehmen: Quotient aus der Zahl der Beschäftigten im Berichtszeitraum (t) in Unternehmen, die in t geschlossen wurden, und der Zahl der Beschäftigten im Berichtszeitraum (t) in der Gesamtheit der in t aktiven Unternehmen
+V97131	Durchschnittliche Beschäftigung in geschlossenen Unternehmen: Quotient aus der Zahl der Beschäftigten im Berichtszeitraum (t) in Unternehmen, die in t geschlossen wurden, und der Zahl der in t geschlossenen Unternehmen
+V97141	Beschäftigungswachstum in 1 Jahr alten Unternehmen: Quotient aus der Zahl der Beschäftigten im Berichtszeitraum (t) in Unternehmen, die in t-1 neu gegründet wurden und bis t fortbestanden, und der Zahl der Beschäftigen, die in t-1 in diesen Unternehmen tätig waren
+V97142	Beschäftigungswachstum in 2 Jahre alten Unternehmen: Quotient aus der Zahl der Beschäftigten im Berichtszeitraum (t) in Unternehmen, die in t-2 neu gegründet wurden und bis t fortbestanden, und der Zahl der Beschäftigen, die in t-2 in diesen Unternehmen tätig waren
+V97143	Beschäftigungswachstum in 3 Jahre alten Unternehmen: Quotient aus der Zahl der Beschäftigten im Berichtszeitraum (t) in Unternehmen, die in t-3 neu gegründet wurden und bis t fortbestanden, und der Zahl der Beschäftigen, die in t-3 in diesen Unternehmen tätig waren
+V97144	Beschäftigungswachstum in 4 Jahre alten Unternehmen: Quotient aus der Zahl der Beschäftigten im Berichtszeitraum (t) in Unternehmen, die in t-4 neu gegründet wurden und bis t fortbestanden, und der Zahl der Beschäftigen, die in t-4 in diesen Unternehmen tätig waren
+V97145	Beschäftigungswachstum in 5 Jahre alten Unternehmen: Quotient aus der Zahl der Beschäftigten im Berichtszeitraum (t) in Unternehmen, die in t-5 neu gegründet wurden und bis t fortbestanden, und der Zahl der Beschäftigen, die in t-5 in diesen Unternehmen tätig waren
+V97151	Beschäftigungsanteil 1 Jahr alter Unternehmen: Quotient aus der Zahl der Beschäftigten im Berichtszeitraum (t) in Unternehmen, die in t-1 neu gegründet wurden und bis t fortbestanden, und der Zahl der Beschäftigten in der Gesamtheit der in t aktiven Unternehmen
+V97152	Beschäftigungsanteil 2 Jahre alter Unternehmen: Quotient aus der Zahl der Beschäftigten im Berichtszeitraum (t) in Unternehmen, die in t-2 neu gegründet wurden und bis t fortbestanden, und der Zahl der Beschäftigten in der Gesamtheit der in t aktiven Unternehmen
+V97153	Beschäftigungsanteil 3 Jahre alter Unternehmen: Quotient aus der Zahl der Beschäftigten im Berichtszeitraum (t) in Unternehmen, die in t-3 neu gegründet wurden und bis t fortbestanden, und der Zahl der Beschäftigten in der Gesamtheit der in t aktiven Unternehmen
+V97154	Beschäftigungsanteil 4 Jahre alter Unternehmen: Quotient aus der Zahl der Beschäftigten im Berichtszeitraum (t) in Unternehmen, die in t-4 neu gegründet wurden und bis t fortbestanden, und der Zahl der Beschäftigten in der Gesamtheit der in t aktiven Unternehmen
+V97155	Beschäftigungsanteil 5 Jahre alter Unternehmen: Quotient aus der Zahl der Beschäftigten im Berichtszeitraum (t) in Unternehmen, die in t-5 neu gegründet wurden und bis t fortbestanden, und der Zahl der Beschäftigten in der Gesamtheit der in t aktiven Unternehmen
+V97161	Durchschnittliche Größe der 1 Jahr alten Unternehmen: Quotient aus der Zahl der Beschäftigten im Berichtszeitraum (t) in Unternehmen, die in t-1 neu gegründet wurden und bis t fortbestanden, und der Zahl der Unternehmen in t, die in t-1 gegründet wurden und bis t fortbestanden
+V97162	Durchschnittliche Größe der 2 Jahre alten Unternehmen: Quotient aus der Zahl der Beschäftigten im Berichtszeitraum (t) in Unternehmen, die in t-2 neu gegründet wurden und bis t fortbestanden, und der Zahl der Unternehmen in t, die in t-2 gegründet wurden und bis t fortbestanden
+V97163	Durchschnittliche Größe der 3 Jahre alten Unternehmen: Quotient aus der Zahl der Beschäftigten im Berichtszeitraum (t) in Unternehmen, die in t-3 neu gegründet wurden und bis t fortbestanden, und der Zahl der Unternehmen in t, die in t-3 gegründet wurden und bis t fortbestanden
+V97164	Durchschnittliche Größe der 4 Jahre alten Unternehmen: Quotient aus der Zahl der Beschäftigten im Berichtszeitraum (t) in Unternehmen, die in t-4 neu gegründet wurden und bis t fortbestanden, und der Zahl der Unternehmen in t, die in t-4 gegründet wurden und bis t fortbestanden
+V97165	Durchschnittliche Größe der 5 Jahre alten Unternehmen: Quotient aus der Zahl der Beschäftigten im Berichtszeitraum (t) in Unternehmen, die in t-5 neu gegründet wurden und bis t fortbestanden, und der Zahl der Unternehmen in t, die in t-5 gegründet wurden und bis t fortbestanden
+V97241	Zahl der im Jahr n gegründeten Unternehmen, die bis n+1 fortbestanden haben
+V97242	Zahl der im Jahr n gegründeten Unternehmen, die bis n+2 fortbestanden haben
+V97243	Zahl der im Jahr n gegründeten Unternehmen, die bis n+3 fortbestanden haben
+V97244	Zahl der im Jahr n gegründeten Unternehmen, die bis n+4 fortbestanden haben
+V97245	Zahl der im Jahr n gegründeten Unternehmen, die bis n+5 fortbestanden haben
+V97251	Überlebensrate 1 der Kohorte: Quotient der Zahl der Unternehmen, die im Berichtszeitraum (n) gegründet wurden und bis (n+1) überlebten, und der in (n) gegründeten Unternehmen
+V97252	Überlebensrate 2 der Kohorte: Quotient der Zahl der Unternehmen, die im Berichtszeitraum (n) gegründet wurden und bis (n+2) überlebten, und der in (n) gegründeten Unternehmen
+V97253	Überlebensrate 3 der Kohorte: Quotient der Zahl der Unternehmen, die im Berichtszeitraum (n) gegründet wurden und bis (n+3) überlebten, und der in (n) gegründeten Unternehmen
+V97254	Überlebensrate 4 der Kohorte: Quotient der Zahl der Unternehmen, die im Berichtszeitraum (n) gegründet wurden und bis (n+4) überlebten, und der in (n) gegründeten Unternehmen
+V97255	Überlebensrate 5 der Kohorte: Quotient der Zahl der Unternehmen, die im Berichtszeitraum (n) gegründet wurden und bis (n+5) überlebten, und der in (n) gegründeten Unternehmen
+V97341	Zahl der Beschäftigten im Überlebensjahr in Unternehmen, die in n gegründet wurden und bis (n+1) überlebten
+V97342	Zahl der Beschäftigten im Überlebensjahr in Unternehmen, die in n gegründet wurden und bis (n+2) überlebten
+V97343	Zahl der Beschäftigten im Überlebensjahr in Unternehmen, die in n gegründet wurden und bis (n+3) überlebten
+V97344	Zahl der Beschäftigten im Überlebensjahr in Unternehmen, die in n gegründet wurden und bis (n+4) überlebten
+V97345	Zahl der Beschäftigten im Überlebensjahr in Unternehmen, die in n gegründet wurden und bis (n+5) überlebten
+V97351	Zahl der Beschäftigten im Gründungsjahr in Unternehmen, die in n gegründet wurden und bis (n+1) überlebten
+V97352	Zahl der Beschäftigten im Gründungsjahr in Unternehmen, die in n gegründet wurden und bis (n+2) überlebten
+V97353	Zahl der Beschäftigten im Gründungsjahr in Unternehmen, die in n gegründet wurden und bis (n+3) überlebten
+V97354	Zahl der Beschäftigten im Gründungsjahr in Unternehmen, die in n gegründet wurden und bis (n+4) überlebten
+V97355	Zahl der Beschäftigten im Gründungsjahr in Unternehmen, die in n gegründet wurden und bis (n+5) überlebten
+V97361	Wachstumsrate der Beschäftigung in 1 Jahr alten Unternehmen: Quotient aus der Zahl der Beschäftigten im Berichtszeitraum (n+1) in Unternehmen, die in (n) neu gegründet wurden und bis (n+1) überlebten, und der Zahl der Beschäftigen, die in (n) in diesen Unternehmen tätig waren
+V97362	Wachstumsrate der Beschäftigung in 2 Jahre alten Unternehmen: Quotient aus der Zahl der Beschäftigten im Berichtszeitraum (n+2) in Unternehmen, die in (n) neu gegründet wurden und bis (n+2) überlebten, und der Zahl der Beschäftigen, die in (n) in diesen Unternehmen tätig waren
+V97363	Wachstumsrate der Beschäftigung in 3 Jahre alten Unternehmen: Quotient aus der Zahl der Beschäftigten im Berichtszeitraum (n+3) in Unternehmen, die in (n) neu gegründet wurden und bis (n+3) überlebten, und der Zahl der Beschäftigen, die in (n) in diesen Unternehmen tätig waren
+V97364	Wachstumsrate der Beschäftigung in 4 Jahre alten Unternehmen: Quotient aus der Zahl der Beschäftigten im Berichtszeitraum (n+4) in Unternehmen, die in (n) neu gegründet wurden und bis (n+4) überlebten, und der Zahl der Beschäftigen, die in (n) in diesen Unternehmen tätig waren
+V97365	Wachstumsrate der Beschäftigung in 5 Jahre alten Unternehmen: Quotient aus der Zahl der Beschäftigten im Berichtszeitraum (n+5) in Unternehmen, die in (n) neu gegründet wurden und bis (n+5) überlebten, und der Zahl der Beschäftigen, die in (n) in diesen Unternehmen tätig waren
+V97450	Anteil schnell wachsender Unternehmen an der Unternehmenspopulation, nach Beschäftigung
+V97451	Anteil schnell wachsender Unternehmen an der Unternehmenspopulation, nach Umsatz
+V97452	Anteil der jungen schnell wachsenden Unternehmen (Gazellen) an der Unternehmenspopulation, nach Beschäftigung
+V97453	Anteil der jungen schnell wachsenden Unternehmen (Gazellen) an der Unternehmenspopulation, nach Umsatz
+V99110	Umsatz in konstanten Preisen
+V99120	Produktionswert in konstanten Preisen
+V99150	Wertschöpfung zu Faktorkosten in konstanten Preisen
+V9EU10	Anteil der Beschäftigten in der gesamten EU-15
+V9EU11	Beschäftigungsspezialisierung im Verhältnis zu EU-15 nach Industrie
+V9EU20	Anteil des Umsatzes in der gesamten EU-15
+V9EU21	Umsatzspezialisierung im Verhältnis zu EU-15 nach Industrie
+V9EU30	Anteil des Produktionswertes in der gesamten EU-15
+V9EU31	Produktionsspezialisierung im Verhältnis zu EU-15 nach Industrie
+V9EU50	Anteil der Bruttowertschöpfung in der gesamten EU-15
+V9EU51	Bruttowertschöpfungsspezialisierung im Verhältnis zu EU-15 nach Industrie
+V9IS10	Umsatzspezialisierung im Verhältnis zum verarbeitenden Gewerbe
+V9IS11	Beschäftigungsspezialisierung im Verhältnis zum verarbeitenden Gewerbe
+V9IS20	Produktionsspezialisierung im Verhältnis zum verarbeitenden Gewerbe
+V9IS50	Bruttowertschöpfungsspezialisierung im Verhältnis zum verarbeitenden Gewerbe
+VS2110	Anteil des Unternehmensumsatzes innerhalb der Aktivität im gesamten Grössenklassenumsatz
+VS2111	Anteil der Beschäftigungsunternehmen innerhalb der Aktivität in den gesamten Beschäftigungsunternehmen
+VS2150	Anteil der Unternehmensbruttowertschöpfung innerhalb der Aktivität in den gesamten Bruttowertschöpfungsunternehmen
+VSC110	Anteil des Unternehmensumsatzes im gesamten Aktivitätsumsatz
+VSC111	Anteil der Unternehmenbeschäftigung in der gesamten Aktivitätsbeschäftigung
+VSC150	Anteil der Unternehmensbruttowertschöpfung in der gesamten Aktivitätsbruttowertschöpfung
+V97455	Anteil von Unternehmen mittleren Wachstums an der Unternehmenspopulation, nach Beschäftigung
+V97456	Anteil von Unternehmen mittleren Wachstums an der Unternehmenspopulation, nach Umsatz
+V97457	Anteil der jungen Unternehmen mittleren Wachstums an der Unternehmenspopulation, nach Beschäftigung
+V97458	Anteil der jungen Unternehmen mittleren Wachstums an der Unternehmenspopulation, nach Umsatz
+V11955	Zahl der mittel schnell wachsenden Unternehmen, gemessen in Beschäftigung
+V11956	Zahl der mittel schnell wachsenden Unternehmen, gemessen in Umsatz
+V11957	Zahl der jungen mittel schnell wachsenden Unternehmen, gemessen in Beschäftigung
+V11958	Zahl der jungen mittel schnell wachsenden Unternehmen, gemessen in Umsatz

@@ -1,0 +1,47 @@
+PC_TOT_IMP	Einfuhranteil nach Handelspartner an den gesamten Einfuhren (%)
+PC_TOT_EXP	Ausfuhranteil nach  Handelspartner an den gesamten Ausfuhren  (%)
+RT_EXP_IMP	Ausfuhr/Einfuhr-Verhältnis
+IMP_VAL	Einfuhren in Milliarden ECU/EURO
+EXP_VAL	Ausfuhren in Milliarden ECU/EURO
+BAL_VAL	Bilanzsaldo in Milliarden ECU/EURO
+IVOL_IMP	Einfuhr-Volumenindizes (2000=100)
+IVOL_EXP	Ausfuhr-Volumenindizes (2000=100)
+RT_IVOL	Volumenverhältnis (Ausfuhr/Einfuhr)
+PC_IMP_EU	Anteil der Einfuhren aus der EU an den Gesamteinfuhren (%)
+PC_EXP_EU	Anteil der Ausfuhren in die EU an den Ausfuhren insgesamt (%)
+PC_IMP_WRL	Anteil der Gesamteinfuhren am Weltimport (%)
+PC_EXP_WRL	Anteil der Gesamtausfuhren am Weltexport (%)
+TRD_VAL	Handelsbeziehungen in Millionen ECU/EURO
+TRD_VAL_RT12	Wachstumsrate M/M-12 der Handelsbeziehungen in Werten
+TRD_VAL_SWDA	Saisonbereinigte und arbeitstäglich bereinigte Handelsbeziehungen in Werten in Millionen ECU/EURO
+TRD_VAL_SWDA_RT1	Wachstumsrate M/M-1 der saisonbereinigten und arbeitstäglich bereinigten Handelsbeziehungen in Werten
+TRD_VAL_TREND	Trend (glatte Komponente) der Handelsbeziehungen in Werten
+IVU	Index des Einheitswertes (2000=100)
+IVU_EXP	Export Index des Einheitswertes (2000=100)
+IVU_IMP	Import Index des Einheitswertes (2000=100)
+RT_IVU	Terms of trade (Ausfuhr/Einfuhr)
+IVU_RT1	Wachstumsrate M/M-1 der Indizes des Einheitswertes
+IVU_RT12	Wachstumsrate M/M-12 der Indizes des Einheitswertes
+IVOLU	Volumenindizes des Einheitswertes (2000=100)
+IVOL_NSA	Volumenindizes (2000=100)
+IVOL_NSA_RT12	Wachstumsrate M/M-12 der Volumenindizes
+IVOL_SWDA	Saisonbereinigte und arbeitstäglich bereinigte Volumenindizes (2000=100)
+IVOL_SWDA_RT1	Wachstumsrate M/M-1 der saisonbereinigten und arbeitstäglich bereinigten Volumenindizes
+IVOL_TREND	Trend (glatte Komponente) der Volumenindizes (2000=100)
+CONT_IMP_EU	Einfuhranteil nach Mitgliedstaaten (%)
+CONT_EXP_EU	Ausfuhranteil nach Mitgliedstaaten (%)
+CONT_IMP	Anteil am Einfuhren der EU25 (%)
+CONT_EXP	Anteil am Ausfuhren der EU25 (%)
+MIO_BAL_VAL	Bilanzsaldo in Millionen ECU/EURO
+MIO_EXP_VAL	Ausfuhren in Millionen ECU/EURO
+MIO_IMP_VAL	Einfuhren in Millionen ECU/EURO
+PC_EU_EX_IMP	Anteil am Extra-EU import (%)
+PC_EU_EX_EXP	Anteil am Extra-EU export (%)
+PC_MU_EX_IMP	Anteil am Extra-euroarea import (%)
+PC_MU_EX_EXP	Anteil am Extra-euroarea export (%)
+PC_IMP_PROD	Einfuhranteil nach Produkten (%)
+PC_EXP_PROD	Ausfuhranteil nach Produkten(%)
+1000_TRD_VAL	Handelsbeziehungen in Tausend ECU/EURO
+NUM_ENT	Anzahl der Unternehmen
+PC_IMP_PART	Einfuhranteil nach Handelspartner (%)
+PC_EXP_PART	Ausfuhranteil nach Handelspartner(%)

@@ -1,0 +1,334 @@
+BP010	Total
+BP020	Commerce des biens
+BP030	Commerce des services
+BP040	Revenu
+BP050	Transferts courants
+BP060	Compte de capital - Millions d'euros - Données mensuelles
+BP070	Compte courant et de capital - Millions d'euros - Données mensuelles
+BP080	Total
+BP090	Investissements directs
+BP100	Investissements de portefeuille
+BP110	Dérivés financiers
+BP120	Autres investissements
+BP130	Avoirs de réserve
+BP140	Erreurs et omissions nettes
+BP200	Total
+BP210	Commerce des biens
+BP220	Commerce des services
+BP230	Revenu
+BP240	Transferts courants
+BP250	Compte de capital - Millions d'euros - Données trimestrielles
+BP260	Compte courant et de capital - Millions d'euros - Données trimestrielles
+BP-100	Commerce de biens
+BP-200	Commerce des services
+BP-300	Revenus
+BP-379	Transferts courants
+BP-993	Compte des transactions courantes
+BP-994	Compte de capital
+BP-010	Compte des transactions courantes et de capital
+BP-995	Compte financier
+BP-500	Investissements directs
+BP-600	Investissements de portefeuille
+BP-910	Dérivés financiers
+BP-700	Autres investissements
+BP-802	Avoirs de réserve
+BP-998	Erreurs et omissions nettes
+BS-IPT	Tendance de la production dans les derniers mois
+BS-IEME	Perspectives d'emploi au cours des prochains mois
+BS-IOB	Appréciation des carnets de commandes
+BS-IEOB	Appréciation des carnets de commandes en provenance de l'étranger
+BS-ISFP	Appréciation des stocks des produits finis
+BS-IPE	Perspective d'évolution de la production au cours des prochains mois
+BS-ISPE	Perspective d'évolution des prix de vente au cours des prochains mois
+BS-ICI	Industrie, indicateur de confiance
+BS-ICPC-BAL	Appréciation de la capacité de production
+BS-IPCO-BAL	Durée de production assurée par les carnets de commandes courants
+BS-INO-BAL	Commandes enregistrées au cours des derniers mois
+BS-IEE-BAL	Perspectives d'évolution des commandes de l'étranger au cours des prochains mois
+BS-ICU-PC	Niveau courant de la capacité d'utilisation (%)
+BS-CP3M-DM-BAL	Compétitivité au cours des 3 derniers mois : sur le marché intérieur
+BS-CP3M-FMIEU-BAL	Compétitivité au cours des 3 derniers mois : sur le marché étranger à l'intérieur de l'UE
+BS-CP3M-EXEU-BAL	Compétitivité au cours des 3 derniers mois : endehors de l'UE
+BS-FLP1-PC	Facteurs limitant la production - Aucun
+BS-FLP2-PC	Facteurs limitant la production - Insuffisance de la demande
+BS-FLP3-PC	Facteurs limitant la production - Manque de main-d'oeuvre
+BS-FLP4-PC	Facteurs limitant la production - Insuffisance de l'équipement
+BS-FLP5-PC	Facteurs limitant la production - Autres
+BS-FLP6-PC	Facteurs limitant la production - Insufficance des moyens financiers
+BS-CTA-BAL	Evolution de l'activité de construction par rapport au mois précédent
+BS-COB-BAL	Appréciation du carnet de commandes
+BS-CEME-BAL	Perspectives d'emploi au cours des prochains mois
+BS-CPE-BAL	Perspectives de prix au cours des prochains mois
+BS-CCI-BAL	Indicateur de confiance dans la construction
+BS-FLBA1-PC	Facteurs limitant l'activité - Aucun
+BS-FLBA2-PC	Facteurs limitant l'activité - Insuffisance de la demande
+BS-FLBA3-PC	Facteurs limitant l'activité - Conditions météo défavorables
+BS-FLBA4-PC	Facteurs limitant l'activité - Manque de main-d'oeuvre
+BS-FLBA5-PC	Facteurs limitant l'activité - Insuffisance de l'équipement
+BS-FLBA6-PC	Facteurs limitant l'activité - Autres
+BS-FLBA7-PC	Facteurs limitant l'activité - Insufficance des moyens financiers
+BS-OTEB	Durée de d'activité assurée par le retard à combler
+BS-RPBS	Etat présent des affaires
+BS-RAS	Evaluation du stock
+BS-ROP	Carnet des commandes avec les fournisseurs
+BS-REBS	Evolution des affaires dans les six prochains mois
+BS-REM	Emploi
+BS-RCI	Commerce de détail, indicateur de confiance
+BS-FS-LY	Situation financière des 12 derniers mois
+BS-FS-NY	Situation financière des 12 prochains mois
+BS-GES-LY	Situation économique générale dans les 12 derniers mois
+BS-GES-NY	Situation économique générale dans les 12 mois futurs
+BS-PT-LY	Coût de la vie des 12 derniers mois
+BS-PT-NY	Coût de la vie des 12 prochains mois
+BS-UE-NY	Evolution du chômage dans les 12 prochains mois
+BS-MP-PR	Achats récents importants
+BS-MP-NY	Achats importants prévus dans les 12 prochains mois
+BS-SV-PR	Epargne actuelle
+BS-SV-NY	Epargne dans les 12 prochains mois
+BS-SFSH	Situation financière actuelle du ménage
+BS-CSMCI	Consommateur, indicateur de confiance
+BS-IBC-NTY	Intention d'acheter une automobile d'ici 2 ans
+BS-PBH-NTY	Achat ou construction d'une maison d'ici 2 ans
+BS-HI-NY	Transformation importante du logement d'ici 12 mois
+BS-ESI-I	Indicateur du climat économique
+BS-ICI-BAL	Industrie, indicateur de confiance
+BS-RCI-BAL	Commerce de détail, indicateur de confiance
+BS-CSMCI-BAL	Consommateur, indicateur de confiance
+BS-SCI-BAL	Services, indicateur de confiance
+BS-SABC	Evaluation du climat conjoncturel
+BS-SARM	Evolution de la demande ces derniers mois
+BS-SAEM	Evolution escomptée de la demande dans les mois à venir
+BS-SERM	Evolution de l'emploi ces derniers mois
+BS-SEEM	Evolution escomptée de l'emploi dans les mois à venir
+BS-SCI	Services, indicateur de confiance
+BS-PE3M	Expectations of the prices over the next 3 months
+BS-BCI	Indicateur du climat des affaires
+BS-FST-BAL	Services financiers - total
+BS-FIEI-BAL	Services financiers hors assurance et caisses de retraite
+BS-IPES-BAL	Assurance et caisses de retraite (sans sécurité sociale)
+BS-FIAA-BAL	Activités auxiliaires aux services financiers
+CP-HI00	IPCH - Indice d'ensemble (IPCH=Indices harmonisés des prix à la consommation)
+CP-HI01	IPCH - Produits alimentaires et boissons non alcoolisées
+CP-HI02	IPCH - Boissons alcoolisées et tabac
+CP-HI03	IPCH - Articles d'habillement et articles chaussants
+CP-HI04	IPCH - Logement, eau, électricité, gaz et autres combustibles
+CP-HI05	IPCH - Ameublement, équipement ménager et entretien courant de la maison
+CP-HI06	IPCH - Santé
+CP-HI07	IPCH - Transport
+CP-HI08	IPCH - Communications
+CP-HI09	IPCH - Loisirs et culture
+CP-HI10	IPCH - Enseignement
+CP-HI11	IPCH - Hôtels, cafés et restaurants
+CP-HI12	IPCH - Autres biens et services
+CP-HI00XEF	IPCH - Indice d'ensemble sans énergie, produits alimentaires, alcool et tabac
+CP-HI00XTB	IPCH - Indice d'ensemble sans tabac
+CP-HIE	IPCH - Energie
+CP-HIF	IPCH - Produits alimentaires
+CP-HIFU	IPCH - Aliments non traités
+CP-HIG	IPCH - Total des biens
+CP-HIIG	IPCH - Biens industriels
+CP-HIS	IPCH - Total des services
+CP-HIIGXE	IPCH - Biens industriels non énergétiques
+CP-HI00XE	IPCH - Indice d'ensemble, énergie exclue
+CP-HI00XEFU	IPCH - Indice d'ensemble, énergie et aliments non traités exclus
+CP-HI00XES	IPCH - Indice d'ensemble, énergie et aliments saisonniers exclus
+ET-T	Total
+ET-CAP	Biens d'investissement
+ET-CONS	Biens de consommation
+ET-CONXT	Biens de consommation (matériel de transport exclu)
+ET-INTER	Biens intermédiaires
+IS-PPI	Prix à la production de l'indice du marché intérieur (Indice des prix à la production)
+IS-IO	Indice des nouvelles commandes reçues
+IS-IO-IDX	Industrie - Entrées de commandes - indice
+IS-IO-RT1	Industrie - Entrées de commandes - Taux de croissance mensuel
+IS-IO-RT12	Industrie - Entrées de commandes - Taux de croissance annuel
+IS-IP	Indice de production - Données corrigées des jours ouvrables
+IS-IP-SA	Indice de production - Données désaisonnalisées et corrigées des jours ouvrables
+IS-IP-RT1	Production de la construction - Taux de croissance mensuel
+IS-IP-RT12	Production de la construction - Taux de croissance annuel
+IS-EPI	Indice du nombre de personnes occupées
+IS-HWI	Indice des heures travaillées
+IS-WSI	Indice des salaires et traitements bruts
+IS-IPI	Indice du coût (indice des prix imputé) - Nouveaux bâtiments résidentiels
+IS-PEI	Indice des permis de construire - Nouveaux bâtiments résidentiels
+IS-IT	Indice du chiffre d'affaires - Données corrigées des jours ouvrables
+IS-ITT	Indice du chiffre d'affaires - total
+IS-ITD	Indice du chiffre d'affaires - marché intérieur
+IS-ITND	Indice du chiffre d'affaires - marché extérieur
+IS-IT-T	Indice du chiffre d'affaires - Total - Données corrigées des jours ouvrables
+IS-IT-F	Indice du chiffre d'affaires - Produits alimentaires - Données corrigées des jours ouvrables
+IS-IT-X	Indice du chiffre d'affaires - Textiles - Données corrigées des jours ouvrables
+IS-IT-H	Indice du chiffre d'affaires - Articles domestiques - Données corrigées des jours ouvrables
+IS-DIT	Indice déflaté du chiffre d'affaires - Données corrigées des jours ouvrables
+IS-DIT-T	Indice déflaté du chiffre d'affaires - Total - Données corrigées des jours ouvrables
+IS-DIT-F	Indice déflaté du chiffre d'affaires - Produits alimentaires - Données corrigées des jours ouvrables
+IS-DIT-X	Indice déflaté du chiffre d'affaires - Textiles - Données corrigées des jours ouvrables
+IS-DIT-H	Indice déflaté du chiffre d'affaires - Articles domestiques - Données corrigées des jours ouvrables
+IS-CAR	Nombre d'immatriculations de nouvelles voitures
+IS-IMPR	Indices des prix à l'importation
+IS-IMPX	Indices des prix à l'importation - hors zone euro
+IS-IMPZ	Indices des prix à l'importation - zone euro
+IS-CSP	Production d'acier brut
+IS-PNG-TJ	Production de gas naturel, TJ (GVC)
+IS-CNG-TJ	Consommation totale de gaz naturel, TJ (GCV)
+IS-ING-TJ	Importations de gaz naturel, TJ (GCV)
+IS-PEL-GWH	Production d'électricité - GWh
+IS-CEL-GWH	Consommation d'électricité - GWh
+IS-IEL-GWH	Importations d'électricité GWh
+IS-PPE-EUL	Prix à la pompe de l'essence Euro super 95, TTC - EUR/litre
+IS-PPD-EUL	Prix à la pompe du gasoil, TTC - EUR/litre
+IS-IFO-EUT	Prix à la livraison du mazout industriel, hors taxes et droits - EUR/tonne
+IS-ROMS-T	Production d'essence pour moteur des raffineries - 1000t
+IS-IDMS-T	Livraisons intérieures d'essence pour moteurs - 1000t
+IS-ROGD-T	Production de gasoil des raffineries - 1000t
+IS-IDGD-T	Livraisons intérieures de gas-oil - 1000t
+LM-UN-T-TOT	Chômeurs selon la définition de l'OIT - Total
+LM-UN-M-TOT	Chômeurs selon la définition de l'OIT - Hommes
+LM-UN-F-TOT	Chômeurs selon la définition de l'OIT - Femmes
+LM-UN-T-LE25	Chômeurs selon la définition de l'OIT - Moins de 25 ans - Total
+LM-UN-M-LE25	Chômeurs selon la définition de l'OIT - moins de 25 ans - Hommes
+LM-UN-F-LE25	Chômeurs selon la définition de l'OIT - moins de 25 ans - Femmes
+LM-UN-T-GT25	Chômeurs selon la définition de l'OIT - Plus de 25 ans - Total
+LM-UN-M-GT25	Chômeurs selon la définition de l'OIT - Plus de 25 ans - Hommes
+LM-UN-F-GT25	Chômeurs selon la définition de l'OIT - Plus de 25 ans - Femmes
+LM-LCI-TOT	Indice du coût de la main-d'oeuvre - Total des coûts de la main d'oeuvre
+LM-LCI-SAL	Indice du coût de la main-d'oeuvre - Rémunérations
+LM-LCI-OTH	Indice du coût de la main-d'oeuvre - Coûts autres que les rémunérations
+MF-CBDF-RT	Taux d'intérêt de la banque centrale : Facilité de dépôt (fin de période)
+MF-CBRO-RT	Taux d'intérêt de la banque centrale : Principale opération de refinancement (fin de période)
+MF-CBLF-RT	Taux d'intérêt de la banque centrale : Facilité de prêt marginal (fin de période)
+MF-DDI-RT	Taux d'intérêt du marché monétaire au jour le jour (moyenne)
+MF-3MI-RT	Taux d'intérêt à 3 mois (moyenne)
+MF-EY1YM-RT	Rendements en euro - 1 an (moyenne)
+MF-EY5YM-RT	Rendements en euro - 5 ans (moyenne)
+MF-EY10YM-RT	Rendements en euro - 10 ans (moyenne)
+MF-LTGBY-RT	Rendement des obligations d'état à long terme - définitions de Maastricht
+MF-EXA-RT	Taux de change par rapport à l'ECU/euro (moyenne)
+MF-EXE-RT	Taux de change par rapport à l'ECU/euro (fin de période)
+MF-NEXRT-I	Taux de change effectifs nominaux (moyenne)
+MF-REXRT-I	Taux de change effectifs réels (moyenne)
+MF-M1-NSA	Masse monétaire M1 - non désaisonnalisée
+MF-M1-SA	Masse monétaire M1 - désaisonnalisée
+MF-M2-NSA	Masse monétaire M2 - non désaisonnalisée
+MF-M2-SA	Masse monétaire M2 - désaisonnalisée
+MF-M3-NSA	Masse monétaire M3 - non désaisonnalisée
+MF-M3-SA	Masse monétaire M3 - désaisonnalisée
+MF-LER-NSA	Prêts aux résidents accordés par les institutions financières monétaires - total - non désaisonnalisés
+MF-LGG-NSA	Prêts aux administrations publiques accordés par les institutions financières monétaires - non désaisonnalisés
+MF-LOR-NSA	Prêts aux autres résidents accordés par les institutions financières monétaires - non désaisonnalisés
+MF-SMC-MRD-EUR	Capitalisation du marché boursier en milliards d'euros (fin de période)
+MF-SP-I	Indices boursiers (moyenne)
+MF-FOR-MIO-EUR	Réserves extérieures officielles, y compris l'or en millions d'euros (fin de période)
+NA-B1G-CP-MIO-EUR	Valeur ajoutée brute à prix courants (mio euro)
+NA-B1G-CP	Valeur ajoutée brute à prix courants
+NA-B1G-KP-MIO-EUR	Valeur ajoutée brute à prix constants (mio euro)
+NA-D1-CP-MIO-EUR	Rémunération des salariés à prix courants (mio euro)
+NA-D11-CP-MIO-EUR	Salaires et traitements bruts à prix courants (mio euro)
+NA-D11	Salaires et traitements bruts
+NA-B2G_B3G-CP-MIO-EUR	Excédent brut d'exploitation et revenu mixte (mio euro)
+NA-EMP-1000	Emploi total (1000)
+NA-EMP	Emploi total
+NA-SAL-1000	Salariés (1000)
+NA-SAL	Salariés
+NA-SELF-1000	Travailleurs indépendants (1000)
+NA-SELF	Indépendants
+NA-B1GM-CP-MIO-EUR	Valeur ajoutée brute aux prix du marché courants (mio euro)
+NA-B1GM-KP-RT1	Produit intérieur brut aux prix constants (variation en pourcentage t/t-1)
+NA-B1GM-CLV-RT1	Produit intérieur brut aux prix constants (variation en pourcentage t/t-1)
+NA-B1GM-KP-I95	Produit intérieur brut aux prix constants (indice 1995=100)
+NA-B1GM-CLV-I2000	Produit intérieur brut aux prix constants (indice 2000=100)
+NA-D21_M_D31	Impôts sans les subventions sur la production et les importations
+NA-B2G_B3G	Excédent brut d'exploitation et revenu mixte brut
+NA-D1	Rémunération des salariés
+NA-B5N	Revenu national net
+NA-B5G	Revenu national brut
+NA-B6N	Revenu net disponible
+NA-B6G	Revenu brut disponible
+NA-B8G	Epargne brute
+NA-B8N	Epargne nette
+NA-B9	Capacité de financement (+) / besoin de financement (-)
+NA-D1_D4PAY	Revenus primaires, à payer
+NA-D1_D4REC	Revenus primaires, à recevoir
+NA-D1_D4BAL	Revenus primaires, balance
+NA-D1_D4	Revenus primaires nets
+NA-D5_TO_D7PAY	Transferts courants, à payer
+NA-D5_TO_D7REC	Transferts courants, à recevoir
+NA-D5_TO_D7BAL	Transferts courants, balance
+NA-D5_TO_D7	Transferts courants nets
+NA-D9	Transferts en capital nets
+NA-D9PAY	Transferts en capital, à payer
+NA-D9REC	Transferts en capital, à recevoir
+NA-D8	Ajustement pour variation des droits des ménages sur les fonds de pension
+NA-K2	Acquisitions moins cessions d'actifs non financiers non produits
+NA-K1	Consommation de capital fixe
+NA-D2_M_D3	Impôts sur la production et les importations moins les subventions
+NA-P119	Services d'intermédiation financière indirectement mesurés (SIFIM)
+NA-B1G	Valeur ajoutée brute
+NA-B1G-KP	Valeur ajoutée brute à prix constants
+NA-B1G-CLV2000	Valeur ajoutée brute en volumes
+NA-B1G-MIO-EUR-CLV2000	Valeur ajoutée brute - mesures de volume chaînées, année de référence 2000 (aux taux de change de 2000) (mio euro)
+NA-B1G-MIO-EUR-CLV2005	Valeur ajoutée brute - mesures de volume chaînées, année de référence 2005 (aux taux de change de 2005) (mio euro)
+NA-B1GM	Produit intérieur brut aux prix du marché
+NA-P3	Dépenses de consommation finale
+NA-P3_S13	Dépenses de consommation finale : administrations publiques
+NA-P31_S14	Dépenses de consommation finale : ménages
+NA-P31_S15	Dépenses de consommation finale : ISBLSM
+NA-P31_S14_S15	Dépenses de consommation finale : ménages et ISBLSM
+NA-P5	Formation brute de capital
+NA-P51	Formation brute de capital fixe - total
+NA-P51-AB	Formation brute de capital fixe : produits agricoles
+NA-P51-MET	Formation brute de capital fixe : produits métalliques et machines
+NA-P51-DM	Formation brute de capital fixe : matériel de transport
+NA-P51-FA	Formation brute de capital fixe : travaux de construction - Logement
+NA-P51-FB	Formation brute de capital fixe : travaux de construction - autres constructions
+NA-P51-OTH	Formation brute de capital fixe : autres produits
+NA-P52	Variation des stocks
+NA-P53	Acquisitions moins cessions d'objets de valeur
+NA-P3_P5	Demande intérieure
+NA-P61	Exportations de biens
+NA-P62	Exportations de services
+NA-P6	Exportations de biens et services
+NA-P71	Importations de biens
+NA-P72	Importations de services
+NA-P7	Importations de biens et services
+NA-B111	Balance extérieure : biens
+NA-B112	Balance extérieure : services
+NA-B11	Balance extérieure : total
+NA-GDEF	Capacité (+) / besoin de financement (-) des administrations publiques
+NA-GDEBT	Dette brute des administrations publiques
+NA-GEXP	Dépenses des administrations publiques
+NA-GREV	Recettes des administrations publiques
+NA-GFINV	Investissements fixes des administrations publiques
+NA-GPBAL	Solde primaire des administrations publiques
+NA-IGL-EU27	Prêts intergouvernementaux intra UE27 faits dans le contexte de la crise financière
+NA-IGL-EU25	Prêts intergouvernementaux intra UE25 faits dans le contexte de la crise financière
+NA-IGL-EA17	Prêts intergouvernementaux intra EA17 faits dans le contexte de la crise financière
+NA-IGL-EA16	Prêts intergouvernementaux intra EA16 faits dans le contexte de la crise financière
+INV_TOT	Investissement total
+INV_BUS	Investissement des entreprises
+INV_GOV	Investissements gouvernementals
+INV_HH	Investissement des ménages
+BS-FCI	Indicateur de confiance des services financiers
+BS-BSDP3	Evolution de la situation commerciale au cours des 3 derniers mois
+BS-DEVP3	Evolution de la demande au cours des 3 derniers mois
+BS-DEXN3	Evolution attendue de la demande au cours des 3 prochains mois
+BS-EEVP3	Evolution du nombre d'employés au cours des 3 derniers mois
+BS-EEXN3	Evolution attendue du nombre d'employés au cours des 3 prochains mois
+BS-OIDP3	Evolution du résultat d'exploitation au cours des 3 derniers mois
+BS-OIEN3	Evolution attendue du résultat d'exploitation au cours des 3 prochains mois
+BS-OEDP3	Evolution des charges d'exploitation au cours des 3 derniers mois
+BS-OEEN3	Evolution attendue des charges d'exploitation au cours des 3 prochains mois
+BS-PDP3	Evolution de la rentabilité au cours des 3 derniers mois
+BS-PEN3	Evolution attendue de la rentabilité au cours des 3 prochains mois
+BS-CEDP3	Evolution des dépenses en capital au cours des 3 derniers mois
+BS-CEEN3	Evolution attendue des dépenses en capital au cours des 3 prochains mois
+BS-CPDTP3	Evolution de la situation concurrentielle au cours des 3 derniers mois (total)
+BS-CPD1P3	Evolution de la situation concurrentielle au cours des 3 derniers mois (dans votre pays)
+BS-CPD2P3	Evolution de la situation concurrentielle au cours des 3 derniers mois (dans la zone Euro)
+BS-CPD3P3	Evolution de la situation concurrentielle au cours des 3 derniers mois (au sein de l'UE)
+BS-CPD4P3	Evolution de la situation concurrentielle au cours des 3 derniers mois (en dehors de l'UE)
+BS-CPETN3	Evolution attendue de la situation concurrentielle au cours des 3 prochains mois (total)
+BS-CPE1N3	Evolution attendue de la situation concurrentielle au cours des 3 prochains mois (dans votre pays)
+BS-CPE2N3	Evolution attendue de la situation concurrentielle au cours des 3 prochains mois (dans la zone EU)
+BS-CPE3N3	Evolution attendue de la situation concurrentielle au cours des 3 prochains mois (au sein de l'EU)
+BS-CPE4N3	Evolution attendue de la situation concurrentielle au cours des 3 prochains mois (en dehors de l'EU)

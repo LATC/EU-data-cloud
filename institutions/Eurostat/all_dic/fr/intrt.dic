@@ -1,0 +1,32 @@
+MAT_ON	Taux au jour le jour
+MAT_M01	Taux à un mois
+MAT_M03	Taux à 3 mois
+MAT_M06	Taux à 6 mois
+MAT_M12	Taux à 12 mois
+DEPRT	Taux de dépôt officiels
+LOANS	Taux d'emprunt officiels
+REFI	Taux officiels des opérations de refinancement
+OTHER	Autres taux officiels
+DR	Taux d'escompte
+CBAR	Taux des avances de la banque centrale
+DDMR	Taux interbancaire au jour le jour
+TBRT	Taux des bons du trésor
+CGBY	Rendements des obligations d'état à long terme
+PSBY	Rendement des obligations du secteur privé
+HGBY	Rendement harmonisé des obligations d'état
+MTGBY	Rendements des obligations d'état à moyen terme
+RDDR	Différence entre taux d'intérêt national et US: taux d'escompte
+RDDDMR	Différence entre taux d'intérêt national et US: taux à court terme
+RDGBY	Différence entre taux d'intérêt national et US: rendement des obligations d'état
+MCBY	Critère de convergence de l'UEM concernant les rendements des obligations
+MCBYMOV	Moyenne mobile sur 12 mois
+CBRR	Taux de référence de la banque centrale
+3MR	Taux d'intérêt du marché monétaire à 3 mois
+DEPR	Taux de dépôt auprès des banques commerciales
+LENR	Taux d'emprunt auprès des banques commerciales
+MAT_Y02	Echéance à 2 ans
+MAT_Y03	Echéance à 3 ans
+MAT_Y05	Echéance à 5 ans
+MAT_Y07	Echéance à 7 ans
+MAT_Y10	Echéance à 10 ans
+MCSPE	Critère de Maastricht - Indicateur spécial

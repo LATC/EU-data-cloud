@@ -1,0 +1,20 @@
+I96	Index, 1996=100
+I2005	Index, 2005=100
+INDEX	Monatlicher Index
+MOR	Monatliche Veränderungsrate
+ANR	Jährliche Veränderungsrate
+AVX	Jahresdurchschnittsindex
+AVR	Jährliche Veränderungsrate des Jahresdurchschnitts
+MV12R	Jährliche Veränderungsrate des gleitenden Jahresdurchschnitts
+COWEU	Ländergewichte für die Europäische Union (EC12-1994, EU15-2004, EU25-2006, EU27)
+COWE25	Ländergewichte für EU-25 (Europäische Union)
+COWE15	Ländergewichte für EU-15 (Europäische Union)
+COWE27	Ländergewichte für EU-27 (Europäische Union)
+COWEMU	Ländergewichte für den Euroraum (EA11-2000, EA12-2006, EA13-2007, EA15)
+COWEMU12	Ländergewichte für EA-12 (Euroraum)
+COWEMU13	Ländergewichte für EA-13 (Euroraum)
+COWEMU15	Ländergewichte für EA-15 (Euroraum)
+COWEMU15_SK	Ländergewichte für EA-15_SK (Euroraum + Slowakei)
+COWEMU16	Ländergewichte für EA-16 (Euroraum)
+COWEMU17	Ländergewichte für EA-17 (Euroraum)
+COWEEA	Ländergewichte für EWR (Europäischer Wirtschaftsraum)

@@ -1,0 +1,19 @@
+TOTAL	Total
+CANAL	Canaux navigables
+RIVER_LAKE	Fleuves, rivières, lacs navigables
+MWAY	Raccordements
+ROAD_OTH	Autres routes
+ROAD_OTH_IN	Autres routes en agglomération
+ROAD_OTH_OUT	Autres routes hors agglomération
+ROAD_STA	Routes d'état
+ROAD_PRO	Routes provinciales
+ROAD_COM	Routes communales
+LINE_NELEC	Lignes non-électrifiées
+LINE_ELEC	Lignes électrifiées
+LINE_HSPEED	Lignes ferroviaires à grande vitesse
+LINE_OTH	Autres lignes ferroviaires
+TRK_NELEC	Voies non-électrifiées
+TRK_ELEC	Voies électrifiées
+METRO	Métro/lignes souterraines
+IURB_CBUS	Services de bus interurbains et urbains
+IMODAL	Zone de fret intermodal (en mètres carrés)

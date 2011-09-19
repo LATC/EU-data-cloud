@@ -1,0 +1,40 @@
+TOTAL	Total
+11	Barrières liées à la localisation
+12	Barrières linguistiques
+13	Barrières culturelles et de confiance
+14	Barrières économiques
+15	Barrières juridiques et réglementaires
+16	Difficultés à identifier les fournisseurs de services étrangers adéquats
+20	Pas de barrières
+30	Le service n'est pas pertinent
+LEG_ADM	Obstacles juridiques et administratifs
+C41	Echange transfrontalier non approprié (produits non exportables)
+C42	Etablissement d'une présence commerciale à l'étranger
+C43	Détachement temporaire de personnel
+C44	Problèmes de fiscalité
+C45	Problèmes d'assurances, de systèmes de garantie et similaires
+C46	Manque de normes internationales pour les services
+C47	Difficultés à identifier les clients potentiels à l'étranger
+C48	Barrières linguistiques et culturelles
+TARIF	Tarifs douaniers
+INT_STAN	Incertitude des normes internationales
+EMPL	Préoccupations des salariés (y compris les syndicats)
+PAT_INT	Préoccupations relatives à la violation des brevets et/ou des droits de propriété intellectuelle
+CONFL	En opposition avec les valeurs sociales de votre entreprise (par exemple les questions de responsabilité sociale de l'entreprise)
+DISTAN	Problèmes liés à l'éloignement par rapport aux producteurs
+PROX	Nécessité d'une proximité avec les clients existants
+PROV	Difficultés à trouver des fournisseurs potentiels/appropriés à l'étranger
+OVERALL	Préoccupations globales que l'opération de sourçage ne dépasse les bénéfices escomptés
+RF	Relations possibles uniquement au sein du groupe
+L	Situation géographique de l'entreprise
+SBS	Taille ou étendue d'activité de l'entreprise
+ASP	Disponibilité de partenaires adéquats
+LRB	Barrières juridiques ou réglementaires
+CCI	Crainte de perdre des compétences de base ou l'indépendance
+RIMF	Risque d'investir des ressources humaines et/ou financières dans une mauvaise direction
+NSCC	Tentative passée soldée par un échec
+NWRI	Nécessité ou volonté de rester indépendant
+OSOP	Préférence pour d'autres options stratégiques ou opérationnelles
+BEG	Effort trop onéreux en comparaison des gains escomptés
+OTHER	Autres barrières
+UNK	Inconnu

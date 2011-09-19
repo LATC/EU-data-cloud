@@ -1,0 +1,49 @@
+TOTAL	Insgesamt
+0	Null
+1	1
+1_10	Zwischen 1 und 10
+2	2
+2_3	Zwischen 2 und 3
+2_5	Zwischen 2 und 5
+GE_2	2 oder mehr
+3	3
+3_5	Zwischen 3 und 5
+GE_3	3 oder mehr
+GT_3	Mehr als 3
+4	4
+4_5	Zwischen 4 und 5
+GE_4	4 oder mehr
+5	5
+GE_5	5 oder mehr
+6	6
+6_7	Zwischen 6 und 7
+6_9	Zwischen 6 und 9
+6_10	Zwischen 6 und 10
+GE_6	6 oder mehr
+7	7
+GE_7	7 oder mehr
+8	8
+8_19	Zwischen 8 und 19
+GE_8	8 oder mehr
+9	9
+GE_9	9 oder mehr
+10	10
+10_19	Zwischen 10 und 19
+GE_10	10 oder mehr
+11_15	Zwischen 11 und 15
+11_49	Zwischen 11 und 49
+16_20	Zwischen 16 und 20
+20_49	Zwischen 20 und 49
+GE_20	20 oder mehr
+21_30	Zwischen 21 und 30
+GT_30	Mehr als 30
+GE_50	50 oder mehr
+OTHER	Sonstige
+UNK	Unbekannt
+NRESP	Keine Antwort
+TOT_CH	Kinder insgesamt
+TOT_HH	Zahl der Haushalte insgesamt
+TOT_PERS	Personen insgesamt
+TOT_PERS_FAM	Zahl der Personen insgesamt in Kernfamilie
+TOT_POPHH	Bevölkerung insgesamt in private Haushalte
+TOT_PERS_DWEL	Zahl der Personen in Wohnungen

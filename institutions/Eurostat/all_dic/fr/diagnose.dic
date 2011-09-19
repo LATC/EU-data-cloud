@@ -1,0 +1,20 @@
+ALLERGIC	Effets allergiques
+CANCER	Cancer
+CARDIO_V	Troubles cardio-vasculaires
+DENTAL	Problèmes dentaires
+EYE	Lésions oculaires
+GASTROIN	Troubles gastriques
+HEMATOLO	Troubles hématologiques
+HEARING	Troubles auditifs
+HEPATIC	Troubles hépatiques
+IRRI_SKI	Effets irritants de la peau ou des muqueuses
+NEUROLOG	Troubles neurologiques
+PULMONAR	Troubles pulmonaires
+MUSC_SKE	Troubles des muscles et du squelette
+INFECTIO	Maladies infectieuses
+STRESS	Stress, dépression, anxiété
+SKIN_DIS	Problèmes de peau
+HEAD_EYE	Mal de tête, fatigue visuelle
+OTHER	Autre non mentionné ailleurs
+UNK	Non connu
+TOTAL	Total

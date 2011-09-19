@@ -1,0 +1,23 @@
+TOTAL	Insgesamt
+MAT_0000	Kein Gegenstand oder keine Angabe
+MAT_0100	Gebäude, bauliche Anlagen, Flächen - zu ebener Erde (innen od. außen, ortsfest od. ortsveränderlich, zeitl. befristet od. nicht) - ohne nähere Angabe
+MAT_0200	Gebäude, bauliche Anlagen, Flächen - in der Höhe (innen od. außen) - ohne nähere Angabe
+MAT_0300	Gebäude, bauliche Anlagen, Flächen - in der Tiefe (innen od. außen) - ohne nähere Angabe
+MAT_0400	Stoffverteilungsanlagen, Versorgungsanlagen, Kanalisation - ohne nähere Angabe
+MAT_0500	Motoren, Einrichtungen zur Energieübertragung und - Speicherung - ohne nähere Angabe
+MAT_0600	Handgeführte nicht kraftbetriebene Werkzeuge - ohne nähere Angabe
+MAT_0700	Gehaltene oder handgeführte kraftbetriebene Werkzeuge - ohne nähere Angabe
+MAT_0800	Handgeführte Werkzeuge ohne Angabe der Antriebsart - ohne nähere Angabe
+MAT_0900	Tragbare oder ortsveränderliche Maschinen und Ausrüstungen - ohne nähere Angabe
+MAT_1000	Ortsfeste Maschinen und Ausrüstungen - ohne nähere Angabe
+MAT_1100	Förder-, Transport- und Lagereinrichtungen - ohne nähere Angabe
+MAT_1200	Landfahrzeuge - ohne nähere Angabe
+MAT_1300	Sonstige Transportfahrzeuge - ohne nähere Angabe
+MAT_1400	Stoffe, Gegenstände, Erzeugnisse, Bestandteile von Maschinen, Trümmer, Stäube - ohne nähere Angabe
+MAT_1500	Chemische, explosionsgefährliche, radioaktive, biologische Stoffe - ohne nähere Angabe
+MAT_1600	Sicherheitseinrichtungen und Schutzausrüstungen - ohne nähere Angabe
+MAT_1700	Büroeinrichtungen, persönliche Ausrüstungen, Sportausrüstungen, Waffen, Haushaltsgeräte - ohne nähere Angabe
+MAT_1800	Menschen und andere Lebewesen - ohne nähere Angabe
+MAT_1900	Lose Abfälle - ohne nähere Angabe
+MAT_2000	Physikalische Erscheinungen und Naturphänomene - ohne nähere Angabe
+MAT_9900	Sonstige nicht in dieser Klassifikation aufgelistete Gegenstände

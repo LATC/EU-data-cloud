@@ -1,0 +1,38 @@
+CLEBAN	Number of clearing banks
+CLERTE	Clearing rate applied to the clearing of private ECU transactions
+TURN	Average daily turnover
+WDAYS	Working days
+PAYNET	Total number of payments netted
+DTRA	Average number of payments per day
+TARVOAPTOT	Clearing through TARGET, by volume of transactions, all payments, total
+TARVOAPDAV	Clearing through TARGET, by volume of transactions, all payments, daily average
+TARVOCRTOT	Clearing through TARGET, by volume of transactions, cross-border payments, total
+TARVOCRDAV	Clearing through TARGET, by volume of transactions, cross-border payments, daily average
+TARVODOTOT	Clearing through TARGET, by volume of transactions, domestic payments, total
+TARVODODAV	Clearing through TARGET, by volume of transactions, domestic payments, daily average
+TARVAAPTOT	Clearing through TARGET, by value of transactions, all payments, total
+TARVAAPDAV	Clearing through TARGET, by value of transactions, all payments, daily average
+TARVACRTOT	Clearing through TARGET, by value of transactions, cross-border payments, total
+TARVACRDAV	Clearing through TARGET, by value of transactions, cross-border payments, daily average
+TARVADOTOT	Clearing through TARGET, by value of transactions, domestic payments, total
+TARVADODAV	Clearing through TARGET, by value of transactions, domestic payments, daily average
+OTHSYSVOEURTOT	Clearing through other systems, by volume of transactions , Euro 1, total
+OTHSYSVOEURDAV	Clearing through other systems, by volume of transactions, Euro 1, daily average
+OTHSYSVOEACTOT	Clearing through other systems, by volume of transactions, Euro Access Frankfurt, total
+OTHSYSVOEACDAV	Clearing through other systems, by volume of transactions, Euro Access Frankfurt, daily average
+OTHSYSVOSNPTOT	Clearing through other systems, by volume of transactions, Système Net Protégé (SNP), total
+OTHSYSVOSNPDAV	Clearing through other systems, by volume of transactions, Système Net Protégé (SNP), daily average
+OTHSYSVOSEPITOT	Clearing through other systems, by volume of transactions , Servicio Español de Pagos Interbancarios (SEPI), total
+OTHSYSVOSEPIDAV	Clearing through other systems, by volume of transactions, Servicio Español de Pagos Interbancarios (SEPI), daily average
+OTHSYSVAPOPTOT	Clearing through other systems, by value of transactions, Pankkien On-line Pikasiirrot (POP), total
+OTHSYSVAPOPDAV	Clearing through other systems, by value of transactions, Pankkien On-line Pikasiirrot (POP), daily average
+OTHSYSVAEURTOT	Clearing through other systems, by value of transactions, Euro 1, total
+OTHSYSVAEURDAV	Clearing through other systems, by value of transactions, Euro 1, daily average
+OTHSYSVAEACTOT	Clearing through other systems, by value of transactions, Euro Access Frankfurt, total
+OTHSYSVAEACDAV	Clearing through other systems, by value of transactions, Euro Access Frankfurt, daily average
+OTHSYSVASNPTOT	Clearing through other systems, by value of transactions, Système Net Protégé (SNP), total
+OTHSYSVASNPDAV	Clearing through other systems, by value of transactions, Système Net Protégé (SNP), daily average
+OTHSYSVASEPITOT	Clearing through other systems, by value of transactions, Servicio Español de Pagos Interbancarios (SEPI), total
+OTHSYSVASEPIDAV	Clearing through other systems, by value of transactions, Servicio Español de Pagos Interbancarios (SEPI), daily average
+OTHSYSVOPOPTOT	Clearing through other systems, by volume of transactions, Pankkien On-line Pikasiirrot (POP), total
+OTHSYSVOPOPDAV	Clearing through other systems, by volume of transactions, Pankkien On-line Pikasiirrot (POP), daily average

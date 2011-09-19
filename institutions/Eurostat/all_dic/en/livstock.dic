@@ -1,0 +1,86 @@
+PP0000	Total of the pig population
+PP1000	Piglets with a live weight of less than 20 kg
+PP2000	Pigs with a live weight of 20 kg and less than 50 kg
+PP3000	Fattening pigs (including rejected boars and sows) of at least 50 kg
+PP3100	Fattening pigs between 50 and < 80 kg
+PP3200	Fattening pigs between 80 and < 110 kg
+PP3300	Fattening pigs of at least 110 kg
+PP4000	Breeding pigs with a live weight of 50 kg and higher
+PP4100	Boars
+PP4200	Sows - total
+PP4210	Covered sows
+PP4211	Of which: sows covered for the first time
+PP4220	Sows not covered - total
+PP4221	Of which: gilts not yet covered
+PS0000	Sheep total
+PS1000	Ewes and ewe-lambs put to the ram
+PS1100	Milk ewes and milk ewe-lambs put to the ram
+PS1200	Other ewes and ewe-lambs put to the ram
+PS2000	Other sheep
+PG0000	Total of the goat population
+PG1000	Goats which have already kidded and goats mated
+PG1100	Goats which have already kidded
+PG1200	Goats mated for the first time
+PG2000	Other goats
+PE0000	Total of equidae
+PE1000	Horses
+PE2000	Donkeys, mules, hinnies
+PC0000	Total of cattle population
+PC1000	Bovine animals less than 1 year old
+PC1100	Calves for slaughter
+PC1200	Other calves
+PC1210	Other calves : Male
+PC1220	Other calves : Female
+PC2000	Bovine animals aged between 1 and 2 years
+PC2100	Bovine animals aged between 1 and 2 years : Male
+PC2200	Bovine animals aged between 1 and 2 years : Female
+PC2210	Animals for slaughter
+PC2220	Other
+PC3000	Bovines animals of 2 years and over
+PC3100	Bovines animals of 2 years and over : Male
+PC3200	Bovines animals of 2 years and over : Female
+PC3210	Heifers
+PC3211	Heifers for slaughter
+PC3212	Other
+PC3220	Cows
+PC3221	Dairy cows
+PC3222	Other cows
+PC4000	Buffaloes
+PC4100	Female breeding buffaloes
+PC4200	Other buffaloes
+PH1000	Laying hens
+L_1	Bovine animals (total)
+L_1A	Bovine animals for meat production
+L_1B	Other bovine animals
+L_11	Bovine animals less than 1 year old
+L_111	Calves for slaughter
+L_112	Other calves
+L_12	Bovine animals aged between 1 and 2 years
+L_121	Bovine animals aged between 1 and 2 years for slaughter
+L_122	Other bovine animals aged between 1 and 2 years
+L_13	Bovine animals of 2 years and over
+L_131	Dairy cows
+L_132	Suckler cows
+L_133	Bovine animals of 2 years and over for slaughter
+L_134	Other bovine animals of 2 years and over
+L_2	Pigs (total)
+L_21	Fattening pigs
+L_22	Breeding sows
+L_23	Other pigs
+L_3	Sheep (total)
+L_31	Sheep, breeding females
+L_32	Other sheep
+L_4	Goats (total)
+L_41	Goats, breeding females
+L_42	Other goats
+L_5	Poultry (total)
+L_51	Broilers
+L_52	Laying hens
+L_53	Other poultry (turkeys, ducks, geese, etc.)
+L_6	Equidae
+L_7	Rabbits
+L_71	Rabbits, breeding females
+L_8	Bees (in number of hives)
+L_9	Other livestock
+L_GRAZ	Grazing livestock
+TOTAL	Total

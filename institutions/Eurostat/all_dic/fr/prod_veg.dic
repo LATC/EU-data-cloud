@@ -1,0 +1,97 @@
+01110000	Blé tendre
+01120000	Blé dur
+01200000	Seigle
+01300000	Orge
+01310000	Orge fourrager
+01320000	Orge de brasserie
+01400000	Avoine
+01500000	Maïs
+01600000	Riz
+01910000	Sorgho
+01920000	Triticale
+02110000	Colza
+02120000	Tournesols
+02130000	Soja
+02210000	Pois secs
+02220000	Haricots secs
+02230000	Fèves sèches
+02300000	Tabac brut: toutes qualités
+02400000	Betteraves sucrières: valeur unitaire
+02911000	Coton non égréné
+02920000	Houblon: toutes qualités
+02991000	Lentilles
+02992000	Pois chiches
+04110000	Choux-fleurs: toutes qualités
+04121000	Tomates de pleine terre: toutes qualités
+04122000	Tomates de serre: toutes qualités
+04191100	Choux blancs: toutes qualités
+04191200	Choux rouges: toutes qualités
+04191300	Choux de Savoie: toutes qualités
+04192100	Laitues de pleine terre: toutes qualités
+04192200	Laitues de serre: toutes qualités
+04193000	Epinards
+04194100	Concombres de pleine terre: toutes qualités
+04194200	Concombres de serre: toutes qualités
+04195000	Carottes: toutes qualités
+04196000	Oignons: toutes qualités
+04197000	Haricots verts
+04198100	Haricots verts: toutes qualités
+04199000	Petits pois: toutes qualités
+04199901	Champignons de culture: toutes qualités
+04199902	Chicorée witloof de pleine terre
+04199903	Poireaux de pleine terre
+04199904	Paprika (poivrons) de serre
+04199905	Betteraves potagères
+04199906	Ail
+04199907	Chou-raves
+04199908	Radis
+04199909	Choux de Bruxelles: toutes qualités
+04199910	Asperges: toutes qualités
+04199911	Courgettes
+04199912	Céléris-raves: toutes qualités
+04199913	Melons
+04199914	Pastèques
+04210000	Roses
+04220000	Oeillets
+04230000	Chrysanthèmes
+04240000	Glaïeuls
+04250000	Tulipes
+04260000	Freesias
+05110000	Pommes de terre hâtives
+05120000	Pommes de terre de consommation
+05200000	Plants de pomme de terre
+05900000	Autres pommes de terre
+06110000	Pommes de table: ensemble des variétés
+06120000	Poires de table: ensemble des variétés
+06130000	Pêches: ensemble des variétés
+06191100	Cerises: Bigarreaux
+06191200	Cerises: Morelles aigres
+06192000	Prunes : toutes variétés
+06193000	Fraises tous types de production
+06193100	Fraises de pleine terre
+06193200	Fraises de serre
+06194110	Noix
+06194120	Noisettes
+06194130	Amandes
+06194140	Châtaignes
+06194200	Fruits séchés
+06310000	Figues fraîches
+06199100	Abricots: ensemble des variétés
+06199200	Framboises
+06199300	Cassis
+06210000	Oranges: ensemble des variétés
+06220000	Mandarines: ensemble des variétés
+06230000	Citrons: ensemble des variétés
+06290000	Autres fruits citrus
+06410000	Raisin de table: ensemble des variétés
+06490000	Raisins destinés à la vinification
+06510000	Olives de table
+06590000	Autres olives
+07110000	Vin de pays
+07190000	Autres vins de table
+07200000	Vin de qualité
+07900000	Autres vins
+08100000	Huile d'olives: Extra virgin
+08200000	Huile d'olives: Vergine - Fine
+08300000	Huile d'olives: Vergine - Corrente
+08400000	Huile d'olives: Vergine - Lampante

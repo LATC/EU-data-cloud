@@ -1,0 +1,68 @@
+11110000	Jungrinder zur Aufzucht
+11111000	Jungrinder zur Aufzucht
+11112000	Färsen
+11112100	Färsen zur Aufzucht
+11113000	Kühe
+11114000	Ochsen
+11120000	Kälber
+11121000	Kälber (einige Tage alt)
+11122000	Kälber (einige Wochen alt)
+11210000	Schweine (leicht)
+11220000	Schweine (Schlachtkörper) - Klasse II
+11230000	Schweine (Schlachtkörper) - Klasse I
+11240000	Ferkel
+11300000	Pferde
+11410000	Schafe (über 12 Monate alt)
+11411000	Milchlämmer (weniger als 2 Monate alt)
+11412000	Mastlämmer (zwischen 2 und 12 Monate alt)
+11420000	Ziegen
+11421000	Ziegenlämmer
+11510000	Jungmasthähnchen (lebend - 1. Wahl)
+11511000	Suppenhühner (geschlachtet)
+11591000	Enten (geschlachtet)
+11592000	Truthenne (geschlachtet)
+11593000	Gänse (geschlachtet)
+11910000	Kaninchen
+12111000	Kuh-Rohmilch - 3.7 % Fettgehalt
+12112000	Kuh-Rohmilch - realer Fettgehalt
+12113000	Kuh-Vollmilch für den menschlichen Verbrauch
+12191000	Schafs-Rohmilch
+12192000	Ziegen-Rohmilch
+12200000	Frische Eier (gesamtes Land)
+12910000	Rohwolle
+12920000	Honig
+P001	Fischereierzeugnisse insgesamt
+P002	Konsum-Fischereierzeugnisse zusammen
+P101	Fisch: frisch, gekühlt oder gefroren
+P201	Fisch: gesalzen, geräuchert oder getrocknet
+P301	Fisch: zubereitet oder haltbar gemacht
+P401	Krebs- und Weichtiere: frisch, gekühlt, gefroren, getrocknet, gesalzen
+P501	Krebs- und Weichtiere: zubereitet oder haltbar gemacht
+P601	Fischmehl
+P701	Fischöl
+P901	Nicht-Konsum-Ware a.n.g.
+P902	Schwämme, Korallen, etc
+P903	Wasserpflanzen
+LP_M	Fleisch (insgesamt) (1000 kg)
+LP_M01	Rindfleisch (1000 kg)
+LP_M02	Schweinefleisch (1000 kg)
+LP_M03	Schaffleisch (1000 kg)
+LP_M04	Ziegenfleisch (1000 kg)
+LP_M05	Geflügel (1000 kg)
+LP_M06	Einhufer (1000 kg)
+LP_M07	Kaninchen (1000 kg)
+LP_M08	Sonstiges Fleisch (1000 kg)
+LP_D01	Rohmilch (1000 l)
+LP_D011	Kuhmilch
+LP_D012	Schafmilch
+LP_D013	Ziegenmilch
+LP_D02	Rahm (1000 l)
+LP_D03	Sonstige Milchprodukte gemessen nach Volumen (1000 l)
+LP_D04	Butter (1000 kg)
+LP_D05	Käse (1000 kg)
+LP_D06	Sonstige Milchprodukte gemessen nach Gewicht (1000 kg)
+LP_E	Eier (1000 kg)
+LP_E01	Konsumeier (1000 kg)
+LP_H	Honig (1000 kg)
+LP_OTHERS_W	Sonstige Produkte gemessen nach Gewicht (1000 kg)
+LP_OTHERS_V	Sonstige Produkte gemessen nach Volumen (1000 l)

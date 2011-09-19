@@ -1,0 +1,652 @@
+12_1176011	Puissance installée nette - Combustibles classiques et assimilés - centrales thermiques (activité principale)
+12_1176012	Puissance installée nette - Combustibles classiques et assimilés - centrales thermiques (autoproducteurs)
+12_1176031	Puissance installée nette - Nucléaire - centrales thermiques (activité principale)
+12_1176032	Puissance installée nette - Nucléaire - centrales thermiques (autoproducteurs)
+12_1176051	Puissance installée nette - Hydro-électricité (activité principale)
+12_1176052	Puissance installée nette - Hydro-électricité (autoproducteurs)
+12_1176053	Puissance installée nette - Hydro-électricité
+12_1176071	Puissance installée nette - accumulation par pompage (activité principale)
+12_1176072	Puissance installée nette - accumulation par pompage (autoproducteurs)
+12_1176073	Puissance installée nette - accumulation par pompage
+12_1176081	Puissance installée nette - Géothermie (activité principale)
+12_1176082	Puissance installée nette - Géothermie (autoproducteurs)
+12_1176083	Puissance installée nette - Géothermie
+12_1176091	Puissance installée nette - Éolien (activité principale)
+12_1176092	Puissance installée nette - Éolien (autoproducteurs)
+12_1176093	Puissance installée nette - Éolien
+12_1176101	Puissance installée nette - autres sources (activité principale)
+12_1176102	Puissance installée nette - autres sources (autoproducteurs)
+12_1176111	Puissance installée nette - vapeur (activité principale)
+12_1176112	Puissance installée nette - vapeur (autoproducteurs)
+12_1176121	Puissance installée nette - turbine à gaz (activité principale)
+12_1176122	Puissance installée nette - turbine à gaz (autoproducteurs)
+12_1176131	Puissance installée nette - cycle combiné (activité principale)
+12_1176132	Puissance installée nette - cycle combiné (autoproducteurs)
+12_1176141	Puissance installée nette - combustion interne (activité principale)
+12_1176142	Puissance installée nette - combustion interne (autoproducteurs)
+12_117615	Puissance installée nette - centrales hydrauliqes <  MW
+12_117616	Puissance installée nette - centrales hydrauliqes >= 1 MW et <= 10 MW
+12_117617	Puissance installée nette - centrales hydrauliqes > 10 MW
+12_1176231	Puissance installée nette - solaire (activité principale)
+12_1176232	Puissance installée nette - solaire (autoproducteurs)
+12_1176233	Puissance installée nette - Solaire photovoltaïque
+12_1176243	Puissance installée nette - Solaire thermique
+12_1176253	Puissance installée nette - Déchets urbains
+12_1176263	Puissance installée nette - Bois, déchets de bois, autres déchets solides
+12_1176283	Puissance installée nette - Déchets industriels (non renouvelables)
+12_1176301	Puissance installée nette - Énergie hydrocinétique/houlomotrice/marémotrice (activité principale)
+12_1176302	Puissance installée nette - Énergie hydrocinétique/houlomotrice/marémotrice (autoproducteurs)
+12_1176303	Puissance installée nette - Énergie hydrocinétique/houlomotrice/marémotrice
+12_1176313	Puissance installée nette - Gaz de décharge
+12_1176323	Puissance installée nette - Gaz de digestion des boues
+12_1176333	Puissance installée nette - Autres biogaz
+12_1176343	Puissance installée nette - Biocarburants liquides
+12_1176401	Puissance installée nette - autres (activité principale)
+12_1176402	Puissance installée nette - autres (autoproducteurs)
+12_119300	Surface des panneaux solaires
+12_119401	Capacité de production (biogasoline)                                  
+12_119402	Capacité de production (biodiesel)                                   
+12_119403	Capacité de production (autres biocarburants)                         
+14_1070421	Électricité : Production brute d'origine photovoltaïque (activité principale)
+14_1070422	Électricité : Production brute - centrals d'électricité (activité principale) - solaire thermique 
+14_1070431	Électricité : Production brute d'origine photovoltaïque (autoproducteurs)
+14_1070432	Électricité : Production brute - centrals d'électricité (autoproducteurs) - solaire thermique 
+15_107030	Électricité : Production brute d'origine nucléaire - centrals d'électricité (activité principale)
+15_107031	Électricité : Production brute d'origine nucléaire - centrals de cogénération (activité principale)
+15_107032	Électricité : Production brute d'origine nucléaire - centrals d'électricité (autoproducteurs)
+15_107033	Électricité : Production brute d'origine nucléaire - centrals de cogénération (autoproducteurs)
+15_107034	Électricité : Production brute d'origine hydraulique (activité principale)
+15_107035	Électricité : Production brute d'origine hydraulique (autoproducteurs)
+15_107036	Électricité : Production brute par pompage (activité principale)
+15_107037	Électricité : Production brute par pompage (autoproducteurs)
+15_107038	Électricité : Production brute - centrals d'électricité (activité principale) - géothermie 
+15_107039	Électricité : Production brute - centrals de cogénération (activité principale) - géothermie
+15_107040	Électricité : Production brute - centrals d'électricité (autoproducteurs) - géothermie 
+15_107041	Électricité : Production brute - centrals de cogénération (autoproducteurs) - géothermie
+15_107042	Électricité : Production brute - centrals d'électricité (activité principale) - solaire 
+15_107043	Électricité : Production brute - centrals d'électricité (autoproducteurs) - solaire 
+15_107044	Électricité : Production brute - énergie hydrocinétique/houlomotrice/marémotrice (activité principale)
+15_107045	Électricité : Production brute - énergie hydrocinétique/houlomotrice/marémotrice (autoproducteurs)
+15_107046	Électricité : Production brute - éolien (activité principale)
+15_107047	Électricité : Production brute - éolien (autoproducteurs)
+15_107048	Électricité : Production brute - centrals d'électricité (activité principale) - combustibles
+15_107049	Électricité : Production brute - centrals de cogénération (activité principale) - combustibles
+15_107050	Électricité : Production brute - centrals d'électricité (autoproducteurs) - combustibles
+15_107051	Électricité : Production brute - centrals de cogénération (autoproducteurs) - combustibles
+15_107052	Électricité : Production brute - centrals d'électricité (autoproducteurs) - chaleur de procédés chimiques 
+15_107053	Électricité : Production brute - centrals de cogénération (autoproducteurs) - chaleur de procédés chimiques
+15_107054	Électricité : Production brute - centrals d'électricité (activité principale) - autres sources
+15_107055	Électricité : Production brute - centrals de cogénération (activité principale) - autres sources
+15_107056	Électricité : Production brute - centrals d'électricité (autoproducteurs) - autres sources
+15_107057	Électricité : Production brute - centrals de cogénération (autoproducteurs) - autres sources 
+15_107060	Chaleur dérivée : Production brute d'origine nucléaire - centrals de cogénération (activité principale)
+15_107061	Chaleur dérivée : Production brute d'origine nucléaire - centrals de chauffage (activité principale)
+15_107062	Chaleur dérivée : Production brute d'origine nucléaire - centrals de cogénération (autoproducteurs)
+15_107063	Chaleur dérivée : Production brute d'origine nucléaire - centrals de chauffage (autoproducteurs)
+15_107064	Chaleur dérivée : Production brute - centrals de cogénération (activité principale) - géothermie
+15_107065	Chaleur dérivée : Production brute - centrals de chauffage (activité principale) - géothermie
+15_107066	Chaleur dérivée : Production brute - centrals de cogénération (autoproducteurs) - géothermie
+15_107067	Chaleur dérivée : Production brute - centrals de chauffage (autoproducteurs) - géothermie
+15_107068	Chaleur dérivée : Production brute - centrals de cogénération (activité principale) - solaire 
+15_107069	Chaleur dérivée : Production brute - centrals de chaffauge (activité principale) - solaire
+15_107070	Chaleur dérivée : Production brute - centrals de cogénération (autoproducteurs) - solaire
+15_107071	Chaleur dérivée : Production brute - centrals de chaffauge (autoproducteurs) - solaire
+15_107072	Chaleur dérivée : Production brute - centrals de cogénération (activité principale) - combustibles
+15_107073	Chaleur dérivée : Production brute - centrals de chaffauge (activité principale) - combustibles
+15_107074	Chaleur dérivée : Production brute - centrals de cogénération (autoproducteurs) - combustibles
+15_107075	Chaleur dérivée : Production brute - centrals de chauffage (autoproducteurs) - combustibles
+15_107076	Chaleur dérivée : Production brute - centrals de cogénération (activité principale) - pompes à chaleur
+15_107077	Chaleur dérivée : Production brute - centrals de chauffage (activité principale) - pompes à chaleur
+15_107078	Chaleur dérivée : Production brute - centrals de cogénération (autoproducteurs) - pompes à chaleur
+15_107079	Chaleur dérivée : Production brute - centrals de chauffage (autoproducteurs) - pompes à chaleur
+15_107080	Chaleur dérivée : Production brute - centrals de cogénération (activité principale) - chaudières électriques
+15_107081	Chaleur dérivée : Production brute - centrals de chauffage (activité principale) - chaudières électriques
+15_107082	Chaleur dérivée : Production brute - centrals de cogénération (autoproducteurs) - chaudières électriques
+15_107083	Chaleur dérivée : Production brute - centrals de chauffage (autoproducteurs) - chaudières électriques
+15_107084	Chaleur dérivée : Production brute - centrals de cogénération (autoproducteurs) - chaleur des procédés chimiques
+15_107085	Chaleur dérivée : Production brute - centrals de chauffage (autoproducteurs) - chaleur des procédés chimiques
+15_107086	Chaleur dérivée : Production brute - centrals de cogénération (activité principale) - autres sources
+15_107087	Chaleur dérivée : Production brute - centrals de chauffage (activité principale) - autres sources
+15_107088	Chaleur dérivée : Production brute - centrals de cogénération (autoproducteurs) - autres sources
+15_107089	Chaleur dérivée : Production brute - centrals de chauffage (autoproducteurs) - autres sources
+16_107130	Électricité : Production nette d'origine nucléaire - centrals d'électricité (activité principale)
+16_107131	Électricité : Production nette d'origine nucléaire - centrals de cogénération (activité principale)
+16_107132	Électricité : Production nette d'origine nucléaire - centrals d'électricité (autoproducteurs)
+16_107133	Électricité : Production nette d'origine nucléaire - centrals de cogénération (autoproducteurs)
+16_107134	Électricité : Production nette d'origine hydraulique (activité principale)
+16_107135	Électricité : Production nette d'origine hydraulique (autoproducteurs)
+16_107136	Électricité : Production nette par pompage (activité principale)
+16_107137	Électricité : Production nette par pompage (autoproducteurs)
+16_107138	Électricité : Production nette - centrals d'électricité (activité principale) - géothermie 
+16_107139	Électricité : Production nette - centrals de cogénération (activité principale) - géothermie
+16_107140	Électricité : Production nette - centrals d'électricité (autoproducteurs) - géothermie 
+16_107141	Électricité : Production nette - centrals de cogénération (autoproducteurs) - géothermie
+16_107142	Électricité : Production nette - centrals d'électricité (activité principale) - solaire 
+16_107143	Électricité : Production nette - centrals d'électricité (autoproducteurs) - solaire 
+16_107144	Électricité : Production nette - énergie hydrocinétique/houlomotrice/marémotrice (activité principale)
+16_107145	Électricité : Production nette - énergie hydrocinétique/houlomotrice/marémotrice (autoproducteurs)
+16_107146	Électricité : Production nette - éolien (activité principale)
+16_107147	Électricité : Production nette - éolien (autoproducteurs)
+16_107148	Électricité : Production nette - centrals d'électricité (activité principale) - combustibles
+16_107149	Électricité : Production nette - centrals de cogénération (activité principale) - combustibles
+16_107150	Électricité : Production nette - centrals d'électricité (autoproducteurs) - combustibles
+16_107151	Électricité : Production nette - centrals de cogénération (autoproducteurs) - combustibles
+16_107152	Électricité : Production nette - centrals d'électricité (autoproducteurs) - chaleur des procédés chimiques 
+16_107153	Électricité : Production nette - centrals de cogénération (autoproducteurs) - chaleur des procédés chimiques
+16_107154	Électricité : Production nette - centrals d'électricité (activité principale) - autres sources
+16_107155	Électricité : Production nette - centrals de cogénération (activité principale) - autres sources
+16_107156	Électricité : Production nette - centrals d'électricité (autoproducteurs) - autres sources
+16_107157	Électricité : Production nette - centrals de cogénération (autoproducteurs) - autres sources 
+16_107160	Chaleur dérivée : Production nette d'origine nucléaire - centrals de cogénération (activité principale)
+16_107161	Chaleur dérivée : Production nette d'origine nucléaire - centrals de chauffage (activité principale)
+16_107162	Chaleur dérivée : Production nette d'origine nucléaire - centrals de cogénération (autoproducteurs)
+16_107163	Chaleur dérivée : Production nette d'origine nucléaire - centrals de chauffage (autoproducteurs)
+16_107164	Chaleur dérivée : Production nette - centrals de cogénération (activité principale) - géothermie
+16_107165	Chaleur dérivée : Production nette - centrals de chauffage (activité principale) - géothermie
+16_107166	Chaleur dérivée : Production nette - centrals de cogénération (autoproducteurs) - géothermie
+16_107167	Chaleur dérivée : Production nette - centrals de chauffage (autoproducteurs) - géothermie
+16_107168	Chaleur dérivée : Production nette - centrals de cogénération (activité principale) - solaire 
+16_107169	Chaleur dérivée : Production nette - centrals de chaffauge (activité principale) - solaire
+16_107170	Chaleur dérivée : Production nette - centrals de cogénération (autoproducteurs) - solaire
+16_107171	Chaleur dérivée : Production nette - centrals de chaffauge (autoproducteurs) - solaire
+16_107172	Chaleur dérivée : Production nette - centrals de cogénération (activité principale) - combustibles
+16_107173	Chaleur dérivée : Production nette - centrals de chaffauge (activité principale) - combustibles
+16_107174	Chaleur dérivée : Production nette - centrals de cogénération (autoproducteurs) - combustibles
+16_107175	Chaleur dérivée : Production nette - centrals de chauffage (autoproducteurs) - combustibles
+16_107176	Chaleur dérivée : Production nette - centrals de cogénération (activité principale) - pompes à chaleur
+16_107177	Chaleur dérivée : Production nette - centrals de chauffage (activité principale) - pompes à chaleur
+16_107178	Chaleur dérivée : Production nette - centrals de cogénération (autoproducteurs) - pompes à chaleur
+16_107179	Chaleur dérivée : Production nette - centrals de chauffage (autoproducteurs) - pompes à chaleur
+16_107180	Chaleur dérivée : Production nette - centrals de cogénération (activité principale) - chaudières électriques
+16_107181	Chaleur dérivée : Production nette - centrals de chauffage (activité principale) - chaudières électriques
+16_107182	Chaleur dérivée : Production nette - centrals de cogénération (autoproducteurs) - chaudières électriques
+16_107183	Chaleur dérivée : Production nette - centrals de chauffage (autoproducteurs) - chaudières électriques
+16_107184	Chaleur dérivée : Production nette - centrals de cogénération (autoproducteurs) - chaleur des procédés chimiques
+16_107185	Chaleur dérivée : Production nette - centrals de chauffage (autoproducteurs) - chaleur des procédés chimiques
+16_107186	Chaleur dérivée : Production nette - centrals de cogénération (activité principale) - autres sources
+16_107187	Chaleur dérivée : Production nette - centrals de chauffage (activité principale) - autres sources
+16_107188	Chaleur dérivée : Production nette - centrals de cogénération (autoproducteurs) - autres sources
+16_107189	Chaleur dérivée : Production nette - centrals de chauffage (autoproducteurs) - autres sources
+17_107000	Production totale brute                                       
+17_107100	Production totale nette                                       
+22_108501	Production brute d'électricité : centrals d'électricité (activité principale) - Anthracite
+22_108502	Production brute d'électricité : centrals de cogénération (activité principale) - Anthracite
+22_108503	Production brute d'électricité : centrales d'électricité des autoproducteurs - Anthracite
+22_108504	Production brute d'électricité : centrales de cogénération des autoproducteurs - Anthracite
+22_108506	Production brute de chaleur : centrals de cogénération (activité principale) - Anthracite
+22_108507	Production brute de chaleur : centrales de chauffage (activité principale) - Anthracite
+22_108508	Production brute de chaleur : centrales de cogénération des autoproducteurs - Anthracite
+22_108509	Production brute de chaleur : centrales de chauffage des autoproducteurs - Anthracite
+22_108511	Production brute d'électricité : centrals d'électricité (activité principale) - Charbon à coke
+22_108512	Production brute d'électricité : centrals de cogénération (activité principale) - Charbon à coke
+22_108513	Production brute d'électricité : centrales d'électricité des autoproducteurs - Charbon à coke
+22_108514	Production brute d'électricité : centrales de cogénération des autoproducteurs - Charbon à coke
+22_108516	Production brute de chaleur : centrals de cogénération (activité principale) - Charbon à coke
+22_108517	Production brute de chaleur : centrales de chauffage (activité principale) - Charbon à coke
+22_108518	Production brute de chaleur : centrales de cogénération des autoproducteurs - Charbon à coke
+22_108519	Production brute de chaleur : centrales de chauffage des autoproducteurs - Charbon à coke
+22_108521	Production brute d'électricité : centrals d'électricité (activité principale) - Charbons bitumineux
+22_108522	Production brute d'électricité : centrals de cogénération (activité principale) - Charbons bitumineux
+22_108523	Production brute d'électricité : centrales d'électricité des autoproducteurs - Charbons bitumineux
+22_108524	Production brute d'électricité : centrales de cogénération des autoproducteurs - Charbons bitumineux
+22_108526	Production brute de chaleur : centrals de cogénération (activité principale) - Charbons bitumineux
+22_108527	Production brute de chaleur : centrales de chauffage (activité principale) - Charbons bitumineux
+22_108528	Production brute de chaleur : centrales de cogénération des autoproducteurs - Charbons bitumineux
+22_108529	Production brute de chaleur : centrales de chauffage des autoproducteurs - Charbons bitumineux
+22_108531	Production brute d'électricité : centrals d'électricité (activité principale) - Charbons sous-bitumineux
+22_108532	Production brute d'électricité : centrals de cogénération (activité principale) - Charbons sous-bitumineux
+22_108533	Production brute d'électricité : centrales d'électricité des autoproducteurs - Charbons sous-bitumineux
+22_108534	Production brute d'électricité : centrales de cogénération des autoproducteurs - Charbons sous-bitumineux
+22_108536	Production brute de chaleur : centrals de cogénération (activité principale) - Charbons sous-bitumineux
+22_108537	Production brute de chaleur : centrales de chauffage (activité principale)  - Charbons sous-bitumineux
+22_108538	Production brute de chaleur : centrales de cogénération des autoproducteurs - Charbons sous-bitumineux
+22_108539	Production brute de chaleur : centrales de chauffage des autoproducteurs - Charbons sous-bitumineux
+22_108541	Production brute d'électricité : centrals d'électricité (activité principale) - Lignite
+22_108542	Production brute d'électricité : centrals de cogénération (activité principale) - Lignite
+22_108543	Production brute d'électricité : centrales d'électricité des autoproducteurs - Lignite
+22_108544	Production brute d'électricité : centrales de cogénération des autoproducteurs - Lignite
+22_108546	Production brute de chaleur : centrals de cogénération (activité principale) - Lignite
+22_108547	Production brute de chaleur : centrales de chauffage (activité principale)  - Lignite
+22_108548	Production brute de chaleur : centrales de cogénération des autoproducteurs - Lignite
+22_108549	Production brute de chaleur : centrales de chauffage des autoproducteurs - Lignite
+22_108551	Production brute d'électricité : centrals d'électricité (activité principale) - Tourbe 
+22_108552	Production brute d'électricité : centrals de cogénération (activité principale) - Tourbe
+22_108553	Production brute d'électricité : centrales d'électricité des autoproducteurs - Tourbe
+22_108554	Production brute d'électricité : centrales de cogénération des autoproducteurs - Tourbe
+22_108556	Production brute de chaleur : centrals de cogénération (activité principale) - Tourbe
+22_108557	Production brute de chaleur : centrales de chauffage (activité principale)  - Tourbe
+22_108558	Production brute de chaleur : centrales de cogénération des autoproducteurs - Tourbe
+22_108559	Production brute de chaleur : centrales de chauffage des autoproducteurs - Tourbe
+22_108561	Production brute d'électricité : centrals d'électricité (activité principale) - Agglomérés de houille
+22_108562	Production brute d'électricité : centrals de cogénération (activité principale) - Agglomérés de houille
+22_108563	Production brute d'électricité : centrales d'électricité des autoproducteurs - Agglomérés de houille
+22_108564	Production brute d'électricité : centrales de cogénération des autoproducteurs - Agglomérés de houille
+22_108566	Production brute de chaleur : centrals de cogénération (activité principale) - Agglomérés de houille
+22_108567	Production brute de chaleur : centrales de chauffage (activité principale)  - Agglomérés de houille
+22_108568	Production brute de chaleur : centrales de cogénération des autoproducteurs - Agglomérés de houille
+22_108569	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Agglomérés de houille
+22_108571	Production brute d'électricité : centrals d'électricité (activité principale) - Coke de four
+22_108572	Production brute d'électricité : centrals de cogénération (activité principale) - Coke de four
+22_108573	Production brute d'électricité : centrales d'électricité des autoproducteurs - Coke de four
+22_108574	Production brute d'électricité : centrales de cogénération des autoproducteurs - Coke de four
+22_108576	Production brute de chaleur : centrals de cogénération (activité principale) - Coke de four
+22_108577	Production brute de chaleur : centrales de chauffage (activité principale)  - Coke de four
+22_108578	Production brute de chaleur : centrales de cogénération des autoproducteurs - Coke de four
+22_108579	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Coke de four
+22_108581	Production brute d'électricité : centrals d'électricité (activité principale) - Coke de gaz
+22_108582	Production brute d'électricité : centrals de cogénération (activité principale) - Coke de gaz
+22_108583	Production brute d'électricité : centrales d'électricité des autoproducteurs - Coke de gaz
+22_108584	Production brute d'électricité : centrales de cogénération des autoproducteurs - Coke de gaz
+22_108586	Production brute de chaleur : centrals de cogénération (activité principale) - Coke de gaz
+22_108587	Production brute de chaleur : centrales de chauffage (activité principale)  - Coke de gaz
+22_108588	Production brute de chaleur : centrales de cogénération des autoproducteurs - Coke de gaz
+22_108589	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Coke de gaz
+22_108591	Production brute d'électricité : centrals d'électricité (activité principale) - Goudron
+22_108592	Production brute d'électricité : centrals de cogénération (activité principale) - Goudron
+22_108593	Production brute d'électricité : centrales d'électricité des autoproducteurs - Goudron
+22_108594	Production brute d'électricité : centrales de cogénération des autoproducteurs - Goudron
+22_108596	Production brute de chaleur : centrals de cogénération (activité principale) - Goudron
+22_108597	Production brute de chaleur : centrales de chauffage (activité principale)  - Goudron
+22_108598	Production brute de chaleur : centrales de cogénération des autoproducteurs - Goudron
+22_108599	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Goudron
+22_108601	Production brute d'électricité : centrals d'électricité (activité principale) - Briquettes de lignite et de tourbe
+22_108602	Production brute d'électricité : centrals de cogénération (activité principale) - Briquettes de lignite et de tourbe
+22_108603	Production brute d'électricité : centrales d'électricité des autoproducteurs - Briquettes de lignite et de tourbe
+22_108604	Production brute d'électricité : centrales de cogénération des autoproducteurs - Briquettes de lignite et de tourbe
+22_108606	Production brute de chaleur : centrals de cogénération (activité principale) - Briquettes de lignite et de tourbe
+22_108607	Production brute de chaleur : centrales de chauffage (activité principale)  - Briquettes de lignite et de tourbe
+22_108608	Production brute de chaleur : centrales de cogénération des autoproducteurs - Briquettes de lignite et de tourbe
+22_108609	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Briquettes de lignite et de tourbe
+22_108611	Production brute d'électricité : centrals d'électricité (activité principale) - Gaz d'usine à gaz
+22_108612	Production brute d'électricité : centrals de cogénération (activité principale)  - Gaz d'usine à gaz
+22_108613	Production brute d'électricité : centrales d'électricité des autoproducteurs - Gaz d'usine à gaz
+22_108614	Production brute d'électricité : centrales de cogénération des autoproducteurs - Gaz d'usine à gaz
+22_108616	Production brute de chaleur : centrals de cogénération (activité principale) - Gaz d'usine à gaz
+22_108617	Production brute de chaleur : centrales de chauffage (activité principale)  - Gaz d'usine à gaz
+22_108618	Production brute de chaleur : centrales de cogénération des autoproducteurs - Gaz d'usine à gaz
+22_108619	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Gaz d'usine à gaz
+22_108621	Production brute d'électricité : centrals d'électricité (activité principale) - Gaz de cokerie
+22_108622	Production brute d'électricité : centrals de cogénération (activité principale) - Gaz de cokerie
+22_108623	Production brute d'électricité : centrales d'électricité des autoproducteurs - Gaz de cokerie
+22_108624	Production brute d'électricité : centrales de cogénération des autoproducteurs - Gaz de cokerie
+22_108626	Production brute de chaleur : centrals de cogénération (activité principale) - Gaz de cokerie
+22_108627	Production brute de chaleur : centrales de chauffage (activité principale)  - Gaz de cokerie
+22_108628	Production brute de chaleur : centrales de cogénération des autoproducteurs - Gaz de cokerie
+22_108629	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Gaz de cokerie
+22_108631	Production brute d'électricité : centrals d'électricité (activité principale) - Gaz de haut-fourneau
+22_108632	Production brute d'électricité : centrals de cogénération (activité principale)  - Gaz de haut-fourneau
+22_108633	Production brute d'électricité : centrales d'électricité des autoproducteurs - Gaz de haut-fourneau
+22_108634	Production brute d'électricité : centrales de cogénération des autoproducteurs - Gaz de haut-fourneau
+22_108636	Production brute de chaleur : centrals de cogénération (activité principale) - Gaz de haut-fourneau
+22_108637	Production brute de chaleur : centrales de chauffage (activité principale)  - Gaz de haut-fourneau
+22_108638	Production brute de chaleur : centrales de cogénération des autoproducteurs - Gaz de haut-fourneau
+22_108639	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Gaz de haut-fourneau
+22_108641	Production brute d'électricité : centrals d'électricité (activité principale) - Gaz de four à oxygène
+22_108642	Production brute d'électricité : centrals de cogénération (activité principale) - Gaz de four à oxygène
+22_108643	Production brute d'électricité : centrales d'électricité des autoproducteurs - Gaz de four à oxygène
+22_108644	Production brute d'électricité : centrales de cogénération des autoproducteurs - Gaz de four à oxygène
+22_108646	Production brute de chaleur : centrals de cogénération (activité principale) - Gaz de four à oxygène
+22_108647	Production brute de chaleur : centrales de chauffage (activité principale)  - Gaz de four à oxygène
+22_108648	Production brute de chaleur : centrales de cogénération des autoproducteurs - Gaz de four à oxygène
+22_108649	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Gaz de four à oxygène
+22_108701	Production brute d'électricité : centrals d'électricité (activité principale) - Pétrole brut
+22_108702	Production brute d'électricité : centrals de cogénération (activité principale) - Pétrole brut
+22_108703	Production brute d'électricité : centrales d'électricité des autoproducteurs - Pétrole brut
+22_108704	Production brute d'électricité : centrales de cogénération des autoproducteurs - Pétrole brut
+22_108706	Production brute de chaleur : centrals de cogénération (activité principale) - Pétrole brut
+22_108707	Production brute de chaleur : centrales de chauffage (activité principale)  - Pétrole brut
+22_108708	Production brute de chaleur : centrales de cogénération des autoproducteurs - Pétrole brut
+22_108709	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Pétrole brut
+22_108711	Production brute d'électricité : centrals d'électricité (activité principale) - LGN
+22_108712	Production brute d'électricité : centrals de cogénération (activité principale) - LGN
+22_108713	Production brute d'électricité : centrales d'électricité des autoproducteurs - LGN
+22_108714	Production brute d'électricité : centrales de cogénération des autoproducteurs - LGN
+22_108716	Production brute de chaleur : centrals de cogénération (activité principale) - LGN
+22_108717	Production brute de chaleur : centrales de chauffage (activité principale)  - LGN
+22_108718	Production brute de chaleur : centrales de cogénération des autoproducteurs - LGN
+22_108719	Production brute de chaleur : centrales de chauffage des autoproducteurs  - LGN
+22_108721	Production brute d'électricité : centrals d'électricité (activité principale) - Gaz de raffinerie (non liquéfiés)
+22_108722	Production brute d'électricité : centrals de cogénération (activité principale)  - Gaz de raffinerie (non liquéfiés)
+22_108723	Production brute d'électricité : centrales d'électricité des autoproducteurs - Gaz de raffinerie (non liquéfiés)
+22_108724	Production brute d'électricité : centrales de cogénération des autoproducteurs - Gaz de raffinerie (non liquéfiés)
+22_108726	Production brute de chaleur : centrals de cogénération (activité principale) - Gaz de raffinerie (non liquéfiés)
+22_108727	Production brute de chaleur : centrales de chauffage (activité principale)  - Gaz de raffinerie (non liquéfiés)
+22_108728	Production brute de chaleur : centrales de cogénération des autoproducteurs - Gaz de raffinerie (non liquéfiés)
+22_108729	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Gaz de raffinerie (non liquéfiés)
+22_108731	Production brute d'électricité : centrals d'électricité (activité principale) - GPL
+22_108732	Production brute d'électricité : centrals de cogénération (activité principale)  - GPL
+22_108733	Production brute d'électricité : centrales d'électricité des autoproducteurs - GPL
+22_108734	Production brute d'électricité : centrales de cogénération des autoproducteurs - GPL
+22_108736	Production brute de chaleur : centrals de cogénération (activité principale) - GPL
+22_108737	Production brute de chaleur : centrales de chauffage (activité principale)  - GPL
+22_108738	Production brute de chaleur : centrales de cogénération des autoproducteurs - GPL
+22_108739	Production brute de chaleur : centrales de chauffage des autoproducteurs  - GPL
+22_108741	Production brute d'électricité : centrals d'électricité (activité principale) - Naphta
+22_108742	Production brute d'électricité : centrals de cogénération (activité principale) - Naphta
+22_108743	Production brute d'électricité : centrales d'électricité des autoproducteurs - Naphta
+22_108744	Production brute d'électricité : centrales de cogénération des autoproducteurs - Naphta
+22_108746	Production brute de chaleur : centrals de cogénération (activité principale) - Naphta
+22_108747	Production brute de chaleur : centrales de chauffage (activité principale)  - Naphta
+22_108748	Production brute de chaleur : centrales de cogénération des autoproducteurs - Naphta
+22_108749	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Naphta
+22_108751	Production brute d'électricité : centrals d'électricité (activité principale) - Carburéacteur type kérosène
+22_108752	Production brute d'électricité : centrals de cogénération (activité principale) - Carburéacteur type kérosène
+22_108753	Production brute d'électricité : centrales d'électricité des autoproducteurs - Carburéacteur type kérosène
+22_108754	Production brute d'électricité : centrales de cogénération des autoproducteurs - Carburéacteur type kérosène
+22_108756	Production brute de chaleur : centrals de cogénération (activité principale) - Carburéacteur type kérosène
+22_108757	Production brute de chaleur : centrales de chauffage (activité principale)  - Carburéacteur type kérosène
+22_108758	Production brute de chaleur : centrales de cogénération des autoproducteurs - Carburéacteur type kérosène
+22_108759	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Carburéacteur type kérosène
+22_108761	Production brute d'électricité : centrals d'électricité (activité principale) - Pétrole lampant
+22_108762	Production brute d'électricité : centrals de cogénération (activité principale) - Pétrole lampant
+22_108763	Production brute d'électricité : centrales d'électricité des autoproducteurs - Pétrole lampant
+22_108764	Production brute d'électricité : centrales de cogénération des autoproducteurs - Pétrole lampant
+22_108766	Production brute de chaleur : centrals de cogénération (activité principale) - Pétrole lampant
+22_108767	Production brute de chaleur : centrales de chauffage (activité principale)  - Pétrole lampant
+22_108768	Production brute de chaleur : centrales de cogénération des autoproducteurs - Pétrole lampant
+22_108769	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Pétrole lampant
+22_108771	Production brute d'électricité : centrals d'électricité (activité principale) - Gazole/Carburant diesel
+22_108772	Production brute d'électricité : centrals de cogénération (activité principale) - Gazole/Carburant diesel
+22_108773	Production brute d'électricité : centrales d'électricité des autoproducteurs - Gazole/Carburant diesel
+22_108774	Production brute d'électricité : centrales de cogénération des autoproducteurs - Gazole/Carburant diesel
+22_108776	Production brute de chaleur : centrals de cogénération (activité principale) - Gazole/Carburant diesel
+22_108777	Production brute de chaleur : centrales de chauffage (activité principale)  - Gazole/Carburant diesel
+22_108778	Production brute de chaleur : centrales de cogénération des autoproducteurs - Gazole/Carburant diesel
+22_108779	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Gazole/Carburant diesel
+22_108781	Production brute d'électricité : centrals d'électricité (activité principale) - Fuel-oil résiduels
+22_108782	Production brute d'électricité : centrals de cogénération (activité principale) - Fuel-oil résiduels
+22_108783	Production brute d'électricité : centrales d'électricité des autoproducteurs - Fuel-oil résiduels
+22_108784	Production brute d'électricité : centrales de cogénération des autoproducteurs - Fuel-oil résiduels
+22_108786	Production brute de chaleur : centrals de cogénération (activité principale) - Fuel-oil résiduels
+22_108787	Production brute de chaleur : centrales de chauffage (activité principale)  - Fuel-oil résiduels
+22_108788	Production brute de chaleur : centrales de cogénération des autoproducteurs - Fuel-oil résiduels
+22_108789	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Fuel-oil résiduels
+22_108791	Production brute d'électricité : centrals d'électricité (activité principale) - Bitume
+22_108792	Production brute d'électricité : centrals de cogénération (activité principale) - Bitume
+22_108793	Production brute d'électricité : centrales d'électricité des autoproducteurs - Bitume
+22_108794	Production brute d'électricité : centrales de cogénération des autoproducteurs - Bitume
+22_108796	Production brute de chaleur : centrals de cogénération (activité principale) - Bitume
+22_108797	Production brute de chaleur : centrales de chauffage (activité principale)  - Bitume
+22_108798	Production brute de chaleur : centrales de cogénération des autoproducteurs - Bitume
+22_108799	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Bitume
+22_108801	Production brute d'électricité : centrals d'électricité (activité principale) - Coke de pétrole
+22_108802	Production brute d'électricité : centrals de cogénération (activité principale) - Coke de pétrole
+22_108803	Production brute d'électricité : centrales d'électricité des autoproducteurs - Coke de pétrole
+22_108804	Production brute d'électricité : centrales de cogénération des autoproducteurs - Coke de pétrole
+22_108806	Production brute de chaleur : centrals de cogénération (activité principale) - Coke de pétrole
+22_108807	Production brute de chaleur : centrales de chauffage (activité principale)  - Coke de pétrole
+22_108808	Production brute de chaleur : centrales de cogénération des autoproducteurs - Coke de pétrole
+22_108809	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Coke de pétrole
+22_108811	Production brute d'électricité : centrals d'électricité (activité principale) - Autres produits pétroliers
+22_108812	Production brute d'électricité : centrals de cogénération (activité principale) - Autres produits pétroliers
+22_108813	Production brute d'électricité : centrales d'électricité des autoproducteurs - Autres produits pétroliers
+22_108814	Production brute d'électricité : centrales de cogénération des autoproducteurs - Autres produits pétroliers
+22_108816	Production brute de chaleur : centrals de cogénération (activité principale) - Autres produits pétroliers
+22_108817	Production brute de chaleur : centrales de chauffage (activité principale)  - Autres produits pétroliers
+22_108818	Production brute de chaleur : centrales de cogénération des autoproducteurs - Autres produits pétroliers
+22_108819	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Autres produits pétroliers
+22_108891	Production brute d'électricité : centrals d'électricité (activité principale) - Gaz naturel
+22_108892	Production brute d'électricité : centrals de cogénération (activité principale) - Gaz naturel
+22_108893	Production brute d'électricité : centrales d'électricité des autoproducteurs - Gaz naturel
+22_108894	Production brute d'électricité : centrales de cogénération des autoproducteurs - Gaz naturel
+22_108896	Production brute de chaleur : centrals de cogénération (activité principale) - Gaz naturel
+22_108897	Production brute de chaleur : centrales de chauffage (activité principale)  - Gaz naturel
+22_108898	Production brute de chaleur : centrales de cogénération des autoproducteurs - Gaz naturel
+22_108899	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Gaz naturel
+22_108901	Production brute d'électricité : centrals d'électricité (activité principale) - Déchets industriels
+22_108902	Production brute d'électricité : centrals de cogénération (activité principale) - Déchets industriels
+22_108903	Production brute d'électricité : centrales d'électricité des autoproducteurs - Déchets industriels
+22_108904	Production brute d'électricité : centrales de cogénération des autoproducteurs - Déchets industriels
+22_108906	Production brute de chaleur : centrals de cogénération (activité principale) - Déchets industriels
+22_108907	Production brute de chaleur : centrales de chauffage (activité principale)  - Déchets industriels
+22_108908	Production brute de chaleur : centrales de cogénération des autoproducteurs - Déchets industriels
+22_108909	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Déchets industriels
+22_108911	Production brute d'électricité : centrals d'électricité (activité principale) - Déchets urbains (renouvelables)
+22_108912	Production brute d'électricité : centrals de cogénération (activité principale) - Déchets urbains (renouvelables)
+22_108913	Production brute d'électricité : centrales d'électricité des autoproducteurs - Déchets urbains (renouvelables)
+22_108914	Production brute d'électricité : centrales de cogénération des autoproducteurs - Déchets urbains (renouvelables)
+22_108916	Production brute de chaleur : centrals de cogénération (activité principale) - Déchets urbains (renouvelables)
+22_108917	Production brute de chaleur : centrales de chauffage (activité principale)  - Déchets urbains (renouvelables)
+22_108918	Production brute de chaleur : centrales de cogénération des autoproducteurs - Déchets urbains (renouvelables)
+22_108919	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Déchets urbains (renouvelables)
+22_108921	Production brute d'électricité : centrals d'électricité (activité principale) - Déchets urbains (non renouvelables)
+22_108922	Production brute d'électricité : centrals de cogénération (activité principale) - Déchets urbains (non renouvelables)
+22_108923	Production brute d'électricité : centrales d'électricité des autoproducteurs - Déchets urbains (non renouvelables)
+22_108924	Production brute d'électricité : centrales de cogénération des autoproducteurs - Déchets urbains (non renouvelables)
+22_108926	Production brute de chaleur : centrals de cogénération (activité principale) - Déchets urbains (non renouvelables)
+22_108927	Production brute de chaleur : centrales de chauffage (activité principale)  - Déchets urbains (non renouvelables)
+22_108928	Production brute de chaleur : centrales de cogénération des autoproducteurs - Déchets urbains (non renouvelables)
+22_108929	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Déchets urbains (non renouvelables)
+22_108931	Production brute d'électricité : centrals d'électricité (activité principale) - Bois / déchets de bois
+22_108932	Production brute d'électricité : centrals de cogénération (activité principale) - Bois / déchets de bois
+22_108933	Production brute d'électricité : centrales d'électricité des autoproducteurs - Bois / déchets de bois
+22_108934	Production brute d'électricité : centrales de cogénération des autoproducteurs - Bois / déchets de bois
+22_108936	Production brute de chaleur : centrals de cogénération (activité principale) - Bois / déchets de bois
+22_108937	Production brute de chaleur : centrales de chauffage (activité principale)  - Bois / déchets de bois
+22_108938	Production brute de chaleur : centrales de cogénération des autoproducteurs - Bois / déchets de bois
+22_108939	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Bois / déchets de bois
+22_108941	Production brute d'électricité : centrals d'électricité (activité principale) - Gaz de décharge
+22_108942	Production brute d'électricité : centrals de cogénération (activité principale) - Gaz de décharge
+22_108943	Production brute d'électricité : centrales d'électricité des autoproducteurs - Gaz de décharge
+22_108944	Production brute d'électricité : centrales de cogénération des autoproducteurs - Gaz de décharge
+22_108946	Production brute de chaleur : centrals de cogénération (activité principale) - Gaz de décharge
+22_108947	Production brute de chaleur : centrales de chauffage (activité principale)  - Gaz de décharge
+22_108948	Production brute de chaleur : centrales de cogénération des autoproducteurs - Gaz de décharge
+22_108949	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Gaz de décharge
+22_108951	Production brute d'électricité : centrals d'électricité (activité principale) - Gaz de digestion des boues
+22_108952	Production brute d'électricité : centrals de cogénération (activité principale) - Gaz de digestion des boues
+22_108953	Production brute d'électricité : centrales d'électricité des autoproducteurs - Gaz de digestion des boues
+22_108954	Production brute d'électricité : centrales de cogénération des autoproducteurs - Gaz de digestion des boues
+22_108956	Production brute de chaleur : centrals de cogénération (activité principale) - Gaz de digestion des boues
+22_108957	Production brute de chaleur : centrales de chauffage (activité principale)  - Gaz de digestion des boues
+22_108958	Production brute de chaleur : centrales de cogénération des autoproducteurs - Gaz de digestion des boues
+22_108959	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Gaz de digestion des boues
+22_108961	Production brute d'électricité : centrals d'électricité (activité principale) - Autres biogaz
+22_108962	Production brute d'électricité : centrals de cogénération (activité principale) - Autres biogaz
+22_108963	Production brute d'électricité : centrales d'électricité des autoproducteurs - Autres biogaz
+22_108964	Production brute d'électricité : centrales de cogénération des autoproducteurs - Autres biogaz
+22_108966	Production brute de chaleur : centrals de cogénération (activité principale) - Autres biogaz
+22_108967	Production brute de chaleur : centrales de chauffage (activité principale)  - Autres biogaz
+22_108968	Production brute de chaleur : centrales de cogénération des autoproducteurs - Autres biogaz
+22_108969	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Autres biogaz
+22_108971	Production brute d'électricité : centrals d'électricité (activité principale) - Autres biocarburants
+22_108972	Production brute d'électricité : centrals de cogénération (activité principale) - Autres biocarburants
+22_108973	Production brute d'électricité : centrales d'électricité des autoproducteurs - Autres biocarburants
+22_108974	Production brute d'électricité : centrales de cogénération des autoproducteurs - Autres biocarburants
+22_108976	Production brute de chaleur : centrals de cogénération (activité principale) - Autres biocarburants
+22_108977	Production brute de chaleur : centrales de chauffage (activité principale)  - Autres biocarburants
+22_108978	Production brute de chaleur : centrales de cogénération des autoproducteurs - Autres biocarburants
+22_108979	Production brute de chaleur : centrales de chauffage des autoproducteurs  - Autres biocarburants
+B_100100	Production primaire
+B_100110	Produits primaires recus
+B_100111	Utilisation directe (Pétrole brut & LGN)
+B_100112	Utilisation directe
+B_100200	Autres sources
+B_100210	Produits recyclés
+B_100300	Importations
+B_100500	Exportations
+B_100400	Variation des stocks
+B_100800	Soutages maritimes internationaux
+B_100900	Consommation intérieure brute
+B_101000	Entrées en transformation 
+B_101002	Entrées en transformation : centrales nucléaires   
+B_101004	Entrées en transformation : cokeries 
+B_101006	Entrées en transformation : hauts fourneaux 
+B_101007	Entrées en transformation : usines à gaz 
+B_101008	Entrées en transformation : raffineries  
+B_101010	Entrées en transformation : fabriques d'agglomérés de houille
+B_101011	Entrées en transformation : fabriques de briquettes de lignite et de tourbe
+B_101012	Entrées en transformation : unités de liquéfaction de houille
+B_101013	Entrées en transformation : pour mélange avec du gaz naturel
+B_101014	Entrées en transformation : pour mélange avec de l'essence/diesel moteur
+B_101015	Entrées en transformation : production de charbon de bois
+B_101016	Entrées en transformation : unités de liquéfaction de gaz
+B_101017	Entrées en transformation : utilisée pour la prodution de électricité
+B_101020	Entrées en transformation : non - spécifiée
+B_101001	Entrées en transformation : centrales thermiques classiques
+B_101021	Entrées en transformation : centrales thermiques (activité principale)
+B_101031	Entrées en transformation : centrals d'électricité (activité principale)
+B_101032	Entrées en transformation : centrals de cogénération (activité principale)
+B_101022	Entrées en transformation : centrales thermiques des autoproducteurs
+B_101034	Entrées en transformation : centrales d'électricité des autoproducteurs
+B_101035	Entrées en transformation : centrales de cogénération des autoproducteurs
+B_101009	Entrées en transformation : centrales de chauffage       
+B_101038	Entrées en transformation : centrales de chauffage (activité principale)   
+B_101039	Entrées en transformation : centrales de chauffage des autoproducteurs    
+B_101100	Sorties de transformation
+B_101101	Sorties de transformation : centrales thermiques classiques
+B_101109	Sorties de transformation : centrales de chauffage    
+B_101121	Sorties de transformation : centrales thermiques (activité principale)
+B_101122	Sorties de transformation : centrales thermiques des autoproducteurs
+B_101102	Sorties de transformation : centrales nucléaires 
+B_101104	Sorties de transformation : cokeries 
+B_101106	Sorties de transformation : hauts fourneaux 
+B_101107	Sorties de transformation : usines à gaz 
+B_101108	Sorties de transformation : raffineries 
+B_101110	Sorties de transformation : fabriques d'agglomérés de houille
+B_101111	Sorties de transformation :  fabriques de briquettes de lignite et de tourbe
+B_101115	Sorties de transformation : production de charbon de bois
+B_101200	Echanges, transferts, restitutions
+B_101210	Echanges entre produits
+B_101220	Transferts de produits 
+B_101230	Restitution à la petrochimie
+17_107301	Production brute de pompage
+17_107302	Energie absorbée pour pompage 
+B_101300	Consommation de la branche énergie
+B_101301	Consommation à la production et distribution d'électricité
+B_101302	Consommation d'électricité des centrales hydrauliques (solde pompage)
+B_101305	Consommation pour l'extraction du pétrole / gaz naturel
+B_101307	Consommation pour le raffinage du pétrole 
+B_101308	Consommation des industries nucléaires 
+B_101310	Consommation - mines de charbon
+B_101311	Consommation - usines d'agglomérés de houille
+B_101312	Consommation - cokeries
+B_101313	Consommation - fabriques de briquettes de lignite et de tourbe
+B_101314	Consommation - usines à gaz
+B_101315	Consommation - hauts fourneaux
+B_101316	Consommation - unités de liquéfaction de houille
+B_101317	Consommation - liquéfaction (GNL) ou gazéification
+B_101318	Consommation - installations de gazéification (biogaz)
+B_101319	Consommation - unités de liquéfaction du gaz
+B_101320	Consommation - non spécifié
+B_101321	Consommation - production de charbon de bois
+B_101322	Consommation des pompes à chaleur
+B_101323	Consommation des chaudières électriques
+B_101400	Pertes de distribution
+B_101500	Disponible pour la consommation finale
+B_101600	Consommation finale non énergétique 
+B_101603	Consommation finale non énergétique - secteur transformation
+B_101604	Consommation finale non énergétique - secteur energie
+B_101605	Consommation finale non énergétique - secteur industrie
+B_101606	Consommation finale non énergétique - secteur transport
+B_101607	Consommation finale non énergétique - autres secteurs
+B_101608	Consommation finale non énergétique - secteurs industrie, transformation et energie
+B_101700	Consommation finale énergétique
+B_101800	Consommation finale énergétique : industrie
+B_101805	Consommation finale énergétique : sidérurgie
+B_101810	Consommation finale énergétique : métaux non ferreux
+B_101815	Consommation finale énergétique : chimie et pétrochimie
+B_101820	Consommation finale énergétique : minéraux non métalliques 
+B_101825	Consommation finale énergétique : extraction 
+B_101830	Consommation finale énergétique : aliments, boissons
+B_101835	Consommation finale énergétique : textiles, cuir, habits 
+B_101840	Consommation finale énergétique : papier, carton, imprimerie 
+B_101846	Consommation finale énergétique : materiel de transport
+B_101847	Consommation finale énergétique : construction méchanique
+B_101851	Consommation finale énergétique : bois et produits dérivés
+B_101852	Consommation finale énergétique : construction
+B_101853	Consommation finale énergétique : Industries non spécifiée
+B_101900	Consommation finale énergétique : transport
+B_101910	Consommation finale énergétique : transports ferroviaires  
+B_101920	Consommation finale énergétique : transports routiers
+B_101931	Consommation finale énergétique : aviation internationale
+B_101932	Consommation finale énergétique : aviation intérieure
+B_101940	Consommation finale énergétique : navigation interne
+B_101945	Consommation finale énergétique : transport par conduites
+B_101950	Consommation finale énergétique : non spécifié (transport)
+B_102000	Consommation finale énergétique : autres
+B_102010	Consommation finale énergétique : ménages
+B_102020	Consommation finale énergétique : péche
+B_102030	Consommation finale énergétique : agriculture
+B_102035	Consommation finale énergétique : commerce et services publics
+B_102040	Consommation finale énergétique : non spécifié (autres)
+B_102200	Ecart statistique 
+B_107500UC	Consommation dans les centrales thermiques publiques (en TJ(PCI))
+10_105003	Stocks de combustibles dans les centrales thermiques publiques à la fin de l’exercice
+10_106101	Total des stocks initiaux sur le territoire national
+10_106102	Total des stocks finals sur le territoire national
+B_107200	Disponibles pour le marché intérieur
+B_109013	Retours du secteur pétrochimique aux raffineries
+10_196102	Stocks de fermeture
+B_107500US	Consommation dans les centrales thermiques publiques (dans des unités spécifiques)
+B_105122	Livraisons de GPL carburant
+B_105105	Livraisons à des cokeries
+B_105106	Livraison à l’industrie sidérurgique
+B_105102	Livraison à des centrales ayant comme activité principale la production d'électricité
+B_105110	Livraisons aux autres (services, ménages, etc.)
+B_105112	Livraisons à des fabriques d'agglomérés
+B_105120	Livraisons à l’ensemble de l'industrie
+B_105123	Livraisons à des centrales énergétiques
+B_195500	Demande
+B_109010	Livraisons brutes au secteur pétrochimique
+15_107000	Production brute d'électricité – Total
+15_107001	Production brute d'électricité – Hydroélectricité
+15_107002	Production brute d'électricité – Géothermie
+15_107003	Production brute d'électricité – Nucléaire
+15_107004	Production brute d'électricité – Thermique classique
+15_107005	Production brute d'électricité – Éolien
+15_107301	Production brute d'électricité – Hydroélectricité (dont celle produite à partir de l’accumulation par pompage)
+16_107100A	Production nette d'électricité – Total
+16_107100B	Production nette d'électricité – Total
+16_107101	Production nette d'électricité – Hydroélectricité
+16_107102	Production nette d'électricité – Géothermie
+16_107103	Production nette d'électricité – Nucléaire
+16_107104	Production nette d'électricité – Thermique classique
+16_107105	Production nette d'électricité – Éolien
+16_107301	Production nette d'électricité – Hydroélectricité (dont celle produite à partir de l’accumulation par pompage)
+20_311010	Importations d’origine intra-UE
+21_321011	Exportations extra-UE
+B_190100	Production primaire
+B_190300	Importations
+B_190500	Exportations
+B_190600	Importations nettes
+B_190900	Approvisionnement
+B_197000	Production brute totale
+B_105200	Livraisons intérieures brutes observées
+B_105100	Livraisons sur le marché intérieur (observées)
+B_101401	Pour mémoire:       Pertes de raffinage
+B_105121	Pour mémoire: 7                  Livraisons à l’aviation internationale
+B_191008	Quantités entrées en raffinerie
+B_191108	Production des raffineries
+B_190400	Variations des stocks
+B_101103	Sorties de transformation – Fabriques d'agglomérés/de BKB
+10_128102	Niveaux de stocks / Stocks initiaux / Stocks détenus pour le compte d'autres pays dans le cadre d'accords bilatéraux
+10_128104	Niveaux de stocks / Stocks initiaux / Stocks à la destination étrangère connue
+10_128105	Niveaux de stocks / Stocks initiaux / Stocks détenus à l’étranger dans le cadre d'accords bilatéraux
+10_128107	Niveaux de stocks / Stocks initiaux / Stocks détenus à l’étranger et formellement désignés comme stocks à l'importation sur le territoire national.
+10_128108	Niveaux de stocks / Stocks initiaux / Stocks détenus en zone franche et ne figurant pas dans 10_128102 ou 10_128104
+10_128109	Niveaux de stocks / Stocks initiaux / Stocks détenus par les gros consommateurs et répondant aux exigences de l'AIE
+10_128110	Niveaux de stocks / Stocks initiaux / Stocks à bord de navires de haute mer à destination du territoire du pays déclarant, au port ou à l'amarre
+10_128111	Niveaux de stocks / Stocks initiaux / Stocks détenus par les pouvoirs publics sur le territoire national
+10_128112	Niveaux de stocks / Stocks initiaux / Stocks détenus par des entreprises de stockage sur le territoire national
+10_128113	Niveaux de stocks / Stocks initiaux / Tous autres stocks détenus sur le territoire national
+10_128115	Niveaux de stocks / Stocks initiaux / Autres stocks en zone franche
+10_128116	Niveaux de stocks / Stocks initiaux / Contenu des oléoducs
+10_128117	Niveaux de stocks / Stocks initiaux / Stocks détenus à l’étranger par les pouvoirs publics dans le cadre d’accords bilatéraux
+10_128118	Niveaux de stocks / Stocks initiaux / Stocks des entreprises de stockage détenus à l’étranger dans le cadre d’accords bilatéraux
+10_128119	Niveaux de stocks / Stocks initiaux / Autres stocks détenus à l’étranger dans le cadre d’accords bilatéraux
+10_128202	Niveaux de stocks / Stocks finals / Stocks détenus pour le compte d'autres pays dans le cadre d'accords bilatéraux
+10_128204	Niveaux de stocks / Stocks finals / Stocks à la destination étrangère connue
+10_128205	Niveaux de stocks / Stocks finals / Stocks détenus à l’étranger dans le cadre d'accords bilatéraux
+10_128207	Niveaux de stocks / Stocks finals / Stocks détenus à l’étranger et formellement désignés comme stocks à l'importation sur le territoire national.
+10_128208	Niveaux de stocks / Stocks finals / Stocks détenus en zone franche et ne figurant pas dans 10_128202 ou 10_128204
+10_128209	Niveaux de stocks / Stocks finals / Stocks détenus par les gros consommateurs et répondant aux exigences de l'AIE
+10_128210	Niveaux de stocks / Stocks finals / Stocks à bord de navires de haute mer à destination du territoire du pays déclarant, au port ou à l'amarre
+10_128211	Niveaux de stocks / Stocks finals / Stocks détenus par les pouvoirs publics sur le territoire national
+10_128212	Niveaux de stocks / Stocks finals / Stocks détenus par des entreprises de stockage sur le territoire national
+10_128213	Niveaux de stocks / Stocks finals / Tous autres stocks détenus sur le territoire national
+10_128215	Niveaux de stocks / Stocks finals / Autres stocks en zone franche
+10_128216	Niveaux de stocks / Stocks finals / Contenu des oléoducs
+10_128217	Niveaux de stocks / Stocks finals / Stocks détenus à l’étranger par les pouvoirs publics dans le cadre d’accords bilatéraux
+10_128218	Niveaux de stocks / Stocks finals / Stocks des entreprises de stockage détenus à l’étranger dans le cadre d’accords bilatéraux
+10_128219	Niveaux de stocks / Stocks finals / Autres stocks détenus à l’étranger dans le cadre d’accords bilatéraux

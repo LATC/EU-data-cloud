@@ -1,0 +1,412 @@
+TOTAL	Total
+TOTAL_1	Total excluding rents
+CP01_TO_12	Total individual consumption expenditure by households
+CP00	All-items HICP
+00FLASH	Flash estimate - All items HICP
+CP01	Food and non-alcoholic beverages
+CP011	Food
+CP0111	Bread and cereals
+CP01111	Rice
+CP01112	Bread
+CP01113	Pasta products
+CP01114	Pastry-cook products
+CP01115	Other products
+CP0112	Meat
+CP01121	Fresh, chilled or frozen meat of bovine animals
+CP01122	Fresh, chilled or frozen meat of swine
+CP01123	Fresh, chilled or frozen meat of sheep and goat
+CP01124	Fresh, chilled or frozen meat of poultry
+CP01125	Dried, salted or smoked meat and edible meat offal
+CP01126	Other preserved or processed meat and meat preparations
+CP01127	Other fresh, chilled or frozen edible meat
+CP0113	Fish and seafood
+CP01131	Fresh, chilled or frozen fish
+CP01132	Fresh, chilled or frozen seafood
+CP01133	Dried, smoked or salted fish and seafood
+CP01134	Other preserved or processed fish and seafood and fish and seafood preparations
+CP0114	Milk, cheese and eggs
+CP01141	Whole milk
+CP01142	Low fat milk
+CP01143	Preserved milk
+CP01144	Yoghurt
+CP01145	Cheese and curd
+CP01146	Other milk products
+CP01147	Eggs
+CP0115	Oils and fats
+CP01151	Butter
+CP01152	Margarine and other vegetable fats
+CP01153	Olive oil
+CP01154	Edible oils
+CP01155	Other edible animal fats
+CP0116	Fruit
+CP01161	Citrus fruits (fresh, chilled or frozen)
+CP01162	Bananas (fresh, chilled or frozen)
+CP01163	Apples (fresh, chilled or frozen)
+CP01164	Pears (fresh, chilled or frozen)
+CP01165	Stone fruits (fresh, chilled or frozen)
+CP01166	Berries (fresh, chilled or frozen)
+CP01167	Other fresh, chilled or frozen fruits
+CP01168	Dried fruit
+CP01169	Preserved fruit and fruit-based products
+CP0117	Vegetables
+CP01171	Leaf and stem vegetables(fresh, chilled or frozen)
+CP01172	Cabbages (fresh or chilled)
+CP01173	Vegetable grown for their fruit (fresh, chilled or frozen)
+CP01174	Root crops, non-starchy bulbs and mushrooms (fresh, chilled or frozen)
+CP01175	Dried vegetables
+CP01176	Other preserved or processed vegetables
+CP01177	Potatoes
+CP01178	Other tubers and products of tuber vegetables
+CP0118	Sugar, jam, honey, chocolate and confectionery
+CP01181	Sugar
+CP01182	Jams, marmalades
+HONEY	Honey
+CP01183	Chocolate
+CP01184	Confectionery products
+CP01185	Edible ices and ice cream
+CP01186	Other sugar products
+CP0119	Food products n.e.c.
+CP01191	Sauces, condiments
+CP01192	Salt, spices and culinary herbs
+CP01193	Baker's yeast, dessert preparations, soups
+CP01194	Other food products n.e.c.
+CP012	Non-alcoholic beverages
+CP0121	Coffee, tea and cocoa
+CP01211	Coffee
+CP01212	Tea
+CP01213	Cocoa and powdered chocolate
+CP0122	Mineral waters, soft drinks, fruit and vegetable juices
+CP01221	Mineral or spring waters
+CP01222	Soft drinks
+CP01223	Fruit juices
+CP01224	Vegetable juices
+CP02	Alcoholic beverages, tobacco and narcotics
+CP021_022	Alcoholic beverages and tobacco
+CP021	Alcoholic beverages
+CP0211	Spirits
+CP0212	Wine
+CP02121	Wine from grape or other fruit
+CP02122	Other
+CP0213	Beer
+CP022	Tobacco
+CP0221	Tobacco (ND)
+CP02211	Cigarettes
+CP02212	Cigars
+CP02213	Other tobacco
+CP023	Narcotics
+CP0231	Narcotics (ND)
+CP03	Clothing and footwear
+CP031	Clothing
+CP0311	Clothing materials
+CP0312	Garments
+CP03121	Garments for men
+CP03122	Garments for women
+CP03123	Garments for children (3 to 13 years) and infants (0 to 2 years)
+CP0313	Other articles of clothing and clothing accessories
+CP0314	Cleaning, repair and hire of clothing
+CP032	Footwear including repair
+CP0321	Shoes and other footwear
+CP03211	Footwear for men
+CP03212	Footwear for women
+CP03213	Footwear for children (3 to 13 years) and infants (0 to 2 years)
+CP0322	Repair and hire of footwear
+CP04	Housing, water, electricity, gas and other fuels
+CP041	Actual rentals for housing
+CP0411	Actual rentals paid by tenants
+CP0412	Other actual rentals
+CP042	Imputed rentals for housing
+CP0421	Imputed rentals of owner-occupiers
+CP0422	Other imputed rentals
+CP04221	Imputed rentals of households housed free.
+CP04222	Imputed rentals for secondary residences
+CP043	Maintenance and repair of the dwelling
+CP0431	Materials for the maintenance and repair of the dwelling
+CP0432	Services for the maintenance and repair of the dwelling
+CP044	Water supply and miscellaneous services relating to the dwelling
+CP0441	Water supply
+CP0442	Refuse collection
+CP0443	Sewerage collection
+CP0444	Other services relating to the dwelling n.e.c.
+CP045	Electricity, gas and other fuels
+CP0451	Electricity
+CP0452	Gas
+CP04521	Town gas and natural gas
+CP04522	Liquefied hydrocarbons (butane, propane, etc.).
+CP0453	Liquid fuels
+CP0454	Solid fuels
+CP0455	Heat energy
+CP05	Furnishings, household equipment and routine maintenance of the house
+CP051	Furniture and furnishings, carpets and other floor coverings
+CP0511	Furniture and furnishings
+CP0512	Carpets and other floor coverings
+CP0513	Repair of furniture, furnishings and floor coverings
+CP052	Household textiles
+CP0521	Household textiles (SD)
+CP053	Household appliances
+CP0531_532	Major household appliances whether electric or not and small electric household appliances
+CP0531	Major household appliances whether electric or not
+CP05311	Refrigerators, freezers and fridge-freezers
+CP05312	Clothes washing machines, clothes drying machines and dish washing machines
+CP05313	Cookers
+CP05314	Heaters, air conditioners
+CP05315	Cleaning equipment
+CP05316	Sewing and knitting machines
+CP05317	Other major household appliances
+CP0532	Small electric household appliances
+CP0533	Repair of household appliances
+CP054	Glassware, tableware and household utensils
+CP0541	Glassware, tableware and household utensils (SD)
+CP05411	Glass and crystal-ware, tableware
+CP05412	Cutlery, flatware and silverware
+CP05413	Kitchen and domestic ustensils
+CP05414	Repair of glasseware, tableware and household ustensils
+CP055	Tools and equipment for house and garden
+CP0551	Major tools and equipment
+CP0552	Small tools and miscellaneous accessories
+CP056	Goods and services for routine household maintenance
+CP0561	Non-durable household goods
+CP05611	Cleaning and maintenance products
+CP05612	Other non-durable household articles
+CP0562	Domestic services and household services
+CP05621	Domestic services
+CP05622	Household services
+CP06	Health
+CP061	Medical products, appliances and equipment
+CP0611	Pharmaceutical products
+CP0612_613	Other medical products; therapeutic appliances and equipment
+CP0612	Other medical products
+CP0613	Therapeutic appliances and equipment
+CP062	Out-patient services
+CP0621_623	Medical services; paramedical services
+CP0621	Medical services
+CP0622	Dental services
+CP0623	Paramedical services
+CP06231	Services of medical analysis laboratories and X-ray centres
+CP06232	Services of medical auxilaries
+CP06233	Other non-hospital services
+CP063	Hospital services
+CP0631	Hospital services
+CP07	Transport
+CP071	Purchase of vehicles
+CP0711	Motor cars
+CP07111	Purchase of new motor cars
+CP07112	Purchase of second hand motor cars
+CP0712_713_714	Motor cycles, bicycles and animal drawn vehicles
+CP0712_713	Motor cycles and bicycles
+CP0712	Motor cycles
+CP0713	Bicycles
+CP0714	Animal drawn vehicles
+CP072	Operation of personal transport equipment
+CP0721	Spares parts and accessories for personal transport equipment
+CP0722	Fuels and lubricants for personal transport equipment
+CP0723	Maintenance and repair of personal transport equipment
+CP0724	Other services in respect of personal transport equipment
+CP073	Transport services
+CP0731	Passenger transport by railway
+CP0732	Passenger transport by road
+CP0733	Passenger transport by air
+CP0734	Passenger transport by sea and inland waterway
+CP0735	Combined passenger transport
+CP0736	Other purchased transport services
+CP08	Communications
+CP081	Postal services
+CP0811	Postal services (S)
+CP082_83	Telephone and telefax equipment and services
+CP082	Telephone and telefax equipment
+CP0821	Telephone and telefax equipment (D)
+CP083	Telephone and telefax services
+CP0831	Telephone and telefax services (S)
+CP09	Recreation and culture
+CP091	Audio-visual, photographic and information processing equipment
+CP0911	Equipment for the reception, recording and reproduction of sound and pictures
+CP09111	Equipment for the reception, recording and reproduction of sound
+CP09112	Television sets, video-cassette players and recorders
+CP0912	Photographic and cinematographic equipment and optical instruments
+CP09121	Photographic and cinematographic equipment
+CP09122	Optical instruments
+CP0913	Information processing equipment
+CP0914	Recording media
+CP0915	Repair of audio-visual, photographic and information processing equipment
+CP092A	Recreational and cultural services
+CP092	Other major durables for recreation and culture
+CP0921_922	Major durables for indoor and outdoor recreation including musical instruments
+CP0921	Major durables for outdoor recreation
+CP0922	Musical instruments and major durables for indoor recreation
+CP09221	Musical instruments
+CP09222	Major durables for indoor recreation
+CP0923	Maintenance and repair of other major durables for recreation and culture
+CP093	Other recreational items and equipment, gardens and pets
+CP0931	Games, toys and hobbies
+CP0932	Equipment for sport, camping and open-air recreation
+CP0933	Gardens, plants and flowers
+CP0934_935	Pets and related products; veterinary and other services for pets
+CP0934	Pets and related products
+CP0935	Veterinary and other services for pets
+CP094	Recreational and cultural services
+CP0941	Recreational and sporting services
+CP0942	Cultural services
+CP09421	Cinemas, theatres, concerts
+CP09422	Museums, zoological gardens and the like
+CP09423	Television and radio taxes and hire of equipment
+CP09424	Other services
+CP0943	Games of chance
+CP095	Newspapers, books and stationery
+CP0951	Books
+CP0952	Newspapers and periodicals
+CP0953_954	Miscellaneous printed matter; stationery and drawing materials
+CP0953	Miscellaneous printed matter
+CP0954	Stationery and drawing materials
+CP096	Package holidays
+CP10	Education
+CP101	Pre-primary and primary education
+CP1011	Pre primary and primary education (S)
+CP102	Secondary education
+CP1021	Secondary education (S)
+CP103	Post-secondary non-tertiary education
+CP1031	Post-secondary non-tertiary education (S)
+CP104	Tertiary education
+CP1041	Tertiary education (S)
+CP105	Education not definable by level
+CP1051	Education non definable by level (S)
+CP11	Restaurants and hotels
+CP111	Catering services
+CP1111	Restaurants, cafés and the like
+CP11111	Restaurants
+CP11112	Cafés, bars and the like
+CP1112	Canteens
+CP112	Accommodation services
+CP1121	Accommodation services (S)
+CP12	Miscellaneous goods and services
+CP121	Personal care
+CP1211	Hairdressing salons and personal grooming establishments
+CP1212_1213	Electrical appliances for personal care; other appliances, articles and products for personal care
+CP1212	Electrical appliances for personal care
+CP1213	Other appliances, articles and products for personal care
+CP122	Prostitution
+CP1221	Prostitution (S)
+CP123	Personal effects n.e.c.
+CP1231	Jewellery, clocks and watches
+CP1232	Other personal effects
+CP12321	Travel goods and other carriers
+CP12322	Other personal effects
+CP124	Social protection
+CP1241	Social proctection services (S)
+CP12411	Social proctection services
+CP12412	Crèches, nurseries
+CP125	Insurance
+CP1251	Life insurance
+CP1252	Insurance connected with the dwelling
+CP1253	Insurance connected with health
+CP1254	Insurance connected with transport
+CP1255	Other insurance
+CP126	Financial services n.e.c.
+CP1261	FISIM (Financial intermediation services indirectly measured)
+CP1262	Other financial services n.e.c.
+CP127	Other services n.e.c.
+CP1271	Other services n.e.c. (S)
+DURABLE	Durable
+NO_DURABLE	No durable
+SEMI_DURABLE	Semi durable
+SERVICE	Service
+CP13	Individual consumption expenditure of non-profit institutions serving households
+CP131	Housing (non-profit institutions serving households)
+CP132	Health (non-profit institutions serving households)
+CP1321	Pharmaceutical products (non-profit institutions serving households)
+CP1322	Other medical products (non-profit institutions serving households)
+CP1323	Therapeutic appliances and equipment (non-profit institutions serving households)
+CP1324	Out-patient medical services (non-profit institutions serving households)
+CP1325	Out-patient dental services (non-profit institutions serving households)
+CP1326	Out-patient paramedical services (non-profit institutions serving households)
+CP1327	Hospital services (non-profit institutions serving households)
+CP1328	Other health services (non-profit institutions serving households)
+CP133	Recreation and services (non-profit institutions serving households)
+CP1331	Recreation and sporting services (non-profit institutions serving households)
+CP1332	Cultural services (non-profit institutions serving household)
+CP134	Education (non-profit institutions serving households)
+CP1341	Pre-primary and primary education (non-profit institutions serving households)
+CP1342	Secondary education (non-profit institutions serving households)
+CP1343	Post-secondary non-tertiary education (non-profit institutions serving households)
+CP1344	Tertiary education (non-profit institutions serving households)
+CP1345	Education not definable by level (non-profit institutions serving households)
+CP1346	Other educational services (non-profit institutions serving households)
+CP135	Social protection (non-profit institutions serving households)
+CP136	Other services (non-profit institutions serving households)
+CP1361	Religion (non-profit institutions serving households)
+CP1362	Political parties, labour and professional organisations (non-profit institutions serving households)
+CP1363	Environment protection (non-profit institutions serving households)
+CP1364	Services n.e.c. (non-profit institutions serving households)
+CP14	Individual consumption expenditure of general government
+CP141	Housing (general government)
+CP142	Health (general government)
+CP1421	Pharmaceutical products (general government)
+CP1422	Other medical products (general government)
+CP1423	Therapeutic appliances and equipment (general government)
+CP1424	Out-patient medical services (general government)
+CP1425	Out-patient dental services (general government)
+CP1426	Out-patient paramedical services (general government)
+CP1427	Hospital services (general government)
+CP1428	Public health services (general government)
+CP143	Recreation and culture (general government)
+CP1431	Recreational and sporting services (general government)
+CP1432	Cultural services (general government)
+CP144	Education (general government)
+CP1441	Pre-primary and primary education (general government)
+CP1442	Secondary education (general government)
+CP1443	Post-secondary non-tertiary education (general government)
+CP1444	Tertiary education (general government)
+CP1445	Education not definable by level (general government)
+CP1446	Subsidiary services to education (general government)
+CP145	Social protection (general government)
+GOODS	Goods (overall index excluding services)
+IGOODS	Industrial goods
+IGOODSXE	Non-energy industrial goods
+IGOODSXEDU	Non-energy industrial goods, durables only
+IGOODSXESD	Non-energy industrial goods, semi-durables only
+IGOODSXEND	Non-energy industrial goods, non-durables only
+ENRGY	Energy
+FOOD	Food including alcohol and tobacco
+FOODUNP	Unprocessed food
+FOODPROC	Processed food including alcohol and tobacco
+SERV	Services (overall index excluding goods)
+SERVCOMM	Services related to communication
+SERVHOUSE	Services related to housing
+SERVRP	Services related to recreation, including repairs and personal care
+SERVRP_OTH	Services related to recreation and personal care, excluding package holidays and accomodation
+SERVRP_PHA	Services related to package holidays and accomodation
+SERVTRANS	Services related to transport
+SERVMISC	Services - miscellaneous
+00XE	Overall index excluding energy
+00XEFOOD	Overall index excluding energy, food, alcohol and tobacco
+00XEFOODUNP	Overall index excluding energy and unprocessed food
+SEAS	Seasonal food
+00XSEAS	Overall index excluding seasonal food
+00XESEAS	Overall index excluding energy and seasonal food
+ENRGYSEAS	Energy and seasonal food
+FUELS	Liquid fuels and fuels and lubricants for personal transport equipment
+00XFUELS	Overall index excluding liquid fuels and lubricants for personal transport equipment
+00XTOBAC	Overall index excluding tobacco
+00XALCOTOB	Overall index excluding alcohol and tobacco
+EFOODUNP	Energy and unprocessed food
+00XHOUSING	Overall index excluding housing, water, electricity, gas and other fuels
+ELGAS	Electricity, gas, solid fuels and heat energy
+EDUHEASOC	Education, health and social protection
+00XEDUHEASOC	Overall index excluding Education, health and social protection
+FROOPP	Frequent out-of-pocket purchases
+00XFROOPP	Overall index excluding frequent out-of-pocket purchases
+CP01_TO_12_X	Total COICOP 1-12 - (sum of divisions 01 to 12)
+CP01_X	COICOP 01 - (sum of groups 011+012)
+CP02_X	COICOP 02 - (sum of groups 021 to 023)
+CP03_X	COICOP 03 - (sum of groups 031+032)
+CP04_X	COICOP 04 - (sum of groups 041 to 045)
+CP05_X	COICOP 05 - (sum of groups 051 to 056)
+CP06_X	COICOP 06 - (sum of groups 061 to 063)
+CP07_X	COICOP 07 - (sum of groups 071 to 073)
+CP09_X	COICOP 09 - (sum of groups 091 to 096)
+CP11_X	COICOP 11 - (sum of groups 111+112)
+CP12_X	COICOP 12 - (sum of groups 121 to 127)
+AP	Administered prices
+APFULL	Fully administered prices
+APMAIN	Mainly administered prices
+00XAP	All-items excluding administered prices
+00XAPFULL	All-items excluding fully administered prices 
+00XAPMAIN	All-items excluding mainly administered prices

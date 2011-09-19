@@ -1,0 +1,9 @@
+TOTAL	Insgesamt
+REGBEN	Registriert als Arbeitsloser mit Leistungsbezug
+REGNOBEN	Registriert als Arbeitsloser ohne Leistungsbezug
+NOREGBEN	Nicht registriert als Arbeitsloser aber mit Leistungsbezug
+NOREGNOBEN	Nicht registriert als Arbeitsloser und ohne Leistungsbezug
+REGIST	Registriert als Arbeitsloser
+BENEFIT	Mit Leistungsbezug
+NRESP	Keine Antwort
+UNK	Unbekannt

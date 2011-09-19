@@ -1,0 +1,16 @@
+TOTAL	Total - Tous produits
+SITC0_1	Produits alimentaires, boissons et tabac
+SITC0	Produits alimentaires et animaux vivants
+SITC1	Boissons et tabac
+SITC2_4	Matières premières
+SITC2	Matières brutes, sauf carburants
+SITC3	Combustibles minéraux, lubrifiants et produits connexes
+SITC33	Pétrole, produits pétroliers et produits connexes
+SITC4	Huiles, graisses et cires d'origine animale ou végétale
+SITC5_TO_8	Articles manufacturés
+SITC5	Produits chimiques et produits connexes, n.d.a.
+SITC6_8	Autres articles manufacturés
+SITC6	Articles manufacturés classés principalement d'après la matière première
+SITC7	Machines et matériels de transport
+SITC8	Articles manufacturés divers
+SITC9	Articles non classés ailleurs

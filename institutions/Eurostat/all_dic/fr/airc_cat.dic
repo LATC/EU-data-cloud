@@ -1,0 +1,16 @@
+TOTAL	Total
+PASS	Avions pour le transport de passagers (total)
+PASS_LE_50	Avions pour le transport de passagers ayant moins de 50 sièges
+PASS_51_150	Avions pour le transport de passagers ayant de 51 à 150 sièges
+PASS_151_250	Avions pour le transport de passagers ayant de 151 à 250 sièges
+PASS_GT_250	Avions pour le transport de passagers ayant plus de 250 sièges
+CARGO	Avions cargos
+FRT	Nombre total d'avions civils de transport de fret en service
+FRT_LE100000	Nombre d'avions civils de fret/cargo d'une charge utile de moins de 100.000 livres
+FRT_GT100000	Nombre d'avions civils de fret/cargo d'une charge utile de 100.000 livres et plus
+AMB_BSN	Nombre total d'avions civils de transport spécial, ambulance et d'affaires en service
+AMB	Nombre d'avions civils de transport spécial et ambulance
+BSN	Nombre d'avions privés d'affaires
+COMBI	Avions mixtes (passagers-fret)
+QUICK	Avions à conversion rapide
+OTHER	Autres avions

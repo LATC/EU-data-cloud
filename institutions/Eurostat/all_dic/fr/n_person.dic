@@ -1,0 +1,18 @@
+TOTAL	Total
+0	Aucune personne
+1	1 personne
+2	2 personnes
+3	3 personnes
+4	4 personnes
+GE4	4 personnes ou plus
+5	5 personnes
+6	6 personnes
+GE6	6 personnes ou plus
+7	7 personnes
+GE7	7 personnes ou plus
+8	8 personnes
+9	9 personnes
+UNK	Inconnu
+TOT_PERS	Nombre total de personnes
+TOT_POPHH	Population totale dans les ménages privés
+TOT_PERS_DWEL	Nombre de personnes dans les logements

@@ -1,0 +1,42 @@
+TOTAL	Insgesamt
+BP1	Kopf, nicht spezifiziert
+BP11	Kopf (Caput), Hirnsubstanz, Hirnnerven und Hirngefäße
+BP12	Gesicht
+BP13	Auge(n)
+BP14	Ohr(en)
+BP15	Zähne
+BP18	Kopf, verschiedene Bereiche betroffen
+BP19	Kopf, sonstige Bereiche, oben nicht aufgeführt
+BP2	Hals einschl. Wirbelsäule und Halswirbel
+BP21	Hals einschl. Wirbelsäule und Halswirbel
+BP29	Hals, sonstige Bereiche, oben nicht aufgeführt
+BP3	Rücken einschl. Wirbelsäule und Rückenwirbel
+BP31	Rücken einschl. Wirbelsäule und Rückenwirbel
+BP39	Rücken, sonstige Bereiche, oben nicht aufgeführt
+BP4	Rumpf und Organe, nicht spezifiziert
+BP41	Brustkorb, Rippen einschl. Gelenke und Schulterblätter
+BP42	Brustraum einschl. Organe
+BP43	Becken- und Bauchraum einschl. Organe
+BP48	Rumpf, verschiedene Bereiche betroffen
+BP49	Rumpf, sonstige Bereiche, oben nicht aufgeführt
+BP5	Obere Extremitäten, nicht spezifiziert
+BP51	Schulter und Schultergelenke
+BP52	Arm einschl. Ellenbogen
+BP53	Hand
+BP54	Finger
+BP55	Handgelenk
+BP58	Obere Extremitäten, verschiedene Bereiche betroffen
+BP59	Obere Extremitäten, sonstige Bereiche, oben nicht aufgeführt
+BP6	Untere Extremitäten, nicht spezifiziert
+BP61	Hüfte und Hüftgelenk
+BP62	Bein einschl. Knie
+BP63	Fußgelenk
+BP64	Fuß
+BP65	Zehe(n)
+BP68	Untere Extremitäten, verschiedene Bereiche betroffen
+BP69	Untere Extremitäten, sonstige Bereiche, oben nicht aufgeführt
+BP7	Ganzer Körper und verschiedene Bereiche, nicht spezifiziert
+BP71	Ganzer Körper (systemische Wirkung)
+BP78	Verschiedene Bereiche des Körpers betroffen
+OTH	Sonstige betroffene Körperteile, oben nicht aufgeführt
+UNK	Betroffener Körperteil, nicht spezifiziert

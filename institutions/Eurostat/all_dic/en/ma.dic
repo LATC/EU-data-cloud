@@ -1,0 +1,16 @@
+MA_0	Total
+MA_1	Biomass
+MA_1_1	Biomass - food
+MA_1_2	Biomass - feed
+MA_1_3	Biomass - animals
+MA_1_4	Biomass - forestry
+MA_1_5	Biomass - non edible biomass
+MA_2	Minerals
+MA_2_1	Minerals - construction minerals
+MA_2_2	Minerals - industrial minerals
+MA_2_3	Minerals - ores
+MA_3	Fossil fuels
+MA_3_1	Fossil fuels - coal
+MA_3_2	Fossil fuels - crude oil
+MA_3_3	Fossil fuels - natural gas
+MA_3_4	Fossil fuel - other fossils

@@ -1,0 +1,52 @@
+USD	Dollar des Etats-Unis
+XDR	Taux de change DTS (1 DTS = ...)
+NEER	Taux de change effectif nominal
+NEER12	Taux de change effectif nominal - 12 partenaires commerciaux
+NEER15	Taux de change effectif nominal - 15 partenaires commerciaux
+NEEREA15	Taux de change effectif nominal - 15 partenaires commerciaux (Eurozone)
+NEEREA16	Taux de change effectif nominal - 16 partenaires commerciaux (Eurozone)
+NEER23	Taux de change effectif nominal - 23 partenaires commerciaux
+NEER24	Taux de change effectif nominal - 24 partenaires commerciaux
+NEER25	Taux de change effectif nominal - 25 partenaires commerciaux
+NEER27	Taux de change effectif nominal - 27 partenaires commerciaux
+NEER34	Taux de change effectif nominal - 34 partenaires commerciaux
+NEER36	Taux de change effectif nominal - 36 partenaires commerciaux
+NEER41	Taux de change effectif nominal - 41 partenaires commerciaux
+NEER42	Taux de change effectif nominal - 42 partenaires commerciaux
+NEER44	Taux de change effectif nominal - 44 partenaires commerciaux
+REERULC	Taux de change effectif réel (déflateur : coût unitaire du travail)
+REERCPI	Taux de change effectif réel (déflateur : indices des prix à la consommation)
+REER	Taux de change effectif réel
+REER12CPI	Taux de change effectif réel (déflateur : indices des prix à la consommation - 12 partenaires commerciaux)
+REER12PPI	Taux de change effectif réel (déflateur : indices des prix à la production - 12 partenaires commerciaux)
+REER12ULCM	Taux de change effectif réel (déflateur : coût unitaire du travail dans l'industrie manufacturière - 12 partenaires commerciaux)
+REER12ULCT	Taux de change effectif réel (déflateur : coût unitaire du travail dans l'ensemble de l'économie - 12 partenaires commerciaux)
+REER12GDPD	Taux de change effectif réel (déflateur : produit intérieur brut - 12 partenaires commerciaux)
+REER15CPI	Taux de change effectif réel (déflateur : indices des prix à la consommation - 15 partenaires commerciaux)
+REEREA15CPI	Taux de change effectif réel (déflateur : indices des prix à la consommation - 15 partenaires commerciaux - Eurozone)
+REEREA16CPI	Taux de change effectif réel (déflateur : indices des prix à la consommation - 16 partenaires commerciaux - Eurozone)
+REER15ULCT	Taux de change effectif réel (déflateur : coût unitaire du travail dans l'ensemble de l'économie - 15 partenaires commerciaux)
+REEREA15ULCT	Taux de change effectif réel (déflateur : coût unitaire du travail dans l'ensemble de l'économie - 15 partenaires commerciaux - Eurozone)
+REEREA16ULCT	Taux de change effectif réel (déflateur : coût unitaire du travail dans l'ensemble de l'économie - 16 partenaires commerciaux - Eurozone)
+REER23CPI	Taux de change effectif réel (déflateur : indices des prix à la consommation - 23 partenaires commerciaux)
+REER23PPI	Taux de change effectif réel (déflateur : indices des prix à la production - 23 partenaires commerciaux)
+REER23ULCM	Taux de change effectif réel (déflateur : coût unitaire du travail dans l'industrie manufacturière - 23 partenaires commerciaux)
+REER23ULCT	Taux de change effectif réel (déflateur : coût unitaire du travail dans l'ensemble de l'économie - 23 partenaires commerciaux)
+REER23GDPD	Taux de change effectif réel (déflateur : produit intérieur brut - 23 partenaires commerciaux)
+REER24CPI	Taux de change effectif réel (déflateur : indices des prix à la consommation - 24 partenaires commerciaux)
+REER24ULCM	Taux de change effectif réel (déflateur : coût unitaire du travail dans l'industrie manufacturière - 24 partenaires commerciaux)
+REER24ULCT	Taux de change effectif réel (déflateur : coût unitaire du travail dans l'ensemble de l'économie - 24 partenaires commerciaux)
+REER24PPI	Taux de change effectif réel (déflateur : indices des prix à la production - 24 partenaires commerciaux)
+REER24GDPD	Taux de change effectif réel (déflateur : produit intérieur brut - 24 partenaires commerciaux)
+REER25CPI	Taux de change effectif réel (déflateur : indices des prix à la consommation - 25 partenaires commerciaux)
+REER25ULCT	Taux de change effectif réel (déflateur : coût unitaire du travail dans l'ensemble de l'économie - 25 partenaires commerciaux)
+REER27CPI	Taux de change effectif réel (déflateur : indices des prix à la consommation - 27 partenaires commerciaux)
+REER27ULCT	Taux de change effectif réel (déflateur : coût unitaire du travail dans l'ensemble de l'économie - 27 partenaires commerciaux)
+REER34CPI	Taux de change effectif réel (déflateur : indices des prix à la consommation - 34 partenaires commerciaux)
+REER34ULCT	Taux de change effectif réel (déflateur : coût unitaire du travail dans l'ensemble de l'économie - 34 partenaires commerciaux)
+REER36CPI	Taux de change effectif réel (déflateur : indices des prix à la consommation - 36 partenaires commerciaux)
+REER36ULCT	Taux de change effectif réel (déflateur : coût unitaire du travail dans l'ensemble de l'économie - 36 partenaires commerciaux)
+REER41CPI	Taux de change effectif réel (déflateur : indices des prix à la consommation - 41 partenaires commerciaux)
+REER41ULCT	Taux de change effectif réel (déflateur : coût unitaire du travail dans l'ensemble de l'économie - 41 partenaires commerciaux)
+REER42CPI	Taux de change effectif réel (déflateur : indices des prix à la consommation - 42 partenaires commerciaux)
+REER44CPI	Taux de change effectif réel (déflateur : indices des prix à la consommation - 44 partenaires commerciaux)

@@ -1,0 +1,14 @@
+TOTAL	Total
+COLLIS	Collisions (à l'exception des accidents survenant à un  passage à niveau)
+DERAIL	Déraillements
+DGD	Accidents impliquant un transport de matières dangereuses
+NDGD	Accidents n'impliquant pas un transport de matières dangereuses
+DGD_RL	Accidents entraînant le relâchement de matières dangereuses
+DGD_NRL	Accidents n'entraînant pas le relâchement de matières dangereuses
+LVLCROS	Accidents survenant à un passage à niveau
+RSTK_MOT	Accidents sur des personnes provoqués par du matériel roulant en mouvement
+RD_TRF	Trafic routier
+HOM_SCH	Accident domestique / à l'école / loisir
+RSTK_FIRE	Incendies dans le matériel roulant
+OTH	Autres
+UNK	Inconnu

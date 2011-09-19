@@ -1,0 +1,113 @@
+4131600	Domestiques (Livraisons de 2 000 à 5 000 litres par an)
+4132600	Industrie (Livraisons inférieures à 2 000 tonnes par mois ou 24 000 tonnes par an)
+4139000	Carburants à la pompe
+4141050	Domestiques - D1 (Consommation annuelle: 8.37 GJ)
+4141100	Domestiques - D2 (Consommation annuelle: 16.74 GJ)
+4141150	Domestiques - D3 (Consommation annuelle: 83.70 GJ)
+4141200	Domestiques - D3-b (Consommation annuelle: 125.60 GJ)
+4141250	Domestiques - D4 (Consommation annuelle: 1 047 GJ)
+4141300	Domestiques - D2-b (Royaume-Uni seulement) (Consommation annuelle: 33.49 GJ)
+4142050	Industrie - I1 (Consommation annuelle: 418.6 GJ; pas de modulation prescrite) (pour Belgique: fourniture ferme (non effaçable) pour des applications non-spécifiques aisément substituables par les fuels résiduels (CNE 1 P1))
+4142100	Industrie - I2 (Consommation annuelle: 4 186 GJ; modulation: 200 jours) (pour Belgique: fourniture ferme (non effaçable) pour des applications non-spécifiques aisément substituables par les fuels résiduels (CNE 1 P1))
+4142150	Industrie - code I3-1 (Consommation annuelle: 41 860 GJ; modulation: 200 jours, 1 600 heures) (pour Belgique: fourniture ferme (non effaçable) pour des applications non-spécifiques aisément substituables par les fuels résiduels (CNE 1 P1))
+4142200	Industrie - I3-2 (Consommation annuelle: 41 860 GJ; modulation: 250 jours, 4 000 heures) (pour Belgique: fourniture ferme (non effaçable) pour des applications non-spécifiques aisément substituables par les fuels résiduels (CNE 1 P1))
+4142250	Industrie -  I4-1 (Consommation annuelle: 418 600 GJ; modulation: 250 jours, 4 000 heures) (pour Belgique: fourniture ferme (non effaçable) pour des applications non-spécifiques aisément substituables par les fuels résiduels (CNE 1 P1))
+4142300	Industrie - I4-2 (Consommation annuelle: 418 600 GJ; modulation: 330 jours, 8 000 heures) (pour Belgique: fourniture ferme (non effaçable) pour des applications non-spécifiques aisément substituables par les fuels résiduels (CNE 1 P1))
+4142350	Industrie - I5 (Consommation annuelle: 4 186 000 GJ; modulation: 330 jours, 8 000 heures) (pour Belgique: fourniture ferme (non effaçable) pour des applications non-spécifiques aisément substituables par les fuels résiduels (CNE 1 P1))
+4161050	Domestiques - Da (Consommation annuelle: 600 kWh)
+4161100	Domestiques - Db (Consommation annuelle: 1 200 kWh)
+4161150	Domestiques - Dc (Consommation annuelle: 3 500 kWh dont nuit 1 300)
+4161200	Domestiques - Dd (Consommation annuelle: 7 500 kWh dont nuit 2 500)
+4161250	Domestiques - De (Consommation annuelle: 20 000 kWh dont nuit 15 000)
+4162050	Industrie - Ia (Consommation annuelle: 30 MWh; demande maximale: 30 kW; modulation: 1 000 heures) (pour Luxembourg: effacement de 50 % durant les heures de grande charge)
+4162100	Industrie - Ib (Consommation annuelle: 50 MWh; demande maximale: 50 kW; modulation: 1 000 heures) (pour Luxembourg: effacement de 50 % durant les heures de grande charge)
+4162150	Industrie - Ic (Consommation annuelle: 160 MWh; demande maximale: 100 kW; modulation: 1 600 heures) (pour Luxembourg: effacement de 50 % durant les heures de grande charge)
+4162200	Industrie - Id (Consommation annuelle: 1 250 MWh; demande maximale: 500 kW; modulation: 2 500 heures) (pour Luxembourg: effacement de 50 % durant les heures de grande charge)
+4162250	Industrie - Ie (Consommation annuelle: 2 000 MWh; demande maximale: 500 kW; modulation: 4 000 heures) (pour Luxembourg: effacement de 50 % durant les heures de grande charge)
+4162300	Industrie - If (Consommation annuelle: 10 000 MWh; demande maximale: 2 500 kW; modulation: 4 000 heures) (pour Luxembourg: effacement de 50 % durant les heures de grande charge)
+4162350	Industrie - Ig (Consommation annuelle: 24 000 MWh; demande maximale: 4 000 kW; modulation: 6 000 heures) (pour Luxembourg: effacement de 50 % durant les heures de grande charge)
+4162400	Industrie - Ih (Consommation annuelle: 50 000 MWh; demande maximale: 10 000 kW; modulation: 5 000 heures) (pour Luxembourg: effacement de 50 % durant les heures de grande charge)
+4162450	Industrie - Ii (Consommation annuelle: 70 000 MWh; demande maximale: 10 000 kW; modulation: 7 000 heures) (pour Luxembourg: effacement de 50 % durant les heures de grande charge)
+4262600	Industrie 25 MW (comprenant las puissances appelées maximales entre 17.5 et 37.5 MW)
+4262610	Industrie 25 MW (bas)
+4262620	Industrie 25 MW (haut)
+4262630	Industrie 25 MW base 5000 heures (France seulement)
+4262700	Industrie 50 MW (comprenant las puissances appelées maximales entre 37.5 et 62.5 MW)
+4262710	Industrie 50 MW(bas)
+4262720	Industrie 50 MW (haut)
+4262730	Industrie 50 MW base 5000 heures (France seulement)
+4262800	Industrie 75 MW (comprenant las puissances appelées maximales entre 62.5 et 75 MW)
+4262810	Industrie 75 MW (bas)
+4262820	Industrie 75 MW (haut)
+4262830	Industrie 75 MW base 5000 heures (France seulement)
+4142051	Industrie - I1 (Belgique seulement: fourniture totalement effaçable pour des applications non-spécifiques aisément substituables par les fuels résiduels (CNE 0 P 0.9))
+4142052	Industrie - I1 (Belgique seulement: fourniture effaçable à 50% pour des applications non-spécifiques aisément substituables par les fuels résiduels (CNE 0.5 P 1))
+4142054	Industrie - I1 (Belgique seulement: fourniture ferme (non effaçable) pour des applications spécifiques non substituables par les fuels résiduels (CNE 1 P 1.1))
+4142101	Industrie - I2 (Belgique seulement: fourniture totalement effaçable pour des applications non-spécifiques aisément substituables par les fuels résiduels (CNE 0 P 0.9))
+4142102	Industrie - I2 (Belgique seulement: fourniture effaçable à 50% pour des applications non-spécifiques aisément substituables par les fuels résiduels (CNE 0.5 P 1))
+4142104	Industrie - I2 (Belgique seulement: fourniture ferme (non effaçable) pour des applications spécifiques non substituables par les fuels résiduels (CNE 1 P 1.1))
+4142151	Industrie - I3-1 (Belgique seulement: fourniture totalement effaçable pour des applications non-spécifiques aisément substituables par les fuels résiduels (CNE 0 P 0.9))
+4142152	Industrie - I3-1 (Belgique seulement: fourniture effaçable à 50% pour des applications non-spécifiques aisément substituables par les fuels résiduels (CNE 0.5 P 1))
+4142154	Industrie - I3-1 (Belgique seulement: fourniture ferme (non effaçable) pour des applications spécifiques non substituables par les fuels résiduels (CNE 1 P 1.1))
+4142201	Industrie - I3-2 (Belgique seulement: fourniture totalement effaçable pour des applications non-spécifiques aisément substituables par les fuels résiduels (CNE 0 P 0.9))
+4142202	Industrie - I3-2 (Belgique seulement: fourniture effaçable à 50% pour des applications non-spécifiques aisément substituables par les fuels résiduels (CNE 0.5 P 1))
+4142204	Industrie - I3-2 (Belgique seulement: fourniture ferme (non effaçable) pour des applications spécifiques non substituables par les fuels résiduels (CNE 1 P 1.1))
+4142251	Industrie - I4-1 (Belgique seulement: fourniture totalement effaçable pour des applications non-spécifiques aisément substituables par les fuels résiduels (CNE 0 P 0.9))
+4142252	Industrie - I4-1 (Belgique seulement: fourniture effaçable à 50% pour des applications non-spécifiques aisément substituables par les fuels résiduels (CNE 0.5 P 1))
+4142254	Industrie - I4-1 (Belgique seulement: fourniture ferme (non effaçable) pour des applications spécifiques non substituables par les fuels résiduels (CNE 1 P 1.1))
+4142301	Industrie - I4-2 (Belgique seulement: fourniture totalement effaçable pour des applications non-spécifiques aisément substituables par les fuels résiduels (CNE 0 P 0.9))
+4142302	Industrie - I4-2 (Belgique seulement: fourniture effaçable à 50% pour des applications non-spécifiques aisément substituables par les fuels résiduels (CNE 0.5 P 1))
+4142304	Industrie - I4-2 (Belgique seulement: fourniture ferme (non effaçable) pour des applications spécifiques non substituables par les fuels résiduels (CNE 1 P 1.1))
+4142351	Industrie - I5 (Belgique seulement: fourniture totalement effaçable pour des applications non-spécifiques aisément substituables par les fuels résiduels (CNE 0 P 0.9))
+4142352	Industrie - I5 (Belgique seulement: fourniture effaçable à 50% pour des applications non-spécifiques aisément substituables par les fuels résiduels (CNE 0.5 P 1))
+4142354	Industrie - I5 (Belgique seulement: fourniture ferme (non effaçable) pour des applications spécifiques non substituables par les fuels résiduels (CNE 1 P 1.1))
+4162051	Industrie - Ia (Luxembourg seulement: effacement de 0 % durant les heures de grande charge)
+4162053	Industrie - Ia (Luxembourg seulement: effacement de 100 % durant les heures de grande charge)
+4162101	Industrie - Ib (Luxembourg seulement: effacement de 0 % durant les heures de grande charge)
+4162103	Industrie - Ib (Luxembourg seulement: effacement de 100 % durant les heures de grande charge)
+4162151	Industrie - Ic (Luxembourg seulement: effacement de 0 % durant les heures de grande charge)
+4162153	Industrie - Ic (Luxembourg seulement: effacement de 100 % durant les heures de grande charge)
+4162201	Industrie - Id (Luxembourg seulement: effacement de 0 % durant les heures de grande charge)
+4162203	Industrie - Id (Luxembourg seulement: effacement de 100 % durant les heures de grande charge)
+4162251	Industrie - Ie (Luxembourg seulement: effacement de 0 % durant les heures de grande charge)
+4162253	Industrie - Ie (Luxembourg seulement: effacement de 100 % durant les heures de grande charge)
+4162301	Industrie - If (Luxembourg seulement: effacement de 0 % durant les heures de grande charge)
+4162303	Industrie - If (Luxembourg seulement: effacement de 100 % durant les heures de grande charge)
+4162351	Industrie - Ig (Luxembourg seulement: effacement de 0 % durant les heures de grande charge)
+4162353	Industrie - Ig (Luxembourg seulement: effacement de 100 % durant les heures de grande charge)
+4162401	Industrie - Ih (Luxembourg seulement: effacement de 0 % durant les heures de grande charge)
+4162403	Industrie - Ih (Luxembourg seulement: effacement de 100 % durant les heures de grande charge)
+4162451	Industrie - Ii (Luxembourg seulement: effacement de 0 % durant les heures de grande charge)
+4162453	Industrie - Ii (Luxembourg seulement: effacement de 100 % durant les heures de grande charge)
+4262631	Industrie 25 MW base -6% (France seulement)
+4262632	Industrie 25 MW base -8% (France seulement)
+4262633	Industrie 25 MW base -10% (France seulement)
+4262634	Industrie 25 MW référence (Portugal seulement)
+4262731	Industrie 50 MW base -6% (France seulement)
+4262732	Industrie 50 MW base -8% (France seulement)
+4262733	Industrie 50 MW base -10% (France seulement)
+4262734	Industrie 50 MW référence (Portugal seulement)
+4262831	Industrie 75 MW base -6% (France seulement)
+4262832	Industrie 75 MW base -8% (France seulement)
+4262833	Industrie 75 MW base -10% (France seulement)
+4141901	Tranche D1 : Consommation < 20 GJ
+4141902	Tranche D2 : 20 GJ < Consommation < 200 GJ
+4141903	Tranche D3 : Consommation > 200 GJ
+4142901	Tranche I1 : Consommation < 1 000 GJ
+4142902	Tranche I2 : 1 000 GJ < Consommation < 10 000 GJ
+4142903	Tranche I3 : 10 000 GJ < Consommation < 100 000 GJ
+4142904	Tranche I4 : 100 000 GJ < Consommation < 1 000 000 GJ
+4142905	Tranche I5 : 1 000 000 GJ < Consommation < 4 000 000 GJ
+4142906	Tranche I6 : Consommation > 4 000 000 GJ
+4161901	Tranche DA : Consommation < 1 000 kWh
+4161902	Tranche DB : 1 000 kWh < Consommation < 2 500 kWh
+4161903	Tranche DC : 2 500 kWh < Consommation < 5 000 kWh
+4161904	Tranche DD : 5 000 kWh < Consommation < 15 000 kWh
+4161905	Tranche DE : Consommation > 15 000 kWh
+4162901	Tranche IA : Consommation < 20 MWh
+4162902	Tranche IB : 20 MWh < Consommation < 500 MWh
+4162903	Tranche IC : 500 MWh < Consommation < 2 000 MWh
+4162904	Tranche ID : 2 000 MWh < Consommation < 20 000 MWh
+4162905	Tranche IE : 20 000 MWh < Consommation < 70 000 MWh
+4162906	Tranche IF : 70 000 MWh < Consommation < 150 000 MWh
+4162907	Tranche IG : Consommation > 150 000 MWh

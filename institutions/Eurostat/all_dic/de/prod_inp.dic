@@ -1,0 +1,68 @@
+20210000	Strom, Elektrizität
+20221000	Destillat-Heizöl
+20222000	Rückstands-Heizöl
+20231000	Motorenbenzin
+20232000	Dieselkraftstoff
+20311100	Ammonsulfat
+20311201	Kalkammonsalpeter (26 % N) (Sackware)
+20311202	Kalkammonsalpeter (26 % N) (Schüttgut)
+20311301	Ammonsalpeter (33 % N) (Sackware)
+20311400	Harnstoff (Nährstoffgehalt: 46 %)
+20312100	Superphosphat
+20312200	Tripelsuperphosphat (46 % P2O5)
+20313100	Kaliumchlorid
+20313200	Kaliumsulfat
+20321100	Zweinährstoffdünger: 1 - 1 - 0
+20322100	Zweinährstoffdünger: 0 - 1 - 1
+20322200	Zweinährstoffdünger: 0 - 20 - 20
+20323100	Dreinährstoffdünger: 1 - 0.5 - 0.5
+20323600	Dreinährstoffdünger: 20 - 10 - 10
+20323201	Dreinährstoffdünger: 1 - 1 - 1 (Sackware)
+20323301	Dreinährstoffdünger: 17 - 17 - 17 (Sackware)
+20323202	Dreinährstoffdünger: 1 - 1 - 1 (Schüttgut)
+20323302	Dreinährstoffdünger: 17 - 17 - 17 (Schüttgut)
+20323700	Dreinährstoffdünger: 1 - 2 - 2
+20323800	Dreinährstoffdünger: 9 - 9 - 18
+20323400	Dreinährstoffdünger: 1 - 1 - 2
+20323500	Dreinährstoffdünger: 10 - 20 - 20
+20611100	Futtermittel: Futterweizen
+20611200	Futtermittel: Gerste
+20611300	Futtermittel: Hafer
+20611400	Futtermittel: Mais
+20611500	Futtermittel: Weizenkleie
+20611600	Futtermittel: Gerste - gemahlen
+20611700	Futtermittel: Mais - gemahlen
+20612100	Leinkuchen (gepreßt)
+20612200	Sojaextraktionsschrot (getoastet)
+20613100	Tiermehl
+20613200	Fischmehl
+20619100	Diffusionsschnitzel - getrocknet
+20619200	Wiesenheu
+20619300	Luzerneheu
+20619400	Getreidestroh
+20621100	Ergänzungsfutter für die Kälberaufzucht
+20619901	Milchaustauschfutter für Kälber (Sackware)
+20619902	Milchaustauschfutter für Kälber (Schüttgut)
+20622910	Ergänzungsfutter für Milchvieh bei Weidegang
+20622921	Ergänzungsfutter für Milchvieh (Aufstallung) (Sackware)
+20622922	Ergänzungsfutter für Milchvieh (Aufstallung) (Schüttgut)
+20622931	Eiweißreiches Ergänzungsfutter für Milchvieh (Aufstallung) (Sackware)
+20622932	Eiweißreiches Ergänzungsfutter für Milchvieh (Aufstallung) (Schüttgut)
+20622101	Ergänzungsfutter für die Rindermast (Sackware)
+20622102	Ergänzungsfutter für die Rindermast (Schüttgut)
+20622111	Eiweißreiches Ergänzungsfutter für die Rindermast (Sackware)
+20622112	Eiweißreiches Ergänzungsfutter für die Rindermast (Schüttgut)
+20623101	Alleinfutter für die Ferkelaufzucht (Sackware)
+20623102	Alleinfutter für die Ferkelaufzucht (Schüttgut)
+20623301	Alleinfutter für Zuchtsauen (Sackware)
+20623302	Alleinfutter für Zuchtsauen (Schüttgut)
+20623201	Alleinfutter für die Schweinemast (Sackware)
+20623202	Alleinfutter für die Schweinemast (Schüttgut)
+20624101	Alleinfutter für Küken der ersten Tage (Sackware)
+20624102	Alleinfutter für Küken der ersten Tage (Schüttgut)
+20624201	Alleinfutter für Junghennen bis zur Legereife (Sackware)
+20624202	Alleinfutter für Junghennen bis zur Legereife (Schüttgut)
+20624301	Alleinfutter für Legehennen in Batteriehaltung (Sackware)
+20624302	Alleinfutter für Legehennen in Batteriehaltung (Schüttgut)
+20624501	Alleinfutter für die Endmast von Geflügel (Sackware)
+20624502	Alleinfutter für die Endmast von Geflügel (Schüttgut)

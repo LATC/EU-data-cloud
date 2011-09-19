@@ -1,0 +1,101 @@
+A_B	Agriculture; pêche
+A01	Agriculture, chasse, services annexes
+A02	Sylviculture, exploitation forestière, services annexes
+B05	Pêche, aquaculture
+C-E	Industrie (sauf construction)
+CA10	Extraction de houille, de lignite et de tourbe
+CA11	Extraction d'hydrocarbures; services annexes
+CA12	Extraction de minerais d'uranium
+CB13	Extraction de minerais métalliques
+CB14	Autres industries extractives
+DA15	Industries alimentaires
+DA16	Industrie du tabac
+DB17	Industrie textile
+DB18	Industrie de l'habillement et des fourrures
+DC19	Industrie du cuir et de la chaussure
+DD20	Travail du bois et fabrication d'articles en bois
+DE21	Industrie du papier et du carton
+DE22	Edition, imprimerie, reproduction
+DF23	Cokéfaction, raffinage, industries nucléaires
+DG24	Industrie chimique
+DH25	Industrie du caoutchouc et des plastiques
+DI26	Fabrication d'autres produits minéraux non métalliques
+DJ27	Métallurgie
+DJ28	Travail des métaux
+DK29	Fabrication de machines et équipements
+DL30	Fabrication de machines de bureau et de matériel informatique
+DL31	Fabrication de machines et appareils électriques
+DL32	Fabrication d'équipements de radio, télévision et communication
+DL33	Fabrication d'instruments médicaux, de précision, d'optique et d'horlogerie
+DM34	Industrie automobile
+DM35	Fabrication d'autres matériels de transport
+DN36	Fabrication de meubles; industries diverses
+DN37	Récupération
+E40	Production et distribution d'électricité, de gaz et de chaleur
+E41	Captage, traitement et distribution d'eau
+F	Construction
+F45	Construction
+G-I	Commerce; hôtels et restaurants; transports 
+G50	Commerce et réparation automobile
+G51	Commerce de gros et intermédiaires du commerce
+G52	Commerce de détail et réparation d'articles domestique
+H55	Hôtels et restaurants
+J_K	Activités financières; immobilier
+I60	Transports terrestres
+I61	Transports par eau
+I62	Transports aériens
+I63	Services auxiliaires des transports
+I64	Postes et télécommunications
+J65	Intermédiation financière
+J66	Assurance
+J67	Auxiliaires financiers et d'assurance
+L-P	Administration publique et services collectifs; activités des ménages
+K70	Activités immobilières
+K71	Location sans opérateur
+K72	Activités informatiques
+K73	Recherche et développement
+K74	Services fournis principalement aux entreprises
+L75	Administration publique
+M80	Education
+N85	Santé et action sociale
+O90	Assainissement, voirie et gestion des déchets
+O91	Activités associatives
+O92	Activités récréatives, culturelles et sportives
+O93	Services personnels
+P95	Services domestiques
+P119	Services d'intermédiation financière indirectement mesurés (SIFIM)
+TOTAL	Total
+P2I	Utilisation des produits importés
+P3_S14	Dépense de consommation finale des ménages
+P3_S15	Dépense de consommation finale par organisations sans but lucratif en service de ménages
+P3_S13	Dépense de consommation finale par l'administration publique
+P3	Dépense de consommation finale
+P51	Formation brute de capital fixe
+P53	Variations des valeurs
+P52_P53	Variations des stocks et des valeurs
+P52	Variation des stocks
+P5	Formation brute de capital
+P3_P5	Demande intérieure
+P6_S21	Exportations Intra-UE fob
+P6_S22	Exportations Extra-UE fob
+P6	Exportations
+P6_X_P7	Exportations nettes (exportations moins importations)
+P7_S21	Importations Intra-UE cif
+P7_S22	Importations Extra-UE cif
+TFINU	Emploi final aux prix d'achat
+FINUBP	Emploi final aux prix de base
+TUBP	Emploi total aux prix de base
+P7	Importations cif
+SUPBP	Offres totales aux prix de base
+P118	Marges commerciales et de transport
+D21_M_D31	Impôts moins subventions sur les produits
+SUPPP	Offres totales aux prix d'achat
+TU	Emploi total aux prix d'achat
+TOT_CA	Total ajusté
+TOT_ADJ	Total des ajustements
+P7_S2I	Importations de biens et services en provenance des membres de l'UEM (cif)
+P7_S2X	Importations de biens et services en provenance des non-membres de l'UEM (cif)
+D11	Salaires et traitements bruts
+B3G	Revenu mixte brut
+P6_S2I	Exportations de biens et de services à destination des membres de l'UEM (fob)
+P6_S2X	Exportations de biens et de services vers les non-membres de l'UME (fob)

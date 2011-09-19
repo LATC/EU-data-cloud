@@ -1,0 +1,31 @@
+TOTAL	Insgesamt
+ALPS	Immer positiv
+DAY	Täglich
+MON	Monatlich
+WEEK	Wöchentlich
+OCCS	Manchmal
+OFTN	Oft
+ALWS	Immer
+USUALLY	Gewöhnlich
+SOMETIME	Manchmal
+NEVER	Nie
+GE_1W	Mindenstens ein Mal pro Woche
+W_GE1	Mindenstens ein Mal pro Woche
+GE_1M	Mindenstes ein mal pro Monat
+M_GE1	Mindenstes ein mal pro Monat
+LT_1M	Weniger als ein Mal pro Woche
+M_LT1	Weniger als ein Mal pro Woche
+N_12M	Nicht während der 12 letzten Monate
+M_GT12	Nicht während der 12 letzten Monate
+D_GE2	Zwei mal oder mehrmals am Tag
+D1	Einmal am Tag
+W1	Einmal in der Woche
+M1	Einmal im Monat
+W1-3	Weniger als ein Mal pro Woche aber mindestens ein mal die Woche
+W4-6	Weniger als ein Mal pro Tag aber mindestens 4 mal die Woche
+W_LT1	Weniger als ein Mal pro Woche
+NAP	Nicht anwendbar
+NRP	Keine Antwort
+UNK	Unbekannt
+NEV_OCCS	Nie oder manchmal
+NBINGE	Kein übertriebener Alkoholkonsum

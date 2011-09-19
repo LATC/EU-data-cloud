@@ -1,0 +1,70 @@
+STRIKES	Nombre total de grèves et de lock-out
+DAY_LOST	Nombre de jours de travail perdus (1000)
+EMP_INV	Nombre de travailleurs impliqués (1000)
+DAYS_1000EMP	Jours de travail perdus pour 1000 travailleurs
+EMP_1000EMP	Travailleurs impliqués pour 1000 travailleurs
+POP	Population totale
+POP_15_64	Population (15 à 64 ans)
+ACT	Population active
+ACT_PCH	Croissance de la population active
+EMP	Emploi total (intérieur - ESA)
+EMP_LFS	Emploi total (population résidente - EFT)
+EMP_15_64	Emploi (15 à 64 ans)
+EMP_PCH	Croissance de l'emploi
+EMP_RT_15_64	Taux d'emploi (15 à 64 ans)
+EMP_RT_20_64	Taux d'emploi (20 à 64 ans)
+EMP_RT_15_24	Taux d'emploi (15 à 24 ans)
+EMP_RT_25_54	Taux d'emploi (25 à 54 ans)
+EMP_RT_55_64	Taux d'emploi (55 à 64 ans)
+SELF_EMP_RT	Indépendants en pourcentage de l'emploi total
+PT_EMP_RT	Travailleur à temps partiel en pourcentage de l'emploi total
+TEMP_RT	Pourcentage de salariés ayant un contrat à durée déterminée
+SERV_RT	Services en pourcentage de l'emploi total
+INDU_RT	Industrie en pourcentage de l'emploi total
+AGRI_RT	Agriculture en pourcentage de l'emploi total
+AGRI_PCH	Croissance de l'emploi dans le secteur agricole
+ACT_PPCH	Evolution du taux d'activité par rapport à l'année précèdente
+IND_PCH	Croissance de l'emploi dans le secteur industriel
+SERV_PCH	Croissance de l'emploi dans le secteur des services
+ACT_RT_15_64	Taux d'activité (15 à 64 ans)
+ACT_RT_15_24	Taux d'activité (15 à 24 ans)
+ACT_RT_20_64	Taux d'activité (20 à 64 ans)
+ACT_RT_25_54	Taux d'activité 25 à 54 ans)
+ACT_RT_55_64	Taux d'activité (55 à 64 ans)
+LTU_ACT_RT	Chômage de longue durée en pourcentage de la population active
+LTU_UNE_RT	Chômage de longue durée en pourcentage du chômage
+VLTU_ACT_RT	Chômage de très longue durée en pourcentage de la population active
+UNE_POP_15_24_RT	Chômage de la population âgée de 15 à 24 ans
+JOBVAC	Nombre de vacances d'emplois
+JOBOCC	Nombre des postes occupés
+JOBRATE	Taux de vacances d'emplois
+CH_Q_Q	Variation du taux de vacances d'emploi d'un trimestre à l'autre
+CH_Y_Y	Variation du taux de vacances d'emploi d'une année à l'autre
+SC051	Jeunes ayant quitté prématurément l'éducation et la formation - Pourcentage de la population âgée de 18-24 ans ne suivant ni études ni formation et dont le niveau d'études ne dépasse pas l'enseignement secondaire inférieur
+SC052	Jeunes ayant quitté prématurément l'éducation et la formation - femmes - Pourcentage de la population féminine âgée de 18-24 ans ne suivant ni études ni formation et dont le niveau d'études ne dépasse pas l'enseignement secondaire inférieur
+SC053	Jeunes ayant quitté prématurément l'éducation et la formation - hommes - Pourcentage de la population masculine âgée de de 18-24 ans ne suivant ni études ni formation et dont le niveau d'études ne dépasse pas l'enseignement secondaire inférieur
+SC071	Enfants âgés de 0 à 17 ans dans les ménages sans emploi : part des personnes de 0 à 17 ans vivant dans les ménages dont aucun des membres n'a d'emploi
+SC072	Personnes âgés de 18 à 59 ans dans les ménages sans emploi : part des personnes de 18 à 59 ans vivant dans les ménages dont aucun des membres n'a d'emploi
+SC073	Femmes âgées de 18 à 59 ans dans les ménages sans emploi : part des femmes de 18 à 59 ans vivant dans les ménages dont aucun des membres n'a d'emploi
+SC074	Hommes âgés de 18 à 59 ans dans les ménages sans emploi : part des hommes de 18 à 59 ans vivant dans les ménages dont aucun des membres n'a d'emploi
+EM021	Âge moyen de sortie du marché du travail - total - pondéré par la probabilité de sortie du marché du travail
+EM022	Âge moyen de sortie du marché du travail - population féminine - pondéré par la probabilité de sortie du marché du travail
+EM023	Âge moyen de sortie du marché du travail - population masculine - pondéré par la probabilité de sortie du marché du travail
+EM051	Formation permanente (participation des adultes à la formation et à l'enseignement) - Pourcentage de la population âgée de 25-64 ans ayant participé à une formation ou à un enseignement au cours des quatre semaines précédant l'enquête
+EM052	Formation permanente (participation des adultes à la formation et à l'enseignement) - femmes - Pourcentage de la population féminine âgée de 25-64 ans ayant participé à une formation ou à un enseignement au cours des quatre semaines précédant l'enquête
+EM053	Formation permanente (participation des adultes à la formation et à l'enseignement) - hommes - Pourcentage de la population masculine âgée de 25-64 ans ayant participé à une formation ou à un enseignement au cours des quatre semaines précédant l'enquête
+IR091	Niveau d'éducation des jeunes - Pourcentage de la population âgée de 20 à 24 ans ayant atteint au moins un niveau d'éducation secondaire supérieur
+IR092	Niveau d'éducation des jeunes - femmes - Pourcentage de la population féminine âgée de 20 à 24 ans ayant atteint au moins un niveau d'éducation secondaire supérieur
+IR093	Niveau d'éducation des jeunes - hommes - Pourcentage de la population masculine âgée de 20 à 24 ans ayant atteint au moins un niveau d'éducation secondaire supérieur
+SO011	Pourcentage de la population âgée de 25-64 ans ayant atteint au moins un niveau d'éducation secondaire supérieur
+SO012	Pourcentage de la population féminine âgée de 25-64 ans ayant atteint au moins un niveau d'éducation secondaire supérieur
+SO013	Pourcentage de la population masculine âgée de 25-64 ans ayant atteint au moins un niveau d'éducation secondaire supérieur
+SO031	Pourcentage de la population âgée de 25-64 ans ayant atteint au plus un niveau d'éducation secondaire inférieur
+SO032	Pourcentage de la population âgée de 25-34 ans ayant atteint au plus un niveau d'éducation secondaire inférieur
+SO033	Pourcentage de la population âgée de 35-44 ans ayant atteint au plus un niveau d'éducation secondaire inférieur
+SO034	Pourcentage de la population âgée de 45-54 ans ayant atteint au plus un niveau d'éducation secondaire inférieur
+SO035	Pourcentage de la population âgée de 55-64 ans ayant atteint au plus un niveau d'éducation secondaire inférieur
+SO036	Pourcentage de la population âgée d'au moins 65 ans ayant atteint au plus un niveau d'éducation secondaire inférieur
+SO041	Pourcentage de la population âgée de 30-34 ans ayant atteint un niveau d'éducation supérieur
+SO042	Pourcentage de la population féminine âgée de 30-34 ans ayant atteint un niveau d'éducation supérieur
+SO043	Pourcentage de la population masculine âgée de 30-34 ans ayant atteint un niveau d'éducation supérieur 

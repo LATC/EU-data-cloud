@@ -1,0 +1,206 @@
+TOTAL	Insgesamt
+1	Spezialisierte Ackerbaubetriebe
+11	Spezialisierte Getreidebetriebe
+111	Spezialisierte Getreidebetriebe (andere als Reis)
+112	Spezialisierte Reisbetriebe
+113	Getreide-Reiskombinationsbetriebe
+12	Spezialisierte Ackerbaubetriebe allgmeiner Art
+121	Spezialisierte Hackfruchtbetriebe
+122	Getreide- und Hackfruchtverbundbetriebe
+123	Spezialisierte Feldgemüsebetriebe
+124	Betriebe mit verschiedenen Ackerbaugewächsen
+1241	Spezialisierte Tabakbetriebe
+1242	Spezialisierte Baumwollbetriebe
+1243	Spezialisierte Öl- und Textilpflanzbetriebe
+1244	Ackerbaugemischbetriebe
+13	Spezialisierte Getreide-, Ölsaaten- und Eiweißpflanzenanbaubetriebe
+131	Spezialisierte Getreidebetriebe (andere als Reis), Ölsaaten- und Eiweißpflanzenbetriebe
+132	Spezialisierte Reisbetriebe
+133	Getreide-, Eiweißpflanzen-, Ölsaaten- und Reiskombinationsbetriebe
+14	Spezialisierte Ackerbaubetriebe allgemeiner Art
+141	Spezialisierte Hackfruchtbetriebe
+142	Getreide- und Hackfruchtverbundbetriebe
+143	Spezialisierte Feldgemüsebetriebe
+144	Betriebe mit verschiedenen Ackerbaugewächsen
+1441	Spezialisierte Tabakbetriebe
+1442	Spezialisierte Baumwollbetriebe
+1443	Ackerbaugemischtbetriebe
+2	Spezialisierte Gartenbaubetriebe
+20	Spezialisierte Gartenbaubetriebe
+201	Spezialisierte Gemüse-Gartenbaubetriebe
+2011	Spezialisierte Freilandgemüse-Gartenbaubetriebe
+2012	Spezialisierte Unterglasgemüse-Gartenbaubetriebe
+2013	Spezialisierte Gemüse-Gartenbaubetriebe, Freiland und Unterglas kombiniert
+202	Spezialisierte Blumen- und Zierpflanzenbetriebe
+2021	Spezialisierte Freiland-Blumen- und Zierpflanzenbetriebe
+2022	Spezialisierte Unterglas-Blumen- und Zierpflanzenbetriebe
+2023	Spezialisierte Blumen- und Zierpflanzenbetriebe, Freiland und Unterglas kombiniert
+203	Spezialisierte Gartenbaubetriebe allgemeiner Art
+2031	Allgemeine Freiland-Gartenbaubetriebe
+2032	Allgemeine Unterglas-Gartenbaubetriebe
+2033	Spezialisierte Pilzzuchtbetriebe
+2034	Gartenbaugemischtbetriebe
+3	Spezialisierte Dauerkulturbetriebe
+31	Spezialisierte Rebanlagenbetriebe
+311	Spezialisierte Qualitätsweinbaubetriebe
+312	Spezialisierte Weinbaubetriebe-andere als Qualitätswein
+313	Spezialisierte Weinbaubetriebe-Qualitätswein und andere Weine kombiniert
+314	Rebanlagenbetriebe mit verschiedenen Produktionsrichtungen
+3141	Spezialisierte Tafeltraubenbetriebe
+3142	Spezialisierte Rosinenbetriebe
+3143	Rebanlagengemischtbetriebe
+32	Spezialisierte Obst- und Zitrusbetriebe
+321	Spezialisierte Obstbetriebe (andere als Zitrusfrüchte)
+3211	Spezialisierte Frischobstbetriebe (andere als Zitrusfrüchte)
+3212	Spezialisierte Schalenfruchtbetriebe
+3213	Frischobst- (andere als Zitrusfrüchte) und Schalenfruchtkombinationsbetriebe
+322	Spezialisierte Zitrusbetriebe
+323	Obst- und Zitruskombinationsbetriebe
+33	Spezialisierte Olivenbetriebe
+34	Dauerkulturgemischtbetriebe
+4	Spezialisierte Weideviehbetriebe
+41	Spezialisierte Milchviehbetriebe
+411	Spezialisierte Milchbetriebe
+412	Spezialisierte Milchbetriebe mit Rinderaufzucht
+42	Spezialisierte Rinderaufzucht
+421	Spezialisierte Rinderaufzuchtbetriebe
+422	Spezialisierte Rindermastbetriebe
+43	Rindviehbetriebe: Milcherzeugung, Aufzucht und Mast kombiniert
+431	Rindviehbetriebe-Milcherzeugung mit Aufzucht und Mast
+432	Rindviehbetriebe-Aufzucht und Mast mit Milcherzeugung
+44	Weideviehbetriebe: Schafe, Ziegen und andere
+441	Spezialisierte Schafbetriebe
+442	Schaf-und Rindviehverbundbetriebe
+443	Spezialisierte Ziegenbetriebe
+444	Betriebe mit verschiedenem Weidevieh ohne dominante Ausrichtung
+5	Spezialisierte Veredlungsbetriebe
+50	Spezialisierte Veredlungsbetriebe
+501	Spezialisierte Schweinebetriebe
+5011	Spezialisierte Schweineaufzuchtbetriebe
+5012	Spezialisierte Schweinemastbetriebe
+5013	Schweineaufzucht und -mastverbundbetriebe
+502	Spezialisierte Geflügelbetriebe
+5021	Spezialisierte Legehennenbetriebe
+5022	Spezialisierte Geflügelmastbetriebe
+5023	Legehennen- und Geflügelmastverbundbetriebe
+503	Veredlungsbetriebe mit verschiedenen Verbunderzeugnissen
+5031	Schweine- und Geflügelverbundbetriebe
+5032	Veredlungsbetriebe mit Schweine- und Geflügelhaltung sowie anderen Verbunderzeugnissen
+1_TO_5	Spezialisierte landwirtschaftliche Betriebssysteme (Typen 1 bis 5)
+6	Pflanzenbauverbundbetriebe
+60	Pflanzenbauverbundbetriebe
+601	Kombinierte Gartenbau-Dauerkulturverbundbetriebe
+602	Acker- und Gartenbauverbundbetriebe
+603	Acker- und Rebanlagenverbundbetriebe
+604	Ackerbau- und Dauerkulturverbundbetriebe
+605	Pflanzenbauverbundbetriebe mit Betonung Ackerbau
+606	Pflanzenbauverbundbetriebe mit Betonung Gartenbau oder Dauerkulturen
+6061	Pflanzenbauverbundbetriebe mit Betonung Gartenbau
+6062	Pflanzenbauverbundbetriebe mit Betonung Dauerkulturen
+7	Viehhaltungsverbundbetriebe
+71	Viehhaltungsverbundbetriebe-Teilausrichtung Weidevieh
+711	Viehhaltungsverbundbetriebe-Teilausrichtung Milcherzeugung
+712	Viehhaltungsverbundbetriebe-Teilausrichtung Weidevieh, andere als Milchvieh
+72	Viehhaltungsverbundbetriebe-Teilausrichtung Veredlung
+721	Viehhaltungsverbundbetriebe: Veredlung und Milchvieh
+722	Viehhaltungsverbundbetriebe: Veredlung und Weidevieh, andere als Milchvieh
+723	Viehhaltungsverbundbetriebe: Veredlung und verschiedene Vieharten
+8	Pflanzenbau-Viehhaltungsbetriebe
+81	Ackerbau-Weideviehverbundbetriebe
+811	Ackerbau-Milchviehverbundbetriebe
+812	Milchvieh-Ackerbauverbundbetriebe
+813	Verbundbetriebe Ackerbau mit Weidevieh (andere als Milchvieh)
+814	Verbundbetriebe Weidevieh (andere als Milchvieh) mit Ackerbau
+82	Verbundbetriebe mit verschiedenen Kombinationen Pflanzenbau-Viehhaltung
+821	Ackerbau-Veredlungsverbundbetriebe
+822	Dauerkulturen-Weideviehverbundbetriebe
+823	Pflanzenbau-Viehhaltunggemischtbetriebe
+8231	Bienenzuchtbetriebe
+8232	Pflanzenbau-Viehhaltunggemischtbetriebe
+6_TO_8	Gemischte landwirtschaftliche Betriebssysteme (Typen 6 bis 8)
+SUB	Alle klassifizierten Betriebe
+9	Nicht klassifizierbare Betriebe
+TOT	Alle Betriebe
+1A	Ackerbau
+11A	Getreidebau
+111A	Getreide ohne Reis
+112A	Reis
+113A	Getreide einschließlich Reis
+12A	Sonstiger Ackerbau
+121A	Hackfrüchte
+122A	Getreide und Hackfrüchte
+123A	Übriger Ackerbau
+1231A	Gemüse im Feldanbau
+1232A	Anderer Ackerbau
+2A	Gartenbau (Gemüse u. Blumen)
+211A	Gemüsebau im Freiland
+212A	Gemüsebau unter Glas
+213A	Kombinierter Gemüsebau (Freiland und unter Glas)
+214A	Zierpflanzenanbau im Freiland
+215A	Zierpflanzenanbau unter Glas
+216A	Kombinierter Ziepflanzenanbau (Freiland und unter Glas)
+217A	Übriger Gartenbau
+2171A	Gemüse - und Zierpflanzenanbau im Freiland
+2172A	Gemüse - und Zierpflanzenanbau unter Glas
+2173A	Pilze
+2174A	Übriger kombinierter Gartenbau
+3A	Dauerkulturen
+31A	Weinbau
+311A	Qualitätswein
+312A	Tafelwein
+313A	Tafeltrauben
+314A	Kombinierter Weinbau
+32A	Obstbau/sonstige Dauerkulturen
+321A	Obstbau
+322A	Zitrusanbau
+323A	Olivenanbau
+324A	Übrige Dauerkulturen
+4A	Futterbau
+41A	Rinderhaltung (Milcherzeugung)
+411A	Milcherzeugung, Spezialisierung
+412A	Milcherzeugung mit Aufzucht
+42A	Rinderhaltung (Aufzucht/Mast)
+421A	Rinderaufzucht/-mast mit verstärkter Ammenkuhhaltung
+422A	Übrige Rinderaufzucht/-mast
+43A	Gemischte Rinderhaltung
+431A	Milcherzeugung mit Rinderaufzucht/-mast
+432A	Rinderaufzucht/-mast mit Milcherzeugung
+44A	Sonstiger Futterbau
+441A	Schafhaltung
+442A	Rinderhaltung und Schafhaltung
+443A	Übriger Futterbau
+5A	Veredlung
+51A	Schweinehaltung
+511A	Schweinehaltung, Aufzucht
+512A	Schweinehaltung, Mast
+513A	Kombinierte Schweinehaltung
+52A	Sonstige Veredlung
+521A	Legehennenhaltung
+522A	Mastgeflügelhaltung
+523A	Schweinehaltung und Geflügelhaltung
+524A	Übrige Veredlung
+6A	Gemischter Pflanzenbau
+61A	Gartenbau und Dauerkulturen
+62A	Sonstiger gemischter Pflanzenbau
+621A	Ackerbau und Gartenbau
+622A	Ackerbau und Weinbau
+623A	Ackerbau und Obstbau/sonstige Dauerkulturen
+624A	Teilausrichtung Ackerbau
+625A	Teilausrichtung Gartenbau oder Dauerkulturen
+7A	Gemischte Viehhaltung
+71A	Teilausrichtung Futterbau
+711A	Teilausrichtung Milcherzeugung
+712A	Teilausrichtung Futterbau außer Milcherzeugung
+72A	Sonstige gemischte Viehhaltung
+721A	Veredlung und Milcherzeugung
+722A	Veredlung und Futterbau außer Milcherzeugung
+723A	Teilausrichtung Veredlung
+8A	Pflanzenbau - Viehaltung
+81A	Ackerbau und Futterbau
+811A	Ackerbau und Milcherzeugung
+812A	Milcherzeugung und Ackerbau
+813A	Ackerbau und Futterbau außer Milcherzeugung
+814A	Futterbau außer Milcherzeugung und Ackerbau
+82A	Sonstige Kombinationen zwischen Pflanzenbau und Viehhaltung
+821A	Ackerbau und Veredlung
+822A	Übrige Kombinationen zwischen Pflanzenbau und Viehhaltung

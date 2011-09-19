@@ -1,0 +1,67 @@
+0000000	NS - Total
+1000000	Männer
+2000000	Frauen
+0100000	0 - 14 Jahre (nicht im Total enthalten)
+0200000	15 - 24 Jahre
+0300000	25 - 44 Jahre
+0400000	45 - 64 Jahre
+0500000	65 Jahre und mehr
+0900000	Alter nicht angegeben
+0010000	1 bis 3 Übernachtungen
+0020000	4 oder mehr aufeinanderfolgende Übernachtungen
+0030000	Von 4 bis 7 Übernachtungen
+0040000	Von 8 bis 14 Übernachtungen
+0050000	Von 15 bis 28 Übernachtungen
+0060000	Von 29 bis 91 Übernachtungen
+0070000	Von 92 bis 365 Übernachtungen
+0090000	Dauer nicht angegeben
+0001000	Flugzeug
+0002000	Schiff
+0003000	Land
+0004000	Zug
+0005000	Bus, Reisebus
+0006000	PKW (eigener Wagen oder Mietwagen)
+0007000	Sonstige Verkehrsmittel
+0009000	Verkehrsmittel nicht angegeben
+0000100	Durch den Reisenden selbst gebucht
+0000200	Durch ein Reisebüro, einen Reiseveranstalter, gebucht
+0000300	Pauschalreisen
+0000400	Keine Art von Organisation
+0000900	Art der Organisation nicht angegeben
+0000010	Hotels und ähnliche Betriebe
+0000020	Sonstige Beherbergungsbetriebe
+0000030	Campingplätze
+0000040	Ferienwohnungen
+0000050	Sonstige Beherbergungsmöglichkeiten
+0000060	Spezielle touristische Unterkünfte
+0000070	Private Unterkünfte
+0000080	Gemietete Unterkünfte
+0000090	Zweitwohnungen
+0000011	Sonstige Arten privater Unterkünfte
+0000009	Art der Unterkunft nicht angegeben
+4000001	Januar
+4000002	Februar
+4000003	März
+4000004	April
+4000005	Mai
+4000006	Juni
+4000007	Juli
+4000008	August
+4000009	September
+4000010	Oktober
+4000011	November
+4000012	Dezember
+4000099	Monat nicht angegeben
+4100001	Januar (vom vorigen Jahr)
+4100002	Februar (vom vorigen Jahr)
+4100003	März (vom vorigen Jahr)
+4100004	April (vom vorigen Jahr)
+4100005	Mai (vom vorigen Jahr)
+4100006	Juni (vom vorigen Jahr)
+4100007	Juli (vom vorigen Jahr)
+4100008	August (vom vorigen Jahr)
+4100009	September (vom vorigen Jahr)
+4100010	Oktober (vom vorigen Jahr)
+4100011	November (vom vorigen Jahr)
+4100012	Dezember (vom vorigen Jahr)
+4100099	Monat nicht angegeben (vom vorigen Jahr)

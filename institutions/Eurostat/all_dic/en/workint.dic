@@ -1,0 +1,19 @@
+TOTAL	Total
+A1NCW0	One adult household - No children - Work intensity = 0
+A1NCW0_1	One adult household - No children - Work intensity between 0 and 1
+A1NCW1	One adult household - No children - Work intensity = 1
+A1CW0	One adult household with dependent children - Work intensity = 0
+A1CW0_1	One adult household with dependent children - Work intensity between 0 and 1
+A1CW1	One adult household with dependent children - Work intensity = 1
+A2NCW0	Two or more adults household - No children - Work intensity = 0
+A2NCW0_1	Two or more adults household - No children - Work intensity between 0 and 1
+A2NCW1	Two or more adults household - No children - Work intensity = 1
+A2CW0	Two or more adults household with dependent children - Work intensity = 0
+A2CW0_05	Two or more adults household with dependent children - Work intensity between 0 and 0.5
+A2CW05_1	Two or more adults household with dependent children - Work intensity between 0.5 and 1
+A2CW1	Two or more adults household with dependent children - Work intensity = 1
+NONEWORK	Household with work intensity = 0
+SOMEWORK	Household with work intensity between 0 and 1
+MAXWORK	Household with work intensity = 1
+SOMELT05	Household with work intensity between 0 and 0.5
+SOMEGE05	Household with work intensity between 0.5 and 1

@@ -1,0 +1,15 @@
+GROSS	Gross data
+NSA	Not seasonally adjusted data
+SA	Seasonally adjusted data
+MIX	Mixed methods
+BV4	Berlin method
+X11	Census-II X11 method
+X11A	Census-II X11 Arima method
+SEAT	Signal extraction method
+SABL	Seasonally adjusted data by SABL
+TREND	Trend cycle
+LT_SABL	Long term trend by SABL
+LT_SEATS	Long term trend by SEATS
+WDA	Data adjusted by working days
+SWDA	Seasonally adjusted and adjusted data by working days
+NOT_APP	Not applicable

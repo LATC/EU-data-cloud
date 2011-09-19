@@ -1,0 +1,17 @@
+0	No-one
+1	First
+2	Second
+3	Third
+4	Fourth
+5	Fifth
+6	Sixth
+7	Seventh
+8	Eighth
+9	Nineth
+GE_4	Fourth and following
+GE_5	Fifth and following
+GE_6	Sixth and following
+GE_10	Tenth and following
+UNK	Unknown
+TOTAL	Total
+TOT_HH	Total - all households

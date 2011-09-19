@@ -1,0 +1,7 @@
+DMOM	Dépense de consommation moyenne par ménage
+DMOE	Dépense de consommation moyenne par adulte équivalent
+DMDM	Dépense médiane de consommation par ménage
+DMDE	Dépense médiane de consommation par adulte équivalent
+STDE	Pourcentage d'erreur standard
+MEAN_SUP0	Moyenne des dépenses de consommation par ménage avec une dépense non nulle
+PERC_SUP0	Pourcentage des ménages avec une dépense de consommation non nulle

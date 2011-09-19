@@ -1,0 +1,22 @@
+TOTAL	Alle Systeme
+PUBLIC	Staatliche Systeme
+PRIVATE	Private Systeme
+COMPULSORY	Pflichtsysteme
+N_CLAW	Gesetzlich verfügbare Systeme
+N_C_OTH	Sonstige verfügbare Systeme
+CONTRIBUTORY	Beitragspflichtige Systeme
+NON_CONTRIB	Beitragsfreie Systeme
+UNIVERSAL	Universelle Systeme
+GENERAL	Allgemeine Systeme
+SCIVCERV	Systeme für Beamte
+SSELFEMP	Systeme für Selbständige
+SOTH_OCCUP	Sonstige Beschäftigungssysteme
+SOTHER	Sonstige Sondersysteme
+BASE	Basissysteme
+COMP	Zusatzsysteme
+PUCENTGOV	Öffentliche Systeme des Zentralstaates
+PULOCGOV	Öffentliche Systeme von lokalen Gebietskörperschaften
+PREMP	Private Systeme für Arbeitnehmer
+PRECONTR	Private Systeme für vertraglich Beschäftigte
+PREN_CONTR	Private Systeme für nichtvertraglich Beschäftigte
+PR_OTH	Sonstige private Systeme

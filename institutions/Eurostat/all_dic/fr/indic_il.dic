@@ -1,0 +1,91 @@
+TOTAL	Total
+GINI	Coefficient de Gini
+S80_S20	Inégalité de la distribution de revenu (rapport interquartile de revenu)
+A97_MD60	Taux de risque de pauvreté fixé à 1997 (seuil: 60% du revenu équivalent médian)
+A98_MD40	Taux de risque de pauvreté fixé à 1998 (seuil: 40% du revenu équivalent médian)
+A98_MD50	Taux de risque de pauvreté fixé à 1998 (seuil: 50% du revenu équivalent médian)
+A98_MD60	Taux de risque de pauvreté fixé à 1998 (seuil: 60% du revenu équivalent médian)
+A98_MD70	Taux de risque de pauvreté fixé à 1998 (seuil: 70% du revenu équivalent médian)
+A98_M40	Taux de risque de pauvreté fixé à 1998 (seuil: 40% du revenu équivalent moyen)
+A98_M50	Taux de risque de pauvreté fixé à 1998 (seuil: 50% du revenu équivalent moyen)
+A98_M60	Taux de risque de pauvreté fixé à 1998 (seuil: 60% du revenu équivalent moyen)
+A99_MD60	Taux de risque de pauvreté fixé à 1999 (seuil: 60% du revenu équivalent médian)
+A00_MD60	Taux de risque de pauvreté fixé à 2000 (seuil: 60% du revenu équivalent médian)
+MEI_CAP	Revenu moyen par personne
+MEI_E	Revenu moyen équivalent
+MED_CAP	Revenu médian par personne
+MED_E	Revenu médian équivalent
+TC	Valeur limite supérieure
+SHARE	Part du revenu national total équivalent
+LI_R_MD40	Taux de risque de pauvreté (seuil: 40% du revenu équivalent médian)
+LI_R_MD50	Taux de risque de pauvreté (seuil: 50% du revenu équivalent médian)
+LI_R_MD60	Taux de risque de pauvreté (seuil: 60% du revenu équivalent médian après transferts sociaux)
+LI_R_MD70	Taux de risque de pauvreté (seuil: 70% du revenu équivalent médian)
+LI_R_M40	Taux de risque de pauvreté (seuil: 40% du revenu équivalent moyen)
+LI_R_M50	Taux de risque de pauvreté (seuil: 50% du revenu équivalent moyen)
+LI_R_M60	Taux de risque de pauvreté (seuil: 60% du revenu équivalent moyen)
+LI_R_MD40BTP	Taux de risque de pauvreté avant transferts sociaux (les pensions sont inclues dans les transferts sociaux) (seuil: 40% du revenu équivalent médian après transferts sociaux)
+LI_R_MD50BTP	Taux de risque de pauvreté avant transferts sociaux (les pensions sont inclues dans les transferts sociaux) (seuil: 50% du revenu équivalent médian après transferts sociaux)
+LI_R_MD60BTP	Taux de risque de pauvreté avant transferts sociaux (les pensions sont inclues dans les transferts sociaux) (seuil: 60% du revenu équivalent médian après transferts sociaux)
+LI_R_MD70BTP	Taux de risque de pauvreté avant transferts sociaux (les pensions sont inclues dans les transferts sociaux) (seuil: 70% du revenu équivalent médian après transferts sociaux)
+LI_R_M40BTP	Taux de risque de pauvreté avant transferts sociaux (les pensions sont inclues dans les transferts sociaux) (seuil: 40% du revenu équivalent moyen après transferts sociaux)
+LI_R_M50BTP	Taux de risque de pauvreté avant transferts sociaux (les pensions sont inclues dans les transferts sociaux) (seuil: 50% du revenu équivalent moyen après transferts sociaux)
+LI_R_M60BTP	Taux de risque de pauvreté avant transferts sociaux (les pensions sont inclues dans les transferts sociaux) (seuil: 60% du revenu équivalent moyen après transferts sociaux)
+LI_R_MD40BT	Taux de risque de pauvreté avant transferts sociaux (les pensions sont exclues des transferts sociaux) (seuil: 40% du revenu équivalent médian après transferts sociaux)
+LI_R_MD50BT	Taux de risque de pauvreté avant transferts sociaux (les pensions sont exclues des transferts sociaux) (seuil: 50% du revenu équivalent médian après transferts sociaux)
+LI_R_MD60BT	Taux de risque de pauvreté avant transferts sociaux (les pensions sont exclues des transferts sociaux) (seuil: 60% du revenu équivalent médian après transferts sociaux)
+LI_R_MD70BT	Taux de risque de pauvreté avant transferts sociaux (les pensions sont exclues des transferts sociaux) (seuil: 70% du revenu équivalent médian après transferts sociaux)
+LI_R_M40BT	Taux de risque de pauvreté avant transferts sociaux (les pensions sont exclues des transferts sociaux) (seuil: 40% du revenu équivalent moyen après transferts sociaux)
+LI_R_M50BT	Taux de risque de pauvreté avant transferts sociaux (les pensions sont exclues des transferts sociaux) (seuil: 50% du revenu équivalent moyen après transferts sociaux)
+LI_R_M60BT	Taux de risque de pauvreté avant transferts sociaux (les pensions sont exclues des transferts sociaux) (seuil: 60% du revenu équivalent moyen après transferts sociaux)
+LI_GAP_MD40	Ecart relatif de pauvreté (seuil: 40% du revenu équivalent médian)
+LI_GAP_MD50	Ecart relatif de pauvreté (seuil: 50% du revenu équivalent médian)
+LI_GAP_MD60	Ecart relatif de pauvreté (seuil: 60% du revenu équivalent médian)
+LI_GAP_MD70	Ecart relatif de pauvreté (seuil: 70% du revenu équivalent médian)
+LI_GAP_M40	Ecart relatif de pauvreté (seuil: 40% du revenu équivalent moyen)
+LI_GAP_M50	Ecart relatif de pauvreté (seuil: 50% du revenu équivalent moyen)
+LI_GAP_M60	Ecart relatif de pauvreté (seuil: 60% du revenu équivalent moyen)
+LI_C_MD40	Seuil de risque de pauvreté (40% du revenu équivalent médian)
+LI_C_MD50	Seuil de risque de pauvreté (50% du revenu équivalent médian)
+LI_C_MD60	Seuil de risque de pauvreté (60% du revenu équivalent médian)
+LI_C_MD70	Seuil de risque de pauvreté (70% du revenu équivalent médian)
+LI_C_M40	Seuil de risque de pauvreté (40% du revenu équivalent moyen)
+LI_C_M50	Seuil de risque de pauvreté (50% du revenu équivalent moyen)
+LI_C_M60	Seuil de risque de pauvreté (60% du revenu équivalent moyen)
+LIP_MD40	Taux de risque persistant de pauvreté par âge et par sexe (seuil: 40% du revenu équivalent médian)
+LIP_MD50	Taux de risque persistant de pauvreté par âge et par sexe (seuil: 50% du revenu équivalent médian)
+LIP_MD60	Taux de risque persistant de pauvreté par âge et par sexe (seuil: 60% du revenu équivalent médian)
+LIP_MD70	Taux de risque persistant de pauvreté par âge et par sexe (seuil: 70% du revenu équivalent médian)
+LIP_M40	Taux de risque persistant de pauvreté par âge et par sexe (seuil: 40% du revenu équivalent moyen)
+LIP_M50	Taux de risque persistant de pauvreté par âge et par sexe (seuil: 50% du revenu équivalent moyen)
+LIP_M60	Taux de risque persistant de pauvreté par âge et par sexe (seuil: 60% du revenu équivalent moyen)
+LIFEEXP	Espérance de vie
+HLTH	Auto-évaluation de l'état de santé
+INWPOV	Taux de risque de pauvreté au travail
+RATIO	Rapport relatif du revenu médian
+R_GE65_LT65	Personnes âgés de 65 ans et plus par rapport à des personnes âgés de moins de 65 ans
+R_GE65_45TO54	Personnes âgés de 65 ans et plus par rapport à des personnes âgés entre 45 et 54 ans
+R_GE75_LT75	Personnes âgés de 75 ans et plus par rapport à des personnes âgés de moins de 75 ans
+R_GE75_45TO54	Personnes âgés de 75 ans et plus par rapport à des personnes âgés entre 45 et 54 ans
+R_GE60_LT60	Personnes âgés de 60 ans et plus par rapport à des personnes âgés de moins de 60 ans
+R_GE60_45TO54	Personnes âgés de 60 ans et plus par rapport à des personnes âgés entre 45 et 54 ans
+R_PN_WK	Rapport des revenues de pensions de personnes âgés entre 65 et 74 ans et des revenus provenant du travail de personnes âgés entre 50 et 59 ans
+R_PNST_WK	Rapport des revenues de pensions et de transferts sociaux de personnes âgés entre 65 et 74 ans et des revenus provenant du travail de personnes âgés entre 50 et 59 ans
+INDEX	Facteur d’ajustement à l’inflation IPCH par année de base
+POOR	Distribution dans la population en risque de pauvreté
+SC101	Moins de 3 ans - pas de garde d'enfants formel
+SC102	Moins de 3 ans - garde d'enfants entre 1 et 29 heures par semaine
+SC103	Moins de 3 ans - garde d'enfants de 30 heures ou plus par semaine
+SC111	Entre 3 ans et l'âge de scolarisation obligatoire - pas de garde d'enfants formel
+SC112	Entre 3 ans et l'âge de scolarisation obligatoire - garde d'enfants entre 1 et 29 heures par semaine
+SC113	Entre 3 ans et l'âge de scolarisation obligatoire - garde d'enfants de 30 heures ou plus par semaine
+R_NDEP_NLOW	Population menacée de pauvreté, n'étant ni en situation de privation matérielle sévère, ni vivant dans un ménage à faible intensité de travail. 
+R_NDEP_LOW	Population menacée de pauvreté, n'étant pas en situation de privation matérielle sévère mais vivant dans un ménage à faible intensité de travail 
+R_DEP_NLOW	Population menacée de pauvreté, en situation de privation matérielle sévère mais ne vivant pas dans un ménage à faible intensité de travail
+R_DEP_LOW	Population menacée de pauvreté, en situation de privation matérielle sévère et vivant dans un ménage à faible intensité de travail
+NR_NDEP_LOW	Population non menacée de pauvreté, n'étant pas en situation de privation matérielle sévère mais vivant dans un ménage à faible intensité de travail 
+NR_DEP_NLOW	Population non menacée de pauvreté, étant en situation de privation matérielle sévère mais ne vivant pas dans un ménage à faible intensité de travail 
+NR_DEP_LOW	Population non menacée de pauvreté, étant en situation de privation matérielle sévère et vivant dans un ménage à faible intensité de travail 
+NR_NDEP_NLOW	Population n'étant ni menacée de pauvreté, ni en situation de privation matérielle sévère, ni vivant dans un ménage à faible intensité de travail 
+GAP_LT18TOT	Ecart entre les personnes agées de moins de 18 ans et la population totale
+GAP_18-24TOT	Ecart entre les personnes agées de 18 à 24 ans ans et la population totale

@@ -1,0 +1,34 @@
+SOX	Oxydes de soufre
+SO2	Anhydride Sulfureux
+NOX	Oxydes d'azote
+NH3	Ammoniac
+CO	Monoxyde de carbone
+NMVOC	Composés organiques volatils autres que le méthane
+CH4	Méthane
+N2O	Oxyde nitreux
+SF6	Hexafluorure de soufre
+GHG	Emissions de gaz à effet de serre (équivalent CO2)
+CO2	Dioxyde de carbone
+CO2_BIO	Dioxyde de carbone à partir de biomasse utilisé comme combustible
+CH4_EQ	Méthane (Potentiel de réchauffement global, équivalents CO2)
+N2O_EQ	Oxyde nitreux (Potentiel de réchauffement global, équivalents CO2)
+HFC	Hydrofluorocarbones (équivalents CO2)
+PFC	Perfluorocarbones (équivalents CO2)
+SF6_EQ	Hexafluorure de soufre (Potentiel de réchauffement global, équivalents CO2)
+SPM	Formation totale de particules (équivalent PM10)
+PM10	Particules < 10µm
+SOX_PMP	Oxydes de soufre (Formation de particules, équivalent PM10)
+NOX_PMP	Oxydes d'azote (Formation de particules, équivalent PM10)
+NH3_PMP	Ammoniac (Formation de particules, équivalent PM10)
+PM2_5	Particules < 2.5µm
+PM	Particules
+AP	Potentiel acidifiant total (équivalent PA)
+NOX_ACP	Oxydes d'azote (Potentiel d'acidification, équivalent acide)
+NH3_ACP	Ammoniac (Potentiel d'acidification, équivalent acide)
+SOX_ACP	Oxydes de soufre (Potentiel d'acidification, équivalent acide)
+TOP	Potentiel total de formation d'ozone troposphérique (équivalent TOFP)
+NMVOC_TOFP	Composés organiques volatils non-méthaniques (Potentiel de formation troposphérique de l'ozone)
+NOX_TOFP	Oxydes d'azote (Potentiel de formation troposphérique de l'ozone, équivalent NMVOC)
+CO_TOFP	Monoxyde de carbone (Potentiel de formation troposphérique de l'ozone, équivalent NMVOC)
+CH4_TOFP	Méthane (Potentiel de formation troposphérique de l'ozone, équivalent NMVOC)
+PB	Plomb

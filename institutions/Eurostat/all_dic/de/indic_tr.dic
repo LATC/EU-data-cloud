@@ -1,0 +1,55 @@
+TRIPS_INTRA	Gesamtzahl der innerregionalen Fahrten (Lkw/Tag)
+TRIPS_PROD	Gesamtzahl der Fahrten, die von einer Region erzeugt werden und sie verlassen (Lkw/Tag)
+TRIPS_ATTR	Gesamtzahl der Fahrten, die eine Region anzieht, die aber nicht in ihr begonnen haben (Lkw/Tag)
+TRIPS_TRAN	Gesamtzahl der Fahrten, die eine Region durchqueren, deren Abfahrts- oder Zielort jedoch nicht in dieser Region liegt (Lkw/Tag)
+KM_INTRA	Zahl der auf innerregionalen Fahrten zurückgelegten Kilometer (km/Tag)
+KM_TOT	Gesamtzahl von Kilometern, die innerhalb einer Region von allen Lkw zurückgelegt werden, ohne innerregionalen Verkehr (km/Tag)
+KM_PROD	Gesamtzahl der Kilometer von in der Region erzeugten Fahrten, ohne innerregionalen Verkehr (km/Tag)
+KM_ATTR	Gesamtzahl der Kilometer der von der Region angezogenen Fahrten, ohne innerregionalen Verkehr (km/Tag)
+ACC_MEAN	Mittlere Entfernung zwischen einer bestimmten Region und allen anderen Regionen der Europäischen Union (km)
+ACC_MIN	Mindestentfernung, die ein Lkw zurücklegen muss, bis er eine andere Region erreicht (km)
+ACC_MAX	Die grösste Entfernung, die ein Lkw zurücklegen kann, bis er eine andere Region erreicht (km)
+TR_RATIO	Anteil des Durchgangsverkehrs am Gesamtverkehr in Prozent (%)
+5_3_1	5.3.1 Index des Transportvolumens bezogen auf BIP (tkm) (1995=100)
+5_3_2	5.3.2 Index des Personenbeförderungsvolumen bezogen auf BIP (pkm) (1995=100)
+5_4_1	5.4.1 Art des Frachtverkehrs (Prozentsatzanteil an Straße insgesamt tkm)
+5_4_2	5.4.2 Art der Personenbeförderung (Prozentsatzanteil an Autos insgesamt Pkm)
+5_4_3	5.4.3 Art der  Personenbeförderung (Prozentsatzanteil an der Luftfahrt insgesamt Pkm)
+TOTGOTRT	Transportierte Waren - Insgesamt
+NATGOTRT	Im Inland transportierte Waren
+INTGOTRT	International transportierte Waren
+OUTGOTRT	Ausgänge (beladen im Meldeland, entladen in anderen Ländern)
+INGOTRT	Eingänge (entladen im Meldeland, beladen in anderen Ländern)
+TOTPATRN	Beförderte Passagiere - Insgesamt
+INTPATRN	International beförderte Passagiere
+NATPATRN	Im Inland beförderte Passagiere
+TRI01	Anzahl der Einwohner je Auto
+TRI02	Anzahl der Personenkraftwagen je 1000 Einwohner
+TRI03	Schienennetze
+TRI04	Länge des Straßennetzes
+2A5AB	Gesamtlänge der Autobahnen in km
+5S1_PKM	Verkehrsaufkommen. EU-15 in Fahrgäste je Kilometer (I90=100)
+5S1_TKM	Verkehrsaufkommen. EU-15 in Tonne pro Kilometer (I90=100)
+5S1_GDP	Verkehrsaufkommen. EU-15 (zu konstanten Preisen)(I90=100)
+5A1FH	Gesamtbinnenverkehr nach Zweigen: EWR und die Schweiz
+2A5AC	Gesamtlänge der Eisenbahnlinien in km
+5A1FK	Personenkraftwagen je 1 000 Einwohner
+5A1GB	Güterverkehr auf der Straße. Mio. tonne-km
+5A1FL	Eisenbahn-Warenverkehr. Mio. tonne-km
+5A1FM	Binnenschiffahrt-Warenverkehr. Mio. tonne-km
+5A1FN	Ölfernleitung-Warenverkehr. Mio. tonne-km
+5A1FQ	Mio. tonne-km Seewarnverkehr. Mio. t
+5A1FO	Binnenwarenverkehr. 1 000 Mio. tonne-km. EWR und die Schweiz
+5A1FP	Weltweite kommerzielle Trägerdienste
+5A1FR	Luftwarenverkehr. 1 000 t
+5A1FV	Luftverkehr bei der Beförederung von Fahrgästen. Mio.
+5A1FU	Beförderung von Fahrgästen. 1 000 Mio. Fahrgäste-km. EWR und die Schweiz
+5A1FX	Pkw-Verkehr. Mio. Fahrgästen-km
+5A1FW	Personenverkehr mit Kraftomnibussen. Mio. Fahrgästen-km
+5A1FY	Eisenbahn-Personenverkehr. Million Fahrgäste-km
+5H2ST	Gesamtlänge der Autobahnen in km
+5H3ST	Gesamtlänge der Eisenbahnlinien in km
+5H4ST	Personenkraftwagen. 1 000s
+5H5ST	Personenkraftwagen je 1 000 Einwohner
+5H6ST	Güterverkehr auf der Straße. Mio. tonne-km
+5H7ST	Verkehrstoten per Million Einwohner

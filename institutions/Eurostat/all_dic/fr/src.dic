@@ -1,0 +1,116 @@
+FR_1	Précipitation
+FR_2	Évapotranspiration réelle
+FR_3	Flux interne
+FR_4	Apport externe réel
+FR_5	Flux sortant réel total
+FR_5_1	Flux sortant réel dans la mer
+FR_5_2	Flux sortant réel dans les pays voisins
+FR_6	Ressources totales en eau douce
+FR_7	Recharge de la couche aquifère
+FR_8	Recharge moins rejets écologiques
+FR_9	Eaux souterraines disponibles pour prélèvement annuel
+FR_10	Ressources régulières en eaux douces 95% du temps
+W16_1	Total des prélèvements bruts d'eau douce
+W16_2	Eau restituée (avant ou sans utilisation)
+W16_3	Total des prélèvements nets d'eau douce
+W16_4	Eau désalinisée
+W16_5	Eau réutilisée
+W16_6	Importations d'eau
+W16_7	Exportations d'eau
+W16_8	Volume total d'eau disponible pour consommation sur le territoire
+W16_9	Pertes pendant le transport, total
+W16_9_1	Pertes par évaporation
+W16_9_2	Pertes par fuites
+W16_9_3	Volume total d'eau disponible pour utilisateurs finals sur le territoire
+W16_10	Total des eaux de refroidissement rejetées
+W16_10_1	Eaux de refroidissement rejeteés dans les eaux intérieures
+W16_10_2	Eaux de refroidissement rejeteés dans les eaux marines
+W16_11	Total des eaux usées produites
+W16_11_1	Eaux usées rejetées dans les eaux intérieures
+W16_11_2	Eaux usées rejetées dans les eaux marines
+W16_12	Eau réutilisée
+W16_13	Rejets d'eau utilisée
+W16_14	Utilisation de l'eau à des fins de comsommation
+W16_15	Total de la consommation d'eau
+WA1_1	Apport externe réel des territoires voisins
+WA1_2	Flux sortant réel vers les territoires voisins
+WA5_1	Eau douce de surface
+WA5_2	Eau douce souterraine
+WA5_3	Eau douce totale (surface + souterraine)
+WA5_4	Autres eaux (de surface)
+WA5_5	Total (eau douce et autres eaux)
+SC_1	Source d'eau non douces (eau de mer et eau saumâtre)
+SC_2	Eaux désalinisées
+SC_3	Eaux réutilisées
+SC_4	Importations d'eau
+W17_1	Approvisionnement public en eau
+W17_2	Auto-approvisionnement
+W17_3	Autres types d'approvisionnement
+WW0_1	Population résidente (1000)
+WW0_2	Systèmes d'épuration des eaux usées urbaines, total
+WW0_2_1	Systèmes d'épuration des eaux usées urbaines uniquement avec traitement primaire
+WW0_2_2	Systèmes d'épuration des eaux usées urbaines avec traitement secondaire
+WW0_2_3	Systèmes d'épuration des eaux usées urbaines avec traitement tertiaire
+WW0_2_4	Systèmes d'épuration des eaux usées urbaines avec systèmes autonomes de collecte des eaux usées
+WW0_3	Autres méthodes de traitement des eaux usées (p.ex. stations d'épuration industrielles)
+WW0_3_1	Autres méthodes de traitement des eaux usées avec systèmes autonomes de collecte des eaux usées
+WW0_4	Systèmes de collecte des eaux usées urbaines, avec traitement
+WW0_5	Systèmes de collecte des eaux usées urbaines, sans traitement
+WW0_6	Systèmes de collecte des eaux usées urbaines, total
+WW0_7	Systèmes autonome de collecte des eaux usées avec traitement, total
+WW0_7_1	Systèmes de traitement autonome des eaux usées, total
+WW0_7_1_1	Systèmes de traitement autonome des eaux usées avec au moins un traitement secondaire
+WW0_8	Total connecté au traitement des eaux usées
+WW1_1	Traitement des eaux useés urbaines
+WW1_2	Autres méthodes de traitement des eaux usées
+WW1_3	Traitement autonome
+WW3_1	Production d'eaux usées - sources fixes (total)
+WW3_1_1	Production d'eaux usées par l'agriculture, sylviculture pêche
+WW3_1_2	Prodction d'eaux usées par l'Industrie extractrive
+WW3_1_3	Industries manufacturières
+WW3_1_3_1	Production d'eaux usées par l'industrie agro-alimentaire
+WW3_1_3_2	Production d'eaux usées par la métallurgie
+WW3_1_3_3	Véhicules motorisés et matériel de transport
+WW3_1_3_4	Production d'eaux usées parl'indsutrie du textiles
+WW3_1_3_5	Production d'eaux usées par l'industrie du papier et produits dérivés
+WW3_1_3_6	Production d'eaux usées par l'industrie des produits chimiques , produits rafiné
+WW3_1_4	Production et distribution d’électricité (à l'exclusion de l'eau pour refroidissement)
+WW3_1_5	Production d'eaux usées par la construction
+WW3_1_6	Activités industrielles, total
+WW3_1_7	Production d'eaux usées par la secteur domestique (Total)
+WW3_1_7_1	Production d'eaux usées par le secteur domestique, services
+WW3_1_7_2	Production d'eaux usées par la secteur domestique, ménages
+WW3_2	Production d'eaux usées par les sources diffuses
+WW3_3	Production d'eaux usées par toutes les sources
+WW3_4	Traitement et rejet des eaux usées : eaux usées produites par sources domestiques
+WW3_4_1	Eaux usées produites par le secteur domestique et raccordées à un système de collecte des eaux usées urbaines
+WW3_4_2	Eaux usées produites par le secteur domestique, non raccordées et rejetées (total)
+WW3_4_2_1	Eaux usées produites par le secteur domestique et rejetées après traitement autonome
+WW3_5	Eaux usées produites par l'industrie (Total)
+WW3_5_1	Eaux usées produites par l'industrie et raccordées à un système de collecte des eaux usées urbaines
+WW3_5_2	Eaux usées produites par l'industrie,non raccordées et rejetées (total)
+WW3_5_2_1	Eaux usées produites par l'industrie et rejetées après traitement dans une station industrielle de traitement
+WW3_6	Total des eaux usées raccordées au système de collecte des eaux usées urbaines
+WW3_6_1	Eaux usées raccordées au système de collecte des eaux usées urbaines et raccordées aux stations de traitement
+WW3_6_2	Eaux usées raccordées au système de collecte des eaux usées urbaines et raccordées aux stations de traitement des eaux usées industrielles
+WW3_6_3	Eaux usées raccordées au système de collecte des eaux usées urbaines et rejetées sans traitement
+WW3_7	Effluents des stations d'épuration des eaux usées urbaines, Total
+WW3_7_1	Effluents des stations d'épuration des eaux usées urbaines, rejetés
+WW3_7_2	Effluents des stations d'épuration des eaux usées urbaines, réutilisés
+WW3_8	Rejets dans les eaux intérieures, total
+WW3_9	Rejets dans les eaux marines, total
+SC_5	Autres
+WW0_9	Système de collecte des eaux usées urbaines avec traitement 
+WW1_0	% de la population résidente dont les eaux usées sont transportées par camions de bassins autonomes aux stations d'épuration des eaux usées
+WW3_10	Rejets de stations d’épuration des eaux usées (urbaines et  industrielles)
+WW3_11	Rejets directs par les sources diffuses
+WW3_4_3	Eaux usées produites par sources domestiques: traitées, total 
+WW3_4_3_1	Eaux usées produites par sources domestiques: Traité en stations de traitement des eaux usées (urbaines et industrielles) 
+WW3_4_3_2	Eaux usées produites par sources domestiques: traitées en stations de traitement des eaux usées autonomes
+WW3_4_4	Traitées en stations de traitement des eaux usées autonomes, rejetées, total
+WW3_4_4_1	Traitées en stations de traitement des eaux usées autonomes, rejetées après traitement
+WW3_4_4_2	Traitées en stations de traitement des eaux usées autonomes, rejetées sans traitement 
+WW3_5_3	Total des eaux usées produites par l’industrie, traitées, total
+WW3_5_4	Total des eaux usées produites par l’industrie, rejetées, total
+WW3_5_4_1	Total des eaux usées produites par l’industrie, rejetées après traitement
+WW3_5_4_2	Total des eaux usées produites par l’industrie, rejetées sans traitement 

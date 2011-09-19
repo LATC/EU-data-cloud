@@ -1,0 +1,20 @@
+REQ	Requests
+REQ_ACC	Accepted requests
+REQ_REF	Refused requests
+REQ_TRAN	Transferred
+REQ_NBR	Total number of requests
+TKC	Total number of taking charge requests
+FAM_TKC	Taking charge requests: Family reasons (Art.6, Art.7, Art.8, Art.14)
+DOC_TKC	Taking charge requests: Documentation and entry reasons (Art.9, Art.10, Art.11, Art.12)
+HUMAN_TKC	Taking charge requests: Humanitarian reasons (Art.15)
+TKB	Total number of taking back requests
+ART45_TKB	Taking back requests: Withdrawal of application during Dublin procedure (Art. 4.5)
+ART161C_TKB	Taking back requests: Under examination - no permission to stay (Art.16.1c)
+ART161D_TKB	Taking back requests: Withdrawal - new application (Art.16.1.d)
+ART161E_TKB	Taking back requests: Rejection - no permission to stay (art.16.1.e)
+EURDC	Total EURODAC
+EURDC_TKC	Taking charge requests based on EURODAC
+EURDC_TKB	Taking back requests based on EURODAC
+PEND_REQ	Total number of pending requests at the end of reference period
+INFO_REQ	Total number of requests for information
+ANS_REQ	Number of answers to requests for information

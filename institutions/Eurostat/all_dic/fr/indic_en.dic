@@ -1,0 +1,206 @@
+100100	Production primaire
+100200	Autres sources
+100300	Importations totales
+100400	Variations de stocks
+100401	Variations de stocks - Producteurs
+100402	Variations de stocks - Importateurs
+100403	Variations de stocks - Transformateurs
+100500	Exportations totales
+100600	Importations nettes
+100700	Consommation brute
+100800	Soutes maritimes
+100900	Consommation intérieure brute
+101000	Entrées en transformation
+101001	Entrées en transformation - centrales thermiques classiques
+101002	Entrées en transformation - centrales nucléaires
+101003	Entrées en transformation - fabriques d'agglomérés et de briquettes
+101004	Entrées en transformation - cokeries
+101006	Entrées en transformation - hauts-fourneaux
+101007	Entrées en transformation - usines à gaz
+101008	Entrées en transformation - raffineries
+101009	Entrées en transformation - centrales de chauffage
+101021	Entrées en transformation - centrales thermiques publiques
+101022	Entrées en transformation - centrales thermiques - auto-producteur
+101100	Sorties de transformation
+101101	Sorties de transformation - centrales thermiques classiques
+101102	Sorties de transformation - centrales nucléaires
+101103	Sorties de transformation - fabriques d'agglomérés et de briquettes
+101104	Sorties de transformation - cokeries
+101106	Sorties de transformation - hauts-fourneaux
+101107	Sorties de transformation - usines à gaz
+101108	Sorties de transformation - raffineries
+101109	Sorties de transformation - centrales chauffage
+101121	Sorties de transformation - centrales thermiques publiques
+101122	Sorties de transformation - centrales thermiques - auto-producteur
+101200	Echanges, transferts, restitution
+101210	Echanges entre produits
+101220	Transferts de produits
+101230	Restitution de la pétrochimie
+101300	Consommation de la branche énergie
+101301	Consommation - production et distribution d'électricité
+101302	Consommation éléctrique d'origine hydraulique (solde pompage)
+101303	Consommation:- extraction et agglomération de combustibles solides
+101304	Consommation - cokeries et usines à gaz
+101305	Consommation - extraction de pétrole, gaz naturel etc.
+101306	Consommation - oléoducs et gazoducs
+101307	Consommation - raffinage de pétrole
+101308	Consommation - industrie des combustibles nucléaires
+101400	Pertes sur les réseaux
+101500	Disponible pour la consommation finale
+101600	Consommation finale non énergétique
+101601	Consommation finale non énergétique - chimie
+101602	Consommation finale non énergétique - autres
+101700	Consommation finale énergétique
+101800	Consommation finale énergétique - industrie
+101805	Consommation finale énergétique - sidérurgie
+101810	Consommation finale énergétique - métaux non ferreux
+101815	Consommation finale énergétique - chimie
+101820	Consommation finale énergétique - minéraux non métalliques
+101825	Consommation finale énergétique - extraction
+101830	Consommation finale énergétique - alimentation, boissons, tabac
+101835	Consommation finale énergétique - textile, cuir, habillement
+101840	Consommation finale énergétique - papier, carton, imprimerie
+101845	Consommation finale énergétique - fabrications métalliques
+101850	Consommation finale énergétique - autres industries
+101899	Consommation finale énergétique - ajustement
+101900	Consommation finale énergétique - transports
+101910	Consommation finale énergétique - transports ferroviaires
+101920	Consommation finale énergétique - transports routiers
+101930	Consommation finale énergétique - transports aériens
+101940	Consommation finale énergétique - navigation intérieure
+102000	Consommation finale énergétique - ménages/services
+102010	Consommation finale énergétique - ménages
+102020	Consommation finale énergétique - pêche
+102030	Consommation finale énergétique - agriculture
+102035	Consommation finale énergétique - services
+102040	Consommation finale énergétique - autres
+102200	Ecart statistique
+105001	Stocks totaux auprès des mines
+105003	Stocks dans les centrales des services publics
+105100	Livraisons intérieures totales
+105101	Livraisons aux centrales des services publics des minières
+105102	Livraisons aux centrales électriques des services publics
+105103	Livraisons aux centrales électriques des minières
+105105	Livraisons aux cokeries
+105106	Livraisons à l'industrie sidérurgique
+105110	Livraisons divers
+105112	Livraisons á l'agglomération
+105120	Livraisons à l'ensemble de l'industrie
+106002	Production nette dans les raffineries
+106003	Production nette hors raffinerie
+106018	Entrées en transformations - raffineries nettes
+106101	Stocks début de période
+106102	Stocks fin de période
+106118	Sorties de transformations - raffineries nettes
+106201	Disponibilités
+107000	Production totale brute
+107001	Production brute d'origine hydraulique
+107002	Production brute d'origine géothermique
+107003	Production brute d'origine nucléaire
+107004	Production brute d'origine thermique classique
+107005	Production brute d'origine éolienne
+107006	Production brute d'origine thermique classique, houille
+107007	Production brute d'origine thermique classique, lignite
+107008	Production brute d'origine thermique classique, produits pétroliers
+107009	Production brute d'origine thermique classique, gaz naturel
+107010	Production brute d'origine thermique classique, gaz dérivés
+107011	Production brute d'origine thermique classique, biomasse
+107012	Production brute d'origine thermique classique, autres
+107015	Production brute des centrales hydrauliques (Puissance < 1 MW)
+107016	Production brute des centrales hydrauliques (Puissance >= 1 MW et <= 10 MW)
+107017	Production brute des centrales hydrauliques (Puissance > 10 MW)
+107023	Production brute d'origine photovoltaïque
+107024	Production brute d'origine solaire thermique
+107025	Production brute d'origine déchets ménagers
+107026	Production brute d'origine bois / déchets de bois
+107027	Production brute d'origine biogas
+107028	Production brute d'origine déchets industriels
+107100	Production totale nette
+107101	Production nette d'origine hydraulique
+107102	Production nette d'origine géothermique
+107103	Production nette d'origine nucléaire
+107104	Production thermique classique nette
+107105	Production nette d'origine éolienne
+107106	Production nette d'origine thermique classique, houille
+107107	Production nette d'origine thermique classique, lignite
+107108	Production nette thermique classique, produits pétroliers
+107109	Production nette thermique classique, gaz naturel
+107110	Production nette d'origine thermique classique, gaz dérivés
+107111	Production nette d'origine thermique classique, biomasse
+107112	Production nette d'origine thermique classique, autres
+107200	Disponible pour le marché intérieur
+107202	Consommation du marché intérieur
+107301	Production brute de pompage
+107302	Energie brute absorbée pour pompage
+107400	Consommation de la branche énergie
+107500	Consommation - centrales thermiques publiques
+107510	Consommation des combustibles - Production de chaleur
+107520	Consommation des combustibles - Production electrique
+108300	Produits transférés
+108310	Autres entrées
+109300	Origine : Biomasse
+115207	Capacité de raffinage
+115208	Capacité - cracking
+115209	Capacité - reforming
+117600	Puissance installée nette - total
+117601	Puissance installée nette - Centrales thermiques
+117603	Puissance installée nette - Centrales nucléaires
+117605	Puissance installée nette - Production hydrolique
+117607	Puissance installée nette - Energie hydraulique
+117608	Puissance installée nette - Energie geothermique
+117609	Puissance installée nette - Energie éolienne
+117610	Puissance installée nette, autres
+117611	Puissance installée nette, vapeur
+117612	Puissance installée nette - turb. gaz
+117613	Puissance installée nette, cycles combinés
+117614	Puissance installée nette - cycles combinés interne
+117615	Puissance installée nette : centrales hydrauliqes (Puissance < 1 MW)
+117616	Puissance installée nette : centrales hydrauliqes (Puissance >= 1 MW et <= 10 MW)
+117617	Puissance installée nette : centrales hydrauliqes (Puissance > 10 MW)
+117621	Puissance installée nette - services publiques
+117622	Puissance installée nette - autoproducteur
+117623	Puissance installée nette : photovoltaïque
+117624	Puissance installée nette : centrales solaires thermiques
+117625	Puissance installée nette : déchets ménagers
+117626	Puissance installée nette : bois / déchets de bois
+117627	Puissance installée nette : biogas
+117628	Puissance installée nette : déchets industriels
+117800	Longueur du réseau de distribution
+117900	Capacité de stockage
+119300	Surface des panneaux solaires
+119400	Capacité de production des biocarburants
+119500	Part de marché du plus grand producteur d'électricité - en % du marché total
+119600	Intensité énergétique de l'économie - Consommation intérieure brute d'énergie divisée par le PIB (à prix constants, 1995=100) - kgep (kilogramme d'equivalent pétrole) par 1000 euros
+119700	Part des énergies renouvelables - Part de l'électricité produite à partir des énergies renouvelables par rapport à la consommation totale d'électricité (%)
+180001	Prix à la pompe, toutes taxes comprises
+180002	Prix de livraison, hors taxes
+180100	Production primaire
+180300	Importations totales
+180700	Consommation brute
+180900	Consommation intérieure brute
+185100	Livraisons intérieures totales
+186002	Production nette dans les raffineries
+187000	Production totale brute d'éléctricité
+V01	Production d'énergie thermique (GWh)
+V02	Production d'énergie électrique brute (GWh)
+V03	Production d'énergie électrique nette (GWh)
+V04	Puissance électrique maximale atteinte nette (MW)
+V05	Temps de criticité du réacteur (heures)
+V06	Durée de marche des turbogénérateurs (heures)
+V07	Energie nette indisponible (programmée) (GWh)
+V08	Energie nette indisponible (hors programme due à une cause interne) (GWh)
+V09	Energie nette indisponible (hors programme due à une cause externe) (GWh)
+V10	Puissance maximale possible nette (MW)
+V11	Heures de référence
+V12	Taux d'utilisation en énergie (%)
+V13	Taux d'utilisation en temps (%)
+V14	Taux de rendement thermique net (%)
+V15	Taux d'indisponibilité programmé (%)
+V16	Taux d'indisponibilité hors programme due à une cause interne (%)
+V17	Taux d'indisponibilité hors programme due à une cause externe (%)
+V18	Taux de disponibilité en énergie (%)
+ADD	Degrés-jours de chauffage actuels
+MDD25	Moyenne degrés-jours de chauffage pour la période 1980 - 2004
+RDD25	Degrés-jours de chauffage relatifs
+MSHH	Ménages de taille moyenne
+MSIND	Industries de taille moyenne

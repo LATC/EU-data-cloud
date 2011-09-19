@@ -1,0 +1,27 @@
+A000	NS (Total)
+A010	All Holidays ( 1plus nights)
+A011	All Holidays- Domestic    ( 1plus nights)
+A012	All Holidays- Outbound ( 1plus nights)
+A013	All Holidays -Domestic and outbound ( 1plus nights)
+A020	Holidays  (4 plus nights)
+A021	Holidays - Domestic  (4 plus nights)
+A022	Holidays - Outbound  (4 plus nights)
+A023	Holidays  -Domestic and outbound  (4 plus nights)
+A030	Visits to relatives and friends (4 plus nights)
+A031	Visits to relatives and friends- Domestic (4 plus nights)
+A032	Visits to relatives and friends- Outbound (4 plus nights)
+A033	Visits to relatives and friends -Domestic and outbound (4 plus nights)
+A040	Business (1 plus nights)
+A041	Business- Domestic ( 1plus nights)
+A042	Business- Outbound ( 1plus nights)
+A043	Business- Domestic and outbound ( 1plus nights)
+A090	Other purposes
+HOL_BUS	Holidays and business
+HOL	Holidays
+VFR	Holidays - visits to friends and relatives
+BUS	Business
+SHO	Shopping
+COM	Commuting
+LEI	Leisure
+OTH	Other
+RET	Return home

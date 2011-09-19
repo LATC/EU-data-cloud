@@ -1,0 +1,12 @@
+TOTAL	Total
+TRN_GD	Trains de marchandises
+TRN_PAS	Trains de voyageurs
+TRN_OTH	Autres trains
+STCL1	Places assises, 1ère classe
+STCL2	Places assises, 2ème classe
+STMIX	Places assises mixtes
+DIN	Voitures-restaurants
+CL1	1ère classe
+CL2	2ème classe
+COU	Voitures-couchettes, voitures-lits
+BRT	Places couchées en couchettes et voitures-lits

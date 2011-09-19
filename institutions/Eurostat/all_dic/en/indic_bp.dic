@@ -1,0 +1,41 @@
+NGDP	Net balance at current prices (in % of GDP)
+AGDP	Average flows (in % of GDP)
+NMLD	Net balance (in 1 000 million ECU/EUR)
+COVR	Cover rates (in %)
+C200	Exports (in % of credits in the services balance)
+D200	Imports (in % of debits in the services balance)
+CA1	Credits by geographical zone (credits as % of partner World credits)
+DA1	Debits by geographical zone (debits as % of partner World debits)
+TOTR	Total trade (exports + imports) as % of the current account total flows (exports + imports)
+CTYW	Country total trade (exports + imports) as % of World total trade (exports + imports)
+CMLD	Exports (in 1 000 million ECU/EUR)
+DMLD	Imports (in 1 000 million ECU/EUR)
+TOTMLD	Exports + imports (in 1 000 million ECU/EUR)
+SHTOT200	Share in total transactions in services
+SHTOT981	Share in total transactions in other services
+CC_COVRO	International trade in services other than transport and travel, cover rates (%)
+CC_CAGDP	Balance of the current account at current prices (% of GDP)
+GSGDP	Balance of international trade in goods and services at current prices. % of GDP
+COVRGS	International trade in goods and services, cover rates. %
+CTRS	Exports of transport services as % of services total exports
+DTRS	Imports of transport services as % of services total imports
+CTVS	Exports of travel services as % of services total exports
+DTVS	Imports of travel services as % of services total imports
+STOCKS	Direct investment stocks - Million ECU/EUR
+FLOWS	Direct investment flows - Million ECU/EUR
+INCOME	Direct investment income - Million ECU/EUR
+INFLOW	Direct investment inflows - Million ECU/EUR
+OUTFLOW	Direct investment outflows - Million ECU/EUR
+INTRAFLOW	Direct investment intra-flows - Million ECU/EUR
+FGDP	GDP (flows in % of GDP)
+SGDP	GDP (stocks in % of GDP)
+AVG4YEARS	Four-years average
+TI100	Market integration - Trade integration of goods
+TI200	Market integration - Trade integration of services
+TIFDI	Market integration - Foreign Direct Investment intensity - Average value of inward and outward Foreign Direct Investment flows divided by GDP, multiplied by 100
+TUR	Turnover - Million ECU/EUR
+EMP	Number of persons employed
+ENT	Number of enterprises
+PEC	Personnel costs - Million ECU/EUR
+GIT	Gross investments in tangible goods - Million ECU/EUR
+VAC	Value added at factor cost - Million ECU/EUR

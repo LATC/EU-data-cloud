@@ -1,0 +1,15 @@
+A	Unternehmensdaten
+B	Qualitative und strukturelle Marktdaten
+C	Daten zum internationalen Handel
+D	Daten zum Angebotsvolumen
+E	Daten zu den Preisen
+F	Daten zur Qualität der Leistungen
+G	Daten zur Nachfragestruktur
+H	Daten zur technischen Infrastruktur
+X	Allgemeine Informationen
+VALUE	Wert
+REF_YEAR	Referenzjahr
+FLAGS	Flags
+LEVEL	Absolute Zahlen
+PCH_SAME	Prozentveränderung der betreffenden Periode verglichen mit dem vorhergehenden Jahr
+METH	Methode der Schätzung

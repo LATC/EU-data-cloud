@@ -1,0 +1,14 @@
+AVG	Average
+MOV3M	3-month moving average (centered)
+BEG	Value at the beginning of the period
+CUM	Cumulative series
+END	Value at the end of the period
+MAX	Maximum value within period
+MIN	Minimum value within period
+MOV	Moving average on the last 12 months
+POV	Point value
+TOT	Total, sum
+STD	Standard deviation
+CV	Coefficient of variation
+OA	Outstanding amounts
+NB	New business

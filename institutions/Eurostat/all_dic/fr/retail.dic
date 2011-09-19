@@ -1,0 +1,22 @@
+LTEU1Y	Prêt aux entreprises inférieur ou égal à 1 an
+LTEO1Y	Prêts aux entreprises supérieurs à 1 an
+BO	Découvert bancaire
+CLTH	Prêts à la consommation des ménages
+HLTH	Prêts au logement des ménages
+OTH	Autres prêts
+COTH	Crédit à la consommation et autres crédits
+OVDEP	Dépôts à vue
+DAMU1Y	Dépôts à terme d'une durée inférieure ou égale à 1 an
+DAMO1Y	Dépôts à terme d'une durée supérieure à 1 an
+DAMU2Y	Dépôts à terme d'une durée inférieure à 2 ans
+DAMO2Y	Dépôts à terme d'une durée supérieure à 2 ans
+DRNU3M	Dépôts remboursables avec préavis inférieur ou égal à 3 mois
+DRNO3M	Dépôts remboursables avec préavis supérieur à 3 mois
+LENR	Autres taux d'emprunts
+DEPR	Autres taux de dépôt
+DTEU1Y	Dépôts aux entreprises inférieur ou égal à 1 an
+DAM	Dépôts à terme
+DRN	Dépôts remboursables avec préavis
+DRP	Dépôts pensions
+LTH	Prêts aux ménages
+LTE	Prêts aux entreprises

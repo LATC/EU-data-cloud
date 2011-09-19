@@ -1,0 +1,243 @@
+TOTMAT	Total materials
+27	Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes
+26	Ores, slag and ash
+25	Salt; sulphur; earths and stone; plastering materials, lime and cement
+23	Residues and waste from the food industries; prepared animal feed
+72	Iron and steel
+44	Wood and articles of wood; wood charcoal
+12	Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruits; industrial or medicinal plants; straw and fodder
+08	Edible fruit and nuts; peel of citrus fruit or melons
+15	Animal or vegetable fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes
+10	Cereals
+73	Articles of iron or steel
+39	Plastics and articles thereof
+31	Fertilizers
+47	Pulp of wood or other fibrous cellulosed material; recovered (waste and scrap) paper and paperboard
+17	Sugars and sugar confectionary
+09	Coffee, tea, mate and spices
+40	Rubber and articles thereof
+07	Edible vegetables and certain roots and tubers
+76	Aluminium and articles thereof
+03	Fish and crustaceans, molluscs and other aquatic invertebrates
+18	Cocoa and cocoa preparations
+74	Copper and articles thereof
+70	Glass and glassware
+16	Edible preparations of meat, fish, crustaceans, molluscs or other aquatic invertebrates
+52	Cotton, incl yarns and woven fabrics thereof
+22042111	White wines (Quality wines produced in specified regions) : Alsace of < 13° in containers holding 2 litres or less
+22042X12	White wines (Quality wines produced in specified regions): Bordeaux of < 13°
+22042112	White wines (Quality wines produced in specified regions): Bordeaux of < 13° in containers holding 2 litres or less
+22042912	White wines (Quality wines produced in specified regions): Bordeaux of < 13° in containers holding more than 2 litres
+22042X13	White wines (Quality wines produced in specified regions): Bourgogne (Burgundy)  of < 13°
+22042113	White wines (Quality wines produced in specified regions): Bourgogne (Burgundy)  of < 13° in containers holding 2 litres or less
+22042913	White wines (Quality wines produced in specified regions): Bourgogne (Burgundy)  of < 13° in containers holding more than 2 litres
+22042X17	White wines (Quality wines produced in specified regions): Val de Loire (Loire Valley) of < 13°
+22042117	White wines (Quality wines produced in specified regions): Val de Loire (Loire Valley) of < 13° in containers holding 2 litres or less
+22042917	White wines (Quality wines produced in specified regions): Val de Loire (Loire Valley) of < 13° in containers holding more than 2 litres
+22042118	White wines (Quality wines produced in specified regions): Mosel-Saar-Ruwer of < 13° in containers holding 2 litres or less
+22042119	White wines (Quality wines produced in specified regions): Pfalz of < 13° in containers holding 2 litres or less
+22042122	White wines (Quality wines produced in specified regions): Rheinhessen of < 13° in containers holding 2 litres or less
+22042124	White wines (Quality wines produced in specified regions): Lazio (Latium) of < 13° in containers holding 2 litres or less
+22042126	White wines (Quality wines produced in specified regions): Toscana (Tuscany) of < 13° in containers holding 2 litres or less
+22042127	White wines (Quality wines produced in specified regions): Trentino, Alto Adige and Friuli of < 13° in containers holding 2 litres or less
+22042128	White wines (Quality wines produced in specified regions): Veneto of < 13° in containers holding 2 litres or less
+22042132	White wines (Quality wines produced in specified regions): Vinho Verde of < 13° in containers holding 2 litres or less
+22042134	White wines (Quality wines produced in specified regions): Penedés of < 13° in containers holding 2 litres or less
+22042136	White wines (Quality wines produced in specified regions): Rioja of < 13° in containers holding 2 litres or less
+22042137	White wines (Quality wines produced in specified regions): Valencia of < 13° in containers holding 2 litres or less
+22042X42	Wines other than white: (Quality wines produced in specified regions): Bordeaux of < 13°
+22042142	Wines other than white: (Quality wines produced in specified regions): Bordeaux of < 13° in containers holding 2 litres or less
+22042942	Wines other than white: (Quality wines produced in specified regions): Bordeaux of < 13° in containers holding more than 2 litres
+22042X43	Wines other than white: (Quality wines produced in specified regions): Bourgogne (Burgundy) of < 13°
+22042143	Wines other than white: (Quality wines produced in specified regions): Bourgogne (Burgundy) of < 13° in containers holding 2 litres or less
+22042943	Wines other than white: (Quality wines produced in specified regions): Bourgogne (Burgundy) of < 13° in containers holding more than 2 litres
+22042X44	Wines other than white: (Quality wines produced in specified regions): Beaujolais of < 13°
+22042144	Wines other than white: (Quality wines produced in specified regions): Beaujolais of < 13° in containers holding 2 litres or less
+22042944	Wines other than white: (Quality wines produced in specified regions): Beaujolais of < 13° in containers holding more than 2 litres
+22042X46	Wines other than white: (Quality wines produced in specified regions): Côtes du Rhône of < 13°
+22042146	Wines other than white: (Quality wines produced in specified regions): Côtes du Rhône of < 13° in containers holding 2 litres or less
+22042946	Wines other than white: (Quality wines produced in specified regions): Côtes du Rhône of < 13° in containers holding more than 2 litres
+22042X47	Wines other than white: (Quality wines produced in specified regions): Languedoc-Roussillon of < 13°
+22042147	Wines other than white: (Quality wines produced in specified regions): Languedoc-Roussillon of < 13° in containers holding 2 litres or less
+22042947	Wines other than white: (Quality wines produced in specified regions): Languedoc-Roussillon of < 13° in containers holding more than 2 litres
+22042X48	Wines other than white: (Quality wines produced in specified regions): Val de Loire (Loire Valley) of < 13°
+22042148	Wines other than white: (Quality wines produced in specified regions): Val de Loire (Loire Valley) of < 13° in containers holding 2 litres or less
+22042948	Wines other than white: (Quality wines produced in specified regions): Val de Loire (Loire Valley) of < 13° in containers holding more than 2 litres
+22042162	Wines other than white: (Quality wines produced in specified regions): Piemonte (Piedmont) of < 13° in containers holding 2 litres or less
+22042166	Wines other than white: (Quality wines produced in specified regions): Toscana (Tuscany) of < 13° in containers holding 2 litres or less
+22042167	Wines other than white: (Quality wines produced in specified regions): Trentino and Alto Adige of < 13° in containers holding 2 litres or less
+22042168	Wines other than white: (Quality wines produced in specified regions): Veneto of < 13° in containers holding 2 litres or less
+22042169	Wines other than white: (Quality wines produced in specified regions): Dão, Bairrada and Douro of < 13° in containers holding 2 litres or less
+22042171	Wines other than white: (Quality wines produced in specified regions): Navarra of < 13° in containers holding 2 litres or less
+22042174	Wines other than white: (Quality wines produced in specified regions): Penedés of < 13° in containers holding 2 litres or less
+22042176	Wines other than white: (Quality wines produced in specified regions): Rioja of < 13° in containers holding 2 litres or less
+22042177	Wines other than white: (Quality wines produced in specified regions): Valdepeñas of < 13° in containers holding 2 litres or less
+24621013	Casein glues (Kg)
+24621015	Caseinates and other casein derivatives (excl. casein glues) (Kg)
+24621020	Albumins; albuminates and other derivatives (excl. egg albumin) (Kg)
+24621030	Gelatin and its derivatives; isinglass (excl. casein glues and bone glues) (Kg)
+28721133	Cans used for preserving food and drink of iron or steel, < 50 l, food cans (p/st)
+28721135	Cans used for preserving food and drink of iron or steel, < 50 l, drinks (p/st)
+28721283	Cans of aluminium, with a capacity < 50 l, food (p/st)
+28721285	Cans of aluminium, with a capacity < 50 l, drinks (p/st)
+SITC_00	Live animals other than animals of division 03
+0101	Live horses, asses, mules and hinnies
+01019011	Horses for slaughter
+01019019	Live horses (excl. those pure bred for breeding and for slaughter)
+0102	Live bovine animals
+010290	Live bovine animals (excl. pure-bred for breeding)
+0104	Live sheep and goats
+01041030	Live lambs 'sheep up to a year old' (excl. purebred breeding animals)
+0106	Live animals (excl. horses, asses, mules, hinnies, bovine animals, swine, sheep, goats, poultry, fish, crustaceans, molluscs and other aquatic invertebrates, and microorganic cultures etc.)
+SITC_01	Meat and meat preparations
+0201	Meat of bovine animals, fresh or chilled
+0202	Meat of bovine animals, frozen
+0203	Meat of swine, fresh, chilled or frozen
+0204	Meat of sheep or goats, fresh, chilled or frozen
+0205	Meat of horses, asses, mules or hinnies, fresh, chilled or frozen
+020500	Meat of horses, asses, mules or hinnies, fresh, chilled or frozen
+0207	Meat and edible offal, of the poultry (Gallus domesticus, ducks, geese, turkeys and guinea fowls), fresh, chilled or frozen
+020714	Frozen cuts and edible offal of fowls of the species gallus domestiques
+0210	Meat and edible meat offal, in brine, dried or smoked; edible flours and meals of meat or meat offal
+160231	Other prepared or preserved meat, meat offal or blood other than sausages and similar products, of turkey
+160232	Other prepared or preserved meat, meat offal or blood other than sausages and similar products, of fowls of species Gallus domesticus
+160250	Other prepared or preserved meat, meat offal or blood other than sausages and similar products, of bovine animals
+SITC_02	Dairy products and birds' eggs
+0401	Milk and cream, not concentrated nor containing added sugar or other sweetening matter
+04012099	Milk and cream of a fat content by weight of > 3% but <= 6%, not concentrated nor containing added sugar or other sweetening matter (excl. in immediate packings of <= 2 l)
+0402	Milk and cream, concentrated or containing added sugar or other sweetening matter
+04021019	Milk and cream in solid forms, of a fat content by weight of <= 1,5%, unsweetened, in immediate packings of > 2,5 kg
+0405	Butter, incl. dehydrated butter and ghee, and other fats and oils derived from milk; dairy spreads
+04051019	Natural butter of a fat content, by weight, of >= 80% but <= 85% (excl. in immediate packings of a net content of <= 1 kg, and dehydrated butter and ghee)
+0406	Cheese and curd
+0407	Birds' eggs, in shell, fresh, preserved or cooked
+04070030	Poultry eggs, in shell, fresh, preserved or cooked (excl. for hatching)
+2105	Ice cream and other edible ice, whether or not containing cocoa
+21050099	Ice cream and other edible ice, containing >= 7% milkfats
+SITC_03	Fish and crustaceans, molluscs and other aquatic invertebrates
+0302	Fish, fresh or chilled (excl. fish fillets and other fish meat of heading 0304)
+030212	Fresh or chilled Pacific salmon 'Oncorhynchus nerka, Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus tschawytscha, Oncorhynchus kisutch, Oncorhynchus masou and Oncorhynchus rhodurus', Atlantic salmon 'Salmo salar' and Danube salmon 'Hucho hucho'
+0303	Frozen fish (excl. fish fillets and other fish meat of heading 0304)
+0304	Fish fillets and other fish meat, whether or not minced, fresh, chilled or frozen
+030410	Fresh or chilled fillets and other fish meat, whether or not minced
+030420	Frozen fish fillets
+0305	Fish, fit for human consumption, dried, salted or in brine; smoked fish, fit for human consumption, whether or not cooked before or during the smoking process; flours, meals and pellets of fish, fit for human consumption
+0306	Crustaceans, fit for human consumption, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine, incl. crustaceans in shell cooked beforehand by steaming or by boiling in water; flours, meals and pellets of crustaceans, fit for human consumption
+030613	Frozen shrimps and prawns, whether in shell or not, incl. shrimps and prawns in shell, cooked by steaming or by boiling in water
+030749	Cuttle fish 'Sepia officinalis, Rossia macrosoma, Sepiola spp.' and squid 'Ommastrephes spp., Loligo spp., Nototodarus spp., Sepioteuthis spp.', frozen, dried, salted or in brine, with or without shell
+1604	Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs
+160414	Prepared or preserved tunas, skipjack and Atlantic bonito, whole or in pieces (excl. minced)
+1605	Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved
+SITC_04	Cereals and cereals preparations
+1001	Wheat and meslin
+10011000	Durum wheat
+10019099	Spelt, common wheat and meslin (excl. seed)
+1002	Rye
+1003	Barley
+10030090	Barley (excl. seed)
+1005	Maize or corn
+10059000	Maize (excl. seed)
+1006	Rice
+10062098	Long grain husked (brown) rice, length-width ratio >= 3 (excl. parboiled)
+1007	Grain sorghum
+10070090	Grain sorghum (excl. hybrid for sowing)
+SITC_054	Vegetables, fresh, chilled, frozen or simply preserved
+070190	Fresh or chilled potatoes (excl. seed)
+0702	Tomatoes, fresh or chilled
+0703	Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled
+070310	Fresh or chilled onions and shallots
+0708	Leguminous vegetables, shelled or unshelled, fresh or chilled
+0709	Other vegetables, fresh or chilled (excl. potatoes, tomatoes, alliaceous vegetables, edible brassicas, lettuce 'Lactuca sativa' and chicory 'Cichorium spp.', carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots, cucumbers and gherkins, and leguminous vegatables)
+0710	Vegetables, uncooked or cooked by steaming or boiling in water, frozen
+0713	Dried leguminous vegetables, shelled, whether or not skinned or split
+071333	Dried, shelled kidney beans 'Phaseolus vulgaris', whether or not skinned or split
+07134000	Dried, shelled lentils, whether or not skinned or split
+0714	Roots and tubers of manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith
+071410	Fresh, chilled, frozen or dried roots and tubers of manioc 'cassava', whether or not sliced or in the form of pellets
+SITC_056	Vegetables prepared or preserved, n.e.s.
+0712	Dried vegetables, whole, cut, sliced, broken or in powder, but not further prepared
+2001	Vegetables, fruit, nuts and other edible parts of plants, prepared or preserved by vinegar or acetic acid
+200110	Cucumbers and gherkins, prepared or preserved by vinegar or acetic acid
+2002	Tomatoes, prepared or preserved otherwise than by vinegar or acetic acid
+200210	Tomatoes, whole or in pieces, prepared or preserved otherwise than by vinegar or acetic acid
+2003	Mushrooms and truffles, prepared or preserved otherwise than by vinegar or acetic acid
+200310	Mushrooms of the genus 'Agaricus', prepared or preserved otherwise than by vinegar or acetic acid
+2005	Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen (excl. preserved by sugar, and tomatoes, mushrooms and truffles)
+200560	Asparagus, prepared or preserved otherwise than by vinegar or acetic acid (excl. frozen)
+200570	Olives, prepared or preserved otherwise than by vinegar or acetic acid (excl. frozen)
+200580	Sweetcorn (Zea Mays var. Saccharata), prepared or preserved otherwise than by vinegar or acetic acid (excl. frozen)
+200590	Vegetables and mixtures of vegetables, prepared or preserved otherwise than by vinegar, non-frozen (excl. preserved by sugar, homogenised vegetables of subheading 2005.10, and tomatoes, mushrooms, truffles, potatoes, peas 'Pisum sativum', beans 'Vigna, Phaseolus', asparagus, olives and sweetcorn 'Zea Mays var. Saccharata', unmixed)
+SITC_057	Fruit and nuts, fresh or dried
+0802	Other nuts, fresh or dried, whether or not shelled or peeled (excl. coconuts, Brazil nuts and cashew nuts)
+0803	Bananas, incl. plantains, fresh or dried
+080300	Bananas, incl. plantains, fresh or dried
+0804	Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens, fresh or dried
+0805	Citrus fruit, fresh or dried
+080510	Fresh or dried oranges
+080520	Fresh or dried mandarins incl. tangerines and satsumas, clementines, wilkings and similar citrus hybrids
+080540	Fresh or dried grapefruit
+080550	Fresh or dried lemons 'Citrus limon, Citrus limonum' and limes 'Citrus aurantifolia, Citrus latifolia'
+0806	Grapes, fresh or dried
+080610	Fresh grapes
+080620	Dried grapes
+0807	Melons, incl. watermelons, and papaws 'papayas', fresh
+0808	Apples, pears and quinces, fresh
+080810	Fresh apples
+080820	Fresh pears and quinces
+0810	Fresh strawberries, raspberries, blackberries, back, white or red currants, gooseberries and other edible fruits (excl. nuts, bananas, dates, figs, pineapples, avocados, guavas, mangoes, mangosteens, papaws 'papayas', citrus fruit, grapes, melons, apples, pears, quinces, apricots, cherries, peaches, plums and sloes)
+081050	Fresh kiwifruit
+SITC_058	Fruit, preserved, and fruit preparations (excl. fruit juices)
+0811	Fruit and nuts, uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter
+081110	Frozen strawberries, uncooked or cooked by steaming or boiling in water, whether or not sweetened
+081120	Frozen raspberries, blackberries, mulberries, loganberries, black-, white- or red currants and gooseberries, uncooked or cooked by steaming or boiling in water, whether or not sweetened
+2008	Fruits, nuts and other edible parts of plants, prepared or preserved, whether or not containing added sugar or other sweetening matter or spirit (excl. prepared or preserved with vinegar, preserved with sugar but not laid in syrup, and jams, fruit jellies, marmalades, fruit purée and pastes, obtained by cooking)
+200820	Pineapples, prepared or preserved, whether or not containing added sugar or other sweetening matter or spirit (excl. preserved with sugar but not laid in syrup, jams, fruit jellies, marmalades, fruit purée and pastes, obtained by cooking)
+20082079	Pineapples, prepared or preserved, containing added sugar but no added spirit, with sugar content of > 13% but <=19%, in immediate packings of a net content of <= 1 kg
+200899	Fruit and other edible parts of plants, prepared or preserved, whether or not containing added sugar or other sweetening matter or spirit (excl. prepared or preserved with vinegar, preserved with sugar but not laid in syrup, jams, fruit jellies, marmalades, fruit purée and pastes, obtained by cooking, and nuts, groundnuts and other seeds, pineapples, citrus fruits, pears, apricots, cherries, peaches and strawberries)
+SITC_059	Fruit juices and vegetable juices
+200910	Frozen orange juice, unfermented, whether or not containing added sugar or other sweetening matter (excl. containing spirit)
+200911	Frozen orange juice, unfermented, whether or not containing added sugar or other sweetening matter (excl. containing spirit)
+20091200	Orange juice, unfermented, Brix value <= 20 at 20°C, whether or not containing added sugar or other sweetening matter (excl. containing spirit and frozen)
+200919	Orange juice, unfermented, whether or not containing added sugar or other sweetening matter (excl. containing spirit, frozen, and of a Brix value <= 20 at 20°C)  
+200920	Grapefruit juice, unfermented,  whether or not containing added sugar or other sweetening matter (excl. containing spirit)
+20092100	Grapefruit juice, unfermented, Brix value <= 20 at 20°C, whether or not containing added sugar or other sweetening matter (excl. containing spirit)
+200929	Grapefruit juice, unfermented, Brix value > 20 at 20°C, whether or not containing added sugar or other sweetening matter (excl. containing spirit)
+200931	Single citrus fruit juice, unfermented, Brix value <= 20 at 20°C, whether or not containing added sugar or other sweetening matter (excl. containing spirit, mixtures, orange juice and grapefruit juice)  
+200939	Single citrus fruit juice, unfermented, Brix value > 20 at 20°C, whether or not containing added sugar or other sweetening matter (excl. containing spirit, mixtures, orange juice and grapefruit juice)  
+200940	Pineapple juice, unfermented, whether or not containing added sugar or other sweetening matter (excl. containing spirit)
+200941	Pineapple juice, unfermented, Brix value <= 20 at 20°C, whether or not containing added sugar or other sweetening matter (excl. containing spirit)
+200949	Pineapple juice, unfermented, Brix value > 20 at 20°C, whether or not containing added sugar or other sweetening matter (excl. containing spirit)
+200970	Apple juice, unfermented, whether or not containing added sugar or other sweetening matter (excl. containing spirit)
+200971	Apple juice, unfermented, Brix value <= 20 at 20°C, whether or not containing added sugar or other sweetening matter (excl. containing spirit)
+200979	Apple juice, unfermented, Brix value > 20 at 20°C, whether or not containing added sugar or other sweetening matter (excl. containing spirit)
+SITC_06	Sugars, sugar preparations and honey
+0409	Natural honey
+1701	Cane or beet sugar and chemically pure sucrose, in solid form
+17011110	Raw cane sugar, for refining (excl. added flavouring or colouring)
+17019910	White sugar, containing in dry state>= 99,5% sucrose (excl. flavoured or coloured)
+1703	Molasses resulting from the extraction or refining of sugar
+17031000	Cane molasses resulting from the extraction or refining of sugar
+SITC_07	Coffee, tea, cocoa
+0901	Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion
+09011100	Coffee (excl. roasted and decaffeinated)
+0902	Tea, whether or not flavoured
+09024000	Black fermented tea and partly fermented tea, whether or not flavoured, in immediate packings of > 3 kg
+1801	Cocoa beans, whole or broken, raw or roasted
+1802	Cocoa shells, husks, skins and other cocoa waste
+1803	Cocoa paste, whether or not defatted
+1804	Cocoa butter, fat and oil
+2101	Extracts, essences and concentrates, of coffee, tea or maté and preparations with a basis of these products or with a basis of coffee, tea or mate; roasted chicory and other roasted coffee substitutes, and extracts, essences and concentrates thereof
+SITC_08	Feeding stuff for animals
+2301	Flours, meals and pellets, of meat or meat offal, of fish or of crustaceans, molluscs or other aquatic invertebrates, unfit for human consumption; greaves
+23012000	Flours, meals and pellets of fish or crustaceans, molluscs or other aquatic invertebrates, unfit for human consumption
+2303	Residues of starch manufacture and similar residues, beet-pulp, bagasse and other waste of sugar manufacture, brewing or distilling dregs and waste, whether or not in the form of pellets
+2304	Oilcake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil
+2306	Oilcake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of vegetable fats or oils (excl. from soya-bean oil and groundnut oil)
+23063000	Oilcake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of sunflower seeds
+23066000	Oilcake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of palm nuts or kernels
+2308	Acorns, horse-chestnuts, marc and other vegetable materials and vegetable waste, vegetable residues and by-products of a kind used in animal feeding, whether or not in the form of pellets, n.e.s.
+23080040	Acorns and horse-chestnuts and pomace or marc of fruit, for animal feeding, whether or not in the form of pellets (excl. grape marc)
+2309	Preparations of a kind used in animal feeding
+23099020	Residues from the manufacture of starch from maize referred to in Additional Note 5 to chapter 23, of a kind used in animal feeding (excl. dog or cat food put up for retail sale)
+SITC_09	Miscellaneous edible products and preparations
+OTHER	Other

@@ -1,0 +1,91 @@
+TOTAL	Total
+65	Intermédiation financière
+651	Services d'intermédiation monétaire
+6511	Services de la banque centrale
+6512	Autres services d'intermédiation monétaire
+65121	Services de depôts
+651211	Services de depôts inter-sectoriels
+651212	Services de depôts standardisés
+651213	Services de depôts non-standardisés
+65122	Services de crédits
+651221	Services de crédits inter-sectoriels
+651222	Services de crédits à la consommation
+651223	Services de crédits hypothecaires
+651224	Services de crédits commerciaux
+651225	Autres services de crédits n.c.a.
+65123	Autres services d'intermédiation monétaire n.c.a.
+652	Autres services d'intermédiation financière
+6521	Crédit-bail
+6522	Crédits
+65221	Services de crédits inter-sectoriels (65.22.1)
+65222	Services de crédits à la consommation (65.22.2)
+65223	Services de crédits hypothecaires (65.22.3)
+65224	Services de crédits commerciaux (65.22.4)
+65225	Autres services de crédits n.c.a. (65.22.5)
+6523	Autres services d'intermédiation financière n.c.a.
+65231	Services bancaires de placement
+65232	Autres services d'intermédiation financière n.c.a.
+67	Services d'auxiliaires financiers et d'assurance
+671	Services d'auxiliaires financiers
+6711	Administration de marchés financiers
+6712	Gestion de portefeuilles
+67121	Services de courtage de titres
+67122	Services de gestion de fonds
+6713	Autres services d'auxiliaires financiers
+672	Services d'auxiliaires d'assurance
+6721	Services de courtage
+6722	Autres services d'auxiliaires d'assurance n.c.a.
+66011	Services des assurances sur la vie non liées à des fonds d'investissements
+660111	Produits d'assurance d'un capital
+660112	Produits d'assurance d'une rente
+660113	Produits d'assurance temporaire d'un capital
+660114	Produits d'assurance temporaire d'une rente
+AGAC	Produits d'assurance d'un capital ou d'une rente (simplification)
+AGTI	Produits d'assurance temporaire d'un capital ou d'une rente (simplification)
+AG011	Services des assurances sur la vie non liées à des fonds d'investissement (simplification)
+66012	Services des assurances sur la vie liées à des fonds d'investissement
+66013	Tontines
+66014	Opérations de capitalisation
+CARLI	Opérations de capitalisation liées à des fonds d'investissements
+CARNL	Opérations de capitalisation non liées à des fonds d'investissements
+66015	Autres services d'assurance sur la vie
+66021	Plans de retraite collectifs
+GPLI	Plans de retraite collectifs liées à des fonds d'investissement
+GPNL	Plans de retraite collectifs non liées à des fonds d'investissement
+66031	Services d'assurance-accidents et d'assurance-maladie
+660311	Services d'assurance-accidents
+660312	Services d'assurance-maladie
+HMC	Services d'assurance-maladie prévoyant le versement de prestations dans le cas de frais de médicaments
+HLI	Services d'assurance-maladie prévoyant le versement de prestations en cas de perte de revenus
+HOT	Autres services d'assurance-maladie
+660313	Services d'assurance-maladie à long terme non résiliable
+AG03HP	Services d'assurance-maladie et d'assurance-maladie à long terme non résiliable (simplification)
+AG031	Services d'assurance-accidents et d'assurance-maladie (simplification)
+66032	Services d'assurance de véhicules terrestres automoteurs
+660321	Services d'assurance R.C. de véhicules terrestres automoteurs
+660322	Services d'assurance de véhicules terrestres automoteurs, autres branches
+66033	Services d'assurance maritime, d'assurance aérienne et d'assurance-transport
+66034	Services d'assurance-incendie et d'assurance des autres dommages aux biens
+66035	Services d'assurance R.C. générale
+66036	Services d'assurance-crédit et d'assurance-caution
+66037	Services d'assurance-assistance, d'assurance-protection juridique et autres services d'assurance de pertes pécuniaires diverses
+660371	Services d'assurance-assistance
+660372	Services d'assurance-protection juridique
+660373	Services d'assurance de pertes pécuniaires diverses
+AG037	Services d'assurance-assistance, d'assurance-protection juridique et autres services d'assurance de pertes pécuniaires diverses (simplification)
+66038	Autres services d'assurance non-vie
+66041	Services de réassurance en rapport avec l'assurance sur la vie
+66042	Services de réassurance en rapport avec les caisses de retraite
+AG04A	Services de réassurance en rapport avec l'assurance sur la vie et les caisses de retraite
+66043	Services de réassurance en rapport avec les assurances non-vie
+660431	Services de réassurance en rapport avec l'assurance-accidents et l'assurance-maladie
+660432	Services de réassurance en rapport avec l'assurance des véhicules terrestres automoteurs
+660433	Services de réassurance en rapport avec l'assurance maritime, l'assurance aérienne et l'assurance-transport
+660434	Services de réassurance en rapport avec l'assurance-incendie et l'assurance des autres dommages aux biens
+660435	Services de réassurance en rapport avec l'assurance R.C. générale
+660436	Services de réassurance en rapport avec l'assurance-crédit et l'assurance-caution
+660437	Services de réassurance en rapport avec l'assurance-assistance, l'assurance-protection juridique et l'assurance de pertes pécuniaires diverses
+660438	Services de réassurance en rapport avec les autres assurances non-vie
+AG04B	Services de réassurance en rapport avec les assurances non-vie (simplification)
+INLCON	Tous les contrats d'assurance vie individuels
+GRLCON	Tous les contrats d'assurance vie de groupe

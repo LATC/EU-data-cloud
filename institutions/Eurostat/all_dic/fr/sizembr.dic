@@ -1,0 +1,7 @@
+TOTAL	Total
+LT_50	Moins de 50
+50_100	Entre 50 et 100
+101_1000	Entre 101 et 1 000
+1001_10000	Entre 1 001 et 10 000
+10001_100000	Entre 10 001 et 100 000
+GT_100000	Plus de 100 000

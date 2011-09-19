@@ -1,0 +1,18 @@
+TOTAL	Insgesamt
+0	Keine Personen
+1	1 Person
+2	2 Personen
+3	3 Personen
+4	4 Personen
+GE4	4 Personen und mehr
+5	5 Personen
+6	6 Personen
+GE6	6 Personen und mehr
+7	7 Personen
+GE7	7 Personen und mehr
+8	8 Personen
+9	9 Personen
+UNK	Unbekannt
+TOT_PERS	Personen insgesamt
+TOT_POPHH	Bevölkerung insgesamt in private Haushalte
+TOT_PERS_DWEL	Zahl der Personen in Wohnungen

@@ -1,0 +1,15 @@
+XTOT	Total
+XIND	Transferts aux individus
+XINDPER	Transferts aux individus - prestations périodiques en espèces
+XINDLUMP	Transferts aux individus - prestations uniques
+XINDREIM	Transferts aux individus - remboursements
+XINDRSOC	Transferts aux individus - réductions de cotisations sociales
+XINDRTAX	Transferts aux individus - réductions d'impôts
+XEMP	Transferts aux employeurs
+XEMPPER	Transferts aux employeurs - prestations périodiques en espèces
+XEMPLUMP	Transferts aux employeurs - prestations uniques
+XEMPREIM	Transferts aux employeurs - remboursements
+XEMPRSOC	Transferts aux employeurs - réductions de cotisations sociales
+XEMPRTAX	Transferts aux employeurs - réductions d'impôts
+XSERV	Transferts aux prestataires de services
+XNOTSPEC	Non spécifié

@@ -1,0 +1,15 @@
+NA	Nicht zutreffend
+HOLD	Weinbaubetriebe
+AAU	Landwirtschaftlich genutzte Fläche der Weinbaubetriebe (ha)
+VITAR	Rebfläche (ha)
+WGVHOLD	Betriebe mit Keltertraubensorten
+WGVAREA	Mit Keltertraubensorten bestockter Rebfläche (ha)
+QWAREA	Mit Keltertraubensorten bestockter Rebfläche für Qualitätswein b.A. (ha)
+WGV_AREA	Keltertraubenfläche
+WGV_NOPROD	Noch nicht für Produktionszwecke bestimmte Keltertraubenfläche
+WGV_INPROD	Für Produktionszwecke bestimmte Keltertraubenfläche
+GRUB	Gerodet
+PLTED	Neubepflanzt
+REPLTED	Wiederbepflanzt
+WINE_PROD	Erzeugung von Traubenmost oder Wein (1 000 hl)
+ALCOOL	Natürlicher Alkoholgehalt (in % vol.)

@@ -1,0 +1,39 @@
+0	Land- und forstwirtschaftliche Erzeugnisse und lebende Tiere
+1	Andere Nahrungs- und Futtermittel
+2	Feste mineralische Brennstoffe
+3	Erdöl, Mineralölerzeugnisse
+4	Metallerze und Abfälle von Metallen
+5	Metallprodukte
+6	Rohe und chemische Mineralien und Baustoffe
+7	Düngemittel
+8	Chemie
+9	Fahrzeuge, Maschinen, sonstige Halb- und Fertigwaren sowie besondere Transportgüter
+0_9	Von Kapitel 0 bis 9 insgesamt
+25	Insgesamt von Gruppe 01 bis 24
+00	Gütergruppen
+01	Getreide
+02	Kartoffeln, frische Früchte, sonstiges frisches und gefrorenes Gemüse
+03	Lebende Tiere, Zuckerrüben
+04	Holz und Kork
+05	Spinnstoffe und Textilabfälle, andere pflanzliche, tierische und verwandte Rohstoffe
+06	Andere Nahrungs- und Futtermittel
+07	Ölsaaten, Ölfrüchte und Fette
+08	Feste mineralische Brennstoffe
+09	Rohes Erdöl
+10	Mineralölerzeugnisse
+11	Eisenerze, Eisen- und Stahlabfälle und -schrott, Hochofenstaub, Schwefelkiesabbrände
+12	NE-Metallerze und Abfälle von NE-Metallen
+13	Eisen, Stahl und NE-Metalle (einschließlich Halbzeug)
+14	Zement, Kalk, verarbeitete Baustoffe
+15	Steine und Erden
+16	Natürliche oder chemische Düngemittel
+17	Grundstoffe der Kohle- und Petrochemie, Teere
+18	Chemische Erzeugnisse, ausgenommen Grundstoffe der Kohle- und Petrochemie sowie Teere
+19	Zellstoff und Altpapier
+20	Fahrzeuge und Beförderungsmittel, Maschinen, Motoren, auch zerlegt und Einzelteile
+21	Metallwaren, einschließlich EBM-Waren
+22	Glas, Glaswaren, keramische und andere mineralische Erzeugnisse
+23	Leder, Textilien, Bekleidung, sonstige Halb- und Fertigwaren
+24	Sonstige Waren
+99	Unbestimmt
+UNK	Unbekannt

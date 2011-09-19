@@ -1,0 +1,14 @@
+AVG	Moyenne
+MOV3M	Moyenne mobile sur 3 mois (centrée)
+BEG	Valeur en début de période
+CUM	Séries cumulées
+END	Valeur en fin de période
+MAX	Valeur maximale au cours de la période
+MIN	Valeur minimale au cours de la période
+MOV	Moyenne mobile sur les 12 derniers mois
+POV	Valeur ponctuelle
+TOT	Total, somme
+STD	Ecart-type
+CV	Coefficient de variation
+OA	Encours
+NB	Nouveaux contrats

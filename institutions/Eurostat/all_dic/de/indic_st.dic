@@ -1,0 +1,38 @@
+V1010	Bestände am ersten Tag des Jahres
+V1020	Anfall in den Stahlwerken
+V1030	Zugänge (v1031 + v1032 + v1033)
+V1031	Zugänge aus Inlandsquellen
+V1032	Zugänge aus anderen Mitgliedstaaten der Gemeinschaft
+V1033	Zugänge aus Drittstaaten
+V1040	Insgesamt verfügbar (v1010 + v1020 + v1030)
+V1050	Gesamtverbrauch
+V1051	Verbrauch aus Elektroöfen
+V1052	Verbrauch aus Schrott aus rostfreiem Stahl
+V1060	Lieferungen
+V1070	Bestände am letzten Tag des Jahres (1040 - 1050 - 1060)
+V3100	Ressourcen (v3101 + v3102)
+V3101	Bruttoproduktion
+V3102	Zugänge Dritter
+V3200	Genutzt (v3210 + v3220 + v3230)
+V3210	Verbrauch nach Anlagen (v3211 +v3212 + v3213 + v3214 + v3215 +v3216 + v3217)
+V3211	Sinteranlage und Möllervorbereitungsanlage
+V3212	Hochöfen und Roheisen-Elektroöfen
+V3213	Elektrostahlwerke und Stranggussanlagen
+V3214	Sonstige Stahlwerke und Stranggussanlagen
+V3215	Walzwerke
+V3216	Elektrizitätswerke
+V3217	Sonstige Anlagen
+V3220	Lieferungen an Dritte
+V3230	Verluste
+V5010	Koks
+V5020	Chargenvorbereitung
+V5030	Roheisen und Ferrolegierungen
+V5040	Rohstahl
+V5041	Rohstahl: Elektrostahl
+V5042	Rohstahl: Stranggussverfahren
+V5050	Direkt im Warmwalzverfahren erzeugte Produkte (v5051 + v5052)
+V5051	Flacherzeugnisse
+V5052	Langerzeugnisse
+V5060	Aus Warmwalzerzeugnissen hergestellte Produkte (ohne beschichtete Produkte)
+V5061	Produkte aus Warmwalzerzeugnisse hergestellt aus Produkten die im Kaltwalzverfahren hergestellt wurden
+V5070	Beschichtete Produkte

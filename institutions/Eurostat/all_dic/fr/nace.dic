@@ -1,0 +1,940 @@
+TOT_NACE_HH	Ensemble des branches NACE plus ménages
+TOTAL	Ensemble des branches NACE - Total
+INN_TOT	Tous codes NACE - NACE de base (sections C, D, E, I et J, Divisions 51, 72, 74.2 et 74.3)
+HTEC	Secteurs de haute technologie (Secteur manufacturier de haute technologie et secteur des services à haute technologie et à haut niveau de savoir)
+MA_TOTAL	Secteur manufacturier
+MA_H_MH_TOT	Secteur manufacturier de haute et moyenne haute technologie
+MA_HIGH_TEC	Secteur manufacturier de haute technologie
+MA_MHIGH_TEC	Secteur manufacturier de moyenne haute technologie
+MA_L_ML_TOT	Secteur manufacturier de moyenne faible et faible technologie
+MA_MLOW_TEC	Secteur manufacturier de moyenne faible technologie
+MA_LOW_TEC	Secteur manufacturier de faible technologie
+SE_TOTAL	Secteur des services: NACE Rév. 1.1 sections G à Q = 50 à 99
+SE_KIS_TOT	Total des secteurs des services à haut niveau de savoir: NACE Rév. 1.1 codes 61, 62, 64 à 67, 70 à 74, 80, 85 et 92
+SE_KIS_HT	Secteurs des services à haute technologie et à haut niveau de savoir: NACE Rév. 1.1 codes 64, 72, 73
+SE_KIS_MS	Secteurs des services de marchés à connaissance intensive (à l'exclusion des services financiers et des services à haute-technologie): NACE Rév. 1.1 codes 61, 62, 70, 71, 74
+SE_KIS_FS	Secteur des services financiers à connaissance intensive: NACE Rév. 1.1 codes 65, 66, 67
+SE_KIS_OT	Autres secteurs des services à haut niveau de savoir: NACE Rév. 1.1 codes 80, 85, 92
+SE_LKIS_TOT	Total des secteurs des services à plus faible niveau de savoir: NACE Rév. 1.1 codes 50, 51, 52, 55, 60, 63, 75, 90, 91, 93, 95 et 99
+SE_LKIS_MS	Secteurs des services de marché à plus faible niveau de savoir: NACE Rév. 1.1 codes 50, 51, 52, 55, 60, 63
+SE_LKIS_OT	Autres secteurs des services à plus faible niveau de savoir: NACE Rév. 1.1 codes 75, 90, 91, 93, 95, 99
+HTEC_MA_SE	Total des secteurs à haute et moyenne-haute technologie et des services à haute technologie et à haut niveau de savoir: NACE Rév. 1.1 codes 24, 29 à 35, 64, 72 et 73
+A_TO_P	Ensemble des branches NACE - Total (exclus les activités extra-territoriales)
+A_B	Agriculture, chasse, sylviculture et pêche
+A_D_TO_H_J_K	Agriculture, chasse, sylviculture; Industrie manufacturière; Production et distribution d'électricité, de gaz et d'eau; Construction; Commerce; réparations automobile et d'articles domestiques; Hôtels et restaurants; Activités financières; Immobilier, location et services aux entreprises
+A_D_TO_K	Agriculture, chasse, sylviculture; Industrie manufacturière; Production et distribution d'électricité, de gaz et d'eau; Construction; Commerce; réparations automobile et d'articles domestiques; Hôtels et restaurants; Transports et communications; Activités financières; Immobilier, location et services aux entreprises
+A_TO_C	Agriculture, chasse, sylviculture, industries extractives: NACE Rév.1 codes 01 à 14
+A	Agriculture, chasse, sylviculture
+A01	Agriculture, chasse, services annexes
+A011	Culture
+A0111	Culture de céréales; cultures industrielles
+A0112	Culture de légumes; horticulture; pépinières
+A0113	Culture de fruits
+A012	Elevage
+A0121	Elevage de bovins
+A0122	Elevage d'ovins, caprins et équidés
+A0123	Elevage de porcins
+A0124	Elevage de volailles
+A0125	Elevage d'autres animaux
+A013	Culture et élevage associés
+A014	Services annexes à l'agriculture et aménagement des paysages
+A0141	Services annexes à l'agriculture et aménagement des paysages
+A0142	Services annexes à l'élevage
+A015	Chasse
+A02	Sylviculture, exploitation forestière, services annexes
+A020	Sylviculture, exploitation forestière, services annexes
+A0201	Sylviculture, exploitation forestière
+A0202	Services forestiers
+B	Pêche, aquaculture
+B05	Pêche, aquaculture et services annexes
+B050	Pêche, aquaculture et services annexes
+B0501	Pêche
+B0502	Aquaculture
+SUB_TOT	Industrie et services (sauf administration publique ; éducation ; activités associatives ; services domestiques ; activités extra-territoriales)
+C_TO_O	Ensemble des branches NACE sauf agriculture, pêche, services domestiques
+C_TO_O_NOT_L	Ensemble des branches NACE sauf agriculture, pêche, administration publique, services domestiques et activités extra-territoriales
+C_TO_K_O	Ensemble des branches NACE couvert par FPC (Formation professionnelle continue)
+C_TO_K	Industrie et services (sauf administration publique)
+C_TO_K_NOT_J	Industrie et services (sauf activités financières et administration publique)
+C_TO_K_NOT_K7415	Industrie et services, sauf administration publique et administration d'entreprises (C à K à l'exclusion de 74.15)
+C_E_F	Industrie, sauf industrie manufacturière
+C_E_F_H_I	Industrie extractive; production et distribution d'électricité, de gaz et d'eau; construction; hôtels et restaurants; transports et communications
+C_D_E	Ensemble de l'industrie (excepté la construction)
+C_D_E_X_FOOD	Ensemble de l'industrie (excepté la construction et l'alimentation)
+IND_EX_REC	Industrie - total (excepté le recyclage)
+C_E	Industries extractives; production et distribution d'électricité, de gaz et d'eau
+C_E_F_G_H_I_K	IS services C, E, F, G, H, I, K
+C_TO_F	Industrie
+C_D	Industries extractives et manufacturières
+C	Industries extractives
+CA12_CB	Extraction de minerais d'uranium; Extraction de produits non énergétiques
+CA	Extraction de produits énergétiques
+CA10	Extraction de houille, de lignite et de tourbe
+CA101	Extraction et agglomération de la houille
+CA102	Extraction et agglomération du lignite
+CA103	Extraction et agglomération de la tourbe
+CA11	Extraction d'hydrocarbures; services annexes
+CA111	Extraction d'hydrocarbures
+CA112	Services annexes à l'extraction d'hydrocarbures
+CA12	Extraction de minerais d'uranium
+CA120	Extraction de minerais d'uranium
+CB	Extraction de produits non énergétiques
+CB13	Extraction de minerais métalliques
+CB131	Extraction de minerais de fer
+CB132	Extraction de minerais de métaux non ferreux
+CB14	Autres industries extractives
+CB141	Extraction de pierres
+CB1411	Extraction de pierres ornementales et de construction
+CB1412	Extraction de calcaire industriel, de gypse et de craie
+CB1413	Extraction d'ardoise
+CB142	Extraction de sables et d'argiles
+CB1421	Extraction de sables et de granulats
+CB1422	Extraction d'argiles et de kaolin
+CB143	Extraction de minéraux pour industrie chimique, d'engrais naturel
+CB144	Production de sel
+CB145	Activités extractives n.c.a.
+D_E	Industrie manufacturière; production et distribution d 'électricité, de gaz et d'eau
+DS_D_TO_O	Total des activités (Nace : D à O à l'exclusion de E et K70)
+D_NOT_DN37	Industrie manufacturière sauf récupération
+D	Industrie manufacturière
+MANUF_ORD	Industrie manufacturière à commandes
+MANUF_ORD_NOT_35	Industrie manufacturière à commandes hors matériels de transport autres qu'automobiles
+DA	Industries agricoles et alimentaires
+DA15	Industries alimentaires
+DA151	Industrie des viandes
+DA1511	Production de viandes de boucherie
+DA1512	Production de viandes de volailles
+DA1513	Préparation de produits à base de viande
+DA152	Industrie du poisson
+DA153	Industrie des fruits et légumes
+DA1531	Transformation et conservation de pommes de terre
+DA1532	Préparation de jus de fruits et légumes
+DA1533	Transformation et conservation de fruits et légumes n.c.a.
+DA154	Industrie des corps gras
+DA1541	Fabrication d'huiles et graisses brutes
+DA1542	Fabrication d'huiles et graisses raffinées
+DA1543	Fabrication de margarine
+DA155	Industrie laitière
+DA1551	Fabrication de produits laitiers
+DA1552	Fabrication de glaces et sorbets
+DA156	Travail des grains; fabrication de produits amylaces
+DA1561	Travail des grains
+DA1562	Fabrication de produits amylacés
+DA157	Fabrication d'aliments pour animaux
+DA1571	Fabrication d'aliments pour animaux de ferme
+DA1572	Fabrication d'aliments pour animaux de compagnie
+DA158	Autres industries alimentaires
+DA1581	Fabrication de pain et de pâtisserie fraîche
+DA1582	Biscotterie, biscuiterie, pâtisserie de conservation
+DA1583	Fabrication de sucre
+DA1584	Chocolaterie, confiserie
+DA1585	Fabrication de pâtes alimentaires
+DA1586	Transformation du thé et du café
+DA1587	Fabrication de condiments et assaisonnements
+DA1588	Fabrication d'aliments adaptés à l'enfant et diététiques
+DA1589	Industries alimentaires n.c.a.
+DA159	Industrie des boissons
+DA1591	Production de boissons alcooliques distillées
+DA1592	Production d'alcool éthylique de fermentation
+DA1593	Production de vin
+DA1594	Cidrerie
+DA1595	Production d'autres boissons fermentées
+DA1596	Brasserie
+DA1597	Malterie
+DA1598	Industrie des eaux et des boissons rafraîchissantes
+DA16	Industrie du tabac
+DA160	Industrie du tabac
+DB_DC	Industrie textile et habillement, du cuir et de la chaussure
+DB	Industrie textile et habillement
+DB17	Industrie textile
+DB171	Filature
+DB1711	Filature de l'industrie cotonnière
+DB1712	Filature de l'industrie lainière - cycle cardé
+DB1713	Préparation et filature de l'industrie lainière - cycle peigné
+DB1714	Préparation et filature du lin
+DB1715	Moulinage et texturation de la soie et des textiles artificiels et synthétiques
+DB1716	Fabrication de fils à coudre
+DB1717	Préparation et filature d'autres fibres
+DB172	Tissage
+DB1721	Tissage de l'industrie cotonnière
+DB1722	Tissage de l'industrie lainière - cycle cardé
+DB1723	Tissage de l'industrie lainière - cycle peigné
+DB1724	Tissage de soieries
+DB1725	Tissage d'autres textiles
+DB173	Ennoblissement textile
+DB174	Fabrication d'articles textiles
+DB175	Autres industries textiles
+DB1751	Fabrication de tapis et moquettes
+DB1752	Ficellerie, corderie, fabrication de filets
+DB1753	Fabrication de non-tissés
+DB1754	Industries textiles n.c.a.
+DB176	Fabrication d'étoffes à mailles
+DB177	Fabrication d'articles à mailles
+DB1771	Fabrication d'articles chaussants à mailles
+DB1772	Fabrication de pull-overs et articles similaires
+DB18	Industrie de l'habillement et des fourrures
+DB181	Fabrication de vêtements en cuir
+DB182	Fabrication de vêtements en textile
+DB1821	Fabrication de vêtements de travail
+DB1822	Fabrication de vêtements de dessus
+DB1823	Fabrication de vêtements de dessous
+DB1824	Fabrication d'autres vêtements et accessoires
+DB183	Industrie des fourrures
+DC	Industrie du cuir et de la chaussure
+DC19	Industrie du cuir et de la chaussure
+DC191	Apprêt et tannage des cuirs
+DC192	Fabrication d'articles de voyage et de maroquinerie
+DC193	Fabrication de chaussures
+DD_DN	Travail du bois et fabrication d'articles en bois; autres industries manufacturières
+DD_DE	Travail du bois et fabrication d'articles en bois, industrie du papier et du carton; édition et imprimerie
+DD	Travail du bois et fabrication d'articles en bois
+DD_DE221	Travail du bois et fabrication d'articles en papier; édition et industrie du papier
+DD20_DE	Travail du bois et fabrication d'articles en bois; industrie du papier et du carton; édition et imprimerie
+DD20	Travail du bois et fabrication d'articles en bois
+DD201	Sciage, rabotage, imprégnation du bois
+DD202	Fabrication de panneaux de bois
+DD203	Fabrication de charpentes et de menuiseries
+DD204	Fabrication d'emballages en bois
+DD205	Fabrication d'objets divers en bois, liège et vannerie
+DD2051	Fabrication d'objets divers en bois
+DD2052	Fabrication d'objets en liège, vannerie et sparterie
+DE	Industrie du papier et du carton; édition et imprimerie
+DE21	Industrie du papier et du carton
+DE211	Fabrication de pâte à papier, de papier et de carton
+DE2111	Fabrication de pâte à papier
+DE2112	Fabrication de papier et de carton
+DE212	Fabrication d'articles en papier ou en carton
+DE2121	Fabrication de carton ondulé et d'emballages en papier ou en carton
+DE2122	Fabrication d'articles en papier à usage sanitaire ou domestique
+DE2123	Fabrication d'articles de papeterie
+DE2124	Fabrication de papiers peints
+DE2125	Fabrication d'autres articles en papier ou en carton
+DE22	Edition, imprimerie, reproduction
+DE221	Edition
+DE2211	Edition de livres
+DE2212	Edition de journaux
+DE2213	Edition de revues et périodiques
+DE2214	Edition d'enregistrements sonores
+DE2215	Autres activités d'édition
+DE222	Imprimerie
+DE2221	Imprimerie de journaux
+DE2222	Autre imprimerie (labeur)
+DE2223	Reliure
+DE2224	Activités de pré-presse (Composition et photogravure dans la NACE Rev.1)
+DE2225	Activités graphiques auxiliaires (Autres activités graphiques dans la NACE Rev.1)
+DE223	Reproduction d'enregistrements
+DE2231	Reproduction d'enregistrements sonores
+DE2232	Reproduction d'enregistrements vidéo
+DE2233	Reproduction d'enregistrements informatiques
+DF_TO_DH	Cokéfaction, raffinage, industries nucléaires; industrie chimique; industrie du caoutchouc et des plastiques
+DF_TO_DI	Cokéfaction, raffinage, industries nucléaires; industrie chimique; industrie du caoutchouc et des plastiques; fabrication d'autres produits minéraux non métalliques
+DF_DG	Cokéfaction, raffinage, industries nucléaires, industrie chimique
+DF	Cokéfaction, raffinage, industries nucléaires
+DF23	Cokéfaction, raffinage, industries nucléaires
+DF231_DF233	Cokéfaction; élaboration et transformation de matières nucléaires
+DF231	Cokéfaction
+DF232	Raffinage de pétrole
+DF233	Elaboration et transformation de matières nucléaires
+DG_DH	Industrie chimique, du caoutchouc et des plastiques
+DG	Industrie chimique
+DG24_NOT_DG244	Industrie chimique sauf industrie pharmaceutique
+I_LOW_TEC	Industries de basse technologie: NACE Rév.1 codes 15 à 22, 36 et 37
+I_MED_LOW_TEC	Industries de basse et moyenne technologie: NACE Rév.1 codes 23, 25 à 28 sauf 351
+HIGH_MED_TEC	Haute technologie et haute technologie moyenne - industries manufacturières (DG24, DK29 à DM35)
+DG24	Industrie chimique
+DG241	Industrie chimique de base
+DG2411	Fabrication de gaz industriels
+DG2412	Fabrication de colorants et de pigments
+DG2413	Fabrication d'autres produits chimiques inorganiques de base
+DG2414	Fabrication d'autres produits chimiques organiques de base
+DG2415	Fabrication de produits azotés et d'engrais
+DG2416	Fabrication de matières plastiques de base
+DG2417	Fabrication de caoutchouc synthétique
+DG242	Fabrication de produits agrochimiques
+DG243	Fabrication de peintures et vernis
+DG244	Industrie pharmaceutique
+DG2441	Fabrication de produits pharmaceutiques de base
+DG2442	Fabrication de préparations pharmaceutiques
+DG245	Fabrication de savons, de parfums et de produits d'entretien
+DG2451	Fabrication de savons, détergents et produits d'entretien
+DG2452	Fabrication de parfums et de produits pour la toilette
+DG246	Fabrication d'autres produits chimiques
+DG2461	Fabrication de produits explosifs
+DG2462	Fabrication de colles et gélatines
+DG2463	Fabrication d'huiles essentielles
+DG2464	Fabrication de produits chimiques pour la photographie
+DG2465	Fabrication de supports de données
+DG2466	Fabrication de produits chimiques à usage industriel
+DG247	Fabrication de fibres artificielles ou synthétiques
+DH_DI	Industrie du caoutchouc et des plastiques, fabrication d'autres produits minéraux non métalliques
+DH	Industrie du caoutchouc et des plastiques
+DH25	Industrie du caoutchouc et des plastiques
+DH251	Industrie du caoutchouc
+DH2511	Fabrication de pneumatiques
+DH2512	Rechapage de pneumatiques
+DH2513	Fabrication d'autres articles en caoutchouc
+DH252	Transformation des matières plastiques
+DH2521	Fabrication de plaques, feuilles, tubes et profilés en matières plastiques
+DH2522	Fabrication d'emballages en matières plastiques
+DH2523	Fabrication d'éléments en matières plastiques pour la construction
+DH2524	Fabrication d'autres articles en matières plastiques
+DI	Fabrication d'autres produits minéraux non métalliques
+DI26	Fabrication d'autres produits minéraux non métalliques
+DI261	Fabrication de verre et d'articles en verre
+DI2611	Fabrication de verre plat
+DI2612	Façonnage et transformation du verre plat
+DI2613	Fabrication de verre creux
+DI2614	Fabrication de fibres de verre
+DI2615	Fabrication et façonnage d'autres articles en verre
+DI262	Fabrication de produits céramiques autres que pour la construction
+DI2621	Fabrication d'articles céramiques à usage domestique ou ornemental
+DI2622	Fabrication d'appareils sanitaires en céramique
+DI2623	Fabrication d'isolateurs et pièces isolantes en céramique
+DI2624	Fabrication d'autres produits céramiques à usage technique
+DI2625	Fabrication d'autres produits céramiques
+DI2626	Fabrication de produits céramiques réfractaires
+DI263	Fabrication de carreaux en céramique
+DI264	Fabrication de tuiles et briques en terre cuite
+DI265	Fabrication de ciment, chaux et plâtre
+DI2651	Fabrication de ciment
+DI2652	Fabrication de chaux
+DI2653	Fabrication de plâtre
+DI266	Fabrication d'ouvrages en béton ou en plâtre
+DI2661	Fabrication d'éléments en béton pour la construction
+DI2662	Fabrication d'éléments en plâtre pour la construction
+DI2663	Fabrication de béton prêt à l'emploi
+DI2664	Fabrication de mortiers et bétons secs
+DI2665	Fabrication d'ouvrages en fibre-ciment
+DI2666	Fabrication d'autres ouvrages en béton ou en plâtre
+DI267	Taille, façonnage et finissage de pierres ornementales et de construction
+DI2670	Taille, façonnage et finissage de pierres ornementales et de construction
+DI268	Fabrication de produits minéraux divers
+DI2681	Fabrication de produits abrasifs
+DI2682	Fabrication de produits minéraux non métalliques n.c.a.
+DJ_DN36	Métallurgie et travail des métaux ; fabrication de meubles; industries diverses
+DJ	Métallurgie et travail des métaux
+DJ27	Métallurgie
+DJ271-DJ273	Sidérurgie ; fabrication de tubes; autres opérations de première transformation du fer et de l'acier
+DJ271_DJ273	Sidérurgie; première transformation de l'acier
+DJ271_TO_DJ273_DJ2751_DJ2752	Sidérurgie; fabrication de tubes ; première transformation de l'acier) ; fonderie de fonte et d'acier
+DJ271	Sidérurgie (y compris la production de ferro-alliages non CECA dans la NACE Rev.1.1)
+DJ272	Fabrication de tubes
+DJ2721	Fabrication de tubes en fonte
+DJ2722	Fabrication de tubes en acier
+DJ273	Première transformation de l'acier (exclus la production de ferro-alliages dans la NACE Rev.1.1)
+DJ2731	Etirage à froid
+DJ2732	Laminage à froid de feuillards
+DJ2733	Profilage à froid par formage ou pliage
+DJ2734	Tréfilage à froid
+DJ2735	Production de ferro-alliages et autres produits non CECA (inclus dans DJ271 dans la NACE Rev.1.1)
+DJ274_DJ2753_DJ2754	Production de métaux non ferreux; fonderie de métaux légers et d'autres métaux non ferreux
+DJ274	Production de métaux non ferreux
+DJ2741	Production de métaux précieux
+DJ2742	Métallurgie de l'aluminium
+DJ2743	Métallurgie du plomb, du zinc ou de l'étain
+DJ2744	Métallurgie du cuivre
+DJ2745	Métallurgie des autres métaux non ferreux
+DJ275	Fonderie
+DJ2751	Fonderie de fonte
+DJ2752	Fonderie d'acier
+DJ2753	Fonderie de métaux légers
+DJ2754	Fonderie d'autres métaux non ferreux
+DJ28_TO_DM	Travail des métaux ; fabrication de machines et équipements, d'équipements électriques et électroniques, de matériel de transport
+DJ28_TO_DN36	Autres industries manufacturières (DJ28, DK, DL, DM et DN36)
+DJ28	Travail des métaux
+DJ281	Fabrication d'éléments en métal pour la construction
+DJ2811	Fabrication de constructions métalliques
+DJ2812	Fabrication de charpentes et menuiseries métalliques
+DJ282	Fabrication de réservoirs métalliques et de chaudières
+DJ2821	Fabrication de réservoirs, citernes et conteneurs métalliques
+DJ2822	Fabrication de radiateurs et de chaudières pour le chauffage central
+DJ283	Chaudronnerie
+DJ284	Forge, emboutissage, estampage; métallurgie des poudres
+DJ285	Traitement des métaux; mécanique générale
+DJ2851	Traitement et revêtement des métaux
+DJ2852	Opérations de mécanique générale
+DJ286	Fabrication de coutellerie, d'outillage et de quincaillerie
+DJ2861	Fabrication de coutellerie
+DJ2862	Fabrication d'outillage
+DJ2863	Fabrication de serrures et de ferrures
+DJ287	Fabrication d'autres ouvrages en métaux
+DJ2871	Fabrication de fûts et emballages métalliques similaires
+DJ2872	Fabrication d'emballages métalliques légers
+DJ2873	Fabrication d'articles en fils métalliques
+DJ2874	Visserie et boulonnerie; fabrication de chaînes et de ressorts
+DJ2875	Fabrication d'ouvrages divers en métaux
+DK_DL_DM	Fabrication de machines et équipements, d'équipements électriques et électroniques, de matériel de transport
+DK_TO_DM	Fabrication de machines et équipements, d'équipements électriques et électroniques, de matériel de transport
+DK_DL	Fabrication de machines et équipements, d'équipements électriques et électroniques
+DK	Fabrication de machines et équipements
+DK29	Fabrication de machines et équipements
+DK291	Fabrication d'équipements mécaniques
+DK2911	Fabrication de moteurs et turbines
+DK2912	Fabrication de pompes, compresseurs et systèmes hydrauliques
+DK2913	Fabrication d'articles de robinetterie
+DK2914	Fabrication d'engrenages et d'organes mécaniques de transmission
+DK292	Fabrication de machines d'usage général
+DK2921	Fabrication de fours et brûleurs
+DK2922	Fabrication de matériel de levage et de manutention
+DK2923	Fabrication d'équipements aérauliques et frigorifiques industriels
+DK2924	Fabrication d'autres machines d'usage général
+DK293_TO_DK296	Fabrication de machines agricoles, de machines-outils, d'autres machines d'usage spécifique, d'armes et de munitions
+DK293	Fabrication de machines agricoles
+DK2931	Fabrication de tracteurs agricoles
+DK2932	Fabrication d'autres machines agricoles
+DK294	Fabrication de machines-outils (divisé en DK2941, DK2942 et DK2943 dans la NACE Rev.1.1)
+DK2941	Fabrication d'outillage portatif à moteur incorporé
+DK2942	Fabrication d'autres machines-outils pour le travail des métaux
+DK2943	Fabrication d'autres machines-outils n.c.a.
+DK295	Fabrication d'autres machines d'usage spécifique
+DK2951	Fabrication de machines pour la métallurgie
+DK2952	Fabrication de machines pour l'extraction ou la construction
+DK2953	Fabrication de machines pour l'industrie agro-alimentaire
+DK2954	Fabrication de machines pour les industries textiles
+DK2955	Fabrication de machines pour les industries du papier et du carton
+DK2956	Fabrication de machines diverses d'usage spécifique
+DK296	Fabrication d'armes et de munitions
+DK297	Fabrication d'appareils domestiques
+DK2971	Fabrication d'appareils électroménagers
+DK2972	Fabrication d'appareils ménagers non électriques
+DL	Fabrication d'équipements électriques et électroniques
+DL30	Fabrication de machines de bureau et de matériel informatique
+DL300	Fabrication de machines de bureau et de matériel informatique
+DL3001	Fabrication de machines de bureau
+DL3002	Fabrication d'ordinateurs et d'autres équipements informatiques
+DL31_DL32	Fabrication de machines et appareils électriques, d'équipements de radio, télévision et communication
+DL31	Fabrication de machines et appareils électriques
+DL311	Fabrication de moteurs, génératrices et transformateurs électriques
+DL312_DL313	Fabrication de matériel de distribution et de commande électrique, de fils et câbles isolés
+DL312	Fabrication de matériel de distribution et de commande électrique
+DL313	Fabrication de fils et câbles isolés
+DL314	Fabrication d'accumulateurs et de piles électriques
+DL315	Fabrication de lampes et d'appareils d'éclairage
+DL316	Fabrication d'autres matériels électriques
+DL3161	Fabrication de matériels électriques pour moteurs et véhicules
+DL3162	Fabrication de matériels électriques sauf pour moteurs et véhicules
+DL32	Fabrication d'équipements de radio, télévision et communication
+DL32_NOT_DL321	Fabrication d'équipements de radio, télévision et communication
+DL321	Fabrication de composants électroniques
+DL322	Fabrication d'appareils d'émission et de transmission
+DL323	Fabrication d'appareils de réception, enregistrement
+DL33	Fabrication d'instruments médicaux, de précision, d'optique et d'horlogerie
+DL331	Fabrication de matériel médico-chirurgical et d'orthopédie
+DL332	Fabrication d'instruments de mesure et de contrôle
+DL333	Fabrication d'équipements de contrôle des processus industriels
+DL334	Fabrication de matériels optique et photographique
+DL335	Horlogerie
+DM	Fabrication de matériel de transport
+DM34	Industrie automobile
+DM341	Construction de véhicules automobiles
+DM3411	Construction de véhicules automobiles pour usage professionnel
+DM3412	Construction de véhicules automobiles pour usage privé
+DM342	Fabrication de carrosseries et remorques
+DM343	Fabrication d'équipements automobiles
+DM35	Fabrication d'autres matériels de transport
+DM351	Construction navale
+DM3511	Construction et réparation de navires
+DM3512	Construction de bateaux de plaisance
+DM352	Construction de matériel ferroviaire roulant
+DM353	Construction aéronautique et spatiale
+DM354_DM355	Fabrication de motocycles et de bicyclettes, de matériels de transport n.c.a.
+DM354	Fabrication de motocycles et de bicyclettes
+DM3541	Fabrication de motocycles
+DM3542	Fabrication de bicyclettes
+DM3543	Fabrication de véhicules pour invalides
+DM355	Fabrication de matériels de transport n.c.a.
+DN	Autres industries manufacturières
+DN36_NOT_DN361	Fabrication de meubles; industries diverses sauf fabrication de meubles
+DN36	Fabrication de meubles; industries diverses
+DN361	Fabrication de meubles
+DN3611	Fabrication de sièges
+DN3612	Fabrication de meubles de bureau et de magasin
+DN3613	Fabrication de meubles de cuisine
+DN3614	Fabrication d'autres meubles
+DN3615	Fabrication de matelas
+DN362_TO_DN365	Bijouterie; fabrication d'instruments de musique, d'articles de sport, de jeux et jouets
+DN362_TO_DN366	Bijouterie; fabrication d'instruments de musique, d'articles de sport, de jeux et jouets et autres industries diverses
+DN362	Bijouterie
+DN3621	Fabrication de monnaies
+DN3622	Bijouterie, joaillerie, orfèvrerie
+DN363	Fabrication d'instruments de musique
+DN364	Fabrication d'articles de sport
+DN365	Fabrication de jeux et jouets
+DN366	Autres industries diverses
+DN3661	Bijouterie de fantaisie
+DN3662	Industrie de la brosserie
+DN3663	Autres activités manufacturières n.c.a
+DN37	Récupération
+DN371	Récupération de matières métalliques recyclables
+DN372	Récupération de matières non métalliques recyclables
+E	Production et distribution d'électricité, de gaz et d'eau
+E40	Production et distribution d'électricité, de gaz et de chaleur
+E401	Production et distribution d'électricité
+E4011	Production d'électricité
+E4012	Transport d'électricité
+E4013	Distribution et commerce d'électricité
+E402	Production et distribution de combustibles gazeux
+E4021	Production de gaz
+E4022	Distribution et commerce de combustibles gazeux
+E403	Production et distribution de chaleur
+E41	Captage, traitement et distribution d'eau
+E410	Captage, traitement et distribution d'eau
+ELEC_ENGIN	Ingénieurie électrique
+IND_NOT_CO_EN	Ensemble de l'industrie, à l'exclusion de la construction et de l'énergie
+C_D_E_X_FOOD_NRG	Ensemble de l'industrie (excepté la construction, l'alimentation et l'énergie)
+ENERGY	Energie
+ENERGY_NOT_E	Energie sans section Nace E (Production et distribution d'électricité, de gaz et d'eau)
+EP_OTH	Autres secteurs d' entreprises (à l'exception des producteurs de services environnementaux)
+E_F	Distribution d'électricité, de gaz, d'eau et construction
+F	Construction
+F45	Construction
+F451	Préparation des sites
+F4511	Démolition et terrassements
+F4512	Forages et sondages
+F452	Construction d'ouvrages de bâtiment ou de génie civil
+F4521	Travaux de construction
+F4522	Réalisation de charpentes et de couvertures
+F4523	Construction d'autoroutes, de routes, d'aérodromes et d'installations sportives
+F4524	Travaux maritimes et fluviaux
+F4525	Autres travaux de construction
+F453	Travaux d'installation
+F4531	Travaux d'installation électrique
+F4532	Travaux d'isolation
+F4533	Plomberie
+F4534	Autres travaux d'installation
+F454	Travaux de finition
+F4541	Plâtrerie
+F4542	Menuiserie
+F4543	Revêtement des sols et des murs
+F4544	Peinture et vitrerie
+F4545	Autres travaux de finition
+F455	Location avec opérateur de matériel de construction
+EP_PRIV_PUB	Producteurs publics et privés spécialisés dans les services de protection de l'environnement
+G_TO_K	Services (sauf administration publique)
+G_TO_K_NOT_H	Services (sauf hôtels et restaurants et administration publique)
+G_TO_K_NOT_K7415	Services, sauf administration publique et d'entreprises (G à K a l'exclusion de 74.15)
+G_TO_Q	Services
+G_TO_Q_NOT_G5157_O90	Autres activité économiques (services) sauf 51.57 et 90
+G_TO_P	Services (exclus les activités extra-territoriales)
+G_TO_O_NOT_L	Services sauf administration publique, services domestiques et activités extra-territoriales
+G_H_I	Commerce, réparations automobile et d'articles domestiques; hôtels et restaurants; transports et communications
+G_H_P	Commerce, hôtels et restaurants, services domestiques: NACE Rév.1 code 50 à 52, 55 et 95
+G_H	Commerce, réparations automobile et d'articles domestiques; hôtels et restaurants
+INN_G_TO_K	Services de base G à K (sections NACE I et J et divisions NACE 51, 72, 74.2 et 74.3)
+DS_G_TO_O	Commerce; Hotels et restaurants; Transports et communications; Immobilier, location et services aux entreprises; Assainissement, voirie et gestion des déchets; activités cinématographiques et vidéo; activités de radio et de télévision (Nace: G, H, I, K, O90, O92.1,O92.2)
+TR_SERV_X_RET	Commerce et autres services (hors commerce de détail)
+TR_SERV	Commerce et autres services
+G	Commerce; réparations automobile et d'articles domestiques
+G50	Commerce et réparation automobile
+G50_TO_G52	Commerce d'automobiles
+G501_G503_G504	Commerce de véhicules automobiles; Commerce d'équipements automobiles; Commerce et réparation de motocycles
+G501_TO_G503	Commerce de véhicules automobiles, entretien et réparation de véhicules automobiles et commerce d'équipements automobiles
+G501	Commerce de véhicules automobiles
+G502	Entretien et réparation de véhicules automobiles
+G503	Commerce d'équipements automobiles
+G504	Commerce et réparation de motocycles
+G505	Commerce de détail de carburants
+G51	Commerce de gros et intermédiaires du commerce, excepté véhicules automobiles
+G511	Intermédiaires du commerce de gros
+G5111	Intermédiaires du commerce en matières premières agricoles, animaux vivants, matières premières textiles et demi-produits
+G5112	Intermédiaires du commerce en combustibles, métaux minéraux et produits chimiques
+G5113	Intermédiaires du commerce en bois et matériaux de construction
+G5114	Intermédiaires du commerce en machines, équipements industriels, navires et avions
+G5115	Intermédiaires du commerce en meubles, articles de ménage et quincaillerie
+G5116	Intermédiaires du commerce en textiles, habillement, chaussures et articles en cuir
+G5117	Intermédiaires du commerce en denrées, boissons et tabac
+G5118	Autres intermédiaires spécialisés du commerce
+G5119	Intermédiaires du commerce en produits divers
+G512	Commerce de gros de produits agricoles bruts
+G5121	Commerce de gros de céréales et aliments pour le bétail
+G5122	Commerce de gros de fleurs et plantes
+G5123	Commerce de gros d'animaux vivants
+G5124	Commerce de gros de cuirs et peaux
+G5125	Commerce de gros de tabac non manufacturé
+G513	Commerce de gros de produits alimentaires
+G5131	Commerce de gros de fruits et légumes
+G5132	Commerce de gros de viandes
+G5133	Commerce de gros de produits laitiers, oeufs, huiles
+G5134	Commerce de gros de boissons
+G5135	Commerce de gros de tabac
+G5136	Commerce de gros de sucre, chocolat et confiserie
+G5137	Commerce de gros de café, thé, cacao et épices
+G5138	Autres commerces de gros alimentaires spécialisés
+G5139	Commerce de gros non spécialisé de denrées, boissons et tabac
+G514	Commerce de gros de biens de consommation non alimentaires
+G5141	Commerce de gros de textiles
+G5142	Commerce de gros d'habillement et de chaussures
+G5143	Commerce de gros d'appareils électroménagers et de radio/télévision
+G5144	Commerce de gros de céramique, verrerie et produits d'entretien
+G5145	Commerce de gros de parfumerie et de produits de beauté
+G5146	Commerce de gros de produits pharmaceutiques
+G5147	Commerce de gros de biens de consommation non alimentaires divers
+G515	Commerce de gros de produits intermédiaires non agricoles
+G5151	Commerce de gros de combustibles
+G5152	Commerce de gros de minerais et métaux
+G5153	Commerce de gros de bois et de matériaux de construction
+G5154	Commerce de gros de quincaillerie et fournitures pour plomberie et chauffage
+G5155	Commerce de gros de produits chimiques
+G5156	Commerce de gros d'autres produits intermédiaires
+G5157	Commerce de gros de déchets et débris
+G518	Commerce de gros d'équipements industriels
+G5181	Commerce de gros de machines-outils
+G5182	Commerce de gros d'équipements pour la construction
+G5183	Commerce de gros de machines pour l'industrie textile et l'habillement
+G5184_G5185	Commerce de gros de machines de bureau et de matériel informatique (G5164 dans la NACE Rev.1)
+G5184	Commerce de gros d'ordinateurs, d'équipements informatiques périphériques et de logiciels
+G5185	Commerce de gros d'autres machines et d'équipements de bureau
+G5186_G5187	Commerce de gros d'autres équipements industriels (G5165 dans la NACE Rev.1)
+G5186	Commerce de gros d'autres composants et d'équipements électroniques
+G5187	Commerce de gros d'autres machines utilisées dans l'industrie, le commerce et la navigation
+G5188	Commerce de gros de matériel agricole
+G519	Autres commerces de gros
+G5190	Autres commerces de gros
+G52	Commerce de détail et réparation d'articles domestique
+G52_NOT_G527	Commerce de détail
+G521	Commerce de détail en magasin non spécialisé
+G5211_G522	Commerce de détail alimentaire
+G5211	Commerce de détail en magasin non spécialisé à prédominance alimentaire
+G5212	Commerce de détail en magasin non spécialisé sans prédominance alimentaire
+G522	Commerce de détail alimentaire en magasin spécialisé
+G5221	Commerce de détail de fruits et légumes
+G5222	Commerce de détail de viandes et produits à base de viande
+G5223	Commerce de détail de poissons, crustacés et mollusques
+G5224	Commerce de détail de pain, pâtisserie et confiserie
+G5225	Commerce de détail de boissons
+G5226	Commerce de détail de tabac
+G5227	Autres commerces de détail alimentaires en magasin spécialisé
+G5212_G523_TO_G526	Commerce de détail de produits non-alimentaires
+G523_TO_G525	Commerce de détail non alimentaire en magasin spécialisé (52.3 à 52.5)
+G523	Commerces de détail de produits pharmaceutiques et de parfumerie
+G5231	Commerce de détail de produits pharmaceutiques
+G5232	Commerce de détail d'articles médicaux et orthopédiques
+G5233	Commerce de détail de parfumerie et de produits de beauté
+G524	Autres commerces de détail en magasin spécialisé
+G5241_TO_G5243	Commerce de détail de textiles, habillement, chaussures et d'articles en cuir
+G5241	Commerce de détail de textiles
+G5242	Commerce de détail d'habillement
+G5243	Commerce de détail de chaussures et d'articles en cuir
+G5244_TO_G5246	Commerce de détail d'équipements du foyer
+G5244	Commerce de détail de meubles et d'équipements du foyer
+G5245	Commerce de détail d'appareils électroménagers et de radio/télévision
+G5246	Commerce de détail de quincaillerie, peintures et verres
+G5247_G5248	Commerce de détail de livres, journaux et autre
+G5247	Commerce de détail de livres, journaux et papeterie
+G5248	Commerce de détail spécialisés divers
+G525	Commerce de détail de biens d'occasion en magasin
+G526	Commerce de détail hors magasin
+G5261	Vente par correspondance
+G5262	Commerce de détail sur éventaires et marchés
+G5263	Autres commerces de détail hors magasin
+G527	Réparation d'articles personnels et domestiques
+G5271	Réparation de chaussures et d'articles en cuir
+G5272	Réparation d'appareils électriques à usage domestique
+G5273	Réparation de montres, horloges et bijoux
+G5274	Réparation d'articles personnels et domestiques n.c.a.
+H_I_K	Hôtels et restaurants; transports et communications; immobilier, location et services aux entreprises
+H	Hôtels et restaurants
+H55	Hôtels et restaurants
+H550	Hôtels et restaurants
+H551_H552	Hôtels; autres moyens d'hébergement de courte durée
+H551	Hôtels
+H5510	Hôtels
+H5511	Hôtels avec restaurant (NACE Rev.1 seulement)
+H5512	Hôtels sans restaurant (NACE Rev.1 seulement)
+H552	Autres moyens d'hébergement de courte durée
+H5521	Auberges de jeunesse et refuges
+H5522	Exploitation de terrains de camping
+H5523	Moyens d'hébergement divers
+H553_TO_H555	Restaurants; cafés; cantines et traiteurs
+H553	Restaurants
+H554	Cafés
+H555	Cantines et traiteurs
+H5551	Cantines et restaurants d'entreprises
+H5552	Traiteurs
+I	Transports et communications
+I60_TO_I62	Transports terrestres; transports par eau; transports aériens
+I60_TO_I62_I642	Transports terrestres; transports par eau; transports aériens; télécommunications
+I60_TO_I63	Transports terrestres; transports par eau; transports aériens; services auxiliaires des transports
+I60_TO_I64	Transports terrestres; transports par eau; transports aériens; services auxiliaires des transports ; postes et télécommunications
+I60_TO_I64_NOT_I642	Transports terrestres; transports par eau; transports aériens; services auxiliaires des transports ; activités de poste et de courrier
+I60	Transports terrestres
+I601	Transports ferroviaires
+I602	Transports urbains et routiers
+I6021_TO_I6023	Transports réguliers de voyageurs; transports de voyageurs par taxis; autres transports routiers de voyageurs
+I6021	Transports réguliers de voyageurs
+I6022	Transports de voyageurs par taxis
+I6023	Autres transports routiers de voyageurs
+I6024	Transports routiers de marchandises
+I603	Transports par conduites
+I61	Transports par eau
+I611	Transports maritimes et côtiers
+I612	Transports fluviaux
+I62	Transports aériens
+I621	Transports aériens réguliers
+I622	Transports aériens non réguliers
+I623	Transports spatiaux
+I63	Services auxiliaires des transports
+I630	Services auxiliaires des transports
+I631_I632_I634	Manutention et entreposage; gestion d'infrastructures de transports; organisation du transport de frêt
+I631_I632	Manutention et entreposage et gestion d'infrastructures de transports
+I631	Manutention et entreposage
+I6311	Manutention
+I6312	Entreposage
+I632	Gestion d'infrastructures de transports
+I6321	Gestion d'infrastructures de transports terrestres
+I6322	Services portuaires, maritimes et fluviaux
+I6323	Services aéroportuaires
+I633	Agences de voyage
+I634	Organisation du transport de frêt
+I64	Postes et télécommunications
+I641	Activités de poste et de courrier
+I6411	Postes nationales
+I6412	Autres activités de courrier
+I642	Télécommunications
+J_K	Activités financières; immobilier, location et services aux entreprises
+J	Activités financières
+J65_J66	Intermédiation financière; assurance
+J65	Intermédiation financière
+J651	Intermédiation monétaire
+J6511	Banque centrale
+J6512_652	Etablissements de crédit (total)
+J6512	Autres intermédiations monétaires
+J652	Autres intermédiations financières
+J6521	Crédit-bail
+J6522	Distribution de crédit
+J6523	Autres intermédiations financières n.c.a.
+J66	Assurance
+J660	Assurance
+J6601	Assurance vie et capitalisation
+J6602	Caisses de retraite
+J66021	Caisses de retraite autonomes (1)
+J66022	Caisses de retraite non-autonomes (2)
+J66022_CK	Fonds de pension non-autonomes; Total sections C-K
+J6603	Autres assurances
+J6604	Spécialiste en réassurance
+J6605	Entreprises d'assurance mixte
+J67	Auxiliaires financiers et d'assurance
+J671	Auxiliaires financiers
+J6711	Administration de marchés financiers
+J6712	Gestion de portefeuilles
+J6713	Autres auxiliaires financiers
+J672	Auxiliaires d'assurance
+J6721	Assurance, réassurance et intermédiation pour les fonds de pension
+J6722	Activités auxiliaires liées aux assurances et aux fonds de pension
+K-Q	Immobilier; administration publique et services collectifs; activités des ménages; activités extra-territoriales
+K_O	Immobilier, location et services aux entreprises; services collectifs, sociaux et personnels
+FRB	Activités financières, immobilier, locations et activités de service aux entreprises (sans ordinateur et R&D): NACE Rév.1 codes 65 à 67, 70, 71 et 74
+K	Immobilier, location et services aux entreprises
+INN_K	K: couverture de base (NACE 72, 74.2 et 74.3)
+K_NOT_K7415	Immobilier, location et services aux entreprises, sauf administration publique et administration d'entreprises (K à l'exclusion de 74.15)
+K70	Activités immobilières
+K701	Activités immobilières pour compte propre
+K7011	Promotion immobilière
+K7012	Marchands de biens immobiliers
+K702	Location de biens immobiliers
+K703	Activités immobilières pour compte de tiers
+K7031	Agences immobilières
+K7032	Administration de biens immobiliers
+K71	Location sans opérateur
+K711_K712	Location de véhicules automobiles; location d'autres matériels de transport
+K711	Location de véhicules automobiles
+K712	Location d'autres matériels de transport
+K7121	Location d'autres matériels de transport terrestre
+K7122	Location de matériels de transport par eau
+K7123	Location de matériels de transports aérien
+K713	Location de machines et équipements
+K7131	Location de matériel agricole
+K7132	Location de machines et équipements pour la construction
+K7133	Location de machines de bureau et de matériel informatique
+K7134	Location de machines et équipements divers
+K714	Location de biens personnels et domestiques
+K72_K742	Activités informatiques, activités d'architecture et d'ingénierie
+K72_K74	Activités informatiques; services fournis principalement aux entreprises
+K72_NOT_K722	Autres activités rattachées à l'informatique n.c.a. sauf réalisation de logiciels
+K72	Activités informatiques
+K721	Conseil en systèmes informatiques
+K722	Réalisation de logiciels
+K7221	Édition de logiciels
+K7222	Autres activités de réalisation de logiciels
+K723	Traitement de données
+K724	Activités de banques de données
+K725	Entretien, réparation de machines de bureau, de matériel
+K726	Autres activités rattachées à l'informatique
+K73	Recherche et développement
+K731	Recherche développement en sciences physiques et naturelles
+K732	Recherche développement en sciences humaines et sociales
+K74B	Activités juridiques, comptables et de conseil de gestion, études de marché et sondage, Activités d'architecture et d'ingénierie, Activités de contrôle et analyses techniques, Publicité
+K74C	Sélection et fourniture de personnel; enquêtes et sécurité; activités de nettoyage; services divers fournis principalement aux entreprises
+K74	Services fournis principalement aux entreprises
+INN_K74	Base 74: Autres services d'entreprises (NACE 74.2, 74.3)
+K74_NOT_K7415	Services fournis principalement aux entreprises, sauf administration d'entreprises (74 à l'exclusion de 74.15)
+K741_TO_K744	Activités juridiques, comptables, de conseil et de gestion; holdings, activités d'architecture et d'ingénierie, activités de contrôle et analyses techniques et publicité
+K741	Activités juridiques, comptables, de conseil et de gestion; holdings
+K741_NOT_K7413	Activités juridiques, comptables; conseil pour les affaires et la gestion; administration d'entreprises
+K7411_TO_K7414	Activités juridiques; activités comptables; études de marché et sondages; conseil pour les affaires et la gestion
+K7411	Activités juridiques
+K7412	Activités comptables
+K7413	Etudes de marché et sondages
+K7414	Conseil pour les affaires et la gestion
+K7415	Administration d'entreprises
+K742_K743	Activités d'architecture et d'ingénierie; activités de contrôle et analyses techniques
+K742	Activités d'architecture et d'ingénierie
+K743	Activités de contrôle et analyses techniques
+K744	Publicité
+K745_TO_K748	Sélection et fourniture de personnel, enquêtes et sécurité, activités de nettoyage et services divers fournis principalement aux entreprises
+K745	Sélection et fourniture de personnel
+K746	Enquêtes et sécurité
+K747	Activités de nettoyage
+K748	Services divers fournis principalement aux entreprises
+K7481	Activités photographiques
+K7482	Conditionnement à façon
+K7485_K7486	Secrétariat, traduction et routage (K7483 dans la NACE Rev.1)
+K7485	Secrétariat, traduction et routage
+K7486	Activités de centres d'appels
+K7487	Autres services aux entreprises n.c.a.
+L_TO_O	Administration publique; éducation; santé et action sociale; services collectifs, sociaux et personnels
+L_TO_P	Administration publique; éducation; santé et action sociale; services collectifs, sociaux et personnels; services domestiques
+L_TO_Q	Administration publique; éducation; santé et action sociale; services collectifs, sociaux et personnels; services domestiques; activités extra-territoriales
+L_M	Administration publique; Education
+L_Q	Administration publique, activités extra-territoriales: NACE Rév.1 codes 75 et 99
+L	Administration publique
+L75	Administration publique
+L751	Administration générale, économique et sociale
+L7511	Administration publique générale
+L7512	Tutelle des activités sociales
+L7513	Tutelle des activités économiques
+L7514	Activités de soutien aux administrations
+L752	Services de prérogative publique
+L7521	Affaires étrangères
+L7522	Défense
+L7523	Justice
+L7524	Police
+L7525	Protection civile
+L753	Sécurité sociale obligatoire
+EP_PUB_SEC	Administrations publiques
+M_TO_Q	Autres services
+M_N_O	Education; Santé et action sociale; Services collectifs, sociaux et personnels
+M_N_O_NOT_O91	Éducation; santé et action sociale; services collectifs, sociaux et personnels, sauf activités associatives
+M	Education
+M80	Education
+M801	Enseignement primaire
+M802	Enseignement secondaire
+M8021	Enseignement secondaire général
+M8022	Enseignement secondaire technique ou professionnel
+M803	Enseignement supérieur
+M804	Formation permanente, autres activités d'enseignement
+M8041	Ecoles de conduite
+M8042	Formation permanente et enseignements divers
+N	Santé et action sociale
+N85	Santé et action sociale
+N851	Activités pour la santé humaine
+N8511	Activités hospitalières
+N8512	Pratique médicale
+N8513	Pratique dentaire
+N8514	Autres activités pour la santé humaine
+N852	Activités vétérinaires
+N853	Action sociale
+N8531	Action sociale avec hébergement
+N8532	Action sociale sans hébergement
+O_TO_Q	Services collectifs, sociaux et personnels ; Services domestiques ; Activités extra-territoriales
+O_P	Services collectifs, sociaux et personnels et activités des ménages : NACE Rev.1 codes 90 à 93 et 95 à 97
+OA	Assainissement, voirie et gestion des déchets; activités cinématographiques et vidéo; activités de radio et de télévision (Nace: O90,  O92.1, O92.2)
+O	Services collectifs, sociaux et personnels
+O_NOT_O91	Services collectifs, sociaux et personnels, sauf activités associatives
+O90	Assainissement, voirie et gestion des déchets
+O900	Assainissement, voirie et gestion des déchets
+O9001	Collecte et traitement des eaux usées
+O9002	Collecte et traitement des autres déchets
+O9003	Voirie, dépollution et activités similaires
+O91	Activités associatives
+O911	Organisations économiques
+O9111	Organisations patronales et consulaires
+O9112	Organisations professionnelles
+O912	Syndicats de salariés
+O913	Autres organisations associatives
+O9131	Organisations religieuses
+O9132	Organisations politiques
+O9133	Organisations associatives n.c.a.
+O92	Activités récréatives, culturelles et sportives
+O921	Activités cinématographiques et vidéo
+O9211	Production de films
+O9212	Distribution de films
+O9213	Projection de films cinématographiques
+O922	Activités de radio et de télévision
+O923	Autres activités de spectacle
+O9231	Art dramatique et musique
+O9232	Gestion de salles de spectacle
+O9233	Manèges forains et parcs d'attractions
+O9234	Activités diverses du spectacle
+O924	Agences de presse
+O925	Autres activités culturelles
+O9251	Gestion des bibliothèques
+O9252	Gestion du patrimoine culturel
+O9253	Gestion du patrimoine naturel
+O926	Activités liées au sport
+O9261	Gestion d'installations sportives
+O9262	Autres activités sportives
+O927	Activités récréatives
+O9271	Jeux de hasard et d'argent
+O9272	Autres activités récréatives
+O93	Services personnels
+O930	Services personnels
+O9301	Blanchisserie-teinturerie
+O9302	Coiffure et soins de beauté
+O9303	Services funéraires
+O9304	Entretien corporel
+O9305	Autres services personnels
+P	Activités des ménages
+P95	Activités des ménages en tant qu'employeurs de personnel domestique
+P950	Activités des ménages en tant qu'employeurs de personnel domestique
+P96	Activités indifférenciées des ménages en tant que producteurs de biens pour usage propre
+P960	Activités indifférenciées des ménages en tant que producteurs de biens pour usage propre
+P97	Activités indifférenciées des ménages en tant que producteurs de services pour usage propre
+P970	Activités indifférenciées des ménages en tant que producteurs de services pour usage propre
+HH	Ménages
+HH_HEAT	Activités de chauffage par les ménages
+HH_OTH	Autres activités par les ménages
+HH_TRAN	Activités de transport des ménages
+TOT_HH	Total des activités des ménages
+HH_WST	Déchets des ménages
+Q	Activités extra-territoriales
+Q99	Activités extra-territorialles
+Q990	Activités extra-territorialles
+INTER	Biens intermédiaires
+INTER_ORD	Biens intermédiares à commandes
+INTER_CAP	Industrie des biens intermédiaires et des biens d'investissement
+CAPITAL	Biens d'investissement
+CONS_DUR	Biens de consommation durables
+CONS_DUR_ORD	Biens de consommation durables à commandes
+CONS_NONDUR	Biens de consommation non durables
+CONS_NONDUR_ORD	Biens de consommation non durables à commandes
+CONSUMER	Biens de consommation
+CONSUMER_NOT_DA	Biens de consommation à l'exeption de la nourriture et du tabac
+CONSUMER_ORD	Biens de consommation  à commandes
+DN37_G5157_O90	Activités de gestion des déchets
+BUS	Industrie et services marchands
+MAN	Industrie manufacturière
+SER	Services marchands
+SER_PRO	Services professionnels (74.11 à 74.14, 74.2 à 74.4, 74.81, 74.83)
+SER_OP	Services opérationnels (74.5 à 74.7, 74.82, 74.84)
+SER_KIB	Services aux entreprises basés sur la connaissance (72, 74.1 à 74.4, 74.81, 74.83)
+HIT	Haute technologie (y compris les codes NACE suivants: 24.4; 30; 32; 33; 35.3)
+MHT	Moyenne haute technologie (y compris les codes NACE suivants: 24 (sauf 24.4); 29, 31, 34, 35.2; 35.4; 35.5)
+MLT	Moyenne basse technologie (y compris les codes NACE suivants: 23; 25-28, 35.1)
+LOT	Basse technologie (y compris les codes NACE suivants: 15-22; 36, 37)
+ICT	Technologies de l'information et de la communication (y compris les codes NACE suivants: 30, 31.3, 32, 33.2, 33.3, 51.43, 51.64, 51.65, 64.2, 72)
+ICT_A	Total TIC (TIC - industrie manufacturière et services)
+ICT_M	TIC - industrie manufacturière (30, 31.3, 32, 33.2, 33.3)
+ICT_S	TIC - services (TIC - conseil, TIC - commerce de gros, 64.2)
+ICT_C	TIC - conseil (71.33, 72)
+ICT_W	TIC - commerce de gros (51.43, 51.64, 51.65)
+HITS	Services à haute technologie services (y compris les codes NACE Rév.1 suivants: 64; 72; 73)
+KWNMS	Services marchands à fort contenu de savoir (y compris les codes NACE Rév.1: 61; 62; 64; 70; 71; 72; 73; 74)
+ISS_HIT	IS Fabrication de produits de haute et de moyenne-haute technologie (y compris les codes NACE suivants: 24, 29, 30, 31, 32, 33, 34, 35.2, 35.3, 35.4, 35.5)
+ISS_MLT	IS Fabrication de produits de faible et de moyenne-faible technologie (y compris les codes NACE suivants: 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 35.1, 27, 28, 36, 37)
+ISS_KIBS	IS Services aux entreprises basés sur la connaissance (y compris les codes NACE suivants: 64.2, 72, 73, 74.1 à 74.4)
+EP_NRES	Non-résidents
+NOT_CLAS	Non classifié
+NRESP	Sans réponse
+OTHER	Toutes les autres branches NACE
+UNK	Branche NACE inconnue

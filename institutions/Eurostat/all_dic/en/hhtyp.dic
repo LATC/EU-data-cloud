@@ -1,0 +1,193 @@
+TOTAL	Total
+PRIV	Private households
+PRIV_MBR	Living in private household with members of a family nucleus
+PRIV_NMBR	Living in private household with other persons, none of which being member of the family nucleus
+PRIV_OTH	Other persons living in private household
+FAM1	One family household
+FAM_GE2	Two or more family household
+FAM_OTH	Living in other family
+NFAM	Non family household (single person + multi person household)
+NFAM_OTH	Non family other
+MULTI_NFAM	Multi person non family household
+AM	Males (single or with partner)
+AF	Females (single or with a partner)
+AF_NCH	Females (single or with a partner) without children
+AF_CH	Females (single or with a partner) with children
+A1	Single person
+A1_LT30	One adult younger than 30 years
+A1_30_64	One adult aged between 30 and 64 years
+A1_LT64	One adult younger than 64 years
+A1_LT65	One adult younger than 65 years
+A1_GE65	One adult older than 65 years
+A1_NCH	Single person without children
+A1_CH	Single parent with children
+A1_DCH	Single parent with dependent children
+A1_1CH	Single parent with one child
+A1_2CH	Single parent with two children
+A1_GE3CH	Single parent with three or more children
+A1F	Single female
+AF_GE65	Female older than 65 years
+AF_LT65	Female younger than 65 years
+A1M	Single male
+AM_GE65	Male older than 65 years
+AM_LT65	Male younger than 65 years
+A1M_CH	Single father with children
+A1M_CH_NOTH	Single father with children without other persons
+A1M_CH_OTH	Single father with children with other persons
+A1M_CH_LT15	Single father with children (all less than 15 years)
+A1M_CH_LT15_GE15	Single father with children (some younger than 15 years, some older)
+A1M_CH_GE15	Single father with children (all older than 15 years)
+A1M_1CH_CHLT6	Single father with children (1 + less than 6 years old)
+A1M_ACT	Single father economically active
+A1M_INACT	Single father economically inactive
+A1M_UNK	Single father economic activity unknown
+A1F_CH	Single mother with children
+A1F_CH_NOTH	Single mother with children without other persons
+A1F_CH_OTH	Single mother with children with other persons
+A1F_CH_LT15	Single mother with children (all less than 15 years)
+A1F_CH_LT15_GE15	Single mother with children (some younger than 15 years, some older)
+A1F_CH_GE15	Single mother with children (all older than 15 years)
+A1F_1CH_CHLT6	Single mother with children (1 + less than 6 years old)
+A1F_NCH	Single female without children
+A1F_ACT	Single mother economically active
+A1F_INACT	Single mother economically inactive
+A1F_UNK	Single mother economic activity unknown
+A2	Two adults
+A2_15_64	Two adults (both between 15 and 64 years old)
+A2_2LT65	Two adults younger than 65 years
+A2_GE1_GE65	Two adults, at least one aged 65 years and over
+A2_1GE65	Two adults (1 older than 65 years)
+A2_DCH	Two adults with dependent children
+A2_1CH	Two adults with one child
+A2_1DCH	Two adults with one dependent child
+A2_2CH	Two adults with two children
+A2_2DCH	Two adults with two dependent children
+A2_2CH_LT14	Two adults with two children younger than 14 years
+A2_3CH	Two adults with three children
+A2_GE3DCH	Two adults with three or more dependent children
+A2_GE4CH	Two adults with four or more children
+A_GE2_NDCH	Two or more adults without dependent children
+A_GE2_DCH	Two or more adults with dependent children
+A3_CH	Three adults with children
+A3_NCH	Three adults without children
+A_GE3	Three or more adults
+A_GE3_DCH	Three or more adults with dependent children
+CPL	Couple
+CPL_NCH	Couple without children
+CPL_NCH_NOTH	Couple without children without other persons
+CPL_NCH_OTH	Couple without children with other persons
+CPL_A1_GE65	Couple, one person older than 65 years
+CPL_A2_LT65	Couple, both younger than 65 years
+CPL_A2_GE65	Couple, both older than 65 years
+CPL_CH	Couple with children
+CPL_CH_NOTH	Couple with children without other persons
+CPL_CH_OTH	Couple with children with other persons
+CPL_1CH	Couple with one child
+CPL_1CH_CHLT6	couple with children (1 + less than 6 years old)
+CPL_2CH	Couple with two children
+CPL_GE3CH	Couple with three or more children
+CPL_CH_LT15	Couple with children (all less than 15 years)
+CPL_CH_LT15_GE15	Couple with children (some younger than 15, some older)
+CPL_CH_GE15	Couple with children (all older than 15 years)
+MCPL	Married couple
+MCPL_NCH	Married couple without children
+MCPL_CH	Married couple with children
+MCPL_1CH	Married couple with one child
+MCPL_2CH	Married couple with two children
+MCPL_GE3CH	Married couple with three or more children
+MCPL_ACT	Married couple, husband and wife economically active
+MCPL_MACT	Married couple, husband economically active and wife inactive
+MCPL_FACT	Married couple, wife economically active and husband inactive
+MCPL_INACT	Married couple, husband and wife economically inactive
+MCPL_UNK	Married couple, husband and wife economic activity unknown
+CCPL	Cohabiting couple
+CCPL_NCH	Cohabiting couple without children
+CCPL_CH	Cohabiting couple with children
+CCPL_1CH	Cohabiting couple with one child
+CCPL_2CH	Cohabiting couple with two children
+CCPL_GE3CH	Cohabiting couple with three or more children
+CCPL_ACT	Cohabiting couple, male and female economically active
+CCPL_MACT	Cohabiting couple, male economically active and female inactive
+CCPL_FACT	Cohabiting couple, female economically active and male inactive
+CCPL_INACT	Cohabiting couple, male and female economically inactive
+CCPL_UNK	Cohabiting couple, male and female economic activity unknown
+PART	Living with partner or spouse
+PART_CH	Living with partner or spouse and with children
+PART_NCH	Living with partner or spouse, without children
+PARTN	Living without partner or spouse
+MAR	Spouse
+MAR_NCH	Spouse living without children
+MAR_CH	Spouse living with children
+MAR_1CH	Spouse living with one child
+MAR_2CH	Spouse living with two children
+MAR_GE3CH	Spouse living with three or more children
+COH	Cohabiting
+COH_NCH	Cohabiting living without children
+COH_CH	Cohabiting living with children
+COH_1CH	Cohabiting living with one child
+COH_2CH	Cohabiting living with two children
+COH_GE3CH	Cohabiting living with three or more children
+NCOH	Not cohabiting
+CHILD	Person living as a child in the parental home
+CH_CPL	Child living with both parents
+CH_CPL1	Child living with both parents, no other children
+CH_CPL2	Child living with both parents and one other child
+CH_CPL3	Child living with both parents and two other children or more
+CH_MCPL	Child living with both married parents
+CH_MCPL1	Child living with both married parents, no other children
+CH_MCPL2	Child living with both married parents and one other child
+CH_MCPL3	Child living with both married parents and two other children or more
+CH_CCPL	Child living with both parents cohabiting
+CH_CCPL1	Child living with both parents cohabiting, no other children
+CH_CCPL2	Child living with both parents cohabiting and one other child
+CH_CCPL3	Child living with both parents cohabiting and two other children or more
+CH_A1	Child living with a single parent
+CH_A1_1	Child living with a single parent, no other children
+CH_A1_2	Child living with a single parent and one other child
+CH_A1_3	Child living with a single parent and two other children or more
+LF	Living in the family
+NLF	Not living in the family
+OTH_NLF	Other persons not living in the family
+OTH	Other
+OTH_NCH	Other, no children
+OTH_CH	Other with children
+ALL_NDCH	All types without dependent children
+ALL_DCH	All types with dependent children
+HH_NDCH	Households without dependent children
+HH_DCH	Households with dependent children
+HH_O1	Households in Objective 1 regions / "Convergence" regions
+OTHER	Other households
+OTHER_NCH	Other households without children
+OTHER_CH	Other households with children
+HH_NO1	Households in not Objective 1 regions / "Regional Competitiveness and Employment" Region
+HH_DEG1	Households living in densely-populated area (at least 500 inhabitants/Km2)
+HH_DEG2	Households  living in intermediate urbanized area (between 100 and 499 inhabitants/Km2)
+HH_DEG3	Households living in sparsely populated area (less than 100 inhabitants/Km2)
+HH_HBB	Household members running a home based business
+HH_TLW	Household members teleworking
+HH_NO_HBB_TLW	Households with no home based business nor teleworking
+HHI_Q1	Number of households with income in first quartile
+HHI_Q2	Number of households with income in second quartile
+HHI_Q3	Number of households with income in third quartile
+HHI_Q4	Number of households with income in fourth quartile
+INST	Institutional household
+EDUC	Educational institutions
+GEN_HOSP	General hospitals
+PSY_HOSP	Psychiatric hospital
+MEDI	Hospitals
+HANDI	Center for handicapped persons
+ORPH	Orphanages
+RESTHOME	Resthome
+TEMP	Centers for temporary accomodation
+WELF	Welfare establishments
+WELF_OTH	Welfare establishments, other
+HOTEL	Hotels
+WHOTEL	Workers'hostels
+MILI	Armed forces
+PRISON	Prison
+RELI	Religious institutions
+RETIR	Old people's homes
+OLD_OTH	Establishment for older people, other
+STUD	Student's home
+INST_OTH	Other institutional
+UNK	Unknown

@@ -1,0 +1,11 @@
+TOTAL	Total
+CREDIT	Credit
+DEBIT	Debit
+NET	Net
+ST	Stocks
+CHG	Changes in position other than transactions
+IMP	Imports
+EXP	Exports
+BAL	Trade balance (Exports - Imports)
+BAL_RT	Balance for values/Ratio for indices
+DOMESTIC	Domestic

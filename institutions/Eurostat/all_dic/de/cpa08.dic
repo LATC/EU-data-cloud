@@ -1,0 +1,462 @@
+TOTAL	Insgesamt
+CPA_A	Erzeugnisse der Landwirtschaft, Forstwirtschaft und Fischerei
+CPA_A01	Erzeugnisse der Landwirtschaft und Jagd sowie damit verbundene Dienstleistungen
+CPA_A011	Einjährige Pflanzen
+CPA_A012	Mehrjährige Pflanzen
+CPA_A013	Baumschulerzeugnisse, Pflanzen zu Vermehrungszwecken
+CPA_A014	Lebende Tiere und Erzeugnisse tierischen Ursprungs
+CPA_A016	Landwirtschaftliche Dienstleistungen
+CPA_A017	Jagd, Fallenstellerei und damit verbundene Dienstleistungen
+CPA_A02	Forstwirtschaftliche Erzeugnisse und Dienstleistungen
+CPA_A021	Waldbestand sowie Erzeugnisse und Dienstleistungen von Forstbaumschulen
+CPA_A022	Rohholz
+CPA_A023	Wildwachsende Produkte (ohne Holz)
+CPA_A024	Dienstleistungen für Forstwirtschaft und Holzgewinnung
+CPA_A03	Fische und Fischereierzeugnisse; Aquakulturerzeugnisse; Dienstleistungen für die Fischerei
+CPA_B-F	Produkte für die Industrie und Bauarbeiten
+CPA_B-E	Produkte für die Industrie (ohne Bauarbeiten)
+CPA_B	Bergbauerzeugnisse; Steine und Erden
+CPA_B05	Kohle
+CPA_B051	Steinkohle
+CPA_B052	Braunkohle
+CPA_B06	Erdöl und Erdgas
+CPA_B061	Erdöl
+CPA_B062	Erdgas, verflüssigt oder gasförmig
+CPA_B07	Erze
+CPA_B071	Eisenerze
+CPA_B072	NE-Metallerze
+CPA_B08	Steine und Erden; sonstige Bergbauerzeugnisse
+CPA_B081	Natursteine, Kies, Sand, Ton und Kaolin
+CPA_B089	Steine und Erden, a.n.g.; sonstige Bergbauerzeugnisse
+CPA_B09	Dienstleistungen für den Bergbau und für die Gewinnung von Steinen und Erden
+CPA_B091	Dienstleistungen für die Gewinnung von Erdöl und Erdgas
+CPA_B099	Dienstleistungen für den sonstigen Bergbau und die Gewinnung von Steinen und Erden
+CPA_C	Hergestellte Waren
+CPA_C10-C12	Nahrungs- und Futtermittel, Getränke und Tabakerzeugnisse
+CPA_C10	Nahrungs- und Futtermittel
+CPA_C101	Haltbar gemachtes Fleisch und Fleischerzeugnisse
+CPA_C102	Fischerzeugnisse und andere Meeresfrüchte
+CPA_C103	Obst- und Gemüseerzeugnisse
+CPA_C104	Pflanzliche und tierische Öle und Fette
+CPA_C105	Milch und Milcherzeugnisse
+CPA_C106	Mahl- und Schälmühlenerzeugnisse; Stärke und Stärkeerzeugnisse
+CPA_C107	Back- und Teigwaren
+CPA_C108	Sonstige Nahrungsmittel
+CPA_C109	Futtermittel
+CPA_C11	Getränke
+CPA_C12	Tabakerzeugnisse
+CPA_C13-C15	Textilien, Bekleidung, Leder und Lederwaren
+CPA_C13	Textilien
+CPA_C131	Textile Spinnstoffe und Garne
+CPA_C132	Gewebe
+CPA_C133	Textilveredlungsleistungen
+CPA_C139	Sonstige Textilwaren
+CPA_C14	Bekleidung
+CPA_C141	Bekleidung (ohne Pelzbekleidung)
+CPA_C142	Pelzwaren
+CPA_C143	Bekleidung aus gewirktem und gestricktem Stoff
+CPA_C15	Leder und Lederwaren
+CPA_C151	Leder und Lederwaren (ohne Lederbekleidung und Schuhe)
+CPA_C152	Schuhe
+CPA_C16-C18	Holz sowie Holz- und Korkwaren (ohne Möbel); Flecht- und Korbwaren; Papier, Pappe und Waren daraus; Dienstleistungen der Vervielfältigung von bespielten Ton-, Bild- und Datenträgern, Druckereileistungen
+CPA_C16	Holz sowie Holz- und Korkwaren (ohne Möbel); Flecht- und Korbwaren
+CPA_C161	Holz, gesägt und gehobelt
+CPA_C162	Holz-, Kork-, Flecht- und Korbwaren
+CPA_C17	Papier, Pappe und Waren daraus
+CPA_C171	Holz- und Zellstoff, Papier, Karton und Pappe
+CPA_C172	Papier-, Karton- und Pappewaren
+CPA_C18	Dienstleistungen der Vervielfältigung von bespielten Ton-, Bild- und Datenträgern, Druckereileistungen
+CPA_C181	Dienstleistungen des Druckens
+CPA_C182	Dienstleistungen der Vervielfältigung von bespielten Ton-, Bild- und Datenträgern
+CPA_C19	Kokereierzeugnisse und Mineralölerzeugnisse
+CPA_C191	Kokereierzeugnisse
+CPA_C192	Mineralölerzeugnisse
+CPA_C20	Chemische Erzeugnisse
+CPA_C201	Chemische Grundstoffe, Düngemittel und Stichstoffverbindungen, Kunststoffe in Primärformen und synthetischer Kautschuk in Primärformen
+CPA_C202	Schädlingsbekämpfungs-, Pflanzenschutz- und Desinfektionsmittel
+CPA_C203	Anstrichmittel, Druckfarben und Kitte
+CPA_C204	Seifen, Wasch-, Reinigungs- und Körperpflegemittel sowie Duftstoffe
+CPA_C205	Sonstige chemische Erzeugnisse
+CPA_C206	Chemiefasern
+CPA_C21	Pharmazeutische Erzeugnisse
+CPA_C211	Pharmazeutische Grundstoffe
+CPA_C212	Pharmazeutische Spezialitäten und sonstige pharmazeutische Erzeugnisse
+CPA_C22_C23	Gummi- und Kunststoffwaren und Glas- und Glaswaren, Keramik, verarbeitete Steine und Erden
+CPA_C22	Gummi- und Kunststoffwaren
+CPA_C221	Gummiwaren
+CPA_C222	Kunststoffwaren
+CPA_C23	Glas- und Glaswaren, Keramik, verarbeitete Steine und Erden
+CPA_C231	Glas und Glaswaren
+CPA_C232	Feuerfeste keramische Werkstoffe und Waren
+CPA_C233	Keramische Baumaterialien
+CPA_C234	Sonstige Porzellan- und keramische Erzeugnisse
+CPA_C235	Zement, Kalk, gebrannter Gips
+CPA_C236	Erzeugnisse aus Beton, Zement und Gips
+CPA_C237	Bearbeitete und verarbeitete Naturwerksteine und Natursteine, a.n.g.
+CPA_C239	Sonstige Erzeugnisse aus nicht metallischen Mineralien
+CPA_C24_C25	Metalle und Metallerzeugnisse
+CPA_C24	Metalle und Metallerzeugnisse
+CPA_C241	Roheisen, Stahl und Ferrolegierungen
+CPA_C242	Stahlrohre, Rohrform-, Rohrverschluss- und Rohrverbindungsstücke aus Stahl
+CPA_C243	Sonstige Erzeugnisse der ersten Bearbeitung von Eisen und Stahl
+CPA_C244	NE-Metalle und Halbzeug daraus
+CPA_C245	Gießereierzeugnisse
+CPA_C25	Metallerzeugnisse
+CPA_C251	Stahl- und Leichtmetallbauerzeugnisse
+CPA_C252	Tanks, Sammelbehälter sowie ähnliche Behälter und Kessel, aus Metall
+CPA_C253	Dampfkessel (ohne Zentralheizungskessel); Kernreaktoren
+CPA_C254	Waffen und Munition
+CPA_C255	Schmiede-, Press-, Zieh- und Stanzteile, gewalzte Ringe und pulvermetallurgische Erzeugnisse
+CPA_C256	Leistungen der Oberflächenveredlung und Wärmebehandlung; Mechanikleistungen, a.n.g.
+CPA_C257	Schneidwaren, Werkzeuge, Schlösser und Beschläge aus unedlen Metallen
+CPA_C259	Sonstige Metallwaren
+CPA_C26	Datenverarbeitungsgeräte, elektronische und optische Erzeugnisse
+CPA_C261	Elektronische Bauelemente und Leiterplatten
+CPA_C262	Datenverarbeitungsgeräte und periphere Geräte
+CPA_C263	Geräte und Einrichtungen der Telekommunikationstechnik
+CPA_C264	Geräte der Unterhaltungselektronik
+CPA_C265	Mess-, Kontroll-, Navigations- und ähnliche Instrumente und Vorrichtungen; Uhren
+CPA_C266	Bestrahlungs- und Elektrotherapiegeräte und elektromedizinische Geräte
+CPA_C267	Optische und fotografische Instrumente und Geräte
+CPA_C268	Magnetische und optische Datenträger
+CPA_C27	Elektrische Ausrüstungen
+CPA_C271	Elektromotoren, Generatoren, Transformatoren, Elektrizitätsverteilungs- und -schalteinrichtungen
+CPA_C272	Batterien und Akkumulatoren
+CPA_C273	Kabel und elektrisches Installationsmaterial
+CPA_C274	Elektrische Lampen und Leuchten
+CPA_C275	Haushaltsgeräte
+CPA_C279	Sonstige elektrische Ausrüstungen und Geräte, a.n.g.
+CPA_C28	Maschinen
+CPA_C281	Nicht wirtschaftszweigspezifische Maschinen
+CPA_C282	Sonstige nicht wirtschaftszweigspezifische Maschinen
+CPA_C283	Land- und forstwirtschaftliche Maschinen
+CPA_C284	Werkzeugmaschinen
+CPA_C289	Maschinen für sonstige bestimmte Wirtschaftszweige
+CPA_C29_C30	Kraftwagen und Kraftwagenteile und Sonstige Fahrzeuge
+CPA_C29	Kraftwagen und Kraftwagenteile
+CPA_C291	Kraftwagen und Kraftwagenmotoren
+CPA_C292	Karosserien, Aufbauten und Anhänger
+CPA_C293	Teile und Zubehör für Kraftwagen
+CPA_C30	Sonstige Fahrzeuge
+CPA_C301	Schiffe und Boote
+CPA_C302	Schienenfahrzeuge
+CPA_C303	Luft- und Raumfahrzeuge
+CPA_C304	Militärische Kampffahrzeuge
+CPA_C309	Fahrzeuge, a.n.g.
+CPA_C31-C33	Möbel und Waren, a.n.g., Reparatur- und Installationsarbeiten an Maschinen und Ausrüstungen
+CPA_C31_C32	Möbel und Waren, a.n.g.
+CPA_C31	Möbel
+CPA_C32	Waren, a.n.g.
+CPA_C321	Münzen, Schmuck und ähnliche Erzeugnisse
+CPA_C322	Musikinstrumente
+CPA_C323	Sportgeräte
+CPA_C324	Spielwaren
+CPA_C325	Medizinische und zahnmedizinische Apparate und Materialien
+CPA_C329	Sonstige Erzeugnisse
+CPA_C33	Reparatur- und Installationsarbeiten an Maschinen und Ausrüstungen
+CPA_C331	Reparaturarbeiten an Metallerzeugnissen, Maschinen und Ausrüstungen
+CPA_C332	Installationsarbeiten an industriell-gewerblichen Maschinen und Ausrüstungen
+CPA_D	Energie und Dienstleistungen der Energieversorgung
+CPA_D35	Energie und Dienstleistungen der Energieversorgung
+CPA_D351	Elektrischer Strom und Dienstleistungen der Elektrizitätsversorgung
+CPA_D352	Industriell erzeugte Gase; Dienstleistungen der Gasversorgung
+CPA_D353	Dienstleistungen der Wärme- und Kälteversorgung
+CPA_E	Wasser; Dienstleistungen der Abwasser- und Abfallentsorgung und der Beseitigung von Umweltverschmutzungen
+CPA_E36	Wasser; Dienstleistungen der Wasserversorgung sowie des Wasserhandels durch Rohrleitungen
+CPA_E37-E39	Abwasserentsorgungsdienstleistungen; Dienstleistungen der Sammlung, Behandlung und Beseitigung von Abfällen sowie zur Rückgewinnung von Wertstoffen; Dienstleistungen der Beseitigung von Umweltverschmutzungen und sonstigen Entsorgung
+CPA_E37	Abwasserentsorgungsdienstleistungen
+CPA_E38	Dienstleistungen der Sammlung, Behandlung und Beseitigung von Abfällen sowie zur Rückgewinnung von Wertstoffen
+CPA_E381	Abfall; Dienstleistungen der Sammlung von Abfällen
+CPA_E382	Dienstleistungen der Behandlung und Beseitigung von Abfällen
+CPA_E383	Dienstleistungen der Rückgewinnung von Wertstoffen; Sekundärrohstoffe
+CPA_E39	Dienstleistungen der Beseitigung von Umweltverschmutzungen und sonstigen Entsorgung
+CPA_F	Gebäude und Bauarbeiten
+CPA_F41	Gebäude und Hochbauarbeiten
+CPA_F42	Tiefbauten und Tiefbauarbeiten
+CPA_F421	Straßen und Bahnverkehrsstrecken; Bauarbeiten an Straßen und Bahnverkehrsstrecken
+CPA_F422	Tiefbau-Rohr- und Kabelnetzleitungungen; Kläranlagen
+CPA_F429	Sonstige Tiefbauten und Tiefbauarbeiten
+CPA_F43	Vorbereitende Baustellenarbeiten, Bauinstallationsarbeiten und sonstige Ausbauarbeiten
+CPA_F431	Abbrucharbeiten und vorbereitende Baustellenarbeiten
+CPA_F432	Bauinstallationsarbeiten
+CPA_F433	Ausbauarbeiten
+CPA_F439	Sonstige spezialisierte Bauarbeiten
+CPA_G-U	Dienstleistungen
+CPA_G-I	Handelsleistungen; Verkehrs- und Lagereileistungen; Beherbergungs- und Gastronomiedienstleistungen
+CPA_G	Handelsleistungen; Instandhaltungs- und Reparaturarbeiten an Kraftfahrzeugen
+TOT_TRD	Handel und Vermittlungstätigkeiten insgesamt
+CPA_G45	Handelsleistungen mit Kraftfahrzeugen; Instandhaltungs- und Reparaturarbeiten an Kraftfahrzeugen
+CPA_G451_G453	Handelsleistungen mit Kraftwagen, -teilen und -zubehör
+CPA_G451	Handelsleistungen mit Kraftwagen
+CPA_G452	Instandhaltungs- und Reparaturarbeiten an Kraftwagen
+CPA_G453	Handelsleistungen mit Kraftwagenteilen und -zubehör
+CPA_G454	Handelsleistungen mit Krafträdern, Kraftradteilen und -zubehör; Instandhaltungs- und Reparaturarbeiten an Krafträdern
+CPA_G46	Großhandelsleistungen (ohne Handelsleistungen mit Kraftfahrzeugen)
+CPA_G461	Handelsvermittlungsleistungen
+CPA_G4611	Handelsvermittlungsleistungen mit landwirtschaftlichen Grundstoffen, lebenden Tieren, textilen Rohstoffen und Halbwaren
+CPA_G4612	Handelsvermittlungsleistungen mit Brennstoffen, Erzen, Metallen und technischen Chemikalien
+CPA_G4613	Handelsvermittlungsleistungen mit Holz, Baustoffen und Anstrichmitteln
+CPA_G4614	Handelsvermittlungsleistungen mit Maschinen, technischem Bedarf, Wasser- und Luftfahrzeugen
+CPA_G4615	Handelsvermittlungsleistungen mit Möbeln, Einrichtungs- und Haushaltsgegenständen, Eisen- und Metallwaren
+CPA_G4616	Handelsvermittlungsleistungen mit Textilien, Bekleidung, Schuhen, Lederwaren
+CPA_G4617	Handelsvermittlungsleistungen mit Nahrungsmitteln, Getränken und Tabakwaren
+CPA_G4618	Handelsvermittlungsleistungen mit sonstigen Waren
+CPA_G4619	Handelsvermittlungsleistungen mit Waren, ohne ausgeprägten Schwerpunkt
+CPA_G462	Großhandelsleistungen mit landwirtschaftlichen Grundstoffen und lebenden Tieren
+CPA_G4621	Großhandelsleistungen mit Getreide, Rohtabak, Saatgut und Futtermitteln
+CPA_G4622	Großhandelsleistungen mit Blumen und Pflanzen
+CPA_G4623	Großhandelsleistungen mit lebenden Tieren
+CPA_G4624	Großhandelsleistungen mit Häuten, Fellen und Leder
+CPA_G463	Großhandelsleistungen mit Nahrungsmitteln, Getränken und Tabakwaren
+CPA_G4631	Großhandelsleistungen mit Obst, Gemüse und Kartoffeln
+CPA_G4632	Großhandelsleistungen mit Fleisch und Fleischwaren
+CPA_G4633	Großhandelsleistungen mit Milch, Milcherzeugnissen, Eiern, Speiseölen und Nahrungsfetten
+CPA_G4634	Großhandelsleistungen mit Getränken
+CPA_G4635	Großhandelsleistungen mit Tabakwaren
+CPA_G4636	Großhandelsleistungen mit Zucker, Süßwaren und Backwaren
+CPA_G4637	Großhandelsleistungen mit Kaffee, Tee, Kakao und Gewürzen
+CPA_G4638	Großhandelsleistungen mit sonstigen Nahrungsmitteln, einschließlich Fisch, Fischerzeugnissen, Krusten- und Weichtieren
+CPA_G4639	Großhandelsleistungen mit Nahrungsmitteln, Getränken und Tabakwaren, ohne ausgeprägten Schwerpunkt
+CPA_G464	Großhandelsleistungen mit Gebrauchs- und Verbrauchsgütern
+CPA_G4641	Großhandelsleistungen mit Textilien
+CPA_G4642	Großhandelsleistungen mit Bekleidung und Schuhen
+CPA_G4643	Großhandelsleistungen mit Foto- und optischen Erzeugnissen, elektrischen Haushaltsgeräten und mit Geräten der Unterhaltungselektronik
+CPA_G4644	Großhandelsleistungen mit keramischen Erzeugnissen, Glaswaren und Reinigungsmitteln
+CPA_G4645	Großhandelsleistungen mit Parfümeriewaren und Körperpflegemitteln
+CPA_G4646	Großhandelsleistungen mit pharmazeutischen, medizinischen und orthopädischen Erzeugnissen
+CPA_G4647	Großhandelsleistungen mit Möbeln, Teppichen, Lampen und Leuchten
+CPA_G4648	Großhandelsleistungen mit Uhren und Schmuck
+CPA_G4649	Großhandelsleistungen mit sonstigen Gebrauchs- und Verbrauchsgütern
+CPA_G465	Großhandelsleistungen mit Geräten der Informations- und Kommunikationstechnik
+CPA_G4651	Großhandelsleistungen mit Datenverarbeitungsgeräten, peripheren Einheiten und Software
+CPA_G4652	Großhandelsleistungen mit Telekommunikationsgeräten und elektronischen Bauteilen
+CPA_G466	Großhandelsleistungen mit sonstigen Maschinen, Ausrüstungen und Zubehör
+CPA_G4661	Großhandelsleistungen mit landwirtschaftlichen Maschinen, Ausrüstungen und Zubehör
+CPA_G4662	Großhandelsleistungen mit Werkzeugmaschinen
+CPA_G4663	Großhandelsleistungen mit Bergwerks-, Bau- und Baustoffmaschinen
+CPA_G4664	Großhandelsleistungen mit Textil-, Näh- und Strickmaschinen
+CPA_G4665	Großhandelsleistungen mit Büromöbeln
+CPA_G4666	Großhandelsleistungen mit sonstigen Büromaschinen und -einrichtungen
+CPA_G4669	Großhandelsleistungen mit sonstigen Maschinen und Einrichtungen
+CPA_G467	Sonstige Großhandelsleistungen
+CPA_G4671	Großhandelsleistungen mit festen Brennstoffen und Mineralölerzeugnissen
+CPA_G4672	Großhandelsleistungen mit Erzen, Metallen und Metallhalbzeug
+CPA_G4673	Großhandelsleistungen mit Holz, Baustoffen, Anstrichmitteln und Sanitärkeramik
+CPA_G4674	Großhandelsleistungen mit Metall- und Kunststoffwaren für Bauzwecke sowie Installationsbedarf für Gas, Wasser und Heizung
+CPA_G4675	Großhandelsleistungen mit chemischen Erzeugnissen
+CPA_G4676	Großhandelsleistungen mit sonstigen Halbwaren
+CPA_G4677	Großhandelsleistungen mit Altmaterial und Reststoffen
+CPA_G469	Großhandelsleistungen ohne ausgeprägten Schwerpunkt
+CPA_G47	Einzelhandelsleistungen (ohne Handelsleistungen mit Kraftfahrzeugen)
+CPA_G470	Einzelhandelsleistungen (ohne Handelsleistungen mit Kraftfahrzeugen)
+CPA_G4700	Einzelhandelsleistungen (ohne Handelsleistungen mit Kraftfahrzeugen)
+CPA_G47001	Einzelhandelsleistungen mit Obst, Gemüse, Kartoffeln, Fleisch, Fisch, Backwaren, Milch, Milcherzeugnissen und Eiern
+CPA_G47002	Einzelhandelsleistungen mit sonstigen Nahrungsmitteln, Getränken und Tabakwaren
+CPA_G47003	Einzelhandelsleistungen mit Geräten der Informations- und Kommunikationstechnik
+CPA_G47004	Einzelhandelsleistungen mit Baustoffen und Metallwaren
+CPA_G47005	Einzelhandelsleistungen mit Haushaltsartikeln
+CPA_G47006	Einzelhandelsleistungen mit Gütern des Kultur- und Freizeitbereiches
+CPA_G47007	Einzelhandelsleistungen mit Bekleidung, pharmazeutischen Erzeugnissen und medizinischen Hilfsmitteln, Körperpflegemitteln, Blumen, Pflanzen, Haustieren und Haustierfutter
+CPA_G47008	Tankstellenleistungen und Einzelhandelsleistungen mit sonstigen Neuwaren, a.n.g.
+CPA_G47009	Einzelhandelsleistungen mit Antiquitäten und Gebrauchtwaren
+CPA_H	Verkehrs- und Lagereileistungen
+CPA_H49	Landverkehrsleistungen und Transportleistungen in Rohrfernleitungen
+CPA_H491	Personenbeförderungsleistungen im Eisenbahnfernverkehr
+CPA_H492	Güterbeförderungsleistungen im Eisenbahnverkehr
+CPA_H493	Sonstige Personenbeförderungsleistungen im Landverkehr
+CPA_H494	Güterbeförderungsleistungen im Straßenverkehr und Umzugstransportleistungen
+CPA_H495	Transportleistungen in Rohrfernleitungen
+CPA_H50	Schifffahrtsleistungen
+CPA_H501	Personenbeförderungsleistungen der See- und Küstenschifffahrt
+CPA_H502	Güterbeförderungsleistungen der See- und Küstenschifffahrt
+CPA_H503	Personenbeförderungsleistungen mit Binnenschiffen
+CPA_H504	Güterbeförderungsleistungen mit Binnenschiffen
+CPA_H51	Luftfahrtleistungen
+CPA_H511	Personenbeförderungsleistungen im Flugverkehr
+CPA_H512	Güterbeförderungsleistungen in der Luftfahrt und Raumtransportleistungen
+CPA_H52	Lagereileistungen sowie sonstige Unterstützungsdienstleistungen für den Verkehr
+CPA_H521	Lagereileistungen
+CPA_H522	Unterstützungsdienstleistungen für den Verkehr
+CPA_H53	Postdienstleistungen und private Kurier- und Expressdienstleistungen
+CPA_H531	Postdienstleistungen von Universaldienstleistungsanbietern
+CPA_H532	Sonstige Post-, Kurier- und Expressdienstleistungen
+CPA_I	Beherbergungs- und Gastronomiedienstleistungen
+CPA_I55	Beherbergungsdienstleistungen
+CPA_I551	Beherbergungsdienstleistungen in Hotels, Gasthöfen und Pensionen
+CPA_I552	Beherbergungsdienstleistungen in Ferienunterkünften und ähnlichen Beherbergungsstätten
+CPA_I553	Campingplatz-, Erholungs- und Freizeitcampdienstleistungen
+CPA_I559	Sonstige Beherbergungsdienstleistungen
+CPA_I56	Gastronomiedienstleistungen
+CPA_I561	Dienstleistungen von Restaurants, Gaststätten, Imbissstuben, Cafés, Eissalons u. Ä.
+CPA_I562	Cateringleistungen und sonstige Verpflegungsdienstleistungen
+CPA_I563	Getränkeausschankleistungen
+CPA_J	Informations- und Kommunikationsdienstleistungen
+CPA_J58-J60	Dienstleistungen des Verlagswesens; Dienstleistungen der Herstellung, des Verleihs und Vertriebs von Filmen und Fernsehprogrammen, von Kinos und Tonstudios; Verlagsleistungen bezüglich Musik; Rundfunkveranstaltungsleistungen
+CPA_J58	Dienstleistungen des Verlagswesens
+CPA_J581	Dienstleistungen betreffend das Verlegen von Büchern und Zeitschriften; sonstiges Verlagswesen
+CPA_J582	Dienstleistungen betreffend das Verlegen von Software
+CPA_J5821	Dienstleistungen betreffend das Verlegen von Computerspielen
+CPA_J5829	Dienstleistungen betreffend das Verlegen von sonstiger Software
+CPA_J59_J60	Dienstleistungen der Herstellung, des Verleihs und Vertriebs von Filmen und Fernsehprogrammen, von Kinos und Tonstudios; Verlagsleistungen bezüglich Musik; Rundfunkveranstaltungsleistungen
+CPA_J59	Dienstleistungen der Herstellung, des Verleihs und Vertriebs von Filmen und Fernsehprogrammen, von Kinos und Tonstudios; Verlagsleistungen bezüglich Musik
+CPA_J591	Dienstleistungen im Zusammenhang mit der Herstellung von Filmen, Videofilmen und Fernsehprogrammen
+CPA_J592	Dienstleistungen von Tonstudios, der Herstellung von Hörfunkbeiträgen sowie des Verlegens von bespielten Tonträgern und Musikalien
+CPA_J60	Rundfunkveranstaltungsleistungen
+CPA_J601	Hörfunkveranstaltungsleistungen
+CPA_J602	Fernsehveranstaltungsleistungen; Originale von Fernsehsendungen
+CPA_J61	Telekommunikationsdienstleistungen
+CPA_J611	Leitungsgebundene Telekommunikationsdienstleistungen
+CPA_J612	Drahtlose Telekommunikationsdienste
+CPA_J613	Satellitentelekommunikationsdienste
+CPA_J62	Dienstleistungen der EDV-Programmierung und -Beratung und damit verbundene Dienstleistungen
+CPA_J63	Informationsdienstleistungen
+CPA_J631	Datenverarbeitungsdienstleistungen, Hosting-Dienstleistungen und damit verbundene Dienstleistungen; Webportal-Dienstleistungen
+CPA_J639	Sonstige Informationsdienstleistungen
+CPA_K	Finanz- und Versicherungsdienstleistungen
+CPA_K64	Finanzdienstleistungen, außer Versicherungen und Pensionen
+CPA_K641	Dienstleistungen von Zentralbanken und Kreditinstituten
+CPA_K642	Dienstleistungen von Beteiligungsgesellschaften
+CPA_K643	Dienstleistungen von Treuhand- und sonstigen Fonds und ähnlichen Finanzinstitutionen
+CPA_K649	Sonstige Finanzdienstleistungen, außer Versicherungen und Pensionen
+CPA_K65	Dienstleistungen von Versicherungen, Rückversicherungen und Pensionskassen (ohne Sozialversicherung)
+CPA_K651	Versicherungsdienstleistungen
+CPA_K6511_K65121	Dienstleistungen von Lebensversicherungsgesellschaften, der Unfall- und Krankenversicherungen
+CPA_K6511	Dienstleistungen von Lebensversicherungsgesellschaften
+CPA_K6511A	Einzel-Lebensversicherungsverträge
+CPA_K6511B	Gruppen-Lebensversicherungsverträge
+CPA_K6511C	Dienstleistungen der nicht fondsgebundenen Lebensversicherung
+CPA_K6511D	Dienstleistungen der fondsgebundenen Lebensversicherung
+CPA_K6511E	Dienstleistungen der Tontinenversicherung
+CPA_K6511F	Dienstleistungen der Kapitalisierungsversicherung
+CPA_K6511G	Dienstleistungen der Lebensversicherung a. n. g.
+CPA_K6511H	Dienstleistungen der Gruppenpensionsversicherung
+CPA_K6512	Dienstleistungen der Nichtlebensversicherungen
+CPA_K65121	Dienstleistungen der Unfall- und Krankenversicherungen
+CPA_K65122	Dienstleistungen der Kraftfahrzeugversicherung
+CPA_K651221	Dienstleistungen der Kraftfahrzeug-Haftpflichtversicherung
+CPA_K651229	Dienstleistungen der sonstigen Kraftfahrzeugversicherung
+CPA_K65123	Dienstleistungen der See-, Luftfahrt- und sonstigen Transportversicherung
+CPA_K65124	Dienstleistungen der Feuer- und Sachversicherung
+CPA_K65125	Dienstleistungen der Haftpflichtversicherung
+CPA_K65126	Dienstleistungen der Kredit- und Kautionsversicherung
+CPA_K65127	Dienstleistungen der Reise-, Beistands-, Rechtsschutz- und Verlustversicherung
+CPA_K65129	Dienstleistungen der sonstigen Versicherungen (ohne Sozialversicherung)
+CPA_K652	Rückversicherungsdienstleistungen
+CPA_K653	Dienstleistungen von Pensionskassen und Pensionsfonds
+CPA_K66	Mit den Finanz- und Versicherungsdienstleistungen verbundene Dienstleistungen
+CPA_K661	Mit den Finanzdienstleistungen verbundene Dienstleistungen, außer Versicherungen und Pensionen
+CPA_K662	Mit den Tätigkeiten der Versicherungen und Pensionskassen verbundene Dienstleistungen
+CPA_K663	Dienstleistungen des Fondsmanagements
+CPA_L	Dienstleistungen des Grundstücks- und Wohnungswesens
+CPA_L68A	Unterstellte Mieten für Eigentümerwohnungen
+CPA_L68	Dienstleistungen des Grundstücks- und Wohnungswesens
+CPA_L681	Dienstleistungen des Kaufs und Verkaufs von eigenen Grundstücken, Gebäuden und Wohnungen
+CPA_L682	Dienstleistungen der Vermietung und Verpachtung von eigenen oder geleasten Grundstücken, Gebäuden und Wohnungen
+CPA_L683	Dienstleistungen der Vermittlung und Verwaltung von Grundstücken, Gebäuden und Wohnungen
+CPA_M_N	Freiberufliche, wissenschaftliche und technische Dienstleistungen; Sonstige wirtschaftliche Dienstleistungen
+CPA_M	Freiberufliche, wissenschaftliche und technische Dienstleistungen
+CPA_M69-M71	Rechts- und Steuerberatung, Wirtschaftsprüfungsleistungen; Dienstleistungen der Verwaltung und Führung von Unternehmen und Betrieben; Unternehmensberatungsleistungen; Dienstleistungen von Architektur- und Ingenieurbüros und der technischen, physikalischen und chemischen Untersuchung
+CPA_M69_M70	Rechts- und Steuerberatung, Wirtschaftsprüfungsleistungen; Dienstleistungen der Verwaltung und Führung von Unternehmen und Betrieben; Unternehmensberatungsleistungen
+CPA_M69	Rechts-, Steuerberatungs- und Wirtschaftsprüfungsleistungen
+CPA_M691	Rechtsberatungsleistungen
+CPA_M692	Wirtschaftsprüfungs- und Steuerberatungsleistungen; Buchführungsleistungen
+CPA_M70	Dienstleistungen der Verwaltung und Führung von Unternehmen und Betrieben; Unternehmensberatungsleistungen
+CPA_M701	Dienstleistungen der Verwaltung und Führung von Unternehmen und Betrieben
+CPA_M702	Public-Relations- und Unternehmensberatungsleistungen
+CPA_M71	Dienstleistungen von Architektur- und Ingenieurbüros und der technischen, physikalischen und chemischen Untersuchung
+CPA_M711	Architektur- und Ingenieurbüroleistungen
+CPA_M712	Technische, physikalische und chemische Untersuchungsleistungen
+CPA_M72	Forschungs- und Entwicklungsleistungen
+CPA_M721	Forschungs- und Entwicklungsleistungen in den Bereichen Natur-, Ingenieur-, Agrarwissenschaften und Medizin
+CPA_M722	Forschungs- und Entwicklungsleistungen in den Bereichen Rechts-, Wirtschafts- und Sozialwissenschaften sowie Sprach-, Kultur- und Kunstwissenschaften
+CPA_M73-M75	Werbe- und Marktforschungsleistungen; Sonstige freiberufliche, wissenschaftliche und technische Dienstleistungen; Dienstleistungen des Veterinärwesens
+CPA_M73	Werbe- und Marktforschungsleistungen
+CPA_M731	Werbeleistungen
+CPA_M732	Markt- und Meinungsforschungsleistungen
+CPA_M74_M75	Sonstige freiberufliche, wissenschaftliche und technische Dienstleistungen; Dienstleistungen des Veterinärwesens
+CPA_M74	Sonstige freiberufliche, wissenschaftliche und technische Dienstleistungen
+CPA_M741	Spezielle Dienstleistungen im Bereich Design
+CPA_M742	Fotografische Dienstleistungen und Fotolaborleistungen
+CPA_M743	Übersetzungs- und Dolmetschdienstleistungen
+CPA_M749	Sonstige freiberufliche, wissenschaftliche und technische Dienstleistungen, a.n.g.
+CPA_M75	Dienstleistungen des Veterinärwesens
+CPA_N	Sonstige wirtschaftliche Dienstleistungen
+CPA_N77	Dienstleistungen der Vermietung von beweglichen Sachen
+CPA_N771	Dienstleistungen der Vermietung und des Leasings von Kraftfahrzeugen
+CPA_N772	Dienstleistungen der Vermietung und des Leasings von Gebrauchsgütern
+CPA_N773	Dienstleistungen der Vermietung und des Leasings von sonstigen Maschinen, Geräten und Sachanlagen
+CPA_N774	Dienstleistungen des Leasings von nichtfinanziellen immateriellen Vermögensgegenständen (ohne urheberrechtlich geschützte Werke)
+CPA_N78	Dienstleistungen der Vermittlung und Überlassung von Arbeitskräften und des Personalmanagements
+CPA_N781	Dienstleistungen der Vermittlung von Arbeitskräften
+CPA_N782	Dienstleistungen der befristeten Überlassung von Arbeitskräften
+CPA_N783	Dienstleistungen der sonstigen Überlassung von Arbeitskräften
+CPA_N79	Dienstleistungen von Reisebüros und Reiseveranstaltern und sonstige Reservierungsdienstleistungen
+CPA_N791	Dienstleistungen von Reisebüros und Reiseveranstaltern
+CPA_N799	Sonstige Reservierungsleistungen und damit verbundene Dienstleistungen
+CPA_N80-N82	Wach-, Sicherheits- und Detekteileistungen; Dienstleistungen der Gebäudebetreuung und des Garten- und Landschaftsbaus; Wirtschaftliche Dienstleistungen für Unternehmen und Privatpersonen, a.n.g.
+CPA_N80	Wach-, Sicherheits- und Detekteileistungen
+CPA_N801	Leistungen privater Wach- und Sicherheitsdienste
+CPA_N802	Sicherheitsdienstleistungen mithilfe von Überwachungs- und Alarmsystemen
+CPA_N803	Detekteileistungen
+CPA_N81	Dienstleistungen der Gebäudebetreuung und des Garten- und Landschaftsbaus
+CPA_N811	Hausmeisterdienstleistungen
+CPA_N812	Reinigungsleistungen an Gebäuden, Straßen und Verkehrsmitteln
+CPA_N813	Dienstleistungen des Garten- und Landschaftsbaus
+CPA_N82	Wirtschaftliche Dienstleistungen für Unternehmen und Privatpersonen, a.n.g.
+CPA_N821	Sekretariats- und Schreibarbeiten, Dienstleistungen von Copyshops
+CPA_N822	Dienstleistungen von Callcentern
+CPA_N823	Dienstleistungen von Messe-, Ausstellungs- und Kongressveranstaltern
+CPA_N829	Sonstige wirtschaftliche Unterstützungsdienstleistungen für Unternehmen und Privatpersonen
+CPA_O-Q	Dienstleistungen der öffentliche Verwaltung, Verteidigung, Erziehung und Unterricht, Gesundheits- und Sozialwesen
+CPA_O	Dienstleistungen der öffentlichen Verwaltung, der Verteidigung und der Sozialversicherung
+CPA_O84	Dienstleistungen der öffentlichen Verwaltung, der Verteidigung und der Sozialversicherung
+CPA_O841	Dienstleistungen der öffentlichen Verwaltung
+CPA_O842	Dienstleistungen der Bereiche auswärtige Angelegenheiten, Verteidigung, Rechtspflege/Justiz, öffentliche Sicherheit und Ordnung
+CPA_O843	Dienstleistungen der gesetzlichen Sozialversicherung
+CPA_P	Erziehungs- und Unterrichtsdienstleistungen
+CPA_P85	Erziehungs- und Unterrichtsdienstleistungen
+CPA_P851	Dienstleistungen von Kindergärten und Vorschulen
+CPA_P852	Dienstleistungen von Grundschulen/Volksschulen
+CPA_P853	Dienstleistungen weiterführender Schulen
+CPA_P854	Dienstleistungen von tertiären, postsekundären und nichttertiären Bildungseinrichtungen
+CPA_P855	Sonstige Unterrichtsdienstleistungen
+CPA_P856	Unterstützungsdienstleistungen für den Unterricht
+CPA_Q	Dienstleistungen des Gesundheits- und Sozialwesens
+CPA_Q86	Dienstleistungen des Gesundheitswesens
+CPA_Q861	Dienstleistungen von Krankenhäusern
+CPA_Q862	Ärztliche Dienstleistungen in Arzt- und Zahnarztpraxen
+CPA_Q869	Dienstleistungen des Gesundheitswesens, a.n.g.
+CPA_Q87_Q88	Dienstleistungen von Heimen (ohne Erholungs- und Ferienheime); Dienstleistungen des Sozialwesens (ohne Heime), a.n.g.
+CPA_Q87	Dienstleistungen von Heimen (ohne Erholungs- und Ferienheime)
+CPA_Q871	Dienstleistungen von Pflegeheimen
+CPA_Q872	Dienstleistungen von stationären Einrichtungen zur psychosozialen Betreuung, Suchtbekämpfung u. Ä.
+CPA_Q873	Dienstleistungen von Altenheimen sowie Alten- und Behindertenwohnheimen
+CPA_Q879	Dienstleistungen von sonstigen Heimen (ohne Erholungs- und Ferienheime)
+CPA_Q88	Dienstleistungen des Sozialwesens (ohne Heime), a.n.g.
+CPA_Q881	Dienstleistungen der sozialen Betreuung älterer Menschen und Behinderter
+CPA_Q889	Sonstige Dienstleistungen des Sozialwesens (ohne Heime), a.n.g.
+CPA_R-U	Kunst-, Unterhaltungs- und Erholungsdienstleistungen; Sonstige Dienstleistungen; Dienstleistungen privater Haushalte, exterritorialer Organisationen und Körperschaften
+CPA_R	Kunst-, Unterhaltungs- und Erholungsdienstleistungen
+CPA_R90-R92	Kreative, künstlerische und unterhaltende Dienstleistungen; Dienstleistungen von Bibliotheken, Archiven und Museen, botanischen und zoologischen Gärten; Dienstleistungen des Spiel-, Wett- und Lotteriewesens
+CPA_R90	Kreative, künstlerische und unterhaltende Dienstleistungen
+CPA_R91	Dienstleistungen von Bibliotheken, Archiven und Museen, botanischen und zoologischen Gärten
+CPA_R92	Dienstleistungen des Spiel-, Wett- und Lotteriewesens
+CPA_R93	Dienstleistungen des Sports, der Unterhaltung und der Erholung
+CPA_R931	Dienstleistungen im Sport
+CPA_R932	Dienstleistungen der Unterhaltung und der Erholung
+CPA_S	Sonstige Dienstleistungen
+CPA_S94	Dienstleistungen von Interessenvertretungen sowie kirchlichen und sonstigen religiösen Vereinigungen (ohne Sozialwesen und Sport)
+CPA_S941	Dienstleistungen von Wirtschafts- und Arbeitgeberverbänden sowie Berufsorganisationen
+CPA_S942	Dienstleistungen von Arbeitnehmervereinigungen
+CPA_S949	Dienstleistungen von kirchlichen Vereinigungen, politischen Parteien sowie sonstigen Interessenvertretungen und Vereinigungen, a.n.g.
+CPA_S95	Reparaturarbeiten an Datenverarbeitungsgeräten und Gebrauchsgütern
+CPA_S951	Reparaturarbeiten an Datenverarbeitungs- und Telekommunikationsgeräten
+CPA_S952	Reparaturarbeiten an Gebrauchsgütern
+CPA_S96	Sonstige überwiegend persönliche Dienstleistungen
+CPA_T	Dienstleistungen privater Haushalte, die Hauspersonal beschäftigen; von privaten Haushalten produzierte Waren und Dienstleistungen für den Eigenbedarf ohne ausgeprägten Schwerpunkt
+CPA_T97	Dienstleistungen privater Haushalte, die Hauspersonal beschäftigen
+CPA_T98	Durch private Haushalte für den Eigenbedarf produzierte Waren und Dienstleistungen ohne ausgeprägten Schwerpunkt
+CPA_T981	Durch private Haushalte für den Eigenbedarf produzierte Waren ohne ausgeprägten Schwerpunkt
+CPA_T982	Durch private Haushalte für den Eigenbedarf erbrachte Dienstleistungen ohne ausgeprägten Schwerpunkt
+CPA_U	Dienstleistungen exterritorialer Organisationen und Körperschaften
+CPA_U99	Dienstleistungen exterritorialer Organisationen und Körperschaften

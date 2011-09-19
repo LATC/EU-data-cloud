@@ -1,0 +1,48 @@
+POP	Population totale
+ACT	Personnes actives
+EMP_W	Personnes employées actuellement et auparavant 
+EMP	Personnes occupées
+EMP_FT	Personnes occupées à plein temps
+EMP_PT	Personnes occupées à temps partiel
+LEAV	Personnes occupées en congé temporaire
+SAL	Salariés
+SAL_PERM	Salariés avec un emploi permanent
+SAL_TEMP	Salariés avec un emploi temporaire
+MW_IS	Ouvriers dans l'industrie et les services
+NMW_IS	Employés dans l'industrie et les services
+NSAL	Personnes occupées sauf salariés
+SELF	Travailleurs indépendants
+SELF_S	Travailleurs indépendants avec salariés (employeurs)
+SELF_NS	Travailleurs indépendants sans salariés 
+CFAM_COOP	Travailleurs familiaux collaborant à l'entreprise familiale et membres de coopératives de producteurs
+CFAM	Travailleurs familiaux collaborant à l'entreprise familiale
+NCFAM	Personnes occupées sauf travailleurs familiaux collaborant à l'entreprise familiale
+COOP	Membres de coopératives de producteurs
+EMP_OTH	Autres personnes occupées
+EMP_UNK	Personnes occupées - inconnu
+NEMP	Personnes non occupées
+UNE	Chômeurs
+UNE_W	Chômeurs ayant travaillé auparavant
+UNE_NW	Chômeurs n'ayant jamais travaillé auparavant
+ACT_UNK	Population active - inconnu
+INAC	Personnes inactives
+LT_MWA	Personnes en dessous de l’âge minimal requis pour travailler
+INAC_GE65	Personnes inactives - 65 ans ou plus
+EDUC	Étudiants
+ARM	Personnes effectuant le service militaire obligatoire ou le service civil
+HOME_IO	Personnes s'occupant du foyer et autres personnes inactives
+HOME	Personnes s'occupant du foyer
+DIS	Personnes invalides
+INC	Retraités et rentiers
+RET	Retraités
+INAC_OTH	Autres personnes inactives
+INAC_UNK	Personnes inactives - inconnu
+OTH	Autres
+NAP	Non applicable
+NRP	Sans réponse
+UNK	Inconnu
+WANT	Personnes aimerait travailler (cherchant ou pas un emploi) 
+NWANT	Personnes ne veut pas travailler
+PRACT	Exerçant leur profession
+PACT	Professionnellement actifs
+LIC	Habilité à exercer

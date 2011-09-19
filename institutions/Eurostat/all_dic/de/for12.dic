@@ -1,0 +1,44 @@
+D322O1	Gesamtfläche (1000 ha)
+D322O2	Fläche der Binnengewässer (1000 ha)
+D322O3	Landfläche, gesamt (1000 ha)
+D322O4	Landfläche, gesamt (%)
+D322O5	Forstfläche (WSHF) (1000 ha)
+D322O6	Forstfläche (WSHF) (%)
+D322O7	Landwirtschaftlich genutzte Fläche (1000 ha)
+D322O8	Landwirtschaftlich genutzte Fläche (%)
+D322O9	Sonstige Landflächen (1000 ha)
+D322O10	Sonstige Landflächen (%)
+D322O11	WSHF pro Einwohner (ha)
+D322O12	Bezugszeitraum (P1) von
+D322O13	Bezugszeitraum (P1) bis
+D322O14	Bezugszeitraum (P2) von
+D322O15	Bezugszeitraum (P2) bis
+D322O30	Bezugszeitraum (P3) von
+D322O31	Bezugszeitraum (P3) bis
+D322O36	Bezugszeitraum (P4) von
+D322O37	Bezugszeitraum (P4) bis
+D322O16	Forstfläche (WSHF) (P2) (1000 ha)
+D322O17	Waldfläche (P2) (1000 ha)
+D322O18	Sonstige Holzflächen (P2) (1000 ha)
+D322O19	Durchschnittliche jährliche Änderung der Waldfläche (P2-P1) (1000 ha)
+D322O20	Für die Holzversorgung verfügbare Waldfläche (WVHV) (P2) (1000 ha)
+D322O21	Anteil der WVHV an der Waldfläche (%) (P2-P1) (1000 ha)
+D322O22	Durchschnittliche jährliche Änderung der WVHV (P2-P1) (1000 ha)
+D322O23	Holzvorrat (lebende Bäume) der Waldfläche (P1) (1000 m³ mit Rinde)
+D322O24	Holzvorrat (lebende Bäume) der Waldfläche (P2) (1000 m³ mit Rinde)
+D322O25	Durchschnittliche jährliche Änderung des Holzvorrates (lebende Bäume) der Waldfläche (P2-P1) (1000 m³ mit Rinde/Jahr)
+D322O26	Holzvorrat (lebende Bäume) der WVHV (P1) (1000 m³ mit Rinde)
+D322O27	Holzvorrat (lebende Bäume) der WVHV (P2) (1000 m³ mit Rinde)
+D322O28	Durchschnittliche jährliche Änderung des Holzvorrates (lebende Bäume) der WVHV (P2-P1)(1000 m³ mit Rinde/Jahr)
+D322O29	Holzvorrat (lebende Bäume) der WVHV pro ha (m³ mit Rinde/ha)
+D322O32	Durchschnittlicher jährlicher Zuwachs (netto) der WVHV (P3) (1000 m³ mit Rinde)
+D322O33	Durchschnittlicher jährlicher Zuwachs (netto) der WVHV, Nadelbäume (P3) (1000 m³ mit Rinde)
+D322O34	Durchschnittlicher jährlicher Zuwachs (netto) der WVHV, Laubbäume (P3) (1000 m³ mit Rinde)
+D322O35	Durchschnittlicher jährlicher Zuwachs (netto) der WVHV pro ha (P3) (m³ mit Rinde/ha)
+D322O38	Jährlicher Holzeinschlag (brutto) der WVHV (P4) (1000 m³ mit Rinde)
+D322O39	Jährlicher Holzeinschlag (brutto) der WVHV, Nadelbäume (P4) (1000 m³ mit Rinde)
+D322O40	Jährlicher Holzeinschlag (brutto) der WVHV, Laubbäume (P4) (1000 m³ mit Rinde)
+D322O41	Jährlicher Holzeinschlag (netto) der WVHV, (P4) (1000 m³ mit Rinde)
+D322O42	Jährlicher Holzeinschlag (netto) der WVHV, Nadelbäume (P4) (1000 m³ mit Rinde)
+D322O43	Jährlicher Holzeinschlag (netto) der WVHV, Laubbäume (P4) (1000 m³ mit Rinde)
+D322O50	Nicht verfügbare Waldfläche für Holzversorgung

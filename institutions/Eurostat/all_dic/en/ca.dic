@@ -1,0 +1,65 @@
+TOT_X_5	Total emissions (sectors 1-7, excluding 5. LULUCF)
+TOT_NET	Total net emissions (sectors 1-7, including 5. LULUCF)
+1	Energy
+1_A	Fuel Combustion - Sectoral Approach
+1_A_1	Energy Industries
+1_A_1A	Public Electricity and Heat Production
+1_A_1B	Petroleum Refining
+1_A_1C	Manufacture of Solid Fuels and Other Energy Industries
+1_A_2	Manufacturing Industries and Construction
+1_A_2A	Iron and Steel
+1_A_2B	Non-Ferrous Metals
+1_A_2C	Chemicals
+1_A_2D	Pulp, Paper and Print
+1_A_2E	Food Processing, Beverages and Tobacco
+1_A_2F	Other
+1_A_3	Transport
+1_A_3A	Civil Aviation
+1_A_3B	Road Transportation
+1_A_3C	Railways
+1_A_3D	Navigation
+1_A_3E	Other Transportation
+1_A_4	Other Sectors
+1_A_4A	Commercial/Institutional
+1_A_4B	Residential
+1_A_4C	Agriculture/Forestry/Fisheries
+1_A_5	Other (Not elsewhere specified)
+1_B	Fugitive Emissions from Fuels
+1_B_1	Solid Fuels
+1_B_2	Oil and Natural Gas
+1_C1	International Bunkers
+1_C1_A	International aviation
+1_C1_B	International maritime transport
+1_C2	Multilateral Operations
+1_C3	CO2 Emissions from Biomass
+2	Industrial Processes
+2_A	Mineral Products
+2_B	Chemical Industry
+2_C	Metal Production
+2_D	Other Production
+2_E	Production of Halocarbons and SF6
+2_F	Consumption of Halocarbons and SF6
+2_G	Other
+3	Solvent and Other Product Use
+4	Agriculture
+4_A	Enteric Fermentation
+4_B	Manure Management
+4_C	Rice Cultivation
+4_D	Agricultural Soils
+4_E	Prescribed Burning of Savannas
+4_F	Field Burning of Agricultural Residues
+4_G	Other
+5	LULUCF (land use, land use change and forestry)
+6	Waste
+6_A	Solid Waste Disposal on Land
+6_B	Wastewater Handling
+6_C	Waste Incineration
+6_D	Other
+7	Other
+8_A	Aviation
+8_B	Marine
+10	Unallocated
+11_A	Other (energy)
+11_B	Other (non-energy)
+12_A	Road Transport
+12_B	Other Transport

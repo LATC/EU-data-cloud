@@ -1,0 +1,108 @@
+b	Break in series
+bc	Break in series, Confidential data
+bcp	Break in series, Confidential data, Provisional
+bcpr	Break in series, Confidential data, Revised and still provisional value
+bcr	Break in series, Confidential data, Revised
+be	Break in series, Estimated value
+bei	Break in series, Estimated value, See explanatory text
+bep	Break in series, Estimated value, Provisional
+bepr	Break in series, Estimated value, Revised and still provisional value
+ber	Break in series, Estimated value, Revised
+bi	Break in series, See explanatory text
+bip	Break in series, See explanatory text, Provisional
+bir	Break in series, See explanatory text, Revised
+bp	Break in series, Provisional
+bpr	Break in series, Revised and still provisional value
+bprs	Break in series, Revised and still provisional value, Eurostat estimate
+bpru	Break in series, Revised and still provisional value, Unreliable data
+bprz	Break in series, Revised and still provisional value, Not applicable
+bps	Break in series, Provisional, Eurostat estimate
+bpu	Break in series, Provisional, Unreliable data
+bpz	Break in series, Provisional, Not applicable
+br	Break in series, Revised
+brs	Break in series, Revised, Eurostat estimate
+bru	Break in series, Revised, Unreliable data
+brz	Break in series, Revised, Not applicable
+bs	Break in series, Eurostat estimate
+bu	Break in series, Unreliable data
+bz	Break in series, Not applicable
+c	Confidential
+ce	Confidential data, Estimated value
+cei	Confidential data, Estimated value, See explanatory text
+ceip	Confidential data, Estimated value, See explanatory text, Provisional
+cep	Confidential data, Estimated value, Provisional
+cepr	Confidential data, Estimated value, Revised and still provisional value
+cer	Confidential data, Estimated value, Revised
+ci	Confidential data, See explanatory text
+cip	Confidential data, See explanatory text, Provisional
+cis	Confidential data, See explanatory text, Eurostat estimate
+cp	Confidential data, Provisional
+cpr	Confidential data, Revised and still provisional value
+cprs	Confidential data, Revised and still provisional value, Eurostat estimate
+cpru	Confidential data, Revised and still provisional value, Unreliable data
+cps	Confidential data, Provisional, Eurostat estimate
+cpu	Confidential data, Provisional, Unreliable data
+cr	Confidential data, Revised
+crs	Confidential data, Revised, Eurostat estimate
+cru	Confidential data, Revised, Unreliable data
+cs	Confidential data, Eurostat estimate
+cu	Confidential data, Unreliable data
+e	Estimated value
+ei	Estimated value, See explanatory text
+eip	Estimated value, See explanatory text, Provisional
+eir	Estimated value, See explanatory text, Revised
+eiu	Estimated value, See explanatory text, Unreliable data
+ep	Estimated value, Provisional
+epr	Estimated value, Revised and still provisional value
+epru	Estimated value, Revised and still provisional value, Unreliable data
+eprz	Estimated value, Revised and still provisional value, Not applicable
+epu	Estimated value, Provisional, Unreliable data
+epz	Estimated value, Provisional, Not applicable
+er	Estimated value, Revised
+eru	Estimated value, Revised, Unreliable data
+erz	Estimated value, Revised, Not applicable
+eu	Estimated value, Unreliable data
+ez	Estimated value, Not applicable
+f	Forecast
+fi	Forecast, See explanatory text
+fp	Forecast, Provisional
+fpr	Forecast, Revised and still provisional value
+fpru	Forecast, Revised and still provisional value, Unreliable data
+fpu	Forecast, Provisional, Unreliable data
+fr	Forecast, Revised
+fru	Forecast, Revised, Unreliable data
+fu	Forecast, Unreliable data
+i	See explanatory text
+ip	See explanatory text, Provisional
+ir	See explanatory text, Revised
+is	See explanatory text, Eruostat estimate
+iu	See explanatory text, Unreliable data
+iz	See explanatory text, Not applicable
+n	Not significant
+np	Not significant, Provisional
+npr	Not significant, Revised and still provisional value
+nprz	Not significant, Revised and still provisional value, Not applicable
+npz	Not significant, Provisional, Not applicable
+nr	Not significant, Revised
+nrz	Not significant, Revised, Not applicable
+nz	Not significant, Not applicable
+p	Provisional value
+pr	Provisional, Revised
+prs	Revised and still provisional value, Eurostat estimate
+prsu	Revised and still provisional value, Eurostat estimate, Unreliable data
+pru	Revised and still provisional value, Unreliable or uncertain data
+prz	Revised and still provisional value, Not applicable
+ps	Provisional, Eurostat estimate
+psu	Provisional, Eurostat estimate, Unreliable data
+pu	Provisional, Unreliable or uncertain data
+pz	Provisional, Not applicable
+r	Revised value
+rs	Revised, Eurostat estimate
+rsu	Revised, Eurostat estimate, Unreliable data
+ru	Revised, Unreliable or uncertain data
+rz	Revised, Not applicable
+s	Eurostat estimate
+su	Eurostat estimate, Unreliable data
+sz	Eurostat estimate, Not applicable
+u	Unreliable or uncertain data
+z	Not applicable or Real zero or Zero by default

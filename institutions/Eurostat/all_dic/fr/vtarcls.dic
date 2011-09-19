@@ -1,0 +1,15 @@
+VTCTOT	Total
+VTC_L01	>0 à < 0,10ha de superficie viticole
+VTC01_02	0,10 à < 0,20 ha de superficie viticole
+VTC02_03	0,20 à < 0,30 ha de superficie viticole
+VTC03_05	0,30 à < 0,50 ha de superficie viticole
+VTC05_1	0,50 à < 1 ha de superficie viticole
+VTC1_2	1 à < 2 ha de superficie viticole
+VTC2_3	2 à < 3 ha de superficie viticole
+VTC3_5	3 à < 5 ha de superficie viticole
+VTC5_10	5 à < 10 ha de superficie viticole
+VTC10_20	10 à < 20 ha de superficie viticole
+VTC20_30	20 à < 30 ha de superficie viticole
+VTC_G30	>=30 ha de superficie viticole
+VTC_G10	>=10 ha de superficie viticole
+VTC_G05	>=5 ha de superficie viticole

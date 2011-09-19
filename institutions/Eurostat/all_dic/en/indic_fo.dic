@@ -1,0 +1,69 @@
+PROD	Production 
+IMP_EXT_EU	Imports from third countries 
+IMP	Imports total 
+EXP_EXT_EU	Exports to third countries 
+EXP	Exports total 
+CONS	Apparent consumption 
+SSD	Degree of self-sufficiency (excluding stock) (%)
+DEF_AREA	Area surveyed for defoliation - (1 000 ha)
+SAMPTREE	Total number of sample trees - (Number)
+DEF_NO	Defoliation class none (0) - (%)
+DEF_SLI	Defoliation class slight (1) - (%)
+DEF_MOD	Defoliation class moderate (2) - (%)
+DEF_SEV	Defoliation class severe and dead (3 or 4) - (%)
+DEF_TOT	Total damaged classes (2 - 4) - (%)
+FIR_NB	Total number of forest fires
+FIR_AREA	Total area burnt in hectares
+KNW_NB	Known causes of forest fires: Total - (number)
+KNW_HA	Known causes of forest fires: Total - (ha)
+ARS_NB	Known causes of forest fires: Arson - (number)
+ARS_HA	Known causes of forest fires: Arson - (ha)
+NEG_NB	Known causes of forest fires: Negligence - (number)
+NEG_HA	Known causes of forest fires: Negligence - (ha)
+NATU_NB	Known causes of forest fires: Natural causes - (number)
+NATU_HA	Known causes of forest fires: Natural causes - (ha)
+UNK_NB	Unknown causes of forest fires - (number)
+UNK_HA	Unknown causes of forest fires - (ha)
+LAND_X_WT	Total land area without water bodies
+FOREST_OWL	Total area of forests and other wooded land
+FOROWL	Total area of forests and other wooded land
+FOREST	Forests
+OWL	Other wooded land
+FAWS	Forests available for wood supply
+GS_FOWL	Growing stock in forests and on other wooded land
+GS_FO	Growing stock of forests
+GS_OWL	Growing stock of other wooded land
+GS_FAWS	Growing stock in forests available for wood supply
+INC_FAWS	Increment in forests available for wood supply
+NAI_FAWS	Increment in forests available for wood supply
+FEL_FAWS	Fellings in forests available for wood supply
+PRO_AREA	Forest area with a protective function
+PRO_ECO	Protective forests with soil, water and other ecosystem functions
+PRO_INFRA	Protective forests with infrastructure and managed natural resources functions
+PROTECTED	Protected forest according to MCPFE
+CARB_STK	Carbon stock of woody biomass in forests 
+CARB_ABG	Above ground carbon stock in forests
+CARB_BLG	Below ground carbon stock in forests
+CARB_DWD	Deadwood carbon stock in forests
+CARB_OTH	Carbon stock in woody biomass on other wooded land
+CARB_INC	Carbon content of the increment in forests available for wood supply
+CARB_NAI	Carbon content of the increment in forests available for wood supply
+CARB_FEL	Carbon content in fellings
+CARB_FELL	Carbon content in fellings
+FIR_NB 	Total number of forest fires
+CAG_FO	Above ground carbon in forests
+CBG_FO	Below ground carbon in forests
+CDW_FO	Deadwood carbon in forests
+CLI_FO	Litter carbon in forests
+CSO_FO	Soil carbon in forests
+CAG_OWL	Above ground carbon on other wooded land
+CBG_OWL	Below ground carbon on other wooded land
+CDW_OWL	Deadwood carbon on other wooded land
+CLI_OWL	Litter carbon on other wooded land
+CSO_OWL	Soil carbon on other wooded land
+BAG_FO	Above ground biomass in forests
+BBG_FO	Below ground biomass in forests
+BDW_FO	Deadwood biomass in forests
+BAG_OWL	Above ground biomass on other wooded land
+BBG_OWL	Below ground biomass on other wooded land
+BDW_OWL	Deadwood biomass on other wooded land

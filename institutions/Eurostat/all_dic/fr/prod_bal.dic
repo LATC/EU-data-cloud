@@ -1,0 +1,170 @@
+B1100	Céréales - Total
+B1110	Blé - Total
+B1111	Blé tendre
+B1112	Blé dur (Triticum durum)
+B1120	Céréales autres que blé
+B1121	Seigle et méteil
+B1122	Orge
+B1123	Avoine et mélange de céréales d'été
+B1124	Mais
+B1125	Triticale
+B1129	Céréales n.d.a.(y compris sorgho)
+B1130	Céréales - Total, ferme
+B1140	Blé - Total, ferme
+B1141	Blé tendre, ferme
+B1142	Blé dur (Triticum durum), ferme
+B1150	Céréales autres que blé, ferme
+B1151	Seigle et méteil, ferme
+B1152	Orge, ferme
+B1153	Avoine et mélange de céréales d'été, ferme
+B1154	Maïs, ferme
+B1155	Triticale, ferme
+B1159	Céréales n.d.a.(y compris sorgho), ferme
+B1160	Céréales - Total, marché
+B1170	Blé - Total, marché
+B1171	Blé tendre, marché
+B1172	Blé dur (Triticum durum), marché
+B1180	Céréales autres que blé, marché
+B1181	Seigle et méteil, marché
+B1182	Orge, marché
+B1183	Avoine et mélange de céréales d'été, marché
+B1184	Maïs, marché
+B1185	Triticale, marché
+B1189	Céréales n.d.a.(y compris sorgho), marché
+B1201	Riz Paddy
+B1202	Riz Paddy, long
+B1203	Riz Paddy, rond
+B1204	Riz Paddy, moyen
+B1215	Riz décortiqué
+B1216	Riz décortiqué, long
+B1217	Riz décortiqué, rond
+B1218	Riz décortiqué, moyen
+B1220	Riz usiné
+B1221	Riz usiné, long
+B1222	Riz usiné, rond
+B1223	Riz usiné, moyen
+B1230	Brisures de riz
+B1290	Riz - Total (équivalent riz usiné)
+B1291	Riz - Total sans brisures (équivalent riz usiné)
+B1300	Légumes secs
+B1310	Pois (y compris pois chiches)
+B1330	Fèves et fèveroles
+B1340	Lupin
+B1410	Pommes de terre
+B1411	Pommes de terre hâtives
+B1412	Autres pommes de terre
+B1490	Fécule de pomme de terre
+B1511	Betteraves sucrières
+B1520	Sucre (en équivalent sucre blanc)
+B1530	Mélasse
+B4900	Miel
+B5100	Graines et fruits oléagineux - Total (année campagne) (jusqu' à 2000/2001 olives incl.)
+B5111	Graines et fruits oléagineux - Colza-navette (année campagne)
+B5112	Graines et fruits oléagineux - Tournesol (année campagne)
+B5113	Graines et fruits oléagineux - Soja (année campagne)
+B5115	Graines et fruits oléagineux - Lin (année campagne)
+B5116	Graines et fruits oléagineux - Coton (année campagne)
+B5130	Graines et fruits oléagineux - Olives (année campagne)
+B5190	Graines et fruits oléagineux - Autres
+B5200	Graisses et huiles végétales - Total (année campagne) (jusqu' à 2000/2001 olives incl.)
+B520C	Graisses et huiles végétales - Total (année civile)
+B5211	Graisses et huiles végétales - Colza-Navette (année campagne)
+B5212	Graisses et huiles végétales - Tournesol (année campagne)
+B5213	Graisses et huiles végétales - Soja (année campagne)
+B5215	Graisses et huiles végétales - Lin
+B5217	Graisses et huiles végétales - Germe de maïs
+B5230	Graisses et huiles végétales - Olives (année campagne)
+B5290	Graisses et huiles végétales - Autres
+B5300	Graisses et huiles d'animaux terrestres (année civile)
+B5400	Graisses et huiles d'animaux marins - Total (année civile)
+B5500	Graisses et huiles préparées - Total (exprimé en matière grasse brute) (année civile)
+B5531	Margarine (exprimé en matière grasse brute) (année civile)
+B5532	Poids de produit (margarine)
+B5541	Produits blancs (exprimé en matière grasse brute) (année civile)
+B5542	Poids de produit (autres graisses alimentaires préparés)
+B5600	Tourteaux - Total (année campagne)
+B5611	Tourteaux - Colza-Navette (année campagne)
+B5612	Tourteaux - Tournesol (année campagne)
+B5613	Tourteaux - Soja (année campagne)
+B5615	Tourteaux - Lin
+B5617	Tourteaux - Maïs (année campagne)
+B5630	Tourteaux - Grignons d'olives
+B5690	Tourteaux - Autres
+B5900	Graisses et huiles - Total (année civile)
+B1711	Choux-fleurs (bilan de marché)
+B1712	Tomates fraîches (bilan de marché)
+B1713	Tomates transformées
+B1721	Pommes (bilan de marché)
+B1722	Poires (bilan de marché)
+B1723	Pêches fraîches
+B1724	Pêches transformées
+B1725	Oranges (bilan de marché)
+B1726	Raisins frais (bilan de marché)
+B1800	Légumes
+B1910	Fruits frais (sans agrumes)
+B1920	Fruits à coque
+B1940	Agrumes
+B1950	Fruits séchés
+B4100	Viande - Total
+B4110	Bovins
+B4120	Porcs
+B4130	Moutons et chèvres
+B4140	Equidés
+B4150	Volaille
+B4160	Autres viandes
+B4170	Abats
+B4400	Lait entier (matière première)
+B4410	Produits frais sauf crème
+B4411	Lait de consommation
+B4412	Crème
+B4420	Lait concentré
+B4430	Lait entier en poudre
+B4440	Lait écrémé en poudre
+B4450	Beurre (poids de produit)
+B4460	Fromage
+B4461	Fromage fondu
+B4700	Oeufs - Total
+B4720	Oeufs de consommation
+B2000	Vin - Total
+B2001	Vin rouge et rosé
+B2002	Vin blanc
+B2010	Vins de Qualité P.R.D. - Total
+B2011	Vins de Qualité P.R.D. - Rouge/Rosé
+B2012	Vins de Qualité P.R.D. - Blanc
+B2020	Vin de table - Total
+B2021	Vin de table - Rouge/Rosé
+B2022	Vin de table - Blanc
+B2030	Autres vins - Total
+B2031	Autres vins - Rouge/Rosé
+B2032	Autres vins - Blanc
+B2100	Vermouth
+B2200	Vin - Total
+B2201	Vin rouge et rosé
+B2202	Vin blanc
+B2210	Vins de Qualité P.R.D. - Total
+B2211	Vins de Qualité P.R.D. - Rouge/Rosé
+B2212	Vins de Qualité P.R.D. - Blanc
+B2220	Vin de table - Total
+B2221	Vin de table - Rouge/Rosé
+B2222	Vin de table - Blanc
+B2230	Vin de table - sans indication géographique
+B2231	Vin de table WOGI- Rouge/Rosé
+B2232	Vin de table WOGI- Blanc
+B2240	Vin de table - avec indication géographique
+B2241	Vin de table WGI - Rouge/Rosé
+B2242	Vin de table WGI - Blanc
+B2250	Autres vins - Total
+B2251	Autres vins - Rouge/Rosé
+B2252	Autres vins - Blanc
+B2260	A.O.P. - Vin total
+B2261	A.O.P. - Vin rouge et rosé
+B2262	A.O.P. - Vin blanc
+B2270	I.G.P. - Vin total
+B2271	I.G.P. - Vin rouge et rosé
+B2272	I.G.P. - Vin blanc
+B2280	 Vin variétal - Total
+B2281	 Vin variétal - Vin rouge et rosé
+B2282	 Vin variétal - Vin blanc
+B2290	Autre vin - Total
+B2291	Autre vin - Vin rouge et rosé
+B2292	Autre vin - Vin blanc

@@ -1,0 +1,6 @@
+A000	Total
+D001	Mouvements de véhicules automobiles sur le territoire national (quel que soit le pays d'immatriculation)
+D002	Mouvements de véhicules automobiles sur le territoire national (immatriculés dans le pays déclarant)
+D003	Mouvements de véhicules automobiles sur le territoire national (immatriculés dans des pays étrangers)
+D004	Mouvements de véhicules automobiles sur un territoire étranger (immatriculés dans le pays déclarant)
+D005	Mouvements de véhicules automobiles sur le territoire national et sur un territoire étranger (immatriculés dans le pays déclarant)

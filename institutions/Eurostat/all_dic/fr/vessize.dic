@@ -1,0 +1,100 @@
+T00	Total classes de tonnage
+T21	Tonnage 0 - 24.9 GT
+T22	Tonnage 25 - 49.9 GT
+T23	Tonnage 50 - 99.9 GT
+T24	Tonnage 100 - 149.9 GT
+T25	Tonnage 150 - 249.9 GT
+T26	Tonnage 250 - 499.9 GT
+T27	Tonnage 500 - 999.9 GT
+T28	Tonnage 1000 - 1999.9 GT
+T29	Tonnage 2000 + GT
+T39	Tonnage inconnu
+L00	Total classes de longueur
+L40	Longueur 0 - 5.9 mètres
+L41	Longueur 6 - 11.9 mètres
+L42	Longueur 12 - 17.9 mètres
+L43	Longueur 18 - 23.9 mètres
+L44	Longueur 24 - 29.9 mètres
+L45	Longueur 30 - 35.9 mètres
+L46	Longueur 36 - 41.9 mètres
+L47	Longueur 42 + mètres
+L48	Longueur 0 - 8.9 mètres
+L49	Longueur 9 - 11.9 mètres
+L50	Longueur 30 - 32.9 mètres
+L51	Longueur 33 - 41.9 mètres
+L59	Longueur inconnue
+A00	Total classes d'âge
+A60	Age 0 - 4.9 ans
+A61	Age 5 - 9.9 ans
+A62	Age 10 - 14.9 ans
+A63	Age 15 - 19.9 ans
+A64	Age 20 - 24.9 ans
+A65	Age 25 ans et plus
+A66	Age inconnu
+P00	Total classes de puissance
+P70	Puissance 1 - 24.9 KW
+P71	Puissance 25 - 74.9 KW
+P72	Puissance 75 - 149.9 KW
+P73	Puissance 150 - 349.9 KW
+P74	Puissance 350 - 499.9 KW
+P75	Puissance 500 - 749.9 KW
+P76	Puissance 750 - 999.9 KW
+P77	Puissance 1000 - 1999.9 KW
+P78	Puissance 2000 - 2999.9 KW
+P79	Puissance 3000 - 3999.9 KW
+P80	Puissance 4000 + KW
+P89	Puissance inconnue
+TC25	Tonnage 0 - 24.9 GT
+TC100	Tonnage 25 - 99.9 GT
+TC500	Tonnage 100 - 499.9 GT
+TCMORE	Tonnage 500 + GT
+TC25_PC	% Tonnage 0 - 24.9 GT / Total
+TC100_PC	% Tonnage 25 - 99.9 GT / Total
+TC500_PC	% Tonnage 100 - 499.9 GT / Total
+TCMORE_PC	% Tonnage 500 + GT / Total
+T00_PC	% Total classes de tonnage / Total
+T21_PC	% Tonnage 0 - 24.9 GT / Total
+T22_PC	% Tonnage 25 - 49.9 GT / Total
+T23_PC	% Tonnage 50 - 99.9 GT / Total
+T24_PC	% Tonnage 100 - 149.9 GT / Total
+T25_PC	% Tonnage 150 - 249.9 GT / Total
+T26_PC	% Tonnage 250 - 499.9 GT / Total
+T27_PC	% Tonnage 500 - 999.9 GT / Total
+T28_PC	% Tonnage 1000 - 1999.9 GT / Total
+T29_PC	% Tonnage 2000 + GT / Total
+T39_PC	% Tonnage inconnu / Total
+L00_PC	% Total classes de longueur / Total
+L40_PC	% Longueur 0 - 5.9 mètres / Total
+L41_PC	% Longueur 6 - 11.9 mètres / Total
+L42_PC	% Longueur 12 - 17.9 mètres / Total
+L43_PC	% Longueur 18 - 23.9 mètres / Total
+L44_PC	% Longueur 24 - 29.9 mètres / Total
+L45_PC	% Longueur 30 - 35.9 mètres / Total
+L46_PC	% Longueur 36 - 41.9 mètres / Total
+L47_PC	% Longueur 42 + mètres / Total
+L48_PC	% Longueur 0 - 8.9 mètres / Total
+L49_PC	% Longueur 9 - 11.9 mètres / Total
+L50_PC	% Longueur 30 - 32.9 mètres / Total
+L51_PC	% Longueur 33 - 41.9 mètres / Total
+L59_PC	% Longueur inconnue / Total
+A00_PC	% Total classes d'âge / Total
+A60_PC	% Age 0 - 4.9 ans / Total
+A61_PC	% Age 5 - 9.9 ans / Total
+A62_PC	% Age 10 - 14.9 ans / Total
+A63_PC	% Age 15 - 19.9 ans / Total
+A64_PC	% Age 20 - 24.9 ans / Total
+A65_PC	% Age 25 ans et plus / Total
+A66_PC	% Age inconnu / Total
+P00_PC	% Total classes de puissance / Total
+P70_PC	% Puissance 1 - 24.9 KW / Total
+P71_PC	% Puissance 25 - 74.9 KW / Total
+P72_PC	% Puissance 75 - 149.9 KW / Total
+P73_PC	% Puissance 150 - 349.9 KW / Total
+P74_PC	% Puissance 350 - 499.9 KW / Total
+P75_PC	% Puissance 500 - 749.9 KW / Total
+P76_PC	% Puissance 750 - 999.9 KW / Total
+P77_PC	% Puissance 1000 - 1999.9 KW / Total
+P78_PC	% Puissance 2000 - 2999.9 KW / Total
+P79_PC	% Puissance 3000 - 3999.9 KW / Total
+P80_PC	% Puissance 4000 + KW / Total
+P89_PC	% Puissance inconnue / Total

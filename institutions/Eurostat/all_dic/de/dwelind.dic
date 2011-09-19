@@ -1,0 +1,14 @@
+TOTAL	Insgesamt
+UNITS	Wohneinheiten
+HH	Private Haushalte
+QUART	Unterkunft
+OCC	Inhaber
+PERS	Personen
+DWEL	Wohnungen
+ROOMS	Zimmer
+ROOMS_DWEL	Zimmer je Wohnung
+ROOMS_PERS	Zimmer je Person
+TOT_ROOMS	Anzahl der Zimmer insgesamt
+PERS_DWEL	Personen je Wohnung
+PERS_ROOM	Personen je Zimmer
+UNK	Unbekannt

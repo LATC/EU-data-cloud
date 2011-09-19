@@ -1,0 +1,27 @@
+TOTAL	Insgesamt
+CNL	Schiffbare Kanäle
+RIV_LAK	Schiffbare Flüsse und Seen
+RIV	Schiffbare Flüsse
+MWAY	Autobahnen
+RD_STA	Bundesstraßen
+RD_PRO	Landesstraßen
+RD_COM	Gemeindestraßen
+RD_TEN	Straßen des Transeuropäischen Netzes
+RD_NTEN	Nicht zum Transeuropäischen Netz gehörende Straßen
+RD_INB	Sonstige Straßen innerhalb von bebauten Gebieten
+RD_OUTB	Sonstige Straßen außerhalb von bebauten Gebieten
+RD_OTH	Sonstige Strassen
+RL	Gesamtlänge der Eisenbahnstrecken
+RL_ELC	Elektrifizierte Eisenbahnstrecken
+RL_NELC	Nicht elektrifizierte Eisenbahnstrecken
+RL_HSPD	Hochgeschwindigkeitszugstrecken
+RL_TGE2	Zwei- und mehrgleisige Eisenbahnstrecken
+RL_DHSPD	Spezielle Hochgeschwindigkeitsstrecken
+RL_UHSPD	Aufgerüstete Hochgeschwindigkeitsstrecken
+RL_CV	Konventionelle Eisenbahnstrecken
+RL_OTH	Andere Zugverbindungen
+RT_ELC	Elektrifizierte Strecken
+RT_NELC	Nicht-elektrifizierte Strecken
+MET	U-Bahn-Linien
+IURB	Überlandbusse und Stadtbusse
+IMOD	Fläche für den intermodalen Güterverkehr (in Quadratmetern)

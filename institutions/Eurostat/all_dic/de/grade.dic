@@ -1,0 +1,23 @@
+VERYGOOD	Sehr gut
+GOOD	Gut
+FAIR	Fair
+BAD	Schlecht
+VERYBAD	Sehr schlecht
+NONE	Keine
+MILD	Milde
+LOW	Niedrig
+MODER	Mässig
+HIGH	Hoch
+SEVER	Ernst
+EXTR	Äusserst
+NOT_APP	Nicht zutreffend
+TOT	Insgesamt
+SUC	Erfolgreich
+PSUC	Teilweise erfolgreich
+NSUC	Nicht erfolgreich
+MBT	Viel besser
+BT	Besser
+UNC	Unverändert
+WO	Schlecht
+MWO	Viel schlechter
+NOP	Keine Meinung

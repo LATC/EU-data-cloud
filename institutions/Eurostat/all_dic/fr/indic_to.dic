@@ -1,0 +1,39 @@
+A000	NS (Total)
+A001	Etablissements
+A002	Chambres
+A003	Places-lits
+A005	Emplacements sur les campings
+A006	Habitations
+B001	Arrivées de résidents
+B002	Arrivées de non-résidents
+B003	Arrivées Total
+B004	Nuitées de résidents
+B005	Nuitées de non-résidents
+B006	Nuitées Total
+B007	Nuitées
+B010	Durée moyenne des séjours (mesurée en nuitées/arrivées) total
+B011	Durée moyenne des séjours (mesurée en nuitées/arrivées) résidents
+B012	Durée moyenne des séjours (mesurée en nuitées/arrivées) non residents
+C001	Touristes
+D001	Séjours
+E001	Utilisation des place-lit net
+E002	Utilisation des place-lit brut
+E003	Utilisation des chambres
+F010	Dépenses touristiques des résidents total
+F011	Dépenses touristiquesdes résidents voyages, vacances et circuits à forfait
+F012	Autres dépenses touristiques des résidents
+G010	Emploi effectifs totaux
+G011	Salariés
+G012	Indépendants
+G020	Temps plein
+G030	Temps partiel
+H001	Produit Intérieur Brut aux prix du marché
+H002	Produit Intérieur Brut aux coûts des facteurs
+J001	Arrivées des visiteurs aux frontières
+J002	Arrivées des touristes aux frontières
+J003	Arrivées des excursionnistes aux frontières
+K001	Dépenses touristiques des non-résidents dans le pays
+L001	Crédits
+L002	Débits
+L003	Solde
+M001	Indice des prix à la consommation

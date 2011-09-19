@@ -1,0 +1,9 @@
+TOTAL	Verkehr insgesamt
+TOT_GOOD	Insgesamt geladene und entladene Güter
+LD_GOOD	Geladene Güter
+UNLD_GOOD	Entladene Güter
+TRANSIT_GOOD	Transitfracht
+TOT_PASS	Insgesamt an Bord gegangene und von Bord gegangene Passagiere
+EMB_PASS	An Bord gegangene Passagiere
+DISEMB_PASS	Von Bord gegangene Passagiere
+TRANSIT_PASS	Transitpassagiere

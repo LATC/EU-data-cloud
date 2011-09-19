@@ -1,0 +1,7 @@
+DMOM	Durchschnittliche Ausgaben pro Haushalt
+DMOE	Durchschnittliche Ausgaben pro Erwachsenäquivalent
+DMDM	Median des Ausgaben pro Haushalt
+DMDE	Median des Ausgaben pro Erwachsenäquivalent
+STDE	Prozentualer Standardfehler
+MEAN_SUP0	Durchschnittliche Ausgaben pro Haushalt mit Ausgaben größer als Null
+PERC_SUP0	Prozentualer Anteil der Haushalte mit Ausgaben größer als Null

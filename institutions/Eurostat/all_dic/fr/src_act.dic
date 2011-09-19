@@ -1,0 +1,5 @@
+TOTAL	Total
+SO	La fonction fait l'objet d'un sourçage
+SO_DO	La fonction fait l'objet d'un sourçage au niveau local
+SO_IN	La fonction fait l'objet d'un sourçage au niveau international
+NO	La fonction ne fait pas l'objet d'un sourçage

@@ -1,0 +1,218 @@
+P12d_06	Marktforschungsleistungen (ohne Erhebungen)
+P32_06	Dienstleistungen der Vermittlung von Arbeitskräften
+P40_06	Dienstleistungen der EDV-Beratung
+P40c	System- und Softwareberatungsleistungen
+P40d	Dienstleistungen der technischen Unterstützung im Bereich Informationstechnologie
+P41a	Dienstleistungen der Netzverwaltung
+P41b	Dienstleistungen des Betriebes von Datenverarbeitungssystemen
+P42_06	Sonstige Dienstleistungen der Informationstechnologie und der EDV
+P45a_06	Systemsoftware und Anwendungssoftware als Package
+P45b_06	Online-Software und heruntergeladene Software
+P45c_06	Lizenzdienstleistungen bezüglich des Nutzungsrechtes an Computersoftware
+P49a_06	Dienstleistungen des Rechnungswesens und Buchführungsleistungen
+P56a	Architekturbüroleistungen für Wohnungsbauprojekte und sonstige Bauprojekte
+P56b	Architekturbüroleistungen im Bereich Restauration
+P56c	Beratungsleistungen von Architekturbüros
+P57a	Städteplanungsleistungen
+P57b	Dienstleistungen der ländlichen Raumplanung
+P57c	Dienstleistungen der Projekt-Gesamtplanung
+P60a	Beratungsleistungen von Ingenieurbüros 83310
+P60b	Ingenieurbüroleistungen für Bauprojekte 83321
+P60c	Ingenieurbüroleistungen für Kraftwerksprojekte 83324
+P60d	Ingenieurbüroleistungen für Verkehrsprojekte 83323
+P60e	Ingenieurbüroleistungen für Abfallbewirtschaftungsprojekte (gefährliche und ungefährliche Abfälle)
+P60f	"Ingenieurbüroleistungen für Wasserversorgungs-, Abwasser- und Entwässerungsprojekte"
+P60g	Ingenieurbüroleistungen für industrielle und fertigungstechnische Projekte 83322
+P60h	Ingenieurbüroleistungen für Telekommunikations- sowie Rundfunkübertragungsprojekte
+P60i	Ingenieurbüroleistungen für sonstige Projekte
+P61_06	Projektmanagementleistungen im Bauwesen
+P62a_06	Geologische und geophysikalische Beratungsleistungen und andere geophysikalische Dienstleistungen
+P62b_06	Suchbohrungsleistungen und damit zusammenhängende Evaluierungen
+P62c_06	Vermessungsarbeiten und kartografische Arbeiten
+P63c_06	Untersuchungsleistungen bezüglich integrierter mechanischer und elektrischer Systeme
+P63f_06	Sonstige technische Untersuchungsleistungen
+P65e	Leistungen des Verkaufs von Eventwerbung
+P66_06	Dienstleistungen von Werbeagenturen
+P67	Webportal-Inhalte
+P68	Dienstleistungen betreffend das Verlegen von Computerspielen
+P69	Gerichtliche Versteigerungsleistungen
+P70	Dienstleistungen der Konkurs- oder Zwangsverwaltung
+P71	Warenzeichen und Franchisen
+P72	Dienstleistungen der sonstigen Überlassung von Arbeitskräften
+TOTAL	Ingesamt
+P15	Unternehmens- und Public-Relations-Beratungsleistungen
+P15A	Beratungsdienstleistungen in der Unternehmensorganisation
+P15B	Beratungsdienstleistungen für die Strategie, einschließlich für Fusionsangelegenheiten und Acquisitionen
+P15C	Beratungsdienstleistungen für das finanzielle Management
+P15D	Personalberatungsleistungen
+P15E	Sonstige Beratungsdienstleistungen für Unternehmen und Management
+P15F	Marketing-Beratungsleistungen
+P15G	Beratungsleistungen im Produktionsbereich
+P15H	Öffentlichkeitsarbeitsleistungen
+P15I	Projektmanagementleistungen (ohne Bauwesen)
+P16	Architekturbüroleistungen
+P16A	Beratungs- und der Planung vorgelagerte Architektenleistungen
+P16B	Beratung für Architekturentwurf für Bauten und andere Strukturen
+P16C	Sonstige Architektendienstleistungen
+P17	Ingenieurwesen - Diensleistungen für schlüsselfertige Projekte
+P17A	Planungsleistungen für die Konstruktion von Fundamenten und Gebäuden
+P17B	Planungsleistungen für mechanische und elektrische Gebäudeinstallationen
+P17C	Planungsleistungen für Ingenieurbauten
+P17D	Planungsleistungen für industrielle und fertigungstechnische Verfahren
+P17E	Technische Planungsleistungen, a.n.g.
+P18	Städteplanungsleistungen
+P19	Projektmanagementsleistungen
+P20	Sonstige Dienstleistungen in der Architektur, technische Beratung und Planung
+P20A	Technische Beratungsleistungen
+P20B	Landschaftsgestaltungsleistungen
+P20C	Vermessung und Kartierung
+P20D	Geologische, geophysische und andere technische Unternehmensberatungsdienstleistungen
+P20E	Andere technischbezogene Dienstleistungen
+P21	Bauwerke
+P35	Sonstige andere Produkte
+P39	Programmierungsdienste
+P40	Dienstleistungen der Informationstechnologie und der EDV
+P40A	Hardwareberatung
+P40B	Sonstige Dienstleistungen der Informationstechnologie und der EDV
+P41	Dienstleistungen des Betriebes von Datenverarbeitungseinrichtungen
+P42	Sonstige Dienstleistungen der Informationstechnologie und der EDV
+P43	Datenverarbeitung, Hosting und damit verbundene Dienstleistungen
+P44	Dienstleistungen der Online-Bereitstellung (Online-Publishing, Broadcasting und Webportale)
+P44A	Datenbanken und Online-Publishing
+P44B	Webportale
+P45	Dienstleistungen betreffend das Verlegen von Software
+P45A	Dienstleistungen betreffend das Verlegen von Verpackte Software
+P45B	Dienstleistungen betreffend das Verlegen von Online Software
+P46	Reparatur - und Instandhaltungsarbeiten
+P46A	Reparaturarbeiten
+P46B	Reparaturarbeiten an Datenverarbeitungsgeräten und peripheren Geräten
+P34A	Weiterbildung bezogen auf Informationstechnologien
+P5	Netzwerk - und Fernmeldedienstleistungen
+P6	Weiterverkauf
+P6A	Weiterverkauf von software (nicht selbst entwickelt)
+P6B	Weiterverkauf von hardware und Ausrüstung
+P6C	Weiterverkauf
+P7	Rechtsberatungsleistungen
+P8	Rechtsberatungsleistungen und Vertretungen
+P8A	Rechtsberatungsleistungen und Vertretungen in Strafrechtssachen
+P8B	Rechtsberatungsleistungen und Vertretungen in Handelsrecht
+P8C	Rechtsberatungsleistungen und Vertretungen in Arbeitsrecht
+P8D	Rechtsberatungsleistungen und Vertretungen in Zivilrecht
+P8E	Rechtsberatungsleistungen und Vertretungen - andere
+P9	Rechtsberatungs- und Vertretungsleistungen in Schlichtungsverfahren
+P36	Rechtsberatungsleistungen in Sachen Patente und Urheberrechte
+P37	Notariatsleistungen
+P38	Architektur und Ingenieurdienstleistungen
+P47	Schlichtungs- und Vermittlungsleistungen
+P10	Gerichtliche Versteigerungsleistungen
+P11	Sonstige Rechtsberatungs- und Auskunftsdienstleistungen
+P14	Wirtschaftsprüfungs- und Steuerberatungsleistungen
+P14A	Dienstleistungen im Audit
+P14B	- Buchhaltungsdienstleistungen außer Steuererklärungen
+P14C	Buchführungsleistungen (ohne Steuererklärungen)
+P14D	Beratungsdienstleistungen, einschließlich Steuererklärungen
+P14E	Buchhaltung und Bilanzierung (ohne Steuererklärungen)
+P14F	Lohnund Gehaltsabrechnung
+P14G	sonstige Bilanzierungs-, Buchhaltungs, Auditdienstleistungen
+P12	Marktforschungsdienstleistungen
+P12A	Marktforschungsdienstleistungen - qualitative Umfragen
+P12B	Marktforschungsdienstleistungen - quantitative ad-hoc Umfragen
+P12C	Marktforschungsdienstleistungen - quantitative regelmässge Umfragen
+P12D	Marktforschungsdienstleistungen - andere als Umfragen
+P12E	andere Marktforschungsdienstleistungen
+P12F	Marktforschungsleistungen (ohne Erhebungen); sonstige Marktforschungsleistungen
+P13	Meinungsforschungsleistungen
+P28	Werbeleistungen
+P29	Verkauf bzw. Vermietung von Werbeflächen bzw. -Zeit
+P29A	Verkauf bzw. Vermietung von Werbeflächen bzw. -Zeit; auf Vermittlungsbasis
+P29B	Verkauf bzw. Vermietung von Werbeflächen bzw. -Zeit; nicht auf Vermittlungsbasis
+P30	Planungs-, Gestaltungs- und Plazierungsleistungen für Werbung
+P30A	Werbung mit vollem Dienstleistungsspektrum
+P30B	Direktwerbung
+P30C	Werbezeichnung
+P30D	Sonstige Werbedienstleistungen - Planung, Schaffung und Plazierung
+P31	Sonstige werbungsbezogene Dienstleistungen
+P48	Wirtschaftsprüfungsleistungen
+P49	Dienstleistungen des Rechnungswesens
+P49A	Dienstleistungen des Rechnungswesens, Buchführungsleistungen
+P49B	Lohn- und Gehaltsrechnung
+P49C	Sonstige Wirtschaftsprüfungsleistungen
+P50	Steuerberatungsleistungen
+P51	Public-Relations-Beratungsleistungen
+P52	Unternehmensberatungsleistungen
+P52A	Beratungsleistungen in Sachen Unternehmensführung
+P52B	Finanzberatungsleistungen (außer in Steuersachen)
+P52C	Marketing-Beratungsleistungen
+P52D	Personalberatungsleistungen
+P52E	Beratungsleistungen im Produktionsbereich
+P52F	Lieferketten-Beratungsleistungen und sonstige Unternehmensberatungsleistungen
+P52G	Dienstleistungen in Sachen Management von Geschäftsprozessen
+P53	Sonstige Projektmanagementleistungen (ohne Bauwesen)
+P54	Sonstige Unternehmensberatungsleistungen
+P1	Datenverarbeitungsdienstleistungen
+P2	Hardwareberatungsleistungen
+P3	Softwareberatung und Beratung in anderen Datenverarbeitungsdienstleistungen
+P3A	- Entwicklung und Verkauf von Softwarepacketen
+P3B	- Entwicklung und Verkauf auf den Kundenbedarf zugeschnittener Software
+P3C	- andere Dienstleistungen der Software- und Computerberatung
+P4	Sonstige mit der Datenverarbeitung verbundene Dienstleistungen
+P4A	Wartung von Datenverarbeitungen und Datenverarbeitungsdienste
+P4B	Datenbankenleistungen
+P4C	Systemwartungsleistungen
+P4D	Computerhardware-Dienstleistungen, Reparatur und Instandhaltung von Informatiksgeräten
+P4E	Sonstige mit der Datenverarbeitung verbundene Dienstleistungen
+P34	Ausbildungsdienstleistungen
+P55	Architekturbüroleistungen
+P56	Architekturbüroleistungen für Gebäude
+P57	Städte- und Raumplanungsleistungen
+P58	Landschaftsgestaltungsleistungen
+P59	Sonstige Architekturbüroleistungen
+P60	Ingenieurbüroleistungen
+P61	Projektmanagement für Bauprojekte
+P62	Geologische, geophysikalische und ähnliche Erkundungsleistungen für Bodenschätze
+P22	Technische, physikalische und chemische Untersuchungsleistungen
+P22A	Untersuchungsleistungen bezüglich Zusammensetzung und Reinheit
+P22B	Untersuchungsleistungen bezüglich physikalischer Eigenschaften
+P22C	Testen und Analyse von mechanischen und elektrischen Systemen
+P22D	Technische Überwachungsleistungen an Kraftfahrzeugen
+P22E	Sonstiges - Testen und Analyse
+P23	Untersuchungsleistungen bezüglich Zusammensetzung und Reinheit
+P24	Untersuchungsleistungen bezüglich physikalischer Eigenschaften
+P25	Testen und Analyse von mechanischen und elektrischen Systemen
+P26	Technische Überwachungsleistungen an Kraftfahrzeugen
+P27	Sonstiges - Testen und Analyse
+P63	Technische, physikalische und chemische Untersuchungsleistungen
+P63A	Untersuchungsleistungen bezüglich Zusammensetzung und Reinheit
+P63B	Untersuchungsleistungen bezüglich physikalischer Eigenschaften
+P63C	Untersuchungsleistungen bezüglich integrierter mechanischer und elektrischer Systeme
+P63D	Technische Überwachungsleistungen an Straßenfahrzeugen
+P63E	Zertifizierung
+P63F	Sonstige technische Untersuchungsleistungen
+P64	Architektur- und Ingenieurbüroleistungen
+P64A	Architekturbüroleistungen
+P64B	Ingenieurbüroleistungen und damit verbundene technische Beratungsleistungen
+P64C	Sonstige Architektur- und Ingenieurbüroleistungen
+P65	Dienstleistungen der Werbemittelverbreitung und Werbemittlung
+P65A	Leistungen des Verkaufs von Werbefläche oder –zeit in gedruckten Medien
+P65B	Leistungen des Verkaufs von Werbefläche oder –zeit im Internet
+P65C	Leistungen des Verkaufs von Werbefläche oder –zeit in Hörfunk und Fernsehen
+P65D	Leistungen des Verkaufs von Werbefläche oder –zeit
+P66	Dienstleistungen von Werbeagenturen
+P66A	Dienstleistungen der Komplettwerbung
+P66B	Dienstleistungen betreffend Direktmarketing und Direct Mailing
+P66C	Entwicklungsleistungen im Bereich Werbegestaltung und -konzeption
+P66D	Sonstige Werbedienstleistungen
+P32	Stellenvermittlungsleistungen
+P32A	Vermittlungsleistungen bezüglich Führungskräften
+P32B	Vermittlungsleistungen bezüglich Bürohilfskräfte und sonstiges Personal
+P33	Dienstleistungen der Überlassung von Arbeitskräften
+P33I	Dienstleistungen der Überlassung von Arbeitskräften - Computer und Telekommunikation
+P33J	Dienstleistungen der Überlassung von Arbeitskräften - Büropersonal - andere
+P33A	Dienstleistungen der Überlassung von Arbeitskräften - Büropersonal
+P33B	Dienstleistungen der Überlassung von Arbeitskräften - Handel
+P33C	Dienstleistungen der Überlassung von Arbeitskräften - Industrie/gew.Wirtschaft
+P33D	Dienstleistungen der Überlassung von Arbeitskräften - Hotels, Restaurant, Gaststätten
+P33E	Dienstleistungen der Überlassung von Arbeitskräften - Medizin
+P33F	Dienstleistungen der Überlassung von Arbeitskräften - Unterricht
+P33G	Dienstleistungen der Überlassung von Arbeitskräften - Transport/Logistik
+P33H	Dienstleistungen der Überlassung von Arbeitskräften - andere

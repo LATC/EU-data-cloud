@@ -1,0 +1,65 @@
+P1	Conseil en matériel informatique
+P2	Fourniture de logiciels
+P2A	Progiciels
+P2B	Logiciel sur mesure
+P2C	Conseil en informatique
+P3	Autres services informatiques
+P3A	Gestion d'installations informatiques et traitement des données
+P3B	Services pour les bases de données
+P3C	Services pour la maintenance des systèmes
+P3D	Services pour le matériel informatique, réparation et maintenance des appareils et équipements informatiques
+P4	Services de réseaux et de télécommunication
+P5	Formation liée aux technologies de l'information
+P6	Revente
+P6A	Software (pas de développement propre)
+P6B	Hardware et équipement informatique
+P6C	Revente: Autres
+P7	Services d'architecture
+P7A	Services consultatifs en architecture et en préconception
+P7B	Services de conception architecturale pour bâtiments et autres structures
+P7C	Autres services d'architecture
+P8	Services de plans d'ingénierie incluant un service intégré d'ingénierie pour projets clés en main
+P8A	Services de plans d'ingénierie pour la construction de fondations et structures de bâtiments
+P8B	Services de plans d'ingénierie pour installations mécaniques et électriques pour bâtiments
+P8C	Services de plans d'ingénierie pour la construction d'ouvrages d'ingénierie civile
+P8D	Services de plans d'ingénierie pour processus industriels et la production
+P8E	Services de plans d'ingénierie n.d.a.
+P9	Services d'urbanisme
+P10	Services de gestion de projet
+P11	Autres services d'architecture et d'ingénierie
+P12	Construction
+P13	Vente ou location d'espace ou de temps publicitaire
+P14	Services de planification, de création et de placement publicitaires
+P14A	Service publicitaire complet
+P14B	Prospection directe
+P14C	Dessin publicitaire
+P15	Autres services liés à la publicité
+P15A	Services photographiques liés à la publicité
+P15B	Production de films à caractère promotionnel
+P15C	Conseil en relations publiques
+P15D	Services spécialisés dans la publicité et la vente directes
+P15E	Autres services liés à la publicité non classés ailleurs
+P16	Services d'études de marché
+P16A	Études qualitatives
+P16B	Études ad hoc quantitatives
+P16C	Études quantitatives continues/régulières
+P17	Services de sondage d'opinion
+P18	Services de comptabilité, de tenue des livres comptables et d'audit; services de conseils fiscaux
+P18A	Services d'audit
+P18B	Services de comptabilité et de tenue des livres comptables, sans déclarations fiscales
+P18C	Services de consultance, y compris déclarations fiscales
+P19	Services de consultance d'affaires et de management
+P19A	Services de consultance dans l'organisation de l'entreprise
+P19B	Services de consultance y compris fusions et acquisitions
+P19C	Services de consultance dans la management financier
+P19D	Services de consultance dans la gestion des ressources humaines
+P19E	Autres services de consultance d'affaires et de management
+P20	Services de formation
+P20A	Formation liée aux technologies de l'information
+P20B	Autres services de formation
+P21	Autres services supplémentaires
+P98	Autres
+P98A	Autres 1
+P98B	Autres 2
+P98C	Autres 3
+TOTAL	Total

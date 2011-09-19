@@ -1,0 +1,23 @@
+TOTAL	Total
+CONV	Conventional dwelling
+OCC_DWEL	Occupied dwellings
+OWNER	Owner
+OWNER_OCC	Owner occupied
+OWNER_LOAN	Owner occupied, with mortgage or loan
+OWNER_NLOAN	Owner occupied, no outstanding mortgage or housing loan
+RENT	Tenant
+RENT_MKT	Tenant - market price
+RENT_FRED	Tenant - reduced price or free
+RENT_FREE	Rent free
+RENT_OTH	Other form of tenure
+RES_UNK	Reserving unknown
+OTHER	Other
+SECOND	For seasonal or secondary use
+NCONV	Housing unit other than conventional dwelling
+CONV_UNK	Unknown Conventional dwelling
+TOT_POPHH	Total population in private households
+VACANT	Vacant
+COLL	Collective living quarters
+UNK	Unknown
+UNK_OCC	Type of occupancy unknown
+TOT_ROOM	Total number of rooms

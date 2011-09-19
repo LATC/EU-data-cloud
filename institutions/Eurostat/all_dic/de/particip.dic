@@ -1,0 +1,11 @@
+TOTAL	Insgesamt
+0	Prozentualer Anteil der Unternehmen, in denen die Beschäftigten nicht an Weiterbildungskursen teilgenommen haben
+1_10	Prozentualer Anteil der Unternehmen, in denen 1-10 % der Beschäftigten an Weiterbildungskursen teilgenommen haben
+11_20	Prozentualer Anteil der Unternehmen, in denen 11-20 % der Beschäftigten an Weiterbildungskursen teilgenommen haben
+21_40	Prozentualer Anteil der Unternehmen, in denen 21-40 % der Beschäftigten an Weiterbildungskursen teilgenommen haben
+GT_40	Prozentualer Anteil der Unternehmen, in denen mehr als 40 % der Beschäftigten an Weiterbildungskursen teilgenommen haben
+NRESP	Keine Antwort
+PARNWNT	Die Teilnehmer, die bereits teilgenommen haben und die nicht mehr teilnehmen wollen
+PARWNT	Die Teilnehmer, die mehr teilnehmen wollen
+NPARNWNT	Die Teilnehmer, die nicht teilnehmen wollen
+NPARWNT	Die Teilnehmer, die mehr teilnehmen wollen

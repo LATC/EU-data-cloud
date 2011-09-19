@@ -1,0 +1,638 @@
+<rdf:RDF
+    xmlns:dsd="http://eurostat.linked-statistics.org/dsd/"
+    xmlns:skos="http://www.w3.org/2004/02/skos#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:data="http://eurostat.linked-statistics.org/data/"
+    xmlns:concept="http://eurostat.linked-statistics.org/concept#"
+    xmlns:sdmx-concept="http://purl.org/linked-data/sdmx/2009/concept#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:title="http://eurostat.linked-statistics.org/title#"
+    xmlns:sdmx="http://purl.org/linked-data/sdmx#"
+    xmlns:dss="http://eurostat.linked-statistics.org/dss#"
+    xmlns:cl="http://eurostat.linked-statistics.org/dic/"
+    xmlns:sdmx-code="http://purl.org/linked-data/sdmx/2009/code#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:property="http://eurostat.linked-statistics.org/property#"
+    xmlns:qb="http://purl.org/linked-data/cube#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#ES">
+    <skos:notation>ES</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Spain</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Espagne</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Spanien</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <qb:dimension rdf:resource="http://eurostat.linked-statistics.org/property#FREQ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#BE">
+    <skos:notation>BE</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Belgium</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Belgique</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Belgien</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dsd/apro_mt_lsequi">
+    <qb:component rdf:nodeID="A0"/>
+    <skos:notation>apro_mt_lsequi_DSD</skos:notation>
+    <qb:component rdf:nodeID="A1"/>
+    <qb:component rdf:nodeID="A2"/>
+    <qb:component rdf:nodeID="A3"/>
+    <qb:component rdf:nodeID="A4"/>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataStructureDefinition"/>
+    <qb:component rdf:nodeID="A5"/>
+    <qb:component rdf:nodeID="A6"/>
+    <qb:component rdf:nodeID="A7"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <qb:dimension rdf:resource="http://eurostat.linked-statistics.org/property#livstock"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#IE">
+    <skos:notation>IE</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Ireland</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Irlande</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Irland</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/OBS_STATUS#z">
+    <skos:notation>z</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/OBS_STATUS"/>
+    <skos:prefLabel xml:lang="en">Not applicable or Real zero or Zero by default</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Non applicable ou Zéro réel ou Zéro par défaut</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Nicht zutreffend oder Reale Null oder Automatisch Null</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/concept#unit">
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/concept#"/>
+    <skos:prefLabel xml:lang="en">Unit</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Unité</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Einheit</skos:prefLabel>
+    <skos:notation>unit</skos:notation>
+    <rdf:type rdf:resource="http://purl.org/linked-data/sdmx#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#EU9">
+    <skos:notation>EU9</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">European Community (9 countries)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Communauté européenne (9 pays)</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Europäische Gemeinschaft (9 Länder)</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#SK">
+    <skos:notation>SK</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Slovakia</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Slovaquie</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Slowakei</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/OBS_STATUS#s">
+    <skos:notation>s</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/OBS_STATUS"/>
+    <skos:prefLabel xml:lang="en">Eurostat estimate</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Estimation Eurostat</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Schätzung Eurostat</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#RO">
+    <skos:notation>RO</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Romania</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Roumanie</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Rumänien</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/property#TIME_PERIOD">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DimensionProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#LV">
+    <skos:notation>LV</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Latvia</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Lettonie</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Lettland</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/OBS_STATUS#c">
+    <skos:notation>c</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/OBS_STATUS"/>
+    <skos:prefLabel xml:lang="en">Confidential</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Confidentiel</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Vertraulich</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#CZ">
+    <skos:notation>CZ</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Czech Republic</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">République tchèque</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Tschechische Republik</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <qb:measure rdf:resource="http://eurostat.linked-statistics.org/property#OBS_VALUE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/OBS_STATUS#p">
+    <skos:notation>p</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/OBS_STATUS"/>
+    <skos:prefLabel xml:lang="en">Provisional value</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Valeur provisoire</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Vorläufiger Wert</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/property#geo">
+    <qb:concept rdf:resource="http://eurostat.linked-statistics.org/concept#geo"/>
+    <rdfs:range rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <qb:codeList rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <rdfs:domain rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#CodedProperty"/>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DimensionProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/OBS_STATUS#u">
+    <skos:notation>u</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/OBS_STATUS"/>
+    <skos:prefLabel xml:lang="en">Unreliable or uncertain data</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Donnée peu fiable ou incertaine</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Unzuverlässige oder ungewiße Daten</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/concept#geo">
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/concept#"/>
+    <skos:prefLabel xml:lang="en">Geopolitical entity (declaring)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Entité géopolitique (déclarante)</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Geopolitische Meldeeinheit</skos:prefLabel>
+    <skos:notation>geo</skos:notation>
+    <rdf:type rdf:resource="http://purl.org/linked-data/sdmx#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/property#OBS_STATUS">
+    <qb:concept rdf:resource="http://eurostat.linked-statistics.org/concept#OBS_STATUS"/>
+    <rdfs:range rdf:resource="http://eurostat.linked-statistics.org/dic/OBS_STATUS"/>
+    <qb:codeList rdf:resource="http://eurostat.linked-statistics.org/dic/OBS_STATUS"/>
+    <rdfs:domain rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#CodedProperty"/>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#AttributeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <qb:dimension rdf:resource="http://eurostat.linked-statistics.org/property#unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#PT">
+    <skos:notation>PT</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Portugal</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Portugal</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Portugal</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/LIVSTOCK#PE2000">
+    <skos:notation>PE2000</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/LIVSTOCK"/>
+    <skos:prefLabel xml:lang="en">Donkeys, mules, hinnies</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Anes, mulets, bardots</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Esel, Maultiere, Maulesel</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#MK">
+    <skos:notation>MK</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Former Yugoslav Republic of Macedonia, the</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Ancienne République yougoslave de Macédoine</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Die ehemalige jugoslawische Republik Mazedonien</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO">
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#AT"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#ConceptScheme"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#DEW"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#IE"/>
+    <rdfs:label xml:lang="en">Geopolitical entity (declaring)</rdfs:label>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#EE"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#SK"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#CY"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#EU12"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#PL"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#DK"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#SE"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#AL"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#HU"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#EU10"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#LV"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#HR"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#EU15"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#LT"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#NL"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#SI"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#FI"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#PT"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#BE"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#BG"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#RO"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#GR"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#DE"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#BA"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#EU9"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#LU"/>
+    <skos:notation>CL_GEO</skos:notation>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#UK"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#ES"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#FR"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#MK"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#CZ"/>
+    <rdfs:label xml:lang="de">Geopolitische Meldeeinheit</rdfs:label>
+    <rdfs:label xml:lang="fr">Entité géopolitique (déclarante)</rdfs:label>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/GEO#IT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#DK">
+    <skos:notation>DK</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Denmark</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Danemark</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Dänemark</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#IT">
+    <skos:notation>IT</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Italy</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Italie</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Italien</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#LU">
+    <skos:notation>LU</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Luxembourg</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Luxembourg</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Luxemburg</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#BA">
+    <skos:notation>BA</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Bosnia and Herzegovina</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Bosnie-et-Herzégovine</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Bosnien und Herzegowina</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/concept#TIME_PERIOD">
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/concept#"/>
+    <skos:prefLabel xml:lang="en">Time period or range</skos:prefLabel>
+    <skos:notation>TIME_PERIOD</skos:notation>
+    <rdf:type rdf:resource="http://purl.org/linked-data/sdmx#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A6">
+    <qb:attribute rdf:resource="http://eurostat.linked-statistics.org/property#OBS_STATUS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/concept#FREQ">
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/concept#"/>
+    <skos:prefLabel xml:lang="en">Frequency</skos:prefLabel>
+    <skos:notation>FREQ</skos:notation>
+    <rdf:type rdf:resource="http://purl.org/linked-data/sdmx#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/OBS_STATUS#b">
+    <skos:notation>b</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/OBS_STATUS"/>
+    <skos:prefLabel xml:lang="en">Break in series</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Rupture de série</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Reihenunterbrechung</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#EU12">
+    <skos:notation>EU12</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">European Community (12 countries, including former GDR)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Communauté européenne (12 pays, incluant l'ancienne RDA)</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Europäische Gemeinschaft (12 Länder, einschließlich der ehemaligen DDR)</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <qb:attribute rdf:resource="http://eurostat.linked-statistics.org/property#TIME_FORMAT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#CY">
+    <skos:notation>CY</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Cyprus</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Chypre</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Zypern</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/property#unit">
+    <qb:concept rdf:resource="http://eurostat.linked-statistics.org/concept#unit"/>
+    <rdfs:range rdf:resource="http://eurostat.linked-statistics.org/dic/UNIT"/>
+    <qb:codeList rdf:resource="http://eurostat.linked-statistics.org/dic/UNIT"/>
+    <rdfs:domain rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#CodedProperty"/>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DimensionProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#BG">
+    <skos:notation>BG</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Bulgaria</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Bulgarie</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Bulgarien</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#UK">
+    <skos:notation>UK</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">United Kingdom</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Royaume-Uni</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Vereinigtes Königreich</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/UNIT#1000HD">
+    <skos:notation>1000HD</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/UNIT"/>
+    <skos:prefLabel xml:lang="en">1000 heads (animals)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">1000 têtes (animaux)</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">1000 Köpfe (Tiere)</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A7">
+    <qb:dimension rdf:resource="http://eurostat.linked-statistics.org/property#geo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#DEW">
+    <skos:notation>DEW</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Federal Republic of Germany (except former GDR)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">République fédérale d'Allemagne (excepté l'ancienne RDA)</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Bundesrepublik Deutschland (ohne die ehemalige DDR)</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#EU15">
+    <skos:notation>EU15</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">European Union (15 countries)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Union européenne (15 pays)</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Europäische Union (15 Länder)</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#NL">
+    <skos:notation>NL</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Netherlands</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Pays-Bas</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Niederlande</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/LIVSTOCK#PE0000">
+    <skos:notation>PE0000</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/LIVSTOCK"/>
+    <skos:prefLabel xml:lang="en">Total of equidae</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Total du cheptel équidés</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Einhufer insgesamt</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#AL">
+    <skos:notation>AL</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Albania</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Albanie</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Albanien</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#LT">
+    <skos:notation>LT</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Lithuania</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Lituanie</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Litauen</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#GR">
+    <skos:notation>GR</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Greece</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Grèce</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Griechenland</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#AT">
+    <skos:notation>AT</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Austria</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Autriche</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Österreich</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/OBS_STATUS">
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/OBS_STATUS#c"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#ConceptScheme"/>
+    <skos:notation>CL_OBS_STATUS</skos:notation>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/OBS_STATUS#n"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/OBS_STATUS#s"/>
+    <rdfs:label xml:lang="en">Observation status code list</rdfs:label>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/OBS_STATUS#i"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/OBS_STATUS#z"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/OBS_STATUS#p"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/OBS_STATUS#r"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/OBS_STATUS#e"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/OBS_STATUS#b"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/OBS_STATUS#u"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/OBS_STATUS#f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/property#TIME_FORMAT">
+    <qb:concept rdf:resource="http://purl.org/linked-data/sdmx/2009/concept#timeFormat"/>
+    <rdfs:range rdf:resource="http://purl.org/linked-data/sdmx/2009/code#timeFormat"/>
+    <qb:codeList rdf:resource="http://purl.org/linked-data/sdmx/2009/code#timeFormat"/>
+    <rdfs:domain rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#CodedProperty"/>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#AttributeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#EE">
+    <skos:notation>EE</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Estonia</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Estonie</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Estland</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/property#livstock">
+    <qb:concept rdf:resource="http://eurostat.linked-statistics.org/concept#livstock"/>
+    <rdfs:range rdf:resource="http://eurostat.linked-statistics.org/dic/LIVSTOCK"/>
+    <qb:codeList rdf:resource="http://eurostat.linked-statistics.org/dic/LIVSTOCK"/>
+    <rdfs:domain rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#CodedProperty"/>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DimensionProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/OBS_STATUS#i">
+    <skos:notation>i</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/OBS_STATUS"/>
+    <skos:prefLabel xml:lang="en">See explanatory text</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Voir texte explicatif</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Siehe Erklärungstext</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/LIVSTOCK">
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/LIVSTOCK#PE2000"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/LIVSTOCK#PE1000"/>
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/LIVSTOCK#PE0000"/>
+    <rdfs:label xml:lang="en">Animal population by category</rdfs:label>
+    <rdfs:label xml:lang="fr">Population animale par catégorie</rdfs:label>
+    <rdfs:label xml:lang="de">Viehbestände nach Kategorie</rdfs:label>
+    <skos:notation>CL_LIVSTOCK</skos:notation>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#PL">
+    <skos:notation>PL</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Poland</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Pologne</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Polen</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/property#FREQ">
+    <qb:concept rdf:resource="http://purl.org/linked-data/sdmx/2009/concept#freq"/>
+    <rdfs:range rdf:resource="http://purl.org/linked-data/sdmx/2009/code#freq"/>
+    <qb:codeList rdf:resource="http://purl.org/linked-data/sdmx/2009/code#freq"/>
+    <rdfs:domain rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#CodedProperty"/>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DimensionProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/OBS_STATUS#e">
+    <skos:notation>e</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/OBS_STATUS"/>
+    <skos:prefLabel xml:lang="en">Estimated value</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Valeur estimée</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Geschätzter Wert</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/concept#OBS_STATUS">
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/concept#"/>
+    <skos:prefLabel xml:lang="en">Observation Status</skos:prefLabel>
+    <skos:notation>OBS_STATUS</skos:notation>
+    <rdf:type rdf:resource="http://purl.org/linked-data/sdmx#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#EU10">
+    <skos:notation>EU10</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">European Community (10 countries)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Communauté européenne (10 pays)</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Europäische Gemeinschaft (10 Länder)</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#HU">
+    <skos:notation>HU</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Hungary</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Hongrie</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Ungarn</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/concept#OBS_VALUE">
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/concept#"/>
+    <skos:prefLabel xml:lang="en">Observation Value</skos:prefLabel>
+    <skos:notation>OBS_VALUE</skos:notation>
+    <rdf:type rdf:resource="http://purl.org/linked-data/sdmx#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <qb:dimension rdf:resource="http://eurostat.linked-statistics.org/property#TIME_PERIOD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/property#OBS_VALUE">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    <rdfs:domain rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#CodedProperty"/>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#MeasureProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/OBS_STATUS#n">
+    <skos:notation>n</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/OBS_STATUS"/>
+    <skos:prefLabel xml:lang="en">Not significant</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Non significatif</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Unbedeutend</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#FI">
+    <skos:notation>FI</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Finland</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Finlande</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Finnland</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/OBS_STATUS#r">
+    <skos:notation>r</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/OBS_STATUS"/>
+    <skos:prefLabel xml:lang="en">Revised value</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Valeur révisée</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Revidierter Wert</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/concept#livstock">
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/concept#"/>
+    <skos:prefLabel xml:lang="en">Animal population by category</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Population animale par catégorie</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Viehbestände nach Kategorie</skos:prefLabel>
+    <skos:notation>livstock</skos:notation>
+    <rdf:type rdf:resource="http://purl.org/linked-data/sdmx#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#FR">
+    <skos:notation>FR</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">France</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">France</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Frankreich</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#SI">
+    <skos:notation>SI</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Slovenia</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Slovénie</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Slowenien</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/UNIT">
+    <skos:hasTopConcept rdf:resource="http://eurostat.linked-statistics.org/dic/UNIT#1000HD"/>
+    <rdfs:label xml:lang="en">Unit</rdfs:label>
+    <rdfs:label xml:lang="fr">Unité</rdfs:label>
+    <rdfs:label xml:lang="de">Einheit</rdfs:label>
+    <skos:notation>CL_UNIT</skos:notation>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#HR">
+    <skos:notation>HR</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Croatia</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Croatie</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Kroatien</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#DE">
+    <skos:notation>DE</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Germany (including  former GDR from 1991)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Allemagne (incluant l'ancienne RDA à partir de 1991)</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Deutschland (einschließlich der ehemaligen DDR seit 1991)</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/GEO#SE">
+    <skos:notation>SE</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/GEO"/>
+    <skos:prefLabel xml:lang="en">Sweden</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Suède</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Schweden</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/OBS_STATUS#f">
+    <skos:notation>f</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/OBS_STATUS"/>
+    <skos:prefLabel xml:lang="en">Forecast</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Prévision</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Prognose</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurostat.linked-statistics.org/dic/LIVSTOCK#PE1000">
+    <skos:notation>PE1000</skos:notation>
+    <skos:inScheme rdf:resource="http://eurostat.linked-statistics.org/dic/LIVSTOCK"/>
+    <skos:prefLabel xml:lang="en">Horses</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Chevaux</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Pferde</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos#Concept"/>
+  </rdf:Description>
+</rdf:RDF>

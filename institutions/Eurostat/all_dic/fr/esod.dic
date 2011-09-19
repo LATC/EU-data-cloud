@@ -1,0 +1,122 @@
+TOTAL	Total
+OD10403-20109	Maladies provoquées par certains agents chimiques
+OD100	Maladies provoquées par des agents chimiques
+OD10000	Maladies provoquées par l'acrylonitrile
+OD10100	Maladies provoquées par l'arsenic ou ses composés
+OD10200	Maladies provoquées par le béryllium (glucinium) ou ses composés
+OD10301	Maladies provoquées par l'oxyde de carbone
+OD10302	Maladies provoquées par l'oxychlorure de carbone
+OD10401	Maladies provoquées par l'acide cyanhydrique
+OD10402	Maladies provoquées par les cyanures et composés
+OD10403	Maladies provoquées par les isocyanates
+OD10500	Maladies provoquées par le cadmium ou ses composés
+OD10600	Maladies provoquées par le chrome ou ses composés
+OD10700	Maladies provoquées par le mercure ou ses composés
+OD10800	Maladies provoquées par la manganèse ou ses composés
+OD10901	Maladies provoquées par l'acide nitrique
+OD10902	Maladies provoquées par les oxydes d'azote
+OD10903	Maladies provoquées par l'ammoniaque
+OD11000	Maladies provoquées par le nickel ou ses composés
+OD11100	Maladies provoquées par le phosphore ou ses composés
+OD11200	Maladies provoquées par le plomb ou ses composés
+OD11301	Maladies provoquées par les oxydes de soufre
+OD11302	Maladies provoquées par l'acide sulfurique
+OD11303	Maladies provoquées par le sulfure de carbone
+OD11400	Maladies provoquées par le vanadium ou ses composés
+OD11501	Maladies provoquées par le chlore
+OD11502	Maladies provoquées par le brome
+OD11504	Maladies provoquées par l'iode
+OD11505	Maladies provoquées par le fluor ou ses composés
+OD11600	Maladies provoquées par les hydrocarbures aliphatiques ou alicycliques constituants de l'éther de pétrole et de l'essence
+OD11700	Maladies provoquées par les dérivés halogénés des hydrocarbures aliphatiques ou alicycliques
+OD11800	Maladies provoquées par l'alcool butylique, méthylique et isopropylique
+OD11900	Maladies provoquées par l'éthylèneglycol, diéthylèneglycol, 1-4 Butanédiol ainsi que les dérivés nitrés des glycols et du glycérol
+OD12000	Maladies provoquées par le méthyléther, éthyléther, isopropyléther, vinyléther, dichloroisopropyléther, guaiacol méthyléther et éthyléther de l'éthylène-glycol
+OD12100	Maladies provoquées par l'acétone, chloracétone, bromoacétone, hexafluoroacétone, méthyléthylcétone, méthyl n-butylcétone, méthylisobutylcétone, diacétone alcool, mésityloxyde, 2 méthylcyclohexanone
+OD12200	Maladies provoquées par les esters organophosphoriques
+OD12300	Maladies provoquées par les acides organiques
+OD12400	Maladies provoquées par le formaldéhyde
+OD12500	Maladies provoquées par les nitrodérivés aliphatiques
+OD12601	Maladies provoquées par le benzène ou ses homologues (les homologues du benzène sont définis par la formule: CnH2n-6)
+OD12602	Maladies provoquées par le naphtalène ou ses homologues (l'homologue du naphtalène est défini par la formule: CnH2n-12)
+OD12603	Maladies provoquées par le vinylbenzène et divinylbenzène
+OD12700	Maladies provoquées par les dérivés halogénés des hydrocarbures aromatiques
+OD12801	Maladies provoquées par les phénols ou homologues ou leurs dérivés halogénés
+OD12802	Maladies provoquées par les naphtols ou homologues ou leurs dérivés halogénés
+OD12803	Maladies provoquées par les dérivés halogénés des alkylaryloxydes
+OD12804	Maladies provoquées par les dérivés halogénés des alkylarylsulfures
+OD12805	Maladies provoquées par les benzoquinones
+OD12901	Maladies provoquées par les amines aromatiques ou hydrazines aromatiques ou leurs dérivés halogénés, phénoliques, nitrosés, nitrés ou sulfonés
+OD12902	Maladies provoquées par les amines aliphatiques et leurs dérivés halogénés
+OD13001	Maladies provoquées par les nitrodérivés des hydrocarbures aromatiques
+OD13002	Maladies provoquées par les nitrodérivés des phénols ou de leurs homologues
+OD13100	Maladies provoquées par l'antimoine et dérivés
+OD13200	Maladies provoquées par les esters de l'acide nitrique
+OD13300	Maladies provoquées par l'acide sulfhydrique
+OD13500	Maladies provoquées par les encéphalopathies dues à des solvants organiques non repris sous d'autres positions
+OD13600	Maladies provoquées par les polinevropathies dues à des solvants organiques non repris sous d'autres positions
+OD200	Maladies de la peau causées par des substances et agents non compris sous d'autres positions
+OD20100	Maladies de la peau et cancers cutanés
+OD20101	Maladies de la peau et cancers cutanés dus à la suie
+OD20102	Maladies de la peau et cancers cutanés dus au bitume
+OD20103	Maladies de la peau et cancers cutanés dus au goudron
+OD20104	Maladies de la peau et cancers cutanés dus au brai
+OD20105	Maladies de la peau et cancers cutanés dus à l'anthracène ou ses composés
+OD20106	Maladies de la peau et cancers cutanés dus aux huiles et aux graisses minérales
+OD20107	Maladies de la peau et cancers cutanés dus à la paraffine brute
+OD20108	Maladies de la peau et cancers cutanés dus au carbazol ou ses composés
+OD20109	Maladies de la peau et cancers cutanés dus aux sous-produits de la distillation de la houille
+OD20200	Affections cutanées provoquées dans le milieu professionnel par des substances allergisantes ou irritatives scientifiquement reconnues non considérées sous d'autres positions
+OD300	Maladies provoquées par l'inhalation de substances et agents non compris sous d'autres positions
+OD30100	Maladies de l'appareil respiratoire et cancers
+OD30111-30404	Maladies de la respiration
+OD30111	Silicose
+OD30112	Silicose associée à la tuberculose pulmonaire
+OD30121	Asbestose
+OD30122	Mésothéliome consécutif à l'inhalation des poussières d'amiante
+OD30131	Pneumoconioses dues aux poussières de silicates
+OD30200	Complication de l'asbestose par le cancer bronchique
+OD30300	Affections broncho-pulmonaires dues aux poussières de métaux frittés
+OD30401	Alvéolites allergiques extrinsèques
+OD30402	Affection pulmonaire provoquée par l'inhalation de poussières et de fibres de coton, de lin, de chanvre, de jute, de sisal et de bagasse
+OD30403	Affections respiratoires de caractère allergique provoqués par l'inhalation de substances allergisantes reconnues chaque fois comme telles et inhérentes au type de travail
+OD30404	Affections respiratoires provoquées par l'inhalation de poussières de cobalt, d'étain, de baryum et de graphite
+OD30405	Sidérose
+OD30406	Asthmes de caractère allergique provoqués par l'inhalation de substances allergisantes reconnues chaque fois comme telles et inhérentes au type de travail
+OD30407	Rinithes de caractère allergique provoqués par l'inhalation de substances allergisantes reconnues chaque fois comme telles et inhérentes au type de travail
+OD30501	Affections cancéreuses des voies respiratoires supérieures provoquées par les poussières de bois
+OD30600	Affections fibrotiques de la plèvre, avec restriction respiratoire, provoquées par l'amiante
+OD30700	Bronchite obstructive chronique ou emphysème des mineurs de houille
+OD30800	Cancer de poumon consécutif à l'inhalation des poussières d'amiante
+OD30900	Affections broncho-pulmonaires dues aux poussières ou fumées d'aluminium ou de ses composés
+OD31000	Affections broncho-pulmonaires causés par les poussières de scories Thomas
+OD400	Maladies infectieuses et parasitaires
+OD40100-40500	Maladies provoquées par des infections
+OD40100	Maladies infectieuses ou parasitaires transmises à l'homme par des animaux ou débris d'animaux
+OD40200	Tétanos
+OD40300	Brucellose
+OD40400	Hépatite virale
+OD40500	Tuberculose
+OD40600	Amibiase
+OD40700	Autres maladies infectieuses provoquées par le travail du personnel s'occupant de prévention, soins de santé, assistance à domicile et autres activités assimilables pour lesquelles un risque d'infection est prouvé
+OD500	Maladies provoquées par les agents physiques suivants:
+OD50201	Cataracte provoquée par le rayonnement thermique
+OD50202	Affections conjonctivales consécutives aux expositions aux rayonnements ultraviolets
+OD50300	Hypoacousie ou surdité provoquée par le bruit lésionnel
+OD50400	Maladie provoquée par la compression ou décompression atmosphériques
+OD50501	Maladies ostéoarticulaires des mains et des poignets provoquées par les vibrations mécaniques
+OD50502	Maladies angio-neurotiques provoquées par les vibrations mécaniques
+OD50610	Maladies des bourses péri-articulaires dues à la pression
+OD50611	Bursite pré et sousrotulienne
+OD50612	Bursite olécranienne
+OD50613	Bursite de l'épaule
+OD50621	Maladies par surmenage des gaines tendineuses
+OD50622	Maladies par surmenage du tissu péri-tendineux
+OD50623	Maladies par surmenage des insertions musculaires et tendineuses
+OD50630	Lésions méniscales consécutives à des travaux prolongés effectués en position agenouillée ou accroupie
+OD50640	Paralysies des nerfs dues à la pression
+OD50645	Syndrome du canal carpien
+OD50700	Nystagmus des mineurs
+OD50800	Maladies provoquées par les radiations ionisantes
+OTH	Autres maladies
+UNK	Maladie inconnue

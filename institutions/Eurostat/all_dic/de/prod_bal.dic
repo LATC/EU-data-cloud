@@ -1,0 +1,170 @@
+B1100	Getreide - Insgesamt
+B1110	Weizen - Insgesamt
+B1111	Weichweizen
+B1112	Hartweizen (Triticum durum)
+B1120	Getreide außer Weizen
+B1121	Roggen und Wintermenggetreide
+B1122	Gerste
+B1123	Hafer und Sommermenggetreide
+B1124	Körnermais
+B1125	Triticale
+B1129	Getreide a.n.g. (einschließlich Sorghum)
+B1130	Getreide - Insgesamt, Hof
+B1140	Weizen - Insgesamt, Hof
+B1141	Weichweizen, Hof
+B1142	Hartweizen (Triticum durum), Hof
+B1150	Getreide außer Weizen, Hof
+B1151	Roggen und Wintermenggetreide, Hof
+B1152	Gerste, Hof
+B1153	Hafer und Sommermenggetreide, Hof
+B1154	Körnermais, Hof
+B1155	Triticale, Hof
+B1159	Getreide a.n.g. (einschließlich Sorghum), Hof
+B1160	Getreide - Insgesamt, Markt
+B1170	Weizen - Insgesamt, Markt
+B1171	Weichweizen, Markt
+B1172	Hartweizen (Triticum durum), Markt
+B1180	Getreide außer Weizen, Markt
+B1181	Roggen und Wintermenggetreide, Markt
+B1182	Gerste, Markt
+B1183	Hafer und Sommermenggetreide, Markt
+B1184	Körnermais, Markt
+B1185	Triticale, Markt
+B1189	Getreide a.n.g. (einschließlich Sorghum), Markt
+B1201	Paddy-Reis
+B1202	Paddy, Langreis
+B1203	Paddy, Rundreis
+B1204	Paddy, Mittelreis
+B1215	Geschälter Reis
+B1216	Geschälter Reis, lang
+B1217	Geschälter Reis, rund
+B1218	Geschälter Reis, mittel
+B1220	Geschliffener Reis
+B1221	Geschliffener Reis, lang
+B1222	Geschliffener Reis, rund
+B1223	Geschliffener Reis, mittel
+B1230	Bruchreis
+B1290	Reis - Insgesamt (Äquivalent : geschliffener Reis)
+B1291	Reis - Insgesamt ohne Bruchreis (Äquivalent : geschliffener Reis)
+B1300	Hülsenfrüchte
+B1310	Erbsen (einschließlich Kichererbsen)
+B1330	Bohnen (Vicia - A.)
+B1340	Lupinen
+B1410	Kartoffeln
+B1411	Frühkartoffeln
+B1412	Andere Kartoffeln
+B1490	Kartoffelstärke
+B1511	Zuckerrüben
+B1520	Zucker (Äquivalent : weißer Zucker)
+B1530	Melasse
+B4900	Honig
+B5100	Ölsaaten und -früchte - Insgesamt (Wirtschaftsjahr) (bis 2000/2001 einschl. Oliven)
+B5111	Ölsaaten und -früchte - Raps und Rübsen (Wirtschaftsjahr)
+B5112	Ölsaaten und -früchte - Sonnenblumen (Wirtschaftsjahr)
+B5113	Ölsaaten und -früchte - Soja (Wirtschaftsjahr)
+B5115	Ölsaaten und -früchte - Flachs (Wirtschaftsjahr)
+B5116	Ölsaaten und -früchte - Baumwolle (Wirtschaftsjahr)
+B5130	Ölsaaten und -früchte - Oliven (Wirtschaftsjahr)
+B5190	Ölssaten und -früchte - Andere
+B5200	Pflanzliche Fette und Öle - Insgesamt (Wirtschaftsjahr) (bis 2000/2001 einschl. Oliven)
+B520C	Pflanzliche Fette und Öle - Insgesamt (Kalenderjahr)
+B5211	Pflanzliche Fette und Öle - Raps und Rübsen (Wirtschaftsjahr)
+B5212	Pflanzliche Fette und Öle - Sonnenblumen (Wirtschaftsjahr)
+B5213	Pflanzliche Fette und Öle - Soja (Wirtschaftsjahr)
+B5215	Pflanzliche Fette und Öle - Lein
+B5217	Pflanzliche Fette und Öle - Maiskeime
+B5230	Pflanzliche Fette und Öle - Oliven (Wirtschaftsjahr)
+B5290	Pflanzliche Fette und Öle - Andere
+B5300	Fette und Öle von Landtieren - Insgesamt (Kalenderjahr)
+B5400	Fette und Öle von Seetieren - Insgesamt (Kalenderjahr)
+B5500	Speisefette und Öle - Insgesamt (ausgedrückt in Rohfett) (Kalenderjahr)
+B5531	Margarine (ausgedrückt in Rohfett) (Kalenderjahr)
+B5532	Produktgewicht (Margarine)
+B5541	Speisefett (ausgedrückt in Rohfett) (Kalenderjahr)
+B5542	Produktgewicht (Andere geniessbare Fette)
+B5600	Ölkuchen - Insgesamt (Wirtschaftsjahr)
+B5611	Ölkuchen- Raps und Rübsen (Wirtschaftsjahr)
+B5612	Ölkuchen - Sonnenblumen (Wirtschaftsjahr)
+B5613	Ölkuchen - Soja (Wirtschaftsjahr)
+B5615	Ölkuchen - Lein
+B5617	Ölkuchen - Mais (Wirtschaftsjahr)
+B5630	Ölkuchen - Oliven
+B5690	Ölkuchen - Andere
+B5900	Fette und Öle - Insgesamt (Kalenderjahr)
+B1711	Blumenkohl (Marktbilanz)
+B1712	Frische Tomaten (Marktbilanz)
+B1713	Verarbeitete Tomaten
+B1721	Äpfel (Marktbilanz)
+B1722	Birnen (Marktbilanz)
+B1723	Frische Pfirsische
+B1724	Verarbeitete Pfirsische
+B1725	Orangen (Marktbilanz)
+B1726	Frische Trauben (Marktbilanz)
+B1800	Gemüse
+B1910	Frischobst (außer Zitrusfrüchten)
+B1920	Schalenobst
+B1940	Zitrusfrüchte
+B1950	Trockenfrüchte
+B4100	Fleisch - Insgesamt
+B4110	Rinder
+B4120	Schweine
+B4130	Schafe und Ziegen
+B4140	Einhufer
+B4150	Geflügel
+B4160	Sonstiges Fleisch
+B4170	Innereien
+B4400	Vollmilch (Rohstoff)
+B4410	Frischmilcherzeugnisse ohne Sahne
+B4411	Konsummilch
+B4412	Sahne
+B4420	Kondensmilch
+B4430	Vollmilchpulver
+B4440	Magermilchpulver
+B4450	Butter (Produktgewicht)
+B4460	Käse
+B4461	Schmelzkäse
+B4700	Eier - Insgesamt
+B4720	Konsumeier
+B2000	Wein - Insgesamt
+B2001	Rotwein und Roséwein
+B2002	Weißwein
+B2010	Qualitätswein Q.B.A. - Insgesamt
+B2011	Qualitätswein Q.B.A. - Rot/Rosé
+B2012	Qualitätswein Q.B.A. - Weiß
+B2020	Tafelwein - Insgesamt
+B2021	Tafelwein - Rot/Rosé
+B2022	Tafelwein - Weiß
+B2030	Sonstige Weine - Insgesamt
+B2031	Sonstige Weine - Rot/Rosé
+B2032	Sonstige Weine - Weiß
+B2100	Vermouth
+B2200	Wein - Insgesamt
+B2201	Rotwein und Roséwein
+B2202	Weißwein
+B2210	Qualitätswein Q.B.A. - Insgesamt
+B2211	Qualitätswein Q.B.A. - Rot/Rosé
+B2212	Qualitätswein Q.B.A. - Weiß
+B2220	Tafelwein - Insgesamt
+B2221	Tafelwein - Rot/Rosé
+B2222	Tafelwein - Weiß
+B2230	Tafelwein - ohne geographische Angabe
+B2231	Tafelwein WOGI - Rot/Rosé
+B2232	Tafelwein WOGI - Weiß
+B2240	Tafelwein - mit geographischer Angabe
+B2241	Tafelwein WGI - Rot/Rosé
+B2242	Tafelwein WGI - Weiß
+B2250	Sonstige Weine - Insgesamt
+B2251	Sonstige Weine - Rot/Rosé
+B2252	Sonstige Weine - Weiß
+B2260	g.U. - Wein insgesamt
+B2261	g.U. - Rotwein und Rosewein
+B2262	g.U. - Weißwein
+B2270	g.g.A. - Wein insgesamt
+B2271	g.g.A. - Rotwein und Rosewein
+B2272	g.g.A. - Weißwein
+B2280	Varationsweine - Insgesamt
+B2281	Varationsweine - Rotwein und Rosewein
+B2282	Varationsweine - Weißwein
+B2290	Sonstiger Wein - Insgesamt
+B2291	Sonstiger Wein - Rotwein und Rosewein
+B2292	Sonstiger Wein - Weißwein

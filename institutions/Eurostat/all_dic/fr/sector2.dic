@@ -1,0 +1,72 @@
+S1_S2	Economie totale et reste du monde
+S1	Economie totale
+S1_X_S13	Economie totale, excepté administrations publiques
+PRIVATE	Secteur privé (S11, S12, S14, S15)
+S11_S14_S15	Sociétés non financières; ménages; institutions sans but lucratif au service des ménages
+S11_S12	Sociétés
+S11_S123_TO_S125	Institutions financières non monétaires
+S11	Sociétés non financières
+S11001	Sociétés non financières publiques
+S11002	Sociétés non financières privées nationales
+S11003	Sociétés non financières sous contrôle étranger
+S12	Sociétés financières
+S121_S122	Banque centrale; autres institutions financières monétaires
+S121	Banque centrale
+S122	Autres institutions financières monétaires
+S12201	Institutions financières monétaires publiques
+S12202	Institutions financières monétaires privées nationales
+S12203	Institutions financières monétaires sous contrôle étranger
+S123_TO_S125	Autres intermédiaires financiers, auxiliaires financiers, sociétés d'assurance et fonds de pension
+S123	Autres intermédiaires financiers, à l'exclusion des sociétés d'assurance et des fonds de pension
+S12301	Intermédiaires financiers publics
+S12302	Intermédiaires financiers privés nationaux
+S12303	Intermédiaires financiers sous contrôle étranger
+S124	Auxiliaires financiers
+S12401	Auxiliaires financiers publics
+S12402	Auxiliaires financiers privés nationaux
+S12403	Auxiliaires financiers sous contrôle étranger
+S125	Sociétés d'assurance et fonds de pension
+S12501	Sociétés d'assurance et fonds de pension publics
+S12502	Sociétés d'assurance et fonds de pension privés nationaux
+S12503	Sociétés d'assurance et fonds de pension sous contrôle étranger
+S13_TO_S15	Administrations publiques; ménages; institutions sans but lucratif au service des ménages
+S13_S212	Administrations publiques; institutions de l'Union européenne
+S13	Administrations publiques
+S1311_TO_S1313	Administration centrale, locale et d'Etats fédérés
+S1311_S1312	Administration centrale et d'Etats fédérés
+S1311	Administration centrale
+S1312_TO_S1314	Administration locale et d'Etats fédérés; administrations de sécurité sociale
+S1312_S1313	Administration locale et d'Etats fédérés
+S1312	Administrations d'Etats fédérés
+S1313	Administrations locales
+S1314	Administrations de sécurité sociale
+S14_S15	Ménages; institutions sans but lucratif au service des ménages
+S14	Ménages
+S141_S142	Employeurs (y compris travailleurs pour leur propre compte)
+S143	Salariés
+S1441	Bénéficiaires de revenus de la propriété
+S1442	Bénéficiaires de pensions
+S1443	Bénéficiaires d'autres revenus de transferts
+S145	Autres ménages
+S15	Institutions sans but lucratif au service des ménages
+S2	Reste du monde
+S2I	Etats membres et institutions de la zone euro: 'Intra-ZE'
+S21	Union européenne
+S211	Etats membres de l'Union européenne
+S2111	Membres de l'Union monétaire
+S2112	Non-membres de l'Union monétaire
+S212	Institutions de l'Union européenne
+S2111_S2121	Intra zone euro (12)
+S22	Pays tiers et organisations internationales
+S2X	Pays tiers (et institutions internationales) vis-à-vis de la zone euro: 'Extra-ZE'
+MFI	Institutions financières monétaires (y compris les banques centrales)
+NONMFC	Institutions financières non monétaires
+INTLORG	Organisations internationales
+PUBSEC	Secteur publique
+SOTH	Autres secteurs
+SN	Non classé
+TOT_SEC	Total
+PUBL	Institutions publiques
+PRIV	Institutions privées
+PRIV_DEP	Institutions privées dépendantes du gouvernement
+PRIV_IND	Institutions privées indépendantes du gouvernement

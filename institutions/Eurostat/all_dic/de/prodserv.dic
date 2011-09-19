@@ -1,0 +1,65 @@
+P1	Hardwareberatung
+P2	Softwarehäuser
+P2A	Softwarepakete
+P2B	Kundenspezifische Software
+P2C	Computerberatung
+P3	Sonstige Informatikdienstleistungen
+P3A	Computer-Anlagenwartung durch Externe und Datenverarbeitung
+P3B	Dienstleistungen für Datenbanken
+P3C	Dienstleistungen für Wartungssysteme
+P3D	Computerhardware-Dienstleistungen, Reparatur und Instandhaltung von Informatiksgeräten
+P4	Netzwerk- und Fernmeldedienstleistungen
+P5	Weiterbildung bezogen auf Informationstechnologien
+P6	Weiterverkauf
+P6A	Software (keine eigene Entwicklung)
+P6B	Hardware und Datenverarbeitungseinrichtungen
+P6C	Weiterverkauf: Sonstige
+P7	Dienstleistungen in der Architektur
+P7A	Beratung für Architektur und Vorentwürfe
+P7B	Beratung für Architekturentwurf für Bauten und andere Strukturen
+P7C	Sonstige Dienstleistungen in der Architektur
+P8	Dienstleistungen in technischen Entwürfen einschließlich Fachingenieurleistungen für schlüsselfertige Projekte
+P8A	Dienstleistungen in technischen Entwürfen für den Bau von Fundamenten und Baustrukturen
+P8B	Dienstleistungen in technischen Entwürfen für mechanische und elektrische Bauinstallationen
+P8C	Dienstleistungen in technischen Entwürfen für Tiefbauarbeiten
+P8D	Dienstleistungen in technischen Entwürfen für industrielle Prozeßsteuerung und Produktion
+P8E	Dienstleistungen in technischen Entwürfen n.a.g.
+P9	Dienstleistungen in der städtebaulichen Planung
+P10	Projektmanagementsleistungen
+P11	Sonstige Dienstleistungen in der Architektur, technische Beratung und Planung
+P12	Bauwerke
+P13	Verkauf bzw. Vermietung von Werbeflächen bzw. -Zeit
+P14	Dienstleistungen für die Werbeplanung, -Gestaltung und -Platzierung
+P14A	Werbung mit vollem Dienstleistungsspektrum
+P14B	Direktwerbung
+P14C	Werbezeichnung
+P15	Sonstige werbungsbezogene Dienstleistungen
+P15A	Werbungsbezogene Fotodienstleistungen
+P15B	Förderung von Werbefilmen
+P15C	Öffentlichkeitsarbeitsleistungen
+P15D	Auf Werbung und Direktverkauf spezialisierte Dienstleistungen
+P15E	Sonstige werbungsbezogene Dienstleistungen, nicht klassifierbar
+P16	Marktforschungsdienstleistungen
+P16A	Qualitative Erhebungen
+P16B	Quantitative ad-hoc-Erhebungen
+P16C	Quantitative kontinuierliche/regelmäßige Studien
+P17	Dienstleistungen in Meinungsumfragen
+P18	Dienstleistungen in der Buchhaltung, in der Buchführung und im Audit
+P18A	Dienstleistungen im Audit
+P18B	Dienstleistungen in der Buchhaltung, in der Buchführung, ohne Steuererklärung
+P18C	Beratungsdienstleistungen, einschließlich Steuererklärungen
+P19	Beratungsdienstleistungen für Unternehmen und Management
+P19A	Beratungsdienstleistungen in der Unternehmensorganisation
+P19B	Beratungsdienstleistungen für die Strategie, einschließlich für Fusionsangelegenheiten und Acquisitionen
+P19C	Beratungsdienstleistungen für das finanzielle Management
+P19D	Beratungsdienstleistungen für Personalwirtschaft
+P19E	Sonstige Beratungsdienstleistungen für Unternehmen und Management
+P20	Ausbildungsdienstleistungen
+P20A	Weiterbildung bezogen auf Informationstechnologien
+P20B	Sonstige Ausbildungsdienstleistungen
+P21	Sonstige zusätzliche Dienstleistungen
+P98	Sonstige
+P98A	Sonstige 1
+P98B	Sonstige 2
+P98C	Sonstige 3
+TOTAL	Insgesamt

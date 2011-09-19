@@ -1,0 +1,39 @@
+TOTAL	Total
+NONE	Aucun revenu
+QUARTILE1	Premier quartile
+QUARTILE2	Second quartile
+QUARTILE3	Troisième quartile
+QUARTILE4	Quatrième quartile
+QUINTILE1	Premier quintile
+QUINTILE2	Second quintile
+QUINTILE3	Troisième quintile
+QUINTILE4	Quartième quintile
+QUINTILE5	Cinquième quintile
+DECILE1	Premier décile
+DECILE2	Second décile
+DECILE3	Troisième décile
+DECILE4	Quatrième décile
+DECILE5	Cinquième décile
+DECILE6	Sixième décile
+DECILE7	Septième décile
+DECILE8	Huitième décile
+DECILE9	Neuvième décile
+DECILE10	Dixième décile
+PERCENTILE1	Premier percentile
+PERCENTILE2	Second percentile
+PERCENTILE3	Troisième percentile
+PERCENTILE4	Quatrième percentile
+PERCENTILE5	Cinquième percentile
+PERCENTILE10	Dixième percentile
+PERCENTILE25	Vingt cinquième percentile
+PERCENTILE50	Médian
+TWOTHIRDMEDIAN	Deux-tiers du médian (66,6% du médian)
+PERCENTILE75	Soixante quinzième percentile
+PERCENTILE90	Quatre-vingt dizième percentile
+PERCENTILE95	Quatre-vingt quinzième percentile
+PERCENTILE96	Quatre-vingt seizième percentile
+PERCENTILE97	Quatre-vingt dix-septième percentile
+PERCENTILE98	Quatre-vingt dix-huitième percentile
+PERCENTILE99	Quatre-vingt dix-neuvième percentile
+PERCENTILE100	Centième percentile
+UNK	Inconnu

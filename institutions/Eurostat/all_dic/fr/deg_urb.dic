@@ -1,0 +1,9 @@
+TOTAL	Total
+DEG1	Zone densément peuplée (au moins 500 habitants/Km²)
+DEG2	Zone urbanisée intermédiaire (entre 100 et 449 habitants/Km²)
+DEG3	Zone faiblement peuplée (moins de 100 habitants/Km²)
+URB	Régions à prédominance urbaine
+INT	Régions intermédiaires
+RUR	Régions à prédominance rurale
+UNK	Inconnu
+NRESP	Aucune réponse

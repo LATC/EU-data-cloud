@@ -1,0 +1,15 @@
+TOTAL	Total
+LS01	Sociétés anonymes
+LS02	Etablissements coopératifs
+LS05	Sociétés mutuelles
+LS03	Entreprises de droit public
+LS04	Succursales d'entreprises des pays tiers
+SP	Entreprises possédées par une personne et ne soumettant la responsabilité personnelle à aucune limite
+LL	Entreprises privées ou par actions limitant la responsabilité des personnes détenant des parts
+PA	Partenariats à responsabilité tant illimitée que limitée (ainsi que les coopératives, les associations, etc.)
+TT	Toutes formes juridiques
+OTH	Autres
+SPR	Entreprise individuelle
+PRT	Partenariat
+CNP	Société à responsabilité limitée, et non cotée
+CP	Société à responsabilité limitée, cotée en bourse

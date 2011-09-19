@@ -1,0 +1,113 @@
+4131600	Haushalte (Lieferungen zwischen 2 000 und 5 000 Liter jährlich)
+4132600	Industrie (monatliche Lieferungen unter 2 000 Tonnen bzw. jährliche Lieferungen unter 24 000 Tonnen)
+4139000	Treibstoffe für Kraftfahrzeuge, ab Tankstelle
+4141050	Haushalte - D1 (Jahresverbrauch: 8.37 GJ)
+4141100	Haushalte - D2 (Jahresverbrauch: 16.74 GJ)
+4141150	Haushalte - D3 (Jahresverbrauch: 83.70 GJ)
+4141200	Haushalte - D3-b (Jahresverbrauch: 125.60 GJ)
+4141250	Haushalte - D4 (Jahresverbrauch: 1 047 GJ)
+4141300	Haushalte - D2-b (nur Vereinigtes Königreich) (Jahresverbrauch: 33.49 GJ)
+4142050	Industrie - I1 (Jahresverbrauch: 418.6 GJ; keine Benutzungsdauer vorgeschrieben) (für Belgien: feste Menge (nicht-unterbrechbar) für nicht näher festgelegte Verwendungszwecken, die leicht durch schweres Heizöl zu ersetzen ist (CNE 1 P 1))
+4142100	Industrie - I2 (Jahresverbrauch: 4 186 GJ; Benutzungsdauer: 200 Tage) (für Belgien: feste Menge (nicht-unterbrechbar) für nicht näher festgelegte Verwendungszwecken, die leicht durch schweres Heizöl zu ersetzen ist (CNE 1 P 1))
+4142150	Industrie - I3-1 (Jahresverbrauch: 41 860 GJ; Benutzungsdauer: 200 Tage; 1 600 Stunden) (für Belgien: feste Menge (nicht-unterbrechbar) für nicht näher festgelegte Verwendungszwecken, die leicht durch schweres Heizöl zu ersetzen ist (CNE 1 P 1))
+4142200	Industrie - I3-2 (Jahresverbrauch: 41 860 GJ; Benutzungsdauer: 250 Tage; 4 000 Stunden) (für Belgien: feste Menge (nicht-unterbrechbar) für nicht näher festgelegte Verwendungszwecken, die leicht durch schweres Heizöl zu ersetzen ist (CNE 1 P 1))
+4142250	Industrie - I4-1 (Jahresverbrauch: 418 600 GJ; Benutzungsdauer: 250 Tage; 4 000 Stunden) (für Belgien: feste Menge (nicht-unterbrechbar) für nicht näher festgelegte Verwendungszwecken, die leicht durch schweres Heizöl zu ersetzen ist (CNE 1 P 1))
+4142300	Industrie - I4-2 (Jahresverbrauch: 418 600 GJ; Benutzungsdauer: 330 Tage; 8 000 Stunden) (für Belgien: feste Menge (nicht-unterbrechbar) für nicht näher festgelegte Verwendungszwecken, die leicht durch schweres Heizöl zu ersetzen ist (CNE 1 P 1))
+4142350	Industrie - I5 (Jahresverbrauch: 4 186 000 GJ; Benutzungsdauer: 330 Tage; 8 000 Stunden) (für Belgien: feste Menge (nicht-unterbrechbar) für nicht näher festgelegte Verwendungszwecken, die leicht durch schweres Heizöl zu ersetzen ist (CNE 1 P 1))
+4161050	Haushalte - Da (Jahresverbrauch: 600 kWh)
+4161100	Haushalte - Db (Jahresverbrauch: 1 200 kWh)
+4161150	Haushalte - Dc (Jahresverbrauch: 3 500 kWh darunter Nachtstrom 1 300)
+4161200	Haushalte - Dd (Jahresverbrauch: 7 500 kWh darunter Nachtstrom 2 500)
+4161250	Haushalte - De (Jahresverbrauch: 20 000 kWh darunter Nachtstrom 15 000)
+4162050	Industrie - Ia (Jahresverbrauch: 30 MWh; Maximale Abnahme: 30 kW; Jährliche Inanspruchnahme: 1 000 Stunden) (für Luxemburg: Leistungsabsenkung von 50 % der Energieversorgung zu Spitzenlastzeiten)
+4162100	Industrie - Ib (Jahresverbrauch: 50 MWh; Maximale Abnahme: 50 kW; Jährliche Inanspruchnahme: 1 000 Stunden) (für Luxemburg: Leistungsabsenkung von 50 % der Energieversorgung zu Spitzenlastzeiten)
+4162150	Industrie - Ic (Jahresverbrauch: 160 MWh; Maximale Abnahme: 100 kW; Jährliche Inanspruchnahme: 1 600 Stunden) (für Luxemburg: Leistungsabsenkung von 50 % der Energieversorgung zu Spitzenlastzeiten)
+4162200	Industrie - Id (Jahresverbrauch: 1 250 MWh; Maximale Abnahme: 500 kW; Jährliche Inanspruchnahme: 2 500 Stunden) (für Luxemburg: Leistungsabsenkung von 50 % der Energieversorgung zu Spitzenlastzeiten)
+4162250	Industrie - Ie (Jahresverbrauch: 2 000 MWh; Maximale Abnahme: 500 kW; Jährliche Inanspruchnahme: 4 000 Stunden) (für Luxemburg: Leistungsabsenkung von 50 % der Energieversorgung zu Spitzenlastzeiten)
+4162300	Industrie - If (Jahresverbrauch: 10 000 MWh; Maximale Abnahme: 2 500 kW; Jährliche Inanspruchnahme: 4 000 Stunden) (für Luxemburg: Leistungsabsenkung von 50 % der Energieversorgung zu Spitzenlastzeiten)
+4162350	Industrie - Ig (Jahresverbrauch: 24 000 MWh; Maximale Abnahme: 4 000 kW; Jährliche Inanspruchnahme: 6 000 Stunden) (für Luxemburg: Leistungsabsenkung von 50 % der Energieversorgung zu Spitzenlastzeiten)
+4162400	Industrie - Ih (Jahresverbrauch: 50 000 MWh; Maximale Abnahme: 10 000 kW; Jährliche Inanspruchnahme: 5 000 Stunden) (für Luxemburg: Leistungsabsenkung von 50 % der Energieversorgung zu Spitzenlastzeiten)
+4162450	Industrie - Ii (Jahresverbrauch: 70 000 MWh; Maximale Abnahme: 10 000 kW; Jährliche Inanspruchnahme: 7 000 Stunden) (für Luxemburg: Leistungsabsenkung von 50 % der Energieversorgung zu Spitzenlastzeiten)
+4262600	Industrie 25 MW (unfaßt maximale Abnahme zwischen 17.5 und 37.5 MW)
+4262610	Industrie 25 MW (tiefst)
+4262620	Industrie 25 MW (höchst)
+4262630	Industrie 25 MW Basis 5000 Stunden (nur Frankreich)
+4262700	Industrie 50 MW (unfaßt maximale Abnahme zwischen 37.5 und 62.5 MW)
+4262710	Industrie 50 MW (tiefst)
+4262720	Industrie 50 MW (höchst)
+4262730	Industrie 50 MW Basis 5000 Stunden (nur Frankreich)
+4262800	Industrie 75 MW (unfaßt maximale Abnahme zwischen 62.5 und 75 MW)
+4262810	Industrie 75 MW (tiefst)
+4262820	Industrie 75 MW (höchst)
+4262830	Industrie 75 MW Basis 5000 Stunden (nur Frankreich)
+4142051	Industrie - I1 (nur Belgien: vollständig unterbrechbare Menge für nicht näher festgelegte Verwendungszwecken, die leicht durch schweres Heizöl zu ersetzen ist (CNE 0 P 0.9))
+4142052	Industrie - I1 (nur Belgien: 50% unterbrechbare Menge für nicht näher festgelegte Verwendungszwecken, die leicht durch schweres Heizöl zu ersetzen ist (CNE 0.5 P 1))
+4142054	Industrie - I1 (nur Belgien: feste Menge (nicht-unterbrechbar) für festgelegte Verwendungszwecken, die nicht durch schweres Heizöl zu ersetzen ist (CNE 1 P 1.1))
+4142101	Industrie - I2 (nur Belgien: vollständig unterbrechbare Menge für nicht näher festgelegte Verwendungszwecken, die leicht durch schweres Heizöl zu ersetzen ist (CNE 0 P 0.9))
+4142102	Industrie - I2 (nur Belgien: 50% unterbrechbare Menge für nicht näher festgelegte Verwendungszwecken, die leicht durch schweres Heizöl zu ersetzen ist (CNE 0.5 P 1))
+4142104	Industrie - I2 (nur Belgien: feste Menge (nicht-unterbrechbar) für festgelegte Verwendungszwecken, die nicht durch schweres Heizöl zu ersetzen ist (CNE 1 P 1.1))
+4142151	Industrie - I3-1 (nur Belgien: vollständig unterbrechbare Menge für nicht näher festgelegte Verwendungszwecken, die leicht durch schweres Heizöl zu ersetzen ist (CNE 0 P 0.9))
+4142152	Industrie - I3-1 (nur Belgien: 50% unterbrechbare Menge für nicht näher festgelegte Verwendungszwecken, die leicht durch schweres Heizöl zu ersetzen ist (CNE 0.5 P 1))
+4142154	Industrie - I3-1 (nur Belgien: feste Menge (nicht-unterbrechbar) für festgelegte Verwendungszwecken, die nicht durch schweres Heizöl zu ersetzen ist (CNE 1 P 1.1))
+4142201	Industrie - I3-2 (nur Belgien: vollständig unterbrechbare Menge für nicht näher festgelegte Verwendungszwecken, die leicht durch schweres Heizöl zu ersetzen ist (CNE 0 P 0.9))
+4142202	Industrie - I3-2 (nur Belgien: 50% unterbrechbare Menge für nicht näher festgelegte Verwendungszwecken, die leicht durch schweres Heizöl zu ersetzen ist (CNE 0.5 P 1))
+4142204	Industrie - I3-2 (nur Belgien: feste Menge (nicht-unterbrechbar) für festgelegte Verwendungszwecken, die nicht durch schweres Heizöl zu ersetzen ist (CNE 1 P 1.1))
+4142251	Industrie - I4-1 (nur Belgien: vollständig unterbrechbare Menge für nicht näher festgelegte Verwendungszwecken, die leicht durch schweres Heizöl zu ersetzen ist (CNE 0 P 0.9))
+4142252	Industrie - I4-1 (nur Belgien: 50% unterbrechbare Menge für nicht näher festgelegte Verwendungszwecken, die leicht durch schweres Heizöl zu ersetzen ist (CNE 0.5 P 1))
+4142254	Industrie - I4-1 (nur Belgien: feste Menge (nicht-unterbrechbar) für festgelegte Verwendungszwecken, die nicht durch schweres Heizöl zu ersetzen ist (CNE 1 P 1.1))
+4142301	Industrie - I4-2 (nur Belgien: vollständig unterbrechbare Menge für nicht näher festgelegte Verwendungszwecken, die leicht durch schweres Heizöl zu ersetzen ist (CNE 0 P 0.9))
+4142302	Industrie - I4-2 (nur Belgien: 50% unterbrechbare Menge für nicht näher festgelegte Verwendungszwecken, die leicht durch schweres Heizöl zu ersetzen ist (CNE 0.5 P 1))
+4142304	Industrie - I4-2 (nur Belgien: feste Menge (nicht-unterbrechbar) für festgelegte Verwendungszwecken, die nicht durch schweres Heizöl zu ersetzen ist (CNE 1 P 1.1))
+4142351	Industrie - I5 (nur Belgien: vollständig unterbrechbare Menge für nicht näher festgelegte Verwendungszwecken, die leicht durch schweres Heizöl zu ersetzen ist (CNE 0 P 0.9))
+4142352	Industrie - I5 (nur Belgien: 50% unterbrechbare Menge für nicht näher festgelegte Verwendungszwecken, die leicht durch schweres Heizöl zu ersetzen ist (CNE 0.5 P 1))
+4142354	Industrie - I5 (nur Belgien: feste Menge (nicht-unterbrechbar) für festgelegte Verwendungszwecken, die nicht durch schweres Heizöl zu ersetzen ist (CNE 1 P 1.1))
+4162051	Industrie - Ia (nur Luxemburg: Leistungsabsenkung von 0 % der Energieversorgung zu Spitzenlastzeiten)
+4162053	Industrie - Ia (nur Luxemburg: Leistungsabsenkung von 100 % der Energieversorgung zu Spitzenlastzeiten)
+4162101	Industrie - Ib (nur Luxemburg: Leistungsabsenkung von 0 % der Energieversorgung zu Spitzenlastzeiten)
+4162103	Industrie - Ib (nur Luxemburg: Leistungsabsenkung von 100 % der Energieversorgung zu Spitzenlastzeiten)
+4162151	Industrie - Ic (nur Luxemburg: Leistungsabsenkung von 0 % der Energieversorgung zu Spitzenlastzeiten)
+4162153	Industrie - Ic (nur Luxemburg: Leistungsabsenkung von 100 % der Energieversorgung zu Spitzenlastzeiten)
+4162201	Industrie - Id (nur Luxemburg: Leistungsabsenkung von 0 % der Energieversorgung zu Spitzenlastzeiten)
+4162203	Industrie - Id (nur Luxemburg: Leistungsabsenkung von 100 % der Energieversorgung zu Spitzenlastzeiten)
+4162251	Industrie - Ie (nur Luxemburg: Leistungsabsenkung von 0 % der Energieversorgung zu Spitzenlastzeiten)
+4162253	Industrie - Ie (nur Luxemburg: Leistungsabsenkung von 100 % der Energieversorgung zu Spitzenlastzeiten)
+4162301	Industrie - If (nur Luxemburg: Leistungsabsenkung von 0 % der Energieversorgung zu Spitzenlastzeiten)
+4162303	Industrie - If (nur Luxemburg: Leistungsabsenkung von 100 % der Energieversorgung zu Spitzenlastzeiten)
+4162351	Industrie - Ig (nur Luxemburg: Leistungsabsenkung von 0 % der Energieversorgung zu Spitzenlastzeiten)
+4162353	Industrie - Ig (nur Luxemburg: Leistungsabsenkung von 100 % der Energieversorgung zu Spitzenlastzeiten)
+4162401	Industrie - Ih (nur Luxemburg: Leistungsabsenkung von 0 % der Energieversorgung zu Spitzenlastzeiten)
+4162403	Industrie - Ih (nur Luxemburg: Leistungsabsenkung von 100 % der Energieversorgung zu Spitzenlastzeiten)
+4162451	Industrie - Ii (nur Luxemburg: Leistungsabsenkung von 0 % der Energieversorgung zu Spitzenlastzeiten)
+4162453	Industrie - Ii (nur Luxemburg: Leistungsabsenkung von 100 % der Energieversorgung zu Spitzenlastzeiten)
+4262631	Industrie 25 MW Basis -6% (nur Frankreich)
+4262632	Industrie 25 MW Basis -8% (nur Frankreich)
+4262633	Industrie 25 MW Basis -10% (nur Frankreich)
+4262634	Industrie 25 MW Bezugwert (nur Portugal)
+4262731	Industrie 50 MW Basis -6% (nur Frankreich)
+4262732	Industrie 50 MW Basis -8% (nur Frankreich)
+4262733	Industrie 50 MW Basis -10% (nur Frankreich)
+4262734	Industrie 50 MW Bezugwert (nur Portugal)
+4262831	Industrie 75 MW Basis -6% (nur Frankreich)
+4262832	Industrie 75 MW Basis -8% (nur Frankreich)
+4262833	Industrie 75 MW Basis -10% (nur Frankreich)
+4141901	Gruppe D1 : Verbrauch < 20 GJ
+4141902	Gruppe D2 : 20 GJ < Verbrauch < 200 GJ
+4141903	Gruppe D3 : Verbrauch > 200 GJ
+4142901	Gruppe I1 : Verbrauch < 1 000 GJ
+4142902	Gruppe I2 : 1 000 GJ < Verbrauch < 10 000 GJ
+4142903	Gruppe I3 : 10 000 GJ < Verbrauch < 100 000 GJ
+4142904	Gruppe I4 : 100 000 GJ < Verbrauch < 1 000 000 GJ
+4142905	Gruppe I5 : 1 000 000 GJ < Verbrauch < 4 000 000 GJ
+4142906	Gruppe I6 : Verbrauch > 4 000 000 GJ
+4161901	Gruppe DA : Verbrauch < 1 000 kWh
+4161902	Gruppe DB : 1 000 kWh < Verbrauch < 2 500 kWh
+4161903	Gruppe DC : 2 500 kWh < Verbrauch < 5 000 kWh
+4161904	Gruppe DD : 5 000 kWh < Verbrauch < 15 000 kWh
+4161905	Gruppe DE : Verbrauch > 15 000 kWh
+4162901	Gruppe IA : Verbrauch < 20 MWh
+4162902	Gruppe IB : 20 MWh < Verbrauch < 500 MWh
+4162903	Gruppe IC : 500 MWh < Verbrauch < 2 000 MWh
+4162904	Gruppe ID : 2 000 MWh < Verbrauch < 20 000 MWh
+4162905	Gruppe IE : 20 000 MWh < Verbrauch < 70 000 MWh
+4162906	Gruppe IF : 70 000 MWh < Verbrauch < 150 000 MWh
+4162907	Gruppe IG : Verbrauch > 150 000 MWh

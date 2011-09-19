@@ -1,0 +1,242 @@
+TOTAL	Total
+RES	Lieu de résidence dans le pays déclarant
+NRES	Lieu de résidence en dehors du pays déclarant
+NRES_EU	Lieu de résidence en dehors du pays déclarant mais situé dans un autre pays EU
+NRES_EA	Lieu de résidence en dehors du pays déclarant mais situé dans un autre pays EA
+NRES_NEU	Lieu de résidence en dehors du pays déclarant et situé dans un pays non-EU
+NRES_NEA	Lieu de résidence en dehors du pays déclarant et situé dans un pays non-EA
+SAME	Lieu de résidence inchangé
+CHG	Lieu de résidence changé
+CHG_IN	Lieu de résidence changé à l'intérieur du pays déclarant
+CHG_IN1	Lieu de résidence changé dans la même zone NUTS1 
+CHG_IN2	Lieu de résidence changé dans la même zone NUTS2
+CHG_IN3	Lieu de résidence changé dans la même zone NUTS3 
+CHG_IN4	Lieu de résidence changé dans la même zone NUTS4
+CHG_IN5	Lieu de résidence changé dans la même zone NUTS5
+CHG_OUT3	Lieu de résidence changé en dehors de la zone NUTS3
+CHG_OUT	Lieu de résidence changé de l'extérieur du pays déclarant
+NC	Non-Résident
+HOME	Résidant dans le pays de naissance / de citoyenneté
+EUR	Europe
+BE	Belgique
+BG	Bulgarie
+CZ	République tchèque
+DK	Danemark
+DE	Allemagne (incluant l'ancienne RDA à partir de 1991)
+DEW	République fédérale d'Allemagne (excepté l'ancienne RDA)
+EE	Estonie
+IE	Irlande
+GR	Grèce
+UNK	Inconnu
+ES	Espagne
+FR	France
+IT	Italie
+CY	Chypre
+LV	Lettonie
+LT	Lituanie
+LU	Luxembourg
+HU	Hongrie
+MT	Malte
+NL	Pays-Bas
+AT	Autriche
+PL	Pologne
+PT	Portugal
+RO	Roumanie
+SI	Slovénie
+SK	Slovaquie
+FI	Finlande
+SE	Suède
+UK	Royaume-Uni
+EU_FOR	Pays de l'UE excepté le pays déclarant
+EU_OTH	Résidant dans un pays de l'UE autre que celui de naissance / de citoyenneté
+EFTA	Association Européenne de Libre Echange (AELE)
+IS	Islande
+LI	Liechtenstein
+NO	Norvège
+CH	Suisse
+HR	Croatie
+MK	Ancienne République yougoslave de Macédoine
+TR	Turquie
+EUR_C_E	Europe Centrale et Orientale
+AL	Albanie
+AD	Andorre
+BY	Bélarus
+BA	Bosnie-et-Herzégovine
+MD	Moldavie
+RU	Russie
+SM	Saint-Marin
+UA	Ukraine
+VA	État de la Cité du Vatican
+CZ_SK	Anciennement Tchécoslovaquie (avant 1992) / Ensemble des pays composant l'ancienne Tchécoslovaquie
+RS_ME	Anciennement Serbie et Monténégro (avant 2006) / Ensemble des pays composant anciennement la Serbie et le Monténégro
+EX_YU	Anciennement Yougoslavie (avant 1992) / Ensemble des pays composant l' ancienne Yougoslavie
+EX_SU	Anciennement Union Soviétique (avant 1991) / Ensemble des pays composant l'ancienne Union Soviétique
+EX_SU_EUR	Républiques européennes de l'ancienne Union Soviétique
+AFR	Afrique
+AO	Angola
+CM	Cameroun
+CF	République centrafricaine
+TD	Tchad
+CG	Congo
+CD	République démocratique du Congo
+GQ	Guinée équatoriale
+GA	Gabon
+ST	São Tomé e Príncipe
+BI	Burundi
+KM	Comores
+DJ	Djibouti
+ER	Érythrée
+ET	Éthiopie
+KE	Kenya
+MG	Madagascar
+MW	Malawi
+MU	Maurice
+MZ	Mozambique
+RW	Rwanda
+SC	Seychelles
+SO	Somalie
+UG	Ouganda
+TZ	Tanzanie
+ZM	Zambie
+ZW	Zimbabwe
+AFR_N	Afrique septentrionale
+DZ	Algérie
+EG	Égypte
+LY	Libye
+MA	Maroc
+SD	Soudan
+TN	Tunisie
+EH	Sahara occidental
+BW	Botswana
+LS	Lesotho
+NA	Namibie
+ZA	Afrique du Sud
+SZ	Swaziland
+BJ	Bénin
+BF	Burkina Faso
+CV	Cap-Vert
+CI	Côte d'Ivoire
+GM	Gambie
+GH	Ghana
+GN	Guinée
+GW	Guinée-Bissau
+LR	Libéria
+ML	Mali
+MR	Mauritanie
+NE	Niger
+NG	Nigéria
+SN	Sénégal
+SL	Sierra Leone
+TG	Togo
+AFR_OTH	Autre(s) pays d'Afrique (agrégat variable en fonction du contexte)
+AME	Amérique
+AME_N	Amérique septentrionale
+BM	Bermudes (UK)
+CA	Canada
+US	États-Unis
+AG	Antigua-et-Barbuda
+BS	Bahamas
+BB	Barbade
+CU	Cuba
+DM	Dominique
+DO	République dominicaine
+GD	Grenade
+HT	Haïti
+JM	Jamaïque
+KN	Saint-Christophe-et-Nevis
+LC	Sainte-Lucie
+VC	Saint-Vincent-et-les-Grenadines
+TT	Trinité-et-Tobago
+BZ	Belize
+CR	Costa Rica
+SV	El Salvador
+GT	Guatemala
+HN	Honduras
+MX	Mexique
+NI	Nicaragua
+MC	Monaco
+PA	Panama
+AR	Argentine
+BO	Bolivie
+BR	Brésil
+CL	Chili
+CO	Colombie
+EC	Équateur
+GY	Guyana
+PY	Paraguay
+PE	Pérou
+SR	Suriname
+UY	Uruguay
+VE	Venezuela
+AME_OTH	Autre(s) pays d'Amérique  (agrégat variable en fonction du contexte)
+ASI	Asie
+KZ	Kazakhstan
+KG	Kirghizistan
+TJ	Tadjikistan
+TM	Turkménistan
+UZ	Ouzbékistan
+CN	Chine (Hong-Kong inclus)
+JP	Japon
+MN	Mongolie
+KP	Corée du Nord
+KR	Corée du Sud
+TW	Taïwan
+AF	Afghanistan
+BD	Bangladesh
+BT	Bhoutan
+IN	Inde
+IR	Iran
+MV	Maldives
+NP	Népal
+PK	Pakistan
+LK	Sri Lanka
+BN	Brunéi Darussalam
+KH	Cambodge
+ID	Indonésie
+LA	Laos
+MY	Malaisie
+MM	Myanmar
+PH	Philippines
+SG	Singapour
+TH	Thaïlande
+TL	Timor-Oriental
+VN	Viêt Nam
+AM	Arménie
+AZ	Azerbaïdjan
+BH	Bahreïn
+GE	Géorgie
+IQ	Iraq
+IL	Israël
+JO	Jordanie
+KW	Koweït
+LB	Liban
+PS	Territoire palestinien
+OM	Oman
+QA	Qatar
+SA	Arabie Saoudite
+SY	Syrie
+AE	Émirats arabes unis
+YE	Yémen
+EX_YE	Anciennement Yémen du Nord (avant 1990)
+EX_YD	Anciennement Yémen du Sud (avant 1990)
+ASI_NME	Proche et Moyen-Orient (agrégat variable en fonction du contexte)
+EX_SU_ASI	Républiques asiatiques de l'ancienne Union Soviétique 
+ASI_OTH	Autre(s) pays d'Asie (agrégat variable en fonction du contexte)
+OCE	Océanie
+AU	Australie
+NZ	Nouvelle-Zélande
+FJ	Fidji
+PG	Papouasie - Nouvelle-Guinée
+SB	Îles Salomon
+VU	Vanuatu
+KI	Kiribati
+MH	Îles Marshall
+FM	États fédérés de Micronésie
+NR	Nauru
+PW	Palau
+WS	Samoa
+TO	Tonga
+TV	Tuvalu
+NAT	Pays déclarant
+OTH	Autre(s)
+NAP	Non applicable

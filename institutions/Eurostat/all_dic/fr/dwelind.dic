@@ -1,0 +1,14 @@
+TOTAL	Total
+UNITS	Unités d'habitation
+HH	Ménages
+QUART	Quartier d'habitation
+OCC	Occupants
+PERS	Personnes
+DWEL	Logements
+ROOMS	Pièces
+ROOMS_DWEL	Pièces par logement
+ROOMS_PERS	Pièces par personne
+TOT_ROOMS	Nombre total des pièces
+PERS_DWEL	Personnes par logement
+PERS_ROOM	Personnes par pièce
+UNK	Inconnu

@@ -1,0 +1,19 @@
+TOT	Total
+NB_TOT	Tous (pas de ventilation)
+NAPPL	Sans objet
+NRESP	Sans réponse sur emploi temporaire/permanent
+PERM	Emploi permanent
+TEMP	Emploi temporaire
+TEMP_PERM_NO_RE	Pas de raisons données
+TEMP_PERM_NOT_F	Emploi permanent non trouvé
+TEMP_PERM_NOT_W	Emploi permanent non désiré
+TEMP_PERM_PROB	Période d'essai
+TEMP_TRAINING	Période de formation
+TRA_PROB	Période de formation ou probatoire
+SELF_FAM	Employeurs, indépendants et aides familiaux
+INDEF	Durée indéterminée
+FIX	Durée déterminée (excepté apprenti-stagiaire)
+APPR	Apprenti-stagiaire
+OTH	Autre
+UNK	Inconnu
+TOTAL	Emploi temporaire/permanent - Total

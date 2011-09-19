@@ -1,0 +1,46 @@
+EWC_TOTAL	Abfälle insgesamt
+EWC_01_TO_05	Chemische und medizinische Abfälle
+EWC_06_TO_08	Materialabfälle und ausrangierte Geräte
+EWC_09	Tierische und pflanzliche Abfälle
+EWC_10	Gemischte gewöhnliche Abfälle
+EWC_11	Gewöhnliche Schlämme
+EWC_12_13	Mineralische und verfestigte Abfälle
+EWC_01_TO_03	Chemische Abfälle (Chemische Verbindungen + Abfälle chemischer Zubereitungen + Andere chemische Abfälle)
+EWC_01_TO_03_NOT_013	Chemische Abfälle ausgenommen gebrauchte Öle  (Chemische Verbindungen + Abfälle chemischer Zubereitungen + Andere chemische Abfälle)
+EWC_011	Verbrauchte Lösemittel
+EWC_012	Säuren, Laugen oder Salze
+EWC_013	Gebrauchte Öle
+EWC_014	Verbrauchte chemische Katalysatoren
+EWC_02	Abfälle chemischer Zubereitungen
+EWC_031	Chemische Ablagerungen und Rückstände
+EWC_032	Schlämme von Industrieabwässern
+EWC_05	Medizinische und biologische Abfälle
+EWC_06	Metallische Abfälle
+EWC_071	Glasabfälle
+EWC_072	Papier und Pappeabfälle
+EWC_073	Gummiabfälle
+EWC_074	Kunststoffabfälle
+EWC_075	Holzabfälle
+EWC_076	Textilabfälle
+EWC_077	PCB-haltige Abfälle
+EWC_080_NOT_081_0841	Ausrangierte Geräte (ausgenommen ausrangierte Kraftfahrzeuge sowie Batterien und Akkumulatoren)
+EWC_081	Ausrangierte Kraftfahrzeuge
+EWC_0841	Batterien und Akkumulatoren
+EWC_09_NOT_0911_093	Tierische und pflanzliche Abfälle (ausgenommen tierische Abfälle von Nahrungsmittelzubereitungen und -erzeugnissen, tierische Ausscheidungen, Gülle/Jauche und Stallmist)
+EWC_0911	Tierische Abfälle von Nahrungsmittelzubereitungen und Erzeugnissen
+EWC_093	Tierische Ausscheidungen, Gülle/Jauche und Stallmist
+EWC_101	Hausmüll und ähnliche Abfälle
+EWC_102	Gemischte und undifferenzierte Stoffe
+EWC_103	Sortierrückstände
+EWC_11_NOT_113	Gewöhnliche Schlämme (außer Baggergut)
+EWC_113	Baggergut
+EWC_12	Mineralische Abfälle
+EWC_121_TO_125_NOT_124	Mineralische Abfälle (außer Verbrennungsrückständen, kontaminierten Böden und Baggergut)
+EWC_124	Verbrennungsrückstände
+EWC_126	Kontaminierte Böden und verunreinigtes Baggergut
+EWC_13	Verfestigte, stabilisierte oder verglaste Abfälle
+EWC_T_01_02_03_05_08_10_11_13	Sonstige Abfälle (Chemische Verbindungen + Abfälle chemischer Zubereitungen + Andere chemische Abfälle + Medizinische und biologische Abfälle + Ausrangierte Geräte + Gemischte gewöhnliche Abfälle + Gewöhnliche Schlämme + Verfestigte, stabilisierte oder verglaste Abfälle
+EWC_T_01_TO_05_075_077_08_10_11_13_NOT_013	Sonstige Abfälle (Chemische Verbindungen ausgenommen gebrauchte Öle + Abfälle chemischer Zubereitungen + Andere chemische Abfälle + Medizinische und biologische Abfälle + Holzabfälle + PCB-haltige Abfälle + Ausrangierte Geräte + Gemischte gewöhnliche Abfälle + Gewöhnliche Schlämme + Verfestigte, stabilisierte oder verglaste Abfälle)
+EWC_T_05_TO_08_13	Sonstige Abfälle (Medizinische und biologische + Metallische Abfällen + nichtmetallische Abfälle + Ausrangierte Geräte + Verfestigte, stabilisierte oder verglaste Abfälle)
+EWC_T_06_TO_09_12_13	Sonstige Abfälle (Metallische Abfälle + Nichtmetallische Abfälle + Ausrangierte Geräte + Tierische und pflanzliche Abfälle + Mineralische Abfälle + Verfestigte, stabilisierte oder verglaste Abfälle)
+EWC_T_06_TO_09_12_13_NOT_077	Sonstige Abfälle (Metallische Abfälle + Nichtmetallische Abfälle ausgenommen PCB-haltige Abfälle + Ausrangierte Geräte + Tierische und pflanzliche Abfälle + Mineralische Abfälle + Verfestigte, stabilisierte oder verglaste Abfälle)

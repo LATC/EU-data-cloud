@@ -1,0 +1,39 @@
+0	Produits agricoles et animaux vivants
+1	Denrées alimentaires et fourrage
+2	Combustibles minéraux solides
+3	Produits pétroliers
+4	Minerais et déchets pour la métallurgie
+5	Produits métallurgiques
+6	Minerais bruts ou manufacturés et matériaux de construction
+7	Engrais
+8	Produits chimiques
+9	Machines, équipements de transport, objets manufacturés et biens divers
+0_9	Total chapitre 0 à 9
+25	Total des groupes 01 à 24
+00	Groupes de marchandises
+01	Céréales
+02	Pommes de terre, autres légumes frais ou congelés, fruits frais
+03	Animaux vivants, betteraves à sucre
+04	Bois et liège
+05	Matières textiles et déchets, autres matières premières d'origine animale ou végétale
+06	Denrées alimentaires et fourrages
+07	Oléagineux
+08	Combustibles minéraux solides
+09	Pétrole brut
+10	Produits pétroliers
+11	Minerais de fer, ferrailles, poussiers de hauts fourneaux
+12	Minerais et déchets non ferreux
+13	Produits métallurgiques
+14	Ciments, chaux, matériaux de construction manufacturés
+15	Minéraux bruts ou manufacturés
+16	Engrais naturels ou manufacturés
+17	Produits carbochimiques, goudrons
+18	Produits chimiques, excepté produits carbochimiques et goudrons
+19	Cellulose et déchets
+20	Véhicules et matériel de transport, machines, moteurs, même démontés, et pièces
+21	Articles métalliques
+22	Verre, verrerie, produits céramiques
+23	Cuirs, textiles, habillement, articles manufacturés divers
+24	Articles divers
+99	Non défini
+UNK	Inconnu

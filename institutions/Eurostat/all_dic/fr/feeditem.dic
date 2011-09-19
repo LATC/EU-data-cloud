@@ -1,0 +1,175 @@
+10000	Aliments commercialisables
+11000	Aliments d'origine végétale
+11100	Toutes les céréales, non compris riz
+11110	Blé
+11120	Seigle
+11130	Orge
+11140	Avoine
+11150	Maïs
+11160	Sorgho
+11170	Triticale
+11180	Autres céréales (non compris riz)
+11200	Riz (brisures)
+11300	Légumineuses sèches
+11310	Pois
+11330	Fèves
+11350	Autres légumineuses sèches
+11400	Pommes de terre
+11500	Sucre
+11600	Graisses et huiles végétales
+11700	Fourrages verts transformés
+11710	Luzerne (pellets)
+11740	Autres fourrages verts transformés
+11800	Manioc
+11900	Autres aliments d'origine végétale
+11940	Caroubes
+11960	Coque de cacao
+11980	Autres
+11990	Graines oléagineuses
+11991	Colza
+11992	Tournesol
+11993	Soya
+11997	Autres graines oléagineuses
+12000	Sous-produits de transformation
+12100	Sous-produits de minoterie
+12110	Sous-produits de blé
+12130	Sous-produits de maïs
+12140	Sous-produits de riz
+12160	Autres sous-produits de minoterie
+12200	Sous-produits de brasserie
+12210	Drèches fraîches
+12220	Drèches séchées
+12250	Germes de malt
+12260	Levure séchée
+12290	Autres sous-produits de brasserie
+12300	Sous-produits de distillerie
+12310	Drèches de grain fraîches
+12320	Drèches de pommes de terre fraîches
+12330	Marc frais (pommes/poires)
+12340	Marc sec (pommes/poires)
+12350	Distil. Dry Soluble
+12360	Distil. Dark Grains
+12390	Autres sous-produits de distillerie
+12400	Sous-produits d'amidonnerie
+12410	Gluten
+12420	Drèches de maïs
+12430	Pulpe de pommes de terre
+12431	Pulpe de pommes de terre fraîche
+12432	Pulpe de pommes de terre sèche
+12460	Protéine de pommes de terre
+12480	Aardappel snippers gedroogd
+12490	Aardappel diksap
+12492	Autres sous-produits d'amidonnerie
+12500	Sous-produits de sucrerie
+12510	Pulpe de betteraves
+12511	Pulpe de betteraves fraîche
+12512	Pulpe de betteraves sèche
+12513	Pulpe de betteraves mélassée
+12514	Pulpe de betteraves pressées
+12520	Mélasse total
+12521	Mélasse de betteraves
+12522	Mélasse de canne
+12550	Autres sous-produits de sucrerie
+12600	Tourteaux (sous-produits d'huilerie)
+12610	Tourteaux Colza-navette
+12620	Tourteaux Tournesol
+12630	Tourteaux Soya
+12640	Tourteaux Lin
+12650	Tourteaux Germe de maïs
+12660	Tourteaux Sésame
+12670	Tourteaux Arachide
+12680	Tourteaux Copra
+12690	Tourteaux Palmiste
+12691	Tourteaux Coton
+12692	Autres tourteaux
+12693	Grignons d'olive
+12700	Autres sous-produits
+12710	Pulpe d'agrumes
+12730	Déchets de maïs
+12740	Résidus de l'industrie de pommes de terre
+12760	Résidus de l'industrie de jus de fruits
+12780	Soyabean milling
+12790	Pulpe de tomates
+12792	Pulpe de tomates sèche
+13000	Aliments d'origine animale
+13100	Animaux marins transformés
+13110	Farine de poisson
+13150	Autres produits d'animaux marins
+13200	Animaux terrestres transformés
+13210	Farine de viande
+13220	Farine d'os
+13230	Farine de sang
+13240	Farine d'équarrissage
+13250	Farine de plumes
+13270	Farine de viande et d'os
+13290	Autres animaux terrestres
+13300	Graisses et huiles d'animaux
+13310	Graisses et huiles d'animaux marins
+13320	Graisses et huiles d'animaux terrestres
+13400	Lait et produits laitiers
+13410	Lait entier liquide
+13411	Vaches
+13412	Brebis
+13413	Chèvres
+13420	Lait écrémé et babeurre liquides
+13430	Lactoserum liquide
+13440	Lait entier en poudre
+13450	Lait écrémé et babeurre en poudre
+13460	Lactoserum en poudre
+13500	Autres aliments d'origine animale
+20000	Aliments généralement non commercialisables
+21000	Fourrages annuels
+21100	Plantes sarclées
+21110	Betteraves sucrières (racines)
+21120	Betteraves fourragères (racines)
+21130	Rutabagas
+21140	Navets fourragers
+21150	Carottes fourragères
+21160	Choux fourragers
+21170	Autres plantes sarclées
+21180	Patates douces
+21200	Maïs fourrager
+21210	Maïs fourrager, en vert
+21220	Maïs fourrager, ensilé
+21300	Autres fourrages verts
+21310	Autres fourrages verts, en vert
+21320	Autres fourrages verts, ensilés
+22000	Fourrages pluriannuels (temporaires et permanents)
+22100	Fourrages et pâturages temporaires
+22110	Luzerne
+22120	Trèfle
+22130	Autres légumineuses
+22140	Prairies
+22150	Pâturages
+22200	Fourrages et pâturages permanents
+22210	Prairies (foin)
+22220	Pâturages
+22250	Ensilage
+22270	Autres
+23000	Produits fatals des cultures
+23100	Pailles et balles
+23110	Pailles et balles de blé
+23130	Pailles et balles d'orge
+23140	Pailles et balles d'avoine
+23170	Pailles et balles de légumineuses
+23180	Autres pailles et balles
+23200	Feuilles et collets
+23210	Feuilles et collets de betteraves sucrières
+23220	Feuilles et collets de betteraves fourragères
+23240	Autres feuilles et collets
+23300	Autres produits fatals des cultures
+23310	Racines de chicorée witloof
+23320	Autres (Forragio, Cimature di mais, ...)
+24000	Aliments fourragers non désignés ailleurs (NDA)
+24100	Légumes
+24200	Fruits
+24210	Pommes
+24220	Poires
+24230	Figues
+24240	Agrumes
+24250	Châtaignes
+24260	Autres fruits
+24300	Déchets
+24400	Autres fourrages non désignées ailleurs
+24410	Glands
+24420	Autres

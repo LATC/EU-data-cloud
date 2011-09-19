@@ -1,0 +1,31 @@
+TOTAL	Total
+ALPS	Toujours positifs
+DAY	Quotidiennement
+MON	Mensuellement
+WEEK	Hebdomadaire
+OCCS	Occasionellement
+OFTN	Souvent
+ALWS	Toujours
+USUALLY	Habituellement
+SOMETIME	Parfois
+NEVER	Jamais
+GE_1W	Au moins une fois par semaine
+W_GE1	Au moins une fois par semaine
+GE_1M	Au moins une fois par mois
+M_GE1	Au moins une fois par mois
+LT_1M	Moins d'une fois par semaine
+M_LT1	Moins d'une fois par semaine
+N_12M	Pas au cours des 12 derniers mois
+M_GT12	Pas au cours des 12 derniers mois
+D_GE2	Deux fois ou plus par jour
+D1	Une fois par jour
+W1	Une fois par semaine
+M1	Une fois par mois
+W1-3	Moins d'une fois par semaine mais au moins une fois par semaine
+W4-6	Moins qu'une fois par jour mais au moins 4 fois par semaine
+W_LT1	Moins qu'une fois par semaine
+NAP	Non applicable
+NRP	Sans réponse
+UNK	Inconnu
+NEV_OCCS	Jamais ou occasionellement
+NBINGE	Pas de consommation excessive d'alcool 

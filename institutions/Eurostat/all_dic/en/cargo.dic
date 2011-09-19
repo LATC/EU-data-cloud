@@ -1,0 +1,59 @@
+TOTAL	Total
+LBK	Liquid bulk goods
+LBK_LGAS	Liquid bulk - Liquified gas
+LBK_COIL	Liquid bulk - Crude oil
+LBK_ROIL	Liquid bulk - Refined oil products
+LBK_OTH	Liquid bulk - Other
+LBK_NSP	Liquid bulk - Unspecified
+DBK	Dry bulk goods
+DBK_ORES	Dry bulk - Ores
+DBK_COAL	Dry bulk - Coal
+DBK_PAGR	Dry bulk - Agricultural products
+DBK_OTH	Dry bulk - Other
+DBK_NSP	Dry bulk - Unspecified
+CNT_SWP	Containers and swap bodies
+LCNT	Large containers
+LCNT_20	Large containers - 20-ft freight units
+LCNT_40	Large containers - 40-ft freight units
+LCNT_21-39	Large containers - Freight units over 20-ft and less than 40-ft
+LCNT_GT40	Large containers - Freight units > 40-ft
+LCNT_LD	Large containers (excluded swap bodies) - Loaded
+LCNT_EMP	Large containers (excluded swap bodies) - Empty
+LCNT_NSP	Large containers - Unspecified size
+CNT_OTH	Other containers
+PAL	Palletised goods
+PSLG	Pre-slung goods
+WRVEH	Railway wagons loaded with road vehicles
+MSP	Mobile, self-propelled units
+RMSP	Road mobile, self-propelled units
+WMSP	Mobile self-propelled units transported on railway wagons
+RVEH	Road vehicles (accompanied)
+RO_MSP	Ro-Ro, mobile self-propelled units
+RO_RVEH	Ro-Ro - Road goods vehicles and accompanying trailers
+RO_CM	Ro-Ro - Passenger cars, motorcycles and accompanying trailers/caravans
+RO_PBUS	Ro-Ro - Passenger buses
+RO_TVEH	Ro-Ro - Trade vehicles (incl. import/export motor vehicles)
+RO_LANI	Ro-Ro - Live animals on the hoof
+RO_MSP_OTH	Ro-Ro - Other mobile self-propelled units
+RO_MSP_NSP	Ro-Ro - Unspecified mobile self-propelled units
+MNSP	Mobile, non self-propelled units
+RMNSP	Road mobile, non self propelled units
+WMNSP	Mobile non self propelled units transported on railway wagons
+STRL	Semi-trailers (unaccompanied)
+RO_MNSP	Ro-Ro, mobile non-self-propelled units
+RO_TRL_STRL	Ro-Ro - Unaccompanied road goods trailers and semi-trailers
+RO_CVAN_OTH	Ro-Ro - Unaccompanied caravans and other road agricultural and industrial vehicles
+RO_RWS	Ro-Ro - Rail wagons, shipborne port-to-port trailers, and shipborne barges engaged in goods transport
+RO_RW	Ro-Ro - Rail wagons engaged in goods transport 
+RO_SPP	Ro-Ro - Shipborne port-to-port trailers engaged in goods transport
+RO_SB	Ro-Ro - Shipborne barges engaged in goods transport
+RO_MNSP_OTH	Ro-Ro - Other mobile non-self-propelled units
+RO_MNSP_NSP	Ro-Ro - Unspecified mobile non-self-propelled units
+RES	Reserved
+OTH	Other cargo not elsewhere specified
+OTH_FOR	Other cargo - Forestry products
+OTH_IS	Other cargo - Iron and steel products
+OTH_GN	Other cargo - Other general cargo
+OTH_UNK	Other cargo - Unknown
+UNK	Unknown
+NSP	Unspecified non unit-load

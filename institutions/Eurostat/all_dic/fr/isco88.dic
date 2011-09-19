@@ -1,0 +1,166 @@
+TOTAL	Total
+ISCO1-5	Employés
+ISCO1-3	Dirigeants, spécialistes (professions intellectuelles et scientifiques) et professions intermédiaires
+ISCO1_2	Dirigeants et spécialistes (professions intellectuelles et scientifiques)
+ISCO1	Membres de l'Exécutif et des corps législatifs, cadres supérieurs de l'Adm. Publique, dirigeants et cadres supérieurs d'entreprise
+ISCO11	Membres de l'Exécutif et des corps législatifs, et cadres supérieurs de l'Adm. Publique
+ISCO111	Membres de l'exécutif et des corps législatifs
+ISCO112	Cadres supérieurs de l'administration publique
+ISCO113	Chefs traditionnels et chefs de village
+ISCO114	Dirigeants et cadres supérieurs d'organisations spécialisées
+ISCO12	Directeurs de société
+ISCO121	Directeurs
+ISCO122	Cadres de direction, production et opérations
+ISCO123	Autres cadres de direction spécialisés
+ISCO13	Dirigeants et gérants
+ISCO131	Dirigeants et gérants
+ISCO2	Professions intellectuelles et scientifiques
+ISCO21	Spécialistes des sciences physiques, mathématiques et techniques
+ISCO211	Physiciens, chimistes et assimilés
+ISCO212	Mathématiciens, statisticiens et assimilés
+ISCO213	Spécialistes de l'informatique
+ISCO214	Architectes, ingénieurs et assimilés
+ISCO22	Spécialistes des sciences de la vie et de la santé
+ISCO221	Spécialistes des sciences de la vie
+ISCO222	Médecins et assimilés (à l'exception des cadres infirmiers)
+ISCO223	Cadres infirmiers et sages-femmes
+ISCO23	Spécialistes de l'enseignement
+ISCO231	Professeurs d'université et d'établissements d'enseignement supérieur
+ISCO232	Professeurs de l'enseignement secondaire
+ISCO233	Instituteurs de l'enseignement primaire et de maternelle
+ISCO234	Enseignants spécialisés dans l'éducation des handicapés
+ISCO235	Autres spécialistes de l'enseignement
+ISCO24	Autres spécialistes des professions intellectuelles et scientifiques)
+ISCO241	Spécialistes des fonctions administratives et commerciales des entreprises
+ISCO242	Juristes
+ISCO243	Archivistes, bibliothécaires, documentalistes et assimilés
+ISCO244	Spécialistes des sciences sociales et humaines
+ISCO245	Écrivains et artistes créateurs et interprètes
+ISCO246	Membres du clergé
+ISCO247	Cadres administratifs des services publics
+ISCO3	Professions intermédiaires
+ISCO31	Professions intermédiaires des sciences physiques et techniques
+ISCO311	Techniciens des sciences physiques et techniques
+ISCO312	Pupitreurs et autres opérateurs de matériels informatiques
+ISCO313	Techniciens d'appareils optiques et électroniques
+ISCO314	Techniciens des moyens de transport maritime et aérien
+ISCO315	Inspecteurs d'immeubles, de sécurité, d'hygiène et de qualité
+ISCO32	Professions intermédiaires des sciences de la vie et de la santé
+ISCO321	Techniciens et travailleurs assimilés des sciences de la vie et de la santé
+ISCO322	Professions intermédiaires de la médecine moderne (à l'exception du personnel infirmier)
+ISCO323	Personnel infirmier et sages-femmes (niveau intermédiaire)
+ISCO324	Praticiens de la médecine traditionnelle et guérisseurs
+ISCO33	Professions intermédiaires de l'enseignement
+ISCO331	Professions intermédiaires de l'enseignement primaire
+ISCO332	Professions intermédiaires de l'enseignement préprimaire
+ISCO333	Professions intermédiaires de l'éducation des handicapés
+ISCO334	Autres professions intermédiaires de l'enseignement
+ISCO34	Autres professions intermédiaires
+ISCO341	Professions intermédiaires des finances et de la vente
+ISCO342	Agents commerciaux et courtiers
+ISCO343	Professions intermédiaires de la gestion administrative
+ISCO344	Professions intermédiaires de l'administration publique des douanes et des impôts, et assimilées
+ISCO345	Inspecteurs de la police judiciaire et détectives
+ISCO346	Professions intermédiaires du travail social
+ISCO347	Professions intermédiaires de la création artistique, du spectacle et du sport
+ISCO348	Assistants laïcs des cultes
+ISCO4_5	Employés et vendeurs
+ISCO4	Employés de type administratif
+ISCO41	Employés de bureau
+ISCO411	Secrétaires et opérateurs sur clavier
+ISCO412	Employés des services comptables et financiers
+ISCO413	Employés d'approvisionnement, d'ordonnancement et des transports
+ISCO414	Employés de bibliothèque, de service du courrier et assimilés
+ISCO419	Autres employés de bureau
+ISCO42	Employés de réception, caissiers, guichetiers et assimilés
+ISCO421	Caissiers, guichetiers et assimilés
+ISCO422	Employés de réception et d'information de la clientèle
+ISCO5	Personnel des services et vendeurs de magasin et de marché
+ISCO51	Personnel des services directs aux particuliers et des services de protection et de sécurité
+ISCO511	Agents d'accompagnement et assimilés
+ISCO512	Intendants et personnel des services de restauration
+ISCO513	Personnel soignant et assimilé
+ISCO514	Autre personnel des services directs aux particuliers
+ISCO515	Astrologues, diseurs de bonne aventure et assimilés
+ISCO516	Personnel des services de protection et de sécurité
+ISCO52	Modèles, vendeurs et démonstrateurs
+ISCO521	Mannequins et autres modèles
+ISCO522	Vendeurs et démonstrateurs en magasin, à l'étal et sur les marchés
+ISCO523	Vendeurs à l'étal et sur les marchés
+ISCO6-8	Ouvriers qualifiés
+ISCO6_7	Agriculteurs et ouvriers qualifiés de l'agriculture et de la pêche, artisans et ouvriers des métiers de type artisanal
+ISCO6	Agriculteurs et ouvriers qualifiés de l'agriculture et de la pêche
+ISCO61	Agriculteurs et ouvriers qualifiés de l'agriculture et de la pêche destinées aux marchés
+ISCO611	Agriculteurs et ouvriers qualifiés des cultures
+ISCO612	Éleveurs et ouvriers qualifiés de l'élevage destiné au marché et assimilés
+ISCO613	Agriculteurs et ouvriers qualifiés de polyculture et d'élevage destinés aux marchés
+ISCO614	Professions du forestage et assimilées
+ISCO615	Pêcheurs, chasseurs et trappeurs
+ISCO62	Agriculteurs et ouvriers de l'agriculture et de la pêche de subsistance
+ISCO621	Agriculteurs et ouvriers de l'agriculture et de la pêche de subsistance
+ISCO7-9	Ouvriers
+ISCO7	Artisans et ouvriers des métiers de type artisanal
+ISCO71	Artisans et ouvriers des métiers de l'extraction et du bâtiment
+ISCO711	Mineurs, carriers, boutefeux et tailleurs de pierre
+ISCO712	Ouvriers du bâtiment (gros oeuvre) et assimilés
+ISCO713	Ouvriers du bâtiment (finitions) et assimilés
+ISCO714	Ouvriers peintres, ravaleurs de façades et assimilés
+ISCO72	Artisans et ouvriers des métiers de la métallurgie, de la construction mécanique et assimilés
+ISCO721	Mouleurs de fonderie, soudeurs, tôliers-chaudronniers, monteurs de charpentes métalliques et assimilés
+ISCO722	Forgerons, outilleurs et assimilés
+ISCO723	Mécaniciens et ajusteurs de machines
+ISCO724	Mécaniciens et ajusteurs d'appareils électriques et électroniques
+ISCO73	Artisans et ouvriers de la mécanique de précision, des métiers d'art, de l'imprimerie et assimilés
+ISCO731	Mécaniciens de précision sur métaux et matériaux similaires
+ISCO732	Potiers, souffleurs de verre et assimilés
+ISCO733	Ouvriers des métiers d'artisanat sur bois, sur textile, sur cuir et sur des matériaux similaires
+ISCO734	Artisans et ouvriers de l'imprimerie et assimilés
+ISCO74	Autres artisans et ouvriers des métiers de type artisanal
+ISCO741	Artisans et ouvriers de l'alimentation et assimilés
+ISCO742	Artisans et ouvriers du traitement du bois, ébénistes et assimilés
+ISCO743	Artisans et ouvriers des métiers du textile et de l'habillement et assimilés
+ISCO744	Artisans et ouvriers du travail du cuir, des peaux et de la chaussure
+ISCO8_9	Conducteurs d'installations et de machines et ouvriers de l'assemblage et manoeuvres et agents non qualifiés de l'entretien, de la surveillance et de la manutention
+ISCO8	Conducteurs d'installations et de machines et ouvriers de l'assemblage
+ISCO81	Conducteurs d'installations et de matériels fixes et assimilés
+ISCO811	Conducteurs d'installations d'exploitation minière et d'extraction des minéraux
+ISCO812	Conducteurs d'installations de transformation des métaux
+ISCO813	Conducteurs d'installations de verrerie et de céramique et assimilés
+ISCO814	Conducteurs d'installations pour le travail du bois et la fabrication du papier
+ISCO815	Conducteurs d'installations de traitement chimique
+ISCO816	Conducteurs d'installations de production d'énergie et assimilés
+ISCO817	Conducteurs de chaînes de montage automatiques et de robots industriels
+ISCO82	Conducteurs de machines et ouvriers de l'assemblage
+ISCO821	Conducteurs de machines à travailler les métaux et les produits minéraux
+ISCO822	Conducteurs de machines pour la fabrication des produits chimiques
+ISCO823	Conducteurs de machines pour la fabrication de produits en caoutchouc et en matières plastiques
+ISCO824	Conducteurs de machines à bois
+ISCO825	Conducteurs de machines d'imprimerie, de machines à relier et de machines de papeterie
+ISCO826	Conducteurs de machines pour la fabrication de produits textiles et d'articles en fourrure et en cuir
+ISCO827	Conducteurs de machines pour la fabrication de denrées alimentaires et de produits connexes
+ISCO828	Ouvriers de l'assemblage
+ISCO829	Autres conducteurs de machines et ouvriers de l'assemblage
+ISCO83	Conducteurs de véhicules et d'engins lourds de levage et de manoeuvre
+ISCO831	Conducteurs de locomotives et assimilés
+ISCO832	Conducteurs de véhicules à moteur
+ISCO833	Conducteurs de matériels mobiles agricoles et d'autres engins mobiles
+ISCO834	Matelots de pont et assimilés
+ISCO9	Manoeuvres et agents non qualifiés de l'entretien, de la surveillance et de la manutention
+ISCO91	Employés non qualifiés des services et de la vente
+ISCO911	Vendeurs ambulants et assimilés
+ISCO912	Cireurs de chaussures et autres travailleurs des petits métiers des rues
+ISCO913	Aides de ménage et autres aides, nettoyeurs et blanchisseurs
+ISCO914	Personnel du service d'immeuble, laveurs de vitres et assimilés
+ISCO915	Messagers, porteurs, gardiens, portiers et assimilés
+ISCO916	Éboueurs et manoeuvres assimilés
+ISCO92	Manoeuvres de l'agriculture, de la pêche et assimilés
+ISCO921	Manoeuvres de l'agriculture, de la pêche et assimilés
+ISCO93	Manoeuvres des mines, du bâtiment et des travaux publics, des industries manufacturières et des transports
+ISCO931	Manoeuvres des mines, du bâtiment et des travaux publics
+ISCO932	Manoeuvres des industries manufacturières
+ISCO933	Manoeuvres des transports et manutentionnaires
+ISCO0	Forces armées
+ISCO0_4-9	Non dirigeants, spécialistes (professions intellectuelles et scientifiques) ou professions intermédiaires (ISCO1-3)
+OTH	Autres professions
+NRP	Sans réponse
+UNK	Inconnu

@@ -1,0 +1,23 @@
+TOTAL	Total
+CONV	Logement classique
+OCC_DWEL	Logements occupés
+OWNER	Propriétaire
+OWNER_OCC	Occupé par le propriétaire
+OWNER_LOAN	Propriétaire (hypothèque ou prêt en cours)
+OWNER_NLOAN	Propriétaire (ni hypothèque, ni prêt en cours)
+RENT	Locataire
+RENT_MKT	Locataire - prix du marché
+RENT_FRED	Locataire - prix réduit ou gratuit
+RENT_FREE	Locataire à titre gratuit
+RENT_OTH	Autre forme d'occupation
+RES_UNK	Réservation inconnue
+OTHER	Autre
+SECOND	Résidence à usage saisonnier ou secondaire
+NCONV	Autre unité d'habitation
+CONV_UNK	Logement classique inconnu
+TOT_POPHH	Population totale dans les ménages privés
+VACANT	Immeuble Vacant
+COLL	Quartiers d'habitation collective
+UNK	Inconnu
+UNK_OCC	Type d'occupation inconnu
+TOT_ROOM	Nombre total des pièces

@@ -1,0 +1,142 @@
+TOTAL	Total
+EF0	Programmes généraux
+EF01	Programmes de base / d'enseignement général
+EF010	Programmes de base / d'enseignement général
+EF08	Alphabétisation et apprentissage du calcul
+EF080	Alphabétisation et apprentissage du calcul
+EF09	Compétences/développement personnels
+EF090_347	Développement personnel et vie professionnelle
+EF090	Compétences/développement personnels
+EF1	Éducation
+EF14	Formation des enseignants et sciences de l'éducation
+EF140	Formation des enseignants et sciences de l'éducation (programmes généraux)
+EF141	Enseignement et formation
+EF142	Sciences de l'éducation
+EF143	Formation des enseignants préscolaires
+EF144	Formation des enseignants des niveaux de base
+EF145	Formation des enseignants de disciplines particulières
+EF146	Formation des enseignants de matières professionnelles
+EF2	Lettres et arts
+EF21	Arts
+EF210	Arts (programmes généraux)
+EF211	Beaux-arts
+EF212	Musique et arts du spectacle
+EF213	Techniques audiovisuelles et production média
+EF214	Stylisme/conception
+EF215	Artisanat
+EF22	Lettres
+EF220	Lettres (programmes généraux)
+EF221	Religion
+EF222	Langues étrangères
+EF222_223	Langues (étrangères + maternelle)
+EF223	Langue maternelle
+EF224	Histoire, philosophie et matières apparentées
+EF225	Histoire et archéologie
+EF226	Philosophie et éthique
+EF3	Sciences sociales, commerce et droit
+EF31	Sciences sociales et du comportement
+EF310	Sciences sociales et du comportement (programmes généraux)
+EF311	Psychologie
+EF312	Sociologie et études culturelles
+EF313	Sciences politiques et civiques
+EF314	Économie
+EF32	Journalisme et information
+EF321	Journalisme et reportage
+EF322	Bibliothèque, information, archives
+EF34	Commerce et administration
+EF340	Commerce et administration (Programmes généraux)
+EF341_342	Vente et marketing
+EF341	Vente en gros et au détail
+EF342	Marketing et publicité
+EF343-346	Comptabilité et finance, gestion et administration, secrétariat et travail de bureau
+EF343_344	Comptabilité et finance
+EF343	Finance, banque, assurance
+EF344	Comptabilité et fiscalité
+EF345	Gestion et administration
+EF346	Secrétariat et travail de bureau
+EF347	Vie professionnelle
+EF38	Droit
+EF380	Droit
+EF4_5	Sciences, mathématiques et sciences informatiques, ingénierie, industrie de transformation et production
+EF4	Sciences, mathématiques et sciences informatiques
+EF42_46_5_7	Sciences de la vie, mathématiques et statistiques, ingénierie, industrie de transformation et production, santé et protection sociale
+EF42_46_54_58	Sciences de la vie, mathématiques et statistiques, industrie de transformation et de traitement, architecture et bâtiment
+EF42	Sciences de la vie
+EF421	Biologie et biochimie
+EF422	Sciences de l'environnement
+EF44	Sciences physiques
+EF440	Sciences physiques (programmes généraux)
+EF441	Physique
+EF442	Chimie
+EF443	Sciences de la Terre
+EF46	Mathématiques et statistiques
+EF461	Mathématiques
+EF462	Statistiques
+EF48	Sciences informatiques
+EF481	Sciences informatiques
+EF482	Utilisation de l'ordinateur
+EF5	Ingénierie, industrie de transformation et construction
+EF52_54	Ingénierie et techniques apparentées, industrie de transformation et de traitement
+EF52	Ingénierie et techniques apparentées
+EF520	Ingénierie et techniques apparentées (programmes généraux)
+EF521	Mécanique et travail du métal
+EF522	Électricité et énergie
+EF523	Électronique et automatisation
+EF524	Chimie et génie des procédés
+EF525	Véhicules à moteur, construction navale et aéronautique
+EF54	Industrie de transformation et de traitement
+EF540	Industries de transformation et de traitement (programmes généraux)
+EF541	Agroalimentaire
+EF542	Textile, vêtement, chaussure et cuir
+EF543	Matériaux (bois, papier, plastique, verre)
+EF544	Industries minière et extractive
+EF58	Architecture et bâtiment
+EF581	Architecture et urbanisme
+EF582	Bâtiment et génie civil
+EF6	Agriculture et sciences vétérinaires
+EF62	Agriculture, sylviculture et halieutique
+EF620	Agriculture, sylviculture et halieutique (programmes généraux)
+EF621	Production agricole et animale
+EF622	Horticulture
+EF623	Sylviculture
+EF624	Pêcheries
+EF64	Sciences vétérinaires
+EF641	Sciences vétérinaires
+EF7	Santé et protection sociale
+EF72	Santé
+EF720	Santé (programmes généraux)
+EF721	Médecine
+EF722	Services médicaux
+EF723	Soins infirmiers
+EF724	Études dentaires
+EF725	Techniques de diagnostic médical et de traitement
+EF726	Thérapie et rééducation
+EF727	Pharmacie
+EF76	Services sociaux
+EF761	Soins aux enfants et services pour la jeunesse
+EF762	Travail social et orientation
+EF8	Services
+EF81_84_86	Services aux particuliers, services de transport, services de sécurité
+EF81	Services aux particuliers
+EF810	Services aux particuliers (programmes généraux)
+EF811	Hôtellerie et services de restauration
+EF812	Voyage, tourisme et loisirs
+EF813	Sports
+EF814	Services à domicile
+EF815	Coiffure et soins de beauté
+EF84	Services de transport
+EF840	Services de transport
+EF85_862	Protection de l'environnement, santé et sécurité du travail
+EF85	Protection de l'environnement
+EF850	Protection de l'environnement (programmes généraux)
+EF851	Techniques de protection de l'environnement
+EF852	Milieux naturels
+EF853	Élimination des déchets
+EF86	Services de sécurité
+EF860	Services de sécurité (programmes généraux)
+EF861	Protection des personnes et des biens
+EF862	Santé et sécurité du travail
+EF863	Sécurité militaire
+NRP	Sans réponse
+OTH	Autres
+UNK	Inconnu

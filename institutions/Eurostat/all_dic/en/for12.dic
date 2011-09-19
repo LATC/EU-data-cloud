@@ -1,0 +1,44 @@
+D322O1	Total area (1000 ha)
+D322O2	Inland waters (1000 ha)
+D322O3	Total land area (1000 ha)
+D322O4	Total land area (%)
+D322O5	Wooded area (Forest and other wooded land - FOWL) (1000 ha)
+D322O6	Wooded area (Forest and other wooded land - FOWL) (%)
+D322O7	Utilised agricultural area (1000 ha)
+D322O8	Utilised agricultural area (%)
+D322O9	Other land area (1000 ha)
+D322O10	Other land area (%)
+D322O11	FOWL/Capita (ha)
+D322O12	Reference period 1 (P1) from
+D322O13	Reference period 1 (P1) to
+D322O14	Reference period 2 (P2) from
+D322O15	Reference period 2 (P2) to
+D322O30	Reference period 3 (P3) from
+D322O31	Reference period 3 (P3) to
+D322O36	Reference period 4 (P4) from
+D322O37	Reference period 4 (P4) to
+D322O16	Wooded area (Forest and other wooded land (FOWL) (P2) (1000 ha)
+D322O17	Forest land (P2) (1000 ha)
+D322O18	Other wooded land (P2) (1000 ha)
+D322O19	Forest land, average annual change (P1 to P2)(1000 ha)
+D322O20	Forests available for wood supply (FAWS) (P2) (1000 ha)
+D322O21	FAWS/Forest land (%) (P2-P1) (1000 ha)
+D322O22	FAWS, average annual change (P1 to P2)(1000 ha)
+D322O23	Growing stock on forest land (P1)(1000 m³ overbark)
+D322O24	Growing stock on forest land (P2)(1000 m³ overbark)
+D322O25	Growing stock on forest land, average annual change (P1 to P2)(1000 m³ overbark/year)
+D322O26	Growing stock on FAWS (P1)(1000 m³ overbark)
+D322O27	Growing stock on FAWS (P2)(1000 m³ overbark)
+D322O28	Growing stock on FAWS, average annual change (P1 to P2)(1000 m³ overbark/year)
+D322O29	Growing stock/FAWS (m³ overbark/ha)
+D322O32	Net annual increment (NAI) on FAWS (P3) (1000 m³ overbark)
+D322O33	NAI, coniferous on FAWS (P3) (1000 m³ overbark)
+D322O34	NAI, non-coniferous on FAWS (P3) (1000 m³ overbark)
+D322O35	NAI/FAWS (P3) (m³ overbark/ha)
+D322O38	Annual fellings on FAWS (P4) (1000 m³ overbark)
+D322O39	Annual fellings, coniferous on FAWS (P4) (1000 m³ overbark)
+D322O40	Annual fellings, non-coniferous on FAWS (P4) (1000 m³ overbark)
+D322O41	Annual removals from FAWS (P4) (1000 m³ overbark)
+D322O42	Annual removals, coniferous from FAWS (P4) (1000 m³ overbark)
+D322O43	Annual removals, non-coniferous from FAWS (P4) (1000 m³ overbark)
+D322O50	Forest not available for wood supply

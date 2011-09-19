@@ -1,0 +1,19 @@
+TOTAL	Unterbringung insgesamt
+H_CV	Herkömmliche Unterbringung
+DW	Herkömmliche Wohnungen
+DW_OC	Bewohnte herkömmliche Wohnungen
+DW_OWN	Herkömmliche Eigentümerwohnungen
+DW_COOP	"Herkömmliche Wohnungen, bewohnt von einem Miteigentümer der Genossenschaft"
+DW_RENT	Herkömmliche Mietwohnungen
+DW_OTH	Herkömmliche Wohnungen in anderen Eigentumsverhältnissen
+DW_NOC	Unbewohnte herkömmliche Wohnungen
+DW_SEC	"Herkömmliche Wohnungen, die zu bestimmten Jahreszeiten oder als Zweitwohnung bewohnt werden"
+DW_VAC	Leerstehende herkömmliche Wohnungen
+CLQ	Gemeinschaftsunterkünfte
+H_NCV	Nicht-herkömmliche Unterbringung (einschl. Obdachlosigkeit)
+H_OTH	Nicht-herkömmliche Unterbringung (ohne Obdachlosigkeit)
+HMLS	Obdachlosigkeit
+HMLS1	Primär-Obdachlosigkeit
+HMLS2	Sekundär-Obdachlosigkeit
+H_OC	Bewohnte Unterbringung insgesamt (ohne Obdachlosigkeit)
+UNK	Unbekannt

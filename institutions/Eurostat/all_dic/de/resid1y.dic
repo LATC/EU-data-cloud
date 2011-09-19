@@ -1,0 +1,13 @@
+TOTAL	Insgesamt
+OTH_NUTS3	Ein Jahr vor dem Zensus in einer anderen NUTS 3 Region desselben Heimatlandes lebend
+LIVOUT	Ein Jahr vor dem Zensus außerhalb des Heimatlandes lebend
+EU15_EFTA	Wohnort in EU15 und EFTA (CH, IS, LI, NO)
+EUR_C	Wohnort in Mitteleuropa (AL, BG, CZ, EE, HU, LT, LV, MK, PL, RO, SI, SK)
+EUR_CE	Wohnort in Mittel- und Osteuropa (BG, HR, CZ, EE, HU, LV, LT, PL, RO, SK, SI, AL, BA, MK, CS)
+EUR_NIS	Wohnort in NIS (BY, MD, RU, UA)
+EUR_REM	Wohnort in ein anderes europÄisches Land (AD, CY, MT, TR, MC, SM, VA)
+ASI	Wohnort in Asien
+AME	Wohnort in Amerika
+AFR	Wohnort in Afrika
+OCE	Wohnort in Ozeanien
+UNK	Unbekannter Wohnort

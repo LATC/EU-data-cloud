@@ -1,0 +1,11 @@
+TOTAL	Insgesamt
+CREDIT	Einnahmen
+DEBIT	Ausgaben
+NET	Saldo
+ST	Verrat
+CHG	Changes in position other than transactions
+IMP	Einfuhren
+EXP	Ausfuhren
+BAL	Handelsbilanz (Ausfuhren - Einfuhren)
+BAL_RT	Saldo für Werte/Quotient für Indizes
+DOMESTIC	Einheimische

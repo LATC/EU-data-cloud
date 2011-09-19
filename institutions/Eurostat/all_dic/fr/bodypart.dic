@@ -1,0 +1,42 @@
+TOTAL	Total
+BP1	Tête, sans autre spécification
+BP11	Tête (caput), cerveau, nerfs crâniens et vaisseaux cérébraux
+BP12	Zone faciale
+BP13	Oeil / yeux
+BP14	Oreille(s)
+BP15	Dentition
+BP18	Tête, multiples endroits affectés
+BP19	Autres parties de la tête
+BP2	Cou, y compris colonne vertébrale et vertèbres du cou
+BP21	Cou, y compris colonne vertébrale et vertèbres du cou
+BP29	Autres parties du cou
+BP3	Dos, y compris colonne vertébrale et vertèbres du dos
+BP31	Dos, y compris colonne vertébrale et vertèbres du dos
+BP39	Autres parties du dos
+BP4	Torse et organes, sans autre spécification
+BP41	Cage thoracique, côtes y compris omoplates et articulations
+BP42	Poitrine, y compris organes
+BP43	Abdomen et pelvis, y compris organes
+BP48	Torse, multiples endroits affectés
+BP49	Autres parties du torse
+BP5	Membres supérieurs, sans autre spécification
+BP51	Épaule et articulations de l'épaule
+BP52	Bras, y compris coude
+BP53	Main
+BP54	Doigt(s)
+BP55	Poignet
+BP58	Membres supérieurs, multiples endroits affectés
+BP59	Autres parties des membres supérieurs
+BP6	Membres inférieurs, sans autre spécification
+BP61	Hanche et articulation de la hanche
+BP62	Jambe, y compris genou
+BP63	Cheville
+BP64	Pied
+BP65	Orteil(s)
+BP68	Membres inférieurs, multiples endroits affectés
+BP69	Autres parties des membres inférieurs
+BP7	Ensemble du corps et endroits multiples, sans autre spécification
+BP71	Ensemble du corps (effets systémiques)
+BP78	Multiples endroits du corps affectés
+OTH	Autres parties du corps blessées
+UNK	Localisation de la blessure non déterminée

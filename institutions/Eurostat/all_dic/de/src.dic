@@ -1,0 +1,116 @@
+FR_1	Niederschlag
+FR_2	Aktuelle Evapotranspiration
+FR_3	Interner Fluss
+FR_4	Tatsächlicher externer Zufluss
+FR_5	Tatsächlicher Gesamtabfluss
+FR_5_1	Tatsächlicher Abfluss ins Meer
+FR_5_2	Tatsächlicher Abfluss in angrenzende Gebiete
+FR_6	Gesamte Süsswasserressourcen
+FR_7	Wiederauffüllung des Grundwassers
+FR_8	Wiederauffüllung minus ökologisch notwendiger Wasserführung
+FR_9	Für die jährliche Entnahme verfügbares Grundwasser
+FR_10	Zu 95 Prozent verlässliche Süßwasserressourcen
+W16_1	Brutto-Süßwasserentnahmen, insgesamt
+W16_2	Zurückgeleitetes Wasser (vor oder ohne Nutzung)
+W16_3	Netto-Süßwasserentnahmen, insgesamt
+W16_4	Entsalztes Wasser
+W16_5	Wiederverwendetes Wasser
+W16_6	Wasserimporte
+W16_7	Wasserexporte
+W16_8	Für die Nutzung verfügbares Wasser im Gebiet, insgesamt
+W16_9	Wasserverluste beim Transport, ingesamt
+W16_9_1	Verdunstungsverluste
+W16_9_2	Verluste durch Lecks
+W16_9_3	Für die Endverbraucher verfügbares Wasser im Gebiet
+W16_10	Abgeleitetes Kühlwasser, insgesamt
+W16_10_1	Ableitung in Binnengewässer
+W16_10_2	Ableitung ins Meer
+W16_11	Abwassermenge, insgesamt
+W16_11_1	Ableitung in Binnengewässer
+W16_11_2	Ableitung ins Meer
+W16_12	Wiederverwendetes Wasser
+W16_13	Wasserableitung nach Nutzung
+W16_14	Verbrauchende Wassernutzung
+W16_15	Wasserverbrauch, insgesamt
+WA1_1	Tatlächlicher Zufluss aus angrenzenden Gebieten
+WA1_2	Tatsächlicher Abfluss in angrenzende Gebiete
+WA5_1	Oberflächenwasser (Süsswasser)
+WA5_2	Grundwasser (Süsswasser)
+WA5_3	Süsswasser, insgesamt (Oberflächen- und Grundwasser)
+WA5_4	Sonstiges Oberflächenwasser
+WA5_5	Insgesamt (Süsswasser und sonstige)
+SC_1	Salz- und Brackwasser
+SC_2	Entsalztes Wasser
+SC_3	Wiederverwendetes Wasser
+SC_4	Wasserimporte
+W17_1	Öffentliche Wasserversorgung
+W17_2	Selbstversorgung
+W17_3	Sonstige Versorgung
+WW0_1	Wohnbevölkerung (1000)
+WW0_2	Kommunale Kläranlagen, gesamt
+WW0_2_1	Kommunale Kläranlagen mit lediglich primärer Behandlung
+WW0_2_2	Kommunale Kläranlagen mit sekundärer Behandlung
+WW0_2_3	Kommunale Kläranlagen mit tertiärer Behandlung
+WW0_2_4	Reinigung in kommunalen Kläranlagen, davon mit lokaler Abwassersammlung (ohne Kanalanschluss)
+WW0_3	Sonstige Abwasserbehandlung (z. B. Industriekläranlagen)
+WW0_3_1	Sonstige Abwasserbehandlung, davon mit lokaler Abwassersammlung (ohne Kanalanschluss)
+WW0_4	Kanalisation für kommunales Abwasser mit nachfolgender Behandlung
+WW0_5	Kanalisation für kommunales Abwasser, ohne nachfolgende Behandlung
+WW0_6	Kanalisation für kommunales Abwasser, insgesamt
+WW0_7	Lokale Abwassersammlung mit nachfolgender Behandlung, insgesamt
+WW0_7_1	Unabhängige (dezentrale) Abwasserbehandlung, insgesamt
+WW0_7_1_1	Unabhängige (dezentrale) Abwasserbehandlung, zumindest sekundäre Behandlung
+WW0_8	Anschluss an Abwasserbehandlung, insgesamt
+WW1_1	Kommunale Kläranlagen
+WW1_2	Sonstige Abwasserbehandlung
+WW1_3	Unabhängige Behandlung
+WW3_1	Abwasseraufkommen - Punktquellen (insgesamt)
+WW3_1_1	Abwasseraufkommen in Land-und Forstwirtschaft, Fischerei und Fischzucht (Punktquellen)
+WW3_1_2	Abwasseraufkommen im Bergbau und Gewinnung von Steinen und Erden
+WW3_1_3	Verarbeitendes Gewerbe
+WW3_1_3_1	Abwasseraufkommen im Nahrungsmittelgewerbe
+WW3_1_3_2	Abwasseraufkommen im Metallerzeugung und -verarbeitung
+WW3_1_3_3	Herstellung von Kraftwagen und Kraftwagenteilen und sonstiger Fahrzeugbau
+WW3_1_3_4	Abwasseraufkommen im Textilindustrie, usw.
+WW3_1_3_5	Abwasseraufkommen im Erzeugung von Papier und Papierprodukte
+WW3_1_3_6	Abwasseraufkommen im chemische Industrie, Erdölraffinerien usw.
+WW3_1_4	Elektrizitätserzeugung und -verteilung (ausgenommen Kühlwasser)
+WW3_1_5	Abwasseraufkommen im Baugewerbe
+WW3_1_6	Industrie (insgesamt)
+WW3_1_7	Abwasseraufkommen im Haushaltsbereich
+WW3_1_7_1	Abwasseraufkommen im Haushaltsbereich, Dienstleistungen
+WW3_1_7_2	Abwasseraufkommen im Haushaltsbereich, Privathaushalte
+WW3_2	Abwasseraufkommen aus diffusen Quellen
+WW3_3	Abwasseraufkommen aus sämtlichen Quellen
+WW3_4	Behandlung und Ableitung von Abwasser: Abwasseraufkommen aus Haushalten und Dienstleistungsbetrieben
+WW3_4_1	Abwassermenge des Haushaltsbereichs mit Anschluss an die Kanalisation für kommunale Abwässer
+WW3_4_2	Abwassermenge des Haushaltsbereichs ohne Kanalisationsanschluss und ableitet, insgesamt
+WW3_4_2_1	Abwassermenge des Haushaltsbereichs nach unabhängiger Behandlung abgeleitet
+WW3_5	Gesamtabwassermenge aus gewerblichen Tätigkeiten
+WW3_5_1	Abwassermenge aus gewerblichen Tätigkeiten mit Anschluss an die Kanalisation für kommunale Abwässer
+WW3_5_2	Abwassermenge aus gewerblichen Tätigkeiten ohne Kanalisationsanschluss und ableitet, insgesamt
+WW3_5_2_1	Abwassermenge aus gewerblichen Tätigkeiten nach Behandlung in einer Kläranlage für Industrieabw.
+WW3_6	Gesamtabwasser-Zufluss in die Kanalisation für kommunales Abwässer
+WW3_6_1	Abwasser-Zufluss in die Kanalisation für kommunales Abwässer und an eine kommunale Kläranlage angeschlossen
+WW3_6_2	Abwasser-Zufluss in die Kanalisation für kommunales Abwässer mit Anschluß an eine Kläranlage für Industrieabwässer
+WW3_6_3	Abwasser-Zufluss in die Kanalisation für kommunales Abwässer ohne Behandlung abgeleitet
+WW3_7	Ableitungen aus den kommunalen Kläranlagen, insgesamt
+WW3_7_1	Ableitungen aus den kommunalen Kläranlagen in die Umwelt abgeleitet
+WW3_7_2	Ableitungen aus den kommunalen Kläranlagen wiederverwendet
+WW3_8	Ableitungen in Binnengewässer, insgesamt
+WW3_9	Ableitungen ins Meer, insgesamt
+SC_5	Sonstige
+WW0_9	Anschluss an kommunale Kanalisation mit nachfolgender Abwasserbehandlung
+WW1_0	% der Wohnbevölkerung deren Abwasser von lokalen Sammeltanks mit LKWs zu Kläranlagen transportiert wird
+WW3_10	Ableitungen von Kläranlagen (kommunale und sonstige)
+WW3_11	Direkte Ableitungen aus diffusen Quellen
+WW3_4_3	Abwassermenge des Haushaltsbereichs: Behandelt, insgesamt
+WW3_4_3_1	Abwassermenge des Haushaltsbereichs: Behandelt in Kläranlagen (kommunal und sonstige)
+WW3_4_3_2	Abwassermenge des Haushaltsbereichs: behandelt in unabhängigen Abwasser-behandlungsanlagen
+WW3_4_4	Behandelt in unabhängigen Abwasserbehandlungs-anlagen, abgeleitet, insgesamt
+WW3_4_4_1	Behandelt in unabhängigen Abwasserbehandlungs-anlagen, abgeleitet nach Behandlung
+WW3_4_4_2	Behandelt in unabhängigen Abwasserbehandlungs-anlagen, abgeleitet ohne Behandlung
+WW3_5_3	Gesamtabwassermenge aus Industrie, behandelt, insgesamt
+WW3_5_4	Gesamtabwassermenge aus Industrie, abgeleitet, insgesamt
+WW3_5_4_1	Gesamtabwassermenge aus Industrie, abgeleitet nach Behandlung
+WW3_5_4_2	Gesamtabwassermenge aus Industrie, abgeleitet ohne Behandlung

@@ -1,0 +1,1199 @@
+TOT_VAR	Total, toutes variétés de vigne
+TOT_BLK	Total, variétés de vigne noires
+OTH_BNS	Other black, varieties not mentioned
+TOT_WHI	Total, variétés de vigne blanches et autres couleurs
+OTH_WNS	Other white varieties not mentioned and other colours
+B_IND	Total black individual varieties
+W_IND	Total, variétés de vigne blanches particulières et autres couleurs
+TOT_IND	Total, variétés de vigne particulières
+TOT_OTH	Total, autres variétés de vigne
+AT1000	Blauburger
+AT1001	Blauer Burgunder (Blauer Spätburgunder, Blauburgunder, Pinot Noir)
+AT1002	Blauer Potugieser
+AT1003	Blauer Wildbacher
+AT1004	Blaufränkisch
+AT1005	Cabernet Franc
+AT1006	Cabernet Sauvignon
+AT1007	Merlot
+AT1008	St. Laurent
+AT1009	Zweigelt (Blauer Zweigelt,Rotburger)
+AT2000	Bouvier
+AT2001	Frühroter Veltliner (Malvasier)
+AT2002	Furmint
+AT2003	Goldburger
+AT2004	Grauer Burgunder (Pinot Gris, Ruländer)
+AT2005	Grüner Veltliner (Weißgipfler)
+AT2006	Jubiläumsrebe
+AT2007	Müller-Thurgau (Riesling Sylvaner, Rivaner)
+AT2008	Muskateller (Gelber Muskateller, Roter Muskateller)
+AT2009	Muskat-Ottonel
+AT2010	Neuburger
+AT2011	Roter Veltliner
+AT2012	Rotgipfler
+AT2013	Sauvignon Blanc  (Muskat-Sylvaner)
+AT2014	Scheurebe (Sämling 88)
+AT2015	Sylvaner (Grüner Sylvaner)
+AT2016	Traminer (Gewürztraminer, Roter Traminer)
+AT2017	Weißer Burgunder (Weißburgunder, Pinot Blanc, Klevner) und Chardonnay (Feinburgunder,Morillon)
+AT2018	Weißer Riesling (Riesling, Rheinriesling)
+AT2019	Welschriesling
+AT2020	Zierfandler (Spätrot)
+DE1000	Deckrot
+DE1001	Domina
+DE1002	Dornfelder
+DE1003	Dunkelfelder
+DE1004	Frühburgunder, Blauer
+DE1005	Hegel
+DE1006	Helfensteiner
+DE1007	Heroldrebe
+DE1008	Limberger, Blauer
+DE1009	Müllerrebe (Schwarzriesling)
+DE1010	Portugieser, Blauer
+DE1011	Regent
+DE1012	Rotberger
+DE1013	Saint Laurent
+DE1014	Spätburgunder, Blauer
+DE1015	Tauberschwarz (Hängling, Blauer)
+DE1016	Trollinger, Blauer
+DE1017	Zweigelt, Blauer
+DE1018	Sonstige rote Rebsorten
+DE1019	Versuchsanbau (rote Rebsorten)
+DE2000	Albalonga
+DE2001	Arnsburger
+DE2002	Auxerrois
+DE2003	Bacchus
+DE2004	Burgunder, Weißer
+DE2005	Chardonnay
+DE2006	Ehrenbreitsteiner
+DE2007	Ehrenfelser
+DE2008	Elbling, Weißer
+DE2009	Faberrebe
+DE2010	Findling
+DE2011	Fontanara
+DE2012	Freisamer
+DE2013	Goldriesling
+DE2014	Gutedel, Weißer
+DE2015	Hölder
+DE2016	Huxelrebe
+DE2017	Juwel
+DE2018	Kanzler
+DE2019	Kerner
+DE2020	Mariensteiner
+DE2021	Merzling
+DE2022	Morio-Muskat
+DE2023	Müller-Thurgau
+DE2024	Muskateller, Gelber
+DE2025	Muskat-Ottonel
+DE2026	Nobling
+DE2027	Optima  113
+DE2028	Orion
+DE2029	Ortega
+DE2030	Osteiner
+DE2031	Phoenix
+DE2032	Regner
+DE2033	Reichensteiner
+DE2034	Rieslaner
+DE2035	Riesling, Weißer
+DE2036	Scheurebe
+DE2037	Silcher
+DE2038	Silvaner, Grüner
+DE2039	Sirius
+DE2040	Staufer
+DE2041	Würzer
+DE2042	Ruländer  (Burgunder, Grauer)
+DE2043	Schönburger
+DE2044	Elbling, Roter
+DE2045	Gutedel, Roter
+DE2046	Kernling
+DE2047	Malvasier, Früher Roter
+DE2048	Muskateller, Roter
+DE2049	Perle
+DE2050	Siegerrebe
+DE2051	Traminer, Roter  (Gewürztraminer)
+DE2052	Silvaner, Blauer
+DE2053	Sonstige weiße Rebsorten
+DE2054	Versuchsanbau (weiße Rebsorten)
+ES1070	Alfonso lavalle
+ES1033	Argelina
+ES1207	Bastarda negra
+ES1330	Bastardillo
+ES1311	Blush seedless
+ES1005	Bobal
+ES1062	Bonicaire
+ES1125	Brancellao
+ES1195	Cabernet franc
+ES1161	Cabernet sauvignon
+ES1213	Caiño tinto
+ES1142	Callet
+ES1021	Cardinal
+ES1212	Castellana
+ES1191	Cinsaut seedless
+ES1082	Colgadero
+ES1073	Coloraillo
+ES1098	Decuerno
+ES1118	Espadeiro
+ES1110	Ferron
+ES1189	Flame seedless
+ES1130	Fogoneu
+ES1540	Forastera
+ES1069	Forcallat tinta
+ES1179	Gamay
+ES1541	Garnacha (tinto aragones)
+ES1001	Garnacha
+ES1034	Garnacha peluda
+ES1163	Garnacha roja
+ES1052	Garnacha tintorera
+ES1035	Gateta
+ES1003	Graciano
+ES1124	Gran negro
+ES1077	Grumier tinto
+ES1095	Jaen tinto
+ES1129	Juan garcia
+ES1304	Leopoldo III
+ES1208	Listan negro
+ES1162	Loureiro tinto
+ES1165	Malbec
+ES1102	Malvasia negra
+ES1131	Manto negro
+ES1004	Mazuela
+ES1053	Mencia
+ES1166	Merlot
+ES1031	Miguel del arco
+ES1049	Molinera
+ES1038	Mollar
+ES1050	Monastrell
+ES1548	Moravia
+ES1158	Moravia agria
+ES1039	Moravia dulce
+ES1029	Morenillo
+ES1306	Moscatel hamburt
+ES1210	Moscatel negro
+ES1126	Mouraton
+ES1200	Mourvedre
+ES1303	Mulata
+ES1176	Naparo
+ES1139	Negra comun
+ES1120	Negra de mesa
+ES1134	Negramoll
+ES1149	Ondarrabi beltza
+ES1026	Panse negro
+ES1116	Parraleta
+ES1115	Parrel verdal
+ES1128	Pedral
+ES1170	Picapoll negro
+ES1186	Pinot menier
+ES1178	Pinot noir
+ES1068	Planta mula
+ES1046	Prieto picudo
+ES1323	Red globe
+ES1091	Rojal tinta
+ES1171	Rome
+ES1160	Rubi cabernet
+ES1324	Ruby seedless
+ES1100	Rufete
+ES1113	Souson
+ES1024	Sumoll
+ES1180	Syrach
+ES1002	Tempranillo
+ES1328	Tinta gorda
+ES1017	Tinto basto
+ES1154	Tinto de la pampana blanca
+ES1103	Tinto de toro
+ES1151	Tinto de zafra
+ES1331	Tinto jeroma
+ES1056	Tinto velasco
+ES1028	Trepat
+ES1169	Verdejo negro
+ES1211	Vijiriego negro
+ES1559	Valenciana tinta (planta mula)
+ES1560	Hybrid directly producing black grapes
+ES1561	Grafting for black grapes without the parent vine
+ES2147	Agudello
+ES2010	Airen
+ES2018	Alarije
+ES2106	Albariño
+ES2214	Albariño blanco
+ES2032	Albillo
+ES2117	Alcañon
+ES2300	Almuñeco
+ES2193	Aramont
+ES2302	Bastarda
+ES2087	Beba
+ES2019	Blanca Cayetana
+ES2020	Borba
+ES2201	Bourboulenc
+ES2175	Breval
+ES2332	Brocada
+ES2140	Burra blanca
+ES2112	Caiño blanco
+ES2015	Calagraño
+ES2145	Cañorroyo
+ES2055	Cariñena blanco
+ES2185	Cartouche
+ES2127	Castoñotal
+ES2313	Centenial seedless
+ES2164	Chardonnay
+ES2078	Chaselas dorada
+ES2181	Chenin
+ES2153	Ciguente
+ES2316	Dawn seedless
+ES2093	De cilindro
+ES2138	Diego
+ES2099	Dominga
+ES2123	Doña Blanca
+ES2198	Doradilla
+ES2190	Emerald seedless
+ES2152	Fino de ribera del Fresno
+ES2204	Folle blanche
+ES2141	Forastera
+ES2061	Forcallat blanca
+ES2011	Garnacha blanca
+ES2088	Garrido fino
+ES2109	Godello
+ES2183	Gewürztraminer
+ES2205	Gual
+ES2085	Huerta del rey
+ES2076	Iso
+ES2334	Lado
+ES2133	Listan
+ES2111	Loureiro blanca
+ES2009	Macabeo
+ES2199	Malfar
+ES2036	Malvar
+ES2008	Malvasia
+ES2037	Malvasia sitges
+ES2101	Mandon
+ES2014	Mantua (chelva)
+ES2042	Marisancho
+ES2058	Messeguera
+ES2333	Michelle Parlieri
+ES2329	Monstruosa de Monterrei
+ES2167	Moscatel de grano menudo
+ES2027	Moscatel de Malaga
+ES2307	Moscatel Fontiñan
+ES2090	Ohanes
+ES2148	Ondarrabi Zuri
+ES2006	Palomino fino
+ES2197	Palomino superior
+ES2023	Palot
+ES2192	Pansa rosada
+ES2051	Panse valenciana
+ES2520	Pardillo
+ES2150	Pardina
+ES2025	Parellada
+ES2104	Pedro Luis
+ES2007	Pedro Ximenez
+ES2146	Pensal blanco
+ES2187	Perlita
+ES2043	Perruno
+ES2013	Picapoll blanco
+ES2060	Planta fina
+ES2045	Planta nova
+ES2305	Rhin
+ES2182	Riesling
+ES2080	Robal
+ES2063	Roseti
+ES2097	Royal
+ES2301	Sabro
+ES2084	Salvador
+ES2177	Sauvignon blanca
+ES2184	Sugra five
+ES2066	Teta de vaca
+ES2196	Thompson
+ES2107	Torrontes
+ES2065	Tortosina
+ES2105	Treixadura
+ES2202	Ugni blanc
+ES2114	Uva rey
+ES2067	Valenciana blanca
+ES2030	Verdejo blanco
+ES2079	Verdil
+ES2054	Verdoncho
+ES2137	Vermejuela
+ES2135	Vijiriego
+ES2188	Viñeti
+ES2203	Viognier
+ES2529	Viura (macabeo alcañon)
+ES2012	Xarello blanco
+ES2094	Yaqui
+ES2531	Zamela
+ES2048	Zalema
+ES2000	Not identified variety
+ES2700	Mixed varieties
+ES2796	Area not yet grafted with rights
+ES2797	Parent vines
+ES2798	Hybrid directly producing white grapes
+ES2533	Grafting for white grapes without the parent vine
+FR1000	Vinifs.cuve N
+FR1001	Abouriou N
+FR1002	Alicante h.bous .N
+FR1003	Aramon N
+FR1004	Aubun N
+FR1005	Bouchales N
+FR1006	Cabernet franc N
+FR1007	Caber.sauvignon N
+FR1008	Calitor noir N
+FR1009	Carignan N
+FR1010	Chenanson N
+FR1011	Cinsaut N
+FR1012	Counoise N
+FR1013	Gamay N
+FR1014	Gamays teinturiers
+FR1015	Gamay t.bouze N
+FR1016	Gamay t.freaux N
+FR1017	Gamay Chaudenay N
+FR1018	Ganson N
+FR1019	G.N. La Calmette N
+FR1020	Lledoner pelut N
+FR1021	Gramon N
+FR1022	Grenache N
+FR1023	Grolleau N
+FR1024	Jurancon noir N
+FR1025	Cot N
+FR1026	Mauzac noir N
+FR1027	Merille N
+FR1028	Merlot N
+FR1029	Meunier N
+FR1030	Mondeuse N
+FR1031	Gros Morras.Bous.N
+FR1032	Monerac N
+FR1033	Muscat Hambourg N
+FR1034	Negrette N
+FR1035	Petit Bouschet N
+FR1036	Pineau d'Aunis N
+FR1037	Pinot noir N
+FR1039	Pinot précoce N
+FR1040	Piquepoul bousch N
+FR1041	Piquepoul noir N
+FR1042	Portugais bleu N
+FR1043	Portan N
+FR1044	Poulsard N
+FR1045	Syrah N
+FR1046	Tannat N
+FR1047	Terret noir N
+FR1048	Tibouren N
+FR1049	Valdiguie N
+FR1050	Manseng noir N
+FR1051	Petit Verdot N
+FR1053	Odola N
+FR1054	Egiodola N
+FR1055	Arinarnoa N
+FR1056	Segalin N
+FR1057	Semebat N
+FR1058	Caladoc N
+FR1059	Ederena N
+FR1062	Aramon Bouschet N
+FR1065	Aspiran Bouschet N
+FR1066	Petit Beclan N
+FR1068	Bequignol N
+FR1070	Bouillet N
+FR1071	Carcajolo noir N
+FR1073	Brachet N
+FR1076	Brun argenté N
+FR1078	Cabernet Malbec4 N
+FR1079	Camaralet Lasseu N
+FR1082	Carignan Bousch N
+FR1083	Carmenere N
+FR1084	Castets N
+FR1085	Cep rouge N
+FR1086	Cesar N
+FR1087	Chatus N
+FR1088	Corbeau N
+FR1089	Cornichon violet N
+FR1091	Duras N
+FR1093	Durif N
+FR1095	Etraire D.la Dui N
+FR1096	Fer N
+FR1097	Feunate N
+FR1098	Fuella Nera N
+FR1102	Gamay précoce N
+FR1103	Gascon N
+FR1105	Gouget N
+FR1107	Gros bec N
+FR1111	Joubertin N
+FR1113	Lasca N
+FR1115	Mancin N
+FR1118	Milgranet N
+FR1119	Mollard N
+FR1120	Mornen N
+FR1121	Morrastel N
+FR1122	Mourvaison N
+FR1123	Mourvedre N
+FR1124	Mouyssagues N
+FR1125	Muscardin N
+FR1126	Nielluccio N
+FR1127	Noir Fleurien N
+FR1129	Oeillade Bousche N
+FR1131	Peloursin N
+FR1132	Persan N
+FR1133	Ribier N
+FR1134	Plant droit N
+FR1135	Pougnet N
+FR1136	Provareau N
+FR1137	Prunelard N
+FR1138	Saint macaire N
+FR1139	Sciaccarello N
+FR1140	Servanin N
+FR1141	Teinturier N
+FR1142	Teoulier N
+FR1144	Trousseau N
+FR1146	Aleatico N
+FR1149	Tressot N
+FR1151	Valais noir N
+FR1152	Grassen N
+FR1153	Dolcetto N
+FR1157	Mecle Bourgoin N
+FR1158	Courbu noir N
+FR1159	Tempranillo N
+FR1160	Zinfandel N primit
+FR1161	Alicante terr.20 N
+FR1162	Auxerrois rupes N
+FR1166	Hybrid.cuve N
+FR1169	Hybride Boiziau N
+FR1172	Fontan N
+FR1173	Taylor N
+FR1177	Cynthiana N
+FR1178	Chenivesse N
+FR1179	Baco noir N
+FR1180	Baco divers N
+FR1183	Florental N
+FR1184	Castel divers N
+FR1185	Coudrec divers  N
+FR1186	Coudrec N
+FR1187	Gaillard divers N
+FR1189	Johan.seyve D. N
+FR1190	Chambousin N
+FR1191	Marechal Foch N
+FR1193	Leon Millot N
+FR1194	Landal N
+FR1195	Landot divers N
+FR1196	Malegue divers N
+FR1198	Oberlin N
+FR1201	Ravat divers N
+FR1202	Vidal divers N
+FR1203	Seibel divers N
+FR1204	Plantet N
+FR1205	Colobel N
+FR1206	Seinoir N
+FR1208	Bellandais N
+FR1209	Seyve Vil. divers N
+FR1210	Garonnet N
+FR1211	Villard noir N
+FR1212	Varousset N
+FR2000	Vinifs.cuve B
+FR2001	Aligote B
+FR2002	Altesse B
+FR2003	Aromon blanc B
+FR2004	Baroque B
+FR2005	Bourboulenc B
+FR2006	Calitor blanc B
+FR2007	Carignan blanc B
+FR2008	Chardonnay B
+FR2009	Chasan B
+FR2010	Chasselas B
+FR2011	Chenin B
+FR2012	Clairette B
+FR2013	Colombard B
+FR2014	Folle blanche B
+FR2015	Grenache blanc B
+FR2016	Gros vert B Cuve
+FR2017	Jacquere B
+FR2018	Jurancon blanc B
+FR2019	Macabeu B
+FR2020	Tourbat B
+FR2021	Marsanne B
+FR2022	Mauzac B
+FR2023	Merlot blanc B
+FR2024	Meslier St.Franc.B
+FR2025	Petit Meslier B
+FR2026	Monbadon B
+FR2027	Mondeuse Blanche B
+FR2028	Muscadelle B
+FR2029	Melon B
+FR2030	Muscat Alexandr. B
+FR2031	Musc.Pts.Grains B
+FR2032	Muscat Ottonel B
+FR2033	Muscat De Colmar B
+FR2034	Ondenc B
+FR2035	Pinot blanc B
+FR2036	Piquepoul blanc B
+FR2037	Graisse B
+FR2038	Poulsard blanc B
+FR2039	Precoce Malingre B
+FR2040	Sauvignon B
+FR2041	Savagnin blanc B
+FR2042	Semillon B
+FR2043	Servant B
+FR2044	Terret blanc B
+FR2045	Ugni blanc B
+FR2046	Viognier B
+FR2047	Pt.Manseng blanc B
+FR2048	Gr.Manseng blanc B
+FR2049	Liliorila B
+FR2050	Perdea B
+FR2051	Arriloba B
+FR2052	Clarin B
+FR2053	Aranel B
+FR2054	Biancu Gentile B
+FR2055	Abondant B
+FR2056	Arbane B
+FR2057	Arbois B
+FR2058	Arrufiac B
+FR2060	Aubin B
+FR2062	Auxerrois B
+FR2065	Blanc Dame B
+FR2068	Carcajolo blanc B
+FR2069	Claverie B
+FR2071	Courbu B
+FR2072	Elbling B
+FR2073	Espanenc B
+FR2074	Faranah B
+FR2077	Goldriesling B
+FR2079	Guillemot B
+FR2080	Knipperle B
+FR2081	Lauzet B
+FR2082	Len De L'El B
+FR2083	Listan B
+FR2084	Molette B
+FR2085	Montils B
+FR2086	Muller Thurgau B
+FR2087	Noual B
+FR2089	Pascal B
+FR2091	Precoce Bousquet B
+FR2092	Putzscheere B
+FR2093	Raffiat Moncade B
+FR2094	Raisaine B
+FR2096	Riesling B
+FR2098	Romorantin B
+FR2099	Roublot B
+FR2100	Roussanne B
+FR2101	Sacy B
+FR2102	St.Pierre dore B
+FR2103	Select B
+FR2104	Sylvaner B
+FR2107	Verdesse B
+FR2108	Vermentino B
+FR2110	Codivarta B.
+FR2113	Baleille B
+FR2114	Gringet B
+FR2115	Roussette D Ayze B
+FR2116	Valentin B
+FR2117	Blanqueiron B
+FR2119	Crouchen B
+FR2120	Petit Courbu B
+FR2124	Hybrid.cuve B
+FR2132	Baco blanc B
+FR2133	Baco divers B
+FR2137	Couderc Div.B
+FR2140	Johan.Seyve D. B
+FR2142	Landot divers B
+FR2145	Oberlin divers B
+FR2147	Ravat Blanc B
+FR2149	Vidal divers B
+FR2153	Seibel divers B
+FR2154	Rayon D'Or B
+FR2156	Seyve Vil.divers B
+FR2157	Seyval B
+FR2158	Villard Blanc B
+FR2159	Valerien B
+FR2160	Chasselas Rose Rs
+FR2161	Clairette Rose Rs
+FR2162	Mauzac Rose Rs
+FR2163	Sauvignon Rose Rs
+FR2164	Savagnin Rose Rs
+FR2165	Gewurztraminer Rs
+FR2166	Barbaroux Rs
+FR2168	Grec Rs
+FR2169	Roussanne Var Rs
+FR2170	Velt.rouge precoce Rs
+FR2171	Musc.Pts.gris.rose.Rs
+FR2172	Barbarossa Rs
+FR2174	Rubilande Rs
+FR2176	Aramon gris G
+FR2177	Calitor gris G
+FR2178	Carignan gris G
+FR2179	Grenache gris G
+FR2180	Grolleau gris G
+FR2181	Mondeuse grise G
+FR2182	Pinot gris G
+FR2183	Piquepoul gris G
+FR2184	Sauvignon gris G
+FR2185	Terret gris G
+FR2187	Musc.Pts.gris.rouge.Rg
+FR2188	Sauvignon rouge Rg
+FR2192	Vinifs. cuve
+FR2193	Muscats divers cuve
+FR2194	Ekigaina
+FR2196	Maliverne
+FR2197	Hybrid divers cuve
+FR2199	Jurie divers
+FR2200	Baco divers
+FR2202	Burdin divers
+FR2204	Couderc divers
+FR2209	Landot divers
+FR2212	Oberlin divers
+FR2216	Seibel divers
+FR2217	Seyve Villard D.
+FR2218	Vintage not specified
+FR2219	Marselan
+FR2220	Vintage experimental
+GR1047	Uni Blan
+GR2013	Limnio
+GR1008	Rombola
+GR1020	Fileri
+GR1002	Vilana
+GR1015	Asirtiko
+GR1006	Moschato
+GR1004	Moschofilero
+GR2032	Fokiano
+GR2019	Liatiko
+GR2041	Moschofilero II
+GR1003	Agiorgitiko
+GR1005	Mavrodafni
+GR1010	Krasato
+GR1011	Stavroto
+GR1012	Xinomavro
+GR1013	Limnio
+GR1014	Moschato (for wine, Moschato Lasithiou,Chania)
+GR1016	Athiri
+GR1017	Kotsifali
+GR1018	Mandilari
+GR1019	Liatiko
+GR1021	Romeiko
+GR1022	Mavroudi
+GR1024	Vertzami
+GR1026	Pamiti
+GR1029	Kamberne Sovinion (Black)
+GR1030	Kamberne Fran (Black)
+GR1032	Fokiano
+GR1035	Refosko
+GR1039	Messenikola (Black)
+GR1040	Negkoska
+GR1041	Moschofilero II
+GR1042	Grenas Rose
+GR1043	Risling Renan
+GR1044	Silvaner
+GR1045	Semigion
+GR1046	Alikante Mouse
+GR1048	Sirach
+GR1049	Senso
+GR1050	Karinian
+GR1051	Merlo
+GR1052	Tempranilo
+GR1059	Other wine varieties
+GR2001	Savvatiano
+GR2002	Vilana
+GR2004	Moschofilero
+GR2006	Moschato
+GR2007	Roditis
+GR2008	Rombola
+GR2009	Dembina
+GR2014	Moschato (for wine, Moschato Lasithiou,Chania)
+GR2015	Asirtiko
+GR2020	Fileri
+GR2023	Kakotrigis
+GR2025	Asproudi
+GR2027	Sovinion (White)
+GR2028	Sardone (White)
+GR2031	Malagouzia (White)
+GR2033	Zoumiatiko
+GR2034	Monemvasia
+GR2036	Batili
+GR2037	Goustolidi (Vostilidas)
+GR2038	Lagorthi
+GR2043	Risling Renan
+GR2044	Silvaner
+GR2045	Semigion
+GR2046	Alikante Mouse
+GR2047	Uni Blance
+GR2053	Arintho
+GR2059	Other wine varieties
+GR1007	Roditis
+GR2042	Grenas Rose
+GR2050	Karinian
+GR2051	Merlo
+GR1033	Zoumiatiko
+GR2012	Xinomavro
+GR2016	Athiri
+GR2026	Pamiti
+GR1036	Batily
+IT1001	Abbuoto
+IT1002	Aglianico
+IT1003	Aglianicone
+IT1004	Albaranzeuli nero
+IT1005	Aleatico
+IT1006	Alicante
+IT1007	Alicante bouchet
+IT1008	Ancellotta
+IT1009	Avana
+IT1010	Avarengo
+IT1011	Barbera nera
+IT1012	Barbera sarda
+IT1013	Barsaglina
+IT1014	Bombino nero
+IT1015	Bonamico
+IT1016	Bonarda
+IT1017	Bonarda grande
+IT1018	Bovale
+IT1019	Bracciola
+IT1020	Brachetto
+IT1021	Cabernet franc
+IT1022	Cabernet sauvignon
+IT1023	Caddiu
+IT1024	Cagnulari
+IT1025	Calabrese
+IT1026	Caloria
+IT1027	Canaiolo nero
+IT1028	Canina nera
+IT1029	Cannonao
+IT1030	Caricagiola
+IT1031	Carignano
+IT1032	Castiglione
+IT1033	Catanese nero
+IT1034	Cesanese comune
+IT1035	Cesanese d'affile
+IT1036	Ciliegiolo
+IT1037	Colombana nero
+IT1038	Colorino
+IT1039	Corinto nero 1
+IT1040	Corvina
+IT1041	Croatina
+IT1042	Dolcetto
+IT1043	Doux d'Henry
+IT1044	Durasa
+IT1045	Foglia tonda
+IT1046	Fortana
+IT1047	Franconia
+IT1048	Frappato
+IT1049	Freisa
+IT1050	Fumin
+IT1051	Gaglioppo
+IT1052	Gamay
+IT1053	Giro
+IT1054	Grechetto rosso
+IT1055	Greco nero
+IT1056	Grignolino
+IT1057	Groppello di Mocasina
+IT1058	Groppello di Santo Stefano
+IT1059	Groppello gentile
+IT1060	Incrocio manzoni 2.15
+IT1061	Incrocio Terzi 1
+IT1062	Lacrima
+IT1063	Lagrein
+IT1064	Lambrusca di Alessandria
+IT1065	Lambrusco f. frastagliata
+IT1066	Lambrusco di Sorbara
+IT1067	Lambrusco Grasparossa
+IT1068	Lambrusco Maestri
+IT1069	Lambrusco Marani
+IT1070	Lambrusco Montericco
+IT1071	Lambrusco Salamino
+IT1072	Lambrusco Viadanese
+IT1073	Magliocco canino
+IT1074	Maiolica
+IT1075	Malbech
+IT1076	Malvasia
+IT1077	Malvasia di Casorzo
+IT1078	Malvasia di Schierano
+IT1079	Malvasia nera Basilicata
+IT1080	Malvasia nera di Brindisi
+IT1081	Malvasia nera di Lecce
+IT1082	Mammolo
+IT1083	Marsigliana nera
+IT1084	Marzemino
+IT1085	Mazzese
+IT1086	Merlot
+IT1087	Molinara
+IT1088	Monica
+IT1089	Montepulciano
+IT1090	Moscato nero di Acqui
+IT1091	Nebbiolo
+IT1092	Negrara
+IT1093	Negretto
+IT1094	Negro amaro
+IT1095	Nerello cappuccio
+IT1096	Nerello mascalese
+IT1097	Neretta cuneese
+IT1098	Neretto di bairo
+IT1099	Nero buono
+IT1100	Neyret
+IT1101	Nieddera
+IT1102	Nieddu mannu
+IT1103	Nocera
+IT1104	Notardomenico
+IT1105	Olivella nera
+IT1106	Ottavianello
+IT1107	Pascale
+IT1108	Pavana
+IT1109	Pecorello
+IT1110	Perricone
+IT1111	Petit rouge
+IT1112	Piccola nera
+IT1113	Piedirosso
+IT1114	Pignola
+IT1115	Pinot nero
+IT1116	Plassa
+IT1117	Pollera nera
+IT1118	Portoghese
+IT1119	Primitivo
+IT1120	Prugnolo gentile
+IT1121	Prunesta
+IT1122	Raboso piave
+IT1123	Raboso veronese
+IT1124	Refosco peduncolo rosso
+IT1125	Refosco nostrano
+IT1126	Rondinella
+IT1127	Rossese
+IT1128	Rossignola
+IT1129	Rossola nera
+IT1130	Sagrantino
+IT1131	Sangiovese
+IT1132	San Giuseppe nero
+IT1133	Schiava gentile
+IT1134	Schiava grigia
+IT1135	Schiava
+IT1136	Sciascinoso
+IT1137	Sgavetta
+IT1138	Susumaniello
+IT1139	Syrah
+IT1140	Teroldego
+IT1141	Terrano
+IT1142	Tocai rosso
+IT1143	Trevisana nera
+IT1144	Turca
+IT1145	Uva di Troia
+IT1146	Uva rara
+IT1147	Uva tosca
+IT1148	Vermentino nero
+IT1149	Vernaccia nera
+IT1150	Vespolina
+IT1151	Vien de nus
+IT1152	Aglianico del Vulture
+IT1153	Albarossa
+IT1154	Bric
+IT1155	Cornarea
+IT1156	Fertilia
+IT1157	Malvasia di Candia arom.
+IT1158	S. Martino
+IT1159	Nebbiera
+IT1160	Nigra
+IT1161	Passau
+IT1162	Pignolo
+IT1163	Prodest
+IT1164	Rossara
+IT1165	S. Michele
+IT1166	Schiava grossa 1
+IT1167	Schioppettino
+IT1168	Soperga
+IT1169	Tazzelenghe
+IT1170	Tschaggele
+IT1171	Valentino
+IT1172	Rebo
+IT1173	Meunier
+IT1174	Wildbacher
+IT1175	Moscato di Scanzo
+IT1176	Pelaverga
+IT1177	Ruche
+IT1178	Alionza
+IT1179	Dindarella
+IT1180	Forsellina
+IT1181	Forgiarin
+IT1182	Piculit-Neri
+IT1183	Quagliano
+IT1184	Corvinone
+IT1185	Pelaverga piccolo
+IT1186	Malbo gentile
+IT1187	Petit Verdot
+IT1188	Carmenere
+IT1189	Ervi
+IT1190	Tannat
+IT1191	Tempranillo
+IT1192	Abrusco
+IT1193	Bonda
+IT1194	Crovassa
+IT1195	Diolinoir
+IT1196	Gamaret
+IT1197	Granoir
+IT1198	Morone
+IT1199	Ner d'ala
+IT1200	Roussin
+IT1201	Vuillermin
+IT1202	Corinto nero 2
+IT1203	Schiava grossa 2
+IT2001	Albana
+IT2002	Albanello
+IT2003	Albaranzeuli bianco
+IT2004	Albarola
+IT2005	Ansonica
+IT2006	Arneis
+IT2007	Arvesiniadu
+IT2008	Asprinio
+IT2009	Barbera bianca
+IT2010	Bellone
+IT2011	Bervedino
+IT2012	Biancame
+IT2013	Bianchetta genovese
+IT2014	Bianchetta trevigiana
+IT2015	Bianco d'Alessano
+IT2016	Biancolella
+IT2017	Biancone
+IT2018	Bombino bianco
+IT2019	Bosco
+IT2020	Canaiolo bianco
+IT2021	Carica l'asino
+IT2022	Carricante
+IT2023	Catarratto bianco comune
+IT2024	Catarratto bianco lucido
+IT2025	Clairette
+IT2026	Cococciola
+IT2027	Coda di volpe bianca
+IT2028	Cortese
+IT2029	Damaschino
+IT2030	Dolciame
+IT2031	Durella
+IT2032	Erbaluce
+IT2033	Falanghina
+IT2034	Favorita
+IT2035	Fiano
+IT2036	Forastera
+IT2037	Francavidda
+IT2038	Garganega
+IT2039	Grecanico dorato
+IT2040	Grechetto
+IT2041	Greco
+IT2042	Greco bianco
+IT2043	Grillo
+IT2044	Guardavalle
+IT2045	Guarnaccia
+IT2046	Impigno
+IT2047	Incrocio Bruni 54
+IT2048	Livornese bianca
+IT2049	Lumassina
+IT2050	Maceratino
+IT2051	Malvasia bianca
+IT2052	Malvasia b. di Basilicata
+IT2053	Malvasia bianca di Candia
+IT2054	Malvasia bianca lunga
+IT2055	Malvasia del Lazio
+IT2056	Malvasia di Lipari
+IT2057	Malvasia di Sardegna
+IT2058	Malvasia Istriana
+IT2059	Malvasia Istriana
+IT2060	Montonico bianco
+IT2061	Montu
+IT2062	Moscato bianco
+IT2063	Moscato giallo
+IT2064	Mostosa
+IT2065	Muller Thurgau
+IT2066	Nasco
+IT2067	Nosiola
+IT2068	Nuragus
+IT2069	Ortrugo
+IT2070	Pampanuto
+IT2071	Passerina
+IT2072	Pecorino
+IT2073	Picolit
+IT2074	Pigato
+IT2075	Pinella
+IT2076	Pinot bianco
+IT2077	Prosecco
+IT2078	Retagliado bianco
+IT2079	Ribolla gialla
+IT2080	Riesling italico
+IT2081	Riesling
+IT2082	Rollo
+IT2083	Roussane
+IT2084	San Lunardo
+IT2085	Sauvignon
+IT2086	Semidano
+IT2087	Semillon
+IT2088	Sylvaner verde
+IT2089	Timorasso
+IT2090	Tocai friulano
+IT2091	Torbato
+IT2092	Trebbiano di Soave
+IT2093	Trebbiano giallo
+IT2094	Trebbiano modenese
+IT2095	Trebbiano romagnolo
+IT2096	Trebbiano spoletino
+IT2097	Trebbiano toscano
+IT2098	Veltliner
+IT2099	Verdea
+IT2100	Verdeca
+IT2101	Verdello
+IT2102	Verdicchio bianco
+IT2103	Verdiso
+IT2104	Verduzzo friulano
+IT2105	Verduzzo trevigiano
+IT2106	Vermentino
+IT2107	Vernaccia di Oristano
+IT2108	Vernaccia di San Gimignano
+IT2109	Vespaiola
+IT2110	Bussanello
+IT2111	Chasselas dorato
+IT2112	Cove
+IT2113	Flavis
+IT2114	Fubiano
+IT2115	Incrocio b. Fedit 51CSG
+IT2116	Invernenga
+IT2117	Italica
+IT2118	Moscato di Terracina
+IT2119	Sirio
+IT2120	Vega
+IT2121	Verduschia
+IT2122	Chardonnay
+IT2123	Manzoni
+IT2124	Pignoletto
+IT2125	Kerner
+IT2126	Moscatello selvatico
+IT2127	Petite Arvine
+IT2128	Prie Blanc
+IT2129	Marsanne
+IT2130	Vitouska
+IT2131	Sciaglin
+IT2132	Ucelut
+IT2133	Boschera
+IT2134	Marzemina bianca
+IT2135	Perera
+IT2136	Trebbiano abruzzese
+IT2137	Pedevenda
+IT2138	Verdese
+IT2139	Melara
+IT2140	Santa Maria
+IT2141	Regina
+IT2142	Regina dei Vigneti
+IT2143	Zibibbo 1
+IT2144	Viogner
+IT2145	Chasselas dorato
+IT2146	Moscato di Terracina
+IT2147	Regina
+IT2148	Regina dei vigneti
+IT2149	Verdea
+IT2150	Zibibbo 2
+IT2151	Moscato rosa
+IT2152	Traminer aromatico
+IT2153	Cornalin
+IT2154	Mayolet rs
+IT2155	Prie Rouge
+IT2156	Canaiolo rosa
+IT2157	Malvasia rosa
+IT2158	Pinot grigio
+LU1001	Gamay noir
+LU1000	Pinot noir
+LU2002	Auxerrois
+LU2007	Chardonnay
+LU2000	Elbling
+LU2006	Gewürztraminer
+LU2011	Muscat
+LU2003	Pinot blanc
+LU2004	Pinot gris
+LU2005	Riesling
+LU2001	Rivaner
+LU2008	Sylvaner
+LU2010	Traminer
+PT1000	Agronomica
+PT1001	Alfrocheiro Preto
+PT1002	Alicante Bouschet
+PT1003	Alvarelhao
+PT1004	Amaral
+PT1005	Aragones
+PT1006	Asal Tinto
+PT1007	Baga
+PT1008	Bastardo
+PT1009	Borracal
+PT1010	Brancelho
+PT1011	Cabernet Sauvignon
+PT1012	Camarate
+PT1013	Castelao
+PT1014	Complexa
+PT1015	Cornifesto
+PT1016	Crato Preto
+PT1017	Espadeiro
+PT1018	Grand Noir
+PT1019	Jaen
+PT1020	Malvasia Preta
+PT1021	Marufo
+PT1022	Monvedro
+PT1023	Moreto
+PT1024	Mourisco Tinto
+PT1025	Negra Mole
+PT1026	Pedral
+PT1027	Periquita
+PT1028	Preto Martino
+PT1029	Rabo de Ovelha
+PT1030	Ramisco
+PT1031	Rufete
+PT1032	Saborinho
+PT1033	Tinta Amarela
+PT1034	Tinta Barroca
+PT1035	Tinta Carvalha
+PT1036	Tinta Miuda
+PT1037	Tinta Negra Mole
+PT1038	Tinta Pinheira
+PT1039	Tinta Roriz
+PT1040	Tinto Cao
+PT1041	Touriga Francesa
+PT1042	Touriga Nacional
+PT1043	Tourigo
+PT1044	Trincadeira Preta
+PT1045	Verdelho Roxo
+PT1046	Vinhao
+PT2000	Alicante Branco
+PT2001	Alvarinho
+PT2002	Antao Vaz
+PT2003	Arinto
+PT2004	Asal Branco
+PT2005	Assario Branco
+PT2006	Avesso
+PT2007	Barcelo
+PT2008	Batoca
+PT2009	Bical
+PT2010	Boal
+PT2011	Caracol
+PT2012	Cerceal
+PT2013	Codega
+PT2014	Crato Branco
+PT2015	Diagalves
+PT2016	Dona Branca
+PT2017	Donzelinho
+PT2018	Encruzado
+PT2019	Esgana Cao
+PT2020	Fernao Pires
+PT2021	Folgasao
+PT2022	Fonte Cal
+PT2023	Generosa
+PT2024	Gouveio
+PT2025	Jampal
+PT2026	Listrao
+PT2027	Loureiro
+PT2028	Malvasia S.Jorge
+PT2029	Malvasia(s)
+PT2030	Manteudo
+PT2031	Moscatel de Setubal
+PT2032	Moscatel(s)
+PT2033	Pederna
+PT2034	Perola
+PT2035	Rabigato
+PT2036	Rabo de Ovelha
+PT2037	Rio Grande
+PT2038	Roupeiro
+PT2039	Seara Nova
+PT2040	Sercial
+PT2041	Talia
+PT2042	Tamarez
+PT2043	Terrantes
+PT2044	Trajadura
+PT2045	Trincadeira das Pratas
+PT2046	Uva Cao
+PT2047	Verdelho
+PT2048	Viosinho
+PT2049	Vital
+UK1001	Pinot Noir
+UK2000	Bacchus
+UK2001	Huxelrebe
+UK2002	Madeleine Angevine
+UK2003	Muller Thurgau
+UK2004	Reichensteiner
+UK2005	Schonburger
+UK2006	Seyval
+UK2007	Chardonnay

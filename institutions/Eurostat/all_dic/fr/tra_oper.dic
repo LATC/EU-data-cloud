@@ -1,0 +1,11 @@
+TOTAL	Total - Transport total
+LOADED	Chargé - Transport total
+LNAT	Chargé - Transport national
+LINTL	Chargé - Transport international - Total
+LINTL_LD	Chargé - Transport international - Marchandises chargées dans le pays déclarant
+LINTL_NLD	Chargé - Transport international - Marchandises déchargées dans le pays déclarant
+LINTL_CTRD	Chargé - Transport international - Trafic tiers
+LINTL_CAB	Chargé - Transport international - Cabotage
+EMPTY	Vide - Transport total
+ENAT	Vide - Transport national
+EINTL	Vide - Transport international - Total

@@ -1,0 +1,76 @@
+TOTAL	Toutes procédures couvertes par la CIM-9-MC
+CM01-05	Opérations du système nerveux
+CM0131_0139	Evacuation d'hématome sous-dural et hémorragie intracrânienne
+CM014_015	Extirpation, excision et destruction d'une lésion intracrânienne
+CM06_07	Opérations du système endocrinien
+CM062_066	Thyroïdectomie
+CM08-16	Opérations des yeux
+CM131-137	Chirurgie de la cataracte
+CM131-138	Chirurgie de la cataracte
+CM18-20	Opérations de l'oreille
+CM2096-2098	Implantation Cochléaire
+CM21-29	Opérations du nez, de la bouche et du pharynx
+CM282-284	Tonsillectomie
+CM30-34	Opérations du système respiratoire
+CM323-325	Pneumonectomie
+CM33_DIA	Bronchoscopie avec ou sans biopsie (33.21 to 33.24 and 33.27)
+CM35-39	Opérations du système cardiovasculaire
+CM36	Angioplastie coronarienne
+CM36_TRS	Angioplastie coronaire transluminale (36.01, 36.02 and 36.05)
+CM361	Pontage coronarien
+CM3721-3723	Cathéterisation cardiaque
+CM3812	Endartériectomie de la carotide
+CM3929	Pontage fémoropoplitée
+CM3971_3974	Réparation d'un anévrisme aortique infrarénal
+CM3995	Hémodialyse
+CM40_41	Opérations du système hémique et lymphatique
+CM410	Transplantation de cellule souche
+CM42-54	Opérations du système digestif
+CM45_COL	Coloscopie avec ou sans biopsie (45.22 to 45.25, 45.42 and 45.43)
+CM457_458	Colectomie
+CM_LPC	Colectomie laparoscopique
+CM47	Opération de l'appendice
+CM470_471	Appendicectomie
+CM4701_4711	Appendicectomie laparoscopique
+CM512	Cholécystectomie
+CM5122_5123	Cholécystectomie
+CM5123	Cholescystectomie laparoscopique
+CM530-533	Hernie inguinale et fémorale
+CM530_531	Réparation d'une hernie inguinale
+CM_LPR	Réparation laparoscopique d'une hernie inguinale
+CM55-59	Opérations du système urinaire
+CM556	Transplantation du rein
+CM5731-5733	Cytoscopie avec ou sans biopsie
+CM60-64	Opérations des organes génitaux masculins
+CM602-606	Prostatectomie totale
+CM602	Prostatectomie endo-urétral
+CM603-606	Prostatectomie ouverte
+CM65-71	Opérations des organes génitaux féminins
+CM683-687_689	Hystérectomie
+CM68_LPH	Hysterectomy laparoscopique (68.31, 68.41, 68.51, 68.61 and 68.71)
+CM72-75	Procédures obstétriques
+CM740-744_7499	Césariennes
+CM74_CAE	Césariennes (74.0 to 74.2, 74.4 and 74.99)
+CM76-84	Opérations du système musculo-squelettique
+CM767_790-793	Réduction de fracture
+CM8026_806	Chirurgie du genou (arthroscopie et excision du ménisque)
+CM80_MK	Excision sous arthroscopie du ménisque du genou
+CM80_DIS	Discectomie (80.50, 80.51 and 80.59)
+CM8151-8153	Remplacement de la hanche
+CM8151	Remplacement total de la hanche
+CM8153	Remplacement secondaire de la hanche
+CM8154	Remplacement total du genou
+CM85_86	Opérations du système tégumentaire
+CM8520-8523	Excision partielle de la glande mammaire
+CM85_MAS	Mammectomie totale (85.33 to 85.36 and 85.4)
+CM854	Mastectomie
+CM87-99	Diverses procédures diagnostiques et thérapeutiques
+CM_CAT	Tomographie axiale automatisée (87.03, 87.41, 87.71, 88.01, 88.38)
+CM884_885	Artériographie et angiocardiographie contraste
+CM887	Diagnostic par ultrasons
+CM939	Thérapie respiratoire
+CM00	Procédures et interventions non classées ailleurs
+SURG_IN	Opérations chirurgicales exécutées dans un hospital pour au moins une nuit 
+SURG_DAY	Opérations chirurgicales exécutées dans un hôpital de jour
+SURG_OUT	Opérations chirurgicales exécutées dans un hôpital ambulatoire
+CONS_OUT	Consultations ambulatoires (patients ambulatoires traités à l'hôpital)

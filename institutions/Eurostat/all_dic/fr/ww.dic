@@ -1,0 +1,55 @@
+WW_1	SOURCES FIXES
+WW_1_1	Agriculture etc.
+WW_1_2	Mines et carrières
+WW_1_3	Total industrie manufacturière
+WW_1_3_1	Industries alimentaires
+WW_1_3_2	Métaux de base
+WW_1_3_3	Equipements de transports
+WW_1_3_4	Textiles etc.
+WW_1_3_5	Papiers et produits en papier
+WW_1_3_6	Produits chimiques et pétrole raffiné
+WW_1_4	Production et distribution d'électricité
+WW_1_5	Construction
+WW_1_6	Toutes activités industrielles
+WW_1_7	Autres activités
+WW_1_8	Secteur domestique
+WW_2	SOURCES DIFFUSES
+WW_3	TOUTES SOURCES
+WW_4	Total des eaux usées produites par le secteur domestique (40)
+WW_4_1	Raccordées aux réseaux d'assainissements publics (26)
+WW_4_2	Non raccordées aux réseaux d'assainissements publics et rejetées
+WW_5	Total des eaux usées produites par l'industrie
+WW_5_1	Connectées à une STEPI (28)
+WW_5_1_1	Rejetées après traitement dans une STEPI
+WW_6	Eaux usées industrielles produites
+WW_6_1	Raccordées aux réseaux d'assainissements publics (26)
+WW_6_2	Raccordées directement à une STEP (27)
+WW_6_3	Rejetées sans aucun traitement
+WW_7	Total des eaux usées raccordées aux réseaux d'assainissement publics (26)
+WW_7_1	Connectées aux STEP (27)
+WW_7_2	Rejetées sans traitement
+WW_7_3	Connectées à une STEPI (28)
+WW_8	Rejets (effluents) des STEPs municipaux
+WWPOP_1	Population raccordée au traitement public des eaux usées (% de la population)
+WWPOP_2	Population raccordée au réseau d'assainissement public (% de la population)
+WWG_1	Total des eaux usées générées par des sources fixes (1 000 E.H.)
+WWG_2	Total des eaux usées générées par le secteur domestique (1 000 E.H.)
+WWG_3	Total des eaux usées raccordées au traitement public des eaux usées (1 000 E.H.)
+WWTP_0_1	Total des stations publiques de traitement, nombre
+WWTP_0_2	Total des stations publiques de traitement, capacité théorique (1 000 E.H.)
+WWTP_0_3	Total des stations publiques de traitement, occupation réelle (1 000 E.H.)
+WWTP_1_1	Stations avec traitement mécanique, nombre
+WWTP_1_2	Stations avec traitement mécanique, capacité théorique (1 000 E.H.)
+WWTP_1_3	Stations avec traitement mécanique, occupation réelle (1 000 E.H.)
+WWTP_2_1	Stations avec traitement biologique, nombre
+WWTP_2_2	Stations avec traitement biologique, capacité théorique (1 000 E.H.)
+WWTP_2_3	Stations avec traitement biologique, occupation réelle (1 000 E.H.)
+WWTP_3_1	Stations avec traitement à technologie avancée, nombre
+WWTP_3_2	Stations avec traitement à technologie avancée, capacité théorique (1 000 E.H.)
+WWTP_3_3	Stations avec traitement à technologie avancée, occupation réelle (1 000 E.H.)
+IWW_0	Total des investissements pour la collecte et le traitement des eaux usées (secteurs public + privé) (Mio monnaie nationale)
+IWW_1	Total des investissements pour la collecte et le traitement des eaux usées par le secteur public (Mio monnaie nationale)
+IWW_1_1	Total des investissements pour la collecte et le traitement des eaux usées par les autorités nationales publiques (Mio monnaie nationale)
+IWW_1_2	Total des investissements pour la collecte et le traitement des eaux usées par les autorités régionales publiques (Mio monnaie nationale)
+IWW_1_3	Total des investissements pour la collecte et le traitement des eaux usées par les autorités locales publiques (Mio monnaie nationale)
+IWW_2	Total des investissements pour la collecte et le traitement des eaux usées par les autorités nationales publiques (Mio monnaie nationale)

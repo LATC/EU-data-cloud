@@ -1,0 +1,14 @@
+LFD	Main d'oeuvre directe (LFRF+LFRNF+LFNR)
+LFR	Main-d'oeuvre régulière (LFRF+LFRNF)
+LFRF	Main-d'oeuvre familiale
+LFH	Exploitant individuel
+LFRMF	Membres de la famille des exploitants individuels
+LFS	Conjoint d'exploitant individuel (jusqu'en 2007)
+LFROF	Autres membres de la famille d'exploitant individuel (jusqu'en 2007)
+LFNF	Main-d'oeuvre non familiale (LFRNF+LFNR)
+LFRNF	Main-d'oeuvre non familiale employée régulièrement, y compris exploitants en groupement
+LFNRNF	Main-d'oeuvre non-familiale non-régulière
+LFGH	Exploitants en groupement
+LFNR	Main-d'oeuvre employée irrégulièrement
+LFM	Chefs d'exploitation, groupements exclus
+LFND	Main-d'oeuvre non directement employée par l'exploitation

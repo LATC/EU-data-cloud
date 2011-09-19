@@ -1,0 +1,70 @@
+STRIKES	Number of strikes
+DAY_LOST	Number of working days lost (1000)
+EMP_INV	Number of workers involved (1000)
+DAYS_1000EMP	Working days lost per 1000 workers
+EMP_1000EMP	Workers involved per 1000 workers
+POP	Total population
+POP_15_64	Population (15 to 64 years)
+ACT	Active population
+ACT_PCH	Growth of active population
+EMP	Total employment (domestic concept - ESA)
+EMP_LFS	Total employment (resident population concept - LFS)
+EMP_15_64	Employment (15 to 64 years)
+EMP_PCH	Employment growth
+EMP_RT_15_64	Employment rate (15 to 64 years)
+EMP_RT_20_64	Employment rate (20 to 64 years)
+EMP_RT_15_24	Employment rate (15 to 24 years)
+EMP_RT_25_54	Employment rate (25 to 54 years)
+EMP_RT_55_64	Employment rate (55 to 64 years)
+SELF_EMP_RT	Self-employed in % of total employment
+PT_EMP_RT	Part-time workers in % of total employment
+TEMP_RT	Percentage of employees with temporary contracts
+SERV_RT	Services in % of total employment
+INDU_RT	Industry in % of total employment
+AGRI_RT	Agriculture in % of total employment
+AGRI_PCH	Agriculture employment growth
+ACT_PPCH	Change in activity rate compared to the previous year
+IND_PCH	Industry employment growth
+SERV_PCH	Services employment growth
+ACT_RT_15_64	Activity rate (15 to 64 years)
+ACT_RT_15_24	Activity rate (15 to 24 years)
+ACT_RT_20_64	Activity rate (20 to 64 years)
+ACT_RT_25_54	Activity rate (25 to 54 years)
+ACT_RT_55_64	Activity rate (55 to 64 years)
+LTU_ACT_RT	Long-term unemployment in % of active population
+LTU_UNE_RT	Long-term unemployment in % of unemployment
+VLTU_ACT_RT	Very long-term unemployment in % active population
+UNE_POP_15_24_RT	Unemployment on population aged 15-24
+JOBVAC	Number of job vacancies
+JOBOCC	Number of occupied jobs
+JOBRATE	Job vacancy rate
+CH_Q_Q	Job vacancy rate quarter on quarter change
+CH_Y_Y	Job vacancy rate year on year change
+SC051	Early leavers from education and training - Percentage of the population aged 18-24 with at most lower secondary education and not in further education or training
+SC052	Early leavers from education and training - females - Percentage of the female population aged 18-24 with at most lower secondary education and not in further education or training
+SC053	Early leavers from education and training - males - Percentage of the male population aged 18-24 with at most lower secondary education and not in further education or training
+SC071	Children aged 0-17 living in jobless households: share of persons aged 0-17 who are living in households where no-one is working
+SC072	People aged 18-59 living in jobless households: share of persons aged 18-59 who are living in hh where no-one works
+SC073	Women aged 18-59 living in jobless households: share of women aged 18-59 who are living in households where no-one works
+SC074	Men aged 18-59 living in jobless households: share of men aged 18-59 who are living in households where no-one works
+EM021	Average exit age from the labour force - weighted by the probability of withdrawal from the labour market
+EM022	Average exit age from the labour force - females - weighted by the probability of withdrawal from the labour market
+EM023	Average exit age from the labour force - males - weighted by the probability of withdrawal from the labour market
+EM051	Life-long learning (adult participation in education and training) - Percentage of the population aged 25-64 participating in education and training over the four weeks prior to the survey
+EM052	Life-long learning (adult participation in education and training) - females - Percentage of the female population aged 25-64 participating in education and training over the four weeks prior to the survey
+EM053	Life-long learning (adult participation in education and training) - males - Percentage of the male population aged 25-64 participating in education and training over the four weeks prior to the survey
+IR091	Youth education attainment level - Percentage of the population aged 20 to 24 having completed at least upper secondary education
+IR092	Youth education attainment level - females - Percentage of the female population aged 20 to 24 having completed at least upper secondary education
+IR093	Youth education attainment level - males - Percentage of the male population aged 20 to 24 having completed at least upper secondary education
+SO011	Percentage of the population aged 25 to 64 having completed at least upper secondary education
+SO012	Percentage of the female population aged 25 to 64 having completed at least upper secondary education
+SO013	Percentage of the male population aged 25 to 64 having completed at least upper secondary education
+SO031	Percentage of the population aged 25 to 64 having completed at most lower secondary education
+SO032	Percentage of the population aged 25 to 34 having completed at most lower secondary education
+SO033	Percentage of the population aged 35 to 44 having completed at most lower secondary education
+SO034	Percentage of the population aged 45 to 54 having completed at most lower secondary education
+SO035	Percentage of the population aged 55 to 64 having completed at most lower secondary education
+SO036	Percentage of the population aged 65 and more having completed at most lower secondary education
+SO041	Percentage of the population aged 30 to 34 having completed tertiary education
+SO042	Percentage of the female population aged 30 to 34 having completed tertiary education
+SO043	Percentage of the male population aged 30 to 34 having completed tertiary education

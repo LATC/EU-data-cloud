@@ -1,0 +1,23 @@
+VERYGOOD	Very good
+GOOD	Good
+FAIR	Fair
+BAD	Bad
+VERYBAD	Very bad
+NONE	None
+MILD	Mild
+LOW	Low
+MODER	Moderate
+HIGH	High
+SEVER	Severe
+EXTR	Extreme
+NOT_APP	Not applicable
+TOT	Total
+SUC	Successful
+PSUC	Partially successful
+NSUC	Unsuccessful
+MBT	Much better
+BT	Better
+UNC	Unchanged
+WO	Worse
+MWO	Much Worse
+NOP	No opinion

@@ -1,0 +1,19 @@
+ASS	Avoirs
+LIAB	Engagements
+NET	Position nette
+CIA	Institutions de crédit, avoirs
+CIL	Institutions de crédit, engagements
+CIN	Institutions de crédit, position nette
+GGN	Pouvoirs publics, position nette
+GGA	Pouvoirs publics, avoirs
+GGL	Pouvoirs publics, engagements
+NEN	Economie nationale, position nette
+NEA	Economie nationale, avoirs
+NEL	Economie nationale, engagements
+NFPA	Secteur privé non-financier, avoirs
+NFPL	secteur privé non-financier, engagements
+NFPN	Secteur privé non-financier, position nette
+FINTRA	Transactions financières ( acquisitions nettes de (créances/d'actifs) / encours net de (dettes/passifs))
+OTA	Autre , avoirs
+OTL	Autre , engagements
+OTN	Autre , position nette

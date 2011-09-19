@@ -1,0 +1,17 @@
+TOTAL	Insgesamt
+0	Keine Kinder
+1	1 Kind
+2	2 Kinder
+3	3 Kinder
+GE3	3 Kinder und mehr
+4	4 Kinder
+5	5 Kinder
+GE5	5 Kinder und mehr
+6	6 Kinder
+GE6	6 Kinder und mehr
+GE7	7 Kinder und mehr
+UNK	Unbekannt
+NRP	Keine Antwort
+TOT_CH	Kinder insgesamt
+TOT_PERS	Personen insgesamt
+TOT_PERS_FAM	Zahl der Personen insgesamt in Kernfamilie

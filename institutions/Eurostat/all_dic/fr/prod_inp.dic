@@ -1,0 +1,68 @@
+20210000	Electricité
+20221000	Fuel-oil fluide
+20222000	Fuel-oil résiduel
+20231000	Essence moteur
+20232000	Gazole
+20311100	Sulphate d'ammonium
+20311201	Nitrate d'ammonium (26 % N)(en sacs)
+20311202	Nitrate d'ammonium (26 % N)(en vrac)
+20311301	Nitrate d'ammonium (33 % N)(ensacs)
+20311400	Urée
+20312100	Superphosphate
+20312200	Triple superphosphate (46 % P2O5)
+20313100	Chlorure de potassium
+20313200	Sulfate de potassium
+20321100	Engrais binaires: 1 - 1 - 0
+20322100	Engrais binaires: 0 - 1 - 1
+20322200	Engrais binaires: 0 - 20 - 20
+20323100	Engrais ternaires: 1 - 0.5 - 0.5
+20323600	Engrais ternaires: 20 - 10 - 10
+20323201	Engrais ternaires: 1 - 1 - 1 (en vrac)
+20323301	Engrais ternaires: 17 - 17 - 17 (en sacs)
+20323202	Engrais ternaires: 1 - 1 - 1 (en vrac)
+20323302	Engrais ternaires: 17 - 17 - 17 (en vrac)
+20323700	Engrais ternaires: 1 - 1 - 2
+20323800	Engrais ternaires: 9 - 9 - 18
+20323400	Engrais ternaires: 1 - 2 - 2
+20323500	Engrais ternaires: 10 - 20 - 20
+20611100	Aliments: Blé fourrager
+20611200	Aliments: Orge
+20611300	Aliments: Avoine
+20611400	Aliments: Maïs
+20611500	Aliments: Son de blé
+20611600	Aliments: Orge moulue
+20611700	Aliments: Maïs moulu
+20612100	Tourteaux de pression de lin
+20612200	Tourteaux d'extraction de soja cuit
+20613100	Farine animale
+20613200	Farine de poisson
+20619100	Pulpes séchées de betteraves sucrières
+20619200	Foin de prairie
+20619300	Luzerne déshydratée
+20619400	Paille de céréales
+20621100	Complémentaire pour veaux d'élevage (prix par 100kg)
+20619901	Complet d'allaitement pour veaux (en sacs)
+20619902	Complet d'allaitement pour veaux (en vrac)
+20622910	Complémentaire pour veaux d'élevage
+20622921	Complémentaire pour bovins à l'engrais (en  sacs)
+20622922	Complémentaire pour bovins à l'engrais (en vrac)
+20622931	Complémentaire riche en protéines pour  vaches laitières (en stabulation) (en sacs)
+20622932	Complémentaire riche en protéines pour  vaches laitières (en stabulation) (en vrac)
+20622101	Complet pour porcelets d'élevage (en sacs)
+20622102	Complémentaire pour bovins à l'engrais (en vrac)
+20622111	Complémentaire riche en protéines pour bovins à l'engrais (en sacs)
+20622112	Complémentaire riche en protéines pour bovins   (en vrac)
+20623101	Complet pour porcelets d'élevage (en sacs)
+20623102	Complet pour porcelets d'élevage (en vrac)
+20623301	Complet pour truies (en sacs)
+20623302	Complet pour truies (en vrac)
+20623201	Complet pour porcs à l'engrais (en sacs)
+20623202	Complet pour porcs à l'engrais (en vrac)
+20624101	Complet pour poussins des premiers jours (en sacs)
+20624102	Complet pour poussins des premiers jours (en  vrac)
+20624201	Complet pour poulettes jusqu'à la ponte (en  sacs)
+20624202	Complet pour poulettes jusqu'à la ponte (en vrac)
+20624301	Complet pour poules pondeuses (en batteries)  (en sacs)
+20624302	Complet pour poules pondeuses (en batteries)  (en vrac)
+20624501	Complet pour poulets à l'engrais (en sacs)
+20624502	Complet pour poulets à l'engrais (en vrac)

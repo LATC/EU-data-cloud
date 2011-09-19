@@ -1,0 +1,412 @@
+TOTAL	Total
+TOTAL_1	Total sans loyers
+CP01_TO_12	Dépense de consommation individuelle totale des ménages
+CP00	Ensemble ICPH
+00FLASH	Estimation rapide - Ensemble des postes IPCH
+CP01	Produits alimentaires et boissons non alcoolisées
+CP011	Produits alimentaires
+CP0111	Pain et céréales
+CP01111	Riz
+CP01112	Pain
+CP01113	Pâtes alimentaires
+CP01114	Pâtisseries
+CP01115	Autres produits
+CP0112	Viande
+CP01121	Viande bovine fraîche,congelée ou surgelée
+CP01122	Viande porcine fraîche,congelée ou surgelée
+CP01123	Viande ovine ou caprine fraîche,congelée ou surgelée
+CP01124	Viande de volaille fraîche,congelée ou surgelée
+CP01125	Viande séchée, salée ou fumée et abats comestibles
+CP01126	Conserves de viande ou produits de la transformation de viandes, préparations à base de viande
+CP01127	Autres viandes comestibles fraîches, congelées ou surgelées
+CP0113	Poisson et aliment marin
+CP01131	Poisson frais, congelé ou surgelé
+CP01132	Fruits de mer frais, congelés ou surgelés
+CP01133	Poissons et fruits de mer séchés, fumés ou salés
+CP01134	Conserves, produits de la transformation, préparations à base de poisson et de fruits de mer
+CP0114	Lait, fromages et oeufs
+CP01141	Lait entier
+CP01142	Lait écrémé et demi écrémé
+CP01143	Lait de conserve
+CP01144	Yaourt
+CP01145	Fromage et lait caillé
+CP01146	Autres produits laitiers
+CP01147	Oeufs
+CP0115	Huiles et graisses
+CP01151	Beurre
+CP01152	Margarine et autres graisses végétales
+CP01153	Huile d'olive
+CP01154	Huiles alimentaires
+CP01155	Autres graisses animales comestibles
+CP0116	Fruits
+CP01161	Agrumes
+CP01162	Bananes
+CP01163	Pommes
+CP01164	Poires
+CP01165	Fruits à noyaux
+CP01166	Baies
+CP01167	Autres fruits
+CP01168	Fruits séchés
+CP01169	Conserves de fruits et produits à base de fruits
+CP0117	Légumes, y compris pommes de terre et autres tubercules
+CP01171	Légumes à feuilles et à tige et herbes aromatiques
+CP01172	choux
+CP01173	Légumes cultivés pour leurs fruits
+CP01174	Racines alimentaires, racines non amylacées et champignons
+CP01175	Légumes séchés
+CP01176	Légumes en conserve ou transformés
+CP01177	Pommes de terre
+CP01178	Autres tubercules et produits à base de tubercules
+CP0118	Sucre, confitures, miel, sirops, chocolat et confiserie
+CP01181	Sucre
+CP01182	Confiture, marmelades
+HONEY	Miel
+CP01183	Chocolats
+CP01184	Confiseries
+CP01185	Glaces alimentaires et crèmes glacées
+CP01186	Autres produits à base de sucre
+CP0119	Produits alimentaires n.d.a.
+CP01191	Sauces, condiments
+CP01192	Sel, épices
+CP01193	Levure de boulanger, préparations pour dessert, soupes
+CP01194	Autres produits alimentaires
+CP012	Boissons non alcoolisées
+CP0121	Café, thé, cacao
+CP01211	Café
+CP01212	Thé
+CP01213	Cacao et chocolat en poudre
+CP0122	Eaux minérales, boissons gazeuses (non minérales) et jus
+CP01221	Eaux minérales
+CP01222	Boissons gazeuses
+CP01223	Jus de fruits
+CP01224	Jus de légumes
+CP02	Boissons alcoolisées, tabac et narcotiques
+CP021_022	Boissons alcoolisées et tabac
+CP021	Boissons alcoolisées
+CP0211	Spiritueux
+CP0212	Vins
+CP02121	Vins à base de raisin ou d'autres fruits
+CP02122	Autres
+CP0213	Bière
+CP022	Tabac
+CP0221	Tabacs
+CP02211	Cigarettes
+CP02212	Cigares
+CP02213	Tabac sous d'autres formes et produits connexes
+CP023	Narcotiques
+CP0231	Narcotiques (ND)
+CP03	Articles d'habillement et articles chaussants
+CP031	Articles d'habillement
+CP0311	Tissus d'habillement
+CP0312	Vêtements
+CP03121	Vêtements pour homme
+CP03122	Vêtements pour dames
+CP03123	Vêtements pour enfants et bébés
+CP0313	Autres articles vestimentaires et accessoires du vêtement
+CP0314	Nettoyage à sec, réparation et location de vêtements
+CP032	Articles chaussants, y compris les réparations
+CP0321	Chaussures et autres articles chaussants
+CP03211	Chaussures pour hommes
+CP03212	Chaussures pour dames
+CP03213	Chaussures pour enfants et bébés
+CP0322	Réparation et location d'articles chaussants
+CP04	Logement, eau, électricité, gaz et autres combustibles
+CP041	Loyers d'habitation réels
+CP0411	Loyers réels des locataires et sous-locataires
+CP0412	Autres loyers réels
+CP042	Loyer imputé au logement
+CP0421	Loyer imputé par les propriétaires
+CP0422	Autres loyers imputés
+CP04221	Loyers imputés des ménages occupants un logement à titre gratuit
+CP04222	Loyers imputés des résidences secondaires
+CP043	Entretien et réparations courantes du logement
+CP0431	Produits pour l'entretien et les réparations courantes du logement
+CP0432	Services d'entretien et de réparations courantes du logement
+CP044	Adduction d'eau et autres services relatifs au logement
+CP0441	Adduction d'eau
+CP0442	Enlèvement des ordures
+CP0443	Services d'assainissement
+CP0444	Autres services relatifs au logement
+CP045	Electricité, gaz et autres combustibles
+CP0451	Electricité
+CP0452	Gaz
+CP04521	Gaz de ville et gaz naturel
+CP04522	Hydrocarbures liquéfiés(butanes,propanes....)
+CP0453	Combustibles liquides
+CP0454	Combustibles solides
+CP0455	Chaleur
+CP05	Ameublement, équipement ménager et entretien courant de la maison
+CP051	Meubles, articles d'ameublement, tapis et autres revêtements de sol et réparations
+CP0511	Meubles, articles d'ameublement
+CP0512	Tapis et autres revêtements de sol
+CP0513	Réparation des meubles, articles d'ameublement et revêtements de sol
+CP052	Articles de ménage en textiles
+CP0521	Articles de ménage en textiles (SD)
+CP053	Appareils de chauffage et de cuisine, réfrigérateurs, machines à laver et autres gros appareils ménagers, y compris accessoires et réparations
+CP0531_532	Gros appareils ménagers électriques ou non et petits appareils électroménagers
+CP0531	Gros appareils ménagers électriques ou non
+CP05311	Réfrigérateur, congélateurs et réfrigérateurs-congélateurs
+CP05312	Lave-linge, sèche-linge et lave-vaiselle
+CP05313	Fourneaux
+CP05314	Appareils de chauffage et de climatisation
+CP05315	Matériel de nettoyage
+CP05316	Machines à coudre et à tricoter
+CP05317	Autres gros appareils menagers
+CP0532	Petits appareils électroménagers
+CP0533	Réparation des appareils ménagers
+CP054	Verrerie, vaisselle et ustensiles de ménage
+CP0541	Verrerie, vaisselle et ustensiles de ménage
+CP05411	Verrerie et cristallerie, vaiselle
+CP05412	Coutellerie et argenterie
+CP05413	Ustensiles de cuisine et autres articles de ménage
+CP05414	Réparation de verrerie, vaiselle et autres ustensiles de ménage
+CP055	Outillage pour la maison et le jardin
+CP0551	Gros outillage
+CP0552	Petit outillage et accessoires divers
+CP056	Biens et services pour l'entretien courant de l'habitation
+CP0561	Articles de ménage non durables
+CP05611	Produits de nettoyage et d'entretien
+CP05612	Autres produits ménagers non durables
+CP0562	Services domestiques et autres services pour l'habitation
+CP05621	Services domestiques
+CP05622	Autres services d'entretien du logement
+CP06	Santé
+CP061	Produits médicaux et appareils
+CP0611	Produits pharmaceutiques
+CP0612_613	Autres produits médicaux, produits et appareils thérapeutiques
+CP0612	Autres produits médicaux
+CP0613	Produits et appareils thérapeutiques
+CP062	Services de consultation externe
+CP0621_623	Services médicaux ; services paramédicaux
+CP0621	Services médicaux
+CP0622	Services dentaires
+CP0623	Services paramédicaux
+CP06231	Services des laboratoires d'analyse médicale et des cabinets de radiologie
+CP06232	Services des auxiliaires médicaux
+CP06233	Autres services non hospitaliers
+CP063	Services hospitaliers
+CP0631	Services hospitaliers
+CP07	Transports
+CP071	Achats de véhicules
+CP0711	Automobiles neuves et d'occasion
+CP07111	Achats d'automobiles neuves
+CP07112	Achats d'automobiles d'occasion
+CP0712_713_714	Motocycles, cycles et véhicules à traction animale
+CP0712_713	Motocycles et cycles
+CP0712	Motocycles
+CP0713	Cycles
+CP0714	Véhicules à traction animale
+CP072	Utilisation des véhicules personnels
+CP0721	Pièces détachées et accessoires
+CP0722	Carburants et lubrifiants
+CP0723	Entretien et réparations
+CP0724	Autres services relatifs aux véhicules personnels
+CP073	Services de transport
+CP0731	Transport de voyageurs par chemin de fer
+CP0732	Transport de voyageurs par route
+CP0733	Transport de voyageurs par air
+CP0734	Transport de voyageurs par mer et voies navigables intérieures
+CP0735	Transport de voyageurs combiné
+CP0736	Autres achats de services de transport
+CP08	Communications
+CP081	Services postaux
+CP0811	Services postaux (S)
+CP082_83	Equipements de téléphone et de télécopie et services
+CP082	Equipements de téléphone et de télécopie
+CP0821	Equipements de téléphone et de télécopie (D)
+CP083	Services de téléphone et de télécopie
+CP0831	Services de téléphone et de télécopie (S)
+CP09	Loisirs et culture
+CP091	Appareils et accessoires, y compris réparations
+CP0911	Appareils de réception, d'enregistrement et de reproduction du son et de l'image
+CP09111	Appareils de réception, d'enregistrement et de reproduction du son
+CP09112	Téléviseurs et magnétoscopes
+CP0912	Equipement photographique et cinématographique, instruments d'optique
+CP09121	Equipement photographique et cinématographique
+CP09122	Instruments d'optique
+CP0913	Matériel de traitement de l'information
+CP0914	Supports d'enregistrement
+CP0915	Jeux, jouets et passe-temps, articles de sport, camping et plein air
+CP092A	Services récréatifs et culturels
+CP092	Autres biens durables importants pour les loisirs et la culture
+CP0921_922	Biens durables pour les loisirs d'intérieur et d'extérieur, y compris les instruments de musique
+CP0921	Biens durables pour les loisirs d'extérieur
+CP0922	Instruments de musique et biens durables pour les loisirs d'intérieur
+CP09221	Instruments de musique
+CP09222	Biens durables pour les loisirs d'intérieur
+CP0923	Réparation des autres biens durables importants du domaine des loisirs et de la culture
+CP093	Autres articles et équipement de loisirs, jardins et animaux d'agrément
+CP0931	Jeux, jouets et passe-temps
+CP0932	Equipements de sport, de camping et de loisirs en plein air
+CP0933	Jardins, plantes et fleurs
+CP0934_935	Animaux d'agrément et produits liés, y compris les services vétérinaires et autres services pour les animaux d'agrément
+CP0934	Animaux d'agrément et produits liés
+CP0935	Vétérinaires et autres services pour les animaux d'agrément
+CP094	Services récréatifs et culturels
+CP0941	Services sportifs et récréatifs
+CP0942	Services culturels
+CP09421	Cinéma, théâtre, salle de concert
+CP09422	Musée, jardins zoologiques et similaires
+CP09423	Services de télévision et de radiodiffusion
+CP09424	Autres services
+CP0943	Jeux de hasard
+CP095	Presse, librairie et papeterie
+CP0951	Librairie
+CP0952	Journaux et périodiques
+CP0953_954	Imprimés divers et articles de papeterie et de dessin
+CP0953	Imprimés divers
+CP0954	Articles de papeterie et de dessin
+CP096	Voyages à forfait
+CP10	Enseignement
+CP101	Enseignement maternel et primaire
+CP1011	Education primaire et pre-primaire (S)
+CP102	Enseignement secondaire
+CP1021	Education secondaire (S)
+CP103	Enseignement post-secondaire qui n'est pas du supérieur
+CP1031	Education post secondaire et non tertiaire (S)
+CP104	Enseignement supérieur
+CP1041	Education tertiaire (S)
+CP105	Enseignement non défini selon le degré
+CP1051	Education non definie par niveau (S)
+CP11	Hôtels, cafés et restaurants
+CP111	Restaurants et débits de boissons
+CP1111	Restaurants et cafés
+CP11111	Restaurants
+CP11112	Cafés, bars et assimilés
+CP1112	Cantines
+CP112	Services d'hébergement
+CP1121	Services d'hébergement (S)
+CP12	Autres biens et services
+CP121	Soins personnels
+CP1211	Salons de coiffure et esthétique corporelle
+CP1212_1213	Appareils électriques pour les soins personnels et autres appareils, articles et produits pour les soins personnels
+CP1212	Appareils, articles et produits pour les soins personnels
+CP1213	Autres appareils, appareils électriques pour les soins personnels
+CP122	Prostitution
+CP1221	Prostitution (S)
+CP123	Effets personnels n.d.a.
+CP1231	Articles de bijouterie, de joaillerie et d'horlogerie
+CP1232	Autres effets personnels
+CP12321	Articles de voyage et autres contenants d'effets personnels
+CP12322	Autres effets personnels
+CP124	Protection sociale
+CP1241	Services de protection sociale
+CP12411	Services de protection sociale
+CP12412	Crèches, nurserie
+CP125	Assurances
+CP1251	Assurances vie
+CP1252	Assurances liées au logement
+CP1253	Assurances liées à la santé
+CP1254	Assurances liées au transport
+CP1255	Autres assurances
+CP126	Services financiers n.d.a.
+CP1261	SIFIM (Services d'intermédiation financière indirectement mesurés)
+CP1262	Autres services financiers n.d.a.
+CP127	Autres services n.d.a.
+CP1271	Autres services n.d.a. (S)
+DURABLE	Biens durables
+NO_DURABLE	Biens non durables
+SEMI_DURABLE	Biens semi-durables
+SERVICE	Service
+CP13	Dépense de consommation individuelle des institutions sans but lucratif au service des ménages
+CP131	Logement (institutions sans but lucratif au service des ménages)
+CP132	Santé (institutions sans but lucratif au service des ménages)
+CP1321	Produits pharmaceutiques (institutions sans but lucratif au service des ménages)
+CP1322	Autres médicaments (institutions sans but lucratif au service des ménages)
+CP1323	Produits et appareils thérapeutiques (institutions sans but lucratif au service des ménages)
+CP1324	Services de consultation médicale externe (institutions sans but lucratif au service des ménages)
+CP1325	Services dentaires externes (institutions sans but lucratif au service des ménages)
+CP1326	Services paramédicaux externes (institutions sans but lucratif au service des ménages)
+CP1327	Services hospitaliers (institutions sans but lucratif au service des ménages)
+CP1328	Autres services de santé (institutions sans but lucratif au service des ménages)
+CP133	Loisirs et services (institutions sans but lucratif au service des ménages)
+CP1331	Services récréatifs et sportifs (institutions sans but lucratif au service des ménages)
+CP1332	Services culturels (institutions sans but lucratif au service des ménages)
+CP134	Enseignement (institutions sans but lucratif au service des ménages)
+CP1341	Enseignement maternel et primaire (institutions sans but lucratif au service des ménages)
+CP1342	Enseignement secondaire (institutions sans but lucratif au service des ménages)
+CP1343	Enseignement post-secondaire qui n'est pas du supérieur (institutions sans but lucratif au service des ménages)
+CP1344	Enseignement supérieur (institutions sans but lucratif au service des ménages)
+CP1345	Enseignement non défini selon le degré (institutions sans but lucratif au service des ménages)
+CP1346	Autres services d'enseignement (institutions sans but lucratif au service des ménages)
+CP135	Protection sociale (institutions sans but lucratif au service des ménages)
+CP136	Autres services (institutions sans but lucratif au service des ménages)
+CP1361	Religion (institutions sans but lucratif au service des ménages)
+CP1362	Partis politiques, main-d'oeuvre et organisations professionnelles (institutions sans but lucratif au service des ménages)
+CP1363	Protection de l'environnement (institutions sans but lucratif au service des ménages)
+CP1364	Services n.c.a. (institutions sans but lucratif au service des ménages)
+CP14	Dépense de consommation individuelle des administrations publiques
+CP141	Logement (administrations publiques)
+CP142	Santé (administrations publiques)
+CP1421	Produits pharmaceutiques (administrations publiques)
+CP1422	Autres produits médicaux (administrations publiques)
+CP1423	Produits et appareils thérapeutiques (administrations publiques)
+CP1424	Services médicaux externes (administrations publiques)
+CP1425	Services dentaires externes (administrations publiques)
+CP1426	Services paramédicaux externes (administrations publiques)
+CP1427	Services hospitaliers (administrations publiques)
+CP1428	Services de la santé publique (administrations publiques)
+CP143	Loisirs et culture (administrations publiques)
+CP1431	Services récréatifs et sportifs (administrations publiques)
+CP1432	Services culturels (administrations publiques)
+CP144	Enseignement (administrations publiques)
+CP1441	Enseignement maternel et primaire (administrations publiques)
+CP1442	Enseignement secondaire (administrations publiques)
+CP1443	Enseignement post-secondaire qui n'est pas du supérieur (administrations publiques)
+CP1444	Enseignement supérieur (administrations publiques)
+CP1445	Enseignement non défini selon le degré (administrations publiques)
+CP1446	Services subsidiaires de l'enseignement (administrations publiques)
+CP145	Protection sociale (administrations publiques)
+GOODS	Biens (indice global services exclus)
+IGOODS	Biens industriels
+IGOODSXE	Biens industriels non-énergétiques
+IGOODSXEDU	Biens industriels non-énergétiques, durables uniquement
+IGOODSXESD	Biens industriels non-énergétiques, semi-durables uniquement
+IGOODSXEND	Biens industriels non-énergétiques, non-durables uniquement
+ENRGY	Energie
+FOOD	aliments y compris l'alcool et le tabac
+FOODUNP	Aliments non traités
+FOODPROC	Aliments traités y compris l'alcool et le tabac
+SERV	Services (indice global biens exclus)
+SERVCOMM	Services relatifs à la communication
+SERVHOUSE	Services relatifs au logement
+SERVRP	Services relatifs aux loisirs réparations incluses, et soins personnels
+SERVRP_OTH	Services relatifs aux loisirs et soins personnels mais pas aux voyages touristiques tout compris et logement
+SERVRP_PHA	Services relatifs aux voyages touristiques tout compris et logement
+SERVTRANS	Services relatifs aux transports
+SERVMISC	Services - divers
+00XE	Indice global, énergie exclue
+00XEFOOD	Indice global, énergie, aliments, alcool et tabac exclus
+00XEFOODUNP	Indice global, énergie, aliments non traités exclus
+SEAS	Aliments saisonniers
+00XSEAS	Indice global, aliments saisonniers exclus
+00XESEAS	Indice global, énergie et aliments saisonniers exclus
+ENRGYSEAS	Energie et aliments saisonniers
+FUELS	Combustibles liquides et carburants et lubrifiants pour les véhicules personnels
+00XFUELS	Indice global, Combustibles liquides et carburants et lubrifiants pour les véhicules personnels exclus
+00XTOBAC	Indice global, tabac exclus
+00XALCOTOB	Indice global, alcool et tabac exclus
+EFOODUNP	Energie, aliments non traités
+00XHOUSING	Indice global, logement, eau, électricité, gaz et autres combustibles exclus
+ELGAS	Electricité, gaz, combustibles solides et Chaleur
+EDUHEASOC	Enseignement, santé, et protection sociale
+00XEDUHEASOC	Indice global, enseignement, santé, et protection sociale exclus
+FROOPP	Achats directs fréquents
+00XFROOPP	Indice global, achats directs fréquents exclus
+CP01_TO_12_X	Total COICOP 1-12 - (somme des divisions 01 à 12)
+CP01_X	COICOP 01 - (somme des groupes 011+012)
+CP02_X	COICOP 02 - (somme des groupes 021 à 023)
+CP03_X	COICOP 03 - (somme des groupes 031+032)
+CP04_X	COICOP 04 - (somme des groupes 041 à 045)
+CP05_X	COICOP 05 - (somme des groupes 051 à 056)
+CP06_X	COICOP 06 - (somme des groupes 061 à 063)
+CP07_X	COICOP 07 - (somme des groupes 071 à 073)
+CP09_X	COICOP 09 - (somme des groupes 091 à 096)
+CP11_X	COICOP 11 - (somme des groupes 111+112)
+CP12_X	COICOP 12 - (somme des groupes 121 à 127)
+AP	Prix administrés
+APFULL	Prix administrés directs
+APMAIN	Prix administrés en partie
+00XAP	Indice global à l'exclusion des prix administrés
+00XAPFULL	Indice global à l'exclusion des prix administrés directs
+00XAPMAIN	Indice global à l'exclusion des prix administrés en partie

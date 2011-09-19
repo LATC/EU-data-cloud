@@ -1,0 +1,55 @@
+TRIPS_INTRA	Total number of driven intra-regional trips (trucks/day)
+TRIPS_PROD	Total number of trips produced by and leaving the region (trucks/day)
+TRIPS_ATTR	Total number of trips attracted by but not originated in the region (trucks/day)
+TRIPS_TRAN	Total number of trips transited through the region, without origin or destination in that region (trucks/day)
+KM_INTRA	Total number of kilometers produced by intra-regional trips (km/day)
+KM_TOT	Total number of kilometers driven within each region by all trucks, intra-regional trips are not included (km/day)
+KM_PROD	Total number of kilometers made by journeys produced by the region, intra-regional trips are not included (km/day)
+KM_ATTR	Total number of kilometers made by journeys attracted by the region, intra-regional trips are not included (km/day)
+ACC_MEAN	Mean distance between a region and all other regions of the European Union (km)
+ACC_MIN	Minimum distance a truck must drive to reach another region (km)
+ACC_MAX	Maximum distance a truck can drive to reach another region (km)
+TR_RATIO	The share of total traffic that is transit traffic (%)
+5_3_1	5.3.1 Index of freight transport volume relative to GDP (tkm) (1995=100)
+5_3_2	5.3.2 Index of passenger transport volume relative to GDP (pkm) (1995=100)
+5_4_1	5.4.1 Modal split of freight transport (percentage share of road in total tkm)
+5_4_2	5.4.2 Modal split of passenger transport (percentage share of cars in total pkm)
+5_4_3	5.4.3 Modal split of passenger transport (percentage share of aviation in total pkm)
+TOTGOTRT	Total goods transported
+NATGOTRT	National goods transported
+INTGOTRT	International goods transported
+OUTGOTRT	Outgoing (load in reporting country, unload in other country)
+INGOTRT	Incoming (unload in reporting country, load in other country)
+TOTPATRN	Total passengers transported
+INTPATRN	International passengers transported
+NATPATRN	National passengers transported
+TRI01	Number of inhabitants per passengers car
+TRI02	Number of cars per thousand inhabitants
+TRI03	Railway network
+TRI04	Length of motorways
+2A5AB	Total length of motorways in km
+5S1_PKM	Transport growth. EU-15 in Passenger-kilometres (I90=100)
+5S1_TKM	Transport growth. EU-15 in Tons per km (I90=100)
+5S1_GDP	Transport growth. EU-15 in GDP (at constant prices) (I90=100)
+5A1FH	Total inland transport per mode: EEA and Switzerland
+2A5AC	Total length of railway lines in km
+5A1FK	Passenger cars per 1 000 inhabitants
+5A1GB	Goods transport by road. Million tonne-km
+5A1FL	Goods transport by rail. Million tonne-km
+5A1FM	Goods transport by inland waterways. Million tonne-km
+5A1FN	Goods transport by oil pipelines. Million tonne-km
+5A1FQ	Million tonne-km Sea transport of goods. Million t
+5A1FO	Inland goods transport. 1 000 million tonne-km. EEA and Switzerland
+5A1FP	Worldwide commercial space launches
+5A1FR	Air transport of goods. 1 000 t
+5A1FV	Air transport of passengers. Millions
+5A1FU	Passenger transport. 1 000 million passenger-km. EEA and Switzerland
+5A1FX	Passenger car transport. Million passenger-km
+5A1FW	Bus transport of passengers. Million passenger-km
+5A1FY	Rail transport of passengers. Million passenger-km
+5H2ST	Total length of motorways in km
+5H3ST	Total length of railway lines in km
+5H4ST	Passenger cars. 1 000s
+5H5ST	Passenger cars per 1 000 inhabitants
+5H6ST	Goods transport by road. Million tonne-km
+5H7ST	Persons killed in road accidents per million habitants

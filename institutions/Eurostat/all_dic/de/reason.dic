@@ -1,0 +1,139 @@
+TOTAL	Insgesamt
+TOOEXP	Zu kostspielig
+TOODIFF	Zu schwierig (um zuverlässige/sichere Ergebnisse zu erhalten)
+TOOFAR	Zu weit zum reisen
+NOPRIOR	Hat nicht Priorität
+IVTF	Konzentriert sich mehr auf IVT als auf CVT
+MJPR	Wichtigste Bildungsaktivitaeten im Vorjahr
+EXSCOR	Existierenden Fertigkeiten und Kompetenzen der Beschaeftigten entsprechen
+LSCOR	Mangel geeigneter Weiterbildungskursen auf dem Markt
+RESIST	Widerstand unter Angestellten
+RECR	Eingestellte Leute mit den benötigten Fähigkeiten
+INISUFF	Ausgangstraining (genügend)
+DONE	Investition (vor kurzem gemacht); keine Notwendigkeit dieses Jahr
+DIFFASS	Schwierig, Notwendigkeiten des Unternehmens festzusetzen
+OWNRESP	Verantwortlichkeit der Angestellten in ihrer eigenen Zeit
+ONREQ	Nur zur Verfügung gestellt, wenn Sie angefordert werden
+NOEXPERT	Unzulängliche Sachkenntnis zum Entwickeln eines Berufsbildungsplanes
+DISC	Diskussionsstoff zwischen Management und Angestellte
+CERTIF	Berufsausbildung Beglaubigung/beglaubigen als gutes Bildungsunternehmen erreichen
+COMM	Verpflichtung des Managements für den Wert von WBK erreichen
+LAW	Mit dem Gesetz oder den Tarifverträgen einwilligen
+FINEU	Finanzielle Unterstützung von der EU
+FINOTH	Finanzielle Unterstützung von anderen externen Quellen
+LAYOFF	Mit Wiedereinstellung rechnend
+INVPT	Konnte nicht einen ganztägigen Arbeitsplatz finden
+WANTPT	Wünschte nicht einen ganztägigen Arbeitsplatz
+INVTMP	Konnte nicht einen permanenten Arbeitsplatz finden
+WANTTMP	Wünschte nicht einen permanenten Arbeitsplatz
+ILLDIS	Krankheit oder Unfähigkeit besitzen
+FAM_PER	Andere familiäre oder persönliche Verantwortungsbereiche
+FAMCARE	Betreuung von Kindern oder erwerbsunfähigen Erwachsenen
+INEDUC	In Ausbildung oder in beruflicher Fortbildung
+STAGE	Probeperiode
+RETIRED	Pensionniert
+THKNOWK	Denkt keine Arbeit ist verfügbar
+NOREAS	Kein Grund angegeben
+NONEED	Keine Notwendigkeit
+NOTIME	Keine Zeit
+NO_UNMET	Keine erforderliche ärztliche Untersuchung oder Behandlung hat nicht stattgefunden
+NOKNOW	Kannte nicht irgendeinen guten Arzt oder Spezialisten
+MULTI	Das Unternehmen gehört zu einer transnationalen Unternehmensgruppe
+TOOSMALL	Der heimische Markt ist nicht groß genug
+CUT_NICHE	Innovative Dienstleistungen bzw.  auf Nischendienstleistungen spezialisiert
+NET	Nachfrage über das Internet
+OUTSOURC	Nachfrage durch Auslagerung (Outsourcing)
+DNPP	Entwicklung neuer Produkte und Arbeitsabläufe
+LHR	Mangelnde interne Ressourcen
+IV	Verstärkte Außenwirkung
+IF	Steigerung der Anpassungsfähigkeit
+CRES	Kostensenkung oder Skalenvorteile
+ANM	Zugang zu neuen Märkten
+ANSST	Zugang zu neuen oder verbesserten Technologien/Fähigkeiten
+MJOB	Überwiegend beschäftigungsbedingte Gründe
+MPER	Überwiegend persönliche/soziale Gründe
+RLOSJ	wenigere wahrscheinlich sein Job zu verlieren
+ROBL	Teilzunehmen verpflichtet zu sein
+RPROM	Die Möglichkeiten einen Arbeitsplatz  zu bekommen oder zu ändern
+RBUIS	Für seine Firma zu beginnen
+RSKIL	Um das Wissen zu haben,die im täglichen Leben nützlich  sind
+RSUB	Um die Kenntnisse auf ein interessantes Thema zu verbessern
+RFUN	Um neue Personen zu treffen oder um sich zu vergnügen
+RCER	Um ein Zeugnis zu haben
+RJOB	Um seine Arbeit besser und / oder Verbesserung der Karrierenaussicht
+REDLC	Senkung von Arbeitskosten
+REDOC	Senkung von anderen Kosten als Arbeitskosten
+FOLLOW	Orientierung am Verhalten/Beispiel von Wettbewerbern bzw. Kunden
+QUAL	Bessere Qualität bzw. Einführung neuer Produkte
+STRAT	Strategische Entscheidungen des Gruppenkopfes
+CORE	Schwerpunktmäßige Ausrichtung auf das Kerngeschäft
+KNOW	Zugang zu Spezialwissen/Spezialtechnologien
+TAX	Steuerliche bzw. sonstige finanzielle Anreize
+WAITING	Warteliste
+FEAR	Furcht vor Arzt, Krankenhaus, Prüfung oder Behandlung
+HOPING	Abwarten, wenn das Problem sich eigenständig verbesserte
+OTHERM	Andere Motive
+NRESP	Keine Antwort
+UNK	Unbekannt
+DOC_NVAL	Ohne gültige Reisedokumente
+DOC_F	Falsche Reisedokumente
+NRP_NVV	Ohne gültiges Visum oder Aufenthaltsgenehmigung
+FV_FRP	Falsches Visum oder falsche Aufenthaltsgenehmigung
+STAY_NJ	Zweck oder Bedingungen des Aufenthalts nicht genehmigt
+PERM_3	Bereits 3 Monate Aufenthalt während der vergangenen sechs Monate
+NSUBS	Mittel zum Lebensunterhalt nicht ausreichend
+ALERT	Ausweisungsbescheid ausgestellt
+PB_THRT	Eingestuft als Gefahr für die öffentliche Ordnung
+FAM	Familiengründe
+FAMILY	Familiengründe
+FAM_EU	Familiengründe: Nachzug zu einem EU-Bürger/einer EU-Bürgerin 
+FAM_PART_EU	Familiengründe: Nachzug zu einem EU-Bürger/einer EU-Bürgerin als Ehepartner(in)/Partner(in)
+FAM_CHILD_EU	Familiengründe: Nachzug zu einem EU-Bürger/einer EU-Bürgerin als Kind
+FAM_OTH_EU	Familiengründe: Nachzug zu einem EU-Bürger/einer EU-Bürgerin als andere(r) Familienangehörige(r)
+FAM_NEU	Familiengründe: Nachzug zu einem Nicht-EU-Bürger/einer Nicht-EU-Bürgerin
+FAM_PART_NEU	Familiengründe: Nachzug zu einem Nicht-EU-Bürger/einer Nicht-EU-Bürgerin als Ehepartner(in)/Partner(in)
+FAM_CHILD_NEU	Familiengründe: Nachzug zu einem Nicht-EU-Bürger/einer Nicht-EU-Bürgerin als Kind
+FAM_OTH_NEU	Familiengründe: Nachzug zu einem Nicht-EU-Bürger/einer Nicht-EU-Bürgerin als andere(r) Familienangehörige(r)
+EDUC	Bildungsgründe
+ED_STU	Bildungsgründe: Das Studium
+ED_OTH	Bildungsgründe: Sonstige bildungsbezogene Gründe
+OCCUP	Vergütete Erwerbstätigkeit
+OCC_HSW	Vergütete Erwerbstätigkeit: Hochqualifizierte Arbeitskräfte
+OCC_RSE	Vergütete Erwerbstätigkeit: Forscher
+OCC_SEAS	Vergütete Erwerbstätigkeit: Saisonarbeitnehmer
+OCC_OTH	Vergütete Erwerbstätigkeit: Sonstige vergütete Tätigkeiten
+OTH_INTPRO	Andere Gründe: Internationaler Schutzstatus
+OTH_REFSUB	Andere Gründe: Flüchtlingsstatus und subsidiärer Schutz
+OTH_HUM	Andere Gründe: Humanitäre Gründe
+OTH_RESID	Andere Gründe: Nur Aufenthalt
+OTH_NSPEC	Andere Gründe: Sonstige Gründe
+CH_FAM	Änderung des früheren Zuwanderungsgrundes: Familie
+CH_FAM_ED	Änderung von Familien- zu Bildungsgründen
+CH_FAM_OCC	Änderung von Familiengründen zu vergüteter Erwerbstätigkeit
+CH_FAM_OTH	Änderung von Familien- zu anderen Gründen
+CH_ED	Änderung des früheren Zuwanderungsgrundes: Bildung
+CH_ED_FAM	Änderung von Bildungs- zu Familiengründen 
+CH_ED_OCC	Änderung von Bildungsgründen zu vergüteter Erwerbstätigkeit
+CH_ED_OTH	Änderung von Bildungs- zu anderen Gründen
+CH_OCC	Änderung des früheren Zuwanderungsgrundes: Vergütete Erwerbstätigkeit
+CH_OCC_FAM	Änderung von vergüteter Erwerbstätigkeit zu Familiengründen 
+CH_OCC_ED	Änderung von vergüteter Erwerbstätigkeit zu Bildungsgründen 
+CH_OCC_OTH	Änderung von vergüteter Erwerbstätigkeit zu anderen Gründen
+CH_OTH	Änderung des früheren Zuwanderungsgrundes: Andere Gründe
+CH_OTH_FAM	Änderung von anderen Gründen zu Familiengründen
+CH_OTH_ED	Änderung von anderen Gründen zu Bildungsgründen
+CH_OTH_OCC	Änderung von anderen Gründen zu vergüteter Erwerbstätigkeit
+OTH	Andere Gründe
+OTHER	Andere Gründe
+WORK	Für Arbeit oder Studium
+WRK_JOB	Erwerbstätigkeit, Arbeitsplatz vor der Migration gefunden
+WRK_NJOB	Erwerbstätigkeit, kein Arbeitsplatz vor der Migration gefunden 
+INTPRO	Internationaler Schutz
+PERS	Für Freizeit oder mit Familie und Freunden
+OCC_BLUE	Vergütete Erwerbstätigkeit: Blaue Karte EU
+OTH_MIN	Andere Gründe: Unbegleitete Minderjährige
+OTH_VTM	Andere Gründe: Opfer von Menschenschmuggel
+REF	Flüchtlingsstatus
+SUB	Subsidiärer Schutz
+LONG_EU	Langfristig Aufenthaltsberechtigte: EU Direktive
+LONG_N	Langfristig Aufenthaltsberechtigte: Nationale Gesetzgebung

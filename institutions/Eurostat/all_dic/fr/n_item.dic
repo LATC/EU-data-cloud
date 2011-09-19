@@ -1,0 +1,18 @@
+TOTAL	Total
+0	Aucun article
+1	1 article
+LT2	Moins de 2 articles
+2	2 articles
+LT3	Moins de 3 articles
+3	3 articles
+GE3	3 articles ou plus
+LT4	Moins de 4 articles
+4	4 articles
+GE4	4 articles ou plus
+LT5	Moins de 5 articles
+5	5 articles
+GE5	5 articles ou plus
+6	6 articles
+7	7 articles
+8	8 articles
+9	9 articles

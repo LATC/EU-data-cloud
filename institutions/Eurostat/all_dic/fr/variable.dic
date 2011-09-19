@@ -1,0 +1,297 @@
+LIVESTOCK	Cheptel
+SLAUGHT	Abattages
+MILKPROD	Production du lait à la ferme
+MILKCOL	Collecte de lait dans les laiteries
+PROD_AREA	Superficie de production (1000 ha)
+PROD_HARV	Production récoltée (1000 t)
+PC_SELFSUF	Taux d'auto-approvisionnement (%)
+HOLD_NBR	Nombre d'exploitations
+LAYING_NBR	Poules pondeuses (1000 têtes)
+BROILER_NBR	Poulets de chair (1000 têtes)
+AGRAREA_HA	Superficie agricole utilisée (ha)
+LFD_AWU	UTA:Main-d'oeuvre - directement employée par l'exploitation
+LOCAL_UNIT	Nombre d'unités locales
+OP_END_YEAR	Nombre d'opérateurs agréés à la fin de l'année
+OP_NEW	Nombre d'opérateurs nouveaux dans l'année
+OP_OUT	Nombre d'opérateurs arrêtés pendant l'année
+FLEET	Flotte de pêche
+EMPLOY	Nombre de personnes occupées (Totaux de l'UE sont exprimés en cents)
+ENTER_NBR	Nombre d'entreprises
+ENT_MILKCOL	Entreprises selon la collecte annuelle du lait
+ENT_MILKTRT	Entreprises selon le volume du lait traité
+APP_HCONS	Consommation apparente humaine brute
+APP_HCONS_CAP	Consommation apparente humaine brute des principales denrées alimentaires par tête
+CATCHES	Capture de pêche
+PROD_AQUA	Production de l'aquaculture
+LANDINGS	Déparquements de pêche
+PRIC_LEVEL	Indices de niveau de prix relatives
+HICP	Indices harmonisés des prix à la consommation
+PRODSOLD	Production vendue
+GOVBUD_RD	Crédits budgétaires publics de R&D
+TURNOVER	Chiffre d'affaires (Mio Euro)
+IN_WW	Transport par voies navigable 
+RAIL	Transport ferroviaire 
+ROAD	Transport routier 
+ROAD_NAT	Transport routier national
+PAT_APP	Demandes de brevets déposées auprès de l'OEB
+AREA_FC	Surface de production végétale entièrement reconvertie
+AREA_UC	Surface de production végétale en cours de reconversion
+AREA_TOT	Surface de production végétale totale
+PROD	Production (1000 t)
+PEST_SALE	Vente de pesticides
+CONS_AGR	Consommation dans l'agriculture
+PROD_US	Production utilisable
+SUPPLY	Disponibilité totale
+EXP_TOT	Exportations totales (pour aggrégats EU : exportations vers pays tiers)
+IMP_TOT	Importations totales (pour UE : importations des pays tiers)
+EXP_EXT_EU15	Extra-EU15 exportations
+EXP_INT_EU15	Intra-EU15 exportations
+IMP_INT_EU15	Intra-EU15 importations
+IMP_EXT_EU15	Extra-EU15 importations
+IMP_EXT_EU	Extra-EU importations (évolutif)
+IMP_INT_EU	Intra-EU importations (évolutif)
+EXP_EXT_EU	Extra-EU exportations (évolutif)
+EXP_INT_EU	Intra-EU exportations (évolutif)
+EXP_EXT_EU25	Extra-EU25 exportations
+IMP_EXT_EU25	Extra-EU25 importations
+EXP_INT_EU25	Intra-EU25 exportations
+IMP_INT_EU25	Intra-EU25 importations
+IMP_WORLD	Importations Monde
+EXP_WORLD	Exportations Monde
+SE_FARM	Quantité de semences utilisées à la ferme
+SE_OWNPROD	Quantité de semences utilisées à la ferme de sa propre production
+INT_CONS	Valeur de la consommation intermédiaire en agriculture (prix de base)
+VAL_OUTP	Valeur de la production agricole (prix de base)
+PARTNER	Partenaires de commerce de l'UE
+HOLD_HOLD	expl:Nb total d'exploitations
+HOLD	Nb total d'exploitations
+HOLDSL_HOLD	expl:Exploitations individuelles
+HOLDLEG_GRP_HOLD	expl:Personnes morales ou groupements
+SGM_ESU	UDE:MBS de l'exploitation
+TOTAREA_HA	ha:Superficie totale
+TOTAREA	Superficie totale
+AGRAREA	Superficie agricole utilisée
+CC01_HA	ha:Faire-valoir direct:SAU
+CC01	Faire-valoir direct:SAU
+CC02_HA	ha:Fermage:SAU
+CC02	Fermage:SAU
+CC03_HA	ha:Métayage et autres modes de faire-valoir:SAU
+CC03	Métayage et autres modes de faire-valoir:SAU
+CC05	Culture biologique ou système à faible consommation d'intrants
+D	Terres arables
+D01_09_13D1	Céréales-oléo-protéagineux
+D01_08	Céréales
+D01	Blé tendre et épeautre
+D02	Blé dur
+D03	Seigle
+D04	Orge
+D05	Avoine
+D06	Maïs-grain
+D07	Riz
+D08	Autres céréales
+D09	Légumes secs - total
+D09C	Légumes secs - pois à destination fourragère
+D09D	Légumes secs - féveroles à destination fourragère
+D10_12	Plantes sarclées
+D10	Pommes de terre
+D11	Betteraves sucrières
+D12_18_F	Superficies fourragères
+D12	Plantes sarclées fourragères
+D13	Plantes industrielles
+D13A	Tabac
+D13B	Houblon
+D13C	Coton
+D13D	Autres plantes industrielles
+D13D1	Total:Autres plantes oléagineuses ou textiles
+D13D1A	Colza et navette:Autres plantes oléagineuses ou textiles
+D13D1B	Tournesol:Autres plantes oléagineuses ou textiles
+D13D1C	Soja:Autres plantes oléagineuses ou textiles
+D13D1D	Autres:Autres plantes oléagineuses ou textiles
+TEXT_CRP	Plantes textiles (y compris coton, lin textile, chanvre)
+D13D2	Aromatiques, médicinales et condimentaires
+D13D3	Plantes industrielles - autres
+D14_15	Légumes frais, melons, fraises
+D14	En plein air:Légumes frais, melons, fraises
+D14A	Culture de plein champ:En plein air:Légumes frais, melons, fraises
+D14B	Culture maraîchère:En plein air:Légumes frais, melons, fraises
+D15_17_G07	Sous serre:Légumes frais, fleurs, cultures permanentes
+D15	Sous serre:Légumes frais, melons, fraises
+D16_17	Fleurs et plantes ornementales
+D16	En plein air:Fleurs et plantes ornementales
+D17	Sous serre:Fleurs et plantes ornementales
+D18	Plantes fourragères - total
+D18A	Plantes fourragères - prairies et pâturages temporaires
+D18B	Total:Autres fourrages verts:Plantes fourragères
+D18B1	Maïs fourrage:Autres fourrages verts:Plantes fourragères
+D18B2	Légumineuses:Autres fourrages verts:Plantes fourragères
+D19_20	Semences, plants de terres arables et autres cultures de terres arables
+D19	Semences et plants de terres arables
+D20	Autres cultures de terres arables
+D21_22	Jachères
+D21	Jachères sans subvention
+D22	Terres arables non productives éligibles aux aides
+E	Jardins familiaux
+F	Total:Prairies permanentes et pâturages
+F01	Non compris les pâturages pauvres:Prairies permanentes et pâturages
+F02	Pâturages pauvres:Prairies permanentes et pâturages
+F03	Superficies en herbe non productives éligibles aux aides
+G	Cultures permanentes
+G01	Plantations d'arbres fruitiers et baies - total
+G01A	Origine tempérée:Plantations d'arbres fruitiers et baies
+G01B	Origine tropicale:Plantations d'arbres fruitiers et baies
+G01C	Fruits à coque:Plantations d'arbres fruitiers et baies
+G02	Agrumeraies
+G03	Oliveraies
+G03A	Oliveraies - olives de table
+G03B	Oliveraies - olives pour l'huile
+G04	Vignes - total
+G04A	Vignes - vins de qualité
+G04B	Vignes - autres vins
+G04C	Vignes - raisins de table
+G04D	Vignes - raisins secs
+G05	Pépinières
+G06	Autres cultures permanentes
+G07	Cultures permanentes sous serre
+H	Autres superficies
+H0103	Superficie agricole non utilisée et autres superficies
+H02	Superficie boisée
+H02F	Superficie boisée - production de bois destiné à la vente
+H02G	Superficie boisée - Zones boisées à rotation rapide (taillis)
+I01	Total:Cultures successives secondaires
+I01A	Céréales non fourragères:Cultures successives secondaires
+I01B	Légumes secs non fourragers:Cultures successives secondaires
+I01C	Graines oléagineuses non fourragères:Cultures successives secondaires
+I01D	Autres:Cultures successives secondaires
+I02	Champignons
+I03A	Superficies irrigables
+I03B	Superficies irriguées
+I03B1	Superficie irriguée:Blé dur
+I03B2	Superficie irriguée:Maïs
+I03B3	Superficie irriguée:Pommes de terre
+I03B4	Superficie irriguée:Betteraves sucrières
+I03B5	Superficie irriguée:Tournesol
+I03B6	Superficie irriguée:Soja
+I03B7	Superficie irriguée:Plantes fourragères
+I03B8	Superficie irriguée:Arbres fruitiers et baies
+I03B9	Superficie irriguée:Agrumes
+I03B10	Superficie irriguée:Vignes
+I04	Superficie des serres utilisées
+I05	Cultures associées
+I05A	Associées:Cultures agricoles- forestières
+I05B	Associées:Cultures permanentes - annuelles
+I05C	Associées:Cult. permanentes - permanentes
+I05D	Cultures associées:Autres
+I08	Total:Superficies sous régimes d'aide
+I08A	Superficies non productives éligibles aux aides
+I08AD22	Jachères sans exploitation économique: Superficies sous régimes d'aide
+I08B	Utilisées pour matières premières non alim.:Superficies sous régimes d'aide
+I08C	Converties en prairies permanentes et pâturages: Superficies sous régimes d'aide
+I08D	Converties en superficies boisées: Superficies sous régimes d'aide
+I08E	Autres:Superficies sous régimes d'aide
+I09A_HA	ha:Culture couvrant le sol en hiver: Gestion d'éléments fertilisants
+I09A_HOLD	expl:Culture couvrant le sol en hiver: Gestion d'éléments fertilisants
+I09B_HA	ha:Cultures fixatrices d'azote: Gestion d'éléments fertilisants
+I09B_HOLD	expl:Cultures fixatrices d'azote: Gestion d'éléments fertilisants
+J_LSU	UGB:Cheptel
+J	Cheptel
+J01	Equidés
+J01_10_LSU	UGB:Herbivores
+J02_08	Bovins
+J02	Bovins <1 an
+J02A	Bovins <1 an - mâles
+J02B	Bovins <1 an - femelles
+J03	Bovins 1-< 2 ans - mâles
+J04	Bovins 1-< 2 ans - femelles
+J05	Bovins >= 2 ans - mâles
+J06	Génisses, bovins >= 2 ans
+J07	Vaches laitières, bovins >= 2 ans
+J08	Autres vaches, bovins >= 2 ans
+J09	Ovins
+J09A	Ovins, brebis reproductrices
+J09B	Ovins, autres
+J10	Caprins
+J10A	Caprins, chèvres reproductrices
+J10B	Caprins, autres
+J11_13_HEADS	Nb:Porcins
+J11_13	Porcins
+J11	Porcins, porcelets d'un poids vif de moins de 20 kg
+J12	Porcins, truies reproductrices de 50 kg et plus
+J13	Porcins, autres porcs
+J14_16_1000_HEADS	1000:Volaille
+J14_16	Volailles (1000 têtes)
+J14	Volailles, poulets de chair (1000 têtes)
+J15	Poules pondeuses (1000 têtes)
+J16	Volailles - autres (1000 têtes)
+J17	Lapines mères
+J18	Abeilles (ruches)
+J19A	Cervidés d'élevage
+K01A	Tracteurs à 4 roues, tracteurs à chenilles, porte-outils appartenant en propre à l'exploitation
+K01A0	Tracteurs etc. <40 kw appartenant en propre à l'exploitation
+K01A3	Tracteurs etc. 40 - <60 kw appartenant en propre à l'exploitation
+K01A41	Tracteurs etc. 60 - <100 kw appartenant en propre à l'exploitation
+K01A42	Tracteurs etc. >= 100 kw appartenant en propre à l'exploitation
+K02A	Motoculteurs etc. appartenant en propre à l'exploitation
+K03A_MACH	mach:Moissonneuses-batteuses appartenant en propre à l'exploitation mais utilisées
+K03	Moissonneuses-batteuses
+K03A	Moissonneuses-batteuses appartenant en propre à l'exploitation mais utilisées
+K09A	Autres récolteuses compl. mécanisée appart. en propre à l'exploitation
+B04_EQ_Y_HOLD	expl:Tenant une comptabilité agricole
+CC05B_EQ_Y_HOLD	expl:Autres modes d'exploitation utilisant peu d'intrants
+CC05C_EQ_Y_HOLD	expl:Recevant des primes agro-environnementales
+CC05C1_EQ_Y_HOLD	expl: Primes agro-environnementales pour des mesures paysagères
+J19_EQ_Y	Autres animaux
+K01B_EQ_Y	Utilisation de tracteurs etc. n'appartenant pas à l'expl. depuis 12 mois
+K02B_EQ_Y	Utilisation des motoculteurs etc. n'appartenant pas à l'expl. depuis 12 mois
+K03B_EQ_Y	Utilisation de moissonneuses-batteuses n'appartenant pas à l'expl. depuis 12 mois
+K09B_EQ_Y	Utilisation d'autres récolteuses mécanisées n'appartenant pas à l'expl. depuis 12 mois
+K10_EQ_M	Equipement mobile d'irrigation
+K10_EQ_F	Equipement fixe d'irrigation
+K10_EQ_I	Equipement d'irrigation, fixe ou mobile non déterminé
+K10_EQ_0	Pas d'équipement d'irrigation
+L07_EQ_M_HOLD	expl:Principale:Exploitant individuel/chef d'exploitation - autre activité lucrative
+L07_EQ_M_AGRAREA_HA	ha SAU:Principale:Exploitant individuel/chef d'exploitation - autre activité lucrative
+L07_EQ_S_HOLD	expl:Secondaire:Exploitant individuel/chef d'exploitation - autre activité lucrative
+L07_EQ_S_AGRAREA_HA	ha SAU:Secondaire:Exploitant individuel/chef d'exploitation - autre activité lucrative
+L07_EQ_N_HOLD	expl:Aucune:Exploitant individuel/chef d'exploitation - autre activité lucrative (L07=n)
+L07_EQ_N_AGRAREA_HA	ha SAU:Aucune:Exploitant individuel/chef d'exploitation - autre activité lucrative (L07=n)
+L08_EQ_M_HOLD	expl:Autre activité lucrative principale:Conjoint de l'exploitant travaillant surl'exploitation
+L08_EQ_S_HOLD	expl:Autre activité lucrative secondaire:Conjoint de l'exploitant travaillant surl'exploitation
+L08_EQ_N_HOLD	expl:Sans autre activité lucrative:Conjoint de l'exploitant travaillant sur l'expl. (L08=n)
+L09A_PERS	pers:Principale:Autres membres famille de l'exploitant individuel:Autre activité lucrative
+L09B_PERS	pers:Secondaire:Autres membres famille de l'exploitant individuel:Autre activité lucrative
+LFH_M	Masc.:Exploitants individuels
+LFH_F	Fém.:Exploitants individuels
+LFH	Exploitants individuels
+LFS_M	Masc.:Conjoints d'exploitants individuels
+LFS_F	Fém.:Conjoints d'exploitants individuels
+LFS	Conjoints d'exploitants individuels
+LFROF_M	Masc.:Autres membres de la famille des exploitants individuels
+LFROF_F	Fém.:Autres membres de la famille des exploitants individuels
+LFROF	Autres membres de la famille des exploitants individuels:Main-d'oeuvre
+LFRF_M	Masc.:Membres de la famille des exploitants individuels:Main-d'oeuvre
+LFRF_F	Fém.:Membres de la famille des exploitants individuels:Main-d'oeuvre
+LFRF	Membres de la famille des exploitants individuels
+LFRNF_M	Masc.:Non familiale régulièrement occupée:Main-d'oeuvre
+LFRNF_F	Fém.:Non familiale régulièrement occupée:Main-d'oeuvre
+LFRNF	Non familiale régulièrement occupée:Main-d'oeuvre
+LFNR	Main-d'oeuvre - non régulière non familiale
+LFGH_PERS	pers:Groupements:Exploitants
+LFGH	Groupements:Exploitants
+LFR_PERS	pers:Régulièrement occupée:Main-d'oeuvre
+LFR	Régulièrement occupée:Main-d'oeuvre
+LFR_M_PERS	pers:Masc.:Régulièrement occupée:Main-d'oeuvre
+LFR_M	Masc.:Régulièrement occupée:Main-d'oeuvre
+LFR_F_PERS	pers:Fém.:Régulièrement occupée:Main-d'oeuvre
+LFR_F	Fém.:Régulièrement occupée:Main-d'oeuvre
+LFD	Main-d'oeuvre - directement employée par l'exploitation
+LFND	Main-d'oeuvre - non directement employée par l'exploitation
+M01	Exploitations avec une autre activité lucrative
+M01A	Exploitations avec tourisme comme autre activité lucrative
+M01B	Exploitations avec artisanat comme autre activité lucrative
+M01C	Exploitations avec transformation de produits agricoles comme autre activité lucrative
+M01D	Exploitations avec transformation du bois comme autre activité lucrative
+M01E	Exploitations avec aquaculture comme autre activité lucrative
+M01F	Exploitations avec production d'énergie renouvelable comme autre activité lucrative
+M01G	Exploitations avec travail à façon comme autre activité lucrative
+M01H	Exploitations avec autre activité lucrative n.c.a.
+PCT_ORG_UAA	Part de la Superficie Agricole Utilisée totale consacrée à l'agriculture biologique (%)

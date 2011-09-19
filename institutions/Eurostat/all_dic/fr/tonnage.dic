@@ -1,0 +1,25 @@
+GT_LT100	Moins de 100 jauges brutes
+GT100-499	De 100 à 499 jauges brutes
+GT500-999	De 500 à 999 jauges brutes
+GT1000-1999	De 1 000 à 1 999 jauges brutes
+GT2000-2999	De 2 000 à 2 999 jauges brutes
+GT3000-3999	De 3 000 à 3 999 jauges brutes
+GT4000-4999	De 4 000 à 4 999 jauges brutes
+GT5000-5999	De 5 000 à 5 999 jauges brutes
+GT6000-6999	De 6 000 à 6 999 jauges brutes
+GT7000-7999	De 7 000 à 7 999 jauges brutes
+GT8000-8999	De 8 000 à 8 999 jauges brutes
+GT9000-9999	De 9 000 à 9 999 jauges brutes
+GT10000-19999	De 10 000 à 19 999 jauges brutes
+GT20000-29999	De 20 000 à 29 999 jauges brutes
+GT30000-39999	De 30 000 à 39 999 jauges brutes
+GT40000-49999	De 40 000 à 49 999 jauges brutes
+GT50000-79999	De 50 000 à 79 999 jauges brutes
+GT80000-99999	De 80 000 à 99 999 jauges brutes
+GT100000-149999	De 100 000 à 149 999 jauges brutes
+GT150000-199999	De 150 000 à 199 999 jauges brutes
+GT200000-249999	De 200 000 à 249 999 jauges brutes
+GT250000-299999	De 250 000 à 299 999 jauges brutes
+GT_GE300000	300 000 jauges brutes ou plus
+UNK	Inconnu
+TOTAL	Total

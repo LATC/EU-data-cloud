@@ -1,0 +1,871 @@
+PCNB001	Nombre total de PC (en 1000)
+PCNB002	PC pour 100 habitants
+PCUSE001	Pourcentage de la population (>15) possédant un PC à la maison
+PCUSE002	Ménages utilisant un PC (PEC)
+PCUSE003	Pourcentage d'entreprises utilisant un PC
+IHNB001	Nombre de serveurs Internet (en 1000)
+IHNB002	Serveurs Internet pour 100 habitants
+IUSE001	Nombre d'utilisateurs d'Internet (en 1000)
+IUSE002	Utilisateurs d'Internet pour 100 habitants
+IUSE003	Personnes utilisant Internet
+IUSE004	Nombre de ménages utilisant Internet (en 1000) (PEC)
+IUSE005	Ménages utilisant Internet (UE)
+IPNB001	Nombre de fournisseurs d'accès à Internet (PEC)
+ITEXPEN001	Dépenses relatives aux technologies de l'information (Mio ECU)
+ITEXPEN002	Dépenses relatives aux technologies de l'information en pourcentage du PIB
+ITEXPEN003	Dépenses relatives aux technologies de l'information par habitant (ECU)
+ITEXPEN	Dépenses relatives aux technologies de l'information
+COMMEXP	Dépenses relatives aux communications
+IACCHOUS	Niveau d'accès Internet des ménages (%)
+IACCENTR	Niveau d'accès Internet des entreprises (%)
+SHINTSAL	Part des ventes par Internet dans l'année calendrier précédente
+E_ITSP	Entreprises ayant employé des spécialistes en TIC/TI
+P_ITSPVAL	Spécialistes en TIC/TI employés par les entreprises
+E_ITSPRCR	Entreprises ayant essayé de recruter/ayant recruté du personnel pour des emplois nécessitant des compétences de spécialistes en TIC, en 2006
+E_ITSPVAC	Entreprises ayant eu des postes vacants difficiles à pourvoir nécessitant des spécialistes en TIC/TI, en 2006
+E_ITSPVACN	Entreprises ayant eu des postes vacants difficiles à pourvoir pour des emplois de spécialiste dans les TIC pour la raison principale: absence ou nombre réduit de candidats
+E_ITSPVACQ	Entreprises ayant eu des postes vacants difficiles à pourvoir pour des emplois de spécialiste dans les TIC pour la raison principale: manque de qualifications
+E_ITSPVACW	Entreprises ayant eu des postes vacants difficiles à pourvoir pour des emplois de spécialiste dans les TIC pour la raison principale: manque d'expérience professionnelle
+E_ITSPVACS	Entreprises ayant eu des postes vacants difficiles à pourvoir pour des emplois de spécialiste dans les TIC pour la raison principale: prétentions salariales trop élevées
+E_ITUSRCR	Entreprises ayant essayé de recruter/ayant recruté du personnel pour des emplois nécessitant des compétences dans l'utilisation des TIC, en 2006
+E_ITUSVAC	Entreprises ayant eu des postes vacants difficiles à pourvoir en raison de manques de compétences des candidats dans l'utilisation des TIC/TI, en 2006
+E_ITT	Entreprises ayant organisé des formations pour développer/améliorer les compétences en TIC de leur personnel
+E_ITSPT	Entreprises ayant organisé des formations pour développer/améliorer les compétences en TIC de leur personnel: pour les spécialistes en TIC/TI
+E_ITUST	Entreprises ayant organisé des formations pour développer/améliorer les compétences en TIC de leur personnel: pour les utilisateurs de TIC
+E_XFSP	Entreprises ayant eu recours à des prestataires externes pour effectuer (entièrement ou en partie) des fonctions nécessitant des spécialistes en TIC/TI
+E_XFSPFA	Entreprises où les fonctions TIC ont été effectuées par des fournisseurs externes dans un pays étranger : par les filiales étrangères de l'entreprise
+E_XFSPFO	Entreprises où les fonctions TIC ont été effectuées par des fournisseurs externes dans un pays étranger: par d'autres entreprises étrangères
+E_XFSPF	Entreprises où les fonctions TIC ont été effectuées par des fournisseurs externes dans un pays étranger
+E_XFSPEU	Entreprises où certaines fonctions TIC ont été effectuées par des fournisseurs externes dans d'autres pays de  l'UE
+E_XFSPXEU	Entreprises où certaines fonctions TIC ont été effectuées par des fournisseurs externes dans des pays non membres de l'Union européenne
+SHOTHSAL	Part des ventes par d'autres réseaux dans l'année calendrier précédente
+H_IACC	Ménages ayant accès à Internet
+I_IUSE	Fréquence d'accès à Internet: une fois par semaine (tous les jours inclus)
+I_IDAY	Fréquence d'accès à Internet: tous les jours
+H_I3G	Ménages pour lesquels le dispositif d'accès à Internet à domicile est un téléphone mobile de 3ème génération (UMTS)
+H_IPC	Dispositif d'accès à Internet: ordinateur personnel
+H_ITV	Dispositif d'accès à Internet: poste de télévision (téléviseur numérique ou décodeur)
+I_ICAFE	Accès à Internet par un cybercafé
+I_IHM	Accès à Internet à domicile
+I_IWRK	Accès à Internet sur le lieu de travail
+I_IED	Accès à Internet sur le lieu de formation
+P_IUSE	Salariés utilisant des ordinateurs connectés à Internet
+E_IACC	Entreprises ayant accès à Internet
+E_WEB	Entreprises ayant un site web ou une page d'accueil
+E_EXTRA	Entreprises utilisant un extranet
+E_INTRA	Entreprises utilisant Intranet
+E_TELE	Entreprises dont des membres du personnel effectuent une partie de leur travail en dehors de l'entreprise et accèdent de là aux systèmes informatiques de l'entreprise
+E_IASS	Entreprises utilisant Internet pour accès aux services après-vente
+E_IBK	Entreprises utilisant Internet pour services bancaires et financiers
+E_IDIG	Entreprises utilisant Internet pour obtention de biens et services numériques
+E_IEDU	Entreprises utilisant des applications d'apprentissage en ligne pour la formation ou le perfectionnement de leur personnel
+E_IMON	Entreprises utilisant Internet pour surveillance du marché (par exemple les prix)
+I_ICOM	Utilisation d'Internet: pour communiquer
+I_IEDU	Utilisation d'Internet: pour des activités éducatives formalisées
+I_IEDUT	Particuliers ayant utilisé Internet, au cours des trois derniers mois, pour de la formation et de l'enseignement
+I_IUEDUIF	Particuliers ayant utilisé Internet, au cours des trois derniers mois, pour la recherche d'informations sur de l'éducation, de la formation ou des offres de cours
+I_IUOLC	Particuliers ayant utilisé Internet, au cours des trois derniers mois, pour suivre un cours en ligne (sur toute matière)
+I_IUCLRN	Particuliers ayant utilisé Internet, au cours des trois derniers mois, pour une consultation dans un but d'apprentissage
+I_IEDUOT	Utilisation d'Internet: pour d'autres formations liées spécifiquement à des possibilités d'emploi
+I_IEDUPT	Utilisation d'Internet: pour des formations postscolaires
+I_IGOVIF	Utilisation d'Internet: pour obtenir des informations à partir de sites Web des pouvoirs publics
+I_IGOVFM	Utilisation d'Internet: pour télécharger des formulaires officiels
+I_IGOVRT	Utilisation d'Internet: pour renvoyer des formulaires remplis
+I_IHIF	Utilisation d'Internet: rechercher des informations relatives à la santé
+I_IUBUY	Utilisation d'Internet: pour acheter/commander des biens/services (à l'exclusion d'actions/services financiers)
+I_IUEDU	Utilisation d'Internet: pour la formation et l'éducation
+I_IUEM	Utilisation d'Internet: envoyer/recevoir des messages électroniques
+I_IACOM	Particuliers ayant utilisé Internet, au cours des trois derniers mois, pour des services de communication avancés
+I_IUFIN	Utilisation d'Internet: pour d'autres services financiers
+I_IUGM	Utilisation d'Internet: pour lire/télécharger des jeux, des images, des films ou de la musique
+I_IUBK	Utilisation d'Internet: pour des services bancaires sur Internet
+I_IUGOV	Utilisation d'Internet: pour des contacts avec les pouvoirs publics
+I_IUGOV12	Utilisation d'Internet: pour leurs contacts avec les pouvoirs publics (12 derniers mois)
+I_IGOV12IF	Utilisation d'Internet: pour obtenir des informations à partir de sites Web des pouvoirs publics (12 derniers mois)
+I_IGOV12FM	Utilisation d'Internet: pour télécharger des formulaires officiels (12 derniers mois)
+I_IGOV12RT	Utilisation d'Internet: pour renvoyer des formulaires remplis (12 derniers mois)
+I_IUHOLS	Utilisation d'Internet: pour accéder à des services relatifs aux voyages et à l'hébergement
+I_IUIF	Utilisation d'Internet: rechercher des informations sur des biens et servicesParticuliers ayant utilisé Internet au cours des 3 derniers mois pour rechercher des informations sur des biens et services
+I_IUJOB	Utilisation d'Internet: rechercher un emploi ou envoyer un acte de candidature
+I_IUNW	Utilisation d'Internet: lire/télécharger des journaux/magazines d'information en ligne
+I_IUNWSUB	Particuliers ayant utilisé Internet, au cours des trois derniers mois, pour souscrire à des services ou produits d'information en ligne afin de les recevoir régulièrement
+I_IUOTH	Utilisation d'Internet: pour d'autres activités de communication (sites de discussion, etc.)
+I_IUPH	Utilisation d'Internet: pour des appels téléphoniques, des vidéoconférences
+I_IUSELL	Utilisation d'Internet: pour vendre des biens et des services
+I_IUSOFT	Utilisation d'Internet: pour télécharger des logiciels
+E_IGOV	Entreprises utilisant Internet pour leurs contacts avec les pouvoirs publics
+E_IGOVIF	Entreprises utilisant Internet pour obtenir de l'information des pouvoirs publics
+E_IGOVFM	Entreprises utilisant Internet pour obtenir des formulaires des pouvoirs publics
+E_IGOVRT	Entreprises utilisant Internet pour renvoyer des formulaires remplis aux pouvoirs publics
+E_IGOVAL	Entreprises utilisant Internet pour leurs contacts avec les pouvoirs publics - traitement entièrement électronique de dossiers
+E_IGOVPR	Entreprises utilisant Internet pour leurs contacts avec les pouvoirs publics - pour soumettre une proposition dans un système d'appel d'offres électronique (passation de marché en ligne)
+I_IHAD	Particuliers ayant utilisé Internet pour demander un avis médical en ligne à un praticien
+I_IHAP	Particuliers ayant utilisé Internet pour prendre un rendez-vous en ligne avec un praticien
+I_IHPR	Particuliers ayant utilisé Internet pour demander la délivrance d'une ordonnance en ligne par un praticien
+E_OSOPEN	Entreprises utilisant des logiciels libres/ouverts comme système d'exploitation
+E_ETURN	Pourcentage du chiffre d'affaires total des entreprises réalisé par le commerce électronique
+I_BUY3	Dernière commande en ligne: au cours des trois derniers mois
+E_AESELL	Entreprises ayant reçu des commandes en ligne
+E_ESELL	Entreprises avec commandes en ligne (au moins 1% du chiffre d'affaires)
+E_IRPAY	Entreprises ayant reçu des paiements en ligne pour des ventes par Internet pendant l'année civile précédente
+E_AEBUY	Entreprises ayant effectué des achats en ligne
+E_EBUY	Entreprises avec achats en ligne (au moins 1% des achats)
+E_ECOM	Entreprises ayant envoyé ou reçu des commandes en ligne
+I_SECFRD	Particuliers ayant connu, au cours des 12 derniers mois, le problème de sécurité suivant: utilisation frauduleuse de cartes de paiement (crédit ou débit)
+I_SECPIF	Particuliers ayant, au cours des douze derniers mois, connu le problème de sécurité suivant: utilisation abusive d'informations personnelles envoyées sur Internet
+I_SECVIR	Particuliers ayant, au cours des douze derniers mois, connu le problème de sécurité suivant: virus informatiques entraînant la perte d'informations ou de temps
+E_SEPBAC	Entreprises ayant connu, au cours des 12 derniers mois, le problème de sécurité suivant: accès non autorisé
+E_SEPBBM	Entreprises ayant connu, au cours des 12 derniers mois, les problèmes de sécurité suivants: chantage ou menaces
+E_SEPBVI	Entreprises ayant connu, au cours des 12 derniers mois, le problème de sécurité suivant: attaque de virus informatiques
+E_SECPRB	Entreprises ayant connu des problèmes de sécurité au cours des 12 derniers mois
+I_SECIAV	Particuliers ayant, au cours des trois derniers mois, installé un programme antivirus
+I_SECOLA	Particuliers ayant, au cours des trois derniers mois, utilisé un système d'authentification en ligne (mot de passe, PIN, signature numérique) sur Internet
+E_SECPRE	Entreprises ayant pris des mesures de précaution en matière de TIC
+E_SECUP	Entreprises ayant installé des dispositifs de sécurité sur leurs ordinateurs personnels et les ayant actualisés au cours des trois derniers mois
+I_SECUAV	Particuliers ayant, au cours des trois derniers mois, mis à jour un programme antivirus
+E_BROAD	Type de connexion à Internet: à large bande fixe
+E_BROAD2	Entreprises disposant d'un accès à large bande (fixe ou mobile)
+H_BROAD	Type de connexion à Internet des ménages: à large bande
+H_LAN	Ménages utilisant un réseau local LAN (avec ou sans fil)
+I131	Nombre de connexions à large bande
+I132	Taux de pénétration des connexions à large bande
+H_IPALM	Dispositif d'accès à Internet: ordinateur de poche
+H_IMB	Ménages pour lesquels le dispositif d'accès à Internet à domicile est un appareil mobile
+H_IMPH	Dispositif d'accès à Internet: téléphone mobile (GPRS, UMTS)
+E_CUSE	Entreprises utilisant l'informatique
+E_LAN	Entreprises utilisant le LAN
+E_WLAN	Entreprises utilisant le LAN sans fil
+E_LANEX	Entreprises ayant utilisé le LAN et l'Intranet ou l'Extranet pendant l'année de référence
+E_TECH1	Entreprises utilisant au moins l'Intranet, l'Extranet, le LAN ou le LAN sans fil
+E_TECH0	Entreprises n'utilisant ni l'Intranet, ni l'Extranet, ni le LAN, ni le LAN sans fil
+E_MOD	Entreprises accédant à l'internet par un modem (accès par ligne commutée ou ligne téléphonique normale)
+E_ISDN	Entreprises accédant à l'internet par l'ISDN
+E_DSLS	Entreprises accédant à l'internet par le DSL (< 2 Mb/sec)
+E_BBOTH	Type de connexion à Internet: une autre connexion fixe (par ex. câble)
+E_WIRE	Entreprises accédant à l'internet par une connexion sans fil (satellite, téléphone mobile)
+E_DSL	Type de connexion à Internet: DSL
+P_CUSE	Salariés utilisant l'informatique
+P_IACC	Salariés travaillant dans une entreprise avec accès à Internet
+P_MOD	Salariés se connectant à l'internet par un modem (accès par ligne commutée par le réseau téléphonique normal)
+P_ISDN	Salariés se connectant à l'internet par l'ISDN
+P_DSLS	Salariés se connectant à l'internet par le DSL (< 2 Mb/sec)
+P_BBOTH	Salariés se connectant à l'internet par une autre connexion fixe (par ex. câble, etc.)
+P_WIRE	Salariés se connectant à l'internet par une connexion sans fil (satellite, téléphone mobile)
+P_DSL	Salariés se connectant à l'internet par le DSL
+P_BROAD	Salariés se connectant à Internet par large bande fixe
+T101	Emploi total (ETP)
+T1011	Nombre d'employés (moyen de l'année, NBR)
+T201	Investissements bruts en bien corporels
+T202	Investissement bruts en bien immatériels
+T301	Chiffre d'affaires total des services de télécommunications
+T302	Chiffre d'affaires provenant des services de connections Internet dédiées
+T303	Chiffre d'affaires provenant des services des connections des résaux informatiques fixes
+T304	Chiffre d'affaires provenant des services des télécommunications mobiles cellulaires
+T305	Chiffre d'affaires provenant des services d'interconnection
+T306	Chiffre d'affaires provenant des services des fournisseurs d'accès Internet
+T307	Chiffre d'affaires provenant des services externes
+T308	Chiffre d'affaires provenant de l'itinérance de la téléphonie mobile (Roaming)
+T401	Recettes provenant des services de télécommunications - Trafic téléphonique international entrant
+T402	Paiements provenant des services de télécommunications - Trafic téléphonique international sortant
+T403	Appels internationaux entrants
+T404	Appels internationaux sortants
+T405	Appels internationaux en roaming
+T500	Trafic sortant total, tous réseaux confondus
+T501	Trafic téléphonique national
+T502	Trafic téléphonique local
+T503	Trafic téléphonique interurbain
+T504	Appels à partir de téléphones mobiles
+T5041	Volume UMTS (système universel de télécommunications mobiles) (en Mio.kBytes)
+T505	Internet, durée de la connexion
+T506	Appels en provenance de services fixes à destination de services mobiles
+T507	Appels en provenance de services mobiles à destination de services fixes
+T508	Appels à l'intérieur d'un réseau de télécommunications mobiles cellulaires
+T509	Appels entre réseaux de télécommunications mobiles cellulaires
+T510	Nombre de SMS (service de message court)
+T511	Nombre de SMS à valeur ajouté
+T512	Nombre de MMS (service messages multimédias)
+T513	Appels VoIP (téléphonie vocale sur Internet)
+T514	Downloads de l'Internet
+T515	Transfers de données aux réseaux larges bandes mobiles
+T516	Downloads des réseaux larges bandes mobiles
+T601	Lignes téléphoniques principales
+T6011	Lignes PTSN
+T602	Part des lignes résidentielles dans le nombre total des lignes téléphoniques principales
+T603	Nombre de lignes loués
+T604	Lignes d'abonnés au réseau numérique à intégration de services (RNIS - ISDN)
+T605	Abonnements aux services des xDSL
+T606	Abonnements aux services des télécommunications mobiles cellulaires
+T607	Abonnements Internet
+T608	Abonnements à des opérateurs de réseaux câblés avec accès à Internet (modem câblé)
+T609	Abonnements aux services DSL, capacité moins que 2Mbit/s
+T610	Abonnements aux services DSL, capacité égale ou plus que 2Mbit/s
+T611	PLC - nombre de connexions pour des télécommunications via câble électrique
+T612	Abonnements aux réseaux de larges bandes mobiles
+T613	VOIP - nombre d'utilisateurs de le téléphonie vocale sur Internet
+T614	Fixe sans fil
+T615	Souscriptions à Internet sur fibre optique
+T700	Nombre total d'opérateur de réseau fixe
+T701	Opérateurs des réseaux informatiques fixes pour des télécommunications locales
+T7011	Nombre total d'opérateurs de réseau fixe sur réseau propre
+T702	Opérateurs des réseaux informatiques fixes pour des télécommunications nationales à longue distance
+T703	Opérateurs proposant des télécommunications internationales
+T704	Opérateurs des services des télécommunications mobiles cellulaires
+T7041	Opérateurs de revente des service de télécommunications mobiles, exclus - réseaux satéllite
+T7042	Opérateurs UMTS
+T705	Opérateurs des services de réseaux câblés
+T706	Nombre de fournisseurs d'accès Internet
+T707	Opérateurs des services de résaux satéllite
+I101	Appels locaux (10 minutes)
+I102	Appels longue distance nationaux (10 minutes)
+I103	Appels internationaux vers les Etats-Unis (10 minutes)
+I110	Opérateur historique dans les télécommunications fixes - appels nationaux (à partir de 2006)
+I111	Opérateur historique dans les télécommunications fixes - appels locaux (y compris vers Internet) (2001 - 2005)
+I112	Opérateur historique dans les télécommunications fixes - appels longue distance nationaux (2001 - 2005)
+I113	Opérateur historique dans les télécommunications fixes - appels internationaux
+I114	Opérateur principal dans les télécommunications mobiles
+I115	Opérateur historique dans les télécommunications fixes - appels nationaux (local + longue distance) (à partir de 2006)
+H_MPH	Ménages ayant accès, via l'un de leurs membres, à un téléphone mobile à fonction Internet / dispositif de type 'communicateur'
+H_ALLMPH	Ménages ayant accès, via l'un de leurs membres, à un téléphone mobile
+H_TV	Ménages ayant accès, par l'un de leurs membres, à une télévision
+H_SAT	Ménages ayant accès, par l'un de leurs membres, à une antenne parabolique
+H_CABTV	Ménages ayant accès, par l'un de leurs membres, à une télévision câblée
+H_GAME	Ménages ayant accès, par l'un de leurs membres, à une console de jeu
+H_PC	Ménages ayant accès, par l'un de leurs membres, à un ordinateur personnel
+H_PALM	Ménages ayant accès, par l'un de leurs membres, à un ordinateur de poche (palmtop)
+H_IGAME	Dispositif d'accès à Internet: console de jeu
+H_IPCQ	Dispositif d'accès à Internet: seulement par ordinateur personnel
+H_ITVQ	Dispositif d'accès à Internet: seulement par poste de télévision (téléviseur numérique ou décodeur)
+H_IMBQ	Ménages utilisant un dispositif mobile comme seul moyen d'accès à l'internet à domicile
+H_IPALMQ	Dispositif d'accès à Internet: seulement par ordinateur de poche
+H_IMPHQ	Dispositif d'accès à Internet: seulement par téléphone mobile (GPRS, UMTS)
+I_B3_12	Dernière commande en ligne: au cours d'une période remontant de 3 à 12 mois
+I_BLT12	Dernière commande en ligne: au cours des 12 derniers mois
+I_BUMT12	Dernière commande en ligne: il y a plus d'un an
+I_BUMT12X	Particuliers ayant commandé des biens ou des services sur internet pour leur usage privé il y a plus d'un an ou n'ayant jamais commandé
+I_BUX	Particuliers n'ayant jamais commandé de biens ou de services sur internet pour leur usage privé
+I_BFOOD	Commande en ligne: des denrées alimentaires
+I_BFURN	Commande en ligne: des articles domestiques
+I_BFILM	Commande en ligne: des films/de la musique
+I_BBOOK	Commande en ligne: des livres/magazines/matériel d'apprentissage en ligne
+I_BCLOT	Commande en ligne: des vêtements ou des articles de sport
+I_BSOFT	Commande en ligne: des logiciels
+I_BGOOD	Commande en ligne: des films/de la musique, des livres/magazines/matériel d'apprentissage en ligne ou des logiciels
+I_BHARD	Commande en ligne: du matériel informatique
+I_BEEQU	Commande en ligne: des appareils électroniques
+I_BFIN	Commande en ligne: des actions/services financiers/assurance
+I_BTICK	Commande en ligne: des billets de spectacle
+I_BBET	Particuliers ayant joué à des jeux de hasard ou fait des paris sur internet au cours des 12 derniers mois
+I_BOTHTH	Commande en ligne: d'autres types de biens ou de services 
+I_BFILMO	Commande en ligne: des films ou de la musique, livrés ou mis à jour en ligne
+I_BBOOKO	Commande en ligne: des livres, magazines ou matériel d'apprentissage, livrés ou mis à jour en ligne
+I_BSOFTO	Commande en ligne: des logiciels, livrés ou mis à jour en ligne
+I_BGOODO	Commande en ligne: films/musique, livres/magazines/matériel d'apprentissage, livrés ou mis à jour en ligne
+I_BPHY	Particuliers ayant commandé des biens sur internet auprès de détaillants connus en dehors d'internet (magasins, catalogue)
+I_BVIR	Particuliers ayant commandé des biens sur internet auprès de détaillants connus ou trouvés sur internet
+I_BFDOM	Particuliers ayant, au cours des douze derniers mois, commandé par Internet des biens ou services auprès des vendeurs nationaux
+I_BFEU	Particuliers ayant, au cours des douze derniers mois, commandé par Internet des biens ou services auprès des vendeurs d'autres pays de l'UE
+I_BFWRLD	Particuliers ayant, au cours des douze derniers mois, commandé par Internet des biens ou services auprès des vendeurs du reste du monde (autre que UE)
+I_BFUNK	Particuliers ayant, au cours des douze derniers mois, commandé par Internet des biens ou services auprès des vendeurs d'origine inconnu
+I_BHOLS	Particuliers ayant commandé des voyages et des hébergements de vacance sur Internet (au cours des 12 derniers mois)
+I_BMED	Particuliers ayant commandé des médicaments sur internet au cours des 12 derniers mois
+I_BTS	Particuliers ayant commandé des services de télécommunications sur internet au cours des 12 derniers mois (ex: abonnement télé, souscription à bande large, chargement de cartes prépayées...)
+I_BGUA	Particuliers ayant rencontré le problème suivant lors de leurs achats sur internet: problèmes concernant la garantie
+I_BSPD	Particuliers ayant rencontré le problème suivant lors de leurs achats sur internet: délai de livraison plus long que celui indiqué
+I_BDC	Particuliers ayant rencontré le problème suivant lors de leurs achats sur internet: frais de livraison supérieurs à ceux indiqués
+I_BPRC	Particuliers ayant rencontré le problème suivant lors de leurs achats sur internet: prix final supérieur à celui indiqué
+I_BCPR	Particuliers ayant rencontré le problème suivant lors de leurs achats sur internet: frais de livraison ou prix final supérieurs à ceux indiqués
+I_BWRG	Particuliers ayant rencontré le problème suivant lors de leurs achats sur internet: erreur dans les produits livrés
+I_BDAM	Particuliers ayant rencontré le problème suivant lors de leurs achats sur internet: biens livrés endommagés
+I_BWD	Particuliers ayant rencontré le problème suivant lors de leurs achats sur internet: biens livrés erronés ou endommagés
+I_BWDN	Particuliers ayant rencontré les problèmes suivant lors de la commande sur internet: livraison de biens ou services non commandés ou endommagés
+I_BSEC	Particuliers ayant rencontré le problème suivant lors de leurs achats sur internet: sécurité de paiement insuffisante
+I_BFRA	Particuliers ayant rencontré les problèmes suivant lors de la commande sur internet: problèmes de fraude
+I_BCOM	Particuliers ayant rencontré le problème suivant lors de leurs achats sur internet: réclamations et recours difficiles
+I_BRES	Particuliers ayant rencontré le problème suivant lors de leurs achats sur internet: absence de réponse satisfaisante après une réclamation
+I_BCR	Particuliers ayant rencontré le problème suivant lors de leurs achats sur internet: plaintes et réclamations difficiles et absence de réponse satisfaisante après une réclamation
+I_BOTH	Particuliers ayant rencontré le problème suivant lors de leurs achats sur internet: autre
+I_B0	Particuliers n'ayant pas rencontré de problèmes lors de leurs achats sur internet
+I_BTFW	Particuliers ayant rencontré les problèmes suivant lors de la commande sur internet: problèmes techniques
+I_BDGL	Particuliers ayant rencontré les problèmes suivant lors de la commande sur internet: problèmes de trouver des informations sur la garantie et autres dispositions légales
+I_BARRY	Particuliers ayant rencontré des problèmes lors de la commande de bien ou de services sur internet à des fins privés
+I_BARRX	Particuliers n'ayant pas rencontré des problèmes lors de la commande de bien ou de services sur internet à des fins privés
+I_NBNEC	Particuliers qui, au cours des 12 derniers mois, n'ont pas commandé de biens ou de services sur internet parce qu'ils n'en avaient pas besoin
+I_NBSHAB	Particuliers qui, au cours des 12 derniers mois, n'ont pas commandé de biens ou de services sur internet parce qu'ils préfèrent acheter en personne et voir le produit, par habitude ou par fidélité à des magasins
+I_NBIDF	Particuliers qui, au cours des 12 derniers mois, n'ont pas commandé de biens ou de services sur internet en raison de difficultés à trouver des informations relatives aux biens et aux services sur le site web
+I_NBSKL	Particuliers qui, au cours des 12 derniers mois, n'ont pas commandé de biens ou de services sur internet parce qu'ils ne possèdent pas les compétences requises à cette fin
+I_NBEXP	Particuliers qui, au cours des 12 derniers mois, n'ont pas commandé de biens ou de services sur internet en raison des prix trop élevés
+I_NBSPD	Particuliers qui, au cours des 12 derniers mois, n'ont pas commandé de biens ou de services sur internet en raison de la longueur des délais de livraisoN
+I_NBREC	Particuliers qui, au cours des 12 derniers mois, n'ont pas commandé de biens ou de services sur internet en raison de problèmes liés à la réception de la commande à domicile
+I_NBSR	Particuliers qui, au cours des 12 derniers mois, n'ont pas commandé de biens ou de services sur internet en raison de la longueur des délais de livraison ou de problèmes liés à la réception de la commande à domicile
+I_NBPSC	Particuliers qui, au cours des 12 derniers mois, n'ont pas commandé de biens ou de services sur internet en raison de préoccupations liées à la sécurité des paiements
+I_NBPRC	Particuliers qui, au cours des 12 derniers mois, n'ont pas commandé de biens ou de services sur internet en raison de préoccupations liées au respect de la vie privée (crainte de communiquer des données à caractère personnel sur internet)
+I_NBSEC	Particuliers qui, au cours des 12 derniers mois, n'ont pas commandé de biens ou de services sur internet en raison de préoccupations liées à la sécurité (crainte de communiquer les informations relatives à leur carte de crédit sur internet)
+I_NBPRV	Particuliers qui, au cours des 12 derniers mois, n'ont pas commandé de biens ou de services sur internet en raison de préoccupations liées au respect de la vie privée (crainte de communiquer des données à caractère personnel sur internet)
+I_NBSEPR	Particuliers qui, au cours des 12 derniers mois, n'ont pas commandé de biens ou de services sur internet par crainte de communiquer les informations relatives à leur carte de crédit ou des données à caractère personnel
+I_NBTRCM	Particuliers qui, au cours des 12 derniers mois, n'ont pas commandé de biens ou de services sur internet par manque de confiance quant à la réception ou au retour des marchandises et en raison de préoccupations liées aux réclamations/recours
+I_NBCARD	Particuliers qui, au cours des 12 derniers mois, n'ont pas commandé de biens ou de services sur internet parce qu'ils ne possèdent pas de carte de crédit
+I_NBSLOW	Particuliers qui, au cours des 12 derniers mois, n'ont pas commandé de biens ou de services sur internet parce que leur connexion à internet est trop lente
+I_NBOTH	Particuliers qui, au cours des 12 derniers mois, n'ont pas commandé de biens ou de services sur internet pour d'autres raisons
+H_IGAMEQ	Dispositif d'accès à Internet: seulement par console de jeu
+H_MOD	Ménages utilisant un modem (accès par ligne commutée par le réseau téléphonique normal)
+H_ISDN	Ménages utilisant une connexion ISDN
+H_DSL	Type de connexion à Internet des ménages: DSL
+H_DSLF	Type de connexion à Internet des ménages: DSL
+H_DSLS	Ménages utilisant une connexion DSL (xDSL, ADSL, SDSL, etc.) (< 2 Mb/s)
+H_BBOTH	Type de connexion à Internet des ménages: autre connexion à large bande
+H_WIRE	Ménages utilisant une connexion sans fil (p.ex. satellite, téléphone mobile)
+H_DIALUP	Type de connexion à Internet des ménages: un modem ou une connexion ISDN
+H_MPHNAR	Type de connexion à Internet des ménages: téléphone mobile à bande étroite
+I_CLT12	Dernière utilisation d'ordinateur: au cours des derniers 12 mois
+I_C3	Dernière utilisation d'ordinateur: au cours des 3 derniers mois
+I_C3_12	Dernière utilisation d'ordinateur: entre il y a 3 et 12 mois
+I_CMT12	Particuliers ayant utilisé un ordinateur il y a plus d'un an ou n'en ayant jamais utilisé
+I_CUX	Utilisation d'un ordinateur: jamais
+I_CDAY	Fréquence d'utilisation d'un ordinateur: tous les jours
+I_CWK	Fréquence d'utilisation d'un ordinateur: au moins une fois par semaine
+I_CMTH	Fréquence d'utilisation d'un ordinateur: au moins une fois par mois
+I_CLTMTH	Fréquence d'utilisation d'un ordinateur: moins d'une fois par mois
+I_CH	Utilisation d'un ordinateur: à domicile
+I_CW	Utilisation d'un ordinateur: sur le lieu de travail
+I_CED	Utilisation d'un ordinateur: dans un lieu de formation
+I_COH	Utilisation d'un ordinateur: au domicile d'une autre personne
+I_COTH	Utilisation d'un ordinateur: dans d'autres lieux
+I_CCAFE	Particuliers ayant utilisé un ordinateur dans un cybercafé au cours des 3 derniers mois
+I_CWQ	Utilisation d'un ordinateur: sur le lieu de travail mais pas ailleurs
+I_CEDQ	Utilisation d'un ordinateur: dans un lieu de formation mais pas ailleurs
+I_ILT12	Dernière utilisation d'Internet: au cours des 12 derniers mois
+I_IU3	Dernière utilisation d'Internet: au cours des 3 derniers mois
+I_I3_12	Dernière utilisation d'Internet: entre il y a 3 et 12 mois
+I_IMT12	Particuliers ayant utilisé l'internet il y a plus d'un an ou ne l'ayant jamais utilisé
+I_IUX	Utilisation d'Internet: jamais
+I_IWK	Fréquence d'accès à Internet: au moins une fois par semaine (pas tous les jours)
+I_IMTH	Fréquence d'accès à Internet: au moins une fois par mois
+I_ILTMTH	Fréquence d'accès à Internet: moins d'une fois par mois
+I_ILIB	Accès à Internet depuis la bibliothèque publique
+I_IPO	Accès à Internet depuis le bureau de poste
+I_IGOV	Accès à Internet depuis une administration publique, communale ou gouvernementale
+I_IVOL	Accès à Internet depuis une organisation collective ou bénévole
+I_IOH	Accès à Internet au domicile d'une autre personne
+I_IOTH	Accès à Internet  dans d'autres lieux
+I_IUMOB1	Particuliers accédant à Internet à l'aide d'une connexion mobile en dehors de la maison ou du travail
+I_IHMQ	Accès à Internet seulement à domicile
+I_IWRKQ	Accès à Internet seulement sur le lieu de travail
+I_IEDQ	Accès à Internet seulement sur le lieu de formation
+I_IOTHQ	Accès à Internet seulement dans d'autres lieux
+I_ILIBQ	Accès à Internet seulement depuis la bibliothèque publique
+I_IPOQ	Accès à Internet seulement depuis le bureau de poste
+I_IGOVQ	Accès à Internet seulement depuis une administration publique, communale ou gouvernementale
+I_IVOLQ	Accès à Internet seulement depuis une organisation collective ou bénévole
+I_ICAFEQ	Accès à Internet seulement par un cybercafé
+I_IOHQ	Accès à Internet seulement au domicile d'une autre personne
+I_IHOT	Particuliers ayant accédé à l'internet dans un point d'accès (hôtel, aéroport, place publique, etc) au cours des 3 derniers mois
+E_IBUY	Entreprises ayant passé des commandes par internet au cours de la dernière année civile (à l'exclusion des commandes non automatisées passées par courriel)
+E_IBUYX	Entreprises n'ayant pas passé de commandes par internet au cours de la dernière année civile
+E_IBUY-1	Entreprises dont les achats par internet ont représenté moins de 1 % des commandes au cours de la dernière année civile
+E_IBUY1	Entreprises dont les achats par internet ont représenté au moins 1 % des commandes au cours de la dernière année civile
+E_IBUY10	Entreprises dont les achats par internet ont représenté au moins 10 % des commandes au cours de la dernière année civile
+E_IBUY25	Entreprises dont les achats par internet ont représenté au moins 25 % des commandes au cours de la dernière année civile
+E_OBUY	Entreprises ayant utilisé l'EDI ou des réseaux autres qu'internet pour au moins 1 % de leurs achats au cours de la dernière année civile
+E_OBUYX	Entreprises n'ayant pas utilisé l'EDI ni de réseaux autres qu'internet pour au moins 1 % de leurs achats au cours de la dernière année civile
+E_OBUY10	Entreprises dont les achats effectués par l'EDI ou des réseaux autres qu'internet ont représenté au moins 10 % des commandes au cours de la dernière année civile
+E_OBUY25	Entreprises dont les achats effectués par l'EDI ou des réseaux autres qu'internet ont représenté au moins 25 % des commandes au cours de la dernière année civile
+E_OBUY50	Entreprises dont les achats effectués par l'EDI ou des réseaux autres qu'internet ont représenté au moins 50 % des commandes au cours de la dernière année civile
+E_ISELL	Entreprises ayant reçu des commandes par internet au cours de la dernière année civile (à l'exclusion des commandes non automatisées passées par courriel)
+E_ISELLX	Entreprises n'ayant pas reçu de commandes par internet au cours de la dernière année civile
+E_ISEL10	Entreprises dont les ventes par internet ont représenté au moins 10 % des commandes au cours de la dernière année civile
+E_ISEL25	Entreprises dont les ventes par internet ont représenté au moins 25 % des commandes au cours de la dernière année civile
+E_ISEL50	Entreprises dont les ventes par internet ont représenté au moins 50 % des commandes au cours de la dernière année civile
+E_ISB2B	Entreprises ayant vendu des produits via des places de marché interentreprises spécialisées au cours de la dernière année civile
+E_ISB2BX	Entreprises n'ayant pas vendu de produits via des places de marché interentreprises spécialisées au cours de la dernière année civile
+E_OSELL	Entreprises ayant utilisé l'EDI ou des réseaux autres qu'internet pour au moins 1 % de leurs ventes au cours de la dernière année civile
+E_OSELLX	Entreprises n'ayant pas utilisé l'EDI ni de réseaux autres qu'internet pour au moins 1 % de leurs ventes au cours de la dernière année civile
+E_OSEL10	Entreprises dont les ventes réalisées par l'EDI ou des réseaux autres qu'internet ont représenté au moins 10 % des commandes au cours de la dernière année civile
+E_OSEL25	Entreprises dont les ventes réalisées par l'EDI ou des réseaux autres qu'internet ont représenté au moins 25 % des commandes au cours de la dernière année civile
+E_OSEL50	Entreprises dont les ventes réalisées par l'EDI ou des réseaux autres qu'internet ont représenté au moins 50 % des commandes au cours de la dernière année civile
+E_IBVAL	Achats par internet au cours de la dernière année civile, hors TVA, en pourcentage du total
+E_OBVAL	Achats via des réseaux autres qu'internet au cours de la dernière année civile, hors TVA, en pourcentage du total
+E_ISVAL	Total des ventes par internet au cours de la dernière année civile, hors TVA, en pourcentage du chiffre d'affaires total
+E_OSVAL	Total des ventes par des réseaux autres qu'internet au cours de la dernière année civile, hors TVA, en pourcentage du chiffre d'affaires total
+E_ISB2BV	Ventes par internet au cours de la dernière année civile - entreprise à entreprise/administration publique, en pourcentage du chiffre d'affaires total
+E_ISB2CV	Ventes par internet au cours de la dernière année civile - entreprise à particulier, en pourcentage du chiffre d'affaires total
+E_SELLHM	Ventes par internet au cours de la dernière année civile - dans le pays, en pourcentage du chiffre d'affaires total
+E_SELLEU	Ventes par internet au cours de la dernière année civile - dans d'autres pays de l'UE, en pourcentage du chiffre d'affaires total
+E_SELLWW	Ventes par internet au cours de la dernière année civile - dans le reste du monde, en pourcentage du chiffre d'affaires total
+E_SECPRO	Entreprises utilisant des protocoles sécurisés pour la réception des commandes par Internet
+E_HRS	Entreprises utilisant des applications spécialisées permettant aux salariés d'avoir accès à des services de ressources humaines
+E_DIGSIGN	Entreprises utilisant une signature électronique avancée dans leurs relations fournisseurs / clients
+I_CT3	Dernier cours informatique: au cours des 3 derniers mois
+I_CT3_12	Dernier cours informatique: entre il y a 3 et 12 mois
+I_CTLT12	Dernier cours informatique: au cours des 12 derniers mois
+I_CT1_3Y	Dernier cours informatique: il y a entre 1 et 3 ans
+I_CTMT3Y	Dernier cours informatique: il y a plus de 3 ans
+I_CTX	Particuliers qui n'ont jamais pris de cours informatiques
+I_CMS	Particuliers qui ont utilisé une souris pour lancer des programmes tels qu'un navigateur Internet ou un traitement de texte
+I_CCPY	Particuliers qui ont copié ou déplacé un fichier ou un répertoire
+I_CCPPS	Particuliers qui ont utilisé copier ou couper-coller pour reproduire ou pour déplacer des informations sur l'écran
+I_CSUM	Particuliers qui ont utilisé des formules arithmétiques de base pour ajouter, soustraire, multiplier ou diviser des chiffres dans un tableur
+I_CZIP	Particuliers qui ont comprimé des fichiers
+I_CPRG	Particuliers qui ont écrit un programme informatique utilisant un langage de programmation spécialisé
+I_CINS	Particuliers qui ont raccordé et installé de nouveaux appareils, par exemple une imprimante ou un modem
+I_CLAN	Particuliers qui ont connecté des ordinateurs à un réseau
+I_CSOLV	Particuliers qui ont détecté et résolu des problèmes informatiques
+I_C0	Particuliers qui n'ont fait aucun de i_cms, i_ccpy, i_ccpps, l'i_csum, i_czip, i_cprg
+I_CSK_LO	Particuliers qui ont effectué 1 ou 2 des activités liées à l'informatique
+I_CSK_ME	Particuliers qui ont effectué 3 ou 4 des activités liées à l'informatique
+I_CSK_HI	Particuliers qui ont effectué 5 ou 6 des activités liées à l'informatique
+I_CLAN_HI	Particuliers qui ont connecté des ordinateurs à un réseau et qui ont effectué 5 ou 6 des activités liées à l'informatique
+I_CSOLV_HI	Particuliers qui ont détecté et résolu des problèmes informatiques et qui ont effectué 5 ou 6 des activités liées à l'informatique
+I_CSKSF	Particuliers qui jugent leur connaissances informatiques suffisantes s'ils devaient commencer à travailler ou changer de travail dans un délai d'un an
+I_CSKSFX	Particuliers qui jugent leur connaissances informatiques insuffisantes s'ils devaient commencer à travailler ou changer de travail dans un délai d'un an
+I_ISRCH	Particuliers qui ont utilisé un moteur de recherche pour trouver des informations
+I_CEM	Particuliers qui ont envoyé un courrier électronique avec des fichiers joints en annexe
+I_ICHAT	Particuliers qui ont envoyé des messages à des salles de discussion (chat), des groupes de discussion ou un forum de discussion en ligne
+I_IPHONE	Particuliers qui ont utilisé Internet pour faire des appels téléphoniques
+I_IEXCH	Particuliers qui ont utilisé des réseaux pair à pair pour échanger des films, de la musique, etc.
+I_CWEB	Particuliers qui ont créé une page web
+I_FDISOFT	Particuliers qui ont trouvé, téléchargé et installé des programmes informatiques
+I_VIRSPYX	Particuliers qui ont protégé leur ordinateur des virus, des adware ou des spyware
+I_I0	Particuliers qui n'ont utilisé aucun de i_isrch, i_cem, i_ichat, i_iphone, i_iexch ou i_cweb
+I_ISK_LO	Particuliers qui ont effectué 1 ou 2 des activités liées à l'Internet
+I_ISK_ME	Particuliers qui ont effectué 3 ou 4 des activités liées à l'Internet
+I_ISK_HI	Particuliers qui ont effectué 5 ou 6 des activités liées à l'Internet
+I_FDISOFT_HI	Particuliers qui ont trouvé, téléchargé et installé des programmes informatiques et qui ont effectués 5 ou 6 des activités liées à l'Internet
+I_VIRSPYX_HI	Particuliers qui ont protégé leur ordinateur des virus, des adware ou des spyware et qui ont effectués 5 ou 6 des activités liées à l'Internet
+I_SKEDU	Particuliers qui ont acquis des compétences dans les TI dans des établissements d'enseignement formalisé (école, collège, université, etc.)
+I_SKOWN	Particuliers qui ont acquis des compétences dans les TI par des cours de formation et des centres de formation pour adultes, à leur propre initiative
+I_SKMP	Particuliers qui ont acquis des compétences dans les TI par des cours de formation et des centres de formation pour adultes, sur demande de leur employeur
+I_SKSLFB	Particuliers qui ont acquis des compétences dans les TI par autoformation à l'aide de livres, de CD-ROM, etc.
+I_SKLFD	Particuliers qui ont acquis des compétences dans les TI par autoformation (apprentissage par la pratique)
+I_SKCOLL	Particuliers qui ont acquis des compétences dans les TI par l'aide informelle de collègues, de parents, d'amis ou d'autres moyens
+I_SKOTH	Particuliers qui ont acquis des compétences dans les TI autrement que par i_skedu, i_sktown, i_sktemp, i_skslfb, i_skslfd, i_skcoll
+I_SKE_LO	Particuliers qui ont acquis des compétences dans les TI dans des établissements d'enseignement formalisé (école, collège, université, etc.) et ont effectué 1 ou 2 des activités liées à l'informatique
+I_SKO_LO	Particuliers qui ont acquis des compétences dans les TI par des cours de formation et des centres de formation pour adultes, à leur propre initiative  et ont effectué 1 ou 2 des activités liées à l'informatique
+I_SKM_LO	Particuliers qui ont acquis des compétences dans les TI par des cours de formation et des centres de formation pour adultes, sur demande de leur employeur et ont effectué 1 ou 2 des activités liées à l'informatique
+I_SKS_LO	Particuliers qui ont acquis des compétences dans les TI par autoformation à l'aide de livres, de CD-ROM, etc. et ont effectué 1 ou 2 des activités liées à l'informatique
+I_SKL_LO	Particuliers qui ont acquis des compétences dans les TI par autoformation (apprentissage par la pratique) et ont effectué 1 ou 2 des activités liées à l'informatique
+I_SKC_LO	Particuliers qui ont acquis des compétences dans les TI par l'aide informelle de collègues, de parents, d'amis ou d'autres moyens et ont effectué 1 ou 2 des activités liées à l'informatique
+I_SKT_LO	Particuliers qui ont acquis des compétences dans les TI par d'autres moyens que i_skedu, i_sktown, i_sktemp, i_skslfb, i_skslfd, i_skcoll et ont effectué 1 ou 2 des activités liées à l'informatique
+I_SKE_ME	Particuliers qui ont acquis des compétences dans les TI dans des établissements d'enseignement formalisé (école, collège, université, etc.) et ont effectué 3 ou 4 des activités liées à l'informatique
+I_SKO_ME	Particuliers qui ont acquis des compétences dans les TI par des cours de formation et des centres de formation pour adultes, à leur propre initiative  et ont effectué 3 ou 4 des activités liées à l'informatique
+I_SKM_ME	Particuliers qui ont acquis des compétences dans les TI par des cours de formation et des centres de formation pour adultes, sur demande de leur employeur et ont effectué 3 ou 4 des activités liées à l'informatique
+I_SKS_ME	Particuliers qui ont acquis des compétences dans les TI par autoformation à l'aide de livres, de CD-ROM, etc. et ont effectué 3 ou 4 des activités liées à l'informatique
+I_SKL_ME	Particuliers qui ont acquis des compétences dans les TI par autoformation (apprentissage par la pratique) et ont effectué 3 ou 4 des activités liées à l'informatique
+I_SKC_ME	Particuliers qui ont acquis des compétences dans les TI par l'aide informelle de collègues, de parents, d'amis ou d'autres moyens et ont effectué 3 ou 4 des activités liées à l'informatique
+I_SKT_ME	Particuliers qui ont acquis des compétences dans les TI par d'autres moyens que i_skedu, i_sktown, i_sktemp, i_skslfb, i_skslfd, i_skcoll et ont effectué 3 ou 4 des activités liées à l'informatique
+I_SKE_HI	Particuliers qui ont acquis des compétences dans les TI dans des établissements d'enseignement formalisé (école, collège, université, etc.) et ont effectué 5 ou 6 des activités liées à l'informatique
+I_SKO_HI	Particuliers qui ont acquis des compétences dans les TI par des cours de formation et des centres de formation pour adultes, à leur propre initiative  et ont effectué 5 ou 6 des activités liées à l'informatique
+I_SKM_HI	Particuliers qui ont acquis des compétences dans les TI par des cours de formation et des centres de formation pour adultes, sur demande de leur employeur et ont effectué 5 ou 6 des activités liées à l'informatique
+I_SKS_HI	Particuliers qui ont acquis des compétences dans les TI par autoformation à l'aide de livres, de CD-ROM, etc.  et ont effectué 5 ou 6 des activités liées à l'informatique
+I_SKL_HI	Particuliers qui ont acquis des compétences dans les TI par autoformation (apprentissage par la pratique) et ont effectué 5 ou 6 des activités liées à l'informatique
+I_SKC_HI	Particuliers qui ont acquis des compétences dans les TI par l'aide informelle de collègues, de parents, d'amis ou d'autres moyens et ont effectué 5 ou 6 des activités liées à l'informatique
+I_SKT_HI	Particuliers qui ont acquis des compétences dans les TI par d'autres moyens que i_skedu, i_sktown, i_sktemp, i_skslfb, i_skslfd, i_skcoll et ont effectué 5 ou 6 des activités liées à l'informatique
+I_CTNNSKL	Particuliers qui n'ont pas besoin d'un cours parcequ'ils ont déjà des connaissances suffisantes en informatique
+I_CTNNCUX	Particuliers qui n'ont pas besoin d'un cours parcequ'ils utilisent rarement un ordinateur
+I_CTBTIME	Particuliers qui n'ont pas suivi un cours parcequ'ils n'ont pas le temps
+I_CTBCOST	Particuliers qui n'ont pas suivi un cours à cause des coûts de formation
+I_CTBOFFER	Particuliers qui n'ont pas suivi un cours à cause d'absence d'offre adaptée
+I_CTBDIFF	Particuliers qui n'ont pas suivi un cours parceque les cours sont trop difficiles
+I_CTBOTH	Particuliers qui n'ont pas suivi un cours pour d'autres raisons
+P_TELE	Salariés passant une partie de leur temps de travail hors des locaux de l'entreprise et accèdant au système informatique de l'entreprise depuis l'extérieur
+E_TELEX	Entreprises n'ayant pas de salariés passant une partie de leur temps de travail hors des locaux de l'entreprise et accèdant au système informatique de l'entreprise depuis l'extérieur
+E_TELEHM	Entreprises ayant des salariés passant une partie de leur  temps de travail en dehors des locaux de l'entreprise et accèdant au système informatique de l'entreprise à partir de leur domicile
+E_TELECUS	Entreprises ayant des salariés passant une partie de leur  temps de travail en dehors des locaux de l'entreprise et accèdant au système informatique de l'entreprise à partir des locaux de clients ou d'autres partenaires commerciaux
+E_TELERM	Entreprises ayant des salariés passant une partie de leur temps de travail en dehors des locaux de l'entreprise et accèdant au système informatique de l'entreprise à partir d'autres locaux de la même entreprise ou du groupe auquel appartient l'entreprise
+E_TELEBUS	Entreprises ayant des salariés passant une partie de leur temps de travail en dehors des locaux de l'entreprise et accèdant au système informatique de l'entreprise durant un voyage d'affaires, de l'hôtel, de l'aéroport, etc.
+E_ITDIF	Entreprises qui ont eu des difficultés à recruter du personnel ayant des compétences dans le domaine des TIC
+E_ITDIFN	Entreprises qui n'avaient pas besoin de recruter du personnel ayant des compétences dans le domaine des TIC
+E_ITDIFX	Entreprises qui n'ont pas eu de difficultés à recruter du personnel ayant des compétences dans le domaine des TIC
+E_ITCST	Entreprises pour lesquelles le problème de recrutement de spécialistes en TIC était dû aux coûts élevés de rémunération
+E_ITCSTX	Entreprises pour lesquelles le problème de recrutement de spécialistes en TIC n'était pas dû aux coûts élevés de rémunération
+E_ITPNA	Entreprises pour lesquelles le problème de recrutement de personnel résidait dans le fait que les personnes ayant les compétences requises pour utiliser les applications des TIC n'étaient pas disponibles ou totalement qualifiées
+E_ITPNAX	Entreprises pour lesquelles le problème de recrutement de personnel ne résidait pas dans le fait que les personnes ayant les compétences requises pour utiliser les applications des TIC étaient indisponibles ou pas totalement qualifiées
+E_ITSNA	Entreprises pour lesquelles le problème de recrutement de personnel résidait dans le fait que les spécialistes en TIC n'étaient pas disponibles ou totalement qualifiés
+E_ITSNAX	Entreprises pour lesquelles le problème de recrutement de personnel ne résidait pas dans le fait que les spécialistes en TIC étaient indisponibles ou pas totalement qualifiés
+E_ITLNK	Entreprises ayant des systèmes informatiques de gestion des commandes et des achats connectés à des systèmes informatiques internes (réapprovisionnements, facturation, règlements, gestion de la production, de la logistique ou des services)
+E_ITLNKX	Entreprises n'ayant pas de sytèmes informatiques de gestion des commandes et des achats connectés à des systèmes informatiques internes (réapprovisionnements, facturation, règlements, gestion de la production, de la logistique ou des services)
+E_LNKORD	Entreprises ayant des systèmes informatiques de gestion des commandes et des achats connectés à des systèmes informatiques internes de réapprovisionnement des fournitures de remplacement
+E_LNKPAY	Entreprises ayant des systèmes informatiques de gestion des commandes et des achats connectés à des systèmes de facturation et de paiement
+E_LNKPLS	Entreprises ayant des systèmes informatiques de gestion des commandes et des achats connectés à un système de gestion de la production, de la logistique ou des services
+E_ITLNKE	Entreprises ayant des systèmes informatiques de gestion des commandes et des achats connectés aux systèmes informatiques des fournisseurs ou des clients ne faisant pas partie du groupe auquel appartient l'entreprise
+E_ITLNKEX	Entreprises n'ayant pas de systèmes informatiques de gestion des commandes et des achats connectés aux systèmes informatiques des fournisseurs ou des clients ne faisant pas partie du groupe auquel appartient l'entreprise
+E_LNKSUP	Entreprises ayant des systèmes informatiques de gestion des commandes et des achats connectés aux systèmes de gestion des  fournisseurs ne faisant pas partie du groupe auquel appartient l'entreprise
+E_LNKCUS	Entreprises ayant des systèmes informatiques de gestion des commandes et des achats connectés aux systèmes de gestion des clients ne faisant pas partie du groupe auquel appartient l'entreprise
+H_XACC	Ménages n'ayant pas d'accès à internet à leur domicile parce que les coûts d'accès sont trop élevés (téléphone, etc.)
+H_XDIS	Ménages n'ayant pas d'accès à internet à leur domicile en raison d'un handicap physique
+H_XELSE	Ménages n'ayant pas d'accès à internet à leur domicile en raison d'un accès ailleurs
+H_XEQU	Ménages n'ayant pas d'accès à internet à leur domicile en raison du coût trop élevé d'équipement
+H_XNEED	Ménages n'ayant pas d'accès à internet à leur domicile car ils estiment ne pas en avoir besoin (le contenu n'est pas utile, pas intéressant, etc.)
+H_XSEC	Ménages n'ayant pas d'accès à internet à leur domicile pour des raisons de confidentialité ou de sécurité
+H_XSKL	Ménages n'ayant pas d'accès à internet à leur domicile par manque de savoir-faire
+H_XWANT	Ménages n'ayant pas d'accès à internet à leur domicile car l'accès n'est pas souhaité (contenu nocif, etc.)
+H_XOTH	Ménages n'ayant pas d'accès à internet à leur domicile pour d'autres raisons
+H_XBBEXP	Ménages n'ayant pas de connexion à large bande parce que c'est trop coûteux
+H_XBBNEED	Ménages n'ayant pas de connexion à large bande parce qu'ils n'ont pas besoin
+H_XBBNA	Ménages n'ayant pas de connexion à large bande parce que ce n'est pas disponible dans la région
+H_XBBEW	Ménages n'ayant pas de connexion à large bande parce que certains membres ont une telle connexion ailleurs (par exemple au travail)
+H_XBBOTH	Ménages n'ayant pas de connexion à large bande pour d'autres raisons
+I_UMPH	Particuliers utilisant un téléphone mobile
+I_UMPHX	Particuliers n'utilisant pas de téléphone mobile
+I_IUMPH	Particuliers accédant à internet à l'aide d'un téléphone mobile via WAP ou GPRS
+I_IUPALM	Particuliers accèdant à internet à l'aide d'un ordinateur de poche (palmtop, PDA)
+I_IUMBX	Particuliers n'utilisant pas de téléphone mobile via WAP, GPRS ou UMTS ou à l'aide d'un ordinateur de poche (palmtop, PDA) pour accéder à internet
+H_COMP	Ménages ayant accès à un ordinateur par l'intermédiaire de l'un de ses membres
+E_ERP	Entreprises utilisant le progiciel ERP pour partager des informations sur les ventes/achats avec d'autres domaines fonctionnels internes
+E_ERP1	Entreprises utilisant le progiciel ERP pour partager des informations entre les différents pôles de l'entreprise
+E_CRM	Entreprises utilisant des logiciels comme le GRC (la gestion de relation de client)
+E_CRMAN	Entreprises utilisant GRC (gestion de relation de client) pour analyser des informations sur les clients à des fins de commercialisation
+E_CRMSTR	Entreprises utilisant GRC (gestion de relation de client) pour capturer, stocker et mettre à disposition d'autres fonctions internes des informations sur les clients
+E_ADE	Entreprises utilisant l'échange automatique de données avec d'autres systèmes de TIC en dehors de l'entreprise
+E_ADECU	Entreprises utilisant l'échange automatique de données pour recevoir des commandes de leurs clients
+E_ADEGOV	Entreprises utilisant l'échange automatique de données pour envoyer des données aux pouvoirs publics / recevoir des données des pouvoirs publics
+E_ADEINFO	Entreprises utilisant l'échange automatique de données pour envoyer ou recevoir des informations sur des produits
+E_ADEPAY	Entreprises utilisant l'échange automatique de données pour envoyer des instructions de paiement à des établissements financiers
+E_ADETDOC	Entreprises utilisant l'échange automatique de données pour envoyer ou recevoir des documents de transport
+E_ADESU	Entreprises utilisant l'échange automatique de données pour envoyer des commandes à leurs fournisseurs
+E_ADESUCU	Entreprises utilisant l'échange automatique de données pour envoyer ou recevoir des commandes à leurs fournisseurs ou de leurs clients
+E_SIEXT	Entreprises qui échangent électroniquement des informations permettant leur traitement automatique avec leurs partenaires commerciaux ou sur le SCM avec leurs fournisseurs ou clients
+E_SIEXTINT	Entreprises qui échangent électroniquement des informations permettant leur traitement automatique avec leurs partenaires commerciaux ainsi qu'à l'intérieur de l'entreprise
+E_SICUIPF	Entreprises qui pratiquent l'échange régulier et électronique d'informations avec leurs clients sur les prévisions relatives aux stocks, à la production et à la demande
+E_SICUPDE	Entreprises qui pratiquent l'échange régulier et électronique d'informations avec leurs clients sur l'évolution des livraisons
+E_SISC	Entreprises dont les processus commerciaux sont automatiquement liés à ceux de leurs fournisseurs et/ou de leurs clients
+E_SISUIPF	Entreprises qui pratiquent l'échange régulier et électronique d'informations avec leurs fournisseurs sur les prévisions relatives aux stocks, à la production et à la demande
+E_SISUPDE	Entreprises qui pratiquent l'échange régulier et électronique d'informations avec leurs fournisseurs sur l'évolution des livraisons
+E_SISUCU	Entreprises dont les processus commerciaux sont automatiquement liés à ceux de leurs fournisseurs et de leurs clients
+E_SISUCU2	Entreprises qui échangent électroniquement des informations avec des fournisseurs et clients sur les prévisions de demandes, les stocks, la production ou la distribution
+E_INV	Entreprises utilisant des factures électroniques à la sortie et/ou à l'entrée
+E_INVREC	Entreprises recevant des factures électroniques
+E_INVSND	Entreprises envoyant des factures électroniques
+E_SISA	Entreprises qui échangent électroniquement des informations relatives aux ventes avec le logiciel utilisé pour toute fonction interne
+E_SIPU	Entreprises qui échangent électroniquement des informations relatives aux achats avec le logiciel utilisé pour toute fonction interne
+E_SISORP	Entreprises qui échangent électroniquement des informations relatives aux ventes ou aux achats avec le logiciel utilisé pour toute fonction interne
+E_SISNP	Entreprises qui échangent électroniquement des informations relatives aux ventes et aux achats avec le logiciel utilisé pour toute fonction interne
+E_SIINT	Entreprises qui échangent électroniquement des informations à l'intérieur de l'entreprise
+E_MOB	Entreprises accédant à l'internet par une connexion mobile (ex.: GSM, GPRS, UMTS, etc.)
+E_MOB2	Entreprises accédant à l'internet par une connexion mobile (à large bande ou autre connexion mobile)
+E_WEBACC	Entreprises avec un site web qui fournit des catalogues ou de listes de prix
+E_WEBPRV	Entreprises disposant d'un site web qui fournit une charte ou garantie de confidentialité ou un certificat relatif à la sécurité sur le web
+E_WEBVAC	Entreprises disposant d'un site web qui présente des postes vacants ou demandes d'emploi en ligne
+E_WEBORD	Entreprises disposant d'un  site web avec la possibilité de commande ou réservation en ligne ou un service de réservation
+E_WEBOT	Entreprises disposant d'un site web avec la possibilité du suivi des commandes en ligne
+E_AEBHM	Entreprises ayant régulièrement passé des commandes électroniques auprès de fournisseurs situés dans le pays de l'entreprise pendant l'année civile précédente
+E_AEBEU	Entreprises ayant régulièrement passé des commandes électroniques auprès de fournisseurs situés dans un autre pays de l'UE pendant l'année civile précédente
+E_AEBWW	Entreprises ayant régulièrement passé des commandes électroniques auprès de fournisseurs situés dans un pays hors de l'UE pendant l'année civile précédent
+E_AESHM	Ventes électroniques des entreprises dans le pays de l'entreprise pendant l'année civile précédente
+E_AESEU	Ventes électroniques des entreprises dans un autre pays de l'UE, pendant l'année civile précédente
+E_AESWW	Ventes électroniques des entreprises dans un pays hors de l'UE, pendant l'année civile précédente
+E_AESVHM	Ventes électroniques des entreprises dans le pays de l'entreprise pendant l'année civile précédente
+E_AESVEU	Ventes électroniques des entreprises dans un autre pays de l'UE, pendant l'année civile précédente
+E_AESVWW	Ventes électroniques des entreprises dans un pays hors de l'UE, pendant l'année civile précédente
+E_RFID	Entreprises utilisant des technologies basées sur l'Identification par Radio Fréquence (RFID)
+E_RFPRI	Entreprises utilisant la technolgie RFID pourl'identification des produits
+E_RFMC	Entreprises utilisant la technolgie RFID pour la surveillance et le contrôle de la production industrielle
+E_RFSC	Entreprises utilisant la technolgie RFID pour le suivi et la localisation des produits dans la chaîne d'approvisionnement et les stocks
+E_RFSM	Entreprises utilisant la technolgie RFID pour la gestion des informations sur l'entretien et la maintenance ou la gestion d'actifs
+E_RFPA	Entreprises utilisant la technolgie RFID pour les procédures de paiement (ex.: péages d'autoroutes, transport de passagers)
+E_RFAC	Entreprises utilisant la technolgie RFID pour l'identification des personnes ou le contrôle d'accès
+H_IOTHDV	Ménages pour lesquels le dispositif pour l'accès à Internet à domicile est un autre dispositif mobile
+I_IU3G	Particuliers pour lesquels le dispositif d'accès à Internet est un téléphone portable via UMTS (3G)
+I_IUPORT	Particuliers accédant à Internet à l'aide d'un ordinateur portable relié à un réseau sans fil en dehors de la maison ou du travail
+IC_VAL	Valeur ajoutée aux coûts des facteurs du secteur des TIC, en pourcentage Valeur ajoutée aux coûts des facteurs du Total - Ensemble des branches NACE (Comptes nationaux)
+IC_EM	Emploi dans le secteur des TIC, en pourcentage de l'emploi total (Comptes nationaux)
+IC_GR	Evolution de la valeur ajoutée aux coûts des facteurs du secteur des TIC, en pourcentage et en prix courants
+IC_SK	Utilisateurs des TIC, en pourcentage des emplois
+IC_SP	Spécialistes en TIC, en pourcentage des emplois
+IC_RDE	Dépenses de R&D des entreprises du secteur TIC en % des dépenses R&D totales
+IC_RDP	Personnel R&D dans le secteur des TIC, en % du personnel R&D
+I_IUPHO	Appels téléphoniques par internet
+I_IUVC	Appels vidéo (par webcam) par internet
+I_IUPH1	Utilisation d'Internet: pour des appels téléphoniques ou vidéo
+I_IUFOR	Envoi de messages à des sites de dialogue en ligne, des newsgroups ou des forums de discussion
+I_IUCHAT	Utilisation de la messagerie instantanée (communication écrite en temps réel)
+I_IURBLG	Lecture de blogs
+I_IUCBLG	Création ou gestion de son propre blog
+I_IRMPHV	Téléphonie mobile - beaucoup
+I_IRMPHS	Téléphonie mobile - un peu
+I_IRMPHX	Téléphonie mobile - pas du tout
+I_IRFPHV	Utilisation d'une ligne de téléphone fixe (non connectée à l'internet) - beaucoup
+I_IRFPHS	Utilisation d'une ligne de téléphone fixe (non connectée à l'internet) - un peu
+I_IRFPHX	Utilisation d'une ligne de téléphone fixe (non connectée à l'internet) - pas du tout
+I_IREMAV	Utilisation du courrier électronique - beaucoup
+I_IREMAS	Utilisation du courrier électronique - un peu
+I_IREMAX	Utilisation du courrier électronique - pas du tout
+I_IRNO	Aucun effet sur les autres moyens de communication
+I_IUWEB	Utilisation d'Internet: écouter des radios en ligne et/ou regarder la télévision sur le web
+I_IUMUS	Télécharger et/ou écouter de la musique (autrement que par la radio sur le web)
+I_IUMOV	Télécharger et/ou regarder des films, des courts métrages ou des vidéos (autrement que par la télévision sur le web)
+I_IUMF	Télécharger/écouter/regarder de la musique et/ou des films
+I_IUP2P	Utiliser le partage de fichiers poste à poste en vue de l'échange de films, d'enregistrements musicaux ou de fichiers vidéo
+I_IUPOD	Utiliser un service de baladodiffusion (podcast) pour recevoir automatiquement des fichiers audio ou vidéo intéressants
+I_IUMFXP	Télécharger/écouter/regarder/échanger/partager par podcast de la musique et/ou des films
+I_IUDGM	Télécharger des jeux vidéo ou leurs mises à jour
+I_IUPGM	Jouer à des jeux en réseau avec d'autres personnes
+I_IUMFG	Utilisation d'Internet: pour télécharger/écouter/jouer à/regarder de la musique, des films et/ou des jeux
+I_IUUPL	Utilisation d'Internet: pour publier un contenu créé par soi-même sur un site web en vue de le partager
+I_IURSS	Utiliser des flux d'actualité (RSS, par exemple) dans un navigateur pour lire un nouveau contenu sur des sites web
+I_IUAVC	Activités de loisirs liées à l'obtention et au partage de contenus audiovisuels
+I_IUFORIM	Utilisation d'Internet: pour envoyer des messages à des sites de réseaux sociaux ou communiquer à l'aide d'une messagerie instantanée
+I_IUIFB	Utilisation d'Internet: pour trouver de l'information utilisée pour acheter des biens/services
+I_IUIFBX	Utilisation d'Internet: pour trouver de l'information non utilisée pour acheter des biens/services
+I_IUIFIB	Utilisation d'Internet: pour trouver de l'information utilisée pour acheter sur Internet
+I_IUIFIBX	Utilisation d'Internet: pour trouver de l'information non utilisée pour acheter sur Internet
+I_DDAY	Tous les jours ou presque
+I_DWK	Au moins une fois par semaine (mais pas tous les jours)
+I_DMTH	Au moins une fois par mois (mais pas toutes les semaines)
+I_DLTMTH	Moins d'une fois par mois
+I_DNA	Pas de téléchargement: particulier ayant seulement écouté de la musique et/ou regardé des films
+I_AVPAY	Particulier ayant payé pour un contenu audiovisuel en ligne au cours des trois derniers mois
+I_AVPAYX	Particulier n'ayant pas payé pour un contenu audiovisuel en ligne au cours des trois derniers mois
+I_AVPLFC	Incitation à payer pour un contenu audiovisuel en ligne: absence de contenu disponible gratuit
+I_AVPLEG	Incitation à payer pour un contenu audiovisuel en ligne: droit de partager un contenu légalement protégé
+I_AVPMCP	Incitation à payer pour un contenu audiovisuel en ligne: méthodes de paiement plus pratiques
+I_AVPMAP	Incitation à payer pour un contenu audiovisuel en ligne: prix plus intéressants que ceux des contenus hors ligne
+I_AVPBQ	Incitation à payer pour un contenu audiovisuel en ligne: contenu payant de meilleure qualité que les services gratuits
+I_AVPWCH	Incitation à payer pour un contenu audiovisuel en ligne: choix plus large et/ou contenu plus facilement disponible
+I_AVPOTH	Incitation à payer pour un contenu audiovisuel en ligne: autres motifs (exemple: soutenir le travail des artistes, etc.)
+I_AVPX	Particulier n'étant pas prêt à payer
+I_IRNWV	Lire l'actualité en ligne au lieu de l'actualité imprimée, des journaux ou des magazines - beaucoup
+I_IRNWS	Lire l'actualité en ligne au lieu de l'actualité imprimée, des journaux ou des magazines - un peu
+I_IRNWX	Lire l'actualité en ligne au lieu de l'actualité imprimée, des journaux ou des magazines - pas du tout
+I_IRMUSV	Télécharger des fichiers musicaux au lieu d'acheter des CD - beaucoup
+I_IRMUSS	Télécharger des fichiers musicaux au lieu d'acheter des CD - un peu
+I_IRMUSX	Télécharger des fichiers musicaux au lieu d'acheter des CD - pas du tout
+I_IRMOVV	Télécharger des films et des vidéos au lieu d'acheter/de louer des DVD - beaucoup
+I_IRMOVS	Télécharger des films et des vidéos au lieu d'acheter/de louer des DVD - un peu
+I_IRMOVX	Télécharger des films et des vidéos au lieu d'acheter/de louer des DVD - pas du tout
+I_IRWEBV	Écouter la radio sur le web au lieu de la radio traditionnelle - beaucoup
+I_IRWEBS	Écouter la radio sur le web au lieu de la radio traditionnelle - un peu
+I_IRWEBX	Écouter la radio sur le web au lieu de la radio traditionnelle - pas du tout
+I_IRGOVV	Préférer les contacts en ligne aux contacts personnels avec les services publics et les administrations - beaucoup
+I_IRGOVS	Préférer les contacts en ligne aux contacts personnels avec les services publics et les administrations - un peu
+I_IRGOVX	Préférer les contacts en ligne aux contacts personnels avec les services publics et les administrations - pas du tout
+I_MUSPH	Envoi de photographies ou de vidéos
+I_MUUPH	Publication de photographies ou de vidéos sur des sites web depuis un téléphone portable
+I_MUNEWS	Réception de services d'information nécessitant un abonnement payant (actualité, bulletin météo, résultats sportifs, etc.)
+I_MUWEB	Navigation sur internet
+I_MUEMA	Consultation du courrier électronique
+I_MUFILM	Téléchargement et/ou visionnage d'émissions de télévision ou de vidéos
+I_MUPAY	Paiement de biens ou de services (plutôt qu'en espèces ou par carte de crédit)
+I_MUGPS	Navigation personnelle, utilisation de services tenant compte de la localisation de l'utilisateur (pour recevoir, par exemple, des informations sur l'offre touristique, commerciale ou culturelle dans la région)
+I_MPHPRE	Utilisation du prépaiement pour la téléphonie mobile
+I_MPHPOST	Utilisation du postpaiement pour la téléphonie mobile
+I_MPHFLAT	Paiement d'un forfait pour l'accès à l'internet par le téléphone portable
+EMP106	Personnes employées pour la fourniture de services postaux et de services y afférents sur le marché intérieur (moyenne de l'année, NBR)
+FIN303	Chiffre d'affaires total provenant de la fourniture de services postaux et de services y afférents sur le marché intérieur 
+ACC201	Nombre total de points d'accès
+ACC202	Bureaux de poste ouverts au public et agences postales
+ACC2021	Bureaux de poste/points de vente fixes avec service complet
+ACC2022	Autres agences postales/points de vente fixes
+ACC2023	Bureaux de poste mobiles
+ACC203	Boîtes aux lettres
+ACC204	Boîtes postales
+ACC205	Points de vente exclusivement pour timbres
+ITM401B	Services postaux et services y afférents - total
+ITM402	Services d'expédition de lettres - total
+ITM403	Services d'expédition de lettres - services réservés
+ITM404	Petits colis
+ITM405	Courrier, express et colis postaux - total
+ITM406	Courrier, express et colis postaux - colis ordinaires (jusqu'a 10/20 kg)
+ITM407	Autres service postaux et services y afférents
+ITM408	Envois sans destinataire
+LET409	Courrier ordinaire et cartes postales
+LET410	Publipostage
+LET411	Courrier recommandé
+LET412	Courrier avec valeur déclarée
+LET413	Autres expéditions de lettres
+PRI601	Service intérieur: Prix catalogue à payer pour le traitement d'une lettre standard (1ère classe) pesant moins de 20 g (service universel)
+PRI602	Service intracommunautaire: Prix catalogue à payer pour le traitement d'une lettre standard (1ère classe) pesant moins de 20 g (service universel)
+PRI603	Service international: Prix catalogue à payer pour le traitement d'une lettre standard (1ère classe) pesant moins de 20 g (service universel)
+DOM501	Service intérieur: % des lettres (service le plus rapide) distribuées dans le respect des délais conformément à l'indicateur national de performance
+DOM502	Service intérieur: % des colis distribués dans le respect des délais conformément à l'indicateur national de performance
+INT503	Service international, courrier de provenance intracommunautaire: % des envois distribués jusqu'à D+3 (jours ouvrables)
+INT504	Service international, courrier de provenance intracommunautaire: % des envois distribués jusqu'à D+5 (jours ouvrables)
+I_SCVIRS	Fortement préoccupé par le risque d'attraper un virus ou une autre infection d'ordinateur (p. ex. ver ou cheval de Troie) aboutissant à la perte d'information ou de temps 
+I_SCVIRM	Légèrement préoccupé par le risque d'attraper un virus ou une autre infection d'ordinateur (p. ex. ver ou cheval de Troie) aboutissant à la perte d'information ou de temps 
+I_SCVIRX	Pas du tout préoccupé par le risque d'attraper un virus ou une autre infection d'ordinateur (p. ex. ver ou cheval de Troie) aboutissant à la perte d'information ou de temps 
+I_SCSPMS	Fortement préoccupé par les emails non sollicités (spams)
+I_SCSPMM	Légèrement préoccupé par les emails non sollicités (spams)
+I_SCSPMX	Pas du tout préoccupé par les emails non sollicités (spams)
+I_SCPIFS	Fortement préoccupé par un abus concernant des informations personnelles envoyées
+I_SCPIFM	Légèrement préoccupé par un abus concernant des informations personnelles envoyées
+I_SCPIFX	Pas du tout préoccupé par un abus concernant des informations personnelles envoyées
+I_SCFLPPS	Fortement préoccupé par une perte d'argent suite à la réception de messages frauduleux
+I_SCFLPPM	Légèrement préoccupé par une perte d'argent suite à la réception de messages frauduleux
+I_SCFLPPX	Pas du tout préoccupé par une perte d'argent suite à la réception de messages frauduleux
+I_SCFRDS	Fortement préoccupé par une perte d'argent suite à une fraude à la carte bancaire
+I_SCFRDM	Légèrement préoccupé par une perte d'argent suite à une fraude à la carte bancaire
+I_SCFRDX	Pas du tout préoccupé par une perte d'argent suite à une fraude à la carte bancaire
+I_SCCHLDS	Fortement préoccupé par l'accès des enfants à des sites web pour adultes, ou leur mise en relation avec des personnes pouvant être dangereuses
+I_SCCHLDM	Légèrement préoccupé par l'accès des enfants à des sites web pour adultes, ou leur mise en relation avec des personnes pouvant être dangereuses
+I_SCCHLDX	Pas du tout préoccupé par l'accès des enfants à des sites web pour adultes, ou leur mise en relation avec des personnes pouvant être dangereuses
+I_SCX	Pas du tout préoccupé par rapport à la sécurité sur Internet
+I_SECVIR1	Attrapé un virus ou autre infection de l'ordinateur
+I_SECSPM	Reçu des emails non sollicités (spams)
+I_SECPIF1	Abus concernant des informations personnelles envoyées sur Internet ou autre violation de la vie privée (p. ex. abus de photos, vidéos, données personnelles chargées sur des sites appartenant à des communautés)
+I_SECFLPP	Perte d'argent suite à la réception de messages frauduleux (phishing) ou suite à la redirection vers de faux sites web demandant des informations personnelles (pharming)
+I_SECFRD1	Perte d'argent suite à une fraude à la carte bancaire
+I_SECCHLD	L'accès des enfants à des sites web pour adultes, ou leur mise en relation avec des personnes pouvant être dangereuses
+I_SECFL	Ayant subi une perte d'argent
+I_SECANY6	Ayant subi un des problèmes suivants: i_secvir1, i_secspm, i_secpif1, i_secflpp, i_secfrd1, i_secchld
+I_SECANY5	Ayant subi un des problèmes suivants: i_secvir1, i_secpif1, i_secflpp, i_secfrd1, i_secchld
+I_SECANY4	Ayant subi un des problèmes suivants: i_ secpif1, i_secflpp, i_secfrd1, i_secchld
+I_SEC0	N'ayant subi aucun problème de sécurité 
+I_SEC1	Ayant subi un des problèmes suivants:  i_secpif1, i_secflpp, i_secfrd1
+I_SEC2	Ayant subi un des problèmes suivants: i_secvir1, i_secpif1, i_secflpp, i_secfrd1
+I_SCPVIR	Fortement préoccupé et ayant attrapé un virus ou autre infection de l'ordinateur
+I_SCPSPM	Fortement préoccupé et ayant reçu des emails non sollicités (spams)
+I_SCPPIF	Fortement préoccupé et ayant subi un abus concernant des informations personnelles envoyées sur Internet ou d'autres violations de la vie privée (p. ex. abus de photos, vidéos, données personnelles chargées sur des sites appartenant à des communautés)
+I_SCPFLPP	Fortement préoccupé et ayant subi une perte d'argent suite à la réception de messages frauduleux (phishing) ou par re-direction vers de faux sites web demandant des informations personnelles (pharming)
+I_SCPFRD	Fortement préoccupé et ayant subi une perte d'argent suite à une fraude à la carte bancaire
+I_SCPCHLD	Fortement préoccupé et ayant vécu l'accès des enfants à des sites web pour adultes, ou leur mise en relation avec des personnes pouvant être dangereuses
+I_SECANY6BUY	Ayant acheté sur Internet et subi des problèmes de sécurité suivants: i_secvir1, i_secspm, i_ secpif1, i_secflpp, i_secfrd1, i_secchld
+I_SECANY4BUY	Ayant acheté sur Internet et subi des problèmes de sécurité suivants: i_ secpif1, i_secflpp, i_secfrd1, i_secchld
+I_SECPIFSN	Ayant participé dans un réseau social pendant les 3 derniers mois et subi un abus concernant des informations personnelles envoyées sur Internet ou d'autres violations de la vie privée pendant les 12 derniers mois
+I_SBGOOD	Les questions de sécurité ont empêché l'individu de commander/acheter des biens/services pour l'usage privé
+I_SBBANK	Les questions de sécurité ont empêché l'individu de gérer son compte bancaire en ligne
+I_SBPERS	Les questions de sécurité ont empêché l'individu de communiquer des données personnelles à des réseaux sociaux ou professionnels en ligne
+I_SBGOV	Les questions de sécurité ont empêché l'individu de recourir à l'administration ou aux services publics en ligne
+I_SBSOFT	Les questions de sécurité ont empêché l'individu de télécharger des logiciels, de la musique, des films, des jeux vidéo ou d'autres fichiers
+I_SBMOB	Les questions de sécurité ont empêché l'individu d'utiliser une connexion sans fil mobile (type wifi) depuis un autre lieu que le domicile
+I_SBANY	Les questions de sécurité ont empêché l'individu de réaliser une des activités suivantes:  i_sbgood, i_sbbank, i_sbpers, i_sbgov, i_sbsoft, i_sbmob
+I_SECFLGB	Une perte d'argent sur Internet et des questions de sécurité ont empêché l'individu de commander/acheter des biens/services ou de gérer son compte bancaire en ligne
+I_SCSOFT	Utilise un logiciel de sécurité ou un outil de protection de l'ordinateur privé et des données (antivirus, anti-spam, pare-feu, etc.)
+I_SCSOFTX	Ne sait pas s'il utilise un logiciel de sécurité ou un outil de protection de l'ordinateur privé et des données (antivirus, anti-spam, pare-feu, etc.)
+I_SCSOFTZ	N'utilise pas de logiciel de sécurité ou d'outil de protection de l'ordinateur privé et des données (antivirus, anti-spam, pare-feu, etc.)
+I_SCSOFTNA	N'a pas besoin de logiciel de sécurité ou d'outil de protection de l'ordinateur privé et des données (antivirus, anti-spam, pare-feu, etc.)
+I_SECANY6SS	Utilise un logiciel de sécurité et a subi un des problèmes suivants:  i_secvir1, i_secspm, i_ secpif1, i_secflpp, i_secfrd1, i_secchld
+I_SECANY4SS	Utilise un logiciel de sécurité et a subi un des problèmes suivants: i_ secpif1, i_secflpp, i_secfrd1, i_secchld
+I_SCAVS	Utilise un anti-virus ou un logiciel anti-espion
+I_SCFIR	Utilise un pare-feu (ou firewall)
+I_SCSPAM	Utilise un anti-spam pour les emails
+I_SCPC	Utilise un logiciel de contrôle parental
+I_SCOTH	Utilise un autre logiciel ou outil de sécurité (autre que i_scavx, i_scfir, i_scspam, i_scpc)
+I_SCANY	Utilise un "pack sécurité" dont l'individu ne connait pas les différentes fonctions
+I_SCUAVA	Met à jour un ou plusieurs logiciels de sécurité à chaque fois qu'une mise à jour est disponible
+I_SCUAVO	Met à jour un ou plusieurs logiciels de sécurité occasionnellement ou quand l'individu y pense
+I_SCUAVX	Ne met pas à jour les logiciels de sécurité
+I_SCUAV	Met à jour de logiciels de sécurité au moins occasionnellement
+I_SCUXNN	Pas de mise à jour, parce que: ce n'est pas nécessaire car le risque est trop faible
+I_SCUXNS	Pas de mise à jour, parce que: ne sait pas comment mettre à jour
+I_SCUXNE	Pas de mise à jour, parce que: ne pense pas que les mises à jour soient efficaces
+I_SCUXTE	Pas de mise à jour, parce que: c'est trop cher
+I_SCUXOTH	Pas de mise à jour pour d'autres raisons
+I_SAVALW	Fréquence de copies de sauvegarde: toujours ou presque toujours
+I_SAVSMT	Fréquence de copies de sauvegarde: parfois
+I_SAVNEV	Fréquence de copies de sauvegarde: jamais ou quasiment jamais
+I_SAVNA	Sans objet (pas de données conservées sur l'ordinateur)
+E_SECPOL	Entreprises ayant défini une politique de sécurité TIC incluant un plan de mises à jour régulières
+E_SECPDD	La politique de sécurité aborde le risque de destruction ou d'altération de données suite à une attaque ou incident inattendu
+E_SECPCNF	La politique de sécurité aborde le risque de divulgation de données confidentielles suite à une intrusion, du pharming, de l'hameçonnage (phishing) ou par accident
+E_SECPDS	La politique de sécurité aborde le risque d'indisponibilité des services TIC suite à une attaque venue de l'extérieur (ex. attaque en déni de service)
+E_SECPALL	La politique de sécurité aborde le risque de destruction/altération de données, de divulgation de données confidentielles et d'indisponibilité de services TIC suite à une attaque ou accident inattendu
+E_SECCTP	Entreprises ayant sensibilisé le personnel à ses obligations en matière de sécurité TIC par des formations ou des présentations obligatoires
+E_SECCONT	Entreprises ayant sensibilisé le personnel à ses obligations en matière de sécurité TIC par contrat, p.ex. le contrat d'emploi
+E_SECVTGI	Entreprises ayant sensibilisé le personnel à ses obligations en matière de sécurité TIC par des formations sur base volontaire ou des informations accessibles à tous (p.ex. sur l'intranet, dans une newsletter ou des documents papiers)
+E_SECNONE	Entreprises n'ayant pas sensibilisé le personnel à ses obligations en matière de sécurité TIC
+E_SECANY	Entreprises ayant sensibilisé le personnel à ses obligations en matière de sécurité TIC
+E_SECIUSF	Entreprises ayant eu de ces incidents avec pour conséquence l'indisponibilité des services TIC, la destruction ou l'altération de données suite à des défaillances de hardware ou de software
+E_SECIUSA	Entreprises ayant eu de ces incidents avec pour conséquence l'indisponibilité des services TIC suite à une attaque venue de l'extérieur, p. ex. une attaque en déni de service
+E_SECIDD	Entreprises ayant eu de ces incidents avec pour conséquence la destruction ou l'altération de données suite à une infection par un logiciel malveillant ou un accès non autorisé
+E_SECICNFA	Entreprises ayant eu de ces incidents avec pour conséquence la divulgation de données confidentielles par intrusion, pharming ou hameçonnage (phishing)
+E_SECIANY	Entreprises ayant eu de tels incidents avec pour conséquence l'indisponibilité des services, destruction/altération ou divulgation de données, mais excluant la divulgation par des employés
+E_SECINONE	Entreprises n'ayant pas eu d'incidents liés à la sécurité, sauf la divulgation de données confidentiels sous forme électronique par des employés
+E_SECSPSW	Entreprises utilisant une authentification à mot de passe fort (minimum 8 caractères, d'une durée maximale de 6 mois, transmission et codage chiffrés)
+E_SECUIHT	Entreprises utilisant l'identification et authentification de l'utilisateur par token, p.ex. les cartes à puces intelligentes
+E_SECOSBU	Entreprises recourant à de la sauvegarde informatique extérieure
+E_SECLOG	Entreprises recourant à de la journalisation pour analyser les incidents liés à la sécurité
+E_SECM	Entreprises utilisant au moins une des procédures suivantes: e_secspsw, e_secuiht
+E_SECMDS	Entreprises utilisant une signature électronique sur les messages sortants ainsi que des procédures de sécurité parmis les suivantes: e_secspsw, e_secuiht
+P_BROAD2	Salariés se connectant à l'internet par une large bande (fixe ou mobile)
+E_MOBBB	Entreprises accédant à l'internet par une connexion mobile à large bande (modem 3G ou téléphone mobile 3G)
+P_MOBBB	Salariés accédant à l'internet par une connexion mobile à large bande (modem 3G ou téléphone mobile 3G)
+I_IUEVR	Particuliers ayant déjà utilisé Internet 
+I_IUMOB	Particuliers pour lesquels le dispositif d'accès à Internet est une sélection de connexions mobiles
+E_SECICNFE	Entreprises ayant eu de ces incidents avec pour conséquence la divulgation de données confidentielles en format électronique par des employés, intentionnellement ou pas
+E_SECUIBM	Entreprises utilisant l'identification et authentification de l'utilisateur par méthodes biométriques
+E_IGOVDSC	Entreprises utilisant Internet pour la déclaration des cotisations sociales de leur personnel
+E_IGOVDCT	Entreprises utilisant Internet pour faire la déclaration à l'impôts des sociétés
+E_IGOVDVAT	Entreprises utilisant Internet pour faire les déclarations à la TVA
+E_IGOVDCE	Entreprises utilisant Internet pour faire la déclaration des droits de douane / des accises
+E_IGOVDOTH	Entreprises utilisant Internet pour renvoyer électroniquement des formulaires remplis (hors déclaration des cotisations sociales, d'impôts, de TVA ou de droits de douane/accises)
+E_IGOV2AL_DSC	Entreprises utilisant Internet pour le traitement «tout électronique» d’une procédure administrative et pour la déclaration de cotisations sociales de leur personnel
+E_IGOV2AL_DVAT	Entreprises utilisant Internet pour le traitement «tout électronique» de procédures administratives et pour faire les déclarations à la TVA
+E_IGOV_BSEC	Les inquiétudes vis-à-vis de la confidentialité et de la sécurité des données limitent les relations électroniques avec les autorités publiques
+E_IGOV_BCMP	Certaines procédures électroniques sont trop compliquées et/ou demandent trop de temps ce qui limite les échanges électroniques avec les autorités publiques
+E_IGOV_BPAP	Certaines procédures électroniques requièrent toujours un échange de courrier ou des visites de personnes ce qui limite les échanges électroniques avec les autorités publiques
+E_IGOV_BNAW	La méconnaissance des possibilités de procédures électroniques limite les échanges électroniques avec les autorités publiques
+E_IGOV_BANY	Au moins un des facteurs (e_igovbsec, e_igovbcmp, e_igovbpap or e_igovbnaw) limite les échanges électroniques avec les autorités publiques
+E_IGOV_BSECQ	Seulement les inquiétudes au sujet de la confidentialité et de la sécurité des données limitent les échanges électroniques avec les autorités publiques
+E_IGOV_BCMPQ	Certaines procédures électroniques sont trop compliquées et/ou demandent trop de temps et c'est le seul facteur qui limite les échanges électroniques avec les autorités publiques
+E_IGOV_BPAPQ	Certaines procédures électroniques requièrent toujours un échange de courrier ou des visites de personnes et c'est le seul facteur qui limite les échanges électroniques avec les autorités publiques
+E_IGOV_BNAWQ	Seulement la méconnaissance des possibilités de procédures électroniques limite les échanges électroniques avec les autorités publiques
+E_IGOV2RT_BSEC	Entreprises utilisant Internet pour renvoyer électroniquement des formulaires remplis mais qui s'inquiètent au sujet de la confidentialité et de la sécurité des données
+E_IGOV2RT_BCMP	Entreprises utilisant Internet pour renvoyer électroniquement des formulaires remplis mais qui trouvent que les procédures électroniques sont trop compliquées et/ou demandent trop de temps
+E_IGOV2RT_BPAP	Entreprises utilisant Internet pour renvoyer électroniquement des formulaires remplis même si certaines procédures électroniques demandent toujours un échange de courrier ou des visites de personnes
+E_IGOV2RT_BNAW	Entreprises utilisant Internet pour renvoyer électroniquement des formulaires remplis mais ne connaissant pas assez les possibilités de procédures électroniques
+E_IGOV2RTX_BSEC	Entreprises n'utilisant pas Internet pour renvoyer électroniquement des formulaires remplis et qui s'inquiètent au sujet de la confidentialité et de la sécurité des données
+E_IGOV2RTX_BCMP	Entreprises n'utilisant pas Internet pour renvoyer électroniquement des formulaires remplis et qui trouvent que certaines procédures électroniques trop compliquées et/ou demandant trop de temps limitent l'interaction électronique
+E_IGOV2RTX_BPAP	Entreprises n'utilisant pas Internet pour renvoyer électroniquement des formulaires remplis et qui trouvent que certaines procédures électroniques requièrent toujours un échange de courrier ou des visites de personnes
+E_IGOV2RTX_BNAW	Entreprises n'utilisant pas Internet pour retourner électroniquement des formulaires remplis et ne connaissant pas les possibilités des procédures électroniques
+E_IGOVATD 	Entreprises utilisant Internet pour accéder aux documents de soumission et au cahier des charges dans le cadre d'un processus en ligne de passation de marchés publics
+E_IGOV2PRHM	Entreprises utilisant Internet pour offrir des biens ou des services, dans le pays de l'entreprise, dans les systèmes en ligne de passation de marchés publics
+E_IGOV2PREU	Entreprises utilisant Internet pour offrir des biens ou des services, dans les autres pays de l'UE, dans les systèmes en ligne de passation de marchés publics
+E_IGOV2PR	Entreprises utilisant Internet pour offrir des biens ou des services dans les systèmes en ligne de passation de marchés publics des autorités publiques
+E_IGOVATD_2PR	Entreprises utilisant Internet pour accéder aux documents de soumission et au cahier des charges  pour offrir des biens et des services dans le cadre d'un processus en ligne de passation de marchés publics
+E_IGOVATD_2PRX	Entreprises utilisant Internet pour accéder aux documents de soumission et au cahier des charges mais pas pour offrir des biens et des services dans le cadre d'un processus en ligne de passation de marchés publics
+E_IGOVATDX_2PR	Entreprises n'utilisant pas Internet pour accéder aux documents de soumission et au cahier des charges mais bien pour offrir des biens et des services dans le cadre d'un processus en ligne de passation de marchés publics
+E_IGOVATDX_2PRX	Entreprises n'utilisant pas Internet pour accéder aux documents de soumission et au cahier des charges et non plus pour offrir des biens et des services dans le cadre d'un processus en ligne de passation de marchés publics
+E_IGOV2PRX_XPS	Entreprises ne vendant pas au secteur public
+E_IGOV2PRX_CCS	Entreprises s'inquiétant au sujet de la confidentialité et de la sécurité
+E_IGOV2PRX_NAW	Entreprises n'étant pas informées des possibilités de soumission en ligne
+E_IGOV2PRX_OTH	Autres raisons que: ne vendent pas au secteur public, inquiétude de confidentialité et sécurité et manque d'information
+E_IGOV2PRX_ANY	Entreprises ne vendant pas au secteur public ou s'inquiétant au sujet de la confidentialité et de la sécurité ou n'étant pas informées des possibilités de soumission en ligne
+E_IGOV2PRX_XPSQ	Entreprises ne vendant pas au secteur public, à l'exclusion de toute autre raison pour ne pas offrir de biens ou services dans des soumissions en ligne
+I_IUSNET	"Utilisation d'Internet: pour communiquer sur des réseaux sociaux (créer un profil d’utilisateur, envoyer des messages à ou intervenir sur un ou plusieurs réseaux sociaux p.ex. Facebook, Twitter, etc.)"
+I_IUPOL	"Utilisation d'Internet: pour lire et envoyer des opinions sur les questions civiques ou politiques par l'intermédiaire de sites Web (p.ex. blogs, réseaux sociaux)"
+I_IUVOTE	"Utilisation d'Internet: pour participer à des consultations en ligne ou pour voter sur des sujets civiques ou politiques (urbanisme, signature de pétitions, par exemple)"
+I_IUWIKI	Utilisation d'Internet: pour consulter des wikis (afin d'obtenir des informations sur n'importe quel sujet)
+I_IUPNET	"Utilisation d'Internet: pour communiquer sur des réseaux professionnels (créer un profil d'utilisateur, envoyer des messages ou en intervenir sur Linkedln ou Xing, par exemple)"
+P_IACC3G	Personnes employées disposant d'un appareil portable équipé au moins de la technolgie 3G pour accéder à Internet
+E_IACC3G	Entreprises avec personnes employées disposant d'un appareil portable équipé au moins de la technolgie 3G pour accéder à Internet
+E_IGOV2	Entreprises utilisant Internet pour leurs contacts avec les pouvoirs publics (indicateur dérivé)
+E_IGOV2IF	Entreprises utilisant Internet pour obtenir de l'information sur les sites web ou les pages d'accueil des pouvoirs publics
+E_IGOV2FM	Entreprises utilisant Internet pour obtenir des formulaires sur les sites web ou les pages d'accueil des pouvoirs publics
+E_IGOV2RT	Entreprises utilisant Internet pour renvoyer électroniquement des formulaires remplis aux pouvoirs publics
+E_IGOV2AL	Entreprises utilisant Internet pour le traitement d'une procédure administrative de manière entièrement électronique
+E_SISORP2	Entreprises qui échangent électroniquement des informations relatives aux ventes ou aux achats avec le logiciel utilisé pour toute fonction interne (au moins 2 fonctions en E1 ou les deux de E2)
+E_INV2	Entreprises envoyant / recevant des factures électroniques dans une structure appropriée pour leur traitement automatique
+E_INVSNDAP	Entreprises envoyant des factures électroniques dans une structure appropriée pour leur traitement automatique
+E_INVSNDNAP	Entreprises envoyant des factures électroniques mais pas dans une structure appropriée pour leur traitement automatique
+E_INVSND2	Entreprises envoyant des factures électroniques (indicateur dérivé)
+E_INVRECAP	Entreprises recevant des factures électroniques dans une structure appropriée pour leur traitement automatique
+E_INV2_IGOV2RT	Entreprises envoyant / recevant des factures électroniques appropriée pour leur traitement automatique et utilisant Internet pour renvoyer électroniquement des formulaires remplis aux pouvoirs publics
+E_INV2_IGOV2PR	Entreprises envoyant / recevant des factures électroniques appropriée pour leur traitement automatique et utilisant Internet pour offrir des biens / services dans un système en ligne de passation de marché public des autorités publiques
+E_INV2_ADEGOV	Entreprises envoyant / recevant des factures électroniques appropriée pour leur traitement automatique et utilisant l'échange automatique de données avec les pouvoirs publics
+E_OPENOS	Entreprises utilisant des systèmes d'exploitation à source ouverte (Linux)
+E_OPENBRWS	"Entreprises utilisant des logiciels de navigation sur Internet à source ouverte (Mozilla, Firefox,...)"
+E_OPENOFF	"Entreprises utilisant des logiciels bureautique à source ouverte (OpenOffice,...)"
+E_OPENWEBS	"Entreprises utilisant des logiciels de server web à source ouverte (Apache, Tomcat,...)"
+E_OPENERP	"Entreprises utilisant des logiciels à source ouverte: applications d'automatisation de processus d'entreprise (OpenERP, ERP5, Compiere,…)"
+E_OPENOTH	"Entreprises utilisant d'autres logiciels à source ouverte: logiciels de sécurité (OpenSSL, SSH), plateformes e-learning (Moodle), server mail (endMail, Postfix)"
+E_OPENANY	"Entreprises utilisant au moins un des logiciels à source ouverte suivants: e_openos, e_openbrws, e_openoff, e_openwebs, e_openerp, e_openoth"
+E_OPENOSQ	Entreprises utilisant des systèmes d'exploitation à source ouverte (Linux) seulement et pas d'autre logiciel à source ouverte
+E_OPENBRWSQ	"Entreprises utilisant des logiciels de server web à source ouverte (Apache, Tomcat,...) seulement et pas d'autre logiciel à source ouverte"
+E_OPENOFFQ	"Entreprises utilisant des logiciels bureautique à source ouverte (OpenOffice,...) seulement et pas d'autre logiciel à source ouverte"
+E_OPENWEBSQ	"Entreprises utilisant des logiciels de server web à source ouverte (Apache, Tomcat,...) seulement et pas d'autre logiciel à source ouverte"
+E_OPENERPQ	"Entreprises utilisant seulement des applications d'automatisation de processus d'entreprise (OpenERP, ERP5, Compiere,…) à source ouverte et pas d'autre logiciel à source ouverte"
+E_OPENOTHQ	"Entreprises utilisant seulement d'autres logiciels à source ouverte: logiciels de sécurité (OpenSSL, SSH), plateformes e-learning (Moodle), server mail (endMail, Postfix)"
+E_PHRS	Entreprises avec personnes employées ayant accès à des services électroniques de ressources humaines
+E_RFPSDP	Entreprises utilisant la technologie RFID dans le processus de production ou de prestation de services
+E_RFASPRI	Entreprises utilisant la technologie RFID pour l'identification de produits après vente
+E_IGOV2RT_ADE	Entreprises utilisant l'échange automatique de données avec les pouvoirs publics et utilisant Internet pour renvoyer électroniquement des formulaires remplis aux pouvoirs publics
+E_IGOV2AL_ADE	Entreprises utilisant l'échange automatique de données avec les pouvoirs publics et Internet pour traiter une procédure administrative de manière entièrement électronique
+E_SISORP2_ERP	Entreprises qui échangent électroniquement des informations relatives aux ventes / achats avec le logiciel utilisé pour toute fonction interne (au moins 2 fonctions en E1 ou les deux de E2) et utilisent aussi des logiciels PRE ou GRC de source ouverte
+E_INV2_SISORP	Entreprises envoyant / recevant des factures électroniques appropriée pour leur traitement automatique et échangent électroniquement des informations relatives aux ventes / achats avec le logiciel utilisé pour toute fonction interne
+E_INV2_ECOM	Entreprises ayant envoyé ou reçu des commandes en ligne et envoyé / reçu des factures électroniques appropriées pour leur traitement automatique
+E_AWSELL	Entreprises ayant reçu des commandes sur un site Web
+E_AXSELL	Enterprises ayant reçu des commandes passées via des messages de type EDI
+E_AESEUWW	Entreprises ayant vendu en ligne à des clients d'autres pays de l'UE ou hors de l'UE
+E_AESBHM	Entreprises ayant vendu ou acheté en ligne dans le pays de l'entreprise
+E_AESBEU	Entreprises ayant vendu ou acheté en ligne dans un autre pays de l'UE
+E_AESBWW	Entreprises ayant vendu ou acheté en ligne dans un pays hors de l'UE
+E_AEBEUWW	Entreprises ayant acheté en ligne dans un autre pays de l'UE ou hors de l'UE

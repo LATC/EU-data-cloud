@@ -1,0 +1,11 @@
+RUNW	Zahl der Rollbahnen
+LGT_RUNW	Gesamtlänge der befestigten Rollbahnen von mehr als 2438 m
+CHECK	Abfertigungsschalter insgesamt
+CHECK_CONV	Abfertigungsschalter insgesamt
+CHECK_SELF	Selbstbedienungsabfertigungsschalter
+GATE	Flugsteige insgesamt
+GATE_FIBI	Flugsteige mit Fingern/Brücken
+GATE_OTH	Sonstige Flugsteige
+PARK	Parkplätze insgesamt
+PARK_SH	Kurzzeitparkplätze
+PARK_ML	Parkplätze für mittelfristiges- und Langzeitparken

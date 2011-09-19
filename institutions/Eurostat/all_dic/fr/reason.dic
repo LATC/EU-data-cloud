@@ -1,0 +1,139 @@
+TOTAL	Total
+TOOEXP	Trop cher
+TOODIFF	Trop difficile (pour obtenir des résultats sûrs/valables)
+TOOFAR	Trop loin pour voyager
+NOPRIOR	N'est pas prioritaire
+IVTF	Des efforts plutot pour IVT que CVT
+MJPR	Grand effort de formation realisée l'année precedente
+EXSCOR	Les competences actuelles des employés correspondent au besoins de l'enterprise
+LSCOR	Manque de  cours de CVT au marché
+RESIST	Provoque de la résistance parmi les employés
+RECR	Personnes recrutées avec les qualifications requises
+INISUFF	Formation initiale suffisante
+DONE	Investissement récent; aucun besoin cette année
+DIFFASS	Difficulté d'évaluation des besoins de l'entreprise
+OWNRESP	Responsabilité des employés pour leur propre emploi de temps
+ONREQ	Seulement fourni sur demande
+NOEXPERT	Expertise insuffisante pour développer un plan de formation
+DISC	Sujet de discussion entre le management et les employés
+CERTIF	Obtention d'un certificat/d'une accréditation comme bonne entreprise de formation
+COMM	Obtention de l'engagement du management pour l'importance de la formation professionnelle continue
+LAW	Pour se conformer à la loi ou aux conventions collectives
+FINEU	Obtention de l'aide financière de l'UE
+FINOTH	Obtention de l'aide financière d'autres sources extérieures
+LAYOFF	Attendant d'être rappelé au travail (mis à pied)
+INVPT	N'a pas trouver un emploi à temps plein
+WANTPT	N'a pas voulu un emploi à temps plein
+INVTMP	N'a pas trouvé de travail permanent
+WANTTMP	N'a pas voulu un travail permanent
+ILLDIS	Avoir la maladie ou l'incapacité
+FAM_PER	Autres responsabilités familiales ou personnelles
+FAMCARE	Assistance d'enfants ou d'adultes dans l'incapacité de travailler
+INEDUC	Dans l'éducation ou la formation professionnelle
+STAGE	Période de probation
+RETIRED	Retraité
+THKNOWK	Pense qu'il n'y a pas de travail disponible
+NOREAS	Aucune raison donnée
+NONEED	Aucun besoin
+NOTIME	Pas le temps
+NO_UNMET	Pas de besoin non satisfait
+NOKNOW	ne connaît pas un bon médecin ou spécialiste
+MULTI	Partie d'un groupe multinational
+TOOSMALL	Le marché national est trop petit
+CUT_NICHE	Services novateurs et/ou très spécialisés
+NET	Echanges de services induits par l'utilisation d'Internet
+OUTSOURC	Echanges de services induits par l'externalisation
+DNPP	Développement de nouveaux produits ou procédés
+LHR	Manque de ressources internes
+IV	Meilleure visibilité
+IF	Flexibilité accrue
+CRES	Réduction des coûts ou économies d'échelle
+ANM	Accès à de nouveaux marchés
+ANSST	Accès à des compétences/technologies nouvelles ou spécialisées
+MJOB	Motifs principalement associés à l'emploi
+MPER	Motifs essentiellement personnels/sociaux
+RLOSJ	Afim de moins risquer de perdre son travail
+ROBL	D'être obligé de participer
+RPROM	Augmenter les possibilités d'avoir un travail ou d'en  changer
+RBUIS	Pour commencer son enterprise
+RSKIL	Pour avoir les savoirs/compétences qui sont utiles dans la vie quotidienne
+RSUB	Pour améliorer le savoir/compétences sur un sujet intéressant
+RFUN	Pour rencontrer des nouvelles personnes ou pour s'amuser
+RCER	Pour avoir un certificat
+RJOB	Pour mieux  faire son travail et/ou ameliorer les perspectives de carrière
+REDLC	Réduction des coûts du travail
+REDOC	Réduction des coûts autres que ceux du travail
+FOLLOW	Adoption du comportement/de l'exemple de concurrents/de clients
+QUAL	Meilleure qualité ou introduction de nouveaux produits
+STRAT	Décisions stratégiques prises par la tête du groupe
+CORE	Accent mis sur l'activité principale de l'entreprise
+KNOW	Accès à des connaissances/technologies spécialisées
+TAX	Incitations fiscales ou autres incitations financières
+WAITING	liste d'attente
+FEAR	Peur du médecin, de l'hôpital, de l'examen ou du traitement
+HOPING	Préfère attendre et voir si le problème se résout de lui-même
+OTHERM	Autres motivations
+NRESP	Sans réponse
+UNK	Inconnu
+DOC_NVAL	Documents de voyage non valables
+DOC_F	Faux document de voyage
+NRP_NVV	Visa ou permis de séjour non valable
+FV_FRP	Faux visa ou faux permis de séjour
+STAY_NJ	But et conditions de séjour non attestés
+PERM_3	Personne ayant déjà séjourné 3 mois au cours d'une période des 6 mois
+NSUBS	Moyens de subsistance non suffisants
+ALERT	Personne signalée au fin de non-admission
+PB_THRT	Personne considerée comme représentante un danger pour l'ordre public
+FAM	Raisons liées à la famille
+FAMILY	Raisons liées à la famille
+FAM_EU	Raisons liées à la famille: Personne rejoignant un citoyen de l'UE
+FAM_PART_EU	Raisons liées à la famille: Conjoint/partenaire rejoignant un citoyen de l'UE
+FAM_CHILD_EU	Raisons liées à la famille: Enfant rejoignant un citoyen de l'UE
+FAM_OTH_EU	Raisons liées à la famille: Autre membre de la famille rejoignant un citoyen de l'UE
+FAM_NEU	Raisons liées à la famille: Personne rejoignant un non-citoyen de l'UE
+FAM_PART_NEU	Raisons liées à la famille: Conjoint/partenaire rejoignant un non-citoyen de l'UE
+FAM_CHILD_NEU	Raisons liées à la famille: Enfant rejoignant un non-citoyen de l'UE
+FAM_OTH_NEU	Raisons liées à la famille: Autre membre de la famille rejoignant un non-citoyen de l'UE
+EDUC	Raisons liées à l'éducation
+ED_STU	Raisons liées à l'éducation: Études
+ED_OTH	Raisons liées à l'éducation: Autres raisons liées à l'éducation
+OCCUP	Raisons liées à des activités rémunérées
+OCC_HSW	Raisons liées à des activités rémunérées: Travailleurs hautement qualifiés
+OCC_RSE	Raisons liées à des activités rémunérées: Chercheurs
+OCC_SEAS	Raisons liées à des activités rémunérées: Travailleurs saisonniers
+OCC_OTH	Raisons liées à des activités rémunérées: Autres activités rémunérées
+OTH_INTPRO	Autres raisons: Statut de protection internationale
+OTH_REFSUB	Autres raisons: Statut de refugié et protection subsidiaire
+OTH_HUM	Autres raisons: Raisons humanitaires
+OTH_RESID	Autres raisons: Résidence uniquement
+OTH_NSPEC	Autres raisons: Autres raisons non spécifiées
+CH_FAM	Changement de l'ancienne raison: Famille
+CH_FAM_ED	Changement de famille à éducation
+CH_FAM_OCC	Changement de famille à activités rémunérées
+CH_FAM_OTH	Changement de famille à autres raisons
+CH_ED	Changement de l'ancienne raison: éducation 
+CH_ED_FAM	Changement de éducation à famille
+CH_ED_OCC	Changement de éducation à activités rémunérées
+CH_ED_OTH	Changement de éducation à autres raisons
+CH_OCC	Changement de  l'ancienne raison: activités rémunérées
+CH_OCC_FAM	Changement de activités rémunérées à famille
+CH_OCC_ED	Changement de activités rémunérées à éducation 
+CH_OCC_OTH	Changement de activités rémunérées à autres raisons
+CH_OTH	Changement de l'ancienne raison: autres raisons
+CH_OTH_FAM	Changement de autres raisons à famille
+CH_OTH_ED	Changement de autres raisons à éducation
+CH_OTH_OCC	Changement de autres raisons à activités rémunérées
+OTH	Autres raisons
+OTHER	Autres raisons
+WORK	Pour le travail ou les études
+WRK_JOB	Emploi, poste de travail trouvé avant la migration 
+WRK_NJOB	Emploi, aucun emploi trouvé avant la migration
+INTPRO	Protection internationale 
+PERS	Pour les loisirs ou avec la famille et les amis
+OCC_BLUE	Raisons liées à des activités rémunérées: Carte bleue européenne
+OTH_MIN	Autres raisons: Mineurs non accompagnés
+OTH_VTM	Autres raisons: Victimes du trafic d'êtres humains 
+REF	Statut de refugié 
+SUB	Protection subsidiaire
+LONG_EU	Résidents de longue durée: Directive UE
+LONG_N	Résidents de longue durée: Législation nationale

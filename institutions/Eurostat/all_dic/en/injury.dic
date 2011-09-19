@@ -1,0 +1,50 @@
+TOTAL	Total
+WOUN_UNK	Wounds and superficial injuries
+WOUN_SUP	Superficial injuries
+WOUN_OPE	Open wounds
+WOUN_OTH	Other types of wounds and superficial injuries
+CONT_BRU	Contusions, bruisings
+CUT_LACE	Cuts, lacerations, severed nerves or tendons
+FRAC_UNK	Bone fractures
+FRAC_CLO	Closed fractures
+FRAC_OPE	Open fractures
+FRAC_OTH	Other types of bone fractures
+STRA_UNK	Dislocations, sprains and strains
+STRA_DIS	Dislocations and subluxations
+STRA_SPR	Sprains and strains
+STRA_OTH	Other types of dislocations, sprains and strains
+AMPUTAT	Traumatic amputations (Loss of body parts)
+CONC_UNK	Concussions and internal injuries
+CONCUSIO	Concussions
+CONC_INT	Internal injuries
+CONC_OTH	Other types of concussions and internal injuries
+BURN_UNK	Burns, scalds and frostbites
+BURN_SCA	Burns and scalds (thermal)
+BURN_CHE	Chemical burns (corrosions)
+BURN_FRO	Frostbites
+BURN_OTH	Other types of burns, scalds and frostbites
+POIS_UNK	Poisonings and infections
+POIS_ACU	Acute poisonings
+POIS_INF	Acute infections
+POIS_ASP	Poisonings, gassings and asphyxiations
+POIS_OTH	Other types of poisonings and infections
+DROW_UNK	Drownings and asphyxiations
+DROW_ASP	Asphyxiations
+DROW_SUB	Drownings and non-fatal submersions
+DROW_OTH	Other types of drownings and asphyxiations
+SOUN_UNK	Effects of sound, vibration and pressure
+SOUN_EAR	Acute hearing losses
+SOUN_BAR	Effects of pressure (barotrauma)
+SOUN_OTH	Other effects of sound, vibration and pressure
+TEMP_UNK	Effects of temperature extremes, light and radiation
+TEMP_HEA	Heats and sunstrokes
+TEMP_RAD	Effects of radiation (non-thermal)
+TEMP_RED	Effects of reduced temperature
+TEMP_OTH	Other effects of temperature extremes, light and radiation
+SHOC_UNK	Shocks
+SHOC_AGG	Shocks after aggression and threats
+SHOC_TRA	Traumatic shocks
+SHOC_OTH	Other types of shocks
+MULTIPLE	Multiple injuries
+OTHER	Other not elsewhere mentioned
+UNK	Unspecified

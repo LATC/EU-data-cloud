@@ -1,0 +1,13 @@
+STATE	Staatsbetriebe
+COOP	Genossenschaften
+OTHER	Sonstige Betriebe
+TOTAL	Insgesamt
+NOTLFA	Nicht benachteiligtes Gebiet
+LFA	Benachteiligte Gebiete außer Berggebiete
+MNT	Benachteiligte Berggebiete
+0	Betriebe insgesamt
+1	Betriebe in benachteiligten Gebieten
+2	Betriebe in Berggebieten
+X	SDB für Betriebe in benachteiligten und nicht benachteilgten Gebieten
+L	SDB für Betriebe in benachteiligten Gebieten
+N	SDB für Betriebe in nicht benachteiligten Gebieten

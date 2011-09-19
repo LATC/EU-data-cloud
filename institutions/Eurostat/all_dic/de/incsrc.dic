@@ -1,0 +1,23 @@
+TOTAL	Insgesamt
+ANY_MNY	Jegliches monetäres Einkommen
+WORK	Arbeitseinkommen
+WORK_WAGE	Arbeitseinkommen - abhängig Beschäftigte
+WORK_SELF	Einkommen - Selbständige
+PRIV	Private Quellen
+PRIV_CAP	Einkommen aus Kapitalvermögen
+PRIV_RENT	Einkommen aus Vermögen/Miete
+PRIV_TRF	Private Transfers
+SOC_TRF	Sozialleistungen
+SOC_RET	Alters-/Hinterbliebenenrenten
+SOC_NRET	Sozialleistungen außer Alters-/Hinterbliebenenrenten
+SOC_UNE	Sozialleistungen bei Arbeitslosigkeit
+SOC_FAM	Sozialleistungen - Familienorientiert
+SOC_SICK	Sozialleistungen bei Krankheit/Invalidität
+SOC_EDUC	Ausbildungsorientierte Sozialleistungen
+SOC_ASS	Sozialhilfe
+SOC_HOUS	Sozialleistungen zu Wohnungskosten
+SOC_OTH	Sonstige Sozialleistungen, n.a.g.
+SOC_NRUS	Sozialleistungen außer Alters-/Hinterbliebenenrenten, Unterstützung bei Arbeitslosigkeit, Krankheit/Invalidität
+PRIMARY	Primäreinkommen
+SECONDARY	Sekundäreinkommen
+UNK	Unbekannt

@@ -1,0 +1,18 @@
+HE	Hourly earnings
+HE_FPCM	Hourly earnings of women as % of those of men
+HOVT	Hourly overtime pay
+HEAOVT	Hourly earnings plus overtime pay
+HEO_FPCM	Hourly earnings plus overtime pay of women as % of those of men
+HOVTPC	Hourly overtime pay as % of hourly earnings
+ME	Monthly earnings
+MOVT	Monthly overtime pay
+MS	Monthly shift pay
+MOVTPC	Monthly overtime pay as % of monthly earnings
+MSPC	Monthly shift pay as % of monthly earnings
+AE	Annual earnings
+AB	Annual bonuses
+ABPC	Annual bonuses as % of annual earnings
+MHP	Monthly hours paid
+MHPAOVT	Monthly overtime hours paid
+MHPOVTPC	Monthly overtime hours as % of monthly hours
+AH	Annual holidays

@@ -1,0 +1,13 @@
+TOTAL	Total
+TO_FT	Transition to full-time work
+TO_PT	Transition to part-time work
+TO_UNE	Transition to unemployment
+TO_INAC	Transition to inactivity
+TO_PERM	Transition to employee with a permanent job
+TO_TEMP	Transition to employee with a temporaryt job
+TO_1UP	Transition to 1 income decile up
+TO_GT1UP	Transition to more than 1 income decile up
+TO_1DW	Transition to 1 income decile down
+TO_GT1DW	Transition to more than 1 income decile down
+TO_NONE	Transition to no income
+NO_CHG	No change

@@ -1,0 +1,15 @@
+TOTAL	Insgesamt
+INV	Investitionen
+MNT	Wartungskosten
+VESS	Investitionen und Aufwendungen für die Wartung der Schiffe in Binnenschiffahrtsunternehmen
+INV_VESS	Investitionen für die Wartung der Schiffe in Binnenschiffahrtsunternehmen
+MNT_VESS	Aufwendungen für die Wartung der Schiffe in Binnenschiffahrtsunternehmen
+IWTI	Investitionen und Aufwendungen für die Wartung der Binnenschiffahrtsinfrastruktur
+INV_IWTI	Investitionen für die Wartung der Binnenschiffahrtsinfrastruktur
+MNT_IWTI	Aufwendungen für die Wartung der Binnenschiffahrtsinfrastruktur
+ROVE	Investitionen und Aufwendungen für die Wartung der Güterkraftfahrzeuge
+INV_ROVE	Investitionen für die Wartung der Güterkraftfahrzeuge
+MNT_ROVE	Aufwendungen für die Wartung der Güterkraftfahrzeuge
+ROIF	Investitionen und Aufwendungen für die Wartung der Straßeninfrastruktur
+INV_ROIF	Investitionen für die Wartung der Straßeninfrastruktur
+MNT_ROIF	Aufwendungen für die Wartung der Straßeninfrastruktur

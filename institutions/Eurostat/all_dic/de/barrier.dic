@@ -1,0 +1,40 @@
+TOTAL	Insgesamt
+11	Standorthindernisse
+12	Sprachhindernisse
+13	Kultur- und Vertrauenshindernisse
+14	Wirtschaftliche Hindernisse
+15	Rechtliche Hindernisse
+16	Schwierigkeiten passende ausländische Dienstanbieter zu identifizieren
+20	Keine Hindernisse
+30	Die Dienstleistung is nicht relevant
+LEG_ADM	Rechtliche bzw. administrative Hindernisse
+C41	Unternehmensinterne Gegebenheiten (z.B. Leistungen die nicht exportierbar sind)
+C42	Die Errichtung einer Auslandspräsenz
+C43	Die zeitweilige Abordnung von Personal
+C44	Besteuerungsfragen
+C45	Versicherungen, Garantiesysteme und ähnliche Fragen
+C46	Fehlen von internationalen Standards für Dienstleistungen
+C47	Schwierigkeiten potentielle Kunden im Ausland zu identifizieren
+C48	Sprache und Kultur
+TARIF	Zölle
+INT_STAN	Ungewissheit bezüglich internationaler Standards
+EMPL	Bedenken der Arbeitnehmer (einschließlich der Gewerkschaften)
+PAT_INT	Bedenken hinsichtlich der Verletzung von Patentrechten und/oder von Rechten an geistigem Eigentum
+CONFL	Widersprüche zu den sozialen Werten Ihres Unternehmens (z. B. Aspekten der sozialen Verantwortung der Unternehmen)
+DISTAN	Probleme aufgrund der Entfernung zu den Herstellern
+PROX	Nähe zu vorhandenen Kunden erforderlich
+PROV	Schwierigkeiten, im Ausland potenzielle/geeignete Lieferanten zu finden
+OVERALL	Allgemeine Bedenken im Hinblick auf den erwarteten Nutzen der Beschaffung
+RF	Beziehungen nur innerhalb der Unternehmensgruppe möglich
+L	Unternehmens-Standort
+SBS	Größe und Geschäftsbereich des Unternehmens
+ASP	Verfügbarkeit von geeigneten Partnern
+LRB	gesetzliche oder andere regelnde Bestimmungen
+CCI	Bedenken, Kernkompetenz oder Unabhängigkeit einzubüßen
+RIMF	Risiko von Fehlinvestitionen bei Arbeitskräften und/oder Finanzen
+NSCC	Bereits eingegangene Kooperationen brachten nicht den gewünschten Erfolg
+NWRI	Unabhängigkeit soll weiter bestehen bleiben
+OSOP	Andere strategische oder betriebsbedingte Optionen werden bevorzugt
+BEG	zu erwartender Gewinn deckt nicht die Lasten
+OTHER	Sonstige Hindernisse
+UNK	Nicht bekannt

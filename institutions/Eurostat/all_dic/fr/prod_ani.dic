@@ -1,0 +1,68 @@
+11110000	Jeunes bovins d'élévage
+11111000	Jeunes Veaux d'élévage(prix par tête)
+11112000	Génisses
+11112100	Génisses d'élevage (prix par tête)
+11113000	Vaches
+11114000	Boeufs
+11120000	Jeunes bovins
+11121000	Veaux (de quelques jours)prix par tête
+11122000	Veaux (de quelques semaines) prix par tête
+11210000	Porcs (légers)
+11220000	Porcs (carcasses) - classe II
+11230000	Porcs (carcasses) - classe I
+11240000	Porcelets
+11300000	Chevaux
+11410000	Moutons (plus de 12 mois)
+11411000	Agneaux de lait (moins de 2 mois)
+11412000	Agneaux à l'engrais (entre 2 et 12 mois)
+11420000	Chèvres
+11421000	Chevreaux
+11510000	Poulets (vivants - 1er choix)
+11511000	Poules de réforme (abattues)
+11591000	Canards (abattus)
+11592000	Dindes (abattues)
+11593000	Oies (abattues)
+11910000	Lapins
+12111000	Lait cru de vache - 3.7 % de matières grasses
+12112000	Lait cru de vache - teneur réelle en matières grasses
+12113000	Lait de vache entier de consommation
+12191000	Lait cru de brebis
+12192000	Lait cru de chèvre
+12200000	Oeufs frais (ensemble pays)
+12910000	Laine brute
+12920000	Miel
+P001	Total produits de la pêche
+P002	Total produits de la pêche destinés à la consommation humaine
+P101	Poissons : frais, réfrigérés ou congelés
+P201	Poissons : salés, fumés ou séchés
+P301	Poissons: préparations et conserves
+P401	Crustacés et mollusques: frais, réfrigérés, congelés, séchés, salés
+P501	Crustacés et mollusques: préparations et conserves
+P601	Farines, Solubles, etc
+P701	Huiles et Graisses
+P901	Produits impropres à la consommation humaine  n.c.a.
+P902	Eponges, Coraux, etc
+P903	Plantes aquatiques
+LP_M	Viande (total) (1000 kg)
+LP_M01	Boeuf (1000 kg)
+LP_M02	Porc (1000 kg)
+LP_M03	Ovins (1000 kg)
+LP_M04	Caprins (1000 kg)
+LP_M05	Volaille (1000 kg)
+LP_M06	Equidés (1000 kg)
+LP_M07	Lapin (1000 kg)
+LP_M08	Autre viande (1000 kg)
+LP_D01	Lait (1000 l)
+LP_D011	Lait de vache
+LP_D012	Lait de brebis
+LP_D013	Lait de chèvre
+LP_D02	Crème (1000 l)
+LP_D03	Autres produits laitiers mesurés en volume (1000 l)
+LP_D04	Beurre (1000 kg)
+LP_D05	Fromage (1000 kg)
+LP_D06	Autres produits laitiers mesurés en poids (1000 kg)
+LP_E	Oeufs (1000 kg)
+LP_E01	Oeufs de consummation (1000 kg)
+LP_H	Miel (1000 kg)
+LP_OTHERS_W	Autres produits mesurés en poids (1000 kg)
+LP_OTHERS_V	Autres produits mesurés en volume (1000 l)

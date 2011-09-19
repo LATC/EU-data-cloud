@@ -1,0 +1,243 @@
+C_TOT	Production végétale - totale
+C1040	Céréales (y compris riz)
+C1040_NOT_C1200	Céréales (sans maïs)
+C1050	Céréales (sans riz)
+C1100	Blé
+C1120	Blé tendre et épeautre
+C1123	Blé tendre d'hiver
+C1124	Blé tendre de printemps
+C1130	Blé dur
+C1133	Blé dur d'hiver
+C1134	Blé dur de printemps
+C1140	Seigle et méteil
+C1150	Seigle
+C1151	Seigle d'hiver
+C1152	Seigle de printemps
+C1155	Méteil
+C1160	Orge
+C1163	Orge d'hiver
+C1164	Orge de printemps
+C1170	Avoine et mélange de céréales d'été
+C1180	Avoine
+C1185	Mélanges de céréales d'été
+C1200	Maïs-grain
+C1201	Maïs-grain et corn-cob-mix
+C1211	Sorgho
+C1212	Triticale
+C1213	Triticale d'hiver
+C1219	Autres céréales (Sarrasin, millet, alpiste)
+C1250	Riz
+C1300	Légumes secs, en grains
+C1310	Pois secs
+C1311	Pois secs autres que fourragers (y compris les pois chiches)
+C1320	Pois secs fourragers
+C1330	Haricots, fèves, fèveroles
+C1331	Haricots secs
+C1335	Fèves et fèveroles - Total
+C1338	Fèves et fèveroles - Pour la consommation humaine
+C1340	Autres légumes secs
+C1341	Lentilles
+C1342	Vesces
+C1343	Lupins
+C1349	Autres légumes secs n.d.a. (lathyrus, etc...)
+C1350	Plantes sarclées
+C1360	Pommes de terre
+C1362	Pommes de terre hâtives
+C1363	Autres pommes de terre
+C1370	Betteraves sucrières
+C1381	Betteraves fourragères
+C1370_C1381	Betteraves (betteraves sucrières et fourragères)
+C1382	Autres plantes sarclées
+C1383	Choux fourragers
+C1384	Rutabagas
+C1385	Carottes fourragères
+C1386	Navets
+C1390	Autres plantes sarclées n.d.a. (topinambour, patate douce, panais fourrager, igname, manioc, etc...)
+C1400	Plantes industrielles
+C1410	Plantes oléagineuses
+C1420	Colza - navette
+C1430	Colza
+C1431	Colza d'hiver
+C1432	Colza de printemps
+C1440	Navette
+C1450	Tournesol
+C1460	Lin
+C1470	Soja
+C1480	Autres plantes oléagineuses n.d.a. (oeillette, moutarde, carthame, coton, amande de terre, sésame, arachide, etc...)
+C1490	Graines de coton
+C1500	Plantes textiles
+C1510	Autres plantes à fibre
+C1520	Lin (paille)
+C1530	Chanvre (paille)
+C1540	Coton égréné (fibre)
+C1550	Tabac brut (y compris pépinières)
+C1560	Houblon
+C1570	Autres plantes industrielles
+C1571	Chicorée à café
+C1572	Chicorée à inuline
+C1580	Plantes médicinales, aromatiques et condimentaires (thym, cumin, etc. ... )
+C1582	Cumin
+C1589	Plantes industrielles (seigle à usage industriel, cardère à foulon, lavande, lavandin, etc...)
+C1600	Légumes frais
+C1609	Légumes frais - Total
+C1610	Choux potagers
+C1620	Choux-fleurs
+C1631	Choux de Bruxelles
+C1635	Choux (blanc)
+C1655	Autres choux n.d.a
+C1660	Légumes feuillus et à tige (sauf choux)
+C1670	Céleris (rave et branche)
+C1672	Céleri branche
+C1675	Poireaux
+C1680	Laitue pommée
+C1685	Chicorée frisée et scarole
+C1690	Epinards
+C1700	Asperges
+C1710	Chicorées endives
+C1720	Artichaut
+C1725	Autres légumes feuillus et à tige n.d.a.
+C1740	Légumes cultivés pour le fruit
+C1750	Tomates
+C1761	Concombres
+C1766	Cornichons
+C1771	Melons
+C1777	Pastèques
+C1780	Aubergines, courges, courgettes, citrouilles
+C1781	Aubergines
+C1785	Courges, courgettes, citrouilles
+C1786	Courges et citrouilles
+C1787	Courgettes
+C1790	Poivrons, piments
+C1799	Légumes cultivés pour le fruit n.d.a.
+C1800	Racines et tubercules
+C1810	Choux raves
+C1820	Navets potagers
+C1830	Carottes
+C1840	Ail
+C1851	Oignons
+C1855	Echalotes
+C1860	Betteraves potagères
+C1870	Salsifis et scorsonères
+C1872	Céleri rave
+C1877	Radis
+C1884	Autres racines et tubercules n.d.a
+C1885	Légumes à cosses
+C1890	Petits pois
+C1901	Haricots verts
+C1905	Autres légumes à cosses n.d.a
+C1910	Champignons de culture
+C1920	Autres légumes frais n.d.a
+C2002	Fruits frais (bilans d'approvisionnement)
+C2008	Fruits de table (ne sont pas comprises les olives, raisins secs, raisins de cuve, produits de cueillette, fruits des jardins familiaux et pommes et poires autres que de table)
+C2009	Total fruits (y compris olives, raisins, produits de cueillette et les fruits des jardins familiaux)
+C2040	Arbres fruitiers (sauf olives et agrumes)
+C2090	Pommes (y compris pommes à cidre)
+C2095	Poires (y compris poires à poiré)
+C2110	Pommes de table
+C2112	Golden Delicious
+C2113	Autres pommes
+C2130	Poires de table
+C2132	Poires d'été
+C2170	Fruits à noyau
+C2180	Pêches
+C2190	Abricots
+C2200	Cerises, y compris griottes
+C2210	Prunes
+C2221	Nectarines et brugnons
+C2229	Autres fruits à noyaux n.d.a
+C2230	Fruits à coque
+C2231	Noix
+C2232	Noisettes
+C2233	Amandes
+C2236	Chataîgnes
+C2240	Autres fruits à coque n.d.a
+C2250	Autres fruits
+C2251	Figues
+C2252	Coings
+C2253	Avocats
+C2259	Autres fruits n.d.a.
+C2260	Fraises
+C2270	Baies
+C2271	Cassis et groseilles
+C2272	Cassis
+C2275	Groseilles
+C2278	Framboises
+C2281	Groseilles à maquereau
+C2285	Kiwis
+C2290	Autres baies n.d.a
+C2300	Agrumes
+C2320	Oranges
+C2321	Oranges à pulpe blonde du groupe des Navel
+C2322	Oranges à pulpe blonde autres que Navel
+C2323	Oranges sanguines et semi-sanguines et autres oranges douces
+C2324	Autres oranges douces
+C2350	Mandarines
+C2352	Satsumas
+C2360	Clémentines
+C2370	Citrons
+C2371	Citrons jaunes
+C2372	Citrons verts
+C2380	Pamplemousses
+C2390	Autres agrumes n.d.a
+C2410	Vignes
+C2415	Raisins frais
+C2416	Raisins secs (en poids frais)
+C2417	Raisins de table (utilisation 'cuve')
+C2420	Raisins de table (utilisation 'table')
+C2440	Raisins de cuve (jus et/ou vinification)
+C2447	Raisins de cuve (utilisation 'table')
+C2450	Total olives
+C2460	Olives de table
+C2470	Olives à l'huile
+C2600	Fourrages - Total
+C2610	Fourrages des terres arables
+C2611	Fourrages verts annuels
+C2612	Autres fourrages verts annuels
+C2625	Maïs fourrager
+C1200_C2625	Maïs (Maïs-grain + maïs fourrager)
+C2670	Fourrages pluriannuels
+C2671	Trèfle et mélanges
+C2672	Luzerne
+C2673	Autres fourrages pluriannuels (sainfoin, lotier)
+C2680	Prairies et pâturages temporaires
+C2681	Prairies temporaires
+C2682	Pâturages temporaires
+C2695	Autres produits des champs n.d.a.
+C2696	Engrais verts, jachères
+C2710	Prairies permanentes
+C2720	Pâturages permanents
+C2721	Herbages
+C2722	Parcours, landes, alpages
+C2810	Pépinières, y compris pépinières de vignes
+C2960	Plantes à tresser : oseraies, bambous, jonc, rotin, peuplier du Canada
+C2971	Caroubes
+C2980	Autres produits des cultures permanentes n.d.a. (caroubier, mûrier, thé, café, etc...)
+C2992	Légumes frais (jardins familiaux)
+C2993	Fruits frais des jardins
+C3001	Fleurs et plantes ornementales, y compris les plants
+C3310	Semences (potagères, fourragères, des plantes sarclées et industrielles autres que oléagineuses)
+C3718	Produits de cueillette (truffes, autres champignons, bulbe muscari = volvos (GR) , etc...)
+C3719	Produits de cueillette
+C0002	Superficie totale des prairies et pâturages permanents
+C5000	Horticulture
+C5001	Horticulture sous serre
+C5002	Semences et plants de terres arables
+C5003	Fruits frais, y compris baies
+C9000	Dattes
+T0000	Superficie cultivée totale/rendement
+T0010	Autres céréales pour la production de grain (y compris semences)
+T0020	Plantes sarclées fourragères et crucifères (sauf semences)
+T0030	Légumes frais, melons, fraises (total)
+T0040	A l'extérieur ou sous abri non accessible
+T0050	Sous serre ou sous autre abri accessible
+T0060	Autres plantes fourragères
+T0070	Autres cultures de terres arables
+T0080	Jachère participant à l'assolement
+T0090	Prairies et pâturages (sauf pâturages pauvres)
+L0006	Superficies boisées
+T0100	Pâturages pauvres
+T0110	Plantations d'arbres fruitiers et baies (total)
+T0120	Fruits frais et baies d'origine tempérée
+T0130	Fruits frais et baies d'origine subtropicale
+T0140	Autres cultures permanentes
+T0150	Superficie agricole non utilisée (jachères, ne participant pas à l'assolement)

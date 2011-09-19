@@ -1,0 +1,22 @@
+TOTAL	Total
+LIQ_BLK	Liquid bulk ships (tankers)
+DRY_BLK	Dry bulk carriers
+CONT	Container ships
+CRG_SPE	Specialized carriers
+CRG_NSPE	Non-specialised general cargo carriers
+BAR_SP	Self-propelled barge
+BAR_NSP	Barge not self-propelled
+BAR_DUPU	Dumb and pushed vessels
+BAR_TK_SP	Self-propelled tanker barge
+BAR_TK_NSP	Tanker barge not self-propelled
+BAR_DRY_CRG	Dry cargo barges
+PASS_FER	Passenger vessels - excluding cruise ships
+PASS_CRU	Cruise ships
+VESS_FISH	Fishing vessels
+VESS_SEA	Seagoing vessel
+OFFSH	Vessels for offshore activities
+OTH_GDVES	Other goods carrying vessel
+TUG	Tugs
+TUG_PUSH	Tugs and pushers
+MISC	Miscellaneous vessels (dredgers, research vessels, others)
+UNK	Unknown

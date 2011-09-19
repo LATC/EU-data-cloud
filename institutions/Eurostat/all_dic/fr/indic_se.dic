@@ -1,0 +1,18 @@
+HE	Salaire horaire
+HE_FPCM	Salaire horaire des femmes en % de celui des hommes
+HOVT	Rémunération horaire pour heures supplémentaires
+HEAOVT	Salaire horaire plus rémunération pour heures supplémentaires
+HEO_FPCM	Salaire horaire plus rémunération pour heures supplémentaires des femmes en % de celui des hommes
+HOVTPC	Rémunération horaire pour heures supplémentaires en % du salaire horaire
+ME	Salaire mensuel
+MOVT	Rémunération mensuelle pour heures supplémentaires
+MS	Paiement pour travail en équipe
+MOVTPC	Rémunération mensuelle pour heures supplémentaire en % du salaire mensuel
+MSPC	Paiement mensuel pour travail en équipe en % du salaire mensuel
+AE	Salaire annuel
+AB	Primes annuelles
+ABPC	Primes annuelles en % du salaire annuel
+MHP	Nombre mensuel d'heures rémunérées
+MHPAOVT	Nombre mensuel d'heures supplémentaires rémunérées
+MHPOVTPC	Heures supplémentaires en % du nombre mensuel d'heures rémunérées
+AH	Nombre annuel de jours de congé

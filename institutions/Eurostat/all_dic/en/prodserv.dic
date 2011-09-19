@@ -1,0 +1,65 @@
+P1	Hardware consultancy services
+P2	Software supply
+P2A	Packaged software
+P2B	Customised software
+P2C	Computer consultancy services
+P3	Other computer services
+P3A	Computer facilities management and data processing
+P3B	Database services
+P3C	Systems maintenance services
+P3D	Computer hardware servicing, repair and maintenance of computing machinery and equipment
+P4	Network and telecommunication services
+P5	Leasing or rental services of computing machinery without operator
+P6	Resale
+P6A	Software (not own developed)
+P6B	Hardware and equipment
+P6C	Resale: Other
+P7	Architectural services
+P7A	Advisory and pre-design architectural services
+P7B	Architectural design services for buildings and other structures
+P7C	Other architectural services
+P8	Engineering design services including integrated engineering service for turnkey projects
+P8A	Engineering design services for the construction of foundations and building structures
+P8B	Engineering design services for mechanical and electrical installations for buildings
+P8C	Engineering design services for the construction of civil engineering works
+P8D	Engineering design services for industrial process and production
+P8E	Engineering design services n.e.c
+P9	Urban planning services
+P10	Project management services
+P11	Other architectural and engineering services
+P12	Construction
+P13	Sale or leasing of advertising space or time
+P14	Planning, creating and placement services of advertising
+P14A	Full service advertising
+P14B	Direct marketing
+P14C	Advertising design
+P15	Other advertising related services
+P15A	Photography services related to advertising
+P15B	Production of films for advertising
+P15C	Public relations services
+P15D	Compiling and selling list services
+P15E	Other advertising related services n.e.c
+P16	Market research services
+P16A	Qualitative surveys
+P16B	Quantitative ad-hoc surveys
+P16C	Quantitative continuous/regular surveys
+P17	Public opinion polling services
+P18	Accounting, book-keeping and auditing services; tax consultancy services
+P18A	Auditing services
+P18B	Accounting and book-keeping services, except tax returns
+P18C	Tax consultancy services, including tax returns
+P19	Business and management consultancy services
+P19A	Business organisation consultancy services
+P19B	Strategic consultancy services, including mergers and acquisitions
+P19C	Financial management consulting services
+P19D	Human resources management consulting services
+P19E	Other business and management consultancy services
+P20	Training services
+P20A	IT-related training services
+P20B	Other training services
+P21	Other additional products n.e.c
+P98	Others
+P98A	Others 1
+P98B	Others 2
+P98C	Others 3
+TOTAL	Total

@@ -1,0 +1,23 @@
+TOTAL	Total
+LT250	Moins de 250 arbres par hectare
+250-499	De 250 à 499 arbres par hectare
+LT300	Moins de 300 arbres par hectare
+300-599	De 300 à 599 arbres par hectare
+LT400	Moins de 400 arbres par hectare
+400-799	De 400 à 799 arbres par hectare
+500-749	De 500 à 749 arbres par hectare
+600-899	De 600 à 899 arbres par hectare
+750-999	De 750 à 999 arbres par hectare
+800-1599	De 800 à 1 599 arbres par hectare
+900-1199	De 900 à 1 199 arbres par hectare
+1000-1499	De 1 000 à 1 499 arbres par hectare
+1200-1499	De 1 200 à 1 499 arbres par hectare
+1500-1999	De 1 500 à 1 999 arbres par hectare
+GE1500	1 500 arbres par hectare ou plus
+1600-2399	De 1 600 à 2 399 arbres par hectare
+2000-2499	De 2 000 à 2 499 arbres par hectare
+2400-3199	De 2 400 à 3 199 arbres par hectare
+2500-2999	De 2 500 à 2 999 arbres par hectare
+GE3000	3 000 arbres par hectare ou plus
+3200-3999	De 3 200 à 3 999 arbres par hectare
+GE4000	4 000 arbres par hectare ou plus

@@ -1,0 +1,24 @@
+SAL	Nombre des salariés
+HRS_WKD_SAL	Heures effectivement travaillées des salariés par an
+HRS_PAY_SAL	Heures rémunérées des salariés par an
+APPR	Nombre d'apprentis
+HRS_WKD_APPR	Heures effectivement travaillées par les apprentis par an
+HRS_WKD_PER_SAL	Moyenne d'heures effectivement travaillées par an, par salarié
+HRS_PAY_PER_SAL	Moyenne d'heures rémunérées par an, par salarié
+HRS_WKD_PER_APPR	Moyenne d'heures effectivement travaillées par an, par apprenti
+COST_TOT	Coût de la main d'oeuvre avec les apprentis
+COST_SAL	Coût de la main (à l'exclusion des apprentis)
+COST_APPR	Coût des apprentis
+DIR_COST_SAL	Salaires et traitements (à l'exclusion de ceux des apprentis)
+DIR_PAY_SAL	Rémunérations directes, primes et indemnités (à l'exclusion de ceux des apprentis)
+DIR_PAY_APPR	Salaires et traitements des apprentis
+TMP	Nombre d'employés temporaires
+COST_TMP_NAC	Coût du travail temporaire - monnaie nationale
+COST_TMP_EUR	Coût du travail temporaire - euro
+HRS_WKD_TMP	Nombre d'heures de travail temporaire
+RT_PAY_WKD	Ratio entre le nombre d'heures remunérées et effectivement travaillées
+HRS_PAY_NWKD	Nombre d'heures rémunérées et non effectivement travaillées
+LCI_TOT	Indice du coût de la main d'oeuvre - Total des coûts de la main-d'oeuvre
+LCI_TXB	Indice du coût de la main d'oeuvre - Total des coûts de la main-d'oeuvre à l'exclusion des primes
+LCI_WAG	Indice du coût de la main d'oeuvre - Rémunérations
+LCI_OTH	Indice du coût de la main d'oeuvre - Coûts de la main-d'oeuvre autres que les rémunérations

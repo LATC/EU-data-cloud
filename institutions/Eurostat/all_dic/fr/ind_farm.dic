@@ -1,0 +1,155 @@
+001	Ensemble des exploitations: nombre
+002	Superficie Agricole Utilisée totale (SAU)
+003	Marge Brute Standard totale (UDE)
+004	Exploitations dans les zones défavorisées: nombre
+005	SAU des exploitations dans les zones défavorisées
+006	Exploitations dans les zones de montagne: nombre
+007	SAU des exploitations dans les zones de montagne
+008	Nombre d'ensemble des exploitations avec moins que 5 ha de SAU
+009	Nombre d'ensemble des exploitations avec 5 à 10 ha de SAU
+010	Nombre d'ensemble des exploitations avec 10 à 20 ha de SAU
+011	Nombre d'ensemble des exploitations avec 20 à 30 ha de SAU
+012	Nombre d'ensemble des exploitations avec 30 à 50 ha de SAU
+013	Nombre d'ensemble des exploitations avec >=50 ha de SAU
+014	SAU des exploitations avec moins de 5 ha de SAU
+015	SAU des exploitations avec 5 à 10 ha de SAU
+016	SAU des exploitations avec 10 à 20 ha de SAU
+017	SAU des exploitations avec 20 à 30 ha de SAU
+018	SAU des exploitations avec 30 à 50 ha de SAU
+019	SAU des exploitations avec >=50 ha de SAU
+020	Nombre d'exploitations avec moins que 2 UDE
+021	Nombre d'exploitations avec 2 à 4 UDE
+022	Nombre d'exploitations avec 4 à 8 UDE
+023	Nombre d'exploitations avec 8 à 16 UDE
+024	Nombre d'exploitations avec 16 à 40 UDE
+025	Nombre d'exploitations avec 40 à 100 UDE
+026	Nombre d'exploitations avec 100 UDE et plus
+027	SAU des exploitations avec moins que 2 UDE
+028	SAU des exploitations avec 2 à 4 UDE
+029	SAU des exploitations avec 4 à 8 UDE
+030	SAU des exploitations avec 8 à 16 UDE
+031	SAU des exploitations avec 16 à 40 UDE
+032	SAU des exploitations avec 40 à 100 UDE
+033	SAU des exploitations avec 100 UDE et plus
+034	SAU en faire-valoir direct
+035	SAU en fermage
+036	SAU en métayage et autres
+037	Superficie totale (D,E,F,G,H) en ha
+038	Nombre d'exploitations avec terres arables (D)
+039	Terres arables (en ha)
+040	SAU des exploitations ayant des terres arables (en ha)
+041	Nombre d'exploitations avec céréales (D/01 à D/08)
+042	Céréales (D/01 à D/08) (en ha)
+043	Nombre d'exploitations avec blé tendre et épeautre (D/01)
+044	Blé tendre et épeautre (D/01) (en ha)
+045	Nombre d'exploitations avec blé dur (D/02)
+046	Blé dur (D/02) (en ha)
+047	Nombre d'exploitations avec seigle (D/03)
+048	Seigle (D/03) (en ha)
+049	Nombre d'exploitations avec orge (D/04)
+050	Orge (D/04) (en ha)
+051	Nombre d'exploitations avec avoine (D/05)
+052	Avoine (D/05) (en ha)
+053	Nombre d'exploitations avec maïs en grain (D/06)
+054	Mäis en grain (D/06) (en ha)
+055	Nombre d'exploitations avec riz (D/07)
+056	Riz (D/07) (en ha)
+057	Nombre d'exploitations avec autres céréales (D/08)
+058	Autres céréales (D/08) (en ha)
+059	Nombre d'exploitations avec légumes secs (D/09)
+060	Légumes secs (D/09) (en ha)
+061	Nombre d'exploitations avec plantes sarclées (D/10 à D/12)
+062	Plantes sarclées (D/10 à D/12) (en ha)
+063	Nombre d'exploitations avec pommes de terre (D/10)
+064	Pommes de terre (D/10) (en ha)
+065	Nombre d'exploitations avec betteraves sucrières (D/11)
+066	Betteraves sucrières (D/11) (en ha)
+067	Nombre d'exploitations avec plantes sarclées fourragères (D/12)
+068	Plantes sarclées fourragères (D/12) (en ha)
+069	Nombre d'exploitations avec plantes industrielles (D/13)
+070	Plantes industrielles (D/13) (en ha)
+071	Nombre d'exploitations avec légumes frais, melons, fraises (D/14,D/15)
+072	Légumes frais, melons, fraises (D/14, D/15) (en ha)
+073	Nombre d'exploitations avec fleurs et plantes ornamentales (D/16,D/17)
+074	Fleurs et plantes ornamentales (D/16,D/17) (en ha)
+075	Nombre d'exploitations avec plantes fourragères (D/18)
+076	Plantes fourragères (D/18) (en ha)
+077	Nombre d'exploitations avec prairies permanentes et pâturages (F)
+078	Prairies permanentes et pâturages (F) (en ha)
+079	Nombre d'exploitations avec cultures permanentes (G)
+080	Cultures permanentes (G) (en ha)
+081	Nombre d'exploitations avec vignes (G/04)
+082	Vignes (G/04) (en ha)
+083	Nombre d'exploitations avec superficie boisée (H/02)
+084	Superficie boisée (H/02) (en ha)
+085	Nombre total des exploitations ayant du cheptel (J/01 à J/19)
+086	Nombre d'exploitations avec bovins (y compris les bufflons) (J/02 à J/08)
+087	Bovins (y comris les bufflons) (J/02 à J/08), nombre
+088	Nombre d'exploitations avec bovins de moins d' un an (J/02)
+089	Bovins de moins d' un an (J/02), nombre
+090	Nombre d'exploitations avec bovins de moins d'un an à moins de deux ans, mâles (J/03)
+091	Bovins de moins d'un an à moins de deux ans, mâles (J/03), nombre
+092	Nombre d'exploitations avec bovins de moins d'un an à moins de deux ans, femelles (J/04)
+093	Bovins de moins d'un an à moins de deux ans, femelles (J/04), nombre
+094	Nombre d'exploitations avec bovins de deux ans et plus, mâles (J/05)
+095	Bovins de deux ans et plus, mâles (J/05), nombre
+096	Exploitations avec bovins de deux ans et plus, génisses (J/06)
+097	Bovins de deux ans et plus,génisses (J/06), nombre
+098	Nombre d'exploitations avec bovins de deux ans et plus, vaches laitières (J/07)
+099	Bovins de deux ans et plus, vaches laitières (J/07), nombre
+100	Nombre d'exploitations avec bovins de deux ans et plus, autres vaches (J/08)
+101	Bovins de deux ans et plus, autres vaches (J/08), nombre
+102	Nombre d'exploitations avec ovins (J/09)
+103	Ovins (J/09), nombre
+104	Nombre d'exploitations avec caprins (J/10)
+105	Caprins (J/10), nombre
+106	Nombre d'exploitations avec porcins (J/11 à J/13)
+107	Porcins (J/11 à J/13), nombre
+108	Nombre d'exploitations avec volailles (J/14 à J/16)
+109	Volailles (J/14 à J/16), nombre
+110	Main-d'oeuvre totale (L/01 à L/06) en UTA
+111	Main d'oeuvre totale, à l'exclusion de la main d'oeuvre non fam. occupée irrégulièrement(L01 à L/04) (personnes)
+112	Main d'oeuvre totale, à l'exclusion de la main d'oeuvre non fam. occupée irrégulièrement (L/01 à L/04), en UTA
+113	Main d'oeuvre familiale totale (L/01 à L/03) (personnes)
+114	Main d'oeuvre familiale totale (L/01 à L/03), en UTA
+115	Main d'oeuvre familiale totale (L/01 à L/03) à temps complet (personnes)
+116	Exploitants personnes physiques (persons)
+117	Exploitants personnes physiques (UTA)
+118	Exploitants personnes physiques:age < 35 ans (persons)
+119	Exploitants personnes physiques:age < 35 ans (UTA)
+120	Exploitants personnes physiques:age 35 à 44 ans (persons)
+121	Exploitants personnes physiques:age 35 à 44 ans (UTA)
+122	Exploitants personnes physiques:age 45 à 54 ans (persons)
+123	Exploitants personnes physiques:age 45 à 54 ans (UTA)
+124	Exploitants personnes physiques:age 55 à 64 ans (persons)
+125	Exploitants personnes physiques:age 55 à 64 ans (UTA)
+126	Exploitants personnes physiques:age 65 ans et plus (persons)
+127	Exploitants personnes physiques:age 65 ans et plus (UTA)
+128	Exploitants personnes physiques: sexe = mascu (persons)
+129	Exploitants personnes physiques: sexe = féminin (persons)
+130	Exploitants personnes physiques: temps de travail > 0 à <25% (persons)
+131	Exploitants personnes physiques: temps de travail > 0 à <25% (UTA)
+132	Exploitants personnes physiques: temps de travail >25 à <50% (persons)
+133	Exploitants personnes physiques: temps de travail >25 à <50 (UTA)
+134	Exploitants personnes physiques: temps de travail >50 à <75% (persons)
+135	Exploitants personnes physiques: temps de travail >50 à <75% (UTA)
+136	Exploitants personnes physiques: temps de travail >75 à <100% (persons)
+137	Exploitants personnes physiques: temps de travail >75 à <100% (UTA)
+138	Exploitants personnes physiques: temps de travail 100% (persons)
+139	Exploitants personnes physiques: temps de travail 100% (UTA)
+140	Nombre d'exploitations spécialisées à grandes cultures
+141	Nombre d'exploitations horticoles spécialisées
+142	Nombre d'exploitations spécialisées en cultures permanentes
+143	Nombre d'exploitations spécialisées herbivores
+144	Nombre d'exploitations spécialisées de production animale hors sol (granivores)
+145	Nombre d'exploitations de polyculture
+146	Nombre d'exploitations de polyélevage
+147	Nombre d'exploitations mixed cultures-élevage
+148	SAU des exploitations spécialisées à grandes cultures
+149	SAU des exploitations horticoles spécialisées
+150	SAU des exploitations spécialisées en cultures permanentes
+151	SAU des exploitations spécialisées herbivores
+152	SAU des exploitations spécialisées de production animale hors sol (granivores)
+153	SAU des exploitations de polyculture
+154	SAU des exploitations de polyélevage
+155	SAU des exploitations mixed cultures-élevage

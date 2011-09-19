@@ -1,0 +1,55 @@
+6000	Input insgesamt (I+II)
+7000	Insgesamt, Waren und Dienstleistungen des laufenden landwirtschaftlichen Verbrauchs
+7100	Saat- und Pflanzgut
+7490	Nutz- und Zuchtvieh
+7500	Energie und Schmierstoffe
+7520	Heizstoffe
+7530	Treibstoffe
+7540	Elektrischer Strom
+7550	Schmierstoffe
+7600	Dünge- und Bodenverbesserungsmittel
+7620	Einnährstoffdünger
+7630	Stickstoffdünger
+7650	Phosphatdünger
+7680	Kalidünger
+7700	Mehrnährstoffdünger
+7710	NP-Dünger
+7720	PK-Dünger
+7740	NPK-Dünger
+7850	Sonstige Dünge- und Bodenverbesserungsmittel
+7900	Pflanzenschutzmittel
+7910	Fungizide
+7930	Insektizide
+7950	Herbizide
+7970	Sonstige Pflanzenschutzmittel
+8000	Futtermittel
+8010	Einzelfuttermittel
+8030	Getreide und Mühlennachprodukte
+8070	Ölkuchen bzw.-Schrot
+8100	Futtermittel tierischer Herkunft
+8130	Sonstige Einzelfuttermittel
+8210	Mischfuttermittel
+8230	Mischfuttermittel für Kälber
+8240	Mischfuttermittel für Rinder (ohne Kälber)
+8280	Mischfuttermittel für Schweine
+8300	Mischfuttermittel für Geflügel
+8350	Sonstige Mischfuttermittel
+8410	Material und Kleinwerkzeug
+8510	Instandhaltung und Reparatur von Maschinen
+8610	Instandhaltung und Reparatur von Wirtschaftsgebäuden und sonstigen Bauten
+8730	Veterinärleistungen
+8790	Allgemeine Wirtschaftsausgaben
+9000	Waren und Dienstleistungen landwirtschaftlicher Investitionen insgesamt
+9300	Maschinen und andere Ausrüstungsgüter
+9310	Einachsschlepper und andere einachsige Motorgeräte
+9320	Maschinen und Geräte für Kulturen
+9360	Maschinen und Geräte für die Ernte
+9400	Maschinen und Einrichtungen
+9410	Maschinen und Einrichtungen für die pflanzliche Produktion
+9450	Maschinen und Einrichtungen für die tierische Produktion
+9480	Sonstige Maschinen und Einrichtungen
+9510	Ackerschlepper
+9550	Sonstige Fahrzeuge
+9600	Bauten
+9610	Wirtschaftsgebäude
+9700	Tiefbau- und Bodenverbesserungsarbeiten

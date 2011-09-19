@@ -1,0 +1,70 @@
+STRIKES	Anzahl der Arbeitsstreitigkeiten
+DAY_LOST	Zahl der verlorenen Arbeitstage (1000)
+EMP_INV	Zahl der betroffenen Arbeitnehmer (1000)
+DAYS_1000EMP	Verlorene Arbeitstage pro 1000 Arbeitnehmer
+EMP_1000EMP	Betroffene Arbeitnehmer pro 1000 Arbeitnehmer
+POP	Bevölkerung insgesamt
+POP_15_64	Bevölkerung (15 bis 64 Jahre)
+ACT	Erwerbsbevölkerung
+ACT_PCH	Erwerbspersonen, Wachstumsrate
+EMP	Beschäftigung insgesamt (Inlandskonzept - ESA)
+EMP_LFS	Beschäftigung insgesamt (Wohnbevölkerung - AKE)
+EMP_15_64	Beschäftigung (15 bis 64 Jahre)
+EMP_PCH	Beschäftigungswachstum
+EMP_RT_15_64	Beschäftigtenquote (15 bis 64 Jahre)
+EMP_RT_20_64	Beschäftigung (20 bis 64 Jahre)
+EMP_RT_15_24	Beschäftigtenquote (15 bis 24 Jahre)
+EMP_RT_25_54	Beschäftigtenquote (25 bis 54 Jahre)
+EMP_RT_55_64	Beschäftigtenquote (55 bis 64 Jahre)
+SELF_EMP_RT	Selbständige in Prozent der Beschäftigung insgesamt
+PT_EMP_RT	Teilzeitarbeitnehmer in Prozent der Beschäftigung insgesamt
+TEMP_RT	Prozentsatz der Arbeitnehmer mit Zeitverträgen
+SERV_RT	Dienstleistungen in Prozent der Beschäftigung insgesamt
+INDU_RT	Industrie in Prozent der Beschäftigung insgesamt
+AGRI_RT	Landwirtschaft in Prozent der Beschäftigung insgesamt
+AGRI_PCH	Beschäftigungswachstum Landwirtschaft
+ACT_PPCH	Veränderung der Erwerbsquote im Vergleich zum Vorjahr
+IND_PCH	Beschäftigungswachstum Industrie
+SERV_PCH	Beschäftigungswachstum Dienstleistungen
+ACT_RT_15_64	Erwerbsquote (15 bis 64 Jahre)
+ACT_RT_15_24	Erwerbsquote (15 bis 24 Jahre)
+ACT_RT_20_64	Erwerbsquote (20 bis 64 Jahre)
+ACT_RT_25_54	Erwerbsquote (25 bis 54 Jahre)
+ACT_RT_55_64	Erwerbsquote (55 bis 64 Jahre)
+LTU_ACT_RT	Langzeitarbeitslosigkeit in Prozent der Erwerbsbevölkerung
+LTU_UNE_RT	Langzeitarbeitslosigkeit in Prozent der Arbeitslosigkeit
+VLTU_ACT_RT	Arbeitslosigkeit über sehr lange Zeit in Prozent der Erwerbsbevölkerung
+UNE_POP_15_24_RT	Arbeitslosigkeit der Bevölkerung von 15-24 Jahre
+JOBVAC	Zahl der offenen Stellen
+JOBOCC	Zahl der besetzten Stellen
+JOBRATE	Quote der offenen Stellen
+CH_Q_Q	Die vierteljährliche Veränderung der Quote der offenen Stellen
+CH_Y_Y	Die jährliche Veränderung der Quote der offenen Stellen
+SC051	Frühzeitige Schul- und Ausbildungsabgänger - Prozentsatz der 18-24-jährigen ohne weiterführenden Bildungsabschluss, die an keiner Aus- oder Weiterbildung teilnehmen
+SC052	Frühzeitige Schul- und Ausbildungsabgänger - Frauen - Prozentsatz der 18-24jährigen Frauen ohne weiterführenden Bildungsabschluss, die an keiner Aus- oder Weiterbildung teilnehmen
+SC053	Frühzeitige Schul- und Ausbildungsabgänger - Männer - Prozentsatz der 18-24jährigen Männer ohne weiterführenden Bildungsabschluss, die an keiner Aus- oder Weiterbildung teilnehmen
+SC071	Kinder im Alter von 0-17 Jahren in erwerbslosen Haushalten : Anteil der Personen im Alter von 0-17 Jahren in Haushalten, in denen kein Mitglied einer Erwerbstätigkeit nachgeht
+SC072	Personen im Alter von 18-59 Jahren in erwerbslosen Haushalten : Anteil der Personen im Alter von 18-59 Jahren in Haushalten, in denen kein Mitglied einer Erwerbstätigkeit nachgeht
+SC073	Frauen im Alter von 18-59 Jahren in erwerbslosen Haushalten : Anteil der Frauen im Alter von 18-59 Jahren in Haushalten, in denen kein Mitglied einer Erwerbstätigkeit nachgeht
+SC074	Männern im Alter von 18-59 Jahren in erwerbslosen Haushalten : Anteil der Männer im Alter von 18-59 Jahren in Haushalten, in denen kein Mitglied einer Erwerbstätigkeit nachgeht
+EM021	Durchschnittliches Erwerbsaustrittsalter - insgesamt - gewichtet mit der Wahrscheinlichkeit eines Ausscheidens aus dem Arbeitsmarkt
+EM022	Durchschnittliches Erwerbsaustrittsalter - weiblich - gewichtet mit der Wahrscheinlichkeit eines Ausscheidens aus dem Arbeitsmarkt
+EM023	Durchschnittliches Erwerbsaustrittsalter - männlich - gewichtet mit der Wahrscheinlichkeit eines Ausscheidens aus dem Arbeitsmarkt
+EM051	Lebenslanges Lernen (Erwachsenenbeteilung an Aus- und Weiterbildungsmaßnahmen) Prozentsatz der an Aus- und Weiterbildungsmaßnahmen teilnehmenden Bevölkerung im Alter von 25-64 Jahren in den vier Wochen vor der Erhebung
+EM052	Lebenslanges Lernen (Erwachsenenbeteilung von Frauen an Aus- und Weiterbildungsmaßnahmen) Prozentsatz der an Aus- und Weiterbildungsmaßnahmen teilnehmenden Frauen im Alter von 25-64 Jahren in den vier Wochen vor der Erhebung
+EM053	Lebenslanges Lernen (Erwachsenenbeteilung von Männern an Aus- und Weiterbildungsmaßnahmen) Prozentsatz der an Aus- und Weiterbildungsmaßnahmen teilnehmenden Männer im Alter von 25-64 Jahren in den vier Wochen vor der Erhebung
+IR091	Höchster erreichter Bildungsgrad der Jugendlichen - Prozentsatz der Bevölkerung im Alter von 20-24 Jahren mit mindestens Sekundarstufe-II-Abschluss
+IR092	Höchster erreichter Bildungsgrad der Jugendlichen - Frauen - Prozentsatz der Frauen im Alter von 20-24 Jahren mit mindestens Sekundarstufe-II-Abschluss
+IR093	Höchster erreichter Bildungsgrad der Jugendlichen - Männer - Prozentsatz der Männer im Alter von 20-24 Jahren mit mindestens Sekundarstufe-II-Abschluss
+SO011	Prozentsatz der Bevölkerung im Alter von 25-64 Jahren mit mindestens Sekondarstufe II
+SO012	Prozentsatz der Frauen im Alter von 25-64 Jahren mit mindestens Sekondarstufe II
+SO013	Prozentsatz der Männer im Alter von 25-64 Jahren mit mindestens Sekondarstufe II
+SO031	Prozentsatz der Bevölkerung im Alter von 25-64 Jahren mit höchstens Sekundarstufe I-Abschluss
+SO032	Prozentsatz der Bevölkerung im Alter von 25-34 Jahren mit höchstens Sekundarstufe I-Abschluss
+SO033	Prozentsatz der Bevölkerung im Alter von 35-44 Jahren mit höchstens Sekundarstufe I-Abschluss
+SO034	Prozentsatz der Bevölkerung im Alter von 45-54 Jahren mit höchstens Sekundarstufe I-Abschluss
+SO035	Prozentsatz der Bevölkerung im Alter von 55-64 Jahren mit höchstens Sekundarstufe I-Abschluss
+SO036	Prozentsatz der Bevölkerung im Alter von 65 Jahren und älter mit höchstens Sekundarstufe I-Abschluss
+SO041	Prozentsatz der Bevölkerung im Alter von 30-34 Jahren mit eine Qualifikation im Tertiärbereich - Stufen 5-6
+SO042	Prozentsatz der Frauen im Alter von 30-34 Jahren mit eine Qualifikation im Tertiärbereich - Stufen 5-6
+SO043	Prozentsatz der Männer im Alter von 30-34 Jahren mit eine Qualifikation im Tertiärbereich - Stufen 5-6

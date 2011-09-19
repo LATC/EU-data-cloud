@@ -1,0 +1,91 @@
+IND_TOTAL	Tous les particuliers
+Y0_15	Particuliers, 15 ans ou moins
+Y16_24	Particuliers ayant de 16 à 24 ans
+Y25_34	Particuliers ayant de 25 à 34 ans
+Y25_54	Particuliers ayant de 25 à 54 ans
+Y35_44	Particuliers ayant de 35 à 44 ans
+Y45_54	Particuliers ayant de 45 à 54 ans
+Y55_64	Particuliers ayant de 55 à 64 ans
+Y55_74	Particuliers ayant de 55 à 74 ans
+Y65_74	Particuliers ayant de 65 à 74 ans
+Y75_MAX	Particuliers, 75 ans ou plus
+Y16_24LO	Particuliers, de 16 à 24 ans, ayant reçu une éducation scolaire formelle limitée
+Y16_24ME	Particuliers, de 16 à 24 ans, ayant reçu une éducation scolaire formelle moyenne
+Y16_24HI	Particuliers, de 16 à 24 ans, ayant reçu une éducation scolaire formelle élevée
+Y25_54LO	Particuliers, de 25 à 54 ans, ayant reçu une éducation scolaire formelle limitée
+Y25_54ME	Particuliers, de 25 à 54 ans, ayant reçu une éducation scolaire formelle moyenne
+Y25_54HI	Particuliers, de 25 à 54 ans, ayant reçu une éducation scolaire formelle élevée
+Y55_74LO	Particuliers, de 55 à 74 ans, ayant reçu une éducation scolaire formelle limitée
+Y55_74ME	Particuliers, de 55 à 74 ans, ayant reçu une éducation scolaire formelle moyenne
+Y55_74HI	Particuliers, de 55 à 74 ans, ayant reçu une éducation scolaire formelle élevée
+M_Y16_24	Hommes ayant de 16 à 24 ans
+F_Y16_24	Femmes ayant de 16 à 24 ans
+M_Y16_74	Hommes ayant de 16 à 74 ans
+F_Y16_74	Femmes ayant de 16 à 74 ans
+M_Y25_34	Hommes ayant de 25 à 34 ans
+F_Y25_34	Femmes ayant de 25 à 34 ans
+M_Y25_54	Hommes ayant de 25 à 54 ans
+F_Y25_54	Femmes ayant de 25 à 54 ans
+M_Y35_44	Hommes ayant de 35 à 44 ans
+F_Y35_44	Femmes ayant de 35 à 44 ans
+M_Y45_54	Hommes ayant de 45 à 54 ans
+F_Y45_54	Femmes ayant de 45 à 54 ans
+M_Y55_64	Hommes ayant de 55 à 64 ans
+F_Y55_64	Femmes ayant de 55 à 64 ans
+M_Y55_74	Hommes ayant de 55 à 74 ans
+F_Y55_74	Femmes ayant de 55 à 74 ans
+M_Y65_74	Hommes ayant de 65 à 74 ans
+F_Y65_74	Femmes ayant de 65 à 74 ans
+M_I0_2	Hommes ayant reçu une éducation scolaire formelle limitée
+F_I0_2	Femmes ayant reçu une éducation scolaire formelle limitée
+M_I3_4	Hommes ayant reçu une éducation scolaire formelle moyenne
+F_I3_4	Femmes ayant reçu une éducation scolaire formelle moyenne
+M_I5_6	Hommes ayant reçu une éducation scolaire formelle élevée
+F_I5_6	Femmes ayant reçu une éducation scolaire formelle élevée
+I0_2	Particuliers ayant reçu une éducation scolaire formelle limitée ou nulle
+I3_4	Particuliers ayant reçu une éducation scolaire formelle moyenne
+I5_6	Particuliers ayant reçu une éducation scolaire formelle élevée
+SAL_SELF_FAM	Salariés, travailleurs indépendants, travailleurs familiaux
+SELF_FAM	Travailleurs indépendants, travailleurs familiaux
+SAL	Salariés
+STUD	Étudiants
+RETIR	Retraités
+OTHER	Autre sans activité
+RETIR_OTHER	Retraités et autres inactifs
+UNE	Sans emploi
+IND_DEG1	Particuliers vivant dans une zone densément peuplée
+IND_DEG2	Particuliers vivant dans une zone modérément peuplée
+IND_DEG3	Particuliers vivant dans une zone faiblement peuplée
+HHI_Q1	Particuliers vivant dans des ménages dans le premier quartile de revenu
+HHI_Q2	Particuliers vivant dans des ménages dans le deuxième quartile de revenu
+HHI_Q3	Particuliers vivant dans des ménages dans le troisième quartile de revenu
+HHI_Q4	Particuliers vivant dans des ménages dans le quatrième quartile de revenu
+IND_O1	Particuliers vivant dans une région de l'objectif 1 / Région de 'convergence'
+IND_NO1	Particuliers vivant dans une région hors objectif 1 / Régions relevant des objectifs de 'compétitivité et d'emploi'
+IND_BROAD	Particuliers qui habitent dans un ménage avec un Internet accès à large bande
+IND_BROADX	Particuliers qui habitent dans un ménage avec un accès à Internet mais pas à large bande
+ISCO_ICT	Spécialistes TIC
+ISCO_ICTX	Spécialistes non-TIC
+ISCO0_5	Travailleurs non manuels, y compris les forces armées
+ISCO6_9	Travailleurs manuels
+IREG	Particuliers utilisant Internet regulièrement (au moins une fois par semaine)
+IREGX	Particuliers n'utilisant pas Internet regulièrement (moins qu'une fois par semaine)
+RF_LE1	Particuliers avec aucun ou un facteur de risque 
+RF_GE2	Particuliers avec deux ou plusieurs facteurs de risque 
+Y25_64	Particuliers ayant de 25 à 64 ans
+M_Y25_64	Hommes ayant de 25 à 64 ans
+F_Y25_64	Femmes ayant de 25 à 64 ans
+Y25_64LO	Particuliers, de 25 à 64 ans, ayant reçu une éducation scolaire formelle limitée
+Y25_64ME	Particuliers, de 25 à 64 ans, ayant reçu une éducation scolaire formelle moyenne
+Y25_64HI	Particuliers, de 25 à 64 ans, ayant reçu une éducation scolaire formelle élevée
+Y25_64_SALSELFFAM	Particuliers, de 25 à 64 ans, qui sont salariés, travailleurs indépendants ou travailleurs familiaux
+Y25_64_UNE	Particuliers, de 25 à 64 ans, qui sont sans emploi
+Y25_64_RETIROTH	Particuliers, de 25 à 64 ans, qui sont retraités ou autres inactifs
+CB_EU_FOR	Particuliers nés dans un autre pays de l'UE
+CB_EXT_EU	Particuliers nés dans un pays hors UE
+CB_FOR	Particuliers nés à l'étranger
+CB_NAT	Particuliers nés dans le pays
+CC_EU_FOR	Citoyens d'un autre pays de l'UE
+CC_EXT_EU	Citoyens d'un pays hors UE
+CC_FOR	Etrangers
+CC_NAT	Nationaux

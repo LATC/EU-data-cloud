@@ -1,0 +1,12 @@
+TOTALNOREROUTE	Einnahmen insgesamt
+CORPORATION	Kapitalgesellschaften
+GG_CENT	Zentralstaat
+GG_LOC	Bundesl‰nder und Lokalstaat
+GG_SS	Sozialversicherungskassen
+GG_TOT	Staat insgesamt
+HOUSENOREROUTE	Private Haushalte
+NONPROF	Organisationen ohne Erwerbscharakter im Dienste privaten Haushalte
+RESTNOREROUTE	‹brige Welt
+TOTAL	Einnahmen insgesamt einschlieﬂlich ‹bertragungen zwischen Systemen
+HOUSE	Private Haushalte einschlieﬂlich ‹bertragungen zwischen Systemen
+REST	‹brige Welt einschlieﬂlich ‹bertragungen zwischen Systemen

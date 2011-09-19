@@ -1,0 +1,14 @@
+TOTAL	Gesamtzahl der Beschlüsse
+TOTAL_POS	Gesamtzahl der positiven Beschlüssen
+GENCONV	Genfer Abkommen Rechtsstatus
+HUMSTAT	Humanitärer Rechtsstatus
+OTH_POS	Sonstige positive Beschlüsse
+REJECT	Ablehnungen
+OTH_NONST	Sonstige Nicht-Status-Entscheidungen
+APP_PENDING	Laufende Anträge am Ende des Zeitraums
+C_GRANTED	Bewilligt (Status der Genfer Konvention)
+T_GRANTED	Bewilligt (insgesamt)
+REJECTED	Abgelehnt
+WITHDRAWN	Zurückgezoger Status
+SUB_PROT	Subsidiärer Schutz
+TEMP_PROT	Vorübergehender Schutz

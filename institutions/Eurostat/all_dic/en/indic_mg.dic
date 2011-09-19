@@ -1,0 +1,6 @@
+TOT_REF	Persons refused entry
+REF_LAND	Refused at the land border
+REF_SEA	Refused at the sea border
+REF_AIR	Refused at the air border
+TOT_RET	Total number of persons returned
+RET_THRD	Persons returned to a third country

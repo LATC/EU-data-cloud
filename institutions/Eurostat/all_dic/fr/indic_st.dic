@@ -1,0 +1,38 @@
+V1010	Stocks au premier jour de l'année
+V1020	Ressources propres à l'usine
+V1030	Réceptions (v1031 + v1032 + v1033)
+V1031	Réceptions d'origine nationale
+V1032	Réceptions d'autres États membres de la Communauté
+V1033	Réceptions de pays tiers
+V1040	Disponibilités totales (v1010 + v1020 + v1030)
+V1050	Consommation totale ...
+V1051	Consommation des fours électriques
+V1052	Consommation de ferraille inoxydable
+V1060	Livraisons
+V1070	Stocks au dernier jour de l'année (v1040 - v1050 - v1060)
+V3100	Ressources (v3101 + v3102)
+V3101	Production brute
+V3102	Réceptions de l'extérieur
+V3200	Emplois (v3210 + v3220 + v3230)
+V3210	Consommation par installation (v3211 + v3212 + v3213 + v3214 + v3215 + v3216 + v3217)
+V3211	Installations d'agglomération et de préparation des charges
+V3212	Hauts-fourneaux et fours électriques à fonte
+V3213	Aciéries électriques et coulées continues associées
+V3214	Autres aciéries et coulées continues associées
+V3215	Laminoirs
+V3216	Centrales électriques intégrées
+V3217	Autres installations
+V3220	Livraisons à l'extérieur
+V3230	Pertes
+V5010	Coke
+V5020	Préparation des charges
+V5030	Fonte brute et ferroalliages
+V5040	Acier brut
+V5041	Acier brut utilisé dans les aciéries électriques
+V5042	Acier brut utilisé par coulées continues
+V5050	Produits obtenus directement par laminage à chaud (v5051 + v5052)
+V5051	Produits plats
+V5052	Produits longs
+V5060	Produits obtenus à partir de produits laminés à chaud (à l'exclusion des produits revêtus)
+V5061	Produits obtenus de produits laminés à chaud obtenus par laminage à froid
+V5070	Produits revêtus

@@ -1,0 +1,22 @@
+LTEU1Y	Kreditzinsen für Unternehmenskredite bis zu 1 Jahr
+LTEO1Y	Kreditzinsen für Unternehmenskredite mehr als 1 Jahr
+BO	Überziehungskredit
+CLTH	Kreditzinsen für private Haushalte: Konsumentenkredite
+HLTH	Kreditzinsen für private Haushalte: Wohnungsbaukredite
+OTH	Sonstige Kredite
+COTH	Konsumentenkredite und sonstige Kredite
+OVDEP	Einlagenzinsen: täglich fällig
+DAMU1Y	Einlagenzinsen mit vereinbarter Laufzeit: bis zu 1 Jahr
+DAMO1Y	Einlagenzinsen mit vereinbarter Laufzeit : mehr als 1 Jahr
+DAMU2Y	Einlagenzinsen mit vereinbarter Laufzeit: bis zu 2 Jahre
+DAMO2Y	Einlagenzinsen mit vereinbarter Laufzeit : mehr als 2 Jahre
+DRNU3M	Einlagenzinsen mit vereinbarter Kündigungsfrist: bis zu 3 Monate
+DRNO3M	Einlagenzinsen mit vereinbarter Kündigungsfrist: mehr als 3 Monate
+LENR	Andere Kredizinsen
+DEPR	Andere Einlagenzinsen
+DTEU1Y	Einlagenzinsen für Unternehmenskredite bis zu 1 Jahr
+DAM	Einlagen mit vereinbarter Laufzeit
+DRN	Einlagen mit vereinbarter Kündigungsfrist
+DRP	Einlagen-Repogeschäfte
+LTH	Kredite an Haushalte
+LTE	Kredite an Unternehmen

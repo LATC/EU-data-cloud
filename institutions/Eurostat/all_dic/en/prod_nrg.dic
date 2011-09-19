@@ -1,0 +1,24 @@
+TOTAL	Total
+SOL_FUEL	Solid fuels (v2011 + v2012)
+HCOA_DER	Hard coal and derivatives 
+COKE	Coke
+SOL_FUEL_OTH	Other solid fuels
+LIQ_FUEL	Liquid fuels
+COIL	Crude oil
+ROIL	Refined oil products
+PETROL	All Petroleum Products
+LPG	LPG
+DIESEL	Diesel
+GAS	Gas (v2031 + v2032 + v2033 + v2034)
+GAS_NAT	Natural Gas
+GAS_BFUR	Blast-furnace gas
+GAS_COKE	Coke-oven gas
+GAS_CONV	Converter gas
+GAS_OTH	Other gas
+ELEC	Electrical Energy
+ELEC_OTH	Electricity or other sources
+OTHER	Other products
+STEAM	Steam
+DLV_GAS_BFUR	External deliveries of blast-furnace gas
+DLV_GAS_CONV	External deliveries of converter gas
+ALTER	Alternative Energy

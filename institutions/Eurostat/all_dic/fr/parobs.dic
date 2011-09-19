@@ -1,0 +1,14 @@
+OBSJOBR	Les participants qui n'en avait pas besoin pour le travail
+OBSPERS	Les participants  qui n'en avait pas besoin pour des  raisons personnelles (pas liée au travail)
+OBSPERQ	Les participants qui n'avaient pas les qualifications
+OBSPRIC	La formation était trop chère ou le participant n'en avait pas les moyens
+OBSSUPP	Manque de support de l'employeur
+OBSWRSC	La formation était en conflit avec le schéma du travail
+OBSNTIM	Le participant n'a pas eu le temps à cause des responsabilités familliales
+OBSDIST	Aucune formation n'était offerte à une distance raisonnable
+OBSSHOL	Le participant n'était pas à l'aise avec l'idée de retour dans une situation scolaire
+OBSAGER	Santé ou âge
+OBSFIND	Le participant a eu des difficultés à  trouver ce qu'il aimerait faire
+OBSITIM	La formation a été organisée dans une heure qui ne convenait pas
+OBSOTHR	Sonstig
+NRESP	Sans réponse

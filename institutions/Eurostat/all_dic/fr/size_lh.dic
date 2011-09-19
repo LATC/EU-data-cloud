@@ -1,0 +1,8 @@
+TOTAL	Total
+1_99	Exploitations avec entre 1 et 99 de poules pondeuses
+100_999	Exploitations avec entre 100 et 999 de poules pondeuses
+1000_2999	Exploitations avec entre 1 000 et 2 999 de poules pondeuses
+3000_4999	Exploitations avec entre 3 000 et 4 999 de poules pondeuses
+5000_9999	Exploitations avec entre 5 000 et 9 999 de poules pondeuses
+10000_29999	Exploitations avec entre 10 000 et 29 999 de poules pondeuses
+GE_30000	Exploitations avec 30 000 ou plus de poules pondeuses

@@ -1,0 +1,47 @@
+PC_TOT_IMP	Part des importations par partenaire dans les importations totales (%)
+PC_TOT_EXP	Part des exportations par partenaire dans les exportations totales (%)
+RT_EXP_IMP	Ratio Exportations/Importations
+IMP_VAL	Importations en milliards d'ECU/EURO
+EXP_VAL	Exportations en milliards d'ECU/EURO
+BAL_VAL	Balance commerciale en milliards d'ECU/EURO
+IVOL_IMP	Indice de volume des importations (2000=100)
+IVOL_EXP	Indice de volume des exportations (2000=100)
+RT_IVOL	Rapport Volume (Exportations/Importations)
+PC_IMP_EU	Part des importations provenant de l'UE dans les importations totales (%)
+PC_EXP_EU	Part des exportations vers l'UE dans les exportations totales (%)
+PC_IMP_WRL	Part des importations nationales dans les importations mondiales (%)
+PC_EXP_WRL	Part des exportations nationales dans les exportations mondiales (%)
+TRD_VAL	Valeur de commerce en millions d'ECU/EURO
+TRD_VAL_RT12	Taux de croissance M/M-12 de la valeur de commerce
+TRD_VAL_SWDA	Valeur de commerce désaisonnalisée et corrigée des jours ouvrables en millions d'ECU/EURO
+TRD_VAL_SWDA_RT1	Taux de croissance M/M-1 de la valeur de commerce désaisonnalisée et corrigée des jours ouvrables
+TRD_VAL_TREND	Tendance-cycle des valeurs de commerce
+IVU	Indice de valeur unitaire (2000=100)
+IVU_EXP	Indice de valeur unitaire des exportations (2000=100)
+IVU_IMP	Indice de valeur unitaire des importations (2000=100)
+RT_IVU	Termes de l'échange (Exportations/Importations)
+IVU_RT1	Taux de croissance M/M-1 des indices de valeur unitaire
+IVU_RT12	Taux de croissance M/M-12 des indices de valeur unitaire
+IVOLU	Indice de volume unitaire (2000=100)
+IVOL_NSA	Indices de volume (2000=100)
+IVOL_NSA_RT12	Taux de croissance M/M-12 des indices de volume
+IVOL_SWDA	Indices de volume désaisonnalisés et corrigés des jours ouvrables (2000=100)
+IVOL_SWDA_RT1	Taux de croissance M/M-1 des indices de volume désaisonnalisés et corrigés des jours ouvrables
+IVOL_TREND	Tendance-cycle des indices de volume (2000=100)
+CONT_IMP_EU	Part des importations par État membre (%)
+CONT_EXP_EU	Part des exportations par État membre (%)
+CONT_IMP	Part dans les importations de l'UE-25 (%)
+CONT_EXP	Part dans les exportations de l'UE-25 (%)
+MIO_BAL_VAL	Balance commerciale en millions d'ECU/EURO
+MIO_EXP_VAL	Exportations en millions d'ECU/EURO
+MIO_IMP_VAL	Importations en millions d'ECU/EURO
+PC_EU_EX_IMP	Part dans les importations totales Extra-UE (%)
+PC_EU_EX_EXP	Part dans les exportations totales Extra-UE (%)
+PC_MU_EX_IMP	Part dans les importations totales Extra-zone euro (%)
+PC_MU_EX_EXP	Part dans les exportations totales Extra-zone euro (%)
+PC_IMP_PROD	Part des importations par produit (%)
+PC_EXP_PROD	Part des exportations par produit (%)
+1000_TRD_VAL	Valeur de commerce en milliers d'ECU/EURO
+NUM_ENT	Nombre d'entreprises
+PC_IMP_PART	Part des importations par partenaire (%)
+PC_EXP_PART	Part des exportations par partenaire (%)

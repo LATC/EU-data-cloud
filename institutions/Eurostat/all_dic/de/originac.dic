@@ -1,0 +1,8 @@
+TOTAL	Insgesamt
+COLLIS	Zusammenstösse (ausgenommen Unfälle an Bahnübergängen)
+DERAILMT	Entgleisungen
+ACC_LCRO	Unfälle an Bahnübergängen
+ACC_PERS	Personenunfälle durch sich bewegendes rollendes Material
+ACC_FIRE	Brände in Eisenbahnfahrzeugen
+OTHER	Sonstige
+UNK	Unbekannt

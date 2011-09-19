@@ -1,0 +1,39 @@
+A000	NS (Total)
+A001	Establishments
+A002	Bedrooms
+A003	Bed-Places
+A005	Camping Pitches
+A006	Dwellings
+B001	Arrivals of residents
+B002	Arrivals of non-residents
+B003	Arrivals Total
+B004	Nights spent by residents
+B005	Nights spent by non-residents
+B006	Nights spent Total
+B007	Nights spent
+B010	Average duration of trips/stays (in terms of nights spent/arrivals) total
+B011	Average duration of stays (measured in terms of Nights spent/Arrivals) residents
+B012	Average duration of stays (in terms of nights spent/arrivals) non residents
+C001	Tourists
+D001	Trips
+E001	Use of bed-places net
+E002	Use of bed-places gross
+E003	Bedroom occupancy rate
+F010	Tourist expenditure of residents total
+F011	Tourist expenditure of residents package travel, package holidays & tours
+F012	Other tourist expenditure of residents
+G010	Employment total persons employed
+G011	Employees
+G012	Self-employed persons
+G020	Full time
+G030	Part-time
+H001	Gross Domestic Product at market prices
+H002	Gross Domestic Product at factor cost
+J001	Arrivals of visitors at the border
+J002	Arrivals of tourists at the border
+J003	Arrivals of day-visitors at the border
+K001	Tourist expenditure of non-residents in the country
+L001	Credit
+L002	Debit
+L003	Net
+M001	Index of consumer prices

@@ -1,0 +1,16 @@
+TOT_PAT	Total de brevets dans le pays déclarant
+SGL	Inventeurs/déposants individuels
+CO_NAT	Brevets en coopération impliquant des inventeurs/déposants du pays déclarant
+CO_EU	Brevets en coopération impliquant des inventeurs/déposants du pays déclarant et d’un ou plusieurs pays de l’UE
+CO_EU_NEU	Brevets en coopération impliquant des inventeurs/déposants du pays déclarant, d’un ou plusieurs pays de l’UE et d’un ou plusieurs pays non-UE.
+CO_NEU	Brevets en coopération impliquant des inventeurs/déposants du pays déclarant et d’un ou plusieurs pays non-UE.
+CO_EUI_NEUA	Proportion de brevets avec inventeur UE et déposants non-UE dans le total des inventions domestiques de l’UE
+CO_NEUI_EUA	Proportion de brevets avec inventeurs non-UE et déposants UE dans le total des demandes domestiques de l’UE
+EU_PUB	Proportion de l'UE dans le nombre total de citations de brevets
+CIT_NEU	Nombre de citations de brevets UE se référant aux publications de brevets non-UE
+CIT_EU	Nombre de citations de brevets UE se référant aux publications de brevets UE
+CO_NEU_MS	Proportion de brevets en coopération entre un Etat membre de l’UE et des pays non-UE dans le total de brevets de chaque Etat membre de l’UE
+CO_EU_MS	Proportion de brevets en coopération entre un Etat membre de l’UE et (un) autre(s) Etat(s) membre(s) de l’UE dans le total de brevets de chaque Etat membre de l’UE
+CO_NEU_EU	Proportion de brevets en coopération entre des Etats membres de l’UE et des pays non-UE dans le total de brevets de l’UE
+CO_EU_EU	Proportion de brevets en coopération entre des Etats membres de l’UE dans le total de brevets de l’UE
+CO_INT	Proportion de brevets en coopération entre des Etats membres de l’UE et des pays non-UE dans le total de brevets internationaux.

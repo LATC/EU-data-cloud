@@ -1,0 +1,206 @@
+100100	Primary production
+100200	From other sources
+100300	Total imports
+100400	Stock change
+100401	Stock change - Producers
+100402	Stock change - Importers
+100403	Stock change - Transformers
+100500	Total exports
+100600	Net imports
+100700	Gross consumption
+100800	Bunkers
+100900	Gross inland consumption
+101000	Transformation input
+101001	Input to conventional thermal power stations
+101002	Input to nuclear power stations
+101003	Input to patent fuel and briquetting plants
+101004	Input to coke-oven plants
+101006	Input to blast-furnace plants
+101007	Input to gas-works
+101008	Input to refineries
+101009	Input to district heating plants
+101021	Input to public thermal power stations
+101022	Input to autoproducer thermal power stations
+101100	Transformation output
+101101	Output from conventional thermal power stations
+101102	Output from nuclear power stations
+101103	Output from patent fuel and briquetting plants
+101104	Output from coke-oven plants
+101106	Output from blast-furnace plants
+101107	Output from gas-works
+101108	Output from Refineries
+101109	Output from district heating plants
+101121	Output from public thermal power stations
+101122	Output from autoproducer thermal power stations
+101200	Exchanges, transfers, returns
+101210	Interproduct transfers
+101220	Products transferred
+101230	Returns from petrochemical industry
+101300	Consumption - Energy sector
+101301	Consumption - Electricity generation sector
+101302	Pumped storage plants balance
+101303	Consumption - Mines and patent fuel/briquetting plants
+101304	Consumption - Coke-oven and gas-works plants
+101305	Consumption - Oil and gas extraction
+101306	Consumption - Oil and gas pipelines
+101307	Consumption - Refineries
+101308	Consumption - Nuclear industry
+101400	Distribution losses
+101500	Energy available for final consumption
+101600	Final non-energy consumption
+101601	Final non-energy consumption - Chemical industry
+101602	Final non-energy consumption - Non-chemical industries
+101700	Final energy consumption
+101800	Final energy consumption - Industry
+101805	Final energy consumption - Iron and steel industry
+101810	Final energy consumption - Non-ferrous metal industry
+101815	Final energy consumption - Chemical industry
+101820	Final energy consumption - Non-metallic mineral products industry
+101825	Final energy consumption - Ore extraction (except fuels) industry
+101830	Final energy consumption - Food, drink and tobacco industry
+101835	Final energy consumption - Textile, leather and clothing industry
+101840	Final energy consumption - Paper and printing industry
+101845	Final energy consumption - Engineering and other metal industry
+101850	Final energy consumption - Other non-classified industries
+101899	Final energy consumption - Adjustment
+101900	Final energy consumption - Transport
+101910	Final energy consumption - Rail transport
+101920	Final energy consumption - Road transport
+101930	Final energy consumption - Air transport
+101940	Final energy consumption - Inland navigation
+102000	Final energy consumption - Households/Services
+102010	Final energy consumption - Households
+102020	Final energy consumption - Fisheries
+102030	Final energy consumption - Agriculture
+102035	Final energy consumption - Services
+102040	Final energy consumption - Other Sectors
+102200	Statistical difference
+105001	Stocks - Mines
+105003	Stocks - Public power stations
+105100	Internal market deliveries
+105101	Deliveries to public and colliery power stations
+105102	Deliveries to public power stations
+105103	Deliveries to colliery power stations
+105105	Deliveries to coking plants
+105106	Deliveries to iron and steel industry
+105110	Other deliveries
+105112	Deliveries to patent fuel/bkb plants
+105120	Deliveries to industry
+106002	Net refinery output
+106003	Out of refinery production
+106018	Net transformation input - Refineries
+106101	Stocks - Beginning of period
+106102	Stocks - End of period
+106118	Net transformation output - Refineries
+106201	Availability
+107000	Total gross electricity generation
+107001	Gross electricity generation - Hydro power plants
+107002	Gross electricity generation - Geothermal power plants
+107003	Gross electricity generation - Nuclear power plants
+107004	Gross electricity generation - conventional thermal power plants
+107005	Gross electricity generation - Wind turbines
+107006	Gross electricity generation - Coal-fired power stations
+107007	Gross electricity generation - Lignite-fired power stations
+107008	Gross Electricity Generation - Oil-Fired Power Stations
+107009	Gross electricity generation - Natural gas-fired power stations
+107010	Gross electricity generation - Derived gas-fired power stations
+107011	Gross electricity generation - Biomass-fired power stations
+107012	Gross electricity generation - Other power stations
+107015	Gross production from hydro power stations (Capacity < 1 MW)
+107016	Gross production from hydro power stations (Capacity >= 1 MW and <= 10 MW)
+107017	Gross production from hydro power stations (Capacity > 10 MW)
+107023	Gross production from photovoltaic systems
+107024	Gross production from solar thermal systems
+107025	Gross production from municipal solid wastes
+107026	Gross production from wood / wood wastes
+107027	Gross production from biogas
+107028	Gross production from industrial wastes
+107100	Total net electricity generation
+107101	Net electricity generation - hydro power plants
+107102	Net electricity generation - Geothermal power plants
+107103	Net electricity generation - Nuclear power plants
+107104	Net electricity generation - Conventional thermal power plants
+107105	Net electricity generation - Wind turbines
+107106	Net electricity generation - Coal-fired power stations
+107107	Net electricity generation - Lignite-fired power stations
+107108	Net electricity generation - Oil-fired power stations
+107109	Net electricity generation - Natural gas-fired power stations
+107110	Net electricity generation - Derived gas-fired power stations
+107111	Net electricity generation - Biomass-fired power stations
+107112	Net electricity generation - Other power stations
+107200	Available for inland market
+107202	Inland market consumption
+107301	Gross generation - Pumped storage plants
+107302	Gross electricity consumed in pumped storage plants
+107400	Fuel consumption - Energy sector
+107500	Fuel consumption - Public power stations
+107510	Fuel consumption - Power stations for heat production
+107520	Fuel consumption for electricity generation
+108300	Transferred products
+108310	Other entries
+109300	Origin : Biomass
+115207	Refining capacity
+115208	Cracking capacity
+115209	Reforming capacity
+117600	Net installed capacity - total
+117601	Net installed capacity - Thermal power stations
+117603	Net installed capacity - Nuclear power stations
+117605	Net installed capacity - Hydro power stations
+117607	Net installed capacity - Pumped storage plants
+117608	Net installed capacity - Geothermal plants
+117609	Net installed capacity - Wind-turbines
+117610	Net installed capacity - Other
+117611	Net installed capacity - Steam turbine power plants
+117612	Net installed capacity - Gas turbine power plants
+117613	Net installed capacity - Combined cycle power plants
+117614	Net installed capacity - Internal combustion engine plants
+117615	Net installed capacity : Hydro power stations (Capacity < 1 MW)
+117616	Net installed capacity : Hydro power stations (Capacity >= 1MW and <= 10MW)
+117617	Net installed capacity : Hydro power stations (Capacity > 10 MW)
+117621	Net installed capacity - Public power plants
+117622	Net installed capacity - Autoproducer power plants
+117623	Net installed capacity : Photovoltaic systems
+117624	Net installed capacity : Solar thermal systems
+117625	Net installed capacity : Municipal solid wastes
+117626	Net installed capacity : wood / wood wastes
+117627	Net installed capacity : biogas
+117628	Net installed capacity : Industrial wastes
+117800	Length of distribution network
+117900	Storage capacity
+119300	Solar panel area
+119400	Production capacity : biofuels
+119500	Market share of the largest generator in the electricity market - as a percentage of the total generation
+119600	Energy intensity of the economy - Gross inland consumption of energy divided by GDP (at constant prices, 1995=100) - kgoe (kilogram of oil equivalent) per 1000 euro
+119700	Share of renewable energy - Contribution of electricity from renewables to total electricity consumption (%)
+180001	Pump price, all taxes included
+180002	Delivery price, net of duties and taxes
+180100	Primary production
+180300	Total imports
+180700	Gross consumption
+180900	Gross inland consumption
+185100	Total internal market deliveries
+186002	Net refinery output
+187000	Total gross electricity generation
+V01	Thermal energy produced (GWh)
+V02	Electrical energy generated (GWh)
+V03	Net electrical energy produced (GWh)
+V04	Maximum electrical power net (MW)
+V05	Reactor criticality period (hours)
+V06	Turbogenerator operating period (hours)
+V07	Net energy loss planned (GWh)
+V08	Unplanned energy loss due to internal reasons (GWh)
+V09	Unplanned energy loss due to external reasons (GWh)
+V10	Maximum output capacity (MW)
+V11	Reference hours
+V12	Load factor (%)
+V13	Operating factor (%)
+V14	Net thermal efficiency (%)
+V15	Planned unavailability factor (%)
+V16	Unplanned unavailability factor due to internal reasons (%)
+V17	Unplanned unavailability factor due to external reasons (%)
+V18	Energy availability factor (%)
+ADD	Actual heating degree-days
+MDD25	Mean heating degree-days over period 1980 - 2004
+RDD25	Relative heating degree-days
+MSHH	Medium size households
+MSIND	Medium size industries

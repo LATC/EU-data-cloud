@@ -1,0 +1,259 @@
+GE0_1	Gesamtaufkommen gefährlicher Abfälle
+GE0_1_1	Importierte gefährliche Abfälle
+GE0_1_2	Exportierte gefährliche Abfälle
+GE0_1_3	Im Inland zu bewirtschaftende gefährliche Abfälle
+GE0_2	Im Inland für Behandlungs- und Beseitigungsverfahren bestimmte gefährliche Abfälle
+GE0_3	R1-13 - Verwertete gefährliche Abfälle insgesamt
+GE0_3_1	R1 - Verbrennung von gefährlichen Abfällen mit Energiegewinn
+GE0_3_2	R2-6 - Recycling, Kompostierung, usw von gefährlichen Abfällen
+GE0_3_3	R7-11 - Sonstige Verwertungsverfahren für gefährliche Abfälle
+GE0_3_4	R12-13 - Gefährliche Abfälle, die vor der Verwertung einer vorbereitenden Behandlung unterzogen werden
+GE0_4	D1-15 - Beseitigte gefährliche Abfälle insgesamt
+GE0_4_1	D9 - Physikalisch/chemische Behandlung von gefährlichen Abfällen
+GE0_4_2	D8 - Biologische Behandlung von gefährlichen Abfällen
+GE0_4_3	D10-11 - Direkte Verbrennung von gefährlichen Abfällen ohne Energiegewinn (thermische Behandlung)
+GE0_4_4	D1-5 - Gefährliche Abfälle abgelagert auf Deponien und sonstige Ablagerungen in oder auf dem Boden
+GE0_4_5	D6-7 - Einleitung von gefährlichen Abfällen in Wasserkörper
+GE0_4_6	D12 - Permanente Lagerung von gefährlichen Abfällen
+GE0_4_7	D13-15 - Gefährliche Abfälle, die vor der Beseitigung einer vorbereitenden Behandlung unterzogen werden
+GE1_1	Gesamtaufkommen nicht gefährlicher Industrieabfälle
+GE1_2	Im Inland zu bewirtschaftende nicht gefährliche Industrieabfälle
+GE1_3	Im Inland für Behandlungs- und Beseitigungsverfahren bestimmte nicht gefährliche Industrieabfälle
+GE1_4	Im Inland zur Verwertung bestimmte nicht gefährliche Industrieabfälle
+GE1_4_1	Recycling von nicht gefährlichen Industrieabfällen
+GE1_4_2	Kompostierung von nicht gefährlichen Industrieabfällen
+GE1_4_3	Verbrennung von nicht gefährlichen Industrieabfällen mit Energiegewinn
+GE1_4_4	Andere Verwertung von nicht gefährlichen Industrieabfällen
+GE1_5	Zur Beseitigung bestimmte nicht gefährliche Industrieabfälle (Gesamtmenge)
+GE1_5_1	In die Endbehandlung eingegangene nicht gefährliche Industrieabfälle (Gesamtmenge)
+GE1_5_1_1	Verbrennung nicht gefährlicher Industrieabfälle ohne Energiegewinn
+GE1_5_1_2	Andere Endbehandlung nicht gefährlicher Industrieabfälle
+GE1_5_2	Endbeseitigung nicht gefährlicher Industrieabfälle (Gesamtmenge)
+GE1_5_2_1	Ablagerungen nicht gefährlicher Industrieabfälle auf Deponien
+GE1_5_2_1_1	Ablagerungen nicht gefährlicher Industrieabfälle auf kontrollierten Deponien
+GE1_5_2_2	Endbeseitigung nicht gefährlicher Industrieabfälle anders als auf Deponien
+GE1_6	Nicht gefährliche Industrieabfälle, die vor einer Behandlung/Beseitigung einer Vorbehandlung unterzogen werden
+MU1_1	Aufkommen von Siedlungsabfällen
+MU1_2	Abgefährte Siedlungsabfälle (Gesamtmenge)
+MU1_2_0	Gesammelter kommunaler Abfall pro-Kopf (kg pro-Kopf)
+MU1_2_1_1	Durch die Gemeinde oder in ihrem Aufrag gesammelte Siedlungsabfälle
+MU1_2_1_2	Durch Privatunternehmen gesammelte Siedlungsabfälle (hauptsächlich getrennte Sammlung)
+MU1_2_2	Gesamte Siedlungsabfälle nach Herkunft (Gesamtmenge)
+MU1_2_2_1	Siedlungsabfälle aus Privathaushalten nach Herkunftsort
+MU1_2_2_2	Siedlungsabfälle aus Gewerbe und Handel, Kleinbetrieben, Büros und Institutionen nach Herkunftsort
+MU1_2_2_3	Siedlungsabfälle aus den Gemeindediensten (Strassen- und Marktreinigung, Parkabfälle, Abfallbehälter, usw.) nach Herkunftsort
+MU1_2_3	Gesamte Siedlungsabfälle nach Art des Abfalls (Gesamtmenge)
+MU1_2_3_1	Siedlungsabfälle nach Art des Abfalls: Hausmüll und ähnliche Abfälle
+MU1_2_3_2	Siedlungsabfälle nach Art des Abfalls: Sperrmüll
+MU1_2_3_3	Siedlungsabfälle nach Art des Abfalls: Sonstige
+MU1_2_4	Gesamte Siedlungsabfälle nach Art der Abfuhr (Gesamtmenge)
+MU1_2_4_1	Siedlungsabfälle nach Art der Abfuhr: Traditionnelle Abfuhr
+MU1_2_4_2	Siedlungsabfälle nach Art der Abfuhr: Sperrmüllabfuhr
+MU1_2_4_3	Siedlungsabfälle nach Art der Abfuhr: Stofflich getrennte Sammlung
+MU1_3	An die kommunale Müllabfuhr angeschlossene Bevölkerung (%)
+MU1_4	Kommunaler Abfall aus Gebieten, die nicht von der Müllabfuhr erfasst werden
+MU2_1	Abgeführte Abfallgesamtmenge
+MU2_1_1	Anteil von Papier, Pappe, Papierprodukten am Abfallaufkommen (1 000 t)
+MU2_1_2	Anteil von Textilien am Abfallaufkommen (1 000t)
+MU2_1_3	Anteil von Kunststoffen am Abfallaufkommen (1 000t)
+MU2_1_4	Anteil von Glas am Abfallaufkommen (1 000t)
+MU2_1_5	Anteil von Metallen am Abfallaufkommen (1 000t)
+MU2_1_6	Anteil von organischem Material am Abfallaufkommen (1 000t)
+MU2_1_6_1	Anteil von organischen Küchen- und Gartenabfällen am Abfallaufkommen (1 000t)
+MU2_1_7	Anteil von Sperrmüll am Abfallaufkommen (1 000t)
+MU2_1_8	Anteil von sonstigen Abfällen am Abfallaufkommen (1 000t)
+MU2_1_9	Anteil von Papier, Pappe, Papierprodukten am Abfallaufkommen (%)
+MU2_1_10	Anteil von Textilien am Abfallaufkommen (%)
+MU2_1_11	Anteil von Kunststoffen am Abfallaufkommen (%)
+MU2_1_12	Anteil von Glas am Abfallaufkommen (%)
+MU2_1_13	Anteil von Metallen am Abfallaufkommen (%)
+MU2_1_14	Anteil von organischem Material am Abfallaufkommen (%)
+MU2_1_15_1	Anteil von organischen Küchen- und Gartenabfällen am Abfallaufkommen (%)
+MU2_1_16	Anteil von Sperrmüll am Abfallaufkommen (%)
+MU2_1_17	Anteil von sonstigen Abfällen am Abfallaufkommen (%)
+MU2_2	Abfälle aus getrennten Sammlungen (Gesamtmenge)
+MU2_2_1	Anteil von Papier, Pappe, Papierprodukten aus getrennten Sammlungen
+MU2_2_2	Anteil von Textilien aus getrennten Sammlungen
+MU2_2_3	Anteil von Kunststoffen aus getrennten Sammlungen
+MU2_2_4	Anteil von Glas aus getrennten Sammlungen
+MU2_2_5	Anteil von Metallen aus getrennten Sammlungen
+MU2_2_6	Anteil von organischem Material aus getrennten Sammlungen
+MU2_2_6_1	Anteil von organischen Küchen- und Gartenabfällen aus getrennten Sammlungen
+MU2_2_7	Anteil von Sperrmüll aus getrennten Sammlungen
+MU2_2_8	Anteil von sonstigen Abfällen aus getrennten Sammlungen
+RE_1	Abfallaufkommen
+RE_2	Zum Zwecke des Recyclings eingesammelte Abfälle
+RE_3	Importe zum Zwecke des Recyclings
+RE_4	Exporte zum Zwecke des Recyclings
+RE_5	Im Inland rezyklierte Abfälle
+RE_6	Sichtbarer Verbrauch des entsprechenden Stoffes
+RE_7	Mehrwegflaschen im Umlauf
+RE_8	Abfallverbrennung mit Energiegewinn
+RE_9	Verpackungsabfälle insgesamt
+SE1_1	Bau- und Abbruchabfälle
+SE1_1_1	Erdaushub (als Bauabfall)
+SE1_2	Baggergut aus Wasserstrassen
+SE1_3	Klärschlamm (Trockengewicht)
+SE1_4	Überschüssiger Wirtschaftsdünger (Trockengewicht)
+SE1_5	Fahrzeugwracks
+SE1_6	Altreifen
+SE1_7	Elektronikschrott
+SE1_8	Mineralische und synthetische Öle
+SE1_9	Sonstige Abfallströme
+TR4_1	Gesamtmenge abgeführter Siedlungsabfälle
+TR4_1_1	Importierte Siedlungsabfälle
+TR4_1_2	Exportierte Siedlungsabfälle
+TR4_2	Im Inland zu bewirtschaftende Gesamtmenge an Siedlungsabfällen
+TR4_3	Im Inland für Behandlungs- und Beseitigungsverfahren bestimmte Siedlungsabfälle
+TR4_4	Gesamtmenge verwerteter Siedlungsabfälle
+TR4_4_1	Recycling von Siedlungsabfällen
+TR4_4_2	Kompostierung von Siedlungsabfällen
+TR4_4_3	Verbrennung von Siedlungsabfällen mit Energiegewinn
+TR4_4_3_1	Verbrennung mit Energiegewinn von Rückständen von Siedlungsabfällen, die aus anderen Verwertungs-oder Beseitigungsverfahren stammen
+TR4_4_4	Andere Verwertung von Siedlungsabfällen
+TR4_5	Gesamtmenge beseitigter Siedlungsabfälle
+TR4_5_1	In die Endbehandlung eingegangene Siedlungsabfälle (Gesamtmenge)
+TR4_5_1_1	Verbrennung von Siedlungsabfällen ohne Energiegewinn
+TR4_5_1_1_1	Verbrennung ohne Energiegewinn von Rückständen von Siedlungsabfällen, die aus anderen Verwertungs-oder Beseitigungsverfahren stammen
+TR4_5_1_2	Siedlungsabfälle, die anders als durch Verbrennung ohne Energiegewinn beseitigt werden
+TR4_5_2	Gesamtmenge endbeseitigter Siedlungsabfälle
+TR4_5_2_1	Ablagerung von Siedlungsabfällen auf Deponien (Gesamtmenge)
+TR4_5_2_1_0	5.6.2 Deponierter kommunaler Abfall (kg pro-Kopf)
+TR4_5_2_1_1	Ablagerung von Rückständen aus Verwertungs- oder Beseitigungsverfahren für Siedlungsabfälle auf Deponien
+TR4_5_2_1_2	Ablagerung von Rückständen aus Verwertungs- oder Beseitigungsverfahren für Siedlungsabfälle auf kontrollierten Deponien
+TR4_5_2_2	Siedlungsabfälle, die anders als durch Ablagerung auf Deponien endbeseitigt werden
+TR4_6	Vor weiterer Behandlung/Beseitigung mechanisch sortierte Siedlungsabfälle
+TR4_7	Verbrennung: Insgesamt
+TR4_7_0	5.6.3 Verbrannter kommunaler Abfall (kg Pro-Kopf)
+W12_1_1	Abfall aus Land- und Forstwirtschaft
+W12_1_1_1	Gefährliche Abfälle aus Land- und Forstwirtschaft
+W12_1_2	Abfall aus Bergbau und Gewinnung von Steinen und Erden
+W12_1_2_1	Gefährlicher Abfall aus Bergbau und Gewinnung von Steinen und Erden
+W12_1_3	Abfall aus dem Verarbeitenden Gewerbe (Gesamtmenge)
+W12_1_3_1	Gefährlicher Abfall aus dem verarbeitenden Gewerbe insgesamt
+W12_1_3_2	Abfälle aus dem Ernährungsgewerbe und der Tabakverarbeitung
+W12_1_3_2_1	Gefährliche Abfälle aus dem Ernährungsgewerbe und der Tabakverarbeitung
+W12_1_3_3	Abfälle aus dem Bekleidungsgewerbe (Textil- und Ledergewerbe)
+W12_1_3_3_1	Gefährliche Abfälle aus dem Bekleidungsgewerbe (Textil- und Ledergewerbe)
+W12_1_3_4	Abfälle aus dem Holzgewerbe
+W12_1_3_4_1	Gefährliche Abfälle aus dem Holzgewerbe
+W12_1_3_5	Abfälle aus dem Papiergewerbe
+W12_1_3_5_1	Gefährliche Abfälle aus dem Papiergewerbe
+W12_1_3_6	Abfälle aus dem Verlagsgewerbe, Druckgewerbe
+W12_1_3_6_1	Gefährliche Abfälle aus dem Verlagsgewerbe, Druckgewerbe
+W12_1_3_7	Abfälle aus der Mineralölverarbeitung
+W12_1_3_7_1	Gefährliche Abfälle aus der Mineralölverarbeitung
+W12_1_3_8	Abfälle aus der chemischen Industrie
+W12_1_3_8_1	Gefährliche Abfälle aus der chemischen Industrie
+W12_1_3_9	Abfälle aus der Herstellung von Gummi- und Kunststoffwaren
+W12_1_3_9_1	Gefährliche Abfälle aus der Herstellung von Gummi- und Kunststoffwaren
+W12_1_3_10	Abfälle aus Glasgewerbe, Keramik, Verarbeitung von Steinen und Erden
+W12_1_3_10_1	Gefährliche Abfälle aus Glasgewerbe, Keramik, Verarbeitung von Steinen und Erden
+W12_1_3_11	Abfälle aus der Metallerzeugung und -bearbeitung
+W12_1_3_11_1	Gefährliche Abfälle aus der Metallerzeugung und -bearbeitung
+W12_1_3_12	Abfälle aus der Herstellung von Metallerzeugnissen und dem Maschinenbau
+W12_1_3_12_1	Gefährliche Abfälle aus der Herstellung von Metallerzeugnissen und dem Maschinenbau
+W12_1_3_13	Abfälle aus dem sonstigen verarbeitenden Gewerbe
+W12_1_3_13_1	Gefährliche Abfälle aus dem sonstigen verarbeitenden Gewerbe
+W12_1_4	Abfälle aus der Energieversorgung
+W12_1_4_1	Gefährliche Abfälle aus der Energieversorgung
+W12_1_5	Abfälle aus der Wasserversorgung
+W12_1_5_1	Gefährliche Abfälle aus der Wasserversorgung
+W12_1_6	Abfall aus dem Baugewerbe
+W12_1_6_1	Gefährliche Abfälle aus dem Baugewerbe
+W12_1_7	Abfälle aus Abwasser- und Abfallbeseitigung
+W12_1_7_1	Gefährliche Abfälle aus Abwasser- und Abfallbeseitigung
+W12_1_8	Abfälle aus anderen Sektoren
+W12_1_8_1	Gefährliche Abfälle aus anderen Wirtschaftssektoren
+W12_1_9	Siedlungsabfälle (Gesamtmenge)
+W12_1_9_0_1	Gefährliche Siedlungsabfälle
+W12_1_9_1	Abfälle aus Privathaushalten
+W12_1_9_1_1	Gefährliche Abfälle aus Privathaushalten
+W12_1	Aufkommen an Primärabfällen insgesamt (nach Sektor)
+W12_1_0_1	Aufkommen an gefährlichen Primärabfällen (nach Sektor) insgesamt
+W12_2	Aufkommen an Behandlung von Sekundärabfällen (Gesamtmenge)
+W12_2_0_1	Aufkommen an Behandlung von gefährlichen Sekundärabfällen (Gesamtmenge)
+W12_2_1	Aufkommen an Sekundärabfällen aus Recycling
+W12_2_1_1	Aufkommen an gefährlichen Sekundärabfällen aus Recycling
+W12_2_2	Aufkommen an Sekundärabfällen aus Abwasser- und Abfallbeseitigung
+W12_2_2_1	Aufkommen an gefährlichen Sekundärabfällen aus Abwasser- und Abfallbeseitigung
+W13_1	Gesamtaufkommen gefährlicher Abfälle (1 000 T)
+W13_1_1	Y1 - Klinischer Abfall
+W13_1_2	Y2 - Abfälle aus der Herstellung und Zubereitung pharmazeutischer Erzeugnisse
+W13_1_3	Y3 - Altmedikamente, Abfälle von Arznei- und Heilmitteln
+W13_1_4	Y4 - Abfälle aus der Herstellung, Zubereitung und Anwendung von Bioziden und Phytopharmaka
+W13_1_5	Y5 - Abfälle aus der Herstellung, Zubereitung und Anwendung chemischer Holzschutzmittel
+W13_1_6	Y6 - Abfälle aus der Herstellung, Zubereitung und Verwendung organischer Lösemittel
+W13_1_7	Y7 - Cyanidehaltige Abfälle aus der Oberflächenvergütung und -härtung
+W13_1_8	Y8 - Altöl und Abfallmineralöl
+W13_1_9	Y9 - Abfälle aus Öl-Wasser- und Kohlenwasserstoff-Wassergemischen und -emulsionen
+W13_1_10	Y10 - Abfallstoffe und Erzeugnisse, die PCB und/oder PCT und/oder PBB enthalten
+W13_1_11	Y11 - Teerhaltige Abfälle, die bei der Raffination, Destillation und bei pyrolytischen Prozessen anfallen
+W13_1_12	Y12 - Abfälle aus der Herstellung, Zubereitung und Verwendung von Tinten, Farbstoffen, Pigmenten, Farben, Lacken und Firnissen
+W13_1_13	Y13 - Abfälle aus der Herstellung, Zubereitung und Verwendung von Harzen, Latex, Weichmachern, Klebstoffen/Adhäsiva
+W13_1_14	Y14 - Abfälle chemischer Stoffe, die bei Forschungs-, Entwicklungs- und Lehrtätigkeit anfallen und nicht identifiziert und/oder neu sind
+W13_1_15	Y15 - Abfälle explosiver Art, die keiner sonstigen Rechtsvorschrift unterliegen
+W13_1_16	Y16 - Abfälle aus der Herstellung, Zubereitung und Verwendung von Fotochemikalien und Verarbeitungsmaterialien
+W13_1_17	Y17 - Abfälle aus der Oberflächenbehandlung von Metallen und Kunststoffen
+W13_1_18	Y18 - Rückstände aus der industriellen Abfallentsorgung
+W13_1_19	Sonstige gefährliche Abfälle, gemäss der nationalen Gliederung
+W14_1	Papier, Pappe und Papierprodukte
+W14_2	Glas (ohne Mehrwegflaschen im Umlauf)
+W14_3	Aluminium
+W14_4	Blei
+W14_5	Sonstige Nichteisenmetalle
+W14_6	Eisenmetalle
+W14_7	Kunststoffe
+W14_8	Verpackungen
+W14_8_1	Verpackungen, darunter: Papier und Pappe
+W14_8_2	Verpackungen, darunter: Glas (ohne Mehrwegflaschen im Umlauf)
+W14_8_3	Verpackungen, darunter: Kunststoffe
+W14_8_4	Verpackungen, darunter: Metalle
+W14_9	Sonstige Abfallströme
+W15_1_1	Deponien: Anzahl
+W15_1_1_1	Kontrollierte Deponien: Anzahl
+W15_1_2	Deponien: Gesamtfläche
+W15_1_2_1	Kontrollierte Deponien: Gesamtfläche
+W15_1_3	Deponien: Verbleibendes Fassungsvermögen
+W15_1_3_1	Kontrollierte Deponien: Verbleibendes Fassungsvermögen
+W15_1_4	Deponien: Jährliche Zufuhr
+W15_1_4_1	Kontrollierte Deponien: Jährliche Zufuhr
+W15_2_1	Verbrennungsanlagen: Anzahl
+W15_2_1_1	Verbrennungsanlagen mit Energiegewinn: Anzahl
+W15_2_2	Verbrennungsanlagen: Durchsatz
+W15_2_2_1	Verbrennungsanlagen mit Energiegewinn: Durchsatz
+W15_2_2_2	Verbrennungsanlagen mit Energiegewinn: erzeugte Energie
+W15_3_1	Behandlungsanlagen: Anzahl
+W15_3_2	Behandlungsanlagen: Durchsatz
+W15_4_1	Lagerung auf Dauer: Anzahl
+W15_4_2	Lagerung auf Dauer: Fassungsvermögen
+W15_5_1	Andere Abfallbehandlungs- und -beseitigungsanlagen: Anzahl
+W15_5_2	Andere Abfallbehandlungs- und -beseitigungsanlagen: Durchsatz
+MUC_0	Durch die Gemeinde oder in ihrem Aufrag gesammelte Siedlungsabfälle (1 000 T)
+MUC_1	Siedlungsabfälle aus Privathaushalten (1 000 T)
+MUC_2	Siedlungsabfälle (außer Haushalte) nach Herkunft (1 000 T)
+MUC_3	Durch kommunale Müllabfuhr bediente Bevölkerung (% der Bevölkerung)
+MU_1	Siedlungsabfälle: Verbrennung mit oder ohne Energiegewinnung (1 000 T)
+MU_2	Siedlungsabfälle: Deponierung (1 000 T)
+MU_3	Siedlungsabfälle: Behandlung, außer Verbrennung oder Deponierung (1 000 T)
+MUTP_0_1	Behandlungsanlagen insgesamt: Anzahl
+MUTP_0_2	Behandlungsanlagen insgesamt: jährlicher Durchsatz (1 000 T)
+MUTP_1_1	Deponien, Anzahl
+MUTP_1_2	Deponien, Durchsatz (1 000 T)
+MUTP_1_3	Deponien, tatsächliche Auslastung (1 000 T)
+MUTP_1_4	Deponien nicht kontrolliert, Anzahl
+MUTP_1_5	Deponien nicht kontrolliert, Durchsatz (1 000 T)
+MUTP_2_1	Verbrennungsanlagen: Anzahl
+MUTP_2_2	Verbrennungsanlagen: Durchsatz (1 000 T)
+MUTP_3_1	Andere Abfallbehandlungs- und -beseitigungsanlagen: Anzahl
+MUTP_3_2	Andere Abfallbehandlungs- und -beseitigungsanlagen, Durchsatz (1 000 T)
+IMU_0	Gesamtinvestitionen in Anlagen zur Behandlung und Deponierung von Siedlungsabfällen, Öffentlicher Sektor + Privater Sektor (Mio Landeswährung)
+IMU_1	Gesamtinvestitionen in Anlagen zur Behandlung und Deponierung von Siedlungsabfällen, Öffentlicher Sektor (Mio Landeswährung)
+IMU_1_1	Gesamtinvestitionen in Anlagen zur Behandlung und Deponierung von Siedlungsabfällenr, nationale Behörden (Öffentlicher Sektor) (Mio Landeswährung)
+IMU_1_2	Gesamtinvestitionen in Anlagen zur Behandlung und Deponierung von Siedlungsabfällen, regionale Behörden (Öffentlicher Sektor) (Mio Landeswährung)
+IMU_1_3	Gesamtinvestitionen in Anlagen zur Behandlung und Deponierung von Siedlungsabfällen, örtliche Behörden (Öffentlicher Sektor) (Mio Landeswährung)
+IMU_2	Gesamtinvestitionen in Anlagen zur Behandlung und Deponierung von Siedlungsabfällen, nationale Behörden (Öffentlicher Sektor) (Mio Landeswährung)
+HW_0	Gesamtaufkommen gefährlicher Abfälle (1 000 T)
+HW_1	Gefährliche Abfälle: Verbrennung mit oder ohne Energiegewinnung (1 000 T)
+HW_2	Gefährliche Abfälle: Deponierung, einschl. Verbrennungsrückstände (1 000 T)
+HW_3	Gefährliche Abfälle: Behandlung außer Verbrennung oder Deponierung (1 000 T)

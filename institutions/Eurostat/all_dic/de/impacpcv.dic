@@ -1,0 +1,14 @@
+TOTAL	Insgesamt
+DECR_CONS	Deutlicher Rückgang
+DECR_MOD	Leichter Rückgang
+SAME	Keine Veränderung
+INCR_MOD	Leichter Anstieg
+INCR_CONS	Deutlicher Anstieg
+UNK	Nicht relevant - nicht bekannt
+NEI	Negative Auswirkungen
+NOI	Keine Auswirkungen
+POI	Positive Auswirkungen
+NAPPLUNK	Nicht anwendbar/nicht bekannt
+SOI	Gewisse Auswirkungen
+SUI	Wesentliche Auswirkungen
+NAPPL	Nicht anwendbar

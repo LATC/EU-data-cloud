@@ -1,0 +1,15 @@
+A	Business information on enterprises
+B	Qualitative and structural information on the market
+C	International trade information
+D	Volume information related to the supply side
+E	Information about prices
+F	Information about service quality
+G	Information about the demand structure
+H	Technical infrastructure information
+X	General information
+VALUE	Value
+REF_YEAR	Reference year
+FLAGS	Flags
+LEVEL	Absolute level
+PCH_SAME	Percentage change compared to corresponding period of the previous year
+METH	Method of estimation

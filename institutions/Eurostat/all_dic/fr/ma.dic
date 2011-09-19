@@ -1,0 +1,16 @@
+MA_0	Total
+MA_1	Biomasse
+MA_1_1	Biomasse - alimentation humaine
+MA_1_2	Biomasse - alimentation pour animaux
+MA_1_3	Biomasse - animaux
+MA_1_4	Biomasse - forêts
+MA_1_5	Biomass - non consommable
+MA_2	Minéraux
+MA_2_1	Minéraux - minéraux pour la construction
+MA_2_2	Minéraux - minéraux pour l'industrie
+MA_2_3	Minéraux - minerais
+MA_3	Combustibles fossils
+MA_3_1	Combustibles fossils - charbon
+MA_3_2	Combustibles fossils - pétrole brut
+MA_3_3	Combustibles fossils - gaz naturel
+MA_3_4	Combustibles fossils - autres combustibles

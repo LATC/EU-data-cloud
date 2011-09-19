@@ -1,0 +1,24 @@
+TOTAL	Total
+SOL_FUEL	Combustibles solides (v2011 + v2012)
+HCOA_DER	Houille et dérivés solides 
+COKE	Coke
+SOL_FUEL_OTH	Autres combustibles solides
+LIQ_FUEL	Combustibles liquides
+COIL	Pétrole brut
+ROIL	Produits pétroliers raffinés
+PETROL	Tous produits pétroliers
+LPG	GPL
+DIESEL	Diesel
+GAS	Gaz (v2031 + v2032 + v2033 + v2034)
+GAS_NAT	Gaz naturel
+GAS_BFUR	Gaz de haut-fourneau
+GAS_COKE	Gaz de cokerie sidérurgique
+GAS_CONV	Gaz de convertisseur
+GAS_OTH	Autres gaz
+ELEC	Electricité
+ELEC_OTH	Electricité ou autres sources
+OTHER	Autres produits
+STEAM	Vapeur
+DLV_GAS_BFUR	Livraisons de gaz de haut-fourneau à l'extérieur
+DLV_GAS_CONV	Livraisons de gaz de convertisseur à l'extérieur
+ALTER	Energie alternative

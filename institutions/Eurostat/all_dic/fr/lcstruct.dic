@@ -1,0 +1,38 @@
+D1	Rémunération des salariés
+D11	Salaires et traitements (total)
+D111	Salaires et traitements (à l'exclusion de ceux des apprentis)
+D1111	Rémunération directe, primes et indemnités (à l'exclusion de ceux des apprentis)
+D11111	Rémunération directe, primes et indemnités versées lors de chaque paie (à l'exclusion de celles des apprentis)
+D11112	Rémunération directe, primes et indemnités non versées lors de chaque paie (à l'exclusion de celles des apprentis)
+D111121	Primes à périodicité fixe (à l'exclusion de celles des apprentis)
+D1112	Versements 'formation de patrimoine'
+D1113	Rémunérations pour journées non ouvrées et congés payés (à l'exclusion de ceux des apprentis)
+D1114	Salaires et traitements en nature (à l'exclusion de ceux des apprentis)
+D11141	Produits de l'entreprise
+D11142	Logement du personnel (à l'exclusion de ceux des apprentis)
+D11143	Voitures de société
+D11144	Options d'achat d'actions et plans d'achat d'actions
+D11145	Autres
+D112	Salaires et traitements des apprentis
+D12	Cotisations sociales à la charge de l'employeur (total)
+D121	Cotisations sociales effectives à la charge de l'employeur (à l'exclusion de celles des apprentis)
+D1211	Cotisations obligatoires de sécurité sociale
+D1212	Cotisations conventionnelles, contractuelles et volontaires de sécurité sociale
+D122	Cotisations sociales imputées à la charge des employeurs (à l'exclusion de celles des apprentis)
+D1221	Salaire garanti en cas de maladie
+D1222	Cotisations sociales imputées à la charge des employeurs au titre des pensions et des soins de santé
+D1222_00	Salaire garanti en cas de chômage partiel
+D1223	Versements effectués aux salariés qui quittent l'entreprise
+D1224	Autres cotisations sociales imputées à la charge des employeurs
+D1224_00	Cotisations sociales imputées à la charge des employeurs
+D123	Cotisations sociales relatives aux apprentis à la charge de l'employeur
+D2_TO_D5	Autres coûts de la main-d'oeuvre
+D2	Frais de formation professionnelle
+D3	Autres dépenses
+D4	Impôts
+D5	Subventions
+TWAGSAL	Salaires et traitements (total)
+DIREB	Rémunération directe et primes
+SS	Sécurité sociale payée par l'employeur
+OTHLC	Autres coûts de la main d'oeuvre
+SS_OTHLC	Sécurité sociale et autres coûts de la main d'oeuvre payée par l'employeur

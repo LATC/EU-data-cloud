@@ -1,0 +1,104 @@
+TOTAL	Total des marchandises transportées
+GT01	Produits de l'agriculture, de la chasse et de la forêt; poissons et autres produits de pêche
+GT011	Céréales
+GT012	Pommes de terre
+GT013	Betteraves à  sucre
+GT014	Autres légumes et fruits frais
+GT015	Produits sylvicoles et de l'exploitation forestière
+GT016	Plantes et fleurs vivantes
+GT017	Autres matières d'origine végétale
+GT018	Animaux vivants
+GT019	Lait brut de vache, brebis et chèvre
+GT01A	Autres matières premières d'origine animale
+GT01B	Produits de la pêche et de l'aquaculture
+GT02	Houille et lignite; pétrole brut et gaz naturel
+GT021	Houille et lignite
+GT022	Pétrole brut
+GT023	Gaz naturel
+GT03	Minerais métalliques et autres produits d'extraction; tourbe; minerais d'uranium et thorium
+GT031	Minerais de fer
+GT032	Minerais de métaux non ferreux (hors uranium et thorium)
+GT033	Minéraux (bruts) pour l'industrie chimique et engrais naturels
+GT034	Sel
+GT035	Pierre, sables, graviers, argiles, tourbe et autres produits d'extraction n.c.a.
+GT036	Minerais d'uranium et thorium
+GT04	Produits alimentaires, boissons et tabac
+GT041	Viandes, peaux et produits à  base de viandes
+GT042	Poissons et produits de la pêche, préparés
+GT043	Produits à  base de fruits et de légumes
+GT044	Huiles, tourteaux et corps gras
+GT045	Produits laitiers et glaces
+GT046	Farines, céréales transformées, produits amylacés et aliments pour animaux
+GT047	Boissons
+GT048	Autres produits alimentaires n.c.a. et tabac manufacturé (hors messagerie ou groupage alimentaire)
+GT049	Produits alimentaires divers et tabac manufacturé en messagerie ou groupage
+GT05	Textiles et produits textiles; cuir et articles en cuir
+GT051	Produits de l'industrie textile
+GT052	Articles d'habillement et fourrures
+GT053	Cuir, articles de voyages, chaussures
+GT06	Bois et produits du bois et du liège (hormis les meubles); vannerie et sparterie, pâte à papier, papier et articles en papier, produits imprimés ou supports enregistrés
+GT061	Produits du travail du bois et du liège (sauf meubles)
+GT062	Pâte à  papier, papiers et cartons
+GT063	Produits de l'édition, produits imprimés ou reproduits
+GT07	Coke et produits pétroliers raffinés
+GT071	Cokes et goudrons; agglomérés et combustibles solides similaires
+GT072	Produits pétroliers raffinés liquides
+GT073	Produits pétroliers raffinés gazeux, liquéfiés ou comprimés
+GT074	Produits pétroliers raffinés solides ou pâteux
+GT08	Produits chimiques et fibres synthétiques, produits en caoutchouc ou en plastique; produits des industries nucléaires
+GT081	Produits chimiques minéraux de base
+GT082	Produits chimiques organiques de base
+GT083	Produits azotés et engrais (hors engrais naturels)
+GT084	Matières plastiques de base et caoutchouc synthétique primaire
+GT085	Produits pharmaceutiques et parachimiques y inclus les pesticides et autres produits agrochimiques
+GT086	Produits en caoutchouc ou en plastique
+GT087	Produits des industries nucléaires
+GT09	Autres produits minéraux non métalliques
+GT091	Verre, verrerie, produits céramique et porcelaine
+GT092	Ciment, chaux et plâtre
+GT093	Autres matériaux de construction, manufacturés
+GT10	Métaux de base, produits du travail des métaux, sauf machines et matériels
+GT101	Produits sidérurgiques et produits de la transformation de l'acier (hors tubes et tuyaux)
+GT102	Métaux non ferreux et produits dérivés
+GT103	Tubes et tuyaux
+GT104	Eléments en métal pour la construction
+GT105	Chaudières, quincaillerie, armes et munitions et autres articles manufacturés en métal
+GT11	Machines et matériel n.c.a. machines de bureau et matériel informatique; machines et appareils électriques, n.c.a.; équipements de radio, télévision et communication; instruments médicaux, de précision et d'optique; montres, pendules et horloges
+GT111	Machines agricoles
+GT112	Appareils domestiques (électro-ménager blanc)
+GT113	Machines de bureau et matériel informatique
+GT114	Machines et appareils électriques n.c.a.
+GT115	Composants électroniques et appareils d'émission et de transmission
+GT116	Appareils de réception, enregistrement ou reproduction du son ou de l'image (électro-ménager brun)
+GT117	Instruments médicaux, de précision, d'optique et d'horlogerie
+GT118	Autres machines, machines-outils, armes et munitions et pièces
+GT12	Matériel de transport
+GT121	Produits de l'industrie automobile
+GT122	Autres matériels de transport
+GT13	Meubles et autres articles manufacturés n.c.a.
+GT131	Meubles
+GT132	Autres articles manufacturés
+GT14	Matières premières secondaires; déchets de voirie et autres déchets
+GT141	Ordures ménagères et déchets de voirie
+GT142	Autres déchets et matières premières secondaires
+GT15	Courrier, colis
+GT151	Courrier
+GT152	Messagerie, petits colis
+GT16	équipement et matériels utilisés dans le transport de marchandises
+GT161	Containers et caisses mobiles en service, vides
+GT162	Palettes et autres emballages en service, vides
+GT17	Marchandises transportées dans le cadre de déménagements (biens d'équipement ménager et mobilier de bureau), bagages et biens d'accompagnement des voyageurs; véhicules automobiles transportés pour réparation; autres biens non marchands n.c.a.
+GT171	Mobilier de déménagement
+GT172	Bagages et biens d'accompagnement des voyageurs
+GT173	Véhicules en réparation
+GT174	échafaudages
+GT175	Autres biens autres que des marchandises, n.c.a.
+GT18	Marchandises groupées: mélange de types de marchandises qui sont transportées ensemble
+GT180	Groupage de marchandises diverses
+GT19	Marchandises non identifiables; marchandises qui, pour une raison et pour une autre, ne peuvent pas être identifiées et ne peuvent donc pas être classées dans l'un des groupes 1 à 16.
+GT191	Marchandises de nature indéterminée en conteneurs et caisses mobiles
+GT192	Autres marchandises de nature indéterminée
+GT20	Autres marchandises, n.c.a.
+GT200	Autres biens non classés ailleurs
+NAP	Non applicable
+UNK	Inconnu

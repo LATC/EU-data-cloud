@@ -1,0 +1,25 @@
+TOTAL	Total
+HHC_10	Children (living with other adults)
+HHC_20	Single adult - total
+HHC_21	Single adult with children
+HHC_22	Single adult without children
+HHC_30	Couple - total
+HHC_31	Couple with children
+HHC_32	Couple without children
+HIC_30	Adult living in a couple - total
+HIC_31	Adult living in a couple with children
+HIC_32	Adult living in a couple without children
+HHC_40	Other type of household - total
+HHC_41	Other type of household with children
+HHC_42	Other type of household without children
+HIC_40	Adult living in another type of household - total
+HIC_41	Adult living in another type of household with children
+HIC_42	Adult living in another type of household without children
+HHC_50	Total of adults
+HHC_51	Adult (total) with children
+HHC_52	Adult (total) without children
+HWC_50	Total of households with adults
+HWC_51	Total of households with adults and children
+HWC_52	Total of households with adults and without children
+NRESP	No response
+UNK	Unknown

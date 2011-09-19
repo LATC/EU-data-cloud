@@ -1,0 +1,22 @@
+LTEU1Y	Loans to enterprises up to 1 year
+LTEO1Y	Loans to enterprises over 1 year
+BO	Bank overdraft
+CLTH	Consumer loans to households
+HLTH	Housing loans to households
+OTH	Other loans
+COTH	Consumer credit and other loans to households
+OVDEP	Overnight deposits
+DAMU1Y	Deposits with agreed maturity up to 1 year
+DAMO1Y	Deposits with agreed maturity over 1 year
+DAMU2Y	Deposits with agreed maturity up to 2 years
+DAMO2Y	Deposits with agreed maturity over 2 years
+DRNU3M	Deposits redeemable at notice up to 3 months
+DRNO3M	Deposits redeemable at notice over 3 months
+LENR	Other lending rates
+DEPR	Other deposit rates
+DTEU1Y	Deposits to enterprises up to 1 year
+DAM	Deposits with agreed maturity
+DRN	Deposits redeemable at notice
+DRP	Deposits repos
+LTH	Loans to households
+LTE	Loans to enterprises

@@ -1,0 +1,20 @@
+B_MD40	En-dessous 40% du revenu équivalent médian
+A_MD40	Au-dessus 40% du revenu équivalent médian
+B_MD50	En-dessous 50% du revenu équivalent médian
+A_MD50	Au-dessus 50% du revenu équivalent médian
+B_MD60	En-dessous 60% du revenu équivalent médian
+A_MD60	Au-dessus 60% du revenu équivalent médian
+B_MD70	En-dessous 70% du revenu équivalent médian
+A_MD70	Au-dessus 70% du revenu équivalent médian
+B_M40	En-dessous 40% du revenu équivalent moyen
+A_M40	Au-dessus 40% du revenu équivalent moyen
+B_M50	En-dessous 50% du revenu équivalent moyen
+A_M50	Au-dessus 50% du revenu équivalent moyen
+B_M60	En-dessous 60% du revenu équivalent moyen
+A_M60	Au-dessus 60% du revenu équivalent moyen
+Q0_20	Premier quintile du revenu équivalent
+Q20_40	Second quintile du revenu équivalent
+Q40_60	Troisième quintile du revenu équivalent
+Q60_80	Quatrième quintile du revenu équivalent
+Q80_100	Cinquième quintile du revenu équivalent
+TOTAL	Total

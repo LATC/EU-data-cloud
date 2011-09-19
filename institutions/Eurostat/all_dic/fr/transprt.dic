@@ -1,0 +1,9 @@
+TOTAL	Transport total
+TOT_GOOD	Total des marchandises chargées et déchargées
+LD_GOOD	Marchandises chargées
+UNLD_GOOD	Marchandises déchargées
+TRANSIT_GOOD	Marchandises en transit
+TOT_PASS	Total des passagers embarqués et débarqués
+EMB_PASS	Passagers embarqués
+DISEMB_PASS	Passagers débarqués
+TRANSIT_PASS	Passagers en transit

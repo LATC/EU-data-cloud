@@ -1,0 +1,9 @@
+YES	Groupe d'enterprises
+NO	Pas de groupe d'entreprises
+TOT	Toutes les entreprises (groupe d'entreprises ou pas)
+GR_HD	Tête de groupe
+G_GR_HD	Tête de groupe mondial
+SUB	Filiale
+SUB_OWNC	Filiale avec tête de groupe mondial dans son propre pays
+SUB_IN_27	Filiale avec tête de groupe mondial dans l'UE-27
+SUB_EX_27	Filiale avec tête de groupe mondial hors de l'UE-27

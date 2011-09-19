@@ -1,0 +1,15 @@
+TOTAL	Total
+PC0	Zéro pour cent
+PC0-9	De 0 (0 exclu) à 9 pour cent
+PC1-10	De 1 à 10 pour cent
+PC10-24	De 10 à 24 pour cent
+PC11-20	De 11 à 20 pour cent
+PC21-40	De 21 à 40 pour cent
+PC25-49	De 25 à 49 pour cent
+PC_GT40	Plus de 40 pour cent
+PC_LT50	Moins de 50 pour cent
+PC50-74	De 50 à 74 pour cent
+PC75-89	De 75 à 89 pour cent
+PC_GE75	75 pour cent ou plus
+PC90-99	De 90 à 99 pour cent
+PC100	100 pour cent

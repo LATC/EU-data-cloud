@@ -1,0 +1,184 @@
+TOTAL	Insgesamt (alle Währungen)
+EUR	Euro (ab 1.1.1999)/Ecu (bis zum 31.12.1998)
+1000EUR	Tausend Euro (ab 1.1.1999)/Tausend Ecu (bis zum 31.12.1998)
+MIO_EUR	Millionen Euro (ab 1.1.1999)/Millionen Ecu (bis zum 31.12.1998)
+ATS	Österreichischer Schilling
+BEF	Belgischer Franc
+BLF	Belgischer Franc/Luxemburgischer Franc
+BGN	Lew
+CYP	Zypern-Pfund
+CZK	Tschechische Krone
+DEM	Deutsche Mark
+DKK	Dänische Krone
+EEK	Estnische Krone
+ESP	Spanische Peseta
+FIM	Finnmark
+FRF	Französischer Franc
+GBP	Pfund Sterling
+GRD	Griechische Drachme
+HUF	Forint
+IEP	Irisches Pfund
+ITL	Italienische Lira
+LTL	Litas
+LUF	Luxemburgischer Franc
+LVL	Lats
+MTL	Maltesische Lira
+NLG	Niederländischer Gulden
+PLN	Zloty
+PTE	Portugiesischer Escudo
+RON	Rumänischer Leu
+SEK	Schwedische Krone
+SIT	Slowenischer Tolar
+SKK	Slowakische Krone
+CHF	Schweizer Franken
+ISK	Isländische Krone
+NOK	Norwegische Krone
+HRK	Kuna
+MKD	Denar
+TRY	Türkische Lira
+AED	VAE-Dirham
+AFN	Afghani
+ALL	Lek
+AMD	Dram
+ANG	Antillen-Gulden
+AOA	Kwanza
+ARS	Argentinischer Peso
+AUD	Australischer Dollar
+AWG	Aruba-Gulden
+AZN	Aserbaidschan-Manat
+BAM	Konvertierbarer Mark
+BDT	Taka
+BHD	Bahrain-Dinar
+BIF	Burundi-Franc
+BMD	Bermuda- Dollar
+BND	Brunei-Dollar
+BOB	Boliviano
+BRL	Real
+BSD	Bahama-Dollar
+BTN	Ngultrum
+BWP	Pula
+BYR	Belarussischer Rubel
+BZD	Belize-Dollar
+CAD	Kanadischer Dollar
+CDF	Kongo-Franc
+CLP	Chilenischer Peso
+CNY	Renminbi Yuan
+COP	Kolumbianischer Peso
+CRC	Costa-Rica-Colón
+CUP	Kubanischer Peso
+CVE	Kap-Verde-Escudo
+DJF	Dschibuti-Franc
+DOP	Dominikanischer Peso
+DZD	Algerischer Dinar
+EGP	Ägyptisches Pfund
+ERN	Nakfa
+ETB	Birr
+FJD	Fidschi-Dollar
+FKP	Falkland-Pfund
+GEL	Lari
+GHS	Ghana Cedi
+GIP	Gibraltar-Pfund
+GMD	Dalasi
+GNF	Guinea-Franc
+GTQ	Quetzal
+GYD	Guyana-Dollar
+HKD	Hongkong-Dollar
+HNL	Lempira
+HTG	Gourde
+IDR	Rupiah
+ILS	Schekel
+INR	Indische Rupie
+IQD	Irak-Dinar
+IRR	Iranischer Rial
+JMD	Jamaika-Dollar
+JOD	Jordan-Dinar
+JPY	Yen
+KES	Kenia-Schilling
+KGS	Som
+KHR	Riel
+KMF	Komoren-Franc
+KPW	nordkoreanischer Won
+KRW	südkoreanischer Won
+KWD	Kuwait-Dinar
+KYD	Kaiman-Dollar
+KZT	Tenge
+LAK	Kip
+LBP	Libanesisches Pfund
+LKR	Sri-Lanka-Rupie
+LRD	Liberianischer Dollar
+LSL	Loti
+LYD	Libyscher Dinar
+MAD	Marokkanischer Dirham
+MDL	Moldau-Leu
+MGA	Ariary
+MMK	Kyat
+MNT	Tugrik
+MOP	Pataca
+MRO	Ouguiya
+MUR	Mauritius-Rupie
+MVR	Rufiyaa
+MWK	Malawi-Kwacha
+MXN	Mexikanischer Peso
+MYR	Ringgit
+MZN	Metical
+NAD	Namibia-Dollar
+NGN	Naira
+NIO	Córdoba Oro
+NPR	Nepalesische Rupie
+NZD	Neuseeländischer Dollar
+OMR	Rial Omani
+PAB	Balboa
+PEN	Nuevo Sol
+PGK	Kina
+PHP	Philippinischer Peso
+PKR	Pakistanische Rupie
+PYG	Guarani
+QAR	Katar-Riyal
+RSD	Serbischer Dinar
+RUB	Russischer Rubel
+RWF	Ruanda-Franc
+SAR	Riyal
+SBD	Salomonen-Dollar
+SCR	Seychellen-Rupie
+SDG	sudanesisches Pfund
+SGD	Singapur-Dollar
+SHP	St. Helena-Pfund
+SLL	Leone
+SOS	Somalia-Schilling
+SRD	Suriname-Dollar
+STD	Dobra
+SVC	El-Salvador-Colón
+SYP	Syrisches Pfund
+SZL	Lilangeni
+THB	Baht
+TJS	Somoni
+TMT	Turkmenistan-Manat
+TND	Tunesischer Dinar
+TOP	Tonga Pa'anga
+TTD	Trinidad-und-Tobago-Dollar
+TZS	Tansania-Schilling
+UAH	Griwna
+UGX	Uganda-Schilling
+USD	US-Dollar
+UYU	Uruguayischer Peso
+UZS	Sum
+VEF	Bolivar fuerte
+VND	Dong
+VUV	Vatu
+WST	Tala
+XAF	CFA-Franc (BEAC)
+XCD	Ostkaribischer Dollar
+XOF	CFA-Franc (BCEAO)
+YER	Jemen-Rial
+ZAR	Rand
+ZMK	Sambischer Kwacha
+ZWL	Simbabwe-Dollar
+XDR	Sonderziehungsrechte
+PPS	Kaufkraftstandard (KKS)
+PC	Prozentsatz
+NAC	Landeswährung (einschließlich der 'Eurofix'-Zeitreihen für die Länder des Euroraums)
+MIO_NAC	Millionen Einheiten Landeswährung (einschließlich der 'Eurofix'-Zeitreihen für die Länder des Euroraums)
+NAT	Landeswährung (einschließlich der früheren Währungen des Euroraums)
+FOR	Ausländische Währung
+OTH	Sonstige Währungen
+NAP	Nicht anwendbar

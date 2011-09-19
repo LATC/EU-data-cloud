@@ -1,0 +1,277 @@
+0000	Alle Produkte
+2000	Feste Brennstoffe
+2100	Steinkohle und Nebenprodukte
+2110	Steinkohle und Steinkohlenbriketts
+2111	Steinkohle
+2112	Steinkohlenbriketts
+2115	Anthrazit
+2116	Kokskohle
+2117	Bituminöse Kohle
+2118	Subbituminöse Kohle
+2120	Koks
+2121	Kokereikoks
+2122	Gaskoks
+2130	Benzol
+2200	Braunkohle und Nebenprodukte
+2210	Braunkohle
+2211	Ältere Braunkohle
+2212	Jüngere Braunkohle
+2220	Braunkohlenkoks
+2230	Braunkohlenbriketts
+2310	Torf
+3000	Rohöl und Mineralölerzeugnisse
+3100	Rohöl, Feedstocks und sonstige Kohlenwasserstoffe
+3105	Rohöl
+3106	Erdgaskondensate
+3110	Rohöl und Erdgaskondensate
+3150	Raffinierte flüssige Erdölprodukte
+3190	Feedstocks und sonstige Kohlenwasserstoffe
+3191	Feedstocks
+3192	Zusatzstoffe/Oxigenate
+3193	Sonstige Kohlenwasserstoffe
+3200	Alle Mineralölerzeugnisse
+3205	Flüssig- und Raffineriegas
+3210	Raffineriegas und ethan
+3214	Raffineriegas (nicht verflüssigt)
+3215	Ethan
+3220	LPG
+3225	Flüssiggaskraftstoffe
+3230	Motorenbenzin und Flugbenzin
+3234	Motorenbenzin
+3235	Flugbenzin
+3236	Ottokraftstoffe
+3237	Superbenzin
+3238	Bleifrei Superbenzin 95 Ron
+3240	Petroleum und Flugturbinenkraftstoffe
+3244	Sonstiges Kerosin
+3246	Flugturbinenkraftstoff
+3247	Flugturbinenkraftstoff auf Petroleumbasis
+3250	Naphtha
+3260	Dieselöl/Gasöl
+3265	Kraftfahrzeug-Diesel
+3266	Heizöl und sonstiges Gasöl
+3270	Rückstandsheizöle
+3270A	Heizöle
+3271	Heizöl mit einem Schwefelgehalt < 1 %
+3272	Heizol mit einem Schwefelgehalt >= 1 %
+3280	Andere Mineralölerzeugnisse
+3281	Testbenzin und Industriebrennstoffe
+3282	Schmierstoffe
+3283	Bitumen
+3285	Petrolkoks
+3286	Paraffinwachse
+3290	Sonstige Mineralölerzeugnisse
+3295	Andere Erzeugnisse
+4000	Gas
+4100	Naturgas
+4200	Abgeleitete Gase
+4210	Kokereigas
+4220	Hochofengas
+4230	Ortsgas
+4240	Konvertergas
+5100	Kernenergie
+5200	Abgeleitete Wärme
+5500	Erneuerbare Energien
+5510	Wasserkraftenergie
+5520	Windenergie
+5530	Solarenergie
+5532	Thermische Sonnenenergie
+5534	Fotovoltaische Energie
+5535	Gezeiten-/ Wellen-/Meeresenergie
+5540	Biomasse und erneuerbare Abfälle
+5541	Holz und Holzabfälle
+55411	Holz
+55412	Sonstige Bioabfälle
+55413	Holzabfälle
+55414	Schwarzlauge
+55415	Sonstige feste Abfälle
+5542	Biogas
+55421	Deponiegas
+55422	Klärschlammgas
+55423	Sonstige Biogase
+5543	Hausmüll
+55431	Hausmüll (erneuerbare)
+55432	Hausmüll (nicht erneuerbare)
+5544	Holzkohle
+5545	Biotreibstoff
+5546	Biobenzin
+5546R	Biobenzin (Kapazität)
+5547	Biodiesel
+5547R	Biodiesel (Kapazität)
+5548	Sonstige flüssige Biobrennstoffe
+5550	Geothermische Energie
+6000	Elektrizität
+7100	Industrieabfälle
+9000	Infrastruktur
+9004	Fläche der Solaranlagen
+9007	Elektrische leistung
+9999	Sonstige Produkte
+010000	GETREIDE (einschließlich Saatgut)
+011000	Weizen und Spelz
+011100	Weichweizen und Spelz
+011200	Hartweizen
+012000	Roggen und Wintermenggetreide
+013000	Gerste
+013100	Futtergerste
+013200	Braugerste
+014000	Hafer und Sommermenggetreide
+015000	Körnermais
+016000	Reis
+019000	Sonstiges Getreide
+020000	HANDELSGEWÄCHSE
+021000	Ölsaaten und Ölfrüchte (einschl. Saatgut)
+021100	Raps und Rübsensamen
+021200	Sonnenblumenkerne
+021300	Soyabohnen
+021900	Übrige Ölsaaten
+022000	Proteingewächse (einschl.Saatgut)
+023000	Rohtabak
+024000	Zuckerrüben
+029000	Sonstige Handelsgewächse
+029100	Textilplanzen
+029200	Hopfen
+029900	Sonstige Handelsgewächse : sonstige
+030000	FUTTERPFLANZEN
+031000	Grünmais
+032000	Hackfrüchte Futterpflanzen (einschl.Futterrüben)
+039000	Sonstige Futterpflanzen
+039100	Heu
+039200	Stroh
+039300	Silage
+039900	Sonstige Futterpflanzen: Sonstige
+040000	ERZEUGNISSE DES GEMÜSE- UND GARTENBAUS
+041000	Frischgemüse
+041100	Blumenkohl
+041200	Tomaten
+041900	Sonstiges Frischgemüse
+041910	Kohl
+041920	Salat
+041930	Spinat
+041940	Gurken
+041950	Karotten und Speisemöhren
+041960	Zwiebeln
+041970	Grüne Bohnen
+041980	Hülsenfrüchte
+041990	Erbsen
+041999	Sonstiges Frischgemüse: Sonstige
+042000	Pflanzen und Blumen
+050000	KARTOFFELN (einschl. Pflanzkartoffeln)
+051000	Speisekartoffeln
+051100	Frühkartoffeln
+051200	Spätkartoffeln
+052000	Pflanzkartoffeln
+059000	Sonstige Kartoffeln
+060000	OBST
+061000	Frischobst (ohne Zitrusfrüchte und Weintrauben)
+061100	Tafeläpfel
+061200	Tafelbirnen
+061300	Pfirsiche
+061900	Sonstiges Frischobst, Nüsse und Trockenfrüchte
+061910	Kirschen
+061920	Pflaumen
+061930	Erdbeeren
+061940	Nüsse und Trockenfrüchte
+061941	Nüsse
+061942	Trockenfrüchte
+061990	Sonstiges Frischobst: Sonstiges
+062000	Zitrusfrüchte
+062100	Orangen
+062200	Mandarinen
+062300	Zitronen
+062900	Sonstige Zitrusfrüchte
+063000	Tropische Früchte
+064000	Weintrauben
+064100	Tafeltrauben
+064900	Sonstige Trauben, frisch
+065000	Oliven
+065100	Tafeloliven
+065900	Sonstige Oliven
+070000	WEIN (einschl. Most)
+071000	Tafelwein
+071100	Vin de pays oder Vinho regional oder Vino de la tierra
+071900	Sonstiger Tafelwein
+072000	Qualitätswein
+079000	Sonstiger Wein
+080000	Olivenöl
+090000	SONSTIGE PFLANZLICHE ERZEUGNISSE
+091000	Korb- und Flechtmaterialien
+092000	Saat- und Pflanzgut
+099000	Sonstige pflanzliche Erzeugnisse: Sonstige
+100000	PFLANZLICHE ERZEUGUNG (010000 BIS 090000) einschl. Obst (060000) und Gemüse (040000)
+101000	PFLANZLICHE ERZEUGUNG (010000 BIS 090000) ohne Obst (060000) und Gemüse (040000)
+110000	TIERE
+111000	Rinder
+111100	Rinder ohne Kälber
+111200	Kälber
+112000	Schweine
+113000	Einhufer
+114000	Schafe und Ziegen
+115000	Geflügel
+115100	Hähnchen
+115900	Sonstiges Geflügel
+119000	Sonstige Tiere
+120000	TIERISCHE ERZEUGNISSE
+121000	Milch
+121100	Kuhmilch
+121900	Sonstige Milchsorten
+122000	Eier
+129000	Sonstige tierische Erzeugnisse
+130000	TIERISCHE ERZEUGUNG (110000+120000)
+140000	ERZEUGUNG LANDWIRTSCHAFTLICHER PRODUKTE (100000+130000) einschl. Obst (060000) und Gemüse (040000)
+141000	ERZEUGUNG LANDWIRTSCHAFTLICHER PRODUKTE (10100+130000) ohne Obst (060000) und Gemüse (040000)
+200000	WAREN UND DIENSTLEISTUNGEN DES LAUFENDEN LANDWIRTSCHAFTLICHEN VERBRAUCHS (INPUT 1)
+201000	SAAT- UND PFLANZGUT
+202000	ENERGIE SCHMIERSTOFFE
+202100	Strom
+202200	Heizstoffe
+202300	Treibstoffe
+202400	Schmierstoffe
+203000	DÜNGE- UND BODENVERBESSERUNGSMITTEL
+203100	Einnährstoffdünger
+203110	Stickstoffdünger
+203120	Phosphatdünger
+203130	Kalidünger
+203200	Mehrnährstoffdünger
+203210	NP-Dünger
+203220	PK-Dünger
+203230	NPK-Dünger
+203900	Sonstige Dünge- und Bodenverbesserungsmittel
+204000	PFLANZENSCHUTZ-UND SCHÄDLINGSBEKÄMPFUNGSMITTEL
+204100	Fungizide
+204200	Insektizide
+204300	Herbizide
+204900	Sonstige Pflanzenschutzmittel
+205000	TIERARZT UND MEDIKAMENTE
+206000	FUTTERMITTEL
+206100	Einzelfuttermittel
+206110	Getreide und Mühlennachprodukte
+206120	Ölkuchen
+206130	Futtermittel tierischer Herkunft
+206190	Sonstige Einzelfuttermittel
+206200	Mischfuttermittel
+206210	Mischfuttermittel für Kälber
+206220	Mischfuttermittel für Rinder ohne Kälber
+206230	Mischfuttermittel für Schweine
+206240	Mischfuttermittel für Geflügel
+206290	Sonstige Mischfuttermittel
+207000	INSTANDHALTUNG VON MASCHINEN UND GERÄTEN
+208000	INSTANDHALTUNG VON BAUTEN
+209000	SONSTIGE WAREN UND DIENSTLEISTUNGEN
+210000	WAREN UND DIENSTLEISTUNGEN LANDWIRTSCHAFTLICHER INVESTITIONEN (INPUT 2)
+211000	MATERIAL
+211100	MASCHINEN UND SONSTIGE AUSRÜSTUNGSGÜTER
+211110	Einachsschlepper und andere einachsige Motorgeräte
+211120	Maschinen und Geräte für die Bodenbearbeitung
+211130	Maschinen und Geräte für die Erntebergung
+211140	Maschinen und Einrichtungen der Innenwirtschaft
+211141	Maschinen und Einrichtungen der Innenwirtschaft für die pflanzliche Erzeugung
+211142	Maschinen und Einrichtungen der Innenwirtschaft für die tierische Erzeugung
+211149	Sonstige Maschinen und Einrichtungen der Innenwirtschaft
+211200	FAHRZEUGE
+211210	Zugmaschinen
+211290	Sonstige Fahrzeuge
+212000	BAUTEN
+212100	WIRTSCHAFTSGEBÄUDE (KEINE WOHNGEBÄUDE)
+212900	SONSTIGE BAUTEN UND BAULICHE EINRICHTUNGEN (OHNE BODENVERBESSERUNGEN)
+219000	SONSTIGE
+220000	Gesamtinput (Input 1 + Input 2)

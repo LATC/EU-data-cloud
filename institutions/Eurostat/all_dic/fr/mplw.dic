@@ -1,0 +1,8 @@
+000_060	0 - 6 tonnes
+061_100	6.1 - 10.0 tonnes
+101_200	10.1 - 20.0 tonnes
+201_300	20.1 - 30.0 tonnes
+301_400	30.1 - 40.0 tonnes
+GE_401	> 40.0 tonnes
+UNK	Inconnu
+TOTAL	Total

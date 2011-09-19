@@ -1,0 +1,29 @@
+TOTAL	Alle Sektoren
+BES	Unternehmenssektor
+REG	Regionale/Sektormittel
+NAT	Nationale Mittel
+SPE	Spezifische nationale Maßnahme
+EUS	EU-Quellen
+GOV	Staat
+GOV_REB	Staatliche Rabatte für Ausgaben
+GOV_GUF	Staat - Allgemeine Universitätsmittel
+GOV_DIR	Staat - Unmittelbar
+HES	Hochschulsektor
+PNP	Private Organisationen ohne Erwerbszweck
+HES_AND_PNP	Hochschulsektor und private Organisationen ohne Erwerbszweck
+TAX	Steuervergünstigungen für Ausgaben
+EXT	Externe finanzielle Unterstützung aus nicht-staatlichen Quellen
+PAYTR	Zahlung von Lizenzgebühren von externen Einrichtungen/Personen für die Nutzung von Weiterbildungsressourcen
+PAYC	Zahlungen von externen Einrichtungen/Personen für die Nutzung von Weiterbildungsressourcen
+ABR	Ausland
+ABR_PRIVATE	Ausland - Private Sektor
+ABR_BES	Ausland - Unternehmenssektor
+ABR_PNP	Ausland - Private Organisationen ohne Erwerbszweck
+ABR_PUBLIC	Ausland - Staatlicher Sektor
+ABR_GOV	Ausland - Staat
+ABR_HES	Ausland - Hochschulsektor
+ABR_EC	Ausland - Europaïsche Kommission
+ABR_INT	Ausland - Internationale Organisationen
+ABR_OTHER	Ausland - Sonstige
+ABR_BES_GROUP	Ausland - Unternehmen innerhalb der gleichen Gruppe
+ABR_BES_OTH	Ausland - Unternehmen ausserhalb der Gruppe

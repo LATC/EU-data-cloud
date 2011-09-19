@@ -1,0 +1,48 @@
+POP	Bevölkerung insgesamt
+ACT	Erwerbspersonen
+EMP_W	Erwerbstätige, zuvor gearbeitet
+EMP	Erwerbstätige
+EMP_FT	Vollzeitbeschäftigte
+EMP_PT	Teilzeitbeschäftigte
+LEAV	Vorübergehend beurlaubte Erwerbstätige
+SAL	Arbeitnehmer
+SAL_PERM	Arbeitnehmer mit einer unbefristeten Arbeitsstelle
+SAL_TEMP	Arbeitnehmer mit einer befristeten Arbeitsstelle
+MW_IS	Arbeiter in der Industrie und im Dienstleistungsbereich
+NMW_IS	Angestellte in der Industrie und im Dienstleistungsbereich
+NSAL	Erwerbstätige ausgenommen Arbeitnehmer
+SELF	Selbstständige
+SELF_S	Selbständige mit Arbeitnehmern (Arbeitgeber)
+SELF_NS	Selbständige, die keine Arbeitnehmer beschäftigen
+CFAM_COOP	Mithelfende Familienangehörige und Mitglieder von Erzeugergenossenschaften
+CFAM	Mithelfende Familienangehörige
+NCFAM	Erwerbstätige ausgenommen mithelfende Familienangehörige
+COOP	Mitglieder von Erzeugergenossenschaften
+EMP_OTH	Sonstige Erwerbstätige
+EMP_UNK	Erwerbstätige - unbekannt
+NEMP	Nicht erwerbstätige Personen
+UNE	Erwerbslose
+UNE_W	Erwerbslose, zuvor gearbeitet
+UNE_NW	Erwerbslose, zuvor nie gearbeitet
+ACT_UNK	Erwerbsbevölkerung - unbekannt
+INAC	Nichterwerbspersonen
+LT_MWA	Personen, die noch nicht das Mindestarbeitsalter erreicht haben
+INAC_GE65	Nichterwerbspersonen - 65 Jahre und mehr
+EDUC	Studenten
+ARM	Personen, die ihren allgemeinen Wehrdienst oder ihren Zivildienst ableisten
+HOME_IO	Hausfrauen und -männer und sonstige Nichterwerbspersonen
+HOME	Hausfrauen und -männer
+DIS	Behinderte Personen
+INC	Rentner und Empfänger von Kapitalerträgen
+RET	Rentner
+INAC_OTH	Sonstige Nichterwerbspersonen
+INAC_UNK	Nichterwerbspersonen - unbekannt
+OTH	Sonstige
+NAP	Nicht anwendbar
+NRP	Ohne Antwort
+UNK	Unbekannt
+WANT	Personen, die arbeiten möchten (suchen Arbeit oder nicht)
+NWANT	Personen, die nicht arbeiten möchten
+PRACT	Praktizierend
+PACT	Fachlich aktiv
+LIC	Approbiert

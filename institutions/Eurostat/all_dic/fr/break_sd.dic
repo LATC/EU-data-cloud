@@ -1,0 +1,80 @@
+TOTAL	Total
+TOT_EU25	Total UE-25
+TOT_EU15	Total UE-15
+SOC_INFR	Services d'infrastructures sociales
+EDUC_SERV	Services d'enseignement
+GOV_CIV	Gouvernement et société civile
+HLT_SERV	Services de santé
+OTH_INFR	Autres infrastructures sociales et services
+WATER_SS	Approvisionnement en eau et hygiène
+POP_PROG	Programmes de population
+ACT_DEB	Action en justice concernant les dettes
+SUPP_NGO	Support aux ONG
+ECON_INFR	Infrastructure économique et services
+EMR_ASS	Aide d'urgence
+MULTISEC	Multisectoriel/Horizontal
+PROD_SEC	Secteurs de production
+ADM_COST	Dépenses administratives des donneurs
+GEN_PROG	Aide de produits/Aide générale de programme
+NOT_SPEC	Non alloué/Non spécifié
+ERYTH	Erythromycine
+PNSP	Penicilline
+HLW	Déchets fortement radioactifs
+SFUDD	Combustible dépensé destiné à l'élimination directes
+EMAS	Système de management environnemental et d'audit
+ISO	Homologation ISO14001
+ODA	Aide officielle au développement
+FDI	Investissement direct à l'étranger
+GR_NGO	Subventions par des ONG
+PRIVF	Flux privés
+OTHOF	Autres flux officiels
+AGRI	Agriculture et pêche
+ENVIR	Environnement, santé et protection des consommateurs
+ENTR	Entreprises
+INFO	Recherche, information, éducation et statistiques
+COMP	Competition
+MARK	Marché intérieur
+JUST	Justice et affairesintérieures
+ENER	Energie et Transport
+EMPL	Emploi et affaires sociales
+CUST	Fiscalité et union douanière
+REGIO	Politique régionale
+ENLG	Élargissement
+EXT	Relations extérieures
+ECFIN	Économie et finances
+OTHER	Autres
+TOTCHEM	Production totale de substances chimiques
+TOTTOX	Substances chimiques toxiques totales
+CMR	Substances chimiques CMR
+CHRONIC	Substances chimiques toxiques chroniques
+VERY	Substances chimiques très toxiques
+TOXIC	Substances chimiques toxiques
+HARM	Substances chimiques néfastes
+ORG	Organisations
+SITE	Sites
+EU_VOTE	Elections européennes
+NAT_VOTE	Elections parlementaires nationales
+PC_TENV	Taxes environnementales
+PC_TLAB	Taxes sur le travail
+SHARE	Annual fellings as a share of net annual increment (%)
+INCRE	Net annual increment (1 000 m3 over bark)
+FELLG	Annual fellings (1 000 m3 over bark)
+EDUC	Education et culture
+HEALTH	Santé et protection sociale
+ESTAT	Eurostat
+HLY_F	Nombre d'années de vie - femmes
+HLY_M	Nombre d'années de vie - hommes
+LEXP_F	Espérance de vie - femmes
+LEXP_M	Espérance de vie - hommes
+INDUS	Entreprise et industrie
+IND	Industrie
+SERV	Services
+RELKYOTO	Relation vers 'Kyoto Protokoll'
+GROWTH	Taux de croissance
+VALUE	Valeurs absolues
+TOTHARM	Substances chimiques nocives pour l'environnement, total
+SEVERE	Substances chimiques avec impact environnemental chronique grave
+SIGNIF	Substances chimiques avec impact environnemental chronique significatif
+MDRT	Substances chimiques avec impact environnemental chronique modéré
+CHRNC	Substances chimiques avec impact environnemental chronique
+ACUTE	Substances chimiques avec impact environnemental aigu significatif

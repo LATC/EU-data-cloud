@@ -1,0 +1,15 @@
+GROSS	Données brutes
+NSA	Données non désaisonnalisées
+SA	Données désaisonnalisées
+MIX	Méthodes mixtes
+BV4	Méthode Berlin
+X11	Méthode Census-II X11
+X11A	Méthode Arima Census-II X11
+SEAT	Méthode d'extraction Signal
+SABL	Données désaisonnalisées avec SABL
+TREND	Tendance-cycle
+LT_SABL	Tendance à long terme avec SABL
+LT_SEATS	Tendance à long terme avec SEATS
+WDA	Données corrigées des jours ouvrables
+SWDA	Données désaisonnalisées et corrigées des jours ouvrables
+NOT_APP	Sans objet

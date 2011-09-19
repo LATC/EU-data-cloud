@@ -1,0 +1,562 @@
+KEY_01	Population, total
+KEY_01B	Population, taux de croissance (en %)
+KEY_02A	PIB (dollar US courant)
+KEY_02A_EU	PIB (courant en Euro)
+KEY_02A_NC	PIB (UML courante)
+KEY_02B	PIB (dollar US 2000 constant)
+KEY_02B_EU	PIB (constant en Euro)
+KEY_02B_NC	PIB (UML constante 2000)
+KEY_02C	PIB par habitant (dollar US courant)
+KEY_02C_EU	PIB par habitant (couranten Euro)
+KEY_02D	PIB par habitant (dollar US 2000 constant)
+KEY_02D_EU	PIB par habitant (constant 2000 en Euro)
+KEY_02D_NC	PIB par habitant (UML constante)
+KEY_03A	Croissance du PIB (annuel % - dollar US courant)
+KEY_03A_EU	PIB croissance (annuelle en % - Euro)
+KEY_03A_NC	Croissance du PIB (annuel % - UML constante)
+KEY_03B	PIB par habitant, croissance (annuelle en %)
+KEY_03B_EU	PIB par habitant, croissance (annuelle en % - en Euro)
+KEY_03B_NC	Croissance du PIB par habitant (annuel % - UML constante)
+KEY_04	Formation brute de capital (% du PIB )
+KEY_05	Exportations de biens et de services (% du PIB)
+KEY_06	Balance commerciale des biens totale (% du PIB)
+KEY_07	Balance des opérations courantes (% du PIB)
+KEY_08	Investissements directs étrangers, nets (% du PIB)
+KEY_09	Dettes extérieures (% du PIB)
+KEY_10	Service de la dette totale (% des exportations de biens et de services)
+KEY_11	Total des réserves en mois d'importations
+KEY_12A	Revenus (% du PIB)
+KEY_12B	Subventions (% du PIB)
+KEY_13	Dépenses (% du PIB)
+KEY_14	Excédent/ déficit de caisse (% du PIB)
+KEY_15	Hausse des prix à la consommation (taux de variation moyenne annuelle en %)
+KEY_16	Taux d'intérêrets : Courbes de rendement des bons gouvernementaux - long terme
+KEY_17	Taux de change  - Monnaie nationale par dollar US - moyenne de la période
+KEY_18	Lignes téléphoniques et abonnements de téléphone mobile par 100 habitants
+KEY_18A	Abonnés à la téléphonie mobile (pour 100 personnes)
+KEY_18B	Lignes téléphoniques (pour 100 personnes)
+KEY_19	Coût des procédures de démarrage d'entreprise (en % du RNB par habitant)
+KEY_20	Temps requis pour démarrer une entreprise (jours)
+KEY_21	Accès de la population rurale à une route toutes saisons (Rural Access Index)
+KEY_22	Taux d'électrification des ménages (% des ménages)
+3A101	PIB (dollar US 2000 constant)
+3A102	PIB (UML constant)
+3A103	PIB (UML courante)
+3A106	PIB par habitant (dollar US 2000 constant)
+3A107	PIB par habitant (UML constant)
+3A108	PIB par habitant, PPA ($ international 2000 constant)
+3A109	PIB, PPA ($ international 2000 constant)
+3A110	PIB, PPA ($ international courant)
+3A111	Revenu national brut (RNB) (UML constante)
+3A112	RNB (UML courante)
+3A113	RNB (dollar US courant)
+3A114	RNB par habitant, méthode Atlas (dollar US courant)
+3A201	Exportations de biens et de services (UML courante)
+3A202	Exportations de biens et de services (dollar US courant)
+3A203	Importations de biens et de services (UML courante)
+3A204	Importations de biens et de services (dollar US courant)
+3A301	Agriculture, valeur ajoutée (% du PIB)
+3A302	Agriculture, valeur ajoutée (UML courante)
+3A303	Agriculture, valeur ajoutée (dollar US courant)
+3A304	Industrie, valeur ajoutée (% du PIB)
+3A305	Industrie, valeur ajoutée (UML courante)
+3A306	Industrie, valeur ajoutée (dollar US courant)
+3A307	Ind. manufacturière, valeur ajoutée (UML courante)
+3A308	Ind. manufacturière, valeur ajoutée (dollar US courant)
+3A309	Services, etc., valeur ajoutée (% du PIB)
+3A310	Services, etc., valeur ajoutée (UML courante)
+3A311	Services, etc., valeur ajoutée (dollar US courant)
+3A401	Solde extérieur des biens et services (UML courante)
+3A402	Solde extérieur des biens et services (dollar US courant)
+3A704	Formation brute de capital (taux de croissance annuel % )
+3A705	Formation brute de capital (dollar US 2000 constant )
+3A706	Formation brute de capital (UML constant )
+3A707	Formation brute de capital (UML courant )
+3A708	Formation brute de capital (dollar US courant )
+3A709	Valeur ajoutée brute au coût des facteurs (UML courante)
+3A710	Valeur ajoutée brute au coût des facteurs (dollar US courant)
+3A501	Dette extérieure, totale (DOD, dollar US courant)
+3A502	Valeur actuelle de la dette (% des exportations de biens et de services)
+3A504	Service de la dette totale (SDT, dollar US courant)
+3A601	Dépenses de consommation finale, etc. (UML courante)
+3A602	Dépenses de consommation finale, etc. (dollar US courant)
+3A603	Dépenses publiques de consommation finale (UML courante)
+3A604	Dépenses publiques de consommation finale (dollar US courant)
+3A605	Dépenses de consommation finale des ménages, etc. (UML courante)
+3A606	Dépenses de consommation finale des ménages, etc. (dollar US courant)
+3A701	Formation brute de capital (UML courante)
+3A702	Formation brute de capital (dollar US courant)
+3A801	Taxes nettes sur les produits (UML courante)
+3A802	Taxes nettes sur les produits (dollar US courant)
+3B01	Indice de prix à la consommation (2000 = 100)
+1B100	Compte courant - Compte courant: net - (en millions de dollars US)
+1B110	Compte courant - Biens et services: nets - (en millions de dollars US)
+1B111	Compte courant - Biens: crédit - (en millions de dollars US)
+1B112	Compte courant - Biens: débit - (en millions de dollars US)
+1B113	Compte courant - Biens: nets - (en millions de dollars US)
+1B114	Compte courant - Services: crédit - (en millions de dollars US)
+1B115	Compte courant - Services: débit - (en millions de dollars US)
+1B116	Compte courant - Services: nets - (en millions de dollars US)
+1B117	Compte courant - Services - Transports: crédit - (en millions de dollars US)
+1B118	Compte courant - Services - Transports: débit - (en millions de dollars US)
+1B119	Compte courant - Services - Voyages: crédit - (en millions de dollars US)
+1B120	Compte courant - Services - Voyages: débit - (en millions de dollars US)
+1B131	Compte courant - Revenu: crédit - (en millions de dollars US)
+1B132	Compte courant - Revenu: débit - (en millions de dollars US)
+1B133	Compte courant - Revenu: net - (en millions de dollars US)
+1B140	Compte courant - Transferts courants: nets - (en millions de dollars US)
+1B141	Compte courant - Transferts courants: crédit - (en millions de dollars US)
+1B142	Compte courant - Transferts courants: débit - (en millions de dollars US)
+1B143	Compte courant - Transferts courants - Fonds transférés par des travailleurs: débit - (en millions de dollars US)
+1B144	Compte courant - Transferts courants - Fonds transférés par des travailleurs: crédit - (en millions de dollars US)
+1B145	Compte courant - Transferts courants - Autres transferts: crédit - (en millions de dollars US)
+1B146	Compte courant - Transferts courants - Autres transferts: débit - (en millions de dollars US)
+1B200	Compte de capital et d'opérations financières - Totaux: nets - (en millions de dollars US)
+1B201	Compte de capital et d'opérations financières - Compte de capital: net - (en millions de dollars US)
+1B202	Compte de capital et d'opérations financières - Transferts de capitaux: crédit - (en millions de dollars US)
+1B203	Compte de capital et d'opérations financières - Transferts de capitaux: débit - (en millions de dollars US)
+1B211	Compte de capital et d'opérations financières - Investissements directs à l'étranger: nets - (en millions de dollars US)
+1B212	Compte de capital et d'opérations financières - Investissements directs dans l'économie déclarante: nets - (en millions de dollars US)
+1B213	Compte de capital et d'opérations financières - Investissements directs: nets - (en millions de dollars US)
+1B221	Compte de capital et d'opérations financières - Investissements de portefeuille (avoirs): nets - (en millions de dollars US)
+1B222	Compte de capital et d'opérations financières - Investissements de portefeuille (engagements): nets - (en millions de dollars US)
+1B223	Compte de capital et d'opérations financières - Investissements de portefeuille: nets - (en millions de dollars US)
+1B231	Compte de capital et d'opérations financières - Avoirs de réserve - (en millions de dollars US)
+1B232	Compte de capital et d'opérations financières - Avoirs de réserve - Devises - (en millions de dollars US)
+1B233	Compte de capital et d'opérations financières - Avoirs de réserve - Or monétaire - (en millions de dollars US)
+1B234	Compte de capital et d'opérations financières - Avoirs de réserve - Position de réserve au FMI (en millions de dollars US)
+1B235	Compte de capital et d'opérations financières - Avoirs de réserve - Droits de tirage spéciaux: nets - (en millions de dollars US)
+1B241	Compte de capital et d'opérations financières - Autres investissements - Avoirs: nets - (en millions de dollars US)
+1B242	Compte de capital et d'opérations financières - Autres investissements - Engagements: nets - (en millions de dollars US)
+1B243	Compte de capital et d'opérations financières - Autres investissements: nets - (en millions de dollars US)
+2A11	Taux de change  - Monnaie nationale par  DTS - fin de la période
+2A12	Taux de change  - DTS par monnaie nationale - fin de la période
+2A13	Taux de change  - Monnaie nationale par dollar US - fin de la période
+2A14	Taux de change  - Dollar US par monnaie nationale - fin de la période
+2A22	Taux de change  - Dollar US par monnaie nationale - moyenne de la période
+2B01	Enquête monétaire - Crédit intérieur (en millions de monnaie nationale)
+2B02	Enquête monétaire - Créances sur d'autres secteurs nationaux non gouvernementaux - Secteur privé (en millions de monnaie nationale)
+2B03	Enquête monétaire - Monnaie (en millions de monnaie nationale)
+2B04	Enquête monétaire - Quasi-monnaie (en millions de monnaie nationale)
+2B05	Enquête monétaire - Autres positions (net) (en millions de monnaie nationale)
+5A100	Finances publiques - Encaissements venant des activités d'exploitation (en millions de monnaie nationale)
+5A101	Finances publiques -  Subventions d'investissement reçus (en millions de monnaie nationale)
+5A200	Finances publiques -  Paiements au comptant pour des activités d'exploitation (en millions de monnaie nationale)
+5A300	Finances publiques -  Excédent/ déficit de caisse (en millions de monnaie nationale)
+2B06	Banques de dépôts - Avoirs étrangers (en millions de monnaie nationale)
+2B07	Banques de dépôts - Engagements étrangers (en millions de monnaie nationale)
+0A100	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, en 1000iers)
+0A101	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 0 à 4 ans, en 1000iers
+0A102	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 0 à 14 ans, en 1000iers
+0A103	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 0 à 17 ans, en 1000iers
+0A104	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 0 à 19 ans, en 1000iers
+0A105	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 0 à 24 ans, en 1000iers
+0A106	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 5 à 14 ans, en 1000iers
+0A107	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 6 à 11 ans, en 1000iers
+0A108	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 12 à 14 ans, en 1000iers
+0A109	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 15 ans et plus, en 1000iers
+0A110	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 15 à 17 ans, en 1000iers
+0A111	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 15 à 24 ans, en 1000iers
+0A112	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 15 à 49 ans, en 1000iers
+0A113	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 15 à 59 ans, en 1000iers
+0A114	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 15 à 64 ans, en 1000iers
+0A115	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 18 ans et plus, en 1000iers
+0A116	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 18 à 23 ans, en 1000iers
+0A117	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 20 ans et plus, en 1000iers
+0A118	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 20 à 64 ans, en 1000iers
+0A119	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 20 à 64 ans, en 1000iers
+0A120	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 25 ans et plus, en 1000iers
+0A121	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 25 à 69 ans, en 1000iers
+0A122	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 50 ans et plus, en 1000iers
+0A123	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 60 ans et plus, en 1000iers
+0A124	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 65 ans et plus, en 1000iers
+0A125	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 70 ans et plus, en 1000iers
+0A126	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 75 ans et plus, en 1000iers
+0A127	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 80 ans et plus, en 1000iers
+0A128	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 85 ans et plus, en 1000iers
+0A129	Population totale, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 90 ans et plus, en 1000iers
+0A200	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, en 1000iers
+0A201	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 0 à 4 ans, en 1000iers
+0A202	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 0 à 14 ans, en 1000iers
+0A203	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 0 à 17 ans, en 1000iers
+0A204	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 0 à 19 ans, en 1000iers
+0A205	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 0 à 24 ans, en 1000iers
+0A206	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 5 à 14 ans, en 1000iers
+0A207	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 6 à 11 ans, en 1000iers
+0A208	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 12 à 14 ans, en 1000iers
+0A209	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 15 ans et plus, en 1000iers
+0A210	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 15 à 17 ans, en 1000iers
+0A211	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 15 à 24 ans, en 1000iers
+0A212	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 15 à 49 ans, en 1000iers
+0A213	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 15 à 59 ans, en 1000iers
+0A214	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 15 à 64 ans, en 1000iers
+0A215	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 18 ans et plus, en 1000iers
+0A216	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 18 à 23 ans, en 1000iers
+0A217	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 20 ans et plus, en 1000iers
+0A218	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 20 à 64 ans, en 1000iers
+0A219	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 20 à 64 ans, en 1000iers
+0A220	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 25 ans et plus, en 1000iers
+0A221	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 25 à 69 ans, en 1000iers
+0A222	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 50 ans et plus, en 1000iers
+0A223	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 60 ans et plus, en 1000iers
+0A224	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 65 ans et plus, en 1000iers
+0A225	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 70 ans et plus, en 1000iers
+0A226	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 75 ans et plus, en 1000iers
+0A227	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 80 ans et plus, en 1000iers
+0A228	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 85 ans et plus, en 1000iers
+0A229	Population totale, hommes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 90 ans et plus, en 1000iers
+0A300	Population totale, femmes, moyenne annuelle au 1er juillet (source Nations Unies), valeurs interpolées, in 100Oen
+0A301	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 0 à 4 ans, en 1000iers
+0A302	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 0 à 14 ans, en 1000iers
+0A303	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 0 à 17 ans, en 1000iers
+0A304	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 0 à 19 ans, en 1000iers
+0A305	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 0 à 24 ans, en 1000iers
+0A306	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 5 à 14 ans, en 1000iers
+0A307	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 6 à 11 ans, en 1000iers
+0A308	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 12 à 14 ans, en 1000iers
+0A309	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 15 ans et plus, en 1000iers
+0A310	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 15 à 17 ans, en 1000iers
+0A311	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 15 à 24 ans, en 1000iers
+0A312	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 15 à 49 ans, en 1000iers
+0A313	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 15 à 59 ans, en 1000iers
+0A314	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 15 à 64 ans, en 1000iers
+0A315	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 18 ans et plus, en 1000iers
+0A316	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 18 à 23 ans, en 1000iers
+0A317	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 20 ans et plus, en 1000iers
+0A318	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 20 à 64 ans, en 1000iers
+0A319	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 20 à 64 ans, en 1000iers
+0A320	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 25 ans et plus, en 1000iers
+0A321	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 25 à 69 ans, en 1000iers
+0A322	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 50 ans et plus, en 1000iers
+0A323	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 60 ans et plus, en 1000iers
+0A324	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 65 ans et plus, en 1000iers
+0A325	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 70 ans et plus, en 1000iers
+0A326	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 75 ans et plus, en 1000iers
+0A327	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 80 ans et plus, en 1000iers
+0A328	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 85 ans et plus, en 1000iers
+0A329	Population totale, femmes, moyenne annuelle au 30 juin (source Nations Unies), valeurs interpolées, de 90 ans et plus, en 1000iers
+0B101	Chômage total (en % de la population active totale)
+0B102	Chômage total, femmes (en % de la population active féminine totale)
+0B103	Chômage total, hommes (en % de la population active masculine totale)
+0B104	Emploi dans l'agriculture (en % de l'emploi total)
+0B105	Personnel, agriculture, femmes (en % de l'emploi féminin total)
+0B106	Personnel, agriculture, hommes (en % de l'emploi masculin total)
+0B107	Emploi dans l'industrie (en % de l'emploi total)
+0B108	Personnel, industrie, femmes (en % de l'emploi féminin total)
+0B109	Personnel, industrie, hommes (en % de l'emploi masculin total)
+0B110	Emploi dans les services (en % de l'emploi total)
+0B111	Personnel, services, femmes (en % de l'emploi féminin total)
+0B112	Personnel, services, hommes (en % de l'emploi masculin total)
+0B201	Population urbaine
+0B202	Population urbaine (en % du total)
+0B203	Croissance de la population urbaine  (% annuel)
+0B301	Scolarisation, primaire (% brut)
+0B302	Scolarisation, primaire, filles (% brut)
+0B303	Scolarisation, primaire, garçons (% brut)
+0B304	Scolarisation, secondaire (% brut)
+0B305	Scolarisation, secondaire, filles (% brut)
+0B306	Scolarisation, secondaire, garçons (% brut)
+0B307	Scolarisation, supérieur (% brut)
+0B308	Scolarisation, supérieur, femmes (% brut)
+0B309	Scolarisation, supérieur, hommes (% brut)
+0B401	Lits d'hôpital (pour 1000 personnes)
+0B402	Médecins (pour 1000 personnes)
+0B501	Espérance de vie à la naissance, total (années)
+0B502	Espérance de vie à la naissance, filles (années)
+0B503	Espérance de vie à la naissance, garçons (années)
+0B601	Taux de fertilité, total (naissances par femme)
+0B602	Taux de mortalité, nourrissons (pour 1000 naissances vivantes)
+0B603	Taux de mortalité, enfants de moins de 5 ans (pour 1000)
+0B701	Dépenses pour la santé par personne (dollar US courant)
+4B0001_T	Luzerne pour fourrage et silage
+4B0002_T	Amandes, en coquille
+4B0003_T	Anis, badiane, fenouil et coriandre
+4B0004_T	Pommes
+4B0005_T	Apricots
+4B0006_T	Noix d'areca
+4B0007_T	Artichauts
+4B0008_T	Aspèrges
+4B0009_T	Avocats
+4B0010_T	Haricots Bambara
+4B0011_T	Bananes
+4B0012_T	Orge
+4B0013_T	Haricots, secs
+4B0014_T	Haricots, verts
+4B0015_T	Sucre de betteraves, brut, centrifugé
+4B0016_T	Noix du brésil, en coque
+4B0017_T	Fèves, féverole, secs
+4B0018_T	Sarrasin
+4B0019_T	Choux et autres légumes brassicés
+4B0020_T	Alpiste (millet long)
+4B0021_T	Sucre de canne, brut, centrifugé
+4B0022_T	Caroubes
+4B0023_T	Carrottes et navets
+4B0024_T	Noix de cajou, en coque
+4B0025_T	Anacarde
+4B0026_T	Manioc
+4B0027_T	Graine de ricin
+4B0028_T	Chou-fleurs et brocoli
+4B0029_T	Céréales, nca
+4B0030_T	Cérises
+4B0031_T	Marrons (châtaignes)
+4B0032_T	Pois chiche
+4B0033_T	Racines de chicorée
+4B0034_T	Piments et poivres, sec
+4B0035_T	Piments et poivres, verts
+4B0036_T	Cannelle
+4B0037_T	Agrumes, nca
+4B0038_T	Trèfle pour fourrage et silage
+4B0039_T	Clous de girofle
+4B0040_T	Fèves de cacao
+4B0041_T	Huile de coco
+4B0042_T	Noix de coco
+4B0043_T	Café, vert
+4B0044_T	Coprah
+4B0045_T	Coton-fibre
+4B0046_T	Semences de coton
+4B0047_T	Huile de semences de coton
+4B0048_T	Pois à vache, secs
+4B0049_T	Airelles des marais, myrtilles
+4B0050_T	Concombres et cornichons
+4B0051_T	Groseilles et cassis
+4B0052_T	Dattes
+4B0053_T	Aubergine
+4B0054_T	Figues
+4B0055_T	Fibre de lin
+4B0056_T	Fonio
+4B0057_T	Fruits, nca
+4B0058_T	Ail
+4B0059_T	Gingembre
+4B0060_T	Groseille épineuse
+4B0061_T	Grapefruit (pamplemousse)
+4B0062_T	Raisins
+4B0063_T	Huile d'arachide
+4B0064_T	Arachides, en coque
+4B0065_T	Goayves, mangue, mangoustans
+4B0066_T	Noisettes, en coque
+4B0067_T	Houblon
+4B0068_T	Jute et fibres de jute
+4B0069_T	Kiwis
+4B0070_T	Noix de cola
+4B0071_T	Poireaux et autres légumes alliacées
+4B0072_T	Légumes à cosse
+4B0073_T	Citrons et limettes
+4B0074_T	Lentilles
+4B0075_T	Laitue et endives (chicorée)
+4B0076_T	Lin
+4B0077_T	Huile de lin
+4B0078_T	Lupin
+4B0079_T	Maïs
+4B0080_T	Maïs pour fourrage et silage
+4B0081_T	Huile de maïs
+4B0082_T	Maïs, vert
+4B0083_T	Maté
+4B0084_T	Semences de melon
+4B0085_T	Millet
+4B0086_T	Mélange de céréals
+4B0087_T	Champignons et truffes
+4B0088_T	Essence de moutard
+4B0089_T	Graines de moutard
+4B0090_T	Caoutchouc naturel
+4B0091_T	Noix de muscade
+4B0092_T	Noix, nca
+4B0093_T	Avoine
+4B0094_T	Fruit de palmier
+4B0095_T	Graines oléagineuses
+4B0096_T	Okra, Gumbo
+4B0097_T	Huile fine d'olive
+4B0098_T	Olives
+4B0099_T	Oignons (échalottes incluses), vert
+4B0100_T	Oignons, secs
+4B0101_T	Oranges
+4B0102_T	Autres melons (cantaloups inclus)
+4B0103_T	Huile de palmiste
+4B0104_T	Palmistes
+4B0105_T	Huile de palmier
+4B0106_T	Papayes
+4B0107_T	Pêches et nectarines
+4B0108_T	Poires
+4B0109_T	Pois, secs
+4B0110_T	Pois, verts
+4B0111_T	Poivre
+4B0112_T	Figues-caque
+4B0113_T	Pois cajan
+4B0114_T	Ananas
+4B0115_T	Pistache
+4B0116_T	Plantains
+4B0117_T	Prumes et prunelles
+4B0118_T	Graines d'oeillette-pavot
+4B0119_T	Pommes de terre
+4B0120_T	Légumes à cosse (légumineuses)
+4B0121_T	Citrouilles, courges et courgettes
+4B0122_T	Coing
+4B0123_T	Quinoa (petit riz)
+4B0124_T	Raisins secs
+4B0125_T	Colza
+4B0126_T	Huile de colza
+4B0127_T	Framboises et autres baies
+4B0128_T	Huile de son de riz
+4B0129_T	Riz, paddy
+4B0130_T	Oignons et racines, nca
+4B0131_T	Seigle
+4B0132_T	Ray-grass (ivraie vivace)
+4B0133_T	Huile de safre (carthame)
+4B0134_T	Graine de carthame
+4B0135_T	Fibre de coton non égrenée
+4B0136_T	Huile de sésame
+4B0137_T	Graines de sésame
+4B0138_T	Sisal et autres fibres d'agave
+4B0139_T	Millet
+4B0140_T	Millet pour fourrage et silage
+4B0141_T	Griottes
+4B0142_T	Huile de soja
+4B0143_T	Graines de soja
+4B0144_T	Épices
+4B0145_T	Epinard
+4B0146_T	Fruits à noyau
+4B0147_T	Fraises
+4B0148_T	Haricots verts
+4B0149_T	Betterave sucrière
+4B0150_T	Canne à sucre
+4B0151_T	Cultures de sucre, nca
+4B0152_T	Sucre, nca
+4B0153_T	Huile de tournesol
+4B0154_T	Graines de tournesol
+4B0155_T	Patates douces (pommes de terre)
+4B0156_T	Tangérines, mandarines, clémentines
+4B0157_T	Taro (chou caraïbe)
+4B0158_T	Thé
+4B0159_T	Tabac, manufacturé
+4B0160_T	Tomates
+4B0161_T	Triticale
+4B0162_T	Vanille
+4B0163_T	Graisses et huiles végétales, nca
+4B0164_T	Légumes, nca
+4B0165_T	Vesces
+4B0166_T	Noix du noyer
+4B0167_T	Pastèques
+4B0168_T	Blé
+4B0169_T	Vin
+4B0170_T	Ignames
+4B0171_T	Chou caraïbe
+4B1001_NB	Asses, mulets ou mulassière
+4B1002_NB	Ruches
+4B1003_NB	Buffles
+4B1004_NB	Chameaux
+4B1005_NB	Bovins
+4B1006_NB	Poulets
+4B1007_NB	Canards
+4B1008_NB	Oies et pintades
+4B1009_NB	Chèvres
+4B1010_NB	Chevaux
+4B1011_NB	Porcs
+4B1012_NB	Lapins et lièvres
+4B1013_NB	Moutons
+4B1014_NB	Dindons
+4B2001_T	Viandes d'oiseaux, nca
+4B2002_T	Viande de buffle
+4B2003_T	Lait de buffle, entier, frais
+4B2004_T	Viande de chameaux
+4B2005_T	Lait de chameaux, entier, frais
+4B2006_T	Viande de bovins
+4B2007_T	Viande de poulets
+4B2008_T	Lait de vaches, entier, frais
+4B2009_T	Viande de canards
+4B2010_T	Viande équine, nca
+4B2011_T	Viande de gibier
+4B2012_T	Viande de chèvres
+4B2013_T	Lait de chèvres, entier, frais
+4B2014_T	Viande d'oies et de pintades
+4B2015_T	Oeufs de poule, en coquille
+4B2016_NB	Oeufs de poule, en coquille (NB)
+4B2017_T	Viande de chevaux
+4B2018_T	Viande, nca
+4B2019_T	Miel naturel
+4B2020_T	Oeufs d'autres oiseaux, en coquille
+4B2021_NB	Oeufs d'autres oiseaux, en coquille (NB)
+4B2022_T	Viande de porc
+4B2023_T	Viande de lapins
+4B2024_T	Viande de moutons
+4B2025_T	Lait de moutons, entier, frais
+4B2026_T	Cocons de ver à soie, enroulable sur bobine
+4B2027_T	Viande de dindons
+4B2028_T	Laine, graisseux
+G1_01	Proportion de la population disposant de moins de 1 USD par jour (en PPA)
+G1_02	Indice d?écart de la pauvreté à 1 USD par jour (en PPA), en pourcentage
+G1_03	Part du quintile le plus pauvre de la population dans les revenus ou la consommation du pays, en pourcentage
+G1_04	Taux de croissance du PIB par personne occupée
+G1_05	Ratio emploi/population, hommes et femmes, en pourcentage
+G1_06	Proportion de personnes occupées disposant de moins de 1 USD par jour (en PPA)
+G1_07	Proportion de travailleurs pour compte propre et d'aides familiaux dans l'emploi total, hommes et femmes
+G1_08	Enfants de moins de 5 ans souffrant d'insuffisance pondérale modérée ou importante, en pourcentage
+G1_09	Proportion de la population n?atteignant pas le niveau minimal d?apport calorique
+G2_01	Taux net de scolarisation dans l'enseignement primaire, filles et garçons
+G2_02	Pourcentage d?élèves commençant la première année d?études primaires et atteignant la dernière, garçons et filles
+G2_03	Taux d?alphabétisation des 15 à 24 ans, hommes et femmes
+G3_01A	Rapport filles/garçons dans l'enseignement primaire
+G3_01B	Rapport filles/garçons dans l'enseignement secondaire
+G3_01C	Rapport filles/garçons dans l'enseignement supérieur
+G3_02	Pourcentage de femmes salariées dans le secteur non agricole
+G3_03	Proportion de sièges occupés par des femmes au parlement national
+G4_01	Taux de mortalité des enfants de moins de 5 ans pour 1 000 naissances vivantes
+G4_02	Taux de mortalité infantile (de 0 à 1 an) pour 1 000 naissances vivantes
+G4_03	Proportion d?enfants de 1 an vaccinés contre la rougeole
+G5_01	Taux de mortalité maternelle pour 100 000 naissances vivantes
+G5_02	Proportion d?accouchements assistés par du personnel de santé qualifié
+G5_03	Taux de contraception chez les femmes mariées âgées de 15 à 49 ans, toutes méthodes confondues
+G5_04	Taux de natalité chez les adolescentes, pour 1 000 femmes
+G5_05A	Accès aux soins prénatals, au moins quatre examens, en pourcentage
+G5_05B	Accès aux soins prénatals, au moins un examen, en pourcentage
+G5_06	Besoins non satisfaits en matière de planification familiale, total, en pourcentage
+G6_01	Taux de prévalence du VIH parmi la population âgée de 15 à 49 ans
+G6_02A	Utilisation d?un préservatif lors du dernier rapport sexuel à haut risque, hommes âgés de 15 à 24 ans, en pourcentage
+G6_02B	Utilisation d?un préservatif lors du dernier rapport sexuel à haut risque, femmes âgées de 15 à 24 ans, en pourcentage
+G6_03A	Hommes âgés de 15 à 24 ans ayant des connaissances exactes et complètes au sujet du VIH/sida, en pourcentage
+G6_03B	Femmes âgées de 15 à 24 ans ayant des connaissances exactes et complètes au sujet du VIH/sida, en pourcentage
+G6_04	Taux de scolarisation des orphelins par rapport aux enfants non orphelins
+G6_05	Proportion de personnes au stade avancé de l'infection au VIH ayant accès à des médicaments antirétroviraux
+G6_06A	Paludisme, cas signalés pour 100 000 habitants
+G6_06B	Paludisme, mortalité pour 100 000 enfants de 0 à 4 ans
+G6_06C	Paludisme, mortalité pour 100 000 habitants, tous âges confondus
+G6_07	Pourcentage d'enfants de moins de 5 ans qui dorment protégés par une moustiquaire imprégnée d'insecticide
+G6_08	Pourcentage d'enfants de moins de 5 ans atteints de fièvre qui sont traités au moyen de médicaments antipaludéens
+G6_09A	Tuberculose, nombre de cas par an pour 100 000 habitants
+G6_09B	Tuberculose, nombre de cas pour 100 000 habitants
+G6_09C	Tuberculose, taux de mortalité par an pour 100 000 habitants
+G6_10A	Tuberculose, taux de dépistage dans le cadre de DOTS, en pourcentage
+G6_10B	Tuberculose, réussite du traitement dans le cadre de DOTS, en pourcentage
+G7_01	Proportion de zones forestières
+G7_02A	Émissions de dioxyde de carbone (CO2), en kg pour 1 USD de PIB (PPA) (CCNUCC)
+G7_02B	Émissions de dioxyde de carbone (CO2), en milliers de tonnes métriques (CDIAC)
+G7_02C	Émissions de dioxyde de carbone (CO2), en milliers de tonnes métriques (CCNUCC)
+G7_02D	Émissions de dioxyde de carbone (CO2), en tonnes métriques par habitant (CDIAC)
+G7_02E	Émissions de dioxyde de carbone (CO2), en tonnes métriques par habitant (CCNUCC)
+G7_03	Consommation de toutes les substances qui appauvrissent la couche d'ozone, en tonnes métriques de potentiel d'appauvrissement de la couche d'ozone (PACO)
+G7_04	Proportion de stocks de poissons qui ne sont pas en danger pour des raisons biologiques
+G7_05	Taux d'utilisation de l'ensemble des ressources en eau
+G7_06	Superficies terrestres et marines protégées par rapport à la superficie totale, en pourcentage
+G7_07	Proportion d'espèces menacées d'extinction
+G7_08	Proportion de la population utilisant une source améliorée d'eau potable, total
+G7_09	Proportion de la population utilisant des infrastructures améliorées d'assainissement, total
+G7_10	Proportion de la population urbaine qui vit dans des taudis
+G8_01A	APD nette, en pourcentage du revenu national brut des pays donateurs membres du CAD/OCDE
+G8_01B	APD nette allouée aux pays les moins avancés, en pourcentage du revenu national brut des pays donateurs membres du CAD/OCDE
+G8_02	Part de l'APD sectorielle consacrée aux services sociaux de base
+G8_03	Proportion de l'APD qui n'est pas liée
+G8_04	APD reçue par les pays en développement sans littoral en pourcentage de leur revenu national brut
+G8_05	APD reçue par les petits États insulaires en développement en pourcentage de leur revenu national brut
+G8_06A	Importations des pays développés provenant des pays en développement et admises en franchise de droits, en pourcentage
+G8_06B	Importations des pays développés provenant des pays les moins avancés et admises en franchise de droits, en pourcentage
+G8_07A	Taux moyens de droits de douane appliqués par les pays développés aux produits textiles provenant des pays en développement
+G8_07B	Taux moyens de droits de douane appliqués par les pays développés aux vêtements provenant des pays en développement
+G8_07C	Taux moyens de droits de douane appliqués par les pays développés aux produits agricoles provenant des pays en développement
+G8_08	Estimation des subventions agricoles dans les pays de l'OCDE, en pourcentage de leur PIB
+G8_09	Proportion de l'APD allouée au renforcement des capacités commerciales
+G8_10	Nombre total de pays ayant atteint le point de décision et nombre total de pays ayant atteint le point d'achèvement (cumulatif) dans le cadre de l'initiative PPTE
+G8_11A	Allègement de la dette annoncé au titre de l'initiative PPTE (cumulatif), en millions d'USD en valeur actuelle nette à la fin 2006
+G8_11B	Annulation de la dette au titre de l'initiative d'allègement de la dette multilatérale (cumulatif), en millions d'USD en valeur actuelle nette à la fin 2006
+G8_12	Service de la dette en pourcentage des exportations de biens et de services et des revenus nets
+G8_13	Population ayant accès à des médicaments de base, en pourcentage
+G8_14	Nombre de lignes téléphoniques pour 100 habitants
+G8_15	Nombre d'abonnés à un service de téléphonie mobile pour 100 habitants
+G8_16	Nombre d'internautes pour 100 habitants
