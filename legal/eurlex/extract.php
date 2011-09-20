@@ -7,8 +7,10 @@ $alreadySeen = array();
 $bNodeCounter = 0;
 
 $prefixes = array(
-    'http://eur-lex.publicdata.eu/resource/' => 'ns0',
-    'http://eur-lex.publicdata.eu/ontology/' => 'ns1'
+    'http://eur-lex.publicdata.eu/resource/'      => 'ns0',
+    'http://eur-lex.publicdata.eu/ontology/'      => 'ns1',
+    'http://purl.org/dc/terms/'                   => 'ns2',
+    'http://www.w3.org/1999/02/22-rdf-syntax-ns#' => 'rdf'
 );
 
 $propertyMapping = array(
@@ -61,6 +63,16 @@ $skippedProperties = array(
 
 $formProperties = array();
 
+$writtenTriples = array();
+
+#$prefixString = '';
+#foreach ($prefixes as $ns=>$prefix) {
+#    $prefixString .= '@prefix ' . $prefix . ': <' . $ns . '> . ' . PHP_EOL;
+#}
+#$prefixString .= PHP_EOL;
+#file_put_contents('data.ttl', $prefixString);
+
+
 // 1. Fetch the first part of the data as JSON
 $apiUrl = 'http://api.epdb.eu/eurlex/document/?key=' . API_KEY;
 
@@ -74,7 +86,7 @@ echo ' DONE' . PHP_EOL;
 
 echo 'Writing triples to file...';
 $ntriples = $result['ntriples'];
-file_put_contents('data.ttl', $ntriples);
+_writeTriples($ntriples, false);
 echo ' DONE' . PHP_EOL;
 
 while (true) {
@@ -93,7 +105,7 @@ while (true) {
         
         echo 'Writing triples to file...';
         $ntriples = $result['ntriples'];
-        file_put_contents('data.ttl', $ntriples, FILE_APPEND);
+        _writeTriples($ntriples);
         echo ' DONE' . PHP_EOL;
     } else {
         break;
@@ -137,7 +149,7 @@ function _handleData($data)
             if ($key === 'form') {
                 $p = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type';
                 $o = $formProperties[$value];
-                $ntriples[] = '<' . $s . '> <' . $p . '> <' . $o . '> . ' . PHP_EOL; 
+                $ntriples[] = _createTriple($s, $p, $o, true); 
                 continue;
             }
 
@@ -158,9 +170,9 @@ function _handleData($data)
                 $o = $value;
 
                 if (in_array($key, $objectProperties)) {
-                    $ntriples[] = '<' . $s . '> <' . $p . '> <' . $o . '> . ' . PHP_EOL; 
+                    $ntriples[] = _createTriple($s, $p, $o, true); 
                 } else {
-                    $ntriples[] = '<' . $s . '> <' . $p . '> "' . $o . '" . ' . PHP_EOL; 
+                    $ntriples[] = _createTriple($s, $p, $o);
                 }
             } else {
                 // Special case: relationships
@@ -173,12 +185,14 @@ function _handleData($data)
 
                         $o = null;
                         if ($oItemSpec['link'] !== '') {
-                            $o = '<' . $oItemSpec['link'] . '>';
+                            $o = $oItemSpec['link'];
+                            $ntriples[] = _createTriple($s, $p, $o, true);
                         } else {
-                            $o = '"' . $oItemSpec['relation'] . '"';
+                            $o = $oItemSpec['relation'];
+                            $ntriples[] = _createTriple($s, $p, $o);
                         }
 
-                        $ntriples[] = '<' . $s . '> <' . $p . '> ' . $o . ' . ' . PHP_EOL; 
+                         
                     }
 
                     continue;
@@ -192,17 +206,20 @@ function _handleData($data)
 
                             if (in_array($itemKey, $objectProperties)) {
                                 $o = URI_BASE . urlencode($itemValue);
-                                $ntriples[] = '<' . $s . '> <' . $p . '> <' . $o . '> . ' . PHP_EOL; 
+                                $ntriples[] = _createTriple($s, $p, $o, true);
+
                             } else {
-                                $ntriples[] = '<' . $s . '> <' . $p . '> "' . $itemValue . '" . ' . PHP_EOL; 
+                                $ntriples[] = _createTriple($s, $p, $itemValue);
+ 
                             }
                         }
                     } else {
                         $bNodeID = '_:bnode' . $bNodeCounter++;
-                        $ntriples[] = '<' . $s . '> <' . $p . '> ' . $bNodeID . ' . ' . PHP_EOL; 
+                        $ntriples[] = _createTriple($s, $p, $bNodeID, false, false, true);
                     
                         foreach ($oItemSpec as $itemKey=>$itemValue) {
-                            $ntriples[] = $bNodeID . ' <' . $itemKey . '> "' . $itemValue . '" . ' . PHP_EOL; 
+                            $ntriples[] = $bNodeID . ' <' . $itemKey . '> "' . $itemValue . '" . ' . PHP_EOL;
+                            $ntriples[] =_createTriple($bNodeID, $itemKey, $itemValue, false, true, false);
                         }
                     }
                 }
@@ -213,6 +230,72 @@ function _handleData($data)
     $result['ntriples'] = $ntriples;
     
     return $result;
+}
+
+function _createTriple($s, $p, $o, $oIsUri = false, $sIsBNode = false, $oIsBnode = false)
+{
+    global $prefixes;
+
+    $sHandled = false;
+    $pHandled = false;
+    $oHandled = false;
+    /*foreach ($prefixes as $ns=>$prefix) {
+        if (!$sHandled && !$sIsBNode) {
+            if (strpos($s, $ns) !== false) {
+                $s = $prefix . ':' . substr($s, strlen($ns));
+                $sHandled = true;
+            }        }
+        if (!$pHandled) {
+            if (strpos($p, $ns) !== false) {
+                $p = $prefix . ':' . substr($p, strlen($ns));
+                $pHandled = true;
+            }
+        }
+        if (!$oHandled && !$oIsBnode) {
+            if ($oIsUri) {
+                 if (strpos($o, $ns) !== false) {
+                    $o = $prefix . ':' . substr($o, strlen($ns));
+                    $oHandled = true;
+                 }
+            } else {
+                $o = '"' . $o . '"';
+                $oHandled = true;
+            }
+        }
+    }*/
+    if (!$sHandled && !$sIsBNode) {
+        $s = '<' . $s . '>';
+    }
+    if (!$pHandled) {
+        $p = '<' . $p . '>';
+    }
+    if (!$oHandled && !$oIsBnode) {
+        $o = '<' . $o . '>';
+    }
+
+    return $s . ' ' . $p . ' ' . $o . ' . ' . PHP_EOL;
+}
+
+function _writeTriples($triples, $append = true)
+{
+    global $writtenTriples;
+
+    $ntriples = array();
+    foreach ($triples as $t) {
+        $md5 = md5($t);
+        if (isset($writtenTriples[$md5])) {
+            continue;
+        }
+
+        $ntriples[] = $t;
+        $writtenTriples[$md5] = true;
+    }
+
+    if ($append) {
+        file_put_contents('data.ttl', $ntriples, FILE_APPEND);
+    } else {
+        file_put_contents('data.ttl', $ntriples);
+    }
 }
 
 function _handleProperty(&$property, &$value)
