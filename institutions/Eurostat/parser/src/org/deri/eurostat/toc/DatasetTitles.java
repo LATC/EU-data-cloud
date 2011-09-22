@@ -19,6 +19,7 @@ import com.hp.hpl.jena.rdf.model.Resource;
 public class DatasetTitles {
 
 	private static String serialization = "TURTLE";
+	private static String fileExt = ".ttl";
 	private static String outputFilePath = "";
 	ParseToC obj;
 	
@@ -56,10 +57,16 @@ public class DatasetTitles {
 	
 	public void writeRDFToFile(String fileName, Model model)
 	{
+		if(serialization.equalsIgnoreCase("RDF/XML"))
+			fileExt = ".rdf";
+		else if(serialization.equalsIgnoreCase("TURTLE"))
+			fileExt = ".ttl";
+		else if(serialization.equalsIgnoreCase("N-TRIPLES"))
+			fileExt = ".nt";
 		try
 	   	{
-			OutputStream output = new FileOutputStream(outputFilePath + fileName + ".rdf",false);
-			model.write(output,serialization);
+			OutputStream output = new FileOutputStream(outputFilePath + fileName + fileExt,false);
+			model.write(output,serialization.toUpperCase());
 			
 	   	}catch(Exception e)
 	   	{
@@ -71,7 +78,7 @@ public class DatasetTitles {
 	{
 		System.out.println("usage: DatasetTitles [parameters]");
 		System.out.println();
-		System.out.println("	-o outputFilePath	Output directory path to generate the titles.rdf file.");
+		System.out.println("	-o outputFilePath	Output directory path to generate the file.");
 		System.out.println("	(optional)-f 	format	RDF format for serialization (RDF/XML, TURTLE, N-TRIPLES).");
 	}
 	
@@ -82,7 +89,7 @@ public class DatasetTitles {
 		CommandLineParser parser = new BasicParser( );
 		Options options = new Options( );
 		options.addOption("h", "help", false, "Print this usage information.");
-		options.addOption("o", "outputFilePath", true, "Output directory path to generate the titles.rdf file.");
+		options.addOption("o", "outputFilePath", true, "Output directory path to generate the file.");
 		options.addOption("f", "format", true, "RDF format for serialization (RDF/XML, TURTLE, N-TRIPLES).");
 
 		CommandLine commandLine = parser.parse( options, args );

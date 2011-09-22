@@ -21,7 +21,7 @@ public class Dictionary {
 		_in = new BufferedReader(is);
 	}
 
-	public void convert(XMLStreamWriter out, String lang) throws IOException, XMLStreamException {
+	public void convert(XMLStreamWriter out, String lang, String dic_ID) throws IOException, XMLStreamException {
 		String line = null;
 		
 		while ((line = _in.readLine()) != null) {
@@ -35,7 +35,7 @@ public class Dictionary {
 				String label = st.nextToken().trim();
 				
 				out.writeStartElement("skos:Concept");
-				out.writeAttribute("rdf:ID", id);
+				out.writeAttribute("rdf:about", PREFIX + dic_ID.substring(0,dic_ID.indexOf(".dic")) + "#" + id);
 				
 				out.writeStartElement("rdfs:label");
 				out.writeAttribute("xml:lang", lang);

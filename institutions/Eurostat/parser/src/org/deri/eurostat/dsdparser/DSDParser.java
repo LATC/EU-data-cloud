@@ -57,6 +57,7 @@ public class DSDParser {
     private static String outputFilePath = "";
     //private static String outputFilePath = "C:/tempZip/dsd/";
     private static String serialization = "RDF/XML";
+    private static String fileExt = ".rdf";
     ArrayList<Code> lstCode = new ArrayList<Code>();
     ArrayList<Concept> lstConcepts = new ArrayList<Concept>();
     ArrayList<CodeList> lstCodeLists = new ArrayList<CodeList>();
@@ -440,15 +441,15 @@ public class DSDParser {
 							String codeList = getCodeList(obj.getId());
 							Property cList = model.createProperty(ParserUtil.sdmx_code + codeList);
 							model.add(prop,ParserUtil.codeList,cList);
-							model.add(prop,ParserUtil.rdfsRange,cList);
+							model.add(prop,ParserUtil.rdfsRange,ParserUtil.skosConcept);
 							Property cncpt = model.createProperty(ParserUtil.sdmx_concept + codeList);
 							model.add(prop,ParserUtil.concept,cncpt);
 						}
 						else
 						{
-							Property cList = model.createProperty(ParserUtil.cl + obj.getId().substring(obj.getId().indexOf("_")+1));
+							Property cList = model.createProperty(ParserUtil.cl + obj.getId().substring(obj.getId().indexOf("_")+1).toLowerCase());
 							model.add(prop,ParserUtil.codeList,cList);
-							model.add(prop,ParserUtil.rdfsRange,cList);
+							model.add(prop,ParserUtil.rdfsRange,ParserUtil.skosConcept);
 							Property cncpt = model.createProperty(ParserUtil.concepts + dim.getConceptRef());
 							model.add(prop,ParserUtil.concept,cncpt);
 						}
@@ -485,15 +486,15 @@ public class DSDParser {
 							String codeList = getCodeList(obj.getId());
 							Property cList = model.createProperty(ParserUtil.sdmx_code + codeList);
 							model.add(prop,ParserUtil.codeList,cList);
-							model.add(prop,ParserUtil.rdfsRange,cList);
+							model.add(prop,ParserUtil.rdfsRange,ParserUtil.skosConcept);
 							Property cncpt = model.createProperty(ParserUtil.sdmx_concept + codeList);
 							model.add(prop,ParserUtil.concept,cncpt);
 						}
 						else
 						{
-							Property cList = model.createProperty(ParserUtil.cl + obj.getId().substring(obj.getId().indexOf("_")+1));
+							Property cList = model.createProperty(ParserUtil.cl + obj.getId().substring(obj.getId().indexOf("_")+1).toLowerCase());
 							model.add(prop,ParserUtil.codeList,cList);
-							model.add(prop,ParserUtil.rdfsRange,cList);
+							model.add(prop,ParserUtil.rdfsRange,ParserUtil.skosConcept);
 							Property cncpt = model.createProperty(ParserUtil.concepts + dim.getConceptRef());
 							model.add(prop,ParserUtil.concept,cncpt);
 						}
@@ -531,15 +532,15 @@ public class DSDParser {
 							String codeList = getCodeList(obj.getId());
 							Property cList = model.createProperty(ParserUtil.sdmx_code + codeList);
 							model.add(prop,ParserUtil.codeList,cList);
-							model.add(prop,ParserUtil.rdfsRange,cList);
+							model.add(prop,ParserUtil.rdfsRange,ParserUtil.skosConcept);
 							Property cncpt = model.createProperty(ParserUtil.sdmx_concept + codeList);
 							model.add(prop,ParserUtil.concept,cncpt);
 						}
 						else
 						{
-							Property cList = model.createProperty(ParserUtil.cl + obj.getId().substring(obj.getId().indexOf("_")+1));
+							Property cList = model.createProperty(ParserUtil.cl + obj.getId().substring(obj.getId().indexOf("_")+1).toLowerCase());
 							model.add(prop,ParserUtil.codeList,cList);
-							model.add(prop,ParserUtil.rdfsRange,cList);
+							model.add(prop,ParserUtil.rdfsRange,ParserUtil.skosConcept);
 							Property cncpt = model.createProperty(ParserUtil.concepts + measure.getConceptRef());
 							model.add(prop,ParserUtil.concept,cncpt);
 						}
@@ -576,15 +577,15 @@ public class DSDParser {
 						String codeList = getCodeList(obj.getId());
 						Property cList = model.createProperty(ParserUtil.sdmx_code + codeList);
 						model.add(prop,ParserUtil.codeList,cList);
-						model.add(prop,ParserUtil.rdfsRange,cList);
+						model.add(prop,ParserUtil.rdfsRange,ParserUtil.skosConcept);
 						Property cncpt = model.createProperty(ParserUtil.sdmx_concept + codeList);
 						model.add(prop,ParserUtil.concept,cncpt);
 					}
 					else
 					{
-						Property cList = model.createProperty(ParserUtil.cl + obj.getId().substring(obj.getId().indexOf("_")+1));
+						Property cList = model.createProperty(ParserUtil.cl + obj.getId().substring(obj.getId().indexOf("_")+1).toLowerCase());
 						model.add(prop,ParserUtil.codeList,cList);
-						model.add(prop,ParserUtil.rdfsRange,cList);
+						model.add(prop,ParserUtil.rdfsRange,ParserUtil.skosConcept);
 						Property cncpt = model.createProperty(ParserUtil.concepts + att.getConceptRef());
 						model.add(prop,ParserUtil.concept,cncpt);
 					}
@@ -604,8 +605,8 @@ public class DSDParser {
 				codelist_Model = ParserUtil.getModelProperties();
 				
 				codeListID = obj.getId().substring(obj.getId().indexOf("_")+1);
-				Resource codeLists = model.createResource(baseURI + "dic/" + codeListID);
-				Resource codelist_Lists = codelist_Model.createResource(baseURI + "dic/" + codeListID);
+				Resource codeLists = model.createResource(baseURI + "dic/" + codeListID.toLowerCase());
+				Resource codelist_Lists = codelist_Model.createResource(baseURI + "dic/" + codeListID.toLowerCase());
 				
 				model.add(codeLists,ParserUtil.type,ParserUtil.conceptScheme);
 				codelist_Model.add(codelist_Lists,ParserUtil.type,ParserUtil.conceptScheme);
@@ -629,7 +630,7 @@ public class DSDParser {
 				for(Code code:arrCode)
 				{
 					//writeLinetoFile("		skos:hasTopConcept <" + codeListURL + "CodeList/" + codeListID + "#" + code.getValue() + ">;");
-					String str = baseURI + "dic/" + codeListID + "#" + code.getValue();
+					String str = baseURI + "dic/" + codeListID.toLowerCase() + "#" + code.getValue();
 					Resource res = model.createResource(str);
 					Resource codelist_res = codelist_Model.createResource(str);
 					
@@ -695,10 +696,16 @@ public class DSDParser {
 	
 	public void writeRDFToFile(String fileName, Model model)
 	{
+		if(serialization.equalsIgnoreCase("RDF/XML"))
+			fileExt = ".rdf";
+		else if(serialization.equalsIgnoreCase("TURTLE"))
+			fileExt = ".ttl";
+		else if(serialization.equalsIgnoreCase("N-TRIPLES"))
+			fileExt = ".nt";
 		try
 	   	{
-			OutputStream output = new FileOutputStream(outputFilePath + fileName.substring(0,fileName.indexOf("_DSD")) + ".rdf",false);
-			model.write(output,serialization);
+			OutputStream output = new FileOutputStream(outputFilePath + fileName.substring(0,fileName.indexOf("_DSD")) + fileExt,false);
+			model.write(output,serialization.toUpperCase());
 			
 	   	}catch(Exception e)
 	   	{

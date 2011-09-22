@@ -30,6 +30,7 @@ public class ParserUtil {
 	public static String titleURI = "http://eurostat.linked-statistics.org/title#";
 	public static String dsdURI = "http://eurostat.linked-statistics.org/dsd/";
 	public static String dataURI = "http://eurostat.linked-statistics.org/data/";
+	public static String baseURI = "http://eurostat.linked-statistics.org/";
 	
 	public static Property dsd;
 	public static Property type;
@@ -60,12 +61,15 @@ public class ParserUtil {
 	public static Property qbDataset;
 	public static Property voidDataset;
 	public static Property dataDump;
+	public static Property subset;
+	public static Property qb_structure;
 	
 	public static Model getModelProperties()
 	{
 		Model m = ModelFactory.createDefaultModel();
 		
 		dsd = m.createProperty(qb + "DataStructureDefinition");
+		qb_structure = m.createProperty(qb + "structure");
 		type = m.createProperty(rdf + "type");
 		notation = m.createProperty(skos + "notation");
 		conceptScheme = m.createProperty(skos + "ConceptScheme");
@@ -92,8 +96,9 @@ public class ParserUtil {
 		sdmx = m.createProperty(sdmxURI + "Concept");
 		
 		qbDataset = m.createProperty(qb + "DataSet");
-		voidDataset = m.createProperty(voidURI + "DataSet");
+		voidDataset = m.createProperty(voidURI + "Dataset");
 		dataDump = m.createProperty(voidURI + "dataDump");
+		subset = m.createProperty(voidURI + "subset");
 		
 		m.setNsPrefix("skos", skos);
 		m.setNsPrefix("qb", qb);
