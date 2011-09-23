@@ -98,7 +98,7 @@ URIs for Eurostat identities
 	For example: http://eurostat.linked-statistics.org/dic/geo.rdf
 
 
-NameSpaces for EuroStat
+NameSpaces for Eurostat
 =======================
 
 * Namespace for SDMX datasets : `@prefix data:    <http://eurostat.linked-statistics.org/data/> .` 
