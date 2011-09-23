@@ -97,7 +97,24 @@ URIs for Eurostat identities
 
 	For example: http://eurostat.linked-statistics.org/dic/geo.rdf
 
-* Concepts and Properties of DSD can be found under `http://eurostat.linked-statistics.org/concept#` and `http://eurostat.linked-statistics.org/property#`
+
+NameSpaces for EuroStat
+=======================
+
+* Namespace for SDMX datasets : `@prefix data:    <http://eurostat.linked-statistics.org/data/> .` 
+
+* Namespace for Data Structure Definition (DSD) : `@prefix dsd:     <http://eurostat.linked-statistics.org/dsd/> .` 
+
+* Namespace for dictionaries : `@prefix cl:      <http://eurostat.linked-statistics.org/dic/> .` 
+
+* Namespace for dataset summaries is : `@prefix dss:     <http://eurostat.linked-statistics.org/dss#> .` 
+
+* Namespace for the concepts defined in DSDs : `@prefix concept:  <http://eurostat.linked-statistics.org/concept#> .` 
+
+* Namespace for the properties defined in DSDs : `@prefix property:  <http://eurostat.linked-statistics.org/property#> .`
+
+* Namespace for titles of the datasets is : `@prefix title:   <http://eurostat.linked-statistics.org/title#> .`
+
 
 ## License
 
