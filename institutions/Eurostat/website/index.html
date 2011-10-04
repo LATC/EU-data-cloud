@@ -28,7 +28,7 @@
 				<a href="/"><span property="dct:title">Eurostat - Linked Data</span></a>
 			</div>
 			<div id="intro">
-			
+			</div>
 		</div>
 	</div>
 
@@ -48,20 +48,65 @@
 		<p>Observations/DataCube</p>
 		<p>Asking questions ... SPARQL</p>		
 		
-	</div>
-	
-	<div id="schema">
-		<h2>Schema</h2>
-		<p>
-			DataCube, etc.
-		</p>
-	
-	</div>
+    <div id="schema">
+      <h2>Schema</h2>
+      <p>
+        DataCube, etc.
+      </p>
+    
+    </div>
 
-	<div id="footer" about="">
-		A <a href="http://lod-cloud.net/">LOD dataset</a> brought to you by the <a rel="dct:publisher" href="http://latc-project.eu/">LATC Support Action</a> ·
-		<a href="https://github.com/LATC/EU-data-cloud/tree/master/institutions/Eurostat">Code</a> ·
-		<a href="http://latc-project.eu/contact">Contact</a>
-	</div>
+    <div id="emissions-example">
+      <h2>Another example: Greenhouse gas emissions per capita</h2>
+      <p>The following example queries across two datasets and calculates combined values.</p>
+      <pre>
+  PREFIX qb: &lt;http://purl.org/linked-data/cube#&gt;
+  PREFIX e: &lt;http://ontologycentral.com/2009/01/eurostat/ns#&gt;
+  PREFIX sdmx-measure: &lt;http://purl.org/linked-data/sdmx/2009/measure#&gt;
+  PREFIX skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+  PREFIX g: &lt;http://eurostat.linked-statistics.org/ontologies/geographic.rdf#&gt;
+  PREFIX dataset: &lt;http://eurostat.linked-statistics.org/data/&gt;
+
+  SELECT ?country
+         ?year
+         ?population
+         ?ghgtotal
+         xsd:decimal(?ghgtotal)*1000/(xsd:decimal(?population)) AS ?percapita
+  FROM &lt;http://eurostat.linked-statistics.org/data/demo_pjanbroad.rdf&gt;
+  FROM &lt;http://eurostat.linked-statistics.org/data/env_air_gge.rdf&gt;
+  FROM &lt;http://semantic.eea.europa.eu/home/roug/eurostatdictionaries.rdf&gt;
+  WHERE {
+    ?popobs qb:dataset dataset:demo_pjanbroad ;
+          e:time ?uyear;
+          e:freq &lt;http://eurostat.linked-statistics.org/dic/freq#A&gt;;
+          e:age &lt;http://eurostat.linked-statistics.org/dic/age#TOTAL&gt;; 
+          e:sex &lt;http://eurostat.linked-statistics.org/dic/sex#T&gt;;
+          e:geo ?ucountry;
+          sdmx-measure:obsValue ?population.
+    ?ghgobs qb:dataset dataset:env_air_gge ;
+          e:geo ?ucountry;
+          e:time ?uyear;
+          e:airsect &lt;http://eurostat.linked-statistics.org/dic/airsect#TOT_X_5&gt;;
+          sdmx-measure:obsValue ?ghgtotal.
+    ?ucountry skos:prefLabel ?country.
+    ?uyear skos:prefLabel ?year
+  } ORDER BY ?country ?year
+      </pre>
+      <p>Running this query will require a SPARQL endpoint configured to download files listed in the <code>FROM</code> clause.</p>
+      <p>Results, displayed as a line chart:</p>
+      <img src="examples/emissions/ghg-totals.png" alt="Greenhouse gas emitions per capita, 1990-2009, as line chart" />
+      <p>Resources used to create the chart:</p>
+      <ul>
+        <li><a href="examples/emissions/rl-emissions.py">rl-emissions.py</a></li>
+        <li><a href="examples/emissions/sparql.py">sparql.py</a></li>
+      </ul>
+    </div>
+
+    <div id="footer" about="">
+      A <a href="http://lod-cloud.net/">LOD dataset</a> brought to you by the <a rel="dct:publisher" href="http://latc-project.eu/">LATC Support Action</a> ·
+      <a href="https://github.com/LATC/EU-data-cloud/tree/master/institutions/Eurostat">Code</a> ·
+      <a href="http://latc-project.eu/contact">Contact</a>
+    </div>
+  </div>
 </body>
 </html>
