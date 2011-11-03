@@ -61,6 +61,14 @@ a:hover {
 	color: #0066CC;
 }
 
+.related-sources a {
+	color: #606060;
+}
+
+.related-sources a:hover {
+	color: #0066CC;
+}
+
 
 #header { 
 	background: #fefefe;
@@ -203,4 +211,11 @@ a:hover {
 
 .hidden-metadata {
 	display: none;
+}
+
+.related-sources {
+	color: #303030;
+	font-size: 70%;
+	text-align: right;
+	margin-bottom: 40px;
 }
