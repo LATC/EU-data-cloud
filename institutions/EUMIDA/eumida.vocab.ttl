@@ -1,0 +1,131 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ov: <http://open.vocab.org/terms/> .
+@prefix ns0: <http://purl.org/linked-data/cube#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns1: <http://purl.org/vocab/aiiso/schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.kasabi.com/dataset/eumida/terms/> vann:preferredNamespaceUri "http://data.kasabi.com/dataset/eumida/terms/" ;
+                                               vann:preferredNamespacePrefix "eum" ;
+                                               dct:description " "@en ;
+                                               dct:creator <http://keithalexander.co.uk/id/me> ;
+                                               rdfs:label "EUMIDA Vocabulary"@en ;
+                                               ov:defines <http://data.kasabi.com/dataset/eumida/terms/country> ,
+                                                          <http://data.kasabi.com/dataset/eumida/terms/legalStatus> ,
+                                                          <http://data.kasabi.com/dataset/eumida/terms/yearOfCurrentStatus> ,
+                                                          <http://data.kasabi.com/dataset/eumida/terms/yearOfFoundation> ,
+                                                          <http://data.kasabi.com/dataset/eumida/terms/feature> ,
+                                                          <http://data.kasabi.com/dataset/eumida/terms/numberOfDoctoratesAwarded> ,
+                                                          <http://data.kasabi.com/dataset/eumida/terms/institution> ,
+                                                          <http://data.kasabi.com/dataset/eumida/terms/numberOfISCED5Students> ,
+                                                          <http://data.kasabi.com/dataset/eumida/terms/numberOfInternationalISCED5Students> ,
+                                                          <http://data.kasabi.com/dataset/eumida/terms/numberOfISCED6Students> ,
+                                                          <http://data.kasabi.com/dataset/eumida/terms/numberOfInternationalISCED6Students> ,
+                                                          <http://data.kasabi.com/dataset/eumida/terms/numberOfStaff> . 
+
+<http://data.kasabi.com/dataset/eumida/terms/numberOfStaff> rdf:type ns0:MeasureProperty ,
+                                                                     rdf:Property ,
+                                                                     owl:DatatypeProperty ;
+                                                            rdfs:label "Number Of Staff"@en ;
+                                                            rdfs:comment "Number Of Staff"@en ;
+                                                            rdfs:isDefinedBy <http://data.kasabi.com/dataset/eumida/terms/> ;
+                                                            rdfs:range xsd:integer ,
+                                                                       rdfs:Literal ;
+                                                            rdfs:domain ns0:Observation . 
+
+<http://data.kasabi.com/dataset/eumida/terms/numberOfDoctoratesAwarded> rdf:type ns0:MeasureProperty ,
+                                                                                 rdf:Property ,
+                                                                                 owl:DatatypeProperty ;
+                                                                        rdfs:label "Number Of Doctorates Awarded"@en ;
+                                                                        rdfs:comment "Number Of Doctorates Awarded"@en ;
+                                                                        rdfs:isDefinedBy <http://data.kasabi.com/dataset/eumida/terms/> ;
+                                                                        rdfs:range xsd:integer ,
+                                                                                   rdfs:Literal ;
+                                                                        rdfs:domain ns0:Observation . 
+
+<http://data.kasabi.com/dataset/eumida/terms/numberOfInternationalISCED6Students> rdf:type ns0:MeasureProperty ,
+                                                                                           rdf:Property ,
+                                                                                           owl:DatatypeProperty ;
+                                                                                  rdfs:label "Number Of International ISCED6Students"@en ;
+                                                                                  rdfs:comment "Number Of International ISCED6Students"@en ;
+                                                                                  rdfs:isDefinedBy <http://data.kasabi.com/dataset/eumida/terms/> ;
+                                                                                  rdfs:range xsd:integer ,
+                                                                                             rdfs:Literal ;
+                                                                                  rdfs:domain ns0:Observation . 
+
+<http://data.kasabi.com/dataset/eumida/terms/numberOfISCED6Students> rdf:type ns0:MeasureProperty ,
+                                                                              rdf:Property ,
+                                                                              owl:DatatypeProperty ;
+                                                                     rdfs:label "Number Of ISCED6Students"@en ;
+                                                                     rdfs:comment "Number Of ISCED6Students"@en ;
+                                                                     rdfs:isDefinedBy <http://data.kasabi.com/dataset/eumida/terms/> ;
+                                                                     rdfs:range xsd:integer ,
+                                                                                rdfs:Literal ;
+                                                                     rdfs:domain ns0:Observation . 
+
+<http://data.kasabi.com/dataset/eumida/terms/numberOfInternationalISCED5Students> rdf:type ns0:MeasureProperty ,
+                                                                                           rdf:Property ,
+                                                                                           owl:DatatypeProperty ;
+                                                                                  rdfs:label "Number Of International ISCED5Students"@en ;
+                                                                                  rdfs:comment "Number Of International ISCED5Students"@en ;
+                                                                                  rdfs:isDefinedBy <http://data.kasabi.com/dataset/eumida/terms/> ;
+                                                                                  rdfs:range xsd:integer ,
+                                                                                             rdfs:Literal ;
+                                                                                  rdfs:domain ns0:Observation . 
+
+<http://data.kasabi.com/dataset/eumida/terms/numberOfISCED5Students> rdf:type ns0:MeasureProperty ,
+                                                                              rdf:Property ,
+                                                                              owl:DatatypeProperty ;
+                                                                     rdfs:label "Number Of ISCED5Students"@en ;
+                                                                     rdfs:comment "Number Of ISCED5Students"@en ;
+                                                                     rdfs:isDefinedBy <http://data.kasabi.com/dataset/eumida/terms/> ;
+                                                                     rdfs:range xsd:integer ,
+                                                                                rdfs:Literal ;
+                                                                     rdfs:domain ns0:Observation . 
+
+<http://data.kasabi.com/dataset/eumida/terms/country> rdf:type rdf:Property ;
+                                                      rdfs:label "Country"@en ;
+                                                      rdfs:comment "Country"@en ;
+                                                      rdfs:isDefinedBy <http://data.kasabi.com/dataset/eumida/terms/> ;
+                                                      rdfs:range ov:Country ;
+                                                      rdfs:domain ns1:Institution . 
+
+<http://data.kasabi.com/dataset/eumida/terms/legalStatus> rdf:type rdf:Property ;
+                                                          rdfs:label "Legal Status"@en ;
+                                                          rdfs:comment "Legal Status"@en ;
+                                                          rdfs:isDefinedBy <http://data.kasabi.com/dataset/eumida/terms/> ;
+                                                          rdfs:range skos:Concept ;
+                                                          rdfs:domain ns1:Institution . 
+
+<http://data.kasabi.com/dataset/eumida/terms/yearOfCurrentStatus> rdf:type rdf:Property ;
+                                                                  rdfs:label "Year Of Current Status"@en ;
+                                                                  rdfs:comment "Year Of Current Status"@en ;
+                                                                  rdfs:isDefinedBy <http://data.kasabi.com/dataset/eumida/terms/> ;
+                                                                  rdfs:range rdfs:Resource ;
+                                                                  rdfs:domain ns1:Institution . 
+
+<http://data.kasabi.com/dataset/eumida/terms/yearOfFoundation> rdf:type rdf:Property ;
+                                                               rdfs:label "Year Of Foundation"@en ;
+                                                               rdfs:comment "Year Of Foundation"@en ;
+                                                               rdfs:isDefinedBy <http://data.kasabi.com/dataset/eumida/terms/> ;
+                                                               rdfs:range rdfs:Resource ;
+                                                               rdfs:domain ns1:Institution . 
+
+<http://data.kasabi.com/dataset/eumida/terms/feature> rdf:type rdf:Property ;
+                                                      rdfs:label "Feature"@en ;
+                                                      rdfs:comment "Feature"@en ;
+                                                      rdfs:isDefinedBy <http://data.kasabi.com/dataset/eumida/terms/> ;
+                                                      rdfs:range rdfs:Resource ;
+                                                      rdfs:domain ns1:Institution . 
+
+<http://data.kasabi.com/dataset/eumida/terms/institution> rdf:type rdf:Property ;
+                                                          rdfs:label "Institution"@en ;
+                                                          rdfs:comment "Institution"@en ;
+                                                          rdfs:isDefinedBy <http://data.kasabi.com/dataset/eumida/terms/> ;
+                                                          rdfs:range ns1:Institution ;
+                                                          rdfs:domain ns0:Observation . 
+

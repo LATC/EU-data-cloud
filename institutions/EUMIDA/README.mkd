@@ -1,0 +1,235 @@
+
+## Fields from CSV
+
+  [0]=>
+  string(9) "EUMIDA_ID"
+  [1]=>
+  string(11) "National_ID"
+  [2]=>
+  string(12) "Country_Code"
+  [3]=>
+  string(16) "Institution_Name"
+  [4]=>
+  string(24) "English_Institution_Name"
+  [5]=>
+  string(25) "Institution_Name_Comments"
+  [6]=>
+  string(31) "Institution_Name_Reference_Year"
+  [7]=>
+  string(26) "Institution_Name_Data_Flag"
+  [8]=>
+  string(28) "Institution_Name_Data_Source"
+  [9]=>
+  string(37) "Institution_Name_Date_Data_Collection"
+  [10]=>
+  string(38) "Institution_Category_National_Language"
+  [11]=>
+  string(28) "Institution_Category_English"
+  [12]=>
+  string(29) "Institution_Category_Comments"
+  [13]=>
+  string(35) "Institution_Category_Reference_Year"
+  [14]=>
+  string(30) "Institution_Category_Data_Flag"
+  [15]=>
+  string(32) "Institution_Category_Data_Source"
+  [16]=>
+  string(41) "Institution_Category_Date_Data_Collection"
+  [17]=>
+  string(11) "NUTS_Region"
+  [18]=>
+  string(15) "Region_Comments"
+  [19]=>
+  string(21) "Region_Reference_Year"
+  [20]=>
+  string(16) "Region_Data_Flag"
+  [21]=>
+  string(18) "Region_Data_Source"
+  [22]=>
+  string(27) "Region_Date_Data_Collection"
+  [23]=>
+  string(12) "Legal_Status"
+  [24]=>
+  string(21) "Legal_Status_Comments"
+  [25]=>
+  string(27) "Legal_Status_Reference_Year"
+  [26]=>
+  string(22) "Legal_Status_Data_Flag"
+  [27]=>
+  string(24) "Legal_Status_Data_Source"
+  [28]=>
+  string(33) "Legal_Status_Date_Data_Collection"
+  [29]=>
+  string(19) "Current_Status_Year"
+  [30]=>
+  string(28) "Current_Status_Year_Comments"
+  [31]=>
+  string(34) "Current_Status_Year_Reference_Year"
+  [32]=>
+  string(29) "Current_Status_Year_Data_Flag"
+  [33]=>
+  string(31) "Current_Status_Year_Data_Source"
+  [34]=>
+  string(40) "Current_Status_Year_Date_Data_Collection"
+  [35]=>
+  string(15) "Foundation_Year"
+  [36]=>
+  string(24) "Foundation_Year_Comments"
+  [37]=>
+  string(30) "Foundation_Year_Reference_Year"
+  [38]=>
+  string(25) "Foundation_Year_Data_Flag"
+  [39]=>
+  string(27) "Foundation_Year_Data_Source"
+  [40]=>
+  string(36) "Foundation_Year_Date_Data_Collection"
+  [41]=>
+  string(18) "Distance_Education"
+  [42]=>
+  string(27) "Distance_Education_Comments"
+  [43]=>
+  string(33) "Distance_Education_Reference_Year"
+  [44]=>
+  string(28) "Distance_Education_Data_Flag"
+  [45]=>
+  string(30) "Distance_Education_Data_Source"
+  [46]=>
+  string(39) "Distance_Education_Date_Data_Collection"
+  [47]=>
+  string(15) "Research_Active"
+  [48]=>
+  string(24) "Research_Active_Comments"
+  [49]=>
+  string(30) "Research_Active_Reference_Year"
+  [50]=>
+  string(25) "Research_Active_Data_Flag"
+  [51]=>
+  string(27) "Research_Active_Data_Source"
+  [52]=>
+  string(36) "Research_Active_Date_Data_Collection"
+  [53]=>
+  string(19) "University_Hospital"
+  [54]=>
+  string(28) "University_Hospital_Comments"
+  [55]=>
+  string(34) "University_Hospital_Reference_Year"
+  [56]=>
+  string(29) "University_Hospital_Data_Flag"
+  [57]=>
+  string(31) "University_Hospital_Data_Source"
+  [58]=>
+  string(40) "University_Hospital_Date_Data_Collection"
+  [59]=>
+  string(23) "Education_Field_General"
+  [60]=>
+  string(25) "Education_Field_Education"
+  [61]=>
+  string(35) "Education_Field_Humanities_and_Arts"
+  [62]=>
+  string(49) "Education_Field_Social_Sciences_Business_and_L_aw"
+  [63]=>
+  string(24) "Education_Field_Sciences"
+  [64]=>
+  string(58) "Education_Field_Engineering_Manufacturing_and_Construction"
+  [65]=>
+  string(27) "Education_Field_Agriculture"
+  [66]=>
+  string(34) "Education_Field_Health_and_Welfare"
+  [67]=>
+  string(24) "Education_Field_Services"
+  [68]=>
+  string(24) "Education_Field_Comments"
+  [69]=>
+  string(31) "Education_Fields_Reference_Year"
+  [70]=>
+  string(26) "Education_Fields_Data_Flag"
+  [71]=>
+  string(28) "Education_Fields_Data_Source"
+  [72]=>
+  string(37) "Education_Fields_Date_Data_Collection"
+  [73]=>
+  string(22) "Highest_Degree_Awarded"
+  [74]=>
+  string(31) "Highest_Degree_Awarded_Comments"
+  [75]=>
+  string(29) "Highest_Degree_Reference_Year"
+  [76]=>
+  string(24) "Highest_Degree_Data_Flag"
+  [77]=>
+  string(26) "Highest_Degree_Data_Source"
+  [78]=>
+  string(34) "Highest_Degree_Date_DataCollection"
+  [79]=>
+  string(25) "Doctorate_Degrees_Awarded"
+  [80]=>
+  string(26) "Doctorate_Degrees_Comments"
+  [81]=>
+  string(40) "Doctorate_Degrees_Awarded_Reference_Year"
+  [82]=>
+  string(35) "Doctorate_Degrees_Awarded_Data_Flag"
+  [83]=>
+  string(37) "Doctorate_Degrees_Awarded_Data_Source"
+  [84]=>
+  string(46) "Doctorate_Degrees_Awarded_Date_Data_Collection"
+  [85]=>
+  string(15) "Students_ISCED5"
+  [86]=>
+  string(24) "Students_ISCED5_Comments"
+  [87]=>
+  string(30) "Students_ISCED5_Reference_Year"
+  [88]=>
+  string(25) "Students_ISCED5_Data_Flag"
+  [89]=>
+  string(39) "Institution_Students_ISCED5_Data_Source"
+  [90]=>
+  string(36) "Students_ISCED5_Date_Data_Collection"
+  [91]=>
+  string(29) "International_Students_ISCED5"
+  [92]=>
+  string(38) "International_Students_ISCED5_Comments"
+  [93]=>
+  string(44) "International_Students_ISCED5_Reference_Year"
+  [94]=>
+  string(39) "International_Students_ISCED5_Data_Flag"
+  [95]=>
+  string(41) "International_Students_ISCED5_Data_Source"
+  [96]=>
+  string(50) "International_Students_ISCED5_Date_Data_Collection"
+  [97]=>
+  string(15) "Students_ISCED6"
+  [98]=>
+  string(24) "Students_ISCED6_Comments"
+  [99]=>
+  string(30) "Students_ISCED6_Reference_Year"
+  [100]=>
+  string(37) "Institution_Students_ISCED6_Data_Flag"
+  [101]=>
+  string(27) "Students_ISCED6_Data_Source"
+  [102]=>
+  string(36) "Students_ISCED6_Date_Data_Collection"
+  [103]=>
+  string(29) "International_Students_ISCED6"
+  [104]=>
+  string(38) "International_Students_ISCED6_Comments"
+  [105]=>
+  string(44) "International_Students_ISCED6_Reference_Year"
+  [106]=>
+  string(39) "International_Students_ISCED6_Data_Flag"
+  [107]=>
+  string(41) "International_Students_ISCED6_Data_Source"
+  [108]=>
+  string(50) "International_Students_ISCED6_Date_Data_Collection"
+  [109]=>
+  string(11) "Total_Staff"
+  [110]=>
+  string(20) "Total_Staff_Comments"
+  [111]=>
+  string(26) "Total_Staff_Reference_Year"
+  [112]=>
+  string(21) "Total_Staff_Data_Flag"
+  [113]=>
+  string(23) "Total_Staff_Data_Source"
+  [114]=>
+  string(32) "Total_Staff_Date_Data_Collection"
+  [115]=>
+
