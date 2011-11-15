@@ -1,8 +1,18 @@
 package org.deri.eurostat.toc;
 
+import java.io.BufferedWriter;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -33,27 +43,70 @@ public class DiffToC {
 	private Document xmlDocument;
 	HashMap<String, String> hshMap_New = new HashMap<String, String>();
 	HashMap<String, String> hshMap_Old = new HashMap<String, String>();
+	HashMap<String, String> hshMap_URLs = new HashMap<String, String>();
+	HashMap<String, String> hshMap_Titles = new HashMap<String, String>();
 	static ArrayList<String> arrDatasets = new ArrayList<String>();
+	static BufferedWriter write = null;
+	static FileWriter fstream = null;
 	
-	public void runComparison(String inputFilePath, String outputFilePath)
+	public void runComparison(String inputFilePath, String outputFilePath, String logFilePath)
 	{
-		download_New_TOC();
+		read_New_TOC();
 		readTOC(inputFilePath);
-		System.out.println(hshMap_New.size());
-		System.out.println(hshMap_Old.size());
+		//System.out.println(hshMap_New.size());
+		//System.out.println(hshMap_Old.size());
 		
 		for (Map.Entry<String, String> entry : hshMap_New.entrySet())
 		{
 			String code = entry.getKey();
-			String modifiedDate = entry.getValue();
+			String newDate = entry.getValue();
 			String oldDate = "";
 
 			//System.out.println(code + " : " + modifiedDate);
 			oldDate = hshMap_Old.get(code);
-			System.out.println(oldDate);
-			if(oldDate == null || !oldDate.equals(modifiedDate))
-				arrDatasets.add(code + " : " + oldDate + " : " + modifiedDate);
+			//System.out.println(oldDate);
+			if(oldDate == null)
+				arrDatasets.add(hshMap_Titles.get(code) + " ] [ " + hshMap_URLs.get(code));
+			else if(!oldDate.equals("") && !newDate.equals(""))
+			{
+				if(!isGreater(oldDate,newDate) && !oldDate.equals(newDate))
+					arrDatasets.add(hshMap_Titles.get(code) + " ] [ " + hshMap_URLs.get(code));
+					//arrDatasets.add(code + " # " + oldDate + " # " + newDate + " # " + hshMap_Titles.get(code) + " # " + hshMap_URLs.get(code));
+			}
 		}
+		
+		createLogFile(logFilePath);
+		printLogs();
+		download_New_TOC(outputFilePath);
+		try{
+        	write.flush();  
+        	write.close();
+		}catch(IOException e){
+			System.out.println("Error while closing the file...");
+		}
+		System.out.println("Comparison has been completed. Please see the Logs.");
+	}
+	
+	public boolean isGreater(String originalDate, String modifiedDate)
+	{
+		
+		SimpleDateFormat sdfSource = new SimpleDateFormat("dd.MM.yyyy");
+		
+		try {
+			
+		Date date1 = sdfSource.parse(originalDate);
+		Date date2 = sdfSource.parse(modifiedDate);
+		
+		if(date1.after(date2))
+			return true;
+		else
+			return false;
+		
+		} catch(ParseException ex){
+			System.out.println("Error while parsing the date format :" + originalDate + " : " + modifiedDate);
+		}
+		
+		return false;
 	}
 	
 	public void initObjects(InputStream in){        
@@ -85,7 +138,7 @@ public class DiffToC {
     }
 
 	/**
-	 * Read all the datasets exists in the TableOfContents.xml
+	 * Read all the datasets that are in the TableOfContents.xml
 	 * @param flag
 	 */
 	public void readDataSetEntries(boolean flag)
@@ -113,26 +166,83 @@ public class DiffToC {
 	 */
 	public void getDatasetModificationDate(Element ele, boolean flag)
 	{
-		String modificationDate = "";
+		String lastModified = "";
 		String datasetCode = "";
+		String date = "";
+		String lastUpdate = "";
 		
 		NodeList nl = ele.getElementsByTagName("nt:code");
 		datasetCode = nl.item(0).getTextContent(); 
 		
 		nl = ele.getElementsByTagName("nt:lastModified");
-		modificationDate = nl.item(0).getTextContent();
-	
+		lastModified = nl.item(0).getTextContent();
+		
+		nl = ele.getElementsByTagName("nt:lastUpdate");
+		lastUpdate = nl.item(0).getTextContent();
+		
+		getDatasetURL(ele, datasetCode);
+		
+		getDatasetTitle(ele, datasetCode);
+		
+		if(!lastModified.equals("") && !lastUpdate.equals(""))
+		{
+			if(isGreater(lastUpdate,lastModified))
+				date = lastUpdate;
+			else
+				date = lastModified;
+		}
+		else if(lastModified.equals(""))
+			date = lastUpdate;
+		else if(lastUpdate.equals(""))
+			date = lastModified;
+		
 		if(flag)
-			hshMap_New.put(datasetCode, modificationDate);
+			hshMap_New.put(datasetCode, date);
 		else
-			hshMap_Old.put(datasetCode, modificationDate);
+			hshMap_Old.put(datasetCode, date);
 		
 	}
 	
+	public void getDatasetURL(Element element, String datasetCode)
+	{
+		
+		NodeList nl = element.getElementsByTagName("nt:downloadLink");
+		if(nl != null && nl.getLength() > 0)
+		{
+			for(int i = 0 ; i < nl.getLength();i++)
+			{
+				Element ele = (Element)nl.item(i);
+				if(ele.getAttribute("format").equals("sdmx"))
+				{
+					hshMap_URLs.put(datasetCode, ele.getTextContent());
+				}
+			}
+		}
+		
+	}
+
+	public void getDatasetTitle(Element element, String datasetCode)
+	{
+		
+		NodeList nl = element.getElementsByTagName("nt:title");
+		if(nl != null && nl.getLength() > 0)
+		{
+			for(int i = 0 ; i < nl.getLength();i++)
+			{
+				Element ele = (Element)nl.item(i);
+				if(ele.getAttribute("language").equals("en"))
+				{
+					hshMap_Titles.put(datasetCode, ele.getTextContent());
+				}
+			}
+		}
+		
+	}	
+
 	/**
 	 *  Download the new TableOfContent.xml from the site for comparison. 
 	 */
-	public void download_New_TOC()
+	public void read_New_TOC()
 	{
 		obj = new ParseToC();
 		
@@ -141,6 +251,22 @@ public class DiffToC {
 		readDataSetEntries(true);
 	}
 	
+	public void download_New_TOC(String outputFilePath)
+	{
+		try{
+			InputStream is = obj.get_ToC_XMLStream();
+		OutputStream os = new FileOutputStream(outputFilePath + "table_of_contents.xml");
+		byte[] buffer = new byte[4096];  
+		int bytesRead;  
+		while ((bytesRead = is.read(buffer)) != -1) {  
+		  os.write(buffer, 0, bytesRead);  
+		}  
+		is.close();
+		os.close();
+		}catch(Exception ex){
+			System.out.println("Error while downloading the table_of_contents.xml");
+		}
+	}
 	/**
 	 * Load the last TableOfContents.xml from the directory.
 	 * @param filePath
@@ -151,25 +277,74 @@ public class DiffToC {
 		readDataSetEntries(false);
 	}
 	
+	public void printLogs()
+	{
+		DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+		Date date = new Date();
+		
+		writeDataToFile("");
+		writeDataToFile("===================================================================================================================================================================================================");
+		writeDataToFile("***************************************************************************************************************************************************************************************************");
+		writeDataToFile("===================================================================================================================================================================================================");
+		writeDataToFile("");
+		writeDataToFile("The time when script was run : " + dateFormat.format(date));
+		writeDataToFile("Total number of Datasets that has been changed since last update : " + arrDatasets.size());
+		writeDataToFile("");
+		writeDataToFile("The datasets are :");
+		if(arrDatasets.size() > 0 )
+		{
+			for(String str:arrDatasets)
+				writeDataToFile(str);
+		}
+		else
+			writeDataToFile("0 dataset updates found.");
+		
+	}
+	
+	public void createLogFile(String filePath)
+	{
+		try
+	   	{
+			fstream = new FileWriter(filePath + "log.txt",true);
+			write = new BufferedWriter(fstream);
+	   	}catch(Exception e)
+	   	{
+	   		System.err.println("Error in opening the file : " + e.getMessage());
+	   	}
+	}
+	
+	public void writeDataToFile(String line)
+	{
+		try{
+	       	write.newLine();
+	       	write.write(line);
+	    }
+	    catch (Exception e){//Catch exception if any
+	       	      System.err.println("Error while writing data to file : " + e.getMessage());
+	    }
+	}
+	
 	private static void usage()
 	{
 		System.out.println("usage: DiffToC [parameters]");
 		System.out.println();
 		System.out.println("	-i input filepath	Input file path of the TableOfContents.xml file.");
 		System.out.println("	-o output filepath	Output directory path where the new TableOfContents.xml file will be saved.");
+		System.out.println("	-f log filepath		Output directory path where the log file will be created.");
 	}
-
+	
 	public static void main(String[] args) throws Exception
 	{
 		String inputFilePath = "";
 		String outputFilePath = "";
+		String logFilePath = "";
 		
 		CommandLineParser parser = new BasicParser( );
 		Options options = new Options( );
 		options.addOption("h", "help", false, "Print this usage information");
 		options.addOption("i", "file path", true, "Input file path of the TableOfContents.xml file.");
 		options.addOption("o", "outputFilePath", true, "Output directory path where the new TableOfContents.xml file will be saved.");
-		
+		options.addOption("f", "logFilePath", true, "Output directory path where the log file will be created.");
 		CommandLine commandLine = parser.parse( options, args );
 		
 		if( commandLine.hasOption('h') ) {
@@ -183,7 +358,10 @@ public class DiffToC {
 		if(commandLine.hasOption('o'))
 			outputFilePath = commandLine.getOptionValue('o');
 		
-		if(inputFilePath.equals("") || outputFilePath.equals(""))
+		if(commandLine.hasOption('f'))
+			logFilePath = commandLine.getOptionValue('f');
+		
+		if(inputFilePath.equals("") || outputFilePath.equals("") || logFilePath.equals(""))
 		{
 			usage();
 			return;
@@ -191,13 +369,8 @@ public class DiffToC {
 		else
 		{
 			DiffToC obj = new DiffToC();
-			obj.runComparison(inputFilePath,outputFilePath);
-			
-			for(String str:arrDatasets)
-				System.out.println(str);
-			
-			System.out.println("total changes ... " + arrDatasets.size());
+			obj.runComparison(inputFilePath,outputFilePath,logFilePath);
 		}
-			
+		
 	}
 }
