@@ -12,7 +12,7 @@ import com.hp.hpl.jena.rdf.model.Property;
 public class ParserUtil {
 
 	public static String rdfs = "http://www.w3.org/2000/01/rdf-schema#";
-	public static String skos = "http://www.w3.org/2004/02/skos#";
+	public static String skos = "http://www.w3.org/2004/02/skos/core#";
 	public static String qb = "http://purl.org/linked-data/cube#";
 	public static String sdmx_concept = "http://purl.org/linked-data/sdmx/2009/concept#";
 	public static String concepts = "http://eurostat.linked-statistics.org/concept#";

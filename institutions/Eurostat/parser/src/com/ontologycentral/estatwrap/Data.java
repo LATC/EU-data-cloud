@@ -191,7 +191,7 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
          out.writeAttribute("rdf:about", "/data/" + id + "#" + obs_URI);
          obs_URI = "";
          
-         out.writeStartElement("qb:dataset");
+         out.writeStartElement("qb:dataSet");
          out.writeAttribute("rdf:resource", "/data/" + id);
          // @@@ workaround to get query processor to function
          //out.writeAttribute("rdf:resource", id + "#ds");
