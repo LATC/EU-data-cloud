@@ -45,7 +45,9 @@ public class DiffToC {
 	HashMap<String, String> hshMap_Old = new HashMap<String, String>();
 	HashMap<String, String> hshMap_URLs = new HashMap<String, String>();
 	HashMap<String, String> hshMap_Titles = new HashMap<String, String>();
-	static ArrayList<String> arrDatasets = new ArrayList<String>();
+	static ArrayList<String> dsUpdates = new ArrayList<String>();
+	static ArrayList<String> newDatasets = new ArrayList<String>();
+	static ArrayList<String> missingDatasets = new ArrayList<String>();
 	static BufferedWriter write = null;
 	static FileWriter fstream = null;
 	
@@ -53,6 +55,11 @@ public class DiffToC {
 	{
 		read_New_TOC();
 		readTOC(inputFilePath);
+		
+		// for testing
+		//readTOC_1(inputFilePath + "table_of_contents_1.xml");
+		//readTOC(inputFilePath + "table_of_contents.xml");
+		
 		//System.out.println(hshMap_New.size());
 		//System.out.println(hshMap_Old.size());
 		
@@ -62,22 +69,28 @@ public class DiffToC {
 			String newDate = entry.getValue();
 			String oldDate = "";
 
-			//System.out.println(code + " : " + modifiedDate);
 			oldDate = hshMap_Old.get(code);
-			//System.out.println(oldDate);
 			if(oldDate == null)
-				arrDatasets.add(hshMap_Titles.get(code) + " ] [ " + hshMap_URLs.get(code));
+				newDatasets.add("[" + hshMap_Titles.get(code) + "] [" + hshMap_URLs.get(code) + "]");
 			else if(!oldDate.equals("") && !newDate.equals(""))
 			{
 				if(!isGreater(oldDate,newDate) && !oldDate.equals(newDate))
-					arrDatasets.add(hshMap_Titles.get(code) + " ] [ " + hshMap_URLs.get(code));
+					dsUpdates.add("[" + hshMap_Titles.get(code) + "] [" + hshMap_URLs.get(code) + "]");
 					//arrDatasets.add(code + " # " + oldDate + " # " + newDate + " # " + hshMap_Titles.get(code) + " # " + hshMap_URLs.get(code));
 			}
+		}
+		
+		for (Map.Entry<String, String> entry : hshMap_Old.entrySet())
+		{
+			String code = entry.getKey();
+			if(hshMap_New.get(code) == null)
+				missingDatasets.add("[" + hshMap_Titles.get(code) + "] [" + hshMap_URLs.get(code) + "]");
 		}
 		
 		createLogFile(logFilePath);
 		printLogs();
 		download_New_TOC(outputFilePath);
+
 		try{
         	write.flush();  
         	write.close();
@@ -85,6 +98,7 @@ public class DiffToC {
 			System.out.println("Error while closing the file...");
 		}
 		System.out.println("Comparison has been completed. Please see the Logs.");
+		
 	}
 	
 	public boolean isGreater(String originalDate, String modifiedDate)
@@ -277,6 +291,12 @@ public class DiffToC {
 		readDataSetEntries(false);
 	}
 	
+	public void readTOC_1(String filePath)
+	{
+		initObjects(filePath);
+		readDataSetEntries(true);
+	}
+	
 	public void printLogs()
 	{
 		DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
@@ -288,16 +308,34 @@ public class DiffToC {
 		writeDataToFile("===================================================================================================================================================================================================");
 		writeDataToFile("");
 		writeDataToFile("The time when script was run : " + dateFormat.format(date));
-		writeDataToFile("Total number of Datasets that has been changed since last update : " + arrDatasets.size());
-		writeDataToFile("");
-		writeDataToFile("The datasets are :");
-		if(arrDatasets.size() > 0 )
+		writeDataToFile("Total number of datasets that has been changed since last update : " + dsUpdates.size());
+		writeDataToFile("New datasets found are : " + newDatasets.size());
+		writeDataToFile("Datasets which has been removed : " + missingDatasets.size());
+		
+		if(dsUpdates.size() > 0 )
 		{
-			for(String str:arrDatasets)
+			writeDataToFile("");
+			writeDataToFile("Updated datasets are :");
+			for(String str:dsUpdates)
 				writeDataToFile(str);
 		}
-		else
-			writeDataToFile("0 dataset updates found.");
+
+		if(newDatasets.size() > 0 )
+		{
+			writeDataToFile("");
+			writeDataToFile("New datasets are :");
+			for(String str:newDatasets)
+				writeDataToFile(str);
+		}		
+
+		if(missingDatasets.size() > 0 )
+		{
+			writeDataToFile("");
+			writeDataToFile("Removed datasets are :");
+			for(String str:missingDatasets)
+				writeDataToFile(str);
+		}		
+
 		
 	}
 	
