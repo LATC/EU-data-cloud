@@ -80,6 +80,62 @@ The query above uses dataset `demo_r_pjanaggr3`, which contains `Population by s
 
 We only want data for 2007, and both sexes. We then join the data with the `env_n2_wu` dataset, which contains `Water use (NUTS2) - mio m3`. We can then find the regions with the most domestic water (code W18_2_7_2) use per million inhabitants.
 
+Another example query
+=====================
+
+Below is a SPARQL query that combines 24 Eurostat datasets. It is a combined query on all national statistics for Albacore. The idea is to see if a species needs further protection in the form of fishing quotas etc. A similar query is used [here](http://eunis.eea.europa.eu/species/124054/linkeddata).
+
+	PREFIX qb: <http://purl.org/linked-data/cube#>
+	PREFIX e: <http://ontologycentral.com/2009/01/eurostat/ns#>
+	PREFIX sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#>
+	PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+	PREFIX g: <http://eurostat.linked-statistics.org/ontologies/geographic.rdf#>
+	PREFIX dataset: <http://eurostat.linked-statistics.org/data/>
+	PREFIX eunis: <http://eunis.eea.europa.eu/rdf/species-schema.rdf#>
+ 
+	SELECT ?country ?year ?presentation ?landed ?unit
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_be.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_bg.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_cy.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_de.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_dk.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_ee.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_es.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_fi.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_fr.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_gr.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_ie.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_is.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_it.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_lt.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_lv.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_mt.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_nl.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_no.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_pl.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_pt.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_ro.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_se.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_si.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_uk.rdf>
+	FROM <http://semantic.eea.europa.eu/home/roug/eurostatdictionaries.rdf>
+	WHERE {
+	  ?obsUri e:species <http://eurostat.linked-statistics.org/dic/species#ALB>;
+	          e:pres <http://eurostat.linked-statistics.org/dic/pres#P00>, ?upresentation;
+	          e:dest <http://eurostat.linked-statistics.org/dic/dest#D0>;
+	          e:natvessr <http://eurostat.linked-statistics.org/dic/natvessr#TOTAL>;
+	          e:unit <http://eurostat.linked-statistics.org/dic/unit#TPW>, ?uunit;
+	          e:geo ?ucountry;
+	          e:time ?uyear;
+	          sdmx-measure:obsValue ?landed.
+	  ?ucountry skos:prefLabel ?country.
+	  ?uunit skos:prefLabel ?unit.
+	  ?uyear skos:prefLabel ?year.
+	  ?upresentation skos:prefLabel ?presentation.
+	} ORDER BY ?country ?year ?presentation
+
+
+
 URIs for Eurostat identities
 ===========================
 
