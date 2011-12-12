@@ -89,6 +89,7 @@ public class DiffToC {
 		
 		createLogFile(logFilePath);
 		printLogs();
+		
 		download_New_TOC(outputFilePath);
 
 		try{

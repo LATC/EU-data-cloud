@@ -23,6 +23,10 @@ import org.apache.commons.cli.BasicParser;
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.Options;
+import org.deri.eurostat.dsdparser.ParserUtil;
+
+import com.hp.hpl.jena.rdf.model.Model;
+import com.hp.hpl.jena.rdf.model.Resource;
 
 public class DictionaryParser {
 
@@ -30,6 +34,11 @@ public class DictionaryParser {
 	public static String[] LANG = { "en" } ;
 	private static String outputFilePath = "";
 	private static String dictionaryPath = "";
+	private static String serialization = "TURTLE";
+	private static String fileExt = ".ttl";
+	private static String catalogPath = "";
+	
+	Model model;
 	
 	public void loadDictionaries() throws Exception
 	{
@@ -37,8 +46,21 @@ public class DictionaryParser {
 		 
 		 File[] files = dir.listFiles();
 		 
+		if(serialization.equalsIgnoreCase("RDF/XML"))
+			fileExt = ".rdf";
+		else if(serialization.equalsIgnoreCase("TURTLE"))
+			fileExt = ".ttl";
+		else if(serialization.equalsIgnoreCase("N-TRIPLES"))
+			fileExt = ".nt";
+		 
+		 // create catalog.ttl which will be used to load dictionaries into SPARQL endpoint
+		 createCatalog();
+		 
 		 for(File dic:files)
+		 {
 			 downloadDictionary(dic.getName());
+			 addDictoModel(dic.getName());
+		 }
 	}
 	
 	public void downloadDictionary(String id) throws Exception
@@ -132,10 +154,12 @@ public class DictionaryParser {
 	
 	private static void usage()
 	{
-		System.out.println("usage: UnCompressFile [parameters]");
+		System.out.println("usage: Eurostat Dictionary Parser [parameters]");
 		System.out.println();
-		System.out.println("	-i Dictionary Path	Directory path where the dictionary files are stored.");
-		System.out.println("	-o Output Path		Output directory path to generate the RDF.");
+		System.out.println("	-i dictionary path	Directory path where the dictionary files are stored.");
+		System.out.println("	-o output path		Output directory path where the RDF representation of dictionaries will be created.");
+		System.out.println("	-c catalog path		Output directory path where the catalog file will be created.");
+		System.out.println("	(optional)-f format	RDF format for serialization (RDF/XML, TURTLE, N-TRIPLES).");
 	}
 	
 	public static void main(String[] args) throws Exception
@@ -144,7 +168,9 @@ public class DictionaryParser {
 		Options options = new Options( );
 		options.addOption("h", "help", false, "Print this usage information");
 		options.addOption("i", "dictionaryPath", true, "Directory path where the dictionary files are stored.");
-		options.addOption("o", "outputPath", true, "Output directory path to generate the RDF.");
+		options.addOption("o", "outputPath", true, "Output directory path where the RDF representation of dictionaries will be created.");
+		options.addOption("c", "catalog Path", true, "Output directory path where the catalog file will be created.");
+		options.addOption("f", "format", true, "RDF format for serialization (RDF/XML, TURTLE, N-TRIPLES).");
 		CommandLine commandLine = parser.parse( options, args );
 
 		if( commandLine.hasOption('h') ) {
@@ -158,7 +184,13 @@ public class DictionaryParser {
 		if(commandLine.hasOption('o'))
 			outputFilePath = commandLine.getOptionValue('o');
 		
-		if(dictionaryPath.equals("") || outputFilePath.equals(""))
+		if(commandLine.hasOption('f'))
+			serialization = commandLine.getOptionValue('f');
+		
+		if(commandLine.hasOption('c'))
+			catalogPath = commandLine.getOptionValue('c');
+		
+		if(dictionaryPath.equals("") || outputFilePath.equals("") || serialization.equals("") || catalogPath.equals(""))
 		{
 			usage();
 			return;
@@ -171,4 +203,40 @@ public class DictionaryParser {
 		
 	}
 	
+	public void createCatalog()
+	{
+		model = ParserUtil.getModelProperties();
+		
+		Resource main = model.createResource(ParserUtil.baseURI);
+		model.add(main,ParserUtil.type,ParserUtil.voidDataset);
+	
+	}
+	
+	// this function will add dictionary to the model
+	public void addDictoModel(String dic)
+	{
+		dic = dic.substring(0,dic.indexOf(".dic"));
+		
+		Resource dsd = model.createResource(ParserUtil.dicURI + dic);
+		model.add(dsd,ParserUtil.type,ParserUtil.skosConcept);
+		model.add(dsd,ParserUtil.type,ParserUtil.voidDataset);
+		model.add(dsd,ParserUtil.dataDump,model.createProperty(ParserUtil.dicURI + dic + ".rdf"));
+
+	}
+	
+	public void writeTriplesToFile(String fileName, Model model)
+	{
+
+		try
+	   	{
+			
+			//System.out.println(outputFilePath + fileName + fileExt);
+			OutputStream output = new FileOutputStream(catalogPath + fileName + fileExt,false);
+			model.write(output,serialization.toUpperCase());
+			
+	   	}catch(Exception e)
+	   	{
+	   		System.out.println("Error while creating file ..." + e.getMessage());
+	   	}
+	}
 }

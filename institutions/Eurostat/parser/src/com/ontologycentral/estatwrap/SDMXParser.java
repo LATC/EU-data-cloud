@@ -44,6 +44,7 @@ import org.xml.sax.SAXException;
 public class SDMXParser {
 
 	private static String outputFilePath = "";
+	private static String logFilePath = "";
 	private Document xmlDocument;
 	
 	public SDMXParser(String outPath)
@@ -77,8 +78,16 @@ public class SDMXParser {
 
 		try {
 			HttpURLConnection conn = (HttpURLConnection)url.openConnection();
+			HttpURLConnection conn_1 = (HttpURLConnection)url.openConnection();
 			InputStream is = new GZIPInputStream(conn.getInputStream());
-
+			InputStream is_1 = new GZIPInputStream(conn_1.getInputStream());
+			
+			// test
+			//InputStream input = new FileInputStream("c:\\data\\input-text.txt");
+			//InputStream is = new GZIPInputStream(new FileInputStream("C:\\test\\med_en22.tsv\\med_en22.tsv"));
+			//InputStream is = new FileInputStream("C:\\test\\med_en22.tsv\\med_en22_1.tsv");
+			//InputStream is_1 = new FileInputStream("C:\\test\\med_en22.tsv\\med_en22_1.tsv");
+			
 			if (conn.getResponseCode() != 200) {
 				//resp.sendError(conn.getResponseCode());
 			}
@@ -89,7 +98,8 @@ public class SDMXParser {
 			}
 
 			BufferedReader in = new BufferedReader(new InputStreamReader(is, encoding));
-
+			BufferedReader in_1 = new BufferedReader(new InputStreamReader(is_1, encoding));
+			
 			//resp.setHeader("Cache-Control", "public");
 			Calendar c = Calendar.getInstance();
 			c.add(Calendar.HOUR, 1);
@@ -106,7 +116,7 @@ public class SDMXParser {
 
 			String freq = get_FREQ_fromSDMX(sdmxFilePath);
 			//String freq = "";
-			DataPage.convert(ch, id, in, freq);
+			DataPage.convert(ch, id, in, in_1, freq, id,logFilePath);
 
 			ch.close();
 		} catch (IOException e) {
@@ -199,7 +209,8 @@ public class SDMXParser {
 		System.out.println();
 		System.out.println("	-f filename		Name of the file.");
 		System.out.println("	-i file path	File path of the SDMX xml file.");
-		System.out.println("	-o output filepath	Output directory path to generate DataCube representation of observations.");
+		System.out.println("	-o output file path	Output directory path to generate DataCube representation of observations.");
+		System.out.println("	-l log file path	File path where the logs will be generated.");
 		
 	}
 	
@@ -212,7 +223,8 @@ public class SDMXParser {
 		options.addOption("h", "help", false, "Print this usage information");
 		options.addOption("f", "filename", true, "Name of the file.");
 		options.addOption("i", "file path", true, "File path of the SDMX xml file.");
-		options.addOption("o", "outputFilePath", true, "Output directory path to generate DataCube representation of observations");
+		options.addOption("o", "output file path", true, "Output directory path to generate DataCube representation of observations");
+		options.addOption("l", "log file path", true, "File path where the logs will be generated");
 		
 		CommandLine commandLine = parser.parse( options, args );
 		
@@ -230,7 +242,10 @@ public class SDMXParser {
 		if(commandLine.hasOption('o'))
 			outputFilePath = commandLine.getOptionValue('o');
 		
-		if(fileName.equals("") || sdmxFilePath.equals("") || outputFilePath.equals(""))
+		if(commandLine.hasOption('l'))
+			logFilePath = commandLine.getOptionValue('l');
+		
+		if(fileName.equals("") || sdmxFilePath.equals("") || outputFilePath.equals("") || logFilePath.equals(""))
 		{
 			usage();
 			return;

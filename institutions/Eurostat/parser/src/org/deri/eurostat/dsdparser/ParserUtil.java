@@ -22,6 +22,8 @@ public class ParserUtil {
 	public static String rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
 	public static String dcterms = "http://purl.org/dc/terms/";
 	public static String sdmx_code = "http://purl.org/linked-data/sdmx/2009/code#";
+	public static String sdmx_measure = "http://purl.org/linked-data/sdmx/2009/measure#";
+	public static String sdmx_dimension = "http://purl.org/linked-data/sdmx/2009/dimension#";
 	public static String xsd = "http://www.w3.org/2001/XMLSchema#";
 	public static String sdmxURI = "http://purl.org/linked-data/sdmx#";
 	
@@ -29,6 +31,7 @@ public class ParserUtil {
 	public static String dssURI = "http://eurostat.linked-statistics.org/dss#";
 	public static String titleURI = "http://eurostat.linked-statistics.org/title#";
 	public static String dsdURI = "http://eurostat.linked-statistics.org/dsd/";
+	public static String dicURI = "http://eurostat.linked-statistics.org/dic/";
 	public static String dataURI = "http://eurostat.linked-statistics.org/data/";
 	public static String baseURI = "http://eurostat.linked-statistics.org/";
 	
@@ -107,10 +110,12 @@ public class ParserUtil {
 		m.setNsPrefix("sdmx", sdmxURI);
 		m.setNsPrefix("concept", concepts);
 		m.setNsPrefix("property", property);
+		m.setNsPrefix("sdmx-measure", sdmx_measure);
+		m.setNsPrefix("sdmx-dimension", sdmx_dimension);
 		m.setNsPrefix("cl", cl);
 		m.setNsPrefix("sdmx-code", sdmx_code);
 		m.setNsPrefix("rdf", rdf);
-		m.setNsPrefix("dc", dcterms);
+		m.setNsPrefix("dcterms", dcterms);
 		m.setNsPrefix("xsd", xsd);
 		m.setNsPrefix("void", voidURI);
 		m.setNsPrefix("dss", dssURI);

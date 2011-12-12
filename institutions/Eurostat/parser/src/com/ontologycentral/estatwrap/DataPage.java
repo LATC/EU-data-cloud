@@ -13,7 +13,7 @@ public class DataPage {
 
 	public static SimpleDateFormat ISO8601 = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssZ");
 	
-	public static void convert(XMLStreamWriter ch, String id, Reader in, String freq) throws XMLStreamException, IOException {
+	public static void convert(XMLStreamWriter ch, String id, Reader in, Reader in1, String freq, String datasetID, String logPath) throws XMLStreamException, IOException {
 		ch.writeStartDocument("utf-8", "1.0");
 
 		ch.writeStartElement("rdf:RDF");
@@ -23,6 +23,8 @@ public class DataPage {
 		ch.writeNamespace("foaf", "http://xmls.com/foaf/0.1/");
 		ch.writeNamespace("qb", "http://purl.org/linked-data/cube#");
 		ch.writeNamespace("sdmx-measure", "http://purl.org/linked-data/sdmx/2009/measure#");
+		ch.writeNamespace("sdmx-dimension", "http://purl.org/linked-data/sdmx/2009/dimension#");
+		ch.writeNamespace("property", "http://eurostat.linked-statistics.org/property#");
 		ch.writeNamespace("dcterms", "http://purl.org/dc/terms/");
 		
 		ch.writeStartElement("rdf:Description");
@@ -64,8 +66,13 @@ public class DataPage {
 		ch.writeEndElement();
 		
 		Data d = new Data(in);
+		d.getObservationType(in1);
+		d.convert(ch, id, freq, datasetID, logPath);
 		
-        d.convert(ch, id, freq);
+		//d.getObservationType(in);
+		//Data d1 = new Data(in);
+		//d.getObservationType(in1);
+        //d.convert(ch, id, freq);
         
         ch.writeEndElement();
         ch.writeEndDocument();
