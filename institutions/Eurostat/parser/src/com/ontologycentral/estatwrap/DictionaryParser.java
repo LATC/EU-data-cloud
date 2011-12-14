@@ -61,6 +61,7 @@ public class DictionaryParser {
 			 downloadDictionary(dic.getName());
 			 addDictoModel(dic.getName());
 		 }
+		 writeTriplesToFile("dic_catalog", model);
 	}
 	
 	public void downloadDictionary(String id) throws Exception

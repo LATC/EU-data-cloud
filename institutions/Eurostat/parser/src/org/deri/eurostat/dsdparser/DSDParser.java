@@ -491,7 +491,7 @@ public class DSDParser {
 						}
 						else
 						{
-							Property cList = model.createProperty(ParserUtil.cl + obj.getId().substring(obj.getId().indexOf("_")+1).toLowerCase());
+							Property cList = model.createProperty(ParserUtil.dicURI + obj.getId().substring(obj.getId().indexOf("_")+1).toLowerCase());
 							model.add(prop,ParserUtil.codeList,cList);
 							model.add(prop,ParserUtil.rdfsRange,ParserUtil.skosConcept);
 							//Property cncpt = model.createProperty(ParserUtil.concepts + dim.getConceptRef());
@@ -560,7 +560,7 @@ public class DSDParser {
 						}
 						else
 						{
-							Property cList = model.createProperty(ParserUtil.cl + obj.getId().substring(obj.getId().indexOf("_")+1).toLowerCase());
+							Property cList = model.createProperty(ParserUtil.dicURI + obj.getId().substring(obj.getId().indexOf("_")+1).toLowerCase());
 							model.add(prop,ParserUtil.codeList,cList);
 							model.add(prop,ParserUtil.rdfsRange,ParserUtil.skosConcept);
 							Property cncpt = model.createProperty(ParserUtil.concepts + (dim.getConceptRef().toLowerCase().equals("time_period") ? "time" : dim.getConceptRef().toLowerCase()));
@@ -606,7 +606,7 @@ public class DSDParser {
 						}
 						else
 						{
-							Property cList = model.createProperty(ParserUtil.cl + obj.getId().substring(obj.getId().indexOf("_")+1).toLowerCase());
+							Property cList = model.createProperty(ParserUtil.dicURI + obj.getId().substring(obj.getId().indexOf("_")+1).toLowerCase());
 							model.add(prop,ParserUtil.codeList,cList);
 							model.add(prop,ParserUtil.rdfsRange,ParserUtil.skosConcept);
 							Property cncpt = model.createProperty(ParserUtil.concepts + (measure.getConceptRef().toLowerCase().equals("time_period") ? "time" : measure.getConceptRef().toLowerCase()));
@@ -651,7 +651,7 @@ public class DSDParser {
 					}
 					else
 					{
-						Property cList = model.createProperty(ParserUtil.cl + obj.getId().substring(obj.getId().indexOf("_")+1).toLowerCase());
+						Property cList = model.createProperty(ParserUtil.dicURI + obj.getId().substring(obj.getId().indexOf("_")+1).toLowerCase());
 						model.add(prop,ParserUtil.codeList,cList);
 						model.add(prop,ParserUtil.rdfsRange,ParserUtil.skosConcept);
 						Property cncpt = model.createProperty(ParserUtil.concepts + (att.getConceptRef().toLowerCase().equals("time_period") ? "time" : att.getConceptRef().toLowerCase()));

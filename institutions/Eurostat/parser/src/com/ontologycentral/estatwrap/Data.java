@@ -327,8 +327,9 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
 
 // new code
          
-         out.writeStartElement("dcterms:date");
-         out.writeCharacters((String)hcol.get(i));
+         out.writeStartElement("sdmx-dimension:timePeriod");
+         out.writeAttribute("rdf:datatype", xsd + "date");
+         out.writeCharacters(time.convertTimeSereis((String)hcol.get(i)));
          out.writeEndElement();
 // old code
 //         out.writeStartElement("property:" + (String)h.getDim2());

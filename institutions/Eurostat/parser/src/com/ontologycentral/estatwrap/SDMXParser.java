@@ -116,6 +116,7 @@ public class SDMXParser {
 
 			String freq = get_FREQ_fromSDMX(sdmxFilePath);
 			//String freq = "";
+			
 			DataPage.convert(ch, id, in, in_1, freq, id,logFilePath);
 
 			ch.close();
@@ -177,9 +178,14 @@ public class SDMXParser {
 						{
 							Attribute attribute = attributes.next();
 							// if it has a FREQ attribute
-							if (attribute.getName().toString().equals("FREQ")) 
+//							if (attribute.getName().toString().equals("FREQ")) 
+//							{
+//								//System.out.println(attribute.getValue());
+//								freq = attribute.getValue();
+//								break;
+//							}
+							if (attribute.getName().toString().equals("TIME_FORMAT"))
 							{
-								//System.out.println(attribute.getValue());
 								freq = attribute.getValue();
 								break;
 							}
