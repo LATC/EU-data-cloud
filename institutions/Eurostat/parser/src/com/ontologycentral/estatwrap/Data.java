@@ -340,16 +340,16 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
          out.writeStartElement("sdmx-measure:obsValue");
          String val = (String)lcol.get(i);
          //System.out.println(val);
-         String datatype = "";
-         if(type.equals("decimal"))
-        	 datatype = "";
+         //String datatype = "";
+         //if(type.equals("decimal"))
+        	// datatype = "";
          
-         String note = null;
+         String status = null;
          if (val.indexOf(' ') > 0) {
-                 note = val.substring(val.indexOf(' ')+1);
+                 status = val.substring(val.indexOf(' ')+1);
                  val = val.substring(0, val.indexOf(' '));
-                 //out.writeAttribute("rdf:datatype", Dictionary.PREFIX + "obs_status#" + note);
-                 
+                 //out.writeAttribute("rdf:resource", "/dic/obs_status#" + status);
+                 //out.writeAttribute("rdf:datatype", Dictionary.PREFIX + "obs_status#" + status);
          }
  
 // new code         
@@ -373,6 +373,13 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
          
          
          out.writeEndElement();
+         
+         if(status != null)
+         {
+        	 out.writeStartElement("sdmx-attribute:obsStatus");
+             out.writeAttribute("rdf:resource", "/dic/obs_status#" + status);
+             out.writeEndElement();
+         }
          out.writeEndElement();
          
 // old code         

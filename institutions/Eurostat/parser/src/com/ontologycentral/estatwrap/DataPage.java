@@ -24,6 +24,7 @@ public class DataPage {
 		ch.writeNamespace("qb", "http://purl.org/linked-data/cube#");
 		ch.writeNamespace("sdmx-measure", "http://purl.org/linked-data/sdmx/2009/measure#");
 		ch.writeNamespace("sdmx-dimension", "http://purl.org/linked-data/sdmx/2009/dimension#");
+		ch.writeNamespace("sdmx-attribute", "http://purl.org/linked-data/sdmx/2009/attribute#");
 		ch.writeNamespace("property", "http://eurostat.linked-statistics.org/property#");
 		ch.writeNamespace("dcterms", "http://purl.org/dc/terms/");
 		

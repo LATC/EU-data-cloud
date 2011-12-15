@@ -178,17 +178,17 @@ public class SDMXParser {
 						{
 							Attribute attribute = attributes.next();
 							// if it has a FREQ attribute
-//							if (attribute.getName().toString().equals("FREQ")) 
-//							{
-//								//System.out.println(attribute.getValue());
-//								freq = attribute.getValue();
-//								break;
-//							}
-							if (attribute.getName().toString().equals("TIME_FORMAT"))
+							if (attribute.getName().toString().equals("FREQ")) 
 							{
+								//System.out.println(attribute.getValue());
 								freq = attribute.getValue();
 								break;
 							}
+//							if (attribute.getName().toString().equals("TIME_FORMAT"))
+//							{
+//								freq = attribute.getValue();
+//								break;
+//							}
 						}
 					}
 					// if freq is found or in 10 observations we didnt find the FREQ attribute than 
