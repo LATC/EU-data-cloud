@@ -13,7 +13,7 @@ dsdPath=/data/eurostat/dsd/
 dataPath=/data/eurostat/data/
 
 #directory path where log file will be
-logPath=/data/eurostat/log/
+logPath=/data/eurostat/logs/
 
 
 i=1
