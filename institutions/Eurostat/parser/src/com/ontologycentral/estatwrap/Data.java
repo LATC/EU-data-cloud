@@ -21,7 +21,7 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
 
 	static BufferedWriter write = null;
 	static FileWriter fstream = null;
-	
+	int timePosition = 0;
 	// here, use a threshold to limit the amount of data converted (GAE limitations)
 	public static int MAX_COLS = 8;
 	public static int MAX_ROWS = 1024;
@@ -107,6 +107,13 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
 				System.out.println("Error while closing the file...");
 			}
 		}
+		
+		List hd1 = h.getDim1();
+		for (int j = 0; j < hd1.size(); ++j) {
+       	 //System.out.println("hd1 --> " + hd1.get(j));
+         if(hd1.get(j).equals("time"))
+        	 timePosition = j;
+        }
 		
 		while ((line = _in.readLine()) != null) {
 			//System.out.println("in print truple");
@@ -319,18 +326,55 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
          }
          
          for (int j = 0; j < hd1.size(); ++j) {
-        	 
-         out.writeStartElement("property:" + (String)hd1.get(j));
-         out.writeAttribute("rdf:resource", Dictionary.PREFIX + (String)hd1.get(j) + "#" + (String)ld1.get(j));
-         out.writeEndElement();
+        	 //System.out.println("hd1 --> " + hd1.get(j));
+        	 if(!hd1.get(j).equals("time"))
+        	 {
+        		 out.writeStartElement("property:" + (String)hd1.get(j));
+        		 out.writeAttribute("rdf:resource", Dictionary.PREFIX + (String)hd1.get(j) + "#" + (String)ld1.get(j));
+        		 out.writeEndElement();
+        	 }
+        	 else
+        	 {
+                 String timeperiod = time.convertTimeSereis((String)ld1.get(j));
+                 out.writeStartElement("sdmx-dimension:timePeriod");
+                 
+                 if(timeperiod.equals("LTAA"))
+                 {
+                	 out.writeAttribute("rdf:resource", "http://eurostat.linked-statistics.org/misc");
+                 }
+                 else
+                 {
+                	 out.writeAttribute("rdf:datatype", xsd + "date");
+                	 out.writeCharacters(timeperiod);
+                 }
+                 out.writeEndElement();
+        	 }
          }
 
+         //System.out.println(hcol.get(i));
 // new code
-         
-         out.writeStartElement("sdmx-dimension:timePeriod");
-         out.writeAttribute("rdf:datatype", xsd + "date");
-         out.writeCharacters(time.convertTimeSereis((String)hcol.get(i)));
-         out.writeEndElement();
+         if(h.getDim2().equalsIgnoreCase("time"))
+         {
+             String timeperiod = time.convertTimeSereis((String)hcol.get(i));
+             out.writeStartElement("sdmx-dimension:timePeriod");
+             
+             if(timeperiod.equals("LTAA"))
+             {
+            	 out.writeAttribute("rdf:resource", "http://eurostat.linked-statistics.org/misc");
+             }
+             else
+             {
+            	 out.writeAttribute("rdf:datatype", xsd + "date");
+            	 out.writeCharacters(timeperiod);
+             }
+             out.writeEndElement();
+         }
+         else
+         {
+        	 out.writeStartElement("property:" + (String)h.getDim2());
+             out.writeAttribute("rdf:resource", Dictionary.PREFIX + (String)h.getDim2() + "#" + (String)hcol.get(i));
+             out.writeEndElement();
+         }
 // old code
 //         out.writeStartElement("property:" + (String)h.getDim2());
 //         out.writeAttribute("rdf:resource", Dictionary.PREFIX + (String)h.getDim2() + "#" + (String)hcol.get(i));
@@ -339,6 +383,7 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
          //http://purl.org/linked-data/sdmx/2009/measure#obsValue
          out.writeStartElement("sdmx-measure:obsValue");
          String val = (String)lcol.get(i);
+         
          //System.out.println(val);
          //String datatype = "";
          //if(type.equals("decimal"))
@@ -353,6 +398,16 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
          }
  
 // new code         
+
+         // certain observation values are represented by '-', we consider them to be 0.
+         if(val.equals("-"))
+         {
+        	 if(type.equals("decimal"))
+        		 val = "0.00";
+        	 else if(type.equals("integer"))
+        		 val = "0";
+         }
+
          if(type.equals("decimal"))
          {
         	 out.writeAttribute("rdf:datatype", xsd + "decimal");
@@ -415,17 +470,21 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
          	}
 		 else
 		 {
-			 try
+			 // some datasets has observation values like '-'. We will ignore such values in order to determine the correct data type for the dataset.
+			 if(!str.equals("-"))
 			 {
-				 Integer.parseInt(str);
-				 if(!type.equals("decimal") & !type.equals("non-numeric value"))
-					 type = "integer";
-				 //System.out.println(str + " is valid integer number");
-			 }
-			 catch(NumberFormatException nme)
-			 {
-				 //System.out.println(str + " is not a valid integer number");
-				 type = "non-numeric value";
+				 try
+				 {
+					 Integer.parseInt(str);
+					 if(!type.equals("decimal") & !type.equals("non-numeric value"))
+						 type = "integer";
+					 //System.out.println(str + " is valid integer number");
+				 }
+				 catch(NumberFormatException nme)
+				 {
+					 //System.out.println(str + " is not a valid integer number");
+					 type = "non-numeric value";
+				 }
 			 }
 		}
 		 

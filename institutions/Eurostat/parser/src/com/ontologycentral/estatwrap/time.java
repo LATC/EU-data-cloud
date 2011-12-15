@@ -85,7 +85,7 @@ public class time {
 			
 			return year + quarterly(freq);
 		}
-		// for time period like : 2011M
+		// for time period like : 2011M04
 		else if(time.contains("M") & time.length() >=6 & time.length() <=7)
 		{
 			freq = time.substring(time.indexOf("M"));
@@ -93,6 +93,8 @@ public class time {
 			
 			return year + monthly(freq);
 		}
+		else if(time.length() == 4)
+			return time + "-01-01";
 		else 
 			return time;
 	}
@@ -116,23 +118,23 @@ public class time {
 	//for example : 2011M3
 	public static String monthly(String value)
 	{
-		if(value.equals("M1"))
+		if(value.equals("M1") || value.equals("M01"))
 			return Monthly.M1.getValue();
-		else if(value.equals("M2"))
+		else if(value.equals("M2") || value.equals("M02"))
 			return Monthly.M2.getValue();
-		else if(value.equals("M3"))
+		else if(value.equals("M3") || value.equals("M03"))
 			return Monthly.M3.getValue();
-		else if(value.equals("M4"))
+		else if(value.equals("M4") || value.equals("M04"))
 			return Monthly.M4.getValue();
-		else if(value.equals("M5"))
+		else if(value.equals("M5") || value.equals("M05"))
 			return Monthly.M5.getValue();
-		else if(value.equals("M6"))
+		else if(value.equals("M6") || value.equals("M06"))
 			return Monthly.M6.getValue();
-		else if(value.equals("M7"))
+		else if(value.equals("M7") || value.equals("M07"))
 			return Monthly.M7.getValue();
-		else if(value.equals("M8"))
+		else if(value.equals("M8") || value.equals("M08"))
 			return Monthly.M8.getValue();
-		else if(value.equals("M9"))
+		else if(value.equals("M9") || value.equals("M09"))
 			return Monthly.M9.getValue();
 		else if(value.equals("M10"))
 			return Monthly.M10.getValue();
@@ -184,7 +186,7 @@ public class time {
 	
 	public static void main(String[] args)
 	{
-		System.out.println("1999Q2 --> " + convertTimeSereis("1992M12D2"));
+		System.out.println("1999Q2 --> " + convertTimeSereis("1992M06"));
 	}
 
 }
