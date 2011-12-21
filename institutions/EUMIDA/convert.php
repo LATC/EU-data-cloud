@@ -1,8 +1,9 @@
 <?php
-define('MORIARTY_ARC_DIR', 'lib/arc2/');
+define('MORIARTY_ARC_DIR', 'lib/arc/');
 define('MORIARTY_ALWAYS_CACHE_EVERYTHING', true);
 require_once 'lib/moriarty/simplegraph.class.php';
-require 'lib/curieous/rdfbuilder.class.php';
+require 'lib/curieous/curieous.php';
+require_once 'lib/curieous/rdfbuilder.class.php';
 define('EUMIDA', 'http://data.kasabi.com/dataset/eumida/');
 define('NS', EUMIDA.'terms/');
 define('YEAR_NS', 'http://reference.data.gov.uk/id/year/');
@@ -137,17 +138,20 @@ while($line = fgetcsv($file)){
       ->has('eum:yearOfFoundation')->r('http://reference.data.gov.uk/id/year/'. trim($Foundation_Year));
   
   if(strtolower(trim($Distance_Education))=='yes'){
-    $Institution->has('eum:feature')->r($instUri.'/distance')->a('eum:DistanceEducationProvision')
+    $Institution->has('eum:feature')->r($instUri.'/distance')
+      ->object()->a('eum:DistanceEducationProvision')
       ->label('Distance Education at '. $Institution_Name, 'en')
       ->has('dcterms:description')->l($Distance_Education_Comments, 'en');
   }
    if(strtolower(trim($Research_Active))=='yes'){
-     $Institution->has('eum:feature')->r($instUri.'/research')->a('eum:ResearchProvision')
+     $Institution->has('eum:feature')->r($instUri.'/research')->object()
+       ->a('eum:ResearchProvision')
       ->label('Active Research at ' . $Institution_Name, 'en')
       ->has('dcterms:description')->l($Research_Active_Comments, 'en');
    }  
   if(strtolower(trim($University_Hospital))=='yes'){
-     $Institution->has('eum:feature')->r($instUri.'/university-hospital')->a('eum:UniversityHospital')
+    $Institution->has('eum:feature')->r($instUri.'/university-hospital')->object()
+      ->a('eum:UniversityHospital')
       ->label('University Hospital for ' . $Institution_Name, 'en')
       ->has('dcterms:description')->l($University_Hospital_Comments, 'en');
   }  

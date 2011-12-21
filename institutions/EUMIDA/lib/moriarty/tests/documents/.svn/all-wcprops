@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/311/trunk/tests/documents
+END
+ckan-ds.ttl
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/311/trunk/tests/documents/ckan-ds.ttl
+END
+after.ttl
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/311/trunk/tests/documents/after.ttl
+END
+before.ttl
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/311/trunk/tests/documents/before.ttl
+END
+lists-seqs-collections.ttl
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/263/trunk/tests/documents/lists-seqs-collections.ttl
+END
+jobs.rdf
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/22/trunk/tests/documents/jobs.rdf
+END
+before.rdf
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/311/trunk/tests/documents/before.rdf
+END
+snapshots.rdf
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/12/trunk/tests/documents/snapshots.rdf
+END
+10-ntriples.nt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/311/trunk/tests/documents/10-ntriples.nt
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/326/trunk/tests
+END
+simplegraph.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/326/trunk/tests/simplegraph.test.php
+END
+store.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/320/trunk/tests/store.test.php
+END
+fakerequestfactory.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/321/trunk/tests/fakerequestfactory.class.php
+END
+httpresponse.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/323/trunk/tests/httpresponse.test.php
+END
+graph.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/321/trunk/tests/graph.test.php
+END
+snapshots.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/321/trunk/tests/snapshots.test.php
+END
+runtests.php
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/323/trunk/tests/runtests.php
+END

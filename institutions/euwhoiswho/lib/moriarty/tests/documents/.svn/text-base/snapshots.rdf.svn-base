@@ -1,0 +1,7 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://schemas.talis.com/2006/bigfoot/configuration#" > 
+  <rdf:Description rdf:about="http://api.talis.com/stores/schema-cache">
+    <j.0:snapshot rdf:resource="http://api.talis.com/stores/schema-cache/snapshots/20071129173353.tar"/>
+  </rdf:Description>
+</rdf:RDF>

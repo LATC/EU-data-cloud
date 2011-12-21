@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!--
+
+    Phing build script to run the Moriarty Unit tests.
+
+    If you have PHPUnit installed as recommended through Pear and also Phing installed
+    (I installed this through Pear too) then you only need an environment variable
+    set (MORIARTY_ARC_DIR) pointing to your local ARC directory (inc the trailing slash)
+    for this to work.  No changes needed in this code.
+
+    e.g.  phing -f phing.xml
+
+    (There is already a build.xml present, hence the phing.xml - will see if anyone
+    still needs build.xml for anything sometime...)
+
+ -->
+<project name="Moriarty" basedir="." default="test-nonetwork">
+
+  <target name="test-nonetwork">
+    <fail unless="env.MORIARTY_ARC_DIR" message="Set an environment variable (MORIARTY_ARC_DIR) to point to your local ARC directory."/>
+
+    <phpunit bootstrap="etc/phingBootstrap.php" haltonfailure="true" haltonerror="true">
+      <formatter type="plain" usefile="false" />
+      <batchtest>
+        <fileset dir="tests">
+          <include name="*.test.php" />
+
+          <!-- these access the network -->
+          <exclude name="phphttpclient.test.php" />
+          <exclude name="curlhttpclient.test.php" />
+
+          <!-- candidate for full deprecation -->
+          <exclude name="changesetbatch.test.php" />
+
+          <!-- graph.test.php is an abstract base class -->
+          <exclude name="graph.test.php" />
+
+          <!-- no tests yet -->
+          <exclude name="httpcache.test.php" />
+          <exclude name="storegroup.test.php" />
+        </fileset>
+      </batchtest>
+    </phpunit>
+  </target>
+
+  <target name="test">
+    <fail unless="env.MORIARTY_ARC_DIR" message="Set an environment variable (MORIARTY_ARC_DIR) to point to your local ARC directory."/>
+
+    <phpunit bootstrap="etc/phingBootstrap.php" haltonfailure="true" haltonerror="true">
+      <formatter type="plain" usefile="false" />
+      <batchtest>
+        <fileset dir="tests">
+          <include name="*.test.php" />
+
+          <!-- candidate for full deprecation -->
+          <exclude name="changesetbatch.test.php" />
+
+          <!-- graph.test.php is an abstract base class -->
+          <exclude name="graph.test.php" />
+
+          <!-- no tests yet -->
+          <exclude name="httpcache.test.php" />
+          <exclude name="storegroup.test.php" />
+        </fileset>
+      </batchtest>
+    </phpunit>
+  </target>
+
+</project>
