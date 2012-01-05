@@ -1,7 +1,7 @@
 #!/bin/bash
 startTime=$(date)
 #directory path where all the zip files are stored
-FILES=/data/eurostat/original-data/*
+FILES=/data/eurostat/original-data/
 
 #directory path where the uncompressed file should be stored
 unCompressPath=/data/eurostat/raw-data/
@@ -16,8 +16,37 @@ dataPath=/data/eurostat/data/
 logPath=/data/eurostat/logs/
 
 
+### Deleting files from directories if exists
+
+echo "deleting files from $unCompressPath ..."
+for f in $unCompressPath*
+do
+      /bin/rm $f
+done
+
+echo "deleting files from $dsdPath ..."
+for f in $dsdPath*
+do
+      /bin/rm $f
+done
+
+echo "deleting files from $dataPath ..."
+for f in $dataPath*
+do
+      /bin/rm $f
+done
+
+echo "deleting files from $logPath ..."
+for f in $logPath*
+do
+      /bin/rm $f
+done
+
+### RDFication code starts from here
+
+
 i=1
-for f in $FILES
+for f in $FILES*
 do
   echo "UnCompressing file#$i ... filename is $f"
   sh UnCompressFile.sh -i $f -o $unCompressPath
