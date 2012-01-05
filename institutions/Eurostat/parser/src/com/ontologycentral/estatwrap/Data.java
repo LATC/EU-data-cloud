@@ -382,7 +382,7 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
          
          //http://purl.org/linked-data/sdmx/2009/measure#obsValue
          
-         // exclude entries lik ': c' which exists in the dataset
+         // exclude entries like ': c' which exists in the dataset
          if(!lcol.get(i).toString().contains(":"))
          {
              out.writeStartElement("sdmx-measure:obsValue");
