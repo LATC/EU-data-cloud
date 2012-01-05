@@ -241,7 +241,7 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
 
       for (int i = start; i < end; ++i)
       {
-     	 if (((String)lcol.get(i)).equals(":")) {
+     	 if (((String)lcol.get(i)).equals(":") || ((String)lcol.get(i)).contains(":")) {
               continue;
      	 }
      	 String val = (String)lcol.get(i);
@@ -381,61 +381,67 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
 //         out.writeEndElement();
          
          //http://purl.org/linked-data/sdmx/2009/measure#obsValue
-         out.writeStartElement("sdmx-measure:obsValue");
-         String val = (String)lcol.get(i);
          
-         //System.out.println(val);
-         //String datatype = "";
-         //if(type.equals("decimal"))
-        	// datatype = "";
-         
-         String status = null;
-         if (val.indexOf(' ') > 0) {
-                 status = val.substring(val.indexOf(' ')+1);
-                 val = val.substring(0, val.indexOf(' '));
-                 //out.writeAttribute("rdf:resource", "/dic/obs_status#" + status);
-                 //out.writeAttribute("rdf:datatype", Dictionary.PREFIX + "obs_status#" + status);
-         }
- 
-// new code         
+         // exclude entries lik ': c' which exists in the dataset
+         if(!lcol.get(i).toString().contains(":"))
+         {
+             out.writeStartElement("sdmx-measure:obsValue");
+             String val = (String)lcol.get(i);
+             
+             //System.out.println(val);
+             //String datatype = "";
+             //if(type.equals("decimal"))
+            	// datatype = "";
+             
+             String status = null;
+             if (val.indexOf(' ') > 0 ) {
+                     status = val.substring(val.indexOf(' ')+1);
+                     val = val.substring(0, val.indexOf(' '));
+                     //out.writeAttribute("rdf:resource", "/dic/obs_status#" + status);
+                     //out.writeAttribute("rdf:datatype", Dictionary.PREFIX + "obs_status#" + status);
+             }
+     
+    // new code         
 
-         // certain observation values are represented by '-', we consider them to be 0.
-         if(val.equals("-"))
-         {
-        	 if(type.equals("decimal"))
-        		 val = "0.00";
-        	 else if(type.equals("integer"))
-        		 val = "0";
-         }
+             // certain observation values are represented by '-', we consider them to be 0.
+             if(val.equals("-"))
+             {
+            	 if(type.equals("decimal"))
+            		 val = "0.00";
+            	 else if(type.equals("integer"))
+            		 val = "0";
+             }
 
-         if(type.equals("decimal"))
-         {
-        	 out.writeAttribute("rdf:datatype", xsd + "decimal");
-        	 if(!val.contains("."))
-        		 out.writeCharacters(df.format(Double.valueOf(val).doubleValue()));
-        	 else
-        		 out.writeCharacters(val);
-        	 
-        	 
-         }
-         else if(type.equals("integer"))
-         {
-        	 out.writeAttribute("rdf:datatype", xsd + "integer");
-        	 out.writeCharacters(val);
-         }
-         else
-        	 out.writeCharacters(val);
-         
-         
-         out.writeEndElement();
-         
-         if(status != null)
-         {
-        	 out.writeStartElement("sdmx-attribute:obsStatus");
-             out.writeAttribute("rdf:resource", "/dic/obs_status#" + status);
+             if(type.equals("decimal"))
+             {
+            	 out.writeAttribute("rdf:datatype", xsd + "decimal");
+            	 if(!val.contains("."))
+            		 out.writeCharacters(df.format(Double.valueOf(val).doubleValue()));
+            	 else
+            		 out.writeCharacters(val);
+            	 
+            	 
+             }
+             else if(type.equals("integer"))
+             {
+            	 out.writeAttribute("rdf:datatype", xsd + "integer");
+            	 out.writeCharacters(val);
+             }
+             else
+            	 out.writeCharacters(val);
+             
+             
              out.writeEndElement();
+             
+             if(status != null)
+             {
+            	 out.writeStartElement("sdmx-attribute:obsStatus");
+                 out.writeAttribute("rdf:resource", "/dic/obs_status#" + status);
+                 out.writeEndElement();
+             }
+             out.writeEndElement();
+
          }
-         out.writeEndElement();
          
 // old code         
 //         out.writeCharacters(val);
