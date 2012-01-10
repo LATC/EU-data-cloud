@@ -1,0 +1,11 @@
+#!/bin/bash
+D2RQ_ROOT=${0%/*}
+CP="$D2RQ_ROOT/build"
+SEP=':'
+if [ "$(uname)" = "Cygwin" ]; then SEP=';'; fi
+for jar in "$D2RQ_ROOT"/lib/*.jar "$D2RQ_ROOT"/lib/*/*.jar
+do
+  if [ ! -e "$jar" ]; then continue; fi
+  CP="$CP$SEP$jar"
+done
+exec java -cp "$CP" -Xmx256M d2rq.dump_rdf "$@"

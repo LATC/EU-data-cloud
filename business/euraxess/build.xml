@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="D2R Server" default="all" basedir=".">
+
+	<property name="name" value="d2r-server"/>
+	<property name="version" value="0.7"/>
+	<property name="project.package" value="de.fuberlin.wiwiss.d2rs"/>
+	<property name="project.path" value="de/fuberlin/wiwiss/d2rs"/>
+	<property name="src" value="src"/>
+	<property name="src.tests" value="tests"/>
+	<property name="build" value="bldsrc"/>
+	<property name="build.tests" value="bldtests"/>
+	<property name="lib" value="lib"/>
+	<property name="doc" value="doc"/>
+	<property name="distname" value="${name}-${version}"/>
+	<property name="jar" value="${lib}/${distname}.jar"/>
+	<property name="zip" value="${distname}.zip"/>
+	<property name="tar" value="${distname}.tar.gz"/>
+    <property name="war" value="${name}.war" />
+	<property name="junit.jar" value="${lib}/junit.jar"/>
+
+	<property name="vocab.n3" value="${doc}/config.n3"/>
+	<property name="vocab.rdf" value="${doc}/config.rdf"/>
+	<property name="vocab.namespace" value="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"/>
+	<property name="vocab.name" value="D2R"/>
+	<property name="vocab.package" value="${project.package}.vocab"/>
+	<property name="vocab.java" value="${src}/${project.path}/vocab/${vocab.name}.java"/>
+	
+	<path id="project.class.path">
+		<fileset dir="${lib}">
+			<include name="**/*.jar"/>
+			<exclude name="${junit.jar}"/>
+		</fileset>
+		<pathelement path="${java.class.path}"/>
+	</path>
+
+	<patternset id="distfiles">
+		<include name="**/*"/>
+		<exclude name="${build}/**"/>
+		<exclude name="${build.tests}/**"/>
+		<exclude name="build/**"/>
+		<exclude name="${zip}"/>
+		<exclude name="${tar}"/>
+		<exclude name=".project"/>
+		<exclude name=".classpath"/>
+		<exclude name="velocity.log"/>
+	</patternset>
+
+	<property name="execfiles" value="d2r-server generate-mapping etc/make_classpath"/>
+	
+	<target name="clean">
+		<delete dir="${build}" failonerror="false"/>
+		<delete dir="${build.tests}" failonerror="false"/>
+		<delete file="${war}" failonerror="false"/>
+		<delete failonerror="false">
+			<fileset dir="." includes="${lib}/${name}-*.jar,${name}-*.zip,${name}-*.tar.gz"/>
+		</delete>
+	</target>
+	
+	<target name="init">
+		<mkdir dir="${build}"/>
+	</target>
+
+	<target name="compile" depends="init">
+		<javac srcdir="${src}" destdir="${build}" debug="on" source="1.4" target="1.4">
+			<classpath refid="project.class.path"/>
+		</javac>
+	</target>
+<!--
+	<target name="init.tests">
+		<mkdir dir="${build.tests}"/>
+	</target>
+
+	<target name="compile.tests" depends="init.tests,compile">
+		<javac srcdir="${src.tests}" destdir="${build.tests}" debug="on" source="1.4" target="1.4">
+			<classpath>
+				<path refid="project.class.path"/>
+				<pathelement path="${build}"/>
+				<pathelement path="${junit.jar}"/>
+			</classpath>
+		</javac>
+	</target>
+
+	<target name="test" depends="compile.tests">
+		<java classname="junit.textui.TestRunner" fork="yes" failonerror="true">
+			<arg value="${project.package}.AllTests"/>
+			<classpath>
+				<path refid="project.class.path"/>
+				<pathelement path="${build}"/>
+				<pathelement path="${build.tests}"/>
+				<pathelement path="${junit.jar}"/>
+			</classpath>
+		</java>
+	</target>
+
+	<target name="jar" depends="compile,test">-->
+	<target name="jar" depends="compile">
+		<jar jarfile="${jar}" basedir="${build}"/>
+	</target>
+
+	<target name="zip" depends="jar">
+		<zip destfile="${zip}">
+			<zipfileset prefix="${distname}" dir=".">
+				<patternset refid="distfiles"/>
+			</zipfileset>
+		</zip>
+	</target>
+
+	<target name="tar" depends="jar">
+		<tar destfile="${tar}" compression="gzip">
+			<tarfileset prefix="${distname}" dir="." includes="${execfiles}" mode="755"/>
+			<tarfileset prefix="${distname}" dir="." excludes="${execfiles}">
+				<patternset refid="distfiles"/>
+			</tarfileset>
+		</tar>
+	</target>
+
+	<target name="all" depends="zip,tar"/>
+
+	<target name="vocab.d2r.schemagen">
+		<java classname="jena.schemagen" classpathref="project.class.path" fork="yes"
+				failonerror="true">
+			<arg value="-i"/>
+			<arg value="file:${vocab.n3}"/>
+			<arg value="-o"/>
+			<arg value="${vocab.java}"/>
+			<arg value="-a"/>
+			<arg value="${vocab.namespace}"/>
+			<arg value="-n"/>
+			<arg value="${vocab.name}"/>
+			<arg value="--package"/>
+			<arg value="${vocab.package}"/>
+			<arg value="--rdfs"/>
+		</java>
+	</target>
+	
+	<target name="vocab.d2r.xml">
+		<java classname="jena.rdfcopy" classpathref="project.class.path" fork="yes"
+				output="${vocab.rdf}" logError="yes" failonerror="true">
+			<arg value="${vocab.n3}"/>
+			<arg value="N3"/>
+			<arg value="RDF/XML-ABBREV"/>
+		</java>
+	</target>
+	
+	<target name="vocab.d2r" depends="vocab.d2r.xml,vocab.d2r.schemagen"/>
+
+	<target name="war" depends="jar">
+		<war destfile="${war}" needxmlfile="false">
+			<fileset dir="webapp/">
+				<include name="**"/>
+				<exclude name="WEB-INF"/>
+			</fileset>
+			<lib dir="${lib}">
+				<exclude name="junit.jar"/>
+				<exclude name="servlet-api-2.5-6.1.1.jar"/>
+			</lib>
+			<lib file="${jar}"/>
+			<webinf dir="webapp/WEB-INF">
+				<include name="*"/>
+				<exclude name="templates"/>
+			</webinf>
+			<classes dir="etc"/>
+			<classes dir="webapp/WEB-INF/templates"/>
+		</war>
+	</target>
+</project>

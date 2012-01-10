@@ -1,0 +1,807 @@
+@prefix map: <file:/C:/euraxess/euraxess.n3#> .
+@prefix euraxess: <http://www4.wiwiss.fu-berlin.de/euraxess/resource/euraxess/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix d2r: <http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#> .
+@prefix vocabClass: <http://www4.wiwiss.fu-berlin.de/cordis/vocab/resource/class/> .
+@prefix vocabProperty: <http://www4.wiwiss.fu-berlin.de/cordis/vocab/resource/property/> .
+
+map:Server a d2r:Server;
+    rdfs:label "D2R Server publishing the EURAXESS data set";
+    d2r:baseURI <http://www4.wiwiss.fu-berlin.de/euraxess/>;
+    d2r:port 2020;
+    .
+
+map:database a d2rq:Database;
+    d2rq:jdbcDriver "com.mysql.jdbc.Driver";
+	d2rq:jdbcDSN "jdbc:mysql://127.0.0.1/euraxess?autoReconnect=true";
+    d2rq:username "d2r";
+	d2rq:password "password";
+    .
+
+	
+map:Jobs a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class euraxess:Job;
+	d2rq:uriPattern "Job/@@job.ID@@";
+	d2rq:classDefinitionLabel "Job"@en;
+    .
+
+map:title a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+    d2rq:column "job.title";
+	d2rq:property rdfs:label;
+	d2rq:condition "job.title <>''";
+	.
+
+map:summary a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+    d2rq:column "job.summary";
+	d2rq:property euraxess:summary;
+	d2rq:propertyDefinitionLabel "summary"@en;
+	d2rq:condition "job.summary<>''";
+	.
+
+map:description a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+    d2rq:column "job.description";
+	d2rq:property euraxess:description;
+	d2rq:propertyDefinitionLabel "description";
+	d2rq:condition "job.description <> ''";
+	.
+
+map:additionalDetails a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+    d2rq:column "job.additional_details";
+	d2rq:property euraxess:additionalDetails;
+	d2rq:propertyDefinitionLabel "additional details";
+	d2rq:condition "job.additional_details <> ''";	
+	.
+	
+map:additionalRequirements a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+    d2rq:column "job.additional_requirements";
+	d2rq:property euraxess:additionalRequirements;
+	d2rq:propertyDefinitionLabel "additional requirements";
+	d2rq:condition "job.additional_requirements <> ''";	
+	.
+	
+map:contractType a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+    d2rq:column "contract_type.name";
+	d2rq:property euraxess:contractType;
+	d2rq:join "job.contract_type_ID = contract_type.ID";
+	d2rq:condition "job.contract_type_ID <> ''";	
+	.
+	
+map:status a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+    d2rq:column "job.status";
+	d2rq:property euraxess:status;
+	d2rq:propertyDefinitionLabel "status";
+	d2rq:condition "job.status <> ''";	
+	.
+	
+map:hoursPerWeek a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+    d2rq:column "job.hours_per_week";
+	d2rq:property euraxess:hoursPerWeek;
+	d2rq:propertyDefinitionLabel "hours per week";
+	d2rq:condition "job.hours_per_week <> ''";	
+	.
+	
+map:company a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+	d2rq:uriPattern "Company/@@company.ID|urlify@@";
+	d2rq:property euraxess:company;
+	d2rq:join "job.company_ID = company.ID";
+	d2rq:condition "job.company_ID <> ''";	
+	.
+	
+map:applicationDeadline a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+    d2rq:column "job.application_deadline";
+	d2rq:property euraxess:applicationDeadline;
+	d2rq:propertyDefinitionLabel "application deadline";
+	d2rq:condition "job.application_deadline <> '0000-00-00'";	
+	.
+	
+map:commentOrWebsite a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+    d2rq:column "job.comment_website";
+	d2rq:property euraxess:commentOrWebsite;
+	d2rq:propertyDefinitionLabel "comment or website";
+	d2rq:condition "job.comment_website <> ''";	
+	.
+
+map:benefits a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+    d2rq:column "job.benefits";
+	d2rq:property euraxess:benefits;
+	d2rq:propertyDefinitionLabel "benefits";
+	d2rq:condition "job.benefits <> ''";	
+	.
+
+map:sesameAgreementNumber a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+    d2rq:column "job.sesame_agreement_number";
+	d2rq:property euraxess:sesameAgreementNumber;
+	d2rq:propertyDefinitionLabel "sesame agreement number";
+	d2rq:condition "job.sesame_agreement_number <> ''";	
+	.
+	
+map:frameworkProgramme a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+	d2rq:uriPattern "Frameworkprogramme/@@framework_programme.name|urlify@@";
+	d2rq:property euraxess:frameworkProgramme;
+	d2rq:join "job.framework_programme_ID = framework_programme.ID";
+	d2rq:condition "job.framework_programme_ID <> ''";	
+	.
+	
+map:applicationStartDate a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+    d2rq:column "job.application_starting_date";
+	d2rq:property euraxess:applicationStartDate;
+	d2rq:propertyDefinitionLabel "application start date";
+	d2rq:condition "job.application_starting_date <> '0000-00-00'";	
+	.
+	
+map:applicationWebsite a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+    d2rq:uriColumn "job.application_website";
+	d2rq:property euraxess:applicationWebsite;
+	d2rq:propertyDefinitionLabel "application website";
+	d2rq:condition "job.application_website <> ''";	
+	.
+
+map:applicationEmail a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+    d2rq:column "job.application_email";
+	d2rq:property euraxess:applicationEmail;
+	d2rq:propertyDefinitionLabel "application email";
+	d2rq:condition "job.application_email <> ''";	
+	.
+	
+map:yearsOfExperience a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+    d2rq:column "job.years_of_experience";
+	d2rq:property euraxess:yearsOfExperience;
+	d2rq:propertyDefinitionLabel "years of experience";
+	d2rq:condition "job.years_of_experience <> ''";	
+	.
+
+map:postingDate a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+    d2rq:column "job.date_posted";
+	d2rq:property euraxess:postingDate;
+	d2rq:propertyDefinitionLabel "posting date";
+	d2rq:condition "job.date_posted <> '0000-00-00'";	
+	.
+	
+map:eurexessURL a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+    d2rq:uriColumn "job.original_url";
+	d2rq:property euraxess:eurexessURL;
+	d2rq:propertyDefinitionLabel "eurexess url";
+	d2rq:condition "job.original_url <> ''";	
+	.
+
+map:researchExperience a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+    d2rq:column "job.research_experience";
+	d2rq:property euraxess:researchExperience;
+	d2rq:propertyDefinitionLabel "research experience";
+	d2rq:condition "job.research_experience <> ''";	
+	.
+
+map:researchSubExperience a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+    d2rq:column "job.research_sub_experience";
+	d2rq:property euraxess:researchSubExperience;
+	d2rq:propertyDefinitionLabel "research sub experience";
+	d2rq:condition "job.research_sub_experience <> ''";	
+	.
+
+map:howToApply a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+    d2rq:uriColumn "job.how_to_apply";
+	d2rq:property euraxess:howToApply;
+	d2rq:propertyDefinitionLabel "how to apply";
+	d2rq:condition "job.how_to_apply <> ''";	
+	.
+
+map:degreeLevel a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+	d2rq:property euraxess:degreeLevel;
+	d2rq:propertyDefinitionLabel "degree"@en;
+	d2rq:uriPattern "Degreelevel/@@degree.ID|urlify@@_@@degree_field.name|urlify@@";
+	d2rq:join "job.ID = job_degree.job_ID";
+	d2rq:join "job_degree.degree_ID = degree.ID";
+	d2rq:join "job_degree.degree_field_ID = degree_field.ID";
+	d2rq:condition "job_degree.job_ID <> ''";
+	.
+
+map:jobCareerStage a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+	d2rq:property euraxess:careerStage;
+	d2rq:propertyDefinitionLabel "career stage"@en;
+	d2rq:uriPattern "Careerstage/@@career_stage.name|urlify@@";
+	d2rq:join "job.ID = job_career_stage.job_ID";
+	d2rq:join "job_career_stage.career_stage_ID = career_stage.ID";
+	d2rq:condition "job_career_stage.job_ID <> ''";
+	.
+
+map:requiredLanguage a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+	d2rq:property euraxess:requiredLanguage;
+	d2rq:propertyDefinitionLabel "required language"@en;
+	d2rq:join "job.ID = job_required_languages.job_ID";
+	d2rq:join "job_required_languages.language_iso639p3 = language.iso639p3";
+	d2rq:condition "job_required_languages.job_ID <> ''";
+	d2rq:join "job_required_languages.language_ilr_level = language_level.ilr_level";
+	d2rq:uriPattern "LanguageSkill/@@language.iso639p3@@_@@language_level.ilr_level@@";
+	.
+	
+map:requirement a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+	d2rq:property euraxess:requirement;
+	d2rq:propertyDefinitionLabel "requirement"@en;
+	d2rq:column "job_requirements.requirement";
+	d2rq:join "job.ID = job_requirements.job_ID";
+	d2rq:condition "job_requirements.job_ID <> ''";
+	.
+
+map:jobResearchField a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Jobs;
+	d2rq:property euraxess:jobResearchField;
+	d2rq:propertyDefinitionLabel "research field"@en;
+	d2rq:uriPattern "Researchfield/@@research_field.name|urlify@@";
+	d2rq:join "job.ID = job_research_fields.job_ID";
+	d2rq:join "job_research_fields.research_field_ID = research_field.ID";
+	d2rq:condition "job_degree.job_ID <> ''";
+	.	
+
+map:Companies a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class euraxess:Company;
+	d2rq:uriPattern "Company/@@company.ID@@";
+	d2rq:classDefinitionLabel "Company"@en;
+    .
+
+map:name a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Companies;
+    d2rq:column "company.name";
+	d2rq:property rdfs:label;
+	d2rq:condition "company.name <>''";
+	.
+
+map:address a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Companies;
+    d2rq:column "company.address";
+	d2rq:property euraxess:address;
+	d2rq:propertyDefinitionLabel "address";
+	d2rq:condition "company.address <> ''";	
+	.
+
+map:fax a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Companies;
+    d2rq:column "company.fax";
+	d2rq:property euraxess:fax;
+	d2rq:propertyDefinitionLabel "fax";
+	d2rq:condition "company.fax <> ''";	
+	.
+
+map:email a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Companies;
+    d2rq:column "company.email";
+	d2rq:property euraxess:email;
+	d2rq:propertyDefinitionLabel "email";
+	d2rq:condition "company.email <> ''";	
+	.
+
+map:CompaniesWebsite a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Companies;
+    d2rq:uriColumn "company.website";
+	d2rq:property euraxess:companyWebsite;
+	d2rq:propertyDefinitionLabel "website";
+	d2rq:condition "company.website <> ''";	
+	.
+
+map:country a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Companies;
+	d2rq:property euraxess:country;
+	d2rq:propertyDefinitionLabel "country"@en;
+	d2rq:uriPattern "Country/@@country.name|urlify@@";
+	d2rq:join "company.country = country.name";
+	d2rq:condition "company.country <> ''";
+	.
+
+map:state a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Companies;
+    d2rq:column "company.state";
+	d2rq:property euraxess:state;
+	d2rq:propertyDefinitionLabel "state";
+	d2rq:condition "company.state <> ''";	
+	.
+
+map:city a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Companies;
+    d2rq:column "company.city";
+	d2rq:property euraxess:city;
+	d2rq:propertyDefinitionLabel "city";
+	d2rq:condition "company.city <> ''";	
+	.
+
+map:postalCode a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Companies;
+    d2rq:column "company.postal_code";
+	d2rq:property euraxess:postalCode;
+	d2rq:propertyDefinitionLabel "postal code";
+	d2rq:condition "company.postal_code <> ''";	
+	.
+	
+map:street a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Companies;
+    d2rq:column "company.street";
+	d2rq:property euraxess:street;
+	d2rq:propertyDefinitionLabel "street";
+	d2rq:condition "company.street <> ''";	
+	.
+
+map:communityLanguage a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Companies;
+    d2rq:column "company.community_language";
+	d2rq:property euraxess:communityLanguage;
+	d2rq:propertyDefinitionLabel "community language";
+	d2rq:condition "company.community_language <> ''";	
+	.
+
+map:phoneNumber a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Companies;
+	d2rq:property euraxess:phoneNumber;
+	d2rq:propertyDefinitionLabel "phone nunmber"@en;
+	d2rq:column "company_phone.phone_number";
+	d2rq:join "company.ID = company_phone.company_ID";
+	d2rq:condition "company_phone.company_ID <> ''";
+	.
+
+map:CareerStages a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class euraxess:CareerStage;
+	d2rq:uriPattern "Careerstage/@@career_stage.name@@";
+	d2rq:classDefinitionLabel "Career stage"@en;
+    .
+
+map:careerStageName a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:CareerStages;
+    d2rq:column "career_stage.name";
+	d2rq:property rdfs:label;
+	d2rq:propertyDefinitionLabel "name";
+	d2rq:condition "career_stage.name <> ''";	
+	.
+
+map:Degrees a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class euraxess:Degree;
+	d2rq:uriPattern "Degree/@@degree.ID|urlify@@";
+	d2rq:classDefinitionLabel "Degree"@en;
+    .
+
+map:degreeName a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Degrees;
+    d2rq:column "degree.name";
+	d2rq:property rdfs:label;
+	d2rq:propertyDefinitionLabel "name";
+	d2rq:condition "degree.name <> ''";	
+	.
+
+map:DegreeFields a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class euraxess:DegreeField;
+	d2rq:uriPattern "Degreefield/@@degree_field.name|urlify@@";
+	d2rq:classDefinitionLabel "Degree field"@en;
+    .
+
+map:degreeFieldName a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:DegreeFields;
+    d2rq:column "degree_field.name";
+	d2rq:property rdfs:label;
+	d2rq:propertyDefinitionLabel "name";
+	d2rq:condition "degree_field.name <> ''";	
+	.
+
+map:Languages a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class euraxess:Language;
+	d2rq:uriPattern "Language/@@language.iso639p3|urlify@@";
+	d2rq:classDefinitionLabel "Language"@en;
+    .
+
+map:languageLabel a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Languages;
+    d2rq:column "language.eng";
+	d2rq:property rdfs:label;
+	.
+
+map:languageLexvo a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Languages;
+    d2rq:uriPattern "http://lexvo.org/id/iso639-3/@@language.iso639p3@@";
+	d2rq:property owl:sameAs;
+	.
+
+map:languageDBpedia a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Languages;
+    d2rq:uriColumn "language.dbpedia_uri";
+	d2rq:property owl:sameAs;
+	d2rq:condition "language.dbpedia_uri <> ''";
+	.
+
+
+map:LanguageLevels a d2rq:ClassMap ;
+    d2rq:dataStorage map:database;
+    d2rq:class euraxess:LanguageLevel;
+	d2rq:uriPattern "LanguageLevel/@@language_level.ilr_level@@";
+	d2rq:classDefinitionLabel "language level"@en;
+	.
+
+map:languageLevelNr a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:LanguageLevels;
+	d2rq:property euraxess:ilrNumber;
+	d2rq:propertyDefinitionLabel "ILR Number"@en;
+	d2rq:column "language_level.ilr_level";
+	.
+	
+map:languageLevelLabel a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:LanguageLevels;
+	d2rq:property rdfs:label;
+	d2rq:column "language_level.eng"@en;
+	.
+	
+map:ResearchFields a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class euraxess:ResearchField;
+	d2rq:uriPattern "Researchfield/@@research_field.name|urlify@@";
+	d2rq:classDefinitionLabel "Research field"@en;
+    .
+
+map:researchFieldName a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:ResearchFields;
+    d2rq:column "research_field.name";
+	d2rq:property rdfs:label;
+	d2rq:propertyDefinitionLabel "name";
+	d2rq:condition "research_field.name <> ''";	
+	.
+
+map:FrameworkProgrammes a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class euraxess:FrameworkProgrammes;
+	d2rq:uriPattern "Frameworkprogramme/@@framework_programme.name@@";
+	d2rq:classDefinitionLabel "Framework programme"@en;
+    .
+
+map:frameworkProgrammeName a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:FrameworkProgrammes;
+    d2rq:column "framework_programme.name";
+	d2rq:property rdfs:label;
+	d2rq:propertyDefinitionLabel "name";
+	d2rq:condition "framework_programme.name <> ''";	
+	.
+
+map:LanguageSkills a d2rq:ClassMap ;
+    d2rq:dataStorage map:database;
+    d2rq:class euraxess:LanguageSkill;
+	d2rq:uriPattern "LanguageSkill/@@language.iso639p3@@_@@language_level.ilr_level@@";
+	d2rq:classDefinitionLabel "language skill"@en;
+    d2rq:class vocabClass:Offer;
+	.
+
+map:languageSkill a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:LanguageSkills;
+	d2rq:property euraxess:language;
+	d2rq:propertyDefinitionLabel "language"@en;
+	d2rq:uriPattern "Language/@@language.iso639p3@@";
+	.
+	
+map:languageLevelSkillLabel a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:LanguageSkills;
+	d2rq:property euraxess:languageLevel;
+	d2rq:propertyDefinitionLabel "language level"@en;
+	d2rq:uriPattern "LanguageLevel/@@language_level.ilr_level@@";
+	.
+
+# LanguageLevels
+	
+map:LanguageLevels a d2rq:ClassMap ;
+    d2rq:dataStorage map:database;
+    d2rq:class euraxess:LanguageLevel;
+	d2rq:uriPattern "LanguageLevel/@@language_level.ilr_level@@";
+	d2rq:classDefinitionLabel "language level"@en;
+	.
+
+map:languageLevelNr a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:LanguageLevels;
+	d2rq:property euraxess:ilrNumber;
+	d2rq:propertyDefinitionLabel "ILR Number"@en;
+	d2rq:column "language_level.ilr_level";
+	.
+	
+map:languageLevelLabel a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:LanguageLevels;
+	d2rq:property rdfs:label;
+	d2rq:column "language_level.eng"@en;
+	.
+	
+map:DegreeLevels a d2rq:ClassMap ;
+    d2rq:dataStorage map:database;
+    d2rq:class euraxess:DegreeLevel;
+	d2rq:uriPattern "Degreelevel/@@degree.ID|urlify@@_@@degree_field.name|urlify@@";
+	d2rq:classDefinitionLabel "Degree Level"@en;
+    d2rq:class vocabClass:Offer;
+	.
+
+map:degree a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:DegreeLevels;
+	d2rq:property euraxess:degreeLevel;
+	d2rq:propertyDefinitionLabel "degree"@en;
+	d2rq:uriPattern "Degree/@@degree.ID|urlify@@";
+	.
+	
+map:degreeFieldLabel a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:DegreeLevels;
+	d2rq:property euraxess:degreeField;
+	d2rq:propertyDefinitionLabel "degree field"@en;
+	d2rq:uriPattern "Degreefield/@@degree_field.name|urlify@@";
+	.
+
+map:Countries a d2rq:ClassMap ;
+    d2rq:dataStorage map:database;
+    d2rq:class euraxess:Country;
+	d2rq:uriPattern "Country/@@country.name|urlify@@";
+	d2rq:classDefinitionLabel "Country"@en;
+    d2rq:class vocabClass:Offer;
+	.
+
+map:countryName a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Countries;
+    d2rq:column "country.name";
+	d2rq:property rdfs:label;
+	d2rq:condition "country.name <>''";
+	.
+
+map:Fellowships a d2rq:ClassMap ;
+    d2rq:dataStorage map:database;
+    d2rq:class euraxess:Fellowship;
+	d2rq:uriPattern "Fellowship/@@fellowship.ID|urlify@@";
+	d2rq:classDefinitionLabel "Fellowship"@en;
+    d2rq:class vocabClass:Offer;
+	.
+
+map:fellowshipTitle a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Fellowships;
+    d2rq:column "fellowship.title";
+	d2rq:property rdfs:label;
+	d2rq:condition "fellowship.title <>''";
+	.
+	
+map:fellowshipSummary a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Fellowships;
+    d2rq:column "fellowship.summary";
+	d2rq:property euraxess:summary;
+	d2rq:propertyDefinitionLabel "summary"@en;
+	d2rq:condition "fellowship.summary<>''";
+	.
+
+map:criteria a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Fellowships;
+    d2rq:column "fellowship.criteria";
+	d2rq:property euraxess:criteria;
+	d2rq:propertyDefinitionLabel "criteria"@en;
+	d2rq:condition "fellowship.criteria<>''";
+	.
+
+map:selection a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Fellowships;
+    d2rq:column "fellowship.selection";
+	d2rq:property euraxess:selection;
+	d2rq:propertyDefinitionLabel "selection"@en;
+	d2rq:condition "fellowship.selection<>''";
+	.
+
+map:awardsPerYear a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Fellowships;
+    d2rq:column "fellowship.awards_per_year";
+	d2rq:property euraxess:awards;
+	d2rq:propertyDefinitionLabel "awards per year"@en;
+	d2rq:condition "fellowship.awards_per_year<>''";
+	.
+
+map:annualBudget a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Fellowships;
+    d2rq:column "fellowship.annual_budget";
+	d2rq:property euraxess:annualBudget;
+	d2rq:propertyDefinitionLabel "annual budget"@en;
+	d2rq:condition "fellowship.annual_budget<>''";
+	.
+	
+map:frequency a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Fellowships;
+    d2rq:column "fellowship.frequency";
+	d2rq:property euraxess:frequency;
+	d2rq:propertyDefinitionLabel "frequency"@en;
+	d2rq:condition "fellowship.frequency<>''";
+	.
+
+map:mobilityRequired a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Fellowships;
+    d2rq:column "fellowship.int_mobility_req";
+	d2rq:property euraxess:mobilityRequired;
+	d2rq:propertyDefinitionLabel "international mobility required"@en;
+	d2rq:condition "fellowship.int_mobility_req<>''";
+	.
+
+map:selection a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Fellowships;
+    d2rq:column "fellowship.selection";
+	d2rq:property euraxess:selection;
+	d2rq:propertyDefinitionLabel "selection"@en;
+	d2rq:condition "fellowship.selection<>''";
+	.
+
+map:fellowshipCareerStage a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Fellowships;
+	d2rq:property euraxess:careerStage;
+	d2rq:propertyDefinitionLabel "career stage"@en;
+	d2rq:uriPattern "Careerstage/@@career_stage.name|urlify@@";
+	d2rq:join "fellowship.career_stage_ID = career_stage.ID";
+	d2rq:condition "fellowship.career_stage_ID <> ''";
+	.
+
+map:socialSecurity a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Fellowships;
+    d2rq:column "fellowship.social_security";
+	d2rq:property euraxess:security;
+	d2rq:propertyDefinitionLabel "social security"@en;
+	d2rq:condition "fellowship.social_security<>''";
+	.
+
+map:amountPerFellowship a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Fellowships;
+    d2rq:column "fellowship.amount_per_fellowship";
+	d2rq:property euraxess:amount;
+	d2rq:propertyDefinitionLabel "amount per fellowship"@en;
+	d2rq:condition "fellowship.amount_per_fellowship<>''";
+	.
+	
+map:currency a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Fellowships;
+    d2rq:column "fellowship.currency";
+	d2rq:property euraxess:currency;
+	d2rq:propertyDefinitionLabel "currency"@en;
+	d2rq:condition "fellowship.currency<>''";
+	.
+
+map:coversSalaray a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Fellowships;
+    d2rq:column "fellowship.covers_salary";
+	d2rq:property euraxess:salary;
+	d2rq:propertyDefinitionLabel "covers salary"@en;
+	d2rq:condition "fellowship.covers_salary<>''";
+	.
+
+map:coversSubsistence a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Fellowships;
+    d2rq:column "fellowship.covers_subsistence";
+	d2rq:property euraxess:subsistence;
+	d2rq:propertyDefinitionLabel "covers subsistence"@en;
+	d2rq:condition "fellowship.covers_subsistence<>''";
+	.
+
+map:coversResearchCosts a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Fellowships;
+    d2rq:column "fellowship.covers_research_costs";
+	d2rq:property euraxess:researchCosts;
+	d2rq:propertyDefinitionLabel "covers research costs"@en;
+	d2rq:condition "fellowship.covers_research_costs<>''";
+	.
+
+map:maxDuration a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Fellowships;
+    d2rq:column "fellowship.max_duration";
+	d2rq:property euraxess:maxDuration;
+	d2rq:propertyDefinitionLabel "maximal duration"@en;
+	d2rq:condition "fellowship.max_duration<>''";
+	.
+
+map:fellowshipFrameworkProgramme a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Fellowships;
+	d2rq:uriPattern "Frameworkprogramme/@@framework_programme.name|urlify@@";
+	d2rq:property euraxess:frameworkProgramme;
+	d2rq:join "fellowship.framework_programme_ID = framework_programme.ID";
+	d2rq:condition "fellowship.framework_programme_ID <> ''";	
+	.
+
+map:fellowshipCompany a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Fellowships;
+	d2rq:uriPattern "Company/@@company.ID|urlify@@";
+	d2rq:property euraxess:company;
+	d2rq:join "fellowship.company_ID = company.ID";
+	d2rq:condition "fellowship.company_ID <> ''";	
+	.
+	
+map:fellowshipURL a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Fellowships;
+    d2rq:uriColumn "fellowship.original_url";
+	d2rq:property euraxess:fellowshipURL;
+	d2rq:propertyDefinitionLabel "fellowship url";
+	d2rq:condition "fellowship.original_url <> ''";	
+	.
+	
+map:fellowshipPostingDate a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Fellowships;
+    d2rq:column "fellowship.date_posted";
+	d2rq:property euraxess:postingDate;
+	d2rq:propertyDefinitionLabel "posting date";
+	d2rq:condition "fellowship.date_posted <> '0000-00-00'";	
+	.
+	
+map:fellowshipApplicationDeadline a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Fellowships;
+    d2rq:column "fellowship.application_deadline";
+	d2rq:property euraxess:applicationDeadline;
+	d2rq:propertyDefinitionLabel "application deadline";
+	d2rq:condition "fellowship.application_deadline <> '0000-00-00'";	
+	.
+	
+map:countryResidence a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Fellowships;
+	d2rq:property euraxess:countryResidence;
+	d2rq:propertyDefinitionLabel "country of residence"@en;
+	d2rq:uriPattern "Country/@@country.name|urlify@@";
+	d2rq:join "fellowship.ID = fellowship_countries_residence.fellowship_ID";
+	d2rq:join "fellowship_countries_residence.country_ID = country.ID";
+	d2rq:condition "fellowship_countries_residence.fellowship_ID <> ''";
+	.
+
+map:destinationCountry a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Fellowships;
+	d2rq:property euraxess:destinationCountry;
+	d2rq:propertyDefinitionLabel "country of destination"@en;
+	d2rq:uriPattern "Country/@@country.name|urlify@@";
+	d2rq:join "fellowship.ID = fellowship_destination_countries.fellowship_ID";
+	d2rq:join "fellowship_destination_countries.country_ID = country.ID";
+	d2rq:condition "fellowship_destination_countries.fellowship_ID <> ''";
+	.
+	
+map:nationality a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Fellowships;
+	d2rq:property euraxess:nationality;
+	d2rq:propertyDefinitionLabel "nationality"@en;
+	d2rq:uriPattern "Country/@@country.name|urlify@@";
+	d2rq:join "fellowship.ID = fellowship_nationalities.fellowship_ID";
+	d2rq:join "fellowship_nationalities.country_ID = country.ID";
+	d2rq:condition "fellowship_nationalities.fellowship_ID <> ''";
+	.
+
+map:fellowshipResearchField a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Fellowships;
+	d2rq:property euraxess:fellowshipResearchField;
+	d2rq:propertyDefinitionLabel "research field"@en;
+	d2rq:uriPattern "Researchfield/@@research_field.name|urlify@@";
+	d2rq:join "fellowship.ID = fellowship_research_fields.fellowship_ID";
+	d2rq:join "fellowship_research_fields.research_field_ID = research_field.ID";
+	d2rq:condition "fellowship_research_fields.fellowship_ID <> ''";
+	.
+
+map:fellowshipWebsite a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Fellowships;
+	d2rq:property euraxess:website;
+	d2rq:propertyDefinitionLabel "website"@en;
+	d2rq:uriColumn "fellowship_websites.website";
+	d2rq:join "fellowship.ID = fellowship_websites.fellowship_ID";
+	d2rq:condition "fellowship_websites.fellowship_ID <> ''";
+	.

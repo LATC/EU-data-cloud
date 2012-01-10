@@ -1,0 +1,551 @@
+@prefix map: <file:/C:/euraxess/euraxess.n3#> .
+@prefix euraxess: <http://www4.wiwiss.fu-berlin.de/euraxess/resource/euraxess/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix d2r: <http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#> .
+@prefix vocabClass: <http://www4.wiwiss.fu-berlin.de/cordis/vocab/resource/class/> .
+@prefix vocabProperty: <http://www4.wiwiss.fu-berlin.de/cordis/vocab/resource/property/> .
+@prefix competition: <http://www4.wiwiss.fu-berlin.de/competition/resource/competition/> .
+
+map:Server a d2r:Server;
+    rdfs:label "D2R Server publishing the European Commission Competition data set";
+    d2r:baseURI <http://160.45.137.76:2010/>;
+    d2r:port 2010;
+    .
+
+map:database a d2rq:Database;
+    d2rq:jdbcDriver "com.mysql.jdbc.Driver";
+	d2rq:jdbcDSN "jdbc:mysql://127.0.0.1/competition?autoReconnect=true";
+    d2rq:username "d2r";
+	d2rq:password "password";
+    .
+
+	
+map:CartelsAntitrusts a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class competition:CartelsAntitrusts;
+	d2rq:uriPattern "CartelsAntitrusts/@@cartel_antitrust.ID@@";
+	d2rq:classDefinitionLabel "Cartel/Antitrust"@en;
+    .
+
+map:title a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:CartelsAntitrusts;
+    d2rq:column "cartel_antitrust.title";
+	d2rq:property rdfs:label;
+	d2rq:condition "cartel_antitrust.title <>''";
+	.
+
+map:competitionUrl a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:CartelsAntitrusts;
+    d2rq:uriPattern "@@cartel_antitrust.original_link@@";
+	d2rq:property competition:original_link;
+	d2rq:propertyDefinitionLabel "Originial Competition Link"@en;
+	d2rq:condition "cartel_antitrust.original_link <>''";
+	.
+
+map:competitionCompany a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:CartelsAntitrusts;
+	d2rq:uriPattern "Company/@@company.ID|urlify@@";
+	d2rq:property competition:companyName;
+	d2rq:join "cartel_antitrust.ID = cartel_company.cartel_antitrust_ID";
+	d2rq:join "cartel_company.company_ID = company.ID";
+	d2rq:condition "cartel_antitrust.ID <> '0'";	
+	.
+
+map:cartelAntitrustEconomicActivity a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:CartelsAntitrusts;
+	d2rq:uriPattern "EconomicActivity/@@economic_activity.nace_code|urlify@@";
+	d2rq:property competition:economicActivity;
+	d2rq:join "cartel_antitrust.ID = cartel_economic_activity.cartel_antitrust_ID";
+	d2rq:join "cartel_economic_activity.economic_activity_nace_code = economic_activity.nace_code";
+	d2rq:condition "cartel_antitrust.ID <> '0'";	
+	.
+	
+map:cartelEvent a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:CartelsAntitrusts;
+	d2rq:uriPattern "Event/@@event.id|urlify@@";
+	d2rq:property competition:cartelEvent;
+	d2rq:join "cartel_antitrust.ID = cartel_event.cartel_antitrust_ID";
+	d2rq:join "cartel_event.event_ID = event.ID";
+	d2rq:condition "cartel_event.cartel_antitrust_ID <> '0'";	
+	.
+
+map:Companies a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class competition:Company;
+	d2rq:uriPattern "Company/@@company.ID@@";
+	d2rq:classDefinitionLabel "Company"@en;
+    .
+
+map:companyName a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Companies;
+    d2rq:column "company.name";
+	d2rq:property rdfs:label;
+	d2rq:condition "company.name <>''";
+	.
+
+map:Countries a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class competition:Country;
+	d2rq:uriPattern "Country/@@country.name@@";
+	d2rq:classDefinitionLabel "Country"@en;
+    .
+
+map:countryName a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Countries;
+    d2rq:column "country.name";
+	d2rq:property rdfs:label;
+	d2rq:condition "country.name <>''";
+	.
+
+map:Decisions a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class competition:Decision;
+	d2rq:uriPattern "Decision/@@decision.id@@";
+	d2rq:classDefinitionLabel "Decision"@en;
+    .
+
+map:decisionDate a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Decisions;
+    d2rq:column "decision.date";
+	d2rq:property competition:date;
+	d2rq:propertyDefinitionLabel "Date";
+	d2rq:condition "decision.date <> ''";	
+	.
+
+map:decisionDescription a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Decisions;
+    d2rq:column "decision.description";
+	d2rq:property competition:description;
+	d2rq:propertyDefinitionLabel "Description";
+	d2rq:condition "decision.description <> ''";	
+	.
+
+map:decisionDocumentLink a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Decisions;
+    d2rq:uriPattern "@@decision.document_link@@";
+	d2rq:property competition:documentLink;
+	d2rq:propertyDefinitionLabel "Document Link";
+	d2rq:condition "decision.document_link <> ''";	
+	.
+
+map:decisionArticle a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Decisions;
+    d2rq:column "decision.article";
+	d2rq:property competition:article;
+	d2rq:propertyDefinitionLabel "Article";
+	d2rq:condition "decision.article <> ''";	
+	.
+
+map:decisionJournalLink a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Decisions;
+    d2rq:uriPattern "@@decision.journal_link@@";
+	d2rq:property competition:journalLink;
+	d2rq:propertyDefinitionLabel "Journal Link";
+	d2rq:condition "decision.journal_link <> ''";	
+	.
+	
+map:EconomicActivities a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class competition:economicActivity;
+	d2rq:uriPattern "EconomicActivity/@@economic_activity.nace_code|urlify@@";
+	d2rq:classDefinitionLabel "Economic Activity"@en;
+    .
+
+map:naceCode a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:EconomicActivities;
+    d2rq:column "economic_activity.nace_code";
+	d2rq:property rdfs:label;
+	d2rq:propertyDefinitionLabel "Nace Code";
+	d2rq:condition "economic_activity.nace_code <> ''";	
+	.
+
+map:naceName a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:EconomicActivities;
+    d2rq:column "economic_activity.name";
+	d2rq:property competition:name;
+	d2rq:propertyDefinitionLabel "Name";
+	d2rq:condition "economic_activity.name <> ''";	
+	.
+
+map:Events a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class competition:Event;
+	d2rq:uriPattern "Event/@@event.id|urlify@@";
+	d2rq:classDefinitionLabel "Event"@en;
+    .
+
+map:eventDate a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Events;
+    d2rq:column "event.date";
+	d2rq:property competition:date;
+	d2rq:propertyDefinitionLabel "Date";
+	d2rq:condition "event.date <> ''";	
+	.
+
+map:eventDocumentType a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Events;
+    d2rq:column "event.document_type";
+	d2rq:property competition:documentType;
+	d2rq:propertyDefinitionLabel "Document Type";
+	d2rq:condition "event.document_type <> ''";	
+	.
+
+map:eventDocumentLink a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Events;
+    d2rq:uriPattern "@@event.document_link@@";
+	d2rq:property competition:documentLink;
+	d2rq:propertyDefinitionLabel "Document Link";
+	d2rq:condition "event.document_link <> ''";	
+	.
+
+map:eventDescription a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Events;
+    d2rq:column "event.description";
+	d2rq:property competition:description;
+	d2rq:propertyDefinitionLabel "Description";
+	d2rq:condition "event.description <> ''";	
+	.
+
+map:Mergers a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class euraxess:Merger;
+	d2rq:uriPattern "Merger/@@merger.ID|urlify@@";
+	d2rq:classDefinitionLabel "Merger"@en;
+    .
+
+map:mergerLabel a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Mergers;
+    d2rq:column "merger.ID";
+	d2rq:property rdfs:label;
+	d2rq:propertyDefinitionLabel "ID";
+	.
+
+map:mergerNotificationDate a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Mergers;
+    d2rq:column "merger.notification";
+	d2rq:property competition:notificationDate;
+	d2rq:propertyDefinitionLabel "Notification Date";
+	d2rq:condition "merger.ID <> ''";	
+	.
+
+map:mergerProvisionalDeadline a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Mergers;
+    d2rq:column "merger.provisional_deadline";
+	d2rq:property competition:provisionalDeadline;
+	d2rq:propertyDefinitionLabel "Provisional Deadline";
+	d2rq:condition "merger.provisional_deadline <> ''";	
+	.
+
+map:mergerDeadlineText a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Mergers;
+    d2rq:column "merger.deadline_text";
+	d2rq:property competition:deadlineText;
+	d2rq:propertyDefinitionLabel "Deadline Text";
+	d2rq:condition "merger.deadline_text <> ''";	
+	.
+
+map:mergerRegulation a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Mergers;
+    d2rq:column "merger.regulation";
+	d2rq:property competition:regulation;
+	d2rq:propertyDefinitionLabel "Regulation";
+	d2rq:condition "merger.regulation <> ''";	
+	.
+
+map:mergerCompany a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Mergers;
+	d2rq:uriPattern "Company/@@company.ID|urlify@@";
+	d2rq:property competition:companyName;
+	d2rq:join "merger.ID =merger_company.merger_ID";
+	d2rq:join "merger_company.company_ID = company.ID";
+	d2rq:condition "merger_company.merger_ID <> ''";	
+	.
+
+map:mergerDecision a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Mergers;
+	d2rq:uriPattern "Decision/@@decision.ID|urlify@@";
+	d2rq:property competition:mergerDecision;
+	d2rq:join "merger.ID = merger_decision.merger_ID";
+	d2rq:join "merger_decision.decision_ID = decision.ID";
+	d2rq:condition "merger_decision.merger_ID <> ''";	
+	.
+
+map:mergerEconomicActivity a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Mergers;
+	d2rq:uriPattern "EconomicActivity/@@economic_activity.nace_code|urlify@@";
+	d2rq:property competition:economicActivity;
+	d2rq:join "merger.ID = merger_economic_activity.merger_ID";
+	d2rq:join "merger_economic_activity.economic_activity_nace_code = economic_activity.nace_code";
+	d2rq:condition "merger_economic_activity.merger_ID <> ''";	
+	.
+	
+map:mergerPublication a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Mergers;
+	d2rq:uriPattern "Publication/@@publication.ID|urlify@@";
+	d2rq:property competition:publication;
+	d2rq:join "merger.ID = merger_publication.merger_ID";
+	d2rq:join "merger_publication.publication_ID = publication.ID";
+	d2rq:condition "merger_publication.merger_ID <> ''";	
+	.
+
+map:mergerRelationship a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Mergers;
+	d2rq:uriPattern "Merger/@@merger_relationship.ID_2@@";
+	d2rq:property competition:mergerRelationship;
+	d2rq:join "merger.ID = merger_relationship.ID_1";
+	d2rq:condition "merger_relationship.ID_1 <> ''";	
+	.
+
+map:otherCaseRelatedLink a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Mergers;
+    d2rq:uriPattern "@@merger.other_case_related_information_link@@";
+	d2rq:property competition:relatedLink;
+	d2rq:propertyDefinitionLabel "Other case related link";
+	d2rq:condition "merger.other_case_related_information_link <> ''";	
+	.
+	
+map:otherCaseRelatedLinkText a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Mergers;
+    d2rq:column "merger.other_case_related_information_text";
+	d2rq:property competition:relatedText;
+	d2rq:propertyDefinitionLabel "Other case related information";
+	d2rq:condition "merger.other_case_related_information_text <> ''";	
+	.
+	
+map:relatedLink a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Mergers;
+    d2rq:column "merger.related_links";
+	d2rq:property competition:relatedLink;
+	d2rq:propertyDefinitionLabel "Related link";
+	d2rq:condition "merger.related_links <> ''";
+	d2rq:condition "merger.related_links <> '(none)'";
+	.
+
+map:mergerUrl a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Mergers;
+    d2rq:uriPattern "@@merger.original_link@@";
+	d2rq:property competition:originalLink;
+	d2rq:propertyDefinitionLabel "Originial merger link"@en;
+	d2rq:condition "merger.original_link<>''";
+	.
+	
+map:Publications a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class competition:Publication;
+	d2rq:uriPattern "Publication/@@publication.id@@";
+	d2rq:classDefinitionLabel "Publication"@en;
+    .
+	
+map:publicationDate a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Publications;
+    d2rq:column "publication.date";
+	d2rq:property competition:date;
+	d2rq:propertyDefinitionLabel "Date";
+	d2rq:condition "publication.date <> ''";	
+	.
+
+map:publicationID a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Publications;
+    d2rq:column "publication.ID";
+	d2rq:property rdfs:label;
+	d2rq:propertyDefinitionLabel "ID";
+	d2rq:condition "publication.ID <> ''";	
+	.
+
+map:publicationText a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Publications;
+    d2rq:column "publication.text";
+	d2rq:property competition:text;
+	d2rq:propertyDefinitionLabel "Publication text";
+	d2rq:condition "publication.text <> ''";	
+	.
+
+map:publicationLink a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Publications;
+    d2rq:uriPattern "@@publication.link@@";
+	d2rq:property competition:publicationLink;
+	d2rq:propertyDefinitionLabel "Publication link";
+	d2rq:condition "publication.link <> ''";	
+	.
+
+map:Regions a d2rq:ClassMap ;
+    d2rq:dataStorage map:database;
+    d2rq:class euraxess:Region;
+	d2rq:uriPattern "Region/@@region.id|urlify@@";
+	d2rq:classDefinitionLabel "Region"@en;
+    d2rq:class vocabClass:Offer;
+	.
+
+map:regionName a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Regions;
+    d2rq:column "region.name";
+	d2rq:property rdfs:label;
+	d2rq:condition "region.name <>''";
+	.
+
+map:regionCountry a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Regions;
+	d2rq:uriPattern "Country/@@country.name@@";
+	d2rq:property competition:country;
+	d2rq:join "region.country_ID = country.ID";
+	d2rq:condition "region.country_ID <> ''";	
+	.
+
+map:StateAids a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+    d2rq:class euraxess:StateAid;
+	d2rq:uriPattern "StateAid/@@state_aid.ID|urlify@@";
+	d2rq:classDefinitionLabel "State Aid"@en;
+    .
+
+map:stateAidLabel a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:StateAids;
+    d2rq:column "state_aid.ID";
+	d2rq:property rdfs:label;
+	d2rq:propertyDefinitionLabel "ID";
+	.
+
+map:stateAidTitle a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:StateAids;
+    d2rq:column "state_aid.title";
+	d2rq:property competition:title;
+	d2rq:property competition:title;
+	d2rq:propertyDefinitionLabel "Title";
+	d2rq:condition "state_aid.title <> ''";	
+	.
+
+map:stateAidCountry a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:StateAids;
+	d2rq:uriPattern "Country/@@country.name|urlify@@";
+	d2rq:property competition:country;
+	d2rq:join "state_aid.country_ID = country.ID";
+	d2rq:condition "state_aid.country_ID <> ''";	
+	.
+	
+map:stateAidEconomicActivity a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:StateAids;
+	d2rq:uriPattern "EconomicActivity/@@economic_activity.nace_code|urlify@@";
+	d2rq:property competition:economicActivity;
+	d2rq:join "state_aid.sector = economic_activity.nace_code";
+	d2rq:condition "state_aid.sector <> ''";	
+	.
+
+map:stateAidInstrument a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:StateAids;
+    d2rq:column "state_aid.aid_instrument";
+	d2rq:property competition:instrument;
+	d2rq:propertyDefinitionLabel "Instrument";
+	d2rq:condition "state_aid.aid_instrument <> ''";	
+	.
+
+map:stateAidBeginning a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:StateAids;
+    d2rq:column "state_aid.beginning";
+	d2rq:property competition:beginning;
+	d2rq:propertyDefinitionLabel "Beginning";
+	d2rq:condition "state_aid.beginning <> ''";	
+	.
+
+map:pressReleaseText a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:StateAids;
+    d2rq:column "state_aid.press_release_text";
+	d2rq:property competition:pressReleaseText;
+	d2rq:propertyDefinitionLabel "Press release text";
+	d2rq:condition "state_aid.press_release_text <> ''";	
+	.
+
+map:pressReleaseLink a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:StateAids;
+    d2rq:uriPattern "@@state_aid.press_release_link@@";
+	d2rq:property competition:pressReleaseLink;
+	d2rq:propertyDefinitionLabel "Press release link";
+	d2rq:condition "state_aid.press_release_link <> ''";	
+	.
+
+map:stateAidPublicationDate a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:StateAids;
+    d2rq:column "state_aid.publication_date";
+	d2rq:property competition:publicationDate;
+	d2rq:propertyDefinitionLabel "Publication date";
+	d2rq:condition "state_aid.publication_date <> ''";	
+	.
+
+map:stateAidPublicationText a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:StateAids;
+    d2rq:column "state_aid.publication_text";
+	d2rq:property competition:publicationText;
+	d2rq:propertyDefinitionLabel "Publication text";
+	d2rq:condition "state_aid.publication_text <> ''";	
+	.
+	
+map:stateAidPublicationLink a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:StateAids;
+	d2rq:uriPattern "@@state_aid.publication_link@@";
+	d2rq:property competition:publicationLink;
+	d2rq:propertyDefinitionLabel "Publication Link";
+	d2rq:condition "state_aid.publication_link <> ''";	
+	.
+
+map:objective a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:StateAids;
+    d2rq:column "state_aid.objective";
+	d2rq:property competition:objective;
+	d2rq:propertyDefinitionLabel "Objective";
+	d2rq:condition "state_aid.objective <> ''";	
+	.
+
+map:summary a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:StateAids;
+    d2rq:column "state_aid.summary";
+	d2rq:property competition:summary;
+	d2rq:propertyDefinitionLabel "Summary";
+	d2rq:condition "state_aid.summary <> ''";	
+	.
+
+map:stateAidUrl a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:StateAids;
+    d2rq:uriPattern "@@state_aid.original_url@@";
+	d2rq:property competition:originalLink;
+	d2rq:propertyDefinitionLabel "Originial state aid link"@en;
+	d2rq:condition "state_aid.original_url<>''";
+	.
+	
+map:stateAidDecision a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:StateAids;
+	d2rq:uriPattern "Decision/@@decision.ID|urlify@@";
+	d2rq:property competition:stateAidDecision;
+	d2rq:join "state_aid.ID = state_aid_decision.state_aid_ID";
+	d2rq:join "state_aid_decision.decision_ID = decision.ID";
+	d2rq:condition "state_aid_decision.state_aid_ID <> ''";	
+	.
+
+map:primaryLegalBasis a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:StateAids;
+	d2rq:column "state_aid_legal_basis_primary.legal_basis_primary";
+	d2rq:property competition:primaryLegalBasis;
+	d2rq:join "state_aid.ID = state_aid_legal_basis_primary.state_aid_ID";
+	d2rq:condition "state_aid_legal_basis_primary.legal_basis_primary <> ''";	
+	.
+
+map:secondaryLegalBasis a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:StateAids;
+	d2rq:column "state_aid_legal_basis_secondary.legal_basis_secondary";
+	d2rq:property competition:secondaryLegalBasis;
+	d2rq:join "state_aid.ID = state_aid_legal_basis_secondary.state_aid_ID";
+	d2rq:condition "state_aid_legal_basis_secondary.legal_basis_secondary <> ''";	
+	.
+
+map:stateAidRegion a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:StateAids;
+	d2rq:uriPattern "Region/@@region.ID|urlify@@";
+	d2rq:property competition:stateAidRegion;
+	d2rq:join "state_aid.ID = state_aid_region.state_aid_ID";
+	d2rq:join "state_aid_region.region_ID = region.ID";
+	d2rq:condition "state_aid_region.state_aid_ID <> ''";	
+	.
