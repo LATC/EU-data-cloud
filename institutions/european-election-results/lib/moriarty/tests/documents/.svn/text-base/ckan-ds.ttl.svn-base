@@ -1,0 +1,288 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gis: <http://www.opengis.net/rdf#> .
+@prefix lic: <http://purl.org/okfn/licenses/> .
+@prefix moat: <http://moat-project.org/ns#> .
+@prefix opmv: <http://purl.org/net/opmv/ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rev: <http://purl.org/stuff/rev#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns1: <http://semantic.ckan.net/schema#> .
+
+<http://ckan.net/package/fu-berlin-diseasome>
+    moat:taggedWithTag <http://ckan.net/tag/deref-vocab>, <http://ckan.net/tag/lifesciences>, <http://ckan.net/tag/lod>, <http://ckan.net/tag/no-license-metadata>, <http://ckan.net/tag/no-provenance-metadata>, <http://ckan.net/tag/published-by-third-party>, <http://ckan.net/tag/vocab-mappings>, <http://ckan.net/tag/void-sparql-endpoint> ;
+    dc:contributor [
+        foaf:mbox <mailto:anja@anjeve.de> ;
+        foaf:name "Anja Jentzsch"
+    ] ;
+    dc:created "2007-04-10T21:19:38Z"^^xsd:dateTime ;
+    dc:description """<p>Linked Data version of Diseasome publishes a network of 4,300 disorders and disease genes linked by known disorder-gene associations for exploring all known phenotype and disease gene associations, indicating the common genetic origin of many diseases. The list of disorders, disease genes, and associations between them was obtained from the Online Mendelian Inheritance in Man (OMIM), a compilation of human disease genes and phenotypes.
+</p>
+<p>OMIM Data Use from http://www.ncbi.nlm.nih.gov/Omim/restrictions.html
+</p>
+<p>Copyright © 1966-2008 Johns Hopkins University.
+</p>
+<p>The OMIM® database including the collective data contained therein is the property of the Johns Hopkins University, which holds the copyright thereto.
+</p>
+<p>The OMIM database is made available to the general public subject to certain restrictions. You may use the OMIM database and data obtained from this site for your personal use, for educational or scholarly use, or for research purposes only. The OMIM database may not be copied, distributed, transmitted, duplicated, reduced or altered in any way for commercial purposes, or for the purpose of redistribution, without a license from the Johns Hopkins University.
+</p>
+<p>Requests for information regarding a license for commercial use or redistribution of the OMIM database may be sent via e-mail to JHTT-Communications@jhmi.edu.
+</p>
+<p>links:bio2rdf-symbol: 9743
+</p>""" ;
+    dc:identifier "fa439987-64dc-404c-bc2b-ee5d173f3d62", "fu-berlin-diseasome" ;
+    dc:isPartOf <http://ckan.net/group/lodcloud> ;
+    dc:maintainer [
+        foaf:mbox <mailto:anja@anjeve.de> ;
+        foaf:name "Anja Jentzsch"
+    ] ;
+    dc:modified "2011-07-24T11:59:35Z"^^xsd:dateTime ;
+    dc:rights lic:other-nc ;
+    dc:title "Diseasome" ;
+    rev:rating "5.00"^^xsd:float ;
+    void:exampleResource <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/74> ;
+    void:sparqlEndpoint <http://www4.wiwiss.fu-berlin.de/diseasome/sparql> ;
+    void:subset [
+        void:target <http://ckan.net/package/bio2rdf-hgnc>, <http://ckan.net/package/fu-berlin-diseasome> ;
+        void:triples 688 ;
+        a void:Linkset
+    ], [
+        void:target <http://ckan.net/package/fu-berlin-diseasome>, <http://ckan.net/package/fu-berlin-sider> ;
+        void:triples 238 ;
+        a void:Linkset
+    ], [
+        void:target <http://ckan.net/package/fu-berlin-dailymed>, <http://ckan.net/package/fu-berlin-diseasome> ;
+        void:triples 6124 ;
+        a void:Linkset
+    ], [
+        void:target <http://ckan.net/package/fu-berlin-diseasome>, <http://ckan.net/package/linkedct> ;
+        void:triples 372 ;
+        a void:Linkset
+    ], [
+        void:target <http://ckan.net/package/fu-berlin-diseasome>, <http://ckan.net/package/fu-berlin-drugbank> ;
+        void:triples 8202 ;
+        a void:Linkset
+    ], [
+        void:target <http://ckan.net/package/fu-berlin-diseasome>, <http://ckan.net/package/tcmgenedit_dataset> ;
+        void:triples 376 ;
+        a void:Linkset
+    ], [
+        void:target <http://ckan.net/package/dbpedia>, <http://ckan.net/package/fu-berlin-diseasome> ;
+        void:triples 1943 ;
+        a void:Linkset
+    ], [
+        void:target <http://ckan.net/package/bio2rdf-omim>, <http://ckan.net/package/fu-berlin-diseasome> ;
+        void:triples 2929 ;
+        a void:Linkset
+    ], [
+        void:target <http://ckan.net/package/bio2rdf-geneid>, <http://ckan.net/package/fu-berlin-diseasome> ;
+        void:triples 688 ;
+        a void:Linkset
+    ] ;
+    void:triples 91182 ;
+    ns1:extra [
+        rdf:value "6124" ;
+        rdfs:label "links:fu-berlin-dailymed" ;
+        rdfs:seeAlso <http://wiki.ckan.net/extras/links:fu-berlin-dailymed>
+    ], [
+        rdf:value "372" ;
+        rdfs:label "links:linkedct" ;
+        rdfs:seeAlso <http://wiki.ckan.net/extras/links:linkedct>
+    ], [
+        rdf:value "8202" ;
+        rdfs:label "links:fu-berlin-drugbank" ;
+        rdfs:seeAlso <http://wiki.ckan.net/extras/links:fu-berlin-drugbank>
+    ], [
+        rdf:value "376" ;
+        rdfs:label "links:tcmgenedit_dataset" ;
+        rdfs:seeAlso <http://wiki.ckan.net/extras/links:tcmgenedit_dataset>
+    ], [
+        rdf:value "1943" ;
+        rdfs:label "links:dbpedia" ;
+        rdfs:seeAlso <http://wiki.ckan.net/extras/links:dbpedia>
+    ], [
+        rdf:value "2929" ;
+        rdfs:label "links:bio2rdf-omim" ;
+        rdfs:seeAlso <http://wiki.ckan.net/extras/links:bio2rdf-omim>
+    ], [
+        rdf:value "91182" ;
+        rdfs:label "triples" ;
+        rdfs:seeAlso <http://wiki.ckan.net/extras/triples>
+    ], [
+        rdf:value "688" ;
+        rdfs:label "links:bio2rdf-geneid" ;
+        rdfs:seeAlso <http://wiki.ckan.net/extras/links:bio2rdf-geneid>
+    ], [
+        rdf:value "688" ;
+        rdfs:label "links:bio2rdf-hgnc" ;
+        rdfs:seeAlso <http://wiki.ckan.net/extras/links:bio2rdf-hgnc>
+    ], [
+        rdf:value "238" ;
+        rdfs:label "links:fu-berlin-sider" ;
+        rdfs:seeAlso <http://wiki.ckan.net/extras/links:fu-berlin-sider>
+    ], [
+        rdf:value "http://www4.wiwiss.fu-berlin.de/diseasome/resource/" ;
+        rdfs:label "namespace" ;
+        rdfs:seeAlso <http://wiki.ckan.net/extras/namespace>
+    ] ;
+    ns1:json "{\"author\":\"Anja Jentzsch\",\"author_email\":\"anja@anjeve.de\",\"ckan_url\":\"http://ckan.net/package/fu-berlin-diseasome\",\"download_url\":\"http://www4.wiwiss.fu-berlin.de/diseasome/sparql\",\"extras\":{\"links:bio2rdf-geneid\":\"688\",\"links:bio2rdf-hgnc\":\"688\",\"links:bio2rdf-omim\":\"2929\",\"links:dbpedia\":\"1943\",\"links:fu-berlin-dailymed\":\"6124\",\"links:fu-berlin-drugbank\":\"8202\",\"links:fu-berlin-sider\":\"238\",\"links:linkedct\":\"372\",\"links:tcmgenedit_dataset\":\"376\",\"namespace\":\"http://www4.wiwiss.fu-berlin.de/diseasome/resource/\",\"triples\":\"91182\"},\"groups\":[\"lodcloud\"],\"id\":\"fa439987-64dc-404c-bc2b-ee5d173f3d62\",\"license\":\"Non-OKD Compliant::Other (Non-Commercial)\",\"license_id\":\"other-nc\",\"maintainer\":\"Anja Jentzsch\",\"maintainer_email\":\"anja@anjeve.de\",\"metadata_created\":\"2007-04-10T21:19:38\",\"metadata_modified\":\"2011-07-24T11:59:35.616364\",\"name\":\"fu-berlin-diseasome\",\"notes\":\"Linked Data version of Diseasome publishes a network of 4,300 disorders and disease genes linked by known disorder-gene associations for exploring all known phenotype and disease gene associations, indicating the common genetic origin of many diseases. The list of disorders, disease genes, and associations between them was obtained from the Online Mendelian Inheritance in Man (OMIM), a compilation of human disease genes and phenotypes.\\u000d\\u000a\\u000d\\u000aOMIM Data Use from http://www.ncbi.nlm.nih.gov/Omim/restrictions.html\\u000d\\u000a\\u000d\\u000aCopyright © 1966-2008 Johns Hopkins University.\\u000d\\u000a\\u000d\\u000aThe OMIM® database including the collective data contained therein is the property of the Johns Hopkins University, which holds the copyright thereto.\\u000d\\u000a\\u000d\\u000aThe OMIM database is made available to the general public subject to certain restrictions. You may use the OMIM database and data obtained from this site for your personal use, for educational or scholarly use, or for research purposes only. The OMIM database may not be copied, distributed, transmitted, duplicated, reduced or altered in any way for commercial purposes, or for the purpose of redistribution, without a license from the Johns Hopkins University.\\u000d\\u000a\\u000d\\u000aRequests for information regarding a license for commercial use or redistribution of the OMIM database may be sent via e-mail to JHTT-Communications@jhmi.edu.\\u000d\\u000a\\u000d\\u000a\\u000d\\u000alinks:bio2rdf-symbol: 9743\",\"notes_rendered\":\"<p>Linked Data version of Diseasome publishes a network of 4,300 disorders and disease genes linked by known disorder-gene associations for exploring all known phenotype and disease gene associations, indicating the common genetic origin of many diseases. The list of disorders, disease genes, and associations between them was obtained from the Online Mendelian Inheritance in Man (OMIM), a compilation of human disease genes and phenotypes.\\u000a</p>\\u000a<p>OMIM Data Use from http://www.ncbi.nlm.nih.gov/Omim/restrictions.html\\u000a</p>\\u000a<p>Copyright © 1966-2008 Johns Hopkins University.\\u000a</p>\\u000a<p>The OMIM® database including the collective data contained therein is the property of the Johns Hopkins University, which holds the copyright thereto.\\u000a</p>\\u000a<p>The OMIM database is made available to the general public subject to certain restrictions. You may use the OMIM database and data obtained from this site for your personal use, for educational or scholarly use, or for research purposes only. The OMIM database may not be copied, distributed, transmitted, duplicated, reduced or altered in any way for commercial purposes, or for the purpose of redistribution, without a license from the Johns Hopkins University.\\u000a</p>\\u000a<p>Requests for information regarding a license for commercial use or redistribution of the OMIM database may be sent via e-mail to JHTT-Communications@jhmi.edu.\\u000a</p>\\u000a<p>links:bio2rdf-symbol: 9743\\u000a</p>\",\"ratings_average\":5,\"ratings_count\":1,\"relationships\":[],\"resources\":[{\"description\":\"SPARQL endpoint\",\"format\":\"api/sparql\",\"hash\":\"\",\"id\":\"0788fb71-3581-4281-b34e-bbe60503c452\",\"package_id\":\"fa439987-64dc-404c-bc2b-ee5d173f3d62\",\"position\":0,\"resource_group_id\":\"bc18f952-a8a6-a132-cbcc-9d594f379459\",\"url\":\"http://www4.wiwiss.fu-berlin.de/diseasome/sparql\"},{\"description\":\"N-Triples, bz2 packed\",\"format\":\"application/x-ntriples\",\"hash\":\"\",\"id\":\"15ed9b1e-938a-40e9-b11b-c848741182bf\",\"package_id\":\"fa439987-64dc-404c-bc2b-ee5d173f3d62\",\"position\":1,\"resource_group_id\":\"bc18f952-a8a6-a132-cbcc-9d594f379459\",\"url\":\"http://www4.wiwiss.fu-berlin.de/diseasome/diseasome_dump.nt.bz2\"},{\"description\":\"XML Sitemap\",\"format\":\"meta/sitemap\",\"hash\":\"\",\"id\":\"89873558-a690-4f82-9b11-abf0f10d0d5e\",\"package_id\":\"fa439987-64dc-404c-bc2b-ee5d173f3d62\",\"position\":2,\"resource_group_id\":\"bc18f952-a8a6-a132-cbcc-9d594f379459\",\"url\":\"http://www4.wiwiss.fu-berlin.de/diseasome/sitemap.xml\"},{\"description\":\"Example resource\",\"format\":\"example/rdf+xml\",\"hash\":\"\",\"id\":\"e5333f25-5db8-45a4-8c52-daa9cb3a5ddf\",\"package_id\":\"fa439987-64dc-404c-bc2b-ee5d173f3d62\",\"position\":3,\"resource_group_id\":\"bc18f952-a8a6-a132-cbcc-9d594f379459\",\"url\":\"http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/74\"}],\"revision_id\":\"c2c9d824-7db2-40b5-bf4f-67e4af7e0460\",\"state\":\"active\",\"tags\":[\"deref-vocab\",\"lifesciences\",\"lod\",\"no-license-metadata\",\"no-provenance-metadata\",\"published-by-third-party\",\"vocab-mappings\",\"void-sparql-endpoint\"],\"title\":\"Diseasome\",\"url\":\"http://www4.wiwiss.fu-berlin.de/diseasome/\",\"version\":\"\"}" ;
+    a dcat:Dataset ;
+    dcat:distribution [
+        dc:description "SPARQL endpoint" ;
+        dc:format [
+            moat:taggedWithTag [
+                moat:name "api/sparql" ;
+                a moat:Tag
+            ] ;
+            a dc:IMT ;
+            rdf:value "application/sparql-results+xml" ;
+            rdfs:label "SPARQL"
+        ] ;
+        a dcat:Distribution ;
+        dcat:accessURL <http://www4.wiwiss.fu-berlin.de/diseasome/sparql>
+    ], [
+        dc:description "N-Triples, bz2 packed" ;
+        dc:format [
+            moat:taggedWithTag [
+                moat:name "application/x-ntriples" ;
+                a moat:Tag
+            ] ;
+            a dc:IMT
+        ] ;
+        a dcat:Distribution ;
+        dcat:accessURL <http://www4.wiwiss.fu-berlin.de/diseasome/diseasome_dump.nt.bz2>
+    ], [
+        dc:description "XML Sitemap" ;
+        dc:format [
+            moat:taggedWithTag [
+                moat:name "meta/sitemap" ;
+                a moat:Tag
+            ] ;
+            a dc:IMT
+        ] ;
+        a dcat:Distribution ;
+        dcat:accessURL <http://www4.wiwiss.fu-berlin.de/diseasome/sitemap.xml>
+    ], [
+        dc:description "Example resource" ;
+        dc:format [
+            moat:taggedWithTag [
+                moat:name "example/rdf+xml" ;
+                a moat:Tag
+            ] ;
+            a dc:IMT ;
+            rdf:value "application/rdf+xml" ;
+            rdfs:label "RDF/XML"
+        ] ;
+        a dcat:Distribution ;
+        dcat:accessURL <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/74>
+    ] ;
+    foaf:homepage <http://www4.wiwiss.fu-berlin.de/diseasome/> .
+
+<http://ckan.net/tag/deref-vocab>
+    moat:name "deref-vocab" ;
+    a moat:Tag .
+
+<http://ckan.net/tag/lifesciences>
+    moat:name "lifesciences" ;
+    a moat:Tag .
+
+<http://ckan.net/tag/lod>
+    moat:name "lod" ;
+    a moat:Tag .
+
+<http://ckan.net/tag/no-license-metadata>
+    moat:name "no-license-metadata" ;
+    a moat:Tag .
+
+<http://ckan.net/tag/no-provenance-metadata>
+    moat:name "no-provenance-metadata" ;
+    a moat:Tag .
+
+<http://ckan.net/tag/published-by-third-party>
+    moat:name "published-by-third-party" ;
+    a moat:Tag .
+
+<http://ckan.net/tag/vocab-mappings>
+    moat:name "vocab-mappings" ;
+    a moat:Tag .
+
+<http://ckan.net/tag/void-sparql-endpoint>
+    moat:name "void-sparql-endpoint" ;
+    a moat:Tag .
+
+<http://semantic.ckan.net/record/fa439987-64dc-404c-bc2b-ee5d173f3d62>
+    dc:source <http://ckan.net/> ;
+    opmv:wasGeneratedBy [
+        opmv:used <http://ckan.net/api/rest/package/fu-berlin-diseasome>, <http://ckan.net/api/rest/revision/c2c9d824-7db2-40b5-bf4f-67e4af7e0460> ;
+        opmv:wasControlledBy [
+            a foaf:Agent ;
+            foaf:name "GoLD CKAN 1.0"
+        ] ;
+        opmv:wasPerformedAt [
+            a time:Instant ;
+            time:inXSDDateTime "2011-07-27T05:14:47Z"^^xsd:dateTime
+        ] ;
+        a opmv:Process
+    ] ;
+    a dcat:CatalogRecord ;
+    dcat:dataset <http://ckan.net/package/fu-berlin-diseasome> ;
+    foaf:isPrimaryTopicOf <http://semantic.ckan.net/record/fa439987-64dc-404c-bc2b-ee5d173f3d62.dot>, <http://semantic.ckan.net/record/fa439987-64dc-404c-bc2b-ee5d173f3d62.html>, <http://semantic.ckan.net/record/fa439987-64dc-404c-bc2b-ee5d173f3d62.json>, <http://semantic.ckan.net/record/fa439987-64dc-404c-bc2b-ee5d173f3d62.nt>, <http://semantic.ckan.net/record/fa439987-64dc-404c-bc2b-ee5d173f3d62.rdf>, <http://semantic.ckan.net/record/fa439987-64dc-404c-bc2b-ee5d173f3d62.ttl> .
+
+<http://semantic.ckan.net/record/fa439987-64dc-404c-bc2b-ee5d173f3d62.dot>
+    dc:format [
+        a dc:IMT ;
+        rdf:value "text/x-graphviz" ;
+        rdfs:label "Graphviz"
+    ] ;
+    a foaf:Document ;
+    foaf:primaryTopic <http://semantic.ckan.net/record/fa439987-64dc-404c-bc2b-ee5d173f3d62> .
+
+<http://semantic.ckan.net/record/fa439987-64dc-404c-bc2b-ee5d173f3d62.html>
+    dc:format [
+        a dc:IMT ;
+        rdf:value "application/xhtml+xml" ;
+        rdfs:label "HTML"
+    ] ;
+    a foaf:Document ;
+    foaf:primaryTopic <http://semantic.ckan.net/record/fa439987-64dc-404c-bc2b-ee5d173f3d62> .
+
+<http://semantic.ckan.net/record/fa439987-64dc-404c-bc2b-ee5d173f3d62.json>
+    dc:format [
+        a dc:IMT ;
+        rdf:value "text/javascript" ;
+        rdfs:label "JSON"
+    ] ;
+    a foaf:Document ;
+    foaf:primaryTopic <http://semantic.ckan.net/record/fa439987-64dc-404c-bc2b-ee5d173f3d62> .
+
+<http://semantic.ckan.net/record/fa439987-64dc-404c-bc2b-ee5d173f3d62.nt>
+    dc:format [
+        a dc:IMT ;
+        rdf:value "text/plain" ;
+        rdfs:label "N-Triples"
+    ] ;
+    a foaf:Document ;
+    foaf:primaryTopic <http://semantic.ckan.net/record/fa439987-64dc-404c-bc2b-ee5d173f3d62> .
+
+<http://semantic.ckan.net/record/fa439987-64dc-404c-bc2b-ee5d173f3d62.rdf>
+    dc:format [
+        a dc:IMT ;
+        rdf:value "application/rdf+xml" ;
+        rdfs:label "RDF/XML"
+    ] ;
+    a foaf:Document ;
+    foaf:primaryTopic <http://semantic.ckan.net/record/fa439987-64dc-404c-bc2b-ee5d173f3d62> .
+
+<http://semantic.ckan.net/record/fa439987-64dc-404c-bc2b-ee5d173f3d62.ttl>
+    dc:format [
+        a dc:IMT ;
+        rdf:value "application/turtle" ;
+        rdfs:label "Turtle"
+    ] ;
+    a foaf:Document ;
+    foaf:primaryTopic <http://semantic.ckan.net/record/fa439987-64dc-404c-bc2b-ee5d173f3d62> .
+
