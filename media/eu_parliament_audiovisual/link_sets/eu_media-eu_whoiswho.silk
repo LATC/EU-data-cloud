@@ -1,0 +1,82 @@
+<Silk>
+
+  <Prefixes>
+    <Prefix id="foaf" namespace="http://xmlns.com/foaf/0.1/" />
+    <Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#" />
+    <Prefix id="rdf" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" />
+  </Prefixes>
+
+  <DataSources>
+    <DataSource type="sparqlEndpoint" id="eu_parliament_media">
+      <Param name="endpointURI" value="http://data.semanticweb.org:8080/openrdf-sesame/repositories/eu_media" />
+      <Param name="retryCount" value="3"></Param>
+      <Param name="retryPause" value="1000"></Param>
+    </DataSource>
+
+    <DataSource type="sparqlEndpoint" id="euwhoiswho">
+      <Param name="endpointURI" value="http://api.talis.com/stores/euwhoiswho/services/sparql" />
+      <Param name="retryCount" value="3"></Param>
+      <Param name="retryPause" value="1000"></Param>
+    </DataSource>
+  </DataSources>
+  
+  <Interlinks>
+    <Interlink id="eu_media-eu_whoiswho">
+      <LinkType>owl:sameAs</LinkType>
+
+      <SourceDataset dataSource="eu_parliament_media" var="a">
+        <RestrictTo>
+          ?a rdf:type foaf:Person
+        </RestrictTo>
+      </SourceDataset>
+
+      <TargetDataset dataSource="euwhoiswho" var="b">
+        <RestrictTo>
+          ?b rdf:type foaf:Person
+        </RestrictTo>
+      </TargetDataset>
+
+      <LinkCondition>
+        <Aggregate weight="1" type="average" required="false" id="unnamed_4">
+          <Compare weight="1" threshold="0.9" required="false" metric="jaro" id="unnamed_5">
+            <Input path="?a/foaf:name" id="unnamed_1"></Input>
+            <Input path="?b/foaf:name" id="unnamed_2"></Input>
+          </Compare>
+        </Aggregate>
+      </LinkCondition>
+      <Filter limit="1"></Filter>
+
+
+	<Outputs> </Outputs>
+
+<!--
+      <LinkCondition>
+        <Aggregate type="average">
+          <Compare metric="jaro">
+            <Input path="?a/foaf:name" />
+            <Input path="?b/foaf:name" />
+          </Compare>
+        </Aggregate>
+      </LinkCondition>
+
+      <Filter threshold="0.9" />
+	-->
+
+
+
+<!--
+      <Outputs>
+        <Output type="file" minConfidence="0.95">
+          <Param name="file" value="accepted_links.nt" />
+          <Param name="format" value="ntriples" />
+        </Output>
+        <Output type="file" maxConfidence="0.95">
+          <Param name="file" value="verify_links.nt" />
+          <Param name="format" value="alignment" />
+        </Output>
+      </Outputs>
+-->
+    </Interlink>
+  </Interlinks>
+
+</Silk>

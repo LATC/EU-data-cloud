@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix orgs: <http://data.kasabi.com/dataset/latc-eu-media/organisations/> .
+@prefix roles: <http://data.kasabi.com/dataset/latc-eu-media/roles/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+
+roles:colman-trevor-ni-uk
+  org:organization orgs:ni-uk .
+
+
+roles:dartmouth-william-the-earl-of-efd-uk
+  org:organization orgs:efd-uk .
+
+
+
+roles:stassen-laurence-j-a-j-ni-nl
+  org:organization orgs:ni-nl .
+
+
+
+roles:lambert-jean-greens-efa-uk
+  org:organization orgs:greens-efa-uk .
+
+
+
+roles:thun-und-hohenstein-roza-maria-barbara-graefin-von-epp-pl
+  org:organization orgs:epp-pl .
+
+
+
+roles:barroso-jose-manuel-ec-president
+  org:organization orgs:ec .
+
+
+
+roles:swoboda-johannes-hannes-s-d-at
+  org:organization orgs:s-d-at .
+
+
+
+roles:ludford-sarah-baroness-alde-uk
+  org:organization orgs:alde-uk .
