@@ -8,6 +8,20 @@
 
 # Persons
 
+people:schulz-martin
+  a foaf:Person ;
+  rdfs:label "Martin Schulz" ;
+.
+
+people:miranda-ana
+  a foaf:Person ;
+  rdfs:label "MIRANDA, Ana (Greens/EFA)" ;
+  foaf:name "Ana Miranda" ;
+  foaf:givenName "Ana" ;
+  foaf:familyName "Miranda" ;
+  org:hasMembership roles:miranda-ana-greens-efa-es ;
+.
+
 people:paola-ruffo-di-calabria-queen
   a foaf:Person ;
   rdfs:label "PAOLA RUFFO DI CALABRIA (Queen)" ;

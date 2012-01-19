@@ -148,12 +148,16 @@ class App
     
     def process_command
       asset_file = "#{@options.out_folder}/#{@options.type}/media_assets_#{@options.date}.txt"
-      asset_csv_file = "#{@options.out_folder}/#{@options.type}_assets_#{@options.date}.csv"
-      topic_csv_file = "#{@options.out_folder}/#{@options.type}_topics_#{@options.date}.csv"
+      asset_csv_file = "#{@options.out_folder}/#{@options.type}/csv/#{@options.type}_assets_#{@options.date}.csv"
+      topic_csv_file = "#{@options.out_folder}/#{@options.type}/csv/#{@options.type}_topics_#{@options.date}.csv"
       # scraper = EUMediaScraper.new(asset_file, asset_csv_file, topic_csv_file, @options.type)
       # scraper.run
 
-      rdf_output_file = "output/#{@options.type}/eup_media_assets_#{@options.date}.nt"
+      rdf_output_folder = "output/#{@options.date}"
+      if (!Dir.exists?(rdf_output_folder))
+        Dir.mkdir(rdf_output_folder)
+      end
+      rdf_output_file = "#{rdf_output_folder}/eup_media_assets_#{@options.type}_#{@options.date}.nt"
       converter = EUMediaCSV2RDF.new(rdf_output_file, asset_csv_file, topic_csv_file, @options.type)
       converter.run
     end

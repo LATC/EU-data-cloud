@@ -89,6 +89,9 @@ class EUMediaScraper
       count += 1
     end
   
+    asset_csv.close
+    topic_csv.close
+  
   end # run()
   
 end # class EUMediaScraper
