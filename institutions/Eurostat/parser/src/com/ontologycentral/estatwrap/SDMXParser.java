@@ -43,8 +43,8 @@ import org.xml.sax.SAXException;
 
 public class SDMXParser {
 
-	private static String outputFilePath = "";
-	private static String logFilePath = "";
+	public static String outputFilePath = "";
+	public static String logFilePath = "";
 	private Document xmlDocument;
 	
 	public SDMXParser(String outPath)
@@ -230,7 +230,7 @@ public class SDMXParser {
 		options.addOption("f", "filename", true, "Name of the file.");
 		options.addOption("i", "file path", true, "File path of the SDMX xml file.");
 		options.addOption("o", "output file path", true, "Output directory path to generate DataCube representation of observations");
-		options.addOption("l", "log file path", true, "File path where the logs will be generated");
+		options.addOption("l", "log file path", true, "File path where the logs will be written.");
 		
 		CommandLine commandLine = parser.parse( options, args );
 		

@@ -52,12 +52,12 @@ public class DSDParser {
     private Document xmlDocument;
     private XPath xPath;	
     //private static String xmlFilePath = "E:/EU Projects/EuroStat/tsiem010.sdmx/tsiem010.dsd.xml";
-    private static String xmlFilePath = "";
+    public static String xmlFilePath = "";
     //private static String outputFilePath = "E:/EU Projects/EuroStat/datacube mapping/RDF/";
-    private static String outputFilePath = "";
+    public static String outputFilePath = "";
     //private static String outputFilePath = "C:/tempZip/dsd/";
-    private static String serialization = "RDF/XML";
-    private static String fileExt = ".rdf";
+    public static String serialization = "RDF/XML";
+    public static String fileExt = ".rdf";
     ArrayList<Code> lstCode = new ArrayList<Code>();
     ArrayList<Concept> lstConcepts = new ArrayList<Concept>();
     ArrayList<CodeList> lstCodeLists = new ArrayList<CodeList>();
@@ -112,7 +112,7 @@ public class DSDParser {
         }       
     }
 	
-    private void initObjects(){        
+    public void initObjects(){        
         try {
         	//System.out.println(xmlFilePath);
             xmlDocument = DocumentBuilderFactory.

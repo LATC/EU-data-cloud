@@ -25,7 +25,7 @@ public class UnCompressXML {
 	//public static String tmpZipPath = "C:/tempZip/";
 	public static String tmpZipPath = "/home/romulus/EuroStat/zip/";
 	
-	public void parseZipFile(String fileName, String downLoadPath)
+	public void parseZipFile(String filePath, String downLoadPath)
 	{
 		tmpZipPath = downLoadPath;
 		//System.out.println("tmpZipPath" + tmpZipPath);
@@ -43,7 +43,7 @@ public class UnCompressXML {
 			//String fileName = fileURL.substring(fileURL.lastIndexOf("/")+1);
 			//downLoadZip(is,fileName);
 			//fileName = fileName.substring(fileName.lastIndexOf("/")+1);
-			readZipFile(fileName);
+			readZipFile(filePath);
 			
 //		} catch (IOException e) {
 //			e.printStackTrace();

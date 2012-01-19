@@ -1,6 +1,7 @@
 package org.deri.eurostat.toc;
 
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -23,10 +24,16 @@ import org.apache.commons.cli.BasicParser;
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.Options;
+import org.apache.commons.io.FileUtils;
+import org.deri.eurostat.dsdparser.DSDParser;
+import org.deri.eurostat.zip.DownloadZip;
+import org.deri.eurostat.zip.UnCompressXML;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
+
+import com.ontologycentral.estatwrap.SDMXParser;
 
 
 /**
@@ -50,8 +57,9 @@ public class DiffToC {
 	static ArrayList<String> missingDatasets = new ArrayList<String>();
 	static BufferedWriter write = null;
 	static FileWriter fstream = null;
+	static StringBuffer emailBody = new StringBuffer();
 	
-	public void runComparison(String inputFilePath, String outputFilePath, String logFilePath)
+	public void runComparison(String inputFilePath, String outputFilePath, String logFilePath, String tempZipPath, String tempDataPath, String dsdPath, String dataPath, String dataLogPath, String originalDataPath, String rawDataPath)
 	{
 		read_New_TOC();
 		readTOC(inputFilePath);
@@ -89,8 +97,6 @@ public class DiffToC {
 		
 		createLogFile(logFilePath);
 		printLogs();
-		
-		download_New_TOC(outputFilePath);
 
 		try{
         	write.flush();  
@@ -98,8 +104,149 @@ public class DiffToC {
 		}catch(IOException e){
 			System.out.println("Error while closing the file...");
 		}
-		System.out.println("Comparison has been completed. Please see the Logs.");
 		
+		// write logs as email body
+		createEmailBody();
+		
+		//replace the old toc with new toc
+		download_New_TOC(outputFilePath);
+		
+		
+		// download updated and new dataset sdmx zip files
+		downloadZipFiles(tempZipPath);
+		
+		// uncompress the new zip files
+		unCompressZipFiles(tempZipPath, tempDataPath);
+		
+		// rdfize the newly downloaded files
+		rdfize(dsdPath,dataPath, tempDataPath, dataLogPath);
+		
+		// move the newly downloaded zip and uncompressed files to their respective directories
+		moveFiles(tempZipPath, tempDataPath, originalDataPath, rawDataPath);
+		
+		// delete the files from temp folders 
+		deleteFiles(tempZipPath,tempDataPath);
+		
+		// send email
+		Email obj = new Email();
+		obj.sendEmail("eurostat updates", emailBody);
+
+		System.out.println("Updates has been done and email sent with details.");
+
+	}
+	
+	public void deleteFiles(String tempZipPath, String tempDataPath)
+	{
+
+		// delete from tempZip folder
+		File dir = new File(tempZipPath);
+		File[] files = dir.listFiles();
+		for(File f:files)
+		   f.delete();
+		
+		// delete from tempData folder
+		dir = new File(tempZipPath);
+		files = dir.listFiles();
+		for(File f:files)
+		   f.delete();
+	}
+	
+	public void moveFiles(String tempZipPath, String tempDataPath, String originalDataPath, String rawDataPath)
+	{
+		// move files to the original-data directory
+		File sourceLocation = new File(tempZipPath);
+		File targetLocation = new File(originalDataPath);
+		
+		try{
+			FileUtils.copyDirectory(sourceLocation, targetLocation);
+		}catch(Exception ex){System.out.println("Zip file transfer failed...");}
+		
+		// move files to the raw-data directory
+		sourceLocation = new File(tempDataPath);
+		targetLocation = new File(rawDataPath);
+		
+		try{
+			FileUtils.copyDirectory(sourceLocation, targetLocation);
+		}catch(Exception ex){System.out.println("Raw data file transfer failed...");}
+		
+	}
+	
+	public void rdfize(String dsdPath, String dataPath, String tempDataPath, String dataLogPath)
+	{
+		System.out.println("RDFizing updated datasets...");
+		DSDParser dsd = new DSDParser();
+		SDMXParser sdmx = new SDMXParser();
+		
+		File dir = new File(tempDataPath);
+		
+		File[] files = dir.listFiles();
+		
+		for(File f:files)
+		{
+			if(f.getName().contains(".dsd.xml"))
+			{
+				dsd = new DSDParser();
+				dsd.xmlFilePath = f.getAbsolutePath();
+				dsd.outputFilePath = dsdPath;
+				dsd.serialization = "turtle";
+				dsd.initObjects();
+				dsd.parseFile();
+			}
+			else if(f.getName().contains(".sdmx.xml"))
+			{
+				sdmx = new SDMXParser();
+				sdmx.outputFilePath = dataPath;
+				sdmx.logFilePath = dataLogPath;
+				try{
+					
+					sdmx.downLoadTSV(f.getName().substring(0,f.getName().indexOf(".")), f.getAbsolutePath());
+				
+				}catch(Exception ex)
+				{
+					System.out.println(ex.getMessage());
+				}
+			}
+		}
+	}
+	
+	public void downloadZipFiles(String tempZipPath)
+	{
+		//String[] arr;
+		DownloadZip obj = new DownloadZip();
+		if(dsUpdates.size() > 0 )
+		{
+			for(String str:dsUpdates)
+			{
+				//arr = str.split("] [");
+				if(str.contains("http://"))
+					obj.zipURL(str.substring(str.lastIndexOf("[")+1,str.lastIndexOf("]")),tempZipPath);
+				
+			}
+		}
+		
+		if(newDatasets.size() > 0)
+		{
+			for(String str:newDatasets)
+			{
+				//arr = str.split("] [");
+				if(str.contains("http://"))
+					obj.zipURL(str.substring(str.lastIndexOf("[")+1,str.lastIndexOf("]")),"");
+				
+			}
+		}
+	}
+	
+	public void unCompressZipFiles(String tempZipPath, String tempDataPath)
+	{
+		System.out.println("UnCompressing files...");
+		UnCompressXML obj = new UnCompressXML();
+		
+		File dir = new File(tempZipPath);
+		
+		File[] files = dir.listFiles();
+		
+		for(File f:files)
+			obj.parseZipFile(f.getAbsolutePath(), tempDataPath);
 	}
 	
 	public boolean isGreater(String originalDate, String modifiedDate)
@@ -340,6 +487,59 @@ public class DiffToC {
 		
 	}
 	
+	public void createEmailBody()
+	{
+		DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+		Date date = new Date();
+		
+		//addtoEmailBody("Please Ignore this email. It is sent for testing purposes");
+		addtoEmailBody("");
+		addtoEmailBody("The time when script was run : " + dateFormat.format(date));
+		addtoEmailBody("");
+		addtoEmailBody("Total number of datasets that has been changed since last update : " + dsUpdates.size());
+		addtoEmailBody("");
+		addtoEmailBody("New datasets found are : " + newDatasets.size());
+		addtoEmailBody("");
+		addtoEmailBody("Datasets which has been removed : " + missingDatasets.size());
+		addtoEmailBody("");
+		addtoEmailBody("---------------------------------------------------------");
+		if(dsUpdates.size() > 0 )
+		{
+			addtoEmailBody("");
+			addtoEmailBody("Updated datasets are :");
+			addtoEmailBody("======================");
+			for(String str:dsUpdates)
+			{
+				addtoEmailBody("");
+				addtoEmailBody("-> " + str.substring(1,str.indexOf("]")));
+			}
+		}
+
+		if(newDatasets.size() > 0 )
+		{
+			addtoEmailBody("");
+			addtoEmailBody("New datasets are :");
+			addtoEmailBody("==================");
+			for(String str:newDatasets)
+			{
+				addtoEmailBody("");
+				addtoEmailBody("-> " + str.substring(1,str.indexOf("]")));
+			}
+		}		
+
+		if(missingDatasets.size() > 0 )
+		{
+			addtoEmailBody("");
+			addtoEmailBody("Removed datasets are :");
+			addtoEmailBody("======================");
+			for(String str:missingDatasets)
+			{
+				addtoEmailBody("");
+				addtoEmailBody("-> " + str.substring(1,str.indexOf("]")));
+			}
+		}		
+	}
+	
 	public void createLogFile(String filePath)
 	{
 		try
@@ -350,6 +550,12 @@ public class DiffToC {
 	   	{
 	   		System.err.println("Error in opening the file : " + e.getMessage());
 	   	}
+	}
+	
+	public void addtoEmailBody(String str)
+	{
+		emailBody.append("\n");
+		emailBody.append(str);
 	}
 	
 	public void writeDataToFile(String line)
@@ -369,7 +575,14 @@ public class DiffToC {
 		System.out.println();
 		System.out.println("	-i input filepath	Input file path of the TableOfContents.xml file.");
 		System.out.println("	-o output filepath	Output directory path where the new TableOfContents.xml file will be saved.");
-		System.out.println("	-f log filepath		Output directory path where the log file will be created.");
+		System.out.println("	-f log filepath		Output directory path where the log of updates will be stored.");
+		System.out.println("	-z temp zip path	Directory path where zip files will be temporarily stored.");
+		System.out.println("	-t temp data path	Directory path where the sdmx and dsd files will be temporarily stored.");
+		System.out.println("	-s sdmx file path	Output directory path to generate DataCube representation of observations.");
+		System.out.println("	-d dsd file path	Output directory path to generate DataCube representation of DSD.");
+		System.out.println("	-l data log path	File path where the logs will be written.");
+		System.out.println("	-p original data path	Path where zip files will be stored.");
+		System.out.println("	-r raw data path	Path where the uncompressed files will be stored.");
 	}
 	
 	public static void main(String[] args) throws Exception
@@ -377,13 +590,27 @@ public class DiffToC {
 		String inputFilePath = "";
 		String outputFilePath = "";
 		String logFilePath = "";
+		String tempZipPath = "";
+		String tempDataPath = "";
+		String dsdPath = "";
+		String dataPath = "";
+		String dataLogPath = "";
+		String originalDataPath = "";
+		String rawDataPath = "";
 		
 		CommandLineParser parser = new BasicParser( );
 		Options options = new Options( );
 		options.addOption("h", "help", false, "Print this usage information");
 		options.addOption("i", "file path", true, "Input file path of the TableOfContents.xml file.");
-		options.addOption("o", "outputFilePath", true, "Output directory path where the new TableOfContents.xml file will be saved.");
-		options.addOption("f", "logFilePath", true, "Output directory path where the log file will be created.");
+		options.addOption("o", "output file path", true, "Output directory path where the new TableOfContents.xml file will be saved.");
+		options.addOption("f", "log file path", true, "Output directory path where the log of updates will be stored.");
+		options.addOption("z", "temp zip path", true, "Directory path where zip files will be temporarily stored.");
+		options.addOption("t", "temp data path", true, "Directory path where the sdmx and dsd files will be temporarily stored.");
+		options.addOption("s", "sdmx file path", true, "Output directory path to generate DataCube representation of observations.");
+		options.addOption("d", "dsd file path", true, "Output directory path to generate DataCube representation of DSD.");
+		options.addOption("l", "data log path", true, "File path where the logs will be written.");
+		options.addOption("p", "original data path", true, "Path where zip files will be stored.");
+		options.addOption("r", "raw data path", true, "Path where the uncompressed files will be stored.");
 		CommandLine commandLine = parser.parse( options, args );
 		
 		if( commandLine.hasOption('h') ) {
@@ -400,7 +627,28 @@ public class DiffToC {
 		if(commandLine.hasOption('f'))
 			logFilePath = commandLine.getOptionValue('f');
 		
-		if(inputFilePath.equals("") || outputFilePath.equals("") || logFilePath.equals(""))
+		if(commandLine.hasOption('z'))
+			tempZipPath = commandLine.getOptionValue('z');
+		
+		if(commandLine.hasOption('t'))
+			tempDataPath = commandLine.getOptionValue('t');
+		
+		if(commandLine.hasOption('s'))
+			dataPath = commandLine.getOptionValue('s');
+		
+		if(commandLine.hasOption('d'))
+			dsdPath = commandLine.getOptionValue('d');
+		
+		if(commandLine.hasOption('l'))
+			dataLogPath = commandLine.getOptionValue('l');
+		
+		if(commandLine.hasOption('p'))
+			originalDataPath = commandLine.getOptionValue('p');
+		
+		if(commandLine.hasOption('r'))
+			rawDataPath = commandLine.getOptionValue('r');
+		
+		if(inputFilePath.equals("") || outputFilePath.equals("") || logFilePath.equals("") || tempZipPath.equals("") || tempDataPath.equals("") || dsdPath.equals("") || dataPath.equals("") || dataLogPath.equals("") || originalDataPath.equals("") || rawDataPath.equals(""))
 		{
 			usage();
 			return;
@@ -408,7 +656,7 @@ public class DiffToC {
 		else
 		{
 			DiffToC obj = new DiffToC();
-			obj.runComparison(inputFilePath,outputFilePath,logFilePath);
+			obj.runComparison(inputFilePath,outputFilePath,logFilePath, tempZipPath, tempDataPath, dsdPath, dataPath, dataLogPath, originalDataPath, rawDataPath);
 		}
 		
 	}
