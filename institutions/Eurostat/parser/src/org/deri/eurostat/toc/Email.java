@@ -35,7 +35,6 @@ public class Email {
 	public void sendEmail(String subject, StringBuffer emailBody)
 	{
 		String[] to = {"eurostat-updates@lists.deri.org"};
-		//String[] to = {"aftab.iqbal@deri.org"};
 		
 		Session session = Session.getDefaultInstance(props, null);
 	    MimeMessage message = new MimeMessage(session);

@@ -174,6 +174,7 @@ public class DiffToC {
 	public void rdfize(String dsdPath, String dataPath, String tempDataPath, String dataLogPath)
 	{
 		System.out.println("RDFizing updated datasets...");
+
 		DSDParser dsd = new DSDParser();
 		SDMXParser sdmx = new SDMXParser();
 		
@@ -193,7 +194,9 @@ public class DiffToC {
 				dsd.parseFile();
 			}
 			else if(f.getName().contains(".sdmx.xml"))
+			//else if(f.getName().contains(".sdmx.xml") && !f.getName().contains("bop_q_c") && !f.getName().contains("gov_a_exp") && !f.getName().contains("lfsq_egana2d") && !f.getName().contains("nasa_f_bs") && !f.getName().contains("nasa_f_tr") && !f.getName().contains("sts_inppdgr_m") && !f.getName().contains("nasa_f_of") && !f.getName().contains("sts_inppndgr_m") && !f.getName().contains("sts_innond_m") && !f.getName().contains("sts_inppgr_m") && !f.getName().contains("sts_"))
 			{
+
 				sdmx = new SDMXParser();
 				sdmx.outputFilePath = dataPath;
 				sdmx.logFilePath = dataLogPath;
@@ -511,7 +514,7 @@ public class DiffToC {
 			for(String str:dsUpdates)
 			{
 				addtoEmailBody("");
-				addtoEmailBody("-> " + str.substring(1,str.indexOf("]")));
+				addtoEmailBody("-> " + str.substring(1,str.indexOf("]")) + " (" + str.substring(str.lastIndexOf("[")+1,str.lastIndexOf("]")) + ")");
 			}
 		}
 
@@ -523,7 +526,7 @@ public class DiffToC {
 			for(String str:newDatasets)
 			{
 				addtoEmailBody("");
-				addtoEmailBody("-> " + str.substring(1,str.indexOf("]")));
+				addtoEmailBody("-> " + str.substring(1,str.indexOf("]")) + " (" + str.substring(str.lastIndexOf("[")+1,str.lastIndexOf("]")) + ")");
 			}
 		}		
 
@@ -535,7 +538,7 @@ public class DiffToC {
 			for(String str:missingDatasets)
 			{
 				addtoEmailBody("");
-				addtoEmailBody("-> " + str.substring(1,str.indexOf("]")));
+				addtoEmailBody("-> " + str.substring(1,str.indexOf("]")) + " (" + str.substring(str.lastIndexOf("[")+1,str.lastIndexOf("]")) + ")");
 			}
 		}		
 	}
