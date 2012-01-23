@@ -495,7 +495,6 @@ public class DiffToC {
 	{
 		DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 		Date date = new Date();
-		
 		//addtoEmailBody("Please Ignore this email. It is sent for testing purposes");
 		addtoEmailBody("");
 		addtoEmailBody("Script was run at : " + dateFormat.format(date));
@@ -514,8 +513,11 @@ public class DiffToC {
 			addtoEmailBody("======================");
 			for(String str:dsUpdates)
 			{
-				addtoEmailBody("");
-				addtoEmailBody("-> " + str.substring(1,str.indexOf("]")) + " (" + url + str.substring(str.lastIndexOf("/")+1,str.lastIndexOf(".sdmx.zip")) + ".rdf" + ")");
+				if(str.contains("http://"))
+				{
+					addtoEmailBody("");
+					addtoEmailBody("-> " + str.substring(1,str.indexOf("]")) + " (" + url + str.substring(str.lastIndexOf("/")+1,str.lastIndexOf(".sdmx.zip")) + ".rdf" + ")");
+				}
 			}
 		}
 
@@ -526,8 +528,12 @@ public class DiffToC {
 			addtoEmailBody("==================");
 			for(String str:newDatasets)
 			{
-				addtoEmailBody("");
-				addtoEmailBody("-> " + str.substring(1,str.indexOf("]")) + " (" + url + str.substring(str.lastIndexOf("/")+1,str.lastIndexOf(".sdmx.zip")) + ".rdf" + ")");
+				if(str.contains("http://"))
+				{
+					addtoEmailBody("");
+					addtoEmailBody("-> " + str.substring(1,str.indexOf("]")) + " (" + url + str.substring(str.lastIndexOf("/")+1,str.lastIndexOf(".sdmx.zip")) + ".rdf" + ")");
+				}
+				
 			}
 		}		
 
@@ -538,8 +544,11 @@ public class DiffToC {
 			addtoEmailBody("======================");
 			for(String str:missingDatasets)
 			{
-				addtoEmailBody("");
-				addtoEmailBody("-> " + str.substring(1,str.indexOf("]")) + " (" + url + str.substring(str.lastIndexOf("/")+1,str.lastIndexOf(".sdmx.zip")) + ".rdf" + ")");
+				if(str.contains("http://"))
+				{
+					addtoEmailBody("");
+					addtoEmailBody("-> " + str.substring(1,str.indexOf("]")) + " (" + url + str.substring(str.lastIndexOf("/")+1,str.lastIndexOf(".sdmx.zip")) + ".rdf" + ")");
+				}
 			}
 		}		
 	}
