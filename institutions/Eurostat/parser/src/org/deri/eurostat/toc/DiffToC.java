@@ -58,6 +58,7 @@ public class DiffToC {
 	static BufferedWriter write = null;
 	static FileWriter fstream = null;
 	static StringBuffer emailBody = new StringBuffer();
+	public static String url = "http://eurostat.linked-statistics.org/data/";
 	
 	public void runComparison(String inputFilePath, String outputFilePath, String logFilePath, String tempZipPath, String tempDataPath, String dsdPath, String dataPath, String dataLogPath, String originalDataPath, String rawDataPath)
 	{
@@ -497,7 +498,7 @@ public class DiffToC {
 		
 		//addtoEmailBody("Please Ignore this email. It is sent for testing purposes");
 		addtoEmailBody("");
-		addtoEmailBody("The time when script was run : " + dateFormat.format(date));
+		addtoEmailBody("Script was run at : " + dateFormat.format(date));
 		addtoEmailBody("");
 		addtoEmailBody("Total number of datasets that has been changed since last update : " + dsUpdates.size());
 		addtoEmailBody("");
@@ -514,7 +515,7 @@ public class DiffToC {
 			for(String str:dsUpdates)
 			{
 				addtoEmailBody("");
-				addtoEmailBody("-> " + str.substring(1,str.indexOf("]")) + " (" + str.substring(str.lastIndexOf("[")+1,str.lastIndexOf("]")) + ")");
+				addtoEmailBody("-> " + str.substring(1,str.indexOf("]")) + " (" + url + str.substring(str.lastIndexOf("/")+1,str.lastIndexOf(".sdmx.zip")) + ".rdf" + ")");
 			}
 		}
 
@@ -526,7 +527,7 @@ public class DiffToC {
 			for(String str:newDatasets)
 			{
 				addtoEmailBody("");
-				addtoEmailBody("-> " + str.substring(1,str.indexOf("]")) + " (" + str.substring(str.lastIndexOf("[")+1,str.lastIndexOf("]")) + ")");
+				addtoEmailBody("-> " + str.substring(1,str.indexOf("]")) + " (" + url + str.substring(str.lastIndexOf("/")+1,str.lastIndexOf(".sdmx.zip")) + ".rdf" + ")");
 			}
 		}		
 
@@ -538,7 +539,7 @@ public class DiffToC {
 			for(String str:missingDatasets)
 			{
 				addtoEmailBody("");
-				addtoEmailBody("-> " + str.substring(1,str.indexOf("]")) + " (" + str.substring(str.lastIndexOf("[")+1,str.lastIndexOf("]")) + ")");
+				addtoEmailBody("-> " + str.substring(1,str.indexOf("]")) + " (" + url + str.substring(str.lastIndexOf("/")+1,str.lastIndexOf(".sdmx.zip")) + ".rdf" + ")");
 			}
 		}		
 	}

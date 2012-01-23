@@ -293,7 +293,7 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
 
          for (int i = start; i < end; ++i)
          {
-                 if (((String)lcol.get(i)).equals(":")) {
+                 if (((String)lcol.get(i)).equals(":") || ((String)lcol.get(i)).contains(":")) {
                          continue;
                  }
                  
