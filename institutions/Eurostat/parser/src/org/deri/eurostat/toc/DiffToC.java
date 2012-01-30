@@ -138,7 +138,7 @@ public class DiffToC {
 	
 	public void deleteFiles(String tempZipPath, String tempDataPath)
 	{
-
+		System.out.println("deleting files from tempData and tempZip directories...");
 		// delete from tempZip folder
 		File dir = new File(tempZipPath);
 		File[] files = dir.listFiles();
@@ -155,6 +155,7 @@ public class DiffToC {
 	public void moveFiles(String tempZipPath, String tempDataPath, String originalDataPath, String rawDataPath)
 	{
 		// move files to the original-data directory
+		System.out.println("Moving files from temp directory to original-data directory...");
 		File sourceLocation = new File(tempZipPath);
 		File targetLocation = new File(originalDataPath);
 		
