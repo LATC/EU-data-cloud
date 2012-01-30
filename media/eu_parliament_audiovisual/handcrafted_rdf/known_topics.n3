@@ -1,0 +1,314 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix topics: <http://data.kasabi.com/dataset/latc-eu-media/topics/> .
+@prefix people: <http://data.kasabi.com/dataset/latc-eu-media/people/> .
+@prefix roles: <http://data.kasabi.com/dataset/latc-eu-media/roles/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+
+# Persons
+
+people:schulz-martin
+  a foaf:Person ;
+  rdfs:label "Martin Schulz" ;
+.
+
+people:miranda-ana
+  a foaf:Person ;
+  rdfs:label "MIRANDA, Ana (Greens/EFA)" ;
+  foaf:name "Ana Miranda" ;
+  foaf:givenName "Ana" ;
+  foaf:familyName "Miranda" ;
+  org:hasMembership roles:miranda-ana-greens-efa-es ;
+.
+
+people:paola-ruffo-di-calabria-queen
+  a foaf:Person ;
+  rdfs:label "PAOLA RUFFO DI CALABRIA (Queen)" ;
+  foaf:name "Queen Paola Ruffo di Calabria" ;
+  foaf:givenName "Paola" ;
+  foaf:familyName "Ruffo" ;
+  foaf:title "Queen" ;
+.
+
+people:colman-trevor
+  a foaf:Person ;
+  rdfs:label "COLMAN Trevor (NI, UK)" ;
+  foaf:name "Trevor Colman" ;
+  foaf:givenName "Trevor" ;
+  foaf:familyName "Colman" ;
+  org:hasMembership roles:colman-trevor-ni-uk ;
+.
+
+people:wei-jingsheng
+  a foaf:Person ;
+  rdfs:label "WEI JINGSHENG" ;
+  foaf:name "Jingsheng Wei" ;
+  foaf:givenName "Jingsheng" ;
+  foaf:familyName "Wei" ;
+.
+
+people:hu-jia
+  a foaf:Person ;
+  rdfs:label "HU Jia" ;
+  foaf:name "Jia Hu" ;
+  foaf:givenName "Jia" ;
+  foaf:familyName "Hu" ;
+.
+
+people:bartholomeos-ier
+  a foaf:Person ;
+  rdfs:label "BARTHOLOMEOS Ier" ;
+  foaf:name "Bartholomeos Ier" ;
+  foaf:givenName "Bartholomeos" ;
+  foaf:familyName "Ier" ;
+.
+
+people:wathelet-melchior-father
+  a foaf:Person ;
+  rdfs:label "WATHELET, Melchior (father)" ;
+  foaf:name "Melchior Wathelet" ;
+  foaf:givenName "Melchior" ;
+  foaf:familyName "Wathelet" ;
+.
+
+people:mccartney-paul-sir
+  a foaf:Person ;
+  rdfs:label "McCARTNEY, Paul (Sir)" ;
+  foaf:name "Paul McCartney" ;
+  foaf:givenName "Paul" ;
+  foaf:familyName "McCartney" ;
+  foaf:title "Sir" ;
+.
+
+people:dartmouth-william-the-earl-of
+  a foaf:Person ;
+  rdfs:label "DARTMOUTH, William (The Earl of) (EFD, UK)" ;
+  foaf:name "William Legge, Earl of Dartmouth" ;
+  foaf:givenName "William" ;
+  foaf:familyName "Legge" ;
+  foaf:title "Earl of Dartmouth" ;
+  org:hasMembership roles:dartmouth-william-the-earl-of-efd-uk ;
+.
+
+people:stassen-laurence-j-a-j
+  a foaf:Person ;
+  rdfs:label "STASSEN J.A.J., Laurence (NI, NL)" ;
+  foaf:name "Laurence J.A.J. Stassen" ;
+  foaf:givenName "Laurence" ;
+  foaf:familyName "Stassen" ;
+  org:hasMembership roles:stassen-laurence-j-a-j-ni-nl ;
+.
+
+people:buzek-jerzy-karol
+  a foaf:Person ;
+  rdfs:label "Buzek" ;
+.
+
+people:cox-pat
+  a foaf:Person ;
+  rdfs:label "COX, Pat (Patrick)" ;
+  foaf:name "Pat Cox" ;
+  foaf:givenName "Patrick" ;
+  foaf:nick "Pat Cox" ;
+  foaf:familyName "Cox" ;
+.
+
+people:lambert-jean
+  a foaf:Person ;
+  rdfs:label "LAMBERT, Jean (Ms) (Greens/EFA, UK)" ;
+  foaf:name "Jean Lambert" ;
+  foaf:givenName "Jean" ;
+  foaf:familyName "Lambert" ;
+  foaf:title "Ms" ;
+  org:hasMembership roles:lambert-jean-greens-efa-uk ;
+.
+
+people:thun-und-hohenstein-roza-maria-barbara-graefin-von
+  a foaf:Person ;
+  rdfs:label "THUN UND HOHENSTEIN, Róza Maria Barbara (Gräfin von) (EPP, PL)" ;
+  foaf:name "Róza Maria Barbara Gräfin von Thun und Hohenstein" ;
+  foaf:givenName "Róza Maria Barbara" ;
+  foaf:familyName "Thun und Hohenstein" ;
+  foaf:title "Gräfin" ;
+  org:hasMembership roles:thun-und-hohenstein-roza-maria-barbara-graefin-von-epp-pl ;
+.
+
+people:fischer-joschka
+  a foaf:Person ;
+  rdfs:label "FISCHER, Joseph (Joschka)" ;
+  foaf:name "Joschka Fischer" ;
+  foaf:givenName "Joseph" ;
+  foaf:familyName "Fischer" ;
+.
+
+people:wathelet-melchior-jr
+  a foaf:Person ;
+  rdfs:label "WATHELET, Melchior (son)" ;
+  foaf:name "Melchior Wathelet" ;
+  foaf:givenName "Melchior" ;
+  foaf:familyName "Wathelet" ;
+.
+
+people:qurie-ahmed
+  a foaf:Person ;
+  rdfs:label "QURIE, Ahmed (Abu Ala)" ;
+  foaf:name "Ahmed Qurie" ;
+  foaf:givenName "Ahmed" ;
+  foaf:familyName "Qurie" ;
+  foaf:nick "Abu Ala" ; 
+.
+
+people:plumb-henry
+  a foaf:Person ;
+  rdfs:label "PLUMB, Henry (Lord)" ;
+  foaf:name "Henry Plumb" ;
+  foaf:givenName "Henry" ;
+  foaf:familyName "Plumb" ;
+  foaf:title "Lord" ;
+.
+
+people:sadate-anouar-el
+  a foaf:Person ;
+  rdfs:label "SADATE, Anouar El (Muhammad Ahmad Anwar As-SADAT)" ;
+  foaf:name "Anouar El Sadate"@fr ;
+  foaf:givenName "Anouar"@fr ;
+  foaf:familyName "el-Sadate"@fr ;
+  foaf:name "Muhammad Anwar al-Sadat"@en ;
+  foaf:givenName "Muhammad Anwar"@en ;
+  foaf:familyName "al Sadat"@en ;
+.
+
+
+people:barroso-jose-manuel
+  a foaf:Person ;
+  rdfs:label "BARROSO, Jose Manuel (EC President)" ;
+  foaf:name "Jose Manuel Barroso" ;
+  org:hasMembership roles:barroso-jose-manuel-ec-president ;
+.
+people:swoboda-johannes-hannes
+  a foaf:Person ;
+  rdfs:label "SWOBODA, Johannes (Hannes) (S&D, AT)" ;
+  foaf:name "Johannes Swoboda" ;
+  foaf:nick "Hannes" ;
+  org:hasMembership roles:swoboda-johannes-hannes-s-d-at ;
+.
+
+people:ludford-sarah-baroness
+  a foaf:Person ;
+  rdfs:label "LUDFORD, Sarah (Baroness) (ALDE, UK)" ;
+  foaf:name "Sarah Ludford" ;
+  foaf:title "Baroness" ;
+  org:hasMembership roles:ludford-sarah-baroness-alde-uk ;
+.
+	
+people:albert-ii-de-monaco-prince
+  a foaf:Person ;
+  rdfs:label "ALBERT II DE MONACO (Prince)" ;
+  foaf:name "Albert II de Monaco (Prince)" ;
+.
+
+people:angela-merkel
+  a foaf:Person ;
+  rdfs:label "Angela Merkel" ;
+  foaf:name "Angela Merkel" ;
+  foaf:givenName "Angela" ;
+  foaf:familyName "Merkel" ;
+.
+
+people:astrid-princess-of-belgium
+  a foaf:Person ;
+  rdfs:label "ASTRID (Princess of Belgium)" ;
+  foaf:name "Astrid (Princess of Belgium)" ;
+.
+
+people:beatrix-queen
+  a foaf:Person ;
+  rdfs:label "BEATRIX (Queen)" ;
+  foaf:name "Beatrix (Queen)" ;
+.
+
+people:benedict-xvi-pope
+  a foaf:Person ;
+  rdfs:label "BENEDICT XVI (Pope)" ;
+  foaf:name "Benedict XVI (Pope)" ;
+.
+
+people:berzins-andris
+  a foaf:Person ;
+  rdfs:label "BERZINS Andris" ;
+  foaf:name "Berzins Andris" ;
+  foaf:familyName "Berzins" ;
+  foaf:givenName "Andris" ;
+.
+
+people:charles-prince
+  a foaf:Person ;
+  rdfs:label "CHARLES (PRINCE)" ;
+  foaf:name "Charles (Prince)" ;
+.
+
+people:dalai-lama
+  a foaf:Person ;
+  rdfs:label "DALAI LAMA" ;
+  foaf:name "Dalai Lama" ;
+.
+
+people:elizabeth-ii-queen
+  a foaf:Person ;
+  rdfs:label "ELIZABETH II (QUEEN)" ;
+  foaf:name "Elizabeth II (Queen)" ;
+.
+
+people:john-paul-ii-pope
+  a foaf:Person ;
+  rdfs:label "JOHN PAUL II (Pope)" ;
+  foaf:name "John Paul II (Pope)" ;
+.
+
+people:margrethe-ii
+  a foaf:Person ;
+  rdfs:label "MARGRETHE II" ;
+  foaf:name "Margrethe II" ;
+.
+
+people:mathilde-princess
+  a foaf:Person ;
+  rdfs:label "MATHILDE (Princess)" ;
+  foaf:name "Mathilde (Princess)" ;
+.
+
+people:wu-bangguo
+  a foaf:Person ;
+  rdfs:label "WU BANGGUO" ;
+  foaf:name "Wu Bangguo" ;
+.
+
+people:yang-jiechi
+  a foaf:Person ;
+  rdfs:label "YANG JIECHI" ;
+  foaf:name "Yang Jiechi" ;
+.
+
+# non-persons
+
+topics:committee-on-civil-liberties-justice-and-home-affairs
+  a owl:Thing ;
+  rdfs:label "Committee on Civil Liberties, Justice and Home Affairs" ;
+.
+
+topics:committee-on-environment-public-health-and-food-safety
+  a owl:Thing ;
+  rdfs:label "Committee on Environment, Public Health and Food Safety" ;
+.
+
+topics:committee-on-financial-economic-and-social-crisis
+  a owl:Thing ;
+  rdfs:label "Committee on Financial, Economic and Social Crisis" ;
+.
+
+topics:committee-on-industry-research-and-energy
+  a owl:Thing ;
+  rdfs:label "Committee on Industry, Research and Energy" ;
+.
+

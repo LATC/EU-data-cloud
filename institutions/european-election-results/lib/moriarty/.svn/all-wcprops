@@ -1,0 +1,263 @@
+K 25
+svn:wc:ra_dav:version-url
+V 23
+/svn/!svn/ver/323/trunk
+END
+httprequest.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/322/trunk/httprequest.class.php
+END
+oaiservice.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/313/trunk/oaiservice.class.php
+END
+rollback.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/313/trunk/rollback.class.php
+END
+privategraph.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/313/trunk/privategraph.class.php
+END
+store.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/323/trunk/store.class.php
+END
+credentials.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/313/trunk/credentials.class.php
+END
+multisparqlservice.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/313/trunk/multisparqlservice.class.php
+END
+changeset.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/314/trunk/changeset.class.php
+END
+fieldpredicatemap.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/313/trunk/fieldpredicatemap.class.php
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/313/trunk/build.xml
+END
+config.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/256/trunk/config.class.php
+END
+valuepool.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/313/trunk/valuepool.class.php
+END
+storecollection.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/313/trunk/storecollection.class.php
+END
+moriarty.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/321/trunk/moriarty.inc.php
+END
+httpclient.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/120/trunk/httpclient.class.php
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/4/trunk/COPYING
+END
+sparqlservicebase.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/322/trunk/sparqlservicebase.class.php
+END
+graphpath.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/313/trunk/graphpath.class.php
+END
+constants.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/313/trunk/constants.inc.php
+END
+datatableresult.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/313/trunk/datatableresult.class.php
+END
+augmentservice.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/313/trunk/augmentservice.class.php
+END
+datatable.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/313/trunk/datatable.class.php
+END
+sparqlservice.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/313/trunk/sparqlservice.class.php
+END
+phphttpclient.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/313/trunk/phphttpclient.class.php
+END
+queryprofile.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/313/trunk/queryprofile.class.php
+END
+union.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/313/trunk/union.class.php
+END
+httpresponse.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/323/trunk/httpresponse.class.php
+END
+metabox.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/313/trunk/metabox.class.php
+END
+storegroupconfig.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/313/trunk/storegroupconfig.class.php
+END
+networkresource.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/313/trunk/networkresource.class.php
+END
+graph.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/322/trunk/graph.class.php
+END
+httpcache.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/313/trunk/httpcache.class.php
+END
+facetservice.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/313/trunk/facetservice.class.php
+END
+curlhttpclient.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/321/trunk/curlhttpclient.class.php
+END
+storegroup.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/313/trunk/storegroup.class.php
+END
+phing.xml
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/313/trunk/phing.xml
+END
+simplegraph.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/316/trunk/simplegraph.class.php
+END
+jobqueue.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/313/trunk/jobqueue.class.php
+END
+httprequestfactory.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/322/trunk/httprequestfactory.class.php
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/255/trunk/readme.txt
+END
+snapshots.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/321/trunk/snapshots.class.php
+END
+labeller.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/313/trunk/labeller.class.php
+END
+contentbox.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/313/trunk/contentbox.class.php
+END

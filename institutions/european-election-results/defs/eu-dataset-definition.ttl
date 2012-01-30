@@ -1,0 +1,159 @@
+# dataset definition for EU election results 2009 
+# follow similar pattern for other years.
+# uses the data cube vocabulary
+
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sdmx-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix sdmx-concept: <http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix interval: <http://reference.data.gov.uk/def/intervals/> . 
+
+
+@prefix ee: <http://data.kasabi.com/dataset/european-election-results/> .
+@prefix eedef: <http://data.kasabi.com/dataset/european-election-results/def/> .
+
+
+eedef:ElectionResult a rdfs:Class ;
+    rdfs:subClassOf qb:Observation ;
+    rdfs:label "Election Result" ;
+    .
+
+eedef:Country a rdfs:Class ;
+    rdfs:label "Country"@en ;
+    rdfs:comment "A country"@en ;
+    .
+
+eedef:PoliticalGroup a rdfs:Class ;
+    rdfs:label "Political Group"@en ;
+    rdfs:comment "A pan-european political group"@en ;
+    .
+
+eedef:NationalParty a rdfs:Class ;
+    rdfs:label "National Party"@en ;
+    rdfs:comment "A national political party"@en ;
+    .
+
+##############################################
+# Dimension Properties
+
+eedef:votingCountry a rdf:Property, qb:DimensionProperty ;
+    rdfs:label "Country in which voting took place"@en ;
+    rdfs:subPropertyOf sdmx-dimension:refArea ;
+    # rdfs:range <http://dbpedia.org/ontology/Country> ;
+    qb:concept sdmx-concept:refArea ;
+    .
+
+eedef:politicalGroup a rdf:Property, qb:DimensionProperty ;
+    rdfs:label "Pan-European Political Group"@en ;
+    qb:concept eedef:Political-group ;
+    .
+
+eedef:nationalParty a rdf:Property, qb:DimensionProperty ;
+    rdfs:label "National Political Party"@en ;
+    qb:concept eedef:National-party ;
+    .
+
+eedef:year a rdf:Property, qb:DimensionProperty ;
+    rdfs:label "Year of election"@en ;
+    rdfs:subPropertyOf sdmx-dimension:refPeriod ;
+    rdfs:range: interval:Interval ;
+    qb:concept sdmx-concept:refPeriod ;
+    .
+
+
+##############################################
+# Measure Properties
+
+eedef:seatsWon a rdf:Property, qb:MeasureProperty ;
+    rdfs:label "Number of seats won"@en ;
+    rdfs:subPropertyOf sdmx-dimension:obsValue ;
+    rdfs:range xsd:integer ;
+    sdmx-attribute:unitMeasure eedef:Seat ;
+    .
+
+eedef:percentageOfSeatsWon a rdf:Property, qb:MeasureProperty ;
+    rdfs:label "Number of seats won as a percentage"@en ;
+    rdfs:subPropertyOf sdmx-dimension:obsValue ;
+    rdfs:range xsd:decimal ;
+    sdmx-attribute:unitMeasure <http://something.com> ;
+    .
+
+
+
+##############################################
+# Dataset definitions
+
+
+# dataset 1 - number of seats by country
+<http://data.kasabi.com/dataset/european-election-results/2009/political_groups/seats_won> a qb:Dataset;
+    qb:structure ee:data-definition-1 ;
+    rdfs:label "Seats Won by political group"@en;
+    .
+
+# data structure definition
+ee:data-definition-1 a qb:DataStructureDefinition ;
+    rdfs:label "Numbers of seats won by country"@en ;
+    qb:component 
+        ee:dsd-component-1, 
+        ee:dsd-component-2, 
+        ee:dsd-component-3, 
+        ee:dsd-component-4, 
+        ee:dsd-component-5 
+        ;
+    .
+
+ee:dsd-component-1 qb:dimension eedef:votingCountry ; qb:order 2 .
+ee:dsd-component-2 qb:dimension eedef:politicalGroup ; qb:order 3 .
+ee:dsd-component-3 qb:measure eedef:seatsWon ; qb:order 4 .
+ee:dsd-component-4 qb:measure eedef:percentOfSeatsWon ; qb:order 5 .
+ee:dsd-component-5 qb:dimension eedef:year ; qb:order 1 .
+
+
+# dataset 2 - number seats by national party
+<http://data.kasabi.com/dataset/european-election-results/2009/national_parties/seats_won> a qb:Dataset ;
+    qb:structure ee:data-definition-2 ;
+    rdfs:label "Seats  won by national party"@en ;
+    .
+ee:data-definition-2 a qb:DataStructureDefinition ;
+    rdfs:label "Numbers of seats won by National Parties"@en ;
+    qb:component
+        ee:dsd-component-6,
+        ee:dsd-component-7,
+        ee:dsd-component-8,
+        ee:dsd-component-9,
+        ee:dsd-component-10
+        ;
+    .
+
+
+ee:dsd-component-6 qb:dimension eedef:year ; qb:order 1 .
+ee:dsd-component-7 qb:dimension eedef:nationalParty ; qb:order 2 .
+ee:dsd-component-8 qb:dimension eedef:votingCountry ; qb:order 3 .
+ee:dsd-component-9 qb:measure eedef:seatsWon ; qb:order 4 .
+ee:dsd-component-10 qb:measure eedef:percentOfSeatsWon ; qb:order 5 .
+
+
+##############################################
+# concept definitions
+
+eedef:Political-group a skos:Concept ;
+    rdfs:label "Political Group"@en ;
+    rdfs:comment "A Pan-european grouping of national political parties"@en ;
+    .
+
+eedef:National-party a skos:Concept ;
+    rdfs:label "National Party"@en ;
+    rdfs:comment "A national political party"@en ;
+    .
+
+eedef:Seat a skos:Concept ;
+    rdfs:label "Seat"@en ;
+    rdfs:comment "A seat in the European Parliament"@en ;
+    .
+
+#ends

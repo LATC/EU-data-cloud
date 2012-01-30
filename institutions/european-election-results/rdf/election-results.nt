@@ -1,0 +1,92 @@
+<http://data.kasabi.com/dataset/european-election-results/def/ElectionResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.kasabi.com/dataset/european-election-results/def/ElectionResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/linked-data/cube#Observation> .
+<http://data.kasabi.com/dataset/european-election-results/def/ElectionResult> <http://www.w3.org/2000/01/rdf-schema#label> "Election Result" .
+<http://data.kasabi.com/dataset/european-election-results/def/Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.kasabi.com/dataset/european-election-results/def/Country> <http://www.w3.org/2000/01/rdf-schema#label> "Country"@en .
+<http://data.kasabi.com/dataset/european-election-results/def/Country> <http://www.w3.org/2000/01/rdf-schema#comment> "A country"@en .
+<http://data.kasabi.com/dataset/european-election-results/def/PoliticalGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.kasabi.com/dataset/european-election-results/def/PoliticalGroup> <http://www.w3.org/2000/01/rdf-schema#label> "Political Group"@en .
+<http://data.kasabi.com/dataset/european-election-results/def/PoliticalGroup> <http://www.w3.org/2000/01/rdf-schema#comment> "A pan-european political group"@en .
+<http://data.kasabi.com/dataset/european-election-results/def/NationalParty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.kasabi.com/dataset/european-election-results/def/NationalParty> <http://www.w3.org/2000/01/rdf-schema#label> "National Party"@en .
+<http://data.kasabi.com/dataset/european-election-results/def/NationalParty> <http://www.w3.org/2000/01/rdf-schema#comment> "A national political party"@en .
+<http://data.kasabi.com/dataset/european-election-results/def/votingCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.kasabi.com/dataset/european-election-results/def/votingCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DimensionProperty> .
+<http://data.kasabi.com/dataset/european-election-results/def/votingCountry> <http://www.w3.org/2000/01/rdf-schema#label> "Country in which voting took place"@en .
+<http://data.kasabi.com/dataset/european-election-results/def/votingCountry> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/linked-data/sdmx/2009/dimension#refArea> .
+<http://data.kasabi.com/dataset/european-election-results/def/votingCountry> <http://purl.org/linked-data/cube#concept> <http://purl.org/linked-data/sdmx/2009/concept#refArea> .
+<http://data.kasabi.com/dataset/european-election-results/def/politicalGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.kasabi.com/dataset/european-election-results/def/politicalGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DimensionProperty> .
+<http://data.kasabi.com/dataset/european-election-results/def/politicalGroup> <http://www.w3.org/2000/01/rdf-schema#label> "Pan-European Political Group"@en .
+<http://data.kasabi.com/dataset/european-election-results/def/politicalGroup> <http://purl.org/linked-data/cube#concept> <http://data.kasabi.com/dataset/european-election-results/def/Political-group> .
+<http://data.kasabi.com/dataset/european-election-results/def/nationalParty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.kasabi.com/dataset/european-election-results/def/nationalParty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DimensionProperty> .
+<http://data.kasabi.com/dataset/european-election-results/def/nationalParty> <http://www.w3.org/2000/01/rdf-schema#label> "National Political Party"@en .
+<http://data.kasabi.com/dataset/european-election-results/def/nationalParty> <http://purl.org/linked-data/cube#concept> <http://data.kasabi.com/dataset/european-election-results/def/National-party> .
+<http://data.kasabi.com/dataset/european-election-results/def/year> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.kasabi.com/dataset/european-election-results/def/year> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DimensionProperty> .
+<http://data.kasabi.com/dataset/european-election-results/def/year> <http://www.w3.org/2000/01/rdf-schema#label> "Year of election"@en .
+<http://data.kasabi.com/dataset/european-election-results/def/year> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> .
+<http://data.kasabi.com/dataset/european-election-results/def/year> <http://www.w3.org/2000/01/rdf-schema#range:> <http://reference.data.gov.uk/def/intervals/Interval> .
+<http://data.kasabi.com/dataset/european-election-results/def/year> <http://purl.org/linked-data/cube#concept> <http://purl.org/linked-data/sdmx/2009/concept#refPeriod> .
+<http://data.kasabi.com/dataset/european-election-results/def/seatsWon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.kasabi.com/dataset/european-election-results/def/seatsWon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://data.kasabi.com/dataset/european-election-results/def/seatsWon> <http://www.w3.org/2000/01/rdf-schema#label> "Number of seats won"@en .
+<http://data.kasabi.com/dataset/european-election-results/def/seatsWon> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/linked-data/sdmx/2009/dimension#obsValue> .
+<http://data.kasabi.com/dataset/european-election-results/def/seatsWon> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.kasabi.com/dataset/european-election-results/def/seatsWon> <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> <http://data.kasabi.com/dataset/european-election-results/def/Seat> .
+<http://data.kasabi.com/dataset/european-election-results/def/percentageOfSeatsWon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.kasabi.com/dataset/european-election-results/def/percentageOfSeatsWon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://data.kasabi.com/dataset/european-election-results/def/percentageOfSeatsWon> <http://www.w3.org/2000/01/rdf-schema#label> "Number of seats won as a percentage"@en .
+<http://data.kasabi.com/dataset/european-election-results/def/percentageOfSeatsWon> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/linked-data/sdmx/2009/dimension#obsValue> .
+<http://data.kasabi.com/dataset/european-election-results/def/percentageOfSeatsWon> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://data.kasabi.com/dataset/european-election-results/def/percentageOfSeatsWon> <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> <http://something.com> .
+<http://data.kasabi.com/dataset/european-election-results/2009/political_groups/seats_won> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#Dataset> .
+<http://data.kasabi.com/dataset/european-election-results/2009/political_groups/seats_won> <http://purl.org/linked-data/cube#structure> <http://data.kasabi.com/dataset/european-election-results/data-definition-1> .
+<http://data.kasabi.com/dataset/european-election-results/2009/political_groups/seats_won> <http://www.w3.org/2000/01/rdf-schema#label> "Seats Won by political group"@en .
+<http://data.kasabi.com/dataset/european-election-results/data-definition-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataStructureDefinition> .
+<http://data.kasabi.com/dataset/european-election-results/data-definition-1> <http://www.w3.org/2000/01/rdf-schema#label> "Numbers of seats won by country"@en .
+<http://data.kasabi.com/dataset/european-election-results/data-definition-1> <http://purl.org/linked-data/cube#component> <http://data.kasabi.com/dataset/european-election-results/dsd-component-1> .
+<http://data.kasabi.com/dataset/european-election-results/data-definition-1> <http://purl.org/linked-data/cube#component> <http://data.kasabi.com/dataset/european-election-results/dsd-component-2> .
+<http://data.kasabi.com/dataset/european-election-results/data-definition-1> <http://purl.org/linked-data/cube#component> <http://data.kasabi.com/dataset/european-election-results/dsd-component-3> .
+<http://data.kasabi.com/dataset/european-election-results/data-definition-1> <http://purl.org/linked-data/cube#component> <http://data.kasabi.com/dataset/european-election-results/dsd-component-4> .
+<http://data.kasabi.com/dataset/european-election-results/data-definition-1> <http://purl.org/linked-data/cube#component> <http://data.kasabi.com/dataset/european-election-results/dsd-component-5> .
+<http://data.kasabi.com/dataset/european-election-results/dsd-component-1> <http://purl.org/linked-data/cube#dimension> <http://data.kasabi.com/dataset/european-election-results/def/votingCountry> .
+<http://data.kasabi.com/dataset/european-election-results/dsd-component-1> <http://purl.org/linked-data/cube#order> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.kasabi.com/dataset/european-election-results/dsd-component-2> <http://purl.org/linked-data/cube#dimension> <http://data.kasabi.com/dataset/european-election-results/def/politicalGroup> .
+<http://data.kasabi.com/dataset/european-election-results/dsd-component-2> <http://purl.org/linked-data/cube#order> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.kasabi.com/dataset/european-election-results/dsd-component-3> <http://purl.org/linked-data/cube#measure> <http://data.kasabi.com/dataset/european-election-results/def/seatsWon> .
+<http://data.kasabi.com/dataset/european-election-results/dsd-component-3> <http://purl.org/linked-data/cube#order> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.kasabi.com/dataset/european-election-results/dsd-component-4> <http://purl.org/linked-data/cube#measure> <http://data.kasabi.com/dataset/european-election-results/def/percentOfSeatsWon> .
+<http://data.kasabi.com/dataset/european-election-results/dsd-component-4> <http://purl.org/linked-data/cube#order> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.kasabi.com/dataset/european-election-results/dsd-component-5> <http://purl.org/linked-data/cube#dimension> <http://data.kasabi.com/dataset/european-election-results/def/year> .
+<http://data.kasabi.com/dataset/european-election-results/dsd-component-5> <http://purl.org/linked-data/cube#order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.kasabi.com/dataset/european-election-results/2009/national_parties/seats_won> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#Dataset> .
+<http://data.kasabi.com/dataset/european-election-results/2009/national_parties/seats_won> <http://purl.org/linked-data/cube#structure> <http://data.kasabi.com/dataset/european-election-results/data-definition-2> .
+<http://data.kasabi.com/dataset/european-election-results/2009/national_parties/seats_won> <http://www.w3.org/2000/01/rdf-schema#label> "Seats  won by national party"@en .
+<http://data.kasabi.com/dataset/european-election-results/data-definition-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataStructureDefinition> .
+<http://data.kasabi.com/dataset/european-election-results/data-definition-2> <http://www.w3.org/2000/01/rdf-schema#label> "Numbers of seats won by National Parties"@en .
+<http://data.kasabi.com/dataset/european-election-results/data-definition-2> <http://purl.org/linked-data/cube#component> <http://data.kasabi.com/dataset/european-election-results/dsd-component-6> .
+<http://data.kasabi.com/dataset/european-election-results/data-definition-2> <http://purl.org/linked-data/cube#component> <http://data.kasabi.com/dataset/european-election-results/dsd-component-7> .
+<http://data.kasabi.com/dataset/european-election-results/data-definition-2> <http://purl.org/linked-data/cube#component> <http://data.kasabi.com/dataset/european-election-results/dsd-component-8> .
+<http://data.kasabi.com/dataset/european-election-results/data-definition-2> <http://purl.org/linked-data/cube#component> <http://data.kasabi.com/dataset/european-election-results/dsd-component-9> .
+<http://data.kasabi.com/dataset/european-election-results/data-definition-2> <http://purl.org/linked-data/cube#component> <http://data.kasabi.com/dataset/european-election-results/dsd-component-10> .
+<http://data.kasabi.com/dataset/european-election-results/dsd-component-6> <http://purl.org/linked-data/cube#dimension> <http://data.kasabi.com/dataset/european-election-results/def/year> .
+<http://data.kasabi.com/dataset/european-election-results/dsd-component-6> <http://purl.org/linked-data/cube#order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.kasabi.com/dataset/european-election-results/dsd-component-7> <http://purl.org/linked-data/cube#dimension> <http://data.kasabi.com/dataset/european-election-results/def/nationalParty> .
+<http://data.kasabi.com/dataset/european-election-results/dsd-component-7> <http://purl.org/linked-data/cube#order> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.kasabi.com/dataset/european-election-results/dsd-component-8> <http://purl.org/linked-data/cube#dimension> <http://data.kasabi.com/dataset/european-election-results/def/votingCountry> .
+<http://data.kasabi.com/dataset/european-election-results/dsd-component-8> <http://purl.org/linked-data/cube#order> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.kasabi.com/dataset/european-election-results/dsd-component-9> <http://purl.org/linked-data/cube#measure> <http://data.kasabi.com/dataset/european-election-results/def/seatsWon> .
+<http://data.kasabi.com/dataset/european-election-results/dsd-component-9> <http://purl.org/linked-data/cube#order> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.kasabi.com/dataset/european-election-results/dsd-component-10> <http://purl.org/linked-data/cube#measure> <http://data.kasabi.com/dataset/european-election-results/def/percentOfSeatsWon> .
+<http://data.kasabi.com/dataset/european-election-results/dsd-component-10> <http://purl.org/linked-data/cube#order> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.kasabi.com/dataset/european-election-results/def/Political-group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.kasabi.com/dataset/european-election-results/def/Political-group> <http://www.w3.org/2000/01/rdf-schema#label> "Political Group"@en .
+<http://data.kasabi.com/dataset/european-election-results/def/Political-group> <http://www.w3.org/2000/01/rdf-schema#comment> "A Pan-european grouping of national political parties"@en .
+<http://data.kasabi.com/dataset/european-election-results/def/National-party> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.kasabi.com/dataset/european-election-results/def/National-party> <http://www.w3.org/2000/01/rdf-schema#label> "National Party"@en .
+<http://data.kasabi.com/dataset/european-election-results/def/National-party> <http://www.w3.org/2000/01/rdf-schema#comment> "A national political party"@en .
+<http://data.kasabi.com/dataset/european-election-results/def/Seat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.kasabi.com/dataset/european-election-results/def/Seat> <http://www.w3.org/2000/01/rdf-schema#label> "Seat"@en .
+<http://data.kasabi.com/dataset/european-election-results/def/Seat> <http://www.w3.org/2000/01/rdf-schema#comment> "A seat in the European Parliament"@en .
