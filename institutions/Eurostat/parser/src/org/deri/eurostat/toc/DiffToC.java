@@ -185,8 +185,10 @@ public class DiffToC {
 		
 		for(File f:files)
 		{
+			
 			if(f.getName().contains(".dsd.xml"))
 			{
+				System.out.println("Processing :" + f.getAbsolutePath());
 				dsd = new DSDParser();
 				dsd.xmlFilePath = f.getAbsolutePath();
 				dsd.outputFilePath = dsdPath;
@@ -197,7 +199,8 @@ public class DiffToC {
 			else if(f.getName().contains(".sdmx.xml"))
 			//else if(f.getName().contains(".sdmx.xml") && !f.getName().contains("bop_q_c") && !f.getName().contains("gov_a_exp") && !f.getName().contains("lfsq_egana2d") && !f.getName().contains("nasa_f_bs") && !f.getName().contains("nasa_f_tr") && !f.getName().contains("sts_inppdgr_m") && !f.getName().contains("nasa_f_of") && !f.getName().contains("sts_inppndgr_m") && !f.getName().contains("sts_innond_m") && !f.getName().contains("sts_inppgr_m") && !f.getName().contains("sts_"))
 			{
-
+				System.out.println("Processing :" + f.getAbsolutePath());
+				
 				sdmx = new SDMXParser();
 				sdmx.outputFilePath = dataPath;
 				sdmx.logFilePath = dataLogPath;
