@@ -51,6 +51,7 @@ public class SDMXParser {
 	public SDMXParser(String outPath)
 	{
 		outputFilePath = outPath;
+		
 	}
 	
 	public SDMXParser(){}
