@@ -25,6 +25,7 @@ import org.deri.eurostat.datamodel.DataStoreModel;
 import org.deri.eurostat.elements.*;
 
 import org.deri.eurostat.elements.*;
+import org.deri.eurostat.toc.DiffToC;
 import org.openrdf.http.webclient.repository.modify.add.AddController;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -777,7 +778,7 @@ public class DSDParser {
 			
 	   	}catch(Exception e)
 	   	{
-	   		System.out.println("Error while creating file ..." + e.getMessage());
+	   		DiffToC.writeLog("Error while creating dsd RDF file ... " + e.getMessage());
 	   	}
 	}	
 	

@@ -136,11 +136,11 @@ public class UnCompressXML {
 		obj.parseFile();
 	}
 	
-	public void parseSDMX(String sdmxFile, String sdmxFilePath) throws Exception
+	public void parseSDMX(String sdmxFile, String sdmxFilePath, String tsvFilePath) throws Exception
 	{
 		System.out.println("Parsing SDMX file : " + sdmxFile);
 		SDMXParser obj = new SDMXParser(Main.sdmxDirPath);
-		obj.downLoadTSV(sdmxFile, sdmxFilePath);
+		obj.downLoadTSV(sdmxFile, sdmxFilePath, tsvFilePath);
 	}
 	
 	private static void usage()
