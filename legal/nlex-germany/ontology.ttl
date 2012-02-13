@@ -1,0 +1,36 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+@prefix dct: <http://purl.org/dc/terms/>
+@prefix owl: <http://www.w3.org/2002/07/owl#>
+@prefix metalex: <http://www.metalex.eu/metalex/2008-05-02#>
+
+@base :<http://n-lex.publicdata.eu/ontology/>
+
+<http://n-lex.publicdata.eu/ontology/> a owl:Ontology ;
+    rdfs:label "N-LEX Germany" .
+    
+metalex:BibliographicWork a owl:Class ;
+    rdfs:label "Bibliographic Work";
+    rdfs:comment " bibliographic object, realized by one or more expressions, and created by one or more persons in a single creative process ending in a BibliographicWorkCreation event. A work has an author or authors, and is the result of a BibliographicWorkCreation event. We recognize the work through individual expressions of the work, but the work itself exists only in the commonality of content between and among the various expressions of the work." .
+    
+metalex:BibliographicExpression a owl:Class ;
+    rdfs:label "Bibliographic Expression";
+    rdfs:comment "a realization of one bibliographic work in the form of signs, words, sentences, paragraphs, etc. by the author of that work. Physical form aspects, as typeface or page-layout, are generally speaking excluded from the expression level. Any change in content constitutes a gives rise to a new expression. If an expression is revised or modified, the resulting expression is considered to be a new expression, no matter how minor the modification may be." .
+    
+metalex:fragment a owl:ObjectProperty ;
+    rdfs:label "fragment" .
+    
+metalex:fragmentOf a owl:ObjectProperty ;
+    rdfs:label "fragment of" .
+    
+dct:title a owl:DatatypeProperty ;
+    rdfs:label "title" .
+    
+rdfs:label a owl:DatatypeProperty ;
+    rdfs:label "label" .
+
+rdfs:seeAlso a owl:ObjectProperty ;
+    rdfs:label "see also" .
+
+dct:description a owl:DatatypeProperty ;
+    rdfs:label "description" .

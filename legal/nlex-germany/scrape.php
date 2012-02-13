@@ -62,17 +62,23 @@ foreach ($allLexURLs as $lexURL) {
     $cacheFile = 'cache/' . md5($lexURL['url']);
     if (file_exists($cacheFile)) {
         $rdfData = unserialize(file_get_contents($cacheFile));
-        continue; // SKIP for debugging
     } else {
         echo 'Handling lex page: ' . $lexURL['title'] . PHP_EOL;
-        _scrapeLexPage($lexURL['url']);
-        file_put_contents($cacheFile, serialize($rdfData));
+        $result = _scrapeLexPage($lexURL['url']);
+        if ($result) {
+            file_put_contents($cacheFile, serialize($rdfData));
+        } else {
+            echo 'SKIPPED (FAILURE): ' . $lexURL['url'] . PHP_EOL;
+            exit;
+        }
     }
     
     _exportRDF($rdfData, $append);
     $append = true;
     $rdfData = array(); // reset
 }
+
+echo PHP_EOL . "DONE" . PHP_EOL;
 
 //
 // Functions
@@ -86,9 +92,7 @@ function _scrapeLexPage($url)
     $html = scraperWiki::scrape($url);
     $dom = new simple_html_dom();
     $dom->load($html);
-            
-    $result = array();
-            
+                     
     $h2a = $dom->find("h2[@class='headline'] a");
     $href = $h2a[0]->href;
     $id = substr($href, 0, strrpos($href, '.'));
@@ -101,7 +105,7 @@ function _scrapeLexPage($url)
     $dom->load($html);
     
 // x a http://www.metalex.eu/metalex/2008-05-02#BibliographicWork
-// dct:title, dct:description, metalex:fragment/hasFragment, rdfs:seeAlso, rdfs:label, dcterms:source
+// dct:title, dct:description, metalex:fragment/fragmentOf, rdfs:seeAlso, rdfs:label, dcterms:source
 
     // x rdf:type metalex:BibliographicWork
     $rdfData[$uri] = array(
@@ -130,6 +134,7 @@ function _scrapeLexPage($url)
     ));
     
     $i = 0;
+    $currentChapterURI = null;
     $jnNorms = $dom->find("div[@id='paddingLR12'] div[@class='jnnorm']");
     foreach ($jnNorms as $data) {
         if ($i === 0) {
@@ -139,115 +144,185 @@ function _scrapeLexPage($url)
         }
         ++$i;
         
-        $anchor = $data->find("div[@class='jnheader'] a");
-        $fragmentHTMLURL = $fullURL . '#' . $anchor[0]->name;
-        
+        $result = false;
+        // If the text contains a h3, it is a fragment
         $h3 = $data->find("div[@class='jnheader'] h3 span");
-        if (!$h3) {
-            // check if this legislation text contains chapters
+        if ($h3) {
+            if (null !== $currentChapterURI) {
+                $result = _handleFragmentForURI($data, $currentChapterURI, $fullURL); 
+            } else {
+                $result = _handleFragmentForURI($data, $uri, $fullURL); 
+            }
+        } else {
+            // If we find a h2 this is a chapter
             $h2 = $data->find("div[@class='jnheader'] h2");
             if ($h2) {
-                // TODO
-                echo 'SKIPPED' . PHP_EOL;
-                continue;
+                $currentChapterURI = _handleChapterForURI($data, $uri, $fullURL); 
+                $result = true; // special case...
+            } else {
+                return false;
             }
         }
-        if (!isset($h3[0])) {
-            var_dump($fullURL);exit;
-        }
-        $fragmentTitle = html_entity_decode($h3[0]->plaintext);
+        if (!$result) {
+             return false;
+        }  
+    }
+    
+    $dom->__destruct();
+    
+    return true;
+}
+
+function _handleChapterForURI($data, $uri, $docURL)
+{
+    global $vocab;
+    global $rdfData;
+    
+    $h2 = $data->find("div[@class='jnheader'] h2");
+    $chapterTitle = html_entity_decode($h2[0]->plaintext);
+    $chapterURI = $uri . '/' . urlencode($chapterTitle);
+    
+    $anchor = $data->find("div[@class='jnheader'] a");
+    $chapterHTMLURL = $docURL . '#' . $anchor[0]->name;
+    
+    // fragment
+    $rdfData[$uri][$vocab['metalex'].'fragment'] = array(array(
+        'type'  => 'uri',
+        'value' => $chapterURI
+    ));
         
-        $fragmentURI = $uri . '/' . urlencode($fragmentTitle);
-        
-        // fragment
-        $rdfData[$uri][$vocab['metalex'].'fragment'] = array(array(
+    // x rdf:type metalex:BibliographicExpression
+    $rdfData[$chapterURI] = array(
+        RDF_TYPE => array(array(
             'type'  => 'uri',
-            'value' => $fragmentURI
+            'value' => METALEX_BIBEXPR
+        ))
+    );
+    // title, label
+    $rdfData[$chapterURI][$vocab['dct'].'title'] = array(array(
+        'type'  => 'literal',
+        'value' => $chapterTitle
+    ));
+    $rdfData[$chapterURI][$vocab['rdfs'].'label'] = array(array(
+        'type'  => 'literal',
+        'value' => $chapterTitle
+    ));
+        
+    // fragmentOf
+    $rdfData[$chapterURI][$vocab['metalex'].'fragmentOf'] = array(array(
+        'type'  => 'uri',
+        'value' => $uri
+    ));
+        
+    // seeAlso
+    $rdfData[$chapterURI][$vocab['rdfs'].'seeAlso'] = array(array(
+        'type'  => 'uri',
+        'value' => $chapterHTMLURL
+    ));
+    
+    return $chapterURI;
+}
+
+function _handleFragmentForURI($data, $uri, $docURL)
+{
+    global $vocab;
+    global $rdfData;
+    
+    $anchor = $data->find("div[@class='jnheader'] a");
+    $fragmentHTMLURL = $docURL . '#' . $anchor[0]->name;
+        
+    $h3 = $data->find("div[@class='jnheader'] h3 span");
+    $fragmentTitle = html_entity_decode($h3[0]->plaintext);
+    $fragmentURI = $uri . '/' . urlencode($fragmentTitle);
+        
+    // fragment
+    $rdfData[$uri][$vocab['metalex'].'fragment'] = array(array(
+        'type'  => 'uri',
+        'value' => $fragmentURI
+    ));
+        
+    // x rdf:type metalex:BibliographicExpression
+    $rdfData[$fragmentURI] = array(
+        RDF_TYPE => array(array(
+            'type'  => 'uri',
+            'value' => METALEX_BIBEXPR
+        ))
+    );
+    // title, label
+    $rdfData[$fragmentURI][$vocab['dct'].'title'] = array(array(
+        'type'  => 'literal',
+        'value' => $fragmentTitle
+    ));
+    $rdfData[$fragmentURI][$vocab['rdfs'].'label'] = array(array(
+        'type'  => 'literal',
+        'value' => $fragmentTitle
+    ));
+        
+    // fragmentOf
+    $rdfData[$fragmentURI][$vocab['metalex'].'fragmentOf'] = array(array(
+        'type'  => 'uri',
+        'value' => $uri
+    ));
+        
+    // seeAlso
+    $rdfData[$fragmentURI][$vocab['rdfs'].'seeAlso'] = array(array(
+        'type'  => 'uri',
+        'value' => $fragmentHTMLURL
+    ));
+        
+    $clauses = $data->find("div[@class='jnhtml'] div[@class='jurAbsatz']");
+    
+    $j = 1;
+    $clausesFullText = array();
+    foreach ($clauses as $clause) {
+        $clauseURI = $fragmentURI . '/' . $j++;
+        $clauseText = html_entity_decode($clause->plaintext);
+        $clausesFullText[] = $clauseText;
+        // fragment
+        $rdfData[$fragmentURI][$vocab['metalex'].'fragment'] = array(array(
+            'type'  => 'uri',
+            'value' => $clauseURI
         ));
         
         // x rdf:type metalex:BibliographicExpression
-        $rdfData[$fragmentURI] = array(
+        $rdfData[$clauseURI] = array(
             RDF_TYPE => array(array(
                 'type'  => 'uri',
                 'value' => METALEX_BIBEXPR
             ))
         );
+        
         // title, label
-        $rdfData[$fragmentURI][$vocab['dct'].'title'] = array(array(
+        $clauseTitle = substr($clauseText, 0, 100) . '...';
+        $rdfData[$clauseURI][$vocab['dct'].'title'] = array(array(
             'type'  => 'literal',
-            'value' => $fragmentTitle
+            'value' => $clauseTitle
         ));
-        $rdfData[$fragmentURI][$vocab['rdfs'].'label'] = array(array(
+        $rdfData[$clauseURI][$vocab['rdfs'].'label'] = array(array(
             'type'  => 'literal',
-            'value' => $fragmentTitle
+            'value' => $clauseTitle
         ));
-        
+    
         // fragmentOf
-        $rdfData[$fragmentURI][$vocab['metalex'].'fragmentOf'] = array(array(
+        $rdfData[$clauseURI][$vocab['metalex'].'fragmentOf'] = array(array(
             'type'  => 'uri',
-            'value' => $uri
+            'value' => $fragmentURI
         ));
-        
-        // seeAlso
-        $rdfData[$fragmentURI][$vocab['rdfs'].'seeAlso'] = array(array(
-            'type'  => 'uri',
-            'value' => $fragmentHTMLURL
-        ));
-        
-        $clauses = $data->find("div[@class='jnhtml'] div[@class='jurAbsatz']");
-        
-        $j = 1;
-        $clausesFullText = array();
-        foreach ($clauses as $clause) {
-            $clauseURI = $fragmentURI . '/' . $j++;
-            $clauseText = html_entity_decode($clause->plaintext);
-            $clausesFullText[] = $clauseText;
-            // fragment
-            $rdfData[$fragmentURI][$vocab['metalex'].'fragment'] = array(array(
-                'type'  => 'uri',
-                'value' => $clauseURI
-            ));
-        
-            // x rdf:type metalex:BibliographicExpression
-            $rdfData[$clauseURI] = array(
-                RDF_TYPE => array(array(
-                    'type'  => 'uri',
-                    'value' => METALEX_BIBEXPR
-                ))
-            );
-        
-            // title, label
-            $clauseTitle = substr($clauseText, 0, 100) . '...';
-            $rdfData[$clauseURI][$vocab['dct'].'title'] = array(array(
-                'type'  => 'literal',
-                'value' => $clauseTitle
-            ));
-            $rdfData[$clauseURI][$vocab['rdfs'].'label'] = array(array(
-                'type'  => 'literal',
-                'value' => $clauseTitle
-            ));
-        
-            // fragmentOf
-            $rdfData[$clauseURI][$vocab['metalex'].'fragmentOf'] = array(array(
-                'type'  => 'uri',
-                'value' => $fragmentURI
-            ));
-        
-            // description
-            $rdfData[$clauseURI][$vocab['dct'].'description'] = array(array(
-                'type'  => 'literal',
-                'value' => $clauseText
-            ));
-        }
         
         // description
-        $rdfData[$fragmentURI][$vocab['dct'].'description'] = array(array(
+        $rdfData[$clauseURI][$vocab['dct'].'description'] = array(array(
             'type'  => 'literal',
-            'value' => implode(PHP_EOL.PHP_EOL, $clausesFullText)
+            'value' => $clauseText
         ));
     }
+        
+    // description
+    $rdfData[$fragmentURI][$vocab['dct'].'description'] = array(array(
+        'type'  => 'literal',
+        'value' => implode(PHP_EOL.PHP_EOL, $clausesFullText)
+    ));
     
-    $dom->__destruct();
+    return true;
 }
 
 function _scrapeIndexPage($url)
