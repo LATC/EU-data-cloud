@@ -1,0 +1,61 @@
+<Silk>
+  <Prefixes>
+    <Prefix namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" id="rdf"></Prefix>
+    <Prefix namespace="http://www.w3.org/2002/07/owl#" id="owl"></Prefix>
+    <Prefix namespace="http://www.w3.org/2004/02/skos#" id="skos"></Prefix>
+    <Prefix namespace="http://www.w3.org/2000/01/rdf-schema#" id="rdfs"></Prefix>
+    <Prefix namespace="http://dbpedia.org/ontology/" id="dbpediaowl"></Prefix>
+    <Prefix namespace="http://linkedgeodata.org/ontology/" id="lgdo"></Prefix>
+  </Prefixes>
+  <DataSources>
+    <DataSource type="sparqlEndpoint" id="dbpedia">
+      <Param name="pageSize" value="1000"></Param>
+      <Param name="pauseTime" value="0"></Param>
+      <Param name="retryCount" value="10"></Param>
+      <Param name="endpointURI" value="http://dbpedia.org/sparql"></Param>
+      <Param name="retryPause" value="5000"></Param>
+      <Param name="graph" value=""></Param>
+      <Param name="login" value=""></Param>
+      <Param name="entityList" value=""></Param>
+      <Param name="password" value=""></Param>
+    </DataSource>
+    <DataSource type="sparqlEndpoint" id="Eurostat">
+      <Param name="pageSize" value="1000"></Param>
+      <Param name="pauseTime" value="0"></Param>
+      <Param name="retryCount" value="5"></Param>
+      <Param name="endpointURI" value="http://eurostat.linked-statistics.org/sparql"></Param>
+      <Param name="retryPause" value="2000"></Param>
+      <Param name="graph" value=""></Param>
+      <Param name="login" value=""></Param>
+      <Param name="entityList" value=""></Param>
+      <Param name="password" value=""></Param>
+    </DataSource>
+  </DataSources>
+  <Interlinks>
+    <Interlink id="dbpedia_eurostat">
+      <LinkType>owl:sameAs</LinkType>
+      <SourceDataset dataSource="dbpedia" var="a">
+        <RestrictTo> ?a rdf:type dbpediaowl:Country . </RestrictTo>
+      </SourceDataset>
+      <TargetDataset dataSource="Eurostat" var="b">
+        <RestrictTo> ?b rdf:type skos:Concept . </RestrictTo>
+      </TargetDataset>
+      <LinkageRule>
+        <Aggregate weight="1" type="max" required="false" id="unnamed_8">
+          <Compare weight="1" threshold="0.0" required="false" metric="levenshteinDistance" id="unnamed_7">
+            <TransformInput function="lowerCase" id="unnamed_4">
+              <Input path="?a/rdfs:label" id="unnamed_2"></Input>
+            </TransformInput>
+            <TransformInput function="lowerCase" id="unnamed_6">
+              <Input path="?b/skos:prefLabel" id="unnamed_5"></Input>
+            </TransformInput>
+            <Param name="minChar" value="0"></Param>
+            <Param name="maxChar" value="z"></Param>
+          </Compare>
+        </Aggregate>
+      </LinkageRule>
+      <Filter></Filter>
+      <Outputs> </Outputs>
+    </Interlink>
+  </Interlinks>
+</Silk>
