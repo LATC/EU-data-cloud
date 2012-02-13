@@ -1,7 +1,15 @@
 <?php
 define('API_KEY', '');
+define('GRAPH_URI', 'http://eur-lex.publicdata.eu/');
 define('VOCAB_BASE', 'http://eur-lex.publicdata.eu/ontology/');
-define('URI_BASE', 'http://eur-lex.publicdata.eu/resource/');
+define('URI_BASE', 'http://eur-lex.publicdata.eu/id/');
+
+// meta data
+define('CREATOR', 'Philipp Frischmuth');
+define('VERSION', '0.1');
+define('COMMENT', 'The EUR-LEX dataset provided as Linked Data.');
+define('LABEL', 'EUR-LEX Dataset');
+
 
 $alreadySeen = array();
 $bNodeCounter = 0;
@@ -15,7 +23,7 @@ $prefixes = array(
 
 $propertyMapping = array(
     // 'form'                => '',
-    'title'               => 'http://purl.org/dc/terms/title',
+    //'title'               => 'http://purl.org/dc/terms/title',
     // 'api_url'             => '',
     //     'eurlex_perma_url'    => '',
     //     'doc_id'              => '',
@@ -62,6 +70,7 @@ $skippedProperties = array(
 );
 
 $formProperties = array();
+$relations = array();
 
 $writtenTriples = array();
 
@@ -112,6 +121,86 @@ while (true) {
     }
 }
 
+// Now write the schema triples
+$schemaTriples = array();
+$schemaTriples[] = _createTriple(
+    GRAPH_URI, 
+    'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 
+    'http://www.w3.org/2002/07/owl#Ontology',
+    true
+);
+$schemaTriples[] = _createTriple(
+    GRAPH_URI, 
+    'http://purl.org/dc/terms/creator', 
+    CREATOR
+);
+$schemaTriples[] = _createTriple(
+    GRAPH_URI, 
+    'http://www.w3.org/2002/07/owl#versionInfo', 
+    VERSION
+);
+$schemaTriples[] = _createTriple(
+    GRAPH_URI, 
+    'http://www.w3.org/2000/01/rdf-schema#comment', 
+    COMMENT
+);
+$schemaTriples[] = _createTriple(
+    GRAPH_URI, 
+    'http://www.w3.org/2000/01/rdf-schema#label', 
+    LABEL
+);
+
+// forms
+$docClass = VOCAB_BASE . 'Document';
+$schemaTriples[] = _createTriple(
+    $docClass, 
+    'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 
+    'http://www.w3.org/2002/07/owl#Class',
+    true
+);
+$schemaTriples[] = _createTriple(
+    $docClass, 
+    'http://www.w3.org/2000/01/rdf-schema#label', 
+    'Document'
+);
+foreach ($formProperties as $form=>$formUri) {
+    $schemaTriples[] = _createTriple(
+        $formUri, 
+        'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 
+        'http://www.w3.org/2002/07/owl#Class',
+        true
+    );
+    $schemaTriples[] = _createTriple(
+        $formUri, 
+        'http://www.w3.org/2000/01/rdf-schema#label', 
+        ucfirst(strtolower($form))
+    );
+    $schemaTriples[] = _createTriple(
+        $formUri, 
+        'http://www.w3.org/2000/01/rdf-schema#subClassOf', 
+        $docClass,
+        true
+    );
+}
+
+// relations
+foreach ($relations as $rel=>$relUri) {
+    $schemaTriples[] = _createTriple(
+        $relUri, 
+        'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 
+        'http://www.w3.org/2002/07/owl#Class',
+        true
+    );
+    $schemaTriples[] = _createTriple(
+        $relUri, 
+        'http://www.w3.org/2000/01/rdf-schema#label', 
+        $rel
+    );
+}
+
+// write schema
+_writeTriples($schemaTriples, false, true);
+
 echo ' DONE!' . PHP_EOL;
 
 function _handleData($data)
@@ -121,6 +210,7 @@ function _handleData($data)
     global $objectProperties;
     global $skippedProperties;
     global $formProperties;
+    global $relations;
 #var_dump($data);exit;
     $result = array();
     $ntriples = array();
@@ -133,6 +223,10 @@ function _handleData($data)
         
         foreach ($itemSpec as $key=>$value) {
             $s = URI_BASE . $i;
+
+            // Add a (short) label
+            _createTriple($s, 'http://www.w3.org/2000/01/rdf-schema#label', $i);
+
 
             #if ($key !== 'title') {
             #    continue;
@@ -157,7 +251,7 @@ function _handleData($data)
             if (isset($propertyMapping[$key])) {
                 $p = $propertyMapping[$key];
             } else {
-                $p = VOCAB_BASE . $key;
+                $p = VOCAB_BASE . urlencode($key);
             }
 
             // Skip emtpy values
@@ -170,6 +264,7 @@ function _handleData($data)
                 $o = $value;
 
                 if (in_array($key, $objectProperties)) {
+                    $o = URI_BASE . urlencode($o);
                     $ntriples[] = _createTriple($s, $p, $o, true); 
                 } else {
                     $ntriples[] = _createTriple($s, $p, $o);
@@ -181,18 +276,29 @@ function _handleData($data)
                         $rel = strtolower(trim($oItemSpec['relationship']));
                         $rel = str_replace(':', '', $rel);
 
-                        $p = VOCAB_BASE . $rel;
+                        $p = VOCAB_BASE . ucfirst(urlencode($rel));
+
+                        $relations[$rel] = $p;
 
                         $o = null;
                         if ($oItemSpec['link'] !== '') {
-                            $o = $oItemSpec['link'];
-                            $ntriples[] = _createTriple($s, $p, $o, true);
+                            $o = str_replace(' ', '+', $oItemSpec['link']);
                         } else {
-                            $o = $oItemSpec['relation'];
-                            $ntriples[] = _createTriple($s, $p, $o);
+                            $o = VOCAB_BASE . urlencode($oItemSpec['relation']);
                         }
 
-                         
+                        $ntriples[] = _createTriple($s, $p, $o, true);
+                        $ntriples[] = _createTriple(
+                            $o, 
+                            'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                            $p,
+                            true
+                        );
+                        $ntriples[] = _createTriple(
+                            $o, 
+                            'http://www.w3.org/2000/01/rdf-schema#label',
+                            $oItemSpec['relation']
+                        );
                     }
 
                     continue;
@@ -269,14 +375,16 @@ function _createTriple($s, $p, $o, $oIsUri = false, $sIsBNode = false, $oIsBnode
     if (!$pHandled) {
         $p = '<' . $p . '>';
     }
-    if (!$oHandled && !$oIsBnode) {
+    if (!$oIsUri) {
+        $o = '"' . $o . '"';
+    } else if (!$oHandled && !$oIsBnode) {
         $o = '<' . $o . '>';
     }
 
     return $s . ' ' . $p . ' ' . $o . ' . ' . PHP_EOL;
 }
 
-function _writeTriples($triples, $append = true)
+function _writeTriples($triples, $append = true, $schema = false)
 {
     global $writtenTriples;
 
@@ -291,10 +399,15 @@ function _writeTriples($triples, $append = true)
         $writtenTriples[$md5] = true;
     }
 
+    $fileName = 'data.ttl';
+    if ($schema) {
+        $fileName = 'schema.ttl';
+    }
+
     if ($append) {
-        file_put_contents('data.ttl', $ntriples, FILE_APPEND);
+        file_put_contents($fileName, $ntriples, FILE_APPEND);
     } else {
-        file_put_contents('data.ttl', $ntriples);
+        file_put_contents($fileName, $ntriples);
     }
 }
 
@@ -304,7 +417,7 @@ function _handleProperty(&$property, &$value)
 
     if ($property === 'form') {
         if (!isset($formProperties[$value])) {
-            $formProperties[$value] = VOCAB_BASE . $value;
+            $formProperties[$value] = VOCAB_BASE . urlencode($value);
         }
     } else if ($property === 'title') {
         if (substr($value, 0, 3) === '/* ') {
