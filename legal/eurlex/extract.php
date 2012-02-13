@@ -1,5 +1,6 @@
 <?php
-define('API_KEY', '');
+include 'config.inc.php';
+
 define('GRAPH_URI', 'http://eur-lex.publicdata.eu/');
 define('VOCAB_BASE', 'http://eur-lex.publicdata.eu/ontology/');
 define('URI_BASE', 'http://eur-lex.publicdata.eu/id/');

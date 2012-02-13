@@ -5,6 +5,7 @@ business/eures/import/config.inc.php
 legal/eurlex/cache/
 legal/eurlex/data.ttl
 legal/eurlex/schema.ttl
+legal/eurlex/config.inc.php
 media/.DS_Store
 
 media/eu_parliament_audiovisual/.DS_Store
