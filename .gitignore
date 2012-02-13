@@ -33,3 +33,7 @@ media/eu_parliament_audiovisual/output/*
 
 legal/nlex-germany/cache/
 legal/nlex-germany/data.ttl
+
+legal/epo/tmp/
+legal/epo/data.ttl
+legal/epo/schema.nt

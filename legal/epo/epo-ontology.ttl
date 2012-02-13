@@ -1,0 +1,188 @@
+@prefix ebd:<http://epo.publicdata.eu/ebd/>
+@base :<http://epo.publicdata.eu/ebd/ontology/>
+
+<http://epo.publicdata.eu/ebd/> a owl:Ontology .
+
+<EPBulletin> a owl:Class ;
+  rdfs:label "EP Bulletin"@en ;
+  rdfs:description "A bulletin of the European Patent Office"@en .
+  
+<EPBulletinA1> a owl:Class ;
+    rdfs:subClassOf <EPBulletin> ;
+    rdfs:label "Application (A1)"@en ;
+    rdfs:description "Application published with search report"@en .
+
+<EPBulletinA2> a owl:Class ;
+    rdfs:subClassOf <EPBulletin> ;
+    rdfs:label "Application no search report (A2)"@en ;
+    rdfs:description "Application published without search report"@en .
+
+<EPBulletinA3> a owl:Class ;
+    rdfs:subClassOf <EPBulletin> ;
+    rdfs:label "Search report (A3)"@en ;
+    rdfs:description "Separate publication of the search report"@en .
+
+<EPBulletinA8> a owl:Class ;
+    rdfs:subClassOf <EPBulletin> ;
+    rdfs:label "Correction reprint (A8)"@en ;
+    rdfs:description "Correction - reprint of the title page of an A-document"@en .
+    
+<EPBulletinA9> a owl:Class ;
+    rdfs:subClassOf <EPBulletin> ;
+    rdfs:label "Correction complete reprint (A9)"@en ;
+    rdfs:description "Correction - complete reprint of an A-document"@en .
+
+<EPBulletinB1> a owl:Class ;
+    rdfs:subClassOf <EPBulletin> ;
+    rdfs:label "Granted patent (B1)"@en ;
+    rdfs:description "Granted patent"@en .
+    
+<EPBulletinB2> a owl:Class ;
+    rdfs:subClassOf <EPBulletin> ;
+    rdfs:label "Granted patent opposition (B2)"@en ;
+    rdfs:description "Amended granted patent after opposition procedure"@en .
+    
+<EPBulletinB3> a owl:Class ;
+    rdfs:subClassOf <EPBulletin> ;
+    rdfs:label "Granted patent limitation (B3)"@en ;
+    rdfs:description "Amended granted patent after limitation procedure"@en .
+    
+<EPBulletinB8> a owl:Class ;
+    rdfs:subClassOf <EPBulletin> ;
+    rdfs:label "Correction reprint (B8)"@en ;
+    rdfs:description "Correction - reprint of the title page of a B-document"@en .
+    
+<EPBulletinB9> a owl:Class ;
+    rdfs:subClassOf <EPBulletin> ;
+    rdfs:label "Correction complete reprint (B9)"@en ;
+    rdfs:description "Correction - complete reprint of a B-document"@en .
+    
+<ApplicationStatus> a owl:Class ; 
+    rdfs:label "Application status"@en ;
+    rdfs:description "Status class for application states"@en .
+
+<Country> a owl:Class ;
+    rdfs:label "Country"@en ;
+    rdfs:description "Represents a country"@en .
+
+<ChangeInfo> a owl:Class ;
+    rdfs:label "Change info"@en ;
+    rdfs:description "Represents a change info"@en .
+
+<ApplicationPlace> a owl:Class ;
+    rdfs:label "Place of application"@en ;
+    rdfs:description "Represents a application place."@en .
+
+<ApplicationStatusNew> a <ApplicationStatus> ;
+    rdfs:label "New publication"@en ;
+    rdfs:description "n: New publication e.g. A1, A2, B1, B2 or B3 published for the first time."@en .
+
+<ApplicationStatusReplace> a ApplicationStatus> ;
+    rdfs:label "Replacement of data"@en ;
+    rdfs:description "r: Replacement of data for an application already published."@en .
+
+<ApplicationStatusDelete> a <ApplicationStatus> ;
+    rdfs:label "Deleted"@en ;
+    rdfs:description "d: Deletion of an application already published (not used to date)."@en .
+    
+<ApplicationStatusCorrection> a <ApplicationStatus> ;
+    rdfs:label "Correction"@en ;
+    rdfs:description "c: Correction"@en .
+
+Relations for EPBulletin:
+- B130: Kind of doc (subclasses of EP bulletin?! page 62)
+- B190: Publishing country or organisation (EP or WO (WIPO))
+
+Attributes:
+- B110 Publication number of documents (EPO or WIPO)
+- B140 Date of publication
+- B210 Application number (page 68) has special meaning
+- B220 application filing date
+
+
+<bulletinIdentifier> a owl:DatatypeProperty ;
+    rdfs:label "bulletin id"@en ;
+    rdfs:description "The country code, application number and the kind code"@en .
+    
+<bulletinFile> a owl:DatatypeProperty ;
+    rdfs:label "bulletin file"@en ;
+    rdfs:description "Application number with check digit"@en .
+    
+<bulletinLang> a owl:DatatypeProperty ;
+    rdfs:label "bulletin language code"@en ;
+    rdfs:description "Language of publication code (en, fr, de)"@en .
+    
+<bulletinCountry> a owl:DatatypeProperty ;
+    rdfs:label "publishing country or organization"@en ;
+    rdfs:description "Publishing country or organization (EP or WO)"@en .
+
+<epoPublicationNumber> a owl:DatatypeProperty ;
+    rdfs:label "EPO publication number"@en ;
+    rdfs:description "An EPO publication number"@en .
+
+<wipoPublicationNumber> a owl:DatatypeProperty ;
+    rdfs:label "WIPO publication number"@en ;
+    rdfs:description "A WIPO publication number"@en .
+    
+<wipoCorrectionCode> a owl:DatatypeProperty ;
+    rdfs:label "WIPO correction code"@en ;
+    rdfs:description "Correction code according to WIPO ST.50, eg. W1"@en .
+
+<publishedDate> a owl:DatatypeProperty ;
+    rdfs:label "date of publication"@en ;
+    rdfs:description "Document date of publication. Format is yyyymmdd"@en .
+    
+<sequenceNumber> a owl:DatatypeProperty ;
+    rdfs:label "sequence number"@en ;
+    rdfs:description "Sequence number - only used (so far) for kind B3 (EPC2000)"@en .
+
+
+----
+
+TODO
+
+<applicationFilingDate> a owl:DatatypeProperty ;
+    rdfs:label "filing date"@en ;
+    rdfs:description "application filing date"@en .
+
+<dateOfRefusal> a owl:DatatypeProperty .
+<dateOfWithdrawal> a owl:DatatypeProperty .
+<dateOfDeemedWithdrawn> a owl:DatatypeProperty .
+<dateOfRevocation> a owl:DatatypeProperty .
+<lapseOfPatent> a owl:DatatypeProperty .
+
+<applicationFilingLanguage> a owl:DatatypeProperty .
+<applicationProcedureLanguage> a owl:DatatypeProperty .
+<applicationPublicationLanguage> a owl:DatatypeProperty .
+
+<hasPatentBulleting> a owl:ObjectProperty .
+<hasFirstPublication>
+<hasSecondPublication>
+<hasInventor>
+
+-----
+
+
+<hasApplicationStatus> a owl:ObjectProperty ;
+    rdfs:domain <EPBulletin> ;
+    rdfs:range <ApplicationStatus> ;
+    rdfs:label "status of application"@en ;
+    rdfs:description "Status of the application"@en .
+    
+<hasInvolvedCountry> a owl:ObjectProperty ;
+    rdfs:domain <EPBulletin> ;
+    rdfs:range <Country> ;
+    rdfs:label "has involved country"@en ;
+    rdfs:description "Represents a has involved country relation."@en .
+    
+<hasPreviousChange> a owl:ObjectProperty ;
+    rdfs:domain <EPBulletin> ;
+    rdfs:range <ChangeInfo> ;
+    rdfs:label "has previous change"@en ;
+    rdfs:description "Represents a previous change relation relation."@en .
+    
+<placeOfApplication> a owl:ObjectProperty ;
+    rdfs:domain <EPBulletin> ;
+    rdfs:range <ApplicationPlace> ;
+    rdfs:label "place of application"@en ;
+    rdfs:description "Represents a the place where the application was handed in."@en .
