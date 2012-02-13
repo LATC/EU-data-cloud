@@ -1,0 +1,56 @@
+# all countries
+
+PREFIX places: <http://purl.org/ontology/places#>
+
+SELECT ?country
+WHERE {
+  ?country a places:Country
+}
+
+
+------
+
+# all Polish organisations
+
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX countries: <http://data.kasabi.com/dataset/countries/>
+
+SELECT ?org
+WHERE {
+  ?org org:site countries:PL .
+}
+
+
+-----
+
+# people in Polish organisations
+
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX countries: <http://data.kasabi.com/dataset/countries/>
+
+SELECT DISTINCT ?person
+WHERE {
+  ?person org:hasMembership ?role .
+  ?role org:organization ?org .
+  ?org org:site countries:PL .
+
+}
+
+------
+
+# all images of people in Polish organisations
+
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX countries: <http://data.kasabi.com/dataset/countries/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX nfo: <http://www.semanticdesktop.org/ontologies/nfo#>
+
+SELECT DISTINCT ?asset
+WHERE {
+  ?asset dct:subject ?person .
+  ?asset a nfo:Image .
+  ?person org:hasMembership ?role .
+  ?role org:organization ?org .
+  ?org org:site countries:PL .
+}
+

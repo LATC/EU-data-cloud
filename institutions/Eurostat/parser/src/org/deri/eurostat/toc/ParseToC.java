@@ -39,6 +39,7 @@ public class ParseToC {
 	private static int printDatasets = 10;
 	UnCompressXML obj = new UnCompressXML();
 	DownloadZip zip = new DownloadZip();
+	
 	public InputStream get_ToC_XMLStream()
 	{
 		InputStream is = null;
@@ -120,7 +121,7 @@ public class ParseToC {
 		}
 	}
 
-	public void downloadXMLFiles(String downLoadPath)
+	public void downloadXMLFiles(String tempZipPath, String tempTsvPath)
 	{
 		int count = 0;
 		
@@ -130,11 +131,11 @@ public class ParseToC {
 //				break;
 			
 			//System.out.println("UnCompressing :" + str);
-			zip.zipURL(str, downLoadPath);
+			zip.zipURL(str, tempZipPath, tempTsvPath);
 		}
 	}
 
-	// get the URLs of datasets which have format SDMX
+	// get the URLs of datasets having SDMX format
 	public void getDatasetURLs(Element element)
 	{
 		
@@ -260,12 +261,12 @@ public class ParseToC {
 		//parseXMLFiles(downLoadPath);
 	}
 
-	public void downloadZip(String downLoadPath)
+	public void downloadZip(String tempZipPath, String tempTsvPath)
 	{
 		InputStream is = get_ToC_XMLStream();
 		initObjects(is);
 		parseDataSets();
-		downloadXMLFiles(downLoadPath);
+		downloadXMLFiles(tempZipPath, tempTsvPath);
 		
 	}
 	

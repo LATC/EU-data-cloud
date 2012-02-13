@@ -23,7 +23,7 @@ public class Catalog {
 
 	private static String outputFilePath = "";
 	private static String serialization = "TURTLE";
-	
+	private static String fileExt = ".ttl";
 	ParseToC obj;
 	
 	public void generate_VoidFiles()
@@ -33,6 +33,13 @@ public class Catalog {
 		obj.initObjects(is);
 		obj.parseDataSets();
 
+		if(serialization.equalsIgnoreCase("RDF/XML"))
+			fileExt = ".rdf";
+		else if(serialization.equalsIgnoreCase("TURTLE"))
+			fileExt = ".ttl";
+		else if(serialization.equalsIgnoreCase("N-TRIPLES"))
+			fileExt = ".nt";
+		
 		createCatalog();
 		createInventory();
 	}
@@ -40,7 +47,10 @@ public class Catalog {
 	public void createCatalog()
 	{
 		Model model = ParserUtil.getModelProperties();
-				
+		
+		Resource main = model.createResource(ParserUtil.baseURI + "Eurostat");
+		model.add(main,ParserUtil.type,ParserUtil.voidDataset);
+		
 		for(String str:obj.lstDatasetURLs)
 		{
 			str = str.substring(str.lastIndexOf("/")+1, str.indexOf(".sdmx.zip"));
@@ -48,8 +58,10 @@ public class Catalog {
 			model.add(dss,ParserUtil.type,ParserUtil.qbDataset);
 			model.add(dss,ParserUtil.type,ParserUtil.voidDataset);
 			
-			model.add(dss,ParserUtil.dsd,model.createProperty(ParserUtil.dsdURI + str));
-			model.add(dss,ParserUtil.dataDump,model.createProperty(ParserUtil.dataURI + str + ".rdf"));
+			model.add(dss,ParserUtil.qb_structure,model.createProperty(ParserUtil.dsdURI + str));
+			model.add(dss,ParserUtil.dataDump,model.createProperty(ParserUtil.dataURI + str + fileExt));
+			
+			model.add(main,ParserUtil.subset,model.createProperty(ParserUtil.dssURI + str));
 		}
 		
 		writeRDFToFile("catalog", model);
@@ -65,18 +77,29 @@ public class Catalog {
 			Resource dsd = model.createResource(ParserUtil.dsdURI + str);
 			model.add(dsd,ParserUtil.type,ParserUtil.dsd);
 			model.add(dsd,ParserUtil.type,ParserUtil.voidDataset);
-			model.add(dsd,ParserUtil.dataDump,model.createProperty(ParserUtil.dsdURI + str + ".rdf"));
+			model.add(dsd,ParserUtil.dataDump,model.createProperty(ParserUtil.dsdURI + str + fileExt));
 		}
 		
+		Resource catalog = model.createResource(ParserUtil.baseURI + "catalog");
+		model.add(catalog,ParserUtil.type,ParserUtil.voidDataset);
+		model.add(catalog,ParserUtil.dataDump,model.createProperty(ParserUtil.baseURI + "catalog" + fileExt));
+
+		Resource inventory = model.createResource(ParserUtil.baseURI + "inventory");
+		model.add(inventory,ParserUtil.type,ParserUtil.voidDataset);
+		model.add(inventory,ParserUtil.dataDump,model.createProperty(ParserUtil.baseURI + "inventory" + fileExt));
+
 		writeRDFToFile("inventory", model);
 	}
 
 	public void writeRDFToFile(String fileName, Model model)
 	{
+
 		try
 	   	{
-			OutputStream output = new FileOutputStream(outputFilePath + fileName + ".rdf",false);
-			model.write(output,serialization);
+			
+			//System.out.println(outputFilePath + fileName + fileExt);
+			OutputStream output = new FileOutputStream(outputFilePath + fileName + fileExt,false);
+			model.write(output,serialization.toUpperCase());
 			
 	   	}catch(Exception e)
 	   	{

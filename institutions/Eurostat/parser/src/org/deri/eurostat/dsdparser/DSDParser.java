@@ -25,6 +25,7 @@ import org.deri.eurostat.datamodel.DataStoreModel;
 import org.deri.eurostat.elements.*;
 
 import org.deri.eurostat.elements.*;
+import org.deri.eurostat.toc.DiffToC;
 import org.openrdf.http.webclient.repository.modify.add.AddController;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -52,11 +53,12 @@ public class DSDParser {
     private Document xmlDocument;
     private XPath xPath;	
     //private static String xmlFilePath = "E:/EU Projects/EuroStat/tsiem010.sdmx/tsiem010.dsd.xml";
-    private static String xmlFilePath = "";
+    public static String xmlFilePath = "";
     //private static String outputFilePath = "E:/EU Projects/EuroStat/datacube mapping/RDF/";
-    private static String outputFilePath = "";
+    public static String outputFilePath = "";
     //private static String outputFilePath = "C:/tempZip/dsd/";
-    private static String serialization = "RDF/XML";
+    public static String serialization = "RDF/XML";
+    public static String fileExt = ".rdf";
     ArrayList<Code> lstCode = new ArrayList<Code>();
     ArrayList<Concept> lstConcepts = new ArrayList<Concept>();
     ArrayList<CodeList> lstCodeLists = new ArrayList<CodeList>();
@@ -71,6 +73,9 @@ public class DSDParser {
 	static DataStoreModel dsModel;
 	public final String base_uri = "http://purl.org/linked-data/sdmx#";
 	public final String sdmx_codeFilePath = "sdmx-code/sdmx-code.ttl";
+	String obsValue = "";
+	String freq = "";
+	String timePeriod = "";
 	
 	
 	public void addSDMXCodeList()
@@ -109,7 +114,7 @@ public class DSDParser {
         }       
     }
 	
-    private void initObjects(){        
+    public void initObjects(){        
         try {
         	//System.out.println(xmlFilePath);
             xmlDocument = DocumentBuilderFactory.
@@ -213,8 +218,24 @@ public class DSDParser {
 					hshName.put(desc.getAttribute("xml:lang"), desc.getTextContent());
 				}
 				
-				Concept obj = new Concept(con.getAttribute("id"),hshName);
-				lstConcepts.add(obj);
+//				if(con.getAttribute("id").equalsIgnoreCase("obs_value"))
+//					obsValue = "obsValue";
+//				else if(con.getAttribute("id").equalsIgnoreCase("freq"))
+//					freq = "freq";
+//				else if(con.getAttribute("id").equalsIgnoreCase("time_period"))
+//					timePeriod = "timePeriod";
+//				else
+//				{
+//					Concept obj = new Concept(con.getAttribute("id"),hshName);
+//					lstConcepts.add(obj);
+//				}
+
+				if(!con.getAttribute("id").equalsIgnoreCase("obs_value") & !con.getAttribute("id").equalsIgnoreCase("freq") & !con.getAttribute("id").equalsIgnoreCase("time_period"))
+				{
+					Concept obj = new Concept(con.getAttribute("id"),hshName);
+					lstConcepts.add(obj);
+				}
+				
 			}
 		}
 	}
@@ -260,12 +281,19 @@ public class DSDParser {
 		NodeList dimension = comp.getElementsByTagName("structure:Dimension");
 		if(dimension != null && dimension.getLength() > 0)
 		{
+
 			for(int i = 0 ; i < dimension.getLength();i++)
 			{
 				Element dim = (Element)dimension.item(i);
-				Dimension obj = new Dimension(dim.getAttribute("conceptRef"),dim.getAttribute("conceptSchemeRef"),dim.getAttribute("codelist"), getType(dim));
-				lstDimensions.add(obj);
-				
+				if(dim.getAttribute("conceptRef").equalsIgnoreCase("obs_value"))
+					obsValue = "obsValue";
+				else if(dim.getAttribute("conceptRef").equalsIgnoreCase("freq"))
+					freq = "freq";
+				else if(!dim.getAttribute("conceptRef").equalsIgnoreCase("time_format"))
+				{
+					Dimension obj = new Dimension(dim.getAttribute("conceptRef"),dim.getAttribute("conceptSchemeRef"),dim.getAttribute("codelist"), getType(dim));
+					lstDimensions.add(obj);
+				}
 				/*
 				NodeList lstType = dim.getElementsByTagName("structure:TextFormat");
 				if(lstType != null && lstType.getLength() > 0)
@@ -284,8 +312,15 @@ public class DSDParser {
 			for(int i = 0 ; i < tDimension.getLength();i++)
 			{
 				Element measure = (Element)tDimension.item(i);
-				Dimension obj = new Dimension(measure.getAttribute("conceptRef"),measure.getAttribute("conceptSchemeRef"),measure.getAttribute("codelist"), getType(measure));
-				lstTimeDimensions.add(obj);
+				if(measure.getAttribute("conceptRef").equalsIgnoreCase("obs_value"))
+					obsValue = "obsValue";
+				else if(measure.getAttribute("conceptRef").equalsIgnoreCase("time_period"))
+					timePeriod = "timePeriod";
+				else if(!measure.getAttribute("conceptRef").equalsIgnoreCase("time_format"))
+				{
+					Dimension obj = new Dimension(measure.getAttribute("conceptRef"),measure.getAttribute("conceptSchemeRef"),measure.getAttribute("codelist"), getType(measure));
+					lstTimeDimensions.add(obj);
+				}
 				/*
 				NodeList lstType = measure.getElementsByTagName("structure:TextFormat");
 				if(lstType != null && lstType.getLength() > 0)
@@ -304,8 +339,14 @@ public class DSDParser {
 			for(int i = 0 ; i < pMeasure.getLength();i++)
 			{
 				Element measure = (Element)pMeasure.item(i);
-				Measure obj = new Measure(measure.getAttribute("conceptRef"),measure.getAttribute("conceptSchemeRef"),measure.getAttribute("codelist"),getType(measure));
-				lstMeasures.add(obj);
+				
+				if(measure.getAttribute("conceptRef").equalsIgnoreCase("obs_value"))
+					obsValue = "obsValue";
+				else if(!measure.getAttribute("conceptRef").equalsIgnoreCase("time_format"))
+				{
+					Measure obj = new Measure(measure.getAttribute("conceptRef"),measure.getAttribute("conceptSchemeRef"),measure.getAttribute("codelist"),getType(measure));
+					lstMeasures.add(obj);
+				}
 			}
 		}
 
@@ -316,8 +357,14 @@ public class DSDParser {
 			for(int i = 0 ; i < attribute.getLength();i++)
 			{
 				Element att = (Element)attribute.item(i);
-				Attribute obj = new Attribute(att.getAttribute("conceptRef"),att.getAttribute("conceptSchemeRef"),att.getAttribute("codelist"),"","", getType(att));
-				lstAttributes.add(obj);
+				
+				if(att.getAttribute("conceptRef").equalsIgnoreCase("obs_value"))
+					obsValue = "obsValue";
+				else if(!att.getAttribute("conceptRef").equalsIgnoreCase("time_format"))
+				{
+					Attribute obj = new Attribute(att.getAttribute("conceptRef"),att.getAttribute("conceptSchemeRef"),att.getAttribute("codelist"),"","", getType(att));
+					lstAttributes.add(obj);
+				}
 			}
 		}
 		
@@ -408,7 +455,7 @@ public class DSDParser {
 		//Model model = ModelFactory.createDefaultModel();
 		
 		Model model = ParserUtil.getModelProperties();
-		Model codelist_Model = ModelFactory.createDefaultModel();
+		//Model codelist_Model = ModelFactory.createDefaultModel();
 		
 		//--//Resource root = model.createResource( baseURI + "dsd#" + fileName.substring(0,fileName.indexOf("_DSD")) );
 		Resource root = model.createResource( baseURI + "dsd/" + fileName.substring(0,fileName.indexOf("_DSD")) );
@@ -420,7 +467,7 @@ public class DSDParser {
 		{
 			Resource component_1 = model.createResource();
 			model.add(root,ParserUtil.component,component_1);
-			Property prop = model.createProperty(ParserUtil.property + dim.getConceptRef());
+			Property prop = model.createProperty(ParserUtil.property + (dim.getConceptRef().toLowerCase().equals("time_period") ? "time" : dim.getConceptRef().toLowerCase()));
 			model.add(component_1,ParserUtil.dimension,prop);
 			model.add(prop,ParserUtil.type,ParserUtil.dimensionProperty);
 			model.add(prop,ParserUtil.type,ParserUtil.codedProperty);
@@ -440,16 +487,17 @@ public class DSDParser {
 							String codeList = getCodeList(obj.getId());
 							Property cList = model.createProperty(ParserUtil.sdmx_code + codeList);
 							model.add(prop,ParserUtil.codeList,cList);
-							model.add(prop,ParserUtil.rdfsRange,cList);
+							model.add(prop,ParserUtil.rdfsRange,ParserUtil.skosConcept);
 							Property cncpt = model.createProperty(ParserUtil.sdmx_concept + codeList);
 							model.add(prop,ParserUtil.concept,cncpt);
 						}
 						else
 						{
-							Property cList = model.createProperty(ParserUtil.cl + obj.getId().substring(obj.getId().indexOf("_")+1));
+							Property cList = model.createProperty(ParserUtil.dicURI + obj.getId().substring(obj.getId().indexOf("_")+1).toLowerCase());
 							model.add(prop,ParserUtil.codeList,cList);
-							model.add(prop,ParserUtil.rdfsRange,cList);
-							Property cncpt = model.createProperty(ParserUtil.concepts + dim.getConceptRef());
+							model.add(prop,ParserUtil.rdfsRange,ParserUtil.skosConcept);
+							//Property cncpt = model.createProperty(ParserUtil.concepts + dim.getConceptRef());
+							Property cncpt = model.createProperty(ParserUtil.concepts + (dim.getConceptRef().toLowerCase().equals("time_period") ? "time" : dim.getConceptRef().toLowerCase()));
 							model.add(prop,ParserUtil.concept,cncpt);
 						}
 					}
@@ -462,12 +510,35 @@ public class DSDParser {
 			}
 		}
 		
+		if(!obsValue.equals(""))
+		{
+			Resource component_1 = model.createResource();
+			model.add(root,ParserUtil.component,component_1);
+			Property prop = model.createProperty(ParserUtil.sdmx_measure + obsValue);
+			model.add(component_1,ParserUtil.dimension,prop);
+		}
+		
+		if(!freq.equals(""))
+		{
+			Resource component_1 = model.createResource();
+			model.add(root,ParserUtil.component,component_1);
+			Property prop = model.createProperty(ParserUtil.sdmx_dimension + freq);
+			model.add(component_1,ParserUtil.dimension,prop);
+		}
+		
+		if(!timePeriod.equals(""))
+		{
+			Resource component_1 = model.createResource();
+			model.add(root,ParserUtil.component,component_1);
+			Property prop = model.createProperty(ParserUtil.dcterms + "date");
+			model.add(component_1,ParserUtil.dimension,prop);
+		}
 		//
 		for(Dimension dim:lstTimeDimensions)
 		{
 			Resource component_1 = model.createResource();
 			model.add(root,ParserUtil.component,component_1);
-			Property prop = model.createProperty(ParserUtil.property + dim.getConceptRef());
+			Property prop = model.createProperty(ParserUtil.property + (dim.getConceptRef().toLowerCase().equals("time_period") ? "time" : dim.getConceptRef().toLowerCase()));
 			model.add(component_1,ParserUtil.dimension,prop);
 			model.add(prop,ParserUtil.type,ParserUtil.dimensionProperty);
 			model.add(prop,ParserUtil.rdfsDomain,ParserUtil.observation);
@@ -485,16 +556,16 @@ public class DSDParser {
 							String codeList = getCodeList(obj.getId());
 							Property cList = model.createProperty(ParserUtil.sdmx_code + codeList);
 							model.add(prop,ParserUtil.codeList,cList);
-							model.add(prop,ParserUtil.rdfsRange,cList);
+							model.add(prop,ParserUtil.rdfsRange,ParserUtil.skosConcept);
 							Property cncpt = model.createProperty(ParserUtil.sdmx_concept + codeList);
 							model.add(prop,ParserUtil.concept,cncpt);
 						}
 						else
 						{
-							Property cList = model.createProperty(ParserUtil.cl + obj.getId().substring(obj.getId().indexOf("_")+1));
+							Property cList = model.createProperty(ParserUtil.dicURI + obj.getId().substring(obj.getId().indexOf("_")+1).toLowerCase());
 							model.add(prop,ParserUtil.codeList,cList);
-							model.add(prop,ParserUtil.rdfsRange,cList);
-							Property cncpt = model.createProperty(ParserUtil.concepts + dim.getConceptRef());
+							model.add(prop,ParserUtil.rdfsRange,ParserUtil.skosConcept);
+							Property cncpt = model.createProperty(ParserUtil.concepts + (dim.getConceptRef().toLowerCase().equals("time_period") ? "time" : dim.getConceptRef().toLowerCase()));
 							model.add(prop,ParserUtil.concept,cncpt);
 						}
 					}
@@ -512,7 +583,7 @@ public class DSDParser {
 		{
 			Resource component_1 = model.createResource();
 			model.add(root,ParserUtil.component,component_1);
-			Property prop = model.createProperty(ParserUtil.property + measure.getConceptRef());
+			Property prop = model.createProperty(ParserUtil.property + (measure.getConceptRef().toLowerCase().equals("time_period") ? "time" : measure.getConceptRef().toLowerCase()));
 			model.add(component_1,ParserUtil.measure,prop);
 			model.add(prop,ParserUtil.type,ParserUtil.measureProperty);
 			model.add(prop,ParserUtil.type,ParserUtil.codedProperty);
@@ -531,16 +602,16 @@ public class DSDParser {
 							String codeList = getCodeList(obj.getId());
 							Property cList = model.createProperty(ParserUtil.sdmx_code + codeList);
 							model.add(prop,ParserUtil.codeList,cList);
-							model.add(prop,ParserUtil.rdfsRange,cList);
+							model.add(prop,ParserUtil.rdfsRange,ParserUtil.skosConcept);
 							Property cncpt = model.createProperty(ParserUtil.sdmx_concept + codeList);
 							model.add(prop,ParserUtil.concept,cncpt);
 						}
 						else
 						{
-							Property cList = model.createProperty(ParserUtil.cl + obj.getId().substring(obj.getId().indexOf("_")+1));
+							Property cList = model.createProperty(ParserUtil.dicURI + obj.getId().substring(obj.getId().indexOf("_")+1).toLowerCase());
 							model.add(prop,ParserUtil.codeList,cList);
-							model.add(prop,ParserUtil.rdfsRange,cList);
-							Property cncpt = model.createProperty(ParserUtil.concepts + measure.getConceptRef());
+							model.add(prop,ParserUtil.rdfsRange,ParserUtil.skosConcept);
+							Property cncpt = model.createProperty(ParserUtil.concepts + (measure.getConceptRef().toLowerCase().equals("time_period") ? "time" : measure.getConceptRef().toLowerCase()));
 							model.add(prop,ParserUtil.concept,cncpt);
 						}
 					}
@@ -558,7 +629,7 @@ public class DSDParser {
 		{
 			Resource component_1 = model.createResource();
 			model.add(root,ParserUtil.component,component_1);
-			Property prop = model.createProperty(ParserUtil.property + att.getConceptRef());
+			Property prop = model.createProperty(ParserUtil.property + (att.getConceptRef().toLowerCase().equals("time_period") ? "time" : att.getConceptRef().toLowerCase()));
 			model.add(component_1,ParserUtil.attribute,prop);
 			model.add(prop,ParserUtil.type,ParserUtil.attributeProperty);
 			model.add(prop,ParserUtil.type,ParserUtil.codedProperty);
@@ -576,16 +647,16 @@ public class DSDParser {
 						String codeList = getCodeList(obj.getId());
 						Property cList = model.createProperty(ParserUtil.sdmx_code + codeList);
 						model.add(prop,ParserUtil.codeList,cList);
-						model.add(prop,ParserUtil.rdfsRange,cList);
+						model.add(prop,ParserUtil.rdfsRange,ParserUtil.skosConcept);
 						Property cncpt = model.createProperty(ParserUtil.sdmx_concept + codeList);
 						model.add(prop,ParserUtil.concept,cncpt);
 					}
 					else
 					{
-						Property cList = model.createProperty(ParserUtil.cl + obj.getId().substring(obj.getId().indexOf("_")+1));
+						Property cList = model.createProperty(ParserUtil.dicURI + obj.getId().substring(obj.getId().indexOf("_")+1).toLowerCase());
 						model.add(prop,ParserUtil.codeList,cList);
-						model.add(prop,ParserUtil.rdfsRange,cList);
-						Property cncpt = model.createProperty(ParserUtil.concepts + att.getConceptRef());
+						model.add(prop,ParserUtil.rdfsRange,ParserUtil.skosConcept);
+						Property cncpt = model.createProperty(ParserUtil.concepts + (att.getConceptRef().toLowerCase().equals("time_period") ? "time" : att.getConceptRef().toLowerCase()));
 						model.add(prop,ParserUtil.concept,cncpt);
 					}
 				}
@@ -601,17 +672,17 @@ public class DSDParser {
 		{
 			if(!obj.getAgencyID().equals("SDMX"))
 			{
-				codelist_Model = ParserUtil.getModelProperties();
+				//codelist_Model = ParserUtil.getModelProperties();
 				
 				codeListID = obj.getId().substring(obj.getId().indexOf("_")+1);
-				Resource codeLists = model.createResource(baseURI + "dic/" + codeListID);
-				Resource codelist_Lists = codelist_Model.createResource(baseURI + "dic/" + codeListID);
+				Resource codeLists = model.createResource(baseURI + "dic/" + codeListID.toLowerCase());
+				//Resource codelist_Lists = codelist_Model.createResource(baseURI + "dic/" + codeListID.toLowerCase());
 				
 				model.add(codeLists,ParserUtil.type,ParserUtil.conceptScheme);
-				codelist_Model.add(codelist_Lists,ParserUtil.type,ParserUtil.conceptScheme);
+				//codelist_Model.add(codelist_Lists,ParserUtil.type,ParserUtil.conceptScheme);
 				
-				model.add(codeLists,ParserUtil.notation,obj.getId());
-				codelist_Model.add(codelist_Lists,ParserUtil.notation,obj.getId());
+				model.add(codeLists,ParserUtil.notation,obj.getId().toLowerCase());
+				//codelist_Model.add(codelist_Lists,ParserUtil.notation,obj.getId().toLowerCase());
 				
 				// print multilingual labels
 				hshName = obj.gethshName();
@@ -622,22 +693,22 @@ public class DSDParser {
 		            String key = (String) entry.getKey();
 		            name = hshName.get(key);
 		            model.add(codeLists,ParserUtil.rdfsLabel,model.createLiteral(name,key));
-		            codelist_Model.add(codelist_Lists,ParserUtil.rdfsLabel,model.createLiteral(name,key));
+		            //codelist_Model.add(codelist_Lists,ParserUtil.rdfsLabel,model.createLiteral(name,key));
 				}
 				
 				ArrayList<Code> arrCode = obj.getCode();
 				for(Code code:arrCode)
 				{
 					//writeLinetoFile("		skos:hasTopConcept <" + codeListURL + "CodeList/" + codeListID + "#" + code.getValue() + ">;");
-					String str = baseURI + "dic/" + codeListID + "#" + code.getValue();
+					String str = baseURI + "dic/" + codeListID.toLowerCase() + "#" + code.getValue();
 					Resource res = model.createResource(str);
-					Resource codelist_res = codelist_Model.createResource(str);
+					//Resource codelist_res = codelist_Model.createResource(str);
 					
 					model.add(codeLists,ParserUtil.topConcept,res);
-					codelist_Model.add(codelist_Lists,ParserUtil.topConcept,codelist_res);
+					//codelist_Model.add(codelist_Lists,ParserUtil.topConcept,codelist_res);
 					
 					model.add(res,ParserUtil.type,ParserUtil.skosConcept);
-					codelist_Model.add(codelist_res,ParserUtil.type,ParserUtil.skosConcept);
+					//codelist_Model.add(codelist_res,ParserUtil.type,ParserUtil.skosConcept);
 					
 					// print multilingual labels
 					hshName = code.gethshDescription();
@@ -649,18 +720,18 @@ public class DSDParser {
 			            name = hshName.get(key);
 			            
 			            model.add(res,ParserUtil.skosLabel, model.createLiteral(name,key));
-			            codelist_Model.add(codelist_res,ParserUtil.skosLabel, model.createLiteral(name,key));
+			            //codelist_Model.add(codelist_res,ParserUtil.skosLabel, model.createLiteral(name,key));
 					}
 					
 					str = str.substring(0,str.indexOf("#"));
 					Resource resource = model.createResource(str);
-					Resource codelist_resource = codelist_Model.createResource(str);
+					//Resource codelist_resource = codelist_Model.createResource(str);
 					
 					model.add(res,ParserUtil.skosScheme,resource);
-					codelist_Model.add(codelist_res,ParserUtil.skosScheme,codelist_resource);
+					//codelist_Model.add(codelist_res,ParserUtil.skosScheme,codelist_resource);
 					
 					model.add(res,ParserUtil.notation,code.getValue());
-					codelist_Model.add(codelist_res,ParserUtil.notation,code.getValue());
+					//codelist_Model.add(codelist_res,ParserUtil.notation,code.getValue());
 				}
 				
 				//codelist_Model.write(System.out,serialization);
@@ -669,9 +740,9 @@ public class DSDParser {
 
 		for(Concept concept:lstConcepts)
 		{
-			Resource con = model.createResource(ParserUtil.concepts + concept.getId());
+			Resource con = model.createResource(ParserUtil.concepts + (concept.getId().toLowerCase().equals("time_period") ? "time" : concept.getId().toLowerCase()));
 			model.add(con,ParserUtil.type,ParserUtil.sdmx);
-			model.add(con,ParserUtil.notation,concept.getId());
+			model.add(con,ParserUtil.notation,concept.getId().toLowerCase().equals("time_period") ? "time" : concept.getId().toLowerCase());
 			
 			//print multilingual labels
 			hshName = concept.gethshName();
@@ -695,14 +766,20 @@ public class DSDParser {
 	
 	public void writeRDFToFile(String fileName, Model model)
 	{
+		if(serialization.equalsIgnoreCase("RDF/XML"))
+			fileExt = ".rdf";
+		else if(serialization.equalsIgnoreCase("TURTLE"))
+			fileExt = ".ttl";
+		else if(serialization.equalsIgnoreCase("N-TRIPLES"))
+			fileExt = ".nt";
 		try
 	   	{
-			OutputStream output = new FileOutputStream(outputFilePath + fileName.substring(0,fileName.indexOf("_DSD")) + ".rdf",false);
-			model.write(output,serialization);
+			OutputStream output = new FileOutputStream(outputFilePath + fileName.substring(0,fileName.indexOf("_DSD")) + fileExt,false);
+			model.write(output,serialization.toUpperCase());
 			
 	   	}catch(Exception e)
 	   	{
-	   		System.out.println("Error while creating file ..." + e.getMessage());
+	   		DiffToC.writeLog("Error while creating dsd RDF file ... " + e.getMessage());
 	   	}
 	}	
 	

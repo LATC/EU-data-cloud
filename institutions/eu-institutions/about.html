@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"  
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:void="http://rdfs.org/ns/void#">
+<head>
+	<title>Institutions and Bodies of the European Union</title>
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+</head>
+<body about="http://institutions.publicdata.eu/#EU_Institutions_Bodies" typeof="void:Dataset">
+	<div id="header">
+		<div id="menu">
+			<a href="index.html">Home</a>
+		</div>
+		<div>
+			<div class="site-title">
+				<a href="/"><img src="img/logo_pdeu.png" alt="public data EU" /></a>
+				<span property="dct:title">Institutions and Bodies of the European Union</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="main">
+		<h2>About</h2>
+		<h3>General</h3>
+		<p style="display:none" property="dct:description">
+			This dataset defines Linked Data compatible URIs for major institutions and bodies of the European Union that can be used as identifiers in EU-related datasets.
+		</p>
+		<p>
+		<a rel="foaf:homepage" href="http://institutions.publicdata.eu/">This dataset</a> defines <a href="http://linkeddata.org">Linked Data</a> compatible URIs for major <a rel="rdfs:seeAlso" href="http://europa.eu/institutions/">institutions and bodies</a> of the <a rel="dct:subject" href="http://dbpedia.org/resource/European_Union">European Union</a>. These URIs, identifying <a rel="dct:subject" href="http://dbpedia.org/resource/Organization">organisations</a> on the <a rel="dct:subject" href="http://dbpedia.org/resource/Europe">European</a> level, can be used as canonical identifiers in datasets.
+		</p>
+		<h4>Publisher</h4>
+		<p>
+			The dataset has been published by <a rel="dct:publisher" href="http://sw-app.org/mic.xhtml#i">Michael Hausenblas</a> and <a rel="dct:publisher" href="http://www.anjeve.de/foaf.rdf#AnjaJentzsch">Anja Jentzsch</a>, enabled through funding received from the European Community under the Seventh Framework Programme (<a href="http://cordis.europa.eu/fp7/">FP7</a>), Grant Agreement No. 256975, LOD Around-The-Clock (<a rel="ov:kudosTo" href="http://latc-project.eu/#this">LATC</a>) Support Action.
+		</p>
+		<h4>License</h4>
+		<p>
+			The dataset is available under the Public Domain Dedication and License (<a rel="dct:license" href="http://www.opendatacommons.org/licenses/pddl/">PDDL</a>).
+		</p>
+		
+		<h3>Structure and Schema</h3>
+		<h4>Formats and Examples</h4>
+		<p>
+			The dataset is available in <a rel="void:feature" href="http://www.w3.org/ns/formats/RDFa">RDFa</a> via <a rel="void:dataDump" href="http://institutions.publicdata.eu/">http://institutions.publicdata.eu/</a>.
+		 
+			An example entity of this dataset is the <em>European Commission</em> with the URI: <a rel="void:exampleResource" href="http://institutions.publicdata.eu/#ec">http://institutions.publicdata.eu/#ec</a>.
+		</p>
+		<h4>Interlinking</h4>
+		<p>
+			The dataset contains the following data links:
+		</p>
+		<ul rel="void:subset">
+			<li about="http://institutions.publicdata.eu/about/#lsdbpedia" typeof="void:Linkset">
+				<span rel="void:target" resource="http://institutions.publicdata.eu/#EU_Institutions_Bodies">It</span> links with <a rel="void:linkPredicate" href="http://www.w3.org/2002/07/owl#sameAs">owl:sameAs</a> to <a rel="void:target" href="http://lod-cloud.net/dbpedia">DBpedia</a>.
+			</li>
+		</ul>
+		<h4>Vocabularies</h4>
+		<p>
+			In the dataset we use the following vocabularies:
+		</p>
+		<ul>
+			<li><a rel="void:vocabulary" href="http://www.w3.org/ns/org">Core Organization Ontology</a></li>
+			<li><a rel="void:vocabulary" href="http://purl.org/dc/terms/">Dublin Core</a></li>
+			<li><a rel="void:vocabulary" href="http://xmlns.com/foaf/0.1/">FOAF</a></li>
+			<li><a rel="void:vocabulary" href="http://www.w3.org/2004/02/skos/core">SKOS</a></li>
+		</ul>
+		
+		<h3>About About</h3>
+		<p about="http://institutions.publicdata.eu/about/" typeof="void:DatasetDescription">
+			This page is in fact a <span property="dct:title">VoID description of the Institutions and Bodies of the European Union dataset</span> in a machine-readable format. For more information how to describe a LOD dataset with VoID, see the W3C Note <a href="http://www.w3.org/TR/void/" rel="rdfs:seeAlso">Describing Linked Datasets with the VoID Vocabulary</a>.
+			<span rel="foaf:primaryTopic" resource="http://institutions.publicdata.eu/#EU_Institutions_Bodies"></span>
+		</p>
+	</div>
+
+	<div id="footer">
+		A <a href="http://lod-cloud.net/">LOD dataset</a> brought to you by the <a href="http://latc-project.eu/">LATC Support Action</a> ·
+		<a href="https://github.com/mhausenblas/eu-institutions">Code</a> ·
+		<a href="http://latc-project.eu/contact">Contact</a>
+	</div>
+</body>
+</html>
+
+
+
+
+

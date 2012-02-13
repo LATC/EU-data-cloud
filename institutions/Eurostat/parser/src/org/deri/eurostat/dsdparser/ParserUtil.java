@@ -12,16 +12,18 @@ import com.hp.hpl.jena.rdf.model.Property;
 public class ParserUtil {
 
 	public static String rdfs = "http://www.w3.org/2000/01/rdf-schema#";
-	public static String skos = "http://www.w3.org/2004/02/skos#";
+	public static String skos = "http://www.w3.org/2004/02/skos/core#";
 	public static String qb = "http://purl.org/linked-data/cube#";
 	public static String sdmx_concept = "http://purl.org/linked-data/sdmx/2009/concept#";
 	public static String concepts = "http://eurostat.linked-statistics.org/concept#";
 	public static String property = "http://eurostat.linked-statistics.org/property#";
 	//-//public static String cl = "http://eurostat.linked-statistics.org/CodeList/";
-	public static String cl = "http://eurostat.linked-statistics.org/dic/";
+	//public static String cl = "http://eurostat.linked-statistics.org/dic/";
 	public static String rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
 	public static String dcterms = "http://purl.org/dc/terms/";
 	public static String sdmx_code = "http://purl.org/linked-data/sdmx/2009/code#";
+	public static String sdmx_measure = "http://purl.org/linked-data/sdmx/2009/measure#";
+	public static String sdmx_dimension = "http://purl.org/linked-data/sdmx/2009/dimension#";
 	public static String xsd = "http://www.w3.org/2001/XMLSchema#";
 	public static String sdmxURI = "http://purl.org/linked-data/sdmx#";
 	
@@ -29,7 +31,9 @@ public class ParserUtil {
 	public static String dssURI = "http://eurostat.linked-statistics.org/dss#";
 	public static String titleURI = "http://eurostat.linked-statistics.org/title#";
 	public static String dsdURI = "http://eurostat.linked-statistics.org/dsd/";
+	public static String dicURI = "http://eurostat.linked-statistics.org/dic/";
 	public static String dataURI = "http://eurostat.linked-statistics.org/data/";
+	public static String baseURI = "http://eurostat.linked-statistics.org/";
 	
 	public static Property dsd;
 	public static Property type;
@@ -60,12 +64,15 @@ public class ParserUtil {
 	public static Property qbDataset;
 	public static Property voidDataset;
 	public static Property dataDump;
+	public static Property subset;
+	public static Property qb_structure;
 	
 	public static Model getModelProperties()
 	{
 		Model m = ModelFactory.createDefaultModel();
 		
 		dsd = m.createProperty(qb + "DataStructureDefinition");
+		qb_structure = m.createProperty(qb + "structure");
 		type = m.createProperty(rdf + "type");
 		notation = m.createProperty(skos + "notation");
 		conceptScheme = m.createProperty(skos + "ConceptScheme");
@@ -92,8 +99,9 @@ public class ParserUtil {
 		sdmx = m.createProperty(sdmxURI + "Concept");
 		
 		qbDataset = m.createProperty(qb + "DataSet");
-		voidDataset = m.createProperty(voidURI + "DataSet");
+		voidDataset = m.createProperty(voidURI + "Dataset");
 		dataDump = m.createProperty(voidURI + "dataDump");
+		subset = m.createProperty(voidURI + "subset");
 		
 		m.setNsPrefix("skos", skos);
 		m.setNsPrefix("qb", qb);
@@ -102,10 +110,12 @@ public class ParserUtil {
 		m.setNsPrefix("sdmx", sdmxURI);
 		m.setNsPrefix("concept", concepts);
 		m.setNsPrefix("property", property);
-		m.setNsPrefix("cl", cl);
+		m.setNsPrefix("sdmx-measure", sdmx_measure);
+		m.setNsPrefix("sdmx-dimension", sdmx_dimension);
+		m.setNsPrefix("dic", dicURI);
 		m.setNsPrefix("sdmx-code", sdmx_code);
 		m.setNsPrefix("rdf", rdf);
-		m.setNsPrefix("dc", dcterms);
+		m.setNsPrefix("dcterms", dcterms);
 		m.setNsPrefix("xsd", xsd);
 		m.setNsPrefix("void", voidURI);
 		m.setNsPrefix("dss", dssURI);

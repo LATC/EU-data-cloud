@@ -1,0 +1,251 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/326/trunk/tests
+END
+fakecache.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/70/trunk/tests/fakecache.class.php
+END
+datatable.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/262/trunk/tests/datatable.test.php
+END
+augmentservice.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/313/trunk/tests/augmentservice.test.php
+END
+snapshots.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/321/trunk/tests/snapshots.test.php
+END
+labeller.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/143/trunk/tests/labeller.test.php
+END
+sparqlservice.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/80/trunk/tests/sparqlservice.test.php
+END
+httprequest.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/284/trunk/tests/httprequest.test.php
+END
+privategraph.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/3/trunk/tests/privategraph.test.php
+END
+store.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/320/trunk/tests/store.test.php
+END
+multisparqlservice.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/98/trunk/tests/multisparqlservice.test.php
+END
+storegroupconfig.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/3/trunk/tests/storegroupconfig.test.php
+END
+metabox.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/3/trunk/tests/metabox.test.php
+END
+networkresource.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3/trunk/tests/networkresource.test.php
+END
+graph.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/321/trunk/tests/graph.test.php
+END
+fieldpredicatemap.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/3/trunk/tests/fieldpredicatemap.test.php
+END
+httpcache.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/60/trunk/tests/httpcache.test.php
+END
+facetservice.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/57/trunk/tests/facetservice.test.php
+END
+fakehttprequest.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/120/trunk/tests/fakehttprequest.class.php
+END
+valuepool.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/80/trunk/tests/valuepool.test.php
+END
+storecollection.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3/trunk/tests/storecollection.test.php
+END
+runtests.php
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/323/trunk/tests/runtests.php
+END
+storegroup.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/283/trunk/tests/storegroup.test.php
+END
+fakecredentials.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/3/trunk/tests/fakecredentials.class.php
+END
+fakehttpresponse.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/70/trunk/tests/fakehttpresponse.class.php
+END
+simplegraph.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/326/trunk/tests/simplegraph.test.php
+END
+sparqlservicebase.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/125/trunk/tests/sparqlservicebase.test.php
+END
+graphpath.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/273/trunk/tests/graphpath.test.php
+END
+jobqueue.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/17/trunk/tests/jobqueue.test.php
+END
+datatableresult.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/168/trunk/tests/datatableresult.test.php
+END
+contentbox.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/267/trunk/tests/contentbox.test.php
+END
+queryprofile.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/3/trunk/tests/queryprofile.test.php
+END
+phphttpclient.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/120/trunk/tests/phphttpclient.test.php
+END
+union.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/154/trunk/tests/union.test.php
+END
+oaiservice.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/287/trunk/tests/oaiservice.test.php
+END
+rollback.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/9/trunk/tests/rollback.test.php
+END
+fakerequestfactory.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/321/trunk/tests/fakerequestfactory.class.php
+END
+credentials.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/3/trunk/tests/credentials.test.php
+END
+httpresponse.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/323/trunk/tests/httpresponse.test.php
+END
+changeset.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/95/trunk/tests/changeset.test.php
+END
+curlhttpclient.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/313/trunk/tests/curlhttpclient.test.php
+END
+config.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/256/trunk/tests/config.test.php
+END

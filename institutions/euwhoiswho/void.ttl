@@ -1,0 +1,30 @@
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix dc:   <http://purl.org/dc/elements/1.1/> .
+@prefix org:  <http://www.w3.org/ns/org#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix ov: <http://open.vocab.org/terms> .
+@base <http://euwhoiswho.dataincubator.org/> .
+
+<>
+  a void:Dataset ;
+  rdfs:label "EU Who is Who"@en-gb;
+  dct:description "People and Organisations within the EU government structure."@en-gb ;
+  dct:subject <http://dbpedia.org/resource/European_Union> , <http://dbpedia.org/resource/Government> ;
+  void:sparqlEndpoint <http://api.talis.com/stores/euwhoiswho/services/sparql> ;
+  void:exampleResource 
+                        <http://euwhoiswho.dataincubator.org/people/134049/BUZEK_Jerzy> , 
+                        <http://euwhoiswho.dataincubator.org/institutions/54022/memberships/134049/President> ,
+                        <http://euwhoiswho.dataincubator.org/institutions/54022> ,
+                        <http://euwhoiswho.dataincubator.org/institutions/11> ,
+                        <http://euwhoiswho.dataincubator.org/roles/President> ;
+
+  dct:creator <http://keithalexander.co.uk/id/me> ;
+  void:uriSpace "http://euwhoiswho.dataincubator.org/" ;
+.
+
+

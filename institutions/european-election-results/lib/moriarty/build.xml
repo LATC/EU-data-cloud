@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="Moriarty" default="build">
+
+	<property name="base-dir" value="." />
+	<property name="test-dir" value="${base-dir}/tests" />
+	<property name="test-results-dir" value="${test-dir}/test_results" />
+	<property name="deploy-dir" value="/var/www/html" />
+
+	<target name="build" depends="unit-tests" />
+
+	<target name="init">
+		<mkdir dir="${test-results-dir}" />
+	</target>
+
+	<target name="unit-tests">
+		<echo message="Running moriarty unit tests" />
+		<exec dir="${test-dir}" executable="phpunit" failonerror="true">
+			<arg line=" runtests" />
+		</exec>
+	</target>
+
+
+</project>

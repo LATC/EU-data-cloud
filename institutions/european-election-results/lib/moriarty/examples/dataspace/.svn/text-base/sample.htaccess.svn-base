@@ -1,0 +1,19 @@
+# Rename this file to .htaccess and copy into the root of your linked data space website 
+# it should be in the same directory as index.php
+
+<Files ~ "^\.html">
+    Order allow,deny
+    Allow from all
+</Files>
+
+RewriteEngine on
+
+RewriteRule ^$  index.php [L]
+
+RewriteCond %{REQUEST_FILENAME}  -d
+RewriteRule  ^.*$  -  [L]
+
+RewriteCond %{REQUEST_FILENAME}  -f
+RewriteRule  ^.*$  -  [L]
+
+RewriteRule ^.*$  index.php [L]

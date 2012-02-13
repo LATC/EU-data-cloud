@@ -26,7 +26,7 @@ class Header {
 		int mark = legend.indexOf("\\");
 		String dim1 = legend.substring(0, mark);
 		_dim2 = legend.substring(mark + 1);
-
+		//System.out.println("_dim2 --> " + _dim2);
 		st = new StringTokenizer(dim1, ",");
 		while (st.hasMoreTokens()) {
 			String tok = st.nextToken().trim();

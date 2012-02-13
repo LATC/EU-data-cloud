@@ -51,7 +51,7 @@ public class DictionaryPage {
         		d = new Dictionary(r);            	
         	}
 
-        	d.convert(ch, lang);
+        	d.convert(ch, lang,id);
         }
         
         ch.writeEndElement();

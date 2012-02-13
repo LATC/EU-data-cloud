@@ -80,6 +80,62 @@ The query above uses dataset `demo_r_pjanaggr3`, which contains `Population by s
 
 We only want data for 2007, and both sexes. We then join the data with the `env_n2_wu` dataset, which contains `Water use (NUTS2) - mio m3`. We can then find the regions with the most domestic water (code W18_2_7_2) use per million inhabitants.
 
+Another example query
+=====================
+
+Below is a SPARQL query that combines 24 Eurostat datasets. It is a combined query on all national statistics for Albacore. The idea is to see if a species needs further protection in the form of fishing quotas etc. A similar query is used [here](http://eunis.eea.europa.eu/species/124054/linkeddata).
+
+	PREFIX qb: <http://purl.org/linked-data/cube#>
+	PREFIX e: <http://ontologycentral.com/2009/01/eurostat/ns#>
+	PREFIX sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#>
+	PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+	PREFIX g: <http://eurostat.linked-statistics.org/ontologies/geographic.rdf#>
+	PREFIX dataset: <http://eurostat.linked-statistics.org/data/>
+	PREFIX eunis: <http://eunis.eea.europa.eu/rdf/species-schema.rdf#>
+ 
+	SELECT ?country ?year ?presentation ?landed ?unit
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_be.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_bg.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_cy.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_de.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_dk.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_ee.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_es.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_fi.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_fr.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_gr.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_ie.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_is.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_it.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_lt.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_lv.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_mt.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_nl.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_no.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_pl.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_pt.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_ro.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_se.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_si.rdf>
+	FROM <http://eurostat.linked-statistics.org/data/fish_ld_uk.rdf>
+	FROM <http://semantic.eea.europa.eu/home/roug/eurostatdictionaries.rdf>
+	WHERE {
+	  ?obsUri e:species <http://eurostat.linked-statistics.org/dic/species#ALB>;
+	          e:pres <http://eurostat.linked-statistics.org/dic/pres#P00>, ?upresentation;
+	          e:dest <http://eurostat.linked-statistics.org/dic/dest#D0>;
+	          e:natvessr <http://eurostat.linked-statistics.org/dic/natvessr#TOTAL>;
+	          e:unit <http://eurostat.linked-statistics.org/dic/unit#TPW>, ?uunit;
+	          e:geo ?ucountry;
+	          e:time ?uyear;
+	          sdmx-measure:obsValue ?landed.
+	  ?ucountry skos:prefLabel ?country.
+	  ?uunit skos:prefLabel ?unit.
+	  ?uyear skos:prefLabel ?year.
+	  ?upresentation skos:prefLabel ?presentation.
+	} ORDER BY ?country ?year ?presentation
+
+
+
 URIs for Eurostat identities
 ===========================
 
@@ -97,7 +153,24 @@ URIs for Eurostat identities
 
 	For example: http://eurostat.linked-statistics.org/dic/geo.rdf
 
-* Concepts and Properties of DSD can be found under `http://eurostat.linked-statistics.org/concept#` and `http://eurostat.linked-statistics.org/property#`
+
+NameSpaces for Eurostat
+=======================
+
+* Namespace for SDMX datasets : `@prefix data:    <http://eurostat.linked-statistics.org/data/> .` 
+
+* Namespace for Data Structure Definition (DSD) : `@prefix dsd:     <http://eurostat.linked-statistics.org/dsd/> .` 
+
+* Namespace for dictionaries : `@prefix cl:      <http://eurostat.linked-statistics.org/dic/> .` 
+
+* Namespace for dataset summaries is : `@prefix dss:     <http://eurostat.linked-statistics.org/dss#> .` 
+
+* Namespace for the concepts defined in DSDs : `@prefix concept:  <http://eurostat.linked-statistics.org/concept#> .` 
+
+* Namespace for the properties defined in DSDs : `@prefix property:  <http://eurostat.linked-statistics.org/property#> .`
+
+* Namespace for titles of the datasets is : `@prefix title:   <http://eurostat.linked-statistics.org/title#> .`
+
 
 ## License
 
@@ -114,3 +187,11 @@ To Do
   * Indicators: US Census
   * Topics/Subjects: DBpedia
 
+Pitfalls
+========
+There are few pitfalls in our current approach of converting eurostat datasets into RDF:
+
+* Some datasets have time period associated to an observation which is not a date but instead represented as `LTAA (long term anual average)`, see [dataset] (http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=1&file=data%2Fenv_watq1a.tsv.gz). Currently we dont know how to deal with `LTAA` in RDF because we dont have any extra information provided in the SDMX and DSD of that particular dataset. To deal with this case, our current solution provides a turtle file which contains the definition of `LTAA` and the time period for any particular observation value will be represented in RDF using that URI. For example, `<>  sdmx:timePeriod  <http://eurostat.linked-statistics.org/misc>`.
+* Some datasets have time period associated to an obervation in the following way : `1989_1993`, see [dataset] (http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=1&file=data%2Furb_ikey.tsv.gz). In the `.tsv` files, we dont have `TIME_FORMAT` value which actually tells if the observation value is for 1 year or X number of years. So for now, we are transforming values like `1989_1993` into `1989-01-01`.
+* The `FREQ` value is missing in the `.tsv` files of all datasets, which is necessary to represent the observation values. In order to represent `FREQ` value for each observation value we extract the first `FREQ` value from the `sdmx` file of each dataset with the assumption that the `FREQ` value will remains same for all the observation values in that particular dataset.
+* Certain observation values are represented as `-`, e.g. see [dataset] (http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=1&file=data%2Fearn_mw_cur.tsv.gz). We assume these values to be `0` and replace values (i.e. `-`) with `0` in RDF. 
