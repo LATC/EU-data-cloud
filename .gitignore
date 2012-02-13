@@ -30,4 +30,5 @@ media/eu_parliament_audiovisual/intermediate/video/csv/*
 media/eu_parliament_audiovisual/output/*/*
 media/eu_parliament_audiovisual/output/*
 
-
+legal/nlex-germany/cache/
+legal/nlex-germany/data.ttl
