@@ -1,2 +1,6 @@
+credentials.inc.php
+all.nt
+roles.nt
+scraper.log
 cache
 cache/*

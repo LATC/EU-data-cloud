@@ -8,6 +8,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix ns1: <http://purl.org/vocab/aiiso/schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns2: <http://data.kasabi.com/dataset/eumida/terms/> .
 
 <http://data.kasabi.com/dataset/eumida/terms/> vann:preferredNamespaceUri "http://data.kasabi.com/dataset/eumida/terms/" ;
                                                vann:preferredNamespacePrefix "eum" ;
@@ -19,13 +20,23 @@
                                                           <http://data.kasabi.com/dataset/eumida/terms/yearOfCurrentStatus> ,
                                                           <http://data.kasabi.com/dataset/eumida/terms/yearOfFoundation> ,
                                                           <http://data.kasabi.com/dataset/eumida/terms/feature> ,
+                                                          <http://data.kasabi.com/dataset/eumida/terms/ResearchProvision> ,
+                                                          <http://data.kasabi.com/dataset/eumida/terms/EducationDegree> ,
+                                                          <http://data.kasabi.com/dataset/eumida/terms/highestDegreeAwarded> ,
                                                           <http://data.kasabi.com/dataset/eumida/terms/numberOfDoctoratesAwarded> ,
                                                           <http://data.kasabi.com/dataset/eumida/terms/institution> ,
+                                                          <http://data.kasabi.com/dataset/eumida/terms/awardedDoctoratesFigure> ,
                                                           <http://data.kasabi.com/dataset/eumida/terms/numberOfISCED5Students> ,
+                                                          <http://data.kasabi.com/dataset/eumida/terms/enrolledISCED5StudentsFigure> ,
                                                           <http://data.kasabi.com/dataset/eumida/terms/numberOfInternationalISCED5Students> ,
                                                           <http://data.kasabi.com/dataset/eumida/terms/numberOfISCED6Students> ,
+                                                          <http://data.kasabi.com/dataset/eumida/terms/enrolledISCED6StudentsFigure> ,
                                                           <http://data.kasabi.com/dataset/eumida/terms/numberOfInternationalISCED6Students> ,
-                                                          <http://data.kasabi.com/dataset/eumida/terms/numberOfStaff> . 
+                                                          <http://data.kasabi.com/dataset/eumida/terms/enrolledInternationalISCED6StudentsFigure> ,
+                                                          <http://data.kasabi.com/dataset/eumida/terms/numberOfStaff> ,
+                                                          <http://data.kasabi.com/dataset/eumida/terms/totalNumberOfStaffFigure> ,
+                                                          <http://data.kasabi.com/dataset/eumida/terms/DistanceEducationProvision> ,
+                                                          <http://data.kasabi.com/dataset/eumida/terms/UniversityHospital> . 
 
 <http://data.kasabi.com/dataset/eumida/terms/numberOfStaff> rdf:type ns0:MeasureProperty ,
                                                                      rdf:Property ,
@@ -122,10 +133,72 @@
                                                       rdfs:range rdfs:Resource ;
                                                       rdfs:domain ns1:Institution . 
 
+<http://data.kasabi.com/dataset/eumida/terms/ResearchProvision> rdf:type rdfs:Class ;
+                                                                rdfs:label "Research Provision"@en ;
+                                                                rdfs:isDefinedBy <http://data.kasabi.com/dataset/eumida/terms/> ;
+                                                                rdfs:comment "Research Provision"@en . 
+
+<http://data.kasabi.com/dataset/eumida/terms/EducationDegree> rdf:type rdfs:Class ;
+                                                              rdfs:label "Education Degree"@en ;
+                                                              rdfs:isDefinedBy <http://data.kasabi.com/dataset/eumida/terms/> ;
+                                                              rdfs:comment "Education Degree"@en . 
+
+<http://data.kasabi.com/dataset/eumida/terms/highestDegreeAwarded> rdf:type rdf:Property ;
+                                                                   rdfs:label "Highest Degree Awarded"@en ;
+                                                                   rdfs:comment "Highest Degree Awarded"@en ;
+                                                                   rdfs:isDefinedBy <http://data.kasabi.com/dataset/eumida/terms/> ;
+                                                                   rdfs:range ns1:Institution ;
+                                                                   rdfs:domain ns2:EducationDegree . 
+
 <http://data.kasabi.com/dataset/eumida/terms/institution> rdf:type rdf:Property ;
                                                           rdfs:label "Institution"@en ;
                                                           rdfs:comment "Institution"@en ;
                                                           rdfs:isDefinedBy <http://data.kasabi.com/dataset/eumida/terms/> ;
                                                           rdfs:range ns1:Institution ;
                                                           rdfs:domain ns0:Observation . 
+
+<http://data.kasabi.com/dataset/eumida/terms/awardedDoctoratesFigure> rdf:type rdf:Property ;
+                                                                      rdfs:label "Awarded Doctorates Figure"@en ;
+                                                                      rdfs:comment "Awarded Doctorates Figure"@en ;
+                                                                      rdfs:isDefinedBy <http://data.kasabi.com/dataset/eumida/terms/> ;
+                                                                      rdfs:range ns1:Institution ;
+                                                                      rdfs:domain ns0:Observation . 
+
+<http://data.kasabi.com/dataset/eumida/terms/enrolledISCED5StudentsFigure> rdf:type rdf:Property ;
+                                                                           rdfs:label "Enrolled ISCED5Students Figure"@en ;
+                                                                           rdfs:comment "Enrolled ISCED5Students Figure"@en ;
+                                                                           rdfs:isDefinedBy <http://data.kasabi.com/dataset/eumida/terms/> ;
+                                                                           rdfs:range ns1:Institution ;
+                                                                           rdfs:domain ns0:Observation . 
+
+<http://data.kasabi.com/dataset/eumida/terms/enrolledISCED6StudentsFigure> rdf:type rdf:Property ;
+                                                                           rdfs:label "Enrolled ISCED6Students Figure"@en ;
+                                                                           rdfs:comment "Enrolled ISCED6Students Figure"@en ;
+                                                                           rdfs:isDefinedBy <http://data.kasabi.com/dataset/eumida/terms/> ;
+                                                                           rdfs:range ns1:Institution ;
+                                                                           rdfs:domain ns0:Observation . 
+
+<http://data.kasabi.com/dataset/eumida/terms/enrolledInternationalISCED6StudentsFigure> rdf:type rdf:Property ;
+                                                                                        rdfs:label "Enrolled International ISCED6Students Figure"@en ;
+                                                                                        rdfs:comment "Enrolled International ISCED6Students Figure"@en ;
+                                                                                        rdfs:isDefinedBy <http://data.kasabi.com/dataset/eumida/terms/> ;
+                                                                                        rdfs:range ns1:Institution ;
+                                                                                        rdfs:domain ns0:Observation . 
+
+<http://data.kasabi.com/dataset/eumida/terms/totalNumberOfStaffFigure> rdf:type rdf:Property ;
+                                                                       rdfs:label "Total Number Of Staff Figure"@en ;
+                                                                       rdfs:comment "Total Number Of Staff Figure"@en ;
+                                                                       rdfs:isDefinedBy <http://data.kasabi.com/dataset/eumida/terms/> ;
+                                                                       rdfs:range ns1:Institution ;
+                                                                       rdfs:domain ns0:Observation . 
+
+<http://data.kasabi.com/dataset/eumida/terms/DistanceEducationProvision> rdf:type rdfs:Class ;
+                                                                         rdfs:label "Distance Education Provision"@en ;
+                                                                         rdfs:isDefinedBy <http://data.kasabi.com/dataset/eumida/terms/> ;
+                                                                         rdfs:comment "Distance Education Provision"@en . 
+
+<http://data.kasabi.com/dataset/eumida/terms/UniversityHospital> rdf:type rdfs:Class ;
+                                                                 rdfs:label "University Hospital"@en ;
+                                                                 rdfs:isDefinedBy <http://data.kasabi.com/dataset/eumida/terms/> ;
+                                                                 rdfs:comment "University Hospital"@en . 
 

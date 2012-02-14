@@ -16,26 +16,40 @@ require_once 'lib/moriarty/store.class.php';
 define('DCT', 'http://purl.org/dc/terms/');
 define('DCMI', 'http://purl.org/dc/dcmitype/');
 define('ORG', 'http://www.w3.org/ns/org#');
-define('WHOISWHO', 'http://euwhoiswho.dataincubator.org/');
+define('WHOISWHO', 'http://data.kasabi.com/dataset/eu-who-who/');
 define('INST', WHOISWHO.'');
 define('OV', 'http://open.vocab.org/terms/');
 define('FOAF', 'http://xmlns.com/foaf/0.1/');
+define('XSDT', 'http://www.w3.org/2001/XMLSchema#');
+define('EUI', 'http://institutions.publicdata.eu/#');
+
 
 function urlize($i){
 
   return urlencode(str_replace(' ','_',ucwords(trim($i))));
 }
 
+class RolesGraph extends SimpleGraph {
 
+  function roleHasLabelWithLang($roleUri, $lang){
 
+    $existingLabels = $this->get_subject_property_values($roleUri, RDFS_LABEL);
+    foreach($existingLabels as $labelObject){
+      if(isset($labelObject['lang']) AND $labelObject['lang']==$lang){
+        return true;
+      }
+    }
+    return false;
+  }
 
-#
+}
+
+$RolesGraph = new RolesGraph();
+$RolesGraph->add_turtle(file_get_contents('roles.nt'));
 $publicInstitutionsGraph = new SimpleGraph(file_get_contents("institutions.publicdata.eu.ttl"));
-
 $scrapedPeople = array();
 $scrapedNodes = array();
-
-$RolesGraph = new SimpleGraph();
+$nameTranslations = array();
 
 
 ?>

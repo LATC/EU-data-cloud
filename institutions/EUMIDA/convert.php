@@ -2,7 +2,7 @@
 define('MORIARTY_ARC_DIR', 'lib/arc/');
 define('MORIARTY_ALWAYS_CACHE_EVERYTHING', true);
 require_once 'lib/moriarty/simplegraph.class.php';
-require 'lib/curieous/curieous.php';
+//require 'lib/curieous/curieous.php';
 require_once 'lib/curieous/rdfbuilder.class.php';
 define('EUMIDA', 'http://data.kasabi.com/dataset/eumida/');
 define('NS', EUMIDA.'terms/');
@@ -101,14 +101,13 @@ while($line = fgetcsv($file)){
   $countryUri = EUMIDA.'country/'.$Country_Code;
   $countryName = $countries[$Country_Code];
   
-  $categoryUri = $Rdf->thing_from_label(EUMIDA.'category/', $Institution_Category_English, 'en')->get_uri();
   $regionUri = $Rdf->thing_from_identifier(EUMIDA.'region/', $NUTS_Region)
     ->a('dcterms:Location')
     ->has('owl:sameAs')->r('http://nuts.psi.enakting.org/id/'.trim($NUTS_Region))
       ->r('http://nuts.geovocab.org/id/'. trim($NUTS_Region))
     ->get_uri();
 
-  $Rdf->thing($countryUri)->a('ov:Country')
+  $Rdf->thing($countryUri)->a('places:Country')
       ->has('rdfs:label')->l($countryName)
       ->has('dcterms:identifier')->l($Country_Code)
       ->has('owl:sameAs')
@@ -120,18 +119,27 @@ while($line = fgetcsv($file)){
         ->r('http://telegraphis.net/data/countries/' . strtoupper($Country_Code) . '#' . strtoupper($Country_Code) );
 
 
-  $Rdf->thing($categoryUri)->a('skos:Concept')
-      ->label($Institution_Category_English, 'en');
-
+  if(!empty($Institution_Category_English)){
+    $categoryUri = $Rdf->thing_from_label(NS, $Institution_Category_English, 'en')->get_uri();
+    $Rdf->thing($categoryUri)->a('rdfs:Class')
+    ->label($Institution_Category_English, 'en')
+    ->has('rdfs:subClassOf')->r('aisso:Institution')
+    ->has('rdfs:isDefinedBy')->r(NS)
+    ->is('ov:defines')->of(NS);
+  } else {
+    $categoryUri = uri('aiiso:Institution');
+  }
   $legalStatusUri = $Rdf->thing_from_label(EUMIDA . 'legal-status/', $Legal_Status, 'en')
-      ->a('skos:Concept')->get_uri();
+    ->a('skos:Concept')
+    ->has('skos:inScheme')->r(NS)
+    ->get_uri();
 
   $Institution =  $Rdf->thing($instUri)
       ->a('aiiso:Institution')
       ->label($English_Institution_Name, 'en')
       ->has('foaf:name')->l($Institution_Name)
       ->has('eum:country')->r($countryUri)
-      ->has('ov:category')->r($categoryUri)
+      ->has('rdf:type')->r($categoryUri)
       ->has('spatial:P')->r($regionUri)
       ->has('eum:legalStatus')->r($legalStatusUri)
       ->has('eum:yearOfCurrentStatus')->r('http://reference.data.gov.uk/id/year/'. trim($Current_Status_Year))
@@ -150,7 +158,7 @@ while($line = fgetcsv($file)){
       ->has('dcterms:description')->l($Research_Active_Comments, 'en');
    }  
   if(strtolower(trim($University_Hospital))=='yes'){
-    $Institution->has('eum:feature')->r($instUri.'/university-hospital')->object()
+    $Institution->has('eum:fnkseature')->r($instUri.'/university-hospital')->object()
       ->a('eum:UniversityHospital')
       ->label('University Hospital for ' . $Institution_Name, 'en')
       ->has('dcterms:description')->l($University_Hospital_Comments, 'en');
@@ -217,7 +225,7 @@ while($line = fgetcsv($file)){
     ->has('eum:numberOfInternationalISCED6Students')->dt($International_Students_ISCED6,$dt)
     ->has('eum:institution')->r($instUri)
     ->has('sdmxdim:refPeriod')->r(YEAR_NS.$International_Students_ISCED6_Reference_Year)
-    ->is('eum:enrolledISCED6StudentsFigure')->of($instUri)
+    ->is('eum:enrolledInternationalISCED6StudentsFigure')->of($instUri)
     ->has('rdfs:comment')->l($International_Students_ISCED6_Comments, 'en')
     ->has('qb:dataSet')->r($isced6InternationalStudentsDatasetUri);
 
@@ -226,7 +234,7 @@ while($line = fgetcsv($file)){
     ->has('eum:numberOfStaff')->dt($Total_Staff, $dt)
     ->has('eum:institution')->r($instUri)
     ->has('sdmxdim:refPeriod')->r(YEAR_NS. $Total_Staff_Reference_Year)
-    ->is('eum:enrolledISCED6StudentsFigure')->of($instUri)
+    ->is('eum:totalNumberOfStaffFigure')->of($instUri)
     ->has('rdfs:comment')->l($Total_Staff_Comments, 'en')
     ->has('qb:dataSet')->r($totalStaffDatasetUri);
 
