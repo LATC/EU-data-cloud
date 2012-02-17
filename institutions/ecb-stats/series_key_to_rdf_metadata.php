@@ -1,36 +1,60 @@
 <?php
-//TODO rewrite code to take kf_id, and series key components, and get codelist id, code value, and concept id
-define('MORIARTY_ARC_DIR', 'arc/');
+require 'inc.php';
+
 require_once 'moriarty/simplegraph.class.php';
 require 'curieous/rdfbuilder.class.php';
+
+$key_families_by_no_of_dimensions=array();
+$datasetUris=array();
+$dateRdf = new RdfBuilder();
 
 function find_keyfamily_for_series_key($series_key_components){
   global $metadata;
   $key_families = $metadata['key_families'];
   $dimensions_in_key = array_slice($series_key_components, 2);
   $no_of_dimensions_in_key = count($dimensions_in_key);
-  echo "\n\nNo of possibilities: ".count(array_keys($key_families));
+  log_message( "No of possibilities: ".count(array_keys($key_families)) );
   $key_families = filter_key_families_by_number_of_dimensions($key_families, $no_of_dimensions_in_key);
-  echo "\n\nNo of keyfamilys with {$no_of_dimensions_in_key} dimensions: ".count(array_keys($key_families));
+  log_message( "No of keyfamilys with {$no_of_dimensions_in_key} dimensions: ".count(array_keys($key_families)));
 
   $n=$no_of_dimensions_in_key-1;
   while(count(array_keys($key_families)) > 1 AND $n  >= 0 ){
     $code = $dimensions_in_key[$n];
     $key_families = filter_key_families_by_code_in_nth_position($key_families, $code, $n);
-    echo "\n\nNo of keyfamilys with matching code in {$n}th position: ".count(array_keys($key_families));
+    log_message( "No of keyfamilys with matching code ({$code}) in {$n}th position: ".count(array_keys($key_families)) . " " . implode(", ", array_keys($key_families)));
 
     $n--;
+  }
+  if(count(array_keys($key_families)) > 1){
+    $datasetAbbreviation = $series_key_components[1];
+    foreach($key_families as $k => $props){
+      if(strstr($k, $datasetAbbreviation)){
+        return array($k => $props);
+      }
+    }
   }
   return $key_families;
 }
 
 function filter_key_families_by_number_of_dimensions($kf,$no){
+  
+  global $key_families_by_no_of_dimensions;
+
   $matching=array();
+
+  if(isset($key_families_by_no_of_dimensions[$no])){
+    foreach($key_families_by_no_of_dimensions[$no] as $k_id){
+      $matching[$k_id]=$kf[$k_id];
+    } 
+    return $matching; 
+  }
+
   foreach($kf as $id => $props){
     if($props['dimension_count']==$no){
       $matching[$id]=$props;
     }
   }
+  $key_families_by_no_of_dimensions[$no] = array_keys($matching);
   return $matching;
 }
 
@@ -40,120 +64,150 @@ function filter_key_families_by_code_in_nth_position($kf, $sk_code, $no){
   $matching=array();
   $checked_code_lists = array();
   foreach($kf as $id => $props){
-    echo "\n\tchecking keyf {$id}";
     $dimensions = $props['dimension_list'];
     $dimension_key = $dimensions[$no];
     $cl_id =$props['dimensions'][$dimension_key];
-    echo "\n\t\tchecking {$cl_id} for {$sk_code}";
-    if(isset($checked_code_lists[$cl_id])){
-     echo "\n\t {$cl_id} already checked";
-     continue;
-    }
     if(isset($codes[$cl_id]['codes'][$sk_code])){
-//      die(var_dump($cl_id, $sk_code));
-      $checked_code_lists[$cl_id] = true;
+   //   log_message("{$sk_code} is in $cl_id  for {$dimension_key}");
       $matching[$id] = $props;
-    } else {
-      $checked_code_lists[$cl_id] = false;
-    }
+    }  
   }
-
   return $matching;
 }
-function get_concept_for_list($cl_id){
-  global $metadata;
-  foreach($metadata['concepts']['ECB'] as $id => $props ){
-    if(isset($props['codeLists'])){
-      foreach($props['codeLists'] as $cl){
-        if($cl==$cl_id) return $id;
-      }
-    }
-  }
-}
 
-function get_value_for_code($input_code){
-  global $metadata;
-  $return=array();
-  foreach($metadata['codes'] as $cl_id => $codeList){
-    foreach($codeList['codes'] as $code => $desc){
-      if($code==$input_code){
-        $return[$cl_id] = $desc;
-      }
-    }
-  }
-  return $return;
-}
-function get_value_for_code_in_list($input_code, $list_id){
-  global $metadata;
-  $codeList = $metadata['codes'][$list_id];
-    foreach($codeList['codes'] as $code => $desc){
-      if($code==$input_code){
-        return $desc;
-      }
-    }
-}
 
-define('NS', 'http://ecb.publicdata.eu/');
-define('KASABI_COUNTRIES', 'http://data.kasasbi.com/dataset/countries/');
 $metadata = json_decode(file_get_contents('keyfamily.json'),1);
 
 $series_key = $argv[1];
-
-$key_components= explode('.', $series_key);
-
-$matching_key_families = find_keyfamily_for_series_key($key_components);
-$matching_kf_ids = array_keys($matching_key_families);
-$no_of_matches = count($matching_kf_ids);
-if($no_of_matches > 1){
-  echo("more than one matching key family");
-  var_dump($matching_key_families);
-  exit;
-} else if($no_of_matches < 1){
-  die("no matches were found");
-}
-$key_family_id = $matching_kf_ids[0];
-
-list($threeDigit, $datasetCode) = $key_components;
-$dimensionValueCodes = array_slice($key_components, 2);
-
-
 
 register('ecbstats', NS.'schema/');
 
 $rdf = new RdfBuilder();
 $rdf->create_vocabulary('ecbstats', NS.'schema/', 'European Central Bank Statistics RDF Vocabulary', 'http://keithalexander.co.uk/id/me');
 
-// $freq = $rdf->thing_from_identifier(NS.'codes/frequency/', $seriesFreq)
-//   ->label(get_value_for_code_in_list($seriesFreq, 'CL_FREQ'))
-//   ->a('skos:Concept')
-//   ->has('skos:inScheme')->r(NS.'codes/frequency');
+$conceptRdf = new RdfBuilder();
 
 
-$series = $rdf->thing_from_identifier(NS.'series/', $series_key)->a('qb:Slice')
-//  ->has('sdmxdim:refArea')->r(KASABI_COUNTRIES.$refArea)
-//  ->has('ecbstats:adjustment')->r($adjustment->get_uri())
-//  ->has('sdmxdim:freq')->r($freq->get_uri())
-//  ->has($y_prop)->r($yThing->get_uri())
- // ->has($z_prop)->r($zThing->get_uri())
-  ->has('foaf:page')->r('http://sdw.ecb.europa.eu/quickview.do?SERIES_KEY='.$series_key);
 
-$kf = $metadata['key_families'][$key_family_id];
-$dimensions = $kf['dimension_list'];
+function csv_row_to_rdf($row){
+  global $metadata;
+  global $rdf;
+  global $conceptRdf;
+  global $datasetUris;
 
-foreach($dimensionValueCodes as $no => $code){
-    $concept_id = $dimensions[$no];
-    $cl_id = $kf['dimensions'][$concept_id];
-    $code_value = $metadata['codes'][$cl_id]['codes'][$code];
-    $prop = 'ecbstats:'.strtolower($concept_id);
-    if($concept_id=='REF_AREA') $prop = 'sdmxdim:refArea';
-    if($concept_id=='FREQ') $prop = 'sdmxdim:freq';
-    $ns = NS.'codes/'.str_replace('cl_','',strtolower($cl_id));
-    $Thing = $rdf->thing_from_identifier($ns.'/', $code)
-          ->label($code_value, 'en')
-          ->a('skos:Concept')
-          ->has('skos:inScheme')->r($ns);
-    $series->has($prop)->r($Thing->get_uri());
+  list($breadcrumb_trail, $series_key, $title, $fromDate, $toDate) = $row;
+
+  $key_components= explode('.', $series_key);
+
+  $matching_key_families = find_keyfamily_for_series_key($key_components);
+  $matching_kf_ids = array_keys($matching_key_families);
+  $no_of_matches = count($matching_kf_ids);
+  if($no_of_matches > 1){
+    log_message("more than one matching key family for series key " .$series_key );
+    return false;
+  } else if($no_of_matches < 1){
+    log_message("no matches were found for series key " .$series_key );
+    return false;
+  }
+  $key_family_id = $matching_kf_ids[0];
+
+  list($threeDigit, $datasetCode) = $key_components;
+  $dimensionValueCodes = array_slice($key_components, 2);
+
+  $datasetUri = NS.'dataset/'.$threeDigit.'.'.$datasetCode;
+  $datasetUris[$datasetUri]= true;
+
+  $series = $rdf->thing_from_identifier(NS.'series/', $series_key)->a('qb:Slice')
+    ->label($title, 'en')
+    ->has('foaf:page')->r('http://sdw.ecb.europa.eu/quickview.do?SERIES_KEY='.$series_key)
+    ->is('qb:slice')->of($datasetUri);
+
+  if($topicUri = breadcrumb_to_rdf($breadcrumb_trail)){
+    $series->has('dct:subject')->r($topicUri);
+  }
+
+  if($dateUri = Utils::dateToURI($fromDate.'-'.$toDate)){
+    $series->has('dct:temporal')->r($dateUri);
+    $dateRdf->thing($dateUri)
+      ->a('time:Interval')
+      ->label($fromDate.'-'.$toDate)
+      ;
+  }
+
+  $kf = $metadata['key_families'][$key_family_id];
+  $dimensions = $kf['dimension_list'];
+  foreach($dimensionValueCodes as $no => $code){
+      $concept_id = $dimensions[$no];
+      $cl_id = $kf['dimensions'][$concept_id];
+      if(!isset($metadata['codes'][$cl_id]['codes'][$code])){
+        log_message("Error: '{$code}' not found in {$cl_id} ; Dimension $concept_id ; kf:  $key_family_id ; series: $series_key");
+        continue;
+      }
+      $code_value = $metadata['codes'][$cl_id]['codes'][$code];
+      $prop = 'ecbstats:'.strtolower($concept_id);
+      if($concept_id=='REF_AREA') $prop = 'sdmxdim:refArea';
+      if($concept_id=='FREQ') $prop = 'sdmxdim:freq';
+      $ns = NS.'codes/'.str_replace('cl_','',strtolower($cl_id));
+ 
+ /*     $Thing = $rdf->thing_from_identifier($ns.'/', $code)
+            ->label($code_value, 'en')
+            ->a('skos:Concept')
+            ->has('skos:inScheme')->r($ns);
+  */
+      $series->has($prop)->r($ns.'/' . $code);
+  }
+
+  echo $rdf->dump_ntriples();
 }
 
-echo $rdf->turtle();
+function breadcrumb_to_rdf($breadcrumb){
+  global $conceptRdf;
+  $topics = explode('/', $breadcrumb);
+  array_shift($topics);
+  $lastTopic=false;
+  while($topic = array_shift($topics)){
+    $label = ucwords(str_replace('-',' ', $topic));
+    $topicUri = NS.'concepts/'.$topic;
+    $Topic = $conceptRdf->thing($topicUri)
+      ->a('skos:Concept')
+      ->label($label, 'en')
+      ->has('skos:inScheme')->r(NS.'concepts');
+
+    if(!$lastTopic){
+      $Topic->has('skos:topConceptOf')->r(NS.'concepts')
+        ->object()
+          ->a('skos:ConceptScheme')
+          ->label('European Central Bank Concepts', 'en')
+          ->has('dct:description')->l("Concepts used by the European Central Bank Statistical Warehouse", 'en')
+          ->has('skos:hasTopConcept')->r($topicUri);
+    } else {
+      $Topic->has('skos:broader')->r($lastTopic)
+          ->is('skos:narrower')->of($lastTopic);
+    }
+    $lastTopic = $topicUri;
+  }
+  return $lastTopic;
+}
+
+
+$filename = $argv[1];
+$fh = fopen($filename, 'r');
+while($row = fgetcsv($fh)){
+  set_time_limit(9999999999999);
+  if(count($row) > 2){
+    csv_row_to_rdf($row); 
+  } 
+}
+
+echo $conceptRdf->dump_ntriples();
+
+foreach($datasetUris as $uri => $v){
+  $rdf->thing($uri)
+    ->a('qb:DataSet')
+    ->has('dct:creator')->r('http://institutions.publicdata.eu/#ecb');
+  echo $rdf->dump_ntriples();
+}
+
+echo $dateRdf->dump_ntriples();
+
 ?>
