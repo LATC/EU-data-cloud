@@ -1,0 +1,8 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://schemas.talis.com/2006/bigfoot/configuration#" > 
+  <rdf:Description rdf:about="http://api.talis.com/stores/kwijibo-dev3/jobs">
+    <j.0:job rdf:resource="http://api.talis.com/stores/kwijibo-dev3/jobs/6c679df3-f137-4cd5-bf4c-3206ad1ecd29"/>
+    <rdf:type rdf:resource="http://schemas.talis.com/2006/bigfoot/configuration#ScheduledJobCollection"/>
+  </rdf:Description>
+</rdf:RDF>
