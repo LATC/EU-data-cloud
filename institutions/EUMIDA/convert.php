@@ -105,6 +105,7 @@ while($line = fgetcsv($file)){
     ->a('dcterms:Location')
     ->has('owl:sameAs')->r('http://nuts.psi.enakting.org/id/'.trim($NUTS_Region))
       ->r('http://nuts.geovocab.org/id/'. trim($NUTS_Region))
+      ->has('places:in')->r($countryUri)
     ->get_uri();
 
   $Rdf->thing($countryUri)->a('places:Country')
@@ -140,7 +141,7 @@ while($line = fgetcsv($file)){
       ->has('foaf:name')->l($Institution_Name)
       ->has('eum:country')->r($countryUri)
       ->has('rdf:type')->r($categoryUri)
-      ->has('spatial:P')->r($regionUri)
+      ->has('places:in')->r($regionUri)
       ->has('eum:legalStatus')->r($legalStatusUri)
       ->has('eum:yearOfCurrentStatus')->r('http://reference.data.gov.uk/id/year/'. trim($Current_Status_Year))
       ->has('eum:yearOfFoundation')->r('http://reference.data.gov.uk/id/year/'. trim($Foundation_Year));

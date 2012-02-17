@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><MessageGroup xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message https://stats.ecb.europa.eu/stats/vocabulary/sdmx/2.0/SDMXMessage.xsd">
+<Header>
+	<ID>IREF000001</ID>
+	<Test>false</Test>
+
+	<Prepared>2012-02-15T11:49:12Z</Prepared>
+	<Sender id="4F0">
+		<Name xml:lang="en" >European Central Bank</Name>
+		<Contact>
+		<Department xml:lang="en" >DG Statistics</Department>
+		<URI>mailto:statistics@ecb.europa.eu</URI></Contact>
+	</Sender>
+	<Extracted>2012-02-15T11:49:12Z</Extracted>
+</Header>
+<DataSet>
+	<Group REF_AREA="AT" ADJUSTMENT="N" ICP_ITEM="030000" STS_INSTITUTION="4" ICP_SUFFIX="AVR" UNIT="PURE_NUMB" UNIT_MULT="0" DECIMALS="2" TITLE_COMPL="Austria - HICP - CLOTHING AND FOOTWEAR, Annual average rate of change, Eurostat, Neither seasonally nor working day adjusted"/>
+		<Series FREQ="A" REF_AREA="AT" ADJUSTMENT="N" ICP_ITEM="030000" STS_INSTITUTION="4" ICP_SUFFIX="AVR" TIME_FORMAT="P1Y" COLLECTION="A" DOM_SER_IDS="ICPT.A.VAL.AVER05.AUT.03">
+			<Obs TIME_PERIOD="1988" OBS_VALUE="2.75" OBS_STATUS="A" OBS_CONF="F" />
+			<Obs TIME_PERIOD="1989" OBS_VALUE="2.93" OBS_STATUS="A" OBS_CONF="F" />
+			<Obs TIME_PERIOD="1990" OBS_VALUE="3.48" OBS_STATUS="A" OBS_CONF="F" />
+			<Obs TIME_PERIOD="1991" OBS_VALUE="4.05" OBS_STATUS="A" OBS_CONF="F" />
+			<Obs TIME_PERIOD="1992" OBS_VALUE="3.73" OBS_STATUS="A" OBS_CONF="F" />
+			<Obs TIME_PERIOD="1993" OBS_VALUE="3.53" OBS_STATUS="A" OBS_CONF="F" />
+			<Obs TIME_PERIOD="1994" OBS_VALUE="3.23" OBS_STATUS="A" OBS_CONF="F" />
+			<Obs TIME_PERIOD="1995" OBS_VALUE="1.29" OBS_STATUS="A" OBS_CONF="F" />
+			<Obs TIME_PERIOD="1996" OBS_VALUE="-1.39" OBS_STATUS="A" OBS_CONF="F" />
+			<Obs TIME_PERIOD="1997" OBS_VALUE="-0.91" OBS_STATUS="A" OBS_CONF="F" />
+			<Obs TIME_PERIOD="1998" OBS_VALUE="-0.17" OBS_STATUS="A" OBS_CONF="F" />
+			<Obs TIME_PERIOD="1999" OBS_VALUE="0.51" OBS_STATUS="A" OBS_CONF="F" />
+			<Obs TIME_PERIOD="2000" OBS_VALUE="-0.69" OBS_STATUS="A" OBS_CONF="F" />
+			<Obs TIME_PERIOD="2001" OBS_VALUE="-0.30" OBS_STATUS="A" OBS_CONF="F" />
+			<Obs TIME_PERIOD="2002" OBS_VALUE="0.30" OBS_STATUS="A" OBS_CONF="F" />
+			<Obs TIME_PERIOD="2003" OBS_VALUE="-0.06" OBS_STATUS="A" OBS_CONF="F" />
+			<Obs TIME_PERIOD="2004" OBS_VALUE="-0.56" OBS_STATUS="A" OBS_CONF="F" />
+			<Obs TIME_PERIOD="2005" OBS_VALUE="-1.21" OBS_STATUS="A" OBS_CONF="F" />
+			<Obs TIME_PERIOD="2006" OBS_VALUE="-0.22" OBS_STATUS="A" OBS_CONF="F" />
+			<Obs TIME_PERIOD="2007" OBS_VALUE="2.21" OBS_STATUS="A" OBS_CONF="F" />
+			<Obs TIME_PERIOD="2008" OBS_VALUE="1.53" OBS_STATUS="A" OBS_CONF="F" />
+			<Obs TIME_PERIOD="2009" OBS_VALUE="1.55" OBS_STATUS="A" OBS_CONF="F" />
+			<Obs TIME_PERIOD="2010" OBS_VALUE="1.13" OBS_STATUS="A" OBS_CONF="F" />
+			<Obs TIME_PERIOD="2011" OBS_VALUE="2.99" OBS_STATUS="P" OBS_CONF="F" />
+</Series>
+</DataSet>
+</MessageGroup>
+
