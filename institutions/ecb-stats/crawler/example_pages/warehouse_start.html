@@ -1,0 +1,1071 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- start of layoutLeftNav.jsp -->
+<head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<title>ECB Statistical Data Warehouse</title>
+
+<link rel="shortcut icon" href="img/favicon.png"/>
+
+    
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta http-equiv="content-language" content="en"/>
+<meta http-equiv="cache-control" content="no-cache"/>
+
+
+<meta name="robots" content="index,follow"/>
+<meta name="description"
+      content="The main purpose of European Central Bank (ECB) statistics is to support the monetary policy of the ECB and other tasks of the Eurosystem and the European System of Central Banks (ESCB)."/>
+<meta name="keywords" content="ECB; European Central Bank; statistics; data"/>
+<link rel="stylesheet" type="text/css" href="css/sdw_common.css"/>
+<!--[if IE]>
+            <link rel="stylesheet" type="text/css" href="css/sdw_specific.css" media="screen" />
+        <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="css/sdw_external.css" media="screen"/>
+
+<link rel="stylesheet" type="text/css" href="css/sdw-pal.css"/>
+<link rel="stylesheet" type="text/css" href="css/displaytag.css"/>
+<link rel="stylesheet" type="text/css" href="css/sdw_help.css"/>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="jsp/latest.jsp"/>
+
+    
+    
+
+<script type="text/javascript">
+    <!--
+    function initFocus() {
+        if (document.searchForm != null &&
+            document.searchForm.keywords != null) {
+            document.searchForm.keywords.focus();
+        }
+    }
+
+    function freezeForm(formId, timeout) {
+        var form = document.getElementById(formId);
+        var unlockScript = "document.getElementById('" + formId + "').disabled = false;";
+        form.disabled = true;
+        setTimeout(unlockScript, timeout);
+    }
+    //-->
+</script>
+<script type="text/javascript" src="jsp/popups.js"></script>
+<script type="text/javascript" src="jsp/showHideScripts.js"></script>
+<script type="text/javascript" src="jsp/filters.js"></script>
+
+</head>
+<body >
+<div id="pagearea">
+    <a name="top">
+    </a>
+
+    <div id="headarea">
+        <div id="headarealogo">
+            <a href="#skipnavigation" class="invisibleitem">
+                Skip navigation
+            </a>
+            <a href="home.do" accesskey="0" title="Logo - Link to homepage">
+                <img src="img/ecb_logo.gif" width="180" height="85"
+                     alt="European Central Bank Statistical Data Warehouse Logo - Link to Homepage"
+                     title=""/>
+            </a>
+        </div>
+        <div id="headerareanonlogo">
+            <div id="servicemenuregion">
+                <!-- S T A R T    S E R V I C E  M E N U   -->
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- start of serviceMenu.jsp -->
+
+    <div id="servicemenu">
+        
+            
+                
+                
+                                
+                
+                    <a id="serviceMenu_login" href="register.do">Login</a>
+                
+            
+            
+                <span class="spacebetweenpoint">.</span>
+            
+        
+            
+                
+                
+                    <a href="settings.do"
+                       target="settingswindow"
+                       onclick="settingsPopup(this); return false">
+                        My Settings
+                    </a>
+                
+                                
+                
+            
+            
+                <span class="spacebetweenpoint">.</span>
+            
+        
+            
+                
+                
+                                
+                
+                    <a id="serviceMenu_curConverter" href="curConverter.do">Currency Converter</a>
+                
+            
+            
+                <span class="spacebetweenpoint">.</span>
+            
+        
+            
+                
+                    <a href="help.do"
+                       target="helpwindow"
+                       onclick="helpPopup(this); return false">
+                        Help
+                    </a>
+                
+                
+                                
+                
+            
+            
+                <span class="spacebetweenpoint">.</span>
+            
+        
+            
+                
+                
+                                
+                
+                    <a id="serviceMenu_sitedirectory" href="sitedirectory.do">Site Directory</a>
+                
+            
+            
+                <span class="spacebetweenpoint">.</span>
+            
+        
+            
+                
+                
+                                
+                
+                    <a id="serviceMenu_ecbWebsite" href="http://www.ecb.europa.eu/">ECB website</a>
+                
+            
+            
+                <span class="spacebetweenpoint">.</span>
+            
+        
+            
+                
+                
+                                
+                
+                    <a id="serviceMenu_glossary" href="http://www.ecb.europa.eu/home/glossary/html/act2a.en.html">Glossary</a>
+                
+            
+            
+                <span class="spacebetweenpoint">.</span>
+            
+        
+            
+                
+                
+                                
+                
+                    <a id="serviceMenu_disclaimer" href="http://www.ecb.europa.eu/home/html/disclaimer.en.html">Disclaimer</a>
+                
+            
+            
+                <span class="spacebetweenpoint">.</span>
+            
+        
+            
+                
+                
+                
+                    <a target="contact" id="serviceMenu_contact" href="mailto:statistics@ecb.europa.eu?subject=[SDW%20General%20Public%20portal]">Contact</a>                
+                                
+                
+            
+            
+        
+    </div>
+
+<!-- end of serviceMenu.jsp -->
+
+
+
+                <!-- E N D    S E R V I C E  M E N U    -->
+            </div>
+
+            <div id="apptitleregion">
+			
+                <form name="searchForm" method="get" action="/searchprocessing.do" id="quicksearch">
+					
+                    <input type="hidden" name="type" value="series"/>
+                    <input type="text" name="q" value="" id="quicksearchbox" maxlength="150"/>
+                    <input type="image" style="vertical-align:middle;"
+                           src="img/button_quicksearch.gif"
+                           alt="Search"
+                           title="Search"/>
+                </form>
+			
+            <div id="apptitle">Statistical Data Warehouse</div>
+
+            </div>
+        </div>
+        <div id="bcsdw" class="bcsdw">
+            <!-- S T A R T    B R E A D  C R U M B   -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- start of breadCrumb.jsp -->
+
+
+	<span class="invisibleitem">
+		Navigation Path:
+	</span>
+    <table>
+        <tr>
+            <td class="bcsdwtext">
+                
+                    
+                        <a id="breadCrumb_home" href="home.do">
+                        
+                        	
+		           				
+		           				
+									Home
+		           				
+		          			
+                        </a>
+                        &nbsp;&gt;&nbsp;
+                    
+                    
+                
+                    
+                    
+                        	
+		           				
+		           				
+									Economic Concepts
+		           				
+		          			
+                    
+                
+            </td>
+        </tr>
+    </table>
+
+<!-- end of breadCrumb.jsp -->
+
+
+
+            <!-- E N D    B R E A D  C R U M B    -->
+        </div>
+    </div>
+    <!--end headarea-->
+    <!-- S T A R T    L E F T   N A V I G A T I O N   -->
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- start of leftNaviBroswer -->
+
+
+
+
+
+
+<div id="sectionmenu">
+
+
+    
+        <ul>
+        
+        
+        
+            
+            
+            
+            
+                
+                
+                    
+                
+            
+            
+            
+                
+                    
+                        
+                    
+                    
+                
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=1478" class="sdw1border sdwbg1 current">
+                            <img src="img/ico_minus.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Economic Concepts
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                        <!-- deeper new level (higher level number = deeper in the hierarchy) -->
+                        
+                        <li><ul>
+                        
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                    
+                    
+                        
+                    
+                
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=2018800" class="sdw1border sdwbg2 ">
+                            <img src="img/ico_plus.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Monetary operations
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                    
+                    
+                        
+                    
+                
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=2018803" class="sdw1border sdwbg2 ">
+                            <img src="img/ico_plus.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Prices, output, demand and labour market
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                    
+                    
+                        
+                    
+                
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=2018773" class="sdw1border sdwbg2 ">
+                            <img src="img/ico_plus.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Money, banking and financial markets
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                    
+                    
+                        
+                    
+                
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=2019181" class="sdw1border sdwbg2 ">
+                            <img src="img/ico_plus.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Euro area accounts
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                    
+                    
+                        
+                    
+                
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=2018789" class="sdw1border sdwbg2 ">
+                            <img src="img/ico_plus.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Government finance
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                    
+                    
+                        
+                    
+                
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=2018778" class="sdw1border sdwbg2 ">
+                            <img src="img/ico_plus.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                External transactions and positions
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                    
+                    
+                        
+                    
+                
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=2018779" class="sdw1border sdwbg2 ">
+                            <img src="img/ico_plus.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Exchange rates
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                    
+                    
+                        
+                    
+                
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=2745" class="sdw1border sdwbg2 ">
+                            <img src="img/ico_plus.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Payments and securities trading, clearing, settlement
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=5274891" class="sdw1border sdwbg2 ">
+                            <img src="img/spacer.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Banknotes and Coins
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=2018817" class="sdw1border sdwbg2 ">
+                            <img src="img/spacer.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Indicators of financial integration 
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                    
+                    
+                        
+                    
+                
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=4843525" class="sdw1border sdwbg2 ">
+                            <img src="img/ico_plus.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                RTD - Real Time Database (research database) 
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                        
+                        <!-- higher new level (lower level number = higher in the hierarchy) -->
+                        <!-- insert closing tags for the open unordered lists -->
+                        
+                            
+                            </ul></li>
+                            
+                        
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                    
+                    
+                        
+                    
+                
+            
+            
+                
+                
+                    <li>
+                        <a href="reports.do?node=REPORTS" class="sdw1border sdwbg1 ">
+                            <img src="img/ico_plus.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Reports
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+            
+                
+                    <li class="separatorNode">&nbsp;</li>
+                
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=USERREPORTS" class="sdw1border sdwbg1 ">
+                            <img src="img/spacer.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                My Reports
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=BASKET" class="sdw1border sdwbg1 ">
+                            <img src="img/spacer.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                My Data Groups
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+        
+        </ul>
+
+    
+    
+
+    
+
+
+</div>
+
+
+<!-- end of leftNaviBroswer -->
+
+    <!-- E N D    L E F T   N A V I G A T I O N    -->
+    <div id="contentarea">
+        <div id="contentlimiter">
+            <!-- S T A R T    C O N T E N T   -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- start of browseNodeDescription.jsp -->
+
+
+
+
+<div class="boxborder basicborder sdwbgboxhead sdwboxheadwidth">
+    <table border="0" cellpadding="0" cellspacing="0" style="width:100%;height:15px;padding:3px 4px 2px 8px;">
+        <tr style="width:100%;">
+            <td><b>Node description</b></td>
+        </tr>
+    </table>
+</div>
+
+<div id="nodeDescription">
+    <span class="nodeName">Economic Concepts</span>
+    <br/>
+    The economic concepts hierarchy breaks down the data by economic concept.
+<br/><br/>Click on the relevant navigation hierarchy to access the data of your choice.
+    	
+    
+</div>
+
+<!-- end of browseNodeDescription.jsp -->
+
+	
+	
+            <!-- E N D    C O N T E N T    -->
+            <!-- End contentlimiter div -->
+        </div>
+        <!-- end contentarea div -->
+    </div>
+    <!-- end pagearea div -->
+</div>
+</body>
+<!-- end of layoutLeftNav.jsp -->
+</html>
