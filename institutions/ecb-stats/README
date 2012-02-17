@@ -1,4 +1,7 @@
-This software project converts SDMX-XML files from the European Central Bank Statistics Warehouse into Linked Data.
+Title: ECB Stats
+Authors: Keith Alexander, Knud Möller
+
+This software project converts SDMX-XML files from the European Central Bank Statistics Warehouse [http://sdw.ecb.europa.eu/] into Linked Data.
 
 xml-schema/download-schema.sh downloads XML metadata files from ECB
 key_families_to_json.php generates the json representation of the keyfamily metadata, from XML, used by the conversion
@@ -7,5 +10,23 @@ this consists of:
   * dimensions represented as qb:DimensionProperty
   * codes and codelists represented as skos:Concept and skos:ConceptScheme
   * KeyFamily groups represented as qb:DataStructureDefinition
+
+/crawler (written in ruby) crawls the ECB statistics warehouse collecting "series keys" (ids of statistics series) and some additional metadata, creating
+a large CSV file. 
+
+crawler_csv_to_rdf.php converts this to ntriples, describing the series as qb:Slice - mainly by parsing the series key into components and understanding them with reference to the keyfamily.json file.
+
+This metadata will be stored in a triples store and access will be provided through a sparql endpoint and Linked Data API, which will make the URIs dereferencable and allow users to find qb:Slices (but not an observation-level data) by their metadata.
+
+These qb:Slice URIs can then dereference to code in
+
+/sdmx2rdfa/ 
+
+which will fetch the series data for that series key from the ECB site as XML, and publish the observations as RDFa.
+
+
+
+
+
 
 

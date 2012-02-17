@@ -78,7 +78,6 @@ function filter_key_families_by_code_in_nth_position($kf, $sk_code, $no){
 
 $metadata = json_decode(file_get_contents('keyfamily.json'),1);
 
-$series_key = $argv[1];
 
 register('ecbstats', NS.'schema/');
 
@@ -94,6 +93,7 @@ function csv_row_to_rdf($row){
   global $rdf;
   global $conceptRdf;
   global $datasetUris;
+  global $dateRdf;
 
   list($breadcrumb_trail, $series_key, $title, $fromDate, $toDate) = $row;
 
