@@ -7,12 +7,18 @@ require 'curieous/rdfbuilder.class.php';
 function find_keyfamily_for_series_key($series_key_components){
   global $metadata;
   $key_families = $metadata['key_families'];
-  $no_of_dimensions_in_key = (count($series_key_components)-2);
+  $dimensions_in_key = array_slice($series_key_components, 2);
+  $no_of_dimensions_in_key = count($dimensions_in_key);
+  echo "\n\nNo of possibilities: ".count(array_keys($key_families));
   $key_families = filter_key_families_by_number_of_dimensions($key_families, $no_of_dimensions_in_key);
-  $n=$no_of_dimensions_in_key;
+  echo "\n\nNo of keyfamilys with {$no_of_dimensions_in_key} dimensions: ".count(array_keys($key_families));
+
+  $n=$no_of_dimensions_in_key-1;
   while(count(array_keys($key_families)) > 1 AND $n  >= 0 ){
-    $code = $series_key_components[$n];
+    $code = $dimensions_in_key[$n];
     $key_families = filter_key_families_by_code_in_nth_position($key_families, $code, $n);
+    echo "\n\nNo of keyfamilys with matching code in {$n}th position: ".count(array_keys($key_families));
+
     $n--;
   }
   return $key_families;
@@ -34,13 +40,17 @@ function filter_key_families_by_code_in_nth_position($kf, $sk_code, $no){
   $matching=array();
   $checked_code_lists = array();
   foreach($kf as $id => $props){
-    $dimensions = array_keys($props['dimensions']);
+    echo "\n\tchecking keyf {$id}";
+    $dimensions = $props['dimension_list'];
     $dimension_key = $dimensions[$no];
     $cl_id =$props['dimensions'][$dimension_key];
+    echo "\n\t\tchecking {$cl_id} for {$sk_code}";
     if(isset($checked_code_lists[$cl_id])){
-      continue;
+     echo "\n\t {$cl_id} already checked";
+     continue;
     }
-    if(isset($codes[$cl_id][$sk_code])){
+    if(isset($codes[$cl_id]['codes'][$sk_code])){
+//      die(var_dump($cl_id, $sk_code));
       $checked_code_lists[$cl_id] = true;
       $matching[$id] = $props;
     } else {
@@ -103,8 +113,8 @@ if($no_of_matches > 1){
 }
 $key_family_id = $matching_kf_ids[0];
 
-list($threeDigit, $datasetCode, $seriesFreq) = $key_components;
-$dimensionValueCodes = array_slice($key_components, 3);
+list($threeDigit, $datasetCode) = $key_components;
+$dimensionValueCodes = array_slice($key_components, 2);
 
 
 
@@ -113,10 +123,10 @@ register('ecbstats', NS.'schema/');
 $rdf = new RdfBuilder();
 $rdf->create_vocabulary('ecbstats', NS.'schema/', 'European Central Bank Statistics RDF Vocabulary', 'http://keithalexander.co.uk/id/me');
 
-$freq = $rdf->thing_from_identifier(NS.'codes/frequency/', $seriesFreq)
-  ->label(get_value_for_code_in_list($seriesFreq, 'CL_FREQ'))
-  ->a('skos:Concept')
-  ->has('skos:inScheme')->r(NS.'codes/frequency');
+// $freq = $rdf->thing_from_identifier(NS.'codes/frequency/', $seriesFreq)
+//   ->label(get_value_for_code_in_list($seriesFreq, 'CL_FREQ'))
+//   ->a('skos:Concept')
+//   ->has('skos:inScheme')->r(NS.'codes/frequency');
 
 
 $series = $rdf->thing_from_identifier(NS.'series/', $series_key)->a('qb:Slice')
@@ -127,15 +137,13 @@ $series = $rdf->thing_from_identifier(NS.'series/', $series_key)->a('qb:Slice')
  // ->has($z_prop)->r($zThing->get_uri())
   ->has('foaf:page')->r('http://sdw.ecb.europa.eu/quickview.do?SERIES_KEY='.$series_key);
 
-$dimensions = $metadata['key_families'][$key_family_id]['dimensions'];
-$codeLists = array_values($dimensions);
-$concepts = array_keys($dimensions);
+$kf = $metadata['key_families'][$key_family_id];
+$dimensions = $kf['dimension_list'];
 
 foreach($dimensionValueCodes as $no => $code){
-
-    $cl_id = $codeLists[$no];
+    $concept_id = $dimensions[$no];
+    $cl_id = $kf['dimensions'][$concept_id];
     $code_value = $metadata['codes'][$cl_id]['codes'][$code];
-    $concept_id = $concepts[$no];
     $prop = 'ecbstats:'.strtolower($concept_id);
     if($concept_id=='REF_AREA') $prop = 'sdmxdim:refArea';
     if($concept_id=='FREQ') $prop = 'sdmxdim:freq';

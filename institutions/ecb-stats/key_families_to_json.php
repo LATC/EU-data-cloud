@@ -49,6 +49,7 @@ while ($reader->read()) {
           foreach($node->getElementsByTagName('Dimension') as $Dimension){
             $kf['dimension_count']++;
             $kf['dimensions'][$Dimension->getAttribute('conceptRef')] = $Dimension->getAttribute('codelist');
+            $kf['dimension_list'][]=$Dimension->getAttribute('conceptRef');
           }
           $keyFamilies[$id] = $kf;
         }
