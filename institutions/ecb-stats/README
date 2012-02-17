@@ -1,1 +1,11 @@
 This software project converts SDMX-XML files from the European Central Bank Statistics Warehouse into Linked Data.
+
+xml-schema/download-schema.sh downloads XML metadata files from ECB
+key_families_to_json.php generates the json representation of the keyfamily metadata, from XML, used by the conversion
+key_families_to_rdf.php generates triples from keyfamily.xml
+this consists of:
+  * dimensions represented as qb:DimensionProperty
+  * codes and codelists represented as skos:Concept and skos:ConceptScheme
+  * KeyFamily groups represented as qb:DataStructureDefinition
+
+
