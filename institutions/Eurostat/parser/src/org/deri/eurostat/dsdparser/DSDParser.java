@@ -72,7 +72,7 @@ public class DSDParser {
 	String baseURI = "http://eurostat.linked-statistics.org/";
 	static DataStoreModel dsModel;
 	public final String base_uri = "http://purl.org/linked-data/sdmx#";
-	public final String sdmx_codeFilePath = "sdmx-code/sdmx-code.ttl";
+	public static String sdmx_codeFilePath = "";
 	String obsValue = "";
 	String freq = "";
 	String timePeriod = "";
@@ -134,6 +134,7 @@ public class DSDParser {
     
 	public void parseFile()
 	{
+		
 		addSDMXCodeList();
 		Element element = xmlDocument.getDocumentElement();
 		NodeList nl;
@@ -789,6 +790,7 @@ public class DSDParser {
 		System.out.println();
 		System.out.println("	-i inputFilePath	Data Structure Definition (DSD) in XML format as input.");
 		System.out.println("	-o outputFilePath	Output directory path to generate DataCube representation of DSD.");
+		System.out.println("	-a sdmx ttl file	Path where the sdmx ttl is located.");
 		System.out.println("	(optional)-f format	RDF format for serialization (RDF/XML, TURTLE, N-TRIPLES).");
 	}
 	
@@ -802,6 +804,7 @@ public class DSDParser {
 		options.addOption("i", "inputFilepath", true, "Data Structure Definition (DSD) in XML format as input.");
 		options.addOption("o", "outputFilePath", true, "Output directory path to generate DataCube representation of DSD.");
 		options.addOption("f", "format", true, "RDF format for serialization (RDF/XML, TURTLE, N-TRIPLES).");
+		options.addOption("a", "sdmx ttl file", true, "Path where the sdmx ttl is located.");
 		CommandLine commandLine = parser.parse( options, args );
 		
 		if( commandLine.hasOption('h') ) {
@@ -816,7 +819,10 @@ public class DSDParser {
 		if(commandLine.hasOption('f'))
 			serialization = commandLine.getOptionValue('f');
 		
-		if(xmlFilePath.equals("") || outputFilePath.equals("") || serialization.equals(""))
+		if(commandLine.hasOption('a'))
+			sdmx_codeFilePath = commandLine.getOptionValue('a');
+		
+		if(xmlFilePath.equals("") || outputFilePath.equals("") || serialization.equals("") || sdmx_codeFilePath.equals(""))
 		{
 			usage();
 			return;
