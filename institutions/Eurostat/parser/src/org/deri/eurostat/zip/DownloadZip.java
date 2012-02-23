@@ -12,6 +12,11 @@ import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.Options;
 
+/**
+ * 
+ * @author Aftab Iqbal
+ *
+ */
 
 public class DownloadZip {
 
@@ -83,7 +88,6 @@ public class DownloadZip {
 	
 	public void downloadZip(InputStream is, String file) throws IOException
 	{
-		//System.out.println("Download Path --> " + tmpZipPath + file);
 		int length = 0;
 		byte[] buffer = new byte[1024];
 		OutputStream os = new FileOutputStream(tmpZipPath + file);

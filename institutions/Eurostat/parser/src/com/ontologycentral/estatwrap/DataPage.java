@@ -40,27 +40,19 @@ public class DataPage {
 		ch.writeEndElement();
 
 		ch.writeStartElement("qb:DataSet");
-		//ch.writeAttribute("rdf:about", "/id/" + id  + "#ds");    		
 		ch.writeAttribute("rdf:about", "/data/" + id); 
 		
-//--//		if (toc.containsKey(id)) {
-//--//			ch.writeStartElement("rdfs:label");
-//--//			ch.writeCharacters(toc.get(id));
-//--//			ch.writeEndElement();
-//--//		}
-		
 		ch.writeStartElement("rdfs:comment");
-		ch.writeCharacters("Source: Eurostat (http://epp.eurostat.ec.europa.eu/) via Linked Eurostat (http://estatwrap.ontologycentral.com/).");
+		ch.writeCharacters("Reused Linked Eurostat (http://estatwrap.ontologycentral.com/) wrapper to rdfize Eurostat (http://epp.eurostat.ec.europa.eu/) .");
 		ch.writeEndElement();
 		ch.writeStartElement("rdfs:seeAlso");
-		ch.writeAttribute("rdf:resource", "http://epp.eurostat.ec.europa.eu/portal/page/portal/about_eurostat/corporate/copyright_licence_policy");
+		ch.writeAttribute("rdf:resource", "http://epp.eurostat.ec.europa.eu/portal/page/portal/about_eurostat/policies/copyright_licence_policy");
 		ch.writeEndElement();
 		ch.writeStartElement("rdfs:seeAlso");
-		ch.writeAttribute("rdf:resource", "http://ontologycentral.com/2009/01/eurostat/");
+		ch.writeAttribute("rdf:resource", "http://eurostat.linked-statistics.org/");
 		ch.writeEndElement();
 
 		ch.writeStartElement("qb:structure");
-		//ch.writeAttribute("rdf:resource", "../dsd/" + id + "#dsd");
 		ch.writeAttribute("rdf:resource", "../dsd/" + id);
 		ch.writeEndElement();
 		
@@ -70,11 +62,6 @@ public class DataPage {
 		d.getObservationType(in1);
 		d.convert(ch, id, freq, datasetID, logPath);
 		
-		//d.getObservationType(in);
-		//Data d1 = new Data(in);
-		//d.getObservationType(in1);
-        //d.convert(ch, id, freq);
-        
         ch.writeEndElement();
         ch.writeEndDocument();
 	}

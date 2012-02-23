@@ -6,6 +6,12 @@ import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.Options;
 import org.deri.eurostat.toc.ParseToC;
 
+/**
+ * 
+ * @author Aftab Iqbal
+ *
+ */
+
 public class EuroStatMirror {
 
 	public static String filePath = "";
@@ -51,9 +57,5 @@ public class EuroStatMirror {
 			obj.downloadZip(filePath, tsvFilePath);
 		}
 		
-		
-//		filePath = args[0];
-//		ParseToC obj = new ParseToC();
-//		obj.downloadZip(filePath);
 	}
 }

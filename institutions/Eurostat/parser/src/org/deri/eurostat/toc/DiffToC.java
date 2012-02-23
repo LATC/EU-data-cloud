@@ -77,7 +77,6 @@ public class DiffToC {
 		logger.setLevel(Level.INFO);
 		txtFile = new FileHandler("Logging.txt",true);
 		
-
 		// Create txt Formatter
 		formatterTxt = new SimpleFormatter();
 		txtFile.setFormatter(formatterTxt);
@@ -102,13 +101,6 @@ public class DiffToC {
 		read_New_TOC();
 		readTOC(inputFilePath);
 		
-		// for testing
-		//readTOC_1(inputFilePath + "table_of_contents_1.xml");
-		//readTOC(inputFilePath + "table_of_contents.xml");
-		
-		//System.out.println(hshMap_New.size());
-		//System.out.println(hshMap_Old.size());
-		
 		for (Map.Entry<String, String> entry : hshMap_New.entrySet())
 		{
 			String code = entry.getKey();
@@ -122,7 +114,6 @@ public class DiffToC {
 			{
 				if(!isGreater(oldDate,newDate) && !oldDate.equals(newDate))
 					dsUpdates.add("[" + hshMap_Titles.get(code) + "] [" + hshMap_URLs.get(code) + "]");
-					//arrDatasets.add(code + " # " + oldDate + " # " + newDate + " # " + hshMap_Titles.get(code) + " # " + hshMap_URLs.get(code));
 			}
 		}
 		
@@ -251,7 +242,6 @@ public class DiffToC {
 				dsd.parseFile();
 			}
 			else if(f.getName().contains(".sdmx.xml"))
-			//else if(f.getName().contains(".sdmx.xml") && !f.getName().contains("bop_q_c") && !f.getName().contains("gov_a_exp") && !f.getName().contains("lfsq_egana2d") && !f.getName().contains("nasa_f_bs") && !f.getName().contains("nasa_f_tr") && !f.getName().contains("sts_inppdgr_m") && !f.getName().contains("nasa_f_of") && !f.getName().contains("sts_inppndgr_m") && !f.getName().contains("sts_innond_m") && !f.getName().contains("sts_inppgr_m") && !f.getName().contains("sts_"))
 			{
 				writeLog("Processing :" + f.getAbsolutePath());
 				
@@ -273,16 +263,13 @@ public class DiffToC {
 	public void downloadZipFiles(String tempZipPath, String tempTsvPath)
 	{
 		writeLog("Downloading compressed files.");
-		//String[] arr;
 		DownloadZip obj = new DownloadZip();
 		if(dsUpdates.size() > 0 )
 		{
 			for(String str:dsUpdates)
 			{
-				//arr = str.split("] [");
 				if(str.contains("http://"))
 					obj.zipURL(str.substring(str.lastIndexOf("[")+1,str.lastIndexOf("]")),tempZipPath, tempTsvPath);
-				
 			}
 		}
 		
@@ -290,10 +277,8 @@ public class DiffToC {
 		{
 			for(String str:newDatasets)
 			{
-				//arr = str.split("] [");
 				if(str.contains("http://"))
 					obj.zipURL(str.substring(str.lastIndexOf("[")+1,str.lastIndexOf("]")),tempZipPath, tempTsvPath);
-				
 			}
 		}
 	}
@@ -493,6 +478,7 @@ public class DiffToC {
 			writeLog("Error while downloading the table_of_contents.xml");
 		}
 	}
+	
 	/**
 	 * Load the last TableOfContents.xml from the directory.
 	 * @param filePath
@@ -557,7 +543,6 @@ public class DiffToC {
 	{
 		DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 		Date date = new Date();
-		//addtoEmailBody("Please Ignore this email. It is sent for testing purposes");
 		addtoEmailBody("");
 		addtoEmailBody("Script was run at : " + dateFormat.format(date));
 		addtoEmailBody("");

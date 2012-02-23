@@ -8,18 +8,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
-import java.net.HttpURLConnection;
-import java.net.URI;
-import java.net.URISyntaxException;
-import java.net.URL;
-import java.util.Calendar;
 import java.util.Iterator;
-import java.util.Map;
-import java.util.logging.Logger;
 import java.util.zip.GZIPInputStream;
-
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.stream.XMLEventReader;
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLOutputFactory;
@@ -28,117 +18,57 @@ import javax.xml.stream.XMLStreamWriter;
 import javax.xml.stream.events.Attribute;
 import javax.xml.stream.events.StartElement;
 import javax.xml.stream.events.XMLEvent;
-import javax.xml.xpath.XPathFactory;
-
 import org.apache.commons.cli.BasicParser;
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.Options;
-import org.deri.eurostat.Main;
 import org.deri.eurostat.toc.DiffToC;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
 
 
 public class SDMXParser {
 
 	public static String outputFilePath = "";
 	public static String logFilePath = "";
-	private Document xmlDocument;
 	
 	public SDMXParser(String outPath)
 	{
 		outputFilePath = outPath;
-		
 	}
 	
 	public SDMXParser(){}
-/*	
-	private void initObjects(String filePath){        
-        try {
-        	//System.out.println(xmlFilePath);
-            xmlDocument = DocumentBuilderFactory.
-			newInstance().newDocumentBuilder().
-			parse(filePath);            
-            
-        } catch (IOException ex) {
-            ex.printStackTrace();
-        } catch (SAXException ex) {
-            ex.printStackTrace();
-        } catch (ParserConfigurationException ex) {
-            ex.printStackTrace();
-        }       
-    }
-*/	
+
 	public void downLoadTSV(String id, String sdmxFilePath, String tsvFilePath) throws Exception
 	{
-		
 		OutputStream os = new FileOutputStream(outputFilePath + id + ".rdf");
-//		URL url = new URL("http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?file=data/" + id + ".tsv.gz");
 
 		try {
-//			HttpURLConnection conn = (HttpURLConnection)url.openConnection();
-//			HttpURLConnection conn_1 = (HttpURLConnection)url.openConnection();
-//			InputStream is = new GZIPInputStream(conn.getInputStream());
-//			InputStream is_1 = new GZIPInputStream(conn_1.getInputStream());
 
 			// instead of keep the URL connection alive, we also download *.tsv and work on it locally
-			//System.out.println(sdmxFilePath.substring(0,sdmxFilePath.indexOf(".sdmx.xml")) + ".tsv.gz");
 			InputStream is = new GZIPInputStream(new FileInputStream(tsvFilePath));
 			InputStream is_1 = new GZIPInputStream(new FileInputStream(tsvFilePath));
-			
 						
-//			if (conn.getResponseCode() != 200) {
-//				//resp.sendError(conn.getResponseCode());
-//			}
-//
-//			String encoding = conn.getContentEncoding();
-//			if (encoding == null) {
-//				encoding = "ISO-8859-1";
-//			}
-
 			String encoding = "ISO-8859-1";
 			BufferedReader in = new BufferedReader(new InputStreamReader(is, encoding));
 			BufferedReader in_1 = new BufferedReader(new InputStreamReader(is_1, encoding));
 			
-			
-			
-			//resp.setHeader("Cache-Control", "public");
-			Calendar c = Calendar.getInstance();
-			c.add(Calendar.HOUR, 1);
-			//resp.setHeader("Expires", Listener.RFC822.format(c.getTime()));
-			//resp.setHeader("Content-Encoding", "gzip");
-
-			//--//XMLOutputFactory factory = (XMLOutputFactory)ctx.getAttribute(Listener.FACTORY);
 			XMLOutputFactory factory = XMLOutputFactory.newInstance();
-			
-			//-//Map<String, String> toc = (Map<String, String>)ctx.getAttribute(Listener.TOC);
-			
-			
 			XMLStreamWriter ch = factory.createXMLStreamWriter(os, "utf-8");
 
 			String freq = get_FREQ_fromSDMX(sdmxFilePath);
-			//String freq = "";
 			
 			DataPage.convert(ch, id, in, in_1, freq, id,logFilePath);
-
 			
 			ch.close();
 			is.close();
 			is_1.close();
 			
 		} catch (IOException e) {
-			//resp.sendError(500, url + ": " + e.getMessage());
 			DiffToC.writeLog( "IOException in SDMXParser : " + e.getMessage());
 			return;
 		} catch (XMLStreamException e) {
-			//resp.sendError(500, url + ": " + e.getMessage());
 			DiffToC.writeLog("XMLStreamException in SDMXParser : " + e.getMessage());
 			return;
 		} catch (RuntimeException e) {
-			//resp.sendError(500, url + ": " + e.getMessage());
 			DiffToC.writeLog("RuntimeException in SDMXParser : " + e.getMessage());
 			return;			
 		}
@@ -146,23 +76,7 @@ public class SDMXParser {
 		os.close();
 
 	}
-/*	
-	public String parseSDMX()
-	{
-		Element element = xmlDocument.getDocumentElement();
-		NodeList nl;
-		String freq="";
-		nl = element.getElementsByTagName("data:Series");
-		
-		if(nl != null && nl.getLength() > 0)
-		{
-			Element ele = (Element)nl.item(0);
-			freq = ele.getAttribute("FREQ");
-		}
-		
-		return freq;
-	}
-*/	
+
 	public String get_FREQ_fromSDMX(String sdmxFilePath)
 	{
 		String freq = "";
@@ -189,18 +103,12 @@ public class SDMXParser {
 							// if it has a FREQ attribute
 							if (attribute.getName().toString().equals("FREQ")) 
 							{
-								//System.out.println(attribute.getValue());
 								freq = attribute.getValue();
 								break;
 							}
-//							if (attribute.getName().toString().equals("TIME_FORMAT"))
-//							{
-//								freq = attribute.getValue();
-//								break;
-//							}
 						}
 					}
-					// if freq is found or in 10 observations we didnt find the FREQ attribute than 
+					// if freq is found or in 10 observations we failed to find the FREQ attribute than 
 					// break the loop in order to avoid reading whole XML file.
 					if(!freq.equals("") || counter >= 10)
 						break;

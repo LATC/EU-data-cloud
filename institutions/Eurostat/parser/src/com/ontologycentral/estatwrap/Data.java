@@ -4,11 +4,9 @@ import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.RandomAccessFile;
 import java.io.Reader;
 import java.text.DecimalFormat;
 import java.util.List;
-import java.util.logging.Logger;
 
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamWriter;
@@ -22,14 +20,10 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
 	static BufferedWriter write = null;
 	static FileWriter fstream = null;
 	int timePosition = 0;
-	// here, use a threshold to limit the amount of data converted (GAE limitations)
-	public static int MAX_COLS = 8;
-	public static int MAX_ROWS = 1024;
 	public static String type = "";
 	
 	public Data(Reader sr) throws IOException, XMLStreamException {
 		_in = new BufferedReader(sr);
-		
 	}
 	
 	public void getObservationType(Reader reader) throws IOException, XMLStreamException 
@@ -81,20 +75,6 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
 			h = new Header(line);
 		}
 		
-//		if ((line = _inputStream.readLine()) != null) {
-//			++rows;
-//			line = line.trim();
-//			if (line.length() <= 0) {
-//				throw new IOException("could not read header!");
-//			}
-//
-//			h = new Header(line);
-//		}
-		
-		
-		
-		//System.out.println("Type is :" + type);
-		
 		if(type.equals("non-numeric value"))
 		{
 			createLogFile(logPath);
@@ -108,15 +88,13 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
 			}
 		}
 		
-		List hd1 = h.getDim1();
+		List<String> hd1 = h.getDim1();
 		for (int j = 0; j < hd1.size(); ++j) {
-       	 //System.out.println("hd1 --> " + hd1.get(j));
-         if(hd1.get(j).equals("time"))
+       	 if(hd1.get(j).equals("time"))
         	 timePosition = j;
         }
 		
 		while ((line = _in.readLine()) != null) {
-			//System.out.println("in print truple");
 			++rows;
 			line = line.trim();
 			if (line.length() <= 0) {
@@ -126,135 +104,44 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
 			l = new Line(line);
 
 			printTriple(h, l, out, rows, id, freq);
-
-			// this code restricts from converting more data.
-//			if (rows > MAX_ROWS) {
-//				break;
-//			}
 		}
 
-		
 		_in.close();
 	}
 
-/*	
-	public void printTriple(Header h, Line l, XMLStreamWriter out, int bnodeid, String id) throws XMLStreamException {
-		List hd1 = h.getDim1();
-		List ld1 = l.getDim1();
-
-		if (hd1.size() != ld1.size()) {
-			System.err.println("header dimensions and line dimensions don't match!");
-		}
-
-		List hcol = h.getCols();
-		List lcol = l.getCols();
-
-		if (hcol.size() != lcol.size()) {
-			System.err.println("header columns and line columns don't match!");
-		}
-		
-		int start = 0;
-		int end = Math.min(hcol.size(), MAX_COLS);
-		
-		// hack - some stats are sorted from oldest to newest, some the other way round
-		// check if the last entry contains year 200x or 201x
-		String last = (String)hcol.get(hcol.size()-1);
-		//System.out.println(last);
-		if (last.contains("200") || last.contains("201")) {
-			start = hcol.size()-MAX_COLS;
-			if (start < 0) {
-				start = 0;
-			}
-			end = hcol.size();
-		}
-
-		for (int i = start; i < end; ++i)
-		{
-			if (((String)lcol.get(i)).equals(":")) {
-				continue;
-			}
-			
-    		out.writeStartElement("qb:Observation");
-    		
-    		out.writeStartElement("qb:dataset");
-    		out.writeAttribute("rdf:resource", baseURI + "/id/" + id + "#ds");
-    		// @@@ workaround to get query processor to function
-    		//out.writeAttribute("rdf:resource", id + "#ds");
-
-    		out.writeEndElement();
-
-			for (int j = 0; j < hd1.size(); ++j) {
-	    		out.writeStartElement((String)hd1.get(j));
-	    		//--//out.writeAttribute("rdf:resource", Dictionary.PREFIX + (String)hd1.get(j) + "#" + (String)ld1.get(j));
-	    		out.writeAttribute("rdf:resource", baseURI + "/dic/" + (String)hd1.get(j) + "#" + (String)ld1.get(j));
-	    		out.writeEndElement();
-			}
-
-    		out.writeStartElement((String)h.getDim2());
-    		//--//out.writeAttribute("rdf:resource", Dictionary.PREFIX + (String)h.getDim2() + "#" + (String)hcol.get(i));
-    		out.writeAttribute("rdf:resource", baseURI + "/dic/" + (String)h.getDim2() + "#" + (String)hcol.get(i));
-    		out.writeEndElement();
-
-    		//http://purl.org/linked-data/sdmx/2009/measure#obsValue
-    		out.writeStartElement("sdmx-measure:obsValue");
-    		String val = (String)lcol.get(i);
-    		String note = null;
-    		if (val.indexOf(' ') > 0) {
-    			note = val.substring(val.indexOf(' ')+1);
-    			val = val.substring(0, val.indexOf(' '));
-    			//-//out.writeAttribute("rdf:datatype", Dictionary.PREFIX + "note#" + note);
-    			out.writeAttribute("rdf:datatype", baseURI + "/dic/" + "note#" + note);
-    		}
-    		out.writeCharacters(val);
-    		out.writeEndElement();
-
-    		out.writeEndElement();
-		}
-	}
-*/	
-
 	public void getType(Header h, Line l)
 	{
-        List hd1 = h.getDim1();
-        List ld1 = l.getDim1();
-        String obs_URI = "";
+        List<String> hd1 = h.getDim1();
+        List<String> ld1 = l.getDim1();
+        
         if (hd1.size() != ld1.size()) {
                 System.err.println("header dimensions and line dimensions don't match!");
         }
 
-        List hcol = h.getCols();
-        List lcol = l.getCols();
+        List<String> hcol = h.getCols();
+        List<String> lcol = l.getCols();
 
         if (hcol.size() != lcol.size()) {
                 System.err.println("header columns and line columns don't match!");
         }
         
         int start = 0;
-        
-        // displays only 8 columns data per dataset. But we need to dump all the data.
-        //int end = Math.min(hcol.size(), MAX_COLS);
         int end = hcol.size();
         
-        // hack - some stats are sorted from oldest to newest, some the other way round
-        // check if the last entry contains year 200x or 201x
-        String last = (String)hcol.get(hcol.size()-1);
-
-      for (int i = start; i < end; ++i)
-      {
-     	 if (((String)lcol.get(i)).equals(":") || ((String)lcol.get(i)).contains(":")) {
-              continue;
-     	 }
-     	 String val = (String)lcol.get(i);
-     	 //System.out.println(val);
-     	 returnType(val);
-      }
+        for (int i = start; i < end; ++i)
+        {
+        	if (((String)lcol.get(i)).equals(":") || ((String)lcol.get(i)).contains(":")) {
+        		continue;
+        	}
+        	String val = (String)lcol.get(i);
+        	returnType(val);
+        }
       
-      //System.out.println("Type is : " + type);
 	}
 	
 	 public void printTriple(Header h, Line l, XMLStreamWriter out, int bnodeid, String id, String freq) throws XMLStreamException {
-         List hd1 = h.getDim1();
-         List ld1 = l.getDim1();
+         List<String> hd1 = h.getDim1();
+         List<String> ld1 = l.getDim1();
          DecimalFormat df = new DecimalFormat ("0.00");
          
          String obs_URI = "";
@@ -262,35 +149,17 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
                  System.err.println("header dimensions and line dimensions don't match!");
          }
 
-         List hcol = h.getCols();
-         List lcol = l.getCols();
+         List<String> hcol = h.getCols();
+         List<String> lcol = l.getCols();
 
          if (hcol.size() != lcol.size()) {
                  System.err.println("header columns and line columns don't match!");
          }
          
          int start = 0;
-         
-         // displays only 8 columns data per dataset. But we need to dump all the data.
-         //int end = Math.min(hcol.size(), MAX_COLS);
+         // rdfize all columns data
          int end = hcol.size();
          
-         // hack - some stats are sorted from oldest to newest, some the other way round
-         // check if the last entry contains year 200x or 201x
-         String last = (String)hcol.get(hcol.size()-1);
-         //System.out.println(last);
-         
-         // This piece of code restricts the number of records to display only the last 8 columns if
-         // last entry contains year 200x or 201x. We dont need it in our case as we are dumping all data.
-//         if (last.contains("200") || last.contains("201")) {
-//                 start = hcol.size()-MAX_COLS;
-//                 if (start < 0) {
-//                         start = 0;
-//                 }
-//                 end = hcol.size();
-//         }
-
-
          for (int i = start; i < end; ++i)
          {
                  if (((String)lcol.get(i)).equals(":") || ((String)lcol.get(i)).contains(":")) {
@@ -312,12 +181,9 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
          
          out.writeStartElement("qb:dataSet");
          out.writeAttribute("rdf:resource", "/data/" + id);
-         // @@@ workaround to get query processor to function
-         //out.writeAttribute("rdf:resource", id + "#ds");
-
          out.writeEndElement();
 
-         // new code for adding FREQ
+         // add sdmx-dimension:freq
          if(!freq.equals(""))
          {
         	 out.writeStartElement("sdmx-dimension:freq");
@@ -326,7 +192,6 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
          }
          
          for (int j = 0; j < hd1.size(); ++j) {
-        	 //System.out.println("hd1 --> " + hd1.get(j));
         	 if(!hd1.get(j).equals("time"))
         	 {
         		 out.writeStartElement("property:" + (String)hd1.get(j));
@@ -351,8 +216,6 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
         	 }
          }
 
-         //System.out.println(hcol.get(i));
-// new code
          if(h.getDim2().equalsIgnoreCase("time"))
          {
              String timeperiod = time.convertTimeSereis((String)hcol.get(i));
@@ -375,12 +238,6 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
              out.writeAttribute("rdf:resource", Dictionary.PREFIX + (String)h.getDim2() + "#" + (String)hcol.get(i));
              out.writeEndElement();
          }
-// old code
-//         out.writeStartElement("property:" + (String)h.getDim2());
-//         out.writeAttribute("rdf:resource", Dictionary.PREFIX + (String)h.getDim2() + "#" + (String)hcol.get(i));
-//         out.writeEndElement();
-         
-         //http://purl.org/linked-data/sdmx/2009/measure#obsValue
          
          // exclude entries like ': c' which exists in the dataset
          if(!lcol.get(i).toString().contains(":"))
@@ -388,21 +245,12 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
              out.writeStartElement("sdmx-measure:obsValue");
              String val = (String)lcol.get(i);
              
-             //System.out.println(val);
-             //String datatype = "";
-             //if(type.equals("decimal"))
-            	// datatype = "";
-             
              String status = null;
              if (val.indexOf(' ') > 0 ) {
                      status = val.substring(val.indexOf(' ')+1);
                      val = val.substring(0, val.indexOf(' '));
-                     //out.writeAttribute("rdf:resource", "/dic/obs_status#" + status);
-                     //out.writeAttribute("rdf:datatype", Dictionary.PREFIX + "obs_status#" + status);
              }
      
-    // new code         
-
              // certain observation values are represented by '-', we consider them to be 0.
              if(val.equals("-"))
              {
@@ -419,8 +267,6 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
             		 out.writeCharacters(df.format(Double.valueOf(val).doubleValue()));
             	 else
             		 out.writeCharacters(val);
-            	 
-            	 
              }
              else if(type.equals("integer"))
              {
@@ -429,7 +275,6 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
              }
              else
             	 out.writeCharacters(val);
-             
              
              out.writeEndElement();
              
@@ -440,14 +285,8 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
                  out.writeEndElement();
              }
              out.writeEndElement();
-
          }
          
-// old code         
-//         out.writeCharacters(val);
-//         out.writeEndElement();
-//
-//         out.writeEndElement();
          }
  }
 
@@ -465,11 +304,10 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
 			 		
 			 		if(!type.equals("non-numeric value"))
 			 			type = "decimal";
-			 		//System.out.println(str + " is a valid decimal number");
+			 		
 			 	}
 			 	catch(NumberFormatException nme)
 			 	{
-			 		//System.out.println(str + " is not a valid decimal number");
 			 		type = "non-numeric value";
 			 	}
 			 	
@@ -484,17 +322,15 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
 					 Integer.parseInt(str);
 					 if(!type.equals("decimal") & !type.equals("non-numeric value"))
 						 type = "integer";
-					 //System.out.println(str + " is valid integer number");
+					 
 				 }
 				 catch(NumberFormatException nme)
 				 {
-					 //System.out.println(str + " is not a valid integer number");
 					 type = "non-numeric value";
 				 }
 			 }
 		}
-		 
-		 //return type;
+		
 	 }
 	 
 	 public void createLogFile(String filePath)

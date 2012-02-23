@@ -1,12 +1,8 @@
 package org.deri.eurostat.zip;
 
-import java.net.*;
 import java.util.*;
 import java.util.zip.*;
 import java.io.*;
-
-import javax.swing.filechooser.FileSystemView;
-
 import org.deri.eurostat.Main;
 import org.deri.eurostat.dsdparser.DSDParser;
 import com.ontologycentral.estatwrap.SDMXParser;
@@ -22,59 +18,24 @@ import org.apache.commons.cli.*;
  */
 public class UnCompressXML {
 
-	//public static String tmpZipPath = "C:/tempZip/";
 	public static String tmpZipPath = "/home/romulus/EuroStat/zip/";
 	
 	public void parseZipFile(String filePath, String downLoadPath)
 	{
 		tmpZipPath = downLoadPath;
-		//System.out.println("tmpZipPath" + tmpZipPath);
 		try {
 			
-//			URL url = new URL(fileURL);
-//			HttpURLConnection conn = (HttpURLConnection)url.openConnection();
-//			InputStream is = conn.getInputStream();
-//
-//			if (conn.getResponseCode() != 200) {
-//				System.err.println(conn.getResponseCode());
-//			}
-
-			// download zip file to a tmp directory
-			//String fileName = fileURL.substring(fileURL.lastIndexOf("/")+1);
-			//downLoadZip(is,fileName);
-			//fileName = fileName.substring(fileName.lastIndexOf("/")+1);
 			readZipFile(filePath);
 			
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//			return;
-//		}
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
 	}
-/*	
-	// download compressed file to a temp directory
-	public void downloadZip(InputStream is, String file) throws IOException
-	{
-		//System.out.println("Download Path --> " + tmpZipPath + file);
-		int length = 0;
-		byte[] buffer = new byte[1024];
-		OutputStream os = new FileOutputStream(tmpZipPath + file);
-		
-		while( (length = is.read(buffer)) > 0)
-			os.write(buffer, 0, length);
-		
-		os.close();
-		is.close();
-	}
-*/	
+
 	// Read the contents of the compressed file and call appropriate functions to parse the DSD and SDMX files
 	public void readZipFile(String file)
 	{
-		//System.out.println("Reading Path --> " + tmpZipPath + file);
 		try {
-			//System.out.println("file : " + file);
 			ZipFile zipFile = new ZipFile(file);
 			Enumeration e = zipFile.entries();
 			
@@ -87,16 +48,10 @@ public class UnCompressXML {
 	        		if(entry.getName().contains(".dsd.xml"))
 	        		{
 	        			createXML(is, id, ".dsd.xml");
-	        			
-	        			// to parse the DSD file
-	        			//parseDSD(is);
 	        		}
 	        		else if(entry.getName().contains(".sdmx.xml"))
 	        		{
 	        			createXML(is, id, ".sdmx.xml");
-	        			
-	        			// to parse the SDMX file
-	        			//parseSDMX(entry.getName().substring(0,entry.getName().indexOf(".")));
 	        		}
 	        	}
 		}catch(Exception e) {
@@ -110,7 +65,6 @@ public class UnCompressXML {
 		String outFileName = fileType;
 		
 		try {
-			 //System.out.println("id : " + id);
 		     OutputStream out = new FileOutputStream(tmpZipPath + id + outFileName);
 		    
 		     // Transfer bytes from the compressed file to the output file
@@ -183,14 +137,7 @@ public class UnCompressXML {
 			tmpZipPath = outputpath;
 			UnCompressXML obj = new UnCompressXML();
 			obj.parseZipFile(filepath,tmpZipPath);
-//			File dir = new File(filepath);
-//			File[] file = dir.listFiles();
-//			
-//			for(File f:file)
-//				obj.parseZipFile(f.getAbsolutePath(),tmpZipPath);
 		}
-		//old Run Configurations : -i c:/tempZip/bsbu_m.sdmx.zip -o c:/tempZip/
-	
 	}
 	
 }
