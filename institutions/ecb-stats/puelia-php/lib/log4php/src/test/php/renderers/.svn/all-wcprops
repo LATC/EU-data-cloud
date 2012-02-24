@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/renderers
+END
+LoggerRendererDefaultTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/renderers/LoggerRendererDefaultTest.php
+END
+LoggerRendererObjectTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/renderers/LoggerRendererObjectTest.php
+END
+LoggerRendererMapTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/renderers/LoggerRendererMapTest.php
+END
+test4.properties
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/renderers/test4.properties
+END

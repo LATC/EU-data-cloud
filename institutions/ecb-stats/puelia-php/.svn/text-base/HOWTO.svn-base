@@ -1,0 +1,74 @@
+#How to write a Linked Data API Config file
+
+Linked Data API is a piece of software that you configure to map URIs like:
+
+`/spacecrafts`
+
+or
+
+`/launches?max-date=1970-01-01`
+
+to dynamically constructed views of Linked Data from a particular SPARQL endpoint.
+
+This document describes how to configure a Linked Data API.
+
+Create a file in {webserver document root}/api-config-files   
+It should have a **.ttl** extension. 
+
+The configuration is an RDF graph which will be written in [Turtle](http://www.w3.org/TeamSubmission/turtle/)
+
+We start with some basic namespace declarations:
+
+`
+@base <http://example.com/api-config#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix api: <http://purl.org/linked-data/api/vocab#> .
+`
+
+The @base can be set to whatever you want the URI of your config document to be (you can set this in the CONFIG_URL constant in index.php - by default it will be {your domain}/api-config ).
+
+Now we need to write some triples to define how requests to our API are mapped to requests to a SPARQL endpoint, and how the results should be formatted and returned to the client. 
+
+##The structure of an API Config Graph
+
+The basic structure of the API definition is that an API has (possibly) multiple *endpoints* - and endpoint is a URI pattern that the API will respond to. Each endpoint will have a *selector* which will determine  how to select resources from the API's SPARQL endpoint.
+
+So, back to the turtle, we'll define our *API* (Puelia can run multiple APIs at a time, though it is possible for the API definitions to conflict with each other).
+
+`<nasa-api>
+    a api:API ;
+    rdfs:label "NASA data API"@en ;
+    api:endpoint <spacecrafts> ;
+    api:maxPageSize "50" ;
+    api:defaultPageSize "10" ;
+    api:sparqlEndpoint <http://api.talis.com/stores/space/services/sparql>
+    .
+`
+
+Now  we define  the `<spacecrafts>` endpoint:
+    
+`<spacecrafts> 
+    a api:ListEndpoint ;
+    api:uriTemplate "/spacecraft" ;
+    api:selector [
+        api:filter "type=Spacecraft"
+    ] .
+`
+ The URI  template is the request path that the endpoint responds to; ie: if a user requests `/spacecrafts`, this is the endpoint that will return a response.
+ 
+ The `api:selector` is what generates the query that selects items from the endpoint defined by the `api:API`.
+
+The **selector** can either declare a SPARQL query directly, using the `api:select`  property, or use the [property path](http://code.google.com/p/linked-data-api/wiki/property-paths) syntax in the `api:filter` property.
+
+The `api:filter` property path needs to know how to map `type` and `Spacecraft` to URIs  that can be used in the SPARQL query. To do this, we add to the config:
+
+`
+rdf:type api:label "type" .
+space:Spacecraft api:label "Spacecraft" .
+`
+This gives us a functioning API that allows users to page through all the Spacecraft in our dataset, with a choice of HTML, XML, JSON, Turtle, and RDF/XML formats available through file extensions in the URI, and content-negotiation.

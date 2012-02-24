@@ -1,0 +1,66 @@
+@base <http://example.com/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix api: <http://purl.org/linked-data/api/vocab#> .
+@prefix gc: <http://puelia-php.googlecode.com/svn/trunk/documents/config.ttl#> .
+@prefix rel: <http://vocab.org/relationship/> .
+@prefix spec: <http://www.epimorphics.com/examples/specSchools#> .
+@prefix climb: <http://climb.dataincubator.org/vocabs/climb/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<#testAPI> a api:API ;
+	rdfs:label "Made up test Data"@en ;
+	api:maxPageSize "50";
+	api:defaultPageSize "10" ;
+	api:endpoint [
+		a api:ItemEndpoint ;
+		api:uriTemplate "/Things/?uri={uri}" ;
+	    api:itemTemplate "{uri}" 
+		], [
+			a api:ListEndpoint ;
+			api:uriTemplate "/Things" ;
+			api:selector [
+				api:filter "type=Thing" 					
+				] ;
+			api:exampleRequestPath "/Things" 
+			];
+	api:sparqlEndpoint <http://api.talis.com/stores/kwijibo-dev4/services/sparql> ;
+	api:defaultViewer api:describeViewer ;
+	api:viewer <#simpleViewer> ;
+	api:contentNegotiation api:parameterBased ;
+	dcterms:description "An API using test data to test the output of various  shapes of data, including language-tagged literals, rdf:Lists and datatypes."@en-gb ;
+	api:formatter <#testXslt> ;
+	api:defaultFormatter <#testXslt> ;
+	api:variable [
+			rdfs:comment "a variable for use in the xslt stylesheet used be the xslt formatter" ;
+			api:name "foo" ;
+			api:value "bar"
+		] 	
+	 .
+<#simpleViewer> a api:Viewer ; 
+	api:name "simple" ;
+	api:property rdfs:label, dcterms:description , rdf:type , foaf:depiction  .
+
+#inverse Declaration
+foaf:depiction owl:inverseOf foaf:depicts .	
+
+<#testXslt> a api:XsltFormatter ;
+	api:name "sample" ;
+	api:mimeType "text/html" ;
+	api:stylesheet "views/xslt-styles/sample.xsl" .
+	
+owl:Thing a rdfs:Class ;
+	api:label "Thing" .
+	
+rdf:type api:label "type" .
+
+gc:alwaysMultiple a rdf:Property ;
+	api:multiValued "true"^^xsd:boolean .
+
+gc:structuredProp a rdf:Property ;
+	api:structured "true"^^xsd:boolean .

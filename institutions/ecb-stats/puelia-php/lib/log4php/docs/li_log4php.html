@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos  -->
+			<title></title>
+			<link rel="stylesheet" href="media/stylesheet.css" />
+						<script src="media/lib/classTree.js"></script>
+									<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+									<script language="javascript" type="text/javascript">
+				var imgPlus = new Image();
+				var imgMinus = new Image();
+				imgPlus.src = "media/images/plus.png";
+				imgMinus.src = "media/images/minus.png";
+				
+				function showNode(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+							var oImg = document.layers["img" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+							var oImg = document.all["img" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+							var oImg = document.getElementById("img" + Node);
+									break;
+							}
+					oImg.src = imgMinus.src;
+					oTable.style.display = "block";
+				}
+				
+				function hideNode(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+							var oImg = document.layers["img" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+							var oImg = document.all["img" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+							var oImg = document.getElementById("img" + Node);
+									break;
+							}
+					oImg.src = imgPlus.src;
+					oTable.style.display = "none";
+				}
+				
+				function nodeIsVisible(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+									break;
+							}
+					return (oTable && oTable.style.display == "block");
+				}
+				
+				function toggleNodeVisibility(Node){
+					if (nodeIsVisible(Node)){
+						hideNode(Node);
+					}else{
+						showNode(Node);
+					}
+				}
+			</script>
+					</head>
+		<body>
+						<h3 class="package-title">log4php</h3>
+<div class="tree">
+<script language="Javascript">
+if (document.getElementById) {
+			var tree = new WebFXTree('<span class="package">log4php</span>');
+		tree.setBehavior('classic');
+	
+					var todos = new WebFXTreeItem('To-do List', 'todolist.html');
+			tree.add(todos);
+		
+		var class_trees = new WebFXTreeItem('Class trees', 'classtrees_log4php.html');
+		tree.add(class_trees);
+
+		var elements = new WebFXTreeItem('Index of elements', 'elementindex_log4php.html');
+		tree.add(elements);
+
+		var parent_node;
+
+					var tree_tutorial = new WebFXTreeItem('Tutorial(s)/Manual(s)', '');
+			tree.add(tree_tutorial);
+			
+							var tree_inner_tutorial = new WebFXTreeItem('Package-level', '');
+				tree_tutorial.add(tree_inner_tutorial);
+				
+				parent_node = tree_inner_tutorial;
+										var alog4phppkgnode = new WebFXTreeItem('Apache log4php','log4php/tutorial_log4php.pkg.html', parent_node);
+
+
+										
+						
+					
+				    		    			var tree_classe = new WebFXTreeItem('Interface(s)', '');
+    			
+    			    			        			    			        			    			        			    			            				var classe = new WebFXTreeItem('LoggerConfigurator', 'log4php/LoggerConfigurator.html');
+        				tree_classe.add(classe);
+        			    			    			        			    			        			    			        			    			        			    			        			    			        			    			        			    			        			    			        			    			        			    			        			
+    			tree.add(tree_classe);
+    						    		    			var tree_classe = new WebFXTreeItem('Class(es)', '');
+    			
+    			    			            				var classe = new WebFXTreeItem('Logger', 'log4php/Logger.html');
+        				tree_classe.add(classe);
+        			    			    			            				var classe = new WebFXTreeItem('LoggerAppender', 'log4php/LoggerAppender.html');
+        				tree_classe.add(classe);
+        			    			    			            				var classe = new WebFXTreeItem('LoggerAppenderPool', 'log4php/LoggerAppenderPool.html');
+        				tree_classe.add(classe);
+        			    			    			        			    			            				var classe = new WebFXTreeItem('LoggerException', 'log4php/LoggerException.html');
+        				tree_classe.add(classe);
+        			    			    			            				var classe = new WebFXTreeItem('LoggerFilter', 'log4php/LoggerFilter.html');
+        				tree_classe.add(classe);
+        			    			    			            				var classe = new WebFXTreeItem('LoggerHierarchy', 'log4php/LoggerHierarchy.html');
+        				tree_classe.add(classe);
+        			    			    			            				var classe = new WebFXTreeItem('LoggerLayout', 'log4php/LoggerLayout.html');
+        				tree_classe.add(classe);
+        			    			    			            				var classe = new WebFXTreeItem('LoggerLevel', 'log4php/LoggerLevel.html');
+        				tree_classe.add(classe);
+        			    			    			            				var classe = new WebFXTreeItem('LoggerLocationInfo', 'log4php/LoggerLocationInfo.html');
+        				tree_classe.add(classe);
+        			    			    			            				var classe = new WebFXTreeItem('LoggerLoggingEvent', 'log4php/LoggerLoggingEvent.html');
+        				tree_classe.add(classe);
+        			    			    			            				var classe = new WebFXTreeItem('LoggerMDC', 'log4php/LoggerMDC.html');
+        				tree_classe.add(classe);
+        			    			    			            				var classe = new WebFXTreeItem('LoggerNDC', 'log4php/LoggerNDC.html');
+        				tree_classe.add(classe);
+        			    			    			            				var classe = new WebFXTreeItem('LoggerReflectionUtils', 'log4php/LoggerReflectionUtils.html');
+        				tree_classe.add(classe);
+        			    			    			            				var classe = new WebFXTreeItem('LoggerRoot', 'log4php/LoggerRoot.html');
+        				tree_classe.add(classe);
+        			    			    	
+    			tree.add(tree_classe);
+    				
+			
+					var tree_file = new WebFXTreeItem('File(s)', '');
+	
+							var file = new WebFXTreeItem('Logger.php', 'log4php/_Logger.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerAppender.php', 'log4php/_LoggerAppender.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerAppenderAdodb.php', 'log4php/_appenders---LoggerAppenderAdodb.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerAppenderConsole.php', 'log4php/_appenders---LoggerAppenderConsole.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerAppenderDailyFile.php', 'log4php/_appenders---LoggerAppenderDailyFile.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerAppenderEcho.php', 'log4php/_appenders---LoggerAppenderEcho.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerAppenderFile.php', 'log4php/_appenders---LoggerAppenderFile.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerAppenderMail.php', 'log4php/_appenders---LoggerAppenderMail.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerAppenderMailEvent.php', 'log4php/_appenders---LoggerAppenderMailEvent.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerAppenderNull.php', 'log4php/_appenders---LoggerAppenderNull.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerAppenderPDO.php', 'log4php/_appenders---LoggerAppenderPDO.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerAppenderPhp.php', 'log4php/_appenders---LoggerAppenderPhp.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerAppenderPool.php', 'log4php/_LoggerAppenderPool.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerAppenderRollingFile.php', 'log4php/_appenders---LoggerAppenderRollingFile.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerAppenderSocket.php', 'log4php/_appenders---LoggerAppenderSocket.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerAppenderSyslog.php', 'log4php/_appenders---LoggerAppenderSyslog.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerBasicPatternConverter.php', 'log4php/_helpers---LoggerBasicPatternConverter.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerCategoryPatternConverter.php', 'log4php/_helpers---LoggerCategoryPatternConverter.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerClassNamePatternConverter.php', 'log4php/_helpers---LoggerClassNamePatternConverter.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerConfigurator.php', 'log4php/_LoggerConfigurator.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerConfiguratorBasic.php', 'log4php/_configurators---LoggerConfiguratorBasic.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerConfiguratorIni.php', 'log4php/_configurators---LoggerConfiguratorIni.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerConfiguratorPhp.php', 'log4php/_configurators---LoggerConfiguratorPhp.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerConfiguratorXml.php', 'log4php/_configurators---LoggerConfiguratorXml.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerDatePatternConverter.php', 'log4php/_helpers---LoggerDatePatternConverter.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerException.php', 'log4php/_LoggerException.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerFilter.php', 'log4php/_LoggerFilter.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerFilterDenyAll.php', 'log4php/_filters---LoggerFilterDenyAll.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerFilterLevelMatch.php', 'log4php/_filters---LoggerFilterLevelMatch.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerFilterLevelRange.php', 'log4php/_filters---LoggerFilterLevelRange.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerFilterStringMatch.php', 'log4php/_filters---LoggerFilterStringMatch.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerFormattingInfo.php', 'log4php/_helpers---LoggerFormattingInfo.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerHierarchy.php', 'log4php/_LoggerHierarchy.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerLayout.php', 'log4php/_LoggerLayout.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerLayoutHtml.php', 'log4php/_layouts---LoggerLayoutHtml.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerLayoutPattern.php', 'log4php/_layouts---LoggerLayoutPattern.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerLayoutSimple.php', 'log4php/_layouts---LoggerLayoutSimple.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerLayoutTTCC.php', 'log4php/_layouts---LoggerLayoutTTCC.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerLayoutXml.php', 'log4php/_layouts---LoggerLayoutXml.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerLevel.php', 'log4php/_LoggerLevel.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerLiteralPatternConverter.php', 'log4php/_helpers---LoggerLiteralPatternConverter.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerLocationInfo.php', 'log4php/_LoggerLocationInfo.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerLocationPatternConverter.php', 'log4php/_helpers---LoggerLocationPatternConverter.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerLoggingEvent.php', 'log4php/_LoggerLoggingEvent.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerMDC.php', 'log4php/_LoggerMDC.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerMDCPatternConverter.php', 'log4php/_helpers---LoggerMDCPatternConverter.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerNamedPatternConverter.php', 'log4php/_helpers---LoggerNamedPatternConverter.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerNDC.php', 'log4php/_LoggerNDC.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerOptionConverter.php', 'log4php/_helpers---LoggerOptionConverter.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerPatternConverter.php', 'log4php/_helpers---LoggerPatternConverter.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerPatternParser.php', 'log4php/_helpers---LoggerPatternParser.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerReflectionUtils.php', 'log4php/_LoggerReflectionUtils.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerRendererDefault.php', 'log4php/_renderers---LoggerRendererDefault.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerRendererMap.php', 'log4php/_renderers---LoggerRendererMap.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerRendererObject.php', 'log4php/_renderers---LoggerRendererObject.php.html');
+				tree_file.add(file);
+							var file = new WebFXTreeItem('LoggerRoot.php', 'log4php/_LoggerRoot.php.html');
+				tree_file.add(file);
+				
+			tree.add(tree_file);
+		
+							var subpackagetree = new WebFXTreeItem('<span class="sub-package">appenders</span>', '');
+		
+			
+					var subpackagetree_classe = new WebFXTreeItem('Class(es)', '');
+			
+							var classe = new WebFXTreeItem('LoggerAppenderAdodb', 'log4php/appenders/LoggerAppenderAdodb.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerAppenderConsole', 'log4php/appenders/LoggerAppenderConsole.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerAppenderDailyFile', 'log4php/appenders/LoggerAppenderDailyFile.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerAppenderEcho', 'log4php/appenders/LoggerAppenderEcho.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerAppenderFile', 'log4php/appenders/LoggerAppenderFile.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerAppenderMail', 'log4php/appenders/LoggerAppenderMail.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerAppenderMailEvent', 'log4php/appenders/LoggerAppenderMailEvent.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerAppenderNull', 'log4php/appenders/LoggerAppenderNull.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerAppenderPDO', 'log4php/appenders/LoggerAppenderPDO.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerAppenderPhp', 'log4php/appenders/LoggerAppenderPhp.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerAppenderRollingFile', 'log4php/appenders/LoggerAppenderRollingFile.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerAppenderSocket', 'log4php/appenders/LoggerAppenderSocket.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerAppenderSyslog', 'log4php/appenders/LoggerAppenderSyslog.html');
+				subpackagetree_classe.add(classe);
+						
+			subpackagetree.add(subpackagetree_classe);
+		
+				
+			
+	  tree.add(subpackagetree);
+							var subpackagetree = new WebFXTreeItem('<span class="sub-package">helpers</span>', '');
+		
+			
+					var subpackagetree_classe = new WebFXTreeItem('Class(es)', '');
+			
+							var classe = new WebFXTreeItem('LoggerBasicPatternConverter', 'log4php/helpers/LoggerBasicPatternConverter.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerCategoryPatternConverter', 'log4php/helpers/LoggerCategoryPatternConverter.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerClassNamePatternConverter', 'log4php/helpers/LoggerClassNamePatternConverter.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerDatePatternConverter', 'log4php/helpers/LoggerDatePatternConverter.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerFormattingInfo', 'log4php/helpers/LoggerFormattingInfo.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerLiteralPatternConverter', 'log4php/helpers/LoggerLiteralPatternConverter.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerLocationPatternConverter', 'log4php/helpers/LoggerLocationPatternConverter.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerMDCPatternConverter', 'log4php/helpers/LoggerMDCPatternConverter.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerNamedPatternConverter', 'log4php/helpers/LoggerNamedPatternConverter.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerOptionConverter', 'log4php/helpers/LoggerOptionConverter.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerPatternConverter', 'log4php/helpers/LoggerPatternConverter.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerPatternParser', 'log4php/helpers/LoggerPatternParser.html');
+				subpackagetree_classe.add(classe);
+						
+			subpackagetree.add(subpackagetree_classe);
+		
+				
+			
+	  tree.add(subpackagetree);
+							var subpackagetree = new WebFXTreeItem('<span class="sub-package">configurators</span>', '');
+		
+			
+					var subpackagetree_classe = new WebFXTreeItem('Class(es)', '');
+			
+							var classe = new WebFXTreeItem('LoggerConfiguratorBasic', 'log4php/configurators/LoggerConfiguratorBasic.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerConfiguratorIni', 'log4php/configurators/LoggerConfiguratorIni.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerConfiguratorPhp', 'log4php/configurators/LoggerConfiguratorPhp.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerConfiguratorXml', 'log4php/configurators/LoggerConfiguratorXml.html');
+				subpackagetree_classe.add(classe);
+						
+			subpackagetree.add(subpackagetree_classe);
+		
+				
+			
+	  tree.add(subpackagetree);
+							var subpackagetree = new WebFXTreeItem('<span class="sub-package">filters</span>', '');
+		
+			
+					var subpackagetree_classe = new WebFXTreeItem('Class(es)', '');
+			
+							var classe = new WebFXTreeItem('LoggerFilterDenyAll', 'log4php/filters/LoggerFilterDenyAll.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerFilterLevelMatch', 'log4php/filters/LoggerFilterLevelMatch.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerFilterLevelRange', 'log4php/filters/LoggerFilterLevelRange.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerFilterStringMatch', 'log4php/filters/LoggerFilterStringMatch.html');
+				subpackagetree_classe.add(classe);
+						
+			subpackagetree.add(subpackagetree_classe);
+		
+				
+			
+	  tree.add(subpackagetree);
+							var subpackagetree = new WebFXTreeItem('<span class="sub-package">layouts</span>', '');
+		
+			
+					var subpackagetree_classe = new WebFXTreeItem('Class(es)', '');
+			
+							var classe = new WebFXTreeItem('LoggerLayoutHtml', 'log4php/layouts/LoggerLayoutHtml.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerLayoutPattern', 'log4php/layouts/LoggerLayoutPattern.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerLayoutSimple', 'log4php/layouts/LoggerLayoutSimple.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerLayoutTTCC', 'log4php/layouts/LoggerLayoutTTCC.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerLayoutXml', 'log4php/layouts/LoggerLayoutXml.html');
+				subpackagetree_classe.add(classe);
+						
+			subpackagetree.add(subpackagetree_classe);
+		
+				
+			
+	  tree.add(subpackagetree);
+							var subpackagetree = new WebFXTreeItem('<span class="sub-package">renderers</span>', '');
+		
+			
+					var subpackagetree_classe = new WebFXTreeItem('Class(es)', '');
+			
+							var classe = new WebFXTreeItem('LoggerRendererDefault', 'log4php/renderers/LoggerRendererDefault.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerRendererMap', 'log4php/renderers/LoggerRendererMap.html');
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('LoggerRendererObject', 'log4php/renderers/LoggerRendererObject.html');
+				subpackagetree_classe.add(classe);
+						
+			subpackagetree.add(subpackagetree_classe);
+		
+				
+			
+	  tree.add(subpackagetree);
+	
+document.write(tree);
+}
+</script>
+</div>
+<p class="notes">
+	Generated by 
+	<a href="http://www.phpdoc.org" target="_blank">phpDocumentor <span class="field">1.4.3</span></a>
+</p>
+</body>
+</html>

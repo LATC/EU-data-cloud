@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php
+END
+simple.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/simple.php
+END
+layout_ttcc.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/layout_ttcc.php
+END
+appender_echo.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/appender_echo.php
+END
+appender_socket_server.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/appender_socket_server.php
+END
+layout_xml.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/layout_xml.php
+END
+filter_denyall.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/filter_denyall.php
+END
+appender_syslog.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/appender_syslog.php
+END
+appender_pdo.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/appender_pdo.php
+END
+layout_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/layout_html.php
+END
+cache.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/cache.php
+END
+appender_php.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/appender_php.php
+END
+appender_dailyfile.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/appender_dailyfile.php
+END
+configurator_xml.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/configurator_xml.php
+END
+filter_levelmatch.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/filter_levelmatch.php
+END
+filter_levelrange.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/filter_levelrange.php
+END
+appender_file.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/appender_file.php
+END
+appender_mail.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/appender_mail.php
+END
+appender_mailevent.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/appender_mailevent.php
+END
+configurator_basic.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/configurator_basic.php
+END
+mdc.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/mdc.php
+END
+renderer_map.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/renderer_map.php
+END
+ndc.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/ndc.php
+END
+appender_socket.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/appender_socket.php
+END
+configurator_php.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/configurator_php.php
+END
+renderer_default.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/renderer_default.php
+END
+layout_pattern.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/layout_pattern.php
+END
+appender_console.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/appender_console.php
+END
+appender_rollingfile.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/appender_rollingfile.php
+END
+layout_simple.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/layout_simple.php
+END
+filter_stringmatch.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/filter_stringmatch.php
+END
+appender_null.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/examples/php/appender_null.php
+END

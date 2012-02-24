@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/appenders
+END
+LoggerAppenderNullTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/appenders/LoggerAppenderNullTest.php
+END
+LoggerAppenderEchoTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/appenders/LoggerAppenderEchoTest.php
+END
+LoggerAppenderFileTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/appenders/LoggerAppenderFileTest.php
+END
+LoggerAppenderSyslogTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/appenders/LoggerAppenderSyslogTest.php
+END
+LoggerAppenderDailyFileTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/appenders/LoggerAppenderDailyFileTest.php
+END
+LoggerAppenderMailTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/appenders/LoggerAppenderMailTest.php
+END
+LoggerAppenderPDOTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/appenders/LoggerAppenderPDOTest.php
+END
+LoggerAppenderConsoleTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/appenders/LoggerAppenderConsoleTest.php
+END
+LoggerAppenderMailEventTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/appenders/LoggerAppenderMailEventTest.php
+END
+LoggerAppenderRollingFileTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/appenders/LoggerAppenderRollingFileTest.php
+END
+LoggerAppenderPhpTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/appenders/LoggerAppenderPhpTest.php
+END
+LoggerAppenderSocketTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/appenders/LoggerAppenderSocketTest.php
+END

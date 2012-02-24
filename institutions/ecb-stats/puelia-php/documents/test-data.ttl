@@ -1,0 +1,72 @@
+@base <http://example.com/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix api: <http://purl.org/linked-data/api/vocab#> .
+@prefix gc: <http://puelia-php.googlecode.com/svn/trunk/documents/config.ttl#> .
+@prefix rel: <http://vocab.org/relationship/> .
+
+<http://localhost/Things> a api:List ; dcterms:hasPart <http://localhost/Things?_page=1> .
+<http://localhost/Things?_page=1> a api:Page ; 
+	dcterms:isPartOf <http://localhost/Things> ; 
+api:items _:itemsList .
+
+_:itemsList a rdf:List ; rdf:first <#test> ; rdf:rest _:firstList .
+
+
+<#test> a owl:Thing ;
+	gc:foo "Hello World"@en-gb ;
+	gc:bar "true"^^xsd:boolean ;
+	gc:age "43"^^xsd:int ;
+	foaf:birthday "1958-02-12"^^xsd:date ;
+	gc:dateTime "2001-10-26T21:32:52"^^xsd:dateTime ;
+	gc:list _:firstList ;
+		gc:blank [] ;
+		gc:resource <#test-list-b> ;
+		rdfs:label "Label for Test"^^xsd:string ;
+	gc:alwaysMultiple "a" ;
+	gc:sometimesMultiple "a" ,"b"  ;
+	gc:structuredProp "a" ;
+	gc:boolean "true"^^xsd:boolean ;
+	gc:int "43"^^xsd:int ;
+	gc:integer "43"^^xsd:integer ;
+	gc:decimal "2.0"^^xsd:decimal ;
+	gc:float "2.0"^^xsd:float ;
+	gc:byte "105"^^xsd:byte ;
+	gc:long "-9223372036854775808"^^xsd:long ;
+	gc:negativeInteger "-2"^^xsd:negativeInteger ;
+	gc:nonNegativeInteger "12"^^xsd:nonNegativeInteger ;
+	gc:nonPositiveInteger "-4"^^xsd:nonPositiveInteger ;
+	gc:positiveInteger "3"^^xsd:positiveInteger ;
+	gc:short "32767"^^xsd:short ;
+	gc:unsignedLong "43"^^xsd:unsignedLong 	;
+	gc:unsignedInt "43"^^xsd:unsignedInt 	 ;
+    gc:unsignedShort "43"^^xsd:unsignedShort ;	
+	gc:unsignedByte "43"^^xsd:unsignedByte 	  ;	
+	gc:plainLiteral "plain literal" ;
+	gc:langLiteral "bonjour le monde"@fr-fr .
+
+_:firstList	a rdf:List ;
+			rdf:first <#test-list-a> ;
+			rdf:rest _:lastList 
+			.
+					
+_:lastList 	rdf:first <#test-list-b> ;
+	rdf:rest rdf:nil .
+
+<#test-list-a> a owl:Thing ;
+rdfs:label "test item a" .
+
+<#test-list-b> a owl:Thing ;
+rdfs:label "test item b" .
+
+gc:alwaysMultiple a rdf:Property ;
+	api:multiValued "true"^^xsd:boolean .
+
+gc:structuredProp a rdf:Property ;
+	api:structured "true"^^xsd:boolean .
+	

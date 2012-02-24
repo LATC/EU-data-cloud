@@ -1,0 +1,120 @@
+@prefix msg0: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xhtml: <http://www.w3.org/1999/xhtml/vocab#> .
+@prefix opensearch: <http://a9.com/-/spec/opensearch/1.1/> .
+@prefix linked-data: <http://purl.org/linked-data/api/vocab#> .
+
+<http://climb.dataincubator.org/routes/bouldr/102> msg0:type <http://climb.dataincubator.org/vocabs/climb/Route> ;
+                                                   rdfs:label "Urban Culture Dispatj" .
+
+<http://climb.dataincubator.org/routes/bouldr/103> rdfs:label "Perfect Day Direct Start" ;
+                                                   msg0:type <http://climb.dataincubator.org/vocabs/climb/Route> .
+
+<http://api.talis.com/stores/kwijibo-dev3/items/1241867964352#self> msg0:type <http://climb.dataincubator.org/vocabs/climb/Route> ;
+                                                                    rdfs:label "The Crack" .
+
+<http://climb.dataincubator.org/routes/bouldr/104> msg0:type <http://climb.dataincubator.org/vocabs/climb/Route> ;
+                                                   rdfs:label "The Pit Problem" .
+
+<http://climb.dataincubator.org/routes/bouldr/105> rdfs:label "Kaizen" ;
+                                                   msg0:type <http://climb.dataincubator.org/vocabs/climb/Route> .
+
+<http://api.talis.com/stores/kwijibo-dev3/items/1243020264201#self> rdfs:label "Pallbearer" ;
+                                                                    msg0:type <http://climb.dataincubator.org/vocabs/climb/Route> .
+
+<http://api.talis.com/stores/kwijibo-dev3/items/1244246356137#self> msg0:type <http://climb.dataincubator.org/vocabs/climb/Route> ;
+                                                                    rdfs:label "The Crack" .
+
+<http://api.talis.com/stores/kwijibo-dev3/items/1243469696848#self> rdfs:label "Pallbearer" ;
+                                                                    msg0:type <http://climb.dataincubator.org/vocabs/climb/Route> .
+
+<http://climb.dataincubator.org/routes/bouldr/100> msg0:type <http://climb.dataincubator.org/vocabs/climb/Route> ;
+                                                   rdfs:label "Beast of Burden" .
+
+<http://climb.dataincubator.org/routes/bouldr/101> rdfs:label "Tim's Crack" ;
+                                                   msg0:type <http://climb.dataincubator.org/vocabs/climb/Route> .
+
+<http://localhost/Climbing/Routes.ttl> msg0:type <http://purl.org/linked-data/api/vocab#List> ;
+                                       dct:hasPart <http://localhost/Climbing/Routes.ttl?_page=1> ;
+                                       dct:isFormatOf <http://localhost/Climbing/Routes.ttl?_page=1> ;
+                                       dct:format _:format_turtle ;
+                                       rdfs:label "turtle" .
+
+<http://localhost/Climbing/Routes.ttl?_page=1> msg0:type <http://purl.org/linked-data/api/vocab#Page> ;
+                                               dct:isPartOf <http://localhost/Climbing/Routes.ttl> ;
+                                               xhtml:first <http://localhost/Climbing/Routes.ttl?_page=1> ;
+                                               xhtml:next <http://localhost/Climbing/Routes.ttl?_page=2> ;
+                                               opensearch:itemsPerPage "10" ;
+                                               opensearch:startIndex "0" ;
+                                               linked-data:items _:itemsList ;
+                                               linked-data:definition <http://example.com/#routesEndpoint> ;
+                                               dct:hasFormat <http://localhost/Climbing/Routes.json> ,
+                                                             <http://localhost/Climbing/Routes.ttl> ,
+                                                             <http://localhost/Climbing/Routes.rdf> ,
+                                                             <http://localhost/Climbing/Routes.xml> ,
+                                                             <http://localhost/Climbing/Routes.html> ,
+                                                             <http://localhost/Climbing/Routes.xslt> .
+
+_:itemsList msg0:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> ;
+            msg0:first <http://api.talis.com/stores/kwijibo-dev3/items/1241867964352#self> ;
+            msg0:rest _:itemsList1 .
+
+_:itemsList1 msg0:first <http://api.talis.com/stores/kwijibo-dev3/items/1243020264201#self> ;
+             msg0:rest _:itemsList2 .
+
+_:itemsList2 msg0:first <http://api.talis.com/stores/kwijibo-dev3/items/1243469696848#self> ;
+             msg0:rest _:itemsList3 .
+
+_:itemsList3 msg0:first <http://api.talis.com/stores/kwijibo-dev3/items/1244246356137#self> ;
+             msg0:rest _:itemsList4 .
+
+_:itemsList4 msg0:first <http://climb.dataincubator.org/routes/bouldr/100> ;
+             msg0:rest _:itemsList5 .
+
+_:itemsList5 msg0:first <http://climb.dataincubator.org/routes/bouldr/101> ;
+             msg0:rest _:itemsList6 .
+
+_:itemsList6 msg0:first <http://climb.dataincubator.org/routes/bouldr/102> ;
+             msg0:rest _:itemsList7 .
+
+_:itemsList7 msg0:first <http://climb.dataincubator.org/routes/bouldr/103> ;
+             msg0:rest _:itemsList8 .
+
+_:itemsList8 msg0:first <http://climb.dataincubator.org/routes/bouldr/104> ;
+             msg0:rest _:itemsList9 .
+
+_:itemsList9 msg0:first <http://climb.dataincubator.org/routes/bouldr/105> ;
+             msg0:rest <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<http://localhost/Climbing/Routes.json> dct:isFormatOf <http://localhost/Climbing/Routes.ttl?_page=1> ;
+                                        dct:format _:format_json ;
+                                        rdfs:label "json" .
+
+_:format_json rdfs:label "application/json" .
+
+_:format_turtle rdfs:label "text/plain" .
+
+<http://localhost/Climbing/Routes.rdf> dct:isFormatOf <http://localhost/Climbing/Routes.ttl?_page=1> ;
+                                       dct:format _:format_rdf ;
+                                       rdfs:label "rdf" .
+
+_:format_rdf rdfs:label "application/rdf+xml" .
+
+<http://localhost/Climbing/Routes.xml> dct:isFormatOf <http://localhost/Climbing/Routes.ttl?_page=1> ;
+                                       dct:format _:format_xml ;
+                                       rdfs:label "xml" .
+
+_:format_xml rdfs:label "application/xml" .
+
+<http://localhost/Climbing/Routes.html> dct:isFormatOf <http://localhost/Climbing/Routes.ttl?_page=1> ;
+                                        dct:format _:format_html ;
+                                        rdfs:label "html" .
+
+_:format_html rdfs:label "text/html" .
+
+<http://localhost/Climbing/Routes.xslt> dct:isFormatOf <http://localhost/Climbing/Routes.ttl?_page=1> ;
+                                        dct:format _:format_xslt ;
+                                        rdfs:label "xslt" .
+
+_:format_xslt rdfs:label "application/xml" .

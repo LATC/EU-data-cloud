@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/main/php/configurators
+END
+LoggerConfiguratorPhp.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/main/php/configurators/LoggerConfiguratorPhp.php
+END
+LoggerConfiguratorIni.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/main/php/configurators/LoggerConfiguratorIni.php
+END
+LoggerConfiguratorXml.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/main/php/configurators/LoggerConfiguratorXml.php
+END
+LoggerConfiguratorBasic.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/main/php/configurators/LoggerConfiguratorBasic.php
+END

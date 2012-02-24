@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/241/branches/inverse-properties-2011-08-07
+END
+exceptions.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/exceptions.inc.php
+END
+lda-request.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/234/branches/inverse-properties-2011-08-07/lda-request.class.php
+END
+lda-response.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/237/branches/inverse-properties-2011-08-07/lda-response.class.php
+END
+setup.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/setup.php
+END
+sparqlwriter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/229/branches/inverse-properties-2011-08-07/sparqlwriter.class.php
+END
+lda-cache.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lda-cache.class.php
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/236/branches/inverse-properties-2011-08-07/README
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/225/branches/inverse-properties-2011-08-07/index.php
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/build.xml
+END
+lda.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/226/branches/inverse-properties-2011-08-07/lda.inc.php
+END
+puelia.logging.properties
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/220/branches/inverse-properties-2011-08-07/puelia.logging.properties
+END
+HOWTO
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/HOWTO
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/TODO
+END
+deployment.settings.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/228/branches/inverse-properties-2011-08-07/deployment.settings.php
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/.htaccess
+END

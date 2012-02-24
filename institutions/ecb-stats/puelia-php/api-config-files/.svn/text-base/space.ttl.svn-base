@@ -1,0 +1,47 @@
+@base <http://nasa.dataincubator.org/api/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix api: <http://purl.org/linked-data/api/vocab#> .
+@prefix gc: <http://puelia-php.googlecode.com/svn/trunk/documents/config.ttl#> .
+@prefix rel: <http://vocab.org/relationship/> .
+@prefix spec: <http://www.epimorphics.com/examples/specSchools#> .
+@prefix climb: <http://climb.dataincubator.org/vocabs/climb/> .
+@prefix space: <http://purl.org/net/schemas/space/> .
+
+<#SpaceAPI> a api:API ;
+	rdfs:label "Space Data"@en ;
+	api:maxPageSize "50";
+	api:defaultPageSize "10" ;
+	api:endpoint [
+		a api:ItemEndpoint ;
+		api:uriTemplate "/spacecraft/{name}" ;
+	    api:itemTemplate "http://nasa.dataincubator.org/spacecraft/{name}" 
+		], 
+		<#spacecraftEndpoint> ;
+	api:sparqlEndpoint <http://api.talis.com/stores/space/services/sparql> ;
+	api:defaultViewer api:describeViewer ;
+	api:contentNegotiation api:parameterBased .
+
+
+<#spacecraftEndpoint> a api:ListEndpoint ;
+		api:uriTemplate "/spacecraft" ;
+		api:defaultViewer api:describeViewer ;
+		api:selector [
+			api:filter "type=Spacecraft"
+		] .
+
+space:Spacecraft api:label "Spacecraft" ; a rdfs:Class .
+
+rdf:value a rdf:Property ;
+	api:label "value" .
+
+rdfs:label a rdf:Property ;
+	api:label "label" .
+
+rdf:type a rdf:Property ;
+	api:label "type" .

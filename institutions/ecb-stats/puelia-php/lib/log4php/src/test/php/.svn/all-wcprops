@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php
+END
+LoggerReflectionUtilsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/LoggerReflectionUtilsTest.php
+END
+bootstrap.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/bootstrap.php
+END
+LoggerExceptionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/LoggerExceptionTest.php
+END
+LoggerAppenderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/LoggerAppenderTest.php
+END
+LoggerHierarchyTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/LoggerHierarchyTest.php
+END
+LoggerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/LoggerTest.php
+END
+phpunit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/phpunit.xml
+END
+LoggerRootTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/LoggerRootTest.php
+END
+LoggerTest.properties
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/LoggerTest.properties
+END
+LoggerFilterTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/LoggerFilterTest.php
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/README
+END
+LoggerLevelTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/LoggerLevelTest.php
+END
+LoggerLoggingEventTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/LoggerLoggingEventTest.php
+END

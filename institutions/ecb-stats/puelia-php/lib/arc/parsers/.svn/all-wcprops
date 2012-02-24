@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/parsers
+END
+ARC2_LegacyXMLParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/parsers/ARC2_LegacyXMLParser.php
+END
+ARC2_SPARQLPlusParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/parsers/ARC2_SPARQLPlusParser.php
+END
+ARC2_RSSParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/parsers/ARC2_RSSParser.php
+END
+ARC2_SPOGParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/parsers/ARC2_SPOGParser.php
+END
+ARC2_SemHTMLParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/parsers/ARC2_SemHTMLParser.php
+END
+ARC2_JSONParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/parsers/ARC2_JSONParser.php
+END
+ARC2_RDFParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/parsers/ARC2_RDFParser.php
+END
+ARC2_RDFXMLParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/parsers/ARC2_RDFXMLParser.php
+END
+ARC2_CBJSONParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/parsers/ARC2_CBJSONParser.php
+END
+ARC2_TurtleParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/parsers/ARC2_TurtleParser.php
+END
+ARC2_AtomParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/parsers/ARC2_AtomParser.php
+END
+ARC2_SPARQLParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/parsers/ARC2_SPARQLParser.php
+END
+ARC2_SPARQLXMLResultParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/parsers/ARC2_SPARQLXMLResultParser.php
+END
+ARC2_SGAJSONParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/parsers/ARC2_SGAJSONParser.php
+END

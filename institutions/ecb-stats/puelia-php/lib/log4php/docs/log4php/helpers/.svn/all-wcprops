@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/docs/log4php/helpers
+END
+LoggerClassNamePatternConverter.html
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/docs/log4php/helpers/LoggerClassNamePatternConverter.html
+END
+LoggerLocationPatternConverter.html
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/docs/log4php/helpers/LoggerLocationPatternConverter.html
+END
+LoggerOptionConverter.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/docs/log4php/helpers/LoggerOptionConverter.html
+END
+LoggerLiteralPatternConverter.html
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/docs/log4php/helpers/LoggerLiteralPatternConverter.html
+END
+LoggerCategoryPatternConverter.html
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/docs/log4php/helpers/LoggerCategoryPatternConverter.html
+END
+LoggerDatePatternConverter.html
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/docs/log4php/helpers/LoggerDatePatternConverter.html
+END
+LoggerPatternConverter.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/docs/log4php/helpers/LoggerPatternConverter.html
+END
+LoggerFormattingInfo.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/docs/log4php/helpers/LoggerFormattingInfo.html
+END
+LoggerBasicPatternConverter.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/docs/log4php/helpers/LoggerBasicPatternConverter.html
+END
+LoggerMDCPatternConverter.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/docs/log4php/helpers/LoggerMDCPatternConverter.html
+END
+LoggerPatternParser.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/docs/log4php/helpers/LoggerPatternParser.html
+END
+LoggerNamedPatternConverter.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/docs/log4php/helpers/LoggerNamedPatternConverter.html
+END

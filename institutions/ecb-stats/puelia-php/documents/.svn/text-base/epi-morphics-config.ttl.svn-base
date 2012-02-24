@@ -1,0 +1,75 @@
+@prefix api:     <http://www.epimorphics.com/vocabularies/api#> .
+
+<http://www.w3.org/2000/01/rdf-schema#label>
+      api:label "label" .
+
+<http://education.data.gov.uk/def/school/nurseryProvision>
+      a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+      <http://www.w3.org/2000/01/rdf-schema#range>
+              <http://www.w3.org/2001/XMLSchema#boolean> ;
+      api:label "nurseryProvision" .
+
+<http://education.data.gov.uk/def/school/establishmentStatus>
+      api:label "establishmentStatus" .
+
+<http://www.epimorphics.com/examples/specSchools#viewerMedium>
+      a       api:Viewer ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "medium" ;
+      api:properties (<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#label> <http://education.data.gov.uk/def/school/establishmentStatus> <http://education.data.gov.uk/def/school/typeOfEstablishment> <http://education.data.gov.uk/def/school/schoolCapacity> <http://education.data.gov.uk/def/school/phaseOfEducation> <http://education.data.gov.uk/def/school/districtAdministrative> <http://education.data.gov.uk/def/school/parliamentaryConstituency> <http://education.data.gov.uk/def/school/administrativeWard> <http://education.data.gov.uk/def/school/nurseryProvision>) .
+
+<http://education.data.gov.uk/def/school/School>
+      api:label "School" .
+
+<http://education.data.gov.uk/def/school/districtAdministrative>
+      api:label "districtAdministrative" .
+
+<http://education.data.gov.uk/def/school/phaseOfEducation>
+      api:label "phaseOfEducation" .
+
+<http://education.data.gov.uk/def/school/parliamentaryConstituency>
+      api:label "parliamentaryConstituency" .
+
+<http://education.data.gov.uk/def/school/typeOfEstablishment>
+      api:label "typeOfEstablishment" .
+
+<http://www.epimorphics.com/examples/specSchools#schoolsSecondarySelector>
+      a       api:Selector ;
+      api:query "name-phaseOfEducation=Secondary" ;
+      api:type <http://education.data.gov.uk/def/school/School> .
+
+<http://education.data.gov.uk/def/school/administrativeWard>
+      api:label "administrativeWard" .
+
+<http://education.data.gov.uk/def/school/schoolCapacity>
+      a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+      <http://www.w3.org/2000/01/rdf-schema#range>
+              <http://www.w3.org/2001/XMLSchema#int> ;
+      api:label "schoolCapacity" .
+
+<http://www.epimorphics.com/examples/specSchools#schoolsSecondaryDistrict>
+      a       api:ListEndpoint ;
+      api:defaultViewer <http://www.epimorphics.com/examples/specSchools#viewerMedium> ;
+      api:selector
+              [ api:parent <http://www.epimorphics.com/examples/specSchools#schoolsSecondarySelector> ;
+                api:query "name-districtAdministrative=?district"
+              ] ;
+      api:uriTemplate "/doc/schools/secondary/district/{district}" ;
+      <http://xmlns.com/foaf/0.1/primaryTopic>
+              "http://education.data.gov.uk/set/schools" .
+
+<http://epimorph-pubx1.appspot.com/proxy/meta/doc/schools/secondary/district/Oxford?_sort=schoolCapacity&min-schoolCapacity=1200>
+      <http://www.w3.org/2000/01/rdf-schema#comment>
+              "Metadata describing the query and source for endpoint /doc/schools/secondary/district/{district}" ;
+      api:endpoint <http://www.epimorphics.com/examples/specSchools#schoolsSecondaryDistrict> ;
+      api:listURL <http://epimorph-pubx1.appspot.com/proxy/api/doc/schools/secondary/district/Oxford?_sort=schoolCapacity&min-schoolCapacity=1200> ;
+      api:sparqlEndpoint <http://services.data.gov.uk/education/sparql> ;
+      api:sparqlQuery """SELECT ?r WHERE {
+?r <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://education.data.gov.uk/def/school/School> .
+?r <http://education.data.gov.uk/def/school/phaseOfEducation>  ?___0 .
+?___0 <http://www.w3.org/2000/01/rdf-schema#label>  'Secondary' .
+?r <http://education.data.gov.uk/def/school/districtAdministrative>  ?___1 .
+?___1 <http://www.w3.org/2000/01/rdf-schema#label>  'Oxford' .
+?r <http://education.data.gov.uk/def/school/schoolCapacity>  ?___2 .
+?r <http://education.data.gov.uk/def/school/schoolCapacity>  ?___3 .
+ FILTER (?___3 >= '1200'^^<http://www.w3.org/2001/XMLSchema#int>) }  ORDER BY ?___2  OFFSET 0 LIMIT 10""" .

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/site/apt/docs
+END
+performance.apt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/site/apt/docs/performance.apt
+END
+appender-filter.apt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/site/apt/docs/appender-filter.apt
+END
+introduction.apt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/site/apt/docs/introduction.apt
+END
+appenders.apt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/site/apt/docs/appenders.apt
+END
+renderer.apt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/site/apt/docs/renderer.apt
+END
+configuration.apt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/site/apt/docs/configuration.apt
+END
+appender-threshold.apt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/site/apt/docs/appender-threshold.apt
+END
+appender-layout.apt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/site/apt/docs/appender-layout.apt
+END

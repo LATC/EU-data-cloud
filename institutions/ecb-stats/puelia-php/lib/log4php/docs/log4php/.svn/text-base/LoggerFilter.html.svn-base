@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos  -->
+			<title>Docs For Class LoggerFilter</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+						<script src="../media/lib/classTree.js"></script>
+												<script language="javascript" type="text/javascript">
+				var imgPlus = new Image();
+				var imgMinus = new Image();
+				imgPlus.src = "../media/images/plus.png";
+				imgMinus.src = "../media/images/minus.png";
+				
+				function showNode(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+							var oImg = document.layers["img" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+							var oImg = document.all["img" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+							var oImg = document.getElementById("img" + Node);
+									break;
+							}
+					oImg.src = imgMinus.src;
+					oTable.style.display = "block";
+				}
+				
+				function hideNode(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+							var oImg = document.layers["img" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+							var oImg = document.all["img" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+							var oImg = document.getElementById("img" + Node);
+									break;
+							}
+					oImg.src = imgPlus.src;
+					oTable.style.display = "none";
+				}
+				
+				function nodeIsVisible(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+									break;
+							}
+					return (oTable && oTable.style.display == "block");
+				}
+				
+				function toggleNodeVisibility(Node){
+					if (nodeIsVisible(Node)){
+						hideNode(Node);
+					}else{
+						showNode(Node);
+					}
+				}
+			</script>
+					</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class LoggerFilter</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+							<a href="#sec-descendents">Descendents</a>
+			|											<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+											<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+						
+			</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Users should extend this class to implement customized logging</p>
+<p class="description"><p>event filtering. Note that LoggerCategory and <a href="../log4php/LoggerAppender.html">LoggerAppender</a>,  the parent class of all standard  appenders, have built-in filtering rules. It is suggested that you  first use and understand the built-in rules before rushing to write  your own custom filters.</p><p>&lt;p&gt;This abstract class assumes and also imposes that filters be  organized in a linear chain. The #decide method of each filter is called sequentially,  in the order of their addition to the chain.</p><p>&lt;p&gt;The <a href="../log4php/LoggerFilter.html#methoddecide">decide()</a> method must return one  of the integer constants <a href="../log4php/LoggerFilter.html#constDENY">LoggerFilter::DENY</a>,  <a href="../log4php/LoggerFilter.html#constNEUTRAL">LoggerFilter::NEUTRAL</a> or <a href="../log4php/LoggerFilter.html#constACCEPT">LoggerFilter::ACCEPT</a>.</p><p>&lt;p&gt;If the value <a href="../log4php/LoggerFilter.html#constDENY">LoggerFilter::DENY</a> is returned, then the log event is  dropped immediately without consulting with the remaining  filters.</p><p>&lt;p&gt;If the value <a href="../log4php/LoggerFilter.html#constNEUTRAL">LoggerFilter::NEUTRAL</a> is returned, then the next filter  in the chain is consulted. If there are no more filters in the  chain, then the log event is logged. Thus, in the presence of no  filters, the default behaviour is to log all logging events.</p><p>&lt;p&gt;If the value <a href="../log4php/LoggerFilter.html#constACCEPT">LoggerFilter::ACCEPT</a> is returned, then the log  event is logged without consulting the remaining filters.</p><p>&lt;p&gt;The philosophy of log4php filters is largely inspired from the  Linux ipchains.</p></p>
+	<ul class="tags">
+				<li><span class="field">version:</span> $Revision: 822448 $</li>
+				<li><span class="field">abstract:</span> </li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_LoggerFilter.php.html">/LoggerFilter.php</a> (line <span class="field">56</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+	<a name="sec-descendents"></a>
+	<div class="info-box">
+		<div class="info-box-title">Direct descendents</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+			<span class="disabled">Descendents</span>
+			|												<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+								|															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+															<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<table cellpadding="2" cellspacing="0" class="class-table">
+				<tr>
+					<th class="class-table-header">Class</th>
+					<th class="class-table-header">Description</th>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../log4php/filters/LoggerFilterDenyAll.html">LoggerFilterDenyAll</a></td>
+					<td>
+											This filter drops all logging events.
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../log4php/filters/LoggerFilterLevelMatch.html">LoggerFilterLevelMatch</a></td>
+					<td>
+											This is a very simple filter based on level matching.
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../log4php/filters/LoggerFilterLevelRange.html">LoggerFilterLevelRange</a></td>
+					<td>
+											This is a very simple filter based on level matching, which can be used to reject messages with priorities outside a certain range.
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../log4php/filters/LoggerFilterStringMatch.html">LoggerFilterStringMatch</a></td>
+					<td>
+											This is a very simple filter based on string matching.
+										</td>
+				</tr>
+							</table>
+		</div>
+	</div>
+
+	<a name="sec-const-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Class Constant Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendants</a> |
+						<span class="disabled">Constants</span> (<a href="#sec-consts">details</a>)
+												<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<div class="const-summary">
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#ACCEPT" title="details" class="const-name">ACCEPT</a> = 					<span class="var-type"> 1</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#DENY" title="details" class="const-name">DENY</a> = 					<span class="var-type"> -1</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#NEUTRAL" title="details" class="const-name">NEUTRAL</a> = 					<span class="var-type"> 0</span>
+
+				</div>
+							</div>
+		</div>
+	</div>
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+															<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+																								<div class="var-title">
+					<span class="var-type"><a href="../log4php/LoggerFilter.html">LoggerFilter</a></span>
+					<a href="#$next" title="details" class="var-name">$next</a>
+				</div>
+											</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+															<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#activateOptions" title="details" class="method-name">activateOptions</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#addNext" title="details" class="method-name">addNext</a>
+											(<span class="var-type">$filter</span>&nbsp;<span class="var-name">$filter</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">integer</span>
+										<a href="#decide" title="details" class="method-name">decide</a>
+											(<span class="var-type"><a href="../log4php/LoggerLoggingEvent.html">LoggerLoggingEvent</a></span>&nbsp;<span class="var-name">$event</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">the</span>
+										<a href="#getNext" title="details" class="method-name">getNext</a>
+										()
+									</div>
+											</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+												<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="var$next" id="$next"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type"><a href="../log4php/LoggerFilter.html">LoggerFilter</a></span>
+			<span class="var-name">$next</span>
+						(line <span class="line-number">79</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> Points to the next <a href="../log4php/LoggerFilter.html">LoggerFilter</a> in the filter chain.</li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+						
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																			<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+										<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodactivateOptions" id="activateOptions"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">activateOptions</span> (line <span class="line-number">85</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Usually filters options become active when set. We provide a  default do-nothing implementation for convenience.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			activateOptions
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodaddNext" id="addNext"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">addNext</span> (line <span class="line-number">110</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Adds a new filter to the filter chain this filter is a part of.</p>
+<p class="description"><p>If this filter has already and follow up filter, the param filter  is passed on until it is the last filter in chain.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			addNext
+		</span>
+					(<span class="var-type">$filter</span>&nbsp;<span class="var-name">$filter</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$filter</span>
+				<span class="var-name">$filter</span><span class="var-description">: - the filter to add to this chain</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methoddecide" id="decide"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">decide</span> (line <span class="line-number">99</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Decide what to do.</p>
+<p class="description"><p>If the decision is <a href="../log4php/LoggerFilter.html#constDENY">LoggerFilter::DENY</a>, then the event will be  dropped. If the decision is <a href="../log4php/LoggerFilter.html#constNEUTRAL">LoggerFilter::NEUTRAL</a>, then the next  filter, if any, will be invoked. If the decision is <a href="../log4php/LoggerFilter.html#constACCEPT">LoggerFilter::ACCEPT</a> then  the event will be logged without consulting with other filters in  the chain.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> <a href="../log4php/LoggerFilter.html#constNEUTRAL">LoggerFilter::NEUTRAL</a> or <a href="../log4php/LoggerFilter.html#constDENY">LoggerFilter::DENY</a>|<a href="../log4php/LoggerFilter.html#constACCEPT">LoggerFilter::ACCEPT</a></li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">integer</span>
+		<span class="method-name">
+			decide
+		</span>
+					(<span class="var-type"><a href="../log4php/LoggerLoggingEvent.html">LoggerLoggingEvent</a></span>&nbsp;<span class="var-name">$event</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"><a href="../log4php/LoggerLoggingEvent.html">LoggerLoggingEvent</a></span>
+				<span class="var-name">$event</span><span class="var-description">: The <a href="../log4php/LoggerLoggingEvent.html">LoggerLoggingEvent</a> to decide upon.</span>			</li>
+				</ul>
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../log4php/filters/LoggerFilterDenyAll.html#methoddecide">LoggerFilterDenyAll::decide()</a>
+								: Always returns the integer constant <a href="../log4php/LoggerFilter.html#constDENY">LoggerFilter::DENY</a>  regardless of the <a href="../log4php/LoggerLoggingEvent.html">LoggerLoggingEvent</a> parameter.
+							</li>
+					<li>
+				<a href="../log4php/filters/LoggerFilterLevelMatch.html#methoddecide">LoggerFilterLevelMatch::decide()</a>
+								: Return the decision of this filter.
+							</li>
+					<li>
+				<a href="../log4php/filters/LoggerFilterLevelRange.html#methoddecide">LoggerFilterLevelRange::decide()</a>
+								: Return the decision of this filter.
+							</li>
+					<li>
+				<a href="../log4php/filters/LoggerFilterStringMatch.html#methoddecide">LoggerFilterStringMatch::decide()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodgetNext" id="getNext"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getNext</span> (line <span class="line-number">122</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the next filter in this chain</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> next filter</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">the</span>
+		<span class="method-name">
+			getNext
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+	<a name="sec-consts"></a>
+	<div class="info-box">
+		<div class="info-box-title">Class Constants</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendants</a> |
+										<a href="#sec-var-summary">Constants</a> (<span class="disabled">details</span>)
+						
+			
+												<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+														| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="constACCEPT" id="ACCEPT"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">ACCEPT</span>
+			 = <span class="const-default"> 1</span>
+			(line <span class="line-number">62</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">The log event must be logged immediately without consulting with  the remaining filters, if any, in the chain.</p>
+	
+	
+</div>
+<a name="constDENY" id="DENY"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">DENY</span>
+			 = <span class="const-default"> -1</span>
+			(line <span class="line-number">74</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">The log event must be dropped immediately without consulting  with the remaining filters, if any, in the chain.</p>
+	
+	
+</div>
+<a name="constNEUTRAL" id="NEUTRAL"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">NEUTRAL</span>
+			 = <span class="const-default"> 0</span>
+			(line <span class="line-number">68</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">This filter is neutral with respect to the log event. The  remaining filters, if any, should be consulted for a final decision.</p>
+	
+	
+</div>
+						
+		</div>
+	</div>
+
+	<p class="notes" id="credit">
+		Documentation generated on Fri, 27 Nov 2009 07:44:49 +0100 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

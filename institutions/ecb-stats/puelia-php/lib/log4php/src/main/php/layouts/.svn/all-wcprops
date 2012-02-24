@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/main/php/layouts
+END
+LoggerLayoutPattern.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/main/php/layouts/LoggerLayoutPattern.php
+END
+LoggerLayoutTTCC.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/main/php/layouts/LoggerLayoutTTCC.php
+END
+LoggerLayoutXml.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/main/php/layouts/LoggerLayoutXml.php
+END
+LoggerLayoutHtml.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/main/php/layouts/LoggerLayoutHtml.php
+END
+LoggerLayoutSimple.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/main/php/layouts/LoggerLayoutSimple.php
+END

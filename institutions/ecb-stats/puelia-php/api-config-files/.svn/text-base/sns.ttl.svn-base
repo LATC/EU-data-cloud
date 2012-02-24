@@ -1,0 +1,455 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix api: <http://purl.org/linked-data/api/vocab#> .
+@prefix gc: <http://puelia-php.googlecode.com/svn/trunk/documents/config.ttl#> .
+@prefix rel: <http://vocab.org/relationship/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sdmx:    <http://purl.org/linked-data/sdmx#> .
+@prefix sdmx-dim:    <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix qb:      <http://purl.org/linked-data/cube#> .
+@prefix puelia: <http://purl.org/puelia-php/ns#> .
+@prefix sns: <http://sns.linkedscotland.org/def/> .
+@prefix spatial: <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/> .
+@prefix postcode: <http://data.ordnancesurvey.co.uk/ontology/postcode/> .
+@prefix xhtml: <http://www.w3.org/1999/xhtml#> .
+@base <http://sns.linkedscotland.org/> .
+
+<api>
+  a api:API ;
+  rdfs:label "Scottish Neighbourhood Statistics"@en ; 
+#  api:base "http://puelia.local/sns/" ;
+  api:endpoint 
+#      <list_observations> ,
+ #     <list_observations_by_place_and_year> ,
+#      <list_observations_by_postcode> ,
+      <list_qbdatasets> , 
+#      <list_measureproperties> ,
+      <list_slices> ,
+      <list_topics> ,
+#      <list_geographies> ,
+      <list_ageRanges> ,
+      <list_slices_by_geography> ,
+      <list_genders> ,
+      <list_datasets_by_gender>,
+      <list_postcodes> ,
+      <item_gender> ,
+      <item_areaType> ,
+      <item_age> ,
+      <item_slice> ,
+      <item_subslice> ,
+      <item_subsubslice> ,
+      <item_geographic> ,
+      <item_observation> ,
+      <item_topic> ,
+      <item_vocab> ,
+      <item_postcodeunit> ,
+      <item_generic> ,
+      <list_datazoneForPostcode> , 
+      <list_intermediateGeographyForPostcode> ,
+      <list_localAuthorityForPostcode> ;
+
+api:contentNegotiation api:parameterBased ;
+  #api:sparqlEndpoint <http://db.cohodo.net/sparql/b-snskjwa-xn89oeao> ;
+#  api:sparqlEndpoint <http://db.cohodo.net/sparql/b-snskja-8oqgijlm> ;
+  api:sparqlEndpoint <http://sparql.local/sparql> ;
+#  api:sparqlEndpoint <http://sns.linkedscotland.org/sparql> ;
+#  puelia:sparqlEndpointGraph <http://db.cohodo.net/b-snsthurs-0av5u129> ;
+  #api:sparqlEndpoint <http://localhost:3030/dataset/query> ;
+ # api:sparqlEndpoint <http://api.talis.com/stores/kwijibo-dev4/services/sparql> ;
+  api:defaultFormatter <formatter_html> ;
+ # api:vocabulary qb:, dcterms: ;
+  api:defaultPageSize 10 ;
+  api:defaultViewer api:labelledDescribeViewer ;
+  api:viewer api:labelledDescribeViewer ;
+  api:viewer api:basicViewer ;
+  api:viewer api:describeViewer ;
+  api:variable [
+    api:name "base" ;
+    api:value "http://sns.linkedscotland.org" ;
+  ] , 
+  [
+    api:name "postcode_uri" ;
+    api:value "http://data.ordnancesurvey.co.uk/id/postcodeunit/{postcode}" ;
+    api:type rdfs:Resource ;
+  ],
+  [
+    api:name "geography_uri" ;
+    api:value  "{base}/id/geography/{geography}" ;
+    api:type rdfs:Resource ;
+  ]
+ ;
+puelia:javascript </scripts/sns-json-to-table.js> ;
+xhtml:stylesheet </css/sns.css> ;
+puelia:inverseProperty <observationSlice>, <isAgeRangeOf>, sns:sliceOf , sns:hasHighestValueFor , sns:hasLowestValueFor ;
+api:formatter api:RdfJsonFormatter , api:JsonFormatter , <formatter_html> ;
+.
+
+<selector_dataset>
+  a api:Selector ;
+  api:filter "type=DataSet&exists-slice=true" ;
+  api:sort "label" ;
+.
+
+<selector_slice>
+  a api:Selector ;
+  api:filter "type=Slice&exists-subSlice.observation=true" ;
+.
+
+<item_postcodeunit>
+  a api:ItemEndpoint ;
+  api:uriTemplate "/doc/postcode/{postcode}";
+  api:itemTemplate "http://data.ordnancesurvey.org/id/postcodeunit/{postcode}" ;
+  api:variable [ api:name "geography" ; api:value "datazone" ] ;
+  puelia:endpointRelatedToResultItems <list_datazoneForPostcode> , <list_intermediateGeographyForPostcode> ;
+.
+
+<item_age>
+  a api:ItemEndpoint ;
+  api:uriTemplate "/doc/age-range/{ageRange}" ;
+  api:itemTemplate "http://sns.linkedscotland.org/id/age-range/{ageRange}" ;
+  api:defaultViewer <viewer_ageRange_item> ;
+.
+
+<item_gender>
+  a api:ItemEndpoint ;
+  api:uriTemplate "/doc/gender/{gender}" ;
+  api:itemTemplate "http://sns.linkedscotland.org/id/gender/{gender}" ;
+  puelia:endpointRelatedToResultItems <list_datasets_by_gender> ;
+.
+
+<item_generic>
+  a api:ItemEndpoint ;
+  api:uriTemplate "/doc/{type}/{id}" ;
+  api:itemTemplate "http://sns.linkedscotland.org/id/{type}/{id}" ;
+.
+
+<item_vocab>
+  a api:ItemEndpoint ;
+  api:uriTemplate "/def/{localname}/documentation" ;
+  api:itemTemplate "http://sns.linkedscotland.org/def/{localname}" ;
+.
+
+<item_slice>
+  a api:ItemEndpoint ;
+  api:uriTemplate "/doc/slice/{id}" ;
+  api:itemTemplate "http://sns.linkedscotland.org/id/slice/{id}" ;
+  api:viewer <viewer_slice_observations> ;
+.
+
+<item_subslice>
+  a api:ItemEndpoint ;
+  api:uriTemplate "/doc/slice/{id}/{date}" ;
+  api:itemTemplate "http://sns.linkedscotland.org/id/slice/{id}/{date}" ;
+#  api:defaultViewer <viewer_slice> ;
+  api:viewer <viewer_slice_observations> ;
+.
+
+<item_subsubslice>
+  a api:ItemEndpoint ;
+  api:uriTemplate "/doc/slice/{id}/{date}/{areaType}/{areaCode}" ;
+  api:itemTemplate "http://sns.linkedscotland.org/id/slice/{id}/{date}/{areaType}/{areaCode}" ;
+#  api:defaultViewer <viewer_slice> ;
+  api:viewer <viewer_slice_observations> ;
+.
+
+
+
+<item_observation>
+  a api:ItemEndpoint ;
+  api:uriTemplate "/doc/observation/{indicator_code}/date/{date}/area/{area_type}/{area_code}" ;
+  api:itemTemplate "http://sns.linkedscotland.org/id/observation/{indicator_code}/date/{date}/area/{area_type}/{area_code}" ;
+  api:defaultViewer <viewer_observation> ;
+.
+
+<item_areaType>
+  a api:ItemEndpoint  ;
+  api:uriTemplate "/doc/geography/{geography}" ;
+  api:itemTemplate "http://sns.linkedscotland.org/id/geography/{geography}" ;
+  puelia:endpointRelatedToResultItems <list_slices_by_geography> ;
+.
+
+<item_geographic>
+  a api:ItemEndpoint ;
+  api:uriTemplate "/doc/geography/{geography}/{id}" ;
+  api:itemTemplate "http://linkedscotland.org/id/geography/{geography}/{id}" ;
+.
+
+<item_topic>
+  a api:ItemEndpoint ;
+  api:uriTemplate "/doc/topic/{name}" ;
+  api:itemTemplate "http://sns.linkedscotland.org/id/topic/{name}" ;
+.
+
+
+########      #######
+#                   #
+#     Lists         #
+#                   #
+#######         #####
+
+
+<list_postcodes>
+  a api:ListEndpoint ;
+  api:label "Postcodes" ;
+  api:uriTemplate "/doc/postcode" ;
+  api:selector [ api:filter "type=Postcode" ;  api:sort "label"   ] ;
+  puelia:endpointRelatedToResultItems <list_datazoneForPostcode> , <list_intermediateGeographyForPostcode> ,
+                                      <list_localAuthorityForPostcode>;
+  api:defaultViewer <viewer_labels> ;
+.
+
+<list_datazoneForPostcode>
+  a api:ListEndpoint ;
+  api:uriTemplate "/doc/postcode/{postcode}/datazone" ;
+  api:label "Datazone for {postcode}" ;
+  api:selector  [ api:where " ?postcode_uri sns:datazone ?item " ] ;
+  api:defaultViewer <viewer_linksToSlices> ;
+ .
+
+<list_intermediateGeographyForPostcode> a api:ListEndpoint ;
+  api:uriTemplate "/doc/postcode/{postcode}/intermediate-geography" ;
+  api:label "Intermediate Geography for {postcode}" ;
+  api:selector [ api:where " ?postcode_uri sns:intermediateGeography ?item ." ] ;
+  api:defaultViewer <viewer_linksToSlices> ;
+.
+
+<list_localAuthorityForPostcode> a api:ListEndpoint ;
+  api:uriTemplate "/doc/postcode/{postcode}/local-authority" ;
+  api:label "Local Authority for {postcode}" ;
+  api:selector [ api:filter "contains.contains={postcode_uri}" ] ;
+  api:defaultViewer <viewer_linksToSlices> ;
+.
+
+
+
+
+<list_geographies>
+  a api:ListEndpoint ;
+  api:label "Geographies" ;
+  api:uriTemplate "/doc/geography" ;
+  api:selector [ api:filter "type=AreaType"] ;
+  puelia:endpointRelatedToResultItems <list_slices_by_geography> ;
+.
+
+<list_slices_by_geography>
+  a api:ListEndpoint ;
+  api:label "Slices by area type: {geography}" ;
+  api:variable   [
+    api:name "geography_uri" ;
+    api:value  "{base}/id/geography/{geography}" ;
+    api:type rdfs:Resource ;
+  ] ;
+  api:uriTemplate "/doc/geography/{geography}/slices";
+  api:selector [ api:parent <selector_slice> ; api:filter "type=Slice&areaType={geography_uri}" ] ;
+  api:viewer api:basicViewer ;
+  api:defaultViewer api:basicViewer ;
+.
+
+<list_measureproperties>
+  api:label "Indicators" ;
+  a api:ListEndpoint ;
+  api:uriTemplate "/indicators" ;
+  api:selector [ api:filter "type=MeasureProperty" ] ;
+ .
+<list_observations>
+  a api:ListEndpoint ;
+  api:label "Observations" ;
+  api:uriTemplate "/doc/collection/dataset/slice/observation" ;
+  api:selector [ api:filter "type=Observation" ; api:sort "dataset.label,refArea.label" ] ;
+.
+
+<list_observations_by_place_and_year>
+  a api:ListEndpoint ;
+  api:uriTemplate "/observations/area/{scotgovcode}/year/{year}" ;
+  api:selector [
+  api:where """
+?place sns:scottishGovernmentCode ?scotgovcode .
+?slice qb:observation ?item .""" ;
+] ;
+.
+
+<list_observations_by_postcode>
+  a api:ListEndpoint ;
+  api:label "Observations by postcode: {postcode}" ;
+  api:uriTemplate "/observations/postcode/{postcode}" ;
+  api:selector [
+    api:filter "type=Observation&refArea.contains.contains={postcode_uri}"
+  ] ;
+.
+
+<list_ageRanges>
+  a api:ListEndpoint ;
+  api:label "Age" ;
+  api:uriTemplate "/doc/age-range" ;
+  api:selector [ api:filter "type=AgeRange&exists-narrower=true" ; ] ;
+  api:defaultViewer <viewer_ageRange> ;
+.
+
+<list_topics>
+  a api:ListEndpoint ;
+  api:label "Topics" ;
+  api:uriTemplate "/doc/topic" ;
+  api:selector [ api:filter "type=Concept&exists-narrower=true" ;  api:sort "label" ] ;
+  api:viewer  <viewer_topic> ;
+  api:defaultViewer <viewer_labels>;
+  api:defaultPageSize 20;
+ .
+
+<list_genders>
+  a api:ListEndpoint ;
+  api:label "Gender" ;
+  api:uriTemplate "/doc/gender" ;
+  api:selector [ api:filter "type=Gender" ] ;
+  puelia:endpointRelatedToResultItems <list_datasets_by_gender> ;
+.
+
+<list_datasets_by_gender>
+  a api:ListEndpoint ;
+  api:variable [
+    api:name "gender_uri" ;
+    api:type rdfs:Resource ;
+    api:value "{base}/id/gender/{gender}"
+  ] ;
+  api:label "Datasets by gender: {gender}" ;
+  api:uriTemplate "/doc/gender/{gender}/datasets" ;
+  api:selector [ api:parent <selector_dataset> ; api:filter "gender={gender_uri}" ] ;
+
+.
+
+
+<list_qbdatasets>
+  a api:ListEndpoint ;
+  api:label "Datasets";
+  api:uriTemplate "/doc/dataset" ;
+  api:selector <selector_dataset> ;
+  api:defaultViewer api:basicViewer ;
+ .
+
+<list_slices>
+  a api:ListEndpoint ;
+  api:uriTemplate "/doc/slice" ;
+  api:label "Dataset Slices" ;
+  dcterms:description "Slices of Datasets, sliced by area type"@en-gb;
+  api:selector <selector_slice> ;
+  api:viewer <viewer_sliceConcise> ;
+  api:defaultViewer api:basicViewer ;
+.
+
+<viewer_labels>
+  api:name "only-labels" ;
+  api:properties "label" ;
+.
+
+<viewer_stat> a api:Viewer ;
+  api:name "stat" ;
+  api:properties "*,refArea.label,refPeriod.label,dataset.measureProperty.*,dataset.isPartOf.hasPart.*" ;
+.
+
+<viewer_topic> a api:Viewer ;
+  api:name "topic" ;
+  api:properties "label,narrower.label,broader.label" ;
+.
+
+<viewer_sliceConcise> a api:Viewer ;
+  api:name "slice" ;
+  api:properties "sliceOf.label,label,numberOfObservations,isPartOf.label,subSlice.numberOfObservations,subSlice.label" ;
+.
+
+<viewer_ageRange> a api:Viewer ;
+  api:name "age-range-list" ;
+  api:properties "label,isAgeRangeOf.label" ;
+.
+
+<viewer_ageRange_item> a api:Viewer;
+  api:name "age-range" ;
+  api:properties "*.label" ;
+  api:include <viewer_ageRange> ;
+.
+
+
+<viewer_observation>
+  api:name "observation" ;
+  api:properties "*.label,observationSlice.refPeriod.label" ;
+  puelia:inverseProperty <observationSlice> .
+
+<viewer_linksToSlices>
+  api:name "slice-links" ;
+  api:properties "*.label,hasHighestValueFor.label,hasLowestValueFor.label" ;
+.
+
+<viewer_slice_observations> a api:Viewer ;
+  api:name "slice-observations"; 
+  api:properties "observation.*,observation.refArea.label,observation.dataset.measure.label" ;
+.
+
+
+# Formatters
+
+<formatter_html> a api:XsltFormatter ;
+  rdfs:label "HTML" ;
+  api:name "html" ;
+  api:stylesheet "views/xslt-styles/result.xsl" ;
+  api:mimeType "text/html" , "application/xhtml+xml";
+.
+
+api:RdfJsonFormatter api:mimeType "application/json" ;
+api:name "json" ;
+.
+
+api:JsonFormatter api:mimeType "nothing";.
+
+qb:MeasureProperty api:label "MeasureProperty" .
+qb:DataSet api:label "DataSet" .
+
+skos:Concept api:label "Concept" .
+skos:isTopConceptOf api:label "isTopConceptOf" .
+skos:narrower api:label "narrower" .
+skos:broader api:label "broader" .
+
+dcterms:isPartOf api:label "isPartOf" .
+dcterms:hasPart api:label "hasPart" .
+dcterms:Collection api:label "Collection" .
+dcterms:temporal api:label "temporal" .
+
+sdmx-dim:refArea api:label "refArea" .
+sdmx-dim:refPeriod api:label "refPeriod" .
+qb:dataset api:label "dataset" .
+rdf:type api:label "type" .
+dcterms:subject api:label "subject" .
+sns:indicatorCode api:label "indicatorCode" .
+sns:numberOfObservations api:label "numberOfObservations" .
+sns:measureProperty api:label "measureProperty" .
+sns:AgeRange api:label "AgeRange" .
+sns:Gender api:label "Gender" .
+sns:gender api:label "gender" .
+sns:AreaType api:label "AreaType" .
+sns:areaType api:label "areaType" .
+
+qb:measure api:label "measure" .
+qb:slice api:label "slice" .
+qb:Slice api:label "Slice" .
+qb:subSlice api:label "subSlice" .
+qb:dimension api:label "dimension" .
+qb:Observation api:label "Observation" .
+qb:observation api:label "observation" .
+
+spatial:contains api:label "contains" .
+spatial:within api:label "within" .
+postcode:PostcodeUnit api:label "Postcode" .
+
+owl:sameAs api:label "sameAs" .
+
+sns:sliceOf owl:inverseOf qb:slice ; api:label "sliceOf" .
+<observationSlice> owl:inverseOf qb:observation ; api:label "observationSlice" .
+<isAgeRangeOf> owl:inverseOf sns:ageRange ; api:label "isAgeRangeOf" .
+sns:hasLowestValueFor owl:inverseOf sns:areaWithLowestValue ; api:label "hasLowestValueFor" .
+sns:hasHighestValueFor owl:inverseOf sns:areaWithHighestValue ; api:label "hasHighestValueFor" .
+sns:measure api:label "measure" .
+
+
+

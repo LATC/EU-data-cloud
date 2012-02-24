@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/config
+END
+phpunit_to_surefire.xslt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/config/phpunit_to_surefire.xslt
+END
