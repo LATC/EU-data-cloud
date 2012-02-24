@@ -5,12 +5,12 @@ import java.util.List;
 import java.util.StringTokenizer;
 public class Line {
 
-	List<String> _dim1 = new ArrayList();
+	List<String> _dim1 = new ArrayList<String>();
 	List<String> _cols;
 
 	public Line(String line)
 	{
-		List cols = new ArrayList();
+		List<String> cols = new ArrayList<String>();
 	
 		StringTokenizer st = new StringTokenizer(line, "\t");
 		while (st.hasMoreTokens()) {

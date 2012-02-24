@@ -32,7 +32,6 @@ import org.xml.sax.SAXException;
  */
 public class ParseToC {
 
-	//private static String xmlFileURL = "E:/EU Projects/EuroStat/ToC/table_of_contents.xml";
 	private Document xmlDocument;
 	public ArrayList<String> lstDatasetURLs = new ArrayList<String>();
 	public HashMap<String, HashMap<String,String>> toc = new HashMap<String, HashMap<String,String>>(); 
@@ -85,7 +84,6 @@ public class ParseToC {
 				Element ele = (Element)nl.item(i);
 				if(ele.getAttribute("type").equals("dataset") || ele.getAttribute("type").equals("table"))
 				{
-					//getObservations(ele);
 					getDatasetURLs(ele);
 				}
 			}
@@ -109,28 +107,16 @@ public class ParseToC {
 	// This piece of code will parse the compressed file URLs sequentially.
 	public void parseXMLFiles(String downLoadPath)
 	{
-		int count = 0;
-		
 		for(String str:lstDatasetURLs)
 		{
-//			if(++count == 10)
-//				break;
-			
-			//System.out.println("UnCompressing :" + str);
 			obj.parseZipFile(str, downLoadPath);
 		}
 	}
 
 	public void downloadXMLFiles(String tempZipPath, String tempTsvPath)
 	{
-		int count = 0;
-		
 		for(String str:lstDatasetURLs)
 		{
-//			if(count++ == 50)
-//				break;
-			
-			//System.out.println("UnCompressing :" + str);
 			zip.zipURL(str, tempZipPath, tempTsvPath);
 		}
 	}
@@ -138,7 +124,6 @@ public class ParseToC {
 	// get the URLs of datasets having SDMX format
 	public void getDatasetURLs(Element element)
 	{
-		
 		NodeList nl = element.getElementsByTagName("nt:downloadLink");
 		if(nl != null && nl.getLength() > 0)
 		{
@@ -191,44 +176,11 @@ public class ParseToC {
 			{
 				Element ele = (Element)nl.item(i);
 				hsh.put(ele.getAttribute("language"), ele.getTextContent());
-				//System.out.println(code + " -- " + ele.getAttribute("language") + " -- " + ele.getTextContent());
 			}
 		}
 
 		toc.put(code, hsh);
 	}
-	
-//	// get the total number of observations which exists in the datasets
-//	public void getObservations(Element element)
-//	{
-//		String code = getTextValue(element, "nt:code");
-//		
-//		if(!lstDatasets.contains(code))
-//		{
-//			lstDatasets.add(code);
-//			if(!(getTextValue(element, "nt:values").equals("")))
-//				sumObeservation += Integer.parseInt(getTextValue(element, "nt:values"));
-//		}
-//		else
-//			lstDuplicateDatasets.add(code);	
-//		
-//	}
-//
-//	private String getTextValue(Element ele, String tagName) {
-//		String textVal = "";
-//		NodeList nl = ele.getElementsByTagName(tagName);
-//		
-//		if(nl != null && nl.getLength() > 0) {
-//			Element el = (Element)nl.item(0);
-//			if(el.getFirstChild() != null)
-//				textVal = el.getFirstChild().getNodeValue();
-//			else
-//				textVal = "";
-//		}
-//		
-//		
-//		return textVal;
-//	}
 	
 	private static void usage()
 	{
@@ -250,7 +202,6 @@ public class ParseToC {
 		InputStream is = get_ToC_XMLStream();
 		initObjects(is);
 		parseDataSets();
-		//parseXMLFiles(downLoadPath);
 	}
 
 	public void getDatasetTitles()
@@ -258,7 +209,6 @@ public class ParseToC {
 		InputStream is = get_ToC_XMLStream();
 		initObjects(is);
 		extractDatasetTitles();
-		//parseXMLFiles(downLoadPath);
 	}
 
 	public void downloadZip(String tempZipPath, String tempTsvPath)
@@ -267,7 +217,6 @@ public class ParseToC {
 		initObjects(is);
 		parseDataSets();
 		downloadXMLFiles(tempZipPath, tempTsvPath);
-		
 	}
 	
 	public static void main(String[] args) throws Exception
@@ -290,7 +239,6 @@ public class ParseToC {
 			printDatasets = Integer.parseInt(commandLine.getOptionValue('n'));
 		
 		obj.parseToC();
-		//obj.getDatasetTitles();
 	}
 	
 }

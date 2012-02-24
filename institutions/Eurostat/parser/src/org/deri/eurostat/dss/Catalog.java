@@ -19,6 +19,7 @@ import com.hp.hpl.jena.rdf.model.Resource;
  * @author Aftab Iqbal
  *
  */
+
 public class Catalog {
 
 	private static String outputFilePath = "";
@@ -96,8 +97,6 @@ public class Catalog {
 
 		try
 	   	{
-			
-			//System.out.println(outputFilePath + fileName + fileExt);
 			OutputStream output = new FileOutputStream(outputFilePath + fileName + fileExt,false);
 			model.write(output,serialization.toUpperCase());
 			

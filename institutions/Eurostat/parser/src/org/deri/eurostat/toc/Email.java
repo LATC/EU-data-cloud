@@ -9,6 +9,12 @@ import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
+/**
+ * 
+ * @author Aftab Iqbal
+ *
+ */
+
 public class Email {
 
 	static String host = "smtp.gmail.com";

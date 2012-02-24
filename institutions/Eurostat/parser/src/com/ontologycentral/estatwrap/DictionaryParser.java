@@ -79,22 +79,11 @@ public class DictionaryParser {
 				StringReader sr = null;
 
 				URL url = new URL("http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?file=dic/" + lang + "/" + id);
-				//URL url = new URL("http://europa.eu/estatref/download/everybody/dic/en/" + id + ".dic");
-
 				System.out.println("RDFizing : " + url);
-
-//				if (cache.containsKey(url)) {
-//					sr = new StringReader((String)cache.get(url));
-//				}
 
 				if (sr == null) {
 					HttpURLConnection conn = (HttpURLConnection)url.openConnection();
 					InputStream is = conn.getInputStream();
-
-//					if (conn.getResponseCode() != 200) {
-//						resp.sendError(conn.getResponseCode());
-//						return;
-//					}
 
 					String encoding = conn.getContentEncoding();
 					if (encoding == null) {
@@ -114,29 +103,17 @@ public class DictionaryParser {
 					String str = sb.toString();
 					sr = new StringReader(str);
 
-//					try {
-//						cache.put(url, str);
-//					} catch (RuntimeException e) {
-//						_log.info(e.getMessage());
-//					}
 				}
 
 				rli.add(sr);
 			}
 			
-//			resp.setHeader("Cache-Control", "public");
-//			Calendar c = Calendar.getInstance();
-//			c.add(Calendar.DATE, 1);
-//			resp.setHeader("Expires", Listener.RFC822.format(c.getTime()));
-
 			DictionaryPage.convert(ch, id, rli, LANG);
 		} catch (XMLStreamException e) {
 			e.printStackTrace();
-			//resp.sendError(500, e.getMessage());
 			return;
 		} catch (IOException e) {
 			e.printStackTrace();
-			//resp.sendError(500, e.getMessage());
 			return;
 		} finally {
 			if (ch != null) {
@@ -230,8 +207,6 @@ public class DictionaryParser {
 
 		try
 	   	{
-			
-			//System.out.println(outputFilePath + fileName + fileExt);
 			OutputStream output = new FileOutputStream(catalogPath + fileName + fileExt,false);
 			model.write(output,serialization.toUpperCase());
 			

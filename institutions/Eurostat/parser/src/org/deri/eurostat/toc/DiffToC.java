@@ -77,7 +77,6 @@ public class DiffToC {
 		logger.setLevel(Level.INFO);
 		txtFile = new FileHandler("Logging.txt",true);
 		
-
 		// Create txt Formatter
 		formatterTxt = new SimpleFormatter();
 		txtFile.setFormatter(formatterTxt);
@@ -95,19 +94,12 @@ public class DiffToC {
 		theLogger.info(msg);
 	}
 	
-	public void runComparison(String inputFilePath, String outputFilePath, String logFilePath, String tempZipPath, String tempTsvPath, String tempDataPath, String dsdPath, String dataPath, String dataLogPath, String originalDataPath, String rawDataPath, String originalTsvPath)
+	public void runComparison(String inputFilePath, String outputFilePath, String logFilePath, String tempZipPath, String tempTsvPath, String tempDataPath, String dsdPath, String dataPath, String dataLogPath, String originalDataPath, String rawDataPath, String originalTsvPath, String sdmxTTLFile)
 	{
 		logger();
 		
 		read_New_TOC();
 		readTOC(inputFilePath);
-		
-		// for testing
-		//readTOC_1(inputFilePath + "table_of_contents_1.xml");
-		//readTOC(inputFilePath + "table_of_contents.xml");
-		
-		//System.out.println(hshMap_New.size());
-		//System.out.println(hshMap_Old.size());
 		
 		for (Map.Entry<String, String> entry : hshMap_New.entrySet())
 		{
@@ -122,7 +114,6 @@ public class DiffToC {
 			{
 				if(!isGreater(oldDate,newDate) && !oldDate.equals(newDate))
 					dsUpdates.add("[" + hshMap_Titles.get(code) + "] [" + hshMap_URLs.get(code) + "]");
-					//arrDatasets.add(code + " # " + oldDate + " # " + newDate + " # " + hshMap_Titles.get(code) + " # " + hshMap_URLs.get(code));
 			}
 		}
 		
@@ -157,7 +148,7 @@ public class DiffToC {
 		unCompressZipFiles(tempZipPath, tempDataPath);
 		
 		// rdfize the newly downloaded files
-		rdfize(dsdPath,dataPath, tempDataPath, dataLogPath, tempTsvPath);
+		rdfize(dsdPath,dataPath, tempDataPath, dataLogPath, tempTsvPath, sdmxTTLFile);
 		
 		// move the newly downloaded zip, tsv and uncompressed files to their respective directories
 		moveFiles(tempZipPath, tempDataPath, originalDataPath, rawDataPath, tempTsvPath, originalTsvPath);
@@ -225,7 +216,7 @@ public class DiffToC {
 		
 	}
 	
-	public void rdfize(String dsdPath, String dataPath, String tempDataPath, String dataLogPath, String tempTsvPath)
+	public void rdfize(String dsdPath, String dataPath, String tempDataPath, String dataLogPath, String tempTsvPath, String sdmxTTLFile)
 	{
 		writeLog("RDFizing updated datasets...");
 
@@ -246,11 +237,11 @@ public class DiffToC {
 				dsd.xmlFilePath = f.getAbsolutePath();
 				dsd.outputFilePath = dsdPath;
 				dsd.serialization = "turtle";
+				dsd.sdmx_codeFilePath = sdmxTTLFile;
 				dsd.initObjects();
 				dsd.parseFile();
 			}
 			else if(f.getName().contains(".sdmx.xml"))
-			//else if(f.getName().contains(".sdmx.xml") && !f.getName().contains("bop_q_c") && !f.getName().contains("gov_a_exp") && !f.getName().contains("lfsq_egana2d") && !f.getName().contains("nasa_f_bs") && !f.getName().contains("nasa_f_tr") && !f.getName().contains("sts_inppdgr_m") && !f.getName().contains("nasa_f_of") && !f.getName().contains("sts_inppndgr_m") && !f.getName().contains("sts_innond_m") && !f.getName().contains("sts_inppgr_m") && !f.getName().contains("sts_"))
 			{
 				writeLog("Processing :" + f.getAbsolutePath());
 				
@@ -272,16 +263,13 @@ public class DiffToC {
 	public void downloadZipFiles(String tempZipPath, String tempTsvPath)
 	{
 		writeLog("Downloading compressed files.");
-		//String[] arr;
 		DownloadZip obj = new DownloadZip();
 		if(dsUpdates.size() > 0 )
 		{
 			for(String str:dsUpdates)
 			{
-				//arr = str.split("] [");
 				if(str.contains("http://"))
 					obj.zipURL(str.substring(str.lastIndexOf("[")+1,str.lastIndexOf("]")),tempZipPath, tempTsvPath);
-				
 			}
 		}
 		
@@ -289,10 +277,8 @@ public class DiffToC {
 		{
 			for(String str:newDatasets)
 			{
-				//arr = str.split("] [");
 				if(str.contains("http://"))
 					obj.zipURL(str.substring(str.lastIndexOf("[")+1,str.lastIndexOf("]")),tempZipPath, tempTsvPath);
-				
 			}
 		}
 	}
@@ -492,6 +478,7 @@ public class DiffToC {
 			writeLog("Error while downloading the table_of_contents.xml");
 		}
 	}
+	
 	/**
 	 * Load the last TableOfContents.xml from the directory.
 	 * @param filePath
@@ -556,7 +543,6 @@ public class DiffToC {
 	{
 		DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 		Date date = new Date();
-		//addtoEmailBody("Please Ignore this email. It is sent for testing purposes");
 		addtoEmailBody("");
 		addtoEmailBody("Script was run at : " + dateFormat.format(date));
 		addtoEmailBody("");
@@ -660,6 +646,8 @@ public class DiffToC {
 		System.out.println("	-p original data path	Path where zip files will be stored.");
 		System.out.println("	-b original tsv path	Path where tsv files will be stored.");
 		System.out.println("	-r raw data path	Path where the uncompressed files will be stored.");
+		System.out.println("	-a sdmx ttl file	Path where the sdmx ttl is located.");
+		
 	}
 	
 	public static void main(String[] args) throws Exception
@@ -676,6 +664,7 @@ public class DiffToC {
 		String rawDataPath = "";
 		String tempTsvPath = "";
 		String originalTSVPath = "";
+		String sdmxTTLFile = "";
 		
 		CommandLineParser parser = new BasicParser( );
 		Options options = new Options( );
@@ -692,6 +681,7 @@ public class DiffToC {
 		options.addOption("p", "original data path", true, "Path where zip files will be stored.");
 		options.addOption("b", "original tsv path", true, "Path where tsv files will be stored.");
 		options.addOption("r", "raw data path", true, "Path where the uncompressed files will be stored.");
+		options.addOption("a", "sdmx ttl file", true, "Path where the sdmx ttl is located.");
 		CommandLine commandLine = parser.parse( options, args );
 		
 		if( commandLine.hasOption('h') ) {
@@ -699,6 +689,9 @@ public class DiffToC {
 		    return;
 		 }
 
+		if(commandLine.hasOption('a'))
+			sdmxTTLFile = commandLine.getOptionValue('a');
+		
 		if(commandLine.hasOption('i'))
 			inputFilePath = commandLine.getOptionValue('i');
 		
@@ -735,7 +728,7 @@ public class DiffToC {
 		if(commandLine.hasOption('v'))
 			tempTsvPath = commandLine.getOptionValue('v');
 		
-		if(tempTsvPath.equals("") || originalTSVPath.equals("") || inputFilePath.equals("") || outputFilePath.equals("") || logFilePath.equals("") || tempZipPath.equals("") || tempDataPath.equals("") || dsdPath.equals("") || dataPath.equals("") || dataLogPath.equals("") || originalDataPath.equals("") || rawDataPath.equals(""))
+		if(tempTsvPath.equals("") || originalTSVPath.equals("") || inputFilePath.equals("") || outputFilePath.equals("") || logFilePath.equals("") || tempZipPath.equals("") || tempDataPath.equals("") || dsdPath.equals("") || dataPath.equals("") || dataLogPath.equals("") || originalDataPath.equals("") || rawDataPath.equals("") || sdmxTTLFile.equals(""))
 		{
 			usage();
 			return;
@@ -743,7 +736,7 @@ public class DiffToC {
 		else
 		{
 			DiffToC obj = new DiffToC();
-			obj.runComparison(inputFilePath,outputFilePath,logFilePath, tempZipPath, tempTsvPath, tempDataPath, dsdPath, dataPath, dataLogPath, originalDataPath, rawDataPath, originalTSVPath);
+			obj.runComparison(inputFilePath,outputFilePath,logFilePath, tempZipPath, tempTsvPath, tempDataPath, dsdPath, dataPath, dataLogPath, originalDataPath, rawDataPath, originalTSVPath, sdmxTTLFile);
 		}
 		
 	}

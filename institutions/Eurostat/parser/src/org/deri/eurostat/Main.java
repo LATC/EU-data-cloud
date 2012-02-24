@@ -2,14 +2,17 @@ package org.deri.eurostat;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
-
 import org.apache.commons.cli.BasicParser;
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.Options;
-import org.deri.eurostat.toc.ParseToC;
-
 import com.ontologycentral.estatwrap.SDMXParser;
+
+/**
+ * 
+ * @author Aftab Iqbal
+ *
+ */
 
 public class Main {
 
@@ -21,13 +24,7 @@ public class Main {
 	
 	public static void main(String[] args) throws Exception
 	{
-//		dsdDirPath = args[0];
-//		sdmxDirPath = args[1];
-//		
-//		ParseToC obj = new ParseToC();
-//		obj.RDFize(zipDirPath);
 		
-		String fileName = "";
 		String sdmxFilePath = "";
 		String logFilePath = "";
 		CommandLineParser parser = new BasicParser( );
@@ -37,8 +34,6 @@ public class Main {
 		options.addOption("l", "log file path", true, "File path where the logs will be generated");
 		
 		CommandLine commandLine = parser.parse( options, args );
-		
-		
 		
 		if(commandLine.hasOption('i'))
 			sdmxFilePath = commandLine.getOptionValue('i');
@@ -97,7 +92,7 @@ public class Main {
 			write.newLine();
 			write.write(line);
 		}
-		catch (Exception e){//Catch exception if any
+		catch (Exception e){
 			System.err.println("Error while writing data to file : " + e.getMessage());
 		}
 	}	 
