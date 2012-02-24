@@ -115,15 +115,15 @@ function csv_row_to_rdf($row){
   $dimensionValueCodes = array_slice($key_components, 2);
 
   $datasetUri = NS.'dataset/'.$threeDigit.'.'.$datasetCode;
-  $datasetUris[$datasetUri]= true;
+  $datasetUris[$datasetUri]= $series_key;
 
   $series = $rdf->thing_from_identifier(NS.'series/', $series_key)->a('qb:Slice')
     ->label($title, 'en')
     ->has('foaf:page')->r('http://sdw.ecb.europa.eu/quickview.do?SERIES_KEY='.$series_key)
     ->is('qb:slice')->of($datasetUri);
 
-  if($topicUri = breadcrumb_to_rdf($breadcrumb_trail)){
-    $series->has('dct:subject')->r($topicUri);
+  if($topicUris = breadcrumb_to_rdf($breadcrumb_trail)){
+    foreach($topicUris as $topicUri) $series->has('dct:subject')->r($topicUri);
   }
 
   if($dateUri = Utils::dateToURI($fromDate.'-'.$toDate)){
@@ -148,12 +148,7 @@ function csv_row_to_rdf($row){
       if($concept_id=='REF_AREA') $prop = 'sdmxdim:refArea';
       if($concept_id=='FREQ') $prop = 'sdmxdim:freq';
       $ns = NS.'codes/'.str_replace('cl_','',strtolower($cl_id));
- 
- /*     $Thing = $rdf->thing_from_identifier($ns.'/', $code)
-            ->label($code_value, 'en')
-            ->a('skos:Concept')
-            ->has('skos:inScheme')->r($ns);
-  */
+
       $series->has($prop)->r($ns.'/' . $code);
   }
 
@@ -165,16 +160,18 @@ function breadcrumb_to_rdf($breadcrumb){
   $topics = explode('/', $breadcrumb);
   array_shift($topics);
   $lastTopic=false;
+  $uris=array();
   while($topic = array_shift($topics)){
     $label = ucwords(str_replace('-',' ', $topic));
     $topicUri = NS.'concepts/'.$topic;
+    $uris[]=$topicUri;
     $Topic = $conceptRdf->thing($topicUri)
       ->a('skos:Concept')
       ->label($label, 'en')
-      ->has('skos:inScheme')->r(NS.'concepts');
+      ->has('skos:inScheme')->r(NS.'conceptscheme/ecb');
 
     if(!$lastTopic){
-      $Topic->has('skos:topConceptOf')->r(NS.'concepts')
+      $Topic->has('skos:topConceptOf')->r(NS.'conceptscheme/ecb')
         ->object()
           ->a('skos:ConceptScheme')
           ->label('European Central Bank Concepts', 'en')
@@ -186,7 +183,7 @@ function breadcrumb_to_rdf($breadcrumb){
     }
     $lastTopic = $topicUri;
   }
-  return $lastTopic;
+  return $uris;
 }
 
 
@@ -208,6 +205,7 @@ foreach($datasetUris as $uri => $v){
   echo $rdf->dump_ntriples();
 }
 
+file_put_contents('datasets_with_sample_series.json', json_encode($datasetUris));
 echo $dateRdf->dump_ntriples();
 
 ?>

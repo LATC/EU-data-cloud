@@ -1,0 +1,39 @@
+<http://ecb.publicdata.eu/dataset/122.ICP> <http://www.w3.org/2000/01/rdf-schema#label> "Indices of Consumer Prices"@en .
+<http://ecb.publicdata.eu/dataset/129.RPP> <http://www.w3.org/2000/01/rdf-schema#label> "Residential Property Price Index Statistics"@en .
+<http://ecb.publicdata.eu/dataset/119.ESA> <http://www.w3.org/2000/01/rdf-schema#label> "ESA95 National Accounts"@en .
+<http://ecb.publicdata.eu/dataset/132.STS> <http://www.w3.org/2000/01/rdf-schema#label> "Short-Term Statistics"@en .
+<http://ecb.publicdata.eu/dataset/138.SPF> <http://www.w3.org/2000/01/rdf-schema#label> "Survey Professional Forecasters"@en .
+<http://ecb.publicdata.eu/dataset/117.BSI> <http://www.w3.org/2000/01/rdf-schema#label> "Balance Sheet Items"@en .
+<http://ecb.publicdata.eu/dataset/126.OFI> <http://www.w3.org/2000/01/rdf-schema#label> "Other Financial Intermediaries"@en .
+<http://ecb.publicdata.eu/dataset/225.IVF> <http://www.w3.org/2000/01/rdf-schema#label> "Investment Funds Balance Sheet Statistics"@en .
+<http://ecb.publicdata.eu/dataset/130.SEC> <http://www.w3.org/2000/01/rdf-schema#label> "Securities"@en .
+<http://ecb.publicdata.eu/dataset/222.STP> <http://www.w3.org/2000/01/rdf-schema#label> "STEP data"@en .
+<http://ecb.publicdata.eu/dataset/124.MIR> <http://www.w3.org/2000/01/rdf-schema#label> "MFI Interest Rate Statistics"@en .
+<http://ecb.publicdata.eu/dataset/143.FM> <http://www.w3.org/2000/01/rdf-schema#label> "Financial market data (Other data)"@en .
+<http://ecb.publicdata.eu/dataset/187.MFI> <http://www.w3.org/2000/01/rdf-schema#label> "List of MFIs"@en .
+<http://ecb.publicdata.eu/dataset/183.MMS> <http://www.w3.org/2000/01/rdf-schema#label> "Money Market Survey"@en .
+<http://ecb.publicdata.eu/dataset/165.YC> <http://www.w3.org/2000/01/rdf-schema#label> "Financial market data - yield curve"@en .
+<http://ecb.publicdata.eu/dataset/231.CBD> <http://www.w3.org/2000/01/rdf-schema#label> "Statistics on Consolidated Banking Data"@en .
+<http://ecb.publicdata.eu/dataset/235.SAFE> <http://www.w3.org/2000/01/rdf-schema#label> "Survey on the Access to Finance of SMEs"@en .
+<http://ecb.publicdata.eu/dataset/240.ICPF> <http://www.w3.org/2000/01/rdf-schema#label> "Insurance Corporations & Pension Funds Statistics"@en .
+<http://ecb.publicdata.eu/dataset/251.SSI> <http://www.w3.org/2000/01/rdf-schema#label> "Banking structural statistical indicators"@en .
+<http://ecb.publicdata.eu/dataset/239.FVC> <http://www.w3.org/2000/01/rdf-schema#label> "Financial Vehicle Corporation Assets and Liabilities Statistics"@en .
+<http://ecb.publicdata.eu/dataset/158.IEAQ> <http://www.w3.org/2000/01/rdf-schema#label> "Quarterly Euro Area Accounts"@en .
+<http://ecb.publicdata.eu/dataset/139.AME> <http://www.w3.org/2000/01/rdf-schema#label> "AMECO"@en .
+<http://ecb.publicdata.eu/dataset/121.GST> <http://www.w3.org/2000/01/rdf-schema#label> "Government Statistics"@en .
+<http://ecb.publicdata.eu/dataset/214.ESB> <http://www.w3.org/2000/01/rdf-schema#label> "European Union Balance of Payments (Source Eurostat)"@en .
+<http://ecb.publicdata.eu/dataset/133.TRD> <http://www.w3.org/2000/01/rdf-schema#label> "External Trade"@en .
+<http://ecb.publicdata.eu/dataset/116.BOP> <http://www.w3.org/2000/01/rdf-schema#label> "Euro Area Balance of Payments and International Investment Position"@en .
+<http://ecb.publicdata.eu/dataset/127.RA> <http://www.w3.org/2000/01/rdf-schema#label> "International Reserves of the Eurosystem"@en .
+<http://ecb.publicdata.eu/dataset/120.EXR> <http://www.w3.org/2000/01/rdf-schema#label> "Exchange Rates"@en .
+<http://ecb.publicdata.eu/dataset/254.WTS> <http://www.w3.org/2000/01/rdf-schema#label> "Overall, Import, Export and Double Export Weights Statistics"@en .
+<http://ecb.publicdata.eu/dataset/169.PSS> <http://www.w3.org/2000/01/rdf-schema#label> "Payments and Settlement Systems Statistics"@en .
+<http://ecb.publicdata.eu/dataset/167.BSP> <http://www.w3.org/2000/01/rdf-schema#label> "Balance Sheet Items Statistics (tables 2 to 5 of the Blue Book)"@en .
+<http://ecb.publicdata.eu/dataset/168.SSP> <http://www.w3.org/2000/01/rdf-schema#label> "Structural Financial Indicators for Payments"@en .
+<http://ecb.publicdata.eu/dataset/195.BKN> <http://www.w3.org/2000/01/rdf-schema#label> "Banknotes statistics"@en .
+<http://ecb.publicdata.eu/dataset/181.SEE> <http://www.w3.org/2000/01/rdf-schema#label> "Securities exchange - Trading Statistics"@en .
+<http://ecb.publicdata.eu/dataset/182.CCP> <http://www.w3.org/2000/01/rdf-schema#label> "Central Counterparty Clearing Statistics"@en .
+<http://ecb.publicdata.eu/dataset/147.SST> <http://www.w3.org/2000/01/rdf-schema#label> "Securities Settlement Statistics"@en .
+<http://ecb.publicdata.eu/dataset/118.DD> <http://www.w3.org/2000/01/rdf-schema#label> "Derived Data"@en .
+<http://ecb.publicdata.eu/dataset/145.IFI> <http://www.w3.org/2000/01/rdf-schema#label> "Indicators of Financial Integration"@en .
+<http://ecb.publicdata.eu/dataset/194.RTD> <http://www.w3.org/2000/01/rdf-schema#label> "Real Time Database (context of Euro Area Business Cycle Network)"@en .

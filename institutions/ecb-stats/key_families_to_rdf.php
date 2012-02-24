@@ -7,6 +7,10 @@ define('NS', 'http://ecb.publicdata.eu/');
 
 $rdf = new RdfBuilder();
 
+$rdf->create_vocabulary('ecbstats', NS.'schema/', 'European Central Bank Statistics RDF Vocabulary', 'http://keithalexander.co.uk/id/me');
+register('ecbstats', NS.'schema/');
+
+
 $output = array();
 
 $concepts=array();
@@ -45,7 +49,7 @@ set_time_limit(10000);
             $codeLists[$id]['label'] = $Name;
             $id = strtolower(str_replace('CL_','', $node->getAttribute('id')));
             $Scheme = $rdf->thing_from_identifier(NS.'codes/', $id)
-              ->a('skos:ConceptScheme')
+              ->a('ecbstats:CodeList')
               ->label($Name, 'en');
             $scheme_uri = $Scheme->get_uri();
             echo $rdf->dump_ntriples();            
@@ -96,6 +100,8 @@ set_time_limit(10000);
         break;
     }
 }
+
+$rdf->write_vocabulary_to_file('ecbstats', 'ecbstats.ttl');
 
 exit;
 $output['concepts'] =$concepts; 
