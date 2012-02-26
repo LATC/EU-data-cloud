@@ -1,6 +1,6 @@
 <?php
 $series_id=str_replace('_','.',$_GET['serieskey']);
-
+$seriesUri = 'http://ecb.publicdata.eu/series/'.$_GET['serieskey'];
 $sdmx_source = 'http://sdw.ecb.europa.eu/quickviewexport.do?trans=&start=&end=&snapshot=&periodSortOrder=&SERIES_KEY='.$series_id.'&type=sdmx';
 
 $reader = new XMLReader();
@@ -46,7 +46,7 @@ $header = <<<HEADER
 <head>
 	<title>ECB Data Series | $series_title</title>
 	<style type="text/css" title="currentStyle" media="screen">
-		@import "css/latc_ecb_stats.css";
+		@import "/sdmx2rdfa/css/latc_ecb_stats.css";
 	</style>
 </head>
 <body typeof="sioc:Site" about="">
@@ -82,14 +82,14 @@ $header = <<<HEADER
 			<div id="inner-right">
 				<h3 class="box-header">Data</h3>
 				<div id="table-box">
-					<table class="data" about="#$series_id" typeof="qb:Slice" rel="foaf:primaryTopicOf" href="" property="rdfs:label" content="$series_title">
+					<table class="data" about="{$seriesUri}" typeof="qb:Slice" rel="foaf:primaryTopicOf" href="" property="rdfs:label" content="{$series_title}">
 						<tr>
 							<th class="data">Period</th>
 							<th class="data">Value</th>
 							<th class="data">Status</th>
 							<th class="data">Conf</th>
 						</tr>
-						<div about="#$series_id" rel="qb:observation">
+						<div about="{$seriesUri}" rel="qb:observation">
 
 HEADER;
 
@@ -104,8 +104,8 @@ foreach ($observations as $observation) {
 	$conf = $observation['conf'];
 	$color_class = "d".($i & 1);
 	$table_row = <<<ROW
-						<tr about="#$id" typeof="qb:Observation" class="$color_class">
-							<td rel="sdmx-dim:refPeriod"><a href="http://reference.data.gov.uk/id/year/$period" property="rdfs:label">$period</a></td>
+						<tr about="#{$id}" typeof="qb:Observation" class="{$color_class}">
+							<td rel="sdmx-dim:refPeriod"><a href="http://reference.data.gov.uk/id/year/{$period}" property="rdfs:label">{$period}</a></td>
 							<td property="sdmx-measure:obsValue" datatype="xsd:decimal">$value</td>
 							<td>$status</td>
 							<td>$conf</td>
@@ -137,4 +137,3 @@ echo $footer;
 
 
 ?>
-
