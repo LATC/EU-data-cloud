@@ -1,12 +1,12 @@
 <?php
+$series_id=str_replace('_','.',$_GET['serieskey']);
 
-$sdmx_source = 'http://sdw.ecb.europa.eu/quickviewexport.do?trans=&start=&end=&snapshot=&periodSortOrder=&SERIES_KEY='.$_GET['serieskey'].'&type=sdmx';
+$sdmx_source = 'http://sdw.ecb.europa.eu/quickviewexport.do?trans=&start=&end=&snapshot=&periodSortOrder=&SERIES_KEY='.$series_id.'&type=sdmx';
 
 $reader = new XMLReader();
 
 $reader->open($sdmx_source);
 
-$series_id=$_GET['serieskey'];
 $series_title="Unknown Title";
 $observations = array();
 $counter = 0;
