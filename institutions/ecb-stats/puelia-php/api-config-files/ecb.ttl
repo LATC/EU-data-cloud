@@ -33,7 +33,7 @@
                 <item_DataSet>  ;
 
   api:contentNegotiation api:parameterBased ;
-  api:sparqlEndpoint <http://localhost:3030/dataset/query> ;
+  api:sparqlEndpoint <http://ecb.publicdata.eu/sparql/> ;
   api:defaultFormatter <formatter_html> ;
   api:vocabulary qb:, dcterms: ;
   api:defaultPageSize 10 ;
