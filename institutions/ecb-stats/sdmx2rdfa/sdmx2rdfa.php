@@ -1,12 +1,12 @@
 <?php
 
-$sdmx_source = $argv[1];
+$sdmx_source = 'http://sdw.ecb.europa.eu/quickviewexport.do?trans=&start=&end=&snapshot=&periodSortOrder=&SERIES_KEY='.$_GET['serieskey'].'&type=sdmx';
 
 $reader = new XMLReader();
 
 $reader->open($sdmx_source);
 
-$series_id="122.ICP.A.AT.N.030000.4.AVR"; // replace with parameter!
+$series_id=$_GET['serieskey'];
 $series_title="Unknown Title";
 $observations = array();
 $counter = 0;
