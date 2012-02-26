@@ -9515,3 +9515,250 @@ Fri Feb 24 12:24:46 2012,847 [8807] DEBUG Puelia - Looking in memcache for api-c
 Fri Feb 24 12:24:46 2012,857 [8807] DEBUG Puelia - Found Cached Config
 Fri Feb 24 12:24:46 2012,860 [8807] DEBUG Puelia - No Endpoint Selected
 Fri Feb 24 12:24:46 2012,861 [8807] DEBUG Puelia - URI Requested:/favicon
+Sun Feb 26 14:59:59 2012,458 [8760] DEBUG Puelia - Request URI: http://ecb.publicdata.eu/doc/series
+Sun Feb 26 14:59:59 2012,575 [8760] DEBUG Puelia - No cached response for text/html under key 1dc8ba00fb99c1aa462b0e3d6d3f9068
+Sun Feb 26 14:59:59 2012,591 [8760] DEBUG Puelia - No cached response for application/xhtml+xml under key e201e68a3dafc82c3b79af81e40d5b26
+Sun Feb 26 14:59:59 2012,614 [8760] DEBUG Puelia - No cached response for application/xml under key 66ef49308490e09566eb8271db0a2275
+Sun Feb 26 14:59:59 2012,624 [8760] DEBUG Puelia - No cached response for */* under key 49e5e886e17880ffc0d48764650365fc
+Sun Feb 26 14:59:59 2012,624 [8760] DEBUG Puelia - No suitable cached responses found
+Sun Feb 26 14:59:59 2012,624 [8760] DEBUG Puelia - Generating fresh response
+Sun Feb 26 14:59:59 2012,656 [8760] DEBUG Puelia - Iterating over files in /api-config: api-config-files/ecb.ttl
+Sun Feb 26 14:59:59 2012,656 [8760] DEBUG Puelia - Looking in memcache for api-config-files/ecb.ttl
+Sun Feb 26 14:59:59 2012,658 [8760] DEBUG Puelia - No cached version of ConfigGraph from api-config-files/ecb.ttl
+Sun Feb 26 14:59:59 2012,658 [8760] DEBUG Puelia - Checking Config file: api-config-files/ecb.ttl
+Sun Feb 26 14:59:59 2012,819 [8760] DEBUG Puelia - Caching api-config-files/ecb.ttl
+Sun Feb 26 14:59:59 2012,820 [8760] DEBUG Puelia - Caching api-config-files/ecb.ttl
+Sun Feb 26 14:59:59 2012,979 [8760] DEBUG Puelia - Endpoint Uri Selected: http://ecb.publicdata.eu/list_series
+Sun Feb 26 14:59:59 2012,979 [8760] DEBUG Puelia - API Default Viewer is http://purl.org/linked-data/api/vocab#labelledDescribeViewer
+Sun Feb 26 14:59:59 2012,979 [8760] DEBUG Puelia - Viewer URI: http://purl.org/linked-data/api/vocab#labelledDescribeViewer
+Sun Feb 26 14:59:59 2012,980 [8760] DEBUG Puelia - Loading from memcache 701a6fbb670e4ae6713f8c9279cfd56c
+Sun Feb 26 15:00:00 2012,148 [8760] DEBUG Puelia - Loading from memcache 11ecd3427a8629079713458bf1c0b0be
+Sun Feb 26 15:00:00 2012,317 [8760] DEBUG Puelia - SPARQL Variable binding: """http://ecb.publicdata.eu/""" = ?base
+Sun Feb 26 15:00:00 2012,317 [8760] DEBUG Puelia - Filter is: type=Slice
+Sun Feb 26 15:00:00 2012,317 [8760] INFO Puelia - SELECT Query:http://ecb.publicdata.eu/doc/series:	<<<PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT DISTINCT ?item
+
+WHERE {
+?item rdf:type qb:Slice .
+
+}
+ 
+LIMIT 10 
+OFFSET 0>>>
+Sun Feb 26 15:00:00 2012,318 [8760] DEBUG Puelia - Loading from memcache 2299d5c668190374091996f0df8d10ff
+Sun Feb 26 15:00:01 2012,879 [9004] DEBUG Puelia - Request URI: http://ecb.publicdata.eu/sparql/?query=PREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX+qb%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fcube%23%3E%0ASELECT+DISTINCT+%3Fitem%0A%0AWHERE+%7B%0A%3Fitem+rdf%3Atype+qb%3ASlice+.%0A%0A%7D%0A+%0ALIMIT+10+%0AOFFSET+0
+Sun Feb 26 15:00:01 2012,952 [9004] DEBUG Puelia - No cached response for application/sparql-results+json under key 24e27111a32b26d5e6254df2e3fbdbed
+Sun Feb 26 15:00:01 2012,952 [9004] DEBUG Puelia - No cached response for application/sparql-results+xml under key 1718871ae498b6a54a5b55168613d14d
+Sun Feb 26 15:00:01 2012,971 [9004] DEBUG Puelia - No cached response for */* under key 62ab2341710a3d8dad221042e0056c45
+Sun Feb 26 15:00:01 2012,972 [9004] DEBUG Puelia - No suitable cached responses found
+Sun Feb 26 15:00:01 2012,972 [9004] DEBUG Puelia - Generating fresh response
+Sun Feb 26 15:00:01 2012,991 [9004] DEBUG Puelia - Iterating over files in /api-config: api-config-files/ecb.ttl
+Sun Feb 26 15:00:01 2012,991 [9004] DEBUG Puelia - Looking in memcache for api-config-files/ecb.ttl
+Sun Feb 26 15:00:02 2012,020 [9004] DEBUG Puelia - Found Cached Config
+Sun Feb 26 15:00:02 2012,023 [9004] DEBUG Puelia - No Endpoint Selected
+Sun Feb 26 15:00:02 2012,024 [9004] DEBUG Puelia - URI Requested:/sparql/
+Sun Feb 26 15:00:02 2012,333 [8760] ERROR Puelia - Endpoint returned 404 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" href="http://ecb.publicdata.eu/css/puelia.css" type="text/css" media="screen" title="puelia main css" charset="utf-8"/>
+<link rel="shortcut icon" href="/imgs/favicon.png" type="image/png"/>
+    
+
+	<title>Page Not Found :: Puelia - Linked Data API</title>
+    
+</head>
+
+<body>
+    <div class="container">
+    <div class="header">Puelia: an implementation of the Linked Data API</div>
+    
+    
+    <div class="contents">   
+        <h1>Page Not Found</h1>
+         <p>The resource you requested could not be found at this location.</p>
+    </div>
+    <div class="footer">
+    <ul>
+        <li><a href="http://code.google.com/p/linked-data-api/">Google Code Project for <em>Linked Data API</em></a></li>
+        <li><a href="http://puelia-php.googlecode.com/svn/trunk/">Google Code Project for <em>Puelia</em></a></li>
+    </ul>
+</div>
+    
+    </div>
+</body>
+</html>
+ Select Query <<<PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT DISTINCT ?item
+
+WHERE {
+?item rdf:type qb:Slice .
+
+}
+ 
+LIMIT 10 
+OFFSET 0>>> failed against http://ecb.publicdata.eu/sparql/
+Sun Feb 26 15:00:02 2012,333 [8760] DEBUG Puelia - API Default Viewer is http://purl.org/linked-data/api/vocab#labelledDescribeViewer
+Sun Feb 26 15:00:02 2012,333 [8760] DEBUG Puelia - Viewer URI is http://purl.org/linked-data/api/vocab#labelledDescribeViewer
+Sun Feb 26 15:00:02 2012,333 [8760] INFO Puelia - http://ecb.publicdata.eu/doc/series	<<<CONSTRUCT { }  WHERE { 
+}
+>>>
+Sun Feb 26 15:00:02 2012,334 [8760] DEBUG Puelia - Loading from memcache aa52135a34c47f0791c5f61857e8dcaf
+Sun Feb 26 15:00:02 2012,938 [9729] DEBUG Puelia - Request URI: http://ecb.publicdata.eu/sparql/?query=CONSTRUCT+%7B+%7D++WHERE+%7B+%0A%7D%0A
+Sun Feb 26 15:00:03 2012,013 [9729] DEBUG Puelia - No cached response for application/json under key a355f2ba04c88a542f2517591fe42e21
+Sun Feb 26 15:00:03 2012,015 [9729] DEBUG Puelia - No cached response for text/turtle under key 28dd4b79cfb7ccc1dfc6595695e1a077
+Sun Feb 26 15:00:03 2012,015 [9729] DEBUG Puelia - No cached response for application/rdf+xml under key 442cffb7332ec04328a0ce201b4827dd
+Sun Feb 26 15:00:03 2012,016 [9729] DEBUG Puelia - No cached response for */* under key 71c56d1ae0f86b41e9abe45134c1e95b
+Sun Feb 26 15:00:03 2012,016 [9729] DEBUG Puelia - No suitable cached responses found
+Sun Feb 26 15:00:03 2012,016 [9729] DEBUG Puelia - Generating fresh response
+Sun Feb 26 15:00:03 2012,034 [9729] DEBUG Puelia - Iterating over files in /api-config: api-config-files/ecb.ttl
+Sun Feb 26 15:00:03 2012,034 [9729] DEBUG Puelia - Looking in memcache for api-config-files/ecb.ttl
+Sun Feb 26 15:00:03 2012,043 [9729] DEBUG Puelia - Found Cached Config
+Sun Feb 26 15:00:03 2012,046 [9729] DEBUG Puelia - No Endpoint Selected
+Sun Feb 26 15:00:03 2012,046 [9729] DEBUG Puelia - URI Requested:/sparql/
+Sun Feb 26 15:00:03 2012,133 [8760] ERROR Puelia - Endpoint returned 404 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" href="http://ecb.publicdata.eu/css/puelia.css" type="text/css" media="screen" title="puelia main css" charset="utf-8"/>
+<link rel="shortcut icon" href="/imgs/favicon.png" type="image/png"/>
+    
+
+	<title>Page Not Found :: Puelia - Linked Data API</title>
+    
+</head>
+
+<body>
+    <div class="container">
+    <div class="header">Puelia: an implementation of the Linked Data API</div>
+    
+    
+    <div class="contents">   
+        <h1>Page Not Found</h1>
+         <p>The resource you requested could not be found at this location.</p>
+    </div>
+    <div class="footer">
+    <ul>
+        <li><a href="http://code.google.com/p/linked-data-api/">Google Code Project for <em>Linked Data API</em></a></li>
+        <li><a href="http://puelia-php.googlecode.com/svn/trunk/">Google Code Project for <em>Puelia</em></a></li>
+    </ul>
+</div>
+    
+    </div>
+</body>
+</html>
+ View Query <<<CONSTRUCT { }  WHERE { 
+}
+>>> failed against http://ecb.publicdata.eu/sparql/
+Sun Feb 26 15:00:03 2012,133 [8760] DEBUG Puelia - API Default Viewer is http://purl.org/linked-data/api/vocab#labelledDescribeViewer
+Sun Feb 26 15:00:03 2012,134 [8760] DEBUG Puelia - SPARQL Variable binding: """http://ecb.publicdata.eu/""" = ?base
+Sun Feb 26 15:00:03 2012,134 [8760] DEBUG Puelia - Filter is: type=Slice
+Sun Feb 26 15:00:03 2012,134 [8760] INFO Puelia - SELECT Query:http://ecb.publicdata.eu/doc/series:	<<<PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT DISTINCT ?item
+
+WHERE {
+?item rdf:type qb:Slice .
+
+}
+ 
+LIMIT 10 
+OFFSET 0>>>
+Sun Feb 26 15:00:03 2012,134 [8760] DEBUG Puelia - Loading from memcache 2299d5c668190374091996f0df8d10ff
+Sun Feb 26 15:00:04 2012,403 [8807] DEBUG Puelia - Request URI: http://ecb.publicdata.eu/sparql/?query=PREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX+qb%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fcube%23%3E%0ASELECT+DISTINCT+%3Fitem%0A%0AWHERE+%7B%0A%3Fitem+rdf%3Atype+qb%3ASlice+.%0A%0A%7D%0A+%0ALIMIT+10+%0AOFFSET+0
+Sun Feb 26 15:00:04 2012,421 [8807] DEBUG Puelia - No cached response for application/sparql-results+json under key 24e27111a32b26d5e6254df2e3fbdbed
+Sun Feb 26 15:00:04 2012,422 [8807] DEBUG Puelia - No cached response for application/sparql-results+xml under key 1718871ae498b6a54a5b55168613d14d
+Sun Feb 26 15:00:04 2012,422 [8807] DEBUG Puelia - No cached response for */* under key 62ab2341710a3d8dad221042e0056c45
+Sun Feb 26 15:00:04 2012,422 [8807] DEBUG Puelia - No suitable cached responses found
+Sun Feb 26 15:00:04 2012,422 [8807] DEBUG Puelia - Generating fresh response
+Sun Feb 26 15:00:04 2012,423 [8807] DEBUG Puelia - Iterating over files in /api-config: api-config-files/ecb.ttl
+Sun Feb 26 15:00:04 2012,423 [8807] DEBUG Puelia - Looking in memcache for api-config-files/ecb.ttl
+Sun Feb 26 15:00:04 2012,460 [8807] DEBUG Puelia - Found Cached Config
+Sun Feb 26 15:00:04 2012,463 [8807] DEBUG Puelia - No Endpoint Selected
+Sun Feb 26 15:00:04 2012,463 [8807] DEBUG Puelia - URI Requested:/sparql/
+Sun Feb 26 15:00:04 2012,649 [8760] ERROR Puelia - Endpoint returned 404 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" href="http://ecb.publicdata.eu/css/puelia.css" type="text/css" media="screen" title="puelia main css" charset="utf-8"/>
+<link rel="shortcut icon" href="/imgs/favicon.png" type="image/png"/>
+    
+
+	<title>Page Not Found :: Puelia - Linked Data API</title>
+    
+</head>
+
+<body>
+    <div class="container">
+    <div class="header">Puelia: an implementation of the Linked Data API</div>
+    
+    
+    <div class="contents">   
+        <h1>Page Not Found</h1>
+         <p>The resource you requested could not be found at this location.</p>
+    </div>
+    <div class="footer">
+    <ul>
+        <li><a href="http://code.google.com/p/linked-data-api/">Google Code Project for <em>Linked Data API</em></a></li>
+        <li><a href="http://puelia-php.googlecode.com/svn/trunk/">Google Code Project for <em>Puelia</em></a></li>
+    </ul>
+</div>
+    
+    </div>
+</body>
+</html>
+ Select Query <<<PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT DISTINCT ?item
+
+WHERE {
+?item rdf:type qb:Slice .
+
+}
+ 
+LIMIT 10 
+OFFSET 0>>> failed against http://ecb.publicdata.eu/sparql/
+Sun Feb 26 15:03:50 2012,212 [9728] DEBUG Puelia - Request URI: http://ecb.publicdata.eu/sparql/
+Sun Feb 26 15:03:50 2012,242 [9728] DEBUG Puelia - No cached response for text/html under key fcd0ea74f6978e1614c200d33ccb2cca
+Sun Feb 26 15:03:50 2012,257 [9728] DEBUG Puelia - No cached response for application/xhtml+xml under key 003135909900d0a2f23d2118d1c8863b
+Sun Feb 26 15:03:50 2012,258 [9728] DEBUG Puelia - No cached response for application/xml under key 39a5f5fc409976bf35cc9c202941dbc9
+Sun Feb 26 15:03:50 2012,259 [9728] DEBUG Puelia - No cached response for */* under key 899e36435e3a0031a7ec006aceef89ac
+Sun Feb 26 15:03:50 2012,259 [9728] DEBUG Puelia - No suitable cached responses found
+Sun Feb 26 15:03:50 2012,259 [9728] DEBUG Puelia - Generating fresh response
+Sun Feb 26 15:03:50 2012,261 [9728] DEBUG Puelia - Iterating over files in /api-config: api-config-files/ecb.ttl
+Sun Feb 26 15:03:50 2012,261 [9728] DEBUG Puelia - Looking in memcache for api-config-files/ecb.ttl
+Sun Feb 26 15:03:50 2012,290 [9728] DEBUG Puelia - Found Cached Config
+Sun Feb 26 15:03:50 2012,293 [9728] DEBUG Puelia - No Endpoint Selected
+Sun Feb 26 15:03:50 2012,293 [9728] DEBUG Puelia - URI Requested:/sparql/
+Sun Feb 26 15:03:54 2012,917 [9728] DEBUG Puelia - Request URI: http://ecb.publicdata.eu/sparql
+Sun Feb 26 15:03:54 2012,919 [9728] DEBUG Puelia - No cached response for text/html under key cb01f74d2cb6a8fa3d1b7b1b78d38dcb
+Sun Feb 26 15:03:54 2012,920 [9728] DEBUG Puelia - No cached response for application/xhtml+xml under key 10f89d3afb7721494c15bd441f0a85a5
+Sun Feb 26 15:03:54 2012,921 [9728] DEBUG Puelia - No cached response for application/xml under key 87195f103511da195835ccba97218df0
+Sun Feb 26 15:03:54 2012,922 [9728] DEBUG Puelia - No cached response for */* under key 0fba9df2e7c59a85920a42fb1e7e8580
+Sun Feb 26 15:03:54 2012,922 [9728] DEBUG Puelia - No suitable cached responses found
+Sun Feb 26 15:03:54 2012,923 [9728] DEBUG Puelia - Generating fresh response
+Sun Feb 26 15:03:54 2012,923 [9728] DEBUG Puelia - Iterating over files in /api-config: api-config-files/ecb.ttl
+Sun Feb 26 15:03:54 2012,923 [9728] DEBUG Puelia - Looking in memcache for api-config-files/ecb.ttl
+Sun Feb 26 15:03:54 2012,925 [9728] DEBUG Puelia - Found Cached Config
+Sun Feb 26 15:03:54 2012,928 [9728] DEBUG Puelia - No Endpoint Selected
+Sun Feb 26 15:03:54 2012,928 [9728] DEBUG Puelia - URI Requested:/sparql
+Sun Feb 26 15:05:25 2012,614 [9002] DEBUG Puelia - Request URI: http://ecb.publicdata.eu/sparql/?query=PREFIX+qb%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fcube%23%3E%0D%0ASELECT+DISTINCT+%3Fitem%0D%0A%0D%0AWHERE+%7B%0D%0A%3Fitem+a+qb%3ADataSet+.%0D%0A%0D%0A%7D%0D%0A+%0D%0ALIMIT+10+%0D%0AOFFSET+0
+Sun Feb 26 15:05:25 2012,615 [9002] DEBUG Puelia - No cached response for text/html under key f2521b5341a782a253492531c74667da
+Sun Feb 26 15:05:25 2012,615 [9002] DEBUG Puelia - No cached response for application/xhtml+xml under key 631d829b5805235f107b98b59c1d1266
+Sun Feb 26 15:05:25 2012,616 [9002] DEBUG Puelia - No cached response for application/xml under key fa7c1022ec818578973a3fe469d05649
+Sun Feb 26 15:05:25 2012,617 [9002] DEBUG Puelia - No cached response for */* under key 396994809f0d46cc0421e371ccabffcf
+Sun Feb 26 15:05:25 2012,617 [9002] DEBUG Puelia - No suitable cached responses found
+Sun Feb 26 15:05:25 2012,617 [9002] DEBUG Puelia - Generating fresh response
+Sun Feb 26 15:05:25 2012,636 [9002] DEBUG Puelia - Iterating over files in /api-config: api-config-files/ecb.ttl
+Sun Feb 26 15:05:25 2012,637 [9002] DEBUG Puelia - Looking in memcache for api-config-files/ecb.ttl
+Sun Feb 26 15:05:25 2012,638 [9002] DEBUG Puelia - Found Cached Config
+Sun Feb 26 15:05:25 2012,641 [9002] DEBUG Puelia - No Endpoint Selected
+Sun Feb 26 15:05:25 2012,641 [9002] DEBUG Puelia - URI Requested:/sparql/
