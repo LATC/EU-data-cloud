@@ -1,5 +1,6 @@
 <?php
 
+set_include_path(get_include_path().':../');
 require '../inc.php';
 
 $series_id=str_replace('_','.',$_GET['serieskey']);
