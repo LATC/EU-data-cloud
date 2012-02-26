@@ -1,8 +1,12 @@
 <?php
+
+require 'inc.php';
+
 $series_id=str_replace('_','.',$_GET['serieskey']);
 $seriesUri = 'http://ecb.publicdata.eu/series/'.$_GET['serieskey'];
 $sdmx_source = 'http://sdw.ecb.europa.eu/quickviewexport.do?trans=&start=&end=&snapshot=&periodSortOrder=&SERIES_KEY='.$series_id.'&type=sdmx';
 
+$data = json_decode(file_get_contents('../keyfamily.json'),1);
 $reader = new XMLReader();
 
 $reader->open($sdmx_source);
@@ -42,7 +46,9 @@ $header = <<<HEADER
 	xmlns:sdmx-dim="http://purl.org/linked-data/sdmx/2009/dimension#"
 	xmlns:sioc="http://rdfs.org/sioc/ns#"
 	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:ecb="http://ecb.publicdata.eu/schema/"
+>
 <head>
 	<title>ECB Data Series | $series_title</title>
 	<style type="text/css" title="currentStyle" media="screen">
@@ -63,7 +69,7 @@ $header = <<<HEADER
 			<div id="inner-left">
 				<div id="links">
 					<ul>
-						<li>Download as <a href="http://www.w3.org/2007/08/pyRdfa/extract?uri=referer">RDF/XML</a>.</li>
+						<li>Download as <a href="http://morph.talis.com/?data-uri[]={$seriesUri}&output=turtle">Turtle</a>.</li>
 					</ul>
 				</div>
 			</div>
@@ -99,16 +105,21 @@ $i=0;
 foreach ($observations as $observation) {
 	$id = $observation['id'];
 	$period = $observation['period'];
+  $periodUri = Utils::dateToUri($observation['period']);
 	$value = $observation['value'];
-	$status = $observation['status'];
-	$conf = $observation['conf'];
+  $status = $observation['status'];
+  $statusLabel = $data['codes']['CL_OBS_STATUS']['codes'][$status];
+  $obsStatusUri = 'http://ecb.publicdata.eu/codes/obs_status/'.$status;
+  $conf = $observation['conf'];
+  $confLabel = $data['codes']['CL_OBS_CONF']['codes'][$conf];
+  $obsConfUri = 'http://ecb.publicdata.eu/codes/obs_conf/'.$conf;
 	$color_class = "d".($i & 1);
 	$table_row = <<<ROW
 						<tr about="#{$id}" typeof="qb:Observation" class="{$color_class}">
-							<td rel="sdmx-dim:refPeriod"><a href="http://reference.data.gov.uk/id/year/{$period}" property="rdfs:label">{$period}</a></td>
+							<td rel="sdmx-dim:refPeriod"><a href="{$periodUri}" property="rdfs:label">{$observation['period']}</a></td>
 							<td property="sdmx-measure:obsValue" datatype="xsd:decimal">$value</td>
-							<td>$status</td>
-							<td>$conf</td>
+							<td rel="ecb:OBS_STATUS"><a href="{$obsStatusUri}">$statusLabel</a></td>
+							<td rel="ecb:OBS_CONF"><a href="{$obsConfUri}">$confLabel</a></td>
 						</tr>
 
 ROW;
