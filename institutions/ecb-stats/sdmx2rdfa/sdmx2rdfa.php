@@ -1,6 +1,6 @@
 <?php
 
-require 'inc.php';
+require '../inc.php';
 
 $series_id=str_replace('_','.',$_GET['serieskey']);
 $seriesUri = 'http://ecb.publicdata.eu/series/'.$_GET['serieskey'];
