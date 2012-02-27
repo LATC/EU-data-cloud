@@ -1,13 +1,13 @@
 <?php
 
-set_include_path(get_include_path().':'.dirname(dirname(__FILE__)).'/:/var/www/ecb.publicdata.eu/');
+set_include_path(get_include_path().':.:'.dirname(dirname(__FILE__)).'/:/var/www/ecb.publicdata.eu/');
 require '../inc.php';
 
 $series_id=str_replace('_','.',$_GET['serieskey']);
 $seriesUri = 'http://ecb.publicdata.eu/series/'.$_GET['serieskey'];
 $sdmx_source = 'http://sdw.ecb.europa.eu/quickviewexport.do?trans=&start=&end=&snapshot=&periodSortOrder=&SERIES_KEY='.$series_id.'&type=sdmx';
 
-$data = json_decode(file_get_contents('../keyfamily.json'),1);
+$data = json_decode(file_get_contents('keyfamily.json'),1);
 $reader = new XMLReader();
 
 $reader->open($sdmx_source);
