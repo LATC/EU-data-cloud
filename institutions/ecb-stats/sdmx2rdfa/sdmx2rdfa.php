@@ -106,7 +106,7 @@ $i=0;
 foreach ($observations as $observation) {
 	$id = $observation['id'];
 	$period = str_replace('-','-20',$observation['period']);
-  $periodUri = Utils::dateToUri($observation['period']);
+  $periodUri = Utils::dateToUri($period);
 	$value = $observation['value'];
   $status = $observation['status'];
   $statusLabel = $data['codes']['CL_OBS_STATUS']['codes'][$status];
