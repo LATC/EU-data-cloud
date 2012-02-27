@@ -1,6 +1,6 @@
 <?php
 
-set_include_path(get_include_path().':'.dirname(dirname(__FILE__)).'');
+set_include_path(get_include_path().':'.dirname(dirname(__FILE__)).'/:/var/www/ecb.publicdata.eu/');
 require '../inc.php';
 
 $series_id=str_replace('_','.',$_GET['serieskey']);
