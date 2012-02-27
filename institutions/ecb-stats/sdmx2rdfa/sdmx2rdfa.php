@@ -105,7 +105,7 @@ echo $header;
 $i=0;
 foreach ($observations as $observation) {
 	$id = $observation['id'];
-	$period = $observation['period'];
+	$period = str_replace('-','-20',$observation['period']);
   $periodUri = Utils::dateToUri($observation['period']);
 	$value = $observation['value'];
   $status = $observation['status'];
