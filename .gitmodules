@@ -17,3 +17,6 @@
         path = institutions/euwhoiswho/lib/arc
         url = git://github.com/semsol/arc2.git
 
+[submodule "institutions/ecb-stats/sparql"]
+	path = institutions/ecb-stats/sparql
+	url = git://github.com/kwijibo/sparql-proxy.git
