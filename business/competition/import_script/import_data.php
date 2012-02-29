@@ -3,7 +3,7 @@ $username="root";
 $password="";
 $database="competition";
 // I first grapped all pages and wrote it into links.csv
-$filename = "C:\competition\links.csv";
+$filename = "C:\competition\links_test3.csv";
 $file = fopen($filename, 'r');
             $i = 0;
             while (($lineArray = fgetcsv($file, 4000, ";")) !== FALSE) {
@@ -16,15 +16,20 @@ $file = fopen($filename, 'r');
 $company_match_array = array();
 $case_array = array();
 $j=0;
-
+$count_ID = 0;
+$count_ID_2 = 0;
+$count_ID_3 = 19201;
+$decision_article = array();
 foreach ($data2DArray as $data)
 {
-    $url = $data[0];
-    //$url = "http://ec.europa.eu/competition/elojade/isef/case_details.cfm?proc_code=2_M_1016";
+    //$url = $data[0];
+    $url = "http://ec.europa.eu/competition/elojade/isef/case_details.cfm?proc_code=2_M_1001";
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $url);
     curl_setopt($ch, CURLOPT_HEADER, 0);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/4.0"); 
+    curl_setopt($ch, CURLOPT_ENCODING, "" );
     $website = curl_exec($ch);
     // Wenn URL mit 1 anfängt, dann Antitrust / Cartel, 2 = Merger, 3 = State AID
     if(strpos($url,"proc_code=2")!==false)
@@ -51,7 +56,7 @@ foreach ($data2DArray as $data)
         preg_match("/Provisional deadline\:<[^>]*>\s*<[^>]*>(\d\d.\d\d.\d\d\d\d)\s*<br>\s*(.*)<\/td>/isU",$website, $deadline);
         $deadline_text = trim($deadline[2]);
         preg_match("/Prior publication in Official Journal\:(.*)<\/tr>/isU", $website, $publication);
-        preg_match_all("/<a\shref=\"([^\"]*)/s", $publication[1], $publication_link);
+        preg_match_all("/<a\shref=\"([^\"]*)/s", $publication[1], $publication_links);
         $publication_split = preg_split("/Of\s/", $publication[1]);
         $publication_date = preg_replace("/<[^>]*>/", "", $publication_split[1]);
         $publication_date = trim($publication_date);
@@ -199,15 +204,19 @@ foreach ($data2DArray as $data)
         foreach ($decision_date[1] as $date_decision)
             // Ab hier weiter
             {
-            $query_6 = "INSERT INTO decision(date, document_link, document_description, article) VALUES
-                ('".$date_decision."','".$decision_links[$n][1]."','".$decision_links[$n][2]."','".$decision_article[$n][1]."')";
+            $decision_ID = "ME_".$case_number_clean."_".$count_ID;
+            $query_6 = "INSERT INTO decision(id,date, document_link, document_description) VALUES
+                ('".$decision_ID."','".$date_decision."','".$decision_links[$n][1]."','".$decision_links[$n][2]."')";
             mysql_query($query_6);
-            $decision_id  = mysql_insert_id();
             echo mysql_errno() . ": " . mysql_error()."in Decision:".$decision_ID."\n";
             $query_7 = "INSERT INTO merger_decision (merger_ID, decision_ID)
-                VALUES ('".$case_number_clean."','".$decision_id."')";
+                VALUES ('".$case_number_clean."','".$decision_ID."')";
             mysql_query($query_7);
+            $query_16 = "INSERT INTO decision_article VALUES 
+                ('".$decision_ID."','".$decision_article[$n][1]."')";
+            mysql_query($query_16);
             $n++;
+            $count_ID++;
         }
         $p = 0;
         foreach ($nace[1] as $nace_code)
@@ -238,27 +247,38 @@ foreach ($data2DArray as $data)
         {
             if (count($journal_link) > 3)
             {
-        $query_12 = "INSERT INTO publication (date, link, text) VALUES 
-            ('".$journal_link[3]."','".$journal_link[1]."','".$journal_link[2]."')";
+                $publication_ID = "ME_".$case_number_clean."_".$count_ID_3;
+        $query_12 = "INSERT INTO publication (id,date, link, text) VALUES 
+            ('".$publication_ID."','".$journal_link[3]."','".$journal_link[1]."','".$journal_link[2]."')";
         mysql_query($query_12);
         echo mysql_errno() . ": " . mysql_error()."in publication:".$publication_link[1][0]."\n";
-        $publication_ID = mysql_insert_id();
         $query_13 = "INSERT INTO merger_publication VALUES ('".$case_number_clean."','".$publication_ID."')";
         mysql_query($query_13);
         echo mysql_errno() . ": " . mysql_error()."in merger_publication:".$publication_ID."\n";
+        $count_ID_3++;
             }
+        }
+        foreach ($publication_links[1] as $publication_link){
+        $publication_ID = "ME_".$case_number_clean."_".$count_ID_3;
+        $query_17 = "INSERT INTO publication (id,date,link,text) VALUES
+            ('".$publication_ID."','".$publication_date."','".$publication_link."','".$publication_link_text[1]."')";
+        mysql_query($query_17);
+        $query_18 = "INSERT INTO merger_publication VALUES ('".$case_number_clean."','".$publication_ID."')";
+        mysql_query($query_18);
+        $count_ID_3++;
         }
         foreach ($press_releases as $press_release)
         {
             if (count($press_release)>0)
             {
-                $query_14 = "INSERT INTO press_release (link,text) VALUES
-                    ('".$press_release[1]."','".$press_release[2]."')";
+                $press_release_id = "ME_".$case_number_clean."_".$count_ID_2;
+                $query_14 = "INSERT INTO press_release (id,link,text) VALUES
+                    ('".$press_release_id."','".$press_release[1]."','".$press_release[2]."')";
                 mysql_query($query_14);
-                $press_release_id  = mysql_insert_id();
                 $query_15 = "INSERT INTO merger_press_release VALUES
                     ('".$case_number_clean."','".$press_release_id."')";
                 mysql_query($query_15);
+                $count_ID_2++;
             }
         }
     }
@@ -358,25 +378,28 @@ foreach ($data2DArray as $data)
         {
             if ($event == "Press Release")
             {
-                $query_10 = "INSERT INTO press_release(date,link,text) VALUES
-                    ('".$event_dates[1][$k]."','".$events_url[1][$k]."','".$event_description[1][$k]."')";
+                $press_release_id = "CA_".$case_number[1]."_".$count_ID_2;
+                $query_10 = "INSERT INTO press_release(id,date,link,text) VALUES
+                    ('".$press_release_id."','".$event_dates[1][$k]."','".$events_url[1][$k]."','".$event_description[1][$k]."')";
                 mysql_query($query_10);
-                $press_release_id = mysql_insert_id();
                 echo mysql_errno() . ": " . mysql_error()."in press release: ".$event_description." from ".$case_number[1]."\n";
                 $query_11 = "INSERT INTO cartel_press_release VALUES
                     ('".$case_number[1]."','".$press_release_id."')";
                 mysql_query($query_11);
                 $k++;
+                $count_ID_2++;
             }
             else
             {
-            $query_8 = "INSERT INTO decision(date,description,document_link,document_description) VALUES ('".$event_dates[1][$k]."','".$event_description[1][$k]."','".$events_url[1][$k]."','".$events_url[2][$k]."')";
+            $decision_ID = "CA_".$case_number[1]."_".$count_ID;
+            $query_8 = "INSERT INTO decision(id,date,description,document_link,document_description) VALUES 
+                ('".$decision_ID."','".$event_dates[1][$k]."','".$event_description[1][$k]."','".$events_url[1][$k]."','".$events_url[2][$k]."')";
             mysql_query($query_8);
-            $event_id  = mysql_insert_id();
-            echo mysql_errno() . ": " . mysql_error()."in event: ".$event_id." from ".$case_number[1]."\n";
-            $query_9 = "INSERT INTO cartel_decision VALUES('".$case_number[1]."','".$event_id."')";
+            echo mysql_errno() . ": " . mysql_error()."in event: ".$decision_ID." from ".$case_number[1]."\n";
+            $query_9 = "INSERT INTO cartel_decision VALUES('".$case_number[1]."','".$decision_ID."')";
             mysql_query($query_9);
             $k++;
+            $count_ID++;
             }
         }
     }
@@ -410,16 +433,24 @@ foreach ($data2DArray as $data)
         preg_match("/Aid instrument:<[^>]*>\s*<[^>]*>([^<]*)/s",$website, $aid_instrument); //trim aid[1]
         $aid_instrument = trim($aid_instrument[1]);
         preg_match("/Case Type:<[^>]*>\s*<[^>]*>([^<]*)/s",$website, $case_type);
-        preg_match("/Duration:<[^>]*>\s*<[^>]*>from\s(\d\d.\d\d.\d\d\d\d)\sto\s(\d\d.\d\d.\d\d\d\d)/s",$website, $duration_from_to);
+        $chec_from_to = preg_match("/Duration:<[^>]*>\s*<[^>]*>from\s(\d\d.\d\d.\d\d\d\d)\sto\s(\d\d.\d\d.\d\d\d\d)/s",$website, $duration_from_to);
+        $check_from = preg_match("/Duration:<[^>]*>\s*<[^>]*>from\s(\d\d.\d\d.\d\d\d\d)/s",$website, $duration_from);
         $check_until = preg_match("/Duration:<[^>]*>\s*<[^>]*>until\s(\d\d.\d\d.\d\d\d\d)/s",$website, $duration_until);
-        if ($check_until == TRUE)
-        {
-            $end = $duration_until;
-        }
-        else
+        if ($check_from_to == TRUE)
         {
             $beginning = $duration_from_to[1];
             $end = $duration_from_to[2];
+        }
+        else
+        {
+            if ($check_from == TRUE)
+                {
+                    $beginning = $duration_from[1];
+                }
+            if ($check_until == TRUE)
+            {
+                $end = $duration_until[1];
+            }
         }
         preg_match("/Notification or Registration Date:<[^>]*>\s*<[^>]*>([^<]*)/s", $website, $notification_date);
         $notification_date[1] = trim($notification_date[1]);
@@ -447,20 +478,32 @@ foreach ($data2DArray as $data)
                     }
         }
         $check_decision = preg_match_all("/Decision\son\s(\d\d.\d\d.\d\d\d\d):\s*<[^>]*>\s*<[^>]*>(.*)<\/td>/isU", $website, $decisions);
+        $x = 0;
+        preg_match_all("/Decision Text:\s<[^>]*>\s*<[^>]*>\s*([^<]*)<[^>]*>(.*)<\/td>/isU", $website, $decision_texts);
+        foreach ($decision_texts[1] as $decision_text)
+        {
+        $decision_texts[1][$x] = trim($decision_text);
+        preg_match("/<a\shref=\"([^\"]*)[^>]*>([^<]*)/s", $decision_texts[2][$x], $decision_text_link_language[$x]);
+        $x++;
+        }
         $r = 0;
         foreach ($decisions[0] as $decision)
         {
         preg_match_all("/(Art[^<]*)</s",$decisions[2][$r],$decision_article_array[$r]);
-        preg_match_all("/Decision Text:\s<[^>]*>\s*<[^>]*>\s*([^<]*)<[^>]*>(.*)<\/td>/isU", $website, $decision_text[$r]);
-        $decision_text[$r][1] = trim($decision_text[$r][1][0]);
-        preg_match("/<a\shref=\"([^\"]*)[^>]*>([^<]*)/s", $decision_text[$r][2][0], $decision_text_link_language[$r]);
         $r++;
         }
-        $check_press_release = preg_match("/Press release:<[^>]*>\s*<[^>]*>\s*<a\shref\s=\"([^\"]*)\"[^>]*>([^<]*)/s", $website, $press_release);
-        preg_match("/Publication\s*on\s(\d\d.\d\d.\d\d\d\d):\s*<[^>]*>\s*<[^>]*>\s*[^<]*<a\shref=\"([^\"]*)[^>]*>\s*([^\<]*)/s", $website, $publication);
-        $publication[3] = trim($publication[3]);
+        $check_press_release = preg_match_all("/Press release:<[^>]*>\s*<[^>]*>\s*<a\shref\s=\"([^\"]*)\"[^>]*>([^<]*)/s", $website, $press_releases);
+        preg_match_all("/Publication\s*on\s(\d\d.\d\d.\d\d\d\d):\s*<[^>]*>\s*<[^>]*>\s*[^<]*<a\shref=\"([^\"]*)[^>]*>\s*([^\<]*)/s", $website, $publications);
+        $z = 0;
+        foreach ($publications[0] as $publication)
+        {
+        $publications[3][$z] = trim($publications[3][$z]);
+        $z++;
+        }
         $check_summary = preg_match("/Summary\sInfo\sForm:<[^>]*>\s*<[^>]*>\s*<[^>]*>\s*<a\shref=\"([^\"]*)/s", $website, $summary);
         $check_objective = preg_match("/Objective\(s\):<[^>]*>\s*<[^>]*>\s*([^<]*)/s", $website, $objective);
+        preg_match("/Related\scourt\scase\(s\)\:<[^>]*>\s*<[^>]*>\s*<[^>]*>\s*<a href=\"([^\"]*)/s", $website, $court_case);
+        $court_case_clean = preg_replace("/\s/s", "", $court_case[1]);
         // rewrite dates to xsd
         preg_match("/(\d\d).(\d\d).(\d\d\d\d)/s", $beginning, $beginning_match);
         if (count($beginning_match) > 3)
@@ -487,10 +530,15 @@ foreach ($data2DArray as $data)
         }
         $q++;
         }
-        preg_match("/(\d\d).(\d\d).(\d\d\d\d)/s", $publication[1], $publication_match);
+        $z = 0;
+        foreach ($publications[1] as $publication_action)
+        {
+        preg_match("/(\d\d).(\d\d).(\d\d\d\d)/s", $publication_action, $publication_match);
         if (count($publication_match) >3)
         {
-            $publication[1] = $publication_match[3]."-".$publication_match[2]."-".$publication_match[1];
+            $publications[1][$z] = $publication_match[3]."-".$publication_match[2]."-".$publication_match[1];
+        }
+        $z++;
         }
         // write into DB
         mysql_connect('localhost',$username,$password) or die("Unable to connect to database");
@@ -519,15 +567,15 @@ foreach ($data2DArray as $data)
             mysql_query($query_3);
             echo mysql_errno() . ": " . mysql_error()."in economic_activity:".$nace_code." from ".$case_number[1]."\n";
         }
-        $query_4 = "INSERT INTO state_aid (ID,title,country_ID,primary_objective,sector,aid_instrument,case_type,beginning,end,notification_date,dg_responsible,original_url) VALUES 
-            ('".$case_number_clean."','".$title."','".$country_id."','".$primary_objective[1]."','".$nace_code."','".$aid_instrument."','".$case_type[1]."','".$beginning."','".$end."','".$notification_date[1]."','".$responsible[1]."','".$url."')";
+        $query_4 = "INSERT INTO state_aid (ID,title,country_ID,primary_objective,sector,aid_instrument,case_type,beginning,end,notification_date,dg_responsible,original_url,court_case_clean) VALUES 
+            ('".$case_number[1]."','".$title."','".$country_id."','".$primary_objective[1]."','".$nace_code."','".$aid_instrument."','".$case_type[1]."','".$beginning."','".$end."','".$notification_date[1]."','".$responsible[1]."','".$url."','".$court_case_clean."')";
         mysql_query($query_4);
-        echo mysql_errno() . ": " . mysql_error()."in state_aid:".$case_number_clean."\n";
+        echo mysql_errno() . ": " . mysql_error()."in state_aid:".$case_number[1]."\n";
         foreach ($case_array_alternative as $case_my)
         {
-            $query_5 = "INSERT INTO state_aid_relation VALUES ('".$case_number_clean."','".$case_my."')";
+            $query_5 = "INSERT INTO state_aid_relation VALUES ('".$case_number[1]."','".$case_my."')";
             mysql_query($query_5);
-            echo mysql_errno() . ": " . mysql_error()."in state_aid_relation:".$case_number_clean." ".$case_my."\n";
+            echo mysql_errno() . ": " . mysql_error()."in state_aid_relation:".$case_number[1]." ".$case_my."\n";
         }
         // Ab hier weiter
         if ($check_decision != FALSE)
@@ -535,24 +583,32 @@ foreach ($data2DArray as $data)
         $s=0;
         foreach ($decisions[0] as $decision_my)
         {
-            $query_6 = "INSERT INTO decision(date,description,document_link,document_description,article) VALUES ('".$decisions[1][$s]."','".$decision_text[$s][1]."','".$decision_text_link_language[$s][1]."','".$decision_text_link_language[$s][2]."','".$decision_article_array[$s][1][0]."')";
+            $decision_ID = "SA_".$case_number[1]."_".$count_ID;
+            $query_6 = "INSERT INTO decision(ID,date,description,document_link,document_description) VALUES ('".$decision_ID."','".$decisions[1][$s]."','".$decision_texts[1][$s]."','".$decision_text_link_language[$s][1]."','".$decision_text_link_language[$s][2]."')";
             mysql_query($query_6);
-            $decision_ID = mysql_insert_id();
             echo mysql_errno() . ": " . mysql_error()."in decision:".$decision_my."\n";
-        }
-        $query_7 = "INSERT INTO state_aid_decision VALUES ('".$case_number_clean."','".$decision_ID."')";
-        mysql_query($query_7);
-        echo mysql_errno() . ": " . mysql_error()."in state_aid_decision:".$case_number_clean." ".$decision_ID."\n";
-        $s++;
+            $query_7 = "INSERT INTO state_aid_decision VALUES ('".$case_number[1]."','".$decision_ID."')";
+            mysql_query($query_7);
+            echo mysql_errno() . ": " . mysql_error()."in state_aid_decision:".$case_number[1]." ".$decision_ID."\n";
+            $decision_article = $decision_article_array[$s][1];
+            foreach ($decision_article as $article)
+            {
+                $query_19 = "INSERT INTO decision_article VALUES
+                    ('".$decision_ID."','".$article."')";
+                mysql_query($query_19);
+            }
+            $s++;
+            $count_ID++;
+        }        
         }
         foreach ($legal_basis_primary[1] as $legal_basis_primary_my)
         {
-            $query_8 = "INSERT INTO state_aid_legal_basis_primary VALUES ('".$case_number_clean."','".$legal_basis_primary_my."')";
+            $query_8 = "INSERT INTO state_aid_legal_basis_primary VALUES ('".$case_number[1]."','".$legal_basis_primary_my."')";
             mysql_query($query_8);
         }
         foreach ($legal_basis_secondary[1] as $legal_basis_secondary_my)
         {
-            $query_9 = "INSERT INTO state_aid_legal_basis_secondary VALUES ('".$case_number_clean."','".$legal_basis_secondary_my."')";
+            $query_9 = "INSERT INTO state_aid_legal_basis_secondary VALUES ('".$case_number[1]."','".$legal_basis_secondary_my."')";
             mysql_query($query_9);
         }
         if ($check_region != FALSE)
@@ -572,39 +628,49 @@ foreach ($data2DArray as $data)
                     {
                          $region_id = $select_region_code_a[ID];
                     }
-            $query_12 = "INSERT INTO state_aid_region VALUES ('".$case_number_clean."','".$region_id."')";
+            $query_12 = "INSERT INTO state_aid_region VALUES ('".$case_number[1]."','".$region_id."')";
             mysql_query($query_12);
         }
         }
         if ($check_objective != FALSE)
         {
-            $query_13 = "UPDATE state_aid SET objective = '".$objective[1]."' WHERE ID = '".$case_number_clean."'";
+            $query_13 = "UPDATE state_aid SET objective = '".$objective[1]."' WHERE ID = '".$case_number[1]."'";
             mysql_query($query_13);
         }
         if ($check_summary != FALSE)
         {
-            $query_14 = "UPDATE state_aid SET summary = '".$summary[1]."' WHERE ID = '".$case_number_clean."'";
+            $query_14 = "UPDATE state_aid SET summary = '".$summary[1]."' WHERE ID = '".$case_number[1]."'";
             mysql_query($query_14);
         }
-        $query_15 = "INSERT INTO publication (date,link,text) VALUES
-            ('".$publication[1]."','".$publication[2]."','".$publication[3]."')";
-        mysql_query($query_15);
-        $publication_id = mysql_insert_id();
-        $query_16 = "INSERT INTO state_aid_publication VALUES
-            ('".$case_number_clean."','".$publication_id."')";
-        mysql_query($query_16);
-        $query_17 = "INSERT INTO press_release(link,text) VALUES
-            ('".$press_release[1]."','".$press_release[2]."')";
-        mysql_query($query_17);
-        if ($check_press_release != FALSE)
+        $u = 0;
+        foreach ($publications[1] as $publication)
         {
-        $press_release_id = mysql_insert_id();
-        
-        $query_18 = "INSERT INTO state_aid_press_release VALUES
-            ('".$case_number_clean."','".$press_release_id."')";
-        mysql_query($query_18);
+        $publication_ID = "SA_".$case_number[1]."_".$count_ID_3;
+        $query_15 = "INSERT INTO publication (ID,date,link,text) VALUES
+            ('".$publication_ID."','".$publications[1][$u]."','".$publications[2][$u]."','".$publications[3][$u]."')";
+        mysql_query($query_15);
+        $query_16 = "INSERT INTO state_aid_publication VALUES
+            ('".$case_number[1]."','".$publication_ID."')";
+        mysql_query($query_16);
+        $u ++;
+        $count_ID_3++;
         }
+        $y = 0;
+        foreach ($press_releases[0] as $press_release)
+        {
+        $press_release_id = "SA_".$case_number[1]."_".$count_ID_2;
+            $query_17 = "INSERT INTO press_release(id,link,text) VALUES
+            ('".$press_release_id."','".$press_releases[1][$y]."','".$press_releases[2][$y]."')";
+        mysql_query($query_17);
+        $query_18 = "INSERT INTO state_aid_press_release VALUES
+            ('".$case_number[1]."','".$press_release_id."')";
+        mysql_query($query_18);
+        $count_ID_2 ++;
+        $y++;
+        }
+        
     }
+        unset ($article);
         unset ($aid_instrument);
         unset ($beginning);
         unset ($beginning_match);
@@ -680,10 +746,13 @@ foreach ($data2DArray as $data)
         unset ($objective);
         unset ($p);
         unset ($press_release);
+        unset ($press_releases);
         unset ($primary_objective);
         unset ($publication);
+        unset ($publications);
         unset ($publication_ID);
         unset ($publication_date);
+        unset ($publication_date_match);
         unset ($publication_link);
         unset ($publication_link_text);
         unset ($publication_split);
@@ -728,7 +797,11 @@ foreach ($data2DArray as $data)
         unset ($summary);
         unset ($test);
         unset ($title);
+        unset ($u);
         unset ($website);
+        unset ($x);
+        unset ($y);
+        unset ($z);
+        
 }
-
 ?>
