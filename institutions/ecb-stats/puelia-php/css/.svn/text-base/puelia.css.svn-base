@@ -1,0 +1,650 @@
+/*	Less Framework 3
+	by Joni Korpi
+	http://lessframework.com	*/
+
+
+/*	Resets
+	------	*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, q, small, strong, sub, sup, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, 
+article, aside, figure, figcaption, hgroup, footer, header, nav, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, figure, figure img, figcaption, hgroup,
+footer, header, nav, section {
+	display: block;
+}
+
+a img {border: 0;}
+
+figure {position: relative;}
+figure img {width: 100%;}
+
+
+/*	Typography presets
+	------------------	*/
+
+.gigantic {
+	font-size: 110px;
+	line-height: 120px;
+	letter-spacing: -2px;
+}
+
+.huge, h1 {
+	font-size: 68px;
+	line-height: 72px;
+	letter-spacing: -1px;
+}
+
+.large, h2 {
+	font-size: 42px;
+	line-height: 48px;
+}
+
+.big, h3 {
+	font-size: 26px;
+	line-height: 36px;
+}
+
+.normal, body {
+	font: 16px/24px Helvetica, Arial, sans-serif;
+}
+
+.small {
+	font-size: 13px;
+	line-height: 18px;
+} 
+
+
+/*	Default 8-column layout
+	60 px columns, 24 px gutters, 60 px margins, 768 px total
+	---------------------------------------------------------
+	1     2      3      4      5      6      7      8     
+	60px  144px  228px  312px  396px  480px  564px  648px	*/
+
+body {
+	background: rgb(232,232,232);
+	padding: 84px 60px 0;
+	width: 648px;
+	-webkit-tap-highlight-color: rgb(255,255,0);
+}
+
+::selection 	 {background: rgb(255,255,0);}
+::-moz-selection {background: rgb(255,255,0);}
+
+#example {
+	height: 600px;
+	background: rgb(60,97,158);
+}
+
+
+/*	13-column layout
+	60 px columns, 24 px gutters, 72 px margins, 1212 px total (extra space for scrollbars)
+	---------------------------------------------------------------------------------------
+	1     2      3      4      5      6      7      8      9      10     11     12     13
+	60px  144px  228px  312px  396px  480px  564px  648px  732px  816px  900px  984px  1068px	*/
+
+@media only screen and (min-width: 1212px) {
+	
+	body {
+		padding: 96px 72px 0;
+		width: 1068px;
+	}
+	
+}
+
+
+/*	5-column layout
+	60 px columns, 24 px gutters, 42 px margins, 480 px total
+	---------------------------------------------------------
+	1     2      3      4      5
+	60px  144px  228px  312px  396px	*/
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+	
+	body {
+		padding: 60px 42px 0;
+		width: 396px;
+		-webkit-text-size-adjust: 100%;
+	}
+	
+}
+
+
+/*	3-column layout
+	60 px columns, 24 px gutters, 46 px margins, 320 px total
+	---------------------------------------------------------
+	1     2      3
+	60px  144px  228px	*/
+
+@media only screen and (max-width: 479px) {
+	
+	body {
+		padding: 48px 46px 0;
+		width: 228px;
+		-webkit-text-size-adjust: 100%;
+	}
+	
+}
+
+
+/* Morph */
+
+
+* {
+padding: 0;
+margin: 0;
+}
+
+body {
+background-color: #fff;
+color: #333;
+font-family: arial, sans-serif;
+font-size: 70%;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, table, form {
+margin: 10px 0;
+}
+
+
+table {
+border: 1px solid #9bc;
+border-collapse: collapse;
+}
+
+th {
+background-color: #9bc;
+color: #fff;
+padding: 3px 5px;
+border-right: 1px dashed #fff;
+}
+
+td {
+border-bottom: 1px solid #9bc;
+padding: 3px 5px;
+border-right: 1px dashed #9bc;
+}
+
+form {
+padding: 10px;
+margin: 0 0 10px;
+border: 1px solid #9bc;
+margin-top: 3em;
+
+background-position: -100px -100px;
+}
+
+legend {
+color: #000;
+font-weight: bold;
+padding: 0 4px;
+}
+
+ul, ol {
+margin-left: 25px;
+}
+
+form label {
+font-weight: bold;
+margin: 10px 0 2px;
+}
+
+
+form fieldset input.large {
+width: 100%;
+}
+
+form table {
+margin: 10px 0;
+}
+
+input.button {
+display: inline;
+width: auto !important;
+}
+
+form textarea {
+width: 100%;
+height: 400px;
+display: block;
+}
+
+
+span.dc-creator {
+font-style: italic;
+}
+dt {
+font-weight: bold;
+}
+dd {
+margin-left: 4em;
+}
+
+
+nav {
+margin-top: 1.5em;
+}
+
+nav a {
+text-decoration: none;
+font-size: 1.25em;
+}
+
+.site_name {
+padding-top: 0.5em;
+padding-bottom: 0.5em;
+margin-left: 0;
+margin-right: 0;
+margin-bottom: 3em;
+width: 100%;
+text-align: center;
+}
+
+
+
+a {
+color: #963666;
+}
+a:visited {
+color: #777;
+}
+
+a:hover {
+color: #999;
+}
+
+
+.contents {
+clear: both;
+width: 70%;
+margin: auto;
+font-family: "Tahoma", Helvetica, sans-serif;
+}
+h1 {
+margin-top: 1em;
+font-size: 1.75em;
+font-weight: normal;
+margin-left: 0;
+}
+form.search {
+padding: 1em;
+}
+form input, textarea {
+font-size: 1.5em;
+}
+input.literal, input.resource {
+	width: 40em;
+}
+.lang_label {
+font-style: italic;
+}
+.pager a {
+margin: 2em;
+font-size: 2em;
+text-decoration: none;
+}
+
+body {
+/*	background-image: url(bigfoot-logo.png);*/
+	background-repeat: no-repeat;
+background-position: 55% 0%;
+}
+
+hr {
+margin: 1em;
+}
+
+dd {
+margin-bottom: 1em;
+}
+.footer {
+text-align: right;
+padding: 1em;
+}
+
+input.url {
+width: 18em;
+}
+
+li span.uri {
+font-size: smaller;
+font-style: italic;
+font-weight: normal;
+}
+
+ul.inverse {
+list-style-type: none;
+}
+ul.inverse li {
+padding: 0.5em;
+}
+li .counter {
+font-size: small;
+padding: 1em;
+}
+.action {
+display: inline;
+padding-left: 1em;
+}
+
+form.action {
+width: 10em;
+}
+
+form label, fieldset {
+padding: 1em;
+margin: 0.5em;
+}
+
+dt {
+font-weight: bold;
+font-size: 105%;
+color: #000;
+}
+
+img {
+max-width: 20em;
+}
+
+.-rdf-Resource {
+border: dotted 3px #ccddee;
+margin: 0.75em;
+padding: 0;
+}
+.-rdf-Resource dl {
+padding: 0.5em;
+}
+.-rdf-Resource h2.dc-title {
+color: #675F7D;
+font-size: 100%;
+padding: 0.5em;
+margin: 0;
+display: block;
+overflow: auto;
+}
+
+.rdf-type
+{
+	display: block;
+	float: right;
+	clear: right;
+	font-size: small;
+	font-weight: lighter;
+}
+.js-action
+{
+	font-size: 70%;
+	display: block;
+	float: right;
+	font-weight: lighter;
+	padding: 0.3em;
+}
+
+.action {
+	padding: 0.25em;
+	background-image: url('green-gradient.png');
+	color: white;
+	border: solid 2px #ccc ;
+	text-decoration: none;
+	margin-left: 1em;
+}
+a.action
+{
+	font-size: 100%;
+}
+a.action:visited
+{
+	color: white;
+}
+h1
+{
+	overflow: auto;
+}
+
+*>a.js-action
+{
+	display: none;
+}
+*:hover>a.js-action
+{
+	display: inline;
+	color: white;
+}
+
+.message, .error
+{
+	padding: 1em;
+}
+.error{ color: red;}
+
+
+form
+{
+	background-color: #f5f5f5;
+}
+form.edit li
+{
+	padding: 0.5em;
+	list-style-position: outside;
+}
+div.site_name a
+{
+	text-decoration: none;
+}
+div.facet *
+{
+	padding: 0.25em;
+	font-size: 110%;
+}
+div.footer
+{
+	clear: both;
+	padding: 1em;
+	margin-top: 3em;
+	font-size: larger;
+}
+
+
+div.formats > div{
+	width: 33%;
+	float: left;
+	font-style: normal;
+	padding: 0.5em;
+}
+div.formats h2
+{
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	font-style: normal;
+}
+.powered_by
+{
+	font-size: smaller;
+	clear:both;
+}
+textarea.turtle
+{
+	font-size: 130%;
+}
+.-http-Response
+{
+	text-align: left;
+	color: #222;
+	font-weight: normal;
+}
+.augmented{
+	background: #FCFAC8;
+}
+nav
+{
+  clear: right;
+	width: auto;
+	text-align: right;
+}
+nav ul {
+	list-style-type: none;
+	float:right;
+}
+nav ul li {
+	margin: 0.5em;
+}
+nav a
+{
+	padding: 1.5em;
+	font-size: 12pt;
+	font-weight: bold;
+}
+.message, .error, .footer, nav
+{
+	font-family:  helvetica, sans-serif;
+}
+.message
+{
+	font-style: italic;
+}
+label
+{
+	color: #111;
+}
+.site_name a
+{
+	font-size: 30pt;
+	color: green;
+	font-family: "arial","helvetica","verdana", sans-serif;	
+}
+a#add-data-uri 
+{
+	display: block;
+	float: right;
+	clear:both;
+	width: 8em;
+	margin: 0.25em;
+	margin-right: 0.75em;
+	margin-bottom: 0.75em;
+}
+a#add-data-uri:hover {
+	color: #ffe;
+}
+.site_name .instance-label {
+	color: #909975;
+}
+fieldset {
+	border: 3px solid #fff;
+	clear:both;
+}
+.uri {
+	font-weight:bold;
+	text-decoration: none;
+	margin-left: 0.75em;
+	font-size: 110%;
+}
+
+/* end Morph stylesheet */
+
+
+
+
+
+
+
+
+
+
+
+
+dl.api-properties {
+	margin-left: 2em;
+}
+
+header, div.header {
+	font-size: 2em;
+	color: green;
+	margin-bottom: 1.5em;
+	padding-top: 1em;
+}
+dl.variables  dt {
+	font-weight: normal;
+	font-style: italic;
+}
+div.footer {
+	margin-top: 5em;
+	border-top: solid 1px green;
+	padding-top: 1em;
+}
+div.API h2 {
+	color: #99195B;
+	font-size: 2.5em;
+}
+div.API h3 {
+	color: #99195B;
+	font-size: 1.25em;
+}
+
+div.API {
+	border: dashed 1px #99195B;
+	padding: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+ul.formatters {
+	margin: 0;
+	padding:0;
+}
+ul.formatters li dl {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	padding-left: 0.5em;
+}
+ul.formatters li {
+	border: dashed 1px #99195B;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	padding: 0.5em;
+	
+	display: block;
+}
+
+dd.viewers dd.properties ul li {
+	display: inline;
+}
+dd.viewers dl, dd.viewers h4 {
+	margin: 0;
+}
+dd.viewers h4 {
+	font-weight: bold;
+}
+dd.viewers dt {
+	font-size: 99%;
+	text-transform: lowercase;
+}
+
+code {
+	font-size: 1.5em;
+	font-family: monaco, monospace;
+}
+dt>code {
+	font-size: 1em;
+}
+
+# dt, dd { display: block; float: left; margin-top: 20px; }
+# dt { clear: both; }
+
+footer {
+	clear: both;
+}
+
+footer li {
+  display:  inline;
+}
+caption {
+  font-size: 16pt;
+}

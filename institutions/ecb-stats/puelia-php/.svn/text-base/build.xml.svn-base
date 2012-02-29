@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="puelia" default="all">
+
+<property name="test-dir" location="tests" />
+<property name="reports-dir" location="reports" />
+<property name="test" value="**" />
+
+<condition property="phpunit-exe" value="phpunit.bat">
+	<os family="windows" />
+</condition>
+
+<condition property="phpunit-exe" value="phpunit">
+	<os family="unix" />
+</condition>
+
+<target name="all" depends="unit-tests-with-coverage" />
+
+<target name="unit-tests">
+	<echo message="Running puelia unit tests"/>
+	<exec dir="${test-dir}" executable="${phpunit-exe}" failonerror="true" >
+		<arg line="--verbose --log-xml ${reports-dir}/unittests/report.xml --filter ${test} puelia-runtests.php" />
+	</exec>
+</target>
+
+<target name="unit-tests-with-coverage">
+	<echo message="Running puelia unit tests with code coverage"/>
+	<exec dir="${test-dir}" executable="${phpunit-exe}" failonerror="true" >
+		<arg line="--verbose --log-xml ${reports-dir}/unittests/report.xml --coverage-html ${reports-dir}/coverage --filter ${test} puelia-runtests.php" />
+	</exec>
+</target>
+
+</project>

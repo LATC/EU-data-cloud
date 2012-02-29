@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/extractors
+END
+ARC2_DcExtractor.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/extractors/ARC2_DcExtractor.php
+END
+ARC2_RDFExtractor.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/extractors/ARC2_RDFExtractor.php
+END
+ARC2_RdfaExtractor.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/extractors/ARC2_RdfaExtractor.php
+END
+ARC2_OpenidExtractor.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/extractors/ARC2_OpenidExtractor.php
+END
+ARC2_TwitterProfilePicExtractor.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/extractors/ARC2_TwitterProfilePicExtractor.php
+END
+ARC2_ErdfExtractor.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/extractors/ARC2_ErdfExtractor.php
+END
+ARC2_MicroformatsExtractor.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/extractors/ARC2_MicroformatsExtractor.php
+END
+ARC2_PoshRdfExtractor.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/extractors/ARC2_PoshRdfExtractor.php
+END

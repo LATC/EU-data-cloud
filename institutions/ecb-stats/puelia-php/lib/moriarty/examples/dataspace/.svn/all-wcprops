@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/273/trunk/examples/dataspace
+END
+plain.tmpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/145/trunk/examples/dataspace/plain.tmpl.html
+END
+dataspace.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/273/trunk/examples/dataspace/dataspace.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/144/trunk/examples/dataspace/index.php
+END
+sample.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/144/trunk/examples/dataspace/sample.htaccess
+END

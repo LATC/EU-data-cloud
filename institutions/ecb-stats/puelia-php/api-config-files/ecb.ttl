@@ -1,0 +1,110 @@
+@base <http://ecb.publicdata.eu/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix api: <http://purl.org/linked-data/api/vocab#> .
+@prefix gc: <http://puelia-php.googlecode.com/svn/trunk/documents/config.ttl#> .
+@prefix rel: <http://vocab.org/relationship/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sdmx:    <http://purl.org/linked-data/sdmx#> .
+@prefix sdmx-dim:    <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix qb:      <http://purl.org/linked-data/cube#> .
+@prefix puelia: <http://purl.org/puelia-php/ns#> .
+@prefix ecbstats: <http://ecb.publicdata.eu/schema/> .
+@prefix xhtml: <http://www.w3.org/1999/xhtml#> .
+
+<api>
+  a api:API ;
+  rdfs:label "European Central Bank Statistics"@en ; 
+  dcterms:creator <http://keithalexander.co.uk/id/me> ;
+  dcterms:description """API for European Central Bank Statistics """@en ;
+  api:endpoint  
+                <list_DataSets>,
+                <list_series>, 
+                <list_topics> , 
+                <list_codelists> , 
+                <item_codes>, 
+                <item_codelist> , 
+                <item_ecb_concepts>,
+                <item_DataSet>  ;
+
+  api:contentNegotiation api:parameterBased ;
+  api:sparqlEndpoint <http://ecb.publicdata.eu/sparql/> ;
+  api:defaultFormatter <formatter_html> ;
+  api:vocabulary qb:, dcterms: ;
+  api:defaultPageSize 10 ;
+  api:defaultViewer api:labelledDescribeViewer ;
+  api:viewer api:labelledDescribeViewer ;
+  api:viewer api:basicViewer ;
+  api:viewer api:describeViewer ;
+  api:variable [
+    api:name "base" ;
+    api:value "http://ecb.publicdata.eu/" ;
+  ]  ;
+  api:formatter api:RdfJsonFormatter , api:JsonFormatter , <formatter_html> ;
+.
+
+<list_series> a api:ListEndpoint ;
+  api:uriTemplate "/doc/series" ;
+  rdfs:label "Series" ;
+  api:selector [ api:filter "type=Slice" ] .
+
+<list_DataSets> a api:ListEndpoint ;
+  api:uriTemplate "/doc/dataset" ;
+  rdfs:label "Datasets" ;
+  api:selector [ api:filter "type=DataSet" ]  ;
+  api:defaultViewer api:basicViewer .
+
+
+
+<list_topics> a api:ListEndpoint ;
+  api:uriTemplate "/topics" ;
+  rdfs:label "Topics" ;
+  api:selector [ api:filter "type=Concept&inScheme=ECBConcepts" ] .
+
+<list_codelists> a api:ListEndpoint ;
+  api:uriTemplate "/codes" ;
+  rdfs:label "Codes" ;
+  api:selector [ api:filter "type=ConceptScheme" ] ;
+.
+
+<item_codes> a api:ItemEndpoint ;
+  api:uriTemplate "/doc/codes/{list}/{code}" ;
+  api:itemTemplate "http://ecb.publicdata.eu/codes/{list}/{code}" ;
+.
+
+<item_codelist> a api:ItemEndpoint ;
+  api:uriTemplate "/doc/codes/{list}" ;
+  api:itemTemplate "http://ecb.publicdata.eu/codes/{list}" ;
+.
+
+<item_ecb_concepts> a api:ItemEndpoint ;
+  api:uriTemplate "/doc/conceptscheme/{scheme}" ;
+  api:itemTemplate "http://ecb.publicdata.eu/conceptscheme/{scheme}" ;
+.
+
+<item_DataSet> a api:ItemEndpoint ;
+  api:uriTemplate "/doc/dataset/{dataset_id}" ;
+  api:itemTemplate  "http://ecb.publicdata.eu/dataset/{dataset_id}";
+.
+# Formatters
+
+<formatter_html> a api:XsltFormatter ;
+  api:name "html" ;
+  rdfs:label "HTML" ;
+  api:stylesheet "views/xslt-styles/result.xsl" ;
+  api:mimeType "text/html" , "application/xhtml+xml";
+.
+
+
+skos:inScheme api:label "inScheme" .
+skos:Concept api:label "Concept" .
+qb:Slice api:label "Slice" .
+qb:ConceptScheme api:label "ConceptScheme" .
+rdf:type api:label "type" .
+<http://ecb.publicdata.eu/concepts> api:label "ECBConcepts" .
+qb:DataSet api:label "DataSet" .

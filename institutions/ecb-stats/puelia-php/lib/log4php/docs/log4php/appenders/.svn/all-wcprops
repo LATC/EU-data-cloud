@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/docs/log4php/appenders
+END
+LoggerAppenderEcho.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/docs/log4php/appenders/LoggerAppenderEcho.html
+END
+LoggerAppenderFile.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/docs/log4php/appenders/LoggerAppenderFile.html
+END
+LoggerAppenderSyslog.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/docs/log4php/appenders/LoggerAppenderSyslog.html
+END
+LoggerAppenderPDO.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/docs/log4php/appenders/LoggerAppenderPDO.html
+END
+LoggerAppenderMail.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/docs/log4php/appenders/LoggerAppenderMail.html
+END
+LoggerAppenderConsole.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/docs/log4php/appenders/LoggerAppenderConsole.html
+END
+LoggerAppenderDailyFile.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/docs/log4php/appenders/LoggerAppenderDailyFile.html
+END
+LoggerAppenderMailEvent.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/docs/log4php/appenders/LoggerAppenderMailEvent.html
+END
+LoggerAppenderRollingFile.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/docs/log4php/appenders/LoggerAppenderRollingFile.html
+END
+LoggerAppenderPhp.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/docs/log4php/appenders/LoggerAppenderPhp.html
+END
+LoggerAppenderSocket.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/docs/log4php/appenders/LoggerAppenderSocket.html
+END
+LoggerAppenderAdodb.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/docs/log4php/appenders/LoggerAppenderAdodb.html
+END
+LoggerAppenderNull.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/docs/log4php/appenders/LoggerAppenderNull.html
+END

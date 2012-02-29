@@ -6,6 +6,8 @@ class InstitutionScraper extends EUScraper {
 
   var $slugPrefix = 'institutions';
 
+  var $topLevelInstitution = null;
+
   function setSlugPrefix($val){
     $this->slugPrefix = $val;
   }
@@ -14,8 +16,15 @@ class InstitutionScraper extends EUScraper {
     return $this->slugPrefix;
   }
 
+
+  function setTopLevelInstitution($uri){
+    $this->topLevelInstitution = $uri;
+  }
+
   function scrape($linkSubject=false, $linkPredicate=false, $inverseLinkPredicate=false ){
     global $scrapedNodes;
+    global $publicInstitutionsGraph;
+
     $this->translateLabelsOnPage(WHOISWHO_SUB_ORGANISATION_LINKS_XPATH);
     if($linkSubject){
       $uri = $linkSubject;
@@ -26,8 +35,9 @@ class InstitutionScraper extends EUScraper {
         }
        if(!empty($address)) $this->graph->add_literal_triple($uri, OV.'postalAddress', trim($address));
     }
-    
-    foreach($this->xpath->query(WHOISWHO_SUB_ORGANISATION_LINKS_XPATH) as $link){
+
+    $subOrganisations = $this->xpath->query(WHOISWHO_SUB_ORGANISATION_LINKS_XPATH);
+    foreach($subOrganisations as $link){
           $nodeId = $this->getNodeIdFromUrl($link->getAttribute('href'));
           if(in_array($nodeId, $scrapedNodes)){
             $this->log_message("Already scraped node $nodeId");
@@ -42,8 +52,17 @@ class InstitutionScraper extends EUScraper {
           $type = $this->choose_type($label);
           $this->add_resource($uri, $type, $label, 'en-gb');
           $this->graph->add_resource_triple($uri, FOAF_PAGE, $webPageUri);
-          $sameAs = array_shift($this->publicInstitutionsGraph->get_subjects_where_literal(DCT.'title', $label)); 
-          if($sameAs) $this->graph->add_resource_triple($uri, OWL_SAMEAS, $sameAs);
+          $this->graph->add_resource_triple($uri, ORG.'transitiveSubOrganisationOf', $this->topLevelInstitution);
+          if($this->getNodeIdFromUrl($this->pageUri)!=4180){
+            $sameAs = array_shift($publicInstitutionsGraph->get_subjects_where_literal(DCT.'title', $label)); 
+            if($sameAs){
+              $this->graph->add_resource_triple($uri, OWL_SAMEAS, $sameAs);
+              $this->graph->remove_property_values($uri, RDF_TYPE);
+              foreach($publicInstitutionsGraph->get_resource_triple_values($sameAs, RDF_TYPE) as $type){
+                $this->graph->add_resource_triple($uri, RDF_TYPE, $type);
+              }
+            }
+          }
           if($linkSubject &&$linkPredicate){
             $this->graph->add_resource_triple($linkSubject, $linkPredicate, $uri);
           } 
@@ -51,13 +70,15 @@ class InstitutionScraper extends EUScraper {
             $this->graph->add_resource_triple($uri, $inverseLinkPredicate, $linkSubject);
           }
 
-         $InstitutionScraper = new InstitutionScraper($webPageUri, $this->publicInstitutionsGraph);
-         $InstitutionScraper->scrape($uri, ORG.'hasSubOrganization', ORG.'transitiveSubOrganisationOf');
-         $this->graph->add_graph($InstitutionScraper->get_graph());
-         echo $this->graph->to_ntriples();
-         $this->graph = new SimpleGraph();
+         $InstitutionScraper = new InstitutionScraper($webPageUri);
+        $InstitutionScraper->setTopLevelInstitution($this->topLevelInstitution);
+          
+         $InstitutionScraper->scrape($uri, ORG.'hasSubOrganization', ORG.'subOrganisationOf');
+         //$this->graph->add_graph($InstitutionScraper->get_graph());
+          $this->flushNtriples();
       }    
 
+    $thisNodeId = $this->getNodeIdFromUrl($this->pageUri);
     foreach($this->xpath->query("//a[contains(@href, 'personID=')]") as $a){
           global $scrapedPeople;
           $personId = $this->getPersonIdFromUrl($a->getAttribute('href'));
@@ -68,11 +89,13 @@ class InstitutionScraper extends EUScraper {
             $scrapedPeople[]=$personId;
           
           $webPageUri = str_replace('&lang=en','', 'http://europa.eu/whoiswho/public/'.$a->getAttribute('href'));
-          $personScraper = new EUPersonScraper($webPageUri, $this->publicInstitutionsGraph);
+          $webPageUri = str_replace('&nodeID='.$thisNodeId, '', $webPageUri);
+          $personScraper = new EUPersonScraper($webPageUri);
           $personScraper->scrape();
       }
     }
   
+    $this->flushNtriples();
   }
 
 }

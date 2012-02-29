@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/configurators
+END
+test1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/configurators/test1.xml
+END
+LoggerConfiguratorPhpTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/configurators/LoggerConfiguratorPhpTest.php
+END
+test1.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/configurators/test1.php
+END
+LoggerConfiguratorIniTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/configurators/LoggerConfiguratorIniTest.php
+END
+LoggerConfiguratorXmlTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/configurators/LoggerConfiguratorXmlTest.php
+END
+LoggerConfiguratorBasicTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/configurators/LoggerConfiguratorBasicTest.php
+END
+test1.properties
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/configurators/test1.properties
+END
+test2.properties
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/configurators/test2.properties
+END
+test3.properties
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/configurators/test3.properties
+END
+test4.properties
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/configurators/test4.properties
+END

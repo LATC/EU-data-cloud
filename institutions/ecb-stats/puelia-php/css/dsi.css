@@ -1,0 +1,80 @@
+#openSearch {
+  display: none;
+}
+
+tr.related td.filter {
+  display: none;
+}
+tr.type {
+}
+
+body { 
+	margin: 0px; 
+	padding: 0px; 
+	background: #000;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;  
+}
+
+h1 { 
+	margin-top: 0px; 
+	margin-bottom: 0px;  
+	padding-bottom: 0px; 
+	font-size: 26pt; 
+}
+
+h2, h3 { 
+	font-size: 18pt; 
+	margin-bottom: 0px;
+}
+
+img { 
+	border: 0px solid white; 
+}
+
+a { 
+	color: #77f; 
+	text-decoration: none; 
+}
+
+a:hover { 
+	text-decoration: underline; 
+}
+
+
+
+.uri-link {
+  cursor: pointer ;
+  font-size: 90%;
+  font-family: Courier, Monaco, monospace;
+  padding: 2px;
+  padding-left: 5px;
+  float: right;
+  color: white;
+  background-color: orange;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #888;
+}
+
+.uri-link span.uri {
+}
+
+.uri-link input {
+  font-size: 100%;
+}
+  
+li.format-json , li.format-xml , li.format-rdf, li.format-html {
+  display: none !important;
+}
+
+
+input#_search {
+  margin: 1em 0em 1em 1em;
+  font-size: 110%;
+}
+
+header h1 {
+  background-image: none !important;
+  font-size: 24pt;
+  margin-left: 0;
+  padding-left: 1.5em;
+}

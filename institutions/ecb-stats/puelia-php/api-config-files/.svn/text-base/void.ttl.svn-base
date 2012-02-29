@@ -1,0 +1,607 @@
+@base <http://dsi.lod-cloud.net/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix api: <http://purl.org/linked-data/api/vocab#> .
+@prefix rel: <http://vocab.org/relationship/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix rev: <http://purl.org/stuff/rev#> .
+@prefix moat: <http://moat-project.org/ns#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix puelia: <http://purl.org/puelia-php/ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ov: <http://open.vocab.org/terms/> .
+@prefix xhtml: <http://www.w3.org/1999/xhtml#> .
+@prefix dsi:     <http://dsi.lod-cloud.net/vocab#> .
+@prefix vann:   <http://purl.org/vocab/vann/> .
+@prefix ssd: <http://www.w3.org/ns/sparql-service-description#> .
+
+<api> a api:API ;
+        rdfs:label "Dataset Inventory"@en ;
+        xhtml:icon <http://latc-project.eu/sites/default/files/latc-favicon.png> ;
+        api:maxPageSize "50";
+        api:defaultPageSize "26" ;
+        api:endpoint
+                  <search>,
+                  # Datasets 
+                  <item_dataset> , 
+                  <item_dataset_subnode> ,
+                  <list_datasets>, 
+#                  <list_datasets_recently_changed>,
+#                  <list_datasets_without_linksets> ,
+                  <list_datasets_linked_with> ,
+                  <list_datasets_linked_to> ,
+                  <list_datasets_linked_from> ,
+                  <list_datasets_by_theme> ,
+                  <list_datasets_by_license> ,
+                  <list_datasets_by_tag> ,
+                  <list_datasets_by_vocabulary> ,
+
+                  # Linksets
+                  <item_linkset> ,
+                  <item_linkset_subnode> ,
+                  <list_linksets> , 
+                  <list_linksets_by_target> ,
+
+                  # Tags
+                  <list_tags> ,
+                  <item_tag> ,
+
+                  #Themes
+                  <item_theme> ,
+                  <list_themes> , 
+                  # Licenses
+                  <list_licenses> ,
+                  <item_license> ,
+
+                  
+                  #Vocabularies
+
+                  <list_vocabularies> ,
+                  <list_vocabularies_used_with>;
+
+        api:sparqlEndpoint <http://api.talis.com/stores/latc-mds/services/sparql> ;
+#        api:vocabulary  void: , dcterms:  ;
+        dcterms:description "An API to give access to a dataset of voiD Dataset descriptions."@en-gb ;
+        
+
+# Formatters
+
+ api:formatter api:RdfJsonFormatter , <formatter_atom> , <formatter_html>  ;
+ api:defaultFormatter <formatter_html> ;
+
+ api:defaultViewer api:labelledDescribeViewer ; 
+ api:viewer 
+            api:describeViewer ,
+            api:labelledDescribeViewer ,
+             <viewer_concise> ,
+              <viewer_license_and_provenance> ,
+              <viewer_topic> ,
+              <viewer_stats> ,
+              <viewer_stats_subset> ;
+              
+ 
+#   Variables 
+#
+
+  api:variable [
+    api:name "dataset" ;
+    api:value "http://lod-cloud.net/dataset/{dataset_name}" ;
+    api:type rdfs:Resource ;
+  ] ;
+  api:variable [
+    api:name "theme" ;
+    api:value "http://lod-cloud.net/themes/{theme_name}" ;
+    api:type rdfs:Resource ;
+  ] ;
+
+puelia:inverseProperty <linkset> , <isLicenseOf> , <isTagOf> , <isExampleResourceOf> ;
+puelia:javascript </scripts/dsi.js> ;
+xhtml:stylesheet </css/dsi.css> ;
+         .
+
+
+<search> a puelia:SearchEndpoint ;
+  api:uriTemplate "/search" ;
+  api:label "Search for: {_search}";
+  puelia:rssTextSearchIndex <http://api.talis.com/stores/latc-mds/items> ;
+  api:defaultViewer <viewer_concise> ;
+.
+
+<item_tag> a api:ItemEndpoint ;
+  api:uriTemplate "/tag/{tag}" ;
+  api:itemTemplate "http://lod-cloud.net/tag/{tag}" ;
+  api:defaultViewer api:labelledDescribeViewer ;
+  puelia:endpointRelatedToResultItems <list_datasets_by_tag> ;
+.
+
+<item_theme> a api:ItemEndpoint ;
+  api:uriTemplate "/theme/{theme_name}";
+  api:itemTemplate "http://lod-cloud.net/themes/{theme_name}" ;
+  puelia:endpointRelatedToResultItems <list_datasets_by_theme> ;
+.
+
+<item_dataset> a api:ItemEndpoint ;
+  api:uriTemplate "/dataset/{dataset_name}" ;
+  api:itemTemplate "http://lod-cloud.net/dataset/{dataset_name}" ;
+  api:defaultViewer <viewer_dataset_linksets>;
+  api:viewer  
+            <viewer_dataset>,
+            <viewer_dataset_with_access> , 
+            <viewer_stats> , 
+            <viewer_stats_subset> ,
+            <viewer_topic> ,
+            <viewer_license_and_provenance> ,
+            <viewer_dataset_linksets>;
+  .
+
+<item_dataset_subnode> a api:ItemEndpoint ;
+  api:uriTemplate "/dataset/{name}/{nodeID}" ;
+  api:itemTemplate "http://lod-cloud.net/{name}/{nodeID}" ;
+  .
+
+
+<item_linkset> a api:ItemEndpoint ;
+  api:uriTemplate "/linkset/{linkset_name}" ;
+  api:itemTemplate "http://lod-cloud.net/latc-linksets/{linkset_name}" ;
+  api:defaultViewer <viewer_linksets> ;
+.
+
+<item_linkset_subnode> a api:ItemEndpoint ;
+  api:uriTemplate "/latc-linksets/{linkset_id}/datasets/{dataset_name}" ;
+  api:itemTemplate "http://lod-cloud.net/latc-linksets/{linkset_id}/datasets/{dataset_name}" ;
+.
+
+<item_license> a api:ItemEndpoint ;
+  api:uriTemplate "/license/{license_key}" ;
+  api:itemTemplate "http://purl.org/okfn/licenses/{license_key}" ;
+  api:defaultViewer <viewer_datasets_of_license>;
+.
+
+<item_vocabulary> a api:ItemEndpoint ;
+  api:uriTemplate "/vocabulary/{prefix}/{base}" ;
+  api:itemTemplate "{base}" ;
+.
+
+<list_datasets>
+    rdfs:label "Datasets"@en-gb; 
+    a api:ListEndpoint ;
+    api:uriTemplate "/datasets" ;
+    api:exampleRequestPath "/datasets" ;
+      api:selector [
+                      api:filter "type=Dataset&isPartOf=lodcloud" ;
+                      api:sort "-modified" ;
+                    ] ;
+  api:defaultViewer <viewer_dataset> ;
+  api:viewer <viewer_dataset_linksets>, 
+            <viewer_stats> , 
+            <viewer_dataset_with_access> , 
+            <viewer_license_and_provenance>, 
+            <viewer_topic> ;
+ .
+
+<list_datasets_recently_changed>
+    rdfs:label "Recently Changed Datasets"@en-gb; 
+    a api:ListEndpoint ;
+    api:uriTemplate "/datasets/recently-changed" ;
+    api:exampleRequestPath "/datasets/recently-changed" ;
+      api:selector [
+                      api:filter "type=Dataset" ;
+                      api:sort "-modified" ;
+                    ] ;
+  api:defaultViewer <viewer_license_and_provenance> ;
+ .
+
+<list_datasets_without_linksets>
+  a api:ListEndpoint ;
+  rdfs:label "Datasets Without Linksets"@en;
+  api:uriTemplate "/datasets/without-linksets" ;
+  api:selector [
+       # api:filter "type=Dataset&exists-linksets=false" ;
+        api:where " ?item a void:Dataset . \n \n OPTIONAL { ?linkset void:subjectsTarget ?item }\n OPTIONAL { ?linkset void:objectsTarget ?item } \n OPTIONAL { ?linkset void:target ?item } \n FILTER(!bound(?linkset)) " ;
+    ] ;
+  api:defaultViewer <viewer_concise> ;
+.
+
+<list_datasets_by_license> a api:ListEndpoint ;
+        api:label "Datasets By License"@en-gb ;
+        api:uriTemplate "/datasets/license/{licenseID}" ;
+        api:selector  [
+  api:filter "type=Dataset&rights.id={licenseID}" ;
+];
+  api:defaultViewer <viewer_license_and_provenance> ;
+  .
+
+<list_datasets_linked_with> a api:ListEndpoint ;
+  api:uriTemplate "/datasets/linked-with/{dataset_name}" ;
+  api:label "Datasets Linked With {dataset_name}" ;
+  api:selector [
+  api:where """
+      { ?linkset void:target ?dataset , ?item . } 
+    UNION { ?linkset void:subjectsTarget ?dataset ; void:objectsTarget ?item . } 
+    UNION  { ?linkset void:subjectsTarget ?item ; void:objectsTarget ?dataset . } 
+    FILTER(?item!=?dataset)
+  """ ;
+] ;
+  api:defaultViewer <viewer_datasets_linked_with> ;
+
+.
+
+<list_datasets_linked_to> a api:ListEndpoint ;
+  api:uriTemplate "/datasets/linked-to/{dataset_name}" ;
+  api:label "Datasets Linked To {dataset_name}" ;
+  api:selector [
+  api:where "{ ?linkset void:subjectsTarget ?item ; void:objectsTarget ?dataset . }"
+] ;
+  api:defaultViewer <viewer_datasets_linked_with> ;
+.
+
+<list_datasets_linked_from> a api:ListEndpoint ;
+  api:uriTemplate "/datasets/linked-from/{dataset_name}" ;
+  api:label "Datasets Linked From {dataset_name}" ;
+  api:selector [
+  api:where "{ ?linkset void:subjectsTarget ?dataset ; void:objectsTarget ?item . }"
+] ;
+  api:defaultViewer <viewer_datasets_linked_with> ;
+.
+
+<list_datasets_by_theme> a api:ListEndpoint ;
+  api:label "Datasets by theme: {theme_name}" ;
+  api:uriTemplate "/datasets/theme/{theme_name}" ;
+  api:variable [
+    api:name "theme" ;
+    api:value "http://lod-cloud.net/themes/{theme_name}" ;
+    api:type rdfs:Resource ;
+  ] ;
+  api:selector [
+    api:filter "type=Dataset&subject={theme}"
+  ] ;
+  api:defaultViewer <viewer_concise>
+.
+
+
+# Linkset ListEndpoints
+
+<list_linksets>
+  rdfs:label "Linksets"@en-gb;
+  a api:ListEndpoint ;
+  api:uriTemplate "/linksets" ;
+  api:exampleRequestPath "/linksets" ;
+  api:selector [
+    api:filter "type=Linkset" ;
+  ] ;
+  api:defaultViewer <viewer_linksets> ;
+.
+
+<list_linksets_by_target>
+  a api:ListEndpoint ;
+  api:label "Linksets targetting {dataset_name}"@en ;
+  api:uriTemplate "/linksets/target/{dataset_name}" ;
+  api:exampleRequestPath "/linksets/target/dbpedia" ;
+  api:selector [ 
+        api:filter "type=Linkset&target={dataset}" ;
+        api:where """
+                {
+                  ?item void:subjectsTarget ?dataset
+                } UNION 
+                {
+                  ?item void:objectsTarget ?dataset
+                }
+                  UNION
+                {
+                  ?item void:target ?dataset
+                }
+                    """;
+  ] ;
+  api:defaultViewer <viewer_linksets>  ;
+.
+  
+
+
+<list_licenses> a api:ListEndpoint ;
+  api:label "Licenses" ;
+  api:uriTemplate "/licenses" ;
+  api:selector [
+  api:filter "type=License" ;
+] ;
+  api:defaultViewer <viewer_concise> ;
+.
+
+<list_tags> a api:ListEndpoint ;
+  api:uriTemplate "/tags" ;
+  api:label "Tags" ;
+  api:selector [
+    api:filter "type=Tag" ;
+    api:sort "-numberOfDatasetsUsingTag"
+  ] ;
+  api:defaultViewer api:labelledDescribeViewer ;
+.
+
+<list_datasets_by_tag> a api:ListEndpoint ;
+  api:label "Datasets Tagged With {tag}" ;
+  api:uriTemplate "/datasets/tag/{tag}" ;
+  api:selector [
+    api:filter "type=Dataset&taggedWith.tagName={tag}";
+] ; 
+  api:defaultViewer <viewer_concise> ;
+.
+
+<list_themes> a api:ListEndpoint ;
+  api:label "Themes"@en ;
+  api:uriTemplate "/themes" ;
+  api:selector [
+    api:filter "type=Concept"
+] ; 
+  api:defaultViewer api:labelledDescribeViewer ;
+  puelia:endpointRelatedToResultItems <list_datasets_by_theme> ;
+.
+
+<list_vocabularies> a api:ListEndpoint ;
+  api:label "Vocabularies" ;
+  api:uriTemplate "/vocabularies" ;
+  api:selector [
+    api:where "{ ?item vann:preferredNamespacePrefix ?prefix }" ;
+    api:sort "-numberOfDatasetsUsingVocabulary"
+  ] ;
+  puelia:endpointRelatedToResultItems <list_datasets_by_vocabulary> ;
+  puelia:endpointRelatedToResultItems <list_vocabularies_used_with> ;
+.
+
+<list_datasets_by_vocabulary> a api:ListEndoint ;
+  api:label "Datasets using {prefix}" ;
+  api:uriTemplate "/datasets/vocabulary/{prefix}" ;
+  api:selector [
+    api:filter "type=Dataset&vocabulary.prefix={prefix}" ;
+  ] ;
+  api:defaultViewer <viewer_topic> ;
+.
+
+<list_vocabularies_used_with>
+  a api:ListEndpoint ;
+  api:uriTemplate "/vocabularies/used-with/{prefix}" ;
+  api:label "Vocabularies used with {prefix}" ;
+  api:selector [
+    api:where " [] void:vocabulary ?item , ?vocabulary . ?vocabulary vann:preferredNamespacePrefix ?prefix  . ?item vann:preferredNamespacePrefix [] . FILTER(?item!=?vocabulary)" ;
+  ] ;
+.
+
+#
+#
+#  /*  Viewers * /
+#
+#
+
+
+### /* Dataset Viewers */
+
+<viewer_dataset> a api:Viewer ;
+  api:name "dataset" ;
+  api:include <viewer_concise> ;
+  api:properties "exampleResource" ;
+  puelia:endpointRelatedToResultItems <list_datasets_linked_with>  ;
+  puelia:endpointRelatedToResultItems <list_linksets_by_target> ;
+.
+
+<viewer_dataset_linksets> a api:Viewer ;
+        api:name "dataset-linksets" ; 
+        api:include <viewer_dataset> ;
+        api:properties "label,title,shortName,sparqlEndpoint,triples,linkset.*,graphName,subset.*";
+.
+
+<viewer_dataset_with_access>
+  a api:Viewer ;
+  api:name "dataset-access" ;
+  api:properties "exampleResource,sparqlEndpoint,dataDump" ;
+  api:include <viewer_concise> ;
+.
+
+<viewer_concise> a api:Viewer ;
+  api:name "concise" ;
+  api:properties "label,type,title,shortName,subject.prefLabel,seeAlso,sameAs" ;
+.
+
+<viewer_stats> a api:Viewer ;
+  api:name "stats" ;
+  api:include <viewer_dataset> ;
+  api:properties "label,triples,classes,properties,entities,numberOfDatasetsLinkedWith,numberOfDatasetsLinkedFrom,numberOfDatasetsLinkedTo" ;
+ .
+
+<viewer_stats_subsets> a api:Viewer ;
+  api:name "subset-stats" ;
+  api:properties "subset.triples,subset.classes,subset.properties,subset.entities" ;
+  api:include <viewer_stats>
+.
+
+<viewer_topic> a api:Viewer ;
+  api:name "topic" ;
+  api:properties "vocabulary,subject.prefLabel,taggedWith.tagName" ;
+  puelia:endpointRelatedToResultItems <list_vocabularies_related_to> ;
+.
+
+<viewer_license_and_provenance> a api:Viewer ;
+  api:name "license-and-provenance"; 
+  api:properties "rights.label,license.label,modified,created,contributor.*,creator.*" ;
+  api:include <viewer_dataset> ;
+.
+
+<viewer_datasets_linked_with> a api:Viewer ;
+  api:name "datasets-linked" ;
+  api:properties "label,exampleResource" ;
+.
+
+<viewer_linksets> a api:Viewer ;
+  api:name "linksets" ;
+  api:properties "type,label,triples,target,target.label,target.sparqlEndpoint,subjectsTarget,objectsTarget,exampleResource" ;
+.
+
+<viewer_datasets_of_license> a api:Viewer ;
+  api:name "datasets-of-license" ;
+  api:properties "label,title,type,id,label,page,isLicenseOf.label,isLicenseOf.description" ;
+.
+
+
+# Formatters
+
+<formatter_html> a api:XsltFormatter ;
+  api:name "html" ;
+  rdfs:label "HTML" ;
+  api:stylesheet "views/xslt-styles/result.xsl" ;
+  api:mimeType "text/html" , "application/xhtml+xml";
+.
+
+<formatter_atom> a api:XsltFormatter ;
+  api:name "atom" ;
+  rdfs:label "Atom" ;
+  api:stylesheet "views/xslt-styles/atom.xsl" ;
+  api:mimeType "application/atom+xml" ;
+.
+
+#
+# /*   Vocabulary */
+#
+
+# SKOS
+
+skos:prefLabel api:label "prefLabel" .
+skos:Concept api:label "Concept" .
+skos:inScheme api:label "scheme" .
+skos:broader api:label "broader" .
+skos:narrower api:lable "narrower" .
+
+# CC
+cc:License api:label "License" .
+
+# VANN
+
+vann:preferredNamespacePrefix api:label "preferredNamespacePrefix" .
+
+# RDF & RDFS & OWL
+
+rdf:type api:label "type" .
+rdfs:label api:label "label" .
+rdfs:seeAlso api:label "seeAlso" .
+owl:sameAs api:label "sameAs" .
+
+# DCAT
+
+dcat:keyword api:label "keyword" .
+dcat:distribution api:label "distribution" .
+
+# Review
+
+rev:rating 
+    a rdf:Property ;
+    api:label "rating" ;
+    rdfs:range xsd:integer
+ .
+
+# VoID
+
+void:vocabulary api:label "vocabulary" .
+void:sparqlEndpoint api:label "sparqlEndpoint" .
+void:exampleResource api:label "exampleResource" .
+void:triples api:label "triples" ; rdfs:range xsd:integer .
+void:properties api:label "properties" ; rdfs:range xsd:integer .
+void:entities api:label "entities" ; rdfs:range xsd:integer .
+void:distinctSubjects api:label "distinctSubjects" ; rdfs:range xsd:integer .
+void:distinctObjects api:label "distinctObjects" ; rdfs:range xsd:integer .
+void:classes api:label "classes" ; rdfs:range xsd:integer .
+void:documents api:label "documents" ; rdfs:range xsd:integer .
+void:subset api:label "subset" .
+void:Dataset api:label "Dataset" .
+void:Linkset api:label "Linkset" .
+void:target api:label "target" .
+void:subjectsTarget api:label "subjectsTarget"  .
+void:objectsTarget api:label "objectsTarget" .
+void:dataDump api:label "dataDump" .
+
+# DCTERMS
+
+dcterms:title api:label "title" .
+dcterms:description api:label "description" .
+dcterms:identifier api:label "id" .
+dcterms:modified api:label "modified" .
+dcterms:created api:label "created" .
+dcterms:creator api:label "creator" .
+dcterms:contributor api:label "contributor" .
+dcterms:rights api:label "rights" .
+dcterms:subject api:label "subject" .
+dcterms:license api:label "license" .
+dcterms:source api:label "source" .
+dcterms:isPartOf api:label "isPartOf" .
+
+# MOAT
+
+moat:taggedWith api:label "taggedWith" .
+moat:name api:label "tagName" .
+moat:Tag api:label "Tag" .
+
+# FOAF
+
+foaf:page api:label "page" .
+foaf:name api:label "name" .
+
+# OPEN VOCAB
+
+ov:shortName api:label "shortName" .
+
+# Inverse properties
+
+<linkset> api:label "linkset" ; owl:inverseOf void:target , void:objectsTarget , void:subjectsTarget .
+<isExampleResourceOf> api:label "isExampleResourceOf" ; owl:inverseOf void:exampleResource .
+<isLicenseOf> api:label "isLicenseOf" ; owl:inverseOf dcterms:rights ; rdfs:label "is license of dataset"@en-gb .
+<isTagOf> api:label "tags" ; owl:inverseOf moat:taggedWith .
+
+
+# DSI Calculated Properties
+
+dsi:numberOfDatasetsInTheme  
+  a owl:DatatypeProperty ;
+  rdfs:label "Number of Datasets"@en ;
+  api:label "numberOfDatasetsInTheme" ;
+  rdfs:range xsd:integer ;
+.
+
+dsi:numberOfDatasetsUsingLicense 
+  rdfs:label "Number of Datasets"@en ;
+  api:label "numberOfDatasetsUsingLicense" ;
+  rdfs:range xsd:integer ;
+.
+
+dsi:numberOfDatasetsUsingTag 
+  rdfs:label "Number of Datasets"@en ;
+  rdfs:range xsd:integer ;
+  api:label "numberOfDatasetsUsingTag" ;
+.
+
+dsi:numberOfDatasetsLinkedTo 
+  rdfs:label "Number of Datasets Linked To"@en ;
+  rdfs:range xsd:integer ;
+  api:label "numberOfDatasetsLinkedTo" ;
+.
+
+dsi:numberOfDatasetsLinkedFrom 
+  rdfs:label "Number of Datasets Linked From"@en ;
+  rdfs:range xsd:integer ;
+  api:label "numberOfDatasetsLinkedFrom";
+.
+
+dsi:numberOfDatasetsLinkedWith 
+  rdfs:range xsd:integer ;
+  rdfs:label "Number of Datasets Linked With"@en ;
+  api:label "numberOfDatasetsLinkedWith" ;
+.
+dsi:numberOfDatasetsUsingVocabulary 
+  api:label "numberOfDatasetsUsingVocabulary" ;
+  rdfs:range xsd:integer ;
+.
+
+<http://ckan.net/group/lodcloud> api:label "lodcloud" .
+
+ssd:namedGraph api:label "namedGraph" .
+ssd:name api:label "graphName" .

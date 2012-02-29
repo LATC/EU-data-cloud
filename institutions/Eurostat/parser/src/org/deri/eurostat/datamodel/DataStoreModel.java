@@ -78,11 +78,9 @@ public class DataStoreModel {
 		}
 		catch (OpenRDFException e) {
 			System.out.println("Open RDF Exception :" + filePath );
-		   // handle exception
 		}
 		catch (IOException e) {
 			System.out.println("File not found to load into DataStoreModel");
-		   // handle io exception
 		}
 	}
 	
@@ -114,7 +112,7 @@ public class DataStoreModel {
 			   }
 			}
 		catch (OpenRDFException e) {
-		  // handle exception
+		  
 		}
 		
 		return codeListURI;

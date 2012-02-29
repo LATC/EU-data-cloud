@@ -1,0 +1,22 @@
+[submodule "institutions/ecb-stats/arc"]
+        path = institutions/ecb-stats/arc
+        url = git://github.com/semsol/arc2.git
+[submodule "institutions/ecb-stats/curieous"]
+        path = institutions/ecb-stats/curieous
+        url = git://github.com/kwijibo/curieous.git
+[submodule "institutions/EUMIDA/lib/curieous"]
+        path = institutions/EUMIDA/lib/curieous
+        url = git://github.com/kwijibo/curieous.git
+[submodule "institutions/EUMIDA/lib/arc"]
+        path = institutions/EUMIDA/lib/arc
+        url = git://github.com/semsol/arc2.git
+[submodule "institutions/european-election-results/lib/arc"]
+        path = institutions/european-election-results/lib/arc
+        url = git://github.com/semsol/arc2.git
+[submodule "institutions/euwhoiswho/lib/arc"]
+        path = institutions/euwhoiswho/lib/arc
+        url = git://github.com/semsol/arc2.git
+
+[submodule "institutions/ecb-stats/sparql"]
+	path = institutions/ecb-stats/sparql
+	url = git://github.com/kwijibo/sparql-proxy.git

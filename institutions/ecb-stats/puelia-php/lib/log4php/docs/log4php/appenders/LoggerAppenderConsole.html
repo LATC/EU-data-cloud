@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos  -->
+			<title>Docs For Class LoggerAppenderConsole</title>
+			<link rel="stylesheet" href="../../media/stylesheet.css" />
+						<script src="../../media/lib/classTree.js"></script>
+												<script language="javascript" type="text/javascript">
+				var imgPlus = new Image();
+				var imgMinus = new Image();
+				imgPlus.src = "../../media/images/plus.png";
+				imgMinus.src = "../../media/images/minus.png";
+				
+				function showNode(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+							var oImg = document.layers["img" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+							var oImg = document.all["img" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+							var oImg = document.getElementById("img" + Node);
+									break;
+							}
+					oImg.src = imgMinus.src;
+					oTable.style.display = "block";
+				}
+				
+				function hideNode(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+							var oImg = document.layers["img" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+							var oImg = document.all["img" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+							var oImg = document.getElementById("img" + Node);
+									break;
+							}
+					oImg.src = imgPlus.src;
+					oTable.style.display = "none";
+				}
+				
+				function nodeIsVisible(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+									break;
+							}
+					return (oTable && oTable.style.display == "block");
+				}
+				
+				function toggleNodeVisibility(Node){
+					if (nodeIsVisible(Node)){
+						hideNode(Node);
+					}else{
+						showNode(Node);
+					}
+				}
+			</script>
+					</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class LoggerAppenderConsole</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+													<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+											<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+						
+			</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">ConsoleAppender appends log events to STDOUT or STDERR.</p>
+<p class="description"><p><strong>Note</strong>: Use this Appender with command-line php scripts.  On web scripts this appender has no effects.</p><p>Configurable parameters of this appender are:
+<ul><li>layout     - The layout (required)</li><li>target     - &quot;stdout&quot; or &quot;stderr&quot;</li></ul> An example php file:
+ <div class="src-code"><ol><li><div class="src-line"><span class="src-inc">require_once&nbsp;</span><span class="src-id">dirname</span><span class="src-sym">(</span>__FILE__<span class="src-sym">)</span>.<span class="src-str">'/../../main/php/Logger.php'</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><span class="src-id"><a href="../../log4php/Logger.html">Logger</a></span><span class="src-sym">::</span><a href="../../log4php/Logger.html#methodconfigure">configure</a><span class="src-sym">(</span><a href="http://www.php.net/dirname">dirname</a><span class="src-sym">(</span>__FILE__<span class="src-sym">)</span>.<span class="src-str">'/../resources/appender_console.properties'</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;</div></li>
+<li><div class="src-line"><span class="src-var">$logger&nbsp;</span>=&nbsp;<span class="src-id"><a href="../../log4php/Logger.html">Logger</a></span><span class="src-sym">::</span><a href="../../log4php/Logger.html#methodgetRootLogger">getRootLogger</a><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><span class="src-var">$logger</span><span class="src-sym">-&gt;</span><span class="src-id">debug</span><span class="src-sym">(</span><span class="src-str">&quot;Hello&nbsp;World!&quot;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div>
+ An example configuration file:
+ <div class="src-code"><ol><li><div class="src-line">log4php.appender.console&nbsp;=&nbsp;LoggerAppenderConsole</div></li>
+<li><div class="src-line">log4php.appender.console.target&nbsp;=&nbsp;STDOUT</div></li>
+<li><div class="src-line">log4php.appender.console.layout&nbsp;=&nbsp;LoggerLayoutSimple</div></li>
+<li><div class="src-line">log4php.rootLogger&nbsp;=&nbsp;DEBUG,&nbsp;console</div></li>
+</ol></div></p></p>
+	<ul class="tags">
+				<li><span class="field">version:</span> $Revision: 883108 $</li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_appenders---LoggerAppenderConsole.php.html">/appenders/LoggerAppenderConsole.php</a> (line <span class="field">44</span>)
+		</p>
+		
+				
+		<pre><a href="../../log4php/LoggerAppender.html">LoggerAppender</a>
+   |
+   --LoggerAppenderConsole</pre>
+	
+			</div>
+</div>
+
+
+	<a name="sec-const-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Class Constant Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+						<span class="disabled">Constants</span> (<a href="#sec-consts">details</a>)
+												<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<div class="const-summary">
+								<div class="const-title">
+					<img src="../../media/images/Constant.png" alt=" " />
+					<a href="#STDERR" title="details" class="const-name">STDERR</a> = 					<span class="var-type"> 'php://stderr'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../../media/images/Constant.png" alt=" " />
+					<a href="#STDOUT" title="details" class="const-name">STDOUT</a> = 					<span class="var-type"> 'php://stdout'</span>
+
+				</div>
+							</div>
+		</div>
+	</div>
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+															<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+																																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$fp" title="details" class="var-name">$fp</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">boolean</span>
+					<a href="#$requiresLayout" title="details" class="var-name">$requiresLayout</a>
+				</div>
+											</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																						
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#__destruct" title="details" class="method-name">__destruct</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#activateOptions" title="details" class="method-name">activateOptions</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#append" title="details" class="method-name">append</a>
+											(<span class="var-type"><a href="../../log4php/LoggerLoggingEvent.html">LoggerLoggingEvent</a></span>&nbsp;<span class="var-name">$event</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#close" title="details" class="method-name">close</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setTarget" title="details" class="method-name">setTarget</a>
+											(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+											</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+												<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="var$fp" id="$fp"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$fp</span>
+			 = <span class="var-default"> null</span>			(line <span class="line-number">66</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> the resource used to open stdout/stderr</li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$requiresLayout" id="$requiresLayout"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">boolean</span>
+			<span class="var-name">$requiresLayout</span>
+			 = <span class="var-default"> true</span>			(line <span class="line-number">60</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../log4php/LoggerAppender.html#var$requiresLayout">LoggerAppender::$requiresLayout</a></dt>
+					</dl>
+		
+		
+
+</div>
+							<h4>Inherited Variables</h4>
+				<A NAME='inherited_vars'><!-- --></A>
+									<p>Inherited from <span class="classname"><a href="../../log4php/LoggerAppender.html">LoggerAppender</a></span></p>
+					<blockquote>
+													<span class="var-title">
+								<span class="var-name"><a href="../../log4php/LoggerAppender.html#var$closed">LoggerAppender::$closed</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../../log4php/LoggerAppender.html#var$filter">LoggerAppender::$filter</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../../log4php/LoggerAppender.html#var$layout">LoggerAppender::$layout</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../../log4php/LoggerAppender.html#var$name">LoggerAppender::$name</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../../log4php/LoggerAppender.html#var$threshold">LoggerAppender::$threshold</a></span><br>
+							</span>
+											</blockquote> 
+										
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																			<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+										<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="method__destruct" id="__destruct"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">Destructor __destruct</span> (line <span class="line-number">68</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			__destruct
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodactivateOptions" id="activateOptions"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">activateOptions</span> (line <span class="line-number">85</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			activateOptions
+		</span>
+				()
+			</div>
+	
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../log4php/LoggerAppender.html#methodactivateOptions">LoggerAppender::activateOptions()</a></dt>
+						<dd>Derived appenders should override this method if option structure  requires it.</dd>
+					</dl>
+			
+	</div>
+<a name="methodappend" id="append"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">append</span> (line <span class="line-number">106</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			append
+		</span>
+					(<span class="var-type"><a href="../../log4php/LoggerLoggingEvent.html">LoggerLoggingEvent</a></span>&nbsp;<span class="var-name">$event</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"><a href="../../log4php/LoggerLoggingEvent.html">LoggerLoggingEvent</a></span>
+				<span class="var-name">$event</span>			</li>
+				</ul>
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../log4php/LoggerAppender.html#methodappend">LoggerAppender::append()</a></dt>
+						<dd>Subclasses of <a href="../../log4php/LoggerAppender.html">LoggerAppender</a> should implement  this method to perform actual logging.</dd>
+					</dl>
+			
+	</div>
+<a name="methodclose" id="close"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">close</span> (line <span class="line-number">96</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">see:</span> <a href="../../log4php/LoggerAppender.html#methodclose">LoggerAppender::close()</a></li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			close
+		</span>
+				()
+			</div>
+	
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../log4php/LoggerAppender.html#methodclose">LoggerAppender::close()</a></dt>
+						<dd>Release any resources allocated.</dd>
+					</dl>
+			
+	</div>
+<a name="methodsetTarget" id="setTarget"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">setTarget</span> (line <span class="line-number">76</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set console target.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setTarget
+		</span>
+					(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$value</span><span class="var-description">: a constant or a string</span>			</li>
+				</ul>
+		
+			
+	</div>
+							<h4>Inherited Methods</h4>
+				<a name='inherited_methods'><!-- --></a>	
+									<!-- =========== Summary =========== -->
+					<p>Inherited From <span class="classname"><a href="../../log4php/LoggerAppender.html">LoggerAppender</a></span></p>
+					<blockquote>
+													<span class="method-name"><a href="../../log4php/LoggerAppender.html#method__construct">LoggerAppender::__construct()</a></span><br>
+													<span class="method-name"><a href="../../log4php/LoggerAppender.html#methodactivateOptions">LoggerAppender::activateOptions()</a></span><br>
+													<span class="method-name"><a href="../../log4php/LoggerAppender.html#methodaddFilter">LoggerAppender::addFilter()</a></span><br>
+													<span class="method-name"><a href="../../log4php/LoggerAppender.html#methodappend">LoggerAppender::append()</a></span><br>
+													<span class="method-name"><a href="../../log4php/LoggerAppender.html#methodclearFilters">LoggerAppender::clearFilters()</a></span><br>
+													<span class="method-name"><a href="../../log4php/LoggerAppender.html#methodclose">LoggerAppender::close()</a></span><br>
+													<span class="method-name"><a href="../../log4php/LoggerAppender.html#methoddoAppend">LoggerAppender::doAppend()</a></span><br>
+													<span class="method-name"><a href="../../log4php/LoggerAppender.html#methodgetFilter">LoggerAppender::getFilter()</a></span><br>
+													<span class="method-name"><a href="../../log4php/LoggerAppender.html#methodgetFirstFilter">LoggerAppender::getFirstFilter()</a></span><br>
+													<span class="method-name"><a href="../../log4php/LoggerAppender.html#methodgetLayout">LoggerAppender::getLayout()</a></span><br>
+													<span class="method-name"><a href="../../log4php/LoggerAppender.html#methodgetName">LoggerAppender::getName()</a></span><br>
+													<span class="method-name"><a href="../../log4php/LoggerAppender.html#methodgetThreshold">LoggerAppender::getThreshold()</a></span><br>
+													<span class="method-name"><a href="../../log4php/LoggerAppender.html#methodisAsSevereAsThreshold">LoggerAppender::isAsSevereAsThreshold()</a></span><br>
+													<span class="method-name"><a href="../../log4php/LoggerAppender.html#methodrequiresLayout">LoggerAppender::requiresLayout()</a></span><br>
+													<span class="method-name"><a href="../../log4php/LoggerAppender.html#methodsetLayout">LoggerAppender::setLayout()</a></span><br>
+													<span class="method-name"><a href="../../log4php/LoggerAppender.html#methodsetName">LoggerAppender::setName()</a></span><br>
+													<span class="method-name"><a href="../../log4php/LoggerAppender.html#methodsetThreshold">LoggerAppender::setThreshold()</a></span><br>
+											</blockquote>
+										
+		</div>
+	</div>
+
+	<a name="sec-consts"></a>
+	<div class="info-box">
+		<div class="info-box-title">Class Constants</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Constants</a> (<span class="disabled">details</span>)
+						
+			
+												<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+														| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="constSTDERR" id="STDERR"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">STDERR</span>
+			 = <span class="const-default"> 'php://stderr'</span>
+			(line <span class="line-number">47</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constSTDOUT" id="STDOUT"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">STDOUT</span>
+			 = <span class="const-default"> 'php://stdout'</span>
+			(line <span class="line-number">46</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+						
+		</div>
+	</div>
+
+	<p class="notes" id="credit">
+		Documentation generated on Fri, 27 Nov 2009 07:44:46 +0100 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

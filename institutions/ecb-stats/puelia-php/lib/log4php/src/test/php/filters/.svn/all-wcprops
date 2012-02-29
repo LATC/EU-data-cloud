@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/filters
+END
+LoggerFilterStringMatchTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/filters/LoggerFilterStringMatchTest.php
+END
+LoggerFilterLevelMatchTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/filters/LoggerFilterLevelMatchTest.php
+END
+LoggerFilterLevelRangeTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/filters/LoggerFilterLevelRangeTest.php
+END
+LoggerFilterDenyAllTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/test/php/filters/LoggerFilterDenyAllTest.php
+END

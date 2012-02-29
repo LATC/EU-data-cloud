@@ -17,6 +17,7 @@ $void->add_literal_triple(WHOISWHO, DCT.'modified', date('c'), false, XSDT.'date
 $graph = new Graph('http://api.talis.com/stores/euwhoiswho/meta', new Credentials(STORE_USER, STORE_PASS));
 $graph->mirror_from_uri(WHOISWHO, $void->to_json());
 $graph->submit_ntriples_in_batches_from_file('roles.nt', 500, 'report');
+$graph->mirror_from_uri("http://institutions.publicdata.eu/", file_get_contents('institutions.publicdata.eu.ttl'));
 $graph->submit_ntriples_in_batches_from_file('all.nt', 500, 'report');
 
 ?>

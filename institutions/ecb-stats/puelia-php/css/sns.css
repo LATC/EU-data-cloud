@@ -1,0 +1,4 @@
+li.format-html , li.format-xml , li.format-rdf {
+  display: none !important;
+}
+header h1 {padding-bottom: 1.5em}

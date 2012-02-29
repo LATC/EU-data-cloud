@@ -6,34 +6,40 @@ class EUScraper {
   var $dom;
   var $xpath= false;
   var $graph = false;
-  var $publicInstitutionsGraph = false;
   var $pageUri = false;
   var $request_factory = false;
-  var $translate_langs = array('de','fr','nl');
+ // var $translate_langs = array('de','fr','nl');
+  var $translate_langs = array('fr');
 
-  function __construct($uri, &$publicInstitutionsGraph){
+  function __construct($uri){
     $this->pageUri = $uri;
-    $this->publicInstitutionsGraph = $publicInstitutionsGraph;
     $this->request_factory = new HttpRequestFactory();
     $this->dom = $this->fetchDocFromUrl($uri);
     $this->xpath = new DOMXPath($this->dom);
     $this->graph = new SimpleGraph();
   }
 
+  function flushNtriples(){
+    echo trim($this->graph->to_ntriples());
+    $this->graph = new SimpleGraph();
+  }
   function translatePageUrlTo($lang){
     $url = preg_replace('/&lang=[a-z]+/','', $this->pageUri);
+    $this->log_message("Translating $this->pageUri to $lang ");
     return $url.'&lang='.$lang;
   }
   function translateLabelsOnPage($xpath_query){
+    global $nameTranslations;
+
     foreach($this->translate_langs as $lang){
       $doc = $this->fetchDocFromUrl($this->translatePageUrlTo($lang));
-      $this->log_message("{$lang} translations for $this->pageUri");
       $xpath = new DomXpath($doc);
       $graph = new SimpleGraph();
       foreach($xpath->query($xpath_query) as $a){
         $nodeId = $this->getNodeIdFromUrl($a->getAttribute('href'));
         $uri = INST.'institutions/'.$nodeId;
         $this->graph->add_literal_triple($uri, RDFS_LABEL, $a->textContent, $lang);
+        $nameTranslations[$uri][$lang] = $a->textContent;
       }
       echo trim($graph->to_ntriples());
     }
@@ -61,7 +67,7 @@ class EUScraper {
   public function getNodeIdFromUrl($url){
     $query = parse_url($url, PHP_URL_QUERY);
     parse_str($query, $params);
-    return $params['nodeID'];
+    return @$params['nodeID'];
   }
   public function getPersonIdFromUrl($url){
     $query = parse_url($url, PHP_URL_QUERY);
@@ -109,7 +115,7 @@ class EUScraper {
       WHOISWHO.'Court'        =>array( 'Court'),
       WHOISWHO.'Committee'    =>array( 'Committee'),
       WHOISWHO.'Service'      =>array( 'Service'),
-      WHOISWHO.'Ombudsman'    =>array( 'Ombudsman'),
+      EUI.'Specialised_Body'    =>array( 'Ombudsman'),
       WHOISWHO.'PoliticalParty' => array(
                                           'Party', 
                                           'Democrats', 
@@ -118,15 +124,17 @@ class EUScraper {
                                           'United Left', 
                                           'Socialist' , 
                                           'democracy Group',
+                                          'Democracy Group',
                                         ),
-      WHOISWHO.'Agency' => array('Agency'),
+      EUI.'EU_Agency' => array('Agency'),
       ORG.'OrganizationalUnit' => array('Unit ', ' Unit'),
-      WHOISWHO.'Parliament'   =>array( 'Parliament'),
+    //  WHOISWHO.'Parliament'   =>array( '^European Parliament$'),
     );
 
+    if($this->getNodeIdFromUrl($this->pageUri)==11) return WHOISWHO.'Parliament';
     foreach($knowns as $type => $keyphrases){
       foreach($keyphrases as $keyphrase){
-        if(stristr($label, $keyphrase)){
+        if(preg_match('/\b' .$keyphrase. '\b/', $label)){
           return $type;
         }
       }

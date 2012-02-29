@@ -1,0 +1,6 @@
+K 13
+svn:externals
+V 55
+lib/moriarty http://moriarty.googlecode.com/svn/trunk/
+
+END

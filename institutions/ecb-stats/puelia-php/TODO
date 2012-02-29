@@ -1,0 +1,14 @@
+
+* make certain parts of application behaviour configurable from a turtle file (what caching to do, what logging to do, where to get the api config file from)
+
+
+* error message about missing properties in vocabularies should name the missing properties DONE
+* fix simple json output DONE
+* nicer error pages DONE
+* basic caching DONE
+* Cache timeout DONE
+* Add format and viewer metadata
+* CSS for html pages DONE/IN PROGRESS
+* HTML report of config definitions - which APIs and Endpoints are in scope with current base URI,what formats and views are available, etc DONE/IN PROGRESS
+* finish simple xml output DONE
+* add xslt formatter DONE

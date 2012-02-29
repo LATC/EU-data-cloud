@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos  -->
+			<title>Docs For Class LoggerConfiguratorBasic</title>
+			<link rel="stylesheet" href="../../media/stylesheet.css" />
+						<script src="../../media/lib/classTree.js"></script>
+												<script language="javascript" type="text/javascript">
+				var imgPlus = new Image();
+				var imgMinus = new Image();
+				imgPlus.src = "../../media/images/plus.png";
+				imgMinus.src = "../../media/images/minus.png";
+				
+				function showNode(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+							var oImg = document.layers["img" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+							var oImg = document.all["img" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+							var oImg = document.getElementById("img" + Node);
+									break;
+							}
+					oImg.src = imgMinus.src;
+					oTable.style.display = "block";
+				}
+				
+				function hideNode(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+							var oImg = document.layers["img" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+							var oImg = document.all["img" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+							var oImg = document.getElementById("img" + Node);
+									break;
+							}
+					oImg.src = imgPlus.src;
+					oTable.style.display = "none";
+				}
+				
+				function nodeIsVisible(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+									break;
+							}
+					return (oTable && oTable.style.display == "block");
+				}
+				
+				function toggleNodeVisibility(Node){
+					if (nodeIsVisible(Node)){
+						hideNode(Node);
+					}else{
+						showNode(Node);
+					}
+				}
+			</script>
+					</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class LoggerConfiguratorBasic</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+                <p class="implements">
+            Implements interfaces:
+            <ul>
+                <li><a href="../../log4php/LoggerConfigurator.html">LoggerConfigurator</a></li>            </ul>
+        </p>
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Use this class to quickly configure the package.</p>
+<p class="description"><p>An example how to use this configurator:</p><p><div class="src-code"><ol><li><div class="src-line"><a href="http://www.php.net/define">define</a><span class="src-sym">(</span><span class="src-str">'LOG4PHP_CONFIGURATOR_CLASS'</span><span class="src-sym">,&nbsp;</span><span class="src-str">'LoggerConfiguratorBasic'</span><span class="src-sym">)</span><span class="src-sym">;&nbsp;</span></div></li>
+<li><div class="src-line"><span class="src-inc">require_once&nbsp;</span><span class="src-id">dirname</span><span class="src-sym">(</span>__FILE__<span class="src-sym">)</span>.<span class="src-str">'/../../main/php/Logger.php'</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;</div></li>
+<li><div class="src-line"><span class="src-var">$logger&nbsp;</span>=&nbsp;<span class="src-id"><a href="../../log4php/Logger.html">Logger</a></span><span class="src-sym">::</span><a href="../../log4php/Logger.html#methodgetRootLogger">getRootLogger</a><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><span class="src-var">$logger</span><span class="src-sym">-&gt;</span><span class="src-id">info</span><span class="src-sym">(</span><span class="src-str">&quot;Hello&nbsp;World!&quot;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div></p></p>
+	<ul class="tags">
+				<li><span class="field">version:</span> $Revision: 883108 $</li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_configurators---LoggerConfiguratorBasic.php.html">/configurators/LoggerConfiguratorBasic.php</a> (line <span class="field">32</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+												<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																						
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#configure" title="details" class="method-name">configure</a>
+											(<span class="var-type"><a href="../../log4php/LoggerHierarchy.html">LoggerHierarchy</a></span>&nbsp;<span class="var-name">$hierarchy</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$url</span> = <span class="var-default">null</span>])
+									</div>
+											</div>
+		</div>
+	</div>		
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodconfigure" id="configure"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">configure</span> (line <span class="line-number">40</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Add a <a href="../../log4php/appenders/LoggerAppenderConsole.html">LoggerAppenderConsole</a> that uses  the <a href="../../log4php/layouts/LoggerLayoutTTCC.html">LoggerLayoutTTCC</a> to the root category.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			configure
+		</span>
+					(<span class="var-type"><a href="../../log4php/LoggerHierarchy.html">LoggerHierarchy</a></span>&nbsp;<span class="var-name">$hierarchy</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$url</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$url</span><span class="var-description">: not used here</span>			</li>
+					<li>
+				<span class="var-type"><a href="../../log4php/LoggerHierarchy.html">LoggerHierarchy</a></span>
+				<span class="var-name">$hierarchy</span>			</li>
+				</ul>
+		
+				<hr class="separator" />
+		<div class="notes">Implementation of:</div>
+			<dl>
+			<dt><a href="../../log4php/LoggerConfigurator.html#methodconfigure">LoggerConfigurator::configure()</a></dt>
+						<dd>Interpret a resource pointed by a <var>url</var> and configure accordingly.</dd>
+					</dl>
+			
+	</div>
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Fri, 27 Nov 2009 07:44:49 +0100 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

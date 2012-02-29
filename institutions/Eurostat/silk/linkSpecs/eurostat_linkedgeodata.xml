@@ -1,0 +1,78 @@
+<Silk>
+  <Prefixes>
+    <Prefix namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" id="rdf"></Prefix>
+    <Prefix namespace="http://dbpedia.org/property/" id="dbpp"></Prefix>
+    <Prefix namespace="http://purl.org/dc/terms/" id="dcterm"></Prefix>
+    <Prefix namespace="http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/" id="drugbank"></Prefix>
+    <Prefix namespace="http://www4.wiwiss.fu-berlin.de/sider/resource/sider/" id="sider"></Prefix>
+    <Prefix namespace="http://www.w3.org/2002/07/owl#" id="owl"></Prefix>
+    <Prefix namespace="http://www.w3.org/2004/02/skos#" id="skos"></Prefix>
+    <Prefix namespace="http://www.w3.org/2000/01/rdf-schema#" id="rdfs"></Prefix>
+    <Prefix namespace="http://baetle.googlecode.com/svn/ns/#" id="baetle"></Prefix>
+    <Prefix namespace="http://linkedgeodata.org/ontology/" id="lgdo"></Prefix>
+    <Prefix namespace="http://dbpedia.org/ontology/" id="dbpedia-owl"></Prefix>
+  </Prefixes>
+  <DataSources>
+    <DataSource type="sparqlEndpoint" id="eurostat">
+      <Param name="pageSize" value="1000"></Param>
+      <Param name="pauseTime" value="0"></Param>
+      <Param name="retryCount" value="3"></Param>
+      <Param name="endpointURI" value="http://eurostat.linked-statistics.org/sparql"></Param>
+      <Param name="retryPause" value="1000"></Param>
+      <Param name="graph" value=""></Param>
+      <Param name="login" value=""></Param>
+      <Param name="entityList" value=""></Param>
+      <Param name="password" value=""></Param>
+    </DataSource>
+    <DataSource type="sparqlEndpoint" id="LinkedGeoData">
+      <Param name="pageSize" value="1000"></Param>
+      <Param name="pauseTime" value="0"></Param>
+      <Param name="retryCount" value="3"></Param>
+      <Param name="endpointURI" value="http://linkedgeodata.org/sparql"></Param>
+      <Param name="retryPause" value="1000"></Param>
+      <Param name="graph" value=""></Param>
+      <Param name="login" value=""></Param>
+      <Param name="entityList" value=""></Param>
+      <Param name="password" value=""></Param>
+    </DataSource>
+  </DataSources>
+  <Interlinks>
+    <Interlink id="eurostat_linkedgeodata">
+      <LinkType>owl:sameAs</LinkType>
+      <SourceDataset dataSource="eurostat" var="a">
+        <RestrictTo> ?a rdf:type skos:Concept . </RestrictTo>
+      </SourceDataset>
+      <TargetDataset dataSource="LinkedGeoData" var="b">
+        <RestrictTo> ?b rdf:type lgdo:Country . </RestrictTo>
+      </TargetDataset>
+      <LinkageRule>
+        <Aggregate weight="1" type="max" required="false" id="unnamed_6">
+          <Compare weight="1" threshold="0.0" required="false" metric="levenshteinDistance" id="unnamed_5">
+            <TransformInput function="lowerCase" id="unnamed_3">
+              <Input path="?a/skos:prefLabel" id="unnamed_1"></Input>
+            </TransformInput>
+            <TransformInput function="lowerCase" id="unnamed_4">
+              <Input path="?b/rdfs:label" id="unnamed_2"></Input>
+            </TransformInput>
+            <Param name="minChar" value="0"></Param>
+            <Param name="maxChar" value="z"></Param>
+          </Compare>
+        </Aggregate>
+      </LinkageRule>
+      <Filter></Filter>
+       <Outputs>
+    <Output maxConfidence="0.1" type="file" >
+      <Param name="file" 
+value="lgdo_eurostat_verify_links.nt"/>
+      <Param name="format" value="ntriples"/>
+    </Output>
+    <Output minConfidence="0.1" type="file">
+      <Param name="file" 
+value="lgdo_eurostat_accepted_links.nt"/>
+      <Param name="format" value="ntriples"/>
+    </Output>
+  </Outputs>
+
+    </Interlink>
+  </Interlinks>
+</Silk>

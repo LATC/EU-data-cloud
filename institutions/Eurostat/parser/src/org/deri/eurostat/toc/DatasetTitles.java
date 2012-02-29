@@ -1,20 +1,23 @@
 package org.deri.eurostat.toc;
 
 import java.io.FileOutputStream;
-import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
-
 import org.apache.commons.cli.BasicParser;
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.Options;
 import org.deri.eurostat.dsdparser.ParserUtil;
-
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.Resource;
+
+/**
+ * 
+ * @author Aftab Iqbal
+ *
+ */
 
 public class DatasetTitles {
 
@@ -48,7 +51,6 @@ public class DatasetTitles {
 	        	lang = (String) titles.getKey();
 	        	title = hsh.get(lang);
 	        	model.add(dsd,ParserUtil.dcTitle,model.createLiteral(title,lang));
-	        	//System.out.println("Code -->" + pairs.getKey() + " # lang -->" + titles.getKey() + " # Title --> " + titles.getValue());
 	        }
 	    }
 
@@ -114,8 +116,6 @@ public class DatasetTitles {
 		{
 			obj.getDS_Titles();
 		}
-		
-		
 	}
 	
 }

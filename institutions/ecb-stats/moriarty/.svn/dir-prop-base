@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 21
+.buildpath
+
+.project
+
+K 13
+svn:mergeinfo
+V 94
+/branches/20090805_rs_concurrent_requests:103-119
+/branches/2011-05-02-mirror_from_url:299-313
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/serializers
+END
+ARC2_RSS10Serializer.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/serializers/ARC2_RSS10Serializer.php
+END
+ARC2_LegacyHTMLSerializer.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/serializers/ARC2_LegacyHTMLSerializer.php
+END
+ARC2_RDFSerializer.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/serializers/ARC2_RDFSerializer.php
+END
+ARC2_RDFXMLSerializer.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/serializers/ARC2_RDFXMLSerializer.php
+END
+ARC2_LegacyJSONSerializer.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/serializers/ARC2_LegacyJSONSerializer.php
+END
+ARC2_TurtleSerializer.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/serializers/ARC2_TurtleSerializer.php
+END
+ARC2_NTriplesSerializer.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/serializers/ARC2_NTriplesSerializer.php
+END
+ARC2_RDFJSONSerializer.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/serializers/ARC2_RDFJSONSerializer.php
+END
+ARC2_MicroRDFSerializer.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/serializers/ARC2_MicroRDFSerializer.php
+END
+ARC2_POSHRDFSerializer.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/serializers/ARC2_POSHRDFSerializer.php
+END
+ARC2_LegacyXMLSerializer.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/arc/serializers/ARC2_LegacyXMLSerializer.php
+END

@@ -1,0 +1,206 @@
+@base <http://example.com/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix api: <http://purl.org/linked-data/api/vocab#> .
+@prefix gc: <http://puelia-php.googlecode.com/svn/trunk/documents/config.ttl#> .
+@prefix rel: <http://vocab.org/relationship/> .
+@prefix spec: <http://www.epimorphics.com/examples/specSchools#> .
+@prefix climb: <http://climb.dataincubator.org/vocabs/climb/> .
+@prefix puelia: <http://purl.org/puelia-php/ns#> .
+
+<#ClimbingAPI> a api:API ;
+	rdfs:label "Climbing Data"@en ;
+#	api:base "http://localhost" ;
+	api:maxPageSize "50";
+	api:defaultPageSize "10" ;
+	api:endpoint <#mountain>, 
+		<#routesEndpoint> , <#HVSRoutes> ;
+	api:sparqlEndpoint <http://api.talis.com/stores/kwijibo-dev3/services/sparql> ;
+	api:defaultViewer api:describeViewer ;
+	api:contentNegotiation api:parameterBased ;
+	api:vocabulary  climb:grading , rdf:  ;
+	api:variable [
+	    api:name "Route" ;
+	    api:value "http://climb.dataincubator.org/vocabs/climb/Route" ;
+	    api:type rdfs:Resource ;
+	  ],
+	[
+		api:name "grade" ;
+		api:value "HVS"
+	]
+	 .
+<#mountain> 		
+		a api:ItemEndpoint ;
+		api:uriTemplate "/Climbing/Mountain/{name}" ;
+    api:itemTemplate "http://dbpedia.org/resource/{name}" .
+
+<#routesEndpoint> a api:ListEndpoint ;
+		api:uriTemplate "/Climbing/Routes" ;
+		api:defaultViewer [
+				api:name "simple" ;
+				api:property rdfs:label, rdf:type
+			] ;
+		api:selector [
+#			api:where " ?item a climb:Route "
+			api:filter "type={Route}"
+		] .
+
+<#routesSelector> api:filter "type={Route}" .
+
+<#HVSRoutes> a api:ListEndpoint ;
+	api:uriTemplate "/Climbing/Routes/byGrade/{grade}" ;
+	api:selector [
+			api:parent <#routesSelector> ;
+			api:filter "grading.value={grade}"
+		] .
+
+<#ApiWithoutBase> a api:API ;
+	rdfs:label "API with no api:base"@en .
+
+
+
+
+<#UnitTestApi> a api:API ;
+	rdfs:label "Unit Test API"@en ;
+	api:base "http://example.com";
+	api:maxPageSize "50";
+	api:defaultPageSize "10";
+	api:contentNegotiation api:parameterBased ;
+	api:variable [
+	    api:name "base" ;
+	    api:value "http://education.data.gov.uk/id" ;
+	  ], [
+	    api:name "areaBase" ;
+	    api:value "http://statistics.data.gov.uk/id" ;
+	  ], [
+	    api:name "england" ;
+	    api:value "{areaBase}/country/921" ;
+	    api:type rdfs:Resource ;
+	  ] ;
+	api:endpoint <#unitTestEndpoint> , <#childEndpoint> , <#schoolItemEndpoint> , <#datasetEndpoint> ;
+#	api:vocabulary <http://puelia-php.googlecode.com/svn/trunk/documents/config.ttl#testVocab> ;
+#	api:vocabulary <http://localhost/documents/config.ttl#testVocab> ;
+#	api:vocabulary <file:///Users/keith/dev/puelia-php/documents/config.ttl> ;
+	api:viewer <#testViewerA> ;
+	api:defaultViewer <#apiDefaultViewer> ;
+	api:defaultFormatter api:RdfXmlFormatter ;
+	api:dataset <http://example.com/dataset> .
+	
+<#schoolItemEndpoint> a api:ItemEndpoint ;
+  api:uriTemplate "/doc/school/{id}" ;
+  api:itemTemplate "http://example.com/school/{id}" ;
+.
+<#unitTestEndpoint>
+	api:uriTemplate "/doc/school/{identifier}?localAuthority.code={code}" ;
+    api:itemTemplate "{base}/school/{identifier}" ;
+    api:label "School {identifier}" ;
+    api:variable [
+      api:name "school" ;
+      api:value "{base}/school/{identifier}" ;
+      api:type rdfs:Resource 
+    ], [
+      api:name "schoolNumber" ;
+      api:value "{identifier}" ;
+      api:type xsd:integer 
+    ] ;
+	api:viewer <#testViewerB> ;
+	api:defaultViewer <#endpointDefaultViewer> ;
+	api:defaultFormatter api:JsonFormatter ;
+	api:dataset <http://example.com/dataset/subsets/1> ;
+	.
+
+<#places-near-school>
+  a api:ListEndpoint ;
+  api:uriTemplate "/places-near-school/{id}" ;
+.
+
+<#schools-near-school>
+  a api:ListEndpoint ;
+  api:uriTemplate "/schools-near-school/{id}" ;
+.
+
+
+ <#childEndpoint>
+	api:name "ChildEndpoint";
+	api:uriTemplate "/child/endpoint" ;
+	api:selector [
+			api:parent <#unitTestEndpoint>
+		] .
+
+<#datasetEndpoint>
+  a api:ItemEndpoint ;
+  api:uriTemplate "/dataset/{foo}" ;
+  api:itemTemplate "http://lod-cloud.net/{foo}" ;
+.
+
+<#testViewerA> a api:Viewer ;
+	api:name "testViewerA" ;
+	api:property rdfs:label, rdf:type , owl:sameAs  .
+
+<#testViewerB> a api:Viewer ;
+	api:name "testViewerB" ;
+	api:property rdfs:label, rdf:type , owl:sameAs .
+
+<#endpointDefaultViewer> a api:Viewer ;
+	api:name "endpointDefaultViewer" ;
+		api:property rdfs:label, rdf:type , owl:sameAs ;
+    puelia:endpointRelatedToResultItems <#places-near-school> , <#schools-near-school> ;
+.
+
+<#apiDefaultViewer> a api:Viewer ;
+	api:name "apiDefaultViewer" ;
+	api:property rdfs:label, rdf:type , owl:sameAs .
+
+<#viewerUsingLists> a api:Viewer ;
+	api:name "viewerUsingLists" ;
+api:property <#ListOfProperties> , foaf:name , rdfs:label .
+
+<#viewerUsingPropertiesChain> a api:Viewer ;
+ 	api:name "viewerUsingPropertiesChain" ;
+	api:properties "foo.bar.age,age" .
+
+
+<#ListOfProperties> a rdf:List ;
+	rdf:first foaf:knows ;
+	rdf:rest [
+			rdf:first rel:knowsOf ;
+			rdf:rest [
+					rdf:first rel:siblingOf ;
+					rdf:rest rdf:nil
+				]
+		] .
+
+
+
+#Test Vocab .
+
+gc:testVocab a owl:Ontology ;
+	rdfs:label "Test Vocab for API" .
+
+gc:testPropWithApiLabel a rdf:Property ;
+	api:label "foo" ;
+	rdfs:isDefinedBy <#vocab> .
+
+gc:testPropWithRdfsLabel a rdf:Property ;
+	rdfs:label "bar" ;
+	rdfs:isDefinedBy <#vocab> .
+
+gc:age a rdf:Property ;
+	rdfs:label "age" ;
+	rdfs:isDefinedBy <#vocab> ;
+	rdfs:range xsd:integer .
+#
+
+climb:grading a rdf:Property ; 
+		api:label "grading" .
+		
+rdf:value a rdf:Property ;
+	api:label "value" .
+	
+rdf:type a rdf:Property ;
+	api:label "type" .

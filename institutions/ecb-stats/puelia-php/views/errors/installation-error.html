@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <?php include 'views/footer.html' ?>    
+	<title>Puelia not setup properly</title>
+	
+</head>
+
+<body>
+
+<div class="container">
+<div class="header">Puelia: an implementation of the Linked Data API</div>
+<div class="contents">
+    <h1>Not quite there yet ... </h1>
+    <p>Sorry, Puelia is not set up properly.</p>
+    <div>
+        
+        <?php if (!function_exists('memcache_connect')): ?>
+            <p><strong>Memcache is not installed.</strong></p>
+        <?php endif ?>
+        
+        <?php if (!is_dir(PUELIA_LOG_DIR)): ?>
+          <p>  <strong>The log directory could not be written to. </strong> Make sure the directory  Puelia is installed in is <em>writable</em> by the web server.</p>
+        <?php endif ?>
+        
+        <p>Please see the README for more information:</p>
+        
+    </div>
+    <pre>
+<?php require 'README'; ?>
+    </pre>
+    
+</div>
+<div class="footer">
+    <ul>
+        <li><a href="http://code.google.com/p/linked-data-api/">Google Code Project for <em>Linked Data API</em></a></li>
+        <li><a href="http://puelia-php.googlecode.com/svn/trunk/">Google Code Project for <em>Puelia</em></a></li>
+    </ul>
+</div>
+</div>
+</body>
+</html>

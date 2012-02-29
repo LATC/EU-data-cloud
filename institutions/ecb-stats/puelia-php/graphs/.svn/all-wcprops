@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/238/branches/inverse-properties-2011-08-07/graphs
+END
+configgraph.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/229/branches/inverse-properties-2011-08-07/graphs/configgraph.class.php
+END
+vocabularygraph.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/graphs/vocabularygraph.class.php
+END
+linkeddataapigraph.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/238/branches/inverse-properties-2011-08-07/graphs/linkeddataapigraph.class.php
+END
+pueliagraph.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/226/branches/inverse-properties-2011-08-07/graphs/pueliagraph.class.php
+END

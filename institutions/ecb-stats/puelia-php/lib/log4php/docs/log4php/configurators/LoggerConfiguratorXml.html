@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos  -->
+			<title>Docs For Class LoggerConfiguratorXml</title>
+			<link rel="stylesheet" href="../../media/stylesheet.css" />
+						<script src="../../media/lib/classTree.js"></script>
+												<script language="javascript" type="text/javascript">
+				var imgPlus = new Image();
+				var imgMinus = new Image();
+				imgPlus.src = "../../media/images/plus.png";
+				imgMinus.src = "../../media/images/minus.png";
+				
+				function showNode(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+							var oImg = document.layers["img" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+							var oImg = document.all["img" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+							var oImg = document.getElementById("img" + Node);
+									break;
+							}
+					oImg.src = imgMinus.src;
+					oTable.style.display = "block";
+				}
+				
+				function hideNode(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+							var oImg = document.layers["img" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+							var oImg = document.all["img" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+							var oImg = document.getElementById("img" + Node);
+									break;
+							}
+					oImg.src = imgPlus.src;
+					oTable.style.display = "none";
+				}
+				
+				function nodeIsVisible(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+									break;
+							}
+					return (oTable && oTable.style.display == "block");
+				}
+				
+				function toggleNodeVisibility(Node){
+					if (nodeIsVisible(Node)){
+						hideNode(Node);
+					}else{
+						showNode(Node);
+					}
+				}
+			</script>
+					</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class LoggerConfiguratorXml</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+											<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+						
+			</div>
+	<div class="info-box-body">
+                <p class="implements">
+            Implements interfaces:
+            <ul>
+                <li><a href="../../log4php/LoggerConfigurator.html">LoggerConfigurator</a></li>            </ul>
+        </p>
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Use this class to initialize the log4php environment using XML files.</p>
+<p class="description"><p>Read the log4php.dtd included in the documentation directory. Note that  php parser does not validate the document.</p><p>Sometimes it is useful to see how log4php is reading configuration  files. You can enable log4php internal logging by setting the <var>debug</var>  attribute in the <var>log4php:configuration</var> element.</p><p>An example for this configurator:</p><p><div class="src-code"><ol><li><div class="src-line"><span class="src-inc">require_once&nbsp;</span><span class="src-id">dirname</span><span class="src-sym">(</span>__FILE__<span class="src-sym">)</span>.<span class="src-str">'/../../main/php/Logger.php'</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;</div></li>
+<li><div class="src-line"><span class="src-id"><a href="../../log4php/Logger.html">Logger</a></span><span class="src-sym">::</span><a href="../../log4php/Logger.html#methodconfigure">configure</a><span class="src-sym">(</span><a href="http://www.php.net/dirname">dirname</a><span class="src-sym">(</span>__FILE__<span class="src-sym">)</span>.<span class="src-str">'/../resources/configurator_xml.xml'</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><span class="src-var">$logger&nbsp;</span>=&nbsp;<span class="src-id"><a href="../../log4php/Logger.html">Logger</a></span><span class="src-sym">::</span><a href="../../log4php/Logger.html#methodgetRootLogger">getRootLogger</a><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><span class="src-var">$logger</span><span class="src-sym">-&gt;</span><span class="src-id">info</span><span class="src-sym">(</span><span class="src-str">&quot;Hello&nbsp;World!&quot;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div><br />
+ The corresponding XML file:</p><p><div class="src-code"><ol><li><div class="src-line">&lt;log4php:configuration&nbsp;xmlns:log4php=&quot;http://logging.apache.org/log4php/&quot;</div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;threshold=&quot;all&quot;&nbsp;debug=&quot;false&quot;&gt;</div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&lt;appender&nbsp;name=&quot;default&quot;&nbsp;class=&quot;LoggerAppenderEcho&quot;&gt;</div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;layout&nbsp;class=&quot;LoggerLayoutTTCC&quot;&nbsp;/&gt;</div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/appender&gt;</div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&lt;root&gt;</div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;level&nbsp;value=&quot;DEBUG&quot;&nbsp;/&gt;</div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;appender_ref&nbsp;ref=&quot;default&quot;&nbsp;/&gt;</div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/root&gt;</div></li>
+<li><div class="src-line">&lt;/log4php:configuration&gt;</div></li>
+</ol></div>
+ There are more sample XML files included in the package under tests/ subdirectories.</p><p></p></p>
+	<ul class="tags">
+				<li><span class="field">version:</span> $Revision: 883108 $</li>
+				<li><span class="field">since:</span> 0.4</li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_configurators---LoggerConfiguratorXml.php.html">/configurators/LoggerConfiguratorXml.php</a> (line <span class="field">46</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+	<a name="sec-const-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Class Constant Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+						<span class="disabled">Constants</span> (<a href="#sec-consts">details</a>)
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<div class="const-summary">
+								<div class="const-title">
+					<img src="../../media/images/Constant.png" alt=" " />
+					<a href="#APPENDER_STATE" title="details" class="const-name">APPENDER_STATE</a> = 					<span class="var-type"> 1000</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../../media/images/Constant.png" alt=" " />
+					<a href="#DEFAULT_CONFIGURATION" title="details" class="const-name">DEFAULT_CONFIGURATION</a> = 					<span class="var-type"> 
+	'&lt;?xml version=&quot;1.0&quot; ?&gt;
+	&lt;log4php:configuration threshold=&quot;all&quot;&gt;
+	    &lt;appender name=&quot;A1&quot; class=&quot;LoggerAppenderEcho&quot;&gt;
+	        &lt;layout class=&quot;LoggerLayoutSimple&quot; /&gt;
+	    &lt;/appender&gt;
+	    &lt;root&gt;
+	        &lt;level value=&quot;debug&quot; /&gt;
+	        &lt;appender_ref ref=&quot;A1&quot; /&gt;
+	    &lt;/root&gt;
+	&lt;/log4php:configuration&gt;'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../../media/images/Constant.png" alt=" " />
+					<a href="#DEFAULT_FILENAME" title="details" class="const-name">DEFAULT_FILENAME</a> = 					<span class="var-type"> './log4php.xml'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../../media/images/Constant.png" alt=" " />
+					<a href="#FILTER_STATE" title="details" class="const-name">FILTER_STATE</a> = 					<span class="var-type"> 1040</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../../media/images/Constant.png" alt=" " />
+					<a href="#LAYOUT_STATE" title="details" class="const-name">LAYOUT_STATE</a> = 					<span class="var-type"> 1010</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../../media/images/Constant.png" alt=" " />
+					<a href="#LOGGER_STATE" title="details" class="const-name">LOGGER_STATE</a> = 					<span class="var-type"> 1030</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../../media/images/Constant.png" alt=" " />
+					<a href="#ROOT_STATE" title="details" class="const-name">ROOT_STATE</a> = 					<span class="var-type"> 1020</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../../media/images/Constant.png" alt=" " />
+					<a href="#XMLNS" title="details" class="const-name">XMLNS</a> = 					<span class="var-type"> 'HTTP://LOGGING.APACHE.ORG/LOG4PHP/'</span>
+
+				</div>
+							</div>
+		</div>
+	</div>
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+									<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																		
+				<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#configure" title="details" class="method-name">configure</a>
+											(<span class="var-type"><a href="../../log4php/LoggerHierarchy.html">LoggerHierarchy</a></span>&nbsp;<span class="var-name">$hierarchy</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$url</span> = <span class="var-default">''</span>])
+									</div>
+																		
+				<div class="method-definition">
+											<span class="method-result">LoggerConfiguratorXml</span>
+										<a href="#__construct" title="details" class="method-name">__construct</a>
+										()
+									</div>
+																			</div>
+		</div>
+	</div>		
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																		<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+										<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodconfigure" id="configure"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static configure</span> (line <span class="line-number">125</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Configure the default repository using the resource pointed by <strong>url</strong>.</p>
+<p class="description"><p><strong>Url</strong> is any valid resource as defined in <a href="http://www.php.net/file">http://www.php.net/file</a> function.  Note that the resource will be search with <em>use_include_path</em> parameter  set to &quot;1&quot;.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		static <span class="method-result">void</span>
+		<span class="method-name">
+			configure
+		</span>
+					(<span class="var-type"><a href="../../log4php/LoggerHierarchy.html">LoggerHierarchy</a></span>&nbsp;<span class="var-name">$hierarchy</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$url</span> = <span class="var-default">''</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$url</span>			</li>
+					<li>
+				<span class="var-type"><a href="../../log4php/LoggerHierarchy.html">LoggerHierarchy</a></span>
+				<span class="var-name">$hierarchy</span>			</li>
+				</ul>
+		
+				<hr class="separator" />
+		<div class="notes">Implementation of:</div>
+			<dl>
+			<dt><a href="../../log4php/LoggerConfigurator.html#methodconfigure">LoggerConfigurator::configure()</a></dt>
+						<dd>Interpret a resource pointed by a <var>url</var> and configure accordingly.</dd>
+					</dl>
+			
+	</div>
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">108</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Constructor</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">LoggerConfiguratorXml</span>
+		<span class="method-name">
+			__construct
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+	<a name="sec-consts"></a>
+	<div class="info-box">
+		<div class="info-box-title">Class Constants</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Constants</a> (<span class="disabled">details</span>)
+						
+			
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="constAPPENDER_STATE" id="APPENDER_STATE"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">APPENDER_STATE</span>
+			 = <span class="const-default"> 1000</span>
+			(line <span class="line-number">47</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constDEFAULT_CONFIGURATION" id="DEFAULT_CONFIGURATION"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">DEFAULT_CONFIGURATION</span>
+			 = <span class="const-default"> <br />	'&lt;?xml version=&quot;1.0&quot; ?&gt;<br />	&lt;log4php:configuration threshold=&quot;all&quot;&gt;<br />	    &lt;appender name=&quot;A1&quot; class=&quot;LoggerAppenderEcho&quot;&gt;<br />	        &lt;layout class=&quot;LoggerLayoutSimple&quot; /&gt;<br />	    &lt;/appender&gt;<br />	    &lt;root&gt;<br />	        &lt;level value=&quot;debug&quot; /&gt;<br />	        &lt;appender_ref ref=&quot;A1&quot; /&gt;<br />	    &lt;/root&gt;<br />	&lt;/log4php:configuration&gt;'</span>
+			(line <span class="line-number">58</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> the default configuration document</li>
+			</ul>
+	
+	
+</div>
+<a name="constDEFAULT_FILENAME" id="DEFAULT_FILENAME"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">DEFAULT_FILENAME</span>
+			 = <span class="const-default"> './log4php.xml'</span>
+			(line <span class="line-number">53</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constFILTER_STATE" id="FILTER_STATE"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">FILTER_STATE</span>
+			 = <span class="const-default"> 1040</span>
+			(line <span class="line-number">51</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constLAYOUT_STATE" id="LAYOUT_STATE"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">LAYOUT_STATE</span>
+			 = <span class="const-default"> 1010</span>
+			(line <span class="line-number">48</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constLOGGER_STATE" id="LOGGER_STATE"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">LOGGER_STATE</span>
+			 = <span class="const-default"> 1030</span>
+			(line <span class="line-number">50</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constROOT_STATE" id="ROOT_STATE"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">ROOT_STATE</span>
+			 = <span class="const-default"> 1020</span>
+			(line <span class="line-number">49</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constXMLNS" id="XMLNS"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">XMLNS</span>
+			 = <span class="const-default"> 'HTTP://LOGGING.APACHE.ORG/LOG4PHP/'</span>
+			(line <span class="line-number">73</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> the elements namespace</li>
+			</ul>
+	
+	
+</div>
+						
+		</div>
+	</div>
+
+	<p class="notes" id="credit">
+		Documentation generated on Fri, 27 Nov 2009 07:44:49 +0100 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

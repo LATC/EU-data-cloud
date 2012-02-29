@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos  -->
+			<title></title>
+			<link rel="stylesheet" href="media/stylesheet.css" />
+											</head>
+		<body>
+						
+<!-- Start of Class Data -->
+<H2>
+	
+</H2>
+<h2>Root interface LoggerConfigurator</h2>
+<ul>
+<li><a href="log4php/LoggerConfigurator.html">LoggerConfigurator</a></li></ul>
+
+<h2>Root interface LoggerRendererObject</h2>
+<ul>
+<li><a href="log4php/renderers/LoggerRendererObject.html">LoggerRendererObject</a></li></ul>
+
+<h2>Root class Logger</h2>
+<ul>
+<li><a href="log4php/Logger.html">Logger</a><ul>
+<li><a href="log4php/LoggerRoot.html">LoggerRoot</a></li></ul></li>
+</ul>
+
+<h2>Root class LoggerAppender</h2>
+<ul>
+<li><a href="log4php/LoggerAppender.html">LoggerAppender</a><ul>
+<li><a href="log4php/appenders/LoggerAppenderAdodb.html">LoggerAppenderAdodb</a></li><li><a href="log4php/appenders/LoggerAppenderConsole.html">LoggerAppenderConsole</a></li><li><a href="log4php/appenders/LoggerAppenderEcho.html">LoggerAppenderEcho</a></li><li><a href="log4php/appenders/LoggerAppenderFile.html">LoggerAppenderFile</a><ul>
+<li><a href="log4php/appenders/LoggerAppenderDailyFile.html">LoggerAppenderDailyFile</a></li><li><a href="log4php/appenders/LoggerAppenderRollingFile.html">LoggerAppenderRollingFile</a></li></ul></li>
+<li><a href="log4php/appenders/LoggerAppenderMail.html">LoggerAppenderMail</a></li><li><a href="log4php/appenders/LoggerAppenderMailEvent.html">LoggerAppenderMailEvent</a></li><li><a href="log4php/appenders/LoggerAppenderNull.html">LoggerAppenderNull</a></li><li><a href="log4php/appenders/LoggerAppenderPDO.html">LoggerAppenderPDO</a></li><li><a href="log4php/appenders/LoggerAppenderPhp.html">LoggerAppenderPhp</a></li><li><a href="log4php/appenders/LoggerAppenderSocket.html">LoggerAppenderSocket</a></li><li><a href="log4php/appenders/LoggerAppenderSyslog.html">LoggerAppenderSyslog</a></li></ul></li>
+</ul>
+
+<h2>Root class LoggerAppenderPool</h2>
+<ul>
+<li><a href="log4php/LoggerAppenderPool.html">LoggerAppenderPool</a></li></ul>
+
+<h2>Root class LoggerConfiguratorBasic</h2>
+<ul>
+<li><a href="log4php/configurators/LoggerConfiguratorBasic.html">LoggerConfiguratorBasic</a></li></ul>
+
+<h2>Root class LoggerConfiguratorIni</h2>
+<ul>
+<li><a href="log4php/configurators/LoggerConfiguratorIni.html">LoggerConfiguratorIni</a></li></ul>
+
+<h2>Root class LoggerConfiguratorPhp</h2>
+<ul>
+<li><a href="log4php/configurators/LoggerConfiguratorPhp.html">LoggerConfiguratorPhp</a></li></ul>
+
+<h2>Root class LoggerConfiguratorXml</h2>
+<ul>
+<li><a href="log4php/configurators/LoggerConfiguratorXml.html">LoggerConfiguratorXml</a></li></ul>
+
+<h2>Root class LoggerFilter</h2>
+<ul>
+<li><a href="log4php/LoggerFilter.html">LoggerFilter</a><ul>
+<li><a href="log4php/filters/LoggerFilterDenyAll.html">LoggerFilterDenyAll</a></li><li><a href="log4php/filters/LoggerFilterLevelMatch.html">LoggerFilterLevelMatch</a></li><li><a href="log4php/filters/LoggerFilterLevelRange.html">LoggerFilterLevelRange</a></li><li><a href="log4php/filters/LoggerFilterStringMatch.html">LoggerFilterStringMatch</a></li></ul></li>
+</ul>
+
+<h2>Root class LoggerFormattingInfo</h2>
+<ul>
+<li><a href="log4php/helpers/LoggerFormattingInfo.html">LoggerFormattingInfo</a></li></ul>
+
+<h2>Root class LoggerHierarchy</h2>
+<ul>
+<li><a href="log4php/LoggerHierarchy.html">LoggerHierarchy</a></li></ul>
+
+<h2>Root class LoggerLayout</h2>
+<ul>
+<li><a href="log4php/LoggerLayout.html">LoggerLayout</a><ul>
+<li><a href="log4php/layouts/LoggerLayoutHtml.html">LoggerLayoutHtml</a></li><li><a href="log4php/layouts/LoggerLayoutPattern.html">LoggerLayoutPattern</a></li><li><a href="log4php/layouts/LoggerLayoutSimple.html">LoggerLayoutSimple</a></li><li><a href="log4php/layouts/LoggerLayoutTTCC.html">LoggerLayoutTTCC</a></li><li><a href="log4php/layouts/LoggerLayoutXml.html">LoggerLayoutXml</a></li></ul></li>
+</ul>
+
+<h2>Root class LoggerLevel</h2>
+<ul>
+<li><a href="log4php/LoggerLevel.html">LoggerLevel</a></li></ul>
+
+<h2>Root class LoggerLocationInfo</h2>
+<ul>
+<li><a href="log4php/LoggerLocationInfo.html">LoggerLocationInfo</a></li></ul>
+
+<h2>Root class LoggerLoggingEvent</h2>
+<ul>
+<li><a href="log4php/LoggerLoggingEvent.html">LoggerLoggingEvent</a></li></ul>
+
+<h2>Root class LoggerMDC</h2>
+<ul>
+<li><a href="log4php/LoggerMDC.html">LoggerMDC</a></li></ul>
+
+<h2>Root class LoggerNDC</h2>
+<ul>
+<li><a href="log4php/LoggerNDC.html">LoggerNDC</a></li></ul>
+
+<h2>Root class LoggerOptionConverter</h2>
+<ul>
+<li><a href="log4php/helpers/LoggerOptionConverter.html">LoggerOptionConverter</a></li></ul>
+
+<h2>Root class LoggerPatternConverter</h2>
+<ul>
+<li><a href="log4php/helpers/LoggerPatternConverter.html">LoggerPatternConverter</a><ul>
+<li><a href="log4php/helpers/LoggerBasicPatternConverter.html">LoggerBasicPatternConverter</a></li><li><a href="log4php/helpers/LoggerDatePatternConverter.html">LoggerDatePatternConverter</a></li><li><a href="log4php/helpers/LoggerLiteralPatternConverter.html">LoggerLiteralPatternConverter</a></li><li><a href="log4php/helpers/LoggerLocationPatternConverter.html">LoggerLocationPatternConverter</a></li><li><a href="log4php/helpers/LoggerMDCPatternConverter.html">LoggerMDCPatternConverter</a></li><li><a href="log4php/helpers/LoggerNamedPatternConverter.html">LoggerNamedPatternConverter</a><ul>
+<li><a href="log4php/helpers/LoggerCategoryPatternConverter.html">LoggerCategoryPatternConverter</a></li><li><a href="log4php/helpers/LoggerClassNamePatternConverter.html">LoggerClassNamePatternConverter</a></li></ul></li>
+</ul></li>
+</ul>
+
+<h2>Root class LoggerPatternParser</h2>
+<ul>
+<li><a href="log4php/helpers/LoggerPatternParser.html">LoggerPatternParser</a></li></ul>
+
+<h2>Root class LoggerReflectionUtils</h2>
+<ul>
+<li><a href="log4php/LoggerReflectionUtils.html">LoggerReflectionUtils</a></li></ul>
+
+<h2>Root class LoggerRendererDefault</h2>
+<ul>
+<li><a href="log4php/renderers/LoggerRendererDefault.html">LoggerRendererDefault</a></li></ul>
+
+<h2>Root class LoggerRendererMap</h2>
+<ul>
+<li><a href="log4php/renderers/LoggerRendererMap.html">LoggerRendererMap</a></li></ul>
+
+<h2>Root class Exception</h2>
+<ul>
+<li><a href="log4php/LoggerException.html">LoggerException</a></li></ul>
+
+	<p class="notes" id="credit">
+		Documentation generated on Fri, 27 Nov 2009 07:44:45 +0100 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</body>
+</html>

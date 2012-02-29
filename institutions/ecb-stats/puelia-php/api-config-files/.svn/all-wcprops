@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/241/branches/inverse-properties-2011-08-07/api-config-files
+END
+test.ttl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/211/branches/inverse-properties-2011-08-07/api-config-files/test.ttl
+END
+void.ttl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/241/branches/inverse-properties-2011-08-07/api-config-files/void.ttl
+END
+sns.ttl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/236/branches/inverse-properties-2011-08-07/api-config-files/sns.ttl
+END
+edu-api.ttl
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/api-config-files/edu-api.ttl
+END
+mountain.ttl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/211/branches/inverse-properties-2011-08-07/api-config-files/mountain.ttl
+END
+space.ttl
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/api-config-files/space.ttl
+END

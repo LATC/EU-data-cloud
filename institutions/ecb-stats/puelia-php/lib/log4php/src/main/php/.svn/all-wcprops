@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/main/php
+END
+LoggerException.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/main/php/LoggerException.php
+END
+LoggerAppender.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/main/php/LoggerAppender.php
+END
+LoggerConfigurator.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/main/php/LoggerConfigurator.php
+END
+LoggerMDC.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/main/php/LoggerMDC.php
+END
+LoggerNDC.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/main/php/LoggerNDC.php
+END
+LoggerLevel.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/main/php/LoggerLevel.php
+END
+LoggerReflectionUtils.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/main/php/LoggerReflectionUtils.php
+END
+LoggerLayout.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/main/php/LoggerLayout.php
+END
+LoggerHierarchy.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/main/php/LoggerHierarchy.php
+END
+Logger.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/main/php/Logger.php
+END
+LoggerRoot.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/main/php/LoggerRoot.php
+END
+LoggerLocationInfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/main/php/LoggerLocationInfo.php
+END
+LoggerFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/main/php/LoggerFilter.php
+END
+LoggerAppenderPool.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/main/php/LoggerAppenderPool.php
+END
+LoggerLoggingEvent.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/lib/log4php/src/main/php/LoggerLoggingEvent.php
+END

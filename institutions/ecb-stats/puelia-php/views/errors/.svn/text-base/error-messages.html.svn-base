@@ -1,0 +1,6 @@
+<!-- Errors -->
+<?php foreach($this->errorMessages as $msg): ?>
+<p>
+    <?php echo htmlentities($msg) ?>
+</p>
+<?php endforeach ?>

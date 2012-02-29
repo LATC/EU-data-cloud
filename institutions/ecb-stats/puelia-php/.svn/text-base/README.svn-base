@@ -1,0 +1,34 @@
+Puelia is primarily hosted (for now at least) at http://code.google.com/p/puelia-php/source/checkout
+
+Requirements are php 5.2, with php_xsl, lib_curl, and mod_rewrite and htaccess override enabled.
+If you want caching of page views, you need memcache (see: http://www.php.net/manual/en/memcache.installation.php).
+SPARQL query responses are currently cached in the filesystem.
+
+Save your configuration file as turtle with a .ttl extension in "api-config-files/"
+
+Puelia will create some directories for logging and caching the first time you run it, but the directory it is installed in needs to be writable by the webserver.
+
+
+To run the unit tests, make sure PHPUnit is installed and  in path. and run tests/puelia-runtests.php
+ 
+lda.inc.php contains constants which control caching behaviour
+  
+ 
+Moriarty is the PHP library (included) that Puelia uses to make requests to SPARQL endpoints. It can cache the responses it gets.
+  
+MORIARTY_ALWAYS_CACHE_EVERYTHING, if defined, ensures that all successful responses from upstream servers will be cached
+ 
+See http://code.google.com/p/moriarty for more information on moriarty's caching capabilities.
+
+If the SPARQL endpoint requires authentication, put:
+
+define('SPARQL_Username', 'username');
+define('SPARQL_Password', 'password');
+
+in deployment.settings.php 
+
+this feature should be regarded as unstable.
+
+KA 24/10/11
+
+

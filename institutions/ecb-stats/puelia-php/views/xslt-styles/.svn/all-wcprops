@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/228/branches/inverse-properties-2011-08-07/views/xslt-styles
+END
+result.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/228/branches/inverse-properties-2011-08-07/views/xslt-styles/result.xsl
+END
+dsi.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/226/branches/inverse-properties-2011-08-07/views/xslt-styles/dsi.xsl
+END
+atom.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/214/branches/inverse-properties-2011-08-07/views/xslt-styles/atom.xsl
+END
+sample.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/views/xslt-styles/sample.xsl
+END
+linked-data-api.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/220/branches/inverse-properties-2011-08-07/views/xslt-styles/linked-data-api.xsl
+END

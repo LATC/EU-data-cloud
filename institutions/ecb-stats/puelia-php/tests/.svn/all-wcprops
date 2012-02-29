@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/234/branches/inverse-properties-2011-08-07/tests
+END
+linkeddataapigraph.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/tests/linkeddataapigraph.test.php
+END
+sparqlwriter.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/tests/sparqlwriter.test.php
+END
+pueliagraph.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/tests/pueliagraph.test.php
+END
+linkeddataapirequest.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/234/branches/inverse-properties-2011-08-07/tests/linkeddataapirequest.test.php
+END
+runtests.ka.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/tests/runtests.ka.php
+END
+puelia-runtests.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/tests/puelia-runtests.php
+END
+configgraph.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/226/branches/inverse-properties-2011-08-07/tests/configgraph.test.php
+END
+vocabularygraph.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/tests/vocabularygraph.test.php
+END
+linkeddataapiresponse.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/tests/linkeddataapiresponse.test.php
+END
+linkeddataapi.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/210/branches/inverse-properties-2011-08-07/tests/linkeddataapi.test.php
+END

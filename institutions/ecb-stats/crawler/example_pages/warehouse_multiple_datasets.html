@@ -1,0 +1,2360 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- start of layoutLeftNav.jsp -->
+<head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<title>Delivery instructions - Securities settlements - Payments and securities trading, clearing, settlement - ECB Statistical Data Warehouse</title>
+
+<link rel="shortcut icon" href="img/favicon.png"/>
+
+    
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta http-equiv="content-language" content="en"/>
+<meta http-equiv="cache-control" content="no-cache"/>
+
+
+<meta name="robots" content="index,follow"/>
+<meta name="description"
+      content="The main purpose of European Central Bank (ECB) statistics is to support the monetary policy of the ECB and other tasks of the Eurosystem and the European System of Central Banks (ESCB)."/>
+<meta name="keywords" content="ECB; European Central Bank; statistics; data"/>
+<link rel="stylesheet" type="text/css" href="css/sdw_common.css"/>
+<!--[if IE]>
+            <link rel="stylesheet" type="text/css" href="css/sdw_specific.css" media="screen" />
+        <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="css/sdw_external.css" media="screen"/>
+
+<link rel="stylesheet" type="text/css" href="css/sdw-pal.css"/>
+<link rel="stylesheet" type="text/css" href="css/displaytag.css"/>
+<link rel="stylesheet" type="text/css" href="css/sdw_help.css"/>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="jsp/latest.jsp"/>
+
+    
+    
+
+<script type="text/javascript">
+    <!--
+    function initFocus() {
+        if (document.searchForm != null &&
+            document.searchForm.keywords != null) {
+            document.searchForm.keywords.focus();
+        }
+    }
+
+    function freezeForm(formId, timeout) {
+        var form = document.getElementById(formId);
+        var unlockScript = "document.getElementById('" + formId + "').disabled = false;";
+        form.disabled = true;
+        setTimeout(unlockScript, timeout);
+    }
+    //-->
+</script>
+<script type="text/javascript" src="jsp/popups.js"></script>
+<script type="text/javascript" src="jsp/showHideScripts.js"></script>
+<script type="text/javascript" src="jsp/filters.js"></script>
+
+</head>
+<body >
+<div id="pagearea">
+    <a name="top">
+    </a>
+
+    <div id="headarea">
+        <div id="headarealogo">
+            <a href="#skipnavigation" class="invisibleitem">
+                Skip navigation
+            </a>
+            <a href="home.do" accesskey="0" title="Logo - Link to homepage">
+                <img src="img/ecb_logo.gif" width="180" height="85"
+                     alt="European Central Bank Statistical Data Warehouse Logo - Link to Homepage"
+                     title=""/>
+            </a>
+        </div>
+        <div id="headerareanonlogo">
+            <div id="servicemenuregion">
+                <!-- S T A R T    S E R V I C E  M E N U   -->
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- start of serviceMenu.jsp -->
+
+    <div id="servicemenu">
+        
+            
+                
+                
+                                
+                
+                    <a id="serviceMenu_login" href="register.do">Login</a>
+                
+            
+            
+                <span class="spacebetweenpoint">.</span>
+            
+        
+            
+                
+                
+                    <a href="settings.do"
+                       target="settingswindow"
+                       onclick="settingsPopup(this); return false">
+                        My Settings
+                    </a>
+                
+                                
+                
+            
+            
+                <span class="spacebetweenpoint">.</span>
+            
+        
+            
+                
+                
+                                
+                
+                    <a id="serviceMenu_curConverter" href="curConverter.do">Currency Converter</a>
+                
+            
+            
+                <span class="spacebetweenpoint">.</span>
+            
+        
+            
+                
+                    <a href="help.do"
+                       target="helpwindow"
+                       onclick="helpPopup(this); return false">
+                        Help
+                    </a>
+                
+                
+                                
+                
+            
+            
+                <span class="spacebetweenpoint">.</span>
+            
+        
+            
+                
+                
+                                
+                
+                    <a id="serviceMenu_sitedirectory" href="sitedirectory.do">Site Directory</a>
+                
+            
+            
+                <span class="spacebetweenpoint">.</span>
+            
+        
+            
+                
+                
+                                
+                
+                    <a id="serviceMenu_ecbWebsite" href="http://www.ecb.europa.eu/">ECB website</a>
+                
+            
+            
+                <span class="spacebetweenpoint">.</span>
+            
+        
+            
+                
+                
+                                
+                
+                    <a id="serviceMenu_glossary" href="http://www.ecb.europa.eu/home/glossary/html/act2a.en.html">Glossary</a>
+                
+            
+            
+                <span class="spacebetweenpoint">.</span>
+            
+        
+            
+                
+                
+                                
+                
+                    <a id="serviceMenu_disclaimer" href="http://www.ecb.europa.eu/home/html/disclaimer.en.html">Disclaimer</a>
+                
+            
+            
+                <span class="spacebetweenpoint">.</span>
+            
+        
+            
+                
+                
+                
+                    <a target="contact" id="serviceMenu_contact" href="mailto:statistics@ecb.europa.eu?subject=[SDW%20General%20Public%20portal]">Contact</a>                
+                                
+                
+            
+            
+        
+    </div>
+
+<!-- end of serviceMenu.jsp -->
+
+
+
+                <!-- E N D    S E R V I C E  M E N U    -->
+            </div>
+
+            <div id="apptitleregion">
+			
+                <form name="searchForm" method="get" action="/searchprocessing.do" id="quicksearch">
+					
+                    <input type="hidden" name="type" value="series"/>
+                    <input type="text" name="q" value="" id="quicksearchbox" maxlength="150"/>
+                    <input type="image" style="vertical-align:middle;"
+                           src="img/button_quicksearch.gif"
+                           alt="Search"
+                           title="Search"/>
+                </form>
+			
+            <div id="apptitle">Statistical Data Warehouse</div>
+
+            </div>
+        </div>
+        <div id="bcsdw" class="bcsdw">
+            <!-- S T A R T    B R E A D  C R U M B   -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- start of breadCrumb.jsp -->
+
+
+	<span class="invisibleitem">
+		Navigation Path:
+	</span>
+    <table>
+        <tr>
+            <td class="bcsdwtext">
+                
+                    
+                        <a id="breadCrumb_home" href="home.do">
+                        
+                        	
+		           				
+		           				
+									Home
+		           				
+		          			
+                        </a>
+                        &nbsp;&gt;&nbsp;
+                    
+                    
+                
+                    
+                        <a id="breadCrumb_1478" href="browse.do?node=1478">
+                        
+                        	
+		           				
+		           				
+									Economic Concepts
+		           				
+		          			
+                        </a>
+                        &nbsp;&gt;&nbsp;
+                    
+                    
+                
+                    
+                        <a id="breadCrumb_2745" href="browse.do?node=2745">
+                        
+                        	
+		           				
+		           				
+									Payments and securities trading, clearing, settlement
+		           				
+		          			
+                        </a>
+                        &nbsp;&gt;&nbsp;
+                    
+                    
+                
+                    
+                        <a id="breadCrumb_2018796" href="browse.do?node=2018796">
+                        
+                        	
+		           				
+		           				
+									Securities settlements
+		           				
+		          			
+                        </a>
+                        &nbsp;&gt;&nbsp;
+                    
+                    
+                
+                    
+                    
+                        	
+		           				
+		           				
+									Delivery instructions
+		           				
+		          			
+                    
+                
+            </td>
+        </tr>
+    </table>
+
+<!-- end of breadCrumb.jsp -->
+
+
+
+            <!-- E N D    B R E A D  C R U M B    -->
+        </div>
+    </div>
+    <!--end headarea-->
+    <!-- S T A R T    L E F T   N A V I G A T I O N   -->
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- start of leftNaviBroswer -->
+
+
+
+
+
+
+<div id="sectionmenu">
+
+
+    
+        <ul>
+        
+        
+        
+            
+            
+            
+            
+                
+                    
+                
+                
+            
+            
+            
+                
+                    
+                        
+                    
+                    
+                
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=1478" class="sdw1border sdwbg1 fat">
+                            <img src="img/ico_minus.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Economic Concepts
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                        <!-- deeper new level (higher level number = deeper in the hierarchy) -->
+                        
+                        <li><ul>
+                        
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                    
+                    
+                        
+                    
+                
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=2018800" class="sdw1border sdwbg2 ">
+                            <img src="img/ico_plus.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Monetary operations
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                    
+                    
+                        
+                    
+                
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=2018803" class="sdw1border sdwbg2 ">
+                            <img src="img/ico_plus.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Prices, output, demand and labour market
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                    
+                    
+                        
+                    
+                
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=2018773" class="sdw1border sdwbg2 ">
+                            <img src="img/ico_plus.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Money, banking and financial markets
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                    
+                    
+                        
+                    
+                
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=2019181" class="sdw1border sdwbg2 ">
+                            <img src="img/ico_plus.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Euro area accounts
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                    
+                    
+                        
+                    
+                
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=2018789" class="sdw1border sdwbg2 ">
+                            <img src="img/ico_plus.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Government finance
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                    
+                    
+                        
+                    
+                
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=2018778" class="sdw1border sdwbg2 ">
+                            <img src="img/ico_plus.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                External transactions and positions
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                    
+                    
+                        
+                    
+                
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=2018779" class="sdw1border sdwbg2 ">
+                            <img src="img/ico_plus.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Exchange rates
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                    
+                
+                
+            
+            
+            
+                
+                    
+                        
+                    
+                    
+                
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=2745" class="sdw1border sdwbg2 fat">
+                            <img src="img/ico_minus.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Payments and securities trading, clearing, settlement
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                        <!-- deeper new level (higher level number = deeper in the hierarchy) -->
+                        
+                        <li><ul>
+                        
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                    
+                    
+                        
+                    
+                
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=2746" class="sdw1border sdwbg3 ">
+                            <img src="img/ico_plus.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Payments
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                    
+                    
+                        
+                    
+                
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=4212911" class="sdw1border sdwbg3 ">
+                            <img src="img/ico_plus.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Securities trading
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                    
+                    
+                        
+                    
+                
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=4212912" class="sdw1border sdwbg3 ">
+                            <img src="img/ico_plus.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Securities clearing
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                    
+                
+                
+            
+            
+            
+                
+                    
+                        
+                    
+                    
+                
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=2018796" class="sdw1border sdwbg3 fat">
+                            <img src="img/ico_minus.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Securities settlements
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                        <!-- deeper new level (higher level number = deeper in the hierarchy) -->
+                        
+                        <li><ul>
+                        
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=2517702" class="sdw1border sdwbg4 ">
+                            <img src="img/spacer.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Direct participants
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=2517703" class="sdw1border sdwbg4 ">
+                            <img src="img/spacer.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Securities held on CSD accounts
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+                    
+                
+            
+            
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=2517704" class="sdw1border sdwbg4 current">
+                            <img src="img/spacer.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Delivery instructions
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=2517705" class="sdw1border sdwbg4 ">
+                            <img src="img/spacer.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                New issues and redemptions
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                        
+                        <!-- higher new level (lower level number = higher in the hierarchy) -->
+                        <!-- insert closing tags for the open unordered lists -->
+                        
+                            
+                            </ul></li>
+                            
+                        
+                            
+                            </ul></li>
+                            
+                        
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=5274891" class="sdw1border sdwbg2 ">
+                            <img src="img/spacer.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Banknotes and Coins
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=2018817" class="sdw1border sdwbg2 ">
+                            <img src="img/spacer.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Indicators of financial integration 
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                    
+                    
+                        
+                    
+                
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=4843525" class="sdw1border sdwbg2 ">
+                            <img src="img/ico_plus.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                RTD - Real Time Database (research database) 
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                        
+                        <!-- higher new level (lower level number = higher in the hierarchy) -->
+                        <!-- insert closing tags for the open unordered lists -->
+                        
+                            
+                            </ul></li>
+                            
+                        
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                    
+                    
+                        
+                    
+                
+            
+            
+                
+                
+                    <li>
+                        <a href="reports.do?node=REPORTS" class="sdw1border sdwbg1 ">
+                            <img src="img/ico_plus.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                Reports
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+            
+                
+                    <li class="separatorNode">&nbsp;</li>
+                
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=USERREPORTS" class="sdw1border sdwbg1 ">
+                            <img src="img/spacer.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                My Reports
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+            
+                
+                
+                    <li>
+                        <a href="browse.do?node=BASKET" class="sdw1border sdwbg1 ">
+                            <img src="img/spacer.gif" alt="Expand/Contract" width="8" height="12"
+                                 style="margin-left: -12px;"/>
+                            
+                            
+                            
+                                
+                                My Data Groups
+                            
+                        </a>
+                    </li>
+                
+            
+            
+        
+        
+        </ul>
+
+    
+    
+
+    
+
+
+</div>
+
+
+<!-- end of leftNaviBroswer -->
+
+    <!-- E N D    L E F T   N A V I G A T I O N    -->
+    <div id="contentarea">
+        <div id="contentlimiter">
+            <!-- S T A R T    C O N T E N T   -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- start layoutData.jsp -->
+<div>
+
+    <!-- S T A R T C O N T E N T -->
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- start of browseDataSelectedSeries.jsp -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    var filterScreen = true;
+    var MAX_VIEWABLE_RESULTS = 50;
+
+    function resetFilter() {
+        location.href = 'browseSelection.do?node=2517704';
+    }
+
+     function viewSeries(url) {
+         var seriesKeys = document.getElementsByName('SERIES_KEY');
+         for (var i = 0; i < seriesKeys.length; i++) {
+             if (seriesKeys[i].checked)
+                 url += "&SERIES_KEY=" + seriesKeys[i].value;
+         }
+         location.href = url;
+     }
+
+     function switchView(url) {
+         var transformationType = document.getElementsByName('trans');
+         if (transformationType.length == 1) {
+             url += '&trans=' + transformationType[0].value;
+         }
+         location.href = url;
+     }
+
+</script>
+<div class="toolbar1row sdwboxheadwidth" style="margin-bottom:10px;">
+
+    
+    
+    
+    
+    
+    
+
+    
+        
+    
+    
+    
+    
+    
+    <!--  param.sk :  -->
+    <table>
+        <tr>
+
+    
+        
+            <td><a href="javascript:viewSeries('browseSelection.do%3FREF_AREA%3D65%26node%3D2517704%26sfl2%3D4%26sfl3%3D4%26DATASET%3D0%26DATASET%3D1');"><img src="img/button_selectedSeries_selected.gif"/></a></td>
+            <td><a href="javascript:viewSeries('browseExplanation.do%3FREF_AREA%3D65%26node%3D2517704%26sfl2%3D4%26sfl3%3D4%26DATASET%3D0%26DATASET%3D1');"><img src="img/button_explanation.gif"/></a>&nbsp;</td>
+            <td><a href="javascript:viewSeries('browseTable.do%3FREF_AREA%3D65%26node%3D2517704%26sfl2%3D4%26sfl3%3D4%26DATASET%3D0%26DATASET%3D1');"><img src="img/button_datatable.gif"/></a>&nbsp;</td>
+            <td><a href="javascript:viewSeries('browseChart.do%3FREF_AREA%3D65%26node%3D2517704%26sfl2%3D4%26sfl3%3D4%26DATASET%3D0%26DATASET%3D1');"><img src="img/button_datachart.gif"/></a>&nbsp;</td>
+            <td><a href="javascript:viewSeries('browseAdvancedFilter.do%3FREF_AREA%3D65%26node%3D2517704%26sfl2%3D4%26sfl3%3D4%26DATASET%3D0%26DATASET%3D1');"><img src="img/button_filter.gif"/></a>&nbsp;</td>
+            <td><img width="5" height="15" src="img/button_separator.gif" alt="Separator" title="Separator"/>&nbsp;</td>
+            <td><a href="javascript:viewSeries('basketAdd.do%3FREF_AREA%3D65%26node%3D2517704%26sfl2%3D4%26sfl3%3D4%26DATASET%3D0%26DATASET%3D1');"><img src="img/button_basketadd.gif"/></a>&nbsp;</td>
+        
+        
+    
+            <td>			
+            	
+				
+                <img src="img/button_export.gif" alt="Export" title="Export" style="cursor:pointer;" 
+						 onclick="toggleExportOptions('exportOptions', event, false);"/><br/>
+                <div id="exportOptions" class="exportOptions" style="display:none; text-align:left;  top: 50px; width: 170px; position: absolute; background-color: white;  border: 1px solid gray; padding: 5px;">
+                    
+                        <a href="export.do?REF_AREA=65&DATASET=0&DATASET=1&node=2517704&sfl3=4&sfl2=4&exportType=csv">CSV - Character Separated</a><br/>
+                    
+                        <a href="export.do?REF_AREA=65&DATASET=0&DATASET=1&node=2517704&sfl3=4&sfl2=4&exportType=sdmx">XML (SDMX-ML)</a><br/>
+                    
+                        <a href="export.do?REF_AREA=65&DATASET=0&DATASET=1&node=2517704&sfl3=4&sfl2=4&exportType=xls">Excel (csv)</a><br/>
+                    
+                </div>
+            </td>
+        </tr>
+        </table>
+</div>
+
+
+<script type="text/javascript" src="jsp/checkData.js"></script>
+
+<form name="dataBrowserForm" method="get" action="/browseSelection.do" id="dataBrowserForm">
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- start of dataHeader.jsp -->
+
+
+
+
+    
+
+
+
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- start of selectedCubes.jsp -->
+
+
+
+
+
+
+
+
+
+
+
+<div class="boxborder head basicborder sdwbgboxhead sdwboxheadwidth">
+    <table border="0" cellpadding="0" cellspacing="0" style="width:100%;height:15px;">
+        <tr style="width:100%;">
+            <td style="width:50%;">
+                <b style="width:120px;">
+					Selected Datasets (2) & Excel Pivot Tables
+                </b>
+            </td>
+            <td style="width:5%;">
+                <a href="help.do#cubeselect" target="helpwindow" onclick="helpPopup(this); return false">
+                    <img src="img/icon_help.gif"
+                         alt="Help on Dataset Selections"
+                         title="Help on Dataset Selections"
+                         style="float:left;vertical-align:bottom;"/>
+                </a>
+            </td>
+            <td style="width:40%;">
+                &nbsp;
+            </td>
+            <td style="width:5%;">
+                <img src="img/icon_hide.gif"
+                     alt="Show/Hide section"
+                     style="float:right; cursor:pointer;"
+                     onclick="toggleElementVisibility('selectedDatasets', this);">
+            </td>
+        </tr>
+    </table>
+</div>
+<div class="boxborder row basic0border sdwboxrowwidth" style="display:block;" id="selectedDatasets">
+    <table class="tablestats">
+        <thead>
+            <tr>
+                <td>&nbsp;</td>
+                <td>Name (# Series)</td>
+                <td>Description</td>
+                <td>
+                    
+                        Excel Pivot Export
+                    
+                    
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+			
+            
+                <tr>
+                    <td>
+                        
+                        
+                            
+                        
+                        <input onclick="form.submit()" type="checkbox" name="DATASET"
+                               value="0" checked="checked" />
+                    </td>
+                    <td>
+                        
+                            Securities Settlement Statistics
+                        
+                            
+                            &nbsp;
+                            (609)
+                        	
+                        
+                    </td>
+                    <td>
+                            Delivery instructions
+                    </td>
+                    <td>
+                        <table style="border-style:none;">
+                            <tr>
+                                <td style="border-style:none;" title="Open in Excel Pivot Table">
+                                    
+                                        
+											
+											<a href="/export.do?cubeindex=0&exportType=pvtx&node=2517704&REF_AREA=65&sfl2=4&sfl3=4&DATASET=0&DATASET=1">
+                                                <img src="img/icon_pivot.gif"
+                                                     alt="Download dataset in Excel Pivot Table"
+                                                     title="Download dataset in Excel Pivot Table. 
+Limit: max 1000 series"
+                                                     style="vertical-align:bottom;"/>
+                                            </a>
+                                        
+                                    
+                                    
+                                </td>
+                                
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        
+                        
+                            
+                        
+                        <input onclick="form.submit()" type="checkbox" name="DATASET"
+                               value="1" checked="checked" />
+                    </td>
+                    <td>
+                        
+                            Derived Data
+                        
+                            
+                            &nbsp;
+                            (6)
+                        	
+                        
+                    </td>
+                    <td>
+                            Delivery instructions
+                    </td>
+                    <td>
+                        <table style="border-style:none;">
+                            <tr>
+                                <td style="border-style:none;" title="Open in Excel Pivot Table">
+                                    
+                                        
+											
+											<a href="/export.do?cubeindex=1&exportType=pvtx&node=2517704&REF_AREA=65&sfl2=4&sfl3=4&DATASET=0&DATASET=1">
+                                                <img src="img/icon_pivot.gif"
+                                                     alt="Download dataset in Excel Pivot Table"
+                                                     title="Download dataset in Excel Pivot Table. 
+Limit: max 1000 series"
+                                                     style="vertical-align:bottom;"/>
+                                            </a>
+                                        
+                                    
+                                    
+                                </td>
+                                
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            
+        </tbody>
+    </table>
+</div>
+
+<!-- end of selectedCubes.jsp -->
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br/>
+
+<div class="boxborder head basicborder sdwbgboxhead sdwboxheadwidth">
+    <table border="0" cellpadding="0" cellspacing="0" style="width:100%;height:15px;">
+        <tr style="width:100%;">
+            <td style="width:20%;">
+                <strong>Filter Options</strong>
+                &nbsp;
+                <a href="help.do#filterops" target="helpwindow" onclick="helpPopup(this); return false;">
+                    <img src="img/icon_help.gif" alt="Help" title="Help" style="vertical-align:bottom;"/>
+                </a>
+            </td>
+            <td style="width:80%;text-align:right;">
+                <a href="javascript:resetFilter()">
+                    <img src="img/icon_reset.gif" alt="Reset Data" title="Reset Data"
+                         style="vertical-align:bottom;"/>
+                </a>
+                &nbsp;&nbsp;
+                <img src="img/icon_hide.gif" alt="Show/Hide section" style="cursor:pointer;vertical-align:bottom;"
+                     onclick="toggleElementVisibility('filterOptions', this);">
+            </td>
+        </tr>
+    </table>
+</div>
+<div id="filterOptions">
+<div class="boxborder row basic0border sdwboxrowwidth">
+
+    <table style="width:96%;">
+        <tr>
+            
+            
+            
+                <td width="33%">
+					<center>
+					<table width="100%">
+					<tr><td>
+	              
+                    
+					<span class="listboxheader"><strong>Frequency&nbsp;(1):&nbsp;</strong>
+										</span><br/>
+                    
+                        
+                            
+                                
+                                
+                                
+                            
+                            <select class="listbox" name="FREQ" disabled="disabled" style="width:100%">
+                                <option value="A">Annual</option>
+                            </select>
+                            
+                            
+                        
+                        
+	                    
+             
+</td></tr></table>
+					</center>
+                </td>
+            
+            
+            
+            
+            
+				<td width="66%"><center>
+				<table width="100%"><tr><td>
+                    
+                        
+                        
+                            
+							
+                            
+							
+								
+								
+							
+                            
+                            <input type="hidden" name="sfl2" value="4">
+                            
+		                    
+		                        <img src="img/buttonPup.png" onmouseover="src='img/buttonPdown.png'"
+								onmouseout="src='img/buttonPup.png'"
+								name="bMfl2"
+								title="Make the box bigger." 
+								style="float:right;" onclick="moreOption('fl2',30)" />
+
+		                        <img src="img/buttonMup.png" onmouseover="src='img/buttonMdown.png'"
+								onmouseout="src='img/buttonMup.png'"
+								name="bMfl2"
+								title="Make the box smaller." 
+								style="float:right;" onclick="lessOption('fl2',30)" />
+							
+							
+                            <span class="listboxheader"><strong>
+								Geographic&nbsp;Area&nbsp;(30):&nbsp;</strong></span><br/>
+                            <select id="fl2" class="listbox" name="REF_AREA" multiple="multiple" style="width:100%" 
+                                    size="4" onchange="form.submit();">
+                                
+                                <option value="">&nbsp;All</option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                        
+                                    
+                                    <option value="65" selected="selected">
+                                        &nbsp;Belgium&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="*EU" >
+                                        &nbsp;All EU Countries&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="*MU" >
+                                        &nbsp;All MU Countries&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="*OM" >
+                                        &nbsp;EU countries excluding MU&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="50" >
+                                        &nbsp;Austria&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="67" >
+                                        &nbsp;Bulgaria&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="105" >
+                                        &nbsp;Cyprus&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="106" >
+                                        &nbsp;Czech Republic&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="124" >
+                                        &nbsp;Denmark&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="140" >
+                                        &nbsp;Estonia&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="152" >
+                                        &nbsp;Finland&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="156" >
+                                        &nbsp;France&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="262" >
+                                        &nbsp;Germany&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="168" >
+                                        &nbsp;Greece&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="179" >
+                                        &nbsp;Hungary&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="183" >
+                                        &nbsp;Ireland&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="190" >
+                                        &nbsp;Italy&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="218" >
+                                        &nbsp;Latvia&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="216" >
+                                        &nbsp;Lithuania&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="217" >
+                                        &nbsp;Luxembourg&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="232" >
+                                        &nbsp;Malta&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="244" >
+                                        &nbsp;Netherlands&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="256" >
+                                        &nbsp;Poland&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="258" >
+                                        &nbsp;Portugal&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="265" >
+                                        &nbsp;Romania&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="282" >
+                                        &nbsp;Slovakia&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="281" >
+                                        &nbsp;Slovenia&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="143" >
+                                        &nbsp;Spain&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="278" >
+                                        &nbsp;Sweden&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                                    
+                                    
+                                    
+                                    
+                                    <option value="160" >
+                                        &nbsp;United Kingdom&nbsp;&nbsp;&nbsp;
+                                    </option>
+                                
+                            </select>
+                            
+                        
+                    
+					</td></tr></table>
+                    </center>
+                </td>
+            
+        </tr>
+    </table>
+</div>
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+	
+
+    
+    
+    
+    
+    
+    
+    
+    
+	
+
+</div>
+        
+    
+
+<!-- end dataHeader.jsp -->
+    
+
+
+
+
+	<div style="display: none;">
+		<table style="border: 1px solid black; font-size: smaller;">
+			<tr>
+				<th colspan="2">Selected Series Parameters - Debug info</th>
+			</tr>
+			
+			<tr>
+				<td>node</td>
+				<td><input type="text" name="node" value="2517704"
+					readonly="readonly" /></td>
+			</tr>
+			
+			
+			
+			
+		</table>
+	</div>
+
+	
+	<br />
+
+	<div class="boxborder head basicborder sdwbgboxhead sdwboxheadwidth">
+		<table border="0" cellpadding="0" cellspacing="0"
+			style="width: 100%; height: 15px;">
+			<tr style="width: 100%;">
+				<td style="width: 20%;"><b style="width: 140px;"> Filter:
+						Selected Series 
+							
+							
+                            (615)
+                        
+						
+				</b></td>
+				<td style="width: 5%; text-align: left;"><a
+					href="help.do#selectseries" target="helpwindow"
+					onclick="helpPopup(this); return false"> <img
+						src="img/icon_help.gif" alt="Help on selecting series"
+						title="Help on selecting series" style="vertical-align: bottom;" />
+				</a></td>
+				<td style="width: 70%;"><span id="tooManyMsg" style="display:none;"><b>Please
+							select less than <span id="maxSeriesCount">50</span>
+							series from the list of available series below.
+					</b></span> &nbsp;</td>
+			</tr>
+		</table>
+	</div>
+	
+		
+		
+			<p class="warning sdwwarningwidth">
+				<img align="middle" src="img/information.gif">&nbsp; Your
+				selection exceeds the maximum number of displayable series
+				(500). Please restrict your search. <a
+					href="help.do#filterselect" target="helpwindow"
+					onclick="helpPopup(this); return false"> <img
+					src="img/icon_help.gif" alt="Help on filtering series"
+					title="Help on filtering series" style="vertical-align: bottom;" />
+				</a>
+			</p>
+		
+	
+	<br />
+	<script type="text/javascript" src="jsp/checkboxes.js"></script>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    var filterScreen = true;
+    var MAX_VIEWABLE_RESULTS = 50;
+
+    function resetFilter() {
+        location.href = 'browseSelection.do?node=2517704';
+    }
+
+     function viewSeries(url) {
+         var seriesKeys = document.getElementsByName('SERIES_KEY');
+         for (var i = 0; i < seriesKeys.length; i++) {
+             if (seriesKeys[i].checked)
+                 url += "&SERIES_KEY=" + seriesKeys[i].value;
+         }
+         location.href = url;
+     }
+
+     function switchView(url) {
+         var transformationType = document.getElementsByName('trans');
+         if (transformationType.length == 1) {
+             url += '&trans=' + transformationType[0].value;
+         }
+         location.href = url;
+     }
+
+</script>
+<div class="toolbar1row sdwboxheadwidth" style="margin-bottom:10px;">
+
+    
+    
+    
+    
+    
+    
+
+    
+        
+    
+    
+    
+    
+    
+    <!--  param.sk :  -->
+    <table>
+        <tr>
+
+    
+        
+            <td><a href="javascript:viewSeries('browseSelection.do%3FREF_AREA%3D65%26node%3D2517704%26sfl2%3D4%26sfl3%3D4%26DATASET%3D0%26DATASET%3D1');"><img src="img/button_selectedSeries_selected.gif"/></a></td>
+            <td><a href="javascript:viewSeries('browseExplanation.do%3FREF_AREA%3D65%26node%3D2517704%26sfl2%3D4%26sfl3%3D4%26DATASET%3D0%26DATASET%3D1');"><img src="img/button_explanation.gif"/></a>&nbsp;</td>
+            <td><a href="javascript:viewSeries('browseTable.do%3FREF_AREA%3D65%26node%3D2517704%26sfl2%3D4%26sfl3%3D4%26DATASET%3D0%26DATASET%3D1');"><img src="img/button_datatable.gif"/></a>&nbsp;</td>
+            <td><a href="javascript:viewSeries('browseChart.do%3FREF_AREA%3D65%26node%3D2517704%26sfl2%3D4%26sfl3%3D4%26DATASET%3D0%26DATASET%3D1');"><img src="img/button_datachart.gif"/></a>&nbsp;</td>
+            <td><a href="javascript:viewSeries('browseAdvancedFilter.do%3FREF_AREA%3D65%26node%3D2517704%26sfl2%3D4%26sfl3%3D4%26DATASET%3D0%26DATASET%3D1');"><img src="img/button_filter.gif"/></a>&nbsp;</td>
+            <td><img width="5" height="15" src="img/button_separator.gif" alt="Separator" title="Separator"/>&nbsp;</td>
+            <td><a href="javascript:viewSeries('basketAdd.do%3FREF_AREA%3D65%26node%3D2517704%26sfl2%3D4%26sfl3%3D4%26DATASET%3D0%26DATASET%3D1');"><img src="img/button_basketadd.gif"/></a>&nbsp;</td>
+        
+        
+    
+            <td>			
+            	
+				
+                <img src="img/button_export.gif" alt="Export" title="Export" style="cursor:pointer;" 
+						 onclick="toggleExportOptions('exportOptions', event, false);"/><br/>
+                <div id="exportOptions" class="exportOptions" style="display:none; text-align:left;  top: 50px; width: 170px; position: absolute; background-color: white;  border: 1px solid gray; padding: 5px;">
+                    
+                        <a href="export.do?REF_AREA=65&DATASET=0&DATASET=1&node=2517704&sfl3=4&sfl2=4&exportType=csv">CSV - Character Separated</a><br/>
+                    
+                        <a href="export.do?REF_AREA=65&DATASET=0&DATASET=1&node=2517704&sfl3=4&sfl2=4&exportType=sdmx">XML (SDMX-ML)</a><br/>
+                    
+                        <a href="export.do?REF_AREA=65&DATASET=0&DATASET=1&node=2517704&sfl3=4&sfl2=4&exportType=xls">Excel (csv)</a><br/>
+                    
+                </div>
+            </td>
+        </tr>
+        </table>
+</div>
+
+<!-- end of browseDataSelectedSeries.jsp -->
+
+    <!-- E N D C O N T E N T -->
+</div>
+<!-- end layoutData.jsp -->
+    
+            <!-- E N D    C O N T E N T    -->
+            <!-- End contentlimiter div -->
+        </div>
+        <!-- end contentarea div -->
+    </div>
+    <!-- end pagearea div -->
+</div>
+</body>
+<!-- end of layoutLeftNav.jsp -->
+</html>
