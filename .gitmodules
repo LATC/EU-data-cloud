@@ -20,3 +20,6 @@
 [submodule "institutions/ecb-stats/sparql"]
 	path = institutions/ecb-stats/sparql
 	url = git://github.com/kwijibo/sparql-proxy.git
+[submodule "institutions/eurobarometer"]
+	path = institutions/eurobarometer
+	url = git://github.com/iand/Eurobarometer-RDF.git

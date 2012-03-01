@@ -458,7 +458,8 @@ class LinkedDataApiResponse {
         $response = $this->SparqlEndpoint->query($this->selectQuery, PUELIA_SPARQL_ACCEPT_MIMES);
         
         if($response->is_success()){
-            if($response->body[0]=='{')//is JSON
+          $body = trim($response->body);
+            if($body[0]=='{')//is JSON
              {
                 $sparqlResults = json_decode($response->body, true);
                 $results = $sparqlResults['results']['bindings'];

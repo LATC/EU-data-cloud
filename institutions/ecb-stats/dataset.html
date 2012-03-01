@@ -2,21 +2,37 @@
   <head>
     <link type="text/css" href="sdmx2rdfa/css/latc_ecb_stats.css" rel="stylesheet"/>
     <title>Linked Data: European Central Bank Statistical Data Warehouse</title>
+    <link rev="foaf:homepage" href="http://ecb.publicdata.eu/"/> 
   </head>
-  <body>
-<h1>European Central Bank Statistical Data Warehouse</h1>
+  <body about="http://ecb.publicdata.eu/" type="void:Dataset">
+    <h1 property="rdfs:label">European Central Bank Statistical Data Warehouse</h1>
 
-<p>This dataset is a Linked Data version of the data published by the <a href="http://sdw.ecb.europa.eu/">European Central Bank Statistical Data Warehouse</a>.</p>
+<div class="desc" property="dcterms:description">
+    <p>This dataset is a Linked Data version of the data published by the <a href="http://sdw.ecb.europa.eu/">European Central Bank Statistical Data Warehouse</a>.</p>
 
-<p>It was created as part of the <a href="http://latc-project.eu">LATC project</a>.</p>
+  <p>
+     It was created as part of the <a href="http://latc-project.eu">LATC project</a>.
+  </p>
 
-<p>Code used to convert the original data to RDF, and to publish it as Linked Data, is <a href="https://github.com/LATC/EU-data-cloud/tree/master/institutions/ecb-stats/">available from github</a> 
-</p>
+  <p>
+    Code used to convert the original data to RDF, and to publish it as Linked Data, is <a href="https://github.com/LATC/EU-data-cloud/tree/master/institutions/ecb-stats/">available from github</a> 
+  </p>
 
-<p>A <a href="http://ecb.publicdata.eu/sparql/"><em>SPARQL Endpoint</em> is available here</a></p>
+  <p>A <a rel="void:sparqlEndpoint" href="http://ecb.publicdata.eu/sparql/"><em property="rdfs:label">SPARQL Endpoint</em> is available here</a></p>
 
-<p>The terms of use for the data are available on <a href="http://www.ecb.europa.eu/home/html/disclaimer.en.html">ECB's website</a></p>
+  <p>The terms of use for the data are available on <a href="http://www.ecb.europa.eu/home/html/disclaimer.en.html">ECB's website</a></p>
 
-<p>For further details, contact Keith Alexander keith DOT alexander AT kasabi DOT com</p>
+  <p>For further details, contact Keith Alexander keith DOT alexander AT kasabi DOT com</p>
+</div>
+
+  <dl>
+    <dt>Starting links<dt>
+    <dd><a href="/doc/series">Series</a></dd>
+    <dd><a href="/doc/dataset">Datasets</a></dd>
+    <dd><a href="/doc/topic">Topics</a></dd>
+    <dt>Example Resources</dt>
+    <dd><a href="" rel="void:exampleResource"></a></dd>
+  </dl>
+
   </body>
 </html>  

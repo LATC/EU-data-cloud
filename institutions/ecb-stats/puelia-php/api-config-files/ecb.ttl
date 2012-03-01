@@ -21,7 +21,7 @@
   a api:API ;
   rdfs:label "European Central Bank Statistics"@en ; 
   dcterms:creator <http://keithalexander.co.uk/id/me> ;
-  dcterms:description """API for European Central Bank Statistics """@en ;
+  dcterms:description """Linked Data European Central Bank Statistics """@en ;
   api:endpoint  
                 <list_DataSets>,
                 <list_series>, 
@@ -29,6 +29,7 @@
                 <list_codelists> , 
                 <item_codes>, 
                 <item_codelist> , 
+                <item_concept> , 
                 <item_ecb_concepts>,
                 <item_DataSet>  ;
 
@@ -87,6 +88,12 @@
   api:itemTemplate "http://ecb.publicdata.eu/conceptscheme/{scheme}" ;
 .
 
+<item_concept> a api:ItemEndpoint ;
+  api:uriTemplate "/doc/concepts/{concept}" ;
+  api:itemTemplate "http://ecb.publicdata.eu/concepts/{concept}" ;
+.
+
+
 <item_DataSet> a api:ItemEndpoint ;
   api:uriTemplate "/doc/dataset/{dataset_id}" ;
   api:itemTemplate  "http://ecb.publicdata.eu/dataset/{dataset_id}";
@@ -108,3 +115,12 @@ qb:ConceptScheme api:label "ConceptScheme" .
 rdf:type api:label "type" .
 <http://ecb.publicdata.eu/concepts> api:label "ECBConcepts" .
 qb:DataSet api:label "DataSet" .
+rdfs:label api:label "label" .
+dcterms:subject api:label "subject" .
+qb:slice api:label "slice" .
+qb:subSlice api:label "subSlice" .
+ecbstats:adjustment api:label "adjustment" .
+dcterms:temporal api:label "temporal" .
+sdmx-dim:refArea api:label "refArea" .
+sdmx-dim:refPeriod api:label "refPeriod" .
+foaf:page api:label "page" .
