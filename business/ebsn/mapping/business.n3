@@ -1,0 +1,604 @@
+@prefix map: <file:/C:/euraxess/euraxess.n3#> .
+@prefix ebsn: <http://www4.wiwiss.fu-berlin.de/ebsn/resource/ebsn/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix d2r: <http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#> .
+@prefix vocabClass: <http://www4.wiwiss.fu-berlin.de/cordis/vocab/resource/class/> .
+@prefix vocabProperty: <http://www4.wiwiss.fu-berlin.de/cordis/vocab/resource/property/> .
+
+map:Server a d2r:Server;
+    rdfs:label "D2R Server publishing the EURES data set";
+    d2r:baseURI <http://160.45.137.76:2010/>;
+    d2r:port 2010;
+    .
+
+map:database a d2rq:Database;
+    d2rq:jdbcDriver "com.mysql.jdbc.Driver";
+	d2rq:jdbcDSN "jdbc:mysql://127.0.0.1/business?autoReconnect=true";
+    d2rq:username "d2r";
+	d2rq:password "password";
+    .
+
+	
+map:Products a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class ebsn:Products;
+	d2rq:uriPattern "Products/@@product.ID@@";
+	d2rq:classDefinitionLabel "Product"@en;
+    .
+	
+
+
+map:name a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Products;
+    d2rq:column "product.name";
+	d2rq:property rdfs:label;
+	d2rq:condition "product.name <>''";
+	.
+
+map:productPrice a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Products;
+    d2rq:column "product.price";
+	d2rq:property ebsn:price;
+	d2rq:propertyDefinitionLabel "Product Price"@en;
+	d2rq:condition "product.price <>''";
+	.	
+	
+map:productDescription a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Products;
+    d2rq:column "product.description";
+	d2rq:property ebsn:description;
+	d2rq:propertyDefinitionLabel "Description"@en;
+	d2rq:condition "product.description <>''";
+	.	
+	
+map:informationProvider a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Products;
+    d2rq:column "product.information_provider";
+	d2rq:property ebsn:informationProvider;
+	d2rq:propertyDefinitionLabel "Information provider"@en;
+	d2rq:condition "product.information_provider <>''";
+	.	
+	
+map:productVersion a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Products;
+    d2rq:column "product.product_version";
+	d2rq:property ebsn:productVersion;
+	d2rq:propertyDefinitionLabel "Product version"@en;
+	d2rq:condition "product.product_version <>''";
+	.		
+	
+map:productWebLink a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Products;
+    d2rq:uriColumn "product.web_link";
+	d2rq:property foaf:page;
+	d2rq:propertyDefinitionLabel "Product web link"@en;
+	d2rq:condition "product.web_link <>''";
+	.		
+	
+map:productReferenceCustomerGeneral a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Products;
+    d2rq:column "product.reference_customer_general";
+	d2rq:property ebsn:referenceCustomerGeneral;
+	d2rq:propertyDefinitionLabel "Reference customer general"@en;
+	d2rq:condition "product.reference_customer_general <>''";
+	.		
+	
+map:productPriceIndication a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Products;
+    d2rq:column "product.price_indication";
+	d2rq:property ebsn:priceIndication;
+	d2rq:propertyDefinitionLabel "Product price indication"@en;
+	d2rq:condition "product.price_indication <>''";
+	.		
+	
+map:productReferenceCustomerSme a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Products;
+    d2rq:column "product.reference_customers_sme";
+	d2rq:property ebsn:referenceCustomerSme;
+	d2rq:propertyDefinitionLabel "Reference customer sme"@en;
+	d2rq:condition "product.reference_customers_sme <>''";
+	.		
+	
+map:supportedStandards a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Products;
+    d2rq:column "product.standard_supported";
+	d2rq:property ebsn:supportedStandards;
+	d2rq:propertyDefinitionLabel "Supported standards"@en;
+	d2rq:condition "product.standard_supported <>''";
+	.		
+
+map:productOriginalUrl a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Products;
+    d2rq:uriColumn "product.original_url";
+	d2rq:property foaf:page;
+	d2rq:propertyDefinitionLabel "Original URL"@en;
+	d2rq:condition "product.original_url <>''";
+	.		
+	
+map:evaluation a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Products;
+    d2rq:column "product.evaluation";
+	d2rq:property ebsn:evaluation;
+	d2rq:propertyDefinitionLabel "Evaluation"@en;
+	d2rq:condition "product.evaluation <>''";
+	.
+	
+map:relatedService a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Products;
+    d2rq:column "product.related_service";
+	d2rq:property ebsn:relatedService;
+	d2rq:propertyDefinitionLabel "Related service"@en;
+	d2rq:condition "product.related_service <>''";
+	.
+	
+map:productBenefit a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Products;
+	d2rq:uriPattern "Benefit/@@benefit.ID|urlify@@";
+	d2rq:property ebsn:benefit;
+	d2rq:join "product.ID = product_benefit.product_ID";
+	d2rq:join "product_benefit.benefit_ID = benefit.ID";
+	d2rq:condition "product_benefit.benefit_ID <> ''";	
+	.	
+	
+map:productProducer a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Products;
+	d2rq:uriPattern "Producer/@@producer.ID|urlify@@";
+	d2rq:property ebsn:producer;
+	d2rq:join "product.ID = product_producer.product_ID";
+	d2rq:join "product_producer.producer_ID = producer.ID";
+	d2rq:condition "product_producer.producer_ID <> ''";	
+	.	
+	
+map:productCategory a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Products;
+	d2rq:uriPattern "Category/@@category.name|urlify@@";
+	d2rq:property ebsn:category;
+	d2rq:join "product.ID = product_category.product_ID";
+	d2rq:join "product_category.category_ID = category.ID";
+	d2rq:condition "product_category.category_ID <> ''";	
+	.		
+	
+map:productCountry a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Products;
+	d2rq:uriPattern "Country/@@country.name|urlify@@";
+	d2rq:property ebsn:country;
+	d2rq:join "product.ID = product_country.product_ID";
+	d2rq:join "product_country.country_ID = country.ID";
+	d2rq:condition "product_country.country_ID <> ''";	
+	.		
+
+map:productDataBaseSystem a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Products;
+	d2rq:uriPattern "DatabaseSystem/@@database_system.name|urlify@@";
+	d2rq:property ebsn:databaseSystem;
+	d2rq:join "product.ID = product_database_system.product_ID";
+	d2rq:join "product_database_system.database_system_ID = database_system.ID";
+	d2rq:condition "product_database_system.database_system_ID <> ''";	
+	.	
+
+map:productIndustryBranch a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Products;
+	d2rq:uriPattern "IndustryBranch/@@industry_branch.name|urlify@@";
+	d2rq:property ebsn:industryBranch;
+	d2rq:join "product.ID = product_industry_branch.product_ID";
+	d2rq:join "product_industry_branch.industry_branch_ID = industry_branch.ID";
+	d2rq:condition "product_industry_branch.industry_branch_ID <> ''";	
+	.	
+
+map:productKeyword a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Products;
+	d2rq:uriPattern "Keyword/@@keyword.name|urlify@@";
+	d2rq:property ebsn:keyword;
+	d2rq:join "product.ID = product_keyword.product_ID";
+	d2rq:join "product_keyword.keyword_ID = keyword.ID";
+	d2rq:condition "product_keyword.keyword_ID <> ''";	
+	.	
+
+map:productLicenseModel a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Products;
+	d2rq:uriPattern "LicenseModel/@@license_model.name|urlify@@";
+	d2rq:property ebsn:licenseModel;
+	d2rq:join "product.ID = product_license_model.product_ID";
+	d2rq:join "product_license_model.license_model_ID = license_model.ID";
+	d2rq:condition "product_license_model.license_model_ID <> ''";	
+	.	
+
+map:productOperationSystem a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Products;
+	d2rq:uriPattern "OperationSystem/@@operation_system.name|urlify@@";
+	d2rq:property ebsn:operationSystem;
+	d2rq:join "product.ID = product_operation_system.product_ID";
+	d2rq:join "product_operation_system.operation_system_ID = operation_system.ID";
+	d2rq:condition "product_operation_system.operation_system_ID <> ''";	
+	.	
+
+map:productUserInterface a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Products;
+	d2rq:uriPattern "UserInterface/@@user_interface.name|urlify@@";
+	d2rq:property ebsn:userInterface;
+	d2rq:join "product.ID = product_user_interface.product_ID";
+	d2rq:join "product_user_interface.user_interface_ID = user_interface.ID";
+	d2rq:condition "product_user_interface.user_interface_ID <> ''";	
+	.
+
+map:Producers a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class ebsn:Producer;
+	d2rq:uriPattern "Producer/@@producer.ID@@";
+	d2rq:classDefinitionLabel "Producer"@en;
+    .
+
+map:producerName a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Producers;
+    d2rq:column "producer.name";
+	d2rq:property rdfs:label;
+	d2rq:condition "producer.name <>''";
+	.
+
+map:zip a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Producers;
+    d2rq:column "producer.zip";
+	d2rq:property ebsn:zip;
+	d2rq:propertyDefinitionLabel "Zip"@en;
+	d2rq:condition "producer.zip <>''";
+	.	
+
+map:city a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Producers;
+    d2rq:column "producer.city";
+	d2rq:property ebsn:city;
+	d2rq:propertyDefinitionLabel "City"@en;
+	d2rq:condition "producer.city <>''";
+	.	
+
+map:producerDescription a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Producers;
+    d2rq:column "producer.company_description";
+	d2rq:property ebsn:description;
+	d2rq:propertyDefinitionLabel "Producer description"@en;
+	d2rq:condition "producer.company_description <>''";
+	.	
+
+map:offerDescription a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Producers;
+    d2rq:column "producer.offer_description";
+	d2rq:property ebsn:description;
+	d2rq:propertyDefinitionLabel "Offer description"@en;
+	d2rq:condition "producer.offer_description <>''";
+	.	
+
+map:addressData a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Producers;
+    d2rq:column "producer.address_data";
+	d2rq:property ebsn:addressData;
+	d2rq:propertyDefinitionLabel "Address data"@en;
+	d2rq:condition "producer.address_data <>''";
+	.		
+	
+map:contact a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Producers;
+    d2rq:column "producer.contact";
+	d2rq:property ebsn:contact;
+	d2rq:propertyDefinitionLabel "Contact"@en;
+	d2rq:condition "producer.contact <>''";
+	.			
+	
+map:producerWebLink a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Producers;
+    d2rq:uriColumn "producer.web_link";
+	d2rq:property foaf:page;
+	d2rq:propertyDefinitionLabel "Producer web link"@en;
+	d2rq:condition "producer.web_link <>''";
+	.		
+	
+map:employeesInternational a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Producers;
+    d2rq:column "producer.employees_international";
+	d2rq:property ebsn:employees;
+	d2rq:propertyDefinitionLabel "Employees international"@en;
+	d2rq:condition "producer.employees_international <>''";
+	.		
+	
+map:employeesNational a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Producers;
+    d2rq:column "producer.employees_national";
+	d2rq:property ebsn:employees;
+	d2rq:propertyDefinitionLabel "Employees national"@en;
+	d2rq:condition "producer.employees_national <>''";
+	.			
+	
+map:producerReferenceCustomerGeneral a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Producers;
+    d2rq:column "producer.reference_customer_general";
+	d2rq:property ebsn:referenceCustomerGeneral;
+	d2rq:propertyDefinitionLabel "Reference customer general"@en;
+	d2rq:condition "producer.reference_customer_general <>''";
+	.		
+	
+map:producerReferenceCustomerSme a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Producers;
+    d2rq:column "producer.reference_customer_sme";
+	d2rq:property ebsn:referenceCustomerSme;
+	d2rq:propertyDefinitionLabel "Reference customer SME"@en;
+	d2rq:condition "producer.reference_customer_sme <>''";
+	.			
+	
+map:producerCategory a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Producers;
+	d2rq:uriPattern "Category/@@category.name|urlify@@";
+	d2rq:property ebsn:category;
+	d2rq:join "producer.ID = producer_category.producer_ID";
+	d2rq:join "producer_category.category_ID = category.ID";
+	d2rq:condition "producer_category.category_ID <> ''";	
+	.		
+	
+map:producerCertification a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Producers;
+	d2rq:uriPattern "Certification/@@certification.name|urlify@@";
+	d2rq:property ebsn:certification;
+	d2rq:join "producer.ID = producer_certification.producer_ID";
+	d2rq:join "producer_certification.certification_ID = certification.ID";
+	d2rq:condition "producer_certification.certification_ID <> ''";	
+	.		
+	
+map:producerCountry a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Producers;
+	d2rq:uriPattern "Country/@@country.name|urlify@@";
+	d2rq:property ebsn:country;
+	d2rq:join "producer.ID = producer_country.producer_ID";
+	d2rq:join "producer_country.country_ID = country.ID";
+	d2rq:condition "producer_country.country_ID <> ''";	
+	.			
+
+map:producerCustomerSizeProduct a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Producers;
+	d2rq:column "employee.name";
+	d2rq:property ebsn:customerSizeProduct;
+	d2rq:join "producer.ID = producer_customer_size_product.producer_ID";
+	d2rq:join "producer_customer_size_product.customer_size_product_ID = employee.ID";
+	d2rq:propertyDefinitionLabel "Customer size Product"@en;
+	d2rq:condition "producer_customer_size_product.customer_size_product_ID <> ''";	
+	.	
+
+map:producerCustomerSizeService a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Producers;
+	d2rq:column "employee.name";
+	d2rq:property ebsn:customerSizeService;
+	d2rq:join "producer.ID = producer_customer_size_service.producer_ID";
+	d2rq:join "producer_customer_size_service.customer_size_service_ID = employee.ID";
+	d2rq:propertyDefinitionLabel "Customer size service"@en;
+	d2rq:condition "producer_customer_size_service.customer_size_service_ID <> ''";	
+	.	
+
+map:producerIndustryBranch a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Producers;
+	d2rq:uriPattern "IndustryBranch/@@industry_branch.name|urlify@@";
+	d2rq:property ebsn:industryBranch;
+	d2rq:join "producer.ID = producer_industry_branch.producer_ID";
+	d2rq:join "producer_industry_branch.industry_branch_ID = industry_branch.ID";
+	d2rq:condition "producer_industry_branch.industry_branch_ID <> ''";	
+	.	
+
+map:producerKeyword a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Producers;
+	d2rq:uriPattern "Keyword/@@keyword.name|urlify@@";
+	d2rq:property ebsn:keyword;
+	d2rq:join "producer.ID = producer_keyword.producer_ID";
+	d2rq:join "producer_keyword.keyword_ID = keyword.ID";
+	d2rq:condition "producer_keyword.keyword_ID <> ''";	
+	.	
+
+map:producerPartnershipService a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Producers;
+	d2rq:uriPattern "PartnershipService/@@partnership_service.name|urlify@@";
+	d2rq:property ebsn:PartnershipService;
+	d2rq:join "producer.ID = producer_partnership_service.producer_ID";
+	d2rq:join "producer_partnership_service.partnership_service_ID = partnership_service.ID";
+	d2rq:condition "producer_partnership_service.partnership_service_ID <> ''";	
+	.
+	
+map:producerPartnershipProduct a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Producers;
+	d2rq:uriPattern "PartnershipProduct/@@partnership_product.name|urlify@@";
+	d2rq:property ebsn:PartnershipProduct;
+	d2rq:join "producer.ID = producer_partnership_product.producer_ID";
+	d2rq:join "producer_partnership_product.partnership_product_ID = partnership_product.ID";
+	d2rq:condition "producer_partnership_product.partnership_product_ID <> ''";	
+	.	
+	
+map:producerService a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Producers;
+	d2rq:uriPattern "Service/@@service.name|urlify@@";
+	d2rq:property ebsn:service;
+	d2rq:join "producer.ID = producer_service.producer_ID";
+	d2rq:join "producer_service.service_ID = service.ID";
+	d2rq:condition "producer_service.service_ID <> ''";	
+	.	
+	
+map:Benefits a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class ebsn:Benefit;
+	d2rq:uriPattern "Benefit/@@benefit.ID@@";
+	d2rq:classDefinitionLabel "Benefit"@en;
+    .	
+	
+map:benefitName a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Benefits;
+    d2rq:column "benefit.name";
+	d2rq:property rdfs:label;
+	d2rq:condition "benefit.name <>''";
+	.	
+	
+map:Categories a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class ebsn:Category;
+	d2rq:uriPattern "Category/@@category.name|urlify@@";
+	d2rq:classDefinitionLabel "Category"@en;
+    .	
+	
+map:categoryName a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Categories;
+    d2rq:column "category.name";
+	d2rq:property rdfs:label;
+	d2rq:condition "category.name <>''";
+	.		
+
+map:Certifications a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class ebsn:Certification;
+	d2rq:uriPattern "Certification/@@certification.name|urlify@@";
+	d2rq:classDefinitionLabel "Certification"@en;
+    .	
+	
+map:certificationName a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Certifications;
+    d2rq:column "certification.name";
+	d2rq:property rdfs:label;
+	d2rq:condition "certification.name <>''";
+	.		
+	
+map:Countries a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class ebsn:Country;
+	d2rq:uriPattern "Country/@@country.name@@";
+	d2rq:classDefinitionLabel "Country"@en;
+    .	
+	
+map:countryName a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Countries;
+    d2rq:column "country.name";
+	d2rq:property rdfs:label;
+	d2rq:condition "country.name <>''";
+	.			
+	
+map:DatabaseSystems a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class ebsn:DatabaseSystem;
+	d2rq:uriPattern "DatabaseSystem/@@database_system.name|urlify@@";
+	d2rq:classDefinitionLabel "Database System"@en;
+    .	
+	
+map:databaseSystemName a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:DatabaseSystems;
+    d2rq:column "database_system.name";
+	d2rq:property rdfs:label;
+	d2rq:condition "database_system.name <>''";
+	.			
+	
+map:IndustryBranches a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class ebsn:IndustryBranch;
+	d2rq:uriPattern "IndustryBranch/@@industry_branch.name|urlify@@";
+	d2rq:classDefinitionLabel "Industry branch"@en;
+    .	
+	
+map:industrysBranchName a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:IndustryBranches;
+    d2rq:column "industry_branch.name";
+	d2rq:property rdfs:label;
+	d2rq:condition "industry_branch.name <>''";
+	.			
+	
+map:Keywords a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class ebsn:Keyword;
+	d2rq:uriPattern "Keyword/@@keyword.name@@";
+	d2rq:classDefinitionLabel "Keyword"@en;
+    .	
+	
+map:keywordName a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Keywords;
+    d2rq:column "keyword.name";
+	d2rq:property rdfs:label;
+	d2rq:condition "keyword.name <>''";
+	.	
+
+map:LicenseModels a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class ebsn:LicenseModel;
+	d2rq:uriPattern "LicenseModel/@@license_model.name@@";
+	d2rq:classDefinitionLabel "License model"@en;
+    .	
+	
+map:licenseModelName a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:LicenseModels;
+    d2rq:column "license_model.name";
+	d2rq:property rdfs:label;
+	d2rq:condition "license_model.name <>''";
+	.
+
+map:OperationSystems a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class ebsn:OperationSystem;
+	d2rq:uriPattern "OperationSystem/@@operation_system.name|urlify@@";
+	d2rq:classDefinitionLabel "Operation System"@en;
+    .	
+	
+map:operationSystemName a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:OperationSystems;
+    d2rq:column "operation_system.name";
+	d2rq:property rdfs:label;
+	d2rq:condition "operation_system.name <>''";
+	.	
+
+map:PartnershipProducts a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class ebsn:PartnershipProduct;
+	d2rq:uriPattern "PartnershipProduct/@@partnership_product.name|urlify@@";
+	d2rq:classDefinitionLabel "Partnership Product"@en;
+    .	
+	
+map:partnershipProductName a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:PartnershipProducts;
+    d2rq:column "partnership_product.name";
+	d2rq:property rdfs:label;
+	d2rq:condition "partnership_product.name <>''";
+	.			
+	
+map:PartnershipServices a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class ebsn:PartnershipService;
+	d2rq:uriPattern "PartnershipService/@@partnership_service.name|urlify@@";
+	d2rq:classDefinitionLabel "Partnership Service"@en;
+    .	
+	
+map:partnershipServiceName a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:PartnershipServices;
+    d2rq:column "partnership_service.name";
+	d2rq:property rdfs:label;
+	d2rq:condition "partnership_service.name <>''";
+	.	
+	
+map:Services a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class ebsn:Service;
+	d2rq:uriPattern "Service/@@service.name|urlify@@";
+	d2rq:classDefinitionLabel "Service"@en;
+    .	
+	
+map:serviceName a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:Services;
+    d2rq:column "service.name";
+	d2rq:property rdfs:label;
+	d2rq:condition "service.name <>''";
+	.	
+	
+map:UserInterfaces a d2rq:ClassMap;
+    d2rq:dataStorage map:database;
+    d2rq:class ebsn:UserInterface;
+	d2rq:uriPattern "UserInterface/@@user_interface.name|urlify@@";
+	d2rq:classDefinitionLabel "Service"@en;
+    .	
+	
+map:userInterfaceName a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:UserInterfaces;
+    d2rq:column "user_interface.name";
+	d2rq:property rdfs:label;
+	d2rq:condition "user_interface.name <>''";
+	.
