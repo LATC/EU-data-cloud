@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html version="XHTML+RDFa 1.0" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="keywords"
+	content="eurostat, linked data, rdfized eurostat, linked eurostat"/>
+<meta name="description"
+	content="Eurostat-Linked Data is an initiative based on Eurostat with a vision to provide European Union with Linked Data statistics at the European level by enabling comparisons between countries and regions. It provides a semantically and contextually rich, up-to-date, high fidelity Linked Data version of Eurostat, useful for ETL-style business analysis and direct dataspace filling."/>
+<meta name="author" content="Anna Dabrowska"/>
+<meta name="author" content="Aftab Iqbal"/>
+<title>Eurostat - Linekd Data</title>
+<link rel="stylesheet" type="text/css" href="http://google-code-prettify.googlecode.com/svn/trunk/src/prettify.css"/>
+<script type="text/javascript" src="http://google-code-prettify.googlecode.com/svn/trunk/src/prettify.js"></script>
+</head>
+<body onload="prettyPrint()">
+
+	<div id="header">
+		<div>
+			<h1 style="color: #20335E">Eurostat - Linked Data</h1>
+		</div>
+	</div>
+	<div id="main">
+		<h2 style="color: #3E578D">Information about basic documentation</h2>
+
+		<h3 style="color: #5C89D9">What is this dataset?</h3>
+
+		<p style="align: justify;">
+			Eurostat-Linked Data is an initiative based on <a
+				href="http://epp.eurostat.ec.europa.eu/portal/page/portal/eurostat/home/">Eurostat</a>
+			with a vision to provide European Union with Linked Data statistics
+			at the European level by enabling comparisons between countries and
+			regions. <b>It provides a semantically and contextually rich,
+				up-to-date, high fidelity Linked Data version of Eurostat</b> , useful
+			for ETL-style business analysis and direct dataspace filling.
+			Moreover, the aim of this initiative is to provide Eurostat with
+			sufficient motivation and reasons to publish their data themselves as
+			Linked Data as part of the EU data cloud, eventually.
+		</p>
+
+		<h3 style="color: #5C89D9">What is the source of the data?</h3>
+		<p style="align: justify;">
+			The entry point to the Eurostat source is via <a
+				href="http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing">bulk
+				download facility</a>. Eurostat allows downloading individual data set
+			or the complete database through its bulk download facility. Eurostat
+			publishes datasets in three different formats: TSV, DFT and
+			Statistical Data and Metadata eXchange (SDMX). Although there is no
+			filtration on the different types of statistics, which are made
+			available by Eurostat, the datasets essentially cover statistical
+			information related to:<br />
+		</p>
+		<ul>
+			<li>General and regional statistics</li>
+			<li>Economy and finance</li>
+			<li>Population and social conditions</li>
+			<li>Industry, trade and services</li>
+			<li>Agriculture and fisheries</li>
+			<li>External trade</li>
+			<li>Transport Environment and energy</li>
+			<li>Science and technology</li>
+		</ul>
+		<p>
+			Moreover, Eurostat also publishes <a
+				href="http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=1&amp;file=table_of_contents_en.xml">table
+				of contents </a> containing a list of all data sets, which are available
+			to download and a list of <a
+				href="http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=1&amp;dir=dic">codelists</a>,
+			which are used by the data sets to represent statistical information.
+		</p>
+
+		<h3 style="color: #5C89D9">Under what license is the data
+			released?</h3>
+		<p style="align: justify;">
+			Please check the following <a
+				href="http://epp.eurostat.ec.europa.eu/portal/page/portal/about_eurostat/policies/copyright_licence_policy">link</a>
+		</p>
+		<h3 style="color: #5C89D9">What can users do with the data? What
+			sort of question can it answer?</h3>
+		<p>Eurostat data enable for comparisons between regions and
+			countries in the following areas:</p>
+		<ul>
+			<li>General and regional statistics</li>
+			<li>Economy and finance</li>
+			<li>Population and social conditions</li>
+			<li>Industry, trade and services</li>
+			<li>Agriculture and fisheries</li>
+			<li>External trade</li>
+			<li>Transport Environment and energy</li>
+			<li>Science and technology</li>
+		</ul>
+		<p>Users can ask for example about all the national statistics for
+			the specific region, industrial area, particular animal or plant that
+			can be found in agricultural data, etc.</p>
+
+		<h3 style="color: #5C89D9">At what interval is the data updated
+			(e.g., daily, monthly, continuously, never)? When was it last
+			updated?</h3>
+		<p>The original Eurostat dataset is updated twice a day (at 11:00
+			and 23:00). Our Eurostat conversion script runs every Saturday at
+			noon and RDFize any new datasets, which has been added to the
+			Eurostat along with updating all other datasets, which had been
+			modified since last update.</p>
+
+		<h3 style="color: #5C89D9">How is the original data converted and
+			processed?</h3>
+		<p style="align: justify;">
+			<b>Downloading data from Eurostat:</b><br /> In order to publish
+			Eurostat as Linked Data, a custom-written Java program was developed,
+			which parses the table of contents to retrieve a list of URLs. Later
+			for each of the URL, the Java program downloads meta-information
+			about the dataset along with the dataset itself in TSV format. <br />
+			<br /> <b>Conversion of the data:</b> <br /> Each observation value
+			existing in every TSV dataset is modelled using RDF <a
+				href="https://dvcs.w3.org/hg/gld/raw-file/default/data-cube/index.html">DataCube
+				vocabulary</a> (an upcoming W3C standard for representation of TSV
+			terms). For example, assume that we have an observation value coming
+			from a TSV file of a particular data set like the following: <br />
+			<br />
+			<code class="prettyprint">
+				indic_ag,volume,geo\time 2009 <br /> ENT,T1001-5000,DE 17
+			</code>
+
+			<br /> <br />The top row specifies the dimensions and the bottom
+			row specifies the observation value of a European country (i.e., in
+			this case Denmark) for a particular year. The above listed
+			observation value will be translated using RDF DataCube vocabulary
+			into following: <br /> <br />
+			<code class="prettyprint">
+				&lt;qb:Observationrdf:about="/data/apro_mk_strpd#A,ENT,T1001-5000,DE,2009"/&gt;
+				<br /> &lt;qb:dataSet rdf:resource="/data/apro_mk_strpd"/&gt;;<br />
+				&lt;sdmx-dimension:freq
+				rdf:resource="http://purl.org/linked-data/sdmx/2009/code#freq-A"/&gt;<br />
+				&lt;property:indic_ag rdf:resource="/dic/indic_ag#ENT"/&gt; <br />
+				&lt;property:volume rdf:resource="/dic/volume#T1001-5000"/&gt; <br />
+				&lt;property:geo rdf:resource="/dic/geo#DE"/&gt; <br />
+				&lt;sdmx-dimension:timePeriod
+				rdf:datatype="http://www.w3.org/2001/XMLSchema#date"&gt;2009-01-01&lt;/sdmx-dimension:timePeriod&gt;<br />
+				&lt;sdmx-measure:obsValue
+				rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"&gt;17&lt;/sdmx-measure:obsValue
+				&gt;<br /> &lt;/qb:Observation&gt; <br />
+			</code>
+
+			<br />For a concrete example, please have a look at <a
+				href="http://eurostat.linked-statistics.org/data/apro_mk_strpd.rdf">Powdered
+				Dairy Products</a> data set. <br /> <br /> <b>Conversion of the
+				metadata:</b> <br /> The metadata published by Eurostat for each
+			dataset is also modelled using RDF DataCube vocabulary. The metadata
+			about a certain data set usually contains information about the
+			different code lists, concepts and dimensions used by the dataset.
+			For example, assume that we have a code list used by a particular
+			data set in the sdmx-ml format as shown below:<br /> <br />
+			<code class="prettyprint">
+				&lt;structure:CodeList id="CL_INDIC_AG" agencyID="EUROSTAT"
+				isFinal="false"&gt;<br /> &lt;structure:Name
+				xml:lang="en"&gt;Agricultural indicator&lt;/structure:Name&gt;<br />
+				&lt;structure:Code value="ENT"&gt; <br /> &lt;structure:Description
+				xml:lang="en"&gt;Number of enterprises&lt;/structure:Description&gt;<br />
+				&lt;/structure:Code&gt; <br /> &lt;structure:Code value="PROD"&gt;<br />
+				&lt;structure:Description xml:lang="en"&gt;Annual production (1000
+				t)&lt;/structure:Description&gt;<br /> &lt;/structure:Code&gt;<br />
+				&lt;/structure:CodeList&gt;<br />
+			</code>
+			<br /> <br /> The above code list snippet will be transformed into
+			RDF using DataCube vocabulary as follows: <br /> <br />
+			<code class="prettyprint">
+				dic:indic_ag <br /> rdf:type skos:ConceptScheme ;<br /> rdfs:label
+				"Agricultural indicator"@en ;<br /> skos:hasTopConcept &lt;http:
+				//eurostat.linked-statistics.org/dic/indic_ag#PROD&gt; ; <br />
+				skos:hasTopConcept
+				&lt;http://eurostat.linked-statistics.org/dic/indic_ag#ENT&gt; ; <br />
+				skos:notation "cl_indic_ag" ;<br /> ..... <br />
+			</code>
+			<br /> For a concrete example, please have a look at the <a
+				href="http://eurostat.linked-statistics.org/dsd/apro_mk_strpd.ttl">Powdered
+				Dairy Products</a> dataset’s metadata. <br /> <br /> <b>Conversion
+				of dictionaries:</b><br /> The dictionaries published by Eurostat
+			provide the meaning and definition of codes, which are used by the
+			data sets. They are available in English, German and French
+			languages. Each of the codes described in the dictionaries are
+			represented using SKOS concepts. For example, assume that ‘IE’ is
+			used as a code to represent Ireland in the geo dictionary. It will be
+			translated in RDF like following: <br /> <br />
+			<code class="prettyprint">
+				&lt;skos:Concept rdf:about="/dic/geo#IE"&gt; <br /> &lt;rdfs:label
+				xml:lang="en"&gt;Ireland&lt;/rdfs:label&gt;<br />
+				&lt;/skos:Concept&gt; <br />
+			</code>
+			<br /> For a concrete example, please have a look at the <a
+				href="http://eurostat.linked-statistics.org/dic/geo.rdf">geo</a>
+			dictionary of Eurostat. <br /> <br /> Moreover, a VoiD file, which
+			contains a set of triples specifying the location of a particular
+			dataset in the file system, is created. The VoID file, codelists and
+			data set’s metadata are loaded into <a
+				href="http://incubator.apache.org/jena/documentation/serving_data/">Fuseki</a>
+			triple store. The <a
+				href="http://www4.wiwiss.fu-berlin.de/bizer/silk/">Silk Link
+				Discovery Framework</a> is then used to interlink Eurostat with existing
+			Linked Data sets. Link specifications have been defined to specify
+			the link conditions between Eurostat and other Linked Data sets. The
+			resulting link sets were next imported into SPARQL endpoint.
+		</p>
+
+		<h3 style="color: #5C89D9">Link to the code used for conversion
+			and processing, and any software used in the publication</h3>
+		<p style="align: justify;">
+			The complete source code along with few link specifications and
+			linksets are hosted at <a
+				href="https://github.com/LATC/EU-data-cloud/tree/master/institutions/Eurostat">GitHub</a>.
+		</p>
+
+		<h2 style="color: #3E578D">Documentation about data access</h2>
+		<h3 style="color: #5C89D9">Link to a SPARQL endpoint and SPARQL
+			query form</h3>
+		<p style="align: justify;">
+			Access to SPARQL endpoint can be found under the following <a
+				href="http://eurostat.linked-statistics.org/sparql">link</a><br />
+			<br /> Use <b>SELECT</b> query form when you want to browse through
+			the data in SPARQL endpoint.
+		</p>
+
+		<h3 style="color: #5C89D9">Download link for an RDF dump</h3>
+		<p>Etrostat RDF dump can be found under the following links:</p>
+		<ul>
+			<li><a href="http://eurostat.linked-statistics.org/data">http://eurostat.linked-statistics.org/data/</a>
+				- contains the observations in DataCube</li>
+			<li><a href="http://eurostat.linked-statistics.org/dsd/">http://eurostat.linked-statistics.org/dsd/</a>
+				- contains the Data Structure Definition (DSD) in DataCube</li>
+			<li><a href="http://eurostat.linked-statistics.org/dic/">http://eurostat.linked-statistics.org/dic/</a>
+				- contains the dictionaries DataCube</li>
+		</ul>
+
+
+		<h3 style="color: #5C89D9">What syntaxes are supported for the
+			resolvable URIs (RDF/XML, Turtle, RDFa, others)?</h3>
+		<p style="align: justify;">The datasets observations and dictionaries are
+			represented in RDF/XML and the data structure definitions (DSD) are
+			represented in TURTLE.</p>
+
+		<h2 style="color: #3E578D">Documentation on examples</h2>
+		<h3 style="color: #5C89D9">URI to the list of example resources</h3>
+		<p>All the datasets, data structure definitions and dictionaries,
+			which are converted into RDF are available at the following URLs:</p>
+		<ul>
+			<li><a href="http://eurostat.linked-statistics.org/data/">http://eurostat.linked-statistics.org/data/</a></li>
+			<li><a href="http://eurostat.linked-statistics.org/dsd/">http://eurostat.linked-statistics.org/dsd/</a></li>
+			<li><a href="http://eurostat.linked-statistics.org/dic/">http://eurostat.linked-statistics.org/dic/</a></li>
+		</ul>
+
+
+		<h3 style="color: #5C89D9">URIs of example resources that contain
+			links to other datasets</h3>
+		<p style="align: justify;">
+			At the time of writing this document, we have interlinked DBPedia and
+			LinkedGeoData entities (in particular ‘countries’) to their
+			respective entities in our SPARQL endpoint. The following query can
+			be issued at our hosted SPARQL endpoint in order to retrieve the top
+			10 resources which are interlinked to other Linked Data sets:<br />
+			<br />
+			<code> SELECT * WHERE {?s owl:sameAs ?o} limit 10 </code>
+		</p>
+
+		<h3 style="color: #5C89D9">Example SPARQL query</h3>
+		<p style="align: justify;">
+			There are several advantages of having Eurostat available as Linked
+			Data, for instance, comparing several statistical indicators across
+			EU countries, providing context for statistics, enabling fine-grained
+			re-usability and query support for the entire dataspace. For example,
+			the SPARQL query below combines 24 different Eurostat datasets that
+			gives national statistics for Albacore fish . The idea is to see if a
+			species needs further protection in the form of fishing quotas etc. <br />
+			<br />
+			<code class="prettyprint">
+				PREFIX qb: &lt;http://purl.org/linked-data/cube#&gt; <br /> PREFIX
+				e: &lt;http://ontologycentral.com/2009/01/eurostat/ns#&gt; <br />
+				PREFIX sdmx-measure:
+				&lt;http://purl.org/linked-data/sdmx/2009/measure#&gt; <br />
+				PREFIX skos: &lt;http://www.w3.org/2004/02/skos/core#&gt; <br />
+				PREFIX g:
+				&lt;http://eurostat.linked-statistics.org/ontologies/geographic.rdf#&gt;
+				<br /> PREFIX dataset:
+				&lt;http://eurostat.linked-statistics.org/data/&gt; <br /> PREFIX
+				eunis: &lt;http://eunis.eea.europa.eu/rdf/species-schema.rdf#&gt; <br />
+				<br /> SELECT ?country ?year ?presentation ?landed ?unit <br />
+				FROM
+				&lt;http://eurostat.linked-statistics.org/data/fish_ld_be.rdf&gt; <br />
+				FROM
+				&lt;http://eurostat.linked-statistics.org/data/fish_ld_bg.rdf&gt; <br />
+				FROM
+				&lt;http://eurostat.linked-statistics.org/data/fish_ld_cy.rdf&gt;<br />
+				FROM
+				&lt;http://eurostat.linked-statistics.org/data/fish_ld_de.rdf&gt; <br />
+				FROM
+				&lt;http://eurostat.linked-statistics.org/data/fish_ld_dk.rdf&gt; <br />
+				FROM
+				&lt;http://eurostat.linked-statistics.org/data/fish_ld_ee.rdf&gt; <br />
+				FROM
+				&lt;http://eurostat.linked-statistics.org/data/fish_ld_es.rdf&gt; <br />
+				FROM
+				&lt;http://eurostat.linked-statistics.org/data/fish_ld_fi.rdf&gt; <br />
+				FROM
+				&lt;http://eurostat.linked-statistics.org/data/fish_ld_fr.rdf&gt; <br />
+				FROM
+				&lt;http://eurostat.linked-statistics.org/data/fish_ld_gr.rdf&gt; <br />
+				FROM
+				&lt;http://eurostat.linked-statistics.org/data/fish_ld_ie.rdf&gt; <br />
+				FROM
+				&lt;http://eurostat.linked-statistics.org/data/fish_ld_is.rdf&gt; <br />
+				FROM
+				&lt;http://eurostat.linked-statistics.org/data/fish_ld_it.rdf&gt; <br />
+				FROM
+				&lt;http://eurostat.linked-statistics.org/data/fish_ld_lt.rdf&gt; <br />
+				FROM
+				&lt;http://eurostat.linked-statistics.org/data/fish_ld_lv.rdf&gt; <br />
+				FROM
+				&lt;http://eurostat.linked-statistics.org/data/fish_ld_mt.rdf&gt; <br />
+				FROM
+				&lt;http://eurostat.linked-statistics.org/data/fish_ld_nl.rdf&gt; <br />
+				FROM
+				&lt;http://eurostat.linked-statistics.org/data/fish_ld_no.rdf&gt; <br />
+				FROM
+				&lt;http://eurostat.linked-statistics.org/data/fish_ld_pl.rdf&gt; <br />
+				FROM
+				&lt;http://eurostat.linked-statistics.org/data/fish_ld_pt.rdf&gt; <br />
+				FROM
+				&lt;http://eurostat.linked-statistics.org/data/fish_ld_ro.rdf&gt; <br />
+				FROM
+				&lt;http://eurostat.linked-statistics.org/data/fish_ld_se.rdf&gt; <br />
+				FROM
+				&lt;http://eurostat.linked-statistics.org/data/fish_ld_si.rdf&gt; <br />
+				FROM
+				&lt;http://eurostat.linked-statistics.org/data/fish_ld_uk.rdf&gt; <br />
+				FROM
+				&lt;http://semantic.eea.europa.eu/home/roug/eurostatdictionaries.rdf&gt;<br />
+				WHERE { ?obsUri e:species
+				&lt;http://eurostat.linked-statistics.org/dic/species#ALB&gt;; <br />
+				e:pres &lt;http://eurostat.linked-statistics.org/dic/pres#P00&gt;,?upresentation; <br /> 
+				e:dest &lt;http://eurostat.linked-statistics.org/dic/dest#D0&gt;; <br />
+				e:natvessr
+				&lt;http://eurostat.linked-statistics.org/dic/natvessr#TOTAL&gt;; <br />
+				e:unit &lt;http://eurostat.linked-statistics.org/dic/unit#TPW&gt;, ?uunit; <br /> 
+				e:geo ?ucountry; <br /> 
+				e:time ?uyear; <br />
+				sdmx-measure:obsValue ?landed. <br /> 
+				?ucountry skos:prefLabel ?country. <br /> 
+				?uunit skos:prefLabel ?unit. <br /> 
+				?uyear skos:prefLabel ?year. <br /> 
+				?upresentation skos:prefLabel ?presentation.} ORDER BY ?country ?year ?presentation <br />
+			</code>
+		</p>
+
+		<h3 style="color: #5C89D9">Example Turtle snippet showing the
+			modelling of typical entities</h3>
+		<p style="align: justify;">
+			The following <a href="http://eurostat.linked-statistics.org/dsd/">link</a>
+			contains the Data Structure Definition (DSD) files in DataCube for
+			all datasets located in Eurostat-Linked Data repository.
+		</p>
+
+
+		<h2 style="color: #3E578D">Documentation on modelling and size</h2>
+
+		<h3 style="color: #5C89D9">How many triples?</h3>
+		<p>Eurostat publishes more than 5200 data sets, which, when
+			converted into RDF, require more than 350 GB of disk space yielding
+			~8 billion triples altogether. However, instead of hosting such a
+			huge number of triples via the SPARQL endpoint, a VoiD file, which
+			contains a set of triples specifying the location of a particular
+			dataset on the file system, is generated.</p>
+
+		<h3 style="color: #5C89D9">What other datasets does it link to?
+			How many links to each?</h3>
+		<p style="align: justify;">
+			At the moment, we have interlinked Eurostat
+			regional entities (country in particular) through the “sameAs” link
+			to DBpedia (1899 links) and LinkedGeoData (1876 links). In the
+			future, we will increase the number of links by providing
+			interlinking based on:</p>
+		<ul>
+			<li>Regions: Geonames</li>
+			<li>National regions: Data-gov.ie, GeoLinkedData.es, Ordnance
+				Survey</li>
+			<li>Indicators: US Census</li>
+			<li>Topics/Subjects: DBPedia</li>
+		</ul>	
+		<h3 style="color: #5C89D9">SHOULD: What entities are described?
+			How many of each kind?</h3>
+		<p style="color: #FF1E18">TODO - left for Aftab</p>
+		<h3 style="color: #5C89D9">Which vocabularies are used?</h3>
+		<p style="align: justify;">The vocabularies used are SKOS, RDF, RDFS,
+			VoiD, XSD, RDF DataCube, Dublin Core and FOAF.</p>
+
+		<h2 style="color: #3E578D">Branding of the documentation</h2>
+		<p>
+			<img
+				src="http://cordis.europa.eu/fp7/ict/content-knowledge/images/latc-logo-web.png"
+				alt="LATC logo" width="304" height="170" /><br /> <a
+				href="http://latc-project.eu/">http://latc-project.eu/</a> <br /> <br />
+		<span style="color: #FF1E18">
+			This work is supported by… <b>TODO: finish the sentence</b>
+		</span>
+		</p>
+	</div>
+	<p about=""
+     resource="http://www.w3.org/TR/rdfa-syntax"
+     rel="dc:conformsTo" xmlns:dc="http://purl.org/dc/terms/">
+    <a href="http://validator.w3.org/check?uri=referer"><img
+      src="http://www.w3.org/Icons/valid-xhtml-rdfa" alt="Valid XHTML + RDFa" height="31" width="88" /></a>
+  </p>
+</body>
+</html>
