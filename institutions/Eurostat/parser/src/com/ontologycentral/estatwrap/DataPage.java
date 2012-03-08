@@ -17,6 +17,7 @@ public class DataPage {
 		ch.writeStartDocument("utf-8", "1.0");
 
 		ch.writeStartElement("rdf:RDF");
+		ch.writeAttribute("xml:base", "http://eurostat.linked-statistics.org/");
 		ch.writeDefaultNamespace(Data.PREFIX);
 		ch.writeNamespace("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#");
 		ch.writeNamespace("rdfs", "http://www.w3.org/2000/01/rdf-schema#");

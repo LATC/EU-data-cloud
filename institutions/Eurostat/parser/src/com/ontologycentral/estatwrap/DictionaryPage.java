@@ -22,16 +22,16 @@ public class DictionaryPage {
 		ch.writeStartElement("rdf:Description");
 		ch.writeAttribute("rdf:about", "");
 		ch.writeStartElement("rdfs:comment");
-		ch.writeCharacters("Source: Eurostat (http://epp.eurostat.ec.europa.eu/) via Linked Eurostat (http://estatwrap.ontologycentral.com/).");
+		ch.writeCharacters("Reused Linked Eurostat (http://estatwrap.ontologycentral.com/) wrapper to rdfize Eurostat (http://epp.eurostat.ec.europa.eu/) .");
 		ch.writeEndElement();
 		ch.writeStartElement("foaf:maker");
 		ch.writeAttribute("rdf:resource", "http://harth.org/andreas/foaf#ah");
 		ch.writeEndElement();
 		ch.writeStartElement("rdfs:seeAlso");
-		ch.writeAttribute("rdf:resource", "http://epp.eurostat.ec.europa.eu/portal/page/portal/about_eurostat/corporate/copyright_licence_policy");
+		ch.writeAttribute("rdf:resource", "http://epp.eurostat.ec.europa.eu/portal/page/portal/about_eurostat/policies/copyright_licence_policy");
 		ch.writeEndElement();
 		ch.writeStartElement("rdfs:seeAlso");
-		ch.writeAttribute("rdf:resource", "http://ontologycentral.com/2009/01/eurostat/");
+		ch.writeAttribute("rdf:resource", "http://eurostat.linked-statistics.org/");
 		ch.writeEndElement();
 		ch.writeEndElement();
 
