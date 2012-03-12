@@ -1,0 +1,21 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+@prefix dct: <http://purl.org/dc/terms/>
+@prefix owl: <http://www.w3.org/2002/07/owl#>
+@prefix qb: <http://purl.org/linked-data/cube#>
+@prefix unodc: <http://unodc.publicdata.eu/ontology/>
+
+@base :<http://unodc.publicdata.eu/ontology/>
+
+<http://unodc.publicdata.eu/ontology/> a owl:Ontology ;
+    rdfs:label "UNODC" .
+
+# Classes
+    
+unodc:Country a qb:DimensionProperty, owl:Class
+unodc:Subregion
+unodc:Region
+unodc:Year
+
+unodc:locatedInRegion
+unodc:locatedInSubRegion

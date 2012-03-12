@@ -1,0 +1,99 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+@prefix dct: <http://purl.org/dc/terms/>
+@prefix owl: <http://www.w3.org/2002/07/owl#>
+@prefix eurlex: <http://eur-lex.publicdata.eu/ontology/>
+@prefix prelex: <http://prelex.publicdata.eu/ontology/>
+
+@base :<http://prelex.publicdata.eu/ontology/>
+
+<http://prelex.publicdata.eu/ontology/> a owl:Ontology ;
+    rdfs:label "PreLex Ontology" ;
+    dct:creator "Philipp Frischmuth" ;
+    owl:versionInfo "0.1" ;
+    rdfs:comment "The schema used for the PreLex dataset" .
+    
+<http://prelex.publicdata.eu/> a owl:Ontology ;
+    rdfs:label "PreLex" ;
+    dct:creator "Philipp Frischmuth" ;
+    owl:versionInfo "0.1" ;
+    rdfs:comment "The Prelex dataset provided as Linked Data" .
+
+###############################################################################
+# Classes     
+
+prelex:Document a owl:Class ;
+    rdfs:label "Document" .
+    
+prelex:Event a owl:Class ;
+    rdfs:label "Event" .
+    
+prelex:Organization a owl:Class ;
+    rdfs:label "Organization" .
+
+prelex:Person a owl:Class ;
+    rdfs:label "Person" .
+
+###############################################################################   
+# Datatype Properties
+
+dct:title a owl:DatatypeProperty ;
+    rdfs:label "title" .
+    
+rdfs:label a owl:DatatypeProperty ;
+    rdfs:label "label" .
+
+dct:description a owl:DatatypeProperty ;
+    rdfs:label "description" .
+
+prelex:doc_id a owl:DatatypeProperty ;
+    rdfs:label "document id" .
+    
+prelex:com_number a owl:DatatypeProperty ;
+    rdfs:label "com number" .
+        
+prelex:legal_basis a owl:DatatypeProperty ;
+    rdfs:label "legal basis" .
+    
+prelex:procedure a owl:DatatypeProperty ;
+    rdfs:label "procedure" .
+    
+prelex:adoption_commission a owl:DatatypeProperty ;
+    rdfs:label "date of adoption by commission" .
+    
+prelex:adoption_council a owl:DatatypeProperty ;
+    rdfs:label "date of adoption by council" .
+    
+prelex:directory_code a owl:DatatypeProperty ;
+    rdfs:label "directory code" .
+
+prelex:event_id a owl:DatatypeProperty ;
+    rdfs:label "event id" .
+
+prelex:eventDate a owl:DatatypeProperty ;
+    rdfs:label "date of event" .
+
+###############################################################################
+# Object Properties
+
+rdfs:seeAlso a owl:ObjectProperty ;
+    rdfs:label "see also" .
+
+prelex:perma_url a owl:ObjectProperty ;
+    rdfs:label "perma URL" .
+    
+eurlex:perma_url a owl:ObjectProperty ;
+    rdfs:label "perma URL" .
+    
+prelex:commissioner a owl:ObjectProperty ;
+    rdfs:label "commissioner" .
+
+prelex:dg_responsible a owl:ObjectProperty ;
+    rdfs:label "dg responsible" .
+    
+prelex:event a owl:ObjectProperty ;
+    rdfs:label "event" .
+
+prelex:eventOfDocument a owl:ObjectProperty ;
+    rdfs:label "event of document" .
+    

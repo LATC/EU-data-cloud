@@ -9,7 +9,8 @@ $vocab = array(
     'dct'     => 'http://purl.org/dc/terms/',
     'foaf'    => 'http://xmlns.com/foaf/0.1/',
     'frbr'    => 'http://purl.org/vocab/frbr/core#',
-    'metalex' => 'http://www.metalex.eu/metalex/2008-05-02#'
+    'metalex' => 'http://www.metalex.eu/metalex/2008-05-02#',
+    'nlex'    => 'http://n-lex.publicdata.eu/ontology/'
 );
 
 $rdfData = array();
@@ -35,7 +36,7 @@ if (!file_exists($cacheFilename)) {
         $as = $data->find("a");
         foreach ($as as $a) {
             $record = array(
-                'title' => $a->plaintext, 
+                'title' => html_entity_decode($a->plaintext, ENT_COMPAT, 'ISO-8859-1'),
                 'url' => URL_BASE . substr($a->href, 1)
             );
             $indexPages[] = $record;
@@ -59,19 +60,9 @@ if (!file_exists($cacheFilename)) {
 
 $append = false;
 foreach ($allLexURLs as $lexURL) {
-    $cacheFile = 'cache/' . md5($lexURL['url']);
-    if (file_exists($cacheFile)) {
-        $rdfData = unserialize(file_get_contents($cacheFile));
-    } else {
-        echo 'Handling lex page: ' . $lexURL['title'] . PHP_EOL;
-        $result = _scrapeLexPage($lexURL['url']);
-        if ($result) {
-            file_put_contents($cacheFile, serialize($rdfData));
-        } else {
-            echo 'SKIPPED (FAILURE): ' . $lexURL['url'] . PHP_EOL;
-            exit;
-        }
-    }
+    echo 'Handling: ' . $lexURL['title'] . PHP_EOL;
+    $html = _getHTML($lexURL['url']);
+    _scrapeLexPage($html, $lexURL['url']);
     
     _exportRDF($rdfData, $append);
     $append = true;
@@ -84,12 +75,11 @@ echo PHP_EOL . "DONE" . PHP_EOL;
 // Functions
 //
 
-function _scrapeLexPage($url)
+function _scrapeLexPage($html, $url)
 {
     global $vocab;
     global $rdfData;
     
-    $html = scraperWiki::scrape($url);
     $dom = new simple_html_dom();
     $dom->load($html);
                      
@@ -100,7 +90,7 @@ function _scrapeLexPage($url)
     $dom->__destruct();
     $uri = URI_BASE . $id;
     
-    $html = scraperWiki::scrape($fullURL);
+    $html = _getHTML($fullURL);
     $dom = new simple_html_dom();
     $dom->load($html);
     
@@ -117,15 +107,28 @@ function _scrapeLexPage($url)
     
     // title, label
     $h1Element = $dom->find("div[@id='paddingLR12'] div[@class='jnheader'] h1");
-    $title = html_entity_decode($h1Element[0]->plaintext);
+    $title = html_entity_decode($h1Element[0]->plaintext, ENT_COMPAT, 'ISO-8859-1');
     $rdfData[$uri][$vocab['dct'].'title'] = array(array(
         'type'  => 'literal',
-        'value' => $title
+        'value' => $title,
+        'lang'  => 'de'
     ));
     $rdfData[$uri][$vocab['rdfs'].'label'] = array(array(
         'type'  => 'literal',
-        'value' => $title
+        'value' => $title,
+        'lang'  => 'de'
     ));
+    
+    // token
+    $pElems = $dom->find("div[@id='paddingLR12'] div[@class='jnheader'] p");
+    if (isset($pElems[0])) {
+        $token = html_entity_decode($pElems[0]->plaintext, (ENT_COMPAT), 'ISO-8859-1');
+        $rdfData[$uri][$vocab['nlex'].'token'] = array(array(
+            'type'  => 'literal',
+            'value' => $token
+        ));
+    }
+    
     
     // seeAlso
     $rdfData[$uri][$vocab['rdfs'].'seeAlso'] = array(array(
@@ -179,7 +182,7 @@ function _handleChapterForURI($data, $uri, $docURL)
     global $rdfData;
     
     $h2 = $data->find("div[@class='jnheader'] h2");
-    $chapterTitle = html_entity_decode($h2[0]->plaintext);
+    $chapterTitle = html_entity_decode($h2[0]->plaintext, ENT_COMPAT, 'ISO-8859-1');
     $chapterURI = $uri . '/' . urlencode($chapterTitle);
     
     $anchor = $data->find("div[@class='jnheader'] a");
@@ -232,7 +235,7 @@ function _handleFragmentForURI($data, $uri, $docURL)
     $fragmentHTMLURL = $docURL . '#' . $anchor[0]->name;
         
     $h3 = $data->find("div[@class='jnheader'] h3 span");
-    $fragmentTitle = html_entity_decode($h3[0]->plaintext);
+    $fragmentTitle = html_entity_decode($h3[0]->plaintext, ENT_COMPAT, 'ISO-8859-1');
     $fragmentURI = $uri . '/' . urlencode($fragmentTitle);
         
     // fragment
@@ -276,7 +279,7 @@ function _handleFragmentForURI($data, $uri, $docURL)
     $clausesFullText = array();
     foreach ($clauses as $clause) {
         $clauseURI = $fragmentURI . '/' . $j++;
-        $clauseText = html_entity_decode($clause->plaintext);
+        $clauseText = html_entity_decode($clause->plaintext, ENT_COMPAT, 'ISO-8859-1');
         $clausesFullText[] = $clauseText;
         // fragment
         $rdfData[$fragmentURI][$vocab['metalex'].'fragment'] = array(array(
@@ -375,4 +378,17 @@ function _exportRDF($spec, $append = false)
     } else {
         file_put_contents('data.ttl', $lines);
     }
+}
+
+function _getHTML($url)
+{
+    $cacheFilename = 'cache/' . md5($url);
+    if (!file_exists($cacheFilename)) {
+        $html = scraperWiki::scrape($url);
+        file_put_contents($cacheFilename, $html);
+    } else {
+        $html = file_get_contents($cacheFilename);
+    }
+    
+    return $html;
 }

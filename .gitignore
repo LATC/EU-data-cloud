@@ -1,11 +1,7 @@
 *.pyc
 business/eures/import/logs/*.log
 business/eures/import/config.inc.php
-.DS_Store
-legal/eurlex/cache/
-legal/eurlex/data.ttl
-legal/eurlex/schema.ttl
-legal/eurlex/config.inc.php
+
 media/.DS_Store
 
 media/eu_parliament_audiovisual/.DS_Store
@@ -31,9 +27,12 @@ media/eu_parliament_audiovisual/intermediate/video/csv/*
 media/eu_parliament_audiovisual/output/*/*
 media/eu_parliament_audiovisual/output/*
 
-legal/nlex-germany/cache/
-legal/nlex-germany/data.ttl
+.DS_Store
 
+legal/agencies/cache/
 legal/epo/tmp/
-legal/epo/data.ttl
-legal/epo/schema.nt
+legal/eurlex/cache/
+legal/eurlex/config.inc.php
+legal/nlex-germany/cache/
+legal/prelex/cache/
+legal/prelex/config.inc.php

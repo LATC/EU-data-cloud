@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+@prefix dct: <http://purl.org/dc/terms/>
+@prefix owl: <http://www.w3.org/2002/07/owl#>
+@prefix agencies: <http://agencies.publicdata.eu/ontology/>
+
+@base :<http://agencies.publicdata.eu/ontology/>
+
+<http://agencies.publicdata.eu/ontology/> a owl:Ontology ;
+    rdfs:label "EU agencies" .
+
+# Classes
+    
+agencies:Agency a owl:Class ;
+    rdfs:label "Agency" .
+
+agencies:Country a owl:Class ;
+    rdfs:label "Country" .
+
+City
+
+# Datatype properties
+
+agencies:token
+dct:title
+foaf:homepage
+
+rdfs:seeAlso
+
+foaf:mbox
+agencies:phone
+agencies:fax
+agencies:address
+agencies:zip
+
+
+# Object properties
+
+agencies:locatedInCountry a owl:ObjectProperty ;
+    rdfs:label "located in country" .
+
+agencies:locatedInCity
+

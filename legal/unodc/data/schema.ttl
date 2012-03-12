@@ -1,0 +1,132 @@
+<http://unodc.publicdata.eu/ontology/data/cts12_criminal_justice_resourcesCts12+total+police+personnelCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_criminal_justice_resourcesCts12+total+police+personnelCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Criminal_justice_resources CTS12 total police personnel count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_criminal_justice_resourcesCts12+total+police+personnelRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_criminal_justice_resourcesCts12+total+police+personnelRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Criminal_justice_resources CTS12 total police personnel rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_criminal_justice_resourcesCts12+total+professional+judgesCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_criminal_justice_resourcesCts12+total+professional+judgesCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Criminal_justice_resources CTS12 total professional judges count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_criminal_justice_resourcesCts12+total+professional+judgesRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_criminal_justice_resourcesCts12+total+professional+judgesRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Criminal_justice_resources CTS12 total professional judges rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_criminal_justice_resourcesPrison+staff+adult+prisonsCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_criminal_justice_resourcesPrison+staff+adult+prisonsCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Criminal_justice_resources Prison staff adult prisons count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_criminal_justice_resourcesPrison+staff+adult+prisonsRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_criminal_justice_resourcesPrison+staff+adult+prisonsRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Criminal_justice_resources Prison staff adult prisons rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_criminal_justice_resourcesPrison+staff+juvenile+prisonsCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_criminal_justice_resourcesPrison+staff+juvenile+prisonsCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Criminal_justice_resources Prison staff juvenile prisons count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_criminal_justice_resourcesPrison+staff+juvenile+prisonsRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_criminal_justice_resourcesPrison+staff+juvenile+prisonsRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Criminal_justice_resources Prison staff juvenile prisons rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_criminal_justice_resourcesCapacity+adult+prisonsCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_criminal_justice_resourcesCapacity+adult+prisonsCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Criminal_justice_resources capacity adult prisons count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_criminal_justice_resourcesCapacity+adult+prisonsRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_criminal_justice_resourcesCapacity+adult+prisonsRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Criminal_justice_resources capacity adult prisons rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_criminal_justice_resourcesCapacity+juvenile+prisonsCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_criminal_justice_resourcesCapacity+juvenile+prisonsCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Criminal_justice_resources capacity juvenile prisons count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_criminal_justice_resourcesCapacity+juvenile+prisonsRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_criminal_justice_resourcesCapacity+juvenile+prisonsRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Criminal_justice_resources capacity juvenile prisons rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactTotal+personsCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactTotal+personsCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Formal_contact Total persons count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactTotal+personsRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactTotal+personsRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Formal_contact Total persons rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactAdultsCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactAdultsCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Formal_contact Adults count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactAdultsRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactAdultsRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Formal_contact Adults rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactAdult+malesCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactAdult+malesCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Formal_contact Adult males count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactAdult+malesRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactAdult+malesRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Formal_contact Adult males rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactAdult+femalesCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactAdult+femalesCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Formal_contact Adult females count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactAdult+femalesRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactAdult+femalesRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Formal_contact Adult females rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactJuvenilesCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactJuvenilesCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Formal_contact Juveniles count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactJuvenilesRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactJuvenilesRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Formal_contact Juveniles rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactCountry+citizensCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactCountry+citizensCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Formal_contact Country citizens count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactCountry+citizensRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactCountry+citizensRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Formal_contact Country citizens rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactForeign+citizensCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactForeign+citizensCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Formal_contact Foreign citizens count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactForeign+citizensRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactForeign+citizensRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Formal_contact Foreign citizens rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactFor+rapeCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactFor+rapeCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Formal_contact For rape count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactFor+rapeRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactFor+rapeRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Formal_contact For rape rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+persons+before+courtsCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+persons+before+courtsCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_convicted CTS12 persons before courts count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+persons+before+courtsRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+persons+before+courtsRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_convicted CTS12 persons before courts rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+persons+convictedCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+persons+convictedCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_convicted CTS12 persons convicted count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+persons+convictedRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+persons+convictedRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_convicted CTS12 persons convicted rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+adults+convictedCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+adults+convictedCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_convicted CTS12 adults convicted count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+adults+convictedRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+adults+convictedRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_convicted CTS12 adults convicted rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+adult+males+convictedCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+adult+males+convictedCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_convicted CTS12 adult males convicted count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+adult+males+convictedRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+adult+males+convictedRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_convicted CTS12 adult males convicted rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+adult+females+convictedCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+adult+females+convictedCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_convicted CTS12 adult females convicted count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+adult+females+convictedRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+adult+females+convictedRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_convicted CTS12 adult females convicted rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+juveniles+convictedCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+juveniles+convictedCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_convicted CTS12 juveniles convicted count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+juveniles+convictedRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+juveniles+convictedRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_convicted CTS12 juveniles convicted rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+country+citizensCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+country+citizensCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_convicted CTS12 country citizens count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+country+citizensRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+country+citizensRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_convicted CTS12 country citizens rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+foreign+citizensCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+foreign+citizensCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_convicted CTS12 foreign citizens count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+foreign+citizensRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+foreign+citizensRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_convicted CTS12 foreign citizens rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+convicted+for+rapeCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+convicted+for+rapeCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_convicted CTS12 convicted for rape count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+convicted+for+rapeRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+convicted+for+rapeRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_convicted CTS12 convicted for rape rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+total+persons+heldCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+total+persons+heldCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_detained CTS12 total persons held count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+total+persons+heldRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+total+persons+heldRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_detained CTS12 total persons held rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+held+untried%2C+pre-trialCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+held+untried%2C+pre-trialCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_detained CTS12 held untried, pre-trial count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+held+untried%2C+pre-trialRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+held+untried%2C+pre-trialRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_detained CTS12 held untried, pre-trial rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+held+sentencedCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+held+sentencedCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_detained CTS12 held sentenced count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+held+sentencedRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+held+sentencedRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_detained CTS12 held sentenced rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+adults+heldCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+adults+heldCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_detained CTS12 adults held count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+adults+heldRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+adults+heldRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_detained CTS12 adults held rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+male+adults+heldCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+male+adults+heldCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_detained CTS12 male adults held count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+male+adults+heldRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+male+adults+heldRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_detained CTS12 male adults held rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+female+adults+heldCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+female+adults+heldCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_detained CTS12 female adults held count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+female+adults+heldRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+female+adults+heldRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_detained CTS12 female adults held rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+juveniles+heldCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+juveniles+heldCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_detained CTS12 juveniles held count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+juveniles+heldRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+juveniles+heldRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_detained CTS12 juveniles held rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+country+citizensCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+country+citizensCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_detained CTS12 country citizens count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+country+citizensRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12+country+citizensRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_detained CTS12 country citizens rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12++foreign+citizensCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12++foreign+citizensCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_detained CTS12  foreign citizens count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12++foreign+citizensRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12++foreign+citizensRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_detained CTS12  foreign citizens rate""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_prosecutedCts12+persons+prosecutedCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_prosecutedCts12+persons+prosecutedCount> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_prosecuted CTS12 Persons prosecuted count""" .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_prosecutedCts12+persons+prosecutedRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_prosecutedCts12+persons+prosecutedRate> <http://www.w3.org/2000/01/rdf-schema#label> """data/CTS12_Persons_prosecuted CTS12 Persons prosecuted rate""" .
