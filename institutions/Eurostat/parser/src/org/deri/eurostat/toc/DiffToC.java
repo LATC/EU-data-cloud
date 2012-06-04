@@ -392,18 +392,31 @@ public class DiffToC {
 		getDatasetURL(ele, datasetCode);
 		
 		getDatasetTitle(ele, datasetCode);
+
+		/*
+		 * LastModified refers to the 'last table structure change' where as
+		 * LastUpdate refers to the 'last update of data'. So we won't compare
+		 * LastModified and LastUpdate dates instead we use LastUpdate value of 
+		 * the dataset
+		 */
 		
-		if(!lastModified.equals("") && !lastUpdate.equals(""))
-		{
-			if(isGreater(lastUpdate,lastModified))
-				date = lastUpdate;
-			else
-				date = lastModified;
-		}
-		else if(lastModified.equals(""))
-			date = lastUpdate;
-		else if(lastUpdate.equals(""))
+//		if(!lastModified.equals("") && !lastUpdate.equals(""))
+//		{
+//			if(isGreater(lastUpdate,lastModified))
+//				date = lastUpdate;
+//			else
+//				date = lastModified;
+//		}
+//		else if(lastModified.equals(""))
+//			date = lastUpdate;
+//		else if(lastUpdate.equals(""))
+//			date = lastModified;
+		
+		// incase, lastUpdate value is empty then use the lastModified value
+		if(lastUpdate.equals(""))
 			date = lastModified;
+		else
+			date = lastUpdate;
 		
 		if(flag)
 			hshMap_New.put(datasetCode, date);
@@ -605,7 +618,7 @@ public class DiffToC {
 		writeLog("Creating log file for writing updates.");
 		try
 	   	{
-			fstream = new FileWriter(filePath + "log.txt",true);
+			fstream = new FileWriter(filePath + "weekly-updates_log.txt",true);
 			write = new BufferedWriter(fstream);
 	   	}catch(Exception e)
 	   	{

@@ -44,7 +44,7 @@ public class DataPage {
 		ch.writeAttribute("rdf:about", "/data/" + id); 
 		
 		ch.writeStartElement("rdfs:comment");
-		ch.writeCharacters("Reused Linked Eurostat (http://estatwrap.ontologycentral.com/) wrapper to rdfize Eurostat (http://epp.eurostat.ec.europa.eu/) .");
+		ch.writeCharacters("Reused Eurostat Linked Data Wrapper (http://estatwrap.ontologycentral.com/) to rdfize Eurostat datasets (http://epp.eurostat.ec.europa.eu/) .");
 		ch.writeEndElement();
 		ch.writeStartElement("rdfs:seeAlso");
 		ch.writeAttribute("rdf:resource", "http://epp.eurostat.ec.europa.eu/portal/page/portal/about_eurostat/policies/copyright_licence_policy");
@@ -53,6 +53,14 @@ public class DataPage {
 		ch.writeAttribute("rdf:resource", "http://eurostat.linked-statistics.org/");
 		ch.writeEndElement();
 
+		ch.writeStartElement("dcterms:modified");
+		ch.writeCharacters(ISO8601.format(cal.getTime()));
+		ch.writeEndElement();
+		
+		ch.writeStartElement("dcterms:source");
+		ch.writeAttribute("rdf:resource","http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?file=data%2F" + id + ".tsv.gz");
+		ch.writeEndElement();
+		
 		ch.writeStartElement("qb:structure");
 		ch.writeAttribute("rdf:resource", "../dsd/" + id);
 		ch.writeEndElement();

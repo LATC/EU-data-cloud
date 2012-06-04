@@ -6,6 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Reader;
 import java.text.DecimalFormat;
+import java.util.Date;
 import java.util.List;
 
 import javax.xml.stream.XMLStreamException;
@@ -78,7 +79,7 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
 		if(type.equals("non-numeric value"))
 		{
 			createLogFile(logPath);
-			writeDataToFile("Non-numeric vlaues in the Dataset : " + datasetID);
+			writeDataToFile( new Date() + " : Non-numeric vlaues in the Dataset : " + datasetID);
 			
 			try{
 	        	write.flush();  
@@ -136,7 +137,6 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
         	String val = (String)lcol.get(i);
         	returnType(val);
         }
-      
 	}
 	
 	 public void printTriple(Header h, Line l, XMLStreamWriter out, int bnodeid, String id, String freq) throws XMLStreamException {
@@ -338,7 +338,7 @@ public static String PREFIX = "http://ontologycentral.com/2009/01/eurostat/ns#";
 		 
 		 try
 		 {
-			 fstream = new FileWriter(filePath + "log.txt",true);
+			 fstream = new FileWriter(filePath + "dataset-typecheck_log.txt",true);
 			 write = new BufferedWriter(fstream);
 		 }catch(Exception e)
 		 {

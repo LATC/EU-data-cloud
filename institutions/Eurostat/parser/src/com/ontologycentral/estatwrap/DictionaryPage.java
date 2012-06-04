@@ -2,16 +2,22 @@ package com.ontologycentral.estatwrap;
 
 import java.io.IOException;
 import java.io.Reader;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.List;
 
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamWriter;
 
 public class DictionaryPage {
+	
+	public static SimpleDateFormat ISO8601 = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssZ");
+	
 	public static void convert(XMLStreamWriter ch, String id, List<Reader> rs, String[] langs) throws XMLStreamException, IOException {
 		ch.writeStartDocument("utf-8", "1.0");
 
 		ch.writeStartElement("rdf:RDF");
+		ch.writeAttribute("xml:base", "http://eurostat.linked-statistics.org/");
 		ch.writeDefaultNamespace(Data.PREFIX);
 		ch.writeNamespace("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#");
 		ch.writeNamespace("rdfs", "http://www.w3.org/2000/01/rdf-schema#");
@@ -22,7 +28,7 @@ public class DictionaryPage {
 		ch.writeStartElement("rdf:Description");
 		ch.writeAttribute("rdf:about", "");
 		ch.writeStartElement("rdfs:comment");
-		ch.writeCharacters("Reused Linked Eurostat (http://estatwrap.ontologycentral.com/) wrapper to rdfize Eurostat (http://epp.eurostat.ec.europa.eu/) .");
+		ch.writeCharacters("Reused Eurostat Linked Data Wrapper (http://estatwrap.ontologycentral.com/) to rdfize Eurostat datasets (http://epp.eurostat.ec.europa.eu/) .");
 		ch.writeEndElement();
 		ch.writeStartElement("foaf:maker");
 		ch.writeAttribute("rdf:resource", "http://harth.org/andreas/foaf#ah");
@@ -33,6 +39,16 @@ public class DictionaryPage {
 		ch.writeStartElement("rdfs:seeAlso");
 		ch.writeAttribute("rdf:resource", "http://eurostat.linked-statistics.org/");
 		ch.writeEndElement();
+		
+		Calendar cal = Calendar.getInstance();
+		ch.writeStartElement("dcterms:modified");
+		ch.writeCharacters(ISO8601.format(cal.getTime()));
+		ch.writeEndElement();
+		
+		ch.writeStartElement("dcterms:source");
+		ch.writeAttribute("rdf:resource","http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?file=dic%2Fen%2F" + id + ".dic");
+		ch.writeEndElement();
+		
 		ch.writeEndElement();
 
         Dictionary d = null;
