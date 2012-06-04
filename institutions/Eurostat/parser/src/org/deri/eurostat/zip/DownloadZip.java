@@ -61,7 +61,7 @@ public class DownloadZip {
 	{
 		tmpTsvPath = downloadPath;
 		
-		System.out.println("Downloading tsv file No# " + count + " from " + fileURL);
+		System.out.println("Downloading tsv file no# " + count + " from " + fileURL);
 		try {
 			
 			URL url = new URL(fileURL);
@@ -72,7 +72,7 @@ public class DownloadZip {
 				System.err.println(conn.getResponseCode());
 			}
 
-			// download zip file to a tmp directory
+			// download tsv file to a tmp directory
 			String fileName = fileURL.substring(fileURL.lastIndexOf("/")+1);
 			downloadTSV(is, fileName);
 			
