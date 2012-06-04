@@ -1,0 +1,152 @@
+<http://epo.publicdata.eu/ebd/ontology/country/AT> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/AT> <http://www.w3.org/2000/01/rdf-schema#label> "Austria"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/BE> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/BE> <http://www.w3.org/2000/01/rdf-schema#label> "Belgium"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/CH> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/CH> <http://www.w3.org/2000/01/rdf-schema#label> "Switzerland"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/DE> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/DE> <http://www.w3.org/2000/01/rdf-schema#label> "Germany"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/DK> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/DK> <http://www.w3.org/2000/01/rdf-schema#label> "Denmark"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/ES> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/ES> <http://www.w3.org/2000/01/rdf-schema#label> "Spain"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/FR> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/FR> <http://www.w3.org/2000/01/rdf-schema#label> "France"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/GB> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/GB> <http://www.w3.org/2000/01/rdf-schema#label> "United Kingdom"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/GR> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/GR> <http://www.w3.org/2000/01/rdf-schema#label> "Greece"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/IT> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/IT> <http://www.w3.org/2000/01/rdf-schema#label> "Italy"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/LI> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/LI> <http://www.w3.org/2000/01/rdf-schema#label> "Liechtenstein"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/LU> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/LU> <http://www.w3.org/2000/01/rdf-schema#label> "Luxembourg"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/NL> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/NL> <http://www.w3.org/2000/01/rdf-schema#label> "Netherlands"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/SE> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/SE> <http://www.w3.org/2000/01/rdf-schema#label> "Sweden"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/MC> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/MC> <http://www.w3.org/2000/01/rdf-schema#label> "Monaco"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/PT> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/PT> <http://www.w3.org/2000/01/rdf-schema#label> "Portugal"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/IE> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/IE> <http://www.w3.org/2000/01/rdf-schema#label> "Ireland"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/SI> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/SI> <http://www.w3.org/2000/01/rdf-schema#label> "Slovenia"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/LT> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/LT> <http://www.w3.org/2000/01/rdf-schema#label> "Lithuania"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/LV> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/LV> <http://www.w3.org/2000/01/rdf-schema#label> "Latvia"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/FI> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/FI> <http://www.w3.org/2000/01/rdf-schema#label> "Finland"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/RO> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/RO> <http://www.w3.org/2000/01/rdf-schema#label> "Romania"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/MK> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/MK> <http://www.w3.org/2000/01/rdf-schema#label> "Macedonia"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/CY> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/CY> <http://www.w3.org/2000/01/rdf-schema#label> "Cyprus"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/AL> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/AL> <http://www.w3.org/2000/01/rdf-schema#label> "Albania"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/TR> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/TR> <http://www.w3.org/2000/01/rdf-schema#label> "Turkey"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/BG> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/BG> <http://www.w3.org/2000/01/rdf-schema#label> "Bulgaria"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/CZ> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/CZ> <http://www.w3.org/2000/01/rdf-schema#label> "Czech Republic"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/EE> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/EE> <http://www.w3.org/2000/01/rdf-schema#label> "Estonia"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/HU> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/HU> <http://www.w3.org/2000/01/rdf-schema#label> "Hungary"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/PL> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/PL> <http://www.w3.org/2000/01/rdf-schema#label> "Poland"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/SK> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/SK> <http://www.w3.org/2000/01/rdf-schema#label> "Slovakia"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/BA> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/BA> <http://www.w3.org/2000/01/rdf-schema#label> "Bosnia and Herzegovina"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/HR> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/HR> <http://www.w3.org/2000/01/rdf-schema#label> "Croatia"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/IS> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/IS> <http://www.w3.org/2000/01/rdf-schema#label> "Iceland"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/YU> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/YU> <http://www.w3.org/2000/01/rdf-schema#label> "Serbia and Montenegro"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/MT> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/MT> <http://www.w3.org/2000/01/rdf-schema#label> "Malta"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/NO> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/NO> <http://www.w3.org/2000/01/rdf-schema#label> "Norway"@en .
+<http://epo.publicdata.eu/ebd/ontology/country/RS> a <http://epo.publicdata.eu/ebd/ontology/Country> .
+<http://epo.publicdata.eu/ebd/ontology/country/RS> <http://www.w3.org/2000/01/rdf-schema#label> "Republic of Serbia"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/00> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/00> <http://www.w3.org/2000/01/rdf-schema#label> "Online filing"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/10> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/10> <http://www.w3.org/2000/01/rdf-schema#label> "Munich, EPO"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/20> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/20> <http://www.w3.org/2000/01/rdf-schema#label> "The Hague, EPO (branch)"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/25> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/25> <http://www.w3.org/2000/01/rdf-schema#label> "Berlin, EPO (sub-office)"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/30> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/30> <http://www.w3.org/2000/01/rdf-schema#label> "Newport and London, The (UK) Patent Office"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/40> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/40> <http://www.w3.org/2000/01/rdf-schema#label> "Paris, Institut national de la propriété industrielle (INPI)"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/41> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/41> <http://www.w3.org/2000/01/rdf-schema#label> "Grenoble, INPI (regional office)"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/42> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/42> <http://www.w3.org/2000/01/rdf-schema#label> "Lyon, INPI (regional office)"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/43> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/43> <http://www.w3.org/2000/01/rdf-schema#label> "Marseille, INPI (regional office)"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/44> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/44> <http://www.w3.org/2000/01/rdf-schema#label> "Strasbourg, INPI (regional office)"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/45> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/45> <http://www.w3.org/2000/01/rdf-schema#label> "Bordeaux, INPI (regional office)"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/46> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/46> <http://www.w3.org/2000/01/rdf-schema#label> "Rennes, INPI (regional office)"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/47> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/47> <http://www.w3.org/2000/01/rdf-schema#label> "Nancy, INPI (regional office)"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/48> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/48> <http://www.w3.org/2000/01/rdf-schema#label> "Nice, INPI (regional office)"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/49> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/49> <http://www.w3.org/2000/01/rdf-schema#label> "Lille, INPI (regional office)"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/50> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/50> <http://www.w3.org/2000/01/rdf-schema#label> "Madrid, Oficina Espanola de Patentes y Marcas"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/51> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/51> <http://www.w3.org/2000/01/rdf-schema#label> "Barcelona (Autonomous Community Catalonia)"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/52> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/52> <http://www.w3.org/2000/01/rdf-schema#label> "Seville (Autonomous Community Andalusia)"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/53> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/53> <http://www.w3.org/2000/01/rdf-schema#label> "Tenerife (Autonomous Community Canary Islands)"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/54> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/54> <http://www.w3.org/2000/01/rdf-schema#label> "Santiago de Compostela (Autonomous Communit Galicia)"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/55> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/55> <http://www.w3.org/2000/01/rdf-schema#label> "Pamplona (Autonomous Community Navarra)"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/56> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/56> <http://www.w3.org/2000/01/rdf-schema#label> "Valencia (Autonomous Community Valencia)"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/57> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/57> <http://www.w3.org/2000/01/rdf-schema#label> "Vitoria (Autonomous Community Basque Country)"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/60> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/60> <http://www.w3.org/2000/01/rdf-schema#label> "Athens, Organismos Biomichanikis Idioktisias (OBI)"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/61> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/61> <http://www.w3.org/2000/01/rdf-schema#label> "Taastrup, Patentdirektoratet"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/63> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/63> <http://www.w3.org/2000/01/rdf-schema#label> "Luxembourg, Service de la propriété intellectuelle (Ministère l'économie et des classes moyennes)"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/64> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/64> <http://www.w3.org/2000/01/rdf-schema#label> "Monaco, Direction du Commerce, de l'Industrie et de la Prop Industrielle"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/65> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/65> <http://www.w3.org/2000/01/rdf-schema#label> "Dublin, The (Irish) Patents Office"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/67> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/67> <http://www.w3.org/2000/01/rdf-schema#label> "Lisbon, Instituto Nacional da Propriedade Industrial (INPI)"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/71> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/71> <http://www.w3.org/2000/01/rdf-schema#label> "Munich, Deutsches Patentamt (DPA)"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/72> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/72> <http://www.w3.org/2000/01/rdf-schema#label> "The Hague, Octrooiraad"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/73> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/73> <http://www.w3.org/2000/01/rdf-schema#label> "Berlin, DPA (Berlin Annex)"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/81> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/81> <http://www.w3.org/2000/01/rdf-schema#label> "Berne, Bundesamt für geistiges Eigentum (BAGE)"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/83> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/83> <http://www.w3.org/2000/01/rdf-schema#label> "Rome, Ufficio Centrale Brevetti"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/85> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/85> <http://www.w3.org/2000/01/rdf-schema#label> "Stockholm, Kungl. Patent- och registreringsverket"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/87> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/87> <http://www.w3.org/2000/01/rdf-schema#label> "Brussels, Service de la propriété industrielle et commercial (Ministère des affaires économiques)"@en .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/89> a <http://epo.publicdata.eu/ebd/ontology/ApplicationPlace> .
+<http://epo.publicdata.eu/ebd/ontology/applicationPlace/89> <http://www.w3.org/2000/01/rdf-schema#label> "Vienna, Österreichisches Patentamt"@en .

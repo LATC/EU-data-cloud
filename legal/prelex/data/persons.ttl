@@ -1,0 +1,434 @@
+<http://prelex.publicdata.eu/r/person/Viviane+REDING> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Viviane+REDING> <http://www.w3.org/2000/01/rdf-schema#label> """Viviane REDING"""@en . 
+<http://prelex.publicdata.eu/r/person/Pedro+SOLBES+MIRA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Pedro+SOLBES+MIRA> <http://www.w3.org/2000/01/rdf-schema#label> """Pedro SOLBES MIRA"""@en . 
+<http://prelex.publicdata.eu/r/person/Frits+BOLKESTEIN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Frits+BOLKESTEIN> <http://www.w3.org/2000/01/rdf-schema#label> """Frits BOLKESTEIN"""@en . 
+<http://prelex.publicdata.eu/r/person/Erkki+LIIKANEN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Erkki+LIIKANEN> <http://www.w3.org/2000/01/rdf-schema#label> """Erkki LIIKANEN"""@en . 
+<http://prelex.publicdata.eu/r/person/David+BYRNE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/David+BYRNE> <http://www.w3.org/2000/01/rdf-schema#label> """David BYRNE"""@en . 
+<http://prelex.publicdata.eu/r/person/Chris+PATTEN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Chris+PATTEN> <http://www.w3.org/2000/01/rdf-schema#label> """Chris PATTEN"""@en . 
+<http://prelex.publicdata.eu/r/person/Margot+WALLSTR%C3%96M> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Margot+WALLSTR%C3%96M> <http://www.w3.org/2000/01/rdf-schema#label> """Margot WALLSTRÖM"""@en . 
+<http://prelex.publicdata.eu/r/person/Franz+FISCHLER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Franz+FISCHLER> <http://www.w3.org/2000/01/rdf-schema#label> """Franz FISCHLER"""@en . 
+<http://prelex.publicdata.eu/r/person/Antonio+VITORINO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Antonio+VITORINO> <http://www.w3.org/2000/01/rdf-schema#label> """Antonio VITORINO"""@en . 
+<http://prelex.publicdata.eu/r/person/Loyola+DE+PALACIO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Loyola+DE+PALACIO> <http://www.w3.org/2000/01/rdf-schema#label> """Loyola DE PALACIO"""@en . 
+<http://prelex.publicdata.eu/r/person/Michaele+SCHREYER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Michaele+SCHREYER> <http://www.w3.org/2000/01/rdf-schema#label> """Michaele SCHREYER"""@en . 
+<http://prelex.publicdata.eu/r/person/Philippe+BUSQUIN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Philippe+BUSQUIN> <http://www.w3.org/2000/01/rdf-schema#label> """Philippe BUSQUIN"""@en . 
+<http://prelex.publicdata.eu/r/person/Anna+DIAMANTOPOULOU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Anna+DIAMANTOPOULOU> <http://www.w3.org/2000/01/rdf-schema#label> """Anna DIAMANTOPOULOU"""@en . 
+<http://prelex.publicdata.eu/r/person/Romano+PRODI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Romano+PRODI> <http://www.w3.org/2000/01/rdf-schema#label> """Romano PRODI"""@en . 
+<http://prelex.publicdata.eu/r/person/Michel+BARNIER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Michel+BARNIER> <http://www.w3.org/2000/01/rdf-schema#label> """Michel BARNIER"""@en . 
+<http://prelex.publicdata.eu/r/person/G%C3%BCnter+VERHEUGEN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/G%C3%BCnter+VERHEUGEN> <http://www.w3.org/2000/01/rdf-schema#label> """Günter VERHEUGEN"""@en . 
+<http://prelex.publicdata.eu/r/person/Poul+NIELSON> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Poul+NIELSON> <http://www.w3.org/2000/01/rdf-schema#label> """Poul NIELSON"""@en . 
+<http://prelex.publicdata.eu/r/person/Hans+VAN+DEN+BROEK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Hans+VAN+DEN+BROEK> <http://www.w3.org/2000/01/rdf-schema#label> """Hans VAN DEN BROEK"""@en . 
+<http://prelex.publicdata.eu/r/person/Pascal+LAMY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Pascal+LAMY> <http://www.w3.org/2000/01/rdf-schema#label> """Pascal LAMY"""@en . 
+<http://prelex.publicdata.eu/r/person/P%C3%A1draig+FLYNN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/P%C3%A1draig+FLYNN> <http://www.w3.org/2000/01/rdf-schema#label> """Pádraig FLYNN"""@en . 
+<http://prelex.publicdata.eu/r/person/Mario+MONTI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Mario+MONTI> <http://www.w3.org/2000/01/rdf-schema#label> """Mario MONTI"""@en . 
+<http://prelex.publicdata.eu/r/person/Yves-Thibault+DE+SILGUY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Yves-Thibault+DE+SILGUY> <http://www.w3.org/2000/01/rdf-schema#label> """Yves-Thibault DE SILGUY"""@en . 
+<http://prelex.publicdata.eu/r/person/Marcelino+OREJA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Marcelino+OREJA> <http://www.w3.org/2000/01/rdf-schema#label> """Marcelino OREJA"""@en . 
+<http://prelex.publicdata.eu/r/person/Martin+BANGEMANN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Martin+BANGEMANN> <http://www.w3.org/2000/01/rdf-schema#label> """Martin BANGEMANN"""@en . 
+<http://prelex.publicdata.eu/r/person/Jo%C3%A3o+de+Deus+PINHEIRO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Jo%C3%A3o+de+Deus+PINHEIRO> <http://www.w3.org/2000/01/rdf-schema#label> """João de Deus PINHEIRO"""@en . 
+<http://prelex.publicdata.eu/r/person/Emma+BONINO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Emma+BONINO> <http://www.w3.org/2000/01/rdf-schema#label> """Emma BONINO"""@en . 
+<http://prelex.publicdata.eu/r/person/Edith+CRESSON> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Edith+CRESSON> <http://www.w3.org/2000/01/rdf-schema#label> """Edith CRESSON"""@en . 
+<http://prelex.publicdata.eu/r/person/Manuel+MARIN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Manuel+MARIN> <http://www.w3.org/2000/01/rdf-schema#label> """Manuel MARIN"""@en . 
+<http://prelex.publicdata.eu/r/person/Ritt+BJERREGAARD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Ritt+BJERREGAARD> <http://www.w3.org/2000/01/rdf-schema#label> """Ritt BJERREGAARD"""@en . 
+<http://prelex.publicdata.eu/r/person/Christos+PAPOUTSIS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Christos+PAPOUTSIS> <http://www.w3.org/2000/01/rdf-schema#label> """Christos PAPOUTSIS"""@en . 
+<http://prelex.publicdata.eu/r/person/Anita+GRADIN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Anita+GRADIN> <http://www.w3.org/2000/01/rdf-schema#label> """Anita GRADIN"""@en . 
+<http://prelex.publicdata.eu/r/person/Neil+KINNOCK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Neil+KINNOCK> <http://www.w3.org/2000/01/rdf-schema#label> """Neil KINNOCK"""@en . 
+<http://prelex.publicdata.eu/r/person/Jacques+SANTER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Jacques+SANTER> <http://www.w3.org/2000/01/rdf-schema#label> """Jacques SANTER"""@en . 
+<http://prelex.publicdata.eu/r/person/Monika+WULF-MATHIES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Monika+WULF-MATHIES> <http://www.w3.org/2000/01/rdf-schema#label> """Monika WULF-MATHIES"""@en . 
+<http://prelex.publicdata.eu/r/person/Sir+Leon+BRITTAN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Sir+Leon+BRITTAN> <http://www.w3.org/2000/01/rdf-schema#label> """Sir Leon BRITTAN"""@en . 
+<http://prelex.publicdata.eu/r/person/NARJES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/NARJES> <http://www.w3.org/2000/01/rdf-schema#label> """NARJES"""@en . 
+<http://prelex.publicdata.eu/r/person/DALSAGER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/DALSAGER> <http://www.w3.org/2000/01/rdf-schema#label> """DALSAGER"""@en . 
+<http://prelex.publicdata.eu/r/person/ORTOLI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/ORTOLI> <http://www.w3.org/2000/01/rdf-schema#label> """ORTOLI"""@en . 
+<http://prelex.publicdata.eu/r/person/RICHARD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/RICHARD> <http://www.w3.org/2000/01/rdf-schema#label> """RICHARD"""@en . 
+<http://prelex.publicdata.eu/r/person/TUGENDHAT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/TUGENDHAT> <http://www.w3.org/2000/01/rdf-schema#label> """TUGENDHAT"""@en . 
+<http://prelex.publicdata.eu/r/person/GIOLITTI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/GIOLITTI> <http://www.w3.org/2000/01/rdf-schema#label> """GIOLITTI"""@en . 
+<http://prelex.publicdata.eu/r/person/PISANI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/PISANI> <http://www.w3.org/2000/01/rdf-schema#label> """PISANI"""@en . 
+<http://prelex.publicdata.eu/r/person/Gaston+THORN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Gaston+THORN> <http://www.w3.org/2000/01/rdf-schema#label> """Gaston THORN"""@en . 
+<http://prelex.publicdata.eu/r/person/Etienne+DAVIGNON> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Etienne+DAVIGNON> <http://www.w3.org/2000/01/rdf-schema#label> """Etienne DAVIGNON"""@en . 
+<http://prelex.publicdata.eu/r/person/BURKE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/BURKE> <http://www.w3.org/2000/01/rdf-schema#label> """BURKE"""@en . 
+<http://prelex.publicdata.eu/r/person/HAFERKAMP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/HAFERKAMP> <http://www.w3.org/2000/01/rdf-schema#label> """HAFERKAMP"""@en . 
+<http://prelex.publicdata.eu/r/person/NATALI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/NATALI> <http://www.w3.org/2000/01/rdf-schema#label> """NATALI"""@en . 
+<http://prelex.publicdata.eu/r/person/CONTOGEORGIS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/CONTOGEORGIS> <http://www.w3.org/2000/01/rdf-schema#label> """CONTOGEORGIS"""@en . 
+<http://prelex.publicdata.eu/r/person/BURKE%3B+PISANI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/BURKE%3B+PISANI> <http://www.w3.org/2000/01/rdf-schema#label> """BURKE; PISANI"""@en . 
+<http://prelex.publicdata.eu/r/person/ANDRIESSEN%3B+Gaston+THORN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/ANDRIESSEN%3B+Gaston+THORN> <http://www.w3.org/2000/01/rdf-schema#label> """ANDRIESSEN; Gaston THORN"""@en . 
+<http://prelex.publicdata.eu/r/person/RICHARD%3B+TUGENDHAT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/RICHARD%3B+TUGENDHAT> <http://www.w3.org/2000/01/rdf-schema#label> """RICHARD; TUGENDHAT"""@en . 
+<http://prelex.publicdata.eu/r/person/HAFERKAMP%3B+PISANI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/HAFERKAMP%3B+PISANI> <http://www.w3.org/2000/01/rdf-schema#label> """HAFERKAMP; PISANI"""@en . 
+<http://prelex.publicdata.eu/r/person/NARJES%3B+NATALI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/NARJES%3B+NATALI> <http://www.w3.org/2000/01/rdf-schema#label> """NARJES; NATALI"""@en . 
+<http://prelex.publicdata.eu/r/person/DALSAGER%3B+PISANI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/DALSAGER%3B+PISANI> <http://www.w3.org/2000/01/rdf-schema#label> """DALSAGER; PISANI"""@en . 
+<http://prelex.publicdata.eu/r/person/GIOLITTI%3B+RICHARD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/GIOLITTI%3B+RICHARD> <http://www.w3.org/2000/01/rdf-schema#label> """GIOLITTI; RICHARD"""@en . 
+<http://prelex.publicdata.eu/r/person/Etienne+DAVIGNON%3B+NARJES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Etienne+DAVIGNON%3B+NARJES> <http://www.w3.org/2000/01/rdf-schema#label> """Etienne DAVIGNON; NARJES"""@en . 
+<http://prelex.publicdata.eu/r/person/DALSAGER%3B+HAFERKAMP%3B+PISANI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/DALSAGER%3B+HAFERKAMP%3B+PISANI> <http://www.w3.org/2000/01/rdf-schema#label> """DALSAGER; HAFERKAMP; PISANI"""@en . 
+<http://prelex.publicdata.eu/r/person/DALSAGER%3B+GIOLITTI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/DALSAGER%3B+GIOLITTI> <http://www.w3.org/2000/01/rdf-schema#label> """DALSAGER; GIOLITTI"""@en . 
+<http://prelex.publicdata.eu/r/person/NARJES%3B+ORTOLI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/NARJES%3B+ORTOLI> <http://www.w3.org/2000/01/rdf-schema#label> """NARJES; ORTOLI"""@en . 
+<http://prelex.publicdata.eu/r/person/ANDRIESSEN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/ANDRIESSEN> <http://www.w3.org/2000/01/rdf-schema#label> """ANDRIESSEN"""@en . 
+<http://prelex.publicdata.eu/r/person/CLINTON+DAVIS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/CLINTON+DAVIS> <http://www.w3.org/2000/01/rdf-schema#label> """CLINTON DAVIS"""@en . 
+<http://prelex.publicdata.eu/r/person/MOSAR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/MOSAR> <http://www.w3.org/2000/01/rdf-schema#label> """MOSAR"""@en . 
+<http://prelex.publicdata.eu/r/person/COCKFIELD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/COCKFIELD> <http://www.w3.org/2000/01/rdf-schema#label> """COCKFIELD"""@en . 
+<http://prelex.publicdata.eu/r/person/Jacques+DELORS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Jacques+DELORS> <http://www.w3.org/2000/01/rdf-schema#label> """Jacques DELORS"""@en . 
+<http://prelex.publicdata.eu/r/person/Claude+CHEYSSON> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Claude+CHEYSSON> <http://www.w3.org/2000/01/rdf-schema#label> """Claude CHEYSSON"""@en . 
+<http://prelex.publicdata.eu/r/person/Carlo+RIPA+DI+MEANA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Carlo+RIPA+DI+MEANA> <http://www.w3.org/2000/01/rdf-schema#label> """Carlo RIPA DI MEANA"""@en . 
+<http://prelex.publicdata.eu/r/person/Martin+BANGEMANN%3B+Ritt+BJERREGAA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Martin+BANGEMANN%3B+Ritt+BJERREGAA> <http://www.w3.org/2000/01/rdf-schema#label> """Martin BANGEMANN; Ritt BJERREGAA"""@en . 
+<http://prelex.publicdata.eu/r/person/David+BYRNE%3B+Romano+PRODI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/David+BYRNE%3B+Romano+PRODI> <http://www.w3.org/2000/01/rdf-schema#label> """David BYRNE; Romano PRODI"""@en . 
+<http://prelex.publicdata.eu/r/person/Sir+Leon+BRITTAN%3B+Manuel+MARIN%3B> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Sir+Leon+BRITTAN%3B+Manuel+MARIN%3B> <http://www.w3.org/2000/01/rdf-schema#label> """Sir Leon BRITTAN; Manuel MARIN;"""@en . 
+<http://prelex.publicdata.eu/r/person/Neil+KINNOCK%3B+Hans+VAN+DEN+BROEK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Neil+KINNOCK%3B+Hans+VAN+DEN+BROEK> <http://www.w3.org/2000/01/rdf-schema#label> """Neil KINNOCK; Hans VAN DEN BROEK"""@en . 
+<http://prelex.publicdata.eu/r/person/Manuel+MARIN%3B+Jo%C3%A3o+de+Deus+PINHE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Manuel+MARIN%3B+Jo%C3%A3o+de+Deus+PINHE> <http://www.w3.org/2000/01/rdf-schema#label> """Manuel MARIN; João de Deus PINHE"""@en . 
+<http://prelex.publicdata.eu/r/person/Yves-Thibault+DE+SILGUY%3B+Franz+F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Yves-Thibault+DE+SILGUY%3B+Franz+F> <http://www.w3.org/2000/01/rdf-schema#label> """Yves-Thibault DE SILGUY; Franz F"""@en . 
+<http://prelex.publicdata.eu/r/person/Karel+VAN+MIERT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Karel+VAN+MIERT> <http://www.w3.org/2000/01/rdf-schema#label> """Karel VAN MIERT"""@en . 
+<http://prelex.publicdata.eu/r/person/Benita+FERRERO-WALDNER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Benita+FERRERO-WALDNER> <http://www.w3.org/2000/01/rdf-schema#label> """Benita FERRERO-WALDNER"""@en . 
+<http://prelex.publicdata.eu/r/person/Ritt+BJERREGAARD%3B+Christos+PAPOU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Ritt+BJERREGAARD%3B+Christos+PAPOU> <http://www.w3.org/2000/01/rdf-schema#label> """Ritt BJERREGAARD; Christos PAPOU"""@en . 
+<http://prelex.publicdata.eu/r/person/Jacques+BARROT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Jacques+BARROT> <http://www.w3.org/2000/01/rdf-schema#label> """Jacques BARROT"""@en . 
+<http://prelex.publicdata.eu/r/person/Frits+BOLKESTEIN%3B+Franz+FISCHLER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Frits+BOLKESTEIN%3B+Franz+FISCHLER> <http://www.w3.org/2000/01/rdf-schema#label> """Frits BOLKESTEIN; Franz FISCHLER"""@en . 
+<http://prelex.publicdata.eu/r/person/Pascal+LAMY%3B+Chris+PATTEN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Pascal+LAMY%3B+Chris+PATTEN> <http://www.w3.org/2000/01/rdf-schema#label> """Pascal LAMY; Chris PATTEN"""@en . 
+<http://prelex.publicdata.eu/r/person/Franz+FISCHLER%3B+Pascal+LAMY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Franz+FISCHLER%3B+Pascal+LAMY> <http://www.w3.org/2000/01/rdf-schema#label> """Franz FISCHLER; Pascal LAMY"""@en . 
+<http://prelex.publicdata.eu/r/person/Loyola+DE+PALACIO%3B+Poul+NIELSON> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Loyola+DE+PALACIO%3B+Poul+NIELSON> <http://www.w3.org/2000/01/rdf-schema#label> """Loyola DE PALACIO; Poul NIELSON"""@en . 
+<http://prelex.publicdata.eu/r/person/Pascal+LAMY%3B+Poul+NIELSON> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Pascal+LAMY%3B+Poul+NIELSON> <http://www.w3.org/2000/01/rdf-schema#label> """Pascal LAMY; Poul NIELSON"""@en . 
+<http://prelex.publicdata.eu/r/person/Erkki+LIIKANEN%3B+Mario+MONTI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Erkki+LIIKANEN%3B+Mario+MONTI> <http://www.w3.org/2000/01/rdf-schema#label> """Erkki LIIKANEN; Mario MONTI"""@en . 
+<http://prelex.publicdata.eu/r/person/Neil+KINNOCK%3B+Michaele+SCHREYER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Neil+KINNOCK%3B+Michaele+SCHREYER> <http://www.w3.org/2000/01/rdf-schema#label> """Neil KINNOCK; Michaele SCHREYER"""@en . 
+<http://prelex.publicdata.eu/r/person/Anna+DIAMANTOPOULOU%3B+Franz+FISCH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Anna+DIAMANTOPOULOU%3B+Franz+FISCH> <http://www.w3.org/2000/01/rdf-schema#label> """Anna DIAMANTOPOULOU; Franz FISCH"""@en . 
+<http://prelex.publicdata.eu/r/person/Franz+FISCHLER%3B+Pascal+LAMY%3B+G%C3%BCn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Franz+FISCHLER%3B+Pascal+LAMY%3B+G%C3%BCn> <http://www.w3.org/2000/01/rdf-schema#label> """Franz FISCHLER; Pascal LAMY; Gün"""@en . 
+<http://prelex.publicdata.eu/r/person/Frits+BOLKESTEIN%3B+Pedro+SOLBES+M> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Frits+BOLKESTEIN%3B+Pedro+SOLBES+M> <http://www.w3.org/2000/01/rdf-schema#label> """Frits BOLKESTEIN; Pedro SOLBES M"""@en . 
+<http://prelex.publicdata.eu/r/person/Erkki+LIIKANEN%3B+Margot+WALLSTR%C3%96M> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Erkki+LIIKANEN%3B+Margot+WALLSTR%C3%96M> <http://www.w3.org/2000/01/rdf-schema#label> """Erkki LIIKANEN; Margot WALLSTRÖM"""@en . 
+<http://prelex.publicdata.eu/r/person/Romano+PRODI%3B+Antonio+VITORINO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Romano+PRODI%3B+Antonio+VITORINO> <http://www.w3.org/2000/01/rdf-schema#label> """Romano PRODI; Antonio VITORINO"""@en . 
+<http://prelex.publicdata.eu/r/person/Chris+PATTEN%3B+G%C3%BCnter+VERHEUGEN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Chris+PATTEN%3B+G%C3%BCnter+VERHEUGEN> <http://www.w3.org/2000/01/rdf-schema#label> """Chris PATTEN; Günter VERHEUGEN"""@en . 
+<http://prelex.publicdata.eu/r/person/Pedro+SOLBES+MIRA%3B+G%C3%BCnter+VERHEU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Pedro+SOLBES+MIRA%3B+G%C3%BCnter+VERHEU> <http://www.w3.org/2000/01/rdf-schema#label> """Pedro SOLBES MIRA; Günter VERHEU"""@en . 
+<http://prelex.publicdata.eu/r/person/Franz+FISCHLER%3B+Pascal+LAMY%3B+Pou> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Franz+FISCHLER%3B+Pascal+LAMY%3B+Pou> <http://www.w3.org/2000/01/rdf-schema#label> """Franz FISCHLER; Pascal LAMY; Pou"""@en . 
+<http://prelex.publicdata.eu/r/person/Franz+FISCHLER%3B+Chris+PATTEN%3B+G%C3%BC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Franz+FISCHLER%3B+Chris+PATTEN%3B+G%C3%BC> <http://www.w3.org/2000/01/rdf-schema#label> """Franz FISCHLER; Chris PATTEN; Gü"""@en . 
+<http://prelex.publicdata.eu/r/person/Philippe+BUSQUIN%3B+Pascal+LAMY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Philippe+BUSQUIN%3B+Pascal+LAMY> <http://www.w3.org/2000/01/rdf-schema#label> """Philippe BUSQUIN; Pascal LAMY"""@en . 
+<http://prelex.publicdata.eu/r/person/David+BYRNE%3B+Franz+FISCHLER%3B+Pas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/David+BYRNE%3B+Franz+FISCHLER%3B+Pas> <http://www.w3.org/2000/01/rdf-schema#label> """David BYRNE; Franz FISCHLER; Pas"""@en . 
+<http://prelex.publicdata.eu/r/person/Viviane+REDING%3B+G%C3%BCnter+VERHEUGEN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Viviane+REDING%3B+G%C3%BCnter+VERHEUGEN> <http://www.w3.org/2000/01/rdf-schema#label> """Viviane REDING; Günter VERHEUGEN"""@en . 
+<http://prelex.publicdata.eu/r/person/Poul+NIELSON%3B+Chris+PATTEN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Poul+NIELSON%3B+Chris+PATTEN> <http://www.w3.org/2000/01/rdf-schema#label> """Poul NIELSON; Chris PATTEN"""@en . 
+<http://prelex.publicdata.eu/r/person/Philippe+BUSQUIN%3B+Neil+KINNOCK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Philippe+BUSQUIN%3B+Neil+KINNOCK> <http://www.w3.org/2000/01/rdf-schema#label> """Philippe BUSQUIN; Neil KINNOCK"""@en . 
+<http://prelex.publicdata.eu/r/person/Poul+NIELSON%3B+Chris+PATTEN%3B+Roma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Poul+NIELSON%3B+Chris+PATTEN%3B+Roma> <http://www.w3.org/2000/01/rdf-schema#label> """Poul NIELSON; Chris PATTEN; Roma"""@en . 
+<http://prelex.publicdata.eu/r/person/Chris+PATTEN%3B+Michaele+SCHREYER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Chris+PATTEN%3B+Michaele+SCHREYER> <http://www.w3.org/2000/01/rdf-schema#label> """Chris PATTEN; Michaele SCHREYER"""@en . 
+<http://prelex.publicdata.eu/r/person/Frits+BOLKESTEIN%3B+Loyola+DE+PALA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Frits+BOLKESTEIN%3B+Loyola+DE+PALA> <http://www.w3.org/2000/01/rdf-schema#label> """Frits BOLKESTEIN; Loyola DE PALA"""@en . 
+<http://prelex.publicdata.eu/r/person/Frits+BOLKESTEIN%3B+Romano+PRODI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Frits+BOLKESTEIN%3B+Romano+PRODI> <http://www.w3.org/2000/01/rdf-schema#label> """Frits BOLKESTEIN; Romano PRODI"""@en . 
+<http://prelex.publicdata.eu/r/person/David+BYRNE%3B+Erkki+LIIKANEN%3B+Ant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/David+BYRNE%3B+Erkki+LIIKANEN%3B+Ant> <http://www.w3.org/2000/01/rdf-schema#label> """David BYRNE; Erkki LIIKANEN; Ant"""@en . 
+<http://prelex.publicdata.eu/r/person/Erkki+LIIKANEN%3B+Pedro+SOLBES+MIR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Erkki+LIIKANEN%3B+Pedro+SOLBES+MIR> <http://www.w3.org/2000/01/rdf-schema#label> """Erkki LIIKANEN; Pedro SOLBES MIR"""@en . 
+<http://prelex.publicdata.eu/r/person/David+BYRNE%3B+Margot+WALLSTR%C3%96M> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/David+BYRNE%3B+Margot+WALLSTR%C3%96M> <http://www.w3.org/2000/01/rdf-schema#label> """David BYRNE; Margot WALLSTRÖM"""@en . 
+<http://prelex.publicdata.eu/r/person/Franz+FISCHLER%3B+Margot+WALLSTR%C3%96M> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Franz+FISCHLER%3B+Margot+WALLSTR%C3%96M> <http://www.w3.org/2000/01/rdf-schema#label> """Franz FISCHLER; Margot WALLSTRÖM"""@en . 
+<http://prelex.publicdata.eu/r/person/Margot+WALLSTR%C3%96M%3B+Margot+WALLSTR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Margot+WALLSTR%C3%96M%3B+Margot+WALLSTR> <http://www.w3.org/2000/01/rdf-schema#label> """Margot WALLSTRÖM; Margot WALLSTR"""@en . 
+<http://prelex.publicdata.eu/r/person/Poul+NIELSON%3B+Chris+PATTEN%3B+Anto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Poul+NIELSON%3B+Chris+PATTEN%3B+Anto> <http://www.w3.org/2000/01/rdf-schema#label> """Poul NIELSON; Chris PATTEN; Anto"""@en . 
+<http://prelex.publicdata.eu/r/person/Poul+NIELSON%3B+Romano+PRODI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Poul+NIELSON%3B+Romano+PRODI> <http://www.w3.org/2000/01/rdf-schema#label> """Poul NIELSON; Romano PRODI"""@en . 
+<http://prelex.publicdata.eu/r/person/Erkki+LIIKANEN%3B+Romano+PRODI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Erkki+LIIKANEN%3B+Romano+PRODI> <http://www.w3.org/2000/01/rdf-schema#label> """Erkki LIIKANEN; Romano PRODI"""@en . 
+<http://prelex.publicdata.eu/r/person/Anna+DIAMANTOPOULOU%3B+Pedro+SOLBE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Anna+DIAMANTOPOULOU%3B+Pedro+SOLBE> <http://www.w3.org/2000/01/rdf-schema#label> """Anna DIAMANTOPOULOU; Pedro SOLBE"""@en . 
+<http://prelex.publicdata.eu/r/person/Loyola+DE+PALACIO%3B+Chris+PATTEN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Loyola+DE+PALACIO%3B+Chris+PATTEN> <http://www.w3.org/2000/01/rdf-schema#label> """Loyola DE PALACIO; Chris PATTEN"""@en . 
+<http://prelex.publicdata.eu/r/person/Anna+DIAMANTOPOULOU%3B+Romano+PROD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Anna+DIAMANTOPOULOU%3B+Romano+PROD> <http://www.w3.org/2000/01/rdf-schema#label> """Anna DIAMANTOPOULOU; Romano PROD"""@en . 
+<http://prelex.publicdata.eu/r/person/Pascal+LAMY%3B+Poul+NIELSON%3B+Chris> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Pascal+LAMY%3B+Poul+NIELSON%3B+Chris> <http://www.w3.org/2000/01/rdf-schema#label> """Pascal LAMY; Poul NIELSON; Chris"""@en . 
+<http://prelex.publicdata.eu/r/person/Franz+FISCHLER%3B+Chris+PATTEN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Franz+FISCHLER%3B+Chris+PATTEN> <http://www.w3.org/2000/01/rdf-schema#label> """Franz FISCHLER; Chris PATTEN"""@en . 
+<http://prelex.publicdata.eu/r/person/Erkki+LIIKANEN%3B+Antonio+VITORINO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Erkki+LIIKANEN%3B+Antonio+VITORINO> <http://www.w3.org/2000/01/rdf-schema#label> """Erkki LIIKANEN; Antonio VITORINO"""@en . 
+<http://prelex.publicdata.eu/r/person/Philippe+BUSQUIN%3B+Chris+PATTEN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Philippe+BUSQUIN%3B+Chris+PATTEN> <http://www.w3.org/2000/01/rdf-schema#label> """Philippe BUSQUIN; Chris PATTEN"""@en . 
+<http://prelex.publicdata.eu/r/person/Anna+DIAMANTOPOULOU%3B+Antonio+VIT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Anna+DIAMANTOPOULOU%3B+Antonio+VIT> <http://www.w3.org/2000/01/rdf-schema#label> """Anna DIAMANTOPOULOU; Antonio VIT"""@en . 
+<http://prelex.publicdata.eu/r/person/Michaele+SCHREYER%3B+Pedro+SOLBES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Michaele+SCHREYER%3B+Pedro+SOLBES> <http://www.w3.org/2000/01/rdf-schema#label> """Michaele SCHREYER; Pedro SOLBES"""@en . 
+<http://prelex.publicdata.eu/r/person/Olli+REHN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Olli+REHN> <http://www.w3.org/2000/01/rdf-schema#label> """Olli REHN"""@en . 
+<http://prelex.publicdata.eu/r/person/Frits+BOLKESTEIN%3B+Pascal+LAMY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Frits+BOLKESTEIN%3B+Pascal+LAMY> <http://www.w3.org/2000/01/rdf-schema#label> """Frits BOLKESTEIN; Pascal LAMY"""@en . 
+<http://prelex.publicdata.eu/r/person/Franz+FISCHLER%3B+G%C3%BCnter+VERHEUGEN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Franz+FISCHLER%3B+G%C3%BCnter+VERHEUGEN> <http://www.w3.org/2000/01/rdf-schema#label> """Franz FISCHLER; Günter VERHEUGEN"""@en . 
+<http://prelex.publicdata.eu/r/person/Loyola+DE+PALACIO%3B+Erkki+LIIKANE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Loyola+DE+PALACIO%3B+Erkki+LIIKANE> <http://www.w3.org/2000/01/rdf-schema#label> """Loyola DE PALACIO; Erkki LIIKANE"""@en . 
+<http://prelex.publicdata.eu/r/person/Frits+BOLKESTEIN%3B+G%C3%BCnter+VERHEUG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Frits+BOLKESTEIN%3B+G%C3%BCnter+VERHEUG> <http://www.w3.org/2000/01/rdf-schema#label> """Frits BOLKESTEIN; Günter VERHEUG"""@en . 
+<http://prelex.publicdata.eu/r/person/Frits+BOLKESTEIN%3B+Erkki+LIIKANEN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Frits+BOLKESTEIN%3B+Erkki+LIIKANEN> <http://www.w3.org/2000/01/rdf-schema#label> """Frits BOLKESTEIN; Erkki LIIKANEN"""@en . 
+<http://prelex.publicdata.eu/r/person/Chris+PATTEN%3B+Antonio+VITORINO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Chris+PATTEN%3B+Antonio+VITORINO> <http://www.w3.org/2000/01/rdf-schema#label> """Chris PATTEN; Antonio VITORINO"""@en . 
+<http://prelex.publicdata.eu/r/person/Philippe+BUSQUIN%3B+David+BYRNE%3B+M> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Philippe+BUSQUIN%3B+David+BYRNE%3B+M> <http://www.w3.org/2000/01/rdf-schema#label> """Philippe BUSQUIN; David BYRNE; M"""@en . 
+<http://prelex.publicdata.eu/r/person/Poul+NIELSON%3B+Margot+WALLSTR%C3%96M> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Poul+NIELSON%3B+Margot+WALLSTR%C3%96M> <http://www.w3.org/2000/01/rdf-schema#label> """Poul NIELSON; Margot WALLSTRÖM"""@en . 
+<http://prelex.publicdata.eu/r/person/David+BYRNE%3B+Franz+FISCHLER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/David+BYRNE%3B+Franz+FISCHLER> <http://www.w3.org/2000/01/rdf-schema#label> """David BYRNE; Franz FISCHLER"""@en . 
+<http://prelex.publicdata.eu/r/person/Pedro+SOLBES+MIRA%3B+Antonio+VITOR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Pedro+SOLBES+MIRA%3B+Antonio+VITOR> <http://www.w3.org/2000/01/rdf-schema#label> """Pedro SOLBES MIRA; Antonio VITOR"""@en . 
+<http://prelex.publicdata.eu/r/person/Philippe+BUSQUIN%3B+Margot+WALLSTR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Philippe+BUSQUIN%3B+Margot+WALLSTR> <http://www.w3.org/2000/01/rdf-schema#label> """Philippe BUSQUIN; Margot WALLSTR"""@en . 
+<http://prelex.publicdata.eu/r/person/Erkki+LIIKANEN%3B+Chris+PATTEN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Erkki+LIIKANEN%3B+Chris+PATTEN> <http://www.w3.org/2000/01/rdf-schema#label> """Erkki LIIKANEN; Chris PATTEN"""@en . 
+<http://prelex.publicdata.eu/r/person/Frits+BOLKESTEIN%3B+David+BYRNE%3B+E> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Frits+BOLKESTEIN%3B+David+BYRNE%3B+E> <http://www.w3.org/2000/01/rdf-schema#label> """Frits BOLKESTEIN; David BYRNE; E"""@en . 
+<http://prelex.publicdata.eu/r/person/Frits+BOLKESTEIN%3B+Mario+MONTI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Frits+BOLKESTEIN%3B+Mario+MONTI> <http://www.w3.org/2000/01/rdf-schema#label> """Frits BOLKESTEIN; Mario MONTI"""@en . 
+<http://prelex.publicdata.eu/r/person/Anna+DIAMANTOPOULOU%3B+Chris+PATTE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Anna+DIAMANTOPOULOU%3B+Chris+PATTE> <http://www.w3.org/2000/01/rdf-schema#label> """Anna DIAMANTOPOULOU; Chris PATTE"""@en . 
+<http://prelex.publicdata.eu/r/person/Andris+PIEBALGS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Andris+PIEBALGS> <http://www.w3.org/2000/01/rdf-schema#label> """Andris PIEBALGS"""@en . 
+<http://prelex.publicdata.eu/r/person/Loyola+DE+PALACIO%3B+Andris+PIEBAL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Loyola+DE+PALACIO%3B+Andris+PIEBAL> <http://www.w3.org/2000/01/rdf-schema#label> """Loyola DE PALACIO; Andris PIEBAL"""@en . 
+<http://prelex.publicdata.eu/r/person/Jos%C3%A9+Manuel+BARROSO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Jos%C3%A9+Manuel+BARROSO> <http://www.w3.org/2000/01/rdf-schema#label> """José Manuel BARROSO"""@en . 
+<http://prelex.publicdata.eu/r/person/Siim+KALLAS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Siim+KALLAS> <http://www.w3.org/2000/01/rdf-schema#label> """Siim KALLAS"""@en . 
+<http://prelex.publicdata.eu/r/person/Franco+FRATTINI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Franco+FRATTINI> <http://www.w3.org/2000/01/rdf-schema#label> """Franco FRATTINI"""@en . 
+<http://prelex.publicdata.eu/r/person/Pascal+LAMY%3B+Peter+MANDELSON> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Pascal+LAMY%3B+Peter+MANDELSON> <http://www.w3.org/2000/01/rdf-schema#label> """Pascal LAMY; Peter MANDELSON"""@en . 
+<http://prelex.publicdata.eu/r/person/L%C3%A1szl%C3%B3+KOV%C3%81CS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/L%C3%A1szl%C3%B3+KOV%C3%81CS> <http://www.w3.org/2000/01/rdf-schema#label> """László KOVÁCS"""@en . 
+<http://prelex.publicdata.eu/r/person/Dalia+GRYBAUSKAIT%C3%89> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Dalia+GRYBAUSKAIT%C3%89> <http://www.w3.org/2000/01/rdf-schema#label> """Dalia GRYBAUSKAITÉ"""@en . 
+<http://prelex.publicdata.eu/r/person/Mariann+FISCHER+BOEL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Mariann+FISCHER+BOEL> <http://www.w3.org/2000/01/rdf-schema#label> """Mariann FISCHER BOEL"""@en . 
+<http://prelex.publicdata.eu/r/person/Joe+BORG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Joe+BORG> <http://www.w3.org/2000/01/rdf-schema#label> """Joe BORG"""@en . 
+<http://prelex.publicdata.eu/r/person/Peter+MANDELSON> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Peter+MANDELSON> <http://www.w3.org/2000/01/rdf-schema#label> """Peter MANDELSON"""@en . 
+<http://prelex.publicdata.eu/r/person/Stavros+DIMAS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Stavros+DIMAS> <http://www.w3.org/2000/01/rdf-schema#label> """Stavros DIMAS"""@en . 
+<http://prelex.publicdata.eu/r/person/Charlie+McCREEVY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Charlie+McCREEVY> <http://www.w3.org/2000/01/rdf-schema#label> """Charlie McCREEVY"""@en . 
+<http://prelex.publicdata.eu/r/person/Louis+MICHEL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Louis+MICHEL> <http://www.w3.org/2000/01/rdf-schema#label> """Louis MICHEL"""@en . 
+<http://prelex.publicdata.eu/r/person/Joaquin+ALMUNIA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Joaquin+ALMUNIA> <http://www.w3.org/2000/01/rdf-schema#label> """Joaquin ALMUNIA"""@en . 
+<http://prelex.publicdata.eu/r/person/Vladimir+SPIDLA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Vladimir+SPIDLA> <http://www.w3.org/2000/01/rdf-schema#label> """Vladimir SPIDLA"""@en . 
+<http://prelex.publicdata.eu/r/person/Franco+FRATTINI%3B+Vladimir+SPIDLA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Franco+FRATTINI%3B+Vladimir+SPIDLA> <http://www.w3.org/2000/01/rdf-schema#label> """Franco FRATTINI; Vladimir SPIDLA"""@en . 
+<http://prelex.publicdata.eu/r/person/Janez+POTOCNIK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Janez+POTOCNIK> <http://www.w3.org/2000/01/rdf-schema#label> """Janez POTOCNIK"""@en . 
+<http://prelex.publicdata.eu/r/person/Markos+KYPRIANOU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Markos+KYPRIANOU> <http://www.w3.org/2000/01/rdf-schema#label> """Markos KYPRIANOU"""@en . 
+<http://prelex.publicdata.eu/r/person/Mario+MONTI%3B+Olli+REHN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Mario+MONTI%3B+Olli+REHN> <http://www.w3.org/2000/01/rdf-schema#label> """Mario MONTI; Olli REHN"""@en . 
+<http://prelex.publicdata.eu/r/person/MICHEL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/MICHEL> <http://www.w3.org/2000/01/rdf-schema#label> """MICHEL"""@en . 
+<http://prelex.publicdata.eu/r/person/Glenys+E.+KINNOCK%3B+Neil+KINNOCK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Glenys+E.+KINNOCK%3B+Neil+KINNOCK> <http://www.w3.org/2000/01/rdf-schema#label> """Glenys E. KINNOCK; Neil KINNOCK"""@en . 
+<http://prelex.publicdata.eu/r/person/Pascal+LAMY%3B+Romano+PRODI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Pascal+LAMY%3B+Romano+PRODI> <http://www.w3.org/2000/01/rdf-schema#label> """Pascal LAMY; Romano PRODI"""@en . 
+<http://prelex.publicdata.eu/r/person/Pascal+LAMY%3B+Olli+REHN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Pascal+LAMY%3B+Olli+REHN> <http://www.w3.org/2000/01/rdf-schema#label> """Pascal LAMY; Olli REHN"""@en . 
+<http://prelex.publicdata.eu/r/person/Frits+BOLKESTEIN%3B+David+BYRNE%3B+J> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Frits+BOLKESTEIN%3B+David+BYRNE%3B+J> <http://www.w3.org/2000/01/rdf-schema#label> """Frits BOLKESTEIN; David BYRNE; J"""@en . 
+<http://prelex.publicdata.eu/r/person/Poul+NIELSON%3B+Chris+PATTEN%3B+G%C3%BCnt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Poul+NIELSON%3B+Chris+PATTEN%3B+G%C3%BCnt> <http://www.w3.org/2000/01/rdf-schema#label> """Poul NIELSON; Chris PATTEN; Günt"""@en . 
+<http://prelex.publicdata.eu/r/person/Philippe+BUSQUIN%3B+Olli+REHN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Philippe+BUSQUIN%3B+Olli+REHN> <http://www.w3.org/2000/01/rdf-schema#label> """Philippe BUSQUIN; Olli REHN"""@en . 
+<http://prelex.publicdata.eu/r/person/Erkki+LIIKANEN%3B+Olli+REHN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Erkki+LIIKANEN%3B+Olli+REHN> <http://www.w3.org/2000/01/rdf-schema#label> """Erkki LIIKANEN; Olli REHN"""@en . 
+<http://prelex.publicdata.eu/r/person/Joaquin+ALMUNIA%3B+Philippe+BUSQUI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Joaquin+ALMUNIA%3B+Philippe+BUSQUI> <http://www.w3.org/2000/01/rdf-schema#label> """Joaquin ALMUNIA; Philippe BUSQUI"""@en . 
+<http://prelex.publicdata.eu/r/person/Janez+POTOCNIK%3B+G%C3%BCnter+VERHEUGEN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Janez+POTOCNIK%3B+G%C3%BCnter+VERHEUGEN> <http://www.w3.org/2000/01/rdf-schema#label> """Janez POTOCNIK; Günter VERHEUGEN"""@en . 
+<http://prelex.publicdata.eu/r/person/Stavros+DIMAS%3B+Antonio+VITORINO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Stavros+DIMAS%3B+Antonio+VITORINO> <http://www.w3.org/2000/01/rdf-schema#label> """Stavros DIMAS; Antonio VITORINO"""@en . 
+<http://prelex.publicdata.eu/r/person/Jacques+BARROT%3B+Stavros+DIMAS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Jacques+BARROT%3B+Stavros+DIMAS> <http://www.w3.org/2000/01/rdf-schema#label> """Jacques BARROT; Stavros DIMAS"""@en . 
+<http://prelex.publicdata.eu/r/person/Stavros+DIMAS%3B+Pascal+LAMY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Stavros+DIMAS%3B+Pascal+LAMY> <http://www.w3.org/2000/01/rdf-schema#label> """Stavros DIMAS; Pascal LAMY"""@en . 
+<http://prelex.publicdata.eu/r/person/Anna+DIAMANTOPOULOU%3B+Stavros+DIM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Anna+DIAMANTOPOULOU%3B+Stavros+DIM> <http://www.w3.org/2000/01/rdf-schema#label> """Anna DIAMANTOPOULOU; Stavros DIM"""@en . 
+<http://prelex.publicdata.eu/r/person/Philippe+BUSQUIN%3B+Antonio+VITORI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Philippe+BUSQUIN%3B+Antonio+VITORI> <http://www.w3.org/2000/01/rdf-schema#label> """Philippe BUSQUIN; Antonio VITORI"""@en . 
+<http://prelex.publicdata.eu/r/person/Neil+KINNOCK%3B+Romano+PRODI%3B+Mich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Neil+KINNOCK%3B+Romano+PRODI%3B+Mich> <http://www.w3.org/2000/01/rdf-schema#label> """Neil KINNOCK; Romano PRODI; Mich"""@en . 
+<http://prelex.publicdata.eu/r/person/Romano+PRODI%3B+Michaele+SCHREYER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Romano+PRODI%3B+Michaele+SCHREYER> <http://www.w3.org/2000/01/rdf-schema#label> """Romano PRODI; Michaele SCHREYER"""@en . 
+<http://prelex.publicdata.eu/r/person/Mariann+FISCHER+BOEL%3B+Janez+POTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Mariann+FISCHER+BOEL%3B+Janez+POTO> <http://www.w3.org/2000/01/rdf-schema#label> """Mariann FISCHER BOEL; Janez POTO"""@en . 
+<http://prelex.publicdata.eu/r/person/Danuta+H%C3%9CBNER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Danuta+H%C3%9CBNER> <http://www.w3.org/2000/01/rdf-schema#label> """Danuta HÜBNER"""@en . 
+<http://prelex.publicdata.eu/r/person/J%C3%A1n+FIGEL%27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/J%C3%A1n+FIGEL%27> <http://www.w3.org/2000/01/rdf-schema#label> """Ján FIGEL\'"""@en . 
+<http://prelex.publicdata.eu/r/person/Neelie+KROES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Neelie+KROES> <http://www.w3.org/2000/01/rdf-schema#label> """Neelie KROES"""@en . 
+<http://prelex.publicdata.eu/r/person/Benita+FERRERO-WALDNER%3B+Franco+F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Benita+FERRERO-WALDNER%3B+Franco+F> <http://www.w3.org/2000/01/rdf-schema#label> """Benita FERRERO-WALDNER; Franco F"""@en . 
+<http://prelex.publicdata.eu/r/person/Franco+FRATTINI%3B+Viviane+REDING> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Franco+FRATTINI%3B+Viviane+REDING> <http://www.w3.org/2000/01/rdf-schema#label> """Franco FRATTINI; Viviane REDING"""@en . 
+<http://prelex.publicdata.eu/r/person/Mariann+FISCHER+BOEL%3B+Olli+REHN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Mariann+FISCHER+BOEL%3B+Olli+REHN> <http://www.w3.org/2000/01/rdf-schema#label> """Mariann FISCHER BOEL; Olli REHN"""@en . 
+<http://prelex.publicdata.eu/r/person/Joaquin+ALMUNIA%3B+Franco+FRATTINI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Joaquin+ALMUNIA%3B+Franco+FRATTINI> <http://www.w3.org/2000/01/rdf-schema#label> """Joaquin ALMUNIA; Franco FRATTINI"""@en . 
+<http://prelex.publicdata.eu/r/person/Peter+MANDELSON%3B+Louis+MICHEL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Peter+MANDELSON%3B+Louis+MICHEL> <http://www.w3.org/2000/01/rdf-schema#label> """Peter MANDELSON; Louis MICHEL"""@en . 
+<http://prelex.publicdata.eu/r/person/Stavros+DIMAS%3B+G%C3%BCnter+VERHEUGEN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Stavros+DIMAS%3B+G%C3%BCnter+VERHEUGEN> <http://www.w3.org/2000/01/rdf-schema#label> """Stavros DIMAS; Günter VERHEUGEN"""@en . 
+<http://prelex.publicdata.eu/r/person/Joaquin+ALMUNIA%3B+Jacques+BARROT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Joaquin+ALMUNIA%3B+Jacques+BARROT> <http://www.w3.org/2000/01/rdf-schema#label> """Joaquin ALMUNIA; Jacques BARROT"""@en . 
+<http://prelex.publicdata.eu/r/person/Jos%C3%A9+Manuel+BARROSO%3B+Margot+WALL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Jos%C3%A9+Manuel+BARROSO%3B+Margot+WALL> <http://www.w3.org/2000/01/rdf-schema#label> """José Manuel BARROSO; Margot WALL"""@en . 
+<http://prelex.publicdata.eu/r/person/L%C3%A1szl%C3%B3+KOV%C3%81CS%3B+Janez+POTOCNIK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/L%C3%A1szl%C3%B3+KOV%C3%81CS%3B+Janez+POTOCNIK> <http://www.w3.org/2000/01/rdf-schema#label> """László KOVÁCS; Janez POTOCNIK"""@en . 
+<http://prelex.publicdata.eu/r/person/Danuta+H%C3%9CBNER%3B+Vladimir+SPIDLA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Danuta+H%C3%9CBNER%3B+Vladimir+SPIDLA> <http://www.w3.org/2000/01/rdf-schema#label> """Danuta HÜBNER; Vladimir SPIDLA"""@en . 
+<http://prelex.publicdata.eu/r/person/Jos%C3%A9+Manuel+BARROSO%3B+G%C3%BCnter+VERH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Jos%C3%A9+Manuel+BARROSO%3B+G%C3%BCnter+VERH> <http://www.w3.org/2000/01/rdf-schema#label> """José Manuel BARROSO; Günter VERH"""@en . 
+<http://prelex.publicdata.eu/r/person/Benita+FERRERO-WALDNER%3B+Peter+MA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Benita+FERRERO-WALDNER%3B+Peter+MA> <http://www.w3.org/2000/01/rdf-schema#label> """Benita FERRERO-WALDNER; Peter MA"""@en . 
+<http://prelex.publicdata.eu/r/person/Joaquin+ALMUNIA%3B+Vladimir+SPIDLA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Joaquin+ALMUNIA%3B+Vladimir+SPIDLA> <http://www.w3.org/2000/01/rdf-schema#label> """Joaquin ALMUNIA; Vladimir SPIDLA"""@en . 
+<http://prelex.publicdata.eu/r/person/Jos%C3%A9+Manuel+BARROSO%3B+Siim+KALLAS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Jos%C3%A9+Manuel+BARROSO%3B+Siim+KALLAS> <http://www.w3.org/2000/01/rdf-schema#label> """José Manuel BARROSO; Siim KALLAS"""@en . 
+<http://prelex.publicdata.eu/r/person/Jos%C3%A9+Manuel+BARROSO%3B+Vladimir+SP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Jos%C3%A9+Manuel+BARROSO%3B+Vladimir+SP> <http://www.w3.org/2000/01/rdf-schema#label> """José Manuel BARROSO; Vladimir SP"""@en . 
+<http://prelex.publicdata.eu/r/person/Leonard+ORBAN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Leonard+ORBAN> <http://www.w3.org/2000/01/rdf-schema#label> """Leonard ORBAN"""@en . 
+<http://prelex.publicdata.eu/r/person/Meglena+KUNEVA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Meglena+KUNEVA> <http://www.w3.org/2000/01/rdf-schema#label> """Meglena KUNEVA"""@en . 
+<http://prelex.publicdata.eu/r/person/Janez+POTOCNIK%3B+Viviane+REDING> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Janez+POTOCNIK%3B+Viviane+REDING> <http://www.w3.org/2000/01/rdf-schema#label> """Janez POTOCNIK; Viviane REDING"""@en . 
+<http://prelex.publicdata.eu/r/person/Catherine+Margaret+ASHTON> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Catherine+Margaret+ASHTON> <http://www.w3.org/2000/01/rdf-schema#label> """Catherine Margaret ASHTON"""@en . 
+<http://prelex.publicdata.eu/r/person/Antonio+TAJANI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Antonio+TAJANI> <http://www.w3.org/2000/01/rdf-schema#label> """Antonio TAJANI"""@en . 
+<http://prelex.publicdata.eu/r/person/Catherine+ASHTON> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Catherine+ASHTON> <http://www.w3.org/2000/01/rdf-schema#label> """Catherine ASHTON"""@en . 
+<http://prelex.publicdata.eu/r/person/Androula+VASSILIOU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Androula+VASSILIOU> <http://www.w3.org/2000/01/rdf-schema#label> """Androula VASSILIOU"""@en . 
+<http://prelex.publicdata.eu/r/person/Maro%C5%A1+%C5%A0EF%C4%8COVI%C4%8C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Maro%C5%A1+%C5%A0EF%C4%8COVI%C4%8C> <http://www.w3.org/2000/01/rdf-schema#label> """Maroš ŠEFČOVIČ"""@en . 
+<http://prelex.publicdata.eu/r/person/Karel+de+GUCHT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Karel+de+GUCHT> <http://www.w3.org/2000/01/rdf-schema#label> """Karel de GUCHT"""@en . 
+<http://prelex.publicdata.eu/r/person/Algirdas+Gediminas+%C5%A0EMETA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Algirdas+Gediminas+%C5%A0EMETA> <http://www.w3.org/2000/01/rdf-schema#label> """Algirdas Gediminas ŠEMETA"""@en . 
+<http://prelex.publicdata.eu/r/person/Pawel+SAMECKI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Pawel+SAMECKI> <http://www.w3.org/2000/01/rdf-schema#label> """Pawel SAMECKI"""@en . 
+<http://prelex.publicdata.eu/r/person/JANUSZ+LEWANDOWSKI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/JANUSZ+LEWANDOWSKI> <http://www.w3.org/2000/01/rdf-schema#label> """JANUSZ LEWANDOWSKI"""@en . 
+<http://prelex.publicdata.eu/r/person/G%C3%BCnther+OETTINGER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/G%C3%BCnther+OETTINGER> <http://www.w3.org/2000/01/rdf-schema#label> """Günther OETTINGER"""@en . 
+<http://prelex.publicdata.eu/r/person/MARIA+DAMANAKI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/MARIA+DAMANAKI> <http://www.w3.org/2000/01/rdf-schema#label> """MARIA DAMANAKI"""@en . 
+<http://prelex.publicdata.eu/r/person/L%C3%A1szl%C3%B3+ANDOR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/L%C3%A1szl%C3%B3+ANDOR> <http://www.w3.org/2000/01/rdf-schema#label> """László ANDOR"""@en . 
+<http://prelex.publicdata.eu/r/person/Dacian+CIOLO%C5%9E> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Dacian+CIOLO%C5%9E> <http://www.w3.org/2000/01/rdf-schema#label> """Dacian CIOLOŞ"""@en . 
+<http://prelex.publicdata.eu/r/person/CONNIE+HEDEGAARD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/CONNIE+HEDEGAARD> <http://www.w3.org/2000/01/rdf-schema#label> """CONNIE HEDEGAARD"""@en . 
+<http://prelex.publicdata.eu/r/person/%C5%A0tefan+F%C3%9CLE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/%C5%A0tefan+F%C3%9CLE> <http://www.w3.org/2000/01/rdf-schema#label> """Štefan FÜLE"""@en . 
+<http://prelex.publicdata.eu/r/person/JOHN+DALLI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/JOHN+DALLI> <http://www.w3.org/2000/01/rdf-schema#label> """JOHN DALLI"""@en . 
+<http://prelex.publicdata.eu/r/person/Cecilia+MALMSTR%C3%96M> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Cecilia+MALMSTR%C3%96M> <http://www.w3.org/2000/01/rdf-schema#label> """Cecilia MALMSTRÖM"""@en . 
+<http://prelex.publicdata.eu/r/person/KRISTALINA+GEORGIEVA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/KRISTALINA+GEORGIEVA> <http://www.w3.org/2000/01/rdf-schema#label> """KRISTALINA GEORGIEVA"""@en . 
+<http://prelex.publicdata.eu/r/person/Johannes+HAHN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Johannes+HAHN> <http://www.w3.org/2000/01/rdf-schema#label> """Johannes HAHN"""@en . 
+<http://prelex.publicdata.eu/r/person/M%C3%81IRE+GEOGHEGAN-QUINN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/M%C3%81IRE+GEOGHEGAN-QUINN> <http://www.w3.org/2000/01/rdf-schema#label> """MÁIRE GEOGHEGAN-QUINN"""@en . 
+<http://prelex.publicdata.eu/r/person/Jos%C3%A9+Manuel+BARROSO%3B+Maro%C5%A1+%C5%A0EF%C4%8CO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Jos%C3%A9+Manuel+BARROSO%3B+Maro%C5%A1+%C5%A0EF%C4%8CO> <http://www.w3.org/2000/01/rdf-schema#label> """José Manuel BARROSO; Maroš ŠEFČO"""@en . 
+<http://prelex.publicdata.eu/r/person/L%C3%A1szl%C3%B3+ANDOR%3B+JANUSZ+LEWANDOWSKI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/L%C3%A1szl%C3%B3+ANDOR%3B+JANUSZ+LEWANDOWSKI> <http://www.w3.org/2000/01/rdf-schema#label> """László ANDOR; JANUSZ LEWANDOWSKI"""@en . 
+<http://prelex.publicdata.eu/r/person/Jos%C3%A9+Manuel+BARROSO%3B+Olli+REHN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/Jos%C3%A9+Manuel+BARROSO%3B+Olli+REHN> <http://www.w3.org/2000/01/rdf-schema#label> """José Manuel BARROSO; Olli REHN"""@en . 
+<http://prelex.publicdata.eu/r/person/L%C3%A1szl%C3%B3+ANDOR%3B+Jos%C3%A9+Manuel+BARROS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Person> . 
+<http://prelex.publicdata.eu/r/person/L%C3%A1szl%C3%B3+ANDOR%3B+Jos%C3%A9+Manuel+BARROS> <http://www.w3.org/2000/01/rdf-schema#label> """László ANDOR; José Manuel BARROS"""@en . 

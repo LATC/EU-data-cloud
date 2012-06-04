@@ -7,8 +7,10 @@
 @base :<http://n-lex.publicdata.eu/ontology/>
 
 <http://n-lex.publicdata.eu/ontology/> a owl:Ontology ;
-    rdfs:label "N-LEX Germany" .
+    rdfs:label "N-Lex Ontology" .
     
+<http://n-lex.publicdata.eu/> rdfs:label "N-Lex Germany" .
+
 metalex:BibliographicWork a owl:Class ;
     rdfs:label "Bibliographic Work";
     rdfs:comment " bibliographic object, realized by one or more expressions, and created by one or more persons in a single creative process ending in a BibliographicWorkCreation event. A work has an author or authors, and is the result of a BibliographicWorkCreation event. We recognize the work through individual expressions of the work, but the work itself exists only in the commonality of content between and among the various expressions of the work." .

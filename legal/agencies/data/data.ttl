@@ -1,0 +1,616 @@
+<http://agencies.publicdata.eu/r/ACER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/ACER> <http://purl.org/dc/terms/title> """Agency for the Cooperation of Energy Regulators (ACER)"""@en .
+<http://agencies.publicdata.eu/r/ACER> <http://www.w3.org/2000/01/rdf-schema#label> """Agency for the Cooperation of Energy Regulators"""@en .
+<http://agencies.publicdata.eu/r/ACER> <http://agencies.publicdata.eu/ontology/token> """ACER""" .
+<http://agencies.publicdata.eu/r/ACER> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/policy_agencies/acer/index_en.htm> .
+<http://agencies.publicdata.eu/r/ACER> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.acer.europa.eu/portal/page/portal/ACER_HOME> .
+<http://agencies.publicdata.eu/r/ACER> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2011:326:0001:01:EN:HTML> .
+<http://agencies.publicdata.eu/r/ACER> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Slovenija> .
+<http://agencies.publicdata.eu/r/ACER> <http://agencies.publicdata.eu/ontology/zip> """1000""" .
+<http://agencies.publicdata.eu/r/ACER> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/Ljubljana> .
+<http://agencies.publicdata.eu/r/ACER> <http://agencies.publicdata.eu/ontology/phone> <tel:+386(0)82053400> .
+<http://agencies.publicdata.eu/r/ACER> <http://agencies.publicdata.eu/ontology/fax> <tel:+386(0)82053413> .
+<http://agencies.publicdata.eu/r/ACER> <http://xmlns.com/foaf/0.1/mbox> <mailto:info@acer.europa.eu> .
+<http://agencies.publicdata.eu/r/BEREC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/BEREC> <http://purl.org/dc/terms/title> """Body of European Regulators for Electronic Communications (BEREC)"""@en .
+<http://agencies.publicdata.eu/r/BEREC> <http://www.w3.org/2000/01/rdf-schema#label> """Body of European Regulators for Electronic Communications"""@en .
+<http://agencies.publicdata.eu/r/BEREC> <http://agencies.publicdata.eu/ontology/token> """BEREC""" .
+<http://agencies.publicdata.eu/r/BEREC> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/policy_agencies/berec/index_en.htm> .
+<http://agencies.publicdata.eu/r/BEREC> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://berec.europa.eu/> .
+<http://agencies.publicdata.eu/r/BEREC> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2009:337:0001:0010:EN:PDF> .
+<http://agencies.publicdata.eu/r/BEREC> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Latvija> .
+<http://agencies.publicdata.eu/r/BEREC> <http://agencies.publicdata.eu/ontology/zip> """LV-1050""" .
+<http://agencies.publicdata.eu/r/BEREC> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/Riga> .
+<http://agencies.publicdata.eu/r/BEREC> <http://agencies.publicdata.eu/ontology/phone> <tel:+37166117590> .
+<http://agencies.publicdata.eu/r/BEREC> <http://xmlns.com/foaf/0.1/mbox> <mailto:berec@berec.europa.eu> .
+<http://agencies.publicdata.eu/r/CPVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/CPVO> <http://purl.org/dc/terms/title> """Gemenskapens växtsortsmyndighet (CPVO)"""@sv .
+<http://agencies.publicdata.eu/r/CPVO> <http://www.w3.org/2000/01/rdf-schema#label> """Gemenskapens växtsortsmyndighet"""@sv .
+<http://agencies.publicdata.eu/r/CPVO> <http://agencies.publicdata.eu/ontology/token> """CPVO""" .
+<http://agencies.publicdata.eu/r/CPVO> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/policy_agencies/cpvo/index_en.htm> .
+<http://agencies.publicdata.eu/r/CPVO> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.cpvo.europa.eu/main/en> .
+<http://agencies.publicdata.eu/r/CPVO> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31994R2100:EN:HTML> .
+<http://agencies.publicdata.eu/r/CPVO> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/France> .
+<http://agencies.publicdata.eu/r/CPVO> <http://agencies.publicdata.eu/ontology/zip> """FR 49000""" .
+<http://agencies.publicdata.eu/r/CPVO> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/Angers> .
+<http://agencies.publicdata.eu/r/CPVO> <http://agencies.publicdata.eu/ontology/phone> <tel:+33(0)241256400> .
+<http://agencies.publicdata.eu/r/CPVO> <http://agencies.publicdata.eu/ontology/fax> <tel:+33(0)241256410> .
+<http://agencies.publicdata.eu/r/CPVO> <http://xmlns.com/foaf/0.1/mbox> <mailto:cpvo@cpvo.europa.eu> .
+<http://agencies.publicdata.eu/r/EU-OSHA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/EU-OSHA> <http://purl.org/dc/terms/title> """European Agency for Safety and Health at Work (EU-OSHA)"""@en .
+<http://agencies.publicdata.eu/r/EU-OSHA> <http://www.w3.org/2000/01/rdf-schema#label> """European Agency for Safety and Health at Work"""@en .
+<http://agencies.publicdata.eu/r/EU-OSHA> <http://agencies.publicdata.eu/ontology/token> """EU-OSHA""" .
+<http://agencies.publicdata.eu/r/EU-OSHA> <http://xmlns.com/foaf/0.1/homepage> <http://osha.europa.eu/en/about/jobs> .
+<http://agencies.publicdata.eu/r/EU-OSHA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://osha.europa.eu/en/publications> .
+<http://agencies.publicdata.eu/r/EU-OSHA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://osha.europa.eu/en/legislation> .
+<http://agencies.publicdata.eu/r/EU-OSHA> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Espa%C3%B1a> .
+<http://agencies.publicdata.eu/r/EU-OSHA> <http://agencies.publicdata.eu/ontology/zip> """ES-48009""" .
+<http://agencies.publicdata.eu/r/EU-OSHA> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/Bilbao> .
+<http://agencies.publicdata.eu/r/EU-OSHA> <http://agencies.publicdata.eu/ontology/phone> <tel:+34-94-4794360> .
+<http://agencies.publicdata.eu/r/EU-OSHA> <http://agencies.publicdata.eu/ontology/fax> <tel:+34-94-4794383> .
+<http://agencies.publicdata.eu/r/EU-OSHA> <http://xmlns.com/foaf/0.1/mbox> <mailto:information@osha.europa.eu> .
+<http://agencies.publicdata.eu/r/FRONTEX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/FRONTEX> <http://purl.org/dc/terms/title> """Europeiska byrån för förvaltningen av det operativa samarbetet vid Europeiska unionens yttre gränser (FRONTEX)"""@sv .
+<http://agencies.publicdata.eu/r/FRONTEX> <http://www.w3.org/2000/01/rdf-schema#label> """Europeiska byrån för förvaltningen av det operativa samarbetet vid Europeiska unionens yttre gränser"""@sv .
+<http://agencies.publicdata.eu/r/FRONTEX> <http://agencies.publicdata.eu/ontology/token> """FRONTEX""" .
+<http://agencies.publicdata.eu/r/FRONTEX> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/policy_agencies/frontex/index_en.htm> .
+<http://agencies.publicdata.eu/r/FRONTEX> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.frontex.europa.eu/> .
+<http://agencies.publicdata.eu/r/FRONTEX> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://eur-lex.europa.eu/Notice.do?val=391764:cs&lang=en&list=391764:cs,&pos=1&page=1&nbl=1&pgs=10&hwords=European%20Agency%20for%20the%20Management%20of%20Operational%20Cooperation%20at%20the%20External%20Borders~> .
+<http://agencies.publicdata.eu/r/FRONTEX> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.europol.europa.eu/> .
+<http://agencies.publicdata.eu/r/FRONTEX> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.cepol.europa.eu/> .
+<http://agencies.publicdata.eu/r/FRONTEX> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/anti_fraud/index_en.html> .
+<http://agencies.publicdata.eu/r/FRONTEX> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Poland> .
+<http://agencies.publicdata.eu/r/FRONTEX> <http://agencies.publicdata.eu/ontology/zip> """PL-00124""" .
+<http://agencies.publicdata.eu/r/FRONTEX> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/Warsaw> .
+<http://agencies.publicdata.eu/r/FRONTEX> <http://agencies.publicdata.eu/ontology/phone> <tel:+48225449500> .
+<http://agencies.publicdata.eu/r/FRONTEX> <http://agencies.publicdata.eu/ontology/fax> <tel:+48225449501> .
+<http://agencies.publicdata.eu/r/FRONTEX> <http://xmlns.com/foaf/0.1/mbox> <mailto:frontex@frontex.europa.eu> .
+<http://agencies.publicdata.eu/r/EASO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/EASO> <http://purl.org/dc/terms/title> """European Asylum Support Office (at planning stage) (EASO)"""@en .
+<http://agencies.publicdata.eu/r/EASO> <http://www.w3.org/2000/01/rdf-schema#label> """European Asylum Support Office (at planning stage)"""@en .
+<http://agencies.publicdata.eu/r/EASO> <http://agencies.publicdata.eu/ontology/token> """EASO""" .
+<http://agencies.publicdata.eu/r/EASO> <http://xmlns.com/foaf/0.1/homepage> <http://ec.europa.eu/home-affairs/policies/asylum/asylum_easo_en.htm> .
+<http://agencies.publicdata.eu/r/EASA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/EASA> <http://purl.org/dc/terms/title> """Europeiska byrån för luftfartssäkerhet (EASA)"""@sv .
+<http://agencies.publicdata.eu/r/EASA> <http://www.w3.org/2000/01/rdf-schema#label> """Europeiska byrån för luftfartssäkerhet"""@sv .
+<http://agencies.publicdata.eu/r/EASA> <http://agencies.publicdata.eu/ontology/token> """EASA""" .
+<http://agencies.publicdata.eu/r/EASA> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/policy_agencies/easa/index_en.htm> .
+<http://agencies.publicdata.eu/r/EASA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://easa.europa.eu/home.php> .
+<http://agencies.publicdata.eu/r/EASA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2002:240:0001:0021:EN:PDF> .
+<http://agencies.publicdata.eu/r/EASA> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Germany> .
+<http://agencies.publicdata.eu/r/EASA> <http://agencies.publicdata.eu/ontology/zip> """DE-50679""" .
+<http://agencies.publicdata.eu/r/EASA> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/K%C3%B6ln> .
+<http://agencies.publicdata.eu/r/EASA> <http://agencies.publicdata.eu/ontology/phone> <tel:+49(221)89990000> .
+<http://agencies.publicdata.eu/r/EASA> <http://agencies.publicdata.eu/ontology/fax> <tel:+49(221)89990999> .
+<http://agencies.publicdata.eu/r/EASA> <http://xmlns.com/foaf/0.1/mbox> <mailto:info@easa.europa.eu> .
+<http://agencies.publicdata.eu/r/ECDC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/ECDC> <http://purl.org/dc/terms/title> """Europeiskt centrum för förebyggande och kontroll av sjukdomar (ECDC)"""@sv .
+<http://agencies.publicdata.eu/r/ECDC> <http://www.w3.org/2000/01/rdf-schema#label> """Europeiskt centrum för förebyggande och kontroll av sjukdomar"""@sv .
+<http://agencies.publicdata.eu/r/ECDC> <http://agencies.publicdata.eu/ontology/token> """ECDC""" .
+<http://agencies.publicdata.eu/r/ECDC> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/policy_agencies/ecdc/index_en.htm> .
+<http://agencies.publicdata.eu/r/ECDC> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.ecdc.europa.eu/en/Pages/home.aspx> .
+<http://agencies.publicdata.eu/r/ECDC> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://eur-lex.europa.eu/Notice.do?val=387317:cs&lang=en&list=387317:cs,&pos=1&page=1&nbl=1&pgs=10&hwords=European%20Centre%20for%20Disease%20Prevention%20and%20Control~&checktexte=checkbox&visu=> .
+<http://agencies.publicdata.eu/r/ECDC> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Sweden> .
+<http://agencies.publicdata.eu/r/ECDC> <http://agencies.publicdata.eu/ontology/phone> <tel:+46(0)858601000> .
+<http://agencies.publicdata.eu/r/ECDC> <http://agencies.publicdata.eu/ontology/fax> <tel:+46(0)858601001> .
+<http://agencies.publicdata.eu/r/ECDC> <http://xmlns.com/foaf/0.1/mbox> <mailto:info@ecdc.europa.eu> .
+<http://agencies.publicdata.eu/r/Cedefop> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/Cedefop> <http://purl.org/dc/terms/title> """Europeiskt centrum för utveckling av yrkesutbildning (Cedefop)"""@sv .
+<http://agencies.publicdata.eu/r/Cedefop> <http://www.w3.org/2000/01/rdf-schema#label> """Europeiskt centrum för utveckling av yrkesutbildning"""@sv .
+<http://agencies.publicdata.eu/r/Cedefop> <http://agencies.publicdata.eu/ontology/token> """Cedefop""" .
+<http://agencies.publicdata.eu/r/Cedefop> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/policy_agencies/cedefop/index_en.htm> .
+<http://agencies.publicdata.eu/r/Cedefop> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.cedefop.europa.eu/> .
+<http://agencies.publicdata.eu/r/Cedefop> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.cedefop.europa.eu> .
+<http://agencies.publicdata.eu/r/Cedefop> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Greece> .
+<http://agencies.publicdata.eu/r/Cedefop> <http://agencies.publicdata.eu/ontology/zip> """GR-55102""" .
+<http://agencies.publicdata.eu/r/Cedefop> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/%CE%98%CE%B5%CF%83%CF%83%CE%B1%CE%BB%CE%BF%CE%BD%CE%AF%CE%BA%CE%B7> .
+<http://agencies.publicdata.eu/r/Cedefop> <http://agencies.publicdata.eu/ontology/phone> <tel:+302310490111> .
+<http://agencies.publicdata.eu/r/Cedefop> <http://agencies.publicdata.eu/ontology/fax> <tel:+302310490049> .
+<http://agencies.publicdata.eu/r/Cedefop> <http://xmlns.com/foaf/0.1/mbox> <mailto:info@cedefop.europa.eu> .
+<http://agencies.publicdata.eu/r/ECHA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/ECHA> <http://purl.org/dc/terms/title> """Europeiska kemikaliemyndigheten (ECHA)"""@sv .
+<http://agencies.publicdata.eu/r/ECHA> <http://www.w3.org/2000/01/rdf-schema#label> """Europeiska kemikaliemyndigheten"""@sv .
+<http://agencies.publicdata.eu/r/ECHA> <http://agencies.publicdata.eu/ontology/token> """ECHA""" .
+<http://agencies.publicdata.eu/r/ECHA> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/policy_agencies/echa/index_en.htm> .
+<http://agencies.publicdata.eu/r/ECHA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://echa.europa.eu/home_en.asp> .
+<http://agencies.publicdata.eu/r/ECHA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://echa.europa.eu/about/contact_en.asp> .
+<http://agencies.publicdata.eu/r/ECHA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://echa.europa.eu/legislation_en.asp> .
+<http://agencies.publicdata.eu/r/ECHA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://echa.europa.eu/chem_data/authorisation_process/candidate_list_table_en.asp> .
+<http://agencies.publicdata.eu/r/ECHA> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Finland> .
+<http://agencies.publicdata.eu/r/ECHA> <http://agencies.publicdata.eu/ontology/zip> """FI-00120""" .
+<http://agencies.publicdata.eu/r/ECHA> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/Helsinki> .
+<http://agencies.publicdata.eu/r/ECHA> <http://agencies.publicdata.eu/ontology/phone> <tel:+358-9-686180> .
+<http://agencies.publicdata.eu/r/ECHA> <http://agencies.publicdata.eu/ontology/fax> <tel:+358-9-68618210> .
+<http://agencies.publicdata.eu/r/ECHA> <http://xmlns.com/foaf/0.1/mbox> <http://echa.europa.eu/about/contact_en.asp> .
+<http://agencies.publicdata.eu/r/EEA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/EEA> <http://purl.org/dc/terms/title> """Europeiska miljöbyrån (EEA)"""@sv .
+<http://agencies.publicdata.eu/r/EEA> <http://www.w3.org/2000/01/rdf-schema#label> """Europeiska miljöbyrån"""@sv .
+<http://agencies.publicdata.eu/r/EEA> <http://agencies.publicdata.eu/ontology/token> """EEA""" .
+<http://agencies.publicdata.eu/r/EEA> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/policy_agencies/eea/index_en.htm> .
+<http://agencies.publicdata.eu/r/EEA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.eea.europa.eu/> .
+<http://agencies.publicdata.eu/r/EEA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.eea.europa.eu/help/infocentre/enquiries/portal_factory/Enquiry/enquiry.2011-07-12.3036973486/edit> .
+<http://agencies.publicdata.eu/r/EEA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.eionet.europa.eu/> .
+<http://agencies.publicdata.eu/r/EEA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://epp.eurostat.ec.europa.eu/portal/page/portal/lang-en/eurostat/home/> .
+<http://agencies.publicdata.eu/r/EEA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/dgs/jrc/index.cfm> .
+<http://agencies.publicdata.eu/r/EEA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.oecd.org/home/0,2987,en_2649_201185_1_1_1_1_1,00.html> .
+<http://agencies.publicdata.eu/r/EEA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.unep.org/> .
+<http://agencies.publicdata.eu/r/EEA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.fao.org/> .
+<http://agencies.publicdata.eu/r/EEA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.who.int/en/> .
+<http://agencies.publicdata.eu/r/EEA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32009R0401:EN:NOT> .
+<http://agencies.publicdata.eu/r/EEA> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Denmark> .
+<http://agencies.publicdata.eu/r/EEA> <http://agencies.publicdata.eu/ontology/zip> """DK-1050 København""" .
+<http://agencies.publicdata.eu/r/EEA> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/K> .
+<http://agencies.publicdata.eu/r/EEA> <http://agencies.publicdata.eu/ontology/phone> <tel:+45-33367100> .
+<http://agencies.publicdata.eu/r/EEA> <http://agencies.publicdata.eu/ontology/fax> <tel:+45-33367199> .
+<http://agencies.publicdata.eu/r/EEA> <http://xmlns.com/foaf/0.1/mbox> <http://www.eea.europa.eu/help/infocentre/enquiries/portal_factory/enquiry/enquiry.2011-07-12.3036973486/edit> .
+<http://agencies.publicdata.eu/r/EFCA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/EFCA> <http://purl.org/dc/terms/title> """Europeiska fiskerikontrollbyrån (EFCA)"""@sv .
+<http://agencies.publicdata.eu/r/EFCA> <http://www.w3.org/2000/01/rdf-schema#label> """Europeiska fiskerikontrollbyrån"""@sv .
+<http://agencies.publicdata.eu/r/EFCA> <http://agencies.publicdata.eu/ontology/token> """EFCA""" .
+<http://agencies.publicdata.eu/r/EFCA> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/policy_agencies/efca/index_en.htm> .
+<http://agencies.publicdata.eu/r/EFCA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.cfca.europa.eu/> .
+<http://agencies.publicdata.eu/r/EFCA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32005R0768:EN:HTML> .
+<http://agencies.publicdata.eu/r/EFCA> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Spain> .
+<http://agencies.publicdata.eu/r/EFCA> <http://agencies.publicdata.eu/ontology/zip> """ES–36200""" .
+<http://agencies.publicdata.eu/r/EFCA> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/Vigo> .
+<http://agencies.publicdata.eu/r/EFCA> <http://agencies.publicdata.eu/ontology/phone> <tel:+34986120610> .
+<http://agencies.publicdata.eu/r/EFCA> <http://agencies.publicdata.eu/ontology/fax> <tel:+34886125234> .
+<http://agencies.publicdata.eu/r/EFCA> <http://xmlns.com/foaf/0.1/mbox> <mailto:cfca@cfca.europa.eu> .
+<http://agencies.publicdata.eu/r/EFSA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/EFSA> <http://purl.org/dc/terms/title> """Europeiska myndigheten för livsmedelssäkerhet (EFSA)"""@sv .
+<http://agencies.publicdata.eu/r/EFSA> <http://www.w3.org/2000/01/rdf-schema#label> """Europeiska myndigheten för livsmedelssäkerhet"""@sv .
+<http://agencies.publicdata.eu/r/EFSA> <http://agencies.publicdata.eu/ontology/token> """EFSA""" .
+<http://agencies.publicdata.eu/r/EFSA> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/policy_agencies/efsa/index_en.htm> .
+<http://agencies.publicdata.eu/r/EFSA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.efsa.europa.eu/> .
+<http://agencies.publicdata.eu/r/EFSA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.efsa.europa.eu/en/aboutefsa/contact.htm> .
+<http://agencies.publicdata.eu/r/EFSA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://eur-lex.europa.eu/Notice.do?val=272505:cs&lang=en&list=424876:cs,392779:cs,286332:cs,285702:cs,272505:cs,&pos=5&page=1&nbl=5&pgs=10&hwords=European%20Food%20Safety%20Authority~&checktexte=checkbox&visu=> .
+<http://agencies.publicdata.eu/r/EFSA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.efsa.europa.eu/en/efsawho/mb.htm> .
+<http://agencies.publicdata.eu/r/EFSA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.efsa.europa.eu/en/efsawho/ed.htm> .
+<http://agencies.publicdata.eu/r/EFSA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.efsa.europa.eu/en/panels.htm> .
+<http://agencies.publicdata.eu/r/EFSA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.efsa.europa.eu/en/networks/af.htm> .
+<http://agencies.publicdata.eu/r/EFSA> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Italy> .
+<http://agencies.publicdata.eu/r/EFSA> <http://agencies.publicdata.eu/ontology/zip> """IT-43126""" .
+<http://agencies.publicdata.eu/r/EFSA> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/Parma> .
+<http://agencies.publicdata.eu/r/EFSA> <http://agencies.publicdata.eu/ontology/phone> <tel:+390521036111> .
+<http://agencies.publicdata.eu/r/EFSA> <http://agencies.publicdata.eu/ontology/fax> <tel:+390521036110> .
+<http://agencies.publicdata.eu/r/EFSA> <http://xmlns.com/foaf/0.1/mbox> <http://www.efsa.europa.eu/en/aboutefsa/contact.htm> .
+<http://agencies.publicdata.eu/r/EUROFOUND> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/EUROFOUND> <http://purl.org/dc/terms/title> """Europeiska fonden för förbättring av levnadsoch arbetsvillkor (EUROFOUND)"""@sv .
+<http://agencies.publicdata.eu/r/EUROFOUND> <http://www.w3.org/2000/01/rdf-schema#label> """Europeiska fonden för förbättring av levnadsoch arbetsvillkor"""@sv .
+<http://agencies.publicdata.eu/r/EUROFOUND> <http://agencies.publicdata.eu/ontology/token> """EUROFOUND""" .
+<http://agencies.publicdata.eu/r/EUROFOUND> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/policy_agencies/eurofound/index_en.htm> .
+<http://agencies.publicdata.eu/r/EUROFOUND> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.eurofound.europa.eu/> .
+<http://agencies.publicdata.eu/r/EUROFOUND> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.eurofound.europa.eu/emcc/> .
+<http://agencies.publicdata.eu/r/EUROFOUND> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.eurofound.europa.eu> .
+<http://agencies.publicdata.eu/r/EUROFOUND> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Ireland> .
+<http://agencies.publicdata.eu/r/EUROFOUND> <http://agencies.publicdata.eu/ontology/zip> """18""" .
+<http://agencies.publicdata.eu/r/EUROFOUND> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/IRL-Dublin> .
+<http://agencies.publicdata.eu/r/EUROFOUND> <http://agencies.publicdata.eu/ontology/phone> <tel:+353-1-2043100> .
+<http://agencies.publicdata.eu/r/EUROFOUND> <http://agencies.publicdata.eu/ontology/fax> <tel:+353-1-2826456> .
+<http://agencies.publicdata.eu/r/EUROFOUND> <http://xmlns.com/foaf/0.1/mbox> <mailto:postmaster@eurofound.europa.eu> .
+<http://agencies.publicdata.eu/r/GSA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/GSA> <http://purl.org/dc/terms/title> """Europeiska tillsynsmyndigheten för GNSS (GSA)"""@sv .
+<http://agencies.publicdata.eu/r/GSA> <http://www.w3.org/2000/01/rdf-schema#label> """Europeiska tillsynsmyndigheten för GNSS"""@sv .
+<http://agencies.publicdata.eu/r/GSA> <http://agencies.publicdata.eu/ontology/token> """GSA""" .
+<http://agencies.publicdata.eu/r/GSA> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/policy_agencies/egsa/index_en.htm> .
+<http://agencies.publicdata.eu/r/GSA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.gsa.europa.eu/> .
+<http://agencies.publicdata.eu/r/GSA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/enterprise/policies/satnav/galileo/index_en.htm> .
+<http://agencies.publicdata.eu/r/GSA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.esa.int/esaNA/GGG63950NDC_egnos_0.html> .
+<http://agencies.publicdata.eu/r/GSA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/enterprise/policies/space/research/fp7/index_en.htm> .
+<http://agencies.publicdata.eu/r/GSA> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Belgium> .
+<http://agencies.publicdata.eu/r/GSA> <http://agencies.publicdata.eu/ontology/zip> """BE-1049""" .
+<http://agencies.publicdata.eu/r/GSA> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/Bruxelles%2FBrussel> .
+<http://agencies.publicdata.eu/r/GSA> <http://agencies.publicdata.eu/ontology/phone> <tel:+3222971616> .
+<http://agencies.publicdata.eu/r/GSA> <http://agencies.publicdata.eu/ontology/fax> <tel:+3222967238> .
+<http://agencies.publicdata.eu/r/GSA> <http://xmlns.com/foaf/0.1/mbox> <mailto:info@gsa.europa.eu> .
+<http://agencies.publicdata.eu/r/EIGE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/EIGE> <http://purl.org/dc/terms/title> """European Institute for Gender Equality (EIGE)"""@en .
+<http://agencies.publicdata.eu/r/EIGE> <http://www.w3.org/2000/01/rdf-schema#label> """European Institute for Gender Equality"""@en .
+<http://agencies.publicdata.eu/r/EIGE> <http://agencies.publicdata.eu/ontology/token> """EIGE""" .
+<http://agencies.publicdata.eu/r/EIGE> <http://xmlns.com/foaf/0.1/homepage> <http://www.eige.europa.eu/career-opportunities> .
+<http://agencies.publicdata.eu/r/EIGE> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.eige.europa.eu/> .
+<http://agencies.publicdata.eu/r/EIGE> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Lietuva> .
+<http://agencies.publicdata.eu/r/EIGE> <http://agencies.publicdata.eu/ontology/zip> """LT-03228""" .
+<http://agencies.publicdata.eu/r/EIGE> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/Vilnius> .
+<http://agencies.publicdata.eu/r/EIGE> <http://agencies.publicdata.eu/ontology/phone> <tel:+37052394140> .
+<http://agencies.publicdata.eu/r/EIGE> <http://xmlns.com/foaf/0.1/mbox> <mailto:eige.sec@eige.europa.eu> .
+<http://agencies.publicdata.eu/r/EMSA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/EMSA> <http://purl.org/dc/terms/title> """Europeiska sjösäkerhetsbyrån (EMSA)"""@sv .
+<http://agencies.publicdata.eu/r/EMSA> <http://www.w3.org/2000/01/rdf-schema#label> """Europeiska sjösäkerhetsbyrån"""@sv .
+<http://agencies.publicdata.eu/r/EMSA> <http://agencies.publicdata.eu/ontology/token> """EMSA""" .
+<http://agencies.publicdata.eu/r/EMSA> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/policy_agencies/emsa/index_en.htm> .
+<http://agencies.publicdata.eu/r/EMSA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.emsa.europa.eu/> .
+<http://agencies.publicdata.eu/r/EMSA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://cleanseanet.emsa.europa.eu/> .
+<http://agencies.publicdata.eu/r/EMSA> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Portugal> .
+<http://agencies.publicdata.eu/r/EMSA> <http://agencies.publicdata.eu/ontology/fax> <tel:+351211209212> .
+<http://agencies.publicdata.eu/r/EMSA> <http://xmlns.com/foaf/0.1/mbox> <mailto:information@emsa.europa.eu> .
+<http://agencies.publicdata.eu/r/EMA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/EMA> <http://purl.org/dc/terms/title> """European Medicines Agency (EMA)"""@en .
+<http://agencies.publicdata.eu/r/EMA> <http://www.w3.org/2000/01/rdf-schema#label> """European Medicines Agency"""@en .
+<http://agencies.publicdata.eu/r/EMA> <http://agencies.publicdata.eu/ontology/token> """EMA""" .
+<http://agencies.publicdata.eu/r/EMA> <http://xmlns.com/foaf/0.1/homepage> <http://www.ema.europa.eu/ema/index.jsp?curl=pages/about_us/general/general_content_000325.jsp&murl=menus/about_us/about_us.jsp&mid=WC0b01ac0580029400&jsenabled=true> .
+<http://agencies.publicdata.eu/r/EMA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.emea.europa.eu/htms/general/admin/tenders/contracts.htm> .
+<http://agencies.publicdata.eu/r/EMA> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/United+Kingdom> .
+<http://agencies.publicdata.eu/r/EMA> <http://agencies.publicdata.eu/ontology/phone> <tel:(44-20)74188400> .
+<http://agencies.publicdata.eu/r/EMA> <http://agencies.publicdata.eu/ontology/fax> <tel:(44-20)74188416> .
+<http://agencies.publicdata.eu/r/EMA> <http://xmlns.com/foaf/0.1/mbox> <mailto:info@ema.europa.eu> .
+<http://agencies.publicdata.eu/r/EMCDDA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/EMCDDA> <http://purl.org/dc/terms/title> """Europeiska centrumet för kontroll av narkotika och narkotikamissbruk (EMCDDA)"""@sv .
+<http://agencies.publicdata.eu/r/EMCDDA> <http://www.w3.org/2000/01/rdf-schema#label> """Europeiska centrumet för kontroll av narkotika och narkotikamissbruk"""@sv .
+<http://agencies.publicdata.eu/r/EMCDDA> <http://agencies.publicdata.eu/ontology/token> """EMCDDA""" .
+<http://agencies.publicdata.eu/r/EMCDDA> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/policy_agencies/emcdda/index_en.htm> .
+<http://agencies.publicdata.eu/r/EMCDDA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.emcdda.europa.eu/> .
+<http://agencies.publicdata.eu/r/EMCDDA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.emcdda.europa.eu/about/partners/reitox-network> .
+<http://agencies.publicdata.eu/r/EMCDDA> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Portugal> .
+<http://agencies.publicdata.eu/r/EMCDDA> <http://agencies.publicdata.eu/ontology/fax> <tel:+351218131711> .
+<http://agencies.publicdata.eu/r/EMCDDA> <http://xmlns.com/foaf/0.1/mbox> <mailto:info@emcdda.europa.eu> .
+<http://agencies.publicdata.eu/r/ENISA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/ENISA> <http://purl.org/dc/terms/title> """Europeiska byrån för nät- och informationssäkerhet (ENISA)"""@sv .
+<http://agencies.publicdata.eu/r/ENISA> <http://www.w3.org/2000/01/rdf-schema#label> """Europeiska byrån för nät- och informationssäkerhet"""@sv .
+<http://agencies.publicdata.eu/r/ENISA> <http://agencies.publicdata.eu/ontology/token> """ENISA""" .
+<http://agencies.publicdata.eu/r/ENISA> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/policy_agencies/enisa/index_en.htm> .
+<http://agencies.publicdata.eu/r/ENISA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.enisa.europa.eu/> .
+<http://agencies.publicdata.eu/r/ENISA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32004R0460:EN:HTML> .
+<http://agencies.publicdata.eu/r/ENISA> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Greece> .
+<http://agencies.publicdata.eu/r/ENISA> <http://agencies.publicdata.eu/ontology/zip> """GR-700 13""" .
+<http://agencies.publicdata.eu/r/ENISA> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/%CE%97%CF%81%CE%AC%CE%BA%CE%BB%CE%B5%CE%B9%CE%BF> .
+<http://agencies.publicdata.eu/r/ENISA> <http://agencies.publicdata.eu/ontology/phone> <tel:+302810391280> .
+<http://agencies.publicdata.eu/r/ENISA> <http://agencies.publicdata.eu/ontology/fax> <tel:+302810391410> .
+<http://agencies.publicdata.eu/r/ENISA> <http://xmlns.com/foaf/0.1/mbox> <mailto:info@enisa.europa.eu> .
+<http://agencies.publicdata.eu/r/ERA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/ERA> <http://purl.org/dc/terms/title> """Europeiska järnvägsbyrån (ERA)"""@sv .
+<http://agencies.publicdata.eu/r/ERA> <http://www.w3.org/2000/01/rdf-schema#label> """Europeiska järnvägsbyrån"""@sv .
+<http://agencies.publicdata.eu/r/ERA> <http://agencies.publicdata.eu/ontology/token> """ERA""" .
+<http://agencies.publicdata.eu/r/ERA> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/policy_agencies/era/index_en.htm> .
+<http://agencies.publicdata.eu/r/ERA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.era.europa.eu/Pages/Home.aspx> .
+<http://agencies.publicdata.eu/r/ERA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.era.europa.eu/Pages/default.aspx> .
+<http://agencies.publicdata.eu/r/ERA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.era.europa.eu/Core-Activities/ERTMS/Pages/home.aspx> .
+<http://agencies.publicdata.eu/r/ERA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.era.europa.eu/Core-Activities/Safety/Pages/safety-unit.aspx> .
+<http://agencies.publicdata.eu/r/ERA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.era.europa.eu/Core-Activities/Safety/Pages/safety-unit.aspx> .
+<http://agencies.publicdata.eu/r/ERA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.era.europa.eu/Core-Activities/Cross-Acceptance/Pages/home.aspx> .
+<http://agencies.publicdata.eu/r/ERA> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/France> .
+<http://agencies.publicdata.eu/r/ERA> <http://agencies.publicdata.eu/ontology/zip> """FR-59300""" .
+<http://agencies.publicdata.eu/r/ERA> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/Valenciennes> .
+<http://agencies.publicdata.eu/r/ERA> <http://agencies.publicdata.eu/ontology/phone> <tel:+33327096-500> .
+<http://agencies.publicdata.eu/r/ERA> <http://agencies.publicdata.eu/ontology/fax> <tel:+33327334-065> .
+<http://agencies.publicdata.eu/r/ERA> <http://xmlns.com/foaf/0.1/mbox> <mailto:press-info@era.europa.eu> .
+<http://agencies.publicdata.eu/r/ETF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/ETF> <http://purl.org/dc/terms/title> """Europeiska yrkesutbildningsstiftelsen (ETF)"""@sv .
+<http://agencies.publicdata.eu/r/ETF> <http://www.w3.org/2000/01/rdf-schema#label> """Europeiska yrkesutbildningsstiftelsen"""@sv .
+<http://agencies.publicdata.eu/r/ETF> <http://agencies.publicdata.eu/ontology/token> """ETF""" .
+<http://agencies.publicdata.eu/r/ETF> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/policy_agencies/etf/index_en.htm> .
+<http://agencies.publicdata.eu/r/ETF> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.etf.europa.eu/web.nsf/pages/Home> .
+<http://agencies.publicdata.eu/r/ETF> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Italy> .
+<http://agencies.publicdata.eu/r/ETF> <http://agencies.publicdata.eu/ontology/zip> """IT-10133""" .
+<http://agencies.publicdata.eu/r/ETF> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/Torino> .
+<http://agencies.publicdata.eu/r/ETF> <http://agencies.publicdata.eu/ontology/phone> <tel:+39-011-6302222> .
+<http://agencies.publicdata.eu/r/ETF> <http://agencies.publicdata.eu/ontology/fax> <tel:+39-011-6302200> .
+<http://agencies.publicdata.eu/r/ETF> <http://xmlns.com/foaf/0.1/mbox> <mailto:info@etf.europa.eu> .
+<http://agencies.publicdata.eu/r/FRA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/FRA> <http://purl.org/dc/terms/title> """Europeiska byrån för de grundläggande rättigheterna (FRA)"""@sv .
+<http://agencies.publicdata.eu/r/FRA> <http://www.w3.org/2000/01/rdf-schema#label> """Europeiska byrån för de grundläggande rättigheterna"""@sv .
+<http://agencies.publicdata.eu/r/FRA> <http://agencies.publicdata.eu/ontology/token> """FRA""" .
+<http://agencies.publicdata.eu/r/FRA> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/policy_agencies/fra/index_en.htm> .
+<http://agencies.publicdata.eu/r/FRA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://fra.europa.eu/fraWebsite/home/home_en.htm> .
+<http://agencies.publicdata.eu/r/FRA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2007:053:0001:0014:EN:PDF> .
+<http://agencies.publicdata.eu/r/FRA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31997R1035:EN:HTML> .
+<http://agencies.publicdata.eu/r/FRA> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Austria> .
+<http://agencies.publicdata.eu/r/FRA> <http://agencies.publicdata.eu/ontology/zip> """AT-1040""" .
+<http://agencies.publicdata.eu/r/FRA> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/WIEN> .
+<http://agencies.publicdata.eu/r/FRA> <http://agencies.publicdata.eu/ontology/phone> <tel:+43-1-5803060> .
+<http://agencies.publicdata.eu/r/FRA> <http://agencies.publicdata.eu/ontology/fax> <tel:+43-1-58030699> .
+<http://agencies.publicdata.eu/r/FRA> <http://xmlns.com/foaf/0.1/mbox> <mailto:information@fra.europa.eu> .
+<http://agencies.publicdata.eu/r/OHIM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/OHIM> <http://purl.org/dc/terms/title> """Kontoret för harmonisering inom den inre marknaden (varumärken och mönster) (OHIM)"""@sv .
+<http://agencies.publicdata.eu/r/OHIM> <http://www.w3.org/2000/01/rdf-schema#label> """Kontoret för harmonisering inom den inre marknaden (varumärken och mönster)"""@sv .
+<http://agencies.publicdata.eu/r/OHIM> <http://agencies.publicdata.eu/ontology/token> """OHIM""" .
+<http://agencies.publicdata.eu/r/OHIM> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/policy_agencies/ohim/index_en.htm> .
+<http://agencies.publicdata.eu/r/OHIM> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://oami.europa.eu/ows/rw/pages/index.en.do> .
+<http://agencies.publicdata.eu/r/OHIM> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Spain> .
+<http://agencies.publicdata.eu/r/OHIM> <http://agencies.publicdata.eu/ontology/zip> """ES-03008""" .
+<http://agencies.publicdata.eu/r/OHIM> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/Alicante> .
+<http://agencies.publicdata.eu/r/OHIM> <http://agencies.publicdata.eu/ontology/phone> <tel:+34-965-139100> .
+<http://agencies.publicdata.eu/r/OHIM> <http://agencies.publicdata.eu/ontology/fax> <tel:+34-965-139173> .
+<http://agencies.publicdata.eu/r/OHIM> <http://xmlns.com/foaf/0.1/mbox> <mailto:information@oami.europa.eu> .
+<http://agencies.publicdata.eu/r/CdT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/CdT> <http://purl.org/dc/terms/title> """Översättningscentrum för Europeiska unionens organ (CdT)"""@sv .
+<http://agencies.publicdata.eu/r/CdT> <http://www.w3.org/2000/01/rdf-schema#label> """Översättningscentrum för Europeiska unionens organ"""@sv .
+<http://agencies.publicdata.eu/r/CdT> <http://agencies.publicdata.eu/ontology/token> """CdT""" .
+<http://agencies.publicdata.eu/r/CdT> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/policy_agencies/cdt/index_en.htm> .
+<http://agencies.publicdata.eu/r/CdT> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://cdt.europa.eu/EN/Pages/Homepage.aspx> .
+<http://agencies.publicdata.eu/r/CdT> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://iate.europa.eu/iatediff/switchLang.do?success=mainPage&lang=en> .
+<http://agencies.publicdata.eu/r/CdT> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.cdt.europa.eu> .
+<http://agencies.publicdata.eu/r/CdT> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31994R2965:EN:HTML> .
+<http://agencies.publicdata.eu/r/CdT> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32003R1645:EN:HTML> .
+<http://agencies.publicdata.eu/r/CdT> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Luxembourg> .
+<http://agencies.publicdata.eu/r/CdT> <http://agencies.publicdata.eu/ontology/zip> """LU-1499""" .
+<http://agencies.publicdata.eu/r/CdT> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/Luxembourg> .
+<http://agencies.publicdata.eu/r/CdT> <http://agencies.publicdata.eu/ontology/phone> <tel:(352)4217111> .
+<http://agencies.publicdata.eu/r/CdT> <http://agencies.publicdata.eu/ontology/fax> <tel:(352)421711220> .
+<http://agencies.publicdata.eu/r/CdT> <http://xmlns.com/foaf/0.1/mbox> <mailto:cdt@cdt.europa.eu> .
+<http://agencies.publicdata.eu/r/EDA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/EDA> <http://purl.org/dc/terms/title> """Europeiska försvarsbyrån (EDA)"""@sv .
+<http://agencies.publicdata.eu/r/EDA> <http://www.w3.org/2000/01/rdf-schema#label> """Europeiska försvarsbyrån"""@sv .
+<http://agencies.publicdata.eu/r/EDA> <http://agencies.publicdata.eu/ontology/token> """EDA""" .
+<http://agencies.publicdata.eu/r/EDA> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/security_agencies/eda/index_en.htm> .
+<http://agencies.publicdata.eu/r/EDA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.eda.europa.eu/> .
+<http://agencies.publicdata.eu/r/EDA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://eur-lex.europa.eu/LexUriServ/site/en/oj/2004/l_245/l_24520040717en00170028.pdf> .
+<http://agencies.publicdata.eu/r/EDA> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Belgium> .
+<http://agencies.publicdata.eu/r/EDA> <http://agencies.publicdata.eu/ontology/zip> """BE-1050""" .
+<http://agencies.publicdata.eu/r/EDA> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/Bruxelles%2FBrussel> .
+<http://agencies.publicdata.eu/r/EDA> <http://agencies.publicdata.eu/ontology/phone> <tel:+32(0)2504.28.00> .
+<http://agencies.publicdata.eu/r/EDA> <http://agencies.publicdata.eu/ontology/fax> <tel:+32(0)2504.28.15> .
+<http://agencies.publicdata.eu/r/EDA> <http://xmlns.com/foaf/0.1/mbox> <mailto:info@eda.europa.eu> .
+<http://agencies.publicdata.eu/r/ISS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/ISS> <http://purl.org/dc/terms/title> """Europeiska unionens institut för säkerhetsstudier (ISS)"""@sv .
+<http://agencies.publicdata.eu/r/ISS> <http://www.w3.org/2000/01/rdf-schema#label> """Europeiska unionens institut för säkerhetsstudier"""@sv .
+<http://agencies.publicdata.eu/r/ISS> <http://agencies.publicdata.eu/ontology/token> """ISS""" .
+<http://agencies.publicdata.eu/r/ISS> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/security_agencies/iss/index_en.htm> .
+<http://agencies.publicdata.eu/r/ISS> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.iss.europa.eu/> .
+<http://agencies.publicdata.eu/r/ISS> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/commission_2010-2014/ashton/index_en.htm> .
+<http://agencies.publicdata.eu/r/ISS> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/France> .
+<http://agencies.publicdata.eu/r/ISS> <http://agencies.publicdata.eu/ontology/zip> """Paris 16th""" .
+<http://agencies.publicdata.eu/r/ISS> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/arrondissement> .
+<http://agencies.publicdata.eu/r/ISS> <http://agencies.publicdata.eu/ontology/phone> <tel:+33(0)156.89.19.30> .
+<http://agencies.publicdata.eu/r/ISS> <http://agencies.publicdata.eu/ontology/fax> <tel:+33(0)156.89.19.31> .
+<http://agencies.publicdata.eu/r/ISS> <http://xmlns.com/foaf/0.1/mbox> <mailto:info@iss.europa.eu> .
+<http://agencies.publicdata.eu/r/EUSC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/EUSC> <http://purl.org/dc/terms/title> """Europeiska unionens satellitcentrum (EUSC)"""@sv .
+<http://agencies.publicdata.eu/r/EUSC> <http://www.w3.org/2000/01/rdf-schema#label> """Europeiska unionens satellitcentrum"""@sv .
+<http://agencies.publicdata.eu/r/EUSC> <http://agencies.publicdata.eu/ontology/token> """EUSC""" .
+<http://agencies.publicdata.eu/r/EUSC> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/security_agencies/eusc/index_en.htm> .
+<http://agencies.publicdata.eu/r/EUSC> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.eusc.europa.eu/> .
+<http://agencies.publicdata.eu/r/EUSC> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2001:200:0005:0011:EN:PDF> .
+<http://agencies.publicdata.eu/r/EUSC> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Spain> .
+<http://agencies.publicdata.eu/r/EUSC> <http://agencies.publicdata.eu/ontology/phone> <tel:+34916786000> .
+<http://agencies.publicdata.eu/r/EUSC> <http://agencies.publicdata.eu/ontology/fax> <tel:+34916786006> .
+<http://agencies.publicdata.eu/r/EUSC> <http://xmlns.com/foaf/0.1/mbox> <mailto:info@eusc.europa.eu> .
+<http://agencies.publicdata.eu/r/CEPOL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/CEPOL> <http://purl.org/dc/terms/title> """Europeiska polisakademin (CEPOL)"""@sv .
+<http://agencies.publicdata.eu/r/CEPOL> <http://www.w3.org/2000/01/rdf-schema#label> """Europeiska polisakademin"""@sv .
+<http://agencies.publicdata.eu/r/CEPOL> <http://agencies.publicdata.eu/ontology/token> """CEPOL""" .
+<http://agencies.publicdata.eu/r/CEPOL> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/pol_agencies/cepol/index_en.htm> .
+<http://agencies.publicdata.eu/r/CEPOL> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.cepol.europa.eu/> .
+<http://agencies.publicdata.eu/r/CEPOL> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2005:256:0063:01:EN:HTML> .
+<http://agencies.publicdata.eu/r/CEPOL> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.cepol.europa.eu/index.php?id=annual-programme-committee> .
+<http://agencies.publicdata.eu/r/CEPOL> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.cepol.europa.eu/index.php?id=budget-administration-committee> .
+<http://agencies.publicdata.eu/r/CEPOL> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.cepol.europa.eu/index.php?id=strategy-committee> .
+<http://agencies.publicdata.eu/r/CEPOL> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.cepol.europa.eu/index.php?id=training-research-committee> .
+<http://agencies.publicdata.eu/r/CEPOL> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/United+Kingdom> .
+<http://agencies.publicdata.eu/r/CEPOL> <http://agencies.publicdata.eu/ontology/zip> """Hampshire RG27""" .
+<http://agencies.publicdata.eu/r/CEPOL> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/0JW> .
+<http://agencies.publicdata.eu/r/CEPOL> <http://agencies.publicdata.eu/ontology/phone> <tel:+441256602668> .
+<http://agencies.publicdata.eu/r/CEPOL> <http://agencies.publicdata.eu/ontology/fax> <tel:+441256602996> .
+<http://agencies.publicdata.eu/r/CEPOL> <http://xmlns.com/foaf/0.1/mbox> <mailto:secretariat@cepol.europa.eu> .
+<http://agencies.publicdata.eu/r/EUROPOL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/EUROPOL> <http://purl.org/dc/terms/title> """Europeiska polisbyrån (EUROPOL)"""@sv .
+<http://agencies.publicdata.eu/r/EUROPOL> <http://www.w3.org/2000/01/rdf-schema#label> """Europeiska polisbyrån"""@sv .
+<http://agencies.publicdata.eu/r/EUROPOL> <http://agencies.publicdata.eu/ontology/token> """EUROPOL""" .
+<http://agencies.publicdata.eu/r/EUROPOL> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/pol_agencies/europol/index_en.htm> .
+<http://agencies.publicdata.eu/r/EUROPOL> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.europol.europa.eu/open_tenders> .
+<http://agencies.publicdata.eu/r/EUROPOL> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/The+Netherlands> .
+<http://agencies.publicdata.eu/r/EUROPOL> <http://agencies.publicdata.eu/ontology/phone> <tel:+31(0)703025000> .
+<http://agencies.publicdata.eu/r/EUROPOL> <http://xmlns.com/foaf/0.1/mbox> <https://www.europol.europa.eu/content/page/inquiry-forms-209> .
+<http://agencies.publicdata.eu/r/EUROJUST> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/EUROJUST> <http://purl.org/dc/terms/title> """EUs enhet för rättsligt samarbete (EUROJUST)"""@sv .
+<http://agencies.publicdata.eu/r/EUROJUST> <http://www.w3.org/2000/01/rdf-schema#label> """EUs enhet för rättsligt samarbete"""@sv .
+<http://agencies.publicdata.eu/r/EUROJUST> <http://agencies.publicdata.eu/ontology/token> """EUROJUST""" .
+<http://agencies.publicdata.eu/r/EUROJUST> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/pol_agencies/eurojust/index_en.htm> .
+<http://agencies.publicdata.eu/r/EUROJUST> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.eurojust.europa.eu/> .
+<http://agencies.publicdata.eu/r/EUROJUST> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002D0187:EN:HTML> .
+<http://agencies.publicdata.eu/r/EUROJUST> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/The+Netherlands> .
+<http://agencies.publicdata.eu/r/EUROJUST> <http://agencies.publicdata.eu/ontology/phone> <tel:(31-70)4125000> .
+<http://agencies.publicdata.eu/r/EUROJUST> <http://agencies.publicdata.eu/ontology/fax> <tel:(31-70)4125005> .
+<http://agencies.publicdata.eu/r/EUROJUST> <http://xmlns.com/foaf/0.1/mbox> <mailto:info@eurojust.europa.eu> .
+<http://agencies.publicdata.eu/r/EACEA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/EACEA> <http://purl.org/dc/terms/title> """Genomförandeorganet för utbildning, audiovisuella medier och kultur (EACEA)"""@sv .
+<http://agencies.publicdata.eu/r/EACEA> <http://www.w3.org/2000/01/rdf-schema#label> """Genomförandeorganet för utbildning, audiovisuella medier och kultur"""@sv .
+<http://agencies.publicdata.eu/r/EACEA> <http://agencies.publicdata.eu/ontology/token> """EACEA""" .
+<http://agencies.publicdata.eu/r/EACEA> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/executive_agencies/eacea/index_en.htm> .
+<http://agencies.publicdata.eu/r/EACEA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://eacea.ec.europa.eu/index_en.php> .
+<http://agencies.publicdata.eu/r/EACEA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/dgs/education_culture/index_en.html> .
+<http://agencies.publicdata.eu/r/EACEA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/dgs/communication/index_en.htm> .
+<http://agencies.publicdata.eu/r/EACEA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/europeaid/index_en.htm> .
+<http://agencies.publicdata.eu/r/EACEA> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Belgium> .
+<http://agencies.publicdata.eu/r/EACEA> <http://agencies.publicdata.eu/ontology/zip> """BE-1140""" .
+<http://agencies.publicdata.eu/r/EACEA> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/Bruxelles%2FBrussel> .
+<http://agencies.publicdata.eu/r/EACEA> <http://agencies.publicdata.eu/ontology/phone> <tel:+32(0)22991111> .
+<http://agencies.publicdata.eu/r/EACEA> <http://xmlns.com/foaf/0.1/mbox> <mailto:eacea-info@ec.europa.eu> .
+<http://agencies.publicdata.eu/r/ERC+Executive+Agency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/ERC+Executive+Agency> <http://purl.org/dc/terms/title> """European Research Council Executive Agency (ERC Executive Agency)"""@en .
+<http://agencies.publicdata.eu/r/ERC+Executive+Agency> <http://www.w3.org/2000/01/rdf-schema#label> """European Research Council Executive Agency"""@en .
+<http://agencies.publicdata.eu/r/ERC+Executive+Agency> <http://agencies.publicdata.eu/ontology/token> """ERC Executive Agency""" .
+<http://agencies.publicdata.eu/r/ERC+Executive+Agency> <http://xmlns.com/foaf/0.1/homepage> <http://erc.europa.eu/index.cfm?fuseaction=page.display&topicID=48> .
+<http://agencies.publicdata.eu/r/ERC+Executive+Agency> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://erc.europa.eu/> .
+<http://agencies.publicdata.eu/r/ERC+Executive+Agency> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Belgique%2FBelgi%C3%AB> .
+<http://agencies.publicdata.eu/r/ERC+Executive+Agency> <http://agencies.publicdata.eu/ontology/zip> """BE-1049""" .
+<http://agencies.publicdata.eu/r/ERC+Executive+Agency> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/Bruxelles%2FBrussel> .
+<http://agencies.publicdata.eu/r/ERC+Executive+Agency> <http://agencies.publicdata.eu/ontology/phone> <tel:+32(0)22994028> .
+<http://agencies.publicdata.eu/r/ERC+Executive+Agency> <http://agencies.publicdata.eu/ontology/fax> <tel:+32(0)22921975> .
+<http://agencies.publicdata.eu/r/ERC+Executive+Agency> <http://xmlns.com/foaf/0.1/mbox> <mailto:erc-info@ec.europa.eu> .
+<http://agencies.publicdata.eu/r/EACI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/EACI> <http://purl.org/dc/terms/title> """Genomförandeorganet för konkurrenskraft och innovation (EACI)"""@sv .
+<http://agencies.publicdata.eu/r/EACI> <http://www.w3.org/2000/01/rdf-schema#label> """Genomförandeorganet för konkurrenskraft och innovation"""@sv .
+<http://agencies.publicdata.eu/r/EACI> <http://agencies.publicdata.eu/ontology/token> """EACI""" .
+<http://agencies.publicdata.eu/r/EACI> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/executive_agencies/eaci/index_en.htm> .
+<http://agencies.publicdata.eu/r/EACI> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/eaci/> .
+<http://agencies.publicdata.eu/r/EACI> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/eaci/contact_en.htm> .
+<http://agencies.publicdata.eu/r/EACI> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/eaci> .
+<http://agencies.publicdata.eu/r/EACI> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/intelligentenergy> .
+<http://agencies.publicdata.eu/r/EACI> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/marcopolo> .
+<http://agencies.publicdata.eu/r/EACI> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/enterprise-europe-network/> .
+<http://agencies.publicdata.eu/r/EACI> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/ecoinnovation> .
+<http://agencies.publicdata.eu/r/EACI> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/eaci/ip_en.htm> .
+<http://agencies.publicdata.eu/r/EACI> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/dgs/energy/index_en.htm> .
+<http://agencies.publicdata.eu/r/EACI> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/dgs/transport/index_en.htm> .
+<http://agencies.publicdata.eu/r/EACI> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/enterprise/index_en.htm> .
+<http://agencies.publicdata.eu/r/EACI> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/dgs/environment> .
+<http://agencies.publicdata.eu/r/EACI> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Belgium> .
+<http://agencies.publicdata.eu/r/EACI> <http://agencies.publicdata.eu/ontology/zip> """BE-1210""" .
+<http://agencies.publicdata.eu/r/EACI> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/Bruxelles%2FBrussel> .
+<http://agencies.publicdata.eu/r/EACI> <http://xmlns.com/foaf/0.1/mbox> <http://ec.europa.eu/eaci/contact_en.htm> .
+<http://agencies.publicdata.eu/r/EAHC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/EAHC> <http://purl.org/dc/terms/title> """Genomförandeorganet för hälso- och konsumentfrågor (EAHC)"""@sv .
+<http://agencies.publicdata.eu/r/EAHC> <http://www.w3.org/2000/01/rdf-schema#label> """Genomförandeorganet för hälso- och konsumentfrågor"""@sv .
+<http://agencies.publicdata.eu/r/EAHC> <http://agencies.publicdata.eu/ontology/token> """EAHC""" .
+<http://agencies.publicdata.eu/r/EAHC> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/executive_agencies/eahc/index_en.htm> .
+<http://agencies.publicdata.eu/r/EAHC> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/eahc/> .
+<http://agencies.publicdata.eu/r/EAHC> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/health/programme/policy/index_en.htm> .
+<http://agencies.publicdata.eu/r/EAHC> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/consumers/index_en.htm> .
+<http://agencies.publicdata.eu/r/EAHC> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/food/training_strategy/index_en.htm> .
+<http://agencies.publicdata.eu/r/EAHC> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/dgs/health_consumer/index_en.htm> .
+<http://agencies.publicdata.eu/r/EAHC> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Luxembourg> .
+<http://agencies.publicdata.eu/r/EAHC> <http://agencies.publicdata.eu/ontology/zip> """LU-1822""" .
+<http://agencies.publicdata.eu/r/EAHC> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/Luxembourg> .
+<http://agencies.publicdata.eu/r/EAHC> <http://agencies.publicdata.eu/ontology/phone> <tel:+352430132015> .
+<http://agencies.publicdata.eu/r/EAHC> <http://agencies.publicdata.eu/ontology/fax> <tel:+352430130359> .
+<http://agencies.publicdata.eu/r/EAHC> <http://xmlns.com/foaf/0.1/mbox> <mailto:eahc@ec.europa.eu> .
+<http://agencies.publicdata.eu/r/REA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/REA> <http://purl.org/dc/terms/title> """Genomförandeorganet för forskning (REA)"""@sv .
+<http://agencies.publicdata.eu/r/REA> <http://www.w3.org/2000/01/rdf-schema#label> """Genomförandeorganet för forskning"""@sv .
+<http://agencies.publicdata.eu/r/REA> <http://agencies.publicdata.eu/ontology/token> """REA""" .
+<http://agencies.publicdata.eu/r/REA> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/executive_agencies/rea/index_en.htm> .
+<http://agencies.publicdata.eu/r/REA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/research/rea/> .
+<http://agencies.publicdata.eu/r/REA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/research/rea/index.cfm?pg=contacts&display=mailform&ad=info> .
+<http://agencies.publicdata.eu/r/REA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/dgs/research/index_en.html> .
+<http://agencies.publicdata.eu/r/REA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/enterprise/index_en.htm> .
+<http://agencies.publicdata.eu/r/REA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/dgs/information_society/index_en.htm> .
+<http://agencies.publicdata.eu/r/REA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/dgs/energy/index_en.htm> .
+<http://agencies.publicdata.eu/r/REA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/dgs/transport/index_en.htm> .
+<http://agencies.publicdata.eu/r/REA> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Belgium> .
+<http://agencies.publicdata.eu/r/REA> <http://agencies.publicdata.eu/ontology/zip> """B-1210 -""" .
+<http://agencies.publicdata.eu/r/REA> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/Bruxelles%2FBrussel> .
+<http://agencies.publicdata.eu/r/REA> <http://xmlns.com/foaf/0.1/mbox> <http://ec.europa.eu/research/rea/index.cfm?pg=contacts&display=mailform&ad=info> .
+<http://agencies.publicdata.eu/r/TEN-T+EA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/TEN-T+EA> <http://purl.org/dc/terms/title> """Genomförandeorganet för det transeuropeiska transportnätet (TEN-T EA)"""@sv .
+<http://agencies.publicdata.eu/r/TEN-T+EA> <http://www.w3.org/2000/01/rdf-schema#label> """Genomförandeorganet för det transeuropeiska transportnätet"""@sv .
+<http://agencies.publicdata.eu/r/TEN-T+EA> <http://agencies.publicdata.eu/ontology/token> """TEN-T EA""" .
+<http://agencies.publicdata.eu/r/TEN-T+EA> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/executive_agencies/ten-t/index_en.htm> .
+<http://agencies.publicdata.eu/r/TEN-T+EA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://tentea.ec.europa.eu/en/home.htm> .
+<http://agencies.publicdata.eu/r/TEN-T+EA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/ten/transport/agency/index_en.htm> .
+<http://agencies.publicdata.eu/r/TEN-T+EA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/transport/index_en.htm> .
+<http://agencies.publicdata.eu/r/TEN-T+EA> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Belgium> .
+<http://agencies.publicdata.eu/r/TEN-T+EA> <http://agencies.publicdata.eu/ontology/zip> """BE-1049""" .
+<http://agencies.publicdata.eu/r/TEN-T+EA> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/Bruxelles%2FBrussel> .
+<http://agencies.publicdata.eu/r/TEN-T+EA> <http://xmlns.com/foaf/0.1/mbox> <mailto:tent-agency@ec.europa.eu> .
+<http://agencies.publicdata.eu/r/ESA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/ESA> <http://purl.org/dc/terms/title> """EURATOM Supply Agency (ESA)"""@en .
+<http://agencies.publicdata.eu/r/ESA> <http://www.w3.org/2000/01/rdf-schema#label> """EURATOM Supply Agency"""@en .
+<http://agencies.publicdata.eu/r/ESA> <http://agencies.publicdata.eu/ontology/token> """ESA""" .
+<http://agencies.publicdata.eu/r/ESA> <http://xmlns.com/foaf/0.1/homepage> <http://ec.europa.eu/euratom/> .
+<http://agencies.publicdata.eu/r/Fusion+for+Energy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/Fusion+for+Energy> <http://purl.org/dc/terms/title> """Det europeiska gemensamma företaget för ITER och utveckling av fusionsenergi (Fusion for Energy)"""@sv .
+<http://agencies.publicdata.eu/r/Fusion+for+Energy> <http://www.w3.org/2000/01/rdf-schema#label> """Det europeiska gemensamma företaget för ITER och utveckling av fusionsenergi"""@sv .
+<http://agencies.publicdata.eu/r/Fusion+for+Energy> <http://agencies.publicdata.eu/ontology/token> """Fusion for Energy""" .
+<http://agencies.publicdata.eu/r/Fusion+for+Energy> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/euratom_agencies/agencies_bodies/index_en.htm> .
+<http://agencies.publicdata.eu/r/Fusion+for+Energy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://fusionforenergy.europa.eu/> .
+<http://agencies.publicdata.eu/r/Fusion+for+Energy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://fusionforenergy.europa.eu/understandingfusion/ourcontribution.aspx> .
+<http://agencies.publicdata.eu/r/Fusion+for+Energy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://fusionforenergy.europa.eu/understandingfusion/broaderapproach.aspx> .
+<http://agencies.publicdata.eu/r/Fusion+for+Energy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://fusionforenergy.europa.eu/understandingfusion/demo.aspx> .
+<http://agencies.publicdata.eu/r/Fusion+for+Energy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2007:090:0058:01:EN:HTML> .
+<http://agencies.publicdata.eu/r/Fusion+for+Energy> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Spain> .
+<http://agencies.publicdata.eu/r/Fusion+for+Energy> <http://agencies.publicdata.eu/ontology/phone> <tel:+34933201800> .
+<http://agencies.publicdata.eu/r/Fusion+for+Energy> <http://agencies.publicdata.eu/ontology/fax> <tel:+34933201851> .
+<http://agencies.publicdata.eu/r/Fusion+for+Energy> <http://xmlns.com/foaf/0.1/mbox> <mailto:info@f4e.europa.eu> .
+<http://agencies.publicdata.eu/r/EBA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/EBA> <http://purl.org/dc/terms/title> """European Banking Authority (EBA)"""@en .
+<http://agencies.publicdata.eu/r/EBA> <http://www.w3.org/2000/01/rdf-schema#label> """European Banking Authority"""@en .
+<http://agencies.publicdata.eu/r/EBA> <http://agencies.publicdata.eu/ontology/token> """EBA""" .
+<http://agencies.publicdata.eu/r/EBA> <http://xmlns.com/foaf/0.1/homepage> <http://www.eba.europa.eu/Home.aspx> .
+<http://agencies.publicdata.eu/r/ESMA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/ESMA> <http://purl.org/dc/terms/title> """European Securities and Markets Authority (ESMA)"""@en .
+<http://agencies.publicdata.eu/r/ESMA> <http://www.w3.org/2000/01/rdf-schema#label> """European Securities and Markets Authority"""@en .
+<http://agencies.publicdata.eu/r/ESMA> <http://agencies.publicdata.eu/ontology/token> """ESMA""" .
+<http://agencies.publicdata.eu/r/ESMA> <http://xmlns.com/foaf/0.1/homepage> <http://www.esma.europa.eu/> .
+<http://agencies.publicdata.eu/r/EIOPA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/EIOPA> <http://purl.org/dc/terms/title> """European Insurance and Occupational Pensions Authority (EIOPA)"""@en .
+<http://agencies.publicdata.eu/r/EIOPA> <http://www.w3.org/2000/01/rdf-schema#label> """European Insurance and Occupational Pensions Authority"""@en .
+<http://agencies.publicdata.eu/r/EIOPA> <http://agencies.publicdata.eu/ontology/token> """EIOPA""" .
+<http://agencies.publicdata.eu/r/EIOPA> <http://xmlns.com/foaf/0.1/homepage> <https://eiopa.europa.eu/home/index.html> .
+<http://agencies.publicdata.eu/r/ESRB%29+was+also+set+up+in+January+2011+to+replace+the+former+supervisory+committees> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/ESRB%29+was+also+set+up+in+January+2011+to+replace+the+former+supervisory+committees> <http://purl.org/dc/terms/title> """The European Systemic Risk Board (ESRB) was also set up in January 2011 to replace the former supervisory committees."""@en .
+<http://agencies.publicdata.eu/r/ESRB%29+was+also+set+up+in+January+2011+to+replace+the+former+supervisory+committees> <http://www.w3.org/2000/01/rdf-schema#label> """The European Systemic Risk Board"""@en .
+<http://agencies.publicdata.eu/r/ESRB%29+was+also+set+up+in+January+2011+to+replace+the+former+supervisory+committees> <http://agencies.publicdata.eu/ontology/token> """ESRB) was also set up in January 2011 to replace the former supervisory committees""" .
+<http://agencies.publicdata.eu/r/ESRB%29+was+also+set+up+in+January+2011+to+replace+the+former+supervisory+committees> <http://xmlns.com/foaf/0.1/homepage> <http://www.esrb.europa.eu/home/html/index.en.html> .
+<http://agencies.publicdata.eu/r/CEDEFOP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/CEDEFOP> <http://purl.org/dc/terms/title> """European Centre for the Development of Vocational Training (CEDEFOP)"""@en .
+<http://agencies.publicdata.eu/r/CEDEFOP> <http://www.w3.org/2000/01/rdf-schema#label> """European Centre for the Development of Vocational Training"""@en .
+<http://agencies.publicdata.eu/r/CEDEFOP> <http://agencies.publicdata.eu/ontology/token> """CEDEFOP""" .
+<http://agencies.publicdata.eu/r/CEDEFOP> <http://xmlns.com/foaf/0.1/homepage> <http://www.cedefop.europa.eu/EN/working-with-us/job-opportunities.aspx> .
+<http://agencies.publicdata.eu/r/CEDEFOP> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.cedefop.europa.eu/EN/working-with-us/public-procurement.aspx> .
+<http://agencies.publicdata.eu/r/European%2BMaritime%2BSafety%2BAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/European%2BMaritime%2BSafety%2BAgency> <http://purl.org/dc/terms/title> """European Maritime Safety Agency"""@en .
+<http://agencies.publicdata.eu/r/European%2BMaritime%2BSafety%2BAgency> <http://www.w3.org/2000/01/rdf-schema#label> """European Maritime Safety Agency"""@en .
+<http://agencies.publicdata.eu/r/European%2BMaritime%2BSafety%2BAgency> <http://xmlns.com/foaf/0.1/homepage> <http://www.emsa.europa.eu/work/jobs.html> .
+<http://agencies.publicdata.eu/r/Fusion%2Bfor%2BEnergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/Fusion%2Bfor%2BEnergy> <http://purl.org/dc/terms/title> """Fusion for Energy"""@en .
+<http://agencies.publicdata.eu/r/Fusion%2Bfor%2BEnergy> <http://www.w3.org/2000/01/rdf-schema#label> """Fusion for Energy"""@en .
+<http://agencies.publicdata.eu/r/Fusion%2Bfor%2BEnergy> <http://xmlns.com/foaf/0.1/homepage> <http://fusionforenergy.europa.eu/careers/> .
+<http://agencies.publicdata.eu/r/Job%2Bvacancies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/Job%2Bvacancies> <http://purl.org/dc/terms/title> """Job vacancies"""@en .
+<http://agencies.publicdata.eu/r/Job%2Bvacancies> <http://www.w3.org/2000/01/rdf-schema#label> """Job vacancies"""@en .
+<http://agencies.publicdata.eu/r/Job%2Bvacancies> <http://xmlns.com/foaf/0.1/homepage> <http://eit.europa.eu/work-with-us/current-vacancies.html> .
+<http://agencies.publicdata.eu/r/European+Joint+Undertaking+for+ITER+and+the+Development+of+Fusion+Energy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/European+Joint+Undertaking+for+ITER+and+the+Development+of+Fusion+Energy> <http://purl.org/dc/terms/title> """Fusion for Energy (European Joint Undertaking for ITER and the Development of Fusion Energy)"""@en .
+<http://agencies.publicdata.eu/r/European+Joint+Undertaking+for+ITER+and+the+Development+of+Fusion+Energy> <http://www.w3.org/2000/01/rdf-schema#label> """Fusion for Energy"""@en .
+<http://agencies.publicdata.eu/r/European+Joint+Undertaking+for+ITER+and+the+Development+of+Fusion+Energy> <http://agencies.publicdata.eu/ontology/token> """European Joint Undertaking for ITER and the Development of Fusion Energy""" .
+<http://agencies.publicdata.eu/r/European+Joint+Undertaking+for+ITER+and+the+Development+of+Fusion+Energy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://fusionforenergy.europa.eu/mediacorner/publications.aspx> .
+<http://agencies.publicdata.eu/r/OSHA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/OSHA> <http://purl.org/dc/terms/title> """Europeiska arbetsmiljöbyrån (OSHA)"""@sv .
+<http://agencies.publicdata.eu/r/OSHA> <http://www.w3.org/2000/01/rdf-schema#label> """Europeiska arbetsmiljöbyrån"""@sv .
+<http://agencies.publicdata.eu/r/OSHA> <http://agencies.publicdata.eu/ontology/token> """OSHA""" .
+<http://agencies.publicdata.eu/r/OSHA> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/policy_agencies/osha/index_en.htm> .
+<http://agencies.publicdata.eu/r/OSHA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://osha.europa.eu/en/front-page/view> .
+<http://agencies.publicdata.eu/r/OSHA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://osha.europa.eu/en/about/director_corner/index_html> .
+<http://agencies.publicdata.eu/r/OSHA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://osha.europa.eu/about/organisation/> .
+<http://agencies.publicdata.eu/r/OSHA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31994r2062:EN:HTML> .
+<http://agencies.publicdata.eu/r/OSHA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995r1643:EN:HTML> .
+<http://agencies.publicdata.eu/r/OSHA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32003r1654:EN:HTML> .
+<http://agencies.publicdata.eu/r/OSHA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://eur-lex.europa.eu/LexUriServ/site/en/oj/2005/l_184/l_18420050715en00050009.pdf> .
+<http://agencies.publicdata.eu/r/OSHA> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Spain> .
+<http://agencies.publicdata.eu/r/CDT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/CDT> <http://purl.org/dc/terms/title> """Translation Centre for the Bodies of the European Union (CDT)"""@en .
+<http://agencies.publicdata.eu/r/CDT> <http://www.w3.org/2000/01/rdf-schema#label> """Translation Centre for the Bodies of the European Union"""@en .
+<http://agencies.publicdata.eu/r/CDT> <http://agencies.publicdata.eu/ontology/token> """CDT""" .
+<http://agencies.publicdata.eu/r/CDT> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://cdt.europa.eu/EN/procurement/Pages/Program-for-the-year-2010.aspx> .
+<http://agencies.publicdata.eu/r/ERC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/ERC> <http://purl.org/dc/terms/title> """Euroopan tutkimusneuvoston toimeenpanovirasto (ERC)"""@fi .
+<http://agencies.publicdata.eu/r/ERC> <http://www.w3.org/2000/01/rdf-schema#label> """Euroopan tutkimusneuvoston toimeenpanovirasto"""@fi .
+<http://agencies.publicdata.eu/r/ERC> <http://agencies.publicdata.eu/ontology/token> """ERC""" .
+<http://agencies.publicdata.eu/r/ERC> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/executive_agencies/erc/index_en.htm> .
+<http://agencies.publicdata.eu/r/ERC> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://erc.europa.eu/index.cfm> .
+<http://agencies.publicdata.eu/r/ERC> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://erc.europa.eu> .
+<http://agencies.publicdata.eu/r/ERC> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Belgium> .
+<http://agencies.publicdata.eu/r/PHEA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/PHEA> <http://purl.org/dc/terms/title> """Executive Agency for the Public Health Programme (PHEA)"""@en .
+<http://agencies.publicdata.eu/r/PHEA> <http://www.w3.org/2000/01/rdf-schema#label> """Executive Agency for the Public Health Programme"""@en .
+<http://agencies.publicdata.eu/r/PHEA> <http://agencies.publicdata.eu/ontology/token> """PHEA""" .
+<http://agencies.publicdata.eu/r/PHEA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ec.europa.eu/eahc/> .
+<http://agencies.publicdata.eu/r/EIT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/EIT> <http://purl.org/dc/terms/title> """Europeiska institutet för innovation och teknik (EIT)"""@sv .
+<http://agencies.publicdata.eu/r/EIT> <http://www.w3.org/2000/01/rdf-schema#label> """Europeiska institutet för innovation och teknik"""@sv .
+<http://agencies.publicdata.eu/r/EIT> <http://agencies.publicdata.eu/ontology/token> """EIT""" .
+<http://agencies.publicdata.eu/r/EIT> <http://xmlns.com/foaf/0.1/homepage> <http://eit.europa.eu/> .
+<http://agencies.publicdata.eu/r/EIT> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Hungary> .
+<http://agencies.publicdata.eu/r/European%2BInstitute%2Bfor%2BGender%2BEquality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/European%2BInstitute%2Bfor%2BGender%2BEquality> <http://purl.org/dc/terms/title> """European Institute for Gender Equality"""@en .
+<http://agencies.publicdata.eu/r/European%2BInstitute%2Bfor%2BGender%2BEquality> <http://www.w3.org/2000/01/rdf-schema#label> """European Institute for Gender Equality"""@en .
+<http://agencies.publicdata.eu/r/European%2BInstitute%2Bfor%2BGender%2BEquality> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/policy_agencies/eige/index_en.htm> .
+<http://agencies.publicdata.eu/r/European%2BInstitute%2Bfor%2BGender%2BEquality> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.eige.europa.eu/> .
+<http://agencies.publicdata.eu/r/European%2BInstitute%2Bfor%2BGender%2BEquality> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/Lithuania> .
+<http://agencies.publicdata.eu/r/European%2BInstitute%2Bfor%2BGender%2BEquality> <http://agencies.publicdata.eu/ontology/zip> """LT-03228""" .
+<http://agencies.publicdata.eu/r/European%2BInstitute%2Bfor%2BGender%2BEquality> <http://agencies.publicdata.eu/ontology/locatedInCity> <http://agencies.publicdata.eu/r/city/Vilnius> .
+<http://agencies.publicdata.eu/r/European%2BInstitute%2Bfor%2BGender%2BEquality> <http://agencies.publicdata.eu/ontology/phone> <tel:+37052394140> .
+<http://agencies.publicdata.eu/r/European%2BInstitute%2Bfor%2BGender%2BEquality> <http://xmlns.com/foaf/0.1/mbox> <mailto:eige.sec@eige.europa.eu> .
+<http://agencies.publicdata.eu/r/EMEA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://agencies.publicdata.eu/ontology/Agency> .
+<http://agencies.publicdata.eu/r/EMEA> <http://purl.org/dc/terms/title> """Europeiska läkemedelsmyndigheten (EMEA)"""@sv .
+<http://agencies.publicdata.eu/r/EMEA> <http://www.w3.org/2000/01/rdf-schema#label> """Europeiska läkemedelsmyndigheten"""@sv .
+<http://agencies.publicdata.eu/r/EMEA> <http://agencies.publicdata.eu/ontology/token> """EMEA""" .
+<http://agencies.publicdata.eu/r/EMEA> <http://xmlns.com/foaf/0.1/homepage> <http://europa.eu/agencies/regulatory_agencies_bodies/policy_agencies/ema/index_en.htm> .
+<http://agencies.publicdata.eu/r/EMEA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.ema.europa.eu/ema/index.jsp?curl=/pages/home/Home_Page.jsp> .
+<http://agencies.publicdata.eu/r/EMEA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.ema.europa.eu/ema/index.jsp?curl=pages/about_us/general/general_content_000264.jsp&mid=WC0b01ac0580028e7c&murl=menus/about_us/about_us.jsp> .
+<http://agencies.publicdata.eu/r/EMEA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.ema.europa.eu/ema/index.jsp?curl=pages/about_us/general/general_content_000264.jsp&murl=menus/about_us/about_us.jsp&mid=WC0b01ac0580028e7cral/general_content_000264.jsp&murl=menus/about_us/about_us.jsp&mid=WC0b01ac0580028e7c> .
+<http://agencies.publicdata.eu/r/EMEA> <http://agencies.publicdata.eu/ontology/locatedInCountry> <http://agencies.publicdata.eu/r/country/United+Kingdom> .
+<http://agencies.publicdata.eu/r/EMEA> <http://agencies.publicdata.eu/ontology/phone> <tel:(44-20)74188400> .
+<http://agencies.publicdata.eu/r/EMEA> <http://agencies.publicdata.eu/ontology/fax> <tel:(44-20)74188416> .
+<http://agencies.publicdata.eu/r/EMEA> <http://xmlns.com/foaf/0.1/mbox> <mailto:info@ema.europa.eu> .

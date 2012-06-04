@@ -1,0 +1,549 @@
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+report+single+rdg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+report+single+rdg> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+report+single+rdg> <http://purl.org/dc/terms/title> """EP Cttee report single rdg"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EP+opinion+single+rdg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EP+opinion+single+rdg> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EP+opinion+single+rdg> <http://purl.org/dc/terms/title> """EP opinion single rdg"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Formal+adoption+by+Council> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Formal+adoption+by+Council> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Formal+adoption+by+Council> <http://purl.org/dc/terms/title> """Formal adoption by Council"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Transmission+to+Council> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Transmission+to+Council> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Transmission+to+Council> <http://purl.org/dc/terms/title> """Transmission to Council"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Transmission+to+EP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Transmission+to+EP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Transmission+to+EP> <http://purl.org/dc/terms/title> """Transmission to EP"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Adoption+by+Commission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Adoption+by+Commission> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Adoption+by+Commission> <http://purl.org/dc/terms/title> """Adoption by Commission"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EP+resolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EP+resolution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EP+resolution> <http://purl.org/dc/terms/title> """EP resolution"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Adoption+amended+proposal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Adoption+amended+proposal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Adoption+amended+proposal> <http://purl.org/dc/terms/title> """Adoption amended proposal"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Commission+position+on+EP+amendments+on+1st+reading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Commission+position+on+EP+amendments+on+1st+reading> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Commission+position+on+EP+amendments+on+1st+reading> <http://purl.org/dc/terms/title> """Commission position on EP amendments on 1st reading"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Council+approval+1st+rdg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Council+approval+1st+rdg> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Council+approval+1st+rdg> <http://purl.org/dc/terms/title> """Council approval 1st rdg"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+report+1st+rdg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+report+1st+rdg> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+report+1st+rdg> <http://purl.org/dc/terms/title> """EP Cttee report 1st rdg"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EP+opinion+1st+rdg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EP+opinion+1st+rdg> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EP+opinion+1st+rdg> <http://purl.org/dc/terms/title> """EP opinion 1st rdg"""@en . 
+<http://prelex.publicdata.eu/r/eventType/European+Central+Bank+opinion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/European+Central+Bank+opinion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/European+Central+Bank+opinion> <http://purl.org/dc/terms/title> """European Central Bank opinion"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Signature+by+EP+and+Council> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Signature+by+EP+and+Council> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Signature+by+EP+and+Council> <http://purl.org/dc/terms/title> """Signature by EP and Council"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Trans.+amend.+prop.+to+Council> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Trans.+amend.+prop.+to+Council> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Trans.+amend.+prop.+to+Council> <http://purl.org/dc/terms/title> """Trans. amend. prop. to Council"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Transm.+amended+prop.+to+EP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Transm.+amended+prop.+to+EP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Transm.+amended+prop.+to+EP> <http://purl.org/dc/terms/title> """Transm. amended prop. to EP"""@en . 
+<http://prelex.publicdata.eu/r/eventType/ESC+opinion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/ESC+opinion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/ESC+opinion> <http://purl.org/dc/terms/title> """ESC opinion"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Council+conclusions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Council+conclusions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Council+conclusions> <http://purl.org/dc/terms/title> """Council conclusions"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Adopt.+declaration+comn+posit.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Adopt.+declaration+comn+posit.> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Adopt.+declaration+comn+posit.> <http://purl.org/dc/terms/title> """Adopt. declaration comn posit."""@en . 
+<http://prelex.publicdata.eu/r/eventType/Adoption+common+position> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Adoption+common+position> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Adoption+common+position> <http://purl.org/dc/terms/title> """Adoption common position"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EP+opinion+2nd+rdg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EP+opinion+2nd+rdg> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EP+opinion+2nd+rdg> <http://purl.org/dc/terms/title> """EP opinion 2nd rdg"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EP+receipt+of+common+position> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EP+receipt+of+common+position> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EP+receipt+of+common+position> <http://purl.org/dc/terms/title> """EP receipt of common position"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Trans.+Council+decl.+cmn+posn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Trans.+Council+decl.+cmn+posn> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Trans.+Council+decl.+cmn+posn> <http://purl.org/dc/terms/title> """Trans. Council decl. cmn posn"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Trans.+EP+decl.+cmn+posn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Trans.+EP+decl.+cmn+posn> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Trans.+EP+decl.+cmn+posn> <http://purl.org/dc/terms/title> """Trans. EP decl. cmn posn"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Adoption+of+Commission+opinion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Adoption+of+Commission+opinion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Adoption+of+Commission+opinion> <http://purl.org/dc/terms/title> """Adoption of Commission opinion"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Commission+position+on+EP+amendments+on+2nd+reading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Commission+position+on+EP+amendments+on+2nd+reading> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Commission+position+on+EP+amendments+on+2nd+reading> <http://purl.org/dc/terms/title> """Commission position on EP amendments on 2nd reading"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Conciliation+Comm.+decision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Conciliation+Comm.+decision> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Conciliation+Comm.+decision> <http://purl.org/dc/terms/title> """Conciliation Comm. decision"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Convening+Conciliation+Comm.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Convening+Conciliation+Comm.> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Convening+Conciliation+Comm.> <http://purl.org/dc/terms/title> """Convening Conciliation Comm."""@en . 
+<http://prelex.publicdata.eu/r/eventType/Council+decision+at+3rd+rdg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Council+decision+at+3rd+rdg> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Council+decision+at+3rd+rdg> <http://purl.org/dc/terms/title> """Council decision at 3rd rdg"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EP+decision+on+3rd+rdg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EP+decision+on+3rd+rdg> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EP+decision+on+3rd+rdg> <http://purl.org/dc/terms/title> """EP decision on 3rd rdg"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Trans.+Council+Comm.+opinion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Trans.+Council+Comm.+opinion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Trans.+Council+Comm.+opinion> <http://purl.org/dc/terms/title> """Trans. Council Comm. opinion"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Transm.+EP+Commiss.+opinion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Transm.+EP+Commiss.+opinion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Transm.+EP+Commiss.+opinion> <http://purl.org/dc/terms/title> """Transm. EP Commiss. opinion"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Association+Council+decision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Association+Council+decision> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Association+Council+decision> <http://purl.org/dc/terms/title> """Association Council decision"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EP+assent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EP+assent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EP+assent> <http://purl.org/dc/terms/title> """EP assent"""@en . 
+<http://prelex.publicdata.eu/r/eventType/CDR+own-initiative+opinion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/CDR+own-initiative+opinion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/CDR+own-initiative+opinion> <http://purl.org/dc/terms/title> """CDR own-initiative opinion"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+report+-+resolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+report+-+resolution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+report+-+resolution> <http://purl.org/dc/terms/title> """EP Cttee report - resolution"""@en . 
+<http://prelex.publicdata.eu/r/eventType/ESC+own-initiative+opinion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/ESC+own-initiative+opinion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/ESC+own-initiative+opinion> <http://purl.org/dc/terms/title> """ESC own-initiative opinion"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Commission+position+on+EP+amendments+on+single+reading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Commission+position+on+EP+amendments+on+single+reading> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Commission+position+on+EP+amendments+on+single+reading> <http://purl.org/dc/terms/title> """Commission position on EP amendments on single reading"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Committee+of+Regions+opinion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Committee+of+Regions+opinion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Committee+of+Regions+opinion> <http://purl.org/dc/terms/title> """Committee of Regions opinion"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Council+agreement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Council+agreement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Council+agreement> <http://purl.org/dc/terms/title> """Council agreement"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Council+approval+2nd+rdg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Council+approval+2nd+rdg> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Council+approval+2nd+rdg> <http://purl.org/dc/terms/title> """Council approval 2nd rdg"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Council+resolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Council+resolution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Council+resolution> <http://purl.org/dc/terms/title> """Council resolution"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Pol.+agreement+common+position> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Pol.+agreement+common+position> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Pol.+agreement+common+position> <http://purl.org/dc/terms/title> """Pol. agreement common position"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Withdrawal+by+Commission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Withdrawal+by+Commission> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Withdrawal+by+Commission> <http://purl.org/dc/terms/title> """Withdrawal by Commission"""@en . 
+<http://prelex.publicdata.eu/r/eventType/CPE+opinion+single+rdg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/CPE+opinion+single+rdg> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/CPE+opinion+single+rdg> <http://purl.org/dc/terms/title> """CPE opinion single rdg"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Change+of+legal+basis+by+Cncl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Change+of+legal+basis+by+Cncl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Change+of+legal+basis+by+Cncl> <http://purl.org/dc/terms/title> """Change of legal basis by Cncl"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Commission+communication+on+the+action+taken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Commission+communication+on+the+action+taken> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Commission+communication+on+the+action+taken> <http://purl.org/dc/terms/title> """Commission communication on the action taken"""@en . 
+<http://prelex.publicdata.eu/r/eventType/ACP-EC+Coun+Ministers+Decision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/ACP-EC+Coun+Ministers+Decision> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/ACP-EC+Coun+Ministers+Decision> <http://purl.org/dc/terms/title> """ACP-EC Coun Ministers Decision"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Self-referral+by+COR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Self-referral+by+COR> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Self-referral+by+COR> <http://purl.org/dc/terms/title> """Self-referral by COR"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Discussions+at+Council> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Discussions+at+Council> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Discussions+at+Council> <http://purl.org/dc/terms/title> """Discussions at Council"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Corrigendum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Corrigendum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Corrigendum> <http://purl.org/dc/terms/title> """Corrigendum"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+report+2nd+rdg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+report+2nd+rdg> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+report+2nd+rdg> <http://purl.org/dc/terms/title> """EP Cttee report 2nd rdg"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Joint+Council+decision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Joint+Council+decision> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Joint+Council+decision> <http://purl.org/dc/terms/title> """Joint Council decision"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Partial+adoption+by+Council> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Partial+adoption+by+Council> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Partial+adoption+by+Council> <http://purl.org/dc/terms/title> """Partial adoption by Council"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Addendum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Addendum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Addendum> <http://purl.org/dc/terms/title> """Addendum"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Cooperation+Council+decision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Cooperation+Council+decision> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Cooperation+Council+decision> <http://purl.org/dc/terms/title> """Cooperation Council decision"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Court+of+Auditors+opinion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Court+of+Auditors+opinion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Court+of+Auditors+opinion> <http://purl.org/dc/terms/title> """Court of Auditors opinion"""@en . 
+<http://prelex.publicdata.eu/r/eventType/N.C.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/N.C.> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/N.C.> <http://purl.org/dc/terms/title> """N.C."""@en . 
+<http://prelex.publicdata.eu/r/eventType/Court+of+Justice+judgment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Court+of+Justice+judgment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Court+of+Justice+judgment> <http://purl.org/dc/terms/title> """Court of Justice judgment"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Adoption+of+act+by+Commission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Adoption+of+act+by+Commission> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Adoption+of+act+by+Commission> <http://purl.org/dc/terms/title> """Adoption of act by Commission"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+opinion+-+resolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+opinion+-+resolution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+opinion+-+resolution> <http://purl.org/dc/terms/title> """EP Cttee opinion - resolution"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+report+on+assent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+report+on+assent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+report+on+assent> <http://purl.org/dc/terms/title> """EP Cttee report on assent"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EP+decision+budgetary+discharg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EP+decision+budgetary+discharg> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EP+decision+budgetary+discharg> <http://purl.org/dc/terms/title> """EP decision budgetary discharg"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Change+of+legal+basis+by+Comm.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Change+of+legal+basis+by+Comm.> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Change+of+legal+basis+by+Comm.> <http://purl.org/dc/terms/title> """Change of legal basis by Comm."""@en . 
+<http://prelex.publicdata.eu/r/eventType/Discuss.+budget+Council+1st+rdg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Discuss.+budget+Council+1st+rdg> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Discuss.+budget+Council+1st+rdg> <http://purl.org/dc/terms/title> """Discuss. budget Council 1st rdg"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Discuss.+budget+Council+2nd+rdg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Discuss.+budget+Council+2nd+rdg> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Discuss.+budget+Council+2nd+rdg> <http://purl.org/dc/terms/title> """Discuss. budget Council 2nd rdg"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Discuss.+budget+EP+1st+rdg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Discuss.+budget+EP+1st+rdg> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Discuss.+budget+EP+1st+rdg> <http://purl.org/dc/terms/title> """Discuss. budget EP 1st rdg"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EP+discuss.+budget+2nd+rdg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EP+discuss.+budget+2nd+rdg> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EP+discuss.+budget+2nd+rdg> <http://purl.org/dc/terms/title> """EP discuss. budget 2nd rdg"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Signature+of+budget+by+EP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Signature+of+budget+by+EP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Signature+of+budget+by+EP> <http://purl.org/dc/terms/title> """Signature of budget by EP"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Adoption+by+EP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Adoption+by+EP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Adoption+by+EP> <http://purl.org/dc/terms/title> """Adoption by EP"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Court+of+Justice+opinion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Court+of+Justice+opinion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Court+of+Justice+opinion> <http://purl.org/dc/terms/title> """Court of Justice opinion"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Supplement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Supplement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Supplement> <http://purl.org/dc/terms/title> """Supplement"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+opinion+1st+rdg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+opinion+1st+rdg> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+opinion+1st+rdg> <http://purl.org/dc/terms/title> """EP Cttee opinion 1st rdg"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+report+3rd+rdg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+report+3rd+rdg> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+report+3rd+rdg> <http://purl.org/dc/terms/title> """EP Cttee report 3rd rdg"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Cncl+decision+budgetary+act> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Cncl+decision+budgetary+act> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Cncl+decision+budgetary+act> <http://purl.org/dc/terms/title> """Cncl decision budgetary act"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EP+opinion+on+budgetary+act> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EP+opinion+on+budgetary+act> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EP+opinion+on+budgetary+act> <http://purl.org/dc/terms/title> """EP opinion on budgetary act"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Joint+Committee+decision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Joint+Committee+decision> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Joint+Committee+decision> <http://purl.org/dc/terms/title> """Joint Committee decision"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Council+opinion+budgetary+act> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Council+opinion+budgetary+act> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Council+opinion+budgetary+act> <http://purl.org/dc/terms/title> """Council opinion budgetary act"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Council+assent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Council+assent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Council+assent> <http://purl.org/dc/terms/title> """Council assent"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EP+decision+on+budgetary+act> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EP+decision+on+budgetary+act> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EP+decision+on+budgetary+act> <http://purl.org/dc/terms/title> """EP decision on budgetary act"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+report+budgetary+act> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+report+budgetary+act> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+report+budgetary+act> <http://purl.org/dc/terms/title> """EP Cttee report budgetary act"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Consultation+of+ESC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Consultation+of+ESC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Consultation+of+ESC> <http://purl.org/dc/terms/title> """Consultation of ESC"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Consultation+of+EP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Consultation+of+EP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Consultation+of+EP> <http://purl.org/dc/terms/title> """Consultation of EP"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Adoption+re-examined+proposal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Adoption+re-examined+proposal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Adoption+re-examined+proposal> <http://purl.org/dc/terms/title> """Adoption re-examined proposal"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Transmis.+re-exam.+prop.+to+CS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Transmis.+re-exam.+prop.+to+CS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Transmis.+re-exam.+prop.+to+CS> <http://purl.org/dc/terms/title> """Transmis. re-exam. prop. to CS"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Transm.+re-exam.prop.+to+EP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Transm.+re-exam.prop.+to+EP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Transm.+re-exam.prop.+to+EP> <http://purl.org/dc/terms/title> """Transm. re-exam.prop. to EP"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Approval+by+Commission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Approval+by+Commission> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Approval+by+Commission> <http://purl.org/dc/terms/title> """Approval by Commission"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Replacement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Replacement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Replacement> <http://purl.org/dc/terms/title> """Replacement"""@en . 
+<http://prelex.publicdata.eu/r/eventType/ECSC+Consultative+Com.+opinion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/ECSC+Consultative+Com.+opinion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/ECSC+Consultative+Com.+opinion> <http://purl.org/dc/terms/title> """ECSC Consultative Com. opinion"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Decision+Cooperation+Committee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Decision+Cooperation+Committee> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Decision+Cooperation+Committee> <http://purl.org/dc/terms/title> """Decision Cooperation Committee"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Partial+withdrawal+by+Commiss.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Partial+withdrawal+by+Commiss.> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Partial+withdrawal+by+Commiss.> <http://purl.org/dc/terms/title> """Partial withdrawal by Commiss."""@en . 
+<http://prelex.publicdata.eu/r/eventType/Consultation+Court+of+Auditors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Consultation+Court+of+Auditors> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Consultation+Court+of+Auditors> <http://purl.org/dc/terms/title> """Consultation Court of Auditors"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Partial+replacement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Partial+replacement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Partial+replacement> <http://purl.org/dc/terms/title> """Partial replacement"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+opinion+2nd+rdg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+opinion+2nd+rdg> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+opinion+2nd+rdg> <http://purl.org/dc/terms/title> """EP Cttee opinion 2nd rdg"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Consultation+Court+of+Justice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Consultation+Court+of+Justice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Consultation+Court+of+Justice> <http://purl.org/dc/terms/title> """Consultation Court of Justice"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Council+opinion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Council+opinion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Council+opinion> <http://purl.org/dc/terms/title> """Council opinion"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+opinion+on+assent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+opinion+on+assent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+opinion+on+assent> <http://purl.org/dc/terms/title> """EP Cttee opinion on assent"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EMI+opinion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EMI+opinion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EMI+opinion> <http://purl.org/dc/terms/title> """EMI opinion"""@en . 
+<http://prelex.publicdata.eu/r/eventType/No+adoption+by+Council> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/No+adoption+by+Council> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/No+adoption+by+Council> <http://purl.org/dc/terms/title> """No adoption by Council"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Consultation+EP+by+Commission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Consultation+EP+by+Commission> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Consultation+EP+by+Commission> <http://purl.org/dc/terms/title> """Consultation EP by Commission"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Consultation+ESC+by+Comm.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Consultation+ESC+by+Comm.> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Consultation+ESC+by+Comm.> <http://purl.org/dc/terms/title> """Consultation ESC by Comm."""@en . 
+<http://prelex.publicdata.eu/r/eventType/Implicit+replacement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Implicit+replacement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Implicit+replacement> <http://purl.org/dc/terms/title> """Implicit replacement"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Information+EP+rejection+2nd+rdg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Information+EP+rejection+2nd+rdg> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Information+EP+rejection+2nd+rdg> <http://purl.org/dc/terms/title> """Information EP rejection 2nd rdg"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Partial+signature+by+EP+and+Council> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Partial+signature+by+EP+and+Council> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Partial+signature+by+EP+and+Council> <http://purl.org/dc/terms/title> """Partial signature by EP and Council"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Confirmation+common+position> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Confirmation+common+position> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Confirmation+common+position> <http://purl.org/dc/terms/title> """Confirmation common position"""@en . 
+<http://prelex.publicdata.eu/r/eventType/ESC+resolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/ESC+resolution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/ESC+resolution> <http://purl.org/dc/terms/title> """ESC resolution"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Consultation+Monetary+Committ.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Consultation+Monetary+Committ.> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Consultation+Monetary+Committ.> <http://purl.org/dc/terms/title> """Consultation Monetary Committ."""@en . 
+<http://prelex.publicdata.eu/r/eventType/Consultation+of+EMI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Consultation+of+EMI> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Consultation+of+EMI> <http://purl.org/dc/terms/title> """Consultation of EMI"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+opinion+budgetary+act> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+opinion+budgetary+act> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EP+Cttee+opinion+budgetary+act> <http://purl.org/dc/terms/title> """EP Cttee opinion budgetary act"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Rejection+by+Council> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Rejection+by+Council> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Rejection+by+Council> <http://purl.org/dc/terms/title> """Rejection by Council"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EIB+opinion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EIB+opinion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EIB+opinion> <http://purl.org/dc/terms/title> """EIB opinion"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Monetary+Committee+opinion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Monetary+Committee+opinion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Monetary+Committee+opinion> <http://purl.org/dc/terms/title> """Monetary Committee opinion"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Decision+ACP-EC+Commit.+Ambas.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Decision+ACP-EC+Commit.+Ambas.> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Decision+ACP-EC+Commit.+Ambas.> <http://purl.org/dc/terms/title> """Decision ACP-EC Commit. Ambas."""@en . 
+<http://prelex.publicdata.eu/r/eventType/Communication+du+Parlement+europ%C3%A9en+sur+les+suites+donn%C3%A9es> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Communication+du+Parlement+europ%C3%A9en+sur+les+suites+donn%C3%A9es> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Communication+du+Parlement+europ%C3%A9en+sur+les+suites+donn%C3%A9es> <http://purl.org/dc/terms/title> """Communication du Parlement européen sur les suites données"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Decision+on+follow-up+action> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Decision+on+follow-up+action> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Decision+on+follow-up+action> <http://purl.org/dc/terms/title> """Decision on follow-up action"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Committ.+of+Regions+resolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Committ.+of+Regions+resolution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Committ.+of+Regions+resolution> <http://purl.org/dc/terms/title> """Committ. of Regions resolution"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EESC+opinion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EESC+opinion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EESC+opinion> <http://purl.org/dc/terms/title> """EESC opinion"""@en . 
+<http://prelex.publicdata.eu/r/eventType/ESC+exploratory+opinion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/ESC+exploratory+opinion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/ESC+exploratory+opinion> <http://purl.org/dc/terms/title> """ESC exploratory opinion"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EESC+exploratory+opinion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EESC+exploratory+opinion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EESC+exploratory+opinion> <http://purl.org/dc/terms/title> """EESC exploratory opinion"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Joint+Committee+Decision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Joint+Committee+Decision> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Joint+Committee+Decision> <http://purl.org/dc/terms/title> """Joint Committee Decision"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EESC+own-initiative+opinion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EESC+own-initiative+opinion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EESC+own-initiative+opinion> <http://purl.org/dc/terms/title> """EESC own-initiative opinion"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Opinion+of+the+European+Data+Protection+Supervisor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Opinion+of+the+European+Data+Protection+Supervisor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Opinion+of+the+European+Data+Protection+Supervisor> <http://purl.org/dc/terms/title> """Opinion of the European Data Protection Supervisor"""@en . 
+<http://prelex.publicdata.eu/r/eventType/Transmission+to+European+Ombudsman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/Transmission+to+European+Ombudsman> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/Transmission+to+European+Ombudsman> <http://purl.org/dc/terms/title> """Transmission to European Ombudsman"""@en . 
+<http://prelex.publicdata.eu/r/eventType/EESC+resolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/eventType/EESC+resolution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Event> . 
+<http://prelex.publicdata.eu/r/eventType/EESC+resolution> <http://purl.org/dc/terms/title> """EESC resolution"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Recomm.+for+a+Regulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Recomm.+for+a+Regulation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Recomm.+for+a+Regulation> <http://purl.org/dc/terms/title> """Recomm. for a Regulation"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Decision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Decision> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Decision> <http://purl.org/dc/terms/title> """Decision"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Recommendation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Recommendation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Recommendation> <http://purl.org/dc/terms/title> """Recommendation"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Communication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Communication> <http://purl.org/dc/terms/title> """Communication"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+a+Regulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+a+Regulation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+a+Regulation> <http://purl.org/dc/terms/title> """Proposal for a Regulation"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Report> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Report> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Report> <http://purl.org/dc/terms/title> """Report"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+a+Directive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+a+Directive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+a+Directive> <http://purl.org/dc/terms/title> """Proposal for a Directive"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+a+Decision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+a+Decision> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+a+Decision> <http://purl.org/dc/terms/title> """Proposal for a Decision"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+a+Recommendation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+a+Recommendation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+a+Recommendation> <http://purl.org/dc/terms/title> """Proposal for a Recommendation"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Resolution+of+EP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Resolution+of+EP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Resolution+of+EP> <http://purl.org/dc/terms/title> """Resolution of EP"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+communication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+communication> <http://purl.org/dc/terms/title> """Draft communication"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Working+Paper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Working+Paper> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Working+Paper> <http://purl.org/dc/terms/title> """Working Paper"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Recomm.+for+a+Recommendation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Recomm.+for+a+Recommendation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Recomm.+for+a+Recommendation> <http://purl.org/dc/terms/title> """Recomm. for a Recommendation"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+a+Council+Framework+Decision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+a+Council+Framework+Decision> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+a+Council+Framework+Decision> <http://purl.org/dc/terms/title> """Proposal for a Council Framework Decision"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Green+Paper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Green+Paper> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Green+Paper> <http://purl.org/dc/terms/title> """Green Paper"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+regulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+regulation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+regulation> <http://purl.org/dc/terms/title> """Draft regulation"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Regulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Regulation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Regulation> <http://purl.org/dc/terms/title> """Regulation"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+interinstitut.+agreement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+interinstitut.+agreement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+interinstitut.+agreement> <http://purl.org/dc/terms/title> """Draft interinstitut. agreement"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+directive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+directive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+directive> <http://purl.org/dc/terms/title> """Draft directive"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/White+Paper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/White+Paper> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/White+Paper> <http://purl.org/dc/terms/title> """White Paper"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Recommendation+for+a+Decision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Recommendation+for+a+Decision> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Recommendation+for+a+Decision> <http://purl.org/dc/terms/title> """Recommendation for a Decision"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Opinion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Opinion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Opinion> <http://purl.org/dc/terms/title> """Opinion"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Transfer+of+appropriations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Transfer+of+appropriations> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Transfer+of+appropriations> <http://purl.org/dc/terms/title> """Transfer of appropriations"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+decision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+decision> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+decision> <http://purl.org/dc/terms/title> """Draft decision"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Letter+of+amendment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Letter+of+amendment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Letter+of+amendment> <http://purl.org/dc/terms/title> """Letter of amendment"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Staff+Working+Paper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Staff+Working+Paper> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Staff+Working+Paper> <http://purl.org/dc/terms/title> """Staff Working Paper"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Council+Assent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Council+Assent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Council+Assent> <http://purl.org/dc/terms/title> """Council Assent"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Prelim.+Draft+supplem.+Budget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Prelim.+Draft+supplem.+Budget> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Prelim.+Draft+supplem.+Budget> <http://purl.org/dc/terms/title> """Prelim. Draft supplem. Budget"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Request+for+Council+Assent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Request+for+Council+Assent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Request+for+Council+Assent> <http://purl.org/dc/terms/title> """Request for Council Assent"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Declaration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Declaration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Declaration> <http://purl.org/dc/terms/title> """Declaration"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+ECSC+budget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+ECSC+budget> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+ECSC+budget> <http://purl.org/dc/terms/title> """Draft ECSC budget"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+Treaty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+Treaty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+Treaty> <http://purl.org/dc/terms/title> """Draft Treaty"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+declaration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+declaration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+declaration> <http://purl.org/dc/terms/title> """Draft declaration"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+resolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+resolution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+resolution> <http://purl.org/dc/terms/title> """Draft resolution"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Programme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Programme> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Programme> <http://purl.org/dc/terms/title> """Programme"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+agreement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+agreement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+agreement> <http://purl.org/dc/terms/title> """Draft agreement"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Preliminary+Draft+Budget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Preliminary+Draft+Budget> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Preliminary+Draft+Budget> <http://purl.org/dc/terms/title> """Preliminary Draft Budget"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+a+Resolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+a+Resolution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+a+Resolution> <http://purl.org/dc/terms/title> """Proposal for a Resolution"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+recommendation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+recommendation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+recommendation> <http://purl.org/dc/terms/title> """Draft recommendation"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Memorandum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Memorandum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Memorandum> <http://purl.org/dc/terms/title> """Memorandum"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+agreement+Member+States> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+agreement+Member+States> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+agreement+Member+States> <http://purl.org/dc/terms/title> """Draft agreement Member States"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Periodic+report> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Periodic+report> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Periodic+report> <http://purl.org/dc/terms/title> """Periodic report"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+protocol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+protocol> <http://purl.org/dc/terms/title> """Draft protocol"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Letter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Letter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Letter> <http://purl.org/dc/terms/title> """Letter"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Directive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Directive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Directive> <http://purl.org/dc/terms/title> """Directive"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+a+Declaration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+a+Declaration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+a+Declaration> <http://purl.org/dc/terms/title> """Proposal for a Declaration"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Agreement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Agreement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Agreement> <http://purl.org/dc/terms/title> """Agreement"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Supplem.+and+amending+Budet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Supplem.+and+amending+Budet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Supplem.+and+amending+Budet> <http://purl.org/dc/terms/title> """Supplem. and amending Budet"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Note> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Note> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Note> <http://purl.org/dc/terms/title> """Note"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+an+Act> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+an+Act> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+an+Act> <http://purl.org/dc/terms/title> """Proposal for an Act"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+Common+Position> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+Common+Position> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+Common+Position> <http://purl.org/dc/terms/title> """Draft Common Position"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+a+Common+Position> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+a+Common+Position> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+a+Common+Position> <http://purl.org/dc/terms/title> """Proposal for a Common Position"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/ECSC+Budget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/ECSC+Budget> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/ECSC+Budget> <http://purl.org/dc/terms/title> """ECSC Budget"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+a+joint+action> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+a+joint+action> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Proposal+for+a+joint+action> <http://purl.org/dc/terms/title> """Proposal for a joint action"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Joint+action> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Joint+action> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Joint+action> <http://purl.org/dc/terms/title> """Joint action"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Recommendation+for+an+Opinion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Recommendation+for+an+Opinion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Recommendation+for+an+Opinion> <http://purl.org/dc/terms/title> """Recommendation for an Opinion"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Agreement+betw.+Member+states> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Agreement+betw.+Member+states> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Agreement+betw.+Member+states> <http://purl.org/dc/terms/title> """Agreement betw. Member states"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+budget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+budget> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+budget> <http://purl.org/dc/terms/title> """Draft budget"""@en . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+suppl.+and+amend.+budget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+suppl.+and+amend.+budget> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://prelex.publicdata.eu/ontology/Document> . 
+<http://prelex.publicdata.eu/r/legislativeType/Draft+suppl.+and+amend.+budget> <http://purl.org/dc/terms/title> """Draft suppl. and amend. budget"""@en . 

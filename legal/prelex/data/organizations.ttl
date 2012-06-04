@@ -1,0 +1,244 @@
+<http://prelex.publicdata.eu/r/organization/DG+Health%2C+Consumer+Protection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Health%2C+Consumer+Protection> <http://www.w3.org/2000/01/rdf-schema#label> """DG Health, Consumer Protection"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+External+Relations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+External+Relations> <http://www.w3.org/2000/01/rdf-schema#label> """DG External Relations"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG11> <http://www.w3.org/2000/01/rdf-schema#label> """DG11"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Development> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Development> <http://www.w3.org/2000/01/rdf-schema#label> """DG Development"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Trade> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Trade> <http://www.w3.org/2000/01/rdf-schema#label> """DG Trade"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Environment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Environment> <http://www.w3.org/2000/01/rdf-schema#label> """DG Environment"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Education+and+Culture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Education+and+Culture> <http://www.w3.org/2000/01/rdf-schema#label> """DG Education and Culture"""@en . 
+<http://prelex.publicdata.eu/r/organization/Eurostat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/Eurostat> <http://www.w3.org/2000/01/rdf-schema#label> """Eurostat"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Internal+Market> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Internal+Market> <http://www.w3.org/2000/01/rdf-schema#label> """DG Internal Market"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Fisheries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Fisheries> <http://www.w3.org/2000/01/rdf-schema#label> """DG Fisheries"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Enterprise> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Enterprise> <http://www.w3.org/2000/01/rdf-schema#label> """DG Enterprise"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Information+Society> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Information+Society> <http://www.w3.org/2000/01/rdf-schema#label> """DG Information Society"""@en . 
+<http://prelex.publicdata.eu/r/organization/Com.+Service+Extern.+Relations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/Com.+Service+Extern.+Relations> <http://www.w3.org/2000/01/rdf-schema#label> """Com. Service Extern. Relations"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Enlargement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Enlargement> <http://www.w3.org/2000/01/rdf-schema#label> """DG Enlargement"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Taxation+and+Customs+Union> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Taxation+and+Customs+Union> <http://www.w3.org/2000/01/rdf-schema#label> """DG Taxation and Customs Union"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Personnel-Administration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Personnel-Administration> <http://www.w3.org/2000/01/rdf-schema#label> """DG Personnel-Administration"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Employment%2C+Social+Affairs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Employment%2C+Social+Affairs> <http://www.w3.org/2000/01/rdf-schema#label> """DG Employment, Social Affairs"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Agriculture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Agriculture> <http://www.w3.org/2000/01/rdf-schema#label> """DG Agriculture"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Justice+and+Home+Affairs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Justice+and+Home+Affairs> <http://www.w3.org/2000/01/rdf-schema#label> """DG Justice and Home Affairs"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Energy+and+Transport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Energy+and+Transport> <http://www.w3.org/2000/01/rdf-schema#label> """DG Energy and Transport"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Budget%3B+DG+Education+and+Culture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Budget%3B+DG+Education+and+Culture> <http://www.w3.org/2000/01/rdf-schema#label> """DG Budget; DG Education and Culture"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Transport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Transport> <http://www.w3.org/2000/01/rdf-schema#label> """DG Transport"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Economic%2C+Financial+Affairs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Economic%2C+Financial+Affairs> <http://www.w3.org/2000/01/rdf-schema#label> """DG Economic, Financial Affairs"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Energy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Energy> <http://www.w3.org/2000/01/rdf-schema#label> """DG Energy"""@en . 
+<http://prelex.publicdata.eu/r/organization/Secretariat-General> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/Secretariat-General> <http://www.w3.org/2000/01/rdf-schema#label> """Secretariat-General"""@en . 
+<http://prelex.publicdata.eu/r/organization/OLAF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/OLAF> <http://www.w3.org/2000/01/rdf-schema#label> """OLAF"""@en . 
+<http://prelex.publicdata.eu/r/organization/Joint+Research+Centre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/Joint+Research+Centre> <http://www.w3.org/2000/01/rdf-schema#label> """Joint Research Centre"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Regional+Policy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Regional+Policy> <http://www.w3.org/2000/01/rdf-schema#label> """DG Regional Policy"""@en . 
+<http://prelex.publicdata.eu/r/organization/Humanitarian+Aid+Office> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/Humanitarian+Aid+Office> <http://www.w3.org/2000/01/rdf-schema#label> """Humanitarian Aid Office"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG08> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG08> <http://www.w3.org/2000/01/rdf-schema#label> """DG08"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG19> <http://www.w3.org/2000/01/rdf-schema#label> """DG19"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG22> <http://www.w3.org/2000/01/rdf-schema#label> """DG22"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG05> <http://www.w3.org/2000/01/rdf-schema#label> """DG05"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG04> <http://www.w3.org/2000/01/rdf-schema#label> """DG04"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG01> <http://www.w3.org/2000/01/rdf-schema#label> """DG01"""@en . 
+<http://prelex.publicdata.eu/r/organization/Legal+Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/Legal+Service> <http://www.w3.org/2000/01/rdf-schema#label> """Legal Service"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG06> <http://www.w3.org/2000/01/rdf-schema#label> """DG06"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG07> <http://www.w3.org/2000/01/rdf-schema#label> """DG07"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG15> <http://www.w3.org/2000/01/rdf-schema#label> """DG15"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG01A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG01A> <http://www.w3.org/2000/01/rdf-schema#label> """DG01A"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG10> <http://www.w3.org/2000/01/rdf-schema#label> """DG10"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Budget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Budget> <http://www.w3.org/2000/01/rdf-schema#label> """DG Budget"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG14> <http://www.w3.org/2000/01/rdf-schema#label> """DG14"""@en . 
+<http://prelex.publicdata.eu/r/organization/Task+Force> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/Task+Force> <http://www.w3.org/2000/01/rdf-schema#label> """Task Force"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG16> <http://www.w3.org/2000/01/rdf-schema#label> """DG16"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Research> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Research> <http://www.w3.org/2000/01/rdf-schema#label> """DG Research"""@en . 
+<http://prelex.publicdata.eu/r/organization/SCR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/SCR> <http://www.w3.org/2000/01/rdf-schema#label> """SCR"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG02> <http://www.w3.org/2000/01/rdf-schema#label> """DG02"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG23> <http://www.w3.org/2000/01/rdf-schema#label> """DG23"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG17> <http://www.w3.org/2000/01/rdf-schema#label> """DG17"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG01B> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG01B> <http://www.w3.org/2000/01/rdf-schema#label> """DG01B"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG12> <http://www.w3.org/2000/01/rdf-schema#label> """DG12"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG03> <http://www.w3.org/2000/01/rdf-schema#label> """DG03"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG21> <http://www.w3.org/2000/01/rdf-schema#label> """DG21"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG13> <http://www.w3.org/2000/01/rdf-schema#label> """DG13"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG09> <http://www.w3.org/2000/01/rdf-schema#label> """DG09"""@en . 
+<http://prelex.publicdata.eu/r/organization/Euratom+Supply+Agency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/Euratom+Supply+Agency> <http://www.w3.org/2000/01/rdf-schema#label> """Euratom Supply Agency"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG24> <http://www.w3.org/2000/01/rdf-schema#label> """DG24"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Competition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Competition> <http://www.w3.org/2000/01/rdf-schema#label> """DG Competition"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG15%3B+Task+Force> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG15%3B+Task+Force> <http://www.w3.org/2000/01/rdf-schema#label> """DG15; Task Force"""@en . 
+<http://prelex.publicdata.eu/r/organization/CUA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/CUA> <http://www.w3.org/2000/01/rdf-schema#label> """CUA"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG18> <http://www.w3.org/2000/01/rdf-schema#label> """DG18"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG20> <http://www.w3.org/2000/01/rdf-schema#label> """DG20"""@en . 
+<http://prelex.publicdata.eu/r/organization/CUA%3B+DG01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/CUA%3B+DG01> <http://www.w3.org/2000/01/rdf-schema#label> """CUA; DG01"""@en . 
+<http://prelex.publicdata.eu/r/organization/JICS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/JICS> <http://www.w3.org/2000/01/rdf-schema#label> """JICS"""@en . 
+<http://prelex.publicdata.eu/r/organization/Consumer+Policy+Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/Consumer+Policy+Service> <http://www.w3.org/2000/01/rdf-schema#label> """Consumer Policy Service"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG09%3B+Joint+Research+Centre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG09%3B+Joint+Research+Centre> <http://www.w3.org/2000/01/rdf-schema#label> """DG09; Joint Research Centre"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG11%3B+Joint+Research+Centre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG11%3B+Joint+Research+Centre> <http://www.w3.org/2000/01/rdf-schema#label> """DG11; Joint Research Centre"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG10%3B+Secretariat-General> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG10%3B+Secretariat-General> <http://www.w3.org/2000/01/rdf-schema#label> """DG10; Secretariat-General"""@en . 
+<http://prelex.publicdata.eu/r/organization/Inspectorate-General> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/Inspectorate-General> <http://www.w3.org/2000/01/rdf-schema#label> """Inspectorate-General"""@en . 
+<http://prelex.publicdata.eu/r/organization/Forward+studies+unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/Forward+studies+unit> <http://www.w3.org/2000/01/rdf-schema#label> """Forward studies unit"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG01%3B+DG14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG01%3B+DG14> <http://www.w3.org/2000/01/rdf-schema#label> """DG01; DG14"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG09%3B+Task+Force> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG09%3B+Task+Force> <http://www.w3.org/2000/01/rdf-schema#label> """DG09; Task Force"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG08%3B+DG19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG08%3B+DG19> <http://www.w3.org/2000/01/rdf-schema#label> """DG08; DG19"""@en . 
+<http://prelex.publicdata.eu/r/organization/Translation+service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/Translation+service> <http://www.w3.org/2000/01/rdf-schema#label> """Translation service"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG01%3B+DG01A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG01%3B+DG01A> <http://www.w3.org/2000/01/rdf-schema#label> """DG01; DG01A"""@en . 
+<http://prelex.publicdata.eu/r/organization/Publications+Office> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/Publications+Office> <http://www.w3.org/2000/01/rdf-schema#label> """Publications Office"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Agriculture%3B+DG+Taxation+and+Customs+Union> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Agriculture%3B+DG+Taxation+and+Customs+Union> <http://www.w3.org/2000/01/rdf-schema#label> """DG Agriculture; DG Taxation and Customs Union"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Agriculture%3B+Eurostat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Agriculture%3B+Eurostat> <http://www.w3.org/2000/01/rdf-schema#label> """DG Agriculture; Eurostat"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Development%3B+DG+Energy+and+Transport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Development%3B+DG+Energy+and+Transport> <http://www.w3.org/2000/01/rdf-schema#label> """DG Development; DG Energy and Transport"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Development%3B+DG+Trade> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Development%3B+DG+Trade> <http://www.w3.org/2000/01/rdf-schema#label> """DG Development; DG Trade"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Employment%2C+Social+Affairs%3B+DG+Fisheries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Employment%2C+Social+Affairs%3B+DG+Fisheries> <http://www.w3.org/2000/01/rdf-schema#label> """DG Employment, Social Affairs; DG Fisheries"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Fisheries%3B+DG+Information+Society> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Fisheries%3B+DG+Information+Society> <http://www.w3.org/2000/01/rdf-schema#label> """DG Fisheries; DG Information Society"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Agriculture%3B+DG+Enlargement%3B+DG+Trade> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Agriculture%3B+DG+Enlargement%3B+DG+Trade> <http://www.w3.org/2000/01/rdf-schema#label> """DG Agriculture; DG Enlargement; DG Trade"""@en . 
+<http://prelex.publicdata.eu/r/organization/EUROPAID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/EUROPAID> <http://www.w3.org/2000/01/rdf-schema#label> """EUROPAID"""@en . 
+<http://prelex.publicdata.eu/r/organization/Press+and+Communication+Serv.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/Press+and+Communication+Serv.> <http://www.w3.org/2000/01/rdf-schema#label> """Press and Communication Serv."""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Environment%3B+DG+Health%2C+Consumer+Protection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Environment%3B+DG+Health%2C+Consumer+Protection> <http://www.w3.org/2000/01/rdf-schema#label> """DG Environment; DG Health, Consumer Protection"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Development%3B+DG+Environment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Development%3B+DG+Environment> <http://www.w3.org/2000/01/rdf-schema#label> """DG Development; DG Environment"""@en . 
+<http://prelex.publicdata.eu/r/organization/Press+and+Communication+DG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/Press+and+Communication+DG> <http://www.w3.org/2000/01/rdf-schema#label> """Press and Communication DG"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Agriculture%3B+DG+External+Relations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Agriculture%3B+DG+External+Relations> <http://www.w3.org/2000/01/rdf-schema#label> """DG Agriculture; DG External Relations"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+External+Relations%3B+DG+Research> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+External+Relations%3B+DG+Research> <http://www.w3.org/2000/01/rdf-schema#label> """DG External Relations; DG Research"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Enlargement%3B+DG+Taxation+and+Customs+Union> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Enlargement%3B+DG+Taxation+and+Customs+Union> <http://www.w3.org/2000/01/rdf-schema#label> """DG Enlargement; DG Taxation and Customs Union"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Agriculture%3B+DG+Health%2C+Consumer+Protection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Agriculture%3B+DG+Health%2C+Consumer+Protection> <http://www.w3.org/2000/01/rdf-schema#label> """DG Agriculture; DG Health, Consumer Protection"""@en . 
+<http://prelex.publicdata.eu/r/organization/Statistical+Office> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/Statistical+Office> <http://www.w3.org/2000/01/rdf-schema#label> """Statistical Office"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Competition%3B+DG+Internal+Market> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Competition%3B+DG+Internal+Market> <http://www.w3.org/2000/01/rdf-schema#label> """DG Competition; DG Internal Market"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Justice%2C+Freedom+and+Security> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Justice%2C+Freedom+and+Security> <http://www.w3.org/2000/01/rdf-schema#label> """DG Justice, Freedom and Security"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+External+Relations%3B+DG+Justice+and+Home+Affairs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+External+Relations%3B+DG+Justice+and+Home+Affairs> <http://www.w3.org/2000/01/rdf-schema#label> """DG External Relations; DG Justice and Home Affairs"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Information+Society+and+Media> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Information+Society+and+Media> <http://www.w3.org/2000/01/rdf-schema#label> """DG Information Society and Media"""@en . 
+<http://prelex.publicdata.eu/r/organization/Enterprise+and+Industry+DG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/Enterprise+and+Industry+DG> <http://www.w3.org/2000/01/rdf-schema#label> """Enterprise and Industry DG"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Fisheries+and+Maritime+Affairs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Fisheries+and+Maritime+Affairs> <http://www.w3.org/2000/01/rdf-schema#label> """DG Fisheries and Maritime Affairs"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Agriculture+and+Rural+Development> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Agriculture+and+Rural+Development> <http://www.w3.org/2000/01/rdf-schema#label> """DG Agriculture and Rural Development"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Employment%2C+Social+Affairs+and+Equal+Opportunities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Employment%2C+Social+Affairs+and+Equal+Opportunities> <http://www.w3.org/2000/01/rdf-schema#label> """DG Employment, Social Affairs and Equal Opportunities"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Internal+Market+and+Services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Internal+Market+and+Services> <http://www.w3.org/2000/01/rdf-schema#label> """DG Internal Market and Services"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Internal+Market%3B+DG+Internal+Market+and+Services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Internal+Market%3B+DG+Internal+Market+and+Services> <http://www.w3.org/2000/01/rdf-schema#label> """DG Internal Market; DG Internal Market and Services"""@en . 
+<http://prelex.publicdata.eu/r/organization/Humanitarian+Aid+DG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/Humanitarian+Aid+DG> <http://www.w3.org/2000/01/rdf-schema#label> """Humanitarian Aid DG"""@en . 
+<http://prelex.publicdata.eu/r/organization/Bureau+of+European+Policy+Advisers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/Bureau+of+European+Policy+Advisers> <http://www.w3.org/2000/01/rdf-schema#label> """Bureau of European Policy Advisers"""@en . 
+<http://prelex.publicdata.eu/r/organization/Internal+Audit+Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/Internal+Audit+Service> <http://www.w3.org/2000/01/rdf-schema#label> """Internal Audit Service"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Translation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Translation> <http://www.w3.org/2000/01/rdf-schema#label> """DG Translation"""@en . 
+<http://prelex.publicdata.eu/r/organization/Humanitarian+Aid++ECHO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/Humanitarian+Aid++ECHO> <http://www.w3.org/2000/01/rdf-schema#label> """Humanitarian Aid  ECHO"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Enlargement%3B+DG+Enlargement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Enlargement%3B+DG+Enlargement> <http://www.w3.org/2000/01/rdf-schema#label> """DG Enlargement; DG Enlargement"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Agriculture+and+Rural+Development%3B+DG+Enlargement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Agriculture+and+Rural+Development%3B+DG+Enlargement> <http://www.w3.org/2000/01/rdf-schema#label> """DG Agriculture and Rural Development; DG Enlargement"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Budget%3B+Legal+Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Budget%3B+Legal+Service> <http://www.w3.org/2000/01/rdf-schema#label> """DG Budget; Legal Service"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Budget%3B+DG+Regional+Policy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Budget%3B+DG+Regional+Policy> <http://www.w3.org/2000/01/rdf-schema#label> """DG Budget; DG Regional Policy"""@en . 
+<http://prelex.publicdata.eu/r/organization/Directorate-General+Communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/Directorate-General+Communication> <http://www.w3.org/2000/01/rdf-schema#label> """Directorate-General Communication"""@en . 
+<http://prelex.publicdata.eu/r/organization/Maritime+Affairs+and+Fisheries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/Maritime+Affairs+and+Fisheries> <http://www.w3.org/2000/01/rdf-schema#label> """Maritime Affairs and Fisheries"""@en . 
+<http://prelex.publicdata.eu/r/organization/Directorate-Gen.+Informatics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/Directorate-Gen.+Informatics> <http://www.w3.org/2000/01/rdf-schema#label> """Directorate-Gen. Informatics"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Internal+Market+and+Services%3B+DG+Taxation+and+Customs+Union> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Internal+Market+and+Services%3B+DG+Taxation+and+Customs+Union> <http://www.w3.org/2000/01/rdf-schema#label> """DG Internal Market and Services; DG Taxation and Customs Union"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Development%3B+DG+External+Relations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Development%3B+DG+External+Relations> <http://www.w3.org/2000/01/rdf-schema#label> """DG Development; DG External Relations"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Competition%3B+DG+Information+Society+and+Media> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Competition%3B+DG+Information+Society+and+Media> <http://www.w3.org/2000/01/rdf-schema#label> """DG Competition; DG Information Society and Media"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Competition%3B+DG+Internal+Market+and+Services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Competition%3B+DG+Internal+Market+and+Services> <http://www.w3.org/2000/01/rdf-schema#label> """DG Competition; DG Internal Market and Services"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Employment%2C+Social+Affairs+and+Equal+Opportunities%3B+DG+Region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Employment%2C+Social+Affairs+and+Equal+Opportunities%3B+DG+Region> <http://www.w3.org/2000/01/rdf-schema#label> """DG Employment, Social Affairs and Equal Opportunities; DG Region"""@en . 
+<http://prelex.publicdata.eu/r/organization/DG+Employment%2C+Social+Affairs+and+Equal+Opportunities%3B+Secretari> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://prelex.publicdata.eu/ontology/Organization> . 
+<http://prelex.publicdata.eu/r/organization/DG+Employment%2C+Social+Affairs+and+Equal+Opportunities%3B+Secretari> <http://www.w3.org/2000/01/rdf-schema#label> """DG Employment, Social Affairs and Equal Opportunities; Secretari"""@en . 

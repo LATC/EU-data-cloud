@@ -1,0 +1,286 @@
+<http://eur-lex.publicdata.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> . 
+<http://eur-lex.publicdata.eu/> <http://purl.org/dc/terms/creator> "Philipp Frischmuth" . 
+<http://eur-lex.publicdata.eu/> <http://www.w3.org/2002/07/owl#versionInfo> "0.1" . 
+<http://eur-lex.publicdata.eu/> <http://www.w3.org/2000/01/rdf-schema#comment> "The EUR-LEX dataset provided as Linked Data." . 
+<http://eur-lex.publicdata.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "EUR-LEX Dataset" . 
+<http://eur-lex.publicdata.eu/ontology/Document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Document> <http://www.w3.org/2000/01/rdf-schema#label> "Document" . 
+<http://eur-lex.publicdata.eu/ontology/ACCORD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/ACCORD> <http://www.w3.org/2000/01/rdf-schema#label> "Accord" . 
+<http://eur-lex.publicdata.eu/ontology/ACCORD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Agreement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Agreement> <http://www.w3.org/2000/01/rdf-schema#label> "Agreement" . 
+<http://eur-lex.publicdata.eu/ontology/Agreement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Exchange+of+letters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Exchange+of+letters> <http://www.w3.org/2000/01/rdf-schema#label> "Exchange of letters" . 
+<http://eur-lex.publicdata.eu/ontology/Exchange+of+letters> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/ECHLET> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/ECHLET> <http://www.w3.org/2000/01/rdf-schema#label> "Echlet" . 
+<http://eur-lex.publicdata.eu/ontology/ECHLET> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Various+acts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Various+acts> <http://www.w3.org/2000/01/rdf-schema#label> "Various acts" . 
+<http://eur-lex.publicdata.eu/ontology/Various+acts> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Amendment+to+an+agreement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Amendment+to+an+agreement> <http://www.w3.org/2000/01/rdf-schema#label> "Amendment to an agreement" . 
+<http://eur-lex.publicdata.eu/ontology/Amendment+to+an+agreement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Convention> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Convention> <http://www.w3.org/2000/01/rdf-schema#label> "Convention" . 
+<http://eur-lex.publicdata.eu/ontology/Convention> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Arrangement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Arrangement> <http://www.w3.org/2000/01/rdf-schema#label> "Arrangement" . 
+<http://eur-lex.publicdata.eu/ontology/Arrangement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Protocol> <http://www.w3.org/2000/01/rdf-schema#label> "Protocol" . 
+<http://eur-lex.publicdata.eu/ontology/Protocol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/PROTOCOLE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/PROTOCOLE> <http://www.w3.org/2000/01/rdf-schema#label> "Protocole" . 
+<http://eur-lex.publicdata.eu/ontology/PROTOCOLE> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/decision+without+addressee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/decision+without+addressee> <http://www.w3.org/2000/01/rdf-schema#label> "Decision without addressee" . 
+<http://eur-lex.publicdata.eu/ontology/decision+without+addressee> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Recommendation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Recommendation> <http://www.w3.org/2000/01/rdf-schema#label> "Recommendation" . 
+<http://eur-lex.publicdata.eu/ontology/Recommendation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/AUTRE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/AUTRE> <http://www.w3.org/2000/01/rdf-schema#label> "Autre" . 
+<http://eur-lex.publicdata.eu/ontology/AUTRE> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/OTHL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/OTHL> <http://www.w3.org/2000/01/rdf-schema#label> "Othl" . 
+<http://eur-lex.publicdata.eu/ontology/OTHL> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Treaty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Treaty> <http://www.w3.org/2000/01/rdf-schema#label> "Treaty" . 
+<http://eur-lex.publicdata.eu/ontology/Treaty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/RESOLUTION> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/RESOLUTION> <http://www.w3.org/2000/01/rdf-schema#label> "Resolution" . 
+<http://eur-lex.publicdata.eu/ontology/RESOLUTION> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Resolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Resolution> <http://www.w3.org/2000/01/rdf-schema#label> "Resolution" . 
+<http://eur-lex.publicdata.eu/ontology/Resolution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Rules+of+procedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Rules+of+procedure> <http://www.w3.org/2000/01/rdf-schema#label> "Rules of procedure" . 
+<http://eur-lex.publicdata.eu/ontology/Rules+of+procedure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Decision+sui+generis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Decision+sui+generis> <http://www.w3.org/2000/01/rdf-schema#label> "Decision sui generis" . 
+<http://eur-lex.publicdata.eu/ontology/Decision+sui+generis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Communication> <http://www.w3.org/2000/01/rdf-schema#label> "Communication" . 
+<http://eur-lex.publicdata.eu/ontology/Communication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Rejection+of+common+position> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Rejection+of+common+position> <http://www.w3.org/2000/01/rdf-schema#label> "Rejection of common position" . 
+<http://eur-lex.publicdata.eu/ontology/Rejection+of+common+position> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Declaration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Declaration> <http://www.w3.org/2000/01/rdf-schema#label> "Declaration" . 
+<http://eur-lex.publicdata.eu/ontology/Declaration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Protocol+to+the+Agreement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Protocol+to+the+Agreement> <http://www.w3.org/2000/01/rdf-schema#label> "Protocol to the agreement" . 
+<http://eur-lex.publicdata.eu/ontology/Protocol+to+the+Agreement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/List> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/List> <http://www.w3.org/2000/01/rdf-schema#label> "List" . 
+<http://eur-lex.publicdata.eu/ontology/List> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Notice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Notice> <http://www.w3.org/2000/01/rdf-schema#label> "Notice" . 
+<http://eur-lex.publicdata.eu/ontology/Notice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Information> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Information> <http://www.w3.org/2000/01/rdf-schema#label> "Information" . 
+<http://eur-lex.publicdata.eu/ontology/Information> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Corrigendum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Corrigendum> <http://www.w3.org/2000/01/rdf-schema#label> "Corrigendum" . 
+<http://eur-lex.publicdata.eu/ontology/Corrigendum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Info> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Info> <http://www.w3.org/2000/01/rdf-schema#label> "Info" . 
+<http://eur-lex.publicdata.eu/ontology/Info> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Opinion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Opinion> <http://www.w3.org/2000/01/rdf-schema#label> "Opinion" . 
+<http://eur-lex.publicdata.eu/ontology/Opinion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/decision+with+addressee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/decision+with+addressee> <http://www.w3.org/2000/01/rdf-schema#label> "Decision with addressee" . 
+<http://eur-lex.publicdata.eu/ontology/decision+with+addressee> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Decision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Decision> <http://www.w3.org/2000/01/rdf-schema#label> "Decision" . 
+<http://eur-lex.publicdata.eu/ontology/Decision> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Announcements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Announcements> <http://www.w3.org/2000/01/rdf-schema#label> "Announcements" . 
+<http://eur-lex.publicdata.eu/ontology/Announcements> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Decision+-+ECSC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Decision+-+ECSC> <http://www.w3.org/2000/01/rdf-schema#label> "Decision - ecsc" . 
+<http://eur-lex.publicdata.eu/ontology/Decision+-+ECSC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/DECKSG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/DECKSG> <http://www.w3.org/2000/01/rdf-schema#label> "Decksg" . 
+<http://eur-lex.publicdata.eu/ontology/DECKSG> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/RECKSG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/RECKSG> <http://www.w3.org/2000/01/rdf-schema#label> "Recksg" . 
+<http://eur-lex.publicdata.eu/ontology/RECKSG> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/> <http://www.w3.org/2000/01/rdf-schema#label> "" . 
+<http://eur-lex.publicdata.eu/ontology/> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/REGINT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/REGINT> <http://www.w3.org/2000/01/rdf-schema#label> "Regint" . 
+<http://eur-lex.publicdata.eu/ontology/REGINT> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/STATUT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/STATUT> <http://www.w3.org/2000/01/rdf-schema#label> "Statut" . 
+<http://eur-lex.publicdata.eu/ontology/STATUT> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Statute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Statute> <http://www.w3.org/2000/01/rdf-schema#label> "Statute" . 
+<http://eur-lex.publicdata.eu/ontology/Statute> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Regulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Regulation> <http://www.w3.org/2000/01/rdf-schema#label> "Regulation" . 
+<http://eur-lex.publicdata.eu/ontology/Regulation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Recommendation-ECSC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Recommendation-ECSC> <http://www.w3.org/2000/01/rdf-schema#label> "Recommendation-ecsc" . 
+<http://eur-lex.publicdata.eu/ontology/Recommendation-ECSC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Directive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Directive> <http://www.w3.org/2000/01/rdf-schema#label> "Directive" . 
+<http://eur-lex.publicdata.eu/ontology/Directive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/RECOMM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/RECOMM> <http://www.w3.org/2000/01/rdf-schema#label> "Recomm" . 
+<http://eur-lex.publicdata.eu/ontology/RECOMM> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/RAPPORT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/RAPPORT> <http://www.w3.org/2000/01/rdf-schema#label> "Rapport" . 
+<http://eur-lex.publicdata.eu/ontology/RAPPORT> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Financial+Regulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Financial+Regulation> <http://www.w3.org/2000/01/rdf-schema#label> "Financial regulation" . 
+<http://eur-lex.publicdata.eu/ontology/Financial+Regulation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Programme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Programme> <http://www.w3.org/2000/01/rdf-schema#label> "Programme" . 
+<http://eur-lex.publicdata.eu/ontology/Programme> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/REC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/REC> <http://www.w3.org/2000/01/rdf-schema#label> "Rec" . 
+<http://eur-lex.publicdata.eu/ontology/REC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/REGL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/REGL> <http://www.w3.org/2000/01/rdf-schema#label> "Regl" . 
+<http://eur-lex.publicdata.eu/ontology/REGL> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/COMMUNIC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/COMMUNIC> <http://www.w3.org/2000/01/rdf-schema#label> "Communic" . 
+<http://eur-lex.publicdata.eu/ontology/COMMUNIC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/DIRECTIVE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/DIRECTIVE> <http://www.w3.org/2000/01/rdf-schema#label> "Directive" . 
+<http://eur-lex.publicdata.eu/ontology/DIRECTIVE> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Report> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Report> <http://www.w3.org/2000/01/rdf-schema#label> "Report" . 
+<http://eur-lex.publicdata.eu/ontology/Report> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Budget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Budget> <http://www.w3.org/2000/01/rdf-schema#label> "Budget" . 
+<http://eur-lex.publicdata.eu/ontology/Budget> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Balance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Balance> <http://www.w3.org/2000/01/rdf-schema#label> "Balance" . 
+<http://eur-lex.publicdata.eu/ontology/Balance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/AVIS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/AVIS> <http://www.w3.org/2000/01/rdf-schema#label> "Avis" . 
+<http://eur-lex.publicdata.eu/ontology/AVIS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/DECLARATION> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/DECLARATION> <http://www.w3.org/2000/01/rdf-schema#label> "Declaration" . 
+<http://eur-lex.publicdata.eu/ontology/DECLARATION> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Consolidated+version> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Consolidated+version> <http://www.w3.org/2000/01/rdf-schema#label> "Consolidated version" . 
+<http://eur-lex.publicdata.eu/ontology/Consolidated+version> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/REGULATION> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/REGULATION> <http://www.w3.org/2000/01/rdf-schema#label> "Regulation" . 
+<http://eur-lex.publicdata.eu/ontology/REGULATION> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/BILAN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/BILAN> <http://www.w3.org/2000/01/rdf-schema#label> "Bilan" . 
+<http://eur-lex.publicdata.eu/ontology/BILAN> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/PROGRAMME> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/PROGRAMME> <http://www.w3.org/2000/01/rdf-schema#label> "Programme" . 
+<http://eur-lex.publicdata.eu/ontology/PROGRAMME> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/BILANJOC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/BILANJOC> <http://www.w3.org/2000/01/rdf-schema#label> "Bilanjoc" . 
+<http://eur-lex.publicdata.eu/ontology/BILANJOC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/BUDGET> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/BUDGET> <http://www.w3.org/2000/01/rdf-schema#label> "Budget" . 
+<http://eur-lex.publicdata.eu/ontology/BUDGET> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/RECTIFICATIF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/RECTIFICATIF> <http://www.w3.org/2000/01/rdf-schema#label> "Rectificatif" . 
+<http://eur-lex.publicdata.eu/ontology/RECTIFICATIF> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/decision+with+addressee%2C+decision+with+addressee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/decision+with+addressee%2C+decision+with+addressee> <http://www.w3.org/2000/01/rdf-schema#label> "Decision with addressee, decision with addressee" . 
+<http://eur-lex.publicdata.eu/ontology/decision+with+addressee%2C+decision+with+addressee> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Common+position> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Common+position> <http://www.w3.org/2000/01/rdf-schema#label> "Common position" . 
+<http://eur-lex.publicdata.eu/ontology/Common+position> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Joint+Action> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Joint+Action> <http://www.w3.org/2000/01/rdf-schema#label> "Joint action" . 
+<http://eur-lex.publicdata.eu/ontology/Joint+Action> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Draft+directive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Draft+directive> <http://www.w3.org/2000/01/rdf-schema#label> "Draft directive" . 
+<http://eur-lex.publicdata.eu/ontology/Draft+directive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/RECT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/RECT> <http://www.w3.org/2000/01/rdf-schema#label> "Rect" . 
+<http://eur-lex.publicdata.eu/ontology/RECT> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/framework+decision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/framework+decision> <http://www.w3.org/2000/01/rdf-schema#label> "Framework decision" . 
+<http://eur-lex.publicdata.eu/ontology/framework+decision> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Guideline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Guideline> <http://www.w3.org/2000/01/rdf-schema#label> "Guideline" . 
+<http://eur-lex.publicdata.eu/ontology/Guideline> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/INITIATIVE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/INITIATIVE> <http://www.w3.org/2000/01/rdf-schema#label> "Initiative" . 
+<http://eur-lex.publicdata.eu/ontology/INITIATIVE> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Conclusions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Conclusions> <http://www.w3.org/2000/01/rdf-schema#label> "Conclusions" . 
+<http://eur-lex.publicdata.eu/ontology/Conclusions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/initiative> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/initiative> <http://www.w3.org/2000/01/rdf-schema#label> "Initiative" . 
+<http://eur-lex.publicdata.eu/ontology/initiative> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/PROP.+DEC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/PROP.+DEC> <http://www.w3.org/2000/01/rdf-schema#label> "Prop. dec" . 
+<http://eur-lex.publicdata.eu/ontology/PROP.+DEC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/common+strategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/common+strategy> <http://www.w3.org/2000/01/rdf-schema#label> "Common strategy" . 
+<http://eur-lex.publicdata.eu/ontology/common+strategy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/proposal+for+a+decision+without+addressee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/proposal+for+a+decision+without+addressee> <http://www.w3.org/2000/01/rdf-schema#label> "Proposal for a decision without addressee" . 
+<http://eur-lex.publicdata.eu/ontology/proposal+for+a+decision+without+addressee> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Proposal+for+a+decision+sui+generis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Proposal+for+a+decision+sui+generis> <http://www.w3.org/2000/01/rdf-schema#label> "Proposal for a decision sui generis" . 
+<http://eur-lex.publicdata.eu/ontology/Proposal+for+a+decision+sui+generis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Internal+agreement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Internal+agreement> <http://www.w3.org/2000/01/rdf-schema#label> "Internal agreement" . 
+<http://eur-lex.publicdata.eu/ontology/Internal+agreement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Implementing+decision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Implementing+decision> <http://www.w3.org/2000/01/rdf-schema#label> "Implementing decision" . 
+<http://eur-lex.publicdata.eu/ontology/Implementing+decision> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Implementing+regulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Implementing+regulation> <http://www.w3.org/2000/01/rdf-schema#label> "Implementing regulation" . 
+<http://eur-lex.publicdata.eu/ontology/Implementing+regulation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/OP.COM.COM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/OP.COM.COM> <http://www.w3.org/2000/01/rdf-schema#label> "Op.com.com" . 
+<http://eur-lex.publicdata.eu/ontology/OP.COM.COM> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Delegated+regulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Delegated+regulation> <http://www.w3.org/2000/01/rdf-schema#label> "Delegated regulation" . 
+<http://eur-lex.publicdata.eu/ontology/Delegated+regulation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Implementing+directive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Implementing+directive> <http://www.w3.org/2000/01/rdf-schema#label> "Implementing directive" . 
+<http://eur-lex.publicdata.eu/ontology/Implementing+directive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/ACCINTERNE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/ACCINTERNE> <http://www.w3.org/2000/01/rdf-schema#label> "Accinterne" . 
+<http://eur-lex.publicdata.eu/ontology/ACCINTERNE> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/PRO-ACC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/PRO-ACC> <http://www.w3.org/2000/01/rdf-schema#label> "Pro-acc" . 
+<http://eur-lex.publicdata.eu/ontology/PRO-ACC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/CONVENTION> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/CONVENTION> <http://www.w3.org/2000/01/rdf-schema#label> "Convention" . 
+<http://eur-lex.publicdata.eu/ontology/CONVENTION> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/VC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/VC> <http://www.w3.org/2000/01/rdf-schema#label> "Vc" . 
+<http://eur-lex.publicdata.eu/ontology/VC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://eur-lex.publicdata.eu/ontology/Document> . 
+<http://eur-lex.publicdata.eu/ontology/Treaty> <http://www.w3.org/2000/01/rdf-schema#label> "treaty" . 
+<http://eur-lex.publicdata.eu/ontology/Instruments+cited> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Instruments+cited> <http://www.w3.org/2000/01/rdf-schema#label> "instruments cited" . 
+<http://eur-lex.publicdata.eu/ontology/Amended+by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Amended+by> <http://www.w3.org/2000/01/rdf-schema#label> "amended by" . 
+<http://eur-lex.publicdata.eu/ontology/Subsequent+related+instruments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Subsequent+related+instruments> <http://www.w3.org/2000/01/rdf-schema#label> "subsequent related instruments" . 
+<http://eur-lex.publicdata.eu/ontology/Amendment+to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Amendment+to> <http://www.w3.org/2000/01/rdf-schema#label> "amendment to" . 
+<http://eur-lex.publicdata.eu/ontology/Legal+basis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Legal+basis> <http://www.w3.org/2000/01/rdf-schema#label> "legal basis" . 
+<http://eur-lex.publicdata.eu/ontology/Affected+by+case> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Affected+by+case> <http://www.w3.org/2000/01/rdf-schema#label> "affected by case" . 
+<http://eur-lex.publicdata.eu/ontology/Earlier+related+instruments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Earlier+related+instruments> <http://www.w3.org/2000/01/rdf-schema#label> "earlier related instruments" . 
+<http://eur-lex.publicdata.eu/ontology/Consolidated+versions+%28pdf%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Consolidated+versions+%28pdf%29> <http://www.w3.org/2000/01/rdf-schema#label> "consolidated versions (pdf)" . 
+<http://eur-lex.publicdata.eu/ontology/Instruments+cited+in+case+law> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Instruments+cited+in+case+law> <http://www.w3.org/2000/01/rdf-schema#label> "instruments cited in case law" . 
+<http://eur-lex.publicdata.eu/ontology/Case+affecting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://eur-lex.publicdata.eu/ontology/Case+affecting> <http://www.w3.org/2000/01/rdf-schema#label> "case affecting" . 
