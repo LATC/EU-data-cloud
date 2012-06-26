@@ -143,7 +143,7 @@ URIs for Eurostat identities
 
 * The Data Structure Definition (DSD) can be found under `http://eurostat.linked-statistics.org/dsd/`
 
-	For example: http://eurostat.linked-statistics.org/dsd/bsbu_q.rdf
+	For example: http://eurostat.linked-statistics.org/dsd/bsbu_q.ttl
 
 * The SDMX data sets can be found under `http://eurostat.linked-statistics.org/data/`
 
