@@ -72,6 +72,20 @@ public class ParseToC {
         }       
     }
 	
+	public void initObjects(String filePath){        
+        try {
+        	xmlDocument = DocumentBuilderFactory.
+			newInstance().newDocumentBuilder().
+			parse(filePath);            
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        } catch (SAXException ex) {
+            ex.printStackTrace();
+        } catch (ParserConfigurationException ex) {
+            ex.printStackTrace();
+        }       
+    }
+	
 	public void parseDataSets()
 	{
 		Element element = xmlDocument.getDocumentElement();
@@ -211,6 +225,12 @@ public class ParseToC {
 		extractDatasetTitles();
 	}
 
+	public void getDatasetTitles(String filePath)
+	{
+		initObjects(filePath);
+		extractDatasetTitles();
+	}
+	
 	public void downloadZip(String tempZipPath, String tempTsvPath)
 	{
 		InputStream is = get_ToC_XMLStream();

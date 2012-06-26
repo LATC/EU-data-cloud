@@ -23,13 +23,20 @@ public class DatasetTitles {
 
 	private static String serialization = "TURTLE";
 	private static String fileExt = ".ttl";
+	private static String inputFilePath = "";
 	private static String outputFilePath = "";
 	ParseToC obj;
 	
 	public void getDS_Titles()
 	{
 		obj = new ParseToC();
+		if(inputFilePath.equals("")) {
 		obj.getDatasetTitles();
+		}
+		else {
+			obj.getDatasetTitles(inputFilePath);
+		}
+		
 		buildRDF();
 	}
 	
@@ -91,6 +98,7 @@ public class DatasetTitles {
 		CommandLineParser parser = new BasicParser( );
 		Options options = new Options( );
 		options.addOption("h", "help", false, "Print this usage information.");
+		options.addOption("i", "inputFilepath", true, "Local ToC file.");
 		options.addOption("o", "outputFilePath", true, "Output directory path to generate the file.");
 		options.addOption("f", "format", true, "RDF format for serialization (RDF/XML, TURTLE, N-TRIPLES).");
 
@@ -101,6 +109,8 @@ public class DatasetTitles {
 		    return;
 		 }
 		
+		if(commandLine.hasOption('i'))
+			inputFilePath = commandLine.getOptionValue('i');
 		if(commandLine.hasOption('o'))
 			outputFilePath = commandLine.getOptionValue('o');
 		

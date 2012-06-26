@@ -23,6 +23,7 @@ import com.hp.hpl.jena.rdf.model.Resource;
 public class Catalog {
 
 	private static String outputFilePath = "";
+	private static String inputFilePath = "";
 	private static String serialization = "TURTLE";
 	private static String fileExt = ".ttl";
 	ParseToC obj;
@@ -30,10 +31,16 @@ public class Catalog {
 	public void generate_VoidFiles()
 	{
 		obj = new ParseToC();
+		if(inputFilePath.equals("")) {
 		InputStream is = obj.get_ToC_XMLStream();
 		obj.initObjects(is);
 		obj.parseDataSets();
-
+		}
+		else {
+			obj.initObjects(inputFilePath);
+			obj.parseDataSets();
+		}
+			
 		if(serialization.equalsIgnoreCase("RDF/XML"))
 			fileExt = ".rdf";
 		else if(serialization.equalsIgnoreCase("TURTLE"))
@@ -60,7 +67,7 @@ public class Catalog {
 			model.add(dss,ParserUtil.type,ParserUtil.voidDataset);
 			
 			model.add(dss,ParserUtil.qb_structure,model.createProperty(ParserUtil.dsdURI + str));
-			model.add(dss,ParserUtil.dataDump,model.createProperty(ParserUtil.dataURI + str + fileExt));
+			model.add(dss,ParserUtil.dataDump,model.createProperty(ParserUtil.dataURI + str + ".rdf"));
 			
 			model.add(main,ParserUtil.subset,model.createProperty(ParserUtil.dssURI + str));
 		}
@@ -110,8 +117,9 @@ public class Catalog {
 	{
 		System.out.println("usage: Catalog [parameters]");
 		System.out.println();
+		System.out.println("	(optional) -i inputFilePath	Use local ToC.xml file to generate catalog rather than downloading from BulkDownload facility.");
 		System.out.println("	-o outputFilePath	Output directory path to generate the Catalog and Inventory files.");
-		System.out.println("	(optional)-f format	RDF format for serialization (RDF/XML, TURTLE, N-TRIPLES).");
+		System.out.println("	(optional) -f format	RDF format for serialization (RDF/XML, TURTLE, N-TRIPLES).");
 	}
 	
 	public static void main(String[] args) throws Exception
@@ -120,6 +128,7 @@ public class Catalog {
 		CommandLineParser parser = new BasicParser( );
 		Options options = new Options( );
 		options.addOption("h", "help", false, "Print this usage information");
+		options.addOption("i", "inputFilepath", true, "Local ToC file.");
 		options.addOption("o", "outputFilepath", true, "Output directory path to generate the Catalog and Inventory files.");
 		options.addOption("f", "format", true, "RDF format for serialization (RDF/XML, TURTLE, N-TRIPLES).");
 		CommandLine commandLine = parser.parse( options, args );
@@ -129,6 +138,8 @@ public class Catalog {
 		    return;
 		 }
 		
+		if(commandLine.hasOption('i'))
+			inputFilePath = commandLine.getOptionValue('i');
 		if(commandLine.hasOption('o'))
 			outputFilePath = commandLine.getOptionValue('o');
 		if(commandLine.hasOption('f'))
