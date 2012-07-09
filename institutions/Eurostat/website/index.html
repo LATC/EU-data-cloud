@@ -17,96 +17,223 @@
 	<link type="text/css" rel="stylesheet" href="style.css" />
 </head>
 <body about="">
+	<div id="latc-logo">
+		<a href="http://latc-project.eu" title="LATC Support Action">
+			<img src="logo-latc.png" alt="LATC Support Action" />
+		</a>
+	</div>
+	
 	<div id="header">
 		<div id="menu">
-			<a href="/">Home</a> <strong>·</strong>
-			<a href="#org">Organisation</a> <strong>·</strong>
-			<a href="#schema">Schema</a>
+			<a href="#overview">Overview</a> <strong>·</strong>
+			<a href="#usage">Usage</a> <strong>·</strong>
+			<a href="#dataspace">Dataspace</a>
 		</div>
 		<div>
 			<div class="site-title">
 				<a href="/"><span property="dct:title">Eurostat - Linked Data</span></a>
 			</div>
 			<div id="intro">
+					<p>
+					This is a <a href="http://www.w3.org/DesignIssues/LinkedData.html" title="Linked Data - Design Issues">Linked Data</a> version of the <a href="http://epp.eurostat.ec.europa.eu/portal/page/portal/eurostat/home/">Eurostat</a> data
+					with the goal to provide <a href="http://5stardata.info/" title="5 star Open Data">5 star</a> Linked Open Data on the European level, in a contextually rich and up-to-date manner, useful
+					for ETL-style business analysis or data warehousing purposes with benefits including but not limited to:
+					</p>
+					<ul>
+						<li>It allows for a straight-forward comparison of statistical indicators across EU countries.</li>
+						<li>Through providing context for statistics it facilitates the interpretation process.</li>
+						<li>Enables you to re-use observations in a fine-grained way.</li>
+					</ul>
 			</div>
 		</div>
 	</div>
 
 	<div id="main">
-		<h2 id="schema">Organisation</h2>
-		<p>Data, DSD, dict:</p>
+		
+		<h2 id="overview">Overview</h2>
+		<p>
+		The following data is available under the original <a href="http://epp.eurostat.ec.europa.eu/portal/page/portal/about_eurostat/policies/copyright_licence_policy">Eurostat license</a>:
+		</p>
 		<ul>
-			<li><a href="http://eurostat.linked-statistics.org/data/">data/</a> &hellip; contains the observations in DataCube</li>
-			<li><a href="http://eurostat.linked-statistics.org/dsd/">dsd/</a> &hellip; contains the Data Structure Definition (DSD) in DataCube</li>
-			<li><a href="http://eurostat.linked-statistics.org/dic/">dic/</a> &hellip; contains the dictionaries DataCube</li>
+			<li><a href="http://eurostat.linked-statistics.org/data/">http://eurostat.linked-statistics.org/data/</a> contains the observations</li>
+			<li><a href="http://eurostat.linked-statistics.org/dsd/">http://eurostat.linked-statistics.org/dsd/</a> contains the Data Structure Definition (DSD)</li>
+			<li><a href="http://eurostat.linked-statistics.org/dic/">http://eurostat.linked-statistics.org/dic/</a> contains the dictionaries</li>
 		</ul>
+		<p>
+		Via our <a href="http://eurostat.linked-statistics.org/sparql">SPARQL endpoint</a> you can query the entire metadata including DSDs and dictionaries.
+		</p>
+		<p>
+		We pull in changes from the original Eurostat dataset twice a day and our conversion process runs every Saturday at noon taking into account new datasets along with updates to existing datasets.
+		</p>
 		
-		<h2 id="examples">Walkthrough Example</h2>
-		<p>In the following, we use the <a href="http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=apro_mt_lsequi&amp;lang=en" title="Eurostat - Data Explorer">Equidae (annual data) (apro_mt_lsequi)</a> dataset throughout to demonstrate all features available. In a simple, tabular rendering it looks as follows - click on the figure to get to a Google Docs spreadsheet:</p>
-			<a href="https://docs.google.com/spreadsheet/ccc?key=0Alwfpys1YRkcdENkTFhiMDd1WndudlBRWWFfWFZTNUE&hl=en_US#gid=0"><img src="example/apro_mt_lsequi.png" /></a>
-		<p>We have a dataset with four dimensions here: livstock, unit, geo and time. Now, how to make sense of this? First, we could inspect the <a href="http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/apro_mt_ls_esms.htm">metadata</a> for a dimension to learn more about it. This is what the DSD captures: FIG.</p>
-		<p>Observations/DataCube</p>
-		<p>Asking questions ... SPARQL</p>		
+		<h2 id="usage">Usage and Examples</h2>
+		<p>
+			The Eurostat data made available here covers a <a href="#dataspace-origin">number of areas</a> from economy over demographics to trade and transport data. 
+			You can use the data, for example, to learn about national statistics, explore an industrial area or compare agricultural data across regions.
+			In the following we show you some exemplary (cross-dataset) SPARQL queries kindly provided by <a href="http://www.linkedin.com/in/sorenroug" title="S&#xf8;ren Roug | LinkedIn">S&#xf8;ren Roug</a> from the European Environment Agency (EEA).
+		</p>
 		
-    <div id="schema">
-      <h2>Schema</h2>
-      <p>
-        DataCube, etc.
-      </p>
-    
+		<h3>Greenhouse gas emissions</h3>
+		<p>
+		The following example queries across two datasets and calculates combined values for greenhouse gas emissions per capita. 
+		Note that executing this query will require a SPARQL endpoint configured to download files listed in the <code>FROM</code> clause.
+		</p>
+<pre>PREFIX qb: &lt;http://purl.org/linked-data/cube#&gt;
+PREFIX e: &lt;http://ontologycentral.com/2009/01/eurostat/ns#&gt;
+PREFIX sdmx-measure: &lt;http://purl.org/linked-data/sdmx/2009/measure#&gt;
+PREFIX skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX g: &lt;http://eurostat.linked-statistics.org/ontologies/geographic.rdf#&gt;
+PREFIX dataset: &lt;http://eurostat.linked-statistics.org/data/&gt;
+
+SELECT ?country ?year ?population ?ghgtotal xsd:decimal(?ghgtotal)*1000/(xsd:decimal(?population)) AS ?percapita
+FROM &lt;http://eurostat.linked-statistics.org/data/demo_pjanbroad.rdf&gt;
+FROM &lt;http://eurostat.linked-statistics.org/data/env_air_gge.rdf&gt;
+FROM &lt;http://semantic.eea.europa.eu/home/roug/eurostatdictionaries.rdf&gt;
+WHERE {
+  ?popobs qb:dataset dataset:demo_pjanbroad ;
+    e:time ?uyear;
+    e:freq &lt;http://eurostat.linked-statistics.org/dic/freq#A&gt;;
+    e:age &lt;http://eurostat.linked-statistics.org/dic/age#TOTAL&gt;; 
+    e:sex &lt;http://eurostat.linked-statistics.org/dic/sex#T&gt;;
+    e:geo ?ucountry;
+    sdmx-measure:obsValue ?population.
+  ?ghgobs qb:dataset dataset:env_air_gge ;
+    e:geo ?ucountry;
+    e:time ?uyear;
+    e:airsect &lt;http://eurostat.linked-statistics.org/dic/airsect#TOT_X_5&gt;;
+    sdmx-measure:obsValue ?ghgtotal.
+  ?ucountry skos:prefLabel ?country.
+  ?uyear skos:prefLabel ?year
+}
+ORDER BY ?country ?year</pre>
+	    
+	    <p>
+		The results of the above query displayed as a line chart looks like:</p>
+	    <img src="examples/emissions/ghg-totals.png" alt="Greenhouse gas emitions per capita, 1990-2009, as line chart" />
+	    <p>If you want to re-create the chart above, here are the resources that have been used:</p>
+	    <ul>
+	      <li><a href="examples/emissions/rl-emissions.py">rl-emissions.py</a></li>
+	      <li><a href="examples/emissions/sparql.py">sparql.py</a></li>
+	    </ul>
+		
+		<h3>National statistics for the Albacore fish</h3>
+		<p>
+		 The SPARQL query below combines 24 different datasets providing national statistics for the Albacore fish with the goal to understand if further protection in the form of fishing quotas is necessary.
+		</p>
+<pre>
+PREFIX qb: &lt;http://purl.org/linked-data/cube#&gt;
+PREFIX e: &lt;http://ontologycentral.com/2009/01/eurostat/ns#&gt;
+PREFIX sdmx-measure: &lt;http://purl.org/linked-data/sdmx/2009/measure#&gt;
+PREFIX skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX g: &lt;http://eurostat.linked-statistics.org/ontologies/geographic.rdf#&gt;
+PREFIX dataset: &lt;http://eurostat.linked-statistics.org/data/&gt;
+PREFIX eunis: &lt;http://eunis.eea.europa.eu/rdf/species-schema.rdf#&gt;
+
+SELECT ?country ?year ?presentation ?landed ?unit 
+FROM &lt;http://eurostat.linked-statistics.org/data/fish_ld_be.rdf&gt;
+FROM &lt;http://eurostat.linked-statistics.org/data/fish_ld_bg.rdf&gt;
+FROM &lt;http://eurostat.linked-statistics.org/data/fish_ld_cy.rdf&gt;
+FROM &lt;http://eurostat.linked-statistics.org/data/fish_ld_de.rdf&gt;
+FROM &lt;http://eurostat.linked-statistics.org/data/fish_ld_dk.rdf&gt;
+FROM &lt;http://eurostat.linked-statistics.org/data/fish_ld_ee.rdf&gt;
+FROM &lt;http://eurostat.linked-statistics.org/data/fish_ld_es.rdf&gt;
+FROM &lt;http://eurostat.linked-statistics.org/data/fish_ld_fi.rdf&gt;
+FROM &lt;http://eurostat.linked-statistics.org/data/fish_ld_fr.rdf&gt;
+FROM &lt;http://eurostat.linked-statistics.org/data/fish_ld_gr.rdf&gt;
+FROM &lt;http://eurostat.linked-statistics.org/data/fish_ld_ie.rdf&gt;
+FROM &lt;http://eurostat.linked-statistics.org/data/fish_ld_is.rdf&gt;
+FROM &lt;http://eurostat.linked-statistics.org/data/fish_ld_it.rdf&gt;
+FROM &lt;http://eurostat.linked-statistics.org/data/fish_ld_lt.rdf&gt;
+FROM &lt;http://eurostat.linked-statistics.org/data/fish_ld_lv.rdf&gt;
+FROM &lt;http://eurostat.linked-statistics.org/data/fish_ld_mt.rdf&gt;
+FROM &lt;http://eurostat.linked-statistics.org/data/fish_ld_nl.rdf&gt;
+FROM &lt;http://eurostat.linked-statistics.org/data/fish_ld_no.rdf&gt;
+FROM &lt;http://eurostat.linked-statistics.org/data/fish_ld_pl.rdf&gt;
+FROM &lt;http://eurostat.linked-statistics.org/data/fish_ld_pt.rdf&gt;
+FROM &lt;http://eurostat.linked-statistics.org/data/fish_ld_ro.rdf&gt;
+FROM &lt;http://eurostat.linked-statistics.org/data/fish_ld_se.rdf&gt;
+FROM &lt;http://eurostat.linked-statistics.org/data/fish_ld_si.rdf&gt;
+FROM &lt;http://eurostat.linked-statistics.org/data/fish_ld_uk.rdf&gt;
+FROM &lt;http://semantic.eea.europa.eu/home/roug/eurostatdictionaries.rdf&gt;
+WHERE {
+  ?obsUri e:species &lt;http://eurostat.linked-statistics.org/dic/species#ALB&gt;;
+     e:pres &lt;http://eurostat.linked-statistics.org/dic/pres#P00&gt;, ?upresentation;
+     e:dest &lt;http://eurostat.linked-statistics.org/dic/dest#D0&gt;;
+     e:natvessr &lt;http://eurostat.linked-statistics.org/dic/natvessr#TOTAL&gt;;
+     e:unit &lt;http://eurostat.linked-statistics.org/dic/unit#TPW&gt;, ?uunit;
+     e:geo ?ucountry; 
+     e:time ?uyear;
+     sdmx-measure:obsValue ?landed.
+  ?ucountry skos:prefLabel ?country.
+  ?uunit skos:prefLabel ?unit. 
+  ?uyear skos:prefLabel ?year.
+  ?upresentation skos:prefLabel ?presentation.
+}
+ORDER BY ?country ?year ?presentation</pre>
+		<p>
+			The EEA provides exemplary queries along the line of the above query, see for example the <a href="http://eunis.eea.europa.eu/species/124054/linkeddata" title="Thunnus alalunga">Thunnus alalunga</a> page.
+		</p>
+		
+		<h2 id="dataspace">Dataspace Build Process</h2>
+		<p>
+			Eurostat publishes more than 5200 datasets, which, when converted into RDF require more than 350GB of disk space yielding a dataspace with some 8 billion triples. 
+			In the following we provide a quick overview of the process of how we built the Eurostat - Linked Data dataspace.
+			If you want to learn more about this process (including vocabularies and tools used) have a look at the LATC Report on the <a href="http://latc-project.eu/node/85" title="Report on the Publication of European Institutions Data | LOD Around-The-Clock"> Publication of European Institutions Data</a>.
+		</p>
+		
+		<h3 id="dataspace-origin">Original Dataset</h3>
+		<p>
+			The original data comes from the Eurostat <a href="http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing">bulk download facility</a>, allowing for downloading individual datasets
+			or the complete database under a <a href="http://epp.eurostat.ec.europa.eu/portal/page/portal/about_eurostat/policies/copyright_licence_policy">dedicated license</a>. Eurostat publishes datasets chiefly in <a href="http://en.wikipedia.org/wiki/Tab-separated_values" title="Tab-separated values - Wikipedia, the free encyclopedia">TSV</a>, and the
+			<em>Statistical Data and Metadata eXchange</em> (<a href="http://sdmx.org/" title="SDMX &#8211; Statistical Data and Metadata Exchange">SDMX</a>) format covering statistical data about:
+		</p>
+		<ul>
+			<li>General and regional statistics</li>
+			<li>Economy and finance</li>
+			<li>Population and social conditions</li>
+			<li>Industry, trade and services</li>
+			<li>Agriculture and fisheries</li>
+			<li>External trade</li>
+			<li>Transport Environment and energy</li>
+			<li>Science and technology</li>
+		</ul>
+		<p>
+			In addition, Eurostat publishes a <a href="http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=1&amp;file=table_of_contents_en.xml">Table of Contents</a> containing a list of all data sets, which are available to download as well as a list of <a href="http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=1&amp;dir=dic">codelists</a> used in the datasets.
+		</p>
+		
+		
+		<h3>Conversion, Interlinking and Publishing</h3>
+		
+		<p>
+		We developed a <a href="https://github.com/LATC/EU-data-cloud/tree/master/institutions/Eurostat/parser">set of tools</a> for parsing the Eurostat ToC to retrieve a list of URLs and download the metadata
+		about the dataset along with the dataset itself, triggered by a cron job.
+		</p>
+		<p>
+		The observations are modelled using the RDF <a href="https://dvcs.w3.org/hg/gld/raw-file/default/data-cube/index.html">DataCube</a> vocabulary and made available as RDF/XML documents;
+		for a concrete example, have a look at the <a href="http://eurostat.linked-statistics.org/data/apro_mk_strpd.rdf">Powdered Dairy Products</a> dataset. Equally, the dataset metadata, containing definitions of concepts and dimensions is modelled using DataCube and made available as RDF/Turtle documents; a concrete example is available via the <a href="http://eurostat.linked-statistics.org/dsd/apro_mk_strpd.ttl">Powdered Dairy Products</a> dataset’s metadata.
+		Last but not least, the dictionaries (providing the definition of codes and available in English, German and French) are represented in SKOS concepts and made available as RDF/XML documents; an example is the <a
+		href="http://eurostat.linked-statistics.org/dic/geo.rdf">geo</a> dictionary.
+		</p>
+		<p>
+		Rather than hosting the entire 8 billion triples via the SPARQL endpoint we provide a VoID description that specify the location of a particular dataset on the file system.
+		The VoID description, the codelists and the metadata about the datasets are available via the SPARQL endpoint (Apache Jena <a href="http://incubator.apache.org/jena/documentation/serving_data/">Fuseki</a>).
+		</p>
+		<p>
+		Currently, we have interlinked the regional entities (countries in particular) through <code>owl:sameAs</code> to DBpedia and LinkedGeoData, using the <a href="http://www4.wiwiss.fu-berlin.de/bizer/silk/">Silk Link Discovery Framework</a> - see also the <a href="https://github.com/LATC/24-7-platform/tree/master/link-specifications">link specifications</a> we used.
+		</p>
+
     </div>
 
-    <div id="emissions-example">
-      <h2>Another example: Greenhouse gas emissions per capita</h2>
-      <p>The following example queries across two datasets and calculates combined values.</p>
-      <pre>
-  PREFIX qb: &lt;http://purl.org/linked-data/cube#&gt;
-  PREFIX e: &lt;http://ontologycentral.com/2009/01/eurostat/ns#&gt;
-  PREFIX sdmx-measure: &lt;http://purl.org/linked-data/sdmx/2009/measure#&gt;
-  PREFIX skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
-  PREFIX g: &lt;http://eurostat.linked-statistics.org/ontologies/geographic.rdf#&gt;
-  PREFIX dataset: &lt;http://eurostat.linked-statistics.org/data/&gt;
 
-  SELECT ?country
-         ?year
-         ?population
-         ?ghgtotal
-         xsd:decimal(?ghgtotal)*1000/(xsd:decimal(?population)) AS ?percapita
-  FROM &lt;http://eurostat.linked-statistics.org/data/demo_pjanbroad.rdf&gt;
-  FROM &lt;http://eurostat.linked-statistics.org/data/env_air_gge.rdf&gt;
-  FROM &lt;http://semantic.eea.europa.eu/home/roug/eurostatdictionaries.rdf&gt;
-  WHERE {
-    ?popobs qb:dataset dataset:demo_pjanbroad ;
-          e:time ?uyear;
-          e:freq &lt;http://eurostat.linked-statistics.org/dic/freq#A&gt;;
-          e:age &lt;http://eurostat.linked-statistics.org/dic/age#TOTAL&gt;; 
-          e:sex &lt;http://eurostat.linked-statistics.org/dic/sex#T&gt;;
-          e:geo ?ucountry;
-          sdmx-measure:obsValue ?population.
-    ?ghgobs qb:dataset dataset:env_air_gge ;
-          e:geo ?ucountry;
-          e:time ?uyear;
-          e:airsect &lt;http://eurostat.linked-statistics.org/dic/airsect#TOT_X_5&gt;;
-          sdmx-measure:obsValue ?ghgtotal.
-    ?ucountry skos:prefLabel ?country.
-    ?uyear skos:prefLabel ?year
-  } ORDER BY ?country ?year
-      </pre>
-      <p>Running this query will require a SPARQL endpoint configured to download files listed in the <code>FROM</code> clause.</p>
-      <p>Results, displayed as a line chart:</p>
-      <img src="examples/emissions/ghg-totals.png" alt="Greenhouse gas emitions per capita, 1990-2009, as line chart" />
-      <p>Resources used to create the chart:</p>
-      <ul>
-        <li><a href="examples/emissions/rl-emissions.py">rl-emissions.py</a></li>
-        <li><a href="examples/emissions/sparql.py">sparql.py</a></li>
-      </ul>
-    </div>
-
-    <div id="footer" about="">
-      A <a href="http://lod-cloud.net/">LOD dataset</a> brought to you by the <a rel="dct:publisher" href="http://latc-project.eu/">LATC Support Action</a> ·
-      <a href="https://github.com/LATC/EU-data-cloud/tree/master/institutions/Eurostat">Code</a> ·
-      <a href="http://latc-project.eu/contact">Contact</a>
-    </div>
-  </div>
+	<div id="footer" about="">
+		<div style="margin: 1em">
+			<a href="http://5stardata.info/" title="5 star Open Data"><img src="data-badge-5.png" alt="five star open Web data" /></a>
+		</div>
+		<div>
+			A <a href="http://lod-cloud.net/">LOD dataset</a> brought to you by the <a rel="dct:publisher" href="http://latc-project.eu/">LATC Support Action</a> ·
+			<a href="https://github.com/LATC/EU-data-cloud/tree/master/institutions/Eurostat">Code</a> ·
+			<a href="http://latc-project.eu/contact">Contact</a>
+		</div>
+	</div>
 </body>
 </html>

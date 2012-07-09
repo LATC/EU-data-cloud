@@ -37,6 +37,21 @@ textarea {
 	margin: 1em;
 }
 
+pre {
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	border: 1px solid #303030;
+	padding: 10px;
+	margin: 1em .5em 2em .5em;
+	float: left;
+	background: #fff;
+	-moz-box-shadow: 1px 1px 10px #303030;
+	-webkit-box-shadow:1px 1px 10px #303030;
+	box-shadow: 1px 1px 10px #303030;
+	width: 100%;
+}
+
 a { 
 	color: #0066CC;
 	text-decoration: none; 
@@ -62,6 +77,14 @@ a:hover {
 }
 
 
+#latc-logo { 
+	background: #fefefe;
+	margin: 0 auto;
+	width: 950px;
+	padding: .5em .5em 0 .5em;
+	text-align: left;
+}
+
 #header { 
 	background: #fefefe;
 	margin: 0 auto;
@@ -71,15 +94,18 @@ a:hover {
 }
 
 #menu {
-	text-align: right;
+	text-align: left;
 	font-size: 1.1em;
-	margin: 0 0 5em 0;
+	margin: 0 0 0 0;
+	position: fixed;
+	top: 10px;
+	right: 50px;
 }
 
 #intro {
 	text-align: justify;
 	font-size: 1.1em;
-	margin: 3em 10em 3em 10em;
+	margin: 3em 8em 3em 8em;
 }
 
 #main { 
@@ -87,6 +113,7 @@ a:hover {
 	text-align: left;
 	margin: 0 auto;
 	width: 950px;
+	font-size: 1.1em;
 }
 
 #eui-schema {
