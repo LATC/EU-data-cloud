@@ -5,7 +5,6 @@ import java.io.Reader;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.List;
-
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamWriter;
 
@@ -24,6 +23,7 @@ public class DictionaryPage {
 		ch.writeNamespace("owl", "http://www.w3.org/2002/07/owl#");
 		ch.writeNamespace("foaf", "http://xmls.com/foaf/0.1/");
 		ch.writeNamespace("skos", "http://www.w3.org/2004/02/skos/core#");
+		ch.writeNamespace("dcterms", "http://purl.org/dc/terms/");
 		
 		ch.writeStartElement("rdf:Description");
 		ch.writeAttribute("rdf:about", "");
@@ -46,7 +46,7 @@ public class DictionaryPage {
 		ch.writeEndElement();
 		
 		ch.writeStartElement("dcterms:source");
-		ch.writeAttribute("rdf:resource","http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?file=dic%2Fen%2F" + id + ".dic");
+		ch.writeAttribute("rdf:resource","http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?file=dic%2Fen%2F" + id);
 		ch.writeEndElement();
 		
 		ch.writeEndElement();
@@ -69,6 +69,19 @@ public class DictionaryPage {
 
         	d.convert(ch, lang,id);
         }
+        
+        // generate conceptscheme for the dictionary
+        ch.writeStartElement("skos:ConceptScheme");
+        ch.writeAttribute("rdf:about", Dictionary.PREFIX + id.substring(0,id.indexOf(".dic")) + "#");
+        for(String concept:d.lstConcepts) {
+        	ch.writeStartElement("skos:hasTopConcept");
+        	ch.writeAttribute("rdf:resource", concept);
+        	ch.writeEndElement();
+        }
+        ch.writeStartElement("skos:notation");
+        ch.writeCharacters(id.substring(0,id.indexOf(".dic")));
+        ch.writeEndElement();
+        ch.writeEndElement();
         
         ch.writeEndElement();
         ch.writeEndDocument();

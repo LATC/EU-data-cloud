@@ -3,10 +3,10 @@ package com.ontologycentral.estatwrap;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.Reader;
+import java.util.ArrayList;
 import java.util.NoSuchElementException;
 import java.util.StringTokenizer;
 import java.util.logging.Logger;
-
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamWriter;
 
@@ -16,7 +16,8 @@ public class Dictionary {
 	Logger _log = Logger.getLogger(this.getClass().getName());
 
 	BufferedReader _in;
-
+	ArrayList<String> lstConcepts = new ArrayList<String>();
+	
 	public Dictionary(Reader is) throws IOException {
 		_in = new BufferedReader(is);
 	}
@@ -37,7 +38,12 @@ public class Dictionary {
 				out.writeStartElement("skos:Concept");
 				out.writeAttribute("rdf:about", PREFIX + dic_ID.substring(0,dic_ID.indexOf(".dic")) + "#" + id);
 				
-				out.writeStartElement("rdfs:label");
+				out.writeStartElement("skos:inScheme");
+				out.writeAttribute("rdf:resource", PREFIX + dic_ID.substring(0,dic_ID.indexOf(".dic")) + "#");
+				out.writeEndElement();
+				lstConcepts.add(PREFIX + dic_ID.substring(0,dic_ID.indexOf(".dic")) + "#" + id);
+				
+				out.writeStartElement("skos:prefLabel");
 				out.writeAttribute("xml:lang", lang);
 				out.writeCharacters(label);
 				out.writeEndElement();
