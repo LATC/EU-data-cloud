@@ -39,7 +39,7 @@ public class Dictionary {
 				out.writeAttribute("rdf:about", PREFIX + dic_ID.substring(0,dic_ID.indexOf(".dic")) + "#" + id);
 				
 				out.writeStartElement("skos:inScheme");
-				out.writeAttribute("rdf:resource", PREFIX + dic_ID.substring(0,dic_ID.indexOf(".dic")) + "#");
+				out.writeAttribute("rdf:resource", PREFIX + dic_ID.substring(0,dic_ID.indexOf(".dic")));
 				out.writeEndElement();
 				lstConcepts.add(PREFIX + dic_ID.substring(0,dic_ID.indexOf(".dic")) + "#" + id);
 				

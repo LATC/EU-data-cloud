@@ -72,7 +72,7 @@ public class DictionaryPage {
         
         // generate conceptscheme for the dictionary
         ch.writeStartElement("skos:ConceptScheme");
-        ch.writeAttribute("rdf:about", Dictionary.PREFIX + id.substring(0,id.indexOf(".dic")) + "#");
+        ch.writeAttribute("rdf:about", Dictionary.PREFIX + id.substring(0,id.indexOf(".dic")));
         for(String concept:d.lstConcepts) {
         	ch.writeStartElement("skos:hasTopConcept");
         	ch.writeAttribute("rdf:resource", concept);
