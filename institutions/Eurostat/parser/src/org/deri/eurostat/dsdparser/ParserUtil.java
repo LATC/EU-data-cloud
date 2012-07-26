@@ -24,7 +24,8 @@ public class ParserUtil {
 	public static String sdmx_dimension = "http://purl.org/linked-data/sdmx/2009/dimension#";
 	public static String xsd = "http://www.w3.org/2001/XMLSchema#";
 	public static String sdmxURI = "http://purl.org/linked-data/sdmx#";
-	
+    public static String cc = "http://creativecommons.org/ns#";
+
 	public static String voidURI = "http://rdfs.org/ns/void#";
 	public static String dssURI = "http://eurostat.linked-statistics.org/dss#";
 	public static String titleURI = "http://eurostat.linked-statistics.org/title#";
@@ -58,6 +59,7 @@ public class ParserUtil {
 	public static Property dcTitle;
 	public static Property sdmxConcept;
 	public static Property sdmx;
+    public static Property ccLicense;
 
 	public static Property qbDataset;
 	public static Property voidDataset;
@@ -95,7 +97,8 @@ public class ParserUtil {
 		dcTitle = m.createProperty(dcterms + "title");
 		sdmxConcept = m.createProperty(sdmx_concept + "Concept");
 		sdmx = m.createProperty(sdmxURI + "Concept");
-		
+        ccLicense = m.createProperty(cc + "license");
+
 		qbDataset = m.createProperty(qb + "DataSet");
 		voidDataset = m.createProperty(voidURI + "Dataset");
 		dataDump = m.createProperty(voidURI + "dataDump");
@@ -120,6 +123,7 @@ public class ParserUtil {
 		m.setNsPrefix("dsd", dsdURI);
 		m.setNsPrefix("data", dataURI);
 		m.setNsPrefix("title", titleURI);
+        m.setNsPrefix("cc", cc);
 		return m;
 	}
 }
