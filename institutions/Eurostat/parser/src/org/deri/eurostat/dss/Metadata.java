@@ -26,6 +26,9 @@ import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+import java.util.Date;
+import java.text.SimpleDateFormat;
+
 /**
  * 
  * @author Aftab Iqbal
@@ -33,14 +36,14 @@ import org.xml.sax.SAXException;
  *
  */
 
-public class Catalog {
+public class Metadata {
     private Document xmlDocument;
     private static String outputFilePath = "";
     private static String inputFilePath = "";
     private static String serialization = "TURTLE";
     private static String fileExt = ".ttl";
 
-    public void generate_CatalogFile()
+    public void generateMetadataFiles()
     {
         if(inputFilePath.equals("")) {
             System.out.println("GETing ToC from XMLStream.");
@@ -60,6 +63,7 @@ public class Catalog {
             fileExt = ".nt";
 
         createCatalog();
+        createVoID();
     }
 
 	public InputStream get_ToC_XMLStream()
@@ -115,6 +119,7 @@ public class Catalog {
         Model model = ParserUtil.getModelProperties();
 
         Resource eurostatURI = model.createResource(ParserUtil.baseURI + "Eurostat");
+        String datatypeDate = ParserUtil.xsd + "date";
 
         Element element = xmlDocument.getDocumentElement();
         NodeList leafs = element.getElementsByTagName("nt:leaf");
@@ -209,8 +214,6 @@ public class Catalog {
                         }
                     }
 
-                    String datatypeDate = ParserUtil.xsd + "date";
-
                     //datasetURI dcterms:created created^^xsd:date
                     NodeList leafLastUpdates = leaf.getElementsByTagName("nt:lastUpdate");
                     String leafLastUpdate = leafLastUpdates.item(0).getTextContent().trim();
@@ -236,6 +239,67 @@ public class Catalog {
     }
 
 
+    public void createVoID()
+    {
+        Date dateNow = new Date ();
+        SimpleDateFormat dateformatYYYYMMDD = new SimpleDateFormat("yyyy-MM-dd");
+        StringBuilder nowYYYYMMDD = new StringBuilder( dateformatYYYYMMDD.format( dateNow ) );
+        String datatypeDate = ParserUtil.xsd + "date";
+
+        Model model = ParserUtil.getModelProperties();
+
+        Resource eurostatURI = model.createResource(ParserUtil.baseURI);
+        Resource eurostatVoIDURI = model.createResource(ParserUtil.baseURI + "void.ttl");
+        Resource eurostatDatasetURI = model.createResource(ParserUtil.baseURI + "void.ttl#eurostat");
+
+        model.add(eurostatVoIDURI, ParserUtil.type, model.createResource(ParserUtil.voidURI + "DatasetDescription"));
+        model.add(eurostatVoIDURI, model.createProperty(ParserUtil.dcterms + "title"), model.createLiteral("A VoID Description of the eurostat.linked-statistics.org Dataset", "en"));
+        model.add(eurostatVoIDURI, model.createProperty(ParserUtil.dcterms + "creator"), model.createResource("http://csarven.ca/#i"));
+        model.add(eurostatVoIDURI, model.createProperty(ParserUtil.foaf + "primaryTopic"), eurostatDatasetURI);
+
+        model.add(eurostatDatasetURI, ParserUtil.type, ParserUtil.voidDataset);
+        model.add(eurostatDatasetURI, model.createProperty(ParserUtil.foaf + "homepage"), eurostatURI);
+        model.add(eurostatDatasetURI, model.createProperty(ParserUtil.dcterms + "title"), model.createLiteral("Eurostat Linked Data", "en"));
+
+        model.add(eurostatDatasetURI, model.createProperty(ParserUtil.dcterms + "modified"), model.createTypedLiteral(nowYYYYMMDD, datatypeDate));
+/*
+TODO: Add
+dcterms:source [ foaf:homepage <http://eurostat.linked-statistics.org/> ] ;
+dcterms:publisher [ foaf:homepage <http://deri.ie/> ] ;
+
+Add
+        model.add(dss, model.createProperty(ParserUtil.dcterms + "created"), model.createTypedLiteral("????-??-??", datatypeDate));
+
+*/
+
+
+        Element element = xmlDocument.getDocumentElement();
+        NodeList leafs = element.getElementsByTagName("nt:leaf");
+        if(leafs != null && leafs.getLength() > 0)
+        {
+            for(int i=0; i < leafs.getLength(); i++)
+            {
+                Element leaf = (Element)leafs.item(i);
+                if(leaf.getAttribute("type").equals("dataset") || leaf.getAttribute("type").equals("table"))
+                {
+                    NodeList leafCodes = leaf.getElementsByTagName("nt:code");
+                    String code = leafCodes.item(0).getTextContent().trim();
+
+                    Resource dss = model.createResource(ParserUtil.dssURI + code);
+
+                    model.add(eurostatDatasetURI, ParserUtil.voidSubset, dss);
+                    model.add(dss, ParserUtil.type, ParserUtil.voidDataset);
+                    model.add(dss, model.createProperty(ParserUtil.voidURI + "dataDump"), model.createResource("http://eurostat.linked-statistics.org/data/" + code + ".rdf"));
+                    model.add(dss, model.createProperty(ParserUtil.voidURI + "dataDump"), model.createResource("http://eurostat.linked-statistics.org/dsd/" + code + ".rdf"));
+                }
+            }
+        }
+
+        writeRDFToFile("void", model);
+        System.out.println("Created VoID.");
+    }
+
+
     public String convertDateToXSDDate(String s)
     {
         return s.substring(6,10) + "-" + s.substring(3,5) + "-" + s.substring(0,2);
@@ -258,10 +322,10 @@ public class Catalog {
 
     private static void usage()
     {
-        System.out.println("usage: Catalog [parameters]");
+        System.out.println("usage: Metadata [parameters]");
         System.out.println();
-        System.out.println("    (optional) -i inputFilePath    Use local ToC.xml file to generate catalog rather than downloading from BulkDownload facility.");
-        System.out.println("    -o outputFilePath    Output directory path to generate the Catalog file.");
+        System.out.println("    (optional) -i inputFilePath    Use local table_of_contents.xml file to generate metadata files rather than downloading from BulkDownload facility.");
+        System.out.println("    -o outputFilePath    Output directory path to generate the metadata files.");
         System.out.println("    (optional) -f format    RDF format for serialization (RDF/XML, TURTLE, N-TRIPLES).");
     }
 
@@ -272,7 +336,7 @@ public class Catalog {
         Options options = new Options( );
         options.addOption("h", "help", false, "Print this usage information");
         options.addOption("i", "inputFilepath", true, "Local ToC file.");
-        options.addOption("o", "outputFilepath", true, "Output directory path to generate the Catalog file.");
+        options.addOption("o", "outputFilepath", true, "Output directory path to generate the metadata files.");
         options.addOption("f", "format", true, "RDF format for serialization (RDF/XML, TURTLE, N-TRIPLES).");
         CommandLine commandLine = parser.parse( options, args );
 
@@ -295,8 +359,8 @@ public class Catalog {
         }
         else
         {
-            Catalog obj = new Catalog();
-            obj.generate_CatalogFile();
+            Metadata obj = new Metadata();
+            obj.generateMetadataFiles();
         }
     }
 }

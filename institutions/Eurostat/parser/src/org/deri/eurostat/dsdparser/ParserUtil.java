@@ -25,7 +25,7 @@ public class ParserUtil {
 	public static String xsd = "http://www.w3.org/2001/XMLSchema#";
 	public static String sdmxURI = "http://purl.org/linked-data/sdmx#";
     public static String cc = "http://creativecommons.org/ns#";
-
+    public static String foaf = "http://xmlns.com/foaf/0.1/";
 	public static String voidURI = "http://rdfs.org/ns/void#";
 	public static String dssURI = "http://eurostat.linked-statistics.org/dss#";
 	public static String titleURI = "http://eurostat.linked-statistics.org/title#";
@@ -60,11 +60,10 @@ public class ParserUtil {
 	public static Property sdmxConcept;
 	public static Property sdmx;
     public static Property ccLicense;
-
 	public static Property qbDataset;
 	public static Property voidDataset;
 	public static Property dataDump;
-	public static Property subset;
+	public static Property voidSubset;
 	public static Property qb_structure;
 	
 	public static Model getModelProperties()
@@ -102,8 +101,9 @@ public class ParserUtil {
 		qbDataset = m.createProperty(qb + "DataSet");
 		voidDataset = m.createProperty(voidURI + "Dataset");
 		dataDump = m.createProperty(voidURI + "dataDump");
-		subset = m.createProperty(voidURI + "subset");
-		
+		voidSubset = m.createProperty(voidURI + "subset");
+
+        m.setNsPrefix("foaf", foaf);
 		m.setNsPrefix("skos", skos);
 		m.setNsPrefix("qb", qb);
 		m.setNsPrefix("rdfs",rdfs);
