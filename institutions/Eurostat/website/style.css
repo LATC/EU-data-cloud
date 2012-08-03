@@ -67,6 +67,18 @@ a:hover {
 	color: #0099FF; 
 }
 
+table {
+    border-collapse: collapse;
+}
+td, th {
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #ccc;
+    padding: 0.3em 0.5em;
+}
+td.number {
+    text-align: right;
+}
 
 .entity a {
 	color: #a0a0a0;
