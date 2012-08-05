@@ -1,38 +1,49 @@
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix dist: <http://www.w3.org/2007/08/pyRdfa/distiller#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix ov: <http://open.vocab.org/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
+@prefix xhv: <http://www.w3.org/1999/xhtml/vocab#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
 
 <http://institutions.publicdata.eu/about/> a void:DatasetDescription ;
      dct:title "VoID description of the Institutions and Bodies of the European Union dataset" ;
      rdfs:seeAlso <http://www.w3.org/TR/void/> ;
      foaf:primaryTopic <http://institutions.publicdata.eu/#EU_Institutions_Bodies> . 
 
+<http://institutions.publicdata.eu/about/#lsagencies> a void:Linkset ;
+     void:linkPredicate owl:sameAs ;
+     void:target <http://agencies.publicdata.eu/>, <http://institutions.publicdata.eu/#EU_Institutions_Bodies> . 
+
 <http://institutions.publicdata.eu/about/#lsdbpedia> a void:Linkset ;
-     void:linkPredicate <http://www.w3.org/2002/07/owl#sameAs> ;
+     void:linkPredicate owl:sameAs ;
      void:target <http://institutions.publicdata.eu/#EU_Institutions_Bodies>, <http://lod-cloud.net/dbpedia> . 
 
 <http://institutions.publicdata.eu/#EU_Institutions_Bodies> a void:Dataset ;
      ov:kudosTo <http://latc-project.eu/#this> ;
-     dct:description "This dataset defines Linked Data compatible URIs for major institutions and bodies of the European Union that can be used as identifiers in EU-related datasets." ;
+     dct:description """
+			This dataset defines Linked Data compatible URIs for major institutions and bodies of the European Union that can be used as identifiers in EU-related datasets.
+		""" ;
      dct:license <http://www.opendatacommons.org/licenses/pddl/> ;
      dct:modified "2012-08-05"^^xsd:date ;
      dct:publisher <http://sw-app.org/mic.xhtml#i>, <http://www.anjeve.de/foaf.rdf#AnjaJentzsch> ;
      dct:subject <http://dbpedia.org/resource/Europe>, <http://dbpedia.org/resource/European_Union>, <http://dbpedia.org/resource/Organization> ;
      dct:title "Institutions and Bodies of the European Union" ;
      void:dataDump <http://institutions.publicdata.eu/>, <http://institutions.publicdata.eu/all.ttl> ;
+     void:entities "65"^^xsd:integer ;
      void:exampleResource <http://institutions.publicdata.eu/#ec> ;
      void:feature <http://www.w3.org/ns/formats/RDFa>, <http://www.w3.org/ns/formats/Turtle> ;
-     void:subset <http://institutions.publicdata.eu/about/#lsdbpedia> ;
+     void:subset <http://institutions.publicdata.eu/about/#lsagencies>, <http://institutions.publicdata.eu/about/#lsdbpedia> ;
+     void:triples "643"^^xsd:integer ;
      void:vocabulary
          <http://purl.org/dc/terms/>,
          <http://www.w3.org/2004/02/skos/core>,
          <http://www.w3.org/ns/org>,
          <http://xmlns.com/foaf/0.1/> ;
      rdfs:seeAlso <http://europa.eu/institutions/> ;
+     owl:sameAs <http://lod-cloud.net/dataset/eu-institutions> ;
      foaf:homepage <http://institutions.publicdata.eu/> . 

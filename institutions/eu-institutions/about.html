@@ -5,6 +5,7 @@
   xmlns:foaf="http://xmlns.com/foaf/0.1/"  
   xmlns:ov="http://open.vocab.org/terms/"
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
   xmlns:void="http://rdfs.org/ns/void#">
 <head>
 	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
@@ -12,6 +13,9 @@
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
 </head>
 <body about="http://institutions.publicdata.eu/#EU_Institutions_Bodies" typeof="void:Dataset">
+	<div style="display:none">
+		<a rel="owl:sameAs" href="http://lod-cloud.net/dataset/eu-institutions">http://lod-cloud.net/dataset/eu-institutions</a>
+	</div>
 	<div id="header">
 		<div id="menu">
 			<a href="index.html">Home</a>
@@ -25,6 +29,7 @@
 	</div>
 
 	<div id="main">
+		
 		<h2>About</h2>
 		<h3>General</h3>
 		<p style="display:none" property="dct:description">
@@ -59,13 +64,16 @@
 		<p>
 			An example entity of this dataset is the <em>European Commission</em> with the URI: <a rel="void:exampleResource" href="http://institutions.publicdata.eu/#ec">http://institutions.publicdata.eu/#ec</a>.
 		</p>
-		<h4>Interlinking</h4>
+		<h4>Statistics</h4>
 		<p>
-			The dataset contains the following data links:
+			The dataset contains <span property="void:triples" datatype="xsd:integer">643</span> triples with <span property="void:entities" datatype="xsd:integer">65</span> distinct entities in total and has the following data links:
 		</p>
 		<ul rel="void:subset">
 			<li about="http://institutions.publicdata.eu/about/#lsdbpedia" typeof="void:Linkset">
 				<span rel="void:target" resource="http://institutions.publicdata.eu/#EU_Institutions_Bodies">It</span> links with <a rel="void:linkPredicate" href="http://www.w3.org/2002/07/owl#sameAs">owl:sameAs</a> to <a rel="void:target" href="http://lod-cloud.net/dbpedia">DBpedia</a>.
+			</li>
+			<li about="http://institutions.publicdata.eu/about/#lsagencies" typeof="void:Linkset">
+				<span rel="void:target" resource="http://institutions.publicdata.eu/#EU_Institutions_Bodies">It</span> links with <a rel="void:linkPredicate" href="http://www.w3.org/2002/07/owl#sameAs">owl:sameAs</a> to <a rel="void:target" href="http://agencies.publicdata.eu/">EU Agencies and decentralized bodies (Agencies)</a>.
 			</li>
 		</ul>
 		<h4>Vocabularies</h4>
