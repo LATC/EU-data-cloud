@@ -1,0 +1,715 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dist: <http://www.w3.org/2007/08/pyRdfa/distiller#> .
+@prefix eui: <http://institutions.publicdata.eu/#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix georss: <http://www.georss.org/georss/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix ov: <http://open.vocab.org/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+eui:EU_Institutions_Bodies dct:title "Institutions and Bodies of the European Union" . 
+
+eui:acer a eui:Policy_Agency ;
+     dct:description """ACER's mission is to assist National Regulatory Authorities in exercising, at Community level, the regulatory tasks that they perform in the Member States and, where necessary, to coordinate their action.
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "Agency for the Cooperation of Energy Regulators" ;
+     georss:point "46.062 14.509" ;
+     owl:sameAs <http://dbpedia.org/resource/Agency_for_the_Cooperation_of_Energy_Regulators> ;
+     geo:lat "46.062"^^xsd:float ;
+     geo:long "14.509"^^xsd:float ;
+     skos:altLabel "ACER" ;
+     foaf:based_near <http://dbpedia.org/resource/Ljubljana> ;
+     foaf:homepage <http://www.acer.europa.eu> . 
+
+eui:acourt a eui:EU_Institution ;
+     dct:description "The Court of Auditor's job is to check that EU funds, which come from the taxpayers, are properly collected and that they are spent legally, economically and for the intended purpose. Its aim is to ensure that the taxpayers get maximum value for their money, and it has the right to audit any person or organisation handling EU funds." ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "Court of Auditors" ;
+     georss:point "49.62297 6.1472" ;
+     owl:sameAs <http://dbpedia.org/resource/Court_of_Auditors> ;
+     geo:lat "49.62297"^^xsd:float ;
+     geo:long "6.1472"^^xsd:float ;
+     skos:altLabel "ECA" ;
+     foaf:based_near <http://dbpedia.org/resource/Luxembourg_(city)> ;
+     foaf:homepage <http://eca.europa.eu/> . 
+
+eui:cdt a eui:Policy_Agency ;
+     dct:description """The Translation Centre for the Bodies of the European Union was set up in 1994 to provide the translation services required by the specialised decentralised agencies of the European Union.
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "Translation Centre for the Bodies of the European Union" ;
+     georss:point "49.62297 6.1472" ;
+     owl:sameAs <http://dbpedia.org/resource/Translation_Centre_for_the_Bodies_of_the_European_Union> ;
+     geo:lat "49.62297"^^xsd:float ;
+     geo:long "6.1472"^^xsd:float ;
+     skos:altLabel "CdT" ;
+     foaf:based_near <http://dbpedia.org/resource/Luxembourg_(city)> ;
+     foaf:homepage <http://www.cdt.europa.eu/> . 
+
+eui:cedefop a eui:Policy_Agency ;
+     dct:description """The European Centre for the Development of Vocational Training (Cedefop) aims at underpinning the development of vocational education and training policy in the European Union.
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Centre for the Development of Vocational Training" ;
+     georss:point "40.65 22.9" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Centre_for_the_Development_of_Vocational_Training> ;
+     geo:lat "40.65"^^xsd:float ;
+     geo:long "22.9"^^xsd:float ;
+     skos:altLabel "Cedefop" ;
+     foaf:based_near <http://dbpedia.org/resource/Thessaloniki> ;
+     foaf:homepage <http://www.cedefop.europa.eu/> . 
+
+eui:cepol a eui:Police_And_Judicial_Cooperation_In_criminal_Matters_Agency ;
+     dct:description """CEPOL - European Police College brings together senior police officers across Europe with the aim to encourage cross-border cooperation in the fight against crime, maintenance of public security and law and order.
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Police College" ;
+     georss:point "51.34528, -0.923435" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Police_College> ;
+     geo:lat "51.34528"^^xsd:float ;
+     geo:long "-0.923435"^^xsd:float ;
+     skos:altLabel "CEPOL" ;
+     foaf:based_near <http://dbpedia.org/resource/Bramshill> ;
+     foaf:homepage <http://www.cepol.europa.eu/> . 
+
+eui:cfca a eui:Policy_Agency ;
+     dct:description """The Community Fisheries Control Agency (CFCA)'s goals are to co-ordinate the operational activities of Member States in the area of fisheries, and provide assistance to the Member States in their application of the CFP.
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "Community Fisheries Control Agency" ;
+     georss:point "42.231356 -8.712447" ;
+     owl:sameAs <http://dbpedia.org/resource/Community_Fisheries_Control_Agency> ;
+     geo:lat "42.231356"^^xsd:float ;
+     geo:long "-8.712447"^^xsd:float ;
+     skos:altLabel "CFCA" ;
+     foaf:based_near <http://dbpedia.org/resource/Vigo> ;
+     foaf:homepage <http://www.cfca.europa.eu/> . 
+
+eui:cor a eui:Consultative_Body ;
+     dct:description "The Committee of the Regions (CoR) is an advisory body composed of representatives of Europe's regional and local authorities. The CoR has to be consulted before EU decisions are taken on matters such as regional policy, the environment, education and transport - all of which concern local and regional government." ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "Committee of the Regions" ;
+     georss:point "50.840556 4.377222" ;
+     owl:sameAs <http://dbpedia.org/resource/Committee_of_the_Regions> ;
+     geo:lat "50.840556"^^xsd:float ;
+     geo:long "4.377222"^^xsd:float ;
+     skos:altLabel "CoR" ;
+     foaf:based_near <http://dbpedia.org/resource/Brussels> ;
+     foaf:homepage <http://cor.europa.eu/> . 
+
+eui:council a eui:EU_Institution ;
+     dct:description "The Council of the European Union is the EU's main decision-making body. It represents the member states, and its meetings are attended by one minister from each of the EU's national governments." ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "Council of the European Union" ;
+     georss:point "50.841389 4.381389" ;
+     rdfs:seeAlso <http://www.facebook.com/eucouncil> ;
+     owl:sameAs <http://dbpedia.org/resource/Council_of_the_European_Union> ;
+     geo:lat "50.841389"^^xsd:float ;
+     geo:long "4.381389"^^xsd:float ;
+     skos:altLabel "Council" ;
+     foaf:based_near <http://dbpedia.org/resource/Brussels> ;
+     foaf:homepage <http://www.consilium.europa.eu/> . 
+
+eui:cvpo a eui:Policy_Agency ;
+     dct:description """The Community Plant Variety Office (CPVO)'s task is to administer a system of plant variety rights, also known as plant breeders' rights, a form of intellectual property right relating to plants.
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "Community Plant Variety Office" ;
+     georss:point "47.473612 -0.554167" ;
+     owl:sameAs <http://dbpedia.org/resource/Community_Plant_Variety_Office> ;
+     geo:lat "47.473612"^^xsd:float ;
+     geo:long "-0.554167"^^xsd:float ;
+     skos:altLabel "CPVO" ;
+     foaf:based_near <http://dbpedia.org/resource/Angers> ;
+     foaf:homepage <http://www.cpvo.europa.eu/> . 
+
+eui:eacea a eui:Executive_Agency ;
+     dct:description """The Executive Agency Education, Audiovisual and Culture (EACEA) implements a number of strands of more than 15 Community funded programmes and actions in the fields of education and training, active citizenship, youth, audiovisual and culture.
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "Education, Audiovisual and Culture Executive Agency" ;
+     georss:point "50.83924 4.38393" ;
+     owl:sameAs <http://dbpedia.org/resource/Education,_Audiovisual_and_Culture_Executive_Agency> ;
+     geo:lat "50.83924"^^xsd:float ;
+     geo:long "4.38393"^^xsd:float ;
+     skos:altLabel "EACEA" ;
+     foaf:based_near <http://dbpedia.org/resource/Brussels> ;
+     foaf:homepage <http://eacea.ec.europa.eu/> . 
+
+eui:eaci a eui:Executive_Agency ;
+     dct:description "Executive Agency for Competitiveness and Innovation (EACI) manages high-quality European funding schemes and initiatives in several areas." ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "Executive Agency for Competitiveness and Innovation" ;
+     georss:point "50.83924 4.38393" ;
+     owl:sameAs <http://dbpedia.org/resource/Executive_Agency_for_Competitiveness_and_Innovation> ;
+     geo:lat "50.83924"^^xsd:float ;
+     geo:long "4.38393"^^xsd:float ;
+     skos:altLabel "EACI" ;
+     foaf:based_near <http://dbpedia.org/resource/Brussels> ;
+     foaf:homepage <http://ec.europa.eu/eaci> . 
+
+eui:eahc a eui:Executive_Agency ;
+     dct:description "The Executive Agency for the Public Health Programme (PHEA) was established in 2005 to improve the implementation of the Community public health programme. In 2008, the European Commission transformed PHEA into the Executive Agency for Health and Consumers. The agency was entrusted with new tasks in the field of consumer protection and food safety training, and its mandate was extended until the end of 2015." ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "Executive Agency for Health and Consumers" ;
+     georss:point "49.62297 6.1472" ;
+     owl:sameAs <http://dbpedia.org/resource/Executive_Agency_for_the_Public_Health_Programme> ;
+     geo:lat "49.62297"^^xsd:float ;
+     geo:long "6.1472"^^xsd:float ;
+     skos:altLabel "EAHC" ;
+     foaf:based_near <http://dbpedia.org/resource/Luxembourg_(city)> ;
+     foaf:homepage <http://ec.europa.eu/eahc/> . 
+
+eui:eas a eui:Interinstitutional_Body ;
+     dct:description "The European Administrative School (EAS) was set up on 10 February 2005. Its task is to provide training in specific areas for members of EU staff. Its courses are open to staff of all the EU institutions, thereby helping spread common values, promoting better understanding among EU staff and achieving economies of scale. It works in close cooperation with the training departments of all the institutions to avoid any duplication of effort." ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Administrative School" ;
+     georss:point "50.83924 4.38393" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Administrative_School> ;
+     geo:lat "50.83924"^^xsd:float ;
+     geo:long "4.38393"^^xsd:float ;
+     skos:altLabel "EAS" ;
+     foaf:based_near <http://dbpedia.org/resource/Brussels> ;
+     foaf:homepage <http://europa.eu/eas/> . 
+
+eui:easa a eui:Policy_Agency ;
+     dct:description """The European Aviation Safety Agency (EASA) is an agency of the European Unionwith offices in Cologne, Germany, which has been given regulatory and executive tasks in the field of civilian aviation safety.
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Aviation Safety Agency" ;
+     georss:point "50.95 6.966667" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Aviation_Safety_Agency> ;
+     geo:lat "50.95"^^xsd:float ;
+     geo:long "6.966667"^^xsd:float ;
+     skos:altLabel "EASA" ;
+     foaf:based_near <http://dbpedia.org/resource/Cologne> ;
+     foaf:homepage <http://www.easa.europa.eu/> . 
+
+eui:ec a eui:EU_Institution ;
+     dct:description "The European Commission is independent of national governments. Its job is to represent and uphold the interests of the EU as a whole. It drafts proposals for new European laws, which it presents to the European Parliament and the Council." ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Commission" ;
+     georss:point "50.843611 4.382778" ;
+     rdfs:seeAlso
+         <http://topics.nytimes.com/topics/reference/timestopics/organizations/e/european_commission/>,
+         <http://www.economist.com/topics/european-commission>,
+         <http://www.eu-go.eu/>,
+         <http://www.guardian.co.uk/world/european-commission>,
+         <http://www.inspire-geoportal.eu/>,
+         <http://www.linkedin.com/company/european-commission> ;
+     owl:sameAs <http://dbpedia.org/resource/European_Commission> ;
+     geo:lat "50.843611"^^xsd:float ;
+     geo:long "4.382778"^^xsd:float ;
+     skos:altLabel "Commission" ;
+     foaf:based_near <http://dbpedia.org/resource/Brussels> ;
+     foaf:homepage <http://ec.europa.eu/> . 
+
+eui:ecb a eui:Financial_Body ;
+     dct:description "The European Central Bank's job is to manage the euro - the EU's single currency. The ECB is also responsible for framing and implementing the EU's economic and monetary policy." ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Central Bank" ;
+     georss:point "50.1095 8.674" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Central_Bank> ;
+     geo:lat "50.1095"^^xsd:float ;
+     geo:long "8.674"^^xsd:float ;
+     skos:altLabel "ECB" ;
+     foaf:based_near <http://dbpedia.org/resource/Frankfurt> ;
+     foaf:homepage <http://www.ecb.int/> . 
+
+eui:ecdc a eui:Policy_Agency ;
+     dct:description """The European Centre for Disease Prevention and Control (ECDC) is an independent agency of the European Union aimed at strengthening Europe's defences against infectious diseases.
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Centre for Disease Prevention and Control" ;
+     georss:point "59.35 18" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Centre_for_Disease_Prevention_and_Control> ;
+     geo:lat "59.35"^^xsd:float ;
+     geo:long "18"^^xsd:float ;
+     skos:altLabel "ECDC" ;
+     foaf:based_near <http://dbpedia.org/resource/Solna_Municipality> ;
+     foaf:homepage <http://www.ecdc.europa.eu/> . 
+
+eui:echa a eui:Policy_Agency ;
+     dct:description """The European Chemicals Agency (ECHA) manages the technical, scientific and administrative aspects of the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH) system.
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Chemicals Agency" ;
+     georss:point "60.170833 24.9375" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Chemicals_Agency> ;
+     geo:lat "60.170833"^^xsd:float ;
+     geo:long "24.9375"^^xsd:float ;
+     skos:altLabel "ECHA" ;
+     foaf:based_near <http://dbpedia.org/resource/Helsinki> ;
+     foaf:homepage <http://echa.europa.eu/> . 
+
+eui:eda a eui:Common_Security_And_Defence_Policy_Agency ;
+     dct:description """The European Defence Agency (EDA) is an agency of the European Union based in Brussels. It is a Common Foreign and Security Policy (CFSP) body set up on 12 July 2004, reporting to the Council of the European Union.
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Defence Agency" ;
+     georss:point "50.83924 4.38393" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Defence_Agency> ;
+     geo:lat "50.83924"^^xsd:float ;
+     geo:long "4.38393"^^xsd:float ;
+     skos:altLabel "EDA" ;
+     foaf:based_near <http://dbpedia.org/resource/Brussels> ;
+     foaf:homepage <http://www.eda.europa.eu/> . 
+
+eui:edps a eui:Interinstitutional_Body ;
+     dct:description "The responsibility of the European Data Protection Supervisor (EDPS) is to make sure that all EU institutions and bodies respect people's right to privacy when processing their personal data." ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Data Protection Supervisor" ;
+     georss:point "50.83893 4.37522" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Data_Protection_Supervisor> ;
+     geo:lat "50.83893"^^xsd:float ;
+     geo:long "4.37522"^^xsd:float ;
+     skos:altLabel "EDPS" ;
+     foaf:based_near <http://dbpedia.org/resource/Brussels> ;
+     foaf:homepage <http://edps.europa.eu/> . 
+
+eui:eea a eui:Policy_Agency ;
+     dct:description """The European Environment Agency (EEA) is devoted to establishing a monitoring network for the monitoring of the European environment.
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Environment Agency" ;
+     georss:point "55.676111 12.568333" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Environment_Agency> ;
+     geo:lat "55.676111"^^xsd:float ;
+     geo:long "12.568333"^^xsd:float ;
+     skos:altLabel "EEA" ;
+     foaf:based_near <http://dbpedia.org/resource/Copenhagen> ;
+     foaf:homepage <http://www.eea.europa.eu/> . 
+
+eui:eesc a eui:Consultative_Body ;
+     dct:description "The European Economic and Social Committee (EESC) is an advisory body representing employers, trade unions, farmers, consumers and the other interest groups that collectively make up 'organised civil society'. It presents their views and defends their interests in policy discussions with the Commission, the Council and the European Parliament." ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Economic and Social Committee" ;
+     georss:point "50.840556 4.377222" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Economic_and_Social_Committee> ;
+     geo:lat "50.840556"^^xsd:float ;
+     geo:long "4.377222"^^xsd:float ;
+     skos:altLabel "EESC" ;
+     foaf:based_near <http://dbpedia.org/resource/Brussels> ;
+     foaf:homepage <http://eesc.europa.eu/> . 
+
+eui:efsa a eui:Policy_Agency ;
+     dct:description """The European Food Safety Authority (EFSA) provides independent scientific advice on all matters with a direct or indirect impact on food safety — including animal health and welfare and plant protection. EFSA is also consulted on nutrition in relation to Community legislation.
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Food Safety Authority" ;
+     georss:point "44.8 10.333333" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Food_Safety_Authority> ;
+     geo:lat "44.8"^^xsd:float ;
+     geo:long "10.333333"^^xsd:float ;
+     skos:altLabel "EFSA" ;
+     foaf:based_near <http://dbpedia.org/resource/Parma> ;
+     foaf:homepage <http://www.efsa.europa.eu/> . 
+
+eui:eib a eui:Financial_Body ;
+     dct:description "The European Investment Bank's job is to lend money for projects of European interest (such as rail and road links, airports, or environmental schemes), particularly in the less well-off regions, candidate countries and the developing world. It also provides credit for investment by small businesses." ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Investment Bank" ;
+     georss:point "49.62151 6.1396" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Investment_Bank> ;
+     geo:lat "49.62151"^^xsd:float ;
+     geo:long "6.1396"^^xsd:float ;
+     skos:altLabel "EIB" ;
+     foaf:based_near <http://dbpedia.org/resource/Luxembourg_(city)> ;
+     foaf:homepage <http://eib.europa.eu/> . 
+
+eui:eif a eui:Financial_Body ;
+     dct:description "The European Investment Fund (EIF) was set up to help small businesses." ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Investment Fund" ;
+     georss:point "49.62151 6.1396" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Investment_Fund> ;
+     geo:lat "49.62151"^^xsd:float ;
+     geo:long "6.1396"^^xsd:float ;
+     skos:altLabel "EIF" ;
+     foaf:based_near <http://dbpedia.org/resource/Luxembourg_(city)> ;
+     foaf:homepage <http://eif.europa.eu/> . 
+
+eui:eige a eui:Policy_Agency ;
+     dct:description """The European Institute for Gender Equality supports the EU institutions and the Member States in promoting equality between women and men and combating sex discrimination. 
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Institute for Gender Equality" ;
+     georss:point "54.683333 25.283333" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Institute_for_Gender_Equality> ;
+     geo:lat "54.683333"^^xsd:float ;
+     geo:long "25.283333"^^xsd:float ;
+     skos:altLabel "EIGE" ;
+     foaf:based_near <http://dbpedia.org/resource/Vilnius> ;
+     foaf:homepage <http://www.eige.europa.eu/> . 
+
+eui:ema a eui:Policy_Agency ;
+     dct:description """The European Medicines Agency is a decentralised body of the European Union with headquarters in London. Its main responsibility is the protection and promotion of public and animal health, through the evaluation and supervision of medicines for human and veterinary use.
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Medicines Agency" ;
+     georss:point "51.507222 -0.1275" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Medicines_Agency> ;
+     geo:lat "51.507222"^^xsd:float ;
+     geo:long "-0.1275"^^xsd:float ;
+     skos:altLabel "EMA" ;
+     foaf:based_near <http://dbpedia.org/resource/London> ;
+     foaf:homepage <http://www.ema.europa.eu/> . 
+
+eui:emcdda a eui:Policy_Agency ;
+     dct:description """The European Monitoring Centre for Drugs and Drug Addiction (EMCDDA) is the hub of drug-related information in the European Union. Its role is to gather, analyse and disseminate ‘objective, reliable and comparable information’ on drugs and drug addiction and, in so doing, provide its audiences with a sound and evidence-based picture of the drug phenomenon at European level.
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Monitoring Centre for Drugs and Drug Addiction" ;
+     georss:point "38.713811 -9.139386" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Monitoring_Centre_for_Drugs_and_Drug_Addiction> ;
+     geo:lat "38.713811"^^xsd:float ;
+     geo:long "-9.139386"^^xsd:float ;
+     skos:altLabel "EMCDDA" ;
+     foaf:based_near <http://dbpedia.org/resource/Lisbon> ;
+     foaf:homepage <http://www.emcdda.europa.eu/> . 
+
+eui:emsa a eui:Policy_Agency ;
+     dct:description """The European Maritime Safety Agency (EMSA) is a European Union agency charged with reducing the risk of maritime accidents, marine pollution from ships and the loss of human lives at sea by helping to enforce the pertinent EU legislation.
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Maritime Safety Agency" ;
+     georss:point "38.713811 -9.139386" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Maritime_Safety_Agency> ;
+     geo:lat "38.713811"^^xsd:float ;
+     geo:long "-9.139386"^^xsd:float ;
+     skos:altLabel "EMSA" ;
+     foaf:based_near <http://dbpedia.org/resource/Lisbon> ;
+     foaf:homepage <http://www.emsa.europa.eu/> . 
+
+eui:enisa a eui:Policy_Agency ;
+     dct:description """The objective of European Network and Information Security Agency (ENISA) is to improve network and information security in the European Union.
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Network and Information Security Agency" ;
+     georss:point "35.333333 25.133333" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Network_and_Information_Security_Agency> ;
+     geo:lat "35.333333"^^xsd:float ;
+     geo:long "25.133333"^^xsd:float ;
+     skos:altLabel "ENISA" ;
+     foaf:based_near <http://dbpedia.org/resource/Heraklion> ;
+     foaf:homepage <http://www.enisa.europa.eu/> . 
+
+eui:eom a eui:Specialised_Body ;
+     dct:description "The European Ombudsman acts as an intermediary between the citizen and the EU authorities. He is entitled to receive and investigate complaints from EU citizens, businesses and organisations, and from anyone residing or having their registered office in an EU country." ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Ombudsman" ;
+     georss:point "48.597512 7.769092" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Ombudsman> ;
+     geo:lat "48.597512"^^xsd:float ;
+     geo:long "7.769092"^^xsd:float ;
+     skos:altLabel "Ombudsman" ;
+     foaf:based_near <http://dbpedia.org/resource/Strasbourg> ;
+     foaf:homepage <http://ombudsman.europa.eu/> . 
+
+eui:ep a eui:EU_Institution ;
+     dct:description "The European Parliament (EP) is elected by the citizens of the European Union to represent their interests." ;
+     dct:subject <http://dbpedia.org/resource/Legislature> ;
+     dct:title "European Parliament" ;
+     georss:point "48.597512 7.769092" ;
+     rdfs:seeAlso <http://topics.nytimes.com/topics/reference/timestopics/organizations/e/european_parliament/>, <http://www.flickr.com/photos/european_parliament/> ;
+     owl:sameAs <http://dbpedia.org/resource/European_Parliament> ;
+     geo:lat "48.597512"^^xsd:float ;
+     geo:long "7.769092"^^xsd:float ;
+     skos:altLabel "EP" ;
+     foaf:based_near <http://dbpedia.org/resource/Strasbourg> ;
+     foaf:homepage <http://www.europarl.europa.eu/> . 
+
+eui:epso a eui:Interinstitutional_Body ;
+     dct:description "The European Personnel Selection Office (EPSO) became operational in January 2003. Its task is to set competitive examinations for recruiting staff to work in all the EU institutions. This is more efficient than having each institution organise its own recruitment competitions. EPSO's annual budget of roughly 21 million is 11% less than what the EU institutions used to spend on recruitment." ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Personnel Selection Office" ;
+     georss:point "50.843611 4.382778" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Personnel_Selection_Office> ;
+     geo:lat "50.843611"^^xsd:float ;
+     geo:long "4.382778"^^xsd:float ;
+     skos:altLabel "EPSO" ;
+     foaf:based_near <http://dbpedia.org/resource/Brussels> ;
+     foaf:homepage <http://europa.eu/epso/> . 
+
+eui:era a eui:Policy_Agency ;
+     dct:description """The European Railway Agency (ERA) is helping to integrate European railway systems by making trains safer and able to cross national borders without stopping.
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Railway Agency" ;
+     georss:point "50.358056 3.523333" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Railway_Agency> ;
+     geo:lat "50.358056"^^xsd:float ;
+     geo:long "3.523333"^^xsd:float ;
+     skos:altLabel "ERA" ;
+     foaf:based_near <http://dbpedia.org/resource/Valenciennes> ;
+     foaf:homepage <http://www.era.europa.eu/> . 
+
+eui:erc a eui:Executive_Agency ;
+     dct:description "The European Research Council (ERC) is part of the EU's Seventh Research Framework Programme (FP7). It is set up by the European Commission to support investigator-driven frontier research and was established in February 2007 on the basis of the FP7 IDEAS specific programme, with a total budget of 7.5 billion Euro (2007-2013)." ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Research Council Executive Agency" ;
+     georss:point "50.83924 4.38393" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Research_Council_Executive_Agency> ;
+     geo:lat "50.83924"^^xsd:float ;
+     geo:long "4.38393"^^xsd:float ;
+     skos:altLabel "ERC Executive Agency" ;
+     foaf:based_near <http://dbpedia.org/resource/Brussels> ;
+     foaf:homepage <http://erc.europa.eu/> . 
+
+eui:esa a eui:EURATOM_Agency ;
+     dct:description "The Euratom Supply Agency's mission is to ensure a regular and equitable supply of nuclear fuels for Community users." ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "EURATOM Supply Agency" ;
+     georss:point "49.58267 6.1183" ;
+     geo:lat "49.58267"^^xsd:float ;
+     geo:long "6.1183"^^xsd:float ;
+     skos:altLabel "ESA" ;
+     foaf:based_near <http://dbpedia.org/resource/Luxembourg_(city)> ;
+     foaf:homepage <http://ec.europa.eu/euratom/> . 
+
+eui:etf a eui:Policy_Agency ;
+     dct:description """The European Training Foundation (ETF) helps transition and developing countries to harness the potential of their human capital through the reform of education, training and labour market systems.
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Training Foundation" ;
+     georss:point "45.066667 7.7" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Training_Foundation> ;
+     geo:lat "45.066667"^^xsd:float ;
+     geo:long "7.7"^^xsd:float ;
+     skos:altLabel "ETF" ;
+     foaf:based_near <http://dbpedia.org/resource/Turin> ;
+     foaf:homepage <http://www.etf.europa.eu/> . 
+
+eui:eurofound a eui:Policy_Agency ;
+     dct:description """The European Foundation for the Improvement of Living and Working Conditions contributes to the planning and establishment of better living and working conditions in Europe. It provides findings, knowledge and advice from independent and comparative research, to governments, employers, trade unions and the European Commission.
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Foundation for the Improvement of Living and Working Conditions" ;
+     georss:point "53.347778 -6.259722" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Foundation_for_the_Improvement_of_Living_and_Working_Conditions> ;
+     geo:lat "53.347778"^^xsd:float ;
+     geo:long "-6.259722"^^xsd:float ;
+     skos:altLabel "EUROFOUND" ;
+     foaf:based_near <http://dbpedia.org/resource/Dublin,_Ireland> ;
+     foaf:homepage <http://www.eurofound.europa.eu/> . 
+
+eui:eurojust a eui:Police_And_Judicial_Cooperation_In_criminal_Matters_Agency ;
+     dct:description """Eurojust is a European Union body established in 2002 to stimulate and improve the co-ordination of investigations and prosecutions among the competent judicial authorities of the European Union Member States when they deal with serious cross-border and organised crime.
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "The European Union’s Judicial Cooperation Unit" ;
+     georss:point "52.083333 4.316667" ;
+     owl:sameAs <http://dbpedia.org/resource/Eurojust> ;
+     geo:lat "52.083333"^^xsd:float ;
+     geo:long "4.316667"^^xsd:float ;
+     skos:altLabel "EUROJUST" ;
+     foaf:based_near <http://dbpedia.org/resource/The_Hague> ;
+     foaf:homepage <http://www.eurojust.europa.eu/> . 
+
+eui:europol a eui:Police_And_Judicial_Cooperation_In_criminal_Matters_Agency ;
+     dct:description """Europol is the European Union law enforcement agency that handles the exchange and analysis of criminal intelligence. Its mission is to improve the effectiveness and cooperation between EU law enforcement authorities in preventing and combating serious international crime and terrorism, with the aim of achieving a safer Europe for all EU citizens.
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Police Office" ;
+     georss:point "52.083333 4.316667" ;
+     owl:sameAs <http://dbpedia.org/resource/Europol> ;
+     geo:lat "52.083333"^^xsd:float ;
+     geo:long "4.316667"^^xsd:float ;
+     skos:altLabel "EUROPOL" ;
+     foaf:based_near <http://dbpedia.org/resource/The_Hague> ;
+     foaf:homepage <http://www.europol.europa.eu/> . 
+
+eui:eusc a eui:Common_Security_And_Defence_Policy_Agency ;
+     dct:description """The European Union Satellite Centre (EUSC) is an agency of the European Union's (EU) Council of Ministers which gathers information through satellite images.
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Union Satellite Centre" ;
+     georss:point "40.45 -3.483333" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Union_Satellite_Centre> ;
+     geo:lat "40.45"^^xsd:float ;
+     geo:long "-3.483333"^^xsd:float ;
+     skos:altLabel "EUSC" ;
+     foaf:based_near <http://dbpedia.org/resource/Torrejón_de_Ardoz> ;
+     foaf:homepage <http://www.eusc.europa.eu/> . 
+
+eui:f4e a eui:EURATOM_Agency ;
+     dct:description "Fusion for Energy (F4E) was established in April 2007 for a period of 35 years. It primarily manages Europe’s contribution to ITER, the international fusion energy project. One of its main tasks is to work together with European industry and research organisations to develop and provide a wide range of high technology components for the ITER project." ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Joint Undertaking for ITER and the Development of Fusion Energy" ;
+     georss:point "41.40722 2.21823" ;
+     owl:sameAs <http://dbpedia.org/resource/Fusion_for_Energy> ;
+     geo:lat "41.40722"^^xsd:float ;
+     geo:long "2.21823"^^xsd:float ;
+     skos:altLabel "F4E", "Fusion for Energy" ;
+     foaf:based_near <http://dbpedia.org/resource/Barcelona> ;
+     foaf:homepage <http://fusionforenergy.europa.eu/> . 
+
+eui:fra a eui:Policy_Agency ;
+     dct:description """The European Union Agency for Fundamental Rights (FRA) is an EU body tasked with collecting and analysing data on fundamental rights with reference to, in principle, all rights listed in the Charter; however, it is intended to focus particularly on the thematic areas within the scope of EU law.
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Judicial_branch> ;
+     dct:title "European Union Agency for Fundamental Rights" ;
+     georss:point "48.208333 16.373056" ;
+     owl:sameAs <http://dbpedia.org/resource/Fundamental_Rights_Agency> ;
+     geo:lat "48.208333"^^xsd:float ;
+     geo:long "16.373056"^^xsd:float ;
+     skos:altLabel "FRA" ;
+     foaf:based_near <http://dbpedia.org/resource/Vienna> ;
+     foaf:homepage <http://fra.europa.eu/> . 
+
+eui:frontex a eui:Policy_Agency ;
+     dct:description """FRONTEX coordinates operational cooperation between Member States in the field of management of external borders; assists Member States in the training of national border guards, including the establishment of common training standards; carries out risk analyses; follows up the development of research relevant for the control and surveillance of external borders; assists Member States in circumstances requiring increased technical and operational assistance at external borders; and provides Member States with the necessary support in organising joint return operations.
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Agency for the Management of Operational Cooperation at the External Borders" ;
+     georss:point "52.23 21.010833" ;
+     owl:sameAs <http://dbpedia.org/resource/Frontex> ;
+     geo:lat "52.23"^^xsd:float ;
+     geo:long "21.010833"^^xsd:float ;
+     skos:altLabel "FRONTEX" ;
+     foaf:based_near <http://dbpedia.org/resource/Warsaw> ;
+     foaf:homepage <http://www.frontex.europa.eu/> . 
+
+eui:gsa a eui:Policy_Agency ;
+     dct:description """The European GNSS Agency (GSA; formerly European GNSS Supervisory Authority) is an agency of the European Union based in Brussels, Belgium. Its objective is to ensure that essential public interests are properly defended and represented in connection with European Union's satellite navigation programmes (GALILEO and EGNOS).
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European GNSS Supervisory Authority" ;
+     georss:point "50.83924 4.38393" ;
+     owl:sameAs <http://dbpedia.org/resource/European_GNSS_Agency> ;
+     geo:lat "50.83924"^^xsd:float ;
+     geo:long "4.38393"^^xsd:float ;
+     skos:altLabel "GSA" ;
+     foaf:based_near <http://dbpedia.org/resource/Brussels> ;
+     foaf:homepage <http://www.gsa.europa.eu/> . 
+
+eui:iss a eui:Common_Security_And_Defence_Policy_Agency ;
+     dct:description """The EU Institute for Security Studies (EUISS) – an autonomous agency  based in Paris – is an integral part of the support structures for the EU's common foreign and security policy (CFSP).
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Union Institute for Security Studies" ;
+     georss:point "48.856667 2.350833" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Union_Institute_for_Security_Studies> ;
+     geo:lat "48.856667"^^xsd:float ;
+     geo:long "2.350833"^^xsd:float ;
+     skos:altLabel "ISS" ;
+     foaf:based_near <http://dbpedia.org/resource/Paris> ;
+     foaf:homepage <http://www.iss.europa.eu/> . 
+
+eui:jcourt a eui:EU_Institution ;
+     dct:description "The Court of Justice's job is to make sure that EU legislation is interpreted and applied in the same way in all EU countries, so that the law is equal for everyone. It ensures, for example, that national courts do not give different rulings on the same issue." ;
+     dct:subject <http://dbpedia.org/resource/Judicial_branch> ;
+     dct:title "Court of Justice" ;
+     georss:point "49.62105 6.140616" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Court_of_Justice> ;
+     geo:lat "49.62105"^^xsd:float ;
+     geo:long "6.140616"^^xsd:float ;
+     skos:altLabel "Court", "Court of Justice of the European Communities" ;
+     foaf:based_near <http://dbpedia.org/resource/Luxembourg_(city)> ;
+     foaf:homepage <http://curia.europa.eu/> . 
+
+eui:ohim a eui:Policy_Agency ;
+     dct:description """The OHIM is the official authority carrying out the procedures for the Community trade marks since 1996 and for the Community registered design from 2003.
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "Office for Harmonisation in the Internal Market (Trade Marks and Designs)" ;
+     georss:point "38.345278 -0.483056" ;
+     owl:sameAs <http://dbpedia.org/resource/Office_for_Harmonization_in_the_Internal_Market> ;
+     geo:lat "38.345278"^^xsd:float ;
+     geo:long "-0.483056"^^xsd:float ;
+     skos:altLabel "OHIM" ;
+     foaf:based_near <http://dbpedia.org/resource/Alicante> ;
+     foaf:homepage <http://oami.europa.eu/> . 
+
+eui:osha a eui:Policy_Agency ;
+     dct:description """The European Agency for Safety and Health at Work (EU-OSHA) was set up in 1996 in Bilbao, Spain. Its mission is to make Europe's workplaces safer, healthier and more productive.
+			""" ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "European Agency for Safety and Health at Work" ;
+     georss:point "43.256944 -2.923611" ;
+     owl:sameAs <http://dbpedia.org/resource/European_Agency_for_Safety_and_Health_at_Work> ;
+     geo:lat "43.256944"^^xsd:float ;
+     geo:long "-2.923611"^^xsd:float ;
+     skos:altLabel "EU-OSHA" ;
+     foaf:based_near <http://dbpedia.org/resource/Bilbao> ;
+     foaf:homepage <http://www.osha.europa.eu/> . 
+
+eui:pubo a eui:Interinstitutional_Body ;
+     dct:description "The Publications Office of the European Union acts as the publishing house for the EU institutions, producing and distributing all official European Union publications, on paper and in digital form." ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "Publications Office of the European Union" ;
+     georss:point "49.59906 6.13147" ;
+     owl:sameAs <http://dbpedia.org/resource/Publications_Office_of_the_European_Union> ;
+     geo:lat "49.59906"^^xsd:float ;
+     geo:long "6.13147"^^xsd:float ;
+     skos:altLabel "Publications Office" ;
+     foaf:based_near <http://dbpedia.org/resource/Luxembourg_(city)> ;
+     foaf:homepage <http://publications.europa.eu/> . 
+
+eui:rea a eui:Executive_Agency ;
+     dct:description "The Research Executive Agency (REA), located in Brussels, was created in December 2007. Managing over €6.5 billion, it started its work in 2008, and became fully autonomous on 15 June 2009." ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "Research Executive Agency" ;
+     georss:point "50.83924 4.38393" ;
+     geo:lat "50.83924"^^xsd:float ;
+     geo:long "4.38393"^^xsd:float ;
+     skos:altLabel "REA" ;
+     foaf:based_near <http://dbpedia.org/resource/Brussels> ;
+     foaf:homepage <http://ec.europa.eu/research/rea> . 
+
+eui:tent a eui:Executive_Agency ;
+     dct:description "The Trans-European Transport Network Executive Agency (TEN-T EA) assures the technical and financial implementation and management of the Trans-European Transport Network (TEN-T) programme." ;
+     dct:subject <http://dbpedia.org/resource/Executive_(government)> ;
+     dct:title "Trans-European Transport Network Executive Agency" ;
+     georss:point "50.83924 4.38393" ;
+     owl:sameAs <http://dbpedia.org/resource/Trans-European_Transport_Network_Executive_Agency> ;
+     geo:lat "50.83924"^^xsd:float ;
+     geo:long "4.38393"^^xsd:float ;
+     skos:altLabel "TEN-T EA" ;
+     foaf:based_near <http://dbpedia.org/resource/Brussels> ;
+     foaf:homepage <http://ec.europa.eu/transport/infrastructure/> . 
+
+eui:Specialised_Body dct:title "Specialised body of the European Union" ;
+     rdfs:subClassOf org:Organization . 
+
+eui:Consultative_Body dct:title "Consultative body of the European Union" ;
+     rdfs:subClassOf org:Organization . 
+
+eui:EURATOM_Agency dct:title "EURATOM Agency" ;
+     rdfs:subClassOf eui:Decentralised_Body . 
+
+eui:Common_Security_And_Defence_Policy_Agency dct:title "Common Security and Defence Policy Agency" ;
+     rdfs:subClassOf eui:Regulatory_Agency . 
+
+eui:Decentralised_Body dct:title "Decentralised body of the European Union" ;
+     rdfs:subClassOf org:Organization . 
+
+eui:Financial_Body dct:title "Financial body of the European Union" ;
+     rdfs:subClassOf org:Organization . 
+
+eui:Police_And_Judicial_Cooperation_In_criminal_Matters_Agency dct:title "Police and judicial cooperation in criminal matters Agency" ;
+     rdfs:subClassOf eui:Regulatory_Agency . 
+
+eui:Regulatory_Agency dct:title "Regulatory Agency" ;
+     rdfs:subClassOf eui:Decentralised_Body . 
+
+eui:Interinstitutional_Body dct:title "Interinstitutional body of the European Union" ;
+     rdfs:subClassOf org:Organization . 
+
+eui:EU_Institution dct:title "Institution of the European Union" ;
+     rdfs:subClassOf org:Organization . 
+
+eui:Executive_Agency dct:title "Executive Agency" ;
+     rdfs:subClassOf eui:Decentralised_Body . 
+
+eui:Policy_Agency dct:title "Policy Agency" ;
+     rdfs:subClassOf eui:Regulatory_Agency . 
