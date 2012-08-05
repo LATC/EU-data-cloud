@@ -138,6 +138,13 @@ a:hover {
 	width: 950px;
 }
 
+#ack {
+	bottom: 10px;
+	right: 10px;
+	position: fixed;
+}
+
+
 .entity {
 	cursor: pointer;
 	font-family: Helvetica, Verdana, sans-serif; 

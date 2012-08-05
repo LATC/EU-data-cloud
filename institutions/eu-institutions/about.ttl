@@ -5,17 +5,13 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
-@prefix xhv: <http://www.w3.org/1999/xhtml/vocab#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
 
 <http://institutions.publicdata.eu/about/> a void:DatasetDescription ;
      dct:title "VoID description of the Institutions and Bodies of the European Union dataset" ;
      rdfs:seeAlso <http://www.w3.org/TR/void/> ;
      foaf:primaryTopic <http://institutions.publicdata.eu/#EU_Institutions_Bodies> . 
-
-<text:> xhv:stylesheet <css/style.css> . 
 
 <http://institutions.publicdata.eu/about/#lsdbpedia> a void:Linkset ;
      void:linkPredicate <http://www.w3.org/2002/07/owl#sameAs> ;
@@ -29,9 +25,9 @@
      dct:publisher <http://sw-app.org/mic.xhtml#i>, <http://www.anjeve.de/foaf.rdf#AnjaJentzsch> ;
      dct:subject <http://dbpedia.org/resource/Europe>, <http://dbpedia.org/resource/European_Union>, <http://dbpedia.org/resource/Organization> ;
      dct:title "Institutions and Bodies of the European Union" ;
-     void:dataDump <http://institutions.publicdata.eu/> ;
+     void:dataDump <http://institutions.publicdata.eu/>, <http://institutions.publicdata.eu/all.ttl> ;
      void:exampleResource <http://institutions.publicdata.eu/#ec> ;
-     void:feature <http://www.w3.org/ns/formats/RDFa> ;
+     void:feature <http://www.w3.org/ns/formats/RDFa>, <http://www.w3.org/ns/formats/Turtle> ;
      void:subset <http://institutions.publicdata.eu/about/#lsdbpedia> ;
      void:vocabulary
          <http://purl.org/dc/terms/>,
