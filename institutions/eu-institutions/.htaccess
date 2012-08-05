@@ -1,2 +1,2 @@
 RewriteEngine on 
-RewriteRule ^.well-known/void$ about.html [L]
+RewriteRule ^.well-known/void$ about.html
