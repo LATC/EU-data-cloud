@@ -13,6 +13,8 @@ The following figure gives you an idea of the development and projection of EU-l
 
 ![EU-level dataset development](https://github.com/LATC/24-7-platform/raw/master/doc/img/datasets-development.png "EU-level dataset development")
 
+![EU Data Cloud diagram](https://raw.github.com/LATC/EU-data-cloud/master/diagram/eu-data-cloud-thumbnail.png "EU Data Cloud diagram")
+
 
 ## Contact
 
