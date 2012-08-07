@@ -8,7 +8,5 @@
 
 ## Other
 
-* formats (RDF/XML, Turtle, JSON, CSV)
-* examples
-* VoiD redirect http://www.w3.org/TR/void/#well-known
+* examples and queries
 * CORS enable
