@@ -1,0 +1,18 @@
+@prefix eurostat: <http://eurostat.linked-statistics.org/dic/geo#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+
+# These mappings were generated manually by examining both
+# datasets. They cover all codes used in the FU Berlin
+# dataset that are not in the DERI Eurostat dataset.
+
+eurostat:DK0 skos:exactMatch <http://www4.wiwiss.fu-berlin.de/eurostat/resource/regions/Danmark> .
+eurostat:SI0 skos:exactMatch <http://www4.wiwiss.fu-berlin.de/eurostat/resource/regions/Slovenija> .
+eurostat:SE skos:exactMatch <http://www4.wiwiss.fu-berlin.de/eurostat/resource/regions/Sverige> .
+eurostat:SE11 skos:exactMatch <http://www4.wiwiss.fu-berlin.de/eurostat/resource/regions/Stockholm> .
+eurostat:SE12 skos:exactMatch <http://www4.wiwiss.fu-berlin.de/eurostat/resource/regions/%C3%96stra_Mellansverige> .
+eurostat:SE22 skos:exactMatch <http://www4.wiwiss.fu-berlin.de/eurostat/resource/regions/Sydsverige> .
+eurostat:SE31 skos:exactMatch <http://www4.wiwiss.fu-berlin.de/eurostat/resource/regions/Norra_Mellansverige> .
+eurostat:SE32 skos:exactMatch <http://www4.wiwiss.fu-berlin.de/eurostat/resource/regions/Mellersta_Norrland> .
+eurostat:SE33 skos:exactMatch <http://www4.wiwiss.fu-berlin.de/eurostat/resource/regions/%C3%96vre_Norrland> .
+eurostat:SE21 skos:exactMatch <http://www4.wiwiss.fu-berlin.de/eurostat/resource/regions/Sm%C3%A5land_Med_%C3%B6arna> .
+eurostat:SE23 skos:exactMatch <http://www4.wiwiss.fu-berlin.de/eurostat/resource/regions/V%C3%A4stsverige> .

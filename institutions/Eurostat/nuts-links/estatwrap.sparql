@@ -1,0 +1,12 @@
+PREFIX ramon: <http://rdfdata.eionet.europa.eu/ramon/ontology/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+#SELECT DISTINCT ?region ?label
+CONSTRUCT { ?eurostat skos:exactMatch ?region }
+FROM <http://estatwrap.ontologycentral.com/dic/geo>
+FROM NAMED <http://eurostat.linked-statistics.org/dic/geo.rdf>
+{
+  ?region a ramon:NUTSRegion
+  BIND (IRI(CONCAT("http://eurostat.linked-statistics.org/dic/geo#", STRAFTER(STR(?region), "#"))) AS ?eurostat)
+  OPTIONAL { GRAPH <http://eurostat.linked-statistics.org/dic/geo.rdf> { ?eurostat skos:prefLabel ?label } }
+}
+ORDER BY ?code

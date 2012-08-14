@@ -195,3 +195,10 @@ There are few pitfalls in our current approach of converting eurostat datasets i
 * Some datasets have time period associated to an obervation in the following way : `1989_1993`, see [dataset] (http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=1&file=data%2Furb_ikey.tsv.gz). In the `.tsv` files, we dont have `TIME_FORMAT` value which actually tells if the observation value is for 1 year or X number of years. So for now, we are transforming values like `1989_1993` into `1989-01-01`.
 * The `FREQ` value is missing in the `.tsv` files of all datasets, which is necessary to represent the observation values. In order to represent `FREQ` value for each observation value we extract the first `FREQ` value from the `sdmx` file of each dataset with the assumption that the `FREQ` value will remains same for all the observation values in that particular dataset.
 * Certain observation values are represented as `-`, e.g. see [dataset] (http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=1&file=data%2Fearn_mw_cur.tsv.gz). We assume these values to be `0` and replace values (i.e. `-`) with `0` in RDF. 
+
+
+## Further resources
+
+* Eurostat has [shapefiles for NUTS regions](http://epp.eurostat.ec.europa.eu/portal/page/portal/gisco_Geographical_information_maps/popups/references/administrative_units_statistical_units_1)
+* [NUTS-RDF](http://nuts.geovocab.org/) is a browser for NUTS regions that has a nice map view attached. We have links to NUTS-RDF.
+* [Linked NUTS](http://nuts.psi.enakting.org/) is an excellent conversion of the NUTS codes to RDF, including the various versions of NUTS that existed over time.

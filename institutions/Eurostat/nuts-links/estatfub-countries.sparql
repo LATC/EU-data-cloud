@@ -1,0 +1,13 @@
+PREFIX estatfub: <http://www4.wiwiss.fu-berlin.de/eurostat/resource/eurostat/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+#SELECT DISTINCT ?code ?region ?label
+CONSTRUCT { ?eurostat skos:exactMatch ?region }
+FROM <http://eurostat.linked-statistics.org/dic/geo.rdf>
+{
+  SERVICE <http://www4.wiwiss.fu-berlin.de/eurostat/sparql> {
+    ?region a estatfub:countries; estatfub:geocode ?code
+  }
+  BIND (IRI(CONCAT("http://eurostat.linked-statistics.org/dic/geo#", REPLACE(UCASE(?code), "GR", "EL"))) AS ?eurostat)
+  OPTIONAL { ?eurostat skos:prefLabel ?label }
+}
+ORDER BY ?code

@@ -1,0 +1,14 @@
+RewriteEngine on 
+
+# Rewrite rule to serve HTML content from if requested
+RewriteCond %{HTTP_ACCEPT} text/html [OR]
+RewriteCond %{HTTP_ACCEPT} application/xhtml\+xml [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Mozilla/.*
+RewriteRule ^.well-known/void$ /about.html [R=302]
+
+# Rewrite rule to serve RDF/Turtle content if requested
+RewriteCond %{HTTP_ACCEPT} text/turtle
+RewriteRule ^.well-known/void$ /about.ttl [R=302]
+
+# By default serve RDF/Turtle
+RewriteRule ^.well-known/void$ /about.ttl [R=302]

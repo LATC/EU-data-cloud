@@ -1,0 +1,12 @@
+PREFIX ramon-geo: <http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+#SELECT DISTINCT ?country ?code ?label
+CONSTRUCT { ?eurostat skos:exactMatch ?country }
+FROM <http://ec.europa.eu/eurostat/ramon/rdfdata/countries.rdf>
+FROM NAMED <http://eurostat.linked-statistics.org/dic/geo.rdf>
+{
+  ?country a ramon-geo:Country; ramon-geo:code ?code
+  BIND (IRI(CONCAT("http://eurostat.linked-statistics.org/dic/geo#", ?code)) AS ?eurostat)
+  OPTIONAL { GRAPH <http://eurostat.linked-statistics.org/dic/geo.rdf> { ?eurostat skos:prefLabel ?label } }
+}
+ORDER BY ?code

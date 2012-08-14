@@ -13,6 +13,7 @@
   xmlns:org="http://www.w3.org/ns/org#"
   xmlns:skos="http://www.w3.org/2004/02/skos/core#">
 <head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 	<title>Eurostat - Linked Data</title>
 	<link type="text/css" rel="stylesheet" href="style.css" />
 </head>
@@ -219,7 +220,20 @@ ORDER BY ?country ?year ?presentation</pre>
 		The VoID description, the codelists and the metadata about the datasets are available via the SPARQL endpoint (Apache Jena <a href="http://incubator.apache.org/jena/documentation/serving_data/">Fuseki</a>).
 		</p>
 		<p>
-		Currently, we have interlinked the regional entities (countries in particular) through <code>owl:sameAs</code> to DBpedia and LinkedGeoData, using the <a href="http://www4.wiwiss.fu-berlin.de/bizer/silk/">Silk Link Discovery Framework</a> - see also the <a href="https://github.com/LATC/24-7-platform/tree/master/link-specifications">link specifications</a> we used.
+		Currently, we have interlinked the regional entities (countries and NUTS regions) through <code>skos:exactMatch</code> and <code>skos:closeMatch</code> links to a number of other datasets:
+    </p>
+    <table>
+      <tr><th>Target</th><th>Links</th></tr>
+      <tr><td><a href="http://thedatahub.org/dataset/dbpedia">DBpedia</a></td><td class="number">1635</td></tr>
+      <tr><td><a href="http://thedatahub.org/dataset/linkedgeodata">LinkedGeoData</a></td><td class="number">1559</td></tr>
+      <tr><td><a href="http://thedatahub.org/dataset/eurostat-rdf">RAMON</a></td><td class="number">2048</td></tr>
+      <tr><td><a href="http://thedatahub.org/dataset/fu-berlin-eurostat">FU Berlin Eurostat</a></td><td class="number">425</td></tr>
+      <tr><td><a href="http://thedatahub.org/dataset/linked-eurostat">Eurostat Linked Data Wrapper</a></td><td class="number">4401</td></tr>
+      <tr><td><a href="http://thedatahub.org/dataset/linked-nuts">Linked NUTS</a></td><td class="number">2068</td></tr>
+      <tr><td><a href="http://thedatahub.org/dataset/nuts-geovocab">nuts.geovocab.org</a></td><td class="number">1927</td></tr>
+    </table>
+    <p>
+    Links were generated using a number of mechanisms, including the <a href="http://www4.wiwiss.fu-berlin.de/bizer/silk/">Silk Link Discovery Framework</a> (see <a href="https://github.com/LATC/EU-data-cloud/tree/master/institutions/Eurostat/silk/linkSpecs">link specifications</a>) and <code>SPARQL CONSTRUCT</code> against the source dataset (see <a href="https://github.com/LATC/EU-data-cloud/tree/master/institutions/Eurostat/nuts-links">queries</a>).
 		</p>
 
     </div>
