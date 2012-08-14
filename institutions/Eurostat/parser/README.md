@@ -1,7 +1,9 @@
 #Batch Scripts
 
+The following scripts are used in the Eurostat Linked Data conversion process. The scripts can be used together or standalone in order to serve different scenarios. In the following, a brief description on how to run each script is outlined.
+
 ## ParseToC
-Parses the [Table of Contents](http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=1&amp;file=table_of_contents.xml "Bulk Download") and retrieve all dataset URLS.
+Parses the [Table of Contents](http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=1&amp;file=table_of_contents.xml "Bulk Download") and prints the dataset URLs:
 
 How to Run on Windows: `ParseToC.bat -n 5`
 
@@ -9,14 +11,21 @@ How to Run on Linux: `sh ParseToC.sh -n 5`
 
 Type `-h` for help.
 
+where 
+	* `n` represents the number of dataset URLs to print
+
 ## UnCompressFile
-Parses the contents of the compressed dataset file:
+Uncompresses the contents of the compressed file:
 
 How to Run on Windows: `UnCompressFile.bat -i c:/test/zip/bsbu_m.sdmx.zip -o c:/uncompress/`
 
 How to Run on Linux: `sh UnCompressFile.sh -i ~/test/zip/bsbu_m.sdmx.zip -o ~/uncompress/`
 
 Type `-h` for help.
+
+where 
+	* `i` is the input directory path of the compressed file
+	* `o` is output directory path where the contents of the compressed file will be stored
 
 ## DonwloadZipFile
 Downloads the compressed dataset file from the URL:
