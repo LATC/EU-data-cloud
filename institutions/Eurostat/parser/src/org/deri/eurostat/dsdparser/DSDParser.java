@@ -44,7 +44,7 @@ import com.hp.hpl.jena.rdf.model.Resource;
  */
 
 /*
- * Slovenia in french language is being written in different characters than represented in the DSD XML file. Check
+ * TODO: Slovenia in french language is being written in different characters than represented in the DSD XML file. Check
  * Multi-Language issue in jena
  *  
  */

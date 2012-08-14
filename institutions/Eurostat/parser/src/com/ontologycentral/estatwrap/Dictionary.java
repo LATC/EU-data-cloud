@@ -48,6 +48,11 @@ public class Dictionary {
 				out.writeCharacters(label);
 				out.writeEndElement();
 				
+				// fix for #36
+				out.writeStartElement("skos:notation");
+				out.writeCharacters(id);
+				out.writeEndElement();
+				
 				addMappings(out, id);
 				
 				out.writeEndElement();
