@@ -12,6 +12,7 @@ How to Run on Linux: `sh ParseToC.sh -n 5`
 Type `-h` for help.
 
 where 
+	
 	* `n` represents the number of dataset URLs to print
 
 ## UnCompressFile
@@ -24,6 +25,7 @@ How to Run on Linux: `sh UnCompressFile.sh -i ~/test/zip/bsbu_m.sdmx.zip -o ~/un
 Type `-h` for help.
 
 where 
+	
 	* `i` is the input directory path of the compressed file
 	* `o` is output directory path where the contents of the compressed file will be stored
 
