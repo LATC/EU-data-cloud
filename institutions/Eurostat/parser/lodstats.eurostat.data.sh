@@ -19,15 +19,16 @@ echo "$columns" >> "$logfile";
 for file in $files;
     do
         filename=$(basename $file);
+        datasetname=${filename%.rdf*};
 
         dtstart="$(date +%s)";
         date=$(date +"%Y-%m-%dT%TZ");
-        lodstats -f rdf -va "$file" > "$pathoutput$filename.stats.ttl";
+        lodstats -f rdf -va "$file" > "$pathoutput$datasetname.ttl";
         dtend="$(date +%s)";
 
         duration="$(expr $dtend - $dtstart)";
 
-        log="$date, $duration, $file, $pathoutput$filename.stats.ttl";
+        log="$date, $duration, $file, $pathoutput$datasetname.ttl";
         echo "$log";
         echo "$log" >> "$logfile";
     done;
