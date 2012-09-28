@@ -9,7 +9,7 @@
 . $HOME/lodstats-env/bin/activate;
 
 files="/3TB/eurostat/data/*.rdf";
-pathoutput="/home/sarcap/lodstats/eurostat/data/";
+pathoutput="/home/sarcap/lodstats/eurostat/stats/";
 logfile="$pathoutput""lodstats.eurostat.data.log.csv";
 
 columns="dtstart, duration, file, lodstats";
